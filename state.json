@@ -1,10 +1,25 @@
 {
+ "alerts": {
+  "src:games|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/\n403 Client Error: Forbidden for url: https://mezha.ua/feed/",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1791659730.9636183
+  },
+  "src:movies|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/\n403 Client Error: Forbidden for url: https://mezha.ua/feed/",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1791659732.4532318
+  }
+ },
  "seen": {
   "03f20cb96bdf5ebf": 1791636717.6413405,
   "055bbbcbf5b3ae19": 1791638179.5917444,
   "070d309edf47bb38": 1791643484.7724442,
   "071f28d3e5f796e6": 1791654234.9343066,
   "07c9a77e54e23e67": 1791642308.7748382,
+  "0ad97e6b188589e7": 1791659734.5990682,
   "1063bc2bd4d94992": 1791642324.2730968,
   "15f791af37d54966": 1791643484.7724442,
   "1943ecf2ed17c0e9": 1791638165.0720973,
@@ -50,6 +65,7 @@
   "a77de70d8d9838d3": 1791638213.533524,
   "a791ca7315735e90": 1791639240.4878817,
   "ac39c84a341d99f8": 1791654239.7815897,
+  "b6e9e7ddd669ee7a": 1791659741.1528728,
   "bd28dc198e354d61": 1791643484.7724442,
   "c299434ecc56681e": 1791642319.3450685,
   "ca925f90135eae9c": 1791643484.7724442,
@@ -100,6 +116,11 @@
    "",
    1791644931.240576
   ],
+  "q:gods with badges": [
+   4462400,
+   "Gods With Badges",
+   1791659739.1179066
+  ],
   "q:hill": [
    0,
    "",
@@ -135,6 +156,11 @@
    "Resident Evil",
    1791650186.439637
   ],
+  "q:scaffold": [
+   0,
+   "",
+   1791659738.65176
+  ],
   "q:second and third waves": [
    0,
    "",
@@ -154,6 +180,11 @@
    2075800,
    "STAR WARS Zero Company™",
    1791654253.376618
+  ],
+  "q:strange scaffold": [
+   0,
+   "",
+   1791659738.1565754
   ],
   "q:team fortress 2": [
    440,
@@ -315,1028 +346,1798 @@
   [
    1791658404.162812,
    "TV Legend Lee Majors Joined This Iconic Western Series In Its Final Season"
+  ],
+  [
+   1791659734.5990708,
+   "Why Poker Face Was Canceled At Peacock"
+  ],
+  [
+   1791659741.1528745,
+   "Strange Scaffold announces Gods With Badges, a tactics game where you decide when to switch off your bodycam"
   ]
  ],
  "wishlist": {
   "apps": {
    "1016800": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Chernobylite Complete Edition",
+    "price": "599,00₴",
+    "release": 1627466160
    },
    "1018020": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Contra Anniversary Collection",
+    "price": "279,00₴",
+    "release": 1560272460
    },
    "1030300": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Hollow Knight: Silksong",
+    "price": "415,00₴",
+    "release": 1756994412
    },
    "1035120": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Lust from Beyond",
+    "price": "268,00₴",
+    "release": 1615481459
    },
    "1040200": {
     "coming_soon": false,
-    "discount": 27
+    "discount": 27,
+    "name": "Crime Scene Cleaner",
+    "price": "437,00₴",
+    "release": 1723647079
    },
    "1054490": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Wingspan",
+    "price": "399,00₴",
+    "release": 1600357951
    },
    "1065310": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Evil West",
+    "price": "1 293,00₴",
+    "release": 1669071600
    },
    "1091500": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Cyberpunk 2077",
+    "price": "1 399,00₴",
+    "release": 1607558400
    },
    "1092790": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Inscryption",
+    "price": "349,00₴",
+    "release": 1634655900
    },
    "1096530": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Solasta: Crown of the Magister",
+    "price": "600,00₴",
+    "release": 1622126911
    },
    "1097350": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Weird West: Definitive Edition",
+    "price": "699,00₴",
+    "release": 1648731600
    },
    "110800": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "L.A. Noire",
+    "price": "499,00₴",
+    "release": 1320772620
    },
    "1135280": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Dead by Daylight - Stranger Things Chapter",
+    "price": "276,00₴",
+    "release": 1568736000
    },
    "1164940": {
     "coming_soon": false,
-    "discount": 75
+    "discount": 75,
+    "name": "Trepang2",
+    "price": "150,00₴",
+    "release": 1687363208
    },
    "1172380": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "STAR WARS Jedi: Fallen Order™",
+    "price": "1 199,00₴",
+    "release": 1573794000
    },
    "1172710": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Dune: Awakening",
+    "price": "1 149,00₴",
+    "release": 1749564063
    },
    "1190970": {
     "coming_soon": false,
-    "discount": 40
+    "discount": 40,
+    "name": "House Flipper 2",
+    "price": "346,00₴",
+    "release": 1702558427
    },
    "1203170": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Darksiders 4",
+    "price": null,
+    "release": null
    },
    "1213210": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Command & Conquer™ Remastered Collection",
+    "price": "699,00₴",
+    "release": 1591376400
    },
    "1230530": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Atlas Fallen: Reign Of Sand",
+    "price": "1 049,00₴",
+    "release": 1691618020
    },
    "1234430": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Ad Infinitum",
+    "price": "849,00₴",
+    "release": 1694707236
    },
    "1238060": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Dead Space™ 3",
+    "price": "699,00₴",
+    "release": 1592506399
    },
    "1245620": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "ELDEN RING",
+    "price": "1 799,00₴",
+    "release": 1645744078
    },
    "1252330": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "DEATHLOOP",
+    "price": "999,00₴",
+    "release": 1631592000
    },
    "1268750": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Starship Troopers: Extermination",
+    "price": "600,00₴",
+    "release": 1728604776
    },
    "1282730": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Loop Hero",
+    "price": "325,00₴",
+    "release": 1614880560
    },
    "1297900": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Gothic 1 Remake",
+    "price": "1 505,00₴",
+    "release": 1780678757
    },
    "1299290": {
     "coming_soon": false,
-    "discount": 60
+    "discount": 60,
+    "name": "Somber Echoes",
+    "price": "130,00₴",
+    "release": 1737460847
    },
    "1304930": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "The Outlast Trials",
+    "price": "740,00₴",
+    "release": 1709650061
    },
    "1325890": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "SILT",
+    "price": "229,00₴",
+    "release": 1654072659
    },
    "1328350": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Turbo Overkill",
+    "price": "372,00₴",
+    "release": 1691784163
    },
    "1361210": {
     "coming_soon": false,
-    "discount": 75
+    "discount": 75,
+    "name": "Warhammer 40,000: Darktide",
+    "price": "189,00₴",
+    "release": 1669831200
    },
    "1361510": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Teenage Mutant Ninja Turtles: Shredder's Revenge",
+    "price": "515,00₴",
+    "release": 1655384280
    },
    "1363080": {
     "coming_soon": false,
-    "discount": 35
+    "discount": 35,
+    "name": "Manor Lords",
+    "price": "389,00₴",
+    "release": 1714136367
    },
    "1371980": {
     "coming_soon": false,
-    "discount": 30
+    "discount": 30,
+    "name": "No Rest for the Wicked",
+    "price": "559,00₴",
+    "release": 1713456041
    },
    "1376200": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "KARMA: The Dark World",
+    "price": "416,00₴",
+    "release": 1743075839
    },
    "1378990": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Crash Bandicoot™ 4: It’s About Time",
+    "price": "1 699,00₴",
+    "release": 1666113942
    },
    "1429850": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Sumerian Six",
+    "price": "600,00₴",
+    "release": 1725292237
    },
    "1431300": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "SAND: Raiders of Sophie",
+    "price": "399,00₴",
+    "release": 1782150653
    },
    "1436700": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Trine 5: A Clockwork Conspiracy",
+    "price": "600,00₴",
+    "release": 1693486775
    },
    "1449110": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "The Outer Worlds 2",
+    "price": "2 299,00₴",
+    "release": 1761757153
    },
    "1449690": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "The Walking Dead: The Telltale Definitive Series",
+    "price": "925,00₴",
+    "release": 1603991832
    },
    "1458140": {
     "coming_soon": false,
-    "discount": 60
+    "discount": 60,
+    "name": "Pacific Drive",
+    "price": "443,00₴",
+    "release": 1708588765
    },
    "1466060": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Tainted Grail: The Fall of Avalon",
+    "price": "835,00₴",
+    "release": 1748012455
    },
    "1493640": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Banishers: Ghosts of New Eden",
+    "price": "1 279,00₴",
+    "release": 1707757080
    },
    "1497440": {
     "coming_soon": false,
-    "discount": 60
+    "discount": 60,
+    "name": "COCOON",
+    "price": "199,00₴",
+    "release": 1696003122
    },
    "1501750": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Lords of the Fallen",
+    "price": "899,00₴",
+    "release": 1697202293
    },
    "1556200": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Predator: Hunting Grounds",
+    "price": "415,00₴",
+    "release": 1619704518
    },
    "1577250": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "The Chant",
+    "price": "599,00₴",
+    "release": 1667484392
    },
    "1583230": {
     "coming_soon": false,
-    "discount": 75
+    "discount": 75,
+    "name": "High On Life",
+    "price": "174,00₴",
+    "release": 1670918400
    },
    "1585180": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Drova - Forsaken Kin",
+    "price": "515,00₴",
+    "release": 1729000686
    },
    "1587130": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Blood West",
+    "price": "499,00₴",
+    "release": 1701788704
    },
    "1590910": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Forgive Me Father",
+    "price": "430,00₴",
+    "release": 1649350688
    },
    "1608230": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Planet of Lana",
+    "price": "415,00₴",
+    "release": 1684853871
    },
    "1620730": {
     "coming_soon": false,
-    "discount": 70
+    "discount": 70,
+    "name": "Hell is Us",
+    "price": "450,00₴",
+    "release": 1757001588
    },
    "1621690": {
     "coming_soon": false,
-    "discount": 40
+    "discount": 40,
+    "name": "Core Keeper",
+    "price": "249,00₴",
+    "release": 1724749928
    },
    "1622910": {
     "coming_soon": false,
-    "discount": 33
+    "discount": 33,
+    "name": "Still Wakes the Deep",
+    "price": "679,00₴",
+    "release": 1718701237
    },
    "1627570": {
     "coming_soon": false,
-    "discount": 67
+    "discount": 67,
+    "name": "The Plucky Squire",
+    "price": "198,00₴",
+    "release": 1726588291
    },
    "1627720": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Lies of P",
+    "price": "1 625,00₴",
+    "release": 1695048142
    },
    "1649240": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Returnal™",
+    "price": "1 699,00₴",
+    "release": 1676476646
    },
    "1659600": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Teenage Mutant Ninja Turtles: The Cowabunga Collection",
+    "price": "479,00₴",
+    "release": 1661879160
    },
    "1672810": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "MIO: Memories in Orbit",
+    "price": "479,00₴",
+    "release": 1768924164
    },
    "1682970": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Uncrashed : FPV Drone Simulator",
+    "price": "399,00₴",
+    "release": 1630479899
    },
    "1689500": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Dune: Imperium",
+    "price": "474,00₴",
+    "release": 1710341902
    },
    "1728620": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "IKUMA - The Frozen Compass",
+    "price": null,
+    "release": null
    },
    "1737870": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "REKA",
+    "price": "415,00₴",
+    "release": 1726131242
    },
    "17470": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Dead Space (2008)",
+    "price": "699,00₴",
+    "release": 1231488000
    },
    "1748620": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "FlipWitch - Forbidden Sex Hex",
+    "price": "325,00₴",
+    "release": 1700278735
    },
    "1752080": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "HUNGER",
+    "price": null,
+    "release": null
    },
    "1774880": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Blight: Survival",
+    "price": null,
+    "release": null
    },
    "1790930": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Crisol: Theater of Idols",
+    "price": "375,00₴",
+    "release": 1770742839
    },
    "1807810": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "The Axis Unseen",
+    "price": "499,00₴",
+    "release": 1729602045
    },
    "1809540": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Nine Sols",
+    "price": "600,00₴",
+    "release": 1716965608
    },
    "1817190": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Marvel’s Spider-Man: Miles Morales",
+    "price": "1 499,00₴",
+    "release": 1668787080
    },
    "1881200": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "TRYP FPV: Drone Racer Simulator",
+    "price": "290,00₴",
+    "release": 1656576182
    },
    "1911610": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Windblown",
+    "price": "449,00₴",
+    "release": 1729785561
    },
    "1920290": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Barkour",
+    "price": null,
+    "release": null
    },
    "1929610": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Demonologist",
+    "price": "415,00₴",
+    "release": 1695653691
    },
    "1934570": {
     "coming_soon": false,
-    "discount": 30
+    "discount": 30,
+    "name": "South of Midnight",
+    "price": "839,00₴",
+    "release": 1744128060
    },
    "1939970": {
     "coming_soon": false,
-    "discount": 90
+    "discount": 90,
+    "name": "Nobody Wants to Die",
+    "price": "66,00₴",
+    "release": 1721227289
    },
    "1940340": {
     "coming_soon": false,
-    "discount": 69
+    "discount": 69,
+    "name": "Darkest Dungeon® II",
+    "price": "247,00₴",
+    "release": 1683560828
    },
    "1946700": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Layers of Fear",
+    "price": "600,00₴",
+    "release": 1686846522
    },
    "1951230": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Pizza Possum",
+    "price": "163,00₴",
+    "release": 1695920281
    },
    "1962700": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Subnautica 2",
+    "price": "899,00₴",
+    "release": 1778770800
    },
    "1978590": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Anger Foot",
+    "price": "415,00₴",
+    "release": 1720718198
    },
    "2019760": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Necrophosis",
+    "price": "340,00₴",
+    "release": 1745602918
    },
    "2055770": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Bloody Hell Hotel",
+    "price": null,
+    "release": null
    },
    "2062430": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "BALL x PIT",
+    "price": "325,00₴",
+    "release": 1760543329
    },
    "2067790": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Crimson Snow (2023)",
+    "price": "129,00₴",
+    "release": 1680082928
    },
    "2101960": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Cronos: The New Dawn",
+    "price": "1 599,00₴",
+    "release": 1757080603
    },
    "2118370": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Bosorka",
+    "price": "119,00₴",
+    "release": 1681488180
    },
    "2129530": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "REANIMAL",
+    "price": "740,00₴",
+    "release": 1770991110
    },
    "2160480": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Hellboy Web of Wyrd",
+    "price": "515,00₴",
+    "release": 1697640147
    },
    "2161620": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Lysfanga: The Time Shift Warrior",
+    "price": "649,00₴",
+    "release": 1707832878
    },
    "2172010": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Until Dawn™",
+    "price": "1 999,00₴",
+    "release": 1728053880
    },
    "2186990": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Fatekeeper",
+    "price": "355,00₴",
+    "release": 1780419403
    },
    "219150": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Hotline Miami",
+    "price": "225,00₴",
+    "release": 1351012140
    },
    "2215200": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "LEGO® Batman™: Legacy of the Dark Knight",
+    "price": "1 899,00₴",
+    "release": 1779469311
    },
    "2215430": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Ghost of Tsushima DIRECTOR'S CUT",
+    "price": "1 699,00₴",
+    "release": 1715871540
    },
    "2231020": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Chronicles: Medieval",
+    "price": null,
+    "release": null
    },
    "22330": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "The Elder Scrolls IV: Oblivion® Game of the Year Edition (2009)",
+    "price": "380,00₴",
+    "release": 1245168000
    },
    "2235020": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Contra: Operation Galuga",
+    "price": "740,00₴",
+    "release": 1710226860
    },
    "2269950": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "The Karters 2: Turbo Charged",
+    "price": "600,00₴",
+    "release": 1752767462
    },
    "234140": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Mad Max",
+    "price": "549,00₴",
+    "release": 1441090860
    },
    "2344520": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Diablo® IV",
+    "price": "1 696,00₴",
+    "release": 1697568600
    },
    "235460": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "METAL GEAR RISING: REVENGEANCE",
+    "price": "860,00₴",
+    "release": 1389290340
    },
    "2358720": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Black Myth: Wukong",
+    "price": "1 699,00₴",
+    "release": 1724119114
    },
    "2362070": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Hollow Home",
+    "price": null,
+    "release": null
    },
    "2377280": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Eriksholm: The Stolen Dream",
+    "price": "1 200,00₴",
+    "release": 1752584432
    },
    "2379910": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Dystopika",
+    "price": "163,00₴",
+    "release": 1718980279
    },
    "2417610": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "METAL GEAR SOLID Δ: SNAKE EATER",
+    "price": "1 475,00₴",
+    "release": 1756386023
    },
    "2420110": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Horizon Forbidden West™ Complete Edition",
+    "price": "1 699,00₴",
+    "release": 1711032960
    },
    "2420660": {
     "coming_soon": false,
-    "discount": 60
+    "discount": 60,
+    "name": "Neva",
+    "price": "166,00₴",
+    "release": 1729007124
    },
    "2428980": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Bye Sweet Carole",
+    "price": "680,00₴",
+    "release": 1760025246
    },
    "243950": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Divinity: Dragon Commander",
+    "price": "479,00₴",
+    "release": 1375772460
    },
    "2446540": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "SLEEP AWAKE",
+    "price": "600,00₴",
+    "release": 1764694795
    },
    "2461850": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Hellblade II: Senua’s Saga",
+    "price": "925,00₴",
+    "release": 1716278303
    },
    "2464280": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Tormented Souls 2",
+    "price": "949,00₴",
+    "release": 1761231561
    },
    "2468200": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "DDoD",
+    "price": null,
+    "release": null
    },
    "2486820": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Sonic Racing: CrossWorlds",
+    "price": "1 349,00₴",
+    "release": 1758816058
    },
    "250900": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "The Binding of Isaac: Rebirth",
+    "price": "229,00₴",
+    "release": 1415124000
    },
    "2513280": {
     "coming_soon": false,
-    "discount": 70
+    "discount": 70,
+    "name": "SONIC X SHADOW GENERATIONS",
+    "price": "599,00₴",
+    "release": 1729828630
    },
    "2536520": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Diablo II: Resurrected – Infernal Edition",
+    "price": "1 699,00₴",
+    "release": 1770849012
    },
    "2569760": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "The Mound: Omen of Cthulhu",
+    "price": "899,00₴",
+    "release": 1784109587
    },
    "2581410": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Stygian: Outer Gods",
+    "price": "530,00₴",
+    "release": 1744649399
    },
    "2590240": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "METRO 2039",
+    "price": null,
+    "release": 1801756800
    },
    "2622380": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "ELDEN RING NIGHTREIGN",
+    "price": "1 199,00₴",
+    "release": 1748555952
    },
    "2623190": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "The Elder Scrolls IV: Oblivion Remastered",
+    "price": "1 799,00₴",
+    "release": 1745334060
    },
    "2643540": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Age Twisters",
+    "price": null,
+    "release": null
    },
    "2644610": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Menace from the Deep",
+    "price": "360,00₴",
+    "release": 1731315366
    },
    "2651280": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Marvel's Spider-Man 2",
+    "price": "1 699,00₴",
+    "release": 1738252800
    },
    "2658450": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "LOLLIPOP CHAINSAW RePOP",
+    "price": "1 349,00₴",
+    "release": 1726114314
    },
    "2661300": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Grounded 2",
+    "price": "999,00₴",
+    "release": 1753808815
    },
    "2668510": {
     "coming_soon": false,
-    "discount": 41
+    "discount": 41,
+    "name": "Red Dead Redemption",
+    "price": "1 737,00₴",
+    "release": 1730210569
    },
    "2677660": {
     "coming_soon": false,
-    "discount": 40
+    "discount": 40,
+    "name": "Indiana Jones and the Great Circle",
+    "price": "1 469,00₴",
+    "release": 1733702499
    },
    "2680010": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "The First Berserker: Khazan",
+    "price": "1 649,00₴",
+    "release": 1743087633
    },
    "2694490": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Path of Exile 2",
+    "price": "600,00₴",
+    "release": 1733510040
    },
    "2697000": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "The Legend of Khiimori",
+    "price": "1 260,00₴",
+    "release": 1772550287
    },
    "2760560": {
     "coming_soon": false,
-    "discount": 32
+    "discount": 32,
+    "name": "Cthulhu: The Cosmic Abyss",
+    "price": "1 138,00₴",
+    "release": 1776355207
    },
    "2769570": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Fable",
+    "price": "2 299,00₴",
+    "release": 1803398400
    },
    "2787320": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Revenge of the Savage Planet",
+    "price": "555,00₴",
+    "release": 1746727200
    },
    "2806050": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Halo: Campaign Evolved",
+    "price": "1 999,00₴",
+    "release": 1785250830
    },
    "2807150": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Worshippers of Cthulhu",
+    "price": "515,00₴",
+    "release": 1747928406
    },
    "2814860": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Vindictus: Defying Fate",
+    "price": null,
+    "release": null
    },
    "2825860": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "The Sinking City 2",
+    "price": "1 365,00₴",
+    "release": 1787043436
    },
    "2838950": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Game of Thrones: War for Westeros",
+    "price": null,
+    "release": null
    },
    "2842040": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Star Wars Outlaws",
+    "price": "1 519,00₴",
+    "release": 1732211905
    },
    "285900": {
     "coming_soon": false,
-    "discount": 60
+    "discount": 60,
+    "name": "Gang Beasts",
+    "price": "155,00₴",
+    "release": 1513098600
    },
    "2862860": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Ukrainian Fight Drone Simulator (UFDS) - FPV drone simulator",
+    "price": "400,00₴",
+    "release": 1765371411
    },
    "2863640": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "The Midnight Walk",
+    "price": "600,00₴",
+    "release": 1746712615
    },
    "2863680": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "ZERO PARADES: Director's Cut",
+    "price": "749,00₴",
+    "release": 1779354201
    },
    "287310": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Re-Volt",
+    "price": "119,00₴",
+    "release": 1659078798
    },
    "2924520": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "ONTOS",
+    "price": null,
+    "release": null
    },
    "2947440": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "SILENT HILL f",
+    "price": "1 475,00₴",
+    "release": 1758772832
    },
    "295790": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Never Alone (Kisima Ingitchuna)",
+    "price": "229,00₴",
+    "release": 1416323613
    },
    "2975950": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Solasta II",
+    "price": "849,00₴",
+    "release": 1773324148
    },
    "2996040": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Teenage Mutant Ninja Turtles: Splintered Fate",
+    "price": "579,00₴",
+    "release": 1730908982
    },
    "3008130": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Dying Light: The Beast",
+    "price": "1 599,00₴",
+    "release": 1758211254
    },
    "301910": {
     "coming_soon": false,
-    "discount": 80
+    "discount": 80,
+    "name": "Saints Row: Gat out of Hell",
+    "price": "80,00₴",
+    "release": 1421967600
    },
    "3043580": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Keeper",
+    "price": "445,00₴",
+    "release": 1760713327
    },
    "3073940": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "God Save Birmingham",
+    "price": null,
+    "release": null
    },
    "3156770": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Witchfire",
+    "price": "740,00₴",
+    "release": 1727106719
    },
    "3161310": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Hela: of Mice & Magic",
+    "price": null,
+    "release": 1796119200
    },
    "3166960": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Armageddonica",
+    "price": null,
+    "release": null
    },
    "320240": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "We Happy Few",
+    "price": "1 330,00₴",
+    "release": 1533916800
    },
    "3228590": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Deadzone: Rogue",
+    "price": "449,00₴",
+    "release": 1754931634
    },
    "3240220": {
     "coming_soon": false,
-    "discount": 56
+    "discount": 56,
+    "name": "Grand Theft Auto V Enhanced",
+    "price": "879,00₴",
+    "release": 1741091880
    },
    "3241660": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "R.E.P.O.",
+    "price": "194,00₴",
+    "release": 1740578356
    },
    "3247750": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Mycopunk",
+    "price": "325,00₴",
+    "release": 1752165899
    },
    "3280350": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "DEATH STRANDING 2: ON THE BEACH",
+    "price": "2 299,00₴",
+    "release": 1773930523
    },
    "3292470": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Tides of Annihilation",
+    "price": null,
+    "release": null
    },
    "3295810": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Remote Reaper: FPV Combat Drone Simulator",
+    "price": "349,00₴",
+    "release": 1743768635
    },
    "3312250": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "FEAR OF FAITH",
+    "price": "194,00₴",
+    "release": 1787317035
    },
    "33230": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Assassin's Creed 2",
+    "price": "150,00₴",
+    "release": 1267749360
    },
    "3325350": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Catfall",
+    "price": null,
+    "release": null
    },
    "3449690": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Malys",
+    "price": "325,00₴",
+    "release": 1761259903
    },
    "3489700": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Stellar Blade™",
+    "price": "1 999,00₴",
+    "release": 1749678927
    },
    "3548810": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Ritual Tides",
+    "price": null,
+    "release": null
    },
    "3558670": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Tomb Raider: Legacy of Atlantis",
+    "price": "1 799,00₴",
+    "release": 1802455200
    },
    "356190": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Middle-earth™: Shadow of War™",
+    "price": "1 049,00₴",
+    "release": 1507597200
    },
    "3571870": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Darkhaven",
+    "price": null,
+    "release": null
    },
    "3590290": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "DIVE or DIE - Children of Rain",
+    "price": "450,00₴",
+    "release": 1784639994
    },
    "3629430": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "DREADMOOR",
+    "price": null,
+    "release": null
    },
    "3669870": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "CONTROL Resonant",
+    "price": "1 599,00₴",
+    "release": 1790258475
    },
    "3744430": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Together: Moon Escape",
+    "price": "225,00₴",
+    "release": 1776787167
    },
    "3751260": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "The Blood of Dawnwalker",
+    "price": "1 999,00₴",
+    "release": 1788386400
    },
    "3751950": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Assassin's Creed Black Flag Resynced",
+    "price": "1 799,00₴",
+    "release": 1783605420
    },
    "376210": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "The Isle",
+    "price": "415,00₴",
+    "release": 1449026834
    },
    "3764200": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Resident Evil Requiem",
+    "price": "1 999,00₴",
+    "release": 1772168388
    },
    "3772190": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "HALLOW BLADE",
+    "price": null,
+    "release": null
    },
    "3793270": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Bygoner",
+    "price": null,
+    "release": null
    },
    "3844970": {
     "coming_soon": false,
-    "discount": 25
+    "discount": 25,
+    "name": "Burglin' Gnomes",
+    "price": "172,00₴",
+    "release": 1781100003
    },
    "3906660": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Sacred 2 Remaster",
+    "price": "415,00₴",
+    "release": 1762869480
    },
    "3909600": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Rot Together",
+    "price": null,
+    "release": null
    },
    "3978820": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Rules of Engagement: The Grey State",
+    "price": "безкоштовно",
+    "release": null
    },
    "40300": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Risen",
+    "price": "325,00₴",
+    "release": 1254503700
    },
    "405310": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "LEGO® MARVEL's Avengers",
+    "price": "279,00₴",
+    "release": 1453830600
    },
    "4096780": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "The Missing Tail",
+    "price": null,
+    "release": null
    },
    "410340": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Liftoff®: FPV Drone Racing",
+    "price": "599,00₴",
+    "release": 1536830760
    },
    "4108000": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Machine Party",
+    "price": "199,00₴",
+    "release": 1785423324
    },
    "414700": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Outlast 2",
+    "price": "415,00₴",
+    "release": 1493092372
    },
    "4165890": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Steam Frame",
+    "price": null,
+    "release": 1789405200
    },
    "4199910": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Total War: WARHAMMER 40,000",
+    "price": null,
+    "release": null
    },
    "4393700": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Elderfeast",
+    "price": null,
+    "release": null
    },
    "4439310": {
     "coming_soon": false,
-    "discount": 45
+    "discount": 45,
+    "name": "Throbbin Hood 🏹🔞",
+    "price": "168,00₴",
+    "release": 1774714082
    },
    "459220": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Halo Wars: Definitive Edition",
+    "price": "699,00₴",
+    "release": 1492707855
    },
    "463530": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Empires of the Undergrowth",
+    "price": "399,00₴",
+    "release": 1717776742
    },
    "469820": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Genital Jousting",
+    "price": "163,00₴",
+    "release": 1516286121
    },
    "482400": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "System Shock",
+    "price": "965,00₴",
+    "release": 1685459032
    },
    "4824610": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "Resident Evil Veronica",
+    "price": null,
+    "release": null
    },
    "493520": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "GTFO",
+    "price": "599,00₴",
+    "release": 1639107094
    },
    "5006530": {
     "coming_soon": true,
-    "discount": 0
+    "discount": 0,
+    "name": "The Witcher 3: Wild Hunt — Songs of the Past",
+    "price": null,
+    "release": null
    },
    "501300": {
     "coming_soon": false,
-    "discount": 75
+    "discount": 75,
+    "name": "What Remains of Edith Finch",
+    "price": "99,00₴",
+    "release": 1493092830
    },
    "5053820": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Mimic Party",
+    "price": "170,00₴",
+    "release": 1787839319
    },
    "509980": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "BIGFOOT",
+    "price": "399,00₴",
+    "release": 1485854385
    },
    "524220": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "NieR:Automata™",
+    "price": "466,00₴",
+    "release": 1489766340
    },
    "526870": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Satisfactory",
+    "price": "740,00₴",
+    "release": 1725980394
    },
    "534380": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Dying Light 2 Stay Human: Reloaded Edition",
+    "price": "1 599,00₴",
+    "release": 1643932800
    },
    "553850": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "HELLDIVERS™ 2",
+    "price": "1 199,00₴",
+    "release": 1707382200
    },
    "582010": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Monster Hunter: World",
+    "price": "949,00₴",
+    "release": 1533744000
    },
    "594330": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Visage",
+    "price": "429,00₴",
+    "release": 1604030380
    },
    "594570": {
     "coming_soon": false,
-    "discount": 75
+    "discount": 75,
+    "name": "Total War: WARHAMMER II",
+    "price": "237,00₴",
+    "release": 1506582000
    },
    "598060": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Slasher's Keep",
+    "price": "219,00₴",
+    "release": 1605798042
    },
    "607080": {
     "coming_soon": false,
-    "discount": 65
+    "discount": 65,
+    "name": "Psychonauts 2",
+    "price": "244,00₴",
+    "release": 1629849420
    },
    "625960": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Stoneshard",
+    "price": "349,00₴",
+    "release": 1581012490
    },
    "646570": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Slay the Spire",
+    "price": "499,00₴",
+    "release": 1548258674
    },
    "673880": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Warhammer 40,000: Mechanicus",
+    "price": "600,00₴",
+    "release": 1542304800
    },
    "674940": {
     "coming_soon": false,
-    "discount": 60
+    "discount": 60,
+    "name": "Stick Fight: The Game",
+    "price": "40,00₴",
+    "release": 1506621634
    },
    "698670": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Scorn",
+    "price": "569,00₴",
+    "release": 1665741120
    },
    "718670": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Cultist Simulator",
+    "price": "279,00₴",
+    "release": 1527782400
    },
    "731040": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "The Invincible",
+    "price": "449,00₴",
+    "release": 1699282578
    },
    "739630": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Phasmophobia",
+    "price": "389,00₴",
+    "release": 1600451828
    },
    "750130": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "The Sinking City Remastered",
+    "price": "1 100,00₴",
+    "release": 1614355200
    },
    "753640": {
     "coming_soon": false,
-    "discount": 50
+    "discount": 50,
+    "name": "Outer Wilds",
+    "price": "249,00₴",
+    "release": 1592495439
    },
    "763890": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Wildermyth",
+    "price": "329,00₴",
+    "release": 1623776664
    },
    "773790": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Ostriv",
+    "price": "329,00₴",
+    "release": 1584617863
    },
    "779290": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Stygian: Reign of the Old Ones",
+    "price": "430,00₴",
+    "release": 1569517178
    },
    "803330": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Destroy All Humans!",
+    "price": "446,00₴",
+    "release": 1595955538
    },
    "809880": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Degrees of Separation",
+    "price": "279,00₴",
+    "release": 1550119927
    },
    "826940": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Maid of Sker",
+    "price": "329,00₴",
+    "release": 1595941260
    },
    "829110": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "LEGO® DC Super-Villains",
+    "price": "629,00₴",
+    "release": 1539709200
    },
    "847370": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Sunset Overdrive",
+    "price": "280,00₴",
+    "release": 1542387617
    },
    "867210": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Songs of Conquest",
+    "price": "600,00₴",
+    "release": 1716217521
    },
    "881100": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Noita",
+    "price": "279,00₴",
+    "release": 1602781382
    },
    "898890": {
     "coming_soon": false,
-    "discount": 29
+    "discount": 29,
+    "name": "Endling - Extinction is Forever",
+    "price": "699,00₴",
+    "release": 1658235579
    },
    "9010": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Return to Castle Wolfenstein",
+    "price": "130,00₴",
+    "release": 1186183800
    },
    "916350": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Saturnalia",
+    "price": "500,00₴",
+    "release": 1699462644
    },
    "916440": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Anno 1800",
+    "price": "915,00₴",
+    "release": 1555430400
    },
    "953490": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "CARRION",
+    "price": "415,00₴",
+    "release": 1595512800
    },
    "964800": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Prodeus",
+    "price": "459,00₴",
+    "release": 1663948691
    },
    "973760": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Thronebreaker: The Witcher Tales",
+    "price": "599,00₴",
+    "release": 1541790316
    },
    "976730": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Halo: The Master Chief Collection",
+    "price": "1 399,00₴",
+    "release": 1575396000
    },
    "977810": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "THE ENIGMA MACHINE",
+    "price": "99,00₴",
+    "release": 1543609451
    },
    "989440": {
     "coming_soon": false,
-    "discount": 0
+    "discount": 0,
+    "name": "Phantom Abyss",
+    "price": "415,00₴",
+    "release": 1706198311
    }
   },
-  "last_check": 1791658414.37008,
+  "last_check": 1791659751.0163233,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
