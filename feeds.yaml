@@ -1,5 +1,7 @@
 # Джерела новин. Щоб додати сайт — допиши рядок з його RSS-стрічкою.
 # Щоб прибрати — видали рядок або постав # на початку.
+# lang: uk — джерело вже українською, перекладач не використовується
+# (бот і сам розпізнає українські тексти, це просто підстраховка).
 
 categories:
   games:
@@ -15,6 +17,9 @@ categories:
         url: https://www.gamespot.com/feeds/game-news
       - name: Rock Paper Shotgun
         url: https://www.rockpapershotgun.com/feed/news
+      - name: DOU Gamedev
+        url: https://gamedev.dou.ua/feed/
+        lang: uk            # українською — без перекладу
 
   music:
     emoji: "🤘"
