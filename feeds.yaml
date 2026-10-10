@@ -105,6 +105,10 @@ weekly_releases:
   hour: 10          # година за Києвом
   top: 10           # скільки найочікуваніших ігор Steam показувати
 
+# Деякі сайти (напр. Mezha) не пускають сервери GitHub. Тоді бот читає їх
+# через твій воркер Cloudflare (сайти дозволено у змінній воркера PROXY_HOSTS).
+fetch_proxy: "https://alegzhanews.alegzha.workers.dev/feed"
+
 # Ліміти, щоб канал не перетворився на смітник
 limits:
   max_posts_per_run: 12        # максимум постів за одну перевірку (кожні 30 хв)
