@@ -348,6 +348,26 @@ def linked_title(title, games):
     return out, leftovers
 
 
+def discover_channels():
+    """Канали, які бот бачив в оновленнях (додавання адміном, нові пости)."""
+    found = {}
+    try:
+        updates = tg(
+            "getUpdates",
+            allowed_updates=json.dumps(["channel_post", "my_chat_member", "edited_channel_post"]),
+            limit=100,
+        )["result"]
+    except Exception as e:  # noqa: BLE001
+        log.info("getUpdates недоступний: %s", e)
+        return found
+    for u in updates:
+        for key in ("channel_post", "edited_channel_post", "my_chat_member"):
+            chat = (u.get(key) or {}).get("chat") or {}
+            if chat.get("type") == "channel":
+                found[str(chat["id"])] = chat.get("title") or chat.get("username") or "?"
+    return found
+
+
 def check_telegram():
     """Перевіряє токен і доступ до каналу до того, як щось перекладати."""
     global CHANNEL_ID
@@ -382,6 +402,16 @@ def check_telegram():
                 "Переконайся, що бот доданий у канал адміністратором; для приватного каналу потрібен id -100…",
                 label, e, describe_chat_id(chat),
             )
+            channels = discover_channels()
+            if channels:
+                for cid, title in channels.items():
+                    log.error("👉 Бот бачить канал «%s» з id %s — встав це число в секрет TELEGRAM_CHANNEL_ID", title, cid)
+            else:
+                log.error(
+                    "👉 Бот поки не бачить жодного каналу. Додай бота адміністратором каналу "
+                    "(або прибери й додай знову), опублікуй у каналі будь-який пост і запусти бота ще раз — "
+                    "тут з'явиться правильний id."
+                )
             return False
     return True
 
