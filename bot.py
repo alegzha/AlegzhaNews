@@ -543,6 +543,7 @@ FEED_HEADERS = {
 }
 READER_UA = "AlegzhaNewsBot/1.0 (RSS reader; +https://github.com/alegzha/AlegzhaNews)"
 _source_cache = {}
+FETCH_PROXY = ""  # задається в feeds.yaml (fetch_proxy) — адреса /feed воркера Cloudflare
 
 
 def fetch_source(url):
@@ -552,7 +553,10 @@ def fetch_source(url):
     деякі сайти не пускають «браузер» із серверів, але пускають RSS-читалки.
     """
     if url in _source_cache:
-        return _source_cache[url]
+        cached = _source_cache[url]
+        if isinstance(cached, Exception):
+            raise cached
+        return cached
     attempts = [
         dict(FEED_HEADERS),
         {**FEED_HEADERS, "User-Agent": READER_UA},
@@ -570,7 +574,20 @@ def fetch_source(url):
             _source_cache[url] = r
             return r
         last = r
-    last.raise_for_status()
+    if FETCH_PROXY:
+        try:
+            r = HTTP.get(FETCH_PROXY, params={"url": url}, timeout=30)
+            r.raise_for_status()
+            log.info("↪ %s відкрився через воркер Cloudflare", url)
+            _source_cache[url] = r
+            return r
+        except Exception as e:  # noqa: BLE001
+            log.info("Воркер теж не відкрив %s: %s", url, e)
+    try:
+        last.raise_for_status()
+    except Exception as e:
+        _source_cache[url] = e  # не стукаємо вдруге за запуск
+        raise
 
 
 class HtmlEntry(dict):
@@ -725,6 +742,8 @@ def main():
     with open(CONFIG_PATH, encoding="utf-8") as f:
         config = yaml.safe_load(f)
     limits = config["limits"]
+    global FETCH_PROXY
+    FETCH_PROXY = (config.get("fetch_proxy") or "").strip()
     state, first_run = load_state()
     alerts = Alerts(state, notify_admin if (ADMIN_ID or DRY_RUN) else None)
     pub = {"ok": 0, "failed": 0, "error": ""}
