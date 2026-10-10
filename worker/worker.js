@@ -11,6 +11,11 @@
  *   WEBHOOK_SECRET  (secret) — будь-яка довга випадкова фраза (латиниця, цифри, _ або -)
  *   GH_REPO         (text)   — alegzha/AlegzhaNews
  *   OWNER_ID        (text)   — твій Telegram id (бот сам підкаже його після /start)
+ *   PROXY_HOSTS     (text, необов'язково) — сайти через кому, які бот може читати
+ *                    через воркер (типово: mezha.ua)
+ *
+ * /feed?url=… — читає RSS сайту, який не пускає сервери GitHub, і віддає боту.
+ * Працює лише для сайтів зі списку PROXY_HOSTS, тож чужим цей проксі не знадобиться.
  */
 
 const BUTTON_NEWS = "🔄 Новини зараз";
@@ -41,6 +46,11 @@ export default {
           : "❌ Не вдалося підключити: " + JSON.stringify(hook),
         { headers: { "content-type": "text/plain; charset=utf-8" } },
       );
+    }
+
+    // Проксі для RSS сайтів, які блокують сервери GitHub.
+    if (url.pathname === "/feed") {
+      return proxyFeed(url, env);
     }
 
     // Повідомлення від Telegram.
@@ -153,4 +163,34 @@ async function tg(env, method, payload) {
 
 function escapeHtml(s) {
   return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;");
+}
+
+async function proxyFeed(url, env) {
+  let target;
+  try {
+    target = new URL(url.searchParams.get("url") || "");
+  } catch {
+    return new Response("bad url", { status: 400 });
+  }
+  const allowed = (env.PROXY_HOSTS || "mezha.ua")
+    .split(",")
+    .map((h) => h.trim().toLowerCase())
+    .filter(Boolean);
+  const host = target.hostname.toLowerCase();
+  const ok = target.protocol === "https:" && allowed.some((h) => host === h || host.endsWith("." + h));
+  if (!ok) return new Response("host not allowed", { status: 403 });
+
+  const resp = await fetch(target.toString(), {
+    headers: {
+      "User-Agent":
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
+      Accept: "application/rss+xml, application/xml;q=0.9, text/html;q=0.8, */*;q=0.5",
+      "Accept-Language": "uk-UA,uk;q=0.9,en;q=0.8",
+    },
+    cf: { cacheTtl: 300, cacheEverything: true },
+  });
+  return new Response(resp.body, {
+    status: resp.status,
+    headers: { "content-type": resp.headers.get("content-type") || "application/xml; charset=utf-8" },
+  });
 }
