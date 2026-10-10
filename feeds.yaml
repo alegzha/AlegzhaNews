@@ -29,6 +29,12 @@ categories:
         url: https://mezha.ua/feed/
         lang: uk
         include_tags: ["Ігри"]          # з Mezha беремо лише статті з тегом «Ігри»
+      - name: IGN
+        url: https://www.ign.com/rss/articles/feed?tags=games
+      - name: ITC.ua
+        url: https://itc.ua/ua/feed/
+        lang: uk
+        include_tags: ["Ігри"]          # ITC пише про все — беремо лише ігри
 
   music:
     emoji: "🤘"
@@ -60,6 +66,10 @@ categories:
         url: https://mezha.ua/feed/
         lang: uk
         include_tags: ["Кіно", "Серіали"]   # лише кіно й серіали
+      - name: ITC.ua
+        url: https://itc.ua/ua/feed/
+        lang: uk
+        include_tags: ["Кіно", "Серіали", "Фільми"]
 
 # Необов'язкові фільтри (регістр не важливий).
 # skip_keywords — новини з цими словами в заголовку не публікуються.
