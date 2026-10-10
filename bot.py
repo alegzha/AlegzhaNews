@@ -20,7 +20,9 @@ import yaml
 from bs4 import BeautifulSoup
 from deep_translator import GoogleTranslator
 
+from alerts import Alerts
 from steam import SteamLinker, app_url
+import releases
 import wishlist
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -59,7 +61,9 @@ BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
 CHANNEL_ID = normalize_chat_id(os.environ.get("TELEGRAM_CHANNEL_ID", ""))
 # куди слати пости про вішліст (якщо не задано — у той самий канал)
 WISHLIST_CHAT_ID = normalize_chat_id(os.environ.get("TELEGRAM_WISHLIST_CHAT_ID", "")) or CHANNEL_ID
+ADMIN_ID = normalize_chat_id(os.environ.get("TELEGRAM_ADMIN_ID", ""))
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
+FORCE_RELEASES = os.environ.get("FORCE_RELEASES", "").lower() in ("1", "true", "yes")
 
 UA = (
     "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
@@ -214,7 +218,8 @@ DEEPL_API_KEY = os.environ.get("DEEPL_API_KEY", "").strip()
 _google_page = GoogleTranslator(source="auto", target="uk")
 _mymemory = MyMemoryTranslator(source="english", target="ukrainian")
 _last_call = 0.0
-_disabled = set()
+_disabled = {}  # назва перекладача -> причина
+TR_STATS = {"ok": set(), "failed": 0}
 
 
 def _deepl(text):
@@ -285,15 +290,17 @@ def translate(text):
             try:
                 result = fn(text)
                 if result and result.strip():
+                    TR_STATS["ok"].add(name)
                     return result
             except Exception as e:  # noqa: BLE001
                 msg = str(e)
                 if any(k in msg.lower() for k in BLOCKING_ERRORS):
-                    _disabled.add(name)
+                    _disabled[name] = msg[:200]
                     log.info("Переклад через %s недоступний до кінця запуску: %s", name, msg[:120])
                 else:
                     log.info("Переклад через %s не вдався: %s", name, msg[:120])
         time.sleep(5 * (attempt + 1))
+    TR_STATS["failed"] += 1
     raise RuntimeError("translation failed")
 
 
@@ -460,6 +467,54 @@ def check_telegram():
     return True
 
 
+def send_text(text, chat_id=None):
+    """Текстовий пост без картинки (для «Релізів тижня»)."""
+    if DRY_RUN:
+        print("\n" + "=" * 60 + f"\n{text}\n")
+        return
+    tg(
+        "sendMessage",
+        chat_id=chat_id or CHANNEL_ID,
+        text=text,
+        parse_mode="HTML",
+        link_preview_options=json.dumps({"is_disabled": True}),
+    )
+
+
+def notify_admin(text):
+    """Особисте повідомлення власнику про поломку."""
+    if DRY_RUN:
+        print(f"\n[АДМІНУ] {text}\n")
+        return
+    send_text(text, chat_id=ADMIN_ID)
+
+
+def report_health(alerts, pub):
+    """Сповіщення про переклад і публікацію за підсумками запуску."""
+    if "DeepL" in _disabled:
+        alerts.problem(
+            "deepl", "DeepL більше не перекладає",
+            f"{_disabled['DeepL']}\nПоки що перекладаю запасними сервісами (якість може бути гіршою). "
+            "Безкоштовний ліміт DeepL оновлюється щомісяця.",
+        )
+    elif "DeepL" in TR_STATS["ok"]:
+        alerts.ok("deepl")
+
+    if TR_STATS["failed"] and not TR_STATS["ok"]:
+        alerts.problem(
+            "translate", "Переклад не працює",
+            "Жоден перекладач не відповів — англомовні новини чекають наступного запуску.",
+            after_hours=1, repeat_hours=12,
+        )
+    elif TR_STATS["ok"]:
+        alerts.ok("translate")
+
+    if pub["failed"] and not pub["ok"]:
+        alerts.problem("publish", "Не вдається публікувати в канал", pub["error"], repeat_hours=6)
+    elif pub["ok"]:
+        alerts.ok("publish")
+
+
 def build_caption(cat, title_html, summary_uk, source, link, extra_games=()):
     esc = html.escape
     parts = [f"{cat['emoji']} <b>{title_html}</b>"]
@@ -532,7 +587,7 @@ def entry_tags(entry):
 
 # ---------- головний цикл ----------
 
-def collect(config, state):
+def collect(config, state, alerts):
     limits = config["limits"]
     max_age = limits["max_age_hours"] * 3600
     skip = [k.lower() for k in config.get("filters", {}).get("skip_keywords", [])]
@@ -540,10 +595,14 @@ def collect(config, state):
     candidates = []
 
     known_sources = state.setdefault("sources", [])
+    active = set()
 
     for cat_id, cat in config["categories"].items():
         for feed in cat["feeds"]:
             source_id = f'{cat_id}|{feed["name"]}|{feed["url"]}'
+            alert_key = "src:" + source_id
+            active.add(alert_key)
+            down = f"Джерело «{feed['name']}» не працює"
             try:
                 if feed.get("type") == "html":
                     entries = fetch_html_feed(feed)
@@ -553,10 +612,17 @@ def collect(config, state):
                     entries = feedparser.parse(resp.content).entries
             except Exception as e:  # noqa: BLE001
                 log.warning("❌ %s: не вдалося завантажити стрічку (%s)", feed["name"], e)
+                alerts.problem(alert_key, down, f"{feed['url']}\n{e}", after_hours=12)
                 continue
             if not entries:
                 log.warning("❌ %s: стрічка порожня або зламана", feed["name"])
+                alerts.problem(
+                    alert_key, down,
+                    f"{feed['url']}\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
+                    after_hours=12,
+                )
                 continue
+            alerts.ok(alert_key)
 
             include = {t.lower() for t in feed.get("include_tags", [])}
             exclude = {t.lower() for t in feed.get("exclude_tags", [])}
@@ -604,6 +670,7 @@ def collect(config, state):
             candidates.extend(fresh[: limits["max_per_source_per_run"]])
             log.info("✅ %s: нових %d", feed["name"], len(fresh))
 
+    alerts.ok_prefix("src:", active)  # джерела, які прибрали з feeds.yaml
     candidates.sort(key=lambda c: c["ts"], reverse=True)
     return candidates
 
@@ -618,7 +685,19 @@ def main():
         config = yaml.safe_load(f)
     limits = config["limits"]
     state, first_run = load_state()
-    candidates = collect(config, state)
+    alerts = Alerts(state, notify_admin if (ADMIN_ID or DRY_RUN) else None)
+    pub = {"ok": 0, "failed": 0, "error": ""}
+
+    def post(*args, **kwargs):
+        try:
+            publish(*args, **kwargs)
+            pub["ok"] += 1
+        except Exception as e:
+            pub["failed"] += 1
+            pub["error"] = str(e)
+            raise
+
+    candidates = collect(config, state, alerts)
     steam = SteamLinker(HTTP, state, config.get("filters", {}).get("steam_ignore", []))
 
     budget = limits["max_posts_per_run"]
@@ -678,7 +757,7 @@ def main():
         image = image_from_entry(entry) or image_from_page(link)
         caption = build_caption(c["cat"], title_html, summary_uk, c["source"], link, extra_games)
         try:
-            publish(caption, image, link)
+            post(caption, image, link)
         except Exception as e:  # noqa: BLE001
             log.error("Не вдалося опублікувати «%s»: %s", c["title"], e)
             continue
@@ -691,17 +770,35 @@ def main():
 
     wl_cfg = config.get("wishlist") or {}
     if wl_cfg.get("enabled") and wl_cfg.get("profile"):
+        before = state.get("wishlist", {}).get("last_check", 0)
         try:
             posted += wishlist.check(
                 HTTP,
                 state,
                 wl_cfg,
-                lambda text, img, url: publish(text, img, url, chat_id=WISHLIST_CHAT_ID),
+                lambda text, img, url: post(text, img, url, chat_id=WISHLIST_CHAT_ID),
                 html.escape,
+                force=FORCE_RELEASES,
             )
+            if state["wishlist"].get("last_check", 0) != before:
+                alerts.ok("wishlist")
         except Exception as e:  # noqa: BLE001
-            log.error("Перевірка вішліста впала: %s", e)
+            log.error("Перевірка вішліста не вдалася: %s", e)
+            alerts.problem("wishlist", "Вішліст Steam недоступний", str(e), after_hours=6)
 
+    rel_cfg = config.get("weekly_releases") or {}
+    if rel_cfg.get("enabled") or FORCE_RELEASES:
+        try:
+            posted += releases.run(
+                HTTP, state, rel_cfg, (wl_cfg.get("country") or "UA"),
+                send_text, html.escape, force=FORCE_RELEASES,
+            )
+            alerts.ok("releases")
+        except Exception as e:  # noqa: BLE001
+            log.error("Релізи тижня не вдалися: %s", e)
+            alerts.problem("releases", "Не вдалося опублікувати «Релізи тижня»", str(e), repeat_hours=6)
+
+    report_health(alerts, pub)
     save_state(state)
     log.info("Готово: опубліковано %d", posted)
 
