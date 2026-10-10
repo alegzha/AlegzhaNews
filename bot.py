@@ -27,10 +27,38 @@ BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CONFIG_PATH = os.path.join(BASE_DIR, "feeds.yaml")
 STATE_PATH = os.path.join(BASE_DIR, "state.json")
 
-BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "")
-CHANNEL_ID = os.environ.get("TELEGRAM_CHANNEL_ID", "")
+
+
+def normalize_chat_id(raw):
+    """Виправляє типові помилки: пробіли, t.me-посилання, назва без @."""
+    value = (raw or "").strip().strip('"').strip("'").strip()
+    m = re.search(r"(?:https?://)?(?:www\.)?t(?:elegram)?\.me/([A-Za-z0-9_]{4,})", value)
+    if m:
+        return "@" + m.group(1)
+    if re.fullmatch(r"-?\d+", value):
+        return value
+    if re.fullmatch(r"[A-Za-z][A-Za-z0-9_]{3,}", value):
+        return "@" + value
+    return value
+
+
+def describe_chat_id(value):
+    """Опис формату без розкриття самого значення."""
+    if not value:
+        return "порожньо"
+    if value.startswith("@"):
+        return f"публічна назва (@ + {len(value) - 1} символів)"
+    if value.startswith("-100") and value[1:].isdigit():
+        return f"id каналу (-100…, {len(value)} символів)"
+    if value.lstrip("-").isdigit():
+        return f"числовий id без -100 ({len(value)} символів) — для каналу потрібен формат -100…"
+    return f"незвичний формат ({len(value)} символів)"
+
+
+BOT_TOKEN = os.environ.get("TELEGRAM_BOT_TOKEN", "").strip()
+CHANNEL_ID = normalize_chat_id(os.environ.get("TELEGRAM_CHANNEL_ID", ""))
 # куди слати пости про вішліст (якщо не задано — у той самий канал)
-WISHLIST_CHAT_ID = os.environ.get("TELEGRAM_WISHLIST_CHAT_ID", "") or CHANNEL_ID
+WISHLIST_CHAT_ID = normalize_chat_id(os.environ.get("TELEGRAM_WISHLIST_CHAT_ID", "")) or CHANNEL_ID
 DRY_RUN = os.environ.get("DRY_RUN") == "1"
 
 UA = (
@@ -320,6 +348,44 @@ def linked_title(title, games):
     return out, leftovers
 
 
+def check_telegram():
+    """Перевіряє токен і доступ до каналу до того, як щось перекладати."""
+    global CHANNEL_ID
+    try:
+        me = tg("getMe")["result"]
+        log.info("Telegram: бот @%s підключено", me.get("username"))
+    except Exception as e:  # noqa: BLE001
+        log.error("Telegram: токен не працює (%s). Перевір TELEGRAM_BOT_TOKEN.", e)
+        return False
+    for label, chat in (("канал", CHANNEL_ID), ("вішліст", WISHLIST_CHAT_ID)):
+        if label == "вішліст" and chat == CHANNEL_ID:
+            continue
+        try:
+            try:
+                info = tg("getChat", chat_id=chat)["result"]
+            except Exception:
+                # частая помилка: id каналу скопійовано без префікса -100
+                if label != "канал" or not chat.isdigit():
+                    raise
+                info = tg("getChat", chat_id="-100" + chat)["result"]
+                chat = "-100" + chat
+                CHANNEL_ID = chat
+                log.info("Telegram: до id каналу додано префікс -100")
+            log.info("Telegram: %s знайдено — «%s» (%s)", label, info.get("title"), info.get("type"))
+            member = tg("getChatMember", chat_id=chat, user_id=me["id"])["result"]
+            if member.get("status") not in ("administrator", "creator") and info.get("type") == "channel":
+                log.error("Telegram: бот не адміністратор у каналі «%s» — додай його з правом публікації", info.get("title"))
+                return False
+        except Exception as e:  # noqa: BLE001
+            log.error(
+                "Telegram: %s не знайдено (%s). Формат значення: %s. "
+                "Переконайся, що бот доданий у канал адміністратором; для приватного каналу потрібен id -100…",
+                label, e, describe_chat_id(chat),
+            )
+            return False
+    return True
+
+
 def build_caption(cat, title_html, summary_uk, source, link, extra_games=()):
     esc = html.escape
     parts = [f"{cat['emoji']} <b>{title_html}</b>"]
@@ -394,6 +460,8 @@ def collect(config, state):
 def main():
     if not DRY_RUN and (not BOT_TOKEN or not CHANNEL_ID):
         sys.exit("Не задано TELEGRAM_BOT_TOKEN або TELEGRAM_CHANNEL_ID")
+    if not DRY_RUN and not check_telegram():
+        sys.exit("Telegram не налаштований — дивись помилку вище")
 
     with open(CONFIG_PATH, encoding="utf-8") as f:
         config = yaml.safe_load(f)
