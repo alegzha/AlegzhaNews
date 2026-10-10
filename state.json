@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:games|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/\n403 Client Error: Forbidden for url: https://mezha.ua/feed/",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1791659730.9636183
-  },
-  "src:movies|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/\n403 Client Error: Forbidden for url: https://mezha.ua/feed/",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1791659732.4532318
-  }
- },
+ "alerts": {},
  "seen": {
   "03f20cb96bdf5ebf": 1791636717.6413405,
   "055bbbcbf5b3ae19": 1791638179.5917444,
@@ -22,6 +9,7 @@
   "0ad97e6b188589e7": 1791659734.5990682,
   "1063bc2bd4d94992": 1791642324.2730968,
   "15f791af37d54966": 1791643484.7724442,
+  "175637a97c9ed1e7": 1791668779.0097358,
   "1943ecf2ed17c0e9": 1791638165.0720973,
   "19e62b74930900ad": 1791667531.5466912,
   "1bc693cb0759f732": 1791643484.7724442,
@@ -75,11 +63,13 @@
   "b6e9e7ddd669ee7a": 1791659741.1528728,
   "bd28dc198e354d61": 1791643484.7724442,
   "c299434ecc56681e": 1791642319.3450685,
+  "c65d2f4d1162f7de": 1791668789.9831371,
   "ca925f90135eae9c": 1791643484.7724442,
   "d0a6e1a52572f04a": 1791668286.5554988,
   "d5e0b1582d85851f": 1791643484.7724442,
   "d6ef87b7463c1c49": 1791636717.6413412,
   "d7dc089d187f3abe": 1791638186.8176112,
+  "d8a4a8899a6e40a9": 1791668783.8428674,
   "dbc30b55901df180": 1791650189.208903,
   "e891c97409f3641e": 1791643484.7724442,
   "eb22ec1fca744e62": 1791638172.0694044,
@@ -105,7 +95,9 @@
   "movies|/Film|https://www.slashfilm.com/feed/",
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games",
   "games|ITC.ua|https://itc.ua/ua/feed/",
-  "movies|ITC.ua|https://itc.ua/ua/feed/"
+  "movies|ITC.ua|https://itc.ua/ua/feed/",
+  "games|Mezha|https://mezha.ua/feed/",
+  "movies|Mezha|https://mezha.ua/feed/"
  ],
  "steam": {
   "id:1488490": [
@@ -222,6 +214,16 @@
    0,
    "",
    1791661537.6207058
+  ],
+  "q:cyberleek gta": [
+   0,
+   "",
+   1791668782.9911742
+  ],
+  "q:cyberleek gta 6": [
+   0,
+   "",
+   1791668782.5332098
   ],
   "q:forever": [
    0,
@@ -662,6 +664,18 @@
   [
    1791668526.0601964,
    "Call of Duty: Modern Warfare Story Recap – What You Need To Know Ahead of MW4"
+  ],
+  [
+   1791668779.009738,
+   "Забуті серіали 1990-х: передвісники \"Загублених\", підлітки-супергерої та італійське фентезі"
+  ],
+  [
+   1791668783.8428705,
+   "Cyberleek не зупиняється: лікер обіцяє повну GTA 6 та Люсію без цензури, залежно від вартості його криптовалюти"
+  ],
+  [
+   1791668789.98314,
+   "5 Forgotten Netflix Fantasy TV Shows That Still Hold Up Today"
   ]
  ],
  "wishlist": {
