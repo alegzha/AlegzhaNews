@@ -200,15 +200,33 @@ def entry_time(entry):
 
 
 # ---------- переклад ----------
-# Кілька перекладачів по черзі: якщо один заблокований або перевантажений,
-# пробуємо наступний. Google через translate.googleapis.com (client=gtx) зазвичай
-# працює і з серверів GitHub, на відміну від сторінкової версії.
+# Перекладачі по черзі. DeepL (якщо задано секрет DEEPL_API_KEY) — основний,
+# далі Google і MyMemory як запасні. Перекладач, який відмовив через ліміт
+# або блокування, пропускається до кінця запуску, щоб не гаяти час.
 
 from deep_translator import MyMemoryTranslator
 
+DEEPL_API_KEY = os.environ.get("DEEPL_API_KEY", "").strip()
 _google_page = GoogleTranslator(source="auto", target="uk")
 _mymemory = MyMemoryTranslator(source="english", target="ukrainian")
 _last_call = 0.0
+_disabled = set()
+
+
+def _deepl(text):
+    host = "api-free.deepl.com" if DEEPL_API_KEY.endswith(":fx") else "api.deepl.com"
+    r = requests.post(
+        f"https://{host}/v2/translate",
+        headers={"Authorization": f"DeepL-Auth-Key {DEEPL_API_KEY}"},
+        data={"text": text, "target_lang": "UK"},
+        timeout=30,
+    )
+    if r.status_code == 456:
+        raise RuntimeError("quota exceeded (456): місячний ліміт DeepL вичерпано")
+    if r.status_code == 403:
+        raise RuntimeError("403: ключ DeepL недійсний")
+    r.raise_for_status()
+    return r.json()["translations"][0]["text"]
 
 
 def _google_api(text):
@@ -225,11 +243,13 @@ def _google_api(text):
     return out
 
 
-TRANSLATORS = [
+TRANSLATORS = ([("DeepL", _deepl)] if DEEPL_API_KEY else []) + [
     ("Google API", _google_api),
     ("Google", lambda t: _google_page.translate(t)),
     ("MyMemory", lambda t: _mymemory.translate(t[:480])),
 ]
+
+BLOCKING_ERRORS = ("429", "too many requests", "quota", "403", "limit")
 
 
 def translate(text):
@@ -239,6 +259,8 @@ def translate(text):
     text = text[:4500]
     for attempt in range(2):
         for name, fn in TRANSLATORS:
+            if name in _disabled:
+                continue
             # не частіше ~3 запитів на секунду
             wait = 0.35 - (time.time() - _last_call)
             if wait > 0:
@@ -249,7 +271,12 @@ def translate(text):
                 if result and result.strip():
                     return result
             except Exception as e:  # noqa: BLE001
-                log.info("Переклад через %s не вдався: %s", name, str(e)[:120])
+                msg = str(e)
+                if any(k in msg.lower() for k in BLOCKING_ERRORS):
+                    _disabled.add(name)
+                    log.info("Переклад через %s недоступний до кінця запуску: %s", name, msg[:120])
+                else:
+                    log.info("Переклад через %s не вдався: %s", name, msg[:120])
         time.sleep(5 * (attempt + 1))
     raise RuntimeError("translation failed")
 
