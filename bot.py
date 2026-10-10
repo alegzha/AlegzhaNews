@@ -638,6 +638,13 @@ def collect(config, state, alerts):
             if source_id not in known_sources:
                 known_sources.append(source_id)
 
+            if include and not any(entry_tags(e) & include for e in entries):
+                all_tags = sorted({t for e in entries for t in entry_tags(e)})
+                log.info(
+                    "ℹ️ %s: жодної статті з тегами %s. Теги в стрічці: %s",
+                    feed["name"], ", ".join(feed["include_tags"]), ", ".join(all_tags[:60]) or "—",
+                )
+
             fresh = []
             for entry in entries:
                 key = item_key(entry)
