@@ -536,6 +536,43 @@ def build_caption(cat, title_html, summary_uk, source, link, extra_games=()):
 
 # ---------- джерела без RSS (читання сторінки сайту) ----------
 
+FEED_HEADERS = {
+    "Accept": "application/rss+xml, application/atom+xml, application/xml;q=0.9, text/html;q=0.8, */*;q=0.5",
+    "Accept-Language": "uk-UA,uk;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Cache-Control": "no-cache",
+}
+READER_UA = "AlegzhaNewsBot/1.0 (RSS reader; +https://github.com/alegzha/AlegzhaNews)"
+_source_cache = {}
+
+
+def fetch_source(url):
+    """
+    Завантажує стрічку чи сторінку джерела (один раз за запуск, навіть якщо джерело
+    в кількох рубриках). Якщо сайт відмовляє (403/429) — повторює з іншими заголовками:
+    деякі сайти не пускають «браузер» із серверів, але пускають RSS-читалки.
+    """
+    if url in _source_cache:
+        return _source_cache[url]
+    attempts = [
+        dict(FEED_HEADERS),
+        {**FEED_HEADERS, "User-Agent": READER_UA},
+        {"User-Agent": READER_UA, "Accept": "*/*"},
+    ]
+    last = None
+    for i, headers in enumerate(attempts):
+        if i:
+            time.sleep(2)
+        r = HTTP.get(url, headers=headers, timeout=20)
+        if r.status_code not in (401, 403, 429, 503):
+            r.raise_for_status()
+            if i:
+                log.info("↪ %s відкрився з %d-ї спроби", url, i + 1)
+            _source_cache[url] = r
+            return r
+        last = r
+    last.raise_for_status()
+
+
 class HtmlEntry(dict):
     """Схоже на запис feedparser, щоб решта коду працювала однаково."""
 
@@ -545,8 +582,7 @@ def fetch_html_feed(feed):
     Збирає новини зі сторінки: посилання, що відповідають link_pattern.
     Картинку й опис бере зі сторінки самої новини (og:image, og:description).
     """
-    r = HTTP.get(feed["url"], timeout=20)
-    r.raise_for_status()
+    r = fetch_source(feed["url"])
     soup = BeautifulSoup(r.text, "html.parser")
     pattern = re.compile(feed["link_pattern"])
     seen, items = set(), []
@@ -607,9 +643,7 @@ def collect(config, state, alerts):
                 if feed.get("type") == "html":
                     entries = fetch_html_feed(feed)
                 else:
-                    resp = HTTP.get(feed["url"], timeout=20)
-                    resp.raise_for_status()
-                    entries = feedparser.parse(resp.content).entries
+                    entries = feedparser.parse(fetch_source(feed["url"]).content).entries
             except Exception as e:  # noqa: BLE001
                 log.warning("❌ %s: не вдалося завантажити стрічку (%s)", feed["name"], e)
                 alerts.problem(alert_key, down, f"{feed['url']}\n{e}", after_hours=12)
