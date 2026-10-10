@@ -32,6 +32,7 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           TELEGRAM_WISHLIST_CHAT_ID: ${{ secrets.TELEGRAM_WISHLIST_CHAT_ID }}
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
         run: python bot.py
 
       - name: Save state
