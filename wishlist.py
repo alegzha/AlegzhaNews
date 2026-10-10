@@ -74,6 +74,29 @@ def uah(cents):
     return f"{cents / 100:,.0f}".replace(",", " ") + "₴"
 
 
+def release_ts(release):
+    """Точна дата релізу (unix) або None, якщо Steam знає лише місяць/квартал/рік."""
+    ts = _cents(release.get("steam_release_date") or release.get("original_release_date"))
+    if not ts:
+        return None
+    display = release.get("coming_soon_display")
+    if release.get("is_coming_soon") and display not in (None, "", "date_full"):
+        return None
+    if release.get("custom_release_date_message") or release.get("is_abridged_release_date"):
+        return None
+    return ts
+
+
+def parse_date_text(text):
+    for fmt in ("%d %b, %Y", "%b %d, %Y", "%d %B, %Y", "%B %d, %Y"):
+        try:
+            d = datetime.strptime((text or "").strip().replace("Sept", "Sep"), fmt)
+            return int(d.replace(hour=12, tzinfo=KYIV).timestamp())
+        except ValueError:
+            pass
+    return None
+
+
 def fetch_items(http, appids, country, language):
     """Пакетний запит до IStoreBrowseService. Повертає {appid: info}."""
     result = {}
@@ -100,6 +123,7 @@ def fetch_items(http, appids, country, language):
                 image = ASSET_BASE + assets["asset_url_format"].replace("${FILENAME}", assets["header"])
             result[int(appid)] = {
                 "name": it["name"],
+                "release": release_ts(release),
                 "coming_soon": bool(release.get("is_coming_soon")),
                 "early_access": bool(release.get("is_early_access")),
                 "is_free": bool(it.get("is_free")),
@@ -135,6 +159,7 @@ def fetch_appdetails(http, appids, country, language, limit=120):
             price = d.get("price_overview") or {}
             result[appid] = {
                 "name": d.get("name", str(appid)),
+                "release": parse_date_text((d.get("release_date") or {}).get("date")),
                 "coming_soon": bool((d.get("release_date") or {}).get("coming_soon")),
                 "early_access": False,
                 "is_free": bool(d.get("is_free")),
@@ -187,29 +212,40 @@ def format_post(appid, info, released, discounted, esc):
     return "\n".join(lines) + "\n\n" + " ".join(tags)
 
 
-def check(http, state, cfg, publish, esc):
-    """Повертає кількість опублікованих постів."""
+def remember(cur):
+    return {
+        "coming_soon": cur["coming_soon"],
+        "discount": cur["discount"],
+        "name": cur["name"],
+        "release": cur.get("release"),
+        "price": cur.get("price") if not cur.get("is_free") else "безкоштовно",
+    }
+
+
+class WishlistUnavailable(Exception):
+    pass
+
+
+def check(http, state, cfg, publish, esc, force=False):
+    """Повертає кількість опублікованих постів. Якщо вішліст недоступний — WishlistUnavailable."""
     ws = state.setdefault("wishlist", {"apps": {}, "last_check": 0})
     every = int(cfg.get("check_every_minutes", 60)) * 60
-    if time.time() - ws.get("last_check", 0) < every - 120:
+    if not force and time.time() - ws.get("last_check", 0) < every - 120:
         return 0
 
     steamid = ws.get("steamid") if ws.get("profile") == cfg.get("profile") else None
     if not steamid:
         steamid = resolve_steamid(http, cfg.get("profile"))
         if not steamid:
-            log.warning("Вішліст: не вказано або не знайдено профіль Steam (wishlist.profile у feeds.yaml)")
-            return 0
+            raise WishlistUnavailable("не знайдено профіль Steam (wishlist.profile у feeds.yaml)")
         ws["steamid"], ws["profile"] = steamid, cfg.get("profile")
 
     try:
         appids = fetch_wishlist(http, steamid)
     except Exception as e:  # noqa: BLE001
-        log.warning("Вішліст недоступний (%s). Перевір, що він публічний.", e)
-        return 0
+        raise WishlistUnavailable(f"Steam не віддав вішліст ({e}). Перевір, що він публічний.") from e
     if not appids:
-        log.warning("Вішліст порожній або приватний")
-        return 0
+        raise WishlistUnavailable("вішліст порожній або приватний")
 
     country = cfg.get("country", "UA")
     language = cfg.get("language", "english")
@@ -236,7 +272,7 @@ def check(http, state, cfg, publish, esc):
         prev = known.get(key)
         if prev is None:
             # гра щойно з'явилась у вішлісті — просто запам'ятовуємо стан
-            known[key] = {"coming_soon": cur["coming_soon"], "discount": cur["discount"]}
+            known[key] = remember(cur)
             continue
 
         released = notify_release and prev["coming_soon"] and not cur["coming_soon"]
@@ -256,7 +292,7 @@ def check(http, state, cfg, publish, esc):
                 log.error("Не вдалося опублікувати пост про %s: %s", cur["name"], e)
                 continue  # стан не оновлюємо — спробуємо наступного разу
 
-        known[key] = {"coming_soon": cur["coming_soon"], "discount": cur["discount"]}
+        known[key] = remember(cur)
 
     # прибираємо ігри, яких уже немає у вішлісті
     current = {str(a) for a in appids}
