@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "*/30 * * * *"   # кожні 30 хвилин
   workflow_dispatch:          # кнопка ручного запуску у вкладці Actions
+    inputs:
+      releases:
+        description: "Опублікувати «Релізи тижня» зараз"
+        type: boolean
+        default: false
 
 permissions:
   contents: write             # щоб зберігати state.json (які новини вже опубліковані)
@@ -32,8 +37,22 @@ jobs:
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
           TELEGRAM_WISHLIST_CHAT_ID: ${{ secrets.TELEGRAM_WISHLIST_CHAT_ID }}
+          TELEGRAM_ADMIN_ID: ${{ secrets.TELEGRAM_ADMIN_ID }}
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+          FORCE_RELEASES: ${{ inputs.releases }}
         run: python bot.py
+
+      - name: Notify on failure
+        if: failure()
+        env:
+          TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          ADMIN: ${{ secrets.TELEGRAM_ADMIN_ID }}
+        run: |
+          if [ -n "$ADMIN" ]; then
+            curl -s -o /dev/null -X POST "https://api.telegram.org/bot$TOKEN/sendMessage" \
+              --data-urlencode chat_id="$ADMIN" \
+              --data-urlencode text="❌ Бот новин упав під час запуску. Лог: $GITHUB_SERVER_URL/$GITHUB_REPOSITORY/actions/runs/$GITHUB_RUN_ID"
+          fi
 
       - name: Save state
         if: always()
