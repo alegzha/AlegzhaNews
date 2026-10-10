@@ -1,0 +1,71 @@
+# Джерела новин. Щоб додати сайт — допиши рядок з його RSS-стрічкою.
+# Щоб прибрати — видали рядок або постав # на початку.
+
+categories:
+  games:
+    emoji: "🎮"
+    hashtag: "#ігри"
+    steam_links: true   # назви ігор у заголовку стають посиланнями на Steam
+    feeds:
+      - name: PC Gamer
+        url: https://www.pcgamer.com/rss/
+      - name: Eurogamer
+        url: https://www.eurogamer.net/feed
+      - name: GameSpot
+        url: https://www.gamespot.com/feeds/game-news
+      - name: Rock Paper Shotgun
+        url: https://www.rockpapershotgun.com/feed/news
+
+  music:
+    emoji: "🤘"
+    hashtag: "#музика"
+    feeds:
+      - name: Metal Injection
+        url: https://metalinjection.net/feed
+      - name: Blabbermouth
+        url: https://blabbermouth.net/feed
+      - name: Loudwire
+        url: https://loudwire.com/feed/
+      - name: MetalSucks
+        url: https://www.metalsucks.net/feed/
+
+  movies:
+    emoji: "🎬"
+    hashtag: "#кіно_і_серіали"
+    feeds:
+      - name: Collider
+        url: https://collider.com/feed/
+      - name: /Film
+        url: https://www.slashfilm.com/feed/
+
+# Необов'язкові фільтри (регістр не важливий).
+# skip_keywords — новини з цими словами в заголовку не публікуються.
+filters:
+  skip_keywords:
+    - "deals"
+    - "discount"
+    - "best buy"
+    - "giveaway"
+    - "sponsored"
+  # Якщо бот помилково зробив посиланням не гру (звичайне слово, яке збіглося
+  # з назвою якоїсь гри в Steam) — допиши це слово сюди.
+  steam_ignore: []
+
+# Стеження за вішлістом Steam: пост, коли гра вийшла або отримала знижку.
+# Вішліст має бути публічним: Steam → профіль → Редагувати профіль →
+# Налаштування приватності → «Інформація про ігри» = Відкрито.
+wishlist:
+  enabled: true
+  profile: "https://steamcommunity.com/id/alegzha/"   # твій профіль Steam
+  country: UA                # регіон Steam: Україна, ціни в гривнях (₴)
+  min_discount: 10           # не повідомляти про знижки менші за це (у %)
+  notify_release: true       # пост, коли гра з вішліста вийшла
+  notify_discount: true      # пост, коли з'явилась або збільшилась знижка
+  check_every_minutes: 60    # як часто перевіряти вішліст
+
+# Ліміти, щоб канал не перетворився на смітник
+limits:
+  max_posts_per_run: 12        # максимум постів за одну перевірку (кожні 30 хв)
+  max_per_source_per_run: 3    # максимум з одного сайту за перевірку
+  max_age_hours: 12            # старіші новини ігноруються
+  summary_chars: 450           # довжина опису під заголовком
