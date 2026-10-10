@@ -249,6 +249,18 @@ TRANSLATORS = ([("DeepL", _deepl)] if DEEPL_API_KEY else []) + [
     ("MyMemory", lambda t: _mymemory.translate(t[:480])),
 ]
 
+UK_ONLY_LETTERS = set("іїєґІЇЄҐ")
+
+
+def is_ukrainian(text):
+    """Текст уже українською: переважно кирилиця і є суто українські літери (і, ї, є, ґ)."""
+    letters = [c for c in text or "" if c.isalpha()]
+    if not letters:
+        return False
+    cyrillic = sum(1 for c in letters if "\u0400" <= c <= "\u04ff")
+    return cyrillic >= len(letters) * 0.5 and any(c in UK_ONLY_LETTERS for c in text)
+
+
 BLOCKING_ERRORS = ("429", "too many requests", "quota", "403", "limit")
 
 
@@ -338,15 +350,16 @@ def placeholder_re(n):
     return re.compile(r"Q\s*Q\s*" + str(n) + r"\s*Q\s*Q", re.I)
 
 
-def linked_title(title, games):
+def linked_title(title, games, tr=None):
     """
     Перекладає заголовок і робить назви ігор посиланнями на Steam.
     Назви замінюються мітками перед перекладом, щоб перекладач їх не чіпав.
     Повертає (html_заголовка, [ігри, які не вдалося вставити в заголовок]).
     """
     esc = html.escape
+    tr = tr or translate
     if not games:
-        return esc(translate(title)), []
+        return esc(tr(title)), []
 
     def link(text, app_id):
         return f'<a href="{app_url(app_id)}">{esc(text)}</a>'
@@ -354,7 +367,7 @@ def linked_title(title, games):
     marked = title
     for n, (s, e, _, _) in reversed(list(enumerate(games))):
         marked = marked[:s] + PLACEHOLDER.format(n) + marked[e:]
-    translated = translate(marked)
+    translated = tr(marked)
 
     if all(placeholder_re(n).search(translated) for n in range(len(games))):
         out = esc(translated)
@@ -363,7 +376,7 @@ def linked_title(title, games):
         return out, []
 
     # запасний варіант: звичайний переклад і пошук назви в ньому
-    out = esc(translate(title))
+    out = esc(tr(title))
     leftovers = []
     for s, e, app_id, name in games:
         text = title[s:e]
@@ -504,6 +517,7 @@ def collect(config, state):
                         "cat": cat,
                         "cat_id": cat_id,
                         "source": feed["name"],
+                        "lang": feed.get("lang", ""),
                     }
                 )
             fresh.sort(key=lambda c: c["ts"], reverse=True)
@@ -568,9 +582,11 @@ def main():
                 log.warning("Пошук у Steam не вдався: %s", e)
             if games:
                 log.info("🕹 Steam: %s", ", ".join(g[3] for g in games))
+        already_uk = c.get("lang") == "uk" or is_ukrainian(c["title"])
+        tr = (lambda t: t) if already_uk else translate
         try:
-            title_html, extra_games = linked_title(c["title"], games)
-            summary_uk = translate(summary) if summary else ""
+            title_html, extra_games = linked_title(c["title"], games, tr)
+            summary_uk = tr(summary) if summary else ""
         except RuntimeError:
             log.warning("Пропускаю до наступного запуску (переклад): %s", c["title"])
             continue
