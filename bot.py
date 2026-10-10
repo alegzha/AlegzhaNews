@@ -172,19 +172,57 @@ def entry_time(entry):
 
 
 # ---------- переклад ----------
+# Кілька перекладачів по черзі: якщо один заблокований або перевантажений,
+# пробуємо наступний. Google через translate.googleapis.com (client=gtx) зазвичай
+# працює і з серверів GitHub, на відміну від сторінкової версії.
 
-_translator = GoogleTranslator(source="auto", target="uk")
+from deep_translator import MyMemoryTranslator
+
+_google_page = GoogleTranslator(source="auto", target="uk")
+_mymemory = MyMemoryTranslator(source="english", target="ukrainian")
+_last_call = 0.0
+
+
+def _google_api(text):
+    r = HTTP.get(
+        "https://translate.googleapis.com/translate_a/single",
+        params={"client": "gtx", "sl": "auto", "tl": "uk", "dt": "t", "q": text},
+        timeout=20,
+    )
+    r.raise_for_status()
+    parts = r.json()[0] or []
+    out = "".join(p[0] for p in parts if p and p[0])
+    if not out:
+        raise RuntimeError("empty translation")
+    return out
+
+
+TRANSLATORS = [
+    ("Google API", _google_api),
+    ("Google", lambda t: _google_page.translate(t)),
+    ("MyMemory", lambda t: _mymemory.translate(t[:480])),
+]
 
 
 def translate(text):
+    global _last_call
     if not text:
         return ""
-    for attempt in range(3):
-        try:
-            return _translator.translate(text[:4500])
-        except Exception as e:  # noqa: BLE001
-            log.warning("Переклад не вдався (спроба %d): %s", attempt + 1, e)
-            time.sleep(2 * (attempt + 1))
+    text = text[:4500]
+    for attempt in range(2):
+        for name, fn in TRANSLATORS:
+            # не частіше ~3 запитів на секунду
+            wait = 0.35 - (time.time() - _last_call)
+            if wait > 0:
+                time.sleep(wait)
+            _last_call = time.time()
+            try:
+                result = fn(text)
+                if result and result.strip():
+                    return result
+            except Exception as e:  # noqa: BLE001
+                log.info("Переклад через %s не вдався: %s", name, str(e)[:120])
+        time.sleep(5 * (attempt + 1))
     raise RuntimeError("translation failed")
 
 
