@@ -158,9 +158,13 @@ def shorten(text, limit):
 def image_from_entry(entry):
     for key in ("media_content", "media_thumbnail"):
         for m in entry.get(key, []) or []:
-            url = m.get("url")
-            if url and not url.lower().endswith((".mp4", ".mp3")):
-                return url
+            url = m.get("url") or ""
+            kind = (m.get("type") or m.get("medium") or "").lower()
+            if not url or "video" in kind or "audio" in kind:
+                continue
+            if re.search(r"youtube\.com|youtu\.be|vimeo\.com|\.(mp4|mp3|webm)(\?|$)", url, re.I):
+                continue
+            return url
     for enc in entry.get("enclosures", []) or []:
         if (enc.get("type") or "").startswith("image") and enc.get("href"):
             return enc["href"]
@@ -475,6 +479,57 @@ def build_caption(cat, title_html, summary_uk, source, link, extra_games=()):
     return caption
 
 
+# ---------- джерела без RSS (читання сторінки сайту) ----------
+
+class HtmlEntry(dict):
+    """Схоже на запис feedparser, щоб решта коду працювала однаково."""
+
+
+def fetch_html_feed(feed):
+    """
+    Збирає новини зі сторінки: посилання, що відповідають link_pattern.
+    Картинку й опис бере зі сторінки самої новини (og:image, og:description).
+    """
+    r = HTTP.get(feed["url"], timeout=20)
+    r.raise_for_status()
+    soup = BeautifulSoup(r.text, "html.parser")
+    pattern = re.compile(feed["link_pattern"])
+    seen, items = set(), []
+    for a in soup.find_all("a", href=True):
+        href = requests.compat.urljoin(feed["url"], a["href"])
+        title = a.get_text(" ", strip=True)
+        if not pattern.search(href) or len(title) < 15 or href in seen:
+            continue
+        seen.add(href)
+        items.append(HtmlEntry(id=href, link=href, title=title, summary="", html_source=True))
+        if len(items) >= 20:
+            break
+    return items
+
+
+def enrich_html_entry(entry):
+    """Опис і картинка зі сторінки новини (лише для тих, що реально публікуємо)."""
+    try:
+        r = HTTP.get(entry["link"], timeout=15)
+        r.raise_for_status()
+        soup = BeautifulSoup(r.text, "html.parser")
+
+        def meta(prop):
+            tag = soup.find("meta", attrs={"property": prop}) or soup.find("meta", attrs={"name": prop})
+            return (tag.get("content") or "").strip() if tag else ""
+
+        entry["summary"] = meta("og:description") or meta("description")
+        image = meta("og:image")
+        if image:
+            entry["media_content"] = [{"url": requests.compat.urljoin(entry["link"], image)}]
+    except Exception as e:  # noqa: BLE001
+        log.info("Не вдалося прочитати сторінку новини %s: %s", entry.get("link"), e)
+
+
+def entry_tags(entry):
+    return {(t.get("term") or "").strip().lower() for t in entry.get("tags", []) or []}
+
+
 # ---------- головний цикл ----------
 
 def collect(config, state):
@@ -484,23 +539,48 @@ def collect(config, state):
     now = time.time()
     candidates = []
 
+    known_sources = state.setdefault("sources", [])
+
     for cat_id, cat in config["categories"].items():
         for feed in cat["feeds"]:
+            source_id = f'{cat_id}|{feed["name"]}|{feed["url"]}'
             try:
-                resp = HTTP.get(feed["url"], timeout=20)
-                resp.raise_for_status()
-                parsed = feedparser.parse(resp.content)
+                if feed.get("type") == "html":
+                    entries = fetch_html_feed(feed)
+                else:
+                    resp = HTTP.get(feed["url"], timeout=20)
+                    resp.raise_for_status()
+                    entries = feedparser.parse(resp.content).entries
             except Exception as e:  # noqa: BLE001
                 log.warning("❌ %s: не вдалося завантажити стрічку (%s)", feed["name"], e)
                 continue
-            if not parsed.entries:
+            if not entries:
                 log.warning("❌ %s: стрічка порожня або зламана", feed["name"])
                 continue
+
+            include = {t.lower() for t in feed.get("include_tags", [])}
+            exclude = {t.lower() for t in feed.get("exclude_tags", [])}
+
+            # Нове джерело без дат (сторінка сайту): усе, що там зараз є, вважаємо старим,
+            # щоб не завалити канал архівом. Публікуватимемо лише те, що з'явиться далі.
+            if feed.get("type") == "html" and source_id not in known_sources:
+                for entry in entries:
+                    state["seen"][item_key(entry)] = now
+                known_sources.append(source_id)
+                log.info("🆕 %s: нове джерело, запам'ятав %d поточних новин", feed["name"], len(entries))
+                continue
+            if source_id not in known_sources:
+                known_sources.append(source_id)
+
             fresh = []
-            for entry in parsed.entries:
+            for entry in entries:
                 key = item_key(entry)
                 if key in state["seen"]:
                     continue
+                if include or exclude:
+                    tags = entry_tags(entry)
+                    if (include and not tags & include) or (tags & exclude):
+                        continue
                 ts = entry_time(entry) or now
                 title = clean_text(entry.get("title", ""))
                 if not title or now - ts > max_age:
@@ -552,6 +632,8 @@ def main():
     for c in candidates:
         if len(selected) >= budget:
             break
+        if any(s["key"] == c["key"] for s in selected):
+            continue
         if is_duplicate_story(c["title"], state["titles"] + [(0, s["title"]) for s in selected]):
             log.info("↪ дубль іншої новини, пропускаю: %s", c["title"])
             state["seen"][c["key"]] = time.time()
@@ -566,6 +648,8 @@ def main():
     # публікуємо від старішої до новішої, щоб у каналі був хронологічний порядок
     for c in reversed(selected):
         entry = c["entry"]
+        if entry.get("html_source"):
+            enrich_html_entry(entry)
         link = entry.get("link", "")
         summary = clean_text(entry.get("summary", ""))
         if summary.lower().startswith(c["title"].lower()[:40]):
