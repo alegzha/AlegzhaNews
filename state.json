@@ -1,5 +1,24 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:games|DOU Gamedev|https://gamedev.dou.ua/feed/": {
+   "detail": "https://gamedev.dou.ua/feed/\n403 Client Error: Forbidden for url: https://gamedev.dou.ua/feed/",
+   "label": "Джерело «DOU Gamedev» не працює",
+   "sent": 0,
+   "since": 1791724874.912554
+  },
+  "src:games|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/\n403 Client Error: Forbidden for url: https://mezha.ua/feed/",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1791724880.798575
+  },
+  "src:movies|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/\n403 Client Error: Forbidden for url: https://mezha.ua/feed/",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1791724886.6807888
+  }
+ },
  "seen": {
   "03f20cb96bdf5ebf": 1791636717.6413405,
   "055bbbcbf5b3ae19": 1791638179.5917444,
@@ -29,6 +48,7 @@
   "4171abb5768cb121": 1791636717.6413395,
   "4305ce6b081ab3b8": 1791678235.0223486,
   "45c7c9729205196b": 1791646026.7941504,
+  "45dd72c9dc843e64": 1791724900.39503,
   "46e8fce991a50384": 1791646021.548309,
   "498b7f5b5903fc98": 1791643484.7724442,
   "4b441e9d94a56616": 1791638194.651585,
@@ -90,6 +110,7 @@
   "e891c97409f3641e": 1791643484.7724442,
   "eb22ec1fca744e62": 1791638172.0694044,
   "ebc61e28ce29ee00": 1791718288.32776,
+  "ec9fc656bf30cb2e": 1791724891.5229225,
   "ee71a862604bffe0": 1791699402.5425174,
   "f29e03590222c225": 1791636717.6413417,
   "f588baa9b6a75512": 1791654264.8368306,
@@ -118,6 +139,11 @@
   "movies|Mezha|https://mezha.ua/feed/"
  ],
  "steam": {
+  "id:1131190": [
+   "1131190",
+   "NERTS! Online",
+   1791724894.7207022
+  ],
   "id:1488490": [
    "1488490",
    "Nivalis Nights",
@@ -127,6 +153,21 @@
    "4045720",
    "Squadron 42",
    1791675541.5934443
+  ],
+  "q:000": [
+   0,
+   "",
+   1791724888.7136686
+  ],
+  "q:1": [
+   0,
+   "",
+   1791724888.1262012
+  ],
+  "q:100": [
+   0,
+   "",
+   1791724895.3163974
   ],
   "q:2 0 update and 'spider man' grappling": [
    0,
@@ -178,6 +219,11 @@
    "",
    1791668269.5718987
   ],
+  "q:ai powered": [
+   0,
+   "",
+   1791724887.532814
+  ],
   "q:arc": [
    0,
    "",
@@ -203,6 +249,11 @@
    "",
    1791668278.9708633
   ],
+  "q:balatro": [
+   2379780,
+   "Balatro",
+   1791724897.6827266
+  ],
   "q:but that doesn": [
    0,
    "",
@@ -212,6 +263,11 @@
    2000950,
    "Call of Duty®: Modern Warfare®",
    1791668518.2001636
+  ],
+  "q:cho": [
+   0,
+   "",
+   1791724897.109433
   ],
   "q:citizen": [
    0,
@@ -598,6 +654,16 @@
    "",
    1791659738.1565754
   ],
+  "q:sungwon": [
+   0,
+   "",
+   1791724896.480664
+  ],
+  "q:sungwon cho": [
+   0,
+   "",
+   1791724895.898104
+  ],
   "q:team fortress 2": [
    440,
    "Team Fortress 2",
@@ -942,6 +1008,14 @@
   [
    1791722108.4799652,
    "Phasmophobia confirms 30 million sales as its Crimson Eye Halloween event returns"
+  ],
+  [
+   1791724891.5229251,
+   "The developer of an AI-powered driving instruction simulator is spending $1,000 per month just to keep its demo running"
+  ],
+  [
+   1791724900.3950326,
+   "'I'm the type of player who loves to 100% a game': SungWon Cho on achievement hunting, why he doesn’t like multiplayer games, and the one Balatro joker that nearly drove him to despair"
   ]
  ],
  "wishlist": {
