@@ -1,25 +1,7 @@
 {
- "alerts": {
-  "src:games|DOU Gamedev|https://gamedev.dou.ua/feed/": {
-   "detail": "https://gamedev.dou.ua/feed/\n403 Client Error: Forbidden for url: https://gamedev.dou.ua/feed/",
-   "label": "Джерело «DOU Gamedev» не працює",
-   "sent": 0,
-   "since": 1791724874.912554
-  },
-  "src:games|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/\n403 Client Error: Forbidden for url: https://mezha.ua/feed/",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1791724880.798575
-  },
-  "src:movies|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/\n403 Client Error: Forbidden for url: https://mezha.ua/feed/",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1791724886.6807888
-  }
- },
+ "alerts": {},
  "seen": {
+  "03080b879f45b5a4": 1791742964.7350998,
   "03f20cb96bdf5ebf": 1791636717.6413405,
   "055bbbcbf5b3ae19": 1791638179.5917444,
   "070d309edf47bb38": 1791643484.7724442,
@@ -53,11 +35,14 @@
   "498b7f5b5903fc98": 1791643484.7724442,
   "4b441e9d94a56616": 1791638194.651585,
   "4d4d7fd9e3600ee9": 1791675543.0572023,
+  "4e1ed149f01e16af": 1791743004.6090071,
   "4f7752bacb71dae6": 1791639250.87501,
   "504ee63d6d202353": 1791642330.1209908,
   "571a9c6f044d8bf7": 1791643484.7724442,
   "5e834a8082e7539e": 1791636717.6413429,
+  "623fe4d15c4ae3c3": 1791742999.2445257,
   "62d4245f77316b73": 1791654260.2182121,
+  "665d35668e50cb33": 1791743016.610594,
   "66ecd44e663b535e": 1791638208.3614297,
   "67dbc1c3bd60e817": 1791667536.1996334,
   "6aff17e54676471f": 1791644933.1937206,
@@ -68,9 +53,11 @@
   "73effcc5b530b2a6": 1791636717.6413386,
   "74780e0902e82f80": 1791642313.8867812,
   "74d21a4cc534aa50": 1791638768.598451,
+  "75ab4ca3caecc444": 1791742992.6786945,
   "75d63613bd57c446": 1791638201.4575505,
   "7683df9962c2ab29": 1791722099.434452,
   "76bb8ee3cb627559": 1791643484.7724442,
+  "776d74d8c2ab4d05": 1791742982.3528411,
   "780b67bcb6f93c7b": 1791643484.7724442,
   "785336b3f4e329d2": 1791658399.4622397,
   "78a198516fe1b303": 1791667541.655668,
@@ -82,6 +69,8 @@
   "8f9fec8ef2615331": 1791643484.7724442,
   "91f17251c147b8b9": 1791668275.4877675,
   "9a9c024dd9d7c1db": 1791668526.060194,
+  "9cb55f9258ff0b0e": 1791743027.2241058,
+  "9ef731b1f5fb96bd": 1791743022.3373876,
   "a01cdcae7bff7990": 1791718278.296192,
   "a2d8974671876099": 1791722108.479963,
   "a424e0bf4e1ff5f8": 1791638763.492404,
@@ -100,11 +89,13 @@
   "d0a6e1a52572f04a": 1791668286.5554988,
   "d0afa6a0199e1b9b": 1791722079.537371,
   "d2716a957fd942a6": 1791675538.3886552,
+  "d396f904f2d15020": 1791742988.7954378,
   "d5e0b1582d85851f": 1791643484.7724442,
   "d6ef87b7463c1c49": 1791636717.6413412,
   "d7dc089d187f3abe": 1791638186.8176112,
   "d8a4a8899a6e40a9": 1791668783.8428674,
   "d8c7784fa1bb6584": 1791675533.7058825,
+  "db0dad8d6002d762": 1791742975.2076674,
   "dbc30b55901df180": 1791650189.208903,
   "e7f776205d5baa63": 1791675548.2298849,
   "e891c97409f3641e": 1791643484.7724442,
@@ -112,12 +103,14 @@
   "ebc61e28ce29ee00": 1791718288.32776,
   "ec9fc656bf30cb2e": 1791724891.5229225,
   "ee71a862604bffe0": 1791699402.5425174,
+  "ee8cbe5d2f8c428a": 1791742970.279169,
   "f29e03590222c225": 1791636717.6413417,
   "f588baa9b6a75512": 1791654264.8368306,
   "f5b1d67ac26794db": 1791643484.7724442,
   "f9a5ea2d1ba92182": 1791643484.7724442,
   "fa1baf1fe69fe2a8": 1791661532.8653228,
-  "fc90c750e381c97b": 1791643484.7724442
+  "fc90c750e381c97b": 1791643484.7724442,
+  "ff142276fb37798a": 1791742953.0097268
  },
  "sources": [
   "games|PC Gamer|https://www.pcgamer.com/rss/",
@@ -164,10 +157,20 @@
    "",
    1791724888.1262012
   ],
+  "q:1 dlc": [
+   0,
+   "",
+   1791743012.3094716
+  ],
   "q:100": [
    0,
    "",
    1791724895.3163974
+  ],
+  "q:2 0": [
+   0,
+   "",
+   1791742987.0242214
   ],
   "q:2 0 update and 'spider man' grappling": [
    0,
@@ -219,6 +222,11 @@
    "",
    1791668269.5718987
   ],
+  "q:after party": [
+   0,
+   "",
+   1791742979.306047
+  ],
   "q:ai powered": [
    0,
    "",
@@ -228,6 +236,16 @@
    0,
    "",
    1791668280.8958008
+  ],
+  "q:arc raiders": [
+   1808500,
+   "ARC Raiders",
+   1791742986.4642007
+  ],
+  "q:arc raiders 2 0": [
+   0,
+   "",
+   1791742985.8969302
   ],
   "q:arc raiders'": [
    0,
@@ -374,6 +392,16 @@
    "",
    1791718281.7886121
   ],
+  "q:december": [
+   0,
+   "",
+   1791742980.6278958
+  ],
+  "q:escape the backrooms": [
+   1943950,
+   "Escape the Backrooms",
+   1791742978.727892
+  ],
   "q:eye": [
    0,
    "",
@@ -383,6 +411,16 @@
    0,
    "",
    1791722105.1282427
+  ],
+  "q:fighting": [
+   0,
+   "",
+   1791743009.2503214
+  ],
+  "q:fighting souls": [
+   0,
+   "",
+   1791743008.6858459
   ],
   "q:fmv": [
    0,
@@ -484,6 +522,11 @@
    "",
    1791668271.4768624
   ],
+  "q:marvel t": [
+   0,
+   "",
+   1791743008.1477153
+  ],
   "q:medium rare": [
    4909780,
    "Medium Rare",
@@ -523,6 +566,31 @@
    1488490,
    "Nivalis Nights",
    1791658397.4204514
+  ],
+  "q:party": [
+   0,
+   "",
+   1791742979.9062922
+  ],
+  "q:phoenix": [
+   0,
+   "",
+   1791743014.4980516
+  ],
+  "q:phoenix cyclops": [
+   0,
+   "",
+   1791743013.9683154
+  ],
+  "q:phoenix cyclops on 2nd": [
+   0,
+   "",
+   1791743013.4068568
+  ],
+  "q:phoenix cyclops on 2nd november": [
+   0,
+   "",
+   1791743012.9032354
   ],
   "q:pubg ded net": [
    2726580,
@@ -599,6 +667,11 @@
    "",
    1791718285.8584955
   ],
+  "q:souls": [
+   0,
+   "",
+   1791743009.7919357
+  ],
   "q:squadron 42": [
    4045720,
    "Squadron 42",
@@ -664,10 +737,45 @@
    "",
    1791724895.898104
   ],
+  "q:taro": [
+   0,
+   "",
+   1791742997.4074602
+  ],
   "q:team fortress 2": [
    440,
    "Team Fortress 2",
    1791654258.6520588
+  ],
+  "q:teaser reveals baki rep's in game render": [
+   0,
+   "",
+   1791742962.530045
+  ],
+  "q:tekken 8": [
+   1778820,
+   "TEKKEN 8",
+   1791742958.8477535
+  ],
+  "q:tekken 8 yujiro": [
+   0,
+   "",
+   1791742958.3342488
+  ],
+  "q:tekken 8 yujiro teaser": [
+   0,
+   "",
+   1791742957.6680734
+  ],
+  "q:tekken 8 yujiro teaser reveals": [
+   0,
+   "",
+   1791742957.1173205
+  ],
+  "q:tekken 8 yujiro teaser reveals baki": [
+   0,
+   "",
+   1791742956.6081195
   ],
   "q:triple a minesweeper": [
    0,
@@ -724,6 +832,31 @@
    "",
    1791644930.7427464
   ],
+  "q:year": [
+   0,
+   "",
+   1791743011.7414477
+  ],
+  "q:year 1": [
+   0,
+   "",
+   1791743010.909181
+  ],
+  "q:year 1 dlc": [
+   0,
+   "",
+   1791743010.309216
+  ],
+  "q:yoko": [
+   2664050,
+   "YOKO",
+   1791742996.7788212
+  ],
+  "q:yoko taro": [
+   0,
+   "",
+   1791742996.1760778
+  ],
   "q:you need": [
    0,
    "",
@@ -738,6 +871,36 @@
    0,
    "",
    1791668522.3740702
+  ],
+  "q:yujiro": [
+   0,
+   "",
+   1791742961.9847195
+  ],
+  "q:yujiro teaser": [
+   0,
+   "",
+   1791742961.4842186
+  ],
+  "q:yujiro teaser reveals": [
+   0,
+   "",
+   1791742960.9479606
+  ],
+  "q:yujiro teaser reveals baki": [
+   0,
+   "",
+   1791742960.4140625
+  ],
+  "q:yujiro teaser reveals baki rep": [
+   0,
+   "",
+   1791742959.910262
+  ],
+  "q:yujiro teaser reveals baki rep's in game": [
+   0,
+   "",
+   1791742959.3502457
   ]
  },
  "titles": [
@@ -1016,6 +1179,54 @@
   [
    1791724900.3950326,
    "'I'm the type of player who loves to 100% a game': SungWon Cho on achievement hunting, why he doesn’t like multiplayer games, and the one Balatro joker that nearly drove him to despair"
+  ],
+  [
+   1791742953.0097306,
+   "RPGs are simply better when you're an idiot"
+  ],
+  [
+   1791742964.7351027,
+   "Tekken 8 Yujiro Teaser Reveals Baki Rep's In-Game Render Is Just as Uncanny as Fans Expected"
+  ],
+  [
+   1791742970.2791722,
+   "Dave Lombardo - 'Reign in Blood' Still 'Gives Me the Chills'"
+  ],
+  [
+   1791742975.2076697,
+   "Running Man: Glen Powell Knows Why His Stephen King Adaptation Barely Impacted The Box Office"
+  ],
+  [
+   1791742982.3528438,
+   "Escape the Backrooms is throwing an After Party with three new levels this December"
+  ],
+  [
+   1791742988.7954407,
+   "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off"
+  ],
+  [
+   1791742992.6786969,
+   "Ніколас Кейдж заявив, що більше не працюватиме з Amazon, оскільки в Spider‑Noir йому пропонували угоду про використання ШІ"
+  ],
+  [
+   1791742999.2445283,
+   "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia'"
+  ],
+  [
+   1791743004.6090097,
+   "AMANDA SOMERVILLE Says Her Cancerous Brain Tumor Is 'Not Operable': It 'Is Only Treated To Gain Time'"
+  ],
+  [
+   1791743016.6105967,
+   "Marvel Tōkon: Fighting Souls reveals its Year 1 DLC roster, starting with Phoenix Cyclops on 2nd November"
+  ],
+  [
+   1791743022.3373902,
+   "MASTODON's BRANN DAILOR: BRENT HINDS 'Got Away With A Lot Of Things That Other People Wouldn't Be Able To'"
+  ],
+  [
+   1791743027.2241077,
+   "5 Must-Watch Netflix Original Movies That We Don't Talk About Anymore"
   ]
  ],
  "wishlist": {
@@ -1162,9 +1373,9 @@
    },
    "1234430": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 90,
     "name": "Ad Infinitum",
-    "price": "849,00₴",
+    "price": "84,00₴",
     "release": 1694707236
    },
    "1238060": {
@@ -2806,7 +3017,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1791722119.1429708,
+  "last_check": 1791743041.2532623,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
