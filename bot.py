@@ -252,7 +252,58 @@ def _google_api(text):
     return out
 
 
-TRANSLATORS = ([("DeepL", _deepl)] if DEEPL_API_KEY else []) + [
+# ---------- Gemini (основний перекладач, якщо задано секрет GEMINI_API_KEY) ----------
+
+GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
+GEMINI_MODELS = ["gemini-flash-lite-latest", "gemini-flash-latest"]
+GEMINI_PROMPT = (
+    "Ти — редактор українського новинного Telegram-каналу про ігри, важку й альтернативну музику, "
+    "кіно, серіали, софт і штучний інтелект. Перекладай українською кожен рядок зі списку: "
+    "природно, у стилі новин, без дослівності й русизмів. Назви ігор, гуртів, альбомів, пісень, "
+    "фільмів, серіалів, компаній і продуктів залишай в оригіналі латиницею. Мітки вигляду QQ0QQ, "
+    "QQ1QQ залишай без змін на відповідному місці. Нічого не додавай і не пояснюй. "
+    "Відповідь — JSON-масив рядків тієї ж довжини й у тому ж порядку."
+)
+_gemini_model = None
+
+
+def gemini_translate(texts):
+    """Перекладає список текстів одним запитом. Повертає список тієї ж довжини."""
+    global _gemini_model
+    models = [_gemini_model] if _gemini_model else GEMINI_MODELS
+    last = None
+    for model in models:
+        r = requests.post(
+            f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+            headers={"x-goog-api-key": GEMINI_API_KEY, "Content-Type": "application/json"},
+            json={
+                "systemInstruction": {"parts": [{"text": GEMINI_PROMPT}]},
+                "contents": [{"role": "user", "parts": [{"text": json.dumps(texts, ensure_ascii=False)}]}],
+                "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"},
+            },
+            timeout=60,
+        )
+        if r.status_code == 404:
+            last = f"модель {model} недоступна"
+            continue
+        if r.status_code == 429:
+            raise RuntimeError("429: ліміт безкоштовних запитів Gemini вичерпано")
+        if r.status_code in (400, 401, 403) and "API key" in r.text:
+            raise RuntimeError("403: ключ Gemini недійсний")
+        r.raise_for_status()
+        data = r.json()
+        parts = ((data.get("candidates") or [{}])[0].get("content") or {}).get("parts") or []
+        out = json.loads("".join(p.get("text", "") for p in parts))
+        if not isinstance(out, list) or len(out) != len(texts) or not all(isinstance(x, str) and x.strip() for x in out):
+            raise RuntimeError("Gemini повернув відповідь не того формату")
+        _gemini_model = model
+        return [x.strip() for x in out]
+    raise RuntimeError(last or "Gemini недоступний")
+
+
+TRANSLATORS = ([("Gemini", lambda t: gemini_translate([t])[0])] if GEMINI_API_KEY else []) + (
+    [("DeepL", _deepl)] if DEEPL_API_KEY else []
+) + [
     ("Google API", _google_api),
     ("Google", lambda t: _google_page.translate(t)),
     ("MyMemory", lambda t: _mymemory.translate(t[:480])),
@@ -361,6 +412,14 @@ def placeholder_re(n):
     return re.compile(r"Q\s*Q\s*" + str(n) + r"\s*Q\s*Q", re.I)
 
 
+def mark_title(title, games):
+    """Заголовок, де назви ігор замінено мітками QQ0QQ, QQ1QQ… (щоб перекладач їх не чіпав)."""
+    marked = title
+    for n, (s, e, _, _) in reversed(list(enumerate(games))):
+        marked = marked[:s] + PLACEHOLDER.format(n) + marked[e:]
+    return marked
+
+
 def linked_title(title, games, tr=None):
     """
     Перекладає заголовок і робить назви ігор посиланнями на Steam.
@@ -375,10 +434,7 @@ def linked_title(title, games, tr=None):
     def link(text, app_id):
         return f'<a href="{app_url(app_id)}">{esc(text)}</a>'
 
-    marked = title
-    for n, (s, e, _, _) in reversed(list(enumerate(games))):
-        marked = marked[:s] + PLACEHOLDER.format(n) + marked[e:]
-    translated = tr(marked)
+    translated = tr(mark_title(title, games))
 
     if all(placeholder_re(n).search(translated) for n in range(len(games))):
         out = esc(translated)
@@ -491,6 +547,16 @@ def notify_admin(text):
 
 def report_health(alerts, pub):
     """Сповіщення про переклад і публікацію за підсумками запуску."""
+    if "Gemini" in _disabled:
+        alerts.problem(
+            "gemini", "Gemini більше не перекладає",
+            f"{_disabled['Gemini']}\nПоки що перекладаю через DeepL і Google. "
+            "Безкоштовний ліміт Gemini оновлюється щодоби.",
+            repeat_hours=24,
+        )
+    elif "Gemini" in TR_STATS["ok"]:
+        alerts.ok("gemini")
+
     if "DeepL" in _disabled:
         alerts.problem(
             "deepl", "DeepL більше не перекладає",
@@ -846,6 +912,18 @@ def main():
                 log.info("🕹 Steam: %s", ", ".join(g[3] for g in games))
         already_uk = c.get("lang") == "uk" or is_ukrainian(c["title"])
         tr = (lambda t: t) if already_uk else translate
+        if not already_uk and GEMINI_API_KEY and "Gemini" not in _disabled:
+            # заголовок і опис — одним запитом, щоб берегти безкоштовний ліміт Gemini
+            batch = [mark_title(c["title"], games)] + ([summary] if summary else [])
+            try:
+                done = dict(zip(batch, gemini_translate(batch)))
+                TR_STATS["ok"].add("Gemini")
+                tr = lambda t, done=done: done.get(t) or translate(t)  # noqa: E731
+            except Exception as e:  # noqa: BLE001
+                msg = str(e)
+                if any(k in msg.lower() for k in BLOCKING_ERRORS):
+                    _disabled["Gemini"] = msg[:200]
+                log.info("Gemini не переклав (%s) — беру запасний перекладач", msg[:120])
         try:
             title_html, extra_games = linked_title(c["title"], games, tr)
             summary_uk = tr(summary) if summary else ""

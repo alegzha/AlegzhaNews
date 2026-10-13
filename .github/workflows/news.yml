@@ -39,6 +39,7 @@ jobs:
           TELEGRAM_WISHLIST_CHAT_ID: ${{ secrets.TELEGRAM_WISHLIST_CHAT_ID }}
           TELEGRAM_ADMIN_ID: ${{ secrets.TELEGRAM_ADMIN_ID }}
           DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
           FORCE_RELEASES: ${{ inputs.releases }}
         run: python bot.py
 
