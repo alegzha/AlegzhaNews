@@ -351,6 +351,15 @@ async function discoverFeed(input) {
   if (host === "x.com" || host === "twitter.com") {
     throw new Error("X (Twitter) не дає безкоштовної стрічки. Пошукай цей акаунт у Bluesky, Mastodon чи Telegram.");
   }
+  // Bluesky: у кожного профілю є RSS за адресою /profile/<нік>/rss
+  const bsky = start.pathname.match(/^\/profile\/([^/]+)/);
+  if (host === "bsky.app" && bsky) {
+    const rss = `https://bsky.app/profile/${bsky[1]}/rss`;
+    const r = await getText(rss).catch(() => null);
+    if (!r || !looksLikeFeed(r.body)) throw new Error("Не вдалося відкрити стрічку цього профілю Bluesky.");
+    const info = describeFeed(rss, r.body);
+    return { ...info, title: `${bsky[1].replace(/\.bsky\.social$/, "")} (Bluesky)` };
+  }
   const candidates = [start.toString()];
   const tried = new Set();
   let page = null;

@@ -634,6 +634,18 @@ def enrich_html_entry(entry):
         log.info("Не вдалося прочитати сторінку новини %s: %s", entry.get("link"), e)
 
 
+def split_post(text, limit=140):
+    """Текст поста → (заголовок, решта): перше речення або перший рядок, не довше limit."""
+    text = (text or "").strip()
+    m = re.match(r"(.{15,%d}?[.!?…])(\s|$)" % limit, text)
+    if m:
+        return m.group(1).strip(), text[m.end():].strip()
+    if len(text) <= limit:
+        return text, ""
+    cut = text[:limit].rsplit(" ", 1)[0]
+    return cut + "…", text
+
+
 def entry_tags(entry):
     return {(t.get("term") or "").strip().lower() for t in entry.get("tags", []) or []}
 
@@ -726,6 +738,12 @@ def collect(config, state, alerts):
                         continue
                 ts = entry_time(entry) or now
                 title = clean_text(entry.get("title", ""))
+                social = False
+                if not title and entry.get("summary"):
+                    # пост із соцмережі (Bluesky, Mastodon…): заголовка немає, лише текст
+                    title, rest = split_post(clean_text(entry["summary"]))
+                    entry["summary"] = rest
+                    social = True
                 if not title or now - ts > max_age:
                     continue
                 if any(k in title.lower() for k in skip):
@@ -741,6 +759,7 @@ def collect(config, state, alerts):
                         "cat_id": cat_id,
                         "source": feed["name"],
                         "lang": feed.get("lang", ""),
+                        "social": social,
                     }
                 )
             fresh.sort(key=lambda c: c["ts"], reverse=True)
@@ -810,7 +829,7 @@ def main():
             enrich_html_entry(entry)
         link = entry.get("link", "")
         summary = clean_text(entry.get("summary", ""))
-        if summary.lower().startswith(c["title"].lower()[:40]):
+        if not c.get("social") and summary.lower().startswith(c["title"].lower()[:40]):
             summary = ""
         summary = shorten(summary, limits["summary_chars"])
         games = []
