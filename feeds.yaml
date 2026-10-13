@@ -31,6 +31,16 @@ categories:
         include_tags: ["Ігри"]          # з Mezha беремо лише статті з тегом «Ігри»
       - name: IGN
         url: https://www.ign.com/rss/articles/feed?tags=games
+      - name: Polygon
+        url: https://www.polygon.com/feed/
+        alt_urls:                        # запасні адреси, якщо основна не відповідає
+          - https://www.polygon.com/rss/index.xml
+      - name: Digital Foundry
+        url: https://www.digitalfoundry.net/feed
+        alt_urls:
+          - https://www.digitalfoundry.net/rss
+          - https://www.digitalfoundry.net/feed.xml
+          - https://www.eurogamer.net/feed/digitalfoundry
       - name: ITC.ua
         url: https://itc.ua/ua/feed/
         lang: uk
@@ -70,6 +80,32 @@ categories:
         url: https://itc.ua/ua/feed/
         lang: uk
         include_tags: ["Кіно", "Серіали", "Фільми"]
+
+  software:
+    emoji: "💾"
+    hashtag: "#софт"
+    feeds:
+      - name: Mezha
+        url: https://mezha.ua/feed/
+        lang: uk
+        include_tags: ["Софт"]
+      - name: ITC.ua
+        url: https://itc.ua/ua/feed/
+        lang: uk
+        include_tags: ["Софт", "Програми", "Програмне забезпечення"]
+
+  ai:
+    emoji: "🤖"
+    hashtag: "#ШІ"
+    feeds:
+      - name: Mezha
+        url: https://mezha.ua/feed/
+        lang: uk
+        include_tags: ["Штучний інтелект"]
+      - name: ITC.ua
+        url: https://itc.ua/ua/feed/
+        lang: uk
+        include_tags: ["Штучний інтелект", "ШІ", "AI"]
 
 # Необов'язкові фільтри (регістр не важливий).
 # skip_keywords — новини з цими словами в заголовку не публікуються.

@@ -648,6 +648,8 @@ def collect(config, state, alerts):
     candidates = []
 
     known_sources = state.setdefault("sources", [])
+    working_urls = state.setdefault("source_urls", {})
+    tag_hints = state.setdefault("tag_hints", {})
     active = set()
 
     for cat_id, cat in config["categories"].items():
@@ -656,12 +658,28 @@ def collect(config, state, alerts):
             alert_key = "src:" + source_id
             active.add(alert_key)
             down = f"Джерело «{feed['name']}» не працює"
-            try:
-                if feed.get("type") == "html":
-                    entries = fetch_html_feed(feed)
-                else:
-                    entries = feedparser.parse(fetch_source(feed["url"]).content).entries
-            except Exception as e:  # noqa: BLE001
+            entries, error = [], None
+            # alt_urls — запасні адреси стрічки, якщо сайт її переніс
+            urls = [feed["url"]] + list(feed.get("alt_urls") or [])
+            known_good = working_urls.get(feed["url"])
+            if known_good in urls:
+                urls.remove(known_good)
+                urls.insert(0, known_good)
+            for u in urls:
+                try:
+                    if feed.get("type") == "html":
+                        entries = fetch_html_feed({**feed, "url": u})
+                    else:
+                        entries = feedparser.parse(fetch_source(u).content).entries
+                except Exception as e:  # noqa: BLE001
+                    error = e
+                    continue
+                if entries:
+                    if u != feed["url"] or feed.get("alt_urls"):
+                        working_urls[feed["url"]] = u
+                    break
+            if error and not entries:
+                e = error
                 log.warning("❌ %s: не вдалося завантажити стрічку (%s)", feed["name"], e)
                 alerts.problem(alert_key, down, f"{feed['url']}\n{e}", after_hours=12)
                 continue
@@ -695,6 +713,7 @@ def collect(config, state, alerts):
                     "ℹ️ %s: жодної статті з тегами %s. Теги в стрічці: %s",
                     feed["name"], ", ".join(feed["include_tags"]), ", ".join(all_tags[:60]) or "—",
                 )
+                tag_hints[feed["name"]] = all_tags[:80]
 
             fresh = []
             for entry in entries:
