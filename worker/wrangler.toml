@@ -1,0 +1,6 @@
+# Налаштування для автодеплою воркера з GitHub (Cloudflare → Workers Builds).
+# Змінні й секрети задаються в дашборді Cloudflare і тут не зберігаються.
+name = "alegzhanews"
+main = "worker.js"
+compatibility_date = "2026-09-01"
+keep_vars = true
