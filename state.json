@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/\n415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1791908389.827931
-  }
- },
+ "alerts": {},
  "seen": {
   "0032018e55b77f5d": 1791894786.2657132,
   "0161762704b9d659": 1791820226.6361132,
@@ -18,10 +11,12 @@
   "055bbbcbf5b3ae19": 1791638179.5917444,
   "070d309edf47bb38": 1791643484.7724442,
   "071f28d3e5f796e6": 1791654234.9343066,
+  "07b14069038d87c9": 1791920822.7050872,
   "07c9a77e54e23e67": 1791642308.7748382,
   "087c8ea0d0cca171": 1791908400.9264767,
   "0ad97e6b188589e7": 1791659734.5990682,
   "0af8a2e5035cb90b": 1791894821.8401823,
+  "0bc34f73ce3a3bd4": 1791920831.4798427,
   "0e3227631c52c966": 1791757271.9788234,
   "102d3575e730c2e1": 1791678229.9078677,
   "1063bc2bd4d94992": 1791642324.2730968,
@@ -33,6 +28,7 @@
   "1943ecf2ed17c0e9": 1791638165.0720973,
   "19d70f4ab21befbf": 1791750769.4269507,
   "19e62b74930900ad": 1791667531.5466912,
+  "1a73aa63bafd9daa": 1791920853.6017885,
   "1b51ce0f0aa234b4": 1791815118.1787226,
   "1bc693cb0759f732": 1791643484.7724442,
   "1c3c1c77ce37882a": 1791658404.1628098,
@@ -74,6 +70,7 @@
   "411908f8ec11068d": 1791648355.907981,
   "4171abb5768cb121": 1791636717.6413395,
   "4305ce6b081ab3b8": 1791678235.0223486,
+  "431c52b37ba34ad3": 1791920881.6626737,
   "43c46bcca2d9bae1": 1791750730.2911475,
   "44bd51be035ffe73": 1791831104.1027663,
   "45c7c9729205196b": 1791646026.7941504,
@@ -91,6 +88,7 @@
   "4c5865db2993bef8": 1791807582.2031515,
   "4d22bf33fe9ffca5": 1791831096.9756553,
   "4d4d7fd9e3600ee9": 1791675543.0572023,
+  "4d6aedb5cf0333e1": 1791920848.0197632,
   "4e1ed149f01e16af": 1791743004.6090071,
   "4f5a123e1d0efd20": 1791795357.7415702,
   "4f7752bacb71dae6": 1791639250.87501,
@@ -164,6 +162,7 @@
   "8cc236b2193e56bc": 1791795361.3967972,
   "8cd52eb7df9e6eb1": 1791757291.5753953,
   "8d6abf6ca50dd96f": 1791769095.1982708,
+  "8d7fc06a10ab7bfe": 1791920876.1312904,
   "8d7ffcfd041baafe": 1791843798.1359646,
   "8f9fec8ef2615331": 1791643484.7724442,
   "9031184d642d7393": 1791908466.720657,
@@ -173,9 +172,11 @@
   "939d3349f40a773b": 1791820264.255713,
   "969d972539055971": 1791757286.6070983,
   "96caa9e97be701ce": 1791807575.467699,
+  "975ffdef088dcc19": 1791920811.2727714,
   "98b3504fafa8aacc": 1791894808.6965919,
   "9985b3d5b28d3bca": 1791769110.1612594,
   "99de8e5cc0092b17": 1791837781.7497854,
+  "9a945af4bff676bc": 1791920890.789667,
   "9a9c024dd9d7c1db": 1791668526.060194,
   "9cb55f9258ff0b0e": 1791743027.2241058,
   "9d062494f1359211": 1791831120.1553473,
@@ -210,6 +211,7 @@
   "b45ce40e68e5a069": 1791908418.1175368,
   "b4fcea4d70451120": 1791807593.5725496,
   "b5368d16e5d8a522": 1791750736.9549613,
+  "b58e883e7082f041": 1791920864.3307495,
   "b6e9e7ddd669ee7a": 1791659741.1528728,
   "bad0b3bbdcd1f483": 1791820230.0183554,
   "baf9154e13e409fb": 1791795365.3554754,
@@ -241,6 +243,7 @@
   "d2424fc257757807": 1791750758.7943017,
   "d2716a957fd942a6": 1791675538.3886552,
   "d2b2fbd14959eed4": 1791815061.9033022,
+  "d37c3bd963fc72d9": 1791920826.4261014,
   "d396f904f2d15020": 1791742988.7954378,
   "d3d9297aae46f6bc": 1791879524.5448263,
   "d561b90ae9973ec5": 1791894791.377448,
@@ -265,6 +268,7 @@
   "dfe6a0d25541317a": 1791894814.6827502,
   "dfeda5d0ae55acb7": 1791786678.1496363,
   "e0462c7c30474a2c": 1791843834.4903822,
+  "e0ed55e9093ac5bd": 1791920836.554765,
   "e5491ee3dec09c1d": 1791757266.4134915,
   "e573dbd69b744688": 1791837743.9242148,
   "e7f776205d5baa63": 1791675548.2298849,
@@ -284,6 +288,7 @@
   "f588baa9b6a75512": 1791654264.8368306,
   "f5b1d67ac26794db": 1791643484.7724442,
   "f7609dc66d058fc4": 1791831110.1645455,
+  "f8b3d754770f77a6": 1791920886.8207657,
   "f9a5ea2d1ba92182": 1791643484.7724442,
   "fa1baf1fe69fe2a8": 1791661532.8653228,
   "fb20b379e3302e30": 1791807534.5419414,
@@ -689,6 +694,41 @@
    "",
    1791807579.9677725
   ],
+  "q:aimed": [
+   0,
+   "",
+   1791920845.999258
+  ],
+  "q:aimed in part": [
+   0,
+   "",
+   1791920845.397117
+  ],
+  "q:aimed in part at getting": [
+   0,
+   "",
+   1791920844.9050558
+  ],
+  "q:aimed in part at getting improved": [
+   0,
+   "",
+   1791920844.342897
+  ],
+  "q:announces": [
+   0,
+   "",
+   1791920842.692312
+  ],
+  "q:announces xbox": [
+   0,
+   "",
+   1791920842.107005
+  ],
+  "q:announces xbox labs": [
+   0,
+   "",
+   1791920841.5850544
+  ],
   "q:arc": [
    0,
    "",
@@ -818,6 +858,26 @@
    0,
    "",
    1791908431.8035953
+  ],
+  "q:battlefield 6 now": [
+   0,
+   "",
+   1791920869.6435976
+  ],
+  "q:battlefield 6 now lets": [
+   0,
+   "",
+   1791920869.0771105
+  ],
+  "q:battlefield 6 now lets you": [
+   0,
+   "",
+   1791920868.3860595
+  ],
+  "q:battlefield 6 now lets you instantly": [
+   0,
+   "",
+   1791920867.8579223
   ],
   "q:battleplan": [
    3743140,
@@ -984,6 +1044,16 @@
    "",
    1791908392.8056033
   ],
+  "q:changes": [
+   1044120,
+   "Changes",
+   1791920807.5606358
+  ],
+  "q:changes for the series": [
+   0,
+   "",
+   1791920806.9368753
+  ],
   "q:character moments": [
    0,
    "",
@@ -1078,6 +1148,11 @@
    0,
    "",
    1791786715.4839058
+  ],
+  "q:college football devs reportedly fear": [
+   0,
+   "",
+   1791920820.6516113
   ],
   "q:comes": [
    0,
@@ -1224,6 +1299,26 @@
    "",
    1791742980.6278958
   ],
+  "q:despite": [
+   0,
+   "",
+   1791920804.8640683
+  ],
+  "q:despite huge": [
+   0,
+   "",
+   1791920804.3132362
+  ],
+  "q:despite huge changes": [
+   0,
+   "",
+   1791920803.7816315
+  ],
+  "q:despite huge changes for the series": [
+   0,
+   "",
+   1791920803.2366598
+  ],
   "q:digital": [
    0,
    "",
@@ -1298,6 +1393,31 @@
    0,
    "",
    1791831080.7945147
+  ],
+  "q:ea sports'": [
+   0,
+   "",
+   1791920816.9166067
+  ],
+  "q:ea sports' college": [
+   0,
+   "",
+   1791920816.389928
+  ],
+  "q:ea sports' college football": [
+   0,
+   "",
+   1791920815.8732896
+  ],
+  "q:ea sports' college football devs": [
+   0,
+   "",
+   1791920815.3248549
+  ],
+  "q:ea sports' college football devs reportedly": [
+   0,
+   "",
+   1791920814.7766306
   ],
   "q:elohello": [
    0,
@@ -1393,6 +1513,11 @@
    0,
    "",
    1791722105.1282427
+  ],
+  "q:fallout bookends are up for preorder": [
+   0,
+   "",
+   1791920862.8574016
   ],
   "q:fever": [
    0,
@@ -1644,6 +1769,16 @@
    "",
    1791722106.2239726
   ],
+  "q:halo fest 2026 is going": [
+   0,
+   "",
+   1791920809.2146373
+  ],
+  "q:halo fest 2026 is going forward": [
+   0,
+   "",
+   1791920808.6887474
+  ],
   "q:hands on preview and interview": [
    0,
    "",
@@ -1768,6 +1903,21 @@
    0,
    "",
    1791879514.798698
+  ],
+  "q:huge": [
+   1650040,
+   "HuGe",
+   1791920806.3899367
+  ],
+  "q:huge changes": [
+   0,
+   "",
+   1791920805.870274
+  ],
+  "q:huge changes for the series": [
+   0,
+   "",
+   1791920805.3686666
   ],
   "q:i'm shocked": [
    0,
@@ -1924,6 +2074,11 @@
    "",
    1791894780.3094072
   ],
+  "q:labs": [
+   0,
+   "",
+   1791920843.797138
+  ],
   "q:landing": [
    0,
    "",
@@ -1964,10 +2119,45 @@
    "",
    1791853933.317732
   ],
+  "q:lets you instantly unlock all": [
+   0,
+   "",
+   1791920873.9746356
+  ],
+  "q:lets you instantly unlock all guns": [
+   0,
+   "",
+   1791920873.4521105
+  ],
   "q:level": [
    0,
    "",
    1791795364.9088364
+  ],
+  "q:licensed": [
+   0,
+   "",
+   1791920862.233869
+  ],
+  "q:licensed fallout": [
+   0,
+   "",
+   1791920861.7322085
+  ],
+  "q:licensed fallout bookends": [
+   0,
+   "",
+   1791920861.2185295
+  ],
+  "q:licensed fallout bookends are": [
+   0,
+   "",
+   1791920860.7257922
+  ],
+  "q:licensed fallout bookends are up": [
+   0,
+   "",
+   1791920860.2025983
   ],
   "q:light no fire": [
    2719590,
@@ -2334,6 +2524,36 @@
    "",
    1791807602.479973
   ],
+  "q:now": [
+   0,
+   "",
+   1791920872.848385
+  ],
+  "q:now lets": [
+   0,
+   "",
+   1791920872.3363178
+  ],
+  "q:now lets you": [
+   0,
+   "",
+   1791920871.8304505
+  ],
+  "q:now lets you instantly": [
+   0,
+   "",
+   1791920871.2865496
+  ],
+  "q:now lets you instantly unlock": [
+   0,
+   "",
+   1791920870.6652575
+  ],
+  "q:now lets you instantly unlock all": [
+   0,
+   "",
+   1791920870.1673064
+  ],
   "q:ocarina": [
    0,
    "",
@@ -2343,6 +2563,36 @@
    0,
    "",
    1791820234.9965608
+  ],
+  "q:officially": [
+   0,
+   "",
+   1791920859.7060382
+  ],
+  "q:officially licensed": [
+   0,
+   "",
+   1791920859.214237
+  ],
+  "q:officially licensed fallout": [
+   0,
+   "",
+   1791920858.7256286
+  ],
+  "q:officially licensed fallout bookends": [
+   0,
+   "",
+   1791920858.2244973
+  ],
+  "q:officially licensed fallout bookends are": [
+   0,
+   "",
+   1791920857.6985726
+  ],
+  "q:officially licensed fallout bookends are up": [
+   0,
+   "",
+   1791920857.1408103
   ],
   "q:opus": [
    0,
@@ -2894,6 +3144,11 @@
    "",
    1791820262.1555076
   ],
+  "q:series": [
+   0,
+   "",
+   1791920808.135399
+  ],
   "q:sharma": [
    0,
    "",
@@ -2953,6 +3208,36 @@
    0,
    "",
    1791743009.7919357
+  ],
+  "q:sports'": [
+   0,
+   "",
+   1791920820.1601017
+  ],
+  "q:sports' college": [
+   0,
+   "",
+   1791920819.5939271
+  ],
+  "q:sports' college football": [
+   0,
+   "",
+   1791920819.0558777
+  ],
+  "q:sports' college football devs": [
+   0,
+   "",
+   1791920818.5198994
+  ],
+  "q:sports' college football devs reportedly": [
+   0,
+   "",
+   1791920817.999483
+  ],
+  "q:sports' college football devs reportedly fear": [
+   0,
+   "",
+   1791920817.4681735
   ],
   "q:squadron 42": [
    4045720,
@@ -3514,6 +3799,21 @@
    "",
    1791815077.01703
   ],
+  "q:xbox announces": [
+   0,
+   "",
+   1791920841.049844
+  ],
+  "q:xbox announces xbox": [
+   0,
+   "",
+   1791920840.5447998
+  ],
+  "q:xbox announces xbox labs": [
+   0,
+   "",
+   1791920840.0573666
+  ],
   "q:xbox ceo": [
    0,
    "",
@@ -3528,6 +3828,11 @@
    0,
    "",
    1791908391.1659849
+  ],
+  "q:xbox labs": [
+   0,
+   "",
+   1791920843.2107694
   ],
   "q:year": [
    0,
@@ -3656,54 +3961,6 @@
   ]
  },
  "titles": [
-  [
-   1791742953.0097306,
-   "RPGs are simply better when you're an idiot"
-  ],
-  [
-   1791742964.7351027,
-   "Tekken 8 Yujiro Teaser Reveals Baki Rep's In-Game Render Is Just as Uncanny as Fans Expected"
-  ],
-  [
-   1791742970.2791722,
-   "Dave Lombardo - 'Reign in Blood' Still 'Gives Me the Chills'"
-  ],
-  [
-   1791742975.2076697,
-   "Running Man: Glen Powell Knows Why His Stephen King Adaptation Barely Impacted The Box Office"
-  ],
-  [
-   1791742982.3528438,
-   "Escape the Backrooms is throwing an After Party with three new levels this December"
-  ],
-  [
-   1791742988.7954407,
-   "Arc Raiders 2.0 is here, and you can finally turn those lights on your backpack off"
-  ],
-  [
-   1791742992.6786969,
-   "Ніколас Кейдж заявив, що більше не працюватиме з Amazon, оскільки в Spider‑Noir йому пропонували угоду про використання ШІ"
-  ],
-  [
-   1791742999.2445283,
-   "Nier creator Yoko Taro says he's achieved his career dreams, but he continues working because it's 'good for preventing dementia'"
-  ],
-  [
-   1791743004.6090097,
-   "AMANDA SOMERVILLE Says Her Cancerous Brain Tumor Is 'Not Operable': It 'Is Only Treated To Gain Time'"
-  ],
-  [
-   1791743016.6105967,
-   "Marvel Tōkon: Fighting Souls reveals its Year 1 DLC roster, starting with Phoenix Cyclops on 2nd November"
-  ],
-  [
-   1791743022.3373902,
-   "MASTODON's BRANN DAILOR: BRENT HINDS 'Got Away With A Lot Of Things That Other People Wouldn't Be Able To'"
-  ],
-  [
-   1791743027.2241077,
-   "5 Must-Watch Netflix Original Movies That We Don't Talk About Anymore"
-  ],
   [
    1791750719.400967,
    "Marvel Tokon DLC Roadmap Reveals First Look at Jane Foster Thor, Venom and Jubilee Coming in 2027"
@@ -4331,6 +4588,54 @@
   [
    1791908466.7206595,
    "CD Projekt Red reassures players The Witcher 3 Switch 2 patch still due, as update rolls out for PS5 and PS5 Pro"
+  ],
+  [
+   1791920811.2727737,
+   "Despite Huge Changes For The Series, Halo Fest 2026 Is Going Forward, And News Is Coming Soon"
+  ],
+  [
+   1791920822.7050896,
+   "EA Sports' College Football Devs Reportedly Fear the Franchise Could Disappear by 2030"
+  ],
+  [
+   1791920826.426104,
+   "Netflix показав трейлер нової \"Нарнії\" із Денієлом Крейгом"
+  ],
+  [
+   1791920831.4798448,
+   "Watch: Tetrarch Guitarist Diamond Rowe Covers Metallica on ‘Sunday Night Football’"
+  ],
+  [
+   1791920836.554767,
+   "7 Years Ago, Disney Released A Star-Studded Fantasy Movie That Left Much To Be Desired"
+  ],
+  [
+   1791920848.019766,
+   "Xbox Announces Xbox Labs, Aimed in Part at Getting Improved Old-Gen Games Playable in Web Browsers"
+  ],
+  [
+   1791920853.60179,
+   "BEARTOOTH's CALEB SHOMO On His Decision To Come Out As 'A Proudly Gay Man': It's 'Something That A Large Group Of People Just Don't Understand'"
+  ],
+  [
+   1791920864.3307514,
+   "Officially Licensed Fallout Bookends Are Up for Preorder for a Whopping $325"
+  ],
+  [
+   1791920876.1312923,
+   "Battlefield 6 Now Lets You Instantly Unlock All Guns At 100% Mastery For $30"
+  ],
+  [
+   1791920881.6626925,
+   "We Got REALLY Close to an Iron Maiden + Judas Priest Tour"
+  ],
+  [
+   1791920886.8207684,
+   "Sharon Osbourne ‘Really Wanted' 1 Band for Back to the Beginning"
+  ],
+  [
+   1791920890.7896686,
+   "даніо-реріо випустили сингл із анонсованого EP"
   ]
  ],
  "weekly_releases_week": "2026-W42",
@@ -4387,9 +4692,9 @@
    },
    "1091500": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 70,
     "name": "Cyberpunk 2077",
-    "price": "1 399,00₴",
+    "price": "419,00₴",
     "release": 1607558400
    },
    "1092790": {
@@ -5352,11 +5657,11 @@
     "release": 1787043436
    },
    "2828710": {
-    "coming_soon": true,
-    "discount": 0,
+    "coming_soon": false,
+    "discount": 14,
     "name": "Valor Mortis",
-    "price": null,
-    "release": 1791910800
+    "price": "1 092,00₴",
+    "release": 1791910322
    },
    "2838950": {
     "coming_soon": true,
@@ -6136,7 +6441,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1791908477.4509435,
+  "last_check": 1791920908.3600774,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
