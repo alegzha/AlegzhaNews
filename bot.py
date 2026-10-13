@@ -741,7 +741,8 @@ def collect(config, state, alerts):
                 social = False
                 if not title and entry.get("summary"):
                     # пост із соцмережі (Bluesky, Mastodon…): заголовка немає, лише текст
-                    title, rest = split_post(clean_text(entry["summary"]))
+                    text = re.sub(r"\s*https?://\S+", "", clean_text(entry["summary"])).strip()
+                    title, rest = split_post(text)
                     entry["summary"] = rest
                     social = True
                 if not title or now - ts > max_age:
