@@ -923,6 +923,7 @@ def main():
                 msg = str(e)
                 if any(k in msg.lower() for k in BLOCKING_ERRORS):
                     _disabled["Gemini"] = msg[:200]
+                TR_STATS["gemini_error"] = msg[:300]
                 log.info("Gemini не переклав (%s) — беру запасний перекладач", msg[:120])
         try:
             title_html, extra_games = linked_title(c["title"], games, tr)
@@ -976,6 +977,14 @@ def main():
             alerts.problem("releases", "Не вдалося опублікувати «Релізи тижня»", str(e), repeat_hours=6)
 
     report_health(alerts, pub)
+    if TR_STATS["ok"] or TR_STATS.get("gemini_error"):
+        # для діагностики: якими перекладачами користувався останній запуск
+        state["last_translation"] = {
+            "at": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()),
+            "used": sorted(TR_STATS["ok"]),
+            "gemini_model": _gemini_model,
+            "gemini_error": TR_STATS.get("gemini_error", ""),
+        }
     save_state(state)
     log.info("Готово: опубліковано %d", posted)
 
