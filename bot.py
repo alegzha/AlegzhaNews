@@ -260,8 +260,8 @@ GEMINI_PROMPT = (
     "Ти — редактор українського новинного Telegram-каналу про ігри, важку й альтернативну музику, "
     "кіно, серіали, софт і штучний інтелект. Перекладай українською кожен рядок зі списку: "
     "природно, у стилі новин, без дослівності й русизмів. Назви ігор, гуртів, альбомів, пісень, "
-    "фільмів, серіалів, компаній і продуктів залишай в оригіналі латиницею. Мітки вигляду QQ0QQ, "
-    "QQ1QQ залишай без змін на відповідному місці. Нічого не додавай і не пояснюй. "
+    "фільмів, серіалів, компаній, персонажів і продуктів залишай в оригіналі латиницею, "
+    "точно так, як вони написані. Нічого не додавай, не скорочуй і не пояснюй. "
     "Відповідь — JSON-масив рядків тієї ж довжини й у тому ж порядку."
 )
 _gemini_model = None
@@ -296,6 +296,10 @@ def gemini_translate(texts):
         out = json.loads("".join(p.get("text", "") for p in parts))
         if not isinstance(out, list) or len(out) != len(texts) or not all(isinstance(x, str) and x.strip() for x in out):
             raise RuntimeError("Gemini повернув відповідь не того формату")
+        mark = re.compile(r"Q\s*Q\s*\d+\s*Q\s*Q", re.I)
+        for src, dst in zip(texts, out):
+            if len(mark.findall(src)) != len(mark.findall(dst)):
+                raise RuntimeError("Gemini зіпсував назви (QQ-мітки) — беру запасний перекладач")
         _gemini_model = model
         return [x.strip() for x in out]
     raise RuntimeError(last or "Gemini недоступний")
@@ -420,7 +424,7 @@ def mark_title(title, games):
     return marked
 
 
-def linked_title(title, games, tr=None):
+def linked_title(title, games, tr=None, use_marks=True):
     """
     Перекладає заголовок і робить назви ігор посиланнями на Steam.
     Назви замінюються мітками перед перекладом, щоб перекладач їх не чіпав.
@@ -434,9 +438,9 @@ def linked_title(title, games, tr=None):
     def link(text, app_id):
         return f'<a href="{app_url(app_id)}">{esc(text)}</a>'
 
-    translated = tr(mark_title(title, games))
+    translated = tr(mark_title(title, games)) if use_marks else ""
 
-    if all(placeholder_re(n).search(translated) for n in range(len(games))):
+    if use_marks and all(placeholder_re(n).search(translated) for n in range(len(games))):
         out = esc(translated)
         for n, (s, e, app_id, _) in enumerate(games):
             out = placeholder_re(n).sub(lambda _m: link(title[s:e], app_id), out, count=1)
@@ -912,13 +916,16 @@ def main():
                 log.info("🕹 Steam: %s", ", ".join(g[3] for g in games))
         already_uk = c.get("lang") == "uk" or is_ukrainian(c["title"])
         tr = (lambda t: t) if already_uk else translate
+        use_marks = True
         if not already_uk and GEMINI_API_KEY and "Gemini" not in _disabled:
             # заголовок і опис — одним запитом, щоб берегти безкоштовний ліміт Gemini
-            batch = [mark_title(c["title"], games)] + ([summary] if summary else [])
+            # без QQ-міток: Gemini сам лишає назви латиницею, посилання на Steam ставимо після
+            batch = [c["title"]] + ([summary] if summary else [])
             try:
                 done = dict(zip(batch, gemini_translate(batch)))
                 TR_STATS["ok"].add("Gemini")
                 tr = lambda t, done=done: done.get(t) or translate(t)  # noqa: E731
+                use_marks = False
             except Exception as e:  # noqa: BLE001
                 msg = str(e)
                 if any(k in msg.lower() for k in BLOCKING_ERRORS):
@@ -926,10 +933,13 @@ def main():
                 TR_STATS["gemini_error"] = msg[:300]
                 log.info("Gemini не переклав (%s) — беру запасний перекладач", msg[:120])
         try:
-            title_html, extra_games = linked_title(c["title"], games, tr)
+            title_html, extra_games = linked_title(c["title"], games, tr, use_marks)
             summary_uk = tr(summary) if summary else ""
         except RuntimeError:
             log.warning("Пропускаю до наступного запуску (переклад): %s", c["title"])
+            continue
+        if re.search(r"Q\s*Q\s*\d+\s*Q\s*Q", f"{title_html} {summary_uk}", re.I):
+            log.warning("Переклад зіпсував назви (QQ-мітки), спробую наступного разу: %s", c["title"])
             continue
 
         image = image_from_entry(entry) or image_from_page(link)
