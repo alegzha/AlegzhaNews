@@ -1,14 +1,18 @@
 {
  "alerts": {},
  "last_translation": {
-  "at": "2026-10-14 16:05 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
+  "at": "2026-10-14 16:13 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "used": [
    "Gemini"
   ]
  },
  "posted_by_source": {
+  "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
+   1791994322.6380534,
+   1791994365.2416842
+  ],
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
    1791975130.7275305,
    1791978145.693794
@@ -22,7 +26,9 @@
    1791975159.8011382
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
-   1791978121.16987
+   1791978121.16987,
+   1791994389.19001,
+   1791994399.79507
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
    1791975145.208957,
@@ -31,7 +37,8 @@
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1791969594.0180235,
-   1791978176.9146457
+   1791978176.9146457,
+   1791994373.2696579
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1791978126.841166,
@@ -39,7 +46,9 @@
    1791989306.2954457,
    1791993738.2951527,
    1791993743.1120038,
-   1791993809.97718
+   1791993809.97718,
+   1791994339.4392369,
+   1791994378.1333542
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1791975111.9769719,
@@ -51,10 +60,16 @@
    1791989233.6556954,
    1791989316.8723092,
    1791993929.3853037,
-   1791993942.2923956
+   1791993942.2923956,
+   1791994349.936889,
+   1791994360.3981683,
+   1791994410.4911377
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1791975170.5018463
+  ],
+  "movies|/Film|https://www.slashfilm.com/feed/": [
+   1791994369.48455
   ],
   "movies|Deadline|https://deadline.com/feed/": [
    1791969290.9934516,
@@ -100,7 +115,8 @@
    1791989300.2405717
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
-   1791989253.4030204
+   1791989253.4030204,
+   1791994318.3163333
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
    1791969264.6870182,
@@ -160,6 +176,7 @@
   "1063bc2bd4d94992": 1791642324.2730968,
   "1109704f8a338d89": 1791978172.9866061,
   "12114873a6584f4c": 1791807506.2754734,
+  "12c2b3f151e57aad": 1791994399.7950633,
   "141c8ba7fde9ec37": 1791926678.2771666,
   "149ed54d2e6f3b70": 1791929866.8402812,
   "14afd66e9c50a355": 1791969585.343201,
@@ -188,8 +205,10 @@
   "1d752dadc3913478": 1791853975.1022835,
   "1d87f5c3187d0665": 1791989226.3394516,
   "1e6badcee727ddee": 1791843798.1366713,
+  "1e6ce57c68af0666": 1791994322.638048,
   "1e774ba4a994e424": 1791894803.4764898,
   "1f95fca03514d64e": 1791966925.1620312,
+  "1ff3cd705b9a1a10": 1791994378.1333466,
   "20688362104da807": 1791993729.4325955,
   "211fbbea675fcfee": 1791807564.3398101,
   "2140e00e1bd43112": 1791831064.04395,
@@ -214,9 +233,11 @@
   "29cfe4e95e49a7be": 1791769122.3502562,
   "2a96f7e807660e6e": 1791969576.7133026,
   "2b3e0d716a309f46": 1791931128.8734488,
+  "2b86ffad7f7c83c7": 1791994373.2696502,
   "2cfe09a255dd0a60": 1791807570.1964123,
   "2d5d049789d8d50f": 1791929823.1571426,
   "2dc671cca0a11ab5": 1791639245.614978,
+  "2ddee9ae25783f31": 1791994318.3163261,
   "2dee93f94069b211": 1791843824.5019338,
   "2e4e63632844fa10": 1791938074.3393242,
   "2e77ca166d4be777": 1791718269.979892,
@@ -352,6 +373,7 @@
   "72e1b3b52e200519": 1791636717.6413422,
   "73bfc62b45dcc677": 1791820221.7398524,
   "73effcc5b530b2a6": 1791636717.6413386,
+  "7400baf4358fdbc1": 1791994349.936882,
   "744855fb6c3a6773": 1791837787.2488642,
   "74780e0902e82f80": 1791642313.8867812,
   "74d21a4cc534aa50": 1791638768.598451,
@@ -489,6 +511,7 @@
   "b2b326732b33f0ac": 1791926695.0193167,
   "b2fc5e525ccfc2bb": 1791931130.980771,
   "b30574043dd11504": 1791993929.385296,
+  "b3817383edb3176e": 1791994339.4392264,
   "b401e38a85421bdc": 1791993880.3209584,
   "b45ce40e68e5a069": 1791908418.1175368,
   "b4fcea4d70451120": 1791807593.5725496,
@@ -504,6 +527,7 @@
   "bcc655b6bb1763af": 1791931128.8737152,
   "bcebd75959d7a1c4": 1791975164.194638,
   "bcec92603741133a": 1791989280.6337051,
+  "bcf0cb6a31042b82": 1791994316.7510252,
   "bd28dc198e354d61": 1791643484.7724442,
   "bd6bf7ffc701c1f1": 1791929812.121329,
   "bdcdc21f8a4c9dbb": 1791702304.8026342,
@@ -535,6 +559,7 @@
   "ca14ec813cb5c41e": 1791931149.864866,
   "ca925f90135eae9c": 1791643484.7724442,
   "cb0de650dca9c67f": 1791927001.6132205,
+  "cb27ca09220fad50": 1791994369.4845452,
   "cb52506e69ae0831": 1791931842.321884,
   "cb55cfc06c049dd9": 1791722086.6412292,
   "cbefbfbe094325b5": 1791853937.601349,
@@ -587,6 +612,7 @@
   "dc6738baf51e77af": 1791757281.6698365,
   "dcc9a770f06437d1": 1791931828.0050437,
   "dd8edeee41eaf92d": 1791966921.6536157,
+  "dda88a35569ea5ee": 1791994389.1900036,
   "dda8c274963d0114": 1791969296.0434637,
   "de3ce46453ddea72": 1791843872.2637854,
   "de6aa72a6f2c751b": 1791926969.1486933,
@@ -598,6 +624,7 @@
   "dfeda5d0ae55acb7": 1791786678.1496363,
   "e0462c7c30474a2c": 1791843834.4903822,
   "e0ed55e9093ac5bd": 1791920836.554765,
+  "e539434700138179": 1791994360.39816,
   "e5491ee3dec09c1d": 1791757266.4134915,
   "e573dbd69b744688": 1791837743.9242148,
   "e5d0adf173e1a77a": 1791931161.17929,
@@ -628,6 +655,7 @@
   "f315f67f0bb70e0f": 1791908389.9758453,
   "f4b713ab968624a2": 1791932425.5200398,
   "f4ecbea4571dd4de": 1791929834.6204538,
+  "f572bbd6e4413ed8": 1791994410.4911294,
   "f57ce665f7a4dd53": 1791757254.8536086,
   "f588baa9b6a75512": 1791654264.8368306,
   "f5b1d67ac26794db": 1791643484.7724442,
@@ -646,6 +674,7 @@
   "fc90c750e381c97b": 1791643484.7724442,
   "fcac89ec0c2f7de3": 1791969555.4547675,
   "fd0ad7765b07a6c7": 1791757242.2010503,
+  "fd85120a2e373e6d": 1791994365.2416782,
   "fdf7d3bba3ae71ce": 1791831146.77442,
   "fe5b968ae8ba789d": 1791908389.973113,
   "fef85c09f3d7c9bc": 1791931751.3380954,
@@ -688,7 +717,14 @@
   "movies|Deadline|https://deadline.com/feed/",
   "software|Product Hunt|https://www.producthunt.com/feed",
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
-  "ai|The Decoder|https://the-decoder.com/feed/"
+  "ai|The Decoder|https://the-decoder.com/feed/",
+  "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss",
+  "games|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss",
+  "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss",
+  "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss",
+  "software|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss",
+  "software|Bloomberg|https://www.bloomberg.com/authors/AS7Hj1mBMGM/mark-gurman.rss",
+  "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss"
  ],
  "spotify": {
   "artists": [
@@ -2384,6 +2420,11 @@
    "",
    1791938085.5173345
   ],
+  "q:50": [
+   0,
+   "",
+   1791994331.5080476
+  ],
   "q:5080 super": [
    0,
    "",
@@ -2658,6 +2699,11 @@
    0,
    "",
    1791978138.021382
+  ],
+  "q:announced": [
+   0,
+   "",
+   1791994396.9050553
   ],
   "q:announces": [
    0,
@@ -2969,6 +3015,11 @@
    "",
    1791931826.2034628
   ],
+  "q:black flag": [
+   0,
+   "",
+   1791994343.0078783
+  ],
   "q:black playstation": [
    0,
    "",
@@ -2988,6 +3039,11 @@
    0,
    "",
    1791837765.0657878
+  ],
+  "q:blood": [
+   0,
+   "",
+   1791994327.870071
   ],
   "q:board": [
    0,
@@ -3329,6 +3385,36 @@
    "",
    1791786715.4839058
   ],
+  "q:clayface": [
+   0,
+   "",
+   1791994406.009187
+  ],
+  "q:clayface officially": [
+   0,
+   "",
+   1791994405.4856846
+  ],
+  "q:clayface officially earns": [
+   0,
+   "",
+   1791994404.9658854
+  ],
+  "q:clayface officially earns rave": [
+   0,
+   "",
+   1791994404.4592388
+  ],
+  "q:clayface officially earns rave first": [
+   0,
+   "",
+   1791994403.8363047
+  ],
+  "q:clayface officially earns rave first reactions": [
+   0,
+   "",
+   1791994403.3310688
+  ],
   "q:collector's edition leaves": [
    0,
    "",
@@ -3413,6 +3499,16 @@
    0,
    "",
    1791757264.709387
+  ],
+  "q:controller": [
+   0,
+   "",
+   1791994396.4187176
+  ],
+  "q:controller announced": [
+   0,
+   "",
+   1791994395.9037879
   ],
   "q:controversial": [
    0,
@@ -3609,6 +3705,16 @@
    "",
    1791966919.2625992
   ],
+  "q:david": [
+   346180,
+   "David.",
+   1791994330.440943
+  ],
+  "q:david szymanski": [
+   0,
+   "",
+   1791994329.9169755
+  ],
   "q:dead": [
    0,
    "",
@@ -3663,6 +3769,21 @@
    2871520,
    "Deep Dish Dungeon",
    1791926681.627954
+  ],
+  "q:defends 2026's most": [
+   0,
+   "",
+   1791994359.1098897
+  ],
+  "q:defends 2026's most divisive": [
+   0,
+   "",
+   1791994358.605699
+  ],
+  "q:defends 2026's most divisive movie": [
+   0,
+   "",
+   1791994358.118616
   ],
   "q:delicious": [
    0,
@@ -3839,6 +3960,11 @@
    "",
    1791769098.6659007
   ],
+  "q:down beloved 26 year old studio": [
+   0,
+   "",
+   1791994348.7196653
+  ],
   "q:dragon quest": [
    0,
    "",
@@ -3879,6 +4005,16 @@
    "",
    1791926681.1143112
   ],
+  "q:dusk": [
+   519860,
+   "DUSK",
+   1791994328.9034085
+  ],
+  "q:dusk 2": [
+   0,
+   "",
+   1791994328.3825552
+  ],
   "q:dwarf fortress": [
    975370,
    "Dwarf Fortress",
@@ -3908,6 +4044,16 @@
    0,
    "",
    1791920814.7766306
+  ],
+  "q:earns rave first": [
+   0,
+   "",
+   1791994409.233853
+  ],
+  "q:earns rave first reactions": [
+   0,
+   "",
+   1791994408.7395833
   ],
   "q:easy": [
    0,
@@ -4058,6 +4204,11 @@
    0,
    "",
    1791931183.3897269
+  ],
+  "q:extra": [
+   0,
+   "",
+   1791994382.7871723
   ],
   "q:eye": [
    0,
@@ -4348,6 +4499,21 @@
    0,
    "",
    1791989279.349507
+  ],
+  "q:games for october": [
+   0,
+   "",
+   1791994387.190754
+  ],
+  "q:games for october 2026": [
+   0,
+   "",
+   1791994386.6793175
+  ],
+  "q:games for october 2026 revealed": [
+   0,
+   "",
+   1791994385.8800414
   ],
   "q:gathering": [
    0,
@@ -4799,6 +4965,26 @@
    "",
    1791894752.7369664
   ],
+  "q:hideo kojima defends": [
+   0,
+   "",
+   1791994354.9733381
+  ],
+  "q:hideo kojima defends 2026": [
+   0,
+   "",
+   1791994354.4610903
+  ],
+  "q:hideo kojima defends 2026's most": [
+   0,
+   "",
+   1791994353.9434807
+  ],
+  "q:hideo kojima defends 2026's most divisive": [
+   0,
+   "",
+   1791994353.4489787
+  ],
   "q:hideo kojima reviews": [
    0,
    "",
@@ -4994,6 +5180,16 @@
    "",
    1791929787.6500297
   ],
+  "q:if new": [
+   0,
+   "",
+   1791994326.728604
+  ],
+  "q:if new blood": [
+   0,
+   "",
+   1791994326.2188134
+  ],
   "q:if you want a cozy existence in this city you": [
    0,
    "",
@@ -5089,6 +5285,11 @@
    "",
    1791908395.4097574
   ],
+  "q:iron lung": [
+   1846170,
+   "Iron Lung",
+   1791994329.4241986
+  ],
   "q:is experimenting": [
    0,
    "",
@@ -5158,6 +5359,16 @@
    0,
    "",
    1791837777.8900652
+  ],
+  "q:it's so": [
+   0,
+   "",
+   1791994397.915792
+  ],
+  "q:it's so small": [
+   0,
+   "",
+   1791994397.3984675
   ],
   "q:its hilarious": [
    0,
@@ -5243,6 +5454,31 @@
    0,
    "",
    1791894755.772317
+  ],
+  "q:kojima defends": [
+   0,
+   "",
+   1791994357.6207438
+  ],
+  "q:kojima defends 2026": [
+   0,
+   "",
+   1791994357.1110942
+  ],
+  "q:kojima defends 2026's most": [
+   0,
+   "",
+   1791994356.5933735
+  ],
+  "q:kojima defends 2026's most divisive": [
+   0,
+   "",
+   1791994356.0041971
+  ],
+  "q:kojima defends 2026's most divisive movie": [
+   0,
+   "",
+   1791994355.4672768
   ],
   "q:kojima reviews": [
    0,
@@ -5844,6 +6080,21 @@
    "",
    1791820237.0341406
   ],
+  "q:nano": [
+   0,
+   "",
+   1791994395.4000294
+  ],
+  "q:nano controller": [
+   0,
+   "",
+   1791994394.8984048
+  ],
+  "q:nano controller announced": [
+   0,
+   "",
+   1791994394.411461
+  ],
   "q:need to know ahead of mw4": [
    0,
    "",
@@ -5908,6 +6159,11 @@
    0,
    "",
    1791831114.1816297
+  ],
+  "q:new blood": [
+   0,
+   "",
+   1791994327.241247
   ],
   "q:new netease": [
    0,
@@ -6144,10 +6400,35 @@
    "",
    1791820234.9965608
   ],
+  "q:october 2026 revealed": [
+   0,
+   "",
+   1791994387.736396
+  ],
   "q:officially": [
    0,
    "",
    1791920859.7060382
+  ],
+  "q:officially earns": [
+   0,
+   "",
+   1791994408.097641
+  ],
+  "q:officially earns rave": [
+   0,
+   "",
+   1791994407.563952
+  ],
+  "q:officially earns rave first": [
+   0,
+   "",
+   1791994407.05861
+  ],
+  "q:officially earns rave first reactions": [
+   0,
+   "",
+   1791994406.567722
   ],
   "q:officially fixed a huge problem with": [
    0,
@@ -6444,10 +6725,20 @@
    "",
    1791926688.555699
   ],
+  "q:playstation plus extra": [
+   0,
+   "",
+   1791994381.6829677
+  ],
   "q:plus": [
    0,
    "",
    1791926689.089046
+  ],
+  "q:plus extra": [
+   0,
+   "",
+   1791994382.2380373
   ],
   "q:pok": [
    4513280,
@@ -6483,6 +6774,31 @@
    0,
    "",
    1791975140.150054
+  ],
+  "q:premium": [
+   0,
+   "",
+   1791994385.3839548
+  ],
+  "q:premium games": [
+   0,
+   "",
+   1791994384.8448625
+  ],
+  "q:premium games for october": [
+   0,
+   "",
+   1791994384.3355849
+  ],
+  "q:premium games for october 2026": [
+   0,
+   "",
+   1791994383.7986622
+  ],
+  "q:premium games for october 2026 revealed": [
+   0,
+   "",
+   1791994383.2883437
   ],
   "q:price": [
    465520,
@@ -7349,6 +7665,31 @@
    "",
    1791929791.9703426
   ],
+  "q:shuts": [
+   0,
+   "",
+   1791994348.2123034
+  ],
+  "q:shuts down": [
+   0,
+   "",
+   1791994347.71154
+  ],
+  "q:shuts down beloved": [
+   0,
+   "",
+   1791994347.2105002
+  ],
+  "q:shuts down beloved 26 year old": [
+   0,
+   "",
+   1791994346.6334345
+  ],
+  "q:shuts down beloved 26 year old studio": [
+   0,
+   "",
+   1791994346.065762
+  ],
   "q:silent": [
    0,
    "",
@@ -7398,6 +7739,11 @@
    0,
    "",
    1791718285.8584955
+  ],
+  "q:so small": [
+   0,
+   "",
+   1791994398.4396405
   ],
   "q:social": [
    0,
@@ -7749,6 +8095,11 @@
    "",
    1791929850.9096928
   ],
+  "q:szymanski": [
+   0,
+   "",
+   1791994330.9345465
+  ],
   "q:tarn": [
    0,
    "",
@@ -8068,6 +8419,31 @@
    0,
    "",
    1791642327.8465407
+  ],
+  "q:ubisoft shuts": [
+   0,
+   "",
+   1791994345.5248013
+  ],
+  "q:ubisoft shuts down": [
+   0,
+   "",
+   1791994345.0010443
+  ],
+  "q:ubisoft shuts down beloved": [
+   0,
+   "",
+   1791994344.4917927
+  ],
+  "q:ubisoft shuts down beloved 26 year old": [
+   0,
+   "",
+   1791994344.0061193
+  ],
+  "q:ubisoft shuts down beloved 26 year old studio": [
+   0,
+   "",
+   1791994343.4984806
   ],
   "q:ubisoft singapore": [
    0,
@@ -8589,6 +8965,21 @@
    "",
    1791966892.8267984
   ],
+  "q:xbox nano": [
+   0,
+   "",
+   1791994393.8759284
+  ],
+  "q:xbox nano controller": [
+   0,
+   "",
+   1791994393.3803184
+  ],
+  "q:xbox nano controller announced": [
+   0,
+   "",
+   1791994392.8611393
+  ],
   "q:xbox showcase": [
    0,
    "",
@@ -8760,37 +9151,36 @@
    "apple",
    "apple homeview",
    "arm",
+   "asml",
    "fairphone",
+   "gta 6",
+   "gta vi",
    "netflix",
    "nothing",
    "qualcomm",
-   "samsung",
-   "termit",
+   "rockstar",
    "бпла",
    "бізнес",
    "дрони",
    "дім",
    "звільнення",
-   "здоров'я",
-   "канада",
    "криптовалюти",
    "криптогаманець",
    "кібербезпека",
    "міноборони",
    "навушники",
-   "наземні дрони",
    "новини",
-   "нрк",
    "оборонка",
    "опк",
    "ппо",
    "розумні окуляри",
    "смартокуляри",
-   "софт",
    "стрімінгові платформи",
    "суд",
    "технології",
-   "україна"
+   "україна",
+   "чипи",
+   "ігри"
   ]
  },
  "titles": [
@@ -9889,6 +10279,54 @@
   [
    1791993942.2923903,
    "Over the Hill Just Invented the Cozy Driving Game and I'm in Love"
+  ],
+  [
+   1791994318.3163285,
+   "Watch: 'America's Got Talent' Winner Joins Avenged Sevenfold Onstage in Singapore"
+  ],
+  [
+   1791994322.63805,
+   "Amount of AI Going into Defense Budgets is 'Immense,' Says Ted Mortonson"
+  ],
+  [
+   1791994339.4392292,
+   "If New Blood had made Dusk 2, there'd be no Iron Lung, 'and now David Szymanski has got a movie that made $50 million'—so maybe there's wisdom in not churning out sequels"
+  ],
+  [
+   1791994349.9368837,
+   "Ubisoft Shuts Down Beloved 26-Year-Old Studio, Cuts 'Black Flag' Remake Devs"
+  ],
+  [
+   1791994360.3981624,
+   "Hideo Kojima Defends 2026’s Most Divisive Movie, Likens It to Metal Gear Solid 2"
+  ],
+  [
+   1791994365.2416806,
+   "AI Will Change Banking Jobs, Says Santander's Botín"
+  ],
+  [
+   1791994369.4845476,
+   "Whalefall Review: Austin Abrams Anchors An Earnest Survival Thriller And Miraculous Adaptation"
+  ],
+  [
+   1791994373.2696533,
+   "Cyberleek завершує діяльність: витік збірки GTA 6 скасований"
+  ],
+  [
+   1791994378.133349,
+   "Assassin's Creed Black Flag Resynced was a big hit, and now it's time for big layoffs at the studio that made it"
+  ],
+  [
+   1791994389.1900063,
+   "PlayStation Plus Extra/Premium Games For October 2026 Revealed"
+  ],
+  [
+   1791994399.7950656,
+   "Xbox Nano Controller Announced, And It’s So Small"
+  ],
+  [
+   1791994410.4911315,
+   "Clayface Officially Earns Rave First Reactions as DC's Next Horror Triumph"
   ]
  ],
  "weekly_releases_week": "2026-W42",
