@@ -1,7 +1,7 @@
 {
  "alerts": {},
  "last_translation": {
-  "at": "2026-10-14 11:43 UTC",
+  "at": "2026-10-14 14:48 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "used": [
@@ -12,6 +12,9 @@
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
    1791975130.7275305,
    1791978145.693794
+  ],
+  "ai|The Decoder|https://the-decoder.com/feed/": [
+   1791989243.3478587
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
    1791969312.856311,
@@ -31,14 +34,19 @@
    1791978176.9146457
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1791978126.841166
+   1791978126.841166,
+   1791989249.2834976,
+   1791989306.2954457
   ],
   "games|PlayUA|https://playua.net/feed/": [
-   1791975111.9769719
+   1791975111.9769719,
+   1791989280.633711
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
    1791975127.2869473,
-   1791978141.8896086
+   1791978141.8896086,
+   1791989233.6556954,
+   1791989316.8723092
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1791975170.5018463
@@ -54,7 +62,8 @@
    1791975164.194645,
    1791978131.4494839,
    1791978150.1066911,
-   1791978172.9866152
+   1791978172.9866152,
+   1791989275.38052
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
    1791969296.0434678,
@@ -67,7 +76,15 @@
    1791969286.6589463,
    1791969568.411261,
    1791969572.4120164,
-   1791969576.7133102
+   1791969576.7133102,
+   1791989328.5480735
+  ],
+  "music|Loudwire|https://loudwire.com/feed/": [
+   1791989238.4364805,
+   1791989300.2405717
+  ],
+  "music|Metal Injection|https://metalinjection.net/feed": [
+   1791989253.4030204
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
    1791969264.6870182,
@@ -80,7 +97,8 @@
    1791969317.30668,
    1791969598.8067975,
    1791975174.780616,
-   1791978183.868809
+   1791978183.868809,
+   1791989324.2862759
   ],
   "software|Mezha|https://mezha.ua/feed/": [
    1791975134.5426774
@@ -94,6 +112,8 @@
   "0032018e55b77f5d": 1791894786.2657132,
   "0161762704b9d659": 1791820226.6361132,
   "0170081284d196fc": 1791815073.5455186,
+  "01ca9ddae6c14f85": 1791989249.2834911,
+  "029204a4b8418055": 1791989328.548066,
   "03080b879f45b5a4": 1791742964.7350998,
   "038c94747a2f20bf": 1791978102.8561285,
   "03f20cb96bdf5ebf": 1791636717.6413405,
@@ -109,6 +129,7 @@
   "07c9a77e54e23e67": 1791642308.7748382,
   "082b01c9d624c1bb": 1791931200.4147167,
   "087c8ea0d0cca171": 1791908400.9264767,
+  "0a616285ab68caf9": 1791989226.3239863,
   "0ad97e6b188589e7": 1791659734.5990682,
   "0af8a2e5035cb90b": 1791894821.8401823,
   "0bc34f73ce3a3bd4": 1791920831.4798427,
@@ -125,6 +146,7 @@
   "141c8ba7fde9ec37": 1791926678.2771666,
   "149ed54d2e6f3b70": 1791929866.8402812,
   "14afd66e9c50a355": 1791969585.343201,
+  "14f321c495182c59": 1791989324.2862678,
   "1527f11f16e1ecd8": 1791926952.7195158,
   "15d05a73c1a5f840": 1791769115.6548977,
   "15f791af37d54966": 1791643484.7724442,
@@ -147,6 +169,7 @@
   "1ce50fe0a2cc6644": 1791931822.5702229,
   "1d16e0260bb5ddb9": 1791929787.0214777,
   "1d752dadc3913478": 1791853975.1022835,
+  "1d87f5c3187d0665": 1791989226.3394516,
   "1e6badcee727ddee": 1791843798.1366713,
   "1e774ba4a994e424": 1791894803.4764898,
   "1f95fca03514d64e": 1791966925.1620312,
@@ -226,6 +249,7 @@
   "45dd72c9dc843e64": 1791724900.39503,
   "4606baea4fc75aea": 1791969303.6202111,
   "465cf48e98ccb537": 1791837761.0238128,
+  "465cf876ffcdcaf1": 1791989238.4364748,
   "46e8fce991a50384": 1791646021.548309,
   "4809ce681a686c84": 1791931734.3243032,
   "48ce3623efa23556": 1791926699.7028904,
@@ -257,8 +281,10 @@
   "57b05f96b680396a": 1791926981.6462977,
   "5860796746ad8940": 1791769079.678885,
   "59026f9e9d5ef97d": 1791820210.1794846,
+  "591055ad0c8fd647": 1791989300.2405653,
   "59be7595544dbfde": 1791820207.7297282,
   "5bcd0ce3010222bf": 1791750719.4009652,
+  "5c02816d1e3369ee": 1791989233.6556866,
   "5c72f265a0aa2c46": 1791853970.397,
   "5c7a726a5a7ee37d": 1791908440.5392518,
   "5cac9d00e22cbac8": 1791966895.258303,
@@ -280,6 +306,7 @@
   "66b8f4b0ab2b0dbf": 1791931141.432061,
   "66eb7611601bd1f0": 1791931883.6620455,
   "66ecd44e663b535e": 1791638208.3614297,
+  "67454ee8258841c8": 1791989306.295439,
   "675ee406ee860756": 1791969568.4112535,
   "6769d5f62ab2d199": 1791931165.954171,
   "67dbc1c3bd60e817": 1791667536.1996334,
@@ -305,9 +332,11 @@
   "744855fb6c3a6773": 1791837787.2488642,
   "74780e0902e82f80": 1791642313.8867812,
   "74d21a4cc534aa50": 1791638768.598451,
+  "750da7d0b2face70": 1791989275.3805113,
   "75ab4ca3caecc444": 1791742992.6786945,
   "75d63613bd57c446": 1791638201.4575505,
   "760c922da470ff93": 1791978102.868556,
+  "763e15189ce9457c": 1791989253.4030156,
   "764592d51796cdd3": 1791843808.6757944,
   "7683df9962c2ab29": 1791722099.434452,
   "76bb8ee3cb627559": 1791643484.7724442,
@@ -421,6 +450,7 @@
   "ac39c84a341d99f8": 1791654239.7815897,
   "ad237b18af606aac": 1791837735.1525705,
   "ad3746b85acd7025": 1791879509.699908,
+  "ae3e59418abf5172": 1791989243.3478537,
   "af13b6dfa352991d": 1791978102.867421,
   "aff0c07f7126af79": 1791757276.9325883,
   "b0298674a3fb2f67": 1791807506.2758698,
@@ -444,6 +474,7 @@
   "bc9c0e94589cf148": 1791957508.4421096,
   "bcc655b6bb1763af": 1791931128.8737152,
   "bcebd75959d7a1c4": 1791975164.194638,
+  "bcec92603741133a": 1791989280.6337051,
   "bd28dc198e354d61": 1791643484.7724442,
   "bd6bf7ffc701c1f1": 1791929812.121329,
   "bdcdc21f8a4c9dbb": 1791702304.8026342,
@@ -452,9 +483,11 @@
   "bf525bb0f4dca3eb": 1791978110.4572663,
   "bfe4fd99bcf1baf8": 1791795346.011346,
   "c0531e167bfcdef8": 1791853915.8076603,
+  "c091596c71139bcb": 1791989226.3306289,
   "c0eb6b09cd877a8b": 1791879504.7874382,
   "c1e9a586cbd37999": 1791786711.99249,
   "c299434ecc56681e": 1791642319.3450685,
+  "c2ba13431d953180": 1791989316.8723025,
   "c4764ac37ccdddc8": 1791978183.8688025,
   "c49fefea2e336264": 1791831141.1045146,
   "c4c0033e8848c44c": 1791750764.3340223,
@@ -478,6 +511,7 @@
   "cc04c60ddb8d9700": 1791894782.5493927,
   "ccda4bc3bd7f730e": 1791978176.9146397,
   "cd33b7fb79a53c3d": 1791786685.456112,
+  "ce91defd9bc7417f": 1791989226.3211668,
   "cea20332e6820ff7": 1791931136.5823298,
   "cfda764c86931b57": 1791978131.4494739,
   "d074794660a195ee": 1791815053.1523201,
@@ -537,6 +571,7 @@
   "e573dbd69b744688": 1791837743.9242148,
   "e5d0adf173e1a77a": 1791931161.17929,
   "e74f16aff7c8f4f1": 1791969580.967872,
+  "e77cf00f4e837f33": 1791989226.340799,
   "e7f776205d5baa63": 1791675548.2298849,
   "e891c97409f3641e": 1791643484.7724442,
   "e8c74e875ce8847d": 1791969264.6870122,
@@ -2618,6 +2653,11 @@
    "",
    1791920841.5850544
   ],
+  "q:anti cheat": [
+   0,
+   "",
+   1791989247.8782952
+  ],
   "q:arc": [
    0,
    "",
@@ -3693,6 +3733,11 @@
    "",
    1791795368.8931708
   ],
+  "q:dns": [
+   0,
+   "",
+   1791989304.2316844
+  ],
   "q:does blizzard": [
    0,
    "",
@@ -3798,6 +3843,16 @@
    "",
    1791920814.7766306
   ],
+  "q:easy": [
+   0,
+   "",
+   1791989247.3798852
+  ],
+  "q:easy anti cheat": [
+   0,
+   "",
+   1791989246.8320885
+  ],
   "q:echoes of delicious": [
    0,
    "",
@@ -3867,6 +3922,11 @@
    0,
    "",
    1791853957.8671112
+  ],
+  "q:epic games disney": [
+   0,
+   "",
+   1791989278.8640656
   ],
   "q:epic reportedly": [
    0,
@@ -4217,6 +4277,11 @@
    0,
    "",
    1791853958.3782625
+  ],
+  "q:games disney": [
+   0,
+   "",
+   1791989279.349507
   ],
   "q:gathering": [
    0,
@@ -4948,6 +5013,11 @@
    "",
    1791978116.0612621
   ],
+  "q:is paladin": [
+   0,
+   "",
+   1791989310.943146
+  ],
   "q:is testing": [
    0,
    "",
@@ -4992,6 +5062,11 @@
    0,
    "",
    1791926732.1427531
+  ],
+  "q:its next game won't take another": [
+   0,
+   "",
+   1791989232.4255457
   ],
   "q:joystick": [
    0,
@@ -5773,6 +5848,26 @@
    "",
    1791807585.696185
   ],
+  "q:new villain": [
+   0,
+   "",
+   1791989315.4983242
+  ],
+  "q:new villain is": [
+   0,
+   "",
+   1791989315.0030258
+  ],
+  "q:new villain is a wild": [
+   0,
+   "",
+   1791989314.506352
+  ],
+  "q:new villain is a wild fusion": [
+   0,
+   "",
+   1791989313.9987934
+  ],
   "q:new xbox": [
    0,
    "",
@@ -6033,6 +6128,11 @@
    "",
    1791931153.3820326
   ],
+  "q:paladin": [
+   0,
+   "",
+   1791989311.4494617
+  ],
   "q:party": [
    0,
    "",
@@ -6267,6 +6367,36 @@
    0,
    "",
    1791908458.501652
+  ],
+  "q:promises": [
+   0,
+   "",
+   1791989231.9078763
+  ],
+  "q:promises its": [
+   0,
+   "",
+   1791989231.4102829
+  ],
+  "q:promises its next": [
+   0,
+   "",
+   1791989230.9271069
+  ],
+  "q:promises its next game": [
+   0,
+   "",
+   1791989230.392874
+  ],
+  "q:promises its next game won't": [
+   0,
+   "",
+   1791989229.8930647
+  ],
+  "q:promises its next game won't take": [
+   0,
+   "",
+   1791989229.372068
   ],
   "q:protocol": [
    0,
@@ -6828,6 +6958,31 @@
    "",
    1791750778.0861099
   ],
+  "q:rockstar promises": [
+   0,
+   "",
+   1791989228.864393
+  ],
+  "q:rockstar promises its": [
+   0,
+   "",
+   1791989228.389949
+  ],
+  "q:rockstar promises its next": [
+   0,
+   "",
+   1791989227.9157877
+  ],
+  "q:rockstar promises its next game": [
+   0,
+   "",
+   1791989227.3740664
+  ],
+  "q:rockstar promises its next game won't": [
+   0,
+   "",
+   1791989226.8984973
+  ],
   "q:rockstar's struggle to make bully": [
    0,
    "",
@@ -6872,6 +7027,11 @@
    0,
    "",
    1791843817.1011505
+  ],
+  "q:run": [
+   0,
+   "",
+   1791989303.75556
   ],
   "q:sanderson": [
    0,
@@ -7868,6 +8028,26 @@
    "",
    1791957536.8943422
   ],
+  "q:visionquest's new": [
+   0,
+   "",
+   1791989313.4983916
+  ],
+  "q:visionquest's new villain": [
+   0,
+   "",
+   1791989313.000648
+  ],
+  "q:visionquest's new villain is": [
+   0,
+   "",
+   1791989312.4858959
+  ],
+  "q:visionquest's new villain is a wild": [
+   0,
+   "",
+   1791989311.9591255
+  ],
   "q:walmart": [
    0,
    "",
@@ -7977,6 +8157,16 @@
    0,
    "",
    1791668520.2384682
+  ],
+  "q:who is": [
+   0,
+   "",
+   1791989310.4312067
+  ],
+  "q:who is paladin": [
+   0,
+   "",
+   1791989309.860953
   ],
   "q:why paying": [
    0,
@@ -8396,132 +8586,45 @@
  },
  "tag_hints": {
   "Mezha": [
-   "deezer",
-   "garmin",
-   "hollow home",
-   "logitech",
-   "mx keypad",
-   "remote reaper",
-   "roboneers",
-   "steam",
-   "xbox",
-   "безпека",
-   "бойовий модуль",
-   "годинники",
-   "гранатомет",
-   "зроблено в україні",
-   "музика",
+   "arm",
+   "asus",
+   "csg",
+   "galaxy s23",
+   "netflix",
+   "nvidia",
+   "one ui",
+   "qualcomm",
+   "samsung",
+   "termit",
+   "безпілотники",
+   "бізнес",
+   "залізо",
+   "звільнення",
+   "здоров'я",
+   "канада",
+   "комплектуючі",
+   "криптовалюти",
+   "криптогаманець",
+   "кібербезпека",
+   "міноборони",
+   "навігація",
    "наземні дрони",
    "новини",
-   "новини партнерів",
    "нрк",
    "оборонка",
-   "огляди",
-   "периферія",
+   "опк",
+   "пк для ігор",
+   "смартфони",
    "софт",
-   "стримінгові сервіси",
-   "україна",
-   "штучний інтелект",
-   "ігри"
+   "спецпроєкти",
+   "стрімінгові платформи",
+   "суд",
+   "технології",
+   "чехія",
+   "штучний інтелект"
   ]
  },
  "titles": [
-  [
-   1791807515.0569317,
-   "Why Paying \"Market Price\" for Rare Pokémon Card Sets Somehow Became The New Normal"
-  ],
-  [
-   1791807526.4589067,
-   "Haunted Chocolatier 'More of an Action RPG' Compared to Stardew Valley, ConcernedApe Says"
-  ],
-  [
-   1791807534.5419438,
-   "'The algorithm continues to properly prioritise Mister Biddy Blas'—Star Wars: Galactic Racer has created the perfect creature"
-  ],
-  [
-   1791807546.7344694,
-   "Haunted Chocolatier Is For “The People In Stardew Valley That Go Into The Mines”"
-  ],
-  [
-   1791807558.0655897,
-   "Pokémon TCG: 30th Celebration Boosters Are Back in Stock, but Where’s the Best Price Right Now?"
-  ],
-  [
-   1791807564.339812,
-   "Here come the weird and wonderful mods for the Steam Frame, as Valve drops the full CAD files for free"
-  ],
-  [
-   1791807570.1964152,
-   "SIXX:A.M.'s JAMES MICHAEL Launches New Band LOWLIGHT REVELRY, Releases Debut Album"
-  ],
-  [
-   1791807575.4677014,
-   "Columbo Star Peter Falk Headlined The Last Rod Serling Movie Ever Made"
-  ],
-  [
-   1791807582.203154,
-   "'Your washing machine is subject to more safety rules than AI' says Microsoft president"
-  ],
-  [
-   1791807593.572552,
-   "The New Squadron 42 Trailer Looks Great, But That 2027 Release Date Is Hard To Believe"
-  ],
-  [
-   1791807598.9686518,
-   "25 Years Ago Today: Naomi Watts Starred In One Of The Most Mind-Bending Movies Ever Made"
-  ],
-  [
-   1791807604.828924,
-   "Nintendo executive confirms company has \"no plans to ditch physical games\""
-  ],
-  [
-   1791815055.5265849,
-   "Starfield seamless planetary landings are finally nearly a thing, thanks to one modder's tireless work"
-  ],
-  [
-   1791815061.9033053,
-   "Valor Mortis review"
-  ],
-  [
-   1791815073.5455213,
-   "Baki’s Yujiro Hanma Is About To Turn Tekken 8 Into A Full-Blown Muscle Appreciation Simulator"
-  ],
-  [
-   1791815082.559468,
-   "You don't just paint the map your colour in new WW2 RTS Battleplan, you redraw the frontline with a pencil and hope your troops do the rest"
-  ],
-  [
-   1791815086.1264672,
-   "Режисер Алекс Ґібні: Universal вагалася щодо світового прокату фільму \"Маск\" після погроз Ілона Маска"
-  ],
-  [
-   1791815091.711398,
-   "Watch: GRAHAM BONNET And BRUCE DICKINSON Join Forces On 'The Fifth Force Of Nature' Single From GRAHAM BONNET BAND"
-  ],
-  [
-   1791815096.9379413,
-   "The Best Prog Metal Band From 25 Different Countries"
-  ],
-  [
-   1791815103.5635083,
-   "Pearl Abyss goes easy on us critics for our Crimson Desert reviews: 'They had to play the build that is not the exact same version of the launched game'"
-  ],
-  [
-   1791815107.5689743,
-   "Продажі XBOX у США впали до історичного мінімуму, PlayStation – до рівня 2013 року"
-  ],
-  [
-   1791815112.8182633,
-   "James Hetfield Calls Out ‘Other Entertainers’ With an Agenda"
-  ],
-  [
-   1791815118.1787245,
-   "A Genre-Defining Action Movie With 4 Oscars Is Streaming On Prime Video"
-  ],
-  [
-   1791815125.4844966,
-   "Arc Raiders player-numbers rebound with the launch of Frozen Trail and the game's 2.0 release, but they might be deceptively high"
-  ],
   [
    1791820210.1794872,
    "W.A.S.P.'s BLACKIE LAWLESS: 'I Wouldn't Say I'm Antisocial'"
@@ -9569,6 +9672,54 @@
   [
    1791978183.8688045,
    "mksglu/context-mode"
+  ],
+  [
+   1791989233.6556888,
+   "Rockstar Promises Its Next Game Won’t Take Another 8 Years"
+  ],
+  [
+   1791989238.4364772,
+   "Josh Mowery Reflects on Catch Your Breath's Career, New Album"
+  ],
+  [
+   1791989243.3478553,
+   "Nvidia's Jensen Huang pledges $2 billion for Europe, $250 million in compute for UK safety labs"
+  ],
+  [
+   1791989249.283493,
+   "Fortnite is coming to Linux once Epic improves Easy Anti-Cheat"
+  ],
+  [
+   1791989253.4030175,
+   "Ian Hill Recalls the Moment His Tendon Snapped in Brussels: “I Thought, ‘That’s It. That’s the End of It’”"
+  ],
+  [
+   1791989275.3805132,
+   "Jami McGuigan Joins Select Management Group’s Canadian Team As Talent Manager"
+  ],
+  [
+   1791989280.633707,
+   "Epic Games має проблеми з грою для Disney, тому вдасться до генеративного ШІ"
+  ],
+  [
+   1791989300.240568,
+   "Teen 'America's Got Talent' Winner Joins Major Rock Band Onstage"
+  ],
+  [
+   1791989306.2954412,
+   "Doom can 'run' on a DNS database now, and one of the technology's pioneers says 'I can't decide whether this is deliciously horrible, or else horribly delicious'"
+  ],
+  [
+   1791989316.872305,
+   "Who Is Paladin? 'VisionQuest's New Villain Is a Wild Fusion of Marvel and Star Wars History"
+  ],
+  [
+   1791989324.2862701,
+   "cathrynlavery/diagram-design"
+  ],
+  [
+   1791989328.548068,
+   "La Dispute announce tour of Latin America"
   ]
  ],
  "weekly_releases_week": "2026-W42",
@@ -11374,7 +11525,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1791975185.0658646,
+  "last_check": 1791989339.047624,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
