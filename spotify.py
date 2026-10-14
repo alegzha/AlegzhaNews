@@ -26,6 +26,12 @@ class SpotifyError(Exception):
     pass
 
 
+class RateLimited(SpotifyError):
+    def __init__(self, wait):
+        super().__init__(f"Spotify просить зачекати {wait} с")
+        self.wait = wait
+
+
 def configured():
     return bool(CLIENT_ID and CLIENT_SECRET and REFRESH_TOKEN)
 
@@ -61,7 +67,7 @@ class Api:
             if r.status_code == 429:
                 wait = int(r.headers.get("Retry-After", "5") or 5)
                 if wait > 30:
-                    raise SpotifyError(f"Spotify просить зачекати {wait} с — продовжу наступного разу")
+                    raise RateLimited(wait)
                 time.sleep(wait + 1)
                 continue
             if r.status_code == 403:
@@ -86,13 +92,10 @@ def followed_artists(api):
 
 
 def latest_releases(api, artist_id, groups):
-    """Останні релізи кожного типу окремо: Spotify групує відповідь за типами,
-    тож у спільному запиті свіжі сингли могли б не влізти після старих альбомів."""
-    items = []
-    for group in [g.strip() for g in groups.split(",") if g.strip()]:
-        data = api.get(f"/artists/{artist_id}/albums", {"include_groups": group, "limit": 10})
-        items.extend(data.get("items", []))
-    return items
+    """Дискографія одним запитом. Spotify групує відповідь за типами (спершу альбоми,
+    потім сингли), тому беремо з запасом — до 50 релізів."""
+    data = api.get(f"/artists/{artist_id}/albums", {"include_groups": groups, "limit": 50})
+    return data.get("items", [])
 
 
 def release_day(album):
@@ -148,10 +151,26 @@ def check(http, state, cfg, publish, esc):
     if isinstance(st.get("artists"), dict):
         st["artists"] = sorted(st["artists"])
     groups = cfg.get("include_groups", "album,single")
-    per_run = int(cfg.get("artists_per_run", 40))
+    per_run = int(cfg.get("artists_per_run", 10))
     fresh_days = int(cfg.get("max_age_days", 14))
+    pause = float(cfg.get("pause_seconds", 3))
+
+    # Spotify суворо обмежує застосунки в режимі розробника: якщо попросив зачекати — чекаємо
+    if time.time() < st.get("blocked_until", 0):
+        log.info("Spotify: пауза до %s за проханням Spotify", time.strftime("%d.%m %H:%M UTC", time.gmtime(st["blocked_until"])))
+        return 0
 
     api = Api(http, access_token(http))
+    try:
+        return _check(api, st, cfg, publish, esc, groups, per_run, fresh_days, pause)
+    except RateLimited as e:
+        st["blocked_until"] = time.time() + e.wait + 60
+        log.warning("Spotify: %s — призупиняю перевірки до %s", e,
+                    time.strftime("%d.%m %H:%M UTC", time.gmtime(st["blocked_until"])))
+        return 0
+
+
+def _check(api, st, cfg, publish, esc, groups, per_run, fresh_days, pause):
 
     # список підписок оновлюємо раз на 6 годин
     if time.time() - st.get("artists_checked", 0) > 6 * 3600 or not st["artists"]:
@@ -204,7 +223,7 @@ def check(http, state, cfg, publish, esc):
         for x in known:
             if x not in seen[artist_id] and len(seen[artist_id]) < 100:
                 seen[artist_id].append(x)
-        time.sleep(0.3)
+        time.sleep(pause)
 
     st["cursor"] = (start + len(batch)) % len(ids)
     # прибираємо тих, від кого відписався

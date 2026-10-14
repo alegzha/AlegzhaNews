@@ -591,7 +591,7 @@ async function proxyFeed(url, env) {
       Accept: "application/rss+xml, application/xml;q=0.9, text/html;q=0.8, */*;q=0.5",
       "Accept-Language": "uk-UA,uk;q=0.9,en;q=0.8",
     },
-    cf: { cacheTtl: 300, cacheEverything: true },
+    cf: { cacheEverything: true, cacheTtlByStatus: { "200-299": 300, "300-599": 0 } }, // помилки не кешуємо
   });
   return new Response(resp.body, {
     status: resp.status,

@@ -654,6 +654,9 @@ def fetch_source(url):
             return r
         except Exception as e:  # noqa: BLE001
             log.info("Воркер теж не відкрив %s: %s", url, e)
+            err = RuntimeError(f"{last.status_code} напряму; через воркер: {str(e)[:120]}")
+            _source_cache[url] = err
+            raise err
     try:
         last.raise_for_status()
     except Exception as e:
@@ -741,7 +744,7 @@ def collect(config, state, alerts):
             alert_key = "src:" + source_id
             active.add(alert_key)
             down = f"Джерело «{feed['name']}» не працює"
-            entries, error = [], None
+            entries, error, errors = [], None, []
             # alt_urls — запасні адреси стрічки, якщо сайт її переніс
             urls = [feed["url"]] + list(feed.get("alt_urls") or [])
             known_good = working_urls.get(feed["url"])
@@ -756,6 +759,7 @@ def collect(config, state, alerts):
                         entries = feedparser.parse(fetch_source(u).content).entries
                 except Exception as e:  # noqa: BLE001
                     error = e
+                    errors.append(f"{u} → {str(e)[:120]}")
                     continue
                 if entries:
                     if u != feed["url"] or feed.get("alt_urls"):
@@ -764,7 +768,7 @@ def collect(config, state, alerts):
             if error and not entries:
                 e = error
                 log.warning("❌ %s: не вдалося завантажити стрічку (%s)", feed["name"], e)
-                alerts.problem(alert_key, down, f"{feed['url']}\n{e}", after_hours=12)
+                alerts.problem(alert_key, down, "\n".join(errors) or f"{feed['url']}\n{e}", after_hours=12)
                 continue
             if not entries:
                 log.warning("❌ %s: стрічка порожня або зламана", feed["name"])
