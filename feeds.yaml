@@ -62,6 +62,10 @@ categories:
         url: https://www.metalsucks.net/feed/
       - name: Kerrang!
         url: https://www.kerrang.com/feed.rss
+      - name: Lambgoat
+        url: https://feeds.feedburner.com/LambgoatcomNewsHeadlines
+      - name: ThePRP
+        url: https://www.theprp.com/feed/
       - name: Neformat
         url: https://www.neformat.com.ua/
         type: html                       # RSS немає — бот читає головну сторінку
@@ -76,6 +80,9 @@ categories:
       #   url: https://collider.com/feed/
       - name: /Film
         url: https://www.slashfilm.com/feed/
+      - name: Deadline
+        url: https://deadline.com/feed/
+        max_per_day: 15                  # Deadline пише сотні новин на день
       - name: Mezha
         url: https://mezha.ua/feed/
         lang: uk
@@ -97,6 +104,14 @@ categories:
         url: https://itc.ua/ua/feed/
         lang: uk
         include_tags: ["Софт", "Програми", "Програмне забезпечення"]
+      - name: Product Hunt
+        url: https://www.producthunt.com/feed
+        max_per_run: 1
+        max_per_day: 5                   # лише кілька новинок на день
+      - name: GitHub Trending
+        url: https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml   # github.com/trending у вигляді RSS
+        max_per_run: 1
+        max_per_day: 5
 
   ai:
     emoji: "🤖"
@@ -110,6 +125,8 @@ categories:
         url: https://itc.ua/ua/feed/
         lang: uk
         include_tags: ["Штучний інтелект", "ШІ", "AI"]
+      - name: The Decoder
+        url: https://the-decoder.com/feed/
 
 # Необов'язкові фільтри (регістр не важливий).
 # skip_keywords — новини з цими словами в заголовку не публікуються.

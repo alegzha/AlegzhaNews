@@ -835,7 +835,14 @@ def collect(config, state, alerts):
                     }
                 )
             fresh.sort(key=lambda c: c["ts"], reverse=True)
-            candidates.extend(fresh[: limits["max_per_source_per_run"]])
+            take = int(feed.get("max_per_run", limits["max_per_source_per_run"]))
+            if feed.get("max_per_day"):
+                # для дуже плідних джерел (Deadline, Product Hunt…) — не більше N постів на добу
+                day_log = [t for t in state.setdefault("posted_by_source", {}).get(source_id, []) if now - t < 86400]
+                take = min(take, max(0, int(feed["max_per_day"]) - len(day_log)))
+            for f in fresh:
+                f["source_id"] = source_id
+            candidates.extend(fresh[:take])
             log.info("✅ %s: нових %d", feed["name"], len(fresh))
 
     alerts.ok_prefix("src:", active)  # джерела, які прибрали з feeds.yaml
@@ -953,6 +960,9 @@ def main():
 
         state["seen"][c["key"]] = time.time()
         state["titles"].append([time.time(), c["title"]])
+        if c.get("source_id"):
+            log_ = state.setdefault("posted_by_source", {}).setdefault(c["source_id"], [])
+            log_[:] = [t for t in log_ if time.time() - t < 86400] + [time.time()]
         posted += 1
         log.info("📤 %s — %s", c["source"], c["title"])
         time.sleep(3)  # не частіше ~20 повідомлень на хвилину в канал
