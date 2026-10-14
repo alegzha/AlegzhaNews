@@ -1,8 +1,8 @@
 {
  "alerts": {},
  "last_translation": {
-  "at": "2026-10-14 14:48 UTC",
-  "gemini_error": "",
+  "at": "2026-10-14 16:05 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=60)",
   "gemini_model": "gemini-flash-lite-latest",
   "used": [
    "Gemini"
@@ -36,7 +36,10 @@
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1791978126.841166,
    1791989249.2834976,
-   1791989306.2954457
+   1791989306.2954457,
+   1791993738.2951527,
+   1791993743.1120038,
+   1791993809.97718
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1791975111.9769719,
@@ -46,7 +49,9 @@
    1791975127.2869473,
    1791978141.8896086,
    1791989233.6556954,
-   1791989316.8723092
+   1791989316.8723092,
+   1791993929.3853037,
+   1791993942.2923956
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1791975170.5018463
@@ -63,7 +68,18 @@
    1791978131.4494839,
    1791978150.1066911,
    1791978172.9866152,
-   1791989275.38052
+   1791989275.38052,
+   1791993885.454179,
+   1791993890.2111661,
+   1791993919.0152128
+  ],
+  "movies|ITC.ua|https://itc.ua/ua/feed/": [
+   1791993734.074277
+  ],
+  "music|Blabbermouth|https://blabbermouth.net/feed": [
+   1791993730.639509,
+   1791993814.5171487,
+   1791993880.3209643
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
    1791969296.0434678,
@@ -113,6 +129,7 @@
   "0161762704b9d659": 1791820226.6361132,
   "0170081284d196fc": 1791815073.5455186,
   "01ca9ddae6c14f85": 1791989249.2834911,
+  "0222a40561332571": 1791993919.0152032,
   "029204a4b8418055": 1791989328.548066,
   "03080b879f45b5a4": 1791742964.7350998,
   "038c94747a2f20bf": 1791978102.8561285,
@@ -173,6 +190,7 @@
   "1e6badcee727ddee": 1791843798.1366713,
   "1e774ba4a994e424": 1791894803.4764898,
   "1f95fca03514d64e": 1791966925.1620312,
+  "20688362104da807": 1791993729.4325955,
   "211fbbea675fcfee": 1791807564.3398101,
   "2140e00e1bd43112": 1791831064.04395,
   "21798e768846726d": 1791932387.0273638,
@@ -188,6 +206,7 @@
   "25a045d63c7d234b": 1791926974.3320994,
   "268cf33188e16590": 1791931688.5203261,
   "26cb37b9a1376af8": 1791853911.3275766,
+  "2767d47f9f40b3dd": 1791993738.2951436,
   "277cecdddf507efd": 1791908428.2538705,
   "290ef24bc6f46e44": 1791978121.1698637,
   "29b7873b62b4ef15": 1791853965.7189302,
@@ -217,6 +236,7 @@
   "3497ef3cf9741c57": 1791894797.5656688,
   "35d432773819ba5f": 1791654254.9848216,
   "361eb7863e840af7": 1791932583.0588925,
+  "3681878a041950b0": 1791993743.1119962,
   "37f2e141051ea901": 1791643484.7724442,
   "38023b5cc39dc12b": 1791966902.7074773,
   "396b375b332b6b5f": 1791644927.1142297,
@@ -251,6 +271,7 @@
   "465cf48e98ccb537": 1791837761.0238128,
   "465cf876ffcdcaf1": 1791989238.4364748,
   "46e8fce991a50384": 1791646021.548309,
+  "474382b6632b066d": 1791993729.4377713,
   "4809ce681a686c84": 1791931734.3243032,
   "48ce3623efa23556": 1791926699.7028904,
   "48d7fdd73af95c39": 1791978102.8616881,
@@ -273,6 +294,7 @@
   "4ff4740e9eec85dc": 1791932593.4533782,
   "50461fdbb5baf0f1": 1791931686.7969706,
   "504ee63d6d202353": 1791642330.1209908,
+  "52b3fcb97ee12cba": 1791993885.4541698,
   "53287f14b1250c90": 1791769084.5556781,
   "53c62bd0c6f25858": 1791807526.4589036,
   "54a9a8bd54d562f8": 1791966911.0236287,
@@ -288,6 +310,7 @@
   "5c72f265a0aa2c46": 1791853970.397,
   "5c7a726a5a7ee37d": 1791908440.5392518,
   "5cac9d00e22cbac8": 1791966895.258303,
+  "5e1e4c10aefa2af7": 1791993942.2923877,
   "5e6ea2968f8b8ac2": 1791957514.411533,
   "5e75c693a49a01ed": 1791879495.2693658,
   "5e834a8082e7539e": 1791636717.6413429,
@@ -350,6 +373,7 @@
   "7859200416743a7b": 1791926756.026623,
   "789a415be5207e72": 1791837797.1856327,
   "78a198516fe1b303": 1791667541.655668,
+  "7970ffacb57d96da": 1791993890.2111578,
   "79924312105398a4": 1791807546.7344666,
   "7b51a41a8a5fb539": 1791894773.4746997,
   "7c215e606a562a9c": 1791932421.0418994,
@@ -407,6 +431,7 @@
   "969d972539055971": 1791757286.6070983,
   "96caa9e97be701ce": 1791807575.467699,
   "975ffdef088dcc19": 1791920811.2727714,
+  "97efd60f02a8688c": 1791993809.977173,
   "98b3504fafa8aacc": 1791894808.6965919,
   "9985b3d5b28d3bca": 1791769110.1612594,
   "99de8e5cc0092b17": 1791837781.7497854,
@@ -414,6 +439,7 @@
   "9a945af4bff676bc": 1791920890.789667,
   "9a9c024dd9d7c1db": 1791668526.060194,
   "9adeae47092581c0": 1791975106.266901,
+  "9beba2f45275f9b8": 1791993814.5171423,
   "9c38d41f1c172119": 1791957510.2704456,
   "9cb55f9258ff0b0e": 1791743027.2241058,
   "9cf6c3794e2a0a3e": 1791969269.2207146,
@@ -459,8 +485,11 @@
   "b0b364564ccea17b": 1791931866.7242606,
   "b1054066aeb5a6e1": 1791938067.1573927,
   "b22d3c1d2c631fc3": 1791938082.0450804,
+  "b29e0bf8c4274f40": 1791993730.6395025,
   "b2b326732b33f0ac": 1791926695.0193167,
   "b2fc5e525ccfc2bb": 1791931130.980771,
+  "b30574043dd11504": 1791993929.385296,
+  "b401e38a85421bdc": 1791993880.3209584,
   "b45ce40e68e5a069": 1791908418.1175368,
   "b4fcea4d70451120": 1791807593.5725496,
   "b5368d16e5d8a522": 1791750736.9549613,
@@ -491,6 +520,7 @@
   "c4764ac37ccdddc8": 1791978183.8688025,
   "c49fefea2e336264": 1791831141.1045146,
   "c4c0033e8848c44c": 1791750764.3340223,
+  "c4fe98c29187e11b": 1791993734.0742705,
   "c51b15d9e6fcf624": 1791957552.1866417,
   "c53267ad2de766ba": 1791968061.1901526,
   "c5b3c83543504b9a": 1791931703.0332391,
@@ -552,6 +582,7 @@
   "db0b7bb67df86ef1": 1791815103.563506,
   "db0dad8d6002d762": 1791742975.2076674,
   "dbc30b55901df180": 1791650189.208903,
+  "dbc6f4353d6553ac": 1791993729.4436889,
   "dc246cacdefc6c46": 1791929854.5939226,
   "dc6738baf51e77af": 1791757281.6698365,
   "dcc9a770f06437d1": 1791931828.0050437,
@@ -2563,6 +2594,11 @@
    "",
    1791831083.1525304
   ],
+  "q:ai godfather": [
+   0,
+   "",
+   1791993741.8138611
+  ],
   "q:ai pc": [
    0,
    "",
@@ -3438,6 +3474,11 @@
    "",
    1791894780.8228815
   ],
+  "q:cozy driving game and i'm": [
+   0,
+   "",
+   1791993938.4043674
+  ],
   "q:crimson": [
    0,
    "",
@@ -3712,6 +3753,31 @@
    0,
    "",
    1791843840.1804848
+  ],
+  "q:disney's survival": [
+   0,
+   "",
+   1791993924.528182
+  ],
+  "q:disney's survival thriller": [
+   0,
+   "",
+   1791993924.0361104
+  ],
+  "q:disney's survival thriller 'whalefall'": [
+   0,
+   "",
+   1791993923.5309763
+  ],
+  "q:disney's survival thriller 'whalefall' proves": [
+   0,
+   "",
+   1791993923.0315313
+  ],
+  "q:disney's survival thriller 'whalefall' proves how": [
+   0,
+   "",
+   1791993922.520082
   ],
   "q:dlss": [
    0,
@@ -4778,6 +4844,21 @@
    "",
    1791894819.729697
   ],
+  "q:hogwarts legacy": [
+   990080,
+   "Hogwarts Legacy",
+   1791993747.6138427
+  ],
+  "q:hogwarts legacy's dlss": [
+   0,
+   "",
+   1791993747.1168802
+  ],
+  "q:hogwarts legacy's dlss 5": [
+   0,
+   "",
+   1791993746.6258907
+  ],
   "q:hollow home": [
    2362070,
    "Hollow Home",
@@ -4978,6 +5059,26 @@
    "",
    1791932366.2935395
   ],
+  "q:invented": [
+   0,
+   "",
+   1791993937.9114826
+  ],
+  "q:invented the cozy": [
+   0,
+   "",
+   1791993937.4187229
+  ],
+  "q:invented the cozy driving": [
+   0,
+   "",
+   1791993936.910608
+  ],
+  "q:invented the cozy driving game": [
+   0,
+   "",
+   1791993936.4044914
+  ],
   "q:invincible": [
    0,
    "",
@@ -5082,6 +5183,26 @@
    0,
    "",
    1791957531.6543977
+  ],
+  "q:just invented": [
+   0,
+   "",
+   1791993935.8876522
+  ],
+  "q:just invented the cozy": [
+   0,
+   "",
+   1791993935.3876357
+  ],
+  "q:just invented the cozy driving": [
+   0,
+   "",
+   1791993934.8743734
+  ],
+  "q:just invented the cozy driving game": [
+   0,
+   "",
+   1791993934.3762112
   ],
   "q:just like bryan": [
    0,
@@ -6127,6 +6248,21 @@
    0,
    "",
    1791931153.3820326
+  ],
+  "q:over the hill": [
+   2929250,
+   "over the hill",
+   1791993933.8814843
+  ],
+  "q:over the hill just": [
+   0,
+   "",
+   1791993933.3897543
+  ],
+  "q:over the hill just invented": [
+   0,
+   "",
+   1791993932.8666022
   ],
   "q:paladin": [
    0,
@@ -7563,6 +7699,36 @@
    "",
    1791931214.179757
   ],
+  "q:survival": [
+   0,
+   "",
+   1791993927.793677
+  ],
+  "q:survival thriller": [
+   0,
+   "",
+   1791993927.2721941
+  ],
+  "q:survival thriller 'whalefall'": [
+   0,
+   "",
+   1791993926.643676
+  ],
+  "q:survival thriller 'whalefall' proves": [
+   0,
+   "",
+   1791993926.142963
+  ],
+  "q:survival thriller 'whalefall' proves how": [
+   0,
+   "",
+   1791993925.527498
+  ],
+  "q:survival thriller 'whalefall' proves how hard": [
+   0,
+   "",
+   1791993925.0365393
+  ],
   "q:switch 2 is": [
    0,
    "",
@@ -7807,6 +7973,11 @@
    0,
    "",
    1791957565.7976382
+  ],
+  "q:thriller 'whalefall' proves how hard it": [
+   0,
+   "",
+   1791993928.3778017
   ],
   "q:time": [
    0,
@@ -8586,93 +8757,43 @@
  },
  "tag_hints": {
   "Mezha": [
+   "apple",
+   "apple homeview",
    "arm",
-   "asus",
-   "csg",
-   "galaxy s23",
+   "fairphone",
    "netflix",
-   "nvidia",
-   "one ui",
+   "nothing",
    "qualcomm",
    "samsung",
    "termit",
-   "безпілотники",
+   "бпла",
    "бізнес",
-   "залізо",
+   "дрони",
+   "дім",
    "звільнення",
    "здоров'я",
    "канада",
-   "комплектуючі",
    "криптовалюти",
    "криптогаманець",
    "кібербезпека",
    "міноборони",
-   "навігація",
+   "навушники",
    "наземні дрони",
    "новини",
    "нрк",
    "оборонка",
    "опк",
-   "пк для ігор",
-   "смартфони",
+   "ппо",
+   "розумні окуляри",
+   "смартокуляри",
    "софт",
-   "спецпроєкти",
    "стрімінгові платформи",
    "суд",
    "технології",
-   "чехія",
-   "штучний інтелект"
+   "україна"
   ]
  },
  "titles": [
-  [
-   1791820210.1794872,
-   "W.A.S.P.'s BLACKIE LAWLESS: 'I Wouldn't Say I'm Antisocial'"
-  ],
-  [
-   1791820221.739855,
-   "Riftbound: Radiance Rarest Cards - Riot Games Music Crossovers Dominate the Set"
-  ],
-  [
-   1791820226.6361153,
-   "Watch: Behemoth Joined By Dimmu Borgir's Shagrath For Live Venom Cover"
-  ],
-  [
-   1791820230.0183575,
-   "З футбольного поля у пекло війни: трейлер драми \"Комариний кубок\""
-  ],
-  [
-   1791820240.3642452,
-   "You need not hunger for that Zelda Ocarina of Time remake when we already have Indigo, a colossal N64 romhack featuring mushroom forests and bearded Link"
-  ],
-  [
-   1791820243.7385705,
-   "Steam побив рекорд онлайну втретє за рік"
-  ],
-  [
-   1791820248.507446,
-   "James Hetfield: \"Metallica Is Not Here to Influence You With Bull****\""
-  ],
-  [
-   1791820253.270825,
-   "10 Most Rewatchable '90s Movies, Ranked"
-  ],
-  [
-   1791820258.654124,
-   "GENE SIMMONS Says He Has DONALD TRUMP's And ELON MUSK's Phone Numbers In His Contact List: 'I'm Kind Of A Big Deal'"
-  ],
-  [
-   1791820264.2557151,
-   "I am the controller now: MIT engineers have created a 'second skin' that could one day track whole bodies in VR"
-  ],
-  [
-   1791820267.741596,
-   "Саша Барон Коен зіграє головну роль у п'єсі Тарантіно в Лондоні"
-  ],
-  [
-   1791820271.4391525,
-   "KVITKOVASOBAKA видали сингл"
-  ],
   [
    1791831068.771504,
    "Burn With Me is a hand-drawn demon card game featuring the artist's own hand - and also, a refreshingly finite alternative to yer Balatro-likes"
@@ -9720,6 +9841,54 @@
   [
    1791989328.548068,
    "La Dispute announce tour of Latin America"
+  ],
+  [
+   1791993730.6395051,
+   "SEVENTH WONDER Announces New Album 'VII', Shares 'Memories' Single"
+  ],
+  [
+   1791993734.0742729,
+   "ШІ може замінити сценаристів? Творець серіалу \"Доктор Хто\" різко відповів главі BBC"
+  ],
+  [
+   1791993738.2951458,
+   "Looks like a lighter, carbon fibre version of the best gaming mouse I've held is on its way, but don't look at the price tag"
+  ],
+  [
+   1791993743.1119988,
+   "'AI godfather' worries we're creating 'alien beings' with artificial intelligence, with pesky moral implications"
+  ],
+  [
+   1791993809.977175,
+   "Hogwarts Legacy's DLSS 5 update shows devs have been listening to PC gamers about keeping it the hell away from game characters"
+  ],
+  [
+   1791993814.5171447,
+   "JACKSON Unveils 'Legend' Series Signature Guitars For RANDY RHOADS, SCOTT IAN, DAVID ELLEFSON And MARTY FRIEDMAN"
+  ],
+  [
+   1791993880.3209603,
+   "Netherworlds"
+  ],
+  [
+   1791993885.4541721,
+   "‘La La Land’ Stage Musical Taps Film’s Choreographer & Costume Designer; 59 Studio Aboard As Production Designer"
+  ],
+  [
+   1791993890.2111592,
+   "‘The Studio’ Co-Creator Alex Gregory Developing Hamptons-Set Drama Series ‘Further Lane’ At HBO"
+  ],
+  [
+   1791993919.0152056,
+   "‘American Doctor,’ ‘NAZA,’ ‘Musk,’ Elizabeth Holmes Doc And More Make DOC NYC’s Prestigious Short List"
+  ],
+  [
+   1791993929.3852983,
+   "Disney's Survival Thriller 'Whalefall' Proves How Hard It Is to Replicate 'The Martian'"
+  ],
+  [
+   1791993942.2923903,
+   "Over the Hill Just Invented the Cozy Driving Game and I'm in Love"
   ]
  ],
  "weekly_releases_week": "2026-W42",
@@ -11525,7 +11694,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1791989339.047624,
+  "last_check": 1791993952.6026433,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
