@@ -1,7 +1,14 @@
 {
- "alerts": {},
+ "alerts": {
+  "spotify": {
+   "detail": "Spotify просить зачекати 85272 с — продовжу наступного разу",
+   "label": "Spotify недоступний",
+   "sent": 0,
+   "since": 1791968069.5872118
+  }
+ },
  "last_translation": {
-  "at": "2026-10-14 08:36 UTC",
+  "at": "2026-10-14 08:54 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "used": [
@@ -284,6 +291,7 @@
   "a0dbbb7d6a74014a": 1791957533.3562908,
   "a1b7614884880410": 1791931887.9350114,
   "a1c61fc6118c31ac": 1791831064.0489607,
+  "a204004c0897567b": 1791968053.915055,
   "a205c4a8bea45ab0": 1791831091.1301608,
   "a2d8974671876099": 1791722108.479963,
   "a424e0bf4e1ff5f8": 1791638763.492404,
@@ -333,6 +341,7 @@
   "c49fefea2e336264": 1791831141.1045146,
   "c4c0033e8848c44c": 1791750764.3340223,
   "c51b15d9e6fcf624": 1791957552.1866417,
+  "c53267ad2de766ba": 1791968061.1901526,
   "c5b3c83543504b9a": 1791931703.0332391,
   "c622628fd6e736ca": 1791853953.2827067,
   "c65d2f4d1162f7de": 1791668789.9831371,
@@ -374,6 +383,7 @@
   "d6bc6b0e9519f9e5": 1791966906.2622647,
   "d6ef87b7463c1c49": 1791636717.6413412,
   "d6f00a67abe188cd": 1791931846.9450486,
+  "d713bf288577c7a1": 1791968057.7819278,
   "d79d97d4793c6518": 1791931822.5738661,
   "d7dc089d187f3abe": 1791638186.8176112,
   "d80b7a38e8574786": 1791959780.320588,
@@ -847,7 +857,7 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1791966941.5542316,
-  "cursor": 40,
+  "cursor": 50,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
     "0CVnhwtOpdoIkOatkGcVwO",
@@ -1406,6 +1416,161 @@
     "5Y9I7cw2mYFHnJeNppiyQi",
     "5LZWVagNcCURi0mEPjkqB3",
     "0bBBm9rT5CT42WsT6wEsxN"
+   ],
+   "12cKwxUl6Ku3VpSB3LjrM5": [
+    "7xmGLljzrSGngtVYN1svVM",
+    "5ZfCxFwJOctlZ9Pgk4wtPX",
+    "5jzvTqdMHDAFFnql6Ceg23",
+    "0ckMi3UduuywcZassvOJhf",
+    "4TyyLkILsKzVefdBKltKTh",
+    "3kCYUq1V5A9TvKhBAkVgJ5",
+    "4RVz7A8KQcxLGNxpUODVqn"
+   ],
+   "13PoSkMaBxmC6EeAu2oBhH": [
+    "4lovPEkBphxTZcERZZf67l",
+    "5VtraJMECaqnl4szWLLCTK",
+    "6bUZiSRV8dP9gnmPXNxi9v",
+    "71JZqdSHVx9dmyoMPoQdqI",
+    "1CslgtdhE4UEbMtiX46FTY",
+    "2hM8a4rHo54zb0UVVxOKxU",
+    "7eUPOiiDCnPvd2BshrAQgq",
+    "5kuzTqr8hMWFbmJUHuSoy8"
+   ],
+   "159qqlGwzE04xyqpfAwRLo": [
+    "36McCMdCRYn5j6iSMiqdG4",
+    "5wLd53vzbBM0TIa0NmwxGb",
+    "46hNwndF4Tm6D1cGr0G5zL",
+    "2TecLVINEJwpDnWepQuMXr",
+    "7712cWOELt2oQyxrlFWY8D",
+    "0bdtf7LHukCZbCyKMYdHXP",
+    "3sj64vlMjeymCV05otr8FA",
+    "4GnybptVxP8FoxVfnSjMqM",
+    "7J8yT8vOWAX5OxvSlcJVS1",
+    "1A24DFpaImqE0ValuCE89N",
+    "1ofXyNxZgZpOqmRp1dvYX9",
+    "7mmj9Kh2WmbKIs7eEQlGwM",
+    "6nUaOQGLU8xIAI5MQqHvup"
+   ],
+   "15LsRgSmN0t8VLcsUFYW5J": [
+    "0dZfwr7p9My7cviCAQLyci",
+    "62JDE0WPPtAWUMjLyyu5hJ",
+    "7Dnh5YZEYXnYVmHorCVbD0",
+    "62UY9RIhkwbcPsWFZcqmjs",
+    "5XRR2Lnc7grEl7FXyrS0qz",
+    "1gTH6j2xNJvsyGLSEKaiX6",
+    "4EpSJyvM3FaueYWpGyQiGW",
+    "4EKXivoDRkCByJB7ffl8Rs",
+    "1R9eieU654k8iuUOxuIU7p",
+    "6MRIksLAlqz0DDu4jV6P6R",
+    "55QYaW0w0sGqpwvv2EE3vn",
+    "6JFoWVNBn6Gr07DQLxY0lJ",
+    "23g2fkMdr7BL4HHuO3P553",
+    "7wYS8Ysofvhvqi5prLmvv2",
+    "4PuQeKVN9Le2Hb4mQ92Eqr",
+    "7pVPOzPg6Jkq0aSzfAfb9j",
+    "32gcVp6mEeNvQbCwcxKfSC"
+   ],
+   "165ZgPlLkK7bf5bDoFc6Sb": [
+    "2lZ9RqGnGXH8gtH3DK02tJ",
+    "5SWyjakBNg9n0JpnHaQQSI",
+    "0VsNR8ay7aO8DQGNng2Fko",
+    "3oUoQ0UH7Rv06x1kpSjS36",
+    "3hkyt2ofB7tGrsbxwBaCE9",
+    "5mi7FKaWE5CtcOjdyxScA7",
+    "3HCCUaRSjHSFOe4fqE0BiP",
+    "3MXrPupQnGD3XQLRbxDyW9",
+    "5c6tiN4r4GwOTkuJKLzW2X",
+    "3I34EprFC0rlAO4pKNeX1t",
+    "17IZPiSKGf8Sxkivtjmbqa",
+    "5gnSTqbBS89Ekjl6urNeyM",
+    "7tadqEjXzmv9fgy21AelkR",
+    "1NjvsmrKy2DCxRTcsJQVX6",
+    "5qwnsXwdLqlobT21jkU8ur",
+    "6Rptl6Fyf8MNVwI6BQqKeP",
+    "5Bu9ucyQatIFNf6dm0lzpX",
+    "7FeI55cSxuKXK5h2cyIvjv"
+   ],
+   "17HqNPoYO052O7dO0cgE96": [
+    "0bTiWwtrjdRH4JpWHqYpue",
+    "2xWU3z1pVfrpC3AhPalvMl",
+    "6imIUddPB4NvAjE0gM6vwy",
+    "0d1cBG4qEcFSdZ6VsLq2BL",
+    "5zb6kCkN3jFylpyNEzYjwA",
+    "0SofUu38SjA4qBHpRpg0Ve"
+   ],
+   "17pjImdVvIja9Es8R436NP": [
+    "7DP6hwCLkSTs2RjpIHanGi",
+    "4KNuy0fuBwMhZtquojV6ei",
+    "40dWOUbTdbTDHgaRIKc58J",
+    "3coWqgfgb9pKubGMHAhl0D",
+    "7q7mq1oxQbKFOjjdqdtDgB",
+    "5KgNUJICIcDjJ5APVS0Buu",
+    "5U9iTupl9X8JSVuOuR8kTf",
+    "07ZQTl8wvr8HY9DI6IAExQ",
+    "4TejmI94VIJNjlSFQlzHET",
+    "08bkU1D9ia4DxyBI8XrTtx",
+    "3tIdWDbjL1DQsAepRki520",
+    "1Vi35tOTTsguu9lCV8wzUn",
+    "3l8wlkoIjZI7Ev2o4Zk2i2",
+    "5KAUCTwqOsIco3a2Qsv17b",
+    "6xLvex7tzo5G88NIVd9vTa"
+   ],
+   "1844Ua6R4gOuH6GLdlR4dt": [
+    "3NuG2Ua7jKgshFKhXC2Mxk",
+    "6qfCeJUAbjQxtmyITmY933",
+    "75caqQ4HQYSxr9Ke6tFrUD",
+    "6VUPrrB9Y8S5I5ElDwoPzy",
+    "60yuwpHyXdPceyEVCcp8f7",
+    "63kkyZzO8cICAPTiXT8TMc",
+    "6wHey3HFy6BdfOIeaSB8ZJ",
+    "7hMKX3HhA1ORsRL0tiGziZ",
+    "0XzfAfWHhZlL7WSL6acUnx",
+    "5mjmBGPfXVVuXbsadrozU5",
+    "13I8hhTB9V56VMiKo58m00",
+    "278scJHsCyBRWl94O0C0d5",
+    "08pUE6eHo8Z66loPCcmdA2",
+    "4jUoqzZSmKP9QFOC9DCQba"
+   ],
+   "18H0sAptzdwid08XGg1Lcj": [
+    "1bqNzt1TJfYOYPXulnjzPz",
+    "6H9QBo21NFBgN9Thf84pK7",
+    "6QFtujdK0w9wIyEVGxaNFo",
+    "7KvEYDjJo5qImXE6CUoMjs",
+    "7Ba3a8jzfCTpk4Ar4pKOht",
+    "3iYVCEWNcVVX6V23ywjtXR",
+    "2lhGgWedJZ99ecpXA7hqUr",
+    "4c2z5M8fhqX4PpS85aEltq",
+    "5ghG3IlnFb9nyriAvS3EuB",
+    "1l1BrwtgaUuNumWh0O0R9t",
+    "2sMY0pAJF3sYECveEK0LTu",
+    "2bOqQS4uN2TNpArlIO6Ny2",
+    "5rarhRbEr3haebB2GT02rT",
+    "2jSPvTo1wN8DKMIKZS6fzT",
+    "5gDGLjYhQpCLlFm1odAqVa",
+    "26hlgZxgnH55W56xx5W4Vt",
+    "3YCRbyK2mOcaQAcanVNKuq"
+   ],
+   "19I4tYiChJoxEO5EuviXpz": [
+    "5mkdGum4SA8FWcwNMlttf5",
+    "2Z9ongblHLFgelZx9OGzQs",
+    "4TzAos9wqaw4j3cnE0yhr3",
+    "48SrarUhE6csdPsGbTAgEl",
+    "3pvmZwuBBm8Tt6NXDJkl14",
+    "5eOtPGPON27nscknnwkdIm",
+    "3bvsBOFhdRGsvEwIdRoWZz",
+    "0Y84KHrmhbX9IlDI64dC6I",
+    "1wuyq89X6QM1TE9bu7vMkt",
+    "0wSGGrR7fgG7FVUEbF9fGi",
+    "1pOGfl98tX5KsawTEEUkzU",
+    "0hGwipVGYzT8HvuzJq6Mo3",
+    "0XfWqCd9PH408MsPtDvAED",
+    "6LUxHqvuy3RRfnBHnqj48v",
+    "0qNLMcqlCgPB9YOPtvlpNr",
+    "4rYjsa63ypYR729Ho7j9wk",
+    "6gnMrvumqhY8S6YeJClgTJ",
+    "0A07IaOpoCLWrMsmM5BGFe",
+    "65CWdyz5BfTpUSnqFbifzB",
+    "0K3uis69NoWrhvqurTc8mp"
    ]
   }
  },
@@ -2144,6 +2309,11 @@
    0,
    "",
    1791853941.7047982
+  ],
+  "q:ai focused": [
+   0,
+   "",
+   1791968045.8740165
   ],
   "q:ai generated": [
    0,
@@ -7055,6 +7225,11 @@
    "",
    1791931212.0404954
   ],
+  "q:valve steam": [
+   0,
+   "",
+   1791968057.408168
+  ],
   "q:valve's moba": [
    0,
    "",
@@ -7618,8 +7793,6 @@
  },
  "tag_hints": {
   "Mezha": [
-   "apple",
-   "apple music",
    "facebook",
    "fpv-дрони",
    "gemini",
@@ -7630,6 +7803,7 @@
    "spacex",
    "starlink",
    "starshield",
+   "steam",
    "авіація",
    "безпілотники",
    "бпла",
@@ -7651,7 +7825,8 @@
    "сша",
    "ударні безпілотники",
    "флеш",
-   "штучний інтелект"
+   "штучний інтелект",
+   "ігри"
   ]
  },
  "titles": [
@@ -8626,6 +8801,18 @@
   [
    1791966925.1620333,
    "Чи можливо взагалі вдало екранізувати файтинг? Огляд фільму Street Fighter"
+  ],
+  [
+   1791968053.9150574,
+   "Xbox announces what sounds like a generative AI-focused game-making department, Xbox Labs, while avoiding mentioning AI"
+  ],
+  [
+   1791968057.7819302,
+   "Valve випустила велике оновлення Steam: новий режим, заставки та технологія для швидшої трансляції ігор"
+  ],
+  [
+   1791968061.1901553,
+   "GTA 6 може вийти на ПК значно раніше: інсайдери назвали терміни"
   ]
  ],
  "weekly_releases_week": "2026-W42",
