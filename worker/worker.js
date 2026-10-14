@@ -19,7 +19,7 @@
  *   OWNER_ID        (text)   — твій Telegram id (бот сам підкаже його після /start)
  *   SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET (secret, необов'язково) — для /spotify/login
  *   PROXY_HOSTS     (text, необов'язково) — сайти через кому, які бот може читати
- *                    через воркер (типово: mezha.ua)
+ *                    через воркер (типово: mezha.ua, bloomberg.com)
  *
  * /feed?url=… — читає RSS сайту, який не пускає сервери GitHub, і віддає боту.
  * Працює лише для сайтів зі списку PROXY_HOSTS, тож чужим цей проксі не знадобиться.
@@ -577,7 +577,7 @@ async function proxyFeed(url, env) {
   } catch {
     return new Response("bad url", { status: 400 });
   }
-  const allowed = (env.PROXY_HOSTS || "mezha.ua")
+  const allowed = (env.PROXY_HOSTS || "mezha.ua,bloomberg.com")
     .split(",")
     .map((h) => h.trim().toLowerCase())
     .filter(Boolean);

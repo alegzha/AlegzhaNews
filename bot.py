@@ -720,6 +720,27 @@ def split_post(text, limit=140):
     return cut + "…", text
 
 
+def _kw_regex(words):
+    return re.compile(r"(?<![\w-])(" + "|".join(re.escape(w) for w in words) + r")(?![\w-])", re.I)
+
+
+_kw_cache = {}
+
+
+def keywords_ok(feed, title):
+    """include_keywords — у заголовку має бути хоч одне слово; exclude_keywords — жодного."""
+    inc, exc = feed.get("include_keywords"), feed.get("exclude_keywords")
+    if inc:
+        rx = _kw_cache.setdefault(("i", tuple(inc)), _kw_regex(inc))
+        if not rx.search(title):
+            return False
+    if exc:
+        rx = _kw_cache.setdefault(("e", tuple(exc)), _kw_regex(exc))
+        if rx.search(title):
+            return False
+    return True
+
+
 def entry_tags(entry):
     return {(t.get("term") or "").strip().lower() for t in entry.get("tags", []) or []}
 
@@ -824,6 +845,8 @@ def collect(config, state, alerts):
                     continue
                 if any(k in title.lower() for k in skip):
                     state["seen"][key] = now
+                    continue
+                if not keywords_ok(feed, title):
                     continue
                 fresh.append(
                     {

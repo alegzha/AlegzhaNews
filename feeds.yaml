@@ -47,6 +47,13 @@ categories:
         url: https://itc.ua/ua/feed/
         lang: uk
         include_tags: ["Ігри"]          # ITC пише про все — беремо лише ігри
+      - name: Bloomberg
+        url: https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss   # Джейсон Шраєр — ігрова журналістика
+        max_per_day: 5
+      - name: Bloomberg
+        url: https://www.bloomberg.com/feeds/technology/news.rss
+        include_keywords: ["video game", "video games", "gaming", "Nintendo", "PlayStation", "Xbox", "Roblox", "Ubisoft", "Take-Two", "Grand Theft Auto", "GTA", "Epic Games", "Valve", "Steam", "Activision", "Electronic Arts", "Riot Games", "Embracer"]
+        max_per_day: 5
 
   music:
     emoji: "🤘"
@@ -66,6 +73,10 @@ categories:
         url: https://feeds.feedburner.com/LambgoatcomNewsHeadlines
       - name: ThePRP
         url: https://www.theprp.com/feed/
+      - name: Bloomberg
+        url: https://www.bloomberg.com/feeds/industries/news.rss
+        include_keywords: ["music", "Spotify", "Universal Music", "Warner Music", "Sony Music", "Live Nation", "Ticketmaster", "record label", "concert", "concerts", "album", "tour", "festival"]
+        max_per_day: 3
       - name: Neformat
         url: https://www.neformat.com.ua/
         type: html                       # RSS немає — бот читає головну сторінку
@@ -83,6 +94,10 @@ categories:
       - name: Deadline
         url: https://deadline.com/feed/
         max_per_day: 15                  # Deadline пише сотні новин на день
+      - name: Bloomberg
+        url: https://www.bloomberg.com/feeds/industries/news.rss
+        include_keywords: ["Netflix", "Disney", "Warner Bros", "Paramount", "Hollywood", "box office", "HBO", "film", "films", "movie", "movies", "studio", "studios", "streaming", "Pixar", "Marvel", "Lionsgate", "Comcast", "Universal Pictures"]
+        max_per_day: 5
       - name: Mezha
         url: https://mezha.ua/feed/
         lang: uk
@@ -112,6 +127,15 @@ categories:
         url: https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml   # github.com/trending у вигляді RSS
         max_per_run: 1
         max_per_day: 5
+      - name: Bloomberg
+        url: https://www.bloomberg.com/feeds/technology/news.rss
+        include_keywords: ["software", "Microsoft", "Windows", "Apple", "iPhone", "iOS", "macOS", "Android", "app", "apps", "App Store", "Adobe", "Salesforce", "Oracle", "SAP", "cybersecurity", "hackers", "hack", "open-source", "cloud"]
+        exclude_keywords: ["AI", "A.I.", "artificial intelligence", "OpenAI", "Anthropic", "ChatGPT", "Gemini", "chatbot", "chatbots", "LLM", "DeepMind", "xAI", "Grok", "Copilot", "Claude", "Mistral", "generative"]    # новини про ШІ йдуть у рубрику #ШІ
+        max_per_day: 5
+      - name: Bloomberg
+        url: https://www.bloomberg.com/authors/AS7Hj1mBMGM/mark-gurman.rss   # Марк Гурман — Apple
+        exclude_keywords: ["AI", "A.I.", "artificial intelligence", "OpenAI", "Anthropic", "ChatGPT", "Gemini", "chatbot", "chatbots", "LLM", "DeepMind", "xAI", "Grok", "Copilot", "Claude", "Mistral", "generative"]
+        max_per_day: 3
 
   ai:
     emoji: "🤖"
@@ -127,6 +151,10 @@ categories:
         include_tags: ["Штучний інтелект", "ШІ", "AI"]
       - name: The Decoder
         url: https://the-decoder.com/feed/
+      - name: Bloomberg
+        url: https://www.bloomberg.com/feeds/technology/news.rss
+        include_keywords: ["AI", "A.I.", "artificial intelligence", "OpenAI", "Anthropic", "ChatGPT", "Gemini", "chatbot", "chatbots", "LLM", "DeepMind", "xAI", "Grok", "Copilot", "Claude", "Mistral", "generative"]
+        max_per_day: 6
 
 # Необов'язкові фільтри (регістр не важливий).
 # skip_keywords — новини з цими словами в заголовку не публікуються.
