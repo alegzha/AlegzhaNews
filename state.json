@@ -1,18 +1,76 @@
 {
  "alerts": {
   "spotify": {
-   "detail": "Spotify просить зачекати 85272 с — продовжу наступного разу",
+   "detail": "Spotify просить зачекати 84020 с — продовжу наступного разу",
    "label": "Spotify недоступний",
    "sent": 0,
    "since": 1791968069.5872118
+  },
+  "src:ai|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/\n403 Client Error: Forbidden for url: https://mezha.ua/feed/",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1791969261.7751875
+  },
+  "src:games|Digital Foundry|https://www.digitalfoundry.net/feed": {
+   "detail": "https://www.digitalfoundry.net/feed\n404 Client Error: Not Found for url: https://www.eurogamer.net/feed/digitalfoundry",
+   "label": "Джерело «Digital Foundry» не працює",
+   "sent": 0,
+   "since": 1791969253.3830733
+  },
+  "src:games|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/\n403 Client Error: Forbidden for url: https://mezha.ua/feed/",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1791969237.5557399
+  },
+  "src:movies|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/\n403 Client Error: Forbidden for url: https://mezha.ua/feed/",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1791969260.9900875
+  },
+  "src:software|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/\n403 Client Error: Forbidden for url: https://mezha.ua/feed/",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1791969261.0138273
   }
  },
  "last_translation": {
-  "at": "2026-10-14 08:54 UTC",
+  "at": "2026-10-14 09:15 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "used": [
    "Gemini"
+  ]
+ },
+ "posted_by_source": {
+  "games|Eurogamer|https://www.eurogamer.net/feed": [
+   1791969312.856311
+  ],
+  "movies|Deadline|https://deadline.com/feed/": [
+   1791969290.9934516,
+   1791969303.6202176,
+   1791969308.258591
+  ],
+  "music|Kerrang!|https://www.kerrang.com/feed.rss": [
+   1791969296.0434678
+  ],
+  "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
+   1791969273.5111058,
+   1791969282.2439957,
+   1791969286.6589463
+  ],
+  "music|ThePRP|https://www.theprp.com/feed/": [
+   1791969264.6870182,
+   1791969269.2207222
+  ],
+  "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
+   1791969317.30668
+  ],
+  "software|Product Hunt|https://www.producthunt.com/feed": [
+   1791969277.719532
   ]
  },
  "seen": {
@@ -73,6 +131,7 @@
   "211fbbea675fcfee": 1791807564.3398101,
   "2140e00e1bd43112": 1791831064.04395,
   "21798e768846726d": 1791932387.0273638,
+  "21df6787e662fded": 1791969273.5111008,
   "21e1824114d8c451": 1791795338.7241907,
   "244e72325db51eca": 1791932367.4922628,
   "24794381445f2837": 1791931723.5090883,
@@ -125,6 +184,7 @@
   "411908f8ec11068d": 1791648355.907981,
   "4171abb5768cb121": 1791636717.6413395,
   "41d0d6c65652a908": 1791932390.5007298,
+  "41e53eac4f258a0e": 1791969308.2585855,
   "41e6c9020839e754": 1791957518.9722712,
   "4305ce6b081ab3b8": 1791678235.0223486,
   "431c52b37ba34ad3": 1791920881.6626737,
@@ -134,6 +194,7 @@
   "45cb1fde37fc7b01": 1791786680.4337952,
   "45d3556aab2bf343": 1791750753.4718692,
   "45dd72c9dc843e64": 1791724900.39503,
+  "4606baea4fc75aea": 1791969303.6202111,
   "465cf48e98ccb537": 1791837761.0238128,
   "46e8fce991a50384": 1791646021.548309,
   "4809ce681a686c84": 1791931734.3243032,
@@ -198,6 +259,7 @@
   "6e62c6fbbcb8f5fa": 1791757296.5115497,
   "6fb6133fdf09bf8d": 1791820243.7385676,
   "7099617ac61adf9b": 1791932371.6790078,
+  "70e9fc370f37e017": 1791969286.65894,
   "7118f5120f6c201e": 1791820248.507444,
   "71d02d29f603641f": 1791643484.7724442,
   "72391459be7cc1c5": 1791638758.692959,
@@ -227,6 +289,7 @@
   "7c215e606a562a9c": 1791932421.0418994,
   "7c8233ad2fc95815": 1791931208.5232723,
   "7dcc985b0266b643": 1791926734.5424356,
+  "7e482f533c3f648e": 1791969312.8563056,
   "7e912993bbce918e": 1791837726.6074932,
   "7ee557d5790adc5b": 1791931863.3664944,
   "7ef87439999d8d8e": 1791843846.0898852,
@@ -265,6 +328,7 @@
   "91522a2bfd4b9684": 1791926922.6202526,
   "91a43f5b773e51ef": 1791843862.675442,
   "91f17251c147b8b9": 1791668275.4877675,
+  "92705331275526a8": 1791969317.3066757,
   "9291ee3800946d66": 1791815096.9379387,
   "92f0201c35afafce": 1791931686.796419,
   "939d3349f40a773b": 1791820264.255713,
@@ -279,6 +343,7 @@
   "9a9c024dd9d7c1db": 1791668526.060194,
   "9c38d41f1c172119": 1791957510.2704456,
   "9cb55f9258ff0b0e": 1791743027.2241058,
+  "9cf6c3794e2a0a3e": 1791969269.2207146,
   "9d062494f1359211": 1791831120.1553473,
   "9d391cb2b30a169b": 1791786723.5787597,
   "9e2be5e25a000cd0": 1791815053.1561446,
@@ -387,10 +452,12 @@
   "d79d97d4793c6518": 1791931822.5738661,
   "d7dc089d187f3abe": 1791638186.8176112,
   "d80b7a38e8574786": 1791959780.320588,
+  "d86b162562d3f400": 1791969277.7195277,
   "d8758cae2c549998": 1791931822.5658903,
   "d8a4a8899a6e40a9": 1791668783.8428674,
   "d8acb507d32cd273": 1791815055.5265582,
   "d8c7784fa1bb6584": 1791675533.7058825,
+  "d973bad9ec5075d9": 1791969290.9934475,
   "d986697f677381b3": 1791879498.6319728,
   "db0b7bb67df86ef1": 1791815103.563506,
   "db0dad8d6002d762": 1791742975.2076674,
@@ -399,6 +466,7 @@
   "dc6738baf51e77af": 1791757281.6698365,
   "dcc9a770f06437d1": 1791931828.0050437,
   "dd8edeee41eaf92d": 1791966921.6536157,
+  "dda8c274963d0114": 1791969296.0434637,
   "de3ce46453ddea72": 1791843872.2637854,
   "de6aa72a6f2c751b": 1791926969.1486933,
   "de7aefd34cf805a3": 1791820207.7305968,
@@ -413,6 +481,7 @@
   "e5d0adf173e1a77a": 1791931161.17929,
   "e7f776205d5baa63": 1791675548.2298849,
   "e891c97409f3641e": 1791643484.7724442,
+  "e8c74e875ce8847d": 1791969264.6870122,
   "e99d5679eae73e15": 1791926924.849342,
   "ea086cecd1788949": 1791931876.1040778,
   "eab843426b6d2fe6": 1791795374.9136624,
@@ -439,11 +508,13 @@
   "f6a53595410b4be0": 1791931822.5769498,
   "f7609dc66d058fc4": 1791831110.1645455,
   "f8b3d754770f77a6": 1791920886.8207657,
+  "f94fdd8140b4a34d": 1791969263.0458302,
   "f9a5ea2d1ba92182": 1791643484.7724442,
   "f9f67629aeb2b512": 1791926751.1823595,
   "fa1baf1fe69fe2a8": 1791661532.8653228,
   "fb1fa580005ce111": 1791931822.5673175,
   "fb20b379e3302e30": 1791807534.5419414,
+  "fbeb4205a30e70be": 1791969282.2439892,
   "fc2bbcab1c0c0cc2": 1791931857.274695,
   "fc90c750e381c97b": 1791643484.7724442,
   "fd0ad7765b07a6c7": 1791757242.2010503,
@@ -482,7 +553,13 @@
   "ai|Mezha|https://mezha.ua/feed/",
   "ai|ITC.ua|https://itc.ua/ua/feed/",
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss",
-  "music|Kerrang!|https://www.kerrang.com/feed.rss"
+  "music|Kerrang!|https://www.kerrang.com/feed.rss",
+  "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines",
+  "music|ThePRP|https://www.theprp.com/feed/",
+  "movies|Deadline|https://deadline.com/feed/",
+  "software|Product Hunt|https://www.producthunt.com/feed",
+  "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml",
+  "ai|The Decoder|https://the-decoder.com/feed/"
  ],
  "spotify": {
   "artists": [
@@ -857,7 +934,7 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1791966941.5542316,
-  "cursor": 50,
+  "cursor": 51,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
     "0CVnhwtOpdoIkOatkGcVwO",
@@ -1571,6 +1648,13 @@
     "0A07IaOpoCLWrMsmM5BGFe",
     "65CWdyz5BfTpUSnqFbifzB",
     "0K3uis69NoWrhvqurTc8mp"
+   ],
+   "1ARDx2oCR7sJEjbnHsbbRU": [
+    "46Ldgt23mN36vFRyKGTke0",
+    "45CsIfZPYqaNRCoBb7huiO",
+    "4aElFiEC9RbikZzkjAS49A",
+    "4SdrdBBRHRo1CL6u3vJrR7",
+    "3h1R5UVCRRkVMlGydV4Ytc"
    ]
   }
  },
@@ -7831,38 +7915,6 @@
  },
  "titles": [
   [
-   1791795338.7241936,
-   "Ґодзілла та Кінг Гідора нищать Японію: вийшов новий трейлер \"Ґодзілла мінус нуль\" / Godzilla Minus Zero"
-  ],
-  [
-   1791795342.3347692,
-   "\"Ґодзілла мінус нуль\": трейлер сиквела оскароносного японського хіта"
-  ],
-  [
-   1791795346.0113492,
-   "Netflix показав перший трейлер \"Альтруїстів\" про крах криптобіржі FTX"
-  ],
-  [
-   1791795357.7415726,
-   "Riftbound: Radiance Hands-On Preview and Interview - Riftbound Embraces Complexity"
-  ],
-  [
-   1791795361.3968003,
-   "\"Той, хто біжить по лезу 2099\": трейлер та дата прем'єри серіалу"
-  ],
-  [
-   1791795365.3554792,
-   "«Йдучи на війну, я наївно вірив, що ми всі лишимося живі». Історія служби, втрати і мистецтва Level-художника"
-  ],
-  [
-   1791795374.9136648,
-   "DMZ for Call of Duty: Modern Warfare 4 being released early, but Infinity Ward shoots down PvE hopes"
-  ],
-  [
-   1791795378.5654435,
-   "Новий витік GTA 6: вперше показали ігролад за Лусію"
-  ],
-  [
    1791807515.0569317,
    "Why Paying \"Market Price\" for Rare Pokémon Card Sets Somehow Became The New Normal"
   ],
@@ -8813,6 +8865,54 @@
   [
    1791968061.1901553,
    "GTA 6 може вийти на ПК значно раніше: інсайдери назвали терміни"
+  ],
+  [
+   1791969264.687015,
+   "Filth Launch “Shell Town” Music Video"
+  ],
+  [
+   1791969269.2207174,
+   "Commoner’s “Passerby” Music Video Is Now Streaming"
+  ],
+  [
+   1791969273.5111032,
+   "Cave In, Primitive Man, Tony Danza Tapdance Extravaganza added to Subterranean Dissonance Fest"
+  ],
+  [
+   1791969277.7195294,
+   "RoleFit"
+  ],
+  [
+   1791969282.2439914,
+   "Dream Theater begin working on LP #17, enter studio"
+  ],
+  [
+   1791969286.6589427,
+   "Sleeping With Sirens, Saosin, and Escape The Fate added to 2027 Sonic Temple festival"
+  ],
+  [
+   1791969290.9934497,
+   "Rohit Jain Launches Tiger TV"
+  ],
+  [
+   1791969296.0434654,
+   "“This song is for anyone who’s been betrayed, backstabbed or let down”: Check out Artio’s new single, Bloodless (-1)"
+  ],
+  [
+   1791969303.6202135,
+   "‘La Bola Negra’, ‘Woman Unknown’, ‘NAZA’ & ‘Fjord’ Among 68 Films On Short List For 39th European Film Awards"
+  ],
+  [
+   1791969308.2585874,
+   "Russell Brand Rape Trial: Prosecution Opens Case Against ‘Forgetting Sarah Marshall’ Star"
+  ],
+  [
+   1791969312.856308,
+   "Planet Zoo 2 is a beautiful sequel and a fine management sim, but it's the animals that steal the show"
+  ],
+  [
+   1791969317.3066778,
+   "morluto/rea"
   ]
  ],
  "weekly_releases_week": "2026-W42",
