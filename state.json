@@ -1,44 +1,7 @@
 {
- "alerts": {
-  "spotify": {
-   "detail": "Spotify просить зачекати 84020 с — продовжу наступного разу",
-   "label": "Spotify недоступний",
-   "sent": 0,
-   "since": 1791968069.5872118
-  },
-  "src:ai|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/\n403 Client Error: Forbidden for url: https://mezha.ua/feed/",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1791969261.7751875
-  },
-  "src:games|Digital Foundry|https://www.digitalfoundry.net/feed": {
-   "detail": "https://www.digitalfoundry.net/feed\n404 Client Error: Not Found for url: https://www.eurogamer.net/feed/digitalfoundry",
-   "label": "Джерело «Digital Foundry» не працює",
-   "sent": 0,
-   "since": 1791969253.3830733
-  },
-  "src:games|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/\n403 Client Error: Forbidden for url: https://mezha.ua/feed/",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1791969237.5557399
-  },
-  "src:movies|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/\n403 Client Error: Forbidden for url: https://mezha.ua/feed/",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1791969260.9900875
-  },
-  "src:software|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/\n403 Client Error: Forbidden for url: https://mezha.ua/feed/",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1791969261.0138273
-  }
- },
+ "alerts": {},
  "last_translation": {
-  "at": "2026-10-14 09:15 UTC",
+  "at": "2026-10-14 09:20 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "used": [
@@ -49,10 +12,16 @@
   "games|Eurogamer|https://www.eurogamer.net/feed": [
    1791969312.856311
   ],
+  "games|Mezha|https://mezha.ua/feed/": [
+   1791969594.0180235
+  ],
   "movies|Deadline|https://deadline.com/feed/": [
    1791969290.9934516,
    1791969303.6202176,
-   1791969308.258591
+   1791969308.258591,
+   1791969564.3842797,
+   1791969585.343209,
+   1791969589.7300446
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
    1791969296.0434678
@@ -60,17 +29,25 @@
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
    1791969273.5111058,
    1791969282.2439957,
-   1791969286.6589463
+   1791969286.6589463,
+   1791969568.411261,
+   1791969572.4120164,
+   1791969576.7133102
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
    1791969264.6870182,
-   1791969269.2207222
+   1791969269.2207222,
+   1791969551.2122188,
+   1791969555.4547758,
+   1791969559.905785
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
-   1791969317.30668
+   1791969317.30668,
+   1791969598.8067975
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
-   1791969277.719532
+   1791969277.719532,
+   1791969580.9678786
   ]
  },
  "seen": {
@@ -105,6 +82,7 @@
   "12114873a6584f4c": 1791807506.2754734,
   "141c8ba7fde9ec37": 1791926678.2771666,
   "149ed54d2e6f3b70": 1791929866.8402812,
+  "14afd66e9c50a355": 1791969585.343201,
   "1527f11f16e1ecd8": 1791926952.7195158,
   "15d05a73c1a5f840": 1791769115.6548977,
   "15f791af37d54966": 1791643484.7724442,
@@ -145,7 +123,9 @@
   "26cb37b9a1376af8": 1791853911.3275766,
   "277cecdddf507efd": 1791908428.2538705,
   "29b7873b62b4ef15": 1791853965.7189302,
+  "29cc2c99e1d4f77c": 1791969559.9057777,
   "29cfe4e95e49a7be": 1791769122.3502562,
+  "2a96f7e807660e6e": 1791969576.7133026,
   "2b3e0d716a309f46": 1791931128.8734488,
   "2cfe09a255dd0a60": 1791807570.1964123,
   "2d5d049789d8d50f": 1791929823.1571426,
@@ -175,6 +155,7 @@
   "3ad9c4ef69beaa88": 1791894747.2247603,
   "3b4b6b4719353c78": 1791769105.2254817,
   "3c6d04fc633efc6c": 1791908446.0808244,
+  "3cf161c75fd01e74": 1791969589.7300363,
   "3d1a107758a21cf6": 1791815125.484494,
   "3d66fe44c663204a": 1791931737.6744573,
   "3d69c67289e2b826": 1791750785.6611123,
@@ -248,6 +229,7 @@
   "66b8f4b0ab2b0dbf": 1791931141.432061,
   "66eb7611601bd1f0": 1791931883.6620455,
   "66ecd44e663b535e": 1791638208.3614297,
+  "675ee406ee860756": 1791969568.4112535,
   "6769d5f62ab2d199": 1791931165.954171,
   "67dbc1c3bd60e817": 1791667536.1996334,
   "6a117b6d68f3020e": 1791931144.793601,
@@ -301,10 +283,12 @@
   "818ce15a49e53ad4": 1791643484.7724442,
   "81d99b9a1d846b72": 1791879516.1979134,
   "831612e326aaa707": 1791843819.6291342,
+  "83794bb32447283f": 1791969572.4120092,
   "83df1b64fdfb003b": 1791926710.9621716,
   "85c14bd852632037": 1791957543.7602415,
   "8680acb9a04959c9": 1791786708.2699826,
   "86e5c001d1a419ce": 1791929843.2628202,
+  "88220427eb2633db": 1791969594.0180178,
   "88a510b8ec1085db": 1791926957.9518356,
   "8a2d62111ed17e35": 1791879491.9222178,
   "8a5344eb9c3acd8f": 1791668264.6511755,
@@ -389,6 +373,7 @@
   "b5368d16e5d8a522": 1791750736.9549613,
   "b58e883e7082f041": 1791920864.3307495,
   "b6e9e7ddd669ee7a": 1791659741.1528728,
+  "ba9eac9c8ef7971f": 1791969551.2122097,
   "bad0b3bbdcd1f483": 1791820230.0183554,
   "baf9154e13e409fb": 1791795365.3554754,
   "bbc8bad6e1224caa": 1791853945.2075598,
@@ -471,6 +456,7 @@
   "de6aa72a6f2c751b": 1791926969.1486933,
   "de7aefd34cf805a3": 1791820207.7305968,
   "de8a9147db7f949b": 1791843851.1090012,
+  "df489c10521cd2bd": 1791969598.8067908,
   "df90d10a0a4b4074": 1791908405.3867342,
   "dfe6a0d25541317a": 1791894814.6827502,
   "dfeda5d0ae55acb7": 1791786678.1496363,
@@ -479,6 +465,7 @@
   "e5491ee3dec09c1d": 1791757266.4134915,
   "e573dbd69b744688": 1791837743.9242148,
   "e5d0adf173e1a77a": 1791931161.17929,
+  "e74f16aff7c8f4f1": 1791969580.967872,
   "e7f776205d5baa63": 1791675548.2298849,
   "e891c97409f3641e": 1791643484.7724442,
   "e8c74e875ce8847d": 1791969264.6870122,
@@ -492,6 +479,7 @@
   "ec9fc656bf30cb2e": 1791724891.5229225,
   "ece7ca7ea5fae262": 1791926678.2774649,
   "ed145ac3739dc539": 1791843829.6148322,
+  "ed64b0c9ec7dc0e9": 1791969564.3842723,
   "edb55c7a9aa45efc": 1791894758.489922,
   "ee088580e481bcb1": 1791931178.2053816,
   "ee71a862604bffe0": 1791699402.5425174,
@@ -517,6 +505,7 @@
   "fbeb4205a30e70be": 1791969282.2439892,
   "fc2bbcab1c0c0cc2": 1791931857.274695,
   "fc90c750e381c97b": 1791643484.7724442,
+  "fcac89ec0c2f7de3": 1791969555.4547675,
   "fd0ad7765b07a6c7": 1791757242.2010503,
   "fdf7d3bba3ae71ce": 1791831146.77442,
   "fe5b968ae8ba789d": 1791908389.973113,
@@ -934,6 +923,7 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1791966941.5542316,
+  "blocked_until": 1792053400.9740162,
   "cursor": 51,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -4439,6 +4429,11 @@
    "",
    1791894819.729697
   ],
+  "q:hollow home": [
+   2362070,
+   "Hollow Home",
+   1791969593.2569785
+  ],
   "q:horii": [
    0,
    "",
@@ -7882,6 +7877,7 @@
    "gemini",
    "google",
    "google trends",
+   "hollow home",
    "meta",
    "osint",
    "spacex",
@@ -7897,17 +7893,18 @@
    "дональд трамп",
    "дрони",
    "дронопорт",
+   "зроблено в україні",
    "зсу",
    "новини",
    "новини партнерів",
    "оборонка",
-   "реактивні безпілотники",
    "сили оборони",
    "софт",
    "соціальні мережі",
    "супутниковий зв'язок",
    "сша",
    "ударні безпілотники",
+   "україна",
    "флеш",
    "штучний інтелект",
    "ігри"
@@ -8913,6 +8910,54 @@
   [
    1791969317.3066778,
    "morluto/rea"
+  ],
+  [
+   1791969551.2122123,
+   "Ladrones Premiere “Esto De Estar Solo” Music Video"
+  ],
+  [
+   1791969555.45477,
+   "Tom Morello Expands His Spring 2027 Canadian Tour"
+  ],
+  [
+   1791969559.9057806,
+   "‘America’s Got Talent’ Winner Nene Royal Joined Avenged Sevenfold Onstage In Singapore Tonight"
+  ],
+  [
+   1791969564.3842747,
+   "Judge Rules Trump Administration Can’t Resume Ban On CNN, MS NOW & Politico From White House Grounds"
+  ],
+  [
+   1791969568.411256,
+   "The Number Twelve Looks Like You unveil visualizer for new single \"Trust Chaos\""
+  ],
+  [
+   1791969572.4120111,
+   "Portrayal Of Guilt set to perform 'We Are Always Alone' in full at upcoming Saint Vitus NYC gig"
+  ],
+  [
+   1791969576.7133045,
+   "Death Angel announce Australian tour dates celebrating 1990's 'Act III'"
+  ],
+  [
+   1791969580.967874,
+   "PixLate"
+  ],
+  [
+   1791969585.3432035,
+   "‘A Chronicle Of Minor Things’ & ‘Goldfish’ Among Award Winners At Busan’s Asian Project Market"
+  ],
+  [
+   1791969589.7300386,
+   "Electrify Enlists Ex-Vice Exec Al Brown & Former YouTube EMEA Boss Patrick Walker For Creator Push"
+  ],
+  [
+   1791969594.0180204,
+   "Hollow Home, рольова гра про російсько-українську війну, вийде на початку 2027 року"
+  ],
+  [
+   1791969598.8067932,
+   "bilawalsidhu/gods-eye-view"
   ]
  ],
  "weekly_releases_week": "2026-W42",
