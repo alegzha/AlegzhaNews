@@ -75,12 +75,12 @@ class Api:
 
 
 def followed_artists(api):
-    artists, url = {}, "/me/following"
+    artists, url = [], "/me/following"
     params = {"type": "artist", "limit": 50}
     while url:
         data = api.get(url, params).get("artists", {})
         for a in data.get("items", []):
-            artists[a["id"]] = a["name"]
+            artists.append(a["id"])  # лише id: state.json лежить у публічному репозиторії
         url, params = data.get("next"), None
     return artists
 
@@ -144,7 +144,9 @@ def check(http, state, cfg, publish, esc):
     if not configured():
         log.info("Spotify: секрети не задано — пропускаю")
         return 0
-    st = state.setdefault("spotify", {"artists": {}, "seen": {}, "cursor": 0, "artists_checked": 0})
+    st = state.setdefault("spotify", {"artists": [], "seen": {}, "cursor": 0, "artists_checked": 0})
+    if isinstance(st.get("artists"), dict):
+        st["artists"] = sorted(st["artists"])
     groups = cfg.get("include_groups", "album,single")
     per_run = int(cfg.get("artists_per_run", 40))
     fresh_days = int(cfg.get("max_age_days", 14))
@@ -158,6 +160,7 @@ def check(http, state, cfg, publish, esc):
         log.info("Spotify: підписок на виконавців — %d", len(st["artists"]))
 
     ids = sorted(st["artists"])
+    following = set(ids)
     if not ids:
         log.info("Spotify: ти ні на кого не підписаний")
         return 0
@@ -174,7 +177,7 @@ def check(http, state, cfg, publish, esc):
             st["cursor"] = (start + i) % len(ids)
             raise
         except Exception as e:  # noqa: BLE001
-            log.info("Spotify: %s — %s", st["artists"].get(artist_id), e)
+            log.info("Spotify: виконавець %s — %s", artist_id, e)
             continue
         known = set(seen.get(artist_id, []))
         first_time = artist_id not in seen
@@ -187,11 +190,11 @@ def check(http, state, cfg, publish, esc):
                 continue
             images = album.get("images") or []
             image = images[0]["url"] if images else None
-            text = format_post(album, st["artists"].get(artist_id, ""), cfg, esc)
+            text = format_post(album, "", cfg, esc)
             try:
                 publish(text, image, (album.get("external_urls") or {}).get("spotify", ""))
                 posted += 1
-                log.info("🎧 Spotify: %s — %s", st["artists"].get(artist_id), album.get("name"))
+                log.info("🎧 Spotify: %s", album.get("name"))
                 time.sleep(3)
             except Exception as e:  # noqa: BLE001
                 known.discard(album["id"])  # спробуємо наступного разу
@@ -205,7 +208,7 @@ def check(http, state, cfg, publish, esc):
 
     st["cursor"] = (start + len(batch)) % len(ids)
     # прибираємо тих, від кого відписався
-    for artist_id in [a for a in seen if a not in st["artists"]]:
+    for artist_id in [a for a in seen if a not in following]:
         del seen[artist_id]
     log.info("Spotify: перевірено %d виконавців (%d запитів), постів %d", len(batch), api.calls, posted)
     return posted
