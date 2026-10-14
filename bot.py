@@ -23,6 +23,7 @@ from deep_translator import GoogleTranslator
 from alerts import Alerts
 from steam import SteamLinker, app_url
 import releases
+import spotify
 import wishlist
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -985,6 +986,15 @@ def main():
         except Exception as e:  # noqa: BLE001
             log.error("Релізи тижня не вдалися: %s", e)
             alerts.problem("releases", "Не вдалося опублікувати «Релізи тижня»", str(e), repeat_hours=6)
+
+    sp_cfg = config.get("spotify") or {}
+    if sp_cfg.get("enabled") and spotify.configured():
+        try:
+            posted += spotify.check(HTTP, state, sp_cfg, post, html.escape)
+            alerts.ok("spotify")
+        except Exception as e:  # noqa: BLE001
+            log.error("Spotify: %s", e)
+            alerts.problem("spotify", "Spotify недоступний", str(e), after_hours=3)
 
     report_health(alerts, pub)
     if TR_STATS["ok"] or TR_STATS.get("gemini_error"):

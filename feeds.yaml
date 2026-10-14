@@ -145,6 +145,16 @@ weekly_releases:
   hour: 10          # година за Києвом
   top: 10           # скільки найочікуваніших ігор Steam показувати
 
+# Нові релізи виконавців, на яких ти підписаний у Spotify.
+# Потрібні секрети SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET, SPOTIFY_REFRESH_TOKEN.
+spotify:
+  enabled: true
+  emoji: "🎧"
+  hashtag: "#нові_релізи"
+  include_groups: "album,single"   # album — альбоми, single — сингли й EP
+  artists_per_run: 40              # скількох виконавців перевіряти за запуск (по колу)
+  max_age_days: 14                 # старіші релізи не публікуються
+
 # Деякі сайти (напр. Mezha) не пускають сервери GitHub. Тоді бот читає їх
 # через твій воркер Cloudflare (сайти дозволено у змінній воркера PROXY_HOSTS).
 fetch_proxy: "https://alegzhanews.alegzha.workers.dev/feed"

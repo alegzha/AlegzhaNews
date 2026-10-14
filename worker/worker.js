@@ -17,6 +17,7 @@
  *   WEBHOOK_SECRET  (secret) — будь-яка довга випадкова фраза (латиниця, цифри, _ або -)
  *   GH_REPO         (text)   — alegzha/AlegzhaNews
  *   OWNER_ID        (text)   — твій Telegram id (бот сам підкаже його після /start)
+ *   SPOTIFY_CLIENT_ID, SPOTIFY_CLIENT_SECRET (secret, необов'язково) — для /spotify/login
  *   PROXY_HOSTS     (text, необов'язково) — сайти через кому, які бот може читати
  *                    через воркер (типово: mezha.ua)
  *
@@ -57,6 +58,10 @@ export default {
     }
 
     // Проксі для RSS сайтів, які блокують сервери GitHub.
+    // Одноразовий вхід у Spotify: видає refresh token для секрету SPOTIFY_REFRESH_TOKEN.
+    if (url.pathname === "/spotify/login") return spotifyLogin(url, env);
+    if (url.pathname === "/spotify/callback") return spotifyCallback(url, env);
+
     if (url.pathname === "/feed") {
       return proxyFeed(url, env);
     }
@@ -592,4 +597,61 @@ async function proxyFeed(url, env) {
     status: resp.status,
     headers: { "content-type": resp.headers.get("content-type") || "application/xml; charset=utf-8" },
   });
+}
+
+// ---------- Spotify: одноразовий вхід ----------
+
+function htmlPage(title, body) {
+  return new Response(
+    `<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">` +
+    `<title>${title}</title><body style="font:16px/1.5 system-ui,sans-serif;max-width:640px;margin:24px auto;padding:0 16px;` +
+    `background:#111;color:#eee">${body}</body>`,
+    { headers: { "content-type": "text/html; charset=utf-8", "cache-control": "no-store" } },
+  );
+}
+
+function spotifyLogin(url, env) {
+  if (!env.SPOTIFY_CLIENT_ID || !env.SPOTIFY_CLIENT_SECRET) {
+    return htmlPage("Spotify", "<h2>Спершу додай у воркер секрети SPOTIFY_CLIENT_ID і SPOTIFY_CLIENT_SECRET</h2>");
+  }
+  const params = new URLSearchParams({
+    client_id: env.SPOTIFY_CLIENT_ID,
+    response_type: "code",
+    redirect_uri: `${url.origin}/spotify/callback`,
+    scope: "user-follow-read user-library-read",
+    show_dialog: "true",
+  });
+  return Response.redirect(`https://accounts.spotify.com/authorize?${params}`, 302);
+}
+
+async function spotifyCallback(url, env) {
+  const code = url.searchParams.get("code");
+  if (!code) {
+    return htmlPage("Spotify", `<h2>Вхід скасовано</h2><p>${escapeHtml(url.searchParams.get("error") || "")}</p>`);
+  }
+  const res = await fetch("https://accounts.spotify.com/api/token", {
+    method: "POST",
+    headers: {
+      "Content-Type": "application/x-www-form-urlencoded",
+      Authorization: "Basic " + btoa(`${env.SPOTIFY_CLIENT_ID}:${env.SPOTIFY_CLIENT_SECRET}`),
+    },
+    body: new URLSearchParams({
+      grant_type: "authorization_code",
+      code,
+      redirect_uri: `${url.origin}/spotify/callback`,
+    }),
+  });
+  const data = await res.json().catch(() => ({}));
+  if (!res.ok || !data.refresh_token) {
+    return htmlPage("Spotify", `<h2>❌ Spotify не видав ключ</h2><pre>${escapeHtml(JSON.stringify(data))}</pre>`);
+  }
+  return htmlPage("Spotify підключено",
+    "<h2>✅ Spotify підключено</h2>" +
+    "<p>Скопіюй ключ нижче і додай його як секрет GitHub <b>SPOTIFY_REFRESH_TOKEN</b> " +
+    "(репозиторій → Settings → Secrets and variables → Actions → New repository secret). " +
+    "Нікому його не надсилай. Після цього сторінку можна закрити.</p>" +
+    `<textarea readonly onclick="this.select()" style="width:100%;height:140px;font:14px monospace;background:#222;color:#eee">` +
+    `${escapeHtml(data.refresh_token)}</textarea>` +
+    `<p><button onclick="navigator.clipboard.writeText(document.querySelector('textarea').value);this.textContent='Скопійовано ✅'" ` +
+    `style="font-size:16px;padding:10px 16px">Скопіювати</button></p>`);
 }
