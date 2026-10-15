@@ -1,26 +1,26 @@
 {
  "alerts": {},
  "last_translation": {
-  "at": "2026-10-15 18:35 UTC",
-  "gemini_error": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent",
+  "at": "2026-10-15 20:54 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "posted_by_source": {
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1791994322.6380534,
-   1791994365.2416842,
-   1791996984.948366,
-   1792009820.2319324,
    1792021722.487225,
-   1792021742.0624447
+   1792021742.0624447,
+   1792097653.424774,
+   1792097657.7671664
   ],
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
    1791975130.7275305,
    1791978145.693794
+  ],
+  "ai|Mezha|https://mezha.ua/feed/": [
+   1792097666.279915
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1792009829.5403209,
@@ -92,11 +92,11 @@
    1792089217.0942466
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
-   1791975170.5018463
+   1792097648.5604136
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
-   1791994369.48455,
-   1792074074.8971677
+   1792074074.8971677,
+   1792097642.489468
   ],
   "movies|Deadline|https://deadline.com/feed/": [
    1792056005.5163097,
@@ -107,7 +107,9 @@
    1792074098.853442,
    1792080953.4454467,
    1792089227.978684,
-   1792089242.1237838
+   1792089242.1237838,
+   1792097633.8556666,
+   1792097670.609748
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1791993734.074277,
@@ -131,12 +133,6 @@
    1791997042.6373916
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1792009880.1728373,
-   1792009884.2661572,
-   1792009889.1340487,
-   1792010071.8301265,
-   1792010077.7480795,
-   1792010084.2359502,
    1792021771.6730094,
    1792021775.74291,
    1792037209.7363322,
@@ -150,14 +146,13 @@
    1792081038.4438245,
    1792089266.8003035,
    1792089280.2863605,
-   1792089295.1205523
+   1792089295.1205523,
+   1792097674.9436634,
+   1792097679.073405,
+   1792097683.3566318
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
-   1791989238.4364805,
-   1791989300.2405717,
-   1791996969.7628841,
-   1791997037.5218267,
-   1792010038.4812016
+   1792097662.3262894
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1792009795.8090665,
@@ -168,10 +163,6 @@
    1792071075.5659628
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1792009871.5961616,
-   1792009875.9788904,
-   1792010043.0156124,
-   1792010047.5177643,
    1792021712.5965643,
    1792021717.3433642,
    1792021737.8524208,
@@ -180,7 +171,8 @@
    1792037166.0875041,
    1792080970.9277608,
    1792089222.501118,
-   1792089251.2192926
+   1792089251.2192926,
+   1792097638.304342
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
    1792056051.8171792,
@@ -241,6 +233,7 @@
   "0c963f51782e2c3b": 1791957572.3369136,
   "0e2a51a62f82d764": 1791929876.937001,
   "0e3227631c52c966": 1791757271.9788234,
+  "0f870228dc407df3": 1792097683.356623,
   "0f928534f3dffa81": 1791931708.6510756,
   "0f9530e92e3d96a3": 1791926922.6282837,
   "0f96a0b18b98aa31": 1792021742.0624373,
@@ -283,6 +276,7 @@
   "1d752dadc3913478": 1791853975.1022835,
   "1d87f5c3187d0665": 1791989226.3394516,
   "1dda4ebbc8772e42": 1792009788.9827528,
+  "1e177da56b10a656": 1792097642.4894617,
   "1e6badcee727ddee": 1791843798.1366713,
   "1e6ce57c68af0666": 1791994322.638048,
   "1e774ba4a994e424": 1791894803.4764898,
@@ -354,6 +348,7 @@
   "396b375b332b6b5f": 1791644927.1142297,
   "398595e22e43a53b": 1791931756.1041334,
   "3a67d6a3151c4831": 1791908397.4775882,
+  "3a98d0f20fe899fb": 1792097666.27991,
   "3ad9c4ef69beaa88": 1791894747.2247603,
   "3b47fa6b1070f7c4": 1792089280.2861655,
   "3b4b6b4719353c78": 1791769105.2254817,
@@ -432,6 +427,7 @@
   "53287f14b1250c90": 1791769084.5556781,
   "53c62bd0c6f25858": 1791807526.4589036,
   "54a9a8bd54d562f8": 1791966911.0236287,
+  "54fd41d02aa219ba": 1792097674.943652,
   "55523d2252c09131": 1791997000.217187,
   "56ac17c60fdf66a2": 1792021687.9833136,
   "5707b386eca96035": 1791879481.2594619,
@@ -446,6 +442,7 @@
   "591055ad0c8fd647": 1791989300.2405653,
   "59be7595544dbfde": 1791820207.7297282,
   "5bcd0ce3010222bf": 1791750719.4009652,
+  "5bd4f53d4638e660": 1792097638.3043296,
   "5c02816d1e3369ee": 1791989233.6556866,
   "5c72f265a0aa2c46": 1791853970.397,
   "5c7a726a5a7ee37d": 1791908440.5392518,
@@ -489,6 +486,7 @@
   "6b2b8dc43abf119f": 1791926922.6264074,
   "6b73b099e6e881f2": 1792010043.0156028,
   "6ba8da5093b6a36e": 1792070952.1990302,
+  "6bc027330b31604d": 1792097633.8556564,
   "6cff0346aa501a4e": 1791932399.100464,
   "6d73d5d5ecb22887": 1791978141.889602,
   "6e1254f15f1441e5": 1791654270.2934818,
@@ -540,6 +538,7 @@
   "7c215e606a562a9c": 1791932421.0418994,
   "7c8233ad2fc95815": 1791931208.5232723,
   "7dcc985b0266b643": 1791926734.5424356,
+  "7e3d4f547c4c8f40": 1792097662.3262818,
   "7e482f533c3f648e": 1791969312.8563056,
   "7e912993bbce918e": 1791837726.6074932,
   "7ee557d5790adc5b": 1791931863.3664944,
@@ -590,6 +589,7 @@
   "8f9fec8ef2615331": 1791643484.7724442,
   "9031184d642d7393": 1791908466.720657,
   "9082e5518001a25f": 1791929808.6827445,
+  "90983dfe61bc7f9d": 1792097657.7671607,
   "90ac29aa4f74e49e": 1792010013.9407086,
   "90df0236e7b9cfb3": 1791966898.7417848,
   "914ec24a3f15baad": 1792055994.8770494,
@@ -602,6 +602,7 @@
   "939d3349f40a773b": 1791820264.255713,
   "93ef38647e85a4c5": 1792037157.0664444,
   "94b9cff7b54a88c9": 1792037218.5460002,
+  "953f82f7f64c6786": 1792097612.2554398,
   "961cffbaca3648ff": 1792080927.3708415,
   "969d972539055971": 1791757286.6070983,
   "96caa9e97be701ce": 1791807575.467699,
@@ -761,6 +762,7 @@
   "d4e8698aa4d39b99": 1791931879.4921036,
   "d53fe62cc49e32e3": 1792010018.3506634,
   "d561b90ae9973ec5": 1791894791.377448,
+  "d571bd4286e63541": 1792097679.0733948,
   "d57214e6be19d7d0": 1791750747.590049,
   "d5817321b124e40c": 1791931822.5697832,
   "d5e0b1582d85851f": 1791643484.7724442,
@@ -797,6 +799,7 @@
   "de6aa72a6f2c751b": 1791926969.1486933,
   "de7aefd34cf805a3": 1791820207.7305968,
   "de8a9147db7f949b": 1791843851.1090012,
+  "dea190316d6fd662": 1792097653.4247673,
   "df10fafc5adf259e": 1792037205.594035,
   "df489c10521cd2bd": 1791969598.8067908,
   "df90d10a0a4b4074": 1791908405.3867342,
@@ -807,6 +810,7 @@
   "e0d574759e0abf3b": 1791997032.6127217,
   "e0ed55e9093ac5bd": 1791920836.554765,
   "e136701f770e5853": 1792080987.1679268,
+  "e142a9372feba179": 1792097648.5604064,
   "e4b6b3b1ad0cbcc9": 1792071060.197874,
   "e5255e7a04311b6c": 1792021712.596556,
   "e539434700138179": 1791994360.39816,
@@ -835,6 +839,7 @@
   "ec9fc656bf30cb2e": 1791724891.5229225,
   "ece7ca7ea5fae262": 1791926678.2774649,
   "ed145ac3739dc539": 1791843829.6148322,
+  "ed22ddf3e72698d3": 1792097670.6097398,
   "ed64b0c9ec7dc0e9": 1791969564.3842723,
   "edb55c7a9aa45efc": 1791894758.489922,
   "ee088580e481bcb1": 1791931178.2053816,
@@ -1307,7 +1312,7 @@
   ],
   "artists_checked": 1792081051.4165974,
   "blocked_until": 1792053400.9740162,
-  "cursor": 101,
+  "cursor": 111,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
     "0CVnhwtOpdoIkOatkGcVwO",
@@ -2887,6 +2892,11 @@
    "",
    1791931728.5192044
   ],
+  "q:activision": [
+   0,
+   "",
+   1792097647.0121222
+  ],
   "q:adams": [
    0,
    "",
@@ -2946,6 +2956,16 @@
    0,
    "",
    1791966916.9173565
+  ],
+  "q:ahead of call": [
+   0,
+   "",
+   1792097646.5480833
+  ],
+  "q:ahead of call of duty": [
+   0,
+   "",
+   1792097646.0653946
   ],
   "q:ai accelerated": [
    0,
@@ -11025,14 +11045,14 @@
  },
  "tag_hints": {
   "Mezha": [
-   "amazon",
    "apple",
    "bolt",
    "himera",
+   "meta",
    "microsoft",
-   "nasa",
    "opera",
    "opera air",
+   "redmagic",
    "windows 11",
    "xreal",
    "авто",
@@ -11040,78 +11060,27 @@
    "безпілотники",
    "бпла",
    "браузери",
-   "бізнес",
    "гур",
    "доповнена реальність",
    "дрони",
    "звʼязок",
    "комп'ютери",
-   "космос",
    "литва",
    "новини",
    "оборонка",
-   "оперативна пам'ять",
    "рація",
    "реб",
    "сили оборони",
    "смартокуляри",
+   "смартфони",
    "софт",
    "таксі",
    "технології",
    "україна",
-   "штучний інтелект",
-   "ілон маск"
+   "штучний інтелект"
   ]
  },
  "titles": [
-  [
-   1791920811.2727737,
-   "Despite Huge Changes For The Series, Halo Fest 2026 Is Going Forward, And News Is Coming Soon"
-  ],
-  [
-   1791920822.7050896,
-   "EA Sports' College Football Devs Reportedly Fear the Franchise Could Disappear by 2030"
-  ],
-  [
-   1791920826.426104,
-   "Netflix показав трейлер нової \"Нарнії\" із Денієлом Крейгом"
-  ],
-  [
-   1791920831.4798448,
-   "Watch: Tetrarch Guitarist Diamond Rowe Covers Metallica on ‘Sunday Night Football’"
-  ],
-  [
-   1791920836.554767,
-   "7 Years Ago, Disney Released A Star-Studded Fantasy Movie That Left Much To Be Desired"
-  ],
-  [
-   1791920848.019766,
-   "Xbox Announces Xbox Labs, Aimed in Part at Getting Improved Old-Gen Games Playable in Web Browsers"
-  ],
-  [
-   1791920853.60179,
-   "BEARTOOTH's CALEB SHOMO On His Decision To Come Out As 'A Proudly Gay Man': It's 'Something That A Large Group Of People Just Don't Understand'"
-  ],
-  [
-   1791920864.3307514,
-   "Officially Licensed Fallout Bookends Are Up for Preorder for a Whopping $325"
-  ],
-  [
-   1791920876.1312923,
-   "Battlefield 6 Now Lets You Instantly Unlock All Guns At 100% Mastery For $30"
-  ],
-  [
-   1791920881.6626925,
-   "We Got REALLY Close to an Iron Maiden + Judas Priest Tour"
-  ],
-  [
-   1791920886.8207684,
-   "Sharon Osbourne ‘Really Wanted' 1 Band for Back to the Beginning"
-  ],
-  [
-   1791920890.7896686,
-   "даніо-реріо випустили сингл із анонсованого EP"
-  ],
   [
    1791926684.0016217,
    "Echoes of Delicious in Dungeon ring out in Deep Dish Dungeon, a co-op dungeon crawler about making meals with whatever you can scrounge up that's out now"
@@ -12375,6 +12344,54 @@
   [
    1792089295.120542,
    "Fury, Shattered Realm and more added to For The Children 2026"
+  ],
+  [
+   1792097633.8556585,
+   "‘The Mummy’ Movie Reteaming Brendan Fraser And Rachel Weisz Gets A Title"
+  ],
+  [
+   1792097638.3043325,
+   "SikTh Stream “Flogging The Horses” Live In-Studio Performance"
+  ],
+  [
+   1792097642.489464,
+   "VisionQuest Avoids Marvel's Biggest Problem Since Avengers: Endgame"
+  ],
+  [
+   1792097648.5604095,
+   "Ahead of Call of Duty: Modern Warfare 4's launch next week, unionised Activision testers have voted to authorise a strike"
+  ],
+  [
+   1792097653.4247692,
+   "Don't See Canary in Coal Mine For AI: Khoda"
+  ],
+  [
+   1792097657.7671626,
+   "AI Race Heats Up Again a Month After Calls for a Slowdown"
+  ],
+  [
+   1792097662.3262842,
+   "Architects Vocalist Opens Up on Criticism in New Statement"
+  ],
+  [
+   1792097666.2799125,
+   "Meta створила величезну локальну ШІ-модель для Mac, однак для її запуску знадобиться 1 ТБ оперативної пам’яті"
+  ],
+  [
+   1792097670.609742,
+   "Colman Domingo, Jeff Goldblum, Rachel McAdams & David Krumholtz Join Benny Safdie’s ‘Lizard Music’ In Voice Roles"
+  ],
+  [
+   1792097674.9436538,
+   "The Mosaic Window release new single \"Lightning Be Thy Guide,\" off upcoming full-length"
+  ],
+  [
+   1792097679.0733967,
+   "Enter Shikari present 4-song live performance session recorded in 'an abandon manor'"
+  ],
+  [
+   1792097683.3566246,
+   "Evergreen Terrace announce hometown holiday show with As Friends Rust, Fight From Within and more"
   ]
  ],
  "weekly_releases_week": "2026-W42",
@@ -13787,6 +13804,13 @@
     "price": null,
     "release": null
    },
+   "409710": {
+    "coming_soon": false,
+    "discount": 0,
+    "name": "BioShock™ Remastered",
+    "price": "289,00₴",
+    "release": 1473976800
+   },
    "410340": {
     "coming_soon": false,
     "discount": 0,
@@ -14187,7 +14211,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792089329.692583,
+  "last_check": 1792097693.9974635,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
