@@ -1,7 +1,7 @@
 {
  "alerts": {},
  "last_translation": {
-  "at": "2026-10-15 09:21 UTC",
+  "at": "2026-10-15 13:31 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "used": [
@@ -29,12 +29,13 @@
    1791997048.7032118
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1791975116.739241,
-   1791975159.8011382,
    1792009812.0748334,
    1792055987.151563,
    1792056010.758729,
-   1792056047.446025
+   1792056047.446025,
+   1792070959.9813585,
+   1792070991.1287181,
+   1792071060.1978836
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1791978121.16987,
@@ -51,13 +52,15 @@
    1792010034.0638216,
    1792021733.3025107
   ],
+  "games|ITC.ua|https://itc.ua/ua/feed/": [
+   1792071048.0131066
+  ],
   "games|Mezha|https://mezha.ua/feed/": [
    1791969594.0180235,
    1791978176.9146457,
    1791994373.2696579
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1791978126.841166,
    1791989249.2834976,
    1791989306.2954457,
    1791993738.2951527,
@@ -70,7 +73,9 @@
    1792021759.833903,
    1792021766.9564734,
    1792037176.7166407,
-   1792037186.0762622
+   1792037186.0762622,
+   1792071004.2365556,
+   1792071044.478476
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1791975111.9769719,
@@ -105,21 +110,18 @@
    1791994369.48455
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1791975149.5422888,
-   1791975164.194645,
-   1791978131.4494839,
-   1791978150.1066911,
-   1791978172.9866152,
    1791989275.38052,
    1791993885.454179,
    1791993890.2111661,
    1791993919.0152128,
    1792056005.5163097,
-   1792056020.231623
+   1792056020.231623,
+   1792070972.964812
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1791993734.074277,
-   1792055978.5595891
+   1792055978.5595891,
+   1792071063.7644968
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
    1791993730.639509,
@@ -128,7 +130,8 @@
    1792009836.861679,
    1792010018.3506727,
    1792010053.1910508,
-   1792037170.6847804
+   1792037170.6847804,
+   1792070985.9029675
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
    1791969296.0434678,
@@ -170,6 +173,9 @@
    1792009795.8090665,
    1792010023.0175962
   ],
+  "music|Neformat|https://www.neformat.com.ua/": [
+   1792071075.5659628
+  ],
   "music|ThePRP|https://www.theprp.com/feed/": [
    1791969264.6870182,
    1791969269.2207222,
@@ -189,18 +195,17 @@
    1792037166.0875041
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
-   1791975174.780616,
-   1791978183.868809,
    1791989324.2862759,
-   1792056051.8171792
+   1792056051.8171792,
+   1792071069.4472828
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1792055990.6891525
   ],
   "software|Mezha|https://mezha.ua/feed/": [
-   1791975134.5426774,
    1792021705.3810616,
-   1792055994.877057
+   1792055994.877057,
+   1792071008.0136502
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1791969277.719532,
@@ -249,6 +254,7 @@
   "10a4e1749fbcc694": 1792037194.8017173,
   "1109704f8a338d89": 1791978172.9866061,
   "12114873a6584f4c": 1791807506.2754734,
+  "12962f54a33977b4": 1792071075.5659573,
   "12c2b3f151e57aad": 1791994399.7950633,
   "141c8ba7fde9ec37": 1791926678.2771666,
   "14996736a8a6736e": 1792009884.2661192,
@@ -293,6 +299,7 @@
   "21d7079f8cfb1891": 1791996984.948358,
   "21df6787e662fded": 1791969273.5111008,
   "21e1824114d8c451": 1791795338.7241907,
+  "224daf5a807e3c03": 1792071008.013642,
   "244e72325db51eca": 1791932367.4922628,
   "24794381445f2837": 1791931723.5090883,
   "24c3db3beb015546": 1791837766.8329096,
@@ -340,6 +347,7 @@
   "35d432773819ba5f": 1791654254.9848216,
   "361eb7863e840af7": 1791932583.0588925,
   "3681878a041950b0": 1791993743.1119962,
+  "36917ef32b441dc1": 1792071069.4472752,
   "37033c506c333ecf": 1792009788.984798,
   "3752c578991aed92": 1792055978.559581,
   "37f2e141051ea901": 1791643484.7724442,
@@ -354,6 +362,7 @@
   "3d1a107758a21cf6": 1791815125.484494,
   "3d66fe44c663204a": 1791931737.6744573,
   "3d69c67289e2b826": 1791750785.6611123,
+  "3e67463337f735dd": 1792071044.4784656,
   "3f80029e586d1c27": 1791932376.2127552,
   "40811f36982f07e7": 1791654249.8333447,
   "408de44324bf43ee": 1792021717.3433561,
@@ -404,10 +413,12 @@
   "4f007fd3aa27c1f6": 1791996968.3826723,
   "4f5a123e1d0efd20": 1791795357.7415702,
   "4f7752bacb71dae6": 1791639250.87501,
+  "4f7c84bb1b691b2e": 1792071004.2363832,
   "4f891d7f2fd0bd53": 1791820271.4391503,
   "4fdc0664f7a50197": 1791926947.4549048,
   "4ff4740e9eec85dc": 1791932593.4533782,
   "50461fdbb5baf0f1": 1791931686.7969706,
+  "5049c7ca1ffb21f7": 1792070959.9813466,
   "504ee63d6d202353": 1791642330.1209908,
   "52b3fcb97ee12cba": 1791993885.4541698,
   "53287f14b1250c90": 1791769084.5556781,
@@ -462,6 +473,7 @@
   "6aff17e54676471f": 1791644933.1937206,
   "6b2b8dc43abf119f": 1791926922.6264074,
   "6b73b099e6e881f2": 1792010043.0156028,
+  "6ba8da5093b6a36e": 1792070952.1990302,
   "6cff0346aa501a4e": 1791932399.100464,
   "6d73d5d5ecb22887": 1791978141.889602,
   "6e1254f15f1441e5": 1791654270.2934818,
@@ -525,6 +537,7 @@
   "8172816916345157": 1791908451.4666152,
   "818ce15a49e53ad4": 1791643484.7724442,
   "81d99b9a1d846b72": 1791879516.1979134,
+  "82c363865d400668": 1792070972.9648004,
   "82e3a41ce5ba51a1": 1791975154.1844537,
   "831612e326aaa707": 1791843819.6291342,
   "83794bb32447283f": 1791969572.4120092,
@@ -590,6 +603,7 @@
   "9d062494f1359211": 1791831120.1553473,
   "9d391cb2b30a169b": 1791786723.5787597,
   "9dd64c626f366491": 1792056020.2316132,
+  "9e0f931d5e276a60": 1792070985.9029589,
   "9e2be5e25a000cd0": 1791815053.1561446,
   "9e50bccca00309aa": 1791894767.9263082,
   "9e5ace71379a6f50": 1791831134.819394,
@@ -648,6 +662,7 @@
   "b5f0a11379545b11": 1792021704.661731,
   "b6e9e7ddd669ee7a": 1791659741.1528728,
   "ba3159b07e9acfdf": 1792021737.852413,
+  "ba6619e4f0d33b98": 1792071048.0131018,
   "ba9eac9c8ef7971f": 1791969551.2122097,
   "bad0b3bbdcd1f483": 1791820230.0183554,
   "baf9154e13e409fb": 1791795365.3554754,
@@ -671,6 +686,7 @@
   "c0eb6b09cd877a8b": 1791879504.7874382,
   "c1e9a586cbd37999": 1791786711.99249,
   "c299434ecc56681e": 1791642319.3450685,
+  "c2a5148275d4a83f": 1792070991.1287098,
   "c2ba13431d953180": 1791989316.8723025,
   "c4764ac37ccdddc8": 1791978183.8688025,
   "c49fefea2e336264": 1791831141.1045146,
@@ -762,6 +778,7 @@
   "e05927082e0a783e": 1792021705.3810556,
   "e0d574759e0abf3b": 1791997032.6127217,
   "e0ed55e9093ac5bd": 1791920836.554765,
+  "e4b6b3b1ad0cbcc9": 1792071060.197874,
   "e5255e7a04311b6c": 1792021712.596556,
   "e539434700138179": 1791994360.39816,
   "e5491ee3dec09c1d": 1791757266.4134915,
@@ -803,6 +820,7 @@
   "f315f67f0bb70e0f": 1791908389.9758453,
   "f386aaa207a548e4": 1792056051.817171,
   "f4b713ab968624a2": 1791932425.5200398,
+  "f4bd4a80bb19dbf1": 1792071063.7644897,
   "f4ecbea4571dd4de": 1791929834.6204538,
   "f572bbd6e4413ed8": 1791994410.4911294,
   "f57ce665f7a4dd53": 1791757254.8536086,
@@ -1253,7 +1271,7 @@
   ],
   "artists_checked": 1792056064.6966684,
   "blocked_until": 1792053400.9740162,
-  "cursor": 61,
+  "cursor": 71,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
     "0CVnhwtOpdoIkOatkGcVwO",
@@ -2558,6 +2576,11 @@
    "",
    1791932363.22545
   ],
+  "q:4x": [
+   0,
+   "",
+   1792070997.059652
+  ],
   "q:5": [
    0,
    "",
@@ -2757,6 +2780,16 @@
    0,
    "",
    1791908409.4471405
+  ],
+  "q:after civ": [
+   0,
+   "",
+   1792070995.0809183
+  ],
+  "q:after civ 7": [
+   0,
+   "",
+   1792070994.6077967
   ],
   "q:after party": [
    0,
@@ -3728,6 +3761,16 @@
    "",
    1791718283.3041298
   ],
+  "q:civ": [
+   0,
+   "",
+   1792070996.0650446
+  ],
+  "q:civ 7": [
+   0,
+   "",
+   1792070995.5691612
+  ],
   "q:classic": [
    0,
    "",
@@ -4157,6 +4200,16 @@
    0,
    "",
    1791718281.7886121
+  ],
+  "q:dean": [
+   0,
+   "",
+   1792070954.2366889
+  ],
+  "q:dean hall": [
+   0,
+   "",
+   1792070953.7379625
   ],
   "q:december": [
    0,
@@ -4627,6 +4680,16 @@
    0,
    "",
    1791837752.5332427
+  ],
+  "q:epic's unreal": [
+   0,
+   "",
+   1792070955.812562
+  ],
+  "q:epic's unreal and unity": [
+   0,
+   "",
+   1792070955.324852
   ],
   "q:escape": [
    0,
@@ -5318,6 +5381,11 @@
    "",
    1791926985.117704
   ],
+  "q:greed": [
+   0,
+   "",
+   1792070953.2680898
+  ],
   "q:greg": [
    0,
    "",
@@ -5357,6 +5425,11 @@
    0,
    "",
    1791668268.140512
+  ],
+  "q:hall": [
+   0,
+   "",
+   1792070954.7826772
   ],
   "q:halloween": [
    0,
@@ -5677,6 +5750,11 @@
    0,
    "",
    1791920805.3686666
+  ],
+  "q:humankind 2": [
+   2581850,
+   "HUMANKIND™ 2",
+   1792070996.5387273
   ],
   "q:hundred": [
    0,
@@ -7347,6 +7425,11 @@
    0,
    "",
    1791853956.7989674
+  ],
+  "q:our industry is rotting from its core": [
+   0,
+   "",
+   1792070952.7560894
   ],
   "q:over": [
    0,
@@ -9573,6 +9656,11 @@
    "",
    1791975110.0031772
   ],
+  "q:unreal and unity": [
+   0,
+   "",
+   1792070956.286287
+  ],
   "q:unreal engine": [
    0,
    "",
@@ -10431,54 +10519,6 @@
   ]
  },
  "titles": [
-  [
-   1791894747.2247627,
-   "Behold, the $3,000 keyboard that is also actually a powerful AI PC I would hate to spill my coffee on"
-  ],
-  [
-   1791894758.4899247,
-   "Hideo Kojima Wears Joy Division T-Shirt to Sony Visit, Sparking Johnny Silverhand Arasaka Tower Comparison"
-  ],
-  [
-   1791894767.92631,
-   "Cut Assassin’s Creed Black Flag Resynced epilogue scene, that could hint at fresh 18th century stabby hijinks, allegedly taken down by Ubisoft following datamine"
-  ],
-  [
-   1791894773.474702,
-   "MEMORIAM, Featuring Former Members BOLT THROWER And CEREBRAL FIX, To Release Final Album 'Endgame'"
-  ],
-  [
-   1791894782.5493946,
-   "Dead Space creator says he was 'forced to ship' The Callisto Protocol by Krafton: 'We had f*cking Covid'"
-  ],
-  [
-   1791894786.2657151,
-   "No Man's Sky виходить на iPhone та iPad"
-  ],
-  [
-   1791894791.3774505,
-   "Before The Office, Steve Carell Starred In A Short-Lived Sitcom With Tim Curry"
-  ],
-  [
-   1791894797.565671,
-   "Metal Keyboardists HARRISON YOUNG (DORO, U.D.O) And LAURA SCARBOROUGH (GHOST) Team Up For New Rock Musical"
-  ],
-  [
-   1791894803.4764924,
-   "Tekken 8 finally gives a first look at upcoming guest Yujiro Hanma from Baki, and he looks just as grotesque as you'd expect"
-  ],
-  [
-   1791894808.696594,
-   "Zach Cregger's Resident Evil Has Way More Visual Effects Than You Realized [Exclusive]"
-  ],
-  [
-   1791894814.6827528,
-   "Planet Zoo 2 Review"
-  ],
-  [
-   1791894821.8401847,
-   "Former PlayStation boss Kaz Hirai used to ignore orders from Sony bosses, he reveals"
-  ],
   [
    1791908397.477591,
    "Hundreds of layoffs and many cancelled projects later, Xbox CEO Asha Sharma reportedly says 'we will not survive' without new IPs"
@@ -11646,6 +11686,54 @@
   [
    1792056051.8171735,
    "nvm-sh/nvm"
+  ],
+  [
+   1792070959.9813495,
+   "DayZ creator Dean Hall says \"our industry is rotting from its core\" because of big-company \"greed\", aiming shots at Epic's Unreal and Unity"
+  ],
+  [
+   1792070972.964804,
+   "BFI & Chanel Filmmaker Award: ‘Ish’ Director Imran Perretta Among 2026 Winners"
+  ],
+  [
+   1792070985.9029617,
+   "GLENN HUGHES Is Recovering After Undergoing 10-Hour Open-Heart Surgery"
+  ],
+  [
+   1792070991.1287124,
+   "Castlevania: Belmont's Curse review - inspired by great ideas, but doomed by questionable execution"
+  ],
+  [
+   1792071004.2363863,
+   "After Civ 7 stumbled, Humankind 2 looks like it's making smart choices to pick up the 4X torch"
+  ],
+  [
+   1792071008.0136447,
+   "YouTube готує сервіс аудіокниг у межах передплати Premium"
+  ],
+  [
+   1792071044.4784684,
+   "Epic said its game launcher was faster than Steam on the same day Steam got a speed boost—so I've put both to the test"
+  ],
+  [
+   1792071048.0131042,
+   "Nintendo показала, що нового чекає на гравців у рімейку Zelda: Ocarina of Time"
+  ],
+  [
+   1792071060.197877,
+   "Grand Theft Auto 6 launch trailer suddenly drops, showing a saucy shower scene, a tense police chase, and high-flying heists"
+  ],
+  [
+   1792071063.7644923,
+   "Творець \"Керрі\" розповів, як пісня Haute & Freddy змінила сценарій фіналу"
+  ],
+  [
+   1792071069.4472778,
+   "K-Dense-AI/scientific-agent-skills"
+  ],
+  [
+   1792071075.56596,
+   "Walst повертається до творчості з новим синглом"
   ]
  ],
  "weekly_releases_week": "2026-W42",
@@ -12937,7 +13025,7 @@
     "discount": 0,
     "name": "DREADMOOR",
     "price": null,
-    "release": null
+    "release": 1794229200
    },
    "3669870": {
     "coming_soon": false,
@@ -13038,11 +13126,11 @@
     "release": 1254503700
    },
    "4049180": {
-    "coming_soon": true,
+    "coming_soon": false,
     "discount": 0,
     "name": "Disney/Pixar Toy Story 3 Complete Edition",
-    "price": null,
-    "release": 1792069200
+    "price": "469,00₴",
+    "release": 1792069192
    },
    "405310": {
     "coming_soon": false,
@@ -13458,7 +13546,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792056061.9403684,
+  "last_check": 1792071089.3135085,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
