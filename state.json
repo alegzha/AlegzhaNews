@@ -1,10 +1,11 @@
 {
  "alerts": {},
  "last_translation": {
-  "at": "2026-10-15 16:17 UTC",
-  "gemini_error": "",
+  "at": "2026-10-15 18:35 UTC",
+  "gemini_error": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent",
   "gemini_model": "gemini-flash-lite-latest",
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
@@ -61,22 +62,14 @@
    1791994373.2696579
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1791989249.2834976,
-   1791989306.2954457,
-   1791993738.2951527,
-   1791993743.1120038,
-   1791993809.97718,
-   1791994339.4392369,
-   1791994378.1333542,
-   1791997025.0120668,
-   1791997032.6127307,
    1792021759.833903,
    1792021766.9564734,
    1792037176.7166407,
    1792037186.0762622,
    1792071004.2365556,
    1792071044.478476,
-   1792074082.7938979
+   1792074082.7938979,
+   1792089235.6930351
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1791989280.633711,
@@ -84,8 +77,6 @@
    1792074108.4209723
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1791996980.3529694,
-   1791996995.789734,
    1792010065.85348,
    1792021755.2787223,
    1792037194.801728,
@@ -96,7 +87,9 @@
    1792056041.1820018,
    1792074093.6301153,
    1792080987.167938,
-   1792080997.8060722
+   1792080997.8060722,
+   1792089204.8329146,
+   1792089217.0942466
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1791975170.5018463
@@ -112,7 +105,9 @@
    1792074069.9702594,
    1792074088.0890155,
    1792074098.853442,
-   1792080953.4454467
+   1792080953.4454467,
+   1792089227.978684,
+   1792089242.1237838
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1791993734.074277,
@@ -152,7 +147,10 @@
    1792074141.8329384,
    1792081023.7398994,
    1792081030.9045975,
-   1792081038.4438245
+   1792081038.4438245,
+   1792089266.8003035,
+   1792089280.2863605,
+   1792089295.1205523
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1791989238.4364805,
@@ -162,17 +160,14 @@
    1792010038.4812016
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
-   1791989253.4030204,
-   1791994318.3163333,
-   1791997000.2171948,
    1792009795.8090665,
-   1792010023.0175962
+   1792010023.0175962,
+   1792089194.0218053
   ],
   "music|Neformat|https://www.neformat.com.ua/": [
    1792071075.5659628
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1791997004.7435842,
    1792009871.5961616,
    1792009875.9788904,
    1792010043.0156124,
@@ -183,13 +178,16 @@
    1792037157.0664585,
    1792037161.2548194,
    1792037166.0875041,
-   1792080970.9277608
+   1792080970.9277608,
+   1792089222.501118,
+   1792089251.2192926
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
    1792056051.8171792,
    1792071069.4472828,
    1792074118.338938,
-   1792081015.5055501
+   1792081015.5055501,
+   1792089258.759113
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1792055990.6891525
@@ -328,6 +326,7 @@
   "2e4e63632844fa10": 1791938074.3393242,
   "2e550788b3a201f0": 1792056005.5162995,
   "2e77ca166d4be777": 1791718269.979892,
+  "2e8a64d0e7e2e457": 1792089258.7591057,
   "2eab85a281e6bfa0": 1791837792.3901262,
   "2eff018b70399334": 1791807515.0569289,
   "2f43ffc9d5887adc": 1792021759.8338954,
@@ -356,6 +355,7 @@
   "398595e22e43a53b": 1791931756.1041334,
   "3a67d6a3151c4831": 1791908397.4775882,
   "3ad9c4ef69beaa88": 1791894747.2247603,
+  "3b47fa6b1070f7c4": 1792089280.2861655,
   "3b4b6b4719353c78": 1791769105.2254817,
   "3c6d04fc633efc6c": 1791908446.0808244,
   "3cf161c75fd01e74": 1791969589.7300363,
@@ -411,10 +411,12 @@
   "4bd8dd68acbee7fe": 1791843812.5452955,
   "4c5865db2993bef8": 1791807582.2031515,
   "4d22bf33fe9ffca5": 1791831096.9756553,
+  "4d2d19fc52f3f19e": 1792089251.2192822,
   "4d4d7fd9e3600ee9": 1791675543.0572023,
   "4d6aedb5cf0333e1": 1791920848.0197632,
   "4e1ed149f01e16af": 1791743004.6090071,
   "4e8ec2707f5ad491": 1792021722.4872184,
+  "4e8f9797a007d835": 1792089242.1237745,
   "4f007fd3aa27c1f6": 1791996968.3826723,
   "4f5a123e1d0efd20": 1791795357.7415702,
   "4f7752bacb71dae6": 1791639250.87501,
@@ -481,6 +483,7 @@
   "686027e9c26b231a": 1792037186.0762506,
   "693b3842ab6b11b8": 1791975089.1230226,
   "6991b94e4cd03b4b": 1792080948.4236448,
+  "69d63f877553e367": 1792089169.064151,
   "6a117b6d68f3020e": 1791931144.793601,
   "6aff17e54676471f": 1791644933.1937206,
   "6b2b8dc43abf119f": 1791926922.6264074,
@@ -554,11 +557,14 @@
   "82e3a41ce5ba51a1": 1791975154.1844537,
   "831612e326aaa707": 1791843819.6291342,
   "83794bb32447283f": 1791969572.4120092,
+  "83abdf4034c836d3": 1792089194.0217938,
   "83df1b64fdfb003b": 1791926710.9621716,
+  "84d663ec2313e5de": 1792089204.8329036,
   "85c14bd852632037": 1791957543.7602415,
   "8680acb9a04959c9": 1791786708.2699826,
   "86e5c001d1a419ce": 1791929843.2628202,
   "876f0e380ed29bab": 1792009795.8090568,
+  "8792bc563dc0d76c": 1792089266.8002923,
   "88220427eb2633db": 1791969594.0180178,
   "88610d9c6210a64c": 1791975130.727523,
   "88a510b8ec1085db": 1791926957.9518356,
@@ -669,6 +675,7 @@
   "b3817383edb3176e": 1791994339.4392264,
   "b401e38a85421bdc": 1791993880.3209584,
   "b45ce40e68e5a069": 1791908418.1175368,
+  "b4c3c4a1c5149f19": 1792089235.693024,
   "b4fcea4d70451120": 1791807593.5725496,
   "b5368d16e5d8a522": 1791750736.9549613,
   "b58e883e7082f041": 1791920864.3307495,
@@ -783,6 +790,7 @@
   "dc6738baf51e77af": 1791757281.6698365,
   "dcc9a770f06437d1": 1791931828.0050437,
   "dd8edeee41eaf92d": 1791966921.6536157,
+  "dd8f2f3313228ce5": 1792089217.094236,
   "dda88a35569ea5ee": 1791994389.1900036,
   "dda8c274963d0114": 1791969296.0434637,
   "de3ce46453ddea72": 1791843872.2637854,
@@ -854,10 +862,12 @@
   "f6a53595410b4be0": 1791931822.5769498,
   "f70683a3073d4412": 1792010005.952578,
   "f7609dc66d058fc4": 1791831110.1645455,
+  "f7bf556837fefbe7": 1792089295.1205392,
   "f8201fd0ce4abd0b": 1791978145.6937873,
   "f8b3d754770f77a6": 1791920886.8207657,
   "f94fdd8140b4a34d": 1791969263.0458302,
   "f9a5ea2d1ba92182": 1791643484.7724442,
+  "f9f47d6114083471": 1792089222.501108,
   "f9f67629aeb2b512": 1791926751.1823595,
   "fa1baf1fe69fe2a8": 1791661532.8653228,
   "fa2fe6c749f5a47b": 1792010047.5177546,
@@ -875,6 +885,7 @@
   "fe5b968ae8ba789d": 1791908389.973113,
   "fef85c09f3d7c9bc": 1791931751.3380954,
   "ff142276fb37798a": 1791742953.0097268,
+  "ff6294d72fd8d049": 1792089227.9786747,
   "ffb3556792017727": 1791978150.106682,
   "fffde7df91571e4d": 1791831126.9736817
  },
@@ -1296,7 +1307,7 @@
   ],
   "artists_checked": 1792081051.4165974,
   "blocked_until": 1792053400.9740162,
-  "cursor": 91,
+  "cursor": 101,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
     "0CVnhwtOpdoIkOatkGcVwO",
@@ -2756,6 +2767,16 @@
    "",
    1791997023.82725
   ],
+  "q:7 season": [
+   0,
+   "",
+   1792089213.4461138
+  ],
+  "q:7 season 4": [
+   0,
+   "",
+   1792089212.9282742
+  ],
   "q:711161056325534524": [
    0,
    "",
@@ -2775,6 +2796,26 @@
    0,
    "",
    1791929803.1421053
+  ],
+  "q:9 biggest": [
+   0,
+   "",
+   1792089199.0709605
+  ],
+  "q:9 biggest rpg": [
+   0,
+   "",
+   1792089198.600382
+  ],
+  "q:9 biggest rpg jerk": [
+   0,
+   "",
+   1792089198.0883822
+  ],
+  "q:9 biggest rpg jerk companions": [
+   0,
+   "",
+   1792089197.6156285
   ],
   "q:9 newly": [
    0,
@@ -3351,6 +3392,26 @@
    "Big Walk",
    1792056009.0377672
   ],
+  "q:biggest": [
+   0,
+   "",
+   1792089201.164731
+  ],
+  "q:biggest rpg": [
+   0,
+   "",
+   1792089200.615138
+  ],
+  "q:biggest rpg jerk": [
+   0,
+   "",
+   1792089200.0803497
+  ],
+  "q:biggest rpg jerk companions": [
+   0,
+   "",
+   1792089199.5929332
+  ],
   "q:black": [
    0,
    "",
@@ -3746,6 +3807,26 @@
    "",
    1791920806.9368753
   ],
+  "q:chapter": [
+   0,
+   "",
+   1792089212.418834
+  ],
+  "q:chapter 7": [
+   0,
+   "",
+   1792089211.904024
+  ],
+  "q:chapter 7 season": [
+   0,
+   "",
+   1792089211.3959744
+  ],
+  "q:chapter 7 season 4": [
+   0,
+   "",
+   1792089210.9038763
+  ],
   "q:character moments": [
    0,
    "",
@@ -4050,6 +4131,11 @@
    0,
    "",
    1791757264.709387
+  ],
+  "q:control resonant": [
+   3669870,
+   "CONTROL Resonant",
+   1792089231.477811
   ],
   "q:controller": [
    0,
@@ -5090,6 +5176,31 @@
    0,
    "",
    1791837741.496041
+  ],
+  "q:fortnite chapter": [
+   0,
+   "",
+   1792089210.413068
+  ],
+  "q:fortnite chapter 7": [
+   0,
+   "",
+   1792089209.9262705
+  ],
+  "q:fortnite chapter 7 season": [
+   0,
+   "",
+   1792089209.4009233
+  ],
+  "q:fortnite chapter 7 season 4": [
+   0,
+   "",
+   1792089208.9037817
+  ],
+  "q:fortnitemares": [
+   0,
+   "",
+   1792089208.3769386
   ],
   "q:forza": [
    0,
@@ -6320,6 +6431,16 @@
    0,
    "",
    1792021764.3465524
+  ],
+  "q:jerk": [
+   0,
+   "",
+   1792089203.1573575
+  ],
+  "q:jerk companions": [
+   0,
+   "",
+   1792089202.6501274
   ],
   "q:joystick": [
    0,
@@ -8546,6 +8667,11 @@
    "",
    1792080941.1553524
   ],
+  "q:remedy": [
+   0,
+   "",
+   1792089231.9669995
+  ],
   "q:reportedly": [
    0,
    "",
@@ -8851,6 +8977,16 @@
    "",
    1791929874.8202424
   ],
+  "q:rpg jerk": [
+   0,
+   "",
+   1792089202.1646714
+  ],
+  "q:rpg jerk companions": [
+   0,
+   "",
+   1792089201.6685023
+  ],
   "q:rts": [
    0,
    "",
@@ -9010,6 +9146,11 @@
    0,
    "",
    1792080993.872276
+  ],
+  "q:season 4": [
+   0,
+   "",
+   1792089213.951309
   ],
   "q:second and third waves": [
    0,
@@ -10924,54 +11065,6 @@
  },
  "titles": [
   [
-   1791908397.477591,
-   "Hundreds of layoffs and many cancelled projects later, Xbox CEO Asha Sharma reportedly says 'we will not survive' without new IPs"
-  ],
-  [
-   1791908400.9264793,
-   "\"12 12 12\": дивіться трейлер трилера про пограбування від Apple TV+"
-  ],
-  [
-   1791908405.3867373,
-   "GTA 6 може з'явитися на ПК на початку 2027 року"
-  ],
-  [
-   1791908413.0202782,
-   "Ben Affleck lost 3 years to Starcraft, has strong Valorant opinions, and mourns RTSes as a genre, so there's solid odds he's one of our regular commenters"
-  ],
-  [
-   1791908418.117541,
-   "Crystal Lake Review: A Thrilling Friday The 13th Origin Series"
-  ],
-  [
-   1791908422.8879344,
-   "Sonic Temple Announces First Round of Bands For 2027 Festival"
-  ],
-  [
-   1791908428.2538729,
-   "BUSH's GAVIN ROSSDALE Explains Why He Still Likes Making Full-Length Albums"
-  ],
-  [
-   1791908440.5392544,
-   "Battlefield 6 Comes To Game Pass, As $30 Microtransaction That Instantly Unlocks All Guns Is Now Available"
-  ],
-  [
-   1791908446.0808277,
-   "Project Hail Mary's Rocky Actor Points Out A Subtle Detail You May Have Missed [Exclusive]"
-  ],
-  [
-   1791908451.4666176,
-   "Sammy Hagar Names Favorite AC/DC Album"
-  ],
-  [
-   1791908454.9692686,
-   "Трейлер \"Рятувальників Малібу\" показав, як виглядає нова команда"
-  ],
-  [
-   1791908466.7206595,
-   "CD Projekt Red reassures players The Witcher 3 Switch 2 patch still due, as update rolls out for PS5 and PS5 Pro"
-  ],
-  [
    1791920811.2727737,
    "Despite Huge Changes For The Series, Halo Fest 2026 Is Going Forward, And News Is Coming Soon"
   ],
@@ -12234,6 +12327,54 @@
   [
    1792081038.4438167,
    "We Came As Romans deliver reworked version of \"where did you go\" featuring Headwreck"
+  ],
+  [
+   1792089194.0217972,
+   "Roger Waters Rips James Hetfield: “He’s Just Showing That He’s a Complete Prick”"
+  ],
+  [
+   1792089204.8329062,
+   "The 9 Biggest RPG Jerk Companions, Ranked From Worst to Even Worse"
+  ],
+  [
+   1792089217.0942388,
+   "What time are the Fortnitemares power hours in Fortnite Chapter 7 Season 4?"
+  ],
+  [
+   1792089222.5011106,
+   "Cro-Mags Launch New Version Of “It’s The Limit” Featuring Turnstile’s Meg Mills"
+  ],
+  [
+   1792089227.9786773,
+   "Egypt’s El Gouna Kicks Off MENA Fall Film Festival Season With Local Breakouts, Oscar Contenders & Emerging Talents"
+  ],
+  [
+   1792089235.6930265,
+   "Control Resonant sells 1 million copies in 3 weeks to become Remedy's fastest-selling game ever"
+  ],
+  [
+   1792089242.1237776,
+   "New AFM Summit To Explore Federal Production Tax Incentive"
+  ],
+  [
+   1792089251.219285,
+   "Enter Shikari Launch “Live From The Golden Age” Session"
+  ],
+  [
+   1792089258.759108,
+   "vxcontrol/pentagi"
+  ],
+  [
+   1792089266.800295,
+   "The Body and Cel Genesis reveal another new offering, \"To Be Eviscerated\", off collaborative LP"
+  ],
+  [
+   1792089280.286352,
+   "Blood For Blood, Big Ass Truck I.E., Missing Link and more revealed as This Is Hardcore 2026 line up"
+  ],
+  [
+   1792089295.120542,
+   "Fury, Shattered Realm and more added to For The Children 2026"
   ]
  ],
  "weekly_releases_week": "2026-W42",
@@ -12794,9 +12935,9 @@
    },
    "1939970": {
     "coming_soon": false,
-    "discount": 90,
+    "discount": 0,
     "name": "Nobody Wants to Die",
-    "price": "66,00₴",
+    "price": "666,00₴",
     "release": 1721227289
    },
    "1940340": {
@@ -12808,9 +12949,9 @@
    },
    "1946700": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 29,
     "name": "Layers of Fear",
-    "price": "600,00₴",
+    "price": "439,00₴",
     "release": 1686846522
    },
    "1951230": {
@@ -12920,9 +13061,9 @@
    },
    "2215200": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 30,
     "name": "LEGO® Batman™: Legacy of the Dark Knight",
-    "price": "1 899,00₴",
+    "price": "1 329,00₴",
     "release": 1779469311
    },
    "2215430": {
@@ -12962,9 +13103,9 @@
    },
    "234140": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 85,
     "name": "Mad Max",
-    "price": "549,00₴",
+    "price": "82,00₴",
     "release": 1441090860
    },
    "2344520": {
@@ -13025,9 +13166,9 @@
    },
    "2420660": {
     "coming_soon": false,
-    "discount": 60,
+    "discount": 0,
     "name": "Neva",
-    "price": "166,00₴",
+    "price": "415,00₴",
     "release": 1729007124
    },
    "2428980": {
@@ -13088,9 +13229,9 @@
    },
    "2513280": {
     "coming_soon": false,
-    "discount": 70,
+    "discount": 0,
     "name": "SONIC X SHADOW GENERATIONS",
-    "price": "599,00₴",
+    "price": "1 999,00₴",
     "release": 1729828630
    },
    "2536520": {
@@ -13179,9 +13320,9 @@
    },
    "2677660": {
     "coming_soon": false,
-    "discount": 40,
+    "discount": 0,
     "name": "Indiana Jones and the Great Circle",
-    "price": "1 469,00₴",
+    "price": "2 449,00₴",
     "release": 1733702499
    },
    "2680010": {
@@ -13207,9 +13348,9 @@
    },
    "2760560": {
     "coming_soon": false,
-    "discount": 32,
+    "discount": 0,
     "name": "Cthulhu: The Cosmic Abyss",
-    "price": "1 138,00₴",
+    "price": "1 199,00₴",
     "release": 1776355207
    },
    "2769570": {
@@ -13354,9 +13495,9 @@
    },
    "301910": {
     "coming_soon": false,
-    "discount": 80,
+    "discount": 0,
     "name": "Saints Row: Gat out of Hell",
-    "price": "80,00₴",
+    "price": "400,00₴",
     "release": 1421967600
    },
    "3043580": {
@@ -13501,9 +13642,9 @@
    },
    "356190": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 90,
     "name": "Middle-earth™: Shadow of War™",
-    "price": "1 049,00₴",
+    "price": "104,00₴",
     "release": 1507597200
    },
    "3571870": {
@@ -13543,9 +13684,9 @@
    },
    "3744430": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 25,
     "name": "Together: Moon Escape",
-    "price": "225,00₴",
+    "price": "168,00₴",
     "release": 1776787167
    },
    "3751260": {
@@ -13634,9 +13775,9 @@
    },
    "405310": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 80,
     "name": "LEGO® MARVEL's Avengers",
-    "price": "279,00₴",
+    "price": "55,00₴",
     "release": 1453830600
    },
    "4096780": {
@@ -13816,9 +13957,9 @@
    },
    "594570": {
     "coming_soon": false,
-    "discount": 75,
+    "discount": 0,
     "name": "Total War: WARHAMMER II",
-    "price": "237,00₴",
+    "price": "949,00₴",
     "release": 1506582000
    },
    "598060": {
@@ -13830,9 +13971,9 @@
    },
    "607080": {
     "coming_soon": false,
-    "discount": 65,
+    "discount": 0,
     "name": "Psychonauts 2",
-    "price": "244,00₴",
+    "price": "699,00₴",
     "release": 1629849420
    },
    "625960": {
@@ -13949,9 +14090,9 @@
    },
    "829110": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 85,
     "name": "LEGO® DC Super-Villains",
-    "price": "629,00₴",
+    "price": "94,00₴",
     "release": 1539709200
    },
    "847370": {
@@ -14046,7 +14187,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792081048.72557,
+  "last_check": 1792089329.692583,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
