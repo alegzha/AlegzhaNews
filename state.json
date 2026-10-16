@@ -1,7 +1,7 @@
 {
  "alerts": {},
  "last_translation": {
-  "at": "2026-10-15 22:04 UTC",
+  "at": "2026-10-16 00:40 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "used": [
@@ -49,11 +49,8 @@
    1792080964.3635228
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1791975145.208957,
-   1791978110.4572744,
-   1791978165.150099,
-   1792010034.0638216,
-   1792021733.3025107
+   1792111169.4921963,
+   1792111180.3037949
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1792071048.0131066
@@ -64,8 +61,6 @@
    1791994373.2696579
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1792021759.833903,
-   1792021766.9564734,
    1792037176.7166407,
    1792037186.0762622,
    1792071004.2365556,
@@ -73,7 +68,9 @@
    1792074082.7938979,
    1792089235.6930351,
    1792099067.0140445,
-   1792099102.0718203
+   1792099102.0718203,
+   1792111184.553501,
+   1792111189.2592366
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1791989280.633711,
@@ -101,11 +98,17 @@
    1792097648.5604136,
    1792101840.5980399
   ],
+  "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
+   1792111138.5120318
+  ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1792074074.8971677,
    1792097642.489468,
    1792099075.9052548,
-   1792101820.6463332
+   1792101820.6463332,
+   1792111147.2615159,
+   1792111156.6974216,
+   1792111201.876038
   ],
   "movies|Deadline|https://deadline.com/feed/": [
    1792056005.5163097,
@@ -144,8 +147,6 @@
    1791997042.6373916
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1792021771.6730094,
-   1792021775.74291,
    1792037209.7363322,
    1792037214.1833725,
    1792037218.5460126,
@@ -165,7 +166,8 @@
    1792099125.7027662,
    1792101857.5375257,
    1792101862.2487643,
-   1792101866.4423952
+   1792101866.4423952,
+   1792111210.5838842
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1792097662.3262894
@@ -179,9 +181,6 @@
    1792071075.5659628
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1792021712.5965643,
-   1792021717.3433642,
-   1792021737.8524208,
    1792037157.0664585,
    1792037161.2548194,
    1792037166.0875041,
@@ -191,7 +190,10 @@
    1792097638.304342,
    1792099095.417173,
    1792101816.1723754,
-   1792101825.4918234
+   1792101825.4918234,
+   1792111193.485207,
+   1792111197.6185985,
+   1792111206.2308109
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
    1792056051.8171792,
@@ -294,6 +296,7 @@
   "1b51ce0f0aa234b4": 1791815118.1787226,
   "1b76b683aec1027d": 1791926762.1118298,
   "1bc693cb0759f732": 1791643484.7724442,
+  "1bccfc6fdee90be3": 1792111156.6974144,
   "1c3c1c77ce37882a": 1791658404.1628098,
   "1c5c5b899c127c6d": 1792099052.6825736,
   "1c9d47a9794512b7": 1791975174.7805805,
@@ -397,6 +400,7 @@
   "41d0d6c65652a908": 1791932390.5007298,
   "41e53eac4f258a0e": 1791969308.2585855,
   "41e6c9020839e754": 1791957518.9722712,
+  "4205818aacb7e1ce": 1792111201.8760307,
   "4305ce6b081ab3b8": 1791678235.0223486,
   "431c52b37ba34ad3": 1791920881.6626737,
   "439092d850041c51": 1792080927.3717632,
@@ -404,6 +408,7 @@
   "43eed4e276bf4a3d": 1791975145.2089515,
   "44bd51be035ffe73": 1791831104.1027663,
   "4534036dfba5df54": 1791996968.3914993,
+  "4595dcac4d470f04": 1792111197.6185884,
   "45a3983e7e55e8f0": 1791996969.7628744,
   "45c7c9729205196b": 1791646026.7941504,
   "45cb1fde37fc7b01": 1791786680.4337952,
@@ -424,6 +429,7 @@
   "49241f2ad4a4ca3b": 1791929886.445298,
   "498b7f5b5903fc98": 1791643484.7724442,
   "4995ee20ca2efc49": 1792080927.385106,
+  "4a73a49d0fed7868": 1792111193.4851968,
   "4ab4a80baa49099d": 1792009889.1340399,
   "4b12330e5843d06e": 1791997004.7435756,
   "4b441e9d94a56616": 1791638194.651585,
@@ -455,6 +461,7 @@
   "52b3fcb97ee12cba": 1791993885.4541698,
   "53287f14b1250c90": 1791769084.5556781,
   "53c62bd0c6f25858": 1791807526.4589036,
+  "5446ec301e9e4371": 1792111180.3037887,
   "54a9a8bd54d562f8": 1791966911.0236287,
   "54fd41d02aa219ba": 1792097674.943652,
   "55523d2252c09131": 1791997000.217187,
@@ -567,6 +574,7 @@
   "79924312105398a4": 1791807546.7344666,
   "79dd5307b144cadd": 1792009788.9815423,
   "79f170dd76e91fa0": 1792021704.6627235,
+  "7a81f4b43e999bdd": 1792111147.2615058,
   "7b51a41a8a5fb539": 1791894773.4746997,
   "7b94790777ec0c1a": 1792074068.3644192,
   "7c215e606a562a9c": 1791932421.0418994,
@@ -579,6 +587,7 @@
   "7ee557d5790adc5b": 1791931863.3664944,
   "7ef87439999d8d8e": 1791843846.0898852,
   "7f335ecf6125b836": 1791820240.3642433,
+  "7f829eb99093555a": 1792111184.553492,
   "8006a92529598133": 1792037209.7363198,
   "809d9b29d28492ba": 1791831085.6566122,
   "80aba24fe9aa1ad0": 1791957547.9967432,
@@ -604,6 +613,7 @@
   "88610d9c6210a64c": 1791975130.727523,
   "88a510b8ec1085db": 1791926957.9518356,
   "88a5ffec119dab97": 1792009836.861672,
+  "89c8d5550556eb42": 1792111138.512026,
   "8a2d62111ed17e35": 1791879491.9222178,
   "8a5344eb9c3acd8f": 1791668264.6511755,
   "8ae89ebe3bea2b95": 1791654244.7710626,
@@ -686,6 +696,7 @@
   "a5810c90b7226c9e": 1791975149.54224,
   "a60c7b875205048e": 1791837802.378347,
   "a66c343060cea209": 1791795378.5654407,
+  "a7142fc187f27bb8": 1792111169.4921894,
   "a77de70d8d9838d3": 1791638213.533524,
   "a791ca7315735e90": 1791639240.4878817,
   "a7ca3ae05ecff0b5": 1791807598.968649,
@@ -757,6 +768,7 @@
   "c4fe98c29187e11b": 1791993734.0742705,
   "c51b15d9e6fcf624": 1791957552.1866417,
   "c53267ad2de766ba": 1791968061.1901526,
+  "c58fe16489c20656": 1792111189.2592266,
   "c5b3c83543504b9a": 1791931703.0332391,
   "c622628fd6e736ca": 1791853953.2827067,
   "c65d2f4d1162f7de": 1791668789.9831371,
@@ -872,6 +884,7 @@
   "e9b0ea57fb04bcbe": 1792010034.0638132,
   "e9f31bebfbd6a707": 1791997025.0120573,
   "ea086cecd1788949": 1791931876.1040778,
+  "ea0f12ef8da49d13": 1792111210.5838726,
   "eab843426b6d2fe6": 1791795374.9136624,
   "eaf34cd5830c3076": 1792010071.8301156,
   "eb22ec1fca744e62": 1791638172.0694044,
@@ -912,6 +925,7 @@
   "f7609dc66d058fc4": 1791831110.1645455,
   "f7820223d0e69bdd": 1792099106.195247,
   "f7bf556837fefbe7": 1792089295.1205392,
+  "f7d96c9bfabcdbdc": 1792111206.2308028,
   "f8201fd0ce4abd0b": 1791978145.6937873,
   "f8b3d754770f77a6": 1791920886.8207657,
   "f94fdd8140b4a34d": 1791969263.0458302,
@@ -1355,9 +1369,9 @@
    "6jdXkhI59ngreTw9GwoKNv",
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
-  "artists_checked": 1792081051.4165974,
+  "artists_checked": 1792111223.818033,
   "blocked_until": 1792053400.9740162,
-  "cursor": 131,
+  "cursor": 141,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
     "0CVnhwtOpdoIkOatkGcVwO",
@@ -2982,6 +2996,16 @@
    "",
    1791931728.5192044
   ],
+  "q:achievement": [
+   0,
+   "",
+   1792111131.7195725
+  ],
+  "q:achievement system": [
+   0,
+   "",
+   1792111131.2078226
+  ],
   "q:activision": [
    0,
    "",
@@ -3297,6 +3321,16 @@
    "",
    1791926988.0224807
   ],
+  "q:avoiding": [
+   0,
+   "",
+   1792111177.965096
+  ],
+  "q:avoiding overwatch": [
+   0,
+   "",
+   1792111177.4489467
+  ],
   "q:awards": [
    0,
    "",
@@ -3596,6 +3630,36 @@
    0,
    "",
    1791957560.483575
+  ],
+  "q:boss": [
+   0,
+   "",
+   1792111165.1391842
+  ],
+  "q:boss reacts": [
+   0,
+   "",
+   1792111164.633415
+  ],
+  "q:boss reacts after": [
+   0,
+   "",
+   1792111164.164864
+  ],
+  "q:boss reacts after control": [
+   0,
+   "",
+   1792111163.6078873
+  ],
+  "q:boss reacts after control resonant": [
+   0,
+   "",
+   1792111163.0685291
+  ],
+  "q:boss reacts after control resonant sells": [
+   0,
+   "",
+   1792111162.6008441
   ],
   "q:box": [
    0,
@@ -4277,6 +4341,11 @@
    "",
    1791931183.9323466
   ],
+  "q:costs": [
+   0,
+   "",
+   1792111178.4518185
+  ],
   "q:costumes": [
    0,
    "",
@@ -4651,6 +4720,11 @@
    0,
    "",
    1791843840.1804848
+  ],
+  "q:disconnect'": [
+   0,
+   "",
+   1792111176.9542933
   ],
   "q:disney's survival": [
    0,
@@ -6242,6 +6316,26 @@
    "",
    1791931832.0094357
   ],
+  "q:i just": [
+   0,
+   "",
+   1792111174.4843392
+  ],
+  "q:i just sort": [
+   0,
+   "",
+   1792111174.0025785
+  ],
+  "q:i just sort of disconnect": [
+   0,
+   "",
+   1792111172.965011
+  ],
+  "q:i just sort of disconnect'": [
+   0,
+   "",
+   1792111173.522742
+  ],
   "q:i kept getting game over after game over shouting f": [
    0,
    "",
@@ -6651,6 +6745,16 @@
    0,
    "",
    1791957529.732796
+  ],
+  "q:just sort": [
+   0,
+   "",
+   1792111175.449287
+  ],
+  "q:just sort of disconnect'": [
+   0,
+   "",
+   1792111174.9669116
   ],
   "q:kaplan": [
    0,
@@ -8737,6 +8841,11 @@
    "",
    1791926716.068619
   ],
+  "q:reacts after control resonant sells 1": [
+   0,
+   "",
+   1792111165.6909328
+  ],
   "q:reboot": [
    0,
    "",
@@ -8876,6 +8985,31 @@
    0,
    "",
    1792089231.9669995
+  ],
+  "q:remedy boss": [
+   0,
+   "",
+   1792111162.0883918
+  ],
+  "q:remedy boss reacts": [
+   0,
+   "",
+   1792111161.6210458
+  ],
+  "q:remedy boss reacts after": [
+   0,
+   "",
+   1792111161.1165473
+  ],
+  "q:remedy boss reacts after control": [
+   0,
+   "",
+   1792111160.643835
+  ],
+  "q:remedy boss reacts after control resonant": [
+   0,
+   "",
+   1792111160.1753237
   ],
   "q:reportedly": [
    0,
@@ -9587,6 +9721,16 @@
    "",
    1791843798.8176773
   ],
+  "q:sort": [
+   0,
+   "",
+   1792111176.468323
+  ],
+  "q:sort of disconnect'": [
+   0,
+   "",
+   1792111175.9402382
+  ],
   "q:souls": [
    0,
    "",
@@ -9976,6 +10120,11 @@
    0,
    "",
    1791929850.9096928
+  ],
+  "q:system": [
+   0,
+   "",
+   1792111132.2232864
   ],
   "q:szymanski": [
    0,
@@ -10427,6 +10576,21 @@
    "",
    1791837779.9742575
   ],
+  "q:updated": [
+   0,
+   "",
+   1792111130.737947
+  ],
+  "q:updated achievement": [
+   0,
+   "",
+   1792111130.1921942
+  ],
+  "q:updated achievement system": [
+   0,
+   "",
+   1792111129.724787
+  ],
   "q:valor mortis": [
    2828710,
    "Valor Mortis",
@@ -10746,6 +10910,11 @@
    0,
    "",
    1791668520.2384682
+  ],
+  "q:when you pay for a game you should own it": [
+   0,
+   "",
+   1792111188.0246441
   ],
   "q:who is": [
    0,
@@ -11258,14 +11427,14 @@
    "apple",
    "himera",
    "meta",
-   "microsoft",
    "redmagic",
    "universal pictures",
-   "windows 11",
    "xreal",
+   "youtube",
    "аукціон",
    "безпілотники",
    "бпла",
+   "велика британія",
    "гур",
    "доповнена реальність",
    "дрони",
@@ -11281,269 +11450,14 @@
    "сили оборони",
    "смартокуляри",
    "смартфони",
-   "софт",
+   "стримінгові платформи",
+   "стримінгові сервіси",
    "технології",
    "україна",
    "штучний інтелект"
   ]
  },
  "titles": [
-  [
-   1791929795.6593661,
-   "ID@Xbox Showcase Returns in October With 18 Games"
-  ],
-  [
-   1791929808.6827474,
-   "9 Newly Announced Games From IGN Fan Fest: Fall Edition to Add to Your Wishlist"
-  ],
-  [
-   1791929812.1213322,
-   "Google дозволить поширювати Android-застосунки, створені за допомогою ШІ, використовуючи лише Google-акаунт"
-  ],
-  [
-   1791929823.157145,
-   "63 Years Later, the Best 'Peanuts' Sally Line Is Still an Iconic Comic Strip Quote"
-  ],
-  [
-   1791929834.6204565,
-   "Xbox Forms Labs Group for Vibe-Coded Game Ports"
-  ],
-  [
-   1791929838.0813007,
-   "Google збільшує винагороди за знайдені вразливості у Chrome до $20 000"
-  ],
-  [
-   1791929843.2628226,
-   "SLASH Says GUNS N' ROSES Will Take 2027 Off From Touring To Work On New Music: 'We Have So Much Material'"
-  ],
-  [
-   1791929854.5939248,
-   "Resident Evil 4 Remake On Switch 2 Is Capcom’s First Disappointment This Year"
-  ],
-  [
-   1791929866.8402836,
-   "New Xbox Labs Team Officially Announced"
-  ],
-  [
-   1791929870.7550833,
-   "Microsoft закриває простий спосіб обходу облікового запису під час встановлення Windows 11"
-  ],
-  [
-   1791929876.9370034,
-   "Send in the Clown is a turn-based RPG comedy about fighting one annoying child at a birthday party where there's only one fight in the whole game"
-  ],
-  [
-   1791929886.445467,
-   "Kojima says he was 'just like Bryan' from the Resident Evil movie when he played RE1 in 1996: 'I kept getting game over after game over, shouting F***!'"
-  ],
-  [
-   1791931130.9807737,
-   "DISGRUNTLED DAD REVIEWS With DAVE MUSTCOMPLAIN: HATESPHERE – GUILLOTINE"
-  ],
-  [
-   1791931136.5823328,
-   "Going Medieval's new diplomacy update is all about calling your neighbouring settlements for favours, which yes, may mean delivering a cow or two in return"
-  ],
-  [
-   1791931141.4320638,
-   "Anne Hathaway's Chilling 2023 Thriller Completely Flew Under Everyone's Radar"
-  ],
-  [
-   1791931144.793604,
-   "SpaceXSI запускає спільні підписки на X, Grok та Cursor – від $8 на місяць"
-  ],
-  [
-   1791931149.8648684,
-   "A PERFECT CIRCLE Releases 'Starless' Music Video"
-  ],
-  [
-   1791931161.1792924,
-   "Over 1 Million Characters Have Been Made in the WoW Forever Beta"
-  ],
-  [
-   1791931165.9541733,
-   "You Can See Everything Review: A Mystifying Masterwork Of Mind-Melting Manipulation"
-  ],
-  [
-   1791931178.2053845,
-   "Feature: Witcher 3 Remastered PC: Were We Wrong About CPU Performance?"
-  ],
-  [
-   1791931189.2650194,
-   "Xbox Is Experimenting with a Controversial Social Media Feature"
-  ],
-  [
-   1791931200.4147196,
-   "Dropout Announces New Scripted Series that Spoofs MTV"
-  ],
-  [
-   1791931208.523275,
-   "Rockstar co-founder Dan Houser says he 'failed' with Max Payne 3, and I'm sorry Danno but that's just plain wrong"
-  ],
-  [
-   1791931217.558077,
-   "Valve Index Sunset https://steamcommunity.com/gid/[g:1:45479024]/announcements/detail/711161056325534524?utm_source=SteamDB"
-  ],
-  [
-   1791931688.5203288,
-   "The Forbidden Guitar Tom Morello Was Finally Able to Hold"
-  ],
-  [
-   1791931692.6448135,
-   "Sifu, the singular kung fu action game, is out now on Android and iOS"
-  ],
-  [
-   1791931703.033241,
-   "AI Couldn’t Have Made Star Wars: Galactic Racer’s Biddy Blas"
-  ],
-  [
-   1791931708.6510782,
-   "AMD has reportedly already raised GDDR6 prices for its graphics card partners, so you'll find no solace from spiking GPU prices with Team Red"
-  ],
-  [
-   1791931713.0724745,
-   "HEATHEN Announces New Album 'Lifetime In Hell', Shares 'Escapegoat' Single"
-  ],
-  [
-   1791931723.5090902,
-   "Xbox Is Testing A New Streak Feature That Could Make Gaming Feel (More) Like A Chore"
-  ],
-  [
-   1791931734.324305,
-   "Review: Ace Combat 8: Wings of Theve Is a Masterpiece - and a Technical High-Point for the Series"
-  ],
-  [
-   1791931737.6744597,
-   "NVIDIA представила вдвічі швидшу DLSS 5: коли чекати"
-  ],
-  [
-   1791931747.9403167,
-   "$150 God of War Laufey Collector Box Revealed, No Game Included"
-  ],
-  [
-   1791931751.3380976,
-   "Друге життя Sora: OpenAI планує відродити генератор ШІ-відео для роботи в Голлівуді"
-  ],
-  [
-   1791931756.1041358,
-   "I was excited by Warlock: Dungeons & Dragons until the protagonist pulled out a sword"
-  ],
-  [
-   1791931765.9874537,
-   "'Baywatch' Reboot Trailer Has All the Slo-Mo You Could Ever Want"
-  ],
-  [
-   1791931828.0050466,
-   "Japan is getting an exclusive Midnight Black PlayStation 5 next month, but there's still hope for the rest of the world"
-  ],
-  [
-   1791931838.115113,
-   "‘I Got That Completely Wrong’ — Dan Houser Considers Rockstar’s Max Payne 3 a Failure"
-  ],
-  [
-   1791931842.3218863,
-   "STEVE HACKETT Announces 2027 North American Tour Dates"
-  ],
-  [
-   1791931846.945051,
-   "Do You Remember These 10 Forgotten 2006 Rock Radio Hits?"
-  ],
-  [
-   1791931857.2746983,
-   "Pokémon TCG: Elite Trainer Box is now down to $120 at Walmart — save $20 compared to Amazon"
-  ],
-  [
-   1791931863.3664973,
-   "Dwarf Fortress creator Tarn Adams is as tired of genAI in the industry as anyone else, and is pretty set on never using it"
-  ],
-  [
-   1791931866.7242627,
-   "ТОП 10 фантастичних серіалів, які можна подивитися запоєм"
-  ],
-  [
-   1791931871.227267,
-   "Watch: Bring Me the Horizon Joined By Josh Scogin For \"The Fox and the Wolf\" Live Debut"
-  ],
-  [
-   1791931876.10408,
-   "RimWorld drops Unity for its own in-house engine, says your saves still work, so do most mods, and the whole thing runs twice as fast"
-  ],
-  [
-   1791931879.492106,
-   "Apple представила нову систему Apple TV 4K із Siri AI"
-  ],
-  [
-   1791931883.6620474,
-   "2027 Oscars Best Director Predictions: Winner, Runner-Up And Other Contenders"
-  ],
-  [
-   1791931887.935013,
-   "SLASH on Upcoming SLASH FEATURING MYLES KENNEDY & THE CONSPIRATORS Album 'Flying Blind': Most Of It 'Was Written Pretty Much On The Spot In Pre-Production'"
-  ],
-  [
-   1791932367.492266,
-   "If you're upset about the dire lack of consumer RAM knocking around, this 480 GB Intel GPU isn't going to cheer you up"
-  ],
-  [
-   1791932371.6790104,
-   "Don't neglect crafting furniture in your Arc Raiders outpost—it unlocks hundreds of extra storage slots"
-  ],
-  [
-   1791932376.2127578,
-   "BLUE ÖYSTER CULT Announces '55 Years On Tour - 1972 To 2027' U.K. Shows"
-  ],
-  [
-   1791932387.0273664,
-   "Review: Logitech G Pro X3 Superstrike Mouse: Innovative Clicks, Fixed Balance, Even More Expensive"
-  ],
-  [
-   1791932390.5007334,
-   "Microsoft представила Decision-1, яка обганяє GPT-6 Sol у 35 разів за швидкістю"
-  ],
-  [
-   1791932394.8889909,
-   "SAMMY HAGAR Praises BON SCOTT-Era AC/DC: 'That Early Stuff Is Just So Badass. That Is Rock And Roll.'"
-  ],
-  [
-   1791932399.1004672,
-   "5 Forgotten Monster Movies That Still Hold Up Today"
-  ],
-  [
-   1791932410.3629322,
-   "God Of War’s Laufey Collector’s Edition Leaves One Important Thing Out: The Game"
-  ],
-  [
-   1791932421.041902,
-   "Dan Houser Reveals Rockstar’s Struggle to Make Bully"
-  ],
-  [
-   1791932425.5200424,
-   "Here's what's happening beyond the music at the inaugural Sick New World Texas"
-  ],
-  [
-   1791932583.0588953,
-   "Project Hail Mary's Emotional Goodbye Scene Was Inspired By Rocky's Mysterious Markings [Exclusive]"
-  ],
-  [
-   1791932593.4533808,
-   "11 Magic: The Gathering Marvel Cards That Perfectly Capture Their Characters"
-  ],
-  [
-   1791938074.3393264,
-   "Peak Has Been Leaked for PS5 by the ESRB"
-  ],
-  [
-   1791938078.1949818,
-   "Розробник, котрий скопіював Adobe Photoshop, створив клони Microsoft Word, Excel та PowerPoint"
-  ],
-  [
-   1791938082.0450823,
-   "ФБР заарештувало працівника OpenAI за підозрою в таємному записі розмов: у розслідуванні допоміг ШІ"
-  ],
-  [
-   1791938092.4101293,
-   "5 Forgotten Square Enix RPGs That Deserve a Comeback"
-  ],
   [
    1791957510.2704477,
    "Valve is clearing out its discontinued Index VR headsets if you want a cheap piece of history"
@@ -12599,6 +12513,54 @@
   [
    1792101866.442386,
    "Stick To Your Guns guitarist Josh James looks to be teasing new straight-edge project"
+  ],
+  [
+   1792111138.5120287,
+   "Updated Achievement System"
+  ],
+  [
+   1792111147.2615092,
+   "You Can See Everything Ending Explained: More Questions Than Answers"
+  ],
+  [
+   1792111156.6974165,
+   "Crystal Lake Creator's Favorite Kill Of The Season Happens In Episode 6 [Exclusive]"
+  ],
+  [
+   1792111169.4921913,
+   "Remedy Boss Reacts After Control Resonant Sells 1 Million Copies, Becoming Studio's Fastest-Selling Game"
+  ],
+  [
+   1792111180.303791,
+   "'I Just Sort of Disconnect' — Jeff Kaplan is Avoiding Overwatch at all Costs"
+  ],
+  [
+   1792111184.553494,
+   "Steam achievements are getting a huge overhaul, with separate sets for DLC and season passes, and an easy way to compare with friends"
+  ],
+  [
+   1792111189.2592297,
+   "US lawmaker calls videogame purchases rentals disguised as sales: 'When you pay for a game, you should own it'"
+  ],
+  [
+   1792111193.4851987,
+   "Ando San Debuts Drumline-Inspired New Track “March For Me”"
+  ],
+  [
+   1792111197.6185908,
+   "King Buffalo’s “Vagabond” Music Video Debuts"
+  ],
+  [
+   1792111201.8760328,
+   "Prime Video Adds All 8 Seasons Of A Beloved DC Comics TV Series"
+  ],
+  [
+   1792111206.2308044,
+   "KK’s Priest Cover Judas Priest’s “Never Satisfied”, AI-Laden Music Video Draws Criticisms"
+  ],
+  [
+   1792111210.5838745,
+   "Architects’ Sam Carter opens up about mental health struggles regarding vocals"
   ]
  ],
  "weekly_releases_week": "2026-W42",
@@ -14418,7 +14380,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792101876.0536232,
+  "last_check": 1792111221.0757477,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
