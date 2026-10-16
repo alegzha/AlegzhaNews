@@ -1,22 +1,20 @@
 {
  "alerts": {},
  "last_translation": {
-  "at": "2026-10-16 19:02 UTC",
-  "gemini_error": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-lite-latest:generateContent",
+  "at": "2026-10-16 22:03 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "posted_by_source": {
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1792097653.424774,
-   1792097657.7671664,
-   1792099080.5328832,
    1792128988.5844738,
    1792128993.9627852,
-   1792128998.4882317
+   1792128998.4882317,
+   1792188102.4928668,
+   1792188131.194168
   ],
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
    1791975130.7275305,
@@ -55,7 +53,8 @@
    1792129261.8607285,
    1792129272.136918,
    1792129286.8019576,
-   1792145427.3122492
+   1792145427.3122492,
+   1792188113.805526
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1792145464.118159,
@@ -83,9 +82,6 @@
    1792074108.4209723
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1792099090.9515967,
-   1792099106.195257,
-   1792099117.2201486,
    1792128960.2027822,
    1792128974.9766095,
    1792129317.7506225,
@@ -99,7 +95,8 @@
    1792164565.695497,
    1792164701.9939373,
    1792177237.6718593,
-   1792177262.6651332
+   1792177262.6651332,
+   1792188155.2770948
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1792097648.5604136,
@@ -124,9 +121,6 @@
    1792129276.4144118
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1792097633.8556666,
-   1792097670.609748,
-   1792099071.7265468,
    1792101830.336957,
    1792101834.8012385,
    1792101845.1452618,
@@ -135,7 +129,10 @@
    1792164654.292864,
    1792164717.9040186,
    1792177158.1601708,
-   1792177269.6882539
+   1792177269.6882539,
+   1792188120.1700163,
+   1792188126.4603057,
+   1792188143.0501196
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1792071063.7644968,
@@ -158,11 +155,6 @@
    1792164048.6402736
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1792097674.9436634,
-   1792097679.073405,
-   1792097683.3566318,
-   1792099121.5478778,
-   1792099125.7027662,
    1792101857.5375257,
    1792101862.2487643,
    1792101866.4423952,
@@ -175,7 +167,10 @@
    1792164208.8007321,
    1792164226.9383633,
    1792177296.4974856,
-   1792177307.2508051
+   1792177307.2508051,
+   1792188168.0155137,
+   1792188173.6129727,
+   1792188180.645698
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1792097662.3262894,
@@ -204,13 +199,15 @@
   ],
   "software|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
    1792128949.7538407,
-   1792128984.143162
+   1792128984.143162,
+   1792188137.7386005
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
    1792145502.885705,
    1792164168.6878026,
    1792164733.9349859,
-   1792177279.1719844
+   1792177279.1719844,
+   1792188162.0756958
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1792145474.1305413,
@@ -259,6 +256,7 @@
   "07b14069038d87c9": 1791920822.7050872,
   "07c9a77e54e23e67": 1791642308.7748382,
   "082b01c9d624c1bb": 1791931200.4147167,
+  "084b70bcbbcba08f": 1792188137.738577,
   "087c8ea0d0cca171": 1791908400.9264767,
   "08e286007302bf79": 1792099067.014035,
   "091e984aa3e757eb": 1792129235.1865377,
@@ -368,6 +366,7 @@
   "29cc2c99e1d4f77c": 1791969559.9057777,
   "29cfe4e95e49a7be": 1791769122.3502562,
   "2a450dcaa7d8f090": 1792129235.1684577,
+  "2a92495361b711e7": 1792188098.4192889,
   "2a96f7e807660e6e": 1791969576.7133026,
   "2b3e0d716a309f46": 1791931128.8734488,
   "2b71e2432beb2c1f": 1792148875.6971943,
@@ -472,6 +471,7 @@
   "49241f2ad4a4ca3b": 1791929886.445298,
   "498b7f5b5903fc98": 1791643484.7724442,
   "4995ee20ca2efc49": 1792080927.385106,
+  "499b46e2fc1046da": 1792188120.1700075,
   "49e882d235b5a971": 1792148883.2151694,
   "4a73a49d0fed7868": 1792111193.4851968,
   "4ab4a80baa49099d": 1792009889.1340399,
@@ -502,6 +502,7 @@
   "50461fdbb5baf0f1": 1791931686.7969706,
   "5049c7ca1ffb21f7": 1792070959.9813466,
   "504ee63d6d202353": 1791642330.1209908,
+  "50c7503e36c0d316": 1792188102.4928575,
   "513db1c4a6fb4ee2": 1792164553.0436478,
   "51e7ebbf532009ed": 1792099071.7265372,
   "52b3fcb97ee12cba": 1791993885.4541698,
@@ -525,6 +526,7 @@
   "59026f9e9d5ef97d": 1791820210.1794846,
   "591055ad0c8fd647": 1791989300.2405653,
   "59be7595544dbfde": 1791820207.7297282,
+  "59fdc0b1a4ca9581": 1792188155.2770846,
   "5b6effa0896b447b": 1792099080.532876,
   "5bcd0ce3010222bf": 1791750719.4009652,
   "5bd4f53d4638e660": 1792097638.3043296,
@@ -548,6 +550,7 @@
   "61b7ab1127e25a11": 1792148849.6341424,
   "61ce6d04105b6d5c": 1791820253.2708223,
   "61e85cf599af34b0": 1791996995.7897248,
+  "621f3d43881ac6ec": 1792188173.6129634,
   "623568001f434867": 1792129235.1714466,
   "623fe4d15c4ae3c3": 1791742999.2445257,
   "6295d5204634ef7d": 1792101820.6463242,
@@ -732,10 +735,12 @@
   "97a6034532e807eb": 1792177192.1286323,
   "97efd60f02a8688c": 1791993809.977173,
   "9817210cd484f56a": 1792037176.7166305,
+  "9845edd3778b3743": 1792188126.460297,
   "988e13ed562d14f0": 1792164569.2045894,
   "98b3504fafa8aacc": 1791894808.6965919,
   "9985b3d5b28d3bca": 1791769110.1612594,
   "99de8e5cc0092b17": 1791837781.7497854,
+  "9a1f8c66e0b1f6ad": 1792188131.1941612,
   "9a4201be560c400a": 1791927011.6610913,
   "9a945af4bff676bc": 1791920890.789667,
   "9a9c024dd9d7c1db": 1791668526.060194,
@@ -757,6 +762,7 @@
   "9f26832e54cd7251": 1791757259.9128428,
   "a01cdcae7bff7990": 1791718278.296192,
   "a0446c7cf7b0f77a": 1791978126.841161,
+  "a0698b310adf5ec0": 1792188113.8055182,
   "a0b1f2ace05cadf0": 1792129307.403092,
   "a0dbbb7d6a74014a": 1791957533.3562908,
   "a1b7614884880410": 1791931887.9350114,
@@ -816,6 +822,7 @@
   "b61f15e6e52496b2": 1792128949.7538357,
   "b6e9e7ddd669ee7a": 1791659741.1528728,
   "b969e2311d014414": 1792080953.4454384,
+  "b97146283b4a40b6": 1792188162.0756886,
   "ba3159b07e9acfdf": 1792021737.852413,
   "ba6619e4f0d33b98": 1792071048.0131018,
   "ba97389947f94a9b": 1792177296.497473,
@@ -934,6 +941,7 @@
   "d973bad9ec5075d9": 1791969290.9934475,
   "d986697f677381b3": 1791879498.6319728,
   "da0af8c10cc10c09": 1792099075.9052477,
+  "da200d4eb98f67c4": 1792188168.0155032,
   "db0b7bb67df86ef1": 1791815103.563506,
   "db0dad8d6002d762": 1791742975.2076674,
   "db4072f2f2d87083": 1792129235.1834106,
@@ -964,6 +972,7 @@
   "e0ed55e9093ac5bd": 1791920836.554765,
   "e136701f770e5853": 1792080987.1679268,
   "e142a9372feba179": 1792097648.5604064,
+  "e276603713750b4b": 1792188143.0501099,
   "e3b80d3d81165538": 1792164613.3894355,
   "e4b6b3b1ad0cbcc9": 1792071060.197874,
   "e5255e7a04311b6c": 1792021712.596556,
@@ -1049,6 +1058,7 @@
   "fb20b379e3302e30": 1791807534.5419414,
   "fbab3ba6532b2166": 1792164226.938352,
   "fbeb4205a30e70be": 1791969282.2439892,
+  "fc24eb744ad26cc6": 1792188180.6456888,
   "fc254960252739ef": 1792009867.2748783,
   "fc2bbcab1c0c0cc2": 1791931857.274695,
   "fc90c750e381c97b": 1791643484.7724442,
@@ -1483,7 +1493,7 @@
   ],
   "artists_checked": 1792177323.9928985,
   "blocked_until": 1792142524.1626832,
-  "cursor": 201,
+  "cursor": 211,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
     "0CVnhwtOpdoIkOatkGcVwO",
@@ -3108,6 +3118,26 @@
    "",
    1791978125.7739022
   ],
+  "q:8 call": [
+   0,
+   "",
+   1792188147.9420495
+  ],
+  "q:8 call of duty": [
+   0,
+   "",
+   1792188147.4727783
+  ],
+  "q:8 call of duty games": [
+   0,
+   "",
+   1792188146.9952507
+  ],
+  "q:8 call of duty games still": [
+   0,
+   "",
+   1792188146.5283747
+  ],
   "q:8 wings of theve is": [
    0,
    "",
@@ -3677,6 +3707,21 @@
    0,
    "",
    1792111177.4489467
+  ],
+  "q:award": [
+   0,
+   "",
+   1792188110.9970038
+  ],
+  "q:award for hot": [
+   0,
+   "",
+   1792188110.5032065
+  ],
+  "q:award for hot dads'": [
+   0,
+   "",
+   1792188110.0329978
   ],
   "q:awards": [
    0,
@@ -4312,6 +4357,21 @@
    1938090,
    "Call of Duty®",
    1792129236.7939193
+  ],
+  "q:call of duty games": [
+   0,
+   "",
+   1792188149.4951236
+  ],
+  "q:call of duty games still": [
+   0,
+   "",
+   1792188149.0093482
+  ],
+  "q:call of duty games still missing": [
+   0,
+   "",
+   1792188148.4138713
   ],
   "q:call of duty modern warfare": [
    2000950,
@@ -6378,6 +6438,21 @@
    "",
    1792164068.164386
   ],
+  "q:game award": [
+   0,
+   "",
+   1792188109.5146852
+  ],
+  "q:game award for hot": [
+   0,
+   "",
+   1792188109.0379262
+  ],
+  "q:game award for hot dads'": [
+   0,
+   "",
+   1792188108.5661738
+  ],
   "q:game preview": [
    0,
    "",
@@ -6452,6 +6527,16 @@
    0,
    "",
    1792074104.1826138
+  ],
+  "q:games still": [
+   0,
+   "",
+   1792188150.4372225
+  ],
+  "q:games still missing": [
+   0,
+   "",
+   1792188149.9633472
   ],
   "q:games with": [
    0,
@@ -7112,6 +7197,16 @@
    0,
    "",
    1791879514.798698
+  ],
+  "q:horny": [
+   0,
+   "",
+   1792188106.5692856
+  ],
+  "q:hot dads'": [
+   0,
+   "",
+   1792188111.4957945
   ],
   "q:houser": [
    0,
@@ -8627,6 +8722,11 @@
    1736630,
    "Minesweeper Ultimate",
    1791642328.393718
+  ],
+  "q:missing": [
+   0,
+   "",
+   1792188151.9393346
   ],
   "q:mister": [
    0,
@@ -11013,6 +11113,11 @@
    "",
    1791926966.3914583
   ],
+  "q:should": [
+   0,
+   "",
+   1792188108.082326
+  ],
   "q:showcase": [
    0,
    "",
@@ -11493,6 +11598,16 @@
    "",
    1792145448.2122767
   ],
+  "q:still": [
+   0,
+   "",
+   1792188151.4443479
+  ],
+  "q:still missing": [
+   0,
+   "",
+   1792188150.9090676
+  ],
   "q:story": [
    0,
    "",
@@ -11907,6 +12022,21 @@
    0,
    "",
    1791926986.5760908
+  ],
+  "q:there": [
+   0,
+   "",
+   1792188107.599703
+  ],
+  "q:there should": [
+   0,
+   "",
+   1792188107.0667222
+  ],
+  "q:there should be a game award for hot dads": [
+   0,
+   "",
+   1792188106.0767558
   ],
   "q:they": [
    0,
@@ -13091,10 +13221,12 @@
  },
  "tag_hints": {
   "Mezha": [
+   "android",
    "apple",
    "bluesky",
-   "call of duty",
    "fpv-дрони",
+   "galaxy s27",
+   "google translate",
    "iphone duo",
    "sony",
    "walkman",
@@ -13119,107 +13251,10 @@
    "україна",
    "уряд",
    "штучний інтелект",
-   "ігри",
    "історія"
   ]
  },
  "titles": [
-  [
-   1792009795.8090594,
-   "Half Sumo Launches First Ever Ozzy Osbourne Jiu-Jitsu Collection"
-  ],
-  [
-   1792009812.0748272,
-   "Zero Escape and The Hundred Line co-creator's new studio \"might literally crash into a million pieces\" after the cancellation of its next game"
-  ],
-  [
-   1792009820.2319274,
-   "Nvidia's Huang Says He Would Not Sell Chips to Irresponsible AI Customers"
-  ],
-  [
-   1792009829.540316,
-   "Google says self-improving AI isn't anywhere close"
-  ],
-  [
-   1792009836.861674,
-   "What Makes A Good MEGADETH Riff? DAVE MUSTAINE Responds"
-  ],
-  [
-   1792009857.0543034,
-   "Xbox Survey About Exclusives Includes A Nuclear Strategy, But Wait Just A Minute"
-  ],
-  [
-   1792009867.274881,
-   "Epic Is Overhauling Its Anti-Cheat So That Fortnite Can Finally Come To A New Platform"
-  ],
-  [
-   1792009871.5961552,
-   "Kingdom Of Giants Stream New Song “10 Cent Martyr”"
-  ],
-  [
-   1792009875.978884,
-   "From First To Last Announce December Texan Tour With UnityTX, Rosasharin, Etc."
-  ],
-  [
-   1792009880.1728306,
-   "Extermination Dismemberment present music video for new single \"Enslaver Of The Continents\""
-  ],
-  [
-   1792009884.2661211,
-   "Primus, Clutch and Crowbar announced for Sonic Temple Art & Music Festival 2027"
-  ],
-  [
-   1792009889.134042,
-   "Obituary mull the idea of starting work on their next album"
-  ],
-  [
-   1792010013.9407115,
-   "У Brawl Stars пройде конкурс Supercell Make Icon із нагородою в 500 самоцвітів"
-  ],
-  [
-   1792010018.3506663,
-   "STEVE HARRIS's BRITISH LION Announces Six Consecutive Christmas 2026 Shows At London's Cart & Horses"
-  ],
-  [
-   1792010023.01759,
-   "Heilung Share “Læknisgaldr” Video From ‘Sagas,’ Their Collection of ‘Hellblade II’ Recordings"
-  ],
-  [
-   1792010034.0638158,
-   "Invincible VS Players Can't Get Enough of Atom Eve's 'Thicc' Casual Skin"
-  ],
-  [
-   1792010038.4811957,
-   "Chained Saint Guitarist Joins Sepultura Onstage After New EP"
-  ],
-  [
-   1792010043.0156052,
-   "Tortured Demon Sign With BLKIIBLK, Debut “Apocalypse” Music Video"
-  ],
-  [
-   1792010047.517757,
-   "(Hed)p.e. Opt For CD-Only Release Of Their New Album “Relapse” As Digital Versions Get Delayed To Summer 2027"
-  ],
-  [
-   1792010053.1910448,
-   "SAMMY HAGAR: 'I Would Love To Bury The Hatchet With ALEX VAN HALEN'"
-  ],
-  [
-   1792010065.8534727,
-   "Total War Fans Blast New Remaster Over Bugs, AI Accusations"
-  ],
-  [
-   1792010071.8301182,
-   "Midnight deliver visualizer for \"Violence On Violence\" from upcoming live LP prior to tour with GWAR"
-  ],
-  [
-   1792010077.7478902,
-   "Emmure's Frankie Palmeri weighs in on Metallica's James Hetfield Las Vegas show comments"
-  ],
-  [
-   1792010084.2359428,
-   "Satanic Planet present short film 'Antichrist' ahead of new album release"
-  ],
   [
    1792021705.3810573,
    "Windows 11 отримала оновлення з виправленням проблем у деяких відеоіграх та іншими змінами"
@@ -14083,6 +14118,54 @@
   [
    1792177307.250797,
    "Korn drop 'Life Is Peachy' 30th anniversary merch collection, including \"Spice Is Peachy\" hot sauce"
+  ],
+  [
+   1792188102.4928598,
+   "Financing The AI Boom: Masters in Business with Bob Michele"
+  ],
+  [
+   1792188113.80552,
+   "‘There Should be a Game Award for Hot Dads’ — Castlevania: Belmont’s Curse Devs Are Fully Aware and Loving the ‘Horny’ Fanart for Their Game"
+  ],
+  [
+   1792188120.1700094,
+   "‘Whalefall’ Review: Austin Abrams Wrestles With Grief, Toxic Masculinity & Grotesque Whale Innards In Emotionally Gutsy Body Horror"
+  ],
+  [
+   1792188126.4602995,
+   "Francis Lawrence To Direct Sci-Fi Film ‘Red Rising’ For Paramount"
+  ],
+  [
+   1792188131.1941636,
+   "OpenAI Poaches Another SpaceX Sales Lead Focused on AI"
+  ],
+  [
+   1792188137.7385962,
+   "Apple Names Meta Veteran as Litigation Chief in Legal Team Shake-Up"
+  ],
+  [
+   1792188143.0501125,
+   "‘Crystal Lake’s Gwendolyn Sundstrom On Grace’s Friendship With Jason, “Learning A Lot” From Linda Cardellini & That Killer Twist"
+  ],
+  [
+   1792188155.2770865,
+   "8 Call of Duty Games Still Missing from Game Pass"
+  ],
+  [
+   1792188162.0756912,
+   "NationalSecurityAgency/ghidra"
+  ],
+  [
+   1792188168.015506,
+   "Monk cover two Stop and Think songs for Edge Day"
+  ],
+  [
+   1792188173.6129656,
+   "Obscura scrap remaining Mexican tour dates due to logistical and organizational issues"
+  ],
+  [
+   1792188180.645691,
+   "Haywire announce East and East Coast record release show dates for 2027"
   ]
  ],
  "weekly_releases_week": "2026-W42",
@@ -15902,7 +15985,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792177320.8579578,
+  "last_check": 1792188190.8409064,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
