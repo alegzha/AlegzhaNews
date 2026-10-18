@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1792353675.7675114
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1792353673.3129919
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-18",
  "freebies": {
   "last_check": 1792351890.3366258,
@@ -1055,6 +1042,20 @@
     "link": "https://www.polygon.com/the-witchs-bakery-recommendation-steam-switch-ps5-xbox/",
     "orig": "New Steam Game is Basically Kiki’s Delivery Service in Video Game Form"
    }
+  ],
+  [
+   1792355414.3178525,
+   1020,
+   "🎮",
+   "У Тайвані стала вірусною браузерна гра про роботу на виробництві чипів – гравці кажуть, що по суті це \"горор\"",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🎮 <b>У Тайвані стала вірусною браузерна гра про роботу на виробництві чипів – гравці кажуть, що по суті це &quot;горор&quot;</b>\n\nУ Тайвані швидко набирає популярності безкоштовна браузерна гра Fab24hr: A Day in the Life of a Semiconductor Wafer Factory Worker, яка відтворює повсякденну роботу співробітників підприємств із виробництва чипів. Користувачі порівнюють її не з розвагою, а з &quot;горором&quot; або навіть &quot;в&#x27;язницею&quot;.\n\n🔗 <a href=\"https://mezha.ua/news/u-tayvani-stala-populyarnoyu-gra-pro-robotu-na-virobnictvi-chipiv-316285/\">Mezha</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/u-tayvani-stala-populyarnoyu-gra-pro-robotu-na-virobnictvi-chipiv-316285/",
+    "orig": "У Тайвані стала вірусною браузерна гра про роботу на виробництві чипів – гравці кажуть, що по суті це \"горор\""
+   }
   ]
  ],
  "posted_by_source": {
@@ -1113,7 +1114,8 @@
   "games|Mezha|https://mezha.ua/feed/": [
    1792306035.8838491,
    1792319471.5022793,
-   1792341084.40515
+   1792341084.40515,
+   1792355414.3181012
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1792264341.8558624,
@@ -1555,6 +1557,7 @@
   "2b86ffad7f7c83c7": 1791994373.2696502,
   "2c3b4d1bac93f45d": 1792145444.7022057,
   "2cfe09a255dd0a60": 1791807570.1964123,
+  "2d08a9311282e443": 1792355415.8195353,
   "2d5d049789d8d50f": 1791929823.1571426,
   "2d83cacc6ce2a481": 1792273203.6721263,
   "2dc671cca0a11ab5": 1791639245.614978,
@@ -2024,6 +2027,7 @@
   "917f1a5a1e682642": 1792197807.6505895,
   "9198c9e097613d30": 1792129261.8607218,
   "91a43f5b773e51ef": 1791843862.675442,
+  "91a5bb0661a5541f": 1792355414.318049,
   "91f17251c147b8b9": 1791668275.4877675,
   "92705331275526a8": 1791969317.3066757,
   "928f6a53c78678f7": 1792197823.141276,
@@ -3686,7 +3690,7 @@
    "Loudwire": 1,
    "Metal Hammer (Louder)": 3,
    "Metal Injection": 2,
-   "Mezha": 3,
+   "Mezha": 4,
    "PC Gamer": 9,
    "Pitchfork": 2,
    "PlayUA": 2,
@@ -8356,8 +8360,6 @@
    "deepseek",
    "geforce rtx 5090",
    "magura",
-   "street fighter",
-   "street fighter: вуличний боєць",
    "ubisoft",
    "автомобілі",
    "армія сша",
@@ -8370,20 +8372,20 @@
    "добірка",
    "залізо",
    "зроблено в україні",
-   "кіно",
    "морські дрони",
+   "напівпровідники",
    "новини",
    "нрк",
    "оборонка",
-   "огляди",
    "перехоплювачі",
    "ппо",
    "ракети",
    "робот-амфібія",
+   "симулятори",
    "статті",
    "ударні безпілотники",
    "україна",
-   "фільми",
+   "чипи",
    "шахед",
    "штучний інтелект",
    "ігри"
@@ -9493,6 +9495,10 @@
   [
    1792353699.7879052,
    "New Steam Game is Basically Kiki’s Delivery Service in Video Game Form"
+  ],
+  [
+   1792355414.3180506,
+   "У Тайвані стала вірусною браузерна гра про роботу на виробництві чипів – гравці кажуть, що по суті це \"горор\""
   ]
  ],
  "titles_uk": [
@@ -9971,6 +9977,10 @@
   [
    1792353699.787906,
    "The Witch’s Bakery пропонує затишну магічну пекарню в дусі Studio Ghibli"
+  ],
+  [
+   1792355414.318051,
+   "У Тайвані стала вірусною браузерна гра про роботу на виробництві чипів – гравці кажуть, що по суті це \"горор\""
   ]
  ],
  "ukrainian": {
@@ -12169,7 +12179,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792351889.933838,
+  "last_check": 1792355423.723165,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
