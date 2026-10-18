@@ -72,13 +72,18 @@ def name_variants(steam_name):
     return {v for v in variants if v}
 
 
+CACHE_MISS_TTL = 2 * 86400
+
+
 class SteamLinker:
     def __init__(self, http, state, ignore=None):
         self.http = http
         cache = state.setdefault("steam", {})
         now = time.time()
         # прибираємо застарілий кеш
-        for k in [k for k, v in cache.items() if now - v[2] > CACHE_TTL]:
+        # «не знайдено» тримаємо 2 дні (гра могла з'явитися в Steam), решту — CACHE_TTL
+        for k in [k for k, v in cache.items()
+                  if now - v[2] > (CACHE_MISS_TTL if not v[0] else CACHE_TTL)]:
             del cache[k]
         self.cache = cache
         self.ignore = {norm(x) for x in (ignore or [])}

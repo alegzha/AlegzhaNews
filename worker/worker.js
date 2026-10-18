@@ -39,6 +39,21 @@ const BROWSER_UA =
   "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36";
 
 export default {
+  // Таймер Cloudflare (кожні 30 хв, див. wrangler.toml): запускає бота на GitHub.
+  // Розклад самого GitHub для безкоштовних репозиторіїв спрацьовує раз на 2–4 години.
+  async scheduled(event, env, ctx) {
+    ctx.waitUntil((async () => {
+      const busy = await gh(env, `/actions/workflows/${WORKFLOW_FILE}/runs?status=in_progress&per_page=1`)
+        .then((r) => r.json()).catch(() => ({}));
+      if (busy.total_count) return; // попередній запуск ще працює
+      const res = await gh(env, `/actions/workflows/${WORKFLOW_FILE}/dispatches`, {
+        method: "POST",
+        body: JSON.stringify({ ref: "main" }),
+      });
+      if (res.status !== 204) console.log("scheduled dispatch failed", res.status, await res.text());
+    })());
+  },
+
   async fetch(request, env) {
     const url = new URL(request.url);
 

@@ -13,6 +13,7 @@ import re
 import sys
 import time
 from calendar import timegm
+from datetime import datetime, timedelta
 
 import feedparser
 import requests
@@ -102,6 +103,9 @@ def save_state(state):
     state["titles"] = [
         t for t in state["titles"] if now - t[0] < TITLE_MEMORY_HOURS * 3600
     ]
+    state["titles_uk"] = [
+        t for t in state.get("titles_uk", []) if now - t[0] < TITLE_MEMORY_HOURS * 3600
+    ]
     with open(STATE_PATH, "w", encoding="utf-8") as f:
         json.dump(state, f, ensure_ascii=False, indent=1, sort_keys=True)
 
@@ -116,6 +120,40 @@ def item_key(entry):
 def title_tokens(title):
     words = re.findall(r"[a-z0-9']+", title.lower())
     return {w for w in words if len(w) > 2 and w not in STOPWORDS}
+
+
+UK_STOP = {
+    "про", "для", "після", "через", "його", "їхній", "свій", "своє", "своїх", "який", "яка", "які",
+    "що", "як", "вже", "ще", "але", "або", "це", "цей", "ця", "ці", "від", "при", "над", "під",
+    "без", "буде", "може", "стала", "став", "нова", "новий", "нові", "нового", "нову",
+}
+
+
+def any_tokens(text):
+    """Ключові слова будь-якою мовою: кириличні слова обрізаємо до 5 літер (грубий корінь),
+    латиницю й числа лишаємо як є — назви в перекладах зазвичай не змінюються."""
+    out = set()
+    for w in re.findall(r"[a-zа-яіїєґ0-9']+", (text or "").lower()):
+        if w in STOPWORDS or w in UK_STOP or (len(w) < 3 and not w.isdigit()):
+            continue
+        out.add(w[:5] if re.search(r"[а-яіїєґ]", w) else w)
+    return out
+
+
+def is_duplicate_published(title_uk, recent):
+    """Та сама новина вже була в каналі (порівнюємо українські заголовки, тож ловимо
+    повтори між мовами й між українськими сайтами)."""
+    tokens = any_tokens(title_uk)
+    if len(tokens) < 3:
+        return False
+    for _, other in recent:
+        other_tokens = any_tokens(other)
+        if len(other_tokens) < 3:
+            continue
+        shared = len(tokens & other_tokens)
+        if shared >= 3 and shared / min(len(tokens), len(other_tokens)) >= 0.6:
+            return True
+    return False
 
 
 def is_duplicate_story(title, recent_titles):
@@ -371,6 +409,7 @@ def translate(text):
                 result = fn(text)
                 if result and result.strip():
                     TR_STATS["ok"].add(name)
+                    TR_STATS.setdefault("count", {})[name] = TR_STATS.setdefault("count", {}).get(name, 0) + 1
                     return result
             except Exception as e:  # noqa: BLE001
                 msg = str(e)
@@ -608,6 +647,73 @@ def report_health(alerts, pub):
         alerts.problem("publish", "Не вдається публікувати в канал", pub["error"], repeat_hours=6)
     elif pub["ok"]:
         alerts.ok("publish")
+
+
+# ---------- тижнева статистика ----------
+
+def _week(ts=None):
+    return datetime.fromtimestamp(ts or time.time(), wishlist.KYIV).strftime("%G-W%V")
+
+
+def stats_add(state, kind, key, n=1):
+    if not n:
+        return
+    st = state.setdefault("stats", {"week": _week()})
+    if st.get("week") != _week():
+        return  # звіт за минулий тиждень ще не надіслано — weekly_report обнулить на початку запуску
+    bucket = st.setdefault(kind, {})
+    bucket[key] = bucket.get(key, 0) + n
+
+
+TRANSLATOR_NAMES = {
+    "gemini-flash-latest": "Gemini Flash",
+    "gemini-flash-lite-latest": "Gemini Flash-Lite",
+}
+
+
+def weekly_report(config, state):
+    """Раз на тиждень (у перший запуск нового тижня) — звіт власнику в особисті."""
+    st = state.get("stats")
+    if not st:
+        state["stats"] = {"week": _week()}
+        return
+    if st.get("week") == _week():
+        return
+    sources = st.get("sources", {})
+    extra = st.get("extra", {})
+    total = sum(sources.values()) + sum(extra.values())
+    try:
+        y, w = st["week"].split("-W")
+        monday = datetime.fromisocalendar(int(y), int(w), 1).date()
+        title = f"📊 <b>Звіт за тиждень {releases.date_range_label(monday, monday + timedelta(days=6))}</b>"
+    except Exception:  # noqa: BLE001
+        title = "📊 <b>Звіт за тиждень</b>"
+    lines = [title, "", f"Опубліковано постів: <b>{total}</b>"]
+    if sources:
+        top = sorted(sources.items(), key=lambda kv: -kv[1])
+        lines += ["", "<b>Джерела:</b>"] + [f"• {html.escape(k)} — {v}" for k, v in top]
+    if extra:
+        lines += ["", "<b>Окремо:</b>"] + [f"• {html.escape(k)} — {v}" for k, v in extra.items()]
+    configured = []
+    for cat in config["categories"].values():
+        for f in cat["feeds"]:
+            if f["name"] not in configured:
+                configured.append(f["name"])
+    silent = [n for n in configured if n not in sources]
+    if silent:
+        lines += ["", "<b>Мовчали весь тиждень:</b> " + html.escape(", ".join(silent))]
+    tr = st.get("translators", {})
+    if tr:
+        parts = [f"{TRANSLATOR_NAMES.get(k, k)} — {v}" for k, v in sorted(tr.items(), key=lambda kv: -kv[1])]
+        lines += ["", "<b>Переклад:</b> " + html.escape(", ".join(parts))]
+    if ADMIN_ID or DRY_RUN:
+        try:
+            notify_admin("\n".join(lines))
+            log.info("📊 Тижневий звіт надіслано")
+        except Exception as e:  # noqa: BLE001
+            log.warning("Не вдалося надіслати тижневий звіт: %s", e)
+            return  # спробуємо наступного запуску
+    state["stats"] = {"week": _week()}
 
 
 def build_caption(cat, title_html, summary_uk, source, link, extra_games=()):
@@ -925,6 +1031,7 @@ def main():
             pub["error"] = str(e)
             raise
 
+    weekly_report(config, state)
     candidates = collect(config, state, alerts)
     steam = SteamLinker(HTTP, state, config.get("filters", {}).get("steam_ignore", []))
 
@@ -1001,6 +1108,12 @@ def main():
             log.warning("Переклад зіпсував назви (QQ-мітки), спробую наступного разу: %s", c["title"])
             continue
 
+        title_plain = html.unescape(re.sub(r"<[^>]+>", "", title_html))
+        if is_duplicate_published(title_plain, state.setdefault("titles_uk", [])):
+            log.info("↪ така новина вже була в каналі, пропускаю: %s", title_plain)
+            state["seen"][c["key"]] = time.time()
+            continue
+
         image = image_from_entry(entry) or image_from_page(link)
         caption = build_caption(c["cat"], title_html, summary_uk, c["source"], link, extra_games)
         try:
@@ -1011,18 +1124,20 @@ def main():
 
         state["seen"][c["key"]] = time.time()
         state["titles"].append([time.time(), c["title"]])
+        state["titles_uk"].append([time.time(), title_plain])
+        stats_add(state, "sources", c["source"])
         if c.get("source_id"):
             log_ = state.setdefault("posted_by_source", {}).setdefault(c["source_id"], [])
             log_[:] = [t for t in log_ if time.time() - t < 86400] + [time.time()]
         posted += 1
         log.info("📤 %s — %s", c["source"], c["title"])
-        time.sleep(3)  # не частіше ~20 повідомлень на хвилину в канал
+        time.sleep(1.5)  # Telegram дозволяє ~20 повідомлень на хвилину в канал
 
     wl_cfg = config.get("wishlist") or {}
     if wl_cfg.get("enabled") and wl_cfg.get("profile"):
         before = state.get("wishlist", {}).get("last_check", 0)
         try:
-            posted += wishlist.check(
+            wl_posted = wishlist.check(
                 HTTP,
                 state,
                 wl_cfg,
@@ -1030,6 +1145,8 @@ def main():
                 html.escape,
                 force=FORCE_RELEASES,
             )
+            posted += wl_posted
+            stats_add(state, "extra", "Вішліст Steam", wl_posted)
             if state["wishlist"].get("last_check", 0) != before:
                 alerts.ok("wishlist")
         except Exception as e:  # noqa: BLE001
@@ -1051,12 +1168,19 @@ def main():
     sp_cfg = config.get("spotify") or {}
     if sp_cfg.get("enabled") and spotify.configured():
         try:
-            posted += spotify.check(HTTP, state, sp_cfg, post, html.escape)
+            sp_posted = spotify.check(HTTP, state, sp_cfg, post, html.escape)
+            posted += sp_posted
+            stats_add(state, "extra", "Spotify", sp_posted)
             alerts.ok("spotify")
         except Exception as e:  # noqa: BLE001
             log.error("Spotify: %s", e)
             alerts.problem("spotify", "Spotify недоступний", str(e), after_hours=3)
 
+    for model, n in TR_STATS.get("models", {}).items():
+        stats_add(state, "translators", model, n)
+    for name, n in TR_STATS.get("count", {}).items():
+        if name != "Gemini":  # Gemini вже пораховано по моделях
+            stats_add(state, "translators", name, n)
     report_health(alerts, pub)
     if TR_STATS["ok"] or TR_STATS.get("gemini_error"):
         # для діагностики: якими перекладачами користувався останній запуск

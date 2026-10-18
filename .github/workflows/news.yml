@@ -2,7 +2,7 @@ name: News to Telegram
 
 on:
   schedule:
-    - cron: "*/30 * * * *"   # кожні 30 хвилин
+    - cron: "17 */3 * * *"   # запасний розклад; основний запуск — таймер воркера Cloudflare кожні 30 хв
   workflow_dispatch:          # кнопка ручного запуску у вкладці Actions
     inputs:
       releases:

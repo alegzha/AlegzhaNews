@@ -5,3 +5,7 @@ name = "alegzhanews"
 main = "worker/worker.js"
 compatibility_date = "2026-09-01"
 keep_vars = true
+
+# Запуск бота кожні 30 хвилин (точніше, ніж розклад GitHub)
+[triggers]
+crons = ["*/30 * * * *"]
