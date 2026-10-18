@@ -1,8 +1,39 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:ai|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1792359095.448466
+  },
+  "src:games|Digital Foundry|https://www.digitalfoundry.net/feed": {
+   "detail": "https://www.digitalfoundry.net/feed → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/feed.xml → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.eurogamer.net/feed/digitalfoundry → 404 Client Error: Not Found for url: https://www.eurogamer.net/feed/digitalfoundry",
+   "label": "Джерело «Digital Foundry» не працює",
+   "sent": 0,
+   "since": 1792359078.6196167
+  },
+  "src:games|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1792359061.9571748
+  },
+  "src:movies|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1792359092.9056194
+  },
+  "src:software|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1792359092.9295087
+  }
+ },
  "daily_digest_date": "2026-10-18",
  "freebies": {
-  "last_check": 1792351890.3366258,
+  "last_check": 1792359131.0279984,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -10,11 +41,12 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-18 21:01 UTC",
+  "at": "2026-10-18 21:32 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-latest",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
@@ -1117,6 +1149,34 @@
     "link": "https://deadline.com/2026/10/jesse-eisenberg-tv-series-peter-rice-a24-1237167146/",
     "orig": "Jesse Eisenberg TV Series Produced By Peter Rice To Be Taken Out By A24"
    }
+  ],
+  [
+   1792359111.4403017,
+   1025,
+   "🎬",
+   "Леа Сейду претендує на «Оскар» за роль у драмі Gentle Monster від Netflix",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Леа Сейду претендує на «Оскар» за роль у драмі Gentle Monster від Netflix</b>\n\nАкторка Леа Сейду отримала нагороду фестивалю в Міддлбурзі та претендує на «Оскар» за головну роль у драмі Gentle Monster від Netflix. У стрічці Марі Кройцер вона грає попспівачку, чоловіка якої звинувачують у насильстві над дітьми. Сейду зізналася, що спершу боялася цієї важкої теми, проте її підкорив сильний та проникливий сценарій.\n\n🔗 <a href=\"https://www.indiewire.com/awards/consider-this/lea-seydoux-blue-is-the-warmest-color-gentle-monster-1235222558/\">IndieWire</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/awards/consider-this/lea-seydoux-blue-is-the-warmest-color-gentle-monster-1235222558/",
+    "orig": "Léa Seydoux Became Fearless After the Controversies of ‘Blue Is the Warmest Color’ — She’s Doing It Again with ‘Gentle Monster’"
+   }
+  ],
+  [
+   1792359121.8481076,
+   1026,
+   "🎮",
+   "Lucasfilm: Іграм за Star Wars не потрібні топові видавці",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Lucasfilm: Іграм за Star Wars не потрібні топові видавці</b>\n\n🔗 <a href=\"https://insider-gaming.com/lucasfilm-star-wars-games-independent-studios/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/lucasfilm-star-wars-games-independent-studios/",
+    "orig": "Star Wars Games Don’t Need Top Publishers, Lucasfilm Says"
+   }
   ]
  ],
  "posted_by_source": {
@@ -1168,7 +1228,8 @@
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
    1792326708.1812124,
    1792335697.3945026,
-   1792337508.49702
+   1792337508.49702,
+   1792359121.8483295
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1792306035.8838491,
@@ -1281,7 +1342,8 @@
    1792148790.6340156
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
-   1792352545.681597
+   1792352545.681597,
+   1792359111.440555
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1792229891.957855,
@@ -1637,6 +1699,7 @@
   "320d93b1ae5381c2": 1791926739.5384243,
   "322954b1c8bd7765": 1791786696.691929,
   "324a82f301361e46": 1792101816.172364,
+  "32881189f38bb052": 1792359121.848284,
   "32d335af8fb1af3d": 1792281264.6447327,
   "33171e133b60e5d4": 1792350085.446993,
   "33a23dda2e60d071": 1792164717.9040089,
@@ -1949,6 +2012,7 @@
   "776d74d8c2ab4d05": 1791742982.3528411,
   "777fb994467a31c9": 1792148832.4882214,
   "77c11e8bf98f3bda": 1792009812.0748243,
+  "77ca31800fd0d914": 1792359111.4405072,
   "77d82ef03c08d4fe": 1792249923.9539692,
   "77ee6e21da1d2427": 1791926744.4915335,
   "77fc727769a7c744": 1791908454.9692664,
@@ -3726,10 +3790,13 @@
  },
  "stats": {
   "sources": {
-   "Deadline": 1
+   "Deadline": 1,
+   "IndieWire": 1,
+   "Insider Gaming": 1
   },
   "translators": {
-   "gemini-flash-latest": 1
+   "gemini-flash-latest": 2,
+   "gemini-flash-lite-latest": 1
   },
   "week": "2026-W43"
  },
@@ -7699,6 +7766,16 @@
    "",
    1792310490.7677765
   ],
+  "q:star": [
+   0,
+   "",
+   1792359116.3616607
+  ],
+  "q:star wars": [
+   0,
+   "",
+   1792359115.8131967
+  ],
   "q:star wars galactic racer": [
    4078430,
    "STAR WARS: Galactic Racer™",
@@ -7708,6 +7785,26 @@
    0,
    "",
    1792264339.7449496
+  ],
+  "q:star wars games": [
+   0,
+   "",
+   1792359115.2108567
+  ],
+  "q:star wars games don't": [
+   0,
+   "",
+   1792359114.6914294
+  ],
+  "q:star wars games don't need": [
+   0,
+   "",
+   1792359114.1495607
+  ],
+  "q:star wars games don't need top": [
+   0,
+   "",
+   1792359113.6328664
   ],
   "q:star wars zero company": [
    2075800,
@@ -8293,6 +8390,36 @@
    0,
    "",
    1792270312.5059705
+  ],
+  "q:wars": [
+   0,
+   "",
+   1792359120.0455132
+  ],
+  "q:wars games": [
+   0,
+   "",
+   1792359119.4939117
+  ],
+  "q:wars games don't": [
+   0,
+   "",
+   1792359118.6950467
+  ],
+  "q:wars games don't need": [
+   0,
+   "",
+   1792359118.183645
+  ],
+  "q:wars games don't need top": [
+   0,
+   "",
+   1792359117.5394568
+  ],
+  "q:wars games don't need top publishers": [
+   0,
+   "",
+   1792359117.0097558
   ],
   "q:was": [
    0,
@@ -9613,6 +9740,14 @@
   [
    1792357292.7400475,
    "Jesse Eisenberg TV Series Produced By Peter Rice To Be Taken Out By A24"
+  ],
+  [
+   1792359111.4405098,
+   "Léa Seydoux Became Fearless After the Controversies of ‘Blue Is the Warmest Color’ — She’s Doing It Again with ‘Gentle Monster’"
+  ],
+  [
+   1792359121.848286,
+   "Star Wars Games Don’t Need Top Publishers, Lucasfilm Says"
   ]
  ],
  "titles_uk": [
@@ -10111,6 +10246,14 @@
   [
    1792357292.7400482,
    "Джессі Айзенберг напише та зніме новий серіал для A24"
+  ],
+  [
+   1792359111.4405105,
+   "Леа Сейду претендує на «Оскар» за роль у драмі Gentle Monster від Netflix"
+  ],
+  [
+   1792359121.8482866,
+   "Lucasfilm: Іграм за Star Wars не потрібні топові видавці"
   ]
  ],
  "ukrainian": {
@@ -12309,7 +12452,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792355423.723165,
+  "last_check": 1792359130.7858152,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
