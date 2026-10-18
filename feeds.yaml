@@ -126,7 +126,7 @@ categories:
       - name: GitHub Trending
         url: https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml   # github.com/trending у вигляді RSS
         max_per_run: 1
-        max_per_day: 5
+        max_per_day: 10
       - name: Bloomberg
         url: https://www.bloomberg.com/feeds/technology/news.rss
         include_keywords: ["software", "Microsoft", "Windows", "Apple", "iPhone", "iOS", "macOS", "Android", "app", "apps", "App Store", "Adobe", "Salesforce", "Oracle", "SAP", "cybersecurity", "hackers", "hack", "open-source", "cloud"]
@@ -206,7 +206,7 @@ fetch_proxy: "https://alegzhanews.alegzha.workers.dev/feed"
 
 # Ліміти, щоб канал не перетворився на смітник
 limits:
-  max_posts_per_run: 12        # максимум постів за одну перевірку (кожні 30 хв)
-  max_per_source_per_run: 3    # максимум з одного сайту за перевірку
+  max_posts_per_run: 15        # максимум постів за одну перевірку (кожні 30 хв)
+  max_per_source_per_run: 5    # максимум з одного сайту за перевірку
   max_age_hours: 12            # старіші новини ігноруються
   summary_chars: 450           # довжина опису під заголовком
