@@ -1,25 +1,21 @@
 {
- "alerts": {
-  "freebies": {
-   "detail": "404 Client Error: Not Found for url: https://www.gamerpower.com/api/giveaways?platform=epic-games-store.steam.gog&type=game&sort-by=date",
-   "label": "Халява (GamerPower) недоступна",
-   "sent": 0,
-   "since": 1792306084.9283783
+ "alerts": {},
+ "freebies": {
+  "last_check": 1792306888.9735367,
+  "seen": {
+   "3716": 1792306888.9735367,
+   "3816": 1792306888.9735367,
+   "3817": 1792306888.9735367
   }
  },
- "freebies": {
-  "last_check": 0,
-  "seen": {}
- },
  "last_translation": {
-  "at": "2026-10-18 06:48 UTC",
-  "gemini_error": "503 Server Error: Service Unavailable for url: https://generativelanguage.googleapis.com/v1beta/models/gemini-flash-latest:generateContent",
+  "at": "2026-10-18 07:01 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 5
+   "gemini-flash-latest": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
@@ -79,6 +75,13 @@
    "🤘",
    "Гурт Nervosa скасував майбутній тур по Великій Британії та Ірландії разом із гуртом Xentirx через проблеми зі здоров’ям гітаристки Пріки Амарал",
    "Lambgoat"
+  ],
+  [
+   1792306879.8346705,
+   907,
+   "💾",
+   "OpenCode вийшов як настільний застосунок із вбудованими агентами",
+   "GitHub Trending"
   ]
  ],
  "posted_by_source": {
@@ -301,7 +304,8 @@
    1792270357.972716,
    1792281288.5756865,
    1792303996.333466,
-   1792304858.9560757
+   1792304858.9560757,
+   1792306879.8348894
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1792164569.204597,
@@ -1002,6 +1006,7 @@
   "ad237b18af606aac": 1791837735.1525705,
   "ad3746b85acd7025": 1791879509.699908,
   "ad66c1bc22cdb65b": 1792214788.7202675,
+  "adbef724cb274560": 1792306879.8346796,
   "add5bd44c0bbb083": 1792164208.800719,
   "adf7db655a8259fb": 1792295989.4994938,
   "ae3e59418abf5172": 1791989243.3478537,
@@ -2479,8 +2484,11 @@
   }
  },
  "stats": {
+  "extra": {
+   "Халява": 2
+  },
   "sources": {
-   "GitHub Trending": 1,
+   "GitHub Trending": 2,
    "ITC.ua": 1,
    "Lambgoat": 5,
    "Mezha": 1,
@@ -2488,7 +2496,7 @@
   },
   "translators": {
    "DeepL": 2,
-   "gemini-flash-latest": 6
+   "gemini-flash-latest": 7
   },
   "week": "2026-W42"
  },
@@ -7574,6 +7582,10 @@
   [
    1792306082.9737701,
    "Nervosa cancel upcoming UK/Ireland tour with Xentirx due to guitarist Prika Amaral health issues"
+  ],
+  [
+   1792306879.8346815,
+   "anomalyco/opencode"
   ]
  ],
  "titles_uk": [
@@ -7612,6 +7624,10 @@
   [
    1792306082.9737713,
    "Гурт Nervosa скасував майбутній тур по Великій Британії та Ірландії разом із гуртом Xentirx через проблеми зі здоров’ям гітаристки Пріки Амарал"
+  ],
+  [
+   1792306879.8346827,
+   "OpenCode вийшов як настільний застосунок із вбудованими агентами"
   ]
  ],
  "ukrainian": {
@@ -9805,7 +9821,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792302854.582089,
+  "last_check": 1792306888.5775692,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
