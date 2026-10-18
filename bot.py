@@ -154,8 +154,8 @@ def is_duplicate_published(title_uk, recent):
             continue
         shared = len(tokens & other_tokens)
         if shared >= 3 and shared / min(len(tokens), len(other_tokens)) >= 0.6:
-            return True
-    return False
+            return other
+    return None
 
 
 def is_duplicate_story(title, recent_titles):
@@ -168,8 +168,8 @@ def is_duplicate_story(title, recent_titles):
             continue
         overlap = len(tokens & other_tokens) / min(len(tokens), len(other_tokens))
         if overlap >= 0.7:
-            return True
-    return False
+            return other
+    return None
 
 
 # ---------- текст і картинки ----------
@@ -514,8 +514,14 @@ def tg(method, **payload):
     raise RuntimeError("Telegram rate limit")
 
 
+LAST_KIND = "text"  # тип останнього поста: photo або text (для подальшого редагування)
+
+
 def _msg_id(data):
-    return ((data or {}).get("result") or {}).get("message_id")
+    global LAST_KIND
+    result = (data or {}).get("result") or {}
+    LAST_KIND = "photo" if result.get("photo") else "text"
+    return result.get("message_id")
 
 
 def publish(caption, image_url, link, chat_id=None):
@@ -523,7 +529,7 @@ def publish(caption, image_url, link, chat_id=None):
     if DRY_RUN:
         print("\n" + "=" * 60 + f"\n[IMG] {image_url}\n{caption}\n")
         return None
-    common = {"chat_id": chat_id or CHANNEL_ID, "parse_mode": "HTML"}
+    common = {"chat_id": chat_id or CHANNEL_ID, "parse_mode": "HTML", "disable_notification": json.dumps(quiet_now())}
     if image_url:
         try:
             return _msg_id(tg("sendPhoto", photo=image_url, caption=caption, **common))
@@ -551,6 +557,15 @@ def publish(caption, image_url, link, chat_id=None):
 
 
 CHANNEL_USERNAME = ""
+QUIET_HOURS = (23, 8)  # задається в feeds.yaml (quiet_hours); у цей час пости приходять без звуку
+
+
+def quiet_now():
+    start, end = QUIET_HOURS
+    if start == end:
+        return False
+    h = datetime.now(wishlist.KYIV).hour
+    return (start <= h or h < end) if start > end else (start <= h < end)
 
 
 def post_link(message_id, chat_id=None):
@@ -697,6 +712,7 @@ def send_text(text, chat_id=None):
         text=text,
         parse_mode="HTML",
         link_preview_options=json.dumps({"is_disabled": True}),
+        disable_notification=json.dumps(quiet_now() if not chat_id or chat_id == CHANNEL_ID else False),
     )
 
 
@@ -842,7 +858,7 @@ def daily_digest(state, cfg):
         return 0
     lines = [f"🗞 <b>Головне за {now.day} {releases.MONTHS[now.month - 1]}</b>", ""]
     for k, i in enumerate(dict.fromkeys(order[:n]), 1):
-        ts, msg_id, emoji, title, source = posts[i]
+        ts, msg_id, emoji, title, source = posts[i][:5]
         url = post_link(msg_id)
         t = html.escape(title)
         lines.append(f"{k}. {emoji} " + (f'<a href="{url}">{t}</a>' if url else t))
@@ -852,12 +868,57 @@ def daily_digest(state, cfg):
     return 1
 
 
-def log_post(state, msg_id, emoji, title, source):
-    """Журнал опублікованих постів: для «Головного за день» і реакцій у тижневому звіті."""
+def log_post(state, msg_id, emoji, title, source, orig="", caption="", kind="text", link=""):
+    """Журнал опублікованих постів: для «Головного за день» і дописування «Також пишуть»."""
     now = time.time()
     plog = [p for p in state.get("post_log", []) if now - p[0] < 8 * 86400]
-    plog.append([now, msg_id, emoji, title, source])
+    for p in plog[:-60]:
+        if len(p) > 5:
+            p[5].pop("caption", None)  # повний текст тримаємо лише для свіжих постів
+    plog.append([now, msg_id, emoji, title, source,
+                 {"orig": orig, "caption": caption, "kind": kind, "link": link, "also": []}])
     state["post_log"] = plog
+
+
+def find_post(state, title=None, orig=None):
+    for p in reversed(state.get("post_log", [])):
+        if time.time() - p[0] > 48 * 3600:
+            break
+        extra = p[5] if len(p) > 5 else {}
+        if (title and p[3] == title) or (orig and extra.get("orig") == orig):
+            return p
+    return None
+
+
+def merge_source(post, source, link):
+    """Та сама новина з іншого сайту: дописуємо його в уже опублікований пост («Також пишуть»)."""
+    if not post or not post[1] or len(post) < 6:
+        return False
+    extra = post[5]
+    if not extra.get("caption") or source == post[4] or any(a[0] == source for a in extra["also"]):
+        return False
+    also = extra["also"] + [[source, link]]
+    body, sep, tags = extra["caption"].rpartition("\n\n")
+    links = ", ".join(f'<a href="{html.escape(l, quote=True)}">{html.escape(s)}</a>' for s, l in also)
+    caption = f"{body}\n➕ Також пишуть: {links}{sep}{tags}" if sep else f"{extra['caption']}\n➕ Також пишуть: {links}"
+    if extra.get("kind") == "photo" and len(caption) > 1024:
+        return False
+    if DRY_RUN:
+        print(f"\n[РЕДАГУЮ {post[1]}] {caption}\n")
+    else:
+        try:
+            if extra.get("kind") == "photo":
+                tg("editMessageCaption", chat_id=CHANNEL_ID, message_id=post[1], caption=caption, parse_mode="HTML")
+            else:
+                tg("editMessageText", chat_id=CHANNEL_ID, message_id=post[1], text=caption, parse_mode="HTML",
+                   link_preview_options=json.dumps({"url": extra.get("link", ""), "prefer_large_media": True}
+                                                   if extra.get("link") else {"is_disabled": True}))
+        except Exception as e:  # noqa: BLE001
+            log.info("Не вдалося дописати джерело в пост %s: %s", post[1], e)
+            return False
+    extra["also"] = also
+    log.info("➕ %s дописано до поста «%s»", source, post[3])
+    return True
 
 
 def build_caption(cat, title_html, summary_uk, source, link, extra_games=()):
@@ -995,7 +1056,9 @@ def split_post(text, limit=140):
 
 
 def _kw_regex(words):
-    return re.compile(r"(?<![\w-])(" + "|".join(re.escape(w) for w in words) + r")(?![\w-])", re.I)
+    """Слова з * у кінці — за початком (штучн* → штучний, штучного…)."""
+    parts = [re.escape(w[:-1]) + r"\w*" if w.endswith("*") else re.escape(w) for w in words]
+    return re.compile(r"(?<![\w-])(" + "|".join(parts) + r")(?![\w-])", re.I)
 
 
 _kw_cache = {}
@@ -1161,8 +1224,11 @@ def main():
     with open(CONFIG_PATH, encoding="utf-8") as f:
         config = yaml.safe_load(f)
     limits = config["limits"]
-    global FETCH_PROXY
+    global FETCH_PROXY, QUIET_HOURS
     FETCH_PROXY = (config.get("fetch_proxy") or "").strip()
+    qh = config.get("quiet_hours")
+    if isinstance(qh, list) and len(qh) == 2:
+        QUIET_HOURS = (int(qh[0]), int(qh[1]))
     state, first_run = load_state()
     alerts = Alerts(state, notify_admin if (ADMIN_ID or DRY_RUN) else None)
     pub = {"ok": 0, "failed": 0, "error": ""}
@@ -1197,8 +1263,10 @@ def main():
             break
         if any(s["key"] == c["key"] for s in selected):
             continue
-        if is_duplicate_story(c["title"], state["titles"] + [(0, s["title"]) for s in selected]):
-            log.info("↪ дубль іншої новини, пропускаю: %s", c["title"])
+        dup = is_duplicate_story(c["title"], state["titles"] + [(0, s["title"]) for s in selected])
+        if dup:
+            log.info("↪ дубль іншої новини: %s", c["title"])
+            merge_source(find_post(state, orig=dup), c["source"], c["entry"].get("link", ""))
             state["seen"][c["key"]] = time.time()
             continue
         selected.append(c)
@@ -1279,8 +1347,10 @@ def main():
             continue
 
         title_plain = html.unescape(re.sub(r"<[^>]+>", "", title_html))
-        if is_duplicate_published(title_plain, state.setdefault("titles_uk", [])):
-            log.info("↪ така новина вже була в каналі, пропускаю: %s", title_plain)
+        dup = is_duplicate_published(title_plain, state.setdefault("titles_uk", []))
+        if dup:
+            log.info("↪ така новина вже була в каналі: %s", title_plain)
+            merge_source(find_post(state, title=dup), c["source"], link)
             state["seen"][c["key"]] = time.time()
             continue
 
@@ -1294,7 +1364,8 @@ def main():
         except Exception as e:  # noqa: BLE001
             log.error("Не вдалося опублікувати «%s»: %s", c["title"], e)
             continue
-        log_post(state, msg_id, c["cat"].get("emoji", ""), title_plain, c["source"])
+        log_post(state, msg_id, c["cat"].get("emoji", ""), title_plain, c["source"],
+                 orig=c["title"], caption=caption, kind=LAST_KIND, link=link)
         if favorite and (ADMIN_ID or DRY_RUN):
             try:
                 url = post_link(msg_id)
