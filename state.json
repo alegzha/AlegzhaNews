@@ -9,13 +9,14 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-18 09:31 UTC",
-  "gemini_error": "",
+  "at": "2026-10-18 10:09 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1
+   "gemini-flash-latest": 2
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
@@ -173,6 +174,20 @@
    "🤘",
    "System Of A Down тизерять щось на 2027 рік",
    "Kerrang!"
+  ],
+  [
+   1792317842.8898127,
+   923,
+   "🎮",
+   "Розробники Samson із Liquid Swords збанкрутували: команді два місяці не платили зарплату",
+   "PC Gamer"
+  ],
+  [
+   1792318187.8198254,
+   924,
+   "🎮",
+   "«Before Dark Souls» — забута гра жанру хоррор для PS1 від FromSoftware — стала незабутньою вправою на розвиток емпатії",
+   "Polygon"
   ]
  ],
  "posted_by_source": {
@@ -232,9 +247,6 @@
    1792306035.8838491
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1792197816.2451172,
-   1792197842.1207433,
-   1792214790.8748271,
    1792244013.6619961,
    1792246836.2233171,
    1792256240.958363,
@@ -243,7 +255,8 @@
    1792273177.5789576,
    1792273183.7306387,
    1792273212.9923143,
-   1792281237.5537307
+   1792281237.5537307,
+   1792317842.8900573
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1792229883.4529936,
@@ -259,9 +272,6 @@
    1792312279.4527879
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1792229870.3654487,
-   1792229907.2578537,
-   1792229927.0587904,
    1792244031.3696017,
    1792244062.2069106,
    1792244081.3455086,
@@ -283,7 +293,8 @@
    1792296010.2321122,
    1792302844.3646646,
    1792306032.0279427,
-   1792310502.9210389
+   1792310502.9210389,
+   1792318187.8200665
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1792256232.4410548,
@@ -526,6 +537,7 @@
   "19e62b74930900ad": 1791667531.5466912,
   "1a73aa63bafd9daa": 1791920853.6017885,
   "1a76226ae0b9ed1c": 1791959776.5602262,
+  "1a9183531437475a": 1792318187.8198385,
   "1a99f06e53fb1938": 1791957523.1706128,
   "1ac0a558cc31786c": 1792099125.702752,
   "1b51ce0f0aa234b4": 1791815118.1787226,
@@ -657,6 +669,7 @@
   "3b97f79cfa5b2762": 1792128974.9766006,
   "3be9f63a58c87a2e": 1792249943.7430582,
   "3c6d04fc633efc6c": 1791908446.0808244,
+  "3cd0b61df5ba9330": 1792317842.889826,
   "3cf161c75fd01e74": 1791969589.7300363,
   "3d1a107758a21cf6": 1791815125.484494,
   "3d236b06f06c600d": 1792164153.1257877,
@@ -2604,14 +2617,15 @@
    "Kerrang!": 1,
    "Lambgoat": 8,
    "Mezha": 1,
+   "PC Gamer": 1,
    "PlayUA": 2,
-   "Polygon": 2,
+   "Polygon": 3,
    "Product Hunt": 1,
    "The Decoder": 2
   },
   "translators": {
-   "DeepL": 2,
-   "gemini-flash-latest": 18
+   "DeepL": 3,
+   "gemini-flash-latest": 20
   },
   "week": "2026-W42"
  },
@@ -3340,6 +3354,16 @@
    3743140,
    "Battleplan",
    1791815079.4738243
+  ],
+  "q:before dark": [
+   1440370,
+   "Before Dark",
+   1792317845.4245293
+  ],
+  "q:before dark souls": [
+   0,
+   "",
+   1792317844.9228487
   ],
   "q:behind": [
    0,
@@ -4476,6 +4500,21 @@
    "",
    1792270316.0069246
   ],
+  "q:forgotten ps1 horror": [
+   0,
+   "",
+   1792317850.5320065
+  ],
+  "q:forgotten ps1 horror game": [
+   0,
+   "",
+   1792317850.0192401
+  ],
+  "q:forgotten ps1 horror game was": [
+   0,
+   "",
+   1792317849.5110788
+  ],
   "q:former": [
    0,
    "",
@@ -4505,6 +4544,36 @@
    0,
    "",
    1792197841.0044167
+  ],
+  "q:fromsoftware": [
+   0,
+   "",
+   1792317848.965345
+  ],
+  "q:fromsoftware's forgotten": [
+   0,
+   "",
+   1792317848.45531
+  ],
+  "q:fromsoftware's forgotten ps1": [
+   0,
+   "",
+   1792317847.9292135
+  ],
+  "q:fromsoftware's forgotten ps1 horror": [
+   0,
+   "",
+   1792317847.4187958
+  ],
+  "q:fromsoftware's forgotten ps1 horror game": [
+   0,
+   "",
+   1792317846.9277847
+  ],
+  "q:fromsoftware's forgotten ps1 horror game was": [
+   0,
+   "",
+   1792317846.4344652
   ],
   "q:funcom dune": [
    0,
@@ -6040,6 +6109,11 @@
    0,
    "",
    1792197799.0249674
+  ],
+  "q:souls": [
+   0,
+   "",
+   1792317845.9322977
   ],
   "q:soulslike": [
    0,
@@ -7863,6 +7937,14 @@
   [
    1792315881.3906517,
    "System Of A Down are teasing something for 2027"
+  ],
+  [
+   1792317842.8898275,
+   "Liquid Swords, developer of open-city crime sim Samson, has gone bankrupt following staff claims that they haven't been paid in two months"
+  ],
+  [
+   1792318187.8198402,
+   "Before Dark Souls, FromSoftware’s Forgotten PS1 Horror Game Was a Haunting Exercise in Empathy"
   ]
  ],
  "titles_uk": [
@@ -7957,6 +8039,14 @@
   [
    1792315881.3906527,
    "System Of A Down тизерять щось на 2027 рік"
+  ],
+  [
+   1792317842.889829,
+   "Розробники Samson із Liquid Swords збанкрутували: команді два місяці не платили зарплату"
+  ],
+  [
+   1792318187.8198416,
+   "«Before Dark Souls» — забута гра жанру хоррор для PS1 від FromSoftware — стала незабутньою вправою на розвиток емпатії"
   ]
  ],
  "ukrainian": {
@@ -10150,7 +10240,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792314144.5908544,
+  "last_check": 1792318196.5593374,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
