@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:games|Polygon|https://www.polygon.com/feed/": {
+   "detail": "https://www.polygon.com/feed/ → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\nhttps://www.polygon.com/rss/index.xml → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+   "label": "Джерело «Polygon» не працює",
+   "sent": 0,
+   "since": 1792319460.0674677
+  }
+ },
  "freebies": {
   "last_check": 1792314144.9691474,
   "seen": {
@@ -188,6 +195,13 @@
    "🎮",
    "«Before Dark Souls» — забута гра жанру хоррор для PS1 від FromSoftware — стала незабутньою вправою на розвиток емпатії",
    "Polygon"
+  ],
+  [
+   1792319471.5020165,
+   925,
+   "🎮",
+   "Найочікуваніші українські ігри 2026–2027",
+   "Mezha"
   ]
  ],
  "posted_by_source": {
@@ -244,7 +258,8 @@
    1792164558.227478
   ],
   "games|Mezha|https://mezha.ua/feed/": [
-   1792306035.8838491
+   1792306035.8838491,
+   1792319471.5022793
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1792244013.6619961,
@@ -780,6 +795,7 @@
   "55523d2252c09131": 1791997000.217187,
   "55abe72fc2c9c320": 1792145396.652057,
   "56ac17c60fdf66a2": 1792021687.9833136,
+  "56ae604783dec258": 1792319471.5020306,
   "5707b386eca96035": 1791879481.2594619,
   "571a9c6f044d8bf7": 1791643484.7724442,
   "57b05f96b680396a": 1791926981.6462977,
@@ -1333,6 +1349,7 @@
   "dfaa87e155fc4630": 1792264324.0826402,
   "dfe6a0d25541317a": 1791894814.6827502,
   "dfeda5d0ae55acb7": 1791786678.1496363,
+  "dff4756213bd06bb": 1792319470.5310957,
   "e0462c7c30474a2c": 1791843834.4903822,
   "e05927082e0a783e": 1792021705.3810556,
   "e0d574759e0abf3b": 1791997032.6127217,
@@ -2616,7 +2633,7 @@
    "ITC.ua": 1,
    "Kerrang!": 1,
    "Lambgoat": 8,
-   "Mezha": 1,
+   "Mezha": 2,
    "PC Gamer": 1,
    "PlayUA": 2,
    "Polygon": 3,
@@ -2865,6 +2882,11 @@
    "",
    1792246781.0871816
   ],
+  "q:2026": [
+   0,
+   "",
+   1792319471.1580865
+  ],
   "q:2027": [
    5089480,
    "2027 毕业生工作",
@@ -3110,11 +3132,6 @@
    "",
    1792306007.7936254
   ],
-  "q:ai 6": [
-   0,
-   "",
-   1792145481.395099
-  ],
   "q:alan wake": [
    108710,
    "Alan Wake",
@@ -3265,40 +3282,10 @@
    "Assassin's Creed Black Flag Resynced",
    1791894764.5085359
   ],
-  "q:avatar": [
-   0,
-   "",
-   1792145433.4194229
-  ],
   "q:avatar legends": [
    0,
    "",
    1792264346.523961
-  ],
-  "q:avatar seven": [
-   0,
-   "",
-   1792145432.8621747
-  ],
-  "q:avatar seven havens": [
-   0,
-   "",
-   1792145430.8178437
-  ],
-  "q:avatar seven havens'": [
-   0,
-   "",
-   1792145432.3557847
-  ],
-  "q:avatar seven havens' episode": [
-   0,
-   "",
-   1792145431.8323452
-  ],
-  "q:avatar seven havens' episode 6": [
-   0,
-   "",
-   1792145431.3279834
   ],
   "q:award": [
    0,
@@ -3564,11 +3551,6 @@
    0,
    "",
    1792314095.29992
-  ],
-  "q:bridgerton": [
-   0,
-   "",
-   1792145486.2109814
   ],
   "q:brings": [
    0,
@@ -3869,36 +3851,6 @@
    0,
    "",
    1792229881.6242795
-  ],
-  "q:cozy": [
-   0,
-   "",
-   1792145423.6263785
-  ],
-  "q:cozy after": [
-   0,
-   "",
-   1792145423.100591
-  ],
-  "q:cozy after dark": [
-   0,
-   "",
-   1792145422.5908058
-  ],
-  "q:cozy after dark showcase": [
-   0,
-   "",
-   1792145422.0719075
-  ],
-  "q:cozy after dark showcase bundle": [
-   0,
-   "",
-   1792145421.5453103
-  ],
-  "q:cozy after dark showcase bundle is": [
-   0,
-   "",
-   1792145421.0419545
   ],
   "q:creed": [
    0,
@@ -4885,65 +4837,10 @@
    "HUMANKIND™ 2",
    1792070996.5387273
   ],
-  "q:humble": [
-   0,
-   "",
-   1792145420.520795
-  ],
-  "q:humble's cozy": [
-   0,
-   "",
-   1792145420.0009124
-  ],
-  "q:humble's cozy after": [
-   0,
-   "",
-   1792145419.4837768
-  ],
-  "q:humble's cozy after dark": [
-   0,
-   "",
-   1792145418.9753785
-  ],
-  "q:humble's cozy after dark showcase": [
-   0,
-   "",
-   1792145418.470003
-  ],
-  "q:humble's cozy after dark showcase bundle": [
-   0,
-   "",
-   1792145417.9638999
-  ],
   "q:i am overwhelmed and overstimulated": [
    0,
    "",
    1792264339.215708
-  ],
-  "q:interview with": [
-   0,
-   "",
-   1792145488.2810326
-  ],
-  "q:interview with a vampire": [
-   0,
-   "",
-   1792145485.6978564
-  ],
-  "q:interview with a vampire'": [
-   0,
-   "",
-   1792145487.759922
-  ],
-  "q:interview with a vampire' meets": [
-   0,
-   "",
-   1792145487.2272234
-  ],
-  "q:interview with a vampire' meets 'bridgerton'": [
-   0,
-   "",
-   1792145486.7185779
   ],
   "q:iron lung": [
    1846170,
@@ -6010,36 +5907,6 @@
    "",
    1792281228.3593905
   ],
-  "q:seven": [
-   0,
-   "",
-   1792145436.489041
-  ],
-  "q:seven havens'": [
-   0,
-   "",
-   1792145435.964371
-  ],
-  "q:seven havens' episode": [
-   0,
-   "",
-   1792145435.4591153
-  ],
-  "q:seven havens' episode 6": [
-   0,
-   "",
-   1792145434.9466767
-  ],
-  "q:seven havens' episode 6 ending": [
-   0,
-   "",
-   1792145434.4387326
-  ],
-  "q:seven havens' episode 6 ending explained": [
-   0,
-   "",
-   1792145433.9276767
-  ],
   "q:should": [
    0,
    "",
@@ -6120,31 +5987,6 @@
    "",
    1792229895.4884684
   ],
-  "q:spielberg": [
-   0,
-   "",
-   1792145452.8317053
-  ],
-  "q:spielberg and stanley": [
-   0,
-   "",
-   1792145452.3202076
-  ],
-  "q:spielberg and stanley kubrick": [
-   0,
-   "",
-   1792145451.8116531
-  ],
-  "q:spielberg and stanley kubrick's near perfect": [
-   0,
-   "",
-   1792145451.2895124
-  ],
-  "q:spielberg and stanley kubrick's near perfect sci fi": [
-   0,
-   "",
-   1792145450.7854648
-  ],
   "q:spielberg's scariest": [
    0,
    "",
@@ -6179,16 +6021,6 @@
    0,
    "",
    1792310490.7677765
-  ],
-  "q:stanley kubrick's near perfect sci fi fairytale": [
-   0,
-   "",
-   1792145453.8875256
-  ],
-  "q:stanley kubrick's near perfect sci fi fairytale is": [
-   0,
-   "",
-   1792145453.3647594
   ],
   "q:star wars galactic racer": [
    4078430,
@@ -6269,26 +6101,6 @@
    3105430,
    "Steven",
    1792145450.2663064
-  ],
-  "q:steven spielberg": [
-   0,
-   "",
-   1792145449.7268596
-  ],
-  "q:steven spielberg and stanley": [
-   0,
-   "",
-   1792145449.2200449
-  ],
-  "q:steven spielberg and stanley kubrick": [
-   0,
-   "",
-   1792145448.7185705
-  ],
-  "q:steven spielberg and stanley kubrick's near perfect": [
-   0,
-   "",
-   1792145448.2122767
   ],
   "q:steven spielberg's scariest": [
    0,
@@ -6710,16 +6522,6 @@
    "",
    1792264332.233413
   ],
-  "q:vampire' meets": [
-   0,
-   "",
-   1792145491.3913002
-  ],
-  "q:vampire' meets 'bridgerton'": [
-   0,
-   "",
-   1792145490.8887277
-  ],
   "q:vuitton": [
    0,
    "",
@@ -6829,26 +6631,6 @@
    0,
    "",
    1792244029.510891
-  ],
-  "q:with": [
-   0,
-   "",
-   1792145490.3375576
-  ],
-  "q:with a vampire'": [
-   0,
-   "",
-   1792145489.814544
-  ],
-  "q:with a vampire' meets": [
-   0,
-   "",
-   1792145489.287872
-  ],
-  "q:with a vampire' meets 'bridgerton'": [
-   0,
-   "",
-   1792145488.7802882
   ],
   "q:with permadeath that are": [
    0,
@@ -6978,54 +6760,6 @@
   ]
  },
  "titles": [
-  [
-   1792145427.312243,
-   "Humble’s Cozy After Dark Showcase Bundle Is Perfect for Halloween, With 10 Spooky Indie Games for $12"
-  ],
-  [
-   1792145441.3062592,
-   "'Avatar: Seven Havens' Episode 6 Ending Explained: What the Anomaly Reveals About Pavi and Nisha"
-  ],
-  [
-   1792145444.702208,
-   "У США запропонують закон, який захистить право геймерів володіти своїми іграми"
-  ],
-  [
-   1792145460.4737713,
-   "Steven Spielberg and Stanley Kubrick's Near-Perfect Sci-Fi Fairytale Is Officially Back on Streaming"
-  ],
-  [
-   1792145464.1181552,
-   "Деталізація GTA 6 вийшла на новий рівень: у грі є реалістична симуляція поту"
-  ],
-  [
-   1792145470.599286,
-   "Album Review: Defects – Artificial Icons"
-  ],
-  [
-   1792145474.130537,
-   "Microsoft усунула збій Windows 11, через який не завантажувався робочий стіл"
-  ],
-  [
-   1792145477.8874474,
-   "LinkedIn запускає нову стрічку, цифрові візитівки і платні консультації від авторів"
-  ],
-  [
-   1792145482.182791,
-   "Claude образився, AI монтує відео. Що взагалі відбувається? | AI шумлять #6"
-  ],
-  [
-   1792145496.4480891,
-   "'Interview With a Vampire' Meets 'Bridgerton' in this 2025 Horror Masterpiece"
-  ],
-  [
-   1792145502.8856993,
-   "anthropics/claude-plugins-official"
-  ],
-  [
-   1792145509.4726193,
-   "Exhorder cancel final 3 show of the Tour Of Unsound Minds: Act II tour"
-  ],
   [
    1792148787.082239,
    "Perplexity відкрила код SPACE – \"пісочниці\" для ізоляції ШІ-агентів"
@@ -7945,6 +7679,10 @@
   [
    1792318187.8198402,
    "Before Dark Souls, FromSoftware’s Forgotten PS1 Horror Game Was a Haunting Exercise in Empathy"
+  ],
+  [
+   1792319471.5020316,
+   "Найочікуваніші українські ігри 2026–2027"
   ]
  ],
  "titles_uk": [
@@ -8047,6 +7785,10 @@
   [
    1792318187.8198416,
    "«Before Dark Souls» — забута гра жанру хоррор для PS1 від FromSoftware — стала незабутньою вправою на розвиток емпатії"
+  ],
+  [
+   1792319471.5020323,
+   "Найочікуваніші українські ігри 2026–2027"
   ]
  ],
  "ukrainian": {
