@@ -592,7 +592,7 @@ async function proxyFeed(url, env) {
   } catch {
     return new Response("bad url", { status: 400 });
   }
-  const allowed = (env.PROXY_HOSTS || "mezha.ua,bloomberg.com")
+  const allowed = (env.PROXY_HOSTS || "mezha.ua,bloomberg.com,consequence.net,bandcamp.com")
     .split(",")
     .map((h) => h.trim().toLowerCase())
     .filter(Boolean);

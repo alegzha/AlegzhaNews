@@ -99,19 +99,22 @@ categories:
       - name: Heavy Consequence
         url: https://consequence.net/category/heavy-consequence/feed/
         alt_urls:
-          - https://heavy.consequence.net/feed/
+          - https://alegzhanews.alegzha.workers.dev/feed?url=https%3A%2F%2Fconsequence.net%2Fcategory%2Fheavy-consequence%2Ffeed%2F
         max_per_day: 5
       - name: Bandcamp Daily
         url: https://daily.bandcamp.com/feed
+        alt_urls:
+          - https://daily.bandcamp.com/feed/
+          - https://alegzhanews.alegzha.workers.dev/feed?url=https%3A%2F%2Fdaily.bandcamp.com%2Ffeed
         max_per_day: 3
       - name: Pitchfork
         url: https://pitchfork.com/feed/feed-news/rss
         alt_urls:
           - https://pitchfork.com/rss/news/
-        max_per_day: 4
+        max_per_day: 2
       - name: Stereogum
         url: https://www.stereogum.com/feed/
-        max_per_day: 4
+        max_per_day: 3
       - name: Bloomberg
         url: https://www.bloomberg.com/feeds/industries/news.rss
         include_keywords: ["music", "Spotify", "Universal Music", "Warner Music", "Sony Music", "Live Nation", "Ticketmaster", "record label", "concert", "concerts", "album", "tour", "festival"]
@@ -137,10 +140,10 @@ categories:
         url: https://variety.com/v/film/feed/
         alt_urls:
           - https://variety.com/feed/
-        max_per_day: 5
+        max_per_day: 3
       - name: Variety
         url: https://variety.com/v/tv/feed/
-        max_per_day: 5
+        max_per_day: 3
       - name: IndieWire
         url: https://www.indiewire.com/feed/
         max_per_day: 5
@@ -241,6 +244,7 @@ filters:
     - "giveaway"
     - "sponsored"
     - "quiz"
+    - "most popular"         # тижневі підбірки «найпопулярніше»
   # Якщо бот помилково зробив посиланням не гру (звичайне слово, яке збіглося
   # з назвою якоїсь гри в Steam) — допиши це слово сюди.
   steam_ignore:
