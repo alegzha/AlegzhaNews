@@ -1,36 +1,5 @@
 {
- "alerts": {
-  "src:ai|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1792359095.448466
-  },
-  "src:games|Digital Foundry|https://www.digitalfoundry.net/feed": {
-   "detail": "https://www.digitalfoundry.net/feed → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/feed.xml → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.eurogamer.net/feed/digitalfoundry → 404 Client Error: Not Found for url: https://www.eurogamer.net/feed/digitalfoundry",
-   "label": "Джерело «Digital Foundry» не працює",
-   "sent": 0,
-   "since": 1792359078.6196167
-  },
-  "src:games|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1792359061.9571748
-  },
-  "src:movies|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1792359092.9056194
-  },
-  "src:software|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1792359092.9295087
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-18",
  "freebies": {
   "last_check": 1792359131.0279984,
@@ -41,11 +10,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-18 21:32 UTC",
+  "at": "2026-10-18 22:01 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
+   "gemini-flash-latest": 2,
    "gemini-flash-lite-latest": 1
   },
   "used": [
@@ -1177,6 +1146,48 @@
     "link": "https://insider-gaming.com/lucasfilm-star-wars-games-independent-studios/",
     "orig": "Star Wars Games Don’t Need Top Publishers, Lucasfilm Says"
    }
+  ],
+  [
+   1792360891.3934743,
+   1027,
+   "🎬",
+   "Ведуча SNL UK жорстко висміяла Шейна Гілліса у Weekend Update",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Ведуча SNL UK жорстко висміяла Шейна Гілліса у Weekend Update</b>\n\nВедуча британського SNL UK Аня Мальяно висміяла коміка Шейна Гілліса у сегменті Weekend Update. Приводом стали його сексистські жарти про жінок в американському Saturday Night Live та нецензурна лайка у прямому ефірі. Гілліс перепросив за виголошений матюк, проте реакцію на свій скандальний монолог досі не прокоментував.\n\n🔗 <a href=\"https://deadline.com/2026/10/snl-uk-takes-aim-shane-gillis-weekend-update-1237167181/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/snl-uk-takes-aim-shane-gillis-weekend-update-1237167181/",
+    "orig": "‘SNL UK’ Takes Aim At Shane Gillis On ‘Weekend Update’: “You Stupid F*cking C*nt”"
+   }
+  ],
+  [
+   1792360897.6823325,
+   1028,
+   "🤘",
+   "Британський політик вимагає прибрати Marilyn Manson з концерту Slipknot у Лондоні",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Британський політик вимагає прибрати Marilyn Manson з концерту Slipknot у Лондоні</b>\n\nЧлен ради району Брент Антон Георгіу закликав Wembley Stadium скасувати виступ Marilyn Manson на розігріві у Slipknot через звинувачення в сексуальному насильстві. Адміністрація стадіону веде переговори з Live Nation, зазначивши, що лайн-ап обирають промоутер і хедлайнер. Сам музикант усі звинувачення категорично відкидає.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/politician-calls-for-marilyn-mansons-removal-from-slipknot-show-over-sexual-misconduct-allegations\">Metal Hammer (Louder)</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/politician-calls-for-marilyn-mansons-removal-from-slipknot-show-over-sexual-misconduct-allegations",
+    "orig": "Politician calls for Marilyn Manson's removal from Slipknot show over sexual misconduct allegations"
+   }
+  ],
+  [
+   1792360907.3170512,
+   1029,
+   "🎮",
+   "Чому варто звернути увагу на класичний комікс Modesty Blaise",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Чому варто звернути увагу на класичний комікс Modesty Blaise</b>\n\nБританський пригодницький комікс Modesty Blaise виходив з 1963 до 2001 року, але майже не видавався у США через відверті сцену. Серія авторства Пітера О&#x27;Доннелла розповідає про шпигунські пригоди та надихнула кілька екранізацій, а її повну колекцію досі можна знайти у продажу.\n\n🔗 <a href=\"https://www.polygon.com/modesty-blaise-retrospective/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/modesty-blaise-retrospective/",
+    "orig": "63 Years Later, the Stellar Action Comic Strip Most America Never Heard of Deserves Another Shot"
+   }
   ]
  ],
  "posted_by_source": {
@@ -1261,9 +1272,6 @@
    1792356801.4659715
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1792270296.4148593,
-   1792270344.6305492,
-   1792273223.7348766,
    1792281264.6447456,
    1792295999.926021,
    1792296010.2321122,
@@ -1284,7 +1292,8 @@
    1792342924.117627,
    1792346508.1319156,
    1792350098.522447,
-   1792353699.7879517
+   1792353699.7879517,
+   1792360907.3172967
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1792256232.4410548,
@@ -1321,7 +1330,6 @@
    1792129276.4144118
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1792273228.4899592,
    1792281250.0493925,
    1792281279.4565365,
    1792281283.8120637,
@@ -1335,7 +1343,8 @@
    1792342906.3805552,
    1792346493.0826976,
    1792351880.9004524,
-   1792357292.740118
+   1792357292.740118,
+   1792360891.3937247
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1792071063.7644968,
@@ -1403,7 +1412,8 @@
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1792352379.8621347,
    1792352525.9843924,
-   1792352548.5693634
+   1792352548.5693634,
+   1792360897.6825812
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1792264324.08265,
@@ -1760,6 +1770,7 @@
   "40811f36982f07e7": 1791654249.8333447,
   "408de44324bf43ee": 1792021717.3433561,
   "4094b659aad471cb": 1792344686.7171192,
+  "40ac51c480da25b0": 1792360897.6825385,
   "40acf03cbac00fdf": 1792326710.9943023,
   "40f0775aa9240395": 1791926935.506287,
   "411908f8ec11068d": 1791648355.907981,
@@ -2319,6 +2330,7 @@
   "bcebd75959d7a1c4": 1791975164.194638,
   "bcec92603741133a": 1791989280.6337051,
   "bcf0cb6a31042b82": 1791994316.7510252,
+  "bd122a0b1ca4302c": 1792360907.317098,
   "bd28dc198e354d61": 1791643484.7724442,
   "bd449ac4d5082e66": 1792009875.9788818,
   "bd6bf7ffc701c1f1": 1791929812.121329,
@@ -2520,6 +2532,7 @@
   "e74f16aff7c8f4f1": 1791969580.967872,
   "e77cf00f4e837f33": 1791989226.340799,
   "e7e162682d23a3e6": 1792145477.8874452,
+  "e7ec2c1fc20d94fd": 1792360891.393675,
   "e7f776205d5baa63": 1791675548.2298849,
   "e87d416cf54aca14": 1792273238.8297417,
   "e891c97409f3641e": 1791643484.7724442,
@@ -3790,13 +3803,15 @@
  },
  "stats": {
   "sources": {
-   "Deadline": 1,
+   "Deadline": 2,
    "IndieWire": 1,
-   "Insider Gaming": 1
+   "Insider Gaming": 1,
+   "Metal Hammer (Louder)": 1,
+   "Polygon": 1
   },
   "translators": {
-   "gemini-flash-latest": 2,
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-latest": 4,
+   "gemini-flash-lite-latest": 2
   },
   "week": "2026-W43"
  },
@@ -4231,6 +4246,21 @@
    "",
    1792306005.1422322
   ],
+  "q:63": [
+   0,
+   "",
+   1792360900.8490417
+  ],
+  "q:63 years": [
+   0,
+   "",
+   1792360900.2746615
+  ],
+  "q:63 years later": [
+   0,
+   "",
+   1792360899.7550092
+  ],
   "q:680": [
    0,
    "",
@@ -4365,6 +4395,21 @@
    0,
    "",
    1792296008.486928
+  ],
+  "q:action comic strip most": [
+   0,
+   "",
+   1792360905.523718
+  ],
+  "q:action comic strip most america": [
+   0,
+   "",
+   1792360905.0105026
+  ],
+  "q:action comic strip most america never": [
+   0,
+   "",
+   1792360904.4924629
   ],
   "q:action thriller": [
    0,
@@ -7866,6 +7911,36 @@
    "",
    1792244070.0350907
   ],
+  "q:stellar": [
+   0,
+   "",
+   1792360903.9781058
+  ],
+  "q:stellar action": [
+   0,
+   "",
+   1792360903.4466043
+  ],
+  "q:stellar action comic": [
+   0,
+   "",
+   1792360902.9280179
+  ],
+  "q:stellar action comic strip": [
+   0,
+   "",
+   1792360902.4039037
+  ],
+  "q:stellar action comic strip most": [
+   0,
+   "",
+   1792360901.8903515
+  ],
+  "q:stellar action comic strip most america": [
+   0,
+   "",
+   1792360901.3562467
+  ],
   "q:stephen": [
    0,
    "",
@@ -8617,10 +8692,6 @@
   ]
  },
  "titles": [
-  [
-   1792188102.4928598,
-   "Financing The AI Boom: Masters in Business with Bob Michele"
-  ],
   [
    1792188113.80552,
    "‘There Should be a Game Award for Hot Dads’ — Castlevania: Belmont’s Curse Devs Are Fully Aware and Loving the ‘Horny’ Fanart for Their Game"
@@ -9748,6 +9819,18 @@
   [
    1792359121.848286,
    "Star Wars Games Don’t Need Top Publishers, Lucasfilm Says"
+  ],
+  [
+   1792360891.3936765,
+   "‘SNL UK’ Takes Aim At Shane Gillis On ‘Weekend Update’: “You Stupid F*cking C*nt”"
+  ],
+  [
+   1792360897.6825402,
+   "Politician calls for Marilyn Manson's removal from Slipknot show over sexual misconduct allegations"
+  ],
+  [
+   1792360907.3170998,
+   "63 Years Later, the Stellar Action Comic Strip Most America Never Heard of Deserves Another Shot"
   ]
  ],
  "titles_uk": [
@@ -10254,6 +10337,18 @@
   [
    1792359121.8482866,
    "Lucasfilm: Іграм за Star Wars не потрібні топові видавці"
+  ],
+  [
+   1792360891.3936775,
+   "Ведуча SNL UK жорстко висміяла Шейна Гілліса у Weekend Update"
+  ],
+  [
+   1792360897.6825411,
+   "Британський політик вимагає прибрати Marilyn Manson з концерту Slipknot у Лондоні"
+  ],
+  [
+   1792360907.3171003,
+   "Чому варто звернути увагу на класичний комікс Modesty Blaise"
   ]
  ],
  "ukrainian": {
