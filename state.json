@@ -1,9 +1,12 @@
 {
  "alerts": {},
  "last_translation": {
-  "at": "2026-10-18 05:54 UTC",
+  "at": "2026-10-18 06:01 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_model": "gemini-flash-latest",
+  "gemini_models_used": {
+   "gemini-flash-latest": 1
+  },
   "used": [
    "Gemini"
   ]
@@ -124,8 +127,6 @@
    1792129302.1676168
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
-   1792214796.3119977,
-   1792214877.4069724,
    1792229874.526146,
    1792246786.6091945,
    1792246791.1237195,
@@ -141,7 +142,8 @@
    1792281254.1057518,
    1792295963.2647765,
    1792295976.1782482,
-   1792295989.4995046
+   1792295989.4995046,
+   1792303286.144838
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792129276.4144118
@@ -309,6 +311,7 @@
   "0c6e5f7c02eae85c": 1791932362.1098096,
   "0c8784bf416ae71c": 1792099102.0718117,
   "0c963f51782e2c3b": 1791957572.3369136,
+  "0d865ae8cd4cf067": 1792303286.1448247,
   "0dd2650a1a086f7b": 1792270304.7523172,
   "0e2a51a62f82d764": 1791929876.937001,
   "0e3227631c52c966": 1791757271.9788234,
@@ -1674,8 +1677,8 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1792296023.074925,
-  "blocked_until": 1792142524.1626832,
-  "cursor": 341,
+  "blocked_until": 1792330558.6203346,
+  "cursor": 343,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
     "0CVnhwtOpdoIkOatkGcVwO",
@@ -16618,6 +16621,10 @@
   [
    1792302844.364654,
    "44 Years Later, Steven Spielberg's Scariest Movie of All Time Is Officially Back on Streaming"
+  ],
+  [
+   1792303286.1448276,
+   "Peter Dinklage's Canceled Sci-Fi Show Is A 2000s Relic Worth Revisiting"
   ]
  ],
  "weekly_releases_week": "2026-W42",
