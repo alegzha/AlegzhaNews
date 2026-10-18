@@ -1,14 +1,7 @@
 {
- "alerts": {
-  "src:games|Polygon|https://www.polygon.com/feed/": {
-   "detail": "https://www.polygon.com/feed/ → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\nhttps://www.polygon.com/rss/index.xml → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-   "label": "Джерело «Polygon» не працює",
-   "sent": 0,
-   "since": 1792319460.0674677
-  }
- },
+ "alerts": {},
  "freebies": {
-  "last_check": 1792314144.9691474,
+  "last_check": 1792321531.8277872,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -16,11 +9,12 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-18 10:09 UTC",
+  "at": "2026-10-18 11:05 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-latest",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 2
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "DeepL",
@@ -202,6 +196,13 @@
    "🎮",
    "Найочікуваніші українські ігри 2026–2027",
    "Mezha"
+  ],
+  [
+   1792321529.8739774,
+   926,
+   "🤖",
+   "Два німецькі суди визнали Google відповідальною за відповіді AI Overviews",
+   "The Decoder"
   ]
  ],
  "posted_by_source": {
@@ -217,10 +218,10 @@
    1792244017.1963456
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
-   1792229931.4372277,
    1792249901.5035412,
    1792312291.0941312,
-   1792314092.2642934
+   1792314092.2642934,
+   1792321529.8740613
   ],
   "games|DOU Gamedev|https://gamedev.dou.ua/feed/": [
    1792145482.182897
@@ -996,6 +997,7 @@
   "876f0e380ed29bab": 1792009795.8090568,
   "8792bc563dc0d76c": 1792089266.8002923,
   "88220427eb2633db": 1791969594.0180178,
+  "8842157d63a531ec": 1792321278.0873983,
   "88610d9c6210a64c": 1791975130.727523,
   "88a510b8ec1085db": 1791926957.9518356,
   "88a5ffec119dab97": 1792009836.861672,
@@ -1201,6 +1203,7 @@
   "bdcdc21f8a4c9dbb": 1791702304.8026342,
   "be1b8f6f0da4b20b": 1792197835.8998618,
   "be5a365e42a96a13": 1792145427.3122401,
+  "be6ef1730da7e04a": 1792321529.8739932,
   "bec822a33226a658": 1791975170.5018406,
   "becc918d3917ca68": 1792244066.584133,
   "befb1ff64067fa5e": 1791795338.283961,
@@ -2638,11 +2641,12 @@
    "PlayUA": 2,
    "Polygon": 3,
    "Product Hunt": 1,
-   "The Decoder": 2
+   "The Decoder": 3
   },
   "translators": {
-   "DeepL": 3,
-   "gemini-flash-latest": 20
+   "DeepL": 4,
+   "gemini-flash-latest": 21,
+   "gemini-flash-lite-latest": 1
   },
   "week": "2026-W42"
  },
@@ -7683,6 +7687,10 @@
   [
    1792319471.5020316,
    "Найочікуваніші українські ігри 2026–2027"
+  ],
+  [
+   1792321529.8739958,
+   "Two German courts now hold Google liable for what its AI overviews say"
   ]
  ],
  "titles_uk": [
@@ -7789,6 +7797,10 @@
   [
    1792319471.5020323,
    "Найочікуваніші українські ігри 2026–2027"
+  ],
+  [
+   1792321529.873997,
+   "Два німецькі суди визнали Google відповідальною за відповіді AI Overviews"
   ]
  ],
  "ukrainian": {
