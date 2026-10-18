@@ -766,6 +766,43 @@ TRANSLATOR_NAMES = {
 }
 
 
+def reactions_section(config, state, week):
+    """Найпопулярніші пости тижня за реакціями (дані збирає воркер)."""
+    base = (config.get("fetch_proxy") or "").rsplit("/feed", 1)[0]
+    posts = [p for p in state.get("post_log", []) if p[1] and _week(p[0]) == week]
+    if not base or not posts:
+        return []
+    counts = {}
+    try:
+        for i in range(0, len(posts), 100):
+            ids = ",".join(str(p[1]) for p in posts[i:i + 100])
+            r = HTTP.get(f"{base}/reactions", params={"ids": ids}, timeout=20)
+            r.raise_for_status()
+            counts.update(r.json())
+    except Exception as e:  # noqa: BLE001
+        log.info("Реакції недоступні: %s", e)
+        return []
+    if not any(counts.values()):
+        return ["", "<b>Реакції:</b> цього тижня реакцій під постами не було"]
+    out = ["", "<b>Найпопулярніші пости:</b>"]
+    top = sorted(posts, key=lambda p: -counts.get(str(p[1]), 0))[:5]
+    for p in top:
+        n = counts.get(str(p[1]), 0)
+        if not n:
+            break
+        url = post_link(p[1])
+        t = html.escape(p[3][:80])
+        out.append(f"• {p[2]} " + (f'<a href="{url}">{t}</a>' if url else t) + f" — {n} 🔥")
+    by_source = {}
+    for p in posts:
+        by_source.setdefault(p[4], []).append(counts.get(str(p[1]), 0))
+    avg = sorted(((sum(v) / len(v), k, len(v)) for k, v in by_source.items() if len(v) >= 3), reverse=True)
+    if avg:
+        out += ["", "<b>Реакцій у середньому на пост:</b>"]
+        out += [f"• {html.escape(k)} — {a:.1f} ({n} постів)" for a, k, n in avg[:8]]
+    return out
+
+
 def weekly_report(config, state):
     """Раз на тиждень (у перший запуск нового тижня) — звіт власнику в особисті."""
     st = state.get("stats")
@@ -797,6 +834,7 @@ def weekly_report(config, state):
     silent = [n for n in configured if n not in sources]
     if silent:
         lines += ["", "<b>Мовчали весь тиждень:</b> " + html.escape(", ".join(silent))]
+    lines += reactions_section(config, state, st.get("week"))
     tr = st.get("translators", {})
     if tr:
         parts = [f"{TRANSLATOR_NAMES.get(k, k)} — {v}" for k, v in sorted(tr.items(), key=lambda kv: -kv[1])]
