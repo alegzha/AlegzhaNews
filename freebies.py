@@ -12,7 +12,7 @@ from wishlist import KYIV
 
 log = logging.getLogger("news-bot")
 
-API = "https://www.gamerpower.com/api/giveaways"
+API = "https://www.gamerpower.com/api/filter"  # кілька платформ через крапку
 PLATFORM_LABELS = {
     "Epic Games Store": "Epic Games Store",
     "Steam": "Steam",
@@ -53,7 +53,7 @@ def check(http, state, cfg, publish, esc):
     if time.time() - st.get("last_check", 0) < every - 120:
         return 0
     platforms = cfg.get("platforms", "epic-games-store.steam.gog")
-    r = http.get(API, params={"platform": platforms, "type": "game", "sort-by": "date"}, timeout=20)
+    r = http.get(API, params={"platform": platforms, "type": "game"}, timeout=20)
     if r.status_code == 201:  # GamerPower: «немає активних роздач»
         items = []
     else:
@@ -62,6 +62,7 @@ def check(http, state, cfg, publish, esc):
     first_time = not st["seen"]
     now = time.time()
     posted = 0
+    items.sort(key=lambda g: g.get("published_date") or "", reverse=True)
     for g in reversed(items[:30]):  # від старіших до новіших
         gid = str(g.get("id"))
         if not gid or gid in st["seen"]:
