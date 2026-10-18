@@ -31,6 +31,11 @@ categories:
         include_tags: ["Ігри"]          # з Mezha беремо лише статті з тегом «Ігри»
       - name: IGN
         url: https://www.ign.com/rss/articles/feed?tags=games
+      - name: Insider Gaming
+        url: https://insider-gaming.com/feed/
+        alt_urls:
+          - https://insider-gaming.com/rss
+          - https://insider-gaming.com/feed.xml
       - name: Polygon
         url: https://www.polygon.com/feed/
         alt_urls:                        # запасні адреси, якщо основна не відповідає
