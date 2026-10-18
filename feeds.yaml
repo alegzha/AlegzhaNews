@@ -96,17 +96,19 @@ categories:
       - name: Distorted Sound
         url: https://distortedsoundmag.com/feed/
         max_per_day: 6
-      - name: Heavy Consequence
-        url: https://consequence.net/category/heavy-consequence/feed/
-        alt_urls:
-          - https://alegzhanews.alegzha.workers.dev/feed?url=https%3A%2F%2Fconsequence.net%2Fcategory%2Fheavy-consequence%2Ffeed%2F
-        max_per_day: 5
-      - name: Bandcamp Daily
-        url: https://daily.bandcamp.com/feed
-        alt_urls:
-          - https://daily.bandcamp.com/feed/
-          - https://alegzhanews.alegzha.workers.dev/feed?url=https%3A%2F%2Fdaily.bandcamp.com%2Ffeed
-        max_per_day: 3
+      # (вимкнено: стрічка порожня для бота, розберемося пізніше)
+      # - name: Heavy Consequence
+      #   url: https://consequence.net/category/heavy-consequence/feed/
+      #   alt_urls:
+      #     - https://alegzhanews.alegzha.workers.dev/feed?url=https%3A%2F%2Fconsequence.net%2Fcategory%2Fheavy-consequence%2Ffeed%2F
+      #   max_per_day: 5
+      # (вимкнено: стрічка порожня для бота, розберемося пізніше)
+      # - name: Bandcamp Daily
+      #   url: https://daily.bandcamp.com/feed
+      #   alt_urls:
+      #     - https://daily.bandcamp.com/feed/
+      #     - https://alegzhanews.alegzha.workers.dev/feed?url=https%3A%2F%2Fdaily.bandcamp.com%2Ffeed
+      #   max_per_day: 3
       - name: Pitchfork
         url: https://pitchfork.com/feed/feed-news/rss
         alt_urls:
