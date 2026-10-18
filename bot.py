@@ -256,45 +256,68 @@ def _google_api(text):
 # ---------- Gemini (основний перекладач, якщо задано секрет GEMINI_API_KEY) ----------
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
-GEMINI_MODELS = ["gemini-flash-lite-latest", "gemini-flash-latest"]
-GEMINI_PROMPT = (
-    "Ти — редактор українського новинного Telegram-каналу про ігри, важку й альтернативну музику, "
-    "кіно, серіали, софт і штучний інтелект. Перекладай українською кожен рядок зі списку: "
-    "природно, у стилі новин, без дослівності й русизмів. Назви ігор, гуртів, альбомів, пісень, "
-    "фільмів, серіалів, компаній, персонажів і продуктів залишай в оригіналі латиницею, "
-    "точно так, як вони написані. Нічого не додавай, не скорочуй і не пояснюй. "
-    "Відповідь — JSON-масив рядків тієї ж довжини й у тому ж порядку."
-)
+# Порядок моделей: спершу якісніша Flash; коли її безкоштовний ліміт закінчиться — Flash-Lite.
+GEMINI_MODELS = ["gemini-flash-latest", "gemini-flash-lite-latest"]
+GEMINI_PROMPT = """Ти — досвідчений редактор українського новинного Telegram-каналу про відеоігри, \
+важку й альтернативну музику, кіно, серіали, софт і штучний інтелект.
+
+Отримуєш JSON-масив рядків англійською: перший — заголовок новини, другий (якщо є) — її короткий опис.
+Перепиши кожен рядок природною сучасною українською, як це зробило б українське медіа (DOU, Mezha, \
+PlayUA, ITC). Передавай зміст, а не слова: не калькуй англійський порядок слів і звороти.
+
+Правила:
+- Заголовок — стислий, живий, у теперішньому або минулому часі, без клікбейту й без крапки в кінці.
+- Назви ігор, гуртів, альбомів, пісень, фільмів, серіалів, компаній, продуктів, а також імена \
+персонажів залишай латиницею точно як в оригіналі. Імена й прізвища людей пиши українською \
+транслітерацією (Hideo Kojima → Хідео Кодзіма, Dan Houser → Ден Гаузер).
+- Не вигадуй фактів і не додавай нічого, чого немає в оригіналі. Суми й числа не змінюй ($150 → $150).
+- Жодних русизмів і канцеляриту: «брати участь» (не «приймати»), «протягом» (не «на протязі»), \
+«наступний» (не «слідуючий»), «є» замість «являється», «вражаючий» лише доречно.
+- Терміни: trailer — трейлер, teaser — тизер, gameplay — геймплей, early access — ранній доступ, \
+patch — патч, update — оновлення, remaster — ремастер, remake — ремейк, reboot — перезапуск, \
+spin-off — спінофф, publisher — видавець, developer — розробник, layoffs — звільнення, \
+review — рецензія, release date — дата виходу, single — сингл, album — альбом, EP — EP, \
+music video — кліп, tour — тур, lineup — склад учасників, headliner — хедлайнер, \
+cover — кавер, box office — касові збори, showrunner — шоуранер, cast — акторський склад, \
+season — сезон, AI — ШІ.
+
+Відповідь — лише JSON-масив рядків тієї ж довжини й у тому ж порядку, без пояснень."""
 _gemini_model = None
+_gemini_exhausted = set()  # моделі, чий денний ліміт закінчився в цьому запуску
 
 
 def gemini_translate(texts):
     """Перекладає список текстів одним запитом. Повертає список тієї ж довжини."""
     global _gemini_model
-    models = [_gemini_model] if _gemini_model else GEMINI_MODELS
     last = None
-    for model in models:
+    for model in [m for m in GEMINI_MODELS if m not in _gemini_exhausted]:
         r = requests.post(
             f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
             headers={"x-goog-api-key": GEMINI_API_KEY, "Content-Type": "application/json"},
             json={
                 "systemInstruction": {"parts": [{"text": GEMINI_PROMPT}]},
                 "contents": [{"role": "user", "parts": [{"text": json.dumps(texts, ensure_ascii=False)}]}],
-                "generationConfig": {"temperature": 0.2, "responseMimeType": "application/json"},
+                "generationConfig": {"temperature": 0.3, "responseMimeType": "application/json"},
             },
-            timeout=60,
+            timeout=90,
         )
         if r.status_code == 404:
             last = f"модель {model} недоступна"
+            _gemini_exhausted.add(model)
             continue
         if r.status_code == 429:
-            raise RuntimeError("429: ліміт безкоштовних запитів Gemini вичерпано")
+            log.info("Gemini %s: ліміт вичерпано, переходжу на наступну модель", model)
+            last = "429: ліміт безкоштовних запитів Gemini вичерпано"
+            _gemini_exhausted.add(model)
+            continue
         if r.status_code in (400, 401, 403) and "API key" in r.text:
             raise RuntimeError("403: ключ Gemini недійсний")
         r.raise_for_status()
         data = r.json()
         parts = ((data.get("candidates") or [{}])[0].get("content") or {}).get("parts") or []
-        out = json.loads("".join(p.get("text", "") for p in parts))
+        # моделі, що «думають», можуть повернути окрему частину з міркуваннями — беремо лише відповідь
+        text = "".join(p.get("text", "") for p in parts if not p.get("thought"))
+        out = json.loads(text)
         if not isinstance(out, list) or len(out) != len(texts) or not all(isinstance(x, str) and x.strip() for x in out):
             raise RuntimeError("Gemini повернув відповідь не того формату")
         mark = re.compile(r"Q\s*Q\s*\d+\s*Q\s*Q", re.I)
@@ -302,6 +325,7 @@ def gemini_translate(texts):
             if len(mark.findall(src)) != len(mark.findall(dst)):
                 raise RuntimeError("Gemini зіпсував назви (QQ-мітки) — беру запасний перекладач")
         _gemini_model = model
+        TR_STATS.setdefault("models", {})[model] = TR_STATS.setdefault("models", {}).get(model, 0) + 1
         return [x.strip() for x in out]
     raise RuntimeError(last or "Gemini недоступний")
 
@@ -1040,6 +1064,7 @@ def main():
             "at": time.strftime("%Y-%m-%d %H:%M UTC", time.gmtime()),
             "used": sorted(TR_STATS["ok"]),
             "gemini_model": _gemini_model,
+            "gemini_models_used": TR_STATS.get("models", {}),
             "gemini_error": TR_STATS.get("gemini_error", ""),
         }
     save_state(state)
