@@ -1,16 +1,16 @@
 {
  "alerts": {
-  "src:music|Bandcamp Daily|https://daily.bandcamp.com/feed": {
-   "detail": "https://daily.bandcamp.com/feed\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
-   "label": "Джерело «Bandcamp Daily» не працює",
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
    "sent": 0,
-   "since": 1792352371.27835
+   "since": 1792353675.7675114
   },
-  "src:music|Heavy Consequence|https://consequence.net/category/heavy-consequence/feed/": {
-   "detail": "https://consequence.net/category/heavy-consequence/feed/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
-   "label": "Джерело «Heavy Consequence» не працює",
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
    "sent": 0,
-   "since": 1792352371.1501815
+   "since": 1792353673.3129919
   }
  },
  "daily_digest_date": "2026-10-18",
@@ -23,12 +23,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-18 19:42 UTC",
+  "at": "2026-10-18 20:01 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_model": "gemini-flash-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 11
+   "gemini-flash-latest": 1
   },
   "used": [
    "Gemini"
@@ -1042,6 +1041,20 @@
     "link": "https://distortedsoundmag.com/underdark-release-new-music-video-for-death-of-a-toolmaker/",
     "orig": "Underdark release new music video for ‘Death of a Toolmaker’"
    }
+  ],
+  [
+   1792353699.7878501,
+   1019,
+   "🎮",
+   "The Witch’s Bakery пропонує затишну магічну пекарню в дусі Studio Ghibli",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>The Witch’s Bakery пропонує затишну магічну пекарню в дусі Studio Ghibli</b>\n\nСтудія Sunny Lab створила The Witch’s Bakery — затишну гру з естетикою Studio Ghibli. Гравці керують відьмою Lunne, яка разом із помічником Orio відкриває магічну пекарню в Парижі. Окрім випікання хліба й прогулянок 2D-вулицями міста, героїня пірнає в серця клієнтів і долає головоломки, щоб позбавити їх від давнього жалю.\n\n🔗 <a href=\"https://www.polygon.com/the-witchs-bakery-recommendation-steam-switch-ps5-xbox/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/the-witchs-bakery-recommendation-steam-switch-ps5-xbox/",
+    "orig": "New Steam Game is Basically Kiki’s Delivery Service in Video Game Form"
+   }
   ]
  ],
  "posted_by_source": {
@@ -1133,7 +1146,6 @@
    1792312279.4527879
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1792264370.8304682,
    1792270296.4148593,
    1792270344.6305492,
    1792273223.7348766,
@@ -1156,7 +1168,8 @@
    1792342903.08671,
    1792342924.117627,
    1792346508.1319156,
-   1792350098.522447
+   1792350098.522447,
+   1792353699.7879517
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1792256232.4410548,
@@ -2160,6 +2173,7 @@
   "b65e0bbd508b9ad8": 1792352424.338672,
   "b66d1371169f46d3": 1792347119.7625296,
   "b6e9e7ddd669ee7a": 1791659741.1528728,
+  "b747ddfc4acba088": 1792353699.787903,
   "b7bb50d8a7b97d6e": 1792326683.1353447,
   "b87d330bf84621c6": 1792264380.2372112,
   "b969e2311d014414": 1792080953.4454384,
@@ -3676,7 +3690,7 @@
    "PC Gamer": 9,
    "Pitchfork": 2,
    "PlayUA": 2,
-   "Polygon": 16,
+   "Polygon": 17,
    "Product Hunt": 1,
    "SteamDB": 1,
    "Stereogum": 3,
@@ -3687,7 +3701,7 @@
   },
   "translators": {
    "DeepL": 4,
-   "gemini-flash-latest": 39,
+   "gemini-flash-latest": 40,
    "gemini-flash-lite-latest": 77
   },
   "week": "2026-W42"
@@ -4482,6 +4496,31 @@
    0,
    "",
    1792328482.8237116
+  ],
+  "q:basically": [
+   0,
+   "",
+   1792353686.2757769
+  ],
+  "q:basically kiki": [
+   0,
+   "",
+   1792353685.7668972
+  ],
+  "q:basically kiki's delivery": [
+   0,
+   "",
+   1792353685.1657772
+  ],
+  "q:basically kiki's delivery service": [
+   0,
+   "",
+   1792353684.5371778
+  ],
+  "q:basically kiki's delivery service in video": [
+   0,
+   "",
+   1792353684.0467668
   ],
   "q:battlefield 6": [
    2807960,
@@ -6333,6 +6372,26 @@
    "KAZ",
    1791894819.2258348
   ],
+  "q:kiki's delivery": [
+   0,
+   "",
+   1792353688.352229
+  ],
+  "q:kiki's delivery service": [
+   0,
+   "",
+   1792353687.8340483
+  ],
+  "q:kiki's delivery service in video": [
+   0,
+   "",
+   1792353687.3047972
+  ],
+  "q:kiki's delivery service in video game": [
+   0,
+   "",
+   1792353686.7725446
+  ],
   "q:king": [
    0,
    "",
@@ -6792,6 +6851,16 @@
    0,
    "",
    1792335739.6588213
+  ],
+  "q:new steam": [
+   0,
+   "",
+   1792353683.000905
+  ],
+  "q:new steam game": [
+   0,
+   "",
+   1792353682.4937458
   ],
   "q:nivalis nights": [
    1488490,
@@ -7567,6 +7636,11 @@
    4165890,
    "Steam Frame",
    1791807561.5629811
+  ],
+  "q:steam game": [
+   0,
+   "",
+   1792353683.51602
   ],
   "q:steam next fest": [
    1673210,
@@ -9415,6 +9489,10 @@
   [
    1792352563.4525044,
    "Underdark release new music video for ‘Death of a Toolmaker’"
+  ],
+  [
+   1792353699.7879052,
+   "New Steam Game is Basically Kiki’s Delivery Service in Video Game Form"
   ]
  ],
  "titles_uk": [
@@ -9889,6 +9967,10 @@
   [
    1792352563.452505,
    "Underdark випустили кліп на трек «Death of a Toolmaker»"
+  ],
+  [
+   1792353699.787906,
+   "The Witch’s Bakery пропонує затишну магічну пекарню в дусі Studio Ghibli"
   ]
  ],
  "ukrainian": {
