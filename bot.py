@@ -23,8 +23,10 @@ from deep_translator import GoogleTranslator
 
 from alerts import Alerts
 from steam import SteamLinker, app_url
+import freebies
 import releases
 import spotify
+import ukrainian
 import wishlist
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
@@ -222,11 +224,49 @@ def image_from_entry(entry):
     return None
 
 
+_page_cache = {}
+
+
+def fetch_page(url):
+    """HTML сторінки статті (один раз за запуск: потрібен і для картинки, і для тексту)."""
+    if url not in _page_cache:
+        try:
+            r = HTTP.get(url, timeout=15)
+            r.raise_for_status()
+            _page_cache[url] = r.text
+        except Exception as e:  # noqa: BLE001
+            log.info("Сторінка статті недоступна %s: %s", url, e)
+            _page_cache[url] = ""
+    return _page_cache[url]
+
+
+def article_text(url, limit=3000):
+    """Основний текст статті: абзаци з <article>/<main>, без меню, підписів і реклами."""
+    raw = fetch_page(url)
+    if not raw:
+        return ""
+    soup = BeautifulSoup(raw, "html.parser")
+    for tag in soup(["script", "style", "nav", "header", "footer", "aside", "figure", "form", "noscript"]):
+        tag.decompose()
+    root = soup.find("article") or soup.find("main") or soup.body or soup
+    parts, total = [], 0
+    for p in root.find_all("p"):
+        t = re.sub(r"\s+", " ", p.get_text(" ", strip=True))
+        if len(t) < 60 or re.search(r"(?i)cookie|subscribe|newsletter|sign up|affiliate|©", t):
+            continue
+        parts.append(t)
+        total += len(t)
+        if total >= limit:
+            break
+    return " ".join(parts)[:limit]
+
+
 def image_from_page(url):
     try:
-        r = HTTP.get(url, timeout=15)
-        r.raise_for_status()
-        soup = BeautifulSoup(r.text, "html.parser")
+        raw = fetch_page(url)
+        if not raw:
+            return None
+        soup = BeautifulSoup(raw, "html.parser")
         for prop in ("og:image", "twitter:image"):
             tag = soup.find("meta", attrs={"property": prop}) or soup.find(
                 "meta", attrs={"name": prop}
@@ -324,8 +364,8 @@ _gemini_model = None
 _gemini_exhausted = set()  # моделі, чий денний ліміт закінчився в цьому запуску
 
 
-def gemini_translate(texts):
-    """Перекладає список текстів одним запитом. Повертає список тієї ж довжини."""
+def gemini_json(system, payload):
+    """Запит до Gemini з JSON-відповіддю. Перебирає моделі (Flash → Flash-Lite) при вичерпаному ліміті."""
     global _gemini_model
     last = None
     for model in [m for m in GEMINI_MODELS if m not in _gemini_exhausted]:
@@ -333,8 +373,8 @@ def gemini_translate(texts):
             f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
             headers={"x-goog-api-key": GEMINI_API_KEY, "Content-Type": "application/json"},
             json={
-                "systemInstruction": {"parts": [{"text": GEMINI_PROMPT}]},
-                "contents": [{"role": "user", "parts": [{"text": json.dumps(texts, ensure_ascii=False)}]}],
+                "systemInstruction": {"parts": [{"text": system}]},
+                "contents": [{"role": "user", "parts": [{"text": json.dumps(payload, ensure_ascii=False)}]}],
                 "generationConfig": {"temperature": 0.3, "responseMimeType": "application/json"},
             },
             timeout=90,
@@ -356,16 +396,43 @@ def gemini_translate(texts):
         # моделі, що «думають», можуть повернути окрему частину з міркуваннями — беремо лише відповідь
         text = "".join(p.get("text", "") for p in parts if not p.get("thought"))
         out = json.loads(text)
-        if not isinstance(out, list) or len(out) != len(texts) or not all(isinstance(x, str) and x.strip() for x in out):
-            raise RuntimeError("Gemini повернув відповідь не того формату")
-        mark = re.compile(r"Q\s*Q\s*\d+\s*Q\s*Q", re.I)
-        for src, dst in zip(texts, out):
-            if len(mark.findall(src)) != len(mark.findall(dst)):
-                raise RuntimeError("Gemini зіпсував назви (QQ-мітки) — беру запасний перекладач")
         _gemini_model = model
         TR_STATS.setdefault("models", {})[model] = TR_STATS.setdefault("models", {}).get(model, 0) + 1
-        return [x.strip() for x in out]
+        return out
     raise RuntimeError(last or "Gemini недоступний")
+
+
+def gemini_translate(texts):
+    """Перекладає список текстів одним запитом. Повертає список тієї ж довжини."""
+    out = gemini_json(GEMINI_PROMPT, texts)
+    if not isinstance(out, list) or len(out) != len(texts) or not all(isinstance(x, str) and x.strip() for x in out):
+        raise RuntimeError("Gemini повернув відповідь не того формату")
+    mark = re.compile(r"Q\s*Q\s*\d+\s*Q\s*Q", re.I)
+    for src, dst in zip(texts, out):
+        if len(mark.findall(src)) != len(mark.findall(dst)):
+            raise RuntimeError("Gemini зіпсував назви (QQ-мітки) — беру запасний перекладач")
+    return [x.strip() for x in out]
+
+
+GEMINI_REWRITE = GEMINI_PROMPT.split("Отримуєш JSON-масив")[0] + """Отримуєш JSON-об'єкт: title — заголовок англійською, text — текст статті \
+(або її короткий анонс). Напиши українською:
+- title — заголовок новини за правилами нижче;
+- summary — суть новини у 2–3 реченнях (до 350 символів): що сталося, головні деталі й чому це \
+цікаво. Тільки факти з тексту, без вступів на кшталт «У статті йдеться» і без оцінок від себе.
+
+Правила:""" + GEMINI_PROMPT.split("Правила:")[1].split("Відповідь —")[0] + \
+    "Відповідь — лише JSON-об'єкт {\"title\": \"…\", \"summary\": \"…\"}, без пояснень."
+
+
+def gemini_rewrite(title, text):
+    """Заголовок і короткий переказ статті українською одним запитом."""
+    out = gemini_json(GEMINI_REWRITE, {"title": title, "text": text[:3000]})
+    if not isinstance(out, dict) or not str(out.get("title", "")).strip():
+        raise RuntimeError("Gemini повернув відповідь не того формату")
+    t, s_ = str(out["title"]).strip(), str(out.get("summary", "")).strip()
+    if re.search(r"Q\s*Q\s*\d+\s*Q\s*Q", t + s_, re.I):
+        raise RuntimeError("Gemini зіпсував назви — беру запасний перекладач")
+    return t, s_
 
 
 TRANSLATORS = ([("Gemini", lambda t: gemini_translate([t])[0])] if GEMINI_API_KEY else []) + (
@@ -442,35 +509,55 @@ def tg(method, **payload):
     raise RuntimeError("Telegram rate limit")
 
 
+def _msg_id(data):
+    return ((data or {}).get("result") or {}).get("message_id")
+
+
 def publish(caption, image_url, link, chat_id=None):
+    """Публікує пост. Повертає message_id (або None у тестовому режимі)."""
     if DRY_RUN:
         print("\n" + "=" * 60 + f"\n[IMG] {image_url}\n{caption}\n")
-        return
+        return None
     common = {"chat_id": chat_id or CHANNEL_ID, "parse_mode": "HTML"}
     if image_url:
         try:
-            tg("sendPhoto", photo=image_url, caption=caption, **common)
-            return
+            return _msg_id(tg("sendPhoto", photo=image_url, caption=caption, **common))
         except Exception as e:  # noqa: BLE001
             log.info("Telegram не взяв картинку за посиланням (%s), завантажую сам", e)
         try:
             img = HTTP.get(image_url, timeout=20)
             img.raise_for_status()
-            tg(
+            return _msg_id(tg(
                 "sendPhoto",
                 caption=caption,
                 files={"photo": ("image.jpg", img.content)},
                 **common,
-            )
-            return
+            ))
         except Exception as e:  # noqa: BLE001
             log.info("Картинку не вдалося відправити (%s), публікую текстом", e)
-    tg(
+    return _msg_id(tg(
         "sendMessage",
         text=caption,
-        link_preview_options=json.dumps({"url": link, "prefer_large_media": True}),
+        link_preview_options=json.dumps(
+            {"url": link, "prefer_large_media": True} if link else {"is_disabled": True}
+        ),
         **common,
-    )
+    ))
+
+
+CHANNEL_USERNAME = ""
+
+
+def post_link(message_id, chat_id=None):
+    """Посилання на пост у каналі."""
+    if not message_id:
+        return ""
+    chat = str(chat_id or CHANNEL_ID)
+    if CHANNEL_USERNAME and (chat_id is None or chat == str(CHANNEL_ID)):
+        return f"https://t.me/{CHANNEL_USERNAME}/{message_id}"
+    if chat.startswith("-100"):
+        return f"https://t.me/c/{chat[4:]}/{message_id}"
+    return ""
 
 
 PLACEHOLDER = "QQ{}QQ"
@@ -567,6 +654,9 @@ def check_telegram():
                 CHANNEL_ID = chat
                 log.info("Telegram: до id каналу додано префікс -100")
             log.info("Telegram: %s знайдено — «%s» (%s)", label, info.get("title"), info.get("type"))
+            if label == "канал":
+                global CHANNEL_USERNAME
+                CHANNEL_USERNAME = info.get("username") or ""
             member = tg("getChatMember", chat_id=chat, user_id=me["id"])["result"]
             if member.get("status") not in ("administrator", "creator") and info.get("type") == "channel":
                 log.error("Telegram: бот не адміністратор у каналі «%s» — додай його з правом публікації", info.get("title"))
@@ -714,6 +804,55 @@ def weekly_report(config, state):
             log.warning("Не вдалося надіслати тижневий звіт: %s", e)
             return  # спробуємо наступного запуску
     state["stats"] = {"week": _week()}
+
+
+DIGEST_PROMPT = """Ти — редактор українського Telegram-каналу про ігри, важку й альтернативну музику, \
+кіно, серіали, софт і ШІ. Отримуєш JSON-масив сьогоднішніх заголовків каналу з номерами. \
+Вибери до {n} найважливіших і найцікавіших для читачів новин дня: великі анонси, релізи, \
+скандали, гучні оголошення. Уникай дрібниць, оглядів дрібних інді й повторів однієї теми. \
+Відповідь — лише JSON-масив номерів у порядку важливості, наприклад [4, 17, 2]."""
+
+
+def daily_digest(state, cfg):
+    """Ввечері — пост «Головне за день» з посиланнями на найважливіші пости дня."""
+    now = datetime.now(wishlist.KYIV)
+    if now.hour < int(cfg.get("hour", 21)) or state.get("daily_digest_date") == now.strftime("%Y-%m-%d"):
+        return 0
+    day_start = now.replace(hour=0, minute=0, second=0, microsecond=0).timestamp()
+    posts = [p for p in state.get("post_log", []) if p[0] >= day_start and p[1]]
+    state["daily_digest_date"] = now.strftime("%Y-%m-%d")
+    n = int(cfg.get("count", 7))
+    if len(posts) < 5:
+        log.info("Головне за день: замало постів (%d)", len(posts))
+        return 0
+    order = []
+    if GEMINI_API_KEY and "Gemini" not in _disabled:
+        try:
+            picked = gemini_json(DIGEST_PROMPT.replace("{n}", str(n)),
+                                 [{"n": i, "title": f"{p[2]} {p[3]}"} for i, p in enumerate(posts)])
+            order = [int(i) for i in picked if str(i).isdigit() and int(i) < len(posts)]
+        except Exception as e:  # noqa: BLE001
+            log.info("Gemini не вибрав головне за день: %s", e)
+    if not order:
+        return 0
+    lines = [f"🗞 <b>Головне за {now.day} {releases.MONTHS[now.month - 1]}</b>", ""]
+    for k, i in enumerate(dict.fromkeys(order[:n]), 1):
+        ts, msg_id, emoji, title, source = posts[i]
+        url = post_link(msg_id)
+        t = html.escape(title)
+        lines.append(f"{k}. {emoji} " + (f'<a href="{url}">{t}</a>' if url else t))
+    lines += ["", "#головне"]
+    send_text("\n".join(lines))
+    log.info("🗞 Головне за день опубліковано")
+    return 1
+
+
+def log_post(state, msg_id, emoji, title, source):
+    """Журнал опублікованих постів: для «Головного за день» і реакцій у тижневому звіті."""
+    now = time.time()
+    plog = [p for p in state.get("post_log", []) if now - p[0] < 8 * 86400]
+    plog.append([now, msg_id, emoji, title, source])
+    state["post_log"] = plog
 
 
 def build_caption(cat, title_html, summary_uk, source, link, extra_games=()):
@@ -989,6 +1128,7 @@ def collect(config, state, alerts):
                         "source": feed["name"],
                         "lang": feed.get("lang", ""),
                         "social": social,
+                        "summarize": feed.get("summarize", True),
                     }
                 )
             fresh.sort(key=lambda c: c["ts"], reverse=True)
@@ -1022,10 +1162,14 @@ def main():
     alerts = Alerts(state, notify_admin if (ADMIN_ID or DRY_RUN) else None)
     pub = {"ok": 0, "failed": 0, "error": ""}
 
+    favorites = [str(x) for x in (config.get("favorites") or []) if str(x).strip()]
+    fav_rx = _kw_regex(favorites) if favorites else None
+
     def post(*args, **kwargs):
         try:
-            publish(*args, **kwargs)
+            msg_id = publish(*args, **kwargs)
             pub["ok"] += 1
+            return msg_id
         except Exception as e:
             pub["failed"] += 1
             pub["error"] = str(e)
@@ -1083,7 +1227,25 @@ def main():
         already_uk = c.get("lang") == "uk" or is_ukrainian(c["title"])
         tr = (lambda t: t) if already_uk else translate
         use_marks = True
-        if not already_uk and GEMINI_API_KEY and "Gemini" not in _disabled:
+        summary_ready = None
+        summarize = limits.get("summarize", True) and c.get("summarize", True)
+        if not already_uk and GEMINI_API_KEY and "Gemini" not in _disabled and summarize:
+            # короткий переказ самої статті замість обрізаного анонсу з RSS (той самий 1 запит)
+            text = article_text(link) or summary
+            if len(text) >= 120:
+                try:
+                    t_uk, summary_ready = gemini_rewrite(c["title"], text)
+                    TR_STATS["ok"].add("Gemini")
+                    tr = lambda t, done={c["title"]: t_uk}: done.get(t) or translate(t)  # noqa: E731
+                    use_marks = False
+                except Exception as e:  # noqa: BLE001
+                    summary_ready = None
+                    msg = str(e)
+                    if any(k in msg.lower() for k in BLOCKING_ERRORS):
+                        _disabled["Gemini"] = msg[:200]
+                    TR_STATS["gemini_error"] = msg[:300]
+                    log.info("Gemini не переписав статтю (%s) — перекладаю анонс", msg[:120])
+        if summary_ready is None and not already_uk and GEMINI_API_KEY and "Gemini" not in _disabled:
             # заголовок і опис — одним запитом, щоб берегти безкоштовний ліміт Gemini
             # без QQ-міток: Gemini сам лишає назви латиницею, посилання на Steam ставимо після
             batch = [c["title"]] + ([summary] if summary else [])
@@ -1100,7 +1262,10 @@ def main():
                 log.info("Gemini не переклав (%s) — беру запасний перекладач", msg[:120])
         try:
             title_html, extra_games = linked_title(c["title"], games, tr, use_marks)
-            summary_uk = tr(summary) if summary else ""
+            if summary_ready is not None:
+                summary_uk = shorten(summary_ready, limits["summary_chars"])
+            else:
+                summary_uk = tr(summary) if summary else ""
         except RuntimeError:
             log.warning("Пропускаю до наступного запуску (переклад): %s", c["title"])
             continue
@@ -1116,11 +1281,22 @@ def main():
 
         image = image_from_entry(entry) or image_from_page(link)
         caption = build_caption(c["cat"], title_html, summary_uk, c["source"], link, extra_games)
+        favorite = fav_rx and (fav_rx.search(c["title"]) or fav_rx.search(title_plain))
+        if favorite:
+            caption = "⭐ " + caption
         try:
-            post(caption, image, link)
+            msg_id = post(caption, image, link)
         except Exception as e:  # noqa: BLE001
             log.error("Не вдалося опублікувати «%s»: %s", c["title"], e)
             continue
+        log_post(state, msg_id, c["cat"].get("emoji", ""), title_plain, c["source"])
+        if favorite and (ADMIN_ID or DRY_RUN):
+            try:
+                url = post_link(msg_id)
+                notify_admin(f"⭐ <b>Про твоє улюблене — {html.escape(favorite.group(0))}</b>"
+                             + (f"\n{url}" if url else "") + f"\n\n{caption}")
+            except Exception as e:  # noqa: BLE001
+                log.info("Не вдалося надіслати ⭐ в особисті: %s", e)
 
         state["seen"][c["key"]] = time.time()
         state["titles"].append([time.time(), c["title"]])
@@ -1164,6 +1340,35 @@ def main():
         except Exception as e:  # noqa: BLE001
             log.error("Релізи тижня не вдалися: %s", e)
             alerts.problem("releases", "Не вдалося опублікувати «Релізи тижня»", str(e), repeat_hours=6)
+
+    fr_cfg = config.get("freebies") or {}
+    if fr_cfg.get("enabled"):
+        try:
+            n = freebies.check(HTTP, state, fr_cfg, post, html.escape)
+            posted += n
+            stats_add(state, "extra", "Халява", n)
+            alerts.ok("freebies")
+        except Exception as e:  # noqa: BLE001
+            log.error("Халява: %s", e)
+            alerts.problem("freebies", "Халява (GamerPower) недоступна", str(e), after_hours=24)
+
+    ua_cfg = config.get("ukrainian") or {}
+    if ua_cfg.get("enabled"):
+        try:
+            n = ukrainian.check(HTTP, state, ua_cfg, post, html.escape, wl_cfg.get("country") or "UA")
+            posted += n
+            stats_add(state, "extra", "Українська локалізація", n)
+            alerts.ok("ukrainian")
+        except Exception as e:  # noqa: BLE001
+            log.error("Українська локалізація: %s", e)
+            alerts.problem("ukrainian", "Перевірка української локалізації не працює", str(e), after_hours=24)
+
+    dd_cfg = config.get("daily_digest") or {}
+    if dd_cfg.get("enabled"):
+        try:
+            posted += daily_digest(state, dd_cfg)
+        except Exception as e:  # noqa: BLE001
+            log.error("Головне за день не вдалося: %s", e)
 
     sp_cfg = config.get("spotify") or {}
     if sp_cfg.get("enabled") and spotify.configured():

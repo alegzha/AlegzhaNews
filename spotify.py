@@ -123,6 +123,47 @@ def kind(album):
     return "Реліз"
 
 
+def digest_line(album, esc):
+    url = (album.get("external_urls") or {}).get("spotify") or f"https://open.spotify.com/album/{album['id']}"
+    artists = ", ".join(a["name"] for a in album.get("artists", []))
+    n = album.get("total_tracks") or 0
+    extra = kind(album) + (f" · {n} {tracks_word(n)}" if n > 1 else "")
+    return f"• <b>{esc(artists)}</b> — <a href=\"{url}\">{esc(album.get('name', ''))}</a> ({extra})"
+
+
+def friday_digest(st, cfg, publish):
+    """У пʼятницю ввечері — один пост з усіма синглами й EP тижня."""
+    from wishlist import KYIV
+    from datetime import datetime
+    now = datetime.now(KYIV)
+    week = now.strftime("%G-W%V")
+    if (now.weekday() != int(cfg.get("digest_weekday", 4)) or now.hour < int(cfg.get("digest_hour", 19))
+            or st.get("digest_week") == week):
+        return 0
+    pending = st.get("pending") or []
+    st["digest_week"] = week
+    if not pending:
+        return 0
+    lines = [f"{cfg.get('emoji', '🎧')} <b>Нові сингли й EP тижня</b>", ""] + pending[:40]
+    if len(pending) > 40:
+        lines.append(f"…і ще {len(pending) - 40}")
+    lines += ["", cfg.get("hashtag", "#нові_релізи")]
+    try:
+        publish("\n".join(lines), None, "")
+    except Exception as e:  # noqa: BLE001
+        st["digest_week"] = None
+        log.error("Spotify: не вдалося опублікувати пʼятничну підбірку: %s", e)
+        return 0
+    st["pending"] = []
+    log.info("🎧 Spotify: пʼятнична підбірка (%d релізів)", len(pending))
+    return 1
+
+
+def tracks_word(n):
+    last2, last = n % 100, n % 10
+    return "трек" if last == 1 and last2 != 11 else "треки" if 2 <= last <= 4 and not 12 <= last2 <= 14 else "треків"
+
+
 def format_post(album, artist_name, cfg, esc):
     url = (album.get("external_urls") or {}).get("spotify") or f"https://open.spotify.com/album/{album['id']}"
     artists = ", ".join(a["name"] for a in album.get("artists", [])) or artist_name
@@ -155,19 +196,21 @@ def check(http, state, cfg, publish, esc):
     fresh_days = int(cfg.get("max_age_days", 14))
     pause = float(cfg.get("pause_seconds", 3))
 
+    posted = friday_digest(st, cfg, publish)
+
     # Spotify суворо обмежує застосунки в режимі розробника: якщо попросив зачекати — чекаємо
     if time.time() < st.get("blocked_until", 0):
         log.info("Spotify: пауза до %s за проханням Spotify", time.strftime("%d.%m %H:%M UTC", time.gmtime(st["blocked_until"])))
-        return 0
+        return posted
 
     api = Api(http, access_token(http))
     try:
-        return _check(api, st, cfg, publish, esc, groups, per_run, fresh_days, pause)
+        return posted + _check(api, st, cfg, publish, esc, groups, per_run, fresh_days, pause)
     except RateLimited as e:
         st["blocked_until"] = time.time() + e.wait + 60
         log.warning("Spotify: %s — призупиняю перевірки до %s", e,
                     time.strftime("%d.%m %H:%M UTC", time.gmtime(st["blocked_until"])))
-        return 0
+        return posted
 
 
 def _check(api, st, cfg, publish, esc, groups, per_run, fresh_days, pause):
@@ -207,6 +250,11 @@ def _check(api, st, cfg, publish, esc, groups, per_run, fresh_days, pause):
             day = release_day(album)
             if first_time or not day or (today - day) > timedelta(days=fresh_days) or day > today:
                 continue
+            if cfg.get("friday_digest", True) and album.get("album_type") != "album":
+                # сингли й EP — у пʼятничну підбірку, альбоми — одразу
+                st.setdefault("pending", []).append(digest_line(album, esc))
+                log.info("🎧 Spotify: %s — у пʼятничну підбірку", album.get("name"))
+                continue
             images = album.get("images") or []
             image = images[0]["url"] if images else None
             text = format_post(album, "", cfg, esc)
@@ -214,7 +262,7 @@ def _check(api, st, cfg, publish, esc, groups, per_run, fresh_days, pause):
                 publish(text, image, (album.get("external_urls") or {}).get("spotify", ""))
                 posted += 1
                 log.info("🎧 Spotify: %s", album.get("name"))
-                time.sleep(3)
+                time.sleep(1.5)
             except Exception as e:  # noqa: BLE001
                 known.discard(album["id"])  # спробуємо наступного разу
                 log.error("Spotify: не вдалося опублікувати %s: %s", album.get("name"), e)

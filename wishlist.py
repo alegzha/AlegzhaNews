@@ -212,6 +212,27 @@ def format_post(appid, info, released, discounted, esc):
     return "\n".join(lines) + "\n\n" + " ".join(tags)
 
 
+def format_digest(sale, esc):
+    """Підбірка знижок з вішліста (коли їх багато одночасно — зазвичай старт розпродажу Steam)."""
+    sale = sorted(sale, key=lambda e: -e[1]["discount"])
+    lines = [f"🔥 <b>Розпродаж: {len(sale)} ігор з твого вішліста зі знижкою</b>", ""]
+    for appid, cur, _, _ in sale[:30]:
+        link = f'<a href="{STORE_URL.format(id=appid)}">{esc(cur["name"])}</a>'
+        price = ""
+        if cur.get("price"):
+            price = f" · {esc(cur['price'])}"
+            if cur.get("old_price"):
+                price += f" (було {esc(cur['old_price'])})"
+        lines.append(f"• {link} — −{cur['discount']}%{price}")
+    if len(sale) > 30:
+        lines.append(f"…і ще {len(sale) - 30}")
+    ends = {e[1].get("discount_end") for e in sale if e[1].get("discount_end")}
+    if len(ends) == 1:
+        end = datetime.fromtimestamp(ends.pop(), KYIV)
+        lines += ["", f"⏳ До {end:%d.%m} {end:%H:%M}"]
+    return "\n".join(lines) + "\n\n#вішліст #знижка #розпродаж"
+
+
 def remember(cur):
     return {
         "coming_soon": cur["coming_soon"],
@@ -264,6 +285,7 @@ def check(http, state, cfg, publish, esc, force=False):
     known = ws["apps"]
     posted = 0
 
+    events = []
     for appid in appids:
         cur = info.get(appid)
         if not cur:
@@ -274,7 +296,6 @@ def check(http, state, cfg, publish, esc, force=False):
             # гра щойно з'явилась у вішлісті — просто запам'ятовуємо стан
             known[key] = remember(cur)
             continue
-
         released = notify_release and prev["coming_soon"] and not cur["coming_soon"]
         discounted = (
             notify_discount
@@ -282,17 +303,36 @@ def check(http, state, cfg, publish, esc, force=False):
             and cur["discount"] > prev["discount"]
         )
         if released or discounted:
-            text = format_post(appid, cur, released, discounted, esc)
-            try:
-                publish(text, header_image(appid, cur), STORE_URL.format(id=appid))
-                posted += 1
-                log.info("🕹 Вішліст: %s (%s)", cur["name"], "реліз" if released else f"−{cur['discount']}%")
-                time.sleep(3)
-            except Exception as e:  # noqa: BLE001
-                log.error("Не вдалося опублікувати пост про %s: %s", cur["name"], e)
-                continue  # стан не оновлюємо — спробуємо наступного разу
+            events.append((appid, cur, released, discounted))
+        else:
+            known[key] = remember(cur)
 
-        known[key] = remember(cur)
+    # великий розпродаж: багато знижок одночасно — один пост-підбірка замість десятка окремих
+    sale = [e for e in events if e[3] and not e[2]]
+    digest_min = int(cfg.get("sale_digest_min", 4))
+    if len(sale) >= digest_min:
+        events = [e for e in events if e not in sale]
+        try:
+            publish(format_digest(sale, esc), None, STORE_URL.format(id=sale[0][0]))
+            posted += 1
+            for appid, cur, _, _ in sale:
+                known[str(appid)] = remember(cur)
+            log.info("🔥 Вішліст: підбірка знижок (%d ігор)", len(sale))
+            time.sleep(1.5)
+        except Exception as e:  # noqa: BLE001
+            log.error("Не вдалося опублікувати підбірку знижок: %s", e)
+
+    for appid, cur, released, discounted in events:
+        text = format_post(appid, cur, released, discounted, esc)
+        try:
+            publish(text, header_image(appid, cur), STORE_URL.format(id=appid))
+            posted += 1
+            log.info("🕹 Вішліст: %s (%s)", cur["name"], "реліз" if released else f"−{cur['discount']}%")
+            time.sleep(1.5)
+        except Exception as e:  # noqa: BLE001
+            log.error("Не вдалося опублікувати пост про %s: %s", cur["name"], e)
+            continue  # стан не оновлюємо — спробуємо наступного разу
+        known[str(appid)] = remember(cur)
 
     # прибираємо ігри, яких уже немає у вішлісті
     current = {str(a) for a in appids}
