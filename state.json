@@ -9,12 +9,12 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-18 12:31 UTC",
+  "at": "2026-10-18 13:02 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 6
+   "gemini-flash-latest": 2,
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
@@ -265,6 +265,34 @@
    "🤖",
    "Арешт інженера OpenAI підняв питання промислового шпигунства у сфері ШІ",
    "Bloomberg"
+  ],
+  [
+   1792328480.2612474,
+   936,
+   "🤖",
+   "Чотири ШІ-агенти на базі Gemini 4 Argon самостійно пройшли Minecraft",
+   "The Decoder"
+  ],
+  [
+   1792328496.911168,
+   937,
+   "🎮",
+   "Клайв Баркер вражений Hellraiser: Revival та пишається результатом",
+   "PC Gamer"
+  ],
+  [
+   1792328499.9192755,
+   938,
+   "🎬",
+   "Фільм Сергія Лозниці «Imperium» переміг на London Film Festival",
+   "Deadline"
+  ],
+  [
+   1792328509.2026794,
+   939,
+   "🎮",
+   "Джессіка Рот розповіла про роботу над сценарієм Happy Death Day 3",
+   "Polygon"
   ]
  ],
  "posted_by_source": {
@@ -284,7 +312,8 @@
    1792249901.5035412,
    1792312291.0941312,
    1792314092.2642934,
-   1792321529.8740613
+   1792321529.8740613,
+   1792328480.2613177
   ],
   "games|DOU Gamedev|https://gamedev.dou.ua/feed/": [
    1792145482.182897
@@ -334,7 +363,8 @@
    1792273212.9923143,
    1792281237.5537307,
    1792317842.8900573,
-   1792323120.4644656
+   1792323120.4644656,
+   1792328496.9114203
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1792229883.4529936,
@@ -373,7 +403,8 @@
    1792306032.0279427,
    1792310502.9210389,
    1792318187.8200665,
-   1792324878.8007002
+   1792324878.8007002,
+   1792328509.2029219
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1792256232.4410548,
@@ -419,7 +450,8 @@
    1792281283.8120637,
    1792295967.5868888,
    1792295985.1784601,
-   1792326695.616198
+   1792326695.616198,
+   1792328499.9195418
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1792071063.7644968,
@@ -677,6 +709,7 @@
   "2767d47f9f40b3dd": 1791993738.2951436,
   "277cecdddf507efd": 1791908428.2538705,
   "27f5b8a4e55a90d5": 1792021755.278712,
+  "28f9fc6adf8f1ee5": 1792328509.2026987,
   "290ef24bc6f46e44": 1791978121.1698637,
   "294525ac70d01930": 1792145417.3265986,
   "29b7873b62b4ef15": 1791853965.7189302,
@@ -885,6 +918,7 @@
   "5c7a726a5a7ee37d": 1791908440.5392518,
   "5cac9d00e22cbac8": 1791966895.258303,
   "5cb005d86af74da8": 1792164641.7867246,
+  "5cd9816c8b7b910f": 1792328496.9111874,
   "5d4800dce102de00": 1792056041.1819897,
   "5d7dca5016a2ac6f": 1792148864.454799,
   "5d84ec15c8a9b581": 1792249928.513019,
@@ -932,6 +966,7 @@
   "67aebf212d11ee2f": 1792145417.3267016,
   "67c850a571f357ad": 1792101830.3369472,
   "67dbc1c3bd60e817": 1791667536.1996334,
+  "68553c8ae55485bf": 1792328499.9192948,
   "686027e9c26b231a": 1792037186.0762506,
   "688ceefb247b2370": 1792145441.306256,
   "693b3842ab6b11b8": 1791975089.1230226,
@@ -956,6 +991,7 @@
   "6e57911a7743ad43": 1791926940.5305667,
   "6e62c6fbbcb8f5fa": 1791757296.5115497,
   "6e68a3f15db37bdb": 1792244062.2069013,
+  "6e850be2a3ec9b38": 1792328480.261266,
   "6ec6c702654797e5": 1792148887.052842,
   "6fb6133fdf09bf8d": 1791820243.7385676,
   "6fca0b4c5efac5f4": 1792312279.4526162,
@@ -2704,7 +2740,7 @@
    "/Film": 1,
    "Blabbermouth": 2,
    "Bloomberg": 2,
-   "Deadline": 1,
+   "Deadline": 2,
    "Eurogamer": 1,
    "GameSpot": 1,
    "GitHub Trending": 3,
@@ -2713,16 +2749,16 @@
    "Kerrang!": 1,
    "Lambgoat": 8,
    "Mezha": 2,
-   "PC Gamer": 2,
+   "PC Gamer": 3,
    "PlayUA": 2,
-   "Polygon": 4,
+   "Polygon": 5,
    "Product Hunt": 1,
-   "The Decoder": 3
+   "The Decoder": 4
   },
   "translators": {
    "DeepL": 4,
-   "gemini-flash-latest": 23,
-   "gemini-flash-lite-latest": 8
+   "gemini-flash-latest": 25,
+   "gemini-flash-lite-latest": 10
   },
   "week": "2026-W42"
  },
@@ -3387,6 +3423,11 @@
    "Balatro",
    1791724897.6827266
   ],
+  "q:barker": [
+   0,
+   "",
+   1792328482.8237116
+  ],
   "q:battlefield 6": [
    2807960,
    "Battlefield™ 6",
@@ -3891,6 +3932,11 @@
    0,
    "",
    1792229878.024503
+  ],
+  "q:clive barker": [
+   0,
+   "",
+   1792328482.3240654
   ],
   "q:coast": [
    0,
@@ -4862,6 +4908,21 @@
    "",
    1792214859.7160761
   ],
+  "q:hellraiser": [
+   0,
+   "",
+   1792328484.325801
+  ],
+  "q:hellraiser revival": [
+   0,
+   "",
+   1792328483.8270993
+  ],
+  "q:hellraiser revival 'i'm": [
+   0,
+   "",
+   1792328483.3179107
+  ],
   "q:hogwarts legacy": [
    990080,
    "Hogwarts Legacy",
@@ -4956,6 +5017,36 @@
    4590390,
    "JEFF",
    1792021764.8697996
+  ],
+  "q:jessica": [
+   0,
+   "",
+   1792328504.481982
+  ],
+  "q:jessica rothe": [
+   0,
+   "",
+   1792328503.9551654
+  ],
+  "q:jessica rothe officially": [
+   0,
+   "",
+   1792328503.4350994
+  ],
+  "q:jessica rothe officially confirms": [
+   0,
+   "",
+   1792328502.913232
+  ],
+  "q:jessica rothe officially confirms return": [
+   0,
+   "",
+   1792328502.4133668
+  ],
+  "q:jessica rothe officially confirms return plans": [
+   0,
+   "",
+   1792328501.916748
   ],
   "q:kaz": [
    3633760,
@@ -5412,6 +5503,11 @@
    "",
    1792270289.6764498
   ],
+  "q:officially confirms return plans for hit": [
+   0,
+   "",
+   1792328507.644163
+  ],
   "q:one": [
    0,
    "",
@@ -5822,6 +5918,16 @@
    "",
    1792273237.4387398
   ],
+  "q:revival": [
+   0,
+   "",
+   1792328485.337114
+  ],
+  "q:revival 'i'm": [
+   0,
+   "",
+   1792328484.824106
+  ],
   "q:riot games louis": [
    0,
    "",
@@ -5846,6 +5952,31 @@
    0,
    "",
    1792246798.3230104
+  ],
+  "q:rothe": [
+   0,
+   "",
+   1792328507.1260002
+  ],
+  "q:rothe officially": [
+   0,
+   "",
+   1792328506.6139102
+  ],
+  "q:rothe officially confirms": [
+   0,
+   "",
+   1792328506.1093762
+  ],
+  "q:rothe officially confirms return": [
+   0,
+   "",
+   1792328505.5288563
+  ],
+  "q:rothe officially confirms return plans": [
+   0,
+   "",
+   1792328505.025248
   ],
   "q:runescape": [
    1343400,
@@ -7735,6 +7866,22 @@
   [
    1792326710.9943037,
    "OpenAI Arrest Raises AI Espionage Concerns"
+  ],
+  [
+   1792328480.2612674,
+   "Four Gemini 4 Argon agents beat Minecraft without any human help"
+  ],
+  [
+   1792328496.9111893,
+   "Clive Barker says he's 'genuinely astonished' by Hellraiser: Revival: 'I'm proud as f**k at the end result'"
+  ],
+  [
+   1792328499.919296,
+   "London Film Festival: Sergei Loznitsa’s ‘Imperium’ & Sompot Chidgasornpongse’s ‘9 Temples To Heaven’ Among Big Winners — Full List"
+  ],
+  [
+   1792328509.2027001,
+   "Jessica Rothe Officially Confirms Return Plans for Hit Time-Loop Thriller Trilogy"
   ]
  ],
  "titles_uk": [
@@ -7881,6 +8028,22 @@
   [
    1792326710.9943051,
    "Арешт інженера OpenAI підняв питання промислового шпигунства у сфері ШІ"
+  ],
+  [
+   1792328480.2612681,
+   "Чотири ШІ-агенти на базі Gemini 4 Argon самостійно пройшли Minecraft"
+  ],
+  [
+   1792328496.9111903,
+   "Клайв Баркер вражений Hellraiser: Revival та пишається результатом"
+  ],
+  [
+   1792328499.9192967,
+   "Фільм Сергія Лозниці «Imperium» переміг на London Film Festival"
+  ],
+  [
+   1792328509.2028775,
+   "Джессіка Рот розповіла про роботу над сценарієм Happy Death Day 3"
   ]
  ],
  "ukrainian": {
@@ -7935,6 +8098,7 @@
    "1374490": "",
    "1376200": "",
    "1378990": "",
+   "1407200": "ia",
    "1429850": "",
    "1431300": "is",
    "1436700": "is",
@@ -8057,6 +8221,7 @@
    "2537590": "",
    "2569760": "",
    "2581410": "",
+   "2584270": "is",
    "2590240": "isa",
    "2622380": "",
    "2623190": "",
@@ -8208,6 +8373,7 @@
    "524220": "",
    "526870": "is",
    "534380": "",
+   "552990": "i",
    "553850": "",
    "570": "i",
    "578080": "i",
@@ -8254,8 +8420,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1792306094.28636,
-  "with_uk": 98
+  "last_check": 1792328520.8391042,
+  "with_uk": 100
  },
  "weekly_releases_week": "2026-W42",
  "wishlist": {
