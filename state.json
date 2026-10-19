@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1792386075.8933537
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1792386073.7849174
+  }
+ },
  "daily_digest_date": "2026-10-18",
  "freebies": {
   "last_check": 1792380690.880547,
@@ -13666,7 +13679,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792382521.418822,
+  "last_check": 1792386088.5504336,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
