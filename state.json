@@ -1,5 +1,24 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:ai|The Decoder|https://the-decoder.com/feed/": {
+   "detail": "https://the-decoder.com/feed/ → HTTPSConnectionPool(host='the-decoder.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutEr",
+   "label": "Джерело «The Decoder» не працює",
+   "sent": 0,
+   "since": 1792371700.0700321
+  },
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1792371675.4650474
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1792371673.0525813
+  }
+ },
  "daily_digest_date": "2026-10-18",
  "freebies": {
   "last_check": 1792366281.629652,
@@ -10,7 +29,7 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-19 00:31 UTC",
+  "at": "2026-10-19 01:01 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
@@ -1365,6 +1384,34 @@
     "link": "https://insider-gaming.com/dan-houser-red-dead-bully-development/",
     "orig": "Dan Houser Says Red Dead and Bully Nearly Didn’t Happen"
    }
+  ],
+  [
+   1792371702.243887,
+   1042,
+   "🤖",
+   "Японські акції впали через побоювання щодо інвестицій у ШІ",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Японські акції впали через побоювання щодо інвестицій у ШІ</b>\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-10-18/japanese-equities-set-to-fall-on-tech-share-selloff-higher-oil\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-18/japanese-equities-set-to-fall-on-tech-share-selloff-higher-oil",
+    "orig": "Japanese Stocks Decline as Tech Selloff Deepens on AI Worries"
+   }
+  ],
+  [
+   1792371705.2865193,
+   1043,
+   "🤖",
+   "ШІ посилить космічні місії Індії",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>ШІ посилить космічні місії Індії</b>\n\nМіністр науки й технологій Індії Джитендра Сінгх заявив, що штучний інтелект стане великою перевагою для космічних місій країни. За його словами, людський інтелект має оптимально використовувати ШІ задля розвитку ядерних і космічних програм.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-19/ai-will-empower-india-s-space-missions-says-minister-video\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-19/ai-will-empower-india-s-space-missions-says-minister-video",
+    "orig": "AI Will Empower India's Space Missions, Says Minister"
+   }
   ]
  ],
  "posted_by_source": {
@@ -1372,7 +1419,9 @@
    1792295980.6157317,
    1792326710.9943516,
    1792348286.1640244,
-   1792369874.8010924
+   1792369874.8010924,
+   1792371702.2440217,
+   1792371705.2868001
   ],
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
    1792306037.9158704
@@ -1877,6 +1926,7 @@
   "2eff018b70399334": 1791807515.0569289,
   "2f43ffc9d5887adc": 1792021759.8338954,
   "2ff0c7c61394cbe9": 1791722094.2530224,
+  "3038e450a09e3776": 1792371702.243978,
   "30be303575f979d2": 1792177237.6718464,
   "30c481d9d2140be9": 1791643484.7724442,
   "30f07af25c631250": 1791957575.842039,
@@ -2800,6 +2850,7 @@
   "f9fecc0b70837da8": 1792177158.1601586,
   "fa1baf1fe69fe2a8": 1791661532.8653228,
   "fa2fe6c749f5a47b": 1792010047.5177546,
+  "fa5f15f95cb7016f": 1792371705.2867553,
   "fa949988bc6f0cc5": 1792281224.0908048,
   "faa2a4f8ea714e23": 1792101840.5980327,
   "fb1fa580005ce111": 1791931822.5673175,
@@ -3995,7 +4046,7 @@
  "stats": {
   "sources": {
    "/Film": 5,
-   "Bloomberg": 1,
+   "Bloomberg": 3,
    "Deadline": 4,
    "IndieWire": 1,
    "Insider Gaming": 3,
@@ -4005,7 +4056,7 @@
   },
   "translators": {
    "gemini-flash-latest": 10,
-   "gemini-flash-lite-latest": 8
+   "gemini-flash-lite-latest": 10
   },
   "week": "2026-W43"
  },
@@ -6220,11 +6271,6 @@
    "",
    1792333898.7334316
   ],
-  "q:francisco": [
-   0,
-   "",
-   1792197841.0044167
-  ],
   "q:fromsoftware": [
    0,
    "",
@@ -7830,16 +7876,6 @@
    "Samson",
    1792256228.7843297
   ],
-  "q:san": [
-   0,
-   "",
-   1792197840.4959853
-  ],
-  "q:san francisco": [
-   0,
-   "",
-   1792197839.9397104
-  ],
   "q:sat": [
    0,
    "",
@@ -7994,36 +8030,6 @@
    0,
    "",
    1792356787.2598462
-  ],
-  "q:smash": [
-   0,
-   "",
-   1792197802.1566255
-  ],
-  "q:smash bros": [
-   0,
-   "",
-   1792197801.4696782
-  ],
-  "q:smash bros player": [
-   0,
-   "",
-   1792197800.716615
-  ],
-  "q:smash bros player mew2king": [
-   0,
-   "",
-   1792197800.1853461
-  ],
-  "q:smash bros player mew2king banned": [
-   0,
-   "",
-   1792197799.6323159
-  ],
-  "q:smash bros player mew2king banned from": [
-   0,
-   "",
-   1792197799.0249674
   ],
   "q:souls": [
    0,
@@ -8304,36 +8310,6 @@
    0,
    "",
    1792229924.8137665
-  ],
-  "q:super": [
-   0,
-   "",
-   1792197798.1919339
-  ],
-  "q:super smash": [
-   0,
-   "",
-   1792197797.6319578
-  ],
-  "q:super smash bros": [
-   0,
-   "",
-   1792197797.0948653
-  ],
-  "q:super smash bros player": [
-   0,
-   "",
-   1792197796.5665584
-  ],
-  "q:super smash bros player mew2king": [
-   0,
-   "",
-   1792197796.0064478
-  ],
-  "q:super smash bros player mew2king banned": [
-   0,
-   "",
-   1792197795.4594543
   ],
   "q:surprises'": [
    0,
@@ -8909,11 +8885,6 @@
    0,
    "",
    1792337495.3807237
-  ],
-  "q:zombies": [
-   0,
-   "",
-   1792197839.3990736
   ]
  },
  "tag_hints": {
@@ -8958,54 +8929,6 @@
   ]
  },
  "titles": [
-  [
-   1792197803.4496655,
-   "Super Smash Bros. Player Mew2King Banned From Tournament After Bug Bites Spark Health Concerns"
-  ],
-  [
-   1792197807.6505923,
-   "Whalefall's Josh Brolin Cried So Hard Reading The Book That It Changed His Performance [Exclusive]"
-  ],
-  [
-   1792197812.0240703,
-   "5 Best New Movies And Shows To Stream This Weekend On Netflix, Prime Video, Hulu, And More (Oct. 16-18)"
-  ],
-  [
-   1792197816.2451103,
-   "The Cyberpunk 2077 movie won't be 'a film adaptation of the game,' CD Projekt chief says"
-  ],
-  [
-   1792197823.141279,
-   "‘La Bola Negra’ Directing Duo Los Javis Reveal How Spanish Sensation Became “The Journey Of Our Lives”"
-  ],
-  [
-   1792197827.4039016,
-   "Anthropic Pitches AI Safety Bill to Lawmakers"
-  ],
-  [
-   1792197831.8384354,
-   "How ‘Whalefall’s Director & Author Wove The Closure Of A Father-Son Relationship Into A Survival Tale"
-  ],
-  [
-   1792197835.899864,
-   "Insomnium, Cro-Mags, Carnifex & More Added To Metal Injection's Top Tracks of the Week"
-  ],
-  [
-   1792197842.1207376,
-   "Tech founder criticized for vibe coding game about shooting 'zombies' in San Francisco's poorest neighborhood"
-  ],
-  [
-   1792197846.3569949,
-   "HEALTH share pair of new singles “NEGATIVE EDGE” and “BRAINROT\" from upcoming 'Street Fighter' film"
-  ],
-  [
-   1792197850.3807807,
-   "Infant Annihilator set release date for the first LP in 7 years"
-  ],
-  [
-   1792197854.6517715,
-   "Umbilicus (Cannibal Corpse, Deicide reveal second single, \"Prelude: Eternity\", off upcoming debut EP"
-  ],
   [
    1792214790.874819,
    "I haven't wanted to 100% a game in a long time, but…"
@@ -10101,6 +10024,14 @@
   [
    1792369883.9610908,
    "Dan Houser Says Red Dead and Bully Nearly Didn’t Happen"
+  ],
+  [
+   1792371702.2439792,
+   "Japanese Stocks Decline as Tech Selloff Deepens on AI Worries"
+  ],
+  [
+   1792371705.2867572,
+   "AI Will Empower India's Space Missions, Says Minister"
   ]
  ],
  "titles_uk": [
@@ -10667,6 +10598,14 @@
   [
    1792369883.9610915,
    "Ден Гаузер розповів, що Red Dead та Bully ледь не скасували"
+  ],
+  [
+   1792371702.2439802,
+   "Японські акції впали через побоювання щодо інвестицій у ШІ"
+  ],
+  [
+   1792371705.2867582,
+   "ШІ посилить космічні місії Індії"
   ]
  ],
  "ukrainian": {
@@ -10986,6 +10925,7 @@
    "4810650": "is",
    "482400": "",
    "4824610": "",
+   "489830": "",
    "493520": "",
    "4954910": "",
    "4968640": "",
@@ -11045,7 +10985,7 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1792350110.3735404,
+  "last_check": 1792371716.3611834,
   "with_uk": 98
  },
  "weekly_releases_week": "2026-W42",
