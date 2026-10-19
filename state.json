@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1792407671.869876
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1792407670.1730738
+  }
+ },
  "daily_digest_date": "2026-10-18",
  "freebies": {
   "last_check": 1792402625.1011643,
@@ -10,12 +23,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-19 10:31 UTC",
+  "at": "2026-10-19 11:02 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 4
+   "gemini-flash-lite-latest": 8
   },
   "used": [
    "Gemini"
@@ -1260,7 +1272,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Документальний фільм You Can See Everything від A24 стартував із $15 млн у прокаті</b>\n\nДокументальний фільм You Can See Everything від A24 про засновницю Theranos Елізабет Голмс заробив $15 млн на старті в США. Картина Нейтана Філдера та Ленса Оппенгайма показала другий найкращий дебют серед документалок в історії після Fahrenheit 9/11. Близько 70% аудиторії склала молодь до 25 років завдяки хвилі вірусних мемів.\n\n🔗 <a href=\"https://deadline.com/2026/10/you-can-see-everything-box-office-elizabeth-holmes-1237167129/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/you-can-see-everything-box-office-elizabeth-holmes-1237167129/",
     "orig": "How A24 Spurred A Meme Craze & Got The Many To Watch ‘You Can See Everything’; Documentary Opens To $15M Milestone"
@@ -1274,7 +1285,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>5 серіалів-вестернів, які передчасно закрили попри великий потенціал</b>\n\nЧимало телевізійних вестернів згортали вже після першого сезону, попри міцний каст і цікаві задуми. Серед таких проєктів — The Quest 1976 року від NBC із Куртом Расселлом і Тімом Метісоном у головних ролях. Серіал зняли з телеефіру всього після 11 епізодів через низькі рейтинги на тлі конкуренції з хітом Charlie&#x27;s Angels.\n\n🔗 <a href=\"https://www.slashfilm.com/2287635/western-tv-shows-prematurely-canceled/\">/Film</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2287635/western-tv-shows-prematurely-canceled/",
     "orig": "5 Prematurely Canceled Western TV Shows That Deserved A Second Chance"
@@ -1288,7 +1298,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Netflix запускає у виробництво другий і третій сезони The Trauma Code: Heroes On Call</b>\n\nСеріал The Trauma Code: Heroes On Call отримає одразу два нові сезони на Netflix. До своїх ролей повернуться Чу Чжі Хун та Чу Йон У, а режисером знову виступить Лі До Юн.\n\n🔗 <a href=\"https://deadline.com/2026/10/trauma-code-heroes-on-call-netflix-seasons-2-3-confirmed-1237165650/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/trauma-code-heroes-on-call-netflix-seasons-2-3-confirmed-1237165650/",
     "orig": "Ju Ji-hoon & Choo Young-woo Return To ‘The Trauma Code: Heroes On Call’ With Seasons 2 & 3 In Production At Netflix"
@@ -1302,7 +1311,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Meta заявила про помилкове блокування Instagram-акаунта No Kings через систему безпеки</b>\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-10-18/meta-says-claude-ai-tool-triggered-no-kings-instagram-suspension\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-10-18/meta-says-claude-ai-tool-triggered-no-kings-instagram-suspension",
     "orig": "Meta Says Claude AI Tool Triggered No Kings Instagram Suspension"
@@ -1316,7 +1324,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Ден Гаузер розповів, що Red Dead та Bully ледь не скасували</b>\n\nСпівзасновник Rockstar Games Ден Гаузер заявив, що Red Dead Redemption і Bully ледь не скасували під час складних розробок. За його словами, проєкти вдалося врятувати завдяки сильним командам, фокусу на баченні та вдалим збіркам гри.\n\n🔗 <a href=\"https://insider-gaming.com/dan-houser-red-dead-bully-development/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/dan-houser-red-dead-bully-development/",
     "orig": "Dan Houser Says Red Dead and Bully Nearly Didn’t Happen"
@@ -1330,7 +1337,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Японські акції впали через побоювання щодо інвестицій у ШІ</b>\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-10-18/japanese-equities-set-to-fall-on-tech-share-selloff-higher-oil\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-10-18/japanese-equities-set-to-fall-on-tech-share-selloff-higher-oil",
     "orig": "Japanese Stocks Decline as Tech Selloff Deepens on AI Worries"
@@ -1344,7 +1350,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>ШІ посилить космічні місії Індії</b>\n\nМіністр науки й технологій Індії Джитендра Сінгх заявив, що штучний інтелект стане великою перевагою для космічних місій країни. За його словами, людський інтелект має оптимально використовувати ШІ задля розвитку ядерних і космічних програм.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-19/ai-will-empower-india-s-space-missions-says-minister-video\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-10-19/ai-will-empower-india-s-space-missions-says-minister-video",
     "orig": "AI Will Empower India's Space Missions, Says Minister"
@@ -1358,7 +1363,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Єдиним повнометражним фільмом в режисерській кар&#x27;єрі Арнольда Шварценеггера стала святкова романтична комедія</b>\n\nУ 1992 році Арнольд Шварценеггер зняв свій єдиний повнометражний фільм — ремейк романтичної комедії «Christmas in Connecticut». Ланка унікальна тим, що замість звичного для актора бойовика чи фантастики це була святкова телестрічка для каналу TNT.\n\n🔗 <a href=\"https://www.slashfilm.com/2282415/arnold-schwarzenegger-directed-one-movie-christmas-in-connecticut-not-action/\">/Film</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2282415/arnold-schwarzenegger-directed-one-movie-christmas-in-connecticut-not-action/",
     "orig": "Arnold Schwarzenegger Only Directed One Movie - And It Wasn't In The Action Genre"
@@ -1372,7 +1376,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Серіал Marshals продовжує традицію Yellowstone із символізмом тварин</b>\n\nУ другому сезоні спіноффу Yellowstone під назвою Marshals з&#x27;явився новий тваринний символ для персонажа Luke Grimes — самотній бізон. Цей звір повторює роль вовків, які переслідували Kayce Dutton в оригінальному серіалі та віщували темні часи. Новий символ додає глибини процедуральному формату шоу у стилі Taylor Sheridan.\n\n🔗 <a href=\"https://www.slashfilm.com/2288139/marshals-twist-taylor-sheridan-yellowstone-tradition/\">/Film</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2288139/marshals-twist-taylor-sheridan-yellowstone-tradition/",
     "orig": "Marshals Is Putting A Twist One One Of Taylor Sheridan's Yellowstone Traditions"
@@ -1847,7 +1850,12 @@
    "У Call of Duty: Modern Warfare 4 вшанували пам'ять Вінса Зампелли",
    "VGC",
    {
-    "also": [],
+    "also": [
+     [
+      "IGN",
+      "https://www.ign.com/articles/modern-warfare-4-pays-tribute-to-call-of-duty-co-creator-vince-zampella"
+     ]
+    ],
     "caption": "🎮 <b>У <a href=\"https://store.steampowered.com/app/2000950/\">Call of Duty: Modern Warfare</a> 4 вшанували пам&#x27;ять Вінса Зампелли</b>\n\nУ фінальних титрах Call of Duty: Modern Warfare 4 з&#x27;явився екран із присвятою «In memoriam – Vince Zampella». Співзасновник Infinity Ward і творець серії загинув в автокатастрофі у грудні 2025 року. Попри те, що Зампелла покинув франшизу понад 15 років тому, автори віддали шану його фундаментальному внеску в жанр шутерів.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/call-of-duty-modern-warfare-4-pays-tribute-to-late-cod-co-creator-and-infinity-ward-co-founder-vince-zampella/\">VGC</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/news/call-of-duty-modern-warfare-4-pays-tribute-to-late-cod-co-creator-and-infinity-ward-co-founder-vince-zampella/",
@@ -2105,6 +2113,132 @@
     "link": "https://www.pcgamer.com/hardware/graphics-cards/man-moved-to-tears-by-rtx-5090-on-his-wedding-day-usd9000-price-tag-brings-a-tear-to-my-eye-too/",
     "orig": "Man moved to tears by RTX 5090 on his wedding day - $9000+ price tag brings a tear to my eye too"
    }
+  ],
+  [
+   1792407679.241296,
+   1099,
+   "🤘",
+   "Як виграти подарункову картку Target на $500",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Як виграти подарункову картку Target на $500</b>\n\nСтартував розіграш подарункової картки Target на $500. Щоб взяти участь, потрібно завантажити мобільний застосунок станції та слухати улюблені ефіри. Акція триває до 31 грудня, а переможця обере випадковим чином 4 січня 2027 року.\n\n🔗 <a href=\"https://loudwire.com/right-on-target-2026/\">Loudwire</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://loudwire.com/right-on-target-2026/",
+    "orig": "Here's How You Can Win a $500 Target Gift Card"
+   }
+  ],
+  [
+   1792407688.5221465,
+   1100,
+   "🎮",
+   "Моддер переніс систему Nemesis із Shadow of War у Red Dead Redemption 2 за допомогою ШІ",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Моддер переніс систему Nemesis із Shadow of War у Red Dead Redemption 2 за допомогою ШІ</b>\n\nМоддер nicklovin99 випустив у ранній доступ мод enRage, який додає до Red Dead Redemption 2 систему Nemesis із Middle-earth: Shadow of War за допомогою ШІ. Новинка іменує кожного NPC, відстежує їхні стосунки, риси характеру та статки, а також створює ворожнечу та бандитські війни у відкритому світі.\n\n🔗 <a href=\"https://www.ign.com/articles/red-dead-redemption-2-enrage-mod-nemesis-system\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/red-dead-redemption-2-enrage-mod-nemesis-system",
+    "orig": "Modder Uses AI to Put Shadow of War's Nemesis System in Rockstar's Red Dead Redemption 2"
+   }
+  ],
+  [
+   1792407697.6408968,
+   1101,
+   "🎮",
+   "FURIA виграла Thunderpick World Championship 2026",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>FURIA виграла Thunderpick World Championship 2026</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/1712680/\">Captures</a>\n\nFURIA перемогла BetBoom з рахунком 3:2 у фіналі Thunderpick World Championship 2026 і принесла Габріелю «FalleN» Толедо перший трофей в його останньому році змагальної кар&#x27;єри. Бразильська команда захистила свій торішній титул на турнірі напередодні виступу на PGL Masters Bucharest 2026.\n\n🔗 <a href=\"https://insider-gaming.com/furia-captures-retirement-year-trophy-for-fallen-at-thunderpick-world-championship-2026/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/furia-captures-retirement-year-trophy-for-fallen-at-thunderpick-world-championship-2026/",
+    "orig": "FURIA Captures Retirement Year Trophy for FalleN at Thunderpick World Championship 2026"
+   }
+  ],
+  [
+   1792407700.483036,
+   1102,
+   "🎮",
+   "З'явилися чутки про ремастер або ремейк Vampire: The Masquerade - Bloodlines",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>З&#x27;явилися чутки про ремастер або ремейк Vampire: The Masquerade - Bloodlines</b>\n\n🔗 <a href=\"https://www.rockpapershotgun.com/vampire-the-masquerade-bloodlines-remaster-or-remake-rumours-begin-to-flow-reportedly-in-part-thanks-to-a-metal-band-from-the-originals-score\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/vampire-the-masquerade-bloodlines-remaster-or-remake-rumours-begin-to-flow-reportedly-in-part-thanks-to-a-metal-band-from-the-originals-score",
+    "orig": "Vampire: The Masquerade - Bloodlines remaster or remake rumours begin to flow, reportedly in part thanks to a metal band from the original's score"
+   }
+  ],
+  [
+   1792407726.199906,
+   1103,
+   "🎮",
+   "На Steam Next Fest 2026 з'явилося вдвічі більше демок, але зросли й побоювання щодо ШІ",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>На <a href=\"https://store.steampowered.com/app/1673210/\">Steam Next Fest</a> 2026 з&#x27;явилося вдвічі більше демок, але зросли й побоювання щодо ШІ</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/4813820/\">AI slop</a>\n\nСтартував Steam Next Fest 2026, який пропонує понад 8 200 демок, що вдвічі перевищує показник минулого року. Водночас зростають побоювання розробників через плагіат, проблему пошуку ігор та використання генеративного ШІ для створення копій і клонування проєктів.\n\n🔗 <a href=\"https://www.eurogamer.net/steam-next-fest-2026-over-double\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/steam-next-fest-2026-over-double",
+    "orig": "Steam Next Fest 2026 has more than double the number of demos than last year, but how much of it is generative 'AI slop'?"
+   }
+  ],
+  [
+   1792407735.660661,
+   1104,
+   "🎮",
+   "Повний список місій та нагород кампанії Call of Duty: Modern Warfare 4",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Повний список місій та нагород кампанії <a href=\"https://store.steampowered.com/app/2000950/\">Call of Duty: Modern Warfare</a> 4</b>\n\nКампанія Call of Duty: Modern Warfare 4 від Infinity Ward містить 16 місій, включно з відкритим рівнем Stranded. За проходження кожного рівня гравці отримують нагороди: жетони досвіду, візитки, емблеми та вісім ексклюзивних операторів.\n\n🔗 <a href=\"https://insider-gaming.com/modern-warfare-4-mission-list-all-rewards/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/modern-warfare-4-mission-list-all-rewards/",
+    "orig": "Call of Duty: Modern Warfare 4 Full Mission List & All Rewards"
+   }
+  ],
+  [
+   1792407738.5405893,
+   1105,
+   "🎮",
+   "Розробник Dune: Awakening проводить реструктуризацію та звільнення",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Розробник <a href=\"https://store.steampowered.com/app/1172710/\">Dune: Awakening</a> проводить реструктуризацію та звільнення</b>\n\nСтудія Funcom готується до звільнень і реструктуризації після релізу консольних версій Dune: Awakening та завершення активної розробки. Компанія також змінює керівництво: новим генеральним директором стає Скотт Джуніор замість Руї Касаїса, який залишає посаду після 22 років роботи.\n\n🔗 <a href=\"https://www.eurogamer.net/funcom-dune-awakening-layoffs-restructuring\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/funcom-dune-awakening-layoffs-restructuring",
+    "orig": "Dune: Awakening studio faces layoffs as it restructures following console release"
+   }
+  ],
+  [
+   1792407741.8354309,
+   1106,
+   "🎮",
+   "Українська гра AI Olympius вийшла з Дочасного доступу Steam",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🎮 <b>Українська гра <a href=\"https://store.steampowered.com/app/1478970/\">AI Olympius</a> вийшла з Дочасного доступу Steam</b>\n\nУкраїнський шутер від третьої особи AI Olympius від львівської студії Lion&#x27;s Shade вийшов з Дочасного доступу Steam. Розробка гри тривала 6,5 років, а за 3 роки Дочасного доступу проєкт отримав більш ніж 170 оновлень.\n\n🔗 <a href=\"https://mezha.ua/news/vidbuvsya-reliz-ukrajinskogo-shutera-ai-olympius-316306/\">Mezha</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/vidbuvsya-reliz-ukrajinskogo-shutera-ai-olympius-316306/",
+    "orig": "Українська гра AI Olympius вийшла з Дочасного доступу Steam"
+   }
+  ],
+  [
+   1792407745.7634635,
+   1107,
+   "🎮",
+   "GDCA 2027 змінює систему відбору: розробники й видавці можуть самі подавати ігри",
+   "GamesIndustry.biz",
+   {
+    "also": [],
+    "caption": "🎮 <b>GDCA <a href=\"https://store.steampowered.com/app/5089480/\">2027</a> змінює систему відбору: розробники й видавці можуть самі подавати ігри</b>\n\nНа премії GDCA 2027 уперше запроваджують прийом заяв від розробників і видавців замість закритої системи номінацій. Подати ігри для участі можна безплатно до 1 листопада 2026 року. Також організатори додали нові категорії Best Game Launch та Best Gaming Tech.\n\n🔗 <a href=\"https://www.gamesindustry.biz/gdca-2027-moves-away-from-nominations-based-system-publishers-and-devs-can-now-submit-games-for-consideration\">GamesIndustry.biz</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamesindustry.biz/gdca-2027-moves-away-from-nominations-based-system-publishers-and-devs-can-now-submit-games-for-consideration",
+    "orig": "GDCA 2027 moves away from nominations-based system, publishers and devs can now submit games for consideration"
+   }
   ]
  ],
  "posted_by_source": {
@@ -2140,11 +2274,12 @@
    1792244052.5216265
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1792314110.6406708,
    1792335715.9127684,
    1792344686.7171772,
    1792346490.1110868,
-   1792400505.981771
+   1792400505.981771,
+   1792407726.2002537,
+   1792407738.5407817
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1792326692.502684,
@@ -2154,11 +2289,13 @@
    1792396907.964655,
    1792400584.7420163,
    1792400619.9457614,
-   1792405898.3334208
+   1792405898.3334208,
+   1792407745.7638283
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
    1792356794.1483645,
-   1792404363.5884657
+   1792404363.5884657,
+   1792407688.522479
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1792145464.118159,
@@ -2174,13 +2311,14 @@
    1792402526.2861712,
    1792404386.2794404,
    1792404397.1777706,
-   1792405892.5948503
+   1792405892.5948503,
+   1792407697.6412098,
+   1792407735.661012
   ],
   "games|Mezha|https://mezha.ua/feed/": [
-   1792306035.8838491,
-   1792319471.5022793,
    1792341084.40515,
-   1792355414.3181012
+   1792355414.3181012,
+   1792407741.835592
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1792323120.4644656,
@@ -2232,11 +2370,7 @@
    1792382512.2080102
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
-   1792256232.4410548,
-   1792264380.2372181,
-   1792270353.7680073,
-   1792273188.0112064,
-   1792281232.7290196
+   1792407700.4833815
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1792342915.0633976
@@ -2347,8 +2481,8 @@
    1792314136.2097948
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
-   1792249928.51303,
-   1792335680.9364665
+   1792335680.9364665,
+   1792407679.2416446
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1792352379.8621347,
@@ -2487,6 +2621,7 @@
   "0afc868063af85cd": 1792396892.2140405,
   "0b2544a527c64651": 1792145417.3279068,
   "0b413f8e976ef39d": 1792346508.131711,
+  "0b57657303c31698": 1792407697.6411626,
   "0b6937fb15d2e229": 1792307027.6470528,
   "0bc34f73ce3a3bd4": 1791920831.4798427,
   "0c11945a74b086e5": 1792037214.1832027,
@@ -2708,6 +2843,7 @@
   "3a0eba51a0f15c4e": 1792405898.3333807,
   "3a4ad9e5ba46f862": 1792256281.4254203,
   "3a67d6a3151c4831": 1791908397.4775882,
+  "3a8c60526d1f5f9b": 1792407741.8355472,
   "3a98d0f20fe899fb": 1792097666.27991,
   "3aaf38d7c93f3727": 1792163995.533491,
   "3ad9c4ef69beaa88": 1791894747.2247603,
@@ -2716,6 +2852,7 @@
   "3b97f79cfa5b2762": 1792128974.9766006,
   "3bb8e39a2fcee6d8": 1792352563.4525027,
   "3be9f63a58c87a2e": 1792249943.7430582,
+  "3c1fe16376469ee8": 1792407700.4833364,
   "3c6d04fc633efc6c": 1791908446.0808244,
   "3cc17c63b67d24de": 1792352430.0356822,
   "3cd0b61df5ba9330": 1792317842.889826,
@@ -2724,6 +2861,7 @@
   "3d236b06f06c600d": 1792164153.1257877,
   "3d2f1f537de26477": 1792080936.4482288,
   "3d66fe44c663204a": 1791931737.6744573,
+  "3d67bf0bb9867325": 1792407735.6609592,
   "3d69c67289e2b826": 1791750785.6611123,
   "3d7a03e4f4540a2f": 1792404077.2906656,
   "3d82a37ca16436bd": 1792306037.9156334,
@@ -2806,6 +2944,7 @@
   "4b931255fa64efb1": 1792295963.2647643,
   "4bd8dd68acbee7fe": 1791843812.5452955,
   "4bf03278a4e65e3a": 1792352557.55381,
+  "4c35fb6b53a3c045": 1792407726.2002068,
   "4c5865db2993bef8": 1791807582.2031515,
   "4d22bf33fe9ffca5": 1791831096.9756553,
   "4d2d19fc52f3f19e": 1792089251.2192822,
@@ -2845,6 +2984,7 @@
   "52f81882dab3d409": 1792342882.6603274,
   "53287f14b1250c90": 1791769084.5556781,
   "53c62bd0c6f25858": 1791807526.4589036,
+  "540502655c3ad7a5": 1792407652.7428136,
   "5446ec301e9e4371": 1792111180.3037887,
   "54a9a8bd54d562f8": 1791966911.0236287,
   "54c0fc731ad33f7c": 1792145482.1827884,
@@ -2986,6 +3126,7 @@
   "744855fb6c3a6773": 1791837787.2488642,
   "7472c4ce10f7f425": 1791997042.6373832,
   "74780e0902e82f80": 1791642313.8867812,
+  "74961b359f41319b": 1792407688.5224311,
   "74d21a4cc534aa50": 1791638768.598451,
   "750da7d0b2face70": 1791989275.3805113,
   "7520f52f81c6f658": 1792056030.7567132,
@@ -3081,6 +3222,7 @@
   "8442fb2812d42592": 1792270353.767999,
   "84d663ec2313e5de": 1792089204.8329036,
   "84e24b18bd5bca98": 1792164701.9939275,
+  "853e165ae40dab2a": 1792407652.7428136,
   "8559f48c5f094b6b": 1792099121.5478666,
   "85c14bd852632037": 1791957543.7602415,
   "865f7ae4a8bf95ef": 1792352545.681555,
@@ -3133,6 +3275,7 @@
   "8d7ffcfd041baafe": 1791843798.1359646,
   "8de7609e50d398b0": 1792352540.5085328,
   "8df448f1c2ec80ba": 1791931686.805547,
+  "8e3a89059c36a416": 1792407677.524236,
   "8e62adcb49282672": 1792382502.8838835,
   "8eb592d740be49d0": 1792021775.7429001,
   "8ec6c74b4b7a7a3e": 1791931713.072472,
@@ -3217,6 +3360,7 @@
   "9ef731b1f5fb96bd": 1791743022.3373876,
   "9f26832e54cd7251": 1791757259.9128428,
   "9fb40c823133e6a4": 1792382497.1700006,
+  "9fddbdd2f78c72b9": 1792407738.5407147,
   "a01cdcae7bff7990": 1791718278.296192,
   "a0446c7cf7b0f77a": 1791978126.841161,
   "a0698b310adf5ec0": 1792188113.8055182,
@@ -3409,6 +3553,7 @@
   "ccc13f0290e588b4": 1792214796.311989,
   "ccda4bc3bd7f730e": 1791978176.9146397,
   "cd33b7fb79a53c3d": 1791786685.456112,
+  "cd4cefbc8b03185b": 1792407745.7637825,
   "cd537d94965efdd7": 1792281254.1057408,
   "cda0ff8c4b28bf28": 1792378911.9657006,
   "ce13daa7e4ab615b": 1792037155.7231524,
@@ -3418,6 +3563,7 @@
   "ceb78379b07bfa49": 1792129242.8866131,
   "cfda764c86931b57": 1791978131.4494739,
   "cfea48e994984e7e": 1792352420.8844676,
+  "cffa47b251a03dc2": 1792407679.2415986,
   "d04ddef1696fbe4f": 1792405914.1818423,
   "d074794660a195ee": 1791815053.1523201,
   "d084dcb5b9cf81ee": 1791908422.8879323,
@@ -3607,6 +3753,7 @@
   "f588baa9b6a75512": 1791654264.8368306,
   "f5b1d67ac26794db": 1791643484.7724442,
   "f653ed804c07a332": 1792009857.0543013,
+  "f6591049393e3100": 1792407652.7428136,
   "f6a53595410b4be0": 1791931822.5769498,
   "f70683a3073d4412": 1792010005.952578,
   "f7609dc66d058fc4": 1791831110.1645455,
@@ -4827,8 +4974,9 @@
   "filtered": {
    "Deadline": 1,
    "GamesIndustry.biz": 1,
+   "Insider Gaming": 1,
    "Metal Hammer (Louder)": 1,
-   "Polygon": 2
+   "Polygon": 4
   },
   "sources": {
    "/Film": 8,
@@ -4836,27 +4984,29 @@
    "DOU": 1,
    "DOU Gamedev": 1,
    "Deadline": 7,
-   "Eurogamer": 1,
+   "Eurogamer": 3,
    "GameSpot": 1,
-   "GamesIndustry.biz": 4,
+   "GamesIndustry.biz": 5,
    "GitHub Trending": 3,
-   "IGN": 1,
+   "IGN": 2,
    "ITC.ua": 6,
    "IndieWire": 1,
-   "Insider Gaming": 7,
+   "Insider Gaming": 9,
    "Kerrang!": 2,
+   "Loudwire": 1,
    "Metal Hammer (Louder)": 3,
-   "Mezha": 1,
+   "Mezha": 2,
    "PC Gamer": 3,
    "PlayUA": 4,
    "Polygon": 9,
    "Product Hunt": 5,
+   "Rock Paper Shotgun": 1,
    "VGC": 2
   },
   "translators": {
    "DeepL": 2,
    "gemini-flash-latest": 27,
-   "gemini-flash-lite-latest": 35
+   "gemini-flash-lite-latest": 43
   },
   "week": "2026-W43"
  },
@@ -5306,6 +5456,26 @@
    "",
    1792326704.6498723
   ],
+  "q:4 full": [
+   0,
+   "",
+   1792407729.7416916
+  ],
+  "q:4 full mission": [
+   0,
+   "",
+   1792407729.2223604
+  ],
+  "q:4 full mission list": [
+   0,
+   "",
+   1792407728.7123914
+  ],
+  "q:4 full mission list all": [
+   0,
+   "",
+   1792407728.224209
+  ],
   "q:4 player": [
    0,
    "",
@@ -5725,6 +5895,36 @@
    0,
    "",
    1792306007.7936254
+  ],
+  "q:ai olympius": [
+   1478970,
+   "AI Olympius",
+   1792407741.0259464
+  ],
+  "q:ai olympius steam": [
+   0,
+   "",
+   1792407740.527152
+  ],
+  "q:ai slop": [
+   4813820,
+   "AI Slop",
+   1792407702.480783
+  ],
+  "q:ai to put": [
+   0,
+   "",
+   1792407686.9871156
+  ],
+  "q:ai to put shadow": [
+   0,
+   "",
+   1792407686.4673934
+  ],
+  "q:ai to put shadow of war": [
+   0,
+   "",
+   1792407685.9779778
   ],
   "q:alan wake": [
    108710,
@@ -6395,6 +6595,31 @@
    0,
    "",
    1792256218.310496
+  ],
+  "q:captures": [
+   1712680,
+   "Captures",
+   1792407695.1787722
+  ],
+  "q:captures retirement": [
+   0,
+   "",
+   1792407694.6774228
+  ],
+  "q:captures retirement year": [
+   0,
+   "",
+   1792407694.1603055
+  ],
+  "q:captures retirement year trophy": [
+   0,
+   "",
+   1792407693.6516762
+  ],
+  "q:captures retirement year trophy for fallen": [
+   0,
+   "",
+   1792407693.168093
   ],
   "q:castlevania belmont's curse": [
    4231820,
@@ -7416,6 +7641,56 @@
    "",
    1792341078.4024284
   ],
+  "q:full": [
+   0,
+   "",
+   1792407732.270108
+  ],
+  "q:full mission": [
+   0,
+   "",
+   1792407731.7692423
+  ],
+  "q:full mission list": [
+   0,
+   "",
+   1792407731.279942
+  ],
+  "q:full mission list all": [
+   0,
+   "",
+   1792407730.788681
+  ],
+  "q:full mission list all rewards": [
+   0,
+   "",
+   1792407730.2473242
+  ],
+  "q:furia": [
+   0,
+   "",
+   1792407692.6604135
+  ],
+  "q:furia captures": [
+   0,
+   "",
+   1792407692.1451848
+  ],
+  "q:furia captures retirement": [
+   0,
+   "",
+   1792407691.6568363
+  ],
+  "q:furia captures retirement year": [
+   0,
+   "",
+   1792407691.1674173
+  ],
+  "q:furia captures retirement year trophy": [
+   0,
+   "",
+   1792407690.66445
+  ],
   "q:g pro": [
    0,
    "",
@@ -7590,6 +7865,11 @@
    0,
    "",
    1792378885.2317247
+  ],
+  "q:gdca 2027": [
+   0,
+   "",
+   1792407743.8523908
   ],
   "q:gears of war e day": [
    3010850,
@@ -8331,6 +8611,21 @@
    "",
    1792273221.7207692
   ],
+  "q:mission list": [
+   0,
+   "",
+   1792407733.801433
+  ],
+  "q:mission list all": [
+   0,
+   "",
+   1792407733.3153243
+  ],
+  "q:mission list all rewards": [
+   0,
+   "",
+   1792407732.7600348
+  ],
   "q:mmos": [
    0,
    "",
@@ -8345,6 +8640,31 @@
    0,
    "",
    1792303981.9700923
+  ],
+  "q:modder": [
+   0,
+   "",
+   1792407683.401137
+  ],
+  "q:modder uses": [
+   0,
+   "",
+   1792407682.9153862
+  ],
+  "q:modder uses ai": [
+   0,
+   "",
+   1792407682.2395647
+  ],
+  "q:modder uses ai to put": [
+   0,
+   "",
+   1792407681.7542384
+  ],
+  "q:modder uses ai to put shadow": [
+   0,
+   "",
+   1792407681.269507
   ],
   "q:modern": [
    0,
@@ -9201,6 +9521,16 @@
    "",
    1792273237.4387398
   ],
+  "q:retirement year trophy": [
+   0,
+   "",
+   1792407696.1811662
+  ],
+  "q:retirement year trophy for fallen": [
+   0,
+   "",
+   1792407695.6732337
+  ],
   "q:returns": [
    0,
    "",
@@ -9626,6 +9956,11 @@
    "Steam Next Fest",
    1792342912.7217317
   ],
+  "q:steam next fest 2026": [
+   0,
+   "",
+   1792407702.9697778
+  ],
   "q:steam next fest october": [
    0,
    "",
@@ -10041,6 +10376,26 @@
    "",
    1792404370.7003653
   ],
+  "q:uses": [
+   0,
+   "",
+   1792407685.4778178
+  ],
+  "q:uses ai": [
+   0,
+   "",
+   1792407684.8505838
+  ],
+  "q:uses ai to put": [
+   0,
+   "",
+   1792407684.3701723
+  ],
+  "q:uses ai to put shadow": [
+   0,
+   "",
+   1792407683.8865252
+  ],
   "q:valor mortis": [
    2828710,
    "Valor Mortis",
@@ -10449,16 +10804,13 @@
  },
  "tag_hints": {
   "Mezha": [
-   "alphabet",
+   "ai olympius",
    "brave1",
    "brave1 market",
    "naudi",
    "promova",
    "spacex",
    "uber",
-   "waymo",
-   "авіація",
-   "безпілотний транспорт",
    "бомбер",
    "бізнес",
    "військові технології",
@@ -10467,18 +10819,18 @@
    "дрон",
    "дія",
    "евакуація",
+   "зроблено в україні",
    "мультикоптери",
    "новини",
    "німеччина",
    "оборонка",
    "опк",
+   "робота",
    "роботи",
-   "російський літак",
-   "росія",
    "сша",
-   "технології",
    "україна",
    "українська зброя",
+   "ігри",
    "ілон маск"
   ]
  },
@@ -11706,6 +12058,42 @@
   [
    1792405917.6922429,
    "Man moved to tears by RTX 5090 on his wedding day - $9000+ price tag brings a tear to my eye too"
+  ],
+  [
+   1792407679.2416005,
+   "Here's How You Can Win a $500 Target Gift Card"
+  ],
+  [
+   1792407688.5224333,
+   "Modder Uses AI to Put Shadow of War's Nemesis System in Rockstar's Red Dead Redemption 2"
+  ],
+  [
+   1792407697.641165,
+   "FURIA Captures Retirement Year Trophy for FalleN at Thunderpick World Championship 2026"
+  ],
+  [
+   1792407700.4833379,
+   "Vampire: The Masquerade - Bloodlines remaster or remake rumours begin to flow, reportedly in part thanks to a metal band from the original's score"
+  ],
+  [
+   1792407726.200209,
+   "Steam Next Fest 2026 has more than double the number of demos than last year, but how much of it is generative 'AI slop'?"
+  ],
+  [
+   1792407735.6609604,
+   "Call of Duty: Modern Warfare 4 Full Mission List & All Rewards"
+  ],
+  [
+   1792407738.5407398,
+   "Dune: Awakening studio faces layoffs as it restructures following console release"
+  ],
+  [
+   1792407741.835549,
+   "Українська гра AI Olympius вийшла з Дочасного доступу Steam"
+  ],
+  [
+   1792407745.7637837,
+   "GDCA 2027 moves away from nominations-based system, publishers and devs can now submit games for consideration"
   ]
  ],
  "titles_uk": [
@@ -12496,6 +12884,42 @@
   [
    1792405917.6922438,
    "Чоловік розплакався від подарованої на весілля відеокарти RTX 5090"
+  ],
+  [
+   1792407679.2416012,
+   "Як виграти подарункову картку Target на $500"
+  ],
+  [
+   1792407688.5224342,
+   "Моддер переніс систему Nemesis із Shadow of War у Red Dead Redemption 2 за допомогою ШІ"
+  ],
+  [
+   1792407697.641167,
+   "FURIA виграла Thunderpick World Championship 2026"
+  ],
+  [
+   1792407700.4833388,
+   "З'явилися чутки про ремастер або ремейк Vampire: The Masquerade - Bloodlines"
+  ],
+  [
+   1792407726.2002099,
+   "На Steam Next Fest 2026 з'явилося вдвічі більше демок, але зросли й побоювання щодо ШІ"
+  ],
+  [
+   1792407735.6609616,
+   "Повний список місій та нагород кампанії Call of Duty: Modern Warfare 4"
+  ],
+  [
+   1792407738.540741,
+   "Розробник Dune: Awakening проводить реструктуризацію та звільнення"
+  ],
+  [
+   1792407741.83555,
+   "Українська гра AI Olympius вийшла з Дочасного доступу Steam"
+  ],
+  [
+   1792407745.7637846,
+   "GDCA 2027 змінює систему відбору: розробники й видавці можуть самі подавати ігри"
   ]
  ],
  "ukrainian": {
