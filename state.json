@@ -1,42 +1,5 @@
 {
- "alerts": {
-  "src:ai|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1792413114.958897
-  },
-  "src:games|DOU Gamedev|https://gamedev.dou.ua/feed/": {
-   "detail": "https://gamedev.dou.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «DOU Gamedev» не працює",
-   "sent": 0,
-   "since": 1792413068.1072807
-  },
-  "src:games|Digital Foundry|https://www.digitalfoundry.net/feed": {
-   "detail": "https://www.digitalfoundry.net/feed → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/feed.xml → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.eurogamer.net/feed/digitalfoundry → 404 Client Error: Not Found for url: https://www.eurogamer.net/feed/digitalfoundry",
-   "label": "Джерело «Digital Foundry» не працює",
-   "sent": 0,
-   "since": 1792413093.391217
-  },
-  "src:games|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1792413074.4916306
-  },
-  "src:movies|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1792413111.0488117
-  },
-  "src:software|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1792413111.0877728
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-18",
  "freebies": {
   "last_check": 1792411309.8323739,
@@ -47,11 +10,12 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-19 12:32 UTC",
+  "at": "2026-10-19 13:02 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 5
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 7
   },
   "used": [
    "Gemini"
@@ -1673,7 +1637,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Jasna відновлює мозаїку на зображеннях та відео за допомогою GPU</b>\n\nJasna — це безкоштовна програма, яка усуває мозаїку з відео та зображень за допомогою потужностей GPU. Обробка відбувається локально та офлайн, зокрема з підтримкою дифузійної моделі LTX, що відновлює реалістичні деталі за чотири проходи. Проєкт має відкритий код і пропонує як простий графічний інтерфейс, так і роботу через командний рядок.\n\n🔗 <a href=\"https://github.com/Kruk2/jasna\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/Kruk2/jasna",
     "orig": "Kruk2/jasna"
@@ -1687,7 +1650,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>Представлено croft</b>\n\nПайплайни даних на TypeScript в одному файлі DuckDB\n\n🔗 <a href=\"https://www.producthunt.com/products/croft-2\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/croft-2",
     "orig": "croft"
@@ -1701,7 +1663,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Огляд можливостей та встановлення ComfyUI</b>\n\n🔗 <a href=\"https://github.com/Comfy-Org/ComfyUI\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/Comfy-Org/ComfyUI",
     "orig": "Comfy-Org/ComfyUI"
@@ -1715,7 +1676,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>Figma Specs</b>\n\nКонтейнер для контексту, розташований просто на полотні Figma\n\n🔗 <a href=\"https://www.producthunt.com/products/figma\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/figma",
     "orig": "Figma Specs"
@@ -1734,7 +1694,6 @@
       "https://www.videogameschronicle.com/news/after-making-a-cameo-appearance-in-cyberpunk-2077-hideo-kojima-is-coming-to-cyberpunk-edgerunners-2/"
      ]
     ],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/1091500/\">Cyberpunk 2077</a> отримає мод із кооперативом на 8 гравців</b>\n\nДля Cyberpunk 2077 анонсували модифікацію NightCoop, яка дозволить проходити сюжетну кампанію разом із друзями. Розробники планують реалізувати кооперативний режим із підтримкою до восьми гравців, синхронізованими боями та додатковими налаштуваннями складності. Наразі проєкт перебуває на стадії закритого тестування.\n\n🔗 <a href=\"https://playua.net/cyberpunk-2077-otrymaye-mod-iz-kooperatyvom-na-8-gravcziv/\">PlayUA</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://playua.net/cyberpunk-2077-otrymaye-mod-iz-kooperatyvom-na-8-gravcziv/",
     "orig": "Cyberpunk 2077 отримає мод із кооперативом на 8 гравців"
@@ -1748,7 +1707,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b>Як регулювання ШІ створює нові виклики для розробників ігор</b>\n\nВпровадження генеративного ШІ в розробку ігор супроводжується зростанням юридичних ризиків. Студії можуть порушити чужі авторські права або втратити контроль над власною IP через умови сторонніх сервісів. Також після страйку SAG-AFTRA діють суворі вимоги щодо обов&#x27;язкової згоди на використання голосу та зовнішності акторів.\n\n🔗 <a href=\"https://www.gamesindustry.biz/the-ai-state-of-play-ai-laws-and-game-development\">GamesIndustry.biz</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/the-ai-state-of-play-ai-laws-and-game-development",
     "orig": "The AI state of play: AI laws and game development"
@@ -1762,7 +1720,6 @@
    "DOU Gamedev",
    {
     "also": [],
-    "caption": "🎮 <b>Стратегія непрямого керування на чистому JavaScript. Як я створив гру без рушія, готової графіки та звукових файлів</b>\n\nПривіт, спільното! Мене звати Іван. Останніми місяцями я працював над авторським інді-експериментом — браузерною ретро-стратегією «ПАТРІАРХ» . Пограти в неї можна без реєстрації та завантажень прямо у браузері: patriarch.pages.dev .\n\n🔗 <a href=\"https://gamedev.dou.ua/blogs/no-engine-rts/\">DOU Gamedev</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://gamedev.dou.ua/blogs/no-engine-rts/",
     "orig": "Стратегія непрямого керування на чистому JavaScript. Як я створив гру без рушія, готової графіки та звукових файлів"
@@ -1776,7 +1733,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>Context.dev представила Rusteerio</b>\n\nІнструмент дозволяє зберегти звичний код для Cheerio, але зробити його значно швидшим.\n\n🔗 <a href=\"https://www.producthunt.com/products/context-dev\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/context-dev",
     "orig": "Rusteerio by Context.dev"
@@ -1790,7 +1746,6 @@
    "Kerrang!",
    {
     "also": [],
-    "caption": "🤘 <b>Рецензія на альбом Frontierer — Ultraviolet Parasite</b>\n\nУвага всім шанувальникам небезпечно агресивної та нищівної музики: новий альбом Frontierer уже близько, і це справжній розрив!\n\n🔗 <a href=\"https://www.kerrang.com/album-review-frontierer-ultraviolet-parasite\">Kerrang!</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.kerrang.com/album-review-frontierer-ultraviolet-parasite",
     "orig": "Album Review: Frontierer – Ultraviolet Parasite"
@@ -1804,7 +1759,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "💾 <b>Вже не тільки у Windows: Defender запрацював у Linux</b>\n\nMicrosoft розширила підтримку Windows Defender на Linux.\n\n🔗 <a href=\"https://itc.ua/ua/novini/vzhe-ne-tilky-u-windows-defender-zapratsyuvav-u-linux/\">ITC.ua</a>\n\n#софт",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/vzhe-ne-tilky-u-windows-defender-zapratsyuvav-u-linux/",
     "orig": "Вже не тільки у Windows: Defender запрацював у Linux"
@@ -1818,7 +1772,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>Point and Yap: говоріть із ШІ-агентом, просто вказуючи на екран</b>\n\nВказуйте на будь-яку частину екрана та спілкуйтеся зі своїм агентом через MCP.\n\n🔗 <a href=\"https://www.producthunt.com/products/point-and-yap\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/point-and-yap",
     "orig": "Point and Yap"
@@ -2533,16 +2486,170 @@
     "link": "https://www.kerrang.com/harpy-announces-voyeur-tour-debut-headline-tour-february-2027",
     "orig": "“I want you to watch”: Harpy announces debut headline tour"
    }
+  ],
+  [
+   1792414900.791057,
+   1128,
+   "🤖",
+   "Інвестори дедалі частіше сумніваються в надвисоких оцінках ШІ",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Інвестори дедалі частіше сумніваються в надвисоких оцінках ШІ</b>\n\nУсе більше інвесторів ставить запитання щодо виправданості преміальної оцінки компаній у сфері ШІ.\n\n🔗 <a href=\"https://www.bloomberg.com/news/newsletters/2026-10-19/ai-s-premium-valuations-are-getting-more-pushback-from-investors\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/newsletters/2026-10-19/ai-s-premium-valuations-are-getting-more-pushback-from-investors",
+    "orig": "AI’s Premium Valuations Are Getting More Pushback From Investors"
+   }
+  ],
+  [
+   1792414903.2272258,
+   1129,
+   "🎮",
+   "Sony запатентувала ШІ, який передбачає наступний кадр гри за діями гравця",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🎮 <b>Sony запатентувала ШІ, який передбачає наступний кадр гри за діями гравця</b>\n\nSony запатентувала технологію Generation Super Sampling, яка використовує ШІ для передбачення майбутніх кадрів у відеоіграх. Розробка може зробити зображення плавнішим без збільшення затримки, однак її можливості поки не перевіряли на практиці.\n\n🔗 <a href=\"https://mezha.ua/news/sony-ai-frame-prediction-316291/\">Mezha</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/sony-ai-frame-prediction-316291/",
+    "orig": "Sony запатентувала ШІ, який передбачає наступний кадр гри за діями гравця"
+   }
+  ],
+  [
+   1792414912.9784734,
+   1130,
+   "🎮",
+   "Віртуальний гурт K/DA повернувся після шести років мовчання з новим треком",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Віртуальний гурт K/DA повернувся після шести років мовчання з новим треком</b>\n\nВіртуальний K-pop-гурт K/DA випустив сингл Firestarter і кліп від студії Fortiche. Нова робота передує релізу EP, який вийде 21 жовтня. У записі взяли участь MIYEON і SOYEON з i-dle, а також Sophie Powers і Mimi Webb.\n\n🔗 <a href=\"https://www.ign.com/articles/league-of-legends-virtual-k-pop-group-kda-reemerge-after-6-years-of-silence-with-new-single-and-music-video-from-the-makers-of-arcane\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/league-of-legends-virtual-k-pop-group-kda-reemerge-after-6-years-of-silence-with-new-single-and-music-video-from-the-makers-of-arcane",
+    "orig": "League of Legends Virtual K-Pop Group K/DA Reemerge After 6 Years of Silence With New Single and Music Video From the Makers of Arcane"
+   }
+  ],
+  [
+   1792414916.681995,
+   1131,
+   "🤘",
+   "Bon Jovi анонсували чотири стадіонні концерти в Північній Америці в межах туру 2027 року",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Bon Jovi анонсували чотири стадіонні концерти в Північній Америці в межах туру 2027 року</b>\n\nГурт Bon Jovi оголосив обмежену серію концертів світового туру 2027 року, яка включає шість виступів на стадіонах і один у лондонському парку. Тур Forever триватиме з березня по серпень та охопить Австралію, Велику Британію, США й Канаду. Попередній продаж квитків розпочнеться 28 жовтня.\n\n🔗 <a href=\"https://loudwire.com/bon-jovi-2027-tour/\">Loudwire</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://loudwire.com/bon-jovi-2027-tour/",
+    "orig": "Bon Jovi Announce 4 North American Stadium Shows on 2027 Tour"
+   }
+  ],
+  [
+   1792414920.0672038,
+   1132,
+   "🎮",
+   "Ubisoft створила підрозділ Motherbrain, який відповідатиме за генеративний ШІ в іграх компанії",
+   "PlayUA",
+   {
+    "also": [],
+    "caption": "🎮 <b>Ubisoft створила підрозділ Motherbrain, який відповідатиме за генеративний ШІ в іграх компанії</b>\n\nUbisoft робить ставку на генеративний штучний інтелект ще серйозніше — компанія раніше створила окрему команду під назвою Motherbrain, яка тепер отримала статус окремої глобальної структури всередині компанії. Її завдання — впроваджувати ШІ в якомога більшу кількість ігор Ubisoft. Motherbrain планують використовувати в максимально великій кількості проєктів компанії, а всередині Ubisoft її вже вважають надважливою. Підрозділ […]\n\n🔗 <a href=\"https://playua.net/ubisoft-stvoryla-pidrozdil-motherbrain-yakyj-vidpovidatyme-za-generatyvnyj-shi-v-igrah-kompaniyi/\">PlayUA</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://playua.net/ubisoft-stvoryla-pidrozdil-motherbrain-yakyj-vidpovidatyme-za-generatyvnyj-shi-v-igrah-kompaniyi/",
+    "orig": "Ubisoft створила підрозділ Motherbrain, який відповідатиме за генеративний ШІ в іграх компанії"
+   }
+  ],
+  [
+   1792414923.5435863,
+   1133,
+   "🤘",
+   "Аль Юргенсен із Ministry висловив занепокоєння щодо майбутнього ШІ",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Аль Юргенсен із Ministry висловив занепокоєння щодо майбутнього ШІ</b>\n\nФронтмен Ministry Аль Юргенсен висловив занепокоєння через розвиток штучного інтелекту, наголосивши, що його використовують заради прибутку, а не для суспільства. Музикант також розповів про свій досвід експериментів із ШІ у кліпах, після чого вирішив припинити співпрацю з відповідними компаніями.\n\n🔗 <a href=\"https://loudwire.com/ministry-al-jourgensen-concern-future-artificial-intelligence-hate-to-go-interview/\">Loudwire</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://loudwire.com/ministry-al-jourgensen-concern-future-artificial-intelligence-hate-to-go-interview/",
+    "orig": "Ministry's Al Jourgensen Shares Concern Over the Future of A.I."
+   }
+  ],
+  [
+   1792414932.7374842,
+   1134,
+   "🎮",
+   "У The FINALS додали динамічні коментарі, що вимовляють нікнейми гравців",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>У The FINALS додали динамічні коментарі, що вимовляють нікнейми гравців</b>\n\nУ 12 сезоні шутера The FINALS з&#x27;явилася функція Dynamic Commentary, яка зараз працює в бета-режимі. Під час матчу коментатори тепер можуть напряму вимовляти нікнейм гравця у контексті його успішних дій. Для тих, хто не хоче цього, доступний анонімний режим.\n\n🔗 <a href=\"https://insider-gaming.com/the-finals-adds-dynamic-commentary-that-says-your-actual-player-name/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/the-finals-adds-dynamic-commentary-that-says-your-actual-player-name/",
+    "orig": "The FINALS Adds Dynamic Commentary That Says Your Actual Player Name"
+   }
+  ],
+  [
+   1792414936.6002374,
+   1135,
+   "🤖",
+   "ШІ-агенти активно купують товари через сервіс Stripe Link",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>ШІ-агенти активно купують товари через сервіс Stripe Link</b>\n\nШтучний інтелект усе частіше використовує платіжний сервіс Stripe Link для здійснення покупок. У вересні кількість таких транзакцій зросла у 38 разів, а обсяг платежів — у 20 разів. Наразі послугою користуються близько 200 ШІ-агентів, серед яких Meta&#x27;s Muse і Grok Bot.\n\n🔗 <a href=\"https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/stripe-says-ai-agent-purchases-are-adding-up-but-it-wont-share-the-numbers/",
+    "orig": "Stripe says AI agent purchases are adding up, but it won't share the numbers"
+   }
+  ],
+  [
+   1792414939.1923864,
+   1136,
+   "🎮",
+   "Microsoft не планує відмовлятися від дисків в Xbox: що на це вказує",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎮 <b>Microsoft не планує відмовлятися від дисків в Xbox: що на це вказує</b>\n\nMicrosoft, схоже, не поспішає відмовлятися від фізичних копій ігор для Xbox, навіть попри рішення Sony припинити випускати ігри на дисках з 2028 року. На це натякає нова вакансія Xbox Games Supply Strategist, опублікована на офіційному сайті компанії.\n\n🔗 <a href=\"https://itc.ua/ua/novini/microsoft-ne-planuye-vidmovlyatysya-vid-dyskiv-v-xbox-shho-na-tse-vkazuye/\">ITC.ua</a>\n\n#ігри",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/microsoft-ne-planuye-vidmovlyatysya-vid-dyskiv-v-xbox-shho-na-tse-vkazuye/",
+    "orig": "Microsoft не планує відмовлятися від дисків в Xbox: що на це вказує"
+   }
+  ],
+  [
+   1792414943.9261937,
+   1137,
+   "🎮",
+   "Нові ПК-ігри цього тижня: від Stupid Never Dies до Star Trek: Outposts Unknown",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>Нові ПК-ігри цього тижня: від <a href=\"https://store.steampowered.com/app/3486530/\">Stupid Never Dies</a> до <a href=\"https://store.steampowered.com/app/3469910/\">Star Trek: Outposts Unknown</a></b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/3907910/\">Cutout Village</a>\n\nВийшла нова добірка ПК-ігор тижня, до якої увійшли такі проєкти, як Stupid Never Dies, Cutout Village та Star Trek: Outposts Unknown. Автори також згадали інші релізи та обговорили використання генеративного ШІ у декомпіляції кодів.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/this-week-in-pc-games-build-a-better-zombie-in-stupid-never-dies-glue-together-houses-in-cutout-village-and-settle-brave-new-worlds-in-star-trek-outposts-unknown\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/this-week-in-pc-games-build-a-better-zombie-in-stupid-never-dies-glue-together-houses-in-cutout-village-and-settle-brave-new-worlds-in-star-trek-outposts-unknown",
+    "orig": "This week in PC games: build a better zombie in Stupid Never Dies, glue together houses in Cutout Village, and settle brave new worlds in Star Trek: Outposts Unknown"
+   }
+  ],
+  [
+   1792414947.4944863,
+   1138,
+   "🎬",
+   "Кевін Маккідд та Лора Фрейзер знімуться в серіалі The Young Team від BBC",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Кевін Маккідд та Лора Фрейзер знімуться в серіалі The Young Team від BBC</b>\n\nЗірка Grey’s Anatomy Кевін Маккідд та акторка Breaking Bad Лора Фрейзер отримали ролі в новому драматичному серіалі The Young Team для BBC. Режисером проєкту виступив Пол Макгіган, а сюжет розповідає про шотландського підлітка Аззі, який намагається приєднатися до місцевої банди.\n\n🔗 <a href=\"https://deadline.com/2026/10/bbc-the-young-team-kevin-mckidd-laura-fraser-paul-mcguigan-1237167419/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/bbc-the-young-team-kevin-mckidd-laura-fraser-paul-mcguigan-1237167419/",
+    "orig": "‘Grey’s Anatomy’ Star Kevin McKidd & Laura Fraser Cast In BBC’s ‘The Young Team’ From Director Paul McGuigan"
+   }
   ]
  ],
  "posted_by_source": {
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1792326710.9943516,
    1792348286.1640244,
    1792369874.8010924,
    1792371702.2440217,
    1792371705.2868001,
-   1792382486.5560777
+   1792382486.5560777,
+   1792414900.791192
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1792405876.2595813
@@ -2554,10 +2661,10 @@
    1792391485.7539027
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
-   1792328480.2613177,
    1792330275.4299643,
    1792409523.455952,
-   1792411287.4032211
+   1792411287.4032211,
+   1792414936.6005173
   ],
   "games|DOU Gamedev|https://gamedev.dou.ua/feed/": [
    1792396911.1185172
@@ -2589,13 +2696,14 @@
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
    1792356794.1483645,
    1792404363.5884657,
-   1792407688.522479
+   1792407688.522479,
+   1792414912.978828
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
-   1792409525.8084407
+   1792409525.8084407,
+   1792414939.1926742
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1792326708.1812124,
    1792335697.3945026,
    1792337508.49702,
    1792359121.8483295,
@@ -2608,12 +2716,14 @@
    1792407697.6412098,
    1792407735.661012,
    1792409534.5775194,
-   1792411302.0756207
+   1792411302.0756207,
+   1792414932.7377956
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1792341084.40515,
    1792355414.3181012,
-   1792407741.835592
+   1792407741.835592,
+   1792414903.2275271
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1792328496.9114203,
@@ -2635,7 +2745,8 @@
    1792396892.2140849,
    1792402499.187829,
    1792402507.4494421,
-   1792404077.2907093
+   1792404077.2907093,
+   1792414920.06756
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
    1792302844.3646646,
@@ -2668,7 +2779,8 @@
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1792407700.4833815,
-   1792409519.2518077
+   1792409519.2518077,
+   1792414943.9264925
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1792342915.0633976
@@ -2703,8 +2815,6 @@
    1792129276.4144118
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1792326695.616198,
-   1792328499.9195418,
    1792339296.268454,
    1792342887.8609385,
    1792342893.6547315,
@@ -2717,7 +2827,8 @@
    1792368122.3467162,
    1792377277.216184,
    1792382497.170052,
-   1792382502.8839583
+   1792382502.8839583,
+   1792414947.4948165
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1792393278.0242028,
@@ -2783,7 +2894,9 @@
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1792335680.9364665,
-   1792407679.2416446
+   1792407679.2416446,
+   1792414916.6822686,
+   1792414923.5439057
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1792352379.8621347,
@@ -2949,6 +3062,7 @@
   "1063bc2bd4d94992": 1791642324.2730968,
   "10a4e1749fbcc694": 1792037194.8017173,
   "1109704f8a338d89": 1791978172.9866061,
+  "1156a30d7a0438b6": 1792414936.600468,
   "11771227dfd020ac": 1792177178.2104647,
   "11bd48799f32875e": 1792080927.3825507,
   "11cb49575a0c8ac9": 1792177269.688245,
@@ -3085,6 +3199,7 @@
   "2b86ffad7f7c83c7": 1791994373.2696502,
   "2c1134183d1bbac6": 1792404399.0901637,
   "2c3b4d1bac93f45d": 1792145444.7022057,
+  "2c9f8704ffdd2099": 1792414923.5438566,
   "2cfe09a255dd0a60": 1791807570.1964123,
   "2d08a9311282e443": 1792355415.8195353,
   "2d5d049789d8d50f": 1791929823.1571426,
@@ -3171,6 +3286,7 @@
   "3d82a37ca16436bd": 1792306037.9156334,
   "3dd1f191ea4dc0a3": 1792197827.4038987,
   "3de13b42e404c830": 1792145502.8856962,
+  "3e07f96ebe43f692": 1792414912.9787772,
   "3e28e26812a2b89c": 1792229870.3654397,
   "3e67463337f735dd": 1792071044.4784656,
   "3e9db8c8a29c6e2f": 1792365656.5516837,
@@ -3306,6 +3422,7 @@
   "57506fe3e1e566f6": 1792368095.4669654,
   "57b05f96b680396a": 1791926981.6462977,
   "57dbbe3d08e26df7": 1792404386.2793987,
+  "57ed4e10e4146cfc": 1792414943.9264398,
   "580e69122f3cf80a": 1792009820.2319252,
   "583d8ba1f20d3e29": 1792056047.4460166,
   "5860796746ad8940": 1791769079.678885,
@@ -3425,6 +3542,7 @@
   "710b6703b01fb2d3": 1792164558.2274692,
   "7118f5120f6c201e": 1791820248.507444,
   "71d02d29f603641f": 1791643484.7724442,
+  "71e302cc8dad4844": 1792414916.6822224,
   "72391459be7cc1c5": 1791638758.692959,
   "727f9ab15731bafb": 1791750774.6158323,
   "72824c92e89aa6e4": 1792099090.951587,
@@ -3491,6 +3609,7 @@
   "7c49325a29215543": 1792246840.6481283,
   "7c555cf22ccea11c": 1792382486.5560246,
   "7c8233ad2fc95815": 1791931208.5232723,
+  "7cd2e37d36782ab1": 1792414903.22747,
   "7cdeb8ea81850944": 1792145509.4726167,
   "7d8fd463ef7ffbde": 1792404363.5884256,
   "7dcc985b0266b643": 1791926734.5424356,
@@ -3567,6 +3686,7 @@
   "8a811c95d31ed03a": 1792389673.6428993,
   "8aadbf39dda203ea": 1792246786.6091852,
   "8ab020f3443f3d26": 1792256277.2881715,
+  "8ab0896e72fcb03f": 1792414900.7911413,
   "8ae89ebe3bea2b95": 1791654244.7710626,
   "8b11ccb6e91a28ce": 1792352383.023121,
   "8b27afcbb76c3069": 1792009880.172828,
@@ -3678,6 +3798,7 @@
   "a0446c7cf7b0f77a": 1791978126.841161,
   "a0698b310adf5ec0": 1792188113.8055182,
   "a0b1f2ace05cadf0": 1792129307.403092,
+  "a0bb7c6697300864": 1792414939.1926262,
   "a0dbbb7d6a74014a": 1791957533.3562908,
   "a1b7614884880410": 1791931887.9350114,
   "a1b863bc6ba8632a": 1792129276.4144042,
@@ -3790,6 +3911,7 @@
   "bb7463dd45c63cc0": 1792411302.0755558,
   "bb9e242ff5772ec3": 1792177137.7995827,
   "bbc8bad6e1224caa": 1791853945.2075598,
+  "bc1ea23d1d7b7068": 1792414947.4947658,
   "bc803c91773648a6": 1792342903.0866385,
   "bc9c0e94589cf148": 1791957508.4421096,
   "bcc655b6bb1763af": 1791931128.8737152,
@@ -3817,6 +3939,7 @@
   "c05b41394b8753fc": 1792249911.5112758,
   "c07ebf61753c7d3e": 1792364526.8809173,
   "c091596c71139bcb": 1791989226.3306289,
+  "c09df19bbf72f773": 1792414920.0674963,
   "c0d79248a5b96e00": 1792337474.2259607,
   "c0eb6b09cd877a8b": 1791879504.7874382,
   "c100163a534ce5be": 1792164119.8180075,
@@ -4046,6 +4169,7 @@
   "ed22ddf3e72698d3": 1792097670.6097398,
   "ed64b0c9ec7dc0e9": 1791969564.3842723,
   "edb55c7a9aa45efc": 1791894758.489922,
+  "edff79754df014b4": 1792414932.7377477,
   "ee088580e481bcb1": 1791931178.2053816,
   "ee71a862604bffe0": 1791699402.5425174,
   "ee8cbe5d2f8c428a": 1791742970.279169,
@@ -5306,34 +5430,34 @@
   "sources": {
    "/Film": 8,
    "Blabbermouth": 3,
-   "Bloomberg": 4,
+   "Bloomberg": 5,
    "DOU": 1,
    "DOU Gamedev": 1,
-   "Deadline": 7,
+   "Deadline": 8,
    "Eurogamer": 5,
    "GameSpot": 1,
    "GamesIndustry.biz": 5,
    "GitHub Trending": 3,
-   "IGN": 2,
-   "ITC.ua": 9,
+   "IGN": 3,
+   "ITC.ua": 10,
    "IndieWire": 1,
-   "Insider Gaming": 11,
+   "Insider Gaming": 12,
    "Kerrang!": 5,
-   "Loudwire": 1,
+   "Loudwire": 3,
    "Metal Hammer (Louder)": 3,
-   "Mezha": 2,
+   "Mezha": 3,
    "PC Gamer": 6,
-   "PlayUA": 4,
+   "PlayUA": 5,
    "Polygon": 9,
    "Product Hunt": 5,
-   "Rock Paper Shotgun": 2,
-   "The Decoder": 2,
+   "Rock Paper Shotgun": 3,
+   "The Decoder": 3,
    "VGC": 3
   },
   "translators": {
    "DeepL": 2,
-   "gemini-flash-latest": 27,
-   "gemini-flash-lite-latest": 60
+   "gemini-flash-latest": 28,
+   "gemini-flash-lite-latest": 67
   },
   "week": "2026-W43"
  },
@@ -6242,6 +6366,36 @@
    0,
    "",
    1792364487.3872366
+  ],
+  "q:adds": [
+   0,
+   "",
+   1792414931.2648787
+  ],
+  "q:adds dynamic": [
+   0,
+   "",
+   1792414930.7423286
+  ],
+  "q:adds dynamic commentary": [
+   0,
+   "",
+   1792414930.2263522
+  ],
+  "q:adds dynamic commentary that": [
+   0,
+   "",
+   1792414929.6837504
+  ],
+  "q:adds dynamic commentary that says": [
+   0,
+   "",
+   1792414929.1708927
+  ],
+  "q:adds dynamic commentary that says your": [
+   0,
+   "",
+   1792414928.6166823
   ],
   "q:ago": [
    0,
@@ -7168,6 +7322,11 @@
    "Crusader Kings III",
    1792273211.8697295
   ],
+  "q:cutout village": [
+   3907910,
+   "Cutout Village",
+   1792414941.7158062
+  ],
   "q:cyberpunk 2077": [
    1091500,
    "Cyberpunk 2077",
@@ -7957,6 +8116,36 @@
    0,
    "",
    1792249952.0599873
+  ],
+  "q:finals": [
+   0,
+   "",
+   1792414928.0864935
+  ],
+  "q:finals adds": [
+   0,
+   "",
+   1792414927.568014
+  ],
+  "q:finals adds dynamic": [
+   0,
+   "",
+   1792414927.0629704
+  ],
+  "q:finals adds dynamic commentary": [
+   0,
+   "",
+   1792414926.5525017
+  ],
+  "q:finals adds dynamic commentary that": [
+   0,
+   "",
+   1792414926.0506644
+  ],
+  "q:finals adds dynamic commentary that says": [
+   0,
+   "",
+   1792414925.5470965
   ],
   "q:for as long as possible": [
    0,
@@ -8823,6 +9012,31 @@
    "",
    1792335700.8899665
   ],
+  "q:league": [
+   0,
+   "",
+   1792414907.446056
+  ],
+  "q:league of legends": [
+   0,
+   "",
+   1792414906.8950553
+  ],
+  "q:league of legends virtual": [
+   0,
+   "",
+   1792414906.3694963
+  ],
+  "q:league of legends virtual k pop": [
+   0,
+   "",
+   1792414905.8708553
+  ],
+  "q:league of legends virtual k pop group": [
+   0,
+   "",
+   1792414905.3530498
+  ],
   "q:leaked ai": [
    0,
    "",
@@ -8847,6 +9061,31 @@
    0,
    "",
    1792339300.7022712
+  ],
+  "q:legends": [
+   0,
+   "",
+   1792414910.110768
+  ],
+  "q:legends virtual": [
+   0,
+   "",
+   1792414909.5205889
+  ],
+  "q:legends virtual k pop": [
+   0,
+   "",
+   1792414909.0140195
+  ],
+  "q:legends virtual k pop group": [
+   0,
+   "",
+   1792414908.476884
+  ],
+  "q:legends virtual k pop group k": [
+   0,
+   "",
+   1792414907.9595697
   ],
   "q:light no fire": [
    2719590,
@@ -9068,6 +9307,11 @@
    "METRO 2039",
    1791926995.7462077
   ],
+  "q:microsoft xbox": [
+   0,
+   "",
+   1792414938.62713
+  ],
   "q:militsioner": [
    1373530,
    "Militsioner",
@@ -9227,6 +9471,11 @@
    0,
    "",
    1792281259.8536468
+  ],
+  "q:motherbrain": [
+   0,
+   "",
+   1792414919.248789
   ],
   "q:movie that no one watched finds": [
    0,
@@ -10428,6 +10677,11 @@
    "",
    1792359116.3616607
   ],
+  "q:star trek outposts unknown": [
+   3469910,
+   "Star Trek: Outposts Unknown",
+   1792414942.208155
+  ],
   "q:star wars": [
    0,
    "",
@@ -10657,6 +10911,11 @@
    1364780,
    "Street Fighter™ 6",
    1791853920.8349786
+  ],
+  "q:stupid never dies": [
+   3486530,
+   "Stupid Never Dies",
+   1792414941.1872294
   ],
   "q:swedish": [
    0,
@@ -10908,6 +11167,11 @@
    "",
    1792256207.9096913
   ],
+  "q:ubisoft motherbrain": [
+   0,
+   "",
+   1792414918.751849
+  ],
   "q:united cwa": [
    0,
    "",
@@ -10982,6 +11246,16 @@
    0,
    "",
    1792400588.7252097
+  ],
+  "q:virtual k pop group": [
+   0,
+   "",
+   1792414911.1644592
+  ],
+  "q:virtual k pop group k": [
+   0,
+   "",
+   1792414910.6506155
   ],
   "q:visual clarity": [
    0,
@@ -11424,18 +11698,19 @@
    "ai olympius",
    "apple",
    "apple homeview",
-   "brave1",
    "brave1 market",
+   "fpv-дрони",
+   "iphone",
+   "iphone duo",
    "naudi",
-   "promova",
+   "sony",
    "spacex",
-   "uber",
    "бомбер",
+   "бпла",
    "бізнес",
-   "військові технології",
    "дрон",
+   "дрони",
    "дім",
-   "дія",
    "евакуація",
    "зроблено в україні",
    "мультикоптери",
@@ -11443,9 +11718,10 @@
    "німеччина",
    "оборонка",
    "опк",
+   "оптоволокно",
    "робота",
-   "роботи",
-   "сша",
+   "складані смартфони",
+   "смартфони",
    "технології",
    "україна",
    "українська зброя",
@@ -12793,6 +13069,50 @@
   [
    1792413153.9624734,
    "“I want you to watch”: Harpy announces debut headline tour"
+  ],
+  [
+   1792414900.7911437,
+   "AI’s Premium Valuations Are Getting More Pushback From Investors"
+  ],
+  [
+   1792414903.2274716,
+   "Sony запатентувала ШІ, який передбачає наступний кадр гри за діями гравця"
+  ],
+  [
+   1792414912.978779,
+   "League of Legends Virtual K-Pop Group K/DA Reemerge After 6 Years of Silence With New Single and Music Video From the Makers of Arcane"
+  ],
+  [
+   1792414916.682224,
+   "Bon Jovi Announce 4 North American Stadium Shows on 2027 Tour"
+  ],
+  [
+   1792414920.0674987,
+   "Ubisoft створила підрозділ Motherbrain, який відповідатиме за генеративний ШІ в іграх компанії"
+  ],
+  [
+   1792414923.5438585,
+   "Ministry's Al Jourgensen Shares Concern Over the Future of A.I."
+  ],
+  [
+   1792414932.7377498,
+   "The FINALS Adds Dynamic Commentary That Says Your Actual Player Name"
+  ],
+  [
+   1792414936.6004696,
+   "Stripe says AI agent purchases are adding up, but it won't share the numbers"
+  ],
+  [
+   1792414939.192628,
+   "Microsoft не планує відмовлятися від дисків в Xbox: що на це вказує"
+  ],
+  [
+   1792414943.9264424,
+   "This week in PC games: build a better zombie in Stupid Never Dies, glue together houses in Cutout Village, and settle brave new worlds in Star Trek: Outposts Unknown"
+  ],
+  [
+   1792414947.4947672,
+   "‘Grey’s Anatomy’ Star Kevin McKidd & Laura Fraser Cast In BBC’s ‘The Young Team’ From Director Paul McGuigan"
   ]
  ],
  "titles_uk": [
@@ -13699,6 +14019,50 @@
   [
    1792413153.9624743,
    "Гурт Harpy анонсував свій перший хедлайнерський тур"
+  ],
+  [
+   1792414900.7911446,
+   "Інвестори дедалі частіше сумніваються в надвисоких оцінках ШІ"
+  ],
+  [
+   1792414903.2274728,
+   "Sony запатентувала ШІ, який передбачає наступний кадр гри за діями гравця"
+  ],
+  [
+   1792414912.9787805,
+   "Віртуальний гурт K/DA повернувся після шести років мовчання з новим треком"
+  ],
+  [
+   1792414916.6822252,
+   "Bon Jovi анонсували чотири стадіонні концерти в Північній Америці в межах туру 2027 року"
+  ],
+  [
+   1792414920.0675,
+   "Ubisoft створила підрозділ Motherbrain, який відповідатиме за генеративний ШІ в іграх компанії"
+  ],
+  [
+   1792414923.5438597,
+   "Аль Юргенсен із Ministry висловив занепокоєння щодо майбутнього ШІ"
+  ],
+  [
+   1792414932.7377508,
+   "У The FINALS додали динамічні коментарі, що вимовляють нікнейми гравців"
+  ],
+  [
+   1792414936.6004703,
+   "ШІ-агенти активно купують товари через сервіс Stripe Link"
+  ],
+  [
+   1792414939.192629,
+   "Microsoft не планує відмовлятися від дисків в Xbox: що на це вказує"
+  ],
+  [
+   1792414943.9264433,
+   "Нові ПК-ігри цього тижня: від Stupid Never Dies до Star Trek: Outposts Unknown"
+  ],
+  [
+   1792414947.4947684,
+   "Кевін Маккідд та Лора Фрейзер знімуться в серіалі The Young Team від BBC"
   ]
  ],
  "ukrainian": {
@@ -14082,7 +14446,7 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1792393362.2425845,
+  "last_check": 1792414959.3509223,
   "with_uk": 98
  },
  "weekly_releases_week": "2026-W43",
