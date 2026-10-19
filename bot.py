@@ -810,6 +810,11 @@ def weekly_report(config, state):
         for f in cat["feeds"]:
             if f["name"] not in configured:
                 configured.append(f["name"])
+    filtered = st.get("filtered", {})
+    if filtered:
+        top_f = sorted(filtered.items(), key=lambda kv: -kv[1])[:5]
+        lines += ["", f"<b>Відсіяно як шум:</b> {sum(filtered.values())} ("
+                  + html.escape(", ".join(f"{k} — {v}" for k, v in top_f)) + ")"]
     silent = [n for n in configured if n not in sources]
     if silent:
         lines += ["", "<b>Мовчали весь тиждень:</b> " + html.escape(", ".join(silent))]
@@ -1088,6 +1093,7 @@ def collect(config, state, alerts):
     limits = config["limits"]
     max_age = limits["max_age_hours"] * 3600
     skip = [k.lower() for k in config.get("filters", {}).get("skip_keywords", [])]
+    skip_rx = [re.compile(p, re.I) for p in config.get("filters", {}).get("skip_patterns", []) or []]
     now = time.time()
     candidates = []
 
@@ -1180,8 +1186,9 @@ def collect(config, state, alerts):
                     social = True
                 if not title or now - ts > max_age:
                     continue
-                if any(k in title.lower() for k in skip):
+                if any(k in title.lower() for k in skip) or any(rx.search(title) for rx in skip_rx):
                     state["seen"][key] = now
+                    stats_add(state, "filtered", feed["name"])
                     continue
                 if not keywords_ok(feed, title):
                     continue

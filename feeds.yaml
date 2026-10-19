@@ -46,6 +46,7 @@ categories:
         max_per_day: 5
       - name: Polygon
         url: https://www.polygon.com/feed/
+        max_per_day: 6                   # Polygon публікує багато — лишаємо найсвіжіше
         alt_urls:                        # запасні адреси, якщо основна не відповідає
           - https://www.polygon.com/rss/index.xml
       - name: SteamDB
@@ -135,6 +136,7 @@ categories:
       #   url: https://collider.com/feed/
       - name: /Film
         url: https://www.slashfilm.com/feed/
+        max_per_day: 6
       - name: Deadline
         url: https://deadline.com/feed/
         max_per_day: 15                  # Deadline пише сотні новин на день
@@ -247,6 +249,22 @@ filters:
     - "sponsored"
     - "quiz"
     - "most popular"         # тижневі підбірки «найпопулярніше»
+  # skip_patterns — шаблони заголовків, що не публікуються (гайди, підбірки, ностальгія).
+  # Це регулярні вирази; регістр не важливий.
+  skip_patterns:
+    - '^\d{1,2}\s+(best|most|perfect|near-perfect|great|underrated|forgotten|essential|prematurely|star-studded|emmy-winning|hidden|classic|scariest|funniest)\b'
+    - '^\d{1,2}\s+.*\b(that|nobody|we|you)\b'      # «10 Games That…», «5 Shows We Don't…»
+    - '\branked\b'                                    # «…, Ranked»
+    - '^(the\s+)?(best|top)\s'                        # «The Best…», «Best Games…»
+    - '\b(how to|where to (find|get|buy)|walkthrough|guide|tier list)\b'
+    - '\b(codes|schedule|dex list|pok[eé]dex list|locations?|answers?|hints?)\b.*$'
+    - '\b(wordle|connections|strands|crossword)\b'
+    - '\bwhat we.ve been playing\b|\bdiscussion time\b'
+    - '\btop (ten|10) (news )?stories\b|\btop stories of the week\b|\bweek in review\b'
+    - '\b(years? (ago|later))\b'                      # ностальгійні статті
+    - '\b(back on streaming|free to watch|is streaming on|now streaming on|where to watch|streaming hit)\b'
+    - '\b(worth revisiting|we don.t talk about|deserved (way )?more|no one watched|guest-starred)\b'
+
   # Якщо бот помилково зробив посиланням не гру (звичайне слово, яке збіглося
   # з назвою якоїсь гри в Steam) — допиши це слово сюди.
   steam_ignore:
