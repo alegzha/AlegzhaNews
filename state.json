@@ -11,8 +11,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-19 19:02 UTC",
-  "gemini_error": "",
+  "at": "2026-10-19 19:33 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 6
@@ -3094,7 +3094,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b>Японська спілка акторів запропонувала суворі правила проти використання ШІ-голосів</b>\n\nЯпонська спілка акторів випустила нові правила й обмеження щодо ШІ-голосів, зокрема заборонивши копіювати голоси померлих акторів без їхньої прижиттєвої згоди. Крім того, документ вимагає дозволу на кожному етапі створення ШІ, виплати гонорарів за згенеровані виступи та збереження художньої цілісності при перекладах.\n\n🔗 <a href=\"https://www.eurogamer.net/japanese-voice-acting-union-generative-ai\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/japanese-voice-acting-union-generative-ai",
     "orig": "Japanese acting union fights back against AI-generated voice use, proposing strict new guidelines, especially regarding the use of a deceased actor's voice"
@@ -3108,7 +3107,6 @@
    "GameSpot",
    {
     "also": [],
-    "caption": "🎮 <b>Розробники кримінальної гри <a href=\"https://store.steampowered.com/app/3634520/\">Samson</a> закривають студію через банкрутство</b>\n\nШведська студія Liquid Swords припиняє роботу після появи звітів про банкрутство, що підтвердив засновник Крістофер Сундберг. Реліз гри Samson на PC відбувся у квітні, а вересневий вихід на консолях PS5 і Xbox Series X|S був успішнішим, проте це не врятувало компанію від закриття.\n\n🔗 <a href=\"https://www.gamespot.com/articles/open-world-crime-game-samson-did-better-on-console-but-not-enough-to-save-its-developer-from-shutting-down/\">GameSpot</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamespot.com/articles/open-world-crime-game-samson-did-better-on-console-but-not-enough-to-save-its-developer-from-shutting-down/",
     "orig": "Open-World Crime Game Samson Did Better On Console But Not Enough To Save Its Developer From Shutting Down"
@@ -3122,7 +3120,6 @@
    "VGC",
    {
     "also": [],
-    "caption": "🎮 <b>Керівник Fuse Games розповів про успіх <a href=\"https://store.steampowered.com/app/4078430/\">Star Wars: Galactic Racer</a> і популярність Biddy Blas</b>\n\nГенеральний директор Fuse Games Мэтт Вебстер обговорив успіх Star Wars: Galactic Racer та плани після релізу гри. Окрему увагу він приділив вірусній популярності другорядного персонажа Biddy Blas у соцмережах та співпраці з Lucasfilm Games.\n\n🔗 <a href=\"https://www.videogameschronicle.com/features/star-wars-galactic-racer-boss-on-dlc-and-the-remarkable-rise-of-biddy-blas/\">VGC</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/features/star-wars-galactic-racer-boss-on-dlc-and-the-remarkable-rise-of-biddy-blas/",
     "orig": "Star Wars: Galactic Racer boss on DLC and the ‘remarkable’ rise of Biddy Blas"
@@ -3136,7 +3133,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>Що таке Solomia: український освітній чатбот і застосунок про жіноче здоров&#x27;я</b>\n\nЯк працює український ШІ-застосунок і чатбот Solomia: як бот у Telegram допомагає відстежувати цикл, розуміти емоції та чому розробники роблять ставку на месенджер, а не лише на класичні програми.\n\n🔗 <a href=\"https://mezha.ua/articles/chatbot-solomia-ukrajinskiy-shi-zastosunok-pro-zhinoche-zdorov-ya-316321/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/articles/chatbot-solomia-ukrajinskiy-shi-zastosunok-pro-zhinoche-zdorov-ya-316321/",
     "orig": "Що таке Solomia: український освітній чатбот і застосунок про жіноче здоров'я"
@@ -3150,7 +3146,6 @@
    "Loudwire",
    {
     "also": [],
-    "caption": "🤘 <b>11 найстрашніших концептуальних альбомів у метал-музиці</b>\n\nНапередодні Гелловіну складено добірку з 11 найбільш моторошних концептуальних метал-альбомів. До списку увійшли пластинки, які лякають не лише своєю тематикою та історіями, а й безпосередньо звучанням.\n\n🔗 <a href=\"https://loudwire.com/scariest-metal-concept-albums/\">Loudwire</a>\n\n#музика",
     "kind": "photo",
     "link": "https://loudwire.com/scariest-metal-concept-albums/",
     "orig": "The 11 Scariest Concept Albums in metal."
@@ -3839,7 +3834,12 @@
    "Gates To Hell скасували участь у європейському турі з Despised Icon, Carnifex і Suffocation",
    "ThePRP",
    {
-    "also": [],
+    "also": [
+     [
+      "Lambgoat",
+      "https://lambgoat.com/news/55425/gates-to-hell-pull-out-of-upcoming-despised-icon-carnifex-and-suffocation-european-tour/"
+     ]
+    ],
     "caption": "🤘 <b>Gates To Hell скасували участь у європейському турі з Despised Icon, Carnifex і Suffocation</b>\n\nГурт Gates To Hell через непередбачувані обставини відмовився від спільного туру Європою та Великою Британією з Despised Icon, Carnifex і Suffocation. Їхні місця на розігріві на окремих концертах займуть колективи Gutrectomy та Kanine.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/19/news/gates-to-hell-drop-off-despised-icon-carnifex-suffocation-european-uk-tour-replacements-announced/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/19/news/gates-to-hell-drop-off-despised-icon-carnifex-suffocation-european-uk-tour-replacements-announced/",
@@ -3970,6 +3970,76 @@
     "kind": "photo",
     "link": "https://www.decibelmagazine.com/2026/10/19/track-premiere-electric-valley-gata/",
     "orig": "Track Premiere: Electric Valley – “Gata”"
+   }
+  ],
+  [
+   1792438371.8456068,
+   1238,
+   "🤘",
+   "Fake Names випустили лірик-відео на пісню \"Punk Ruins\"",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Fake Names випустили лірик-відео на пісню &quot;Punk Ruins&quot;</b>\n\nЇхній однойменний реліз виходить цієї п&#x27;ятниці, 23 жовтня.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/19/news/fake-names-bad-religion-refused-etc-premiere-punk-ruins-lyric-video/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/19/news/fake-names-bad-religion-refused-etc-premiere-punk-ruins-lyric-video/",
+    "orig": "Fake Names (Bad Religion, Refused, Etc.) Premiere “Punk Ruins” Lyric Video"
+   }
+  ],
+  [
+   1792438374.8591866,
+   1239,
+   "🤘",
+   "Metallica показала офіційне концертне відео Devil’s Dance у The Sphere",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Metallica показала офіційне концертне відео Devil’s Dance у The Sphere</b>\n\nГурт Metallica опублікував офіційне живе відео на трек Devil’s Dance з альбому Reload. Запис зробили 3 жовтня під час резиденції у The Sphere у Лас-Вегасі, де гурт уперше з 2008 року виконав цю пісню наживо.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/19/news/metallica-share-official-live-footage-of-devils-dance-at-the-sphere/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/19/news/metallica-share-official-live-footage-of-devils-dance-at-the-sphere/",
+    "orig": "Metallica Share Official Live Footage Of “Devil’s Dance” At The Sphere"
+   }
+  ],
+  [
+   1792438377.9650624,
+   1240,
+   "🤘",
+   "Дейв Мастейн анонсував тур Megadeth з Anthrax та Kerry King на 2027 рік",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Дейв Мастейн анонсував тур Megadeth з Anthrax та Kerry King на 2027 рік</b>\n\nФронтмен Megadeth Дейв Мастейн підтвердив, що у 2027 році гурт вирушить у тур разом з Anthrax та сольним проєктом гітариста Slayer Kerry King. Музикант також розповів про інші заплановані виступи у США, Європі, Азії та інших регіонах із такими гуртами, як Black Label Society і Testament.\n\n🔗 <a href=\"https://lambgoat.com/news/55422/dave-mustaine-claims-a-megadeth-anthrax-and-kerry-king-tour-for-2027-is-coming/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55422/dave-mustaine-claims-a-megadeth-anthrax-and-kerry-king-tour-for-2027-is-coming/",
+    "orig": "Dave Mustaine claims a Megadeth, Anthrax and Kerry King tour for 2027 is coming"
+   }
+  ],
+  [
+   1792438380.9492035,
+   1241,
+   "🤘",
+   "Metallica виклала відео живих виступів із резиденції у Sphere",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Metallica виклала відео живих виступів із резиденції у Sphere</b>\n\nMetallica поділилася офіційними та фанатськими відео з виступів у межах резиденції Life Burns Faster у Лас-Вегасі. Гурт уперше за багато років виконав уживу треки Harvester Of Sorrow та ...And Justice For All на масштабній сцені Sphere.\n\n🔗 <a href=\"https://lambgoat.com/news/55423/metallica-sphere-performance-videos-for-harvester-of-sorrow-and-justice-for-all-are-online/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55423/metallica-sphere-performance-videos-for-harvester-of-sorrow-and-justice-for-all-are-online/",
+    "orig": "Metallica Sphere performance videos for \"Harvester Of Sorrow\" & \"...And Justice For All\" are online"
+   }
+  ],
+  [
+   1792438385.390613,
+   1242,
+   "🤘",
+   "Гурт Scrape випустив однойменний дебютний 7-inch вініл",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Гурт Scrape випустив однойменний дебютний 7-inch вініл</b>\n\nМузичний проєкт Scrape, до складу якого увійшли учасники Left For Dead, Cursed та інших гуртів, випустив дебютний однойменний 7-inch реліз на лейблі Oblivion Records. Матеріал створили ще під час пандемії як інструментальний джем-проєкт, після чого записали чотири треки під впливом Iron Monkey, Unsane та 16.\n\n🔗 <a href=\"https://lambgoat.com/news/55426/scrape-cursed-left-for-dead-deliver-debut-self-titled-7-created-during-covid/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55426/scrape-cursed-left-for-dead-deliver-debut-self-titled-7-created-during-covid/",
+    "orig": "Scrape (Cursed, Left For Dead) deliver debut self-titled 7\" created during COVID"
    }
   ]
  ],
@@ -4267,7 +4337,10 @@
    1792427707.0259013,
    1792432930.899166,
    1792432934.8533745,
-   1792432937.8081133
+   1792432937.8081133,
+   1792438377.965363,
+   1792438380.9495163,
+   1792438385.3909066
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1792407679.2416446,
@@ -4306,13 +4379,13 @@
    1792352560.3576841
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1792351874.9376392,
-   1792351877.967557,
    1792427640.6575644,
    1792429338.4739804,
    1792432895.3234756,
    1792434698.9449294,
-   1792436507.2779095
+   1792436507.2779095,
+   1792438371.845793,
+   1792438374.8594418
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1792352557.5538568
@@ -4392,6 +4465,8 @@
   "058dd5300c168056": 1792128964.8596747,
   "05a33cc6328e172a": 1792352548.569318,
   "05d8d1ba243c8cdf": 1792148787.082236,
+  "05ea98507118fb0d": 1792438380.9494758,
+  "05f0068cc39306e8": 1792438280.3573785,
   "05f342012cb925c2": 1792128960.20275,
   "061113137872693d": 1792148786.5805895,
   "064d65c506f0c37e": 1792306049.3591456,
@@ -4770,10 +4845,12 @@
   "46e8fce991a50384": 1791646021.548309,
   "474382b6632b066d": 1791993729.4377713,
   "4747a804fd458486": 1792304858.9558072,
+  "47893b5ccec1fc87": 1792438385.3908658,
   "47fa1011d71b746f": 1792010038.4811938,
   "4809ce681a686c84": 1791931734.3243032,
   "480dfde3a91150a8": 1791996980.3529558,
   "487c047729c40a79": 1792129272.136911,
+  "488ebf27e797f45a": 1792438383.541762,
   "4895c8ba0e5d0d62": 1792164064.6378188,
   "48ace4d12a5e1a68": 1792074068.3651547,
   "48ce3623efa23556": 1791926699.7028904,
@@ -5017,6 +5094,7 @@
   "75ab4ca3caecc444": 1791742992.6786945,
   "75aefeb86fd73e4c": 1792249962.4429402,
   "75d63613bd57c446": 1791638201.4575505,
+  "75f7326d1c746944": 1792438377.965322,
   "75fb34f81245a406": 1792295961.7138498,
   "76026d72282e65a0": 1792402496.6026087,
   "760c922da470ff93": 1791978102.868556,
@@ -5469,6 +5547,7 @@
   "c96c92c7e789a96a": 1792148790.6340075,
   "c96e6e0b63d70c2e": 1792145417.3276162,
   "c98cdc696d68e144": 1791978102.8546524,
+  "c9b4e7d8a77d0dd0": 1792438371.8457463,
   "c9cb07ac9e555059": 1792281288.5756776,
   "c9eee1036e15d6c1": 1791957579.754557,
   "ca14ec813cb5c41e": 1791931149.864866,
@@ -5652,6 +5731,7 @@
   "e74d77496514b484": 1792099051.600866,
   "e74f16aff7c8f4f1": 1791969580.967872,
   "e77cf00f4e837f33": 1791989226.340799,
+  "e7bb2a2d438030c2": 1792438374.8593967,
   "e7e162682d23a3e6": 1792145477.8874452,
   "e7ec2c1fc20d94fd": 1792360891.393675,
   "e7f776205d5baa63": 1791675548.2298849,
@@ -6220,7 +6300,7 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1792418643.4482455,
-  "blocked_until": 1792418555.2376606,
+  "blocked_until": 1792505103.1948092,
   "cursor": 177,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -6975,7 +7055,7 @@
    "IndieWire": 4,
    "Insider Gaming": 20,
    "Kerrang!": 6,
-   "Lambgoat": 4,
+   "Lambgoat": 7,
    "Loudwire": 7,
    "Metal Hammer (Louder)": 3,
    "Metal Injection": 1,
@@ -6987,13 +7067,13 @@
    "Revolver": 1,
    "Rock Paper Shotgun": 8,
    "The Decoder": 5,
-   "ThePRP": 5,
+   "ThePRP": 7,
    "VGC": 5
   },
   "translators": {
    "DeepL": 2,
    "gemini-flash-latest": 29,
-   "gemini-flash-lite-latest": 162
+   "gemini-flash-lite-latest": 168
   },
   "week": "2026-W43"
  },
@@ -7743,11 +7823,6 @@
    "",
    1792344682.9313369
   ],
-  "q:77 minute stop motion masterpiece is officially back": [
-   0,
-   "",
-   1792264369.5715525
-  ],
   "q:8": [
    0,
    "",
@@ -8138,11 +8213,6 @@
    "",
    1792427691.4640331
   ],
-  "q:avatar legends": [
-   0,
-   "",
-   1792264346.523961
-  ],
   "q:awards is officially over": [
    0,
    "",
@@ -8473,11 +8543,6 @@
    "",
    1792423966.1325803
   ],
-  "q:biddy blas": [
-   0,
-   "",
-   1792264340.2542682
-  ],
   "q:biddy blas is": [
    0,
    "",
@@ -8502,11 +8567,6 @@
    1998450,
    "Black & White",
    1792148808.5627577
-  ],
-  "q:blas": [
-   0,
-   "",
-   1792264340.7754667
   ],
   "q:blas is": [
    0,
@@ -8558,11 +8618,6 @@
    "",
    1792326688.1501467
   ],
-  "q:bloodlines": [
-   0,
-   "",
-   1792264334.5262282
-  ],
   "q:boss rush": [
    1113710,
    "Boss Rush",
@@ -8612,36 +8667,6 @@
    2954010,
    "Burn With Me",
    1791831064.6169345
-  ],
-  "q:burton": [
-   0,
-   "",
-   1792264368.812908
-  ],
-  "q:burton's 77 minute": [
-   0,
-   "",
-   1792264368.2692823
-  ],
-  "q:burton's 77 minute stop motion": [
-   0,
-   "",
-   1792264367.7579525
-  ],
-  "q:burton's 77 minute stop motion masterpiece": [
-   0,
-   "",
-   1792264367.1878774
-  ],
-  "q:burton's 77 minute stop motion masterpiece is": [
-   0,
-   "",
-   1792264366.6778378
-  ],
-  "q:burton's 77 minute stop motion masterpiece is officially": [
-   0,
-   "",
-   1792264366.1614556
   ],
   "q:call": [
    0,
@@ -10638,11 +10663,6 @@
    "HUMANKIND™ 2",
    1792070996.5387273
   ],
-  "q:i am overwhelmed and overstimulated": [
-   0,
-   "",
-   1792264339.215708
-  ],
   "q:i was a real anglophile": [
    0,
    "",
@@ -11263,16 +11283,6 @@
    "",
    1792362695.160787
   ],
-  "q:masquerade": [
-   0,
-   "",
-   1792264333.9873595
-  ],
-  "q:masquerade bloodlines": [
-   0,
-   "",
-   1792264333.4445038
-  ],
   "q:mass effect": [
    1328670,
    "Mass Effect™ Legendary Edition",
@@ -11337,16 +11347,6 @@
    1373530,
    "Militsioner",
    1791675531.5092142
-  ],
-  "q:minecraft avatar": [
-   0,
-   "",
-   1792264345.966304
-  ],
-  "q:minecraft avatar legends": [
-   0,
-   "",
-   1792264345.4517167
   ],
   "q:minesweeper": [
    1736630,
@@ -11437,11 +11437,6 @@
    0,
    "",
    1792326700.9862535
-  ],
-  "q:moebius esque": [
-   0,
-   "",
-   1792264378.3870983
   ],
   "q:moonlighter": [
    606150,
@@ -12953,11 +12948,6 @@
    "STAR WARS: Galactic Racer™",
    1791786694.6954517
   ],
-  "q:star wars galactic racer's biddy": [
-   0,
-   "",
-   1792264339.7449496
-  ],
   "q:star wars games": [
    0,
    "",
@@ -13343,31 +13333,6 @@
    "",
    1792296008.9952383
   ],
-  "q:tim burton": [
-   0,
-   "",
-   1792264365.502134
-  ],
-  "q:tim burton's 77 minute": [
-   0,
-   "",
-   1792264365.0016944
-  ],
-  "q:tim burton's 77 minute stop motion": [
-   0,
-   "",
-   1792264364.4705145
-  ],
-  "q:tim burton's 77 minute stop motion masterpiece": [
-   0,
-   "",
-   1792264363.9623196
-  ],
-  "q:tim burton's 77 minute stop motion masterpiece is": [
-   0,
-   "",
-   1792264363.3338745
-  ],
   "q:time remake": [
    0,
    "",
@@ -13557,16 +13522,6 @@
    2828710,
    "Valor Mortis",
    1791815059.088638
-  ],
-  "q:vampire the masquerade": [
-   0,
-   "",
-   1792264332.7478852
-  ],
-  "q:vampire the masquerade bloodlines": [
-   0,
-   "",
-   1792264332.233413
   ],
   "q:vince": [
    0,
@@ -14023,12 +13978,13 @@
   "Mezha": [
    "anthropic",
    "apple",
+   "character.ai",
    "defence city",
-   "delta",
-   "mission control",
+   "disney",
    "spotify",
    "tiktok",
    "tp-link",
+   "бізнес",
    "венздей",
    "здоров’я",
    "квентін тарантіно",
@@ -14038,7 +13994,6 @@
    "оборонка",
    "опк",
    "роутери",
-   "сили оборони",
    "софт",
    "соціальні мережі",
    "стартапи",
@@ -14053,54 +14008,6 @@
   ]
  },
  "titles": [
-  [
-   1792264324.082643,
-   "What's System of a Down Planning in LA for 2027?"
-  ],
-  [
-   1792264328.6798215,
-   "Miley Cyrus Tearfully Remembers Dolly Parton At Hollywood Bowl Concert, Performs ‘Jolene’"
-  ],
-  [
-   1792264335.5653145,
-   "Vampire: The Masquerade - Bloodlines remaster rumoured, with leaker insisting it's not a remake"
-  ],
-  [
-   1792264341.8558567,
-   "'I am overwhelmed and overstimulated': The actor behind Star Wars: Galactic Racer’s Biddy Blas is scribbing doon all your enthusiasm"
-  ],
-  [
-   1792264347.2980618,
-   "У Minecraft вийшло доповнення Avatar Legends із керуванням чотирма стихіями"
-  ],
-  [
-   1792264351.490402,
-   "Amerakin Overdose Pen New Track “Parasite” In Response To Being Stiffed By A Promoter"
-  ],
-  [
-   1792264355.5064044,
-   "My Chemical Romance Drop Official Live Performance Video For Their Rare Track “Someone Out There Loves You”"
-  ],
-  [
-   1792264359.8041031,
-   "Charles Bronson's Little-Remembered '70s Western With His Wife Is Streaming On Prime Video"
-  ],
-  [
-   1792264370.8304584,
-   "Tim Burton's 77-Minute Stop-Motion Masterpiece Is Officially Back on Streaming"
-  ],
-  [
-   1792264374.8848886,
-   "SAVE US Encounter Visa Issues Ahead Of Their Tour With Saosin, Silent Planet & Like Moths To Flames"
-  ],
-  [
-   1792264380.2372134,
-   "RimWorld meets Moebius-esque roguelite colony sim Trailblazers: Into The March welcomes you aboard its hulking landships with a chonky-sounding demo"
-  ],
-  [
-   1792264384.3540728,
-   "cursor/plugins"
-  ],
   [
    1792270296.4148493,
    "The Zelda: Ocarina of Time Remake Sounds Meaningfully Better Than the Original"
@@ -15628,6 +15535,26 @@
   [
    1792436521.5688965,
    "Track Premiere: Electric Valley – “Gata”"
+  ],
+  [
+   1792438371.8457477,
+   "Fake Names (Bad Religion, Refused, Etc.) Premiere “Punk Ruins” Lyric Video"
+  ],
+  [
+   1792438374.8593986,
+   "Metallica Share Official Live Footage Of “Devil’s Dance” At The Sphere"
+  ],
+  [
+   1792438377.9653232,
+   "Dave Mustaine claims a Megadeth, Anthrax and Kerry King tour for 2027 is coming"
+  ],
+  [
+   1792438380.9494772,
+   "Metallica Sphere performance videos for \"Harvester Of Sorrow\" & \"...And Justice For All\" are online"
+  ],
+  [
+   1792438385.3908675,
+   "Scrape (Cursed, Left For Dead) deliver debut self-titled 7\" created during COVID"
   ]
  ],
  "titles_uk": [
@@ -16962,6 +16889,26 @@
   [
    1792436521.5688975,
    "Гурт Electric Valley випустив новий трек та кліп «Gata» з майбутнього альбому Echo"
+  ],
+  [
+   1792438371.8457484,
+   "Fake Names випустили лірик-відео на пісню \"Punk Ruins\""
+  ],
+  [
+   1792438374.8593993,
+   "Metallica показала офіційне концертне відео Devil’s Dance у The Sphere"
+  ],
+  [
+   1792438377.965324,
+   "Дейв Мастейн анонсував тур Megadeth з Anthrax та Kerry King на 2027 рік"
+  ],
+  [
+   1792438380.949478,
+   "Metallica виклала відео живих виступів із резиденції у Sphere"
+  ],
+  [
+   1792438385.3908682,
+   "Гурт Scrape випустив однойменний дебютний 7-inch вініл"
   ]
  ],
  "ukrainian": {
@@ -19168,7 +19115,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792434731.1069393,
+  "last_check": 1792438393.8400686,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
