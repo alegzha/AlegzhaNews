@@ -1,27 +1,8 @@
 {
- "alerts": {
-  "src:ai|The Decoder|https://the-decoder.com/feed/": {
-   "detail": "https://the-decoder.com/feed/ → HTTPSConnectionPool(host='the-decoder.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutEr",
-   "label": "Джерело «The Decoder» не працює",
-   "sent": 0,
-   "since": 1792371700.0700321
-  },
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1792371675.4650474
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1792371673.0525813
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-18",
  "freebies": {
-  "last_check": 1792366281.629652,
+  "last_check": 1792373491.9321373,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -29,7 +10,7 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-19 01:01 UTC",
+  "at": "2026-10-19 01:31 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
@@ -1412,6 +1393,34 @@
     "link": "https://www.bloomberg.com/news/videos/2026-10-19/ai-will-empower-india-s-space-missions-says-minister-video",
     "orig": "AI Will Empower India's Space Missions, Says Minister"
    }
+  ],
+  [
+   1792373477.2572014,
+   1044,
+   "🎬",
+   "Єдиним повнометражним фільмом в режисерській кар'єрі Арнольда Шварценеггера стала святкова романтична комедія",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Єдиним повнометражним фільмом в режисерській кар&#x27;єрі Арнольда Шварценеггера стала святкова романтична комедія</b>\n\nУ 1992 році Арнольд Шварценеггер зняв свій єдиний повнометражний фільм — ремейк романтичної комедії «Christmas in Connecticut». Ланка унікальна тим, що замість звичного для актора бойовика чи фантастики це була святкова телестрічка для каналу TNT.\n\n🔗 <a href=\"https://www.slashfilm.com/2282415/arnold-schwarzenegger-directed-one-movie-christmas-in-connecticut-not-action/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2282415/arnold-schwarzenegger-directed-one-movie-christmas-in-connecticut-not-action/",
+    "orig": "Arnold Schwarzenegger Only Directed One Movie - And It Wasn't In The Action Genre"
+   }
+  ],
+  [
+   1792373482.007201,
+   1045,
+   "🎬",
+   "Серіал Marshals продовжує традицію Yellowstone із символізмом тварин",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Серіал Marshals продовжує традицію Yellowstone із символізмом тварин</b>\n\nУ другому сезоні спіноффу Yellowstone під назвою Marshals з&#x27;явився новий тваринний символ для персонажа Luke Grimes — самотній бізон. Цей звір повторює роль вовків, які переслідували Kayce Dutton в оригінальному серіалі та віщували темні часи. Новий символ додає глибини процедуральному формату шоу у стилі Taylor Sheridan.\n\n🔗 <a href=\"https://www.slashfilm.com/2288139/marshals-twist-taylor-sheridan-yellowstone-tradition/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2288139/marshals-twist-taylor-sheridan-yellowstone-tradition/",
+    "orig": "Marshals Is Putting A Twist One One Of Taylor Sheridan's Yellowstone Traditions"
+   }
   ]
  ],
  "posted_by_source": {
@@ -1549,7 +1558,9 @@
    1792362690.1707602,
    1792362693.0886025,
    1792365656.5517306,
-   1792368119.0110073
+   1792368119.0110073,
+   1792373477.257338,
+   1792373482.0074754
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792129276.4144118
@@ -1905,6 +1916,7 @@
   "2a450dcaa7d8f090": 1792129235.1684577,
   "2a92495361b711e7": 1792188098.4192889,
   "2a96f7e807660e6e": 1791969576.7133026,
+  "2b358bf4a24f158d": 1792373482.0074277,
   "2b3e0d716a309f46": 1791931128.8734488,
   "2b71e2432beb2c1f": 1792148875.6971943,
   "2b86ffad7f7c83c7": 1791994373.2696502,
@@ -2760,6 +2772,7 @@
   "e568ed0ef026a0fe": 1792214877.406964,
   "e573dbd69b744688": 1791837743.9242148,
   "e57f57b53e3012a8": 1792352398.0049508,
+  "e5cfc7f9ccb5d0a6": 1792373477.2572918,
   "e5d0adf173e1a77a": 1791931161.17929,
   "e60c6c7b05632690": 1792332091.0918584,
   "e60ce886de7ed29d": 1792332081.929006,
@@ -4045,7 +4058,7 @@
  },
  "stats": {
   "sources": {
-   "/Film": 5,
+   "/Film": 7,
    "Bloomberg": 3,
    "Deadline": 4,
    "IndieWire": 1,
@@ -4056,7 +4069,7 @@
   },
   "translators": {
    "gemini-flash-latest": 10,
-   "gemini-flash-lite-latest": 10
+   "gemini-flash-lite-latest": 12
   },
   "week": "2026-W43"
  },
@@ -10032,6 +10045,14 @@
   [
    1792371705.2867572,
    "AI Will Empower India's Space Missions, Says Minister"
+  ],
+  [
+   1792373477.2572942,
+   "Arnold Schwarzenegger Only Directed One Movie - And It Wasn't In The Action Genre"
+  ],
+  [
+   1792373482.0074291,
+   "Marshals Is Putting A Twist One One Of Taylor Sheridan's Yellowstone Traditions"
   ]
  ],
  "titles_uk": [
@@ -10606,6 +10627,14 @@
   [
    1792371705.2867582,
    "ШІ посилить космічні місії Індії"
+  ],
+  [
+   1792373477.257295,
+   "Єдиним повнометражним фільмом в режисерській кар'єрі Арнольда Шварценеггера стала святкова романтична комедія"
+  ],
+  [
+   1792373482.0074298,
+   "Серіал Marshals продовжує традицію Yellowstone із символізмом тварин"
   ]
  ],
  "ukrainian": {
@@ -12805,7 +12834,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792369893.4606137,
+  "last_check": 1792373491.6084461,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
