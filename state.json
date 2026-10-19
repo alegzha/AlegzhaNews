@@ -1,5 +1,42 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:ai|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1792413114.958897
+  },
+  "src:games|DOU Gamedev|https://gamedev.dou.ua/feed/": {
+   "detail": "https://gamedev.dou.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «DOU Gamedev» не працює",
+   "sent": 0,
+   "since": 1792413068.1072807
+  },
+  "src:games|Digital Foundry|https://www.digitalfoundry.net/feed": {
+   "detail": "https://www.digitalfoundry.net/feed → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/feed.xml → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.eurogamer.net/feed/digitalfoundry → 404 Client Error: Not Found for url: https://www.eurogamer.net/feed/digitalfoundry",
+   "label": "Джерело «Digital Foundry» не працює",
+   "sent": 0,
+   "since": 1792413093.391217
+  },
+  "src:games|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1792413074.4916306
+  },
+  "src:movies|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1792413111.0488117
+  },
+  "src:software|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1792413111.0877728
+  }
+ },
  "daily_digest_date": "2026-10-18",
  "freebies": {
   "last_check": 1792411309.8323739,
@@ -10,11 +47,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-19 12:01 UTC",
+  "at": "2026-10-19 12:32 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 6
+   "gemini-flash-lite-latest": 5
   },
   "used": [
    "Gemini"
@@ -1558,7 +1595,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "💾 <b>ChatGPT отримав контроль над Chrome: ШІ інтегрували майже всюди</b>\n\nOpenAI оголосила про глибшу інтеграцію ChatGPT із Google Chrome, зокрема про можливість доручати ШІ керування відкритими вкладками. У дописі в соціальній мережі Twitter/X OpenAI розповіла про вдосконалення розширення ChatGPT для Google Chrome. Тепер браузерне доповнення має глибшу інтеграцію з Chrome, зокрема, ChatGPT може переглядати відкриті вкладки та виконувати завдання з урахуванням інформації в них.\n\n🔗 <a href=\"https://itc.ua/ua/novini/chatgpt-otrymav-kontrol-nad-chrome-shi-integruvaly-majzhe-vsyudy/\">ITC.ua</a>\n\n#софт",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/chatgpt-otrymav-kontrol-nad-chrome-shi-integruvaly-majzhe-vsyudy/",
     "orig": "ChatGPT отримав контроль над Chrome: ШІ інтегрували майже всюди"
@@ -1572,7 +1608,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Валлійці Man створили каліфорнійський рок разом із продюсером Queen</b>\n\nУ 1974 році до валлійського рок-гурту Man повернувся фронтмен Роджер «Дік» Леонард для запису альбому Rhinos, Winos &amp; Lunatics. Попри початковий супротив музикантів, лейбл наполіг на співпраці з продюсером Queen Роєм Томасом Бейкером. Платівка отримала чітку структуру замість довгих джемів, зберігши фірмовий американський саунд.\n\n🔗 <a href=\"https://www.loudersound.com/music/albums/man-winos-rhinos-and-lunatics\">Metal Hammer (Louder)</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/music/albums/man-winos-rhinos-and-lunatics",
     "orig": "Man rope in Queen's producer but still sound American on Winos, Rhinos & Lunatics"
@@ -1586,7 +1621,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "💾 <b>Малий бізнес масово міняє веброзробників на штучний інтелект: вакансії з WordPress і PHP просіли на 60%</b>\n\nФрілансерам, які заробляють на сайтах для малого бізнесу, доводиться непросто. Дослідження, замовлене хостинг-провайдером Bluehost, свідчить: понад половина американських підприємців довірила створення сайту штучному інтелекту, а не розробнику.\n\n🔗 <a href=\"https://highload.tech/uk/malyj-biznes-masovo-minyaye-vebrozrobnykiv-na-shtuchnyj-intelekt-vakansiyi-z-wordpress-i-php-prosily-na-60/#new_tab\">ITC.ua</a>\n\n#софт",
     "kind": "photo",
     "link": "https://highload.tech/uk/malyj-biznes-masovo-minyaye-vebrozrobnykiv-na-shtuchnyj-intelekt-vakansiyi-z-wordpress-i-php-prosily-na-60/#new_tab",
     "orig": "Малий бізнес масово міняє веброзробників на штучний інтелект: вакансії з WordPress і PHP просіли на 60%"
@@ -1600,7 +1634,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🤖 <b>ШІ може змінювати людські спогади: дослідження виявило небезпеку помилкових переказів</b>\n\nДослідження показало, що помилки в переказах ChatGPT можуть спотворювати людські спогади про побачене. Науковці також виявили, що ШІ пропускає важливі деталі у відео, що створює ризики для використання таких інструментів у поліції та медицині.\n\n🔗 <a href=\"https://mezha.ua/news/ai-generated-fake-memories-316290/\">Mezha</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://mezha.ua/news/ai-generated-fake-memories-316290/",
     "orig": "ШІ може змінювати людські спогади: дослідження виявило небезпеку помилкових переказів"
@@ -1614,7 +1647,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>mlabonne представив безкоштовний практичний курс для LLM-інженерів</b>\n\nБезкоштовний репозиторій llm-course від mlabonne охоплює повний цикл роботи з великими мовними моделями — від математики й Python до архітектури Transformer. У курсі розібрано попереднє навчання, тонке налаштування (SFT) та вирівнювання ШІ. На основі цих матеріалів автор також випустив практичну книгу LLM Engineer&#x27;s Handbook.\n\n🔗 <a href=\"https://github.com/mlabonne/llm-course\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/mlabonne/llm-course",
     "orig": "mlabonne/llm-course"
@@ -1628,7 +1660,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎬 <b>Джейсон Судейкіс заінтригував заявою про майбутнє &quot;Теда Лассо&quot;</b>\n\nАмериканський комік, сценарист та продюсер Джейсон Судейкіс не виключає розширення футбольно-комедійного всесвіту “Тед Лассо” (Ted Lasso) на 5 та 6 сезони.\n\n🔗 <a href=\"https://itc.ua/ua/novini/dzhejson-sudejkis-zaintryguvav-zayavoyu-pro-majbutnye-teda-lasso/\">ITC.ua</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/dzhejson-sudejkis-zaintryguvav-zayavoyu-pro-majbutnye-teda-lasso/",
     "orig": "Джейсон Судейкіс заінтригував заявою про майбутнє \"Теда Лассо\""
@@ -1697,7 +1728,12 @@
    "Cyberpunk 2077 отримає мод із кооперативом на 8 гравців",
    "PlayUA",
    {
-    "also": [],
+    "also": [
+     [
+      "VGC",
+      "https://www.videogameschronicle.com/news/after-making-a-cameo-appearance-in-cyberpunk-2077-hideo-kojima-is-coming-to-cyberpunk-edgerunners-2/"
+     ]
+    ],
     "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/1091500/\">Cyberpunk 2077</a> отримає мод із кооперативом на 8 гравців</b>\n\nДля Cyberpunk 2077 анонсували модифікацію NightCoop, яка дозволить проходити сюжетну кампанію разом із друзями. Розробники планують реалізувати кооперативний режим із підтримкою до восьми гравців, синхронізованими боями та додатковими налаштуваннями складності. Наразі проєкт перебуває на стадії закритого тестування.\n\n🔗 <a href=\"https://playua.net/cyberpunk-2077-otrymaye-mod-iz-kooperatyvom-na-8-gravcziv/\">PlayUA</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://playua.net/cyberpunk-2077-otrymaye-mod-iz-kooperatyvom-na-8-gravcziv/",
@@ -2413,6 +2449,90 @@
     "link": "https://itc.ua/ua/novini/dokumentalnyj-film-mask-vtratyv-akaunt-u-tiktok-shho-stalosya/",
     "orig": "Документальний фільм \"Маск\" втратив акаунт у TikTok: що сталося"
    }
+  ],
+  [
+   1792413121.9692667,
+   1122,
+   "🤘",
+   "Гітарист Джон 5 дав пораду молодим музикантам",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Гітарист Джон 5 дав пораду молодим музикантам</b>\n\nВідомий гітарист Джон 5 у новому інтерв&#x27;ю порадив молодим музикантам завжди грати те, що вони по-справжньому люблять. Музикант наголосив, що всі митці надихаються іншими, тому варто створювати музику, яка приносить радість та натхнення.\n\n🔗 <a href=\"https://blabbermouth.net/news/john-5s-advice-to-young-musicians-play-what-you-love\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/john-5s-advice-to-young-musicians-play-what-you-love",
+    "orig": "JOHN 5's Advice To Young Musicians: 'Play What You Love'"
+   }
+  ],
+  [
+   1792413124.3566048,
+   1123,
+   "💾",
+   "Microsoft стверджує, що Windows 11 стала до 20% швидшою: ось що змінилося",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "💾 <b>Microsoft стверджує, що Windows 11 стала до 20% швидшою: ось що змінилося</b>\n\nMicrosoft заявляє, що Windows 11 стала до 20% відгукливішою. Найбільше зміни мають відчути комп’ютери з 8 ГБ пам’яті або менше.\n\n🔗 <a href=\"https://itc.ua/ua/novini/microsoft-stverdzhuye-shho-windows-11-stala-do-20-shvydshoyu-os-shho-zminylosya/\">ITC.ua</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/microsoft-stverdzhuye-shho-windows-11-stala-do-20-shvydshoyu-os-shho-zminylosya/",
+    "orig": "Microsoft стверджує, що Windows 11 стала до 20% швидшою: ось що змінилося"
+   }
+  ],
+  [
+   1792413134.7671943,
+   1124,
+   "🎮",
+   "Демонс Соулс ремейк запустили на ПК через емулятор зі швидкістю до 120 fps",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Демонс Соулс ремейк запустили на ПК через емулятор зі швидкістю до 120 fps</b>\n\nЕксклюзивний для PS5 ремейк Demon&#x27;s Souls від Bluepoint Games запустили на ПК за допомогою неофіційного шару трансляції KytyPS5. На збірці з RTX 5070 гра демонструє до 120 fps у роздільній здатності 1080p завдяки генерації кадрів DLSS, хоча на консолі Sony продуктивність обмежена 60 fps.\n\n🔗 <a href=\"https://www.pcgamer.com/hardware/ps5-exclusive-demons-souls-remake-not-only-runs-on-pc-now-its-running-at-twice-the-fps-cap-on-an-rtx-5070-with-frame-gen/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/hardware/ps5-exclusive-demons-souls-remake-not-only-runs-on-pc-now-its-running-at-twice-the-fps-cap-on-an-rtx-5070-with-frame-gen/",
+    "orig": "PS5-exclusive Demon's Souls Remake not only runs on PC now, it's running at twice the fps cap on an RTX 5070 with frame gen"
+   }
+  ],
+  [
+   1792413142.6038902,
+   1125,
+   "🎮",
+   "Для The Witcher 3 виходить патч з покращеннями візуалу та розширення",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Для The Witcher 3 виходить патч з покращеннями візуалу та розширення</b>\n\nCD Projekt Red випускає патч для The Witcher 3: Wild Hunt - Remastered, який покращує роздільну здатність і чіткість зображення в портативному режимі. Оновлення також коригує надмірну яскравість освітлення та готує гру до майбутнього виходу доповнення Songs of the Past.\n\n🔗 <a href=\"https://www.eurogamer.net/witcher-3-switch-2-patch-update-resolution-brightness\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/witcher-3-switch-2-patch-update-resolution-brightness",
+    "orig": "Witcher 3 Switch 2 patch rolls out today with a number of changes, including alterations to resolution and \"visual clarity\""
+   }
+  ],
+  [
+   1792413149.4381146,
+   1126,
+   "🎮",
+   "Для Saros вийшов безплатний патч New Game Plus із режимом Boss Rush",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>Для Saros вийшов безплатний патч New Game Plus із режимом <a href=\"https://store.steampowered.com/app/1113710/\">Boss Rush</a></b>\n\nТакож оновлення додає опцію автострільби для гравців\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/saross-free-new-game-plus-update-is-out-now-including-a-boss-rush-mode/\">VGC</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/saross-free-new-game-plus-update-is-out-now-including-a-boss-rush-mode/",
+    "orig": "Saros’s free New Game Plus update is out now, including a Boss Rush mode"
+   }
+  ],
+  [
+   1792413153.9621565,
+   1127,
+   "🤘",
+   "Гурт Harpy анонсував свій перший хедлайнерський тур",
+   "Kerrang!",
+   {
+    "also": [],
+    "caption": "🤘 <b>Гурт Harpy анонсував свій перший хедлайнерський тур</b>\n\nГурт Harpy оголосив про свій перший хедлайнерський тур під назвою &quot;I want you to watch&quot;. Ця новина супроводжується релізом нового синглу &quot;WITCH HOUSE&quot;, створеного у співпраці з Tropic Gold.\n\n🔗 <a href=\"https://www.kerrang.com/harpy-announces-voyeur-tour-debut-headline-tour-february-2027\">Kerrang!</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.kerrang.com/harpy-announces-voyeur-tour-debut-headline-tour-february-2027",
+    "orig": "“I want you to watch”: Harpy announces debut headline tour"
+   }
   ]
  ],
  "posted_by_source": {
@@ -2452,7 +2572,8 @@
    1792400505.981771,
    1792407726.2002537,
    1792407738.5407817,
-   1792409493.3585024
+   1792409493.3585024,
+   1792413142.604181
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1792326692.502684,
@@ -2506,7 +2627,8 @@
    1792380689.0307236,
    1792405917.6922836,
    1792409512.526033,
-   1792411292.7920527
+   1792411292.7920527,
+   1792413134.7675116
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1792356801.4659715,
@@ -2555,7 +2677,8 @@
    1792352536.1380198,
    1792352540.508578,
    1792400600.640931,
-   1792405905.4390295
+   1792405905.4390295,
+   1792413149.438429
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1792295963.2647765,
@@ -2622,8 +2745,6 @@
    1792352430.0358374
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1792326680.0494351,
-   1792326698.9896507,
    1792329721.7609222,
    1792332078.6453283,
    1792337490.2882862,
@@ -2632,7 +2753,8 @@
    1792348283.2225096,
    1792356797.2007813,
    1792411276.7971537,
-   1792411283.875745
+   1792411283.875745,
+   1792413121.9695773
   ],
   "music|Distorted Sound|https://distortedsoundmag.com/feed/": [
    1792352392.5357676,
@@ -2646,7 +2768,8 @@
    1792398880.8021507,
    1792402623.1872196,
    1792409500.9461818,
-   1792411305.960925
+   1792411305.960925,
+   1792413153.96252
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
    1792306049.3594148,
@@ -2719,7 +2842,8 @@
    1792387872.7645981,
    1792389673.6429482,
    1792398882.71487,
-   1792404399.0902028
+   1792404399.0902028,
+   1792413124.3567915
   ],
   "software|Mezha|https://mezha.ua/feed/": [
    1792214799.7738283,
@@ -3176,6 +3300,7 @@
   "55abe72fc2c9c320": 1792145396.652057,
   "56ac17c60fdf66a2": 1792021687.9833136,
   "56ae604783dec258": 1792319471.5020306,
+  "56c7e249be5e63e6": 1792413142.6041393,
   "5707b386eca96035": 1791879481.2594619,
   "571a9c6f044d8bf7": 1791643484.7724442,
   "57506fe3e1e566f6": 1792368095.4669654,
@@ -3220,6 +3345,7 @@
   "6013176cfd7a17ea": 1792270324.9870496,
   "6096cc3a83ecce40": 1792074118.3389306,
   "612a6a062bc7bf45": 1792129251.4768379,
+  "6179be9ac4251725": 1792413134.7674634,
   "61979a5fe6af23a3": 1791820258.6541216,
   "61b7ab1127e25a11": 1792148849.6341424,
   "61ce6d04105b6d5c": 1791820253.2708223,
@@ -3302,6 +3428,7 @@
   "72391459be7cc1c5": 1791638758.692959,
   "727f9ab15731bafb": 1791750774.6158323,
   "72824c92e89aa6e4": 1792099090.951587,
+  "72d3a8732f3b2422": 1792413124.3567483,
   "72e1b3b52e200519": 1791636717.6413422,
   "730a0ea386a88913": 1792400505.9817264,
   "738f9286e44b821f": 1792398729.0859182,
@@ -3510,6 +3637,7 @@
   "988e13ed562d14f0": 1792164569.2045894,
   "98b3504fafa8aacc": 1791894808.6965919,
   "98e4065037e65278": 1792229927.0587828,
+  "990b8058d500b284": 1792413149.4383852,
   "9985b3d5b28d3bca": 1791769110.1612594,
   "99a81e8268b7c018": 1792402623.1871777,
   "99de8e5cc0092b17": 1791837781.7497854,
@@ -3715,6 +3843,7 @@
   "c65d2f4d1162f7de": 1791668789.9831371,
   "c68d395f585e57ea": 1791820267.741594,
   "c712b8d1bde6f100": 1792081023.7398894,
+  "c7159b49b4ec9828": 1792413118.166048,
   "c73447b03cdb9531": 1792249978.196443,
   "c7362842a0bc2773": 1791750790.8098419,
   "c753fa3469af4b5a": 1792129235.1745334,
@@ -3763,6 +3892,7 @@
   "d0b0527bd501bf30": 1791929870.7550807,
   "d10e2fabf12fc77d": 1792164654.2928543,
   "d13956cf2bc3dd2e": 1792335697.3942869,
+  "d185964b4ce265ff": 1792413153.9624717,
   "d19b9b3bc7362362": 1792369883.9610884,
   "d2071794f8ea5158": 1791931747.9403143,
   "d221637015d4b054": 1792010084.2359407,
@@ -3810,6 +3940,7 @@
   "d973bad9ec5075d9": 1791969290.9934475,
   "d986697f677381b3": 1791879498.6319728,
   "d9a330be03ad95ec": 1792197850.3807788,
+  "d9aa5779874ef777": 1792413121.969529,
   "d9f44c45d290115b": 1792246857.3589647,
   "da0af8c10cc10c09": 1792099075.9052477,
   "da200d4eb98f67c4": 1792188168.0155032,
@@ -5174,35 +5305,35 @@
   },
   "sources": {
    "/Film": 8,
-   "Blabbermouth": 2,
+   "Blabbermouth": 3,
    "Bloomberg": 4,
    "DOU": 1,
    "DOU Gamedev": 1,
    "Deadline": 7,
-   "Eurogamer": 4,
+   "Eurogamer": 5,
    "GameSpot": 1,
    "GamesIndustry.biz": 5,
    "GitHub Trending": 3,
    "IGN": 2,
-   "ITC.ua": 8,
+   "ITC.ua": 9,
    "IndieWire": 1,
    "Insider Gaming": 11,
-   "Kerrang!": 4,
+   "Kerrang!": 5,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 3,
    "Mezha": 2,
-   "PC Gamer": 5,
+   "PC Gamer": 6,
    "PlayUA": 4,
    "Polygon": 9,
    "Product Hunt": 5,
    "Rock Paper Shotgun": 2,
    "The Decoder": 2,
-   "VGC": 2
+   "VGC": 3
   },
   "translators": {
    "DeepL": 2,
    "gemini-flash-latest": 27,
-   "gemini-flash-lite-latest": 55
+   "gemini-flash-lite-latest": 60
   },
   "week": "2026-W43"
  },
@@ -5512,6 +5643,11 @@
    "",
    1792335702.961878
   ],
+  "q:2": [
+   0,
+   "",
+   1792413140.2663906
+  ],
   "q:2 remastered": [
    0,
    "",
@@ -5601,6 +5737,16 @@
    0,
    "",
    1792337497.3613636
+  ],
+  "q:3 switch": [
+   0,
+   "",
+   1792413139.687113
+  ],
+  "q:3 switch 2": [
+   0,
+   "",
+   1792413139.1133423
   ],
   "q:31": [
    0,
@@ -5756,6 +5902,11 @@
    0,
    "",
    1792350083.2523732
+  ],
+  "q:5070": [
+   0,
+   "",
+   1792413132.3179722
   ],
   "q:5090": [
    0,
@@ -6647,6 +6798,11 @@
    "",
    1792264334.5262282
   ],
+  "q:boss rush": [
+   1113710,
+   "Boss Rush",
+   1792413147.0418508
+  ],
   "q:boy": [
    0,
    "",
@@ -7311,6 +7467,21 @@
    0,
    "",
    1792296004.9204066
+  ],
+  "q:demon": [
+   0,
+   "",
+   1792413130.0371037
+  ],
+  "q:demon's souls": [
+   0,
+   "",
+   1792413129.4475734
+  ],
+  "q:demon's souls remake": [
+   0,
+   "",
+   1792413128.8903837
   ],
   "q:dendi": [
    0,
@@ -8071,6 +8242,11 @@
    0,
    "",
    1792405909.870975
+  ],
+  "q:game plus": [
+   0,
+   "",
+   1792413145.8603232
   ],
   "q:game's blood": [
    0,
@@ -9217,6 +9393,16 @@
    "",
    1792400603.104767
   ],
+  "q:new game": [
+   0,
+   "",
+   1792413145.2850192
+  ],
+  "q:new game plus": [
+   0,
+   "",
+   1792413144.674327
+  ],
   "q:new steam": [
    0,
    "",
@@ -9527,6 +9713,11 @@
    "",
    1792352534.2091966
   ],
+  "q:plus": [
+   0,
+   "",
+   1792413146.4584503
+  ],
   "q:pok": [
    4513280,
    "POK",
@@ -9642,6 +9833,26 @@
    "",
    1792377271.9727607
   ],
+  "q:ps5 exclusive": [
+   0,
+   "",
+   1792413128.3250196
+  ],
+  "q:ps5 exclusive demon": [
+   0,
+   "",
+   1792413127.7576184
+  ],
+  "q:ps5 exclusive demon's souls": [
+   0,
+   "",
+   1792413127.1962414
+  ],
+  "q:ps5 exclusive demon's souls remake": [
+   0,
+   "",
+   1792413126.6284332
+  ],
   "q:ps6": [
    0,
    "",
@@ -9751,6 +9962,11 @@
    0,
    "",
    1792411290.1212132
+  ],
+  "q:remake": [
+   0,
+   "",
+   1792413131.187254
   ],
   "q:remake sounds meaningfully": [
    0,
@@ -9972,6 +10188,11 @@
    "",
    1792328505.025248
   ],
+  "q:rtx 5070": [
+   0,
+   "",
+   1792413131.7560773
+  ],
   "q:rtx 5090": [
    0,
    "",
@@ -10156,6 +10377,11 @@
    0,
    "",
    1792317845.9322977
+  ],
+  "q:souls remake": [
+   0,
+   "",
+   1792413130.6023574
   ],
   "q:spielberg's scariest": [
    0,
@@ -10757,6 +10983,11 @@
    "",
    1792400588.7252097
   ],
+  "q:visual clarity": [
+   0,
+   "",
+   1792413136.8334892
+  ],
   "q:vitality": [
    5219420,
    "Vitality",
@@ -11011,6 +11242,21 @@
    0,
    "",
    1792244029.510891
+  ],
+  "q:witcher 3": [
+   0,
+   "",
+   1792413138.5454247
+  ],
+  "q:witcher 3 switch": [
+   0,
+   "",
+   1792413137.9651318
+  ],
+  "q:witcher 3 switch 2": [
+   0,
+   "",
+   1792413137.4001591
   ],
   "q:wizards": [
    0,
@@ -12523,6 +12769,30 @@
   [
    1792411307.9702234,
    "Документальний фільм \"Маск\" втратив акаунт у TikTok: що сталося"
+  ],
+  [
+   1792413121.9695308,
+   "JOHN 5's Advice To Young Musicians: 'Play What You Love'"
+  ],
+  [
+   1792413124.35675,
+   "Microsoft стверджує, що Windows 11 стала до 20% швидшою: ось що змінилося"
+  ],
+  [
+   1792413134.7674658,
+   "PS5-exclusive Demon's Souls Remake not only runs on PC now, it's running at twice the fps cap on an RTX 5070 with frame gen"
+  ],
+  [
+   1792413142.6041408,
+   "Witcher 3 Switch 2 patch rolls out today with a number of changes, including alterations to resolution and \"visual clarity\""
+  ],
+  [
+   1792413149.4383872,
+   "Saros’s free New Game Plus update is out now, including a Boss Rush mode"
+  ],
+  [
+   1792413153.9624734,
+   "“I want you to watch”: Harpy announces debut headline tour"
   ]
  ],
  "titles_uk": [
@@ -13405,6 +13675,30 @@
   [
    1792411307.9702241,
    "Документальний фільм \"Маск\" втратив акаунт у TikTok: що сталося"
+  ],
+  [
+   1792413121.9695315,
+   "Гітарист Джон 5 дав пораду молодим музикантам"
+  ],
+  [
+   1792413124.3567512,
+   "Microsoft стверджує, що Windows 11 стала до 20% швидшою: ось що змінилося"
+  ],
+  [
+   1792413134.7674665,
+   "Демонс Соулс ремейк запустили на ПК через емулятор зі швидкістю до 120 fps"
+  ],
+  [
+   1792413142.6041415,
+   "Для The Witcher 3 виходить патч з покращеннями візуалу та розширення"
+  ],
+  [
+   1792413149.4383876,
+   "Для Saros вийшов безплатний патч New Game Plus із режимом Boss Rush"
+  ],
+  [
+   1792413153.9624743,
+   "Гурт Harpy анонсував свій перший хедлайнерський тур"
   ]
  ],
  "ukrainian": {
@@ -15608,7 +15902,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792409542.967455,
+  "last_check": 1792413163.659735,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
