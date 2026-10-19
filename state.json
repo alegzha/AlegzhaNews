@@ -1,8 +1,15 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1792443680.3209612
+  }
+ },
  "daily_digest_date": "2026-10-19",
  "freebies": {
-  "last_check": 1792436523.5927305,
+  "last_check": 1792443936.2478971,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -11,13 +18,14 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-19 20:39 UTC",
-  "gemini_error": "",
+  "at": "2026-10-19 21:05 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 4
+   "gemini-flash-lite-latest": 6
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
@@ -3586,7 +3594,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Морган Роуз розповів, як ALTER BRIDGE врятували SEVENDUST від завершення кар&#x27;єри</b>\n\nБарабанщик SEVENDUST Морган Роуз розповів, що гурт розглядав можливість завершення кар&#x27;єри через вигорання ринку в США. Спільний тур з ALTER BRIDGE у Європі дав колективу новий поштовх, переконавши продовжити виступи та вирушити в європейський тур наприкінці 2026 року.\n\n🔗 <a href=\"https://blabbermouth.net/news/morgan-rose-reflects-on-sevendusts-retirement-talk-alter-bridge-saved-us-by-allowing-us-to-support-them-on-european-tour\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/morgan-rose-reflects-on-sevendusts-retirement-talk-alter-bridge-saved-us-by-allowing-us-to-support-them-on-european-tour",
     "orig": "MORGAN ROSE Reflects On SEVENDUST's Retirement Talk: 'ALTER BRIDGE Saved Us By Allowing Us' To Support Them On European Tour"
@@ -3600,7 +3607,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Тімо Тьяджанто зніме екшн-комедію The Burnout для Miramax</b>\n\nРежисер Тімо Тьяджанто очолить роботу над екшн-комедією The Burnout для студії Miramax. Стрічка розповідає про колишнього агента ЦРУ на Ібіці, якого знову втягують у справи. Проєкт описують як поєднання The Big Lebowski та Jason Bourne.\n\n🔗 <a href=\"https://deadline.com/2026/10/timo-tjahjanto-to-direct-the-burnout-miramax-1237167754/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/timo-tjahjanto-to-direct-the-burnout-miramax-1237167754/",
     "orig": "Timo Tjahjanto To Direct Action Comedy ‘The Burnout’ For Miramax"
@@ -3614,7 +3620,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b>Онлайн <a href=\"https://store.steampowered.com/app/1808500/\">Arc Raiders</a> зріс до шестимісячного максимуму після виходу оновлення Frozen Trails</b>\n\nПісля релізу масштабного оновлення Frozen Trails версії 2.0 та безплатних вихідних кількість гравців Arc Raiders досягла 1,7 мільйона на день. Розробники з Embark Studios також запропонували 50-відсоткову знижку, завдяки чому гра продалася ще тиражем у 150 000 копій.\n\n🔗 <a href=\"https://www.eurogamer.net/arc-raiders-frozen-trails-player-numbers-six-month-high\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/arc-raiders-frozen-trails-player-numbers-six-month-high",
     "orig": "Arc Raiders player numbers hit a six-month high following the release of the extraction shooter's huge Frozen Trails update"
@@ -3628,7 +3633,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>Чи варто наступній грі серії F1 відтворити проблеми із ШІ в реальному спорті</b>\n\n🔗 <a href=\"https://www.ign.com/articles/formula-one-has-a-big-ai-problem-should-the-next-f1-game-recreate-it\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/formula-one-has-a-big-ai-problem-should-the-next-f1-game-recreate-it",
     "orig": "Formula One Has a Big AI Problem. Should the Next F1 Game Recreate It?"
@@ -3642,7 +3646,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Foo Fighters і Weezer виступлять на фестивалі KROQ Almost Acoustic Christmas 2026</b>\n\n🔗 <a href=\"https://www.theprp.com/2026/10/19/news/foo-fighters-weezer-sublime-etc-booked-for-2026-kroq-almost-acoustic-christmas/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/19/news/foo-fighters-weezer-sublime-etc-booked-for-2026-kroq-almost-acoustic-christmas/",
     "orig": "Foo Fighters, Weezer, Sublime, Etc. Booked For 2026 ‘KROQ Almost Acoustic Christmas’"
@@ -4441,6 +4444,76 @@
     "link": "https://variety.com/2026/tv/news/fox-corp-adam-ciongoli-exiting-nicholas-trutanich-general-counsel-1236916844/",
     "orig": "Fox Corp. Top Lawyer Adam Ciongoli Is Exiting, Nick Trutanich to Take Over as General Counsel"
    }
+  ],
+  [
+   1792443774.7170353,
+   1273,
+   "🤘",
+   "Що Slipknot сказали Елою Касагранді про гру в стилі Джордісона",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Що Slipknot сказали Елою Касагранді про гру в стилі Джордісона</b>\n\nPHOTOS @CLICKTROTTA, Jo Hale, Getty Images\n\n🔗 <a href=\"https://loudwire.com/slipknot-eloy-casagrande-playing-like-joey-jordison/\">Loudwire</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://loudwire.com/slipknot-eloy-casagrande-playing-like-joey-jordison/",
+    "orig": "What Slipknot Told Eloy Casagrande About Playing Like Jordison"
+   }
+  ],
+  [
+   1792443846.8587203,
+   1274,
+   "🤘",
+   "Гурт Call Me Amour анонсував новий однойменний міні-альбом",
+   "Distorted Sound",
+   {
+    "also": [],
+    "caption": "🤘 <b>Гурт Call Me Amour анонсував новий однойменний міні-альбом</b>\n\nГурт CALL ME AMOUR анонсував випуск нового міні-альбому! Британський альтернативний рок-гурт оголосив про випуск однойменного міні-альбому, який\n\n🔗 <a href=\"https://distortedsoundmag.com/call-me-amour-announce-new-self-titled-ep-oct-2026/\">Distorted Sound</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://distortedsoundmag.com/call-me-amour-announce-new-self-titled-ep-oct-2026/",
+    "orig": "Call Me Amour announce new self-titled EP"
+   }
+  ],
+  [
+   1792443859.4103003,
+   1275,
+   "🎮",
+   "Топменеджер Xbox видалив профіль у X після скандалу з ШІ",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Топменеджер Xbox видалив профіль у X після скандалу з ШІ</b>\n\nБрендон Стірап заявив, що «готовий прийняти удар» за слова про те, що розробники без ШІ не повинні займатися бізнесом, після чого пішов із соцмереж\n\n🔗 <a href=\"https://www.pcgamer.com/software/ai/xbox-biz-guy-deletes-his-x-account-less-than-24-hours-after-saying-game-devs-who-dont-embrace-ai-should-not-be-in-the-business-of-being-a-business/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/software/ai/xbox-biz-guy-deletes-his-x-account-less-than-24-hours-after-saying-game-devs-who-dont-embrace-ai-should-not-be-in-the-business-of-being-a-business/",
+    "orig": "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business'"
+   }
+  ],
+  [
+   1792443893.815101,
+   1276,
+   "🤘",
+   "Ocean Grove, UnityTX та Diamond Construct анонсували спільний тур Європою та Великою Британією на 2027 рік",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Ocean Grove, UnityTX та Diamond Construct анонсували спільний тур Європою та Великою Британією на 2027 рік</b>\n\nГастролі розпочнуться у лютому.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/19/news/ocean-grove-unitytx-diamond-construct-announce-2027-european-uk-tour/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/19/news/ocean-grove-unitytx-diamond-construct-announce-2027-european-uk-tour/",
+    "orig": "Ocean Grove, UnityTX & Diamond Construct Announce 2027 European/UK Tour"
+   }
+  ],
+  [
+   1792443934.598462,
+   1277,
+   "🤘",
+   "YOB, Kylesa, Windhand та інші гурти підтвердили участь у фестивалі «Desertfest London» 2027 року",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>YOB, Kylesa, Windhand та інші гурти підтвердили участь у фестивалі «Desertfest London» 2027 року</b>\n\nФестиваль оголосив перші 18 гуртів нового складу учасників\n\n🔗 <a href=\"https://www.theprp.com/2026/10/19/news/yob-kylesa-windhand-etc-announced-for-2027-desertfest-london/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/19/news/yob-kylesa-windhand-etc-announced-for-2027-desertfest-london/",
+    "orig": "YOB, Kylesa, Windhand, Etc. Announced For 2027 ‘Desertfest London’"
+   }
   ]
  ],
  "posted_by_source": {
@@ -4560,8 +4633,6 @@
    1792418627.8255618
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1792350085.4470656,
-   1792350089.0118542,
    1792364485.3837664,
    1792380689.0307236,
    1792405917.6922836,
@@ -4570,7 +4641,8 @@
    1792413134.7675116,
    1792423941.3579304,
    1792427605.8142228,
-   1792431131.71009
+   1792431131.71009,
+   1792443859.4106007
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1792356801.4659715,
@@ -4725,7 +4797,8 @@
   "music|Distorted Sound|https://distortedsoundmag.com/feed/": [
    1792440114.079896,
    1792442034.9621768,
-   1792442328.554751
+   1792442328.554751,
+   1792443846.858996
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
    1792398880.8021507,
@@ -4754,7 +4827,8 @@
    1792420313.5076518,
    1792422235.8979504,
    1792423975.7568862,
-   1792442068.1163588
+   1792442068.1163588,
+   1792443774.717346
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1792360897.6825812,
@@ -4791,7 +4865,9 @@
    1792436507.2779095,
    1792438371.845793,
    1792438374.8594418,
-   1792440124.72618
+   1792440124.72618,
+   1792443893.81537,
+   1792443934.5986688
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1792352557.5538568
@@ -5297,6 +5373,7 @@
   "4d6aedb5cf0333e1": 1791920848.0197632,
   "4de5ae8cab3acc33": 1792197803.449663,
   "4e1ed149f01e16af": 1791743004.6090071,
+  "4e7d490c70599263": 1792443686.3858702,
   "4e8ec2707f5ad491": 1792021722.4872184,
   "4e8f9797a007d835": 1792089242.1237745,
   "4ea02a2906d9c497": 1792422121.037219,
@@ -5557,6 +5634,7 @@
   "7a77af3e4fc0d9fe": 1792440092.6103926,
   "7a81f4b43e999bdd": 1792111147.2615058,
   "7af23a4a7268cf9c": 1792128979.6054146,
+  "7af278d365847cee": 1792443859.4105575,
   "7af558be2ca670d8": 1792442056.5919788,
   "7b1f074e627e521d": 1792436504.1853266,
   "7b414f4be74ab61e": 1792214788.713499,
@@ -5647,6 +5725,7 @@
   "88a5ffec119dab97": 1792009836.861672,
   "88eaea8031f76812": 1792164048.640267,
   "88f0e20c248da09a": 1792302844.364652,
+  "89599497293a46a2": 1792443686.3810863,
   "89c8d5550556eb42": 1792111138.512026,
   "89f5d86d57cc5ad4": 1792346493.0826466,
   "89fd27044dfb9f16": 1792145460.4737692,
@@ -5807,6 +5886,7 @@
   "a65004d0bec92e2c": 1792197854.651769,
   "a66c343060cea209": 1791795378.5654407,
   "a7142fc187f27bb8": 1792111169.4921894,
+  "a725db66f05f550e": 1792443893.8153286,
   "a77de70d8d9838d3": 1791638213.533524,
   "a791ca7315735e90": 1791639240.4878817,
   "a7b84aad4e6bf325": 1792369873.4625132,
@@ -5835,6 +5915,7 @@
   "ac39c84a341d99f8": 1791654239.7815897,
   "ac3dd66ba9328a00": 1792249947.5564578,
   "ac62548e36d805b7": 1792431205.8388338,
+  "acdc6d76b5b6f592": 1792443846.8589532,
   "ad237b18af606aac": 1791837735.1525705,
   "ad3746b85acd7025": 1791879509.699908,
   "ad66c1bc22cdb65b": 1792214788.7202675,
@@ -5919,6 +6000,7 @@
   "bd122a0b1ca4302c": 1792360907.317098,
   "bd28dc198e354d61": 1791643484.7724442,
   "bd449ac4d5082e66": 1792009875.9788818,
+  "bd5c4e503fadffb9": 1792443934.598627,
   "bd6bf7ffc701c1f1": 1791929812.121329,
   "bdbe798321f11ef7": 1792347110.955539,
   "bdcdc21f8a4c9dbb": 1791702304.8026342,
@@ -5967,6 +6049,7 @@
   "c53267ad2de766ba": 1791968061.1901526,
   "c58fe16489c20656": 1792111189.2592266,
   "c5b3c83543504b9a": 1791931703.0332391,
+  "c5bd70d0ce545789": 1792443774.7172968,
   "c5c4f18a82de5a84": 1792249901.503531,
   "c622628fd6e736ca": 1791853953.2827067,
   "c65d2f4d1162f7de": 1791668789.9831371,
@@ -7490,7 +7573,7 @@
    "DOU Gamedev": 1,
    "Deadline": 15,
    "Decibel": 3,
-   "Distorted Sound": 3,
+   "Distorted Sound": 4,
    "Eurogamer": 10,
    "GameSpot": 10,
    "GamesIndustry.biz": 5,
@@ -7501,11 +7584,11 @@
    "Insider Gaming": 22,
    "Kerrang!": 6,
    "Lambgoat": 9,
-   "Loudwire": 8,
+   "Loudwire": 9,
    "Metal Hammer (Louder)": 6,
    "Metal Injection": 1,
    "Mezha": 12,
-   "PC Gamer": 9,
+   "PC Gamer": 10,
    "Pitchfork": 2,
    "PlayUA": 6,
    "Polygon": 9,
@@ -7514,14 +7597,14 @@
    "Rock Paper Shotgun": 8,
    "Stereogum": 3,
    "The Decoder": 5,
-   "ThePRP": 8,
+   "ThePRP": 10,
    "VGC": 5,
    "Variety": 6
   },
   "translators": {
-   "DeepL": 2,
+   "DeepL": 5,
    "gemini-flash-latest": 31,
-   "gemini-flash-lite-latest": 200
+   "gemini-flash-lite-latest": 206
   },
   "week": "2026-W43"
  },
@@ -7971,10 +8054,10 @@
    "",
    1792378900.3831565
   ],
-  "q:23": [
+  "q:24": [
    0,
    "",
-   1792270317.024466
+   1792443851.8460412
   ],
   "q:2401'": [
    0,
@@ -8160,16 +8243,6 @@
    0,
    "",
    1792423920.269424
-  ],
-  "q:5 years": [
-   0,
-   "",
-   1792270338.2921803
-  ],
-  "q:5 years later": [
-   0,
-   "",
-   1792270337.767484
   ],
   "q:50": [
    0,
@@ -8635,11 +8708,6 @@
    1808500,
    "ARC Raiders",
    1791742986.4642007
-  ],
-  "q:arm": [
-   0,
-   "",
-   1792270328.5718164
   ],
   "q:art of rally": [
    550320,
@@ -9251,21 +9319,6 @@
    "Castlevania: Belmont's Curse",
    1791879502.8809075
   ],
-  "q:cats": [
-   0,
-   "",
-   1792270314.511492
-  ],
-  "q:cats clans": [
-   0,
-   "",
-   1792270314.0002437
-  ],
-  "q:cats clans of the forest": [
-   0,
-   "",
-   1792270313.4997358
-  ],
   "q:cbs": [
    0,
    "",
@@ -9420,16 +9473,6 @@
    0,
    "",
    1792442078.0043359
-  ],
-  "q:clans of the forest": [
-   0,
-   "",
-   1792270315.5168245
-  ],
-  "q:clans of the forest 23": [
-   0,
-   "",
-   1792270315.022453
   ],
   "q:clive barker": [
    0,
@@ -10421,16 +10464,6 @@
    "",
    1792356786.7455695
   ],
-  "q:forest": [
-   0,
-   "",
-   1792270316.5165915
-  ],
-  "q:forest 23": [
-   0,
-   "",
-   1792270316.0069246
-  ],
   "q:forever": [
    0,
    "",
@@ -10760,31 +10793,6 @@
    0,
    "",
    1792423961.5435805
-  ],
-  "q:game's blood": [
-   0,
-   "",
-   1792270343.4387462
-  ],
-  "q:game's blood sacrifice": [
-   0,
-   "",
-   1792270342.9107184
-  ],
-  "q:game's blood sacrifice mechanic": [
-   0,
-   "",
-   1792270342.4071465
-  ],
-  "q:game's blood sacrifice mechanic still": [
-   0,
-   "",
-   1792270341.9194458
-  ],
-  "q:game's blood sacrifice mechanic still haunts": [
-   0,
-   "",
-   1792270341.3989954
   ],
   "q:games ceo": [
    0,
@@ -12441,21 +12449,6 @@
    "",
    1792416691.618475
   ],
-  "q:ocarina of time remake": [
-   0,
-   "",
-   1792270290.7521522
-  ],
-  "q:ocarina of time remake sounds": [
-   0,
-   "",
-   1792270290.2445674
-  ],
-  "q:ocarina of time remake sounds meaningfully": [
-   0,
-   "",
-   1792270289.6764498
-  ],
   "q:october": [
    5026510,
    "October",
@@ -12495,31 +12488,6 @@
    0,
    "",
    1792432888.5453603
-  ],
-  "q:one game": [
-   0,
-   "",
-   1792270340.8470979
-  ],
-  "q:one game's blood": [
-   0,
-   "",
-   1792270340.3350792
-  ],
-  "q:one game's blood sacrifice": [
-   0,
-   "",
-   1792270339.8144717
-  ],
-  "q:one game's blood sacrifice mechanic": [
-   0,
-   "",
-   1792270339.3020449
-  ],
-  "q:one game's blood sacrifice mechanic still": [
-   0,
-   "",
-   1792270338.8027916
   ],
   "q:one has": [
    0,
@@ -12720,11 +12688,6 @@
    0,
    "",
    1792362699.2735577
-  ],
-  "q:peter": [
-   0,
-   "",
-   1792270352.3040922
   ],
   "q:planet zoo 2": [
    3219030,
@@ -13045,21 +13008,6 @@
    0,
    "",
    1792413131.187254
-  ],
-  "q:remake sounds meaningfully": [
-   0,
-   "",
-   1792270295.2145731
-  ],
-  "q:remake sounds meaningfully better": [
-   0,
-   "",
-   1792270294.6907532
-  ],
-  "q:remake sounds meaningfully better than": [
-   0,
-   "",
-   1792270294.106374
   ],
   "q:remake studio wants to make physical": [
    0,
@@ -14096,31 +14044,6 @@
    "",
    1792296008.9952383
   ],
-  "q:time remake": [
-   0,
-   "",
-   1792270293.608501
-  ],
-  "q:time remake sounds": [
-   0,
-   "",
-   1792270293.0450702
-  ],
-  "q:time remake sounds meaningfully": [
-   0,
-   "",
-   1792270292.5255008
-  ],
-  "q:time remake sounds meaningfully better": [
-   0,
-   "",
-   1792270291.975005
-  ],
-  "q:time remake sounds meaningfully better than": [
-   0,
-   "",
-   1792270291.424875
-  ],
   "q:times": [
    0,
    "",
@@ -14415,16 +14338,6 @@
    3714800,
    "Warlock: Dungeons & Dragons",
    1791931755.0434942
-  ],
-  "q:warrior cats": [
-   0,
-   "",
-   1792270312.9988658
-  ],
-  "q:warrior cats clans": [
-   0,
-   "",
-   1792270312.5059705
   ],
   "q:wars": [
    0,
@@ -14791,11 +14704,6 @@
    "",
    1792400589.709898
   ],
-  "q:zelda ocarina of time remake": [
-   0,
-   "",
-   1792270289.175904
-  ],
   "q:ziegler": [
    0,
    "",
@@ -14814,7 +14722,6 @@
    "tiktok",
    "tp-link",
    "бізнес",
-   "венздей",
    "здоров’я",
    "квентін тарантіно",
    "кіно",
@@ -14830,62 +14737,16 @@
    "статті",
    "стримінгові сервіси",
    "стрімінгові платформи",
+   "супутниковий зв'язок",
    "сша",
+   "телеком",
    "технології",
    "україна",
-   "штучний інтелект",
+   "європейський союз",
    "ілон маск"
   ]
  },
  "titles": [
-  [
-   1792270296.4148493,
-   "The Zelda: Ocarina of Time Remake Sounds Meaningfully Better Than the Original"
-  ],
-  [
-   1792270300.595235,
-   "Stick To Your Guns/Eighteen Visions Members Launch New Straight Edge Group ALIVE"
-  ],
-  [
-   1792270304.7523189,
-   "EVAN SEINFELD On BIOHAZARD's Classic-Lineup Reunion: 'It's Incredible That We're All Alive'"
-  ],
-  [
-   1792270309.00694,
-   "Hear Eminem Guest On Kid Rock’s New Christian Track “Heal My Faith”"
-  ],
-  [
-   1792270318.119701,
-   "Warrior Cats: Clans of the Forest вийде 23 жовтня на ПК та консолях"
-  ],
-  [
-   1792270324.9870515,
-   "‘Dancing With The Stars’ Suspends Val Chmerkovskiy For TikTok Referencing Will Smith Oscar Moment; Dancer Responds, “Instinct Was To Defend My Wife”"
-  ],
-  [
-   1792270329.9737709,
-   "Qualcomm wins $2 legal decision against fellow tech giant Arm, and that's not a typo"
-  ],
-  [
-   1792270334.221182,
-   "David Carradine Guest-Starred In A Short-Lived Lynda Carter Crime Series"
-  ],
-  [
-   1792270344.6305401,
-   "5 Years Later, One Game’s Blood Sacrifice Mechanic Still Haunts Me"
-  ],
-  [
-   1792270348.786629,
-   "Whalefall Continues One Of 2026's Most Surprising (And Dark) Movie Trends"
-  ],
-  [
-   1792270353.7680018,
-   "Black & White 3 doesn't sound like it's ever going to happen, but good ole overpromising Peter Molyneux may have let slip about a remaster of the original"
-  ],
-  [
-   1792270357.9727101,
-   "MadsLorentzen/ai-job-search"
-  ],
   [
    1792273177.5789502,
    "Discussion time: Do you think zone chats in MMOs are forces for good, or evil?"
@@ -16505,6 +16366,26 @@
   [
    1792442346.0926635,
    "Fox Corp. Top Lawyer Adam Ciongoli Is Exiting, Nick Trutanich to Take Over as General Counsel"
+  ],
+  [
+   1792443774.7172987,
+   "What Slipknot Told Eloy Casagrande About Playing Like Jordison"
+  ],
+  [
+   1792443846.8589542,
+   "Call Me Amour announce new self-titled EP"
+  ],
+  [
+   1792443859.4105587,
+   "Xbox biz guy deletes his X account less than 24 hours after saying game devs who don't embrace AI 'should not be in the business of being a business'"
+  ],
+  [
+   1792443893.8153296,
+   "Ocean Grove, UnityTX & Diamond Construct Announce 2027 European/UK Tour"
+  ],
+  [
+   1792443934.598628,
+   "YOB, Kylesa, Windhand, Etc. Announced For 2027 ‘Desertfest London’"
   ]
  ],
  "titles_uk": [
@@ -17979,6 +17860,26 @@
   [
    1792442346.0926642,
    "Адам Чонголі залишає посаду головного юриста Fox Corp"
+  ],
+  [
+   1792443774.7173,
+   "Що Slipknot сказали Елою Касагранді про гру в стилі Джордісона"
+  ],
+  [
+   1792443846.8589556,
+   "Гурт Call Me Amour анонсував новий однойменний міні-альбом"
+  ],
+  [
+   1792443859.4105594,
+   "Топменеджер Xbox видалив профіль у X після скандалу з ШІ"
+  ],
+  [
+   1792443893.8153305,
+   "Ocean Grove, UnityTX та Diamond Construct анонсували спільний тур Європою та Великою Британією на 2027 рік"
+  ],
+  [
+   1792443934.5986292,
+   "YOB, Kylesa, Windhand та інші гурти підтвердили участь у фестивалі «Desertfest London» 2027 року"
   ]
  ],
  "ukrainian": {
