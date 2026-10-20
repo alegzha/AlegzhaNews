@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:software|AIN.ua|https://ain.ua/feed/": {
-   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «AIN.ua» не працює",
-   "sent": 0,
-   "since": 1792495901.8984482
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-19",
  "freebies": {
   "last_check": 1792496097.9622056,
@@ -18,12 +11,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-20 11:34 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-10-20 12:02 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 4
+   "gemini-flash-lite-latest": 6
   },
   "used": [
    "Gemini"
@@ -5070,7 +5062,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "💾 <b>Google прив’язує номер до акаунтів, які ви хотіли тримати окремо: як заборонити</b>\n\nGoogle автоматично прив’язує номери телефонів на Android до кожного облікового запису Google, у якому виконано вхід на тому самому пристрої, навіть якщо йдеться про додаткові робочі облікові записи або альтернативні профілі. Ця функція має забезпечувати безперебійну роботу сервісів Google, але її ввімкнення за замовчуванням викликає питання щодо того, наскільки користувачі насправді контролюють свою особисту інформацію.\n\n🔗 <a href=\"https://itc.ua/ua/novini/google-pryv-yazuye-nomer-do-akauntiv-yaki-vy-hotily-trymaty-okremo-yak-zaboronyty/\">ITC.ua</a>\n\n#софт",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/google-pryv-yazuye-nomer-do-akauntiv-yaki-vy-hotily-trymaty-okremo-yak-zaboronyty/",
     "orig": "Google прив’язує номер до акаунтів, які ви хотіли тримати окремо: як заборонити"
@@ -5084,7 +5075,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Стюарт Коупленд, Адріан Белью та Марк Кінг створили супергурт Gizmodrome</b>\n\nМузиканти об&#x27;єдналися у прог-панк супергурт Gizmodrome після телефонного дзвінка у 2017 році. До складу колективу також увійшов італійський клавішник Вітторіо Косма. Учасники записали еклектичний дебютний альбом у студії в Мілані, поєднавши прогресивну рок-музику, панк, джаз і фанк.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/interviews/gizmodrome-stewart-copeland-mark-king-adrian-belew\">Metal Hammer (Louder)</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/interviews/gizmodrome-stewart-copeland-mark-king-adrian-belew",
     "orig": "When Stewart Copeland, Adrian Belew and Mark King created prog punk group Gizmodrome"
@@ -5098,7 +5088,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🤖 <b>Старий код більше не проблема. Нові моделі OpenAI підкорили COBOL, Fortran і Visual Basic</b>\n\nOpenAI представила нові версії моделей, які значно краще пишуть і переносять код мовами програмування з обмеженою базою для навчання: COBOL, Fortran, Visual Basic та OCaml.\n\n🔗 <a href=\"https://highload.tech/uk/staryj-kod-bilshe-ne-problema-novi-modeli-openai-pidkoryly-cobol-fortran-i-visual-basic/#new_tab\">ITC.ua</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://highload.tech/uk/staryj-kod-bilshe-ne-problema-novi-modeli-openai-pidkoryly-cobol-fortran-i-visual-basic/#new_tab",
     "orig": "Старий код більше не проблема. Нові моделі OpenAI підкорили COBOL, Fortran і Visual Basic"
@@ -5112,7 +5101,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Headroom стискає контекст для ШІ-агентів без втрати якості</b>\n\nГоловний інструмент Headroom стискає все, що читає ШІ-агент, перед надсиланням до LLM, суттєво економлячи токени без втрати точності. Стиснення виконується локально на вашому пристрої, а бібліотека працює з моделями Anthropic та OpenAI через проксі.\n\n🔗 <a href=\"https://github.com/headroomlabs-ai/headroom\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/headroomlabs-ai/headroom",
     "orig": "headroomlabs-ai/headroom"
@@ -5126,7 +5114,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>Sea Ltd запускає хмарний бізнес та планує IPO фінансового підрозділу</b>\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-10-20/sea-starts-enterprise-cloud-foray-while-eyeing-a-fintech-arm-ipo\">Bloomberg</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-10-20/sea-starts-enterprise-cloud-foray-while-eyeing-a-fintech-arm-ipo",
     "orig": "Sea Starts Enterprise Cloud Foray While Eyeing a Fintech Arm IPO"
@@ -5140,7 +5127,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>Apple придбала ШІ-технології стартапу Samplab і найняла частину його команди</b>\n\nApple придбала частину активів швейцарського стартапу Samplab, який розробляв ШІ-інструменти для редагування музики, та найняла частину його команди. Технології стартапу можуть розширити можливості Logic Pro і GarageBand.\n\n🔗 <a href=\"https://mezha.ua/news/apple-samplab-logic-pro-316332/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/apple-samplab-logic-pro-316332/",
     "orig": "Apple придбала ШІ-технології стартапу Samplab і найняла частину його команди"
@@ -5154,7 +5140,6 @@
    "PlayUA",
    {
     "also": [],
-    "caption": "🎮 <b>CookieRun: Kingdom анонсувала колаборацію з The Amazing Digital Circus</b>\n\n21 жовтня в CookieRun: Kingdom розпочнеться колаборація з анімаційним серіалом The Amazing Digital Circus («Дивовижний цифровий цирк»). Компанія Devsisters Corporation підтвердила появу двох нових ігрових персонажів — Pomni Cookie та Jax Cookie. Також у межах події будуть доступні тематичні образи та інші герої мультсеріалу. Анонс супроводжувався трейлером, який CookieRun: Kingdom представила спільно зі студією GLITCH, […]\n\n🔗 <a href=\"https://playua.net/cookierun-kingdom-anonsuvala-kolaboracziyu-z-the-amazing-digital-circus/\">PlayUA</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://playua.net/cookierun-kingdom-anonsuvala-kolaboracziyu-z-the-amazing-digital-circus/",
     "orig": "CookieRun: Kingdom анонсувала колаборацію з The Amazing Digital Circus"
@@ -5168,7 +5153,6 @@
    "PlayUA",
    {
     "also": [],
-    "caption": "🎮 <b>Direland — нова гра в стилі Minecraft із руйнуванням світу та битвами з босами</b>\n\nНезалежний розробник із Токіо під псевдонімом Kaijiuuuuu працює над Direland — грою на виживання з відкритим світом та елементами пісочниці. Direland поєднуватиме будівництво, дослідження різних біомів і битви з величезними монстрами, здатними змінювати навколишній ландшафт. Орієнтовний реліз запланований на 2027 рік. Новий геймплейний трейлер привернув увагу шанувальників Minecraft і Terraria. Завдяки ізометричній перспективі та системі […]\n\n🔗 <a href=\"https://playua.net/direland-nova-gra-v-styli-minecraft-iz-rujnuvannyam-svitu-ta-bytvamy-z-bosamy/\">PlayUA</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://playua.net/direland-nova-gra-v-styli-minecraft-iz-rujnuvannyam-svitu-ta-bytvamy-z-bosamy/",
     "orig": "Direland — нова гра в стилі Minecraft із руйнуванням світу та битвами з босами"
@@ -5182,7 +5166,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Marble випустила відкриту таксономію шкільної освіти</b>\n\nКомпанія Marble випустила відкриту структуровану таксономію початкової освіти, що містить 1591 мікротему, пов&#x27;язану через граф передумов. Набір даних узгоджено з національними стандартами, він охоплює вісім предметів та доступний у форматі JSON.\n\n🔗 <a href=\"https://github.com/withmarbleapp/os-taxonomy\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/withmarbleapp/os-taxonomy",
     "orig": "withmarbleapp/os-taxonomy"
@@ -5920,9 +5903,138 @@
     "link": "https://www.kerrang.com/blink-182-are-headlining-graspop-in-belgium-next-year",
     "orig": "blink-182 are headlining Graspop in Belgium next year"
    }
+  ],
+  [
+   1792497685.8452396,
+   1387,
+   "🤖",
+   "Cloudflare випустила модель Clairic для швидкого вилучення даних з документів",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Cloudflare випустила модель Clairic для швидкого вилучення даних з документів</b>\n\nCloudflare презентувала ШІ-модель Clairic, яка витягує дані з документів швидше та дешевше за великі мовні моделі. Вона обробляє поля за один прохід без генерації тексту токен за токеном і вже доступна в прев&#x27;ю на Workers AI.\n\n🔗 <a href=\"https://the-decoder.com/cloudflares-clairic-pulls-data-from-documents-faster-and-cheaper-than-llms/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/cloudflares-clairic-pulls-data-from-documents-faster-and-cheaper-than-llms/",
+    "orig": "Cloudflare's Clairic pulls data from documents faster and cheaper than LLMs"
+   }
+  ],
+  [
+   1792497699.5534554,
+   1388,
+   "🎮",
+   "Головний герой God of War міг отримати інше ім'я через піцу",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Головний герой <a href=\"https://store.steampowered.com/app/1593500/\">God of War</a> міг отримати інше ім&#x27;я через піцу</b>\n\n🔗 <a href=\"https://www.ign.com/articles/dominos-pizza-jokes-god-of-war-dev-name-kratos\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/dominos-pizza-jokes-god-of-war-dev-name-kratos",
+    "orig": "Kratos Would Have Had a Different Name Were It Not for Relentless Domino's Pizza Jokes, God of War Creator Reveals"
+   }
+  ],
+  [
+   1792497701.907011,
+   1389,
+   "🤖",
+   "\"Розплавити GPU конкурентів\": Сем Альтман розповів кошмарний сценарій розвитку ШІ",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🤖 <b>&quot;Розплавити GPU конкурентів&quot;: Сем Альтман розповів кошмарний сценарій розвитку ШІ</b>\n\nСем Альтман розповів співробітникам про три підходи, які галузь обговорює в контексті безпечного створення потужного штучного інтелекту.\n\n🔗 <a href=\"https://highload.tech/uk/rozplavyty-gpu-konkurentiv-sem-altman-rozpoviv-koshmarnyj-stsenarij-rozvytku-shi/#new_tab\">ITC.ua</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://highload.tech/uk/rozplavyty-gpu-konkurentiv-sem-altman-rozpoviv-koshmarnyj-stsenarij-rozvytku-shi/#new_tab",
+    "orig": "\"Розплавити GPU конкурентів\": Сем Альтман розповів кошмарний сценарій розвитку ШІ"
+   }
+  ],
+  [
+   1792497706.680909,
+   1390,
+   "🤖",
+   "США заборонили технології Deepseek у федеральних цивільних відомствах",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>США заборонили технології Deepseek у федеральних цивільних відомствах</b>\n\nМіністерство національної безпеки США заборонило цивільним відомствам використовувати ШІ-технології від китайської лабораторії Deepseek. Установи мають видалити наявні продукти Deepseek зі своїх ІТ-систем та не можуть купувати нові. Рішення ухвалили на основі закону про безпеку ланцюга постачань у федеральних закупівлях.\n\n🔗 <a href=\"https://the-decoder.com/us-bans-deepseek-technology-across-federal-civilian-agencies/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/us-bans-deepseek-technology-across-federal-civilian-agencies/",
+    "orig": "US bans Deepseek technology across federal civilian agencies"
+   }
+  ],
+  [
+   1792497708.7720988,
+   1391,
+   "🤖",
+   "Німеччина хоче стати світовим лідером промислового ШІ: уряд підписав меморандум з NVIDIA про «фізичний ШІ»",
+   "AIN.ua",
+   {
+    "also": [],
+    "caption": "🤖 <b>Німеччина хоче стати світовим лідером промислового ШІ: уряд підписав меморандум з NVIDIA про «фізичний ШІ»</b>\n\nУряд Німеччини та NVIDIA домовилися разом розвивати моделі для physical AI й ширше впроваджувати ШІ у виробництві. Компанія також оголосила нові інвестиції в німецькі стартапи.\n\n🔗 <a href=\"https://ain.ua/2026/10/20/nimeccina-xoce-stati-svitovim-liderom-promislovogo-si-uriad-pidpisav-memorandum-iz-dzensenom-xuangom-pro-fizicnii-si/\">AIN.ua</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://ain.ua/2026/10/20/nimeccina-xoce-stati-svitovim-liderom-promislovogo-si-uriad-pidpisav-memorandum-iz-dzensenom-xuangom-pro-fizicnii-si/",
+    "orig": "Німеччина хоче стати світовим лідером промислового ШІ: уряд підписав меморандум з NVIDIA про «фізичний ШІ»"
+   }
+  ],
+  [
+   1792497714.2244086,
+   1392,
+   "🎮",
+   "PEGI підвищує віковий рейтинг ігор із лутбоксами до 16 років",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>PEGI підвищує віковий рейтинг ігор із лутбоксами до <a href=\"https://store.steampowered.com/app/4655470/\">16</a> років</b>\n\nЄвропейське агентство PEGI почало підвищувати віковий рейтинг цифрових ігор із платними лутбоксами до 16 років. Зміни вже торкнулися серії EA Sports FC та Zenless Zone Zero, а оновлення триватиме весь жовтень.\n\n🔗 <a href=\"https://www.eurogamer.net/pegi-age-ratings-16-loot-boxes-digital-only\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/pegi-age-ratings-16-loot-boxes-digital-only",
+    "orig": "European age-ratings body PEGI begins raising age-limit of loot box games, like EA Sports FC, to 16"
+   }
+  ],
+  [
+   1792497722.3401287,
+   1393,
+   "🤘",
+   "Machine Head випустили новий сингл SUTURES",
+   "Kerrang!",
+   {
+    "also": [],
+    "caption": "🤘 <b>Machine Head випустили новий сингл SUTURES</b>\n\n🔗 <a href=\"https://www.kerrang.com/machine-head-drop-surprise-new-single-sutures-unatoned-end-of-album-cycle-robb-flynn-blog\">Kerrang!</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.kerrang.com/machine-head-drop-surprise-new-single-sutures-unatoned-end-of-album-cycle-robb-flynn-blog",
+    "orig": "Machine Head drop surprise new single, SUTURES"
+   }
+  ],
+  [
+   1792497724.7857096,
+   1394,
+   "💾",
+   "ШІ-агенти допомагають позбутися реклами та стеження на смарттелевізорах",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "💾 <b>ШІ-агенти допомагають позбутися реклами та стеження на смарттелевізорах</b>\n\nПроєкти cleanyourtv і dumbtv дають змогу за допомогою ШІ вимикати рекламні служби на смарттелевізорах і замінювати їхній головний екран. Сумісність залежить від операційної системи та прошивки пристрою.\n\n🔗 <a href=\"https://mezha.ua/news/from-smartv-to-dumbtv-316344/\">Mezha</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/from-smartv-to-dumbtv-316344/",
+    "orig": "ШІ-агенти допомагають позбутися реклами та стеження на смарттелевізорах"
+   }
+  ],
+  [
+   1792497734.0867991,
+   1395,
+   "🎮",
+   "Розробник Call of Duty: Black Ops розкритикував продаж нових портів без виплат авторам",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>Розробник Call of Duty: Black Ops розкритикував продаж нових портів без виплат авторам</b>\n\nПорти Call of Duty: Black Ops і Black Ops 2 для PS4 і PS5 заробили близько $435 млн за місяць, але оригінальні розробники не отримали нічого. Ветеран Treyarch Гевін Гослін заявив, що це несправедливо, адже топменеджмент заробляє на старій праці команди мільйони без жодних бонусів для авторів.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/cod-black-ops-1-and-2-dev-says-its-hard-to-watch-the-new-ports-selling-well-while-the-actual-creators-dont-see-a-dime/\">VGC</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/cod-black-ops-1-and-2-dev-says-its-hard-to-watch-the-new-ports-selling-well-while-the-actual-creators-dont-see-a-dime/",
+    "orig": "COD Black Ops 1 and 2 dev says it’s ‘hard to watch’ the new ports selling well while ‘the actual creators don’t see a dime’"
+   }
   ]
  ],
  "posted_by_source": {
+  "ai|AIN.ua|https://ain.ua/feed/": [
+   1792497708.7724273
+  ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
    1792414900.791192,
    1792436504.1853683,
@@ -5939,7 +6051,8 @@
   ],
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
    1792422121.0372677,
-   1792476083.8764343
+   1792476083.8764343,
+   1792497701.9073443
   ],
   "ai|Mezha|https://mezha.ua/feed/": [
    1792416707.3036513,
@@ -5950,11 +6063,11 @@
    1792488810.0023751
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
-   1792409523.455952,
-   1792411287.4032211,
    1792414936.6005173,
    1792432908.3478537,
-   1792434712.2830114
+   1792434712.2830114,
+   1792497685.845478,
+   1792497706.681174
   ],
   "games|DOU Gamedev|https://gamedev.dou.ua/feed/": [
    1792396911.1185172,
@@ -5964,9 +6077,6 @@
    1792449086.3332465
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1792407726.2002537,
-   1792407738.5407817,
-   1792409493.3585024,
    1792413142.604181,
    1792416700.728295,
    1792418638.9920156,
@@ -5974,7 +6084,8 @@
    1792427584.069955,
    1792431223.0284,
    1792487057.804533,
-   1792487070.5406456
+   1792487070.5406456,
+   1792497714.2246406
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1792416689.6137075,
@@ -6010,7 +6121,8 @@
    1792454490.5141308,
    1792461860.9028823,
    1792485660.6447232,
-   1792494154.5406373
+   1792494154.5406373,
+   1792497699.5537863
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1792409525.8084407,
@@ -6103,7 +6215,8 @@
    1792418602.6874003,
    1792423967.955111,
    1792494236.046532,
-   1792496079.0648017
+   1792496079.0648017,
+   1792497734.0871546
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1792450892.300594,
@@ -6194,12 +6307,12 @@
    1792488807.5711834
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
-   1792411305.960925,
    1792413153.96252,
    1792422345.3332708,
    1792490491.2004619,
    1792494223.27013,
-   1792496089.1842568
+   1792496089.1842568,
+   1792497722.34035
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
    1792427707.0259013,
@@ -6301,7 +6414,8 @@
    1792423970.2090995,
    1792477950.2338722,
    1792479930.7963006,
-   1792494183.902568
+   1792494183.902568,
+   1792497724.7860544
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1792402496.602654,
@@ -6615,6 +6729,7 @@
   "2f2227206725d37a": 1792431101.4991252,
   "2f2ea7c3dbd6db4a": 1792485660.6446846,
   "2f43ffc9d5887adc": 1792021759.8338954,
+  "2f89324ba4dbf233": 1792497685.845431,
   "2ff0c7c61394cbe9": 1791722094.2530224,
   "30316015220c890d": 1792429349.1613474,
   "3038e450a09e3776": 1792371702.243978,
@@ -6640,6 +6755,7 @@
   "33ca4069ccade276": 1792427670.2162242,
   "3401a99782268590": 1791957562.3266816,
   "3429c7218e4f7d01": 1792244086.4117854,
+  "345dc724e72fe68f": 1792497655.4927337,
   "34607fa71dc872e1": 1792436456.6644757,
   "349692d51631358c": 1791938092.4101274,
   "3497ef3cf9741c57": 1791894797.5656688,
@@ -6704,6 +6820,7 @@
   "3d852e9d6a4a084f": 1792436507.2778673,
   "3dd1f191ea4dc0a3": 1792197827.4038987,
   "3de13b42e404c830": 1792145502.8856962,
+  "3e04f9db9b471cf3": 1792497734.0871122,
   "3e07f96ebe43f692": 1792414912.9787772,
   "3e28e26812a2b89c": 1792229870.3654397,
   "3e4f40043af20792": 1792423973.5457761,
@@ -6773,6 +6890,7 @@
   "47fa1011d71b746f": 1792010038.4811938,
   "4809ce681a686c84": 1791931734.3243032,
   "480dfde3a91150a8": 1791996980.3529558,
+  "48422d7f72f551dc": 1792497714.2245977,
   "487c047729c40a79": 1792129272.136911,
   "488ebf27e797f45a": 1792438383.541762,
   "4895c8ba0e5d0d62": 1792164064.6378188,
@@ -7100,6 +7218,7 @@
   "7af278d365847cee": 1792443859.4105575,
   "7af558be2ca670d8": 1792442056.5919788,
   "7b1f074e627e521d": 1792436504.1853266,
+  "7b2af8b527bedd6e": 1792497699.553743,
   "7b414f4be74ab61e": 1792214788.713499,
   "7b51a41a8a5fb539": 1791894773.4746997,
   "7b541e78edb0a115": 1792335747.9551442,
@@ -7278,8 +7397,10 @@
   "93ef38647e85a4c5": 1792037157.0664444,
   "9445b892d8bed1ea": 1792470681.5377843,
   "94b9cff7b54a88c9": 1792037218.5460002,
+  "94ba73dd2cf114c6": 1792497724.7860126,
   "953f82f7f64c6786": 1792097612.2554398,
   "954b898c609ba1d3": 1792405905.4389894,
+  "9590118804574bb6": 1792497722.340307,
   "9591f290aa983e9b": 1792352536.1378696,
   "95d06f7f857cb151": 1792423879.2659903,
   "961cffbaca3648ff": 1792080927.3708415,
@@ -7363,6 +7484,7 @@
   "a2ef6ea957becf44": 1792450874.1390004,
   "a3371908b767766e": 1792494154.5405889,
   "a3862978713e1870": 1792055987.1515536,
+  "a39d997a4ae688ad": 1792497708.7723825,
   "a424e0bf4e1ff5f8": 1791638763.492404,
   "a4c265c1e61f0eae": 1791643484.7724442,
   "a4c88c3620b9a63b": 1792352399.3988242,
@@ -7903,6 +8025,7 @@
   "fb1fa580005ce111": 1791931822.5673175,
   "fb20b379e3302e30": 1791807534.5419414,
   "fb2f740a637cea5b": 1792454494.8568294,
+  "fb38713656330def": 1792497706.68113,
   "fbab3ba6532b2166": 1792164226.938352,
   "fbeb4205a30e70be": 1791969282.2439892,
   "fc177f78cf743296": 1792348286.1639628,
@@ -7925,6 +8048,7 @@
   "fe4dc7dbcee3a894": 1792074132.5777712,
   "fe5b968ae8ba789d": 1791908389.973113,
   "fed989ae4635d309": 1792129011.0582542,
+  "fedd1be2c0c3f62f": 1792497701.9073036,
   "fee6139694941530": 1792393277.5452306,
   "fef85c09f3d7c9bc": 1791931751.3380954,
   "ff142276fb37798a": 1791742953.0097268,
@@ -9104,7 +9228,7 @@
    "Халява": 1
   },
   "filtered": {
-   "/Film": 7,
+   "/Film": 8,
    "Bloomberg": 1,
    "Deadline": 1,
    "GamesIndustry.biz": 1,
@@ -9115,7 +9239,7 @@
   },
   "sources": {
    "/Film": 14,
-   "AIN.ua": 1,
+   "AIN.ua": 2,
    "Blabbermouth": 17,
    "Bloomberg": 15,
    "DOU": 2,
@@ -9124,21 +9248,21 @@
    "Decibel": 3,
    "Digital Foundry": 1,
    "Distorted Sound": 5,
-   "Eurogamer": 12,
+   "Eurogamer": 13,
    "GameSpot": 12,
    "GamesIndustry.biz": 8,
    "GitHub Trending": 6,
    "Hugging Face": 1,
-   "IGN": 18,
-   "ITC.ua": 20,
+   "IGN": 19,
+   "ITC.ua": 21,
    "IndieWire": 6,
    "Insider Gaming": 32,
-   "Kerrang!": 9,
+   "Kerrang!": 10,
    "Lambgoat": 10,
    "Loudwire": 9,
    "Metal Hammer (Louder)": 9,
    "Metal Injection": 1,
-   "Mezha": 20,
+   "Mezha": 21,
    "PC Gamer": 18,
    "Pitchfork": 2,
    "PlayUA": 12,
@@ -9147,15 +9271,15 @@
    "Revolver": 1,
    "Rock Paper Shotgun": 11,
    "Stereogum": 3,
-   "The Decoder": 5,
+   "The Decoder": 7,
    "ThePRP": 13,
-   "VGC": 7,
+   "VGC": 8,
    "Variety": 6
   },
   "translators": {
    "DeepL": 5,
    "gemini-flash-latest": 47,
-   "gemini-flash-lite-latest": 289
+   "gemini-flash-lite-latest": 295
   },
   "week": "2026-W43"
  },
@@ -10410,21 +10534,6 @@
    "",
    1792477956.5940783
   ],
-  "q:america's dominance": [
-   0,
-   "",
-   1792324871.125108
-  ],
-  "q:america's dominance in the game": [
-   0,
-   "",
-   1792324870.630646
-  ],
-  "q:america's dominance in the game awards": [
-   0,
-   "",
-   1792324870.1226146
-  ],
   "q:anthropic": [
    0,
    "",
@@ -10549,11 +10658,6 @@
    0,
    "",
    1792490530.6047835
-  ],
-  "q:awards is officially over": [
-   0,
-   "",
-   1792324875.838272
   ],
   "q:balatro": [
    2379780,
@@ -10829,6 +10933,26 @@
    1478500,
    "Big Walk",
    1792056009.0377672
+  ],
+  "q:black": [
+   0,
+   "",
+   1792497731.0550396
+  ],
+  "q:black ops": [
+   0,
+   "",
+   1792497730.5614793
+  ],
+  "q:black ops 1": [
+   0,
+   "",
+   1792497730.080533
+  ],
+  "q:black ops 1 and 2": [
+   0,
+   "",
+   1792497729.612789
   ],
   "q:black white": [
    1998450,
@@ -11309,6 +11433,26 @@
    0,
    "",
    1792400586.7454867
+  ],
+  "q:cod black": [
+   0,
+   "",
+   1792497729.1453168
+  ],
+  "q:cod black ops": [
+   0,
+   "",
+   1792497728.6527147
+  ],
+  "q:cod black ops 1": [
+   0,
+   "",
+   1792497728.1809533
+  ],
+  "q:cod black ops 1 and 2": [
+   0,
+   "",
+   1792497727.712834
   ],
   "q:collector": [
    0,
@@ -12135,21 +12279,6 @@
    "Dominance",
    1792324873.170394
   ],
-  "q:dominance in the game": [
-   0,
-   "",
-   1792324872.6336124
-  ],
-  "q:dominance in the game awards": [
-   0,
-   "",
-   1792324872.138088
-  ],
-  "q:dominance in the game awards is": [
-   0,
-   "",
-   1792324871.6276855
-  ],
   "q:don't need": [
    0,
    "",
@@ -12259,6 +12388,16 @@
    0,
    "",
    1792494091.0331347
+  ],
+  "q:ea sports": [
+   0,
+   "",
+   1792497711.708978
+  ],
+  "q:ea sports fc": [
+   0,
+   "",
+   1792497711.223108
   ],
   "q:early": [
    0,
@@ -13005,26 +13144,6 @@
    "",
    1792378898.3063822
   ],
-  "q:game awards": [
-   0,
-   "",
-   1792324875.3268857
-  ],
-  "q:game awards is": [
-   0,
-   "",
-   1792324874.8278747
-  ],
-  "q:game awards is officially": [
-   0,
-   "",
-   1792324874.3313785
-  ],
-  "q:game awards is officially over": [
-   0,
-   "",
-   1792324873.8311346
-  ],
   "q:game of thrones": [
    208730,
    "Game of Thrones",
@@ -13370,6 +13489,11 @@
    "",
    1792434715.3084817
   ],
+  "q:hard to watch": [
+   0,
+   "",
+   1792497726.7549036
+  ],
   "q:has": [
    0,
    "",
@@ -13394,6 +13518,16 @@
    0,
    "",
    1792416687.0491421
+  ],
+  "q:have had a different name": [
+   0,
+   "",
+   1792497693.1080148
+  ],
+  "q:have had a different name were": [
+   0,
+   "",
+   1792497692.640345
   ],
   "q:haystack": [
    0,
@@ -14044,6 +14178,31 @@
    0,
    "",
    1792339302.8780549
+  ],
+  "q:kratos": [
+   0,
+   "",
+   1792497689.784012
+  ],
+  "q:kratos would": [
+   0,
+   "",
+   1792497689.311724
+  ],
+  "q:kratos would have": [
+   0,
+   "",
+   1792497688.8465135
+  ],
+  "q:kratos would have had": [
+   0,
+   "",
+   1792497688.3753417
+  ],
+  "q:kratos would have had a different": [
+   0,
+   "",
+   1792497687.894085
   ],
   "q:kutaragi": [
    0,
@@ -15110,6 +15269,16 @@
    "",
    1792423956.0549307
   ],
+  "q:ops 1": [
+   0,
+   "",
+   1792497732.023361
+  ],
+  "q:ops 1 and 2": [
+   0,
+   "",
+   1792497731.5212207
+  ],
   "q:outlast": [
    238320,
    "Outlast",
@@ -15289,6 +15458,11 @@
    0,
    "",
    1792382507.8218296
+  ],
+  "q:pegi": [
+   0,
+   "",
+   1792497710.7427857
   ],
   "q:penalties": [
    0,
@@ -16390,6 +16564,16 @@
    "",
    1792400604.089651
   ],
+  "q:sports": [
+   0,
+   "",
+   1792497712.6728263
+  ],
+  "q:sports fc": [
+   0,
+   "",
+   1792497712.1894639
+  ],
   "q:squadron 42": [
    4045720,
    "Squadron 42",
@@ -16869,6 +17053,11 @@
    0,
    "",
    1792400602.6244962
+  ],
+  "q:the actual creators don": [
+   0,
+   "",
+   1792497727.2442555
   ],
   "q:the legend of korra": [
    0,
@@ -17705,6 +17894,31 @@
    "",
    1792467100.6051931
   ],
+  "q:would": [
+   0,
+   "",
+   1792497692.147267
+  ],
+  "q:would have": [
+   0,
+   "",
+   1792497691.6586094
+  ],
+  "q:would have had": [
+   0,
+   "",
+   1792497691.1849558
+  ],
+  "q:would have had a different": [
+   0,
+   "",
+   1792497690.7161155
+  ],
+  "q:would have had a different name": [
+   0,
+   "",
+   1792497690.2478676
+  ],
   "q:wow": [
    0,
    "",
@@ -17949,12 +18163,10 @@
    "бізнес",
    "держспецзв’язку",
    "дрони",
-   "канада",
    "корупція",
    "набу",
    "новини",
    "новини партнерів",
-   "норвегія",
    "оборонка",
    "пентагон",
    "ппо",
@@ -17964,16 +18176,12 @@
    "софт",
    "соціальні мережі",
    "стримінгові сервіси",
+   "телевізори",
    "штучний інтелект",
-   "ігри",
-   "інтернет"
+   "ігри"
   ]
  },
  "titles": [
-  [
-   1792324878.8004105,
-   "America's Dominance in The Game Awards Is Officially Over"
-  ],
   [
    1792326680.0492892,
    "EUROPE's JOEY TEMPEST Reflects On JOHN NORUM's 1986 Departure: 'It Was A Sad Day Because We Started The Band'"
@@ -19777,13 +19985,45 @@
   [
    1792496089.184214,
    "blink-182 are headlining Graspop in Belgium next year"
+  ],
+  [
+   1792497685.8454328,
+   "Cloudflare's Clairic pulls data from documents faster and cheaper than LLMs"
+  ],
+  [
+   1792497699.5537443,
+   "Kratos Would Have Had a Different Name Were It Not for Relentless Domino's Pizza Jokes, God of War Creator Reveals"
+  ],
+  [
+   1792497701.9073055,
+   "\"Розплавити GPU конкурентів\": Сем Альтман розповів кошмарний сценарій розвитку ШІ"
+  ],
+  [
+   1792497706.6811318,
+   "US bans Deepseek technology across federal civilian agencies"
+  ],
+  [
+   1792497708.7723842,
+   "Німеччина хоче стати світовим лідером промислового ШІ: уряд підписав меморандум з NVIDIA про «фізичний ШІ»"
+  ],
+  [
+   1792497714.2245991,
+   "European age-ratings body PEGI begins raising age-limit of loot box games, like EA Sports FC, to 16"
+  ],
+  [
+   1792497722.3403084,
+   "Machine Head drop surprise new single, SUTURES"
+  ],
+  [
+   1792497724.7860143,
+   "ШІ-агенти допомагають позбутися реклами та стеження на смарттелевізорах"
+  ],
+  [
+   1792497734.0871136,
+   "COD Black Ops 1 and 2 dev says it’s ‘hard to watch’ the new ports selling well while ‘the actual creators don’t see a dime’"
   ]
  ],
  "titles_uk": [
-  [
-   1792324878.800412,
-   "США втратили статус лідера за кількістю голосів у журі The Game Awards"
-  ],
   [
    1792326680.0492904,
    "Джої Темпест згадав вихід гітариста Джона Норума з EUROPE у 1986 році"
@@ -21587,6 +21827,42 @@
   [
    1792496089.184215,
    "Travis Barker вплинув на більшість популярних барабанщиків за останні 30 років"
+  ],
+  [
+   1792497685.845434,
+   "Cloudflare випустила модель Clairic для швидкого вилучення даних з документів"
+  ],
+  [
+   1792497699.5537455,
+   "Головний герой God of War міг отримати інше ім'я через піцу"
+  ],
+  [
+   1792497701.907306,
+   "\"Розплавити GPU конкурентів\": Сем Альтман розповів кошмарний сценарій розвитку ШІ"
+  ],
+  [
+   1792497706.6811326,
+   "США заборонили технології Deepseek у федеральних цивільних відомствах"
+  ],
+  [
+   1792497708.7723858,
+   "Німеччина хоче стати світовим лідером промислового ШІ: уряд підписав меморандум з NVIDIA про «фізичний ШІ»"
+  ],
+  [
+   1792497714.2245998,
+   "PEGI підвищує віковий рейтинг ігор із лутбоксами до 16 років"
+  ],
+  [
+   1792497722.340309,
+   "Machine Head випустили новий сингл SUTURES"
+  ],
+  [
+   1792497724.786015,
+   "ШІ-агенти допомагають позбутися реклами та стеження на смарттелевізорах"
+  ],
+  [
+   1792497734.0871146,
+   "Розробник Call of Duty: Black Ops розкритикував продаж нових портів без виплат авторам"
   ]
  ],
  "ukrainian": {
