@@ -1,8 +1,15 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1792474274.8311622
+  }
+ },
  "daily_digest_date": "2026-10-19",
  "freebies": {
-  "last_check": 1792467115.4901624,
+  "last_check": 1792474295.99985,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -4264,7 +4271,6 @@
    "Stereogum",
    {
     "also": [],
-    "caption": "🤘 <b>Amy Helm подала зустрічний позов проти Levon Helm Studios</b>\n\nAmy Helm подала зустрічний позов проти Brian Parillo, звинувативши його у захопленні контролю над Levon Helm Studios через недійсні корпоративні дії та тиск на вдову барабанщика Sandra Helm. За словами доньки музиканта, Parillo незаконно отримав голосуючі права та приховує фінансові звіти. Сам Parillo заперечує всі звинувачення.\n\n🔗 <a href=\"https://stereogum.com/2515057/amy-helm-countersues-levon-helm-studios/news/\">Stereogum</a>\n\n#музика",
     "kind": "photo",
     "link": "https://stereogum.com/2515057/amy-helm-countersues-levon-helm-studios/news/",
     "orig": "Amy Helm Countersues Levon Helm Studios"
@@ -5114,6 +5120,20 @@
     "link": "https://deadline.com/2026/10/michael-douglas-killed-off-marvel-ant-man-1237168330/",
     "orig": "Michael Douglas Asked To Be Killed Off Marvel’s ‘Ant-Man’: “They Wouldn’t Let Me”"
    }
+  ],
+  [
+   1792474287.1242387,
+   1324,
+   "💾",
+   "Google прив’язує номер до акаунтів, які ви хотіли тримати окремо: як заборонити",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "💾 <b>Google прив’язує номер до акаунтів, які ви хотіли тримати окремо: як заборонити</b>\n\nGoogle автоматично прив’язує номери телефонів на Android до кожного облікового запису Google, у якому виконано вхід на тому самому пристрої, навіть якщо йдеться про додаткові робочі облікові записи або альтернативні профілі. Ця функція має забезпечувати безперебійну роботу сервісів Google, але її ввімкнення за замовчуванням викликає питання щодо того, наскільки користувачі насправді контролюють свою особисту інформацію.\n\n🔗 <a href=\"https://itc.ua/ua/novini/google-pryv-yazuye-nomer-do-akauntiv-yaki-vy-hotily-trymaty-okremo-yak-zaboronyty/\">ITC.ua</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/google-pryv-yazuye-nomer-do-akauntiv-yaki-vy-hotily-trymaty-okremo-yak-zaboronyty/",
+    "orig": "Google прив’язує номер до акаунтів, які ви хотіли тримати окремо: як заборонити"
+   }
   ]
  ],
  "posted_by_source": {
@@ -5469,12 +5489,12 @@
    1792395094.7771647
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
-   1792387872.7645981,
    1792389673.6429482,
    1792398882.71487,
    1792404399.0902028,
    1792413124.3567915,
-   1792418575.2481728
+   1792418575.2481728,
+   1792474287.1246057
   ],
   "software|Mezha|https://mezha.ua/feed/": [
    1792423946.912875,
@@ -6631,6 +6651,7 @@
   "bd449ac4d5082e66": 1792009875.9788818,
   "bd5c4e503fadffb9": 1792443934.598627,
   "bd6bf7ffc701c1f1": 1791929812.121329,
+  "bd93075967209898": 1792474287.124558,
   "bdbe798321f11ef7": 1792347110.955539,
   "bdcdc21f8a4c9dbb": 1791702304.8026342,
   "be1139c09e1ee624": 1792423879.7094944,
@@ -8223,7 +8244,7 @@
    "GamesIndustry.biz": 5,
    "GitHub Trending": 3,
    "IGN": 16,
-   "ITC.ua": 14,
+   "ITC.ua": 15,
    "IndieWire": 6,
    "Insider Gaming": 26,
    "Kerrang!": 6,
@@ -17828,6 +17849,10 @@
   [
    1792470687.448158,
    "Michael Douglas Asked To Be Killed Off Marvel’s ‘Ant-Man’: “They Wouldn’t Let Me”"
+  ],
+  [
+   1792474287.1245596,
+   "Google прив’язує номер до акаунтів, які ви хотіли тримати окремо: як заборонити"
   ]
  ],
  "titles_uk": [
@@ -19506,6 +19531,10 @@
   [
    1792470687.448159,
    "Майкл Дуглас просив Marvel вбити його персонажа в Ant-Man"
+  ],
+  [
+   1792474287.1245604,
+   "Google прив’язує номер до акаунтів, які ви хотіли тримати окремо: як заборонити"
   ]
  ],
  "ukrainian": {
@@ -21713,7 +21742,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792470696.3122206,
+  "last_check": 1792474295.681428,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
