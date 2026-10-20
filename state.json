@@ -1,6 +1,13 @@
 {
- "alerts": {},
- "daily_digest_date": "2026-10-19",
+ "alerts": {
+  "src:games|SteamDB|https://bsky.app/profile/steamdb.info/rss": {
+   "detail": "https://bsky.app/profile/steamdb.info/rss → HTTPSConnectionPool(host='bsky.app', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «SteamDB» не працює",
+   "sent": 0,
+   "since": 1792519289.9788966
+  }
+ },
+ "daily_digest_date": "2026-10-20",
  "freebies": {
   "last_check": 1792517878.7153692,
   "seen": {
@@ -11,13 +18,14 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-20 17:38 UTC",
+  "at": "2026-10-20 18:03 UTC",
   "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 9
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
@@ -6320,7 +6328,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Користувач Reddit створив безплатну заставку для Windows із зображенням гарнітури <a href=\"https://store.steampowered.com/app/4165890/\">Steam Frame</a> та контролерів, які відскакують від стінок екрана. Проєкт із відкритим вихідним кодом дозволяє налаштовувати розмір об&#x27;єктів, швидкість руху й яскравість. Valve дозворила використати фірмовий арт для цього некомерційного мініпроєкту.</b>\n\n🔗 <a href=\"https://www.pcgamer.com/hardware/vr-hardware/im-not-sure-if-the-steam-frame-hits-any-corners-in-this-bouncing-screensaver-but-maybe-if-i-watch-long-enough-the-headset-will-come-down-in-price/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/hardware/vr-hardware/im-not-sure-if-the-steam-frame-hits-any-corners-in-this-bouncing-screensaver-but-maybe-if-i-watch-long-enough-the-headset-will-come-down-in-price/",
     "orig": "I'm not sure if the Steam Frame hits any corners in this bouncing screensaver, but maybe if I watch long enough the headset will come down in price"
@@ -6334,7 +6341,6 @@
    "VGC",
    {
     "also": [],
-    "caption": "🎮 <b>94% ігрових студій використовують ШІ у розробці</b>\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/report-finds-that-94-of-studios-use-ai-but-more-than-half-say-it-isnt-deeply-embedded-into-production/\">VGC</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/news/report-finds-that-94-of-studios-use-ai-but-more-than-half-say-it-isnt-deeply-embedded-into-production/",
     "orig": "Report finds that 94% of studios use AI, but more than half say it isn’t deeply embedded into production"
@@ -6348,7 +6354,6 @@
    "GameSpot",
    {
     "also": [],
-    "caption": "🎮 <b>Порти <a href=\"https://store.steampowered.com/app/1938090/\">Call of Duty</a>: Black Ops 1 і 2 принесли величезні прибутки видавцю</b>\n\nНещодавні порти Call of Duty: Black Ops та Call of Duty: Black Ops 2 для PlayStation стали величезними хітами. Загалом на консолях PS4 і PS5 ці ігри продалися тиражем понад 11 мільйонів копій.\n\n🔗 <a href=\"https://www.gamespot.com/articles/the-suits-made-all-the-money-from-call-of-duty-black-ops-1-and-2-ports-og-dev-says/\">GameSpot</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamespot.com/articles/the-suits-made-all-the-money-from-call-of-duty-black-ops-1-and-2-ports-og-dev-says/",
     "orig": "“The Suits” Made All The Money From Call Of Duty: Black Ops 1 And 2 Ports, OG Dev Says"
@@ -6362,7 +6367,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Асистентка Рассела Бренда повідомила Channel 4 про домагання у 2009 році</b>\n\nЖінка заявила на суді, що у 2009 році скаржилася керівництву Channel 4 на Рассела Бренда через неналежну поведінку. За її словами, комік поклав голову їй на коліна та вимагав масажу. Сам Бренд заперечує всі звинувачення у зґвалтуванні та сексуальному насильстві.\n\n🔗 <a href=\"https://deadline.com/2026/10/russell-brand-accuser-reported-to-channel-4-at-time-1237168467/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/russell-brand-accuser-reported-to-channel-4-at-time-1237168467/",
     "orig": "Russell Brand Accuser Says She Reported Comedian To Channel 4 In 2009 After He Allegedly Lay His Head On Her Lap & Demanded Massage"
@@ -6376,7 +6380,6 @@
    "PlayUA",
    {
     "also": [],
-    "caption": "🎮 <b>Чемпіонат світу з Mobile Legends: Bang Bang з призовим фондом 1 млн $ пройде в Туреччині</b>\n\nОрганізатори M8 World Championship з Mobile Legends: Bang Bang оголосили розклад чемпіонату світу, який відбудеться з 17 грудня 2026 року до 23 січня 2027 року. Основну частину змагання прийматиме Стамбул, Туреччина, а призовий фонд турніру становитиме $1 000 000. Це буде перший чемпіонат світу M-серії з Mobile Legends: Bang Bang, основний етап якого проведуть за […]\n\n🔗 <a href=\"https://playua.net/chempionat-svitu-z-mobile-legends-bang-bang-z-pryzovym-fondom-1-mln-projde-v-turechchyni/\">PlayUA</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://playua.net/chempionat-svitu-z-mobile-legends-bang-bang-z-pryzovym-fondom-1-mln-projde-v-turechchyni/",
     "orig": "Чемпіонат світу з Mobile Legends: Bang Bang з призовим фондом 1 млн $ пройде в Туреччині"
@@ -6390,7 +6393,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Дейв Мастейн заявив, що не є поганою людиною</b>\n\nФронтмен MEGADETH Дейв Мастейн розповів про свій виступ із METALLICA у грудні 2011 року та висловився про свій імідж. Музикант заперечив, що є поганим лідером чи людиною, зазначивши, що MEGADETH зараз перебувають у найкращій формі за майже 45 років існування.\n\n🔗 <a href=\"https://blabbermouth.net/news/dave-mustaine-im-not-a-bad-guy-and-i-dont-walk-around-with-a-chip-on-my-shoulder\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/dave-mustaine-im-not-a-bad-guy-and-i-dont-walk-around-with-a-chip-on-my-shoulder",
     "orig": "DAVE MUSTAINE: 'I'm Not A Bad Guy' And 'I Don't Walk Around With A Chip On My Shoulder'"
@@ -7192,6 +7194,90 @@
     "link": "https://www.indiewire.com/features/interviews/alden-ehrenreich-opinions-career-talent-for-murder-1235217284/",
     "orig": "Alden Ehrenreich Has a Lot of Opinions About His Career — and About Steve Urkel"
    }
+  ],
+  [
+   1792519324.4672022,
+   1480,
+   "🎮",
+   "Цифрові копії Pikmin 4 подешевшали до $40 напередодні апгрейду для Switch 2",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Цифрові копії Pikmin 4 подешевшали до $40 напередодні апгрейду для Switch 2</b>\n\nWalmart знизив ціну на цифрові копії Pikmin 4 до $39.88 перед виходом апгрейду для Switch 2 у листопаді. Завдяки цій знижці можна зекономити близько $20 порівняно з купівлею версії для нової консолі.\n\n🔗 <a href=\"https://www.ign.com/articles/pikmin-4-digital-on-sale-ahead-of-switch-2-upgrade\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/pikmin-4-digital-on-sale-ahead-of-switch-2-upgrade",
+    "orig": "Digital Copies of Pikmin 4 Are Down to $40 Ahead of Switch 2 Upgrade"
+   }
+  ],
+  [
+   1792519338.8518333,
+   1481,
+   "🎮",
+   "Вийшов прев'ю-огляд кіберпанк-рогалайку ReBlade: The Death Spiral",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Вийшов прев&#x27;ю-огляд кіберпанк-рогалайку <a href=\"https://store.steampowered.com/app/3489340/\">ReBlade: The Death Spiral</a></b>\n\nРозробники ChillyRoom представили прев&#x27;ю екшен-рогалайку ReBlade: The Death Spiral. Гра поєднує швидкісний кібернетичний бій із акцентом на парирування, елементи дослідження підземель та атмосферу китайської міфології у світі майбутнього.\n\n🔗 <a href=\"https://www.ign.com/articles/reblade-the-death-spiral-first-preview-parrying-through-the-cyberpunk-roguelite\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/reblade-the-death-spiral-first-preview-parrying-through-the-cyberpunk-roguelite",
+    "orig": "ReBlade: The Death Spiral First Preview – Parrying Through the Cyberpunk Roguelite"
+   }
+  ],
+  [
+   1792519371.7278502,
+   1482,
+   "🎮",
+   "Колекційний вініловий бокссет DayZ Badlands ексклюзивно з'явився в IGN Store",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Колекційний вініловий бокссет <a href=\"https://store.steampowered.com/app/3816030/\">DayZ Badlands</a> ексклюзивно з&#x27;явився в IGN Store</b>\n\nВідсвяткуйте вихід гри DayZ Badlands із колекційним вініловим набором, до якого входять саундтрек до гри, предмети, пов’язані з її всесвітом, та цифровий код для Steam. Набір доступний виключно в магазині IGN Store.\n\n🔗 <a href=\"https://www.ign.com/articles/dayz-badlands-collectors-vinyl-box-set-ign-store\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/dayz-badlands-collectors-vinyl-box-set-ign-store",
+    "orig": "DayZ Badlands Collector's Vinyl Box Set Available Exclusively at IGN Store"
+   }
+  ],
+  [
+   1792519386.1332495,
+   1483,
+   "🎮",
+   "Кооперативний looter shooter Mycopunk вийшов у версії 1.0",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>Кооперативний looter shooter <a href=\"https://store.steampowered.com/app/3247750/\">Mycopunk</a> вийшов у версії <a href=\"https://store.steampowered.com/app/5044640/\">1.0</a></b>\n\nКооперативний looter shooter Mycopunk залишив ранній доступ і отримав оновлення 1.0. У грі з&#x27;явилися новий клас Mycologist, місія з популяційного контролю, регіон X11-B, зброя, гранати та система досягнень.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/i-know-you-probably-dont-have-mushroom-in-your-backlog-but-fungus-looter-shooter-mycopunk-is-now-out-in-10-and-looks-like-the-opposite-of-a-shiitake-time\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/i-know-you-probably-dont-have-mushroom-in-your-backlog-but-fungus-looter-shooter-mycopunk-is-now-out-in-10-and-looks-like-the-opposite-of-a-shiitake-time",
+    "orig": "I know you probably don't have mushroom in your backlog, but fungus looter shooter Mycopunk is now out in 1.0 and looks like the opposite of a shiitake time"
+   }
+  ],
+  [
+   1792519394.2118034,
+   1484,
+   "🎬",
+   "Jay-Z стане хедлайнером шоу в перерві Super Bowl 2027",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Jay-Z стане хедлайнером шоу в перерві Super Bowl 2027</b>\n\nРобітня інсайдерська інформація підтверджує, що репер Jay-Z виступить хедлайнером музичного шоу в перерві Super Bowl 2027 у Лос-Анджелесі. Його компанія Roc Nation організовує це шоу разом із Apple Music. Серед можливих спеціальних гостів на сцені називають Beyoncé, Nas, Pharrell Williams та інших артистів.\n\n🔗 <a href=\"https://deadline.com/2026/10/jay-z-super-bowl-halftime-show-2027-1237168702/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/jay-z-super-bowl-halftime-show-2027-1237168702/",
+    "orig": "Jay-Z Looks To Have Picked Jay-Z To Headline 2027 Super Bowl Halftime Show"
+   }
+  ],
+  [
+   1792519403.16237,
+   1485,
+   "🎬",
+   "Фільм The Prestige Крістофера Нолана повернеться в кінотеатри до 20-річчя",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Фільм The Prestige Крістофера Нолана повернеться в кінотеатри до 20-річчя</b>\n\nТрилер The Prestige Крістофера Нолана вийде в повторний кінопрокат 29 січня 2027 року на честь 20-річчя картини. Стрічка вперше буде доступна глядачам у форматах 70mm та IMAX, а також у 35mm і Digital 2D. У головних ролях знялися Г&#x27;ю Джекман, Крістіан Бейл, Майкл Кейн, Скарлетт Йоханссон та Девід Бові.\n\n🔗 <a href=\"https://deadline.com/2026/10/the-prestige-rerelease-2027-christopher-nolan-1237168795/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/the-prestige-rerelease-2027-christopher-nolan-1237168795/",
+    "orig": "Christopher Nolan’s ‘The Prestige’ Sets 20th Anniversary Re-Release For 2027"
+   }
   ]
  ],
  "posted_by_source": {
@@ -7273,8 +7359,6 @@
    1792501384.1415565
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1792432891.9651027,
-   1792432904.609218,
    1792436492.0125034,
    1792442044.437103,
    1792442341.9092224,
@@ -7291,7 +7375,10 @@
    1792512260.0636241,
    1792512381.1285782,
    1792515737.984392,
-   1792515809.7722137
+   1792515809.7722137,
+   1792519324.46763,
+   1792519338.8522787,
+   1792519371.7281854
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1792414939.1926742,
@@ -7367,14 +7454,12 @@
    1792490537.1860683
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
-   1792427572.3803465,
-   1792427702.6738353,
-   1792431169.6112857,
    1792490486.7294486,
    1792492417.8062487,
    1792496072.9843764,
    1792510578.4295297,
-   1792510652.6327155
+   1792510652.6327155,
+   1792519386.133656
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1792503180.830482
@@ -7400,10 +7485,6 @@
    1792515873.2258618
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1792431186.121348,
-   1792431205.8388875,
-   1792432924.2754836,
-   1792432927.3334394,
    1792434722.389744,
    1792442071.3918507,
    1792445530.7958229,
@@ -7414,7 +7495,9 @@
    1792470684.675088,
    1792470687.4482012,
    1792503142.6609817,
-   1792505104.131396
+   1792505104.131396,
+   1792519394.2122288,
+   1792519403.1627793
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1792429313.945905,
@@ -7884,6 +7967,7 @@
   "294525ac70d01930": 1792145417.3265986,
   "29b7873b62b4ef15": 1791853965.7189302,
   "29ba13b61346caf0": 1792432908.3478105,
+  "29c2a19550719e10": 1792519403.1627293,
   "29cc2c99e1d4f77c": 1791969559.9057777,
   "29cfe4e95e49a7be": 1791769122.3502562,
   "29d5218f38944297": 1792515873.225819,
@@ -8193,6 +8277,7 @@
   "5565385d9c660df4": 1792477962.3407218,
   "557548bcc6d90893": 1792416731.0726314,
   "55abe72fc2c9c320": 1792145396.652057,
+  "55e77c526310cc43": 1792519338.8522263,
   "55f2280ae7bd213d": 1792440081.0859635,
   "5617179086a7693a": 1792431131.7100432,
   "566c764ecac6fb4b": 1792508488.7046292,
@@ -8252,6 +8337,7 @@
   "5d52524d6c56762d": 1792470684.6750398,
   "5d7dca5016a2ac6f": 1792148864.454799,
   "5d84ec15c8a9b581": 1792249928.513019,
+  "5daa5a9525fd48dc": 1792519352.750508,
   "5ddd6e6e6d05caf0": 1792514332.5151985,
   "5e1e4c10aefa2af7": 1791993942.2923877,
   "5e3257d5f1514894": 1792492252.585669,
@@ -8362,6 +8448,7 @@
   "6e57911a7743ad43": 1791926940.5305667,
   "6e62c6fbbcb8f5fa": 1791757296.5115497,
   "6e68a3f15db37bdb": 1792244062.2069013,
+  "6e80a2d619b36392": 1792519371.728134,
   "6e850be2a3ec9b38": 1792328480.261266,
   "6ec6c702654797e5": 1792148887.052842,
   "6f1378d23caae0e6": 1792485148.7564237,
@@ -8380,6 +8467,7 @@
   "71360d11b253ba22": 1792429278.6603212,
   "715d09ab5551dfcf": 1792442346.0926619,
   "717166b36946e343": 1792442034.9621325,
+  "71b604040512db9f": 1792519306.6300964,
   "71d02d29f603641f": 1791643484.7724442,
   "71e302cc8dad4844": 1792414916.6822224,
   "72391459be7cc1c5": 1791638758.692959,
@@ -8387,6 +8475,7 @@
   "72824c92e89aa6e4": 1792099090.951587,
   "7285ed3ab26c211d": 1792452653.2654438,
   "728805a2e5a9bb3f": 1792418623.9499154,
+  "7296523b15e7c982": 1792519257.0922356,
   "72c98e08d39d3d3a": 1792452699.7149482,
   "72d3a8732f3b2422": 1792413124.3567483,
   "72e1b3b52e200519": 1791636717.6413422,
@@ -8530,6 +8619,7 @@
   "83abdf4034c836d3": 1792089194.0217938,
   "83df1b64fdfb003b": 1791926710.9621716,
   "83e5e19401311e50": 1792432920.5902462,
+  "8406f972735456a8": 1792519306.6422756,
   "8442fb2812d42592": 1792270353.767999,
   "84acc8fc0e9c3907": 1792461674.6545494,
   "84ae8fe0be495528": 1792436517.1778715,
@@ -8937,6 +9027,7 @@
   "c100163a534ce5be": 1792164119.8180075,
   "c101ff17b0b0de30": 1792342924.1173863,
   "c120ab6576280753": 1792273188.0111985,
+  "c1d43043f66a2259": 1792519324.4675744,
   "c1e1e0489dd53b3a": 1792470687.448156,
   "c1e9a586cbd37999": 1791786711.99249,
   "c20bff1f13a6e7c1": 1792398882.7148302,
@@ -9001,6 +9092,7 @@
   "cb85b9df12fd9650": 1792101845.1452518,
   "cb8c4d670a463fc5": 1792303984.2358592,
   "cba9d3bb4d8930dc": 1792514127.140803,
+  "cbe4bc9a10750b30": 1792519410.4490438,
   "cbefbfbe094325b5": 1791853937.601349,
   "cbfd157f2712e4d3": 1792295972.044271,
   "cc04c60ddb8d9700": 1791894782.5493927,
@@ -9196,6 +9288,7 @@
   "e74d77496514b484": 1792099051.600866,
   "e74f16aff7c8f4f1": 1791969580.967872,
   "e77cf00f4e837f33": 1791989226.340799,
+  "e79e07bc05383583": 1792519386.1336036,
   "e7bb2a2d438030c2": 1792438374.8593967,
   "e7e162682d23a3e6": 1792145477.8874452,
   "e7ec2c1fc20d94fd": 1792360891.393675,
@@ -9300,6 +9393,7 @@
   "f8b4cc51cefcf7f6": 1792164131.4787815,
   "f8e3141096723162": 1792512549.7400305,
   "f90b427afcb07994": 1792510287.7665179,
+  "f90d154ea1990620": 1792519394.212179,
   "f9122fb12ee04e05": 1792326698.9894855,
   "f935b44df2271b87": 1792429313.9458187,
   "f94fdd8140b4a34d": 1791969263.0458302,
@@ -9801,7 +9895,7 @@
   ],
   "artists_checked": 1792505131.9465873,
   "blocked_until": 1792505103.1948092,
-  "cursor": 267,
+  "cursor": 277,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
     "0CVnhwtOpdoIkOatkGcVwO",
@@ -10539,7 +10633,7 @@
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 1,
-   "Polygon": 12
+   "Polygon": 13
   },
   "sources": {
    "/Film": 14,
@@ -10548,7 +10642,7 @@
    "Bloomberg": 19,
    "DOU": 2,
    "DOU Gamedev": 2,
-   "Deadline": 24,
+   "Deadline": 26,
    "Decibel": 5,
    "Digital Foundry": 2,
    "Distorted Sound": 5,
@@ -10557,7 +10651,7 @@
    "GamesIndustry.biz": 9,
    "GitHub Trending": 6,
    "Hugging Face": 2,
-   "IGN": 25,
+   "IGN": 28,
    "ITC.ua": 25,
    "IndieWire": 9,
    "Insider Gaming": 38,
@@ -10573,7 +10667,7 @@
    "Polygon": 15,
    "Product Hunt": 9,
    "Revolver": 1,
-   "Rock Paper Shotgun": 13,
+   "Rock Paper Shotgun": 14,
    "SteamDB": 1,
    "Stereogum": 3,
    "The Decoder": 10,
@@ -10582,9 +10676,9 @@
    "Variety": 6
   },
   "translators": {
-   "DeepL": 6,
+   "DeepL": 7,
    "gemini-flash-latest": 51,
-   "gemini-flash-lite-latest": 378
+   "gemini-flash-lite-latest": 387
   },
   "week": "2026-W43"
  },
@@ -10813,6 +10907,11 @@
    0,
    "",
    1792350083.7814329
+  ],
+  "q:1 0": [
+   5044640,
+   "思安α.1.0",
+   1792519374.2514403
   ],
   "q:1 1": [
    3376520,
@@ -11294,21 +11393,6 @@
    "",
    1792378904.2865205
   ],
-  "q:36": [
-   0,
-   "",
-   1792346500.502612
-  ],
-  "q:36 years": [
-   0,
-   "",
-   1792346499.969612
-  ],
-  "q:36 years later": [
-   0,
-   "",
-   1792346499.4491897
-  ],
   "q:4": [
    0,
    "",
@@ -11544,11 +11628,6 @@
    "",
    1792503096.034928
   ],
-  "q:6 year": [
-   0,
-   "",
-   1792344692.251475
-  ],
   "q:6's dating": [
    0,
    "",
@@ -11583,11 +11662,6 @@
    0,
    "",
    1792405902.3647072
-  ],
-  "q:680": [
-   0,
-   "",
-   1792344682.9313369
   ],
   "q:80s action thriller series is officially": [
    0,
@@ -11658,16 +11732,6 @@
    0,
    "",
    1792504999.325963
-  ],
-  "q:a f king long time": [
-   0,
-   "",
-   1792344688.7344427
-  ],
-  "q:a s t ton of prototypes": [
-   0,
-   "",
-   1792344689.3107715
   ],
   "q:abiotic factor": [
    427410,
@@ -12894,6 +12958,36 @@
    "",
    1792497727.712834
   ],
+  "q:collector": [
+   0,
+   "",
+   1792519358.2806356
+  ],
+  "q:collector's vinyl": [
+   0,
+   "",
+   1792519357.774545
+  ],
+  "q:collector's vinyl box": [
+   0,
+   "",
+   1792519357.2704968
+  ],
+  "q:collector's vinyl box set": [
+   0,
+   "",
+   1792519356.7788644
+  ],
+  "q:collector's vinyl box set available": [
+   0,
+   "",
+   1792519356.2865705
+  ],
+  "q:collector's vinyl box set available exclusively": [
+   0,
+   "",
+   1792519355.7887814
+  ],
   "q:company": [
    0,
    "",
@@ -12988,6 +13082,31 @@
    0,
    "",
    1792477952.3179457
+  ],
+  "q:copies": [
+   0,
+   "",
+   1792519311.4186232
+  ],
+  "q:copies of pikmin": [
+   0,
+   "",
+   1792519310.923776
+  ],
+  "q:copies of pikmin 4": [
+   0,
+   "",
+   1792519310.3382075
+  ],
+  "q:copies of pikmin 4 are": [
+   0,
+   "",
+   1792519309.82386
+  ],
+  "q:copies of pikmin 4 are down": [
+   0,
+   "",
+   1792519309.2757862
   ],
   "q:could become": [
    0,
@@ -13164,6 +13283,11 @@
    "",
    1792494162.1371825
   ],
+  "q:cyberpunk roguelite": [
+   0,
+   "",
+   1792519332.075093
+  ],
   "q:cyberpunk tcg": [
    0,
    "",
@@ -13304,20 +13428,30 @@
    "David.",
    1791994330.440943
   ],
-  "q:de niro's greatest gangster": [
-   0,
-   "",
-   1792346505.249789
+  "q:dayz badlands": [
+   3816030,
+   "DayZ Badlands",
+   1792519355.2651722
   ],
-  "q:de niro's greatest gangster movie": [
+  "q:dayz badlands collector": [
    0,
    "",
-   1792346504.7197566
+   1792519354.7657156
   ],
-  "q:de niro's greatest gangster movie quote": [
+  "q:dayz badlands collector's vinyl": [
    0,
    "",
-   1792346504.2042298
+   1792519354.247182
+  ],
+  "q:dayz badlands collector's vinyl box": [
+   0,
+   "",
+   1792519353.7575846
+  ],
+  "q:dayz badlands collector's vinyl box set": [
+   0,
+   "",
+   1792519353.2440522
   ],
   "q:dead space": [
    1693980,
@@ -13454,11 +13588,6 @@
    "",
    1792487067.6360347
   ],
-  "q:designer": [
-   0,
-   "",
-   1792344691.7172723
-  ],
   "q:destiny": [
    0,
    "",
@@ -13538,6 +13667,26 @@
    0,
    "",
    1792477958.1671507
+  ],
+  "q:digital copies": [
+   0,
+   "",
+   1792519308.7888377
+  ],
+  "q:digital copies of pikmin": [
+   0,
+   "",
+   1792519308.277084
+  ],
+  "q:digital copies of pikmin 4": [
+   0,
+   "",
+   1792519307.7427473
+  ],
+  "q:digital copies of pikmin 4 are": [
+   0,
+   "",
+   1792519307.216424
   ],
   "q:dino crisis": [
    4249130,
@@ -14034,6 +14183,21 @@
    "",
    1792479934.936483
   ],
+  "q:evolution": [
+   0,
+   "",
+   1792519344.798587
+  ],
+  "q:evolution of the first person": [
+   0,
+   "",
+   1792519344.2881484
+  ],
+  "q:evolution of the first person shooter'": [
+   0,
+   "",
+   1792519343.7943084
+  ],
   "q:ex call of duty": [
    0,
    "",
@@ -14243,6 +14407,26 @@
    0,
    "",
    1792514054.62369
+  ],
+  "q:first": [
+   0,
+   "",
+   1792519328.0231645
+  ],
+  "q:first person": [
+   0,
+   "",
+   1792519345.8214443
+  ],
+  "q:first person shooter'": [
+   0,
+   "",
+   1792519345.3167772
+  ],
+  "q:first preview": [
+   0,
+   "",
+   1792519327.519205
   ],
   "q:five": [
    0,
@@ -15634,6 +15818,21 @@
    "",
    1792510538.2061603
   ],
+  "q:it represents": [
+   0,
+   "",
+   1792519341.8373973
+  ],
+  "q:it represents an evolution": [
+   0,
+   "",
+   1792519341.3377607
+  ],
+  "q:it represents an evolution of the first person shooter": [
+   0,
+   "",
+   1792519340.8422594
+  ],
   "q:it ruined eating": [
    0,
    "",
@@ -16594,6 +16793,11 @@
    "",
    1792429310.0601344
   ],
+  "q:mycopunk": [
+   3247750,
+   "Mycopunk",
+   1792519373.7129068
+  ],
   "q:navi": [
    0,
    "",
@@ -17169,11 +17373,6 @@
    "Outlast",
    1792344690.5935159
   ],
-  "q:outlast trials'": [
-   0,
-   "",
-   1792344690.0600433
-  ],
   "q:over the hill": [
    2929250,
    "over the hill",
@@ -17243,6 +17442,26 @@
    0,
    "",
    1792492416.2794542
+  ],
+  "q:parrying": [
+   0,
+   "",
+   1792519330.0096083
+  ],
+  "q:parrying through": [
+   0,
+   "",
+   1792519329.5233161
+  ],
+  "q:parrying through the cyberpunk": [
+   0,
+   "",
+   1792519329.02858
+  ],
+  "q:parrying through the cyberpunk roguelite": [
+   0,
+   "",
+   1792519328.5194125
   ],
   "q:partnered": [
    0,
@@ -17428,6 +17647,21 @@
    0,
    "",
    1792447286.1332831
+  ],
+  "q:pikmin 4 are": [
+   0,
+   "",
+   1792519312.9769459
+  ],
+  "q:pikmin 4 are down": [
+   0,
+   "",
+   1792519312.4429076
+  ],
+  "q:pikmin 4 are down to 40": [
+   0,
+   "",
+   1792519311.9515624
   ],
   "q:planet zoo 2": [
    3219030,
@@ -17899,6 +18133,16 @@
    "",
    1792418550.8326437
   ],
+  "q:reblade the death spiral": [
+   3489340,
+   "ReBlade: The Death Spiral",
+   1792519326.9668884
+  ],
+  "q:reblade the death spiral first": [
+   0,
+   "",
+   1792519326.4792495
+  ],
   "q:reboot": [
    0,
    "",
@@ -18013,6 +18257,21 @@
    0,
    "",
    1792447307.3885183
+  ],
+  "q:represents": [
+   0,
+   "",
+   1792519343.3001544
+  ],
+  "q:represents an evolution": [
+   0,
+   "",
+   1792519342.8107798
+  ],
+  "q:represents an evolution of the first person": [
+   0,
+   "",
+   1792519342.3248553
   ],
   "q:resident evil": [
    304240,
@@ -18183,36 +18442,6 @@
    0,
    "",
    1792380684.9666622
-  ],
-  "q:robert": [
-   0,
-   "",
-   1792346503.70744
-  ],
-  "q:robert de": [
-   0,
-   "",
-   1792346503.1603866
-  ],
-  "q:robert de niro": [
-   0,
-   "",
-   1792346502.6339688
-  ],
-  "q:robert de niro's greatest": [
-   0,
-   "",
-   1792346502.1336756
-  ],
-  "q:robert de niro's greatest gangster": [
-   0,
-   "",
-   1792346501.6300268
-  ],
-  "q:robert de niro's greatest gangster movie": [
-   0,
-   "",
-   1792346501.00696
   ],
   "q:roblox": [
    0,
@@ -18593,6 +18822,11 @@
    0,
    "",
    1792429325.7114973
+  ],
+  "q:shooter'": [
+   0,
+   "",
+   1792519346.3544207
   ],
   "q:silent": [
    0,
@@ -19339,6 +19573,21 @@
    "",
    1792432913.355285
   ],
+  "q:through": [
+   0,
+   "",
+   1792519331.5761266
+  ],
+  "q:through the cyberpunk": [
+   0,
+   "",
+   1792519331.014626
+  ],
+  "q:through the cyberpunk roguelite": [
+   0,
+   "",
+   1792519330.5204942
+  ],
   "q:times": [
    0,
    "",
@@ -19423,11 +19672,6 @@
    0,
    "",
    1792431216.549775
-  ],
-  "q:trials'": [
-   0,
-   "",
-   1792344691.162977
   ],
   "q:twist on the movie's iconic": [
    0,
@@ -19698,6 +19942,11 @@
    0,
    "",
    1792400588.7252097
+  ],
+  "q:vinyl box set available exclusively": [
+   0,
+   "",
+   1792519358.7781177
   ],
   "q:virtual k pop group": [
    0,
@@ -20348,10 +20597,9 @@
  "tag_hints": {
   "Mezha": [
    "apple",
-   "chatgpt",
    "devdroid",
    "iphone duo",
-   "openai",
+   "oneplus",
    "samsung",
    "spotify",
    "steam",
@@ -20386,26 +20634,6 @@
   ]
  },
  "titles": [
-  [
-   1792346480.6448474,
-   "Judas Priest Launches Virtual Scrapbook Detailing Band's Early Years"
-  ],
-  [
-   1792346490.111036,
-   "Battlefield 6 devs to fix \"Secuty\" skin typo, but five-pistol outfit was intentional"
-  ],
-  [
-   1792346493.082648,
-   "Tom Arnold Denies Chuck Lorre’s Claim That He Made Writers Put His Name On ‘Roseanne’ Scripts: “Never”"
-  ],
-  [
-   1792346497.3570664,
-   "Haywire Announce Rescheduled Australian Tour Ahead Of A Run With Rise Against & Dropkick Murphys"
-  ],
-  [
-   1792346508.1317124,
-   "36 Years Later, Robert De Niro's Greatest Gangster Movie Quote Is Still One of a Kind"
-  ],
   [
    1792347119.762531,
    "Deathstroke's Canceled DCEU Movie Storylines Explained By Joe Manganiello"
@@ -22369,29 +22597,33 @@
   [
    1792517862.0144997,
    "Alden Ehrenreich Has a Lot of Opinions About His Career — and About Steve Urkel"
+  ],
+  [
+   1792519324.4675763,
+   "Digital Copies of Pikmin 4 Are Down to $40 Ahead of Switch 2 Upgrade"
+  ],
+  [
+   1792519338.8522284,
+   "ReBlade: The Death Spiral First Preview – Parrying Through the Cyberpunk Roguelite"
+  ],
+  [
+   1792519371.7281353,
+   "DayZ Badlands Collector's Vinyl Box Set Available Exclusively at IGN Store"
+  ],
+  [
+   1792519386.1336057,
+   "I know you probably don't have mushroom in your backlog, but fungus looter shooter Mycopunk is now out in 1.0 and looks like the opposite of a shiitake time"
+  ],
+  [
+   1792519394.2121809,
+   "Jay-Z Looks To Have Picked Jay-Z To Headline 2027 Super Bowl Halftime Show"
+  ],
+  [
+   1792519403.1627307,
+   "Christopher Nolan’s ‘The Prestige’ Sets 20th Anniversary Re-Release For 2027"
   ]
  ],
  "titles_uk": [
-  [
-   1792346480.644848,
-   "Judas Priest запустили віртуальний скрапбук про ранні роки гурту"
-  ],
-  [
-   1792346490.1110377,
-   "Розробники Battlefield 6 виправлять помилку в скіні, але п'ять пістолетів залишать"
-  ],
-  [
-   1792346493.082649,
-   "Том Арнольд заперечив заяви Чак Лоррі щодо сценаріїв для Roseanne"
-  ],
-  [
-   1792346497.3570676,
-   "Haywire перенесли австралійський тур після проблем із візами"
-  ],
-  [
-   1792346508.1317136,
-   "Культова цитата Роберта Де Ніро з Goodfellas залишається унікальною"
-  ],
   [
    1792347119.7625322,
    "Джо Манганьєлло розповів про купу скасованих проєктів із Deathstroke для DCEU"
@@ -24355,6 +24587,30 @@
   [
    1792517862.0145,
    "Олден Еренрайх обговорює свою кар'єру та новий фільм"
+  ],
+  [
+   1792519324.4675777,
+   "Цифрові копії Pikmin 4 подешевшали до $40 напередодні апгрейду для Switch 2"
+  ],
+  [
+   1792519338.8522294,
+   "Вийшов прев'ю-огляд кіберпанк-рогалайку ReBlade: The Death Spiral"
+  ],
+  [
+   1792519371.7281363,
+   "Колекційний вініловий бокссет DayZ Badlands ексклюзивно з'явився в IGN Store"
+  ],
+  [
+   1792519386.1336067,
+   "Кооперативний looter shooter Mycopunk вийшов у версії 1.0"
+  ],
+  [
+   1792519394.2121816,
+   "Jay-Z стане хедлайнером шоу в перерві Super Bowl 2027"
+  ],
+  [
+   1792519403.1627321,
+   "Фільм The Prestige Крістофера Нолана повернеться в кінотеатри до 20-річчя"
   ]
  ],
  "ukrainian": {
