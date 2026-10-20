@@ -1,8 +1,15 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:software|AIN.ua|https://ain.ua/feed/": {
+   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «AIN.ua» не працює",
+   "sent": 0,
+   "since": 1792495901.8984482
+  }
+ },
  "daily_digest_date": "2026-10-19",
  "freebies": {
-  "last_check": 1792488828.379774,
+  "last_check": 1792496097.9622056,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -11,12 +18,12 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-20 11:04 UTC",
-  "gemini_error": "",
+  "at": "2026-10-20 11:34 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 9
+   "gemini-flash-lite-latest": 4
   },
   "used": [
    "Gemini"
@@ -4985,7 +4992,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/3486530/\">Stupid Never Dies</a> виявилася найгіршою грою 2026 року</b>\n\n🔗 <a href=\"https://www.polygon.com/stupid-never-dies-review/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/stupid-never-dies-review/",
     "orig": "Stupid Never Dies Is Easily the Worst Game of 2026"
@@ -4999,7 +5005,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Гітарист Rival Sons Скотт Голідей випустив сольний дебют Topology</b>\n\nГітарист Rival Sons Скотт Голідей випустив сольний дебютний альбом під назвою Topology. Платівка натхнена психоделічною музикою, пустельними пейзажами та ранніми спогадами музиканта про творчість Pink Floyd і The Beatles. У релізі поєднуються кінематографічне звучання та фірмові гітарні тони автора.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/i-love-that-band-i-feel-like-theyve-never-made-anything-bad-rival-sons-scott-holiday-picks-the-soundtrack-of-his-life\">Metal Hammer (Louder)</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/i-love-that-band-i-feel-like-theyve-never-made-anything-bad-rival-sons-scott-holiday-picks-the-soundtrack-of-his-life",
     "orig": "Rival Sons' Scott Holiday: The soundtrack of my life"
@@ -5013,7 +5018,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Творець Dark Sun для D&amp;D пояснив, чому цей суперечливий всесвіт «не є політичним»</b>\n\nТім Браун розповів про створення Dark Sun, пов&#x27;язані з цим суто українським… скандали та майбутнього «духовного спадкоємця» Dragon Kings\n\n🔗 <a href=\"https://www.polygon.com/dnd-dungeons-dragons-dark-sun-creator-original-setting-political-interview-dragon-kings/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/dnd-dungeons-dragons-dark-sun-creator-original-setting-political-interview-dragon-kings/",
     "orig": "D&D’s Dark Sun Creator Reveals Why the Controversial Setting Is ‘Not Political’"
@@ -5027,7 +5031,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Голова Tenstorrent Джим Келлер розповів про новий раунд фінансування та розвиток ШІ</b>\n\nШістдесят п&#x27;ятий генеральний директор Tenstorrent Джим Келлер розповів про раунд фінансування компанії на $1,5 мільярда, що оцінює її у $6,2 мільярда. Стартап зосереджений на масштабуванні серверної програми Galaxy та розробці інтелектуальної власності у сфері ШІ, а не на продажі.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-19/tenstorrent-ceo-on-new-funding-round-ai-progress-video\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-10-19/tenstorrent-ceo-on-new-funding-round-ai-progress-video",
     "orig": "Tenstorrent CEO on New Funding Round, AI Progress"
@@ -5041,7 +5044,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Star Wars отримає анімаційний алткаст на Super Bowl LXI</b>\n\nESPN, Lucasfilm та NFL готують першу анімаційну трансляцію Super Bowl у стилі Star Wars на Disney+, Disney Channel та Disney XD. 14 лютого культові персонажі франшизи з&#x27;являться поряд із гравцями, а матчі відтворять у реальному часі у вигляді анімації.\n\n🔗 <a href=\"https://deadline.com/2026/10/star-wars-super-bowl-2027-altcast-disney-nfl-1237168321/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/star-wars-super-bowl-2027-altcast-disney-nfl-1237168321/",
     "orig": "‘Star Wars’ Headed To Super Bowl LXI For Animated Altcast On Disney+, Disney Channel and Disney XD"
@@ -5055,7 +5057,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Майкл Дуглас просив Marvel вбити його персонажа в Ant-Man</b>\n\nМайкл Дуглас хотів залишити кіновсесвіт Marvel після сиквелу Ant-Man та просив студію позбутися його героя. Актор хотів спробувати зніматися на зеленому екрані, проте згодом контракт не дозволив йому вийти з франшизи.\n\n🔗 <a href=\"https://deadline.com/2026/10/michael-douglas-killed-off-marvel-ant-man-1237168330/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/michael-douglas-killed-off-marvel-ant-man-1237168330/",
     "orig": "Michael Douglas Asked To Be Killed Off Marvel’s ‘Ant-Man’: “They Wouldn’t Let Me”"
@@ -5835,6 +5836,90 @@
     "link": "https://www.videogameschronicle.com/news/vgc-took-its-first-live-show-to-glasgow-and-what-a-night-it-was/",
     "orig": "VGC took its first live show to Glasgow – and what a night it was"
    }
+  ],
+  [
+   1792496068.990305,
+   1381,
+   "🤖",
+   "MPS у PyTorch 2.15",
+   "Hugging Face",
+   {
+    "also": [],
+    "caption": "🤖 <b>MPS у PyTorch 2.15</b>\n\n🔗 <a href=\"https://huggingface.co/blog/mps-pytorch-2-15\">Hugging Face</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://huggingface.co/blog/mps-pytorch-2-15",
+    "orig": "MPS in PyTorch 2.15"
+   }
+  ],
+  [
+   1792496072.9840248,
+   1382,
+   "🎮",
+   "Abiotic Factor отримає офіційні моди та DLC у тропічному сеттингу",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/427410/\">Abiotic Factor</a> отримає офіційні моди та DLC у тропічному сеттингу</b>\n\nРозробники Deep Field анонсували план підтримки виживання Abiotic Factor на другий рік. На гравців чекають повна підтримка модінгу з власним браузером, зимове оновлення з новими фермерськими можливостями та платне DLC Entropic Break, яке перенесе наукову команду до тропічного Leaf Test Facility з новими ворогами й світами-порталами.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/abiotic-factors-second-year-of-updates-confirmed-to-include-official-mod-support-and-a-dlc-taking-science-to-the-tropics\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/abiotic-factors-second-year-of-updates-confirmed-to-include-official-mod-support-and-a-dlc-taking-science-to-the-tropics",
+    "orig": "Abiotic Factor's second year of updates confirmed to include official mod support and a DLC taking science to the tropics"
+   }
+  ],
+  [
+   1792496079.0644207,
+   1383,
+   "🎮",
+   "Новий бандл на Fanatical пропонує ігри для Steam від $1",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>Новий бандл на Fanatical пропонує ігри для Steam від $1</b>\n\nЦифрова платформа Fanatical запустила акцію Build Your Own Killer Bundle, де можна обрати до 30 ігор для Steam від $1 за штуку. Серед доступних проєктів — RoboCop: Rogue City, Rain World та Planescape: Torment: Enhanced Edition. Пропозиція діє до 31 жовтня.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/fanaticals-latest-killer-bundle-lets-you-pick-up-30-steam-games-for-1-each/\">VGC</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/fanaticals-latest-killer-bundle-lets-you-pick-up-30-steam-games-for-1-each/",
+    "orig": "Fanatical’s latest Killer Bundle lets you pick up 30 Steam games for $1 each"
+   }
+  ],
+  [
+   1792496082.9171598,
+   1384,
+   "🎮",
+   "Switch Lab об'єднує звуки 100 клавіатурних світчів та ігрові механіки",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Switch Lab об&#x27;єднує звуки 100 клавіатурних світчів та ігрові механіки</b>\n\nSwitch Lab — це нова браузерна бібліотека звуків, яка містить 100 різних світчів від Cherry, Gateron, Outemu та інших виробників. Проєкт пропонує порівнювати звучання, тестувати віртуальні клавіатури, а також містить незвичні механіки на кшталт щоденних бонусів за вхід для розблокування нових звуків і мініігри.\n\n🔗 <a href=\"https://www.pcgamer.com/hardware/gaming-keyboards/this-sound-library-catalogues-100-different-keyboard-switches-is-dangerous-for-my-wallet-and-also-has-live-service-game-mechanics/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/hardware/gaming-keyboards/this-sound-library-catalogues-100-different-keyboard-switches-is-dangerous-for-my-wallet-and-also-has-live-service-game-mechanics/",
+    "orig": "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics?"
+   }
+  ],
+  [
+   1792496084.9823887,
+   1385,
+   "🎬",
+   "\"Звідти неможливо вирватися\": Майкл Дуглас про контракт із Marvel",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎬 <b>&quot;Звідти неможливо вирватися&quot;: Майкл Дуглас про контракт із Marvel</b>\n\nЯкби усе залежало лише від бажання Майкла Дугласа, актор залишив би кіновсесвіт Marvel (MCU) задовго до виходу останніх блокбастерів. Володар двох премій “Оскар” відверто розповів про свій досвід співпраці зі студією та зізнався, що особисто просив керівництво вбити його персонажа — творця костюма Людини-мурахи Генка Піма, — ще після другого сольного фільму.\n\n🔗 <a href=\"https://itc.ua/ua/novini/zvidty-nemozhlyvo-vyrvatysya-majkl-duglas-pro-kontrakt-iz-marvel/\">ITC.ua</a>\n\n#кіно_і_серіали",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/zvidty-nemozhlyvo-vyrvatysya-majkl-duglas-pro-kontrakt-iz-marvel/",
+    "orig": "\"Звідти неможливо вирватися\": Майкл Дуглас про контракт із Marvel"
+   }
+  ],
+  [
+   1792496089.1838768,
+   1386,
+   "🤘",
+   "Travis Barker вплинув на більшість популярних барабанщиків за останні 30 років",
+   "Kerrang!",
+   {
+    "also": [],
+    "caption": "🤘 <b>Travis Barker вплинув на більшість популярних барабанщиків за останні 30 років</b>\n\nБіллі Корган у подкасті The Magnificent Others назвав Travis Barker найвпливовішим барабанщиком останніх тридцяти років. Музикант зазначив, що жоден інший ударник не сформував таку кількість популярних виконавців.\n\n🔗 <a href=\"https://www.kerrang.com/blink-182-are-headlining-graspop-in-belgium-next-year\">Kerrang!</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.kerrang.com/blink-182-are-headlining-graspop-in-belgium-next-year",
+    "orig": "blink-182 are headlining Graspop in Belgium next year"
+   }
   ]
  ],
  "posted_by_source": {
@@ -5848,6 +5933,9 @@
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1792405876.2595813
+  ],
+  "ai|Hugging Face|https://huggingface.co/blog/feed.xml": [
+   1792496068.9906907
   ],
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
    1792422121.0372677,
@@ -5963,7 +6051,6 @@
    1792445501.3890154
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1792409512.526033,
    1792411292.7920527,
    1792413134.7675116,
    1792423941.3579304,
@@ -5976,7 +6063,8 @@
    1792490505.8083992,
    1792492285.7157235,
    1792492410.6358323,
-   1792494159.9224753
+   1792494159.9224753,
+   1792496082.9175315
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1792414920.06756,
@@ -5997,8 +6085,6 @@
    1792490537.1860683
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
-   1792407700.4833815,
-   1792409519.2518077,
    1792414943.9264925,
    1792416717.2060504,
    1792422282.101406,
@@ -6006,7 +6092,8 @@
    1792427702.6738353,
    1792431169.6112857,
    1792490486.7294486,
-   1792492417.8062487
+   1792492417.8062487,
+   1792496072.9843764
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1792342915.0633976
@@ -6015,7 +6102,8 @@
    1792413149.438429,
    1792418602.6874003,
    1792423967.955111,
-   1792494236.046532
+   1792494236.046532,
+   1792496079.0648017
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1792450892.300594,
@@ -6049,7 +6137,8 @@
    1792411307.9702666,
    1792429313.945905,
    1792481489.2050688,
-   1792492403.225274
+   1792492403.225274,
+   1792496084.9827945
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
    1792423944.5674713,
@@ -6105,12 +6194,12 @@
    1792488807.5711834
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
-   1792409500.9461818,
    1792411305.960925,
    1792413153.96252,
    1792422345.3332708,
    1792490491.2004619,
-   1792494223.27013
+   1792494223.27013,
+   1792496089.1842568
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
    1792427707.0259013,
@@ -6283,6 +6372,7 @@
   "07c9a77e54e23e67": 1791642308.7748382,
   "07ceeae3552d214e": 1792396888.81124,
   "07dd898bc8033033": 1792380689.030678,
+  "07f114f11bf91819": 1792496082.9174666,
   "07fda0469597f90a": 1792281245.7376587,
   "082b01c9d624c1bb": 1791931200.4147167,
   "083d62d21cc065ec": 1792296010.2321,
@@ -6585,6 +6675,7 @@
   "3a4ad9e5ba46f862": 1792256281.4254203,
   "3a67d6a3151c4831": 1791908397.4775882,
   "3a8c60526d1f5f9b": 1792407741.8355472,
+  "3a97d930da3fd44d": 1792495905.31809,
   "3a98d0f20fe899fb": 1792097666.27991,
   "3aaf38d7c93f3727": 1792163995.533491,
   "3ad9c4ef69beaa88": 1791894747.2247603,
@@ -6618,6 +6709,7 @@
   "3e4f40043af20792": 1792423973.5457761,
   "3e67463337f735dd": 1792071044.4784656,
   "3e9db8c8a29c6e2f": 1792365656.5516837,
+  "3eb18e5ff7f2a0ef": 1792496068.9906518,
   "3f21f0ba37b17d89": 1792306077.939511,
   "3f2a07bbbfb81496": 1792129247.2306335,
   "3f40d4eb104369be": 1792249916.3507986,
@@ -6755,6 +6847,7 @@
   "53c62bd0c6f25858": 1791807526.4589036,
   "540502655c3ad7a5": 1792407652.7428136,
   "5446ec301e9e4371": 1792111180.3037887,
+  "54860a88ade12bab": 1792496089.1842127,
   "54a9a8bd54d562f8": 1791966911.0236287,
   "54c0fc731ad33f7c": 1792145482.1827884,
   "54fd41d02aa219ba": 1792097674.943652,
@@ -6797,6 +6890,7 @@
   "5b2b1d9ad90c48a6": 1792459885.441514,
   "5b5de6947a8df5a4": 1792427684.4318216,
   "5b6effa0896b447b": 1792099080.532876,
+  "5b896091ecaaf61c": 1792496084.9827569,
   "5bbdd3b8d4f89892": 1792342906.3803601,
   "5bcd0ce3010222bf": 1791750719.4009652,
   "5bd4f53d4638e660": 1792097638.3043296,
@@ -7330,6 +7424,7 @@
   "adbef724cb274560": 1792306879.8346796,
   "add5bd44c0bbb083": 1792164208.800719,
   "adf7db655a8259fb": 1792295989.4994938,
+  "ae05d5b4c94a1868": 1792496079.0647616,
   "ae11c2e7a75a83f3": 1792494223.270085,
   "ae3e59418abf5172": 1791989243.3478537,
   "ae3f827b4583586d": 1792264341.8558543,
@@ -7455,6 +7550,7 @@
   "c2ba13431d953180": 1791989316.8723025,
   "c348a3993b4f6ebe": 1792229938.8150218,
   "c3670d5d5af0ed48": 1792249899.7766032,
+  "c370fe89c1c9487e": 1792496072.9843318,
   "c38987d62b007a97": 1792427618.80404,
   "c3d15a47e5b8acfb": 1792481489.2050264,
   "c3d1e2b291ad493c": 1792442029.667126,
@@ -7595,6 +7691,7 @@
   "d9a330be03ad95ec": 1792197850.3807788,
   "d9aa5779874ef777": 1792413121.969529,
   "d9f44c45d290115b": 1792246857.3589647,
+  "da09ec83c007850f": 1792495905.3143945,
   "da0af8c10cc10c09": 1792099075.9052477,
   "da200d4eb98f67c4": 1792188168.0155032,
   "da3f9d1a11deb79f": 1792246836.2233093,
@@ -9031,33 +9128,34 @@
    "GameSpot": 12,
    "GamesIndustry.biz": 8,
    "GitHub Trending": 6,
+   "Hugging Face": 1,
    "IGN": 18,
-   "ITC.ua": 19,
+   "ITC.ua": 20,
    "IndieWire": 6,
    "Insider Gaming": 32,
-   "Kerrang!": 8,
+   "Kerrang!": 9,
    "Lambgoat": 10,
    "Loudwire": 9,
    "Metal Hammer (Louder)": 9,
    "Metal Injection": 1,
    "Mezha": 20,
-   "PC Gamer": 17,
+   "PC Gamer": 18,
    "Pitchfork": 2,
    "PlayUA": 12,
    "Polygon": 15,
    "Product Hunt": 9,
    "Revolver": 1,
-   "Rock Paper Shotgun": 10,
+   "Rock Paper Shotgun": 11,
    "Stereogum": 3,
    "The Decoder": 5,
    "ThePRP": 13,
-   "VGC": 6,
+   "VGC": 7,
    "Variety": 6
   },
   "translators": {
    "DeepL": 5,
-   "gemini-flash-latest": 46,
-   "gemini-flash-lite-latest": 285
+   "gemini-flash-latest": 47,
+   "gemini-flash-lite-latest": 289
   },
   "week": "2026-W43"
  },
@@ -9356,6 +9454,11 @@
    0,
    "",
    1792378878.5744624
+  ],
+  "q:100": [
+   0,
+   "",
+   1792496081.038629
   ],
   "q:103 000": [
    0,
@@ -9661,6 +9764,16 @@
    0,
    "",
    1792465285.152382
+  ],
+  "q:30": [
+   0,
+   "",
+   1792496077.091228
+  ],
+  "q:30 steam": [
+   0,
+   "",
+   1792496076.6037788
   ],
   "q:31": [
    0,
@@ -9991,6 +10104,11 @@
    0,
    "",
    1792344689.3107715
+  ],
+  "q:abiotic factor": [
+   427410,
+   "Abiotic Factor",
+   1792496071.0246787
   ],
   "q:access": [
    0,
@@ -10806,6 +10924,11 @@
    3184420,
    "Bullet Ballet",
    1792418629.8256197
+  ],
+  "q:bundle": [
+   0,
+   "",
+   1792496076.1214404
   ],
   "q:bungie": [
    0,
@@ -13857,6 +13980,16 @@
    "",
    1792353686.7725446
   ],
+  "q:killer": [
+   0,
+   "",
+   1792496075.4596303
+  ],
+  "q:killer bundle": [
+   0,
+   "",
+   1792496074.989063
+  ],
   "q:kingdom": [
    0,
    "",
@@ -15491,11 +15624,6 @@
    3498720,
    "Rain98",
    1792281227.8248696
-  ],
-  "q:ran out of the studio to go cry outside": [
-   0,
-   "",
-   1792323076.9988608
   ],
   "q:real": [
    0,
@@ -17814,16 +17942,15 @@
    "mavic 3 pro",
    "netflix",
    "openai",
+   "xiaomi",
+   "xiaomi 18 pro",
    "армія сша",
    "бпла",
    "бізнес",
    "держспецзв’язку",
    "дрони",
    "канада",
-   "китай",
-   "кораблі",
    "корупція",
-   "морські дрони",
    "набу",
    "новини",
    "новини партнерів",
@@ -17833,24 +17960,16 @@
    "ппо",
    "ракети",
    "розвіддрон",
+   "смартфони",
    "софт",
    "соціальні мережі",
    "стримінгові сервіси",
-   "флот",
    "штучний інтелект",
    "ігри",
    "інтернет"
   ]
  },
  "titles": [
-  [
-   1792321529.8739958,
-   "Two German courts now hold Google liable for what its AI overviews say"
-  ],
-  [
-   1792323120.4642823,
-   "Outlast designer says that one playtester was so upset by the horror series they 'ran out of the studio to go cry outside' and didn't return"
-  ],
   [
    1792324878.8004105,
    "America's Dominance in The Game Awards Is Officially Over"
@@ -19634,17 +19753,33 @@
   [
    1792494236.0464869,
    "VGC took its first live show to Glasgow – and what a night it was"
+  ],
+  [
+   1792496068.9906535,
+   "MPS in PyTorch 2.15"
+  ],
+  [
+   1792496072.984333,
+   "Abiotic Factor's second year of updates confirmed to include official mod support and a DLC taking science to the tropics"
+  ],
+  [
+   1792496079.064763,
+   "Fanatical’s latest Killer Bundle lets you pick up 30 Steam games for $1 each"
+  ],
+  [
+   1792496082.9174678,
+   "This sound library catalogues 100 different keyboard switches, is dangerous for my wallet, and also has… live service game mechanics?"
+  ],
+  [
+   1792496084.9827583,
+   "\"Звідти неможливо вирватися\": Майкл Дуглас про контракт із Marvel"
+  ],
+  [
+   1792496089.184214,
+   "blink-182 are headlining Graspop in Belgium next year"
   ]
  ],
  "titles_uk": [
-  [
-   1792321529.873997,
-   "Два німецькі суди визнали Google відповідальною за відповіді AI Overviews"
-  ],
-  [
-   1792323120.4644217,
-   "Співзасновник Red Barrels: тестувальник Outlast утік зі студії в сльозах і не повернувся"
-  ],
   [
    1792324878.800412,
    "США втратили статус лідера за кількістю голосів у журі The Game Awards"
@@ -21428,6 +21563,30 @@
   [
    1792494236.0464876,
    "VGC провела своє перше живе шоу в Глазго"
+  ],
+  [
+   1792496068.9906542,
+   "MPS у PyTorch 2.15"
+  ],
+  [
+   1792496072.984334,
+   "Abiotic Factor отримає офіційні моди та DLC у тропічному сеттингу"
+  ],
+  [
+   1792496079.0647635,
+   "Новий бандл на Fanatical пропонує ігри для Steam від $1"
+  ],
+  [
+   1792496082.9174688,
+   "Switch Lab об'єднує звуки 100 клавіатурних світчів та ігрові механіки"
+  ],
+  [
+   1792496084.9827592,
+   "\"Звідти неможливо вирватися\": Майкл Дуглас про контракт із Marvel"
+  ],
+  [
+   1792496089.184215,
+   "Travis Barker вплинув на більшість популярних барабанщиків за останні 30 років"
   ]
  ],
  "ukrainian": {
@@ -23636,7 +23795,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792492428.3770657,
+  "last_check": 1792496097.8692598,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
