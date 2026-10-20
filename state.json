@@ -2,7 +2,7 @@
  "alerts": {},
  "daily_digest_date": "2026-10-19",
  "freebies": {
-  "last_check": 1792503182.6994095,
+  "last_check": 1792510654.5334833,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -11,13 +11,14 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-20 15:05 UTC",
-  "gemini_error": "",
+  "at": "2026-10-20 15:37 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 8
+   "gemini-flash-lite-latest": 6
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
@@ -5718,7 +5719,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Battlestate Games послабила нового надто складного боса в Escape from Tarkov</b>\n\nРозробники випустили балансний патч для Escape from Tarkov, який зменшив силу нового боса Scourge на локації The Lab. Також студія продовжила івент до 26 жовтня та додала нове досягнення для учасників події.\n\n🔗 <a href=\"https://insider-gaming.com/tarkov-update-fixes-new-boss-labs-scourge/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/tarkov-update-fixes-new-boss-labs-scourge/",
     "orig": "Tarkov Update ‘Fixes’ Hugely Overpowered New Boss on Labs"
@@ -5732,7 +5732,6 @@
    "GameSpot",
    {
     "also": [],
-    "caption": "🎮 <b>Другий сезон Cyberpunk: Edgerunners отримав ще більш експериментальну анімацію від Studio Trigger</b>\n\nРежисер Кай Ікарасі зробив візуальний стиль другого сезону аніме ще сміливішим, використавши абстрактні форми та експериментальні анімаційні техніки для зображення Night City. Над анімацією знову працює Studio Trigger.\n\n🔗 <a href=\"https://www.gamespot.com/articles/cyberpunk-edgerunners-season-2-is-more-punk-rock-than-blockbuster/\">GameSpot</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamespot.com/articles/cyberpunk-edgerunners-season-2-is-more-punk-rock-than-blockbuster/",
     "orig": "Cyberpunk: Edgerunners Season 2 Is More Punk Rock Than Blockbuster"
@@ -5746,7 +5745,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b>Japan <a href=\"https://store.steampowered.com/app/5151960/\">Actors</a> Union представила правила захисту голосу від генеративного ШІ</b>\n\nJapan Actors Union опублікувала нові рекомендації щодо боротьби з несанкціонованим копіюванням голосів за допомогою генеративного ШІ. Документ вимагає згоди акторів на кожному етапі, виплат додаткових гонорарів за клонування виступів та захисту прав під час автоперекладів.\n\n🔗 <a href=\"https://www.gamesindustry.biz/japan-actors-union-announces-guidelines-addressing-unauthorised-use-of-generative-ai-for-voice-acting\">GamesIndustry.biz</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/japan-actors-union-announces-guidelines-addressing-unauthorised-use-of-generative-ai-for-voice-acting",
     "orig": "Japan Actors Union announces guidelines addressing unauthorised use of generative AI to replicate voice performances"
@@ -5760,7 +5758,6 @@
    "Kerrang!",
    {
     "also": [],
-    "caption": "🤘 <b>A Perfect Circle випустили новий сингл To Whom It May Concern</b>\n\nГурт A Perfect Circle презентував новий сингл To Whom It May Concern. Гітарист Біллі Гавердел заінтригував фанатів новиною про те, що колектив готує ще більше нової музики.\n\n🔗 <a href=\"https://www.kerrang.com/sonic-temple-announces-more-bands-for-2027-including-president-a-perfect-circle-and-primus\">Kerrang!</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.kerrang.com/sonic-temple-announces-more-bands-for-2027-including-president-a-perfect-circle-and-primus",
     "orig": "Sonic Temple announces more bands for 2027, including PRESIDENT, A Perfect Circle and Primus"
@@ -5774,7 +5771,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>DLC Charting the Unknown для <a href=\"https://store.steampowered.com/app/3321460/\">Crimson Desert</a> виходить 29 жовтня</b>\n\nРозробник Pearl Abyss оголосив дату релізу першого DLC Charting the Unknown для RPG Crimson Desert. Доповнення вийде 29 жовтня о 10:00 UTC та запропонурує гравцям нові дослідження за межами знайомих локацій Pywel.\n\n🔗 <a href=\"https://insider-gaming.com/crimson-desert-enhanced-charting-the-unknown-dlc-release/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/crimson-desert-enhanced-charting-the-unknown-dlc-release/",
     "orig": "Crimson Desert: Charting the Unknown DLC Release Date & Times"
@@ -6114,6 +6110,10 @@
      [
       "IGN",
       "https://www.ign.com/articles/former-black-ops-dev-wants-royalties"
+     ],
+     [
+      "Insider Gaming",
+      "https://insider-gaming.com/ikea-xbox-yxstaby-collection-online/"
      ]
     ],
     "caption": "🎮 <b>Менеджер Xbox відкрито підтримав ШІ в іграх: тепер його акаунт недоступний</b>\n\nСтарший менеджер Microsoft із бізнес-стратегії Брендон Стірруп заявив, що ігрова індустрія надто повільно впроваджує штучний інтелект через негативне ставлення гравців. Він також розповів, що створив просту гру за допомогою ШІ лише за два дні, а невдовзі після резонансних дописів його акаунт у X зник.\n\n🔗 <a href=\"https://itc.ua/ua/novini/menedzher-xbox-vidkryto-pidtrymav-shi-v-igrah-teper-jogo-akaunt-nedostupnyj/\">ITC.ua</a>\n\n#ігри",
@@ -6591,11 +6591,90 @@
    "Анонсовано лайнап фестивалю Boardwalk Rock 2027",
    "Loudwire",
    {
-    "also": [],
+    "also": [
+     [
+      "Kerrang!",
+      "https://www.kerrang.com/iron-maiden-korn-and-bad-omens-are-headlining-boardwalk-rock-2027"
+     ],
+     [
+      "Revolver",
+      "https://www.revolvermag.com/events/korn-bad-omens-and-iron-maiden-headline-boardwalk-rock-2027/"
+     ]
+    ],
     "caption": "🤘 <b>Анонсовано лайнап фестивалю Boardwalk Rock 2027</b>\n\nФестиваль Boardwalk Rock повертається у 2027 році з 14 по 16 травня в Оушен-Сіті. Хедлайнерами музичного вікенду стануть Iron Maiden, Korn та Bad Omens. Також у заході візьмуть участь Judas Priest, Alice in Chains, The Prodigy, Marilyn Manson та інші гурти.\n\n🔗 <a href=\"https://loudwire.com/boardwalk-rock-festival-2027-iron-maiden-korn-bad-omens-more/\">Loudwire</a>\n\n#музика",
     "kind": "photo",
     "link": "https://loudwire.com/boardwalk-rock-festival-2027-iron-maiden-korn-bad-omens-more/",
     "orig": "Boardwalk Rock Fest 2027 Features Iron Maiden, Korn + Bad Omens"
+   }
+  ],
+  [
+   1792510536.0584855,
+   1436,
+   "🤘",
+   "DISFEAR випустили новий сингл «Shackled To Our Vice» за участю фронтмена AT THE GATES Tomas Lindberg",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>DISFEAR випустили новий сингл «Shackled To Our Vice» за участю фронтмена AT THE GATES Tomas Lindberg</b>\n\nШведські титани D-Beat DISFEAR випустять свій довгоочікуваний, агресивний новий альбом «The Last Nail» 20 листопада 2026 року на лейблі Relapse. Останній сингл з альбому, «Shackled To Our Vice», можна прослухати нижче. Записаний ще до передчасної смерті надзвичайно впливового вокаліста DISFEAR Томаса Ліндберга...\n\n🔗 <a href=\"https://blabbermouth.net/news/disfear-featuring-at-the-gates-frontman-tomas-lindberg-releases-shackled-to-our-vice-single\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/disfear-featuring-at-the-gates-frontman-tomas-lindberg-releases-shackled-to-our-vice-single",
+    "orig": "DISFEAR, Featuring AT THE GATES Frontman TOMAS LINDBERG, Releases 'Shackled To Our Vice' Single"
+   }
+  ],
+  [
+   1792510578.429257,
+   1437,
+   "🎮",
+   "Успіх Galactic Racer і Star Wars Zero Company надихнув Lucasfilm на менші ігри",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>Успіх Galactic Racer і Star Wars Zero Company надихнув Lucasfilm на менші ігри</b>\n\nПісля теплого прийому Star Wars: Galactic Racer від Fuse Games та Star Wars Zero Company від Bit Reactor віцепрезидент Lucasfilm Games Дуглас Райлі заявив про зацікавленість у менш масштабних іграх за франшизою. Успіх цих проєктів довів існування попиту на нішеві жанри поза межами звичних блокбастерів.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/it-doesnt-have-to-always-be-triple-a-galactic-racer-and-zero-companys-success-has-lucasfilms-wanting-more-smaller-scale-star-wars-games\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/it-doesnt-have-to-always-be-triple-a-galactic-racer-and-zero-companys-success-has-lucasfilms-wanting-more-smaller-scale-star-wars-games",
+    "orig": "\"It doesn’t have to always be triple-A\": Galactic Racer and Zero Company’s success has Lucasfilms wanting more smaller-scale Star Wars games"
+   }
+  ],
+  [
+   1792510596.9240892,
+   1438,
+   "🤖",
+   "ALTK-Evolve очолює рейтинг τ²-bench без оновлення ваг моделі",
+   "Hugging Face",
+   {
+    "also": [],
+    "caption": "🤖 <b>ALTK-Evolve очолює рейтинг τ²-bench без оновлення ваг моделі</b>\n\n🔗 <a href=\"https://huggingface.co/blog/ibm-research/altk-evolve-bc\">Hugging Face</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://huggingface.co/blog/ibm-research/altk-evolve-bc",
+    "orig": "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model"
+   }
+  ],
+  [
+   1792510622.6933143,
+   1439,
+   "🎮",
+   "Galax анонсувала GeForce RTX 5090 Hall of Fame Edition із кристалами Swarovski",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Galax анонсувала GeForce RTX 5090 Hall of Fame Edition із кристалами Swarovski</b>\n\nКомпанія Galax представила ексклюзивну версію відеокарти GeForce RTX 5090 Hall of Fame Edition, корпус якої прикрашений кристалами Swarovski. Новинка виконана у фірмовому білому кольорі та оснащена двома роз&#x27;ємами живлення 12V-2×6 для додаткового запасу потужності. Реліз пристрою запланований на 22 жовтня, а ціна поки не оголошена.\n\n🔗 <a href=\"https://www.pcgamer.com/hardware/graphics-cards/i-have-neither-the-budget-nor-the-inclination-for-a-crystal-encrusted-rtx-5090-but-galax-is-releasing-one-anyway/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/i-have-neither-the-budget-nor-the-inclination-for-a-crystal-encrusted-rtx-5090-but-galax-is-releasing-one-anyway/",
+    "orig": "I have neither the budget nor the inclination for a crystal encrusted RTX 5090, but Galax is releasing one anyway"
+   }
+  ],
+  [
+   1792510652.6323612,
+   1440,
+   "🎮",
+   "Демоверсія Godzilla: Destroy All Monsters Melee Remastered дарує емоції без ностальгії",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>Демоверсія <a href=\"https://store.steampowered.com/app/4251460/\">Godzilla: Destroy All Monsters Melee Remastered</a> дарує емоції без ностальгії</b>\n\nВийшла демоверсія ремейку Godzilla: Destroy All Monsters Melee Remastered у рамках Steam Next Fest. Гра відтворює атмосферу фільмів епохи Showa завдяки режиму руйнування міст та арені Versus для боїв один на один із локальним і мережевим режимами.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/the-demo-for-city-flattening-fighting-game-godzilla-destroy-all-monsters-melee-remastered-is-a-roaring-good-time-no-nostalgia-required\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/the-demo-for-city-flattening-fighting-game-godzilla-destroy-all-monsters-melee-remastered-is-a-roaring-good-time-no-nostalgia-required",
+    "orig": "The demo for city-flattening fighting game Godzilla: Destroy All Monsters Melee Remastered is a roaring good time, no nostalgia required"
    }
   ]
  ],
@@ -6615,7 +6694,8 @@
    1792405876.2595813
   ],
   "ai|Hugging Face|https://huggingface.co/blog/feed.xml": [
-   1792496068.9906907
+   1792496068.9906907,
+   1792510596.924418
   ],
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
    1792422121.0372677,
@@ -6733,7 +6813,6 @@
    1792445501.3890154
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1792423941.3579304,
    1792427605.8142228,
    1792431131.71009,
    1792443859.4106007,
@@ -6747,7 +6826,8 @@
    1792496082.9175315,
    1792501328.1989686,
    1792504997.160054,
-   1792508675.6726134
+   1792508675.6726134,
+   1792510622.6936257
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1792463485.9480555,
@@ -6767,15 +6847,14 @@
    1792490537.1860683
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
-   1792414943.9264925,
-   1792416717.2060504,
-   1792422282.101406,
    1792427572.3803465,
    1792427702.6738353,
    1792431169.6112857,
    1792490486.7294486,
    1792492417.8062487,
-   1792496072.9843764
+   1792496072.9843764,
+   1792510578.4295297,
+   1792510652.6327155
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1792503180.830482
@@ -6861,7 +6940,8 @@
    1792503092.1878116,
    1792503137.5460672,
    1792506157.8285136,
-   1792508557.0534906
+   1792508557.0534906,
+   1792510536.0588453
   ],
   "music|Decibel|https://www.decibelmagazine.com/feed/": [
    1792427523.1210349,
@@ -7274,6 +7354,7 @@
   "29cc2c99e1d4f77c": 1791969559.9057777,
   "29cfe4e95e49a7be": 1791769122.3502562,
   "2a450dcaa7d8f090": 1792129235.1684577,
+  "2a4d13485e78fd3b": 1792510287.76561,
   "2a92495361b711e7": 1792188098.4192889,
   "2a96f7e807660e6e": 1791969576.7133026,
   "2b19b229ca801ef0": 1792420313.5076067,
@@ -7998,10 +8079,12 @@
   "9349733d05eabfc4": 1792494183.9025233,
   "93498f4f3bc42a3c": 1792314110.6406078,
   "939d3349f40a773b": 1791820264.255713,
+  "93edd70af023b00a": 1792510578.4294825,
   "93ef38647e85a4c5": 1792037157.0664444,
   "9445b892d8bed1ea": 1792470681.5377843,
   "94b9cff7b54a88c9": 1792037218.5460002,
   "94ba73dd2cf114c6": 1792497724.7860126,
+  "94e7f4f5c0e52bb7": 1792510596.9243724,
   "953f82f7f64c6786": 1792097612.2554398,
   "954b898c609ba1d3": 1792405905.4389894,
   "9590118804574bb6": 1792497722.340307,
@@ -8058,6 +8141,7 @@
   "9e0f931d5e276a60": 1792070985.9029589,
   "9e110592a306dc68": 1792326672.841556,
   "9e2be5e25a000cd0": 1791815053.1561446,
+  "9e4ec831e1ad46c3": 1792510536.0587904,
   "9e50bccca00309aa": 1791894767.9263082,
   "9e5ace71379a6f50": 1791831134.819394,
   "9e65c2f6bcaad0d9": 1792214806.7220874,
@@ -8069,6 +8153,7 @@
   "9f26832e54cd7251": 1791757259.9128428,
   "9fb40c823133e6a4": 1792382497.1700006,
   "9fddbdd2f78c72b9": 1792407738.5407147,
+  "a01105f45fb6cff4": 1792510652.6326663,
   "a01cdcae7bff7990": 1791718278.296192,
   "a0446c7cf7b0f77a": 1791978126.841161,
   "a0698b310adf5ec0": 1792188113.8055182,
@@ -8210,6 +8295,7 @@
   "b747ddfc4acba088": 1792353699.787903,
   "b78d1bb0066fb661": 1792468986.815313,
   "b7bb50d8a7b97d6e": 1792326683.1353447,
+  "b81c34104ba7cc19": 1792510286.9221554,
   "b81d9f9ef5ecce95": 1792409523.4559042,
   "b87d330bf84621c6": 1792264380.2372112,
   "b925d1ec45347b7a": 1792429330.3162296,
@@ -8228,6 +8314,7 @@
   "bad0b3bbdcd1f483": 1791820230.0183554,
   "bae1de536adf234e": 1792342915.0631604,
   "baf9154e13e409fb": 1791795365.3554754,
+  "bb2b81c82e9a3c9b": 1792510287.325765,
   "bb43ba07b83f2ae3": 1792461860.9028294,
   "bb7463dd45c63cc0": 1792411302.0755558,
   "bb9e242ff5772ec3": 1792177137.7995827,
@@ -8301,6 +8388,7 @@
   "c51b15d9e6fcf624": 1791957552.1866417,
   "c53267ad2de766ba": 1791968061.1901526,
   "c58fe16489c20656": 1792111189.2592266,
+  "c5a31d45868213d5": 1792510622.6935778,
   "c5b3c83543504b9a": 1791931703.0332391,
   "c5bd70d0ce545789": 1792443774.7172968,
   "c5c4f18a82de5a84": 1792249901.503531,
@@ -8632,6 +8720,7 @@
   "f836900f21f638d9": 1792352414.8100953,
   "f8b3d754770f77a6": 1791920886.8207657,
   "f8b4cc51cefcf7f6": 1792164131.4787815,
+  "f90b427afcb07994": 1792510287.7665179,
   "f9122fb12ee04e05": 1792326698.9894855,
   "f935b44df2271b87": 1792429313.9458187,
   "f94fdd8140b4a34d": 1791969263.0458302,
@@ -9128,7 +9217,7 @@
   ],
   "artists_checked": 1792505131.9465873,
   "blocked_until": 1792505103.1948092,
-  "cursor": 217,
+  "cursor": 227,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
     "0CVnhwtOpdoIkOatkGcVwO",
@@ -9871,7 +9960,7 @@
   "sources": {
    "/Film": 14,
    "AIN.ua": 2,
-   "Blabbermouth": 22,
+   "Blabbermouth": 23,
    "Bloomberg": 17,
    "DOU": 2,
    "DOU Gamedev": 2,
@@ -9883,7 +9972,7 @@
    "GameSpot": 16,
    "GamesIndustry.biz": 9,
    "GitHub Trending": 6,
-   "Hugging Face": 1,
+   "Hugging Face": 2,
    "IGN": 20,
    "ITC.ua": 25,
    "IndieWire": 6,
@@ -9894,13 +9983,13 @@
    "Metal Hammer (Louder)": 9,
    "Metal Injection": 2,
    "Mezha": 23,
-   "PC Gamer": 21,
+   "PC Gamer": 22,
    "Pitchfork": 2,
    "PlayUA": 13,
    "Polygon": 15,
    "Product Hunt": 9,
    "Revolver": 1,
-   "Rock Paper Shotgun": 11,
+   "Rock Paper Shotgun": 13,
    "SteamDB": 1,
    "Stereogum": 3,
    "The Decoder": 8,
@@ -9909,9 +9998,9 @@
    "Variety": 6
   },
   "translators": {
-   "DeepL": 5,
+   "DeepL": 6,
    "gemini-flash-latest": 47,
-   "gemini-flash-lite-latest": 334
+   "gemini-flash-lite-latest": 340
   },
   "week": "2026-W43"
  },
@@ -10045,6 +10134,11 @@
    "4150720",
    "Drunken Goddess Reflux",
    1792244011.752122
+  ],
+  "id:4251460": [
+   "4251460",
+   "Godzilla: Destroy All Monsters Melee Remastered",
+   1792510624.4772556
   ],
   "id:449610": [
    "449610",
@@ -10265,21 +10359,6 @@
    0,
    "",
    1792339298.9050937
-  ],
-  "q:130": [
-   0,
-   "",
-   1792335704.0369377
-  ],
-  "q:130 collector": [
-   0,
-   "",
-   1792335703.4580562
-  ],
-  "q:130 collector box": [
-   0,
-   "",
-   1792335702.961878
   ],
   "q:148 ahead of this other popular": [
    0,
@@ -11656,31 +11735,6 @@
    "",
    1792377281.9225516
   ],
-  "q:best shrek": [
-   0,
-   "",
-   1792335722.513773
-  ],
-  "q:best shrek game": [
-   0,
-   "",
-   1792335721.9881861
-  ],
-  "q:best shrek game ever": [
-   0,
-   "",
-   1792335721.4829202
-  ],
-  "q:best shrek game ever just": [
-   0,
-   "",
-   1792335720.8339534
-  ],
-  "q:best shrek game ever just leaked": [
-   0,
-   "",
-   1792335720.3186274
-  ],
   "q:biddy": [
    0,
    "",
@@ -12206,16 +12260,6 @@
    "",
    1792497727.712834
   ],
-  "q:collector": [
-   0,
-   "",
-   1792335705.058589
-  ],
-  "q:collector box": [
-   0,
-   "",
-   1792335704.5443459
-  ],
   "q:company": [
    0,
    "",
@@ -12491,21 +12535,6 @@
    "",
    1792468882.3356693
   ],
-  "q:d d's new": [
-   0,
-   "",
-   1792335736.4775913
-  ],
-  "q:d d's new arcana": [
-   0,
-   "",
-   1792335735.9707212
-  ],
-  "q:d d's new arcana unleashed": [
-   0,
-   "",
-   1792335735.4573288
-  ],
   "q:d's dark": [
    0,
    "",
@@ -12530,31 +12559,6 @@
    0,
    "",
    1792468884.2431886
-  ],
-  "q:d's new": [
-   0,
-   "",
-   1792335739.0264494
-  ],
-  "q:d's new arcana": [
-   0,
-   "",
-   1792335738.5018275
-  ],
-  "q:d's new arcana unleashed": [
-   0,
-   "",
-   1792335737.985034
-  ],
-  "q:d's new arcana unleashed feats": [
-   0,
-   "",
-   1792335737.4877508
-  ],
-  "q:d's new arcana unleashed feats are": [
-   0,
-   "",
-   1792335736.9798548
   ],
   "q:dan": [
    0,
@@ -13931,6 +13935,16 @@
    "",
    1792447333.1416702
   ],
+  "q:galactic racer and zero": [
+   0,
+   "",
+   1792510539.2108228
+  ],
+  "q:galactic racer and zero company": [
+   0,
+   "",
+   1792510538.7116885
+  ],
   "q:galar": [
    0,
    "",
@@ -13950,6 +13964,11 @@
    0,
    "",
    1792378898.3063822
+  ],
+  "q:galax": [
+   0,
+   "",
+   1792510599.0024638
   ],
   "q:game of thrones": [
    208730,
@@ -14160,21 +14179,6 @@
    1593500,
    "God of War",
    1791931745.3485785
-  ],
-  "q:god of war laufey": [
-   0,
-   "",
-   1792335700.3946974
-  ],
-  "q:god of war laufey's 130": [
-   0,
-   "",
-   1792335699.90179
-  ],
-  "q:god of war laufey's 130 collector": [
-   0,
-   "",
-   1792335699.391635
   ],
   "q:gods with badges": [
    4462400,
@@ -14816,6 +14820,11 @@
    "",
    1792486875.024644
   ],
+  "q:it doesn": [
+   0,
+   "",
+   1792510538.2061603
+  ],
   "q:it ruined eating": [
    0,
    "",
@@ -15151,26 +15160,6 @@
    "Lanterns",
    1792080993.37305
   ],
-  "q:laufey": [
-   0,
-   "",
-   1792335702.4686859
-  ],
-  "q:laufey's 130": [
-   0,
-   "",
-   1792335701.968497
-  ],
-  "q:laufey's 130 collector": [
-   0,
-   "",
-   1792335701.4615362
-  ],
-  "q:laufey's 130 collector box": [
-   0,
-   "",
-   1792335700.8899665
-  ],
   "q:league": [
    0,
    "",
@@ -15420,6 +15409,11 @@
    0,
    "",
    1792416698.581257
+  ],
+  "q:lucasfilms": [
+   0,
+   "",
+   1792510541.5316238
   ],
   "q:made": [
    0,
@@ -15921,26 +15915,6 @@
    "",
    1792499504.5484731
   ],
-  "q:new arcana unleashed": [
-   0,
-   "",
-   1792335741.271809
-  ],
-  "q:new arcana unleashed feats": [
-   0,
-   "",
-   1792335740.7071877
-  ],
-  "q:new arcana unleashed feats are": [
-   0,
-   "",
-   1792335740.205139
-  ],
-  "q:new arcana unleashed feats are breaking": [
-   0,
-   "",
-   1792335739.6588213
-  ],
   "q:new croatian": [
    0,
    "",
@@ -16370,11 +16344,6 @@
    0,
    "",
    1792492416.2794542
-  ],
-  "q:paris hq looted and trashed": [
-   0,
-   "",
-   1792335688.578825
   ],
   "q:partnered": [
    0,
@@ -16851,10 +16820,25 @@
    "",
    1792405896.0479379
   ],
+  "q:racer": [
+   0,
+   "",
+   1792510540.9187944
+  ],
   "q:racer 'we've": [
    0,
    "",
    1792447334.6515515
+  ],
+  "q:racer and zero": [
+   0,
+   "",
+   1792510540.321656
+  ],
+  "q:racer and zero company": [
+   0,
+   "",
+   1792510539.714433
   ],
   "q:radiance": [
    1104800,
@@ -17000,26 +16984,6 @@
    0,
    "",
    1792423965.6019812
-  ],
-  "q:remaster": [
-   0,
-   "",
-   1792335719.715047
-  ],
-  "q:remaster of the best": [
-   0,
-   "",
-   1792335719.1549976
-  ],
-  "q:remaster of the best shrek": [
-   0,
-   "",
-   1792335718.6091669
-  ],
-  "q:remaster of the best shrek game": [
-   0,
-   "",
-   1792335717.9513438
   ],
   "q:remastered 40": [
    0,
@@ -17550,21 +17514,6 @@
    0,
    "",
    1792429325.7114973
-  ],
-  "q:shrek game ever": [
-   0,
-   "",
-   1792335724.017045
-  ],
-  "q:shrek game ever just": [
-   0,
-   "",
-   1792335723.523765
-  ],
-  "q:shrek game ever just leaked": [
-   0,
-   "",
-   1792335723.0276942
   ],
   "q:silent": [
    0,
@@ -19245,12 +19194,13 @@
  "tag_hints": {
   "Mezha": [
    "apple",
-   "cd projekt red",
+   "bungie",
    "chatgpt",
-   "cyberpunk 2077",
+   "dice",
    "iphone duo",
    "mac mini",
    "openai",
+   "star wars: battlefront",
    "steam",
    "whatsapp",
    "xiaomi",
@@ -19281,18 +19231,6 @@
   ]
  },
  "titles": [
-  [
-   1792337490.288064,
-   "JORN LANDE: 'It's Every Rock Singer's Dream To Be Able To Work With Someone Like TONY IOMMI'"
-  ],
-  [
-   1792337499.7393725,
-   "'There were a lot of disagreements across the place': Former Marathon director Joe Ziegler on leading Bungie's extraction shooter, playing Path of Exile for 3,437 hours, and why he'll never uninstall Kingdom Hearts"
-  ],
-  [
-   1792337508.496807,
-   "Gray Zone Warfare is Becoming Much More Than Just a Mil-Sim"
-  ],
   [
    1792339281.642287,
    "Deathstroke Actor Reveals Scrapped Batman Film Would've Featured Batgirl And A Shocking Death"
@@ -21180,21 +21118,29 @@
   [
    1792508739.8008041,
    "Boardwalk Rock Fest 2027 Features Iron Maiden, Korn + Bad Omens"
+  ],
+  [
+   1792510536.058792,
+   "DISFEAR, Featuring AT THE GATES Frontman TOMAS LINDBERG, Releases 'Shackled To Our Vice' Single"
+  ],
+  [
+   1792510578.4294844,
+   "\"It doesn’t have to always be triple-A\": Galactic Racer and Zero Company’s success has Lucasfilms wanting more smaller-scale Star Wars games"
+  ],
+  [
+   1792510596.924374,
+   "ALTK-Evolve: How learned memory tops the τ²-bench leaderboard on customer service tasks without a frontier model"
+  ],
+  [
+   1792510622.693579,
+   "I have neither the budget nor the inclination for a crystal encrusted RTX 5090, but Galax is releasing one anyway"
+  ],
+  [
+   1792510652.6326675,
+   "The demo for city-flattening fighting game Godzilla: Destroy All Monsters Melee Remastered is a roaring good time, no nostalgia required"
   ]
  ],
  "titles_uk": [
-  [
-   1792337490.2880647,
-   "«Це мрія кожного рок-співака»: Йорн Ланде про роботу з Тоні Айоммі над From The Dark"
-  ],
-  [
-   1792337499.7393737,
-   "Ексдиректор Marathon Джо Зіглер розповів про розробку гри в Bungie"
-  ],
-  [
-   1792337508.496808,
-   "Gray Zone Warfare відходить від статусу чистого Mil-Sim"
-  ],
   [
    1792339281.6422882,
    "Джо Манганьєлло розкрив деталі скасованого фільму про Batman від Бена Аффлека"
@@ -23082,6 +23028,26 @@
   [
    1792508739.8008049,
    "Анонсовано лайнап фестивалю Boardwalk Rock 2027"
+  ],
+  [
+   1792510536.0587933,
+   "DISFEAR випустили новий сингл «Shackled To Our Vice» за участю фронтмена AT THE GATES Tomas Lindberg"
+  ],
+  [
+   1792510578.429485,
+   "Успіх Galactic Racer і Star Wars Zero Company надихнув Lucasfilm на менші ігри"
+  ],
+  [
+   1792510596.9243748,
+   "ALTK-Evolve очолює рейтинг τ²-bench без оновлення ваг моделі"
+  ],
+  [
+   1792510622.6935802,
+   "Galax анонсувала GeForce RTX 5090 Hall of Fame Edition із кристалами Swarovski"
+  ],
+  [
+   1792510652.632669,
+   "Демоверсія Godzilla: Destroy All Monsters Melee Remastered дарує емоції без ностальгії"
   ]
  ],
  "ukrainian": {
