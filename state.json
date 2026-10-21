@@ -1,11 +1,5 @@
 {
  "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 500 Server Error: Internal Server Error for url: https://www.decibelmagazine.com/feed/",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1792593080.256792
-  },
   "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
    "detail": "https://www.kerrang.com/feed.rss → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
    "label": "Джерело «Kerrang!» не працює",
@@ -24,12 +18,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-21 14:34 UTC",
-  "gemini_error": "",
+  "at": "2026-10-21 15:10 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 7
+   "gemini-flash-lite-latest": 11
   },
   "used": [
    "Gemini"
@@ -8867,7 +8860,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Вийшов реліз Agentic Awesome Skills V19.13.0 з бібліотекою з понад 2737 інструкцій</b>\n\n🔗 <a href=\"https://github.com/sickn33/agentic-awesome-skills\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/sickn33/agentic-awesome-skills",
     "orig": "sickn33/agentic-awesome-skills"
@@ -8881,7 +8873,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>Короп</b>\n\nДопоміжний додаток для Mac, що поєднує в собі функції програми для диктування та запису нотаток під час зустрічей Обговорення | Посилання\n\n🔗 <a href=\"https://www.producthunt.com/products/koi-2\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/koi-2",
     "orig": "Koi"
@@ -8895,7 +8886,6 @@
    "VGC",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/3669870/\">Control Resonant</a> натякає на <a href=\"https://store.steampowered.com/app/108710/\">Alan Wake</a> 3? Режисер гри пояснив пасхалку від Remedy</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/4319860/\">Resonant</a>\n\nРежисер Control Resonant розповів про камео іншого протагоніста зі всесвіту Remedy\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/is-control-resonant-teasing-alan-wake-3-resonants-director-explains-remedy-easter-egg/\">VGC</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/news/is-control-resonant-teasing-alan-wake-3-resonants-director-explains-remedy-easter-egg/",
     "orig": "Is Control Resonant teasing Alan Wake 3? Resonant’s director explains Remedy easter egg"
@@ -8909,7 +8899,6 @@
    "VGC",
    {
     "also": [],
-    "caption": "🎮 <b>Хідео Кодзіма розкритикував ефект «колективного розуму» в соцмережах через ярлик «<a href=\"https://store.steampowered.com/app/1214280/\">walking simulator</a>» для <a href=\"https://store.steampowered.com/app/1850570/\">Death Stranding</a></b>\n\nХідео Кодзіма заявив, що соцмережі формують упереджені наративи, які люди повторюють без власних натепер переконань. Як приклад він навів Death Stranding, яку часто називають «walking simulator» ті, хто навіть не грав у гру. Розробник також висловив занепокоєння через алгоритми ШІ, які закривають користувачів у бульбашці однакових думок.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/kojima-says-walking-simulator-comments-about-death-stranding-prove-social-media-can-form-hivemind-narratives/\">VGC</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/news/kojima-says-walking-simulator-comments-about-death-stranding-prove-social-media-can-form-hivemind-narratives/",
     "orig": "Kojima says ‘walking simulator’ comments about Death Stranding prove social media can form hivemind narratives"
@@ -8923,7 +8912,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Що таке vLLM: швидка бібліотека для інференсу та сервінгу LLM</b>\n\nvLLM — це швидка та зручна бібліотека для інференсу та сервінгу LLM, створена спільнотою розробників і дослідників. Проєкт підтримує понад 200 архітектур моделей на Hugging Face та активно розвивається за участю тисяч контриб&#x27;юторів.\n\n🔗 <a href=\"https://github.com/vllm-project/vllm\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/vllm-project/vllm",
     "orig": "vllm-project/vllm"
@@ -8937,7 +8925,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>Triage від Chodeberg</b>\n\nВідтворюйте баги за описом користувача в ізольованому середовищі\n\n🔗 <a href=\"https://www.producthunt.com/products/triage-by-chodeberg\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/triage-by-chodeberg",
     "orig": "Triage by Chodeberg"
@@ -8950,8 +8937,12 @@
    "Деталі оновлення 2.5 для Cyberpunk 2077 злили в мережу до офіційного анонсу",
    "Polygon",
    {
-    "also": [],
-    "caption": "🎮 <b>Деталі оновлення 2.5 для <a href=\"https://store.steampowered.com/app/1091500/\">Cyberpunk 2077</a> злили в мережу до офіційного анонсу</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/882200/\">Reveal</a>\n\nНапередодні виходу другого сезону аніме Cyberpunk: Edgerunners на Netflix в мережу злили деталі нового оновлення 2.5 для Cyberpunk 2077. Патч додасть підтримку модів на консолях через mod.io, стрільбу з двох рук, нову радіостанцію з музикою з аніме, кастомізацію кібервару та нові завдання.\n\n🔗 <a href=\"https://www.polygon.com/cyberpunk-2077-edgerunners-2-update-leak/\">Polygon</a>\n\n#ігри",
+    "also": [
+     [
+      "Insider Gaming",
+      "https://insider-gaming.com/cyberpunk-2077-update-2-5-release/"
+     ]
+    ],
     "kind": "photo",
     "link": "https://www.polygon.com/cyberpunk-2077-edgerunners-2-update-leak/",
     "orig": "Cyberpunk 2077 Edgerunners 2 Update Leaked Ahead of Reveal"
@@ -8965,7 +8956,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Super Flower випустила аксесуар для захисту роз&#x27;ємів живлення відеокарт від перегріву</b>\n\nКомпанія Super Flower випустила пристрій VGA 12+4 pin OCP Dongle, який контролює струм на контактах роз&#x27;єму 12V-2x6 та запобігає плавленню кабелів. Аксесуар подає світлові та звукові сигнали у разі перевищення норми струму, а при тривалому перевантаженні активує захист екрана.\n\n🔗 <a href=\"https://www.pcgamer.com/hardware/graphics-cards/heres-another-gizmo-to-prevent-your-graphics-card-from-melting-wouldnt-it-be-nice-if-12-4-pin-connectors-werent-a-cause-for-concern-at-all/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/hardware/graphics-cards/heres-another-gizmo-to-prevent-your-graphics-card-from-melting-wouldnt-it-be-nice-if-12-4-pin-connectors-werent-a-cause-for-concern-at-all/",
     "orig": "Here's another gizmo to prevent your graphics card from melting - wouldn't it be nice if 12+4-pin connectors weren't a cause for concern at all?"
@@ -8979,7 +8969,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "💾 <b>macOS 27 на ноутбуках зі Snapdragon X2 Elite Extreme: розробник створив застосунок для запуску</b>\n\nРозробник Мігель С (@Acelogic_) розкрив нові подробиці роботи над проєктом Snapintosh з портування нативної macOS 27 на ноутбуки з процесорами Snapdragon X2 Elite Extreme.\n\n🔗 <a href=\"https://itc.ua/ua/novini/macos-27-na-noutbukah-zi-snapdragon-x2-elite-extreme-rozrobnyk-stvoryv-zastosunok-dlya-zapusku/\">ITC.ua</a>\n\n#софт",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/macos-27-na-noutbukah-zi-snapdragon-x2-elite-extreme-rozrobnyk-stvoryv-zastosunok-dlya-zapusku/",
     "orig": "macOS 27 на ноутбуках зі Snapdragon X2 Elite Extreme: розробник створив застосунок для запуску"
@@ -9492,6 +9481,10 @@
      [
       "Insider Gaming",
       "https://insider-gaming.com/pokemon-london-store-coming-by-2029-with-more-to-follow/"
+     ],
+     [
+      "IGN",
+      "https://www.ign.com/articles/london-first-permanent-pokemon-store-outside-asia"
      ]
     ],
     "caption": "🎮 <b>У Лондоні відкриється перший постійний магазин Pokémon за межами Азії</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/4513280/\">Pok</a>\n\nThe Pokémon Company планує запустити торгову точку до 2029 року\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/a-permanent-pokemon-retail-store-is-coming-to-london-the-first-of-several-outside-asia/\">VGC</a>\n\n#ігри",
@@ -9675,7 +9668,12 @@
    "Нова гра Stranger Than Heaven від RGG Studio захоплює, але може розколоти гравців",
    "Eurogamer",
    {
-    "also": [],
+    "also": [
+     [
+      "IGN",
+      "https://www.ign.com/articles/stranger-than-heaven-the-final-preview-of-the-yakuza-teams-ambitious-decades-spanning-action-adventure"
+     ]
+    ],
     "caption": "🎮 <b>Нова гра <a href=\"https://store.steampowered.com/app/4260840/\">Stranger Than Heaven</a> від RGG Studio захоплює, але може розколоти гравців</b>\n\nЖурналіст поділився враженнями від Stranger Than Heaven — нового амбітного проєкту від RGG Studio. Гра розповідає історію Макото Дайто протягом кількох десятиліть, пропонуючи еволюцію сетингу, насичений сюжет і брутальний рукопашний бій із незвичним керуванням через тригери й бампери, який може здатися занадто складним для частини аудиторії.\n\n🔗 <a href=\"https://www.eurogamer.net/stranger-than-heaven-preview\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/stranger-than-heaven-preview",
@@ -9737,6 +9735,132 @@
     "link": "https://deadline.com/2026/10/associated-press-midterms-results-data-1237165652/",
     "orig": "How The Associated Press Will Be At The Center Of The Midterms’ Election-Night Results"
    }
+  ],
+  [
+   1792594919.037597,
+   1668,
+   "🤘",
+   "Ніко МакБрейн розповів, чому відмовився грати в гольф із Дональдом Трампом",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Ніко МакБрейн розповів, чому відмовився грати в гольф із Дональдом Трампом</b>\n\nБарабанщик IRON MAIDEN Ніко МакБрейн зізнався, що відмовився від запрошення зіграти в гольф із Дональдом Трампом. Музикант різко висловився на адресу американського президента та його оточення, заявивши, що вони заслуговують на ув&#x27;язнення.\n\n🔗 <a href=\"https://blabbermouth.net/news/iron-maidens-nicko-mcbrain-says-donald-trump-and-his-bunch-of-cronies-should-be-put-in-jail\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/iron-maidens-nicko-mcbrain-says-donald-trump-and-his-bunch-of-cronies-should-be-put-in-jail",
+    "orig": "IRON MAIDEN's NICKO MCBRAIN Says DONALD TRUMP And 'His Bunch Of Cronies Should Be Put In Jail'"
+   }
+  ],
+  [
+   1792595060.6955292,
+   1669,
+   "🎮",
+   "Dragon Ball Xenoverse 3 змінює правила гри завдяки новій механіці обміну душами",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/1857810/\">Dragon Ball Xenoverse 3</a> змінює правила гри завдяки новій механіці обміну душами</b>\n\nБільший акцент на мультиплеєрному PvE виглядає правильним кроком для серії та всього жанру anime fighter\n\n🔗 <a href=\"https://www.ign.com/articles/dragon-ball-xenoverse-3-spices-up-anime-fighters-with-the-soul-switching-mechanic-ign-preview\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/dragon-ball-xenoverse-3-spices-up-anime-fighters-with-the-soul-switching-mechanic-ign-preview",
+    "orig": "Dragon Ball Xenoverse 3 Spices Up Anime Fighters With the Soul Switching Mechanic | IGN Preview"
+   }
+  ],
+  [
+   1792595149.7849534,
+   1670,
+   "🎮",
+   "Як досвід аутсайдера вплинув на створення гри Stranger Than Heaven",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Як досвід аутсайдера вплинув на створення гри <a href=\"https://store.steampowered.com/app/4260840/\">Stranger Than Heaven</a></b>\n\nДиректор Mikinobu Abe та актор Yu Shirota розповіли, як їхній особистий досвід життя аутсайдерів вплинув на створення сюжету Stranger Than Heaven від RGG Studio. Головною темою гри стала музика, яка допомагає протагоністу Макото вижити та подолати культурні бар&#x27;єри в Японії.\n\n🔗 <a href=\"https://www.ign.com/articles/stranger-than-heaven-interview-abe-shirota-ado-story-and-music\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/stranger-than-heaven-interview-abe-shirota-ado-story-and-music",
+    "orig": "How Being An Outsider Fueled Stranger Than Heaven's Director and Actor to Craft Its Story"
+   }
+  ],
+  [
+   1792595185.7292767,
+   1671,
+   "🤘",
+   "Альбом Nevermind гурту Nirvana обійшов AC/DC у рейтингу бестселерів",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Альбом Nevermind гурту Nirvana обійшов AC/DC у рейтингу бестселерів</b>\n\nЗгідно з даними бази ChartMasters, альбом Nevermind гурту Nirvana 1991 року піднявся на шосту сходинку у списку найбільш продаваних альбомів усіх часів. Пластинка обійшла класичний реліз Back in Black від AC/DC з урахуванням загальних продажів та стримінгу.\n\n🔗 <a href=\"https://loudwire.com/nirvana-acdc-best-selling-albums-ever/\">Loudwire</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://loudwire.com/nirvana-acdc-best-selling-albums-ever/",
+    "orig": "Nirvana Album Moves Ahead of AC/DC in Top 10 Best-Sellers List"
+   }
+  ],
+  [
+   1792595216.3426113,
+   1672,
+   "🤘",
+   "Шерон ден Адел розповіла про новий альбом WITHIN TEMPTATION",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Шерон ден Адел розповіла про новий альбом WITHIN TEMPTATION</b>\n\nВокалістка WITHIN TEMPTATION Шерон ден Адел розповіла, що майбутній альбом гурту буде дуже емоційним, похмурим та сирим, але важким у новому ключі. Музиканти вирішили повністю відмовитися від ШІ та зберегти у записах людські помилки заради душі й автентичності.\n\n🔗 <a href=\"https://blabbermouth.net/news/sharon-den-adel-on-within-temptations-upcoming-album-its-gonna-be-heavy-in-a-different-way\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/sharon-den-adel-on-within-temptations-upcoming-album-its-gonna-be-heavy-in-a-different-way",
+    "orig": "SHARON DEN ADEL On WITHIN TEMPTATION's Upcoming Album: 'It's Gonna Be Heavy In A Different Way'"
+   }
+  ],
+  [
+   1792595277.634194,
+   1673,
+   "🎮",
+   "Аркадний гоночний симулятор Ace Driver Victory Lap вперше вийде на домашніх консолях",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>Аркадний гоночний симулятор Ace Driver Victory Lap вперше вийде на домашніх консолях</b>\n\nКомпанія Hamster Corporation анонсувала випуск аркадної гри Ace Driver Victory Lap на сучасних консолях у межах серії Arcade Archives. Сиквел 1995 року отримає нові режими, підтримку VRR та з&#x27;явиться в продажу вже цього четверга, 22 жовтня.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/ace-driver-victory-lap-is-the-next-polygonal-namco-arcade-racer-getting-its-first-ever-home-release/\">VGC</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/ace-driver-victory-lap-is-the-next-polygonal-namco-arcade-racer-getting-its-first-ever-home-release/",
+    "orig": "Ace Driver Victory Lap is the next polygonal Namco arcade racer getting its first ever home release"
+   }
+  ],
+  [
+   1792595349.1172981,
+   1674,
+   "🎮",
+   "Вийшов барвистий демоверсійний 2D-рогалік Talaka про бразильську міфологію",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>Вийшов барвистий демоверсійний <a href=\"https://store.steampowered.com/app/2825780/\">2D</a>-рогалік <a href=\"https://store.steampowered.com/app/3815370/\">Talaka</a> про бразильську міфологію</b>\n\nРозробники Potato Kid випустили демоверсію акційного 2D-рогаліка Talaka, що натхненний бразильською культурою та міфологією Candomblé. Проєкт пропонує механіки, схожі на Hades, повністю намальовану від руки акварельну графіку та традиційний музичний супровід.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/i-keep-embarrassing-myself-in-front-of-the-nature-gods-in-handpainted-2d-roguelike-talaka-whose-colourful-combative-demo-is-out-now\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/i-keep-embarrassing-myself-in-front-of-the-nature-gods-in-handpainted-2d-roguelike-talaka-whose-colourful-combative-demo-is-out-now",
+    "orig": "I keep embarrassing myself in front of the nature gods in handpainted 2D roguelike Talaka, whose colourful, combative demo is out now"
+   }
+  ],
+  [
+   1792595378.2040446,
+   1675,
+   "🤖",
+   "Компанія Inception анонсувала дифузійну модель Mercury 3",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Компанія Inception анонсувала дифузійну модель Mercury 3</b>\n\nКомпанія Inception презентувала мовну модель Mercury 3, яка перевершує GPT-6 Luna та Claude Haiku 5.5 у низці тестів і працює у 4–8 разів швидше. Швидкість досягається завдяки дифузійному підходу, який генерує багато слів одночасно. Новинка орієнтована на ШІ-агентів, пошук та службову підтримку.\n\n🔗 <a href=\"https://the-decoder.com/inceptions-mercury-3-diffusion-model-claims-to-beat-gpt-6-luna-and-claude-haiku-5-5-at-a-fraction-of-the-wait/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/inceptions-mercury-3-diffusion-model-claims-to-beat-gpt-6-luna-and-claude-haiku-5-5-at-a-fraction-of-the-wait/",
+    "orig": "Inception's Mercury 3 diffusion model claims to beat GPT-6 Luna and Claude Haiku 5.5 at a fraction of the wait"
+   }
+  ],
+  [
+   1792595408.85825,
+   1676,
+   "🤘",
+   "Anagnorisis повертаються з новим альбомом Caregriever",
+   "Decibel",
+   {
+    "also": [],
+    "caption": "🤘 <b>Anagnorisis повертаються з новим альбомом Caregriever</b>\n\nГурт Anagnorisis повертається з першим за довгий час релізом — альбомом Caregriever. Учасники колективу об&#x27;єдналися, щоб створити емоційно важку та безкомпромісну екстремальну музику, натхненну особистими втратами й життєвими випробуваннями.\n\n🔗 <a href=\"https://www.decibelmagazine.com/2026/10/21/album-premiere-interview-anagnorisis-caregriever/\">Decibel</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.decibelmagazine.com/2026/10/21/album-premiere-interview-anagnorisis-caregriever/",
+    "orig": "Album Premiere & Interview: Anagnorisis – Caregriever"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9778,7 +9902,8 @@
    1792523067.4261708,
    1792524236.8655024,
    1792573285.5726833,
-   1792591518.611524
+   1792591518.611524,
+   1792595378.2044597
   ],
   "games|DOU Gamedev|https://gamedev.dou.ua/feed/": [
    1792569866.3357563
@@ -9813,7 +9938,6 @@
    1792591456.2146332
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1792508524.8477921,
    1792512225.2018263,
    1792512260.0636241,
    1792512381.1285782,
@@ -9830,7 +9954,9 @@
    1792533701.765349,
    1792540674.5925674,
    1792580496.4392855,
-   1792587736.1430154
+   1792587736.1430154,
+   1792595060.6959822,
+   1792595149.7852027
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1792490528.1089113,
@@ -9897,7 +10023,8 @@
    1792533707.832857,
    1792571487.8211966,
    1792584083.8083878,
-   1792585926.8879848
+   1792585926.8879848,
+   1792595349.1177084
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1792503180.830482
@@ -9910,7 +10037,8 @@
    1792584070.968173,
    1792584099.9047732,
    1792589587.1053452,
-   1792591772.075962
+   1792591772.075962,
+   1792595277.6345804
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1792539078.213061,
@@ -9971,7 +10099,6 @@
    1792531910.433771
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1792508557.0534906,
    1792510536.0588453,
    1792512352.062619,
    1792517500.7422256,
@@ -9985,12 +10112,14 @@
    1792585916.050644,
    1792589514.581357,
    1792591295.5011723,
-   1792593106.2942526
+   1792593106.2942526,
+   1792594919.0379844,
+   1792595216.3429565
   ],
   "music|Decibel|https://www.decibelmagazine.com/feed/": [
-   1792508710.8693721,
    1792512549.7400725,
-   1792523075.912551
+   1792523075.912551,
+   1792595408.8586395
   ],
   "music|Distorted Sound|https://distortedsoundmag.com/feed/": [
    1792488807.5711834,
@@ -10028,10 +10157,10 @@
    1792591941.301063
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
-   1792508739.8008485,
    1792528346.6972067,
    1792591361.3474362,
-   1792591561.538322
+   1792591561.538322,
+   1792595185.729644
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1792531878.5036895,
@@ -10210,6 +10339,7 @@
   "0978284f65617afc": 1792580498.5904205,
   "097fd1ea157ab84c": 1792515678.3691077,
   "09bdba1b79b4d7f6": 1792396907.964611,
+  "09f7051655fb2abc": 1792595216.3429098,
   "0a616285ab68caf9": 1791989226.3239863,
   "0a777e4467d45b14": 1792074112.428332,
   "0a8fd90ca555ca59": 1792542679.9643233,
@@ -10276,6 +10406,7 @@
   "12114873a6584f4c": 1791807506.2754734,
   "12201791a9762fa1": 1792393278.0241578,
   "1247d102d6a69493": 1792256232.4410484,
+  "125fc29f9357ebff": 1792594886.8513048,
   "12962f54a33977b4": 1792071075.5659573,
   "12c2b3f151e57aad": 1791994399.7950633,
   "12e604caa54205cf": 1792503109.0566,
@@ -10340,6 +10471,7 @@
   "1aaaf06de47f17c7": 1792352514.8442829,
   "1ac0a558cc31786c": 1792099125.702752,
   "1b2a31d92327a695": 1792365649.659308,
+  "1b43e10f5696f624": 1792595315.9288073,
   "1b51ce0f0aa234b4": 1791815118.1787226,
   "1b76b683aec1027d": 1791926762.1118298,
   "1bc693cb0759f732": 1791643484.7724442,
@@ -10428,6 +10560,7 @@
   "25a585ffc2b0ebbb": 1792524236.8654618,
   "25ad139a62ddf1d5": 1792256236.5595405,
   "25c103cfe1ad1a14": 1792302826.7270093,
+  "25ee40d690e0789c": 1792595408.8585925,
   "260792e48c0067cf": 1792264328.6798184,
   "26178307c3a733cb": 1792129286.801951,
   "2619d0d5a922f18b": 1792445496.2860823,
@@ -10501,6 +10634,7 @@
   "2e8a64d0e7e2e457": 1792089258.7591057,
   "2e8df00fe1d468b2": 1792503160.9672172,
   "2eab85a281e6bfa0": 1791837792.3901262,
+  "2ec4c2351d617b4c": 1792594886.4495227,
   "2ecd6a873597674d": 1792197816.2451081,
   "2eecf6dc3daa1d36": 1792580486.1850193,
   "2efc6f663cac38ab": 1792512430.3416743,
@@ -10611,6 +10745,7 @@
   "3c1fe16376469ee8": 1792407700.4833364,
   "3c6d04fc633efc6c": 1791908446.0808244,
   "3cc17c63b67d24de": 1792352430.0356822,
+  "3ccbb0620bb8fc8a": 1792595185.7295985,
   "3ccf90fab2c7124e": 1792420256.7318852,
   "3cd0b61df5ba9330": 1792317842.889826,
   "3cee9bf04f3fec2d": 1792455963.0023758,
@@ -10677,6 +10812,7 @@
   "43c4f56ed9c715af": 1792431081.4918277,
   "43eed4e276bf4a3d": 1791975145.2089515,
   "43f15cd46edeab2a": 1792508618.5975873,
+  "44498dcc56a5be3a": 1792594886.4473135,
   "448e220074bf5c6e": 1792513881.9011073,
   "449a3920d4ef49ed": 1792409512.5259836,
   "44bd51be035ffe73": 1791831104.1027663,
@@ -10931,6 +11067,7 @@
   "62a7088f4c2d385c": 1792409519.2517626,
   "62c5979f396eb969": 1792423967.9550753,
   "62d4245f77316b73": 1791654260.2182121,
+  "630f46cf186e4428": 1792595104.9118028,
   "632dad6a21990990": 1792270344.6305375,
   "634eddfbd64fbab7": 1792081005.764324,
   "6362a31ca7ec7f5c": 1792270318.1196992,
@@ -10975,6 +11112,7 @@
   "686027e9c26b231a": 1792037186.0762506,
   "6862ebd80a13d022": 1792513881.9064367,
   "688ceefb247b2370": 1792145441.306256,
+  "68c39eb242b9ce4b": 1792594919.0379317,
   "69046dac910d5167": 1792589514.5813036,
   "693b3842ab6b11b8": 1791975089.1230226,
   "695a4a80a2da6149": 1792591408.0965388,
@@ -10993,6 +11131,7 @@
   "6a9e0803aae674a2": 1792281223.533934,
   "6aaa8ed4d331fc8a": 1792352417.7990172,
   "6ab54cad7011f2b6": 1792492417.8062067,
+  "6abaadf6942ae298": 1792595349.1176615,
   "6ac3b1ccf36fc678": 1792432930.8991241,
   "6acd2290fa06542f": 1792339293.372789,
   "6aff17e54676471f": 1791644933.1937206,
@@ -11073,6 +11212,7 @@
   "745e5f5bcf33cdfa": 1792515719.6785083,
   "7472c4ce10f7f425": 1791997042.6373832,
   "74780e0902e82f80": 1791642313.8867812,
+  "747f2bc5325e1102": 1792595060.6959124,
   "7481f0fae52b223e": 1792423954.0399585,
   "74961b359f41319b": 1792407688.5224311,
   "74a3fa79ad14fc25": 1792522853.9949398,
@@ -11592,6 +11732,7 @@
   "b48c73b07cc00687": 1792351880.9003792,
   "b4bb26eb3f56e35a": 1792214884.5042725,
   "b4c3c4a1c5149f19": 1792089235.693024,
+  "b4d70f8a7081489f": 1792595277.6345336,
   "b4fcea4d70451120": 1791807593.5725496,
   "b5368d16e5d8a522": 1791750736.9549613,
   "b58e883e7082f041": 1791920864.3307495,
@@ -11653,6 +11794,7 @@
   "bcf0cb6a31042b82": 1791994316.7510252,
   "bd122a0b1ca4302c": 1792360907.317098,
   "bd28dc198e354d61": 1791643484.7724442,
+  "bd2d73edffcd93c5": 1792594886.8576925,
   "bd3a8825988d25f1": 1792530135.5960722,
   "bd449ac4d5082e66": 1792009875.9788818,
   "bd5c4e503fadffb9": 1792443934.598627,
@@ -11729,6 +11871,7 @@
   "c62d2e0ec4ebc1fc": 1792454498.0777168,
   "c65d2f4d1162f7de": 1791668789.9831371,
   "c65d87de70325a08": 1792416680.0005522,
+  "c664ba06e4355cb1": 1792595378.2044032,
   "c67d126dcdba7d9f": 1792506276.688759,
   "c68d395f585e57ea": 1791820267.741594,
   "c712b8d1bde6f100": 1792081023.7398894,
@@ -12009,6 +12152,7 @@
   "e891c97409f3641e": 1791643484.7724442,
   "e8c74e875ce8847d": 1791969264.6870122,
   "e8d8473862a2354a": 1792539086.8887386,
+  "e9383c6c52d52173": 1792595149.7851534,
   "e95eddc1ecfae54b": 1792503092.1877615,
   "e9780038d9421fdc": 1792197831.838433,
   "e99d5679eae73e15": 1791926924.849342,
@@ -12069,6 +12213,7 @@
   "f2488a784d7cfdfe": 1792490500.3452482,
   "f29c23a57f752eda": 1792352542.7076206,
   "f29e03590222c225": 1791636717.6413417,
+  "f2aa652e8c009a8a": 1792594853.9380503,
   "f2b68d5b890cb0c6": 1792010077.7478874,
   "f3046f95ab8c9ebe": 1792256269.0111341,
   "f315f67f0bb70e0f": 1791908389.9758453,
@@ -12627,7 +12772,7 @@
   ],
   "artists_checked": 1792591962.3066845,
   "blocked_until": 1792591591.7586727,
-  "cursor": 299,
+  "cursor": 309,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
     "0CVnhwtOpdoIkOatkGcVwO",
@@ -13365,17 +13510,17 @@
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 2,
-   "Polygon": 17
+   "Polygon": 18
   },
   "sources": {
    "/Film": 20,
    "AIN.ua": 4,
-   "Blabbermouth": 36,
+   "Blabbermouth": 38,
    "Bloomberg": 27,
    "DOU": 2,
    "DOU Gamedev": 3,
    "Deadline": 39,
-   "Decibel": 6,
+   "Decibel": 7,
    "Digital Foundry": 4,
    "Distorted Sound": 10,
    "Eurogamer": 22,
@@ -13383,13 +13528,13 @@
    "GamesIndustry.biz": 12,
    "GitHub Trending": 14,
    "Hugging Face": 3,
-   "IGN": 37,
+   "IGN": 39,
    "ITC.ua": 32,
    "IndieWire": 11,
    "Insider Gaming": 46,
    "Kerrang!": 14,
    "Lambgoat": 25,
-   "Loudwire": 13,
+   "Loudwire": 14,
    "Metal Hammer (Louder)": 15,
    "Metal Injection": 5,
    "MetalSucks": 1,
@@ -13400,18 +13545,18 @@
    "Polygon": 21,
    "Product Hunt": 14,
    "Revolver": 3,
-   "Rock Paper Shotgun": 20,
+   "Rock Paper Shotgun": 21,
    "SteamDB": 1,
    "Stereogum": 6,
-   "The Decoder": 14,
+   "The Decoder": 15,
    "ThePRP": 20,
-   "VGC": 18,
+   "VGC": 19,
    "Variety": 12
   },
   "translators": {
    "DeepL": 15,
    "gemini-flash-latest": 69,
-   "gemini-flash-lite-latest": 567
+   "gemini-flash-lite-latest": 578
   },
   "week": "2026-W43"
  },
@@ -13520,6 +13665,11 @@
    "3766220",
    "Send In The Clown",
    1791926725.8206344
+  ],
+  "id:3815370": [
+   "3815370",
+   "Talaka",
+   1792595316.11825
   ],
   "id:3846830": [
    "3846830",
@@ -13836,6 +13986,11 @@
    "",
    1792580506.244949
   ],
+  "q:2 5": [
+   3740720,
+   "ハルスベリヤ叙事詩2.5",
+   1792595281.694616
+  ],
   "q:2 casts hideo kojima": [
    0,
    "",
@@ -14100,6 +14255,11 @@
    0,
    "",
    1792517794.8210034
+  ],
+  "q:2d": [
+   2825780,
+   "2D?!",
+   1792595316.7502198
   ],
   "q:3": [
    0,
@@ -14415,6 +14575,21 @@
    440470,
    "Absence",
    1792591299.6776512
+  ],
+  "q:ace driver": [
+   0,
+   "",
+   1792595219.4461603
+  ],
+  "q:ace driver victory": [
+   0,
+   "",
+   1792595218.8929865
+  ],
+  "q:ace driver victory lap": [
+   0,
+   "",
+   1792595218.3720646
   ],
   "q:achievement": [
    0,
@@ -14965,6 +15140,26 @@
    0,
    "",
    1792524135.1040163
+  ],
+  "q:being an outsider": [
+   0,
+   "",
+   1792595109.451826
+  ],
+  "q:being an outsider fueled": [
+   0,
+   "",
+   1792595108.8519475
+  ],
+  "q:being an outsider fueled stranger": [
+   0,
+   "",
+   1792595108.2806995
+  ],
+  "q:being an outsider fueled stranger than": [
+   0,
+   "",
+   1792595107.7655096
   ],
   "q:being removed": [
    0,
@@ -16071,6 +16266,16 @@
    "",
    1792587724.8080037
   ],
+  "q:cyberpunk 2077 update": [
+   0,
+   "",
+   1792595280.3099098
+  ],
+  "q:cyberpunk 2077 update 2 5": [
+   0,
+   "",
+   1792595279.7567885
+  ],
   "q:cyberpunk edgerunners": [
    0,
    "",
@@ -16235,6 +16440,21 @@
    0,
    "",
    1792468886.558177
+  ],
+  "q:date all": [
+   0,
+   "",
+   1792595286.342349
+  ],
+  "q:date all new": [
+   0,
+   "",
+   1792595285.7509823
+  ],
+  "q:date all new features": [
+   0,
+   "",
+   1792595285.173245
   ],
   "q:david": [
    346180,
@@ -16650,6 +16870,36 @@
    0,
    "",
    1792427555.9050405
+  ],
+  "q:dragon ball xenoverse 3": [
+   1857810,
+   "DRAGON BALL XENOVERSE 3",
+   1792594922.3813076
+  ],
+  "q:dragon ball xenoverse 3 spices": [
+   0,
+   "",
+   1792594921.7707186
+  ],
+  "q:dragon ball xenoverse 3 spices up": [
+   0,
+   "",
+   1792594921.15824
+  ],
+  "q:driver": [
+   0,
+   "",
+   1792595221.0612946
+  ],
+  "q:driver victory": [
+   0,
+   "",
+   1792595220.4761605
+  ],
+  "q:driver victory lap": [
+   0,
+   "",
+   1792595219.9520822
   ],
   "q:drunken goddess reflux": [
    4150720,
@@ -17236,6 +17486,11 @@
    "",
    1792508650.4326167
   ],
+  "q:final": [
+   0,
+   "",
+   1792595065.1234515
+  ],
   "q:final fantasy 7": [
    3837340,
    "FINAL FANTASY VII",
@@ -17270,6 +17525,21 @@
    3259780,
    "FINAL FANTASY RESONANCE",
    1792501347.0056672
+  ],
+  "q:final preview": [
+   0,
+   "",
+   1792595064.5717149
+  ],
+  "q:final preview of the yakuza": [
+   0,
+   "",
+   1792595063.9144008
+  ],
+  "q:final preview of the yakuza team": [
+   0,
+   "",
+   1792595063.3721092
   ],
   "q:finally": [
    0,
@@ -18461,6 +18731,26 @@
    "",
    1792447304.8305972
   ],
+  "q:how being": [
+   0,
+   "",
+   1792595107.208084
+  ],
+  "q:how being an outsider": [
+   0,
+   "",
+   1792595106.650763
+  ],
+  "q:how being an outsider fueled": [
+   0,
+   "",
+   1792595106.1195936
+  ],
+  "q:how being an outsider fueled stranger": [
+   0,
+   "",
+   1792595105.4647484
+  ],
   "q:how many": [
    0,
    "",
@@ -19165,6 +19455,11 @@
    806670,
    "Lanterns",
    1792080993.37305
+  ],
+  "q:lap": [
+   0,
+   "",
+   1792595222.8432467
   ],
   "q:league of legends mel": [
    0,
@@ -19906,6 +20201,11 @@
    "Mycopunk",
    1792519373.7129068
   ],
+  "q:namco": [
+   0,
+   "",
+   1792595223.4399202
+  ],
   "q:nearly 1 million worth of trading": [
    0,
    "",
@@ -20420,6 +20720,26 @@
    238320,
    "Outlast",
    1792344690.5935159
+  ],
+  "q:outsider fueled stranger": [
+   0,
+   "",
+   1792595111.6376169
+  ],
+  "q:outsider fueled stranger than": [
+   0,
+   "",
+   1792595111.1040902
+  ],
+  "q:outsider fueled stranger than heaven": [
+   0,
+   "",
+   1792595110.5502667
+  ],
+  "q:outsider fueled stranger than heaven's director": [
+   0,
+   "",
+   1792595110.019937
   ],
   "q:over the hill": [
    2929250,
@@ -20966,6 +21286,21 @@
    "",
    1792487065.236844
   ],
+  "q:preview of the yakuza": [
+   0,
+   "",
+   1792595066.7233133
+  ],
+  "q:preview of the yakuza team": [
+   0,
+   "",
+   1792595066.1640275
+  ],
+  "q:preview of the yakuza team's ambitious": [
+   0,
+   "",
+   1792595065.646053
+  ],
   "q:price": [
    465520,
    "PRICE",
@@ -21340,6 +21675,31 @@
    0,
    "",
    1792557079.7532773
+  ],
+  "q:release": [
+   0,
+   "",
+   1792595284.5485756
+  ],
+  "q:release date": [
+   0,
+   "",
+   1792595283.9755552
+  ],
+  "q:release date all": [
+   0,
+   "",
+   1792595283.4418736
+  ],
+  "q:release date all new": [
+   0,
+   "",
+   1792595282.828274
+  ],
+  "q:release date all new features": [
+   0,
+   "",
+   1792595282.227934
   ],
   "q:release finally": [
    0,
@@ -22061,6 +22421,31 @@
    "",
    1792514083.5403771
   ],
+  "q:spices": [
+   0,
+   "",
+   1792594925.5035052
+  ],
+  "q:spices up": [
+   0,
+   "",
+   1792594924.8357394
+  ],
+  "q:spices up anime": [
+   0,
+   "",
+   1792594924.3075407
+  ],
+  "q:spices up anime fighters": [
+   0,
+   "",
+   1792594923.5790582
+  ],
+  "q:spices up anime fighters with": [
+   0,
+   "",
+   1792594923.0012684
+  ],
   "q:sports": [
    0,
    "",
@@ -22265,6 +22650,11 @@
    4260840,
    "STRANGER THAN HEAVEN",
    1792591722.8387933
+  ],
+  "q:stranger than heaven the final": [
+   0,
+   "",
+   1792595062.7484589
   ],
   "q:street fighter 6": [
    1364780,
@@ -22471,10 +22861,20 @@
    "",
    1792515791.1433935
   ],
+  "q:team": [
+   0,
+   "",
+   1792595068.9620733
+  ],
   "q:team fortress 2": [
    440,
    "Team Fortress 2",
    1791654258.6520588
+  ],
+  "q:team's ambitious": [
+   0,
+   "",
+   1792595068.4344788
   ],
   "q:teams": [
    0,
@@ -22916,6 +23316,31 @@
    "",
    1792436511.9196
   ],
+  "q:up anime": [
+   0,
+   "",
+   1792594927.9202168
+  ],
+  "q:up anime fighters": [
+   0,
+   "",
+   1792594927.3746805
+  ],
+  "q:up anime fighters with": [
+   0,
+   "",
+   1792594926.735193
+  ],
+  "q:up anime fighters with the soul": [
+   0,
+   "",
+   1792594926.1332936
+  ],
+  "q:update 2 5": [
+   0,
+   "",
+   1792595280.9119916
+  ],
   "q:update details coming next week": [
    0,
    "",
@@ -22985,6 +23410,16 @@
    0,
    "",
    1792447322.145688
+  ],
+  "q:victory": [
+   0,
+   "",
+   1792595222.2901957
+  ],
+  "q:victory lap": [
+   0,
+   "",
+   1792595221.71405
   ],
   "q:video": [
    0,
@@ -23426,6 +23861,16 @@
    "",
    1792488814.2266119
   ],
+  "q:yakuza team": [
+   0,
+   "",
+   1792595067.9008558
+  ],
+  "q:yakuza team's ambitious": [
+   0,
+   "",
+   1792595067.2482855
+  ],
   "q:yakuza voice": [
    0,
    "",
@@ -23554,9 +23999,9 @@
  },
  "tag_hints": {
   "Mezha": [
+   "anthropic",
    "apple",
    "chatgpt",
-   "dot-chain defence",
    "fire point",
    "game pass",
    "grand theft auto vi",
@@ -23568,17 +24013,12 @@
    "openai",
    "rockstar games",
    "xbox",
-   "аоз",
-   "бпла",
    "бізнес",
    "данія",
-   "дрони",
-   "компоненти зброї",
    "кібербезпека",
    "медицина",
    "новини",
    "оборонка",
-   "оборонні закупівлі",
    "опк",
    "платформи",
    "ракети",
@@ -23592,34 +24032,6 @@
   ]
  },
  "titles": [
-  [
-   1792422116.7556171,
-   "Battlefield 6 Dev Owns Up To Mistakes With Strange-Looking Cosmetics, But Stays Silent On Possible AI Use"
-  ],
-  [
-   1792422118.9824595,
-   "Anthropic пропонує блокувати ШІ лише у випадку 50 смертей або збитків на $1 млрд"
-  ],
-  [
-   1792422121.0372207,
-   "100 000 обчислювальних плат: Sugon представила перший у світі супер ПК для ШІ"
-  ],
-  [
-   1792422123.3092024,
-   "Фейковий ШІ-акаунт Дженни Ортеги у TikTok має мільйон підписників та приносить тисячі доларів – CyberNews"
-  ],
-  [
-   1792422235.8979042,
-   "Politician Calls on Stadium to Remove Manson From Slipknot Show"
-  ],
-  [
-   1792422282.10136,
-   "Crusader Kings 3's merchant republics expansion, Silk and Silver, will release during the very quiet time of mid-November 2026"
-  ],
-  [
-   1792422345.3332257,
-   "She Wants Revenge announce first album for 16 years, The Loved, and drop single, BLACK WAX/OUR LOVE"
-  ],
   [
    1792423941.357888,
    "GameSir Nova Lite 2 review"
@@ -25579,37 +25991,45 @@
   [
    1792593247.3221056,
    "How The Associated Press Will Be At The Center Of The Midterms’ Election-Night Results"
+  ],
+  [
+   1792594919.0379336,
+   "IRON MAIDEN's NICKO MCBRAIN Says DONALD TRUMP And 'His Bunch Of Cronies Should Be Put In Jail'"
+  ],
+  [
+   1792595060.695915,
+   "Dragon Ball Xenoverse 3 Spices Up Anime Fighters With the Soul Switching Mechanic | IGN Preview"
+  ],
+  [
+   1792595149.7851548,
+   "How Being An Outsider Fueled Stranger Than Heaven's Director and Actor to Craft Its Story"
+  ],
+  [
+   1792595185.7296007,
+   "Nirvana Album Moves Ahead of AC/DC in Top 10 Best-Sellers List"
+  ],
+  [
+   1792595216.342911,
+   "SHARON DEN ADEL On WITHIN TEMPTATION's Upcoming Album: 'It's Gonna Be Heavy In A Different Way'"
+  ],
+  [
+   1792595277.6345353,
+   "Ace Driver Victory Lap is the next polygonal Namco arcade racer getting its first ever home release"
+  ],
+  [
+   1792595349.1176627,
+   "I keep embarrassing myself in front of the nature gods in handpainted 2D roguelike Talaka, whose colourful, combative demo is out now"
+  ],
+  [
+   1792595378.2044055,
+   "Inception's Mercury 3 diffusion model claims to beat GPT-6 Luna and Claude Haiku 5.5 at a fraction of the wait"
+  ],
+  [
+   1792595408.858594,
+   "Album Premiere & Interview: Anagnorisis – Caregriever"
   ]
  ],
  "titles_uk": [
-  [
-   1792422116.755618,
-   "Розробники Battlefield 6 визнали помилки в косметиці, але проігнорували чутки про ШІ"
-  ],
-  [
-   1792422118.982461,
-   "Anthropic пропонує блокувати ШІ лише у випадку 50 смертей або збитків на $1 млрд"
-  ],
-  [
-   1792422121.0372214,
-   "100 000 обчислювальних плат: Sugon представила перший у світі супер ПК для ШІ"
-  ],
-  [
-   1792422123.309203,
-   "Фейковий ШІ-акаунт Дженни Ортеги у TikTok має мільйон підписників та приносить тисячі доларів – CyberNews"
-  ],
-  [
-   1792422235.8979049,
-   "Політик закликав стадіон виключити Manson із концерту Slipknot"
-  ],
-  [
-   1792422282.101361,
-   "Для Crusader Kings 3 анонсували доповнення Silk and Silver про торгові республіки"
-  ],
-  [
-   1792422345.3332272,
-   "She Wants Revenge анонсували перший за 16 років альбом і випустили сингл"
-  ],
   [
    1792423941.3578887,
    "Огляд бюджетного геймпада GameSir Nova Lite 2"
@@ -27569,6 +27989,42 @@
   [
    1792593247.3221061,
    "Усі головні телемережі спиратимуться на дані Associated Press під час виборів 2026 року"
+  ],
+  [
+   1792594919.0379345,
+   "Ніко МакБрейн розповів, чому відмовився грати в гольф із Дональдом Трампом"
+  ],
+  [
+   1792595060.6959162,
+   "Dragon Ball Xenoverse 3 змінює правила гри завдяки новій механіці обміну душами"
+  ],
+  [
+   1792595149.7851555,
+   "Як досвід аутсайдера вплинув на створення гри Stranger Than Heaven"
+  ],
+  [
+   1792595185.7296014,
+   "Альбом Nevermind гурту Nirvana обійшов AC/DC у рейтингу бестселерів"
+  ],
+  [
+   1792595216.342912,
+   "Шерон ден Адел розповіла про новий альбом WITHIN TEMPTATION"
+  ],
+  [
+   1792595277.6345363,
+   "Аркадний гоночний симулятор Ace Driver Victory Lap вперше вийде на домашніх консолях"
+  ],
+  [
+   1792595349.1176634,
+   "Вийшов барвистий демоверсійний 2D-рогалік Talaka про бразильську міфологію"
+  ],
+  [
+   1792595378.2044063,
+   "Компанія Inception анонсувала дифузійну модель Mercury 3"
+  ],
+  [
+   1792595408.8585951,
+   "Anagnorisis повертаються з новим альбомом Caregriever"
   ]
  ],
  "ukrainian": {
