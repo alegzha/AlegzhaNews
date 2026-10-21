@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1792612877.58203
+  }
+ },
  "daily_digest_date": "2026-10-21",
  "freebies": {
   "last_check": 1792607549.7237146,
@@ -11,12 +18,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-21 19:32 UTC",
+  "at": "2026-10-21 20:02 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 10
+   "gemini-flash-lite-latest": 7
   },
   "used": [
    "Gemini"
@@ -10039,7 +10045,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b>Beyond Good &amp; Evil 2 досі в розробці та стала сюжетною соло-пригодою</b>\n\nГра Beyond Good &amp; Evil 2 досі перебуває на стадії препродакшну через 18 років після анонсу. Концепцію проєкту змінили з акцентом на одиночну сюжетну пригоду з опціональним кооперативом замість багатокористувацького онлайн-формату.\n\n🔗 <a href=\"https://www.eurogamer.net/beyond-good-and-evil-bge2-report-ubisoft\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/beyond-good-and-evil-bge2-report-ubisoft",
     "orig": "Beyond Good & Evil 2 reportedly still in development 18 years after being announced, now a \"solo-first\" adventure"
@@ -10053,7 +10058,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b>CD <a href=\"https://store.steampowered.com/app/759000/\">Projekt</a> Red анонсувала масштабне оновлення для <a href=\"https://store.steampowered.com/app/1091500/\">Cyberpunk 2077</a></b>\n\nCD Projekt Red анонсувала велике оновлення для Cyberpunk 2077, яке вийде 22 жовтня. Воно додасть стрільбу з двох рук, кросплатформні моди, сюжетні квести за мотивами аніме Edgerunners, нову радіостанцію та кастомізацію кіберварингу.\n\n🔗 <a href=\"https://www.eurogamer.net/cyberpunk-2077-update-edgerunners-2-mod-support\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/cyberpunk-2077-update-edgerunners-2-mod-support",
     "orig": "CD Projekt Red details new Cyberpunk 2077 update - adding dual-wielding, cross-platform mods, Edgerunners story quests, and more"
@@ -10072,7 +10076,6 @@
       "https://www.ign.com/articles/everything-coming-to-cyberpunk-2077-with-the-25-update-including-new-side-quests-new-double-trouble-perk-and-much-more"
      ]
     ],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/1091500/\">Cyberpunk 2077</a> отримує патч 2.5 з двома новими квестами та стрільбою з двох рук</b>\n\nДля Cyberpunk 2077 виходить оновлення 2.5, присвячене виходу другого сезону аніме Cyberpunk Edgerunners. Патч додає приквел-квест Clampdown із контентом з аніме, сюжетну місію Welcome to Paradise, перк для стрільби з двох пістолетів чи револьверів, кастомізацію кібериплантів у спеціальних вендорів та кросплатформну підтримку модів.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/cyberpunk-2077s-edgerunners-2-update-adds-two-new-quests-handgun-dual-wielding-and-the-ability-to-pimp-your-mantis-blades\">Rock Paper Shotgun</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/cyberpunk-2077s-edgerunners-2-update-adds-two-new-quests-handgun-dual-wielding-and-the-ability-to-pimp-your-mantis-blades",
     "orig": "Cyberpunk 2077's Edgerunners 2 update adds two new quests, handgun dual wielding and the ability to pimp your mantis blades"
@@ -10086,7 +10089,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>Ава Дюверней розповіла про роботу над документальним фільмом про 14-ту поправку</b>\n\nПід час роботи над документальною стрічкою для Netflix режисерка Ава Дюверней планувала зосередитися лише на правові народження в США, передбаченому 14-ю поправкою. Проте дворічний процес створення фільму показав їй, що поправка містить набагато більше важливих правових захистів, які сьогодні часто опиняються в центрі уваги.\n\n🔗 <a href=\"https://www.indiewire.com/news/events/watch-ava-duvernay-discuss-14th-indiewire-art-of-the-doc-1235223105/\">IndieWire</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.indiewire.com/news/events/watch-ava-duvernay-discuss-14th-indiewire-art-of-the-doc-1235223105/",
     "orig": "Watch Ava Duvernay Explain Why the 14th Amendment Is So Much More Than Birthright Citizenship"
@@ -10105,7 +10107,6 @@
       "https://lambgoat.com/news/55463/angine-de-poitrine-announce-north-american-tour-dates/"
      ]
     ],
-    "caption": "🤘 <b>Angine de Poitrine анонсували масштабний світовий тур на 2027 рік</b>\n\nКанадський психоделік-рок-дует Angine de Poitrine оголосив плани щодо масштабного світового туру на 2027 рік. Музиканти виступлять в Австралії, Південній Америці, Північній Америці, Європі та Великій Британії. Попередні продажі квитків стартують 27 жовтня.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/21/news/angine-de-poitrine-announce-2027-world-touring-plans/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/21/news/angine-de-poitrine-announce-2027-world-touring-plans/",
     "orig": "Angine De Poitrine Announce 2027 World Touring Plans"
@@ -10614,6 +10615,10 @@
      [
       "ThePRP",
       "https://www.theprp.com/2026/10/21/news/metallica-release-official-welcome-home-sanitarium-live-video-from-the-sphere/"
+     ],
+     [
+      "Metal Injection",
+      "https://metalinjection.net/news/watch-metallica-releases-pro-shot-footage-of-welcome-home-from-the-sphere"
      ]
     ],
     "caption": "🤘 <b>Metallica показала відео виконання &quot;Welcome Home (Sanitarium)&quot; у Sphere</b>\n\nГурт Metallica опублікував професійне відео з виступу в межах резиденції в Лас-Вегасі. Цього разу музиканти поділилися живим виконанням треку &quot;Welcome Home (Sanitarium)&quot; від 3 жовтня.\n\n🔗 <a href=\"https://lambgoat.com/news/55468/metallica-share-welcome-home-sanitarium-sphere-performance-video/\">Lambgoat</a>\n\n#музика",
@@ -10943,6 +10948,76 @@
     "link": "https://deadline.com/2026/10/kid-cudi-basquiat-movie-1237169913/",
     "orig": "Kid Cudi To Direct, Write & Star In Basquiat Movie: :A Love Letter To Jean, The 80s & NY City”"
    }
+  ],
+  [
+   1792612895.8316376,
+   1758,
+   "🤘",
+   "Беккі Болдуїн опублікувала геймплейне відео? Тьфу, відео з бас-гітарою на трек Stormwatcher",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Беккі Болдуїн опублікувала геймплейне відео? Тьфу, відео з бас-гітарою на трек Stormwatcher</b>\n\nБас-гітаристка Беккі Болдуїн поділилася відео з виконанням партії треку &quot;Stormwatcher&quot; із майбутнього соло-альбому &quot;From The Dark&quot; Тоні Іоммі. Музикантка потрапила до проєкту після того, як продюсер Майк Ексетер помітив її кавери на BLACK SABBATH у соцмережах.\n\n🔗 <a href=\"https://blabbermouth.net/news/becky-baldwin-shares-playthrough-video-for-stormwatcher-from-tony-iommis-new-solo-album\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/becky-baldwin-shares-playthrough-video-for-stormwatcher-from-tony-iommis-new-solo-album",
+    "orig": "BECKY BALDWIN Shares Playthrough Video For 'Stormwatcher' From TONY IOMMI's New Solo Album"
+   }
+  ],
+  [
+   1792612899.1274762,
+   1759,
+   "🤘",
+   "PIERCE THE VEIL відкрили нову серію виступів Hot Topic Live",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>PIERCE THE VEIL відкрили нову серію виступів Hot Topic Live</b>\n\nМережа Hot Topic запустила нове музичне шоу Hot Topic Live у своєму студійному просторі в Голлівуді. Першим гуртом на сцені стали PIERCE THE VEIL, які виконали свої треки в атмосфері камерного концерту. Повний запис сесії вже доступний на YouTube-каналі бренду.\n\n🔗 <a href=\"https://blabbermouth.net/news/pierce-the-veil-opens-hot-topic-live-music-performance-series\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/pierce-the-veil-opens-hot-topic-live-music-performance-series",
+    "orig": "PIERCE THE VEIL Opens 'Hot Topic Live' Music Performance Series"
+   }
+  ],
+  [
+   1792612908.849577,
+   1760,
+   "🎬",
+   "Середзем’я поринає у війну: Amazon показала трейлер третього сезону \"Перснів влади\"",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🎬 <b>Середзем’я поринає у війну: Amazon показала трейлер третього сезону &quot;Перснів влади&quot;</b>\n\nТретій сезон серіалу &quot;Володар перснів: Персні влади&quot; / The Lord of the Rings: The Rings of Power отримав повноцінний трейлер й разом з тим – оновлений графік виходу епізодів. На цей раз Amazon відмовилась від щотижневого випуску і розподілила реліз на три групи, де перша одразу з чотирма епізодами стартує 11 листопада.\n\n🔗 <a href=\"https://mezha.ua/news/trailer-the-rings-of-power-316405/\">Mezha</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/trailer-the-rings-of-power-316405/",
+    "orig": "Середзем’я поринає у війну: Amazon показала трейлер третього сезону \"Перснів влади\""
+   }
+  ],
+  [
+   1792612914.2706761,
+   1761,
+   "🤖",
+   "OpenAI та Google знайшли критичну вразливість у PHP",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>OpenAI та Google знайшли критичну вразливість у PHP</b>\n\nШІ-моделі GPT-5.6 Sol та Gemini 4 Argon виявили критичну вразливість у PHP, що зачіпає мільйони сайтів по всьому світу. Штучний інтелект допоміг знайти проблему та розробити захист до того, як її зможуть використати зловмисники. Проте експерти застерігають, що такі ж можливості ШІ можуть знизити бар&#x27;єр для масштабних кібератак.\n\n🔗 <a href=\"https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/",
+    "orig": "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites"
+   }
+  ],
+  [
+   1792612924.5553408,
+   1762,
+   "🎮",
+   "EA розробляє новий відкритий світ Project Gridiron для своїх спортивних ігор",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>EA розробляє новий відкритий світ Project Gridiron для своїх спортивних ігор</b>\n\nEA Sports працює над новим проєктом Project Gridiron, який описують як соціальний відкритий світ. Це не окрема гра, а досвід, який згодом інтегрують у серії на кшталт Madden та College Football. Розробка ведеться вже кілька років паралельно зі створенням режиму для EA Sports FC.\n\n🔗 <a href=\"https://insider-gaming.com/ea-new-open-world-experience-football-games/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/ea-new-open-world-experience-football-games/",
+    "orig": "EA Promises A New Open-World Experience For Its Football Games"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10975,14 +11050,11 @@
    1792600361.2376173
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
-   1792517557.290951,
-   1792517790.1511934,
-   1792523067.4261708,
-   1792524236.8655024,
    1792573285.5726833,
    1792591518.611524,
    1792595378.2044597,
-   1792603257.865909
+   1792603257.865909,
+   1792612914.2709482
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1792603251.2103841
@@ -11060,7 +11132,8 @@
    1792605723.876863,
    1792605734.4983156,
    1792605786.1701086,
-   1792611124.1604142
+   1792611124.1604142,
+   1792612924.5557227
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1792526500.576059,
@@ -11167,7 +11240,8 @@
    1792605739.3747818
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
-   1792573287.4335515
+   1792573287.4335515,
+   1792612908.8499715
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
    1792528301.4052193,
@@ -11195,7 +11269,9 @@
    1792603226.8353157,
    1792603892.7066476,
    1792611090.1067739,
-   1792611093.8349097
+   1792611093.8349097,
+   1792612895.8319275,
+   1792612899.1278405
   ],
   "music|Decibel|https://www.decibelmagazine.com/feed/": [
    1792595408.8586395,
@@ -11393,6 +11469,7 @@
   "061b95a8bec47a2d": 1792580486.1875198,
   "064d65c506f0c37e": 1792306049.3591456,
   "0654d922a206974c": 1792056001.2000065,
+  "06734d41047a5c2f": 1792612914.270907,
   "06b5c4fdddd66f4e": 1792400584.7419732,
   "06c7098339b682e2": 1792400488.4228675,
   "06c94d7656bb790b": 1792080997.806064,
@@ -11513,6 +11590,7 @@
   "14996736a8a6736e": 1792009884.2661192,
   "149ed54d2e6f3b70": 1791929866.8402812,
   "14afd66e9c50a355": 1791969585.343201,
+  "14c4db3950ae50eb": 1792612908.123848,
   "14f321c495182c59": 1791989324.2862678,
   "15013a4aa4811f1b": 1792562490.4366257,
   "1513c97150042f25": 1792145464.1181524,
@@ -12308,6 +12386,7 @@
   "7016723a5dea2142": 1792533691.8920195,
   "705cd95cbf19dbae": 1792548084.5308802,
   "7060993cec7263e2": 1792490481.4392967,
+  "7090e2364dcef13f": 1792612924.5556905,
   "7099617ac61adf9b": 1791932371.6790078,
   "709dd8dc47706ab0": 1792517862.0144985,
   "70e9fc370f37e017": 1791969286.65894,
@@ -12810,6 +12889,7 @@
   "a73878575ce9bcc2": 1792575325.2960982,
   "a77de70d8d9838d3": 1791638213.533524,
   "a791ca7315735e90": 1791639240.4878817,
+  "a79a51becaf3635d": 1792612899.127808,
   "a79edd53ca99d119": 1792445514.553168,
   "a7b84aad4e6bf325": 1792369873.4625132,
   "a7ca3ae05ecff0b5": 1791807598.968649,
@@ -12967,6 +13047,7 @@
   "baf9154e13e409fb": 1791795365.3554754,
   "bb228593e2932c98": 1792589494.7540889,
   "bb2b81c82e9a3c9b": 1792510287.325765,
+  "bb3442724ee3613e": 1792612893.5008156,
   "bb43ba07b83f2ae3": 1792461860.9028294,
   "bb7463dd45c63cc0": 1792411302.0755558,
   "bb9e242ff5772ec3": 1792177137.7995827,
@@ -12994,6 +13075,7 @@
   "bdf8d7c7a9c8e52d": 1792515978.034136,
   "be1139c09e1ee624": 1792423879.7094944,
   "be1b8f6f0da4b20b": 1792197835.8998618,
+  "be5304e576788eee": 1792612883.8481436,
   "be5a365e42a96a13": 1792145427.3122401,
   "be6ef1730da7e04a": 1792321529.8739932,
   "beadd2aaa5a0ae0b": 1792524161.5710876,
@@ -13149,6 +13231,7 @@
   "d185964b4ce265ff": 1792413153.9624717,
   "d19b9b3bc7362362": 1792369883.9610884,
   "d1c9a823d59dae3d": 1792531889.2157872,
+  "d1ee1b0931d0bcde": 1792612911.4321294,
   "d2071794f8ea5158": 1791931747.9403143,
   "d22038c60a8da85f": 1792576855.8088057,
   "d221637015d4b054": 1792010084.2359407,
@@ -13273,6 +13356,7 @@
   "df075eb833cb7277": 1792587712.0086825,
   "df10fafc5adf259e": 1792037205.594035,
   "df24f28b92dab794": 1792607533.8121731,
+  "df4521dbfd791bf0": 1792612895.8318949,
   "df45908305c15494": 1792314073.1622975,
   "df489c10521cd2bd": 1791969598.8067908,
   "df54e50a14be2141": 1792400600.6408873,
@@ -13484,6 +13568,7 @@
   "f804720e6fdb4373": 1792164174.1832063,
   "f8201fd0ce4abd0b": 1791978145.6937873,
   "f836900f21f638d9": 1792352414.8100953,
+  "f8abb1fb740026f5": 1792612908.8499284,
   "f8b3d754770f77a6": 1791920886.8207657,
   "f8b4cc51cefcf7f6": 1792164131.4787815,
   "f8e3141096723162": 1792512549.7400305,
@@ -13525,6 +13610,7 @@
   "fc2bbcab1c0c0cc2": 1791931857.274695,
   "fc36090d001ee4ad": 1792352525.9842098,
   "fc5a94732cfd4cc2": 1792295999.9260092,
+  "fc88cbf0bb1b4161": 1792612854.3680623,
   "fc90c750e381c97b": 1791643484.7724442,
   "fcac89ec0c2f7de3": 1791969555.4547675,
   "fce22a5d69e60c2f": 1792611053.7842038,
@@ -14736,13 +14822,14 @@
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 4,
+   "Pitchfork": 1,
    "Polygon": 21,
    "Variety": 1
   },
   "sources": {
    "/Film": 20,
    "AIN.ua": 4,
-   "Blabbermouth": 44,
+   "Blabbermouth": 46,
    "Bloomberg": 30,
    "DOU": 2,
    "DOU Gamedev": 3,
@@ -14758,14 +14845,14 @@
    "IGN": 48,
    "ITC.ua": 33,
    "IndieWire": 14,
-   "Insider Gaming": 52,
+   "Insider Gaming": 53,
    "Kerrang!": 15,
    "Lambgoat": 30,
    "Loudwire": 14,
    "Metal Hammer (Louder)": 15,
    "Metal Injection": 8,
    "MetalSucks": 1,
-   "Mezha": 32,
+   "Mezha": 33,
    "PC Gamer": 37,
    "Pitchfork": 4,
    "PlayUA": 17,
@@ -14775,7 +14862,7 @@
    "Rock Paper Shotgun": 23,
    "SteamDB": 1,
    "Stereogum": 6,
-   "The Decoder": 16,
+   "The Decoder": 17,
    "ThePRP": 28,
    "VGC": 21,
    "Variety": 12
@@ -14783,7 +14870,7 @@
   "translators": {
    "DeepL": 15,
    "gemini-flash-latest": 70,
-   "gemini-flash-lite-latest": 678
+   "gemini-flash-lite-latest": 685
   },
   "week": "2026-W43"
  },
@@ -15518,6 +15605,26 @@
    "",
    1792501318.3878393
   ],
+  "q:3 reportedly": [
+   0,
+   "",
+   1792612903.197845
+  ],
+  "q:3 reportedly in development": [
+   0,
+   "",
+   1792612902.7016768
+  ],
+  "q:3 reportedly in development by": [
+   0,
+   "",
+   1792612902.1987813
+  ],
+  "q:3 reportedly in development by ea": [
+   0,
+   "",
+   1792612901.67988
+  ],
   "q:3 video": [
    0,
    "",
@@ -15757,6 +15864,11 @@
    0,
    "",
    1792512263.3499064
+  ],
+  "q:5 and the death of bioware": [
+   0,
+   "",
+   1792612890.2073267
   ],
   "q:55bn": [
    0,
@@ -17038,6 +17150,26 @@
    "",
    1792605729.2904556
   ],
+  "q:cancellation": [
+   0,
+   "",
+   1792612889.1761935
+  ],
+  "q:cancellation of mass": [
+   0,
+   "",
+   1792612888.6831083
+  ],
+  "q:cancellation of mass effect": [
+   0,
+   "",
+   1792612888.1422856
+  ],
+  "q:cancellation of mass effect 5": [
+   0,
+   "",
+   1792612887.646494
+  ],
   "q:cancels": [
    0,
    "",
@@ -18258,6 +18390,16 @@
    "",
    1792468985.173853
   ],
+  "q:development by ea's top shooter": [
+   0,
+   "",
+   1792612906.7781434
+  ],
+  "q:development by ea's top shooter studios": [
+   0,
+   "",
+   1792612906.262134
+  ],
   "q:dex": [
    269650,
    "Dex",
@@ -18617,6 +18759,26 @@
    0,
    "",
    1792607512.3787127
+  ],
+  "q:ea promises": [
+   0,
+   "",
+   1792612917.9050422
+  ],
+  "q:ea promises a new": [
+   0,
+   "",
+   1792612917.3537388
+  ],
+  "q:ea promises a new open world": [
+   0,
+   "",
+   1792612916.8185482
+  ],
+  "q:ea promises a new open world experience": [
+   0,
+   "",
+   1792612916.3140543
   ],
   "q:ea shuts": [
    0,
@@ -20703,6 +20865,21 @@
    "",
    1792492277.6144056
   ],
+  "q:internet": [
+   0,
+   "",
+   1792612885.6199806
+  ],
+  "q:internet reacts": [
+   0,
+   "",
+   1792612885.0999563
+  ],
+  "q:internet reacts to the cancellation": [
+   0,
+   "",
+   1792612884.5382993
+  ],
   "q:into gaming continues": [
    0,
    "",
@@ -21613,6 +21790,11 @@
    "",
    1792605788.135751
   ],
+  "q:mass effect 5 and the death": [
+   0,
+   "",
+   1792612889.7147155
+  ],
   "q:mass effect canceled": [
    0,
    "",
@@ -22117,6 +22299,26 @@
    0,
    "",
    1792607517.3674831
+  ],
+  "q:new open world": [
+   0,
+   "",
+   1792612922.066114
+  ],
+  "q:new open world experience": [
+   0,
+   "",
+   1792612921.5456886
+  ],
+  "q:new open world experience for its": [
+   0,
+   "",
+   1792612921.031793
+  ],
+  "q:new open world experience for its football": [
+   0,
+   "",
+   1792612920.5232005
   ],
   "q:new pok": [
    0,
@@ -23138,6 +23340,26 @@
    "",
    1792587722.4436097
   ],
+  "q:promises": [
+   0,
+   "",
+   1792612920.0233324
+  ],
+  "q:promises a new": [
+   0,
+   "",
+   1792612919.4723866
+  ],
+  "q:promises a new open world": [
+   0,
+   "",
+   1792612918.9530299
+  ],
+  "q:promises a new open world experience": [
+   0,
+   "",
+   1792612918.4153466
+  ],
   "q:promo": [
    0,
    "",
@@ -23393,6 +23615,21 @@
    "",
    1792580488.7768269
   ],
+  "q:reacts": [
+   0,
+   "",
+   1792612887.1525652
+  ],
+  "q:reacts to the cancellation": [
+   0,
+   "",
+   1792612886.61964
+  ],
+  "q:reacts to the cancellation of mass": [
+   0,
+   "",
+   1792612886.128029
+  ],
   "q:read": [
    0,
    "",
@@ -23622,6 +23859,31 @@
    0,
    "",
    1792524135.7870436
+  ],
+  "q:reportedly": [
+   0,
+   "",
+   1792612905.729015
+  ],
+  "q:reportedly in development": [
+   0,
+   "",
+   1792612905.2115917
+  ],
+  "q:reportedly in development by": [
+   0,
+   "",
+   1792612904.7183673
+  ],
+  "q:reportedly in development by ea": [
+   0,
+   "",
+   1792612904.2028704
+  ],
+  "q:reportedly in development by ea's top": [
+   0,
+   "",
+   1792612903.7039487
   ],
   "q:represents": [
    0,
@@ -24492,6 +24754,11 @@
    0,
    "",
    1792501317.9210203
+  ],
+  "q:star wars battlefront 3 reportedly": [
+   0,
+   "",
+   1792612901.1671143
   ],
   "q:star wars galactic racer": [
    4078430,
@@ -25683,16 +25950,6 @@
    "",
    1792497690.2478676
   ],
-  "q:wow": [
-   0,
-   "",
-   1792440083.488929
-  ],
-  "q:wow forever": [
-   0,
-   "",
-   1792440082.8512516
-  ],
   "q:wow forever beta": [
    0,
    "",
@@ -25708,20 +25965,10 @@
    "",
    1792609321.6848729
   ],
-  "q:wow forever is": [
-   0,
-   "",
-   1792440082.352152
-  ],
   "q:wow forever is continuing": [
    0,
    "",
    1792605706.1606007
-  ],
-  "q:wow forever is soaring": [
-   0,
-   "",
-   1792440081.814692
   ],
   "q:xbox manager": [
    0,
@@ -25922,8 +26169,6 @@
    "electronic arts",
    "gpt-6 astra",
    "gpt‑6.1 sol",
-   "justwatch",
-   "justwatch tv",
    "mass effect 5",
    "microsoft",
    "openai",
@@ -25931,8 +26176,10 @@
    "бронеавтомобілі",
    "бізнес",
    "вмс зсу",
+   "володар перснів: персні влади",
    "військова техніка",
    "кібербезпека",
+   "кіно",
    "морські дрони",
    "новатор",
    "новини",
@@ -25940,7 +26187,7 @@
    "перехоплювачі",
    "платформи",
    "ремонт",
-   "стримінгові сервіси",
+   "серіали",
    "україна",
    "українська бронетехніка",
    "чорне море",
@@ -25951,58 +26198,6 @@
   ]
  },
  "titles": [
-  [
-   1792438371.8457477,
-   "Fake Names (Bad Religion, Refused, Etc.) Premiere “Punk Ruins” Lyric Video"
-  ],
-  [
-   1792438374.8593986,
-   "Metallica Share Official Live Footage Of “Devil’s Dance” At The Sphere"
-  ],
-  [
-   1792438377.9653232,
-   "Dave Mustaine claims a Megadeth, Anthrax and Kerry King tour for 2027 is coming"
-  ],
-  [
-   1792438380.9494772,
-   "Metallica Sphere performance videos for \"Harvester Of Sorrow\" & \"...And Justice For All\" are online"
-  ],
-  [
-   1792438385.3908675,
-   "Scrape (Cursed, Left For Dead) deliver debut self-titled 7\" created during COVID"
-  ],
-  [
-   1792440089.4939003,
-   "WoW: Forever Is Soaring, But Midnight Is Struggling"
-  ],
-  [
-   1792440092.610394,
-   "Brooklyn Street Named After Late Baby’s All Right Co-Founder Billy Jones"
-  ],
-  [
-   1792440096.7286634,
-   "‘Sense and Sensibility’ Screenwriter on Book-to-Screen Changes and Why Jane Austen Is So Adaptable: ‘She’s Almost Like Shakespeare’"
-  ],
-  [
-   1792440106.3401515,
-   "Halo Championship Series Returns This December With HCS Invitational"
-  ],
-  [
-   1792440114.079856,
-   "Apotheus release new music video for ‘Key Keeper’"
-  ],
-  [
-   1792440117.3432958,
-   "Hunter Schafer Reveals She Had Gender-Affirming Bottom Surgery"
-  ],
-  [
-   1792440121.4558718,
-   "Kris Bowers Set to Compose Original Score For Disney’s Animated Feature ‘Hexed’ (EXCLUSIVE)"
-  ],
-  [
-   1792440124.7261403,
-   "Anciients Officially Welcome 3 Inches Of Blood’s Justin Hagberg As A Permanent Member"
-  ],
   [
    1792440132.5253682,
    "Lil Jon Opens Up About Learning The Man Who Raised Him Wasn’t His Biological Father"
@@ -27994,61 +28189,29 @@
   [
    1792611130.2813497,
    "Kid Cudi To Direct, Write & Star In Basquiat Movie: :A Love Letter To Jean, The 80s & NY City”"
+  ],
+  [
+   1792612895.831896,
+   "BECKY BALDWIN Shares Playthrough Video For 'Stormwatcher' From TONY IOMMI's New Solo Album"
+  ],
+  [
+   1792612899.1278098,
+   "PIERCE THE VEIL Opens 'Hot Topic Live' Music Performance Series"
+  ],
+  [
+   1792612908.8499298,
+   "Середзем’я поринає у війну: Amazon показала трейлер третього сезону \"Перснів влади\""
+  ],
+  [
+   1792612914.270908,
+   "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites"
+  ],
+  [
+   1792612924.5556922,
+   "EA Promises A New Open-World Experience For Its Football Games"
   ]
  ],
  "titles_uk": [
-  [
-   1792438371.8457484,
-   "Fake Names випустили лірик-відео на пісню \"Punk Ruins\""
-  ],
-  [
-   1792438374.8593993,
-   "Metallica показала офіційне концертне відео Devil’s Dance у The Sphere"
-  ],
-  [
-   1792438377.965324,
-   "Дейв Мастейн анонсував тур Megadeth з Anthrax та Kerry King на 2027 рік"
-  ],
-  [
-   1792438380.949478,
-   "Metallica виклала відео живих виступів із резиденції у Sphere"
-  ],
-  [
-   1792438385.3908682,
-   "Гурт Scrape випустив однойменний дебютний 7-inch вініл"
-  ],
-  [
-   1792440089.4939013,
-   "WoW: Forever процвітає на тлі проблем розширення Midnight"
-  ],
-  [
-   1792440092.610395,
-   "У Брукліні назвали вулицю на честь покійного засновника Baby’s All Right Біллі Джонса"
-  ],
-  [
-   1792440096.7286644,
-   "Сценаристка нової екранізації Sense and Sensibility розповіла про роботу над фільмом"
-  ],
-  [
-   1792440106.3401525,
-   "Halo Championship Series повертається у грудні з турніром HCS Invitational"
-  ],
-  [
-   1792440114.0798569,
-   "Apotheus випустили новий кліп на трек Key Keeper"
-  ],
-  [
-   1792440117.3432965,
-   "Гантер Шафер зробила гендерно-афірмативну операцію"
-  ],
-  [
-   1792440121.4558725,
-   "Кріс Бауерс напише музику до анімаційного фільму Hexed від Disney"
-  ],
-  [
-   1792440124.7261412,
-   "Anciients прийняли Джастіна Гагберга до складу гурту"
-  ],
   [
    1792440132.5253696,
    "Lil Jon дізнався, що чоловік, який його виростив, не був його біологічним батьком"
@@ -30040,6 +30203,26 @@
   [
    1792611130.2813504,
    "Kid Cudi зніме фільм про Jean-Michel Basquiat"
+  ],
+  [
+   1792612895.8318963,
+   "Беккі Болдуїн опублікувала геймплейне відео? Тьфу, відео з бас-гітарою на трек Stormwatcher"
+  ],
+  [
+   1792612899.1278102,
+   "PIERCE THE VEIL відкрили нову серію виступів Hot Topic Live"
+  ],
+  [
+   1792612908.8499305,
+   "Середзем’я поринає у війну: Amazon показала трейлер третього сезону \"Перснів влади\""
+  ],
+  [
+   1792612914.2709088,
+   "OpenAI та Google знайшли критичну вразливість у PHP"
+  ],
+  [
+   1792612924.5556931,
+   "EA розробляє новий відкритий світ Project Gridiron для своїх спортивних ігор"
   ]
  ],
  "ukrainian": {
