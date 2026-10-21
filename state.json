@@ -1,15 +1,33 @@
 {
  "alerts": {
+  "src:ai|The Decoder|https://the-decoder.com/feed/": {
+   "detail": "https://the-decoder.com/feed/ → HTTPSConnectionPool(host='the-decoder.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutEr",
+   "label": "Джерело «The Decoder» не працює",
+   "sent": 0,
+   "since": 1792600306.5448003
+  },
   "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
    "detail": "https://www.kerrang.com/feed.rss → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
    "label": "Джерело «Kerrang!» не працює",
    "sent": 0,
    "since": 1792567873.9496448
+  },
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1792600281.2967207
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1792600279.4778328
   }
  },
  "daily_digest_date": "2026-10-20",
  "freebies": {
-  "last_check": 1792593249.3273146,
+  "last_check": 1792600370.284139,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -18,11 +36,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-21 16:09 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-10-21 16:32 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 12
+   "gemini-flash-lite-latest": 9
   },
   "used": [
    "Gemini"
@@ -9191,7 +9209,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b>Інді-ігри та нові IP різко зросли в продажах у 2026 році</b>\n\nДослідження Sensor Tower показало, що у 2026 році частка інді-ігор та нових серій серед успішних релізів для PC і консолей значно зросла порівняно з 2025-м. Кількість ігор, що продалися тиражем понад 500 000 копій за перший місяць, збільшилася з 55 до 76, а загальні продажі зросли на 51%.\n\n🔗 <a href=\"https://www.gamesindustry.biz/indies-and-original-ip-blew-up-in-2026\">GamesIndustry.biz</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/indies-and-original-ip-blew-up-in-2026",
     "orig": "Indies and original IP blew up in 2026"
@@ -9205,7 +9222,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>Пауло Педерчіні зізнався у використанні ШІ в грі <a href=\"https://store.steampowered.com/app/3861870/\">Future? No Thanks!</a></b>\n\nРозробник Пауло Педерчіні зізнався, що використав генеративний ШІ під час створення екосоціалістичної сатири Future? No Thanks!. За його словами, технологію задіяли для виправлення багів у коді та озвучування кількох персонажів, хоча сам він називає ШІ «технофашистським проєктом».\n\n🔗 <a href=\"https://www.rockpapershotgun.com/ai-is-a-technofascist-anti-human-and-anti-art-project-says-creator-of-lefty-tech-satire-future-no-thanks-before-explaining-why-he-used-it-anyway\">Rock Paper Shotgun</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/ai-is-a-technofascist-anti-human-and-anti-art-project-says-creator-of-lefty-tech-satire-future-no-thanks-before-explaining-why-he-used-it-anyway",
     "orig": "\"AI is a technofascist, anti-human and anti-art project\", says creator of lefty tech satire Future? No Thanks!, before explaining why he used it anyway"
@@ -9219,7 +9235,6 @@
    "PlayUA",
    {
     "also": [],
-    "caption": "🎮 <b>Фанат <a href=\"https://store.steampowered.com/app/570/\">Dota 2</a> запропонував додати матчі-реванші з подвійним MMR</b>\n\nГравець у Dota 2 запропонував Valve запровадити систему матчів-реваншів, яка дозволить командам повторно зіграти одна проти одної після завершення зустрічі. Головною умовою має стати згода всіх десяти учасників попереднього матчу. На думку автора ідеї, така функція допоможе гравцям частіше проводити час із хорошими товаришами по команді та гідними суперниками. Він зазначив, що в Dota 2 […]\n\n🔗 <a href=\"https://playua.net/fanat-dota-2-zaproponuvav-dodaty-matchi-revanshi-z-podvijnym-mmr/\">PlayUA</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://playua.net/fanat-dota-2-zaproponuvav-dodaty-matchi-revanshi-z-podvijnym-mmr/",
     "orig": "Фанат Dota 2 запропонував додати матчі-реванші з подвійним MMR"
@@ -9238,7 +9253,6 @@
       "https://metalinjection.net/news/spotify-removes-more-than-50-million-ai-slop-songs"
      ]
     ],
-    "caption": "💾 <b>Spotify прибрав із рекомендацій 50 млн спам-треків і пісень, створених з ШІ</b>\n\nSpotify повідомив, що за останній рік видалив понад 50 млн треків, визначених як низькоякісний ШІ-контент або музичний спам, із рекомендацій користувачів. Крім того, сервіс оновив саму систему алгоритмів, щоб надати пріоритет композиціям, створеним людьми.\n\n🔗 <a href=\"https://mezha.ua/news/spotify-removed-50-million-ai-and-spam-track-316369/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/spotify-removed-50-million-ai-and-spam-track-316369/",
     "orig": "Spotify прибрав із рекомендацій 50 млн спам-треків і пісень, створених з ШІ"
@@ -9251,8 +9265,12 @@
    "Організація Evil Geniuses оголосила про закриття після 27 років у кіберспорті",
    "PlayUA",
    {
-    "also": [],
-    "caption": "🎮 <b>Організація Evil Geniuses оголосила про закриття після 27 років у кіберспорті</b>\n\nАмериканська кіберспортивна організація Evil Geniuses припинить свою діяльність 2 листопада 2026 року після 27 років роботи. Причинами такого рішення стали проблеми із залученням спонсорів та зростання витрат на утримання команд, які виступають на найвищому рівні. Про закриття клубу повідомили 20 жовтня в соціальній мережі X. Офіційну заяву підписав генеральний директор організації Кріс ДеАпполоніо. За словами […]\n\n🔗 <a href=\"https://playua.net/organizacziya-evil-geniuses-ogolosyla-pro-zakryttya-pislya-27-rokiv-u-kibersporti/\">PlayUA</a>\n\n#ігри",
+    "also": [
+     [
+      "Insider Gaming",
+      "https://insider-gaming.com/evil-geniuses-shutting-down-november/"
+     ]
+    ],
     "kind": "photo",
     "link": "https://playua.net/organizacziya-evil-geniuses-ogolosyla-pro-zakryttya-pislya-27-rokiv-u-kibersporti/",
     "orig": "Організація Evil Geniuses оголосила про закриття після 27 років у кіберспорті"
@@ -9266,7 +9284,6 @@
    "VGC",
    {
     "also": [],
-    "caption": "🎮 <b>Розробники Hellraiser: Revival прагнули домогтися заборони гри</b>\n\nКоманда Saber Interactive ставила за неофіційну мету отримати заборону або обмеження на продаж гри Hellraiser: Revival в якійсь із країн. Розробники хотіли досягти рівня екстремального контенту фільмів і повісті Клайва Баркера. У результаті Індонезія присвоїла проєкту категорію RC, фактично заборонивши його продаж у країні.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/hellraiser-revival-studio-had-an-unofficial-goal-to-be-banned-unrated-or-restricted-somewhere-in-the-world/\">VGC</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/news/hellraiser-revival-studio-had-an-unofficial-goal-to-be-banned-unrated-or-restricted-somewhere-in-the-world/",
     "orig": "Hellraiser Revival studio had an ‘unofficial goal’ to be ‘banned, unrated, or restricted’ somewhere in the world"
@@ -9280,7 +9297,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>ARMORED SAINT вирушать у турне Великою Британією та Ірландією із SAXON</b>\n\nГурт ARMORED SAINT візьме участь у турі «Gods Of Thunder» разом із SAXON у лютому 2027 року. Музиканти виступлять у низці міст Великої Британії та Ірландії, зокрема у Лондоні, Манчестері та Дубліні.\n\n🔗 <a href=\"https://blabbermouth.net/news/armored-saint-to-support-saxon-on-gods-of-thunder-u-k-and-ireland-tour-in-february-2027\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/armored-saint-to-support-saxon-on-gods-of-thunder-u-k-and-ireland-tour-in-february-2027",
     "orig": "ARMORED SAINT To Support SAXON On 'Gods Of Thunder' U.K. And Ireland Tour In February 2027"
@@ -9299,7 +9315,6 @@
       "https://www.ign.com/articles/warhammer-40000-dawn-of-war-4-detailed-impressions-of-the-necron-and-admech-factions-ign-preview"
      ]
     ],
-    "caption": "🎮 <b>Враження від кампаній у Warhammer 40,000: Dawn of War 4</b>\n\nЖурналіст зіграв у дві кампанії Warhammer 40,000: Dawn of War 4 за orks та Adeptus Mechanicus, а також у пролог за Astra Militarum. Кампанія за орків пропонує швидкий найм армії, тактичну різноманітність та змагання між різними фракціями зеленошкірих на планеті Kronos.\n\n🔗 <a href=\"https://www.pcgamer.com/games/rts/ive-played-2-of-dawn-of-war-4s-campaigns-and-theyre-everything-i-hoped-theyd-be/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/rts/ive-played-2-of-dawn-of-war-4s-campaigns-and-theyre-everything-i-hoped-theyd-be/",
     "orig": "I've played 2 of Dawn of War 4's campaigns, and they're everything I hoped they'd be"
@@ -9313,7 +9328,6 @@
    "GameSpot",
    {
     "also": [],
-    "caption": "🎮 <b>Фізичні та цифрові продажі ігор на PS5 мають помітну різницю</b>\n\nДані Alinea Analytics показують значний розрив між фізичними та цифровими іграми для PS5 у 2026 році. Лідерами за продажами на фізичних носіях стали переважно сюжетні AAA-проєкти, зокрема бестселер Resident Evil Requiem.\n\n🔗 <a href=\"https://www.gamespot.com/articles/ps5s-biggest-physical-games-look-very-different-from-its-biggest-digital-hits/\">GameSpot</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamespot.com/articles/ps5s-biggest-physical-games-look-very-different-from-its-biggest-digital-hits/",
     "orig": "PS5’s Biggest Physical Games Look Very Different From Its Biggest Digital Hits"
@@ -10054,11 +10068,142 @@
    "Говард Джонс і Адам Дуткевич анонсували новий проєкт Burn Eternal",
    "Lambgoat",
    {
-    "also": [],
+    "also": [
+     [
+      "ThePRP",
+      "https://www.theprp.com/2026/10/21/news/killswitch-engage-offshoot-burn-eternal-sign-with-metal-blade-records/"
+     ]
+    ],
     "caption": "🤘 <b>Говард Джонс і Адам Дуткевич анонсували новий проєкт Burn Eternal</b>\n\nКолишній вокаліст Killswitch Engage Говард Джонс та гітарист Адам Дуткевич об&#x27;єдналися в новий проєкт Burn Eternal та підписали контракт із Metal Blade Records. Музиканти готують до релізу дебютний альбом і обіцяють випустити перший кліп найближчим часом.\n\n🔗 <a href=\"https://lambgoat.com/news/55462/burn-eternal-killswitch-engage-sign-to-metal-blade-records/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55462/burn-eternal-killswitch-engage-sign-to-metal-blade-records/",
     "orig": "Burn Eternal (Killswitch Engage) sign to Metal Blade Records"
+   }
+  ],
+  [
+   1792600316.633098,
+   1693,
+   "🎮",
+   "Анонсовано нову настільну гру Diablo Unbound із соло-режимом",
+   "GameSpot",
+   {
+    "also": [],
+    "caption": "🎮 <b>Анонсовано нову настільну гру Diablo Unbound із соло-режимом</b>\n\n🔗 <a href=\"https://www.gamespot.com/articles/diablo-is-getting-a-new-board-game-and-you-can-play-it-solo/\">GameSpot</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamespot.com/articles/diablo-is-getting-a-new-board-game-and-you-can-play-it-solo/",
+    "orig": "Diablo Is Getting A New Board Game, And You Can Play It Solo"
+   }
+  ],
+  [
+   1792600323.738781,
+   1694,
+   "🎮",
+   "Beyond Good & Evil 2 досі в розробці та стала сюжетною соло-пригодою",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Beyond Good &amp; Evil 2 досі в розробці та стала сюжетною соло-пригодою</b>\n\nГра Beyond Good &amp; Evil 2 досі перебуває на стадії препродакшну через 18 років після анонсу. Концепцію проєкту змінили з акцентом на одиночну сюжетну пригоду з опціональним кооперативом замість багатокористувацького онлайн-формату.\n\n🔗 <a href=\"https://www.eurogamer.net/beyond-good-and-evil-bge2-report-ubisoft\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/beyond-good-and-evil-bge2-report-ubisoft",
+    "orig": "Beyond Good & Evil 2 reportedly still in development 18 years after being announced, now a \"solo-first\" adventure"
+   }
+  ],
+  [
+   1792600327.848974,
+   1695,
+   "🎮",
+   "CD Projekt Red анонсувала масштабне оновлення для Cyberpunk 2077",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>CD <a href=\"https://store.steampowered.com/app/759000/\">Projekt</a> Red анонсувала масштабне оновлення для <a href=\"https://store.steampowered.com/app/1091500/\">Cyberpunk 2077</a></b>\n\nCD Projekt Red анонсувала велике оновлення для Cyberpunk 2077, яке вийде 22 жовтня. Воно додасть стрільбу з двох рук, кросплатформні моди, сюжетні квести за мотивами аніме Edgerunners, нову радіостанцію та кастомізацію кіберварингу.\n\n🔗 <a href=\"https://www.eurogamer.net/cyberpunk-2077-update-edgerunners-2-mod-support\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/cyberpunk-2077-update-edgerunners-2-mod-support",
+    "orig": "CD Projekt Red details new Cyberpunk 2077 update - adding dual-wielding, cross-platform mods, Edgerunners story quests, and more"
+   }
+  ],
+  [
+   1792600332.2101018,
+   1696,
+   "🎮",
+   "Cyberpunk 2077 отримує патч 2.5 з двома новими квестами та стрільбою з двох рук",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/1091500/\">Cyberpunk 2077</a> отримує патч 2.5 з двома новими квестами та стрільбою з двох рук</b>\n\nДля Cyberpunk 2077 виходить оновлення 2.5, присвячене виходу другого сезону аніме Cyberpunk Edgerunners. Патч додає приквел-квест Clampdown із контентом з аніме, сюжетну місію Welcome to Paradise, перк для стрільби з двох пістолетів чи револьверів, кастомізацію кібериплантів у спеціальних вендорів та кросплатформну підтримку модів.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/cyberpunk-2077s-edgerunners-2-update-adds-two-new-quests-handgun-dual-wielding-and-the-ability-to-pimp-your-mantis-blades\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/cyberpunk-2077s-edgerunners-2-update-adds-two-new-quests-handgun-dual-wielding-and-the-ability-to-pimp-your-mantis-blades",
+    "orig": "Cyberpunk 2077's Edgerunners 2 update adds two new quests, handgun dual wielding and the ability to pimp your mantis blades"
+   }
+  ],
+  [
+   1792600335.7480018,
+   1697,
+   "🎬",
+   "Ава Дюверней розповіла про роботу над документальним фільмом про 14-ту поправку",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Ава Дюверней розповіла про роботу над документальним фільмом про 14-ту поправку</b>\n\nПід час роботи над документальною стрічкою для Netflix режисерка Ава Дюверней планувала зосередитися лише на правові народження в США, передбаченому 14-ю поправкою. Проте дворічний процес створення фільму показав їй, що поправка містить набагато більше важливих правових захистів, які сьогодні часто опиняються в центрі уваги.\n\n🔗 <a href=\"https://www.indiewire.com/news/events/watch-ava-duvernay-discuss-14th-indiewire-art-of-the-doc-1235223105/\">IndieWire</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/news/events/watch-ava-duvernay-discuss-14th-indiewire-art-of-the-doc-1235223105/",
+    "orig": "Watch Ava Duvernay Explain Why the 14th Amendment Is So Much More Than Birthright Citizenship"
+   }
+  ],
+  [
+   1792600339.545884,
+   1698,
+   "🤘",
+   "Angine de Poitrine анонсували масштабний світовий тур на 2027 рік",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Angine de Poitrine анонсували масштабний світовий тур на 2027 рік</b>\n\nКанадський психоделік-рок-дует Angine de Poitrine оголосив плани щодо масштабного світового туру на 2027 рік. Музиканти виступлять в Австралії, Південній Америці, Північній Америці, Європі та Великій Британії. Попередні продажі квитків стартують 27 жовтня.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/21/news/angine-de-poitrine-announce-2027-world-touring-plans/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/21/news/angine-de-poitrine-announce-2027-world-touring-plans/",
+    "orig": "Angine De Poitrine Announce 2027 World Touring Plans"
+   }
+  ],
+  [
+   1792600342.6881347,
+   1699,
+   "🎮",
+   "GOG та GOG Galaxy призупинили роботу через вразливість у PHP",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>GOG та GOG Galaxy призупинили роботу через вразливість у PHP</b>\n\nМагазин GOG та лаунчер GOG Galaxy тимчасово вимкнули для технічного обслуговування через критичні вразливості в мові програмування PHP. Подібні превентивні заходи безпеки та збої зачепили й інші сервіси, зокрема сервери входу Final Fantasy 14.\n\n🔗 <a href=\"https://www.pcgamer.com/software/security/gog-taken-offline-for-maintenance-in-wake-of-php-security-emergency/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/software/security/gog-taken-offline-for-maintenance-in-wake-of-php-security-emergency/",
+    "orig": "GOG taken offline for maintenance in wake of PHP security emergency"
+   }
+  ],
+  [
+   1792600358.719967,
+   1700,
+   "🎮",
+   "Для режиму 120 Гц у Modern Warfare 4 тепер обов'язково потрібен VRR",
+   "Digital Foundry",
+   {
+    "also": [],
+    "caption": "🎮 <b>Для режиму 120 Гц у Modern Warfare 4 тепер обов&#x27;язково потрібен VRR</b>\n\nУ Modern Warfare 4 для роботи режиму 120 Гц у кампанії, DMZ та Warzone обов&#x27;язково потрібна підтримка технології VRR на консолях PS5 та Xbox Series X/S. Без неї гра буде обмежена 60 Гц, що змусить власників старих моніторів і телевізорів оновити обладнання. Технічні причини такого рішення наразі не розголошуються.\n\n🔗 <a href=\"https://www.digitalfoundry.net/news/2026/10/modern-warfare-4-requires-vrr-for-120hz-mode-to-function-unlike-past-entries\">Digital Foundry</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.digitalfoundry.net/news/2026/10/modern-warfare-4-requires-vrr-for-120hz-mode-to-function-unlike-past-entries",
+    "orig": "Modern Warfare 4 Requires VRR for 120Hz Mode to Function, Unlike Past Entries"
+   }
+  ],
+  [
+   1792600361.2370427,
+   1701,
+   "🤖",
+   "А як же ШІ? Anthropic шукає автора промов з платнею $345 000 на рік",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🤖 <b>А як же ШІ? Anthropic шукає автора промов з платнею $345 000 на рік</b>\n\nВакансія Anthropic свідчить, що фахівцям роботи з текстами поки зарано змінювати професію. Розробник мовних моделей шукає Executive Communications Writer з річною платнею від $295 000 до $345 000.\n\n🔗 <a href=\"https://mezha.ua/news/345000-writing-at-anthropic-316402/\">Mezha</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/345000-writing-at-anthropic-316402/",
+    "orig": "А як же ШІ? Anthropic шукає автора промов з платнею $345 000 на рік"
    }
   ]
  ],
@@ -10088,7 +10233,8 @@
    1792497701.9073443
   ],
   "ai|Mezha|https://mezha.ua/feed/": [
-   1792596696.6720293
+   1792596696.6720293,
+   1792600361.2376173
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1792517557.290951,
@@ -10105,7 +10251,8 @@
   "games|Digital Foundry|https://www.digitalfoundry.net/feed": [
    1792515719.678554,
    1792521222.9651988,
-   1792593203.6057668
+   1792593203.6057668,
+   1792600358.720579
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
    1792573296.6495557,
@@ -10114,17 +10261,15 @@
    1792585922.1488922,
    1792589568.7558627,
    1792593158.2692487,
-   1792598896.2873588
+   1792598896.2873588,
+   1792600323.739381,
+   1792600327.8495736
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
-   1792503109.0566463,
-   1792505088.7645698,
-   1792506249.5567946,
-   1792506274.2742562,
-   1792512325.575098,
    1792515841.0276558,
    1792515915.4750545,
-   1792585909.2501373
+   1792585909.2501373,
+   1792600316.6334708
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
    1792569863.3110964,
@@ -10178,10 +10323,6 @@
    1792587744.2917686
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1792501328.1989686,
-   1792504997.160054,
-   1792508675.6726134,
-   1792510622.6936257,
    1792514028.1424417,
    1792514102.9533007,
    1792515945.3505015,
@@ -10193,7 +10334,8 @@
    1792580502.7706192,
    1792582316.2283695,
    1792582321.312972,
-   1792585899.6592028
+   1792585899.6592028,
+   1792600342.6887717
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1792506133.2829854,
@@ -10211,8 +10353,6 @@
    1792578701.3204129
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
-   1792510578.4295297,
-   1792510652.6327155,
    1792519386.133656,
    1792524252.5745454,
    1792530127.3500028,
@@ -10221,7 +10361,8 @@
    1792584083.8083878,
    1792585926.8879848,
    1792595349.1177084,
-   1792596710.1877606
+   1792596710.1877606,
+   1792600332.2107468
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1792503180.830482
@@ -10276,11 +10417,11 @@
    1792582332.9975538
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
-   1792512520.1111627,
    1792515978.0341806,
    1792517862.0145395,
    1792528296.8802044,
-   1792537282.9929054
+   1792537282.9929054,
+   1792600335.74853
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1792573287.4335515
@@ -10402,7 +10543,8 @@
    1792528355.177721,
    1792530124.0680697,
    1792530138.849021,
-   1792564646.7948623
+   1792564646.7948623,
+   1792600339.5464852
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1792481487.1423821
@@ -10800,6 +10942,7 @@
   "29cf1f6dafb5d2bc": 1792528283.2742631,
   "29cfe4e95e49a7be": 1791769122.3502562,
   "29d5218f38944297": 1792515873.225819,
+  "2a162ccf7f6d2b21": 1792600257.4748182,
   "2a450dcaa7d8f090": 1792129235.1684577,
   "2a4d13485e78fd3b": 1792510287.76561,
   "2a75e987f0592ec1": 1792523067.4261246,
@@ -10852,6 +10995,7 @@
   "2f43ffc9d5887adc": 1792021759.8338954,
   "2f456387b81bf6ed": 1792503180.830435,
   "2f89324ba4dbf233": 1792497685.845431,
+  "2f90e1c6df067eaf": 1792600327.8495288,
   "2fd3ad1f8f885826": 1792596683.2262578,
   "2fe1f171969a38b1": 1792517670.2398946,
   "2ff0c7c61394cbe9": 1791722094.2530224,
@@ -10910,6 +11054,7 @@
   "36917ef32b441dc1": 1792071069.4472752,
   "36c772521ca5886a": 1792555282.983842,
   "37033c506c333ecf": 1792009788.984798,
+  "3721f64b107d3c92": 1792600257.4748182,
   "37237c4ea4f79b31": 1792580486.1923513,
   "372ad9e58fcbad6e": 1792333896.6567812,
   "374d8e2715ca4521": 1792423975.7568457,
@@ -10936,6 +11081,7 @@
   "3a0eba51a0f15c4e": 1792405898.3333807,
   "3a2627612565e7c8": 1792416704.764437,
   "3a4ad9e5ba46f862": 1792256281.4254203,
+  "3a5c98bbeebb49d1": 1792600316.6334214,
   "3a67d6a3151c4831": 1791908397.4775882,
   "3a8c60526d1f5f9b": 1792407741.8355472,
   "3a97d930da3fd44d": 1792495905.31809,
@@ -11015,6 +11161,7 @@
   "425255b9a12a1dfb": 1792324878.800409,
   "4305ce6b081ab3b8": 1791678235.0223486,
   "4308794c00b9739c": 1792494193.1181586,
+  "4313e81ffff3a32b": 1792600308.3693054,
   "431c52b37ba34ad3": 1791920881.6626737,
   "439092d850041c51": 1792080927.3717632,
   "439b6635122fd180": 1792402278.0223076,
@@ -11136,6 +11283,7 @@
   "4ff4740e9eec85dc": 1791932593.4533782,
   "4ffac5d028c725bc": 1792352402.4373956,
   "503147e0f372c017": 1792351877.9673495,
+  "503dc1f7f9814848": 1792600358.7205315,
   "50461fdbb5baf0f1": 1791931686.7969706,
   "5049c7ca1ffb21f7": 1792070959.9813466,
   "504ee63d6d202353": 1791642330.1209908,
@@ -11145,6 +11293,7 @@
   "50da6912ca75d057": 1792244037.6504922,
   "513db1c4a6fb4ee2": 1792164553.0436478,
   "51e7ebbf532009ed": 1792099071.7265372,
+  "523e3178e1703e76": 1792600323.7393303,
   "52a290098248a2d0": 1792434654.3913481,
   "52a340fa6a8371b1": 1792501336.424054,
   "52a4f61770fd5985": 1792499489.15383,
@@ -11499,7 +11648,9 @@
   "7b51a41a8a5fb539": 1791894773.4746997,
   "7b541e78edb0a115": 1792335747.9551442,
   "7b579930cd7c0997": 1792530127.3499582,
+  "7b5b859f799d2ee8": 1792600308.3665664,
   "7b6af7a5271fa717": 1792348274.0304286,
+  "7b819b8ee43ce755": 1792600257.4748182,
   "7b8cf10caa748c49": 1792447326.6970077,
   "7b94790777ec0c1a": 1792074068.3644192,
   "7b9f08ab65f9bf9f": 1792492410.6357894,
@@ -11542,6 +11693,7 @@
   "7f5f620284ee6edd": 1792528284.956082,
   "7f6b9160d2b3f61b": 1792580502.7705922,
   "7f829eb99093555a": 1792111184.553492,
+  "7fc822236a73082f": 1792600339.5464394,
   "7fce628a644d2df8": 1792342893.65466,
   "7fd2426ce28262a5": 1792445501.3889751,
   "7ff30a65c135834c": 1792542740.2667193,
@@ -11557,6 +11709,7 @@
   "81286c93349d3132": 1791975134.5426724,
   "8172816916345157": 1791908451.4666152,
   "818ce15a49e53ad4": 1791643484.7724442,
+  "8196839bbd3e3047": 1792600361.2375708,
   "81b98509a7318284": 1792333906.3051164,
   "81bac336664d9503": 1792434708.7181153,
   "81c60f65d26703ec": 1792244013.6619866,
@@ -11651,6 +11804,7 @@
   "8bfc838dd8bbef1a": 1792214832.143808,
   "8c30dfc042a09859": 1792490505.8083584,
   "8c4905e6376f8099": 1792575421.246362,
+  "8c6d1520dbb62ee5": 1792600307.7744868,
   "8c78792dcece6981": 1792244031.369591,
   "8c8dc3d6d730f323": 1792423879.268033,
   "8c95f8bd879f4260": 1791837748.8287897,
@@ -11818,6 +11972,7 @@
   "a204004c0897567b": 1791968053.915055,
   "a205c4a8bea45ab0": 1791831091.1301608,
   "a2429860abce8344": 1792539076.0421798,
+  "a2bc707253fa1e28": 1792600332.210698,
   "a2c71b3da08d95a2": 1792591941.3010178,
   "a2c7e06b234aca03": 1792517500.7421837,
   "a2d8974671876099": 1791722108.479963,
@@ -11865,6 +12020,7 @@
   "a8f112f822f3a0a4": 1792488819.7971444,
   "a9099f5bd2c65249": 1791718266.0927563,
   "a91f365eb678ef8f": 1792021771.6729987,
+  "a98212cd646e8a83": 1792600349.566509,
   "a99d4fead489e225": 1792422123.309201,
   "a9a7ae70b195bcc4": 1791750742.2223434,
   "a9af8ed59b4ac362": 1792352514.8473883,
@@ -11953,6 +12109,7 @@
   "b4d70f8a7081489f": 1792595277.6345336,
   "b4fcea4d70451120": 1791807593.5725496,
   "b5368d16e5d8a522": 1791750736.9549613,
+  "b554041a8cfb3723": 1792600307.101122,
   "b58e883e7082f041": 1791920864.3307495,
   "b59d50f87e18ab51": 1792596683.2210956,
   "b59df2e9009b584c": 1792405917.6922417,
@@ -12433,6 +12590,7 @@
   "f1b825ef1c257b0f": 1791978165.150092,
   "f1da12db0251eb46": 1792377273.9268353,
   "f1e07059f0763d21": 1792447300.2195876,
+  "f22a8c571387bb41": 1792600335.7484858,
   "f2345ea378f19b87": 1791807558.0655868,
   "f2488a784d7cfdfe": 1792490500.3452482,
   "f29c23a57f752eda": 1792352542.7076206,
@@ -12511,6 +12669,7 @@
   "fa5f15f95cb7016f": 1792371705.2867553,
   "fa949988bc6f0cc5": 1792281224.0908048,
   "faa2a4f8ea714e23": 1792101840.5980327,
+  "facc0a7ea0dc126f": 1792600342.6887207,
   "fad6351abbe109a6": 1792517557.290877,
   "faf605d3e71d28a3": 1792416696.5336456,
   "fb1ab11044199980": 1792582321.31292,
@@ -12998,7 +13157,7 @@
   ],
   "artists_checked": 1792591962.3066845,
   "blocked_until": 1792591591.7586727,
-  "cursor": 329,
+  "cursor": 339,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
     "0CVnhwtOpdoIkOatkGcVwO",
@@ -13735,8 +13894,9 @@
    "Insider Gaming": 13,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
-   "PC Gamer": 3,
-   "Polygon": 19
+   "PC Gamer": 4,
+   "Polygon": 20,
+   "Variety": 1
   },
   "sources": {
    "/Film": 20,
@@ -13747,16 +13907,16 @@
    "DOU Gamedev": 3,
    "Deadline": 39,
    "Decibel": 9,
-   "Digital Foundry": 4,
+   "Digital Foundry": 5,
    "Distorted Sound": 10,
-   "Eurogamer": 23,
-   "GameSpot": 20,
+   "Eurogamer": 25,
+   "GameSpot": 21,
    "GamesIndustry.biz": 12,
    "GitHub Trending": 14,
    "Hugging Face": 4,
    "IGN": 41,
    "ITC.ua": 33,
-   "IndieWire": 11,
+   "IndieWire": 12,
    "Insider Gaming": 48,
    "Kerrang!": 14,
    "Lambgoat": 26,
@@ -13764,25 +13924,25 @@
    "Metal Hammer (Louder)": 15,
    "Metal Injection": 6,
    "MetalSucks": 1,
-   "Mezha": 31,
-   "PC Gamer": 34,
+   "Mezha": 32,
+   "PC Gamer": 35,
    "Pitchfork": 4,
    "PlayUA": 17,
    "Polygon": 21,
    "Product Hunt": 14,
    "Revolver": 3,
-   "Rock Paper Shotgun": 22,
+   "Rock Paper Shotgun": 23,
    "SteamDB": 1,
    "Stereogum": 6,
    "The Decoder": 15,
-   "ThePRP": 20,
+   "ThePRP": 21,
    "VGC": 19,
    "Variety": 12
   },
   "translators": {
    "DeepL": 15,
    "gemini-flash-latest": 69,
-   "gemini-flash-lite-latest": 593
+   "gemini-flash-lite-latest": 602
   },
   "week": "2026-W43"
  },
@@ -14212,10 +14372,30 @@
    "",
    1792580506.244949
   ],
+  "q:18": [
+   0,
+   "",
+   1792600322.1216967
+  ],
+  "q:2": [
+   0,
+   "",
+   1792600321.6303601
+  ],
   "q:2 5": [
    3740720,
    "ハルスベリヤ叙事詩2.5",
    1792595281.694616
+  ],
+  "q:2 5 patch": [
+   0,
+   "",
+   1792600347.0421364
+  ],
+  "q:2 5 patch notes": [
+   0,
+   "",
+   1792600346.5222814
   ],
   "q:2 casts hideo kojima": [
    0,
@@ -14606,6 +14786,26 @@
    0,
    "",
    1792461850.381853
+  ],
+  "q:4 requires": [
+   0,
+   "",
+   1792600354.1902895
+  ],
+  "q:4 requires vrr": [
+   0,
+   "",
+   1792600353.723713
+  ],
+  "q:4 requires vrr for 120hz": [
+   0,
+   "",
+   1792600353.1938274
+  ],
+  "q:4 requires vrr for 120hz mode": [
+   0,
+   "",
+   1792600352.636791
   ],
   "q:4 rescues the reboot series": [
    0,
@@ -15481,6 +15681,16 @@
    0,
    "",
    1792589518.5516846
+  ],
+  "q:beyond good evil": [
+   0,
+   "",
+   1792600319.6919544
+  ],
+  "q:beyond good evil 2": [
+   0,
+   "",
+   1792600319.2007625
   ],
   "q:biddy blas is": [
    0,
@@ -16512,6 +16722,26 @@
    "",
    1792595279.7567885
   ],
+  "q:cyberpunk 2077 update 2 5 patch": [
+   0,
+   "",
+   1792600345.1295094
+  ],
+  "q:cyberpunk 2077 update 2 5 patch notes": [
+   0,
+   "",
+   1792600344.6681361
+  ],
+  "q:cyberpunk 2077's edgerunners": [
+   0,
+   "",
+   1792600330.283406
+  ],
+  "q:cyberpunk 2077's edgerunners 2": [
+   0,
+   "",
+   1792600329.8174849
+  ],
   "q:cyberpunk edgerunners": [
    0,
    "",
@@ -16921,6 +17151,26 @@
    0,
    "",
    1792531902.4220653
+  ],
+  "q:diablo is": [
+   0,
+   "",
+   1792600310.5315468
+  ],
+  "q:diablo is getting": [
+   0,
+   "",
+   1792600309.957233
+  ],
+  "q:diablo is getting a new": [
+   0,
+   "",
+   1792600309.4889982
+  ],
+  "q:diablo is getting a new board": [
+   0,
+   "",
+   1792600308.9648898
   ],
   "q:dice and bungie": [
    0,
@@ -17472,6 +17722,11 @@
    "",
    1792584092.9697013
   ],
+  "q:evil 2": [
+   0,
+   "",
+   1792600321.160275
+  ],
   "q:evil 2 still": [
    0,
    "",
@@ -17566,6 +17821,11 @@
    0,
    "",
    1792445522.7048068
+  ],
+  "q:explained": [
+   0,
+   "",
+   1792600348.461362
   ],
   "q:f2p": [
    0,
@@ -18497,6 +18757,26 @@
    "",
    1792427644.5808957
   ],
+  "q:getting": [
+   0,
+   "",
+   1792600314.536214
+  ],
+  "q:getting a new": [
+   0,
+   "",
+   1792600314.0099187
+  ],
+  "q:getting a new board": [
+   0,
+   "",
+   1792600313.552632
+  ],
+  "q:getting a new board game": [
+   0,
+   "",
+   1792600313.086942
+  ],
   "q:glasgow": [
    0,
    "",
@@ -18536,6 +18816,16 @@
    0,
    "",
    1792589521.0784132
+  ],
+  "q:good evil": [
+   0,
+   "",
+   1792600320.6486373
+  ],
+  "q:good evil 2": [
+   0,
+   "",
+   1792600320.1698234
   ],
   "q:gothic 3 classic": [
    39500,
@@ -19291,6 +19581,26 @@
    0,
    "",
    1792515878.232091
+  ],
+  "q:is getting": [
+   0,
+   "",
+   1792600312.5535834
+  ],
+  "q:is getting a new": [
+   0,
+   "",
+   1792600312.065341
+  ],
+  "q:is getting a new board": [
+   0,
+   "",
+   1792600311.5568178
+  ],
+  "q:is getting a new board game": [
+   0,
+   "",
+   1792600311.0020888
   ],
   "q:is heading to middle earth": [
    0,
@@ -20367,6 +20677,16 @@
    "",
    1792598626.3407304
   ],
+  "q:modern warfare 4 requires": [
+   0,
+   "",
+   1792600350.5487015
+  ],
+  "q:modern warfare 4 requires vrr": [
+   0,
+   "",
+   1792600350.0527353
+  ],
   "q:modern warfare 4 rescues": [
    0,
    "",
@@ -20802,6 +21122,11 @@
    "",
    1792468881.8763428
   ],
+  "q:notes": [
+   0,
+   "",
+   1792600347.9795172
+  ],
   "q:npc": [
    0,
    "",
@@ -21136,6 +21461,11 @@
    0,
    "",
    1792526505.0891275
+  ],
+  "q:patch notes": [
+   0,
+   "",
+   1792600347.5018768
   ],
   "q:patch notes latest": [
    0,
@@ -21567,6 +21897,11 @@
    ".projekt",
    1791908459.1061475
   ],
+  "q:projekt red": [
+   0,
+   "",
+   1792600325.7158477
+  ],
   "q:projekt's cyberpunk": [
    0,
    "",
@@ -21847,6 +22182,11 @@
    "",
    1792519326.4792495
   ],
+  "q:red": [
+   0,
+   "",
+   1792600326.1996145
+  ],
   "q:red dead redemption": [
    2668510,
    "Red Dead Redemption",
@@ -22026,6 +22366,21 @@
    0,
    "",
    1792519342.3248553
+  ],
+  "q:requires vrr": [
+   0,
+   "",
+   1792600355.8310587
+  ],
+  "q:requires vrr for 120hz": [
+   0,
+   "",
+   1792600355.365355
+  ],
+  "q:requires vrr for 120hz mode": [
+   0,
+   "",
+   1792600354.8174217
   ],
   "q:reset": [
    0,
@@ -22601,6 +22956,11 @@
    0,
    "",
    1792584065.9369383
+  ],
+  "q:solo first": [
+   0,
+   "",
+   1792600318.702685
   ],
   "q:spark": [
    0,
@@ -23527,6 +23887,16 @@
    "",
    1792595280.9119916
   ],
+  "q:update 2 5 patch": [
+   0,
+   "",
+   1792600346.0468245
+  ],
+  "q:update 2 5 patch notes": [
+   0,
+   "",
+   1792600345.5902965
+  ],
   "q:update details coming next week": [
    0,
    "",
@@ -23796,6 +24166,21 @@
    0,
    "",
    1792598627.7185762
+  ],
+  "q:warfare 4 requires": [
+   0,
+   "",
+   1792600352.1230743
+  ],
+  "q:warfare 4 requires vrr": [
+   0,
+   "",
+   1792600351.6052237
+  ],
+  "q:warfare 4 requires vrr for 120hz": [
+   0,
+   "",
+   1792600351.0993595
   ],
   "q:warfare 4 rescues": [
    0,
@@ -24240,14 +24625,11 @@
    "fire point",
    "gpt-6 astra",
    "gpt‑6.1 sol",
-   "grand theft auto vi",
-   "gta 6",
    "justwatch",
    "justwatch tv",
    "microsoft",
    "nvidia",
    "openai",
-   "rockstar games",
    "xbox",
    "бізнес",
    "вмс зсу",
@@ -24272,14 +24654,6 @@
   ]
  },
  "titles": [
-  [
-   1792427523.1209853,
-   "Full Album Stream: ORB – “Supernatural Season”"
-  ],
-  [
-   1792427548.0812845,
-   "FLOOR JANSEN 'Got So Many Wonderful Reactions' After Announcing Her Exit From NIGHTWISH"
-  ],
   [
    1792427572.3802998,
    "\"Sexy sorceresses\" and \"bare-chested fighters\": Dragon Age's original artists wanted to base it on Conan the Barbarian, much to the outrage of the designers"
@@ -26291,17 +26665,45 @@
   [
    1792598972.755753,
    "Burn Eternal (Killswitch Engage) sign to Metal Blade Records"
+  ],
+  [
+   1792600316.6334233,
+   "Diablo Is Getting A New Board Game, And You Can Play It Solo"
+  ],
+  [
+   1792600323.7393322,
+   "Beyond Good & Evil 2 reportedly still in development 18 years after being announced, now a \"solo-first\" adventure"
+  ],
+  [
+   1792600327.8495307,
+   "CD Projekt Red details new Cyberpunk 2077 update - adding dual-wielding, cross-platform mods, Edgerunners story quests, and more"
+  ],
+  [
+   1792600332.2106996,
+   "Cyberpunk 2077's Edgerunners 2 update adds two new quests, handgun dual wielding and the ability to pimp your mantis blades"
+  ],
+  [
+   1792600335.7484872,
+   "Watch Ava Duvernay Explain Why the 14th Amendment Is So Much More Than Birthright Citizenship"
+  ],
+  [
+   1792600339.5464406,
+   "Angine De Poitrine Announce 2027 World Touring Plans"
+  ],
+  [
+   1792600342.6887221,
+   "GOG taken offline for maintenance in wake of PHP security emergency"
+  ],
+  [
+   1792600358.7205327,
+   "Modern Warfare 4 Requires VRR for 120Hz Mode to Function, Unlike Past Entries"
+  ],
+  [
+   1792600361.2375722,
+   "А як же ШІ? Anthropic шукає автора промов з платнею $345 000 на рік"
   ]
  ],
  "titles_uk": [
-  [
-   1792427523.1209867,
-   "Deathrock-дует ORB випустив дебютний альбом Supernatural Season"
-  ],
-  [
-   1792427548.081286,
-   "Floor Jansen подякувала фанатам за підтримку після відходу з NIGHTWISH"
-  ],
   [
    1792427572.3803015,
    "Спочатку художники хотіли зробити Dragon Age у стилі Conan the Barbarian"
@@ -28313,6 +28715,42 @@
   [
    1792598972.7557538,
    "Говард Джонс і Адам Дуткевич анонсували новий проєкт Burn Eternal"
+  ],
+  [
+   1792600316.6334243,
+   "Анонсовано нову настільну гру Diablo Unbound із соло-режимом"
+  ],
+  [
+   1792600323.739333,
+   "Beyond Good & Evil 2 досі в розробці та стала сюжетною соло-пригодою"
+  ],
+  [
+   1792600327.8495314,
+   "CD Projekt Red анонсувала масштабне оновлення для Cyberpunk 2077"
+  ],
+  [
+   1792600332.2107005,
+   "Cyberpunk 2077 отримує патч 2.5 з двома новими квестами та стрільбою з двох рук"
+  ],
+  [
+   1792600335.7484877,
+   "Ава Дюверней розповіла про роботу над документальним фільмом про 14-ту поправку"
+  ],
+  [
+   1792600339.5464413,
+   "Angine de Poitrine анонсували масштабний світовий тур на 2027 рік"
+  ],
+  [
+   1792600342.6887228,
+   "GOG та GOG Galaxy призупинили роботу через вразливість у PHP"
+  ],
+  [
+   1792600358.7205331,
+   "Для режиму 120 Гц у Modern Warfare 4 тепер обов'язково потрібен VRR"
+  ],
+  [
+   1792600361.237573,
+   "А як же ШІ? Anthropic шукає автора промов з платнею $345 000 на рік"
   ]
  ],
  "ukrainian": {
@@ -30530,7 +30968,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792596721.0644634,
+  "last_check": 1792600370.1713364,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
