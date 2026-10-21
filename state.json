@@ -1,8 +1,21 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1792607477.606092
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1792607476.0125568
+  }
+ },
  "daily_digest_date": "2026-10-21",
  "freebies": {
-  "last_check": 1792600370.284139,
+  "last_check": 1792607549.7237146,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -11,7 +24,7 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-21 18:03 UTC",
+  "at": "2026-10-21 18:32 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
@@ -9642,7 +9655,6 @@
    "Revolver",
    {
     "also": [],
-    "caption": "🤘 <b>Cloud Nothings випустили важкий метал-сингл Death Keeps Me Alive</b>\n\nГурт Cloud Nothings анонсував дев&#x27;ятий альбом What Kind of Hell Did You Survive?, який вийде 29 січня на Pure Noise Records. Першим синглом стала важка композиція Death Keeps Me Alive, створена під впливом метал-музики та супроводжувана кліпом.\n\n🔗 <a href=\"https://www.revolvermag.com/music/hear-cloud-nothings-go-metal-on-new-song-death-keeps-me-alive/\">Revolver</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.revolvermag.com/music/hear-cloud-nothings-go-metal-on-new-song-death-keeps-me-alive/",
     "orig": "Hear CLOUD NOTHINGS go metal on new song “Death Keeps Me Alive”"
@@ -9656,7 +9668,6 @@
    "Digital Foundry",
    {
     "also": [],
-    "caption": "🎮 <b>Infinity Ward показала технології <a href=\"https://store.steampowered.com/app/2000950/\">Call of Duty: Modern Warfare</a> 4</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/304430/\">Inside</a>\n\nInfinity Ward розкрила деталі технічних оновлень Call of Duty: Modern Warfare 4 для PlayStation 5, Xbox Series X/S та PC. Гра отримала нову воксельну систему об&#x27;ємного диму й туману з інтерактивністю, оптимізований пайплайн растеризації та динамічні погодні ефекти.\n\n🔗 <a href=\"https://www.digitalfoundry.net/features/inside-call-of-duty-modern-warfare-4-the-new-game-changing-tech-powering-every-mode\">Digital Foundry</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.digitalfoundry.net/features/inside-call-of-duty-modern-warfare-4-the-new-game-changing-tech-powering-every-mode",
     "orig": "Feature: Inside Call of Duty: Modern Warfare 4: The New Game-Changing Tech Powering Every Mode"
@@ -9670,7 +9681,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Як перевірити статус серверів Steam і вирішити проблеми з підключенням</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/444410/\">Find Out</a>\n\nПлатформа Steam час від часу стикається з мережевими проблемами через свою залежність від інтернет-з&#x27;єднання. У статті зібрано поради, як перевірити статус серверів за допомогою спеціальних сервісів, соціальних мереж та виконати базове усунення неполадок на своєму пристрої.\n\n🔗 <a href=\"https://insider-gaming.com/is-steam-down-now-server-status/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/is-steam-down-now-server-status/",
     "orig": "Is Steam Down? Find Out If Steam Is Offline Now"
@@ -9684,7 +9694,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Усі головні телемережі спиратимуться на дані Associated Press під час виборів 2026 року</b>\n\nНа проміжних виборах 2026 року всі великі американські телемережі вперше за десятиліття використовуватимуть дані підрахунку голосів від Associated Press. Це забезпечить єдині результати для новинних платформ в умовах дезінформації, а також охопить дані опитувань виборців.\n\n🔗 <a href=\"https://deadline.com/2026/10/associated-press-midterms-results-data-1237165652/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/associated-press-midterms-results-data-1237165652/",
     "orig": "How The Associated Press Will Be At The Center Of The Midterms’ Election-Night Results"
@@ -9697,8 +9706,12 @@
    "Ніко МакБрейн розповів, чому відмовився грати в гольф із Дональдом Трампом",
    "Blabbermouth",
    {
-    "also": [],
-    "caption": "🤘 <b>Ніко МакБрейн розповів, чому відмовився грати в гольф із Дональдом Трампом</b>\n\nБарабанщик IRON MAIDEN Ніко МакБрейн зізнався, що відмовився від запрошення зіграти в гольф із Дональдом Трампом. Музикант різко висловився на адресу американського президента та його оточення, заявивши, що вони заслуговують на ув&#x27;язнення.\n\n🔗 <a href=\"https://blabbermouth.net/news/iron-maidens-nicko-mcbrain-says-donald-trump-and-his-bunch-of-cronies-should-be-put-in-jail\">Blabbermouth</a>\n\n#музика",
+    "also": [
+     [
+      "Metal Injection",
+      "https://metalinjection.net/news/iron-maiden-drummer-nicko-mcbrain-says-trump-and-his-bunch-of-cronies-should-be-put-in-jail"
+     ]
+    ],
     "kind": "photo",
     "link": "https://blabbermouth.net/news/iron-maidens-nicko-mcbrain-says-donald-trump-and-his-bunch-of-cronies-should-be-put-in-jail",
     "orig": "IRON MAIDEN's NICKO MCBRAIN Says DONALD TRUMP And 'His Bunch Of Cronies Should Be Put In Jail'"
@@ -9712,7 +9725,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/1857810/\">Dragon Ball Xenoverse 3</a> змінює правила гри завдяки новій механіці обміну душами</b>\n\nБільший акцент на мультиплеєрному PvE виглядає правильним кроком для серії та всього жанру anime fighter\n\n🔗 <a href=\"https://www.ign.com/articles/dragon-ball-xenoverse-3-spices-up-anime-fighters-with-the-soul-switching-mechanic-ign-preview\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/dragon-ball-xenoverse-3-spices-up-anime-fighters-with-the-soul-switching-mechanic-ign-preview",
     "orig": "Dragon Ball Xenoverse 3 Spices Up Anime Fighters With the Soul Switching Mechanic | IGN Preview"
@@ -9726,7 +9738,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>Як досвід аутсайдера вплинув на створення гри <a href=\"https://store.steampowered.com/app/4260840/\">Stranger Than Heaven</a></b>\n\nДиректор Mikinobu Abe та актор Yu Shirota розповіли, як їхній особистий досвід життя аутсайдерів вплинув на створення сюжету Stranger Than Heaven від RGG Studio. Головною темою гри стала музика, яка допомагає протагоністу Макото вижити та подолати культурні бар&#x27;єри в Японії.\n\n🔗 <a href=\"https://www.ign.com/articles/stranger-than-heaven-interview-abe-shirota-ado-story-and-music\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/stranger-than-heaven-interview-abe-shirota-ado-story-and-music",
     "orig": "How Being An Outsider Fueled Stranger Than Heaven's Director and Actor to Craft Its Story"
@@ -9740,7 +9751,6 @@
    "Loudwire",
    {
     "also": [],
-    "caption": "🤘 <b>Альбом Nevermind гурту Nirvana обійшов AC/DC у рейтингу бестселерів</b>\n\nЗгідно з даними бази ChartMasters, альбом Nevermind гурту Nirvana 1991 року піднявся на шосту сходинку у списку найбільш продаваних альбомів усіх часів. Пластинка обійшла класичний реліз Back in Black від AC/DC з урахуванням загальних продажів та стримінгу.\n\n🔗 <a href=\"https://loudwire.com/nirvana-acdc-best-selling-albums-ever/\">Loudwire</a>\n\n#музика",
     "kind": "photo",
     "link": "https://loudwire.com/nirvana-acdc-best-selling-albums-ever/",
     "orig": "Nirvana Album Moves Ahead of AC/DC in Top 10 Best-Sellers List"
@@ -9754,7 +9764,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Шерон ден Адел розповіла про новий альбом WITHIN TEMPTATION</b>\n\nВокалістка WITHIN TEMPTATION Шерон ден Адел розповіла, що майбутній альбом гурту буде дуже емоційним, похмурим та сирим, але важким у новому ключі. Музиканти вирішили повністю відмовитися від ШІ та зберегти у записах людські помилки заради душі й автентичності.\n\n🔗 <a href=\"https://blabbermouth.net/news/sharon-den-adel-on-within-temptations-upcoming-album-its-gonna-be-heavy-in-a-different-way\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/sharon-den-adel-on-within-temptations-upcoming-album-its-gonna-be-heavy-in-a-different-way",
     "orig": "SHARON DEN ADEL On WITHIN TEMPTATION's Upcoming Album: 'It's Gonna Be Heavy In A Different Way'"
@@ -10376,6 +10385,10 @@
      [
       "Eurogamer",
       "https://www.eurogamer.net/bioware-closing-down-mass-effect-5-cancelled"
+     ],
+     [
+      "Mezha",
+      "https://mezha.ua/news/electronic-arts-zakrivaye-bioware-316403/"
      ]
     ],
     "caption": "🎮 <b>EA закриває студію BioWare та скасовує новий <a href=\"https://store.steampowered.com/app/1328670/\">Mass Effect</a></b>\n\nElectronic Arts закриває легендарну студію BioWare після понад 30 років роботи. Через це розробку наступної гри серії Mass Effect повністю скасовано. У межах реструктуризації EA також скорочує близько 400 працівників по всій компанії.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/ea-is-closing-bioware-and-cancelling-the-next-mass-effect/\">VGC</a>\n\n#ігри",
@@ -10537,6 +10550,132 @@
     "link": "https://insider-gaming.com/battlefield-safe-amid-ea-layoffs-revealed/",
     "orig": "EA ‘Plans to Continue the Battlefield Franchise’ Amid Layoffs and Studio Closure"
    }
+  ],
+  [
+   1792607491.61657,
+   1729,
+   "🎮",
+   "У Каліфорнії з фургона FedEx викрали картки Pokémon на мільйон доларів",
+   "GameSpot",
+   {
+    "also": [],
+    "caption": "🎮 <b>У Каліфорнії з фургона FedEx викрали картки Pokémon на мільйон доларів</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2412640/\">Another Day</a>\n\n🔗 <a href=\"https://www.gamespot.com/articles/another-day-another-pokemon-card-heist-worth-nearly-1-million/\">GameSpot</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamespot.com/articles/another-day-another-pokemon-card-heist-worth-nearly-1-million/",
+    "orig": "Another Day, Another Pokemon Card Heist Worth Nearly $1 Million"
+   }
+  ],
+  [
+   1792607501.228483,
+   1730,
+   "🎮",
+   "У Rayman Legends Retold зʼявляться костюми у стилі Clair Obscur: Expedition 33",
+   "GameSpot",
+   {
+    "also": [],
+    "caption": "🎮 <b>У <a href=\"https://store.steampowered.com/app/4084710/\">Rayman Legends Retold</a> зʼявляться костюми у стилі Clair Obscur: Expedition 33</b>\n\nУ прийдешньому ремейку Rayman Legends Retold головний герой та його партнерка Barbara отримають спеціальні французькі костюми з багетами. Це відсилання до рольової гри Clair Obscur: Expedition 33 від французьких розробників.\n\n🔗 <a href=\"https://www.gamespot.com/articles/rayman-legends-retold-new-baguette-costumes-are-a-tip-of-the-beret-to-expedition-33/\">GameSpot</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamespot.com/articles/rayman-legends-retold-new-baguette-costumes-are-a-tip-of-the-beret-to-expedition-33/",
+    "orig": "Rayman Legends Retold’s New Baguette Costumes Are A Tip Of The Beret To Expedition 33"
+   }
+  ],
+  [
+   1792607504.2665517,
+   1731,
+   "🎬",
+   "Роман Lynn Painter «Fake Skating» отримає екранізацію від Sony Pictures",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Роман Lynn Painter «Fake Skating» отримає екранізацію від Sony Pictures</b>\n\nКнига Lynn Painter «Fake Skating» буде екранізована у форматі повнометражного фільму, який вийде в кінотеатрах 16 липня 2027 року. Головні ролі у стрічці про хокей та романтичні стосунки виконають Amélie Hoeferle та Graham Campbell, а режисером стане Josh Boone.\n\n🔗 <a href=\"https://deadline.com/feature/fake-skating-movie-news-updates-adaptation-1237169847/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/feature/fake-skating-movie-news-updates-adaptation-1237169847/",
+    "orig": "Everything We Know About The ‘Fake Skating’ Film Adaptation So Far"
+   }
+  ],
+  [
+   1792607523.206523,
+   1732,
+   "🤘",
+   "Ignea випустили кліп на сингл “Harmony Manufactured” за участю Брітти Гертц",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Ignea випустили кліп на сингл “Harmony Manufactured” за участю Брітти Гертц</b>\n\nУкраїнський метал-гурт Ignea випустив сингл і кліп “Harmony Manufactured”, записаний спільно з вокалісткою Hiraes Бріттою Гертц. Трек присвячений індустріальному дизайну та школі Баугаус. Реліз альбому “Monumental” на лейблі Napalm Records відбудеться вже цієї п&#x27;ятниці, 23 жовтня.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/21/news/ignea-joined-by-britta-gortz-of-hiraes-for-harmony-manufactured-music-video/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/21/news/ignea-joined-by-britta-gortz-of-hiraes-for-harmony-manufactured-music-video/",
+    "orig": "Ignea Joined By Britta Görtz of Hiraes For “Harmony Manufactured” Music Video"
+   }
+  ],
+  [
+   1792607526.3658643,
+   1733,
+   "🎬",
+   "Естер МакГрегор та Еміліо Сакрайя отримали головні ролі в серіалі Fourth Wing",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Естер МакГрегор та Еміліо Сакрайя отримали головні ролі в серіалі Fourth Wing</b>\n\nЕстер МакГрегор і Еміліо Сакрайя зіграють Вйолет Сорренгейл та Кейдена Ріорсона в екранізації бестселера Ребеки Яррос від Amazon MGM Studios. За сюжетом, героїня змушена вступити до жорстокого військового коледжу Басгіат, щоб стати вершницею драконів. Режисеркою пілотної серії виступить Ліза Джой, а шоуранеркою — Аверілл.\n\n🔗 <a href=\"https://deadline.com/2026/10/esther-mcgregor-emilio-sakraya-fourth-wing-cast-confirm-1237169794/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/esther-mcgregor-emilio-sakraya-fourth-wing-cast-confirm-1237169794/",
+    "orig": "Esther McGregor & Emilio Sakraya Officially Board ‘Fourth Wing’ TV Series"
+   }
+  ],
+  [
+   1792607530.8417516,
+   1734,
+   "🤘",
+   "Metallica показала відео виконання \"Welcome Home (Sanitarium)\" у Sphere",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Metallica показала відео виконання &quot;Welcome Home (Sanitarium)&quot; у Sphere</b>\n\nГурт Metallica опублікував професійне відео з виступу в межах резиденції в Лас-Вегасі. Цього разу музиканти поділилися живим виконанням треку &quot;Welcome Home (Sanitarium)&quot; від 3 жовтня.\n\n🔗 <a href=\"https://lambgoat.com/news/55468/metallica-share-welcome-home-sanitarium-sphere-performance-video/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55468/metallica-share-welcome-home-sanitarium-sphere-performance-video/",
+    "orig": "Metallica share \"Welcome Home (Sanitarium)\" Sphere performance video"
+   }
+  ],
+  [
+   1792607533.8118398,
+   1735,
+   "🤘",
+   "Killswitch Engage, Jinjer та Clutch поповнили лайнап Rock am Ring та Rock im Park",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Killswitch Engage, Jinjer та Clutch поповнили лайнап Rock am Ring та Rock im Park</b>\n\nОрганізатори фестивалів Rock am Ring та Rock im Park розширили список учасників на наступний рік. До оновленого лайнапа увійшли такі гурти, як Killswitch Engage, Jinjer, Clutch, Bring Me The Horizon, The Prodigy та інші.\n\n🔗 <a href=\"https://lambgoat.com/news/55467/killswitch-engage-jinjer-clutch-etc-added-to-2027-rock-am-ring-rock-im-park-festivals/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55467/killswitch-engage-jinjer-clutch-etc-added-to-2027-rock-am-ring-rock-im-park-festivals/",
+    "orig": "Killswitch Engage, Jinjer, Clutch, etc. added to 2027 Rock am Ring & Rock im Park festivals"
+   }
+  ],
+  [
+   1792607537.7115784,
+   1736,
+   "🤘",
+   "Гурт Heilung анонсував тур Австралією та Новою Зеландією",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Гурт Heilung анонсував тур Австралією та Новою Зеландією</b>\n\nГурт Heilung оголосив про гастролі Австралією та Новою Зеландією, які відбудуться наступного року за підтримки Lilith Max. Також колектив готує реліз колекції Sagas із музикою з Senua&#x27;s Saga: Hellblade II, що вийде 11 грудня.\n\n🔗 <a href=\"https://lambgoat.com/news/55469/heilung-announce-australiannew-zealand-tour/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55469/heilung-announce-australiannew-zealand-tour/",
+    "orig": "Heilung announce Australian/New Zealand tour"
+   }
+  ],
+  [
+   1792607540.6286583,
+   1737,
+   "🤘",
+   "Downswing виступили на Audiotree Live",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Downswing виступили на Audiotree Live</b>\n\nМеталкор-гурт Downswing з Нью-Йорка став героєм нового випуску Audiotree Live. Виступ колективу записали в липні в чиказькій студії Audiotree. Зараз гурт завершує рік участю в турі Born of Osiris під назвою &#x27;The Perpetual Iron Tour&#x27;.\n\n🔗 <a href=\"https://lambgoat.com/news/55470/downswing-appear-on-latest-audiotree-live/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55470/downswing-appear-on-latest-audiotree-live/",
+    "orig": "Downswing appear on latest Audiotree Live"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10605,7 +10744,9 @@
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1792585909.2501373,
    1792600316.6334708,
-   1792605714.473147
+   1792605714.473147,
+   1792607491.616982,
+   1792607501.2287953
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
    1792569863.3110964,
@@ -10726,8 +10867,6 @@
    1792528337.5075414
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1792519394.2122288,
-   1792519403.1627793,
    1792521161.209196,
    1792521238.7930844,
    1792522949.4857693,
@@ -10740,7 +10879,9 @@
    1792558779.4629133,
    1792558791.2251885,
    1792591673.951967,
-   1792593247.3221433
+   1792593247.3221433,
+   1792607504.266874,
+   1792607526.3663237
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1792496084.9827945,
@@ -10817,9 +10958,6 @@
    1792512409.4194324
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1792514198.792997,
-   1792514312.6263168,
-   1792514332.5152457,
    1792523108.954275,
    1792524281.4419613,
    1792524298.9838161,
@@ -10832,7 +10970,11 @@
    1792591811.3330011,
    1792591855.6388996,
    1792591941.301063,
-   1792598972.755802
+   1792598972.755802,
+   1792607530.8422017,
+   1792607533.812223,
+   1792607537.7118943,
+   1792607540.6289792
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1792528346.6972067,
@@ -10883,7 +11025,8 @@
    1792600339.5464852,
    1792602188.7239652,
    1792603254.3320637,
-   1792603295.272473
+   1792603295.272473,
+   1792607523.206899
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1792481487.1423821
@@ -11135,6 +11278,7 @@
   "182dfa661bf21592": 1792295967.5868788,
   "184919ff256e9ffc": 1792270348.786627,
   "186cfe3c3af3b7cd": 1792528327.905065,
+  "18b30ead730d7225": 1792607482.6968265,
   "18c64048c2df5f61": 1792434690.444807,
   "18db0b3b2e508dfc": 1792074098.8534346,
   "18e42b4309fa6e14": 1791853927.1132808,
@@ -11332,6 +11476,7 @@
   "2ec4c2351d617b4c": 1792594886.4495227,
   "2ecd6a873597674d": 1792197816.2451081,
   "2ee2a5d94408082c": 1792603276.9900854,
+  "2eeac714db634918": 1792607482.279542,
   "2eecf6dc3daa1d36": 1792580486.1850193,
   "2efc6f663cac38ab": 1792512430.3416743,
   "2eff018b70399334": 1791807515.0569289,
@@ -11564,6 +11709,7 @@
   "48ace4d12a5e1a68": 1792074068.3651547,
   "48ce3623efa23556": 1791926699.7028904,
   "48d7fdd73af95c39": 1791978102.8616881,
+  "48e78493cddc0ce0": 1792607529.4580483,
   "4912f54a0fde1555": 1792585899.6591551,
   "49241f2ad4a4ca3b": 1791929886.445298,
   "49342a27ebd24693": 1792214799.77382,
@@ -11735,6 +11881,7 @@
   "5cb005d86af74da8": 1792164641.7867246,
   "5cb4efc082891b13": 1792526481.0749602,
   "5cd9816c8b7b910f": 1792328496.9111874,
+  "5d2ca3784a2c7521": 1792607491.6169372,
   "5d4800dce102de00": 1792056041.1819897,
   "5d52524d6c56762d": 1792470684.6750398,
   "5d7dca5016a2ac6f": 1792148864.454799,
@@ -12049,12 +12196,14 @@
   "7f335ecf6125b836": 1791820240.3642433,
   "7f3a0e869765a199": 1792585926.8879418,
   "7f5f620284ee6edd": 1792528284.956082,
+  "7f6a91224621b97a": 1792607530.842138,
   "7f6b9160d2b3f61b": 1792580502.7705922,
   "7f796c5b5f04ce58": 1792603254.3320189,
   "7f829eb99093555a": 1792111184.553492,
   "7fc822236a73082f": 1792600339.5464394,
   "7fce628a644d2df8": 1792342893.65466,
   "7fd2426ce28262a5": 1792445501.3889751,
+  "7fe8337991ef322a": 1792607537.7118454,
   "7ff30a65c135834c": 1792542740.2667193,
   "8006a92529598133": 1792037209.7363198,
   "80115907d5b54bb2": 1792432904.609182,
@@ -12082,6 +12231,7 @@
   "831612e326aaa707": 1791843819.6291342,
   "831975d4c5ba0804": 1792333893.7855825,
   "8323af744b7d22e6": 1792342909.8476253,
+  "8333faf6d1c99f96": 1792607482.6895094,
   "83794bb32447283f": 1791969572.4120092,
   "8393e86873e298ae": 1792404052.2748096,
   "839df8274c436547": 1792571478.2042437,
@@ -12232,6 +12382,7 @@
   "9445b892d8bed1ea": 1792470681.5377843,
   "94b9cff7b54a88c9": 1792037218.5460002,
   "94ba73dd2cf114c6": 1792497724.7860126,
+  "94d64d5c94710312": 1792607520.1215189,
   "94e7f4f5c0e52bb7": 1792510596.9243724,
   "953f82f7f64c6786": 1792097612.2554398,
   "954b898c609ba1d3": 1792405905.4389894,
@@ -12300,6 +12451,7 @@
   "9cf7957831997df1": 1792603223.4052498,
   "9d062494f1359211": 1791831120.1553473,
   "9d391cb2b30a169b": 1791786723.5787597,
+  "9d629c21aa412ed0": 1792607523.206848,
   "9dd64c626f366491": 1792056020.2316132,
   "9dde2040d1632695": 1792273176.039162,
   "9de6b1fcca661d11": 1792580486.1891513,
@@ -12321,6 +12473,7 @@
   "9fddbdd2f78c72b9": 1792407738.5407147,
   "a01105f45fb6cff4": 1792510652.6326663,
   "a01cdcae7bff7990": 1791718278.296192,
+  "a02930367833f6ce": 1792607504.2668285,
   "a030fd3a5fbee6aa": 1792571452.7426152,
   "a0446c7cf7b0f77a": 1791978126.841161,
   "a0698b310adf5ec0": 1792188113.8055182,
@@ -12345,6 +12498,7 @@
   "a2d8974671876099": 1791722108.479963,
   "a2ef6ea957becf44": 1792450874.1390004,
   "a2fab407a1445220": 1792531923.7592003,
+  "a32e33c7155a19c3": 1792607510.795099,
   "a3371908b767766e": 1792494154.5405889,
   "a34d35809ee5eb12": 1792514028.14236,
   "a3862978713e1870": 1792055987.1515536,
@@ -12826,10 +12980,12 @@
   "de8a9147db7f949b": 1791843851.1090012,
   "dea190316d6fd662": 1792097653.4247673,
   "deb49e644f9db522": 1792306060.2569096,
+  "ded9ac107db4721c": 1792607501.2287495,
   "def68f8eceaa0c07": 1792416678.4091365,
   "deff08e0d84eb5d3": 1792591910.059963,
   "df075eb833cb7277": 1792587712.0086825,
   "df10fafc5adf259e": 1792037205.594035,
+  "df24f28b92dab794": 1792607533.8121731,
   "df45908305c15494": 1792314073.1622975,
   "df489c10521cd2bd": 1791969598.8067908,
   "df54e50a14be2141": 1792400600.6408873,
@@ -12886,6 +13042,7 @@
   "e57f57b53e3012a8": 1792352398.0049508,
   "e5849c67009622fe": 1792487070.5405989,
   "e5b4c115247de93f": 1792591456.214588,
+  "e5bfb51c3d3b9fb8": 1792607511.8219502,
   "e5cfc7f9ccb5d0a6": 1792373477.2572918,
   "e5d0adf173e1a77a": 1791931161.17929,
   "e5f6ff0a613279b7": 1792492252.585669,
@@ -12915,6 +13072,7 @@
   "e7ec2c1fc20d94fd": 1792360891.393675,
   "e7f776205d5baa63": 1791675548.2298849,
   "e836fd59d796dcdd": 1792447343.0447698,
+  "e84e7947c146a275": 1792607540.6289332,
   "e87d416cf54aca14": 1792273238.8297417,
   "e891c97409f3641e": 1791643484.7724442,
   "e8c74e875ce8847d": 1791969264.6870122,
@@ -13093,6 +13251,7 @@
   "fe1fdadbd090499b": 1792476081.5957215,
   "fe4dc7dbcee3a894": 1792074132.5777712,
   "fe5b968ae8ba789d": 1791908389.973113,
+  "fe733fdc445eda02": 1792607526.3662322,
   "fe8f39cb9cf75201": 1792515817.445562,
   "fec5167a664aec39": 1792504889.0590773,
   "fed989ae4635d309": 1792129011.0582542,
@@ -13546,7 +13705,7 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1792591962.3066845,
-  "blocked_until": 1792591591.7586727,
+  "blocked_until": 1792678422.0641687,
   "cursor": 10,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -14296,12 +14455,12 @@
    "Bloomberg": 29,
    "DOU": 2,
    "DOU Gamedev": 3,
-   "Deadline": 39,
+   "Deadline": 41,
    "Decibel": 9,
    "Digital Foundry": 5,
    "Distorted Sound": 11,
    "Eurogamer": 26,
-   "GameSpot": 22,
+   "GameSpot": 24,
    "GamesIndustry.biz": 13,
    "GitHub Trending": 14,
    "Hugging Face": 4,
@@ -14310,7 +14469,7 @@
    "IndieWire": 14,
    "Insider Gaming": 51,
    "Kerrang!": 14,
-   "Lambgoat": 26,
+   "Lambgoat": 30,
    "Loudwire": 14,
    "Metal Hammer (Louder)": 15,
    "Metal Injection": 7,
@@ -14326,14 +14485,14 @@
    "SteamDB": 1,
    "Stereogum": 6,
    "The Decoder": 16,
-   "ThePRP": 24,
+   "ThePRP": 25,
    "VGC": 20,
    "Variety": 12
   },
   "translators": {
    "DeepL": 15,
    "gemini-flash-latest": 69,
-   "gemini-flash-lite-latest": 643
+   "gemini-flash-lite-latest": 655
   },
   "week": "2026-W43"
  },
@@ -14782,16 +14941,6 @@
    0,
    "",
    1792600346.5222814
-  ],
-  "q:2 casts hideo kojima": [
-   0,
-   "",
-   1792432902.8988414
-  ],
-  "q:2 casts hideo kojima to reprise": [
-   0,
-   "",
-   1792432902.3628213
   ],
   "q:2 is more": [
    0,
@@ -15773,6 +15922,41 @@
    "",
    1792523036.2755568
   ],
+  "q:another": [
+   0,
+   "",
+   1792607486.9831939
+  ],
+  "q:another day": [
+   2412640,
+   "Another Day",
+   1792607483.3603911
+  ],
+  "q:another pokemon": [
+   0,
+   "",
+   1792607486.3859046
+  ],
+  "q:another pokemon card": [
+   0,
+   "",
+   1792607485.8011832
+  ],
+  "q:another pokemon card heist": [
+   0,
+   "",
+   1792607485.268172
+  ],
+  "q:another pokemon card heist worth": [
+   0,
+   "",
+   1792607484.6954286
+  ],
+  "q:another pokemon card heist worth nearly": [
+   0,
+   "",
+   1792607484.1667647
+  ],
   "q:anti cheat": [
    0,
    "",
@@ -15888,6 +16072,21 @@
    "",
    1792603247.6839705
   ],
+  "q:arts bioware": [
+   0,
+   "",
+   1792607509.267381
+  ],
+  "q:arts bioware mass": [
+   0,
+   "",
+   1792607508.6155064
+  ],
+  "q:arts bioware mass effect": [
+   0,
+   "",
+   1792607508.0917156
+  ],
   "q:arts to cut": [
    0,
    "",
@@ -15997,6 +16196,26 @@
    0,
    "",
    1792515697.4498541
+  ],
+  "q:baguette": [
+   0,
+   "",
+   1792607499.6318157
+  ],
+  "q:baguette costumes": [
+   0,
+   "",
+   1792607499.0350947
+  ],
+  "q:baguette costumes are": [
+   0,
+   "",
+   1792607498.4989836
+  ],
+  "q:baguette costumes are a tip": [
+   0,
+   "",
+   1792607497.9474542
   ],
   "q:balatro": [
    2379780,
@@ -16238,6 +16457,16 @@
    "",
    1792603895.8326483
   ],
+  "q:bioware mass": [
+   0,
+   "",
+   1792607510.3968363
+  ],
+  "q:bioware mass effect": [
+   0,
+   "",
+   1792607509.7804744
+  ],
   "q:bioware shutting": [
    0,
    "",
@@ -16467,6 +16696,26 @@
    0,
    "",
    1792605729.2904556
+  ],
+  "q:cancels": [
+   0,
+   "",
+   1792607516.7256134
+  ],
+  "q:cancels new": [
+   0,
+   "",
+   1792607516.1490252
+  ],
+  "q:cancels new mass": [
+   0,
+   "",
+   1792607515.3674264
+  ],
+  "q:cancels new mass effect": [
+   0,
+   "",
+   1792607514.5863712
   ],
   "q:captures": [
    1712680,
@@ -17203,11 +17452,6 @@
    "Cutout Village",
    1792414941.7158062
   ],
-  "q:cyberpunk": [
-   0,
-   "",
-   1792432899.3311439
-  ],
   "q:cyberpunk 2077": [
    1091500,
    "Cyberpunk 2077",
@@ -17292,26 +17536,6 @@
    0,
    "",
    1792600329.8174849
-  ],
-  "q:cyberpunk edgerunners": [
-   0,
-   "",
-   1792432898.8079553
-  ],
-  "q:cyberpunk edgerunners 2": [
-   0,
-   "",
-   1792432898.3052037
-  ],
-  "q:cyberpunk edgerunners 2 casts": [
-   0,
-   "",
-   1792432897.8102329
-  ],
-  "q:cyberpunk edgerunners 2 casts hideo": [
-   0,
-   "",
-   1792432897.3198707
   ],
   "q:cyberpunk edgerunners season": [
    0,
@@ -18003,6 +18227,16 @@
    "",
    1792591300.1870053
   ],
+  "q:ea kills": [
+   0,
+   "",
+   1792607512.934068
+  ],
+  "q:ea kills bioware": [
+   0,
+   "",
+   1792607512.3787127
+  ],
   "q:ea shuts": [
    0,
    "",
@@ -18118,31 +18352,6 @@
    "",
    1792490483.528311
   ],
-  "q:edgerunners": [
-   0,
-   "",
-   1792432901.85127
-  ],
-  "q:edgerunners 2": [
-   0,
-   "",
-   1792432901.3556273
-  ],
-  "q:edgerunners 2 casts": [
-   0,
-   "",
-   1792432900.8586085
-  ],
-  "q:edgerunners 2 casts hideo": [
-   0,
-   "",
-   1792432900.3577325
-  ],
-  "q:edgerunners 2 casts hideo kojima": [
-   0,
-   "",
-   1792432899.8697968
-  ],
   "q:edgerunners 2 update": [
    0,
    "",
@@ -18202,6 +18411,21 @@
    0,
    "",
    1792603244.8120341
+  ],
+  "q:electronic arts bioware": [
+   0,
+   "",
+   1792607507.4469
+  ],
+  "q:electronic arts bioware mass": [
+   0,
+   "",
+   1792607506.9226522
+  ],
+  "q:electronic arts bioware mass effect": [
+   0,
+   "",
+   1792607506.3260815
   ],
   "q:electronic arts to cut": [
    0,
@@ -18973,31 +19197,6 @@
    "",
    1792555296.824666
   ],
-  "q:formula": [
-   0,
-   "",
-   1792432885.9302285
-  ],
-  "q:formula one": [
-   0,
-   "",
-   1792432885.3936386
-  ],
-  "q:formula one has": [
-   0,
-   "",
-   1792432884.8784332
-  ],
-  "q:formula one has a big": [
-   0,
-   "",
-   1792432884.3824806
-  ],
-  "q:formula one has a big ai": [
-   0,
-   "",
-   1792432883.859416
-  ],
   "q:fortnite": [
    0,
    "",
@@ -19687,16 +19886,6 @@
    0,
    "",
    1792605728.8094304
-  ],
-  "q:has a big ai problem": [
-   0,
-   "",
-   1792432889.5426528
-  ],
-  "q:has a big ai problem should": [
-   0,
-   "",
-   1792432889.051096
   ],
   "q:has already made over": [
    0,
@@ -20478,6 +20667,16 @@
    "",
    1792496074.989063
   ],
+  "q:kills": [
+   0,
+   "",
+   1792607514.0225973
+  ],
+  "q:kills bioware": [
+   0,
+   "",
+   1792607513.4404552
+  ],
   "q:king": [
    0,
    "",
@@ -20547,31 +20746,6 @@
    0,
    "",
    1792497687.894085
-  ],
-  "q:la noire": [
-   0,
-   "",
-   1792432918.0450153
-  ],
-  "q:la noire spinoff": [
-   0,
-   "",
-   1792432917.5394208
-  ],
-  "q:la noire spinoff idea": [
-   0,
-   "",
-   1792432917.0253148
-  ],
-  "q:la noire spinoff idea sounds": [
-   0,
-   "",
-   1792432916.4955053
-  ],
-  "q:la noire spinoff idea sounds incredible": [
-   0,
-   "",
-   1792432916.0004003
   ],
   "q:lain": [
    4988650,
@@ -21473,6 +21647,26 @@
    "",
    1792512292.4080656
   ],
+  "q:new baguette": [
+   0,
+   "",
+   1792607497.3891609
+  ],
+  "q:new baguette costumes": [
+   0,
+   "",
+   1792607496.888751
+  ],
+  "q:new baguette costumes are": [
+   0,
+   "",
+   1792607496.3541129
+  ],
+  "q:new baguette costumes are a tip": [
+   0,
+   "",
+   1792607495.7928698
+  ],
   "q:new battlefront": [
    0,
    "",
@@ -21552,6 +21746,16 @@
    0,
    "",
    1792514052.04138
+  ],
+  "q:new mass": [
+   0,
+   "",
+   1792607517.9991908
+  ],
+  "q:new mass effect": [
+   0,
+   "",
+   1792607517.3674831
   ],
   "q:new pok": [
    0,
@@ -21738,16 +21942,6 @@
    "",
    1792447283.635652
   ],
-  "q:noire spinoff idea sounds": [
-   0,
-   "",
-   1792432919.0384333
-  ],
-  "q:noire spinoff idea sounds incredible": [
-   0,
-   "",
-   1792432918.5482092
-  ],
   "q:north": [
    0,
    "",
@@ -21827,31 +22021,6 @@
    0,
    "",
    1792557083.3643186
-  ],
-  "q:one": [
-   0,
-   "",
-   1792432888.5453603
-  ],
-  "q:one has": [
-   0,
-   "",
-   1792432888.0316772
-  ],
-  "q:one has a big": [
-   0,
-   "",
-   1792432887.4842808
-  ],
-  "q:one has a big ai": [
-   0,
-   "",
-   1792432886.9769151
-  ],
-  "q:one has a big ai problem": [
-   0,
-   "",
-   1792432886.482432
   ],
   "q:one of our scariest regions we": [
    0,
@@ -22118,6 +22287,16 @@
    "Path of Exile",
    1792337496.8788037
   ],
+  "q:pauses new sims": [
+   0,
+   "",
+   1792607519.170905
+  ],
+  "q:pauses new sims game": [
+   0,
+   "",
+   1792607518.5230858
+  ],
   "q:pays": [
    0,
    "",
@@ -22367,6 +22546,31 @@
    4513280,
    "POK",
    1791807510.4405518
+  ],
+  "q:pokemon card": [
+   0,
+   "",
+   1792607489.9000843
+  ],
+  "q:pokemon card heist": [
+   0,
+   "",
+   1792607489.3573344
+  ],
+  "q:pokemon card heist worth": [
+   0,
+   "",
+   1792607488.6695
+  ],
+  "q:pokemon card heist worth nearly": [
+   0,
+   "",
+   1792607488.1250014
+  ],
+  "q:pokemon card heist worth nearly 1": [
+   0,
+   "",
+   1792607487.5358918
   ],
   "q:police": [
    0,
@@ -22772,6 +22976,26 @@
    0,
    "",
    1792585920.3387244
+  ],
+  "q:rayman legends retold": [
+   4084710,
+   "Rayman Legends Retold",
+   1792607495.2570462
+  ],
+  "q:rayman legends retold's new": [
+   0,
+   "",
+   1792607494.74069
+  ],
+  "q:rayman legends retold's new baguette": [
+   0,
+   "",
+   1792607494.1925504
+  ],
+  "q:rayman legends retold's new baguette costumes": [
+   0,
+   "",
+   1792607493.6451156
   ],
   "q:react": [
    0,
@@ -24348,31 +24572,6 @@
    "",
    1792485652.515499
   ],
-  "q:this la": [
-   0,
-   "",
-   1792432915.4826238
-  ],
-  "q:this la noire": [
-   0,
-   "",
-   1792432914.8696177
-  ],
-  "q:this la noire spinoff": [
-   0,
-   "",
-   1792432914.3660474
-  ],
-  "q:this la noire spinoff idea": [
-   0,
-   "",
-   1792432913.857512
-  ],
-  "q:this la noire spinoff idea sounds": [
-   0,
-   "",
-   1792432913.355285
-  ],
   "q:through": [
    0,
    "",
@@ -25342,12 +25541,14 @@
  "tag_hints": {
   "Mezha": [
    "anthropic",
+   "bioware",
    "chatgpt",
-   "fire point",
+   "electronic arts",
    "gpt-6 astra",
    "gpt‑6.1 sol",
    "justwatch",
    "justwatch tv",
+   "mass effect 5",
    "microsoft",
    "openai",
    "xbox",
@@ -25355,21 +25556,17 @@
    "бізнес",
    "вмс зсу",
    "військова техніка",
-   "данія",
    "кібербезпека",
    "морські дрони",
    "новатор",
    "новини",
    "оборонка",
-   "опк",
    "перехоплювачі",
    "платформи",
-   "ракети",
    "ремонт",
    "стримінгові сервіси",
    "україна",
    "українська бронетехніка",
-   "українська зброя",
    "чорне море",
    "шахед",
    "штучний інтелект",
@@ -25378,30 +25575,6 @@
   ]
  },
  "titles": [
-  [
-   1792434685.2168486,
-   "Singer DIANA LEAH Exits DELAIN After Making Only One Studio Album With The Band"
-  ],
-  [
-   1792434695.4391294,
-   "METALLICA Shares Pro-Shot Video Of 'Devil's Dance' Performance From Second Show Of Las Vegas Sphere Residency"
-  ],
-  [
-   1792434698.944883,
-   "Gates To Hell Drop Off Despised Icon, Carnifex & Suffocation European/UK Tour, Replacements Announced"
-  ],
-  [
-   1792434708.7181168,
-   "New Job Listing Reveals New Details About The Upcoming Lies of P Sequel"
-  ],
-  [
-   1792434712.2829604,
-   "MiniMax M3.1 Flash shows China's AI price race has no floor in sight"
-  ],
-  [
-   1792434722.3897028,
-   "Jon Stewart Strikes Two-Year Deal To Remain As ‘The Daily Show’ Host Through To End Of 2028"
-  ],
   [
    1792436492.012461,
    "Hideo Kojima Loved Whalefall, but It Ruined Eating Squid for Him"
@@ -27353,33 +27526,45 @@
   [
    1792605786.1700678,
    "EA ‘Plans to Continue the Battlefield Franchise’ Amid Layoffs and Studio Closure"
+  ],
+  [
+   1792607491.6169393,
+   "Another Day, Another Pokemon Card Heist Worth Nearly $1 Million"
+  ],
+  [
+   1792607501.2287512,
+   "Rayman Legends Retold’s New Baguette Costumes Are A Tip Of The Beret To Expedition 33"
+  ],
+  [
+   1792607504.26683,
+   "Everything We Know About The ‘Fake Skating’ Film Adaptation So Far"
+  ],
+  [
+   1792607523.2068498,
+   "Ignea Joined By Britta Görtz of Hiraes For “Harmony Manufactured” Music Video"
+  ],
+  [
+   1792607526.3662355,
+   "Esther McGregor & Emilio Sakraya Officially Board ‘Fourth Wing’ TV Series"
+  ],
+  [
+   1792607530.8421407,
+   "Metallica share \"Welcome Home (Sanitarium)\" Sphere performance video"
+  ],
+  [
+   1792607533.8121748,
+   "Killswitch Engage, Jinjer, Clutch, etc. added to 2027 Rock am Ring & Rock im Park festivals"
+  ],
+  [
+   1792607537.711847,
+   "Heilung announce Australian/New Zealand tour"
+  ],
+  [
+   1792607540.6289346,
+   "Downswing appear on latest Audiotree Live"
   ]
  ],
  "titles_uk": [
-  [
-   1792434685.2168496,
-   "Вокалістка Діана Леа залишає гурт DELAIN"
-  ],
-  [
-   1792434695.43913,
-   "Metallica показала відео виконання пісні Devil's Dance у Лас-Вегасі"
-  ],
-  [
-   1792434698.944884,
-   "Gates To Hell скасували участь у європейському турі з Despised Icon, Carnifex і Suffocation"
-  ],
-  [
-   1792434708.7181177,
-   "Нова вакансія розкрила деталі сиквела Lies of P"
-  ],
-  [
-   1792434712.2829611,
-   "MiniMax випустила модель M3.1 Flash за зниженою ціною"
-  ],
-  [
-   1792434722.3897038,
-   "Джон Стюарт залишиться ведучим The Daily Show до кінця 2028 року"
-  ],
   [
    1792436492.012462,
    "Хідео Кодзіма оцінив фільм Whalefall і зізнався, що тепер не може їсти кальмарів"
@@ -29331,6 +29516,42 @@
   [
    1792605786.1700687,
    "EA звільняє 400 людей, закриває BioWare та готує новий Battlefield"
+  ],
+  [
+   1792607491.6169403,
+   "У Каліфорнії з фургона FedEx викрали картки Pokémon на мільйон доларів"
+  ],
+  [
+   1792607501.2287521,
+   "У Rayman Legends Retold зʼявляться костюми у стилі Clair Obscur: Expedition 33"
+  ],
+  [
+   1792607504.266831,
+   "Роман Lynn Painter «Fake Skating» отримає екранізацію від Sony Pictures"
+  ],
+  [
+   1792607523.2068508,
+   "Ignea випустили кліп на сингл “Harmony Manufactured” за участю Брітти Гертц"
+  ],
+  [
+   1792607526.3662367,
+   "Естер МакГрегор та Еміліо Сакрайя отримали головні ролі в серіалі Fourth Wing"
+  ],
+  [
+   1792607530.8421419,
+   "Metallica показала відео виконання \"Welcome Home (Sanitarium)\" у Sphere"
+  ],
+  [
+   1792607533.8121762,
+   "Killswitch Engage, Jinjer та Clutch поповнили лайнап Rock am Ring та Rock im Park"
+  ],
+  [
+   1792607537.7118478,
+   "Гурт Heilung анонсував тур Австралією та Новою Зеландією"
+  ],
+  [
+   1792607540.6289356,
+   "Downswing виступили на Audiotree Live"
   ]
  ],
  "ukrainian": {
@@ -31548,7 +31769,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792603919.9712458,
+  "last_check": 1792607549.4876494,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
