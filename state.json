@@ -1,5 +1,11 @@
 {
  "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 500 Server Error: Internal Server Error for url: https://www.decibelmagazine.com/feed/",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1792593080.256792
+  },
   "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
    "detail": "https://www.kerrang.com/feed.rss → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
    "label": "Джерело «Kerrang!» не працює",
@@ -9,7 +15,7 @@
  },
  "daily_digest_date": "2026-10-20",
  "freebies": {
-  "last_check": 1792585928.7948222,
+  "last_check": 1792593249.3273146,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -18,12 +24,12 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-21 14:12 UTC",
+  "at": "2026-10-21 14:34 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 2,
-   "gemini-flash-lite-latest": 13
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 7
   },
   "used": [
    "Gemini"
@@ -8757,7 +8763,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>hibi — відкрита альтернатива для Obsidian</b>\n\nОбговорення та посилання на новий проєкт\n\n🔗 <a href=\"https://www.producthunt.com/products/hibi\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/hibi",
     "orig": "hibi"
@@ -8778,9 +8783,12 @@
      [
       "Mezha",
       "https://mezha.ua/news/gta-6-more-than-600-mil-revenue-316392/"
+     ],
+     [
+      "GameSpot",
+      "https://www.gamespot.com/articles/new-ps5-update-is-out-now-and-sony-may-be-tightening-security-before-gta-6/"
      ]
     ],
-    "caption": "🎮 <b>GTA 6 ще не вийшла, а вже заробила більше, ніж багато ААА-ігор за все життя</b>\n\nGTA 6 принесла $630 млн завдяки 6,45 млн передзамовлень ще до виходу гри. За даними аналітичної компанії Sensor Tower, більшість покупців обрали версію для PlayStation 5 — на неї припадає 74% усіх передзамовлень. Гра ще не вийшла, але вже демонструє фінансові результати, які для багатьох інших великих проєктів залишаються недосяжними навіть за весь життєвий цикл.\n\n🔗 <a href=\"https://itc.ua/ua/novini/gta-6-shhe-ne-vyjshla-a-vzhe-zarobyla-bilshe-nizh-bagato-aaa-igor-za-vse-zhyttya/\">ITC.ua</a>\n\n#ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/gta-6-shhe-ne-vyjshla-a-vzhe-zarobyla-bilshe-nizh-bagato-aaa-igor-za-vse-zhyttya/",
     "orig": "GTA 6 ще не вийшла, а вже заробила більше, ніж багато ААА-ігор за все життя"
@@ -8794,7 +8802,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Claude створив білкові зв&#x27;язувальні молекули проти отрути скорпіонів</b>\n\nШІ Claude самостійно розробив дизайн білкових молекул, що націлені на нейротоксини скорпіонів. З 211 протестованих у лабораторії варіантів 17 відповідали критеріям зв&#x27;язування, а два найсильніші міцно з&#x27;єдналися з токсином Cn2. Експерти назвали це перспективним першим кроком, проте ефективність як протиотради ще не тестували.\n\n🔗 <a href=\"https://the-decoder.com/claude-science-tackles-deadly-scorpion-stings-by-designing-protein-binders-from-scratch/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/claude-science-tackles-deadly-scorpion-stings-by-designing-protein-binders-from-scratch/",
     "orig": "Claude Science tackles deadly scorpion stings by designing protein binders from scratch"
@@ -8808,7 +8815,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🎬 <b>&quot;Велике розчарування&quot;: CEO Hugging Face заявив, що Netflix викривив факти в документалці про атаку ШІ</b>\n\nСпівзасновник і генеральний директор Hugging Face Клем Деланг розкритикував новий документальний фільм Netflix, присвячений нашумілій атаці агентів OpenAI на його компанію. За його словами, автори перебільшили загрози штучного інтелекту і подали історію занадто драматично.\n\n🔗 <a href=\"https://mezha.ua/news/hugging-face-ceo-slams-netflix-s-ai-documentary-316372/\">Mezha</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://mezha.ua/news/hugging-face-ceo-slams-netflix-s-ai-documentary-316372/",
     "orig": "\"Велике розчарування\": CEO Hugging Face заявив, що Netflix викривив факти в документалці про атаку ШІ"
@@ -8822,7 +8828,6 @@
    "Distorted Sound",
    {
     "also": [],
-    "caption": "🤘 <b>Гурт IGNEA випустив новий атмосферний альбом Monumental</b>\n\nУкраїнський гурт IGNEA представив свій четвертий повноформатний альбом Monumental, записаний у Києві під час ракетних атак та відключень світла. Реліз поєднує симфонічний, дез- та грув-метал із ретро-синтезаторами й атмосферною меланхолією, а в записі треку Prefab взяв участь гурт COMBICHRIST.\n\n🔗 <a href=\"https://distortedsoundmag.com/album-review-monumental-ignea/\">Distorted Sound</a>\n\n#музика",
     "kind": "photo",
     "link": "https://distortedsoundmag.com/album-review-monumental-ignea/",
     "orig": "ALBUM REVIEW: Monumental – Ignea"
@@ -8836,7 +8841,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b>Нова консоль Xbox Project Helix може коштувати до $1,800</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/5089480/\">2027</a>\n\nНаступне покоління Xbox під кодовою назвою Project Helix складатиметься з портативної консолі та стаціонарного пристрою. Їхня очікувана вартість становитиме від $1,200 до $1,800 через дефіцит пам&#x27;яті та накопичувачів, спричинений ШІ. Портативну версію планують випустити у 2027 році, а основну консоль — у 2028 році.\n\n🔗 <a href=\"https://www.eurogamer.net/microsoft-next-gen-xbox-helix-date-price\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/microsoft-next-gen-xbox-helix-date-price",
     "orig": "Xbox's next-gen console to reportedly cost up to $1,800, with a Helix handheld coming in 2027 and a full release in holiday 2028"
@@ -8850,7 +8854,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎬 <b>Фінчер скоротив сценарій Тарантіно: деталі сиквелу про Кліффа Бута</b>\n\nЯк відомо, роботу над фільмом “Нові злощасні пригоди Кліффа Бута” (The Further Mis-Adventures of Cliff Booth) очолив Девід Фінчер. Стрічка є продовженням касового хіта 2019 року “Одного разу… в Голлівуді”. Сценарій до проєкту написав особисто Квентін Тарантіно, а Бред Пітт повернувся до своєї оскароносної ролі каскадера Кліффа Бута.\n\n🔗 <a href=\"https://itc.ua/ua/novini/fincher-skorotyv-stsenarij-tarantino-detali-sykvelu-pro-kliffa-buta/\">ITC.ua</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/fincher-skorotyv-stsenarij-tarantino-detali-sykvelu-pro-kliffa-buta/",
     "orig": "Фінчер скоротив сценарій Тарантіно: деталі сиквелу про Кліффа Бута"
@@ -9251,7 +9254,12 @@
    "Spotify прибрав із рекомендацій 50 млн спам-треків і пісень, створених з ШІ",
    "Mezha",
    {
-    "also": [],
+    "also": [
+     [
+      "Metal Injection",
+      "https://metalinjection.net/news/spotify-removes-more-than-50-million-ai-slop-songs"
+     ]
+    ],
     "caption": "💾 <b>Spotify прибрав із рекомендацій 50 млн спам-треків і пісень, створених з ШІ</b>\n\nSpotify повідомив, що за останній рік видалив понад 50 млн треків, визначених як низькоякісний ШІ-контент або музичний спам, із рекомендацій користувачів. Крім того, сервіс оновив саму систему алгоритмів, щоб надати пріоритет композиціям, створеним людьми.\n\n🔗 <a href=\"https://mezha.ua/news/spotify-removed-50-million-ai-and-spam-track-316369/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/spotify-removed-50-million-ai-and-spam-track-316369/",
@@ -9631,6 +9639,104 @@
     "link": "https://lambgoat.com/news/55458/the-bunny-the-bear-call-out-ohio-based-promotor-over-lack-of-payment/",
     "orig": "The Bunny The Bear call out Ohio-based promotor over lack of payment"
    }
+  ],
+  [
+   1792593106.2938144,
+   1661,
+   "🤘",
+   "Барабанщик IRON MAIDEN Ніко Макбрейн розпакував свою автобіографію Hello Boys And Girls!",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Барабанщик IRON MAIDEN Ніко Макбрейн розпакував свою автобіографію Hello Boys And Girls!</b>\n\nБарабанщик IRON MAIDEN Ніко Макбрейн опублікував відео з розпакуванням власної автобіографії Hello Boys And Girls!, яку випустить Harper Nonfiction. У книзі музикант розповідає про 42 роки в гурті, боротьбу з раком та відновлення після інсульту. На підтримку мемуарів Макбрейн вирушить у spoken-word тур Європою, що стартує 26 жовтня у Франкфурті.\n\n🔗 <a href=\"https://blabbermouth.net/news/watch-iron-maiden-drummer-nicko-mcbrain-unboxes-his-autobiography-hello-boys-and-girls\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/watch-iron-maiden-drummer-nicko-mcbrain-unboxes-his-autobiography-hello-boys-and-girls",
+    "orig": "Watch: IRON MAIDEN Drummer NICKO MCBRAIN Unboxes His Autobiography 'Hello Boys And Girls!'"
+   }
+  ],
+  [
+   1792593139.8853073,
+   1662,
+   "🤖",
+   "ШІ-стартап Legora залучив $550 мільйонів інвестицій",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>ШІ-стартап Legora залучив $550 мільйонів інвестицій</b>\n\nШведський юридичний ШІ-стартап Legora залучив $550 мільйонів у новому раунді фінансування. Завдяки цьому оцінка компанії зросла до $8,8 мільярда, що дозволить їй вийти на нові ринки.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-10-21/legal-ai-startup-legora-raises-funds-at-8-8-billion-valuation\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-21/legal-ai-startup-legora-raises-funds-at-8-8-billion-valuation",
+    "orig": "Legal AI Startup Legora Raises Funds at $8.8 Billion Valuation"
+   }
+  ],
+  [
+   1792593158.2688398,
+   1663,
+   "🎮",
+   "Нова гра Stranger Than Heaven від RGG Studio захоплює, але може розколоти гравців",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Нова гра <a href=\"https://store.steampowered.com/app/4260840/\">Stranger Than Heaven</a> від RGG Studio захоплює, але може розколоти гравців</b>\n\nЖурналіст поділився враженнями від Stranger Than Heaven — нового амбітного проєкту від RGG Studio. Гра розповідає історію Макото Дайто протягом кількох десятиліть, пропонуючи еволюцію сетингу, насичений сюжет і брутальний рукопашний бій із незвичним керуванням через тригери й бампери, який може здатися занадто складним для частини аудиторії.\n\n🔗 <a href=\"https://www.eurogamer.net/stranger-than-heaven-preview\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/stranger-than-heaven-preview",
+    "orig": "After a few hours with Yakuza studio's soulful Stranger Than Heaven, I'm smitten, but I suspect it'll be a divisive game"
+   }
+  ],
+  [
+   1792593171.8915095,
+   1664,
+   "🤘",
+   "Cloud Nothings випустили важкий метал-сингл Death Keeps Me Alive",
+   "Revolver",
+   {
+    "also": [],
+    "caption": "🤘 <b>Cloud Nothings випустили важкий метал-сингл Death Keeps Me Alive</b>\n\nГурт Cloud Nothings анонсував дев&#x27;ятий альбом What Kind of Hell Did You Survive?, який вийде 29 січня на Pure Noise Records. Першим синглом стала важка композиція Death Keeps Me Alive, створена під впливом метал-музики та супроводжувана кліпом.\n\n🔗 <a href=\"https://www.revolvermag.com/music/hear-cloud-nothings-go-metal-on-new-song-death-keeps-me-alive/\">Revolver</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.revolvermag.com/music/hear-cloud-nothings-go-metal-on-new-song-death-keeps-me-alive/",
+    "orig": "Hear CLOUD NOTHINGS go metal on new song “Death Keeps Me Alive”"
+   }
+  ],
+  [
+   1792593203.6052675,
+   1665,
+   "🎮",
+   "Infinity Ward показала технології Call of Duty: Modern Warfare 4",
+   "Digital Foundry",
+   {
+    "also": [],
+    "caption": "🎮 <b>Infinity Ward показала технології <a href=\"https://store.steampowered.com/app/2000950/\">Call of Duty: Modern Warfare</a> 4</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/304430/\">Inside</a>\n\nInfinity Ward розкрила деталі технічних оновлень Call of Duty: Modern Warfare 4 для PlayStation 5, Xbox Series X/S та PC. Гра отримала нову воксельну систему об&#x27;ємного диму й туману з інтерактивністю, оптимізований пайплайн растеризації та динамічні погодні ефекти.\n\n🔗 <a href=\"https://www.digitalfoundry.net/features/inside-call-of-duty-modern-warfare-4-the-new-game-changing-tech-powering-every-mode\">Digital Foundry</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.digitalfoundry.net/features/inside-call-of-duty-modern-warfare-4-the-new-game-changing-tech-powering-every-mode",
+    "orig": "Feature: Inside Call of Duty: Modern Warfare 4: The New Game-Changing Tech Powering Every Mode"
+   }
+  ],
+  [
+   1792593227.8779805,
+   1666,
+   "🎮",
+   "Як перевірити статус серверів Steam і вирішити проблеми з підключенням",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Як перевірити статус серверів Steam і вирішити проблеми з підключенням</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/444410/\">Find Out</a>\n\nПлатформа Steam час від часу стикається з мережевими проблемами через свою залежність від інтернет-з&#x27;єднання. У статті зібрано поради, як перевірити статус серверів за допомогою спеціальних сервісів, соціальних мереж та виконати базове усунення неполадок на своєму пристрої.\n\n🔗 <a href=\"https://insider-gaming.com/is-steam-down-now-server-status/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/is-steam-down-now-server-status/",
+    "orig": "Is Steam Down? Find Out If Steam Is Offline Now"
+   }
+  ],
+  [
+   1792593247.3217344,
+   1667,
+   "🎬",
+   "Усі головні телемережі спиратимуться на дані Associated Press під час виборів 2026 року",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Усі головні телемережі спиратимуться на дані Associated Press під час виборів 2026 року</b>\n\nНа проміжних виборах 2026 року всі великі американські телемережі вперше за десятиліття використовуватимуть дані підрахунку голосів від Associated Press. Це забезпечить єдині результати для новинних платформ в умовах дезінформації, а також охопить дані опитувань виборців.\n\n🔗 <a href=\"https://deadline.com/2026/10/associated-press-midterms-results-data-1237165652/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/associated-press-midterms-results-data-1237165652/",
+    "orig": "How The Associated Press Will Be At The Center Of The Midterms’ Election-Night Results"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9639,12 +9745,12 @@
    1792589516.5178292
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1792503123.3210766,
    1792524195.2962582,
    1792546315.9597607,
    1792549902.8141606,
    1792549906.1699207,
-   1792558793.9655306
+   1792558793.9655306,
+   1792593139.8856282
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1792405876.2595813
@@ -9678,9 +9784,9 @@
    1792569866.3357563
   ],
   "games|Digital Foundry|https://www.digitalfoundry.net/feed": [
-   1792449086.3332465,
    1792515719.678554,
-   1792521222.9651988
+   1792521222.9651988,
+   1792593203.6057668
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
    1792512430.3417182,
@@ -9688,7 +9794,8 @@
    1792582298.520617,
    1792582303.238386,
    1792585922.1488922,
-   1792589568.7558627
+   1792589568.7558627,
+   1792593158.2692487
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1792503109.0566463,
@@ -9731,8 +9838,6 @@
    1792573282.3710647
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1792503155.0100563,
-   1792506219.684116,
    1792508592.8394823,
    1792512459.3787096,
    1792514077.2455463,
@@ -9743,7 +9848,8 @@
    1792530117.3261662,
    1792531923.7592692,
    1792578710.1628153,
-   1792589540.4712486
+   1792589540.4712486,
+   1792593227.8783793
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1792526500.576059,
@@ -9832,7 +9938,8 @@
    1792553615.792893,
    1792558779.4629133,
    1792558791.2251885,
-   1792591673.951967
+   1792591673.951967,
+   1792593247.3221433
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1792496084.9827945,
@@ -9864,7 +9971,6 @@
    1792531910.433771
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1792506157.8285136,
    1792508557.0534906,
    1792510536.0588453,
    1792512352.062619,
@@ -9878,7 +9984,8 @@
    1792585886.7448022,
    1792585916.050644,
    1792589514.581357,
-   1792591295.5011723
+   1792591295.5011723,
+   1792593106.2942526
   ],
   "music|Decibel|https://www.decibelmagazine.com/feed/": [
    1792508710.8693721,
@@ -9951,7 +10058,8 @@
    1792530106.0358243
   ],
   "music|Revolver|https://www.revolvermag.com/rss.xml": [
-   1792530135.5961146
+   1792530135.5961146,
+   1792593171.8919258
   ],
   "music|Stereogum|https://www.stereogum.com/feed/": [
    1792528327.9051118,
@@ -10056,6 +10164,7 @@
   "040cf62e7e5620f1": 1791795342.3347464,
   "04a7c876ec48e418": 1791786690.9893432,
   "04be08d5a97e19b1": 1792434685.2168472,
+  "04bf884757415f28": 1792593158.2692006,
   "054f8252f2345b95": 1791926922.627801,
   "0550fbdbf700f9c1": 1791931871.2272644,
   "0555c056d0e11559": 1792080964.3635151,
@@ -10078,6 +10187,7 @@
   "06e0186f91d6d1af": 1792177227.0347888,
   "070d309edf47bb38": 1791643484.7724442,
   "071f28d3e5f796e6": 1791654234.9343066,
+  "072af63428efce86": 1792593090.9792018,
   "0765ee737264a646": 1792346490.1110344,
   "07b14069038d87c9": 1791920822.7050872,
   "07c9a77e54e23e67": 1791642308.7748382,
@@ -10131,6 +10241,7 @@
   "0e3227631c52c966": 1791757271.9788234,
   "0e72e7e6cbff7be4": 1792246782.2975574,
   "0e8a92d20b540ed7": 1792558791.2251408,
+  "0e9b77a37a3d99a1": 1792593171.8918839,
   "0ea7276b06d9be53": 1792418602.6873617,
   "0f173ee171375a2d": 1792423917.499819,
   "0f4107c1959dbf84": 1792584070.9681265,
@@ -10325,6 +10436,7 @@
   "2697275c029a3884": 1792589485.2741487,
   "26be9671072d8b9c": 1792501354.6840096,
   "26cb37b9a1376af8": 1791853911.3275766,
+  "26e0abee154a12ad": 1792593091.5848765,
   "270c12f7773514e2": 1792431223.0283523,
   "2733deee131cc716": 1792477947.869742,
   "2767d47f9f40b3dd": 1791993738.2951436,
@@ -10507,6 +10619,7 @@
   "3d236b06f06c600d": 1792164153.1257877,
   "3d2d029e83d45bf0": 1792490528.1088724,
   "3d2f1f537de26477": 1792080936.4482288,
+  "3d3bb62b86286169": 1792593091.5927684,
   "3d66fe44c663204a": 1791931737.6744573,
   "3d67bf0bb9867325": 1792407735.6609592,
   "3d69c67289e2b826": 1791750785.6611123,
@@ -10589,6 +10702,7 @@
   "46a80bd27fbbc654": 1792246831.953424,
   "46e8fce991a50384": 1791646021.548309,
   "474382b6632b066d": 1791993729.4377713,
+  "474586463fa68df3": 1792593203.60573,
   "4747a804fd458486": 1792304858.9558072,
   "47893b5ccec1fc87": 1792438385.3908658,
   "47c5002d058bad85": 1792485103.0950508,
@@ -10693,11 +10807,13 @@
   "52f81882dab3d409": 1792342882.6603274,
   "53287f14b1250c90": 1791769084.5556781,
   "536116db6a18dcae": 1792539076.0456333,
+  "537c45f6cae6394f": 1792593091.5890484,
   "53c62bd0c6f25858": 1791807526.4589036,
   "540502655c3ad7a5": 1792407652.7428136,
   "5446ec301e9e4371": 1792111180.3037887,
   "5460902992efb62b": 1792580486.1900349,
   "54860a88ade12bab": 1792496089.1842127,
+  "548b26e68ea19500": 1792593090.975243,
   "54914a3eb70f1eaa": 1792517456.0833268,
   "54a9a8bd54d562f8": 1791966911.0236287,
   "54c07659d31db827": 1792522997.5619524,
@@ -10946,6 +11062,7 @@
   "730a0ea386a88913": 1792400505.9817264,
   "736f8f2b43c810dc": 1792528283.288791,
   "738f9286e44b821f": 1792398729.0859182,
+  "739757869a68c709": 1792593227.8783355,
   "73bfc62b45dcc677": 1791820221.7398524,
   "73ccd9c010e741ca": 1792427572.3802977,
   "73ee8d7378187057": 1792512225.2017775,
@@ -11425,6 +11542,7 @@
   "adf7db655a8259fb": 1792295989.4994938,
   "ae05d5b4c94a1868": 1792496079.0647616,
   "ae11c2e7a75a83f3": 1792494223.270085,
+  "ae2db25820e2cc55": 1792593092.0980086,
   "ae3e59418abf5172": 1791989243.3478537,
   "ae3f827b4583586d": 1792264341.8558543,
   "ae4c34da376966be": 1792164565.6954842,
@@ -11786,6 +11904,7 @@
   "dd4a118cd1cf5fba": 1792429335.2482028,
   "dd4da5d2ce858f2f": 1792504888.0988407,
   "dd54b3718ca32a3a": 1792584080.1470208,
+  "dd561e0c3bc0d4f8": 1792593106.2942076,
   "dd6a9d14a094d159": 1792566437.5360692,
   "dd825df6e11b1f10": 1792310502.9209943,
   "dd8edeee41eaf92d": 1791966921.6536157,
@@ -11914,6 +12033,7 @@
   "ebcc57480d897847": 1792326680.0492878,
   "ec008a2958c5f84e": 1792129002.7199416,
   "ec59fb0ebcbee113": 1792499497.5732076,
+  "ec5b19205213bc8e": 1792593139.885591,
   "ec643c90aca4ac8d": 1792568231.6748254,
   "ec6655200659647a": 1792080927.3791754,
   "ec95890aa7ab166c": 1792128993.9627583,
@@ -11967,6 +12087,7 @@
   "f4e4e4e20ab664a3": 1792436456.6644757,
   "f4ecbea4571dd4de": 1791929834.6204538,
   "f4f48b5553da71cc": 1792409493.3584514,
+  "f5020d886ec7e86d": 1792593127.6321602,
   "f50fd9d1658fc143": 1792535488.5303445,
   "f525346d1e27c399": 1792074074.897159,
   "f572bbd6e4413ed8": 1791994410.4911294,
@@ -11985,6 +12106,7 @@
   "f6a53595410b4be0": 1791931822.5769498,
   "f6bb78e51b44135f": 1792526481.4404943,
   "f6bce6572a5afb2a": 1792423946.9128335,
+  "f6fcc34e660b5848": 1792593247.3221037,
   "f70683a3073d4412": 1792010005.952578,
   "f7077689b0997e1b": 1792449079.849742,
   "f712ae346a74a02a": 1792528311.0115857,
@@ -12505,7 +12627,7 @@
   ],
   "artists_checked": 1792591962.3066845,
   "blocked_until": 1792591591.7586727,
-  "cursor": 289,
+  "cursor": 299,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
     "0CVnhwtOpdoIkOatkGcVwO",
@@ -13248,15 +13370,15 @@
   "sources": {
    "/Film": 20,
    "AIN.ua": 4,
-   "Blabbermouth": 35,
-   "Bloomberg": 26,
+   "Blabbermouth": 36,
+   "Bloomberg": 27,
    "DOU": 2,
    "DOU Gamedev": 3,
-   "Deadline": 38,
+   "Deadline": 39,
    "Decibel": 6,
-   "Digital Foundry": 3,
+   "Digital Foundry": 4,
    "Distorted Sound": 10,
-   "Eurogamer": 21,
+   "Eurogamer": 22,
    "GameSpot": 20,
    "GamesIndustry.biz": 12,
    "GitHub Trending": 14,
@@ -13264,7 +13386,7 @@
    "IGN": 37,
    "ITC.ua": 32,
    "IndieWire": 11,
-   "Insider Gaming": 45,
+   "Insider Gaming": 46,
    "Kerrang!": 14,
    "Lambgoat": 25,
    "Loudwire": 13,
@@ -13277,7 +13399,7 @@
    "PlayUA": 17,
    "Polygon": 21,
    "Product Hunt": 14,
-   "Revolver": 2,
+   "Revolver": 3,
    "Rock Paper Shotgun": 20,
    "SteamDB": 1,
    "Stereogum": 6,
@@ -13288,8 +13410,8 @@
   },
   "translators": {
    "DeepL": 15,
-   "gemini-flash-latest": 68,
-   "gemini-flash-lite-latest": 560
+   "gemini-flash-latest": 69,
+   "gemini-flash-lite-latest": 567
   },
   "week": "2026-W43"
  },
@@ -13714,36 +13836,6 @@
    "",
    1792580506.244949
   ],
-  "q:2 0": [
-   0,
-   "",
-   1792418622.4442816
-  ],
-  "q:2 0 zenith": [
-   0,
-   "",
-   1792418621.9024146
-  ],
-  "q:2 0 zenith update": [
-   0,
-   "",
-   1792418621.3859024
-  ],
-  "q:2 0 zenith update adds": [
-   0,
-   "",
-   1792418620.8862677
-  ],
-  "q:2 0 zenith update adds new": [
-   0,
-   "",
-   1792418620.3846536
-  ],
-  "q:2 0 zenith update adds new game": [
-   0,
-   "",
-   1792418619.8194609
-  ],
   "q:2 casts hideo kojima": [
    0,
    "",
@@ -13899,11 +13991,6 @@
    "",
    1792503164.0284345
   ],
-  "q:20 2": [
-   0,
-   "",
-   1792418625.9996831
-  ],
   "q:20 october": [
    0,
    "",
@@ -13923,11 +14010,6 @@
    0,
    "",
    1792591409.1186552
-  ],
-  "q:2025": [
-   0,
-   "",
-   1792418627.0385349
   ],
   "q:2026": [
    0,
@@ -14124,16 +14206,6 @@
    "",
    1792461850.381853
   ],
-  "q:4 really": [
-   0,
-   "",
-   1792418549.8766634
-  ],
-  "q:4 really the end": [
-   0,
-   "",
-   1792418549.3281155
-  ],
   "q:4 rescues the reboot series": [
    0,
    "",
@@ -14143,6 +14215,21 @@
    0,
    "",
    1792512231.8995016
+  ],
+  "q:4 the new": [
+   0,
+   "",
+   1792593179.7633445
+  ],
+  "q:4 the new game changing": [
+   0,
+   "",
+   1792593179.2267673
+  ],
+  "q:4 the new game changing tech": [
+   0,
+   "",
+   1792593178.7107701
   ],
   "q:40k": [
    0,
@@ -14213,16 +14300,6 @@
    0,
    "",
    1792573281.956535
-  ],
-  "q:6 ' rockstar": [
-   0,
-   "",
-   1792418605.7216184
-  ],
-  "q:6 2025": [
-   0,
-   "",
-   1792418626.5086877
   ],
   "q:6 has": [
    0,
@@ -15178,11 +15255,6 @@
    0,
    "",
    1792423919.7669547
-  ],
-  "q:broken the community aspect": [
-   0,
-   "",
-   1792418577.28995
   ],
   "q:brutally difficult": [
    0,
@@ -16569,6 +16641,11 @@
    "",
    1792584085.748057
   ],
+  "q:down": [
+   0,
+   "",
+   1792593207.1137621
+  ],
   "q:dragon age": [
    0,
    "",
@@ -16808,26 +16885,6 @@
    0,
    "",
    1792454482.9090266
-  ],
-  "q:end": [
-   0,
-   "",
-   1792418553.4329882
-  ],
-  "q:end of the rebooted": [
-   0,
-   "",
-   1792418552.8827496
-  ],
-  "q:end of the rebooted modern": [
-   0,
-   "",
-   1792418552.3844552
-  ],
-  "q:end of the rebooted modern warfare": [
-   0,
-   "",
-   1792418551.8673375
   ],
   "q:entertainment": [
    0,
@@ -17119,6 +17176,26 @@
    "",
    1792580505.7492087
   ],
+  "q:feature": [
+   0,
+   "",
+   1792593175.740355
+  ],
+  "q:feature inside": [
+   0,
+   "",
+   1792593175.0827525
+  ],
+  "q:feature inside call": [
+   0,
+   "",
+   1792593174.5216377
+  ],
+  "q:feature inside call of duty": [
+   0,
+   "",
+   1792593173.9645503
+  ],
   "q:features": [
    0,
    "",
@@ -17223,6 +17300,31 @@
    0,
    "",
    1792467089.8174114
+  ],
+  "q:find out": [
+   444410,
+   "Find Out",
+   1792593209.6582353
+  ],
+  "q:find out if": [
+   0,
+   "",
+   1792593209.0701218
+  ],
+  "q:find out if steam": [
+   0,
+   "",
+   1792593208.5703576
+  ],
+  "q:find out if steam is": [
+   0,
+   "",
+   1792593208.082817
+  ],
+  "q:find out if steam is offline": [
+   0,
+   "",
+   1792593207.5927243
   ],
   "q:finger": [
    0,
@@ -18044,16 +18146,6 @@
    "",
    1792512262.0076368
   ],
-  "q:gta 6": [
-   0,
-   "",
-   1792418605.22249
-  ],
-  "q:gta 6 ' rockstar": [
-   0,
-   "",
-   1792418604.6910367
-  ],
   "q:gta 6 has": [
    0,
    "",
@@ -18454,6 +18546,21 @@
    "",
    1792427686.4047186
   ],
+  "q:if steam is": [
+   0,
+   "",
+   1792593211.2219534
+  ],
+  "q:if steam is offline": [
+   0,
+   "",
+   1792593210.668315
+  ],
+  "q:if steam is offline now": [
+   0,
+   "",
+   1792593210.158072
+  ],
   "q:if you can": [
    0,
    "",
@@ -18503,6 +18610,26 @@
    0,
    "",
    1792582294.0368526
+  ],
+  "q:inside": [
+   304430,
+   "INSIDE",
+   1792593178.120817
+  ],
+  "q:inside call": [
+   0,
+   "",
+   1792593177.5918167
+  ],
+  "q:inside call of duty": [
+   0,
+   "",
+   1792593176.9822068
+  ],
+  "q:inside call of duty modern": [
+   0,
+   "",
+   1792593176.3867912
   ],
   "q:intel powered": [
    0,
@@ -18568,21 +18695,6 @@
    0,
    "",
    1792591302.292446
-  ],
-  "q:is call": [
-   0,
-   "",
-   1792418548.8311772
-  ],
-  "q:is call of duty": [
-   0,
-   "",
-   1792418548.3264065
-  ],
-  "q:is call of duty modern": [
-   0,
-   "",
-   1792418547.7902448
   ],
   "q:is changing": [
    0,
@@ -18713,6 +18825,16 @@
    0,
    "",
    1792440085.6952615
+  ],
+  "q:is steam": [
+   0,
+   "",
+   1792593206.134705
+  ],
+  "q:is steam down": [
+   0,
+   "",
+   1792593205.6090152
   ],
   "q:is voiced": [
    0,
@@ -19098,16 +19220,6 @@
    0,
    "",
    1792490493.203194
-  ],
-  "q:legacy": [
-   0,
-   "",
-   1792418613.6701205
-  ],
-  "q:legacy 2027": [
-   0,
-   "",
-   1792418613.1148696
   ],
   "q:legend of zelda": [
    0,
@@ -19883,6 +19995,11 @@
    0,
    "",
    1792490507.8059385
+  ],
+  "q:new game changing tech powering every mode": [
+   0,
+   "",
+   1792593180.2736185
   ],
   "q:new job": [
    0,
@@ -21174,16 +21291,6 @@
    "",
    1792485655.0246925
   ],
-  "q:really the end": [
-   0,
-   "",
-   1792418551.3664148
-  ],
-  "q:really the end of the rebooted": [
-   0,
-   "",
-   1792418550.8326437
-  ],
   "q:reblade the death spiral": [
    3489340,
    "ReBlade: The Death Spiral",
@@ -21193,11 +21300,6 @@
    0,
    "",
    1792519326.4792495
-  ],
-  "q:rebooted modern warfare story": [
-   0,
-   "",
-   1792418553.9649723
   ],
   "q:red dead redemption": [
    2668510,
@@ -21664,36 +21766,6 @@
    "",
    1792582319.2537167
   ],
-  "q:saros": [
-   0,
-   "",
-   1792418619.314467
-  ],
-  "q:saros 2 0": [
-   0,
-   "",
-   1792418618.8261962
-  ],
-  "q:saros 2 0 zenith": [
-   0,
-   "",
-   1792418618.326487
-  ],
-  "q:saros 2 0 zenith update": [
-   0,
-   "",
-   1792418617.8134959
-  ],
-  "q:saros 2 0 zenith update adds": [
-   0,
-   "",
-   1792418617.3106437
-  ],
-  "q:saros 2 0 zenith update adds new": [
-   0,
-   "",
-   1792418616.7960536
-  ],
   "q:saros gets": [
    0,
    "",
@@ -22113,6 +22185,11 @@
    1675200,
    "Steam Deck",
    1792490502.854336
+  ],
+  "q:steam down": [
+   0,
+   "",
+   1792593206.61108
   ],
   "q:steam frame": [
    4165890,
@@ -23184,21 +23261,6 @@
    "",
    1792492405.7601185
   ],
-  "q:witcher": [
-   0,
-   "",
-   1792418612.6022947
-  ],
-  "q:witcher legacy": [
-   0,
-   "",
-   1792418612.0744233
-  ],
-  "q:witcher legacy 2027": [
-   0,
-   "",
-   1792418611.5712633
-  ],
   "q:with": [
    0,
    "",
@@ -23506,14 +23568,13 @@
    "openai",
    "rockstar games",
    "xbox",
-   "авіація",
    "аоз",
    "бпла",
    "бізнес",
    "данія",
    "дрони",
    "компоненти зброї",
-   "літаки",
+   "кібербезпека",
    "медицина",
    "новини",
    "оборонка",
@@ -23526,18 +23587,11 @@
    "технології",
    "україна",
    "українська зброя",
-   "ігри"
+   "ігри",
+   "інтернет"
   ]
  },
  "titles": [
-  [
-   1792420313.5076091,
-   "Motley Crue Book 'Carnival of Sins' Las Vegas Residency for 2027"
-  ],
-  [
-   1792420336.4678311,
-   "SYSTEM OF A DOWN Announces June 2027 Rose Bowl Stadium Concert With PIERCE THE VEIL"
-  ],
   [
    1792422116.7556171,
    "Battlefield 6 Dev Owns Up To Mistakes With Strange-Looking Cosmetics, But Stays Silent On Possible AI Use"
@@ -25497,17 +25551,37 @@
   [
    1792591941.3010204,
    "The Bunny The Bear call out Ohio-based promotor over lack of payment"
+  ],
+  [
+   1792593106.29421,
+   "Watch: IRON MAIDEN Drummer NICKO MCBRAIN Unboxes His Autobiography 'Hello Boys And Girls!'"
+  ],
+  [
+   1792593139.8855925,
+   "Legal AI Startup Legora Raises Funds at $8.8 Billion Valuation"
+  ],
+  [
+   1792593158.2692025,
+   "After a few hours with Yakuza studio's soulful Stranger Than Heaven, I'm smitten, but I suspect it'll be a divisive game"
+  ],
+  [
+   1792593171.8918853,
+   "Hear CLOUD NOTHINGS go metal on new song “Death Keeps Me Alive”"
+  ],
+  [
+   1792593203.6057312,
+   "Feature: Inside Call of Duty: Modern Warfare 4: The New Game-Changing Tech Powering Every Mode"
+  ],
+  [
+   1792593227.878337,
+   "Is Steam Down? Find Out If Steam Is Offline Now"
+  ],
+  [
+   1792593247.3221056,
+   "How The Associated Press Will Be At The Center Of The Midterms’ Election-Night Results"
   ]
  ],
  "titles_uk": [
-  [
-   1792420313.5076098,
-   "Motley Crue анонсували резиденцію у Лас-Вегасі на 2027 рік"
-  ],
-  [
-   1792420336.4678319,
-   "SYSTEM OF A DOWN анонсували концерт на Rose Bowl Stadium у 2027 році"
-  ],
   [
    1792422116.755618,
    "Розробники Battlefield 6 визнали помилки в косметиці, але проігнорували чутки про ШІ"
@@ -27467,6 +27541,34 @@
   [
    1792591941.301021,
    "The Bunny The Bear публічно звинуватили промоутера в невиплаті гонорарів"
+  ],
+  [
+   1792593106.294211,
+   "Барабанщик IRON MAIDEN Ніко Макбрейн розпакував свою автобіографію Hello Boys And Girls!"
+  ],
+  [
+   1792593139.8855934,
+   "ШІ-стартап Legora залучив $550 мільйонів інвестицій"
+  ],
+  [
+   1792593158.2692032,
+   "Нова гра Stranger Than Heaven від RGG Studio захоплює, але може розколоти гравців"
+  ],
+  [
+   1792593171.891886,
+   "Cloud Nothings випустили важкий метал-сингл Death Keeps Me Alive"
+  ],
+  [
+   1792593203.6057322,
+   "Infinity Ward показала технології Call of Duty: Modern Warfare 4"
+  ],
+  [
+   1792593227.8783379,
+   "Як перевірити статус серверів Steam і вирішити проблеми з підключенням"
+  ],
+  [
+   1792593247.3221061,
+   "Усі головні телемережі спиратимуться на дані Associated Press під час виборів 2026 року"
   ]
  ],
  "ukrainian": {
