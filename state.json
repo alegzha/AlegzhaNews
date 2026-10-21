@@ -1,22 +1,10 @@
 {
  "alerts": {
-  "src:games|PC Gamer|https://www.pcgamer.com/rss/": {
-   "detail": "https://www.pcgamer.com/rss/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
-   "label": "Джерело «PC Gamer» не працює",
-   "sent": 0,
-   "since": 1792589455.692897
-  },
   "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
    "detail": "https://www.kerrang.com/feed.rss → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
    "label": "Джерело «Kerrang!» не працює",
    "sent": 0,
    "since": 1792567873.9496448
-  },
-  "src:music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": {
-   "detail": "https://www.loudersound.com/feeds/all\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
-   "label": "Джерело «Metal Hammer (Louder)» не працює",
-   "sent": 0,
-   "since": 1792589475.224874
   }
  },
  "daily_digest_date": "2026-10-20",
@@ -30,12 +18,12 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-21 13:33 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-10-21 14:12 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 4
+   "gemini-flash-latest": 2,
+   "gemini-flash-lite-latest": 13
   },
   "used": [
    "Gemini"
@@ -8634,7 +8622,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>msitarzewski/agency-agents</b>\n\nПовноцінна агенція з ШІ у вас під рукою: від фронтенд-майстрів до реддіт-ніндзя та фактчекерів. Кожен агент має власну експертизу, характер і процеси для оптимізації вашого робочого потоку.\n\n🔗 <a href=\"https://github.com/msitarzewski/agency-agents\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/msitarzewski/agency-agents",
     "orig": "msitarzewski/agency-agents"
@@ -8653,7 +8640,6 @@
       "https://the-decoder.com/china-protests-the-us-deepseek-ban-while-blocking-chatgpt-claude-and-gemini-at-home/"
      ]
     ],
-    "caption": "🤖 <b>Розмову з ChatGPT тепер можна сховати за паролем: як це зробити</b>\n\nПриховані чати OpenAI можна буде відкрити лише після додаткової перевірки. А нові повідомлення в таких чатах не оновлюватимуть пам’ять звичайних розмов.\n\n🔗 <a href=\"https://ain.ua/2026/10/21/openai-dodala-zaxishheni-cati-v-chatgpt-dialogi-teper-mozna-xovati-pid-parol/\">AIN.ua</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://ain.ua/2026/10/21/openai-dodala-zaxishheni-cati-v-chatgpt-dialogi-teper-mozna-xovati-pid-parol/",
     "orig": "Розмову з ChatGPT тепер можна сховати за паролем: як це зробити"
@@ -8667,7 +8653,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b>Що керівникам ігрових студій треба знати про профспілки</b>\n\nСпівпраця з профспілками для компаній у геймдеві стрімко перетворюється на неминучість, а не просто ймовірність\n\n🔗 <a href=\"https://www.gamesindustry.biz/demystifying-unions-what-games-leaders-need-to-know\">GamesIndustry.biz</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/demystifying-unions-what-games-leaders-need-to-know",
     "orig": "Demystifying unions: What games leaders need to know"
@@ -8681,7 +8666,6 @@
    "DOU Gamedev",
    {
     "also": [],
-    "caption": "🎮 <b>Чому не варто в геймдеві починати з MMORPG. Як український розробник самотужки створює космічну онлайн-гру</b>\n\nУ 2016 році від майбутньої WarpScape були лише форма авторизації та кубик, що літав у космосі. Сьогодні це космічна MMORPG із кланами, квестами, данжами та власною економікою, яку вже тестують перші гравці. Майже все це самотужки створює Євген Михайліченко — backend-розробник із понад десятьма роками досвіду. WarpScape для нього стала першою великою грою.\n\n🔗 <a href=\"https://gamedev.dou.ua/articles/warpscape-mmorpg-developer-interview/\">DOU Gamedev</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://gamedev.dou.ua/articles/warpscape-mmorpg-developer-interview/",
     "orig": "Чому не варто в геймдеві починати з MMORPG. Як український розробник самотужки створює космічну онлайн-гру"
@@ -8695,7 +8679,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Anthropic випустила плагіни для інтелектуальної роботи</b>\n\nРепозиторій плагінів з відкритим кодом, призначений насамперед для фахівців, що працюють з інформацією, для використання в Claude Cowork. Плагіни для інтелектуальної роботи — це інструменти, які перетворюють Claude на фахівця для вашої посади, команди та компанії. Створені для Claude Cowork, також сумісні з Claude Code. Чому саме плагіни? Cowork дозволяє вам поставити мету, а Claude виконує готову професійну роботу.\n\n🔗 <a href=\"https://github.com/anthropics/knowledge-work-plugins\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/anthropics/knowledge-work-plugins",
     "orig": "anthropics/knowledge-work-plugins"
@@ -8709,7 +8692,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>Mouse-1</b>\n\nМодель прийняття рішень для вашого агента\n\n🔗 <a href=\"https://www.producthunt.com/products/mouse-1\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/mouse-1",
     "orig": "Mouse-1"
@@ -8723,7 +8705,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>Gemini в автомобілях отримав доступ до Gmail, Фото та Календаря</b>\n\nGoogle розширює можливості Gemini в Android Auto: ШІ-асистент зможе використовувати дані з Gmail, Календаря, Фото та інших сервісів, щоб знаходити адреси, планувати маршрути й рекомендувати заклади з урахуванням уподобань водія.\n\n🔗 <a href=\"https://mezha.ua/news/gemini-auto-personalized-316375/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/gemini-auto-personalized-316375/",
     "orig": "Gemini в автомобілях отримав доступ до Gmail, Фото та Календаря"
@@ -8737,7 +8718,6 @@
    "PlayUA",
    {
     "also": [],
-    "caption": "🎮 <b>Shrek 2 Remastered вийде на початку листопада</b>\n\nА пам’ятаєте, як ми нещодавно повідомляли про витік інформації щодо можливого ремастера Shrek 2? Що ж, чутки справдилися! Оновлена версія пригодницької гри за мотивами мультфільму DreamWorks вийде 10 листопада 2026 року на Xbox Series X та Xbox Series S. За перевидання відповідає компанія Aspyr. Шрек повертається на сучасні консолі, причому чекати на його появу залишилося […]\n\n🔗 <a href=\"https://playua.net/shrek-2-remastered-vyjde-na-pochatku-lystopada/\">PlayUA</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://playua.net/shrek-2-remastered-vyjde-na-pochatku-lystopada/",
     "orig": "Shrek 2 Remastered вийде на початку листопада"
@@ -8751,7 +8731,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>У <a href=\"https://store.steampowered.com/app/1962700/\">Subnautica 2</a> додадуть наймоторошніший регіон та мех-жабу</b>\n\nРозробник Unknown Worlds готує масштабне оновлення для Subnautica 2, яке додасть найтемніший і найстрашніший регіон в історії гри, новий сюжет та мех Tadpole на прізвисько Frog. Також патч принесе нові біомоди, кімнату для баз і довгоочікувану можливість здійснювати ривок у ластах.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/subnautica-2s-next-major-update-adds-the-scariest-region-weve-ever-done-together-with-frog-mechs-and-a-very-welcome-tweak-for-dashing\">Rock Paper Shotgun</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/subnautica-2s-next-major-update-adds-the-scariest-region-weve-ever-done-together-with-frog-mechs-and-a-very-welcome-tweak-for-dashing",
     "orig": "Subnautica 2's next major update adds \"the scariest region we've ever done\", together with frog mechs and a very welcome tweak for dashing"
@@ -8765,7 +8744,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>wshobson/agents пропонує спільні плагіни для різних ШІ-інструментів</b>\n\nПроєкт wshobson/agents дозволяє використовувати єдину колекцію плагінів, агентів, скілів і команд у Claude Code, OpenAI Codex CLI, Cursor, OpenCode, Antigravity CLI, GitHub Copilot та Pi. Каталог налічує 94 плагіни, 202 агенти, 185 скілів і 105 команд, які адаптуються під обраний інструмент кодування.\n\n🔗 <a href=\"https://github.com/wshobson/agents\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/wshobson/agents",
     "orig": "wshobson/agents"
@@ -9109,7 +9087,12 @@
    "Football Manager 27 отримає п'ять днів безплатного доступу перед релізом",
    "Eurogamer",
    {
-    "also": [],
+    "also": [
+     [
+      "Insider Gaming",
+      "https://insider-gaming.com/football-manager-27-gets-a-free-play-period-ahead-of-release/"
+     ]
+    ],
     "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/4530370/\">Football Manager 27</a> отримає п&#x27;ять днів безплатного доступу перед релізом</b>\n\nРозробник Sports Interactive анонсував безплатний доступ до Football Manager 27 на PC та Mac на п&#x27;ять днів із 29 жовтня. Усі режими гри будуть відкриті, а збереження перенесуться до повноцінної версії, яка вийде 10 листопада.\n\n🔗 <a href=\"https://www.eurogamer.net/football-manager-27-free-to-play-five-days\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/football-manager-27-free-to-play-five-days",
@@ -9137,7 +9120,12 @@
    "SOILWORK випустили новий сингл 'Night Whispers & Shining Lights'",
    "Blabbermouth",
    {
-    "also": [],
+    "also": [
+     [
+      "Lambgoat",
+      "https://lambgoat.com/news/55460/soilwork-premiere-new-single-night-whispers-shining-lights/"
+     ]
+    ],
     "caption": "🤘 <b>SOILWORK випустили новий сингл &#x27;Night Whispers &amp; Shining Lights&#x27;</b>\n\nШведський гурт SOILWORK презентував новий сингл «Night Whispers &amp; Shining Lights» на честь свого 30-річчя. Трек вийшов під час масштабного європейського туру гурту спільно з AMON AMARTH та ORBIT CULTURE. Композиція поєднує фірмові гострі рифи, мелодійність та епічні приспіви колективу.\n\n🔗 <a href=\"https://blabbermouth.net/news/soilwork-releases-new-single-night-whispers-shining-lights\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/soilwork-releases-new-single-night-whispers-shining-lights",
@@ -9492,11 +9480,156 @@
    "У Лондоні відкриється перший постійний магазин Pokémon за межами Азії",
    "VGC",
    {
-    "also": [],
+    "also": [
+     [
+      "Insider Gaming",
+      "https://insider-gaming.com/pokemon-london-store-coming-by-2029-with-more-to-follow/"
+     ]
+    ],
     "caption": "🎮 <b>У Лондоні відкриється перший постійний магазин Pokémon за межами Азії</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/4513280/\">Pok</a>\n\nThe Pokémon Company планує запустити торгову точку до 2029 року\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/a-permanent-pokemon-retail-store-is-coming-to-london-the-first-of-several-outside-asia/\">VGC</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/news/a-permanent-pokemon-retail-store-is-coming-to-london-the-first-of-several-outside-asia/",
     "orig": "A permanent Pokémon retail store is coming to London, the first of several planned to open outside Asia"
+   }
+  ],
+  [
+   1792591295.500723,
+   1651,
+   "🤘",
+   "LACUNA COIL випустили подвійний сингл на честь 20-річчя альбому Karmacode",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>LACUNA COIL випустили подвійний сингл на честь 20-річчя альбому Karmacode</b>\n\nІталійський метал-гурт LACUNA COIL презентував подвійний сингл з нагоди 20-річчя альбому Karmacode. До релізу увійшли оновлена версія треку Fragile під назвою Fragile XX та ремікс на пісню I Wish You Were Dead від продюсера Swarm. Так колектив об&#x27;єднав історію платівки 2006 року зі свіжим матеріалом з альбому Sleepless Empire.\n\n🔗 <a href=\"https://blabbermouth.net/news/lacuna-coil-releases-double-single-fragile-xx-and-i-wish-you-were-dead-swarm-remix-to-celebrate-20th-anniversary-of-karmacode\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/lacuna-coil-releases-double-single-fragile-xx-and-i-wish-you-were-dead-swarm-remix-to-celebrate-20th-anniversary-of-karmacode",
+    "orig": "LACUNA COIL Releases Double Single, 'Fragile XX' And 'I Wish You Were Dead' (SWARM Remix), To Celebrate 20th Anniversary Of 'Karmacode'"
+   }
+  ],
+  [
+   1792591361.3469844,
+   1652,
+   "🤘",
+   "Статистика найпопулярніших і найрідкісніших живих виконань пісень з усіх 17 альбомів Megadeth",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Статистика найпопулярніших і найрідкісніших живих виконань пісень з усіх 17 альбомів Megadeth</b>\n\nМузичні видання підбили підсумки щодо найчастіше та найрідше виконуваних на концертах треків з усіх 17 студійних альбомів гурту Megadeth. Найуспішнішим за продажами став альбом Countdown to Extinction, а найбільше на концертах грали сингл Trust з пластинки Cryptic Writings.\n\n🔗 <a href=\"https://loudwire.com/most-least-played-song-megadeth-albums/\">Loudwire</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://loudwire.com/most-least-played-song-megadeth-albums/",
+    "orig": "The Most + Least Played Song Off All 17 Megadeth Albums"
+   }
+  ],
+  [
+   1792591456.2142134,
+   1653,
+   "🎮",
+   "Вихід Project Helix заплановано на кінець 2028 року за ціною до $1800",
+   "GamesIndustry.biz",
+   {
+    "also": [],
+    "caption": "🎮 <b>Вихід Project Helix заплановано на кінець 2028 року за ціною до $1800</b>\n\nНову консоль Project Helix від Xbox планують випустити наприкінці 2028 року за ціною від $1200 до $1800. Розробку прискорюють за допомогою ШІ, а компанія також готує портативний пристрій, оновлення Game Pass та хвилю звільнень.\n\n🔗 <a href=\"https://www.gamesindustry.biz/project-helix-reportedly-launching-in-late-2028-projected-to-cost-between-1200-and-1800\">GamesIndustry.biz</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamesindustry.biz/project-helix-reportedly-launching-in-late-2028-projected-to-cost-between-1200-and-1800",
+    "orig": "Project Helix reportedly launching in late 2028, projected to cost between $1,200 and $1,800"
+   }
+  ],
+  [
+   1792591518.6111171,
+   1654,
+   "🤖",
+   "Nvidia представила модульні дата-центри DSX POD для швидкого розгортання ШІ",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Nvidia представила модульні дата-центри DSX POD для швидкого розгортання ШІ</b>\n\nНа конференції GTC Berlin компанія Nvidia презентувала модульний референсний дизайн DSX POD на базі систем Vera Rubin. Завдяки попередньому збиранню на заводі терміни розгортання дата-центрів скорочуються з шести місяців до 14 днів, а перші постачання почнуться на початку 2027 року.\n\n🔗 <a href=\"https://the-decoder.com/nvidias-dsx-pod-could-cut-ai-data-center-setup-from-six-months-to-as-little-as-14-days/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/nvidias-dsx-pod-could-cut-ai-data-center-setup-from-six-months-to-as-little-as-14-days/",
+    "orig": "Nvidia's DSX POD could cut AI data center setup from six months to as little as 14 days"
+   }
+  ],
+  [
+   1792591561.537885,
+   1655,
+   "🤘",
+   "Учасник Aerosmith Джої Крамер повернеться за барабани на концертах у Лос-Анджелесі",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Учасник Aerosmith Джої Крамер повернеться за барабани на концертах у Лос-Анджелесі</b>\n\nФотографії з репетицій Aerosmith підтвердили, що засновник і барабанщик гурту Джої Крамер виступить на двох майбутніх концертах у Лос-Анджелесі. Музикант не грав із колективом із лютого 2020 року через травми, судові позови та сімейні обставини.\n\n🔗 <a href=\"https://loudwire.com/rehearsal-photos-joey-kramer-aerosmith/\">Loudwire</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://loudwire.com/rehearsal-photos-joey-kramer-aerosmith/",
+    "orig": "Rehearsal Photos Reveal Aerosmith Drummer for Los Angeles Shows"
+   }
+  ],
+  [
+   1792591673.9516847,
+   1656,
+   "🎬",
+   "Стрімінговий сервіс Howdy придбав права на серіал The Walsh Sisters",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Стрімінговий сервіс Howdy придбав права на серіал The Walsh Sisters</b>\n\nНовий американський стрімінг Howdy від Roku придбав ексклюзивні права на адаптацію романів Marian Keyes під назвою The Walsh Sisters. Перший сезон серіалу за участю акторки Луїзи Гарланд стартує 5 листопада, а вихід другого заплановано на наступний рік.\n\n🔗 <a href=\"https://deadline.com/2026/10/bbc-the-walsh-sisters-sells-roku-howdy-marian-keyes-1237168424/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "text",
+    "link": "https://deadline.com/2026/10/bbc-the-walsh-sisters-sells-roku-howdy-marian-keyes-1237168424/",
+    "orig": "Roku Streamer Howdy Buys ‘The Walsh Sisters’"
+   }
+  ],
+  [
+   1792591772.0755005,
+   1657,
+   "🎮",
+   "Проблеми бойової системи та інші деталі Stranger Than Heaven",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>Проблеми бойової системи та інші деталі <a href=\"https://store.steampowered.com/app/4260840/\">Stranger Than Heaven</a></b>\n\nУ пригодницькій грі Stranger Than Heaven добре вдаються дослідження світу та мініігри, проте бойова система проти кількох ворогів водночас ламається і стає незграбною. Сюжет охоплює різні епохи Японії початку XX століття та розповідає про Макото Дайто, а серед персонажів проєкту з&#x27;являються Snoop Dogg і Tupac.\n\n🔗 <a href=\"https://www.videogameschronicle.com/features/there-are-a-lot-of-things-to-like-about-stranger-than-heaven-but-its-multi-person-combat-isnt-one/\">VGC</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/features/there-are-a-lot-of-things-to-like-about-stranger-than-heaven-but-its-multi-person-combat-isnt-one/",
+    "orig": "There are a lot of things to like about Stranger Than Heaven, but its multi-person combat isn’t one"
+   }
+  ],
+  [
+   1792591811.3325357,
+   1658,
+   "🤘",
+   "Northlane випустили новий сингл \"Deathwish\"",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Northlane випустили новий сингл &quot;Deathwish&quot;</b>\n\nАвстралійський металкор-гурт Northlane представив свій четвертий новий сингл &quot;Deathwish&quot; разом із візуалізатором. Трек увійде до майбутнього студійного альбому Anemoia, реліз якого відбудеться 27 листопада. Також колектив вирушить у тури Великою Британією, Європою та Північною Америкою.\n\n🔗 <a href=\"https://lambgoat.com/news/55457/northlane-debut-new-single-deathwish-along-with-visualizer/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55457/northlane-debut-new-single-deathwish-along-with-visualizer/",
+    "orig": "Northlane debut new single \"Deathwish\" along with visualizer"
+   }
+  ],
+  [
+   1792591855.6384566,
+   1659,
+   "🤘",
+   "Our Last Night скасовують завершення гастролей і їдуть у тур",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Our Last Night скасовують завершення гастролей і їдуть у тур</b>\n\nГурт Our Last Night відмовився від планів припинити концертну діяльність після The Final Tour. Колектив анонсував продовження гастролей під назвою The Covers Only Tour Part II, яке розпочнеться у квітні 2027 року.\n\n🔗 <a href=\"https://lambgoat.com/news/55459/our-last-night-un-retire-from-touring-and-announce-the-covers-only-tour-part-ii/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55459/our-last-night-un-retire-from-touring-and-announce-the-covers-only-tour-part-ii/",
+    "orig": "Our Last Night un-retire from touring and announce \"The Covers Only Tour\" Part II"
+   }
+  ],
+  [
+   1792591941.3006022,
+   1660,
+   "🤘",
+   "The Bunny The Bear публічно звинуватили промоутера в невиплаті гонорарів",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>The Bunny The Bear публічно звинуватили промоутера в невиплаті гонорарів</b>\n\nГурт The Bunny The Bear випустив попередження для музикантів щодо промоутера з Огайо Trayvas &quot;Vandal&quot; Welch. За словами колективу, він не виконав контрактні зобов&#x27;язання та не виплатив гроші за виступи, вигадуючи різні виправдання про заблоковані рахунки.\n\n🔗 <a href=\"https://lambgoat.com/news/55458/the-bunny-the-bear-call-out-ohio-based-promotor-over-lack-of-payment/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55458/the-bunny-the-bear-call-out-ohio-based-promotor-over-lack-of-payment/",
+    "orig": "The Bunny The Bear call out Ohio-based promotor over lack of payment"
    }
   ]
  ],
@@ -9534,14 +9667,12 @@
    1792488810.0023751
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
-   1792497685.845478,
-   1792497706.681174,
-   1792501315.8906865,
    1792517557.290951,
    1792517790.1511934,
    1792523067.4261708,
    1792524236.8655024,
-   1792573285.5726833
+   1792573285.5726833,
+   1792591518.611524
   ],
   "games|DOU Gamedev|https://gamedev.dou.ua/feed/": [
    1792569866.3357563
@@ -9570,9 +9701,9 @@
    1792585909.2501373
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
-   1792501384.1415565,
    1792569863.3110964,
-   1792584080.1470633
+   1792584080.1470633,
+   1792591456.2146332
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
    1792508524.8477921,
@@ -9666,14 +9797,14 @@
    1792503180.830482
   ],
   "games|VGC|https://www.videogameschronicle.com/feed/": [
-   1792505038.9436052,
    1792517766.766211,
    1792575421.246408,
    1792575426.0859044,
    1792580507.9835856,
    1792584070.968173,
    1792584099.9047732,
-   1792589587.1053452
+   1792589587.1053452,
+   1792591772.075962
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1792539078.213061,
@@ -9688,8 +9819,6 @@
    1792528337.5075414
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1792503142.6609817,
-   1792505104.131396,
    1792519394.2122288,
    1792519403.1627793,
    1792521161.209196,
@@ -9702,7 +9831,8 @@
    1792542743.5461552,
    1792553615.792893,
    1792558779.4629133,
-   1792558791.2251885
+   1792558791.2251885,
+   1792591673.951967
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1792496084.9827945,
@@ -9734,7 +9864,6 @@
    1792531910.433771
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1792503137.5460672,
    1792506157.8285136,
    1792508557.0534906,
    1792510536.0588453,
@@ -9748,7 +9877,8 @@
    1792582306.5568237,
    1792585886.7448022,
    1792585916.050644,
-   1792589514.581357
+   1792589514.581357,
+   1792591295.5011723
   ],
   "music|Decibel|https://www.decibelmagazine.com/feed/": [
    1792508710.8693721,
@@ -9774,7 +9904,6 @@
    1792512409.4194324
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1792485148.756466,
    1792514198.792997,
    1792514312.6263168,
    1792514332.5152457,
@@ -9786,13 +9915,16 @@
    1792539083.6893182,
    1792539086.8887858,
    1792553620.426566,
-   1792560677.2955577
+   1792560677.2955577,
+   1792591811.3330011,
+   1792591855.6388996,
+   1792591941.301063
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
-   1792442068.1163588,
-   1792443774.717346,
    1792508739.8008485,
-   1792528346.6972067
+   1792528346.6972067,
+   1792591361.3474362,
+   1792591561.538322
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1792531878.5036895,
@@ -10278,6 +10410,7 @@
   "30f07af25c631250": 1791957575.842039,
   "31210d910f10bbc3": 1791978102.8605857,
   "3128c6ed83d6b75b": 1792530106.035777,
+  "3129b03badbdb236": 1792591772.0759156,
   "31a564fbaff2bacd": 1792346454.4287817,
   "31c163a6bf276d85": 1791661539.5278637,
   "31cd82b4371ecc66": 1791975159.8011312,
@@ -10459,6 +10592,7 @@
   "4747a804fd458486": 1792304858.9558072,
   "47893b5ccec1fc87": 1792438385.3908658,
   "47c5002d058bad85": 1792485103.0950508,
+  "47eecfa3dd630a94": 1792591629.5922,
   "47f4b7ae6ea93c41": 1792445526.2433925,
   "47fa1011d71b746f": 1792010038.4811938,
   "4809ce681a686c84": 1791931734.3243032,
@@ -10481,6 +10615,7 @@
   "499b46e2fc1046da": 1792188120.1700075,
   "49e882d235b5a971": 1792148883.2151694,
   "4a3c39851c8eae96": 1792501328.198923,
+  "4a62a9419ab70c3c": 1792591254.1789236,
   "4a6beb52d46d1dc1": 1792530082.4326937,
   "4a73a49d0fed7868": 1792111193.4851968,
   "4aa1edcff1f3ee10": 1792337474.2270007,
@@ -10659,6 +10794,7 @@
   "5f943699c5928b08": 1792429299.129604,
   "5fd23ab1f9260df1": 1791837807.269217,
   "5fd3372115bdd369": 1792341080.7699568,
+  "5fec07394168c473": 1792591295.5011218,
   "600188a11010ced3": 1792080970.9277503,
   "6013176cfd7a17ea": 1792270324.9870496,
   "6096cc3a83ecce40": 1792074118.3389306,
@@ -10725,6 +10861,7 @@
   "688ceefb247b2370": 1792145441.306256,
   "69046dac910d5167": 1792589514.5813036,
   "693b3842ab6b11b8": 1791975089.1230226,
+  "695a4a80a2da6149": 1792591408.0965388,
   "6973c0afa8a9d10d": 1792449098.4181793,
   "697db8798a1a1e97": 1792531897.0066378,
   "698f472b12ad5c8a": 1792522879.309464,
@@ -11147,6 +11284,7 @@
   "9a2775e735517ca6": 1792214814.7143471,
   "9a4201be560c400a": 1791927011.6610913,
   "9a75aafc0f232f11": 1792476087.84949,
+  "9a8ccc1d408f5223": 1792591811.332953,
   "9a8f449a898fcbdc": 1792524678.2088284,
   "9a945af4bff676bc": 1791920890.789667,
   "9a9c024dd9d7c1db": 1791668526.060194,
@@ -11157,6 +11295,7 @@
   "9b75bda91938b76c": 1792270357.9727077,
   "9b780e5528de913d": 1792303996.3334577,
   "9b9edd7c62351c0d": 1792295985.1784513,
+  "9bc4d77288e9c779": 1792591673.9519217,
   "9beba2f45275f9b8": 1791993814.5171423,
   "9bfabaffab4b0656": 1792177262.6651225,
   "9c241fb43bc9a659": 1792306004.5138032,
@@ -11204,6 +11343,7 @@
   "a204004c0897567b": 1791968053.915055,
   "a205c4a8bea45ab0": 1791831091.1301608,
   "a2429860abce8344": 1792539076.0421798,
+  "a2c71b3da08d95a2": 1792591941.3010178,
   "a2c7e06b234aca03": 1792517500.7421837,
   "a2d8974671876099": 1791722108.479963,
   "a2ef6ea957becf44": 1792450874.1390004,
@@ -11239,6 +11379,7 @@
   "a7b84aad4e6bf325": 1792369873.4625132,
   "a7ca3ae05ecff0b5": 1791807598.968649,
   "a7d246ffd514005f": 1792445516.6131728,
+  "a7eb155588015caf": 1792591722.3165183,
   "a7ec03701c781d4d": 1792315853.5872138,
   "a7f12e04f6e2cf80": 1792422118.9824584,
   "a8275034ff2d03c1": 1792447279.7576919,
@@ -11290,6 +11431,7 @@
   "ae8ecf2b0cdd7003": 1792503157.3464046,
   "aec7254dcf7ebc9d": 1792442068.116315,
   "af13b6dfa352991d": 1791978102.867421,
+  "afa0b1545defcdb0": 1792591361.3473911,
   "afb4b05f60f14d44": 1792409500.9461327,
   "afbee01961fffc23": 1792522970.0585065,
   "afe8e232682985ba": 1792333881.6495104,
@@ -11436,6 +11578,7 @@
   "c101ff17b0b0de30": 1792342924.1173863,
   "c120ab6576280753": 1792273188.0111985,
   "c16c248c71f1a6ba": 1792569866.3357172,
+  "c1887e7be2ea4603": 1792591561.538277,
   "c1d43043f66a2259": 1792519324.4675744,
   "c1e1e0489dd53b3a": 1792470687.448156,
   "c1e9a586cbd37999": 1791786711.99249,
@@ -11479,6 +11622,7 @@
   "c80fae5a3d5d5618": 1792344696.8477082,
   "c829d53b78c2cb2e": 1792129235.1668394,
   "c831e09b0db68098": 1792504888.5835893,
+  "c84bd13d4104221c": 1792591312.8990512,
   "c856b76fae1171f0": 1791931692.6448107,
   "c86221ed198781c5": 1792494085.7583866,
   "c8ff64ca13fee1cb": 1792447318.1285148,
@@ -11658,6 +11802,7 @@
   "dea190316d6fd662": 1792097653.4247673,
   "deb49e644f9db522": 1792306060.2569096,
   "def68f8eceaa0c07": 1792416678.4091365,
+  "deff08e0d84eb5d3": 1792591910.059963,
   "df075eb833cb7277": 1792587712.0086825,
   "df10fafc5adf259e": 1792037205.594035,
   "df45908305c15494": 1792314073.1622975,
@@ -11712,6 +11857,7 @@
   "e573dbd69b744688": 1791837743.9242148,
   "e57f57b53e3012a8": 1792352398.0049508,
   "e5849c67009622fe": 1792487070.5405989,
+  "e5b4c115247de93f": 1792591456.214588,
   "e5cfc7f9ccb5d0a6": 1792373477.2572918,
   "e5d0adf173e1a77a": 1791931161.17929,
   "e5f6ff0a613279b7": 1792492252.585669,
@@ -11807,6 +11953,7 @@
   "f3046f95ab8c9ebe": 1792256269.0111341,
   "f315f67f0bb70e0f": 1791908389.9758453,
   "f31ed5800fd06d0b": 1792479932.8818657,
+  "f33fc0b1750a1b68": 1792591518.6114793,
   "f34c24127709c365": 1792395094.7771184,
   "f386aaa207a548e4": 1792056051.817171,
   "f3bbe55042bbb5ca": 1792264359.8041008,
@@ -11814,6 +11961,7 @@
   "f422a85335288d74": 1792490524.5622618,
   "f4ab916a786fb5c3": 1792589587.1052966,
   "f4b713ab968624a2": 1791932425.5200398,
+  "f4b88e1b098a2ae7": 1792591855.6388552,
   "f4bd4a80bb19dbf1": 1792071063.7644897,
   "f4daf4b4f2d75cc9": 1792074069.9702458,
   "f4e4e4e20ab664a3": 1792436456.6644757,
@@ -12355,9 +12503,9 @@
    "6jdXkhI59ngreTw9GwoKNv",
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
-  "artists_checked": 1792505131.9465873,
+  "artists_checked": 1792591962.3066845,
   "blocked_until": 1792591591.7586727,
-  "cursor": 279,
+  "cursor": 289,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
     "0CVnhwtOpdoIkOatkGcVwO",
@@ -13090,7 +13238,7 @@
    "/Film": 14,
    "Bloomberg": 2,
    "Deadline": 3,
-   "GamesIndustry.biz": 1,
+   "GamesIndustry.biz": 2,
    "Insider Gaming": 13,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
@@ -13100,17 +13248,17 @@
   "sources": {
    "/Film": 20,
    "AIN.ua": 4,
-   "Blabbermouth": 34,
+   "Blabbermouth": 35,
    "Bloomberg": 26,
    "DOU": 2,
    "DOU Gamedev": 3,
-   "Deadline": 37,
+   "Deadline": 38,
    "Decibel": 6,
    "Digital Foundry": 3,
    "Distorted Sound": 10,
    "Eurogamer": 21,
    "GameSpot": 20,
-   "GamesIndustry.biz": 11,
+   "GamesIndustry.biz": 12,
    "GitHub Trending": 14,
    "Hugging Face": 3,
    "IGN": 37,
@@ -13118,8 +13266,8 @@
    "IndieWire": 11,
    "Insider Gaming": 45,
    "Kerrang!": 14,
-   "Lambgoat": 22,
-   "Loudwire": 11,
+   "Lambgoat": 25,
+   "Loudwire": 13,
    "Metal Hammer (Louder)": 15,
    "Metal Injection": 5,
    "MetalSucks": 1,
@@ -13133,15 +13281,15 @@
    "Rock Paper Shotgun": 20,
    "SteamDB": 1,
    "Stereogum": 6,
-   "The Decoder": 13,
+   "The Decoder": 14,
    "ThePRP": 20,
-   "VGC": 17,
+   "VGC": 18,
    "Variety": 12
   },
   "translators": {
    "DeepL": 15,
-   "gemini-flash-latest": 66,
-   "gemini-flash-lite-latest": 547
+   "gemini-flash-latest": 68,
+   "gemini-flash-lite-latest": 560
   },
   "week": "2026-W43"
  },
@@ -13546,6 +13694,16 @@
    "",
    1792514032.9231617
   ],
+  "q:15 year": [
+   0,
+   "",
+   1792591299.1573186
+  ],
+  "q:15 year absence": [
+   0,
+   "",
+   1792591298.6513038
+  ],
   "q:16": [
    4655470,
    "16叠谋杀之谜",
@@ -13756,6 +13914,16 @@
    "",
    1792503162.9884896
   ],
+  "q:200": [
+   0,
+   "",
+   1792591409.6431646
+  ],
+  "q:200 and 1": [
+   0,
+   "",
+   1792591409.1186552
+  ],
   "q:2025": [
    0,
    "",
@@ -13790,6 +13958,11 @@
    0,
    "",
    1792447325.1666317
+  ],
+  "q:2029": [
+   0,
+   "",
+   1792591365.9029026
   ],
   "q:2049": [
    0,
@@ -13970,11 +14143,6 @@
    0,
    "",
    1792512231.8995016
-  ],
-  "q:40": [
-   0,
-   "",
-   1792416693.691074
   ],
   "q:40k": [
    0,
@@ -14166,10 +14334,10 @@
    "Abiotic Factor",
    1792496071.0246787
   ],
-  "q:access": [
-   0,
-   "",
-   1792416724.2986324
+  "q:absence": [
+   440470,
+   "Absence",
+   1792591299.6776512
   ],
   "q:achievement": [
    0,
@@ -14215,6 +14383,16 @@
    0,
    "",
    1792490520.4231386
+  ],
+  "q:after 15 year": [
+   0,
+   "",
+   1792591298.146671
+  ],
+  "q:after 15 year absence": [
+   0,
+   "",
+   1792591297.6271985
   ],
   "q:after more than 100": [
    0,
@@ -14700,26 +14878,6 @@
    3743140,
    "Battleplan",
    1791815079.4738243
-  ],
-  "q:beast": [
-   0,
-   "",
-   1792416797.0268323
-  ],
-  "q:beast teases": [
-   0,
-   "",
-   1792416796.495264
-  ],
-  "q:beast teases a huge": [
-   0,
-   "",
-   1792416794.0386786
-  ],
-  "q:beast teases a huge call": [
-   0,
-   "",
-   1792416793.5423157
   ],
   "q:before dark": [
    1440370,
@@ -15301,11 +15459,6 @@
    "",
    1792494226.3112435
   ],
-  "q:chill": [
-   0,
-   "",
-   1792416685.4645143
-  ],
   "q:chinese duelist who": [
    0,
    "",
@@ -15476,6 +15629,11 @@
    "",
    1792519355.7887814
   ],
+  "q:coming": [
+   0,
+   "",
+   1792591365.3995013
+  ],
   "q:company": [
    0,
    "",
@@ -15560,11 +15718,6 @@
    0,
    "",
    1792447292.47942
-  ],
-  "q:console platforms": [
-   0,
-   "",
-   1792416724.8299303
   ],
   "q:control": [
    870780,
@@ -16010,16 +16163,6 @@
    0,
    "",
    1792468886.558177
-  ],
-  "q:date": [
-   0,
-   "",
-   1792416722.7181168
-  ],
-  "q:date times": [
-   0,
-   "",
-   1792416722.2028458
   ],
   "q:david": [
    346180,
@@ -16471,6 +16614,26 @@
    "",
    1792494091.0331347
   ],
+  "q:ea is": [
+   0,
+   "",
+   1792591301.7990832
+  ],
+  "q:ea is bringing": [
+   0,
+   "",
+   1792591301.258344
+  ],
+  "q:ea is bringing back": [
+   0,
+   "",
+   1792591300.7484357
+  ],
+  "q:ea is bringing back the fight": [
+   0,
+   "",
+   1792591300.1870053
+  ],
   "q:ea sports": [
    0,
    "",
@@ -16515,11 +16678,6 @@
    0,
    "",
    1792530084.7112818
-  ],
-  "q:early": [
-   0,
-   "",
-   1792416723.7459178
   ],
   "q:early access 2 0": [
    0,
@@ -16715,11 +16873,6 @@
    2087540,
    "Escape from Playtime",
    1792416719.6830463
-  ],
-  "q:escape from playtime faq": [
-   0,
-   "",
-   1792416719.1954594
   ],
   "q:escape the backrooms": [
    1943950,
@@ -16961,11 +17114,6 @@
    "",
    1792580486.7919457
   ],
-  "q:faq": [
-   0,
-   "",
-   1792416720.1752982
-  ],
   "q:fc and pok": [
    0,
    "",
@@ -17201,6 +17349,11 @@
    "",
    1792555300.3390217
   ],
+  "q:follow": [
+   0,
+   "",
+   1792591367.9278655
+  ],
   "q:following": [
    0,
    "",
@@ -17215,6 +17368,16 @@
    4530370,
    "Football Manager 27",
    1792582294.5667868
+  ],
+  "q:football manager 27 gets": [
+   0,
+   "",
+   1792591564.0303767
+  ],
+  "q:football manager 27 gets a free": [
+   0,
+   "",
+   1792591563.5338314
   ],
   "q:force behind these star wars": [
    0,
@@ -17390,6 +17553,26 @@
    0,
    "",
    1792479937.320478
+  ],
+  "q:free play": [
+   0,
+   "",
+   1792591568.1381893
+  ],
+  "q:free play period": [
+   0,
+   "",
+   1792591567.5903246
+  ],
+  "q:free play period ahead": [
+   0,
+   "",
+   1792591567.0936491
+  ],
+  "q:free play period ahead of release": [
+   0,
+   "",
+   1792591566.5668075
   ],
   "q:free seasonal": [
    0,
@@ -17675,6 +17858,26 @@
    0,
    "",
    1792427646.0378263
+  ],
+  "q:gets a free": [
+   0,
+   "",
+   1792591566.03157
+  ],
+  "q:gets a free play": [
+   0,
+   "",
+   1792591565.5357306
+  ],
+  "q:gets a free play period": [
+   0,
+   "",
+   1792591565.020914
+  ],
+  "q:gets a free play period ahead": [
+   0,
+   "",
+   1792591564.5281305
   ],
   "q:gets boss": [
    0,
@@ -17981,11 +18184,6 @@
    "",
    1792582310.6594656
   ],
-  "q:has": [
-   0,
-   "",
-   1792416688.0497954
-  ],
   "q:has a big ai problem": [
    0,
    "",
@@ -17995,16 +18193,6 @@
    0,
    "",
    1792432889.051096
-  ],
-  "q:has a release": [
-   0,
-   "",
-   1792416687.5401587
-  ],
-  "q:has a release date": [
-   0,
-   "",
-   1792416687.0491421
   ],
   "q:has already made over": [
    0,
@@ -18030,11 +18218,6 @@
    0,
    "",
    1792497692.640345
-  ],
-  "q:haystack": [
-   0,
-   "",
-   1792416715.3605537
   ],
   "q:helix": [
    0,
@@ -18370,6 +18553,21 @@
    0,
    "",
    1792503098.1644895
+  ],
+  "q:is bringing back": [
+   0,
+   "",
+   1792591303.3144495
+  ],
+  "q:is bringing back the fight": [
+   0,
+   "",
+   1792591302.7846363
+  ],
+  "q:is bringing back the fight night": [
+   0,
+   "",
+   1792591302.292446
   ],
   "q:is call": [
    0,
@@ -19051,6 +19249,16 @@
    "",
    1792589571.6463456
   ],
+  "q:london store": [
+   0,
+   "",
+   1792591363.8353224
+  ],
+  "q:london store coming": [
+   0,
+   "",
+   1792591363.3414986
+  ],
   "q:long dormant": [
    0,
    "",
@@ -19140,16 +19348,6 @@
    0,
    "",
    1792436488.1752386
-  ],
-  "q:lucasfilm": [
-   0,
-   "",
-   1792416699.1490583
-  ],
-  "q:lucasfilm games": [
-   0,
-   "",
-   1792416698.581257
   ],
   "q:lucasfilms": [
    0,
@@ -19546,6 +19744,11 @@
    "",
    1792524130.8275185
   ],
+  "q:more to follow": [
+   0,
+   "",
+   1792591367.4028926
+  ],
   "q:mortal shell 2": [
    2584270,
    "Mortal Shell II",
@@ -19575,26 +19778,6 @@
    0,
    "",
    1792514030.185082
-  ],
-  "q:mr beast": [
-   0,
-   "",
-   1792416793.0515096
-  ],
-  "q:mr beast teases": [
-   0,
-   "",
-   1792416792.5652113
-  ],
-  "q:mr beast teases a huge": [
-   0,
-   "",
-   1792416792.075917
-  ],
-  "q:mr beast teases a huge call": [
-   0,
-   "",
-   1792416791.581964
   ],
   "q:msi": [
    0,
@@ -19645,16 +19828,6 @@
    0,
    "",
    1792442054.056315
-  ],
-  "q:needle": [
-   0,
-   "",
-   1792416714.7757509
-  ],
-  "q:needle in haystack": [
-   0,
-   "",
-   1792416714.2752702
   ],
   "q:netease": [
    0,
@@ -19995,21 +20168,6 @@
    0,
    "",
    1792582309.5616279
-  ],
-  "q:oblivion": [
-   0,
-   "",
-   1792416692.6801038
-  ],
-  "q:oblivion remastered": [
-   0,
-   "",
-   1792416692.12362
-  ],
-  "q:oblivion remastered 40": [
-   0,
-   "",
-   1792416691.618475
   ],
   "q:obsession": [
    0,
@@ -20486,6 +20644,16 @@
    "",
    1792584063.7123442
   ],
+  "q:play period ahead": [
+   0,
+   "",
+   1792591569.162877
+  ],
+  "q:play period ahead of release": [
+   0,
+   "",
+   1792591568.6654975
+  ],
   "q:players": [
    0,
    "",
@@ -20725,6 +20893,11 @@
    0,
    "",
    1792514080.8228583
+  ],
+  "q:project helix": [
+   0,
+   "",
+   1792591408.6253307
   ],
   "q:projekt": [
    759000,
@@ -21066,21 +21239,6 @@
    "",
    1792557079.7532773
   ],
-  "q:release": [
-   0,
-   "",
-   1792416721.713724
-  ],
-  "q:release date": [
-   0,
-   "",
-   1792416721.2095942
-  ],
-  "q:release date times": [
-   0,
-   "",
-   1792416720.7227035
-  ],
   "q:release finally": [
    0,
    "",
@@ -21135,11 +21293,6 @@
    0,
    "",
    1792549908.5075197
-  ],
-  "q:remastered 40": [
-   0,
-   "",
-   1792416693.183675
   ],
   "q:remastered officially": [
    0,
@@ -21575,16 +21728,6 @@
    0,
    "",
    1792582300.6311982
-  ],
-  "q:sci fi": [
-   0,
-   "",
-   1792416686.5529916
-  ],
-  "q:sci fi game": [
-   0,
-   "",
-   1792416686.009634
   ],
   "q:season 2": [
    0,
@@ -22026,10 +22169,25 @@
    "",
    1792515825.2116573
   ],
+  "q:store": [
+   0,
+   "",
+   1792591364.8502412
+  ],
+  "q:store coming": [
+   0,
+   "",
+   1792591364.334927
+  ],
   "q:strange": [
    0,
    "",
    1792530144.788099
+  ],
+  "q:stranger than heaven": [
+   4260840,
+   "STRANGER THAN HEAVEN",
+   1792591722.8387933
   ],
   "q:street fighter 6": [
    1364780,
@@ -22271,26 +22429,6 @@
    "",
    1792447323.66535
   ],
-  "q:teases": [
-   0,
-   "",
-   1792416798.9867983
-  ],
-  "q:teases a huge": [
-   0,
-   "",
-   1792416798.5000508
-  ],
-  "q:teases a huge call": [
-   0,
-   "",
-   1792416798.0049715
-  ],
-  "q:teases a huge call of duty": [
-   0,
-   "",
-   1792416797.5141726
-  ],
   "q:tech was prototyped as early as": [
    0,
    "",
@@ -22475,11 +22613,6 @@
    0,
    "",
    1792519330.5204942
-  ],
-  "q:times": [
-   0,
-   "",
-   1792416723.2345006
   ],
   "q:tone": [
    3224410,
@@ -23096,6 +23229,16 @@
    "",
    1792429281.7124999
   ],
+  "q:with more": [
+   0,
+   "",
+   1792591366.9118564
+  ],
+  "q:with more to follow": [
+   0,
+   "",
+   1792591366.397535
+  ],
   "q:with multiple studios": [
    0,
    "",
@@ -23350,23 +23493,24 @@
  "tag_hints": {
   "Mezha": [
    "apple",
+   "chatgpt",
    "dot-chain defence",
+   "fire point",
    "game pass",
    "grand theft auto vi",
    "gta 6",
    "iphone duo",
-   "mac",
+   "justwatch",
+   "justwatch tv",
+   "nvidia",
    "openai",
-   "perplexity",
    "rockstar games",
-   "spotify",
    "xbox",
-   "youtube",
    "авіація",
    "аоз",
    "бпла",
    "бізнес",
-   "дата-центри",
+   "данія",
    "дрони",
    "компоненти зброї",
    "літаки",
@@ -23374,62 +23518,18 @@
    "новини",
    "оборонка",
    "оборонні закупівлі",
+   "опк",
+   "платформи",
+   "ракети",
    "смартфони",
-   "софт",
    "стримінгові сервіси",
    "технології",
    "україна",
-   "штучний інтелект",
-   "ші-агенти",
-   "ігри",
-   "інтернет"
+   "українська зброя",
+   "ігри"
   ]
  },
  "titles": [
-  [
-   1792416820.663878,
-   "Mr. Beast Teases A Huge Call Of Duty Video Focused On DMZ With Real-Life Content Creators"
-  ],
-  [
-   1792418545.6203713,
-   "Unreleased Ozzy Songs Are For 'Specific Reason,' Producer Says"
-  ],
-  [
-   1792418573.216726,
-   "Is Call of Duty: Modern Warfare 4 Really the End of the Rebooted Modern Warfare Story? Infinity Ward Responds"
-  ],
-  [
-   1792418575.2481315,
-   "Новий лаунчер Xodus Nexus вирішує одну з ключових проблем Steam Deck"
-  ],
-  [
-   1792418602.6873636,
-   "One of the biggest game decompilation sites is closing because AI has ‘broken the community aspect’"
-  ],
-  [
-   1792418606.2957075,
-   "GTA 6 матиме сотні інтер’єрів для дослідження: Rockstar розкрила нові деталі"
-  ],
-  [
-   1792418609.5736096,
-   "Watch: SLIPKNOT's COREY TAYLOR Covers KISS, OZZY OSBOURNE, JUDAS PRIEST, NIGHT RANGER At Intimate Las Vegas Solo Show"
-  ],
-  [
-   1792418614.791414,
-   "The Witcher: Legacy вийде влітку 2027 року — що відомо про нову настільну гру"
-  ],
-  [
-   1792418623.9499166,
-   "Saros 2.0 Zenith Update Adds New Game+, Overlord Rush, and More Trophies"
-  ],
-  [
-   1792418627.8255231,
-   "Топ-20 українських ігрових компаній отримали 2,6 млрд грн доходу у 2025 році"
-  ],
-  [
-   1792418638.9919796,
-   "PS5 \"bullet ballet\" game Saros gets a big update to make it both easier and harder"
-  ],
   [
    1792420313.5076091,
    "Motley Crue Book 'Carnival of Sins' Las Vegas Residency for 2027"
@@ -25357,53 +25457,49 @@
   [
    1792589587.1052992,
    "A permanent Pokémon retail store is coming to London, the first of several planned to open outside Asia"
+  ],
+  [
+   1792591295.5011244,
+   "LACUNA COIL Releases Double Single, 'Fragile XX' And 'I Wish You Were Dead' (SWARM Remix), To Celebrate 20th Anniversary Of 'Karmacode'"
+  ],
+  [
+   1792591361.347393,
+   "The Most + Least Played Song Off All 17 Megadeth Albums"
+  ],
+  [
+   1792591456.2145898,
+   "Project Helix reportedly launching in late 2028, projected to cost between $1,200 and $1,800"
+  ],
+  [
+   1792591518.6114805,
+   "Nvidia's DSX POD could cut AI data center setup from six months to as little as 14 days"
+  ],
+  [
+   1792591561.538278,
+   "Rehearsal Photos Reveal Aerosmith Drummer for Los Angeles Shows"
+  ],
+  [
+   1792591673.9519234,
+   "Roku Streamer Howdy Buys ‘The Walsh Sisters’"
+  ],
+  [
+   1792591772.0759182,
+   "There are a lot of things to like about Stranger Than Heaven, but its multi-person combat isn’t one"
+  ],
+  [
+   1792591811.3329551,
+   "Northlane debut new single \"Deathwish\" along with visualizer"
+  ],
+  [
+   1792591855.6388566,
+   "Our Last Night un-retire from touring and announce \"The Covers Only Tour\" Part II"
+  ],
+  [
+   1792591941.3010204,
+   "The Bunny The Bear call out Ohio-based promotor over lack of payment"
   ]
  ],
  "titles_uk": [
-  [
-   1792416820.6638787,
-   "Містер Біст затизерив масштабне відео за Call of Duty"
-  ],
-  [
-   1792418545.6203723,
-   "Продюсер Ozzy Osbourne розповів про невипущені пісні"
-  ],
-  [
-   1792418573.216727,
-   "Infinity Ward відповіла, чи стане Call of Duty: Modern Warfare 4 фіналом історії"
-  ],
-  [
-   1792418575.2481325,
-   "Новий лаунчер Xodus Nexus вирішує одну з ключових проблем Steam Deck"
-  ],
-  [
-   1792418602.687364,
-   "Сайт Decomp.dev закривається через вплив ШІ на спільноту"
-  ],
-  [
-   1792418606.295708,
-   "GTA 6 матиме сотні інтер’єрів для дослідження: Rockstar розкрила нові деталі"
-  ],
-  [
-   1792418609.57361,
-   "Корі Тейлор виконав кавери на KISS, Ozzy Osbourne та JUDAS PRIEST на соло-шоу в Лас-Вегасі"
-  ],
-  [
-   1792418614.7914145,
-   "The Witcher: Legacy вийде влітку 2027 року — що відомо про нову настільну гру"
-  ],
-  [
-   1792418623.9499176,
-   "Для Saros вийшло масивне оновлення 2.0 Zenith із режимом New Game+"
-  ],
-  [
-   1792418627.8255239,
-   "Топ-20 українських ігрових компаній отримали 2,6 млрд грн доходу у 2025 році"
-  ],
-  [
-   1792418638.99198,
-   "Шутер Saros для PS5 отримав масштабне оновлення Zenith"
-  ],
   [
    1792420313.5076098,
    "Motley Crue анонсували резиденцію у Лас-Вегасі на 2027 рік"
@@ -27331,6 +27427,46 @@
   [
    1792589587.1053002,
    "У Лондоні відкриється перший постійний магазин Pokémon за межами Азії"
+  ],
+  [
+   1792591295.5011253,
+   "LACUNA COIL випустили подвійний сингл на честь 20-річчя альбому Karmacode"
+  ],
+  [
+   1792591361.347394,
+   "Статистика найпопулярніших і найрідкісніших живих виконань пісень з усіх 17 альбомів Megadeth"
+  ],
+  [
+   1792591456.2145908,
+   "Вихід Project Helix заплановано на кінець 2028 року за ціною до $1800"
+  ],
+  [
+   1792591518.6114814,
+   "Nvidia представила модульні дата-центри DSX POD для швидкого розгортання ШІ"
+  ],
+  [
+   1792591561.5382786,
+   "Учасник Aerosmith Джої Крамер повернеться за барабани на концертах у Лос-Анджелесі"
+  ],
+  [
+   1792591673.9519243,
+   "Стрімінговий сервіс Howdy придбав права на серіал The Walsh Sisters"
+  ],
+  [
+   1792591772.0759192,
+   "Проблеми бойової системи та інші деталі Stranger Than Heaven"
+  ],
+  [
+   1792591811.3329558,
+   "Northlane випустили новий сингл \"Deathwish\""
+  ],
+  [
+   1792591855.6388574,
+   "Our Last Night скасовують завершення гастролей і їдуть у тур"
+  ],
+  [
+   1792591941.301021,
+   "The Bunny The Bear публічно звинуватили промоутера в невиплаті гонорарів"
   ]
  ],
  "ukrainian": {
@@ -27728,8 +27864,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1792568249.9796898,
-  "with_uk": 98
+  "last_check": 1792591959.437677,
+  "with_uk": 71
  },
  "weekly_releases_week": "2026-W43",
  "wishlist": {
@@ -29548,7 +29684,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792587752.813329,
+  "last_check": 1792591951.5192997,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
