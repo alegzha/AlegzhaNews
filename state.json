@@ -1,16 +1,10 @@
 {
  "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
+  "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
+   "detail": "https://www.kerrang.com/feed.rss → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Kerrang!» не працює",
    "sent": 0,
-   "since": 1792566068.5241594
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1792566067.3885899
+   "since": 1792567873.9496448
   }
  },
  "daily_digest_date": "2026-10-20",
@@ -24,12 +18,16 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-21 07:07 UTC",
+  "at": "2026-10-21 07:37 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": null,
-  "gemini_models_used": {},
+  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_models_used": {
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 1
+  },
   "used": [
-   "DeepL"
+   "DeepL",
+   "Gemini"
   ]
  },
  "post_log": [
@@ -7819,7 +7817,6 @@
    "Pitchfork",
    {
     "also": [],
-    "caption": "🤘 <b>Lil Baby анонсував новий альбом Fresh за участі Future та Young Thug</b>\n\nРепер Lil Baby анонсував вихід нового альбому Fresh на 6 листопада через Quality Control і Motown. До треклисту увійшли фіти з Future, Young Thug, Rylo Rodriguez, Bally Baby та Fatt Smaxx, а також раніше випущені сингли «Dead Fresh» і «Coast 2 Coast».\n\n🔗 <a href=\"https://pitchfork.com/story/lil-baby-recruits-future-young-thug-for-new-album-fresh/\">Pitchfork</a>\n\n#музика",
     "kind": "photo",
     "link": "https://pitchfork.com/story/lil-baby-recruits-future-young-thug-for-new-album-fresh/",
     "orig": "Lil Baby Recruits Future, Young Thug for New Album Fresh"
@@ -7833,7 +7830,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Людвіг розкритикував Riot Games через відмову Shopify Rebellion у партнерстві VCT</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/263120/\">Ludwig</a>\n\nСтрімер і співвласник Shopify Rebellion Людвіг Агрен розкритикував Riot Games після того, як їхню заявку на партнерство у VCT відхилили. Організація розглядає можливість повністю залишити Valorant через фінансову прірву між партнерськими та непартнерськими командами в новому форматі кіберспорту. Позицію підтримав і засновник M80 Марко Мереу, чию заявку також відхилили.\n\n🔗 <a href=\"https://insider-gaming.com/ludwig-blasts-riot-over-shopify-rebellion-vct-partnership/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/ludwig-blasts-riot-over-shopify-rebellion-vct-partnership/",
     "orig": "Ludwig Blasts Riot After Shopify Rebellion Misses Out on VCT Partnership"
@@ -8664,6 +8660,34 @@
     "link": "https://github.com/Graphify-Labs/graphify",
     "orig": "Graphify-Labs/graphify"
    }
+  ],
+  [
+   1792568135.1779208,
+   1589,
+   "💾",
+   "Домашні улюбленці-агенти",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>Домашні улюбленці-агенти</b>\n\nШІ-агенти для кодингу як віртуальні улюбленці на кожній сторінці в Chrome\n\n🔗 <a href=\"https://www.producthunt.com/products/agent-pets\">Product Hunt</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/agent-pets",
+    "orig": "Agent Pets"
+   }
+  ],
+  [
+   1792568231.67453,
+   1590,
+   "💾",
+   "msitarzewski/agency-agents",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>msitarzewski/agency-agents</b>\n\nПовноцінна агенція з ШІ у вас під рукою: від фронтенд-майстрів до реддіт-ніндзя та фактчекерів. Кожен агент має власну експертизу, характер і процеси для оптимізації вашого робочого потоку.\n\n🔗 <a href=\"https://github.com/msitarzewski/agency-agents\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/msitarzewski/agency-agents",
+    "orig": "msitarzewski/agency-agents"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9039,7 +9063,8 @@
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
    1792562496.5704088,
    1792564650.3136039,
-   1792566437.5361173
+   1792566437.5361173,
+   1792568231.674869
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1792499489.1538787,
@@ -9056,11 +9081,11 @@
    1792506276.6888046
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
-   1792402496.602654,
    1792483298.1305842,
    1792485103.0950973,
    1792485650.4836898,
-   1792488739.3496778
+   1792488739.3496778,
+   1792568135.1782486
   ]
  },
  "seen": {
@@ -9844,6 +9869,7 @@
   "66ecd44e663b535e": 1791638208.3614297,
   "66fd82dd8fdaadf3": 1792508557.0534446,
   "67059a0977cd5f55": 1792418614.7914126,
+  "67234a4748773f05": 1792568135.1782036,
   "67454ee8258841c8": 1791989306.295439,
   "67577eb308badc88": 1792081038.4438145,
   "675ee406ee860756": 1791969568.4112535,
@@ -10854,6 +10880,7 @@
   "ebcc57480d897847": 1792326680.0492878,
   "ec008a2958c5f84e": 1792129002.7199416,
   "ec59fb0ebcbee113": 1792499497.5732076,
+  "ec643c90aca4ac8d": 1792568231.6748254,
   "ec6655200659647a": 1792080927.3791754,
   "ec95890aa7ab166c": 1792128993.9627583,
   "ec9fc656bf30cb2e": 1791724891.5229225,
@@ -12193,7 +12220,7 @@
    "Eurogamer": 16,
    "GameSpot": 19,
    "GamesIndustry.biz": 9,
-   "GitHub Trending": 9,
+   "GitHub Trending": 10,
    "Hugging Face": 2,
    "IGN": 35,
    "ITC.ua": 27,
@@ -12210,7 +12237,7 @@
    "Pitchfork": 4,
    "PlayUA": 14,
    "Polygon": 19,
-   "Product Hunt": 9,
+   "Product Hunt": 10,
    "Revolver": 2,
    "Rock Paper Shotgun": 17,
    "SteamDB": 1,
@@ -12221,9 +12248,9 @@
    "Variety": 12
   },
   "translators": {
-   "DeepL": 11,
-   "gemini-flash-latest": 63,
-   "gemini-flash-lite-latest": 495
+   "DeepL": 12,
+   "gemini-flash-latest": 64,
+   "gemini-flash-lite-latest": 496
   },
   "week": "2026-W43"
  },
@@ -22519,22 +22546,21 @@
    "amd",
    "chatgpt",
    "dlss 5",
-   "dram",
    "galaxy s27",
+   "lockheed martin",
    "openai",
-   "quantum systems",
    "spacex",
-   "безпілотники",
+   "tesla",
+   "армія сша",
    "бізнес",
    "відеокарти",
-   "дрон",
+   "військова техніка",
    "китай",
    "кібербезпека",
    "маркетплейс",
    "новини",
-   "німеччина",
    "оборонка",
-   "оперативна пам'ять",
+   "ракети",
    "смартфони",
    "софт",
    "сша",
@@ -22546,14 +22572,6 @@
   ]
  },
  "titles": [
-  [
-   1792395090.88843,
-   "croft"
-  ],
-  [
-   1792395094.7771206,
-   "Comfy-Org/ComfyUI"
-  ],
   [
    1792396888.8112414,
    "Figma Specs"
@@ -24597,17 +24615,17 @@
   [
    1792566437.536071,
    "Graphify-Labs/graphify"
+  ],
+  [
+   1792568135.1782053,
+   "Agent Pets"
+  ],
+  [
+   1792568231.6748273,
+   "msitarzewski/agency-agents"
   ]
  ],
  "titles_uk": [
-  [
-   1792395090.8884308,
-   "Представлено croft"
-  ],
-  [
-   1792395094.7771213,
-   "Огляд можливостей та встановлення ComfyUI"
-  ],
   [
    1792396888.8112423,
    "Figma Specs"
@@ -26651,6 +26669,14 @@
   [
    1792566437.5360723,
    "Graphify-Labs/graphify"
+  ],
+  [
+   1792568135.178206,
+   "Домашні улюбленці-агенти"
+  ],
+  [
+   1792568231.674828,
+   "msitarzewski/agency-agents"
   ]
  ],
  "ukrainian": {
@@ -26692,6 +26718,8 @@
    "1252330": "",
    "1268750": "",
    "1282730": "",
+   "1286830": "",
+   "1289670": "",
    "1297900": "",
    "1299290": "",
    "1304930": "",
@@ -27046,7 +27074,7 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1792546334.1916711,
+  "last_check": 1792568249.9796898,
   "with_uk": 98
  },
  "weekly_releases_week": "2026-W43",
@@ -28866,7 +28894,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792564659.1729703,
+  "last_check": 1792568240.3977265,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
