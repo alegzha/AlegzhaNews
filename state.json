@@ -5,6 +5,12 @@
    "label": "Джерело «Kerrang!» не працює",
    "sent": 0,
    "since": 1792567873.9496448
+  },
+  "src:software|AIN.ua|https://ain.ua/feed/": {
+   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «AIN.ua» не працює",
+   "sent": 0,
+   "since": 1792587708.515216
   }
  },
  "daily_digest_date": "2026-10-20",
@@ -18,11 +24,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-21 12:32 UTC",
+  "at": "2026-10-21 13:02 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 6
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
@@ -8517,7 +8523,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "💾 <b>Chrome тепер стежить за вашим буфером обміну — заради безпеки</b>\n\nКомпанія Google посилила режим Enhanced Protection у Chrome. Тепер браузер перевіряє скопійовані команди на шкідливість, розрізняє «підозрілі» й «небезпечні» сайти та використовує Gemini для виявлення шахрайських сторінок.\n\n🔗 <a href=\"https://highload.tech/uk/chrome-teper-stezhyt-za-vashym-buferom-obminu-zarady-bezpeky/#new_tab\">ITC.ua</a>\n\n#софт",
     "kind": "photo",
     "link": "https://highload.tech/uk/chrome-teper-stezhyt-za-vashym-buferom-obminu-zarady-bezpeky/#new_tab",
     "orig": "Chrome тепер стежить за вашим буфером обміну — заради безпеки"
@@ -8531,7 +8536,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Cloudflare випустила open-source скіл security-audit-skill для ШІ-агентів</b>\n\nCloudflare випустила скіл security-audit-skill, який перетворює ШІ-агент на аудитора безпеки. Інструмент автоматизує розвідку, пошук вразливостей, валідацію та звітність на основі напрацювань компанії.\n\n🔗 <a href=\"https://github.com/cloudflare/security-audit-skill\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/cloudflare/security-audit-skill",
     "orig": "cloudflare/security-audit-skill"
@@ -8545,7 +8549,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Альбом «Nevermind» гурту Nirvana випередив «Back in Black» гурту AC/DC і став шостим за обсягом продажів альбомом усіх часів</b>\n\nЯкщо врахувати фізичні продажі, цифрові завантаження та потокове відтворення, альбом «Nevermind» також перевершив за обсягом продажів альбом «The Dark Side Of The Moon» гурту Pink Floyd\n\n🔗 <a href=\"https://www.loudersound.com/music/albums/nirvanas-nevermind-passes-acdcs-back-in-black-to-become-the-sixth-best-selling-album-of-all-time\">Metal Hammer (Louder)</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/music/albums/nirvanas-nevermind-passes-acdcs-back-in-black-to-become-the-sixth-best-selling-album-of-all-time",
     "orig": "Nirvana's Nevermind passes AC/DC's Back in Black to become the sixth best-selling album of all time"
@@ -9305,7 +9308,12 @@
    "Враження від кампаній у Warhammer 40,000: Dawn of War 4",
    "PC Gamer",
    {
-    "also": [],
+    "also": [
+     [
+      "IGN",
+      "https://www.ign.com/articles/warhammer-40000-dawn-of-war-4-detailed-impressions-of-the-necron-and-admech-factions-ign-preview"
+     ]
+    ],
     "caption": "🎮 <b>Враження від кампаній у Warhammer 40,000: Dawn of War 4</b>\n\nЖурналіст зіграв у дві кампанії Warhammer 40,000: Dawn of War 4 за orks та Adeptus Mechanicus, а також у пролог за Astra Militarum. Кампанія за орків пропонує швидкий найм армії, тактичну різноманітність та змагання між різними фракціями зеленошкірих на планеті Kronos.\n\n🔗 <a href=\"https://www.pcgamer.com/games/rts/ive-played-2-of-dawn-of-war-4s-campaigns-and-theyre-everything-i-hoped-theyd-be/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/rts/ive-played-2-of-dawn-of-war-4s-campaigns-and-theyre-everything-i-hoped-theyd-be/",
@@ -9366,6 +9374,48 @@
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/i-want-room-to-make-a-wrong-turn-following-samson-devs-bankruptcy-its-founder-is-considering-how-ai-might-factor-into-new-studio-plans",
     "orig": "\"I want room to make a wrong turn\": Following Samson dev's bankruptcy, its founder is considering how AI might factor into new studio plans"
+   }
+  ],
+  [
+   1792587736.1426008,
+   1643,
+   "🎮",
+   "CD Projekt Red підтвердила час дії другого сезону Cyberpunk: Edgerunners",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>CD <a href=\"https://store.steampowered.com/app/759000/\">Projekt</a> Red підтвердила час дії другого сезону Cyberpunk: Edgerunners</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/1091500/\">Cyberpunk 2077</a>\n\nЛормайстер CD Projekt Red Патрік Міллз повідомив, що другий сезон Cyberpunk: Edgerunners розгортається у 2078 році, невдовзі після подій Cyberpunk 2077. Це викликало обговорення серед фанатів щодо канонічних кінцівок гри, хоча студія не робить остаточного вибору щодо канону. Також для Cyberpunk 2077 анонсували тематичне оновлення з новими функціями.\n\n🔗 <a href=\"https://www.ign.com/articles/edgerunners-season-2-officially-set-after-cyberpunk-2077\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/edgerunners-season-2-officially-set-after-cyberpunk-2077",
+    "orig": "CD Projekt's Cyberpunk 2077 Loremaster Confirms Year Edgerunners 2 Is Set, Sparking Fan Speculation About Canon Endings"
+   }
+  ],
+  [
+   1792587738.2053359,
+   1644,
+   "💾",
+   "ШІ-агент Perplexity навчився працювати з файлами та застосунками Mac без хмари",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "💾 <b>ШІ-агент Perplexity навчився працювати з файлами та застосунками Mac без хмари</b>\n\nPerplexity Computer тепер може працювати на Mac повністю локально, без передавання особистих даних у хмару. ШІ-агент виконує багатоетапні завдання та працює з файлами й застосунками, але для цього рекомендують щонайменше 36 ГБ об’єднаної пам’яті.\n\n🔗 <a href=\"https://mezha.ua/news/perplexity-computer-local-mac-316382/\">Mezha</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/perplexity-computer-local-mac-316382/",
+    "orig": "ШІ-агент Perplexity навчився працювати з файлами та застосунками Mac без хмари"
+   }
+  ],
+  [
+   1792587744.2913704,
+   1645,
+   "🎮",
+   "Final Fantasy VII, Plants vs. Zombies та інші ігри поповнять Game Pass у другій половині 2026 року",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/3837340/\">Final Fantasy VII</a>, <a href=\"https://store.steampowered.com/app/3590/\">Plants vs. Zombies</a> та інші ігри поповнять Game Pass у другій половині 2026 року</b>\n\nMicrosoft анонсувала, що у другій половині жовтня 2026 року каталог Game Pass поповнять Final Fantasy VII Remake Intergrade, Plants vs. Zombies: Replanted та багато інших проєктів.\n\n🔗 <a href=\"https://mezha.ua/news/xbox-game-pass-2-wave-for-october-2026-316390/\">Mezha</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/xbox-game-pass-2-wave-for-october-2026-316390/",
+    "orig": "Final Fantasy VII, Plants vs. Zombies та інші ігри поповнять Game Pass у другій половині 2026 року"
    }
   ]
  ],
@@ -9445,8 +9495,6 @@
    1792584080.1470633
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1792494154.5406373,
-   1792497699.5537863,
    1792508524.8477921,
    1792512225.2018263,
    1792512260.0636241,
@@ -9463,7 +9511,8 @@
    1792530102.7109203,
    1792533701.765349,
    1792540674.5925674,
-   1792580496.4392855
+   1792580496.4392855,
+   1792587736.1430154
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1792490528.1089113,
@@ -9487,8 +9536,8 @@
    1792578710.1628153
   ],
   "games|Mezha|https://mezha.ua/feed/": [
-   1792445501.3890154,
-   1792526500.576059
+   1792526500.576059,
+   1792587744.2917686
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1792501328.1989686,
@@ -9741,12 +9790,12 @@
    1792578690.2444956
   ],
   "software|Mezha|https://mezha.ua/feed/": [
-   1792497724.7860544,
    1792503157.3464503,
    1792506276.6888046,
    1792571482.0619056,
    1792580498.5904481,
-   1792584090.1305695
+   1792584090.1305695,
+   1792587738.2057476
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1792568135.1782486,
@@ -10732,6 +10781,7 @@
   "77fc51074b92550a": 1792440153.3597417,
   "77fc727769a7c744": 1791908454.9692664,
   "780b67bcb6f93c7b": 1791643484.7724442,
+  "7831eb94b2f18030": 1792587736.1429682,
   "785336b3f4e329d2": 1791658399.4622397,
   "785677c6ad1cbc80": 1792440106.34015,
   "78584a7116610e1d": 1792526481.088126,
@@ -10883,6 +10933,7 @@
   "89f5d86d57cc5ad4": 1792346493.0826466,
   "89fd27044dfb9f16": 1792145460.4737692,
   "8a2d62111ed17e35": 1791879491.9222178,
+  "8a2f668f24474141": 1792587744.2917285,
   "8a468700b8bdfdc3": 1792582293.371245,
   "8a5344eb9c3acd8f": 1791668264.6511755,
   "8a6478d05040b8db": 1792364485.3837178,
@@ -11007,6 +11058,7 @@
   "9985b3d5b28d3bca": 1791769110.1612594,
   "99a81e8268b7c018": 1792402623.1871777,
   "99ae24e773f80392": 1792584051.8728995,
+  "99c6e528b3b1595b": 1792587720.0119188,
   "99de8e5cc0092b17": 1791837781.7497854,
   "9a1f8c66e0b1f6ad": 1792188131.1941612,
   "9a2775e735517ca6": 1792214814.7143471,
@@ -11119,6 +11171,7 @@
   "a9c2007f4b484a0a": 1792357292.7400453,
   "a9cf44cee6190480": 1792576886.3405383,
   "a9fa595b758184ec": 1792479930.7962537,
+  "a9fc257516e379d3": 1792587712.0099072,
   "aa4ee1a25d5a803e": 1792423970.2090604,
   "aa8b3353f1ab3776": 1792411276.7971036,
   "ab3c72718cf10051": 1792485671.8560324,
@@ -11383,6 +11436,7 @@
   "ce956a7434ded7fa": 1792306032.0278766,
   "cea20332e6820ff7": 1791931136.5823298,
   "ceb78379b07bfa49": 1792129242.8866131,
+  "cebf9dfcd0b3a5c6": 1792587738.2057018,
   "ced4faa30bf1c294": 1792573285.572637,
   "cf1a11167c99d636": 1792418638.991978,
   "cfacfd84268e1f2f": 1792508675.6725671,
@@ -11516,6 +11570,7 @@
   "dea190316d6fd662": 1792097653.4247673,
   "deb49e644f9db522": 1792306060.2569096,
   "def68f8eceaa0c07": 1792416678.4091365,
+  "df075eb833cb7277": 1792587712.0086825,
   "df10fafc5adf259e": 1792037205.594035,
   "df45908305c15494": 1792314073.1622975,
   "df489c10521cd2bd": 1791969598.8067908,
@@ -12969,7 +13024,7 @@
    "GamesIndustry.biz": 11,
    "GitHub Trending": 14,
    "Hugging Face": 3,
-   "IGN": 36,
+   "IGN": 37,
    "ITC.ua": 32,
    "IndieWire": 11,
    "Insider Gaming": 44,
@@ -12979,7 +13034,7 @@
    "Metal Hammer (Louder)": 15,
    "Metal Injection": 5,
    "MetalSucks": 1,
-   "Mezha": 28,
+   "Mezha": 30,
    "PC Gamer": 34,
    "Pitchfork": 4,
    "PlayUA": 17,
@@ -12997,7 +13052,7 @@
   "translators": {
    "DeepL": 15,
    "gemini-flash-latest": 65,
-   "gemini-flash-lite-latest": 541
+   "gemini-flash-lite-latest": 543
   },
   "week": "2026-W43"
  },
@@ -13257,6 +13312,21 @@
    "",
    1792582311.6924016
   ],
+  "q:000 dawn": [
+   0,
+   "",
+   1792587714.1767225
+  ],
+  "q:000 dawn of war": [
+   0,
+   "",
+   1792587713.6040673
+  ],
+  "q:000 dawn of war 4": [
+   0,
+   "",
+   1792587713.1227133
+  ],
   "q:007 first light": [
    3768760,
    "007 First Light",
@@ -13401,11 +13471,6 @@
    0,
    "",
    1792416683.190085
-  ],
-  "q:2": [
-   0,
-   "",
-   1792413140.2663906
   ],
   "q:2 0": [
    0,
@@ -13722,16 +13787,6 @@
    "",
    1792501318.3878393
   ],
-  "q:3 switch": [
-   0,
-   "",
-   1792413139.687113
-  ],
-  "q:3 switch 2": [
-   0,
-   "",
-   1792413139.1133423
-  ],
   "q:3 video": [
    0,
    "",
@@ -13896,11 +13951,6 @@
    0,
    "",
    1792512263.3499064
-  ],
-  "q:5070": [
-   0,
-   "",
-   1792413132.3179722
   ],
   "q:5090s": [
    0,
@@ -15047,6 +15097,26 @@
    "",
    1792558763.8914077
   ],
+  "q:cd projekt's cyberpunk": [
+   0,
+   "",
+   1792587721.924126
+  ],
+  "q:cd projekt's cyberpunk 2077": [
+   0,
+   "",
+   1792587721.4305072
+  ],
+  "q:cd projekt's cyberpunk 2077 loremaster": [
+   0,
+   "",
+   1792587720.9532802
+  ],
+  "q:cd projekt's cyberpunk 2077 loremaster confirms": [
+   0,
+   "",
+   1792587720.4826398
+  ],
   "q:ceo": [
    2269460,
    "創業王 CEO",
@@ -15672,6 +15742,21 @@
    "",
    1792578676.8102348
   ],
+  "q:cyberpunk 2077 loremaster confirms": [
+   0,
+   "",
+   1792587725.808141
+  ],
+  "q:cyberpunk 2077 loremaster confirms year": [
+   0,
+   "",
+   1792587725.280384
+  ],
+  "q:cyberpunk 2077 loremaster confirms year edgerunners": [
+   0,
+   "",
+   1792587724.8080037
+  ],
   "q:cyberpunk edgerunners": [
    0,
    "",
@@ -15957,21 +16042,6 @@
    "",
    1792440127.7850065
   ],
-  "q:demon": [
-   0,
-   "",
-   1792413130.0371037
-  ],
-  "q:demon's souls": [
-   0,
-   "",
-   1792413129.4475734
-  ],
-  "q:demon's souls remake": [
-   0,
-   "",
-   1792413128.8903837
-  ],
   "q:demos": [
    0,
    "",
@@ -16046,6 +16116,21 @@
    0,
    "",
    1792501319.6093776
+  ],
+  "q:detailed": [
+   0,
+   "",
+   1792587715.6095314
+  ],
+  "q:detailed impressions": [
+   0,
+   "",
+   1792587715.1241689
+  ],
+  "q:detailed impressions of the necron": [
+   0,
+   "",
+   1792587714.652675
   ],
   "q:dev owns": [
    0,
@@ -16822,6 +16907,11 @@
    "",
    1792508650.4326167
   ],
+  "q:final fantasy 7": [
+   3837340,
+   "FINAL FANTASY VII",
+   1792587740.1963978
+  ],
   "q:final fantasy 7 revelation": [
    4354570,
    "FINAL FANTASY VII REVELATION",
@@ -17347,10 +17437,10 @@
    "Game of Thrones",
    1792295994.145245
   ],
-  "q:game plus": [
+  "q:game pass 2026": [
    0,
    "",
-   1792413145.8603232
+   1792587742.9706962
   ],
   "q:game samson did better on console": [
    0,
@@ -18092,6 +18182,21 @@
    "",
    1792533703.8015585
   ],
+  "q:impressions": [
+   1220330,
+   "Impressions",
+   1792587717.1665783
+  ],
+  "q:impressions of the necron": [
+   0,
+   "",
+   1792587716.5992868
+  ],
+  "q:impressions of the necron and admech": [
+   0,
+   "",
+   1792587716.0792422
+  ],
   "q:includes": [
    0,
    "",
@@ -18647,16 +18752,6 @@
    "Lanterns",
    1792080993.37305
   ],
-  "q:league": [
-   0,
-   "",
-   1792414907.446056
-  ],
-  "q:league of legends": [
-   0,
-   "",
-   1792414906.8950553
-  ],
   "q:league of legends mel": [
    0,
    "",
@@ -18681,21 +18776,6 @@
    0,
    "",
    1792514057.185635
-  ],
-  "q:league of legends virtual": [
-   0,
-   "",
-   1792414906.3694963
-  ],
-  "q:league of legends virtual k pop": [
-   0,
-   "",
-   1792414905.8708553
-  ],
-  "q:league of legends virtual k pop group": [
-   0,
-   "",
-   1792414905.3530498
   ],
   "q:leaks": [
    0,
@@ -18752,11 +18832,6 @@
    "",
    1792454479.3891318
   ],
-  "q:legends": [
-   0,
-   "",
-   1792414910.110768
-  ],
   "q:legends bang": [
    0,
    "",
@@ -18796,26 +18871,6 @@
    0,
    "",
    1792523019.2097282
-  ],
-  "q:legends virtual": [
-   0,
-   "",
-   1792414909.5205889
-  ],
-  "q:legends virtual k pop": [
-   0,
-   "",
-   1792414909.0140195
-  ],
-  "q:legends virtual k pop group": [
-   0,
-   "",
-   1792414908.476884
-  ],
-  "q:legends virtual k pop group k": [
-   0,
-   "",
-   1792414907.9595697
   ],
   "q:life": [
    0,
@@ -19472,6 +19527,16 @@
    "",
    1792530101.1686664
   ],
+  "q:necron and admech": [
+   0,
+   "",
+   1792587718.177905
+  ],
+  "q:necron and admech factions": [
+   0,
+   "",
+   1792587717.6625464
+  ],
   "q:need an expensive": [
    0,
    "",
@@ -19556,16 +19621,6 @@
    0,
    "",
    1792490507.8059385
-  ],
-  "q:new game": [
-   0,
-   "",
-   1792413145.2850192
-  ],
-  "q:new game plus": [
-   0,
-   "",
-   1792413144.674327
   ],
   "q:new job": [
    0,
@@ -20162,6 +20217,11 @@
    "",
    1792449081.6200542
   ],
+  "q:pass 2026": [
+   0,
+   "",
+   1792587743.431898
+  ],
   "q:patch 26 21": [
    0,
    "",
@@ -20282,6 +20342,26 @@
    "Planet Zoo 2",
    1791894812.7149363
   ],
+  "q:plants vs zombies": [
+   3590,
+   "Plants vs. Zombies GOTY Edition",
+   1792587742.0772517
+  ],
+  "q:plants vs zombies game": [
+   0,
+   "",
+   1792587741.606336
+  ],
+  "q:plants vs zombies game pass": [
+   0,
+   "",
+   1792587741.132986
+  ],
+  "q:plants vs zombies game pass 2026": [
+   0,
+   "",
+   1792587740.665759
+  ],
   "q:platform": [
    0,
    "",
@@ -20386,11 +20466,6 @@
    0,
    "",
    1792429323.0248876
-  ],
-  "q:plus": [
-   0,
-   "",
-   1792413146.4584503
   ],
   "q:pocket": [
    0,
@@ -20567,6 +20642,31 @@
    ".projekt",
    1791908459.1061475
   ],
+  "q:projekt's cyberpunk": [
+   0,
+   "",
+   1792587724.3228853
+  ],
+  "q:projekt's cyberpunk 2077": [
+   0,
+   "",
+   1792587723.8559136
+  ],
+  "q:projekt's cyberpunk 2077 loremaster": [
+   0,
+   "",
+   1792587723.3803847
+  ],
+  "q:projekt's cyberpunk 2077 loremaster confirms": [
+   0,
+   "",
+   1792587722.9110649
+  ],
+  "q:projekt's cyberpunk 2077 loremaster confirms year": [
+   0,
+   "",
+   1792587722.4436097
+  ],
   "q:promo": [
    0,
    "",
@@ -20611,26 +20711,6 @@
    0,
    "",
    1792524136.301521
-  ],
-  "q:ps5 exclusive": [
-   0,
-   "",
-   1792413128.3250196
-  ],
-  "q:ps5 exclusive demon": [
-   0,
-   "",
-   1792413127.7576184
-  ],
-  "q:ps5 exclusive demon's souls": [
-   0,
-   "",
-   1792413127.1962414
-  ],
-  "q:ps5 exclusive demon's souls remake": [
-   0,
-   "",
-   1792413126.6284332
   ],
   "q:ps5's biggest": [
    0,
@@ -20956,11 +21036,6 @@
    0,
    "",
    1792531920.8016865
-  ],
-  "q:remake": [
-   0,
-   "",
-   1792413131.187254
   ],
   "q:remarkable": [
    0,
@@ -21291,11 +21366,6 @@
    0,
    "",
    1792434717.0112417
-  ],
-  "q:rtx 5070": [
-   0,
-   "",
-   1792413131.7560773
   ],
   "q:rtx 5090s": [
    0,
@@ -21681,11 +21751,6 @@
    0,
    "",
    1792584065.9369383
-  ],
-  "q:souls remake": [
-   0,
-   "",
-   1792413130.6023574
   ],
   "q:spark": [
    0,
@@ -22662,16 +22727,6 @@
    "",
    1792519358.7781177
   ],
-  "q:virtual k pop group": [
-   0,
-   "",
-   1792414911.1644592
-  ],
-  "q:virtual k pop group k": [
-   0,
-   "",
-   1792414910.6506155
-  ],
   "q:visionquest": [
    0,
    "",
@@ -22701,11 +22756,6 @@
    0,
    "",
    1792555371.2016847
-  ],
-  "q:visual clarity": [
-   0,
-   "",
-   1792413136.8334892
   ],
   "q:vitality": [
    5219420,
@@ -22822,6 +22872,11 @@
    "",
    1792512229.463229
   ],
+  "q:warhammer 40": [
+   0,
+   "",
+   1792587712.5985057
+  ],
   "q:warhammer 40k": [
    0,
    "",
@@ -22916,21 +22971,6 @@
    0,
    "",
    1792418612.6022947
-  ],
-  "q:witcher 3": [
-   0,
-   "",
-   1792413138.5454247
-  ],
-  "q:witcher 3 switch": [
-   0,
-   "",
-   1792413137.9651318
-  ],
-  "q:witcher 3 switch 2": [
-   0,
-   "",
-   1792413137.4001591
   ],
   "q:witcher legacy": [
    0,
@@ -23225,106 +23265,41 @@
  },
  "tag_hints": {
   "Mezha": [
-   "gemini",
-   "gmlrs",
+   "chrome",
+   "dot-chain defence",
+   "game pass",
    "google",
-   "hugging face",
-   "l3harris",
-   "lockheed martin",
-   "netflix",
-   "spacex",
-   "starship",
-   "subaru",
-   "subaru forester",
-   "subaru forester e-boxer",
-   "subaru forester hybrid",
-   "tesla",
-   "авто",
-   "армія сша",
+   "mac",
+   "perplexity",
+   "project helix",
+   "spotify",
+   "xbox",
+   "youtube",
+   "авіація",
+   "аоз",
+   "бпла",
+   "браузери",
    "бізнес",
-   "військова техніка",
-   "двигун",
-   "зсу",
-   "космос",
-   "кіно",
-   "маркетплейс",
-   "наземні дрони",
+   "дата-центри",
+   "дрони",
+   "компоненти зброї",
+   "консолі",
+   "літаки",
+   "міноборони",
    "новини",
-   "нрк",
    "оборонка",
-   "оборонний завод",
+   "оборонні закупівлі",
    "ракети",
-   "сили оборони",
    "софт",
-   "статті",
-   "сша",
-   "тест-драйв",
-   "технології",
-   "укрпошта",
-   "штучний інтелект"
+   "стримінгові сервіси",
+   "україна",
+   "штучний інтелект",
+   "ші-агенти",
+   "ігри",
+   "інтернет"
   ]
  },
  "titles": [
-  [
-   1792413134.7674658,
-   "PS5-exclusive Demon's Souls Remake not only runs on PC now, it's running at twice the fps cap on an RTX 5070 with frame gen"
-  ],
-  [
-   1792413142.6041408,
-   "Witcher 3 Switch 2 patch rolls out today with a number of changes, including alterations to resolution and \"visual clarity\""
-  ],
-  [
-   1792413149.4383872,
-   "Saros’s free New Game Plus update is out now, including a Boss Rush mode"
-  ],
-  [
-   1792413153.9624734,
-   "“I want you to watch”: Harpy announces debut headline tour"
-  ],
-  [
-   1792414900.7911437,
-   "AI’s Premium Valuations Are Getting More Pushback From Investors"
-  ],
-  [
-   1792414903.2274716,
-   "Sony запатентувала ШІ, який передбачає наступний кадр гри за діями гравця"
-  ],
-  [
-   1792414912.978779,
-   "League of Legends Virtual K-Pop Group K/DA Reemerge After 6 Years of Silence With New Single and Music Video From the Makers of Arcane"
-  ],
-  [
-   1792414916.682224,
-   "Bon Jovi Announce 4 North American Stadium Shows on 2027 Tour"
-  ],
-  [
-   1792414920.0674987,
-   "Ubisoft створила підрозділ Motherbrain, який відповідатиме за генеративний ШІ в іграх компанії"
-  ],
-  [
-   1792414923.5438585,
-   "Ministry's Al Jourgensen Shares Concern Over the Future of A.I."
-  ],
-  [
-   1792414932.7377498,
-   "The FINALS Adds Dynamic Commentary That Says Your Actual Player Name"
-  ],
-  [
-   1792414936.6004696,
-   "Stripe says AI agent purchases are adding up, but it won't share the numbers"
-  ],
-  [
-   1792414939.192628,
-   "Microsoft не планує відмовлятися від дисків в Xbox: що на це вказує"
-  ],
-  [
-   1792414943.9264424,
-   "This week in PC games: build a better zombie in Stupid Never Dies, glue together houses in Cutout Village, and settle brave new worlds in Star Trek: Outposts Unknown"
-  ],
-  [
-   1792414947.4947672,
-   "‘Grey’s Anatomy’ Star Kevin McKidd & Laura Fraser Cast In BBC’s ‘The Young Team’ From Director Paul McGuigan"
-  ],
   [
    1792416680.0005531,
    "ARMORED SAINT's JOHN BUSH Praises BRUCE DICKINSON: 'Not Only Does He Still Sound Great, His Energy Level Is Just Ridiculous'"
@@ -25308,69 +25283,21 @@
   [
    1792585926.8879433,
    "\"I want room to make a wrong turn\": Following Samson dev's bankruptcy, its founder is considering how AI might factor into new studio plans"
+  ],
+  [
+   1792587736.14297,
+   "CD Projekt's Cyberpunk 2077 Loremaster Confirms Year Edgerunners 2 Is Set, Sparking Fan Speculation About Canon Endings"
+  ],
+  [
+   1792587738.205704,
+   "ШІ-агент Perplexity навчився працювати з файлами та застосунками Mac без хмари"
+  ],
+  [
+   1792587744.29173,
+   "Final Fantasy VII, Plants vs. Zombies та інші ігри поповнять Game Pass у другій половині 2026 року"
   ]
  ],
  "titles_uk": [
-  [
-   1792413134.7674665,
-   "Демонс Соулс ремейк запустили на ПК через емулятор зі швидкістю до 120 fps"
-  ],
-  [
-   1792413142.6041415,
-   "Для The Witcher 3 виходить патч з покращеннями візуалу та розширення"
-  ],
-  [
-   1792413149.4383876,
-   "Для Saros вийшов безплатний патч New Game Plus із режимом Boss Rush"
-  ],
-  [
-   1792413153.9624743,
-   "Гурт Harpy анонсував свій перший хедлайнерський тур"
-  ],
-  [
-   1792414900.7911446,
-   "Інвестори дедалі частіше сумніваються в надвисоких оцінках ШІ"
-  ],
-  [
-   1792414903.2274728,
-   "Sony запатентувала ШІ, який передбачає наступний кадр гри за діями гравця"
-  ],
-  [
-   1792414912.9787805,
-   "Віртуальний гурт K/DA повернувся після шести років мовчання з новим треком"
-  ],
-  [
-   1792414916.6822252,
-   "Bon Jovi анонсували чотири стадіонні концерти в Північній Америці в межах туру 2027 року"
-  ],
-  [
-   1792414920.0675,
-   "Ubisoft створила підрозділ Motherbrain, який відповідатиме за генеративний ШІ в іграх компанії"
-  ],
-  [
-   1792414923.5438597,
-   "Аль Юргенсен із Ministry висловив занепокоєння щодо майбутнього ШІ"
-  ],
-  [
-   1792414932.7377508,
-   "У The FINALS додали динамічні коментарі, що вимовляють нікнейми гравців"
-  ],
-  [
-   1792414936.6004703,
-   "ШІ-агенти активно купують товари через сервіс Stripe Link"
-  ],
-  [
-   1792414939.192629,
-   "Microsoft не планує відмовлятися від дисків в Xbox: що на це вказує"
-  ],
-  [
-   1792414943.9264433,
-   "Нові ПК-ігри цього тижня: від Stupid Never Dies до Star Trek: Outposts Unknown"
-  ],
-  [
-   1792414947.4947684,
-   "Кевін Маккідд та Лора Фрейзер знімуться в серіалі The Young Team від BBC"
-  ],
   [
    1792416680.000554,
    "Джон Буш похвалив енергійність Брюса Дікінсона"
@@ -27354,6 +27281,18 @@
   [
    1792585926.887944,
    "Засновник Liquid Swords Крістофер Сундберг планує нову студію після банкрутства"
+  ],
+  [
+   1792587736.1429713,
+   "CD Projekt Red підтвердила час дії другого сезону Cyberpunk: Edgerunners"
+  ],
+  [
+   1792587738.2057052,
+   "ШІ-агент Perplexity навчився працювати з файлами та застосунками Mac без хмари"
+  ],
+  [
+   1792587744.2917309,
+   "Final Fantasy VII, Plants vs. Zombies та інші ігри поповнять Game Pass у другій половині 2026 року"
   ]
  ],
  "ukrainian": {
@@ -28867,7 +28806,7 @@
     "coming_soon": false,
     "discount": 0,
     "name": "Dying Light: The Beast",
-    "price": "1 599,00₴",
+    "price": "1 128,00₴",
     "release": 1758211254
    },
    "301910": {
@@ -29315,7 +29254,7 @@
     "coming_soon": false,
     "discount": 0,
     "name": "Dying Light 2 Stay Human: Reloaded Edition",
-    "price": "1 599,00₴",
+    "price": "455,00₴",
     "release": 1643932800
    },
    "553850": {
@@ -29571,7 +29510,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792584108.0780747,
+  "last_check": 1792587752.813329,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
