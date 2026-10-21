@@ -1,16 +1,22 @@
 {
  "alerts": {
+  "src:games|PC Gamer|https://www.pcgamer.com/rss/": {
+   "detail": "https://www.pcgamer.com/rss/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
+   "label": "Джерело «PC Gamer» не працює",
+   "sent": 0,
+   "since": 1792589455.692897
+  },
   "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
    "detail": "https://www.kerrang.com/feed.rss → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
    "label": "Джерело «Kerrang!» не працює",
    "sent": 0,
    "since": 1792567873.9496448
   },
-  "src:software|AIN.ua|https://ain.ua/feed/": {
-   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «AIN.ua» не працює",
+  "src:music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": {
+   "detail": "https://www.loudersound.com/feeds/all\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
+   "label": "Джерело «Metal Hammer (Louder)» не працює",
    "sent": 0,
-   "since": 1792587708.515216
+   "since": 1792589475.224874
   }
  },
  "daily_digest_date": "2026-10-20",
@@ -24,11 +30,12 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-21 13:02 UTC",
-  "gemini_error": "",
+  "at": "2026-10-21 13:33 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 4
   },
   "used": [
    "Gemini"
@@ -8562,7 +8569,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Northlane перенесли реліз альбому й тур через проблеми зі здоров&#x27;ям гітариста</b>\n\nГурт Northlane відклав реліз сьомого альбому &quot;Anemoia&quot; на 27 листопада через виробничі затримки та переніс тур Австралією й Новою Зеландією на травень 2027 року через проблеми зі здоров&#x27;ям гітариста Josh Smith. Водночас колектив раніше випустив новий сингл &quot;Deathwish&quot; та переніс листинг-паті в Мельбурні на 20 листопада.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/20/news/northlane-delay-new-album-anemoia-reschedule-australian-new-zealand-tour-debut-new-single-deathwish/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/20/news/northlane-delay-new-album-anemoia-reschedule-australian-new-zealand-tour-debut-new-single-deathwish/",
     "orig": "Northlane Delay New Album “Anemoia”, Reschedule Australian/New Zealand Tour & Debut New Single “Deathwish”"
@@ -8576,7 +8582,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Вийшов реліз Ponytail 5 для оптимізації роботи з Claude Code</b>\n\nРозробники представили Ponytail 5, переписаний з нуля інструмент для Claude Code, який скорочує обсяг коду на 53%, час на 41% та витрати на 26%. Нова версія покриває тести 98% ризикованої логіки, успішно проходить усі перевірки безпеки та пропонує оновлені функції аудиту й огляду коду.\n\n🔗 <a href=\"https://github.com/DietrichGebert/ponytail\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/DietrichGebert/ponytail",
     "orig": "DietrichGebert/ponytail"
@@ -8590,7 +8595,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎬 <b>Ідріс Ельба тоне в космокапсулі у трейлері трилера Above the Below</b>\n\nСтудія Lionsgate випустила перший офіційний трейлер британського сурвайвал-трилера Above the Below. Стрічка привертає увагу тим, що лауреат премії “Золотий глобус” Ідріс Ельба не лише виконав головну роль, а й виступив співрежисером проєкту разом із Мартіном Овеном.\n\n🔗 <a href=\"https://itc.ua/ua/novini/idris-elba-tone-v-kosmokapsuli-u-trejleri-trylera-above-the-below/\">ITC.ua</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/idris-elba-tone-v-kosmokapsuli-u-trejleri-trylera-above-the-below/",
     "orig": "Ідріс Ельба тоне в космокапсулі у трейлері трилера Above the Below"
@@ -8604,7 +8608,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Graphify-Labs/graphify</b>\n\nПеретворіть будь-яку базу коду разом із документацією, схемами SQL, конфігураціями та PDF-файлами на граф знань із можливістю пошуку. Скіл /graphify для Claude Code, Cursor, Codex та Gemini CLI: локальний детермінований синтаксичний аналіз AST, пояснення кожного ребра, відсутність векторного сховища.\n\n🔗 <a href=\"https://github.com/Graphify-Labs/graphify\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/Graphify-Labs/graphify",
     "orig": "Graphify-Labs/graphify"
@@ -8618,7 +8621,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>Домашні улюбленці-агенти</b>\n\nШІ-агенти для кодингу як віртуальні улюбленці на кожній сторінці в Chrome\n\n🔗 <a href=\"https://www.producthunt.com/products/agent-pets\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/agent-pets",
     "orig": "Agent Pets"
@@ -8645,7 +8647,12 @@
    "Розмову з ChatGPT тепер можна сховати за паролем: як це зробити",
    "AIN.ua",
    {
-    "also": [],
+    "also": [
+     [
+      "The Decoder",
+      "https://the-decoder.com/china-protests-the-us-deepseek-ban-while-blocking-chatgpt-claude-and-gemini-at-home/"
+     ]
+    ],
     "caption": "🤖 <b>Розмову з ChatGPT тепер можна сховати за паролем: як це зробити</b>\n\nПриховані чати OpenAI можна буде відкрити лише після додаткової перевірки. А нові повідомлення в таких чатах не оновлюватимуть пам’ять звичайних розмов.\n\n🔗 <a href=\"https://ain.ua/2026/10/21/openai-dodala-zaxishheni-cati-v-chatgpt-dialogi-teper-mozna-xovati-pid-parol/\">AIN.ua</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://ain.ua/2026/10/21/openai-dodala-zaxishheni-cati-v-chatgpt-dialogi-teper-mozna-xovati-pid-parol/",
@@ -8789,6 +8796,10 @@
      [
       "GamesIndustry.biz",
       "https://www.gamesindustry.biz/games-like-call-of-duty-and-ea-sports-fc-most-at-risk-of-losing-players-during-gta-6-launch-according-to-new-data"
+     ],
+     [
+      "Mezha",
+      "https://mezha.ua/news/gta-6-more-than-600-mil-revenue-316392/"
      ]
     ],
     "caption": "🎮 <b>GTA 6 ще не вийшла, а вже заробила більше, ніж багато ААА-ігор за все життя</b>\n\nGTA 6 принесла $630 млн завдяки 6,45 млн передзамовлень ще до виходу гри. За даними аналітичної компанії Sensor Tower, більшість покупців обрали версію для PlayStation 5 — на неї припадає 74% усіх передзамовлень. Гра ще не вийшла, але вже демонструє фінансові результати, які для багатьох інших великих проєктів залишаються недосяжними навіть за весь життєвий цикл.\n\n🔗 <a href=\"https://itc.ua/ua/novini/gta-6-shhe-ne-vyjshla-a-vzhe-zarobyla-bilshe-nizh-bagato-aaa-igor-za-vse-zhyttya/\">ITC.ua</a>\n\n#ігри",
@@ -9417,12 +9428,82 @@
     "link": "https://mezha.ua/news/xbox-game-pass-2-wave-for-october-2026-316390/",
     "orig": "Final Fantasy VII, Plants vs. Zombies та інші ігри поповнять Game Pass у другій половині 2026 року"
    }
+  ],
+  [
+   1792589514.5809453,
+   1646,
+   "🤘",
+   "Панк-ветерани MXPX анонсували дванадцятий студійний альбом 'Living In The Chaos'",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Панк-ветерани MXPX анонсували дванадцятий студійний альбом &#x27;Living In The Chaos&#x27;</b>\n\nЛегенди панк-року MXPX готуються до нового етапу й випустять свій дванадцятий альбом &#x27;Living In The Chaos&#x27; 29 січня. На підтримку релізу гурт уже відкрив передзамовлення та випустив сингл &#x27;Panic Attack...&#x27;\n\n🔗 <a href=\"https://blabbermouth.net/news/punk-veterans-mxpx-announce-12th-studio-album-living-in-the-chaos\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/punk-veterans-mxpx-announce-12th-studio-album-living-in-the-chaos",
+    "orig": "Punk Veterans MXPX Announce 12th Studio Album 'Living In The Chaos'"
+   }
+  ],
+  [
+   1792589516.5174308,
+   1647,
+   "🤖",
+   "Spotify видалив із рекомендацій понад 50 млн згенерованих штучним інтелектом треків: як сервіс маркує такі твори",
+   "AIN.ua",
+   {
+    "also": [],
+    "caption": "🤖 <b>Spotify видалив із рекомендацій понад 50 млн згенерованих штучним інтелектом треків: як сервіс маркує такі твори</b>\n\nСервіс змінив алгоритми, щоб частіше рекомендувати музику від реальних виконавців.\n\n🔗 <a href=\"https://ain.ua/2026/10/21/spotify-vidaliv-iz-rekomendacii-ponad-50-mln-zgenerovanix-stucnim-intelektom-trekiv-iak-servis-markuje-taki-tvori/\">AIN.ua</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://ain.ua/2026/10/21/spotify-vidaliv-iz-rekomendacii-ponad-50-mln-zgenerovanix-stucnim-intelektom-trekiv-iak-servis-markuje-taki-tvori/",
+    "orig": "Spotify видалив із рекомендацій понад 50 млн згенерованих штучним інтелектом треків: як сервіс маркує такі твори"
+   }
+  ],
+  [
+   1792589540.4708278,
+   1648,
+   "🎮",
+   "Beyond Good and Evil 2 досі перебуває на стадії раннього препродакшну",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Beyond Good and Evil 2 досі перебуває на стадії раннього препродакшну</b>\n\nГра розробляється вже майже 20 років, проте її повноцінне виробництво досі не почалося. Над проєктом у Ubisoft Montpellier працюють близько 250 людей, а керівництво постійно змінює бачення та цілі гри.\n\n🔗 <a href=\"https://insider-gaming.com/beyond-good-and-evil-2-still-in-early-pre-production-after-nearly-20-years-its-claimed/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/beyond-good-and-evil-2-still-in-early-pre-production-after-nearly-20-years-its-claimed/",
+    "orig": "Beyond Good and Evil 2 Still in Early Pre-Production After Nearly 20 Years, It’s Claimed"
+   }
+  ],
+  [
+   1792589568.7554615,
+   1649,
+   "🎮",
+   "Гравці Call of Duty: Modern Warfare 4 DMZ гинуть просто на спавні через ворожий транспорт",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Гравці Call of Duty: Modern Warfare 4 <a href=\"https://store.steampowered.com/app/2650890/\">DMZ</a> гинуть просто на спавні через ворожий транспорт</b>\n\nУ режимі DMZ для Call of Duty: Modern Warfare 4 гравці зіткнулися з проблемою, коли випадкова точка спавну опинялася посеред дороги. Через це ворожі патрульні машини збивали користувачів одразу після появи, знищуючи їхнє спорядження. Розробники Infinity Ward уже виправили цей ганебний баг за допомогою нового патча.\n\n🔗 <a href=\"https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-spawn-runover\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-spawn-runover",
+    "orig": "COD: Modern Warfare 4 DMZ players are spawning in the middle of a road and being flattened before they can do anything"
+   }
+  ],
+  [
+   1792589587.1049345,
+   1650,
+   "🎮",
+   "У Лондоні відкриється перший постійний магазин Pokémon за межами Азії",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>У Лондоні відкриється перший постійний магазин Pokémon за межами Азії</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/4513280/\">Pok</a>\n\nThe Pokémon Company планує запустити торгову точку до 2029 року\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/a-permanent-pokemon-retail-store-is-coming-to-london-the-first-of-several-outside-asia/\">VGC</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/a-permanent-pokemon-retail-store-is-coming-to-london-the-first-of-several-outside-asia/",
+    "orig": "A permanent Pokémon retail store is coming to London, the first of several planned to open outside Asia"
+   }
   ]
  ],
  "posted_by_source": {
   "ai|AIN.ua|https://ain.ua/feed/": [
-   1792497708.7724273,
-   1792569682.806946
+   1792569682.806946,
+   1792589516.5178292
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
    1792503123.3210766,
@@ -9471,13 +9552,12 @@
    1792521222.9651988
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1792501345.0450976,
-   1792501354.6840522,
    1792512430.3417182,
    1792573296.6495557,
    1792582298.520617,
    1792582303.238386,
-   1792585922.1488922
+   1792585922.1488922,
+   1792589568.7558627
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1792503109.0566463,
@@ -9520,8 +9600,6 @@
    1792573282.3710647
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1792494193.118205,
-   1792494232.551488,
    1792503155.0100563,
    1792506219.684116,
    1792508592.8394823,
@@ -9533,7 +9611,8 @@
    1792526559.36912,
    1792530117.3261662,
    1792531923.7592692,
-   1792578710.1628153
+   1792578710.1628153,
+   1792589540.4712486
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1792526500.576059,
@@ -9587,15 +9666,14 @@
    1792503180.830482
   ],
   "games|VGC|https://www.videogameschronicle.com/feed/": [
-   1792497734.0871546,
-   1792501363.7923992,
    1792505038.9436052,
    1792517766.766211,
    1792575421.246408,
    1792575426.0859044,
    1792580507.9835856,
    1792584070.968173,
-   1792584099.9047732
+   1792584099.9047732,
+   1792589587.1053452
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1792539078.213061,
@@ -9656,7 +9734,6 @@
    1792531910.433771
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1792503092.1878116,
    1792503137.5460672,
    1792506157.8285136,
    1792508557.0534906,
@@ -9670,7 +9747,8 @@
    1792531914.689491,
    1792582306.5568237,
    1792585886.7448022,
-   1792585916.050644
+   1792585916.050644,
+   1792589514.581357
   ],
   "music|Decibel|https://www.decibelmagazine.com/feed/": [
    1792508710.8693721,
@@ -10112,6 +10190,7 @@
   "2619d0d5a922f18b": 1792445496.2860823,
   "2633391a86cc05a1": 1792553615.7928538,
   "268cf33188e16590": 1791931688.5203261,
+  "2697275c029a3884": 1792589485.2741487,
   "26be9671072d8b9c": 1792501354.6840096,
   "26cb37b9a1376af8": 1791853911.3275766,
   "270c12f7773514e2": 1792431223.0283523,
@@ -10152,6 +10231,7 @@
   "2c1134183d1bbac6": 1792404399.0901637,
   "2c3b4d1bac93f45d": 1792145444.7022057,
   "2c5251e6166da627": 1792575426.0858614,
+  "2c8aa940fecfceaa": 1792589485.6127155,
   "2c8edd38a8e1f3b4": 1792418575.2481303,
   "2c9f8704ffdd2099": 1792414923.5438566,
   "2ce6265e788406a8": 1792423941.3578868,
@@ -10282,6 +10362,7 @@
   "3ba7c044330a397c": 1792423935.4605114,
   "3bb8e39a2fcee6d8": 1792352563.4525027,
   "3be9f63a58c87a2e": 1792249943.7430582,
+  "3c14d621f1a403f4": 1792589485.6113114,
   "3c1fe16376469ee8": 1792407700.4833364,
   "3c6d04fc633efc6c": 1791908446.0808244,
   "3cc17c63b67d24de": 1792352430.0356822,
@@ -10642,6 +10723,7 @@
   "686027e9c26b231a": 1792037186.0762506,
   "6862ebd80a13d022": 1792513881.9064367,
   "688ceefb247b2370": 1792145441.306256,
+  "69046dac910d5167": 1792589514.5813036,
   "693b3842ab6b11b8": 1791975089.1230226,
   "6973c0afa8a9d10d": 1792449098.4181793,
   "697db8798a1a1e97": 1792531897.0066378,
@@ -10977,6 +11059,7 @@
   "8de7609e50d398b0": 1792352540.5085328,
   "8df448f1c2ec80ba": 1791931686.805547,
   "8e0983cf3fa52cac": 1792560677.295506,
+  "8e24385f3db44b6c": 1792589571.142918,
   "8e3a89059c36a416": 1792407677.524236,
   "8e62adcb49282672": 1792382502.8838835,
   "8eb592d740be49d0": 1792021775.7429001,
@@ -11109,6 +11192,7 @@
   "a0b1f2ace05cadf0": 1792129307.403092,
   "a0b232e15c191b55": 1792490486.7294014,
   "a0bb7c6697300864": 1792414939.1926262,
+  "a0d0d201a640180b": 1792589540.4712,
   "a0dbbb7d6a74014a": 1791957533.3562908,
   "a16249fcac5d25f1": 1792479998.7440536,
   "a1b7614884880410": 1791931887.9350114,
@@ -11264,6 +11348,7 @@
   "b747ddfc4acba088": 1792353699.787903,
   "b7491efc99960120": 1792523050.0981953,
   "b78d1bb0066fb661": 1792468986.815313,
+  "b7b98190af652545": 1792589516.5177772,
   "b7bb50d8a7b97d6e": 1792326683.1353447,
   "b7eeeed9a29ca89b": 1792528374.250107,
   "b81c34104ba7cc19": 1792510286.9221554,
@@ -11291,11 +11376,13 @@
   "bad0b3bbdcd1f483": 1791820230.0183554,
   "bae1de536adf234e": 1792342915.0631604,
   "baf9154e13e409fb": 1791795365.3554754,
+  "bb228593e2932c98": 1792589494.7540889,
   "bb2b81c82e9a3c9b": 1792510287.325765,
   "bb43ba07b83f2ae3": 1792461860.9028294,
   "bb7463dd45c63cc0": 1792411302.0755558,
   "bb9e242ff5772ec3": 1792177137.7995827,
   "bbc8bad6e1224caa": 1791853945.2075598,
+  "bc18b9045ca29574": 1792589568.7558157,
   "bc1ea23d1d7b7068": 1792414947.4947658,
   "bc803c91773648a6": 1792342903.0866385,
   "bc9c0e94589cf148": 1791957508.4421096,
@@ -11498,6 +11585,7 @@
   "d6a635d869dbaeb0": 1791831077.3083286,
   "d6b8ad257f4bab95": 1791815091.7113955,
   "d6bc6b0e9519f9e5": 1791966906.2622647,
+  "d6cfd811b6ca4528": 1792589485.2669792,
   "d6e39e48fd7aa6d0": 1792522879.8106186,
   "d6ef87b7463c1c49": 1791636717.6413412,
   "d6f00a67abe188cd": 1791931846.9450486,
@@ -11724,6 +11812,7 @@
   "f3bbe55042bbb5ca": 1792264359.8041008,
   "f3c32f2e575cafc7": 1792530132.082467,
   "f422a85335288d74": 1792490524.5622618,
+  "f4ab916a786fb5c3": 1792589587.1052966,
   "f4b713ab968624a2": 1791932425.5200398,
   "f4bd4a80bb19dbf1": 1792071063.7644897,
   "f4daf4b4f2d75cc9": 1792074069.9702458,
@@ -13010,8 +13099,8 @@
   },
   "sources": {
    "/Film": 20,
-   "AIN.ua": 3,
-   "Blabbermouth": 33,
+   "AIN.ua": 4,
+   "Blabbermouth": 34,
    "Bloomberg": 26,
    "DOU": 2,
    "DOU Gamedev": 3,
@@ -13019,7 +13108,7 @@
    "Decibel": 6,
    "Digital Foundry": 3,
    "Distorted Sound": 10,
-   "Eurogamer": 20,
+   "Eurogamer": 21,
    "GameSpot": 20,
    "GamesIndustry.biz": 11,
    "GitHub Trending": 14,
@@ -13027,7 +13116,7 @@
    "IGN": 37,
    "ITC.ua": 32,
    "IndieWire": 11,
-   "Insider Gaming": 44,
+   "Insider Gaming": 45,
    "Kerrang!": 14,
    "Lambgoat": 22,
    "Loudwire": 11,
@@ -13046,13 +13135,13 @@
    "Stereogum": 6,
    "The Decoder": 13,
    "ThePRP": 20,
-   "VGC": 16,
+   "VGC": 17,
    "Variety": 12
   },
   "translators": {
    "DeepL": 15,
-   "gemini-flash-latest": 65,
-   "gemini-flash-lite-latest": 543
+   "gemini-flash-latest": 66,
+   "gemini-flash-lite-latest": 547
   },
   "week": "2026-W43"
  },
@@ -13466,11 +13555,6 @@
    0,
    "",
    1792580506.244949
-  ],
-  "q:16 years": [
-   0,
-   "",
-   1792416683.190085
   ],
   "q:2 0": [
    0,
@@ -14047,6 +14131,11 @@
    "",
    1792429286.3790443
   ],
+  "q:630": [
+   0,
+   "",
+   1792589570.7575183
+  ],
   "q:80": [
    0,
    "",
@@ -14107,36 +14196,6 @@
    "",
    1792494089.5160947
   ],
-  "q:adds": [
-   0,
-   "",
-   1792414931.2648787
-  ],
-  "q:adds dynamic": [
-   0,
-   "",
-   1792414930.7423286
-  ],
-  "q:adds dynamic commentary": [
-   0,
-   "",
-   1792414930.2263522
-  ],
-  "q:adds dynamic commentary that": [
-   0,
-   "",
-   1792414929.6837504
-  ],
-  "q:adds dynamic commentary that says": [
-   0,
-   "",
-   1792414929.1708927
-  ],
-  "q:adds dynamic commentary that says your": [
-   0,
-   "",
-   1792414928.6166823
-  ],
   "q:ads'": [
    0,
    "",
@@ -14156,16 +14215,6 @@
    0,
    "",
    1792490520.4231386
-  ],
-  "q:after 16": [
-   0,
-   "",
-   1792416682.6641917
-  ],
-  "q:after 16 years": [
-   0,
-   "",
-   1792416682.1629794
   ],
   "q:after more than 100": [
    0,
@@ -14472,6 +14521,11 @@
    "Asha",
    1791908394.3771522
   ],
+  "q:asia": [
+   0,
+   "",
+   1792589572.228463
+  ],
   "q:assassin's creed black flag resynced": [
    3751950,
    "Assassin's Creed Black Flag Resynced",
@@ -14731,6 +14785,31 @@
    0,
    "",
    1792512354.0147898
+  ],
+  "q:beyond": [
+   0,
+   "",
+   1792589520.5876982
+  ],
+  "q:beyond good": [
+   0,
+   "",
+   1792589520.0592396
+  ],
+  "q:beyond good and evil": [
+   0,
+   "",
+   1792589519.553828
+  ],
+  "q:beyond good and evil 2": [
+   0,
+   "",
+   1792589519.0489368
+  ],
+  "q:beyond good and evil 2 still": [
+   0,
+   "",
+   1792589518.5516846
   ],
   "q:biddy": [
    0,
@@ -15227,16 +15306,6 @@
    "",
    1792416685.4645143
   ],
-  "q:chill sci fi": [
-   0,
-   "",
-   1792416684.9183302
-  ],
-  "q:chill sci fi game": [
-   0,
-   "",
-   1792416684.2798636
-  ],
   "q:chinese duelist who": [
    0,
    "",
@@ -15356,6 +15425,26 @@
    0,
    "",
    1792497727.712834
+  ],
+  "q:cod modern": [
+   0,
+   "",
+   1792589543.9420574
+  ],
+  "q:cod modern warfare": [
+   0,
+   "",
+   1792589543.4503226
+  ],
+  "q:cod modern warfare 4": [
+   0,
+   "",
+   1792589542.9591804
+  ],
+  "q:cod modern warfare 4 dmz": [
+   0,
+   "",
+   1792589542.4679809
   ],
   "q:collector": [
    0,
@@ -16692,6 +16781,21 @@
    "",
    1792584092.9697013
   ],
+  "q:evil 2 still": [
+   0,
+   "",
+   1792589524.1284304
+  ],
+  "q:evil 2 still in early": [
+   0,
+   "",
+   1792589523.630769
+  ],
+  "q:evil 2 still in early pre production": [
+   0,
+   "",
+   1792589523.1334574
+  ],
   "q:evil geniuses": [
    0,
    "",
@@ -16971,36 +17075,6 @@
    0,
    "",
    1792467089.8174114
-  ],
-  "q:finals": [
-   0,
-   "",
-   1792414928.0864935
-  ],
-  "q:finals adds": [
-   0,
-   "",
-   1792414927.568014
-  ],
-  "q:finals adds dynamic": [
-   0,
-   "",
-   1792414927.0629704
-  ],
-  "q:finals adds dynamic commentary": [
-   0,
-   "",
-   1792414926.5525017
-  ],
-  "q:finals adds dynamic commentary that": [
-   0,
-   "",
-   1792414926.0506644
-  ],
-  "q:finals adds dynamic commentary that says": [
-   0,
-   "",
-   1792414925.5470965
   ],
   "q:finger": [
    0,
@@ -17641,6 +17715,26 @@
    0,
    "",
    1792423918.083591
+  ],
+  "q:good": [
+   0,
+   "",
+   1792589522.620642
+  ],
+  "q:good and evil": [
+   0,
+   "",
+   1792589522.1026554
+  ],
+  "q:good and evil 2": [
+   0,
+   "",
+   1792589521.5916393
+  ],
+  "q:good and evil 2 still": [
+   0,
+   "",
+   1792589521.0784132
   ],
   "q:gothic 3 classic": [
    39500,
@@ -18952,6 +19046,11 @@
    "",
    1792526502.576407
   ],
+  "q:london": [
+   0,
+   "",
+   1792589571.6463456
+  ],
   "q:long dormant": [
    0,
    "",
@@ -19267,11 +19366,6 @@
    "METRO 2039",
    1791926995.7462077
   ],
-  "q:microsoft xbox": [
-   0,
-   "",
-   1792414938.62713
-  ],
   "q:mike": [
    0,
    "",
@@ -19481,11 +19575,6 @@
    0,
    "",
    1792514030.185082
-  ],
-  "q:motherbrain": [
-   0,
-   "",
-   1792414919.248789
   ],
   "q:mr beast": [
    0,
@@ -22462,11 +22551,6 @@
    "",
    1792431115.427805
   ],
-  "q:ubisoft motherbrain": [
-   0,
-   "",
-   1792414918.751849
-  ],
   "q:umamusame pretty": [
    0,
    "",
@@ -23265,33 +23349,35 @@
  },
  "tag_hints": {
   "Mezha": [
-   "chrome",
+   "apple",
    "dot-chain defence",
    "game pass",
-   "google",
+   "grand theft auto vi",
+   "gta 6",
+   "iphone duo",
    "mac",
+   "openai",
    "perplexity",
-   "project helix",
+   "rockstar games",
    "spotify",
    "xbox",
    "youtube",
    "авіація",
    "аоз",
    "бпла",
-   "браузери",
    "бізнес",
    "дата-центри",
    "дрони",
    "компоненти зброї",
-   "консолі",
    "літаки",
-   "міноборони",
+   "медицина",
    "новини",
    "оборонка",
    "оборонні закупівлі",
-   "ракети",
+   "смартфони",
    "софт",
    "стримінгові сервіси",
+   "технології",
    "україна",
    "штучний інтелект",
    "ші-агенти",
@@ -23300,50 +23386,6 @@
   ]
  },
  "titles": [
-  [
-   1792416680.0005531,
-   "ARMORED SAINT's JOHN BUSH Praises BRUCE DICKINSON: 'Not Only Does He Still Sound Great, His Energy Level Is Just Ridiculous'"
-  ],
-  [
-   1792416689.6136694,
-   "After 16 Years, Chill Sci-Fi Game Faraway Has A Release Date"
-  ],
-  [
-   1792416694.5672,
-   "Модер підвищив продуктивність Oblivion Remastered до 40% за допомогою ШІ та виправлення недоліків рушія"
-  ],
-  [
-   1792416696.5336475,
-   "КАІ та MIT відкрили набір на інженерну програму у Львові. Хто може взяти участь"
-  ],
-  [
-   1792416700.7282553,
-   "We've had two great Star Wars games this year, probably because Lucasfilm Games says it's now \"more flexible\" about who it takes pitches from"
-  ],
-  [
-   1792416704.7644384,
-   "AARON LEWIS On Upcoming STAIND Album 'The Space Between The Darkness And The Light': 'This Record Fits Perfectly Right Where It Sits'"
-  ],
-  [
-   1792416707.303613,
-   "ШІ-агенти Gemini пройшли Minecraft без втручання людей – за 27 годин і 605 смертей"
-  ],
-  [
-   1792416712.1090317,
-   "Thessaloniki: Walter Thompson-Hernández’s ‘If I Go Will They Miss Me’ Among Titles Set For International Competition"
-  ],
-  [
-   1792416717.20601,
-   "Endless pile of Needle In Haystack games begins to emerge, as viral hit imitator's devs claim their code was nicked by a genAI-using clone"
-  ],
-  [
-   1792416726.4256744,
-   "Escape From Playtime FAQ—Release Date & Times, Price, Early Access, Console & Platforms"
-  ],
-  [
-   1792416731.072633,
-   "Q&A: Neige (Alcest) Reflects On Spirituality & Dani Filth"
-  ],
   [
    1792416820.663878,
    "Mr. Beast Teases A Huge Call Of Duty Video Focused On DMZ With Real-Life Content Creators"
@@ -25295,53 +25337,29 @@
   [
    1792587744.29173,
    "Final Fantasy VII, Plants vs. Zombies та інші ігри поповнять Game Pass у другій половині 2026 року"
+  ],
+  [
+   1792589514.5813057,
+   "Punk Veterans MXPX Announce 12th Studio Album 'Living In The Chaos'"
+  ],
+  [
+   1792589516.5177798,
+   "Spotify видалив із рекомендацій понад 50 млн згенерованих штучним інтелектом треків: як сервіс маркує такі твори"
+  ],
+  [
+   1792589540.4712021,
+   "Beyond Good and Evil 2 Still in Early Pre-Production After Nearly 20 Years, It’s Claimed"
+  ],
+  [
+   1792589568.7558174,
+   "COD: Modern Warfare 4 DMZ players are spawning in the middle of a road and being flattened before they can do anything"
+  ],
+  [
+   1792589587.1052992,
+   "A permanent Pokémon retail store is coming to London, the first of several planned to open outside Asia"
   ]
  ],
  "titles_uk": [
-  [
-   1792416680.000554,
-   "Джон Буш похвалив енергійність Брюса Дікінсона"
-  ],
-  [
-   1792416689.61367,
-   "Релакс-гра Faraway отримала дату релізу після 16 років розробки"
-  ],
-  [
-   1792416694.5672011,
-   "Модер підвищив продуктивність Oblivion Remastered до 40% за допомогою ШІ та виправлення недоліків рушія"
-  ],
-  [
-   1792416696.5336487,
-   "КАІ та MIT відкрили набір на інженерну програму у Львові. Хто може взяти участь"
-  ],
-  [
-   1792416700.7282562,
-   "Lucasfilm Games стала гнучкішою у виборі партнерів для створення ігор за Star Wars"
-  ],
-  [
-   1792416704.7644393,
-   "Арон Льюїс розповів про новий альбом гурту STAIND"
-  ],
-  [
-   1792416707.3036146,
-   "ШІ-агенти Gemini пройшли Minecraft без втручання людей – за 27 годин і 605 смертей"
-  ],
-  [
-   1792416712.1090324,
-   "Фільм If I Go Will They Miss Me увійде до міжнародної конкурсної програми фестивалю у Салоніках"
-  ],
-  [
-   1792416717.206011,
-   "Авторів гри Needle In A Haystack звинуватили у крадіжці коду"
-  ],
-  [
-   1792416726.4256759,
-   "Escape From Playtime виходить у ранній доступ у Steam"
-  ],
-  [
-   1792416731.0726337,
-   "Neige з Alcest анонсував новий класичний альбом-колаборацію"
-  ],
   [
    1792416820.6638787,
    "Містер Біст затизерив масштабне відео за Call of Duty"
@@ -27293,6 +27311,26 @@
   [
    1792587744.2917309,
    "Final Fantasy VII, Plants vs. Zombies та інші ігри поповнять Game Pass у другій половині 2026 року"
+  ],
+  [
+   1792589514.5813074,
+   "Панк-ветерани MXPX анонсували дванадцятий студійний альбом 'Living In The Chaos'"
+  ],
+  [
+   1792589516.5177808,
+   "Spotify видалив із рекомендацій понад 50 млн згенерованих штучним інтелектом треків: як сервіс маркує такі твори"
+  ],
+  [
+   1792589540.4712029,
+   "Beyond Good and Evil 2 досі перебуває на стадії раннього препродакшну"
+  ],
+  [
+   1792589568.7558181,
+   "Гравці Call of Duty: Modern Warfare 4 DMZ гинуть просто на спавні через ворожий транспорт"
+  ],
+  [
+   1792589587.1053002,
+   "У Лондоні відкриється перший постійний магазин Pokémon за межами Азії"
   ]
  ],
  "ukrainian": {
