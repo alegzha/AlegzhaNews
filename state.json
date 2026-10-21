@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1792566068.5241594
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1792566067.3885899
+  }
+ },
  "daily_digest_date": "2026-10-20",
  "freebies": {
   "last_check": 1792562498.5377233,
@@ -11,15 +24,12 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-21 06:37 UTC",
+  "at": "2026-10-21 07:07 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-lite-latest",
-  "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
-  },
+  "gemini_model": null,
+  "gemini_models_used": {},
   "used": [
-   "DeepL",
-   "Gemini"
+   "DeepL"
   ]
  },
  "post_log": [
@@ -7783,7 +7793,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Bullet For My Valentine та інші гурти поповнили лайнап Sonic Temple 2027</b>\n\nДо складу учасників фестивалю Sonic Temple 2027 долучилися Bullet For My Valentine, Sleep Theory та Point North. Подія пройде з 13 по 16 травня на Historic Crew Stadium у Колумбусі, штат Огайо.\n\n🔗 <a href=\"https://lambgoat.com/news/55443/bullet-for-my-valentine-sleep-theory-and-point-north-added-to-2027-sonic-temple-festival/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55443/bullet-for-my-valentine-sleep-theory-and-point-north-added-to-2027-sonic-temple-festival/",
     "orig": "Bullet For My Valentine, Sleep Theory, and Point North added to 2027 Sonic Temple festival"
@@ -7797,7 +7806,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>У Каліфорнії з вантажівки FedEx викрали колекційних карток майже на $1 мільйон</b>\n\n🔗 <a href=\"https://www.ign.com/articles/police-confirm-nearly-1-million-worth-of-trading-cards-stolen-in-psa-fedex-truck-heist\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/police-confirm-nearly-1-million-worth-of-trading-cards-stolen-in-psa-fedex-truck-heist",
     "orig": "Police Confirm Nearly $1 Million Worth of Trading Cards Stolen in PSA FedEx Truck Heist"
@@ -8628,6 +8636,34 @@
     "link": "https://github.com/DietrichGebert/ponytail",
     "orig": "DietrichGebert/ponytail"
    }
+  ],
+  [
+   1792566072.7266686,
+   1587,
+   "🎬",
+   "Ідріс Ельба тоне в космокапсулі у трейлері трилера Above the Below",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎬 <b>Ідріс Ельба тоне в космокапсулі у трейлері трилера Above the Below</b>\n\nСтудія Lionsgate випустила перший офіційний трейлер британського сурвайвал-трилера Above the Below. Стрічка привертає увагу тим, що лауреат премії “Золотий глобус” Ідріс Ельба не лише виконав головну роль, а й виступив співрежисером проєкту разом із Мартіном Овеном.\n\n🔗 <a href=\"https://itc.ua/ua/novini/idris-elba-tone-v-kosmokapsuli-u-trejleri-trylera-above-the-below/\">ITC.ua</a>\n\n#кіно_і_серіали",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/idris-elba-tone-v-kosmokapsuli-u-trejleri-trylera-above-the-below/",
+    "orig": "Ідріс Ельба тоне в космокапсулі у трейлері трилера Above the Below"
+   }
+  ],
+  [
+   1792566437.5356727,
+   1588,
+   "💾",
+   "Graphify-Labs/graphify",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>Graphify-Labs/graphify</b>\n\nПеретворіть будь-яку базу коду разом із документацією, схемами SQL, конфігураціями та PDF-файлами на граф знань із можливістю пошуку. Скіл /graphify для Claude Code, Cursor, Codex та Gemini CLI: локальний детермінований синтаксичний аналіз AST, пояснення кожного ребра, відсутність векторного сховища.\n\n🔗 <a href=\"https://github.com/Graphify-Labs/graphify\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/Graphify-Labs/graphify",
+    "orig": "Graphify-Labs/graphify"
+   }
   ]
  ],
  "posted_by_source": {
@@ -8855,12 +8891,12 @@
    1792558791.2251885
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
-   1792429313.945905,
    1792481489.2050688,
    1792492403.225274,
    1792496084.9827945,
    1792499499.6735861,
-   1792503139.4916646
+   1792503139.4916646,
+   1792566072.7270675
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
    1792512520.1111627,
@@ -9001,9 +9037,9 @@
    1792416696.5336893
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
-   1792479998.7440946,
    1792562496.5704088,
-   1792564650.3136039
+   1792564650.3136039,
+   1792566437.5361173
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1792499489.1538787,
@@ -9898,6 +9934,7 @@
   "728805a2e5a9bb3f": 1792418623.9499154,
   "7296523b15e7c982": 1792519257.0922356,
   "72c98e08d39d3d3a": 1792452699.7149482,
+  "72d173a31b873187": 1792566072.72702,
   "72d3a8732f3b2422": 1792413124.3567483,
   "72e1b3b52e200519": 1791636717.6413422,
   "72f2cd7f6fc3eb3f": 1792537278.9435394,
@@ -10694,6 +10731,7 @@
   "dd26a9579671ab18": 1792483302.2115438,
   "dd4a118cd1cf5fba": 1792429335.2482028,
   "dd4da5d2ce858f2f": 1792504888.0988407,
+  "dd6a9d14a094d159": 1792566437.5360692,
   "dd825df6e11b1f10": 1792310502.9209943,
   "dd8edeee41eaf92d": 1791966921.6536157,
   "dd8f2f3313228ce5": 1792089217.094236,
@@ -12155,10 +12193,10 @@
    "Eurogamer": 16,
    "GameSpot": 19,
    "GamesIndustry.biz": 9,
-   "GitHub Trending": 8,
+   "GitHub Trending": 9,
    "Hugging Face": 2,
    "IGN": 35,
-   "ITC.ua": 26,
+   "ITC.ua": 27,
    "IndieWire": 11,
    "Insider Gaming": 43,
    "Kerrang!": 14,
@@ -12183,7 +12221,7 @@
    "Variety": 12
   },
   "translators": {
-   "DeepL": 9,
+   "DeepL": 11,
    "gemini-flash-latest": 63,
    "gemini-flash-lite-latest": 495
   },
@@ -22483,7 +22521,6 @@
    "dlss 5",
    "dram",
    "galaxy s27",
-   "oneplus",
    "openai",
    "quantum systems",
    "spacex",
@@ -22493,6 +22530,7 @@
    "дрон",
    "китай",
    "кібербезпека",
+   "маркетплейс",
    "новини",
    "німеччина",
    "оборонка",
@@ -22501,20 +22539,13 @@
    "софт",
    "сша",
    "технології",
+   "укрпошта",
    "хакери",
    "штучний інтелект",
    "ігри"
   ]
  },
  "titles": [
-  [
-   1792393278.02416,
-   "Джейсон Судейкіс заінтригував заявою про майбутнє \"Теда Лассо\""
-  ],
-  [
-   1792393343.3355188,
-   "Kruk2/jasna"
-  ],
   [
    1792395090.88843,
    "croft"
@@ -24558,17 +24589,17 @@
   [
    1792564650.3134189,
    "DietrichGebert/ponytail"
+  ],
+  [
+   1792566072.7270222,
+   "Ідріс Ельба тоне в космокапсулі у трейлері трилера Above the Below"
+  ],
+  [
+   1792566437.536071,
+   "Graphify-Labs/graphify"
   ]
  ],
  "titles_uk": [
-  [
-   1792393278.0241609,
-   "Джейсон Судейкіс заінтригував заявою про майбутнє \"Теда Лассо\""
-  ],
-  [
-   1792393343.3355196,
-   "Jasna відновлює мозаїку на зображеннях та відео за допомогою GPU"
-  ],
   [
    1792395090.8884308,
    "Представлено croft"
@@ -26612,6 +26643,14 @@
   [
    1792564650.3134196,
    "Вийшов реліз Ponytail 5 для оптимізації роботи з Claude Code"
+  ],
+  [
+   1792566072.727023,
+   "Ідріс Ельба тоне в космокапсулі у трейлері трилера Above the Below"
+  ],
+  [
+   1792566437.5360723,
+   "Graphify-Labs/graphify"
   ]
  ],
  "ukrainian": {
