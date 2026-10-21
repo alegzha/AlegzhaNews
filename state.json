@@ -1,28 +1,10 @@
 {
  "alerts": {
-  "src:ai|The Decoder|https://the-decoder.com/feed/": {
-   "detail": "https://the-decoder.com/feed/ → HTTPSConnectionPool(host='the-decoder.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutEr",
-   "label": "Джерело «The Decoder» не працює",
-   "sent": 0,
-   "since": 1792600306.5448003
-  },
   "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
    "detail": "https://www.kerrang.com/feed.rss → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
    "label": "Джерело «Kerrang!» не працює",
    "sent": 0,
    "since": 1792567873.9496448
-  },
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1792600281.2967207
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1792600279.4778328
   }
  },
  "daily_digest_date": "2026-10-20",
@@ -36,11 +18,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-21 16:32 UTC",
+  "at": "2026-10-21 17:03 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 9
+   "gemini-flash-lite-latest": 13
   },
   "used": [
    "Gemini"
@@ -9341,7 +9323,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Бриджит Вест випустить новий альбом Brijitte West And The Greenowskis у листопаді</b>\n\nКолишня солістка NY LOOSE Бриджит Вест анонсувала новий альбом &quot;Brijitte West And The Greenowskis&quot;, який вийде 13 листопада. Птівка записана в Італії за участю місцевих рок-музикантів і містить 14 треків, включно з кавером на DEAD BOYS та акустичною версією пісні NY LOOSE.\n\n🔗 <a href=\"https://blabbermouth.net/news/former-ny-loose-frontwoman-brijitte-west-to-release-brijitte-west-and-the-greenowskis-album-in-november\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/former-ny-loose-frontwoman-brijitte-west-to-release-brijitte-west-and-the-greenowskis-album-in-november",
     "orig": "Former NY LOOSE Frontwoman BRIJITTE WEST To Release 'Brijitte West And The Greenowskis' Album In November"
@@ -9355,7 +9336,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b>Директор Dawn of War 4 розповів про колір обладунків Blood Ravens</b>\n\nРозробники Dawn of War 4 обрали чорний колір для символу imperialis на броні Blood Ravens. За словами ігрового директора Яна Тайсона, під час узгодження дизайну з Games Workshop майже не виникло дискусій щодо цього елемента лору.\n\n🔗 <a href=\"https://www.eurogamer.net/dawn-of-war-4-blood-ravens-space-marine-origins-questions\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/dawn-of-war-4-blood-ravens-space-marine-origins-questions",
     "orig": "Warhammer 40K fans have some very specific questions about the Blood Ravens' origins, so I put them to Dawn of War 4's director"
@@ -9369,7 +9349,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>Засновник Liquid Swords Крістофер Сундберг планує нову студію після банкрутства</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/3634520/\">Samson</a>\n\nПісля банкрутства та закриття студії Liquid Swords її засновник Крістофер Сундберг планує відкрити нову компанію. Він бачить її невеликою і хоче використовувати генеративний ШІ для прототипування та рутинних завдань, а не для заміни розробників.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/i-want-room-to-make-a-wrong-turn-following-samson-devs-bankruptcy-its-founder-is-considering-how-ai-might-factor-into-new-studio-plans\">Rock Paper Shotgun</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/i-want-room-to-make-a-wrong-turn-following-samson-devs-bankruptcy-its-founder-is-considering-how-ai-might-factor-into-new-studio-plans",
     "orig": "\"I want room to make a wrong turn\": Following Samson dev's bankruptcy, its founder is considering how AI might factor into new studio plans"
@@ -9383,7 +9362,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>CD <a href=\"https://store.steampowered.com/app/759000/\">Projekt</a> Red підтвердила час дії другого сезону Cyberpunk: Edgerunners</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/1091500/\">Cyberpunk 2077</a>\n\nЛормайстер CD Projekt Red Патрік Міллз повідомив, що другий сезон Cyberpunk: Edgerunners розгортається у 2078 році, невдовзі після подій Cyberpunk 2077. Це викликало обговорення серед фанатів щодо канонічних кінцівок гри, хоча студія не робить остаточного вибору щодо канону. Також для Cyberpunk 2077 анонсували тематичне оновлення з новими функціями.\n\n🔗 <a href=\"https://www.ign.com/articles/edgerunners-season-2-officially-set-after-cyberpunk-2077\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/edgerunners-season-2-officially-set-after-cyberpunk-2077",
     "orig": "CD Projekt's Cyberpunk 2077 Loremaster Confirms Year Edgerunners 2 Is Set, Sparking Fan Speculation About Canon Endings"
@@ -9397,7 +9375,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>ШІ-агент Perplexity навчився працювати з файлами та застосунками Mac без хмари</b>\n\nPerplexity Computer тепер може працювати на Mac повністю локально, без передавання особистих даних у хмару. ШІ-агент виконує багатоетапні завдання та працює з файлами й застосунками, але для цього рекомендують щонайменше 36 ГБ об’єднаної пам’яті.\n\n🔗 <a href=\"https://mezha.ua/news/perplexity-computer-local-mac-316382/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/perplexity-computer-local-mac-316382/",
     "orig": "ШІ-агент Perplexity навчився працювати з файлами та застосунками Mac без хмари"
@@ -9411,7 +9388,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/3837340/\">Final Fantasy VII</a>, <a href=\"https://store.steampowered.com/app/3590/\">Plants vs. Zombies</a> та інші ігри поповнять Game Pass у другій половині 2026 року</b>\n\nMicrosoft анонсувала, що у другій половині жовтня 2026 року каталог Game Pass поповнять Final Fantasy VII Remake Intergrade, Plants vs. Zombies: Replanted та багато інших проєктів.\n\n🔗 <a href=\"https://mezha.ua/news/xbox-game-pass-2-wave-for-october-2026-316390/\">Mezha</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://mezha.ua/news/xbox-game-pass-2-wave-for-october-2026-316390/",
     "orig": "Final Fantasy VII, Plants vs. Zombies та інші ігри поповнять Game Pass у другій половині 2026 року"
@@ -9425,7 +9401,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Панк-ветерани MXPX анонсували дванадцятий студійний альбом &#x27;Living In The Chaos&#x27;</b>\n\nЛегенди панк-року MXPX готуються до нового етапу й випустять свій дванадцятий альбом &#x27;Living In The Chaos&#x27; 29 січня. На підтримку релізу гурт уже відкрив передзамовлення та випустив сингл &#x27;Panic Attack...&#x27;\n\n🔗 <a href=\"https://blabbermouth.net/news/punk-veterans-mxpx-announce-12th-studio-album-living-in-the-chaos\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/punk-veterans-mxpx-announce-12th-studio-album-living-in-the-chaos",
     "orig": "Punk Veterans MXPX Announce 12th Studio Album 'Living In The Chaos'"
@@ -10129,7 +10104,12 @@
    "Cyberpunk 2077 отримує патч 2.5 з двома новими квестами та стрільбою з двох рук",
    "Rock Paper Shotgun",
    {
-    "also": [],
+    "also": [
+     [
+      "IGN",
+      "https://www.ign.com/articles/everything-coming-to-cyberpunk-2077-with-the-25-update-including-new-side-quests-new-double-trouble-perk-and-much-more"
+     ]
+    ],
     "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/1091500/\">Cyberpunk 2077</a> отримує патч 2.5 з двома новими квестами та стрільбою з двох рук</b>\n\nДля Cyberpunk 2077 виходить оновлення 2.5, присвячене виходу другого сезону аніме Cyberpunk Edgerunners. Патч додає приквел-квест Clampdown із контентом з аніме, сюжетну місію Welcome to Paradise, перк для стрільби з двох пістолетів чи револьверів, кастомізацію кібериплантів у спеціальних вендорів та кросплатформну підтримку модів.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/cyberpunk-2077s-edgerunners-2-update-adds-two-new-quests-handgun-dual-wielding-and-the-ability-to-pimp-your-mantis-blades\">Rock Paper Shotgun</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/cyberpunk-2077s-edgerunners-2-update-adds-two-new-quests-handgun-dual-wielding-and-the-ability-to-pimp-your-mantis-blades",
@@ -10205,6 +10185,109 @@
     "link": "https://mezha.ua/news/345000-writing-at-anthropic-316402/",
     "orig": "А як же ШІ? Anthropic шукає автора промов з платнею $345 000 на рік"
    }
+  ],
+  [
+   1792602109.7189715,
+   1702,
+   "🎮",
+   "IGN показав сім нових карт Magic: The Gathering Star Trek",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>IGN показав сім нових карт Magic: The Gathering Star Trek</b>\n\nWizards of the Coast готують до релізу 13 листопада новий кросовер Magic: The Gathering Star Trek. Видання IGN ексклюзивно презентувало сім карт із різних епох франшизи, зокрема артефакт &#x27;Tea, Earl Grey, Hot&#x27; та сорцері Mirror Universe Intrusion.\n\n🔗 <a href=\"https://www.ign.com/articles/exclusive-see-7-new-cards-from-magic-the-gathering-star-trek-including-1-that-remembers-the-most-iconic-drink-of-tng\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/exclusive-see-7-new-cards-from-magic-the-gathering-star-trek-including-1-that-remembers-the-most-iconic-drink-of-tng",
+    "orig": "Exclusive — See 7 New Cards From Magic: The Gathering Star Trek, Including 1 That Remembers the Most Iconic Drink of TNG"
+   }
+  ],
+  [
+   1792602126.2086222,
+   1703,
+   "🤘",
+   "Гітарист THE OFFSPRING Нудлс тимчасово залишає концертні виступи через проблеми зі здоров'ям",
+   "Blabbermouth",
+   {
+    "also": [
+     [
+      "Loudwire",
+      "https://loudwire.com/offspring-noodles-health-issue-statement/"
+     ]
+    ],
+    "caption": "🤘 <b>Гітарист THE OFFSPRING Нудлс тимчасово залишає концертні виступи через проблеми зі здоров&#x27;ям</b>\n\nКевін Нудлс Вассерман призупиняє участь у живих виступах THE OFFSPRING через раптову та серйозну проблему зі здоров&#x27;ям. Гурт підтримує музиканта й продовжить концерти без нього, тоді як сам гітарист планує повернутися на сцену щойно це стане можливим.\n\n🔗 <a href=\"https://blabbermouth.net/news/the-offspring-guitarist-noodles-to-step-away-from-live-performances-due-to-fairly-serious-health-issue\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/the-offspring-guitarist-noodles-to-step-away-from-live-performances-due-to-fairly-serious-health-issue",
+    "orig": "THE OFFSPRING Guitarist NOODLES To 'Step Away From Live Performances' Due To 'Fairly Serious Health Issue'"
+   }
+  ],
+  [
+   1792602151.7004068,
+   1704,
+   "🤘",
+   "Читачі обрали найкращі straight-edge пісні всіх часів",
+   "Revolver",
+   {
+    "also": [],
+    "caption": "🤘 <b>Читачі обрали найкращі straight-edge пісні всіх часів</b>\n\nВидання Revolver провело опитування серед читачів, щоб визначити найкращі straight-edge антеми в історії жанру. До списку увійшли такі знакові треки, як «X&#x27;s Always Wins» від Carry On та «Forever» гурту Throwdown.\n\n🔗 <a href=\"https://www.revolvermag.com/feature/fan-poll-top-5-straight-edge-songs-of-all-time/\">Revolver</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.revolvermag.com/feature/fan-poll-top-5-straight-edge-songs-of-all-time/",
+    "orig": "Fan poll: Top 5 straight-edge songs of all time"
+   }
+  ],
+  [
+   1792602160.9649513,
+   1705,
+   "🤘",
+   "Evil Invaders анонсували новий альбом Weaponized Chaos",
+   "Distorted Sound",
+   {
+    "also": [],
+    "caption": "🤘 <b>Evil Invaders анонсували новий альбом Weaponized Chaos</b>\n\nБельгійський метал-гурт Evil Invaders випустить альбом Weaponized Chaos 19 лютого 2027 року на лейблі Napalm Records. Продюсером релізу знову виступив Francesco Paoli з FLESHGOD APOCALYPSE. Разом із анонсом музиканти презентували новий сингл і кліп D.S.S. (Death Strikes Suddenly).\n\n🔗 <a href=\"https://distortedsoundmag.com/evil-invaders-announce-new-album-weaponized-chaos/\">Distorted Sound</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://distortedsoundmag.com/evil-invaders-announce-new-album-weaponized-chaos/",
+    "orig": "Evil Invaders announce new album ‘Weaponized Chaos’"
+   }
+  ],
+  [
+   1792602171.6550539,
+   1706,
+   "🎮",
+   "Біля штаб-квартири PSA вкрали картки Pokémon та інших TCG на $1 мільйон",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Біля штаб-квартири PSA вкрали картки Pokémon та інших TCG на $1 мільйон</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/4513280/\">Pok</a>\n\nУ Санта-Ана вантажівка FedEx із палетами колекційних карток, зокрема Pokémon, була пограбована просто біля офісу PSA. Злочинці зламали замок і викрали посилки вартістю близько $963 000, поки водій залишив авто без нагляду. Компанія PSA пообіцяла повернути постраждалим клієнтам кошти за ринковою вартістю та деактивувала сертифікати викрадених товарів.\n\n🔗 <a href=\"https://www.pcgamer.com/gaming-industry/nearly-usd1-million-worth-of-psa-graded-pokemon-and-other-tcg-have-been-stolen-right-outside-psas-headquarters/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/gaming-industry/nearly-usd1-million-worth-of-psa-graded-pokemon-and-other-tcg-have-been-stolen-right-outside-psas-headquarters/",
+    "orig": "Nearly $1 million worth of PSA-graded Pokémon and other TCG have been stolen right outside PSA's headquarters"
+   }
+  ],
+  [
+   1792602178.4792018,
+   1707,
+   "🎮",
+   "Soulslike Valor Mortis окупився за тиждень після релізу",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Soulslike <a href=\"https://store.steampowered.com/app/2828710/\">Valor Mortis</a> окупився за тиждень після релізу</b>\n\nРозробник One More Level повідомив, що першоособовий Soulslike Valor Mortis досяг безуспішності та окупив витрати на виробництво всього за сім днів. Гра вийшла попри жорстку конкуренцію у насичений релізами період на PC, PS5, Xbox Series X/S та в Game Pass із цінником у $40.\n\n🔗 <a href=\"https://www.eurogamer.net/soulslike-valor-mortis-making-profit-seven-days\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/soulslike-valor-mortis-making-profit-seven-days",
+    "orig": "First-person Soulslike Valor Mortis is already making a profit after seven days, despite launching against some stiff competition"
+   }
+  ],
+  [
+   1792602188.7235575,
+   1708,
+   "🤘",
+   "У грі Stage Tour з'являться треки Volbeat, Trivium і Silverstein",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>У грі Stage Tour з&#x27;являться треки Volbeat, Trivium і Silverstein</b>\n\nСетліст музичної гри Stage Tour поповнився новими треками від Volbeat, Trivium і Silverstein, а також композицією від Steve Ouimette &amp; The Stage Crew. Загалом у проєкті очікується понад 90 пісень, а реліз гри на кількох платформах відбудеться 10 грудня.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/21/news/volbeat-trivium-silverstein-tracks-announced-for-upcoming-stage-tour-video-game/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/21/news/volbeat-trivium-silverstein-tracks-announced-for-upcoming-stage-tour-video-game/",
+    "orig": "Volbeat, Trivium & Silverstein Tracks Announced For Upcoming ‘Stage Tour’ Video Game"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10263,7 +10346,8 @@
    1792593158.2692487,
    1792598896.2873588,
    1792600323.739381,
-   1792600327.8495736
+   1792600327.8495736,
+   1792602178.4796197
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1792515841.0276558,
@@ -10277,9 +10361,6 @@
    1792591456.2146332
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1792512225.2018263,
-   1792512260.0636241,
-   1792512381.1285782,
    1792515737.984392,
    1792515809.7722137,
    1792519324.46763,
@@ -10297,7 +10378,8 @@
    1792595060.6959822,
    1792595149.7852027,
    1792598609.305643,
-   1792598624.3893754
+   1792598624.3893754,
+   1792602109.7194283
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1792573282.3710647,
@@ -10323,8 +10405,6 @@
    1792587744.2917686
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1792514028.1424417,
-   1792514102.9533007,
    1792515945.3505015,
    1792521181.6281078,
    1792530132.082513,
@@ -10335,7 +10415,8 @@
    1792582316.2283695,
    1792582321.312972,
    1792585899.6592028,
-   1792600342.6887717
+   1792600342.6887717,
+   1792602171.655496
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1792506133.2829854,
@@ -10437,7 +10518,6 @@
    1792531910.433771
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1792512352.062619,
    1792517500.7422256,
    1792517519.6116097,
    1792517745.44848,
@@ -10452,7 +10532,8 @@
    1792593106.2942526,
    1792594919.0379844,
    1792595216.3429565,
-   1792598682.8852985
+   1792598682.8852985,
+   1792602126.208873
   ],
   "music|Decibel|https://www.decibelmagazine.com/feed/": [
    1792512549.7400725,
@@ -10462,12 +10543,12 @@
    1792598929.913488
   ],
   "music|Distorted Sound|https://distortedsoundmag.com/feed/": [
-   1792488807.5711834,
    1792526497.890399,
    1792528364.491224,
    1792530155.9754956,
    1792537323.1089296,
-   1792573292.1311743
+   1792573292.1311743,
+   1792602160.9654
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
    1792490491.2004619,
@@ -10529,7 +10610,8 @@
   ],
   "music|Revolver|https://www.revolvermag.com/rss.xml": [
    1792530135.5961146,
-   1792593171.8919258
+   1792593171.8919258,
+   1792602151.7008264
   ],
   "music|Stereogum|https://www.stereogum.com/feed/": [
    1792528327.9051118,
@@ -10537,14 +10619,14 @@
    1792533691.8920646
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1792514127.1408508,
    1792515962.2673838,
    1792521140.0821364,
    1792528355.177721,
    1792530124.0680697,
    1792530138.849021,
    1792564646.7948623,
-   1792600339.5464852
+   1792600339.5464852,
+   1792602188.7239652
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1792481487.1423821
@@ -10724,6 +10806,7 @@
   "0f96a0b18b98aa31": 1792021742.0624373,
   "0f987d34a772cb17": 1792129302.1676087,
   "0fa4010b28e3904c": 1792598943.1812794,
+  "0fa45fea11966e8e": 1792602087.749531,
   "0fb395b0348ea26f": 1792503139.4916189,
   "0fb5afc9bafc377e": 1792582332.9974902,
   "0fe5f85f95c8a50e": 1792427457.9128094,
@@ -10908,6 +10991,7 @@
   "25a585ffc2b0ebbb": 1792524236.8654618,
   "25ad139a62ddf1d5": 1792256236.5595405,
   "25c103cfe1ad1a14": 1792302826.7270093,
+  "25ec952046fea6ce": 1792602163.9869125,
   "25ee40d690e0789c": 1792595408.8585925,
   "260792e48c0067cf": 1792264328.6798184,
   "26178307c3a733cb": 1792129286.801951,
@@ -10948,6 +11032,7 @@
   "2a75e987f0592ec1": 1792523067.4261246,
   "2a92495361b711e7": 1792188098.4192889,
   "2a96f7e807660e6e": 1791969576.7133026,
+  "2a9cbb769efce1d7": 1792602149.681719,
   "2b19b229ca801ef0": 1792420313.5076067,
   "2b358bf4a24f158d": 1792373482.0074277,
   "2b35bfd511e805ac": 1792598972.7557514,
@@ -11153,11 +11238,13 @@
   "416ff62f34be9267": 1791978154.7173588,
   "4171abb5768cb121": 1791636717.6413395,
   "417ec62257d54cf2": 1792427640.6575158,
+  "4197440613268214": 1792602171.6554472,
   "41d0d6c65652a908": 1791932390.5007298,
   "41d9141846fea3d3": 1792441875.1472027,
   "41e53eac4f258a0e": 1791969308.2585855,
   "41e6c9020839e754": 1791957518.9722712,
   "4205818aacb7e1ce": 1792111201.8760307,
+  "42332ffa952150cc": 1792602188.7239175,
   "425255b9a12a1dfb": 1792324878.800409,
   "4305ce6b081ab3b8": 1791678235.0223486,
   "4308794c00b9739c": 1792494193.1181586,
@@ -11376,6 +11463,7 @@
   "5c057de4471e7288": 1792281275.1902585,
   "5c264083e6be8f2c": 1792468979.206972,
   "5c5b749f46a69c8d": 1792432924.2754538,
+  "5c68d336f050bb23": 1792602178.47957,
   "5c6f8fb4863d218c": 1792530120.8728924,
   "5c72f265a0aa2c46": 1791853970.397,
   "5c7a726a5a7ee37d": 1791908440.5392518,
@@ -11443,10 +11531,12 @@
   "6493db8ebec19045": 1791931838.1151102,
   "64c69c7f286e038e": 1791975111.976966,
   "65204864cf959ab4": 1792411287.4031787,
+  "652445e0adc0bdb8": 1792602055.3345523,
   "6550ed6dcac1527a": 1792350089.0116603,
   "65bdc00f3b608153": 1792009871.5961525,
   "65cfe6c7f6dcf47c": 1792578690.2444518,
   "65e32dabe8c37cf0": 1792575429.387394,
+  "65e920d92cb33372": 1792602109.7193775,
   "65ffd44f3efd6496": 1792517456.0833268,
   "660eea7d78b3b20b": 1792314118.2275941,
   "661a1c657598e479": 1791959776.1036835,
@@ -11616,6 +11706,7 @@
   "77c11e8bf98f3bda": 1792009812.0748243,
   "77ca31800fd0d914": 1792359111.4405072,
   "77d82ef03c08d4fe": 1792249923.9539692,
+  "77ea647e63de69c0": 1792602160.9653478,
   "77ee6e21da1d2427": 1791926744.4915335,
   "77fc51074b92550a": 1792440153.3597417,
   "77fc727769a7c744": 1791908454.9692664,
@@ -11656,6 +11747,7 @@
   "7b9f08ab65f9bf9f": 1792492410.6357894,
   "7bbde5196136a2a2": 1792531876.6129727,
   "7bbfbf099e78d408": 1792197842.1207352,
+  "7c19b4a4a43a0cf2": 1792602151.7007782,
   "7c215e606a562a9c": 1791932421.0418994,
   "7c314ebc3acca3b9": 1792557086.9620264,
   "7c394aec724629e0": 1792306035.8836083,
@@ -11859,6 +11951,7 @@
   "92a0f5a7afd7f6ba": 1792352386.1310177,
   "92b3b7da377e79e4": 1792427654.4568613,
   "92f0201c35afafce": 1791931686.796419,
+  "931384b7abb9b9ac": 1792602187.157544,
   "93272459614bf6a4": 1792523015.6261346,
   "9349733d05eabfc4": 1792494183.9025233,
   "93498f4f3bc42a3c": 1792314110.6406078,
@@ -11984,6 +12077,7 @@
   "a39d997a4ae688ad": 1792497708.7723825,
   "a3a9efef137d4a73": 1792524281.4419186,
   "a424e0bf4e1ff5f8": 1791638763.492404,
+  "a436283098191986": 1792602126.2088206,
   "a4c265c1e61f0eae": 1791643484.7724442,
   "a4c88c3620b9a63b": 1792352399.3988242,
   "a50f513209c9b682": 1792129317.7506115,
@@ -12236,7 +12330,9 @@
   "c49c93d616ebdc63": 1792442025.7370734,
   "c49fefea2e336264": 1791831141.1045146,
   "c4c0033e8848c44c": 1791750764.3340223,
+  "c4dadb1b913f3da3": 1792602055.3345523,
   "c4fc51b2a10bea89": 1792416700.7282534,
+  "c4fdd3e6f0df6d31": 1792602119.3538473,
   "c4fe98c29187e11b": 1791993734.0742705,
   "c51b15d9e6fcf624": 1791957552.1866417,
   "c53267ad2de766ba": 1791968061.1901526,
@@ -12280,6 +12376,7 @@
   "ca925f90135eae9c": 1791643484.7724442,
   "cb0de650dca9c67f": 1791927001.6132205,
   "cb27ca09220fad50": 1791994369.4845452,
+  "cb4077b3139b001b": 1792602087.7482922,
   "cb52506e69ae0831": 1791931842.321884,
   "cb55cfc06c049dd9": 1791722086.6412292,
   "cb56e6dbf6c28c6a": 1792531913.3430996,
@@ -12324,6 +12421,7 @@
   "d0a6e1a52572f04a": 1791668286.5554988,
   "d0afa6a0199e1b9b": 1791722079.537371,
   "d0b0527bd501bf30": 1791929870.7550807,
+  "d102f678acd189d1": 1792602055.3345523,
   "d10e2fabf12fc77d": 1792164654.2928543,
   "d13956cf2bc3dd2e": 1792335697.3942869,
   "d163355f477574f5": 1792429279.0000045,
@@ -12365,6 +12463,7 @@
   "d5b13cbbed3ae788": 1792459891.842464,
   "d5b6113a99bacfe2": 1792517815.3037057,
   "d5e0b1582d85851f": 1791643484.7724442,
+  "d6100e09e1eb7649": 1792602101.7755303,
   "d64fabbf9cc5f0a7": 1792411307.9702215,
   "d6a635d869dbaeb0": 1791831077.3083286,
   "d6b8ad257f4bab95": 1791815091.7113955,
@@ -12484,6 +12583,7 @@
   "e3b80d3d81165538": 1792164613.3894355,
   "e41245ff660ecc5e": 1792411305.9608705,
   "e44466260f0b3f14": 1792427486.7053337,
+  "e44bf404aded39db": 1792602124.4728942,
   "e45e8d7d3b5fe1f2": 1792487057.804484,
   "e463138d1f55a6a0": 1792522879.8138556,
   "e473e2d92085a8c9": 1792244071.6444137,
@@ -12524,6 +12624,7 @@
   "e74f16aff7c8f4f1": 1791969580.967872,
   "e77cf00f4e837f33": 1791989226.340799,
   "e79e07bc05383583": 1792519386.1336036,
+  "e7a020127cd03098": 1792602087.7565956,
   "e7bb2a2d438030c2": 1792438374.8593967,
   "e7e162682d23a3e6": 1792145477.8874452,
   "e7ec2c1fc20d94fd": 1792360891.393675,
@@ -13157,7 +13258,7 @@
   ],
   "artists_checked": 1792591962.3066845,
   "blocked_until": 1792591591.7586727,
-  "cursor": 339,
+  "cursor": 349,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
     "0CVnhwtOpdoIkOatkGcVwO",
@@ -13891,7 +13992,8 @@
    "Bloomberg": 2,
    "Deadline": 3,
    "GamesIndustry.biz": 2,
-   "Insider Gaming": 13,
+   "IGN": 1,
+   "Insider Gaming": 15,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 4,
@@ -13901,20 +14003,20 @@
   "sources": {
    "/Film": 20,
    "AIN.ua": 4,
-   "Blabbermouth": 39,
+   "Blabbermouth": 40,
    "Bloomberg": 28,
    "DOU": 2,
    "DOU Gamedev": 3,
    "Deadline": 39,
    "Decibel": 9,
    "Digital Foundry": 5,
-   "Distorted Sound": 10,
-   "Eurogamer": 25,
+   "Distorted Sound": 11,
+   "Eurogamer": 26,
    "GameSpot": 21,
    "GamesIndustry.biz": 12,
    "GitHub Trending": 14,
    "Hugging Face": 4,
-   "IGN": 41,
+   "IGN": 42,
    "ITC.ua": 33,
    "IndieWire": 12,
    "Insider Gaming": 48,
@@ -13925,24 +14027,24 @@
    "Metal Injection": 6,
    "MetalSucks": 1,
    "Mezha": 32,
-   "PC Gamer": 35,
+   "PC Gamer": 36,
    "Pitchfork": 4,
    "PlayUA": 17,
    "Polygon": 21,
    "Product Hunt": 14,
-   "Revolver": 3,
+   "Revolver": 4,
    "Rock Paper Shotgun": 23,
    "SteamDB": 1,
    "Stereogum": 6,
    "The Decoder": 15,
-   "ThePRP": 21,
+   "ThePRP": 22,
    "VGC": 19,
    "Variety": 12
   },
   "translators": {
    "DeepL": 15,
    "gemini-flash-latest": 69,
-   "gemini-flash-lite-latest": 602
+   "gemini-flash-lite-latest": 615
   },
   "week": "2026-W43"
  },
@@ -14287,6 +14389,26 @@
    "",
    1792429304.2259548
   ],
+  "q:10 on nintendo": [
+   0,
+   "",
+   1792602093.9019964
+  ],
+  "q:10 on nintendo switch": [
+   0,
+   "",
+   1792602093.415479
+  ],
+  "q:10 on nintendo switch sports": [
+   0,
+   "",
+   1792602092.9015343
+  ],
+  "q:10 on nintendo switch sports resort": [
+   0,
+   "",
+   1792602092.402676
+  ],
   "q:10 years after": [
    339240,
    "10 Years After",
@@ -14326,11 +14448,6 @@
    0,
    "",
    1792515815.3897784
-  ],
-  "q:12": [
-   0,
-   "",
-   1792427594.842539
   ],
   "q:12 4 pin": [
    0,
@@ -14957,25 +15074,35 @@
    "",
    1792521201.5082173
   ],
-  "q:6's dating": [
-   0,
-   "",
-   1792429287.7286565
-  ],
-  "q:6's dating system": [
-   0,
-   "",
-   1792429287.2095654
-  ],
-  "q:6's dating system incoming": [
-   0,
-   "",
-   1792429286.3790443
-  ],
   "q:630": [
    0,
    "",
    1792589570.7575183
+  ],
+  "q:7": [
+   0,
+   "",
+   1792602107.1296606
+  ],
+  "q:7 new": [
+   0,
+   "",
+   1792602106.6354153
+  ],
+  "q:7 new cards": [
+   0,
+   "",
+   1792602106.1385858
+  ],
+  "q:7 new cards from": [
+   0,
+   "",
+   1792602105.6423385
+  ],
+  "q:7 new cards from magic": [
+   0,
+   "",
+   1792602105.166393
   ],
   "q:80": [
    0,
@@ -15101,11 +15228,6 @@
    0,
    "",
    1792442042.7601342
-  ],
-  "q:age": [
-   0,
-   "",
-   1792427556.4385164
   ],
   "q:agent": [
    0,
@@ -15437,16 +15559,6 @@
    "Athanasia",
    1792409515.1002765
   ],
-  "q:auto": [
-   0,
-   "",
-   1792427691.9446154
-  ],
-  "q:auto london": [
-   0,
-   "",
-   1792427691.4640331
-  ],
   "q:autumn": [
    0,
    "",
@@ -15541,11 +15653,6 @@
    1475300,
    "Barbarian",
    1792427557.9259946
-  ],
-  "q:bare chested fighters": [
-   0,
-   "",
-   1792427554.8639722
   ],
   "q:barker feared new game would": [
    0,
@@ -15692,21 +15799,6 @@
    "",
    1792600319.2007625
   ],
-  "q:biddy blas is": [
-   0,
-   "",
-   1792427608.7393017
-  ],
-  "q:biddy blas is voiced": [
-   0,
-   "",
-   1792427608.2694218
-  ],
-  "q:biddy blas is voiced by": [
-   0,
-   "",
-   1792427607.7999184
-  ],
   "q:big walk": [
    1478500,
    "Big Walk",
@@ -15782,26 +15874,6 @@
    "",
    1792463483.8511817
   ],
-  "q:blas is": [
-   0,
-   "",
-   1792427610.6353366
-  ],
-  "q:blas is voiced": [
-   0,
-   "",
-   1792427610.1625085
-  ],
-  "q:blas is voiced by": [
-   0,
-   "",
-   1792427609.684985
-  ],
-  "q:blas is voiced by a sinister": [
-   0,
-   "",
-   1792427609.2143707
-  ],
   "q:blasts": [
    0,
    "",
@@ -15866,16 +15938,6 @@
    1113710,
    "Boss Rush",
    1792413147.0418508
-  ],
-  "q:boss rush and tons": [
-   0,
-   "",
-   1792427646.988472
-  ],
-  "q:boss rush and tons of difficulty": [
-   0,
-   "",
-   1792427646.513919
   ],
   "q:boxing": [
    0,
@@ -15991,11 +16053,6 @@
    0,
    "",
    1792580509.9800456
-  ],
-  "q:canadian": [
-   0,
-   "",
-   1792427686.890326
   ],
   "q:captures": [
    1712680,
@@ -16126,26 +16183,6 @@
    1044120,
    "Changes",
    1791920807.5606358
-  ],
-  "q:changing how": [
-   0,
-   "",
-   1792427661.9081635
-  ],
-  "q:changing how hard": [
-   0,
-   "",
-   1792427661.4361763
-  ],
-  "q:changing how hard mode": [
-   0,
-   "",
-   1792427660.8389425
-  ],
-  "q:changing how hard mode works": [
-   0,
-   "",
-   1792427660.3618035
   ],
   "q:charting": [
    0,
@@ -16357,6 +16394,21 @@
    "",
    1792591365.3995013
   ],
+  "q:coming to cyberpunk": [
+   0,
+   "",
+   1792602115.1776521
+  ],
+  "q:coming to cyberpunk 2077": [
+   0,
+   "",
+   1792602114.709115
+  ],
+  "q:coming to cyberpunk 2077 with": [
+   0,
+   "",
+   1792602114.2193701
+  ],
   "q:company": [
    0,
    "",
@@ -16376,16 +16428,6 @@
    0,
    "",
    1792447330.7074506
-  ],
-  "q:conan": [
-   0,
-   "",
-   1792427557.4275625
-  ],
-  "q:conan the barbarian": [
-   0,
-   "",
-   1792427556.9157495
   ],
   "q:confirm": [
    0,
@@ -16731,6 +16773,21 @@
    0,
    "",
    1792600344.6681361
+  ],
+  "q:cyberpunk 2077 with": [
+   0,
+   "",
+   1792602116.7290099
+  ],
+  "q:cyberpunk 2077 with the 2 5": [
+   0,
+   "",
+   1792602116.2204974
+  ],
+  "q:cyberpunk 2077 with the 2 5 update": [
+   0,
+   "",
+   1792602115.6981394
   ],
   "q:cyberpunk 2077's edgerunners": [
    0,
@@ -17232,11 +17289,6 @@
    "",
    1792531888.1798491
   ],
-  "q:diy": [
-   0,
-   "",
-   1792427594.325307
-  ],
   "q:dlc features": [
    0,
    "",
@@ -17346,11 +17398,6 @@
    0,
    "",
    1792593207.1137621
-  ],
-  "q:dragon age": [
-   0,
-   "",
-   1792427555.9050405
   ],
   "q:dragon ball xenoverse 3": [
    1857810,
@@ -17717,6 +17764,31 @@
    "",
    1792515917.4988134
   ],
+  "q:everything": [
+   582270,
+   "Everything",
+   1792602113.732813
+  ],
+  "q:everything coming": [
+   0,
+   "",
+   1792602113.249277
+  ],
+  "q:everything coming to cyberpunk": [
+   0,
+   "",
+   1792602112.775416
+  ],
+  "q:everything coming to cyberpunk 2077": [
+   0,
+   "",
+   1792602112.2994611
+  ],
+  "q:everything coming to cyberpunk 2077 with": [
+   0,
+   "",
+   1792602111.8157668
+  ],
   "q:evil": [
    0,
    "",
@@ -18012,16 +18084,6 @@
    "FINAL FANTASY VII REVELATION",
    1792427657.4477456
   ],
-  "q:final fantasy 7 revelation is": [
-   0,
-   "",
-   1792427656.9678075
-  ],
-  "q:final fantasy 7 revelation is changing": [
-   0,
-   "",
-   1792427656.4330888
-  ],
   "q:final fantasy 7 revelation's hard": [
    0,
    "",
@@ -18161,6 +18223,21 @@
    0,
    "",
    1792519345.3167772
+  ],
+  "q:first person soulslike": [
+   0,
+   "",
+   1792602174.5948267
+  ],
+  "q:first person soulslike valor": [
+   0,
+   "",
+   1792602174.1214857
+  ],
+  "q:first person soulslike valor mortis": [
+   0,
+   "",
+   1792602173.6342824
   ],
   "q:first preview": [
    0,
@@ -18717,11 +18794,6 @@
    "",
    1792584093.4066396
   ],
-  "q:gets": [
-   0,
-   "",
-   1792427646.0378263
-  ],
   "q:gets a free": [
    0,
    "",
@@ -18741,21 +18813,6 @@
    0,
    "",
    1792591564.5281305
-  ],
-  "q:gets boss": [
-   0,
-   "",
-   1792427645.5458963
-  ],
-  "q:gets boss rush": [
-   0,
-   "",
-   1792427645.0587037
-  ],
-  "q:gets boss rush and tons": [
-   0,
-   "",
-   1792427644.5808957
   ],
   "q:getting": [
    0,
@@ -18832,21 +18889,6 @@
    "Gothic 3 Classic",
    1791957571.1018283
   ],
-  "q:grand": [
-   0,
-   "",
-   1792427689.5099504
-  ],
-  "q:grand theft": [
-   0,
-   "",
-   1792427688.9607935
-  ],
-  "q:grand theft auto": [
-   0,
-   "",
-   1792427688.458514
-  ],
   "q:grand theft auto 4": [
    12210,
    "Grand Theft Auto IV: The Complete Edition",
@@ -18856,11 +18898,6 @@
    3240220,
    "Grand Theft Auto V Enhanced",
    1792431115.9327633
-  ],
-  "q:grand theft auto london": [
-   0,
-   "",
-   1792427687.872059
   ],
   "q:gray zone warfare": [
    2479810,
@@ -18881,6 +18918,21 @@
    0,
    "",
    1792598798.0336976
+  ],
+  "q:gray zone warfare's rogue": [
+   0,
+   "",
+   1792602181.580588
+  ],
+  "q:gray zone warfare's rogue ops": [
+   0,
+   "",
+   1792602180.952016
+  ],
+  "q:gray zone warfare's rogue ops update": [
+   0,
+   "",
+   1792602180.4774652
   ],
   "q:griffin gaming": [
    0,
@@ -19006,21 +19058,6 @@
    0,
    "",
    1792521199.9185858
-  ],
-  "q:gta 6's dating": [
-   0,
-   "",
-   1792429285.8733974
-  ],
-  "q:gta 6's dating system": [
-   0,
-   "",
-   1792429285.354921
-  ],
-  "q:gta 6's dating system incoming": [
-   0,
-   "",
-   1792429284.849626
   ],
   "q:h7607": [
    0,
@@ -19372,11 +19409,6 @@
    "",
    1792585924.1543753
   ],
-  "q:i was a real anglophile": [
-   0,
-   "",
-   1792427686.4047186
-  ],
   "q:if steam is": [
    0,
    "",
@@ -19527,31 +19559,6 @@
    "",
    1792591302.292446
   ],
-  "q:is changing": [
-   0,
-   "",
-   1792427659.8848174
-  ],
-  "q:is changing how": [
-   0,
-   "",
-   1792427659.3942397
-  ],
-  "q:is changing how hard": [
-   0,
-   "",
-   1792427658.9177823
-  ],
-  "q:is changing how hard mode": [
-   0,
-   "",
-   1792427658.4260867
-  ],
-  "q:is changing how hard mode works": [
-   0,
-   "",
-   1792427657.96058
-  ],
   "q:is control": [
    0,
    "",
@@ -19686,26 +19693,6 @@
    0,
    "",
    1792593205.6090152
-  ],
-  "q:is voiced": [
-   0,
-   "",
-   1792427612.5339065
-  ],
-  "q:is voiced by": [
-   0,
-   "",
-   1792427612.0509481
-  ],
-  "q:is voiced by a sinister": [
-   0,
-   "",
-   1792427611.5786352
-  ],
-  "q:is voiced by a sinister circus": [
-   0,
-   "",
-   1792427611.1074
   ],
   "q:israel": [
    0,
@@ -19887,16 +19874,6 @@
    "",
    1792506256.2191982
   ],
-  "q:ken": [
-   0,
-   "",
-   1792427575.8530006
-  ],
-  "q:ken kutaragi": [
-   0,
-   "",
-   1792427575.343905
-  ],
   "q:killer": [
    0,
    "",
@@ -19977,11 +19954,6 @@
    "",
    1792497687.894085
   ],
-  "q:kutaragi": [
-   0,
-   "",
-   1792427576.4080935
-  ],
   "q:la noire": [
    0,
    "",
@@ -20021,6 +19993,21 @@
    0,
    "",
    1792595222.8432467
+  ],
+  "q:last chance": [
+   4383640,
+   "Last Chance",
+   1792602089.4169412
+  ],
+  "q:last chance to save": [
+   0,
+   "",
+   1792602088.8685775
+  ],
+  "q:last chance to save 10": [
+   0,
+   "",
+   1792602088.3734982
   ],
   "q:league of legends mel": [
    0,
@@ -20507,16 +20494,6 @@
    "",
    1792523021.7701955
   ],
-  "q:mentality issue": [
-   0,
-   "",
-   1792427574.820619
-  ],
-  "q:metaphor for": [
-   0,
-   "",
-   1792427574.352171
-  ],
   "q:metro 2039": [
    2590240,
    "METRO 2039",
@@ -20797,6 +20774,11 @@
    "",
    1792595223.4399202
   ],
+  "q:nearly 1": [
+   0,
+   "",
+   1792602164.5000508
+  ],
   "q:nearly 1 million worth of trading": [
    0,
    "",
@@ -20856,6 +20838,11 @@
    0,
    "",
    1792512292.4080656
+  ],
+  "q:new cards from magic": [
+   0,
+   "",
+   1792602107.6060462
   ],
   "q:new developer": [
    0,
@@ -21276,6 +21263,21 @@
    0,
    "",
    1792497731.5212207
+  ],
+  "q:ops update has me": [
+   0,
+   "",
+   1792602186.0588114
+  ],
+  "q:ops update has me fully": [
+   0,
+   "",
+   1792602185.5196977
+  ],
+  "q:ops update has me fully invested": [
+   0,
+   "",
+   1792602185.043693
   ],
   "q:outlast": [
    238320,
@@ -22002,6 +22004,16 @@
    "",
    1792442039.6233437
   ],
+  "q:psa graded": [
+   0,
+   "",
+   1792602165.4551656
+  ],
+  "q:psa graded pok": [
+   0,
+   "",
+   1792602164.9722066
+  ],
   "q:psa responds": [
    0,
    "",
@@ -22557,6 +22569,36 @@
    "",
    1792431133.7521033
   ],
+  "q:rogue": [
+   0,
+   "",
+   1792602184.5492206
+  ],
+  "q:rogue ops": [
+   0,
+   "",
+   1792602184.0533178
+  ],
+  "q:rogue ops update": [
+   0,
+   "",
+   1792602183.5588696
+  ],
+  "q:rogue ops update has": [
+   0,
+   "",
+   1792602183.0577335
+  ],
+  "q:rogue ops update has me": [
+   0,
+   "",
+   1792602182.586839
+  ],
+  "q:rogue ops update has me fully": [
+   0,
+   "",
+   1792602182.082847
+  ],
   "q:role": [
    0,
    "",
@@ -22682,26 +22724,6 @@
    "",
    1792582319.2537167
   ],
-  "q:saros gets": [
-   0,
-   "",
-   1792427644.110623
-  ],
-  "q:saros gets boss": [
-   0,
-   "",
-   1792427643.617173
-  ],
-  "q:saros gets boss rush": [
-   0,
-   "",
-   1792427643.1405704
-  ],
-  "q:saros gets boss rush and tons": [
-   0,
-   "",
-   1792427642.652978
-  ],
   "q:saros zenith update with boss rush": [
    0,
    "",
@@ -22711,6 +22733,31 @@
    526870,
    "Satisfactory",
    1791853950.2996902
+  ],
+  "q:save": [
+   0,
+   "",
+   1792602091.9157012
+  ],
+  "q:save 10": [
+   0,
+   "",
+   1792602091.406189
+  ],
+  "q:save 10 on nintendo": [
+   0,
+   "",
+   1792602090.9291372
+  ],
+  "q:save 10 on nintendo switch": [
+   0,
+   "",
+   1792602090.4628253
+  ],
+  "q:save 10 on nintendo switch sports": [
+   0,
+   "",
+   1792602089.9920638
   ],
   "q:scariest": [
    0,
@@ -22777,6 +22824,36 @@
    "",
    1792508563.365721
   ],
+  "q:see": [
+   0,
+   "",
+   1792602104.6904495
+  ],
+  "q:see 7": [
+   0,
+   "",
+   1792602104.1812549
+  ],
+  "q:see 7 new": [
+   0,
+   "",
+   1792602103.7021887
+  ],
+  "q:see 7 new cards": [
+   0,
+   "",
+   1792602103.2301407
+  ],
+  "q:see 7 new cards from": [
+   0,
+   "",
+   1792602102.7462933
+  ],
+  "q:see 7 new cards from magic": [
+   0,
+   "",
+   1792602102.2593372
+  ],
   "q:selkie's salvage co": [
    4984870,
    "Selkie's Salvage&Co.",
@@ -22821,16 +22898,6 @@
    0,
    "",
    1792490533.1008584
-  ],
-  "q:sexy": [
-   0,
-   "",
-   1792427555.3853672
-  ],
-  "q:sexy sorceresses": [
-   0,
-   "",
-   1792427554.3646922
   ],
   "q:sexyy": [
    0,
@@ -22961,6 +23028,21 @@
    0,
    "",
    1792600318.702685
+  ],
+  "q:soulslike": [
+   0,
+   "",
+   1792602176.1216896
+  ],
+  "q:soulslike valor": [
+   0,
+   "",
+   1792602175.589358
+  ],
+  "q:soulslike valor mortis": [
+   0,
+   "",
+   1792602175.0780532
   ],
   "q:spark": [
    0,
@@ -23527,21 +23609,6 @@
    "",
    1792505040.9435606
   ],
-  "q:theft": [
-   0,
-   "",
-   1792427690.9856584
-  ],
-  "q:theft auto": [
-   0,
-   "",
-   1792427690.4824817
-  ],
-  "q:theft auto london": [
-   0,
-   "",
-   1792427689.980977
-  ],
   "q:there": [
    0,
    "",
@@ -23641,16 +23708,6 @@
    3224410,
    "Tone",
    1792508492.7633266
-  ],
-  "q:tons of difficulty options with": [
-   0,
-   "",
-   1792427647.9357245
-  ],
-  "q:tons of difficulty options with zenith": [
-   0,
-   "",
-   1792427647.4554224
   ],
   "q:too": [
    0,
@@ -24052,11 +24109,6 @@
    "",
    1792573298.6606562
   ],
-  "q:viz": [
-   0,
-   "",
-   1792427687.375511
-  ],
   "q:voice": [
    0,
    "",
@@ -24086,11 +24138,6 @@
    0,
    "",
    1792488814.6728315
-  ],
-  "q:voiced by a sinister circus ringmaster": [
-   0,
-   "",
-   1792427613.0134518
   ],
   "q:wacky": [
    0,
@@ -24292,36 +24339,6 @@
    "",
    1792492405.7601185
   ],
-  "q:with": [
-   0,
-   "",
-   1792429284.3280568
-  ],
-  "q:with gta": [
-   0,
-   "",
-   1792429283.7784836
-  ],
-  "q:with gta 6": [
-   0,
-   "",
-   1792429283.2634435
-  ],
-  "q:with gta 6's dating": [
-   0,
-   "",
-   1792429282.7541213
-  ],
-  "q:with gta 6's dating system": [
-   0,
-   "",
-   1792429282.2221112
-  ],
-  "q:with gta 6's dating system incoming": [
-   0,
-   "",
-   1792429281.7124999
-  ],
   "q:with more": [
    0,
    "",
@@ -24346,6 +24363,11 @@
    0,
    "",
    1792436498.9186122
+  ],
+  "q:with the 2 5 update": [
+   0,
+   "",
+   1792602117.2025154
   ],
   "q:world of fallout museum exhibit": [
    0,
@@ -24654,94 +24676,6 @@
   ]
  },
  "titles": [
-  [
-   1792427572.3802998,
-   "\"Sexy sorceresses\" and \"bare-chested fighters\": Dragon Age's original artists wanted to base it on Conan the Barbarian, much to the outrage of the designers"
-  ],
-  [
-   1792427584.069901,
-   "PlayStation founder Ken Kutaragi says discs became \"metaphor for 'owning' games\", and that upset at their discontinuation is a \"mentality issue\""
-  ],
-  [
-   1792427592.2628193,
-   "Apple Announces Oct. 28 Event for Touch-Screen MacBook Pro"
-  ],
-  [
-   1792427605.8141763,
-   "You can make this DIY controller in six hours and for less than 12 bucks—but would you want to?"
-  ],
-  [
-   1792427618.8040416,
-   "Star Wars: Galactic Racer’s Biddy Blas Is Voiced By A Sinister Circus Ringmaster Pro Wrestler, And This Makes Sense"
-  ],
-  [
-   1792427640.6575177,
-   "Queens Of The Stone Age Tease Their Upcoming Tour Announcements"
-  ],
-  [
-   1792427654.4568634,
-   "Saros Gets Boss Rush And Tons Of Difficulty Options With Zenith Update"
-  ],
-  [
-   1792427670.2162259,
-   "Final Fantasy 7 Revelation Is Changing How Hard Mode Works"
-  ],
-  [
-   1792427684.431823,
-   "The ’60 Minutes’ Overhaul Was Said to be Driven by New Ideas — You Can’t Tell That from Watching"
-  ],
-  [
-   1792427702.6737916,
-   "\"I was a real anglophile\": A Canadian's obsession with Viz magazine is why Grand Theft Auto: London's streets are covered in dogs' eggs"
-  ],
-  [
-   1792427707.0258565,
-   "Papa Roach, Ice Nine Kills, and Ninth Key announce U.S. tour"
-  ],
-  [
-   1792429289.685917,
-   "With GTA 6's Dating System Incoming, a Surprising Percentage of Adults Think Investing in a Video Game Relationship Is Cheating"
-  ],
-  [
-   1792429299.1296177,
-   "Star Wars Games Could Get More Interesting As Lucasfilm Looks Beyond The Big Studios"
-  ],
-  [
-   1792429302.215377,
-   "THE PRETTY RECKLESS Releases Music Video For 'About You (Bonus Version)'"
-  ],
-  [
-   1792429311.747282,
-   "The 10 Best Call of Duty Multiplayer Games"
-  ],
-  [
-   1792429313.9458196,
-   "Cеріал за $38 000: штучний інтелект створив фантастику The Arc"
-  ],
-  [
-   1792429316.8797975,
-   "Proofpoint's $6.3 Billion Cybersecurity Bet"
-  ],
-  [
-   1792429319.1707914,
-   "TikTok відновив акаунт документального фільму про Ілона Маска: блокування пояснили \"помилкою\""
-  ],
-  [
-   1792429331.2362359,
-   "Квентін Тарантіно вже має сценарій свого наступного фільму, але хоче \"трохи пожити\""
-  ],
-  [
-   1792429335.248204,
-   "‘You Can See Everything’: Nathan Fielder Was So Skeptical He Could Break New Ground in Elizabeth Holmes Story, He Negotiated a Kill Switch with A24"
-  ],
-  [
-   1792429338.473933,
-   "Meshuggah, Testament, Sylosis, Etc. Booked For 2027 ‘Sonic Temple Art + Music Festival’"
-  ],
-  [
-   1792429349.1613488,
-   "Steam Next Fest: Demos From The 28 Games Later Showcase"
-  ],
   [
    1792431101.4991267,
    "DEE SNIDER To Induct His Wife, Costume Designer SUZETTE GUILOT-SNIDER, Into 'Long Island Music And Entertainment Hall Of Fame'"
@@ -26701,97 +26635,37 @@
   [
    1792600361.2375722,
    "А як же ШІ? Anthropic шукає автора промов з платнею $345 000 на рік"
+  ],
+  [
+   1792602109.7193792,
+   "Exclusive — See 7 New Cards From Magic: The Gathering Star Trek, Including 1 That Remembers the Most Iconic Drink of TNG"
+  ],
+  [
+   1792602126.2088223,
+   "THE OFFSPRING Guitarist NOODLES To 'Step Away From Live Performances' Due To 'Fairly Serious Health Issue'"
+  ],
+  [
+   1792602151.7007794,
+   "Fan poll: Top 5 straight-edge songs of all time"
+  ],
+  [
+   1792602160.9653504,
+   "Evil Invaders announce new album ‘Weaponized Chaos’"
+  ],
+  [
+   1792602171.6554492,
+   "Nearly $1 million worth of PSA-graded Pokémon and other TCG have been stolen right outside PSA's headquarters"
+  ],
+  [
+   1792602178.4795718,
+   "First-person Soulslike Valor Mortis is already making a profit after seven days, despite launching against some stiff competition"
+  ],
+  [
+   1792602188.723919,
+   "Volbeat, Trivium & Silverstein Tracks Announced For Upcoming ‘Stage Tour’ Video Game"
   ]
  ],
  "titles_uk": [
-  [
-   1792427572.3803015,
-   "Спочатку художники хотіли зробити Dragon Age у стилі Conan the Barbarian"
-  ],
-  [
-   1792427584.069902,
-   "Кен Кодзіма назвав невдоволення відмовою від дисків «проблемою менталітету»"
-  ],
-  [
-   1792427592.2628198,
-   "Apple анонсувала презентація першого MacBook Pro з сенсорним екраном на 28 жовтня"
-  ],
-  [
-   1792427605.8141773,
-   "Ентузіаст створив саморобний геймпад вартістю близько $11"
-  ],
-  [
-   1792427618.8040426,
-   "Бідді Блас у Star Wars: Galactic Racer озвучив реслер і цирковий конферансьє"
-  ],
-  [
-   1792427640.6575186,
-   "Queens Of The Stone Age анонсують тур на підтримку нового альбому"
-  ],
-  [
-   1792427654.4568644,
-   "Для Saros випустили безплатне оновлення Zenith із режимом Boss Rush та новими налаштуваннями складності"
-  ],
-  [
-   1792427670.2162266,
-   "У Final Fantasy 7 Revelation змінять роботу режиму Hard Mode"
-  ],
-  [
-   1792427684.4318242,
-   "Оновлення ’60 Minutes’ мало базуватися на нових ідеях, але цього зовсім не помітно"
-  ],
-  [
-   1792427702.6737926,
-   "Чому вулиці у Grand Theft Auto: London повні собачого лайна"
-  ],
-  [
-   1792427707.0258574,
-   "Papa Roach анонсували американський тур із Ice Nine Kills і Ninth Key"
-  ],
-  [
-   1792429289.6859176,
-   "Опитування YouGov показало, чи вважають віртуальні стосунки зрадою"
-  ],
-  [
-   1792429299.1296184,
-   "Lucasfilm розширює співпрацю з новими студіями над іграми у всесвіті Star Wars"
-  ],
-  [
-   1792429302.2153778,
-   "THE PRETTY RECKLESS випустили кліп на трек About You за участю музикантів FOO FIGHTERS"
-  ],
-  [
-   1792429311.7472825,
-   "Огляд найкращих мультиплеєрних ігор у серії Call of Duty"
-  ],
-  [
-   1792429313.9458203,
-   "Cеріал за $38 000: штучний інтелект створив фантастику The Arc"
-  ],
-  [
-   1792429316.879798,
-   "Proofpoint купує Varonis за $6.3 мільярда"
-  ],
-  [
-   1792429319.1707919,
-   "TikTok відновив акаунт документального фільму про Ілона Маска: блокування пояснили \"помилкою\""
-  ],
-  [
-   1792429331.2362366,
-   "Квентін Тарантіно вже має сценарій свого наступного фільму, але хоче \"трохи пожити\""
-  ],
-  [
-   1792429335.2482045,
-   "Нейтан Філдер вибив право на зупинку проєкту про Елізабет Голмс від A24"
-  ],
-  [
-   1792429338.473934,
-   "Meshuggah, Testament та Sylosis виступлять на Sonic Temple 2027"
-  ],
-  [
-   1792429349.1613495,
-   "Демоверсії ігор з шоукейсу 28 Games Later стали доступні на Steam Next Fest"
-  ],
   [
    1792431101.4991279,
    "Ді Снайдер уведе свою дружину Сузетт Гійот-Снайдер до Зали слави музики та розваг Лонг-Айленда"
@@ -28751,6 +28625,34 @@
   [
    1792600361.237573,
    "А як же ШІ? Anthropic шукає автора промов з платнею $345 000 на рік"
+  ],
+  [
+   1792602109.7193801,
+   "IGN показав сім нових карт Magic: The Gathering Star Trek"
+  ],
+  [
+   1792602126.2088234,
+   "Гітарист THE OFFSPRING Нудлс тимчасово залишає концертні виступи через проблеми зі здоров'ям"
+  ],
+  [
+   1792602151.7007804,
+   "Читачі обрали найкращі straight-edge пісні всіх часів"
+  ],
+  [
+   1792602160.9653513,
+   "Evil Invaders анонсували новий альбом Weaponized Chaos"
+  ],
+  [
+   1792602171.65545,
+   "Біля штаб-квартири PSA вкрали картки Pokémon та інших TCG на $1 мільйон"
+  ],
+  [
+   1792602178.479573,
+   "Soulslike Valor Mortis окупився за тиждень після релізу"
+  ],
+  [
+   1792602188.7239196,
+   "У грі Stage Tour з'являться треки Volbeat, Trivium і Silverstein"
   ]
  ],
  "ukrainian": {
