@@ -14,13 +14,15 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-22 16:39 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-10-22 17:10 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 13
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 14
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
@@ -12855,7 +12857,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Гравці провели понад 30 мільйонів PvE-раундів в <a href=\"https://store.steampowered.com/app/1808500/\">Arc Raiders</a> за тиждень</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/1055090/\">Embark</a>\n\nЗа час тижневого тестування PvE-режиму в Arc Raiders гравці зіграли понад 30 мільйонів раундів. Розробники з Embark Studios аналізують отримані дані та відгуки спільноти, щоб визначити подальшу долю нововведення. Додаткову інформацію обіцяють опублікувати в листопаді.\n\n🔗 <a href=\"https://www.pcgamer.com/games/third-person-shooter/over-30-million-rounds-of-pve-were-played-over-the-last-week-in-arc-raiders-but-embark-still-needs-a-bit-of-time-to-understand-what-the-data-is-telling-us/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/third-person-shooter/over-30-million-rounds-of-pve-were-played-over-the-last-week-in-arc-raiders-but-embark-still-needs-a-bit-of-time-to-understand-what-the-data-is-telling-us/",
     "orig": "Over '30 million rounds of PvE were played' over the last week in Arc Raiders but Embark still needs 'a bit of time to understand what the data is telling us'"
@@ -12869,7 +12870,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Xbox оголосила ціни на хмарний геймінг за системою pay-as-you-go</b>\n\nXbox запроваджує платну систему pay-as-you-go для хмарного геймінгу з листопада. Найдешевший пакет коштує $3.99 за 10 годин гри, а найбільший — $11.99 за 50 годин. Також компанія тестує безплатний доступ до сервісу з рекламою.\n\n🔗 <a href=\"https://www.polygon.com/xbox-cloud-gaming-playtime-pack-prices/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/xbox-cloud-gaming-playtime-pack-prices/",
     "orig": "Xbox Officially Confirms Cloud Gaming’s New Pay-As-You-Go Prices"
@@ -12883,7 +12883,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>DevGAMM Awards 2026 оголосив 70 номінантів</b>\n\nОрганізатори DevGAMM Awards оприлюднили список із 70 ігор-номінантів із 25 країн для третьої щорічної премії. Переможців оголосять 18 листопада на церемонії в Лісабоні, де також розіграють понад $140 000 призових і покажуть ексклюзивні анонси.\n\n🔗 <a href=\"https://www.ign.com/articles/devgamm-awards-2026-reveals-70-nominated-games-for-its-3rd-annual-show-see-the-full-list\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/devgamm-awards-2026-reveals-70-nominated-games-for-its-3rd-annual-show-see-the-full-list",
     "orig": "DevGAMM Awards 2026 Reveals 70 Nominated Games For Its 3rd Annual Show: See the Full List"
@@ -12897,7 +12896,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Метт Гіфі розповів про новий альбом TRIVIUM «Crown In The Grave»</b>\n\nВокаліст і гітарист TRIVIUM Метью К. Гіфі розповів про роботу над майбутнім альбомом «Crown In The Grave», який вийде 20 листопада на Roadrunner Records. Музикант заявив, що гурт свідомо зосередився на створенні найкращих пісень, а сам лонгплей зовсім не схожий на попередній EP «Struck Dead».\n\n🔗 <a href=\"https://blabbermouth.net/news/matt-heafy-on-triviums-upcoming-album-crown-in-the-grave-i-cannot-stop-listening-to-it-as-a-fan-of-music\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/matt-heafy-on-triviums-upcoming-album-crown-in-the-grave-i-cannot-stop-listening-to-it-as-a-fan-of-music",
     "orig": "MATT HEAFY On TRIVIUM's Upcoming Album 'Crown In The Grave': 'I Cannot Stop Listening To It, As A Fan Of Music'"
@@ -12911,7 +12909,6 @@
    "GameSpot",
    {
     "also": [],
-    "caption": "🎮 <b>Продажі консолей Xbox у вересні впали до нового мінімуму</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2175780/\">Dominance</a>\n\nЗа даними Circana, у вересні продажі апаратного забезпечення Xbox Series знизилися на 27% у річному вимірі, встановивши новий антирекорд. На тлі цього продаж PlayStation 5 зріс на 22% у штуках та на 43% у грошовому еквіваленті.\n\n🔗 <a href=\"https://www.gamespot.com/articles/xbox-hardware-problem-september-sales-drop-to-new-low-amid-sonys-market-dominance/\">GameSpot</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamespot.com/articles/xbox-hardware-problem-september-sales-drop-to-new-low-amid-sonys-market-dominance/",
     "orig": "Xbox’s Hardware Problem: September Sales Drop To New Low Amid Sony’s Market Dominance"
@@ -12925,7 +12922,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Snax попросив GamerLegion посадити його на лаву запасних</b>\n\nЯнуш Snax Погоржельський заявив, що сам попросив клуб знайти йому заміну через виснажливий сезон і складности з фокусом на грі. Польський кіберспортсмен планує взяти перерву в кар&#x27;єрі, а на позиції IGL його замінив Александер shalfey Маренов.\n\n🔗 <a href=\"https://insider-gaming.com/snax-reveals-that-he-asked-gamerlegion-to-bench-him/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/snax-reveals-that-he-asked-gamerlegion-to-bench-him/",
     "orig": "Snax Reveals That He Asked GamerLegion to Bench Him"
@@ -12939,7 +12935,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>Застосунок Tesla адаптували для планшетів і складаних смартфонів, включно з iPhone Duo</b>\n\nTesla почала розгортати оновлений застосунок для авто та домашніх енергосистем, адаптований для iPad, планшетів Android, а також iPhone Duo та інших складаних пристроїв. Фактично, замість розтягнутої версії для смартфонів, користувачі отримають повноцінний інтерфейс для великих екранів.\n\n🔗 <a href=\"https://mezha.ua/news/tesla-adapts-its-app-for-tablets-and-foldables-316422/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/tesla-adapts-its-app-for-tablets-and-foldables-316422/",
     "orig": "Застосунок Tesla адаптували для планшетів і складаних смартфонів, включно з iPhone Duo"
@@ -12953,7 +12948,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>До створення сюжету <a href=\"https://store.steampowered.com/app/1328670/\">Mass Effect</a> 5 долучався відомий письменник-фантаст</b>\n\nПисьменник-фантаст Дерек Кюнскен розповів, що протягом п&#x27;яти років працював над сценарієм нової частини Mass Effect. Проте реліз не відбудеться, оскільки EA закриває студію BioWare, через що скасовано і саму гру.\n\n🔗 <a href=\"https://www.pcgamer.com/gaming-industry/what-we-were-cooking-was-really-cool-an-award-winning-science-fiction-author-was-working-on-mass-effect-5s-story/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/gaming-industry/what-we-were-cooking-was-really-cool-an-award-winning-science-fiction-author-was-working-on-mass-effect-5s-story/",
     "orig": "'What we were cooking was really cool': An award-winning science fiction author was working on Mass Effect 5's story"
@@ -12967,7 +12961,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b>Marvel&#x27;s Wolverine очолила чарт продажів у США з рекордом для Sony з часів <a href=\"https://store.steampowered.com/app/553850/\">Helldivers 2</a></b>\n\nУ вересні гра показала найкращий місячний виторг серед усіх релізів видавництва Sony з моменту виходу Helldivers 2.\n\n🔗 <a href=\"https://www.gamesindustry.biz/marvels-wolverine-leads-us-september-charts-achieves-highest-monthly-dollar-sales-for-a-sony-published-title-since-helldivers-2\">GamesIndustry.biz</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/marvels-wolverine-leads-us-september-charts-achieves-highest-monthly-dollar-sales-for-a-sony-published-title-since-helldivers-2",
     "orig": "Marvel's Wolverine leads US September charts, achieves highest monthly dollar sales for a Sony-published title since Helldivers 2"
@@ -12981,7 +12974,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🤖 <b>ШІ збирає ваші секрети: дослідники виявили ризики пам’яті чатботів</b>\n\nШІ-чатботи запам’ятовують особисті дані, емоції та переконання користувачів, формуючи детальні профілі на основі приватних розмов. Дослідження показало, як ChatGPT збирає цю інформацію та як її можуть використовувати для персоналізації відповідей і реклами.\n\n🔗 <a href=\"https://mezha.ua/news/shi-zapam-yatovuye-te-chogo-vi-pryamo-ne-govorili-yak-chatgpt-stvoryuye-vash-profil-316435/\">Mezha</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://mezha.ua/news/shi-zapam-yatovuye-te-chogo-vi-pryamo-ne-govorili-yak-chatgpt-stvoryuye-vash-profil-316435/",
     "orig": "ШІ збирає ваші секрети: дослідники виявили ризики пам’яті чатботів"
@@ -12995,7 +12987,6 @@
    "Digital Foundry",
    {
     "also": [],
-    "caption": "🎮 <b>Демоверсія Monster Hunter Wilds для Nintendo Switch 2 приємно вражає оптимізацією</b>\n\nДемоверсія Monster Hunter Wilds для Nintendo Switch 2 демонструє високу якість порівняння з версіями для інших консолей завдяки розумним компромісам та використанню DLSS. Гра пропонує режими якості та продуктивності, чим перевершує деякі попередні порти Capcom на нове залізо.\n\n🔗 <a href=\"https://www.digitalfoundry.net/previews/monster-hunter-wilds-switch-2-demo-is-surprisingly-refined-with-clever-cutbacks-and-superior-upscaling\">Digital Foundry</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.digitalfoundry.net/previews/monster-hunter-wilds-switch-2-demo-is-surprisingly-refined-with-clever-cutbacks-and-superior-upscaling",
     "orig": "Preview: Monster Hunter Wilds' Switch 2 Demo Is Surprisingly Refined, with Clever Cutbacks and Superior Upscaling"
@@ -13096,6 +13087,14 @@
      [
       "PC Gamer",
       "https://www.pcgamer.com/gaming-industry/ex-bioware-boss-and-mass-effect-director-casey-hudson-says-hell-forever-be-grateful-for-his-time-at-the-studio-its-legacy-will-live-on/"
+     ],
+     [
+      "Insider Gaming",
+      "https://insider-gaming.com/canceled-mass-effect-games-trailer-seemingly-leaks-online/"
+     ],
+     [
+      "IGN",
+      "https://www.ign.com/articles/mass-effect-5-dev-says-bioware-saw-what-larian-and-cd-projekt-had-done-in-the-rpg-space-and-was-taking-the-franchise-to-the-next-level"
      ]
     ],
     "caption": "🎮 <b>Сценаристи <a href=\"https://store.steampowered.com/app/1328670/\">Mass Effect</a> 5 розповіли, якою мала бути скасована гра</b>\n\nСценаристи Mass Effect 5 поділилися спогадами про розробку гри після закриття BioWare компанією Electronic Arts. Письменники стверджують, що працювали над перспективним проєктом, який мав розширити всесвіт науково-фантастичної RPG, але тепер гравці, ймовірно, ніколи його не побачать.\n\n🔗 <a href=\"https://itc.ua/ua/novini/stsenarysty-mass-effect-5-rozpovily-yakoyu-mala-buty-skasovana-gra/\">ITC.ua</a>\n\n#ігри",
@@ -13474,7 +13473,12 @@
    "Гітарист NILE Карл Сандерс переніс складну операцію на хребті",
    "Blabbermouth",
    {
-    "also": [],
+    "also": [
+     [
+      "ThePRP",
+      "https://www.theprp.com/2026/10/22/news/niles-karl-sanders-recovering-from-multilevel-spinal-fusion-surgery-i-wont-be-doing-any-more-onstage-headbanging/"
+     ]
+    ],
     "caption": "🤘 <b>Гітарист NILE Карл Сандерс переніс складну операцію на хребті</b>\n\nФронтмен NILE Карл Сандерс успішно оговтується після багаторівневої операції зі спондилодезу шийного відділу через загрозу паралічу. Музикант планує повернутися на сцену до старту європейського туру гурту 29 листопада.\n\n🔗 <a href=\"https://blabbermouth.net/news/niles-karl-sanders-undergoes-multilevel-spinal-fusion-surgery\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/niles-karl-sanders-undergoes-multilevel-spinal-fusion-surgery",
@@ -13746,6 +13750,160 @@
     "link": "https://lambgoat.com/news/55487/loathe-black-veil-brides-poppy-and-chad-grey-announced-for-welcome-to-rockville/",
     "orig": "Loathe, Black Veil Brides, Poppy and Chad Grey announced for Welcome To Rockville"
    }
+  ],
+  [
+   1792688509.1054032,
+   1969,
+   "🎮",
+   "Видавець indie.io презентував три різні виживачі на Steam Next Fest",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Видавець indie.io презентував три різні виживачі на <a href=\"https://store.steampowered.com/app/1673210/\">Steam Next Fest</a></b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/307150/\">Survival Games</a>\n\nДо 26 жовтня на фестивалі Steam Next Fest можна випробувати три проєкти від indie.io: кооперативний екстракшн-горор Coal Duty, зомбі-пісочницю HumanitZ та виживач на архіпелазі. Демо Coal Duty доступне перед виходом гри в ранній доступ 27 жовтня, а HumanitZ отримала масштабне оновлення з гелловінським івентом і вербуванням NPC.\n\n🔗 <a href=\"https://www.ign.com/articles/3-very-different-survival-games-from-indieio-featured-in-steam-next-fest\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/3-very-different-survival-games-from-indieio-featured-in-steam-next-fest",
+    "orig": "3 Very Different Survival Games from indie.io Featured in Steam Next Fest"
+   }
+  ],
+  [
+   1792688534.238422,
+   1970,
+   "🎮",
+   "Dispatch святкує річницю новими режимами, мерчем та анонсом мобільної версії",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/2592160/\">Dispatch</a> святкує річницю новими режимами, мерчем та анонсом мобільної версії</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/4655470/\">16</a>\n\nНа честь першої річниці гри Dispatch студія AdHoc Studio випускає делюкс-видання з режимами коментарів і розкадрування, а також анонсує мобільну версію для Android та iOS, яка вийде 9 грудня 2026 року. Базова гра на мобільних пристроях отримає чотири безплатні епізоди, а повна версія коштуватиме $19.99. Крім того, фанатам стали доступні нові товари, зокрема вініловий саундтрек, одяг, артбук і фізичні комікси.\n\n🔗 <a href=\"https://www.ign.com/articles/dispatch-gets-over-16-hours-of-new-content-with-commentary-track-mobile-version-and-live-concert-to-celebrate-its-first-anniversary\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/dispatch-gets-over-16-hours-of-new-content-with-commentary-track-mobile-version-and-live-concert-to-celebrate-its-first-anniversary",
+    "orig": "Dispatch Gets Over 16 Hours of New Content With Commentary Track, Mobile Version, and Live Concert to Celebrate Its First Anniversary"
+   }
+  ],
+  [
+   1792688559.5486352,
+   1971,
+   "🎮",
+   "Dispatch виходить на Android та iOS у грудні",
+   "GameSpot",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/2592160/\">Dispatch</a> виходить на Android та iOS у грудні</b>\n\nРозробник AdHoc анонсував вихід гри Dispatch на Android та iOS у грудні. Перші чотири епізоди будуть доступні безплатно. Також гра отримала делюкс-видання з новими закулісними режимами.\n\n🔗 <a href=\"https://www.gamespot.com/articles/dispatch-is-coming-to-mobile-in-december-with-its-first-four-episodes-free/\">GameSpot</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamespot.com/articles/dispatch-is-coming-to-mobile-in-december-with-its-first-four-episodes-free/",
+    "orig": "Dispatch Is Coming To Mobile In December, With Its First Four Episodes Free"
+   }
+  ],
+  [
+   1792688583.1792188,
+   1972,
+   "🎮",
+   "Дискове видання Alan Wake 2 Deluxe Edition для PS5 отримало рекордну знижку",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Дискове видання <a href=\"https://store.steampowered.com/app/108710/\">Alan Wake</a> 2 Deluxe Edition для PS5 отримало рекордну знижку</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/465520/\">Price</a>\n\nAmazon знизив ціну на фізичну копію Alan Wake 2: Deluxe Edition для PS5 до рекордних $29.95. Видання включає базову гру, сюжетні доповнення Night Springs та Lake House, а також цифрову ремастер-версію першої частини.\n\n🔗 <a href=\"https://www.ign.com/articles/alan-wake-2-ps5-game-deal-october-2026\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/alan-wake-2-ps5-game-deal-october-2026",
+    "orig": "Alan Wake 2: Deluxe Edition for PS5 Drops to Its Lowest Price Ever, Just in Time for Halloween"
+   }
+  ],
+  [
+   1792688715.1900644,
+   1973,
+   "🤘",
+   "Deep Purple випустили кліп на трек Splat!",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Deep Purple випустили кліп на трек Splat!</b>\n\nЛегенди хард-року DEEP PURPLE випустили музичний кліп на однойменну пісню зі свого останнього альбому «Splat!», який вийшов 3 липня на лейблі earMUSIC. Подивіться його нижче. «Splat!» — це шоста спільна робота гурту з продюсером Бобом Езріном, який керував записом усіх альбомів DEEP PURPLE, починаючи з «Now Wha...» 2013 року...\n\n🔗 <a href=\"https://blabbermouth.net/news/deep-purple-releases-music-video-for-splat-title-track\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/deep-purple-releases-music-video-for-splat-title-track",
+    "orig": "DEEP PURPLE Releases Music Video For 'Splat!' Title Track"
+   }
+  ],
+  [
+   1792688732.7976635,
+   1974,
+   "🎮",
+   "Співзасновник 3dfx заявив, що успіх компанії багато в чому залежить від Quake",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Співзасновник 3dfx заявив, що успіх компанії багато в чому залежить від <a href=\"https://store.steampowered.com/app/2310/\">Quake</a></b>\n\nРосс Сміт розповів, що культовий шутер Quake допоміг продати мільйони відеокарт 3dfx Voodoo завдяки появі 3D-прискорення через API MiniGL. Співпраця з розробниками стала основою успіху компанії, чиї активи пізніше перейшли до Nvidia після банкрутства.\n\n🔗 <a href=\"https://www.pcgamer.com/hardware/graphics-cards/we-probably-sold-millions-of-boards-because-of-that-game-and-it-was-magnificent-3dfx-cofounder-gives-quake-a-great-deal-of-credit-for-our-overall-success/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/we-probably-sold-millions-of-boards-because-of-that-game-and-it-was-magnificent-3dfx-cofounder-gives-quake-a-great-deal-of-credit-for-our-overall-success/",
+    "orig": "'We probably sold millions of boards because of that game, and it was magnificent': 3dfx cofounder gives Quake a 'great deal of credit for our overall success'"
+   }
+  ],
+  [
+   1792688760.0619888,
+   1975,
+   "🎮",
+   "Огляд охолоджувальної підставки для ноутбуків Klim Everest",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Огляд охолоджувальної підставки для ноутбуків Klim Everest</b>\n\nОхолоджувальна підставка Klim Everest коштує $50 та комплектується незвичним сатиричним коміксом у комплекті. Проте пристрій виявився занадто гучним і ледь помітно вплинув на температуру ноутбука Razer Blade 15 у грі Cyberpunk 2077, знизивши пікову температуру процесора лише на два градуси.\n\n🔗 <a href=\"https://www.pcgamer.com/hardware/cooling/ive-never-seen-a-laptop-cooler-come-with-its-own-comic-strip-before-but-it-still-hasnt-convinced-me-this-noisy-beast-is-worth-usd50/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/hardware/cooling/ive-never-seen-a-laptop-cooler-come-with-its-own-comic-strip-before-but-it-still-hasnt-convinced-me-this-noisy-beast-is-worth-usd50/",
+    "orig": "I've never seen a laptop cooler come with its own comic strip before, but it still hasn't convinced me this noisy beast is worth $50"
+   }
+  ],
+  [
+   1792688800.9023008,
+   1976,
+   "🎮",
+   "Exodus показала оновлену модель головного героя на ім'я Jun",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/3230960/\">Exodus</a> показала оновлену модель головного героя на ім&#x27;я Jun</b>\n\nWizards of the Coast та Archetype Entertainment випустили новий трейлер із оновленою зовнішностю протагоніста гри Exodus на ім&#x27;я Jun\n\n🔗 <a href=\"https://insider-gaming.com/exodus-updated-jun-character-model/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/exodus-updated-jun-character-model/",
+    "orig": "Exodus Gives A Look At The Updated Jun Character Model"
+   }
+  ],
+  [
+   1792688854.318625,
+   1977,
+   "🤘",
+   "Thrice анонсували концерт на честь 10-річчя альбому To Be Everywhere Is To Be Nowhere",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Thrice анонсували концерт на честь 10-річчя альбому To Be Everywhere Is To Be Nowhere</b>\n\nГурт Thrice відсвяткує десяту річницю свого дев&#x27;ятого альбому To Be Everywhere Is To Be Nowhere на спеціальному концерті. Виступ відбудеться 3 грудня в залі The Observatory в Санта-Ана, де музиканти повністю виконають цю платівку.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/22/news/thrice-announce-to-be-everywhere-is-to-be-nowhere-10th-anniversary-show/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/22/news/thrice-announce-to-be-everywhere-is-to-be-nowhere-10th-anniversary-show/",
+    "orig": "Thrice Announce “To Be Everywhere Is To Be Nowhere” 10th Anniversary Show"
+   }
+  ],
+  [
+   1792689015.1115837,
+   1978,
+   "🎬",
+   "Не робіть передчасних висновків про серіал The Dropout",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Не робіть передчасних висновків про серіал The Dropout</b>\n\nЧи варто дивитися «The Dropout»: як документалка про Елізабет Голмс переосмислює серіал з Амандою Сейфрід\n\n🔗 <a href=\"https://www.indiewire.com/features/commentary/the-dropout-wrong-you-can-see-everything-amanda-seyfried-1235222930/\">IndieWire</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/features/commentary/the-dropout-wrong-you-can-see-everything-amanda-seyfried-1235222930/",
+    "orig": "Don’t Get the Wrong Idea About ‘The Dropout’"
+   }
+  ],
+  [
+   1792689029.8872468,
+   1979,
+   "🎮",
+   "Масахіро Сакурай вважає, що генеративний ШІ призведе до появи маси неоригінальних ігор",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Масахіро Сакурай вважає, що генеративний ШІ призведе до появи маси неоригінальних ігор</b>\n\nРозробник Масахіро Сакурай заявив, що генеративний ШІ спричинить бум неоригінальних ігор та масових копій. На його думку, технологія базується на вже створеному й не здатна відтворити справжню людську творчість на кшталт робіт Фуміто Уеди.\n\n🔗 <a href=\"https://www.eurogamer.net/smash-bros-masahiro-sakurai-generative-ai-unoriginal-games\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/smash-bros-masahiro-sakurai-generative-ai-unoriginal-games",
+    "orig": "Smash Bros. director Masahiro Sakurai thinks gen-AI will cause a surge of unoriginal games, but says human creativity can't be replicated"
+   }
   ]
  ],
  "posted_by_source": {
@@ -13800,17 +13958,13 @@
    1792679674.693679
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1792598896.2873588,
-   1792600323.739381,
-   1792600327.8495736,
-   1792602178.4796197,
    1792611110.7935166,
    1792674238.299145,
    1792676050.5073705,
-   1792679686.4825096
+   1792679686.4825096,
+   1792689029.8877344
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
-   1792600316.6334708,
    1792605714.473147,
    1792607491.616982,
    1792607501.2287953,
@@ -13819,7 +13973,8 @@
    1792677820.6793203,
    1792679699.8437068,
    1792685253.1292605,
-   1792685391.5022888
+   1792685391.5022888,
+   1792688559.549153
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
    1792605742.9219737,
@@ -13829,7 +13984,6 @@
    1792679652.091663
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1792602109.7194283,
    1792605690.592239,
    1792605700.6519258,
    1792609319.645304,
@@ -13844,7 +13998,10 @@
    1792666915.297291,
    1792677705.8410907,
    1792681297.1447086,
-   1792685124.8648608
+   1792685124.8648608,
+   1792688509.1057208,
+   1792688534.2387552,
+   1792688583.1796968
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1792668748.8697956,
@@ -13869,15 +14026,14 @@
    1792683181.6402433,
    1792685513.005669,
    1792686825.8357575,
-   1792686953.4382827
+   1792686953.4382827,
+   1792688800.9027677
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1792683185.1237156,
    1792683187.993025
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1792600342.6887717,
-   1792602171.655496,
    1792609356.2539513,
    1792614691.934693,
    1792614696.85172,
@@ -13896,7 +14052,9 @@
    1792681326.910819,
    1792681386.4849033,
    1792683217.9499896,
-   1792685648.862515
+   1792685648.862515,
+   1792688732.7982004,
+   1792688760.0624728
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1792656080.2098827,
@@ -13964,11 +14122,11 @@
    1792679701.8954792
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
-   1792600335.74853,
    1792603231.1982777,
    1792605739.3747818,
    1792616490.4329808,
-   1792625486.1461024
+   1792625486.1461024,
+   1792689015.112107
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1792573287.4335515,
@@ -13985,7 +14143,6 @@
    1792619351.331629
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1792602126.208873,
    1792603226.8353157,
    1792603892.7066476,
    1792611090.1067739,
@@ -13998,7 +14155,8 @@
    1792674131.8090065,
    1792677739.50872,
    1792683088.5129156,
-   1792685198.372986
+   1792685198.372986,
+   1792688715.1905363
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -14080,7 +14238,6 @@
    1792623678.1434515
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1792602188.7239652,
    1792603254.3320637,
    1792603295.272473,
    1792607523.206899,
@@ -14095,7 +14252,8 @@
    1792629146.0184662,
    1792629149.0957255,
    1792630901.1127431,
-   1792687070.8461463
+   1792687070.8461463,
+   1792688854.319259
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1792481487.1423821
@@ -14176,6 +14334,7 @@
   "02e8b4e1ab7f95bb": 1792432934.853331,
   "03080b879f45b5a4": 1791742964.7350998,
   "03421fb4e911bded": 1792573302.8139315,
+  "0343883f5244de04": 1792688509.1056721,
   "034ca9198dabca0a": 1792440095.2444327,
   "038c94747a2f20bf": 1791978102.8561285,
   "0390539d611de408": 1792281250.0493808,
@@ -14254,6 +14413,7 @@
   "0a8fd90ca555ca59": 1792542679.9643233,
   "0a917c4ab073a7c6": 1792582303.238337,
   "0ab60fd395648efc": 1792674238.2990987,
+  "0ace1b14f2f5cdea": 1792688776.9853544,
   "0ad97e6b188589e7": 1791659734.5990682,
   "0aee19387688069a": 1792619375.4974558,
   "0af8a2e5035cb90b": 1791894821.8401823,
@@ -14349,6 +14509,7 @@
   "141c8ba7fde9ec37": 1791926678.2771666,
   "1469250aab31eb50": 1792596683.2309978,
   "1488efb88ca7e573": 1792564646.7948225,
+  "148d905ade44e54e": 1792688829.9105573,
   "14996736a8a6736e": 1792009884.2661192,
   "149ed54d2e6f3b70": 1791929866.8402812,
   "149fa2a204ea3b27": 1792659709.457728,
@@ -14497,6 +14658,7 @@
   "22753ddecaf537b7": 1792377264.7891715,
   "236999d0426ce59b": 1792454490.5140986,
   "2369e7ae9a289ee2": 1792270296.4148471,
+  "23849ec5ae2c15af": 1792688715.1904914,
   "239a721986c0cbdf": 1792596694.7918367,
   "23c35d0f697263fd": 1792393343.3355174,
   "23fed5dd111202e3": 1792256253.57791,
@@ -14533,6 +14695,7 @@
   "26e0abee154a12ad": 1792593091.5848765,
   "26e769dc0a14354a": 1792666907.4305606,
   "270c12f7773514e2": 1792431223.0283523,
+  "270eb34e4eb8c614": 1792688583.1796477,
   "2733deee131cc716": 1792477947.869742,
   "2767d47f9f40b3dd": 1791993738.2951436,
   "277cecdddf507efd": 1791908428.2538705,
@@ -14652,6 +14815,7 @@
   "3208c0e6e6a71106": 1791932394.8889885,
   "320d93b1ae5381c2": 1791926739.5384243,
   "322954b1c8bd7765": 1791786696.691929,
+  "3232f9a8f571691f": 1792688854.3192053,
   "324a82f301361e46": 1792101816.172364,
   "32881189f38bb052": 1792359121.848284,
   "32985ea2d2f119db": 1792675854.2456481,
@@ -14895,6 +15059,7 @@
   "4a6beb52d46d1dc1": 1792530082.4326937,
   "4a73a49d0fed7868": 1792111193.4851968,
   "4a7851ea7ca3c4da": 1792603907.2625086,
+  "4a87fd15825443e1": 1792688534.2387037,
   "4aa1edcff1f3ee10": 1792337474.2270007,
   "4ab10ff5fc392d56": 1792342884.9025598,
   "4ab4a80baa49099d": 1792009889.1340399,
@@ -15096,6 +15261,7 @@
   "5e75c693a49a01ed": 1791879495.2693658,
   "5e7c05d6b97ef3b9": 1792490515.3966696,
   "5e834a8082e7539e": 1791636717.6413429,
+  "5e94741403c928fa": 1792688490.1740713,
   "5ece748c997667fa": 1792416689.6136675,
   "5ee1496a3c5b99c4": 1792512088.470523,
   "5f0e713891bcbcc1": 1791815086.1264648,
@@ -15584,6 +15750,7 @@
   "8c4905e6376f8099": 1792575421.246362,
   "8c6d1520dbb62ee5": 1792600307.7744868,
   "8c78792dcece6981": 1792244031.369591,
+  "8c8cc7eb0265afbd": 1792688760.062426,
   "8c8dc3d6d730f323": 1792423879.268033,
   "8c95f8bd879f4260": 1791837748.8287897,
   "8ca7481f6cb8f937": 1791722081.470457,
@@ -15613,6 +15780,7 @@
   "8f8808a68b630662": 1792656082.4787238,
   "8f8caf581bdc33af": 1792244041.9555044,
   "8f9fec8ef2615331": 1791643484.7724442,
+  "8fa3c54396fed602": 1792688559.5491064,
   "9031184d642d7393": 1791908466.720657,
   "904e548719413b36": 1792099095.4171643,
   "9068a7401a059aae": 1792666857.0082133,
@@ -15626,6 +15794,7 @@
   "90df0236e7b9cfb3": 1791966898.7417848,
   "90e049ae067dc38d": 1792668701.5788705,
   "90f6c81b1628cc5b": 1792611053.7842038,
+  "9102145788d70e1a": 1792688816.1299617,
   "9108a061075fef1f": 1792533707.8328125,
   "910b04df30a9352e": 1792467106.6257718,
   "914ec24a3f15baad": 1792055994.8770494,
@@ -15771,6 +15940,7 @@
   "9f593a6bf4892f1f": 1792609356.2538915,
   "9fb40c823133e6a4": 1792382497.1700006,
   "9fddbdd2f78c72b9": 1792407738.5407147,
+  "9ffb068f43cb35b9": 1792688732.798151,
   "a01105f45fb6cff4": 1792510652.6326663,
   "a01cdcae7bff7990": 1791718278.296192,
   "a02930367833f6ce": 1792607504.2668285,
@@ -15865,6 +16035,7 @@
   "aa8b3353f1ab3776": 1792411276.7971036,
   "aaf6948cc1e4b339": 1792685198.372939,
   "ab3c72718cf10051": 1792485671.8560324,
+  "ab3feadd33e85461": 1792689015.1120615,
   "ab4adb11ef0b15b0": 1792411292.792011,
   "ab540163c47d94b5": 1791815107.5689723,
   "ab58559fc50aee6d": 1792418573.2167242,
@@ -16014,6 +16185,7 @@
   "bb2b81c82e9a3c9b": 1792510287.325765,
   "bb315329c616b68c": 1792623693.4695501,
   "bb3442724ee3613e": 1792612893.5008156,
+  "bb374f4e601ad195": 1792688489.125723,
   "bb43ba07b83f2ae3": 1792461860.9028294,
   "bb7463dd45c63cc0": 1792411302.0755558,
   "bb9e242ff5772ec3": 1792177137.7995827,
@@ -16023,6 +16195,7 @@
   "bc1ea23d1d7b7068": 1792414947.4947658,
   "bc803c91773648a6": 1792342903.0866385,
   "bc9c0e94589cf148": 1791957508.4421096,
+  "bcc6467be3edcf2a": 1792689029.887688,
   "bcc655b6bb1763af": 1791931128.8737152,
   "bcce71951a3818c5": 1792418545.6203697,
   "bcebd75959d7a1c4": 1791975164.194638,
@@ -16602,6 +16775,7 @@
   "f6a53595410b4be0": 1791931822.5769498,
   "f6bb78e51b44135f": 1792526481.4404943,
   "f6bce6572a5afb2a": 1792423946.9128335,
+  "f6d8efaa16b2d631": 1792688489.6530683,
   "f6fcc34e660b5848": 1792593247.3221037,
   "f70683a3073d4412": 1792010005.952578,
   "f7077689b0997e1b": 1792449079.849742,
@@ -16669,6 +16843,7 @@
   "fc254960252739ef": 1792009867.2748783,
   "fc2bbcab1c0c0cc2": 1791931857.274695,
   "fc36090d001ee4ad": 1792352525.9842098,
+  "fc3cd4fafd200881": 1792688800.9027207,
   "fc5a94732cfd4cc2": 1792295999.9260092,
   "fc88cbf0bb1b4161": 1792612854.3680623,
   "fc90c750e381c97b": 1791643484.7724442,
@@ -17147,7 +17322,7 @@
   ],
   "artists_checked": 1792679822.1329823,
   "blocked_until": 1792678422.0641687,
-  "cursor": 60,
+  "cursor": 70,
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
     "0CVnhwtOpdoIkOatkGcVwO",
@@ -17894,7 +18069,7 @@
   "sources": {
    "/Film": 26,
    "AIN.ua": 4,
-   "Blabbermouth": 53,
+   "Blabbermouth": 54,
    "Bloomberg": 41,
    "DOU": 2,
    "DOU Gamedev": 4,
@@ -17902,15 +18077,15 @@
    "Decibel": 11,
    "Digital Foundry": 6,
    "Distorted Sound": 13,
-   "Eurogamer": 30,
-   "GameSpot": 30,
+   "Eurogamer": 31,
+   "GameSpot": 31,
    "GamesIndustry.biz": 17,
    "GitHub Trending": 16,
    "Hugging Face": 6,
-   "IGN": 57,
+   "IGN": 60,
    "ITC.ua": 47,
-   "IndieWire": 16,
-   "Insider Gaming": 65,
+   "IndieWire": 17,
+   "Insider Gaming": 66,
    "Kerrang!": 24,
    "Lambgoat": 40,
    "Loudwire": 18,
@@ -17918,7 +18093,7 @@
    "Metal Injection": 9,
    "MetalSucks": 1,
    "Mezha": 45,
-   "PC Gamer": 55,
+   "PC Gamer": 57,
    "Pitchfork": 6,
    "PlayUA": 20,
    "Polygon": 27,
@@ -17928,14 +18103,14 @@
    "SteamDB": 2,
    "Stereogum": 9,
    "The Decoder": 20,
-   "ThePRP": 37,
+   "ThePRP": 38,
    "VGC": 24,
    "Variety": 18
   },
   "translators": {
-   "DeepL": 17,
-   "gemini-flash-latest": 82,
-   "gemini-flash-lite-latest": 885
+   "DeepL": 18,
+   "gemini-flash-latest": 83,
+   "gemini-flash-lite-latest": 899
   },
   "week": "2026-W43"
  },
@@ -17974,6 +18149,16 @@
    "1619280",
    "Machinarium 2",
    1792621899.5720632
+  ],
+  "id:1686230": [
+   "1686230",
+   "Mayday: The Survival Island",
+   1792688490.5515723
+  ],
+  "id:1766060": [
+   "1766060",
+   "HumanitZ",
+   1792688490.4683228
   ],
   "id:2009100": [
    "2009100",
@@ -18139,6 +18324,11 @@
    "4251460",
    "Godzilla: Destroy All Monsters Melee Remastered",
    1792510624.4772556
+  ],
+  "id:4272370": [
+   "4272370",
+   "Coal Duty",
+   1792688490.3250592
   ],
   "id:4348910": [
    "4348910",
@@ -18375,11 +18565,6 @@
    "",
    1792672327.4257226
   ],
-  "q:15": [
-   0,
-   "",
-   1792514032.9231617
-  ],
   "q:15 year": [
    0,
    "",
@@ -18424,6 +18609,21 @@
    0,
    "",
    1792600346.5222814
+  ],
+  "q:2 deluxe": [
+   0,
+   "",
+   1792688564.0662248
+  ],
+  "q:2 deluxe edition": [
+   0,
+   "",
+   1792688563.5864549
+  ],
+  "q:2 deluxe edition for ps5": [
+   0,
+   "",
+   1792688563.0916731
   ],
   "q:2 jailbreak exploit discovered": [
    0,
@@ -18680,6 +18880,26 @@
    "",
    1792612901.67988
   ],
+  "q:3 very": [
+   0,
+   "",
+   1792688492.6461957
+  ],
+  "q:3 very different": [
+   0,
+   "",
+   1792688492.1839795
+  ],
+  "q:3 very different survival": [
+   0,
+   "",
+   1792688491.7164557
+  ],
+  "q:3 very different survival games": [
+   0,
+   "",
+   1792688491.1466594
+  ],
   "q:30": [
    0,
    "",
@@ -18694,6 +18914,11 @@
    0,
    "",
    1792656079.2662327
+  ],
+  "q:3dfx": [
+   0,
+   "",
+   1792688717.182955
   ],
   "q:4": [
    0,
@@ -18955,6 +19180,11 @@
    "",
    1792663373.600916
   ],
+  "q:50": [
+   0,
+   "",
+   1792688734.782519
+  ],
   "q:5050": [
    2542430,
    "5050",
@@ -19184,6 +19414,21 @@
    108710,
    "Alan Wake",
    1792148868.4306724
+  ],
+  "q:alan wake 2": [
+   0,
+   "",
+   1792688562.605796
+  ],
+  "q:alan wake 2 deluxe": [
+   0,
+   "",
+   1792688562.1127543
+  ],
+  "q:alan wake 2 deluxe edition": [
+   0,
+   "",
+   1792688561.5358093
   ],
   "q:alan wake 3": [
    0,
@@ -19530,21 +19775,6 @@
    "Assassin's Creed Black Flag Resynced",
    1791894764.5085359
   ],
-  "q:asus": [
-   0,
-   "",
-   1792514080.3189886
-  ],
-  "q:asus proart": [
-   0,
-   "",
-   1792514079.8153157
-  ],
-  "q:asus proart p16": [
-   0,
-   "",
-   1792514079.282083
-  ],
   "q:athanasia": [
    1761910,
    "Athanasia",
@@ -19559,11 +19789,6 @@
    0,
    "",
    1792668754.0218139
-  ],
-  "q:autumn": [
-   0,
-   "",
-   1792514032.3782997
   ],
   "q:autumn pack": [
    0,
@@ -20065,6 +20290,11 @@
    "",
    1792619385.103486
   ],
+  "q:bros": [
+   0,
+   "",
+   1792689017.655998
+  ],
   "q:broxah": [
    0,
    "",
@@ -20484,6 +20714,16 @@
    0,
    "",
    1792602114.2193701
+  ],
+  "q:coming to mobile": [
+   0,
+   "",
+   1792688540.0354114
+  ],
+  "q:coming to mobile in december": [
+   0,
+   "",
+   1792688539.5735633
   ],
   "q:confirm": [
    0,
@@ -20980,11 +21220,6 @@
    "",
    1792619387.1106577
   ],
-  "q:da firestarter": [
-   0,
-   "",
-   1792514054.124606
-  ],
   "q:da firestarter gaming": [
    0,
    "",
@@ -20999,21 +21234,6 @@
    0,
    "",
    1792683093.2436774
-  ],
-  "q:da firestarter league": [
-   0,
-   "",
-   1792514053.5746915
-  ],
-  "q:da firestarter league of legends": [
-   0,
-   "",
-   1792514053.0724702
-  ],
-  "q:da firestarter league of legends skins": [
-   0,
-   "",
-   1792514052.5602317
   ],
   "q:da is": [
    0,
@@ -21170,6 +21390,11 @@
    "DEATH STRANDING DIRECTOR'S CUT",
    1792575423.767995
   ],
+  "q:december": [
+   0,
+   "",
+   1792688541.5226707
+  ],
   "q:decky": [
    0,
    "",
@@ -21194,6 +21419,26 @@
    2871520,
    "Deep Dish Dungeon",
    1791926681.627954
+  ],
+  "q:deluxe": [
+   0,
+   "",
+   1792688565.9982395
+  ],
+  "q:deluxe edition": [
+   0,
+   "",
+   1792688565.5172572
+  ],
+  "q:deluxe edition for ps5": [
+   0,
+   "",
+   1792688564.971707
+  ],
+  "q:deluxe edition for ps5 drops": [
+   0,
+   "",
+   1792688564.522221
   ],
   "q:demo": [
    0,
@@ -21370,6 +21615,21 @@
    "",
    1792609317.064796
   ],
+  "q:different": [
+   0,
+   "",
+   1792688496.018035
+  ],
+  "q:different survival": [
+   0,
+   "",
+   1792688495.4955328
+  ],
+  "q:different survival games": [
+   0,
+   "",
+   1792688495.0413146
+  ],
   "q:digital copies": [
    0,
    "",
@@ -21425,6 +21685,46 @@
    "",
    1792670612.339344
   ],
+  "q:dispatch": [
+   2592160,
+   "Dispatch",
+   1792688513.11244
+  ],
+  "q:dispatch gets": [
+   0,
+   "",
+   1792688512.5504475
+  ],
+  "q:dispatch gets over": [
+   0,
+   "",
+   1792688512.0715492
+  ],
+  "q:dispatch gets over 16": [
+   0,
+   "",
+   1792688511.5753527
+  ],
+  "q:dispatch gets over 16 hours": [
+   0,
+   "",
+   1792688511.1021895
+  ],
+  "q:dispatch is": [
+   0,
+   "",
+   1792688537.2368965
+  ],
+  "q:dispatch is coming": [
+   0,
+   "",
+   1792688536.687262
+  ],
+  "q:dispatch is coming to mobile": [
+   0,
+   "",
+   1792688536.2165945
+  ],
   "q:distraught after los angeles concerts canceled": [
    0,
    "",
@@ -21459,11 +21759,6 @@
    0,
    "",
    1792526499.935015
-  ],
-  "q:dlss swapper": [
-   0,
-   "",
-   1792513906.2150428
   ],
   "q:dmz": [
    2650890,
@@ -21945,6 +22240,16 @@
    "",
    1792670610.8203487
   ],
+  "q:edition for ps5 drops": [
+   0,
+   "",
+   1792688566.9690256
+  ],
+  "q:edition for ps5 drops to its": [
+   0,
+   "",
+   1792688566.4691675
+  ],
   "q:edition k": [
    0,
    "",
@@ -22185,6 +22490,21 @@
    "",
    1792668715.6073537
   ],
+  "q:exodus": [
+   3230960,
+   "EXODUS",
+   1792688778.4513245
+  ],
+  "q:exodus gives": [
+   0,
+   "",
+   1792688777.9883282
+  ],
+  "q:exodus gives a look": [
+   0,
+   "",
+   1792688777.4788883
+  ],
   "q:explained": [
    0,
    "",
@@ -22309,6 +22629,11 @@
    0,
    "",
    1792580486.7919457
+  ],
+  "q:farewell bioware": [
+   0,
+   "",
+   1792688802.9453669
   ],
   "q:fc and pok": [
    0,
@@ -22450,11 +22775,6 @@
    "",
    1792593207.5927243
   ],
-  "q:firestarter": [
-   0,
-   "",
-   1792514056.658072
-  ],
   "q:firestarter gaming": [
    0,
    "",
@@ -22469,26 +22789,6 @@
    0,
    "",
    1792683094.930813
-  ],
-  "q:firestarter league": [
-   0,
-   "",
-   1792514056.1366138
-  ],
-  "q:firestarter league of legends": [
-   0,
-   "",
-   1792514055.6291409
-  ],
-  "q:firestarter league of legends skins": [
-   0,
-   "",
-   1792514055.123569
-  ],
-  "q:firestarter league of legends skins revealed": [
-   0,
-   "",
-   1792514054.62369
   ],
   "q:first": [
    0,
@@ -22700,26 +23000,6 @@
    "Forza Horizon 6",
    1791837775.3412535
   ],
-  "q:frame": [
-   0,
-   "",
-   1792513908.8861976
-  ],
-  "q:frame generation": [
-   0,
-   "",
-   1792513908.3360424
-  ],
-  "q:frame generation preset": [
-   0,
-   "",
-   1792513907.8375094
-  ],
-  "q:frame generation preset c": [
-   0,
-   "",
-   1792513907.2902982
-  ],
   "q:franchise": [
    0,
    "",
@@ -22855,21 +23135,6 @@
    "Gears of War: E-Day",
    1791718269.6372697
   ],
-  "q:generation": [
-   0,
-   "",
-   1792513910.416656
-  ],
-  "q:generation preset": [
-   0,
-   "",
-   1792513909.896286
-  ],
-  "q:generation preset c": [
-   0,
-   "",
-   1792513909.3937209
-  ],
   "q:geniuses": [
    0,
    "",
@@ -22900,6 +23165,11 @@
    "",
    1792609331.3554652
   ],
+  "q:gets": [
+   0,
+   "",
+   1792688515.529277
+  ],
   "q:gets a free": [
    0,
    "",
@@ -22920,6 +23190,26 @@
    "",
    1792591564.5281305
   ],
+  "q:gets over": [
+   0,
+   "",
+   1792688514.9597208
+  ],
+  "q:gets over 16": [
+   0,
+   "",
+   1792688514.4883468
+  ],
+  "q:gets over 16 hours": [
+   0,
+   "",
+   1792688514.0270078
+  ],
+  "q:gets over 16 hours of new": [
+   0,
+   "",
+   1792688513.5715973
+  ],
   "q:getting": [
    0,
    "",
@@ -22939,6 +23229,21 @@
    0,
    "",
    1792600313.086942
+  ],
+  "q:gives": [
+   0,
+   "",
+   1792688779.9733758
+  ],
+  "q:gives a look": [
+   0,
+   "",
+   1792688779.3756373
+  ],
+  "q:gives a look at the updated": [
+   0,
+   "",
+   1792688778.9081392
   ],
   "q:god of war": [
    1593500,
@@ -23144,11 +23449,6 @@
    0,
    "",
    1792672281.1614473
-  ],
-  "q:h7607": [
-   0,
-   "",
-   1792514082.4661636
   ],
   "q:habitat": [
    299340,
@@ -23630,6 +23930,21 @@
    "",
    1792591302.292446
   ],
+  "q:is coming": [
+   0,
+   "",
+   1792688539.083513
+  ],
+  "q:is coming to mobile": [
+   0,
+   "",
+   1792688538.562866
+  ],
+  "q:is coming to mobile in december": [
+   0,
+   "",
+   1792688537.7593105
+  ],
   "q:is continuing": [
    0,
    "",
@@ -24015,16 +24330,6 @@
    "",
    1792523017.670344
   ],
-  "q:league of legends skins": [
-   0,
-   "",
-   1792514057.70709
-  ],
-  "q:league of legends skins revealed": [
-   0,
-   "",
-   1792514057.185635
-  ],
   "q:legends": [
    0,
    "",
@@ -24225,6 +24530,26 @@
    "",
    1792605692.6257205
   ],
+  "q:look": [
+   0,
+   "",
+   1792688781.9056478
+  ],
+  "q:look at the updated": [
+   0,
+   "",
+   1792688781.3928604
+  ],
+  "q:look at the updated jun": [
+   0,
+   "",
+   1792688780.9110012
+  ],
+  "q:look at the updated jun character": [
+   0,
+   "",
+   1792688780.4381683
+  ],
   "q:looks": [
    0,
    "",
@@ -24379,6 +24704,11 @@
    0,
    "",
    1792676022.5007157
+  ],
+  "q:masahiro": [
+   0,
+   "",
+   1792689018.121184
   ],
   "q:masahiro sakurai": [
    0,
@@ -24625,6 +24955,16 @@
    "",
    1792584086.1877794
   ],
+  "q:mobile": [
+   0,
+   "",
+   1792688541.0343935
+  ],
+  "q:mobile in december": [
+   0,
+   "",
+   1792688540.5427158
+  ],
   "q:modern": [
    0,
    "",
@@ -24824,16 +25164,6 @@
    2584270,
    "Mortal Shell II",
    1792508560.4769776
-  ],
-  "q:mortal shell 2's rotten": [
-   0,
-   "",
-   1792514030.7047207
-  ],
-  "q:mortal shell 2's rotten autumn": [
-   0,
-   "",
-   1792514030.185082
   ],
   "q:most": [
    0,
@@ -25069,11 +25399,6 @@
    0,
    "",
    1792593180.2736185
-  ],
-  "q:new k": [
-   0,
-   "",
-   1792514052.04138
   ],
   "q:new mass": [
    0,
@@ -25420,6 +25745,16 @@
    "",
    1792676053.7596686
   ],
+  "q:over 16 hours of new": [
+   0,
+   "",
+   1792688516.4733026
+  ],
+  "q:over 16 hours of new content": [
+   0,
+   "",
+   1792688516.0020983
+  ],
   "q:over the hill": [
    2929250,
    "over the hill",
@@ -25429,11 +25764,6 @@
    2357570,
    "Overwatch®",
    1791997028.5210202
-  ],
-  "q:p16": [
-   0,
-   "",
-   1792514081.9243608
   ],
   "q:pack": [
    0,
@@ -25880,16 +26210,6 @@
    "Portal 2",
    1791926749.0969748
   ],
-  "q:preset": [
-   0,
-   "",
-   1792513911.42645
-  ],
-  "q:preset c": [
-   0,
-   "",
-   1792513910.920517
-  ],
   "q:preview monster": [
    0,
    "",
@@ -25959,16 +26279,6 @@
    0,
    "",
    1792540668.5902681
-  ],
-  "q:proart": [
-   0,
-   "",
-   1792514081.3587933
-  ],
-  "q:proart p16": [
-   0,
-   "",
-   1792514080.8228583
   ],
   "q:problem september": [
    0,
@@ -26154,6 +26464,11 @@
    0,
    "",
    1792676054.9150083
+  ],
+  "q:quake": [
+   2310,
+   "Quake",
+   1792688717.666938
   ],
   "q:radiance": [
    1104800,
@@ -26810,16 +27125,6 @@
    "",
    1792578696.891032
   ],
-  "q:rotten": [
-   0,
-   "",
-   1792514031.8369575
-  ],
-  "q:rotten autumn": [
-   0,
-   "",
-   1792514031.3114715
-  ],
   "q:rough": [
    0,
    "",
@@ -26889,11 +27194,6 @@
    0,
    "",
    1792681373.2680361
-  ],
-  "q:rtx spark": [
-   0,
-   "",
-   1792514082.9733653
   ],
   "q:runescape": [
    1343400,
@@ -27250,6 +27550,11 @@
    "",
    1792523005.3206096
   ],
+  "q:smash bros": [
+   0,
+   "",
+   1792689017.1515422
+  ],
   "q:snax": [
    0,
    "",
@@ -27334,11 +27639,6 @@
    0,
    "",
    1792602175.0780532
-  ],
-  "q:spark": [
-   0,
-   "",
-   1792514083.5403771
   ],
   "q:spector": [
    0,
@@ -27680,10 +27980,10 @@
    "",
    1792616497.224574
   ],
-  "q:swapper": [
-   0,
-   "",
-   1792513906.738401
+  "q:survival games": [
+   307150,
+   "Survival Games",
+   1792688496.4997191
   ],
   "q:switch 1": [
    0,
@@ -28085,6 +28385,16 @@
    "",
    1792621885.6674006
   ],
+  "q:updated jun character": [
+   0,
+   "",
+   1792688782.8417232
+  ],
+  "q:updated jun character model": [
+   0,
+   "",
+   1792688782.3546252
+  ],
   "q:upgrades for each vehicle": [
    0,
    "",
@@ -28129,6 +28439,26 @@
    0,
    "",
    1792683221.066941
+  ],
+  "q:very": [
+   0,
+   "",
+   1792688494.58292
+  ],
+  "q:very different": [
+   0,
+   "",
+   1792688494.0496085
+  ],
+  "q:very different survival": [
+   0,
+   "",
+   1792688493.5971339
+  ],
+  "q:very different survival games": [
+   0,
+   "",
+   1792688493.1236022
   ],
   "q:victory": [
    0,
@@ -28635,6 +28965,11 @@
    "",
    1792609354.172574
   ],
+  "q:with its first four episodes free": [
+   0,
+   "",
+   1792688541.9712284
+  ],
   "q:with more": [
    0,
    "",
@@ -28949,50 +29284,6 @@
   ]
  },
  "titles": [
-  [
-   1792515691.1648114,
-   "Oracle Data Center Fight Hands Activists Path to US-Wide Blitz"
-  ],
-  [
-   1792515719.6785097,
-   "MSI's \"Autumn Pack\" Promo Awards Steam Gift Cards with Graphics Card Purchases"
-  ],
-  [
-   1792515737.9843466,
-   "Magic: The Gathering’s Star Trek Booster Box Just Dropped To Its Lowest Price Ever"
-  ],
-  [
-   1792515809.7721689,
-   "Cyberpunk TCG Reveals Edgerunners: Burn Bright Set for Spring 2027"
-  ],
-  [
-   1792515817.445563,
-   "Місія «Потрапити в Decky Loader»: 116 днів пригод українського плагіну VARTA"
-  ],
-  [
-   1792515841.0276163,
-   "10 Years After The Switch 1 Reveal, I Still Haven’t Played A Game At A Rooftop Party"
-  ],
-  [
-   1792515873.2258208,
-   "Legendary Revives Lionsgate Takeover Talks, Submits Offer"
-  ],
-  [
-   1792515915.4750137,
-   "PlayStation Boss: “Creativity Is For Humans, Not AI”"
-  ],
-  [
-   1792515945.3504586,
-   "Overwatch's director discusses why King's Row is so iconic, but admits that 'every single map in the game gets a vote'"
-  ],
-  [
-   1792515962.2673397,
-   "One Step Closer Announce New Album “Zero”, Debut Music Video For Two New Songs"
-  ],
-  [
-   1792515978.0341375,
-   "12 Must-See AFI Fest Movies According to the Festival’s Team, from Sexy Gay Romance ‘Flesh and Fuel’ to Animated ‘Iron Boy’"
-  ],
   [
    1792517500.7421849,
    "New 100,000-Square-Foot BEATLES Experience To Open In Liverpool In 2028"
@@ -30928,53 +31219,53 @@
   [
    1792687138.9255023,
    "Loathe, Black Veil Brides, Poppy and Chad Grey announced for Welcome To Rockville"
+  ],
+  [
+   1792688509.1056743,
+   "3 Very Different Survival Games from indie.io Featured in Steam Next Fest"
+  ],
+  [
+   1792688534.2387056,
+   "Dispatch Gets Over 16 Hours of New Content With Commentary Track, Mobile Version, and Live Concert to Celebrate Its First Anniversary"
+  ],
+  [
+   1792688559.549108,
+   "Dispatch Is Coming To Mobile In December, With Its First Four Episodes Free"
+  ],
+  [
+   1792688583.1796498,
+   "Alan Wake 2: Deluxe Edition for PS5 Drops to Its Lowest Price Ever, Just in Time for Halloween"
+  ],
+  [
+   1792688715.1904926,
+   "DEEP PURPLE Releases Music Video For 'Splat!' Title Track"
+  ],
+  [
+   1792688732.7981524,
+   "'We probably sold millions of boards because of that game, and it was magnificent': 3dfx cofounder gives Quake a 'great deal of credit for our overall success'"
+  ],
+  [
+   1792688760.062427,
+   "I've never seen a laptop cooler come with its own comic strip before, but it still hasn't convinced me this noisy beast is worth $50"
+  ],
+  [
+   1792688800.9027226,
+   "Exodus Gives A Look At The Updated Jun Character Model"
+  ],
+  [
+   1792688854.319208,
+   "Thrice Announce “To Be Everywhere Is To Be Nowhere” 10th Anniversary Show"
+  ],
+  [
+   1792689015.1120632,
+   "Don’t Get the Wrong Idea About ‘The Dropout’"
+  ],
+  [
+   1792689029.8876898,
+   "Smash Bros. director Masahiro Sakurai thinks gen-AI will cause a surge of unoriginal games, but says human creativity can't be replicated"
   ]
  ],
  "titles_uk": [
-  [
-   1792515691.1648126,
-   "Активісти зірвали плани Oracle щодо дата-центру та масштабують протести по США"
-  ],
-  [
-   1792515719.678511,
-   "MSI дарує подарункові картки Steam за купівлю відеокарт серії RTX 50"
-  ],
-  [
-   1792515737.9843476,
-   "Бустербокс Magic: The Gathering за Star Trek подешевшав до історичного мінімуму"
-  ],
-  [
-   1792515809.77217,
-   "Анонсовано набір Edgerunners: Burn Bright для Cyberpunk TCG"
-  ],
-  [
-   1792515817.4455638,
-   "Місія «Потрапити в Decky Loader»: 116 днів пригод українського плагіну VARTA"
-  ],
-  [
-   1792515841.0276167,
-   "Минуло 10 років від анонсу першої консолі Nintendo Switch"
-  ],
-  [
-   1792515873.2258215,
-   "Legendary Entertainment відновила переговори щодо купівлі Lionsgate Studios"
-  ],
-  [
-   1792515915.4750142,
-   "Голова Sony заявив, що штучний інтелект не замінить людей у розробці ігор"
-  ],
-  [
-   1792515945.3504596,
-   "Директор Overwatch розповів про культовість карти King's Row"
-  ],
-  [
-   1792515962.2673407,
-   "One Step Closer анонсували новий альбом \"Zero\" та випустили кліп"
-  ],
-  [
-   1792515978.0341384,
-   "Команда AFI Fest назвала головні рекомендації цьогорічного фестивалю"
-  ],
   [
    1792517500.7421858,
    "У Ліверпулі відкриють новий масштабний центр The Beatles Story"
@@ -32910,6 +33201,50 @@
   [
    1792687138.925503,
    "Loathe, Black Veil Brides, Poppy та Chad Grey виступлять на Welcome To Rockville"
+  ],
+  [
+   1792688509.1056752,
+   "Видавець indie.io презентував три різні виживачі на Steam Next Fest"
+  ],
+  [
+   1792688534.2387066,
+   "Dispatch святкує річницю новими режимами, мерчем та анонсом мобільної версії"
+  ],
+  [
+   1792688559.549109,
+   "Dispatch виходить на Android та iOS у грудні"
+  ],
+  [
+   1792688583.1796508,
+   "Дискове видання Alan Wake 2 Deluxe Edition для PS5 отримало рекордну знижку"
+  ],
+  [
+   1792688715.1904933,
+   "Deep Purple випустили кліп на трек Splat!"
+  ],
+  [
+   1792688732.798153,
+   "Співзасновник 3dfx заявив, що успіх компанії багато в чому залежить від Quake"
+  ],
+  [
+   1792688760.062428,
+   "Огляд охолоджувальної підставки для ноутбуків Klim Everest"
+  ],
+  [
+   1792688800.9027233,
+   "Exodus показала оновлену модель головного героя на ім'я Jun"
+  ],
+  [
+   1792688854.3192089,
+   "Thrice анонсували концерт на честь 10-річчя альбому To Be Everywhere Is To Be Nowhere"
+  ],
+  [
+   1792689015.1120644,
+   "Не робіть передчасних висновків про серіал The Dropout"
+  ],
+  [
+   1792689029.8876903,
+   "Масахіро Сакурай вважає, що генеративний ШІ призведе до появи маси неоригінальних ігор"
   ]
  ],
  "ukrainian": {
