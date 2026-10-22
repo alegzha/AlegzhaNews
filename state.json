@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1792638072.7197797
+  }
+ },
  "daily_digest_date": "2026-10-21",
  "freebies": {
   "last_check": 1792636369.841338,
@@ -12,11 +19,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-22 02:32 UTC",
+  "at": "2026-10-22 03:01 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-latest",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1
+   "gemini-flash-lite-latest": 4
   },
   "used": [
    "Gemini"
@@ -10910,7 +10917,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Беккі Болдуїн опублікувала геймплейне відео? Тьфу, відео з бас-гітарою на трек Stormwatcher</b>\n\nБас-гітаристка Беккі Болдуїн поділилася відео з виконанням партії треку &quot;Stormwatcher&quot; із майбутнього соло-альбому &quot;From The Dark&quot; Тоні Іоммі. Музикантка потрапила до проєкту після того, як продюсер Майк Ексетер помітив її кавери на BLACK SABBATH у соцмережах.\n\n🔗 <a href=\"https://blabbermouth.net/news/becky-baldwin-shares-playthrough-video-for-stormwatcher-from-tony-iommis-new-solo-album\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/becky-baldwin-shares-playthrough-video-for-stormwatcher-from-tony-iommis-new-solo-album",
     "orig": "BECKY BALDWIN Shares Playthrough Video For 'Stormwatcher' From TONY IOMMI's New Solo Album"
@@ -10933,7 +10939,6 @@
       "https://www.theprp.com/2026/10/21/news/pierce-the-veil-launch-hot-topic-live-series-with-three-song-session/"
      ]
     ],
-    "caption": "🤘 <b>PIERCE THE VEIL відкрили нову серію виступів Hot Topic Live</b>\n\nМережа Hot Topic запустила нове музичне шоу Hot Topic Live у своєму студійному просторі в Голлівуді. Першим гуртом на сцені стали PIERCE THE VEIL, які виконали свої треки в атмосфері камерного концерту. Повний запис сесії вже доступний на YouTube-каналі бренду.\n\n🔗 <a href=\"https://blabbermouth.net/news/pierce-the-veil-opens-hot-topic-live-music-performance-series\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/pierce-the-veil-opens-hot-topic-live-music-performance-series",
     "orig": "PIERCE THE VEIL Opens 'Hot Topic Live' Music Performance Series"
@@ -11119,7 +11124,12 @@
    "Вийшов фільм «Clayface» від DC Comics",
    "Variety",
    {
-    "also": [],
+    "also": [
+     [
+      "/Film",
+      "https://www.slashfilm.com/2293090/clayface-2026-movie-review/"
+     ]
+    ],
     "caption": "🎬 <b>Вийшов фільм «Clayface» від DC Comics</b>\n\nФільм «Clayface» режисера Джеймса Воткінса пропонує похмурий і самостійний жанровий досвід у межах кіновсесвіту DC. Стрічка не вимагає знання попередніх коміксів та розповідає історію актора Метта Гагена, який отримує здібності до зміни форми.\n\n🔗 <a href=\"https://variety.com/2026/film/news/clayface-review-1236918659/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/film/news/clayface-review-1236918659/",
@@ -11784,6 +11794,34 @@
     "link": "https://www.ign.com/articles/dragon-ball-xenoverse-3-narrows-release-window-following-player-feedback",
     "orig": "Dragon Ball Xenoverse 3 Narrows Release Window Following Player Feedback"
    }
+  ],
+  [
+   1792638081.2402194,
+   1820,
+   "🤖",
+   "Meta збільшує інвестиції в ШІ та готує новий клас акцій",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Meta збільшує інвестиції в ШІ та готує новий клас акцій</b>\n\nMeta Platforms підвищила прогноз капітальних витрат на 2026 рік до діапазону $135–$145 млрд і анонсувала випуск нового класу акцій без права голосу. Компанія продовжує нарощувати інвестиції у розвиток штучного інтелекту.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-21/meta-boosts-ai-bet-with-capex-outlook-new-stock-class-video\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-21/meta-boosts-ai-bet-with-capex-outlook-new-stock-class-video",
+    "orig": "Meta Boosts Bet on AI With Spending Outlook, New Stock Class"
+   }
+  ],
+  [
+   1792638085.029369,
+   1821,
+   "🤖",
+   "Eternal анонсувала власний ШІ-асистент із акцентом на конфіденційність",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Eternal анонсувала власний ШІ-асистент із акцентом на конфіденційність</b>\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-10-22/india-s-eternal-unveils-ai-assistant-built-for-privacy\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-22/india-s-eternal-unveils-ai-assistant-built-for-privacy",
+    "orig": "India’s Eternal Unveils AI Assistant Built for Privacy"
+   }
   ]
  ],
  "posted_by_source": {
@@ -11792,12 +11830,12 @@
    1792589516.5178292
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1792549902.8141606,
-   1792549906.1699207,
    1792558793.9655306,
    1792593139.8856282,
    1792611097.0023742,
-   1792634487.7275226
+   1792634487.7275226,
+   1792638081.2404697,
+   1792638085.029748
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1792405876.2595813
@@ -12301,6 +12339,7 @@
   "0d5cc7af8bb44ba3": 1792463485.9479973,
   "0d865ae8cd4cf067": 1792303286.1448247,
   "0dd2650a1a086f7b": 1792270304.7523172,
+  "0de01c1b36e93c52": 1792638083.6535778,
   "0e2a51a62f82d764": 1791929876.937001,
   "0e3227631c52c966": 1791757271.9788234,
   "0e72e7e6cbff7be4": 1792246782.2975574,
@@ -13353,6 +13392,7 @@
   "7ef87439999d8d8e": 1791843846.0898852,
   "7ef8f911234937cd": 1792553620.426525,
   "7f1ee33b285eec22": 1792352427.2250245,
+  "7f20b7759cc7dda3": 1792638080.0395277,
   "7f2864c4434fa66b": 1792487062.192653,
   "7f335ecf6125b836": 1791820240.3642433,
   "7f3a0e869765a199": 1792585926.8879418,
@@ -13978,6 +14018,7 @@
   "c73447b03cdb9531": 1792249978.196443,
   "c7362842a0bc2773": 1791750790.8098419,
   "c753fa3469af4b5a": 1792129235.1745334,
+  "c762fec47d138699": 1792638085.0296996,
   "c7998db44fa6a902": 1791929787.0173147,
   "c80fae5a3d5d5618": 1792344696.8477082,
   "c829d53b78c2cb2e": 1792129235.1668394,
@@ -14100,6 +14141,7 @@
   "d5e0b1582d85851f": 1791643484.7724442,
   "d6100e09e1eb7649": 1792602101.7755303,
   "d6349337fe0ff1a0": 1792603892.7065997,
+  "d6471000c5ad10d0": 1792638081.240419,
   "d64fabbf9cc5f0a7": 1792411307.9702215,
   "d6a635d869dbaeb0": 1791831077.3083286,
   "d6b8ad257f4bab95": 1791815091.7113955,
@@ -15680,7 +15722,7 @@
    "/Film": 23,
    "AIN.ua": 4,
    "Blabbermouth": 47,
-   "Bloomberg": 32,
+   "Bloomberg": 34,
    "DOU": 2,
    "DOU Gamedev": 3,
    "Deadline": 49,
@@ -15720,7 +15762,7 @@
   "translators": {
    "DeepL": 17,
    "gemini-flash-latest": 73,
-   "gemini-flash-lite-latest": 747
+   "gemini-flash-lite-latest": 751
   },
   "week": "2026-W43"
  },
@@ -16225,11 +16267,6 @@
    "",
    1792465278.5298736
   ],
-  "q:2 mod is 'shadow of mordor'": [
-   0,
-   "",
-   1792465278.0061502
-  ],
   "q:2 of dawn": [
    0,
    "",
@@ -16374,11 +16411,6 @@
    0,
    "",
    1792591365.9029026
-  ],
-  "q:2049": [
-   0,
-   "",
-   1792463484.8536932
   ],
   "q:21st": [
    0,
@@ -17785,11 +17817,6 @@
    "Blade Runner: Enhanced Edition",
    1792463484.3598378
   ],
-  "q:blade runner 2049": [
-   0,
-   "",
-   1792463483.8511817
-  ],
   "q:blasts": [
    0,
    "",
@@ -19094,11 +19121,6 @@
    2871520,
    "Deep Dish Dungeon",
    1791926681.627954
-  ],
-  "q:deepspace": [
-   0,
-   "",
-   1792463483.369473
   ],
   "q:derby": [
    0,
@@ -24940,11 +24962,6 @@
    "",
    1792490533.1008584
   ],
-  "q:shadow of mordor": [
-   0,
-   "",
-   1792465277.4973898
-  ],
   "q:shooter'": [
    0,
    "",
@@ -28566,6 +28583,14 @@
   [
    1792634504.9745805,
    "Dragon Ball Xenoverse 3 Narrows Release Window Following Player Feedback"
+  ],
+  [
+   1792638081.2404206,
+   "Meta Boosts Bet on AI With Spending Outlook, New Stock Class"
+  ],
+  [
+   1792638085.0297015,
+   "India’s Eternal Unveils AI Assistant Built for Privacy"
   ]
  ],
  "titles_uk": [
@@ -30552,6 +30577,14 @@
   [
    1792634504.9745817,
    "Dragon Ball Xenoverse 3 вийде у другій половині 2027 року"
+  ],
+  [
+   1792638081.2404215,
+   "Meta збільшує інвестиції в ШІ та готує новий клас акцій"
+  ],
+  [
+   1792638085.0297024,
+   "Eternal анонсувала власний ШІ-асистент із акцентом на конфіденційність"
   ]
  ],
  "ukrainian": {
