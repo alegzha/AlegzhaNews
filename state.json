@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
+   "detail": "https://www.kerrang.com/feed.rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Kerrang!» не працює",
+   "sent": 0,
+   "since": 1792675872.902295
+  }
+ },
  "daily_digest_date": "2026-10-21",
  "freebies": {
   "last_check": 1792672451.8075857,
@@ -12,12 +19,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-22 13:03 UTC",
+  "at": "2026-10-22 13:35 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 7
   },
   "used": [
    "Gemini"
@@ -11905,7 +11911,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Документалка You Can See Everything збирає $2.3 млн у середу в американському прокаті</b>\n\nТригодинний документальний фільм You Can See Everything від A24 за участю Натана Філдера та Елізабет Голмс заробив $2.3 млн у середу та претендує на $23.1 млн за перші п&#x27;ять днів. Тим часом майбутній вікенд у кінотеатрах також обіцяє конкуренцію між стрічкою Clayface від DC, анімацією Wildwood від Laika та комедією Wicker.\n\n🔗 <a href=\"https://deadline.com/2026/10/you-can-see-everything-clayface-box-office-1237168607/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/you-can-see-everything-clayface-box-office-1237168607/",
     "orig": "‘You Can See Everything’ Winning Wednesday With $2.3M; Can Elizabeth Holmes Melt ‘Clayface’ In U.S.? DC Villain Eyes $45M+ WW"
@@ -11924,7 +11929,6 @@
       "https://the-decoder.com/anthropic-takes-on-grok-bot-metas-muse-and-openais-dots-with-its-always-on-agent-claude-duet/"
      ]
     ],
-    "caption": "🤖 <b>Anthropic запускає Claude Duet. Цей агент пише та працює, поки ви відпочиваєте</b>\n\nКомпанія Anthropic представила Claude Duet — окремий застосунок, в якому Claude працює як проактивний агент. Він не чекає запитів, а сам повідомляє, на що варто звернути увагу, виконує доручені завдання у фоні й перед будь-якою важливою дією питає дозволу.\n\n🔗 <a href=\"https://highload.tech/uk/anthropic-zapuskaye-claude-duet-shi-agent-yakyj-pyshe-ta-pratsyuye-poky-vy-vidpochyvayete/#new_tab\">ITC.ua</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://highload.tech/uk/anthropic-zapuskaye-claude-duet-shi-agent-yakyj-pyshe-ta-pratsyuye-poky-vy-vidpochyvayete/#new_tab",
     "orig": "Anthropic запускає Claude Duet. Цей агент пише та працює, поки ви відпочиваєте"
@@ -11938,7 +11942,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Supabase — платформа розробки на базі Postgres</b>\n\nSupabase створює альтернативу функціям Firebase, використовуючи відкриті та надійні інструменти корпоративного рівня з вільними ліцензіями. Платформа пропонує розробникам зручний досвід, модульні клієнтські бібліотеки та власні відкриті рішення за відсутності готових аналогів.\n\n🔗 <a href=\"https://github.com/supabase/supabase\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/supabase/supabase",
     "orig": "supabase/supabase"
@@ -11952,7 +11955,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Платформа Twenty пропонує інструменти для створення кастомного CRM</b>\n\nTwenty надає технічним командам будівельні блоки для створення й розширення кастомного CRM. Платформа дозволяє налаштовувати об&#x27;єкти, погляди, робочі процеси та агенти, а також розгортати її на власній інфраструктурі за допомогою Docker Compose.\n\n🔗 <a href=\"https://github.com/twentyhq/twenty\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/twentyhq/twenty",
     "orig": "twentyhq/twenty"
@@ -11966,7 +11968,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🤖 <b>Новий робот-велосипед стрибає, робить сальто та їздить на задньому колесі</b>\n\nДослідники з Інституту робототехніки та штучного інтелекту (Robotics and AI Institute, RAI Institute) розробили Ultra Mobility Vehicle (UMV) — робота на основі велосипеда, призначеного для поєднання швидкого пересування на колесах із маневровістю крокуючих машин.\n\n🔗 <a href=\"https://itc.ua/ua/novini/novyj-robot-velosyped-strybaye-robyt-salto-ta-yizdyt-na-zadnomu-kolesi/\">ITC.ua</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/novyj-robot-velosyped-strybaye-robyt-salto-ta-yizdyt-na-zadnomu-kolesi/",
     "orig": "Новий робот-велосипед стрибає, робить сальто та їздить на задньому колесі"
@@ -11980,7 +11981,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎬 <b>Саурон у всій могутності: вийшов трейлер 3 сезону &quot;Перснів влади&quot;</b>\n\nСтримінговий сервіс Amazon Prime Video презентував офіційний трейлер третього сезону масштабного фентезійного серіалу “Володар перснів: Персні влади” (The Lord of the Rings: The Rings of Power).\n\n🔗 <a href=\"https://itc.ua/ua/novini/sauron-u-vsij-mogutnosti-vyjshov-trejler-3-sezonu-persniv-vlady/\">ITC.ua</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/sauron-u-vsij-mogutnosti-vyjshov-trejler-3-sezonu-persniv-vlady/",
     "orig": "Саурон у всій могутності: вийшов трейлер 3 сезону \"Перснів влади\""
@@ -11994,7 +11994,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>Фінансовий директор SAP назвав зростання хмарного бізнесу на 25% дуже сильним</b>\n\nФіндиректор SAP Dominik Asam прокоментував вищі за очікування показники зростання хмарних продуктів компанії. За його словами, головною причиною є впевненість клієнтів у тому, що технології SAP є ключовою частиною їхньої трансформації за допомогою ШІ.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-22/sap-cfo-says-cloud-growth-at-25-is-very-strong-video\">Bloomberg</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-10-22/sap-cfo-says-cloud-growth-at-25-is-very-strong-video",
     "orig": "SAP CFO Says Cloud Growth at 25% Is 'Very Strong'"
@@ -12008,7 +12007,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>Малайзійський застосунок TuJu висміяли після спроби влади замінити ним Waze</b>\n\nСтворений за підтримки уряду Малайзії навігаційний застосунок TuJu, який позиціонували як альтернативу Waze, зіткнувся з хвилею глузувань через численні недоліки. Користувачі масово висміюють сервіс у мемах, жартуючи, що для навігації з його підказками знадобиться летючий автомобіль.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-10-22/malaysian-traffic-app-draws-ridicule-after-officials-banned-waze\">Bloomberg</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-10-22/malaysian-traffic-app-draws-ridicule-after-officials-banned-waze",
     "orig": "Malaysian Traffic App Draws Ridicule After Officials Banned Waze"
@@ -12022,7 +12020,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>Resend запускає Inboxes</b>\n\nСтворюйте спільні інбокси, підключайте агентів та налаштовуйте робочі процеси\n\n🔗 <a href=\"https://www.producthunt.com/products/resend\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/resend",
     "orig": "Resend Inboxes"
@@ -12036,7 +12033,6 @@
    "PlayUA",
    {
     "also": [],
-    "caption": "🎮 <b>Для фанатів World of Warcraft анонсували статуетку Алекстрази за 395 $</b>\n\nКомпанія HEX Collectibles представила нову колекційну статуетку Алекстрази з World of Warcraft вартістю 395 $. Фігурка виконана в масштабі 1:6, а її постачання покупцям заплановане на період із квітня до червня 2027 року. Попередні замовлення вже відкриті. Нова статуетка присвячена одній із найвідоміших персонажок всесвіту Warcraft — Королеві драконів Алекстразі, також відомій як Хранителька Життя. […]\n\n🔗 <a href=\"https://playua.net/dlya-fanativ-world-of-warcraft-anonsuvaly-statuetku-alekstrazy-za-395/\">PlayUA</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://playua.net/dlya-fanativ-world-of-warcraft-anonsuvaly-statuetku-alekstrazy-za-395/",
     "orig": "Для фанатів World of Warcraft анонсували статуетку Алекстрази за 395 $"
@@ -12050,7 +12046,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>Apple змінила фірмовий стиль Apple Music і відмовилася від червоного кольору</b>\n\nApple представила новий фірмовий стиль Apple Music із чорно-білою палітрою замість червоної. Дизайн створили за допомогою звукових вібрацій води, а його впровадження відбудеться з наступними оновленнями операційних систем.\n\n🔗 <a href=\"https://mezha.ua/news/apple-onovila-dizayn-apple-music-u-stili-liquid-glass-316410/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/apple-onovila-dizayn-apple-music-u-stili-liquid-glass-316410/",
     "orig": "Apple змінила фірмовий стиль Apple Music і відмовилася від червоного кольору"
@@ -12133,7 +12128,12 @@
    "Зоряний Лицар повернеться? Кріс Пратт розповів про майбутнє в Marvel",
    "ITC.ua",
    {
-    "also": [],
+    "also": [
+     [
+      "GameSpot",
+      "https://www.gamespot.com/articles/marvels-wolverine-proves-you-shouldnt-always-trust-what-you-see-on-social-media/"
+     ]
+    ],
     "caption": "🎬 <b>Зоряний Лицар повернеться? Кріс Пратт розповів про майбутнє в Marvel</b>\n\nШанувальники “Вартових Галактики” можуть видихнути з полегшенням: Пітер Квілл повертається на великі екрани. Актор Кріс Пратт, який втілював образ Зоряного Лицаря у шести фільмах кіновсесвіту Marvel (MCU), особисто підтвердив, що його персонаж обов’язково повернеться, а студія вже працює над реалізацією цих планів.\n\n🔗 <a href=\"https://itc.ua/ua/novini/zoryanyj-lytsar-povernetsya-kris-pratt-rozpoviv-pro-majbutnye-v-marvel/\">ITC.ua</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/zoryanyj-lytsar-povernetsya-kris-pratt-rozpoviv-pro-majbutnye-v-marvel/",
@@ -12765,6 +12765,160 @@
     "link": "https://www.eurogamer.net/video-game-industry-reacts-to-bioware-closure",
     "orig": "Games industry mourns sudden BioWare closure - \"Anyone who participated in this travesty should be ashamed\""
    }
+  ],
+  [
+   1792675907.2264977,
+   1897,
+   "🎮",
+   "Гравці залишають зворушливі відгуки через закриття BioWare",
+   "GameSpot",
+   {
+    "also": [],
+    "caption": "🎮 <b>Гравці залишають зворушливі відгуки через закриття BioWare</b>\n\nПісля новин про закриття BioWare компанією Electronic Arts фанати масово вирушили на YouTube до саундтреку Mass Effect 3. У коментарях під треком «An End Once And For All» гравці залишають емоційні спогади та прощаються з улюбленою студією.\n\n🔗 <a href=\"https://www.gamespot.com/articles/if-you-want-heartfelt-bioware-eulogies-check-the-comments/\">GameSpot</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamespot.com/articles/if-you-want-heartfelt-bioware-eulogies-check-the-comments/",
+    "orig": "If You Want Heartfelt BioWare Eulogies, Check The Comments"
+   }
+  ],
+  [
+   1792675933.4186358,
+   1898,
+   "🎮",
+   "NBA 2K27 обійшла Resident Evil Requiem у США",
+   "GameSpot",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/4356430/\">NBA 2K27</a> обійшла <a href=\"https://store.steampowered.com/app/3764200/\">Resident Evil Requiem</a> у США</b>\n\nГра NBA 2K27 стала бестселером 2026 року в США, обійшовши Resident Evil Requiem від Capcom. Головний хіт початку року поступився першістю спортивному симулятору наприкінці року.\n\n🔗 <a href=\"https://www.gamespot.com/articles/nba-2k27-dunks-on-resident-evil-requiem-to-become-the-uss-best-selling-game-of-2026/\">GameSpot</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamespot.com/articles/nba-2k27-dunks-on-resident-evil-requiem-to-become-the-uss-best-selling-game-of-2026/",
+    "orig": "NBA 2K27 Dunks On Resident Evil Requiem To Become The US’s Best-Selling Game Of 2026"
+   }
+  ],
+  [
+   1792675935.3343484,
+   1899,
+   "🎬",
+   "Скільки коштує костюм Бонда: на аукціон виставили 400 лотів з франшизи",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎬 <b>Скільки коштує костюм Бонда: на аукціон виставили 400 лотів з франшизи</b>\n\nШанувальники легендарної бондіани отримали унікальну можливість придбати культові артефакти з усіх 25 фільмів про агента 007. Аукціонний дім Propstore запустив масштабний онлайн-аукціон James Bond Online Auction, який налічує 400 лотів — від першої стрічки “Доктор Ноу” 1962 року до блокбастера “Не час помирати” 2021 року.\n\n🔗 <a href=\"https://itc.ua/ua/novini/skilky-koshtuye-kostyum-bonda-na-auktsion-vystavyly-400-lotiv-z-franshyzy/\">ITC.ua</a>\n\n#кіно_і_серіали",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/skilky-koshtuye-kostyum-bonda-na-auktsion-vystavyly-400-lotiv-z-franshyzy/",
+    "orig": "Скільки коштує костюм Бонда: на аукціон виставили 400 лотів з франшизи"
+   }
+  ],
+  [
+   1792675940.2622046,
+   1900,
+   "🎮",
+   "Valve заявила про покращення боротьби з читерами в CS2 завдяки VACNet",
+   "PlayUA",
+   {
+    "also": [],
+    "caption": "🎮 <b>Valve заявила про покращення боротьби з читерами в CS2 завдяки VACNet</b>\n\nValve повідомила про покращення якості матчмейкінгу в Counter-Strike 2 завдяки роботі патруля VACNet. За словами розробників, участь гравців у перевірці підозрілих матчів допомогла підвищити ефективність боротьби з читерами. Компанія також розіслала нову хвилю запрошень до програми. Учасники патруля аналізують записи матчів і визначають, чи використовували гравці заборонене програмне забезпечення.\n\n🔗 <a href=\"https://playua.net/valve-zayavyla-pro-pokrashhennya-borotby-z-chyteramy-v-cs2-zavdyaky-vacnet/\">PlayUA</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://playua.net/valve-zayavyla-pro-pokrashhennya-borotby-z-chyteramy-v-cs2-zavdyaky-vacnet/",
+    "orig": "Valve заявила про покращення боротьби з читерами в CS2 завдяки VACNet"
+   }
+  ],
+  [
+   1792675942.5884745,
+   1901,
+   "💾",
+   "Spotify запустив нативний застосунок для автомобілів",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "💾 <b>Spotify запустив нативний застосунок для автомобілів</b>\n\nСтримінговий сервіс Spotify оголосив про запуск нового нативного застосунку для автомобілів, який працює безпосередньо на Android Automotive OS. Першим його отримали окремі моделі Audi, зокрема електричні A6 e-tron і Q6 e-tron, а також A5, Q5 та A6 2026 року.\n\n🔗 <a href=\"https://mezha.ua/news/spotify-launches-its-native-car-app-316420/\">Mezha</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/spotify-launches-its-native-car-app-316420/",
+    "orig": "Spotify запустив нативний застосунок для автомобілів"
+   }
+  ],
+  [
+   1792675971.011605,
+   1902,
+   "🎮",
+   "У 2026 році десятки ігрових студій закрилися через кризу",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>У 2026 році десятки ігрових студій закрилися через кризу</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/924310/\">Video Game</a>\n\nІгрова індустрія у 2026 році зіткнулася з масштабною кризою, реструктуризацією та закриттям студій. Через фінансові проблеми роботу втратили понад 12 000 розробників, а закриття торкнулися вже 161 компанії.\n\n🔗 <a href=\"https://insider-gaming.com/video-game-studios-shut-down-2026/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/video-game-studios-shut-down-2026/",
+    "orig": "Every Video Game Studio That Has Shut Down in 2026"
+   }
+  ],
+  [
+   1792675975.6994646,
+   1903,
+   "🎮",
+   "В Need for Speed: Underground 2 тепер можна грати в браузері з повноцінним мультиплеєром",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎮 <b>В <a href=\"https://store.steampowered.com/app/1262540/\">Need for Speed</a>: Underground 2 тепер можна грати в браузері з повноцінним мультиплеєром</b>\n\nNeed for Speed: Underground 2 отримала браузерну версію, яка дозволяє грати безпосередньо у вікні браузера. Проєкт не лише відтворює культову гонку 2004 року, а й додає онлайн-сервер із сотнями гравців, підтримку широкоформатних екранів і частоту до 120 FPS.\n\n🔗 <a href=\"https://itc.ua/ua/novini/v-need-for-speed-underground-2-teper-mozhna-graty-v-brauzeri-z-povnotsinnym-multypleyerom/\">ITC.ua</a>\n\n#ігри",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/v-need-for-speed-underground-2-teper-mozhna-graty-v-brauzeri-z-povnotsinnym-multypleyerom/",
+    "orig": "В Need for Speed: Underground 2 тепер можна грати в браузері з повноцінним мультиплеєром"
+   }
+  ],
+  [
+   1792676020.4813461,
+   1904,
+   "🤘",
+   "Оголосили повний лайнап фестивалю Sonic Temple 2027",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Оголосили повний лайнап фестивалю Sonic Temple 2027</b>\n\nОрганізатори фестивалю Sonic Temple розкрили повний склад учасників на 2027 рік, до якого увійшли майже 150 гуртів. Хедлайнерами чотириденного заходу, що пройде з 13 по 16 травня в Колумбусі, стануть Iron Maiden, Blink-182, Falling in Reverse та Korn.\n\n🔗 <a href=\"https://loudwire.com/2027-sonic-temple-lineup/\">Loudwire</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://loudwire.com/2027-sonic-temple-lineup/",
+    "orig": "Full 2027 Sonic Temple Lineup Revealed Featuring Nearly 150 Bands"
+   }
+  ],
+  [
+   1792676050.506828,
+   1905,
+   "🎮",
+   "Marvel's Wolverine стала найпродаванішою новою грою вересня у США",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Marvel&#x27;s Wolverine стала найпродаванішою новою грою вересня у США</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/553850/\">Helldivers 2</a>\n\nЕкшн Marvel&#x27;s Wolverine очолив американський чарт продажів у вересні, принісши Sony найбільшу виручку від запуску з часів Helldivers 2. Успіх гри від студії Insomniac також допоміг збільшити продаж консолей PS5 на 43% у порівнянні з минулим роком.\n\n🔗 <a href=\"https://www.eurogamer.net/marvels-wolverine-top-seling-september-us-circana\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/marvels-wolverine-top-seling-september-us-circana",
+    "orig": "Despite its mixed reception, Marvel's Wolverine was September's top-selling new game in the US, making Sony launch revenues it hasn't seen since Helldivers 2"
+   }
+  ],
+  [
+   1792676079.1926181,
+   1906,
+   "🎮",
+   "Гравці провели понад 30 мільйонів PvE-раундів в Arc Raiders за тиждень",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Гравці провели понад 30 мільйонів PvE-раундів в <a href=\"https://store.steampowered.com/app/1808500/\">Arc Raiders</a> за тиждень</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/1055090/\">Embark</a>\n\nЗа час тижневого тестування PvE-режиму в Arc Raiders гравці зіграли понад 30 мільйонів раундів. Розробники з Embark Studios аналізують отримані дані та відгуки спільноти, щоб визначити подальшу долю нововведення. Додаткову інформацію обіцяють опублікувати в листопаді.\n\n🔗 <a href=\"https://www.pcgamer.com/games/third-person-shooter/over-30-million-rounds-of-pve-were-played-over-the-last-week-in-arc-raiders-but-embark-still-needs-a-bit-of-time-to-understand-what-the-data-is-telling-us/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/games/third-person-shooter/over-30-million-rounds-of-pve-were-played-over-the-last-week-in-arc-raiders-but-embark-still-needs-a-bit-of-time-to-understand-what-the-data-is-telling-us/",
+    "orig": "Over '30 million rounds of PvE were played' over the last week in Arc Raiders but Embark still needs 'a bit of time to understand what the data is telling us'"
+   }
+  ],
+  [
+   1792676134.2637763,
+   1907,
+   "🎮",
+   "Xbox оголосила ціни на хмарний геймінг за системою pay-as-you-go",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Xbox оголосила ціни на хмарний геймінг за системою pay-as-you-go</b>\n\nXbox запроваджує платну систему pay-as-you-go для хмарного геймінгу з листопада. Найдешевший пакет коштує $3.99 за 10 годин гри, а найбільший — $11.99 за 50 годин. Також компанія тестує безплатний доступ до сервісу з рекламою.\n\n🔗 <a href=\"https://www.polygon.com/xbox-cloud-gaming-playtime-pack-prices/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/xbox-cloud-gaming-playtime-pack-prices/",
+    "orig": "Xbox Officially Confirms Cloud Gaming’s New Pay-As-You-Go Prices"
+   }
   ]
  ],
  "posted_by_source": {
@@ -12819,21 +12973,22 @@
    1792600358.720579
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1792589568.7558627,
    1792593158.2692487,
    1792598896.2873588,
    1792600323.739381,
    1792600327.8495736,
    1792602178.4796197,
    1792611110.7935166,
-   1792674238.299145
+   1792674238.299145,
+   1792676050.5073705
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
-   1792585909.2501373,
    1792600316.6334708,
    1792605714.473147,
    1792607491.616982,
-   1792607501.2287953
+   1792607501.2287953,
+   1792675907.2270312,
+   1792675933.4189677
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
    1792591456.2146332,
@@ -12864,10 +13019,10 @@
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1792598899.9040956,
-   1792668748.8697956
+   1792668748.8697956,
+   1792675975.6999753
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1792589540.4712486,
    1792593227.8783793,
    1792598652.2777321,
    1792598857.3105695,
@@ -12880,7 +13035,8 @@
    1792621898.0027974,
    1792665195.358304,
    1792672322.8113003,
-   1792674186.1593554
+   1792674186.1593554,
+   1792675971.0121436
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1792526500.576059,
@@ -12900,20 +13056,21 @@
    1792666923.8967679,
    1792668701.5789194,
    1792672355.2180438,
-   1792672442.8872304
+   1792672442.8872304,
+   1792676079.193122
   ],
   "games|PlayUA|https://playua.net/feed/": [
-   1792584087.5147297,
-   1792584094.936609,
    1792656080.2098827,
-   1792668728.0144143
+   1792668728.0144143,
+   1792675940.2627158
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
    1792645241.7440042,
    1792645250.8355305,
    1792656174.04771,
    1792663508.39504,
-   1792666895.814449
+   1792666895.814449,
+   1792676134.2643027
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1792584083.8083878,
@@ -12970,7 +13127,8 @@
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1792654274.694844,
    1792659695.2548513,
-   1792668750.879902
+   1792668750.879902,
+   1792675935.334835
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
    1792600335.74853,
@@ -13057,7 +13215,8 @@
    1792591361.3474362,
    1792591561.538322,
    1792595185.729644,
-   1792665174.7859547
+   1792665174.7859547,
+   1792676020.4816523
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1792619341.6086524,
@@ -13146,12 +13305,11 @@
    1792578690.2444956
   ],
   "software|Mezha|https://mezha.ua/feed/": [
-   1792584090.1305695,
-   1792587738.2057476,
    1792656082.4787884,
    1792661499.8071473,
    1792666898.1870284,
-   1792668744.9354658
+   1792668744.9354658,
+   1792675942.589055
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1792576978.7088451,
@@ -13258,6 +13416,7 @@
   "09a5961416763a80": 1792609311.1672697,
   "09bdba1b79b4d7f6": 1792396907.964611,
   "09f7051655fb2abc": 1792595216.3429098,
+  "0a41268d01bef3ca": 1792675880.1654367,
   "0a616285ab68caf9": 1791989226.3239863,
   "0a777e4467d45b14": 1792074112.428332,
   "0a8fd90ca555ca59": 1792542679.9643233,
@@ -13365,6 +13524,7 @@
   "1513c97150042f25": 1792145464.1181524,
   "15154889133c6ca7": 1792530155.9754505,
   "1527f11f16e1ecd8": 1791926952.7195158,
+  "1532b240f42a5ee7": 1792675933.418904,
   "15423acf5d0def45": 1792101849.229964,
   "15833b79909796f3": 1792540677.5984719,
   "158daafdb0606e20": 1792524298.9837723,
@@ -13513,6 +13673,7 @@
   "2552bce69c1839d6": 1791843867.4874752,
   "256eba115c9fd899": 1792281283.8120537,
   "2579cde1b3d8752d": 1791650182.8087645,
+  "259e99550aad65ff": 1792676079.1930747,
   "25a045d63c7d234b": 1791926974.3320994,
   "25a585ffc2b0ebbb": 1792524236.8654618,
   "25ad139a62ddf1d5": 1792256236.5595405,
@@ -13647,6 +13808,7 @@
   "322954b1c8bd7765": 1791786696.691929,
   "324a82f301361e46": 1792101816.172364,
   "32881189f38bb052": 1792359121.848284,
+  "32985ea2d2f119db": 1792675854.2456481,
   "32b8b43660e06081": 1792436501.2899582,
   "32bb4e40252adb72": 1792575078.0680928,
   "32d1b1221d39f4b9": 1792492414.2800176,
@@ -13665,6 +13827,7 @@
   "34607fa71dc872e1": 1792436456.6644757,
   "349692d51631358c": 1791938092.4101274,
   "3497ef3cf9741c57": 1791894797.5656688,
+  "34a3662ad247d9a3": 1792675935.3347828,
   "34c824e65878c0ba": 1792273177.5789478,
   "352e9a05320a220a": 1792508524.8477433,
   "353a9aa3f3e57b3a": 1792010053.191043,
@@ -13732,6 +13895,7 @@
   "3c5be37b84c58e85": 1792603293.1153462,
   "3c6d04fc633efc6c": 1791908446.0808244,
   "3c97390ebc7e6bea": 1792670605.294816,
+  "3c9bdb1581e2c18c": 1792675942.5890045,
   "3cc17c63b67d24de": 1792352430.0356822,
   "3ccbb0620bb8fc8a": 1792595185.7295985,
   "3ccf90fab2c7124e": 1792420256.7318852,
@@ -13763,6 +13927,7 @@
   "3e67463337f735dd": 1792071044.4784656,
   "3e9db8c8a29c6e2f": 1792365656.5516837,
   "3eb18e5ff7f2a0ef": 1792496068.9906518,
+  "3ee376893121f7c7": 1792675880.5180974,
   "3f21f0ba37b17d89": 1792306077.939511,
   "3f2a07bbbfb81496": 1792129247.2306335,
   "3f40d4eb104369be": 1792249916.3507986,
@@ -14195,6 +14360,7 @@
   "6bc027330b31604d": 1792097633.8556564,
   "6bd69432294c8b0f": 1792441875.6606822,
   "6c07aedd70cd353c": 1792618288.1959937,
+  "6c3909f02bf46b4b": 1792676050.5073264,
   "6c4615c9f19e776a": 1792400619.9457192,
   "6c594aa7b1df43f7": 1792128988.584467,
   "6c873aeea274b696": 1792429302.215376,
@@ -14723,6 +14889,7 @@
   "a030fd3a5fbee6aa": 1792571452.7426152,
   "a0446c7cf7b0f77a": 1791978126.841161,
   "a0698b310adf5ec0": 1792188113.8055182,
+  "a0b15d678e3ed8a6": 1792675940.2626681,
   "a0b1f2ace05cadf0": 1792129307.403092,
   "a0b232e15c191b55": 1792490486.7294014,
   "a0bb7c6697300864": 1792414939.1926262,
@@ -15280,6 +15447,7 @@
   "de869ca542ee557b": 1792503137.5460207,
   "de8a9147db7f949b": 1791843851.1090012,
   "dea190316d6fd662": 1792097653.4247673,
+  "deadf1fbda2be2e2": 1792675907.2269838,
   "deb49e644f9db522": 1792306060.2569096,
   "debea4928523a913": 1792663381.0133617,
   "ded9ac107db4721c": 1792607501.2287495,
@@ -15332,6 +15500,7 @@
   "e37d3424cecd4b46": 1792629149.095694,
   "e395a31027440a90": 1792616512.1695848,
   "e3b80d3d81165538": 1792164613.3894355,
+  "e3ec02120107c1db": 1792676134.2642596,
   "e41245ff660ecc5e": 1792411305.9608705,
   "e44466260f0b3f14": 1792427486.7053337,
   "e44bf404aded39db": 1792602124.4728942,
@@ -15401,6 +15570,7 @@
   "e99d5679eae73e15": 1791926924.849342,
   "e9a74d048f0ab88c": 1792021733.3025024,
   "e9b0ea57fb04bcbe": 1792010034.0638132,
+  "e9df9b23e8c1114a": 1792675971.0120866,
   "e9f31bebfbd6a707": 1791997025.0120573,
   "ea05881ac3a67c8b": 1792447336.5115838,
   "ea086cecd1788949": 1791931876.1040778,
@@ -15485,6 +15655,7 @@
   "f4bd4a80bb19dbf1": 1792071063.7644897,
   "f4daf4b4f2d75cc9": 1792074069.9702458,
   "f4e4e4e20ab664a3": 1792436456.6644757,
+  "f4e8de70e8f8d578": 1792676020.4816084,
   "f4ecbea4571dd4de": 1791929834.6204538,
   "f4f48b5553da71cc": 1792409493.3584514,
   "f5020d886ec7e86d": 1792593127.6321602,
@@ -15535,6 +15706,7 @@
   "f918db6b6c150779": 1792625478.5477486,
   "f923d9949ea7b1d5": 1792531910.4337246,
   "f935b44df2271b87": 1792429313.9458187,
+  "f93d172034fd68a7": 1792675975.6999133,
   "f94fdd8140b4a34d": 1791969263.0458302,
   "f951891a663c07a8": 1792368122.3466702,
   "f98c02edbb7467d5": 1792630901.1126916,
@@ -16787,7 +16959,7 @@
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 8,
    "Pitchfork": 1,
-   "Polygon": 27,
+   "Polygon": 28,
    "VGC": 2,
    "Variety": 1
   },
@@ -16802,26 +16974,26 @@
    "Decibel": 10,
    "Digital Foundry": 5,
    "Distorted Sound": 13,
-   "Eurogamer": 28,
-   "GameSpot": 24,
+   "Eurogamer": 29,
+   "GameSpot": 26,
    "GamesIndustry.biz": 16,
    "GitHub Trending": 16,
    "Hugging Face": 5,
    "IGN": 54,
-   "ITC.ua": 42,
+   "ITC.ua": 44,
    "IndieWire": 16,
-   "Insider Gaming": 58,
+   "Insider Gaming": 59,
    "Kerrang!": 20,
    "Lambgoat": 35,
-   "Loudwire": 15,
+   "Loudwire": 16,
    "Metal Hammer (Louder)": 21,
    "Metal Injection": 9,
    "MetalSucks": 1,
-   "Mezha": 38,
-   "PC Gamer": 48,
+   "Mezha": 39,
+   "PC Gamer": 49,
    "Pitchfork": 6,
-   "PlayUA": 19,
-   "Polygon": 26,
+   "PlayUA": 20,
+   "Polygon": 27,
    "Product Hunt": 18,
    "Revolver": 4,
    "Rock Paper Shotgun": 25,
@@ -16835,7 +17007,7 @@
   "translators": {
    "DeepL": 17,
    "gemini-flash-latest": 81,
-   "gemini-flash-lite-latest": 816
+   "gemini-flash-lite-latest": 823
   },
   "week": "2026-W43"
  },
@@ -17520,16 +17692,6 @@
    "",
    1792530130.6162002
   ],
-  "q:3 destiny": [
-   0,
-   "",
-   1792501319.1504228
-  ],
-  "q:3 destiny battlefield": [
-   0,
-   "",
-   1792501318.3878393
-  ],
   "q:3 is": [
    0,
    "",
@@ -17560,15 +17722,20 @@
    "",
    1792612901.67988
   ],
+  "q:30": [
+   0,
+   "",
+   1792676054.3365233
+  ],
+  "q:30 million rounds of pve were played": [
+   0,
+   "",
+   1792676052.539379
+  ],
   "q:395": [
    0,
    "",
    1792656079.2662327
-  ],
-  "q:4": [
-   0,
-   "",
-   1792501338.4084983
   ],
   "q:4 dmz": [
    0,
@@ -18014,6 +18181,11 @@
    0,
    "",
    1792668747.024869
+  ],
+  "q:a bit of time to understand what the data is telling us": [
+   0,
+   "",
+   1792676053.183807
   ],
   "q:abiotic factor": [
    427410,
@@ -18620,11 +18792,6 @@
    "Barbarian",
    1792427557.9259946
   ],
-  "q:battlefield": [
-   0,
-   "",
-   1792501320.6741056
-  ],
   "q:battlefield 6": [
    2807960,
    "Battlefield™ 6",
@@ -18649,6 +18816,21 @@
    3743140,
    "Battleplan",
    1791815079.4738243
+  ],
+  "q:become the us": [
+   0,
+   "",
+   1792675915.2131205
+  ],
+  "q:become the us's best selling": [
+   0,
+   "",
+   1792675914.6848826
+  ],
+  "q:become the us's best selling game": [
+   0,
+   "",
+   1792675914.1591053
   ],
   "q:before dark": [
    1440370,
@@ -19425,6 +19607,21 @@
    "",
    1792609316.572782
   ],
+  "q:confirms cloud gaming's new": [
+   0,
+   "",
+   1792676087.1290512
+  ],
+  "q:confirms cloud gaming's new pay as you go": [
+   0,
+   "",
+   1792676086.5937426
+  ],
+  "q:confirms cloud gaming's new pay as you go prices": [
+   0,
+   "",
+   1792676086.0907633
+  ],
   "q:confirms dice": [
    0,
    "",
@@ -19699,6 +19896,16 @@
    1158310,
    "Crusader Kings III",
    1792273211.8697295
+  ],
+  "q:cs2": [
+   0,
+   "",
+   1792675938.8718457
+  ],
+  "q:cs2 vacnet": [
+   0,
+   "",
+   1792675938.34891
   ],
   "q:cut": [
    0,
@@ -20085,20 +20292,10 @@
    "",
    1792645232.0961928
   ],
-  "q:destiny": [
-   0,
-   "",
-   1792501320.1512082
-  ],
   "q:destiny 2": [
    1085660,
    "Destiny 2",
    1792436511.4081278
-  ],
-  "q:destiny battlefield": [
-   0,
-   "",
-   1792501319.6093776
   ],
   "q:detailed": [
    0,
@@ -20419,6 +20616,26 @@
    1172710,
    "Dune: Awakening",
    1792164557.695081
+  ],
+  "q:dunks": [
+   0,
+   "",
+   1792675913.1197116
+  ],
+  "q:dunks on resident": [
+   0,
+   "",
+   1792675912.5919905
+  ],
+  "q:dunks on resident evil": [
+   0,
+   "",
+   1792675912.048985
+  ],
+  "q:dunks on resident evil requiem": [
+   0,
+   "",
+   1792675911.507339
   ],
   "q:dusk": [
    519860,
@@ -20745,15 +20962,10 @@
    "",
    1792603243.055793
   ],
-  "q:entertainment": [
-   0,
-   "",
-   1792501370.8553977
-  ],
-  "q:entertainment 360": [
-   0,
-   "",
-   1792501370.3796785
+  "q:embark": [
+   1055090,
+   "Embark",
+   1792676055.464709
   ],
   "q:entertainment and dice": [
    0,
@@ -20839,6 +21051,31 @@
    0,
    "",
    1792603236.9499645
+  ],
+  "q:every video": [
+   0,
+   "",
+   1792675946.7742646
+  ],
+  "q:every video game": [
+   0,
+   "",
+   1792675946.1928155
+  ],
+  "q:every video game studio": [
+   0,
+   "",
+   1792675945.678087
+  ],
+  "q:every video game studio that": [
+   0,
+   "",
+   1792675945.1718407
+  ],
+  "q:every video game studio that has": [
+   0,
+   "",
+   1792675944.6573093
   ],
   "q:everything": [
    582270,
@@ -21610,21 +21847,6 @@
    "",
    1792665182.0060332
   ],
-  "q:gaming partners": [
-   0,
-   "",
-   1792501368.4994912
-  ],
-  "q:gaming partners and entertainment": [
-   0,
-   "",
-   1792501368.041261
-  ],
-  "q:gaming partners and entertainment 360": [
-   0,
-   "",
-   1792501367.5856721
-  ],
   "q:gathering": [
    0,
    "",
@@ -21869,26 +22091,6 @@
    0,
    "",
    1792627359.4848855
-  ],
-  "q:griffin gaming": [
-   0,
-   "",
-   1792501367.1239266
-  ],
-  "q:griffin gaming partners": [
-   0,
-   "",
-   1792501366.6717358
-  ],
-  "q:griffin gaming partners and entertainment": [
-   0,
-   "",
-   1792501366.2147748
-  ],
-  "q:griffin gaming partners and entertainment 360": [
-   0,
-   "",
-   1792501365.7599804
   ],
   "q:gta": [
    3482260,
@@ -22325,10 +22527,35 @@
    "",
    1792593210.158072
   ],
+  "q:if you": [
+   0,
+   "",
+   1792675883.3240926
+  ],
   "q:if you can": [
    0,
    "",
    1792533703.8015585
+  ],
+  "q:if you want": [
+   0,
+   "",
+   1792675882.722899
+  ],
+  "q:if you want heartfelt": [
+   0,
+   "",
+   1792675882.2115242
+  ],
+  "q:if you want heartfelt bioware": [
+   0,
+   "",
+   1792675881.5988295
+  ],
+  "q:if you want heartfelt bioware eulogies": [
+   0,
+   "",
+   1792675881.08351
   ],
   "q:impressions": [
    1220330,
@@ -23195,10 +23422,20 @@
    "Marathon",
    1792337493.8494666
   ],
+  "q:marvel": [
+   0,
+   "",
+   1792676023.0567982
+  ],
   "q:marvel rivals": [
    2767030,
    "Marvel Rivals",
    1792362696.659049
+  ],
+  "q:marvel's wolverine": [
+   0,
+   "",
+   1792676022.5007157
   ],
   "q:masahiro sakurai": [
    0,
@@ -23720,6 +23957,26 @@
    "",
    1792634491.5123107
   ],
+  "q:nba 2k27": [
+   4356430,
+   "NBA 2K27",
+   1792675910.965855
+  ],
+  "q:nba 2k27 dunks": [
+   0,
+   "",
+   1792675910.451311
+  ],
+  "q:nba 2k27 dunks on resident": [
+   0,
+   "",
+   1792675909.900643
+  ],
+  "q:nba 2k27 dunks on resident evil": [
+   0,
+   "",
+   1792675909.4004052
+  ],
   "q:nearly 1": [
    0,
    "",
@@ -23739,6 +23996,21 @@
    0,
    "",
    1792587717.6625464
+  ],
+  "q:need for speed": [
+   1262540,
+   "Need for Speed™",
+   1792675974.274414
+  ],
+  "q:need for speed underground": [
+   0,
+   "",
+   1792675973.7622976
+  ],
+  "q:need for speed underground 2": [
+   0,
+   "",
+   1792675973.2199283
   ],
   "q:netflix's push": [
    0,
@@ -23945,11 +24217,6 @@
    "",
    1792512089.0095582
   ],
-  "q:nintendo switch": [
-   0,
-   "",
-   1792501357.556864
-  ],
   "q:nintendo switch 2": [
    0,
    "",
@@ -23984,16 +24251,6 @@
    0,
    "",
    1792666925.8912718
-  ],
-  "q:nintendo switch sports": [
-   0,
-   "",
-   1792501357.0993292
-  ],
-  "q:nintendo switch sports resort": [
-   0,
-   "",
-   1792501356.6423912
   ],
   "q:nivalis nights": [
    1488490,
@@ -24090,6 +24347,26 @@
    "",
    1792670681.6734016
   ],
+  "q:officially confirms cloud": [
+   0,
+   "",
+   1792676085.5513911
+  ],
+  "q:officially confirms cloud gaming": [
+   0,
+   "",
+   1792676085.0367348
+  ],
+  "q:officially confirms cloud gaming's new": [
+   0,
+   "",
+   1792676084.4632957
+  ],
+  "q:officially confirms cloud gaming's new pay as you go": [
+   0,
+   "",
+   1792676083.9628506
+  ],
   "q:officially returning": [
    0,
    "",
@@ -24180,6 +24457,11 @@
    "",
    1792595110.019937
   ],
+  "q:over '30": [
+   0,
+   "",
+   1792676053.7596686
+  ],
   "q:over the hill": [
    2929250,
    "over the hill",
@@ -24259,21 +24541,6 @@
    0,
    "",
    1792519328.5194125
-  ],
-  "q:partners": [
-   0,
-   "",
-   1792501369.9198217
-  ],
-  "q:partners and entertainment": [
-   0,
-   "",
-   1792501369.444015
-  ],
-  "q:partners and entertainment 360": [
-   0,
-   "",
-   1792501368.9882803
   ],
   "q:pass 2026": [
    0,
@@ -24975,6 +25242,11 @@
    "Pushing",
    1792080960.8837323
   ],
+  "q:pve": [
+   0,
+   "",
+   1792676054.9150083
+  ],
   "q:racer": [
    0,
    "",
@@ -25395,15 +25667,15 @@
    "Resident Evil Requiem",
    1791853931.6991522
   ],
+  "q:resident evil requiem to become": [
+   0,
+   "",
+   1792675913.6598241
+  ],
   "q:resonant": [
    4319860,
    "Resonant",
    1792575328.89253
-  ],
-  "q:resort": [
-   0,
-   "",
-   1792501359.4219637
   ],
   "q:respawn": [
    1922940,
@@ -25825,6 +26097,11 @@
    "Send In The Clown",
    1791929874.2648864
   ],
+  "q:september": [
+   0,
+   "",
+   1792676024.133653
+  ],
   "q:series going ahead despite": [
    0,
    "",
@@ -26110,11 +26387,6 @@
    "",
    1792580505.256407
   ],
-  "q:sports resort": [
-   0,
-   "",
-   1792501358.9418578
-  ],
   "q:squadron 42": [
    4045720,
    "Squadron 42",
@@ -26149,11 +26421,6 @@
    0,
    "",
    1792659697.3903658
-  ],
-  "q:star wars battlefront 3 destiny": [
-   0,
-   "",
-   1792501317.9210203
   ],
   "q:star wars battlefront 3 is": [
    0,
@@ -26235,21 +26502,6 @@
    "Steam Next Fest",
    1792342912.7217317
   ],
-  "q:steam'": [
-   0,
-   "",
-   1792501323.1640766
-  ],
-  "q:steam' to red": [
-   0,
-   "",
-   1792501322.682548
-  ],
-  "q:steam' to red barrels": [
-   0,
-   "",
-   1792501322.205492
-  ],
   "q:steam's 100": [
    0,
    "",
@@ -26319,6 +26571,16 @@
    0,
    "",
    1792603903.631795
+  ],
+  "q:studio that has shut": [
+   0,
+   "",
+   1792675950.4157586
+  ],
+  "q:studio that has shut down": [
+   0,
+   "",
+   1792675949.9206426
   ],
   "q:stupid never dies": [
    3486530,
@@ -26409,16 +26671,6 @@
    0,
    "",
    1792666927.868345
-  ],
-  "q:switch sports": [
-   0,
-   "",
-   1792501358.4796534
-  ],
-  "q:switch sports resort": [
-   0,
-   "",
-   1792501358.0111306
   ],
   "q:system shock": [
    482400,
@@ -26650,6 +26902,16 @@
    "Umurangi Generation",
    1792486873.9560382
   ],
+  "q:underground": [
+   0,
+   "",
+   1792675975.3173249
+  ],
+  "q:underground 2": [
+   0,
+   "",
+   1792675974.7863343
+  ],
   "q:unknown dlc features": [
    0,
    "",
@@ -26725,10 +26987,25 @@
    "",
    1792605698.101453
   ],
+  "q:vacnet": [
+   0,
+   "",
+   1792675939.3717363
+  ],
   "q:valor mortis": [
    2828710,
    "Valor Mortis",
    1791815059.088638
+  ],
+  "q:valve cs2": [
+   0,
+   "",
+   1792675937.83626
+  ],
+  "q:valve cs2 vacnet": [
+   0,
+   "",
+   1792675937.3334057
   ],
   "q:varta": [
    0,
@@ -26744,6 +27021,31 @@
    0,
    "",
    1792595221.71405
+  ],
+  "q:video game": [
+   924310,
+   "VIDEO GAME",
+   1792675949.3848453
+  ],
+  "q:video game studio": [
+   0,
+   "",
+   1792675948.8287482
+  ],
+  "q:video game studio that": [
+   0,
+   "",
+   1792675948.3196435
+  ],
+  "q:video game studio that has": [
+   0,
+   "",
+   1792675947.813413
+  ],
+  "q:video game studio that has shut": [
+   0,
+   "",
+   1792675947.3006783
   ],
   "q:vinyl box set available exclusively": [
    0,
@@ -26804,6 +27106,21 @@
    1214280,
    "Walking Simulator",
    1792575423.2553575
+  ],
+  "q:want heartfelt": [
+   0,
+   "",
+   1792675886.9685895
+  ],
+  "q:want heartfelt bioware": [
+   0,
+   "",
+   1792675886.4548552
+  ],
+  "q:want heartfelt bioware eulogies": [
+   0,
+   "",
+   1792675885.9515014
   ],
   "q:war": [
    0,
@@ -27175,6 +27492,11 @@
    "",
    1792602117.2025154
   ],
+  "q:wolverine": [
+   0,
+   "",
+   1792676023.5720632
+  ],
   "q:working": [
    0,
    "",
@@ -27275,6 +27597,31 @@
    "",
    1792663377.3108158
   ],
+  "q:xbox officially": [
+   0,
+   "",
+   1792676083.3919022
+  ],
+  "q:xbox officially confirms": [
+   0,
+   "",
+   1792676082.8745067
+  ],
+  "q:xbox officially confirms cloud": [
+   0,
+   "",
+   1792676082.2842216
+  ],
+  "q:xbox officially confirms cloud gaming": [
+   0,
+   "",
+   1792676081.7817006
+  ],
+  "q:xbox officially confirms cloud gaming's new": [
+   0,
+   "",
+   1792676081.2807739
+  ],
   "q:yakuza team": [
    0,
    "",
@@ -27289,11 +27636,6 @@
    2664050,
    "YOKO",
    1791742996.7788212
-  ],
-  "q:yolo": [
-   0,
-   "",
-   1792501338.889178
   ],
   "q:you play": [
    0,
@@ -27325,6 +27667,26 @@
    "",
    1792580512.5908158
   ],
+  "q:you want": [
+   0,
+   "",
+   1792675885.4492018
+  ],
+  "q:you want heartfelt": [
+   0,
+   "",
+   1792675884.9051447
+  ],
+  "q:you want heartfelt bioware": [
+   0,
+   "",
+   1792675884.3565514
+  ],
+  "q:you want heartfelt bioware eulogies": [
+   0,
+   "",
+   1792675883.8543863
+  ],
   "q:your issues": [
    0,
    "",
@@ -27341,79 +27703,41 @@
    "anthropic",
    "claude",
    "defence city",
+   "donut lab",
    "meta",
-   "osint",
+   "spotify",
    "viber",
+   "авто",
+   "акумулятори",
    "банки",
-   "боєприпаси",
    "бпла",
    "генштаб",
-   "дрони",
-   "зброя",
-   "зрк",
+   "герань-4",
+   "герань-5",
    "кабмін",
    "конфіденційність",
    "кібербезпека",
    "міноборони",
-   "нато",
    "новини",
    "оборонка",
-   "оборонні закупівлі",
    "опк",
-   "ппо",
    "приват24",
    "приватбанк",
    "росія",
    "сили оборони",
    "смартфони",
    "софт",
-   "спецпроєкти",
    "суд",
    "технології",
    "україна",
    "фінтех",
+   "шахед",
    "штучний інтелект",
    "ші-агенти",
    "інтернет"
   ]
  },
  "titles": [
-  [
-   1792503092.1877637,
-   "DELAIN Enters New Chapter With 'We Are Fire' Single And 'Extraordinary Cast' Of Guest Vocalists"
-  ],
-  [
-   1792503109.056602,
-   "GTA 6 Is 148% Ahead Of This Other Popular AAA Game So Far"
-  ],
-  [
-   1792503123.3210328,
-   "RBC Weighs Blocking Meta’s AI Agent Muse, CEO McKay Says"
-  ],
-  [
-   1792503137.5460224,
-   "UGLY KID JOE's New Album To Arrive In Early 2027 Via BLKIIBLK"
-  ],
-  [
-   1792503139.4916205,
-   "\"Відчував цей тягар\": Ентоні Іпполіто про роль Сталлоне в \"Я — Роккі\""
-  ],
-  [
-   1792503142.6609366,
-   "U2 Set For Haltime Performance During Netflix’s Thanksgiving Eve NFL Broadcast"
-  ],
-  [
-   1792503155.010008,
-   "GTA 5 Among 10 Games Leaving PlayStation Plus in November"
-  ],
-  [
-   1792503157.3464062,
-   "OpenAI навчила ШІ переписувати застарілі програми з точністю до 97,9%"
-  ],
-  [
-   1792503180.8304367,
-   "#SteamTopSellers for week of 13 Oct — 20 October 2026 (No F2P): #1 - Call of Duty®: Modern Warfare® 4 #2 - Planet Zoo 2 #3 - EA SPORTS FC™…"
-  ],
   [
    1792504932.4262505,
    "Live review: Angine de Poitrine, London Troxy"
@@ -29285,45 +29609,53 @@
   [
    1792674238.2991006,
    "Games industry mourns sudden BioWare closure - \"Anyone who participated in this travesty should be ashamed\""
+  ],
+  [
+   1792675907.2269855,
+   "If You Want Heartfelt BioWare Eulogies, Check The Comments"
+  ],
+  [
+   1792675933.4189055,
+   "NBA 2K27 Dunks On Resident Evil Requiem To Become The US’s Best-Selling Game Of 2026"
+  ],
+  [
+   1792675935.3347843,
+   "Скільки коштує костюм Бонда: на аукціон виставили 400 лотів з франшизи"
+  ],
+  [
+   1792675940.26267,
+   "Valve заявила про покращення боротьби з читерами в CS2 завдяки VACNet"
+  ],
+  [
+   1792675942.5890062,
+   "Spotify запустив нативний застосунок для автомобілів"
+  ],
+  [
+   1792675971.0120883,
+   "Every Video Game Studio That Has Shut Down in 2026"
+  ],
+  [
+   1792675975.6999147,
+   "В Need for Speed: Underground 2 тепер можна грати в браузері з повноцінним мультиплеєром"
+  ],
+  [
+   1792676020.4816098,
+   "Full 2027 Sonic Temple Lineup Revealed Featuring Nearly 150 Bands"
+  ],
+  [
+   1792676050.5073276,
+   "Despite its mixed reception, Marvel's Wolverine was September's top-selling new game in the US, making Sony launch revenues it hasn't seen since Helldivers 2"
+  ],
+  [
+   1792676079.1930783,
+   "Over '30 million rounds of PvE were played' over the last week in Arc Raiders but Embark still needs 'a bit of time to understand what the data is telling us'"
+  ],
+  [
+   1792676134.2642615,
+   "Xbox Officially Confirms Cloud Gaming’s New Pay-As-You-Go Prices"
   ]
  ],
  "titles_uk": [
-  [
-   1792503092.1877646,
-   "DELAIN випустили сингл \"We Are Fire\" та оголосили про новий творчий етап"
-  ],
-  [
-   1792503109.0566032,
-   "GTA 6 значно випереджає інші AAA-ігри за передзамовленнями"
-  ],
-  [
-   1792503123.3210335,
-   "RBC розглядає можливість блокування ШІ-агента Muse від Meta"
-  ],
-  [
-   1792503137.5460234,
-   "Новий альбом UGLY KID JOE вийде на початку 2027 року"
-  ],
-  [
-   1792503139.4916215,
-   "\"Відчував цей тягар\": Ентоні Іпполіто про роль Сталлоне в \"Я — Роккі\""
-  ],
-  [
-   1792503142.6609378,
-   "Гурт U2 виступить у перерві матчу NFL на Netflix напередодні Дня подяки"
-  ],
-  [
-   1792503155.0100088,
-   "GTA 5 та Red Dead Redemption 2 залишають каталог PlayStation Plus у листопаді"
-  ],
-  [
-   1792503157.346407,
-   "OpenAI навчила ШІ переписувати застарілі програми з точністю до 97,9%"
-  ],
-  [
-   1792503180.8304374,
-   "Call of Duty: Modern Warfare 4 очолила чарт продажів у Steam"
-  ],
   [
    1792504932.4262514,
    "Огляд виступу Angine de Poitrine в лондонському Troxy"
@@ -31195,6 +31527,50 @@
   [
    1792674238.2991014,
    "Ігрова індустрія реагує на раптове закриття BioWare"
+  ],
+  [
+   1792675907.2269864,
+   "Гравці залишають зворушливі відгуки через закриття BioWare"
+  ],
+  [
+   1792675933.4189065,
+   "NBA 2K27 обійшла Resident Evil Requiem у США"
+  ],
+  [
+   1792675935.3347852,
+   "Скільки коштує костюм Бонда: на аукціон виставили 400 лотів з франшизи"
+  ],
+  [
+   1792675940.262671,
+   "Valve заявила про покращення боротьби з читерами в CS2 завдяки VACNet"
+  ],
+  [
+   1792675942.589007,
+   "Spotify запустив нативний застосунок для автомобілів"
+  ],
+  [
+   1792675971.0120888,
+   "У 2026 році десятки ігрових студій закрилися через кризу"
+  ],
+  [
+   1792675975.6999152,
+   "В Need for Speed: Underground 2 тепер можна грати в браузері з повноцінним мультиплеєром"
+  ],
+  [
+   1792676020.4816105,
+   "Оголосили повний лайнап фестивалю Sonic Temple 2027"
+  ],
+  [
+   1792676050.5073283,
+   "Marvel's Wolverine стала найпродаванішою новою грою вересня у США"
+  ],
+  [
+   1792676079.193079,
+   "Гравці провели понад 30 мільйонів PvE-раундів в Arc Raiders за тиждень"
+  ],
+  [
+   1792676134.264262,
+   "Xbox оголосила ціни на хмарний геймінг за системою pay-as-you-go"
   ]
  ],
  "ukrainian": {
@@ -33424,7 +33800,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792672451.6752663,
+  "last_check": 1792676143.2717412,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
