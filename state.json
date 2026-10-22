@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1792641688.4374983
+  }
+ },
  "daily_digest_date": "2026-10-21",
  "freebies": {
   "last_check": 1792636369.841338,
@@ -12,11 +19,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-22 03:31 UTC",
+  "at": "2026-10-22 04:01 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
@@ -10963,7 +10970,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>OpenAI та Google знайшли критичну вразливість у PHP</b>\n\nШІ-моделі GPT-5.6 Sol та Gemini 4 Argon виявили критичну вразливість у PHP, що зачіпає мільйони сайтів по всьому світу. Штучний інтелект допоміг знайти проблему та розробити захист до того, як її зможуть використати зловмисники. Проте експерти застерігають, що такі ж можливості ШІ можуть знизити бар&#x27;єр для масштабних кібератак.\n\n🔗 <a href=\"https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/openais-gpt-5-6-sol-and-gemini-4-argon-discovered-the-critical-php-vulnerability-affecting-millions-of-websites/",
     "orig": "OpenAI's GPT-5.6 Sol and Google's Gemini 4 Argon found critical PHP flaw affecting millions of websites"
@@ -11828,6 +11834,20 @@
     "link": "https://www.slashfilm.com/2293175/chris-pratt-the-terminal-list-season-2-streaming-prime-video/",
     "orig": "Prime Video Adds Long-Awaited Second Season Of Chris Pratt's Thrilling Action Series"
    }
+  ],
+  [
+   1792641696.6371367,
+   1823,
+   "🎬",
+   "Prime Video випустив трейлер третього сезону серіалу The Lord Of The Rings: The Rings Of Power",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Prime Video випустив трейлер третього сезону серіалу The Lord Of The Rings: The Rings Of Power</b>\n\nPrime Video презентував новий повноцінний трейлер третього сезону серіалу The Lord of the Rings: The Rings of Power. У відео показали початок повномасштабної війни в Середзем&#x27;ї, створення Сауроном Єдиного Персня та появу нових загроз, зокрема назґул і баларога у виконанні Саймона Пегга.\n\n🔗 <a href=\"https://www.slashfilm.com/2293134/the-lord-of-the-rings-rings-of-power-season-3-trailer/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2293134/the-lord-of-the-rings-rings-of-power-season-3-trailer/",
+    "orig": "The Lord Of The Rings: The Rings Of Power Season 3 Trailer: Sauron's War Finally Arrives"
+   }
   ]
  ],
  "posted_by_source": {
@@ -12005,11 +12025,11 @@
    1792609364.6598828
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
-   1792555294.2491815,
    1792627350.2046309,
    1792627353.4544885,
    1792630892.4833689,
-   1792639876.5397644
+   1792639876.5397644,
+   1792641696.6376028
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792515873.2258618,
@@ -12944,6 +12964,7 @@
   "4ebf83a07d41dcd2": 1792377277.21614,
   "4ec57bd261ca31e0": 1792402255.1641657,
   "4ede85966e3cbcec": 1792582330.2739384,
+  "4eeffdc6842d81bf": 1792641696.6375597,
   "4f007fd3aa27c1f6": 1791996968.3826723,
   "4f1000caa860c354": 1792513854.800219,
   "4f137393556357b3": 1792580516.6753974,
@@ -13946,6 +13967,7 @@
   "be1b8f6f0da4b20b": 1792197835.8998618,
   "be5304e576788eee": 1792612883.8481436,
   "be5a365e42a96a13": 1792145427.3122401,
+  "be6bb63a38491492": 1792641701.2294471,
   "be6ef1730da7e04a": 1792321529.8739932,
   "beadd2aaa5a0ae0b": 1792524161.5710876,
   "bec822a33226a658": 1791975170.5018406,
@@ -15727,7 +15749,7 @@
    "Variety": 1
   },
   "sources": {
-   "/Film": 24,
+   "/Film": 25,
    "AIN.ua": 4,
    "Blabbermouth": 47,
    "Bloomberg": 34,
@@ -15770,7 +15792,7 @@
   "translators": {
    "DeepL": 17,
    "gemini-flash-latest": 73,
-   "gemini-flash-lite-latest": 752
+   "gemini-flash-lite-latest": 754
   },
   "week": "2026-W43"
  },
@@ -18815,51 +18837,6 @@
    "",
    1792515789.0539973
   ],
-  "q:d d": [
-   0,
-   "",
-   1792468883.770867
-  ],
-  "q:d d's dark": [
-   0,
-   "",
-   1792468883.2688737
-  ],
-  "q:d d's dark sun": [
-   0,
-   "",
-   1792468882.8041825
-  ],
-  "q:d d's dark sun creator": [
-   0,
-   "",
-   1792468882.3356693
-  ],
-  "q:d's dark": [
-   0,
-   "",
-   1792468886.103939
-  ],
-  "q:d's dark sun": [
-   0,
-   "",
-   1792468885.641336
-  ],
-  "q:d's dark sun creator": [
-   0,
-   "",
-   1792468885.1893644
-  ],
-  "q:d's dark sun creator reveals": [
-   0,
-   "",
-   1792468884.735771
-  ],
-  "q:d's dark sun creator reveals why": [
-   0,
-   "",
-   1792468884.2431886
-  ],
   "q:da and true": [
    0,
    "",
@@ -18964,16 +18941,6 @@
    236430,
    "DARK SOULS™ II",
    1792350087.4852767
-  ],
-  "q:dark sun creator reveals": [
-   0,
-   "",
-   1792468887.0121906
-  ],
-  "q:dark sun creator reveals why": [
-   0,
-   "",
-   1792468886.558177
   ],
   "q:date all": [
    0,
@@ -19650,26 +19617,6 @@
    "",
    1792494156.6347086
   ],
-  "q:easily": [
-   0,
-   "",
-   1792467100.1128604
-  ],
-  "q:easily the worst": [
-   0,
-   "",
-   1792467099.6310227
-  ],
-  "q:easily the worst game": [
-   0,
-   "",
-   1792467099.1612136
-  ],
-  "q:easily the worst game of 2026": [
-   0,
-   "",
-   1792467098.6825457
-  ],
   "q:easy": [
    0,
    "",
@@ -20229,36 +20176,6 @@
    0,
    "",
    1792595063.3721092
-  ],
-  "q:finally": [
-   0,
-   "",
-   1792467092.3347602
-  ],
-  "q:finally lets": [
-   0,
-   "",
-   1792467091.797107
-  ],
-  "q:finally lets you": [
-   0,
-   "",
-   1792467091.3284166
-  ],
-  "q:finally lets you play": [
-   0,
-   "",
-   1792467090.8319407
-  ],
-  "q:finally lets you play as": [
-   0,
-   "",
-   1792467090.3069813
-  ],
-  "q:finally lets you play as team": [
-   0,
-   "",
-   1792467089.8174114
   ],
   "q:find out": [
    444410,
@@ -21650,21 +21567,6 @@
    "",
    1792575327.3661144
   ],
-  "q:is easily": [
-   0,
-   "",
-   1792467098.1920638
-  ],
-  "q:is easily the worst": [
-   0,
-   "",
-   1792467097.7063613
-  ],
-  "q:is easily the worst game": [
-   0,
-   "",
-   1792467097.2033432
-  ],
   "q:is for humans": [
    0,
    "",
@@ -22915,11 +22817,6 @@
    "",
    1792612920.5232005
   ],
-  "q:new pok": [
-   0,
-   "",
-   1792467086.6414275
-  ],
   "q:new steam deck": [
    0,
    "",
@@ -23089,11 +22986,6 @@
    0,
    "",
    1792515879.2508094
-  ],
-  "q:not political": [
-   0,
-   "",
-   1792468881.8763428
   ],
   "q:notes": [
    0,
@@ -24224,31 +24116,6 @@
    0,
    "",
    1792595282.227934
-  ],
-  "q:release finally": [
-   0,
-   "",
-   1792467089.3361595
-  ],
-  "q:release finally lets": [
-   0,
-   "",
-   1792467088.8530722
-  ],
-  "q:release finally lets you": [
-   0,
-   "",
-   1792467088.2700307
-  ],
-  "q:release finally lets you play": [
-   0,
-   "",
-   1792467087.7419376
-  ],
-  "q:release finally lets you play as": [
-   0,
-   "",
-   1792467087.1857772
   ],
   "q:release window": [
    0,
@@ -25385,16 +25252,6 @@
    "",
    1792508489.3490665
   ],
-  "q:stupid never dies is": [
-   0,
-   "",
-   1792467096.733364
-  ],
-  "q:stupid never dies is easily": [
-   0,
-   "",
-   1792467096.1861434
-  ],
   "q:subnautica 2": [
    1962700,
    "Subnautica 2",
@@ -26310,21 +26167,6 @@
    "",
    1792598859.2743244
   ],
-  "q:worst": [
-   0,
-   "",
-   1792467101.5706549
-  ],
-  "q:worst game": [
-   0,
-   "",
-   1792467101.0796843
-  ],
-  "q:worst game of 2026": [
-   0,
-   "",
-   1792467100.6051931
-  ],
   "q:would": [
    0,
    "",
@@ -26503,18 +26345,6 @@
   ]
  },
  "titles": [
-  [
-   1792467094.1731584,
-   "New Pokémon Release Finally Lets You Play As Team Rocket"
-  ],
-  [
-   1792467103.3604496,
-   "Stupid Never Dies Is Easily the Worst Game of 2026"
-  ],
-  [
-   1792467106.6257737,
-   "Rival Sons' Scott Holiday: The soundtrack of my life"
-  ],
   [
    1792468979.206974,
    "D&D’s Dark Sun Creator Reveals Why the Controversial Setting Is ‘Not Political’"
@@ -28486,21 +28316,13 @@
   [
    1792639876.5397177,
    "Prime Video Adds Long-Awaited Second Season Of Chris Pratt's Thrilling Action Series"
+  ],
+  [
+   1792641696.6375608,
+   "The Lord Of The Rings: The Rings Of Power Season 3 Trailer: Sauron's War Finally Arrives"
   ]
  ],
  "titles_uk": [
-  [
-   1792467094.1731591,
-   "У новому фанатському проєкті Team Rocket Evolved дозволять грати за Team Rocket"
-  ],
-  [
-   1792467103.3604503,
-   "Stupid Never Dies виявилася найгіршою грою 2026 року"
-  ],
-  [
-   1792467106.6257741,
-   "Гітарист Rival Sons Скотт Голідей випустив сольний дебют Topology"
-  ],
   [
    1792468979.206975,
    "Творець Dark Sun для D&D пояснив, чому цей суперечливий всесвіт «не є політичним»"
@@ -30472,6 +30294,10 @@
   [
    1792639876.5397189,
    "Prime Video випустив другий сезон серіалу The Terminal List з Крісом Праттом"
+  ],
+  [
+   1792641696.6375616,
+   "Prime Video випустив трейлер третього сезону серіалу The Lord Of The Rings: The Rings Of Power"
   ]
  ],
  "ukrainian": {
