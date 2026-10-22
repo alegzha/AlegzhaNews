@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1792699273.6723683
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1792699272.1725314
+  }
+ },
  "daily_digest_date": "2026-10-22",
  "freebies": {
   "last_check": 1792695756.7964222,
@@ -14,11 +27,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-22 19:31 UTC",
-  "gemini_error": "",
+  "at": "2026-10-22 20:05 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 5
+   "gemini-flash-lite-latest": 10
   },
   "used": [
    "Gemini"
@@ -13520,7 +13533,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Рецензія на <a href=\"https://store.steampowered.com/app/1551980/\">Clive Barker&#x27;s Hellraiser: Revival</a> — грубуватий, але цікавий горор</b>\n\nHellraiser: Revival навряд чи стане шедевром екшен-горорів, проте точно заслужила нагороду за найоригінальніший квест у стилі «принеси-подай»\n\n🔗 <a href=\"https://www.pcgamer.com/games/horror/clive-barkers-hellraiser-revival-review/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/horror/clive-barkers-hellraiser-revival-review/",
     "orig": "Clive Barker's Hellraiser: Revival review–Rough around the edges"
@@ -13534,7 +13546,6 @@
    "Decibel",
    {
     "also": [],
-    "caption": "🤘 <b>Titans of Mars випустили новий трек «Leviathan»</b>\n\nГурт Titans of Mars презентував трек «Leviathan» з майбутнього дебютного альбому «Aethos», реліз якого запланований на 7 листопада на Roving Goliath Records. Платівка поєднує елементи наукової фантастики та важкого думу, а новий сингл присвячений внутрішнім демонам і самоприйняттю.\n\n🔗 <a href=\"https://www.decibelmagazine.com/2026/10/22/track-premiere-titans-of-mars-leviathan/\">Decibel</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.decibelmagazine.com/2026/10/22/track-premiere-titans-of-mars-leviathan/",
     "orig": "Track Premiere: Titans of Mars – “Leviathan”"
@@ -13548,7 +13559,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>Космічна пригодницька гра <a href=\"https://store.steampowered.com/app/2861210/\">Hypnos</a> виходить із раннього доступу 29 жовтня</b>\n\nКосмічна пригодницька гра Hypnos виходить із раннього доступу 29 жовтня. У проєкті гравець у ролі персонажа на ім&#x27;я Chrono досліджує моторошну мегаструктуру, спілкується з дивними мешканцями та розгадує таємниці міста. Гра поєднує елементи дослідження візуальної новели з різними варіантами діалогів та кінцівок.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/captivating-cosmic-megastructure-adventure-game-hypnos-leaves-early-access-next-week-offering-up-a-world-im-desperate-to-dig-into-further\">Rock Paper Shotgun</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/captivating-cosmic-megastructure-adventure-game-hypnos-leaves-early-access-next-week-offering-up-a-world-im-desperate-to-dig-into-further",
     "orig": "Captivating cosmic megastructure adventure game Hypnos leaves early access next week, offering up a world I'm desperate to dig into further"
@@ -13562,7 +13572,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Дата виходу та час старту першого сезону в Modern Warfare 4</b>\n\nДізнайтеся, коли виходить перший сезон Modern Warfare 4 — перше масштабне оновлення для шутера від Infinity Ward.\n\n🔗 <a href=\"https://insider-gaming.com/modern-warfare-4-season-1-release/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/modern-warfare-4-season-1-release/",
     "orig": "Modern Warfare 4 Season 1 Release Date & Expected Start Times"
@@ -13576,7 +13585,6 @@
    "Loudwire",
    {
     "also": [],
-    "caption": "🤘 <b>Останні пісні легендарних рок- і метал-гуртів на їхніх фінальних шоу</b>\n\nДобірка розповідає про те, якими композиціями завершили свої виступи 15 відомих рок- і метал-колективів. Серед них — знакові концерти Black Sabbath, KISS, Motorhead, Nirvana та інших гуртів, чия історія добігла кінця через розпад, смерть учасників або непередбачувані конфлікти.\n\n🔗 <a href=\"https://loudwire.com/final-song-rock-metal-bands/\">Loudwire</a>\n\n#музика",
     "kind": "photo",
     "link": "https://loudwire.com/final-song-rock-metal-bands/",
     "orig": "The Last Song 15 Big Rock + Metal Played at Their Final Show"
@@ -13590,7 +13598,6 @@
    "Hugging Face",
    {
     "also": [],
-    "caption": "🤖 <b>Вийшла нова модель OlmoEarth v1.3 із супутниковими ембеддингами для всієї планети</b>\n\nРозробники випустили OlmoEarth v1.3 — передову супутникову модель та відкрили попередньо обчислені річні ембеддинги для всієї планети. Також став доступний браузерний інструмент OlmoEarth Embeddings Explorer для роботи з мапами без потреби в потужних GPU чи складних технічних знаннях.\n\n🔗 <a href=\"https://huggingface.co/blog/allenai/olmoearth-v1-3\">Hugging Face</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://huggingface.co/blog/allenai/olmoearth-v1-3",
     "orig": "OlmoEarth v1.3: State-of-the-art embeddings for the whole planet"
@@ -13604,7 +13611,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>Марк Гурман і Андру Едвардс розібрали складний iPhone Duo</b>\n\nУ новому епізоді подкасту Power On Марк Гурман разом з Андру Едвардсом обговорили дизайн, софт, камери та автономність складного iPhone Duo вартістю понад $2000. Вони розібрали головні недоліки новинки та розкрили плани Apple щодо майбутніх моделей.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-22/power-on-podcast-duo-review-pre-order-problems-video\">Bloomberg</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-10-22/power-on-podcast-duo-review-pre-order-problems-video",
     "orig": "iPhone Duo Review + Pre-Order Problems with Andru Edwards"
@@ -13618,7 +13624,6 @@
    "Kerrang!",
    {
     "also": [],
-    "caption": "🤘 <b>Незграбні гітари, Ісус і найгірші люди на Землі: Polyphia про створення альбому FEAR GOD</b>\n\nГітаристи-віртуози Tim Henson і Scott LePage розповіли про роботу над новою платівкою FEAR GOD, її теми та підхід до написання музики\n\n🔗 <a href=\"https://www.kerrang.com/polyphia-interview-new-album-be-not-afraid-tim-henson-scott-lepage-guitar-djent\">Kerrang!</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.kerrang.com/polyphia-interview-new-album-be-not-afraid-tim-henson-scott-lepage-guitar-djent",
     "orig": "Unplayable guitars, Jesus, and the worst people on Earth: Polyphia take us inside FEAR GOD"
@@ -13632,7 +13637,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎮 <b>Metro 2033 і <a href=\"https://store.steampowered.com/app/1675620/\">Last Light</a> отримали масштабне оновлення: перелік змін і нові системні вимоги</b>\n\nДля Metro 2033 Redux і Metro: Last Light Redux вийшло масштабне оновлення для сучасних ПК та консолей. Розробники покращили графіку, продуктивність, анімації та звук, додали підтримку сучасних технологій масштабування зображення й виправили численні помилки, які заважали проходженню.\n\n🔗 <a href=\"https://itc.ua/ua/novini/metro-2033-i-last-light-otrymaly-masshtabne-onovlennya-perelik-zmin-i-novi-systemni-vymogy/\">ITC.ua</a>\n\n#ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/metro-2033-i-last-light-otrymaly-masshtabne-onovlennya-perelik-zmin-i-novi-systemni-vymogy/",
     "orig": "Metro 2033 і Last Light отримали масштабне оновлення: перелік змін і нові системні вимоги"
@@ -13851,7 +13855,12 @@
    "Thrice анонсували концерт на честь 10-річчя альбому To Be Everywhere Is To Be Nowhere",
    "ThePRP",
    {
-    "also": [],
+    "also": [
+     [
+      "Lambgoat",
+      "https://lambgoat.com/news/55496/thrice-announce-santa-ana-10th-anniversary-celebration-show-for-to-be-everywhere-is-to-be-nowhere/"
+     ]
+    ],
     "caption": "🤘 <b>Thrice анонсували концерт на честь 10-річчя альбому To Be Everywhere Is To Be Nowhere</b>\n\nГурт Thrice відсвяткує десяту річницю свого дев&#x27;ятого альбому To Be Everywhere Is To Be Nowhere на спеціальному концерті. Виступ відбудеться 3 грудня в залі The Observatory в Санта-Ана, де музиканти повністю виконають цю платівку.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/22/news/thrice-announce-to-be-everywhere-is-to-be-nowhere-10th-anniversary-show/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/22/news/thrice-announce-to-be-everywhere-is-to-be-nowhere-10th-anniversary-show/",
@@ -14089,6 +14098,10 @@
      [
       "GameSpot",
       "https://www.gamespot.com/articles/why-people-think-valve-just-accidentally-confirmed-half-life-3/"
+     ],
+     [
+      "IGN",
+      "https://www.ign.com/articles/valve-developer-mistakenly-mentions-rumored-half-life-3-codename"
      ]
     ],
     "caption": "🎮 <b>Розробник Valve випадково згадав внутрішній кодове ім&#x27;я <a href=\"https://store.steampowered.com/app/70/\">Half-Life</a> 3</b>\n\nМузичний дизайнер Valve Майк Мораскі під час сесії запитань і відповідей згадав абревіатуру HLX, яку вважають внутрішнім кодовим ім&#x27;ям Half-Life 3. Раніше цей термін знаходили лише у витоках коду інших ігор компанії, а саму гру Valve офіційно ще не підтверджувала.\n\n🔗 <a href=\"https://insider-gaming.com/half-life-3-rumored-codename-mentioned-by-valve-dev-during-qa/\">Insider Gaming</a>\n\n#ігри",
@@ -14390,6 +14403,132 @@
     "link": "https://deadline.com/2026/10/comcast-nbcuniversal-split-brian-roberts-1237170992/",
     "orig": "Comcast Co-CEO Brian Roberts Touts Staffers’ “Energy And Excitement” About Pending NBCUniversal Split"
    }
+  ],
+  [
+   1792699352.2204645,
+   2018,
+   "🎮",
+   "Blizzard приховала частину секретів World of Warcraft: Forever до релізу",
+   "GameSpot",
+   {
+    "also": [],
+    "caption": "🎮 <b>Blizzard приховала частину секретів World of Warcraft: Forever до релізу</b>\n\nГравці World of Warcraft: Forever дослідили бета-версію гри, проте Blizzard запевняє, що на реліз та після нього підготовлено ще чимало сюрпризів. Старший геймдизайнер Джош Грінфілд повідомив, що розробники навмисно відключили деякі предмети та секрети для бети.\n\n🔗 <a href=\"https://www.gamespot.com/articles/wow-forever-is-keeping-its-secrets-close-to-the-chest/\">GameSpot</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamespot.com/articles/wow-forever-is-keeping-its-secrets-close-to-the-chest/",
+    "orig": "WoW: Forever Is Keeping Its Secrets Close To The Chest"
+   }
+  ],
+  [
+   1792699445.3490238,
+   2019,
+   "🤘",
+   "SLAYER відсвяткували 40-річчя альбому Reign In Blood у Мехіко",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>SLAYER відсвяткували 40-річчя альбому Reign In Blood у Мехіко</b>\n\nЛегенди каліфорнійського треш-металу SLAYER відзначили 40-річчя своєї класичної платівки Reign In Blood масштабним концертом у мехіканському Palacio De Los Deportes. Альбом виконали від початку до кінця, а саппортом виступили POWER TRIP.\n\n🔗 <a href=\"https://blabbermouth.net/news/watch-slayer-celebrates-40th-anniversary-of-reign-in-blood-in-mexico-city\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/watch-slayer-celebrates-40th-anniversary-of-reign-in-blood-in-mexico-city",
+    "orig": "Watch: SLAYER Celebrates 40th Anniversary Of 'Reign In Blood' In Mexico City"
+   }
+  ],
+  [
+   1792699465.6262643,
+   2020,
+   "🎮",
+   "Дебра Вілсон відмовилася сканувати свої татуювання для гри Marvel’s Wolverine",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Дебра Вілсон відмовилася сканувати свої татуювання для гри Marvel’s Wolverine</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/3167480/\">Pushing</a>\n\nАкторка Дебра Вілсон розповіла, що втомилася бачити власне обличчя у відеоіграх. Під час роботи над Marvel’s Wolverine розробники хотіли перенести на її персонажку Callisto її реальні татуювання, проте акторка відмовилася.\n\n🔗 <a href=\"https://www.ign.com/articles/now-youre-pushing-it-debra-wilson-drew-the-line-at-the-wolverine-devs-scanning-her-tattoos-into-the-game\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/now-youre-pushing-it-debra-wilson-drew-the-line-at-the-wolverine-devs-scanning-her-tattoos-into-the-game",
+    "orig": "‘Now You’re Pushing It’ — Debra Wilson Drew the Line at the Wolverine Devs Scanning Her Tattoos Into the Game"
+   }
+  ],
+  [
+   1792699489.447891,
+   2021,
+   "🤘",
+   "Dayseeker анонсували делюкс-видання альбому Creature In The Black Night",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Dayseeker анонсували делюкс-видання альбому Creature In The Black Night</b>\n\nГурт Dayseeker випустить розширену версію альбому Creature In The Black Night 26 лютого на лейблі Spinefarm. До релізу увійдуть ремікси від synthwave-гурту The Midnight у новому жанрі «metalwave», а також кавер на пісню The Ghost Of You гурту My Chemical Romance.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/22/news/dayseeker-announce-deluxe-edition-of-creature-in-the-black-night-go-metalwave-with-new-remix-of-shapeshift/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/22/news/dayseeker-announce-deluxe-edition-of-creature-in-the-black-night-go-metalwave-with-new-remix-of-shapeshift/",
+    "orig": "Dayseeker Announce Deluxe Edition Of “Creature In The Black Night”, Go ‘Metalwave’ With New Remix Of “Shapeshift”"
+   }
+  ],
+  [
+   1792699514.3033874,
+   2022,
+   "🤖",
+   "Сумніви щодо інвестицій у ШІ зникнуть зі зростанням його використання",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Сумніви щодо інвестицій у ШІ зникнуть зі зростанням його використання</b>\n\nКеруючий партнер Deepwater Asset Management Жін Манстер вважає, що найближчим часом не буде каталізатора для відновлення довіри інвесторів на тлі перевірки витрат на ШІ. Він також описав розрив у поглядах між «академіками» та «візіонерами».\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-22/ai-doubts-may-ease-as-usage-grows-gene-munster-says-video\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-22/ai-doubts-may-ease-as-usage-grows-gene-munster-says-video",
+    "orig": "AI Trade Doubts May Ease With Usage Growth, Gene Munster Says"
+   }
+  ],
+  [
+   1792699525.7564492,
+   2023,
+   "🎮",
+   "Звільнення в EA зачепили розробників Skate зі студії Full Circle",
+   "GameSpot",
+   {
+    "also": [],
+    "caption": "🎮 <b>Звільнення в EA зачепили розробників <a href=\"https://store.steampowered.com/app/3354750/\">Skate</a> зі студії Full Circle</b>\n\n🔗 <a href=\"https://www.gamespot.com/articles/im-getting-very-worried-about-skate-following-ea-layoffs/\">GameSpot</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamespot.com/articles/im-getting-very-worried-about-skate-following-ea-layoffs/",
+    "orig": "I’m Getting Very Worried About Skate Following EA Layoffs"
+   }
+  ],
+  [
+   1792699527.9569395,
+   2024,
+   "💾",
+   "Дональд Трамп питав голову Google про перейменування Атлантичного океану на Океан Трампа, але отримав відмову",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "💾 <b>Дональд Трамп питав голову Google про перейменування Атлантичного океану на Океан Трампа, але отримав відмову</b>\n\nПрезидент США Дональд Трамп консультувався з генеральним директором Google Сундаром Пічаї про зміну на картах назви Атлантичного океану на Океан Трампа, але той відмовив. Про це розповів сам Трамп на передвиборчого мітингу.\n\n🔗 <a href=\"https://mezha.ua/news/trump-ocean-316449/\">Mezha</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/trump-ocean-316449/",
+    "orig": "Дональд Трамп питав голову Google про перейменування Атлантичного океану на Океан Трампа, але отримав відмову"
+   }
+  ],
+  [
+   1792699531.3190668,
+   2025,
+   "🎬",
+   "Рецензія на фільм Wicker за участю Олівії Колман та Пітера Дінкл<bos>4",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Рецензія на фільм Wicker за участю Олівії Колман та Пітера Дінкл&lt;bos&gt;4</b>\n\nФільм Wicker став сюрпризом кінофестивалю Sundance та розповідає похмуру і сатиричну казку про самотню жінку, яка замовляє чоловіка з лози. Стрічка від режисерів Алекса Гастона та Елеонор Вілсон вирізняється акторською грою Олівії Колман, Пітера Дінкл&lt;bos&gt;3 та Александра Скарсгарда.\n\n🔗 <a href=\"https://deadline.com/2026/10/wicker-olivia-colman-peter-dinklage-alexander-skarsgard-1237170426/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/wicker-olivia-colman-peter-dinklage-alexander-skarsgard-1237170426/",
+    "orig": "‘Wicker’ Review: Olivia Colman And Peter Dinklage Turn Alexander Skarsgard Into A Sexy Basket Case In Comic Fable That’s Pure Delight"
+   }
+  ],
+  [
+   1792699546.2935832,
+   2026,
+   "🤘",
+   "Brand New скасували сьогоднішній концерт в Атланті через хворобу",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Brand New скасували сьогоднішній концерт в Атланті через хворобу</b>\n\nГурт Brand New скасував виступ у Fox Theatre в Атланті через хворобу учасників. Музиканти зараз перебувають у турі на честь альбому The Devil and God Are Raging Inside Me. Усім покупцям квитків повернуть кошти за місцем придбання.\n\n🔗 <a href=\"https://lambgoat.com/news/55495/brand-new-cancel-tonights-atlanta-ga-show-due-to-illness/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55495/brand-new-cancel-tonights-atlanta-ga-show-due-to-illness/",
+    "orig": "Brand New cancel tonight's Atlanta, GA show due to illness"
+   }
   ]
  ],
  "posted_by_source": {
@@ -14398,12 +14537,12 @@
    1792589516.5178292
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1792611097.0023742,
    1792634487.7275226,
    1792638081.2404697,
    1792638085.029748,
    1792647162.9772983,
-   1792681404.41804
+   1792681404.41804,
+   1792699514.3038924
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1792405876.2595813
@@ -14461,7 +14600,9 @@
    1792688559.549153,
    1792690311.817711,
    1792690455.4997938,
-   1792693949.6332636
+   1792693949.6332636,
+   1792699352.2209678,
+   1792699525.7569962
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
    1792657916.164372,
@@ -14471,12 +14612,6 @@
    1792693893.9966717
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1792605690.592239,
-   1792605700.6519258,
-   1792609319.645304,
-   1792609329.2243116,
-   1792609339.0443225,
-   1792609348.3502843,
    1792616506.8917654,
    1792619375.497507,
    1792623687.665301,
@@ -14488,7 +14623,8 @@
    1792685124.8648608,
    1792688509.1057208,
    1792688534.2387552,
-   1792688583.1796968
+   1792688583.1796968,
+   1792699465.6265771
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1792668748.8697956,
@@ -14591,7 +14727,6 @@
    1792528337.5075414
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1792611130.2813926,
    1792618293.9464157,
    1792621907.3756802,
    1792625521.0164073,
@@ -14605,7 +14740,8 @@
    1792695727.0675316,
    1792697494.7314777,
    1792697497.868941,
-   1792697503.128366
+   1792697503.128366,
+   1792699531.319575
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1792654274.694844,
@@ -14636,10 +14772,6 @@
    1792619351.331629
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1792611090.1067739,
-   1792611093.8349097,
-   1792612895.8319275,
-   1792612899.1278405,
    1792614686.7827606,
    1792670588.472313,
    1792674086.5338526,
@@ -14650,7 +14782,8 @@
    1792688715.1905363,
    1792689485.356083,
    1792693911.9944975,
-   1792695701.2490017
+   1792695701.2490017,
+   1792699445.3495398
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -14677,10 +14810,6 @@
    1792686906.0709991
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1792607530.8422017,
-   1792607533.812223,
-   1792607537.7118943,
-   1792607540.6289792,
    1792614709.1559503,
    1792614712.8651993,
    1792614716.2862244,
@@ -14690,7 +14819,8 @@
    1792681523.9030228,
    1792687098.2512243,
    1792687119.1497447,
-   1792687138.9255495
+   1792687138.9255495,
+   1792699546.2940497
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1792665174.7859547,
@@ -14732,8 +14862,6 @@
    1792623678.1434515
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1792611113.9521527,
-   1792611127.0686812,
    1792618291.122408,
    1792618296.873999,
    1792619378.7645562,
@@ -14751,7 +14879,8 @@
    1792693992.8882499,
    1792695705.225333,
    1792695755.1887074,
-   1792697489.5722027
+   1792697489.5722027,
+   1792699489.4483798
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1792481487.1423821
@@ -14793,7 +14922,8 @@
    1792668744.9354658,
    1792675942.589055,
    1792677871.0578272,
-   1792681338.2739942
+   1792681338.2739942,
+   1792699527.9574492
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1792576978.7088451,
@@ -14869,6 +14999,7 @@
   "0609996b3ecd19e6": 1792677686.5813844,
   "061113137872693d": 1792148786.5805895,
   "061b95a8bec47a2d": 1792580486.1875198,
+  "06300010fe70024a": 1792699278.1710994,
   "064d65c506f0c37e": 1792306049.3591456,
   "0654d922a206974c": 1792056001.2000065,
   "06734d41047a5c2f": 1792612914.270907,
@@ -14908,6 +15039,7 @@
   "09f7051655fb2abc": 1792595216.3429098,
   "0a41268d01bef3ca": 1792675880.1654367,
   "0a616285ab68caf9": 1791989226.3239863,
+  "0a6b9121b666dc65": 1792699527.957413,
   "0a777e4467d45b14": 1792074112.428332,
   "0a8fd90ca555ca59": 1792542679.9643233,
   "0a917c4ab073a7c6": 1792582303.238337,
@@ -15340,6 +15472,7 @@
   "33d8ebc3069d5d34": 1792514312.6262708,
   "33e13b0eec3f3dd9": 1792524114.7549076,
   "3401a99782268590": 1791957562.3266816,
+  "341df134e33094c5": 1792699514.3038557,
   "3429c7218e4f7d01": 1792244086.4117854,
   "345dc724e72fe68f": 1792497655.4927337,
   "34607fa71dc872e1": 1792436456.6644757,
@@ -15365,6 +15498,7 @@
   "36917ef32b441dc1": 1792071069.4472752,
   "36c772521ca5886a": 1792555282.983842,
   "36d7af44ee8ef4f5": 1792603226.8352666,
+  "36da30d5c8d7ab77": 1792699445.3495016,
   "37033c506c333ecf": 1792009788.984798,
   "3721f64b107d3c92": 1792600257.4748182,
   "37237c4ea4f79b31": 1792580486.1923513,
@@ -15687,6 +15821,7 @@
   "55e77c526310cc43": 1792519338.8522263,
   "55f2280ae7bd213d": 1792440081.0859635,
   "5617179086a7693a": 1792431131.7100432,
+  "561f790b9a43294e": 1792699352.2209227,
   "566c764ecac6fb4b": 1792508488.7046292,
   "56ac17c60fdf66a2": 1792021687.9833136,
   "56ae604783dec258": 1792319471.5020306,
@@ -15732,6 +15867,7 @@
   "5a0caf5f4ce94e10": 1792429255.8692856,
   "5a34bcc3c3501703": 1792485650.4836495,
   "5a36d82678906e21": 1792378892.5932095,
+  "5a62bdbcd8af964f": 1792699468.0874908,
   "5aa5498c843f2acc": 1792490537.1860263,
   "5abf32d39895202f": 1792584090.1305249,
   "5ac163a1a088553a": 1792623687.665254,
@@ -15848,6 +15984,7 @@
   "661a1c657598e479": 1791959776.1036835,
   "661d5edf8c100a56": 1792548053.8558683,
   "663bfef6687b433c": 1791815053.155718,
+  "6657c6bb96fc22bb": 1792699278.1638453,
   "665d35668e50cb33": 1791743016.610594,
   "66a303239248538b": 1792229874.5261397,
   "66b8f4b0ab2b0dbf": 1791931141.432061,
@@ -15877,6 +16014,7 @@
   "68c4beb77aeef5de": 1792645260.9671817,
   "69046dac910d5167": 1792589514.5813036,
   "693b3842ab6b11b8": 1791975089.1230226,
+  "694b66106911d412": 1792699489.4483354,
   "695a4a80a2da6149": 1792591408.0965388,
   "696bceef45141772": 1792643453.9104059,
   "6973c0afa8a9d10d": 1792449098.4181793,
@@ -15903,6 +16041,7 @@
   "6b2b8dc43abf119f": 1791926922.6264074,
   "6b5c9436c1346842": 1792346497.3570652,
   "6b73b099e6e881f2": 1792010043.0156028,
+  "6b8590a9808806f1": 1792699531.319541,
   "6ba8da5093b6a36e": 1792070952.1990302,
   "6bb004ec4a9d365d": 1792506219.684067,
   "6bb47dacc174606a": 1792623653.3875859,
@@ -16095,6 +16234,7 @@
   "7b9f08ab65f9bf9f": 1792492410.6357894,
   "7bbde5196136a2a2": 1792531876.6129727,
   "7bbfbf099e78d408": 1792197842.1207352,
+  "7bedc67dd717409c": 1792699525.7569578,
   "7c19b4a4a43a0cf2": 1792602151.7007782,
   "7c215e606a562a9c": 1791932421.0418994,
   "7c314ebc3acca3b9": 1792557086.9620264,
@@ -16330,6 +16470,7 @@
   "9198c9e097613d30": 1792129261.8607218,
   "91a43f5b773e51ef": 1791843862.675442,
   "91a5bb0661a5541f": 1792355414.318049,
+  "91b10525128ba6bf": 1792699546.2940109,
   "91cff8f8baf538d7": 1792603241.2621372,
   "91d293d1794b216b": 1792537282.9928575,
   "91de54a714a34f8a": 1792603261.7170908,
@@ -16347,6 +16488,7 @@
   "92f0201c35afafce": 1791931686.796419,
   "9301c858b5304232": 1792627362.7049873,
   "931384b7abb9b9ac": 1792602187.157544,
+  "9314367f86d219d5": 1792699278.1679087,
   "93272459614bf6a4": 1792523015.6261346,
   "9349733d05eabfc4": 1792494183.9025233,
   "93498f4f3bc42a3c": 1792314110.6406078,
@@ -16682,6 +16824,7 @@
   "b747ddfc4acba088": 1792353699.787903,
   "b7491efc99960120": 1792523050.0981953,
   "b78d1bb0066fb661": 1792468986.815313,
+  "b7a9a1b97fce9e56": 1792699255.0839438,
   "b7b98190af652545": 1792589516.5177772,
   "b7bb50d8a7b97d6e": 1792326683.1353447,
   "b7e04700f8dc0ea1": 1792668728.0143685,
@@ -16997,6 +17140,7 @@
   "d6ef87b7463c1c49": 1791636717.6413412,
   "d6f00a67abe188cd": 1791931846.9450486,
   "d6fff95ae53575d1": 1792494085.734604,
+  "d7069e5fd878be3c": 1792699255.0839438,
   "d70ff3d3122e4ab7": 1792557079.1707566,
   "d713bf288577c7a1": 1791968057.7819278,
   "d721ff6400c61026": 1792129291.6810944,
@@ -17028,6 +17172,7 @@
   "d9a330be03ad95ec": 1792197850.3807788,
   "d9aa5779874ef777": 1792413121.969529,
   "d9c272590d52b8da": 1792598796.0835633,
+  "d9ce2996e8bbe3fc": 1792699278.1895795,
   "d9f44c45d290115b": 1792246857.3589647,
   "da09ec83c007850f": 1792495905.3143945,
   "da0af8c10cc10c09": 1792099075.9052477,
@@ -17183,6 +17328,7 @@
   "e6c604e5aed681d8": 1791997037.5218186,
   "e6c8f9d6df072dad": 1792164537.5119853,
   "e700c0be922b79dc": 1792627353.454446,
+  "e706a567e5c9470c": 1792699465.6265347,
   "e7110f548e2c0e73": 1792657881.1841278,
   "e74d77496514b484": 1792099051.600866,
   "e74f16aff7c8f4f1": 1791969580.967872,
@@ -17270,6 +17416,7 @@
   "f110a6be066cc1c0": 1792625517.3157246,
   "f15002d1849db99b": 1792504932.4262488,
   "f16d91e2cb8feaa9": 1792164589.7498298,
+  "f187a4405b3941c5": 1792699278.1802473,
   "f1b385784304651b": 1792683181.6402,
   "f1b825ef1c257b0f": 1791978165.150092,
   "f1da12db0251eb46": 1792377273.9268353,
@@ -17425,6 +17572,7 @@
   "fee6139694941530": 1792393277.5452306,
   "fef85c09f3d7c9bc": 1791931751.3380954,
   "ff142276fb37798a": 1791742953.0097268,
+  "ff507cf2fd3646bb": 1792699307.653553,
   "ff6294d72fd8d049": 1792089227.9786747,
   "ff876d1353b0082e": 1792214839.806132,
   "ffb3556792017727": 1791978150.106682,
@@ -18612,7 +18760,7 @@
    "Insider Gaming": 22,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
-   "PC Gamer": 9,
+   "PC Gamer": 11,
    "Pitchfork": 1,
    "Polygon": 33,
    "VGC": 3,
@@ -18621,30 +18769,30 @@
   "sources": {
    "/Film": 26,
    "AIN.ua": 4,
-   "Blabbermouth": 57,
-   "Bloomberg": 41,
+   "Blabbermouth": 58,
+   "Bloomberg": 42,
    "DOU": 2,
    "DOU Gamedev": 4,
-   "Deadline": 58,
+   "Deadline": 59,
    "Decibel": 11,
    "Digital Foundry": 6,
    "Distorted Sound": 14,
    "Eurogamer": 31,
-   "GameSpot": 34,
+   "GameSpot": 36,
    "GamesIndustry.biz": 18,
    "GitHub Trending": 16,
    "Hugging Face": 6,
-   "IGN": 60,
+   "IGN": 61,
    "ITC.ua": 48,
    "IndieWire": 19,
    "Insider Gaming": 68,
    "Kerrang!": 24,
-   "Lambgoat": 40,
+   "Lambgoat": 41,
    "Loudwire": 18,
    "Metal Hammer (Louder)": 21,
    "Metal Injection": 11,
    "MetalSucks": 1,
-   "Mezha": 46,
+   "Mezha": 47,
    "PC Gamer": 59,
    "Pitchfork": 6,
    "PlayUA": 21,
@@ -18655,14 +18803,14 @@
    "SteamDB": 2,
    "Stereogum": 9,
    "The Decoder": 22,
-   "ThePRP": 46,
+   "ThePRP": 47,
    "VGC": 24,
    "Variety": 18
   },
   "translators": {
    "DeepL": 21,
    "gemini-flash-latest": 83,
-   "gemini-flash-lite-latest": 938
+   "gemini-flash-lite-latest": 948
   },
   "week": "2026-W43"
  },
@@ -21777,6 +21925,16 @@
    "DEATH STRANDING DIRECTOR'S CUT",
    1792575423.767995
   ],
+  "q:debra wilson drew": [
+   0,
+   "",
+   1792699453.2813783
+  ],
+  "q:debra wilson drew the line": [
+   0,
+   "",
+   1792699452.7215075
+  ],
   "q:december": [
    0,
    "",
@@ -21856,6 +22014,36 @@
    0,
    "",
    1792663507.063829
+  ],
+  "q:developer": [
+   0,
+   "",
+   1792699284.0249295
+  ],
+  "q:developer mistakenly": [
+   0,
+   "",
+   1792699283.47958
+  ],
+  "q:developer mistakenly mentions": [
+   0,
+   "",
+   1792699282.9599614
+  ],
+  "q:developer mistakenly mentions rumored": [
+   0,
+   "",
+   1792699282.4485724
+  ],
+  "q:developer mistakenly mentions rumored half life": [
+   0,
+   "",
+   1792699281.9279091
+  ],
+  "q:developer mistakenly mentions rumored half life 3": [
+   0,
+   "",
+   1792699281.4041457
   ],
   "q:development": [
    0,
@@ -23307,6 +23495,26 @@
    "",
    1792690331.589678
   ],
+  "q:forever is keeping": [
+   0,
+   "",
+   1792699310.9287128
+  ],
+  "q:forever is keeping its": [
+   0,
+   "",
+   1792699310.4157274
+  ],
+  "q:forever is keeping its secrets": [
+   0,
+   "",
+   1792699309.890959
+  ],
+  "q:forever is keeping its secrets close": [
+   0,
+   "",
+   1792699309.3770688
+  ],
   "q:forget": [
    0,
    "",
@@ -23566,6 +23774,31 @@
    0,
    "",
    1792690334.9110177
+  ],
+  "q:getting very": [
+   0,
+   "",
+   1792699521.4853313
+  ],
+  "q:getting very worried": [
+   0,
+   "",
+   1792699520.9384048
+  ],
+  "q:getting very worried about": [
+   0,
+   "",
+   1792699520.4307451
+  ],
+  "q:getting very worried about skate": [
+   0,
+   "",
+   1792699519.91747
+  ],
+  "q:getting very worried about skate following": [
+   0,
+   "",
+   1792699519.3268626
   ],
   "q:gives": [
    0,
@@ -24102,6 +24335,31 @@
    "",
    1792685462.582553
   ],
+  "q:i'm getting": [
+   0,
+   "",
+   1792699518.8079064
+  ],
+  "q:i'm getting very": [
+   0,
+   "",
+   1792699518.2512445
+  ],
+  "q:i'm getting very worried": [
+   0,
+   "",
+   1792699517.6216784
+  ],
+  "q:i'm getting very worried about": [
+   0,
+   "",
+   1792699517.0383623
+  ],
+  "q:i'm getting very worried about skate": [
+   0,
+   "",
+   1792699516.419067
+  ],
   "q:if steam is": [
    0,
    "",
@@ -24347,6 +24605,26 @@
    "",
    1792578699.3731062
   ],
+  "q:is keeping": [
+   0,
+   "",
+   1792699313.0388274
+  ],
+  "q:is keeping its": [
+   0,
+   "",
+   1792699312.5222611
+  ],
+  "q:is keeping its secrets": [
+   0,
+   "",
+   1792699311.9888759
+  ],
+  "q:is keeping its secrets close": [
+   0,
+   "",
+   1792699311.4491704
+  ],
   "q:is league": [
    0,
    "",
@@ -24457,6 +24735,11 @@
    "",
    1792693884.357378
   ],
+  "q:it'": [
+   0,
+   "",
+   1792699452.1416128
+  ],
   "q:it's developing an open world football game": [
    0,
    "",
@@ -24526,6 +24809,16 @@
    3633760,
    "KAZ",
    1791894819.2258348
+  ],
+  "q:keeping its secrets": [
+   0,
+   "",
+   1792699314.2230346
+  ],
+  "q:keeping its secrets close": [
+   0,
+   "",
+   1792699313.712658
   ],
   "q:kickstarter": [
    0,
@@ -25167,6 +25460,11 @@
    "Minesweeper Ultimate",
    1791642328.393718
   ],
+  "q:mistakenly mentions rumored half life 3 codename": [
+   0,
+   "",
+   1792699284.537573
+  ],
   "q:mmo": [
    0,
    "",
@@ -25746,6 +26044,31 @@
    0,
    "",
    1792600347.9795172
+  ],
+  "q:now": [
+   0,
+   "",
+   1792699449.4847398
+  ],
+  "q:now you": [
+   0,
+   "",
+   1792699447.3909607
+  ],
+  "q:now you're": [
+   0,
+   "",
+   1792699448.9455967
+  ],
+  "q:now you're pushing": [
+   0,
+   "",
+   1792699448.4208329
+  ],
+  "q:now you're pushing it'": [
+   0,
+   "",
+   1792699447.9104161
   ],
   "q:nurse": [
    0,
@@ -26491,6 +26814,11 @@
    3167480,
    "Pushing",
    1792080960.8837323
+  ],
+  "q:pushing it'": [
+   0,
+   "",
+   1792699451.6167548
   ],
   "q:pve": [
    0,
@@ -28337,6 +28665,31 @@
    "",
    1792675937.3334057
   ],
+  "q:valve developer": [
+   0,
+   "",
+   1792699280.847795
+  ],
+  "q:valve developer mistakenly": [
+   0,
+   "",
+   1792699280.3375385
+  ],
+  "q:valve developer mistakenly mentions": [
+   0,
+   "",
+   1792699279.8134482
+  ],
+  "q:valve developer mistakenly mentions rumored": [
+   0,
+   "",
+   1792699279.3030798
+  ],
+  "q:valve developer mistakenly mentions rumored half life": [
+   0,
+   "",
+   1792699278.779376
+  ],
   "q:vcs": [
    0,
    "",
@@ -28361,6 +28714,16 @@
    0,
    "",
    1792688493.1236022
+  ],
+  "q:very worried about skate following": [
+   0,
+   "",
+   1792699522.534437
+  ],
+  "q:very worried about skate following ea": [
+   0,
+   "",
+   1792699521.9956222
   ],
   "q:victory": [
    0,
@@ -29052,6 +29415,16 @@
    "",
    1792690329.3332236
   ],
+  "q:wow forever is keeping": [
+   0,
+   "",
+   1792699308.8643
+  ],
+  "q:wow forever is keeping its": [
+   0,
+   "",
+   1792699308.3188946
+  ],
   "q:writers speak out": [
    0,
    "",
@@ -29182,6 +29555,21 @@
    "",
    1792675883.8543863
   ],
+  "q:you're": [
+   0,
+   "",
+   1792699451.1018424
+  ],
+  "q:you're pushing": [
+   0,
+   "",
+   1792699450.5450456
+  ],
+  "q:you're pushing it'": [
+   0,
+   "",
+   1792699450.003278
+  ],
   "q:your issues": [
    0,
    "",
@@ -29210,28 +29598,28 @@
  },
  "tag_hints": {
   "Mezha": [
-   "1password",
    "airbnb",
    "android",
    "apple",
    "bioware",
    "capcom",
    "f-35",
+   "google maps",
    "iphone duo",
    "lockheed martin",
    "mass effect 5",
-   "meta",
-   "meta muse",
    "nintendo switch 2",
    "playstation 5",
+   "volkswagen",
    "авіація",
    "безпілотники",
    "бпла",
    "винищувачі",
+   "дональд трамп",
    "дрони",
+   "електромобілі",
    "емулятори",
    "литва",
-   "менеджери паролів",
    "новини",
    "оборонка",
    "оренда",
@@ -29244,24 +29632,10 @@
    "софт",
    "сша",
    "україна",
-   "штучний інтелект",
-   "ші-агенти",
    "ігри"
   ]
  },
  "titles": [
-  [
-   1792526497.8903277,
-   "Bright Curse announce new album ‘Fatum’"
-  ],
-  [
-   1792526500.5759861,
-   "Моди підвищують продуктивність DLSS 5 майже вдвічі обробкою об’єктів лише у полі зору"
-  ],
-  [
-   1792526559.3690534,
-   "LoL Patch 26.21 Fixes Replays and Rebalances 25 Champions"
-  ],
   [
    1792528284.9560838,
    "Romain Gavras Is Bummed About Those AI Versions of “Storm”"
@@ -31217,21 +31591,45 @@
   [
    1792697503.128319,
    "Comcast Co-CEO Brian Roberts Touts Staffers’ “Energy And Excitement” About Pending NBCUniversal Split"
+  ],
+  [
+   1792699352.220925,
+   "WoW: Forever Is Keeping Its Secrets Close To The Chest"
+  ],
+  [
+   1792699445.3495033,
+   "Watch: SLAYER Celebrates 40th Anniversary Of 'Reign In Blood' In Mexico City"
+  ],
+  [
+   1792699465.6265361,
+   "‘Now You’re Pushing It’ — Debra Wilson Drew the Line at the Wolverine Devs Scanning Her Tattoos Into the Game"
+  ],
+  [
+   1792699489.4483366,
+   "Dayseeker Announce Deluxe Edition Of “Creature In The Black Night”, Go ‘Metalwave’ With New Remix Of “Shapeshift”"
+  ],
+  [
+   1792699514.303857,
+   "AI Trade Doubts May Ease With Usage Growth, Gene Munster Says"
+  ],
+  [
+   1792699525.756959,
+   "I’m Getting Very Worried About Skate Following EA Layoffs"
+  ],
+  [
+   1792699527.9574142,
+   "Дональд Трамп питав голову Google про перейменування Атлантичного океану на Океан Трампа, але отримав відмову"
+  ],
+  [
+   1792699531.3195422,
+   "‘Wicker’ Review: Olivia Colman And Peter Dinklage Turn Alexander Skarsgard Into A Sexy Basket Case In Comic Fable That’s Pure Delight"
+  ],
+  [
+   1792699546.294013,
+   "Brand New cancel tonight's Atlanta, GA show due to illness"
   ]
  ],
  "titles_uk": [
-  [
-   1792526497.8903294,
-   "Bright Curse анонсували новий альбом Fatum та випустили сингл"
-  ],
-  [
-   1792526500.575987,
-   "Моди підвищують продуктивність DLSS 5 майже вдвічі обробкою об’єктів лише у полі зору"
-  ],
-  [
-   1792526559.3690548,
-   "Патч 26.21 для League of Legends оновив систему повторів і змінив 25 чемпіонів"
-  ],
   [
    1792528284.9560845,
    "Ромен Гаврас розчарований ШІ-копіями його кліпу Storm"
@@ -33187,6 +33585,42 @@
   [
    1792697503.12832,
    "Comcast готується до розділення компанії з NBCUniversal"
+  ],
+  [
+   1792699352.220926,
+   "Blizzard приховала частину секретів World of Warcraft: Forever до релізу"
+  ],
+  [
+   1792699445.349504,
+   "SLAYER відсвяткували 40-річчя альбому Reign In Blood у Мехіко"
+  ],
+  [
+   1792699465.6265368,
+   "Дебра Вілсон відмовилася сканувати свої татуювання для гри Marvel’s Wolverine"
+  ],
+  [
+   1792699489.4483373,
+   "Dayseeker анонсували делюкс-видання альбому Creature In The Black Night"
+  ],
+  [
+   1792699514.3038578,
+   "Сумніви щодо інвестицій у ШІ зникнуть зі зростанням його використання"
+  ],
+  [
+   1792699525.7569594,
+   "Звільнення в EA зачепили розробників Skate зі студії Full Circle"
+  ],
+  [
+   1792699527.9574146,
+   "Дональд Трамп питав голову Google про перейменування Атлантичного океану на Океан Трампа, але отримав відмову"
+  ],
+  [
+   1792699531.319543,
+   "Рецензія на фільм Wicker за участю Олівії Колман та Пітера Дінкл<bos>4"
+  ],
+  [
+   1792699546.2940135,
+   "Brand New скасували сьогоднішній концерт в Атланті через хворобу"
   ]
  ],
  "ukrainian": {
