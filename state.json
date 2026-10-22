@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1792699273.6723683
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1792699272.1725314
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-22",
  "freebies": {
   "last_check": 1792695756.7964222,
@@ -27,11 +14,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-22 20:05 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-10-22 20:32 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 10
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
@@ -13650,7 +13637,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Лише 13% компаній отримують реальний прибуток від ШІ</b>\n\nОпитування Gartner показало, що більшість компаній не можуть перетворити витрати на ШІ на реальну бізнес-цінність. Понад половина керівників очікують зростання операційних витрат, хоча 75% гендиректорів планують збільшувати інвестиції в технології.\n\n🔗 <a href=\"https://the-decoder.com/only-13-percent-of-companies-see-real-returns-from-ai-gartner-survey-finds/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/only-13-percent-of-companies-see-real-returns-from-ai-gartner-survey-finds/",
     "orig": "Only 13 percent of companies see real returns from AI, Gartner survey finds"
@@ -13664,7 +13650,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>У League of Legends з&#x27;явиться новий музичний скін для Sona</b>\n\nDJ Sona повернулася як виконавиця в треку «Girls» із нового EP «Firestarter» від K/DA. Інсайдерські джерела повідомляють, що 18 листопада разом із патчем 26.23 у грі вийде новий музичний скін для Sona.\n\n🔗 <a href=\"https://insider-gaming.com/is-league-of-legends-getting-a-new-dj-sona-skin-after-k-da-collab/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/is-league-of-legends-getting-a-new-dj-sona-skin-after-k-da-collab/",
     "orig": "Is League of Legends Getting a New DJ Sona Skin After K/DA Collab?"
@@ -13729,7 +13714,12 @@
    "Loathe, Black Veil Brides, Poppy та Chad Grey виступлять на Welcome To Rockville",
    "Lambgoat",
    {
-    "also": [],
+    "also": [
+     [
+      "ThePRP",
+      "https://www.theprp.com/2026/10/22/news/bullet-for-my-valentine-black-veil-brides-loathe-chad-gray-set-for-2027-welcome-to-rockville/"
+     ]
+    ],
     "caption": "🤘 <b>Loathe, Black Veil Brides, Poppy та Chad Grey виступлять на Welcome To Rockville</b>\n\nФестиваль Welcome To Rockville почав розкривати лайнап цього року, анонсувавши перших учасників\n\n🔗 <a href=\"https://lambgoat.com/news/55487/loathe-black-veil-brides-poppy-and-chad-grey-announced-for-welcome-to-rockville/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55487/loathe-black-veil-brides-poppy-and-chad-grey-announced-for-welcome-to-rockville/",
@@ -14529,6 +14519,34 @@
     "link": "https://lambgoat.com/news/55495/brand-new-cancel-tonights-atlanta-ga-show-due-to-illness/",
     "orig": "Brand New cancel tonight's Atlanta, GA show due to illness"
    }
+  ],
+  [
+   1792701099.1317203,
+   2027,
+   "🤘",
+   "Гурт Agriculture виклав у мережу повний запис виступу на фестивалі Roadburn 2026",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Гурт Agriculture виклав у мережу повний запис виступу на фестивалі Roadburn 2026</b>\n\nBlack-metal гурт Agriculture опублікував офіційний відеозапис свого виступу на фестивалі Roadburn 2026, що відбувся 18 квітня в Тілбурзі. Деякі композиції з цього сету раніше увійшли до їхнього концертного альбому The Spiritual Sound, Live In Europe 2026.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/22/news/official-footage-of-agricultures-2026-roadburn-set-released/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/22/news/official-footage-of-agricultures-2026-roadburn-set-released/",
+    "orig": "Official Footage Of Agriculture’s 2026 ‘Roadburn’ Set Released"
+   }
+  ],
+  [
+   1792701105.598483,
+   2028,
+   "🎮",
+   "Співробітник Valve випадково згадав секретний проєкт HLX під час панелі",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Співробітник Valve випадково згадав секретний проєкт HLX під час панелі</b>\n\nКомпозитор Valve Майк Мораскі згадав назву HLX під час виступу на GameSoundCon, говорячи про аудіодвигунець. Його колега Девід Фейз одразу відреагував на це зауваженням, що розробник згадав кодове ім&#x27;я лише раз. HLX раніше фігурував у витоках і вважається ймовірною внутрішньою назвою нової гри у серії Half-Life.\n\n🔗 <a href=\"https://www.pcgamer.com/games/fps/half-life-3-re-re-re-confirmed-a-valve-dev-just-said-hlx-out-loud/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/games/fps/half-life-3-re-re-re-confirmed-a-valve-dev-just-said-hlx-out-loud/",
+    "orig": "Half-Life 3 re-re-re-confirmed: A Valve dev just said 'HLX' out loud"
+   }
   ]
  ],
  "posted_by_source": {
@@ -14659,9 +14677,6 @@
    1792695730.2072842
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1792609356.2539513,
-   1792614691.934693,
-   1792614696.85172,
    1792621901.9673069,
    1792629142.1962261,
    1792632677.2291229,
@@ -14681,7 +14696,8 @@
    1792688732.7982004,
    1792688760.0624728,
    1792692127.3260572,
-   1792692173.5472052
+   1792692173.5472052,
+   1792701105.5989358
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1792656080.2098827,
@@ -14880,7 +14896,8 @@
    1792695705.225333,
    1792695755.1887074,
    1792697489.5722027,
-   1792699489.4483798
+   1792699489.4483798,
+   1792701099.1321735
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1792481487.1423821
@@ -15016,6 +15033,7 @@
   "07c9a77e54e23e67": 1791642308.7748382,
   "07ceeae3552d214e": 1792396888.81124,
   "07dd898bc8033033": 1792380689.030678,
+  "07e028e37c641449": 1792701099.132128,
   "07f114f11bf91819": 1792496082.9174666,
   "07fda0469597f90a": 1792281245.7376587,
   "082b01c9d624c1bb": 1791931200.4147167,
@@ -16377,6 +16395,7 @@
   "88f0e20c248da09a": 1792302844.364652,
   "8920c6cc83fbe62f": 1792465295.8606575,
   "8924f07412350f2b": 1792677901.4013,
+  "8942c735d7566f2d": 1792701105.5988903,
   "89599497293a46a2": 1792443686.3810863,
   "89c8d5550556eb42": 1792111138.512026,
   "89f5d86d57cc5ad4": 1792346493.0826466,
@@ -17018,6 +17037,7 @@
   "ca1f21fe4c08b031": 1792585886.744756,
   "ca434da9a05117f0": 1792129006.8298862,
   "ca925f90135eae9c": 1791643484.7724442,
+  "cab702867fde0ee0": 1792701056.0781362,
   "cac5f332da9993d9": 1792650682.3023837,
   "cb0de650dca9c67f": 1791927001.6132205,
   "cb27ca09220fad50": 1791994369.4845452,
@@ -17058,6 +17078,7 @@
   "cebf9dfcd0b3a5c6": 1792587738.2057018,
   "ced4faa30bf1c294": 1792573285.572637,
   "cf1a11167c99d636": 1792418638.991978,
+  "cf220523de4a5ae7": 1792701082.1598103,
   "cf74cf134f60e6bb": 1792648892.7651772,
   "cf82ba1fd8519adf": 1792627366.9257436,
   "cfacfd84268e1f2f": 1792508675.6725671,
@@ -17345,6 +17366,7 @@
   "e84e7947c146a275": 1792607540.6289332,
   "e87d416cf54aca14": 1792273238.8297417,
   "e891c97409f3641e": 1791643484.7724442,
+  "e8c3f38b57b3eb77": 1792701117.597372,
   "e8c74e875ce8847d": 1791969264.6870122,
   "e8d8473862a2354a": 1792539086.8887386,
   "e9383c6c52d52173": 1792595149.7851534,
@@ -18762,7 +18784,7 @@
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 11,
    "Pitchfork": 1,
-   "Polygon": 33,
+   "Polygon": 34,
    "VGC": 3,
    "Variety": 1
   },
@@ -18793,7 +18815,7 @@
    "Metal Injection": 11,
    "MetalSucks": 1,
    "Mezha": 47,
-   "PC Gamer": 59,
+   "PC Gamer": 60,
    "Pitchfork": 6,
    "PlayUA": 21,
    "Polygon": 27,
@@ -18803,14 +18825,14 @@
    "SteamDB": 2,
    "Stereogum": 9,
    "The Decoder": 22,
-   "ThePRP": 47,
+   "ThePRP": 48,
    "VGC": 24,
    "Variety": 18
   },
   "translators": {
    "DeepL": 21,
    "gemini-flash-latest": 83,
-   "gemini-flash-lite-latest": 948
+   "gemini-flash-lite-latest": 951
   },
   "week": "2026-W43"
  },
@@ -19454,21 +19476,6 @@
    0,
    "",
    1792584068.92164
-  ],
-  "q:26 21 fixes replays": [
-   0,
-   "",
-   1792526508.0953028
-  ],
-  "q:26 21 fixes replays and rebalances": [
-   0,
-   "",
-   1792526507.6027207
-  ],
-  "q:26 21 fixes replays and rebalances 25": [
-   0,
-   "",
-   1792526507.1054256
   ],
   "q:2d": [
    2825780,
@@ -22290,11 +22297,6 @@
    "",
    1792685257.9825487
   ],
-  "q:dlss 5": [
-   0,
-   "",
-   1792526499.935015
-  ],
   "q:dmz": [
    2650890,
    "DMZ",
@@ -24235,6 +24237,16 @@
    "",
    1792558760.845879
   ],
+  "q:hlx": [
+   0,
+   "",
+   1792701101.1788144
+  ],
+  "q:hlx'": [
+   0,
+   "",
+   1792701101.7484877
+  ],
   "q:hogwarts legacy": [
    990080,
    "Hogwarts Legacy",
@@ -25004,31 +25016,6 @@
    0,
    "",
    1792670718.710515
-  ],
-  "q:lol": [
-   0,
-   "",
-   1792526504.5930872
-  ],
-  "q:lol patch": [
-   0,
-   "",
-   1792526504.0582092
-  ],
-  "q:lol patch 26 21": [
-   0,
-   "",
-   1792526503.5631847
-  ],
-  "q:lol patch 26 21 fixes": [
-   0,
-   "",
-   1792526503.0706468
-  ],
-  "q:lol patch 26 21 fixes replays": [
-   0,
-   "",
-   1792526502.576407
   ],
   "q:london": [
    0,
@@ -26244,26 +26231,6 @@
    0,
    "",
    1792587743.431898
-  ],
-  "q:patch 26 21": [
-   0,
-   "",
-   1792526506.6125553
-  ],
-  "q:patch 26 21 fixes": [
-   0,
-   "",
-   1792526506.1105862
-  ],
-  "q:patch 26 21 fixes replays": [
-   0,
-   "",
-   1792526505.6071582
-  ],
-  "q:patch 26 21 fixes replays and rebalances": [
-   0,
-   "",
-   1792526505.0891275
   ],
   "q:patch notes": [
    0,
@@ -29637,30 +29604,6 @@
  },
  "titles": [
   [
-   1792528284.9560838,
-   "Romain Gavras Is Bummed About Those AI Versions of “Storm”"
-  ],
-  [
-   1792528296.8801599,
-   "‘Wildwood’ Review: Laika’s Epic Stop-Motion Wonder Lacks the Magic of the Studio’s Best Movies"
-  ],
-  [
-   1792528301.4051745,
-   "Elizabeth Holmes Mania: ‘You Can See Everything’ Drives 186% Viewership Spike for Amanda Seyfried’s ‘The Dropout’ (EXCLUSIVE)"
-  ],
-  [
-   1792528308.0206416,
-   "Dwayne Johnson Transforms Into a 70-Year-Old Man in Shocking ‘Lizard Music’ Set Photos"
-  ],
-  [
-   1792528311.0115879,
-   "THE PRETTY RECKLESS's TAYLOR MOMSEN Rules Out Using A.I. For Songwriting: 'I Just Don't Understand The Point Of That'"
-  ],
-  [
-   1792528317.8902915,
-   "Keanu Reeves in Talks to Star in James Wan’s ‘The Gangster, The Cop, The Devil’ at Paramount"
-  ],
-  [
    1792528327.905067,
    "Spotify Rolls Out AI Persona Badges, Removes 75 Million “Spammy Tracks”"
   ],
@@ -31627,33 +31570,17 @@
   [
    1792699546.294013,
    "Brand New cancel tonight's Atlanta, GA show due to illness"
+  ],
+  [
+   1792701099.13213,
+   "Official Footage Of Agriculture’s 2026 ‘Roadburn’ Set Released"
+  ],
+  [
+   1792701105.598892,
+   "Half-Life 3 re-re-re-confirmed: A Valve dev just said 'HLX' out loud"
   ]
  ],
  "titles_uk": [
-  [
-   1792528284.9560845,
-   "Ромен Гаврас розчарований ШІ-копіями його кліпу Storm"
-  ],
-  [
-   1792528296.8801608,
-   "Рецензія на анімаційний фільм Wildwood від студії Laika"
-  ],
-  [
-   1792528301.4051752,
-   "Серіал The Dropout з Амандою Сейфрід різко додав у переглядах через документалку про Елізабет Голмс"
-  ],
-  [
-   1792528308.0206423,
-   "Двейн Джонсон перетворився на 70-річного чоловіка на зйомках фільму Lizard Music"
-  ],
-  [
-   1792528311.0115886,
-   "Тейлор Момсен виключила використання ШІ для написання пісень"
-  ],
-  [
-   1792528317.8902922,
-   "Кіану Рівз може зіграти у фільмі Джеймса Вана The Gangster, The Cop, The Devil"
-  ],
   [
    1792528327.9050677,
    "Spotify запроваджує бейджи AI Persona та видаляє 75 мільйонів спам-треків"
@@ -33621,6 +33548,14 @@
   [
    1792699546.2940135,
    "Brand New скасували сьогоднішній концерт в Атланті через хворобу"
+  ],
+  [
+   1792701099.1321306,
+   "Гурт Agriculture виклав у мережу повний запис виступу на фестивалі Roadburn 2026"
+  ],
+  [
+   1792701105.5988927,
+   "Співробітник Valve випадково згадав секретний проєкт HLX під час панелі"
   ]
  ],
  "ukrainian": {
@@ -35854,7 +35789,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792697511.7346988,
+  "last_check": 1792701125.4405334,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
