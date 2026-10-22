@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1792638072.7197797
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-21",
  "freebies": {
   "last_check": 1792636369.841338,
@@ -19,11 +12,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-22 03:01 UTC",
+  "at": "2026-10-22 03:31 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 4
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
@@ -10957,7 +10950,6 @@
       "https://www.ign.com/articles/clair-obscur-expedition-33-on-ps5-drops-to-new-all-time-low-price-at-amazon-with-a-coupon"
      ]
     ],
-    "caption": "🎬 <b>Середзем’я поринає у війну: Amazon показала трейлер третього сезону &quot;Перснів влади&quot;</b>\n\nТретій сезон серіалу &quot;Володар перснів: Персні влади&quot; / The Lord of the Rings: The Rings of Power отримав повноцінний трейлер й разом з тим – оновлений графік виходу епізодів. На цей раз Amazon відмовилась від щотижневого випуску і розподілила реліз на три групи, де перша одразу з чотирма епізодами стартує 11 листопада.\n\n🔗 <a href=\"https://mezha.ua/news/trailer-the-rings-of-power-316405/\">Mezha</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://mezha.ua/news/trailer-the-rings-of-power-316405/",
     "orig": "Середзем’я поринає у війну: Amazon показала трейлер третього сезону \"Перснів влади\""
@@ -11822,6 +11814,20 @@
     "link": "https://www.bloomberg.com/news/articles/2026-10-22/india-s-eternal-unveils-ai-assistant-built-for-privacy",
     "orig": "India’s Eternal Unveils AI Assistant Built for Privacy"
    }
+  ],
+  [
+   1792639876.5393975,
+   1822,
+   "🎬",
+   "Prime Video випустив другий сезон серіалу The Terminal List з Крісом Праттом",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Prime Video випустив другий сезон серіалу The Terminal List з Крісом Праттом</b>\n\nНа сервісі Prime Video стартував другий сезон екшен-трилера The Terminal List з Крісом Праттом у головній ролі. Нові серії засновані на книзі Джека Карра True Believer та перетворюють камерну історію на глобальний шпигунський трилер із поїздками по всьому світу. До своїх ролей повернулися Том Гоппер, Констанс Ву, Дар Салім та Люк Гемсворт.\n\n🔗 <a href=\"https://www.slashfilm.com/2293175/chris-pratt-the-terminal-list-season-2-streaming-prime-video/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2293175/chris-pratt-the-terminal-list-season-2-streaming-prime-video/",
+    "orig": "Prime Video Adds Long-Awaited Second Season Of Chris Pratt's Thrilling Action Series"
+   }
   ]
  ],
  "posted_by_source": {
@@ -11999,12 +12005,11 @@
    1792609364.6598828
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
-   1792549879.5038981,
-   1792551683.2392569,
    1792555294.2491815,
    1792627350.2046309,
    1792627353.4544885,
-   1792630892.4833689
+   1792630892.4833689,
+   1792639876.5397644
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792515873.2258618,
@@ -12767,6 +12772,7 @@
   "3cd0b61df5ba9330": 1792317842.889826,
   "3cee9bf04f3fec2d": 1792455963.0023758,
   "3cf161c75fd01e74": 1791969589.7300363,
+  "3cf203740b27df1b": 1792639874.7398376,
   "3d1a107758a21cf6": 1791815125.484494,
   "3d236b06f06c600d": 1792164153.1257877,
   "3d2d029e83d45bf0": 1792490528.1088724,
@@ -13555,6 +13561,7 @@
   "909786c7698d64c2": 1792573307.4991057,
   "90983dfe61bc7f9d": 1792097657.7671607,
   "90ac29aa4f74e49e": 1792010013.9407086,
+  "90ddebc2105070e0": 1792639876.5397155,
   "90df0236e7b9cfb3": 1791966898.7417848,
   "90f6c81b1628cc5b": 1792611053.7842038,
   "9108a061075fef1f": 1792533707.8328125,
@@ -14520,6 +14527,7 @@
   "fe1fdadbd090499b": 1792476081.5957215,
   "fe4dc7dbcee3a894": 1792074132.5777712,
   "fe5b968ae8ba789d": 1791908389.973113,
+  "fe613c15e05ab599": 1792639874.743795,
   "fe733fdc445eda02": 1792607526.3662322,
   "fe8f39cb9cf75201": 1792515817.445562,
   "fec5167a664aec39": 1792504889.0590773,
@@ -15719,7 +15727,7 @@
    "Variety": 1
   },
   "sources": {
-   "/Film": 23,
+   "/Film": 24,
    "AIN.ua": 4,
    "Blabbermouth": 47,
    "Bloomberg": 34,
@@ -15762,7 +15770,7 @@
   "translators": {
    "DeepL": 17,
    "gemini-flash-latest": 73,
-   "gemini-flash-lite-latest": 751
+   "gemini-flash-lite-latest": 752
   },
   "week": "2026-W43"
  },
@@ -16252,21 +16260,6 @@
    "",
    1792494168.0767426
   ],
-  "q:2 mod": [
-   0,
-   "",
-   1792465279.6540194
-  ],
-  "q:2 mod is": [
-   0,
-   "",
-   1792465279.1359017
-  ],
-  "q:2 mod is 'shadow": [
-   0,
-   "",
-   1792465278.5298736
-  ],
   "q:2 of dawn": [
    0,
    "",
@@ -16511,31 +16504,6 @@
    0,
    "",
    1792612901.67988
-  ],
-  "q:3 video": [
-   0,
-   "",
-   1792465287.2483249
-  ],
-  "q:3 video games": [
-   0,
-   "",
-   1792465286.703249
-  ],
-  "q:3 video games where": [
-   0,
-   "",
-   1792465286.1815677
-  ],
-  "q:3 video games where your": [
-   0,
-   "",
-   1792465285.6789596
-  ],
-  "q:3 video games where your choices": [
-   0,
-   "",
-   1792465285.152382
   ],
   "q:30": [
    0,
@@ -20827,11 +20795,6 @@
    "",
    1792490483.0269191
   ],
-  "q:games where your choices actually make": [
-   0,
-   "",
-   1792465291.1558383
-  ],
   "q:gaming 2027": [
    0,
    "",
@@ -21621,11 +21584,6 @@
    1846170,
    "Iron Lung",
    1791994329.4241986
-  ],
-  "q:is 'shadow of mordor' meets": [
-   0,
-   "",
-   1792465282.9072251
   ],
   "q:is 148": [
    0,
@@ -22581,31 +22539,6 @@
    0,
    "",
    1792506126.593385
-  ],
-  "q:mod": [
-   0,
-   "",
-   1792465282.3953037
-  ],
-  "q:mod is": [
-   0,
-   "",
-   1792465281.875698
-  ],
-  "q:mod is 'shadow": [
-   0,
-   "",
-   1792465281.3654976
-  ],
-  "q:mod is 'shadow of mordor'": [
-   0,
-   "",
-   1792465280.7590632
-  ],
-  "q:mod is 'shadow of mordor' meets": [
-   0,
-   "",
-   1792465280.2090173
   ],
   "q:modern": [
    0,
@@ -25997,36 +25930,6 @@
    "",
    1792595221.71405
   ],
-  "q:video": [
-   0,
-   "",
-   1792465290.6032443
-  ],
-  "q:video games": [
-   0,
-   "",
-   1792465289.8742325
-  ],
-  "q:video games where": [
-   0,
-   "",
-   1792465289.3656864
-  ],
-  "q:video games where your": [
-   0,
-   "",
-   1792465288.8121061
-  ],
-  "q:video games where your choices": [
-   0,
-   "",
-   1792465288.3100502
-  ],
-  "q:video games where your choices actually": [
-   0,
-   "",
-   1792465287.8116748
-  ],
   "q:vinyl box set available exclusively": [
    0,
    "",
@@ -26600,18 +26503,6 @@
   ]
  },
  "titles": [
-  [
-   1792465292.95053,
-   "3 Video Games Where Your Choices Actually Make a Difference"
-  ],
-  [
-   1792465295.8606586,
-   "Quinta Brunson Shares Update On Betty Boop Film Development: “The Story Will Be Unlike Anything Anyone Expects”"
-  ],
-  [
-   1792467084.5758386,
-   "Resident Evil's VFX Supervisor Reveals The Creature That Needed A Last-Minute Makeover [Exclusive]"
-  ],
   [
    1792467094.1731584,
    "New Pokémon Release Finally Lets You Play As Team Rocket"
@@ -28591,21 +28482,13 @@
   [
    1792638085.0297015,
    "India’s Eternal Unveils AI Assistant Built for Privacy"
+  ],
+  [
+   1792639876.5397177,
+   "Prime Video Adds Long-Awaited Second Season Of Chris Pratt's Thrilling Action Series"
   ]
  ],
  "titles_uk": [
-  [
-   1792465292.950531,
-   "Як вибір гравця впливає на сюжети у відеоіграх"
-  ],
-  [
-   1792465295.8606596,
-   "Квінта Брансон поділилася новинами про фільм про Betty Boop"
-  ],
-  [
-   1792467084.5758393,
-   "Спецефекти у фільмі Resident Evil терміново змінили через схожість на примару з Ghostbusters"
-  ],
   [
    1792467094.1731591,
    "У новому фанатському проєкті Team Rocket Evolved дозволять грати за Team Rocket"
@@ -30585,6 +30468,10 @@
   [
    1792638085.0297024,
    "Eternal анонсувала власний ШІ-асистент із акцентом на конфіденційність"
+  ],
+  [
+   1792639876.5397189,
+   "Prime Video випустив другий сезон серіалу The Terminal List з Крісом Праттом"
   ]
  ],
  "ukrainian": {
@@ -32813,7 +32700,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792636369.3565707,
+  "last_check": 1792639885.0071442,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
