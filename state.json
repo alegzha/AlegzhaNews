@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1792771276.2841442
+  }
+ },
  "daily_digest_date": "2026-10-22",
  "freebies": {
   "last_check": 1792764377.048617,
@@ -14,14 +21,13 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-23 15:37 UTC",
+  "at": "2026-10-23 16:04 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 13
+   "gemini-flash-lite-latest": 3
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
@@ -16029,7 +16035,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Canva випустила власну модель генерації зображень Craft</b>\n\nПлатформа Canva представила свій перший фірмовий інструмент генерації зображень Craft, створений дослідницькою лабораторією компанії на основі мільйонів дизайнів. Модель підтримує роздільну здатність до 2K, рендеринг тексту 55 мовами та редагування за шарами через Magic Layers. Новинка вже доступна користувачам у Dream Lab та через публічний API.\n\n🔗 <a href=\"https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/\">The Decoder</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://the-decoder.com/canva-launches-craft-its-first-in-house-image-model/",
     "orig": "Canva launches Craft, its first in-house image model"
@@ -16043,7 +16048,6 @@
    "GameSpot",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/3259780/\">Final Fantasy Resonance</a> отримала геймплей із п&#x27;ятихвилинними ходами</b>\n\n🔗 <a href=\"https://www.gamespot.com/articles/final-fantasy-resonance-lets-you-take-a-five-minute-single-turn-and-its-glorious/\">GameSpot</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamespot.com/articles/final-fantasy-resonance-lets-you-take-a-five-minute-single-turn-and-its-glorious/",
     "orig": "Final Fantasy Resonance Lets You Take A Five-Minute Single Turn, And It’s Glorious"
@@ -16057,7 +16061,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Співрозробник Fallout Тім Кейн розкрив, хто запустив перші ядерні ракети</b>\n\nСпіврозробник Fallout Тім Кейн заявив, що першою ядерні ракети у всесвіті серії запустила Китайська Народна Республіка. Це сталося через те, що США таємно продовжили розробку біозброї FEV після вимоги її зупинити. Водночас події серіалу від Amazon натякають на причетність корпорації Vault-Tec.\n\n🔗 <a href=\"https://insider-gaming.com/fallout-first-nukes/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/fallout-first-nukes/",
     "orig": "It’s Over – We Know Who Launched The First Nukes in Fallout"
@@ -16489,6 +16492,10 @@
      [
       "VGC",
       "https://www.videogameschronicle.com/news/arkane-has-until-november-to-find-a-buyer-or-face-closure-its-claimed/"
+     ],
+     [
+      "GameSpot",
+      "https://www.gamespot.com/articles/arkane-lyon-could-be-shut-down-within-weeks-as-deadline-to-find-a-buyer-looms/"
      ]
     ],
     "caption": "🎮 <b>Arkane Lyon може закритися, якщо до середини листопада не знайде покупця</b>\n\nЗгідно з новим звітом французького видання Le Monde, студія Arkane Lyon має час до 13 листопада, щоб знайти покупця або зіткнутися з ризиком закриття. Переговори про план захисту працівників проходять складно, і під загрозою звільнення опинилися 217 співробітників. Microsoft заявляє, що продовжує шукати партнера для підтримки проєкту.\n\n🔗 <a href=\"https://insider-gaming.com/arkane-lyon-mid-november-to-find-a-buyer-or-it-risks-closure/\">Insider Gaming</a>\n\n#ігри",
@@ -16888,6 +16895,48 @@
     "link": "https://deadline.com/2026/10/sofia-hasmik-grace-kelly-quigley-imogen-waterhouse-sissy-1237171723/",
     "orig": "Sofia Hasmik, Grace Kelly Quigley & Imogen Waterhouse Leading Indie Feature ‘Sissy’"
    }
+  ],
+  [
+   1792771410.3410869,
+   2203,
+   "🤖",
+   "Сем Алтман заявив про неминучу втечу просунутого ШІ з ізольованого середовища",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Сем Алтман заявив про неминучу втечу просунутого ШІ з ізольованого середовища</b>\n\nГенеральний директор OpenAI Сем Алтман вважає, що просунутий ШІ неминуче покине захищені пісочниці, тому єдиним порятунком стане його правильне вирівнювання з людськими цінностями. За його словами, моделі вже знаходять апаратні вразливості, які не помічали хакери, через що всю архітектуру безпеки інтернету доведеться перебудувати.\n\n🔗 <a href=\"https://the-decoder.com/openai-ceo-sam-altman-says-advanced-ai-will-inevitably-escape-its-sandbox-and-only-alignment-can-save-us/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/openai-ceo-sam-altman-says-advanced-ai-will-inevitably-escape-its-sandbox-and-only-alignment-can-save-us/",
+    "orig": "OpenAI CEO Sam Altman says advanced AI will inevitably escape its sandbox, and only alignment can save us"
+   }
+  ],
+  [
+   1792771418.1500304,
+   2204,
+   "🎮",
+   "Predator стає новим партнером NAVI у PUBG і Dota 2",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🎮 <b>Predator стає новим партнером NAVI у PUBG і <a href=\"https://store.steampowered.com/app/570/\">Dota 2</a></b>\n\nPredator, бренд ігрової техніки Acer, став офіційним партнером українського кіберспортивного клубу NAVI у дисциплінах Dota 2 та PUBG. Гравці й тренери клубу отримають ігрові ноутбуки Predator, а логотип бренду з’явиться на формі команди.\n\n🔗 <a href=\"https://mezha.ua/news/acer-predator-new-navi-official-partner-316486/\">Mezha</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/acer-predator-new-navi-official-partner-316486/",
+    "orig": "Predator стає новим партнером NAVI у PUBG і Dota 2"
+   }
+  ],
+  [
+   1792771442.752857,
+   2205,
+   "🎬",
+   "Режисер Wildwood Тревіс Кнайт прокоментував жорстокість у фільмі",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Режисер Wildwood Тревіс Кнайт прокоментував жорстокість у фільмі</b>\n\nАнімаційний фільм Wildwood від студії Laika отримав рейтинг PG-13 через темні мотиви та криваві сцени. Режисер Тревіс Кнайт заявив, що не збирався пом&#x27;якшувати історію й прагнув показати справжню ціну війни та травматичність насильства.\n\n🔗 <a href=\"https://www.slashfilm.com/2294983/wildwood-director-travis-knight-defend-movie-violence/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2294983/wildwood-director-travis-knight-defend-movie-violence/",
+    "orig": "Wildwood Director Travis Knight Defends The Movie's Violence, Says Film Is 'Appropriately Rated' [Exclusive]"
+   }
   ]
  ],
  "posted_by_source": {
@@ -16922,13 +16971,12 @@
    1792767861.3443265
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
-   1792670605.2948563,
-   1792681360.6256998,
    1792686932.3397734,
    1792692144.223773,
    1792693964.4773893,
    1792756133.033481,
-   1792756144.0192866
+   1792756144.0192866,
+   1792771410.3416219
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1792603251.2103841
@@ -17012,11 +17060,10 @@
    1792767876.5080495
   ],
   "games|Mezha|https://mezha.ua/feed/": [
-   1792683185.1237156,
-   1792683187.993025,
    1792695730.2072842,
    1792764347.5093057,
-   1792764367.6296277
+   1792764367.6296277,
+   1792771418.150554
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1792685648.862515,
@@ -17071,12 +17118,12 @@
    1792769795.993929
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
-   1792683152.435339,
    1792715488.2618792,
    1792715491.320181,
    1792720884.3422146,
    1792728077.2205906,
-   1792729878.694457
+   1792729878.694457,
+   1792771442.753383
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792515873.2258618,
@@ -17324,6 +17371,7 @@
   "02e8b4e1ab7f95bb": 1792432934.853331,
   "03080b879f45b5a4": 1791742964.7350998,
   "0315cdfb0807a16e": 1792724508.1642187,
+  "031c231044bce92e": 1792771255.1467223,
   "03421fb4e911bded": 1792573302.8139315,
   "0343883f5244de04": 1792688509.1056721,
   "034ca9198dabca0a": 1792440095.2444327,
@@ -17395,6 +17443,7 @@
   "085750a69c862486": 1792757041.5012083,
   "087aa22901d42913": 1792431054.249864,
   "087c8ea0d0cca171": 1791908400.9264767,
+  "08ae7d4e40182433": 1792771293.3016713,
   "08e286007302bf79": 1792099067.014035,
   "091790cc380a60a7": 1792515945.3504577,
   "091e984aa3e757eb": 1792129235.1865377,
@@ -17709,6 +17758,7 @@
   "25a11735906051e2": 1792767655.7489853,
   "25a585ffc2b0ebbb": 1792524236.8654618,
   "25ad139a62ddf1d5": 1792256236.5595405,
+  "25b95661cf65bfb6": 1792771418.1505067,
   "25c103cfe1ad1a14": 1792302826.7270093,
   "25ec952046fea6ce": 1792602163.9869125,
   "25ee40d690e0789c": 1792595408.8585925,
@@ -18067,6 +18117,7 @@
   "449a3920d4ef49ed": 1792409512.5259836,
   "44bd51be035ffe73": 1791831104.1027663,
   "44c0038a12625ce5": 1792411275.2736695,
+  "44db34ae6755a6a4": 1792771255.1467223,
   "4534036dfba5df54": 1791996968.3914993,
   "453967791184dfdc": 1792706496.3088262,
   "45460330b0f18c88": 1792395090.8884282,
@@ -18486,6 +18537,7 @@
   "6a7852fa38e4abd3": 1792693949.633212,
   "6a7af5c146603541": 1792422345.3332243,
   "6a9172fc4bab7ca5": 1792521140.0820882,
+  "6a9277498b881d8f": 1792771293.3057654,
   "6a9e0803aae674a2": 1792281223.533934,
   "6aaa8ed4d331fc8a": 1792352417.7990172,
   "6ab54cad7011f2b6": 1792492417.8062067,
@@ -18494,6 +18546,7 @@
   "6acd2290fa06542f": 1792339293.372789,
   "6afd173a56372c44": 1792705438.922231,
   "6aff17e54676471f": 1791644933.1937206,
+  "6b16429e1e9bed6d": 1792771442.753335,
   "6b272f4e94b08773": 1792618286.6908264,
   "6b2b8dc43abf119f": 1791926922.6264074,
   "6b5c9436c1346842": 1792346497.3570652,
@@ -19268,6 +19321,7 @@
   "ae05d5b4c94a1868": 1792496079.0647616,
   "ae11c2e7a75a83f3": 1792494223.270085,
   "ae2db25820e2cc55": 1792593092.0980086,
+  "ae2df1503043cf3f": 1792771293.294971,
   "ae3e59418abf5172": 1791989243.3478537,
   "ae3f827b4583586d": 1792264341.8558543,
   "ae42a03510ca2f62": 1792769484.6407132,
@@ -19417,6 +19471,7 @@
   "bbaea4849e7d49ae": 1792614699.7746358,
   "bbc8bad6e1224caa": 1791853945.2075598,
   "bc18b9045ca29574": 1792589568.7558157,
+  "bc1e39a9dc2fd3fb": 1792771255.1467223,
   "bc1ea23d1d7b7068": 1792414947.4947658,
   "bc5133fa656e86f5": 1792724498.2451725,
   "bc803c91773648a6": 1792342903.0866385,
@@ -19450,6 +19505,7 @@
   "be5a365e42a96a13": 1792145427.3122401,
   "be6bb63a38491492": 1792641701.2294471,
   "be6ef1730da7e04a": 1792321529.8739932,
+  "bea2daaf5ded6aa1": 1792771393.405475,
   "beadd2aaa5a0ae0b": 1792524161.5710876,
   "beaf268984cbb65a": 1792713682.912498,
   "bec822a33226a658": 1791975170.5018406,
@@ -20179,6 +20235,7 @@
   "fdb1da7ad88db089": 1792501345.045053,
   "fdce73c9a0a226a7": 1792427487.3985002,
   "fdf7d3bba3ae71ce": 1791831146.77442,
+  "fe0a77909c3d741b": 1792771410.3415735,
   "fe1c871729126d39": 1792695697.7485044,
   "fe1fdadbd090499b": 1792476081.5957215,
   "fe4dc7dbcee3a894": 1792074132.5777712,
@@ -20644,7 +20701,8 @@
   ],
   "artists_checked": 1792767900.9103298,
   "blocked_until": 1792766282.0186863,
-  "cursor": 130,
+  "cursor": 140,
+  "digest_week": "2026-W43",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
     "0CVnhwtOpdoIkOatkGcVwO",
@@ -21377,21 +21435,22 @@
    "/Film": 16,
    "Bloomberg": 3,
    "Deadline": 4,
+   "GameSpot": 1,
    "GamesIndustry.biz": 2,
    "IGN": 1,
    "IndieWire": 1,
-   "Insider Gaming": 30,
+   "Insider Gaming": 31,
    "Lambgoat": 1,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 12,
    "Pitchfork": 1,
-   "Polygon": 45,
+   "Polygon": 46,
    "VGC": 3,
    "Variety": 1
   },
   "sources": {
-   "/Film": 31,
+   "/Film": 32,
    "AIN.ua": 5,
    "Blabbermouth": 66,
    "Bloomberg": 50,
@@ -21416,7 +21475,7 @@
    "Metal Hammer (Louder)": 27,
    "Metal Injection": 15,
    "MetalSucks": 1,
-   "Mezha": 57,
+   "Mezha": 58,
    "PC Gamer": 69,
    "Pitchfork": 8,
    "PlayUA": 22,
@@ -21426,7 +21485,7 @@
    "Rock Paper Shotgun": 35,
    "SteamDB": 2,
    "Stereogum": 12,
-   "The Decoder": 24,
+   "The Decoder": 25,
    "ThePRP": 59,
    "VGC": 30,
    "Variety": 24
@@ -21434,7 +21493,7 @@
   "translators": {
    "DeepL": 24,
    "gemini-flash-latest": 89,
-   "gemini-flash-lite-latest": 1121
+   "gemini-flash-lite-latest": 1124
   },
   "week": "2026-W43"
  },
@@ -22914,6 +22973,26 @@
    "",
    1792765922.2750893
   ],
+  "q:arkane lyon could": [
+   0,
+   "",
+   1792771295.45362
+  ],
+  "q:arkane lyon could be": [
+   0,
+   "",
+   1792771294.9208407
+  ],
+  "q:arkane lyon could be shut": [
+   0,
+   "",
+   1792771294.4108207
+  ],
+  "q:arkane lyon could be shut down": [
+   0,
+   "",
+   1792771293.8974957
+  ],
   "q:arkane lyon has": [
    0,
    "",
@@ -24178,6 +24257,21 @@
    0,
    "",
    1792692134.442855
+  ],
+  "q:could be shut down": [
+   0,
+   "",
+   1792771299.6425624
+  ],
+  "q:could be shut down within": [
+   0,
+   "",
+   1792771299.132709
+  ],
+  "q:could be shut down within weeks": [
+   0,
+   "",
+   1792771298.5925224
   ],
   "q:could sell": [
    0,
@@ -27784,6 +27878,31 @@
    "",
    1792762377.4528737
   ],
+  "q:lyon could": [
+   0,
+   "",
+   1792771298.0266309
+  ],
+  "q:lyon could be": [
+   0,
+   "",
+   1792771297.494452
+  ],
+  "q:lyon could be shut": [
+   0,
+   "",
+   1792771296.9829617
+  ],
+  "q:lyon could be shut down": [
+   0,
+   "",
+   1792771296.4735644
+  ],
+  "q:lyon could be shut down within": [
+   0,
+   "",
+   1792771295.962992
+  ],
   "q:lyon has": [
    0,
    "",
@@ -28398,6 +28517,26 @@
    0,
    "",
    1792634491.5123107
+  ],
+  "q:navi": [
+   0,
+   "",
+   1792771416.0867803
+  ],
+  "q:navi pubg": [
+   0,
+   "",
+   1792771415.5189345
+  ],
+  "q:navi pubg dota": [
+   0,
+   "",
+   1792771414.9980357
+  ],
+  "q:navi pubg dota 2": [
+   0,
+   "",
+   1792771414.4915292
   ],
   "q:nba 2k27": [
    4356430,
@@ -29199,6 +29338,26 @@
    "Portal 2",
    1791926749.0969748
   ],
+  "q:predator navi": [
+   0,
+   "",
+   1792771413.981076
+  ],
+  "q:predator navi pubg": [
+   0,
+   "",
+   1792771413.4129481
+  ],
+  "q:predator navi pubg dota": [
+   0,
+   "",
+   1792771412.8937328
+  ],
+  "q:predator navi pubg dota 2": [
+   0,
+   "",
+   1792771412.3542264
+  ],
   "q:preview monster": [
    0,
    "",
@@ -29314,10 +29473,25 @@
    "Psychonauts",
    1792609332.4043918
   ],
+  "q:pubg": [
+   0,
+   "",
+   1792771417.758343
+  ],
   "q:pubg ded net": [
    2726580,
    "PUBG: DED.NET",
    1791718263.8791842
+  ],
+  "q:pubg dota": [
+   0,
+   "",
+   1792771417.247595
+  ],
+  "q:pubg dota 2": [
+   0,
+   "",
+   1792771416.7110736
   ],
   "q:pushing": [
    3167480,
@@ -32197,7 +32371,6 @@
  },
  "tag_hints": {
   "Mezha": [
-   "3d-друк",
    "anduril",
    "baldur’s gate 3",
    "colossal biosciences",
@@ -32207,12 +32380,11 @@
    "google",
    "larian studios",
    "lg",
+   "navi",
+   "predator",
    "samsung",
-   "skoda",
    "youtube",
-   "авто",
    "армія+",
-   "блоги",
    "бронювання",
    "біотехнології",
    "відео",
@@ -32227,6 +32399,7 @@
    "смартфони",
    "софт",
    "технології",
+   "україна",
    "штучний інтелект",
    "ігри",
    "інтернет",
@@ -32234,26 +32407,6 @@
   ]
  },
  "titles": [
-  [
-   1792598532.8556259,
-   "US Urges Fix for Widely Used Software After Critical Alerts"
-  ],
-  [
-   1792598549.5770001,
-   "Granite Speech 5.0: Transcribe, Translate, and Attribute more Accurately and Faster"
-  ],
-  [
-   1792598609.3055954,
-   "One Piece: Grand Gourmet Review"
-  ],
-  [
-   1792598624.3893292,
-   "Fallout Day Continues: The World of Fallout Museum Exhibit Expands, Choose the Flavor of Nuka Twist, and More"
-  ],
-  [
-   1792598652.2776842,
-   "Modern Warfare 4 Multiplayer Release Date—Exact Start Time & Date"
-  ],
   [
    1792598682.8852515,
    "LITA FORD Signs To FRONTIERS MUSIC SRL, New Single 'Dracula' To Arrive Next Week"
@@ -34265,29 +34418,21 @@
   [
    1792769837.825484,
    "Sofia Hasmik, Grace Kelly Quigley & Imogen Waterhouse Leading Indie Feature ‘Sissy’"
+  ],
+  [
+   1792771410.3415747,
+   "OpenAI CEO Sam Altman says advanced AI will inevitably escape its sandbox, and only alignment can save us"
+  ],
+  [
+   1792771418.1505077,
+   "Predator стає новим партнером NAVI у PUBG і Dota 2"
+  ],
+  [
+   1792771442.753336,
+   "Wildwood Director Travis Knight Defends The Movie's Violence, Says Film Is 'Appropriately Rated' [Exclusive]"
   ]
  ],
  "titles_uk": [
-  [
-   1792598532.8556268,
-   "США вимагають усунути вразливості в популярному ПЗ PHP"
-  ],
-  [
-   1792598549.5770018,
-   "IBM випустила оновлення колекції моделей Granite Speech"
-  ],
-  [
-   1792598609.305596,
-   "Рецензія на гру One Piece: Grand Gourmet"
-  ],
-  [
-   1792598624.38933,
-   "Bethesda анонсувала нові події та колаборації до Fallout Day"
-  ],
-  [
-   1792598652.277685,
-   "Названо дату та час релізу мультиплеєра Call of Duty: Modern Warfare 4"
-  ],
   [
    1792598682.8852522,
    "Lita Ford підписала контракт із Frontiers Music Srl і анонсувала сингл Dracula"
@@ -36299,6 +36444,18 @@
   [
    1792769837.8254848,
    "Софія Гасмік, Грейс Келлі Квіглі та Імоджен Вотерхаус знімуться в інді-фільмі Sissy"
+  ],
+  [
+   1792771410.3415756,
+   "Сем Алтман заявив про неминучу втечу просунутого ШІ з ізольованого середовища"
+  ],
+  [
+   1792771418.150509,
+   "Predator стає новим партнером NAVI у PUBG і Dota 2"
+  ],
+  [
+   1792771442.7533371,
+   "Режисер Wildwood Тревіс Кнайт прокоментував жорстокість у фільмі"
   ]
  ],
  "ukrainian": {
@@ -38529,7 +38686,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792767898.3428617,
+  "last_check": 1792771451.3621912,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
