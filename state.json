@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:software|DOU|https://dou.ua/feed/": {
+   "detail": "https://dou.ua/feed/ → 526 Server Error: <none> for url: https://dou.ua/feed/",
+   "label": "Джерело «DOU» не працює",
+   "sent": 0,
+   "since": 1792791006.2299163
+  }
+ },
  "daily_digest_date": "2026-10-23",
  "freebies": {
   "last_check": 1792787527.2515185,
@@ -14,11 +21,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-23 21:01 UTC",
-  "gemini_error": "",
+  "at": "2026-10-23 21:32 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 5
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
@@ -17184,7 +17191,6 @@
    "Loudwire",
    {
     "also": [],
-    "caption": "🤘 <b>Starset стали гостями шоу Paranormal Prison</b>\n\nГурт Starset взяв участь у п&#x27;ятому епізоді четвертого сезону шоу Paranormal Prison. Музиканти та їхні родичі вирушили на полювання на привидів до виправної колонії штату Огайо під час фестивалю Inkcarceration 2026 року.\n\n🔗 <a href=\"https://loudwire.com/starset-paranormal-prison-ghost-hunt/\">Loudwire</a>\n\n#музика",
     "kind": "photo",
     "link": "https://loudwire.com/starset-paranormal-prison-ghost-hunt/",
     "orig": "Starset's 'Paranormal Prison' Ghost Hunt"
@@ -17198,7 +17204,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🎮 <b>Чому <a href=\"https://store.steampowered.com/app/1173770/\">Final Fantasy</a> повернулася до <a href=\"https://store.steampowered.com/app/2825780/\">2D</a></b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/5258070/\">Returned</a>\n\nНова гра Final Fantasy Resonance є чудовим посиланням на минуле культової франшизи\n\n🔗 <a href=\"https://www.bloomberg.com/news/newsletters/2026-10-23/why-final-fantasy-returned-to-2d\">Bloomberg</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.bloomberg.com/news/newsletters/2026-10-23/why-final-fantasy-returned-to-2d",
     "orig": "Why ‘Final Fantasy’ Returned To 2D"
@@ -18009,7 +18014,16 @@
    "Греція заборонить користування соцмережами дітям до 15 років з 2027 року",
    "Mezha",
    {
-    "also": [],
+    "also": [
+     [
+      "ThePRP",
+      "https://www.theprp.com/2026/10/23/news/meshuggah-testament-crowbar-yob-etc-booked-for-2027-milwaukee-metal-fest/"
+     ],
+     [
+      "Insider Gaming",
+      "https://insider-gaming.com/atari-vcs-store-shuts-down-in-february-2027/"
+     ]
+    ],
     "caption": "💾 <b>Греція заборонить користування соцмережами дітям до 15 років з 2027 року</b>\n\nПарламент Греції ухвалив закон, який забороняє дітям віком до 15 років користуватися соціальними мережами. Нові правила набудуть чинності з 1 січня 2027 року та поширюватимуться на такі платформи, як Facebook, Instagram і TikTok.\n\n🔗 <a href=\"https://mezha.ua/news/greciya-zaboronit-dityam-do-15-rokiv-koristuvatisya-socmerezhami-316497/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/greciya-zaboronit-dityam-do-15-rokiv-koristuvatisya-socmerezhami-316497/",
@@ -18056,6 +18070,34 @@
     "kind": "photo",
     "link": "https://lambgoat.com/news/55521/gojira-to-open-for-system-of-a-down-on-third-announced-rose-bowl-2027-show/",
     "orig": "Gojira to open for System Of A Down on third announced Rose Bowl 2027 show"
+   }
+  ],
+  [
+   1792791107.1759474,
+   2289,
+   "💾",
+   "Instacart розглядає можливість продажу компанії, що призвело до стрибка акцій",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "💾 <b>Instacart розглядає можливість продажу компанії, що призвело до стрибка акцій</b>\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-10-23/instacart-rallies-on-report-of-sale-talks-with-uber-doordash\">Bloomberg</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-23/instacart-rallies-on-report-of-sale-talks-with-uber-doordash",
+    "orig": "Instacart Considers a Potential Sale, Sparking Share Rally"
+   }
+  ],
+  [
+   1792791116.967858,
+   2290,
+   "🎮",
+   "Karmine Corp перемогли Anyone’s Legend на LoL Worlds",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Karmine Corp перемогли Anyone’s Legend на LoL Worlds</b>\n\nKarmine Corp здобули сенсаційну перемогу над Anyone’s Legend у перший день швейцарського етапу League of Legends World Championship. Завдяки вдалій командній грі та квадру-кілу від Canna на Jax європейський колектив утримав контроль і довів матч до перемоги.\n\n🔗 <a href=\"https://insider-gaming.com/kcorp-beat-al-lol-worlds-2026/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/kcorp-beat-al-lol-worlds-2026/",
+    "orig": "KCorp Beat AL for More EUphoria and LPL Misery at LoL Worlds"
    }
   ]
  ],
@@ -18153,7 +18195,6 @@
    1792783889.5402603
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1792703039.80511,
    1792710100.6784832,
    1792711979.588383,
    1792751625.870706,
@@ -18170,7 +18211,8 @@
    1792782170.4247417,
    1792782180.0164306,
    1792787519.4165273,
-   1792789304.8536048
+   1792789304.8536048,
+   1792791116.9684553
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1792695730.2072842,
@@ -18424,7 +18466,7 @@
    1792481487.1423821
   ],
   "software|Bloomberg|https://www.bloomberg.com/authors/AS7Hj1mBMGM/mark-gurman.rss": [
-   1792333893.7856805
+   1792791107.1764152
   ],
   "software|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
    1792717290.980174,
@@ -19466,6 +19508,7 @@
   "546236d183e98e30": 1792728077.2205446,
   "54860a88ade12bab": 1792496089.1842127,
   "548b26e68ea19500": 1792593090.975243,
+  "548cd3284c19ce47": 1792791012.8879561,
   "54914a3eb70f1eaa": 1792517456.0833268,
   "54a84e2c55f75503": 1792692096.7037907,
   "54a9a8bd54d562f8": 1791966911.0236287,
@@ -19535,6 +19578,7 @@
   "59fdc0b1a4ca9581": 1792188155.2770846,
   "59fdfd3e0e2924a3": 1792244021.5216222,
   "5a0caf5f4ce94e10": 1792429255.8692856,
+  "5a234f5733cc18dc": 1792790977.3207083,
   "5a34bcc3c3501703": 1792485650.4836495,
   "5a36d82678906e21": 1792378892.5932095,
   "5a3ed0cc305c03cf": 1792765945.7525907,
@@ -20449,6 +20493,7 @@
   "a5a418ebb2ba9e99": 1792656076.2329063,
   "a5bd8dd174887509": 1792273228.4899502,
   "a5d350617c080ea9": 1792616506.8917208,
+  "a5f784452b543bbb": 1792791012.3817534,
   "a60c7b875205048e": 1791837802.378347,
   "a61faf97ba7b78a8": 1792611097.0023272,
   "a637370ab0b054a7": 1792400452.0208306,
@@ -20924,6 +20969,7 @@
   "cf82ba1fd8519adf": 1792627366.9257436,
   "cfacfd84268e1f2f": 1792508675.6725671,
   "cfda764c86931b57": 1791978131.4494739,
+  "cfdf3b8c520adf75": 1792791012.8896737,
   "cfe037f26f6bc818": 1792432857.498807,
   "cfea48e994984e7e": 1792352420.8844676,
   "cff202e524873a97": 1792494062.3983765,
@@ -21250,6 +21296,7 @@
   "e8c74e875ce8847d": 1791969264.6870122,
   "e8d8473862a2354a": 1792539086.8887386,
   "e9383c6c52d52173": 1792595149.7851534,
+  "e94451e7827bbf54": 1792791116.9684014,
   "e95eddc1ecfae54b": 1792503092.1877615,
   "e9780038d9421fdc": 1792197831.838433,
   "e99d5679eae73e15": 1791926924.849342,
@@ -21315,6 +21362,7 @@
   "eed22df276b3544d": 1791997048.7032058,
   "eee1c924a2f12018": 1792416707.3036118,
   "ef6babad36e45615": 1791926684.0016181,
+  "efb04152e06859f7": 1792791107.1763618,
   "f0339613a2d9dbcf": 1792177205.8319185,
   "f0884b43a744ed86": 1792441853.8507822,
   "f09a6989a24c5c7a": 1792708282.630945,
@@ -22703,7 +22751,7 @@
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 12,
    "Pitchfork": 1,
-   "Polygon": 52,
+   "Polygon": 53,
    "Revolver": 1,
    "VGC": 3,
    "Variety": 1
@@ -22712,7 +22760,7 @@
    "/Film": 32,
    "AIN.ua": 5,
    "Blabbermouth": 72,
-   "Bloomberg": 54,
+   "Bloomberg": 55,
    "DOU": 2,
    "DOU Gamedev": 5,
    "Deadline": 74,
@@ -22727,7 +22775,7 @@
    "IGN": 71,
    "ITC.ua": 58,
    "IndieWire": 24,
-   "Insider Gaming": 86,
+   "Insider Gaming": 87,
    "Kerrang!": 30,
    "Lambgoat": 53,
    "Loudwire": 26,
@@ -22752,7 +22800,7 @@
   "translators": {
    "DeepL": 24,
    "gemini-flash-latest": 89,
-   "gemini-flash-lite-latest": 1215
+   "gemini-flash-lite-latest": 1217
   },
   "week": "2026-W43"
  },
@@ -23622,21 +23670,6 @@
    "",
    1792677709.9748082
   ],
-  "q:5 was": [
-   0,
-   "",
-   1792616494.58597
-  ],
-  "q:5 was supposed": [
-   0,
-   "",
-   1792616494.0919433
-  ],
-  "q:5 was supposed to redeem": [
-   0,
-   "",
-   1792616493.5564165
-  ],
   "q:5 writers": [
    0,
    "",
@@ -23866,6 +23899,21 @@
    4813820,
    "AI Slop",
    1792407702.480783
+  ],
+  "q:al for more": [
+   0,
+   "",
+   1792791114.8402476
+  ],
+  "q:al for more euphoria": [
+   0,
+   "",
+   1792791114.3117704
+  ],
+  "q:al for more euphoria and lpl": [
+   0,
+   "",
+   1792791113.8061428
   ],
   "q:alan wake": [
    108710,
@@ -24436,6 +24484,21 @@
    0,
    "",
    1792751615.2811334
+  ],
+  "q:beat al": [
+   0,
+   "",
+   1792791113.1581674
+  ],
+  "q:beat al for more": [
+   0,
+   "",
+   1792791112.592948
+  ],
+  "q:beat al for more euphoria": [
+   0,
+   "",
+   1792791112.0338092
   ],
   "q:beat citrine": [
    0,
@@ -25647,21 +25710,6 @@
    "",
    1792652572.5821047
   ],
-  "q:development on mobile multiplayer": [
-   0,
-   "",
-   1792616505.5378678
-  ],
-  "q:development on mobile multiplayer sims": [
-   0,
-   "",
-   1792616505.0466924
-  ],
-  "q:development on mobile multiplayer sims game": [
-   0,
-   "",
-   1792616504.5397024
-  ],
   "q:development on the next mass effect is ending": [
    0,
    "",
@@ -26116,26 +26164,6 @@
    0,
    "",
    1792692129.3193583
-  ],
-  "q:ea halts": [
-   0,
-   "",
-   1792616501.4827833
-  ],
-  "q:ea halts development": [
-   0,
-   "",
-   1792616500.96924
-  ],
-  "q:ea halts development on mobile": [
-   0,
-   "",
-   1792616500.4735498
-  ],
-  "q:ea halts development on mobile multiplayer": [
-   0,
-   "",
-   1792616499.9671993
   ],
   "q:ea motive": [
    0,
@@ -27392,31 +27420,6 @@
    "",
    1792760494.9563663
   ],
-  "q:halts": [
-   0,
-   "",
-   1792616504.0413206
-  ],
-  "q:halts development": [
-   0,
-   "",
-   1792616503.5487955
-  ],
-  "q:halts development on mobile": [
-   0,
-   "",
-   1792616503.054821
-  ],
-  "q:halts development on mobile multiplayer": [
-   0,
-   "",
-   1792616502.5512972
-  ],
-  "q:halts development on mobile multiplayer sims": [
-   0,
-   "",
-   1792616501.9862492
-  ],
   "q:hardware": [
    0,
    "",
@@ -28062,6 +28065,31 @@
    "KAZ",
    1791894819.2258348
   ],
+  "q:kcorp": [
+   0,
+   "",
+   1792791111.504038
+  ],
+  "q:kcorp beat": [
+   0,
+   "",
+   1792791110.905143
+  ],
+  "q:kcorp beat al": [
+   0,
+   "",
+   1792791110.359747
+  ],
+  "q:kcorp beat al for more": [
+   0,
+   "",
+   1792791109.7998111
+  ],
+  "q:kcorp beat al for more euphoria": [
+   0,
+   "",
+   1792791109.2843032
+  ],
   "q:keeping its secrets": [
    0,
    "",
@@ -28652,16 +28680,6 @@
    "",
    1792677707.9675784
   ],
-  "q:mass effect 5 was": [
-   0,
-   "",
-   1792616493.015416
-  ],
-  "q:mass effect 5 was supposed": [
-   0,
-   "",
-   1792616492.502233
-  ],
   "q:mass effect 5 writers": [
    0,
    "",
@@ -29021,6 +29039,11 @@
    606150,
    "Moonlighter",
    1792431154.7540057
+  ],
+  "q:more euphoria and lpl misery": [
+   0,
+   "",
+   1792791115.4411433
   ],
   "q:more likely": [
    0,
@@ -31192,21 +31215,6 @@
    "Subnautica 2",
    1792494157.8367805
   ],
-  "q:supposed to redeem": [
-   0,
-   "",
-   1792616498.2798967
-  ],
-  "q:supposed to redeem the series": [
-   0,
-   "",
-   1792616497.7209122
-  ],
-  "q:supposed to redeem the series after": [
-   0,
-   "",
-   1792616497.224574
-  ],
   "q:survival games": [
    307150,
    "Survival Games",
@@ -32012,26 +32020,6 @@
    "",
    1792681319.661573
   ],
-  "q:was": [
-   0,
-   "",
-   1792616496.7327857
-  ],
-  "q:was supposed": [
-   0,
-   "",
-   1792616496.2231379
-  ],
-  "q:was supposed to redeem": [
-   0,
-   "",
-   1792616495.6997674
-  ],
-  "q:was supposed to redeem the series": [
-   0,
-   "",
-   1792616495.0940385
-  ],
   "q:was the greatest": [
    0,
    "",
@@ -32660,34 +32648,11 @@
    "турель",
    "україна",
    "ігри",
+   "інтернет",
    "історія"
   ]
  },
  "titles": [
-  [
-   1792618283.6506314,
-   "Ben Folds Five Announce First Tour Since 2013"
-  ],
-  [
-   1792618288.195995,
-   "California Tried to Jumpstart the Film Economy. Production Keeps Falling."
-  ],
-  [
-   1792618291.1223664,
-   "Downswing’s New In-Studio Set For Audiotree Released"
-  ],
-  [
-   1792618293.9463732,
-   "‘Crystal Lake’s Jonathan Tison On Bringing Jason Into His Slasher Era, How He Found Out The Secretive Role He Landed: “I Was Shocked”"
-  ],
-  [
-   1792618296.873958,
-   "Conjurer Announce U.S. Headlining Shows With Armed For Apocalypse"
-  ],
-  [
-   1792618299.6853647,
-   "‘Abbott Elementary’ Season 6 Premiere Hits 6.3 Million Viewers in Seven Days (EXCLUSIVE)"
-  ],
   [
    1792619341.608601,
    "\"It's like Heathcliff digging up Cathy's corpse and dancing with it in the cold moonlight.\" The strange tale of the outrageous \"erotic\" 80s power ballad that Broadway legend Andrew Lloyd Webber called \"the greatest love song ever written\""
@@ -34659,33 +34624,17 @@
   [
    1792789311.3052323,
    "Gojira to open for System Of A Down on third announced Rose Bowl 2027 show"
+  ],
+  [
+   1792791107.176364,
+   "Instacart Considers a Potential Sale, Sparking Share Rally"
+  ],
+  [
+   1792791116.9684038,
+   "KCorp Beat AL for More EUphoria and LPL Misery at LoL Worlds"
   ]
  ],
  "titles_uk": [
-  [
-   1792618283.6506324,
-   "Ben Folds Five анонсували перший тур за 13 років"
-  ],
-  [
-   1792618288.195996,
-   "Кіновиробництво в Каліфорнії продовжує падати попри мільйонні субсидії"
-  ],
-  [
-   1792618291.1223674,
-   "Downswing випустили новий студійний сет для Audiotree"
-  ],
-  [
-   1792618293.946374,
-   "Джонатан Тісон про роль Джейсона Вурхіза у серіалі Crystal Lake"
-  ],
-  [
-   1792618296.8739588,
-   "Conjurer анонсували американські концерти з Armed For Apocalypse"
-  ],
-  [
-   1792618299.6853654,
-   "Прем'єра шостого сезону Abbott Elementary зібрала 6,3 мільйона глядачів"
-  ],
   [
    1792619341.6086028,
    "Історія створення легендарної пісні It's All Coming Back To Me Now від Jim Steinman"
@@ -36657,6 +36606,14 @@
   [
    1792789311.305233,
    "Gojira відкриватимуть третій концерті System Of A Down на Rose Bowl у 2027 році"
+  ],
+  [
+   1792791107.1763656,
+   "Instacart розглядає можливість продажу компанії, що призвело до стрибка акцій"
+  ],
+  [
+   1792791116.9684052,
+   "Karmine Corp перемогли Anyone’s Legend на LoL Worlds"
   ]
  ],
  "ukrainian": {
@@ -38887,7 +38844,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792785836.2147434,
+  "last_check": 1792791125.54453,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
