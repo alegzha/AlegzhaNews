@@ -1,5 +1,17 @@
 {
  "alerts": {
+  "src:ai|DOU|https://dou.ua/feed/": {
+   "detail": "https://dou.ua/feed/ → 526 Server Error: <none> for url: https://dou.ua/feed/",
+   "label": "Джерело «DOU» не працює",
+   "sent": 0,
+   "since": 1792792877.5302007
+  },
+  "src:games|DOU Gamedev|https://gamedev.dou.ua/feed/": {
+   "detail": "https://gamedev.dou.ua/feed/ → 526 Server Error: <none> for url: https://gamedev.dou.ua/feed/",
+   "label": "Джерело «DOU Gamedev» не працює",
+   "sent": 0,
+   "since": 1792792855.613854
+  },
   "src:software|DOU|https://dou.ua/feed/": {
    "detail": "https://dou.ua/feed/ → 526 Server Error: <none> for url: https://dou.ua/feed/",
    "label": "Джерело «DOU» не працює",
@@ -21,11 +33,12 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-23 21:32 UTC",
+  "at": "2026-10-23 22:06 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 12
   },
   "used": [
    "Gemini"
@@ -17217,7 +17230,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Проєкт Single Print Index випустив дебютний EP CONFESSIONS</b>\n\nМеталік-хардкор-проєкт Single Print Index, створений учасниками Code Orange та Pain Clinic, випустив дебютний EP із п&#x27;яти треків під назвою CONFESSIONS. У записі фінальної пісні взяв участь вокаліст гурту Missing Link Майк Раян.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/23/news/single-print-index-code-orange-etc-release-their-debut-ep-confessions/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/23/news/single-print-index-code-orange-etc-release-their-debut-ep-confessions/",
     "orig": "Single Print Index (Code Orange, Etc.) Release Their Debut EP “CONFESSIONS”"
@@ -17231,7 +17243,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>MIBR перевела весь склад у запас перед сезоном VCT 2027</b>\n\nКіберспортивна організація MIBR посадила на лаву запасних увесь активний склад Valorant, зокрема Erick ‘aspas’ Santos та Zachary ‘zekken’ Patrone. Гравці залишаються на контракті, але доступні для трансферних переговорів перед сезоном VCT 2027.\n\n🔗 <a href=\"https://insider-gaming.com/aspas-zekken-amongst-benched-players-as-mibr-evaluates-roster/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/aspas-zekken-amongst-benched-players-as-mibr-evaluates-roster/",
     "orig": "aspas & zekken Amongst Benched Players as MIBR Evaluates Roster"
@@ -17245,7 +17256,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>Black Bear випускає у прокат фільм Wicker із Олівією Колман</b>\n\nКомпанія Black Bear випускає у 1400 кінотеатрах середньовічну романтичну стрічку Wicker, яка на фестивалі Sundance зібрала позитивні відгуки. Фільм розповідає про рибачку у виконанні Олівії Колман, яка замовляє чоловіка з лози (Александр Скашгорд), що повністю змінює життя у селі. Картина має зібрати в американському прокаті $6–8 мільйонів.\n\n🔗 <a href=\"https://www.indiewire.com/news/box-office/wicker-black-bear-breakout-box-office-erotic-drama-1235223545/\">IndieWire</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.indiewire.com/news/box-office/wicker-black-bear-breakout-box-office-erotic-drama-1235223545/",
     "orig": "Will ‘Wicker’ Be Black Bear’s First Big Breakout?"
@@ -17264,7 +17274,6 @@
       "https://www.theprp.com/2026/10/23/news/wisdom-in-chains-join-up-with-street-dogs-more-on-new-tribute-to-lou-koller/"
      ]
     ],
-    "caption": "🤘 <b>Wisdom in Chains випустили сингл пам&#x27;яті Лу Коллера із Sick of It All</b>\n\nГурт Wisdom in Chains презентував новий сингл «What This Means (For Lou)», присвячений покійному вокалисту Sick of It All Лу Коллеру. У записі треку взяв участь Майкл МакКолган із Street Dogs, а в інтро звучить голос Вінні Стігми з Agnostic Front.\n\n🔗 <a href=\"https://lambgoat.com/news/55511/wisdom-in-chains-issue-new-single-dedicated-to-late-sick-of-it-all-frontman-lou-koller/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55511/wisdom-in-chains-issue-new-single-dedicated-to-late-sick-of-it-all-frontman-lou-koller/",
     "orig": "Wisdom in Chains issue new single dedicated to late Sick of It All frontman Lou Koller"
@@ -17278,7 +17287,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Incendiary та Angel Du$t анонсували спільні концерти у Великій Британії та Ірландії</b>\n\nХардкор-гурт Incendiary виступить разом із Angel Du$t на двох шоу. Концерти відбудуться 4 листопада на фестивалі Core. у Глазго та 15 листопада в Дубліні, що стане першим виступом Incendiary в Ірландії.\n\n🔗 <a href=\"https://lambgoat.com/news/55514/incendiary-to-join-angel-dut-for-a-pair-of-shows-in-uk-and-ireland/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55514/incendiary-to-join-angel-dut-for-a-pair-of-shows-in-uk-and-ireland/",
     "orig": "Incendiary to join Angel Du$t for a pair of shows in UK and Ireland"
@@ -17292,7 +17300,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>Огляд Apple iPhone Duo: розкішний складаний екран і сирі застосунки</b>\n\nПерший складаний гаджет від компанії вражає, проте екосистемі програм ще треба наздоганяти його рівень.\n\n🔗 <a href=\"https://www.bloomberg.com/news/features/2026-10-23/apple-iphone-duo-review-stunning-foldable-screen-uneven-apps\">Bloomberg</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/features/2026-10-23/apple-iphone-duo-review-stunning-foldable-screen-uneven-apps",
     "orig": "Apple iPhone Duo Review: Stunning Foldable Screen, Uneven Apps"
@@ -17306,7 +17313,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>Довгоочікуваний складаний iPhone від Apple зіткнувся з дитячими хворобами</b>\n\nApple випустила свій перший складаний телефон. Попри недоліки першого покоління, новинка дарує чимало позитивних емоцій користувачам, готовим адаптуватися до формфактора.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-23/iphone-duo-review\">Bloomberg</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-10-23/iphone-duo-review",
     "orig": "Apple’s Most Exciting Phone in Years Has Growing Pains"
@@ -17320,7 +17326,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/1962700/\">Subnautica 2</a> готує найстрашнішу локацію в історії серії</b>\n\nSubnautica 2 готує масштабне оновлення Early Access 2.0 з новим регіоном, п’ятьма біомами та моторошними зустрічами з левіафанами. Розробники також додадуть нові істоти, сюжетний контент, механічний корпус для підводного апарата та давно очікувані зміни в пересуванні. Водночас дата повноцінного релізу гри досі невідома.\n\n🔗 <a href=\"https://itc.ua/ua/novini/subnautica-2-gotuye-najstrashnishu-lokatsiyu-v-istoriyi-seriyi/\">ITC.ua</a>\n\n#ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/subnautica-2-gotuye-najstrashnishu-lokatsiyu-v-istoriyi-seriyi/",
     "orig": "Subnautica 2 готує найстрашнішу локацію в історії серії"
@@ -17334,7 +17339,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>Future? No Thanks! видалив ШІ-озвучку після критики та пропонує повернення коштів</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2855940/\">betrayed</a>\n\nРозробник Paolo Pedercini видалив згенеровану за допомогою ШІ озвучку роботів у грі Future? No Thanks! через негативну реакцію в соцмережах і медіа. Він також пропонує повернути гроші гравцям, які почуваються «зраженими», та випустив патч зі збільшенням виплат за квести.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/future-no-thanks-dev-removes-ai-generated-voices-from-game-and-offers-refunds-to-players-who-feel-betrayed\">Rock Paper Shotgun</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/future-no-thanks-dev-removes-ai-generated-voices-from-game-and-offers-refunds-to-players-who-feel-betrayed",
     "orig": "Future? No Thanks! dev removes AI-generated voices from game and offers refunds to players who feel \"betrayed\""
@@ -17348,7 +17352,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>Для Factorio вийшов фінальний малюватаупдейт версії 2.1</b>\n\nРозробники Wube Software випустили останнє масштабне оновлення 2.1 для Factorio та доповнення Space Age. Воно додає понад 30 покращень якості життя, зокрема змішані запуски ракет, міни-детектори ворогів та оновлену графіку. Надалі гра отримуватиме лише виправлення помилок і технічну підтримку.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/factorios-final-major-update-has-rolled-off-the-assembly-line-adding-the-things-we-wanted-to-do-for-20-but-didnt-have-time-for\">Rock Paper Shotgun</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/factorios-final-major-update-has-rolled-off-the-assembly-line-adding-the-things-we-wanted-to-do-for-20-but-didnt-have-time-for",
     "orig": "Factorio's final major update has rolled off the assembly line, adding \"the things we wanted to do for 2.0 but didn't have time for\""
@@ -17362,7 +17365,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Laura Guldemond залишила гурт BURNING WITCHES</b>\n\nВокалістка Laura Guldemond вирішила піти з гурту BURNING WITCHES після семи років співпраці. На найближчих концертах її тимчасово замінить Jennifer Gruber із FIREBORN, тоді як колектив уже шукає постійну фронтвумен.\n\n🔗 <a href=\"https://blabbermouth.net/news/burning-witches-part-ways-with-longtime-singer-laura-guldemond\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/burning-witches-part-ways-with-longtime-singer-laura-guldemond",
     "orig": "BURNING WITCHES Part Ways With Longtime Singer LAURA GULDEMOND"
@@ -17986,7 +17988,12 @@
    "Стефані Марч повернеться до серіалу Law & Order: SVU у ролі Alexandra Cabot",
    "Deadline",
    {
-    "also": [],
+    "also": [
+     [
+      "Variety",
+      "https://variety.com/2026/tv/news/law-order-svu-stephanie-march-return-alexandra-cabot-1236929966/"
+     ]
+    ],
     "caption": "🎬 <b>Стефані Марч повернеться до серіалу Law &amp; Order: SVU у ролі Alexandra Cabot</b>\n\nСтефані Марч знову зіграє Александра Кабот у 9-му езоді 28-го сезону серіалу Law &amp; Order: SVU. Востаннє акторка з&#x27;являлася у цьому спіноффі в 19-му сезоні.\n\n🔗 <a href=\"https://deadline.com/2026/10/stephanie-march-return-law-order-svu-season-28-1237172010/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/stephanie-march-return-law-order-svu-season-28-1237172010/",
@@ -18098,6 +18105,160 @@
     "kind": "photo",
     "link": "https://insider-gaming.com/kcorp-beat-al-lol-worlds-2026/",
     "orig": "KCorp Beat AL for More EUphoria and LPL Misery at LoL Worlds"
+   }
+  ],
+  [
+   1792792944.8487759,
+   2291,
+   "🤘",
+   "Ноель Галлагер розповів про повернення Oasis на шоу Chicken Shop Date",
+   "Pitchfork",
+   {
+    "also": [],
+    "caption": "🤘 <b>Ноель Галлагер розповів про повернення Oasis на шоу Chicken Shop Date</b>\n\nНоель Галлагер став гостем фінального сезону шоу Chicken Shop Date Амелії Дімолденберг. Музикант пожартував про вегетаріанців і рядки з пісні Champagne Supernova, а також поділився деталями репетицій камбеку Oasis, зазначивши, що гурт звучатиме так само добре або навіть краще, ніж будь-коли.\n\n🔗 <a href=\"https://pitchfork.com/story/noel-gallagher-talks-vegans-macca-underwear-on-chicken-shop-date/\">Pitchfork</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://pitchfork.com/story/noel-gallagher-talks-vegans-macca-underwear-on-chicken-shop-date/",
+    "orig": "Noel Gallagher Talks Vegans, Macca, Underwear on Chicken Shop Date"
+   }
+  ],
+  [
+   1792793151.9798505,
+   2292,
+   "🤘",
+   "Slayyyter скасувала решту концертів туру у Великій Британії та Європі",
+   "Pitchfork",
+   {
+    "also": [],
+    "caption": "🤘 <b>Slayyyter скасувала решту концертів туру у Великій Британії та Європі</b>\n\nЛарингіт і розриви голосових зв&#x27;язок змусили співака приймати ліки та дотримуватися повного голосового спокою принаймні два тижні\n\n🔗 <a href=\"https://pitchfork.com/story/slayyyter-cancels-remaining-uk-and-european-tour-dates/\">Pitchfork</a>\n\n#музика",
+    "kind": "text",
+    "link": "https://pitchfork.com/story/slayyyter-cancels-remaining-uk-and-european-tour-dates/",
+    "orig": "Slayyyter Cancels Remaining UK and European Tour Dates"
+   }
+  ],
+  [
+   1792793154.9286425,
+   2293,
+   "🎬",
+   "CineGouna розширює підтримку кінематографістів на тлі рекордного інтересу",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>CineGouna розширює підтримку кінематографістів на тлі рекордного інтересу</b>\n\n🔗 <a href=\"https://variety.com/2026/film/global/el-gouna-cinegouna-arab-film-industry-programs-1236929945/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/global/el-gouna-cinegouna-arab-film-industry-programs-1236929945/",
+    "orig": "El Gouna’s CineGouna Expands Industry Push: ‘We Want to Give Every Filmmaker a Chance’"
+   }
+  ],
+  [
+   1792793158.131695,
+   2294,
+   "🎬",
+   "На Shudder вийшов горор-детектив The Cycle про перевертнів",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>На Shudder вийшов горор-детектив The Cycle про перевертнів</b>\n\nНа стримінгу Shudder вийшов новий фільм The Cycle від режисера Джордана Дауні. Стрічка поєднує елементи класичного поліцейського процедуралу та моторошного фільму про монстрів, розповідаючи про розслідування дивних вбивств за участю перевертнів.\n\n🔗 <a href=\"https://variety.com/2026/film/features/the-cycle-werewolf-horror-movie-police-procedural-1236914753/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/features/the-cycle-werewolf-horror-movie-police-procedural-1236914753/",
+    "orig": "‘The Cycle’ Is a Surprising New Take on the Police Procedural, With a Huge Twist and an Emotional Resonance the Director Didn’t Expect"
+   }
+  ],
+  [
+   1792793160.8118258,
+   2295,
+   "🤘",
+   "Bruiser Wolf та Conductor Williams випустили сингл “Ain’t Got Time”",
+   "Stereogum",
+   {
+    "also": [],
+    "caption": "🤘 <b>Bruiser Wolf та Conductor Williams випустили сингл “Ain’t Got Time”</b>\n\nРепер Bruiser Wolf і продюсер Conductor Williams випустили новий трек “Ain’t Got Time”. Композиція побудована на стриманому соул-лупі та триває менше двох хвилин. У пісні виконавець зосереджується на темі грошей і відсутності часу.\n\n🔗 <a href=\"https://stereogum.com/2515493/bruiser-wolf-conductor-williams-aint-got-time/music/\">Stereogum</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://stereogum.com/2515493/bruiser-wolf-conductor-williams-aint-got-time/music/",
+    "orig": "Bruiser Wolf & Conductor Williams – “Ain’t Got Time”"
+   }
+  ],
+  [
+   1792793165.943469,
+   2296,
+   "🎬",
+   "Як Александр Скарсгард грав людину з лози у фільмі Wicker",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Як Александр Скарсгард грав людину з лози у фільмі Wicker</b>\n\nУ кінопрокат вийшов фільм Wicker, де Олівія Колман грає самотню рибалку, яка замовляє собі чоловіка з лози. Роль цього незвичайного персонажа виконав Александр Скарсгард у спеціальному костюмі з 50 деталями, надрукованими на 3D-принтері з м&#x27;якого термопластичного еластомеру.\n\n🔗 <a href=\"https://variety.com/2026/artisans/news/what-alexander-skarsgard-wicker-basket-was-made-from-1236929863/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "text",
+    "link": "https://variety.com/2026/artisans/news/what-alexander-skarsgard-wicker-basket-was-made-from-1236929863/",
+    "orig": "Why Olivia Colman Didn’t Get Splinters From Getting Intimate With Alexander Skarsgård’s ‘Wicker’ Costume"
+   }
+  ],
+  [
+   1792793171.769004,
+   2297,
+   "🎮",
+   "Capcom задоволена рівнем складності Onimusha: Way of the Sword",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Capcom задоволена рівнем складності <a href=\"https://store.steampowered.com/app/2638890/\">Onimusha: Way of the Sword</a></b>\n\nДиректор Сатору Ніхей заявив, що дані про проходження гри збігаються з початковими планами розробників. Гравці стикаються з труднощами та гинуть, але успішно долають перешкоди і просуваються сюжетом.\n\n🔗 <a href=\"https://www.pcgamer.com/games/action/based-on-player-data-capcoms-pretty-happy-with-the-difficulty-level-of-onimusha-way-of-the-sword-we-think-its-hit-the-right-spot/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/games/action/based-on-player-data-capcoms-pretty-happy-with-the-difficulty-level-of-onimusha-way-of-the-sword-we-think-its-hit-the-right-spot/",
+    "orig": "Based on player data, Capcom's pretty happy with the difficulty level of Onimusha: Way of the Sword: 'We think it's hit the right spot'"
+   }
+  ],
+  [
+   1792793174.6837847,
+   2298,
+   "🤘",
+   "Surgeon анонсували новий альбом “Aphantasia”",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Surgeon анонсували новий альбом “Aphantasia”</b>\n\nПроєкт Surgeon, створений колишнім вокалістом гурту Reflections Джейком Вулфом, відкрив передзамовлення на новий альбом “Aphantasia”. Реліз платівки, яка міститиме 18 треків, написаних, спродюсованих і записаних самим музикантом, запланований на 30 жовтня.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/23/news/surgeon-ex-reflections-announce-new-album-aphantasia/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/23/news/surgeon-ex-reflections-announce-new-album-aphantasia/",
+    "orig": "Surgeon (Ex-Reflections) Announce New Album “Aphantasia”"
+   }
+  ],
+  [
+   1792793184.666103,
+   2299,
+   "🎮",
+   "Сігеру Міямото не виключає розробки нової гри",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Сігеру Міямото не виключає розробки нової гри</b>\n\nТворець Mario та Link Сігеру Міямото наразі зосереджений на кіновиробництві, але залишає можливість повернутися до створення ігор. Він планує реалізувати оригінальні ідеї, які незвичні для Nintendo та можуть здивувати працівників компанії.\n\n🔗 <a href=\"https://insider-gaming.com/shigeru-miyamoto-may-make-another-game/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/shigeru-miyamoto-may-make-another-game/",
+    "orig": "Shigeru Miyamoto May Make Another Game, Despite Film Focus"
+   }
+  ],
+  [
+   1792793187.93298,
+   2300,
+   "🎬",
+   "Режисер David Fortune приймав крижаний душ для підготовки до пітчингу AT&T Untold Stories Award",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Режисер David Fortune приймав крижаний душ для підготовки до пітчингу AT&amp;T Untold Stories Award</b>\n\nРежисер стрічки «Color Book» Девід Форчун розповів про екстремальну підготовку до пітчингу на премії AT&amp;T Untold Stories Award. Щоб подолати хвилювання перед виступлом на Tribeca Festival, постановник тренувався вимовляти промову під крижаним душем. Перемога принесла йому $1,2 мільйона на створення фільму, який тепер доступний на Netflix.\n\n🔗 <a href=\"https://www.indiewire.com/news/events/att-award-winner-david-fortune-future-of-filmmaking-summit-1235223494/\">IndieWire</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/news/events/att-award-winner-david-fortune-future-of-filmmaking-summit-1235223494/",
+    "orig": "‘Color Book’ Director David Fortune Used Ice Cold Showers to Practice His AT&T Untold Stories Award Pitch — Watch"
+   }
+  ],
+  [
+   1792793190.9628153,
+   2301,
+   "🎬",
+   "Арон Гузіковскі пише сценарій для нового фільму у всесвіті Alien",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Арон Гузіковскі пише сценарій для нового фільму у всесвіті Alien</b>\n\nСценарист і шоуранер Арон Гузіковскі працює над новим фільмом із франшизи Alien для 20th Century Studios. Продюсерами стрічки виступають компанія Scott Free разом із Майклом Пруссом. Деталі сюжету та дата виходу поки не розголошуються.\n\n🔗 <a href=\"https://deadline.com/2026/10/new-alien-movie-aaron-guzikowski-writing-20th-1237172102/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/new-alien-movie-aaron-guzikowski-writing-20th-1237172102/",
+    "orig": "Aaron Guzikowski Tapped To Pen New ‘Alien’ Movie For 20th, Scott Free"
    }
   ]
  ],
@@ -18212,7 +18373,8 @@
    1792782180.0164306,
    1792787519.4165273,
    1792789304.8536048,
-   1792791116.9684553
+   1792791116.9684553,
+   1792793184.6666286
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1792695730.2072842,
@@ -18221,8 +18383,6 @@
    1792771418.150554
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1792701105.5989358,
-   1792705458.0261474,
    1792708286.2155578,
    1792710091.4375982,
    1792749742.1905174,
@@ -18236,7 +18396,8 @@
    1792773134.670232,
    1792775231.4705377,
    1792783901.9281163,
-   1792785796.814743
+   1792785796.814743,
+   1792793171.7695887
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1792697491.7397037,
@@ -18289,7 +18450,6 @@
    1792528337.5075414
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1792705454.5907097,
    1792710103.6432104,
    1792713714.5296206,
    1792719084.4031985,
@@ -18303,7 +18463,8 @@
    1792785816.8940725,
    1792785819.9962597,
    1792787493.9170747,
-   1792787525.6516364
+   1792787525.6516364,
+   1792793190.9633853
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1792654274.694844,
@@ -18313,20 +18474,20 @@
    1792679701.8954792
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
-   1792705445.740621,
    1792713682.912544,
    1792775811.5799167,
    1792778498.1560912,
-   1792782090.8238645
+   1792782090.8238645,
+   1792793187.933407
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1792717287.970738,
    1792746277.8618314
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1792704722.864745,
-   1792704728.7183316,
-   1792705448.6376412
+   1792793154.929195,
+   1792793158.132252,
+   1792793165.9439766
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1792705451.5145504,
@@ -18428,8 +18589,8 @@
    1792164174.1832125
   ],
   "music|Pitchfork|https://pitchfork.com/feed/feed-news/rss": [
-   1792704712.131254,
-   1792705441.8857636
+   1792792944.8493292,
+   1792793151.980225
   ],
   "music|Revolver|https://www.revolvermag.com/rss.xml": [
    1792693977.7752507,
@@ -18437,16 +18598,10 @@
    1792773128.7645104
   ],
   "music|Stereogum|https://www.stereogum.com/feed/": [
-   1792704731.626546,
-   1792706493.3250492,
-   1792711969.8743675
+   1792711969.8743675,
+   1792793160.8123636
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1792703013.7062004,
-   1792703020.916393,
-   1792704716.1058478,
-   1792705461.1138296,
-   1792706500.0906396,
    1792731759.2024832,
    1792731763.3145013,
    1792733505.545059,
@@ -18460,7 +18615,8 @@
    1792780417.348605,
    1792782185.1950808,
    1792785822.971482,
-   1792789307.8734627
+   1792789307.8734627,
+   1792793174.6843336
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1792481487.1423821
@@ -18681,6 +18837,7 @@
   "0ea7276b06d9be53": 1792418602.6873617,
   "0eb1b6c559f76477": 1792659695.2548077,
   "0eb270d4eb18170a": 1792670453.5647857,
+  "0f10cdfef25b72a0": 1792793158.1322112,
   "0f173ee171375a2d": 1792423917.499819,
   "0f4107c1959dbf84": 1792584070.9681265,
   "0f4b2d3c8996e78c": 1792368081.4294152,
@@ -18703,6 +18860,7 @@
   "102d3575e730c2e1": 1791678229.9078677,
   "105ff4e77e97f9b2": 1792332078.6451468,
   "1063bc2bd4d94992": 1791642324.2730968,
+  "109079e1411c80e6": 1792793168.8710096,
   "10a4e1749fbcc694": 1792037194.8017173,
   "10b1b74d928606a6": 1792598896.2873132,
   "10e8f389674cffc4": 1792422116.755615,
@@ -18800,6 +18958,7 @@
   "184919ff256e9ffc": 1792270348.786627,
   "186cfe3c3af3b7cd": 1792528327.905065,
   "187503038e084374": 1792683088.5128713,
+  "18953afe3d6d1db4": 1792792877.8679307,
   "18b30ead730d7225": 1792607482.6968265,
   "18c64048c2df5f61": 1792434690.444807,
   "18db0b3b2e508dfc": 1792074098.8534346,
@@ -18905,6 +19064,7 @@
   "215e30483e1baa81": 1792312275.155848,
   "215f3c05f1717ab4": 1792431113.3179383,
   "21798e768846726d": 1791932387.0273638,
+  "217eeb32bc4cda07": 1792793171.7695441,
   "21aa04a457db9ddf": 1792501291.1865754,
   "21d435bacee5f33a": 1792616487.2603817,
   "21d7079f8cfb1891": 1791996984.948358,
@@ -19302,6 +19462,7 @@
   "42f9aa23b5f09dca": 1792733499.0866466,
   "4305ce6b081ab3b8": 1791678235.0223486,
   "4308794c00b9739c": 1792494193.1181586,
+  "430f0f7ef8036dfb": 1792793151.980183,
   "4313e81ffff3a32b": 1792600308.3693054,
   "431c52b37ba34ad3": 1791920881.6626737,
   "439092d850041c51": 1792080927.3717632,
@@ -19989,6 +20150,7 @@
   "7b1f074e627e521d": 1792436504.1853266,
   "7b225d29c3076c51": 1792603295.2724075,
   "7b2af8b527bedd6e": 1792497699.553743,
+  "7b39442a6078b703": 1792793160.8123236,
   "7b414f4be74ab61e": 1792214788.713499,
   "7b51a41a8a5fb539": 1791894773.4746997,
   "7b541e78edb0a115": 1792335747.9551442,
@@ -20031,6 +20193,7 @@
   "7ddb5de59ad10249": 1792129321.8677006,
   "7de825dd22bce688": 1792398880.802108,
   "7e12dc08d8b642a5": 1792512409.4193542,
+  "7e1979fc2f820fc8": 1792792877.8543391,
   "7e1feacc7b16cf2f": 1792101862.2487528,
   "7e31a4f19241e69d": 1792596710.1877105,
   "7e3d4f547c4c8f40": 1792097662.3262818,
@@ -20097,6 +20260,7 @@
   "83794bb32447283f": 1791969572.4120092,
   "8393e86873e298ae": 1792404052.2748096,
   "839df8274c436547": 1792571478.2042437,
+  "83a359bd9636d9c0": 1792793184.666587,
   "83abdf4034c836d3": 1792089194.0217938,
   "83df1b64fdfb003b": 1791926710.9621716,
   "83e5e19401311e50": 1792432920.5902462,
@@ -20130,6 +20294,7 @@
   "86b9ff4ada6410b6": 1792766023.1186771,
   "86c2723639e98434": 1792335715.9125164,
   "86c8281a34004289": 1792689504.824069,
+  "86d16d5316ef5385": 1792793154.9291542,
   "86e5c001d1a419ce": 1791929843.2628202,
   "86f38f3a1d9594b5": 1792329721.760709,
   "86fbc710f96707ac": 1792148821.3912616,
@@ -20248,6 +20413,7 @@
   "8f8caf581bdc33af": 1792244041.9555044,
   "8f9fec8ef2615331": 1791643484.7724442,
   "8fa3c54396fed602": 1792688559.5491064,
+  "8fd57b8fcff58beb": 1792793190.9633424,
   "8fe573d5cab672cd": 1792710103.6431656,
   "8fe98d2c4c26327d": 1792778453.5270102,
   "902a336fff3e65e2": 1792697503.1283176,
@@ -20590,6 +20756,7 @@
   "ae4c34da376966be": 1792164565.6954842,
   "ae5f91efc2598933": 1792609311.1684306,
   "ae8ecf2b0cdd7003": 1792503157.3464046,
+  "ae8fe55e19923b97": 1792792944.849285,
   "aec7254dcf7ebc9d": 1792442068.116315,
   "aee63b39942cb1fd": 1792740682.0338914,
   "af13b6dfa352991d": 1791978102.867421,
@@ -20923,6 +21090,7 @@
   "cac5f332da9993d9": 1792650682.3023837,
   "cb0de650dca9c67f": 1791927001.6132205,
   "cb27ca09220fad50": 1791994369.4845452,
+  "cb2ae14af824e883": 1792793174.6842897,
   "cb2e0ccae64d8a48": 1792627365.4521804,
   "cb4077b3139b001b": 1792602087.7482922,
   "cb44a2485d56deab": 1792614696.8516707,
@@ -21043,6 +21211,7 @@
   "d5b6113a99bacfe2": 1792517815.3037057,
   "d5dfb55b012918e7": 1792773137.6920857,
   "d5e0b1582d85851f": 1791643484.7724442,
+  "d5fae11c3dccffe7": 1792793187.933365,
   "d5fdd946abcf47a1": 1792692120.4848776,
   "d6100e09e1eb7649": 1792602101.7755303,
   "d621b1e60697e4da": 1792704725.794215,
@@ -21131,6 +21300,7 @@
   "dcd07d675c358a85": 1792273183.7306294,
   "dd0141dbf568fe6c": 1792775784.6469889,
   "dd26a9579671ab18": 1792483302.2115438,
+  "dd3fe6af043358d1": 1792793165.943936,
   "dd4a118cd1cf5fba": 1792429335.2482028,
   "dd4da5d2ce858f2f": 1792504888.0988407,
   "dd54b3718ca32a3a": 1792584080.1470208,
@@ -22763,7 +22933,7 @@
    "Bloomberg": 55,
    "DOU": 2,
    "DOU Gamedev": 5,
-   "Deadline": 74,
+   "Deadline": 75,
    "Decibel": 13,
    "Digital Foundry": 6,
    "Distorted Sound": 20,
@@ -22774,8 +22944,8 @@
    "Hugging Face": 7,
    "IGN": 71,
    "ITC.ua": 58,
-   "IndieWire": 24,
-   "Insider Gaming": 87,
+   "IndieWire": 25,
+   "Insider Gaming": 88,
    "Kerrang!": 30,
    "Lambgoat": 53,
    "Loudwire": 26,
@@ -22783,24 +22953,24 @@
    "Metal Injection": 23,
    "MetalSucks": 1,
    "Mezha": 59,
-   "PC Gamer": 75,
-   "Pitchfork": 8,
+   "PC Gamer": 76,
+   "Pitchfork": 10,
    "PlayUA": 25,
    "Polygon": 33,
    "Product Hunt": 23,
    "Revolver": 8,
    "Rock Paper Shotgun": 38,
    "SteamDB": 3,
-   "Stereogum": 12,
+   "Stereogum": 13,
    "The Decoder": 27,
-   "ThePRP": 67,
+   "ThePRP": 68,
    "VGC": 30,
-   "Variety": 24
+   "Variety": 27
   },
   "translators": {
    "DeepL": 24,
-   "gemini-flash-latest": 89,
-   "gemini-flash-lite-latest": 1217
+   "gemini-flash-latest": 90,
+   "gemini-flash-lite-latest": 1229
   },
   "week": "2026-W43"
  },
@@ -24840,11 +25010,6 @@
    "",
    1792755089.657862
   ],
-  "q:broken": [
-   0,
-   "",
-   1792619385.103486
-  ],
   "q:bros": [
    0,
    "",
@@ -25435,26 +25600,6 @@
    "",
    1792733488.1302922
   ],
-  "q:da and true": [
-   0,
-   "",
-   1792619388.5814881
-  ],
-  "q:da and true damage": [
-   0,
-   "",
-   1792619388.0592558
-  ],
-  "q:da and true damage will": [
-   0,
-   "",
-   1792619387.5848787
-  ],
-  "q:da and true damage will perform": [
-   0,
-   "",
-   1792619387.1106577
-  ],
   "q:da firestarter gaming": [
    0,
    "",
@@ -25489,26 +25634,6 @@
    0,
    "",
    1792621893.4130733
-  ],
-  "q:damage": [
-   0,
-   "",
-   1792619392.6642907
-  ],
-  "q:damage will": [
-   0,
-   "",
-   1792619392.1489775
-  ],
-  "q:damage will perform": [
-   0,
-   "",
-   1792619391.5626273
-  ],
-  "q:damage will perform at the lol": [
-   0,
-   "",
-   1792619391.0806756
   ],
   "q:dark souls 2": [
    236430,
@@ -26539,26 +26664,6 @@
    0,
    "",
    1792762331.4052424
-  ],
-  "q:fans pay": [
-   0,
-   "",
-   1792619370.4335794
-  ],
-  "q:fans pay their": [
-   0,
-   "",
-   1792619369.9425921
-  ],
-  "q:fans pay their respects": [
-   0,
-   "",
-   1792619369.4697204
-  ],
-  "q:fans pay their respects to bioware": [
-   0,
-   "",
-   1792619368.956539
   ],
   "q:farewell bioware": [
    0,
@@ -28785,6 +28890,26 @@
    "",
    1792670649.7803872
   ],
+  "q:may": [
+   0,
+   "",
+   1792793183.2454093
+  ],
+  "q:may make": [
+   0,
+   "",
+   1792793182.7055652
+  ],
+  "q:may make another": [
+   0,
+   "",
+   1792793182.066886
+  ],
+  "q:may make another game": [
+   0,
+   "",
+   1792793181.2804816
+  ],
   "q:medium rare": [
    4909780,
    "Medium Rare",
@@ -28889,6 +29014,26 @@
    0,
    "",
    1792746282.5956979
+  ],
+  "q:miyamoto may": [
+   0,
+   "",
+   1792793180.6878638
+  ],
+  "q:miyamoto may make": [
+   0,
+   "",
+   1792793180.0481598
+  ],
+  "q:miyamoto may make another": [
+   0,
+   "",
+   1792793179.46164
+  ],
+  "q:miyamoto may make another game": [
+   0,
+   "",
+   1792793178.9303334
   ],
   "q:mkoi": [
    0,
@@ -29505,6 +29650,11 @@
    "ONE PIECE: Grand Gourmet",
    1792598552.0538206
   ],
+  "q:onimusha way of the sword": [
+   2638890,
+   "Onimusha: Way of the Sword",
+   1792793170.1187458
+  ],
   "q:online": [
    0,
    "",
@@ -29614,26 +29764,6 @@
    238960,
    "Path of Exile",
    1792337496.8788037
-  ],
-  "q:pay": [
-   0,
-   "",
-   1792619372.3856425
-  ],
-  "q:pay their": [
-   0,
-   "",
-   1792619371.855594
-  ],
-  "q:pay their respects": [
-   0,
-   "",
-   1792619371.3843825
-  ],
-  "q:pay their respects to bioware": [
-   0,
-   "",
-   1792619370.9068675
   ],
   "q:paycheck to partner with netflix": [
    0,
@@ -30755,6 +30885,26 @@
    "",
    1792774932.7002654
   ],
+  "q:shigeru miyamoto may": [
+   0,
+   "",
+   1792793178.391836
+  ],
+  "q:shigeru miyamoto may make": [
+   0,
+   "",
+   1792793177.8715355
+  ],
+  "q:shigeru miyamoto may make another": [
+   0,
+   "",
+   1792793177.3037636
+  ],
+  "q:shigeru miyamoto may make another game": [
+   0,
+   "",
+   1792793176.794703
+  ],
   "q:shipment come to modern": [
    0,
    "",
@@ -31355,21 +31505,6 @@
    "",
    1792776781.9388278
   ],
-  "q:their": [
-   0,
-   "",
-   1792619373.8827243
-  ],
-  "q:their respects": [
-   0,
-   "",
-   1792619373.367761
-  ],
-  "q:their respects to bioware": [
-   0,
-   "",
-   1792619372.8848226
-  ],
   "q:there": [
    0,
    "",
@@ -31449,26 +31584,6 @@
    0,
    "",
    1792677712.8003044
-  ],
-  "q:true": [
-   0,
-   "",
-   1792619390.6004763
-  ],
-  "q:true damage": [
-   0,
-   "",
-   1792619390.0683205
-  ],
-  "q:true damage will": [
-   0,
-   "",
-   1792619389.5724332
-  ],
-  "q:true damage will perform": [
-   0,
-   "",
-   1792619389.073976
   ],
   "q:turismo": [
    0,
@@ -32075,6 +32190,11 @@
    "",
    1792668752.8982682
   ],
+  "q:we think it": [
+   0,
+   "",
+   1792793169.5431967
+  ],
   "q:we were": [
    0,
    "",
@@ -32653,46 +32773,6 @@
   ]
  },
  "titles": [
-  [
-   1792619341.608601,
-   "\"It's like Heathcliff digging up Cathy's corpse and dancing with it in the cold moonlight.\" The strange tale of the outrageous \"erotic\" 80s power ballad that Broadway legend Andrew Lloyd Webber called \"the greatest love song ever written\""
-  ],
-  [
-   1792619344.762701,
-   "Maz Announces New EP Loveandpain: Hear The Title Track"
-  ],
-  [
-   1792619347.823041,
-   "Poison Ivy DC Series in the Works at HBO With ‘The Penguin’ Exec Lauren LeFranc"
-  ],
-  [
-   1792619351.331582,
-   "‘ComicView: Rooftop Series’ Renewed for Season 2 at BET (EXCLUSIVE)"
-  ],
-  [
-   1792619357.6889052,
-   "Former Nightwish singer Floor Jansen doesn’t mind her old band After Forever coming back – just don’t call it a reunion"
-  ],
-  [
-   1792619362.7942762,
-   "Sharon Osbourne kept Black Sabbath in the dark about doctors' warnings that their Back To The Beginning farewell show could kill Ozzy"
-  ],
-  [
-   1792619366.3577075,
-   "Listen: French Hardcore Band Headbussa Drops “Manhunt”"
-  ],
-  [
-   1792619375.4974575,
-   "Star Wars: The Old Republic Fans Pay Their Respects to BioWare"
-  ],
-  [
-   1792619378.7645051,
-   "Ho99o9 Team With Slay Squad On New Single “War Bait”"
-  ],
-  [
-   1792619394.5010178,
-   "K/DA and True Damage Will Perform at the LoL Worlds 2026 Final"
-  ],
   [
    1792621888.919247,
    "Steam Client Update - October 21st"
@@ -34632,49 +34712,53 @@
   [
    1792791116.9684038,
    "KCorp Beat AL for More EUphoria and LPL Misery at LoL Worlds"
+  ],
+  [
+   1792792944.8492863,
+   "Noel Gallagher Talks Vegans, Macca, Underwear on Chicken Shop Date"
+  ],
+  [
+   1792793151.980184,
+   "Slayyyter Cancels Remaining UK and European Tour Dates"
+  ],
+  [
+   1792793154.929155,
+   "El Gouna’s CineGouna Expands Industry Push: ‘We Want to Give Every Filmmaker a Chance’"
+  ],
+  [
+   1792793158.1322122,
+   "‘The Cycle’ Is a Surprising New Take on the Police Procedural, With a Huge Twist and an Emotional Resonance the Director Didn’t Expect"
+  ],
+  [
+   1792793160.8123243,
+   "Bruiser Wolf & Conductor Williams – “Ain’t Got Time”"
+  ],
+  [
+   1792793165.9439368,
+   "Why Olivia Colman Didn’t Get Splinters From Getting Intimate With Alexander Skarsgård’s ‘Wicker’ Costume"
+  ],
+  [
+   1792793171.7695456,
+   "Based on player data, Capcom's pretty happy with the difficulty level of Onimusha: Way of the Sword: 'We think it's hit the right spot'"
+  ],
+  [
+   1792793174.6842911,
+   "Surgeon (Ex-Reflections) Announce New Album “Aphantasia”"
+  ],
+  [
+   1792793184.6665878,
+   "Shigeru Miyamoto May Make Another Game, Despite Film Focus"
+  ],
+  [
+   1792793187.9333668,
+   "‘Color Book’ Director David Fortune Used Ice Cold Showers to Practice His AT&T Untold Stories Award Pitch — Watch"
+  ],
+  [
+   1792793190.9633436,
+   "Aaron Guzikowski Tapped To Pen New ‘Alien’ Movie For 20th, Scott Free"
   ]
  ],
  "titles_uk": [
-  [
-   1792619341.6086028,
-   "Історія створення легендарної пісні It's All Coming Back To Me Now від Jim Steinman"
-  ],
-  [
-   1792619344.7627022,
-   "Maz анонсує новий EP Loveandpain та випускає заглавний трек"
-  ],
-  [
-   1792619347.8230417,
-   "HBO розробляє серіал про Poison Ivy за участі шоуранерки The Penguin"
-  ],
-  [
-   1792619351.3315828,
-   "Шоу ComicView: Rooftop Series продовжили на другий сезон на BET"
-  ],
-  [
-   1792619357.688906,
-   "Флор Янсен назвала возз'єднання After Forever «кавер-гуртом»"
-  ],
-  [
-   1792619362.7942772,
-   "Шэрон Осборн приховала від Black Sabbath попередження лікарів про ризик для Оззі"
-  ],
-  [
-   1792619366.3577082,
-   "Французький хардкор-гурт Headbussa випустив сингл Manhunt"
-  ],
-  [
-   1792619375.497458,
-   "Фанати Star Wars: The Old Republic вшановують пам'ять BioWare через закриття студії"
-  ],
-  [
-   1792619378.7645056,
-   "Ho99o9 і Slay Squad випустили спільний сингл War Bait"
-  ],
-  [
-   1792619394.5010188,
-   "K/DA та True Damage виступлять на фіналі LoL Worlds 2026"
-  ],
   [
    1792621888.919248,
    "Оновлення клієнта Steam від 21 жовтня"
@@ -36614,6 +36698,50 @@
   [
    1792791116.9684052,
    "Karmine Corp перемогли Anyone’s Legend на LoL Worlds"
+  ],
+  [
+   1792792944.8492875,
+   "Ноель Галлагер розповів про повернення Oasis на шоу Chicken Shop Date"
+  ],
+  [
+   1792793151.9801853,
+   "Slayyyter скасувала решту концертів туру у Великій Британії та Європі"
+  ],
+  [
+   1792793154.9291556,
+   "CineGouna розширює підтримку кінематографістів на тлі рекордного інтересу"
+  ],
+  [
+   1792793158.1322129,
+   "На Shudder вийшов горор-детектив The Cycle про перевертнів"
+  ],
+  [
+   1792793160.8123255,
+   "Bruiser Wolf та Conductor Williams випустили сингл “Ain’t Got Time”"
+  ],
+  [
+   1792793165.9439375,
+   "Як Александр Скарсгард грав людину з лози у фільмі Wicker"
+  ],
+  [
+   1792793171.7695465,
+   "Capcom задоволена рівнем складності Onimusha: Way of the Sword"
+  ],
+  [
+   1792793174.6842918,
+   "Surgeon анонсували новий альбом “Aphantasia”"
+  ],
+  [
+   1792793184.6665888,
+   "Сігеру Міямото не виключає розробки нової гри"
+  ],
+  [
+   1792793187.9333675,
+   "Режисер David Fortune приймав крижаний душ для підготовки до пітчингу AT&T Untold Stories Award"
+  ],
+  [
+   1792793190.9633443,
+   "Арон Гузіковскі пише сценарій для нового фільму у всесвіті Alien"
   ]
  ],
  "ukrainian": {
@@ -36691,6 +36819,7 @@
    "1501750": "is",
    "1551980": "",
    "1556200": "",
+   "1566200": "is",
    "1577250": "",
    "1583230": "",
    "1585180": "",
@@ -36728,6 +36857,7 @@
    "1920290": "is",
    "1929610": "i",
    "1934570": "",
+   "1938090": "",
    "1939970": "",
    "1940340": "is",
    "1946700": "is",
@@ -37038,8 +37168,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1792769848.9347076,
-  "with_uk": 98
+  "last_check": 1792793202.3111486,
+  "with_uk": 99
  },
  "weekly_releases_week": "2026-W43",
  "wishlist": {
