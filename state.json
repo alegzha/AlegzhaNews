@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1792720877.6760697
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1792720875.3860028
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-22",
  "freebies": {
   "last_check": 1792719099.909589,
@@ -27,11 +14,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-23 02:01 UTC",
+  "at": "2026-10-23 02:31 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_model": "gemini-flash-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-latest": 1
   },
   "used": [
    "Gemini"
@@ -14389,7 +14376,6 @@
    "GameSpot",
    {
     "also": [],
-    "caption": "🎮 <b>Blizzard приховала частину секретів World of Warcraft: Forever до релізу</b>\n\nГравці World of Warcraft: Forever дослідили бета-версію гри, проте Blizzard запевняє, що на реліз та після нього підготовлено ще чимало сюрпризів. Старший геймдизайнер Джош Грінфілд повідомив, що розробники навмисно відключили деякі предмети та секрети для бети.\n\n🔗 <a href=\"https://www.gamespot.com/articles/wow-forever-is-keeping-its-secrets-close-to-the-chest/\">GameSpot</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamespot.com/articles/wow-forever-is-keeping-its-secrets-close-to-the-chest/",
     "orig": "WoW: Forever Is Keeping Its Secrets Close To The Chest"
@@ -15234,6 +15220,20 @@
     "link": "https://www.ign.com/articles/wo-long-2-wings-of-ember-gets-wuxia-and-let-me-fight-a-horrific-spider-thing-ign-preview",
     "orig": "Wo Long 2: Wings of Ember Gets Wuxia… and Let Me Fight a Horrific Spider Thing | IGN Preview"
    }
+  ],
+  [
+   1792722706.5634835,
+   2079,
+   "🤖",
+   "Побоювання навколо ШІ підняли світові кредитні спреди до 17-місячного максимуму",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Побоювання навколо ШІ підняли світові кредитні спреди до 17-місячного максимуму</b>\n\nПоказники світових ринків облігацій зафіксували найсильніше за понад рік уникнення ризиків. Розпродаж акцій ШІ-компаній та зростання геополітичної напруги змусили інвесторів шукати захисні активи.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-10-23/ai-tech-fears-push-global-credit-spreads-to-17-month-high\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-23/ai-tech-fears-push-global-credit-spreads-to-17-month-high",
+    "orig": "AI Tech Fears Push Global Credit Spreads to 17-Month High"
+   }
   ]
  ],
  "posted_by_source": {
@@ -15242,12 +15242,12 @@
    1792589516.5178292
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1792634487.7275226,
    1792638081.2404697,
    1792638085.029748,
    1792647162.9772983,
    1792681404.41804,
-   1792699514.3038924
+   1792699514.3038924,
+   1792722706.5638664
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1792405876.2595813
@@ -16624,6 +16624,7 @@
   "5c68d336f050bb23": 1792602178.47957,
   "5c6f8fb4863d218c": 1792530120.8728924,
   "5c72f265a0aa2c46": 1791853970.397,
+  "5c77a5b855becaf0": 1792722706.5638113,
   "5c7a726a5a7ee37d": 1791908440.5392518,
   "5cac9d00e22cbac8": 1791966895.258303,
   "5cb005d86af74da8": 1792164641.7867246,
@@ -17150,6 +17151,7 @@
   "8bf0f2eb59dbf9c4": 1792705437.0285425,
   "8bf16388bf798138": 1792530147.5081997,
   "8bfc838dd8bbef1a": 1792214832.143808,
+  "8c0e3cabaf013e0c": 1792722655.68983,
   "8c30dfc042a09859": 1792490505.8083584,
   "8c4905e6376f8099": 1792575421.246362,
   "8c6d1520dbb62ee5": 1792600307.7744868,
@@ -19538,7 +19540,7 @@
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 11,
    "Pitchfork": 1,
-   "Polygon": 34,
+   "Polygon": 35,
    "VGC": 3,
    "Variety": 1
   },
@@ -19546,7 +19548,7 @@
    "/Film": 29,
    "AIN.ua": 4,
    "Blabbermouth": 59,
-   "Bloomberg": 43,
+   "Bloomberg": 44,
    "DOU": 2,
    "DOU Gamedev": 4,
    "Deadline": 64,
@@ -19585,7 +19587,7 @@
   },
   "translators": {
    "DeepL": 21,
-   "gemini-flash-latest": 86,
+   "gemini-flash-latest": 87,
    "gemini-flash-lite-latest": 996
   },
   "week": "2026-W43"
@@ -30341,18 +30343,6 @@
  },
  "titles": [
   [
-   1792549879.5038533,
-   "Carrie Includes A Clever Easter Egg For Mike Flanagan's Exorcist Movie"
-  ],
-  [
-   1792549902.814119,
-   "Ken Griffin Says AI 'Almost Certainly' in a Bubble Right Now"
-  ],
-  [
-   1792549906.1698809,
-   "Citi's Chang on AI Trade, Private Credit"
-  ],
-  [
    1792551683.2392113,
    "VisionQuest Borrows One Of The Best Parts Of The Sci-Fi Series Battlestar Galactica"
   ],
@@ -32331,21 +32321,13 @@
   [
    1792720894.3094995,
    "Wo Long 2: Wings of Ember Gets Wuxia… and Let Me Fight a Horrific Spider Thing | IGN Preview"
+  ],
+  [
+   1792722706.5638134,
+   "AI Tech Fears Push Global Credit Spreads to 17-Month High"
   ]
  ],
  "titles_uk": [
-  [
-   1792549879.503854,
-   "У серіалі Carrie від Майка Фланегана знайшли пасхалку на The Exorcist"
-  ],
-  [
-   1792549902.8141203,
-   "Кен Гріффін заявив, що індустрія ШІ «майже напевно» перебуває в бульбашці"
-  ],
-  [
-   1792549906.1698813,
-   "Крістіна Чанг із Citi оцінила інвестиції в ШІ та приватний кредит"
-  ],
   [
    1792551683.2392125,
    "У серіалі VisionQuest використали знайомий елемент із Battlestar Galactica"
@@ -34325,6 +34307,10 @@
   [
    1792720894.3095005,
    "IGN опублікував прев'ю Wo Long 2: Wings of Ember"
+  ],
+  [
+   1792722706.5638146,
+   "Побоювання навколо ШІ підняли світові кредитні спреди до 17-місячного максимуму"
   ]
  ],
  "ukrainian": {
@@ -36548,7 +36534,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792719099.5004346,
+  "last_check": 1792722715.5157988,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
