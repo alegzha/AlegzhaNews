@@ -1,22 +1,10 @@
 {
  "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → HTTPSConnectionPool(host='www.decibelmagazine.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «Decibel» не працює",
+  "src:software|AIN.ua|https://ain.ua/feed/": {
+   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «AIN.ua» не працює",
    "sent": 0,
-   "since": 1792775766.7762837
-  },
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1792775768.2924604
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1792775746.6434343
+   "since": 1792776700.186136
   }
  },
  "daily_digest_date": "2026-10-22",
@@ -33,11 +21,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-23 17:17 UTC",
+  "at": "2026-10-23 17:33 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 9
+   "gemini-flash-lite-latest": 4
   },
   "used": [
    "Gemini"
@@ -16460,7 +16448,6 @@
    "Loudwire",
    {
     "also": [],
-    "caption": "🤘 <b>Вокаліст Slaughter to Prevail поділився одкровенням про маскулінність</b>\n\nФронтмен Slaughter to Prevail Алекс Террібл розповів, що в юності намагався наслідувати героїв бойовиків, фокусуючись лише на м&#x27;язах та фізичній силі. Згодом музикант усвідомив, що справжня маскулінність полягає не у фізичній формі, а вмінні долати власні страхи та розвивати внутрішній дух.\n\n🔗 <a href=\"https://loudwire.com/slaughter-to-prevail-alex-terrible-realization-masculinity/\">Loudwire</a>\n\n#музика",
     "kind": "photo",
     "link": "https://loudwire.com/slaughter-to-prevail-alex-terrible-realization-masculinity/",
     "orig": "Slaughter to Prevail Singer Makes Realization About Masculinity"
@@ -16487,7 +16474,6 @@
       "https://www.gamespot.com/articles/arkane-lyon-could-be-shut-down-within-weeks-as-deadline-to-find-a-buyer-looms/"
      ]
     ],
-    "caption": "🎮 <b>Arkane Lyon може закритися, якщо до середини листопада не знайде покупця</b>\n\nЗгідно з новим звітом французького видання Le Monde, студія Arkane Lyon має час до 13 листопада, щоб знайти покупця або зіткнутися з ризиком закриття. Переговори про план захисту працівників проходять складно, і під загрозою звільнення опинилися 217 співробітників. Microsoft заявляє, що продовжує шукати партнера для підтримки проєкту.\n\n🔗 <a href=\"https://insider-gaming.com/arkane-lyon-mid-november-to-find-a-buyer-or-it-risks-closure/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/arkane-lyon-mid-november-to-find-a-buyer-or-it-risks-closure/",
     "orig": "Arkane Lyon Has Until Mid-November To Find A Buyer Or It Risks Closure – Report"
@@ -16501,7 +16487,6 @@
    "Kerrang!",
    {
     "also": [],
-    "caption": "🤘 <b>LØLØ випустила святковий подвійний сингл</b>\n\n🔗 <a href=\"https://www.kerrang.com/listen-to-lolos-festive-double-single-mall-santa-and-silent-night\">Kerrang!</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.kerrang.com/listen-to-lolos-festive-double-single-mall-santa-and-silent-night",
     "orig": "Listen to LØLØ’s festive double single, mall santa and silent night"
@@ -16515,7 +16500,6 @@
    "Loudwire",
    {
     "also": [],
-    "caption": "🤘 <b>Біллі Корган заступився за 30-річну дружбу з Мериліном Менсоном</b>\n\nЛідер Smashing Pumpkins Біллі Корган у подкасті Popcast публічно підтримав Мериліна Менсона на тлі звинувачень на його адресу. Музикант заявив, що знав особисті деталі справи та не вважає товариша винним, посилаючись на рішення окружного прокурора. Також Корган наголосив на важливості християнських цінностей, таких як прощення та підтримка друзів.\n\n🔗 <a href=\"https://loudwire.com/billy-corgan-friendship-marilyn-manson-allegations/\">Loudwire</a>\n\n#музика",
     "kind": "photo",
     "link": "https://loudwire.com/billy-corgan-friendship-marilyn-manson-allegations/",
     "orig": "Billy Corgan Defends 30-Year Friendship With Marilyn Manson"
@@ -16529,7 +16513,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Вийшла демоверсія екшену <a href=\"https://store.steampowered.com/app/5168040/\">Angelfall</a> від The3rd.One Group</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/1220330/\">Impressions</a>\n\nУ демоверсії Angelfall гравці керують Archdemon, знищують натовпи людей заради досвіду та відкривають нові здібності. Проєкт поєднує стратегічне пересування, атаки за кулдауном та індустріальний саундтрек у стилі DOOM.\n\n🔗 <a href=\"https://insider-gaming.com/angelfall-first-impressions/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/angelfall-first-impressions/",
     "orig": "Angelfall First Impressions—A Beautiful Battle Between Angels & Demons"
@@ -17333,6 +17316,76 @@
     "link": "https://lambgoat.com/news/55514/incendiary-to-join-angel-dut-for-a-pair-of-shows-in-uk-and-ireland/",
     "orig": "Incendiary to join Angel Du$t for a pair of shows in UK and Ireland"
    }
+  ],
+  [
+   1792776725.5631182,
+   2234,
+   "💾",
+   "Огляд Apple iPhone Duo: розкішний складаний екран і сирі застосунки",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "💾 <b>Огляд Apple iPhone Duo: розкішний складаний екран і сирі застосунки</b>\n\nПерший складаний гаджет від компанії вражає, проте екосистемі програм ще треба наздоганяти його рівень.\n\n🔗 <a href=\"https://www.bloomberg.com/news/features/2026-10-23/apple-iphone-duo-review-stunning-foldable-screen-uneven-apps\">Bloomberg</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/features/2026-10-23/apple-iphone-duo-review-stunning-foldable-screen-uneven-apps",
+    "orig": "Apple iPhone Duo Review: Stunning Foldable Screen, Uneven Apps"
+   }
+  ],
+  [
+   1792776753.7347984,
+   2235,
+   "💾",
+   "Довгоочікуваний складаний iPhone від Apple зіткнувся з дитячими хворобами",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "💾 <b>Довгоочікуваний складаний iPhone від Apple зіткнувся з дитячими хворобами</b>\n\nApple випустила свій перший складаний телефон. Попри недоліки першого покоління, новинка дарує чимало позитивних емоцій користувачам, готовим адаптуватися до формфактора.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-23/iphone-duo-review\">Bloomberg</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-23/iphone-duo-review",
+    "orig": "Apple’s Most Exciting Phone in Years Has Growing Pains"
+   }
+  ],
+  [
+   1792776755.7963674,
+   2236,
+   "🎮",
+   "Subnautica 2 готує найстрашнішу локацію в історії серії",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/1962700/\">Subnautica 2</a> готує найстрашнішу локацію в історії серії</b>\n\nSubnautica 2 готує масштабне оновлення Early Access 2.0 з новим регіоном, п’ятьма біомами та моторошними зустрічами з левіафанами. Розробники також додадуть нові істоти, сюжетний контент, механічний корпус для підводного апарата та давно очікувані зміни в пересуванні. Водночас дата повноцінного релізу гри досі невідома.\n\n🔗 <a href=\"https://itc.ua/ua/novini/subnautica-2-gotuye-najstrashnishu-lokatsiyu-v-istoriyi-seriyi/\">ITC.ua</a>\n\n#ігри",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/subnautica-2-gotuye-najstrashnishu-lokatsiyu-v-istoriyi-seriyi/",
+    "orig": "Subnautica 2 готує найстрашнішу локацію в історії серії"
+   }
+  ],
+  [
+   1792776779.8212986,
+   2237,
+   "🎮",
+   "Future? No Thanks! видалив ШІ-озвучку після критики та пропонує повернення коштів",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>Future? No Thanks! видалив ШІ-озвучку після критики та пропонує повернення коштів</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2855940/\">betrayed</a>\n\nРозробник Paolo Pedercini видалив згенеровану за допомогою ШІ озвучку роботів у грі Future? No Thanks! через негативну реакцію в соцмережах і медіа. Він також пропонує повернути гроші гравцям, які почуваються «зраженими», та випустив патч зі збільшенням виплат за квести.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/future-no-thanks-dev-removes-ai-generated-voices-from-game-and-offers-refunds-to-players-who-feel-betrayed\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/future-no-thanks-dev-removes-ai-generated-voices-from-game-and-offers-refunds-to-players-who-feel-betrayed",
+    "orig": "Future? No Thanks! dev removes AI-generated voices from game and offers refunds to players who feel \"betrayed\""
+   }
+  ],
+  [
+   1792776807.1248229,
+   2238,
+   "🎮",
+   "Для Factorio вийшов фінальний малюватаупдейт версії 2.1",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>Для Factorio вийшов фінальний малюватаупдейт версії 2.1</b>\n\nРозробники Wube Software випустили останнє масштабне оновлення 2.1 для Factorio та доповнення Space Age. Воно додає понад 30 покращень якості життя, зокрема змішані запуски ракет, міни-детектори ворогів та оновлену графіку. Надалі гра отримуватиме лише виправлення помилок і технічну підтримку.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/factorios-final-major-update-has-rolled-off-the-assembly-line-adding-the-things-we-wanted-to-do-for-20-but-didnt-have-time-for\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/factorios-final-major-update-has-rolled-off-the-assembly-line-adding-the-things-we-wanted-to-do-for-20-but-didnt-have-time-for",
+    "orig": "Factorio's final major update has rolled off the assembly line, adding \"the things we wanted to do for 2.0 but didn't have time for\""
+   }
   ]
  ],
  "posted_by_source": {
@@ -17422,12 +17475,9 @@
    1792775201.214061
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
-   1792668748.8697956,
-   1792675975.6999753,
-   1792679789.3732584,
-   1792686911.6699333,
    1792697486.3702695,
-   1792753319.5272703
+   1792753319.5272703,
+   1792776755.796884
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
    1792690327.246617,
@@ -17483,8 +17533,6 @@
    1792764344.5156374
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
-   1792686734.953554,
-   1792689504.8241124,
    1792703010.7808568,
    1792706507.1230564,
    1792749728.2515528,
@@ -17492,7 +17540,9 @@
    1792758696.667925,
    1792767857.0875435,
    1792769762.4985936,
-   1792773103.9970973
+   1792773103.9970973,
+   1792776779.821832,
+   1792776807.1253996
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1792621888.919291
@@ -17696,10 +17746,11 @@
    1792333893.7856805
   ],
   "software|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1792686886.7565143,
    1792717290.980174,
    1792755096.9159691,
-   1792762375.4571586
+   1792762375.4571586,
+   1792776725.5636535,
+   1792776753.7353716
   ],
   "software|DOU|https://dou.ua/feed/": [
    1792352542.7076654,
@@ -17837,6 +17888,7 @@
   "085750a69c862486": 1792757041.5012083,
   "087aa22901d42913": 1792431054.249864,
   "087c8ea0d0cca171": 1791908400.9264767,
+  "087de18cd7aaaca2": 1792776725.5636072,
   "08ae7d4e40182433": 1792771293.3016713,
   "08e286007302bf79": 1792099067.014035,
   "091790cc380a60a7": 1792515945.3504577,
@@ -17935,6 +17987,7 @@
   "1156a30d7a0438b6": 1792414936.600468,
   "115d28aee71c6ead": 1792431054.249864,
   "11771227dfd020ac": 1792177178.2104647,
+  "117739d81577afc1": 1792776703.5751061,
   "11a68d622c6bf5c9": 1792689485.356036,
   "11bd48799f32875e": 1792080927.3825507,
   "11c1dd1be1549349": 1792687138.9255009,
@@ -18423,6 +18476,7 @@
   "3ccf90fab2c7124e": 1792420256.7318852,
   "3cd0b61df5ba9330": 1792317842.889826,
   "3cee9bf04f3fec2d": 1792455963.0023758,
+  "3cf15057b01c7d0a": 1792776807.125356,
   "3cf161c75fd01e74": 1791969589.7300363,
   "3cf203740b27df1b": 1792639874.7398376,
   "3d1a107758a21cf6": 1791815125.484494,
@@ -18632,6 +18686,7 @@
   "4da7a07f91ad6558": 1792755084.5550358,
   "4ddbb2dade148e06": 1792769485.1442218,
   "4de5ae8cab3acc33": 1792197803.449663,
+  "4e1c294c9f14e0ab": 1792776755.796842,
   "4e1ed149f01e16af": 1791743004.6090071,
   "4e7d490c70599263": 1792443686.3858702,
   "4e8ec2707f5ad491": 1792021722.4872184,
@@ -19066,6 +19121,7 @@
   "73effcc5b530b2a6": 1791636717.6413386,
   "7400baf4358fdbc1": 1791994349.936882,
   "74062977e21d149c": 1792769762.49855,
+  "740da17c272d7d9b": 1792776703.5774932,
   "7446e53eaa7355f9": 1792576886.3401651,
   "744855fb6c3a6773": 1791837787.2488642,
   "745b3fd3a4dbfb63": 1792775162.8740697,
@@ -19330,6 +19386,7 @@
   "88220427eb2633db": 1791969594.0180178,
   "88407c7c6e1c4f01": 1792672297.1170726,
   "8842157d63a531ec": 1792321278.0873983,
+  "885d370efe5fcf0e": 1792776753.7353268,
   "88610d9c6210a64c": 1791975130.727523,
   "88656070094f7d1a": 1792492285.7156794,
   "8867e5848e9d6bd3": 1792352392.5356243,
@@ -20019,6 +20076,7 @@
   "c5c4f18a82de5a84": 1792249901.503531,
   "c5dbd1eabe8875e7": 1792774926.2172053,
   "c5f1ba7c2d824f97": 1792760475.6390023,
+  "c5f52e227c7c7aea": 1792776779.821789,
   "c617205fd99dd791": 1792681360.625656,
   "c622628fd6e736ca": 1791853953.2827067,
   "c62d2e0ec4ebc1fc": 1792454498.0777168,
@@ -21136,7 +21194,7 @@
   ],
   "artists_checked": 1792767900.9103298,
   "blocked_until": 1792766282.0186863,
-  "cursor": 170,
+  "cursor": 180,
   "digest_week": "2026-W43",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -21888,7 +21946,7 @@
    "/Film": 32,
    "AIN.ua": 5,
    "Blabbermouth": 70,
-   "Bloomberg": 51,
+   "Bloomberg": 53,
    "DOU": 2,
    "DOU Gamedev": 5,
    "Deadline": 69,
@@ -21901,7 +21959,7 @@
    "GitHub Trending": 20,
    "Hugging Face": 7,
    "IGN": 70,
-   "ITC.ua": 55,
+   "ITC.ua": 56,
    "IndieWire": 22,
    "Insider Gaming": 80,
    "Kerrang!": 30,
@@ -21917,7 +21975,7 @@
    "Polygon": 33,
    "Product Hunt": 23,
    "Revolver": 8,
-   "Rock Paper Shotgun": 36,
+   "Rock Paper Shotgun": 38,
    "SteamDB": 2,
    "Stereogum": 12,
    "The Decoder": 25,
@@ -21928,7 +21986,7 @@
   "translators": {
    "DeepL": 24,
    "gemini-flash-latest": 89,
-   "gemini-flash-lite-latest": 1156
+   "gemini-flash-lite-latest": 1160
   },
   "week": "2026-W43"
  },
@@ -22332,6 +22390,11 @@
    4655470,
    "16叠谋杀之谜",
    1792416683.7367072
+  ],
+  "q:2 0": [
+   0,
+   "",
+   1792776782.545363
   ],
   "q:2 1": [
    0,
@@ -22748,21 +22811,6 @@
    "",
    1792611107.7459106
   ],
-  "q:400 jobs": [
-   0,
-   "",
-   1792603291.7345405
-  ],
-  "q:400 jobs across": [
-   0,
-   "",
-   1792603290.8831847
-  ],
-  "q:400 jobs across the company": [
-   0,
-   "",
-   1792603289.7192762
-  ],
   "q:43": [
    0,
    "",
@@ -23033,6 +23081,11 @@
    "",
    1792692164.6120818
   ],
+  "q:ai generated": [
+   0,
+   "",
+   1792776759.8860893
+  ],
   "q:ai megajam": [
    0,
    "",
@@ -23097,21 +23150,6 @@
    0,
    "",
    1792668730.0254424
-  ],
-  "q:all songs": [
-   0,
-   "",
-   1792603234.2776966
-  ],
-  "q:all songs in stage": [
-   0,
-   "",
-   1792603233.7460024
-  ],
-  "q:all songs in stage tour": [
-   0,
-   "",
-   1792603233.2278054
   ],
   "q:also hit": [
    0,
@@ -23398,21 +23436,6 @@
    "art of rally",
    1792229915.3910358
   ],
-  "q:artist full": [
-   0,
-   "",
-   1792603239.3590152
-  ],
-  "q:artist full setlist": [
-   0,
-   "",
-   1792603238.6764398
-  ],
-  "q:arts": [
-   0,
-   "",
-   1792603247.6839705
-  ],
   "q:arts bioware": [
    0,
    "",
@@ -23427,21 +23450,6 @@
    0,
    "",
    1792607508.0917156
-  ],
-  "q:arts to cut": [
-   0,
-   "",
-   1792603247.068317
-  ],
-  "q:arts to cut 400": [
-   0,
-   "",
-   1792603246.5309038
-  ],
-  "q:arts to cut 400 jobs": [
-   0,
-   "",
-   1792603246.0126874
   ],
   "q:as final": [
    0,
@@ -23868,6 +23876,11 @@
    "",
    1792609324.7792373
   ],
+  "q:betrayed": [
+   2855940,
+   "Betrayed",
+   1792776758.0281951
+  ],
   "q:big walk": [
    1478500,
    "Big Walk",
@@ -23882,21 +23895,6 @@
    0,
    "",
    1792693934.4105823
-  ],
-  "q:bioware": [
-   0,
-   "",
-   1792603260.178605
-  ],
-  "q:bioware announces": [
-   0,
-   "",
-   1792603900.866774
-  ],
-  "q:bioware ea": [
-   0,
-   "",
-   1792603895.8326483
   ],
   "q:bioware executive": [
    0,
@@ -24773,31 +24771,6 @@
    "",
    1792762315.8801517
   ],
-  "q:cut": [
-   0,
-   "",
-   1792603249.5906162
-  ],
-  "q:cut 400": [
-   0,
-   "",
-   1792603248.905042
-  ],
-  "q:cut 400 jobs": [
-   0,
-   "",
-   1792603248.2706745
-  ],
-  "q:cut 400 jobs across": [
-   0,
-   "",
-   1792603288.3920121
-  ],
-  "q:cut 400 jobs across the company": [
-   0,
-   "",
-   1792603286.9563577
-  ],
   "q:cutout village": [
    3907910,
    "Cutout Village",
@@ -25468,21 +25441,6 @@
    "Dota 2",
    1792129284.3772893
   ],
-  "q:down bioware": [
-   0,
-   "",
-   1792603285.517012
-  ],
-  "q:down dragon": [
-   0,
-   "",
-   1792603273.549641
-  ],
-  "q:down dragon age": [
-   0,
-   "",
-   1792603272.4303534
-  ],
   "q:down the future": [
    0,
    "",
@@ -25507,16 +25465,6 @@
    0,
    "",
    1792773122.0668397
-  ],
-  "q:dragon": [
-   0,
-   "",
-   1792603275.7717357
-  ],
-  "q:dragon age": [
-   0,
-   "",
-   1792603274.6188376
   ],
   "q:dragon ball xenoverse 3": [
    1857810,
@@ -25738,41 +25686,6 @@
    "",
    1792612916.3140543
   ],
-  "q:ea shuts": [
-   0,
-   "",
-   1792603266.6129978
-  ],
-  "q:ea shuts down": [
-   0,
-   "",
-   1792603265.3249078
-  ],
-  "q:ea shuts down dragon": [
-   0,
-   "",
-   1792603264.656372
-  ],
-  "q:ea shuts down dragon age": [
-   0,
-   "",
-   1792603264.0608685
-  ],
-  "q:ea shutting": [
-   0,
-   "",
-   1792603280.9360645
-  ],
-  "q:ea shutting down": [
-   0,
-   "",
-   1792603279.6794279
-  ],
-  "q:ea shutting down bioware": [
-   0,
-   "",
-   1792603278.4146845
-  ],
   "q:ea sports confirms": [
    0,
    "",
@@ -25848,16 +25761,6 @@
    "",
    1792621892.400778
   ],
-  "q:electronic": [
-   0,
-   "",
-   1792603245.395113
-  ],
-  "q:electronic arts": [
-   0,
-   "",
-   1792603244.8120341
-  ],
   "q:electronic arts bioware": [
    0,
    "",
@@ -25872,21 +25775,6 @@
    0,
    "",
    1792607506.3260815
-  ],
-  "q:electronic arts to cut": [
-   0,
-   "",
-   1792603244.2732916
-  ],
-  "q:electronic arts to cut 400": [
-   0,
-   "",
-   1792603243.651887
-  ],
-  "q:electronic arts to cut 400 jobs": [
-   0,
-   "",
-   1792603243.055793
   ],
   "q:embark": [
    1055090,
@@ -25957,16 +25845,6 @@
    0,
    "",
    1792775803.5435255
-  ],
-  "q:every": [
-   0,
-   "",
-   1792603237.5291538
-  ],
-  "q:every song": [
-   0,
-   "",
-   1792603236.9499645
   ],
   "q:every video": [
    0,
@@ -28968,11 +28846,6 @@
    "",
    1792612920.5232005
   ],
-  "q:next": [
-   0,
-   "",
-   1792603902.598817
-  ],
   "q:next chapter": [
    0,
    "",
@@ -28992,16 +28865,6 @@
    0,
    "",
    1792764349.5579765
-  ],
-  "q:next mass": [
-   0,
-   "",
-   1792603901.9528759
-  ],
-  "q:next mass effect": [
-   0,
-   "",
-   1792603901.43421
   ],
   "q:next mass effect canceled": [
    0,
@@ -29092,6 +28955,11 @@
    0,
    "",
    1792692164.0104187
+  ],
+  "q:no thanks": [
+   0,
+   "",
+   1792776758.6084573
   ],
   "q:november": [
    0,
@@ -30233,16 +30101,6 @@
    "",
    1792665179.025288
   ],
-  "q:rip bioware": [
-   0,
-   "",
-   1792603895.3025482
-  ],
-  "q:rip bioware ea": [
-   0,
-   "",
-   1792603894.7942495
-  ],
   "q:rog": [
    0,
    "",
@@ -30618,41 +30476,6 @@
    "",
    1792677745.9439561
   ],
-  "q:shuts": [
-   0,
-   "",
-   1792603271.2477384
-  ],
-  "q:shuts down": [
-   0,
-   "",
-   1792603270.1621459
-  ],
-  "q:shuts down dragon": [
-   0,
-   "",
-   1792603268.9057024
-  ],
-  "q:shuts down dragon age": [
-   0,
-   "",
-   1792603267.6717067
-  ],
-  "q:shutting": [
-   0,
-   "",
-   1792603284.6089637
-  ],
-  "q:shutting down": [
-   0,
-   "",
-   1792603283.5635884
-  ],
-  "q:shutting down bioware": [
-   0,
-   "",
-   1792603282.1740274
-  ],
   "q:sims": [
    0,
    "",
@@ -30762,26 +30585,6 @@
    0,
    "",
    1792690289.361037
-  ],
-  "q:song": [
-   0,
-   "",
-   1792603238.124859
-  ],
-  "q:songs": [
-   0,
-   "",
-   1792603235.8959029
-  ],
-  "q:songs in stage": [
-   0,
-   "",
-   1792603235.3015094
-  ],
-  "q:songs in stage tour": [
-   0,
-   "",
-   1792603234.792757
   ],
   "q:sony published": [
    0,
@@ -31173,6 +30976,11 @@
    "Tenebris Somnia",
    1792326687.5396647
   ],
+  "q:thanks": [
+   0,
+   "",
+   1792776759.3146632
+  ],
   "q:that both games can exist side by side": [
    0,
    "",
@@ -31192,6 +31000,11 @@
    0,
    "",
    1792645223.1918435
+  ],
+  "q:the things we wanted to do for 2 0 but didn": [
+   0,
+   "",
+   1792776781.9388278
   ],
   "q:their": [
    0,
@@ -32561,42 +32374,6 @@
   ]
  },
  "titles": [
-  [
-   1792603226.8352685,
-   "GEEZER BUTLER, GEOFF TATE, GEORGE LYNCH And TOMMY ALDRIDGE Confirmed For Rock 'N' Roll Fantasy Camp's 'Metalmania IV'"
-  ],
-  [
-   1792603231.1982315,
-   "Japanese Cult Blockbuster ‘Rex: A Dinosaur’s Story’ to Get First U.S. Theatrical Release in December"
-  ],
-  [
-   1792603251.2103422,
-   "Electronic Arts to Cut 400 Jobs, Shut Down BioWare"
-  ],
-  [
-   1792603254.3320208,
-   "Guilt Trip Add Two Dates To Their Fall North American Tour With Gates To Hell & Mauled"
-  ],
-  [
-   1792603257.865862,
-   "Deepmind founder Hassabis shortens AGI timeline from five to two to three years"
-  ],
-  [
-   1792603261.7170923,
-   "EA is closing BioWare and cancelling the next Mass Effect"
-  ],
-  [
-   1792603295.2724097,
-   "2027 ‘Welcome To Rockville’ Lineup Set To Be Revealed Next Week, Poppy Officially Confirmed"
-  ],
-  [
-   1792603892.7066011,
-   "OBITUARY: Official Remastered Reissues Of 'Xecutioner's Return' And 'Darkest Day' Due In December"
-  ],
-  [
-   1792603898.819909,
-   "'Life Is Peachy' at 30: The Rushed, Brawling Record That Proved Korn Weren’t a Fluke"
-  ],
   [
    1792605690.5921922,
    "Modern Warfare 4's DMZ Players Are Losing Loot to Server Crashes Despite Official Fix from Infinity Ward"
@@ -34604,45 +34381,29 @@
   [
    1792775819.1385114,
    "Incendiary to join Angel Du$t for a pair of shows in UK and Ireland"
+  ],
+  [
+   1792776725.5636086,
+   "Apple iPhone Duo Review: Stunning Foldable Screen, Uneven Apps"
+  ],
+  [
+   1792776753.7353284,
+   "Apple’s Most Exciting Phone in Years Has Growing Pains"
+  ],
+  [
+   1792776755.7968433,
+   "Subnautica 2 готує найстрашнішу локацію в історії серії"
+  ],
+  [
+   1792776779.8217902,
+   "Future? No Thanks! dev removes AI-generated voices from game and offers refunds to players who feel \"betrayed\""
+  ],
+  [
+   1792776807.1253574,
+   "Factorio's final major update has rolled off the assembly line, adding \"the things we wanted to do for 2.0 but didn't have time for\""
   ]
  ],
  "titles_uk": [
-  [
-   1792603226.8352697,
-   "Гізер Батлер, Джефф Тейт, Джордж Лінч та Томмі Олдрідж візьмуть участь у Metalmania IV"
-  ],
-  [
-   1792603231.1982324,
-   "Фільм Rex: A Dinosaur’s Story вперше вийде в кінопрокат США"
-  ],
-  [
-   1792603251.210343,
-   "Electronic Arts скорочує 400 працівників та закриває BioWare"
-  ],
-  [
-   1792603254.3320215,
-   "Guilt Trip додали нові дати до північноамериканського туру"
-  ],
-  [
-   1792603257.8658626,
-   "Засновник Google Deepmind скоротив прогноз появи AGI до двох-трьох років"
-  ],
-  [
-   1792603261.7170935,
-   "EA закриває студію BioWare та скасовує новий Mass Effect"
-  ],
-  [
-   1792603295.2724104,
-   "Склад учасників фестивалю Welcome To Rockville оголосять наступного тижня"
-  ],
-  [
-   1792603892.706602,
-   "OBITUARY випустять ремастери альбомів 'Xecutioner's Return' та 'Darkest Day'"
-  ],
-  [
-   1792603898.8199098,
-   "Альбому 'Life Is Peachy' від Korn виповнюється 30 років"
-  ],
   [
    1792605690.5921934,
    "Гравці Modern Warfare 4 втрачають лут у DMZ через збої сервере"
@@ -36650,6 +36411,26 @@
   [
    1792775819.1385121,
    "Incendiary та Angel Du$t анонсували спільні концерти у Великій Британії та Ірландії"
+  ],
+  [
+   1792776725.5636096,
+   "Огляд Apple iPhone Duo: розкішний складаний екран і сирі застосунки"
+  ],
+  [
+   1792776753.7353296,
+   "Довгоочікуваний складаний iPhone від Apple зіткнувся з дитячими хворобами"
+  ],
+  [
+   1792776755.7968442,
+   "Subnautica 2 готує найстрашнішу локацію в історії серії"
+  ],
+  [
+   1792776779.8217912,
+   "Future? No Thanks! видалив ШІ-озвучку після критики та пропонує повернення коштів"
+  ],
+  [
+   1792776807.1253583,
+   "Для Factorio вийшов фінальний малюватаупдейт версії 2.1"
   ]
  ],
  "ukrainian": {
