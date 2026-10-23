@@ -1,30 +1,5 @@
 {
- "alerts": {
-  "src:games|ITC.ua|https://itc.ua/ua/feed/": {
-   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ITC.ua» не працює",
-   "sent": 0,
-   "since": 1792746120.6510305
-  },
-  "src:movies|ITC.ua|https://itc.ua/ua/feed/": {
-   "detail": "https://itc.ua/ua/feed/ → 409 Client Error: Conflict for url: https://itc.ua/ua/feed/",
-   "label": "Джерело «ITC.ua» не працює",
-   "sent": 0,
-   "since": 1792746145.74984
-  },
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1792746129.258095
-  },
-  "src:software|ITC.ua|https://itc.ua/ua/feed/": {
-   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ITC.ua» не працює",
-   "sent": 0,
-   "since": 1792746165.7793403
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-22",
  "freebies": {
   "last_check": 1792740900.2308512,
@@ -39,11 +14,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-23 09:06 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-10-23 09:31 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
@@ -14905,7 +14880,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Серіал Line of Fire отримав повноцінний перший сезон на 18 епізодів на NBC</b>\n\nНовий екшен-трилер Line of Fire отримав дозамовлення ще на п&#x27;ять епізодів, збільшивши свій дебютний сезон до 18 серій із трансляцією до 2027 року. Шоу розповідає про родину федеральних агентів, які розплутують смертельну змову. Головні ролі виконують Peter Krause, Hope Davis та інші актори.\n\n🔗 <a href=\"https://variety.com/2026/tv/news/line-of-fire-full-season-18-episodes-nbc-1236921796/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/tv/news/line-of-fire-full-season-18-episodes-nbc-1236921796/",
     "orig": "‘Line of Fire’ Gets Full 18-Episode Season Order at NBC"
@@ -14919,7 +14893,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Альтернативний метал-гурт dead7 випустив новий трек «Feels Like»</b>\n\n🔗 <a href=\"https://www.theprp.com/2026/10/22/news/dead7s-new-track-feels-like-arrives-online/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/22/news/dead7s-new-track-feels-like-arrives-online/",
     "orig": "Dead7’s New Track “Feels Like” Arrives Online"
@@ -14974,7 +14947,12 @@
    "Половину команди квестів Cyberpunk 2 складають колишні моддери",
    "IGN",
    {
-    "also": [],
+    "also": [
+     [
+      "VGC",
+      "https://www.videogameschronicle.com/news/cyberpunk-2-associate-director-says-half-the-quest-team-were-hired-for-their-modding-work-on-other-cdpr-games/"
+     ]
+    ],
     "caption": "🎮 <b>Половину команди квестів Cyberpunk 2 складають колишні моддери</b>\n\nАсоційований геймдиректор Cyberpunk 2 Павел Саско повідомив, що приблизно половина розробників квестів майбутнього сиквелу раніше створювали модифікації. За його словами, студія CD Projekt Red активно залучає таланти з ігрової спільноти та підтримує творчість моддерів.\n\n🔗 <a href=\"https://www.ign.com/articles/cyberpunk-2-associate-director-says-half-of-games-quest-team-are-former-modders\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/cyberpunk-2-associate-director-says-half-of-games-quest-team-are-former-modders",
@@ -15352,7 +15330,12 @@
    "Polyphia випустили новий альбом BE NOT AFRAID та кліп на трек CAN YOU FEEL IT",
    "ThePRP",
    {
-    "also": [],
+    "also": [
+     [
+      "Distorted Sound",
+      "https://distortedsoundmag.com/album-review-be-not-afraid-polyphia/"
+     ]
+    ],
     "caption": "🤘 <b>Polyphia випустили новий альбом BE NOT AFRAID та кліп на трек CAN YOU FEEL IT</b>\n\nProgressive рок-гурт Polyphia випустив новий студійний альбом BE NOT AFRAID, що вже викликав суперечки своєю електронною EDM-стилістикою. Разом із цим гурт презентував офіційний кліп на пісню CAN YOU FEEL IT, знятий режисером EVERS.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/22/news/polyphias-can-you-feel-it-music-video-debuts-online-alongside-their-new-album-be-not-afraid/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/22/news/polyphias-can-you-feel-it-music-video-debuts-online-alongside-their-new-album-be-not-afraid/",
@@ -15511,7 +15494,12 @@
    "Linux в небезпеці: невиправлені вразливості ядра злили у відкритий доступ",
    "ITC.ua",
    {
-    "also": [],
+    "also": [
+     [
+      "PC Gamer",
+      "https://www.pcgamer.com/hardware/a-public-outing-of-severe-and-unfixed-linux-kernel-vulnerabilities-should-have-you-thinking-of-updating-your-steamos-or-other-distros-to-beta-branches/"
+     ]
+    ],
     "caption": "💾 <b>Linux в небезпеці: невиправлені вразливості ядра злили у відкритий доступ</b>\n\nУ загальному списку розсилки з’явилась інформація про невиправлені вразливості ядра Linux.\n\n🔗 <a href=\"https://itc.ua/ua/novini/linux-v-nebezpetsi-nevypravleni-vrazlyvosti-yadra-zlyly-u-vidkrytyj-dostup/\">ITC.ua</a>\n\n#софт",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/linux-v-nebezpetsi-nevypravleni-vrazlyvosti-yadra-zlyly-u-vidkrytyj-dostup/",
@@ -15755,6 +15743,34 @@
     "link": "https://www.videogameschronicle.com/news/half-life-3-speculation-grows-as-valve-developer-mentions-hlx-during-stage-panel/",
     "orig": "Half-Life 3 speculation grows as Valve developer mentions ‘HLX’ during stage panel"
    }
+  ],
+  [
+   1792747884.2594388,
+   2117,
+   "💾",
+   "Instant Search",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>Instant Search</b>\n\nНайшвидший і найточніший локальний пошук файлів на основі ШІ\n\n🔗 <a href=\"https://www.producthunt.com/products/instant-search-2\">Product Hunt</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/instant-search-2",
+    "orig": "Instant Search"
+   }
+  ],
+  [
+   1792747886.8658242,
+   2118,
+   "🤖",
+   "ШІ Microsoft перевершив лікарів у діагностиці складних хвороб – результати дослідження",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🤖 <b>ШІ Microsoft перевершив лікарів у діагностиці складних хвороб – результати дослідження</b>\n\nШІ-система Microsoft MAI-DxO правильно діагностувала 83% складних медичних випадків, тоді як лікарі загального профілю – лише 36%. Водночас дослідження не доводить, що технологія готова до використання в реальній клінічній практиці.\n\n🔗 <a href=\"https://mezha.ua/news/microsoft-diagnostic-ai-316464/\">Mezha</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/microsoft-diagnostic-ai-316464/",
+    "orig": "ШІ Microsoft перевершив лікарів у діагностиці складних хвороб – результати дослідження"
+   }
   ]
  ],
  "posted_by_source": {
@@ -15784,10 +15800,10 @@
    1792740881.519833
   ],
   "ai|Mezha|https://mezha.ua/feed/": [
-   1792659693.2151797,
    1792679660.9390266,
    1792679786.5641105,
-   1792713684.7470133
+   1792713684.7470133,
+   1792747886.8661318
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1792612914.2709482,
@@ -16150,11 +16166,10 @@
    1792740883.61108
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
-   1792659690.9730473,
-   1792661480.652677,
    1792663369.3250654,
    1792740872.6595383,
-   1792744291.0590582
+   1792744291.0590582,
+   1792747884.2597654
   ]
  },
  "seen": {
@@ -17243,6 +17258,7 @@
   "6493db8ebec19045": 1791931838.1151102,
   "64a238a5ab6bbde6": 1792663489.1241553,
   "64c69c7f286e038e": 1791975111.976966,
+  "651e430e2734dd10": 1792747879.9317632,
   "65204864cf959ab4": 1792411287.4031787,
   "652116a92e563212": 1792609368.05407,
   "652445e0adc0bdb8": 1792602055.3345523,
@@ -17288,6 +17304,7 @@
   "69046dac910d5167": 1792589514.5813036,
   "693b3842ab6b11b8": 1791975089.1230226,
   "694b66106911d412": 1792699489.4483354,
+  "694fdc84c7f2b206": 1792747853.395347,
   "695a4a80a2da6149": 1792591408.0965388,
   "696bceef45141772": 1792643453.9104059,
   "6973c0afa8a9d10d": 1792449098.4181793,
@@ -17495,6 +17512,7 @@
   "7a77af3e4fc0d9fe": 1792440092.6103926,
   "7a81f4b43e999bdd": 1792111147.2615058,
   "7a84487794c454d8": 1792609364.659832,
+  "7ae9530528bcd6e5": 1792747879.4138863,
   "7af23a4a7268cf9c": 1792128979.6054146,
   "7af278d365847cee": 1792443859.4105575,
   "7af558be2ca670d8": 1792442056.5919788,
@@ -17882,6 +17900,7 @@
   "9d364f96e96524dd": 1792666857.0082133,
   "9d391cb2b30a169b": 1791786723.5787597,
   "9d629c21aa412ed0": 1792607523.206848,
+  "9dab6930110a48e2": 1792747878.9505835,
   "9dd64c626f366491": 1792056020.2316132,
   "9dde2040d1632695": 1792273176.039162,
   "9de6b1fcca661d11": 1792580486.1891513,
@@ -18005,6 +18024,7 @@
   "a9cf44cee6190480": 1792576886.3405383,
   "a9fa595b758184ec": 1792479930.7962537,
   "a9fc257516e379d3": 1792587712.0099072,
+  "aa010ec10c79fa28": 1792747853.395347,
   "aa4ee1a25d5a803e": 1792423970.2090604,
   "aa8b3353f1ab3776": 1792411276.7971036,
   "aaf6948cc1e4b339": 1792685198.372939,
@@ -18055,6 +18075,7 @@
   "afa0b1545defcdb0": 1792591361.3473911,
   "afb4b05f60f14d44": 1792409500.9461327,
   "afbee01961fffc23": 1792522970.0585065,
+  "afd3f72c47bb54f0": 1792747879.9308264,
   "afe437ba7a3883d1": 1792703010.780826,
   "afe8e232682985ba": 1792333881.6495104,
   "afee0881e3a6ce86": 1792677869.9011126,
@@ -18092,6 +18113,7 @@
   "b30574043dd11504": 1791993929.385296,
   "b3817383edb3176e": 1791994339.4392264,
   "b38e69e533f7c2dc": 1792531900.2974887,
+  "b3917be0925f2390": 1792747886.8660903,
   "b3bc70773a367838": 1792229891.9577565,
   "b3c25be97cfcc2d4": 1792505122.0293176,
   "b3d2ebd1dfafb043": 1792492273.4582648,
@@ -18107,6 +18129,7 @@
   "b48c73b07cc00687": 1792351880.9003792,
   "b4bb26eb3f56e35a": 1792214884.5042725,
   "b4c3c4a1c5149f19": 1792089235.693024,
+  "b4ca1bc42d8dbeae": 1792747884.2597232,
   "b4d70f8a7081489f": 1792595277.6345336,
   "b4fcea4d70451120": 1791807593.5725496,
   "b5368d16e5d8a522": 1791750736.9549613,
@@ -18545,6 +18568,7 @@
   "ddb96266c8849bbb": 1792523075.9125066,
   "ddc00f1f29b65ec8": 1792679784.2760673,
   "de2b75408160f6a6": 1792666915.2972453,
+  "de3408bee660c317": 1792747879.9295769,
   "de3ce46453ddea72": 1791843872.2637854,
   "de592cec7aeebc1a": 1792434654.3913481,
   "de6aa72a6f2c751b": 1791926969.1486933,
@@ -20102,7 +20126,7 @@
    "Deadline": 4,
    "GamesIndustry.biz": 2,
    "IGN": 1,
-   "Insider Gaming": 25,
+   "Insider Gaming": 27,
    "Lambgoat": 1,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
@@ -20138,12 +20162,12 @@
    "Metal Hammer (Louder)": 26,
    "Metal Injection": 12,
    "MetalSucks": 1,
-   "Mezha": 51,
+   "Mezha": 52,
    "PC Gamer": 63,
    "Pitchfork": 8,
    "PlayUA": 21,
    "Polygon": 30,
-   "Product Hunt": 20,
+   "Product Hunt": 21,
    "Revolver": 6,
    "Rock Paper Shotgun": 30,
    "SteamDB": 2,
@@ -20156,7 +20180,7 @@
   "translators": {
    "DeepL": 23,
    "gemini-flash-latest": 89,
-   "gemini-flash-lite-latest": 1032
+   "gemini-flash-lite-latest": 1033
   },
   "week": "2026-W43"
  },
@@ -30869,26 +30893,27 @@
    "dia",
    "f-16",
    "iphone duo",
+   "microsoft",
    "rheinmetall",
-   "skydance",
    "the browser company",
    "авто",
    "артилерія",
-   "банки",
    "боєприпаси",
    "бпла",
    "браузери",
-   "бізнес",
    "велика британія",
    "винищувачі",
    "гармата",
    "герань-5",
    "данія",
+   "експорт зброї",
    "електромобілі",
    "жахи",
    "залізо",
+   "зброя",
    "керрі",
    "кіно",
+   "медицина",
    "навігація",
    "новини",
    "оборонка",
@@ -30899,11 +30924,12 @@
    "смартфони",
    "софт",
    "стівен кінг",
+   "технології",
+   "українська зброя",
    "флеш",
    "шахед",
    "штучний інтелект",
-   "єс",
-   "ілон маск"
+   "єс"
   ]
  },
  "titles": [
@@ -32882,6 +32908,14 @@
   [
    1792746380.3237872,
    "Half-Life 3 speculation grows as Valve developer mentions ‘HLX’ during stage panel"
+  ],
+  [
+   1792747884.2597246,
+   "Instant Search"
+  ],
+  [
+   1792747886.8660922,
+   "ШІ Microsoft перевершив лікарів у діагностиці складних хвороб – результати дослідження"
   ]
  ],
  "titles_uk": [
@@ -34860,6 +34894,14 @@
   [
    1792746380.3237884,
    "Чутки про Half-Life 3 знову ростуть через згадку проєкту «HLX» розробником Valve"
+  ],
+  [
+   1792747884.2597258,
+   "Instant Search"
+  ],
+  [
+   1792747886.8660934,
+   "ШІ Microsoft перевершив лікарів у діагностиці складних хвороб – результати дослідження"
   ]
  ],
  "ukrainian": {
@@ -35023,6 +35065,7 @@
    "2300320": "is",
    "230410": "is",
    "2315050": "is",
+   "2325290": "",
    "2333000": "",
    "234140": "",
    "2344520": "",
@@ -35212,6 +35255,7 @@
    "4656000": "is",
    "469820": "",
    "4810650": "is",
+   "4817620": "",
    "482400": "",
    "4824610": "",
    "4890760": "",
@@ -35229,6 +35273,7 @@
    "5245810": "",
    "526870": "is",
    "5306540": "is",
+   "5335510": "",
    "534380": "",
    "552990": "i",
    "553850": "",
@@ -35279,7 +35324,7 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1792726316.1740854,
+  "last_check": 1792747897.9162557,
   "with_uk": 99
  },
  "weekly_releases_week": "2026-W43",
