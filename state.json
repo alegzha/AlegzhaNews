@@ -1,5 +1,30 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:games|ITC.ua|https://itc.ua/ua/feed/": {
+   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ITC.ua» не працює",
+   "sent": 0,
+   "since": 1792746120.6510305
+  },
+  "src:movies|ITC.ua|https://itc.ua/ua/feed/": {
+   "detail": "https://itc.ua/ua/feed/ → 409 Client Error: Conflict for url: https://itc.ua/ua/feed/",
+   "label": "Джерело «ITC.ua» не працює",
+   "sent": 0,
+   "since": 1792746145.74984
+  },
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1792746129.258095
+  },
+  "src:software|ITC.ua|https://itc.ua/ua/feed/": {
+   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ITC.ua» не працює",
+   "sent": 0,
+   "since": 1792746165.7793403
+  }
+ },
  "daily_digest_date": "2026-10-22",
  "freebies": {
   "last_check": 1792740900.2308512,
@@ -14,11 +39,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-23 08:32 UTC",
-  "gemini_error": "",
+  "at": "2026-10-23 09:06 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
@@ -14828,7 +14853,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Історія створення проклятих Million Dollar Demos гурту Foo Fighters</b>\n\nВосени 2001 року після передозування барабанщика Taylor Hawkins гурт Foo Fighters намагався записати новий альбом у Вірджинії та Лос-Анджелесе. Проте сесії виявилися безплідними, оскільки музиканти зіткнулися з творчою кризою та не змогли відтворити попереднє звучання.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/the-story-behind-the-foo-fighters-cursed-million-dollar-demos\">Metal Hammer (Louder)</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/the-story-behind-the-foo-fighters-cursed-million-dollar-demos",
     "orig": "The story behind the Foo Fighters' cursed Million Dollar Demos"
@@ -14842,7 +14866,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Неочікуване повернення гурту Transatlantic із альбомом The Whirlwind</b>\n\nПісля відходу Ніла Морза у 2002 році гурт Transatlantic припинив діяльність, але у 2007 році музикант написав демо The Whirlwind і запропонував колегам возз&#x27;єднатися. Ройн Столт, Майк Портной та Піт Тревавас одразу погодилися на пропозицію. У квітні вони зібралися в студії та всього за чотири дні написали новий матеріал для альбому.\n\n🔗 <a href=\"https://www.loudersound.com/music/albums/transatlantic-return-with-the-whirlwind-2009\">Metal Hammer (Louder)</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/music/albums/transatlantic-return-with-the-whirlwind-2009",
     "orig": "“We’d been waiting for it to happen. We said yes immediately”: Transatlantic’s unexpected return with The Whirlwind"
@@ -14856,7 +14879,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Б&#x27;янна Голодріга веде переговори з Politico та CBS News</b>\n\nЖурналістка Б&#x27;янна Голодріга оголосила про відхід із CNN після дев&#x27;яти років роботи. Зараз вона веде переговори про можливу співпрацю одночасно з двома новинними організаціями: Politico та CBS News.\n\n🔗 <a href=\"https://variety.com/2026/tv/news/bianna-golodryga-politico-cbs-news-cnn-talks-1236921781/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/tv/news/bianna-golodryga-politico-cbs-news-cnn-talks-1236921781/",
     "orig": "Bianna Golodryga in Talks for New Roles at Politico, CBS News"
@@ -14870,7 +14892,6 @@
    "Stereogum",
    {
     "also": [],
-    "caption": "🤘 <b>Charli XCX зніметься у новому фільмі Мартіна Скорсезе What Happens At Night</b>\n\nПопзірка Charli XCX приєдналася до акторського складу готичного психологічного горору What Happens At Night режисера Мартіна Скорсезе. Головні ролі у стрічці про подружжя, яке вирушає до Європи для вдочеримої дитини, виконують Leonardo DiCaprio та Jennifer Lawrence. У фільмі також знімуться Mads Mikkelsen, Patricia Clarkson і Jared Harris.\n\n🔗 <a href=\"https://stereogum.com/2515371/charli-xcx-cast-in-martin-scorseses-what-happens-at-night-alongside-leonardo-dicaprio-jennifer-lawrence/news/\">Stereogum</a>\n\n#музика",
     "kind": "photo",
     "link": "https://stereogum.com/2515371/charli-xcx-cast-in-martin-scorseses-what-happens-at-night-alongside-leonardo-dicaprio-jennifer-lawrence/news/",
     "orig": "Charli XCX Cast In Martin Scorsese’s What Happens At Night Alongside Leonardo DiCaprio & Jennifer Lawrence"
@@ -15678,6 +15699,62 @@
     "link": "https://www.polygon.com/avatar-seven-havens-finally-revealed-more-info-about-the-other-havens/",
     "orig": "'Avatar: Seven Havens' Episode 9 Ending Explained: Everything We Learned About the Havens"
    }
+  ],
+  [
+   1792746275.4782887,
+   2113,
+   "🎮",
+   "Ребекка Лаутнер з Landfall про 23 мільйони проданих Peak і майбутні плани",
+   "GamesIndustry.biz",
+   {
+    "also": [],
+    "caption": "🎮 <b>Ребекка Лаутнер з Landfall про 23 мільйони проданих <a href=\"https://store.steampowered.com/app/3527290/\">Peak</a> і майбутні плани</b>\n\nУ новому подкасті GamesIndustry.biz CBO Landfall Games Ребекка Лаутнер розповіла, чому студія хоче рухатися далі попри те, що тираж Peak перевищив 23 мільйони копій\n\n🔗 <a href=\"https://www.gamesindustry.biz/podcast-landfalls-rebecca-lautner-on-peaks-23-million-sales-and-looking-past-friendslop\">GamesIndustry.biz</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamesindustry.biz/podcast-landfalls-rebecca-lautner-on-peaks-23-million-sales-and-looking-past-friendslop",
+    "orig": "Podcast: Landfall's Rebecca Lautner on Peak's 23 million sales and looking past friendslop"
+   }
+  ],
+  [
+   1792746277.8614485,
+   2114,
+   "🎬",
+   "Серіал жахів \"Керрі\" очолив рейтинги Prime Video у 105 країнах – його офіційно продовжили на другий сезон",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🎬 <b>Серіал жахів &quot;Керрі&quot; очолив рейтинги Prime Video у 105 країнах – його офіційно продовжили на другий сезон</b>\n\nPrime Video офіційно продовжив серіал &quot;Керрі&quot; / Carrie на другий сезон. Після прем&#x27;єри на початку жовтня проєкт, розроблений Майком Фленаґаном на основі дебютного роману Стівена Кінга, очолив рейтинг найпопулярніших релізів стримінгу у 105 країнах світу.\n\n🔗 <a href=\"https://mezha.ua/news/prime-video-prodovzhiv-serial-kerri-na-drugiy-sezon-316456/\">Mezha</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/prime-video-prodovzhiv-serial-kerri-na-drugiy-sezon-316456/",
+    "orig": "Серіал жахів \"Керрі\" очолив рейтинги Prime Video у 105 країнах – його офіційно продовжили на другий сезон"
+   }
+  ],
+  [
+   1792746285.0091677,
+   2115,
+   "🎮",
+   "Три нові ігри для Game Boy поповнять бібліотеку Switch Online",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>Три нові ігри для Game Boy поповнять бібліотеку Switch Online</b>\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/three-more-game-boy-games-are-coming-to-switch-online-including-one-produced-by-shigeru-miyamoto/\">VGC</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/three-more-game-boy-games-are-coming-to-switch-online-including-one-produced-by-shigeru-miyamoto/",
+    "orig": "Three more Game Boy games are coming to Switch Online, including one produced by Shigeru Miyamoto"
+   }
+  ],
+  [
+   1792746380.3234684,
+   2116,
+   "🎮",
+   "Чутки про Half-Life 3 знову ростуть через згадку проєкту «HLX» розробником Valve",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>Чутки про Half-Life 3 знову ростуть через згадку проєкту «HLX» розробником Valve</b>\n\nМузичний дизайнер Valve Майк Мораскі проговорився про «HLX» під час виступу на панелі GameSoundCon\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/half-life-3-speculation-grows-as-valve-developer-mentions-hlx-during-stage-panel/\">VGC</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/half-life-3-speculation-grows-as-valve-developer-mentions-hlx-during-stage-panel/",
+    "orig": "Half-Life 3 speculation grows as Valve developer mentions ‘HLX’ during stage panel"
+   }
   ]
  ],
  "posted_by_source": {
@@ -15753,11 +15830,11 @@
    1792699525.7569962
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
-   1792657916.164372,
    1792668725.625416,
    1792672297.1171207,
    1792679652.091663,
-   1792693893.9966717
+   1792693893.9966717,
+   1792746275.4788568
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
    1792666915.297291,
@@ -15855,11 +15932,11 @@
    1792621888.919291
   ],
   "games|VGC|https://www.videogameschronicle.com/feed/": [
-   1792603261.7171385,
-   1792609364.6598828,
    1792661506.1121764,
    1792663478.375118,
-   1792683228.1050253
+   1792683228.1050253,
+   1792746285.0097487,
+   1792746380.3238235
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1792683152.435339,
@@ -15905,7 +15982,8 @@
    1792713682.912544
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
-   1792717287.970738
+   1792717287.970738,
+   1792746277.8618314
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
    1792704722.864745,
@@ -16347,6 +16425,7 @@
   "18c64048c2df5f61": 1792434690.444807,
   "18db0b3b2e508dfc": 1792074098.8534346,
   "18e42b4309fa6e14": 1791853927.1132808,
+  "19131a54b42795fb": 1792746380.3237863,
   "1943ecf2ed17c0e9": 1791638165.0720973,
   "195e609a4ea4a9bc": 1792378902.2265387,
   "197fdebe72409b96": 1792442331.73839,
@@ -16755,6 +16834,7 @@
   "3e07f96ebe43f692": 1792414912.9787772,
   "3e08c38d2c317e15": 1792674186.1593106,
   "3e28e26812a2b89c": 1792229870.3654397,
+  "3e391ef36b5b9dbe": 1792746285.0097127,
   "3e4f40043af20792": 1792423973.5457761,
   "3e67463337f735dd": 1792071044.4784656,
   "3e899e90bd2f0e96": 1792681508.4106894,
@@ -17532,6 +17612,7 @@
   "84e24b18bd5bca98": 1792164701.9939275,
   "853e165ae40dab2a": 1792407652.7428136,
   "8559f48c5f094b6b": 1792099121.5478666,
+  "8561a47981cb19ea": 1792746086.991791,
   "8592fb0d7f48d7b5": 1792573282.3710194,
   "85a037ccba1eee05": 1792465284.5836751,
   "85c14bd852632037": 1791957543.7602415,
@@ -17595,6 +17676,7 @@
   "8a6478d05040b8db": 1792364485.3837178,
   "8a71326b5ee32305": 1792683080.92603,
   "8a811c95d31ed03a": 1792389673.6428993,
+  "8a875a3d115fb766": 1792746277.8617904,
   "8aa03eb0b6646fbb": 1792447309.2087965,
   "8aadbf39dda203ea": 1792246786.6091852,
   "8ab020f3443f3d26": 1792256277.2881715,
@@ -17913,6 +17995,7 @@
   "a91f365eb678ef8f": 1792021771.6729987,
   "a91f804c54e58b7c": 1792733493.1108751,
   "a958c03c32a52385": 1792681523.902979,
+  "a96560361523e784": 1792746275.4788184,
   "a98212cd646e8a83": 1792600349.566509,
   "a99d4fead489e225": 1792422123.309201,
   "a9a7ae70b195bcc4": 1791750742.2223434,
@@ -18810,6 +18893,7 @@
   "fd2e5d80deda14a4": 1792598899.904047,
   "fd3d40f1fd866129": 1792627282.9617617,
   "fd5c2ece3e9a6246": 1792256214.8094077,
+  "fd64225362d05689": 1792746086.991791,
   "fd69b0ebe2bd4ff9": 1792441947.1346831,
   "fd800484896cf8e6": 1792512459.3786657,
   "fd85120a2e373e6d": 1791994365.2416782,
@@ -20018,7 +20102,7 @@
    "Deadline": 4,
    "GamesIndustry.biz": 2,
    "IGN": 1,
-   "Insider Gaming": 23,
+   "Insider Gaming": 25,
    "Lambgoat": 1,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
@@ -20041,7 +20125,7 @@
    "Distorted Sound": 16,
    "Eurogamer": 31,
    "GameSpot": 36,
-   "GamesIndustry.biz": 18,
+   "GamesIndustry.biz": 19,
    "GitHub Trending": 20,
    "Hugging Face": 6,
    "IGN": 65,
@@ -20054,7 +20138,7 @@
    "Metal Hammer (Louder)": 26,
    "Metal Injection": 12,
    "MetalSucks": 1,
-   "Mezha": 50,
+   "Mezha": 51,
    "PC Gamer": 63,
    "Pitchfork": 8,
    "PlayUA": 21,
@@ -20066,13 +20150,13 @@
    "Stereogum": 12,
    "The Decoder": 22,
    "ThePRP": 58,
-   "VGC": 24,
+   "VGC": 26,
    "Variety": 24
   },
   "translators": {
    "DeepL": 23,
    "gemini-flash-latest": 89,
-   "gemini-flash-lite-latest": 1029
+   "gemini-flash-lite-latest": 1032
   },
   "week": "2026-W43"
  },
@@ -20432,11 +20516,6 @@
    "007 First Light",
    1792056045.1976461
   ],
-  "q:1": [
-   0,
-   "",
-   1792573294.1815715
-  ],
   "q:1 0": [
    5044640,
    "思安α.1.0",
@@ -20751,6 +20830,11 @@
    2825780,
    "2D?!",
    1792595316.7502198
+  ],
+  "q:3": [
+   0,
+   "",
+   1792746286.9761307
   ],
   "q:3 is": [
    0,
@@ -21137,11 +21221,6 @@
    "",
    1792605792.130274
   ],
-  "q:6": [
-   0,
-   "",
-   1792573281.956535
-  ],
   "q:6 1": [
    0,
    "",
@@ -21217,11 +21296,6 @@
    "",
    1792582318.2211423
   ],
-  "q:800": [
-   0,
-   "",
-   1792573294.72186
-  ],
   "q:9": [
    0,
    "",
@@ -21246,11 +21320,6 @@
    0,
    "",
    1792609333.4656143
-  ],
-  "q:97": [
-   0,
-   "",
-   1792573299.2168398
   ],
   "q:99": [
    0,
@@ -21476,11 +21545,6 @@
    0,
    "",
    1792681304.2835515
-  ],
-  "q:america": [
-   0,
-   "",
-   1792573301.892001
   ],
   "q:amnesia the dark descent": [
    57300,
@@ -22251,6 +22315,11 @@
    1113710,
    "Boss Rush",
    1792413147.0418508
+  ],
+  "q:boy": [
+   0,
+   "",
+   1792746280.313973
   ],
   "q:breathes new": [
    0,
@@ -24197,16 +24266,6 @@
    "Escape the Backrooms",
    1791742978.727892
   ],
-  "q:eu and north": [
-   0,
-   "",
-   1792573300.3139813
-  ],
-  "q:eu and north america": [
-   0,
-   "",
-   1792573299.7250211
-  ],
   "q:even call": [
    0,
    "",
@@ -24912,6 +24971,11 @@
    "",
    1792724493.923223
   ],
+  "q:game boy": [
+   0,
+   "",
+   1792746279.8319876
+  ],
   "q:game of thrones": [
    208730,
    "Game of Thrones",
@@ -25516,11 +25580,6 @@
    0,
    "",
    1792706503.9662728
-  ],
-  "q:helix": [
-   0,
-   "",
-   1792573295.278018
   ],
   "q:helldivers 2": [
    553850,
@@ -26162,6 +26221,31 @@
    "LAIN",
    1792281231.1615815
   ],
+  "q:landfall": [
+   0,
+   "",
+   1792746177.8663518
+  ],
+  "q:landfall's rebecca": [
+   0,
+   "",
+   1792746177.4060745
+  ],
+  "q:landfall's rebecca lautner": [
+   0,
+   "",
+   1792746176.9548032
+  ],
+  "q:landfall's rebecca lautner on peak": [
+   0,
+   "",
+   1792746176.5039496
+  ],
+  "q:landfall's rebecca lautner on peak's 23": [
+   0,
+   "",
+   1792746176.0444026
+  ],
   "q:lanterns": [
    806670,
    "Lanterns",
@@ -26696,6 +26780,11 @@
    0,
    "",
    1792699284.537573
+  ],
+  "q:miyamoto": [
+   0,
+   "",
+   1792746282.5956979
   ],
   "q:mmo": [
    0,
@@ -27252,16 +27341,6 @@
    "",
    1792692164.0104187
   ],
-  "q:north": [
-   0,
-   "",
-   1792573301.3612857
-  ],
-  "q:north america": [
-   0,
-   "",
-   1792573300.8418753
-  ],
   "q:notes": [
    0,
    "",
@@ -27346,6 +27425,11 @@
    0,
    "",
    1792598551.6008053
+  ],
+  "q:online": [
+   0,
+   "",
+   1792746281.2436461
   ],
   "q:only 70": [
    0,
@@ -27706,6 +27790,21 @@
    0,
    "",
    1792710093.4411283
+  ],
+  "q:podcast landfall": [
+   0,
+   "",
+   1792746175.593566
+  ],
+  "q:podcast landfall's rebecca": [
+   0,
+   "",
+   1792746175.1411705
+  ],
+  "q:podcast landfall's rebecca lautner": [
+   0,
+   "",
+   1792746174.690718
   ],
   "q:poison": [
    0,
@@ -28081,6 +28180,26 @@
    0,
    "",
    1792670680.15419
+  ],
+  "q:rebecca": [
+   0,
+   "",
+   1792746179.6841805
+  ],
+  "q:rebecca lautner": [
+   0,
+   "",
+   1792746179.221931
+  ],
+  "q:rebecca lautner on peak": [
+   0,
+   "",
+   1792746178.7736259
+  ],
+  "q:rebecca lautner on peak's 23": [
+   0,
+   "",
+   1792746178.3220396
   ],
   "q:reblade the death spiral": [
    3489340,
@@ -28807,6 +28926,16 @@
    "",
    1792656085.487208
   ],
+  "q:shigeru": [
+   0,
+   "",
+   1792746282.1418087
+  ],
+  "q:shigeru miyamoto": [
+   0,
+   "",
+   1792746281.6908495
+  ],
   "q:shipment come to modern": [
    0,
    "",
@@ -29422,6 +29551,11 @@
    "",
    1792666927.868345
   ],
+  "q:switch online": [
+   0,
+   "",
+   1792746280.7751231
+  ],
   "q:system shock": [
    482400,
    "System Shock",
@@ -29906,11 +30040,6 @@
    5219420,
    "Vitality",
    1792335687.5571024
-  ],
-  "q:vivrato 97": [
-   0,
-   "",
-   1792573298.6606562
   ],
   "q:walking simulator": [
    1214280,
@@ -30738,25 +30867,27 @@
    "apple",
    "arc",
    "dia",
-   "iceye",
+   "f-16",
    "iphone duo",
-   "nokia",
-   "openai",
    "rheinmetall",
    "skydance",
    "the browser company",
-   "uber",
    "авто",
    "артилерія",
    "банки",
+   "боєприпаси",
    "бпла",
    "браузери",
    "бізнес",
    "велика британія",
+   "винищувачі",
    "гармата",
    "герань-5",
+   "данія",
    "електромобілі",
+   "жахи",
    "залізо",
+   "керрі",
    "кіно",
    "навігація",
    "новини",
@@ -30764,50 +30895,18 @@
    "оборонний завод",
    "пк",
    "реактивні безпілотники",
+   "серіали",
    "смартфони",
    "софт",
-   "супутниковий зв'язок",
-   "технології",
-   "україна",
+   "стівен кінг",
    "флеш",
+   "шахед",
    "штучний інтелект",
    "єс",
    "ілон маск"
   ]
  },
  "titles": [
-  [
-   1792573279.7385201,
-   "hibi"
-  ],
-  [
-   1792573282.371021,
-   "GTA 6 ще не вийшла, а вже заробила більше, ніж багато ААА-ігор за все життя"
-  ],
-  [
-   1792573285.5726388,
-   "Claude Science tackles deadly scorpion stings by designing protein binders from scratch"
-  ],
-  [
-   1792573287.4335105,
-   "\"Велике розчарування\": CEO Hugging Face заявив, що Netflix викривив факти в документалці про атаку ШІ"
-  ],
-  [
-   1792573292.1311321,
-   "ALBUM REVIEW: Monumental – Ignea"
-  ],
-  [
-   1792573296.6495152,
-   "Xbox's next-gen console to reportedly cost up to $1,800, with a Helix handheld coming in 2027 and a full release in holiday 2028"
-  ],
-  [
-   1792573303.2482743,
-   "Фінчер скоротив сценарій Тарантіно: деталі сиквелу про Кліффа Бута"
-  ],
-  [
-   1792573307.499108,
-   "sickn33/agentic-awesome-skills"
-  ],
   [
    1792575325.2961001,
    "Koi"
@@ -32767,41 +32866,25 @@
   [
    1792744325.9522626,
    "'Avatar: Seven Havens' Episode 9 Ending Explained: Everything We Learned About the Havens"
+  ],
+  [
+   1792746275.47882,
+   "Podcast: Landfall's Rebecca Lautner on Peak's 23 million sales and looking past friendslop"
+  ],
+  [
+   1792746277.861792,
+   "Серіал жахів \"Керрі\" очолив рейтинги Prime Video у 105 країнах – його офіційно продовжили на другий сезон"
+  ],
+  [
+   1792746285.0097136,
+   "Three more Game Boy games are coming to Switch Online, including one produced by Shigeru Miyamoto"
+  ],
+  [
+   1792746380.3237872,
+   "Half-Life 3 speculation grows as Valve developer mentions ‘HLX’ during stage panel"
   ]
  ],
  "titles_uk": [
-  [
-   1792573279.7385206,
-   "hibi — відкрита альтернатива для Obsidian"
-  ],
-  [
-   1792573282.3710215,
-   "GTA 6 ще не вийшла, а вже заробила більше, ніж багато ААА-ігор за все життя"
-  ],
-  [
-   1792573285.5726402,
-   "Claude створив білкові зв'язувальні молекули проти отрути скорпіонів"
-  ],
-  [
-   1792573287.4335113,
-   "\"Велике розчарування\": CEO Hugging Face заявив, що Netflix викривив факти в документалці про атаку ШІ"
-  ],
-  [
-   1792573292.1311326,
-   "Гурт IGNEA випустив новий атмосферний альбом Monumental"
-  ],
-  [
-   1792573296.6495159,
-   "Нова консоль Xbox Project Helix може коштувати до $1,800"
-  ],
-  [
-   1792573303.2482753,
-   "Фінчер скоротив сценарій Тарантіно: деталі сиквелу про Кліффа Бута"
-  ],
-  [
-   1792573307.4991086,
-   "Вийшов реліз Agentic Awesome Skills V19.13.0 з бібліотекою з понад 2737 інструкцій"
-  ],
   [
    1792575325.296101,
    "Короп"
@@ -34761,6 +34844,22 @@
   [
    1792744325.9522643,
    "Фінал дев'ятого епізоду Avatar: Seven Havens розкриває таємниці світу"
+  ],
+  [
+   1792746275.4788208,
+   "Ребекка Лаутнер з Landfall про 23 мільйони проданих Peak і майбутні плани"
+  ],
+  [
+   1792746277.861793,
+   "Серіал жахів \"Керрі\" очолив рейтинги Prime Video у 105 країнах – його офіційно продовжили на другий сезон"
+  ],
+  [
+   1792746285.0097141,
+   "Три нові ігри для Game Boy поповнять бібліотеку Switch Online"
+  ],
+  [
+   1792746380.3237884,
+   "Чутки про Half-Life 3 знову ростуть через згадку проєкту «HLX» розробником Valve"
   ]
  ],
  "ukrainian": {
@@ -36986,7 +37085,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792740900.100773,
+  "last_check": 1792746388.4791338,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
