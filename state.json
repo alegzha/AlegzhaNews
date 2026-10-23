@@ -1,8 +1,15 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1792780274.6664739
+  }
+ },
  "daily_digest_date": "2026-10-23",
  "freebies": {
-  "last_check": 1792773139.5862694,
+  "last_check": 1792780439.276809,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -14,11 +21,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-23 18:01 UTC",
-  "gemini_error": "",
+  "at": "2026-10-23 18:34 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 8
+   "gemini-flash-lite-latest": 7
   },
   "used": [
    "Gemini"
@@ -16597,7 +16604,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Netflix хотів отримати ексклюзивні права на екранізації Xbox IP</b>\n\nNetflix пропонував Microsoft $500 мільйонів за семирічні ексклюзивні права на кіно- та телеадаптації франшиз Xbox. Microsoft вимагала $800 мільйонів, проте переговори припинилися через звільнення та відхід керівниці контенту Netflix Бели Баджарії.\n\n🔗 <a href=\"https://insider-gaming.com/netflix-exclusive-film-tv-rights-xbox/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/netflix-exclusive-film-tv-rights-xbox/",
     "orig": "Netflix Wanted Exclusive Film and TV Rights For Xbox IP Before Talks Fell Through"
@@ -16611,7 +16617,6 @@
    "Metal Injection",
    {
     "also": [],
-    "caption": "🤘 <b>Екссучасник зі Slipknot Chris Fehn заявив, що його маска &quot;занадто гарна&quot;, аби в ній виступали вживу</b>\n\nChris Fehn особисто оглянув пам&#x27;ятний реквізит\n\n🔗 <a href=\"https://metalinjection.net/news/former-slipknot-member-chris-fehn-says-his-own-mask-is-too-nice-to-have-been-worn-live-on-pawn-stars\">Metal Injection</a>\n\n#музика",
     "kind": "photo",
     "link": "https://metalinjection.net/news/former-slipknot-member-chris-fehn-says-his-own-mask-is-too-nice-to-have-been-worn-live-on-pawn-stars",
     "orig": "Former Slipknot Member Chris Fehn Says His Own Mask Is “Too Nice” to Have Been Worn Live on ‘Pawn Stars’"
@@ -16625,7 +16630,6 @@
    "GameSpot",
    {
     "also": [],
-    "caption": "🎮 <b>Microsoft виставила занадто високу ціну за адаптації Xbox для Netflix</b>\n\nNetflix прагне екранізувати нові франшизи Xbox на додаток до майбутнього фільму Gears of War. Однак стрімінговий гігант не зміг домовитися з Microsoft через занадто високу вартість прав на інтелектуальну власність.\n\n🔗 <a href=\"https://www.gamespot.com/articles/xbox-wanted-a-gargantuan-paycheck-to-partner-with-netflix-on-tv-and-movies/\">GameSpot</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamespot.com/articles/xbox-wanted-a-gargantuan-paycheck-to-partner-with-netflix-on-tv-and-movies/",
     "orig": "Xbox Wanted A Gargantuan Paycheck To Partner With Netflix On TV And Movies"
@@ -16639,7 +16643,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>Доля Arkane Lyon вирішується на тлі завершення розробки Marvel&#x27;s Blade</b>\n\nЧерез французьке законодавство Microsoft шукає покупця або інші шляхи для студії Arkane Lyon до 13 листопада. Під загрозою опинилося 217 робочих місць, водночас виробництво гри Marvel&#x27;s Blade наближається до завершення.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/arkane-survival-negotiations-reportedly-seeing-several-forms-of-takeover-considered-ahead-of-november-deadline-as-marvels-blade-production-nears-end\">Rock Paper Shotgun</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/arkane-survival-negotiations-reportedly-seeing-several-forms-of-takeover-considered-ahead-of-november-deadline-as-marvels-blade-production-nears-end",
     "orig": "Arkane survival negotiations reportedly seeing \"several forms of takeover\" considered ahead of November deadline, as Marvel's Blade production nears end"
@@ -16653,7 +16656,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "💾 <b>Помилка One UI 9 перетворює Samsung Galaxy S26 Ultra на непотрібну цеглину</b>\n\nОновлення до One UI 9 активує помилку, через яку Samsung Galaxy S26 Ultra стає практично непридатним для використання.\n\n🔗 <a href=\"https://itc.ua/ua/novini/pomylka-one-ui-9-peretvoryuye-samsung-galaxy-s26-ultra-na-nepotribnu-tseglynu/\">ITC.ua</a>\n\n#софт",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/pomylka-one-ui-9-peretvoryuye-samsung-galaxy-s26-ultra-na-nepotribnu-tseglynu/",
     "orig": "Помилка One UI 9 перетворює Samsung Galaxy S26 Ultra на непотрібну цеглину"
@@ -16667,7 +16669,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🤖 <b>Несанкціонована вирубка лісів для будівництва дата-центру Google спричинила нашестя вовків у Фінляндії</b>\n\nУ Фінляндії спалахнув скандал через вирубку 330 гектарів лісу для будівництва дата-центру Google без належної експертизи щодо впливу на довкілля. Вовки з лісів завітали до людських помешкань.\n\n🔗 <a href=\"https://mezha.ua/news/gooogle-finland-wolves-316488/\">Mezha</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://mezha.ua/news/gooogle-finland-wolves-316488/",
     "orig": "Несанкціонована вирубка лісів для будівництва дата-центру Google спричинила нашестя вовків у Фінляндії"
@@ -16681,7 +16682,6 @@
    "Kerrang!",
    {
     "also": [],
-    "caption": "🤘 <b>Брайан Макдональд із PVRIS створив новий проєкт sugarpine</b>\n\nБрайан Макдональд із PVRIS та Росс Макдональд із The 1975 вирушать на велосипедах від Land’s End до John O’ Groats заради благодійного збору коштів для британського музичного терапевтичного фонду.\n\n🔗 <a href=\"https://www.kerrang.com/pvris-brian-macdonald-unveils-new-project-sugarpine-and-share-nostalgic-debut-single-leaves\">Kerrang!</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.kerrang.com/pvris-brian-macdonald-unveils-new-project-sugarpine-and-share-nostalgic-debut-single-leaves",
     "orig": "PVRIS’ Brian Macdonald unveils new project, sugarpine, and share nostalgic debut single, LEAVES"
@@ -17466,6 +17466,104 @@
     "link": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/",
     "orig": "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring"
    }
+  ],
+  [
+   1792780386.888667,
+   2246,
+   "🤘",
+   "System Of A Down анонсували другий концерт на Rose Bowl Stadium разом із Pierce The Veil",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>System Of A Down анонсували другий концерт на Rose Bowl Stadium разом із Pierce The Veil</b>\n\nНе єдиний виступ гурту у США у 2027 році.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/23/news/system-of-a-down-announce-second-rose-bowl-stadium-show-with-pierce-the-veil/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/23/news/system-of-a-down-announce-second-rose-bowl-stadium-show-with-pierce-the-veil/",
+    "orig": "System Of A Down Announce Second Rose Bowl Stadium Show With Pierce The Veil"
+   }
+  ],
+  [
+   1792780396.4140096,
+   2247,
+   "🎮",
+   "Студія Arkane Lyon має час до листопада на пошук нового покупця",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Студія Arkane Lyon має час до листопада на пошук нового покупця</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/205100/\">Dishonored</a>\n\nРозробники Dishonored та Deathloop із Arkane Lyon можуть закритися, якщо до 13 листопада не знайдуть нового покупця через реструктуризацію Microsoft. Французьке законодавство зобов&#x27;язує компанію шукати покупця протягом трьох місяців, і під загрозою звільнення опинилися 217 працівників.\n\n🔗 <a href=\"https://www.eurogamer.net/xbox-layoffs-marvels-blade-arkane-lyon-closure\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/xbox-layoffs-marvels-blade-arkane-lyon-closure",
+    "orig": "As devastating Xbox \"reset\" continues, Dishonored studio Arkane Lyon reportedly only has until November to find a new buyer before it's closed"
+   }
+  ],
+  [
+   1792780398.8287988,
+   2248,
+   "🎮",
+   "Фанат Dota 2 створив мобільну версію гри",
+   "PlayUA",
+   {
+    "also": [],
+    "caption": "🎮 <b>Фанат <a href=\"https://store.steampowered.com/app/570/\">Dota 2</a> створив мобільну версію гри</b>\n\nЕнтузіаст розробив неофіційний порт Dota 2 для мобільних пристроїв і показав його роботу на Reddit. У відео автор продемонстрував ігровий процес за Shadow Fiend, підтвердивши, що проєкт уже має робочу збірку. На опублікованих кадрах можна побачити, як популярна MOBA від Valve працює на мобільному пристрої. Водночас розробник зазначив, що перенести всіх героїв поки не вдалося, […]\n\n🔗 <a href=\"https://playua.net/fanat-dota-2-stvoryv-mobilnu-versiyu-gry/\">PlayUA</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://playua.net/fanat-dota-2-stvoryv-mobilnu-versiyu-gry/",
+    "orig": "Фанат Dota 2 створив мобільну версію гри"
+   }
+  ],
+  [
+   1792780414.3832617,
+   2249,
+   "🎮",
+   "Прем'єру реаліті-шоу Fallout Shelter: The Experiment призначили на 2027 рік",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Прем&#x27;єру реаліті-шоу <a href=\"https://store.steampowered.com/app/588430/\">Fallout Shelter</a>: The Experiment призначили на 2027 рік</b>\n\nPrime Video оголосив дату виходу реаліті-шоу Fallout Shelter: The Experiment — 13 січня 2027 року. Учасники змагатимуться у випробуваннях у сховищах Vault-Tec за головний приз у $1 млн.\n\n🔗 <a href=\"https://insider-gaming.com/fallout-shelter-the-experiment-release-date-revealed-by-prime-video/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/fallout-shelter-the-experiment-release-date-revealed-by-prime-video/",
+    "orig": "Fallout Shelter: The Experiment Release Date Revealed by Prime Video"
+   }
+  ],
+  [
+   1792780417.3480506,
+   2250,
+   "🤘",
+   "Skrapegoat анонсували свій дебютний живий виступ",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Skrapegoat анонсували свій дебютний живий виступ</b>\n\nНовий гурт Skrapegoat, який є духовним спадкоємцем nü-metal формації Skrape, оголосив про свій перший живий виступ. Колектив під керівництвом фронтмена Біллі Кітона виконає як старі пісні Skrape, так і новий матеріал на фестивалі Cotee River Bike Fest 16 січня.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/23/news/skrapegoat-ex-skrape-etc-announce-their-first-ever-live-show/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/23/news/skrapegoat-ex-skrape-etc-announce-their-first-ever-live-show/",
+    "orig": "Skrapegoat (Ex-Skrape, Etc.) Announce Their First-Ever Live Show"
+   }
+  ],
+  [
+   1792780421.2157907,
+   2251,
+   "🤘",
+   "Bullet For My Valentine, Sullivan King і Vana долучилися до складу Welcome To Rockville 2027",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Bullet For My Valentine, Sullivan King і Vana долучилися до складу Welcome To Rockville 2027</b>\n\nОрганізатори фестивалю Welcome To Rockville оголосили нових учасників події, що пройде в Дейтона-Біч з 6 по 9 травня. До лайнапу шістнадцятого за ліком фестивалю увійшли Bullet For My Valentine, Sullivan King та Vana.\n\n🔗 <a href=\"https://lambgoat.com/news/55516/bullet-for-my-valentine-vana-and-sullivan-king-added-to-welcome-to-rockville-2027-line-up/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55516/bullet-for-my-valentine-vana-and-sullivan-king-added-to-welcome-to-rockville-2027-line-up/",
+    "orig": "Bullet For My Valentine, Vana and Sullivan King added to Welcome To Rockville 2027 line up"
+   }
+  ],
+  [
+   1792780430.6782875,
+   2252,
+   "🤘",
+   "Hellfest West 2027 оголосив перших учасників фестивалю",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Hellfest West 2027 оголосив перших учасників фестивалю</b>\n\nОрганізатори фестивалю Hellfest West 2027 представили перший склад учасників дводенного заходу. Він відбудеться 20–21 лютого у театрі The Fox в місті Помона, штат Каліфорнія, та об&#x27;єднає десятки важких гуртів.\n\n🔗 <a href=\"https://lambgoat.com/news/55517/between-the-buried-and-me-sleeping-giant-and-more-revealed-for-hellfest-west-2027/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55517/between-the-buried-and-me-sleeping-giant-and-more-revealed-for-hellfest-west-2027/",
+    "orig": "Between The Buried And Me, Sleeping Giant and more revealed for Hellfest West 2027"
+   }
   ]
  ],
  "posted_by_source": {
@@ -17519,9 +17617,9 @@
    1792679674.693679
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1792689029.8877344,
    1792760499.7728753,
-   1792767882.6213877
+   1792767882.6213877,
+   1792780396.4145532
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1792690311.817711,
@@ -17560,8 +17658,6 @@
    1792776755.796884
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1792690327.246617,
-   1792692161.991282,
    1792703039.80511,
    1792710100.6784832,
    1792711979.588383,
@@ -17573,7 +17669,8 @@
    1792766009.687562,
    1792767818.132169,
    1792767876.5080495,
-   1792775807.646156
+   1792775807.646156,
+   1792780414.383819
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1792695730.2072842,
@@ -17600,9 +17697,9 @@
    1792775231.4705377
   ],
   "games|PlayUA|https://playua.net/feed/": [
-   1792675940.2627158,
    1792697491.7397037,
-   1792760496.7454138
+   1792760496.7454138,
+   1792780398.8293023
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
    1792733483.5629184,
@@ -17742,7 +17839,9 @@
    1792737156.913047,
    1792766023.118723,
    1792775814.680705,
-   1792775819.1385589
+   1792775819.1385589,
+   1792780421.2163374,
+   1792780430.6788504
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1792703018.0387626,
@@ -17796,9 +17895,6 @@
    1792711969.8743675
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1792692149.4834206,
-   1792693928.0839248,
-   1792693992.8882499,
    1792695705.225333,
    1792695755.1887074,
    1792697489.5722027,
@@ -17817,7 +17913,9 @@
    1792760507.3238375,
    1792775162.8741145,
    1792775794.0523615,
-   1792778494.7965133
+   1792778494.7965133,
+   1792780386.8890622,
+   1792780417.348605
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1792481487.1423821
@@ -17963,6 +18061,7 @@
   "07fda0469597f90a": 1792281245.7376587,
   "082b01c9d624c1bb": 1791931200.4147167,
   "083d62d21cc065ec": 1792296010.2321,
+  "08466c56009b6a80": 1792780398.8292592,
   "084b70bcbbcba08f": 1792188137.738577,
   "0852b28e6304cac5": 1792683080.5678961,
   "085750a69c862486": 1792757041.5012083,
@@ -18128,6 +18227,7 @@
   "161709a34472e364": 1792391498.2973442,
   "161b36d52109d7b8": 1791926990.782292,
   "162c805611bb35d0": 1792494181.5949442,
+  "165987492323e389": 1792780254.1083677,
   "169f27f3632548ff": 1792720894.3094978,
   "16a69602920a5eaf": 1792751457.295797,
   "16d80dc85c36c16e": 1792663508.3950005,
@@ -18509,6 +18609,7 @@
   "38023b5cc39dc12b": 1791966902.7074773,
   "382b3acfc271dd99": 1792099117.2201388,
   "3858b240891b662c": 1792514102.953255,
+  "38bf18b1a81b6a90": 1792780430.6788054,
   "38ef005a1b840cd5": 1792362679.9744196,
   "38fa7323b8795f88": 1792499499.6735418,
   "390661ece7337391": 1792578676.2490041,
@@ -18877,6 +18978,7 @@
   "571a16bf04b12bf4": 1792674057.1359856,
   "571a9c6f044d8bf7": 1791643484.7724442,
   "57506fe3e1e566f6": 1792368095.4669654,
+  "5752f8049c9bfa12": 1792780419.9417808,
   "5758d4a252c11a93": 1792659700.8276908,
   "57595750c52e519a": 1792492403.2252326,
   "579b584eafaa4147": 1792578701.320366,
@@ -18920,6 +19022,7 @@
   "5abf32d39895202f": 1792584090.1305249,
   "5ac163a1a088553a": 1792623687.665254,
   "5adaa90dda59101a": 1792643453.9104059,
+  "5adccfbca82b8ac2": 1792780386.8890154,
   "5af571f75cab1eec": 1792515678.0131156,
   "5b0c33d33660ae4f": 1792623678.143396,
   "5b1df914a6453c4f": 1792492413.3475513,
@@ -19529,6 +19632,7 @@
   "8c0e3cabaf013e0c": 1792722655.68983,
   "8c30dfc042a09859": 1792490505.8083584,
   "8c4905e6376f8099": 1792575421.246362,
+  "8c56b01551d7ec51": 1792780396.4145095,
   "8c6d1520dbb62ee5": 1792600307.7744868,
   "8c78792dcece6981": 1792244031.369591,
   "8c8cc7eb0265afbd": 1792688760.062426,
@@ -19549,6 +19653,7 @@
   "8de7609e50d398b0": 1792352540.5085328,
   "8df448f1c2ec80ba": 1791931686.805547,
   "8e0983cf3fa52cac": 1792560677.295506,
+  "8e23b5a0821d56c4": 1792780279.6700447,
   "8e24385f3db44b6c": 1792589571.142918,
   "8e3a89059c36a416": 1792407677.524236,
   "8e62adcb49282672": 1792382502.8838835,
@@ -19568,6 +19673,7 @@
   "8fe98d2c4c26327d": 1792778453.5270102,
   "902a336fff3e65e2": 1792697503.1283176,
   "9031184d642d7393": 1791908466.720657,
+  "9045b6765cfd8e98": 1792780421.2162938,
   "904e548719413b36": 1792099095.4171643,
   "9068a7401a059aae": 1792666857.0082133,
   "9080296097697050": 1792686656.5169692,
@@ -19674,6 +19780,7 @@
   "991ef7b7a3250b58": 1792440121.4558704,
   "9928ec226bc228f0": 1792775807.6461036,
   "992c990b1e975ba9": 1792531914.6894438,
+  "99408b2660ae9c85": 1792780254.1083677,
   "99408f846c1c0422": 1792442061.6283753,
   "9985b3d5b28d3bca": 1791769110.1612594,
   "99a81e8268b7c018": 1792402623.1871777,
@@ -20097,6 +20204,7 @@
   "bfd2a336c4d524fb": 1792659681.2896962,
   "bfd627828e3d4976": 1792514149.361216,
   "bfe4fd99bcf1baf8": 1791795346.011346,
+  "bff551bcb648d751": 1792780417.34856,
   "c000d0b65b27adeb": 1792603898.8199077,
   "c00f4294caa0714d": 1792427486.6985757,
   "c028dd7ffc0f7d3e": 1792440117.3432946,
@@ -20483,6 +20591,7 @@
   "e0d574759e0abf3b": 1791997032.6127217,
   "e0ed55e9093ac5bd": 1791920836.554765,
   "e0f631a74d3aa008": 1792429331.2362347,
+  "e0f80867581917c7": 1792780254.1083677,
   "e11d36fd74f58a3a": 1792692138.7912447,
   "e12516d7ca73daa4": 1792719084.403153,
   "e136701f770e5853": 1792080987.1679268,
@@ -20503,6 +20612,7 @@
   "e276603713750b4b": 1792188143.0501099,
   "e27ddf66bd5830df": 1792530094.9040325,
   "e2da42b5f827c780": 1792270334.2211804,
+  "e2dd85529398cb66": 1792780414.3837748,
   "e303957b3d3c7cea": 1792619341.6085992,
   "e30b794ee307836d": 1792246801.6124501,
   "e32694a4a97d2ee5": 1792665176.9772062,
@@ -21290,7 +21400,7 @@
   ],
   "artists_checked": 1792767900.9103298,
   "blocked_until": 1792766282.0186863,
-  "cursor": 190,
+  "cursor": 200,
   "digest_week": "2026-W43",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -22028,13 +22138,13 @@
    "GamesIndustry.biz": 2,
    "IGN": 2,
    "IndieWire": 1,
-   "Insider Gaming": 34,
+   "Insider Gaming": 36,
    "Lambgoat": 1,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 12,
    "Pitchfork": 1,
-   "Polygon": 50,
+   "Polygon": 51,
    "VGC": 3,
    "Variety": 1
   },
@@ -22049,7 +22159,7 @@
    "Decibel": 13,
    "Digital Foundry": 6,
    "Distorted Sound": 17,
-   "Eurogamer": 33,
+   "Eurogamer": 34,
    "GameSpot": 41,
    "GamesIndustry.biz": 22,
    "GitHub Trending": 20,
@@ -22057,9 +22167,9 @@
    "IGN": 70,
    "ITC.ua": 56,
    "IndieWire": 23,
-   "Insider Gaming": 80,
+   "Insider Gaming": 81,
    "Kerrang!": 30,
-   "Lambgoat": 49,
+   "Lambgoat": 51,
    "Loudwire": 25,
    "Metal Hammer (Louder)": 27,
    "Metal Injection": 21,
@@ -22067,7 +22177,7 @@
    "Mezha": 58,
    "PC Gamer": 73,
    "Pitchfork": 8,
-   "PlayUA": 22,
+   "PlayUA": 23,
    "Polygon": 33,
    "Product Hunt": 23,
    "Revolver": 8,
@@ -22075,14 +22185,14 @@
    "SteamDB": 2,
    "Stereogum": 12,
    "The Decoder": 26,
-   "ThePRP": 62,
+   "ThePRP": 64,
    "VGC": 30,
    "Variety": 24
   },
   "translators": {
    "DeepL": 24,
    "gemini-flash-latest": 89,
-   "gemini-flash-lite-latest": 1168
+   "gemini-flash-lite-latest": 1175
   },
   "week": "2026-W43"
  },
@@ -22877,31 +22987,6 @@
    "",
    1792652534.7224686
   ],
-  "q:4's dmz": [
-   0,
-   "",
-   1792605688.9240544
-  ],
-  "q:4's dmz players": [
-   0,
-   "",
-   1792605688.4193802
-  ],
-  "q:4's dmz players are": [
-   0,
-   "",
-   1792605687.9386199
-  ],
-  "q:4's dmz players are losing": [
-   0,
-   "",
-   1792605687.4580178
-  ],
-  "q:4's dmz players are losing loot": [
-   0,
-   "",
-   1792605686.985694
-  ],
   "q:400": [
    0,
    "",
@@ -23016,16 +23101,6 @@
    0,
    "",
    1792767791.7624724
-  ],
-  "q:55bn": [
-   0,
-   "",
-   1792605792.606354
-  ],
-  "q:55bn ea": [
-   0,
-   "",
-   1792605792.130274
   ],
   "q:5800x3d": [
    0,
@@ -23422,21 +23497,6 @@
    "",
    1792657883.8916051
   ],
-  "q:arabia": [
-   0,
-   "",
-   1792605791.56343
-  ],
-  "q:arabia's 55bn": [
-   0,
-   "",
-   1792605791.058682
-  ],
-  "q:arabia's 55bn ea": [
-   0,
-   "",
-   1792605790.576334
-  ],
   "q:arc raiders": [
    1808500,
    "ARC Raiders",
@@ -23797,21 +23857,6 @@
    "Battlefield™ 6",
    1791908433.4168563
   ],
-  "q:battlefield franchise' amid layoffs": [
-   0,
-   "",
-   1792605750.2706017
-  ],
-  "q:battlefield franchise' amid layoffs and studio": [
-   0,
-   "",
-   1792605749.7937398
-  ],
-  "q:battlefront title": [
-   0,
-   "",
-   1792605721.8261988
-  ],
   "q:battleplan": [
    3743140,
    "Battleplan",
@@ -23937,26 +23982,6 @@
    "",
    1792775798.5823135
   ],
-  "q:best": [
-   0,
-   "",
-   1792605697.3817616
-  ],
-  "q:best upgrades": [
-   0,
-   "",
-   1792605696.8165774
-  ],
-  "q:best upgrades for each": [
-   0,
-   "",
-   1792605696.289452
-  ],
-  "q:best upgrades for each vehicle": [
-   0,
-   "",
-   1792605695.7824554
-  ],
   "q:beta": [
    0,
    "",
@@ -24026,16 +24051,6 @@
    0,
    "",
    1792607509.7804744
-  ],
-  "q:bioware shutting": [
-   0,
-   "",
-   1792605703.152344
-  ],
-  "q:bioware shutting down": [
-   0,
-   "",
-   1792605702.6783009
   ],
   "q:bioware was": [
    0,
@@ -24352,11 +24367,6 @@
    "Canceled",
    1792603903.1193275
   ],
-  "q:canceled a project": [
-   0,
-   "",
-   1792605729.2904556
-  ],
   "q:cancellation": [
    0,
    "",
@@ -24586,46 +24596,6 @@
    996920,
    "CONTINUE",
    1792605749.3152213
-  ],
-  "q:continue the battlefield": [
-   0,
-   "",
-   1792605748.82283
-  ],
-  "q:continue the battlefield franchise'": [
-   0,
-   "",
-   1792605748.3441346
-  ],
-  "q:continue the battlefield franchise' amid": [
-   0,
-   "",
-   1792605747.866849
-  ],
-  "q:continue the battlefield franchise' amid layoffs": [
-   0,
-   "",
-   1792605747.3778622
-  ],
-  "q:continuing": [
-   0,
-   "",
-   1792605711.8132758
-  ],
-  "q:continuing a long running": [
-   0,
-   "",
-   1792605711.3393476
-  ],
-  "q:continuing a long running questing": [
-   0,
-   "",
-   1792605710.8108141
-  ],
-  "q:continuing a long running questing tradition": [
-   0,
-   "",
-   1792605710.2818532
   ],
   "q:control": [
    870780,
@@ -25012,6 +24982,16 @@
    "DARK SOULS™ II",
    1792350087.4852767
   ],
+  "q:date": [
+   0,
+   "",
+   1792780407.1021693
+  ],
+  "q:date revealed": [
+   0,
+   "",
+   1792780406.5702949
+  ],
   "q:david": [
    346180,
    "David.",
@@ -25242,11 +25222,6 @@
    "Dex",
    1792214861.7134418
   ],
-  "q:dice": [
-   0,
-   "",
-   1792605718.4335043
-  ],
   "q:dice and apex": [
    0,
    "",
@@ -25321,6 +25296,11 @@
    0,
    "",
    1792670612.339344
+  ],
+  "q:dishonored": [
+   205100,
+   "Dishonored",
+   1792780389.5494232
   ],
   "q:disney lorcana tcg": [
    0,
@@ -25687,21 +25667,6 @@
    "",
    1792616499.9671993
   ],
-  "q:ea has": [
-   0,
-   "",
-   1792605727.3571005
-  ],
-  "q:ea has canceled": [
-   0,
-   "",
-   1792605726.8793955
-  ],
-  "q:ea has canceled a project": [
-   0,
-   "",
-   1792605726.375637
-  ],
   "q:ea kills": [
    0,
    "",
@@ -25867,11 +25832,6 @@
    "Embark",
    1792676055.464709
   ],
-  "q:entertainment and dice": [
-   0,
-   "",
-   1792605717.9445772
-  ],
   "q:envelope": [
    2717480,
    "Envelope",
@@ -26032,6 +25992,26 @@
    "",
    1792688777.4788883
   ],
+  "q:experiment": [
+   0,
+   "",
+   1792780404.1621966
+  ],
+  "q:experiment release": [
+   0,
+   "",
+   1792780403.5873973
+  ],
+  "q:experiment release date": [
+   0,
+   "",
+   1792780403.015194
+  ],
+  "q:experiment release date revealed": [
+   0,
+   "",
+   1792780402.5078623
+  ],
   "q:extended": [
    0,
    "",
@@ -26081,6 +26061,21 @@
    22380,
    "Fallout: New Vegas",
    1792490527.0604882
+  ],
+  "q:fallout shelter": [
+   588430,
+   "Fallout Shelter",
+   1792780401.912307
+  ],
+  "q:fallout shelter the experiment": [
+   0,
+   "",
+   1792780401.3823206
+  ],
+  "q:fallout shelter the experiment release": [
+   0,
+   "",
+   1792780400.826543
   ],
   "q:fanatical halloween": [
    0,
@@ -26367,21 +26362,6 @@
    "",
    1792690333.2726033
   ],
-  "q:forever is continuing": [
-   0,
-   "",
-   1792605707.671958
-  ],
-  "q:forever is continuing a long running": [
-   0,
-   "",
-   1792605707.193088
-  ],
-  "q:forever is continuing a long running questing": [
-   0,
-   "",
-   1792605706.6673088
-  ],
   "q:forever is getting": [
    0,
    "",
@@ -26487,11 +26467,6 @@
    "",
    1792773108.4210603
   ],
-  "q:franchise": [
-   0,
-   "",
-   1792605731.3302178
-  ],
   "q:freeplay": [
    0,
    "",
@@ -26586,16 +26561,6 @@
    208730,
    "Game of Thrones",
    1792295994.145245
-  ],
-  "q:game the best": [
-   0,
-   "",
-   1792605695.2803001
-  ],
-  "q:game the best upgrades": [
-   0,
-   "",
-   1792605694.7919626
   ],
   "q:games 50": [
    0,
@@ -27042,21 +27007,6 @@
    "",
    1792677762.1712034
   ],
-  "q:has": [
-   0,
-   "",
-   1792605728.8094304
-  ],
-  "q:has canceled": [
-   0,
-   "",
-   1792605728.3091302
-  ],
-  "q:has canceled a project": [
-   0,
-   "",
-   1792605727.8315687
-  ],
   "q:has until": [
    0,
    "",
@@ -27461,26 +27411,6 @@
    0,
    "",
    1792688537.7593105
-  ],
-  "q:is continuing": [
-   0,
-   "",
-   1792605709.7905483
-  ],
-  "q:is continuing a long running": [
-   0,
-   "",
-   1792605709.2109919
-  ],
-  "q:is continuing a long running questing": [
-   0,
-   "",
-   1792605708.7094483
-  ],
-  "q:is continuing a long running questing tradition": [
-   0,
-   "",
-   1792605708.2333274
   ],
   "q:is getting a new server": [
    0,
@@ -28022,11 +27952,6 @@
    "",
    1792670718.710515
   ],
-  "q:long": [
-   0,
-   "",
-   1792605694.2163029
-  ],
   "q:long 2": [
    0,
    "",
@@ -28041,21 +27966,6 @@
    0,
    "",
    1792720888.3504531
-  ],
-  "q:long game": [
-   0,
-   "",
-   1792605693.6888778
-  ],
-  "q:long game the best": [
-   0,
-   "",
-   1792605693.1624105
-  ],
-  "q:long game the best upgrades": [
-   0,
-   "",
-   1792605692.6257205
   ],
   "q:look": [
    0,
@@ -28267,11 +28177,6 @@
    "Mass Effect™ Legendary Edition",
    1792342921.68182
   ],
-  "q:mass effect 5": [
-   0,
-   "",
-   1792605788.135751
-  ],
   "q:mass effect 5 and the death": [
    0,
    "",
@@ -28316,11 +28221,6 @@
    0,
    "",
    1792663371.3935964
-  ],
-  "q:mass effect canceled": [
-   0,
-   "",
-   1792605704.1324327
   ],
   "q:mass effect tv": [
    0,
@@ -28581,21 +28481,6 @@
    0,
    "",
    1792686736.9727132
-  ],
-  "q:modern warfare 4's dmz": [
-   0,
-   "",
-   1792605684.4314716
-  ],
-  "q:modern warfare 4's dmz players": [
-   0,
-   "",
-   1792605683.9462204
-  ],
-  "q:modern warfare 4's dmz players are": [
-   0,
-   "",
-   1792605683.4008067
   ],
   "q:monster": [
    0,
@@ -28892,16 +28777,6 @@
    "",
    1792607495.7928698
   ],
-  "q:new battlefront": [
-   0,
-   "",
-   1792605721.354561
-  ],
-  "q:new battlefront title": [
-   0,
-   "",
-   1792605720.8605154
-  ],
   "q:new mass": [
    0,
    "",
@@ -28951,11 +28826,6 @@
    0,
    "",
    1792764349.5579765
-  ],
-  "q:next mass effect canceled": [
-   0,
-   "",
-   1792605703.634028
   ],
   "q:nintendo legend": [
    0,
@@ -29407,31 +29277,6 @@
    "Planet Zoo 2",
    1791894812.7149363
   ],
-  "q:plans": [
-   0,
-   "",
-   1792605746.8802834
-  ],
-  "q:plans to continue": [
-   0,
-   "",
-   1792605746.360541
-  ],
-  "q:plans to continue the battlefield": [
-   0,
-   "",
-   1792605745.8877945
-  ],
-  "q:plans to continue the battlefield franchise": [
-   0,
-   "",
-   1792605744.9073691
-  ],
-  "q:plans to continue the battlefield franchise'": [
-   0,
-   "",
-   1792605745.413137
-  ],
   "q:plants vs zombies": [
    3590,
    "Plants vs. Zombies GOTY Edition",
@@ -29641,11 +29486,6 @@
    0,
    "",
    1792656090.11945
-  ],
-  "q:project": [
-   0,
-   "",
-   1792605729.811487
   ],
   "q:projekt": [
    759000,
@@ -29877,6 +29717,21 @@
    "",
    1792666907.933069
   ],
+  "q:release": [
+   0,
+   "",
+   1792780406.0622594
+  ],
+  "q:release date": [
+   0,
+   "",
+   1792780405.4094996
+  ],
+  "q:release date revealed": [
+   0,
+   "",
+   1792780404.698531
+  ],
   "q:release window": [
    0,
    "",
@@ -29977,6 +29832,11 @@
    "",
    1792612903.7039487
   ],
+  "q:reset": [
+   0,
+   "",
+   1792780388.9932835
+  ],
   "q:resident evil": [
    304240,
    "Resident Evil",
@@ -30061,16 +29921,6 @@
    1922940,
    "Respawn",
    1792605717.442696
-  ],
-  "q:respawn entertainment": [
-   0,
-   "",
-   1792605716.9527087
-  ],
-  "q:respawn entertainment and dice": [
-   0,
-   "",
-   1792605716.453075
   ],
   "q:returned": [
    5258070,
@@ -30362,26 +30212,6 @@
    "Satisfactory",
    1791853950.2996902
   ],
-  "q:saudi": [
-   0,
-   "",
-   1792605790.0959024
-  ],
-  "q:saudi arabia": [
-   0,
-   "",
-   1792605789.5992424
-  ],
-  "q:saudi arabia's 55bn": [
-   0,
-   "",
-   1792605789.1286037
-  ],
-  "q:saudi arabia's 55bn ea": [
-   0,
-   "",
-   1792605788.608602
-  ],
   "q:secretlab": [
    0,
    "",
@@ -30561,21 +30391,6 @@
    0,
    "",
    1792677745.9439561
-  ],
-  "q:sims": [
-   0,
-   "",
-   1792605725.9015884
-  ],
-  "q:sims'": [
-   0,
-   "",
-   1792605730.8155174
-  ],
-  "q:sims' franchise": [
-   0,
-   "",
-   1792605730.3187878
   ],
   "q:skate": [
    3354750,
@@ -31412,16 +31227,6 @@
    "",
    1792688782.3546252
   ],
-  "q:upgrades for each vehicle": [
-   0,
-   "",
-   1792605698.7311845
-  ],
-  "q:upgrades for each vehicle in star": [
-   0,
-   "",
-   1792605698.101453
-  ],
   "q:us september": [
    0,
    "",
@@ -31726,26 +31531,6 @@
    0,
    "",
    1792686740.1824234
-  ],
-  "q:warfare 4's dmz": [
-   0,
-   "",
-   1792605686.4964461
-  ],
-  "q:warfare 4's dmz players": [
-   0,
-   "",
-   1792605686.007868
-  ],
-  "q:warfare 4's dmz players are": [
-   0,
-   "",
-   1792605685.5344415
-  ],
-  "q:warfare 4's dmz players are losing": [
-   0,
-   "",
-   1792605684.918491
   ],
   "q:warlock dungeons dragons": [
    3714800,
@@ -32097,11 +31882,6 @@
    "",
    1792676023.5720632
   ],
-  "q:working": [
-   0,
-   "",
-   1792605720.3878653
-  ],
   "q:working on a great": [
    0,
    "",
@@ -32111,21 +31891,6 @@
    0,
    "",
    1792652488.5891325
-  ],
-  "q:working on a new": [
-   0,
-   "",
-   1792605719.8832197
-  ],
-  "q:working on a new battlefront": [
-   0,
-   "",
-   1792605719.3935559
-  ],
-  "q:working on a new battlefront title": [
-   0,
-   "",
-   1792605718.904852
   ],
   "q:world": [
    0,
@@ -32181,11 +31946,6 @@
    0,
    "",
    1792690329.8783
-  ],
-  "q:wow forever is continuing": [
-   0,
-   "",
-   1792605706.1606007
   ],
   "q:wow forever is getting": [
    0,
@@ -32408,13 +32168,12 @@
    "anduril",
    "apple",
    "apple music",
-   "baldur’s gate 3",
    "colossal biosciences",
    "galaxy fold8",
    "galaxy fold8 ultra",
    "google",
+   "iphone duo",
    "ipod",
-   "larian studios",
    "lg",
    "navi",
    "predator",
@@ -32445,66 +32204,6 @@
   ]
  },
  "titles": [
-  [
-   1792605714.4731066,
-   "WoW: Forever Is Continuing A Long-Running Questing Tradition"
-  ],
-  [
-   1792605723.8768167,
-   "Respawn Entertainment and DICE are Working on a New Battlefront Title"
-  ],
-  [
-   1792605734.4982746,
-   "EA Has Canceled a Project from the ‘Sims’ Franchise"
-  ],
-  [
-   1792605739.3747416,
-   "Neon Boards ‘NAZA’ to Expand Distribution for Documentary About Israel’s Military Strikes on Gaza"
-  ],
-  [
-   1792605742.9219325,
-   "BioWare is closing after 30 years"
-  ],
-  [
-   1792605786.1700678,
-   "EA ‘Plans to Continue the Battlefield Franchise’ Amid Layoffs and Studio Closure"
-  ],
-  [
-   1792607491.6169393,
-   "Another Day, Another Pokemon Card Heist Worth Nearly $1 Million"
-  ],
-  [
-   1792607501.2287512,
-   "Rayman Legends Retold’s New Baguette Costumes Are A Tip Of The Beret To Expedition 33"
-  ],
-  [
-   1792607504.26683,
-   "Everything We Know About The ‘Fake Skating’ Film Adaptation So Far"
-  ],
-  [
-   1792607523.2068498,
-   "Ignea Joined By Britta Görtz of Hiraes For “Harmony Manufactured” Music Video"
-  ],
-  [
-   1792607526.3662355,
-   "Esther McGregor & Emilio Sakraya Officially Board ‘Fourth Wing’ TV Series"
-  ],
-  [
-   1792607530.8421407,
-   "Metallica share \"Welcome Home (Sanitarium)\" Sphere performance video"
-  ],
-  [
-   1792607533.8121748,
-   "Killswitch Engage, Jinjer, Clutch, etc. added to 2027 Rock am Ring & Rock im Park festivals"
-  ],
-  [
-   1792607537.711847,
-   "Heilung announce Australian/New Zealand tour"
-  ],
-  [
-   1792607540.6289346,
-   "Downswing appear on latest Audiotree Live"
-  ],
   [
    1792609319.6452477,
    "EA Confirms DICE and Respawn Are Collaborating on a New Project Amidst Star Wars: Battlefront 3 Rumors"
@@ -34488,69 +34187,37 @@
   [
    1792778501.8112395,
    "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring"
+  ],
+  [
+   1792780386.8890176,
+   "System Of A Down Announce Second Rose Bowl Stadium Show With Pierce The Veil"
+  ],
+  [
+   1792780396.4145117,
+   "As devastating Xbox \"reset\" continues, Dishonored studio Arkane Lyon reportedly only has until November to find a new buyer before it's closed"
+  ],
+  [
+   1792780398.8292606,
+   "Фанат Dota 2 створив мобільну версію гри"
+  ],
+  [
+   1792780414.383776,
+   "Fallout Shelter: The Experiment Release Date Revealed by Prime Video"
+  ],
+  [
+   1792780417.3485618,
+   "Skrapegoat (Ex-Skrape, Etc.) Announce Their First-Ever Live Show"
+  ],
+  [
+   1792780421.2162957,
+   "Bullet For My Valentine, Vana and Sullivan King added to Welcome To Rockville 2027 line up"
+  ],
+  [
+   1792780430.6788073,
+   "Between The Buried And Me, Sleeping Giant and more revealed for Hellfest West 2027"
   ]
  ],
  "titles_uk": [
-  [
-   1792605714.4731073,
-   "У World of Warcraft: Forever повернеться традиція арени огрів"
-  ],
-  [
-   1792605723.8768175,
-   "DICE та Respawn Entertainment працюють над новою грою серії Battlefront"
-  ],
-  [
-   1792605734.498275,
-   "EA скасувала розробку проєкту Project Lotus у серії Sims"
-  ],
-  [
-   1792605739.3747423,
-   "Neon долучилася до дистрибуції документалки NAZA про удари Ізраїлю по Сектору Газа"
-  ],
-  [
-   1792605742.9219337,
-   "BioWare закривається після 30 років роботи"
-  ],
-  [
-   1792605786.1700687,
-   "EA звільняє 400 людей, закриває BioWare та готує новий Battlefield"
-  ],
-  [
-   1792607491.6169403,
-   "У Каліфорнії з фургона FedEx викрали картки Pokémon на мільйон доларів"
-  ],
-  [
-   1792607501.2287521,
-   "У Rayman Legends Retold зʼявляться костюми у стилі Clair Obscur: Expedition 33"
-  ],
-  [
-   1792607504.266831,
-   "Роман Lynn Painter «Fake Skating» отримає екранізацію від Sony Pictures"
-  ],
-  [
-   1792607523.2068508,
-   "Ignea випустили кліп на сингл “Harmony Manufactured” за участю Брітти Гертц"
-  ],
-  [
-   1792607526.3662367,
-   "Естер МакГрегор та Еміліо Сакрайя отримали головні ролі в серіалі Fourth Wing"
-  ],
-  [
-   1792607530.8421419,
-   "Metallica показала відео виконання \"Welcome Home (Sanitarium)\" у Sphere"
-  ],
-  [
-   1792607533.8121762,
-   "Killswitch Engage, Jinjer та Clutch поповнили лайнап Rock am Ring та Rock im Park"
-  ],
-  [
-   1792607537.7118478,
-   "Гурт Heilung анонсував тур Австралією та Новою Зеландією"
-  ],
-  [
-   1792607540.6289356,
-   "Downswing виступили на Audiotree Live"
-  ],
   [
    1792609319.6452491,
    "EA підтвердила співпрацю DICE та Respawn над новим проєктом на тлі чуток про Star Wars: Battlefront 3"
@@ -36534,6 +36201,34 @@
   [
    1792778501.8112402,
    "Аудит OpenAI виявив серйозні прогалини в моніторингу безпеки ШІ"
+  ],
+  [
+   1792780386.8890185,
+   "System Of A Down анонсували другий концерт на Rose Bowl Stadium разом із Pierce The Veil"
+  ],
+  [
+   1792780396.4145126,
+   "Студія Arkane Lyon має час до листопада на пошук нового покупця"
+  ],
+  [
+   1792780398.8292613,
+   "Фанат Dota 2 створив мобільну версію гри"
+  ],
+  [
+   1792780414.3837764,
+   "Прем'єру реаліті-шоу Fallout Shelter: The Experiment призначили на 2027 рік"
+  ],
+  [
+   1792780417.3485622,
+   "Skrapegoat анонсували свій дебютний живий виступ"
+  ],
+  [
+   1792780421.2162962,
+   "Bullet For My Valentine, Sullivan King і Vana долучилися до складу Welcome To Rockville 2027"
+  ],
+  [
+   1792780430.678808,
+   "Hellfest West 2027 оголосив перших учасників фестивалю"
   ]
  ],
  "ukrainian": {
@@ -38764,7 +38459,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792775327.0947707,
+  "last_check": 1792780439.156173,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
