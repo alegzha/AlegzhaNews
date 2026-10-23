@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1792720877.6760697
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1792720875.3860028
+  }
+ },
  "daily_digest_date": "2026-10-22",
  "freebies": {
   "last_check": 1792719099.909589,
@@ -14,11 +27,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-23 01:31 UTC",
+  "at": "2026-10-23 02:01 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
@@ -14350,7 +14363,6 @@
       "https://www.slashfilm.com/2294747/tom-skerritt-alien-top-gun-actor-dead-93/"
      ]
     ],
-    "caption": "🎬 <b>Помер актор із фільмів Alien та Top Gun Том Скеррітт</b>\n\nУ віці 93 років помер американський актор Том Скеррітт, чия кар&#x27;єра тривала понад 60 років. Він виконав ролі у стрічках Alien, Top Gun та M*A*S*H, а також отримав премію «Еммі» за головну роль у серіалі Picket Fences.\n\n🔗 <a href=\"https://deadline.com/2026/10/tom-skerritt-dead-top-gun-actor-1237171003/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/tom-skerritt-dead-top-gun-actor-1237171003/",
     "orig": "Tom Skerritt Dies: ‘Top Gun,’ ‘Picket Fences,’ ‘Alien’ Actor Was 93"
@@ -14364,7 +14376,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Comcast готується до розділення компанії з NBCUniversal</b>\n\nГолова Comcast Браян Робертс заявив про високу зацікавленість співробітників у майбутньому відокремленні NBCUniversal від підрозділу широкосмугового зв&#x27;язку, телебачення та бездротових мереж. Завершення процесу очікується до середини 2027 року, після чого NBCU стане самостійною компанією під керівництвом Майка Кавана.\n\n🔗 <a href=\"https://deadline.com/2026/10/comcast-nbcuniversal-split-brian-roberts-1237170992/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/comcast-nbcuniversal-split-brian-roberts-1237170992/",
     "orig": "Comcast Co-CEO Brian Roberts Touts Staffers’ “Energy And Excitement” About Pending NBCUniversal Split"
@@ -15195,6 +15206,34 @@
     "link": "https://lambgoat.com/news/55499/alex-terrible-slaughter-to-prevail-makes-unprompted-social-media-post-regarding-masculinity/",
     "orig": "Slaughter to Prevail's Alex Terrible makes social media post regarding masculinity"
    }
+  ],
+  [
+   1792720884.341831,
+   2077,
+   "🎬",
+   "Режисер Travis Knight розповів про технології для stop-motion фільму Wildwood",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Режисер Travis Knight розповів про технології для stop-motion фільму Wildwood</b>\n\nРежисер Тревіс Найт розповів про інновації, які використали під час створення фентезійної стрічки Wildwood від студії Laika. Проєкт поєднує традиційну stop-motion анімацію та сучасні технології, ставши найамбітнішою роботою студії.\n\n🔗 <a href=\"https://www.slashfilm.com/2294693/wildwood-director-travis-knight-interview/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2294693/wildwood-director-travis-knight-interview/",
+    "orig": "Wildwood Director Travis Knight Reveals The Innovations That Made The Epic Stop-Motion Film Possible [Exclusive]"
+   }
+  ],
+  [
+   1792720894.3090866,
+   2078,
+   "🎮",
+   "IGN опублікував прев'ю Wo Long 2: Wings of Ember",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>IGN опублікував прев&#x27;ю Wo Long 2: Wings of Ember</b>\n\nЖурналіст поділився враженнями від раннього демо Wo Long 2: Wings of Ember, розповівши про візуальний стиль, бойову систему та битву з босом на ім&#x27;я Wugu. Розробники Masaaki Yamagiwa та Mazakazu Hirayama зазначили, що на швидкий темп гральної механіки надихнули китайські бойові мистецтва.\n\n🔗 <a href=\"https://www.ign.com/articles/wo-long-2-wings-of-ember-gets-wuxia-and-let-me-fight-a-horrific-spider-thing-ign-preview\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/wo-long-2-wings-of-ember-gets-wuxia-and-let-me-fight-a-horrific-spider-thing-ign-preview",
+    "orig": "Wo Long 2: Wings of Ember Gets Wuxia… and Let Me Fight a Horrific Spider Thing | IGN Preview"
+   }
   ]
  ],
  "posted_by_source": {
@@ -15277,8 +15316,6 @@
    1792693893.9966717
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1792623687.665301,
-   1792627362.705031,
    1792634504.9746244,
    1792666915.297291,
    1792677705.8410907,
@@ -15289,7 +15326,8 @@
    1792688583.1796968,
    1792699465.6265771,
    1792702991.1673656,
-   1792710085.7565434
+   1792710085.7565434,
+   1792720894.309544
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1792668748.8697956,
@@ -15380,12 +15418,12 @@
    1792683228.1050253
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
-   1792630892.4833689,
    1792639876.5397644,
    1792641696.6376028,
    1792683152.435339,
    1792715488.2618792,
-   1792715491.320181
+   1792715491.320181,
+   1792720884.3422146
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792515873.2258618,
@@ -15841,6 +15879,7 @@
   "161709a34472e364": 1792391498.2973442,
   "161b36d52109d7b8": 1791926990.782292,
   "162c805611bb35d0": 1792494181.5949442,
+  "169f27f3632548ff": 1792720894.3094978,
   "16d80dc85c36c16e": 1792663508.3950005,
   "170c2bc4b14b8df1": 1792314136.20962,
   "17106c50e50d6002": 1792611101.9117157,
@@ -16118,6 +16157,7 @@
   "3038e450a09e3776": 1792371702.243978,
   "30708e5e125d291c": 1792685391.502244,
   "30830af5458b317f": 1792596703.6485708,
+  "3085291e223eefb2": 1792720884.3421679,
   "3088197c276e6e0d": 1792679454.2770658,
   "30905c3403f9ca5b": 1792571491.704074,
   "30be303575f979d2": 1792177237.6718464,
@@ -19503,7 +19543,7 @@
    "Variety": 1
   },
   "sources": {
-   "/Film": 28,
+   "/Film": 29,
    "AIN.ua": 4,
    "Blabbermouth": 59,
    "Bloomberg": 43,
@@ -19518,7 +19558,7 @@
    "GamesIndustry.biz": 18,
    "GitHub Trending": 16,
    "Hugging Face": 6,
-   "IGN": 63,
+   "IGN": 64,
    "ITC.ua": 48,
    "IndieWire": 21,
    "Insider Gaming": 71,
@@ -19546,7 +19586,7 @@
   "translators": {
    "DeepL": 21,
    "gemini-flash-latest": 86,
-   "gemini-flash-lite-latest": 994
+   "gemini-flash-lite-latest": 996
   },
   "week": "2026-W43"
  },
@@ -20125,6 +20165,21 @@
    0,
    "",
    1792578680.2973378
+  ],
+  "q:2 wings": [
+   0,
+   "",
+   1792720891.2915833
+  ],
+  "q:2 wings of ember": [
+   0,
+   "",
+   1792720890.5858717
+  ],
+  "q:2 wings of ember gets": [
+   0,
+   "",
+   1792720890.0216093
   ],
   "q:2's open world era": [
    0,
@@ -25806,6 +25861,21 @@
    "",
    1792605694.2163029
   ],
+  "q:long 2": [
+   0,
+   "",
+   1792720889.5155685
+  ],
+  "q:long 2 wings": [
+   0,
+   "",
+   1792720888.9152768
+  ],
+  "q:long 2 wings of ember": [
+   0,
+   "",
+   1792720888.3504531
+  ],
   "q:long game": [
    0,
    "",
@@ -29856,6 +29926,21 @@
    "",
    1792665192.3841755
   ],
+  "q:wings of ember": [
+   0,
+   "",
+   1792720892.929203
+  ],
+  "q:wings of ember gets": [
+   0,
+   "",
+   1792720892.3618665
+  ],
+  "q:wings of ember gets wuxia": [
+   0,
+   "",
+   1792720891.863618
+  ],
   "q:witcher": [
    0,
    "",
@@ -29895,6 +29980,21 @@
    0,
    "",
    1792602117.2025154
+  ],
+  "q:wo long": [
+   0,
+   "",
+   1792720887.7780926
+  ],
+  "q:wo long 2": [
+   0,
+   "",
+   1792720887.2552426
+  ],
+  "q:wo long 2 wings": [
+   0,
+   "",
+   1792720886.5360868
   ],
   "q:wolverine": [
    0,
@@ -30240,14 +30340,6 @@
   ]
  },
  "titles": [
-  [
-   1792546315.9597116,
-   "AI Neocloud Elice’s CEO Sees Sales Doubling After Shares Rebound"
-  ],
-  [
-   1792548084.5308821,
-   "The Rolling Stones release upbeat, sax-powered single Who You Callin' Crazy"
-  ],
   [
    1792549879.5038533,
    "Carrie Includes A Clever Easter Egg For Mike Flanagan's Exorcist Movie"
@@ -32231,17 +32323,17 @@
   [
    1792719090.6347818,
    "Slaughter to Prevail's Alex Terrible makes social media post regarding masculinity"
+  ],
+  [
+   1792720884.3421695,
+   "Wildwood Director Travis Knight Reveals The Innovations That Made The Epic Stop-Motion Film Possible [Exclusive]"
+  ],
+  [
+   1792720894.3094995,
+   "Wo Long 2: Wings of Ember Gets Wuxia… and Let Me Fight a Horrific Spider Thing | IGN Preview"
   ]
  ],
  "titles_uk": [
-  [
-   1792546315.9597125,
-   "Південнокорейська ШІ-компанія Elice планує подвоїти виручку цього року"
-  ],
-  [
-   1792548084.5308828,
-   "The Rolling Stones випустили новий сингл Who You Callin' Crazy"
-  ],
   [
    1792549879.503854,
    "У серіалі Carrie від Майка Фланегана знайшли пасхалку на The Exorcist"
@@ -34225,6 +34317,14 @@
   [
    1792719090.6347826,
    "Алекс Террибл із Slaughter to Prevail висловився про маскулінність"
+  ],
+  [
+   1792720884.34217,
+   "Режисер Travis Knight розповів про технології для stop-motion фільму Wildwood"
+  ],
+  [
+   1792720894.3095005,
+   "IGN опублікував прев'ю Wo Long 2: Wings of Ember"
   ]
  ],
  "ukrainian": {
