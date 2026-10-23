@@ -1,10 +1,22 @@
 {
  "alerts": {
-  "src:software|AIN.ua|https://ain.ua/feed/": {
-   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out.",
-   "label": "Джерело «AIN.ua» не працює",
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → HTTPSConnectionPool(host='www.decibelmagazine.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Decibel» не працює",
    "sent": 0,
-   "since": 1792774923.1559157
+   "since": 1792775766.7762837
+  },
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1792775768.2924604
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1792775746.6434343
   }
  },
  "daily_digest_date": "2026-10-22",
@@ -21,11 +33,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-23 17:08 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-10-23 17:17 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 14
+   "gemini-flash-lite-latest": 9
   },
   "used": [
    "Gemini"
@@ -16344,7 +16356,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Кіберспортивна організація LYON вийшла з дисципліни Valorant</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/3710850/\">Become</a>\n\n🔗 <a href=\"https://insider-gaming.com/lyon-become-latest-org-to-withdraw-from-valorant/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/lyon-become-latest-org-to-withdraw-from-valorant/",
     "orig": "LYON Become Latest Org to Withdraw from Valorant"
@@ -16358,7 +16369,6 @@
    "Loudwire",
    {
     "also": [],
-    "caption": "🤘 <b>Анонсовано 11 нових рок- і метал-турів</b>\n\n🔗 <a href=\"https://loudwire.com/new-rock-metal-tours-oct-16-22-2026/\">Loudwire</a>\n\n#музика",
     "kind": "photo",
     "link": "https://loudwire.com/new-rock-metal-tours-oct-16-22-2026/",
     "orig": "11 New Rock + Metal Tours Announced This Past Week"
@@ -16372,7 +16382,6 @@
    "GameSpot",
    {
     "also": [],
-    "caption": "🎮 <b>Дивні репліки The Board у <a href=\"https://store.steampowered.com/app/3669870/\">Control Resonant</a> виявилися навмисною нісенітницею</b>\n\n🔗 <a href=\"https://www.gamespot.com/articles/control-resonant-unsettling-board-dialogue-is-carefully-crafted-gibberish/\">GameSpot</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamespot.com/articles/control-resonant-unsettling-board-dialogue-is-carefully-crafted-gibberish/",
     "orig": "Control Resonant’s Unsettling Board Dialogue Is Carefully Crafted Gibberish"
@@ -16386,7 +16395,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>У Китаї знову зростають гуртові ціни на відеокарти, тож готуйтеся до нового подорожчання GPU</b>\n\nА я вже думав, що гірше бути не може\n\n🔗 <a href=\"https://www.pcgamer.com/hardware/graphics-cards/graphics-card-wholesale-prices-are-on-the-rise-once-again-in-china-so-its-time-to-brace-yourself-for-even-more-gpu-pricing-pain/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/hardware/graphics-cards/graphics-card-wholesale-prices-are-on-the-rise-once-again-in-china-so-its-time-to-brace-yourself-for-even-more-gpu-pricing-pain/",
     "orig": "Graphics card wholesale prices are on the rise once again in China, so it's time to brace yourself for even more GPU pricing pain"
@@ -16400,7 +16408,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Який розділ <a href=\"https://store.steampowered.com/app/2650890/\">DMZ</a> обрати на старті в Call of Duty: Modern Warfare 4</b>\n\nПісля проходження навчання в режимі DMZ у Call of Duty: Modern Warfare 4 гравці можуть обрати один із трьох стартових розділів, кожен із яких пропонує унікальні місії та нагороди. Розділ &quot;Underground&quot; дає рецепти для крафту, &quot;Human Intel&quot; допомагає в боях завдяки UAV, а всі невибрані розділи стануть доступні згодом.\n\n🔗 <a href=\"https://www.polygon.com/mw4-modern-warfare-4-dmz-chapters-which-first/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/mw4-modern-warfare-4-dmz-chapters-which-first/",
     "orig": "Which chapter should you choose first in DMZ in Modern Warfare 4?"
@@ -16414,7 +16421,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🎮 <b>Epic Games проводить конкурс на найкращу ШІ-гру з призовим фондом $50 тисяч</b>\n\nEpic Games оголосила конкурс 2026 Epic AI MegaJam зі створення ігор за допомогою ШІ. Команди зможуть виграти частину призового фонду в $50 000, використовуючи Unreal Engine або UEFN та необмежену кількість ШІ-агентів.\n\n🔗 <a href=\"https://mezha.ua/news/epic-games-ai-game-tournament-316478/\">Mezha</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://mezha.ua/news/epic-games-ai-game-tournament-316478/",
     "orig": "Epic Games проводить конкурс на найкращу ШІ-гру з призовим фондом $50 тисяч"
@@ -16428,7 +16434,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b>GameMaker зробить раннтайм GMRT безплатним для комерційного використання у <a href=\"https://store.steampowered.com/app/5089480/\">2027</a> році</b>\n\nЗ 1 січня 2027 року рушій GameMaker зробить своє нове середовище виконання GMRT повністю безплатним для комерційного використання. Розробники зможуть створювати та поширювати ігри без купівлі професійної ліцензії, проте для експорту на консолі й надалі потрібна enterprise-ліцензія.\n\n🔗 <a href=\"https://www.gamesindustry.biz/gamemaker-to-make-its-next-generation-runtime-gmrt-free-for-commercial-use-in-january-2027\">GamesIndustry.biz</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/gamemaker-to-make-its-next-generation-runtime-gmrt-free-for-commercial-use-in-january-2027",
     "orig": "GameMaker to make its \"next-generation runtime\" GMRT free for commercial use in January 2027"
@@ -16442,7 +16447,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/1086940/\">Baldur’s Gate 3</a> продалася накладом 23,2 млн копій і принесла понад $1,2 млрд виторгу</b>\n\nAlinea Analytics оцінила продажі Baldur’s Gate 3 у 23,2 млн копій, а валовий виторг – у понад $1,2 млрд. На Steam припало 80,6% усіх проданих копій гри.\n\n🔗 <a href=\"https://mezha.ua/news/baldur-s-gate-3-total-sales-316480/\">Mezha</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://mezha.ua/news/baldur-s-gate-3-total-sales-316480/",
     "orig": "Baldur’s Gate 3 продалася накладом 23,2 млн копій і принесла понад $1,2 млрд виторгу"
@@ -17122,7 +17126,12 @@
    "Барабанщик Coal Chamber зламав стегно через падіння на баскетбольному майданчику",
    "ThePRP",
    {
-    "also": [],
+    "also": [
+     [
+      "Lambgoat",
+      "https://lambgoat.com/news/55513/coal-chamber-drummer-mikey-bug-cox-breaks-femur-to-miss-immediate-shows/"
+     ]
+    ],
     "caption": "🤘 <b>Барабанщик Coal Chamber зламав стегно через падіння на баскетбольному майданчику</b>\n\nБарабанщик Coal Chamber Майкі Кокс зламав стегно під час гри в баскетбол і потребує операції. Через це музикант пропустить найближчі виступи гурту на фестивалі Sick New World Texas та в Анахаймі. На найближчих концертах його тимчасово замінить Дав&#x27;єр Перес Ортега з DevilDriver.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/23/news/coal-chambers-mikey-bug-cox-suffers-broken-femur-band-tap-devildriver-drummer-for-immediate-shows/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/23/news/coal-chambers-mikey-bug-cox-suffers-broken-femur-band-tap-devildriver-drummer-for-immediate-shows/",
@@ -17212,6 +17221,118 @@
     "link": "https://metalinjection.net/news/slaughter-to-prevails-alex-terrible-says-f-all-this-masculinity-bull-wants-to-be-strong-in-spirit",
     "orig": "Slaughter to Prevail’s Alex Terrible Says “F*** All This Masculinity Bull***,” Wants to Be “Strong In Spirit”"
    }
+  ],
+  [
+   1792775778.1796663,
+   2226,
+   "🤘",
+   "Haywire анонсували ще один масштабний тур на 2027 рік",
+   "Metal Injection",
+   {
+    "also": [],
+    "caption": "🤘 <b>Haywire анонсували ще один масштабний тур на 2027 рік</b>\n\nОце так продуктивність.\n\n🔗 <a href=\"https://metalinjection.net/tour-dates/haywire-announces-another-massive-tour-for-2027\">Metal Injection</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://metalinjection.net/tour-dates/haywire-announces-another-massive-tour-for-2027",
+    "orig": "Haywire Announces Another Massive Tour For 2027"
+   }
+  ],
+  [
+   1792775784.6466124,
+   2227,
+   "🤘",
+   "Starset стали гостями шоу Paranormal Prison",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Starset стали гостями шоу Paranormal Prison</b>\n\nГурт Starset взяв участь у п&#x27;ятому епізоді четвертого сезону шоу Paranormal Prison. Музиканти та їхні родичі вирушили на полювання на привидів до виправної колонії штату Огайо під час фестивалю Inkcarceration 2026 року.\n\n🔗 <a href=\"https://loudwire.com/starset-paranormal-prison-ghost-hunt/\">Loudwire</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://loudwire.com/starset-paranormal-prison-ghost-hunt/",
+    "orig": "Starset's 'Paranormal Prison' Ghost Hunt"
+   }
+  ],
+  [
+   1792775790.182175,
+   2228,
+   "🎮",
+   "Чому Final Fantasy повернулася до 2D",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🎮 <b>Чому <a href=\"https://store.steampowered.com/app/1173770/\">Final Fantasy</a> повернулася до <a href=\"https://store.steampowered.com/app/2825780/\">2D</a></b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/5258070/\">Returned</a>\n\nНова гра Final Fantasy Resonance є чудовим посиланням на минуле культової франшизи\n\n🔗 <a href=\"https://www.bloomberg.com/news/newsletters/2026-10-23/why-final-fantasy-returned-to-2d\">Bloomberg</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.bloomberg.com/news/newsletters/2026-10-23/why-final-fantasy-returned-to-2d",
+    "orig": "Why ‘Final Fantasy’ Returned To 2D"
+   }
+  ],
+  [
+   1792775794.0519826,
+   2229,
+   "🤘",
+   "Проєкт Single Print Index випустив дебютний EP CONFESSIONS",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Проєкт Single Print Index випустив дебютний EP CONFESSIONS</b>\n\nМеталік-хардкор-проєкт Single Print Index, створений учасниками Code Orange та Pain Clinic, випустив дебютний EP із п&#x27;яти треків під назвою CONFESSIONS. У записі фінальної пісні взяв участь вокаліст гурту Missing Link Майк Раян.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/23/news/single-print-index-code-orange-etc-release-their-debut-ep-confessions/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/23/news/single-print-index-code-orange-etc-release-their-debut-ep-confessions/",
+    "orig": "Single Print Index (Code Orange, Etc.) Release Their Debut EP “CONFESSIONS”"
+   }
+  ],
+  [
+   1792775807.6456988,
+   2230,
+   "🎮",
+   "MIBR перевела весь склад у запас перед сезоном VCT 2027",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>MIBR перевела весь склад у запас перед сезоном VCT 2027</b>\n\nКіберспортивна організація MIBR посадила на лаву запасних увесь активний склад Valorant, зокрема Erick ‘aspas’ Santos та Zachary ‘zekken’ Patrone. Гравці залишаються на контракті, але доступні для трансферних переговорів перед сезоном VCT 2027.\n\n🔗 <a href=\"https://insider-gaming.com/aspas-zekken-amongst-benched-players-as-mibr-evaluates-roster/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/aspas-zekken-amongst-benched-players-as-mibr-evaluates-roster/",
+    "orig": "aspas & zekken Amongst Benched Players as MIBR Evaluates Roster"
+   }
+  ],
+  [
+   1792775811.579548,
+   2231,
+   "🎬",
+   "Black Bear випускає у прокат фільм Wicker із Олівією Колман",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Black Bear випускає у прокат фільм Wicker із Олівією Колман</b>\n\nКомпанія Black Bear випускає у 1400 кінотеатрах середньовічну романтичну стрічку Wicker, яка на фестивалі Sundance зібрала позитивні відгуки. Фільм розповідає про рибачку у виконанні Олівії Колман, яка замовляє чоловіка з лози (Александр Скашгорд), що повністю змінює життя у селі. Картина має зібрати в американському прокаті $6–8 мільйонів.\n\n🔗 <a href=\"https://www.indiewire.com/news/box-office/wicker-black-bear-breakout-box-office-erotic-drama-1235223545/\">IndieWire</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/news/box-office/wicker-black-bear-breakout-box-office-erotic-drama-1235223545/",
+    "orig": "Will ‘Wicker’ Be Black Bear’s First Big Breakout?"
+   }
+  ],
+  [
+   1792775814.6803572,
+   2232,
+   "🤘",
+   "Wisdom in Chains випустили сингл пам'яті Лу Коллера із Sick of It All",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Wisdom in Chains випустили сингл пам&#x27;яті Лу Коллера із Sick of It All</b>\n\nГурт Wisdom in Chains презентував новий сингл «What This Means (For Lou)», присвячений покійному вокалисту Sick of It All Лу Коллеру. У записі треку взяв участь Майкл МакКолган із Street Dogs, а в інтро звучить голос Вінні Стігми з Agnostic Front.\n\n🔗 <a href=\"https://lambgoat.com/news/55511/wisdom-in-chains-issue-new-single-dedicated-to-late-sick-of-it-all-frontman-lou-koller/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55511/wisdom-in-chains-issue-new-single-dedicated-to-late-sick-of-it-all-frontman-lou-koller/",
+    "orig": "Wisdom in Chains issue new single dedicated to late Sick of It All frontman Lou Koller"
+   }
+  ],
+  [
+   1792775819.1381273,
+   2233,
+   "🤘",
+   "Incendiary та Angel Du$t анонсували спільні концерти у Великій Британії та Ірландії",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Incendiary та Angel Du$t анонсували спільні концерти у Великій Британії та Ірландії</b>\n\nХардкор-гурт Incendiary виступить разом із Angel Du$t на двох шоу. Концерти відбудуться 4 листопада на фестивалі Core. у Глазго та 15 листопада в Дубліні, що стане першим виступом Incendiary в Ірландії.\n\n🔗 <a href=\"https://lambgoat.com/news/55514/incendiary-to-join-angel-dut-for-a-pair-of-shows-in-uk-and-ireland/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55514/incendiary-to-join-angel-dut-for-a-pair-of-shows-in-uk-and-ireland/",
+    "orig": "Incendiary to join Angel Du$t for a pair of shows in UK and Ireland"
+   }
   ]
  ],
  "posted_by_source": {
@@ -17254,7 +17375,7 @@
    1792771410.3416219
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
-   1792603251.2103841
+   1792775790.1825686
   ],
   "games|DOU Gamedev|https://gamedev.dou.ua/feed/": [
    1792657881.1841717,
@@ -17309,12 +17430,6 @@
    1792753319.5272703
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1792683131.8039527,
-   1792683181.6402433,
-   1792685513.005669,
-   1792686825.8357575,
-   1792686953.4382827,
-   1792688800.9027677,
    1792690327.246617,
    1792692161.991282,
    1792703039.80511,
@@ -17327,7 +17442,8 @@
    1792765977.1708658,
    1792766009.687562,
    1792767818.132169,
-   1792767876.5080495
+   1792767876.5080495,
+   1792775807.646156
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1792695730.2072842,
@@ -17426,11 +17542,11 @@
    1792679701.8954792
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
-   1792689015.112107,
    1792690287.2362118,
    1792693985.2987466,
    1792705445.740621,
-   1792713682.912544
+   1792713682.912544,
+   1792775811.5799167
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1792717287.970738,
@@ -17488,28 +17604,24 @@
    1792767865.3631005
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1792681508.410735,
-   1792681523.9030228,
-   1792687098.2512243,
-   1792687119.1497447,
-   1792687138.9255495,
    1792699546.2940497,
    1792719090.634824,
    1792724501.4404142,
    1792724508.1642582,
    1792731766.496518,
    1792737156.913047,
-   1792766023.118723
+   1792766023.118723,
+   1792775814.680705,
+   1792775819.1385589
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
-   1792681317.6591141,
-   1792686845.75849,
    1792703018.0387626,
    1792704719.8600645,
    1792757027.2244468,
    1792764156.9805028,
    1792765918.629253,
-   1792765961.524217
+   1792765961.524217,
+   1792775784.6470397
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1792706482.7304568,
@@ -17529,7 +17641,8 @@
    1792775015.766963,
    1792775090.7825453,
    1792775182.5334096,
-   1792775318.3794372
+   1792775318.3794372,
+   1792775778.1800466
   ],
   "music|MetalSucks|https://www.metalsucks.net/feed/": [
    1792524128.7106795
@@ -17552,7 +17665,6 @@
    1792711969.8743675
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1792688854.319259,
    1792689495.1172647,
    1792689522.476747,
    1792692149.4834206,
@@ -17574,7 +17686,8 @@
    1792733508.696474,
    1792737148.9854121,
    1792760507.3238375,
-   1792775162.8741145
+   1792775162.8741145,
+   1792775794.0523615
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1792481487.1423821
@@ -17707,6 +17820,7 @@
   "070d309edf47bb38": 1791643484.7724442,
   "071f28d3e5f796e6": 1791654234.9343066,
   "072af63428efce86": 1792593090.9792018,
+  "075fc58dd3fa7288": 1792775819.138509,
   "0765ee737264a646": 1792346490.1110344,
   "076ef6f0a0cc273e": 1792767807.2230222,
   "07b14069038d87c9": 1791920822.7050872,
@@ -17814,6 +17928,7 @@
   "10e8f389674cffc4": 1792422116.755615,
   "10fa9ab0a9d3fc5a": 1792539083.6892653,
   "1109704f8a338d89": 1791978172.9866061,
+  "110e6b51050dd1d1": 1792775775.3801737,
   "112c4b8f082c2b5d": 1792555383.1224189,
   "11400eedc4b2c76a": 1792447297.0684783,
   "11404f300b3e72e9": 1792703013.7061641,
@@ -18454,6 +18569,7 @@
   "488ebf27e797f45a": 1792438383.541762,
   "4895c8ba0e5d0d62": 1792164064.6378188,
   "48ace4d12a5e1a68": 1792074068.3651547,
+  "48afd8e772d8c829": 1792775790.1825209,
   "48c1d13f2287303a": 1792693977.775202,
   "48ce3623efa23556": 1791926699.7028904,
   "48d7fdd73af95c39": 1791978102.8616881,
@@ -18540,6 +18656,7 @@
   "4fb106c0072cfdcf": 1792074088.0890076,
   "4fb2803512702a14": 1792326708.1810756,
   "4fbbb1ca3af32e4f": 1792409485.2444258,
+  "4fc1c2762b0136e0": 1792775778.1799984,
   "4fcea1b174baed31": 1792356786.1583154,
   "4fdc0664f7a50197": 1791926947.4549048,
   "4ff4740e9eec85dc": 1791932593.4533782,
@@ -18691,6 +18808,7 @@
   "5d2ca3784a2c7521": 1792607491.6169372,
   "5d4800dce102de00": 1792056041.1819897,
   "5d52524d6c56762d": 1792470684.6750398,
+  "5d559ffe12d84ad5": 1792775817.3664658,
   "5d7c44f75a5d8b26": 1792668713.496217,
   "5d7dca5016a2ac6f": 1792148864.454799,
   "5d7eec3d292d192b": 1792751594.6375048,
@@ -19408,6 +19526,7 @@
   "990d8cf742a77ea6": 1792668744.1469476,
   "991263f555aebc26": 1792764174.761603,
   "991ef7b7a3250b58": 1792440121.4558704,
+  "9928ec226bc228f0": 1792775807.6461036,
   "992c990b1e975ba9": 1792531914.6894438,
   "99408f846c1c0422": 1792442061.6283753,
   "9985b3d5b28d3bca": 1791769110.1612594,
@@ -19613,6 +19732,7 @@
   "ac8ba5f6ede2d227": 1792632683.560111,
   "ac8dc65c6820c6b9": 1792685420.9590669,
   "accecd5bad150849": 1792619378.764503,
+  "acd4ec7b5a527079": 1792775814.6806595,
   "acdc6d76b5b6f592": 1792443846.8589532,
   "ad237b18af606aac": 1791837735.1525705,
   "ad35b0e5928ef21c": 1792542711.8703473,
@@ -20140,6 +20260,7 @@
   "dbe822ab4d2b272f": 1792555368.7813756,
   "dc0fad3d7802dcb3": 1792335733.3805456,
   "dc1270aa0db7c65a": 1792021766.956465,
+  "dc1b915ea17b22e1": 1792775794.0523136,
   "dc246cacdefc6c46": 1791929854.5939226,
   "dc3d4d65d6bc43f0": 1792681283.120203,
   "dc55187d427ef585": 1792164111.6745892,
@@ -20149,6 +20270,7 @@
   "dcc9a770f06437d1": 1791931828.0050437,
   "dccbd8fd540c8fea": 1792686932.339728,
   "dcd07d675c358a85": 1792273183.7306294,
+  "dd0141dbf568fe6c": 1792775784.6469889,
   "dd26a9579671ab18": 1792483302.2115438,
   "dd4a118cd1cf5fba": 1792429335.2482028,
   "dd4da5d2ce858f2f": 1792504888.0988407,
@@ -20480,6 +20602,7 @@
   "f918db6b6c150779": 1792625478.5477486,
   "f923d9949ea7b1d5": 1792531910.4337246,
   "f935b44df2271b87": 1792429313.9458187,
+  "f93c260a8102c189": 1792775811.5798705,
   "f93d172034fd68a7": 1792675975.6999133,
   "f94fdd8140b4a34d": 1791969263.0458302,
   "f951891a663c07a8": 1792368122.3466702,
@@ -21013,7 +21136,7 @@
   ],
   "artists_checked": 1792767900.9103298,
   "blocked_until": 1792766282.0186863,
-  "cursor": 160,
+  "cursor": 170,
   "digest_week": "2026-W43",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -21765,7 +21888,7 @@
    "/Film": 32,
    "AIN.ua": 5,
    "Blabbermouth": 70,
-   "Bloomberg": 50,
+   "Bloomberg": 51,
    "DOU": 2,
    "DOU Gamedev": 5,
    "Deadline": 69,
@@ -21779,13 +21902,13 @@
    "Hugging Face": 7,
    "IGN": 70,
    "ITC.ua": 55,
-   "IndieWire": 21,
-   "Insider Gaming": 79,
+   "IndieWire": 22,
+   "Insider Gaming": 80,
    "Kerrang!": 30,
-   "Lambgoat": 47,
-   "Loudwire": 24,
+   "Lambgoat": 49,
+   "Loudwire": 25,
    "Metal Hammer (Louder)": 27,
-   "Metal Injection": 19,
+   "Metal Injection": 20,
    "MetalSucks": 1,
    "Mezha": 58,
    "PC Gamer": 73,
@@ -21798,14 +21921,14 @@
    "SteamDB": 2,
    "Stereogum": 12,
    "The Decoder": 25,
-   "ThePRP": 60,
+   "ThePRP": 61,
    "VGC": 30,
    "Variety": 24
   },
   "translators": {
    "DeepL": 24,
    "gemini-flash-latest": 89,
-   "gemini-flash-lite-latest": 1147
+   "gemini-flash-lite-latest": 1156
   },
   "week": "2026-W43"
  },
@@ -23015,6 +23138,21 @@
    "Amnesia: The Dark Descent",
    1792501321.7501497
   ],
+  "q:amongst": [
+   0,
+   "",
+   1792775797.9505622
+  ],
+  "q:amongst benched": [
+   0,
+   "",
+   1792775797.188143
+  ],
+  "q:amongst benched players": [
+   0,
+   "",
+   1792775796.355922
+  ],
   "q:angelfall": [
    5168040,
    "Angelfall",
@@ -23684,6 +23822,16 @@
    1440370,
    "Before Dark",
    1792317845.4245293
+  ],
+  "q:benched": [
+   0,
+   "",
+   1792775799.4820786
+  ],
+  "q:benched players": [
+   0,
+   "",
+   1792775798.5823135
   ],
   "q:best": [
    0,
@@ -25800,6 +25948,16 @@
    "Escape the Backrooms",
    1791742978.727892
   ],
+  "q:evaluates": [
+   0,
+   "",
+   1792775804.0517485
+  ],
+  "q:evaluates roster": [
+   0,
+   "",
+   1792775803.5435255
+  ],
   "q:every": [
    0,
    "",
@@ -26164,21 +26322,6 @@
    0,
    "",
    1792674133.8876534
-  ],
-  "q:first person soulslike": [
-   0,
-   "",
-   1792602174.5948267
-  ],
-  "q:first person soulslike valor": [
-   0,
-   "",
-   1792602174.1214857
-  ],
-  "q:first person soulslike valor mortis": [
-   0,
-   "",
-   1792602173.6342824
   ],
   "q:flag": [
    0,
@@ -26739,21 +26882,6 @@
    2479810,
    "Gray Zone Warfare",
    1792337501.7086034
-  ],
-  "q:gray zone warfare's rogue": [
-   0,
-   "",
-   1792602181.580588
-  ],
-  "q:gray zone warfare's rogue ops": [
-   0,
-   "",
-   1792602180.952016
-  ],
-  "q:gray zone warfare's rogue ops update": [
-   0,
-   "",
-   1792602180.4774652
   ],
   "q:great": [
    0,
@@ -28355,6 +28483,21 @@
    "METRO 2039",
    1791926995.7462077
   ],
+  "q:mibr": [
+   0,
+   "",
+   1792775802.7910838
+  ],
+  "q:mibr evaluates": [
+   0,
+   "",
+   1792775801.786492
+  ],
+  "q:mibr evaluates roster": [
+   0,
+   "",
+   1792775801.14663
+  ],
   "q:microsoft's washington": [
    0,
    "",
@@ -28694,11 +28837,6 @@
    0,
    "",
    1792675909.4004052
-  ],
-  "q:nearly 1": [
-   0,
-   "",
-   1792602164.5000508
   ],
   "q:need for speed": [
    1262540,
@@ -29070,21 +29208,6 @@
    "",
    1792769742.4863367
   ],
-  "q:ops update has me": [
-   0,
-   "",
-   1792602186.0588114
-  ],
-  "q:ops update has me fully": [
-   0,
-   "",
-   1792602185.5196977
-  ],
-  "q:ops update has me fully invested": [
-   0,
-   "",
-   1792602185.043693
-  ],
   "q:order": [
    0,
    "",
@@ -29370,6 +29493,11 @@
    "",
    1792765984.4493487
   ],
+  "q:players": [
+   0,
+   "",
+   1792775800.1021047
+  ],
   "q:playstation 5": [
    0,
    "",
@@ -29594,16 +29722,6 @@
    0,
    "",
    1792666908.4278216
-  ],
-  "q:psa graded": [
-   0,
-   "",
-   1792602165.4551656
-  ],
-  "q:psa graded pok": [
-   0,
-   "",
-   1792602164.9722066
   ],
   "q:psychonauts": [
    3830,
@@ -30000,6 +30118,16 @@
    "",
    1792605716.453075
   ],
+  "q:returned": [
+   5258070,
+   "ReTurned",
+   1792775787.5425408
+  ],
+  "q:returned to 2d": [
+   0,
+   "",
+   1792775786.9083674
+  ],
   "q:returns": [
    0,
    "",
@@ -30130,35 +30258,10 @@
    "",
    1792749737.9587712
   ],
-  "q:rogue": [
+  "q:roster": [
    0,
    "",
-   1792602184.5492206
-  ],
-  "q:rogue ops": [
-   0,
-   "",
-   1792602184.0533178
-  ],
-  "q:rogue ops update": [
-   0,
-   "",
-   1792602183.5588696
-  ],
-  "q:rogue ops update has": [
-   0,
-   "",
-   1792602183.0577335
-  ],
-  "q:rogue ops update has me": [
-   0,
-   "",
-   1792602182.586839
-  ],
-  "q:rogue ops update has me fully": [
-   0,
-   "",
-   1792602182.082847
+   1792775804.8256779
   ],
   "q:rough": [
    0,
@@ -30684,21 +30787,6 @@
    0,
    "",
    1792679480.1472428
-  ],
-  "q:soulslike": [
-   0,
-   "",
-   1792602176.1216896
-  ],
-  "q:soulslike valor": [
-   0,
-   "",
-   1792602175.589358
-  ],
-  "q:soulslike valor mortis": [
-   0,
-   "",
-   1792602175.0780532
   ],
   "q:spector": [
    0,
@@ -32438,7 +32526,6 @@
    "apple music",
    "baldur’s gate 3",
    "colossal biosciences",
-   "epic games",
    "galaxy fold8",
    "galaxy fold8 ultra",
    "google",
@@ -32453,7 +32540,9 @@
    "біотехнології",
    "відео",
    "дата-центри",
+   "зброя",
    "кабмін",
+   "кодифікація",
    "міноборони",
    "новини",
    "оборонка",
@@ -32463,6 +32552,7 @@
    "софт",
    "стримінгові сервіси",
    "технології",
+   "турель",
    "україна",
    "штучний інтелект",
    "ігри",
@@ -34482,6 +34572,38 @@
   [
    1792775318.3793936,
    "Slaughter to Prevail’s Alex Terrible Says “F*** All This Masculinity Bull***,” Wants to Be “Strong In Spirit”"
+  ],
+  [
+   1792775778.1800008,
+   "Haywire Announces Another Massive Tour For 2027"
+  ],
+  [
+   1792775784.6469913,
+   "Starset's 'Paranormal Prison' Ghost Hunt"
+  ],
+  [
+   1792775790.1825233,
+   "Why ‘Final Fantasy’ Returned To 2D"
+  ],
+  [
+   1792775794.0523155,
+   "Single Print Index (Code Orange, Etc.) Release Their Debut EP “CONFESSIONS”"
+  ],
+  [
+   1792775807.6461055,
+   "aspas & zekken Amongst Benched Players as MIBR Evaluates Roster"
+  ],
+  [
+   1792775811.5798726,
+   "Will ‘Wicker’ Be Black Bear’s First Big Breakout?"
+  ],
+  [
+   1792775814.680661,
+   "Wisdom in Chains issue new single dedicated to late Sick of It All frontman Lou Koller"
+  ],
+  [
+   1792775819.1385114,
+   "Incendiary to join Angel Du$t for a pair of shows in UK and Ireland"
   ]
  ],
  "titles_uk": [
@@ -36496,6 +36618,38 @@
   [
    1792775318.3793945,
    "Alex Terrible зі Slaughter to Prevail розкритикував токсичну маскуфінність та хоче бути сильним духом"
+  ],
+  [
+   1792775778.1800013,
+   "Haywire анонсували ще один масштабний тур на 2027 рік"
+  ],
+  [
+   1792775784.6469922,
+   "Starset стали гостями шоу Paranormal Prison"
+  ],
+  [
+   1792775790.182524,
+   "Чому Final Fantasy повернулася до 2D"
+  ],
+  [
+   1792775794.0523162,
+   "Проєкт Single Print Index випустив дебютний EP CONFESSIONS"
+  ],
+  [
+   1792775807.6461067,
+   "MIBR перевела весь склад у запас перед сезоном VCT 2027"
+  ],
+  [
+   1792775811.579873,
+   "Black Bear випускає у прокат фільм Wicker із Олівією Колман"
+  ],
+  [
+   1792775814.680662,
+   "Wisdom in Chains випустили сингл пам'яті Лу Коллера із Sick of It All"
+  ],
+  [
+   1792775819.1385121,
+   "Incendiary та Angel Du$t анонсували спільні концерти у Великій Британії та Ірландії"
   ]
  ],
  "ukrainian": {
