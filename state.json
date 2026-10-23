@@ -1,24 +1,5 @@
 {
- "alerts": {
-  "src:games|Digital Foundry|https://www.digitalfoundry.net/feed": {
-   "detail": "https://www.digitalfoundry.net/feed → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/feed.xml → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.eurogamer.net/feed/digitalfoundry → 404 Client Error: Not Found for url: https://www.eurogamer.net/feed/digitalfoundry",
-   "label": "Джерело «Digital Foundry» не працює",
-   "sent": 0,
-   "since": 1792749681.7550583
-  },
-  "src:games|VGC|https://www.videogameschronicle.com/feed/": {
-   "detail": "https://www.videogameschronicle.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «VGC» не працює",
-   "sent": 0,
-   "since": 1792749668.070153
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → HTTPSConnectionPool(host='www.revolvermag.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1792749708.25891
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-22",
  "freebies": {
   "last_check": 1792749743.7998693,
@@ -33,11 +14,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-23 10:02 UTC",
-  "gemini_error": "",
+  "at": "2026-10-23 10:33 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 5
+   "gemini-flash-lite-latest": 7
   },
   "used": [
    "Gemini"
@@ -15008,7 +14989,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Помер актор серіалу Shazam! Майкл Грей</b>\n\nУ віці 75 років помер Майкл Грей, відомий за роль Біллі Бетсона в телесеріалі 1970-х років Shazam!. Актор помер від природних причин у Палм-Дезерт, штат Каліфорнія. За свою кар&#x27;єру він також знімався в серіалах The Brady Bunch, Archer та з&#x27;явився з камео у стрічці Shazam! Fury of the Gods.\n\n🔗 <a href=\"https://deadline.com/2026/10/michael-gray-dead-shazam-1237171297/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/michael-gray-dead-shazam-1237171297/",
     "orig": "Michael Gray Dies: ‘Shazam!’ Star Was 75"
@@ -15022,7 +15002,6 @@
    "Stereogum",
    {
     "also": [],
-    "caption": "🤘 <b>Наталі Бергман анонсувала EP I Killed A North American Songbird і випустила кліп White Oak</b>\n\nУчасниця дуету Wild Belle Наталі Бергман анонсувала сольний EP I Killed A North American Songbird, реліз якого відбудеться 6 листопада на лейблі Third Man Records. Разом із цим співачка представила кліп на відкривальний трек White Oak, знятий режисером Андреасом Екелундом. Загалом до мініальбому увійдуть п&#x27;ять пісень.\n\n🔗 <a href=\"https://stereogum.com/2515367/natalie-bergman-announces-new-ep-i-killed-a-north-american-songbird-hear-white-oak/music/\">Stereogum</a>\n\n#музика",
     "kind": "photo",
     "link": "https://stereogum.com/2515367/natalie-bergman-announces-new-ep-i-killed-a-north-american-songbird-hear-white-oak/music/",
     "orig": "Natalie Bergman Announces New EP I Killed A North American Songbird: Hear “White Oak”"
@@ -15036,7 +15015,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Epic Games анонсувала AI MegaJam для розробників на Unreal Engine та UEFN</b>\n\nEpic Games анонсувала AI MegaJam — чотириденну подію, де творці створюватимуть нові ігри за допомогою ШІ. Мероприятие триватиме з 12 до 15 листопада, а призовий фонд включає гранти на продовження розробки до $50 000 для найкращих проєктів.\n\n🔗 <a href=\"https://insider-gaming.com/epic-ai-megajam-50k-grants-unreal/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/epic-ai-megajam-50k-grants-unreal/",
     "orig": "Epic Announces AI MegaJam for Unreal and UEFN Makers"
@@ -15050,7 +15028,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>Продюсерка The Hunger Games розповіла про використання ШІ для тестування реплік</b>\n\nПродюсерка Ніна Джейкобсон заявила, что команда використала штучний інтелект для перевірки нових реплік у процесі ADR для приквела Sunrise on the Reaping. Водночас вона наголосила, що ШІ слугує лише допоміжним інструментом і ніколи не замінює живих акторів на екрані.\n\n🔗 <a href=\"https://www.indiewire.com/news/events/hunger-games-sunrise-on-the-reaping-used-ai-adr-1235223271/\">IndieWire</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.indiewire.com/news/events/hunger-games-sunrise-on-the-reaping-used-ai-adr-1235223271/",
     "orig": "‘The Hunger Games’ Producer Nina Jacobson Talks Using AI to Test ADR Lines Before Recording with Actors: ‘We Would Never Use It’ in the Film"
@@ -15064,7 +15041,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🤖 <b>Найбільші банки США виявили ШІ-агентів, які отримують несанкціонований доступ до рахунків клієнтів – Axios</b>\n\nВеликі американські банки почали виявляти сторонніх ШІ-агентів, які без належного дозволу працюють з рахунками клієнтів, деякі – намагались виконувати самостійні дії, що виходили за межі інструкцій користувача.\n\n🔗 <a href=\"https://mezha.ua/news/us-banks-block-ai-agents-316453/\">Mezha</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://mezha.ua/news/us-banks-block-ai-agents-316453/",
     "orig": "Найбільші банки США виявили ШІ-агентів, які отримують несанкціонований доступ до рахунків клієнтів – Axios"
@@ -15078,7 +15054,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Гізер Морріс і Корд Оверстріт ведуть переговори про повернення в перезапуску Glee</b>\n\nГізер Морріс та Корд Оверстріт ведуть переговори про повернення до своїх ролей у перезапуску серіалу Glee для Disney+ та Hulu. Раніше з&#x27;явилася інформація про ймовірну участь Лії Мішель. Співавтор шоу Раян Мерфі зазначив, що вже контактував приблизно з десятьма акторами оригінального складу.\n\n🔗 <a href=\"https://deadline.com/2026/10/glee-reboot-heather-morris-chord-overstreet-in-talks-cast-1237171340/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/glee-reboot-heather-morris-chord-overstreet-in-talks-cast-1237171340/",
     "orig": "Heather Morris & Chord Overstreet In Talks To Return For ‘Glee’ Reboot"
@@ -15868,6 +15843,90 @@
     "link": "https://www.pcgamer.com/hardware/networking/asus-rog-rapture-gt-bn98-review/",
     "orig": "Asus ROG Rapture GT-BN98 router review"
    }
+  ],
+  [
+   1792751591.2109478,
+   2125,
+   "💾",
+   "Agent Hunt",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>Agent Hunt</b>\n\nОбговорення живого рейтингу інструментів, які найчастіше використовують AI agents\n\n🔗 <a href=\"https://www.producthunt.com/products/monid\">Product Hunt</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/monid",
+    "orig": "Agent Hunt"
+   }
+  ],
+  [
+   1792751594.6369631,
+   2126,
+   "🎮",
+   "Сігеру Міямото пояснив, чому ШІ не замінить людську творчість",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>Сігеру Міямото пояснив, чому ШІ не замінить людську творчість</b>\n\nЛегендарний геймдизайнер Nintendo Сігеру Міямото вважає, що генеративний ШІ не зробить людську творчість застарілою. На його думку, в міру того як технології беруть на себе рутинну роботу, індивідуальне бачення та задум авторів стають ще важливішими.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/shigeru-miyamoto-explains-why-ai-wont-make-human-creativity-obsolete/\">VGC</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/shigeru-miyamoto-explains-why-ai-wont-make-human-creativity-obsolete/",
+    "orig": "Shigeru Miyamoto explains why AI won’t make human creativity obsolete"
+   }
+  ],
+  [
+   1792751603.8829637,
+   2127,
+   "🎮",
+   "Автор Vinland Saga поділився сумними новинами щодо третього сезону аніме",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Автор Vinland Saga поділився сумними новинами щодо третього сезону аніме</b>\n\nМангака Макото Юкімура повідомив фанатам у соцмережі X, що наразі проєкт третього сезону аніме Vinland Saga не перебуває в розробці. Жодних офіційних заяв від видавництва Kodansha чи студії MAPPA щодо продовження поки не було.\n\n🔗 <a href=\"https://www.polygon.com/vinland-saga-season-3-creator-update-not-in-production/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/vinland-saga-season-3-creator-update-not-in-production/",
+    "orig": "Vinland Saga Creator Gives a Heartbreaking Update on the Anime's Third Season"
+   }
+  ],
+  [
+   1792751608.7192426,
+   2128,
+   "🤘",
+   "Welcome To Rockville 2026 оголосив гучний лайнап фестивалю",
+   "Kerrang!",
+   {
+    "also": [],
+    "caption": "🤘 <b>Welcome To Rockville 2026 оголосив гучний лайнап фестивалю</b>\n\nНа фестивалі Welcome To Rockville 2026 у Дейтона-Біч виступлять Bring Me The Horizon, My Chem, Foo Fighters, Guns N&#x27; Roses, Turnstile та Ice Nine Kills. Подія триватиме чотири дні на Daytona International Speedway.\n\n🔗 <a href=\"https://www.kerrang.com/thornhills-jacob-charlton-introduces-solo-project-vicious-and-releases-debut-single-capulet\">Kerrang!</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.kerrang.com/thornhills-jacob-charlton-introduces-solo-project-vicious-and-releases-debut-single-capulet",
+    "orig": "Thornhill’s Jacob Charlton introduces solo project VICIOUS and releases debut single, Capulet"
+   }
+  ],
+  [
+   1792751617.3926394,
+   2129,
+   "🎮",
+   "Як перемогти Citrine Pot у Final Fantasy Resonance",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>Як перемогти Citrine Pot у Final Fantasy Resonance</b>\n\nУ боях із Citrine Pot у Final Fantasy Resonance звичайні атаки майже не завдають шкоди, а вороги постійно лікуються. Щоб перемогти їх, потрібно дати ворогу той предмет, який він попросить під час свого ходу. За це ви отримаєте значно більше MRP для прокачування скілів і рангу Vision, ніж у звичайних бійках.\n\n🔗 <a href=\"https://www.videogameschronicle.com/guide/ff-resonance-beat-citrine-pot-enemies/\">VGC</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/guide/ff-resonance-beat-citrine-pot-enemies/",
+    "orig": "FF Resonance: Beat Citrine Pot enemies"
+   }
+  ],
+  [
+   1792751625.87012,
+   2130,
+   "🎮",
+   "Що таке DMZ Deployment Bonus у Modern Warfare 4",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Що таке <a href=\"https://store.steampowered.com/app/2650890/\">DMZ</a> <a href=\"https://store.steampowered.com/app/755980/\">Deployment</a> Bonus у Modern Warfare 4</b>\n\nУ Call of Duty: Modern Warfare 4 доступний спеціальний бонус DMZ Deployment Bonus, який дає одноразовий набір цінних предметів для режиму DMZ. Цей набір є ексклюзивною нагородою за володіння версією Vault Edition і допомагає отримати перевагу на старті або поповнити рідкісні ресурси.\n\n🔗 <a href=\"https://insider-gaming.com/modern-warfare-4-dmz-deployment-bonus/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/modern-warfare-4-dmz-deployment-bonus/",
+    "orig": "What is The DMZ Deployment Bonus in Modern Warfare 4?"
+   }
   ]
  ],
  "posted_by_source": {
@@ -15971,7 +16030,6 @@
    1792697486.3702695
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1792665195.358304,
    1792672322.8113003,
    1792674186.1593554,
    1792675971.0121436,
@@ -15986,7 +16044,8 @@
    1792692161.991282,
    1792703039.80511,
    1792710100.6784832,
-   1792711979.588383
+   1792711979.588383,
+   1792751625.870706
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1792683185.1237156,
@@ -16022,12 +16081,12 @@
    1792697491.7397037
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1792663508.39504,
    1792666895.814449,
    1792676134.2643027,
    1792733483.5629184,
    1792733493.1109352,
-   1792744325.9523146
+   1792744325.9523146,
+   1792751603.8835561
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1792665199.2242992,
@@ -16043,11 +16102,11 @@
    1792621888.919291
   ],
   "games|VGC|https://www.videogameschronicle.com/feed/": [
-   1792661506.1121764,
-   1792663478.375118,
    1792683228.1050253,
    1792746285.0097487,
-   1792746380.3238235
+   1792746380.3238235,
+   1792751594.637551,
+   1792751617.3931851
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1792683152.435339,
@@ -16134,7 +16193,6 @@
    1792704725.7942436
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
-   1792665188.914002,
    1792666920.0854218,
    1792668713.496266,
    1792672394.4169023,
@@ -16142,7 +16200,8 @@
    1792681368.1193998,
    1792685595.44007,
    1792686906.0709991,
-   1792749731.8729758
+   1792749731.8729758,
+   1792751608.7198331
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
    1792681508.410735,
@@ -16261,11 +16320,11 @@
    1792740883.61108
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
-   1792663369.3250654,
    1792740872.6595383,
    1792744291.0590582,
    1792747884.2597654,
-   1792749717.9123278
+   1792749717.9123278,
+   1792751591.2115345
   ]
  },
  "seen": {
@@ -16517,6 +16576,7 @@
   "161b36d52109d7b8": 1791926990.782292,
   "162c805611bb35d0": 1792494181.5949442,
   "169f27f3632548ff": 1792720894.3094978,
+  "16a69602920a5eaf": 1792751457.295797,
   "16d80dc85c36c16e": 1792663508.3950005,
   "170c2bc4b14b8df1": 1792314136.20962,
   "17106c50e50d6002": 1792611101.9117157,
@@ -16732,7 +16792,9 @@
   "2a9e0a8d4ddcf17c": 1792692096.7032757,
   "2ac26d4b798b8638": 1792704684.6301727,
   "2ac29150c507c44b": 1792706507.1230128,
+  "2af70e3e8352a149": 1792751625.8706534,
   "2af795c800f288d6": 1792704685.6277623,
+  "2b0d72ec172a005e": 1792751591.211487,
   "2b19b229ca801ef0": 1792420313.5076067,
   "2b358bf4a24f158d": 1792373482.0074277,
   "2b35bfd511e805ac": 1792598972.7557514,
@@ -17291,6 +17353,7 @@
   "5d52524d6c56762d": 1792470684.6750398,
   "5d7c44f75a5d8b26": 1792668713.496217,
   "5d7dca5016a2ac6f": 1792148864.454799,
+  "5d7eec3d292d192b": 1792751594.6375048,
   "5d84ec15c8a9b581": 1792249928.513019,
   "5daa5a9525fd48dc": 1792519352.750508,
   "5dc515b40f0460b5": 1792584094.9365559,
@@ -17590,6 +17653,7 @@
   "77ee6e21da1d2427": 1791926744.4915335,
   "77fc51074b92550a": 1792440153.3597417,
   "77fc727769a7c744": 1791908454.9692664,
+  "7805382b75b5e106": 1792751608.7197843,
   "780b67bcb6f93c7b": 1791643484.7724442,
   "7831eb94b2f18030": 1792587736.1429682,
   "785336b3f4e329d2": 1791658399.4622397,
@@ -17928,6 +17992,7 @@
   "9591f290aa983e9b": 1792352536.1378696,
   "9593fa8dcbdd000b": 1792605723.8768148,
   "95c4c3c6021f192d": 1792737156.913002,
+  "95cb38c58c61b031": 1792751603.8835087,
   "95d06f7f857cb151": 1792423879.2659903,
   "95d66dba52a5bcec": 1792661480.6526306,
   "961cffbaca3648ff": 1792080927.3708415,
@@ -18712,6 +18777,7 @@
   "e0462c7c30474a2c": 1791843834.4903822,
   "e05927082e0a783e": 1792021705.3810556,
   "e08ef814d6bf703d": 1792737153.4255016,
+  "e0d2ebdc52199130": 1792751617.3931396,
   "e0d574759e0abf3b": 1791997032.6127217,
   "e0ed55e9093ac5bd": 1791920836.554765,
   "e0f631a74d3aa008": 1792429331.2362347,
@@ -20232,7 +20298,7 @@
    "Deadline": 4,
    "GamesIndustry.biz": 2,
    "IGN": 1,
-   "Insider Gaming": 28,
+   "Insider Gaming": 29,
    "Lambgoat": 1,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
@@ -20261,8 +20327,8 @@
    "IGN": 65,
    "ITC.ua": 51,
    "IndieWire": 21,
-   "Insider Gaming": 71,
-   "Kerrang!": 25,
+   "Insider Gaming": 72,
+   "Kerrang!": 26,
    "Lambgoat": 46,
    "Loudwire": 20,
    "Metal Hammer (Louder)": 27,
@@ -20272,21 +20338,21 @@
    "PC Gamer": 64,
    "Pitchfork": 8,
    "PlayUA": 21,
-   "Polygon": 30,
-   "Product Hunt": 22,
+   "Polygon": 31,
+   "Product Hunt": 23,
    "Revolver": 6,
    "Rock Paper Shotgun": 31,
    "SteamDB": 2,
    "Stereogum": 12,
    "The Decoder": 22,
    "ThePRP": 58,
-   "VGC": 26,
+   "VGC": 28,
    "Variety": 24
   },
   "translators": {
    "DeepL": 23,
    "gemini-flash-latest": 89,
-   "gemini-flash-lite-latest": 1038
+   "gemini-flash-lite-latest": 1045
   },
   "week": "2026-W43"
  },
@@ -20711,11 +20777,6 @@
    "",
    1792683184.4155476
   ],
-  "q:12 4 pin": [
-   0,
-   "",
-   1792578686.3219173
-  ],
   "q:14": [
    0,
    "",
@@ -20820,26 +20881,6 @@
    0,
    "",
    1792585888.8290906
-  ],
-  "q:2 update": [
-   0,
-   "",
-   1792578681.7868469
-  ],
-  "q:2 update leaked": [
-   0,
-   "",
-   1792578681.2802083
-  ],
-  "q:2 update leaked ahead": [
-   0,
-   "",
-   1792578680.7889366
-  ],
-  "q:2 update leaked ahead of reveal": [
-   0,
-   "",
-   1792578680.2973378
   ],
   "q:2 wings": [
    0,
@@ -22161,6 +22202,21 @@
    "",
    1792724490.6386828
   ],
+  "q:beat": [
+   0,
+   "",
+   1792751615.2811334
+  ],
+  "q:beat citrine": [
+   0,
+   "",
+   1792751614.8224452
+  ],
+  "q:beat citrine pot": [
+   0,
+   "",
+   1792751614.3836784
+  ],
   "q:become the us": [
    0,
    "",
@@ -22456,6 +22512,21 @@
    "",
    1792724496.5191944
   ],
+  "q:bonus in modern": [
+   0,
+   "",
+   1792751624.2484608
+  ],
+  "q:bonus in modern warfare": [
+   0,
+   "",
+   1792751623.7966707
+  ],
+  "q:bonus in modern warfare 4": [
+   0,
+   "",
+   1792751623.3503835
+  ],
   "q:boss rush": [
    1113710,
    "Boss Rush",
@@ -22750,6 +22821,11 @@
    3465440,
    "CitaDrill",
    1792524238.8896368
+  ],
+  "q:citrine pot": [
+   0,
+   "",
+   1792751615.7202141
   ],
   "q:client": [
    0,
@@ -23051,6 +23127,16 @@
    "",
    1792710098.6774886
   ],
+  "q:creator gives a heartbreaking": [
+   0,
+   "",
+   1792751601.652815
+  ],
+  "q:creator gives a heartbreaking update": [
+   0,
+   "",
+   1792751601.2018194
+  ],
   "q:creator ken": [
    0,
    "",
@@ -23215,26 +23301,6 @@
    0,
    "",
    1792659700.8253777
-  ],
-  "q:cyberpunk 2077 edgerunners": [
-   0,
-   "",
-   1792578678.3030286
-  ],
-  "q:cyberpunk 2077 edgerunners 2": [
-   0,
-   "",
-   1792578677.8084214
-  ],
-  "q:cyberpunk 2077 edgerunners 2 update": [
-   0,
-   "",
-   1792578677.3047445
-  ],
-  "q:cyberpunk 2077 edgerunners 2 update leaked": [
-   0,
-   "",
-   1792578676.8102348
   ],
   "q:cyberpunk 2077 loremaster confirms": [
    0,
@@ -23531,6 +23597,31 @@
    "",
    1792645232.0961928
   ],
+  "q:deployment": [
+   755980,
+   "DEPLOYMENT",
+   1792751622.9033506
+  ],
+  "q:deployment bonus": [
+   0,
+   "",
+   1792751622.4543517
+  ],
+  "q:deployment bonus in modern": [
+   0,
+   "",
+   1792751622.015088
+  ],
+  "q:deployment bonus in modern warfare": [
+   0,
+   "",
+   1792751621.5578225
+  ],
+  "q:deployment bonus in modern warfare 4": [
+   0,
+   "",
+   1792751621.1168537
+  ],
   "q:destiny 2": [
    1085660,
    "Destiny 2",
@@ -23825,6 +23916,26 @@
    2650890,
    "DMZ",
    1792582328.5199592
+  ],
+  "q:dmz deployment": [
+   0,
+   "",
+   1792751620.6749196
+  ],
+  "q:dmz deployment bonus": [
+   0,
+   "",
+   1792751620.2346103
+  ],
+  "q:dmz deployment bonus in modern": [
+   0,
+   "",
+   1792751619.7964342
+  ],
+  "q:dmz deployment bonus in modern warfare": [
+   0,
+   "",
+   1792751619.3539393
   ],
   "q:dmz solo": [
    0,
@@ -24266,21 +24377,6 @@
    "",
    1792611119.5679104
   ],
-  "q:edgerunners 2 update": [
-   0,
-   "",
-   1792578679.8041961
-  ],
-  "q:edgerunners 2 update leaked": [
-   0,
-   "",
-   1792578679.3151205
-  ],
-  "q:edgerunners 2 update leaked ahead": [
-   0,
-   "",
-   1792578678.8246164
-  ],
   "q:edition": [
    0,
    "",
@@ -24700,6 +24796,26 @@
    0,
    "",
    1792683199.4091828
+  ],
+  "q:ff resonance": [
+   0,
+   "",
+   1792751612.1171865
+  ],
+  "q:ff resonance beat": [
+   0,
+   "",
+   1792751611.6818213
+  ],
+  "q:ff resonance beat citrine": [
+   0,
+   "",
+   1792751611.1808088
+  ],
+  "q:ff resonance beat citrine pot": [
+   0,
+   "",
+   1792751610.6746051
   ],
   "q:fighter": [
    0,
@@ -28586,6 +28702,26 @@
    "",
    1792675913.6598241
   ],
+  "q:resonance": [
+   0,
+   "",
+   1792751613.9423497
+  ],
+  "q:resonance beat": [
+   0,
+   "",
+   1792751613.4808397
+  ],
+  "q:resonance beat citrine": [
+   0,
+   "",
+   1792751613.029866
+  ],
+  "q:resonance beat citrine pot": [
+   0,
+   "",
+   1792751612.5757022
+  ],
   "q:resonant": [
    4319860,
    "Resonant",
@@ -28885,6 +29021,31 @@
    0,
    "",
    1792702974.2597973
+  ],
+  "q:saga": [
+   0,
+   "",
+   1792751600.75151
+  ],
+  "q:saga creator": [
+   0,
+   "",
+   1792751600.2811384
+  ],
+  "q:saga creator gives": [
+   0,
+   "",
+   1792751599.8216512
+  ],
+  "q:saga creator gives a heartbreaking": [
+   0,
+   "",
+   1792751599.3724763
+  ],
+  "q:saga creator gives a heartbreaking update": [
+   0,
+   "",
+   1792751598.918122
   ],
   "q:sakurai": [
    0,
@@ -30031,11 +30192,6 @@
    "",
    1792600345.5902965
   ],
-  "q:update leaked ahead of reveal": [
-   0,
-   "",
-   1792578682.2774503
-  ],
   "q:update october": [
    0,
    "",
@@ -30190,6 +30346,31 @@
    0,
    "",
    1792679688.5232
+  ],
+  "q:vinland": [
+   0,
+   "",
+   1792751598.4772062
+  ],
+  "q:vinland saga": [
+   0,
+   "",
+   1792751598.003896
+  ],
+  "q:vinland saga creator": [
+   0,
+   "",
+   1792751597.5626843
+  ],
+  "q:vinland saga creator gives": [
+   0,
+   "",
+   1792751597.1118977
+  ],
+  "q:vinland saga creator gives a heartbreaking": [
+   0,
+   "",
+   1792751596.6714656
   ],
   "q:virtue and a sledgehammer": [
    3743260,
@@ -31024,21 +31205,13 @@
  },
  "tag_hints": {
   "Mezha": [
-   "arc",
-   "dia",
    "f-16",
    "microsoft",
-   "rheinmetall",
-   "the browser company",
    "авто",
-   "артилерія",
    "боєприпаси",
    "бпла",
-   "браузери",
    "бізнес",
-   "велика британія",
    "винищувачі",
-   "гармата",
    "генштаб",
    "герань-5",
    "данія",
@@ -31052,13 +31225,16 @@
    "медицина",
    "навігація",
    "новини",
+   "новини партнерів",
    "оборонка",
-   "оборонний завод",
+   "пам'ять",
+   "політика",
+   "південна корея",
    "реактивні безпілотники",
    "серіали",
    "сили оборони",
-   "софт",
    "стартапи",
+   "статті",
    "стівен кінг",
    "технології",
    "україна",
@@ -31070,34 +31246,6 @@
   ]
  },
  "titles": [
-  [
-   1792576978.7087955,
-   "Triage by Chodeberg"
-  ],
-  [
-   1792578684.3007483,
-   "Cyberpunk 2077 Edgerunners 2 Update Leaked Ahead of Reveal"
-  ],
-  [
-   1792578688.3187802,
-   "Here's another gizmo to prevent your graphics card from melting - wouldn't it be nice if 12+4-pin connectors weren't a cause for concern at all?"
-  ],
-  [
-   1792578690.2444537,
-   "macOS 27 на ноутбуках зі Snapdragon X2 Elite Extreme: розробник створив застосунок для запуску"
-  ],
-  [
-   1792578692.1732695,
-   "\"Дюна: Частина третя\": новий тизер та постери"
-  ],
-  [
-   1792578701.3203676,
-   "Critical Role Is Heading to Middle-earth With a Big Lord of the Rings Collaboration"
-  ],
-  [
-   1792578710.1627717,
-   "All Modern Warfare 4 DMZ Operator Traits & Effects"
-  ],
   [
    1792580496.439257,
    "Fans React to Shrek 2 Remastered's Surprising PC Requirements"
@@ -33061,37 +33209,33 @@
   [
    1792749742.1904757,
    "Asus ROG Rapture GT-BN98 router review"
+  ],
+  [
+   1792751591.2114887,
+   "Agent Hunt"
+  ],
+  [
+   1792751594.6375065,
+   "Shigeru Miyamoto explains why AI won’t make human creativity obsolete"
+  ],
+  [
+   1792751603.883511,
+   "Vinland Saga Creator Gives a Heartbreaking Update on the Anime's Third Season"
+  ],
+  [
+   1792751608.7197862,
+   "Thornhill’s Jacob Charlton introduces solo project VICIOUS and releases debut single, Capulet"
+  ],
+  [
+   1792751617.3931415,
+   "FF Resonance: Beat Citrine Pot enemies"
+  ],
+  [
+   1792751625.870656,
+   "What is The DMZ Deployment Bonus in Modern Warfare 4?"
   ]
  ],
  "titles_uk": [
-  [
-   1792576978.7087967,
-   "Triage від Chodeberg"
-  ],
-  [
-   1792578684.3007493,
-   "Деталі оновлення 2.5 для Cyberpunk 2077 злили в мережу до офіційного анонсу"
-  ],
-  [
-   1792578688.3187811,
-   "Super Flower випустила аксесуар для захисту роз'ємів живлення відеокарт від перегріву"
-  ],
-  [
-   1792578690.2444544,
-   "macOS 27 на ноутбуках зі Snapdragon X2 Elite Extreme: розробник створив застосунок для запуску"
-  ],
-  [
-   1792578692.1732712,
-   "\"Дюна: Частина третя\": новий тизер та постери"
-  ],
-  [
-   1792578701.3203683,
-   "Critical Role готує колаборацію з The Lord of the Rings"
-  ],
-  [
-   1792578710.1627727,
-   "Усі риси операторів та їхні ефекти в режимі DMZ для Modern Warfare 4"
-  ],
   [
    1792580496.4392574,
    "Системні вимоги Shrek 2 Remastered здивували гравців"
@@ -35055,6 +35199,30 @@
   [
    1792749742.1904767,
    "Огляд геймінг-роутера Asus ROG Rapture GT-BN98"
+  ],
+  [
+   1792751591.2114897,
+   "Agent Hunt"
+  ],
+  [
+   1792751594.6375074,
+   "Сігеру Міямото пояснив, чому ШІ не замінить людську творчість"
+  ],
+  [
+   1792751603.8835118,
+   "Автор Vinland Saga поділився сумними новинами щодо третього сезону аніме"
+  ],
+  [
+   1792751608.7197871,
+   "Welcome To Rockville 2026 оголосив гучний лайнап фестивалю"
+  ],
+  [
+   1792751617.3931422,
+   "Як перемогти Citrine Pot у Final Fantasy Resonance"
+  ],
+  [
+   1792751625.870657,
+   "Що таке DMZ Deployment Bonus у Modern Warfare 4"
   ]
  ],
  "ukrainian": {
@@ -37283,7 +37451,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792746388.4791338,
+  "last_check": 1792751634.020416,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
