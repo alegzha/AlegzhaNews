@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1792841477.1061232
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1792841474.9810648
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-23",
  "freebies": {
   "last_check": 1792837988.3479767,
@@ -27,11 +14,12 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-24 11:33 UTC",
+  "at": "2026-10-24 12:04 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
@@ -18110,7 +18098,6 @@
    "Stereogum",
    {
     "also": [],
-    "caption": "🤘 <b>Bruiser Wolf та Conductor Williams випустили сингл “Ain’t Got Time”</b>\n\nРепер Bruiser Wolf і продюсер Conductor Williams випустили новий трек “Ain’t Got Time”. Композиція побудована на стриманому соул-лупі та триває менше двох хвилин. У пісні виконавець зосереджується на темі грошей і відсутності часу.\n\n🔗 <a href=\"https://stereogum.com/2515493/bruiser-wolf-conductor-williams-aint-got-time/music/\">Stereogum</a>\n\n#музика",
     "kind": "photo",
     "link": "https://stereogum.com/2515493/bruiser-wolf-conductor-williams-aint-got-time/music/",
     "orig": "Bruiser Wolf & Conductor Williams – “Ain’t Got Time”"
@@ -18124,7 +18111,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Як Александр Скарсгард грав людину з лози у фільмі Wicker</b>\n\nУ кінопрокат вийшов фільм Wicker, де Олівія Колман грає самотню рибалку, яка замовляє собі чоловіка з лози. Роль цього незвичайного персонажа виконав Александр Скарсгард у спеціальному костюмі з 50 деталями, надрукованими на 3D-принтері з м&#x27;якого термопластичного еластомеру.\n\n🔗 <a href=\"https://variety.com/2026/artisans/news/what-alexander-skarsgard-wicker-basket-was-made-from-1236929863/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://variety.com/2026/artisans/news/what-alexander-skarsgard-wicker-basket-was-made-from-1236929863/",
     "orig": "Why Olivia Colman Didn’t Get Splinters From Getting Intimate With Alexander Skarsgård’s ‘Wicker’ Costume"
@@ -18955,6 +18941,34 @@
     "link": "https://distortedsoundmag.com/necronautical-release-new-song-enemy-of-the-grave/",
     "orig": "Necronautical release new song ‘Enemy Of The Grave’"
    }
+  ],
+  [
+   1792843341.9439256,
+   2356,
+   "💾",
+   "Малайзія може посилити заборону навігатора Waze",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "💾 <b>Малайзія може посилити заборону навігатора Waze</b>\n\nПрем&#x27;єр-міністр Малайзії Анвар Ібрагім наголосив, що безпека країни не може бути під загрозою, відстоюючи поточну часткову заборону навігаційного застосунку Waze від Google. За його словами, влада не виключає запровадження ще ширших обмежень щодо сервісу.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-10-24/malaysia-may-widen-ban-on-israel-based-waze-traffic-app-pm-says\">Bloomberg</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-24/malaysia-may-widen-ban-on-israel-based-waze-traffic-app-pm-says",
+    "orig": "Malaysia May Widen Ban on Israel-Based Waze Traffic App, PM Says"
+   }
+  ],
+  [
+   1792843441.7247586,
+   2357,
+   "🎮",
+   "Fallout Day 2026: усі головні анонси з фан-івенту Bethesda",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Fallout Day 2026: усі головні анонси з фан-івенту Bethesda</b>\n\nBethesda провела чимало цікавих анонсів на Fallout Day, тож фанатів серії чекає багато нового найближчими місяцями.\n\n🔗 <a href=\"https://www.polygon.com/fallout-day-2026-announcements-roundup/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/fallout-day-2026-announcements-roundup/",
+    "orig": "Fallout Day 2026: Every Big Announcement from Bethesda’s Fan Event"
+   }
   ]
  ],
  "posted_by_source": {
@@ -19101,12 +19115,12 @@
    1792825389.6400251
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1792755092.4489515,
    1792764344.5156374,
    1792821745.3404756,
    1792821771.061574,
    1792832599.5504663,
-   1792839782.2608008
+   1792839782.2608008,
+   1792843441.7252765
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1792703010.7808568,
@@ -19317,11 +19331,11 @@
    1792791107.1764152
   ],
   "software|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1792755096.9159691,
    1792762375.4571586,
    1792776725.5636535,
    1792776753.7353716,
-   1792805570.580092
+   1792805570.580092,
+   1792843341.9443877
   ],
   "software|DOU|https://dou.ua/feed/": [
    1792352542.7076654,
@@ -20106,6 +20120,7 @@
   "3dbc9c1b21004bba": 1792729878.6944134,
   "3dd094c646605bed": 1792683080.209501,
   "3dd1f191ea4dc0a3": 1792197827.4038987,
+  "3dd3c941d8999a2f": 1792843341.9443567,
   "3dd9d446025a3d5c": 1792778491.6128285,
   "3de13b42e404c830": 1792145502.8856962,
   "3df2b5176699cdd0": 1792571484.2178807,
@@ -21460,6 +21475,7 @@
   "ab540163c47d94b5": 1791815107.5689723,
   "ab58559fc50aee6d": 1792418573.2167242,
   "ab77a2ea6e444beb": 1792585885.0511155,
+  "ab79be41f5b9ae18": 1792843251.7400148,
   "abc319b5c069f374": 1792643480.8236797,
   "abc651d8e95c70e7": 1792467103.3604484,
   "abd2970eba863e91": 1792427702.6737905,
@@ -22271,6 +22287,7 @@
   "ece7ca7ea5fae262": 1791926678.2774649,
   "ed145ac3739dc539": 1791843829.6148322,
   "ed22ddf3e72698d3": 1792097670.6097398,
+  "ed3bed0754a6ddcf": 1792843441.7252343,
   "ed64b0c9ec7dc0e9": 1791969564.3842723,
   "ed9fa928d96e904c": 1792708280.5839186,
   "edb55c7a9aa45efc": 1791894758.489922,
@@ -23685,7 +23702,7 @@
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 12,
    "Pitchfork": 1,
-   "Polygon": 57,
+   "Polygon": 58,
    "Revolver": 1,
    "VGC": 3,
    "Variety": 1
@@ -23694,7 +23711,7 @@
    "/Film": 37,
    "AIN.ua": 5,
    "Blabbermouth": 72,
-   "Bloomberg": 60,
+   "Bloomberg": 61,
    "DOU": 2,
    "DOU Gamedev": 5,
    "Deadline": 82,
@@ -23721,7 +23738,7 @@
    "PC Gamer": 77,
    "Pitchfork": 10,
    "PlayUA": 28,
-   "Polygon": 37,
+   "Polygon": 38,
    "Product Hunt": 23,
    "Revolver": 8,
    "Rock Paper Shotgun": 38,
@@ -23734,8 +23751,8 @@
   },
   "translators": {
    "DeepL": 24,
-   "gemini-flash-latest": 99,
-   "gemini-flash-lite-latest": 1270
+   "gemini-flash-latest": 100,
+   "gemini-flash-lite-latest": 1271
   },
   "week": "2026-W43"
  },
@@ -24125,11 +24142,6 @@
    "",
    1792762333.4622343
   ],
-  "q:10": [
-   0,
-   "",
-   1792668748.0842552
-  ],
   "q:10 years after": [
    339240,
    "10 Years After",
@@ -24274,6 +24286,16 @@
    0,
    "",
    1792685465.7595768
+  ],
+  "q:2026 every big": [
+   0,
+   "",
+   1792843349.7938368
+  ],
+  "q:2026 every big announcement": [
+   0,
+   "",
+   1792843349.288132
   ],
   "q:2026 reveals 70 nominated games": [
    0,
@@ -24449,21 +24471,6 @@
    0,
    "",
    1792767880.2098184
-  ],
-  "q:4 dmz story": [
-   0,
-   "",
-   1792668733.666304
-  ],
-  "q:4 dmz story missions": [
-   0,
-   "",
-   1792668733.139676
-  ],
-  "q:4 dmz story missions rewards": [
-   0,
-   "",
-   1792668732.5968044
   ],
   "q:4 multiplayer chief": [
    0,
@@ -24670,16 +24677,6 @@
    "",
    1792769775.6384907
   ],
-  "q:99": [
-   0,
-   "",
-   1792668747.5524936
-  ],
-  "q:99 10": [
-   0,
-   "",
-   1792668747.024869
-  ],
   "q:a bit of time to understand what the data is telling us": [
    0,
    "",
@@ -24844,11 +24841,6 @@
    0,
    "",
    1792688561.5358093
-  ],
-  "q:all modern warfare 4 dmz story": [
-   0,
-   "",
-   1792668730.0254424
   ],
   "q:also hit": [
    0,
@@ -25124,11 +25116,6 @@
    1761910,
    "Athanasia",
    1792409515.1002765
-  ],
-  "q:australian": [
-   0,
-   "",
-   1792668754.0218139
   ],
   "q:avatar": [
    0,
@@ -26180,6 +26167,31 @@
    "",
    1792692165.1216488
   ],
+  "q:day": [
+   0,
+   "",
+   1792843348.7857335
+  ],
+  "q:day 2026": [
+   0,
+   "",
+   1792843348.2503219
+  ],
+  "q:day 2026 every": [
+   0,
+   "",
+   1792843347.7242324
+  ],
+  "q:day 2026 every big": [
+   0,
+   "",
+   1792843347.2197666
+  ],
+  "q:day 2026 every big announcement": [
+   0,
+   "",
+   1792843346.721076
+  ],
   "q:daylight": [
    0,
    "",
@@ -26620,21 +26632,6 @@
    "",
    1792764329.3544228
   ],
-  "q:dmz story": [
-   0,
-   "",
-   1792668735.2206695
-  ],
-  "q:dmz story missions": [
-   0,
-   "",
-   1792668734.7055767
-  ],
-  "q:dmz story missions rewards": [
-   0,
-   "",
-   1792668734.1849942
-  ],
   "q:does": [
    0,
    "",
@@ -27020,11 +27017,6 @@
    "",
    1792767790.2283158
   ],
-  "q:evolving library of bold and bizarre games": [
-   0,
-   "",
-   1792668715.6073537
-  ],
   "q:ex cdl": [
    0,
    "",
@@ -27140,10 +27132,35 @@
    "",
    1792702973.7506616
   ],
+  "q:fallout": [
+   0,
+   "",
+   1792843346.1866782
+  ],
   "q:fallout 4": [
    377160,
    "Fallout 4",
    1792708284.8439648
+  ],
+  "q:fallout day": [
+   0,
+   "",
+   1792843345.6723611
+  ],
+  "q:fallout day 2026": [
+   0,
+   "",
+   1792843345.1805542
+  ],
+  "q:fallout day 2026 every": [
+   0,
+   "",
+   1792843344.6759505
+  ],
+  "q:fallout day 2026 every big": [
+   0,
+   "",
+   1792843344.0497184
   ],
   "q:fallout new vegas": [
    22380,
@@ -27544,11 +27561,6 @@
    0,
    "",
    1792773108.4210603
-  ],
-  "q:freeplay": [
-   0,
-   "",
-   1792668754.5266984
   ],
   "q:friday": [
    1167900,
@@ -28220,11 +28232,6 @@
    "",
    1792782128.2336023
   ],
-  "q:how pantaloon": [
-   0,
-   "",
-   1792668716.1103747
-  ],
   "q:huge": [
    1650040,
    "HuGe",
@@ -28604,11 +28611,6 @@
    4590390,
    "JEFF",
    1792021764.8697996
-  ],
-  "q:jewish": [
-   0,
-   "",
-   1792668755.0347743
   ],
   "q:jusant": [
    1977170,
@@ -29490,16 +29492,6 @@
    "",
    1792767879.111771
   ],
-  "q:modern warfare 4 dmz story": [
-   0,
-   "",
-   1792668731.038378
-  ],
-  "q:modern warfare 4 dmz story missions": [
-   0,
-   "",
-   1792668730.5292478
-  ],
   "q:modern warfare 4 multiplayer doesn't": [
    0,
    "",
@@ -30069,11 +30061,6 @@
    1623730,
    "Palworld",
    1792524164.693694
-  ],
-  "q:pantaloon": [
-   0,
-   "",
-   1792668716.619171
   ],
   "q:path of exile": [
    238960,
@@ -31425,11 +31412,6 @@
    "",
    1792685260.581293
   ],
-  "q:story missions rewards": [
-   0,
-   "",
-   1792668735.7302668
-  ],
   "q:stranger than heaven": [
    4260840,
    "STRANGER THAN HEAVEN",
@@ -32200,16 +32182,6 @@
    "",
    1792767879.611614
   ],
-  "q:warfare 4 dmz story": [
-   0,
-   "",
-   1792668732.0604532
-  ],
-  "q:warfare 4 dmz story missions": [
-   0,
-   "",
-   1792668731.5477312
-  ],
   "q:warfare 4 multiplayer doesn't": [
    0,
    "",
@@ -32299,11 +32271,6 @@
    0,
    "",
    1792756157.233879
-  ],
-  "q:we made a very difficult decision": [
-   0,
-   "",
-   1792668752.8982682
   ],
   "q:we think it": [
    0,
@@ -32749,15 +32716,11 @@
    0,
    "",
    1792679693.2028716
-  ],
-  "q:zionist": [
-   0,
-   "",
-   1792668753.4768405
   ]
  },
  "tag_hints": {
   "Mezha": [
+   "audio-technica",
    "bioware",
    "cyberpunk 2077",
    "cyberpunk: edgerunners",
@@ -32775,11 +32738,10 @@
    "військові заводи",
    "генштаб",
    "дрони",
-   "зброя",
    "звʼязок",
-   "кодифікація",
    "кіно",
    "міноборони",
+   "навушники",
    "новини",
    "німеччина",
    "оборонка",
@@ -32793,25 +32755,12 @@
    "смартфони",
    "софт",
    "соціальні мережі",
-   "турель",
    "україна",
    "ігри",
    "інтернет"
   ]
  },
  "titles": [
-  [
-   1792670538.8058581,
-   "Ensemble forecasting with IBM Granite time-series models"
-  ],
-  [
-   1792670588.4722724,
-   "BEAST IN BLACK Releases Majestic New Power Ballad 'Lost Children'"
-  ],
-  [
-   1792670605.2948177,
-   "An AI agent in \"Skynet mode\" hijacks unprotected language models to launch self-sustaining cyberattacks"
-  ],
   [
    1792672297.1170745,
    "Report explores how Roblox can maintain older players as it becomes most-played game by total hours in H1 2026"
@@ -34659,21 +34608,17 @@
   [
    1792841591.1889114,
    "Necronautical release new song ‘Enemy Of The Grave’"
+  ],
+  [
+   1792843341.9443579,
+   "Malaysia May Widen Ban on Israel-Based Waze Traffic App, PM Says"
+  ],
+  [
+   1792843441.7252357,
+   "Fallout Day 2026: Every Big Announcement from Bethesda’s Fan Event"
   ]
  ],
  "titles_uk": [
-  [
-   1792670538.8058589,
-   "IBM випустила ансамблеве прогнозування для моделей Granite time-series"
-  ],
-  [
-   1792670588.4722729,
-   "BEAST IN BLACK випустили нову епічну пауер-баладу \"Lost Children\""
-  ],
-  [
-   1792670605.2948186,
-   "ШІ-агент у режимі Skynet атакує незахищені мовні моделі"
-  ],
   [
    1792672297.1170752,
    "Roblox очолила рейтинг за часом гри та планує втримати дорослішу аудиторію"
@@ -36521,6 +36466,14 @@
   [
    1792841591.1889122,
    "Necronautical випустили новий трек «Enemy Of The Grave»"
+  ],
+  [
+   1792843341.9443583,
+   "Малайзія може посилити заборону навігатора Waze"
+  ],
+  [
+   1792843441.725237,
+   "Fallout Day 2026: усі головні анонси з фан-івенту Bethesda"
   ]
  ],
  "ukrainian": {
