@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1792827080.0152006
+  }
+ },
  "daily_digest_date": "2026-10-23",
  "freebies": {
   "last_check": 1792823510.5011756,
@@ -14,12 +21,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-24 07:03 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-10-24 07:33 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemini-flash-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-latest": 1
   },
   "used": [
    "Gemini"
@@ -17946,7 +17952,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>Valve назвала найпопулярніші демоверсії поточного <a href=\"https://store.steampowered.com/app/1673210/\">Steam Next Fest</a></b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/5117550/\">Fart Together</a>, <a href=\"https://store.steampowered.com/app/3218230/\">ArcheAge Chronicles</a>\n\nValve опублікувала список із 20 найпопулярніших демоверсій поточного фестивалю Steam Next Fest, який триватиме до 26 жовтня. Серед лідерів опинилися різноманітні проєкти, зокрема комедійні кооперативні пригоди та глибокі екшени на виживання, включно з Emberville та ArcheAge Chronicles.\n\n🔗 <a href=\"https://www.ign.com/articles/steam-next-fest-most-played-demos-so-far-include-fart-together-emberville-archeage-chronicles\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/steam-next-fest-most-played-demos-so-far-include-fart-together-emberville-archeage-chronicles",
     "orig": "Steam Next Fest: Most-Played Demos So Far Include Fart Together, Emberville, ArcheAge Chronicles"
@@ -18800,6 +18805,20 @@
     "link": "https://www.neformat.com.ua/news/28469-ignea-vipustili-lp-monumental.html",
     "orig": "IGNEA випустили LP \"Monumental\""
    }
+  ],
+  [
+   1792827227.2205322,
+   2345,
+   "💾",
+   "OpenBMB представила VoxCPM2 — нову систему синтезу та клонування голосу",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>OpenBMB представила VoxCPM2 — нову систему синтезу та клонування голосу</b>\n\nVoxCPM2 пропонує TTS-модель без використання токенізатора для багатомовної генерації мовлення, створення унікальних голосів і максимально точного клонування аудіо: https://voxcpm.com\n\n🔗 <a href=\"https://github.com/OpenBMB/VoxCPM\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/OpenBMB/VoxCPM",
+    "orig": "OpenBMB/VoxCPM"
+   }
   ]
  ],
  "posted_by_source": {
@@ -19177,11 +19196,11 @@
    1792416696.5336893
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
-   1792739161.3596406,
    1792740891.6720788,
    1792821782.3315644,
    1792823502.044799,
-   1792825401.584934
+   1792825401.584934,
+   1792827227.2210155
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1792735456.74046,
@@ -19367,6 +19386,7 @@
   "0d23d025b8c0d9cf": 1792375283.3349104,
   "0d5cc7af8bb44ba3": 1792463485.9479973,
   "0d865ae8cd4cf067": 1792303286.1448247,
+  "0d88eaa1830b5f51": 1792827227.2209725,
   "0dd2650a1a086f7b": 1792270304.7523172,
   "0de01c1b36e93c52": 1792638083.6535778,
   "0e2a51a62f82d764": 1791929876.937001,
@@ -21942,6 +21962,7 @@
   "e043c8bcb35bf720": 1792539092.5502114,
   "e0462c7c30474a2c": 1791843834.4903822,
   "e05927082e0a783e": 1792021705.3810556,
+  "e06e3a2c20385e16": 1792827056.2588677,
   "e08ef814d6bf703d": 1792737153.4255016,
   "e0b8a117bf1001d4": 1792821771.0615282,
   "e0d2ebdc52199130": 1792751617.3931396,
@@ -23507,6 +23528,7 @@
    "/Film": 17,
    "Bloomberg": 3,
    "Deadline": 4,
+   "Eurogamer": 1,
    "GameSpot": 1,
    "GamesIndustry.biz": 2,
    "IGN": 2,
@@ -23536,7 +23558,7 @@
    "Eurogamer": 36,
    "GameSpot": 41,
    "GamesIndustry.biz": 22,
-   "GitHub Trending": 23,
+   "GitHub Trending": 24,
    "Hugging Face": 7,
    "IGN": 73,
    "ITC.ua": 58,
@@ -23566,7 +23588,7 @@
   },
   "translators": {
    "DeepL": 24,
-   "gemini-flash-latest": 96,
+   "gemini-flash-latest": 97,
    "gemini-flash-lite-latest": 1264
   },
   "week": "2026-W43"
@@ -24367,16 +24389,6 @@
    "",
    1792672301.6425362
   ],
-  "q:4 patch": [
-   0,
-   "",
-   1792652535.2207575
-  ],
-  "q:4 patch notes": [
-   0,
-   "",
-   1792652534.7224686
-  ],
   "q:4's first": [
    0,
    "",
@@ -24741,21 +24753,6 @@
    0,
    "",
    1792688561.5358093
-  ],
-  "q:all bug": [
-   0,
-   "",
-   1792652537.2628906
-  ],
-  "q:all bug fixes": [
-   0,
-   "",
-   1792652536.7548275
-  ],
-  "q:all bug fixes and changes": [
-   0,
-   "",
-   1792652536.2291968
   ],
   "q:all modern warfare 4 dmz story": [
    0,
@@ -25652,16 +25649,6 @@
    "Brutal Legend",
    1792609332.9176137
   ],
-  "q:bug fixes": [
-   0,
-   "",
-   1792652538.249907
-  ],
-  "q:bug fixes and changes": [
-   0,
-   "",
-   1792652537.7527459
-  ],
   "q:bullet ballet": [
    3184420,
    "Bullet Ballet",
@@ -26416,16 +26403,6 @@
    0,
    "",
    1792699281.4041457
-  ],
-  "q:development": [
-   0,
-   "",
-   1792652572.5821047
-  ],
-  "q:development on the next mass effect is ending": [
-   0,
-   "",
-   1792652572.0690784
   ],
   "q:devgamm": [
    0,
@@ -28002,16 +27979,6 @@
    "Gray Zone Warfare",
    1792337501.7086034
   ],
-  "q:great": [
-   0,
-   "",
-   1792652490.1218832
-  ],
-  "q:great game'": [
-   0,
-   "",
-   1792652489.6055462
-  ],
   "q:gridiron": [
    3878710,
    "Gridiron Remastered",
@@ -28932,11 +28899,6 @@
    "",
    1792762381.9611435
   ],
-  "q:launch": [
-   0,
-   "",
-   1792652535.7349632
-  ],
   "q:league": [
    0,
    "",
@@ -29706,16 +29668,6 @@
    0,
    "",
    1792672299.1416404
-  ],
-  "q:modern warfare 4 patch": [
-   0,
-   "",
-   1792652533.240256
-  ],
-  "q:modern warfare 4 patch notes": [
-   0,
-   "",
-   1792652532.7427385
   ],
   "q:modern warfare 4 season": [
    0,
@@ -31131,11 +31083,6 @@
    0,
    "",
    1792685597.5615988
-  ],
-  "q:rpg": [
-   0,
-   "",
-   1792652573.0987866
   ],
   "q:rpgs": [
    0,
@@ -32627,16 +32574,6 @@
    "",
    1792672300.157813
   ],
-  "q:warfare 4 patch": [
-   0,
-   "",
-   1792652534.2284932
-  ],
-  "q:warfare 4 patch notes": [
-   0,
-   "",
-   1792652533.7352138
-  ],
   "q:warfare 4 season": [
    0,
    "",
@@ -32711,46 +32648,6 @@
    0,
    "",
    1792793169.5431967
-  ],
-  "q:we were": [
-   0,
-   "",
-   1792652485.7824178
-  ],
-  "q:we were working": [
-   0,
-   "",
-   1792652485.2748675
-  ],
-  "q:we were working on a great": [
-   0,
-   "",
-   1792652484.7811565
-  ],
-  "q:we were working on a great game": [
-   0,
-   "",
-   1792652484.1534934
-  ],
-  "q:were": [
-   0,
-   "",
-   1792652487.7925878
-  ],
-  "q:were working": [
-   0,
-   "",
-   1792652487.275481
-  ],
-  "q:were working on a great": [
-   0,
-   "",
-   1792652486.7734456
-  ],
-  "q:were working on a great game'": [
-   0,
-   "",
-   1792652486.2799225
   ],
   "q:whalefall": [
    4489380,
@@ -32971,16 +32868,6 @@
    0,
    "",
    1792676023.5720632
-  ],
-  "q:working on a great": [
-   0,
-   "",
-   1792652489.0843518
-  ],
-  "q:working on a great game'": [
-   0,
-   "",
-   1792652488.5891325
   ],
   "q:world of warcraft 395": [
    0,
@@ -33302,22 +33189,6 @@
   ]
  },
  "titles": [
-  [
-   1792654272.7751832,
-   "Новий робот-велосипед стрибає, робить сальто та їздить на задньому колесі"
-  ],
-  [
-   1792654274.6947978,
-   "Саурон у всій могутності: вийшов трейлер 3 сезону \"Перснів влади\""
-  ],
-  [
-   1792654278.5761921,
-   "SAP CFO Says Cloud Growth at 25% Is 'Very Strong'"
-  ],
-  [
-   1792654290.7850704,
-   "Malaysian Traffic App Draws Ridicule After Officials Banned Waze"
-  ],
   [
    1792656076.2329073,
    "Resend Inboxes"
@@ -35297,25 +35168,13 @@
   [
    1792825405.646991,
    "IGNEA випустили LP \"Monumental\""
+  ],
+  [
+   1792827227.2209744,
+   "OpenBMB/VoxCPM"
   ]
  ],
  "titles_uk": [
-  [
-   1792654272.7751842,
-   "Новий робот-велосипед стрибає, робить сальто та їздить на задньому колесі"
-  ],
-  [
-   1792654274.6947992,
-   "Саурон у всій могутності: вийшов трейлер 3 сезону \"Перснів влади\""
-  ],
-  [
-   1792654278.576193,
-   "Фінансовий директор SAP назвав зростання хмарного бізнесу на 25% дуже сильним"
-  ],
-  [
-   1792654290.7850714,
-   "Малайзійський застосунок TuJu висміяли після спроби влади замінити ним Waze"
-  ],
   [
    1792656076.232908,
    "Resend запускає Inboxes"
@@ -37295,6 +37154,10 @@
   [
    1792825405.6469922,
    "IGNEA випустили LP \"Monumental\""
+  ],
+  [
+   1792827227.2209754,
+   "OpenBMB представила VoxCPM2 — нову систему синтезу та клонування голосу"
   ]
  ],
  "ukrainian": {
@@ -39527,7 +39390,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792823510.298872,
+  "last_check": 1792827235.7642083,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
