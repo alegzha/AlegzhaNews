@@ -12,18 +12,6 @@
    "sent": 0,
    "since": 1792792855.613854
   },
-  "src:games|Polygon|https://www.polygon.com/feed/": {
-   "detail": "https://www.polygon.com/feed/ → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\nhttps://www.polygon.com/rss/index.xml → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-   "label": "Джерело «Polygon» не працює",
-   "sent": 0,
-   "since": 1792816266.2865572
-  },
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1792816279.3328035
-  },
   "src:software|DOU|https://dou.ua/feed/": {
    "detail": "https://dou.ua/feed/ → 526 Server Error: <none> for url: https://dou.ua/feed/",
    "label": "Джерело «DOU» не працює",
@@ -45,11 +33,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-24 04:32 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-latest",
+  "at": "2026-10-24 04:48 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
@@ -17737,7 +17725,6 @@
    "Loudwire",
    {
     "also": [],
-    "caption": "🤘 <b>Анонсовано найбільші рок- і метал-тутри 2027 року</b>\n\nМузичні видання почали формувати графіки концертів на 2027 рік. У першому переліку зібрані головні рок- і метал-гурти, які вже забронювали масштабні тури на наступний рік.\n\n🔗 <a href=\"https://loudwire.com/2027-rock-metal-tour-guide/\">Loudwire</a>\n\n#музика",
     "kind": "photo",
     "link": "https://loudwire.com/2027-rock-metal-tour-guide/",
     "orig": "The 14 Biggest Rock + Metal Tours Announced for 2027 So Far"
@@ -18596,6 +18583,20 @@
     "link": "https://www.slashfilm.com/2295096/clayface-james-gunn-dc-universe-expansion-before-man-of-tomorrow/",
     "orig": "How Clayface Expands James Gunn's DC Universe"
    }
+  ],
+  [
+   1792817283.1480002,
+   2327,
+   "🎬",
+   "Чому творець оригінального The X-Files Кріс Картер не читав сценарій перезапуску від Раяна Куглера",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Чому творець оригінального The X-Files Кріс Картер не читав сценарій перезапуску від Раяна Куглера</b>\n\nВ інтерв&#x27;ю для SlashFilm Кріс Картер пояснив, чому довіряє Раяну Куглеру та чому вирішив не долучатися до його майбутнього перезапуску культового серіалу.\n\n🔗 <a href=\"https://www.slashfilm.com/2296107/why-x-files-creator-chris-carter-not-read-ryan-coogler-reboot/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2296107/why-x-files-creator-chris-carter-not-read-ryan-coogler-reboot/",
+    "orig": "Why Original X-Files Creator Chris Carter Didn't Read Ryan Coogler's Reboot [Exclusive]"
+   }
   ]
  ],
  "posted_by_source": {
@@ -18778,7 +18779,8 @@
    1792803763.6286938,
    1792803795.28597,
    1792810914.5441384,
-   1792816317.4284725
+   1792816317.4284725,
+   1792817283.1484976
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792515873.2258618,
@@ -20619,6 +20621,7 @@
   "83abdf4034c836d3": 1792089194.0217938,
   "83df1b64fdfb003b": 1791926710.9621716,
   "83e5e19401311e50": 1792432920.5902462,
+  "83f6e6aeaad3756e": 1792817283.1484628,
   "8406f972735456a8": 1792519306.6422756,
   "8442fb2812d42592": 1792270353.767999,
   "84a61bf897982bf0": 1792598456.6181962,
@@ -23297,7 +23300,7 @@
    "Variety": 1
   },
   "sources": {
-   "/Film": 36,
+   "/Film": 37,
    "AIN.ua": 5,
    "Blabbermouth": 72,
    "Bloomberg": 59,
@@ -23340,7 +23343,7 @@
   "translators": {
    "DeepL": 24,
    "gemini-flash-latest": 95,
-   "gemini-flash-lite-latest": 1250
+   "gemini-flash-lite-latest": 1251
   },
   "week": "2026-W43"
  },
@@ -34976,6 +34979,10 @@
   [
    1792816317.4284286,
    "How Clayface Expands James Gunn's DC Universe"
+  ],
+  [
+   1792817283.1484647,
+   "Why Original X-Files Creator Chris Carter Didn't Read Ryan Coogler's Reboot [Exclusive]"
   ]
  ],
  "titles_uk": [
@@ -36942,6 +36949,10 @@
   [
    1792816317.4284296,
    "Боді-горор Clayface представить Gotham City та розширить кіновсесвіт DCU"
+  ],
+  [
+   1792817283.1484652,
+   "Чому творець оригінального The X-Files Кріс Картер не читав сценарій перезапуску від Раяна Куглера"
   ]
  ],
  "ukrainian": {
