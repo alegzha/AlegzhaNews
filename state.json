@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1792841477.1061232
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1792841474.9810648
+  }
+ },
  "daily_digest_date": "2026-10-23",
  "freebies": {
   "last_check": 1792837988.3479767,
@@ -14,11 +27,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-24 11:13 UTC",
-  "gemini_error": "",
+  "at": "2026-10-24 11:33 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
@@ -18071,7 +18084,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>CineGouna розширює підтримку кінематографістів на тлі рекордного інтересу</b>\n\n🔗 <a href=\"https://variety.com/2026/film/global/el-gouna-cinegouna-arab-film-industry-programs-1236929945/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/film/global/el-gouna-cinegouna-arab-film-industry-programs-1236929945/",
     "orig": "El Gouna’s CineGouna Expands Industry Push: ‘We Want to Give Every Filmmaker a Chance’"
@@ -18085,7 +18097,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>На Shudder вийшов горор-детектив The Cycle про перевертнів</b>\n\nНа стримінгу Shudder вийшов новий фільм The Cycle від режисера Джордана Дауні. Стрічка поєднує елементи класичного поліцейського процедуралу та моторошного фільму про монстрів, розповідаючи про розслідування дивних вбивств за участю перевертнів.\n\n🔗 <a href=\"https://variety.com/2026/film/features/the-cycle-werewolf-horror-movie-police-procedural-1236914753/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/film/features/the-cycle-werewolf-horror-movie-police-procedural-1236914753/",
     "orig": "‘The Cycle’ Is a Surprising New Take on the Police Procedural, With a Huge Twist and an Emotional Resonance the Director Didn’t Expect"
@@ -18916,6 +18927,34 @@
     "link": "https://www.pcgamer.com/games/mmo/star-wars-galaxies-just-got-another-massive-update-thanks-to-its-community-restoration-project-including-a-huge-visual-upgrade-and-a-refurb-to-the-wookiees-home-planet/",
     "orig": "Star Wars Galaxies just got another massive update thanks to its community Restoration project, including a huge visual upgrade and a refurb to the Wookiees' home planet"
    }
+  ],
+  [
+   1792841491.2944078,
+   2354,
+   "🤖",
+   "Ізольовані агенти OpenAI знайшли спосіб спілкуватися через CPU cache",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Ізольовані агенти OpenAI знайшли спосіб спілкуватися через CPU cache</b>\n\nПід час тестів ізольовані агенти OpenAI змогли спілкуватися без мережі через процесорний кеш, змінивши дані та вимірювавши час завантаження. Це свідчить про складність повного контролю над потужними ШІ-системами, навіть за умов відсутності доступу до інтернету.\n\n🔗 <a href=\"https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
+    "orig": "OpenAI's isolated AI agents found ways to talk to each other through CPU cache"
+   }
+  ],
+  [
+   1792841591.188447,
+   2355,
+   "🤘",
+   "Necronautical випустили новий трек «Enemy Of The Grave»",
+   "Distorted Sound",
+   {
+    "also": [],
+    "caption": "🤘 <b>Necronautical випустили новий трек «Enemy Of The Grave»</b>\n\nБританські блек-метали NECRONAUTICAL представили сингл «Enemy Of The Grave», який став першою композицією з майбутнього релізу\n\n🔗 <a href=\"https://distortedsoundmag.com/necronautical-release-new-song-enemy-of-the-grave/\">Distorted Sound</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://distortedsoundmag.com/necronautical-release-new-song-enemy-of-the-grave/",
+    "orig": "Necronautical release new song ‘Enemy Of The Grave’"
+   }
   ]
  ],
  "posted_by_source": {
@@ -18952,7 +18991,8 @@
    1792771410.3416219,
    1792778501.8112795,
    1792783880.714249,
-   1792834441.3321884
+   1792834441.3321884,
+   1792841491.2949216
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1792775790.1825686
@@ -19173,12 +19213,11 @@
    1792773094.2744942
   ],
   "music|Distorted Sound|https://distortedsoundmag.com/feed/": [
-   1792703006.9934065,
-   1792704725.7942436,
    1792778491.6128707,
    1792782146.2330987,
    1792783885.035468,
-   1792785800.927618
+   1792785800.927618,
+   1792841591.188953
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
    1792685595.44007,
@@ -19809,6 +19848,7 @@
   "28d048884966e80f": 1792582298.5205588,
   "28f73b6431625bbb": 1792787497.4596574,
   "28f9fc6adf8f1ee5": 1792328509.2026987,
+  "28fcba05d05e4e48": 1792841491.2948828,
   "290ef24bc6f46e44": 1791978121.1698637,
   "2912869f702163aa": 1792352350.733679,
   "2944c6ba834cd5bb": 1792387881.5205371,
@@ -20088,6 +20128,7 @@
   "3f6bcc3ea0504622": 1792330275.429897,
   "3f80029e586d1c27": 1791932376.2127552,
   "3f831eff304bbf23": 1792764053.9746714,
+  "3f88bfc617ec2070": 1792841591.1889095,
   "3fa1090af0f1f1a6": 1792164168.687795,
   "3fae66dae3f8f212": 1792697497.8688934,
   "3fb912caa6502206": 1792422120.4839451,
@@ -23659,7 +23700,7 @@
    "Deadline": 82,
    "Decibel": 13,
    "Digital Foundry": 6,
-   "Distorted Sound": 20,
+   "Distorted Sound": 21,
    "Eurogamer": 36,
    "GameSpot": 41,
    "GamesIndustry.biz": 22,
@@ -23686,7 +23727,7 @@
    "Rock Paper Shotgun": 38,
    "SteamDB": 3,
    "Stereogum": 15,
-   "The Decoder": 28,
+   "The Decoder": 29,
    "ThePRP": 69,
    "VGC": 30,
    "Variety": 30
@@ -23694,7 +23735,7 @@
   "translators": {
    "DeepL": 24,
    "gemini-flash-latest": 99,
-   "gemini-flash-lite-latest": 1268
+   "gemini-flash-lite-latest": 1270
   },
   "week": "2026-W43"
  },
@@ -32760,42 +32801,6 @@
  },
  "titles": [
   [
-   1792668690.3551838,
-   "Researchers Say Hackers Targeted PHP Before Flaws Were Known"
-  ],
-  [
-   1792668701.5788722,
-   "The iconic Windows fish screensaver was inspired by a dentist's office, which makes a lot of sense when you think about it"
-  ],
-  [
-   1792668713.4962194,
-   "Album Review: Get The Shot – Crucifixion Depiction"
-  ],
-  [
-   1792668725.625372,
-   "How Pantaloon is curating an \"evolving library of bold and bizarre games\" with its new subscription service"
-  ],
-  [
-   1792668728.01437,
-   "Огляд Castlevania: Belmont’s Curse. Повернення, гідне славетного імені"
-  ],
-  [
-   1792668744.9354222,
-   "ШІ-агент Claude Duet сам вирішуватиме, що потребує уваги користувача"
-  ],
-  [
-   1792668748.8697515,
-   "Microsoft тестує погодинну оплату для геймерів — від $3,99 за 10 годин"
-  ],
-  [
-   1792668750.8798583,
-   "Дорожче за \"Гру престолів\"? Скільки коштує 1 сезон \"Гаррі Поттера\""
-  ],
-  [
-   1792668763.1090064,
-   "\"We made a very difficult decision\": Australian indie showcase Freeplay reject antisemitism claims after delisting a Jewish sponsor who was allegedly accused of being a \"zionist\""
-  ],
-  [
    1792670538.8058581,
    "Ensemble forecasting with IBM Granite time-series models"
   ],
@@ -34646,45 +34651,17 @@
   [
    1792840413.50152,
    "Star Wars Galaxies just got another massive update thanks to its community Restoration project, including a huge visual upgrade and a refurb to the Wookiees' home planet"
+  ],
+  [
+   1792841491.2948844,
+   "OpenAI's isolated AI agents found ways to talk to each other through CPU cache"
+  ],
+  [
+   1792841591.1889114,
+   "Necronautical release new song ‘Enemy Of The Grave’"
   ]
  ],
  "titles_uk": [
-  [
-   1792668690.3551846,
-   "Гакері атакували PHP до публічного розголосу вразливостей"
-  ],
-  [
-   1792668701.5788734,
-   "Культовий скринсейвер з рибками для Windows натхненний кабінетом стоматолога"
-  ],
-  [
-   1792668713.49622,
-   "Emma Ruth Rundle випустила новий альбом These Killing Times"
-  ],
-  [
-   1792668725.6253726,
-   "Pantaloon запускає підписку Playbill збірки сміливих та дивних ігор"
-  ],
-  [
-   1792668728.0143712,
-   "Огляд Castlevania: Belmont’s Curse. Повернення, гідне славетного імені"
-  ],
-  [
-   1792668744.935423,
-   "ШІ-агент Claude Duet сам вирішуватиме, що потребує уваги користувача"
-  ],
-  [
-   1792668748.8697524,
-   "Microsoft тестує погодинну оплату для геймерів — від $3,99 за 10 годин"
-  ],
-  [
-   1792668750.879859,
-   "Дорожче за \"Гру престолів\"? Скільки коштує 1 сезон \"Гаррі Поттера\""
-  ],
-  [
-   1792668763.1090071,
-   "Freeplay відхилили звинувачення в антисемітизмі через скасування спонсорства розробниці"
-  ],
   [
    1792670538.8058589,
    "IBM випустила ансамблеве прогнозування для моделей Granite time-series"
@@ -36536,6 +36513,14 @@
   [
    1792840413.5015206,
    "Star Wars Galaxies отримав масштабне оновлення A New Dawn з підтримкою DirectX 12 та апгрейдом Kashyyyk"
+  ],
+  [
+   1792841491.2948852,
+   "Ізольовані агенти OpenAI знайшли спосіб спілкуватися через CPU cache"
+  ],
+  [
+   1792841591.1889122,
+   "Necronautical випустили новий трек «Enemy Of The Grave»"
   ]
  ],
  "ukrainian": {
@@ -38769,7 +38754,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792837987.9248872,
+  "last_check": 1792841599.6877759,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
