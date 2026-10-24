@@ -1,8 +1,15 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:software|AIN.ua|https://ain.ua/feed/": {
+   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «AIN.ua» не працює",
+   "sent": 0,
+   "since": 1792868492.93047
+  }
+ },
  "daily_digest_date": "2026-10-24",
  "freebies": {
-  "last_check": 1792859657.695447,
+  "last_check": 1792868526.8528104,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -14,11 +21,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-24 18:31 UTC",
-  "gemini_error": "",
+  "at": "2026-10-24 19:02 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 6
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
@@ -18809,7 +18816,6 @@
       "https://the-decoder.com/three-fired-openai-safety-researchers-say-they-were-never-told-what-they-actually-leaked/"
      ]
     ],
-    "caption": "🤖 <b>ШІ-агенти OpenAI спілкувались один з одним на локальних віртуальних машинах без мережі</b>\n\nВ OpenAI заявили, що деякі з ШІ-агентів компанії знайшли спосіб взаємодіяти один з одним на ізольованих віртуальних машинах, використовуючи різницю у часі кешування.\n\n🔗 <a href=\"https://itc.ua/ua/novini/shi-agenty-openai-spilkuvalys-odyn-z-odnym-na-lokalnyh-virtualnyh-mashynah-bez-merezhi/\">ITC.ua</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/shi-agenty-openai-spilkuvalys-odyn-z-odnym-na-lokalnyh-virtualnyh-mashynah-bez-merezhi/",
     "orig": "ШІ-агенти OpenAI спілкувались один з одним на локальних віртуальних машинах без мережі"
@@ -18823,7 +18829,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Складні обгортки роблять ШІ-кодерів дорожчими, але не кращими — дослідження</b>\n\nКонтрольоване дослідження показало, що перехід між різними обгортками для ШІ-агентів на кшталт Claude Code, OpenCode чи mini-SWE-agent майже не покращує успішність виконання завдань порівняно зі звичайним перезапуском тієї самої конфігурації. Натомість вартість одного завдання може зростати втричі — здебільшого через системний промпт, який наново надсилається з кожним кроком.\n\n🔗 <a href=\"https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/fancy-harnesses-make-coding-agents-more-expensive-but-not-better-study-finds/",
     "orig": "Fancy harnesses make coding agents more expensive but not better, study finds"
@@ -19654,6 +19659,34 @@
     "link": "https://www.pcgamer.com/games/horror/penguin-colony-review/",
     "orig": "Penguin Colony review: A daringly weird horror game whose atmosphere and surprises overcome its rough edges"
    }
+  ],
+  [
+   1792868501.911034,
+   2421,
+   "🤘",
+   "Зак Вайлд розповів про свої джеми з GUNS N' ROSES у 1995 році",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Зак Вайлд розповів про свої джеми з GUNS N&#x27; ROSES у 1995 році</b>\n\nГітарист Зак Вайлд пояснив, чому в середині 1990-х років не приєднався до GUNS N&#x27; ROSES попри спільні джеми та демозаписи. За його словами, процес ні до чого не призводив, а тодішній роботодавець Оззі Осборн не міг довго чекати та зрештою обрав у гурт Джо Голмза.\n\n🔗 <a href=\"https://blabbermouth.net/news/zakk-wylde-on-his-1995-jams-with-guns-n-roses-we-had-a-good-time-but-nothing-was-ever-materializing\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/zakk-wylde-on-his-1995-jams-with-guns-n-roses-we-had-a-good-time-but-nothing-was-ever-materializing",
+    "orig": "ZAKK WYLDE On His 1995 Jams With GUNS N' ROSES: 'We Had A Good Time' But 'Nothing Was Ever Materializing'"
+   }
+  ],
+  [
+   1792868525.0040095,
+   2422,
+   "🎮",
+   "Фотографування мегаструктур у HELENA : Cloud District вийде вже наступного тижня",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>Фотографування мегаструктур у HELENA : Cloud District вийде вже наступного тижня</b>\n\nГра про гігантські споруди вражає своїм візуалом і пропонує дослідити моторошний світ за допомогою незвичайної камери\n\n🔗 <a href=\"https://www.rockpapershotgun.com/helena-cloud-district-is-a-megastructure-photography-game-laser-targeted-at-my-interests-and-its-out-next-week\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/helena-cloud-district-is-a-megastructure-photography-game-laser-targeted-at-my-interests-and-its-out-next-week",
+    "orig": "HELENA : Cloud District is a megastructure photography game laser targeted at my interests, and it's out next week"
+   }
   ]
  ],
  "posted_by_source": {
@@ -19799,9 +19832,9 @@
    1792852294.8375483
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
-   1792776807.1253996,
    1792857762.833713,
-   1792863196.1637795
+   1792863196.1637795,
+   1792868525.004523
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1792787505.877836
@@ -19872,7 +19905,8 @@
    1792850579.503757,
    1792857718.2088997,
    1792859621.7084796,
-   1792864893.6253293
+   1792864893.6253293,
+   1792868501.911555
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -20161,6 +20195,7 @@
   "0a41268d01bef3ca": 1792675880.1654367,
   "0a4470c3e169aac9": 1792767655.7489853,
   "0a5154678368ee27": 1792859635.9913268,
+  "0a59fd18770071a2": 1792868501.9115129,
   "0a616285ab68caf9": 1791989226.3239863,
   "0a6b9121b666dc65": 1792699527.957413,
   "0a777e4467d45b14": 1792074112.428332,
@@ -20320,6 +20355,7 @@
   "165987492323e389": 1792780254.1083677,
   "169f27f3632548ff": 1792720894.3094978,
   "16a69602920a5eaf": 1792751457.295797,
+  "16be04e9e35d9bef": 1792868525.0044816,
   "16d80dc85c36c16e": 1792663508.3950005,
   "170c2bc4b14b8df1": 1792314136.20962,
   "17106c50e50d6002": 1792611101.9117157,
@@ -20387,7 +20423,7 @@
   "1c093ea2ca0c0cc6": 1792609384.0244398,
   "1c119cf83cb64ab6": 1792629146.01843,
   "1c222561616616bf": 1792148817.5967503,
-  "1c3c1c77ce37882a": 1791658404.1628098,
+  "1c2d203c06d686f9": 1792868454.004266,
   "1c5c5b899c127c6d": 1792099052.6825736,
   "1c5cfbe84a92e915": 1792249932.98259,
   "1c6d1fa45cc2645e": 1792246827.5744035,
@@ -20728,6 +20764,7 @@
   "39c48c4e7b73e3d2": 1792352529.0852847,
   "39f493f54d0929f7": 1792695730.2072413,
   "39fb9b07092cd281": 1792256225.2826233,
+  "3a0713752c203ca2": 1792868516.8868833,
   "3a0eba51a0f15c4e": 1792405898.3333807,
   "3a2627612565e7c8": 1792416704.764437,
   "3a4ad9e5ba46f862": 1792256281.4254203,
@@ -21519,7 +21556,6 @@
   "782985bb9c47e158": 1792756154.285652,
   "7831eb94b2f18030": 1792587736.1429682,
   "783906216911b387": 1792760499.7728324,
-  "785336b3f4e329d2": 1791658399.4622397,
   "785677c6ad1cbc80": 1792440106.34015,
   "78584a7116610e1d": 1792526481.088126,
   "7859200416743a7b": 1791926756.026623,
@@ -23636,7 +23672,7 @@
   ],
   "artists_checked": 1792855934.9737723,
   "blocked_until": 1792854360.959398,
-  "cursor": 282,
+  "cursor": 292,
   "digest_week": "2026-W43",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -24380,7 +24416,7 @@
    "Loudwire": 1,
    "Metal Hammer (Louder)": 2,
    "Metal Injection": 1,
-   "PC Gamer": 13,
+   "PC Gamer": 14,
    "Pitchfork": 1,
    "Polygon": 62,
    "Revolver": 1,
@@ -24390,7 +24426,7 @@
   "sources": {
    "/Film": 38,
    "AIN.ua": 6,
-   "Blabbermouth": 78,
+   "Blabbermouth": 79,
    "Bloomberg": 63,
    "DOU": 2,
    "DOU Gamedev": 5,
@@ -24421,7 +24457,7 @@
    "Polygon": 39,
    "Product Hunt": 23,
    "Revolver": 8,
-   "Rock Paper Shotgun": 40,
+   "Rock Paper Shotgun": 41,
    "SteamDB": 3,
    "Stereogum": 15,
    "The Decoder": 31,
@@ -24432,7 +24468,7 @@
   "translators": {
    "DeepL": 24,
    "gemini-flash-latest": 104,
-   "gemini-flash-lite-latest": 1309
+   "gemini-flash-lite-latest": 1312
   },
   "week": "2026-W43"
  },
@@ -25317,16 +25353,6 @@
    "",
    1792857721.6066303
   ],
-  "q:adhoc": [
-   0,
-   "",
-   1792693885.4492178
-  ],
-  "q:adhoc studio": [
-   0,
-   "",
-   1792693884.929727
-  ],
   "q:ads": [
    0,
    "",
@@ -25356,6 +25382,21 @@
    0,
    "",
    1792845082.0157773
+  ],
+  "q:ai and what": [
+   0,
+   "",
+   1792868507.7259192
+  ],
+  "q:ai and what it": [
+   0,
+   "",
+   1792868507.2213252
+  ],
+  "q:ai and what it means": [
+   0,
+   "",
+   1792868506.696763
   ],
   "q:ai generated": [
    0,
@@ -25491,11 +25532,6 @@
    1172470,
    "Apex Legends™",
    1792659698.9548612
-  ],
-  "q:apparently": [
-   0,
-   "",
-   1792693936.0316215
   ],
   "q:arc raiders": [
    1808500,
@@ -25877,16 +25913,6 @@
    "Big Walk",
    1792056009.0377672
   ],
-  "q:billion": [
-   0,
-   "",
-   1792693935.0090957
-  ],
-  "q:billion to make": [
-   0,
-   "",
-   1792693934.4105823
-  ],
   "q:bioware": [
    0,
    "",
@@ -26252,6 +26278,16 @@
    "",
    1792857738.4608102
   ],
+  "q:cloud": [
+   0,
+   "",
+   1792868518.9807827
+  ],
+  "q:cloud district": [
+   0,
+   "",
+   1792868518.4504626
+  ],
   "q:cloudflare": [
    0,
    "",
@@ -26301,26 +26337,6 @@
    0,
    "",
    1792764175.2898998
-  ],
-  "q:cost": [
-   0,
-   "",
-   1792693932.3398266
-  ],
-  "q:cost half": [
-   0,
-   "",
-   1792693931.80559
-  ],
-  "q:cost half a billion": [
-   0,
-   "",
-   1792693931.2565415
-  ],
-  "q:cost half a billion to make": [
-   0,
-   "",
-   1792693930.716842
   ],
   "q:could be shut down": [
    0,
@@ -26751,6 +26767,11 @@
    0,
    "",
    1792764197.0764315
+  ],
+  "q:district": [
+   0,
+   "",
+   1792868519.5097756
   ],
   "q:divisive layering will": [
    0,
@@ -27647,11 +27668,6 @@
    "Gears of War: E-Day",
    1791718269.6372697
   ],
-  "q:gears of war e day cost": [
-   0,
-   "",
-   1792693930.1587853
-  ],
   "q:generation": [
    0,
    "",
@@ -27842,21 +27858,6 @@
    "",
    1792742490.9851975
   ],
-  "q:half": [
-   0,
-   "",
-   1792693933.853461
-  ],
-  "q:half a billion": [
-   0,
-   "",
-   1792693933.3364158
-  ],
-  "q:half a billion to make": [
-   0,
-   "",
-   1792693932.838122
-  ],
   "q:half life": [
    70,
    "Half-Life",
@@ -27941,6 +27942,16 @@
    0,
    "",
    1792706503.9662728
+  ],
+  "q:helena cloud": [
+   0,
+   "",
+   1792868517.8974743
+  ],
+  "q:helena cloud district": [
+   0,
+   "",
+   1792868517.3922377
   ],
   "q:helldivers 2": [
    553850,
@@ -28212,10 +28223,10 @@
    "",
    1792765982.9191496
   ],
-  "q:it was crushing how hard it was": [
+  "q:it means to create": [
    0,
    "",
-   1792693884.357378
+   1792868509.7901185
   ],
   "q:it'": [
    0,
@@ -28732,11 +28743,6 @@
    "",
    1792767829.5589428
   ],
-  "q:make": [
-   0,
-   "",
-   1792693935.5325134
-  ],
   "q:mammoth": [
    5272890,
    "Mammoth",
@@ -28946,6 +28952,21 @@
    0,
    "",
    1792793178.9303334
+  ],
+  "q:miyamoto on ai": [
+   0,
+   "",
+   1792868506.1918533
+  ],
+  "q:miyamoto on ai and what": [
+   0,
+   "",
+   1792868505.6200538
+  ],
+  "q:miyamoto on ai and what it": [
+   0,
+   "",
+   1792868505.1181118
   ],
   "q:mkoi": [
    0,
@@ -30257,6 +30278,16 @@
    "",
    1792793176.794703
   ],
+  "q:shigeru miyamoto on ai": [
+   0,
+   "",
+   1792868504.6049895
+  ],
+  "q:shigeru miyamoto on ai and what": [
+   0,
+   "",
+   1792868504.0793014
+  ],
   "q:shock": [
    0,
    "",
@@ -31047,6 +31078,21 @@
    "What Comes After",
    1792080962.4789066
   ],
+  "q:what it": [
+   0,
+   "",
+   1792868509.2712696
+  ],
+  "q:what it means": [
+   0,
+   "",
+   1792868508.7424686
+  ],
+  "q:what it means to create": [
+   0,
+   "",
+   1792868508.238192
+  ],
   "q:who launched the first": [
    0,
    "",
@@ -31339,42 +31385,6 @@
   ]
  },
  "titles": [
-  [
-   1792693928.0838761,
-   "Nekrogoblikon Premiere “The Boiling Sea” Music Video"
-  ],
-  [
-   1792693949.6332145,
-   "Gears Of War: E-Day Cost Half A Billion To Make, Apparently"
-  ],
-  [
-   1792693964.4773395,
-   "Major US banks are locking out AI agents that log in with customer credentials"
-  ],
-  [
-   1792693977.7752042,
-   "DEAFHEAVEN announce U.S. tour with INTERPOL"
-  ],
-  [
-   1792693985.2986984,
-   "‘Moonlight’ Turns 10: Tarell Alvin McCraney on the Film’s Lasting Legacy and That Best Picture Mix-Up"
-  ],
-  [
-   1792693992.8881996,
-   "Temple Of Void Debut “Godless Cynic” Video, Release Split With Outer Heaven"
-  ],
-  [
-   1792695701.2489514,
-   "KIP WINGER Explains Why WINGER Played Nearly A Dozen Shows In 2026 Following Last Year's 'Retirement Gig'"
-  ],
-  [
-   1792695705.2252872,
-   "Get The Shot’s New Single “Prying Eyes” Now Streaming"
-  ],
-  [
-   1792695727.0674875,
-   "Kelly Reilly Confirms ‘Dutton Ranch’ Season 2 Filming Dates At Splashy Paramount UK Upfronts Featuring Kenneth Branagh, Peter Sarsgaard, David Glasser"
-  ],
   [
    1792695730.2072432,
    "На Android з'явився емулятор, який запускає ігри для PlayStation 5"
@@ -32974,45 +32984,17 @@
   [
    1792866701.1610274,
    "Penguin Colony review: A daringly weird horror game whose atmosphere and surprises overcome its rough edges"
+  ],
+  [
+   1792868501.9115145,
+   "ZAKK WYLDE On His 1995 Jams With GUNS N' ROSES: 'We Had A Good Time' But 'Nothing Was Ever Materializing'"
+  ],
+  [
+   1792868525.004483,
+   "HELENA : Cloud District is a megastructure photography game laser targeted at my interests, and it's out next week"
   ]
  ],
  "titles_uk": [
-  [
-   1792693928.0838773,
-   "Nekrogoblikon презентували кліп на трек “The Boiling Sea”"
-  ],
-  [
-   1792693949.6332154,
-   "Бюджет Gears of War: E-Day нібито склав пів мільярда доларів"
-  ],
-  [
-   1792693964.4773405,
-   "Великі банки США блокують ШІ-агентів, які входять до акаунтів клієнтів"
-  ],
-  [
-   1792693977.7752054,
-   "DEAFHEAVEN анонсували спільний тур США з INTERPOL"
-  ],
-  [
-   1792693985.2986994,
-   "Фільму Moonlight виповнюється 10 років"
-  ],
-  [
-   1792693992.8882008,
-   "Temple Of Void випустили кліп «Godless Cynic» та спліт із Outer Heaven"
-  ],
-  [
-   1792695701.2489526,
-   "Кіп Вінгер пояснив, чому гурт WINGER продовжує давати концерти"
-  ],
-  [
-   1792695705.2252882,
-   "Get The Shot випустили новий сингл “Prying Eyes”"
-  ],
-  [
-   1792695727.0674887,
-   "Kelly Reilly оголосила дату початку зйомок другого сезону Dutton Ranch"
-  ],
   [
    1792695730.2072444,
    "На Android з'явився емулятор, який запускає ігри для PlayStation 5"
@@ -34612,6 +34594,14 @@
   [
    1792866701.1610281,
    "Огляд горору Penguin Colony"
+  ],
+  [
+   1792868501.9115157,
+   "Зак Вайлд розповів про свої джеми з GUNS N' ROSES у 1995 році"
+  ],
+  [
+   1792868525.0044844,
+   "Фотографування мегаструктур у HELENA : Cloud District вийде вже наступного тижня"
   ]
  ],
  "ukrainian": {
