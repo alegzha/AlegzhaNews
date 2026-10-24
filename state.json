@@ -33,11 +33,10 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-24 01:03 UTC",
-  "gemini_error": "",
+  "at": "2026-10-24 01:32 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 2,
    "gemini-flash-lite-latest": 1
   },
   "used": [
@@ -17622,7 +17621,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b>Netflix і Xbox не домовилися про масштабну кіноадаптацію ігор</b>\n\nNetflix пропонував Xbox $500 млн за ексклюзивну ліцензію на екранізацію ігор протягом семи років, але Xbox запросила $800 млн. Через розбіжності в ціні та кадрові зміни переговори зірвалися. Водночас компанії продовжують працювати над іншими спільними проєктами, зокрема анімаційними серіалами за Minecraft і Diablo.\n\n🔗 <a href=\"https://www.eurogamer.net/netflix-500m-xbox-film-tv-rights\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/netflix-500m-xbox-film-tv-rights",
     "orig": "With Minecraft and Diablo shows already on the way, Netflix reportedly offered Xbox $500m for a bigger film and TV deal"
@@ -18481,6 +18479,20 @@
     "link": "https://www.ign.com/articles/dead-by-daylight-to-remove-chucky-content-just-months-after-losing-michael-myers",
     "orig": "Dead by Daylight to Remove Chucky Content Just Months After Losing Michael Myers"
    }
+  ],
+  [
+   1792805570.5795512,
+   2319,
+   "💾",
+   "Новий iPhone за $1999 розкладається під час кризи доступності",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "💾 <b>Новий iPhone за $1999 розкладається під час кризи доступності</b>\n\nЛіза Матео, Скарлет Фу та Том Кін з Bloomberg обговорюють вихід нового iPhone від Apple у свіжому випуску програми Bloomberg Money.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-23/-1-999-new-iphone-unfolds-during-affordability-crisis-video\">Bloomberg</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-23/-1-999-new-iphone-unfolds-during-affordability-crisis-video",
+    "orig": "$1,999 New iPhone 'Unfolds' During Affordability Crisis"
+   }
   ]
  ],
  "posted_by_source": {
@@ -18848,11 +18860,11 @@
    1792791107.1764152
   ],
   "software|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1792717290.980174,
    1792755096.9159691,
    1792762375.4571586,
    1792776725.5636535,
-   1792776753.7353716
+   1792776753.7353716,
+   1792805570.580092
   ],
   "software|DOU|https://dou.ua/feed/": [
    1792352542.7076654,
@@ -19363,6 +19375,7 @@
   "27fa96040b7c0dfd": 1792504889.5416923,
   "280bf6e0b283da7f": 1792494085.7574697,
   "282f1ec2fb3bb2c0": 1792573303.2482731,
+  "28779801fbc69203": 1792805570.580035,
   "288ef221c7d809cb": 1792571479.856287,
   "28a0349a7b67687c": 1792391485.7538562,
   "28a7398f3aa95b80": 1792677871.057785,
@@ -23176,7 +23189,7 @@
    "/Film": 34,
    "AIN.ua": 5,
    "Blabbermouth": 72,
-   "Bloomberg": 55,
+   "Bloomberg": 56,
    "DOU": 2,
    "DOU Gamedev": 5,
    "Deadline": 77,
@@ -23216,7 +23229,7 @@
   "translators": {
    "DeepL": 24,
    "gemini-flash-latest": 93,
-   "gemini-flash-lite-latest": 1244
+   "gemini-flash-lite-latest": 1245
   },
   "week": "2026-W43"
  },
@@ -32950,14 +32963,6 @@
  },
  "titles": [
   [
-   1792632677.229077,
-   "Can you identify the horror game by its horrors?"
-  ],
-  [
-   1792632680.108724,
-   "The next Mass Effect would have had 'a level of autonomy and choice that no other game has been able to match', according to BioWare veteran"
-  ],
-  [
    1792634487.7274806,
    "Tesla, IBM & Meta Report Earnings as AI Takes Center Stage"
   ],
@@ -34916,17 +34921,13 @@
   [
    1792803809.3101506,
    "Dead by Daylight to Remove Chucky Content Just Months After Losing Michael Myers"
+  ],
+  [
+   1792805570.580037,
+   "$1,999 New iPhone 'Unfolds' During Affordability Crisis"
   ]
  ],
  "titles_uk": [
-  [
-   1792632677.229078,
-   "Новий тест від PC Gamer пропонує вгадати хорор-ігри за їхніми монстрами"
-  ],
-  [
-   1792632680.108725,
-   "Наступна Mass Effect мала отримати небачений рівень свободи вибору"
-  ],
   [
    1792634487.7274814,
    "Tesla, IBM та Meta готуються опублікувати звіти на тлі домінування ШІ"
@@ -36886,6 +36887,10 @@
   [
    1792803809.3101513,
    "З Dead by Daylight видалять весь контент із Chucky"
+  ],
+  [
+   1792805570.5800383,
+   "Новий iPhone за $1999 розкладається під час кризи доступності"
   ]
  ],
  "ukrainian": {
@@ -39118,7 +39123,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792801895.4168413,
+  "last_check": 1792805579.3789842,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
