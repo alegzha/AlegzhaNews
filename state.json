@@ -12,6 +12,18 @@
    "sent": 0,
    "since": 1792792855.613854
   },
+  "src:games|Polygon|https://www.polygon.com/feed/": {
+   "detail": "https://www.polygon.com/feed/ → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\nhttps://www.polygon.com/rss/index.xml → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+   "label": "Джерело «Polygon» не працює",
+   "sent": 0,
+   "since": 1792816266.2865572
+  },
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1792816279.3328035
+  },
   "src:software|DOU|https://dou.ua/feed/": {
    "detail": "https://dou.ua/feed/ → 526 Server Error: <none> for url: https://dou.ua/feed/",
    "label": "Джерело «DOU» не працює",
@@ -21,7 +33,7 @@
  },
  "daily_digest_date": "2026-10-23",
  "freebies": {
-  "last_check": 1792809087.407195,
+  "last_check": 1792816326.2136726,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -33,11 +45,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-24 04:01 UTC",
+  "at": "2026-10-24 04:32 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_model": "gemini-flash-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-latest": 1
   },
   "used": [
    "Gemini"
@@ -17712,7 +17724,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/286690/\">Metro 2033 Redux</a> стала другою грою з офіційною підтримкою DLSS 5</b>\n\nВчорашнє оновлення Metro 2033 Redux та Metro: Last Light Redux, як виявилося, містило офіційну підтримку DLSS 5, яка помітно змінює освітлення та деталізацію облич персонажів.\n\n🔗 <a href=\"https://itc.ua/ua/novini/metro-2033-redux-stala-drugoyu-groyu-z-ofitsijnoyu-pidtrymkoyu-dlss-5/\">ITC.ua</a>\n\n#ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/metro-2033-redux-stala-drugoyu-groyu-z-ofitsijnoyu-pidtrymkoyu-dlss-5/",
     "orig": "Metro 2033 Redux стала другою грою з офіційною підтримкою DLSS 5"
@@ -18571,6 +18582,20 @@
     "link": "https://www.bloomberg.com/news/videos/2026-10-23/investors-figuring-out-agentic-ai-robinhood-s-guild-video",
     "orig": "Investors Figuring Out Agentic AI: Robinhood's Guild"
    }
+  ],
+  [
+   1792816317.4279296,
+   2326,
+   "🎬",
+   "Боді-горор Clayface представить Gotham City та розширить кіновсесвіт DCU",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Боді-горор Clayface представить Gotham City та розширить кіновсесвіт DCU</b>\n\nБоді-горор режисера Джеймса Воткінса з рейтингом R розповість історію Matt Hagen (Том Ріс Гарріс), чиє лікування понівеченого обличчя штовхає його на шлях помсти. Фільм уперше покаже новий Gotham City для майбутнього Batman і розширить DCU Джеймса Ґанна як повністю автономна історія без прив&#x27;язки до інших проєктів франшизи.\n\n🔗 <a href=\"https://www.slashfilm.com/2295096/clayface-james-gunn-dc-universe-expansion-before-man-of-tomorrow/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2295096/clayface-james-gunn-dc-universe-expansion-before-man-of-tomorrow/",
+    "orig": "How Clayface Expands James Gunn's DC Universe"
+   }
   ]
  ],
  "posted_by_source": {
@@ -18749,12 +18774,11 @@
    1792769795.993929
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
-   1792728077.2205906,
-   1792729878.694457,
    1792771442.753383,
    1792803763.6286938,
    1792803795.28597,
-   1792810914.5441384
+   1792810914.5441384,
+   1792816317.4284725
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792515873.2258618,
@@ -19396,6 +19420,7 @@
   "224daf5a807e3c03": 1792071008.013642,
   "22620eab371edb85": 1792434718.7894151,
   "22753ddecaf537b7": 1792377264.7891715,
+  "22d8588e243d0392": 1792816317.4284265,
   "22f2241e86eaa553": 1792692161.991235,
   "230a334b93a512da": 1792702880.1291466,
   "236999d0426ce59b": 1792454490.5140986,
@@ -23272,7 +23297,7 @@
    "Variety": 1
   },
   "sources": {
-   "/Film": 35,
+   "/Film": 36,
    "AIN.ua": 5,
    "Blabbermouth": 72,
    "Bloomberg": 59,
@@ -23314,7 +23339,7 @@
   },
   "translators": {
    "DeepL": 24,
-   "gemini-flash-latest": 94,
+   "gemini-flash-latest": 95,
    "gemini-flash-lite-latest": 1250
   },
   "week": "2026-W43"
@@ -32989,14 +33014,6 @@
  },
  "titles": [
   [
-   1792641696.6375608,
-   "The Lord Of The Rings: The Rings Of Power Season 3 Trailer: Sauron's War Finally Arrives"
-  ],
-  [
-   1792643482.6882362,
-   "“I don’t know what people were complaining about. They nailed it”: Dragonforce’s Herman Li on Dream Theater"
-  ],
-  [
    1792645241.7439609,
    "Demon Slayer: Infinity Castle 2 Rumored Release Date Discovered"
   ],
@@ -34955,17 +34972,13 @@
   [
    1792814484.6630914,
    "Investors Figuring Out Agentic AI: Robinhood's Guild"
+  ],
+  [
+   1792816317.4284286,
+   "How Clayface Expands James Gunn's DC Universe"
   ]
  ],
  "titles_uk": [
-  [
-   1792641696.6375616,
-   "Prime Video випустив трейлер третього сезону серіалу The Lord Of The Rings: The Rings Of Power"
-  ],
-  [
-   1792643482.6882374,
-   "Герман Лі з Dragonforce розповів про любов до Dream Theater"
-  ],
   [
    1792645241.7439613,
    "У Мережі розкрили можливу дату виходу аніме Demon Slayer: Infinity Castle 2"
@@ -36925,6 +36938,10 @@
   [
    1792814484.6630924,
    "Користувачі Robinhood тепер можуть інвестувати за допомогою агентів ШІ"
+  ],
+  [
+   1792816317.4284296,
+   "Боді-горор Clayface представить Gotham City та розширить кіновсесвіт DCU"
   ]
  ],
  "ukrainian": {
@@ -37351,8 +37368,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1792793202.3111486,
-  "with_uk": 99
+  "last_check": 1792816336.0693364,
+  "with_uk": 98
  },
  "weekly_releases_week": "2026-W43",
  "wishlist": {
@@ -39157,7 +39174,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792812683.2570157,
+  "last_check": 1792816326.1369011,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
