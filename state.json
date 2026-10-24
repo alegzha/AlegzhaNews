@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:software|AIN.ua|https://ain.ua/feed/": {
-   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «AIN.ua» не працює",
-   "sent": 0,
-   "since": 1792868492.93047
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-24",
  "freebies": {
   "last_check": 1792868526.8528104,
@@ -21,11 +14,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-24 19:02 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-10-24 19:31 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 5
   },
   "used": [
    "Gemini"
@@ -18842,7 +18835,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Як Стівен Вілсон залучив ексзірку Doctor Who до запису свого нового альбому</b>\n\nСтівен Вілсон хотів запросити Айвора Катлера на пластинку, але згадав, що той уже помер — і натомість покликав колишнього актора Doctor Who Девіда Теннанта\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/steven-wilson-david-tennant-new-album\">Metal Hammer (Louder)</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/steven-wilson-david-tennant-new-album",
     "orig": "How Steven Wilson got a former Doctor Who to appear on his new album"
@@ -18856,7 +18848,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Творець Super Mario ідеально пояснив головну проблему ШІ</b>\n\nСігеру Міямото розповів про обмеження штучного інтелекту у творчості\n\n🔗 <a href=\"https://www.polygon.com/super-mario-bros-shigeru-miyamoto-ai-order-culture-japan-award-nintendo/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/super-mario-bros-shigeru-miyamoto-ai-order-culture-japan-award-nintendo/",
     "orig": "'Super Mario' Creator Breaks Down The Problem With AI Perfectly"
@@ -18870,7 +18861,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Star Wars Galaxies отримав масштабне оновлення A New Dawn з підтримкою DirectX 12 та апгрейдом Kashyyyk</b>\n\nПроєкт Star Wars Galaxies Restoration випустив патч A New Dawn, який додає підтримку DirectX 12, апскейлерів DLSS, FSR і XeSS, а також об&#x27;ємне освітлення й туман. Оновлення також повністю перероблює планету Kashyyyk, професії Scout і Ranger, додає бій на маунтах та покращує інтерфейс.\n\n🔗 <a href=\"https://www.pcgamer.com/games/mmo/star-wars-galaxies-just-got-another-massive-update-thanks-to-its-community-restoration-project-including-a-huge-visual-upgrade-and-a-refurb-to-the-wookiees-home-planet/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/mmo/star-wars-galaxies-just-got-another-massive-update-thanks-to-its-community-restoration-project-including-a-huge-visual-upgrade-and-a-refurb-to-the-wookiees-home-planet/",
     "orig": "Star Wars Galaxies just got another massive update thanks to its community Restoration project, including a huge visual upgrade and a refurb to the Wookiees' home planet"
@@ -18884,7 +18874,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Ізольовані агенти OpenAI знайшли спосіб спілкуватися через CPU cache</b>\n\nПід час тестів ізольовані агенти OpenAI змогли спілкуватися без мережі через процесорний кеш, змінивши дані та вимірювавши час завантаження. Це свідчить про складність повного контролю над потужними ШІ-системами, навіть за умов відсутності доступу до інтернету.\n\n🔗 <a href=\"https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/openais-isolated-ai-agents-found-ways-to-talk-to-each-other-through-cpu-cache/",
     "orig": "OpenAI's isolated AI agents found ways to talk to each other through CPU cache"
@@ -18898,7 +18887,6 @@
    "Distorted Sound",
    {
     "also": [],
-    "caption": "🤘 <b>Necronautical випустили новий трек «Enemy Of The Grave»</b>\n\nБританські блек-метали NECRONAUTICAL представили сингл «Enemy Of The Grave», який став першою композицією з майбутнього релізу\n\n🔗 <a href=\"https://distortedsoundmag.com/necronautical-release-new-song-enemy-of-the-grave/\">Distorted Sound</a>\n\n#музика",
     "kind": "photo",
     "link": "https://distortedsoundmag.com/necronautical-release-new-song-enemy-of-the-grave/",
     "orig": "Necronautical release new song ‘Enemy Of The Grave’"
@@ -19687,6 +19675,76 @@
     "link": "https://www.rockpapershotgun.com/helena-cloud-district-is-a-megastructure-photography-game-laser-targeted-at-my-interests-and-its-out-next-week",
     "orig": "HELENA : Cloud District is a megastructure photography game laser targeted at my interests, and it's out next week"
    }
+  ],
+  [
+   1792870282.4887064,
+   2423,
+   "🤘",
+   "My Chemical Romance судять через чирлідерок Dallas Cowboys на концерті",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>My Chemical Romance судять через чирлідерок Dallas Cowboys на концерті</b>\n\nКомпанія Pro Silver Star Ltd. подала позов проти My Chemical Romance через використання образів та уніформи Dallas Cowboys Cheerleaders у сценичному перформансі під час концертів у Hollywood Bowl. Позивач вимагає заборонити танцівницям виступати в цих костюмах, оскільки глядачі сплутали їх із реальними чирлідерками.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/24/news/my-chemical-romance-hit-with-legal-action-over-recent-onstage-depictions-of-dallas-cowboys-cheerleaders/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/24/news/my-chemical-romance-hit-with-legal-action-over-recent-onstage-depictions-of-dallas-cowboys-cheerleaders/",
+    "orig": "My Chemical Romance Hit With Legal Action Over Recent Onstage Depictions Of Dallas Cowboys Cheerleaders"
+   }
+  ],
+  [
+   1792870286.0584323,
+   2424,
+   "🤘",
+   "Тоні Іоммі візьме участь у метало-альбомі Вільяма Шетнера",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Тоні Іоммі візьме участь у метало-альбомі Вільяма Шетнера</b>\n\nГітарист BLACK SABBATH Тоні Іоммі підтвердив своє співробітництво з актором Вільямом Шетнером над його прийдешнім важким метало-альбомом «What The F Is Heavy Metal?». Іоммі записав риф до треку й похвалив тексти пісень Шетнера про сучасні події. Реліз платівки від Cleopatra Records очікується наприкінці цього чи на початку наступного року.\n\n🔗 <a href=\"https://blabbermouth.net/news/tony-iommi-confirms-he-will-appear-on-william-shatners-upcoming-heavy-metal-album-its-really-good-what-hes-doing\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/tony-iommi-confirms-he-will-appear-on-william-shatners-upcoming-heavy-metal-album-its-really-good-what-hes-doing",
+    "orig": "TONY IOMMI Confirms He Will Appear On WILLIAM SHATNER's Upcoming Heavy Metal Album: 'It's Really Good What He's Doing'"
+   }
+  ],
+  [
+   1792870289.3370452,
+   2425,
+   "🤘",
+   "INSOMNIUM випустили десятий альбом Netherworlds",
+   "Distorted Sound",
+   {
+    "also": [],
+    "caption": "🤘 <b>INSOMNIUM випустили десятий альбом Netherworlds</b>\n\n🔗 <a href=\"https://distortedsoundmag.com/album-review-netherworlds-insomnium/\">Distorted Sound</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://distortedsoundmag.com/album-review-netherworlds-insomnium/",
+    "orig": "ALBUM REVIEW: Netherworlds – Insomnium"
+   }
+  ],
+  [
+   1792870292.2745314,
+   2426,
+   "🤘",
+   "Infant Annihilator анонсували назву нового альбому",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Infant Annihilator анонсували назву нового альбому</b>\n\n🔗 <a href=\"https://www.theprp.com/2026/10/24/news/infant-annihilator-reveal-the-title-for-their-new-comeback-album/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/24/news/infant-annihilator-reveal-the-title-for-their-new-comeback-album/",
+    "orig": "Infant Annihilator Reveal The Title For Their New Comeback Album"
+   }
+  ],
+  [
+   1792870295.386196,
+   2427,
+   "🤘",
+   "Гурт SOiL випустить перший новий сингл за понад десять років",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Гурт SOiL випустить перший новий сингл за понад десять років</b>\n\nГурт SOiL готується випустити трек “Enemy X” 30 жовтня, що стане їхньою першою новою композицією за понад десять років. Реліз відбудеться в день старту британського туру колективу за участю Finger Eleven та Adema.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/24/news/soil-set-to-debut-their-first-new-single-in-over-a-decade-this-month/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/24/news/soil-set-to-debut-their-first-new-single-in-over-a-decade-this-month/",
+    "orig": "SOiL Set To Debut Their First New Single In Over A Decade This Month"
+   }
   ]
  ],
  "posted_by_source": {
@@ -19906,7 +19964,8 @@
    1792857718.2088997,
    1792859621.7084796,
    1792864893.6253293,
-   1792868501.911555
+   1792868501.911555,
+   1792870286.0588799
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -19916,12 +19975,11 @@
    1792773094.2744942
   ],
   "music|Distorted Sound|https://distortedsoundmag.com/feed/": [
-   1792782146.2330987,
-   1792783885.035468,
    1792785800.927618,
    1792841591.188953,
    1792847141.480224,
-   1792866680.9621081
+   1792866680.9621081,
+   1792870289.3376489
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
    1792685595.44007,
@@ -20006,22 +20064,13 @@
    1792800086.0100112
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1792731759.2024832,
-   1792731763.3145013,
-   1792733505.545059,
-   1792733508.696474,
-   1792737148.9854121,
-   1792760507.3238375,
-   1792775162.8741145,
-   1792775794.0523615,
-   1792778494.7965133,
-   1792780386.8890622,
-   1792780417.348605,
-   1792782185.1950808,
    1792785822.971482,
    1792789307.8734627,
    1792793174.6843336,
-   1792794702.9911656
+   1792794702.9911656,
+   1792870282.4893644,
+   1792870292.275178,
+   1792870295.3868043
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1792481487.1423821
@@ -20082,6 +20131,7 @@
   "01616f23ea901ffb": 1792598456.6181962,
   "0161762704b9d659": 1791820226.6361132,
   "0170081284d196fc": 1791815073.5455186,
+  "01715d1d1a8e69cf": 1792870295.3867612,
   "01775c9370cf2aa4": 1792422235.897903,
   "01c2391bcf234911": 1791997015.2983363,
   "01ca9ddae6c14f85": 1791989249.2834911,
@@ -20204,7 +20254,6 @@
   "0ab60fd395648efc": 1792674238.2990987,
   "0ac334896b0cc95d": 1792758683.242251,
   "0ace1b14f2f5cdea": 1792688776.9853544,
-  "0ad97e6b188589e7": 1791659734.5990682,
   "0aee19387688069a": 1792619375.4974558,
   "0af8a2e5035cb90b": 1791894821.8401823,
   "0afa1d87c395f9fb": 1792863196.1637373,
@@ -22315,7 +22364,6 @@
   "b65e0bbd508b9ad8": 1792352424.338672,
   "b66d1371169f46d3": 1792347119.7625296,
   "b6af05e303c27887": 1792762273.6761994,
-  "b6e9e7ddd669ee7a": 1791659741.1528728,
   "b70577d9ab084e97": 1792670774.8654926,
   "b70f34a6192c1ffe": 1792515691.1648102,
   "b747ddfc4acba088": 1792353699.787903,
@@ -22400,6 +22448,7 @@
   "bdbe798321f11ef7": 1792347110.955539,
   "bdcdc21f8a4c9dbb": 1791702304.8026342,
   "bdda06988855fa4f": 1792505088.764527,
+  "bdecc06403513885": 1792870286.0588214,
   "bdf8d7c7a9c8e52d": 1792515978.034136,
   "be1139c09e1ee624": 1792423879.7094944,
   "be1b8f6f0da4b20b": 1792197835.8998618,
@@ -22467,6 +22516,7 @@
   "c348a3993b4f6ebe": 1792229938.8150218,
   "c3670d5d5af0ed48": 1792249899.7766032,
   "c370fe89c1c9487e": 1792496072.9843318,
+  "c3747e6a8169aa79": 1792870289.3376062,
   "c37e030f0057b1ff": 1792857740.9085069,
   "c38987d62b007a97": 1792427618.80404,
   "c3b6d1b018b8746f": 1792663369.325014,
@@ -22551,6 +22601,7 @@
   "ca0e7a4f7750879d": 1792614716.2861722,
   "ca14ec813cb5c41e": 1791931149.864866,
   "ca1f21fe4c08b031": 1792585886.744756,
+  "ca2653b4a44adedc": 1792870292.2751336,
   "ca2a2cd693b5fedc": 1792719090.6347802,
   "ca3329208aaf5c49": 1792787493.9170265,
   "ca434da9a05117f0": 1792129006.8298862,
@@ -22577,6 +22628,7 @@
   "cbdc53656208ea08": 1792616484.3533497,
   "cbe4bc9a10750b30": 1792519410.4490438,
   "cbefbfbe094325b5": 1791853937.601349,
+  "cbf857818fc80d93": 1792870282.489314,
   "cbfd157f2712e4d3": 1792295972.044271,
   "cc04c60ddb8d9700": 1791894782.5493927,
   "ccaf1f24845da743": 1792695727.067485,
@@ -22864,6 +22916,7 @@
   "e27ddf66bd5830df": 1792530094.9040325,
   "e2da42b5f827c780": 1792270334.2211804,
   "e2dd85529398cb66": 1792780414.3837748,
+  "e2f2938dd94a8a6b": 1792870254.6457899,
   "e303957b3d3c7cea": 1792619341.6085992,
   "e30b794ee307836d": 1792246801.6124501,
   "e32694a4a97d2ee5": 1792665176.9772062,
@@ -23672,7 +23725,7 @@
   ],
   "artists_checked": 1792855934.9737723,
   "blocked_until": 1792854360.959398,
-  "cursor": 292,
+  "cursor": 302,
   "digest_week": "2026-W43",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -24403,7 +24456,7 @@
    "Халява": 4
   },
   "filtered": {
-   "/Film": 19,
+   "/Film": 20,
    "Bloomberg": 3,
    "Deadline": 4,
    "Eurogamer": 1,
@@ -24426,14 +24479,14 @@
   "sources": {
    "/Film": 38,
    "AIN.ua": 6,
-   "Blabbermouth": 79,
+   "Blabbermouth": 80,
    "Bloomberg": 63,
    "DOU": 2,
    "DOU Gamedev": 5,
    "Deadline": 84,
    "Decibel": 13,
    "Digital Foundry": 7,
-   "Distorted Sound": 23,
+   "Distorted Sound": 24,
    "Eurogamer": 38,
    "GameSpot": 41,
    "GamesIndustry.biz": 22,
@@ -24461,14 +24514,14 @@
    "SteamDB": 3,
    "Stereogum": 15,
    "The Decoder": 31,
-   "ThePRP": 69,
+   "ThePRP": 72,
    "VGC": 31,
    "Variety": 30
   },
   "translators": {
    "DeepL": 24,
    "gemini-flash-latest": 104,
-   "gemini-flash-lite-latest": 1312
+   "gemini-flash-lite-latest": 1317
   },
   "week": "2026-W43"
  },
@@ -29573,11 +29626,6 @@
    "",
    1792775800.1021047
   ],
-  "q:playstation 5": [
-   0,
-   "",
-   1792695729.216776
-  ],
   "q:playstation creator": [
    0,
    "",
@@ -31118,16 +31166,6 @@
    "",
    1792697479.4591157
   ],
-  "q:why people think valve just": [
-   0,
-   "",
-   1792697478.8633544
-  ],
-  "q:why people think valve just accidentally": [
-   0,
-   "",
-   1792697478.2014809
-  ],
   "q:why the f k would they add a perk like that": [
    0,
    "",
@@ -31385,42 +31423,6 @@
   ]
  },
  "titles": [
-  [
-   1792695730.2072432,
-   "На Android з'явився емулятор, який запускає ігри для PlayStation 5"
-  ],
-  [
-   1792695738.6105638,
-   "Defences release new music video for ‘Death Of A Dream’"
-  ],
-  [
-   1792695755.1886625,
-   "Vision Of Disorder Have Begun Writing New Material In The Studio"
-  ],
-  [
-   1792697486.370207,
-   "\"Яка втрата для всіх нас\": ігрова індустрія прощається з BioWare"
-  ],
-  [
-   1792697489.5721555,
-   "Cage Fight Release Live In-Studio Performance Of “Deathstalker”"
-  ],
-  [
-   1792697491.7396598,
-   "KONAMI готує позов на авторів неофіційної версії eFootball з безлімітними монетами"
-  ],
-  [
-   1792697494.7314327,
-   "Mayor Zohran Mamdani And Neon Set Free NYC Screenings Of ‘Once Upon A Time In Harlem’"
-  ],
-  [
-   1792697497.868896,
-   "Tom Skerritt Dies: ‘Top Gun,’ ‘Picket Fences,’ ‘Alien’ Actor Was 93"
-  ],
-  [
-   1792697503.128319,
-   "Comcast Co-CEO Brian Roberts Touts Staffers’ “Energy And Excitement” About Pending NBCUniversal Split"
-  ],
   [
    1792699352.220925,
    "WoW: Forever Is Keeping Its Secrets Close To The Chest"
@@ -32992,45 +32994,29 @@
   [
    1792868525.004483,
    "HELENA : Cloud District is a megastructure photography game laser targeted at my interests, and it's out next week"
+  ],
+  [
+   1792870282.4893167,
+   "My Chemical Romance Hit With Legal Action Over Recent Onstage Depictions Of Dallas Cowboys Cheerleaders"
+  ],
+  [
+   1792870286.058823,
+   "TONY IOMMI Confirms He Will Appear On WILLIAM SHATNER's Upcoming Heavy Metal Album: 'It's Really Good What He's Doing'"
+  ],
+  [
+   1792870289.3376074,
+   "ALBUM REVIEW: Netherworlds – Insomnium"
+  ],
+  [
+   1792870292.275135,
+   "Infant Annihilator Reveal The Title For Their New Comeback Album"
+  ],
+  [
+   1792870295.3867624,
+   "SOiL Set To Debut Their First New Single In Over A Decade This Month"
   ]
  ],
  "titles_uk": [
-  [
-   1792695730.2072444,
-   "На Android з'явився емулятор, який запускає ігри для PlayStation 5"
-  ],
-  [
-   1792695738.610565,
-   "Defences випустили новий кліп на трек Death Of A Dream"
-  ],
-  [
-   1792695755.1886635,
-   "Vision Of Disorder почали писати новий матеріал у студії"
-  ],
-  [
-   1792697486.3702083,
-   "\"Яка втрата для всіх нас\": ігрова індустрія прощається з BioWare"
-  ],
-  [
-   1792697489.5721567,
-   "Cage Fight випустили лайв-відео на пісню “Deathstalker”"
-  ],
-  [
-   1792697491.739661,
-   "KONAMI готує позов на авторів неофіційної версії eFootball з безлімітними монетами"
-  ],
-  [
-   1792697494.7314339,
-   "Neon та Зохран Мамдані влаштовують безплатні показ фільму Once Upon A Time In Harlem у Нью-Йорку"
-  ],
-  [
-   1792697497.868897,
-   "Помер актор із фільмів Alien та Top Gun Том Скеррітт"
-  ],
-  [
-   1792697503.12832,
-   "Comcast готується до розділення компанії з NBCUniversal"
-  ],
   [
    1792699352.220926,
    "Blizzard приховала частину секретів World of Warcraft: Forever до релізу"
@@ -34602,6 +34588,26 @@
   [
    1792868525.0044844,
    "Фотографування мегаструктур у HELENA : Cloud District вийде вже наступного тижня"
+  ],
+  [
+   1792870282.4893177,
+   "My Chemical Romance судять через чирлідерок Dallas Cowboys на концерті"
+  ],
+  [
+   1792870286.0588245,
+   "Тоні Іоммі візьме участь у метало-альбомі Вільяма Шетнера"
+  ],
+  [
+   1792870289.3376083,
+   "INSOMNIUM випустили десятий альбом Netherworlds"
+  ],
+  [
+   1792870292.2751355,
+   "Infant Annihilator анонсували назву нового альбому"
+  ],
+  [
+   1792870295.3867636,
+   "Гурт SOiL випустить перший новий сингл за понад десять років"
   ]
  ],
  "ukrainian": {
@@ -36837,7 +36843,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792866710.9668167,
+  "last_check": 1792870304.7425282,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
