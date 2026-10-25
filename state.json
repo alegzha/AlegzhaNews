@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": {
-   "detail": "https://www.bloomberg.com/feeds/industries/news.rss\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
-   "label": "Джерело «Bloomberg» не працює",
-   "sent": 0,
-   "since": 1792940499.6688883
-  },
-  "src:music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": {
-   "detail": "https://www.bloomberg.com/feeds/industries/news.rss\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
-   "label": "Джерело «Bloomberg» не працює",
-   "sent": 0,
-   "since": 1792940498.4592988
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-24",
  "freebies": {
   "last_check": 1792942296.950943,
@@ -28,11 +15,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-25 15:31 UTC",
+  "at": "2026-10-25 16:01 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 4
   },
   "used": [
    "Gemini"
@@ -20039,7 +20026,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Weekend Update у шоу ‘SNL U.K.’ висміяв Meghan Markle та анонс ремейку ‘Glee’</b>\n\nУ новому випуску Weekend Update шоу ‘Saturday Night Live U.K.’ ведучі висміювали звинувачення проти батька Meghan Markle, анонс ремейку серіалу ‘Glee’ на Disney+ та прослуховування на роль James Bond. Також у програмі пожартували про закриття Radio Four Extra на BBC.\n\n🔗 <a href=\"https://variety.com/2026/tv/global/snl-uk-weekend-update-meghan-markle-glee-1236930013/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/tv/global/snl-uk-weekend-update-meghan-markle-glee-1236930013/",
     "orig": "‘SNL U.K.’ Weekend Update Tackles Meghan Markle Dad Allegations, James Bond Auditions and ‘Glee’ Reboot"
@@ -20053,7 +20039,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Актор серіалу High Potential Метью Ламб втратив матір</b>\n\nАктор серіалу High Potential Метью Ламб повідомив про смерть своєї матері Мередіт. Колеги за проєктом, зокрема Кейтлін Олсон, Джуді Реєс та інші актори, висловили свої співчуття у соцмережах та підтримали 14-річного актора.\n\n🔗 <a href=\"https://deadline.com/2026/10/kaitlin-olson-high-potential-pay-respects-matthew-lamb-mother-1237172405/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/kaitlin-olson-high-potential-pay-respects-matthew-lamb-mother-1237172405/",
     "orig": "Kaitlin Olson & ‘High Potential’ Co-Stars Pay Respects To Matthew Lamb After Mother’s Death: “Forever Her Pride & Joy”"
@@ -20439,6 +20424,10 @@
      [
       "Pitchfork",
       "https://pitchfork.com/story/turnstile-pack-out-washington-monument-for-palestine-sudan-and-lebanon-benefit-show/"
+     ],
+     [
+      "Metal Injection",
+      "https://metalinjection.net/news/watch-turnstile-play-to-over-60000-people-in-washington-dc-raise-200000-for-palestine"
      ]
     ],
     "caption": "🤘 <b>Благодійний концерт Turnstile біля монумента Вашингтона зібрав близько 60 000 людей і понад $209 000</b>\n\nДосить голосно, щоб у Білому домі почули: Вільна Палестина! Вільний Судан! Вільний Ліван!\n\n🔗 <a href=\"https://www.theprp.com/2026/10/25/news/turnstiles-palestine-sudan-etc-benefit-concert-at-the-washington-monument-drew-an-estimated-60000-people-raised-over-209000/\">ThePRP</a>\n\n#музика",
@@ -20894,6 +20883,34 @@
     "link": "https://www.pcgamer.com/gaming-industry/this-is-the-bit-where-the-comet-hits-the-earth-and-the-dinosaurs-die-tim-sweeney-revisits-scathing-26-year-old-eulogy-for-beloved-studio-looking-glass/",
     "orig": "'This is the bit where the comet hits the earth and the dinosaurs die:' Tim Sweeney revisits scathing 26-year-old eulogy for beloved studio Looking Glass"
    }
+  ],
+  [
+   1792944092.1147375,
+   2514,
+   "🎮",
+   "Імовірна акторка Люсії з GTA 6 стала вірусною через коментарі на стрімі",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Імовірна акторка Люсії з GTA 6 стала вірусною через коментарі на стрімі</b>\n\n🔗 <a href=\"https://www.ign.com/articles/rumored-lucia-actress-goes-viral-after-dodging-swarm-of-gta-6-comments-during-livestream\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/rumored-lucia-actress-goes-viral-after-dodging-swarm-of-gta-6-comments-during-livestream",
+    "orig": "Rumored Lucia Actress Goes Viral After Dodging Swarm of GTA 6 Comments During Livestream"
+   }
+  ],
+  [
+   1792944099.3399706,
+   2515,
+   "🎬",
+   "Користувачі Netflix стали менше дивитися сервіс і рідше відкривати застосунок",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🎬 <b>Користувачі Netflix стали менше дивитися сервіс і рідше відкривати застосунок</b>\n\nКористувачі Netflix стали менше часу приділяти стримінговому сервісу та рідше відкривати застосунок. Це свідчить про нові проблеми з залученістю для найбільшої розважальної компанії світу.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-10-25/netflix-users-are-watching-less-not-opening-the-app-as-often\">Bloomberg</a>\n\n#кіно_і_серіали",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-25/netflix-users-are-watching-less-not-opening-the-app-as-often",
+    "orig": "Netflix Users Are Watching Less, Not Opening the App as Often"
+   }
   ]
  ],
  "posted_by_source": {
@@ -20963,16 +20980,7 @@
    1792769751.9282365
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1792720894.309544,
-   1792724498.245209,
-   1792753295.6320124,
-   1792753308.9473634,
-   1792756128.5020278,
-   1792767776.7530026,
-   1792775201.214061,
-   1792789295.1519587,
-   1792800094.988503,
-   1792803809.3101928
+   1792944092.1152506
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1792753319.5272703,
@@ -21039,7 +21047,7 @@
    1792904010.8086698
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
-   1792854127.8648305
+   1792944099.3403795
   ],
   "movies|Deadline|https://deadline.com/feed/": [
    1792821758.0574565,
@@ -21392,6 +21400,7 @@
   "0bd9c0270c80f660": 1792697485.9491937,
   "0c014775a5bab9c3": 1792501321.2883563,
   "0c11945a74b086e5": 1792037214.1832027,
+  "0c5e987daa2b8064": 1792944092.1152034,
   "0c6e5f7c02eae85c": 1791932362.1098096,
   "0c8784bf416ae71c": 1792099102.0718117,
   "0c963f51782e2c3b": 1791957572.3369136,
@@ -21906,6 +21915,7 @@
   "34f4190ab64d7102": 1792783885.0354223,
   "352e9a05320a220a": 1792508524.8477433,
   "353a9aa3f3e57b3a": 1792010053.191043,
+  "3559cf0d5f3297f3": 1792944096.0405872,
   "355f6a04481eb61e": 1792523108.9541988,
   "3596345e88de07c2": 1792528337.5074978,
   "35b0095709618c32": 1792665186.3055496,
@@ -23960,6 +23970,7 @@
   "d86fc384d4baa4bd": 1792352552.7190707,
   "d8758cae2c549998": 1791931822.5658903,
   "d8772632ebabeb12": 1792665195.3582604,
+  "d87c452ed95dbabd": 1792944099.340335,
   "d87f19b18252823c": 1792418606.2957063,
   "d889aaf06053dce3": 1792352555.5797694,
   "d88d359d09dc4e5e": 1792616509.5681548,
@@ -24281,6 +24292,7 @@
   "f1106bb2d25b9f53": 1792404397.1777294,
   "f110a6be066cc1c0": 1792625517.3157246,
   "f15002d1849db99b": 1792504932.4262488,
+  "f1530d5a7b7594f0": 1792944094.6935098,
   "f16d91e2cb8feaa9": 1792164589.7498298,
   "f187a4405b3941c5": 1792699278.1802473,
   "f1aa5b59c81f2688": 1792764156.9804578,
@@ -24926,9 +24938,9 @@
    "6jdXkhI59ngreTw9GwoKNv",
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
-  "artists_checked": 1792855934.9737723,
+  "artists_checked": 1792944103.7590413,
   "blocked_until": 1792942394.4734905,
-  "cursor": 302,
+  "cursor": 312,
   "digest_week": "2026-W43",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -25684,7 +25696,7 @@
    "/Film": 43,
    "AIN.ua": 6,
    "Blabbermouth": 90,
-   "Bloomberg": 69,
+   "Bloomberg": 70,
    "DOU": 2,
    "DOU Gamedev": 5,
    "Deadline": 94,
@@ -25696,7 +25708,7 @@
    "GamesIndustry.biz": 22,
    "GitHub Trending": 31,
    "Hugging Face": 7,
-   "IGN": 73,
+   "IGN": 74,
    "ITC.ua": 59,
    "IndieWire": 28,
    "Insider Gaming": 93,
@@ -25725,7 +25737,7 @@
   "translators": {
    "DeepL": 32,
    "gemini-flash-latest": 118,
-   "gemini-flash-lite-latest": 1396
+   "gemini-flash-lite-latest": 1400
   },
   "week": "2026-W43"
  },
@@ -26245,16 +26257,6 @@
    "",
    1792942284.4113579
   ],
-  "q:260": [
-   0,
-   "",
-   1792769707.6203837
-  ],
-  "q:260 hz": [
-   0,
-   "",
-   1792769707.0970464
-  ],
   "q:2d": [
    2825780,
    "2D?!",
@@ -26284,11 +26286,6 @@
    0,
    "",
    1792928075.4773707
-  ],
-  "q:36 inch": [
-   0,
-   "",
-   1792769706.5865335
   ],
   "q:4's first": [
    0,
@@ -26419,11 +26416,6 @@
    0,
    "",
    1792832475.4607441
-  ],
-  "q:800": [
-   0,
-   "",
-   1792769775.6384907
   ],
   "q:a life": [
    0,
@@ -28710,6 +28702,36 @@
    "Louis",
    1792229937.5481777
   ],
+  "q:lucia": [
+   0,
+   "",
+   1792944089.708161
+  ],
+  "q:lucia actress": [
+   0,
+   "",
+   1792944089.1652303
+  ],
+  "q:lucia actress goes": [
+   0,
+   "",
+   1792944088.6080396
+  ],
+  "q:lucia actress goes viral": [
+   0,
+   "",
+   1792944088.084284
+  ],
+  "q:lucia actress goes viral after": [
+   0,
+   "",
+   1792944087.3927207
+  ],
+  "q:lucia actress goes viral after dodging": [
+   0,
+   "",
+   1792944086.5598834
+  ],
   "q:ludwig": [
    263120,
    "Ludwig",
@@ -29075,11 +29097,6 @@
    "Need for Speed™",
    1792675974.274414
   ],
-  "q:netflix for 7": [
-   0,
-   "",
-   1792769776.1616433
-  ],
   "q:new blood": [
    0,
    "",
@@ -29265,11 +29282,6 @@
    "Onimusha: Way of the Sword",
    1792793170.1187458
   ],
-  "q:opinion": [
-   0,
-   "",
-   1792769742.4863367
-  ],
   "q:originally had a much more": [
    0,
    "",
@@ -29374,11 +29386,6 @@
    4115450,
    "Phantom Blade Zero",
    1792666888.1972122
-  ],
-  "q:philips": [
-   0,
-   "",
-   1792769705.890428
   ],
   "q:planet zoo 2": [
    3219030,
@@ -29794,6 +29801,36 @@
    0,
    "",
    1792773131.330591
+  ],
+  "q:rumored": [
+   0,
+   "",
+   1792944085.923671
+  ],
+  "q:rumored lucia": [
+   0,
+   "",
+   1792944085.161724
+  ],
+  "q:rumored lucia actress": [
+   0,
+   "",
+   1792944084.3272855
+  ],
+  "q:rumored lucia actress goes": [
+   0,
+   "",
+   1792944083.525588
+  ],
+  "q:rumored lucia actress goes viral": [
+   0,
+   "",
+   1792944082.7538655
+  ],
+  "q:rumored lucia actress goes viral after": [
+   0,
+   "",
+   1792944081.828124
   ],
   "q:runescape": [
    1343400,
@@ -30679,42 +30716,6 @@
   ]
  },
  "titles": [
-  [
-   1792769692.7610528,
-   "The Weekly Injection: New Releases From Tony Iommi, Entheos, and More Out This Week – 10.23"
-  ],
-  [
-   1792769703.7573152,
-   "Watch: Tony Iommi Releases New \"Over the Violent Sun\" Video to Celebrate New Record 'From the Dark'"
-  ],
-  [
-   1792769719.8184755,
-   "In a rare instance of good news, Philips has announced the world's first 36-inch, 260 Hz gaming monitor. So that's nice"
-  ],
-  [
-   1792769740.482618,
-   "AI in Early Stages of a Bubble, Gabelli's Marangi Says"
-  ],
-  [
-   1792769751.928195,
-   "BioWare's end is a tragically familiar tale | Opinion"
-  ],
-  [
-   1792769762.4985516,
-   "Woim is the earth-guzzling, self-bisecting sokoban pick-me-up I needed after a week of games industry disasters"
-  ],
-  [
-   1792769773.6162186,
-   "Alt Rock Band THE YAGAS, Featuring Actress VERA FARMIGA, Releases New Single 'Runaway'"
-  ],
-  [
-   1792769795.9938855,
-   "Xbox wanted $800 million from Netflix for 7 years of its biggest characters, it’s claimed"
-  ],
-  [
-   1792769837.825484,
-   "Sofia Hasmik, Grace Kelly Quigley & Imogen Waterhouse Leading Indie Feature ‘Sissy’"
-  ],
   [
    1792771410.3415747,
    "OpenAI CEO Sam Altman says advanced AI will inevitably escape its sandbox, and only alignment can save us"
@@ -31906,45 +31907,17 @@
   [
    1792942286.720559,
    "'This is the bit where the comet hits the earth and the dinosaurs die:' Tim Sweeney revisits scathing 26-year-old eulogy for beloved studio Looking Glass"
+  ],
+  [
+   1792944092.1152048,
+   "Rumored Lucia Actress Goes Viral After Dodging Swarm of GTA 6 Comments During Livestream"
+  ],
+  [
+   1792944099.3403358,
+   "Netflix Users Are Watching Less, Not Opening the App as Often"
   ]
  ],
  "titles_uk": [
-  [
-   1792769692.761054,
-   "Тижневий дайджест: релізи тижня від Tony Iommi, Entheos та інших"
-  ],
-  [
-   1792769703.7573159,
-   "Тоні Іоммі випустив новий кліп \"Over the Violent Sun\" на честь платівки 'From the Dark'"
-  ],
-  [
-   1792769719.8184762,
-   "Philips анонсувала перший у світі 36-дюймовий геймінг-монітор із частотою 260 Hz"
-  ],
-  [
-   1792769740.4826188,
-   "Ринок ШІ перебуває на ранній стадії міхура"
-  ],
-  [
-   1792769751.928196,
-   "Кінець BioWare та нова хвиля кризи в ігровій індустрії"
-  ],
-  [
-   1792769762.4985523,
-   "Вийшла головоломка Woim про хробака у підземному світі"
-  ],
-  [
-   1792769773.616219,
-   "Гурт Віри Фарміги THE YAGAS випустив сингл «Runaway»"
-  ],
-  [
-   1792769795.9938862,
-   "Xbox вимагала від Netflix $800 мільйонів за ексклюзивні екранізації"
-  ],
-  [
-   1792769837.8254848,
-   "Софія Гасмік, Грейс Келлі Квіглі та Імоджен Вотерхаус знімуться в інді-фільмі Sissy"
-  ],
   [
    1792771410.3415756,
    "Сем Алтман заявив про неминучу втечу просунутого ШІ з ізольованого середовища"
@@ -33136,6 +33109,14 @@
   [
    1792942286.7205596,
    "Тім Свіні згадав свою заяву 2000 року про закриття Looking Glass Studios"
+  ],
+  [
+   1792944092.1152055,
+   "Імовірна акторка Люсії з GTA 6 стала вірусною через коментарі на стрімі"
+  ],
+  [
+   1792944099.340338,
+   "Користувачі Netflix стали менше дивитися сервіс і рідше відкривати застосунок"
   ]
  ],
  "ukrainian": {
