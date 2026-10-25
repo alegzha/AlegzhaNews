@@ -1,5 +1,11 @@
 {
  "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1792891876.3614588
+  },
   "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
    "detail": "https://distortedsoundmag.com/feed/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
    "label": "Джерело «Distorted Sound» не працює",
@@ -22,11 +28,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-25 01:04 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-latest",
+  "at": "2026-10-25 01:31 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
@@ -19311,7 +19317,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Макс Мінгелла зіграв роль чесного поліцейського у фільмі Clayface</b>\n\nУ фільмі Clayface про лиходія DC актор Макс Мінгелла втілив роль порядного детектива John Borrelli, який намагається втримати порядок у Gotham. Глядачам він насамперед відомий за ролями у стрічці The Social Network та драмі The Handmaid&#x27;s Tale. Також актор увійшов до акторського складу четвертого сезону The White Lotus.\n\n🔗 <a href=\"https://www.slashfilm.com/2295487/john-borrelli-clayface-movie-actor-max-minghella/\">/Film</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2295487/john-borrelli-clayface-movie-actor-max-minghella/",
     "orig": "Why John Borrelli From Clayface Looks So Familiar"
@@ -19325,7 +19330,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Зірка шоу The Real World та The Challenge Аніка Рашон померла у віці 34 років</b>\n\nУ віці 34 років пішла з життя зірка реаліті-шоу MTV The Real World та The Challenge Аніка Рашон. Причиною смерті став рак молочної залози четвертої стадії, який у неї діагностували минулого літа. Після зйомок на телебаченні вона працювала професійною свахою, коучем зі знайомств і вела подкаст.\n\n🔗 <a href=\"https://deadline.com/2026/10/anika-rashaun-dead-1237172312/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/anika-rashaun-dead-1237172312/",
     "orig": "Anika Rashaun Dies: ‘Real World’, ‘The Challenge’ Alum Was 34"
@@ -19339,7 +19343,6 @@
    "Metal Injection",
    {
     "also": [],
-    "caption": "🤘 <b>Новий сингл Confessions від Single Print дає саме те, чого ви хотіли від CodeOrange, і навіть більше</b>\n\nУ записі треку взяли участь Джеймі Морган та Домінік Ландоліна з Code Orange, які створили найважчу музику у своїй кар&#x27;єрі.\n\n🔗 <a href=\"https://metalinjection.net/news/single-print-indexs-confessions-is-what-you-wanted-from-code-orange-and-then-some\">Metal Injection</a>\n\n#музика",
     "kind": "photo",
     "link": "https://metalinjection.net/news/single-print-indexs-confessions-is-what-you-wanted-from-code-orange-and-then-some",
     "orig": "Single Print Index’s ‘Confessions’ Is What You Wanted From Code Orange, and Then Some"
@@ -20161,6 +20164,48 @@
     "link": "https://stereogum.com/2515526/dallas-cowboys-cheerleaders-take-legal-action-against-my-chemical-romance-over-staged-shootout/news/",
     "orig": "Dallas Cowboys Cheerleaders Take Legal Action Against My Chemical Romance Over Staged Shootout"
    }
+  ],
+  [
+   1792891885.715843,
+   2460,
+   "🎬",
+   "Кого зіграв Ендрю Шульц у фільмі Street Fighter 2026 року",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Кого зіграв Ендрю Шульц у фільмі Street Fighter 2026 року</b>\n\nУ фільмі Street Fighter 2026 року комік Ендрю Шульц виконав роль самовпевненого та невмілого бійця Дана Гібікі, який є менеджером Ken Masters. Його персонаж відіграє значну роль у сюжеті завдяки дружбі з Кеном, а сцена після титрів натякає на появу героя у сиквелі.\n\n🔗 <a href=\"https://www.slashfilm.com/2295652/dan-hibiki-street-fighter-2026-movie-actor-andrew-schulz/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2295652/dan-hibiki-street-fighter-2026-movie-actor-andrew-schulz/",
+    "orig": "Why Dan Hibiki From Street Fighter (2026) Looks So Familiar"
+   }
+  ],
+  [
+   1792891890.4410703,
+   2461,
+   "🎬",
+   "Кріс Гаррісон назвав судовий позов Warner Bros. проти його шоу особистим",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Кріс Гаррісон назвав судовий позов Warner Bros. проти його шоу особистим</b>\n\nКріс Гаррісон прокоментував претензії Warner Bros. через трейлер його нового шоу The Vow, де знайшли схожість з The Bachelor. На думку колишнього ведучого, вибір саме його проєкту не є збігом, тоді як у Fox назвали звинувачення безпідставними.\n\n🔗 <a href=\"https://deadline.com/2026/10/chris-hansen-warner-bros-legal-action-the-vow-feels-personal-1237172408/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/chris-hansen-warner-bros-legal-action-the-vow-feels-personal-1237172408/",
+    "orig": "Chris Harrison Says Warner Bros’ Legal Action Against ‘The Vow’ Feels “Personal”: “You Be The Judge”"
+   }
+  ],
+  [
+   1792891894.6227899,
+   2462,
+   "🎬",
+   "П'ять персонажів Star Trek, які поверталися з мертвих",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>П&#x27;ять персонажів Star Trek, які поверталися з мертвих</b>\n\nПротягом 60 років існування франшизи Star Trek смерть для персонажів часто виявлялася тимчасовою. Завдяки науці, подорожам у часі та симбіонтам такі герої, як Spock, Jadzia Dax та Weyoun, зуміли повернутися до життя після своєї загибелі.\n\n🔗 <a href=\"https://www.slashfilm.com/2290533/star-trek-characters-died-came-back-to-life/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2290533/star-trek-characters-died-came-back-to-life/",
+    "orig": "5 Star Trek Characters Who Died And Then Came Back To Life"
+   }
   ]
  ],
  "posted_by_source": {
@@ -20314,18 +20359,17 @@
    1792864903.370146
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
-   1792803763.6286938,
-   1792803795.28597,
    1792810914.5441384,
    1792816317.4284725,
    1792817283.1484976,
-   1792859545.1330523
+   1792859545.1330523,
+   1792891885.7163994,
+   1792891894.623336
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792854127.8648305
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1792801887.0367775,
    1792807287.1806319,
    1792807292.1492102,
    1792821758.0574565,
@@ -20339,7 +20383,8 @@
    1792875681.5059536,
    1792877498.532062,
    1792882912.951035,
-   1792886547.9426205
+   1792886547.9426205,
+   1792891890.4416194
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1792654274.694844,
@@ -20924,6 +20969,7 @@
   "1e916aa448b1d14d": 1792432895.3234382,
   "1e958f54c3b124fd": 1792855905.1852994,
   "1ea451767f894b41": 1792578684.3007464,
+  "1eadcfcc159619a7": 1792891890.4415748,
   "1ec00d2af0387bde": 1792326692.5025265,
   "1ec20107aa7be7f1": 1792341084.4050367,
   "1eca14a053949975": 1792611124.1603694,
@@ -21193,6 +21239,7 @@
   "34939b6c2163ad77": 1792762347.9021494,
   "349692d51631358c": 1791938092.4101274,
   "3497ef3cf9741c57": 1791894797.5656688,
+  "34995eb440d2c358": 1792891853.972916,
   "34a3662ad247d9a3": 1792675935.3347828,
   "34c1af0295a3aad9": 1792689495.1172206,
   "34c824e65878c0ba": 1792273177.5789478,
@@ -21255,6 +21302,7 @@
   "3aaf38d7c93f3727": 1792163995.533491,
   "3ac7d3c53616ef3e": 1792785822.9714398,
   "3ad9c4ef69beaa88": 1791894747.2247603,
+  "3adaf96d283b6934": 1792891894.6232944,
   "3ae94a73988e0170": 1792726298.1319745,
   "3b2f5ddee3020b41": 1792531926.9525084,
   "3b3da68ac519010a": 1792537286.6361,
@@ -21910,6 +21958,7 @@
   "6fe7b27fcc87bfea": 1792724510.919743,
   "6ff4b80abdc8de9f": 1792681386.4848564,
   "7016723a5dea2142": 1792533691.8920195,
+  "7023ae050a7dccd1": 1792891885.7163527,
   "7038fddd58d6197f": 1792855853.874162,
   "70471321e554ec93": 1792733502.5179763,
   "705cd95cbf19dbae": 1792548084.5308802,
@@ -24914,19 +24963,19 @@
    "Metal Injection": 1,
    "PC Gamer": 14,
    "Pitchfork": 1,
-   "Polygon": 65,
+   "Polygon": 66,
    "Revolver": 1,
    "VGC": 3,
    "Variety": 1
   },
   "sources": {
-   "/Film": 38,
+   "/Film": 40,
    "AIN.ua": 6,
    "Blabbermouth": 83,
    "Bloomberg": 64,
    "DOU": 2,
    "DOU Gamedev": 5,
-   "Deadline": 91,
+   "Deadline": 92,
    "Decibel": 13,
    "Digital Foundry": 7,
    "Distorted Sound": 25,
@@ -24964,7 +25013,7 @@
   "translators": {
    "DeepL": 24,
    "gemini-flash-latest": 111,
-   "gemini-flash-lite-latest": 1346
+   "gemini-flash-lite-latest": 1349
   },
   "week": "2026-W43"
  },
@@ -31422,18 +31471,6 @@
  },
  "titles": [
   [
-   1792719084.4031546,
-   "Joe Perry Bows Out Of Tonight’s Hollywood Vampires’ Flick West Coast Debut As Aerosmith Ramps Up For Hollywood Bowl Gigs"
-  ],
-  [
-   1792719087.6175337,
-   "‘Nobody Wants This’ Creator Erin Foster Responds To Adam Brody’s “Free Palestine” Comments: “It’s Complicated”"
-  ],
-  [
-   1792719090.6347818,
-   "Slaughter to Prevail's Alex Terrible makes social media post regarding masculinity"
-  ],
-  [
    1792720884.3421695,
    "Wildwood Director Travis Knight Reveals The Innovations That Made The Epic Stop-Motion Film Possible [Exclusive]"
   ],
@@ -32912,21 +32949,21 @@
   [
    1792888286.146988,
    "Dallas Cowboys Cheerleaders Take Legal Action Against My Chemical Romance Over Staged Shootout"
+  ],
+  [
+   1792891885.7163544,
+   "Why Dan Hibiki From Street Fighter (2026) Looks So Familiar"
+  ],
+  [
+   1792891890.4415765,
+   "Chris Harrison Says Warner Bros’ Legal Action Against ‘The Vow’ Feels “Personal”: “You Be The Judge”"
+  ],
+  [
+   1792891894.623296,
+   "5 Star Trek Characters Who Died And Then Came Back To Life"
   ]
  ],
  "titles_uk": [
-  [
-   1792719084.4031556,
-   "Джо Перрі пропустить прем'єру документалки Hollywood Vampires через репетиції з Aerosmith"
-  ],
-  [
-   1792719087.6175346,
-   "Ерін Фостер прокоментувала заяви Адама Броді «Free Palestine»"
-  ],
-  [
-   1792719090.6347826,
-   "Алекс Террибл із Slaughter to Prevail висловився про маскулінність"
-  ],
   [
    1792720884.34217,
    "Режисер Travis Knight розповів про технології для stop-motion фільму Wildwood"
@@ -34406,6 +34443,18 @@
   [
    1792888286.146989,
    "Dallas Cowboys Cheerleaders подали до суду на My Chemical Romance"
+  ],
+  [
+   1792891885.7163556,
+   "Кого зіграв Ендрю Шульц у фільмі Street Fighter 2026 року"
+  ],
+  [
+   1792891890.4415772,
+   "Кріс Гаррісон назвав судовий позов Warner Bros. проти його шоу особистим"
+  ],
+  [
+   1792891894.6232965,
+   "П'ять персонажів Star Trek, які поверталися з мертвих"
   ]
  ],
  "ukrainian": {
@@ -36641,7 +36690,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792888294.583318,
+  "last_check": 1792891903.167074,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
