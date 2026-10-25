@@ -2,7 +2,7 @@
  "alerts": {},
  "daily_digest_date": "2026-10-24",
  "freebies": {
-  "last_check": 1792919067.13904,
+  "last_check": 1792926175.628062,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -15,8 +15,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-25 10:31 UTC",
-  "gemini_error": "",
+  "at": "2026-10-25 11:03 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 1
@@ -19678,7 +19678,6 @@
       "https://lambgoat.com/news/55528/infant-annihilator-share-title-of-new-lp-due-out-december-1st/"
      ]
     ],
-    "caption": "🤘 <b>Infant Annihilator анонсували назву нового альбому</b>\n\n🔗 <a href=\"https://www.theprp.com/2026/10/24/news/infant-annihilator-reveal-the-title-for-their-new-comeback-album/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/24/news/infant-annihilator-reveal-the-title-for-their-new-comeback-album/",
     "orig": "Infant Annihilator Reveal The Title For Their New Comeback Album"
@@ -20533,6 +20532,20 @@
     "link": "https://the-decoder.com/nvidia-open-sources-flora-to-make-robot-video-labeling-125x-cheaper-than-gpt-6-astra/",
     "orig": "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra"
    }
+  ],
+  [
+   1792926166.3078446,
+   2488,
+   "🤘",
+   "Дикі історії від Ricky Warwick про Lemmy, David Bowie, Alice Cooper та інших",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Дикі історії від Ricky Warwick про Lemmy, David Bowie, Alice Cooper та інших</b>\n\nRicky Warwick пригадав, як до його гримерки заходив David Bowie, Alice Cooper вдарив його по голові, а зі Steve Harris він пив наодинці\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/ricky-warwick-wild-stories\">Metal Hammer (Louder)</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/ricky-warwick-wild-stories",
+    "orig": "Ricky Warwick's wild stories of Lemmy, David Bowie, Alice Cooper, Guns N' Roses, Metallica and more"
+   }
   ]
  ],
  "posted_by_source": {
@@ -20789,12 +20802,12 @@
    1792783893.22905
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
-   1792837979.4649515,
    1792884108.803871,
    1792884114.5241363,
    1792886542.1816862,
    1792908078.5820053,
-   1792910016.5784495
+   1792910016.5784495,
+   1792926166.3084996
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1792775015.766963,
@@ -21809,6 +21822,7 @@
   "488ebf27e797f45a": 1792438383.541762,
   "4895c8ba0e5d0d62": 1792164064.6378188,
   "48ace4d12a5e1a68": 1792074068.3651547,
+  "48ad77c89295d2cc": 1792926052.1365216,
   "48afd8e772d8c829": 1792775790.1825209,
   "48c1d13f2287303a": 1792693977.775202,
   "48ce3623efa23556": 1791926699.7028904,
@@ -23618,6 +23632,7 @@
   "d986697f677381b3": 1791879498.6319728,
   "d9a2abfe63498dff": 1792783901.928069,
   "d9a330be03ad95ec": 1792197850.3807788,
+  "d9a8af61315bef82": 1792926166.3084486,
   "d9aa5779874ef777": 1792413121.969529,
   "d9c272590d52b8da": 1792598796.0835633,
   "d9ce2996e8bbe3fc": 1792699278.1895795,
@@ -25314,7 +25329,7 @@
    "Metal Injection": 1,
    "PC Gamer": 14,
    "Pitchfork": 1,
-   "Polygon": 70,
+   "Polygon": 71,
    "Revolver": 1,
    "The Decoder": 1,
    "VGC": 3,
@@ -25343,7 +25358,7 @@
    "Kerrang!": 30,
    "Lambgoat": 56,
    "Loudwire": 26,
-   "Metal Hammer (Louder)": 38,
+   "Metal Hammer (Louder)": 39,
    "Metal Injection": 25,
    "MetalSucks": 1,
    "Mezha": 64,
@@ -25365,7 +25380,7 @@
   "translators": {
    "DeepL": 30,
    "gemini-flash-latest": 118,
-   "gemini-flash-lite-latest": 1367
+   "gemini-flash-lite-latest": 1368
   },
   "week": "2026-W43"
  },
@@ -26545,11 +26560,6 @@
    "Battleplan",
    1791815079.4738243
   ],
-  "q:beat": [
-   0,
-   "",
-   1792751615.2811334
-  ],
   "q:beat al": [
    0,
    "",
@@ -26564,16 +26574,6 @@
    0,
    "",
    1792791112.0338092
-  ],
-  "q:beat citrine": [
-   0,
-   "",
-   1792751614.8224452
-  ],
-  "q:beat citrine pot": [
-   0,
-   "",
-   1792751614.3836784
   ],
   "q:beautiful": [
    0,
@@ -26739,21 +26739,6 @@
    0,
    "",
    1792764180.2505074
-  ],
-  "q:bonus in modern": [
-   0,
-   "",
-   1792751624.2484608
-  ],
-  "q:bonus in modern warfare": [
-   0,
-   "",
-   1792751623.7966707
-  ],
-  "q:bonus in modern warfare 4": [
-   0,
-   "",
-   1792751623.3503835
   ],
   "q:boss rush": [
    1113710,
@@ -26965,11 +26950,6 @@
    "CitaDrill",
    1792524238.8896368
   ],
-  "q:citrine pot": [
-   0,
-   "",
-   1792751615.7202141
-  ],
   "q:ckrd": [
    0,
    "",
@@ -27134,16 +27114,6 @@
    0,
    "",
    1792839681.5916464
-  ],
-  "q:creator gives a heartbreaking": [
-   0,
-   "",
-   1792751601.652815
-  ],
-  "q:creator gives a heartbreaking update": [
-   0,
-   "",
-   1792751601.2018194
   ],
   "q:cregger": [
    0,
@@ -27360,26 +27330,6 @@
    "DEPLOYMENT",
    1792751622.9033506
   ],
-  "q:deployment bonus": [
-   0,
-   "",
-   1792751622.4543517
-  ],
-  "q:deployment bonus in modern": [
-   0,
-   "",
-   1792751622.015088
-  ],
-  "q:deployment bonus in modern warfare": [
-   0,
-   "",
-   1792751621.5578225
-  ],
-  "q:deployment bonus in modern warfare 4": [
-   0,
-   "",
-   1792751621.1168537
-  ],
   "q:destiny 2": [
    1085660,
    "Destiny 2",
@@ -27494,26 +27444,6 @@
    2650890,
    "DMZ",
    1792582328.5199592
-  ],
-  "q:dmz deployment": [
-   0,
-   "",
-   1792751620.6749196
-  ],
-  "q:dmz deployment bonus": [
-   0,
-   "",
-   1792751620.2346103
-  ],
-  "q:dmz deployment bonus in modern": [
-   0,
-   "",
-   1792751619.7964342
-  ],
-  "q:dmz deployment bonus in modern warfare": [
-   0,
-   "",
-   1792751619.3539393
   ],
   "q:dmz in modern": [
    0,
@@ -27969,26 +27899,6 @@
    0,
    "",
    1792767870.5361161
-  ],
-  "q:ff resonance": [
-   0,
-   "",
-   1792751612.1171865
-  ],
-  "q:ff resonance beat": [
-   0,
-   "",
-   1792751611.6818213
-  ],
-  "q:ff resonance beat citrine": [
-   0,
-   "",
-   1792751611.1808088
-  ],
-  "q:ff resonance beat citrine pot": [
-   0,
-   "",
-   1792751610.6746051
   ],
   "q:final fantasy": [
    1173770,
@@ -30245,26 +30155,6 @@
    "Resident Evil Requiem",
    1791853931.6991522
   ],
-  "q:resonance": [
-   0,
-   "",
-   1792751613.9423497
-  ],
-  "q:resonance beat": [
-   0,
-   "",
-   1792751613.4808397
-  ],
-  "q:resonance beat citrine": [
-   0,
-   "",
-   1792751613.029866
-  ],
-  "q:resonance beat citrine pot": [
-   0,
-   "",
-   1792751612.5757022
-  ],
   "q:resonant": [
    4319860,
    "Resonant",
@@ -30399,31 +30289,6 @@
    0,
    "",
    1792773117.1932702
-  ],
-  "q:saga": [
-   0,
-   "",
-   1792751600.75151
-  ],
-  "q:saga creator": [
-   0,
-   "",
-   1792751600.2811384
-  ],
-  "q:saga creator gives": [
-   0,
-   "",
-   1792751599.8216512
-  ],
-  "q:saga creator gives a heartbreaking": [
-   0,
-   "",
-   1792751599.3724763
-  ],
-  "q:saga creator gives a heartbreaking update": [
-   0,
-   "",
-   1792751598.918122
   ],
   "q:samson": [
    3634520,
@@ -31100,31 +30965,6 @@
    "",
    1792823492.24431
   ],
-  "q:vinland": [
-   0,
-   "",
-   1792751598.4772062
-  ],
-  "q:vinland saga": [
-   0,
-   "",
-   1792751598.003896
-  ],
-  "q:vinland saga creator": [
-   0,
-   "",
-   1792751597.5626843
-  ],
-  "q:vinland saga creator gives": [
-   0,
-   "",
-   1792751597.1118977
-  ],
-  "q:vinland saga creator gives a heartbreaking": [
-   0,
-   "",
-   1792751596.6714656
-  ],
   "q:virtue and a sledgehammer": [
    3743260,
    "Virtue and a Sledgehammer",
@@ -31537,46 +31377,6 @@
   ]
  },
  "titles": [
-  [
-   1792751591.2114887,
-   "Agent Hunt"
-  ],
-  [
-   1792751594.6375065,
-   "Shigeru Miyamoto explains why AI won’t make human creativity obsolete"
-  ],
-  [
-   1792751603.883511,
-   "Vinland Saga Creator Gives a Heartbreaking Update on the Anime's Third Season"
-  ],
-  [
-   1792751608.7197862,
-   "Thornhill’s Jacob Charlton introduces solo project VICIOUS and releases debut single, Capulet"
-  ],
-  [
-   1792751617.3931415,
-   "FF Resonance: Beat Citrine Pot enemies"
-  ],
-  [
-   1792751625.870656,
-   "What is The DMZ Deployment Bonus in Modern Warfare 4?"
-  ],
-  [
-   1792753295.631962,
-   "Cyberpunk 2077 2.5 Update Secretly Added The Witcher 3 Sword and Cosmetics"
-  ],
-  [
-   1792753308.947313,
-   "Breaking Down the Future of Disney Lorcana TCG with Co-Founder Ryan Miller"
-  ],
-  [
-   1792753316.0363767,
-   "I've tested every graphics setting in Call of Duty: Modern Warfare 4—tweak these four options for the best performance"
-  ],
-  [
-   1792753319.5272183,
-   "Bloodborne на ПК працює у 7 разів швидше за версію для PS4"
-  ],
   [
    1792755092.4489055,
    "Starfighter Officially Broke a Star Wars Franchise Record Already"
@@ -32936,49 +32736,13 @@
   [
    1792924286.2848516,
    "Nvidia open-sources Flora to make robot video labeling 125x cheaper than GPT-6 Astra"
+  ],
+  [
+   1792926166.3084507,
+   "Ricky Warwick's wild stories of Lemmy, David Bowie, Alice Cooper, Guns N' Roses, Metallica and more"
   ]
  ],
  "titles_uk": [
-  [
-   1792751591.2114897,
-   "Agent Hunt"
-  ],
-  [
-   1792751594.6375074,
-   "Сігеру Міямото пояснив, чому ШІ не замінить людську творчість"
-  ],
-  [
-   1792751603.8835118,
-   "Автор Vinland Saga поділився сумними новинами щодо третього сезону аніме"
-  ],
-  [
-   1792751608.7197871,
-   "Welcome To Rockville 2026 оголосив гучний лайнап фестивалю"
-  ],
-  [
-   1792751617.3931422,
-   "Як перемогти Citrine Pot у Final Fantasy Resonance"
-  ],
-  [
-   1792751625.870657,
-   "Що таке DMZ Deployment Bonus у Modern Warfare 4"
-  ],
-  [
-   1792753295.6319633,
-   "Патч 2.5 для Cyberpunk 2077 приховано додав контент за мотивами The Witcher 3"
-  ],
-  [
-   1792753308.9473143,
-   "Співзасновник Disney Lorcana TCG Раян Міллер розповів про майбутнє гри та новий сет Hyperia City"
-  ],
-  [
-   1792753316.036378,
-   "Найкращі графічні налаштування для максимальної продуктивності в Call of Duty: Modern Warfare 4"
-  ],
-  [
-   1792753319.5272195,
-   "Bloodborne на ПК працює у 7 разів швидше за версію для PS4"
-  ],
   [
    1792755092.4489062,
    "Фільм Star Wars: Starfighter встановив новий бюджетний рекорд франшизи"
@@ -34338,6 +34102,10 @@
   [
    1792924286.2848525,
    "Nvidia відкрила код системи Flora для збору даних роботів"
+  ],
+  [
+   1792926166.3084517,
+   "Дикі історії від Ricky Warwick про Lemmy, David Bowie, Alice Cooper та інших"
   ]
  ],
  "ukrainian": {
@@ -34710,6 +34478,7 @@
    "509980": "i",
    "5155360": "",
    "518790": "",
+   "5228920": "is",
    "524220": "",
    "5245810": "",
    "526870": "is",
@@ -34767,8 +34536,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1792902869.0115335,
-  "with_uk": 100
+  "last_check": 1792926185.5295615,
+  "with_uk": 101
  },
  "weekly_releases_week": "2026-W43",
  "wishlist": {
@@ -36573,7 +36342,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792920884.738927,
+  "last_check": 1792926175.3285522,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
