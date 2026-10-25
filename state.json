@@ -7,7 +7,7 @@
    "since": 1792888273.6415684
   },
   "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Read timed out. (read timeout=20)",
+   "detail": "https://www.neformat.com.ua/ → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
    "label": "Джерело «Neformat» не працює",
    "sent": 0,
    "since": 1792895503.0299308
@@ -15,7 +15,7 @@
  },
  "daily_digest_date": "2026-10-24",
  "freebies": {
-  "last_check": 1792890260.7240405,
+  "last_check": 1792897366.9330587,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -28,11 +28,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-25 02:32 UTC",
+  "at": "2026-10-25 03:02 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_model": "gemini-flash-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-latest": 1
   },
   "used": [
    "Gemini"
@@ -19382,7 +19382,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Голова New Blood назвав термін immersive sim жахливим для маркетингу</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2269460/\">CEO</a>, <a href=\"https://store.steampowered.com/app/1150760/\">Gloomwood</a>, <a href=\"https://store.steampowered.com/app/1411910/\">Fallen Aces</a>\n\nCEO New Blood Interactive Дейв Ошрі заявив, що назву жанру immersive sim вкрай важко використовувати для продажу ігор на кшталт Gloomwood і Fallen Aces. На його думку, краще позиціонувати такі проєкти як RPG, оскільки це приносить більше грошей і зрозуміліше гравцям.\n\n🔗 <a href=\"https://www.pcgamer.com/games/sim/new-blood-ceo-confirms-it-the-worst-way-to-sell-immersive-sims-like-gloomwood-and-fallen-aces-is-to-call-them-immersive-sims/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/sim/new-blood-ceo-confirms-it-the-worst-way-to-sell-immersive-sims-like-gloomwood-and-fallen-aces-is-to-call-them-immersive-sims/",
     "orig": "New Blood CEO confirms it: the worst way to sell immersive sims like Gloomwood and Fallen Aces is to call them immersive sims"
@@ -20242,6 +20241,20 @@
     "link": "https://deadline.com/2026/10/sag-aftra-votes-extend-duncan-crabtree-ireland-contract-1237172683/",
     "orig": "SAG-AFTRA Votes To Extend Duncan Crabtree-Ireland’s Contract With Updated Title"
    }
+  ],
+  [
+   1792897365.336985,
+   2465,
+   "🎬",
+   "Творчиня Nobody Wants This готова зняти четвертий сезон, але чекає на рішення Netflix",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Творчиня Nobody Wants This готова зняти четвертий сезон, але чекає на рішення Netflix</b>\n\nЕрін Фостер заявила, що має достатньо матеріалу для четвертого сезону Nobody Wants This, проте намагається завчасно не прив&#x27;язуватися до очікувань. Шоуранерка хоче показати тему шлюбу та стосунків персонажів у зрілому віці, спираючись на власний життєвий досвід, якщо стримінг вирішить продовжити ромком.\n\n🔗 <a href=\"https://deadline.com/2026/10/nobody-wants-this-erin-foster-more-story-to-tell-season-4-1237172691/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/nobody-wants-this-erin-foster-more-story-to-tell-season-4-1237172691/",
+    "orig": "‘Nobody Wants This’ Creator Erin Foster Has “More Story To Tell” With A Season 4, But Isn’t Getting “Too Attached”"
+   }
   ]
  ],
  "posted_by_source": {
@@ -20419,7 +20432,8 @@
    1792882912.951035,
    1792886547.9426205,
    1792891890.4416194,
-   1792895513.3099246
+   1792895513.3099246,
+   1792897365.3375368
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1792654274.694844,
@@ -21809,6 +21823,7 @@
   "6096cc3a83ecce40": 1792074118.3389306,
   "610432c8095a427e": 1792775201.2140255,
   "612a6a062bc7bf45": 1792129251.4768379,
+  "6168d548a387aa0d": 1792897365.3374908,
   "6179be9ac4251725": 1792413134.7674634,
   "618e8fb74c6c24a0": 1792570019.5752468,
   "6193a102466b2e6f": 1792873910.0410018,
@@ -25008,7 +25023,7 @@
    "Bloomberg": 64,
    "DOU": 2,
    "DOU Gamedev": 5,
-   "Deadline": 93,
+   "Deadline": 94,
    "Decibel": 13,
    "Digital Foundry": 7,
    "Distorted Sound": 25,
@@ -25045,7 +25060,7 @@
   },
   "translators": {
    "DeepL": 24,
-   "gemini-flash-latest": 111,
+   "gemini-flash-latest": 112,
    "gemini-flash-lite-latest": 1352
   },
   "week": "2026-W43"
@@ -26305,11 +26320,6 @@
    0,
    "",
    1792724491.2604232
-  ],
-  "q:battlestar galactica board game is making": [
-   0,
-   "",
-   1792724490.6386828
   ],
   "q:beat": [
    0,
@@ -31444,18 +31454,6 @@
  },
  "titles": [
   [
-   1792724498.245174,
-   "The Battlestar Galactica Board Game Is Making a Surprise Comeback Next Year"
-  ],
-  [
-   1792724501.4403858,
-   "Deafheaven set to open for Interpol on March 2027 U.S. run"
-  ],
-  [
-   1792724508.1642199,
-   "Imminence perform \"Crestfallen\" for GRAMMYS' Global Spin video series"
-  ],
-  [
    1792726295.0026827,
    "SK Data Center Arm Plans to Fund $350B AI Buildout"
   ],
@@ -32930,21 +32928,13 @@
   [
    1792895513.3098798,
    "SAG-AFTRA Votes To Extend Duncan Crabtree-Ireland’s Contract With Updated Title"
+  ],
+  [
+   1792897365.337492,
+   "‘Nobody Wants This’ Creator Erin Foster Has “More Story To Tell” With A Season 4, But Isn’t Getting “Too Attached”"
   ]
  ],
  "titles_uk": [
-  [
-   1792724498.2451746,
-   "Настільна гра Battlestar Galactica отримає нове видання"
-  ],
-  [
-   1792724501.4403865,
-   "Deafheaven виступлять на розігріві у Interpol у турі США"
-  ],
-  [
-   1792724508.1642203,
-   "Imminence виконали трек \"Crestfallen\" для серії Global Spin від GRAMMYS"
-  ],
   [
    1792726295.002684,
    "SK Hyper планує залучити $350 мільярдів на розвиток інфраструктури ШІ"
@@ -34420,6 +34410,10 @@
   [
    1792895513.3098807,
    "SAG-AFTRA продовжила контракт національного директора Данкана Крабтрі-Ірланда до 2032 року"
+  ],
+  [
+   1792897365.3374927,
+   "Творчиня Nobody Wants This готова зняти четвертий сезон, але чекає на рішення Netflix"
   ]
  ],
  "ukrainian": {
