@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
+   "detail": "https://distortedsoundmag.com/feed/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
+   "label": "Джерело «Distorted Sound» не працює",
+   "sent": 0,
+   "since": 1792888273.6415684
+  }
+ },
  "daily_digest_date": "2026-10-24",
  "freebies": {
   "last_check": 1792882914.8620262,
@@ -14,11 +21,10 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-25 00:02 UTC",
+  "at": "2026-10-25 00:31 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
    "gemini-flash-lite-latest": 1
   },
   "used": [
@@ -19291,7 +19297,6 @@
    "Neformat",
    {
     "also": [],
-    "caption": "🤘 <b>Музична Шкатулка випускає новий альбом</b>\n\nДнями сольний проєкт Музична Шкатулка презентував новий LP &quot;Щось інше, нове, зникаюче&quot; на лейблі Erythroleukoplakia Records. У звучанні альбому сплелися ембієнт, построк й імпровізації артиста. Щось\n\n🔗 <a href=\"https://www.neformat.com.ua/news/28423-muzichna-shkatulka-vipuskaie-noviy-albom.html\">Neformat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.neformat.com.ua/news/28423-muzichna-shkatulka-vipuskaie-noviy-albom.html",
     "orig": "Музична Шкатулка випускає новий альбом"
@@ -20136,6 +20141,20 @@
     "link": "https://deadline.com/2026/10/snl-uk-andy-burnhams-gogglebox-special-cold-open-1237172411/",
     "orig": "‘SNL UK’ Pokes Fun At PM Andy Burnham’s Gogglebox Special In Cold Open With ‘Celebrity Traitors’, ‘Graham Norton Show’ & ‘Great British Bake Off’ Parodies"
    }
+  ],
+  [
+   1792888286.1464372,
+   2458,
+   "🤘",
+   "Dallas Cowboys Cheerleaders подали до суду на My Chemical Romance",
+   "Stereogum",
+   {
+    "also": [],
+    "caption": "🤘 <b>Dallas Cowboys Cheerleaders подали до суду на My Chemical Romance</b>\n\n🔗 <a href=\"https://stereogum.com/2515526/dallas-cowboys-cheerleaders-take-legal-action-against-my-chemical-romance-over-staged-shootout/news/\">Stereogum</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://stereogum.com/2515526/dallas-cowboys-cheerleaders-take-legal-action-against-my-chemical-romance-over-staged-shootout/news/",
+    "orig": "Dallas Cowboys Cheerleaders Take Legal Action Against My Chemical Romance Over Staged Shootout"
+   }
   ]
  ],
  "posted_by_source": {
@@ -20449,9 +20468,9 @@
    1792773128.7645104
   ],
   "music|Stereogum|https://www.stereogum.com/feed/": [
-   1792800086.0100112,
    1792881153.640195,
-   1792882887.217261
+   1792882887.217261,
+   1792888286.1470299
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
    1792789307.8734627,
@@ -20716,7 +20735,6 @@
   "0fe5f85f95c8a50e": 1792427457.9128094,
   "0ffeae24476aef6f": 1792432941.018691,
   "101074601545d4d0": 1792645250.8354855,
-  "102d3575e730c2e1": 1791678229.9078677,
   "105ff4e77e97f9b2": 1792332078.6451468,
   "109079e1411c80e6": 1792793168.8710096,
   "10a4e1749fbcc694": 1792037194.8017173,
@@ -21342,7 +21360,6 @@
   "4257d4108cd1a43a": 1792778486.767039,
   "42b1126bd8633f88": 1792672322.8112528,
   "42f9aa23b5f09dca": 1792733499.0866466,
-  "4305ce6b081ab3b8": 1791678235.0223486,
   "4308794c00b9739c": 1792494193.1181586,
   "430f0f7ef8036dfb": 1792793151.980183,
   "4313e81ffff3a32b": 1792600308.3693054,
@@ -21559,6 +21576,7 @@
   "54914a3eb70f1eaa": 1792517456.0833268,
   "54a84e2c55f75503": 1792692096.7037907,
   "54a9a8bd54d562f8": 1791966911.0236287,
+  "54aefc573cc2dcf8": 1792888286.1469865,
   "54c07659d31db827": 1792522997.5619524,
   "54c0fc731ad33f7c": 1792145482.1827884,
   "54cd137a9f90f362": 1792708286.2155037,
@@ -23453,6 +23471,7 @@
   "ebfccbfbe673f50c": 1792605682.8059595,
   "ec008a2958c5f84e": 1792129002.7199416,
   "ec364b9dab187526": 1792836054.9993808,
+  "ec3676d79d1dcbe8": 1792888254.8279274,
   "ec4158768b9b61d4": 1792645257.3871634,
   "ec576641e0d89296": 1792690455.4997454,
   "ec59fb0ebcbee113": 1792499497.5732076,
@@ -24880,7 +24899,7 @@
    "GamesIndustry.biz": 2,
    "IGN": 3,
    "IndieWire": 1,
-   "Insider Gaming": 40,
+   "Insider Gaming": 41,
    "Lambgoat": 1,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 2,
@@ -24928,7 +24947,7 @@
    "Revolver": 8,
    "Rock Paper Shotgun": 43,
    "SteamDB": 3,
-   "Stereogum": 17,
+   "Stereogum": 18,
    "The Decoder": 31,
    "ThePRP": 75,
    "VGC": 31,
@@ -24937,7 +24956,7 @@
   "translators": {
    "DeepL": 24,
    "gemini-flash-latest": 110,
-   "gemini-flash-lite-latest": 1345
+   "gemini-flash-lite-latest": 1346
   },
   "week": "2026-W43"
  },
@@ -31395,14 +31414,6 @@
  },
  "titles": [
   [
-   1792715488.2618327,
-   "Clayface Ending Explained: Will Matt Hagen Return?"
-  ],
-  [
-   1792715491.3201408,
-   "Clayface Has A Huge Cameo You Probably Missed And It Raises A Big Question"
-  ],
-  [
    1792717287.9706929,
    "Ілон Маск вклав $1 млрд у компанію, яка має показати документальний фільм із критикою на його адресу"
   ],
@@ -32897,17 +32908,13 @@
   [
    1792886547.942559,
    "‘SNL UK’ Pokes Fun At PM Andy Burnham’s Gogglebox Special In Cold Open With ‘Celebrity Traitors’, ‘Graham Norton Show’ & ‘Great British Bake Off’ Parodies"
+  ],
+  [
+   1792888286.146988,
+   "Dallas Cowboys Cheerleaders Take Legal Action Against My Chemical Romance Over Staged Shootout"
   ]
  ],
  "titles_uk": [
-  [
-   1792715488.261834,
-   "Розбір кінцівки Clayface: чи повернеться Matt Hagen?"
-  ],
-  [
-   1792715491.3201418,
-   "У фільмі Clayface помітили камео Аарона Полa"
-  ],
   [
    1792717287.9706938,
    "Ілон Маск вклав $1 млрд у компанію, яка має показати документальний фільм із критикою на його адресу"
@@ -34403,6 +34410,10 @@
   [
    1792886547.9425755,
    "Saturday Night Live UK висміяв прем'єр-міністра Andy Burnham у своєму вступному скетчі"
+  ],
+  [
+   1792888286.146989,
+   "Dallas Cowboys Cheerleaders подали до суду на My Chemical Romance"
   ]
  ],
  "ukrainian": {
@@ -36638,7 +36649,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792884682.9804506,
+  "last_check": 1792888294.583318,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
