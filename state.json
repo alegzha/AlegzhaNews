@@ -1,11 +1,5 @@
 {
  "alerts": {
-  "src:games|Digital Foundry|https://www.digitalfoundry.net/feed": {
-   "detail": "https://www.digitalfoundry.net/feed → 521 Server Error: <none> for url: https://www.digitalfoundry.net/feed\nhttps://www.digitalfoundry.net/rss → 521 Server Error: <none> for url: https://www.digitalfoundry.net/rss\nhttps://www.digitalfoundry.net/feed.xml → 521 Server Error: <none> for url: https://www.digitalfoundry.net/feed.xml\nhttps://www.eurogamer.net/feed/digitalfoundry → 404 Client Error: Not Found for url: https://www.eurogamer.net/feed/digitalfoundry",
-   "label": "Джерело «Digital Foundry» не працює",
-   "sent": 0,
-   "since": 1792909863.3006415
-  },
   "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
    "detail": "https://distortedsoundmag.com/feed/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
    "label": "Джерело «Distorted Sound» не працює",
@@ -28,12 +22,14 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-25 08:12 UTC",
+  "at": "2026-10-25 08:32 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": null,
-  "gemini_models_used": {},
+  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_models_used": {
+   "gemini-flash-lite-latest": 1
+  },
   "used": [
-   "DeepL"
+   "Gemini"
   ]
  },
  "post_log": [
@@ -19588,7 +19584,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b>Деталі нового оновлення для S.T.A.L.K.E.R. 2 випадково злили в мережу</b>\n\nPlayestation Asia передчасно опублікувало інформацію про патч 2.1 для S.T.A.L.K.E.R. 2: Heart of Chornobyl, який вийде наступного тижня. Згідно з витоком, оновлення додасть швидке переміщення з лідерами загонів, покращить балістику, бій та дальність промальовування NPC в A-Life.\n\n🔗 <a href=\"https://www.eurogamer.net/stalker-2-update-2-1-zone-lookout-playstation-asia-leak\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/stalker-2-update-2-1-zone-lookout-playstation-asia-leak",
     "orig": "Stalker 2's next update has already leaked"
@@ -20448,6 +20443,20 @@
     "link": "https://github.com/pollen-robotics/microduck",
     "orig": "pollen-robotics/microduck"
    }
+  ],
+  [
+   1792917166.3518033,
+   2481,
+   "🤘",
+   "Благодійний концерт Turnstile біля монумента Вашингтона зібрав близько 60 000 людей і понад $209 000",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Благодійний концерт Turnstile біля монумента Вашингтона зібрав близько 60 000 людей і понад $209 000</b>\n\nДосить голосно, щоб у Білому домі почули: Вільна Палестина! Вільний Судан! Вільний Ліван!\n\n🔗 <a href=\"https://www.theprp.com/2026/10/25/news/turnstiles-palestine-sudan-etc-benefit-concert-at-the-washington-monument-drew-an-estimated-60000-people-raised-over-209000/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/25/news/turnstiles-palestine-sudan-etc-benefit-concert-at-the-washington-monument-drew-an-estimated-60000-people-raised-over-209000/",
+    "orig": "Turnstile’s Palestine, Sudan, Etc. Benefit Concert At The Washington Monument Drew An Estimated 60,000 People & Raised Over $209,000"
+   }
   ]
  ],
  "posted_by_source": {
@@ -20757,15 +20766,13 @@
    1792888286.1470299
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1792789307.8734627,
-   1792793174.6843336,
-   1792794702.9911656,
    1792870282.4893644,
    1792870292.275178,
    1792870295.3868043,
    1792872130.1248143,
    1792873905.8569593,
-   1792873913.1226435
+   1792873913.1226435,
+   1792917166.352147
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1792481487.1423821
@@ -20832,6 +20839,7 @@
   "0222a40561332571": 1791993919.0152032,
   "0222fe83cbe423f5": 1792524214.773031,
   "0225edb619b6a76e": 1792749655.9135356,
+  "024a9a0a704d86fb": 1792917166.3521016,
   "027e3bf16e3ad318": 1792598682.8852499,
   "0281b612948daa49": 1792873919.1973965,
   "029204a4b8418055": 1791989328.548066,
@@ -22017,6 +22025,7 @@
   "60839ee6ca496f39": 1792857762.833654,
   "6096cc3a83ecce40": 1792074118.3389306,
   "610432c8095a427e": 1792775201.2140255,
+  "611bb77b00d5562b": 1792917052.259222,
   "612a6a062bc7bf45": 1792129251.4768379,
   "6168d548a387aa0d": 1792897365.3374908,
   "6179be9ac4251725": 1792413134.7674634,
@@ -22780,6 +22789,7 @@
   "9a945af4bff676bc": 1791920890.789667,
   "9abf35534b942a55": 1792339281.642285,
   "9ac10c4484958e92": 1792845079.9412336,
+  "9ad5ce51a9979f8c": 1792917074.218716,
   "9adeae47092581c0": 1791975106.266901,
   "9ae994c2290a7ab5": 1792687119.149697,
   "9b0106aa51e84a4a": 1792832599.5504208,
@@ -22875,6 +22885,7 @@
   "a32e33c7155a19c3": 1792607510.795099,
   "a3371908b767766e": 1792494154.5405889,
   "a34d35809ee5eb12": 1792514028.14236,
+  "a351bbffd5ac3395": 1792917074.2200687,
   "a3862978713e1870": 1792055987.1515536,
   "a39d997a4ae688ad": 1792497708.7723825,
   "a3a9efef137d4a73": 1792524281.4419186,
@@ -25214,7 +25225,7 @@
    "Metal Injection": 1,
    "PC Gamer": 14,
    "Pitchfork": 1,
-   "Polygon": 68,
+   "Polygon": 69,
    "Revolver": 1,
    "The Decoder": 1,
    "VGC": 3,
@@ -25258,14 +25269,14 @@
    "SteamDB": 3,
    "Stereogum": 18,
    "The Decoder": 32,
-   "ThePRP": 75,
+   "ThePRP": 76,
    "VGC": 31,
    "Variety": 36
   },
   "translators": {
    "DeepL": 28,
    "gemini-flash-latest": 118,
-   "gemini-flash-lite-latest": 1358
+   "gemini-flash-lite-latest": 1359
   },
   "week": "2026-W43"
  },
@@ -28379,21 +28390,6 @@
    1145350,
    "Hades II",
    1792344672.7507288
-  ],
-  "q:hades 2 baldur": [
-   0,
-   "",
-   1792742491.9815028
-  ],
-  "q:hades 2 baldur's gate": [
-   0,
-   "",
-   1792742491.4843352
-  ],
-  "q:hades 2 baldur's gate 3": [
-   0,
-   "",
-   1792742490.9851975
   ],
   "q:half life": [
    70,
@@ -31603,14 +31599,6 @@
  },
  "titles": [
   [
-   1792744291.0590053,
-   "Product Hunt Visual Launch Editor"
-  ],
-  [
-   1792744325.9522626,
-   "'Avatar: Seven Havens' Episode 9 Ending Explained: Everything We Learned About the Havens"
-  ],
-  [
    1792746275.47882,
    "Podcast: Landfall's Rebecca Lautner on Peak's 23 million sales and looking past friendslop"
   ],
@@ -33029,17 +33017,13 @@
   [
    1792915928.8324156,
    "pollen-robotics/microduck"
+  ],
+  [
+   1792917166.3521032,
+   "Turnstile’s Palestine, Sudan, Etc. Benefit Concert At The Washington Monument Drew An Estimated 60,000 People & Raised Over $209,000"
   ]
  ],
  "titles_uk": [
-  [
-   1792744291.0590062,
-   "Product Hunt випустив візуальний редактор запуску"
-  ],
-  [
-   1792744325.9522643,
-   "Фінал дев'ятого епізоду Avatar: Seven Havens розкриває таємниці світу"
-  ],
   [
    1792746275.4788208,
    "Ребекка Лаутнер з Landfall про 23 мільйони проданих Peak і майбутні плани"
@@ -34459,6 +34443,10 @@
   [
    1792915928.8324163,
    "pollen-robotics/microduck"
+  ],
+  [
+   1792917166.352104,
+   "Благодійний концерт Turnstile біля монумента Вашингтона зібрав близько 60 000 людей і понад $209 000"
   ]
  ],
  "ukrainian": {
