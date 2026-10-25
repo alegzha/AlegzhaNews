@@ -15,11 +15,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-25 20:01 UTC",
-  "gemini_error": "",
+  "at": "2026-10-25 20:33 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 5
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
@@ -22027,7 +22027,6 @@
   "1990d44db17959f1": 1792666886.609666,
   "19ac231365a5fe35": 1792229907.257846,
   "19ba1e744eab5717": 1792904010.80863,
-  "19d70f4ab21befbf": 1791750769.4269507,
   "19f1645df0fc9dc5": 1792352532.029705,
   "19ff560a08843400": 1792512260.063581,
   "1a53055b528e6b35": 1792463477.7854152,
@@ -22478,7 +22477,6 @@
   "3d5a3c8be2fc05a0": 1792749724.7991934,
   "3d66fe44c663204a": 1791931737.6744573,
   "3d67bf0bb9867325": 1792407735.6609592,
-  "3d69c67289e2b826": 1791750785.6611123,
   "3d7a03e4f4540a2f": 1792404077.2906656,
   "3d82a37ca16436bd": 1792306037.9156334,
   "3d852e9d6a4a084f": 1792436507.2778673,
@@ -22562,7 +22560,6 @@
   "439b6635122fd180": 1792402278.0223076,
   "43b32fa6ce9da908": 1792596683.2224457,
   "43c2ae71486a99d7": 1792953087.9479163,
-  "43c46bcca2d9bae1": 1791750730.2911475,
   "43c4f56ed9c715af": 1792431081.4918277,
   "43eed4e276bf4a3d": 1791975145.2089515,
   "43f15cd46edeab2a": 1792508618.5975873,
@@ -22589,7 +22586,6 @@
   "45a3983e7e55e8f0": 1791996969.7628744,
   "45c6b4e238931487": 1792515788.5555103,
   "45cb1fde37fc7b01": 1791786680.4337952,
-  "45d3556aab2bf343": 1791750753.4718692,
   "45d6252574e7c1b5": 1792256264.4734173,
   "45d7ec98ffa120e6": 1792010005.957807,
   "4606baea4fc75aea": 1791969303.6202111,
@@ -22866,7 +22862,6 @@
   "5b6effa0896b447b": 1792099080.532876,
   "5b896091ecaaf61c": 1792496084.9827569,
   "5bbdd3b8d4f89892": 1792342906.3803601,
-  "5bcd0ce3010222bf": 1791750719.4009652,
   "5bd4f53d4638e660": 1792097638.3043296,
   "5bee63ca48e2797f": 1792515677.312114,
   "5c02816d1e3369ee": 1791989233.6556866,
@@ -22994,6 +22989,7 @@
   "665fdab0cfd66025": 1792762375.4571183,
   "666095fe20f7ff1d": 1792785794.4025352,
   "666779e4f744bdb5": 1792828887.4602394,
+  "6671e515625a19f1": 1792960382.162961,
   "66a303239248538b": 1792229874.5261397,
   "66b8f4b0ab2b0dbf": 1791931141.432061,
   "66bd3c4e26ae41c9": 1792773055.4309604,
@@ -23139,7 +23135,6 @@
   "7201f15fe5a7e2f6": 1792756133.0334382,
   "7203879df98082f0": 1792825405.646989,
   "7216aa0528f7a4b6": 1792773055.4309604,
-  "727f9ab15731bafb": 1791750774.6158323,
   "72824c92e89aa6e4": 1792099090.951587,
   "7283d55fafb21d12": 1792775318.379392,
   "7285ed3ab26c211d": 1792452653.2654438,
@@ -23871,7 +23866,6 @@
   "a96560361523e784": 1792746275.4788184,
   "a98212cd646e8a83": 1792600349.566509,
   "a99d4fead489e225": 1792422123.309201,
-  "a9a7ae70b195bcc4": 1791750742.2223434,
   "a9af8ed59b4ac362": 1792352514.8473883,
   "a9b4a4066e93a3fa": 1792706477.6199179,
   "a9c2007f4b484a0a": 1792357292.7400453,
@@ -24016,7 +24010,6 @@
   "b4ca1bc42d8dbeae": 1792747884.2597232,
   "b4d70f8a7081489f": 1792595277.6345336,
   "b4fcea4d70451120": 1791807593.5725496,
-  "b5368d16e5d8a522": 1791750736.9549613,
   "b554041a8cfb3723": 1792600307.101122,
   "b554d21390138371": 1792749728.2515082,
   "b58e883e7082f041": 1791920864.3307495,
@@ -24211,7 +24204,6 @@
   "c4adbfbb7ff1d2ef": 1792775223.0300949,
   "c4b2ed464a9a8b05": 1792693857.1740658,
   "c4ba97e7140051f8": 1792731754.7683663,
-  "c4c0033e8848c44c": 1791750764.3340223,
   "c4dadb1b913f3da3": 1792602055.3345523,
   "c4fc51b2a10bea89": 1792416700.7282534,
   "c4fdd3e6f0df6d31": 1792602119.3538473,
@@ -24381,7 +24373,6 @@
   "d23450eef7c52a28": 1791831068.7715015,
   "d235826fa5aa13ee": 1792523030.213897,
   "d237ff7fccd1662f": 1792573296.6495137,
-  "d2424fc257757807": 1791750758.7943017,
   "d25d210fb677f7f7": 1792756887.069081,
   "d2958fed1ea0e62e": 1792492252.585669,
   "d2b2fbd14959eed4": 1791815061.9033022,
@@ -24415,7 +24406,6 @@
   "d5614ae90e1bd0b2": 1792356797.2007234,
   "d561b90ae9973ec5": 1791894791.377448,
   "d571bd4286e63541": 1792097679.0733948,
-  "d57214e6be19d7d0": 1791750747.590049,
   "d5817321b124e40c": 1791931822.5697832,
   "d5ab87514d550048": 1792656174.047673,
   "d5b13cbbed3ae788": 1792459891.842464,
@@ -25428,7 +25418,7 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1792944103.7590413,
-  "blocked_until": 1792942394.4734905,
+  "blocked_until": 1793030563.4810362,
   "cursor": 33,
   "digest_week": "2026-W43",
   "seen": {
@@ -26227,7 +26217,7 @@
   "translators": {
    "DeepL": 32,
    "gemini-flash-latest": 118,
-   "gemini-flash-lite-latest": 1434
+   "gemini-flash-lite-latest": 1435
   },
   "week": "2026-W43"
  },
@@ -26672,11 +26662,6 @@
    "",
    1792954887.5276554
   ],
-  "q:2": [
-   0,
-   "",
-   1792785785.9504704
-  ],
   "q:2 1 a life": [
    0,
    "",
@@ -26771,31 +26756,6 @@
    0,
    "",
    1792928075.4773707
-  ],
-  "q:4's first": [
-   0,
-   "",
-   1792785789.8354797
-  ],
-  "q:4's first dlc": [
-   0,
-   "",
-   1792785789.2889524
-  ],
-  "q:4's first dlc is": [
-   0,
-   "",
-   1792785788.7991397
-  ],
-  "q:4's first dlc is out": [
-   0,
-   "",
-   1792785788.3026197
-  ],
-  "q:4's first dlc is out now": [
-   0,
-   "",
-   1792785787.8018942
   ],
   "q:5": [
    0,
@@ -27327,11 +27287,6 @@
    "Call of Duty®: Modern Warfare®",
    1791668518.2001636
   ],
-  "q:can": [
-   0,
-   "",
-   1792785794.9232507
-  ],
   "q:canceled": [
    2651130,
    "Canceled",
@@ -27822,16 +27777,6 @@
    "",
    1792796655.9517553
   ],
-  "q:dlc is out": [
-   0,
-   "",
-   1792785792.9856656
-  ],
-  "q:dlc is out now": [
-   0,
-   "",
-   1792785792.4929507
-  ],
   "q:dmz": [
    2650890,
    "DMZ",
@@ -28156,26 +28101,6 @@
    444410,
    "Find Out",
    1792593209.6582353
-  ],
-  "q:first dlc": [
-   0,
-   "",
-   1792785791.912555
-  ],
-  "q:first dlc is": [
-   0,
-   "",
-   1792785791.3826027
-  ],
-  "q:first dlc is out": [
-   0,
-   "",
-   1792785790.8971674
-  ],
-  "q:first dlc is out now": [
-   0,
-   "",
-   1792785790.3120527
   ],
   "q:football manager 27": [
    4530370,
@@ -28591,11 +28516,6 @@
    1846170,
    "Iron Lung",
    1791994329.4241986
-  ],
-  "q:is out now": [
-   0,
-   "",
-   1792785793.4626522
   ],
   "q:is the weirdest serial": [
    0,
@@ -30711,66 +30631,6 @@
  },
  "titles": [
   [
-   1792785777.4360108,
-   "Machine Head, Suicide Silence, Tony Iommi & More Added to Metal Injection's Top Tracks of The Week"
-  ],
-  [
-   1792785780.4203196,
-   "New QUEENSRŸCHE Music Sounds Like 'Rage For Order' And 'The Warning': 'This Is Gonna Be A Really Good Album'"
-  ],
-  [
-   1792785783.8504999,
-   "Bad Wolves Finally Got Dolly Parton's Vocals On Their \"Jolene\" Cover"
-  ],
-  [
-   1792785796.8147025,
-   "It's our new daily game fixation and we all stink at it: Can you guess how much used cars cost?"
-  ],
-  [
-   1792785800.9275787,
-   "Klone announce new album ‘The Moon Is Witness’"
-  ],
-  [
-   1792785816.8940294,
-   "Nick Reiner Poised To Receive Trust Fund Cash For Defense In Parents’ Murder Case; Lawyer Insists Money Deal Needs “To Get Resolved As Quickly As Possible”"
-  ],
-  [
-   1792785819.9962149,
-   "‘VisionQuest’ Seems Eager To Confront Dangers Of Unregulated AI, But The Team Behind It Says MCU Series Isn’t A Reflection Of Current Events"
-  ],
-  [
-   1792785822.9714413,
-   "Oceans Ate Alaska’s New Album “Purge” Due In January, “Bring You Back” Music Video Launched"
-  ],
-  [
-   1792785827.4793227,
-   "Rammstein reveal clip performing \"Deutschland\" from impending 'Live In Mexico City' film"
-  ],
-  [
-   1792787493.9170284,
-   "All The Songs In ‘Love Language’: From Daddy Yankee To Royel Otis"
-  ],
-  [
-   1792787505.8777924,
-   "Steam's Personal Calendar Full Release"
-  ],
-  [
-   1792787510.239479,
-   "Nintendo's Shigeru Miyamoto says even if gen-AI \"were to eventually handle everything, there will always be a role left\" for human designers"
-  ],
-  [
-   1792787519.4164848,
-   "MKOI Shock BLG on Day 1 of the LoL Worlds Swiss Stage"
-  ],
-  [
-   1792787522.7506866,
-   "AI Ushers in New Era of Cybersecurity Needs"
-  ],
-  [
-   1792787525.651595,
-   "Stephanie March Returning To ‘Law & Order: SVU’ Reprising Original Role"
-  ],
-  [
    1792789295.1519144,
    "Steam Next Fest: Most-Played Demos So Far Include Fart Together, Emberville, ArcheAge Chronicles"
   ],
@@ -31788,66 +31648,6 @@
   ]
  ],
  "titles_uk": [
-  [
-   1792785777.4360118,
-   "Machine Head, Suicide Silence та Tony Iommi увійшли до найкращих треків тижня за версією Metal Injection"
-  ],
-  [
-   1792785780.4203203,
-   "Нова музика QUEENSRŸCHE нагадує класичні альбоми"
-  ],
-  [
-   1792785783.8505008,
-   "Bad Wolves нарешті записали вокал Доллі Партон для свого каверу на «Jolene»"
-  ],
-  [
-   1792785796.8147035,
-   "The Daily Lowball — нова браузерна гра про вартість вживаних авто"
-  ],
-  [
-   1792785800.9275794,
-   "Klone анонсували новий альбом The Moon Is Witness"
-  ],
-  [
-   1792785816.89403,
-   "Нік Райнер може отримати кошти з трастового фонду для захисту в суді"
-  ],
-  [
-   1792785819.9962158,
-   "Пол Беттані та Джеймс Спейдер про роль ШІ у серіалі VisionQuest"
-  ],
-  [
-   1792785822.971442,
-   "Oceans Ate Alaska анонсували альбом Purge і випустили кліп Bring You Back"
-  ],
-  [
-   1792785827.4793234,
-   "Rammstein випустили живий кліп на пісню \"Deutschland\""
-  ],
-  [
-   1792787493.9170291,
-   "Усі пісні з романтичної комедії Love Language"
-  ],
-  [
-   1792787505.8777936,
-   "Valve випустила персональний ігровий календар у Steam"
-  ],
-  [
-   1792787510.23948,
-   "Сігеру Міямото вважає, що ШІ не зможе повністю замінити розробників ігор"
-  ],
-  [
-   1792787519.4164855,
-   "Movistar KOI сенсаційно перемогли Bilibili Gaming на старті LoL Worlds 2026"
-  ],
-  [
-   1792787522.7506876,
-   "Уряд США бореться з критичними вразливостями в PHP"
-  ],
-  [
-   1792787525.6515958,
-   "Стефані Марч повернеться до серіалу Law & Order: SVU у ролі Alexandra Cabot"
-  ],
   [
    1792789295.151915,
    "Valve назвала найпопулярніші демоверсії поточного Steam Next Fest"
@@ -35099,7 +34899,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792956689.420106,
+  "last_check": 1792960389.1437604,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
