@@ -1,11 +1,5 @@
 {
  "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1792891876.3614588
-  },
   "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
    "detail": "https://distortedsoundmag.com/feed/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
    "label": "Джерело «Distorted Sound» не працює",
@@ -28,11 +22,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-25 01:31 UTC",
+  "at": "2026-10-25 02:01 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
@@ -19356,7 +19350,6 @@
    "Metal Injection",
    {
     "also": [],
-    "caption": "🤘 <b>Metallica показала відео з концерту в Sphere на трек &#x27;Lux Æterna&#x27;</b>\n\n🔗 <a href=\"https://metalinjection.net/news/watch-metallica-drops-sphere-footage-of-lux-aeterna\">Metal Injection</a>\n\n#музика",
     "kind": "photo",
     "link": "https://metalinjection.net/news/watch-metallica-drops-sphere-footage-of-lux-aeterna",
     "orig": "Watch: Metallica Drops Sphere Footage of 'Lux Æterna'"
@@ -19663,7 +19656,12 @@
    "My Chemical Romance судять через чирлідерок Dallas Cowboys на концерті",
    "ThePRP",
    {
-    "also": [],
+    "also": [
+     [
+      "Lambgoat",
+      "https://lambgoat.com/news/55527/owner-of-dallas-cowboys-cheerleaders-seeks-legal-action-against-my-chemical-romance/"
+     ]
+    ],
     "caption": "🤘 <b>My Chemical Romance судять через чирлідерок Dallas Cowboys на концерті</b>\n\nКомпанія Pro Silver Star Ltd. подала позов проти My Chemical Romance через використання образів та уніформи Dallas Cowboys Cheerleaders у сценичному перформансі під час концертів у Hollywood Bowl. Позивач вимагає заборонити танцівницям виступати в цих костюмах, оскільки глядачі сплутали їх із реальними чирлідерками.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/24/news/my-chemical-romance-hit-with-legal-action-over-recent-onstage-depictions-of-dallas-cowboys-cheerleaders/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/24/news/my-chemical-romance-hit-with-legal-action-over-recent-onstage-depictions-of-dallas-cowboys-cheerleaders/",
@@ -19705,7 +19703,12 @@
    "Infant Annihilator анонсували назву нового альбому",
    "ThePRP",
    {
-    "also": [],
+    "also": [
+     [
+      "Lambgoat",
+      "https://lambgoat.com/news/55528/infant-annihilator-share-title-of-new-lp-due-out-december-1st/"
+     ]
+    ],
     "caption": "🤘 <b>Infant Annihilator анонсували назву нового альбому</b>\n\n🔗 <a href=\"https://www.theprp.com/2026/10/24/news/infant-annihilator-reveal-the-title-for-their-new-comeback-album/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/24/news/infant-annihilator-reveal-the-title-for-their-new-comeback-album/",
@@ -20206,6 +20209,20 @@
     "link": "https://www.slashfilm.com/2290533/star-trek-characters-died-came-back-to-life/",
     "orig": "5 Star Trek Characters Who Died And Then Came Back To Life"
    }
+  ],
+  [
+   1792893686.6705422,
+   2463,
+   "🤘",
+   "Дивіться повний виступ 200 Stab Wounds на Welcome To Rockville 2026",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Дивіться повний виступ 200 Stab Wounds на Welcome To Rockville 2026</b>\n\nЖурнал Kerrang! опублікував професійний відеозапис 30-хвилинного виступу дез-метал-гурту 200 Stab Wounds на фестивалі Welcome To Rockville у Дайтона-Біч. Крім того, колектив готується до релізу нового альбому Lowest Form, який вийде 19 лютого на лейблі Metal Blade Records.\n\n🔗 <a href=\"https://lambgoat.com/news/55529/watch-200-stab-wounds-full-welcome-to-rockville-2026-performance/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55529/watch-200-stab-wounds-full-welcome-to-rockville-2026-performance/",
+    "orig": "Watch: 200 Stab Wounds full Welcome To Rockville 2026 performance"
+   }
   ]
  ],
  "posted_by_source": {
@@ -20452,15 +20469,8 @@
    1792767865.3631005
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1792737156.913047,
-   1792766023.118723,
-   1792775814.680705,
-   1792775819.1385589,
-   1792780421.2163374,
-   1792780430.6788504,
-   1792785827.4793634,
-   1792789311.3052747,
-   1792819884.921474
+   1792819884.921474,
+   1792893686.6712303
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1792703018.0387626,
@@ -22299,6 +22309,7 @@
   "88656070094f7d1a": 1792492285.7156794,
   "8867e5848e9d6bd3": 1792352392.5356243,
   "888f5f69a3a93f6d": 1792526481.0859582,
+  "889cc801e936136d": 1792893686.671183,
   "88a510b8ec1085db": 1791926957.9518356,
   "88a5ffec119dab97": 1792009836.861672,
   "88afdf01a20cc1a7": 1792760502.8528607,
@@ -22396,6 +22407,7 @@
   "8fe98d2c4c26327d": 1792778453.5270102,
   "902a336fff3e65e2": 1792697503.1283176,
   "9031184d642d7393": 1791908466.720657,
+  "90459b0522482fde": 1792893684.5577319,
   "9045b6765cfd8e98": 1792780421.2162938,
   "904e548719413b36": 1792099095.4171643,
   "9068a7401a059aae": 1792666857.0082133,
@@ -22675,6 +22687,7 @@
   "a7eb155588015caf": 1792591722.3165183,
   "a7ec03701c781d4d": 1792315853.5872138,
   "a7f12e04f6e2cf80": 1792422118.9824584,
+  "a8052d1081252578": 1792893682.5817263,
   "a8275034ff2d03c1": 1792447279.7576919,
   "a84deab5558652bd": 1792717290.9801292,
   "a857aaa20a4ba1a1": 1792382512.207955,
@@ -22849,6 +22862,7 @@
   "b657c1bb0ac4ff11": 1792740891.6720324,
   "b65e0bbd508b9ad8": 1792352424.338672,
   "b66d1371169f46d3": 1792347119.7625296,
+  "b698f537dec5607b": 1792893682.5851874,
   "b6af05e303c27887": 1792762273.6761994,
   "b70577d9ab084e97": 1792670774.8654926,
   "b70f34a6192c1ffe": 1792515691.1648102,
@@ -24989,7 +25003,7 @@
    "IndieWire": 27,
    "Insider Gaming": 93,
    "Kerrang!": 30,
-   "Lambgoat": 54,
+   "Lambgoat": 55,
    "Loudwire": 26,
    "Metal Hammer (Louder)": 36,
    "Metal Injection": 25,
@@ -25013,7 +25027,7 @@
   "translators": {
    "DeepL": 24,
    "gemini-flash-latest": 111,
-   "gemini-flash-lite-latest": 1349
+   "gemini-flash-lite-latest": 1351
   },
   "week": "2026-W43"
  },
@@ -31471,10 +31485,6 @@
  },
  "titles": [
   [
-   1792720884.3421695,
-   "Wildwood Director Travis Knight Reveals The Innovations That Made The Epic Stop-Motion Film Possible [Exclusive]"
-  ],
-  [
    1792720894.3094995,
    "Wo Long 2: Wings of Ember Gets Wuxia… and Let Me Fight a Horrific Spider Thing | IGN Preview"
   ],
@@ -32961,13 +32971,13 @@
   [
    1792891894.623296,
    "5 Star Trek Characters Who Died And Then Came Back To Life"
+  ],
+  [
+   1792893686.6711845,
+   "Watch: 200 Stab Wounds full Welcome To Rockville 2026 performance"
   ]
  ],
  "titles_uk": [
-  [
-   1792720884.34217,
-   "Режисер Travis Knight розповів про технології для stop-motion фільму Wildwood"
-  ],
   [
    1792720894.3095005,
    "IGN опублікував прев'ю Wo Long 2: Wings of Ember"
@@ -34455,6 +34465,10 @@
   [
    1792891894.6232965,
    "П'ять персонажів Star Trek, які поверталися з мертвих"
+  ],
+  [
+   1792893686.6711857,
+   "Дивіться повний виступ 200 Stab Wounds на Welcome To Rockville 2026"
   ]
  ],
  "ukrainian": {
