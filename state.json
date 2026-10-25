@@ -11,6 +11,12 @@
    "label": "Джерело «Distorted Sound» не працює",
    "sent": 0,
    "since": 1792888273.6415684
+  },
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Max retries exceeded with url: / (Caused by NewConnectionErro",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1792913470.4344635
   }
  },
  "daily_digest_date": "2026-10-24",
@@ -28,11 +34,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-25 07:04 UTC",
+  "at": "2026-10-25 07:31 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-latest",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 2
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
@@ -19538,7 +19544,6 @@
    "VGC",
    {
     "also": [],
-    "caption": "🎮 <b>Розробляють безплатну офіційну гру за шоу <a href=\"https://store.steampowered.com/app/1414920/\">Knightmare</a></b>\n\nКласичне британське дитяче телешоу Knightmare отримає нову безплатну пригодницьку гру на ПК до свого 40-річчя. Проєкт створено за офіційною ліцензією, а ролі озвучили оригінальні актори серіалу.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/a-free-officially-licensed-game-based-on-classic-uk-childrens-tv-show-knightmare-is-in-development/\">VGC</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/news/a-free-officially-licensed-game-based-on-classic-uk-childrens-tv-show-knightmare-is-in-development/",
     "orig": "A free, officially licensed game based on classic UK children’s TV show Knightmare is in development"
@@ -20398,6 +20403,20 @@
     "link": "https://github.com/Nutlope/hallmark",
     "orig": "Nutlope/hallmark"
    }
+  ],
+  [
+   1792913477.0238159,
+   2477,
+   "💾",
+   "Вийшов інструмент Impeccable для покращення фронтенд-дизайну від ШІ",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>Вийшов інструмент Impeccable для покращення фронтенд-дизайну від ШІ</b>\n\nПроєкт Impeccable пропонує дизайн-гайдлайни, команди та детектори для ШІ-агентів кодування, щоб позбутися однотипних шаблонів у вебдизайні. Інструмент підтримує Cursor, Claude Code, Gemini CLI, Codex CLI та інші популярні платформи.\n\n🔗 <a href=\"https://github.com/pbakaus/impeccable\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/pbakaus/impeccable",
+    "orig": "pbakaus/impeccable"
+   }
   ]
  ],
  "posted_by_source": {
@@ -20739,7 +20758,8 @@
    1792827227.2210155,
    1792828887.4602768,
    1792910020.3650515,
-   1792911845.8852413
+   1792911845.8852413,
+   1792913477.024225
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1792735456.74046,
@@ -23130,7 +23150,6 @@
   "bd93075967209898": 1792474287.124558,
   "bda522f4de41add7": 1792760485.581914,
   "bdbe798321f11ef7": 1792347110.955539,
-  "bdcdc21f8a4c9dbb": 1791702304.8026342,
   "bdda06988855fa4f": 1792505088.764527,
   "bdecc06403513885": 1792870286.0588214,
   "bdf8d7c7a9c8e52d": 1792515978.034136,
@@ -23895,6 +23914,7 @@
   "fa04ef881d8b9b54": 1792683131.8039038,
   "fa2fe6c749f5a47b": 1792010047.5177546,
   "fa34172b27b2fc04": 1792677820.6792836,
+  "fa4361846156ed46": 1792913477.0241816,
   "fa516167ef4fad71": 1792755102.2984269,
   "fa51ceb44fd478c0": 1792396911.118474,
   "fa51dfb1a1b7dc28": 1792706490.4188232,
@@ -25183,7 +25203,7 @@
    "Eurogamer": 38,
    "GameSpot": 41,
    "GamesIndustry.biz": 22,
-   "GitHub Trending": 27,
+   "GitHub Trending": 28,
    "Hugging Face": 7,
    "IGN": 73,
    "ITC.ua": 59,
@@ -25214,7 +25234,7 @@
   "translators": {
    "DeepL": 24,
    "gemini-flash-latest": 118,
-   "gemini-flash-lite-latest": 1357
+   "gemini-flash-lite-latest": 1358
   },
   "week": "2026-W43"
  },
@@ -31552,10 +31572,6 @@
  },
  "titles": [
   [
-   1792739161.3595893,
-   "luongnv89/claude-howto"
-  ],
-  [
    1792740872.6594963,
    "ShogunAI"
   ],
@@ -32986,13 +33002,13 @@
   [
    1792911845.8852043,
    "Nutlope/hallmark"
+  ],
+  [
+   1792913477.0241828,
+   "pbakaus/impeccable"
   ]
  ],
  "titles_uk": [
-  [
-   1792739161.3595908,
-   "luongnv89/claude-howto"
-  ],
   [
    1792740872.6594973,
    "ShogunAI"
@@ -34424,6 +34440,10 @@
   [
    1792911845.885205,
    "Для Claude Code та Cursor випустили Hallmark — дизайн-інструмент без кліше ШІ"
+  ],
+  [
+   1792913477.0241838,
+   "Вийшов інструмент Impeccable для покращення фронтенд-дизайну від ШІ"
   ]
  ],
  "ukrainian": {
