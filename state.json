@@ -1,5 +1,11 @@
 {
  "alerts": {
+  "src:games|Digital Foundry|https://www.digitalfoundry.net/feed": {
+   "detail": "https://www.digitalfoundry.net/feed → 521 Server Error: <none> for url: https://www.digitalfoundry.net/feed\nhttps://www.digitalfoundry.net/rss → 521 Server Error: <none> for url: https://www.digitalfoundry.net/rss\nhttps://www.digitalfoundry.net/feed.xml → 521 Server Error: <none> for url: https://www.digitalfoundry.net/feed.xml\nhttps://www.eurogamer.net/feed/digitalfoundry → 404 Client Error: Not Found for url: https://www.eurogamer.net/feed/digitalfoundry",
+   "label": "Джерело «Digital Foundry» не працює",
+   "sent": 0,
+   "since": 1792909863.3006415
+  },
   "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
    "detail": "https://distortedsoundmag.com/feed/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
    "label": "Джерело «Distorted Sound» не працює",
@@ -22,10 +28,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-25 06:01 UTC",
+  "at": "2026-10-25 06:33 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
+   "gemini-flash-latest": 3,
    "gemini-flash-lite-latest": 1
   },
   "used": [
@@ -19454,7 +19461,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>Як створювався культовий вбивчий єдиноріг у фільмі Buddy</b>\n\nНа самміті Future of Filmmaking від IndieWire продюсерка Tracy Rosenblum, співавтор Jamie King та директорка з цифрового маркетингу Roadside Attractions Melissa Yerou поділилися секретами успіху однієї з найгучніших стрічок 2026 року\n\n🔗 <a href=\"https://www.indiewire.com/news/events/how-buddy-became-breakout-hit-future-of-filmmaking-summit-1235223665/\">IndieWire</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.indiewire.com/news/events/how-buddy-became-breakout-hit-future-of-filmmaking-summit-1235223665/",
     "orig": "Watch the ‘Buddy’ Team Explain How They Made the World Fall in Love with a Murderous Unicorn"
@@ -19468,7 +19474,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Бета-тест World of Warcraft: Forever викликав побоювання щодо ендгейму</b>\n\nБета-тестування World of Warcraft: Forever завершилося, і автор колонки на PC Gamer замислився над майбутнім ендгейму гри. Оскільки проєкт розрахований на довгі роки без випуску доповнень, розробники планують обережно впроваджувати вертикальну прогресію та нові рейдові тіри. Це викликає питання про те, як зберегти актуальність старої екіпіровки та уникнути проблем із балансом у довгостроковій перспективі.\n\n🔗 <a href=\"https://www.pcgamer.com/games/world-of-warcraft/now-its-over-wow-forevers-beta-has-left-me-with-just-one-fear-its-endgame/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/world-of-warcraft/now-its-over-wow-forevers-beta-has-left-me-with-just-one-fear-its-endgame/",
     "orig": "Now it's over, WoW: Forever's beta has left me with just one fear—its endgame"
@@ -19482,7 +19487,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>Перше масштабне оновлення Paralives перенесли на наступний рік</b>\n\nРеліз першого великого оновлення симулятора життя Paralives відкладено на наступний рік через потреби розробників у додатковому часі. Патч принесе покращення для Live Mode, Build Mode та редактора персонажів Paramaker, зокрема нові навички, предмети й розширені налаштування тіла.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/paralives-first-major-update-slips-to-next-year-but-when-it-comes-you-can-expect-some-pretty-meaty-improvements-for-all-of-its-main-features\">Rock Paper Shotgun</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/paralives-first-major-update-slips-to-next-year-but-when-it-comes-you-can-expect-some-pretty-meaty-improvements-for-all-of-its-main-features",
     "orig": "Paralives' first major update slips to next year, but when it comes you can expect some pretty meaty improvements for all of its main features"
@@ -19496,7 +19500,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b>ФБР розслідує крадіжку колекційних карток на суму понад $963 000</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/4513280/\">Pok</a>\n\nФБР та поліція розслідують крадіжку 6451 картки з вантажівки FedEx у Каліфорнії. Серед викраденого — майже 3000 Pokémon карток, а також One Piece та спортивні картки загальною вартістю понад $963 000. PSA вже деактивувала номери сертифікації викрадених предметів та виплачує компенсації постраждалим клієнтам.\n\n🔗 <a href=\"https://www.eurogamer.net/fbi-investigates-psa-graded-card-theft-pokemon\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/fbi-investigates-psa-graded-card-theft-pokemon",
     "orig": "FBI investigating theft of more than 6000 PSA-graded trading cards, including almost 3000 Pokémon cards"
@@ -20314,6 +20317,62 @@
     "link": "https://www.loudersound.com/music/albums/slayer-reign-in-blood-facts",
     "orig": "The chaos, controversy and beefs behind Slayer’s Reign In Blood"
    }
+  ],
+  [
+   1792909951.3042974,
+   2471,
+   "🎮",
+   "Які світи Disney можуть з'явитися у Kingdom Hearts 4",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Які світи Disney можуть з&#x27;явитися у <a href=\"https://store.steampowered.com/app/3216600/\">Kingdom Hearts 4</a></b>\n\nУ Kingdom Hearts 4 уже підтверджено світ із мультфільму Coco, паперовий казковий вимір для Mickey Mouse та повернення локації з Hercules. Серед нових потенційних світів виділяють Moana з океанськими подорожами замість піратів Карибського моря, а також Encanto, де магічні кімнати будинку Casita можуть стати окремими рівнями.\n\n🔗 <a href=\"https://www.polygon.com/kingdom-hearts-4-worlds-theories/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/kingdom-hearts-4-worlds-theories/",
+    "orig": "The 6 Kingdom Hearts 4 Worlds We Want to See — and 4 We Absolutely Don't"
+   }
+  ],
+  [
+   1792909980.2166216,
+   2472,
+   "🎮",
+   "Культовий бойовик Bloodsport із Жаном-Клодом Ван Даммом доступний безкоштовно на YouTube",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Культовий бойовик Bloodsport із Жаном-Клодом Ван Даммом доступний безкоштовно на YouTube</b>\n\nБойовик 1988 року Bloodsport, який зробив Жана-Клода Ван Дамма зіркою кіно, став доступний для безкоштовного перегляду з рекламою на YouTube. Стрічка заклала канони для середньобюджетних екшенів на десятиліття вперед. Її сюжет базується на вигаданій історії бійця Френка Дюкса про участь у таємному турнірі бойових мистецтв Kumite.\n\n🔗 <a href=\"https://www.polygon.com/bloodsport-free-youtube/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/bloodsport-free-youtube/",
+    "orig": "Jean-Claude Van Damme's First Action Classic is Streaming for Free"
+   }
+  ],
+  [
+   1792910016.5779552,
+   2473,
+   "🤘",
+   "Harmony Row: як Джек Брюс відійшов від блюз-року в прогресив",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Harmony Row: як Джек Брюс відійшов від блюз-року в прогресив</b>\n\nТретій сольний альбом ексучасника Cream Джека Брюса Harmony Row 1971 року став відходом від блюз-року в бік джаз-року й авангарду. Разом із музикантами Nucleus та поетом Пітом Брауном він створив інтимний концептуальний цикл про життя в Глазго, сповнений нестандартних акордів і багатошарових вокальних партій.\n\n🔗 <a href=\"https://www.loudersound.com/music/albums/jack-bruce-harmony-row-prog\">Metal Hammer (Louder)</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/music/albums/jack-bruce-harmony-row-prog",
+    "orig": "Jack Bruce’s Harmony Row; more prog than you might know"
+   }
+  ],
+  [
+   1792910020.364582,
+   2474,
+   "💾",
+   "Amazon випустила Agent Toolkit for AWS для ШІ-агентів",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>Amazon випустила Agent Toolkit for AWS для ШІ-агентів</b>\n\nAmazon представила Agent Toolkit for AWS — набір інструментів, знань і захисних механізмів для ШІ-агентів, які допомагають створювати, розгортати й керувати додатками на AWS. Комплект інтегрується з популярними середовищами та асистентами, серед яких Claude Code, Cursor, Devin, Codex, Kiro й fx.\n\n🔗 <a href=\"https://github.com/aws/agent-toolkit-for-aws\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/aws/agent-toolkit-for-aws",
+    "orig": "aws/agent-toolkit-for-aws"
+   }
   ]
  ],
  "posted_by_source": {
@@ -20446,12 +20505,12 @@
    1792857740.9085505
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1792821745.3404756,
-   1792821771.061574,
    1792832599.5504663,
    1792839782.2608008,
    1792843441.7252765,
-   1792852294.8375483
+   1792852294.8375483,
+   1792909951.3047671,
+   1792909980.2170887
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1792857762.833713,
@@ -20575,12 +20634,12 @@
    1792783893.22905
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
-   1792821750.832417,
    1792837979.4649515,
    1792884108.803871,
    1792884114.5241363,
    1792886542.1816862,
-   1792908078.5820053
+   1792908078.5820053,
+   1792910016.5784495
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1792775015.766963,
@@ -20654,11 +20713,10 @@
    1792416696.5336893
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
-   1792821782.3315644,
-   1792823502.044799,
    1792825401.584934,
    1792827227.2210155,
-   1792828887.4602768
+   1792828887.4602768,
+   1792910020.3650515
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1792735456.74046,
@@ -22032,6 +22090,7 @@
   "6d09ba10c9987688": 1792455961.0596082,
   "6d0eac8d7426d550": 1792674086.5338023,
   "6d0f40832a3712f5": 1792619351.3315804,
+  "6d104b53e20b61fd": 1792909951.304713,
   "6d39a5881c80e026": 1792352560.3576393,
   "6d557f613a0d7170": 1792764344.5155904,
   "6d68b723c2436a11": 1792402526.2861214,
@@ -22575,6 +22634,7 @@
   "94e7f4f5c0e52bb7": 1792510596.9243724,
   "94fbaa94f768dad8": 1792692179.0426376,
   "9503f30ef58265ff": 1792616499.4734762,
+  "9516d4fdd6c7aad3": 1792909980.2170365,
   "953f82f7f64c6786": 1792097612.2554398,
   "9544b64404c39d56": 1792864860.0586686,
   "954b898c609ba1d3": 1792405905.4389894,
@@ -22588,11 +22648,13 @@
   "95cb38c58c61b031": 1792751603.8835087,
   "95d06f7f857cb151": 1792423879.2659903,
   "95d66dba52a5bcec": 1792661480.6526306,
+  "95fa9942124144ea": 1792910016.5783992,
   "961cffbaca3648ff": 1792080927.3708415,
   "962e5d85d4d45c56": 1792295976.1782389,
   "963e6a9503c794c3": 1792442044.4370599,
   "96479cd731f28caa": 1792440096.7286623,
   "969d972539055971": 1791757286.6070983,
+  "96bb6a372bc81272": 1792910020.3649995,
   "96c0eb07b8da3bb5": 1792339296.2682455,
   "96c65e1116a42b6b": 1792686708.8900337,
   "96caa9e97be701ce": 1791807575.467699,
@@ -23401,6 +23463,7 @@
   "da8c66632b929291": 1792434722.3897011,
   "dac01961a9a97a95": 1792859621.7084367,
   "dac267da73a30f2a": 1792823485.8817618,
+  "dafa9581fa3e49b9": 1792909853.006405,
   "db01a578253b4247": 1792683198.1408918,
   "db0b7bb67df86ef1": 1791815103.563506,
   "db0dad8d6002d762": 1791742975.2076674,
@@ -23668,7 +23731,6 @@
   "ee088580e481bcb1": 1791931178.2053816,
   "ee4dd06a474beaf2": 1792605734.4982727,
   "ee5f9ac08a76a752": 1792494240.2813387,
-  "ee71a862604bffe0": 1791699402.5425174,
   "ee8cbe5d2f8c428a": 1791742970.279169,
   "eeb0d78a9804f816": 1792177249.0621376,
   "eebeda529d719e57": 1792533704.9090211,
@@ -25063,7 +25125,7 @@
   },
   "filtered": {
    "/Film": 20,
-   "Bloomberg": 3,
+   "Bloomberg": 4,
    "Deadline": 4,
    "Eurogamer": 1,
    "GameSpot": 1,
@@ -25096,7 +25158,7 @@
    "Eurogamer": 38,
    "GameSpot": 41,
    "GamesIndustry.biz": 22,
-   "GitHub Trending": 25,
+   "GitHub Trending": 26,
    "Hugging Face": 7,
    "IGN": 73,
    "ITC.ua": 59,
@@ -25105,7 +25167,7 @@
    "Kerrang!": 30,
    "Lambgoat": 56,
    "Loudwire": 26,
-   "Metal Hammer (Louder)": 37,
+   "Metal Hammer (Louder)": 38,
    "Metal Injection": 25,
    "MetalSucks": 1,
    "Mezha": 63,
@@ -25113,7 +25175,7 @@
    "PC Gamer": 87,
    "Pitchfork": 10,
    "PlayUA": 29,
-   "Polygon": 39,
+   "Polygon": 41,
    "Product Hunt": 23,
    "Revolver": 8,
    "Rock Paper Shotgun": 43,
@@ -25126,8 +25188,8 @@
   },
   "translators": {
    "DeepL": 24,
-   "gemini-flash-latest": 113,
-   "gemini-flash-lite-latest": 1356
+   "gemini-flash-latest": 116,
+   "gemini-flash-lite-latest": 1357
   },
   "week": "2026-W43"
  },
@@ -25791,6 +25853,31 @@
    0,
    "",
    1792825387.8240378
+  ],
+  "q:6 kingdom": [
+   0,
+   "",
+   1792909886.3280916
+  ],
+  "q:6 kingdom hearts": [
+   0,
+   "",
+   1792909885.779944
+  ],
+  "q:6 kingdom hearts 4": [
+   0,
+   "",
+   1792909884.9680014
+  ],
+  "q:6 kingdom hearts 4 worlds": [
+   0,
+   "",
+   1792909884.317868
+  ],
+  "q:6 kingdom hearts 4 worlds we": [
+   0,
+   "",
+   1792909882.961949
   ],
   "q:6 rockstar": [
    0,
@@ -27021,6 +27108,11 @@
    0,
    "",
    1792823496.5482502
+  ],
+  "q:damme's first action classic": [
+   0,
+   "",
+   1792909958.9844322
   ],
   "q:dark souls 2": [
    236430,
@@ -28552,6 +28644,36 @@
    "",
    1792762313.23936
   ],
+  "q:jean claude": [
+   0,
+   "",
+   1792909955.8995154
+  ],
+  "q:jean claude van": [
+   0,
+   "",
+   1792909955.4076462
+  ],
+  "q:jean claude van damme": [
+   0,
+   "",
+   1792909954.8898463
+  ],
+  "q:jean claude van damme's first": [
+   0,
+   "",
+   1792909954.3760438
+  ],
+  "q:jean claude van damme's first action": [
+   0,
+   "",
+   1792909953.8693728
+  ],
+  "q:jean claude van damme's first action classic": [
+   0,
+   "",
+   1792909953.3361619
+  ],
   "q:jeff": [
    4590390,
    "JEFF",
@@ -28611,6 +28733,26 @@
    0,
    "",
    1792791109.2843032
+  ],
+  "q:kingdom hearts 4": [
+   3216600,
+   "KINGDOM HEARTS IV",
+   1792909890.8481803
+  ],
+  "q:kingdom hearts 4 worlds": [
+   0,
+   "",
+   1792909889.6897612
+  ],
+  "q:kingdom hearts 4 worlds we": [
+   0,
+   "",
+   1792909888.895841
+  ],
+  "q:kingdom hearts 4 worlds we want": [
+   0,
+   "",
+   1792909887.2906241
   ],
   "q:knightmare": [
    1414920,
@@ -30912,6 +31054,31 @@
    "Valor Mortis",
    1791815059.088638
   ],
+  "q:van": [
+   0,
+   "",
+   1792909958.471588
+  ],
+  "q:van damme": [
+   0,
+   "",
+   1792909957.9630547
+  ],
+  "q:van damme's first": [
+   0,
+   "",
+   1792909957.420811
+  ],
+  "q:van damme's first action": [
+   0,
+   "",
+   1792909956.9007657
+  ],
+  "q:van damme's first action classic": [
+   0,
+   "",
+   1792909956.4052365
+  ],
   "q:version": [
    0,
    "",
@@ -31177,6 +31344,21 @@
    "",
    1792840411.6285005
   ],
+  "q:worlds we": [
+   0,
+   "",
+   1792909892.7421749
+  ],
+  "q:worlds we want": [
+   0,
+   "",
+   1792909892.222838
+  ],
+  "q:worlds we want to see": [
+   0,
+   "",
+   1792909891.404716
+  ],
   "q:wow forever's divisive": [
    0,
    "",
@@ -31344,34 +31526,6 @@
   ]
  },
  "titles": [
-  [
-   1792735454.6947076,
-   "Nvidia, TCV Invest in AI Video Startup Higgsfield in Series B Extension"
-  ],
-  [
-   1792735456.7404149,
-   "Linux в небезпеці: невиправлені вразливості ядра злили у відкритий доступ"
-  ],
-  [
-   1792735460.914992,
-   "php/php-src"
-  ],
-  [
-   1792737145.6236072,
-   "Zee Studios Sets Release Date For Omung Kumar’s ‘Silaa’"
-  ],
-  [
-   1792737148.9853702,
-   "Billy Corgan Speaks On Remaining Friends With Marilyn Manson: “I Personally Didn’t Feel That He Was Guilty Of The Things He Was Being Charged With”"
-  ],
-  [
-   1792737153.4255033,
-   "fastapi/fastapi"
-  ],
-  [
-   1792737156.9130037,
-   "What Lies Below sign w/ Solid State Records, release music video for new single \"Return To Nothing\""
-  ],
   [
    1792739161.3595893,
    "luongnv89/claude-howto"
@@ -32783,37 +32937,25 @@
   [
    1792908078.5819523,
    "The chaos, controversy and beefs behind Slayer’s Reign In Blood"
+  ],
+  [
+   1792909951.3047147,
+   "The 6 Kingdom Hearts 4 Worlds We Want to See — and 4 We Absolutely Don't"
+  ],
+  [
+   1792909980.2170389,
+   "Jean-Claude Van Damme's First Action Classic is Streaming for Free"
+  ],
+  [
+   1792910016.578401,
+   "Jack Bruce’s Harmony Row; more prog than you might know"
+  ],
+  [
+   1792910020.3650012,
+   "aws/agent-toolkit-for-aws"
   ]
  ],
  "titles_uk": [
-  [
-   1792735454.6947086,
-   "Nvidia та TCV інвестували в ШІ-відеостартап Higgsfield у межах раунду Series B"
-  ],
-  [
-   1792735456.7404158,
-   "Linux в небезпеці: невиправлені вразливості ядра злили у відкритий доступ"
-  ],
-  [
-   1792735460.9149926,
-   "Огляд вихідного коду та процесу розробки PHP"
-  ],
-  [
-   1792737145.6236079,
-   "Zee Studios оголосила дату прем'єри фільму Silaa Омунга Кумара"
-  ],
-  [
-   1792737148.985371,
-   "Біллі Корган пояснив, чому залишається другом Marilyn Manson"
-  ],
-  [
-   1792737153.425504,
-   "FastAPI — сучасний та продуктивний вебфреймворк для Python"
-  ],
-  [
-   1792737156.9130046,
-   "What Lies Below підписали контракт із Solid State Records і випустили сингл"
-  ],
   [
    1792739161.3595908,
    "luongnv89/claude-howto"
@@ -34225,6 +34367,22 @@
   [
    1792908078.5819535,
    "40 фактів про створення культового альбому Reign In Blood гурту Slayer"
+  ],
+  [
+   1792909951.3047159,
+   "Які світи Disney можуть з'явитися у Kingdom Hearts 4"
+  ],
+  [
+   1792909980.2170403,
+   "Культовий бойовик Bloodsport із Жаном-Клодом Ван Даммом доступний безкоштовно на YouTube"
+  ],
+  [
+   1792910016.5784023,
+   "Harmony Row: як Джек Брюс відійшов від блюз-року в прогресив"
+  ],
+  [
+   1792910020.365002,
+   "Amazon випустила Agent Toolkit for AWS для ШІ-агентів"
   ]
  ],
  "ukrainian": {
