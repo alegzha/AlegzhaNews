@@ -1,5 +1,24 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": {
+   "detail": "https://www.bloomberg.com/feeds/industries/news.rss\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
+   "label": "Джерело «Bloomberg» не працює",
+   "sent": 0,
+   "since": 1792940499.6688883
+  },
+  "src:music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": {
+   "detail": "https://www.bloomberg.com/feeds/industries/news.rss\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
+   "label": "Джерело «Bloomberg» не працює",
+   "sent": 0,
+   "since": 1792940498.4592988
+  },
+  "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
+   "detail": "https://distortedsoundmag.com/feed/ → HTTPSConnectionPool(host='distortedsoundmag.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Distorted Sound» не працює",
+   "sent": 0,
+   "since": 1792940497.8710213
+  }
+ },
  "daily_digest_date": "2026-10-24",
  "freebies": {
   "last_check": 1792933470.7623267,
@@ -15,11 +34,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-25 14:31 UTC",
+  "at": "2026-10-25 15:02 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 6
   },
   "used": [
    "Gemini"
@@ -19930,7 +19949,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Аманда Сейфрід може отримати «Оскар» за фільм «You Can See Everything»</b>\n\nСтудія A24 планує висунути Аманду Сейфрід на здобуття «Оскара» за її появу у документальній стрічці «You Can See Everything». У фільмі акторка грає саму себе, а також повторює роль Елізабет Голмс, яку раніше виконувала у серіалі «The Dropout».\n\n🔗 <a href=\"https://variety.com/2026/film/columns/amanda-seyfried-you-can-see-everything-oscar-1236916757/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/film/columns/amanda-seyfried-you-can-see-everything-oscar-1236916757/",
     "orig": "The Surprise Guest in ‘You Can See Everything’ Could Win an Oscar. Should They?"
@@ -19944,7 +19962,6 @@
    "Stereogum",
    {
     "also": [],
-    "caption": "🤘 <b>Саша Барон Коен залучив Ноела Галлагера до промо нового фільму про Ali G</b>\n\nСаша Барон Коен опублікував проморолик нового фільму Ali G: Who Iz I? за участю Ноела Галлагера з Oasis. У відео комік в образі Ali G перервав кінопоказ і жартома висміяв музиканта перед глядачами, глузуючи з повернення гурту. Додаткова промокампанія знадобилася після того, як Amazon/MGM урізали плани щодо прокату стрічки.\n\n🔗 <a href=\"https://stereogum.com/2515535/ali-g-ropes-noel-gallagher-into-new-movie-promo/news/\">Stereogum</a>\n\n#музика",
     "kind": "photo",
     "link": "https://stereogum.com/2515535/ali-g-ropes-noel-gallagher-into-new-movie-promo/news/",
     "orig": "Ali G Ropes Noel Gallagher Into New Movie Promo"
@@ -19958,7 +19975,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Фільм жахів The Crawling пропонує незвичний погляд на вторгнення іншопланетян</b>\n\nНова стрічка Крістіана Евергарда The Crawling розповідає про подружжя, яке стикається з іншопланетянами у віддаленому будинку. Головний герой Майк, відсторонений від роботи поліціянт із проблемами з маскулінністю, спочатку викликає у глядачів антипатію, але згодом опиняється в центрі моторошних і непередбачуваних подій.\n\n🔗 <a href=\"https://variety.com/2026/film/columns/the-crawling-alien-movie-1236930222/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/film/columns/the-crawling-alien-movie-1236930222/",
     "orig": "Horror Fans, Rejoice: FilmQuest Breakout ‘The Crawling’ Is the Gutsy Alien Freakout of Your Dreams"
@@ -19972,7 +19988,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Політична драма Fjord Крістіана Мунджіу не викликала очікуваних дискусій</b>\n\nПолітична драма Fjord режисера Крістіана Мунджіу вийшла в прокат два тижні тому, але не спровокувала широких суспільних дискусій. Стрічка розповідає про румунсько-норвезьку родину, яка переїздить до Норвегії, де стикається з розслідуванням через виховні методи батьків.\n\n🔗 <a href=\"https://variety.com/2026/film/columns/what-is-fjord-really-about-1236930049/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/film/columns/what-is-fjord-really-about-1236930049/",
     "orig": "What Is ‘Fjord’ Really About? A Political Stance That May Be Too Hot to Handle"
@@ -19986,7 +20001,6 @@
    "Stereogum",
    {
     "also": [],
-    "caption": "🤘 <b>Slayyyter скасувала частину туру через втрату голосу та відповіла хейтерам</b>\n\nПоп-виконавиця Slayyyter скасувала частину європейських концертів за рекомендацією лікарів через втрату голосу. Також співачка відповіла на хвилю хейту в соцмережах через її старі дописи та минуле.\n\n🔗 <a href=\"https://stereogum.com/2515530/slayyyter-addresses-people-trying-to-recancel-her-cancels-rest-of-tour/news/\">Stereogum</a>\n\n#музика",
     "kind": "photo",
     "link": "https://stereogum.com/2515530/slayyyter-addresses-people-trying-to-recancel-her-cancels-rest-of-tour/news/",
     "orig": "Slayyyter Addresses People Trying To “Recancel” Her, Cancels Rest Of Tour"
@@ -20429,7 +20443,12 @@
    "Благодійний концерт Turnstile біля монумента Вашингтона зібрав близько 60 000 людей і понад $209 000",
    "ThePRP",
    {
-    "also": [],
+    "also": [
+     [
+      "Pitchfork",
+      "https://pitchfork.com/story/turnstile-pack-out-washington-monument-for-palestine-sudan-and-lebanon-benefit-show/"
+     ]
+    ],
     "caption": "🤘 <b>Благодійний концерт Turnstile біля монумента Вашингтона зібрав близько 60 000 людей і понад $209 000</b>\n\nДосить голосно, щоб у Білому домі почули: Вільна Палестина! Вільний Судан! Вільний Ліван!\n\n🔗 <a href=\"https://www.theprp.com/2026/10/25/news/turnstiles-palestine-sudan-etc-benefit-concert-at-the-washington-monument-drew-an-estimated-60000-people-raised-over-209000/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/25/news/turnstiles-palestine-sudan-etc-benefit-concert-at-the-washington-monument-drew-an-estimated-60000-people-raised-over-209000/",
@@ -20785,6 +20804,76 @@
     "link": "https://distortedsoundmag.com/heavy-music-history-outbreak-fest/",
     "orig": "HEAVY MUSIC HISTORY: Outbreak Fest"
    }
+  ],
+  [
+   1792940522.7922795,
+   2507,
+   "🎮",
+   "Екранізація Elden Ring стане найдорожчим фільмом в історії A24",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Екранізація <a href=\"https://store.steampowered.com/app/1245620/\">Elden Ring</a> стане найдорожчим фільмом в історії A24</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/3710850/\">Become</a>\n\nБюджет кіноадаптації гри Elden Ring від студії A24 наближається до $200 млн, що робить її першим повноцінним блокбастером компанії. Режисером картини виступає Алекс Гарленд, а вихід стрічки у прокат заплановано на 3 березня 2028 року.\n\n🔗 <a href=\"https://www.polygon.com/elden-ring-movie-budget/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/elden-ring-movie-budget/",
+    "orig": "Elden Ring Has Quietly Become A24's Most Expensive Movie Yet"
+   }
+  ],
+  [
+   1792940527.4443557,
+   2508,
+   "🎮",
+   "Анонсовано офіційну гру за культовим британським серіалом Knightmare",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Анонсовано офіційну гру за культовим британським серіалом <a href=\"https://store.steampowered.com/app/1414920/\">Knightmare</a></b>\n\nНа ПК розробляють безплатну пригодницьку гру в жанрі point-and-click за мотивами культового дитячого шоу Knightmare. Реліз присвячено 40-річчю проєкту, до озвучення повернувся оригінальний акторський склад на чолі з Г&#x27;ю Маяттом.\n\n🔗 <a href=\"https://www.eurogamer.net/knightmare-game-free-pc-original-cast\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/knightmare-game-free-pc-original-cast",
+    "orig": "An officially licensed Knightmare game, based on the British TV show, is coming next year"
+   }
+  ],
+  [
+   1792940532.8329468,
+   2509,
+   "🤘",
+   "Боббі Інграм захистив право MOLLY HATCHET гастролювати без оригінальних учасників",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Боббі Інграм захистив право MOLLY HATCHET гастролювати без оригінальних учасників</b>\n\nГітарист Боббі Інграм пояснив, чому продовжує виступати та записуватися під назвою MOLLY HATCHET попри відсутність оригінальних музикантів. За його словами, колектив перетворився на бренд, інституцію та спадщину, яку він планує підтримувати до кінця життя.\n\n🔗 <a href=\"https://blabbermouth.net/news/bobby-ingram-defends-continuing-to-tour-and-record-under-molly-hatchet-name-without-any-original-members-this-is-a-brand-its-an-institution\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/bobby-ingram-defends-continuing-to-tour-and-record-under-molly-hatchet-name-without-any-original-members-this-is-a-brand-its-an-institution",
+    "orig": "BOBBY INGRAM Defends Continuing To Tour And Record Under MOLLY HATCHET Name Without Any Original Members: This 'Is A Brand. It's An Institution.'"
+   }
+  ],
+  [
+   1792940539.9806943,
+   2510,
+   "🎮",
+   "Новий модифікатор для Deus Ex додає вигляд від третьої особи та стрільбу в перекаті в стилі Max Payne",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Новий модифікатор для <a href=\"https://store.steampowered.com/app/3131640/\">Deus Ex</a> додає вигляд від третьої особи та стрільбу в перекаті в стилі <a href=\"https://store.steampowered.com/app/12140/\">Max Payne</a></b>\n\nЮтубер dan2091 показав у роботі модифікацію для Deus Ex, яка переносить гру у вигляд від третьої особи. Мод додає нові анімації лазіння по драбинах, систему стрільби з двох рук і акробатичні перекати з ухилянням на кшталт Max Payne для головного героя JC Denton.\n\n🔗 <a href=\"https://www.pcgamer.com/games/sim/this-third-person-mod-for-deus-ex-turns-the-classic-immersive-sim-into-max-payne-introducing-dual-wielding-and-shoot-dodging/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/games/sim/this-third-person-mod-for-deus-ex-turns-the-classic-immersive-sim-into-max-payne-introducing-dual-wielding-and-shoot-dodging/",
+    "orig": "This third-person mod for Deus Ex turns the classic immersive sim into Max Payne, introducing dual-wielding and shoot-dodging"
+   }
+  ],
+  [
+   1792940546.0108871,
+   2511,
+   "🤘",
+   "Джек Осборн визнав свою провину в скандалі навколо цифрової копії Ozzy Osbourne",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Джек Осборн визнав свою провину в скандалі навколо цифрової копії Ozzy Osbourne</b>\n\nДжек Осборн зізнався, що хвиля хейту через створення ШІ-копії Ozzy Osbourne стала результатом його погано спланованого пояснення. За його словами, люди помилково вирішили, що цифрова версія музиканта продаватиме товари. Сім&#x27;я уклала партнерство з компанією HYPERREAL для створення цифрового аватарів та володіння інтелектуальною власністю.\n\n🔗 <a href=\"https://loudwire.com/it-was-my-own-fault-jack-osbourne-digital-ozzy-controversy/\">Loudwire</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://loudwire.com/it-was-my-own-fault-jack-osbourne-digital-ozzy-controversy/",
+    "orig": "'It Was My Own Fault' - Jack Osbourne on Digital Ozzy Controversy"
+   }
   ]
  ],
  "posted_by_source": {
@@ -20830,11 +20919,9 @@
    1792855905.1853476
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1792780396.4145532,
-   1792782161.3968918,
-   1792787510.23952,
    1792863206.7565603,
-   1792866697.9860277
+   1792866697.9860277,
+   1792940527.4448261
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1792690311.817711,
@@ -20886,8 +20973,6 @@
    1792928076.4436455
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1792852303.0879452,
-   1792854089.001438,
    1792855915.7178757,
    1792857733.135469,
    1792857754.8264315,
@@ -20896,19 +20981,20 @@
    1792866694.3856895,
    1792866701.1610696,
    1792931484.287437,
-   1792935130.377634
+   1792935130.377634,
+   1792940539.9812346
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1792857740.9085505,
    1792928082.5822325
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1792852294.8375483,
    1792909951.3047671,
    1792909980.2170887,
    1792920868.9295979,
    1792928069.1250334,
-   1792931493.3010724
+   1792931493.3010724,
+   1792940522.7928438
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1792857762.833713,
@@ -20988,7 +21074,8 @@
    1792933461.7747452,
    1792935122.457791,
    1792935125.860157,
-   1792938682.685262
+   1792938682.685262,
+   1792940532.8334918
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -21020,14 +21107,7 @@
    1792902849.2151356
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
-   1792703018.0387626,
-   1792704719.8600645,
-   1792757027.2244468,
-   1792764156.9805028,
-   1792765918.629253,
-   1792765961.524217,
-   1792775784.6470397,
-   1792783893.22905
+   1792940546.0114212
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1792884108.803871,
@@ -21863,6 +21943,7 @@
   "3ad9c4ef69beaa88": 1791894747.2247603,
   "3adaf96d283b6934": 1792891894.6232944,
   "3ae94a73988e0170": 1792726298.1319745,
+  "3b172f2959fa43bc": 1792940453.4867914,
   "3b2f5ddee3020b41": 1792531926.9525084,
   "3b3da68ac519010a": 1792537286.6361,
   "3b47fa6b1070f7c4": 1792089280.2861655,
@@ -21885,6 +21966,7 @@
   "3c97390ebc7e6bea": 1792670605.294816,
   "3c9bdb1581e2c18c": 1792675942.5890045,
   "3cb50f0fd3348826": 1792740881.5197916,
+  "3cb909ba47d83f9a": 1792940539.9811897,
   "3cc17c63b67d24de": 1792352430.0356822,
   "3ccbb0620bb8fc8a": 1792595185.7295985,
   "3ccf90fab2c7124e": 1792420256.7318852,
@@ -22656,6 +22738,7 @@
   "782985bb9c47e158": 1792756154.285652,
   "7831eb94b2f18030": 1792587736.1429682,
   "783906216911b387": 1792760499.7728324,
+  "784d31633c3a9d8a": 1792940522.792798,
   "785677c6ad1cbc80": 1792440106.34015,
   "78584a7116610e1d": 1792526481.088126,
   "7859200416743a7b": 1791926756.026623,
@@ -23519,6 +23602,7 @@
   "bd79eb405c18a4ce": 1792713714.5295756,
   "bd90bcc0d4819341": 1792713684.746968,
   "bd93075967209898": 1792474287.124558,
+  "bd97e0b11417a701": 1792940546.011379,
   "bda522f4de41add7": 1792760485.581914,
   "bdbe798321f11ef7": 1792347110.955539,
   "bdda06988855fa4f": 1792505088.764527,
@@ -23925,6 +24009,7 @@
   "ddb96266c8849bbb": 1792523075.9125066,
   "ddc00f1f29b65ec8": 1792679784.2760673,
   "ddd034250614c916": 1792873899.7499433,
+  "ddd4a4800e9ec00c": 1792940532.833447,
   "de2b75408160f6a6": 1792666915.2972453,
   "de32af9466d16f0e": 1792758654.46487,
   "de3408bee660c317": 1792747879.9295769,
@@ -24310,6 +24395,7 @@
   "fb37eafea7abb973": 1792657916.1643279,
   "fb38713656330def": 1792497706.68113,
   "fb3a5cfa2e01c2c1": 1792778479.4542189,
+  "fb5014dccd849f6f": 1792940530.9330122,
   "fb6a1b6750f2a0ca": 1792767857.087503,
   "fbab3ba6532b2166": 1792164226.938352,
   "fbeb4205a30e70be": 1791969282.2439892,
@@ -24365,6 +24451,7 @@
   "ff057eb64b0462d2": 1792711969.874328,
   "ff142276fb37798a": 1791742953.0097268,
   "ff507cf2fd3646bb": 1792699307.653553,
+  "ff5aa54c2ce01945": 1792940527.4447825,
   "ff6294d72fd8d049": 1792089227.9786747,
   "ff876d1353b0082e": 1792214839.806132,
   "ffb3556792017727": 1791978150.106682,
@@ -25547,7 +25634,7 @@
    "Халява": 5
   },
   "filtered": {
-   "/Film": 21,
+   "/Film": 22,
    "Bloomberg": 4,
    "Deadline": 4,
    "Eurogamer": 1,
@@ -25571,7 +25658,7 @@
   "sources": {
    "/Film": 43,
    "AIN.ua": 6,
-   "Blabbermouth": 88,
+   "Blabbermouth": 89,
    "Bloomberg": 69,
    "DOU": 2,
    "DOU Gamedev": 5,
@@ -25579,7 +25666,7 @@
    "Decibel": 13,
    "Digital Foundry": 7,
    "Distorted Sound": 27,
-   "Eurogamer": 38,
+   "Eurogamer": 39,
    "GameSpot": 41,
    "GamesIndustry.biz": 22,
    "GitHub Trending": 31,
@@ -25590,16 +25677,16 @@
    "Insider Gaming": 93,
    "Kerrang!": 30,
    "Lambgoat": 56,
-   "Loudwire": 26,
+   "Loudwire": 27,
    "Metal Hammer (Louder)": 39,
    "Metal Injection": 25,
    "MetalSucks": 1,
    "Mezha": 66,
    "Neformat": 12,
-   "PC Gamer": 89,
+   "PC Gamer": 90,
    "Pitchfork": 10,
    "PlayUA": 30,
-   "Polygon": 44,
+   "Polygon": 45,
    "Product Hunt": 24,
    "Revolver": 8,
    "Rock Paper Shotgun": 43,
@@ -25613,7 +25700,7 @@
   "translators": {
    "DeepL": 32,
    "gemini-flash-latest": 118,
-   "gemini-flash-lite-latest": 1388
+   "gemini-flash-lite-latest": 1394
   },
   "week": "2026-W43"
  },
@@ -26523,16 +26610,6 @@
    "Angelfall",
    1792765964.524343
   ],
-  "q:angelfall first": [
-   0,
-   "",
-   1792765964.0209355
-  ],
-  "q:angelfall first impressions": [
-   0,
-   "",
-   1792765963.5282643
-  ],
   "q:another day": [
    2412640,
    "Another Day",
@@ -26553,20 +26630,10 @@
    "ARC Raiders",
    1791742986.4642007
   ],
-  "q:arkane": [
-   0,
-   "",
-   1792765922.7780287
-  ],
   "q:arkane 13": [
    0,
    "",
    1792782119.189868
-  ],
-  "q:arkane lyon": [
-   0,
-   "",
-   1792765922.2750893
   ],
   "q:arkane lyon could": [
    0,
@@ -26587,21 +26654,6 @@
    0,
    "",
    1792771293.8974957
-  ],
-  "q:arkane lyon has": [
-   0,
-   "",
-   1792765921.7760603
-  ],
-  "q:arkane lyon has until": [
-   0,
-   "",
-   1792765921.2142036
-  ],
-  "q:arkane lyon has until mid november": [
-   0,
-   "",
-   1792765920.6957753
   ],
   "q:arkane lyon reportedly": [
    0,
@@ -26703,21 +26755,6 @@
    "",
    1792800088.0454557
   ],
-  "q:battle between": [
-   0,
-   "",
-   1792765969.2525344
-  ],
-  "q:battle between angels": [
-   0,
-   "",
-   1792765968.749914
-  ],
-  "q:battle between angels demons": [
-   0,
-   "",
-   1792765968.2579181
-  ],
   "q:battlefield 1": [
    1238840,
    "Battlefield™ 1",
@@ -26747,31 +26784,6 @@
    0,
    "",
    1792791112.0338092
-  ],
-  "q:beautiful": [
-   0,
-   "",
-   1792765967.7217708
-  ],
-  "q:beautiful battle": [
-   0,
-   "",
-   1792765967.0659897
-  ],
-  "q:beautiful battle between": [
-   0,
-   "",
-   1792765966.5434942
-  ],
-  "q:beautiful battle between angels": [
-   0,
-   "",
-   1792765966.053038
-  ],
-  "q:beautiful battle between angels demons": [
-   0,
-   "",
-   1792765965.5316036
   ],
   "q:become": [
    3710850,
@@ -26902,6 +26914,16 @@
    0,
    "",
    1792823489.2786145
+  ],
+  "q:british": [
+   0,
+   "",
+   1792940525.5886426
+  ],
+  "q:british tv": [
+   0,
+   "",
+   1792940524.9341424
   ],
   "q:brutal legend": [
    225260,
@@ -27558,6 +27580,26 @@
    "ELDEN RING",
    1792866688.6403193
   ],
+  "q:elden ring has": [
+   0,
+   "",
+   1792940505.7862291
+  ],
+  "q:elden ring has quietly": [
+   0,
+   "",
+   1792940505.297231
+  ],
+  "q:elden ring has quietly become": [
+   0,
+   "",
+   1792940504.7792568
+  ],
+  "q:elden ring has quietly become a24": [
+   0,
+   "",
+   1792940504.1332111
+  ],
   "q:elden ring movie": [
    0,
    "",
@@ -27918,11 +27960,6 @@
    "",
    1792785790.3120527
   ],
-  "q:first impressions": [
-   0,
-   "",
-   1792765965.0122066
-  ],
   "q:five": [
    0,
    "",
@@ -28258,6 +28295,36 @@
    "Half-Life",
    1792692153.7414753
   ],
+  "q:has": [
+   0,
+   "",
+   1792940509.25911
+  ],
+  "q:has quietly": [
+   0,
+   "",
+   1792940508.7201498
+  ],
+  "q:has quietly become": [
+   0,
+   "",
+   1792940508.1576486
+  ],
+  "q:has quietly become a24": [
+   0,
+   "",
+   1792940507.6569717
+  ],
+  "q:has quietly become a24's most": [
+   0,
+   "",
+   1792940507.1639924
+  ],
+  "q:has quietly become a24's most expensive": [
+   0,
+   "",
+   1792940506.483415
+  ],
   "q:has the first 500 piece": [
    0,
    "",
@@ -28272,21 +28339,6 @@
    0,
    "",
    1792800092.5173705
-  ],
-  "q:has until": [
-   0,
-   "",
-   1792765926.3851352
-  ],
-  "q:has until mid november": [
-   0,
-   "",
-   1792765925.8629842
-  ],
-  "q:has until mid november to find": [
-   0,
-   "",
-   1792765925.3386157
   ],
   "q:have missed performance targets": [
    0,
@@ -28437,21 +28489,6 @@
    0,
    "",
    1792785793.4626522
-  ],
-  "q:is playable": [
-   0,
-   "",
-   1792765983.9544592
-  ],
-  "q:is playable for free": [
-   0,
-   "",
-   1792765983.44192
-  ],
-  "q:is playable for free in your": [
-   0,
-   "",
-   1792765982.9191496
   ],
   "q:is the weirdest serial": [
    0,
@@ -28708,16 +28745,6 @@
    "",
    1792854102.4206688
   ],
-  "q:legacy": [
-   0,
-   "",
-   1792767685.2079248
-  ],
-  "q:legacy review": [
-   0,
-   "",
-   1792767684.6911085
-  ],
   "q:legend": [
    0,
    "",
@@ -28848,26 +28875,6 @@
    "",
    1792771295.962992
   ],
-  "q:lyon has": [
-   0,
-   "",
-   1792765924.8211436
-  ],
-  "q:lyon has until": [
-   0,
-   "",
-   1792765924.3144472
-  ],
-  "q:lyon has until mid november": [
-   0,
-   "",
-   1792765923.796771
-  ],
-  "q:lyon has until mid november to find": [
-   0,
-   "",
-   1792765923.278764
-  ],
   "q:lyon reportedly": [
    0,
    "",
@@ -28957,6 +28964,11 @@
    0,
    "",
    1792879282.5261195
+  ],
+  "q:max payne": [
+   12140,
+   "Max Payne",
+   1792940534.8389542
   ],
   "q:max payne 3": [
    204100,
@@ -29458,26 +29470,6 @@
    "",
    1792852288.4039733
   ],
-  "q:outbreak": [
-   0,
-   "",
-   1792765982.3998234
-  ],
-  "q:outbreak is": [
-   0,
-   "",
-   1792765981.88331
-  ],
-  "q:outbreak is playable": [
-   0,
-   "",
-   1792765981.3633091
-  ],
-  "q:outbreak is playable for free": [
-   0,
-   "",
-   1792765980.7656276
-  ],
   "q:outlast": [
    238320,
    "Outlast",
@@ -29592,16 +29584,6 @@
    3590,
    "Plants vs. Zombies GOTY Edition",
    1792587742.0772517
-  ],
-  "q:playable for free in your": [
-   0,
-   "",
-   1792765984.9453545
-  ],
-  "q:playable for free in your browser": [
-   0,
-   "",
-   1792765984.4493487
   ],
   "q:players": [
    0,
@@ -29768,6 +29750,16 @@
    "Quake",
    1792688717.666938
   ],
+  "q:quietly become a24's most expensive": [
+   0,
+   "",
+   1792940510.381159
+  ],
+  "q:quietly become a24's most expensive movie": [
+   0,
+   "",
+   1792940509.7753236
+  ],
   "q:radiance": [
    1104800,
    "Radiance",
@@ -29887,21 +29879,6 @@
    2050650,
    "Resident Evil 4",
    1791929847.7960002
-  ],
-  "q:resident evil outbreak": [
-   0,
-   "",
-   1792765980.2441797
-  ],
-  "q:resident evil outbreak is": [
-   0,
-   "",
-   1792765979.7276797
-  ],
-  "q:resident evil outbreak is playable": [
-   0,
-   "",
-   1792765979.1960905
   ],
   "q:resident evil requiem": [
    3764200,
@@ -30992,34 +30969,6 @@
   ]
  },
  "titles": [
-  [
-   1792765918.629207,
-   "Slaughter to Prevail Singer Makes Realization About Masculinity"
-  ],
-  [
-   1792765935.8604395,
-   "Arkane Lyon Has Until Mid-November To Find A Buyer Or It Risks Closure – Report"
-  ],
-  [
-   1792765945.7525923,
-   "Listen to LØLØ’s festive double single, mall santa and silent night"
-  ],
-  [
-   1792765961.5241752,
-   "Billy Corgan Defends 30-Year Friendship With Marilyn Manson"
-  ],
-  [
-   1792765977.1708212,
-   "Angelfall First Impressions—A Beautiful Battle Between Angels & Demons"
-  ],
-  [
-   1792766009.687519,
-   "Resident Evil Outbreak Is Playable for Free in Your Browser"
-  ],
-  [
-   1792766023.1186786,
-   "Haywire announce North American tour with Gvllow, Dark Thoughts, Béton Armé"
-  ],
   [
    1792767776.752958,
    "Grand Theft Auto V – The Legacy Review"
@@ -32275,37 +32224,29 @@
   [
    1792938690.2436404,
    "HEAVY MUSIC HISTORY: Outbreak Fest"
+  ],
+  [
+   1792940522.7927992,
+   "Elden Ring Has Quietly Become A24's Most Expensive Movie Yet"
+  ],
+  [
+   1792940527.4447844,
+   "An officially licensed Knightmare game, based on the British TV show, is coming next year"
+  ],
+  [
+   1792940532.8334484,
+   "BOBBY INGRAM Defends Continuing To Tour And Record Under MOLLY HATCHET Name Without Any Original Members: This 'Is A Brand. It's An Institution.'"
+  ],
+  [
+   1792940539.9811912,
+   "This third-person mod for Deus Ex turns the classic immersive sim into Max Payne, introducing dual-wielding and shoot-dodging"
+  ],
+  [
+   1792940546.0113802,
+   "'It Was My Own Fault' - Jack Osbourne on Digital Ozzy Controversy"
   ]
  ],
  "titles_uk": [
-  [
-   1792765918.629208,
-   "Вокаліст Slaughter to Prevail поділився одкровенням про маскулінність"
-  ],
-  [
-   1792765935.860444,
-   "Arkane Lyon може закритися, якщо до середини листопада не знайде покупця"
-  ],
-  [
-   1792765945.752593,
-   "LØLØ випустила святковий подвійний сингл"
-  ],
-  [
-   1792765961.524176,
-   "Біллі Корган заступився за 30-річну дружбу з Мериліном Менсоном"
-  ],
-  [
-   1792765977.1708221,
-   "Вийшла демоверсія екшену Angelfall від The3rd.One Group"
-  ],
-  [
-   1792766009.6875198,
-   "Resident Evil Outbreak тепер доступна безкоштовно у браузері"
-  ],
-  [
-   1792766023.1186795,
-   "Haywire анонсували північноамериканський тур із Gvllow, Dark Thoughts і Béton Armé"
-  ],
   [
    1792767776.7529588,
    "Огляд GTA V"
@@ -33561,6 +33502,26 @@
   [
    1792938690.2436411,
    "Історія фестивалю Outbreak Fest"
+  ],
+  [
+   1792940522.7928002,
+   "Екранізація Elden Ring стане найдорожчим фільмом в історії A24"
+  ],
+  [
+   1792940527.4447854,
+   "Анонсовано офіційну гру за культовим британським серіалом Knightmare"
+  ],
+  [
+   1792940532.8334498,
+   "Боббі Інграм захистив право MOLLY HATCHET гастролювати без оригінальних учасників"
+  ],
+  [
+   1792940539.981192,
+   "Новий модифікатор для Deus Ex додає вигляд від третьої особи та стрільбу в перекаті в стилі Max Payne"
+  ],
+  [
+   1792940546.0113811,
+   "Джек Осборн визнав свою провину в скандалі навколо цифрової копії Ozzy Osbourne"
   ]
  ],
  "ukrainian": {
