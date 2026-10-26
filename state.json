@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1792972871.5800273
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1792972870.1154637
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-25",
  "freebies": {
   "last_check": 1792971166.1344018,
@@ -28,11 +15,10 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-26 00:02 UTC",
-  "gemini_error": "",
+  "at": "2026-10-26 00:33 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
    "gemini-flash-lite-latest": 1
   },
   "used": [
@@ -20705,7 +20691,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Оновлення для Civilization 7 виявилося складним викликом для Еда Гаузера</b>\n\nРозробники Civilization 7 додали оновлення, яке зробило переходи між епохами опціональними та повернуло традиційний режим гри за одну цивілізацію. Це рішення стало особистим викликом для креативного директора Еда Гаузера, оскільки не входило в початковий задум розробників, але було потрібне фанатам.\n\n🔗 <a href=\"https://www.pcgamer.com/games/strategy/civilization-7s-game-changing-update-was-personally-challenging-for-its-creative-director-as-being-able-to-play-as-a-single-civ-wasnt-part-of-the-original-vision/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/strategy/civilization-7s-game-changing-update-was-personally-challenging-for-its-creative-director-as-being-able-to-play-as-a-single-civ-wasnt-part-of-the-original-vision/",
     "orig": "Civilization 7's game changing update was 'personally challenging' for its creative director, as being able to play as a single faction 'wasn't part of the original vision'"
@@ -21560,6 +21545,20 @@
     "link": "https://www.videogameschronicle.com/review/phantom-blade-zero-review/",
     "orig": "Phantom Blade Zero review: A damn good action game that shouldn’t be ignored"
    }
+  ],
+  [
+   1792974773.4998972,
+   2564,
+   "🤘",
+   "Toyah Willcox і Robert Fripp випустили своє наймоторошніше відео в межах Sunday Lunch",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Toyah Willcox і Robert Fripp випустили своє наймоторошніше відео в межах Sunday Lunch</b>\n\nЧи проходить Robert Fripp прослуховування до Slipknot?\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/toyah-willcox-robert-fripp-season-of-the-witch\">Metal Hammer (Louder)</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/toyah-willcox-robert-fripp-season-of-the-witch",
+    "orig": "Toyah Willcox and Robert Fripp launch their most terrifying Sunday Lunch video yet"
+   }
   ]
  ],
  "posted_by_source": {
@@ -21778,11 +21777,11 @@
    1792940546.0114212
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
-   1792886542.1816862,
    1792908078.5820053,
    1792910016.5784495,
    1792926166.3084996,
-   1792971156.1278253
+   1792971156.1278253,
+   1792974773.5005312
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1792775015.766963,
@@ -24686,6 +24685,7 @@
   "db61facfafbc7547": 1792848684.519646,
   "db68911b6d73e27c": 1792969284.2020118,
   "db9354add583ca31": 1792573279.7385182,
+  "dba4e1abe474f0e8": 1792974773.5004857,
   "dbc6f4353d6553ac": 1791993729.4436889,
   "dbd32b7155b577b1": 1792540674.5925205,
   "dbd5adafc4073948": 1792564650.3134172,
@@ -26350,13 +26350,13 @@
    "Distorted Sound": 1,
    "Insider Gaming": 1,
    "Lambgoat": 1,
-   "Metal Hammer (Louder)": 1,
+   "Metal Hammer (Louder)": 2,
    "VGC": 1,
    "Variety": 6
   },
   "translators": {
    "gemini-flash-latest": 2,
-   "gemini-flash-lite-latest": 11
+   "gemini-flash-lite-latest": 12
   },
   "week": "2026-W44"
  },
@@ -27200,26 +27200,6 @@
    1475300,
    "Barbarian",
    1792427557.9259946
-  ],
-  "q:barnes": [
-   0,
-   "",
-   1792800089.4687874
-  ],
-  "q:barnes noble": [
-   0,
-   "",
-   1792800089.0133364
-  ],
-  "q:barnes noble has": [
-   0,
-   "",
-   1792800088.563594
-  ],
-  "q:barnes noble has the first": [
-   0,
-   "",
-   1792800088.0454557
   ],
   "q:bastion": [
    107100,
@@ -28451,21 +28431,6 @@
    "",
    1792940506.483415
   ],
-  "q:has the first 500 piece": [
-   0,
-   "",
-   1792800093.555674
-  ],
-  "q:has the first 500 piece dungeon": [
-   0,
-   "",
-   1792800093.0655482
-  ],
-  "q:has the first 500 piece dungeon crawler": [
-   0,
-   "",
-   1792800092.5173705
-  ],
   "q:held": [
    1625880,
    "HELD",
@@ -29170,26 +29135,6 @@
    2152570,
    "Noble",
    1792800092.0489268
-  ],
-  "q:noble has": [
-   0,
-   "",
-   1792800091.3512332
-  ],
-  "q:noble has the first": [
-   0,
-   "",
-   1792800090.877961
-  ],
-  "q:noble has the first 500 piece": [
-   0,
-   "",
-   1792800090.4215174
-  ],
-  "q:noble has the first 500 piece dungeon": [
-   0,
-   "",
-   1792800089.9469242
   ],
   "q:obscur": [
    0,
@@ -30435,14 +30380,6 @@
  },
  "titles": [
   [
-   1792801883.8463655,
-   "‘They’re Still Humans Like the Rest of Us’: Watch the ‘Everest: The Other Side’ Directors Discuss Relating to Extreme Athletes"
-  ],
-  [
-   1792801887.036722,
-   "Awards Season Heats Up With ‘The Only Living Pickpocket In New York,’ ‘Fatherland’ & More — Specialty Preview"
-  ],
-  [
    1792803763.628646,
    "Star Trek's Brent Spiner Was Fired From The Star Wars Universe Years Before Data"
   ],
@@ -31381,17 +31318,13 @@
   [
    1792972965.8160079,
    "Phantom Blade Zero review: A damn good action game that shouldn’t be ignored"
+  ],
+  [
+   1792974773.500487,
+   "Toyah Willcox and Robert Fripp launch their most terrifying Sunday Lunch video yet"
   ]
  ],
  "titles_uk": [
-  [
-   1792801883.846367,
-   "Режисери Everest: The Other Side обговорили свою нову стрічку"
-  ],
-  [
-   1792801887.0367231,
-   "У прокаті стартують нові фільми з Джоном Туртурро, Олівією Колман та Гелен Міррен"
-  ],
   [
    1792803763.6286469,
    "Брент Спайнер розповів, як його звільнили зі Star Wars до ролі Data у Star Trek"
@@ -32331,6 +32264,10 @@
   [
    1792972965.816009,
    "Динамічний екшен Phantom Blade Zero вражає швидкістю та бойовою системою"
+  ],
+  [
+   1792974773.500488,
+   "Toyah Willcox і Robert Fripp випустили своє наймоторошніше відео в межах Sunday Lunch"
   ]
  ],
  "ukrainian": {
@@ -34568,7 +34505,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1792971165.7578926,
+  "last_check": 1792974782.2912087,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
