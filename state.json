@@ -1,15 +1,39 @@
 {
  "alerts": {
-  "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
-   "detail": "https://distortedsoundmag.com/feed/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
-   "label": "Джерело «Distorted Sound» не працює",
+  "src:ai|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
    "sent": 0,
-   "since": 1793039481.7859604
+   "since": 1793046702.3917751
+  },
+  "src:games|Digital Foundry|https://www.digitalfoundry.net/feed": {
+   "detail": "https://www.digitalfoundry.net/feed → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/feed.xml → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.eurogamer.net/feed/digitalfoundry → 404 Client Error: Not Found for url: https://www.eurogamer.net/feed/digitalfoundry",
+   "label": "Джерело «Digital Foundry» не працює",
+   "sent": 0,
+   "since": 1793046685.041837
+  },
+  "src:games|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1793046667.496718
+  },
+  "src:movies|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1793046699.4523778
+  },
+  "src:software|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1793046699.4797032
   }
  },
  "daily_digest_date": "2026-10-26",
  "freebies": {
-  "last_check": 1793037987.7598584,
+  "last_check": 1793046751.7323165,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -22,30 +46,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-26 20:02 UTC",
+  "at": "2026-10-26 20:32 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 12
+   "gemini-flash-lite-latest": 6
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792355414.3178525,
-   1020,
-   "🎮",
-   "У Тайвані стала вірусною браузерна гра про роботу на виробництві чипів – гравці кажуть, що по суті це \"горор\"",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/u-tayvani-stala-populyarnoyu-gra-pro-robotu-na-virobnictvi-chipiv-316285/",
-    "orig": "У Тайвані стала вірусною браузерна гра про роботу на виробництві чипів – гравці кажуть, що по суті це \"горор\""
-   }
-  ],
   [
    1792356794.1480517,
    1021,
@@ -22677,7 +22688,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Living Dead Girl випустили кавер на пісню &quot;Closer&quot; гурту Nine Inch Nails</b>\n\nГурт презентував кліп на свій новий трек, яким став кавер на класичну композицію Nine Inch Nails\n\n🔗 <a href=\"https://lambgoat.com/news/55537/living-dead-girl-release-cover-of-nine-inch-nails-closer/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55537/living-dead-girl-release-cover-of-nine-inch-nails-closer/",
     "orig": "Living Dead Girl release cover of Nine Inch Nails’ “Closer”"
@@ -22691,7 +22701,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Джон Ліднон анонсував фотомемуари Archive до 50-річчя THE SEX PISTOLS</b>\n\nДжон Ліднон анонсував масштабні фотомемуари Archive, приурочені до 50-річчя THE SEX PISTOLS. Видання містить раніше непубліковані світлини з приватного архіву автора, відверті коментарі про його кар&#x27;єру в THE SEX PISTOLS і PUBLIC IMAGE LIMITED, а також спогади про дружину та менеджера. Книга вийде у двох колекційних виданнях із додатковими матеріалами.\n\n🔗 <a href=\"https://blabbermouth.net/news/john-lydon-announces-meticulous-new-photographic-memoir-archive-to-mark-50th-anniversary-of-the-sex-pistols\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/john-lydon-announces-meticulous-new-photographic-memoir-archive-to-mark-50th-anniversary-of-the-sex-pistols",
     "orig": "JOHN LYDON Announces Meticulous New Photographic Memoir 'Archive' To Mark 50th Anniversary Of THE SEX PISTOLS"
@@ -22705,7 +22714,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b>Учасники Paris Games Biz демонструють стриманий оптимізм на тлі криз</b>\n\nПопри масові громадські протести та загальні фінансові труднощі в індустрії, на заході Paris Game Biz панувала атмосфера стриманого оптимізму. Розробники, інвестори та видавці обговорювали нові реалії бізнесу, спираючись на державне фінансування та податкові пільги для інді-студій у Франції.\n\n🔗 <a href=\"https://www.gamesindustry.biz/paris-games-biz-showcased-a-guarded-optimism-in-the-face-of-turmoil-locally-and-in-the-industry-at-large-opinion\">GamesIndustry.biz</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/paris-games-biz-showcased-a-guarded-optimism-in-the-face-of-turmoil-locally-and-in-the-industry-at-large-opinion",
     "orig": "Paris Games Biz showcased a guarded optimism in the face of turmoil, both locally and in the industry at large | Opinion"
@@ -22728,7 +22736,6 @@
       "https://www.eurogamer.net/ghost-of-yotei-sucker-punch-lays-off-developers"
      ]
     ],
-    "caption": "🎮 <b>У розробників Ghost of Yotei студії Sucker Punch відбулися звільнення</b>\n\nPlayStation-розробник Sucker Punch Productions скоротив 26 співробітників через ринкові труднощі та потреби наступного проєкту. Це сталося попри успіх гри Ghost of Yotei, яка вийшла рік тому та отримала визнання гравців і критиків.\n\n🔗 <a href=\"https://insider-gaming.com/ghost-of-yotei-developer-sucker-punch-hit-with-layoffs/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/ghost-of-yotei-developer-sucker-punch-hit-with-layoffs/",
     "orig": "Ghost of Yotei Developer Sucker Punch Hit With Layoffs"
@@ -22742,7 +22749,6 @@
    "Kerrang!",
    {
     "also": [],
-    "caption": "🤘 <b>LASTELLE анонсували розширене видання Exist EP</b>\n\nГурт LASTELLE анонсував вихід розширеного видання EP Exist. До релізу увійдуть нова пісня Ghosts та оновлені версії треків.\n\n🔗 <a href=\"https://www.kerrang.com/lastelle-announce-extended-edition-of-exist-eps-with-new-song-ghosts-and-reimaginings\">Kerrang!</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.kerrang.com/lastelle-announce-extended-edition-of-exist-eps-with-new-song-ghosts-and-reimaginings",
     "orig": "LASTELLE announce extended edition of Exist EPs with new song, Ghosts, and reimaginings"
@@ -22811,7 +22817,12 @@
    "FIVE FINGER DEATH PUNCH пожертвували $200 000 атлетам збірної США",
    "Blabbermouth",
    {
-    "also": [],
+    "also": [
+     [
+      "Metal Injection",
+      "https://metalinjection.net/news/five-finger-death-punch-backs-team-usa-with-200000-donation-for-prospective-2028-olympic-and-paralympic-athletes"
+     ]
+    ],
     "caption": "🤘 <b>FIVE FINGER DEATH PUNCH пожертвували $200 000 атлетам збірної США</b>\n\nПлатиновий хард-рок-гурт FIVE FINGER DEATH PUNCH завершив північноамериканську частину свого масштабного світового туру та передав $200 000 на підтримку спортсменів збірної США, які готуються до Олімпійських і Паралімпійських ігор 2028 року\n\n🔗 <a href=\"https://blabbermouth.net/news/five-finger-death-punch-donates-200000-to-team-usa-athletes-preparing-for-2028-olympic-and-paralympic-games\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/five-finger-death-punch-donates-200000-to-team-usa-athletes-preparing-for-2028-olympic-and-paralympic-games",
@@ -22876,7 +22887,12 @@
    "Помер Вольтер Кеніг, відомий за роллю Чекова у «Star Trek»",
    "IndieWire",
    {
-    "also": [],
+    "also": [
+     [
+      "PC Gamer",
+      "https://www.pcgamer.com/movies-tv/walter-koenig-star-treks-pavel-chekhov-has-died/"
+     ]
+    ],
     "caption": "🎬 <b>Помер Вольтер Кеніг, відомий за роллю Чекова у «Star Trek»</b>\n\nУ віці 90 років помер американський актор Вольтер Кеніг, який зіграв Павела Чекова в оригінальному серіалі «Star Trek» та перших семи повнометражних фільмах франшизи. Він також знімався в проєкті «Babylon 5», писав сценарії та мемуари.\n\n🔗 <a href=\"https://www.indiewire.com/news/obituary/walter-koenig-chekov-star-trek-dead-1235223759/\">IndieWire</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.indiewire.com/news/obituary/walter-koenig-chekov-star-trek-dead-1235223759/",
@@ -23555,6 +23571,76 @@
     "link": "https://www.indiewire.com/news/breaking-news/elastic-hearts-film-denied-texas-tax-credit-abortion-cole-sprouse-1235223514/",
     "orig": "‘Elastic Hearts’ Filmmakers Claim Their Movie Was Denied a Texas Tax Incentive Over Abortion Storyline"
    }
+  ],
+  [
+   1793046707.376839,
+   2792,
+   "🤘",
+   "Учасники NICKELBACK назвали світову популярність палицею про два кінці",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Учасники NICKELBACK назвали світову популярність палицею про два кінці</b>\n\nУчасники гурту NICKELBACK розповіли в інтерв&#x27;ю про те, як світова слава впливає на їхнє повсякденне життя. Вокаліст Chad Kroeger зазначив, що черезпізнаваність йому складно залишатися непоміченим, хоча це дає певні переваги на кшталт легкого бронювання столикiв у ресторанах. Гітарист Ryan Peake додав, що решта музикантів можуть набагато легше зникати з поля зору.\n\n🔗 <a href=\"https://blabbermouth.net/news/nickelback-members-explain-why-being-a-globally-famous-rock-band-is-a-double-edged-sword\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/nickelback-members-explain-why-being-a-globally-famous-rock-band-is-a-double-edged-sword",
+    "orig": "NICKELBACK Members Explain Why Being A Globally Famous Rock Band Is 'A Double-Edged Sword'"
+   }
+  ],
+  [
+   1793046711.8484724,
+   2793,
+   "🎮",
+   "Фанати Mass Effect запустили кампанію на підтримку франшизи та збирають кошти на рекламу",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Фанати <a href=\"https://store.steampowered.com/app/1328670/\">Mass Effect</a> запустили кампанію на підтримку франшизи та збирають кошти на рекламу</b>\n\nФанати Mass Effect об&#x27;єдналися у кампанію Save Mass Effect після закриття BioWare та скасування нової частини видавцем EA. Спільнота встановила білборд на Times Square і планує інші рекламні акції за підтримки донатів. Петиція за продовження серії вже набрала понад 226 000 підписів.\n\n🔗 <a href=\"https://www.eurogamer.net/mass-effect-fans-save-rpg-times-square\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/mass-effect-fans-save-rpg-times-square",
+    "orig": "Mass Effect fans ramp up efforts to save BioWare's RPG series with a Times Square billboard and plans for more ads outside The Game Awards"
+   }
+  ],
+  [
+   1793046715.0687141,
+   2794,
+   "🤘",
+   "Chelsea Wolfe виступила разом із учасниками Nine Inch Nails, Spiritbox і Garbage",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Chelsea Wolfe виступила разом із учасниками Nine Inch Nails, Spiritbox і Garbage</b>\n\nПід час завершального концерту американського туру в Лос-Анджелесі до Chelsea Wolfe на сцені приєдналися зіркові гості. Разом із виконавицею виступили Кортні ЛаПланте із Spiritbox, Робін Фінْк із Nine Inch Nails, Шрлі Менсон із Garbage та Джонатан Гультен.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/26/news/chelsea-wolfe-joined-by-nine-inch-nails-spiritbox-garbage-members-at-los-angeles-show/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/26/news/chelsea-wolfe-joined-by-nine-inch-nails-spiritbox-garbage-members-at-los-angeles-show/",
+    "orig": "Chelsea Wolfe Joined By Nine Inch Nails, Spiritbox & Garbage Members At Los Angeles Show"
+   }
+  ],
+  [
+   1793046724.8852773,
+   2795,
+   "🎮",
+   "Запустити класичні консольні ігри на ПК стало простіше завдяки RecompLauncher",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Запустити класичні консольні ігри на ПК стало простіше завдяки RecompLauncher</b>\n\nКористувач Reddit анонсував RecompLauncher — централізований хаб для нативних рекомпіляцій та спільнотних портів класичних ігор на ПК. Додаток покликаний розв&#x27;язати проблему фрагментації, спрощуючи встановлення, оновлення та налаштування проєктів для Nintendo 64, PlayStation, Xbox і Xbox 360 на Windows, Linux та macOS.\n\n🔗 <a href=\"https://insider-gaming.com/play-old-console-games-on-pc/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/play-old-console-games-on-pc/",
+    "orig": "Playing Old Console Games on PC Has Just Got a Lot Easier"
+   }
+  ],
+  [
+   1793046740.5904305,
+   2796,
+   "🎬",
+   "Менше 1% членів SAG-AFTRA кваліфікувалися на стрімінговий бонус",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Менше 1% членів SAG-AFTRA кваліфікувалися на стрімінговий бонус</b>\n\nПрофспілка SAG-AFTRA повідомила, що менше 1% її учасників отримають виплати зі стрімінгового бонусного фонду за проєкти 2024 року. Близько $1.5 мільйона розподілять між приблизно 700 акторами через високий поріг кваліфікації для таких виплат.\n\n🔗 <a href=\"https://deadline.com/2026/10/sag-aftra-sean-astin-streaming-bonus-healthcare-issues-1237194427/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/sag-aftra-sean-astin-streaming-bonus-healthcare-issues-1237194427/",
+    "orig": "Less Than 1% Of SAG-AFTRA Members Have Qualified For Streaming Bonus So Far As Union Faces Reckoning Over Post-Strike Conditions"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23605,15 +23691,14 @@
    1793036045.7663443
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1792953087.947961,
-   1792954888.758743,
    1793008904.9812531,
    1793018028.395156,
    1793019886.658423,
    1793025169.9689128,
    1793027102.7387779,
    1793028802.189122,
-   1793028993.964972
+   1793028993.964972,
+   1793046711.8491132
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1793019957.451659,
@@ -23667,7 +23752,8 @@
    1793041313.4532921,
    1793041329.3067968,
    1793043123.3967793,
-   1793044929.0697966
+   1793044929.0697966,
+   1793046724.8860288
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1793027074.5085247,
@@ -23740,7 +23826,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1792958487.3152194,
    1792963876.5165865,
    1792978284.9240966,
    1792987382.5708215,
@@ -23754,7 +23839,8 @@
    1793014486.3827631,
    1793016188.0178938,
    1793041302.0315404,
-   1793043129.982167
+   1793043129.982167,
+   1793046740.5910344
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1793003659.9380805,
@@ -23785,9 +23871,6 @@
    1792971151.139573
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1792954879.071074,
-   1792958484.3185096,
-   1792958501.5677788,
    1793016162.1972904,
    1793019845.761042,
    1793020590.273767,
@@ -23798,7 +23881,8 @@
    1793035980.2187984,
    1793035997.910556,
    1793039499.4921799,
-   1793039516.298821
+   1793039516.298821,
+   1793046707.377429
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -23878,7 +23962,8 @@
    1793037976.523703,
    1793039519.569599,
    1793043126.4563677,
-   1793044954.70015
+   1793044954.70015,
+   1793046715.0692835
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1792481487.1423821
@@ -24218,6 +24303,7 @@
   "13a052b90f85febb": 1792449088.2966654,
   "13b5c809ac1eb231": 1792705445.7405577,
   "13bcadf59b085c06": 1792630924.787659,
+  "13cc37845a1820e4": 1793046704.9458692,
   "13ded842aee39bac": 1792514198.7929518,
   "13e07214546c61d0": 1792352551.191048,
   "1417f7a7540637a4": 1792798281.6424534,
@@ -24379,6 +24465,7 @@
   "1e958f54c3b124fd": 1792855905.1852994,
   "1ea451767f894b41": 1792578684.3007464,
   "1eadcfcc159619a7": 1792891890.4415748,
+  "1ebcdd8600bc1201": 1793046658.234037,
   "1ec00d2af0387bde": 1792326692.5025265,
   "1ec20107aa7be7f1": 1792341084.4050367,
   "1eca14a053949975": 1792611124.1603694,
@@ -24691,6 +24778,7 @@
   "3679dd3ab77b9774": 1792431214.8589432,
   "3681878a041950b0": 1791993743.1119962,
   "36917ef32b441dc1": 1792071069.4472752,
+  "36b70ae4e7dedda2": 1793046735.0911882,
   "36c772521ca5886a": 1792555282.983842,
   "36d7af44ee8ef4f5": 1792603226.8352666,
   "36da30d5c8d7ab77": 1792699445.3495016,
@@ -24867,6 +24955,7 @@
   "425255b9a12a1dfb": 1792324878.800409,
   "4257d4108cd1a43a": 1792778486.767039,
   "426a5e6a19623c62": 1793028855.4282362,
+  "427698ed96ceef3e": 1793046658.234037,
   "427e0ab67bb488dd": 1792987382.570774,
   "42b1126bd8633f88": 1792672322.8112528,
   "42f9aa23b5f09dca": 1792733499.0866466,
@@ -25455,6 +25544,7 @@
   "6e1bb2d0a2427af8": 1792246822.944943,
   "6e1fb6a87de8507c": 1793039492.785096,
   "6e2b0e14c7b0ac55": 1792037161.254809,
+  "6e2e024d97bfb592": 1793046724.8859768,
   "6e307abe62899171": 1792508488.1986048,
   "6e57911a7743ad43": 1791926940.5305667,
   "6e68a3f15db37bdb": 1792244062.2069013,
@@ -25528,6 +25618,7 @@
   "7370ddfdc2520cfd": 1792920677.7561848,
   "738f9286e44b821f": 1792398729.0859182,
   "739757869a68c709": 1792593227.8783355,
+  "73b24678465c9b60": 1793046707.3773746,
   "73be9d81c4e3a523": 1792935130.3775742,
   "73c230ab07d0fa02": 1792863054.4605272,
   "73ccd9c010e741ca": 1792427572.3802977,
@@ -26018,6 +26109,7 @@
   "943272d33197cb6f": 1792857718.2088532,
   "9433502ddf9db1d7": 1793044929.0697448,
   "9445b892d8bed1ea": 1792470681.5377843,
+  "944a84c6e66940ec": 1793046715.0692396,
   "94531652879ce899": 1792769678.4254632,
   "945455266a16c301": 1792775231.4704971,
   "945a620074a768af": 1793023471.3446453,
@@ -26788,6 +26880,7 @@
   "cfea48e994984e7e": 1792352420.8844676,
   "cff202e524873a97": 1792494062.3983765,
   "cffa47b251a03dc2": 1792407679.2415986,
+  "d00a45711be5ac20": 1793046711.8490665,
   "d00cb38b51a54d0e": 1792573278.3831584,
   "d04a83e6366a2c27": 1792778479.0111337,
   "d04ddef1696fbe4f": 1792405914.1818423,
@@ -26925,6 +27018,7 @@
   "da59a1b3ea04774a": 1792769773.6162167,
   "da7c0ef2c27f3029": 1792681517.0093107,
   "da8c66632b929291": 1792434722.3897011,
+  "da96c458d6ecb96d": 1793046658.234037,
   "dac01961a9a97a95": 1792859621.7084367,
   "dac267da73a30f2a": 1792823485.8817618,
   "dafa9581fa3e49b9": 1792909853.006405,
@@ -26935,6 +27029,7 @@
   "db5d22ab46fe0772": 1792789295.1519122,
   "db61facfafbc7547": 1792848684.519646,
   "db68911b6d73e27c": 1792969284.2020118,
+  "db6cc4956b0dbefa": 1793046740.590988,
   "db9354add583ca31": 1792573279.7385182,
   "dba4e1abe474f0e8": 1792974773.5004857,
   "dbc6f4353d6553ac": 1791993729.4436889,
@@ -27887,7 +27982,7 @@
   ],
   "artists_checked": 1793030808.8518064,
   "blocked_until": 1793030563.4810362,
-  "cursor": 123,
+  "cursor": 133,
   "digest_week": "2026-W43",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -28614,13 +28709,15 @@
  },
  "stats": {
   "extra": {
-   "Вішліст Steam": 3
+   "Вішліст Steam": 4
   },
   "filtered": {
-   "/Film": 2,
+   "/Film": 3,
    "Deadline": 1,
+   "Distorted Sound": 1,
    "IndieWire": 1,
    "Insider Gaming": 5,
+   "Loudwire": 1,
    "PC Gamer": 1,
    "Polygon": 7,
    "VGC": 1
@@ -28628,21 +28725,21 @@
   "sources": {
    "/Film": 6,
    "AIN.ua": 1,
-   "Blabbermouth": 11,
+   "Blabbermouth": 12,
    "Bloomberg": 10,
    "DOU Gamedev": 1,
-   "Deadline": 13,
+   "Deadline": 14,
    "Decibel": 2,
    "Digital Foundry": 1,
    "Distorted Sound": 3,
-   "Eurogamer": 7,
+   "Eurogamer": 8,
    "GameSpot": 7,
    "GamesIndustry.biz": 5,
    "GitHub Trending": 4,
    "IGN": 10,
    "ITC.ua": 15,
    "IndieWire": 5,
-   "Insider Gaming": 19,
+   "Insider Gaming": 20,
    "Kerrang!": 8,
    "Lambgoat": 5,
    "Loudwire": 6,
@@ -28659,14 +28756,14 @@
    "Rock Paper Shotgun": 6,
    "Stereogum": 3,
    "The Decoder": 5,
-   "ThePRP": 7,
+   "ThePRP": 8,
    "VGC": 7,
    "Variety": 6
   },
   "translators": {
    "DeepL": 4,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 226
+   "gemini-flash-lite-latest": 232
   },
   "week": "2026-W44"
  },
@@ -29936,6 +30033,11 @@
    "",
    1793025177.4687283
   ],
+  "q:bioware's rpg": [
+   0,
+   "",
+   1793046709.5823157
+  ],
   "q:biz": [
    0,
    "",
@@ -30376,35 +30478,15 @@
    "",
    1793005373.0003343
   ],
-  "q:confirms": [
+  "q:console games on pc has": [
    0,
    "",
-   1792872117.7591588
+   1793046723.1175938
   ],
-  "q:confirms one": [
+  "q:console games on pc has just": [
    0,
    "",
-   1792872117.3093438
-  ],
-  "q:confirms one piece": [
-   0,
-   "",
-   1792872116.8662255
-  ],
-  "q:confirms one piece collab": [
-   0,
-   "",
-   1792872116.4194305
-  ],
-  "q:confirms one piece collab with": [
-   0,
-   "",
-   1792872115.9698648
-  ],
-  "q:confirms one piece collab with new": [
-   0,
-   "",
-   1792872115.5258584
+   1793046722.5501962
   ],
   "q:continue": [
    996920,
@@ -31421,36 +31503,6 @@
    "",
    1793025174.2379289
   ],
-  "q:fortnite": [
-   0,
-   "",
-   1792872115.0702925
-  ],
-  "q:fortnite confirms": [
-   0,
-   "",
-   1792872114.6344333
-  ],
-  "q:fortnite confirms one": [
-   0,
-   "",
-   1792872114.1904838
-  ],
-  "q:fortnite confirms one piece": [
-   0,
-   "",
-   1792872113.7251515
-  ],
-  "q:fortnite confirms one piece collab": [
-   0,
-   "",
-   1792872113.2589865
-  ],
-  "q:fortnite confirms one piece collab with": [
-   0,
-   "",
-   1792872112.8132586
-  ],
   "q:forza horizon 6": [
    2483190,
    "Forza Horizon 6",
@@ -31545,6 +31597,11 @@
    0,
    "",
    1793020594.7956932
+  ],
+  "q:game awards": [
+   0,
+   "",
+   1793046710.1461563
   ],
   "q:game joe": [
    0,
@@ -32516,6 +32573,11 @@
    "Knightmare",
    1792864897.7004297
   ],
+  "q:koenig": [
+   0,
+   "",
+   1793046727.983691
+  ],
   "q:labs": [
    0,
    "",
@@ -33361,6 +33423,31 @@
    "",
    1793041334.3581808
   ],
+  "q:old": [
+   0,
+   "",
+   1793046722.0379846
+  ],
+  "q:old console": [
+   0,
+   "",
+   1793046721.497217
+  ],
+  "q:old console games": [
+   0,
+   "",
+   1793046720.9871342
+  ],
+  "q:old console games on pc": [
+   0,
+   "",
+   1793046720.4600673
+  ],
+  "q:old console games on pc has": [
+   0,
+   "",
+   1793046719.9177907
+  ],
   "q:one": [
    0,
    "",
@@ -33541,6 +33628,16 @@
    "Paul",
    1792852287.4923358
   ],
+  "q:pavel": [
+   0,
+   "",
+   1793046732.7969537
+  ],
+  "q:pavel chekhov": [
+   0,
+   "",
+   1793046732.2813573
+  ],
   "q:peak": [
    3527290,
    "PEAK",
@@ -33695,6 +33792,31 @@
    0,
    "",
    1793041315.4852967
+  ],
+  "q:playing": [
+   0,
+   "",
+   1793046719.3401494
+  ],
+  "q:playing old": [
+   0,
+   "",
+   1793046718.7825677
+  ],
+  "q:playing old console": [
+   0,
+   "",
+   1793046718.2372885
+  ],
+  "q:playing old console games": [
+   0,
+   "",
+   1793046717.648757
+  ],
+  "q:playing old console games on pc": [
+   0,
+   "",
+   1793046717.1011312
   ],
   "q:playstation 5": [
    0,
@@ -34481,10 +34603,30 @@
    "STAGE TOUR",
    1792603236.437541
   ],
+  "q:star": [
+   0,
+   "",
+   1793046730.109106
+  ],
+  "q:star trek": [
+   0,
+   "",
+   1793046729.5794153
+  ],
   "q:star trek outposts unknown": [
    3469910,
    "Star Trek: Outposts Unknown",
    1792414942.208155
+  ],
+  "q:star trek's pavel": [
+   0,
+   "",
+   1793046729.0412052
+  ],
+  "q:star trek's pavel chekhov": [
+   0,
+   "",
+   1793046728.508092
   ],
   "q:star wars battlefront": [
    1237980,
@@ -34896,6 +35038,21 @@
    "Trailblazers: Into the March",
    1792264378.8967957
   ],
+  "q:trek": [
+   0,
+   "",
+   1793046731.7713146
+  ],
+  "q:trek's pavel": [
+   0,
+   "",
+   1793046731.165572
+  ],
+  "q:trek's pavel chekhov": [
+   0,
+   "",
+   1793046730.6417446
+  ],
   "q:umamusume pretty derby": [
    3224770,
    "Umamusume: Pretty Derby",
@@ -35095,6 +35252,16 @@
    1214280,
    "Walking Simulator",
    1792575423.2553575
+  ],
+  "q:walter": [
+   0,
+   "",
+   1793046727.440781
+  ],
+  "q:walter koenig": [
+   0,
+   "",
+   1793046726.911145
   ],
   "q:war": [
    0,
@@ -35635,30 +35802,6 @@
   ]
  },
  "titles": [
-  [
-   1792873896.7767804,
-   "Inside The BBC Cuts: Painful Service Closures Begin, But Worse Could Be To Come"
-  ],
-  [
-   1792873902.52724,
-   "AMC Theatres Wants NYC’s Endangered Kips Bay Multiplex To Remain But Decision “Not Ours To Make”; Scheduled Closing Date Announced"
-  ],
-  [
-   1792873905.8569171,
-   "Pro-Shot Footage Of Danzig’s Entire 1995 ‘Pinkpop’ Festival Set Newly Released"
-  ],
-  [
-   1792873910.0410032,
-   "TWISTED SISTER's JAY JAY FRENCH On DEE SNIDER's 'Health Challenges': 'He's Not End-Of-Life Ill; He's Just End-Of-Career Ill'"
-  ],
-  [
-   1792873913.1225944,
-   "The Tribbett Brothers’ New Band Dead Wyte (Mudvayne, Ex-Twisted Method, Etc.) Launch Their First Single “Mother Trucker”"
-  ],
-  [
-   1792873919.1973977,
-   "\"System Shock and Deus Ex, they were RPGs. People called them RPGs\": Gloomwood's publisher isn't too keen on using the term immersive sim despite it being one"
-  ],
   [
    1792875422.829032,
    "AI Boom Brings New Business to Matchmakers"
@@ -37050,33 +37193,29 @@
   [
    1793044961.7572553,
    "‘Elastic Hearts’ Filmmakers Claim Their Movie Was Denied a Texas Tax Incentive Over Abortion Storyline"
+  ],
+  [
+   1793046707.3773768,
+   "NICKELBACK Members Explain Why Being A Globally Famous Rock Band Is 'A Double-Edged Sword'"
+  ],
+  [
+   1793046711.849068,
+   "Mass Effect fans ramp up efforts to save BioWare's RPG series with a Times Square billboard and plans for more ads outside The Game Awards"
+  ],
+  [
+   1793046715.069241,
+   "Chelsea Wolfe Joined By Nine Inch Nails, Spiritbox & Garbage Members At Los Angeles Show"
+  ],
+  [
+   1793046724.8859785,
+   "Playing Old Console Games on PC Has Just Got a Lot Easier"
+  ],
+  [
+   1793046740.59099,
+   "Less Than 1% Of SAG-AFTRA Members Have Qualified For Streaming Bonus So Far As Union Faces Reckoning Over Post-Strike Conditions"
   ]
  ],
  "titles_uk": [
-  [
-   1792873896.7767813,
-   "BBC закриває три канали та планує заощадити £500 мільйонів"
-  ],
-  [
-   1792873902.5272415,
-   "AMC Theatres хоче зберегти кінотеатр Kips Bay у Нью-Йорку"
-  ],
-  [
-   1792873905.8569183,
-   "Опубліковано професійний запис виступу Danzig на фестивалі Pinkpop 1995 року"
-  ],
-  [
-   1792873910.0410042,
-   "Джей Джей Френч пояснив стан здоров'я Ді Снайдера та розповів про нового вокаліста TWISTED SISTER"
-  ],
-  [
-   1792873913.1225953,
-   "Новий гурт братів Тріббеттів Dead Wyte випустив дебютний сингл"
-  ],
-  [
-   1792873919.197399,
-   "Видавець Gloomwood вважає термін «immersive sim» поганим для маркетингу"
-  ],
   [
    1792875422.8290327,
    "ШІ-бум збільшив попит на послуги елітних шлюбних агентств"
@@ -38468,6 +38607,26 @@
   [
    1793044961.757257,
    "Фільм ‘Elastic Hearts’ через тему абортів позбавили податкових пільг у Техасі"
+  ],
+  [
+   1793046707.3773775,
+   "Учасники NICKELBACK назвали світову популярність палицею про два кінці"
+  ],
+  [
+   1793046711.8490689,
+   "Фанати Mass Effect запустили кампанію на підтримку франшизи та збирають кошти на рекламу"
+  ],
+  [
+   1793046715.069242,
+   "Chelsea Wolfe виступила разом із учасниками Nine Inch Nails, Spiritbox і Garbage"
+  ],
+  [
+   1793046724.8859797,
+   "Запустити класичні консольні ігри на ПК стало простіше завдяки RecompLauncher"
+  ],
+  [
+   1793046740.590991,
+   "Менше 1% членів SAG-AFTRA кваліфікувалися на стрімінговий бонус"
   ]
  ],
  "ukrainian": {
@@ -39377,9 +39536,9 @@
    },
    "1748620": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 25,
     "name": "FlipWitch - Forbidden Sex Hex",
-    "price": "325,00₴",
+    "price": "243,00₴",
     "release": 1700278735
    },
    "1752080": {
@@ -40706,7 +40865,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793043138.545201,
+  "last_check": 1793046751.480258,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
