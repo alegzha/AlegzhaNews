@@ -1,36 +1,5 @@
 {
- "alerts": {
-  "src:ai|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1793046702.3917751
-  },
-  "src:games|Digital Foundry|https://www.digitalfoundry.net/feed": {
-   "detail": "https://www.digitalfoundry.net/feed → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/feed.xml → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.eurogamer.net/feed/digitalfoundry → 404 Client Error: Not Found for url: https://www.eurogamer.net/feed/digitalfoundry",
-   "label": "Джерело «Digital Foundry» не працює",
-   "sent": 0,
-   "since": 1793046685.041837
-  },
-  "src:games|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1793046667.496718
-  },
-  "src:movies|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1793046699.4523778
-  },
-  "src:software|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1793046699.4797032
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-26",
  "freebies": {
   "last_check": 1793046751.7323165,
@@ -46,11 +15,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-26 20:32 UTC",
+  "at": "2026-10-26 20:35 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 6
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
@@ -22762,7 +22731,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>Складаний iPhone Duo від Apple отримує скарги на тріщини на екрані</b>\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-10-26/apple-s-foldable-iphone-duo-draws-early-complaints-of-the-screen-cracking\">Bloomberg</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-10-26/apple-s-foldable-iphone-duo-draws-early-complaints-of-the-screen-cracking",
     "orig": "Apple’s Foldable iPhone Duo Draws Early Complaints of the Screen Cracking"
@@ -23641,6 +23609,20 @@
     "link": "https://deadline.com/2026/10/sag-aftra-sean-astin-streaming-bonus-healthcare-issues-1237194427/",
     "orig": "Less Than 1% Of SAG-AFTRA Members Have Qualified For Streaming Bonus So Far As Union Faces Reckoning Over Post-Strike Conditions"
    }
+  ],
+  [
+   1793046955.6934717,
+   2798,
+   "🤖",
+   "OpenAI випустила GPT-6.1 Terra зі зниженими вдвічі цінами на API",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>OpenAI випустила GPT-6.1 Terra зі зниженими вдвічі цінами на API</b>\n\nOpenAI представила нову модель GPT-6.1 Terra, яка пропонує вдвічі нижчі ціни на API порівняно з GPT-5.6 Terra за покращеної продуктивності. Модель поєднує швидке візуальне міркування, точне керування комп&#x27;ютером та природніший стиль письма для повсякденних завдань. Новинка вже доступна користувачам ChatGPT Work, Codex та через API.\n\n🔗 <a href=\"https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/gpt-6-1-terra-halves-openais-api-prices-and-still-gains-ground-on-its-larger-models/",
+    "orig": "GPT-6.1 Terra halves OpenAI's API prices and still gains ground on its larger models"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23679,7 +23661,8 @@
    1793008901.0593565,
    1793036104.6181543,
    1793037937.4366775,
-   1793043107.969953
+   1793043107.969953,
+   1793046955.693934
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1792775790.1825686
@@ -24064,6 +24047,7 @@
   "03b5576353619ead": 1792775246.8938854,
   "03d1350789a4c165": 1792573292.1311307,
   "03d602f7e9b746f5": 1792074108.4209652,
+  "03d60a9ffdd50cde": 1793046955.6938887,
   "03d952df9c4b38c7": 1792264370.8304558,
   "03f85ed347ad7b7f": 1792423944.5674317,
   "03facb536ab21378": 1792352379.861983,
@@ -27981,7 +27965,7 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1793030808.8518064,
-  "blocked_until": 1793030563.4810362,
+  "blocked_until": 1793117268.4726095,
   "cursor": 133,
   "digest_week": "2026-W43",
   "seen": {
@@ -28755,7 +28739,7 @@
    "Revolver": 2,
    "Rock Paper Shotgun": 6,
    "Stereogum": 3,
-   "The Decoder": 5,
+   "The Decoder": 6,
    "ThePRP": 8,
    "VGC": 7,
    "Variety": 6
@@ -28763,7 +28747,7 @@
   "translators": {
    "DeepL": 4,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 232
+   "gemini-flash-lite-latest": 233
   },
   "week": "2026-W44"
  },
@@ -33648,11 +33632,6 @@
    "Penguin Colony",
    1792486874.5018551
   ],
-  "q:people": [
-   0,
-   "",
-   1792873917.2639303
-  ],
   "q:petition": [
    0,
    "",
@@ -34258,11 +34237,6 @@
    "",
    1792953089.9738379
   ],
-  "q:rpgs people": [
-   0,
-   "",
-   1792873916.7249515
-  ],
   "q:rtx 5090s": [
    0,
    "",
@@ -34847,16 +34821,6 @@
    482400,
    "System Shock",
    1792409517.6523504
-  ],
-  "q:system shock and deus": [
-   0,
-   "",
-   1792873915.7032046
-  ],
-  "q:system shock and deus ex": [
-   0,
-   "",
-   1792873915.1916623
   ],
   "q:tarkov": [
    0,
@@ -37213,6 +37177,10 @@
   [
    1793046740.59099,
    "Less Than 1% Of SAG-AFTRA Members Have Qualified For Streaming Bonus So Far As Union Faces Reckoning Over Post-Strike Conditions"
+  ],
+  [
+   1793046955.69389,
+   "GPT-6.1 Terra halves OpenAI's API prices and still gains ground on its larger models"
   ]
  ],
  "titles_uk": [
@@ -38627,6 +38595,10 @@
   [
    1793046740.590991,
    "Менше 1% членів SAG-AFTRA кваліфікувалися на стрімінговий бонус"
+  ],
+  [
+   1793046955.6938908,
+   "OpenAI випустила GPT-6.1 Terra зі зниженими вдвічі цінами на API"
   ]
  ],
  "ukrainian": {
