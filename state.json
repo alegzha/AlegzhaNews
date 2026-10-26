@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
+   "detail": "https://distortedsoundmag.com/feed/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
+   "label": "Джерело «Distorted Sound» не працює",
+   "sent": 0,
+   "since": 1793039481.7859604
+  }
+ },
  "daily_digest_date": "2026-10-25",
  "freebies": {
   "last_check": 1793037987.7598584,
@@ -15,52 +22,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-26 18:06 UTC",
+  "at": "2026-10-26 18:32 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 14
+   "gemini-flash-lite-latest": 7
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792347119.7624848,
-   981,
-   "🎬",
-   "Джо Манганьєлло розповів про купу скасованих проєктів із Deathstroke для DCEU",
-   "/Film"
-  ],
-  [
-   1792348274.0303965,
-   982,
-   "🤘",
-   "Рой Хан зізнався, що знижує тональність старих пісень KAMELOT на концертах",
-   "Blabbermouth"
-  ],
-  [
-   1792348283.2222567,
-   983,
-   "🤘",
-   "SALIVA випустили кліп Rivers пам'яті бас-гітариста LIMP BIZKIT Сема Ріверса",
-   "Blabbermouth"
-  ],
-  [
-   1792348286.1639297,
-   984,
-   "🤖",
-   "Anthropic передасть 5% своїх акцій до нового фонду",
-   "Bloomberg"
-  ],
-  [
-   1792348289.0475767,
-   985,
-   "🤘",
-   "Red Hot Chili Peppers зіграли рідкісні треки 80-х на благодійному концерті",
-   "ThePRP"
-  ],
   [
    1792350085.4469585,
    986,
@@ -22730,7 +22702,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b>Xbox продовжила переговори щодо порятунку студії Arkane Lyon</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/205100/\">Dishonored</a>\n\nMicrosoft погодилася продовжити термін консультацій щодо студії Arkane Lyon до грудня у надії знайти нового покупця та врятувати 217 робочих місць. Якщо покупця не знайдуть, розробник Dishonored і Deathloop буде закритий через масштабну реструктуризацію Xbox.\n\n🔗 <a href=\"https://www.eurogamer.net/arkane-lyon-consultation-period-extended-december\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/arkane-lyon-consultation-period-extended-december",
     "orig": "As beloved Dishonored studio faces closure, Xbox agrees union request to extend negotiations deadline in hope of saving 217 jobs"
@@ -22744,7 +22715,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Blizzard випустила трекер статистики бета-тестування World of Warcraft: Forever</b>\n\nBlizzard запустила трекер статистики для заритої бета-версії World of Warcraft: Forever. Гравці, які увійдуть у систему, зможуть переглянути свої ігрові години, найчастіші смерті, місця перебування та кількість стрибків. Реліз гри запланований на 4 листопада.\n\n🔗 <a href=\"https://www.pcgamer.com/games/world-of-warcraft/i-have-jumped-in-wow-forevers-beta-7738-times-roughly-135-jumps-an-hour-and-if-youd-like-to-find-out-if-you-beat-me-theres-a-stat-tracker/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/world-of-warcraft/i-have-jumped-in-wow-forevers-beta-7738-times-roughly-135-jumps-an-hour-and-if-youd-like-to-find-out-if-you-beat-me-theres-a-stat-tracker/",
     "orig": "I have jumped in WoW: Forever's beta 7738 times, roughly 135 jumps an hour, and if you'd like to find out if you beat me there's a stat tracker"
@@ -22758,7 +22728,6 @@
    "Kerrang!",
    {
     "also": [],
-    "caption": "🤘 <b>Mason Hill анонсували масштабний клубний тур після успіху дебютного альбому</b>\n\n🔗 <a href=\"https://www.kerrang.com/album-review-mason-hill-world-so-wonderful\">Kerrang!</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.kerrang.com/album-review-mason-hill-world-so-wonderful",
     "orig": "Album review: Mason Hill – World So Wonderful"
@@ -22772,7 +22741,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Уривчаста робота Steam: користувачі скаржаться на проблеми зі входом</b>\n\nВелика кількість користувачів Steam зіткнулася з проблемою під час входу в акаунт — вони застрягають на екрані завантаження даних користувача. Офіційні індикатори статусу працюють нормально, проте скарги продовжують надходити. Деяким гравцям допомагає перезапуск від імені адміністратора або просто очікування.\n\n🔗 <a href=\"https://www.pcgamer.com/games/steam-is-broken-its-still-up-but-some-users-cant-log-in/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/steam-is-broken-its-still-up-but-some-users-cant-log-in/",
     "orig": "Steam is broken: It's still up but some users can't log in"
@@ -22786,7 +22754,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Paramount скасувала гру за Paranormal Activity перед релізом</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2651130/\">Canceled</a>\n\nParamount скасувала розробку гри Paranormal Activity: Threshold від студії DarkStone Digital через відмову надати невелику відстрочку релізу. Автор Браян Кларк випустив безкоштовний прототип проєкту під назвою Playable Archive без згадок франшизи.\n\n🔗 <a href=\"https://www.polygon.com/paranormal-activity-canceled-playable-archive-interview/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/paranormal-activity-canceled-playable-archive-interview/",
     "orig": "Paramount Canceled a Paranormal Activity Game Right Before Release. Now It's the Next P.T."
@@ -22800,7 +22767,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Шэрон Осборн оцінила концертний фільм Ozzy &amp; Black Sabbath</b>\n\nШэрон Осборн прокоментувала вихід концертного фільму «Ozzy &amp; Black Sabbath: Back To The Beginning», який вийде в кінотеатрах 28 жовтня. Стрічка присвячена прощальному виступу Ozzy Osbourne та гурту BLACK SABBATH у Бірмінгемі. За словами Шэрон, це був дуже емоційний і масштабний день, проте передивлятися фільм знову вона, ймовірно, не буде.\n\n🔗 <a href=\"https://blabbermouth.net/news/sharon-osbourne-praises-ozzy-black-sabbath-back-to-the-beginning-concert-film-but-says-she-probably-wont-watch-it-again\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/sharon-osbourne-praises-ozzy-black-sabbath-back-to-the-beginning-concert-film-but-says-she-probably-wont-watch-it-again",
     "orig": "SHARON OSBOURNE Praises 'Ozzy & Black Sabbath: Back To The Beginning' Concert Film But Says She 'Probably' Won't Watch It Again"
@@ -22814,7 +22780,6 @@
    "GameSpot",
    {
     "also": [],
-    "caption": "🎮 <b>Піковий онлайн <a href=\"https://store.steampowered.com/app/1091500/\">Cyberpunk 2077</a> у Steam різко зріс</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/3527290/\">Peak</a>\n\nМайже через шість років після релізу піковий онлайн Cyberpunk 2077 у Steam сягнув 187 215 гравців. Зростання показників на ПК зумовлене виходом другого сезону аніме-спіноффу Edgerunners та великим оновленням для гри.\n\n🔗 <a href=\"https://www.gamespot.com/articles/cyberpunk-2077-hits-its-biggest-steam-player-peak-since-phantom-liberty-and-you-can-guess-why/\">GameSpot</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamespot.com/articles/cyberpunk-2077-hits-its-biggest-steam-player-peak-since-phantom-liberty-and-you-can-guess-why/",
     "orig": "Cyberpunk 2077 Hits Its Biggest Steam Player Peak Since Phantom Liberty, And You Can Guess Why"
@@ -23364,7 +23329,12 @@
    "Meshuggah готують північноамериканський тур на честь свого 40-річчя",
    "ThePRP",
    {
-    "also": [],
+    "also": [
+     [
+      "Lambgoat",
+      "https://lambgoat.com/news/55540/meshuggah-to-tour-north-america-with-testament-and-blood-incantation/"
+     ]
+    ],
     "caption": "🤘 <b>Meshuggah готують північноамериканський тур на честь свого 40-річчя</b>\n\nГурт Meshuggah готується до північноамериканського туру на честь свого 40-річчя під назвою The Forty-Year Anomaly Tour. Разом із ними виступлять Testament як пряма підтримка та Blood Incantation як розігрів. Повний розклад туру планують анонсувати найближчим часом.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/26/news/meshuggahs-north-american-40th-anniversary-tour-to-feature-testament-blood-incantation/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/26/news/meshuggahs-north-american-40th-anniversary-tour-to-feature-testament-blood-incantation/",
@@ -23594,6 +23564,104 @@
     "link": "https://www.theprp.com/2026/10/26/news/agriculture-reveal-new-openers-for-fall-tour-following-uniforms-exit/",
     "orig": "Agriculture Reveal New Openers For Fall Tour Following Uniform’s Exit"
    }
+  ],
+  [
+   1793039492.7844903,
+   2762,
+   "🤘",
+   "Новий плейлист Pitchfork Selects із треками Ecco2K, Whait та Angelo LeRoi",
+   "Pitchfork",
+   {
+    "also": [],
+    "caption": "🤘 <b>Новий плейлист Pitchfork Selects із треками Ecco2K, Whait та Angelo LeRoi</b>\n\nРедакція Pitchfork опублікувала новий плейлист Pitchfork Selects із треками, які зараз на повторі у її працівників. До добірки увійшли пісні від Ecco2K, Whait, Angelo LeRoi та інших виконавців, якими автори діляться щопонеділка.\n\n🔗 <a href=\"https://pitchfork.com/story/ecco2k-whait-angelo-leroi-and-more-this-weeks-pitchfork-selects-playlist/\">Pitchfork</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://pitchfork.com/story/ecco2k-whait-angelo-leroi-and-more-this-weeks-pitchfork-selects-playlist/",
+    "orig": "Ecco2K, Whait, Angelo LeRoi, and More: This Week’s Pitchfork Selects Playlist"
+   }
+  ],
+  [
+   1793039499.4915285,
+   2763,
+   "🤘",
+   "У Сан-Франциско пройде масштабна виставка The Art Of METALLICA",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>У Сан-Франциско пройде масштабна виставка The Art Of METALLICA</b>\n\nУ Haight Street Art Center анонсували масштабну виставку The Art Of METALLICA, яка триватиме з 5 листопада 2026 року до 10 січня 2027-го. Експозиція об&#x27;єднає оригінальні картини з обкладинок альбомів Ride The Lightning і Master Of Puppets, концертні плакати за чотири десятиліття, артефакти та фан-арт.\n\n🔗 <a href=\"https://blabbermouth.net/news/the-art-of-metallica-exhibition-coming-to-haight-street-art-center-in-san-francisco\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/the-art-of-metallica-exhibition-coming-to-haight-street-art-center-in-san-francisco",
+    "orig": "'The Art Of METALLICA' Exhibition Coming To Haight Street Art Center In San Francisco"
+   }
+  ],
+  [
+   1793039503.088864,
+   2764,
+   "🎮",
+   "У Rayman Legends Retold з’являться «багетні» костюми на честь Expedition 33",
+   "PlayUA",
+   {
+    "also": [],
+    "caption": "🎮 <b>У <a href=\"https://store.steampowered.com/app/4084710/\">Rayman Legends Retold</a> з’являться «багетні» костюми на честь Expedition 33</b>\n\nПрацівники Ubisoft Montpellier додадуть у Rayman Legends Retold особливі костюми на честь успіхів своїх колишніх колег — творців Clair Obscur: Expedition 33. Сьогодні компанія Ubisoft презентувала нові костюми, які будуть доступні у Rayman Legends Retold одразу в день релізу, даруючи гравцям ще один привід зануритися у культову пригоду. Нові багетні костюми, створені як для Реймана, […]\n\n🔗 <a href=\"https://playua.net/rayman-legends-retold-clair-obscur-expedition-33-baguette-costumes/\">PlayUA</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://playua.net/rayman-legends-retold-clair-obscur-expedition-33-baguette-costumes/",
+    "orig": "У Rayman Legends Retold з’являться «багетні» костюми на честь Expedition 33"
+   }
+  ],
+  [
+   1793039509.2643766,
+   2765,
+   "🎮",
+   "Двигун GameMaker стане безплатним для комерційного використання на ПК",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>Двигун <a href=\"https://store.steampowered.com/app/1670460/\">GameMaker</a> стане безплатним для комерційного використання на ПК</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/391540/\">Undertale</a>, <a href=\"https://store.steampowered.com/app/219150/\">Hotline Miami</a>, <a href=\"https://store.steampowered.com/app/239350/\">Spelunky</a>\n\nІгровий рушій GameMaker стане повністю безплатним для публікації комерційних ігор на ПК, веб та мобільних пристроях з 1 січня 2027 року. Раніше для монетизації проєктів була потрібна платна Professional-ліцензія, тоді як консольний експорт і надалі вимагатиме платної підписки.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/the-gamemaker-engine-series-behind-undertale-hotline-miami-and-spelunky-is-going-free-for-commercial-use-on-pc\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/the-gamemaker-engine-series-behind-undertale-hotline-miami-and-spelunky-is-going-free-for-commercial-use-on-pc",
+    "orig": "The GameMaker engine series behind Undertale, Hotline Miami and Spelunky is going free for commercial use on PC"
+   }
+  ],
+  [
+   1793039516.2982357,
+   2766,
+   "🤘",
+   "Анджела Госсов пояснила, як Лорен Гарт стала новою вокалисткою ARCH ENEMY",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Анджела Госсов пояснила, як Лорен Гарт стала новою вокалисткою ARCH ENEMY</b>\n\nЕксвокалістка й менеджерка ARCH ENGEDY Анджела Госсов розповіла про приєднання Лорен Гарт до гурту. За її словами, вона помітила Лорен ще за часів її участі в ONCE HUMAN через схожість їхнього вокалу та сценічної енергетики. Згодом Госсов запропонувала їй записати кавер на трек ARCH ENEMY як перевірку перед початком співпраці.\n\n🔗 <a href=\"https://blabbermouth.net/news/angela-gossow-explains-how-lauren-hart-became-the-new-singer-of-arch-enemy\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/angela-gossow-explains-how-lauren-hart-became-the-new-singer-of-arch-enemy",
+    "orig": "ANGELA GOSSOW Explains How LAUREN HART Became The New Singer Of ARCH ENEMY"
+   }
+  ],
+  [
+   1793039519.569136,
+   2767,
+   "🤘",
+   "Гурт BRAT випустив кліп на пісню «Spit On His Grave»",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Гурт BRAT випустив кліп на пісню «Spit On His Grave»</b>\n\nБімбовайоленс-гурт BRAT презентував кліп на сингл «Spit On His Grave» з останнього альбому «Manslayer», який вийшов у вересні на Prosthetic Records. Режисером відео виступив Джефф Ван Гервен. Колектив також оголосив про майбутні концертні тури у Великій Британії та Європі спільно з Napalm Death, Master і Goatburner.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/26/news/brats-spit-on-his-grave-music-video-premieres/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/26/news/brats-spit-on-his-grave-music-video-premieres/",
+    "orig": "BRAT’s “Spit On His Grave” Music Video Premieres"
+   }
+  ],
+  [
+   1793039524.5712855,
+   2768,
+   "🎬",
+   "Як хорор досліджує жіночу сексуальність і одвічні темні бажання",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Як хорор досліджує жіночу сексуальність і одвічні темні бажання</b>\n\nФільми на кшталт «The Devils» Кена Расселла та сучасні стрічки «Obsession» і «Teenage Sex and Death at Camp Miasma» показують, як суспільство контролює жіночу пристрасть і перетворює її на джерело жаху. Через концепт «femcel» кіно переосмислює наслідки жіночої одвічної жаги та боротьбу за її приборкання.\n\n🔗 <a href=\"https://www.indiewire.com/features/commentary/femcel-horror-movies-the-devils-obsession-camp-miasma-1235223176/\">IndieWire</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/features/commentary/femcel-horror-movies-the-devils-obsession-camp-miasma-1235223176/",
+    "orig": "From ‘The Devils’ to ‘Obsession,’ How ‘Femcel’ Horror Handles Horny Women"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23727,7 +23795,8 @@
    1793020598.9895656,
    1793020611.1965659,
    1793023532.4995775,
-   1793037736.8474174
+   1793037736.8474174,
+   1793039503.08946
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
    1792998110.9370549,
@@ -23742,7 +23811,8 @@
    1793018050.3913388,
    1793019937.97708,
    1793021533.2159119,
-   1793037817.6022246
+   1793037817.6022246,
+   1793039509.2649825
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1792947774.3264449
@@ -23795,7 +23865,8 @@
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
    1793018014.896921,
-   1793036061.553482
+   1793036061.553482,
+   1793039524.5718863
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1793014482.3085518
@@ -23811,7 +23882,6 @@
    1792971151.139573
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1792951289.972881,
    1792954879.071074,
    1792958484.3185096,
    1792958501.5677788,
@@ -23823,7 +23893,9 @@
    1793030626.9854271,
    1793034098.4582567,
    1793035980.2187984,
-   1793035997.910556
+   1793035997.910556,
+   1793039499.4921799,
+   1793039516.298821
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -23885,8 +23957,7 @@
    1793032481.2364259
   ],
   "music|Pitchfork|https://pitchfork.com/feed/feed-news/rss": [
-   1792949482.261535,
-   1792953084.3822122
+   1793039492.7851405
   ],
   "music|Revolver|https://www.revolvermag.com/rss.xml": [
    1793018094.1681962,
@@ -23902,7 +23973,8 @@
    1793036011.5609512,
    1793036086.9670272,
    1793037754.371371,
-   1793037976.523703
+   1793037976.523703,
+   1793039519.569599
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1792481487.1423821
@@ -24786,6 +24858,7 @@
   "3c97390ebc7e6bea": 1792670605.294816,
   "3c9bdb1581e2c18c": 1792675942.5890045,
   "3cb50f0fd3348826": 1792740881.5197916,
+  "3cb61135691cba94": 1793039509.26494,
   "3cb909ba47d83f9a": 1792940539.9811897,
   "3cc17c63b67d24de": 1792352430.0356822,
   "3ccbb0620bb8fc8a": 1792595185.7295985,
@@ -25027,6 +25100,7 @@
   "4d9ae53671cd361e": 1792573278.3851054,
   "4d9fc2e275987fe3": 1792558793.9654853,
   "4da7a07f91ad6558": 1792755084.5550358,
+  "4db08409dc767bc7": 1793039519.5695376,
   "4dcdb95578272074": 1792821782.3315175,
   "4dd7559250c63f4f": 1792807287.1805592,
   "4ddbb2dade148e06": 1792769485.1442218,
@@ -25375,6 +25449,7 @@
   "67c850a571f357ad": 1792101830.3369472,
   "67cefa905121171d": 1792661482.6084423,
   "67fcd89d6cc872f9": 1793007190.9815881,
+  "67fec6bb1b9b1b5d": 1793039487.8722095,
   "68469f20b0135bb1": 1792505104.1313543,
   "6852c9782cf68cc6": 1793025147.2321131,
   "68553c8ae55485bf": 1792328499.9192948,
@@ -25465,6 +25540,7 @@
   "6e00661ecc25df8c": 1792528308.02064,
   "6e14b3ad10bc9e24": 1792625486.1460297,
   "6e1bb2d0a2427af8": 1792246822.944943,
+  "6e1fb6a87de8507c": 1793039492.785096,
   "6e2b0e14c7b0ac55": 1792037161.254809,
   "6e307abe62899171": 1792508488.1986048,
   "6e57911a7743ad43": 1791926940.5305667,
@@ -25562,6 +25638,7 @@
   "74a3fa79ad14fc25": 1792522853.9949398,
   "74cf73359fcedbc6": 1792755096.9159245,
   "7500df0cde5141c0": 1792683079.5245383,
+  "7502e62667016e06": 1793039516.2987766,
   "750da7d0b2face70": 1791989275.3805113,
   "7520f52f81c6f658": 1792056030.7567132,
   "7527728500b1592d": 1792492301.079896,
@@ -25810,6 +25887,7 @@
   "85d34d63319eb3ca": 1792681338.2739496,
   "85dff58db79afff0": 1792445499.1871026,
   "86179249f0415ea3": 1792515654.6131237,
+  "8634e09b2f5ec95c": 1793039524.5718398,
   "865f7ae4a8bf95ef": 1792352545.681555,
   "865fb0b9b3298bee": 1792611113.9521074,
   "8671b6cf48a47a6e": 1792686679.1465383,
@@ -26061,6 +26139,7 @@
   "96c65e1116a42b6b": 1792686708.8900337,
   "96e538d094e5f3d8": 1792695697.750197,
   "96fb6db8c5170cdc": 1792427584.0698988,
+  "97173073332a5650": 1793039503.0894141,
   "972486952b431aa0": 1792037166.0874913,
   "9729e211d9bb51b2": 1793020655.9842627,
   "97411bca089ab729": 1792668725.6253703,
@@ -26284,7 +26363,9 @@
   "a9582b88e618f0b9": 1792938685.065322,
   "a958c03c32a52385": 1792681523.902979,
   "a96560361523e784": 1792746275.4788184,
+  "a97905eb4f4fe88f": 1793039499.4921353,
   "a98212cd646e8a83": 1792600349.566509,
+  "a9901a8ec0cd9f04": 1793039463.8315127,
   "a99d4fead489e225": 1792422123.309201,
   "a9af8ed59b4ac362": 1792352514.8473883,
   "a9b4a4066e93a3fa": 1792706477.6199179,
@@ -26673,6 +26754,7 @@
   "c65d87de70325a08": 1792416680.0005522,
   "c664ba06e4355cb1": 1792595378.2044032,
   "c671500a3bb6285d": 1792621888.9192455,
+  "c67b189b19074ae7": 1793039487.8733566,
   "c67d126dcdba7d9f": 1792506276.688759,
   "c683b221439da26e": 1792783879.235299,
   "c6dd4fe391531aa4": 1792679773.3947988,
@@ -26792,6 +26874,7 @@
   "d084dcb5b9cf81ee": 1791908422.8879323,
   "d0a2de5cb340834d": 1792521161.2091506,
   "d0b0527bd501bf30": 1791929870.7550807,
+  "d0b528392cc25ae3": 1793039488.8550074,
   "d0dd73491b185162": 1792693911.994449,
   "d0f347b479f8dd84": 1793007185.6095016,
   "d102f678acd189d1": 1792602055.3345523,
@@ -27882,7 +27965,7 @@
   ],
   "artists_checked": 1793030808.8518064,
   "blocked_until": 1793030563.4810362,
-  "cursor": 83,
+  "cursor": 93,
   "digest_week": "2026-W43",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -28617,13 +28700,13 @@
    "IndieWire": 1,
    "Insider Gaming": 4,
    "PC Gamer": 1,
-   "Polygon": 4,
+   "Polygon": 5,
    "VGC": 1
   },
   "sources": {
    "/Film": 6,
    "AIN.ua": 1,
-   "Blabbermouth": 9,
+   "Blabbermouth": 11,
    "Bloomberg": 10,
    "DOU Gamedev": 1,
    "Deadline": 11,
@@ -28636,7 +28719,7 @@
    "GitHub Trending": 4,
    "IGN": 6,
    "ITC.ua": 15,
-   "IndieWire": 2,
+   "IndieWire": 3,
    "Insider Gaming": 15,
    "Kerrang!": 8,
    "Lambgoat": 4,
@@ -28646,21 +28729,22 @@
    "Mezha": 14,
    "Neformat": 1,
    "PC Gamer": 11,
-   "PlayUA": 6,
+   "Pitchfork": 1,
+   "PlayUA": 7,
    "Polygon": 6,
    "Product Hunt": 5,
    "Revolver": 2,
-   "Rock Paper Shotgun": 5,
+   "Rock Paper Shotgun": 6,
    "Stereogum": 3,
    "The Decoder": 4,
-   "ThePRP": 4,
+   "ThePRP": 5,
    "VGC": 7,
    "Variety": 6
   },
   "translators": {
    "DeepL": 4,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 190
+   "gemini-flash-lite-latest": 197
   },
   "week": "2026-W44"
  },
@@ -29499,36 +29583,6 @@
    0,
    "",
    1793027071.7802536
-  ],
-  "q:a24": [
-   0,
-   "",
-   1792866685.9246383
-  ],
-  "q:a24's elden": [
-   0,
-   "",
-   1792866685.3442998
-  ],
-  "q:a24's elden ring": [
-   0,
-   "",
-   1792866684.7010393
-  ],
-  "q:a24's elden ring movie": [
-   0,
-   "",
-   1792866684.0624225
-  ],
-  "q:a24's elden ring movie costs": [
-   0,
-   "",
-   1792866683.575959
-  ],
-  "q:a24's elden ring movie costs nearly": [
-   0,
-   "",
-   1792866683.084341
   ],
   "q:abiotic factor": [
    427410,
@@ -30910,16 +30964,6 @@
    "",
    1792866687.5999029
   ],
-  "q:elden ring movie costs nearly": [
-   0,
-   "",
-   1792866687.0566998
-  ],
-  "q:elden ring movie costs nearly 200": [
-   0,
-   "",
-   1792866686.5238535
-  ],
   "q:ellipsoid": [
    0,
    "",
@@ -31359,6 +31403,11 @@
    0,
    "",
    1793026881.8771803
+  ],
+  "q:gamemaker": [
+   1670460,
+   "GameMaker",
+   1793039505.1588671
   ],
   "q:gameplay": [
    0,
@@ -31884,6 +31933,16 @@
    1675600,
    "Holt",
    1793021497.9084604
+  ],
+  "q:hotline miami": [
+   219150,
+   "Hotline Miami",
+   1793039506.7827897
+  ],
+  "q:hotline miami and spelunky": [
+   0,
+   "",
+   1793039506.2662911
   ],
   "q:huge": [
    1650040,
@@ -33525,6 +33584,16 @@
    "Rayman Legends Retold",
    1792607495.2570462
   ],
+  "q:rayman legends retold ' expedition": [
+   0,
+   "",
+   1793039502.2494998
+  ],
+  "q:rayman legends retold ' expedition 33": [
+   0,
+   "",
+   1793039501.632627
+  ],
   "q:reblade the death spiral": [
    3489340,
    "ReBlade: The Death Spiral",
@@ -34035,6 +34104,11 @@
    "",
    1793036030.7736528
   ],
+  "q:spelunky": [
+   239350,
+   "Spelunky",
+   1793039507.3305044
+  ],
   "q:squadron 42": [
    4045720,
    "Squadron 42",
@@ -34419,6 +34493,11 @@
    0,
    "",
    1793021495.2881894
+  ],
+  "q:undertale": [
+   391540,
+   "Undertale",
+   1793039505.7366686
   ],
   "q:universe": [
    0,
@@ -35039,15 +35118,15 @@
  "tag_hints": {
   "Mezha": [
    "bioware",
-   "buntar",
    "calm bricks",
-   "delta",
+   "gsc game world",
    "mass effect 5",
    "nvidia",
    "osint",
    "poco",
    "poco x8s",
    "rtx",
+   "s.t.a.l.k.e.r. 2",
    "samsung",
    "skyfall",
    "storm shadow",
@@ -35055,7 +35134,6 @@
    "безпілотники",
    "бпла",
    "відеокарти",
-   "військові технології",
    "дрони",
    "евакуація",
    "залізо",
@@ -35078,26 +35156,6 @@
   ]
  },
  "titles": [
-  [
-   1792866680.9620633,
-   "Siamese release new song ‘alone’"
-  ],
-  [
-   1792866690.6136765,
-   "A24’s Elden Ring Movie Costs Nearly $200 Million"
-  ],
-  [
-   1792866694.38565,
-   "BioWare's incredible legacy will continue as long as there are RPGs"
-  ],
-  [
-   1792866697.9859865,
-   "Stalker 2's next update has already leaked"
-  ],
-  [
-   1792866701.1610274,
-   "Penguin Colony review: A daringly weird horror game whose atmosphere and surprises overcome its rough edges"
-  ],
   [
    1792868501.9115145,
    "ZAKK WYLDE On His 1995 Jams With GUNS N' ROSES: 'We Had A Good Time' But 'Nothing Was Ever Materializing'"
@@ -36437,29 +36495,37 @@
   [
    1793037976.5236578,
    "Agriculture Reveal New Openers For Fall Tour Following Uniform’s Exit"
+  ],
+  [
+   1793039492.7850974,
+   "Ecco2K, Whait, Angelo LeRoi, and More: This Week’s Pitchfork Selects Playlist"
+  ],
+  [
+   1793039499.4921372,
+   "'The Art Of METALLICA' Exhibition Coming To Haight Street Art Center In San Francisco"
+  ],
+  [
+   1793039503.0894158,
+   "У Rayman Legends Retold з’являться «багетні» костюми на честь Expedition 33"
+  ],
+  [
+   1793039509.2649412,
+   "The GameMaker engine series behind Undertale, Hotline Miami and Spelunky is going free for commercial use on PC"
+  ],
+  [
+   1793039516.2987785,
+   "ANGELA GOSSOW Explains How LAUREN HART Became The New Singer Of ARCH ENEMY"
+  ],
+  [
+   1793039519.569539,
+   "BRAT’s “Spit On His Grave” Music Video Premieres"
+  ],
+  [
+   1793039524.5718417,
+   "From ‘The Devils’ to ‘Obsession,’ How ‘Femcel’ Horror Handles Horny Women"
   ]
  ],
  "titles_uk": [
-  [
-   1792866680.962064,
-   "Siamese випустили новий трек «alone» без гітар"
-  ],
-  [
-   1792866690.6136773,
-   "Екранізація Elden Ring від A24 коштуватиме майже $200 мільйонів"
-  ],
-  [
-   1792866694.3856506,
-   "Спадщина BioWare увійшла в історію жанру RPG"
-  ],
-  [
-   1792866697.9859874,
-   "Деталі нового оновлення для S.T.A.L.K.E.R. 2 випадково злили в мережу"
-  ],
-  [
-   1792866701.1610281,
-   "Огляд горору Penguin Colony"
-  ],
   [
    1792868501.9115157,
    "Зак Вайлд розповів про свої джеми з GUNS N' ROSES у 1995 році"
@@ -37799,6 +37865,34 @@
   [
    1793037976.5236585,
    "Agriculture оновили лайнап гуртів розігріву для осіннього туру після відходу Uniform"
+  ],
+  [
+   1793039492.7850983,
+   "Новий плейлист Pitchfork Selects із треками Ecco2K, Whait та Angelo LeRoi"
+  ],
+  [
+   1793039499.4921381,
+   "У Сан-Франциско пройде масштабна виставка The Art Of METALLICA"
+  ],
+  [
+   1793039503.0894165,
+   "У Rayman Legends Retold з’являться «багетні» костюми на честь Expedition 33"
+  ],
+  [
+   1793039509.2649422,
+   "Двигун GameMaker стане безплатним для комерційного використання на ПК"
+  ],
+  [
+   1793039516.2987795,
+   "Анджела Госсов пояснила, як Лорен Гарт стала новою вокалисткою ARCH ENEMY"
+  ],
+  [
+   1793039519.5695398,
+   "Гурт BRAT випустив кліп на пісню «Spit On His Grave»"
+  ],
+  [
+   1793039524.5718427,
+   "Як хорор досліджує жіночу сексуальність і одвічні темні бажання"
   ]
  ],
  "ukrainian": {
