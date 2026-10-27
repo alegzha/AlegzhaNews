@@ -2,7 +2,7 @@
  "alerts": {},
  "daily_digest_date": "2026-10-26",
  "freebies": {
-  "last_check": 1793075493.7269647,
+  "last_check": 1793082690.439754,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -15,30 +15,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-27 05:33 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-10-27 06:31 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792389673.6426773,
-   1062,
-   "💾",
-   "Малий бізнес масово міняє веброзробників на штучний інтелект: вакансії з WordPress і PHP просіли на 60%",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://highload.tech/uk/malyj-biznes-masovo-minyaye-vebrozrobnykiv-na-shtuchnyj-intelekt-vakansiyi-z-wordpress-i-php-prosily-na-60/#new_tab",
-    "orig": "Малий бізнес масово міняє веброзробників на штучний інтелект: вакансії з WordPress і PHP просіли на 60%"
-   }
-  ],
   [
    1792391485.7536542,
    1063,
@@ -22905,7 +22892,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>Чому кінематографісти з числа кольорових людей стикаються з кар&#x27;єрними бар&#x27;єрами попри премії</b>\n\nРежисерка Bridget Stokes розповіла, що здобуття премії Emmy не гарантує нових студійних проєктів. Попри визнання, вона не отримувала пропозицій про роботу майже чотири роки через загальний спад у кіновиробництві та складність фінансування авторського кіно в Голлівуді.\n\n🔗 <a href=\"https://www.indiewire.com/features/interviews/hollywood-diversity-problem-isnt-just-about-who-gets-hired-1235223562/\">IndieWire</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.indiewire.com/features/interviews/hollywood-diversity-problem-isnt-just-about-who-gets-hired-1235223562/",
     "orig": "Why Emmy Wins and Hollywood Recognition Don’t Guarantee Jobs for BIPOC Artists: ‘The Needle Has Not F***ing Moved’"
@@ -23764,6 +23750,20 @@
     "link": "https://itc.ua/ua/novini/nezabarom-windows-11-zablokuye-fajlovu-systemu-na-deyakyh-usb-fleshkah-i-sd-kartah/",
     "orig": "Незабаром Windows 11 заблокує файлову систему на деяких USB-флешках і SD-картах"
    }
+  ],
+  [
+   1793082681.1794288,
+   2849,
+   "💾",
+   "NVIDIA представила SkillSpector для перевірки безпеки скілів ШІ",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>NVIDIA представила SkillSpector для перевірки безпеки скілів ШІ</b>\n\nNVIDIA випустила інструмент SkillSpector для виявлення вразливостей і шкідливого коду в скілах для ШІ-агентів. Дослідження показало, що 26,1% проаналізованих скілів містять вразливості, а 5,2% мають ознаки зловмисного наміру. Утиліта є частиною системи NVIDIA Verified Skills для перевірки та підписання скілів перед публікацією.\n\n🔗 <a href=\"https://github.com/NVIDIA/SkillSpector\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/NVIDIA/SkillSpector",
+    "orig": "NVIDIA/SkillSpector"
+   }
   ]
  ],
  "posted_by_source": {
@@ -24128,13 +24128,10 @@
    1792416696.5336893
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
-   1792915928.8324575,
-   1792919065.3444104,
-   1792920875.885049,
-   1792994476.6249447,
    1792996289.2628314,
    1792998319.6792967,
-   1793000076.5980134
+   1793000076.5980134,
+   1793082681.1798248
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1792998311.3306777,
@@ -27321,6 +27318,7 @@
   "e2f2938dd94a8a6b": 1792870254.6457899,
   "e303957b3d3c7cea": 1792619341.6085992,
   "e30b794ee307836d": 1792246801.6124501,
+  "e30f8dee0b0bb108": 1793082681.1797476,
   "e32694a4a97d2ee5": 1792665176.9772062,
   "e3324d3aee004767": 1792273223.7348657,
   "e33886430e8631d7": 1792619366.3577058,
@@ -28917,7 +28915,7 @@
    "Eurogamer": 8,
    "GameSpot": 9,
    "GamesIndustry.biz": 5,
-   "GitHub Trending": 4,
+   "GitHub Trending": 5,
    "IGN": 16,
    "ITC.ua": 16,
    "IndieWire": 5,
@@ -28945,7 +28943,7 @@
   "translators": {
    "DeepL": 4,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 287
+   "gemini-flash-lite-latest": 288
   },
   "week": "2026-W44"
  },
@@ -36745,10 +36743,6 @@
  },
  "titles": [
   [
-   1792908078.5819523,
-   "The chaos, controversy and beefs behind Slayer’s Reign In Blood"
-  ],
-  [
    1792909951.3047147,
    "The 6 Kingdom Hearts 4 Worlds We Want to See — and 4 We Absolutely Don't"
   ],
@@ -38231,13 +38225,13 @@
   [
    1793080873.3975072,
    "Незабаром Windows 11 заблокує файлову систему на деяких USB-флешках і SD-картах"
+  ],
+  [
+   1793082681.1797497,
+   "NVIDIA/SkillSpector"
   ]
  ],
  "titles_uk": [
-  [
-   1792908078.5819535,
-   "40 фактів про створення культового альбому Reign In Blood гурту Slayer"
-  ],
   [
    1792909951.3047159,
    "Які світи Disney можуть з'явитися у Kingdom Hearts 4"
@@ -39721,6 +39715,10 @@
   [
    1793080873.397508,
    "Незабаром Windows 11 заблокує файлову систему на деяких USB-флешках і SD-картах"
+  ],
+  [
+   1793082681.1797512,
+   "NVIDIA представила SkillSpector для перевірки безпеки скілів ШІ"
   ]
  ],
  "ukrainian": {
@@ -41967,7 +41965,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793079185.1227016,
+  "last_check": 1793082690.1090512,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
