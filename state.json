@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:games|SteamDB|https://bsky.app/profile/steamdb.info/rss": {
-   "detail": "https://bsky.app/profile/steamdb.info/rss → 500 Server Error: Internal Server Error for url: https://bsky.app/profile/did:plc:5rpt2nfpjlfmrncbbrgoucm5/rss",
-   "label": "Джерело «SteamDB» не працює",
-   "sent": 0,
-   "since": 1793176264.9298317
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-27",
  "freebies": {
   "last_check": 1793176611.1275096,
@@ -22,67 +15,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-28 08:36 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-10-28 09:01 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792485650.4832509,
-   1345,
-   "💾",
-   "Intel® GPU D-series",
-   "Product Hunt",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.producthunt.com/products/intel",
-    "orig": "Intel® GPU D-series"
-   }
-  ],
-  [
-   1792485660.6445081,
-   1346,
-   "🎮",
-   "З'явилися нові чутки про розробку Star Wars Battlefront 3",
-   "IGN",
-   {
-    "also": [
-     [
-      "VGC",
-      "https://www.videogameschronicle.com/news/dice-and-bungie-are-reportedly-both-interested-in-developing-star-wars-battlefront-3/"
-     ],
-     [
-      "Mezha",
-      "https://mezha.ua/news/bungie-may-develop-star-wars-battlefront-3-316345/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/theres-real-force-behind-these-star-wars-battlefront-3-rumors",
-    "orig": "There's Real Force Behind These Star Wars Battlefront 3 Rumors"
-   }
-  ],
-  [
-   1792485671.855828,
-   1347,
-   "🎮",
-   "GDC Festival of Gaming 2027 переходить на чотириденний формат",
-   "GamesIndustry.biz",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.gamesindustry.biz/gdc-festival-of-gaming-2027-moves-to-four-day-format-to-create-a-higher-quality-more-focused-and-valuable-experience",
-    "orig": "GDC Festival of Gaming 2027 moves to four-day format to \"create a higher quality, more focused and valuable experience\""
-   }
-  ],
   [
    1792487057.8041675,
    1348,
@@ -22877,7 +22820,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>Документальний фільм «Manhood» досліджує процедури збільшення пеніса</b>\n\nДокументальний фільм «Manhood» від режисера Деніела Ломброзо розповідає про підприємця Білла Мура та його мініінвазивну процедуру PhaloFILL для збільшення пеніса за допомогою гіалуронової кислоти. Стрічка досліджує чоловічу невпевненість, комерціалізацію таких послуг та історій клієнтів, включно з чоловіками з різними життєвими обставинами.\n\n🔗 <a href=\"https://www.indiewire.com/criticism/movies/manhood-review-penis-enlargement-documentary-1235185040/\">IndieWire</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.indiewire.com/criticism/movies/manhood-review-penis-enlargement-documentary-1235185040/",
     "orig": "‘Manhood’ Review: Penis Enlargement Documentary Curves Left of Center"
@@ -22891,7 +22833,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>Творці <a href=\"https://store.steampowered.com/app/379720/\">Doom</a> сперечаються в соцмережах про створення режиму DeathMatch</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/1882430/\">Creators</a>\n\nРозробники культового шутера Doom Джон Ромеро та Сенді Петерсен публічно посперечалися в X про те, чи вірила команда id Software в успіх мультиплеєрного режиму DeathMatch до релізу гри. Петерсен заявив, що розробники не очікували популярності цього режиму, проте Ромеро різко спростував це, пославшись на офіційний пресреліз 1993 року.\n\n🔗 <a href=\"https://www.ign.com/articles/two-creators-of-the-original-doom-are-arguing-about-its-history-on-social-media\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/two-creators-of-the-original-doom-are-arguing-about-its-history-on-social-media",
     "orig": "Two Creators of the Original Doom Are Arguing About its History on Social Media"
@@ -22905,7 +22846,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>У ДТП загинув сценарист The Daily Show і промов Барака Обами Кевін Блеєр</b>\n\nВолодар премій Emmy та Peabody сценарист і автор текстів Кевін Блеєр загинув у автомобільній аварії у віці 54 років. Він працював над шоу The Daily Show та Politically Incorrect with Bill Maher, а також писав промови для президента Барака Обами.\n\n🔗 <a href=\"https://deadline.com/2026/10/kevin-bleyer-dead-1237206488/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/kevin-bleyer-dead-1237206488/",
     "orig": "Kevin Bleyer Dies: Emmy Winning ‘Daily Show’ Writer & Barack Obama Speech Writer Killed In Car Crash At 54"
@@ -22919,7 +22859,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>Співробітники Don&#x27;t Nod звинуватили керівництво в незаконних діях на тлі загрози звільнень</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/1265920/\">Life Is Strange</a>\n\nПрофспілкові працівники студії Don&#x27;t Nod звинуватили керівництво у загрозі неплатоспроможності, масових скороченнях та «незаконних» методах управління. Через дворічну невизначеність на робочому місці сталося шість нещасних випадків, а ухвалення фінального рішення щодо плану компанії очікується наприкінці листопада.\n\n🔗 <a href=\"https://www.ign.com/articles/life-is-strange-developer-dont-nod-blasted-by-union-employees-over-illegal-management-practices-as-possible-layoffs-loom\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/life-is-strange-developer-dont-nod-blasted-by-union-employees-over-illegal-management-practices-as-possible-layoffs-loom",
     "orig": "Life Is Strange Developer Don't Nod Blasted by Union Employees Over 'Illegal' Management Practices as Possible Layoffs Loom"
@@ -22938,7 +22877,6 @@
       "https://www.theprp.com/2026/10/27/news/chad-gray-mudvayne-hellyeah-debuts-music-video-for-his-cover-of-christina-aguileras-beautiful/"
      ]
     ],
-    "caption": "🤘 <b>Фронтмен Mudvayne Чед Грей випустив кавер на пісню Christina Aguilera “Beautiful”</b>\n\nВокаліст Mudvayne та Hellyeah Чед Грей несподівано презентував важкий і чуттєвий кавер на поп-хіт Christina Aguilera «Beautiful» разом із кліпом. Музикант поєднав у треку чистий вокал зі скримом, потужними гітарами та барабанами. Авторка оригінальної пісні Лінда Перрі схвалила таку версію.\n\n🔗 <a href=\"https://www.revolvermag.com/premiere/chad-gray-cover-christina-aguileras-beautiful/\">Revolver</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.revolvermag.com/premiere/chad-gray-cover-christina-aguileras-beautiful/",
     "orig": "See video for MUDVAYNE singer CHAD GRAY’s heartfelt cover of CHRISTINA AGUILERA’s “Beautiful”"
@@ -22952,7 +22890,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Асистент звукорежисера METALLICA випустив мемуари про записи альбому Kill &#x27;Em All</b>\n\nКолишній асистент звукорежисера MusicAmerica Studios Ендрю Вроблевскі випустив мемуари Bass Solo - Take One: The Kill &#x27;Em All Tell &#x27;Em All. Книга містить особисті спогади, історії та рідкісні фотографії з історичних сесій запису дебютного альбому METALLICA 1983 року.\n\n🔗 <a href=\"https://blabbermouth.net/news/metallicas-kill-em-all-assistant-engineer-andrew-wroblewski-shares-stories-and-rare-photos-in-bass-solo-take-one-memoir\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/metallicas-kill-em-all-assistant-engineer-andrew-wroblewski-shares-stories-and-rare-photos-in-bass-solo-take-one-memoir",
     "orig": "METALLICA's 'Kill 'Em All' Assistant Engineer ANDREW WROBLEWSKI Shares Stories And Rare Photos In 'Bass Solo - Take One' Memoir"
@@ -23732,6 +23669,90 @@
     "link": "https://mezha.ua/news/openai-breakthrough-critique-316615/",
     "orig": "Науковці критикують OpenAI за обмежений доступ до доказів її ШІ-відкриттів"
    }
+  ],
+  [
+   1793178094.014945,
+   3124,
+   "💾",
+   "licenseal",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>licenseal</b>\n\nПеревіряйте несумісні ліцензії залежностей до релізу\n\n🔗 <a href=\"https://www.producthunt.com/products/licenseal\">Product Hunt</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/licenseal",
+    "orig": "licenseal"
+   }
+  ],
+  [
+   1793178096.0530398,
+   3125,
+   "💾",
+   "США замовили гіперзвукові ракети ARRW на $694 млн після планів закрити програму",
+   "AIN.ua",
+   {
+    "also": [],
+    "caption": "💾 <b>США замовили гіперзвукові ракети ARRW на $694 млн після планів закрити програму</b>\n\nКількість замовлених ракет і строки початку постачання не розкрили. ARRW планують інтегрувати на бомбардувальники B-52 та B-1.\n\n🔗 <a href=\"https://ain.ua/2026/10/28/ssa-zamovili-giperzvukovi-raketi-arrw-na-694-mln-pislia-planiv-zakriti-programu/\">AIN.ua</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://ain.ua/2026/10/28/ssa-zamovili-giperzvukovi-raketi-arrw-na-694-mln-pislia-planiv-zakriti-programu/",
+    "orig": "США замовили гіперзвукові ракети ARRW на $694 млн після планів закрити програму"
+   }
+  ],
+  [
+   1793178098.072948,
+   3126,
+   "🎬",
+   "Епічний фінал \"Дюни 3\": новий трейлер",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎬 <b>Епічний фінал &quot;Дюни 3&quot;: новий трейлер</b>\n\nКінокомпанія Warner Bros. Pictures оприлюднила фінальний український трейлер довгоочікуваного науково-фантастичного блокбастера “Дюна: Частина третя” (Dune: Part Three), який поставить масну крапку в трилогії Дені Вільньова.\n\n🔗 <a href=\"https://itc.ua/ua/novini/epichnyj-final-dyuny-3-novyj-trejler/\">ITC.ua</a>\n\n#кіно_і_серіали",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/epichnyj-final-dyuny-3-novyj-trejler/",
+    "orig": "Епічний фінал \"Дюни 3\": новий трейлер"
+   }
+  ],
+  [
+   1793178103.8804753,
+   3127,
+   "🎮",
+   "Для EA FC 27 вийшло велике оновлення 1.1.0 — що змінилося в грі?",
+   "PlayUA",
+   {
+    "also": [],
+    "caption": "🎮 <b>Для EA FC 27 вийшло велике оновлення 1.1.0 — що змінилося в грі?</b>\n\nEA Sports випустила масштабне оновлення 1.1.0 для EA FC 27. Патч приніс зміни до Ultimate Team, режиму кар’єри, інтерфейсу та ігрового процесу, а також виправив низку помилок, на які скаржилися гравці. Оновлення стало наступним великим патчем після версії 1.0.4, яка вийшла 7 жовтня. Розробники зосередилися на покращенні основних режимів гри та усуненні технічних проблем. Що […]\n\n🔗 <a href=\"https://playua.net/dlya-ea-fc-27-vyjshlo-velyke-onovlennya-1-1-0-shho-zminylosya-v-gri/\">PlayUA</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://playua.net/dlya-ea-fc-27-vyjshlo-velyke-onovlennya-1-1-0-shho-zminylosya-v-gri/",
+    "orig": "Для EA FC 27 вийшло велике оновлення 1.1.0 — що змінилося в грі?"
+   }
+  ],
+  [
+   1793178110.8094656,
+   3128,
+   "🎮",
+   "Для Red Dead Redemption 2 анонсували зомбі-мод Undead Damnation у стилі Undead Nightmare",
+   "PlayUA",
+   {
+    "also": [],
+    "caption": "🎮 <b>Для <a href=\"https://store.steampowered.com/app/1174180/\">Red Dead Redemption 2</a> анонсували зомбі-мод Undead Damnation у стилі Undead Nightmare</b>\n\nRed Dead Redemption 2 отримає масштабну фанатську модифікацію Undead Damnation, яка додасть до гри зомбі, нові завдання та локації. Проєкт створює моддер під псевдонімом Rixus, який уже представив дебютний трейлер напередодні Гелловіну. Undead Damnation задумана як приквел до Undead Nightmare — сюжетного доповнення до першої Red Dead Redemption, присвяченого зомбі-апокаліпсису. Rockstar Games так і не […]\n\n🔗 <a href=\"https://playua.net/dlya-red-dead-redemption-2-anonsuvaly-zombi-mod-undead-damnation-u-styli-undead-nightmare/\">PlayUA</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://playua.net/dlya-red-dead-redemption-2-anonsuvaly-zombi-mod-undead-damnation-u-styli-undead-nightmare/",
+    "orig": "Для Red Dead Redemption 2 анонсували зомбі-мод Undead Damnation у стилі Undead Nightmare"
+   }
+  ],
+  [
+   1793178114.5226693,
+   3129,
+   "🎮",
+   "Як я змусив 200 тисяч агентів бігати в Unity й чому процесор досі не горить",
+   "DOU Gamedev",
+   {
+    "also": [],
+    "caption": "🎮 <b>Як я змусив 200 тисяч агентів бігати в Unity й чому процесор досі не горить</b>\n\nЯ бекенд-розробник з п’ятнадцятирічним стажем: останні десять років пишу на Go, до того був PHP. З Unity по роботі не стикаюся — нові технології мені просто цікаво вивчати на іграх. Ще я у 2003 році закінчив музичну школу, тому знаю, що таке до-дієз. Ця стаття для тих, хто пише на Unity і давно хотів спитати, але соромився: як узагалі обробляти 200 000 агентів, щоб усе не вмирало вже на десяти агентах.\n\n🔗 <a href=\"https://gamedev.dou.ua/blogs/200k-agents-unity-dots-burst/\">DOU Gamedev</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://gamedev.dou.ua/blogs/200k-agents-unity-dots-burst/",
+    "orig": "Як я змусив 200 тисяч агентів бігати в Unity й чому процесор досі не горить"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23780,7 +23801,8 @@
    1792775790.1825686
   ],
   "games|DOU Gamedev|https://gamedev.dou.ua/feed/": [
-   1793093481.3084502
+   1793093481.3084502,
+   1793178114.5230744
   ],
   "games|Digital Foundry|https://www.digitalfoundry.net/feed": [
    1793124128.066908
@@ -23883,13 +23905,14 @@
    1793140288.0201366
   ],
   "games|PlayUA|https://playua.net/feed/": [
-   1793084576.98483,
    1793100696.838376,
    1793102486.7010436,
    1793104405.2460506,
    1793104418.0753293,
    1793116970.2478275,
-   1793127745.6985931
+   1793127745.6985931,
+   1793178103.8808808,
+   1793178110.8098807
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
    1793097187.7791455,
@@ -23948,12 +23971,12 @@
    1793176317.5226212
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
-   1793089898.9946876,
    1793097213.6636114,
    1793102567.40088,
    1793109778.2847164,
    1793114854.5257463,
-   1793122312.6100073
+   1793122312.6100073,
+   1793178098.0733602
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
    1793106179.0500205,
@@ -24094,7 +24117,8 @@
    1793139787.4976726
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
-   1793100702.0206006
+   1793100702.0206006,
+   1793178096.053462
   ],
   "software|Bloomberg|https://www.bloomberg.com/authors/AS7Hj1mBMGM/mark-gurman.rss": [
    1793139776.3485425
@@ -24132,7 +24156,8 @@
    1793091772.4078865,
    1793095283.8431485,
    1793172959.069733,
-   1793176591.6444972
+   1793176591.6444972,
+   1793178094.0153651
   ]
  },
  "seen": {
@@ -24145,6 +24170,7 @@
   "0075f9885681995e": 1792531881.5805173,
   "007a41f4dd4e05f1": 1792214821.3810494,
   "0097268bd97d31a8": 1793097052.6388667,
+  "0098b381985b8230": 1793178110.80984,
   "009dbf8216e61a83": 1792306067.5101936,
   "00a4d7dd39bb7ad8": 1792479928.7641747,
   "00ef7d039071e41a": 1792214866.010371,
@@ -25068,6 +25094,7 @@
   "3d2d029e83d45bf0": 1792490528.1088724,
   "3d2f1f537de26477": 1792080936.4482288,
   "3d3bb62b86286169": 1792593091.5927684,
+  "3d3e62ce14e67a8e": 1793178103.880839,
   "3d46b93fc95a7dfc": 1792621898.0027516,
   "3d5a3c8be2fc05a0": 1792749724.7991934,
   "3d67bf0bb9867325": 1792407735.6609592,
@@ -25567,6 +25594,7 @@
   "5dc515b40f0460b5": 1792584094.9365559,
   "5ddd6e6e6d05caf0": 1792514332.5151985,
   "5de6cba027f27e04": 1793106080.6064446,
+  "5df9b6d322e7223d": 1793178098.073319,
   "5dffaf99a44abb27": 1793154690.6365376,
   "5e1e4c10aefa2af7": 1791993942.2923877,
   "5e3257d5f1514894": 1792492252.585669,
@@ -26586,7 +26614,6 @@
   "a1f6f0c3b5fab713": 1792273192.1457617,
   "a1f7e63585308758": 1792246853.8455899,
   "a1fea5a38e432a36": 1792521231.943749,
-  "a204004c0897567b": 1791968053.915055,
   "a23f8a338062871e": 1793111621.5984886,
   "a2429860abce8344": 1792539076.0421798,
   "a2651bd277cebc0b": 1792666920.0853765,
@@ -26628,6 +26655,7 @@
   "a56056fa1f02f3de": 1793118795.4850905,
   "a574a334757997b2": 1792703020.9163623,
   "a5810c90b7226c9e": 1791975149.54224,
+  "a58e974c5a68beb2": 1793178094.015319,
   "a59dd72980911d8a": 1792522879.3003144,
   "a5a418ebb2ba9e99": 1792656076.2329063,
   "a5b7fe8614818477": 1793118741.0528142,
@@ -26652,6 +26680,7 @@
   "a785229c1275ff56": 1792839782.2607527,
   "a79a51becaf3635d": 1792612899.127808,
   "a79edd53ca99d119": 1792445514.553168,
+  "a7a2a44280ebb9f7": 1793178096.0534205,
   "a7b4f33690dc8f72": 1792652483.5200486,
   "a7b84aad4e6bf325": 1792369873.4625132,
   "a7d246ffd514005f": 1792445516.6131728,
@@ -27084,7 +27113,6 @@
   "c50be80521b44922": 1792681368.1193504,
   "c511809fba03c403": 1792854127.8647897,
   "c5320e6832dccb1e": 1792787491.4976537,
-  "c53267ad2de766ba": 1791968061.1901526,
   "c55373f4c22309a4": 1792740872.6594949,
   "c559a7678bc35b78": 1792958484.3184676,
   "c559b9174d527c15": 1792710091.4375508,
@@ -27318,7 +27346,6 @@
   "d6fff95ae53575d1": 1792494085.734604,
   "d7069e5fd878be3c": 1792699255.0839438,
   "d70ff3d3122e4ab7": 1792557079.1707566,
-  "d713bf288577c7a1": 1791968057.7819278,
   "d721ff6400c61026": 1792129291.6810944,
   "d740fe5e44ef76f2": 1792767861.3442836,
   "d7439caf03957f9e": 1792273212.992304,
@@ -27712,6 +27739,7 @@
   "f2a604d4571dc961": 1793124140.8972375,
   "f2aa652e8c009a8a": 1792594853.9380503,
   "f2b68d5b890cb0c6": 1792010077.7478874,
+  "f2c36932fd45d8f8": 1793178114.5230346,
   "f2d07824c5744808": 1793036061.5534372,
   "f2febc8f539eee7a": 1792683187.9929807,
   "f3046f95ab8c9ebe": 1792256269.0111341,
@@ -29123,10 +29151,10 @@
   },
   "sources": {
    "/Film": 17,
-   "AIN.ua": 3,
+   "AIN.ua": 4,
    "Blabbermouth": 31,
    "Bloomberg": 22,
-   "DOU Gamedev": 2,
+   "DOU Gamedev": 3,
    "Deadline": 35,
    "Decibel": 6,
    "Digital Foundry": 2,
@@ -29137,7 +29165,7 @@
    "GitHub Trending": 13,
    "Hugging Face": 2,
    "IGN": 35,
-   "ITC.ua": 28,
+   "ITC.ua": 29,
    "IndieWire": 10,
    "Insider Gaming": 38,
    "Kerrang!": 16,
@@ -29149,9 +29177,9 @@
    "Neformat": 1,
    "PC Gamer": 34,
    "Pitchfork": 4,
-   "PlayUA": 14,
+   "PlayUA": 16,
    "Polygon": 14,
-   "Product Hunt": 11,
+   "Product Hunt": 12,
    "Revolver": 4,
    "Rock Paper Shotgun": 12,
    "Stereogum": 6,
@@ -29163,7 +29191,7 @@
   "translators": {
    "DeepL": 14,
    "gemini-flash-latest": 8,
-   "gemini-flash-lite-latest": 556
+   "gemini-flash-lite-latest": 557
   },
   "week": "2026-W44"
  },
@@ -29728,6 +29756,11 @@
    "1+1=？",
    1792249922.5328646
   ],
+  "q:1 1 0": [
+   0,
+   "",
+   1793178102.6626463
+  ],
   "q:1 million": [
    0,
    "",
@@ -29973,6 +30006,16 @@
    "",
    1793104421.272681
   ],
+  "q:200": [
+   0,
+   "",
+   1793178113.3045883
+  ],
+  "q:200 unity": [
+   0,
+   "",
+   1793178112.7999556
+  ],
   "q:2020s": [
    0,
    "",
@@ -30062,6 +30105,11 @@
    0,
    "",
    1793019964.2986157
+  ],
+  "q:27 1 1 0": [
+   0,
+   "",
+   1793178102.1247728
   ],
   "q:27 2": [
    0,
@@ -32163,6 +32211,21 @@
    "",
    1793008925.223892
   ],
+  "q:damnation": [
+   0,
+   "",
+   1793178109.4781928
+  ],
+  "q:damnation undead": [
+   0,
+   "",
+   1793178108.920153
+  ],
+  "q:damnation undead nightmare": [
+   0,
+   "",
+   1793178108.4246564
+  ],
   "q:dark": [
    0,
    "",
@@ -32773,6 +32836,16 @@
    "",
    1793020606.9517872
   ],
+  "q:ea fc 27": [
+   0,
+   "",
+   1793178100.6060908
+  ],
+  "q:ea fc 27 1 1 0": [
+   0,
+   "",
+   1793178100.1233842
+  ],
   "q:ea fc mobile": [
    0,
    "",
@@ -33132,6 +33205,16 @@
    2252680,
    "Farlands",
    1792958489.5209355
+  ],
+  "q:fc 27": [
+   0,
+   "",
+   1793178101.5615337
+  ],
+  "q:fc 27 1 1 0": [
+   0,
+   "",
+   1793178101.0822158
   ],
   "q:fc mobile": [
    0,
@@ -37583,6 +37666,16 @@
    "Red Dead Redemption 2",
    1792512266.0392766
   ],
+  "q:red dead redemption 2 undead": [
+   0,
+   "",
+   1793178106.4414594
+  ],
+  "q:red dead redemption 2 undead damnation": [
+   0,
+   "",
+   1793178105.8979847
+  ],
   "q:red rising": [
    4653530,
    "Red Rising",
@@ -38983,10 +39076,30 @@
    "",
    1793021495.8145306
   ],
+  "q:undead damnation": [
+   0,
+   "",
+   1793178107.9391854
+  ],
+  "q:undead damnation undead": [
+   0,
+   "",
+   1793178107.4606812
+  ],
+  "q:undead damnation undead nightmare": [
+   0,
+   "",
+   1793178106.9274848
+  ],
   "q:undead labs": [
    0,
    "",
    1793021495.2881894
+  ],
+  "q:undead nightmare": [
+   0,
+   "",
+   1793178109.9494936
   ],
   "q:undertale": [
    391540,
@@ -39067,6 +39180,11 @@
    0,
    "",
    1793120572.3400128
+  ],
+  "q:unity": [
+   0,
+   "",
+   1793178113.8154213
   ],
   "q:universe": [
    0,
@@ -42260,6 +42378,30 @@
   [
    1793176601.332986,
    "Науковці критикують OpenAI за обмежений доступ до доказів її ШІ-відкриттів"
+  ],
+  [
+   1793178094.0153208,
+   "licenseal"
+  ],
+  [
+   1793178096.0534225,
+   "США замовили гіперзвукові ракети ARRW на $694 млн після планів закрити програму"
+  ],
+  [
+   1793178098.0733204,
+   "Епічний фінал \"Дюни 3\": новий трейлер"
+  ],
+  [
+   1793178103.8808408,
+   "Для EA FC 27 вийшло велике оновлення 1.1.0 — що змінилося в грі?"
+  ],
+  [
+   1793178110.8098416,
+   "Для Red Dead Redemption 2 анонсували зомбі-мод Undead Damnation у стилі Undead Nightmare"
+  ],
+  [
+   1793178114.523036,
+   "Як я змусив 200 тисяч агентів бігати в Unity й чому процесор досі не горить"
   ]
  ],
  "titles_uk": [
@@ -44346,6 +44488,30 @@
   [
    1793176601.3329868,
    "Науковці критикують OpenAI за обмежений доступ до доказів її ШІ-відкриттів"
+  ],
+  [
+   1793178094.015322,
+   "licenseal"
+  ],
+  [
+   1793178096.0534232,
+   "США замовили гіперзвукові ракети ARRW на $694 млн після планів закрити програму"
+  ],
+  [
+   1793178098.073321,
+   "Епічний фінал \"Дюни 3\": новий трейлер"
+  ],
+  [
+   1793178103.8808415,
+   "Для EA FC 27 вийшло велике оновлення 1.1.0 — що змінилося в грі?"
+  ],
+  [
+   1793178110.8098423,
+   "Для Red Dead Redemption 2 анонсували зомбі-мод Undead Damnation у стилі Undead Nightmare"
+  ],
+  [
+   1793178114.5230367,
+   "Як я змусив 200 тисяч агентів бігати в Unity й чому процесор досі не горить"
   ]
  ],
  "ukrainian": {
