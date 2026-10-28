@@ -1,16 +1,10 @@
 {
  "alerts": {
   "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Read timed out. (read timeout=20)",
    "label": "Джерело «Neformat» не працює",
    "sent": 0,
    "since": 1793217677.8233025
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1793217675.5652106
   }
  },
  "daily_digest_date": "2026-10-28",
@@ -28,30 +22,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-28 20:02 UTC",
+  "at": "2026-10-28 20:22 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 10
+   "gemini-flash-lite-latest": 4
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792526559.368455,
-   1512,
-   "🎮",
-   "Патч 26.21 для League of Legends оновив систему повторів і змінив 25 чемпіонів",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/lol-patch-2621-fixes-replays-and-rebalances-25-champions/",
-    "orig": "LoL Patch 26.21 Fixes Replays and Rebalances 25 Champions"
-   }
-  ],
   [
    1792528284.9557433,
    1513,
@@ -23074,7 +23055,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>У голосуванні за найстрашнішу гру залишилося вісім фіналістів</b>\n\nPC Gamer проводить турнір на звання найстрашнішої відеоігри, скоротивши список претендентів до восьми проєктів. Серед лідерів першого раунду за кількістю голосів виділилися Alien: Isolation, Dead Space та Amnesia: The Dark Descent. Переможця турніру оголосять у суботу вранці.\n\n🔗 <a href=\"https://www.pcgamer.com/games/horror/vote-now-8-games-remain-in-our-scariest-games-bracket/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/horror/vote-now-8-games-remain-in-our-scariest-games-bracket/",
     "orig": "Vote now: 8 games remain in our scariest games bracket"
@@ -23088,7 +23068,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎬 <b>&quot;Плетений&quot; отримає додаткові сеанси у 4DX через шалений попит</b>\n\nКомпанія CJ 4DPLEX, що стоїть за преміальним форматом з рухомими кріслами 4DX, додасть сеанси фентезійної романтики Плетений” (Wicker) студії Black Bear у кінотеатрах США. Квитки на разовий показ, запланований на 28 жовтня, розпродали, тож фільм лишиться у форматі до 4 листопада. Про це повідомляє The Wrap.\n\n🔗 <a href=\"https://itc.ua/ua/novini/pletenyj-otrymaye-dodatkovi-seansy-u-4dx-cherez-shalenyj-popyt/\">ITC.ua</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/pletenyj-otrymaye-dodatkovi-seansy-u-4dx-cherez-shalenyj-popyt/",
     "orig": "\"Плетений\" отримає додаткові сеанси у 4DX через шалений попит"
@@ -23102,7 +23081,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Нова гра про X-MEN від Insomniac Games матиме кількох ігрових персонажів</b>\n\nНові вакансії в Insomniac Games розкрили деталі майбутньої гри про X-MEN. У проєкті буде кілька ігрових героїв, бойова система від третьої особи, а також різноманітні вороги та масштабні боси.\n\n🔗 <a href=\"https://insider-gaming.com/x-men-insomniac-games/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/x-men-insomniac-games/",
     "orig": "Insomniac Games’ Upcoming X-MEN Game to Feature Multiple Playable Characters"
@@ -23929,6 +23907,48 @@
     "link": "https://distortedsoundmag.com/mean-ghouls-release-new-music-video-for-hes-a-serial-killer/",
     "orig": "Mean Ghouls release new music video for ‘He’s a Serial Killer’"
    }
+  ],
+  [
+   1793218934.982947,
+   3308,
+   "🤘",
+   "Фронтмен My Morning Jacket Джим Джеймс анонсував мемуари One Wonders",
+   "Pitchfork",
+   {
+    "also": [],
+    "caption": "🤘 <b>Фронтмен My Morning Jacket Джим Джеймс анонсував мемуари One Wonders</b>\n\nФронтмен My Morning Jacket Джим Джеймс анонсував свою першу книгу мемуарів One Wonders, яка вийде 13 квітня у видавництві Simon &amp; Schuster. У виданні музикант розповість про своє дитинство у Луїсвіллі, труднощі професійної кар&#x27;єри, а також про боротьбу з алкоголізмом і депресією.\n\n🔗 <a href=\"https://pitchfork.com/story/jim-james-announces-memoir-one-wonders/\">Pitchfork</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://pitchfork.com/story/jim-james-announces-memoir-one-wonders/",
+    "orig": "Jim James Announces Memoir One Wonders"
+   }
+  ],
+  [
+   1793218938.8978443,
+   3309,
+   "🤘",
+   "Кенні Гікі з Type O Negative назвав свої улюблені альбоми юності",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Кенні Гікі з Type O Negative назвав свої улюблені альбоми юності</b>\n\nГітарист Кенні Гікі з Silvertomb і Type O Negative згадав музику, яка формувала його смак у підлітковому віці з 1979 по 1985 рік. Музикант також розповів про роботу над новим альбомом гурту The Interpretations of Nightmares.\n\n🔗 <a href=\"https://loudwire.com/kenny-hickey-type-o-negative-silvertomb-favorite-albums-teenager/\">Loudwire</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://loudwire.com/kenny-hickey-type-o-negative-silvertomb-favorite-albums-teenager/",
+    "orig": "Kenny Hickey's 5 Favorite Albums When He Was a Teenager"
+   }
+  ],
+  [
+   1793218944.2088554,
+   3310,
+   "🎬",
+   "CNN, Politico та MS NOW оновили позов проти заборони Дональда Трампа на доступ до Air Force One",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>CNN, Politico та MS NOW оновили позов проти заборони Дональда Трампа на доступ до Air Force One</b>\n\nCNN, Politico та MS NOW доповнили позов проти Дональда Трампа через обмеження доступу їхніх журналістів до Air Force One та певних зон Білого дому. Раніше суд заборонив анулювати перепустки репортерів, проте видання все ще не допускають до пулових завдань та поїздок із президентом.\n\n🔗 <a href=\"https://deadline.com/2026/10/trump-ban-cnn-ms-now-politico-air-force-one-1237207471/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/trump-ban-cnn-ms-now-politico-air-force-one-1237207471/",
+    "orig": "CNN, MS NOW And Politico Amend Lawsuit To Challenge Trump Ban On Access To Air Force One And Certain White House Areas"
+   }
   ]
  ],
  "posted_by_source": {
@@ -24126,7 +24146,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1793131334.422786,
    1793134891.2182565,
    1793139780.3537054,
    1793154690.636587,
@@ -24140,7 +24159,8 @@
    1793189021.801867,
    1793190848.7684557,
    1793192608.6827505,
-   1793217716.0893583
+   1793217716.0893583,
+   1793218944.2093258
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1793122312.6100073,
@@ -24231,10 +24251,8 @@
    1793214161.1837847
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
-   1793107879.9531991,
-   1793120710.8247259,
-   1793124140.8972895,
-   1793190752.009115
+   1793190752.009115,
+   1793218938.8983276
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1793147539.1670835,
@@ -24260,7 +24278,8 @@
    1793032481.2364259
   ],
   "music|Pitchfork|https://pitchfork.com/feed/feed-news/rss": [
-   1793217686.162292
+   1793217686.162292,
+   1793218934.9834263
   ],
   "music|Revolver|https://www.revolvermag.com/rss.xml": [
    1793134909.817134,
@@ -24632,6 +24651,7 @@
   "11771227dfd020ac": 1792177178.2104647,
   "117739d81577afc1": 1792776703.5751061,
   "117d2cb5f38ac92c": 1793000076.597969,
+  "11a179d95827cd8d": 1793218942.8198647,
   "11a68d622c6bf5c9": 1792689485.356036,
   "11ae4696aac4636f": 1792798284.9167757,
   "11bd48799f32875e": 1792080927.3825507,
@@ -24939,6 +24959,7 @@
   "250711d9fff30131": 1793129510.23151,
   "2509dee4266ed40f": 1793207047.0846477,
   "250adc68e83215e0": 1792503078.0428882,
+  "2521874317bf5259": 1793218938.898277,
   "2522543501a2924d": 1792145496.4480858,
   "252e4996228b1c70": 1793014486.3827193,
   "253ccaa0b6d52fa3": 1793120755.1609738,
@@ -25305,6 +25326,7 @@
   "3cee9bf04f3fec2d": 1792455963.0023758,
   "3cf15057b01c7d0a": 1792776807.125356,
   "3cf203740b27df1b": 1792639874.7398376,
+  "3d2171791298d465": 1793218877.4122708,
   "3d236b06f06c600d": 1792164153.1257877,
   "3d2d029e83d45bf0": 1792490528.1088724,
   "3d2f1f537de26477": 1792080936.4482288,
@@ -25902,6 +25924,7 @@
   "6362a31ca7ec7f5c": 1792270318.1196992,
   "638133c831a2198a": 1792864903.3701034,
   "638f7d7aad6fad1e": 1792864893.625285,
+  "63ade99c01fabec5": 1793218944.2092752,
   "63b2ef49c36f01bf": 1792549902.814118,
   "63d2398c9275b494": 1793190752.0090716,
   "63dca797f6baf924": 1793214149.074181,
@@ -27700,6 +27723,7 @@
   "da7c0ef2c27f3029": 1792681517.0093107,
   "da8c66632b929291": 1792434722.3897011,
   "da96c458d6ecb96d": 1793046658.234037,
+  "daa8b1fd8ae476a0": 1793218877.4122708,
   "dac01961a9a97a95": 1792859621.7084367,
   "dac267da73a30f2a": 1792823485.8817618,
   "dafa9581fa3e49b9": 1792909853.006405,
@@ -28039,6 +28063,7 @@
   "f15b36ce9fa7d8e4": 1793192517.8660328,
   "f16d91e2cb8feaa9": 1792164589.7498298,
   "f187a4405b3941c5": 1792699278.1802473,
+  "f1a176b889f26e64": 1793218934.9833777,
   "f1aa5b59c81f2688": 1792764156.9804578,
   "f1af6209a8afd730": 1793210868.737465,
   "f1b16b101e609dd6": 1792755099.2490826,
@@ -28731,7 +28756,7 @@
   ],
   "artists_checked": 1793207257.407874,
   "blocked_until": 1793205272.8760033,
-  "cursor": 303,
+  "cursor": 313,
   "digest_week": "2026-W43",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -29461,7 +29486,7 @@
    "Вішліст Steam": 4
   },
   "filtered": {
-   "/Film": 6,
+   "/Film": 7,
    "Bloomberg": 7,
    "Deadline": 5,
    "Distorted Sound": 1,
@@ -29471,7 +29496,7 @@
    "Insider Gaming": 9,
    "Loudwire": 2,
    "Metal Hammer (Louder)": 1,
-   "PC Gamer": 2,
+   "PC Gamer": 3,
    "Pitchfork": 2,
    "Polygon": 30,
    "Revolver": 1,
@@ -29485,7 +29510,7 @@
    "Blabbermouth": 47,
    "Bloomberg": 32,
    "DOU Gamedev": 3,
-   "Deadline": 42,
+   "Deadline": 43,
    "Decibel": 8,
    "Digital Foundry": 3,
    "Distorted Sound": 15,
@@ -29500,13 +29525,13 @@
    "Insider Gaming": 52,
    "Kerrang!": 23,
    "Lambgoat": 25,
-   "Loudwire": 10,
+   "Loudwire": 11,
    "Metal Hammer (Louder)": 18,
    "Metal Injection": 11,
    "Mezha": 51,
    "Neformat": 1,
    "PC Gamer": 49,
-   "Pitchfork": 5,
+   "Pitchfork": 6,
    "PlayUA": 18,
    "Polygon": 18,
    "Product Hunt": 13,
@@ -29521,7 +29546,7 @@
   "translators": {
    "DeepL": 15,
    "gemini-flash-latest": 8,
-   "gemini-flash-lite-latest": 744
+   "gemini-flash-lite-latest": 748
   },
   "week": "2026-W44"
  },
@@ -30626,26 +30651,6 @@
    "Absence",
    1792591299.6776512
   ],
-  "q:access": [
-   0,
-   "",
-   1793044904.5250807
-  ],
-  "q:access launch": [
-   0,
-   "",
-   1793044903.9769325
-  ],
-  "q:access launch at the last": [
-   0,
-   "",
-   1793044903.4637918
-  ],
-  "q:access launch at the last minute": [
-   0,
-   "",
-   1793044902.8522675
-  ],
   "q:acer nitro": [
    0,
    "",
@@ -30660,16 +30665,6 @@
    0,
    "",
    1793215921.2843602
-  ],
-  "q:activity game back from": [
-   0,
-   "",
-   1793044942.5130165
-  ],
-  "q:activity game back from the dead": [
-   0,
-   "",
-   1793044942.0038521
   ],
   "q:actor says cast": [
    0,
@@ -31721,21 +31716,6 @@
    "",
    1793113372.9294627
   ],
-  "q:call of duty franchise": [
-   0,
-   "",
-   1793044887.2747765
-  ],
-  "q:call of duty franchise surpasses": [
-   0,
-   "",
-   1793044886.693567
-  ],
-  "q:call of duty franchise surpasses 40": [
-   0,
-   "",
-   1793044886.1551883
-  ],
   "q:call of duty lifetime": [
    0,
    "",
@@ -31835,36 +31815,6 @@
    0,
    "",
    1793059279.6920102
-  ],
-  "q:canned": [
-   0,
-   "",
-   1793044939.2882578
-  ],
-  "q:canned paranormal": [
-   0,
-   "",
-   1793044938.7621324
-  ],
-  "q:canned paranormal activity": [
-   0,
-   "",
-   1793044938.1966717
-  ],
-  "q:canned paranormal activity game": [
-   0,
-   "",
-   1793044937.6700735
-  ],
-  "q:canned paranormal activity game back": [
-   0,
-   "",
-   1793044937.1376214
-  ],
-  "q:canned paranormal activity game back from": [
-   0,
-   "",
-   1793044936.5882535
   ],
   "q:capcom celebrates": [
    0,
@@ -32611,26 +32561,6 @@
    "",
    1793104443.7791793
   ],
-  "q:delays": [
-   0,
-   "",
-   1793044900.6717215
-  ],
-  "q:delays early": [
-   0,
-   "",
-   1793044900.0988905
-  ],
-  "q:delays early access": [
-   0,
-   "",
-   1793044899.4759395
-  ],
-  "q:delays early access launch": [
-   0,
-   "",
-   1793044898.9261332
-  ],
   "q:deliciously dark twist": [
    0,
    "",
@@ -32770,26 +32700,6 @@
    2344520,
    "Diablo® IV",
    1793044912.647966
-  ],
-  "q:diablo 4's war": [
-   0,
-   "",
-   1793044912.0666823
-  ],
-  "q:diablo 4's war plans": [
-   0,
-   "",
-   1793044911.5452907
-  ],
-  "q:diablo 4's war plans are": [
-   0,
-   "",
-   1793044911.0397973
-  ],
-  "q:diablo 4's war plans are getting": [
-   0,
-   "",
-   1793044910.4871323
   ],
   "q:dino crisis": [
    4249130,
@@ -33116,21 +33026,6 @@
    "EA SPORTS FC™ 27",
    1792535481.871171
   ],
-  "q:early": [
-   0,
-   "",
-   1793044902.3363917
-  ],
-  "q:early access launch": [
-   0,
-   "",
-   1793044901.7516303
-  ],
-  "q:early access launch at the last": [
-   0,
-   "",
-   1793044901.1933794
-  ],
   "q:earth'": [
    0,
    "",
@@ -33405,16 +33300,6 @@
    0,
    "",
    1793109687.9842641
-  ],
-  "q:extraction": [
-   0,
-   "",
-   1793044922.5506003
-  ],
-  "q:extraction game": [
-   0,
-   "",
-   1793044922.009234
   ],
   "q:factorio": [
    427520,
@@ -33956,11 +33841,6 @@
    "",
    1793102551.672904
   ],
-  "q:franchise": [
-   0,
-   "",
-   1793044890.616793
-  ],
   "q:franchise hits": [
    0,
    "",
@@ -33985,31 +33865,6 @@
    0,
    "",
    1793104458.099809
-  ],
-  "q:franchise surpasses": [
-   0,
-   "",
-   1793044890.0468214
-  ],
-  "q:franchise surpasses 40": [
-   0,
-   "",
-   1793044889.5046828
-  ],
-  "q:franchise surpasses 40 billion": [
-   0,
-   "",
-   1793044888.9979093
-  ],
-  "q:franchise surpasses 40 billion lifetime": [
-   0,
-   "",
-   1793044888.468597
-  ],
-  "q:franchise surpasses 40 billion lifetime revenue": [
-   0,
-   "",
-   1793044887.8902607
   ],
   "q:free jarvan": [
    0,
@@ -34320,31 +34175,6 @@
    0,
    "",
    1793203298.058669
-  ],
-  "q:getting": [
-   0,
-   "",
-   1793044925.2945545
-  ],
-  "q:getting massive": [
-   0,
-   "",
-   1793044924.758254
-  ],
-  "q:getting massive update": [
-   0,
-   "",
-   1793044924.1817386
-  ],
-  "q:getting massive update next": [
-   0,
-   "",
-   1793044923.66031
-  ],
-  "q:getting massive update next week": [
-   0,
-   "",
-   1793044923.0815735
   ],
   "q:getting more pvp focused": [
    0,
@@ -35481,11 +35311,6 @@
    "",
    1793214096.9797952
   ],
-  "q:launch at the last minute": [
-   0,
-   "",
-   1793044905.0426865
-  ],
   "q:launch phantom beast xr glasses": [
    0,
    "",
@@ -36130,11 +35955,6 @@
    0,
    "",
    1793118797.9758735
-  ],
-  "q:massive update next week": [
-   0,
-   "",
-   1793044925.804053
   ],
   "q:master the use of ai": [
    0,
@@ -37196,6 +37016,16 @@
    "",
    1793134884.5202677
   ],
+  "q:our": [
+   0,
+   "",
+   1793218941.6278946
+  ],
+  "q:our engineers are no longer writing the bulk of the code": [
+   0,
+   "",
+   1793218941.0193133
+  ],
   "q:out": [
    0,
    "",
@@ -37320,26 +37150,6 @@
    0,
    "",
    1793048482.435065
-  ],
-  "q:paranormal": [
-   0,
-   "",
-   1793044941.3967886
-  ],
-  "q:paranormal activity": [
-   0,
-   "",
-   1793044940.8610752
-  ],
-  "q:paranormal activity game back": [
-   0,
-   "",
-   1793044940.3330784
-  ],
-  "q:paranormal activity game back from": [
-   0,
-   "",
-   1793044939.816501
   ],
   "q:pardo's bonfire studios'": [
    0,
@@ -37595,16 +37405,6 @@
    3219030,
    "Planet Zoo 2",
    1791894812.7149363
-  ],
-  "q:plans are getting a huge": [
-   0,
-   "",
-   1793044916.4677076
-  ],
-  "q:plans are getting a huge upgrade": [
-   0,
-   "",
-   1793044915.9092426
   ],
   "q:plants vs zombies": [
    3590,
@@ -37995,21 +37795,6 @@
    0,
    "",
    1793207072.6437175
-  ],
-  "q:pve": [
-   0,
-   "",
-   1793044921.4224381
-  ],
-  "q:pve extraction": [
-   0,
-   "",
-   1793044920.8685572
-  ],
-  "q:pve extraction game": [
-   0,
-   "",
-   1793044920.30639
   ],
   "q:quake": [
    2310,
@@ -38876,11 +38661,6 @@
    "Squadron 42",
    1791722090.4925961
   ],
-  "q:square": [
-   0,
-   "",
-   1793044951.775462
-  ],
   "q:ssd": [
    0,
    "",
@@ -39141,21 +38921,6 @@
    "",
    1793116879.7833703
   ],
-  "q:surpasses 40 billion lifetime": [
-   0,
-   "",
-   1793044892.292595
-  ],
-  "q:surpasses 40 billion lifetime revenue": [
-   0,
-   "",
-   1793044891.7110002
-  ],
-  "q:surpasses 40 billion lifetime revenue following": [
-   0,
-   "",
-   1793044891.194632
-  ],
   "q:survival games": [
    307150,
    "Survival Games",
@@ -39350,16 +39115,6 @@
    0,
    "",
    1793120757.2061605
-  ],
-  "q:times": [
-   0,
-   "",
-   1793044951.2053378
-  ],
-  "q:times square": [
-   0,
-   "",
-   1793044950.6312878
   ],
   "q:timi studio": [
    0,
@@ -39956,35 +39711,10 @@
    "",
    1793201778.1645758
   ],
-  "q:war": [
-   0,
-   "",
-   1793044915.3970277
-  ],
   "q:war 4": [
    0,
    "",
    1793196176.171616
-  ],
-  "q:war plans": [
-   0,
-   "",
-   1793044914.8451436
-  ],
-  "q:war plans are": [
-   0,
-   "",
-   1793044914.3290117
-  ],
-  "q:war plans are getting": [
-   0,
-   "",
-   1793044913.812685
-  ],
-  "q:war plans are getting a huge": [
-   0,
-   "",
-   1793044913.173685
   ],
   "q:warcraft": [
    0,
@@ -40835,30 +40565,6 @@
   ]
  },
  "titles": [
-  [
-   1793044929.0697465,
-   "PvE Extraction Game ‘Incursion Red River’ Getting Massive Update Next Week"
-  ],
-  [
-   1793044934.3243525,
-   "Why Emmy Wins and Hollywood Recognition Don’t Guarantee Jobs for BIPOC Artists: ‘The Needle Has Not F***ing Moved’"
-  ],
-  [
-   1793044944.0481434,
-   "Canned Paranormal Activity Game Back From The Dead as Playable Archive, Free on Steam"
-  ],
-  [
-   1793044954.700101,
-   "Greysight Premiere “DON’T LOOK AT ME” Video"
-  ],
-  [
-   1793044957.9170718,
-   "The Regreening is a post-apocalyptic farm sim where you grow animal habitats instead of cash crops"
-  ],
-  [
-   1793044961.7572553,
-   "‘Elastic Hearts’ Filmmakers Claim Their Movie Was Denied a Texas Tax Incentive Over Abortion Storyline"
-  ],
   [
    1793046707.3773768,
    "NICKELBACK Members Explain Why Being A Globally Famous Rock Band Is 'A Double-Edged Sword'"
@@ -42910,33 +42616,21 @@
   [
    1793217721.715181,
    "Mean Ghouls release new music video for ‘He’s a Serial Killer’"
+  ],
+  [
+   1793218934.9833794,
+   "Jim James Announces Memoir One Wonders"
+  ],
+  [
+   1793218938.8982794,
+   "Kenny Hickey's 5 Favorite Albums When He Was a Teenager"
+  ],
+  [
+   1793218944.2092772,
+   "CNN, MS NOW And Politico Amend Lawsuit To Challenge Trump Ban On Access To Air Force One And Certain White House Areas"
   ]
  ],
  "titles_uk": [
-  [
-   1793044929.0697477,
-   "Для Incursion Red River анонсували масштабне оновлення 1.4"
-  ],
-  [
-   1793044934.3243546,
-   "Чому кінематографісти з числа кольорових людей стикаються з кар'єрними бар'єрами попри премії"
-  ],
-  [
-   1793044944.0481446,
-   "Скасована гра за Paranormal Activity вийшла безкоштовно у Steam"
-  ],
-  [
-   1793044954.7001019,
-   "Greysight випустили кліп на пісню \"DON’T LOOK AT ME\""
-  ],
-  [
-   1793044957.9170732,
-   "Анонсовано The Regreening — постапокаліптичний симулятор ферми без вирощування врожаю заради прибутку"
-  ],
-  [
-   1793044961.757257,
-   "Фільм ‘Elastic Hearts’ через тему абортів позбавили податкових пільг у Техасі"
-  ],
   [
    1793046707.3773775,
    "Учасники NICKELBACK назвали світову популярність палицею про два кінці"
@@ -44988,6 +44682,18 @@
   [
    1793217721.7151818,
    "Mean Ghouls випустили новий кліп на пісню He’s a Serial Killer"
+  ],
+  [
+   1793218934.9833806,
+   "Фронтмен My Morning Jacket Джим Джеймс анонсував мемуари One Wonders"
+  ],
+  [
+   1793218938.8982816,
+   "Кенні Гікі з Type O Negative назвав свої улюблені альбоми юності"
+  ],
+  [
+   1793218944.2092776,
+   "CNN, Politico та MS NOW оновили позов проти заборони Дональда Трампа на доступ до Air Force One"
   ]
  ],
  "ukrainian": {
