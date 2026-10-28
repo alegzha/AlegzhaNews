@@ -1,8 +1,15 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:games|SteamDB|https://bsky.app/profile/steamdb.info/rss": {
+   "detail": "https://bsky.app/profile/steamdb.info/rss → 500 Server Error: Internal Server Error for url: https://bsky.app/profile/did:plc:5rpt2nfpjlfmrncbbrgoucm5/rss",
+   "label": "Джерело «SteamDB» не працює",
+   "sent": 0,
+   "since": 1793176264.9298317
+  }
+ },
  "daily_digest_date": "2026-10-27",
  "freebies": {
-  "last_check": 1793169086.8922498,
+  "last_check": 1793176611.1275096,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -15,44 +22,19 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-28 08:02 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-latest",
+  "at": "2026-10-28 08:36 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792485103.0947309,
-   1343,
-   "💾",
-   "Lugh Xtudio",
-   "Product Hunt",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.producthunt.com/products/lugh-xtudio",
-    "orig": "Lugh Xtudio"
-   }
-  ],
-  [
-   1792485148.75613,
-   1344,
-   "🤘",
-   "The Warning, Hanabie. та Kami Kehoe поповнили лайн-ап фестивалю Sonic Temple 2027",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55427/the-warning-hanabie-and-kami-kehoe-added-to-2027-sonic-temple-festival/",
-    "orig": "The Warning, Hanabie., and Kami Kehoe added to 2027 Sonic Temple festival"
-   }
-  ],
   [
    1792485650.4832509,
    1345,
@@ -22812,7 +22794,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>Документалка You Can See Everything збирає вражаючу касу в США</b>\n\nДокументальний фільм You Can See Everything від A24 зібрав $45,1 мільйона в американському прокаті та став однією з найкасовіших неігрових стрічок в історії країни. Лента вже випередила багато відомих проєктів про природу, музику та суспільство, проте поки що відстає від рекордсмена — Fahrenheit 9/11 Мајкла Мура.\n\n🔗 <a href=\"https://www.indiewire.com/news/box-office/you-can-see-everything-catch-fahrenheit-9-11-box-office-1235223865/\">IndieWire</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.indiewire.com/news/box-office/you-can-see-everything-catch-fahrenheit-9-11-box-office-1235223865/",
     "orig": "Will ‘You Can See Everything’ Catch ‘Fahrenheit 9/11’ to Be the Highest-Grossing Documentary Ever?"
@@ -22826,7 +22807,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Піт Тауншенд зізнався, що ніколи не захоплювався LED ZEPPELIN</b>\n\nГітарист THE WHO Піт Тауншенд розповів в інтерв&#x27;ю, що ніколи по-справжньому не слухав LED ZEPPELIN, а єдиним важким гуртом, який його цікавив, був AC/DC. Музикант також зазначив, що свого часу вони не сприймали LED ZEPPELIN через побоювання, що ті заберуть їхню аудиторію.\n\n🔗 <a href=\"https://blabbermouth.net/news/the-whos-pete-townshend-says-he-never-really-got-into-led-zeppelin-the-only-heavy-metal-i-really-listened-to-was-ac-dc\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/the-whos-pete-townshend-says-he-never-really-got-into-led-zeppelin-the-only-heavy-metal-i-really-listened-to-was-ac-dc",
     "orig": "THE WHO's PETE TOWNSHEND Says He 'Never Really Got Into LED ZEPPELIN': 'The Only Heavy Metal I Really Listened To Was AC/DC'"
@@ -22840,7 +22820,6 @@
    "GameSpot",
    {
     "also": [],
-    "caption": "🎮 <b>У World of Warcraft: Forever стартувало створення персонажів</b>\n\nДля World of Warcraft: Forever запустили створення персонажів та резервацію імен. Функція доступна власникам видання Skyborne Heroic Pack за $30, які заздалегідь встановили гру через Battle.net.\n\n🔗 <a href=\"https://www.gamespot.com/articles/you-can-make-your-wow-forever-character-now-and-be-ready-for-launch/\">GameSpot</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamespot.com/articles/you-can-make-your-wow-forever-character-now-and-be-ready-for-launch/",
     "orig": "You Can Make Your WoW: Forever Character Now And Be Ready For Launch"
@@ -22859,7 +22838,6 @@
       "https://www.theprp.com/2026/10/27/news/metallicas-kirk-hammett-provides-a-new-reading-of-edgar-allan-poes-the-raven/"
      ]
     ],
-    "caption": "🤘 <b>Гітарист Metallica Кірк Гемметт зачитав поему Едгара Аллана По «Крук»</b>\n\nПотужні чотири хвилини моторошної атмосферності.\n\n🔗 <a href=\"https://metalinjection.net/news/watch-metallicas-kirk-hammett-read-edgar-allan-poes-the-raven-because-why-not\">Metal Injection</a>\n\n#музика",
     "kind": "photo",
     "link": "https://metalinjection.net/news/watch-metallicas-kirk-hammett-read-edgar-allan-poes-the-raven-because-why-not",
     "orig": "Watch Metallica’s Kirk Hammett Read Edgar Allan Poe’s ‘The Raven,’ Because Why Not?"
@@ -22873,7 +22851,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>До 10-річчя фільму Desert Age випустять оновлену версію та трекул із Kyuss</b>\n\nЮвілейне видання документального фільму Desert Age вийде 20 листопада безплатно на сайті режисера Jason Georgiades. Стрічка отримала додаткові кадри з концерту Black Flag 1981 року, а також новий кліп за участю гурту Kyuss.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/27/news/desert-age-a-rock-and-roll-scene-history-10th-anniversary-due-in-november-kyuss-clip-released/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/27/news/desert-age-a-rock-and-roll-scene-history-10th-anniversary-due-in-november-kyuss-clip-released/",
     "orig": "‘Desert Age: A Rock And Roll Scene History’ 10th Anniversary Due In November, Kyuss Clip Released"
@@ -22887,7 +22864,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎮 <b>Готуйте місце на SSD: з&#x27;явилася інформація про розмір файлів і дату передзавантаження GTA 6</b>\n\nGTA 6 може потребувати 210 ГБ вільного місця на PlayStation 5. За даними профільного акаунта PlayStation Game Size у соцмережі X, попереднє завантаження гри розпочнеться 12 листопада — за тиждень до релізу 19 листопада 2026 року.\n\n🔗 <a href=\"https://itc.ua/ua/novini/gotujte-mistse-na-ssd-z-yavylasya-informatsiya-pro-rozmir-gta-6-i-datu-peredzavantazhennya/\">ITC.ua</a>\n\n#ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/gotujte-mistse-na-ssd-z-yavylasya-informatsiya-pro-rozmir-gta-6-i-datu-peredzavantazhennya/",
     "orig": "Готуйте місце на SSD: з'явилася інформація про розмір файлів і дату передзавантаження GTA 6"
@@ -23672,6 +23648,90 @@
     "link": "https://github.com/togg53192-cmd/jailbreaks",
     "orig": "togg53192-cmd/jailbreaks"
    }
+  ],
+  [
+   1793176302.857605,
+   3118,
+   "🎮",
+   "Три науково-фантастичні RPG як альтернатива Mass Effect",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Три науково-фантастичні RPG як альтернатива <a href=\"https://store.steampowered.com/app/1328670/\">Mass Effect</a></b>\n\n🔗 <a href=\"https://www.polygon.com/upcoming-games-like-mass-effect/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/upcoming-games-like-mass-effect/",
+    "orig": "3 Upcoming Sci-Fi RPGs Better Than Waiting for a New Mass Effect"
+   }
+  ],
+  [
+   1793176317.5221312,
+   3119,
+   "🎬",
+   "Документальний фільм Diamond Diplomacy про історію США та Японії дебютував у Токіо",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Документальний фільм Diamond Diplomacy про історію США та Японії дебютував у Токіо</b>\n\nДокументальний фільм Diamond Diplomacy режисерки Юріко Гамо Ромер отримав перший міжнародний показ на Токійському кінофестивалі. Стрічка досліджує понад 150 років бейсбольної історії між США та Японією — від епохи Мейдзі до сучасних зірок спорту. Через бейсбол автори показують теми дипломатії, расизму, війни та культурного обміну.\n\n🔗 <a href=\"https://deadline.com/2026/10/yuriko-gamo-romer-marc-smolowitz-diamond-diplomacy-tokyo-1237206812/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/yuriko-gamo-romer-marc-smolowitz-diamond-diplomacy-tokyo-1237206812/",
+    "orig": "Yuriko Gamo Romer & Marc Smolowitz On The 12 Year Journey Behind Their Japanese-U.S. History Baseball Doc ‘Diamond Diplomacy’ — Tokyo"
+   }
+  ],
+  [
+   1793176591.644139,
+   3120,
+   "💾",
+   "OpenLLM",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>OpenLLM</b>\n\nБеріть свої токени AI куди завгодно Обговорення | Посилання\n\n🔗 <a href=\"https://www.producthunt.com/products/openllm\">Product Hunt</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/openllm",
+    "orig": "OpenLLM"
+   }
+  ],
+  [
+   1793176595.12562,
+   3121,
+   "🎮",
+   "Історія GTA. Як одна ігрова серія майже 30 років задає стандарти індустрії",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🎮 <b>Історія GTA. Як одна ігрова серія майже 30 років задає стандарти індустрії</b>\n\nВже зовсім скоро, 19 листопада 2026 р., на PlayStation 5 і Xbox Series X|S вийде Grand Theft Auto VI – перша нова номерна частина серії з 2013 р. Але почалася ця історія майже 30 років тому, з першої GTA.\n\n🔗 <a href=\"https://mezha.ua/articles/history-of-gta-316581/\">Mezha</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://mezha.ua/articles/history-of-gta-316581/",
+    "orig": "Історія GTA. Як одна ігрова серія майже 30 років задає стандарти індустрії"
+   }
+  ],
+  [
+   1793176599.359158,
+   3122,
+   "🎮",
+   "Gamescom Asia x Thailand Game Show б'є рекорди масштабу й відвідуваності",
+   "GamesIndustry.biz",
+   {
+    "also": [],
+    "caption": "🎮 <b>Gamescom Asia x Thailand Game Show б&#x27;є рекорди масштабу й відвідуваності</b>\n\n🔗 <a href=\"https://www.gamesindustry.biz/gamescom-asia-touts-new-records-for-international-attendance-and-showfloor-size\">GamesIndustry.biz</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamesindustry.biz/gamescom-asia-touts-new-records-for-international-attendance-and-showfloor-size",
+    "orig": "Gamescom Asia touts new records for international attendance and showfloor size"
+   }
+  ],
+  [
+   1793176601.3325691,
+   3123,
+   "🤖",
+   "Науковці критикують OpenAI за обмежений доступ до доказів її ШІ-відкриттів",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🤖 <b>Науковці критикують OpenAI за обмежений доступ до доказів її ШІ-відкриттів</b>\n\nOpenAI критикують за вибірковий доступ до доказів її ШІ-відкриттів. Науковці закликають опублікувати матеріали з фізики для незалежної перевірки.\n\n🔗 <a href=\"https://mezha.ua/news/openai-breakthrough-critique-316615/\">Mezha</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/openai-breakthrough-critique-316615/",
+    "orig": "Науковці критикують OpenAI за обмежений доступ до доказів її ШІ-відкриттів"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23699,7 +23759,6 @@
    1793170878.7919936
   ],
   "ai|Mezha|https://mezha.ua/feed/": [
-   1793088186.8087354,
    1793092120.9193935,
    1793097211.744929,
    1793104452.9584353,
@@ -23707,7 +23766,8 @@
    1793111602.3315084,
    1793113370.9153214,
    1793145735.2987561,
-   1793172960.9250305
+   1793172960.9250305,
+   1793176601.3330305
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1793046955.693934,
@@ -23743,11 +23803,10 @@
    1793133097.8717318
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
-   1793026944.4786031,
-   1793034146.249868,
    1793092118.6849718,
    1793107960.5823903,
-   1793109702.2735953
+   1793109702.2735953,
+   1793176599.3596466
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
    1793095292.9083352,
@@ -23799,12 +23858,12 @@
    1793127770.9493868
   ],
   "games|Mezha|https://mezha.ua/feed/": [
-   1793032282.3791509,
    1793100707.4531953,
    1793113312.2799222,
    1793113373.9314897,
    1793114811.993946,
-   1793117042.8653355
+   1793117042.8653355,
+   1793176595.1260886
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1793057494.5043843,
@@ -23833,12 +23892,12 @@
    1793127745.6985931
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1793088177.5885968,
    1793097187.7791455,
    1793104450.6284876,
    1793115158.8034155,
    1793117074.9750245,
-   1793174486.76209
+   1793174486.76209,
+   1793176302.858053
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1793097201.076436,
@@ -23872,7 +23931,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1793088182.3005142,
    1793091777.3086302,
    1793095301.7594671,
    1793097208.487738,
@@ -23886,7 +23944,8 @@
    1793154690.636587,
    1793163696.44483,
    1793165505.754107,
-   1793173083.9011326
+   1793173083.9011326,
+   1793176317.5226212
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1793089898.9946876,
@@ -24070,11 +24129,10 @@
    1793122384.6436145
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
-   1793088184.9561143,
-   1793089896.8487413,
    1793091772.4078865,
    1793095283.8431485,
-   1793172959.069733
+   1793172959.069733,
+   1793176591.6444972
   ]
  },
  "seen": {
@@ -24172,6 +24230,7 @@
   "05ea98507118fb0d": 1792438380.9494758,
   "05f0068cc39306e8": 1792438280.3573785,
   "05f342012cb925c2": 1792128960.20275,
+  "05fe597d6592216b": 1793176317.5225735,
   "06017f9fd2092b56": 1793025125.0259385,
   "0609996b3ecd19e6": 1792677686.5813844,
   "061113137872693d": 1792148786.5805895,
@@ -24268,6 +24327,7 @@
   "0b2544a527c64651": 1792145417.3279068,
   "0b40b5908188d19c": 1792501384.141512,
   "0b413f8e976ef39d": 1792346508.131711,
+  "0b4f29806fcdf4dc": 1793176601.3329837,
   "0b57657303c31698": 1792407697.6411626,
   "0b6937fb15d2e229": 1792307027.6470528,
   "0b7050755bf8785a": 1792517456.0833268,
@@ -24573,7 +24633,6 @@
   "1f6a0e2cff924670": 1792922482.205408,
   "1f893aef50c01a24": 1792764367.6295853,
   "1f8a0a458c2b21ff": 1792634504.9745786,
-  "1f95fca03514d64e": 1791966925.1620312,
   "1f9ec8f9f0fa9c01": 1792494236.046485,
   "1fa57d742f0594b4": 1792703039.8050804,
   "1fb256ce62b78d40": 1792264384.354071,
@@ -24934,7 +24993,6 @@
   "37d33520a23ebcf6": 1792911767.4710722,
   "37f2c8dd2225cb7c": 1792611105.5988803,
   "38006d7bbea5b0ff": 1792998078.3789952,
-  "38023b5cc39dc12b": 1791966902.7074773,
   "382b3acfc271dd99": 1792099117.2201388,
   "383434e3a59b2e3d": 1793084571.400178,
   "3858b240891b662c": 1792514102.953255,
@@ -24996,6 +25054,7 @@
   "3cb50f0fd3348826": 1792740881.5197916,
   "3cb61135691cba94": 1793039509.26494,
   "3cb909ba47d83f9a": 1792940539.9811897,
+  "3cbf14ddd6d635ca": 1793176302.8580031,
   "3cc17c63b67d24de": 1792352430.0356822,
   "3ccbb0620bb8fc8a": 1792595185.7295985,
   "3ccf90fab2c7124e": 1792420256.7318852,
@@ -25079,6 +25138,7 @@
   "410167cbfc4aa31f": 1792706482.7304113,
   "410ea74baf7792e5": 1793104418.0752852,
   "41225b269d8dfc4e": 1792753308.947311,
+  "413dcb479c090b06": 1793176595.1260428,
   "414cc1fa3ed7d33e": 1792350098.5222456,
   "414db130791a9d19": 1792515654.6131237,
   "416e8408095f0640": 1792558779.4628644,
@@ -25361,7 +25421,6 @@
   "548cd3284c19ce47": 1792791012.8879561,
   "54914a3eb70f1eaa": 1792517456.0833268,
   "54a84e2c55f75503": 1792692096.7037907,
-  "54a9a8bd54d562f8": 1791966911.0236287,
   "54aefc573cc2dcf8": 1792888286.1469865,
   "54c07659d31db827": 1792522997.5619524,
   "54c0fc731ad33f7c": 1792145482.1827884,
@@ -25486,7 +25545,6 @@
   "5c77a5b855becaf0": 1792722706.5638113,
   "5c80a2616fd3eca3": 1793169079.2856617,
   "5caaa79300fb7030": 1792951301.123536,
-  "5cac9d00e22cbac8": 1791966895.258303,
   "5cb005d86af74da8": 1792164641.7867246,
   "5cb4efc082891b13": 1792526481.0749602,
   "5cbf96954b361583": 1792969254.6031685,
@@ -26282,7 +26340,6 @@
   "90ac29aa4f74e49e": 1792010013.9407086,
   "90d5770dc7ea3aa3": 1792794687.55806,
   "90ddebc2105070e0": 1792639876.5397155,
-  "90df0236e7b9cfb3": 1791966898.7417848,
   "90e049ae067dc38d": 1792668701.5788705,
   "90f6c81b1628cc5b": 1792611053.7842038,
   "9102145788d70e1a": 1792688816.1299617,
@@ -26673,6 +26730,7 @@
   "ad35b0e5928ef21c": 1792542711.8703473,
   "ad4c98cfa282dc20": 1792890260.2896423,
   "ad66c1bc22cdb65b": 1792214788.7202675,
+  "ad960e290ea576d9": 1793176591.6444523,
   "adb9f6bc34a42116": 1792314079.6117754,
   "adbef724cb274560": 1792306879.8346796,
   "add5bd44c0bbb083": 1792164208.800719,
@@ -27040,6 +27098,7 @@
   "c5f52e227c7c7aea": 1792776779.821789,
   "c6023f085d6ee202": 1792778453.5270102,
   "c617205fd99dd791": 1792681360.625656,
+  "c623924cba214600": 1793176599.3595934,
   "c62d2e0ec4ebc1fc": 1792454498.0777168,
   "c63da46be72f3462": 1792717287.9706907,
   "c64e5541ef85cb59": 1793077254.2722714,
@@ -27252,7 +27311,6 @@
   "d6517cafbebf0e03": 1793124148.8766906,
   "d6732d082825a41d": 1793104405.2460063,
   "d6740866db20b3a4": 1792796482.6901493,
-  "d6bc6b0e9519f9e5": 1791966906.2622647,
   "d6cfd811b6ca4528": 1792589485.2669792,
   "d6e39e48fd7aa6d0": 1792522879.8106186,
   "d6f40a62dd714377": 1792724501.4403846,
@@ -27355,7 +27413,6 @@
   "dd5fa34690b0dbc6": 1792603231.1982293,
   "dd6a9d14a094d159": 1792566437.5360692,
   "dd825df6e11b1f10": 1792310502.9209943,
-  "dd8edeee41eaf92d": 1791966921.6536157,
   "dd8f2f3313228ce5": 1792089217.094236,
   "dd964df1a73fdff2": 1793102539.0933423,
   "dda88a35569ea5ee": 1791994389.1900036,
@@ -29070,13 +29127,13 @@
    "Blabbermouth": 31,
    "Bloomberg": 22,
    "DOU Gamedev": 2,
-   "Deadline": 34,
+   "Deadline": 35,
    "Decibel": 6,
    "Digital Foundry": 2,
    "Distorted Sound": 11,
    "Eurogamer": 12,
    "GameSpot": 15,
-   "GamesIndustry.biz": 8,
+   "GamesIndustry.biz": 9,
    "GitHub Trending": 13,
    "Hugging Face": 2,
    "IGN": 35,
@@ -29088,13 +29145,13 @@
    "Loudwire": 9,
    "Metal Hammer (Louder)": 16,
    "Metal Injection": 9,
-   "Mezha": 37,
+   "Mezha": 39,
    "Neformat": 1,
    "PC Gamer": 34,
    "Pitchfork": 4,
    "PlayUA": 14,
-   "Polygon": 13,
-   "Product Hunt": 10,
+   "Polygon": 14,
+   "Product Hunt": 11,
    "Revolver": 4,
    "Rock Paper Shotgun": 12,
    "Stereogum": 6,
@@ -29104,9 +29161,9 @@
    "Variety": 18
   },
   "translators": {
-   "DeepL": 12,
-   "gemini-flash-latest": 7,
-   "gemini-flash-lite-latest": 554
+   "DeepL": 14,
+   "gemini-flash-latest": 8,
+   "gemini-flash-lite-latest": 556
   },
   "week": "2026-W44"
  },
@@ -30041,6 +30098,41 @@
    "2D?!",
    1792595316.7502198
   ],
+  "q:3": [
+   0,
+   "",
+   1793176286.5770419
+  ],
+  "q:3 upcoming": [
+   0,
+   "",
+   1793176286.1031353
+  ],
+  "q:3 upcoming sci fi": [
+   0,
+   "",
+   1793176285.6313496
+  ],
+  "q:3 upcoming sci fi rpgs": [
+   0,
+   "",
+   1793176285.1561315
+  ],
+  "q:3 upcoming sci fi rpgs better": [
+   0,
+   "",
+   1793176284.6824803
+  ],
+  "q:3 upcoming sci fi rpgs better than": [
+   0,
+   "",
+   1793176284.205048
+  ],
+  "q:30": [
+   0,
+   "",
+   1793176594.141061
+  ],
   "q:300": [
    5206350,
    "高三最后300天",
@@ -30640,6 +30732,11 @@
    1786130,
    "Asha",
    1791908394.3771522
+  ],
+  "q:asia": [
+   0,
+   "",
+   1793176597.6122954
   ],
   "q:assassin's creed black flag resynced": [
    3751950,
@@ -33801,6 +33898,11 @@
    "",
    1793109686.8566148
   ],
+  "q:gamescom asia": [
+   0,
+   "",
+   1793176597.0977776
+  ],
   "q:gears of war e day": [
    3010850,
    "Gears of War: E-Day",
@@ -34125,6 +34227,11 @@
    3482260,
    "GTA+",
    1791667539.756786
+  ],
+  "q:gta 30": [
+   0,
+   "",
+   1793176593.642392
   ],
   "q:gta 6": [
    0,
@@ -37921,6 +38028,11 @@
    "",
    1793118797.4876878
   ],
+  "q:sci fi rpgs better than waiting": [
+   0,
+   "",
+   1793176289.5948246
+  ],
   "q:scream five": [
    0,
    "",
@@ -39021,6 +39133,31 @@
    "",
    1793160085.604362
   ],
+  "q:upcoming sci fi": [
+   0,
+   "",
+   1793176289.077232
+  ],
+  "q:upcoming sci fi rpgs": [
+   0,
+   "",
+   1793176288.6018527
+  ],
+  "q:upcoming sci fi rpgs better": [
+   0,
+   "",
+   1793176288.1218555
+  ],
+  "q:upcoming sci fi rpgs better than": [
+   0,
+   "",
+   1793176287.54539
+  ],
+  "q:upcoming sci fi rpgs better than waiting": [
+   0,
+   "",
+   1793176287.053102
+  ],
   "q:update adds new player": [
    0,
    "",
@@ -40011,57 +40148,35 @@
   "Mezha": [
    "call of duty: modern warfare 4",
    "galaxy s22",
+   "grand theft auto 6",
    "grand theft auto vi",
-   "pac-3 mse",
-   "patriot",
+   "gta",
+   "gta 6",
+   "openai",
    "samsung",
    "starlink",
    "war&sanctions",
    "бізнес",
    "гур",
-   "дені вільньов",
-   "дюна",
    "китай",
    "київстар",
    "кіно",
    "новини",
    "оборонка",
-   "перехоплювачі",
-   "польща",
-   "ппо",
-   "ракети",
    "роскосмос",
    "росія",
    "смартфони",
+   "статті",
    "супутниковий зв'язок",
    "сша",
    "технології",
    "штучний інтелект",
    "ші-агенти",
-   "ігри"
+   "ігри",
+   "історія"
   ]
  },
  "titles": [
-  [
-   1793001783.3768177,
-   "Standfast"
-  ],
-  [
-   1793003658.0303562,
-   "Jobmate AI"
-  ],
-  [
-   1793003659.9380403,
-   "Тайка Вайтіті та Дженна Ортега зазнали нищівного фіаско в прокаті"
-  ],
-  [
-   1793003661.771699,
-   "В Україні запустили навігатор \"Орієнтир\", що працює без GPS: він вже у топі App Store"
-  ],
-  [
-   1793003666.4585984,
-   "Ted Sarandos Shrugs Off U.S. Troubles To Mark Netflix’s 10 Years In Korea"
-  ],
   [
    1793005369.2740414,
    "AVP"
@@ -42121,29 +42236,33 @@
   [
    1793174570.0184238,
    "togg53192-cmd/jailbreaks"
+  ],
+  [
+   1793176302.8580053,
+   "3 Upcoming Sci-Fi RPGs Better Than Waiting for a New Mass Effect"
+  ],
+  [
+   1793176317.5225754,
+   "Yuriko Gamo Romer & Marc Smolowitz On The 12 Year Journey Behind Their Japanese-U.S. History Baseball Doc ‘Diamond Diplomacy’ — Tokyo"
+  ],
+  [
+   1793176591.644454,
+   "OpenLLM"
+  ],
+  [
+   1793176595.126045,
+   "Історія GTA. Як одна ігрова серія майже 30 років задає стандарти індустрії"
+  ],
+  [
+   1793176599.3595953,
+   "Gamescom Asia touts new records for international attendance and showfloor size"
+  ],
+  [
+   1793176601.332986,
+   "Науковці критикують OpenAI за обмежений доступ до доказів її ШІ-відкриттів"
   ]
  ],
  "titles_uk": [
-  [
-   1793001783.3768196,
-   "Standfast"
-  ],
-  [
-   1793003658.030358,
-   "Jobmate AI"
-  ],
-  [
-   1793003659.9380414,
-   "Тайка Вайтіті та Дженна Ортега зазнали нищівного фіаско в прокаті"
-  ],
-  [
-   1793003661.7717,
-   "В Україні запустили навігатор \"Орієнтир\", що працює без GPS: він вже у топі App Store"
-  ],
-  [
-   1793003666.4585993,
-   "Тед Сарандос відвідав святкування десятиліття Netflix у Південній Кореї"
-  ],
   [
    1793005369.2740424,
    "AVP"
@@ -44203,6 +44322,30 @@
   [
    1793174570.0184247,
    "Створено відкриту базу системних промптів для тестування стійкості ШІ-моделей"
+  ],
+  [
+   1793176302.8580072,
+   "Три науково-фантастичні RPG як альтернатива Mass Effect"
+  ],
+  [
+   1793176317.5225766,
+   "Документальний фільм Diamond Diplomacy про історію США та Японії дебютував у Токіо"
+  ],
+  [
+   1793176591.644455,
+   "OpenLLM"
+  ],
+  [
+   1793176595.1260457,
+   "Історія GTA. Як одна ігрова серія майже 30 років задає стандарти індустрії"
+  ],
+  [
+   1793176599.3595963,
+   "Gamescom Asia x Thailand Game Show б'є рекорди масштабу й відвідуваності"
+  ],
+  [
+   1793176601.3329868,
+   "Науковці критикують OpenAI за обмежений доступ до доказів її ШІ-відкриттів"
   ]
  ],
  "ukrainian": {
@@ -46463,7 +46606,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793173097.4109302,
+  "last_check": 1793176609.6560962,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
