@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1793212302.1390774
+  }
+ },
  "daily_digest_date": "2026-10-27",
  "freebies": {
   "last_check": 1793207254.5554261,
@@ -15,113 +22,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-28 18:08 UTC",
+  "at": "2026-10-28 18:37 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 15
+   "gemini-flash-lite-latest": 7
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792521086.7785776,
-   1486,
-   "🤘",
-   "«Прощавайте і йдіть до біса!»: Ал Юргенсен про розпад Ministry, останній альбом та інше",
-   "Metal Injection",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://metalinjection.net/video/farewell-and-f-off-ministrys-al-jourgensen-on-the-bands-end-final-record-more-exclusive",
-    "orig": "\"Farewell, and F*** Off!\" Ministry's Al Jourgensen on the Band's End, Final Record + More [Exclusive]"
-   }
-  ],
-  [
-   1792521130.514089,
-   1487,
-   "💾",
-   "Адам Бек прокоментував хакерську атаку на Liquid Network на $320 млн",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/videos/2026-10-20/business-as-usual-after-liquid-hack-back-video",
-    "orig": "Business As Usual After Liquid Hack: Back"
-   }
-  ],
-  [
-   1792521140.0817788,
-   1488,
-   "🤘",
-   "Infectious Grooves анонсували концерт на честь 35-річчя дебютного альбому",
-   "ThePRP",
-   {
-    "also": [
-     [
-      "Blabbermouth",
-      "https://blabbermouth.net/news/infectious-grooves-featuring-robert-trujillo-and-mike-muir-to-celebrate-35th-anniversary-of-debut-album-with-los-angeles-concert"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/10/20/news/infectious-grooves-announce-35th-anniversary-show-for-their-debut-album/",
-    "orig": "Infectious Grooves Announce 35th Anniversary Show For Their Debut Album"
-   }
-  ],
-  [
-   1792521161.208843,
-   1489,
-   "🎬",
-   "Amazon MGM Studios реорганізовує кінопідрозділ і підвищує Джулі Рапапорт та Алану Майо",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/amazon-mgm-studios-julie-rapaport-alana-mayo-film-heads-1237168808/",
-    "orig": "Amazon MGM Studios Elevates Julie Rapaport & Alana Mayo In Film Division Reorg"
-   }
-  ],
-  [
-   1792521181.6278815,
-   1490,
-   "🎮",
-   "5 затишних ігор із фестивалю Steam Next Fest, які варто додати у вішліст",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/life-sim/i-played-20-cozy-game-demos-in-steam-next-fest-and-these-5-made-it-onto-my-wishlist/",
-    "orig": "I played 20 cozy game demos in Steam Next Fest and these 5 made it onto my wishlist"
-   }
-  ],
-  [
-   1792521222.9648564,
-   1491,
-   "🎮",
-   "Опитування Digital Foundry показало популярність PS5 Pro для GTA 6",
-   "Digital Foundry",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.digitalfoundry.net/news/2026/10/gta-6-platform-poll-36percent-of-df-viewers-to-play-on-ps5-pro-after-30000-votes",
-    "orig": "GTA 6 Platform Poll: 36% of DF Viewers to Play on PS5 Pro after 30,000 Votes"
-   }
-  ],
-  [
-   1792521238.7927406,
-   1492,
-   "🎬",
-   "Starz повернувся на Verizon Fios після вирішення суперечки",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/starz-verizon-fios-settle-carriage-fight-1237168822/",
-    "orig": "Starz Is Back On Verizon Fios As Carriage Dispute Settled"
-   }
-  ],
   [
    1792522949.485417,
    1493,
@@ -23030,7 +22941,6 @@
    "Stereogum",
    {
     "also": [],
-    "caption": "🤘 <b>Tindersticks анонсували новий альбом Dog Roses і випустили сингл Loving, Leaving</b>\n\nБританський інді-гурт Tindersticks анонсував свій 15-й студійний альбом Dog Roses, реліз якого запланований на березень. Це перша платівка колективу, записана у новому підземному студійному просторі за участю гітариста Дейва Окуму та саксофоніста Джуліана Сігела. Разом із анонсом музиканти представили лід-сингл Loving, Leaving.\n\n🔗 <a href=\"https://stereogum.com/2515804/tindersticks-announce-new-album-dog-roses-hear-loving-leaving/music/\">Stereogum</a>\n\n#музика",
     "kind": "photo",
     "link": "https://stereogum.com/2515804/tindersticks-announce-new-album-dog-roses-hear-loving-leaving/music/",
     "orig": "Tindersticks Announce New Album Dog Roses: Hear “Loving, Leaving”"
@@ -23044,7 +22954,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Інвестори оцінюють витрати Microsoft та Alphabet на ШІ перед новими звітами</b>\n\nАкції Microsoft та Alphabet пішли різними шляхами через занепокоєння Волл-стріт щодо величезних витрат компаній на штучний інтелект. Напередодні публікації квартальних звітів ринкові тенденції свідчать про те, що інвестори віддають перевагу Microsoft.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-28/microsoft-alphabet-earnings-put-focus-on-ai-cash-drain-video\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-10-28/microsoft-alphabet-earnings-put-focus-on-ai-cash-drain-video",
     "orig": "Microsoft, Alphabet Earnings Put Focus on AI Cash Flow Drain"
@@ -23058,7 +22967,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Artificial Analysis оновив індекс і збільшив розрив між відкритими та закритими ШІ-моделями</b>\n\nArtificial Analysis оновив Intelligence Index, через що Kimi K3.1 Pro опустилася з четвертого на дев&#x27;яте місце. Новий індекс спирається на приватні тестові набори, щоб запобігти тренуванню моделей на відомих питаннях, а розрив між відкритими моделями та лідерами зріс із 3 до 12 пунктів.\n\n🔗 <a href=\"https://the-decoder.com/new-artificial-analysis-index-widens-the-gap-between-open-and-closed-models/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/new-artificial-analysis-index-widens-the-gap-between-open-and-closed-models/",
     "orig": "New Artificial Analysis index widens the gap between open and closed models"
@@ -23072,7 +22980,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Mario Kart World запустили на iPhone 18 Pro та macOS після зламу Switch 2</b>\n\nНещодавній джейлбрейк Nintendo Switch 2 дозволив розробнику емуляторів Віллу Фаусту запустити Mario Kart World на macOS та iPhone 18 Pro. Гра на macOS працює з проблемами кольорів та асетів, тоді як на смартфоні демонструє непогану картинку. Код проєкту автор публікувати не планує.\n\n🔗 <a href=\"https://insider-gaming.com/mario-kart-world-seen-running-on-iphone-after-switch-2-jailbreak/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/mario-kart-world-seen-running-on-iphone-after-switch-2-jailbreak/",
     "orig": "Mario Kart World Seen Running on iPhone After Switch 2 Jailbreak"
@@ -23086,7 +22993,6 @@
    "VGC",
    {
     "also": [],
-    "caption": "🎮 <b>Найкращий мета-білд REZI 12 для мультиплеєра COD MW4</b>\n\nНайкраще збірки дробовика REZI 12 для мультиплеєра Call of Duty: Modern Warfare 4\n\n🔗 <a href=\"https://www.videogameschronicle.com/guide/cod-mw4-multiplayer-best-meta-rezi-12-build/\">VGC</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/guide/cod-mw4-multiplayer-best-meta-rezi-12-build/",
     "orig": "COD MW4 Multiplayer: Best meta REZI 12 build"
@@ -23100,7 +23006,6 @@
    "GameSpot",
    {
     "also": [],
-    "caption": "🎮 <b>Магічна гра <a href=\"https://store.steampowered.com/app/1846700/\">Witchbrook</a> отримала дату виходу</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/413150/\">Stardew Valley</a>\n\nПісля восьми років розробки піксельна гра Witchbrook вийде 28 січня 2027 року на PS5, Xbox Series X|S, PC, Nintendo Switch та Nintendo Switch 2. Проєкт поєднує атмосферу Stardew Valley та анімаційного фільму Kiki&#x27;s Delivery Service.\n\n🔗 <a href=\"https://www.gamespot.com/articles/witchbrook-is-stardew-valley-meets-kikis-delivery-service-and-it-finally-has-a-release-date/\">GameSpot</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamespot.com/articles/witchbrook-is-stardew-valley-meets-kikis-delivery-service-and-it-finally-has-a-release-date/",
     "orig": "Witchbrook Is Stardew Valley Meets Kiki’s Delivery Service, And It Finally Has A Release Date"
@@ -23914,6 +23819,90 @@
     "link": "https://lambgoat.com/news/55579/august-burns-red-share-pro-shot-behemoth-live-video/",
     "orig": "August Burns Red share pro-shot \"Behemoth\" live video"
    }
+  ],
+  [
+   1793212514.7360044,
+   3279,
+   "🤘",
+   "Мусіш крутитися, коли немає виходу",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Мусіш крутитися, коли немає виходу</b>\n\nБасист Napalm Death Шейн Ембюрі випустив мемуари «Life? And Napalm Death»\n\n🔗 <a href=\"https://blabbermouth.net/reviews/needs-must-when-the-devil-drives\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/reviews/needs-must-when-the-devil-drives",
+    "orig": "Needs Must When The Devil Drives"
+   }
+  ],
+  [
+   1793212521.0516636,
+   3280,
+   "🤘",
+   "Metallica випустили живе відео «Leper Messiah» з резиденції у The Sphere",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Metallica випустили живе відео «Leper Messiah» з резиденції у The Sphere</b>\n\nMetallica поділилися живим відео на трек «Leper Messiah» з альбому «Master Of Puppets», знятим під час їхньої резиденції в The Sphere у Лас-Вегасі. Відеозапис містить кадри з виступу 10 жовтня з візуальними ефектами від Treatment Studio. Концерти гурту на цій арені триватимуть із перервами до середини березня.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/28/news/metallica-launch-leper-messiah-live-video-from-their-residency-at-the-sphere/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/28/news/metallica-launch-leper-messiah-live-video-from-their-residency-at-the-sphere/",
+    "orig": "Metallica Launch “Leper Messiah” Live Video From Their Residency At The Sphere"
+   }
+  ],
+  [
+   1793212538.46384,
+   3281,
+   "🤘",
+   "METALLICA опублікували відео виконання 'Leper Messiah' з резиденції в Las Vegas Sphere",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>METALLICA опублікували відео виконання &#x27;Leper Messiah&#x27; з резиденції в Las Vegas Sphere</b>\n\nГурт METALLICA поділився професійним відео виконання треку &quot;Leper Messiah&quot; з четвертого концерту резиденції &quot;Life Burns Faster&quot; у Лас-Вегасі. Виступ відбувся 10 жовтня на арені Sphere, яка відома своїм панорамним екраном та інноваційною звуковою системою. Масштабна резиденція колективу триватиме з жовтня по березень 2027 року.\n\n🔗 <a href=\"https://blabbermouth.net/news/metallica-shares-pro-shot-video-of-leper-messiah-performance-from-fourth-show-of-las-vegas-sphere-residency\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/metallica-shares-pro-shot-video-of-leper-messiah-performance-from-fourth-show-of-las-vegas-sphere-residency",
+    "orig": "METALLICA Shares Pro-Shot Video Of 'Leper Messiah' Performance From Fourth Show Of Las Vegas Sphere Residency"
+   }
+  ],
+  [
+   1793212569.363705,
+   3282,
+   "🤖",
+   "Бім ШІ ускладнює оцінку балансу попиту й пропозиції для ФРС",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Бім ШІ ускладнює оцінку балансу попиту й пропозиції для ФРС</b>\n\nКолишній віцеголова Федеральної резервної системи Річард Кларіда заявив, що регулятор оцінює вплив ШІ-зростання на економіку. ФРС намагається зрозуміти, чи є це шоком попиту, який вимагає підвищення ставок, чи приріст продуктивності збільшить пропозицію та знизить інфляцію.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-28/ai-boom-complicates-fed-s-demand-supply-call-clarida-video\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-28/ai-boom-complicates-fed-s-demand-supply-call-clarida-video",
+    "orig": "AI Boom Complicates Fed’s Demand Versus Supply Call, Clarida Says"
+   }
+  ],
+  [
+   1793212604.0672803,
+   3283,
+   "🎮",
+   "Реліз Witchbrook знову перенесли, тепер на 2027 рік",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Реліз <a href=\"https://store.steampowered.com/app/1846700/\">Witchbrook</a> знову перенесли, тепер на <a href=\"https://store.steampowered.com/app/5089480/\">2027</a> рік</b>\n\nГра Witchbrook від студій Chucklefish та Robotality знову затримується і вийде 28 січня 2027 року. Симулятор життя відьми коштуватиме $25 у Steam, а згодом розробники також планують випустити фізичні видання.\n\n🔗 <a href=\"https://www.pcgamer.com/games/rpg/witchbrook-is-delayed-again-now-set-for-release-in-2027/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/games/rpg/witchbrook-is-delayed-again-now-set-for-release-in-2027/",
+    "orig": "Witchbrook is delayed again, now set for release in 2027"
+   }
+  ],
+  [
+   1793212618.0062666,
+   3284,
+   "🤘",
+   "Ayron Jones анонсував новий альбом Excuse Me та випустив сингл Glad You Came",
+   "Distorted Sound",
+   {
+    "also": [],
+    "caption": "🤘 <b>Ayron Jones анонсував новий альбом Excuse Me та випустив сингл Glad You Came</b>\n\nРокер Ayron Jones оголосив про вихід першого за три роки альбому Excuse Me, реліз якого відбудеться 26 лютого 2027 року на лейблі Thirty Tigers. Птівка записана в Нешвіллі у співпраці з Marti Frederiksen та поєднує впливи гранджу, гард-року й металу. Разом із цим музикант презентував перший сингл Glad You Came, присвячений токсичним стосункам і прощенню.\n\n🔗 <a href=\"https://distortedsoundmag.com/ayron-jones-announces-new-album-excuse-me/\">Distorted Sound</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://distortedsoundmag.com/ayron-jones-announces-new-album-excuse-me/",
+    "orig": "Ayron Jones announces new album ‘Excuse Me’"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23922,12 +23911,12 @@
    1793091774.2935674
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1793122287.3140373,
    1793138570.1369722,
    1793189003.2267377,
    1793197922.2725763,
    1793201649.1391969,
-   1793207047.0846903
+   1793207047.0846903,
+   1793212569.3641336
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1792405876.2595813
@@ -24058,7 +24047,8 @@
    1793208707.7675576,
    1793208850.9995198,
    1793210687.6435003,
-   1793210700.9352934
+   1793210700.9352934,
+   1793212604.067674
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1793116970.2478275,
@@ -24156,8 +24146,6 @@
    1793147553.6314206
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1793125894.7814364,
-   1793125897.8400059,
    1793129492.6191728,
    1793129510.2315662,
    1793133088.414668,
@@ -24173,7 +24161,9 @@
    1793206921.814162,
    1793207034.12491,
    1793208692.6368747,
-   1793210742.9789257
+   1793210742.9789257,
+   1793212514.736379,
+   1793212538.4642522
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -24183,12 +24173,11 @@
    1793206884.2117176
   ],
   "music|Distorted Sound|https://distortedsoundmag.com/feed/": [
-   1793124145.3382366,
-   1793125906.6325595,
    1793147525.1136258,
    1793147547.025937,
    1793190866.685908,
-   1793192981.7060947
+   1793192981.7060947,
+   1793212618.0066898
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
    1793122382.3567688,
@@ -24259,7 +24248,6 @@
    1793205146.6606107
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1793125913.9408782,
    1793127751.4155133,
    1793127758.0032115,
    1793129519.4587097,
@@ -24274,7 +24262,8 @@
    1793207067.8279307,
    1793208836.7758589,
    1793210764.2995427,
-   1793210802.8137295
+   1793210802.8137295,
+   1793212521.051925
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1793100702.0206006,
@@ -24713,6 +24702,7 @@
   "1735a0db9c101e87": 1792432911.3294282,
   "174749499dfd99da": 1792958487.3151746,
   "17496ebf27377f2f": 1792847141.4801793,
+  "175fd901142b078d": 1793212514.7363465,
   "1779cc56d7d8d962": 1792702854.1379561,
   "177bddab4a5d01c0": 1793062888.9745376,
   "1783df066bf547ec": 1792074082.7938874,
@@ -24983,6 +24973,7 @@
   "2944c6ba834cd5bb": 1792387881.5205371,
   "294525ac70d01930": 1792145417.3265986,
   "2946079c2d330b8e": 1793107949.4693627,
+  "298744bccf65f412": 1793212254.4699214,
   "299893dc0108428f": 1793019845.761006,
   "29ba13b61346caf0": 1792432908.3478105,
   "29c2a19550719e10": 1792519403.1627293,
@@ -25735,6 +25726,7 @@
   "5a008d0fb2985f50": 1793027271.0076158,
   "5a0caf5f4ce94e10": 1792429255.8692856,
   "5a234f5733cc18dc": 1792790977.3207083,
+  "5a31c9c04b95d4cc": 1793212618.0066514,
   "5a34bcc3c3501703": 1792485650.4836495,
   "5a36d82678906e21": 1792378892.5932095,
   "5a36eb1b3fb63e23": 1793034123.4978638,
@@ -26147,6 +26139,7 @@
   "74cf73359fcedbc6": 1792755096.9159245,
   "7500df0cde5141c0": 1792683079.5245383,
   "7502e62667016e06": 1793039516.2987766,
+  "750effe6eac9d999": 1793212306.502185,
   "7520f52f81c6f658": 1792056030.7567132,
   "7527728500b1592d": 1792492301.079896,
   "753a2f704c536782": 1792619386.5887408,
@@ -26550,6 +26543,7 @@
   "8eb592d740be49d0": 1792021775.7429001,
   "8ed8bc880c6579ae": 1792947682.7759533,
   "8ee5d6fb69f6e34e": 1793088167.4534411,
+  "8ef9572f875dcea1": 1793212254.4699214,
   "8f2e666dc7840b35": 1793104462.727824,
   "8f32e994a7e46ca2": 1792928076.4436035,
   "8f339d6811f8a650": 1792101857.5375137,
@@ -26723,6 +26717,7 @@
   "9970eea881a571ac": 1792819880.7567687,
   "9984cef4b23e5fc4": 1793140288.0200877,
   "998ca5903d76ff06": 1792879253.5977192,
+  "9994f22d479055c9": 1793212604.067642,
   "99a1e82f41a7329f": 1793117074.9749768,
   "99a81e8268b7c018": 1792402623.1871777,
   "99ae24e773f80392": 1792584051.8728995,
@@ -26908,6 +26903,7 @@
   "a6c7fedae303231f": 1793196173.0357301,
   "a70ce07b306b23a4": 1792447287.915415,
   "a7142fc187f27bb8": 1792111169.4921894,
+  "a71846a97af15830": 1793212538.4642107,
   "a725db66f05f550e": 1792443893.8153286,
   "a72e740dbd80a7a1": 1793196084.021779,
   "a73878575ce9bcc2": 1792575325.2960982,
@@ -27265,6 +27261,7 @@
   "beac489d6216260d": 1793041356.19435,
   "beadd2aaa5a0ae0b": 1792524161.5710876,
   "beaf268984cbb65a": 1792713682.912498,
+  "bec86fbdc72c855c": 1793212569.3640876,
   "bec96e80ce715e42": 1792789286.1226044,
   "becc918d3917ca68": 1792244066.584133,
   "bed1f99b10fcb0d6": 1792782118.6245992,
@@ -28199,6 +28196,7 @@
   "fdb1da7ad88db089": 1792501345.045053,
   "fdce73c9a0a226a7": 1792427487.3985002,
   "fdd85da1cae825cc": 1793107963.2027392,
+  "fde7efddcc5ab4da": 1793212521.0518937,
   "fdf52231ad13638a": 1792803809.3101494,
   "fe04a1be120d1981": 1793210645.7137754,
   "fe0a77909c3d741b": 1792771410.3415735,
@@ -28675,7 +28673,7 @@
   ],
   "artists_checked": 1793207257.407874,
   "blocked_until": 1793205272.8760033,
-  "cursor": 263,
+  "cursor": 273,
   "digest_week": "2026-W43",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -29407,7 +29405,7 @@
   "filtered": {
    "/Film": 6,
    "Bloomberg": 6,
-   "Deadline": 4,
+   "Deadline": 5,
    "Distorted Sound": 1,
    "GamesIndustry.biz": 1,
    "IGN": 1,
@@ -29418,6 +29416,7 @@
    "PC Gamer": 2,
    "Pitchfork": 2,
    "Polygon": 30,
+   "Revolver": 1,
    "Stereogum": 1,
    "VGC": 1,
    "Variety": 1
@@ -29425,13 +29424,13 @@
   "sources": {
    "/Film": 17,
    "AIN.ua": 4,
-   "Blabbermouth": 43,
-   "Bloomberg": 29,
+   "Blabbermouth": 45,
+   "Bloomberg": 30,
    "DOU Gamedev": 3,
    "Deadline": 41,
    "Decibel": 7,
    "Digital Foundry": 2,
-   "Distorted Sound": 13,
+   "Distorted Sound": 14,
    "Eurogamer": 17,
    "GameSpot": 20,
    "GamesIndustry.biz": 13,
@@ -29448,7 +29447,7 @@
    "Metal Injection": 11,
    "Mezha": 51,
    "Neformat": 1,
-   "PC Gamer": 48,
+   "PC Gamer": 49,
    "Pitchfork": 4,
    "PlayUA": 17,
    "Polygon": 18,
@@ -29457,14 +29456,14 @@
    "Rock Paper Shotgun": 17,
    "Stereogum": 9,
    "The Decoder": 15,
-   "ThePRP": 30,
+   "ThePRP": 31,
    "VGC": 19,
    "Variety": 18
   },
   "translators": {
    "DeepL": 15,
    "gemini-flash-latest": 8,
-   "gemini-flash-lite-latest": 712
+   "gemini-flash-lite-latest": 719
   },
   "week": "2026-W44"
  },
@@ -29543,6 +29542,11 @@
    "1766060",
    "HumanitZ",
    1792688490.4683228
+  ],
+  "id:1846700": [
+   "1846700",
+   "Witchbrook",
+   1793212571.1668952
   ],
   "id:1944430": [
    "1944430",
@@ -30064,21 +30068,6 @@
    "10 Years After",
    1792515820.4478397
   ],
-  "q:11": [
-   0,
-   "",
-   1793037711.8379078
-  ],
-  "q:11 insider": [
-   0,
-   "",
-   1793037711.298747
-  ],
-  "q:11 insider experimental": [
-   0,
-   "",
-   1793037710.7796357
-  ],
   "q:116": [
    2077490,
    "孟铣（116）",
@@ -30299,16 +30288,6 @@
    "",
    1793111595.2479856
   ],
-  "q:25": [
-   0,
-   "",
-   1793037910.8421283
-  ],
-  "q:26": [
-   0,
-   "",
-   1793037873.0012062
-  ],
   "q:26 22 preview": [
    0,
    "",
@@ -30438,11 +30417,6 @@
    0,
    "",
    1793109846.9055407
-  ],
-  "q:46": [
-   0,
-   "",
-   1793037736.0306993
   ],
   "q:46 seconds of new": [
    0,
@@ -30664,11 +30638,6 @@
    "",
    1793207144.3569043
   ],
-  "q:after carefully observing the challenges in the market": [
-   0,
-   "",
-   1793037872.3298156
-  ],
   "q:after onimusha": [
    0,
    "",
@@ -30803,11 +30772,6 @@
    0,
    "",
    1793122297.0097802
-  ],
-  "q:announces layoffs affecting around a quarter": [
-   0,
-   "",
-   1793037888.466426
   ],
   "q:announces new": [
    0,
@@ -31029,36 +30993,6 @@
    "",
    1793210771.720212
   ],
-  "q:auroch": [
-   0,
-   "",
-   1793037885.34843
-  ],
-  "q:auroch digital": [
-   0,
-   "",
-   1793037884.7343495
-  ],
-  "q:auroch digital announces": [
-   0,
-   "",
-   1793037884.2309978
-  ],
-  "q:auroch digital announces layoffs": [
-   0,
-   "",
-   1793037883.6553178
-  ],
-  "q:auroch digital announces layoffs affecting": [
-   0,
-   "",
-   1793037883.1496992
-  ],
-  "q:auroch digital announces layoffs affecting around": [
-   0,
-   "",
-   1793037882.6427798
-  ],
   "q:austin": [
    0,
    "",
@@ -31148,31 +31082,6 @@
    0,
    "",
    1793086470.3111007
-  ],
-  "q:awards": [
-   0,
-   "",
-   1793037945.4192274
-  ],
-  "q:awards 2026": [
-   0,
-   "",
-   1793037944.8913891
-  ],
-  "q:awards 2026 goty": [
-   0,
-   "",
-   1793037944.386373
-  ],
-  "q:awards 2026 goty nominees": [
-   0,
-   "",
-   1793037943.887139
-  ],
-  "q:awards 2026 goty nominees revealed": [
-   0,
-   "",
-   1793037943.374596
   ],
   "q:bafta": [
    0,
@@ -32804,31 +32713,6 @@
    "",
    1793044910.4871323
   ],
-  "q:digital": [
-   0,
-   "",
-   1793037887.9590166
-  ],
-  "q:digital announces": [
-   0,
-   "",
-   1793037887.4299035
-  ],
-  "q:digital announces layoffs": [
-   0,
-   "",
-   1793037886.9136934
-  ],
-  "q:digital announces layoffs affecting": [
-   0,
-   "",
-   1793037886.4005706
-  ],
-  "q:digital announces layoffs affecting around": [
-   0,
-   "",
-   1793037885.8701124
-  ],
   "q:dino crisis": [
    4249130,
    "Dino Crisis",
@@ -33739,11 +33623,6 @@
    "",
    1793183580.0755346
   ],
-  "q:five": [
-   0,
-   "",
-   1793037820.666421
-  ],
   "q:flag": [
    0,
    "",
@@ -34439,31 +34318,6 @@
    "",
    1793097073.9045036
   ],
-  "q:global": [
-   0,
-   "",
-   1793037683.2520452
-  ],
-  "q:global release": [
-   0,
-   "",
-   1793037682.7190626
-  ],
-  "q:global release times": [
-   0,
-   "",
-   1793037682.1861694
-  ],
-  "q:global release times and preload": [
-   0,
-   "",
-   1793037681.675997
-  ],
-  "q:global release times and preload details": [
-   0,
-   "",
-   1793037681.1724432
-  ],
   "q:gloomwood": [
    1150760,
    "Gloomwood",
@@ -34483,21 +34337,6 @@
    1029780,
    "Going Medieval",
    1791931134.6342354
-  ],
-  "q:golden joystick awards 2026": [
-   0,
-   "",
-   1793037940.5457447
-  ],
-  "q:golden joystick awards 2026 goty": [
-   0,
-   "",
-   1793037940.0212624
-  ],
-  "q:golden joystick awards 2026 goty nominees": [
-   0,
-   "",
-   1793037939.516444
   ],
   "q:google": [
    0,
@@ -34924,11 +34763,6 @@
    "Hotline Miami",
    1793039506.7827897
   ],
-  "q:hotline miami and spelunky": [
-   0,
-   "",
-   1793039506.2662911
-  ],
   "q:huge": [
    1650040,
    "HuGe",
@@ -35149,16 +34983,6 @@
    "",
    1793189005.1666045
   ],
-  "q:insider": [
-   0,
-   "",
-   1793037712.8844383
-  ],
-  "q:insider experimental": [
-   0,
-   "",
-   1793037712.3491807
-  ],
   "q:insomniac": [
    0,
    "",
@@ -35348,26 +35172,6 @@
    638230,
    "Journey",
    1793097216.1634731
-  ],
-  "q:joystick awards 2026": [
-   0,
-   "",
-   1793037942.861697
-  ],
-  "q:joystick awards 2026 goty": [
-   0,
-   "",
-   1793037942.3619835
-  ],
-  "q:joystick awards 2026 goty nominees": [
-   0,
-   "",
-   1793037941.8606136
-  ],
-  "q:joystick awards 2026 goty nominees revealed": [
-   0,
-   "",
-   1793037941.073165
   ],
   "q:jusant": [
    1977170,
@@ -36814,26 +36618,6 @@
    "",
    1793203362.7958226
   ],
-  "q:new windows": [
-   0,
-   "",
-   1793037708.6797361
-  ],
-  "q:new windows 11": [
-   0,
-   "",
-   1793037708.1567562
-  ],
-  "q:new windows 11 insider": [
-   0,
-   "",
-   1793037707.6459646
-  ],
-  "q:new windows 11 insider experimental": [
-   0,
-   "",
-   1793037707.1083272
-  ],
   "q:newzoo": [
    0,
    "",
@@ -38214,16 +37998,6 @@
    "Rayman Legends Retold",
    1792607495.2570462
   ],
-  "q:rayman legends retold ' expedition": [
-   0,
-   "",
-   1793039502.2494998
-  ],
-  "q:rayman legends retold ' expedition 33": [
-   0,
-   "",
-   1793039501.632627
-  ],
   "q:re scored": [
    0,
    "",
@@ -38293,21 +38067,6 @@
    3723230,
    "Regions",
    1792666910.9642568
-  ],
-  "q:release times": [
-   0,
-   "",
-   1793037684.9211135
-  ],
-  "q:release times and preload": [
-   0,
-   "",
-   1793037684.378721
-  ],
-  "q:release times and preload details": [
-   0,
-   "",
-   1793037683.86835
   ],
   "q:remake": [
    0,
@@ -38759,11 +38518,6 @@
    "",
    1793176289.5948246
   ],
-  "q:scream five": [
-   0,
-   "",
-   1793037820.1644547
-  ],
   "q:scrolls": [
    0,
    "",
@@ -39169,11 +38923,6 @@
    "",
    1793113314.419491
   ],
-  "q:steam scream five": [
-   0,
-   "",
-   1793037819.636206
-  ],
   "q:steven": [
    3105430,
    "Steven",
@@ -39533,11 +39282,6 @@
    0,
    "",
    1793044951.2053378
-  ],
-  "q:times and preload details": [
-   0,
-   "",
-   1793037685.4676495
   ],
   "q:times square": [
    0,
@@ -40459,21 +40203,6 @@
    "Wi-Fi",
    1792492406.3071058
   ],
-  "q:windows 11": [
-   0,
-   "",
-   1793037710.2550278
-  ],
-  "q:windows 11 insider": [
-   0,
-   "",
-   1793037709.6929255
-  ],
-  "q:windows 11 insider experimental": [
-   0,
-   "",
-   1793037709.1830897
-  ],
   "q:wintory shares 22 minutes of music": [
    0,
    "",
@@ -40538,11 +40267,6 @@
    0,
    "",
    1793196104.215254
-  ],
-  "q:with xbox": [
-   0,
-   "",
-   1793037805.3958578
   ],
   "q:wizards": [
    0,
@@ -41042,10 +40766,8 @@
  },
  "tag_hints": {
   "Mezha": [
-   "alexa",
-   "amazon",
    "apple",
-   "echo dot",
+   "brave1 market",
    "macbook pro",
    "macbook pro 14",
    "macbook pro 16",
@@ -41068,12 +40790,14 @@
    "кіно",
    "логістика",
    "літаки",
+   "міноборони",
    "нацгвардія",
    "новини",
    "ноутбуки",
    "нрк",
    "оборонка",
    "пам'ять",
+   "робот-амфібія",
    "росія",
    "серіали",
    "смартгодинники",
@@ -41088,34 +40812,6 @@
   ]
  },
  "titles": [
-  [
-   1793039492.7850974,
-   "Ecco2K, Whait, Angelo LeRoi, and More: This Week’s Pitchfork Selects Playlist"
-  ],
-  [
-   1793039499.4921372,
-   "'The Art Of METALLICA' Exhibition Coming To Haight Street Art Center In San Francisco"
-  ],
-  [
-   1793039503.0894158,
-   "У Rayman Legends Retold з’являться «багетні» костюми на честь Expedition 33"
-  ],
-  [
-   1793039509.2649412,
-   "The GameMaker engine series behind Undertale, Hotline Miami and Spelunky is going free for commercial use on PC"
-  ],
-  [
-   1793039516.2987785,
-   "ANGELA GOSSOW Explains How LAUREN HART Became The New Singer Of ARCH ENEMY"
-  ],
-  [
-   1793039519.569539,
-   "BRAT’s “Spit On His Grave” Music Video Premieres"
-  ],
-  [
-   1793039524.5718417,
-   "From ‘The Devils’ to ‘Obsession,’ How ‘Femcel’ Horror Handles Horny Women"
-  ],
   [
    1793041277.596149,
    "Sophia Stel Is Going on the “Greatest Tour of All Time”"
@@ -43143,37 +42839,33 @@
   [
    1793210868.7374668,
    "August Burns Red share pro-shot \"Behemoth\" live video"
+  ],
+  [
+   1793212514.7363477,
+   "Needs Must When The Devil Drives"
+  ],
+  [
+   1793212521.0518951,
+   "Metallica Launch “Leper Messiah” Live Video From Their Residency At The Sphere"
+  ],
+  [
+   1793212538.4642124,
+   "METALLICA Shares Pro-Shot Video Of 'Leper Messiah' Performance From Fourth Show Of Las Vegas Sphere Residency"
+  ],
+  [
+   1793212569.36409,
+   "AI Boom Complicates Fed’s Demand Versus Supply Call, Clarida Says"
+  ],
+  [
+   1793212604.067643,
+   "Witchbrook is delayed again, now set for release in 2027"
+  ],
+  [
+   1793212618.0066524,
+   "Ayron Jones announces new album ‘Excuse Me’"
   ]
  ],
  "titles_uk": [
-  [
-   1793039492.7850983,
-   "Новий плейлист Pitchfork Selects із треками Ecco2K, Whait та Angelo LeRoi"
-  ],
-  [
-   1793039499.4921381,
-   "У Сан-Франциско пройде масштабна виставка The Art Of METALLICA"
-  ],
-  [
-   1793039503.0894165,
-   "У Rayman Legends Retold з’являться «багетні» костюми на честь Expedition 33"
-  ],
-  [
-   1793039509.2649422,
-   "Двигун GameMaker стане безплатним для комерційного використання на ПК"
-  ],
-  [
-   1793039516.2987795,
-   "Анджела Госсов пояснила, як Лорен Гарт стала новою вокалисткою ARCH ENEMY"
-  ],
-  [
-   1793039519.5695398,
-   "Гурт BRAT випустив кліп на пісню «Spit On His Grave»"
-  ],
-  [
-   1793039524.5718427,
-   "Як хорор досліджує жіночу сексуальність і одвічні темні бажання"
-  ],
   [
    1793041277.5961497,
    "Sophia Stel оголосила про масштабний тур на підтримку свого альбому"
@@ -45201,6 +44893,30 @@
   [
    1793210868.737468,
    "August Burns Red випустили живе відео на сингл Behemoth"
+  ],
+  [
+   1793212514.7363482,
+   "Мусіш крутитися, коли немає виходу"
+  ],
+  [
+   1793212521.0518956,
+   "Metallica випустили живе відео «Leper Messiah» з резиденції у The Sphere"
+  ],
+  [
+   1793212538.464213,
+   "METALLICA опублікували відео виконання 'Leper Messiah' з резиденції в Las Vegas Sphere"
+  ],
+  [
+   1793212569.3640907,
+   "Бім ШІ ускладнює оцінку балансу попиту й пропозиції для ФРС"
+  ],
+  [
+   1793212604.0676434,
+   "Реліз Witchbrook знову перенесли, тепер на 2027 рік"
+  ],
+  [
+   1793212618.006653,
+   "Ayron Jones анонсував новий альбом Excuse Me та випустив сингл Glad You Came"
   ]
  ],
  "ukrainian": {
