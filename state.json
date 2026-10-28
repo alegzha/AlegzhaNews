@@ -1,10 +1,16 @@
 {
  "alerts": {
-  "src:software|AIN.ua|https://ain.ua/feed/": {
-   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «AIN.ua» не працює",
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
    "sent": 0,
-   "since": 1793215915.8550246
+   "since": 1793217677.8233025
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1793217675.5652106
   }
  },
  "daily_digest_date": "2026-10-28",
@@ -22,43 +28,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-28 19:32 UTC",
+  "at": "2026-10-28 20:02 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 4
+   "gemini-flash-lite-latest": 10
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792526497.8897092,
-   1510,
-   "🤘",
-   "Bright Curse анонсували новий альбом Fatum та випустили сингл",
-   "Distorted Sound",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://distortedsoundmag.com/bright-curse-announce-new-album-fatum/",
-    "orig": "Bright Curse announce new album ‘Fatum’"
-   }
-  ],
-  [
-   1792526500.5754056,
-   1511,
-   "🎮",
-   "Моди підвищують продуктивність DLSS 5 майже вдвічі обробкою об’єктів лише у полі зору",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/mods-double-dlss-5-performance-316365/",
-    "orig": "Моди підвищують продуктивність DLSS 5 майже вдвічі обробкою об’єктів лише у полі зору"
-   }
-  ],
   [
    1792526559.368455,
    1512,
@@ -22980,7 +22960,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>Galaxy Ring і Galaxy Watch точніше визначатимуть частоту порушень дихання уві сні</b>\n\nSamsung оновила функцію виявлення ознак апное уві сні для Galaxy Ring і Galaxy Watch. Пристрої зможуть розподіляти порушення дихання за частотою. Запуск оновлення розпочнеться в листопаді.\n\n🔗 <a href=\"https://mezha.ua/news/galaxy-ring-watch-apnea-316637/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/galaxy-ring-watch-apnea-316637/",
     "orig": "Galaxy Ring і Galaxy Watch точніше визначатимуть частоту порушень дихання уві сні"
@@ -22994,7 +22973,6 @@
    "Revolver",
    {
     "also": [],
-    "caption": "🤘 <b>Revolver випустив колекційне видання на честь 10-річчя SLEEP TOKEN</b>\n\nЖурнал Revolver святкує 10-річчя гурту SLEEP TOKEN спеціальним колекційним випуском, наборами вінілів та CD, а також мерчем. До спецвипуску увійшли розбори 10 головних пісень із новими артами від Алекса Тіллбрука, а вініловий бокс-сет уперше об&#x27;єднав чотири альбоми гурту.\n\n🔗 <a href=\"https://www.revolvermag.com/news/revolver-celebrates-sleep-tokens-10th-anniversary-with-collectors-issue-vinyl-box-set-and-more/\">Revolver</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.revolvermag.com/news/revolver-celebrates-sleep-tokens-10th-anniversary-with-collectors-issue-vinyl-box-set-and-more/",
     "orig": "REVOLVER celebrates SLEEP TOKEN’s 10th anniversary with collector’s issue, vinyl box set, and more"
@@ -23013,7 +22991,6 @@
       "https://lambgoat.com/news/55570/the-tony-danza-tapdance-extravaganza-premiere-new-single-nothingcanstopwhatiscoming/"
      ]
     ],
-    "caption": "🤘 <b>The Tony Danza Tapdance Extravaganza випустили новий сингл</b>\n\nМатькор-гурт The Tony Danza Tapdance Extravaganza презентував новий сингл «Nothing Can Stop What Is Coming». Це другий трек із майбутнього повноформатного альбому колективу, який стане першим релізом команди з 2012 року.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/28/news/the-tony-danza-tapdance-extravaganza-premiere-new-single-nothing-can-stop-what-is-coming/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/28/news/the-tony-danza-tapdance-extravaganza-premiere-new-single-nothing-can-stop-what-is-coming/",
     "orig": "The Tony Danza Tapdance Extravaganza Premiere New Single “Nothing Can Stop What Is Coming”"
@@ -23027,7 +23004,6 @@
    "Stereogum",
    {
     "also": [],
-    "caption": "🤘 <b>Роберт Дель Найя з Massive Attack випустив саундтрек до документалки Life Support</b>\n\nУчасник гурту Massive Attack Роберт Дель Найя презентував саундтрек до документального фільму Life Support про медиків у Газі. Він написав оригінальну музику спільно з палестинським композитором Хабібом Шехадою Ханною та підібрав треки інших виконавців. Усі кошти від продажу альбому підуть до фонду Health Workers 4 Palestine.\n\n🔗 <a href=\"https://stereogum.com/2515810/massive-attacks-robert-del-naja-shares-new-life-support-soundtrack/music/\">Stereogum</a>\n\n#музика",
     "kind": "photo",
     "link": "https://stereogum.com/2515810/massive-attacks-robert-del-naja-shares-new-life-support-soundtrack/music/",
     "orig": "Massive Attack’s Robert Del Naja Shares New Life Support Soundtrack"
@@ -23041,7 +23017,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Підсумки року від Xbox перейменують на XBOX Playback</b>\n\nПідсумки року від Xbox змінять назву на XBOX Playback до 25-річчя платформи у 2026 році. Нова інфографіка показуватиме не лише статистику за рік, а й загальний шлях гравця, зокрема першу гру, першого друга та загальний час улюблених ігор.\n\n🔗 <a href=\"https://insider-gaming.com/xbox-year-in-review-becomes-xbox-playback-this-year/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/xbox-year-in-review-becomes-xbox-playback-this-year/",
     "orig": "XBOX Year in Review Becomes ‘XBOX Playback’ This Year"
@@ -23060,7 +23035,6 @@
       "https://lambgoat.com/news/55576/deftones-idles-joyce-manor-and-more-revealed-for-salt-lake-citys-kilby-block-party/"
      ]
     ],
-    "caption": "🤘 <b>Deftones очолять фестиваль Kilby Block Party 2027</b>\n\nГурт Deftones стане хедлайнером першого дня фестивалю Kilby Block Party, який відбудеться 14–16 травня 2027 року в Солт-Лейк-Сіті. Серед інших хедлайнерів майбутнього заходу також заявлені The Strokes та Jungle. Продаж квитків розпочнеться завтра, 29 жовтня, о 10:00 за часом MST.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/28/news/deftones-among-headliners-for-2027-kilby-block-party/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/28/news/deftones-among-headliners-for-2027-kilby-block-party/",
     "orig": "Deftones Among Headliners For 2027 ‘Kilby Block Party’"
@@ -23074,7 +23048,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Anthropic розширила можливості Claude Enterprise для юристів</b>\n\n🔗 <a href=\"https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/claude-for-legal-now-verifies-sources-automatically-then-hands-the-file-to-a-lawyer/",
     "orig": "Claude for Legal now verifies sources automatically, then hands the file to a lawyer"
@@ -23088,7 +23061,6 @@
    "Kerrang!",
    {
     "also": [],
-    "caption": "🤘 <b>Виходить масштабний саундтрек-альбом Ozzy та Black Sabbath Back To The Beginning</b>\n\n🔗 <a href=\"https://www.kerrang.com/theres-a-massive-back-to-the-beginning-soundtrack-album-coming-ozzy-black-sabbath-birmingham\">Kerrang!</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.kerrang.com/theres-a-massive-back-to-the-beginning-soundtrack-album-coming-ozzy-black-sabbath-birmingham",
     "orig": "There’s a massive Ozzy & Black Sabbath Back To The Beginning soundtrack album coming"
@@ -23845,6 +23817,118 @@
     "link": "https://www.indiewire.com/news/events/watch-hoorae-media-microdramas-future-of-filmmaking-summit-1235223959/",
     "orig": "Hoorae’s Microdramas Found 580 Million Views. Can TikTok Get Hollywood Working Again? — Watch"
    }
+  ],
+  [
+   1793217686.1618173,
+   3300,
+   "🤘",
+   "Xaviersobased хоче записати спільний альбом із Sabrina Carpenter",
+   "Pitchfork",
+   {
+    "also": [],
+    "caption": "🤘 <b>Xaviersobased хоче записати спільний альбом із Sabrina Carpenter</b>\n\nРезервний репер Xaviersobased заявив, що готовий записати спільний альбом із попзіркою Sabrina Carpenter. Музикант зазначив, що відкритий до колаборацій, якщо вони звучатимуть доречно та природно.\n\n🔗 <a href=\"https://pitchfork.com/story/xaviersobased-wants-to-collaborate-with-sabrina-carpenter/\">Pitchfork</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://pitchfork.com/story/xaviersobased-wants-to-collaborate-with-sabrina-carpenter/",
+    "orig": "Xaviersobased Wants to Collab With Sabrina Carpenter"
+   }
+  ],
+  [
+   1793217697.7814596,
+   3301,
+   "🎮",
+   "Creative Assembly розкрила нові деталі Alien: Isolation 2",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Creative Assembly розкрила нові деталі <a href=\"https://store.steampowered.com/app/4665290/\">Alien: Isolation 2</a></b>\n\nРозробники Alien: Isolation 2 поділилися новими подробицями про сиквел. Гра отримає фоторежим, фізичне видання на дисках та підтримку реального мікрофона, який реагуватиме на шум у кімнаті. Реліз заплановано на 2027 рік.\n\n🔗 <a href=\"https://www.ign.com/articles/alien-isolation-2-team-confirms-physical-edition-photo-mode-and-new-gameplay-details\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/alien-isolation-2-team-confirms-physical-edition-photo-mode-and-new-gameplay-details",
+    "orig": "Alien: Isolation 2 Team Confirms Physical Edition, Photo Mode, and New Gameplay Details"
+   }
+  ],
+  [
+   1793217701.594568,
+   3302,
+   "💾",
+   "Apple анонсувала оновлений MacBook Pro із сенсорним екраном, відмовившись від своєї попередньої позиції. Про це повідомив Марк Гурман із Bloomberg.",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "💾 <b>Apple анонсувала оновлений MacBook Pro із сенсорним екраном, відмовившись від своєї попередньої позиції. Про це повідомив Марк Гурман із Bloomberg.</b>\n\nApple представила оновлений MacBook Pro, який вперше отримав сенсорний екран. Компанія відмовилася від свого попереднього рішення уникати таких дисплеїв у ноутбуках.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-28/apple-unveils-touch-screen-macbook-pro-video\">Bloomberg</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-28/apple-unveils-touch-screen-macbook-pro-video",
+    "orig": "Apple Unveils Touch-Screen MacBook Pro"
+   }
+  ],
+  [
+   1793217704.850838,
+   3303,
+   "🤘",
+   "Lita Ford анонсувала концептуальний альбом The Bride Wore Black",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Lita Ford анонсувала концептуальний альбом The Bride Wore Black</b>\n\nLita Ford підтвердила, що її новий студійний альбом The Bride Wore Black вийде на початку 2027 року на Frontiers Music Srl. Птівка буде концептуальною темною казою у стилі PG-13 та міститиме сингл Dracula, а також колаборації з Doro Pesch і Jean Beauvoir. Продюсером релізу виступив Gary Hoey, а зведенням займався Max Norman.\n\n🔗 <a href=\"https://blabbermouth.net/news/lita-ford-on-her-upcoming-album-the-bride-wore-black-its-kind-of-a-pg-13-sort-of-dark-fairy-tale\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/lita-ford-on-her-upcoming-album-the-bride-wore-black-its-kind-of-a-pg-13-sort-of-dark-fairy-tale",
+    "orig": "LITA FORD On Her Upcoming Album 'The Bride Wore Black': 'It's Kind Of A PG-13 Sort Of Dark Fairy Tale'"
+   }
+  ],
+  [
+   1793217708.046317,
+   3304,
+   "🤘",
+   "Enter Shikari випустили новий сингл Lightyears та анонсували концерти в США",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Enter Shikari випустили новий сингл Lightyears та анонсували концерти в США</b>\n\nБританський гурт Enter Shikari несподівано випустив новий трек &quot;Lightyears&quot; та анонсував серію концертів у США на початок 2027 року. Фронтмен Rou Reynolds розповів, що пісня присвячена ностальгії за минулим, покійним близьким та спілкуванню з колишньою версією себе. Незважаючи на плани піти у безстрокову відпустку після гастролей 2027-го, колектив продовжує активно творчу діяльність.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/28/news/enter-shikari-surprise-release-lightyears-announce-new-u-s-shows/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/28/news/enter-shikari-surprise-release-lightyears-announce-new-u-s-shows/",
+    "orig": "Enter Shikari Surprise Release “Lightyears”, Announce New U.S. Shows"
+   }
+  ],
+  [
+   1793217712.6603887,
+   3305,
+   "🎮",
+   "Sony розкрила листопадову добірку PlayStation Plus Essential",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎮 <b>Sony розкрила листопадову добірку PlayStation Plus Essential</b>\n\nSony оголосила ігри листопада для передплатників PlayStation Plus Essential. До добірки увійшли зомбі-екшн Dead Island 2, збірка класичних пригод Лари Крофт та картковий роґлайт Monster Train 2. Усі три гри можна буде додати до бібліотеки з 3 до 30 листопада.\n\n🔗 <a href=\"https://itc.ua/ua/novini/sony-rozkryla-lystopadovu-dobirku-playstation-plus-essential/\">ITC.ua</a>\n\n#ігри",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/sony-rozkryla-lystopadovu-dobirku-playstation-plus-essential/",
+    "orig": "Sony розкрила листопадову добірку PlayStation Plus Essential"
+   }
+  ],
+  [
+   1793217716.0888944,
+   3306,
+   "🎬",
+   "Лакіт Стенфілд і Роб Севадж залишили горор-трилер Molepeople від Paramount",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Лакіт Стенфілд і Роб Севадж залишили горор-трилер Molepeople від Paramount</b>\n\nЗірка фільму Лакіт Стенфілд і режисер Роб Севадж покинули роботу над горор-трилером Molepeople від Paramount. Причини відходу Стенфілда не розголошують, а Севадж пішов через конфлікт у розкладі. Новим режисером стрічки став Бен Вітлі.\n\n🔗 <a href=\"https://deadline.com/2026/10/lakeith-stanfield-exits-molepeople-director-replacement-1237207388/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/lakeith-stanfield-exits-molepeople-director-replacement-1237207388/",
+    "orig": "LaKeith Stanfield Exits Paramount’s ‘Molepeople’ As Ben Wheatley Replaces Rob Savage As Director"
+   }
+  ],
+  [
+   1793217721.7147481,
+   3307,
+   "🤘",
+   "Mean Ghouls випустили новий кліп на пісню He’s a Serial Killer",
+   "Distorted Sound",
+   {
+    "also": [],
+    "caption": "🤘 <b>Mean Ghouls випустили новий кліп на пісню He’s a Serial Killer</b>\n\nХоррор-панк-тріо Mean Ghouls презентувало новий сингл і кліп He’s a Serial Killer. Трек увійде до дебютного альбому гурту …and the Horror Goes On, реліз якого запланований на 30 жовтня.\n\n🔗 <a href=\"https://distortedsoundmag.com/mean-ghouls-release-new-music-video-for-hes-a-serial-killer/\">Distorted Sound</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://distortedsoundmag.com/mean-ghouls-release-new-music-video-for-hes-a-serial-killer/",
+    "orig": "Mean Ghouls release new music video for ‘He’s a Serial Killer’"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23932,8 +24016,6 @@
    1793197973.048487
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1793125891.426859,
-   1793127737.1449366,
    1793131299.2972555,
    1793134888.2875004,
    1793134902.0229747,
@@ -23946,11 +24028,13 @@
    1793192493.8501327,
    1793203294.4575207,
    1793210600.9187858,
-   1793210666.7434163
+   1793210666.7434163,
+   1793217697.7818828
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1793133107.7044473,
-   1793201742.415062
+   1793201742.415062,
+   1793217712.660811
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
    1793127770.9493868,
@@ -24042,7 +24126,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1793129522.6811862,
    1793131334.422786,
    1793134891.2182565,
    1793139780.3537054,
@@ -24056,7 +24139,8 @@
    1793185327.964663,
    1793189021.801867,
    1793190848.7684557,
-   1793192608.6827505
+   1793192608.6827505,
+   1793217716.0893583
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1793122312.6100073,
@@ -24105,7 +24189,8 @@
    1793210742.9789257,
    1793212514.736379,
    1793212538.4642522,
-   1793215931.5735772
+   1793215931.5735772,
+   1793217704.8512986
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -24120,7 +24205,8 @@
    1793147547.025937,
    1793190866.685908,
    1793192981.7060947,
-   1793212618.0066898
+   1793212618.0066898,
+   1793217721.7152228
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
    1793122382.3567688,
@@ -24174,8 +24260,7 @@
    1793032481.2364259
   ],
   "music|Pitchfork|https://pitchfork.com/feed/feed-news/rss": [
-   1793129488.3169708,
-   1793129515.9131773
+   1793217686.162292
   ],
   "music|Revolver|https://www.revolvermag.com/rss.xml": [
    1793134909.817134,
@@ -24189,9 +24274,6 @@
    1793205146.6606107
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1793127751.4155133,
-   1793127758.0032115,
-   1793129519.4587097,
    1793131331.5172672,
    1793133104.1518738,
    1793136682.3498344,
@@ -24206,7 +24288,8 @@
    1793210802.8137295,
    1793212521.051925,
    1793214122.3002856,
-   1793214127.489407
+   1793214127.489407,
+   1793217708.0467434
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1793100702.0206006,
@@ -24219,7 +24302,8 @@
    1793165508.4285023,
    1793187177.644836,
    1793189000.1735027,
-   1793214106.4448411
+   1793214106.4448411,
+   1793217701.5950258
   ],
   "software|DOU|https://dou.ua/feed/": [
    1792352542.7076654,
@@ -24605,6 +24689,7 @@
   "149fa2a204ea3b27": 1792659709.457728,
   "14b4e32f787c71f2": 1793099020.5289092,
   "14c4db3950ae50eb": 1792612908.123848,
+  "14c5cbb8c585dac0": 1793217716.0893118,
   "15013a4aa4811f1b": 1792562490.4366257,
   "1513c97150042f25": 1792145464.1181524,
   "15154889133c6ca7": 1792530155.9754505,
@@ -25064,6 +25149,7 @@
   "32d4e22bed0cf28b": 1793179919.6852942,
   "32dc3e3aff11ec39": 1792663495.5033689,
   "32f669d87e7b98ee": 1793196195.9905612,
+  "330f8609a1e460e9": 1793217704.8512528,
   "3310ce65ece99624": 1793016162.1972497,
   "3313bdc4659379ba": 1792494232.5514388,
   "33171e133b60e5d4": 1792350085.446993,
@@ -25175,6 +25261,7 @@
   "3a98d0f20fe899fb": 1792097666.27991,
   "3aa998a0529b21f0": 1792947682.4115143,
   "3aaf38d7c93f3727": 1792163995.533491,
+  "3abcc72602154c82": 1793217686.1622474,
   "3abfe5612c2e51c8": 1793023607.7945657,
   "3ac7d3c53616ef3e": 1792785822.9714398,
   "3adaf96d283b6934": 1792891894.6232944,
@@ -25720,6 +25807,7 @@
   "5cbf96954b361583": 1792969254.6031685,
   "5cd9816c8b7b910f": 1792328496.9111874,
   "5ceb63f8e658d907": 1793014288.1883664,
+  "5cf22d805739b889": 1793217708.0466995,
   "5d118fadbe793ddd": 1792670538.8058562,
   "5d1c70075be34a95": 1792665082.1346412,
   "5d21b9766f658375": 1793111477.221037,
@@ -26093,6 +26181,7 @@
   "750effe6eac9d999": 1793212306.502185,
   "7520f52f81c6f658": 1792056030.7567132,
   "7527728500b1592d": 1792492301.079896,
+  "75298669dc5748f2": 1793217721.7151792,
   "753a2f704c536782": 1792619386.5887408,
   "753ac664ef9f1eff": 1792877454.5222237,
   "75416b7b45eb0bab": 1792503055.2393067,
@@ -26786,6 +26875,7 @@
   "a0d0d201a640180b": 1792589540.4712,
   "a10e320722d242a0": 1793208749.7644103,
   "a1361b9d942e9af9": 1792767876.5080068,
+  "a144020bd845e53e": 1793217684.406171,
   "a14a9d738408efb4": 1793036011.560898,
   "a16249fcac5d25f1": 1792479998.7440536,
   "a193fc60f1b44be4": 1792749733.8272233,
@@ -27389,6 +27479,7 @@
   "ca3329208aaf5c49": 1792787493.9170265,
   "ca434da9a05117f0": 1792129006.8298862,
   "ca435c224950349d": 1793102523.4216716,
+  "ca64fb02eb1893b3": 1793217701.594971,
   "ca694582f1ed5d0e": 1792756117.8089204,
   "ca925f90135eae9c": 1792855918.1874487,
   "ca97c1e36703a76c": 1793057506.6042607,
@@ -27739,9 +27830,11 @@
   "e2469c92ba3c15a3": 1792911845.885203,
   "e251a051dece1fe0": 1792539078.2130127,
   "e254ec3afbc7da75": 1792764347.509258,
+  "e258478ab51bf86c": 1793217697.7818396,
   "e276181ba70f8a42": 1792598652.2776816,
   "e276603713750b4b": 1792188143.0501099,
   "e27ddf66bd5830df": 1792530094.9040325,
+  "e28fe4b5844babc3": 1793217688.6692884,
   "e2da42b5f827c780": 1792270334.2211804,
   "e2dd85529398cb66": 1792780414.3837748,
   "e2f2938dd94a8a6b": 1792870254.6457899,
@@ -27811,6 +27904,7 @@
   "e6bbcb463749c00b": 1792488739.349631,
   "e6c153f21ac0a6b3": 1792396853.9592032,
   "e6c8f9d6df072dad": 1792164537.5119853,
+  "e6ce1cf3f3a6c965": 1793217700.24219,
   "e6fae442a8ed264e": 1793205226.22513,
   "e700c0be922b79dc": 1792627353.454446,
   "e706a567e5c9470c": 1792699465.6265347,
@@ -27927,6 +28021,7 @@
   "ef4d3a362b09c3db": 1793097196.6198316,
   "efa6b08c22b55318": 1792886547.9425578,
   "efb04152e06859f7": 1792791107.1763618,
+  "efefd3e7f16fbe36": 1793217712.6607685,
   "f0339613a2d9dbcf": 1792177205.8319185,
   "f06b4bddf27b5dbe": 1793113276.9959323,
   "f0884b43a744ed86": 1792441853.8507822,
@@ -27991,6 +28086,7 @@
   "f4b88e1b098a2ae7": 1792591855.6388552,
   "f4bd4a80bb19dbf1": 1792071063.7644897,
   "f4daf4b4f2d75cc9": 1792074069.9702458,
+  "f4dd1b6ef79aeddf": 1793217656.2419808,
   "f4e4e4e20ab664a3": 1792436456.6644757,
   "f4e8de70e8f8d578": 1792676020.4816084,
   "f4f2c19f2668d2e4": 1793059277.6216888,
@@ -28140,6 +28236,7 @@
   "fca08595f81686ed": 1793100692.486667,
   "fccb58584bd5ed06": 1792760505.3771152,
   "fce22a5d69e60c2f": 1792611053.7842038,
+  "fce8cb5009156f21": 1793217724.584087,
   "fd05bf3cffdc4338": 1792931499.046285,
   "fd0dd24b3008cfef": 1793190874.7831242,
   "fd2665291e3c4dc1": 1793021492.6742065,
@@ -28634,7 +28731,7 @@
   ],
   "artists_checked": 1793207257.407874,
   "blocked_until": 1793205272.8760033,
-  "cursor": 293,
+  "cursor": 303,
   "digest_week": "2026-W43",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -29365,7 +29462,7 @@
   },
   "filtered": {
    "/Film": 6,
-   "Bloomberg": 6,
+   "Bloomberg": 7,
    "Deadline": 5,
    "Distorted Sound": 1,
    "GamesIndustry.biz": 1,
@@ -29385,20 +29482,20 @@
   "sources": {
    "/Film": 18,
    "AIN.ua": 4,
-   "Blabbermouth": 46,
-   "Bloomberg": 31,
+   "Blabbermouth": 47,
+   "Bloomberg": 32,
    "DOU Gamedev": 3,
-   "Deadline": 41,
+   "Deadline": 42,
    "Decibel": 8,
    "Digital Foundry": 3,
-   "Distorted Sound": 14,
+   "Distorted Sound": 15,
    "Eurogamer": 18,
    "GameSpot": 21,
    "GamesIndustry.biz": 13,
    "GitHub Trending": 13,
    "Hugging Face": 2,
-   "IGN": 40,
-   "ITC.ua": 39,
+   "IGN": 41,
+   "ITC.ua": 40,
    "IndieWire": 13,
    "Insider Gaming": 52,
    "Kerrang!": 23,
@@ -29409,7 +29506,7 @@
    "Mezha": 51,
    "Neformat": 1,
    "PC Gamer": 49,
-   "Pitchfork": 4,
+   "Pitchfork": 5,
    "PlayUA": 18,
    "Polygon": 18,
    "Product Hunt": 13,
@@ -29417,14 +29514,14 @@
    "Rock Paper Shotgun": 17,
    "Stereogum": 9,
    "The Decoder": 16,
-   "ThePRP": 33,
+   "ThePRP": 34,
    "VGC": 19,
    "Variety": 18
   },
   "translators": {
    "DeepL": 15,
    "gemini-flash-latest": 8,
-   "gemini-flash-lite-latest": 734
+   "gemini-flash-lite-latest": 744
   },
   "week": "2026-W44"
  },
@@ -30689,6 +30786,16 @@
    "Alien: Isolation 2",
    1793215933.545154
   ],
+  "q:alien isolation 2 team": [
+   0,
+   "",
+   1793217690.0332673
+  ],
+  "q:alien isolation 2 team confirms": [
+   0,
+   "",
+   1793217689.418414
+  ],
   "q:allow lec support fleshy": [
    0,
    "",
@@ -31383,11 +31490,6 @@
    0,
    "",
    1793134898.222595
-  ],
-  "q:blg puts them": [
-   0,
-   "",
-   1793043121.3849058
   ],
   "q:blizzard": [
    0,
@@ -32093,6 +32195,16 @@
    0,
    "",
    1793205208.537355
+  ],
+  "q:confirms physical": [
+   0,
+   "",
+   1793217692.85435
+  ],
+  "q:confirms physical edition": [
+   0,
+   "",
+   1793217692.3295736
   ],
   "q:console games on pc has": [
    0,
@@ -33038,6 +33150,11 @@
    4834840,
    "Ecstatica",
    1793016165.2220197
+  ],
+  "q:edition": [
+   0,
+   "",
+   1793217694.7793043
   ],
   "q:elden ring": [
    1245620,
@@ -37394,10 +37511,30 @@
    "",
    1793188882.4880393
   ],
+  "q:photo": [
+   0,
+   "",
+   1793217695.9456098
+  ],
+  "q:photo mode": [
+   0,
+   "",
+   1793217695.3294275
+  ],
   "q:php": [
    0,
    "",
    1793107919.0110254
+  ],
+  "q:physical": [
+   0,
+   "",
+   1793217694.2325783
+  ],
+  "q:physical edition": [
+   0,
+   "",
+   1793217693.3699448
   ],
   "q:piece": [
    0,
@@ -37553,6 +37690,16 @@
    0,
    "",
    1793122294.2850997
+  ],
+  "q:playstation plus": [
+   0,
+   "",
+   1793217712.1153057
+  ],
+  "q:playstation plus essential": [
+   0,
+   "",
+   1793217711.6066482
   ],
   "q:plus": [
    0,
@@ -38654,6 +38801,21 @@
    "",
    1793201525.2182975
   ],
+  "q:sony playstation": [
+   0,
+   "",
+   1793217711.1024923
+  ],
+  "q:sony playstation plus": [
+   0,
+   "",
+   1793217710.5989544
+  ],
+  "q:sony playstation plus essential": [
+   0,
+   "",
+   1793217710.1056983
+  ],
   "q:south": [
    0,
    "",
@@ -39048,6 +39210,21 @@
    0,
    "",
    1793053886.0184004
+  ],
+  "q:team confirms": [
+   0,
+   "",
+   1793217691.8324132
+  ],
+  "q:team confirms physical": [
+   0,
+   "",
+   1793217691.2981896
+  ],
+  "q:team confirms physical edition": [
+   0,
+   "",
+   1793217690.6597497
   ],
   "q:team fortress 2": [
    440,
@@ -40658,18 +40835,6 @@
   ]
  },
  "titles": [
-  [
-   1793044896.8113058,
-   "Call of Duty Franchise Surpasses $40 Billion Lifetime Revenue Following Launch of Modern Warfare 4"
-  ],
-  [
-   1793044908.450671,
-   "Emberville Delays Early Access Launch at the Last Minute"
-  ],
-  [
-   1793044917.6394267,
-   "Diablo 4’s War Plans Are Getting A Huge Upgrade In Season 16"
-  ],
   [
    1793044929.0697465,
    "PvE Extraction Game ‘Incursion Red River’ Getting Massive Update Next Week"
@@ -42713,21 +42878,41 @@
   [
    1793215945.919589,
    "Hoorae’s Microdramas Found 580 Million Views. Can TikTok Get Hollywood Working Again? — Watch"
+  ],
+  [
+   1793217686.1622493,
+   "Xaviersobased Wants to Collab With Sabrina Carpenter"
+  ],
+  [
+   1793217697.7818415,
+   "Alien: Isolation 2 Team Confirms Physical Edition, Photo Mode, and New Gameplay Details"
+  ],
+  [
+   1793217701.5949728,
+   "Apple Unveils Touch-Screen MacBook Pro"
+  ],
+  [
+   1793217704.8512542,
+   "LITA FORD On Her Upcoming Album 'The Bride Wore Black': 'It's Kind Of A PG-13 Sort Of Dark Fairy Tale'"
+  ],
+  [
+   1793217708.046701,
+   "Enter Shikari Surprise Release “Lightyears”, Announce New U.S. Shows"
+  ],
+  [
+   1793217712.660771,
+   "Sony розкрила листопадову добірку PlayStation Plus Essential"
+  ],
+  [
+   1793217716.0893133,
+   "LaKeith Stanfield Exits Paramount’s ‘Molepeople’ As Ben Wheatley Replaces Rob Savage As Director"
+  ],
+  [
+   1793217721.715181,
+   "Mean Ghouls release new music video for ‘He’s a Serial Killer’"
   ]
  ],
  "titles_uk": [
-  [
-   1793044896.811307,
-   "Доходи франшизи Call of Duty перевищили $40 мільярдів"
-  ],
-  [
-   1793044908.4506721,
-   "Emberville перенесла вихід у ранній доступ"
-  ],
-  [
-   1793044917.6394281,
-   "Система War Plans у Diablo 4 отримає велике оновлення в Season 16"
-  ],
   [
    1793044929.0697477,
    "Для Incursion Red River анонсували масштабне оновлення 1.4"
@@ -44771,6 +44956,38 @@
   [
    1793215945.91959,
    "Мікродрами від Hoorae Media набрали 580 мільйонів переглядів на TikTok"
+  ],
+  [
+   1793217686.1622503,
+   "Xaviersobased хоче записати спільний альбом із Sabrina Carpenter"
+  ],
+  [
+   1793217697.7818425,
+   "Creative Assembly розкрила нові деталі Alien: Isolation 2"
+  ],
+  [
+   1793217701.594974,
+   "Apple анонсувала оновлений MacBook Pro із сенсорним екраном, відмовившись від своєї попередньої позиції. Про це повідомив Марк Гурман із Bloomberg."
+  ],
+  [
+   1793217704.8512557,
+   "Lita Ford анонсувала концептуальний альбом The Bride Wore Black"
+  ],
+  [
+   1793217708.0467021,
+   "Enter Shikari випустили новий сингл Lightyears та анонсували концерти в США"
+  ],
+  [
+   1793217712.6607718,
+   "Sony розкрила листопадову добірку PlayStation Plus Essential"
+  ],
+  [
+   1793217716.0893154,
+   "Лакіт Стенфілд і Роб Севадж залишили горор-трилер Molepeople від Paramount"
+  ],
+  [
+   1793217721.7151818,
+   "Mean Ghouls випустили новий кліп на пісню He’s a Serial Killer"
   ]
  ],
  "ukrainian": {
