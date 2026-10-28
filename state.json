@@ -1,8 +1,15 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:software|AIN.ua|https://ain.ua/feed/": {
+   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «AIN.ua» не працює",
+   "sent": 0,
+   "since": 1793215915.8550246
+  }
+ },
  "daily_digest_date": "2026-10-28",
  "freebies": {
-  "last_check": 1793207254.5554261,
+  "last_check": 1793215968.893923,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -15,244 +22,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-28 19:02 UTC",
+  "at": "2026-10-28 19:32 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 11
+   "gemini-flash-lite-latest": 4
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792522970.0582764,
-   1494,
-   "🤘",
-   "Джон Бон Джові заявив про готовність вирушити у тур після операції",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/jon-bon-jovi-says-his-singing-voice-is-in-phenomenal-shape-i-could-go-on-stage-tonight-no-problem",
-    "orig": "JON BON JOVI Says His Singing Voice Is In 'Phenomenal' Shape: 'I Could Go' On Stage 'Tonight, No Problem'"
-   }
-  ],
-  [
-   1792522997.5616822,
-   1495,
-   "🎮",
-   "Aspyr Media анонсувала ремастер Shrek 2 із трейлером-пародією на GTA 6",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/shrek-2-remastered-reveal-trailer-parodies-gta-6-sets-november-release-date",
-    "orig": "Shrek 2 Remastered Reveal Trailer Parodies GTA 6, Sets November Release Date"
-   }
-  ],
-  [
-   1792523015.6258543,
-   1496,
-   "🎮",
-   "Скін Nikki у Fortnite викликав обурення та заклик до бойкоту",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/fortnites-nikki-skin-sparks-debate-among-horror-fans-with-some-calling-for-a-boycott",
-    "orig": "Fortnite's Nikki Skin Sparks Debate Among Horror Fans, With Some Calling for a Boycott"
-   }
-  ],
-  [
-   1792523030.2136002,
-   1497,
-   "🎮",
-   "Riot Games готує масштабний реворк Mel у League of Legends",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/league-of-legends-mel-midscope-rework-removes-her-reflect/",
-    "orig": "League of Legends Mel Midscope Rework Removes Her Reflect"
-   }
-  ],
-  [
-   1792523050.0980368,
-   1498,
-   "🎮",
-   "EA Sports повертає франшизу Fight Night",
-   "Insider Gaming",
-   {
-    "also": [
-     [
-      "VGC",
-      "https://www.videogameschronicle.com/news/ea-sports-is-officially-reviving-its-fight-night-boxing-series/"
-     ],
-     [
-      "IGN",
-      "https://www.ign.com/articles/fight-night-eas-beloved-but-long-dormant-boxing-sim-franchise-is-coming-back"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/ea-sports-announces-fight-night-return/",
-    "orig": "EA Sports Announces Fight Night Return"
-   }
-  ],
-  [
-   1792523067.4258292,
-   1499,
-   "🤖",
-   "Deepseek відкрила вихідний код свого рушія виведення DeepInfer",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/deepseek-open-sources-the-inference-engine-that-powers-its-fastest-and-cheapest-ai-model/",
-    "orig": "Deepseek open-sources the inference engine that powers its fastest and cheapest AI model"
-   }
-  ],
-  [
-   1792523075.9121892,
-   1500,
-   "🤘",
-   "Гурт Armory випустив новий альбом Echoes of the Astrolith",
-   "Decibel",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.decibelmagazine.com/2026/10/20/full-album-stream-armory-echoes-of-the-astrolith/",
-    "orig": "Full Album Stream: Armory – “Echoes of the Astrolith”"
-   }
-  ],
-  [
-   1792523108.953913,
-   1501,
-   "🤘",
-   "Metallica випустили живе відео на трек \"Devil's Dance\" з резиденції у Sphere",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55439/metallica-share-live-performance-video-of-devils-dance-from-sphere-residency/",
-    "orig": "Metallica share live performance video of \"Devil's Dance\" from Sphere residency"
-   }
-  ],
-  [
-   1792524128.7103064,
-   1502,
-   "🤘",
-   "Огляд альбому Netherworlds гурту INSOMNIUM у форматі роздратованого батька",
-   "MetalSucks",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.metalsucks.net/2026/10/20/disgruntled-dad-reviews-with-dave-mustcomplain-insomnium-netherworlds/",
-    "orig": "Disgruntled Dad Reviews with DAVE MUSTCOMPLAIN: INSOMNIUM – ‘Netherworlds’"
-   }
-  ],
-  [
-   1792524181.1738465,
-   1503,
-   "🎮",
-   "Гравці обрали найпопулярнішого Pal у Palworld та отримали тизер зимового оновлення",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/palworld-fans-crown-their-favorite-pal-in-new-poll-as-winter-update-is-teased",
-    "orig": "Palworld Fans Crown Their Favorite Pal in New Poll as Winter Update Is Teased"
-   }
-  ],
-  [
-   1792524195.2959065,
-   1504,
-   "🤖",
-   "ШІ-ажіотаж стихає на тлі побоювань щодо оцінок і боргів",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/videos/2026-10-20/open-interest-10-20-2026-video",
-    "orig": "AI Gut Check, Inside Citadel's Securities Conference"
-   }
-  ],
-  [
-   1792524214.7727067,
-   1505,
-   "🎮",
-   "Настільна гра Clash Royale зібрала потрібну суму на Kickstarter менш ніж за годину",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/the-clash-royale-board-game-reaches-its-crowdfunding-goal-in-less-than-an-hour",
-    "orig": "The Clash Royale Board Game Reaches Its Crowdfunding Goal in Less Than an Hour"
-   }
-  ],
-  [
-   1792524236.8651595,
-   1506,
-   "🤖",
-   "Elevenlabs випустила дві нові speech-to-speech моделі для ШІ-розмов у реальному часі",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/elevenlabs-releases-two-new-speech-to-speech-models-designed-for-real-time-ai-conversations/",
-    "orig": "Elevenlabs releases two new speech-to-speech models designed for real-time AI conversations"
-   }
-  ],
-  [
-   1792524252.5742013,
-   1507,
-   "🎮",
-   "Анонсовано roguelite містобудівник CitaDrill із величезним буром",
-   "Rock Paper Shotgun",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.rockpapershotgun.com/dig-through-an-infested-planet-with-your-giant-drill-city-and-try-not-to-die-while-you-do-it-in-the-roguelite-city-builder-citadrill",
-    "orig": "Dig through an infested planet with your giant drill-city and try not to die while you do it in the roguelite city-builder CitaDrill"
-   }
-  ],
-  [
-   1792524281.4416144,
-   1508,
-   "🤘",
-   "Big Ass Truck I.E. випустили дебютний EP та кліп на трек Big Ass Gun",
-   "Lambgoat",
-   {
-    "also": [
-     [
-      "ThePRP",
-      "https://www.theprp.com/2026/10/20/news/big-ass-truck-i-e-premiere-big-ass-gun-music-video/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55435/big-ass-truck-ie-unveil-music-video-for-big-ass-gun-as-new-ep-drops/",
-    "orig": "Big Ass Truck I.E. unveil music video for \"Big Ass Gun\" as new EP drops"
-   }
-  ],
-  [
-   1792524298.9834259,
-   1509,
-   "🤘",
-   "Гурт PeelingFlesh анонсував новий альбом та випустив сингл Crackology",
-   "Lambgoat",
-   {
-    "also": [
-     [
-      "ThePRP",
-      "https://www.theprp.com/2026/10/20/news/peelingfleshs-new-single-crackology-lands-online/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55436/peelingflesh-set-to-release-sophomore-self-titled-lp-share-visualizer-for-new-single-crackology/",
-    "orig": "PeelingFlesh set to release sophomore self-titled LP, share visualizer for new single \"Crackology\""
-   }
-  ],
   [
    1792526497.8897092,
    1510,
@@ -23135,7 +22915,6 @@
       "https://huggingface.co/blog/nvidia/nemotron-transcribe-granary"
      ]
     ],
-    "caption": "🤖 <b>Nvidia випустила відкриту модель Nemotron 3.5 Transcribe</b>\n\nNvidia презентувала відкриту мовну модель Nemotron 3.5 Transcribe на 30 мільярдів параметрів для транскрипції, перекладу та розпізнавання спікерів. Вона обробляє записи тривалістю до години на одній GPU, підтримує 40 мов та очолює низку профільних бенчмарків.\n\n🔗 <a href=\"https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/nvidias-open-nemotron-3-5-transcribe-combines-transcription-translation-and-speaker-recognition/",
     "orig": "Nvidia's open Nemotron 3.5 Transcribe combines transcription, translation, and speaker recognition"
@@ -23149,7 +22928,6 @@
    "Kerrang!",
    {
     "also": [],
-    "caption": "🤘 <b>Queens Of The Stone Age анонсували тур США перед релізом альбому Perfecth</b>\n\nГурт Queens Of The Stone Age представив дати американського туру перед виходом нової пластинки Perfecth наступного тижня. Музиканти пообіцяли згодом оголосити додаткові концертні шоу.\n\n🔗 <a href=\"https://www.kerrang.com/queens-of-the-stone-age-josh-homme-interview-perfecth-love-health-mark-lanegan-iggy-pop-cover-story\">Kerrang!</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.kerrang.com/queens-of-the-stone-age-josh-homme-interview-perfecth-love-health-mark-lanegan-iggy-pop-cover-story",
     "orig": "“The records need to get more personal as the years go on, they’re snapshots of a life in progress”: Inside Josh Homme’s imperfect world"
@@ -23163,7 +22941,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Найкращі настільні ігри з виставки SPIEL Essen</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/5168790/\">Board Games</a>\n\n🔗 <a href=\"https://www.polygon.com/best-new-board-games-spiel-essen-2026/\">Polygon</a>\n\n#ігри",
     "kind": "text",
     "link": "https://www.polygon.com/best-new-board-games-spiel-essen-2026/",
     "orig": "The Must-Play Board Games from 2026's Biggest Board Game Fair"
@@ -23177,7 +22954,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Джин Сіммонс розповів свою версію історій про порятунок Ейса Фрейлі</b>\n\nБасист KISS Джин Сіммонс спростував частину спогадів Ейса Фрейлі з його мемуарів щодо порятунку від утоплення. За словами Сіммонса, з басейну він витягнув не Фрейлі, а Петера Крісса, тоді як Ейс був без свідомості й нічого не пам&#x27;ятав. Водночас інший випадок із затопленою ванною та магнітофоном у готелі Сіммонс підтвердив і додав нові деталі.\n\n🔗 <a href=\"https://blabbermouth.net/news/gene-simmons-tells-his-side-of-ace-frehleys-near-drownings-says-guitarist-didnt-even-know-it-happened\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/gene-simmons-tells-his-side-of-ace-frehleys-near-drownings-says-guitarist-didnt-even-know-it-happened",
     "orig": "GENE SIMMONS Tells His Side Of ACE FREHLEY's Near-Drownings, Says Guitarist 'Didn't Even Know It Happened'"
@@ -23191,7 +22967,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>monobank попереджатиме про проблеми з оплатою підписок</b>\n\nУкраїнський необанк monobank додав у застосунок функцію, яка попереджатиме користувачів, якщо черговий платіж за підпискою може не пройти. Повідомлення з&#x27;являтиметься у виписці під карткою та пояснюватиме можливу причину збою.\n\n🔗 <a href=\"https://mezha.ua/news/monobank-adds-subscription-payment-alerts-316642/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/monobank-adds-subscription-payment-alerts-316642/",
     "orig": "monobank попереджатиме про проблеми з оплатою підписок"
@@ -24000,6 +23775,76 @@
     "link": "https://lambgoat.com/news/55582/ignite-reveal-early-2027-spain-and-portugal-tour-dates-following-announced-european-tour/",
     "orig": "Ignite reveal early 2027 Spain and Portugal tour dates following announced European tour"
    }
+  ],
+  [
+   1793215927.8456843,
+   3295,
+   "🎮",
+   "Acer Nitro V 15 — Малий, мобільний, ігровий! 165Hz, Nvidia RTX 5060, AMD Ryzen 7 170 (РОЗІГРАШ)",
+   "PlayUA",
+   {
+    "also": [],
+    "caption": "🎮 <b>Acer Nitro V 15 — Малий, мобільний, ігровий! 165Hz, Nvidia RTX 5060, AMD Ryzen 7 170 (РОЗІГРАШ)</b>\n\nКомпактний, комфортний, універсальний. Саме так можна описати нашого сьогоднішнього гостя — ігровий ноутбук Acer Nitro V15. Невеличкий герой із відеокартами Nvidia RTX 50ї серії всередині та процесорами AMD Ryzen 100-ї серії. 💻 Ігровий ноутбук Acer Nitro V 15 (ANV15-A31) з відеокартою NVIDIA GeForce RTX 5060 можна знайти за цим посиланням. 🎁‼️Щоб взяти участь у розіграші […]\n\n🔗 <a href=\"https://playua.net/acer-nitro-v-15-165hz-nvidia-rtx-5060-amd-ryzen-7-170-review/\">PlayUA</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://playua.net/acer-nitro-v-15-165hz-nvidia-rtx-5060-amd-ryzen-7-170-review/",
+    "orig": "Acer Nitro V 15 — Малий, мобільний, ігровий! 165Hz, Nvidia RTX 5060, AMD Ryzen 7 170 (РОЗІГРАШ)"
+   }
+  ],
+  [
+   1793215931.5731103,
+   3296,
+   "🤘",
+   "Елой Касагранде завершив запис ударних для нового альбому SLIPKNOT",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Елой Касагранде завершив запис ударних для нового альбому SLIPKNOT</b>\n\nБарабанщик Елой Касагранде підтвердив, що завершив запис усіх партій ударних для нової пластинки SLIPKNOT. Музикант розповів про процес створення треків через спільні джеми з Джимом Рутом та іншими учасниками гурту за участі продюсера Метта Воллеса.\n\n🔗 <a href=\"https://blabbermouth.net/news/eloy-casagrande-reveals-he-has-finished-recording-his-parts-for-new-slipknot-album-the-drum-tracks-are-done\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/eloy-casagrande-reveals-he-has-finished-recording-his-parts-for-new-slipknot-album-the-drum-tracks-are-done",
+    "orig": "ELOY CASAGRANDE Reveals He Has Finished Recording His Parts For New SLIPKNOT Album: The Drum Tracks 'Are Done'"
+   }
+  ],
+  [
+   1793215938.480199,
+   3297,
+   "🎮",
+   "Розробники Alien: Isolation 2 підтвердили вихід фізичного видання гри",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Розробники <a href=\"https://store.steampowered.com/app/4665290/\">Alien: Isolation 2</a> підтвердили вихід фізичного видання гри</b>\n\nРозробники з Creative Assembly підтвердили, що сиквел Alien: Isolation отримає повне фізичне видання на дисках. Команда також розповіла про відкриті локації, ще розумнішого Ксеноморфа та збереження атмосфери оригінального фільму Рідлі Скотта. Дата виходу гри наразі невідома.\n\n🔗 <a href=\"https://www.eurogamer.net/alien-isolation-2-commit-physical-edition\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/alien-isolation-2-commit-physical-edition",
+    "orig": "Alien: Isolation 2 devs commit to a physical edition: \"Staying true to the analogue nature of Alien is one of our pillars\""
+   }
+  ],
+  [
+   1793215942.4512203,
+   3298,
+   "🤖",
+   "Google DeepMind випустила ШІ-модель Gemini 4 Carbon",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Google DeepMind випустила ШІ-модель Gemini 4 Carbon</b>\n\n🔗 <a href=\"https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
+    "orig": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board"
+   }
+  ],
+  [
+   1793215945.919153,
+   3299,
+   "🎬",
+   "Мікродрами від Hoorae Media набрали 580 мільйонів переглядів на TikTok",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Мікродрами від Hoorae Media набрали 580 мільйонів переглядів на TikTok</b>\n\nКомпанія Hoorae Media Ісси Рей випустила мікродраму &quot;Screen Time&quot; на TikTok та в застосунку PineDrama, де проєкт зібрав майже 580 мільйонів переглядів. Автори прагнуть знайти нові можливості для підтримки незалежних кінематографістів і створення стійкого бізнесу в умовах скорочення бюджетів у Голлівуді.\n\n🔗 <a href=\"https://www.indiewire.com/news/events/watch-hoorae-media-microdramas-future-of-filmmaking-summit-1235223959/\">IndieWire</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/news/events/watch-hoorae-media-microdramas-future-of-filmmaking-summit-1235223959/",
+    "orig": "Hoorae’s Microdramas Found 580 Million Views. Can TikTok Get Hollywood Working Again? — Watch"
+   }
   ]
  ],
  "posted_by_source": {
@@ -24045,7 +23890,8 @@
    1793201659.0745618,
    1793203465.1170776,
    1793205182.0496218,
-   1793207136.1796045
+   1793207136.1796045,
+   1793215942.451754
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1792775790.1825686
@@ -24061,12 +23907,12 @@
    1793214149.0742316
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1793117001.3566206,
    1793189012.5483522,
    1793194315.5467546,
    1793196195.9906085,
    1793196244.345338,
-   1793203347.3810923
+   1793203347.3810923,
+   1793215938.480713
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1793129507.0961983,
@@ -24149,11 +23995,10 @@
    1793212604.067674
   ],
   "games|PlayUA|https://playua.net/feed/": [
-   1793116970.2478275,
-   1793127745.6985931,
    1793178103.8808808,
    1793178110.8098807,
-   1793199713.3400092
+   1793199713.3400092,
+   1793215927.8462741
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
    1793174486.76209,
@@ -24222,11 +24067,11 @@
    1793205228.2483215
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
-   1793127740.5889082,
    1793133084.9163759,
    1793133110.8623514,
    1793196215.4263656,
-   1793214114.605627
+   1793214114.605627,
+   1793215945.9196374
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1793127742.9065824,
@@ -24244,8 +24089,6 @@
    1793147553.6314206
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1793129492.6191728,
-   1793129510.2315662,
    1793133088.414668,
    1793136679.3827684,
    1793188986.0344129,
@@ -24261,7 +24104,8 @@
    1793208692.6368747,
    1793210742.9789257,
    1793212514.736379,
-   1793212538.4642522
+   1793212538.4642522,
+   1793215931.5735772
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -24754,6 +24598,7 @@
   "1417f7a7540637a4": 1792798281.6424534,
   "141a9ac1ac7340d4": 1793124153.387487,
   "1469250aab31eb50": 1792596683.2309978,
+  "148664b03fab34ce": 1793215927.846219,
   "1488efb88ca7e573": 1792564646.7948225,
   "148d905ade44e54e": 1792688829.9105573,
   "14996736a8a6736e": 1792009884.2661192,
@@ -25992,6 +25837,7 @@
   "6550ed6dcac1527a": 1792350089.0116603,
   "656b268b8a103670": 1793068374.0594077,
   "65862f40c49d41bb": 1793037733.9664924,
+  "659ddef2786de07c": 1793215942.4516792,
   "65ac9525b2469974": 1792683217.9499457,
   "65ae8c61d968783d": 1793189012.548304,
   "65bdc00f3b608153": 1792009871.5961525,
@@ -26251,6 +26097,7 @@
   "753ac664ef9f1eff": 1792877454.5222237,
   "75416b7b45eb0bab": 1792503055.2393067,
   "7550aba4eec280c2": 1792422055.611242,
+  "755723004d777988": 1793215945.9195867,
   "755c92661a1cf338": 1792501363.7923577,
   "755eea3d16f84171": 1792632680.1087217,
   "7570b9448722db18": 1793019985.0809069,
@@ -26713,6 +26560,7 @@
   "9314367f86d219d5": 1792699278.1679087,
   "93150daddc131cf6": 1793102548.121823,
   "93272459614bf6a4": 1792523015.6261346,
+  "934066fe8c7e2005": 1793215920.7551086,
   "9349733d05eabfc4": 1792494183.9025233,
   "93498f4f3bc42a3c": 1792314110.6406078,
   "934b450c88b876bb": 1792852294.8375013,
@@ -26741,6 +26589,7 @@
   "947a5f80c8972d06": 1792679699.8436632,
   "948c89981493d396": 1792931493.3010232,
   "9492617038b76326": 1792875422.82903,
+  "94af887e29882a6b": 1793215938.480663,
   "94b9cff7b54a88c9": 1792037218.5460002,
   "94ba73dd2cf114c6": 1792497724.7860126,
   "94d64d5c94710312": 1792607520.1215189,
@@ -27801,6 +27650,7 @@
   "dd0c58a13160c81f": 1793010688.8908372,
   "dd26a9579671ab18": 1792483302.2115438,
   "dd3fe6af043358d1": 1792793165.943936,
+  "dd441f97186714bf": 1793215931.5735245,
   "dd4a118cd1cf5fba": 1792429335.2482028,
   "dd4da5d2ce858f2f": 1792504888.0988407,
   "dd54b3718ca32a3a": 1792584080.1470208,
@@ -28784,7 +28634,7 @@
   ],
   "artists_checked": 1793207257.407874,
   "blocked_until": 1793205272.8760033,
-  "cursor": 283,
+  "cursor": 293,
   "digest_week": "2026-W43",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -29535,21 +29385,21 @@
   "sources": {
    "/Film": 18,
    "AIN.ua": 4,
-   "Blabbermouth": 45,
+   "Blabbermouth": 46,
    "Bloomberg": 31,
    "DOU Gamedev": 3,
    "Deadline": 41,
    "Decibel": 8,
    "Digital Foundry": 3,
    "Distorted Sound": 14,
-   "Eurogamer": 17,
+   "Eurogamer": 18,
    "GameSpot": 21,
    "GamesIndustry.biz": 13,
    "GitHub Trending": 13,
    "Hugging Face": 2,
    "IGN": 40,
    "ITC.ua": 39,
-   "IndieWire": 12,
+   "IndieWire": 13,
    "Insider Gaming": 52,
    "Kerrang!": 23,
    "Lambgoat": 25,
@@ -29560,13 +29410,13 @@
    "Neformat": 1,
    "PC Gamer": 49,
    "Pitchfork": 4,
-   "PlayUA": 17,
+   "PlayUA": 18,
    "Polygon": 18,
    "Product Hunt": 13,
    "Revolver": 7,
    "Rock Paper Shotgun": 17,
    "Stereogum": 9,
-   "The Decoder": 15,
+   "The Decoder": 16,
    "ThePRP": 33,
    "VGC": 19,
    "Variety": 18
@@ -29574,7 +29424,7 @@
   "translators": {
    "DeepL": 15,
    "gemini-flash-latest": 8,
-   "gemini-flash-lite-latest": 730
+   "gemini-flash-lite-latest": 734
   },
   "week": "2026-W44"
  },
@@ -30204,6 +30054,11 @@
    "16叠谋杀之谜",
    1792416683.7367072
   ],
+  "q:165hz": [
+   0,
+   "",
+   1793215924.8203046
+  ],
   "q:17": [
    0,
    "",
@@ -30233,11 +30088,6 @@
    4566690,
    "180°",
    1792953097.974842
-  ],
-  "q:19th": [
-   0,
-   "",
-   1793043091.727206
   ],
   "q:2": [
    0,
@@ -30574,6 +30424,11 @@
    "",
    1793107918.495339
   ],
+  "q:5 15": [
+   0,
+   "",
+   1793215924.3586946
+  ],
   "q:50": [
    0,
    "",
@@ -30583,6 +30438,11 @@
    2542430,
    "5050",
    1792681371.753771
+  ],
+  "q:5060": [
+   0,
+   "",
+   1793215926.6589236
   ],
   "q:6": [
    0,
@@ -30688,6 +30548,21 @@
    0,
    "",
    1793044902.8522675
+  ],
+  "q:acer nitro": [
+   0,
+   "",
+   1793215922.1792738
+  ],
+  "q:acer nitro 5": [
+   0,
+   "",
+   1793215921.733234
+  ],
+  "q:acer nitro 5 15": [
+   0,
+   "",
+   1793215921.2843602
   ],
   "q:activity game back from": [
    0,
@@ -30803,6 +30678,16 @@
    0,
    "",
    1793116969.265822
+  ],
+  "q:alien": [
+   0,
+   "",
+   1793215934.5433607
+  ],
+  "q:alien isolation 2": [
+   4665290,
+   "Alien: Isolation 2",
+   1793215933.545154
   ],
   "q:allow lec support fleshy": [
    0,
@@ -31424,11 +31309,6 @@
    "",
    1793052085.4818652
   ],
-  "q:bioware 'their": [
-   0,
-   "",
-   1793043093.1800878
-  ],
   "q:bioware's rpg": [
    0,
    "",
@@ -31508,16 +31388,6 @@
    0,
    "",
    1793043121.3849058
-  ],
-  "q:blg puts them in lol": [
-   0,
-   "",
-   1793043118.8726327
-  ],
-  "q:blg puts them in lol worlds": [
-   0,
-   "",
-   1793043118.4091418
   ],
   "q:blizzard": [
    0,
@@ -33384,16 +33254,6 @@
    "",
    1793142085.22002
   ],
-  "q:exit": [
-   0,
-   "",
-   1793041333.6470435
-  ],
-  "q:exit offer": [
-   0,
-   "",
-   1793041333.0772822
-  ],
   "q:exodus": [
    3230960,
    "EXODUS",
@@ -34313,11 +34173,6 @@
    0,
    "",
    1793210766.3350027
-  ],
-  "q:geralt": [
-   0,
-   "",
-   1793043094.2219148
   ],
   "q:gets": [
    0,
@@ -35264,16 +35119,6 @@
    "",
    1793187188.1234708
   ],
-  "q:jordan": [
-   0,
-   "",
-   1793041346.0245404
-  ],
-  "q:jordan mechner": [
-   0,
-   "",
-   1793041345.4788597
-  ],
   "q:journey": [
    638230,
    "Journey",
@@ -35358,26 +35203,6 @@
    3633760,
    "KAZ",
    1791894819.2258348
-  ],
-  "q:kcorp": [
-   0,
-   "",
-   1793043115.1831458
-  ],
-  "q:kcorp loss": [
-   0,
-   "",
-   1793043114.694732
-  ],
-  "q:kcorp loss to blg": [
-   0,
-   "",
-   1793043114.1599948
-  ],
-  "q:kcorp loss to blg puts": [
-   0,
-   "",
-   1793043111.191131
   ],
   "q:ken": [
    0,
@@ -35664,36 +35489,6 @@
    "",
    1793190719.635845
   ],
-  "q:lets": [
-   0,
-   "",
-   1793041321.605567
-  ],
-  "q:lets players": [
-   0,
-   "",
-   1793041321.018289
-  ],
-  "q:lets players run": [
-   0,
-   "",
-   1793041320.4839458
-  ],
-  "q:lets players run their": [
-   0,
-   "",
-   1793041319.9254487
-  ],
-  "q:lets players run their steam": [
-   0,
-   "",
-   1793041319.2764418
-  ],
-  "q:lets players run their steam games": [
-   0,
-   "",
-   1793041318.7632468
-  ],
   "q:life": [
    0,
    "",
@@ -35888,26 +35683,6 @@
    0,
    "",
    1793104397.1919718
-  ],
-  "q:loss": [
-   0,
-   "",
-   1793043117.1200187
-  ],
-  "q:loss to blg": [
-   0,
-   "",
-   1793043116.6234043
-  ],
-  "q:loss to blg puts": [
-   0,
-   "",
-   1793043116.1025913
-  ],
-  "q:loss to blg puts them": [
-   0,
-   "",
-   1793043115.6419806
   ],
   "q:lost records bloom rage": [
    1902960,
@@ -36303,11 +36078,6 @@
    0,
    "",
    1793199744.0313966
-  ],
-  "q:mechner": [
-   0,
-   "",
-   1793041346.5528264
   ],
   "q:medium rare": [
    4909780,
@@ -36859,6 +36629,21 @@
    "",
    1793206923.934187
   ],
+  "q:nitro": [
+   0,
+   "",
+   1793215923.5833025
+  ],
+  "q:nitro 5": [
+   0,
+   "",
+   1793215923.0904272
+  ],
+  "q:nitro 5 15": [
+   0,
+   "",
+   1793215922.6323962
+  ],
   "q:nivalis nights": [
    1488490,
    "Nivalis Nights",
@@ -36924,6 +36709,16 @@
    "Northgard Battlegrounds",
    1793018041.608314
   ],
+  "q:nvidia rtx": [
+   0,
+   "",
+   1793215925.7469122
+  ],
+  "q:nvidia rtx 5060": [
+   0,
+   "",
+   1793215925.288507
+  ],
   "q:obsession": [
    5385440,
    "Obsession",
@@ -36978,11 +36773,6 @@
    0,
    "",
    1793142160.4899125
-  ],
-  "q:offer": [
-   0,
-   "",
-   1793041334.3581808
   ],
   "q:official toy collection is here": [
    0,
@@ -37689,36 +37479,6 @@
    "",
    1793205154.666516
   ],
-  "q:playden": [
-   0,
-   "",
-   1793041318.2375233
-  ],
-  "q:playden lets": [
-   0,
-   "",
-   1793041317.6569655
-  ],
-  "q:playden lets players": [
-   0,
-   "",
-   1793041317.056975
-  ],
-  "q:playden lets players run": [
-   0,
-   "",
-   1793041316.5612345
-  ],
-  "q:playden lets players run their": [
-   0,
-   "",
-   1793041316.033521
-  ],
-  "q:playden lets players run their steam": [
-   0,
-   "",
-   1793041315.4852967
-  ],
   "q:players": [
    0,
    "",
@@ -37958,11 +37718,6 @@
    3357650,
    "PRAGMATA",
    1793203330.6081498
-  ],
-  "q:pretty big and has a surprise": [
-   0,
-   "",
-   1793041305.7350974
   ],
   "q:prey": [
    480490,
@@ -38569,6 +38324,11 @@
    "",
    1793196176.678264
   ],
+  "q:rtx 5060": [
+   0,
+   "",
+   1793215926.213375
+  ],
   "q:runescape": [
    1343400,
    "RuneScape ®",
@@ -39059,6 +38819,11 @@
    "",
    1793199783.6309903
   ],
+  "q:staying": [
+   0,
+   "",
+   1793215934.0257273
+  ],
   "q:steam deck": [
    1675200,
    "Steam Deck",
@@ -39279,36 +39044,6 @@
    "",
    1793104442.225131
   ],
-  "q:tarkov": [
-   0,
-   "",
-   1793041309.0282612
-  ],
-  "q:tarkov zombies": [
-   0,
-   "",
-   1793041308.466152
-  ],
-  "q:tarkov zombies event": [
-   0,
-   "",
-   1793041307.9303803
-  ],
-  "q:tarkov zombies event teased": [
-   0,
-   "",
-   1793041307.4103453
-  ],
-  "q:tarkov zombies event teased as": [
-   0,
-   "",
-   1793041306.8371727
-  ],
-  "q:tarkov zombies event teased as nikita": [
-   0,
-   "",
-   1793041306.2512815
-  ],
   "q:team": [
    0,
    "",
@@ -39428,16 +39163,6 @@
    0,
    "",
    1793122354.651055
-  ],
-  "q:their": [
-   0,
-   "",
-   1793043093.6854758
-  ],
-  "q:their support helped turn our vision into geralt": [
-   0,
-   "",
-   1793043091.1990645
   ],
   "q:this company has been driven into a wall for years": [
    0,
@@ -40014,21 +39739,6 @@
    "",
    1793210647.8225782
   ],
-  "q:voluntary": [
-   0,
-   "",
-   1793041332.5650399
-  ],
-  "q:voluntary exit": [
-   0,
-   "",
-   1793041331.8759634
-  ],
-  "q:voluntary exit offer": [
-   0,
-   "",
-   1793041331.34583
-  ],
   "q:vpn": [
    0,
    "",
@@ -40408,16 +40118,6 @@
    0,
    "",
    1793201708.6127775
-  ],
-  "q:witcher": [
-   0,
-   "",
-   1793043092.6667402
-  ],
-  "q:witcher rpg": [
-   0,
-   "",
-   1793043092.1912115
   ],
   "q:with": [
    0,
@@ -40908,31 +40608,6 @@
    0,
    "",
    1793210772.2827156
-  ],
-  "q:zombies event": [
-   0,
-   "",
-   1793041311.7362614
-  ],
-  "q:zombies event teased": [
-   0,
-   "",
-   1793041311.1841326
-  ],
-  "q:zombies event teased as": [
-   0,
-   "",
-   1793041310.6510172
-  ],
-  "q:zombies event teased as nikita": [
-   0,
-   "",
-   1793041310.1559849
-  ],
-  "q:zombies event teased as nikita promises": [
-   0,
-   "",
-   1793041309.6040046
   ]
  },
  "tag_hints": {
@@ -40983,30 +40658,6 @@
   ]
  },
  "titles": [
-  [
-   1793043087.142993,
-   "What to play this Halloween, plus last-minute costume ideas and spooky movie recommendations"
-  ],
-  [
-   1793043103.8039591,
-   "CD Projekt marks the 19th anniversary of its first Witcher RPG with a tribute to BioWare: 'Their support helped turn our vision into Geralt’s first interactive adventure'"
-  ],
-  [
-   1793043107.9699113,
-   "Anthropic opens its books for Wall Street, showing record revenue and mounting obligations"
-  ],
-  [
-   1793043123.3967383,
-   "KCorp Loss to BLG Puts Them in LoL Worlds 1-2 Bracket With G2"
-  ],
-  [
-   1793043126.4563158,
-   "Kublai Khan TX, Sleep Theory, Etc. Added To 2027 ‘Welcome To Rockville’ As Full Lineup Reveal Date Announced"
-  ],
-  [
-   1793043129.9821234,
-   "‘The Five Star Weekend’ Creator Bekah Brunstetter Inks Overall Deal With Universal Global Television"
-  ],
   [
    1793044896.8113058,
    "Call of Duty Franchise Surpasses $40 Billion Lifetime Revenue Following Launch of Modern Warfare 4"
@@ -43042,33 +42693,29 @@
   [
    1793214161.1837425,
    "Ignite reveal early 2027 Spain and Portugal tour dates following announced European tour"
+  ],
+  [
+   1793215927.8462217,
+   "Acer Nitro V 15 — Малий, мобільний, ігровий! 165Hz, Nvidia RTX 5060, AMD Ryzen 7 170 (РОЗІГРАШ)"
+  ],
+  [
+   1793215931.573527,
+   "ELOY CASAGRANDE Reveals He Has Finished Recording His Parts For New SLIPKNOT Album: The Drum Tracks 'Are Done'"
+  ],
+  [
+   1793215938.4806654,
+   "Alien: Isolation 2 devs commit to a physical edition: \"Staying true to the analogue nature of Alien is one of our pillars\""
+  ],
+  [
+   1793215942.4516814,
+   "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board"
+  ],
+  [
+   1793215945.919589,
+   "Hoorae’s Microdramas Found 580 Million Views. Can TikTok Get Hollywood Working Again? — Watch"
   ]
  ],
  "titles_uk": [
-  [
-   1793043087.1429937,
-   "Добірка ігор, фільмів та ідей для костюмів на Геловін"
-  ],
-  [
-   1793043103.8039598,
-   "CD Projekt відзначила 19-ту річницю першої гри The Witcher подякою BioWare"
-  ],
-  [
-   1793043107.969912,
-   "Anthropic готується до виходу на біржу з оцінкою у $2 трильйони"
-  ],
-  [
-   1793043123.396739,
-   "Karmine Corp програли BLG і опинилися за крок від вильоту з LoL Worlds"
-  ],
-  [
-   1793043126.4563167,
-   "Оголошено дату повної презентації лайнапу фестивалю Welcome To Rockville 2027"
-  ],
-  [
-   1793043129.9821248,
-   "Бека Бранстеттер підписала контракт із Universal Global Television"
-  ],
   [
    1793044896.811307,
    "Доходи франшизи Call of Duty перевищили $40 мільярдів"
@@ -45104,6 +44751,26 @@
   [
    1793214161.1837435,
    "Ignite анонсували тур Іспанією та Португалією на початку 2027 року"
+  ],
+  [
+   1793215927.846223,
+   "Acer Nitro V 15 — Малий, мобільний, ігровий! 165Hz, Nvidia RTX 5060, AMD Ryzen 7 170 (РОЗІГРАШ)"
+  ],
+  [
+   1793215931.573528,
+   "Елой Касагранде завершив запис ударних для нового альбому SLIPKNOT"
+  ],
+  [
+   1793215938.4806666,
+   "Розробники Alien: Isolation 2 підтвердили вихід фізичного видання гри"
+  ],
+  [
+   1793215942.451682,
+   "Google DeepMind випустила ШІ-модель Gemini 4 Carbon"
+  ],
+  [
+   1793215945.91959,
+   "Мікродрами від Hoorae Media набрали 580 мільйонів переглядів на TikTok"
   ]
  ],
  "ukrainian": {
@@ -47372,7 +47039,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793210877.8259292,
+  "last_check": 1793215954.5957031,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
