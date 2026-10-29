@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1793262693.1416006
+  }
+ },
  "daily_digest_date": "2026-10-28",
  "freebies": {
   "last_check": 1793259203.0970864,
@@ -15,83 +22,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-29 08:08 UTC",
+  "at": "2026-10-29 08:41 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-latest",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 2
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792571479.8559272,
-   1595,
-   "💾",
-   "Mouse-1",
-   "Product Hunt",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.producthunt.com/products/mouse-1",
-    "orig": "Mouse-1"
-   }
-  ],
-  [
-   1792571482.0615044,
-   1596,
-   "💾",
-   "Gemini в автомобілях отримав доступ до Gmail, Фото та Календаря",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/gemini-auto-personalized-316375/",
-    "orig": "Gemini в автомобілях отримав доступ до Gmail, Фото та Календаря"
-   }
-  ],
-  [
-   1792571484.2175279,
-   1597,
-   "🎮",
-   "Shrek 2 Remastered вийде на початку листопада",
-   "PlayUA",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://playua.net/shrek-2-remastered-vyjde-na-pochatku-lystopada/",
-    "orig": "Shrek 2 Remastered вийде на початку листопада"
-   }
-  ],
-  [
-   1792571487.8207943,
-   1598,
-   "🎮",
-   "У Subnautica 2 додадуть наймоторошніший регіон та мех-жабу",
-   "Rock Paper Shotgun",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.rockpapershotgun.com/subnautica-2s-next-major-update-adds-the-scariest-region-weve-ever-done-together-with-frog-mechs-and-a-very-welcome-tweak-for-dashing",
-    "orig": "Subnautica 2's next major update adds \"the scariest region we've ever done\", together with frog mechs and a very welcome tweak for dashing"
-   }
-  ],
-  [
-   1792571491.703786,
-   1599,
-   "💾",
-   "wshobson/agents пропонує спільні плагіни для різних ШІ-інструментів",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/wshobson/agents",
-    "orig": "wshobson/agents"
-   }
-  ],
   [
    1792573279.7382615,
    1600,
@@ -22724,7 +22666,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Lita Ford анонсувала концептуальний альбом The Bride Wore Black</b>\n\nLita Ford підтвердила, що її новий студійний альбом The Bride Wore Black вийде на початку 2027 року на Frontiers Music Srl. Птівка буде концептуальною темною казою у стилі PG-13 та міститиме сингл Dracula, а також колаборації з Doro Pesch і Jean Beauvoir. Продюсером релізу виступив Gary Hoey, а зведенням займався Max Norman.\n\n🔗 <a href=\"https://blabbermouth.net/news/lita-ford-on-her-upcoming-album-the-bride-wore-black-its-kind-of-a-pg-13-sort-of-dark-fairy-tale\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/lita-ford-on-her-upcoming-album-the-bride-wore-black-its-kind-of-a-pg-13-sort-of-dark-fairy-tale",
     "orig": "LITA FORD On Her Upcoming Album 'The Bride Wore Black': 'It's Kind Of A PG-13 Sort Of Dark Fairy Tale'"
@@ -22738,7 +22679,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Enter Shikari випустили новий сингл Lightyears та анонсували концерти в США</b>\n\nБританський гурт Enter Shikari несподівано випустив новий трек &quot;Lightyears&quot; та анонсував серію концертів у США на початок 2027 року. Фронтмен Rou Reynolds розповів, що пісня присвячена ностальгії за минулим, покійним близьким та спілкуванню з колишньою версією себе. Незважаючи на плани піти у безстрокову відпустку після гастролей 2027-го, колектив продовжує активно творчу діяльність.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/28/news/enter-shikari-surprise-release-lightyears-announce-new-u-s-shows/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/28/news/enter-shikari-surprise-release-lightyears-announce-new-u-s-shows/",
     "orig": "Enter Shikari Surprise Release “Lightyears”, Announce New U.S. Shows"
@@ -22752,7 +22692,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎮 <b>Sony розкрила листопадову добірку PlayStation Plus Essential</b>\n\nSony оголосила ігри листопада для передплатників PlayStation Plus Essential. До добірки увійшли зомбі-екшн Dead Island 2, збірка класичних пригод Лари Крофт та картковий роґлайт Monster Train 2. Усі три гри можна буде додати до бібліотеки з 3 до 30 листопада.\n\n🔗 <a href=\"https://itc.ua/ua/novini/sony-rozkryla-lystopadovu-dobirku-playstation-plus-essential/\">ITC.ua</a>\n\n#ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/sony-rozkryla-lystopadovu-dobirku-playstation-plus-essential/",
     "orig": "Sony розкрила листопадову добірку PlayStation Plus Essential"
@@ -22766,7 +22705,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Лакіт Стенфілд і Роб Севадж залишили горор-трилер Molepeople від Paramount</b>\n\nЗірка фільму Лакіт Стенфілд і режисер Роб Севадж покинули роботу над горор-трилером Molepeople від Paramount. Причини відходу Стенфілда не розголошують, а Севадж пішов через конфлікт у розкладі. Новим режисером стрічки став Бен Вітлі.\n\n🔗 <a href=\"https://deadline.com/2026/10/lakeith-stanfield-exits-molepeople-director-replacement-1237207388/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/lakeith-stanfield-exits-molepeople-director-replacement-1237207388/",
     "orig": "LaKeith Stanfield Exits Paramount’s ‘Molepeople’ As Ben Wheatley Replaces Rob Savage As Director"
@@ -23594,6 +23532,62 @@
     "link": "https://github.com/expo/skills",
     "orig": "expo/skills"
    }
+  ],
+  [
+   1793262980.62367,
+   3364,
+   "🎮",
+   "Цей недооцінений фентезі-серіал, що налічує 5 сезонів, — це, по суті, «Гаррі Поттер» для дорослих",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Цей недооцінений фентезі-серіал, що налічує 5 сезонів, — це, по суті, «Гаррі Поттер» для дорослих</b>\n\nСеріал The Magicians переосмислює фентезі про магічну школу на дорослу казку про ескапізм і дружбу\n\n🔗 <a href=\"https://www.polygon.com/the-magicians-fairy-tale-tv-shows/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/the-magicians-fairy-tale-tv-shows/",
+    "orig": "This Underrated 5-Season Fantasy Series Is Basically Harry Potter for Adults"
+   }
+  ],
+  [
+   1793262982.682675,
+   3365,
+   "🤖",
+   "Світи у реальному часі: Google Genie 4 тримає сцену до 2 хвилин і додає звук на льоту",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🤖 <b>Світи у реальному часі: Google Genie 4 тримає сцену до 2 хвилин і додає звук на льоту</b>\n\nСвітова модель Google тепер озвучує власні світи, а сцену можна змінювати текстовою командою просто під час симуляції.\n\n🔗 <a href=\"https://itc.ua/ua/novini/svity-u-realnomu-chasi-google-genie-4-trymaye-stsenu-do-2-hvylyn-i-dodaye-zvuk-na-lotu/\">ITC.ua</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/svity-u-realnomu-chasi-google-genie-4-trymaye-stsenu-do-2-hvylyn-i-dodaye-zvuk-na-lotu/",
+    "orig": "Світи у реальному часі: Google Genie 4 тримає сцену до 2 хвилин і додає звук на льоту"
+   }
+  ],
+  [
+   1793262984.918658,
+   3366,
+   "💾",
+   "Gemini 4 Carbon може днями шукати та виправляти вразливості – але користувачам її поки не дадуть",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "💾 <b>Gemini 4 Carbon може днями шукати та виправляти вразливості – але користувачам її поки не дадуть</b>\n\nGemini 4 Carbon може днями працювати над кодом, знаходити й виправляти вразливості. Нова модель Google поки доступна лише окремим фахівцям з кібербезпеки.\n\n🔗 <a href=\"https://mezha.ua/news/gemini-4-carbon-close-release-316657/\">Mezha</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/gemini-4-carbon-close-release-316657/",
+    "orig": "Gemini 4 Carbon може днями шукати та виправляти вразливості – але користувачам її поки не дадуть"
+   }
+  ],
+  [
+   1793263263.4961355,
+   3367,
+   "💾",
+   "ruvnet/RuView",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>ruvnet/RuView</b>\n\nπ RuView перетворює звичайні сигнали Wi-Fi на просторову аналітику в режимі реального часу, моніторинг життєвих показників та виявлення присутності — і все це без жодного пікселя відео. https://Cognitum.One/RuView π RuView Почніть звідси Моделі обладнання Набір інструментів ШІ «Розумний дім» Cognitum Seed Бачте крізь стіни за допомогою Wi-Fi Перетворіть звичайний Wi-Fi на систему просторової аналітики та зондування.\n\n🔗 <a href=\"https://github.com/ruvnet/RuView\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/ruvnet/RuView",
+    "orig": "ruvnet/RuView"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23617,12 +23611,11 @@
    1793122351.576273
   ],
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
-   1793115184.363018,
-   1793170878.7919936,
    1793179911.0680928,
    1793185302.7018614,
    1793187198.0565245,
-   1793192559.4364245
+   1793192559.4364245,
+   1793262982.6831124
   ],
   "ai|Mezha|https://mezha.ua/feed/": [
    1793113370.9153214,
@@ -23748,12 +23741,11 @@
    1793215927.8462741
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1793174486.76209,
-   1793176302.858053,
    1793185297.9545496,
    1793192534.1519537,
    1793203519.2597268,
-   1793207089.960463
+   1793207089.960463,
+   1793262980.624154
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1793136694.5540981,
@@ -23975,7 +23967,8 @@
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
    1793259189.33132,
-   1793261291.4766765
+   1793261291.4766765,
+   1793263263.4965568
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1793114800.417317,
@@ -23989,7 +23982,8 @@
    1793199741.5843732,
    1793205114.1234171,
    1793205124.1723673,
-   1793226790.7263663
+   1793226790.7263663,
+   1793262984.919095
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1793176591.6444972,
@@ -24585,6 +24579,7 @@
   "2305579d30bc8c24": 1792951289.972826,
   "230a334b93a512da": 1792702880.1291466,
   "233d9a1ae15e0f6a": 1793000068.655508,
+  "23512709f36e2548": 1793262980.6241066,
   "236999d0426ce59b": 1792454490.5140986,
   "2369e7ae9a289ee2": 1792270296.4148471,
   "23849ec5ae2c15af": 1792688715.1904914,
@@ -27284,6 +27279,7 @@
   "d102f678acd189d1": 1792602055.3345523,
   "d105f28ecbee525e": 1793116930.5205526,
   "d10e2fabf12fc77d": 1792164654.2928543,
+  "d12010db3fa89e83": 1793262982.6830683,
   "d13956cf2bc3dd2e": 1792335697.3942869,
   "d13fb358ae1d6d91": 1793113370.9152803,
   "d1460778e306aefc": 1792767825.308436,
@@ -27668,6 +27664,7 @@
   "ea1548a3ff740b8b": 1793053980.6306236,
   "ea158ffed2af96f0": 1792229931.4372227,
   "ea2851a3cf61f8d0": 1792935122.457733,
+  "ea9a569724f0eb11": 1793263263.4965148,
   "eaa0ebff7daf626e": 1792686865.8965352,
   "eaa60656c5e943b2": 1792418454.6080818,
   "eab2ce59243862bb": 1793181658.1788645,
@@ -27713,6 +27710,7 @@
   "ec95890aa7ab166c": 1792128993.9627583,
   "eca0032f75ae085a": 1792648890.640711,
   "eca96bd423917717": 1793020598.98952,
+  "ecf4f31f94e9863c": 1793262984.9190514,
   "ecfe805f5ae5710a": 1793129497.9651344,
   "ed22ddf3e72698d3": 1792097670.6097398,
   "ed3bed0754a6ddcf": 1792843441.7252343,
@@ -29213,10 +29211,10 @@
    "Eurogamer": 18,
    "GameSpot": 21,
    "GamesIndustry.biz": 13,
-   "GitHub Trending": 15,
+   "GitHub Trending": 16,
    "Hugging Face": 2,
    "IGN": 42,
-   "ITC.ua": 40,
+   "ITC.ua": 41,
    "IndieWire": 15,
    "Insider Gaming": 56,
    "Kerrang!": 23,
@@ -29225,12 +29223,12 @@
    "Metal Hammer (Louder)": 22,
    "Metal Injection": 11,
    "MetalSucks": 1,
-   "Mezha": 53,
+   "Mezha": 54,
    "Neformat": 1,
    "PC Gamer": 53,
    "Pitchfork": 6,
    "PlayUA": 18,
-   "Polygon": 18,
+   "Polygon": 19,
    "Product Hunt": 15,
    "Revolver": 7,
    "Rock Paper Shotgun": 17,
@@ -29242,9 +29240,9 @@
    "Variety": 24
   },
   "translators": {
-   "DeepL": 15,
+   "DeepL": 17,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 804
+   "gemini-flash-lite-latest": 806
   },
   "week": "2026-W44"
  },
@@ -30258,6 +30256,11 @@
    0,
    "",
    1793215924.3586946
+  ],
+  "q:5 season fantasy series is basically harry": [
+   0,
+   "",
+   1793262703.8811147
   ],
   "q:50": [
    0,
@@ -33119,36 +33122,6 @@
    "",
    1793127727.457354
   ],
-  "q:forgotten": [
-   0,
-   "",
-   1793088174.488311
-  ],
-  "q:forgotten mass": [
-   0,
-   "",
-   1793088173.955168
-  ],
-  "q:forgotten mass effect": [
-   0,
-   "",
-   1793088173.452077
-  ],
-  "q:forgotten mass effect clone": [
-   0,
-   "",
-   1793088172.9553545
-  ],
-  "q:forgotten mass effect clone couldn't": [
-   0,
-   "",
-   1793088172.4600284
-  ],
-  "q:forgotten mass effect clone couldn't escape": [
-   0,
-   "",
-   1793088171.9659634
-  ],
   "q:former halo": [
    0,
    "",
@@ -35049,31 +35022,6 @@
    "Marvel Rivals",
    1792362696.659049
   ],
-  "q:marvel's forgotten": [
-   0,
-   "",
-   1793088171.4659865
-  ],
-  "q:marvel's forgotten mass": [
-   0,
-   "",
-   1793088170.9741986
-  ],
-  "q:marvel's forgotten mass effect": [
-   0,
-   "",
-   1793088170.480982
-  ],
-  "q:marvel's forgotten mass effect clone": [
-   0,
-   "",
-   1793088169.985071
-  ],
-  "q:marvel's forgotten mass effect clone couldn't": [
-   0,
-   "",
-   1793088169.4872544
-  ],
   "q:masahiro": [
    0,
    "",
@@ -35108,11 +35056,6 @@
    1328670,
    "Mass Effect™ Legendary Edition",
    1792342921.68182
-  ],
-  "q:mass effect clone couldn't escape": [
-   0,
-   "",
-   1793088174.990895
   ],
   "q:mass effect exodus": [
    0,
@@ -38224,6 +38167,31 @@
    "",
    1793120757.2061605
   ],
+  "q:this underrated": [
+   0,
+   "",
+   1793262700.472851
+  ],
+  "q:this underrated 5 season": [
+   0,
+   "",
+   1793262699.989713
+  ],
+  "q:this underrated 5 season fantasy": [
+   0,
+   "",
+   1793262699.4872746
+  ],
+  "q:this underrated 5 season fantasy series": [
+   0,
+   "",
+   1793262698.9993906
+  ],
+  "q:this underrated 5 season fantasy series is": [
+   0,
+   "",
+   1793262698.5146873
+  ],
   "q:tim": [
    0,
    "",
@@ -38348,6 +38316,36 @@
    0,
    "",
    1793178109.9494936
+  ],
+  "q:underrated": [
+   0,
+   "",
+   1793262703.3916368
+  ],
+  "q:underrated 5 season": [
+   0,
+   "",
+   1793262702.9079046
+  ],
+  "q:underrated 5 season fantasy": [
+   0,
+   "",
+   1793262702.4218266
+  ],
+  "q:underrated 5 season fantasy series": [
+   0,
+   "",
+   1793262701.9369662
+  ],
+  "q:underrated 5 season fantasy series is": [
+   0,
+   "",
+   1793262701.4473305
+  ],
+  "q:underrated 5 season fantasy series is basically": [
+   0,
+   "",
+   1793262700.9598932
   ],
   "q:undertale": [
    391540,
@@ -39572,57 +39570,44 @@
  },
  "tag_hints": {
   "Mezha": [
-   "android xr",
    "apple",
-   "brave1 market",
-   "exodus",
+   "asus",
+   "asus pa279cdv",
+   "asus proart display pa279cdv",
    "ford",
+   "gemini",
+   "google",
    "macbook pro",
-   "macbook pro 14",
-   "macbook pro 16",
-   "mass effect",
+   "oled-монітори",
    "playstation 5",
    "sony",
    "trump mobile t1",
-   "xreal",
    "авто",
    "безпілотники",
    "бізнес",
+   "герань-4",
    "електромобілі",
    "емулятори",
    "китай",
+   "компоненти зброї",
    "кібербезпека",
-   "міноборони",
+   "монітори",
+   "монітори для роботи",
    "новини",
+   "новини партнерів",
    "ноутбуки",
-   "нрк",
    "оборонка",
+   "огляди",
    "пам'ять",
-   "робот-амфібія",
-   "смартокуляри",
+   "санкції",
    "смартфони",
    "софт",
    "технології",
-   "ігри"
+   "шахед",
+   "штучний інтелект"
   ]
  },
  "titles": [
-  [
-   1793089896.8486896,
-   "PulseDev"
-  ],
-  [
-   1793089898.9946365,
-   "\"Рятувальники Малібу\" повертаються: дата прем'єри"
-  ],
-  [
-   1793089901.9251587,
-   "Instagram тестує функцію Features – довгі відео тривалістю до 90 хвилин"
-  ],
-  [
-   1793089908.595518,
-   "alchaincyf/huashu-design"
-  ],
   [
    1793091772.4078355,
    "Revix AI"
@@ -41602,25 +41587,25 @@
   [
    1793261291.4766283,
    "expo/skills"
+  ],
+  [
+   1793262980.6241086,
+   "This Underrated 5-Season Fantasy Series Is Basically Harry Potter for Adults"
+  ],
+  [
+   1793262982.68307,
+   "Світи у реальному часі: Google Genie 4 тримає сцену до 2 хвилин і додає звук на льоту"
+  ],
+  [
+   1793262984.919053,
+   "Gemini 4 Carbon може днями шукати та виправляти вразливості – але користувачам її поки не дадуть"
+  ],
+  [
+   1793263263.4965167,
+   "ruvnet/RuView"
   ]
  ],
  "titles_uk": [
-  [
-   1793089896.8486907,
-   "PulseDev"
-  ],
-  [
-   1793089898.9946375,
-   "\"Рятувальники Малібу\" повертаються: дата прем'єри"
-  ],
-  [
-   1793089901.9251597,
-   "Instagram тестує функцію Features – довгі відео тривалістю до 90 хвилин"
-  ],
-  [
-   1793089908.5955193,
-   "Проєкт huashu-design став повністю відкритим та отримав оновлення 3.0"
-  ],
   [
    1793091772.407837,
    "Revix AI"
@@ -43600,6 +43585,22 @@
   [
    1793261291.476629,
    "Expo представила офіційні навички для ШІ-агентів"
+  ],
+  [
+   1793262980.624109,
+   "Цей недооцінений фентезі-серіал, що налічує 5 сезонів, — це, по суті, «Гаррі Поттер» для дорослих"
+  ],
+  [
+   1793262982.683071,
+   "Світи у реальному часі: Google Genie 4 тримає сцену до 2 хвилин і додає звук на льоту"
+  ],
+  [
+   1793262984.9190536,
+   "Gemini 4 Carbon може днями шукати та виправляти вразливості – але користувачам її поки не дадуть"
+  ],
+  [
+   1793263263.4965172,
+   "ruvnet/RuView"
   ]
  ],
  "ukrainian": {
