@@ -1,15 +1,8 @@
 {
- "alerts": {
-  "src:music|ThePRP|https://www.theprp.com/feed/": {
-   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ThePRP» не працює",
-   "sent": 0,
-   "since": 1793271687.3952599
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-28",
  "freebies": {
-  "last_check": 1793266304.908188,
+  "last_check": 1793273561.0262632,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -22,109 +15,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-29 11:03 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-10-29 11:32 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 7
+   "gemini-flash-lite-latest": 6
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792582298.520114,
-   1623,
-   "🎮",
-   "Football Manager 27 отримає п'ять днів безплатного доступу перед релізом",
-   "Eurogamer",
-   {
-    "also": [
-     [
-      "Insider Gaming",
-      "https://insider-gaming.com/football-manager-27-gets-a-free-play-period-ahead-of-release/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.eurogamer.net/football-manager-27-free-to-play-five-days",
-    "orig": "Football Manager 27 will be free to play for five days before its full release, in \"industry first\" for a game of its kind"
-   }
-  ],
-  [
-   1792582303.2381158,
-   1624,
-   "🎮",
-   "У Subnautica 2 з'явиться найстрашніший регіон в історії гри",
-   "Eurogamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.eurogamer.net/subnautica-2-scariest-region-ever-made-update",
-    "orig": "Subnautica 2 adding its \"scariest\" region ever in next major update, the developers say"
-   }
-  ],
-  [
-   1792582306.5563397,
-   1625,
-   "🤘",
-   "SOILWORK випустили новий сингл 'Night Whispers & Shining Lights'",
-   "Blabbermouth",
-   {
-    "also": [
-     [
-      "Lambgoat",
-      "https://lambgoat.com/news/55460/soilwork-premiere-new-single-night-whispers-shining-lights/"
-     ],
-     [
-      "Metal Injection",
-      "https://metalinjection.net/new-music/listen-soilwork-release-previously-unheard-single-night-whispers-shining-lights"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/soilwork-releases-new-single-night-whispers-shining-lights",
-    "orig": "SOILWORK Releases New Single 'Night Whispers & Shining Lights'"
-   }
-  ],
-  [
-   1792582316.2279117,
-   1626,
-   "🎮",
-   "У Deadlock завершилося голосування за героїв із додаванням Nurse Harrow",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/moba/110-million-votes-later-nurse-harrow-has-finally-made-it-into-deadlock-with-special-thanks-to-a-particularly-dedicated-player-who-cast-exactly-1-000-votes-for-her/",
-    "orig": "110 million votes later Nurse Harrow has finally made it into Deadlock, with special thanks to a particularly dedicated player who 'cast exactly 1,000 votes for her'"
-   }
-  ],
-  [
-   1792582321.312498,
-   1627,
-   "🎮",
-   "Samsung продала 80% пам'яті для дата-центрів на 2027 рік",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/hardware/memory/80-percent-of-samsungs-data-center-memory-is-already-sold-for-2027-meaning-yet-another-double-digit-price-increase-for-ram-expected-and-more-likely-to-come/",
-    "orig": "80% of Samsung's data center memory is already sold for 2027, meaning yet another double-digit price increase for RAM expected and more likely to come"
-   }
-  ],
-  [
-   1792582332.997104,
-   1628,
-   "🎬",
-   "Рекордні перегляди: трейлер \"Нарнія: Небіж чаклуна\" обігнав \"Барбі\"",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/rekordni-pereglyady-trejler-narniya-nebizh-chakluna-obignav-barbi/",
-    "orig": "Рекордні перегляди: трейлер \"Нарнія: Небіж чаклуна\" обігнав \"Барбі\""
-   }
-  ],
   [
    1792584051.8724732,
    1629,
@@ -22706,7 +22607,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Bloober Team анонсувала DLC Lazarus для Cronos: The New Dawn</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/4768180/\">Cronos: Lazarus</a>\n\nBloober Team випустить DLC Lazarus для Cronos: The New Dawn 3 грудня 2026 року за ціною $9.99 для PC, PS5 та Xbox Series X|S, а версія для Switch 2 з&#x27;явиться у першому кварталі 2027-го. Доповнення є приквелом і розповість про події, що перетворили Pathfinder на Warden.\n\n🔗 <a href=\"https://insider-gaming.com/cronos-lazarus-dlc-release-date-price/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/cronos-lazarus-dlc-release-date-price/",
     "orig": "Cronos: Lazarus DLC Launches December 3 for $9.99"
@@ -22720,7 +22620,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>Фейкові емулятори PlayStation 5 на GitHub поширюють шкідливе ПЗ для крадіжки паролів</b>\n\nДослідники кібербезпеки компанії NordVPN виявили на GitHub підроблені емулятори PlayStation 5, які насправді містять шкідливе програмне забезпечення для викрадення паролів та інших персональних даних користувачів.\n\n🔗 <a href=\"https://mezha.ua/news/feykovi-emulyatori-ps5-na-github-poshiryuyut-shkidlive-pz-316653/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/feykovi-emulyatori-ps5-na-github-poshiryuyut-shkidlive-pz-316653/",
     "orig": "Фейкові емулятори PlayStation 5 на GitHub поширюють шкідливе ПЗ для крадіжки паролів"
@@ -22734,7 +22633,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Netflix анонсував новий серіал Pride &amp; Prejudice з Еммою Коррін та Джеком Лоуденом</b>\n\nNetflix готує до виходу нову екранізацію роману Jane Austen Pride &amp; Prejudice. Головні ролі Елізабет Беннет і містера Дарсі виконають Емма Коррін та Джек Лоуден, а сценарій написала Доллі Алдертон.\n\n🔗 <a href=\"https://deadline.com/feature/netflix-pride-amp-prejudice-series-news-updates-1236968654/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://deadline.com/feature/netflix-pride-amp-prejudice-series-news-updates-1236968654/",
     "orig": "Everything We Know About Netflix’s New ‘Pride & Prejudice’ Series So Far"
@@ -22748,7 +22646,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>PC Gamer випустив новий квіз на знання горор-ігор за їхніми туалетами</b>\n\nВидання PC Gamer опублікувало новий інтерактивний квіз, у якому гравцям пропонують за 12 хвилин впізнати 14 хорор-ігор за виглядом їхніх жахливих ванних кімнат. Тест містить посилання на культові моменти з жанру, включно з відомим епізодом із P.T.\n\n🔗 <a href=\"https://www.pcgamer.com/games/horror/can-you-name-the-horror-game-these-deeply-unpleasant-bathrooms-are-from/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/horror/can-you-name-the-horror-game-these-deeply-unpleasant-bathrooms-are-from/",
     "orig": "Can you name the horror games these deeply unpleasant bathrooms are from?"
@@ -22762,7 +22659,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Telepathy випустили трек Water Divides The Tide (Redux)</b>\n\nБританський гурт Telepathy представив оновлену версію композиції Water Divides The Tide (Redux). Трек увійде до ремастеру їхнього другого альбому Tempest, реліз якого запланований на 15 січня на Pelagic Records.\n\n🔗 <a href=\"https://lambgoat.com/news/55581/telepathy-share-reimagined-track-water-divides-the-tide-redux-from-forthcoming-tempest-reissue/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55581/telepathy-share-reimagined-track-water-divides-the-tide-redux-from-forthcoming-tempest-reissue/",
     "orig": "Telepathy share reimagined track \"Water Divides The Tide (Redux)\" from forthcoming 'Tempest' reissue"
@@ -23556,6 +23452,76 @@
     "link": "https://deadline.com/2026/10/adam-adler-joins-channel-4-productions-the-cube-1237207215/",
     "orig": "‘The Cube’ Creator Adam Adler Joins Channel 4’s Production Biz As Creative Director"
    }
+  ],
+  [
+   1793273487.4136555,
+   3390,
+   "🎮",
+   "Team Liquid використовує аналітику SAP для перемог у кіберспорті",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Team Liquid використовує аналітику SAP для перемог у кіберспорті</b>\n\nКіберспортивна організація Team Liquid співпрацює з компанією SAP, використовуючи передову аналітику для покращення результатів у Dota 2, League of Legends та World of Warcraft. Завдяки обробці великих масивів ігрових даних команда здобула чергові перемоги, зокрема в марафоні Race to World First.\n\n🔗 <a href=\"https://insider-gaming.com/team-liquid-and-sap-data-race-to-world-first/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/team-liquid-and-sap-data-race-to-world-first/",
+    "orig": "How Team Liquid and SAP Combined Forces to Win the Race to World First"
+   }
+  ],
+  [
+   1793273490.6575992,
+   3391,
+   "🎬",
+   "Дружина Russell Brand назвала його турботливим партнером під час судового процесу",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Дружина Russell Brand назвала його турботливим партнером під час судового процесу</b>\n\nДружина Russell Brand виступила на суді в Лондоні на підтримку свого чоловіка, якого звинувачують у зґвалтуваннях і сексуальному насильстві. Вона заявила присяжним, що в період із 1999 по 2009 рік він був дуже турботливим і зважав на її темп. Захист також зачитав свідчення колишніх дівчат актора, які схарактеризували його як уважного та здатного на згоду партнера.\n\n🔗 <a href=\"https://deadline.com/2026/10/russell-brand-wife-1237208039/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/russell-brand-wife-1237208039/",
+    "orig": "Russell Brand’s Wife Says Star Was “Caring” Lover At Time Of Rape Allegations"
+   }
+  ],
+  [
+   1793273538.852336,
+   3392,
+   "🤘",
+   "Померла Крістін Макдоналд, дружина фронтмена VOIVOD Деніса \"Snake\" Беланжера",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Померла Крістін Макдоналд, дружина фронтмена VOIVOD Деніса &quot;Snake&quot; Беланжера</b>\n\nКрістін Макдоналд пішла з життя у середу, 28 жовтня, після тривалої боротьби з колоректальним раком. Музиканти VOIVOD опублікували спільне фото пари у соцмережах та висловили співчуття.\n\n🔗 <a href=\"https://blabbermouth.net/news/voivod-singer-snakes-partner-christine-mcdonald-dies-after-battle-with-cancer\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/voivod-singer-snakes-partner-christine-mcdonald-dies-after-battle-with-cancer",
+    "orig": "VOIVOD Singer SNAKE's Partner CHRISTINE MCDONALD Dies After Battle With Cancer"
+   }
+  ],
+  [
+   1793273546.4456096,
+   3393,
+   "🎮",
+   "Продажі консолей Xbox впали на 14 відсотків через обмежену кількість пристроїв",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Продажі консолей Xbox впали на 14 відсотків через обмежену кількість пристроїв</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/1786130/\">Asha</a>\n\nКерівниця Xbox Аша Шарма заявила про попит, що перевищує наявну кількість консолей, хоча їхні продаж впали на 14%. Загальний дохід Xbox скоротився на 2% в річному вимірі через падіння продажу апаратного забезпечення, стороннього контенту та Xbox Game Pass.\n\n🔗 <a href=\"https://www.eurogamer.net/xbox-financials-sales-asha-sharma-microsoft\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/xbox-financials-sales-asha-sharma-microsoft",
+    "orig": "Xbox leader Asha Sharma says there's \"more demand than consoles available\" as Xbox hardware sales dip by 14%"
+   }
+  ],
+  [
+   1793273552.2385423,
+   3394,
+   "🤘",
+   "Enter Shikari рефлексують про плин часу в новому синглі Lightyears",
+   "Kerrang!",
+   {
+    "also": [],
+    "caption": "🤘 <b>Enter Shikari рефлексують про плин часу в новому синглі Lightyears</b>\n\nСлухайте Lightyears — другий новий сингл Enter Shikari після виходу альбому Lose Yourself, який надихнув вокаліста Rou Reynolds переглядом старих домашніх відео\n\n🔗 <a href=\"https://www.kerrang.com/enter-shikari-reflect-on-the-passing-of-time-on-new-single-lightyears\">Kerrang!</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.kerrang.com/enter-shikari-reflect-on-the-passing-of-time-on-new-single-lightyears",
+    "orig": "Enter Shikari reflect on the passing of time on new single, Lightyears"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23622,7 +23588,8 @@
    1793196244.345338,
    1793203347.3810923,
    1793215938.480713,
-   1793266296.2902942
+   1793266296.2902942,
+   1793273546.4460359
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1793129507.0961983,
@@ -23672,7 +23639,8 @@
    1793226788.4256427,
    1793246583.1616366,
    1793268177.4373946,
-   1793271824.453361
+   1793271824.453361,
+   1793273487.4140904
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1793176595.1260886,
@@ -23762,7 +23730,8 @@
    1793261126.9316099,
    1793264590.746688,
    1793268171.9004457,
-   1793271831.67309
+   1793271831.67309,
+   1793273490.6580472
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1793194317.5414414,
@@ -23811,7 +23780,8 @@
    1793215931.5735772,
    1793217704.8512986,
    1793221307.0734804,
-   1793226775.7955906
+   1793226775.7955906,
+   1793273538.8527539
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -23830,15 +23800,12 @@
    1793235685.2888436
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
-   1793122382.3567688,
-   1793140284.1438062,
-   1793183595.9955947,
-   1793185306.2936983,
    1793187174.8448684,
    1793192557.2049377,
    1793199827.0186317,
    1793203477.4844086,
-   1793205200.8210208
+   1793205200.8210208,
+   1793273552.2389686
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
    1793154696.484527,
@@ -25568,6 +25535,7 @@
   "62ba4a8a653b4600": 1792661519.6911228,
   "62c5979f396eb969": 1792423967.9550753,
   "62cb32fb1742397d": 1792663472.8326023,
+  "6304a354a3957b1a": 1793273552.2389226,
   "630f46cf186e4428": 1792595104.9118028,
   "632dad6a21990990": 1792270344.6305375,
   "634eddfbd64fbab7": 1792081005.764324,
@@ -25898,6 +25866,7 @@
   "76d043161822f4dd": 1792402499.1877847,
   "76e7202759fc67bf": 1792846876.9579756,
   "76f608444e98d11b": 1793086465.8748114,
+  "770a737e22515656": 1793273538.852709,
   "770f2d749d27856d": 1792177307.2507951,
   "771ed81459907cd0": 1792514077.245496,
   "772826780fa6c05e": 1793210700.935244,
@@ -26625,6 +26594,7 @@
   "a65004d0bec92e2c": 1792197854.651769,
   "a660c61702a8c11b": 1793084477.9259665,
   "a699236225b1222c": 1793210764.299496,
+  "a6bcd8f61978adb6": 1793273473.2092345,
   "a6c1a39f7fd22892": 1792521238.7930424,
   "a6c4e0e7843d548b": 1792690287.236157,
   "a6c7fedae303231f": 1793196173.0357301,
@@ -26675,6 +26645,7 @@
   "a99d4fead489e225": 1792422123.309201,
   "a9af8ed59b4ac362": 1792352514.8473883,
   "a9b4a4066e93a3fa": 1792706477.6199179,
+  "a9b7ac6415f3655a": 1793273546.4459746,
   "a9c2007f4b484a0a": 1792357292.7400453,
   "a9c7314dcdbdea08": 1793196102.0453415,
   "a9c854ae04357b58": 1793122287.313978,
@@ -26760,6 +26731,7 @@
   "af3e9c41d49eddff": 1792787496.3455434,
   "af586b9ad7303ed8": 1792773134.6701906,
   "af61f1270ffa3877": 1792949492.6893873,
+  "af79c95c380192eb": 1793273453.065667,
   "af7a88d8ff1a96bc": 1792731766.4964757,
   "af98ed0ac06dffeb": 1792825370.3791301,
   "afa0b1545defcdb0": 1792591361.3473911,
@@ -26960,6 +26932,7 @@
   "bcce71951a3818c5": 1792418545.6203697,
   "bcd945528d2d063d": 1792852282.2369092,
   "bce393054129665a": 1793062885.7023773,
+  "bcf31f4f990180b6": 1793273473.2012017,
   "bcf9e110bf30c7af": 1793185315.6548622,
   "bd0353dd0f07fe9b": 1792630892.4833171,
   "bd122a0b1ca4302c": 1792360907.317098,
@@ -27084,6 +27057,7 @@
   "c3e3d7a514724ac1": 1792794692.1297286,
   "c410a051775a62f3": 1792418609.5736082,
   "c425511b3facba8c": 1793145677.5125148,
+  "c43169d41b5f78b5": 1793273473.217962,
   "c44e63c1e2373e7b": 1792962086.9894247,
   "c463cf50d3d3eefd": 1792767841.439141,
   "c47d71d05d851756": 1792666898.1869686,
@@ -27225,6 +27199,7 @@
   "ce121f45f7bd4c73": 1792677833.7294867,
   "ce495841f579466e": 1792442058.8615544,
   "ce599edc8903bb29": 1792513854.800219,
+  "ce6e2e51c53a5c80": 1793273487.414042,
   "ce72c287b32782b9": 1792828854.58722,
   "ce7977087f93c8ad": 1792477966.6979365,
   "ce956a7434ded7fa": 1792306032.0278766,
@@ -27477,6 +27452,7 @@
   "df0fb9255c61270b": 1793104450.628442,
   "df1fc52d84e05ce0": 1792854089.001392,
   "df24f28b92dab794": 1792607533.8121731,
+  "df253b521204f8c4": 1793273490.657977,
   "df43f2fe1a6cdcdc": 1793259189.3312745,
   "df4521dbfd791bf0": 1792612895.8318949,
   "df45908305c15494": 1792314073.1622975,
@@ -27627,6 +27603,7 @@
   "e836fd59d796dcdd": 1792447343.0447698,
   "e8456ab8655508db": 1793116878.8384008,
   "e84e7947c146a275": 1792607540.6289332,
+  "e8512b2eb69c6504": 1793273473.2148447,
   "e87d416cf54aca14": 1792273238.8297417,
   "e891c97409f3641e": 1792859639.2112093,
   "e8a2029a8f0142d4": 1793117141.4261708,
@@ -27832,6 +27809,7 @@
   "f727e3a30ee3a2e9": 1792666886.6205692,
   "f72cb13b71e4b374": 1793114741.7528276,
   "f73f3555efd22b45": 1792767889.56838,
+  "f7453298f281e46c": 1793273495.723186,
   "f75be40946f4a727": 1792614712.865149,
   "f763b811244a8a5f": 1793115184.3629885,
   "f7791f02fff8d3e7": 1793187198.0564623,
@@ -29173,7 +29151,7 @@
    "GamesIndustry.biz": 1,
    "IGN": 1,
    "IndieWire": 2,
-   "Insider Gaming": 10,
+   "Insider Gaming": 11,
    "Loudwire": 2,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 18,
@@ -29187,14 +29165,14 @@
   "sources": {
    "/Film": 21,
    "AIN.ua": 4,
-   "Blabbermouth": 49,
+   "Blabbermouth": 50,
    "Bloomberg": 33,
    "DOU Gamedev": 4,
-   "Deadline": 52,
+   "Deadline": 53,
    "Decibel": 8,
    "Digital Foundry": 3,
    "Distorted Sound": 17,
-   "Eurogamer": 19,
+   "Eurogamer": 20,
    "GameSpot": 21,
    "GamesIndustry.biz": 15,
    "GitHub Trending": 17,
@@ -29202,8 +29180,8 @@
    "IGN": 43,
    "ITC.ua": 44,
    "IndieWire": 15,
-   "Insider Gaming": 58,
-   "Kerrang!": 23,
+   "Insider Gaming": 59,
+   "Kerrang!": 24,
    "Lambgoat": 30,
    "Loudwire": 13,
    "Metal Hammer (Louder)": 23,
@@ -29228,7 +29206,7 @@
   "translators": {
    "DeepL": 18,
    "gemini-flash-latest": 17,
-   "gemini-flash-lite-latest": 826
+   "gemini-flash-lite-latest": 832
   },
   "week": "2026-W44"
  },
@@ -29892,36 +29870,6 @@
    0,
    "",
    1793198073.2800052
-  ],
-  "q:2 3": [
-   0,
-   "",
-   1793098993.796618
-  ],
-  "q:2 3 update": [
-   0,
-   "",
-   1793098993.2841868
-  ],
-  "q:2 3 update adds": [
-   0,
-   "",
-   1793098992.808162
-  ],
-  "q:2 3 update adds new": [
-   0,
-   "",
-   1793098992.321678
-  ],
-  "q:2 3 update adds new player": [
-   0,
-   "",
-   1793098991.7934105
-  ],
-  "q:2 3 update adds new player project": [
-   0,
-   "",
-   1793098991.293633
   ],
   "q:2 5": [
    3740720,
@@ -30613,26 +30561,6 @@
    "ARC Raiders",
    1791742986.4642007
   ],
-  "q:arc raiders 2 3": [
-   0,
-   "",
-   1793098990.8134038
-  ],
-  "q:arc raiders 2 3 update": [
-   0,
-   "",
-   1793098990.333505
-  ],
-  "q:arc raiders 2 3 update adds": [
-   0,
-   "",
-   1793098989.8463137
-  ],
-  "q:arc raiders 2 3 update adds new": [
-   0,
-   "",
-   1793098989.3711631
-  ],
   "q:arc raiders'": [
    0,
    "",
@@ -30933,21 +30861,6 @@
    "",
    1793205152.482602
   ],
-  "q:been taken away just": [
-   0,
-   "",
-   1793099028.1340277
-  ],
-  "q:been taken away just when": [
-   0,
-   "",
-   1793099027.5017426
-  ],
-  "q:been taken away just when we": [
-   0,
-   "",
-   1793099026.9782965
-  ],
   "q:before dark": [
    1440370,
    "Before Dark",
@@ -31152,21 +31065,6 @@
    0,
    "",
    1793203282.7361236
-  ],
-  "q:bloober team": [
-   0,
-   "",
-   1793099053.6417646
-  ],
-  "q:bloober team's silent": [
-   0,
-   "",
-   1793099053.167001
-  ],
-  "q:bloober team's silent hill": [
-   0,
-   "",
-   1793099052.6707077
   ],
   "q:blue archive": [
    3557620,
@@ -31562,31 +31460,6 @@
    0,
    "",
    1793201685.0879352
-  ],
-  "q:cod dmz": [
-   0,
-   "",
-   1793099014.3870559
-  ],
-  "q:cod dmz getting": [
-   0,
-   "",
-   1793099013.912221
-  ],
-  "q:cod dmz getting more": [
-   0,
-   "",
-   1793099013.351542
-  ],
-  "q:cod dmz getting more pvp focused": [
-   0,
-   "",
-   1793099012.8020635
-  ],
-  "q:cod dmz getting more pvp focused content": [
-   0,
-   "",
-   1793099012.2925785
   ],
   "q:cod modern": [
    0,
@@ -32322,26 +32195,6 @@
    2650890,
    "DMZ",
    1792582328.5199592
-  ],
-  "q:dmz getting": [
-   0,
-   "",
-   1793099016.3089147
-  ],
-  "q:dmz getting more": [
-   0,
-   "",
-   1793099015.8129523
-  ],
-  "q:dmz getting more pvp focused": [
-   0,
-   "",
-   1793099015.3457847
-  ],
-  "q:dmz getting more pvp focused content": [
-   0,
-   "",
-   1793099014.8670216
   ],
   "q:dominance": [
    2175780,
@@ -33358,21 +33211,6 @@
    "Game World",
    1793099048.3412912
   ],
-  "q:game world s t a l k e r": [
-   0,
-   "",
-   1793099047.8220396
-  ],
-  "q:game world s t a l k e r 2": [
-   0,
-   "",
-   1793099047.346528
-  ],
-  "q:game world s t a l k e r 2 2 1": [
-   0,
-   "",
-   1793099046.8696666
-  ],
   "q:gamemaker": [
    1670460,
    "GameMaker",
@@ -33517,21 +33355,6 @@
    0,
    "",
    1793271797.5519717
-  ],
-  "q:getting more pvp focused": [
-   0,
-   "",
-   1793099017.8243208
-  ],
-  "q:getting more pvp focused content": [
-   0,
-   "",
-   1793099017.269077
-  ],
-  "q:getting more pvp focused content in season": [
-   0,
-   "",
-   1793099016.7925465
   ],
   "q:ghost of y": [
    0,
@@ -33688,26 +33511,6 @@
    "",
    1793115083.778317
   ],
-  "q:gsc game": [
-   0,
-   "",
-   1793099046.3904202
-  ],
-  "q:gsc game world": [
-   0,
-   "",
-   1793099045.893792
-  ],
-  "q:gsc game world s t a l k e r": [
-   0,
-   "",
-   1793099045.42028
-  ],
-  "q:gsc game world s t a l k e r 2": [
-   0,
-   "",
-   1793099044.9328911
-  ],
   "q:gta": [
    3482260,
    "GTA+",
@@ -33777,31 +33580,6 @@
    0,
    "",
    1793223111.3051958
-  ],
-  "q:has been": [
-   0,
-   "",
-   1793099026.4982135
-  ],
-  "q:has been taken": [
-   0,
-   "",
-   1793099025.9966803
-  ],
-  "q:has been taken away": [
-   0,
-   "",
-   1793099025.5257103
-  ],
-  "q:has been taken away just": [
-   0,
-   "",
-   1793099024.9803555
-  ],
-  "q:has been taken away just when": [
-   0,
-   "",
-   1793099024.5068176
   ],
   "q:has more": [
    0,
@@ -34008,6 +33786,26 @@
    "Hotline Miami",
    1793039506.7827897
   ],
+  "q:how team": [
+   0,
+   "",
+   1793273475.365306
+  ],
+  "q:how team liquid": [
+   0,
+   "",
+   1793273474.862786
+  ],
+  "q:how team liquid and sap": [
+   0,
+   "",
+   1793273474.3272057
+  ],
+  "q:how team liquid and sap combined": [
+   0,
+   "",
+   1793273473.7768438
+  ],
   "q:huge": [
    1650040,
    "HuGe",
@@ -34157,36 +33955,6 @@
    0,
    "",
    1793201746.9023387
-  ],
-  "q:infinity": [
-   0,
-   "",
-   1793099034.0892632
-  ],
-  "q:infinity ward": [
-   0,
-   "",
-   1793099033.5822046
-  ],
-  "q:infinity ward taking": [
-   0,
-   "",
-   1793099033.1071627
-  ],
-  "q:infinity ward taking action": [
-   0,
-   "",
-   1793099032.5987606
-  ],
-  "q:infinity ward taking action against": [
-   0,
-   "",
-   1793099032.0660698
-  ],
-  "q:infinity ward taking action against dmz": [
-   0,
-   "",
-   1793099031.579374
   ],
   "q:inside": [
    304430,
@@ -34798,6 +34566,21 @@
    "",
    1793188885.4383407
   ],
+  "q:liquid and sap": [
+   0,
+   "",
+   1793273479.4095595
+  ],
+  "q:liquid and sap combined": [
+   0,
+   "",
+   1793273478.8979933
+  ],
+  "q:liquid and sap combined forces": [
+   0,
+   "",
+   1793273478.4009871
+  ],
   "q:lol": [
    0,
    "",
@@ -35057,26 +34840,6 @@
    0,
    "",
    1793221302.307883
-  ],
-  "q:mass effect has": [
-   0,
-   "",
-   1793099024.0158856
-  ],
-  "q:mass effect has been": [
-   0,
-   "",
-   1793099023.5344975
-  ],
-  "q:mass effect has been taken": [
-   0,
-   "",
-   1793099022.9997041
-  ],
-  "q:mass effect has been taken away": [
-   0,
-   "",
-   1793099022.5077312
   ],
   "q:mass effect's petition": [
    0,
@@ -38038,6 +37801,11 @@
    "",
    1793104442.225131
   ],
+  "q:team": [
+   0,
+   "",
+   1793273477.9053733
+  ],
   "q:team confirms": [
    0,
    "",
@@ -38058,15 +37826,25 @@
    "Team Fortress 2",
    1791654258.6520588
   ],
-  "q:team's silent": [
+  "q:team liquid": [
    0,
    "",
-   1793099054.697148
+   1793273477.3887243
   ],
-  "q:team's silent hill": [
+  "q:team liquid and sap": [
    0,
    "",
-   1793099054.221808
+   1793273476.8862262
+  ],
+  "q:team liquid and sap combined": [
+   0,
+   "",
+   1793273476.3811274
+  ],
+  "q:team liquid and sap combined forces": [
+   0,
+   "",
+   1793273475.87981
   ],
   "q:tears": [
    0,
@@ -38498,16 +38276,6 @@
    "",
    1793176287.053102
   ],
-  "q:update adds new player": [
-   0,
-   "",
-   1793098994.882696
-  ],
-  "q:update adds new player project": [
-   0,
-   "",
-   1793098994.2775779
-  ],
   "q:valor mortis": [
    2828710,
    "Valor Mortis",
@@ -38727,36 +38495,6 @@
    0,
    "",
    1793127724.9865832
-  ],
-  "q:ward": [
-   0,
-   "",
-   1793099037.104126
-  ],
-  "q:ward taking": [
-   0,
-   "",
-   1793099036.614605
-  ],
-  "q:ward taking action": [
-   0,
-   "",
-   1793099036.0038767
-  ],
-  "q:ward taking action against": [
-   0,
-   "",
-   1793099035.5315795
-  ],
-  "q:ward taking action against dmz": [
-   0,
-   "",
-   1793099035.0539038
-  ],
-  "q:ward taking action against dmz duplication": [
-   0,
-   "",
-   1793099034.567981
   ],
   "q:warfare": [
    0,
@@ -39491,13 +39229,9 @@
  },
  "tag_hints": {
   "Mezha": [
-   "asus",
-   "asus pa279cdv",
-   "asus proart display pa279cdv",
    "gemini",
    "globallogic",
    "google",
-   "oled-монітори",
    "playstation",
    "ps plus",
    "sony",
@@ -39513,13 +39247,10 @@
    "герань-5",
    "держмитслужба",
    "компоненти зброї",
-   "монітори",
-   "монітори для роботи",
    "міг-29",
    "новини",
    "новини партнерів",
    "оборонка",
-   "огляди",
    "польща",
    "рлс",
    "росія",
@@ -39534,42 +39265,6 @@
   ]
  },
  "titles": [
-  [
-   1793099038.7922497,
-   "Infinity Ward Taking Action Against DMZ Duplication Exploits"
-  ],
-  [
-   1793099042.9236193,
-   "Bruce Dickinson announces PsychoGod UK and Europe shows"
-  ],
-  [
-   1793099048.931108,
-   "GSC Game World оживила Зону в S.T.A.L.K.E.R. 2: подробиці оновлення 2.1"
-  ],
-  [
-   1793100692.4866686,
-   "Microsoft Alumni Score Funding to Build AI Agents for Finance"
-  ],
-  [
-   1793100696.83834,
-   "Українське видавництво Palaye взяло під крило роуґлайк-екшн Sealbreakers"
-  ],
-  [
-   1793100700.0105202,
-   "Brett Morgen’s David Bowie Immersive Concert Experience Set For Berlinale World Premiere"
-  ],
-  [
-   1793100702.0205681,
-   "Співзасновник хмарної платформи OpenStack і ексменеджерка Google запустили венчурний фонд в Україні з цільовим обсягом до $50 млн — бліцінтерв’ю"
-  ],
-  [
-   1793100707.4531395,
-   "Український літак Ан-28 з'явився у Microsoft Flight Simulator 2024"
-  ],
-  [
-   1793100711.9507728,
-   "Malevolence announce United Kingdom of Chaos tour with Guilt Trip and Bodyweb"
-  ],
   [
    1793102486.701016,
    "Шіґеру Міямото став першою людиною в ігровій індустрії, яка отримала нагороду уряду Японії"
@@ -41509,45 +41204,29 @@
   [
    1793271831.6730444,
    "‘The Cube’ Creator Adam Adler Joins Channel 4’s Production Biz As Creative Director"
+  ],
+  [
+   1793273487.414044,
+   "How Team Liquid and SAP Combined Forces to Win the Race to World First"
+  ],
+  [
+   1793273490.6579788,
+   "Russell Brand’s Wife Says Star Was “Caring” Lover At Time Of Rape Allegations"
+  ],
+  [
+   1793273538.852711,
+   "VOIVOD Singer SNAKE's Partner CHRISTINE MCDONALD Dies After Battle With Cancer"
+  ],
+  [
+   1793273546.4459767,
+   "Xbox leader Asha Sharma says there's \"more demand than consoles available\" as Xbox hardware sales dip by 14%"
+  ],
+  [
+   1793273552.2389243,
+   "Enter Shikari reflect on the passing of time on new single, Lightyears"
   ]
  ],
  "titles_uk": [
-  [
-   1793099038.7922509,
-   "Infinity Ward карає гравців за дюп предметів у DMZ"
-  ],
-  [
-   1793099042.9236212,
-   "Брюс Дікінсон анонсує концерти в межах PsychoGod у Великій Британії та Європі"
-  ],
-  [
-   1793099048.931109,
-   "GSC Game World оживила Зону в S.T.A.L.K.E.R. 2: подробиці оновлення 2.1"
-  ],
-  [
-   1793100692.4866693,
-   "Стартап Hyphenate залучив $45 мільйонів на створення ШІ-агентів для фінансів"
-  ],
-  [
-   1793100696.8383415,
-   "Українське видавництво Palaye взяло під крило роуґлайк-екшн Sealbreakers"
-  ],
-  [
-   1793100700.0105214,
-   "Бретт Морген представить імерсійний концерт David Bowie “Stage” на Berlinale"
-  ],
-  [
-   1793100702.0205686,
-   "Співзасновник хмарної платформи OpenStack і ексменеджерка Google запустили венчурний фонд в Україні з цільовим обсягом до $50 млн — бліцінтерв’ю"
-  ],
-  [
-   1793100707.4531403,
-   "Український літак Ан-28 з'явився у Microsoft Flight Simulator 2024"
-  ],
-  [
-   1793100711.9507735,
-   "Malevolence анонсували тур United Kingdom Of Chaos"
-  ],
   [
    1793102486.7010164,
    "Шіґеру Міямото став першою людиною в ігровій індустрії, яка отримала нагороду уряду Японії"
@@ -43487,6 +43166,26 @@
   [
    1793271831.6730452,
    "Адам Адлер став креативним директором виробничого підрозділу Channel 4"
+  ],
+  [
+   1793273487.4140446,
+   "Team Liquid використовує аналітику SAP для перемог у кіберспорті"
+  ],
+  [
+   1793273490.65798,
+   "Дружина Russell Brand назвала його турботливим партнером під час судового процесу"
+  ],
+  [
+   1793273538.8527114,
+   "Померла Крістін Макдоналд, дружина фронтмена VOIVOD Деніса \"Snake\" Беланжера"
+  ],
+  [
+   1793273546.4459774,
+   "Продажі консолей Xbox впали на 14 відсотків через обмежену кількість пристроїв"
+  ],
+  [
+   1793273552.2389247,
+   "Enter Shikari рефлексують про плин часу в новому синглі Lightyears"
   ]
  ],
  "ukrainian": {
@@ -45759,7 +45458,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793269936.938588,
+  "last_check": 1793273560.8852115,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
