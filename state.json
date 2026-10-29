@@ -1,21 +1,8 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1793309471.0975208
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1793309469.6548784
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-29",
  "freebies": {
-  "last_check": 1793304129.232674,
+  "last_check": 1793311411.9312005,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -30,8 +17,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-29 21:31 UTC",
-  "gemini_error": "",
+  "at": "2026-10-29 22:03 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 7
@@ -41,154 +28,6 @@
   ]
  },
  "post_log": [
-  [
-   1792618299.6849506,
-   1783,
-   "🎬",
-   "Прем'єра шостого сезону Abbott Elementary зібрала 6,3 мільйона глядачів",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/abbott-elementary-season-6-premiere-ratings-1236919286/",
-    "orig": "‘Abbott Elementary’ Season 6 Premiere Hits 6.3 Million Viewers in Seven Days (EXCLUSIVE)"
-   }
-  ],
-  [
-   1792619341.6082082,
-   1784,
-   "🤘",
-   "Історія створення легендарної пісні It's All Coming Back To Me Now від Jim Steinman",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/bands-artists/the-outrageous-erotic-80s-power-ballad-that-andrew-lloyd-webber-called-the-greatest-love-song-ever-written",
-    "orig": "\"It's like Heathcliff digging up Cathy's corpse and dancing with it in the cold moonlight.\" The strange tale of the outrageous \"erotic\" 80s power ballad that Broadway legend Andrew Lloyd Webber called \"the greatest love song ever written\""
-   }
-  ],
-  [
-   1792619344.7623425,
-   1785,
-   "🤘",
-   "Maz анонсує новий EP Loveandpain та випускає заглавний трек",
-   "Stereogum",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://stereogum.com/2515253/maz-announces-new-ep-loveandpain-hear-the-title-track/music/",
-    "orig": "Maz Announces New EP Loveandpain: Hear The Title Track"
-   }
-  ],
-  [
-   1792619347.8226702,
-   1786,
-   "🎬",
-   "HBO розробляє серіал про Poison Ivy за участі шоуранерки The Penguin",
-   "Variety",
-   {
-    "also": [
-     [
-      "Polygon",
-      "https://www.polygon.com/hbo-dc-poison-ivy-tv-series-penguin-batman-dcu/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/poison-ivy-tv-show-hbo-dc-penguin-1236919156/",
-    "orig": "Poison Ivy DC Series in the Works at HBO With ‘The Penguin’ Exec Lauren LeFranc"
-   }
-  ],
-  [
-   1792619351.331122,
-   1787,
-   "🎬",
-   "Шоу ComicView: Rooftop Series продовжили на другий сезон на BET",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/comicview-rooftop-series-renewed-season-2-bet-1236918801/",
-    "orig": "‘ComicView: Rooftop Series’ Renewed for Season 2 at BET (EXCLUSIVE)"
-   }
-  ],
-  [
-   1792619357.6885152,
-   1788,
-   "🤘",
-   "Флор Янсен назвала возз'єднання After Forever «кавер-гуртом»",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/news/nightwish-floor-jansen-talks-after-forever-reunion-2026",
-    "orig": "Former Nightwish singer Floor Jansen doesn’t mind her old band After Forever coming back – just don’t call it a reunion"
-   }
-  ],
-  [
-   1792619362.7938337,
-   1789,
-   "🤘",
-   "Шэрон Осборн приховала від Black Sabbath попередження лікарів про ризик для Оззі",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/bands-artists/sharon-osbourne-kept-black-sabbath-in-the-dark-about-doctors-warnings-that-their-back-to-the-beginning-farewell-show-could-kill-ozzy-osbourne",
-    "orig": "Sharon Osbourne kept Black Sabbath in the dark about doctors' warnings that their Back To The Beginning farewell show could kill Ozzy"
-   }
-  ],
-  [
-   1792619366.357301,
-   1790,
-   "🤘",
-   "Французький хардкор-гурт Headbussa випустив сингл Manhunt",
-   "Metal Injection",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://metalinjection.net/new-music/listen-french-hardcore-band-headbussa-drops-manhunt",
-    "orig": "Listen: French Hardcore Band Headbussa Drops “Manhunt”"
-   }
-  ],
-  [
-   1792619375.4970355,
-   1791,
-   "🎮",
-   "Фанати Star Wars: The Old Republic вшановують пам'ять BioWare через закриття студії",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/star-wars-the-old-republic-fans-pay-their-respects-to-bioware",
-    "orig": "Star Wars: The Old Republic Fans Pay Their Respects to BioWare"
-   }
-  ],
-  [
-   1792619378.7641044,
-   1792,
-   "🤘",
-   "Ho99o9 і Slay Squad випустили спільний сингл War Bait",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/10/21/news/ho99o9-team-with-slay-squad-on-new-single-war-bait/",
-    "orig": "Ho99o9 Team With Slay Squad On New Single “War Bait”"
-   }
-  ],
-  [
-   1792619394.500619,
-   1793,
-   "🎮",
-   "K/DA та True Damage виступлять на фіналі LoL Worlds 2026",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/k-da-and-true-damage-will-perform-at-the-lol-worlds-2026-final/",
-    "orig": "K/DA and True Damage Will Perform at the LoL Worlds 2026 Final"
-   }
-  ],
   [
    1792621888.9189143,
    1794,
@@ -23091,7 +22930,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Ruins Of Perception випустили кліп на сингл The Crimson Key</b>\n\nНімецький гурт Ruins Of Perception презентував кліп на сингл The Crimson Key зі свого майбутнього EP Witchcraft And Cruelty, реліз якого запланований на 15 січня 2027 року. П&#x27;ятитрекова пластинка натхнена традиційними німецькими казкамі, зокрема історією про Синю Бороду. Нова робота також ознаменувала оновлення складу гурту, який тепер виступає як квартет із новим вокалістом.\n\n🔗 <a href=\"https://lambgoat.com/news/55602/ruins-of-perception-present-music-video-for-latest-single-the-crimson-key-off-upcoming-album/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55602/ruins-of-perception-present-music-video-for-latest-single-the-crimson-key-off-upcoming-album/",
     "orig": "Ruins Of Perception present music video for latest single \"The Crimson Key\" off upcoming album"
@@ -23105,7 +22943,6 @@
    "Metal Injection",
    {
     "also": [],
-    "caption": "🤘 <b>Розпродаж вінілових платівок: 92 релизи за ціною до $31</b>\n\nРозпочався фінальний етап місячного розпродажу вінілових платівок під назвою Month-Long Massacre. До каталогу увійшли 92 альбоми, кожен з яких коштує $31 або менше.\n\n🔗 <a href=\"https://metalinjection.net/announcements/month-long-massacre-final-kill-92-vinyl-records-all-31-or-less\">Metal Injection</a>\n\n#музика",
     "kind": "photo",
     "link": "https://metalinjection.net/announcements/month-long-massacre-final-kill-92-vinyl-records-all-31-or-less",
     "orig": "Month-Long Massacre, Final Kill: 92 Vinyl Records, All $31 or Less"
@@ -23119,7 +22956,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>Інсайдер розкрив підзаголовок та сюжетні деталі The Elder Scrolls 6</b>\n\nЗа інформацією The Verge, наступна частина гра отримає назву The Elder Scrolls 6: Sentinel, а події розгорнуться у Hammerfell із зануренням в історію артефактів. Анонс гри може відбутися вже наступного місяця, а реліз очікується ближче до 2028 року.\n\n🔗 <a href=\"https://www.ign.com/articles/the-elder-scrolls-6-is-reportedly-subtitled-sentinel-new-story-details-revealed-ahead-of-rumored-announcement\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/the-elder-scrolls-6-is-reportedly-subtitled-sentinel-new-story-details-revealed-ahead-of-rumored-announcement",
     "orig": "The Elder Scrolls 6 Is Reportedly Subtitled 'Sentinel,' New Story Details Revealed Ahead of Rumored Announcement"
@@ -23133,7 +22969,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>Директор <a href=\"https://store.steampowered.com/app/2440510/\">Forza Motorsport</a> і керівник Turn 10 Ден Грінаволт залишає Microsoft після 27 років роботи</b>\n\nДен Грінаволт, який допоміг створити Turn 10 Studios із нуля та очолював розробку восьми ігор серії Forza Motorsport для чотирьох поколінь консолей Xbox, іде на пенсію з Microsoft.\n\n🔗 <a href=\"https://www.ign.com/articles/forza-motorsport-director-and-turn-10-boss-dan-greenawalt-retiring-from-microsoft-after-27-years\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/forza-motorsport-director-and-turn-10-boss-dan-greenawalt-retiring-from-microsoft-after-27-years",
     "orig": "Forza Motorsport Director and Turn 10 Boss Dan Greenawalt Retiring From Microsoft After 27 Years"
@@ -23147,7 +22982,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Анонімний моддер випустив один із найкращих хорорів десятиліття MyHouse.wad для Doom 2</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2581570/\">2023</a>\n\nУ 2023 році вийшов MyHouse.wad — мапа для Doom 2, яка виглядає як звичайний приміський будинок, але перетворюється на химерний та неможливий лабіринт. За сюжетом, проєкт створив анонім на основі чорнової роботи померлого друга, хоча насправді це вигадка талановитого невідомого автора. Мод вражає незвичним дизайном, психологічним тиском і незмінною анонімністю розробника.\n\n🔗 <a href=\"https://www.pcgamer.com/games/horror/in-2023-an-anonymous-modder-released-one-of-the-best-horror-games-of-the-decade-and-they-still-havent-broken-character/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/horror/in-2023-an-anonymous-modder-released-one-of-the-best-horror-games-of-the-decade-and-they-still-havent-broken-character/",
     "orig": "In 2023, an anonymous modder released one of the best horror games of the decade, and they still haven't broken character"
@@ -23166,7 +23000,6 @@
       "https://insider-gaming.com/ubisoft-gives-update-on-assassins-creed-hexe/"
      ]
     ],
-    "caption": "🎮 <b>Ubisoft поділилася загадковим тизером Assassin&#x27;s Creed Codename Hexe</b>\n\nUbisoft повідомила, що розробка похмурої гри Assassin&#x27;s Creed Codename Hexe просувається стабільно, а наступний масштабний оновлений показ відбудеться у 2027 році. У блозі компанії також опублікували зашифроване послання для фанатів, які прагнуть розгадати деталі проєкту.\n\n🔗 <a href=\"https://www.ign.com/articles/ubisoft-shares-cryptic-assassins-creed-codename-hexe-update\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/ubisoft-shares-cryptic-assassins-creed-codename-hexe-update",
     "orig": "Ubisoft Shares Cryptic Assassins Creed Codename Hexe Update"
@@ -23180,7 +23013,6 @@
    "Revolver",
    {
     "also": [],
-    "caption": "🤘 <b>Аль Юргенсен розповів про фінальний альбом MINISTRY та плани розводити кіз</b>\n\nЛідер MINISTRY Аль Юргенсен анонсував вихід прощального альбому Hate to Go – Takeout or Delivery та фінальний світовий тур, який завершиться 30 жовтня 2027 року. Музикант планує передати естафету новому поколінню, а після завершення кар&#x27;єри хоче займатися розведенням кіз у Каліфорнії.\n\n🔗 <a href=\"https://www.revolvermag.com/feature/ministrys-al-jourgensen-on-farewell-album-passing-the-torch-and-raising-goats/\">Revolver</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.revolvermag.com/feature/ministrys-al-jourgensen-on-farewell-album-passing-the-torch-and-raising-goats/",
     "orig": "MINISTRY’s AL JOURGENSEN on farewell album, passing the torch and raising goats"
@@ -23194,7 +23026,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Bungie не планує анонсів щодо Destiny на The Game Awards</b>\n\nСтудія Bungie підтвердила, що фанатам не варто чекати анонсів за франшизою Destiny на цьогорічній церемонії The Game Awards. Водночас розробники готують повернення старого контенту в Destiny 2 до 2028 року та інтригують таємничим проєктом Destiny Legacy, деталі якого розкриють у лютому.\n\n🔗 <a href=\"https://insider-gaming.com/dont-expect-a-destiny-announcement-bungie-says-about-the-game-awards/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/dont-expect-a-destiny-announcement-bungie-says-about-the-game-awards/",
     "orig": "‘Don’t Expect A Destiny Announcement’: Bungie Says About The Game Awards"
@@ -23973,6 +23804,118 @@
     "link": "https://lambgoat.com/news/55609/god-complex-reveal-that-vocalist-harry-rule-and-guitarist-kyle-holt-have-exited-the-band/",
     "orig": "God Complex reveal that vocalist Harry Rule and guitarist Kyle Holt have exited the band"
    }
+  ],
+  [
+   1793311368.2383118,
+   3592,
+   "🎬",
+   "Експеримент Netflix із власними фільмами провалився",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Експеримент Netflix із власними фільмами провалився</b>\n\nСтрімінг роками намагався зробити кінотеатри застарілими, але тепер змінює стратегію, щоб не занепасти самому\n\n🔗 <a href=\"https://www.indiewire.com/features/commentary/netflix-lost-the-war-on-movie-theaters-1235224529/\">IndieWire</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/features/commentary/netflix-lost-the-war-on-movie-theaters-1235224529/",
+    "orig": "The Netflix Original Movie Experiment Has Failed — and Netflix Will Be All the Better for It"
+   }
+  ],
+  [
+   1793311379.3177671,
+   3593,
+   "🎮",
+   "Хоррор Mouthwashing екранізують за участю режисерки Jennifer's Body",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Хоррор Mouthwashing екранізують за участю режисерки Jennifer&#x27;s Body</b>\n\nІнді-хорор Mouthwashing отримає повнометражну кіноадаптацію від Sony Pictures’ Screen Gems. Режисеркою стрічки стане Карін Кусама, а продюсером — Скотт Дерріксон. Сюжет розповість про екіпаж вантажного корабля Tulpar, який намагається вижити в ізоляції після того, як судно збивається з курсу.\n\n🔗 <a href=\"https://www.ign.com/articles/hit-indie-horror-game-mouthwashing-is-getting-a-live-action-movie-from-the-director-of-jennifers-body\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/hit-indie-horror-game-mouthwashing-is-getting-a-live-action-movie-from-the-director-of-jennifers-body",
+    "orig": "Hit Indie Horror Game Mouthwashing is Getting a Live-Action Movie From the Director of Jennifer's Body"
+   }
+  ],
+  [
+   1793311382.3885524,
+   3594,
+   "🤘",
+   "Dying Fetus перевидають класичні альбоми на вінілі",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Dying Fetus перевидають класичні альбоми на вінілі</b>\n\nГурт Dying Fetus випустить вінілові перевидання своїх ранніх релізів 11 грудня. До нової серії ввійдуть альбоми Infatuation With Malevolence, Purification Through Violence, Killing On Adrenaline та EP Grotesque Impalement у нових кольорах разом із тематичним мерчем.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/29/news/early-dying-fetus-vinyl-reissues-set-for-december-release/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/29/news/early-dying-fetus-vinyl-reissues-set-for-december-release/",
+    "orig": "Early Dying Fetus Vinyl Reissues Set For December Release"
+   }
+  ],
+  [
+   1793311387.2368543,
+   3595,
+   "🎬",
+   "Чейз Суі Вондерс може зіграти у фільмі Goblin від A24",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Чейз Суі Вондерс може зіграти у фільмі Goblin від A24</b>\n\nЗірка серіалу The Studio Чейз Суі Вондерс веде переговори щодо участі у новій стрічці Goblin від студії A24. Режисером проєкту виступає Девід Мікалсон, а виробництво фільму має розпочатися до кінця року.\n\n🔗 <a href=\"https://deadline.com/2026/10/chase-sui-wonders-circling-goblin-a24-1237208968/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "text",
+    "link": "https://deadline.com/2026/10/chase-sui-wonders-circling-goblin-a24-1237208968/",
+    "orig": "Chase Sui Wonders In Talks to Join A24’s ‘Goblin’"
+   }
+  ],
+  [
+   1793311394.070562,
+   3596,
+   "🎮",
+   "Співзасновник BioWare критикує топменеджмент ігрової індустрії",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Співзасновник BioWare критикує топменеджмент ігрової індустрії</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/1082900/\">None</a>\n\nСпівзасновник BioWare Грег Зещук розкритикував керівників ігрових компаній за те, що вони ніколи самі не розробляли ігор і не розуміють специфіки процесу. Він також висловив жаль через закриття студії та втрату робочих місць для працівників з Едмонтона.\n\n🔗 <a href=\"https://www.pcgamer.com/gaming-industry/none-of-these-people-have-ever-made-a-game-bioware-co-founder-greg-zeschuk-says-of-game-industry-executives-they-just-dont-know-how-it-works/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/gaming-industry/none-of-these-people-have-ever-made-a-game-bioware-co-founder-greg-zeschuk-says-of-game-industry-executives-they-just-dont-know-how-it-works/",
+    "orig": "'None of these people have ever made a game,' BioWare co-founder Greg Zeschuk says of game industry executives: 'They just don't know how it works'"
+   }
+  ],
+  [
+   1793311397.0381706,
+   3597,
+   "🤘",
+   "Blind Channel випустили кліп на пісню Messiah",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Blind Channel випустили кліп на пісню Messiah</b>\n\nФінський nü-metal гурт Blind Channel представив кліп на трек Messiah. Режисером відео виступив Vin Valentino. Робота стала грандіозним фіналом саги перед релізом шостого альбому Painstream.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/29/news/blind-channels-messiah-music-video-debuts/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/29/news/blind-channels-messiah-music-video-debuts/",
+    "orig": "Blind Channel’s “Messiah” Music Video Debuts"
+   }
+  ],
+  [
+   1793311399.247322,
+   3598,
+   "🤖",
+   "Працівника університету в США звільнили від використання ШІ через гуманістичні переконання",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🤖 <b>Працівника університету в США звільнили від використання ШІ через гуманістичні переконання</b>\n\nСпівробітник Університету Кентуккі в США Девід Дурман отримав офіційний дозвіл не використовувати ШІ на роботі. Чоловік аргументував свою відмову тим, що технологія суперечить його гуманістичним переконанням.\n\n🔗 <a href=\"https://mezha.ua/news/us-man-exempted-from-workplace-ai-use-316691/\">Mezha</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/us-man-exempted-from-workplace-ai-use-316691/",
+    "orig": "Працівника університету в США звільнили від використання ШІ через гуманістичні переконання"
+   }
+  ],
+  [
+   1793311402.1537752,
+   3599,
+   "🤘",
+   "Grayscale Season випустили кліп на трек “mov”",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Grayscale Season випустили кліп на трек “mov”</b>\n\nШведський металкор-гурт Grayscale Season презентував кліп на композицію “mov”. Це вже четвертий сингл на підтримку майбутнього альбому “The Weight Of Things We Cannot Touch”, реліз якого запланований на 20 листопада.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/29/news/grayscale-season-premiere-mov-music-video/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/29/news/grayscale-season-premiere-mov-music-video/",
+    "orig": "Grayscale Season Premiere “Mov” Music Video"
+   }
   ]
  ],
  "posted_by_source": {
@@ -24004,7 +23947,8 @@
    1793284468.6470397,
    1793286778.9896848,
    1793300535.0954928,
-   1793307775.6237116
+   1793307775.6237116,
+   1793311399.2477489
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1793269928.1990306,
@@ -24059,7 +24003,6 @@
    1793287964.6116188
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1793217697.7818828,
    1793235700.152788,
    1793271815.502733,
    1793275286.87575,
@@ -24074,7 +24017,8 @@
    1793296970.3472314,
    1793297037.7417727,
    1793300495.710176,
-   1793302381.5862408
+   1793302381.5862408,
+   1793311379.318166
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1793217712.660811,
@@ -24110,7 +24054,6 @@
    1793286810.7943313
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1793223107.510705,
    1793228483.6739354,
    1793241079.51909,
    1793241083.7365086,
@@ -24129,7 +24072,8 @@
    1793293565.6135871,
    1793297001.163588,
    1793297225.2347014,
-   1793304100.9710526
+   1793304100.9710526,
+   1793311394.070968
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1793215927.8462741,
@@ -24177,7 +24121,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1793223119.4393225,
    1793228480.5807061,
    1793242877.552172,
    1793251889.3936846,
@@ -24191,7 +24134,8 @@
    1793278915.3170724,
    1793280898.1234527,
    1793305983.1641803,
-   1793307791.7668874
+   1793307791.7668874,
+   1793311387.2372584
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1793264587.7054763,
@@ -24201,11 +24145,11 @@
    1793291898.006634
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
-   1793223102.3861642,
    1793284416.234995,
    1793302388.5944755,
    1793304104.0741134,
-   1793309477.5788996
+   1793309477.5788996,
+   1793311368.2387774
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1793305980.3167088
@@ -24322,9 +24266,6 @@
    1793293595.8903108
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1793219582.9985902,
-   1793221326.8987598,
-   1793223122.674141,
    1793257295.2742999,
    1793291821.569373,
    1793293396.955933,
@@ -24332,7 +24273,10 @@
    1793300484.7018964,
    1793300549.9471657,
    1793302419.5426393,
-   1793305977.9428058
+   1793305977.9428058,
+   1793311382.3889546,
+   1793311397.0386093,
+   1793311402.1541822
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1793100702.0206006,
@@ -25157,10 +25101,12 @@
   "2d83cacc6ce2a481": 1792273203.6721263,
   "2d97b9e1ca6777e6": 1792514051.4983578,
   "2da0707be78d3cf2": 1792951288.2391365,
+  "2da3d50bd50ce3ef": 1793311397.0385637,
   "2dac1ee28c0f83e9": 1792605690.5921907,
   "2dc47c5d8e9edd97": 1792431196.7692432,
   "2dce5b01e7548855": 1792405892.5948064,
   "2df14628d3314b0d": 1792686911.669889,
+  "2df4265a30afcde3": 1793311368.2387302,
   "2df8ab076d297aab": 1793185306.293644,
   "2e158d70e7eda3a7": 1792530124.0680127,
   "2e2817f0b6cedccc": 1792877491.6964765,
@@ -25632,6 +25578,7 @@
   "4964454f997ded3b": 1792632677.2290754,
   "499b46e2fc1046da": 1792188120.1700075,
   "49a28ea01faefdb6": 1793309490.4664886,
+  "49d22540524ec742": 1793311399.2477062,
   "49e49f2465ec054b": 1793057488.9247115,
   "49e882d235b5a971": 1792148883.2151694,
   "4a34a03127ad822c": 1792814484.6630898,
@@ -25901,6 +25848,7 @@
   "59cb2534dac25cbd": 1792670677.1217697,
   "59d3f5040e3a874d": 1793131289.387966,
   "59d407b1583dafde": 1793296890.1515543,
+  "59dfe9e2fc3b8716": 1793311394.0709226,
   "59ead4c24eadd770": 1793286129.2408173,
   "59fcada27301c811": 1792501291.1945188,
   "59fdc0b1a4ca9581": 1792188155.2770846,
@@ -26452,6 +26400,7 @@
   "7996569815c451c5": 1792769813.778646,
   "79b9c3db9b24cfda": 1792938690.243639,
   "79d2afe0d845e18f": 1793115182.241569,
+  "79de6b5f283a118b": 1793311402.1541383,
   "79e1452cb7745d79": 1792558775.6509824,
   "7a18feab9af32366": 1793041329.3067365,
   "7a2c91fc344e6b5c": 1793289786.4778192,
@@ -27070,6 +27019,7 @@
   "9f3b1225c21029c9": 1793124089.986892,
   "9f3bae400553132d": 1793120551.308918,
   "9f552b17e31b2ecf": 1793120482.266157,
+  "9f56d0f79e002a41": 1793311379.3181214,
   "9f593a6bf4892f1f": 1792609356.2538915,
   "9fb40c823133e6a4": 1792382497.1700006,
   "9fc29c122479163a": 1792958498.2443743,
@@ -27188,6 +27138,7 @@
   "a7a2a44280ebb9f7": 1793178096.0534205,
   "a7b4f33690dc8f72": 1792652483.5200486,
   "a7b84aad4e6bf325": 1792369873.4625132,
+  "a7c8058b84f78985": 1793311387.237212,
   "a7d246ffd514005f": 1792445516.6131728,
   "a7d9008549498759": 1793205103.402206,
   "a7dc0e088f330739": 1793030765.9905179,
@@ -27379,6 +27330,7 @@
   "b26e01ad9a360759": 1792766009.6875176,
   "b27d157e9d3716ec": 1792431081.499187,
   "b2a3863d53551c9a": 1793104481.326919,
+  "b2abcb04438b5aa8": 1793311382.3889103,
   "b2bdc01f74fb4779": 1792508592.8394353,
   "b2c61a22610f6a80": 1793203381.3722465,
   "b2ea121e26a473d4": 1792505038.9435632,
@@ -28323,9 +28275,11 @@
   "ee4cc8592c816ad2": 1793241054.3613508,
   "ee4dd06a474beaf2": 1792605734.4982727,
   "ee5f9ac08a76a752": 1792494240.2813387,
+  "ee61f547fc688a21": 1793311252.6575263,
   "eeb0d78a9804f816": 1792177249.0621376,
   "eebeda529d719e57": 1792533704.9090211,
   "eec0448bbd1ff778": 1792533654.9249506,
+  "eecf656ffa25e074": 1793311252.6575263,
   "eee1c924a2f12018": 1792416707.3036118,
   "eee24cd678571b31": 1793025082.9311159,
   "ef223a86bf3ca885": 1793093481.308404,
@@ -29060,7 +29014,7 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1793295547.946745,
-  "blocked_until": 1793293716.7461896,
+  "blocked_until": 1793382007.2033439,
   "cursor": 54,
   "digest_week": "2026-W43",
   "seen": {
@@ -29801,9 +29755,9 @@
    "IndieWire": 2,
    "Insider Gaming": 12,
    "Lambgoat": 1,
-   "Loudwire": 3,
+   "Loudwire": 4,
    "Metal Hammer (Louder)": 1,
-   "PC Gamer": 19,
+   "PC Gamer": 20,
    "Pitchfork": 2,
    "Polygon": 49,
    "Revolver": 1,
@@ -29817,7 +29771,7 @@
    "Blabbermouth": 63,
    "Bloomberg": 41,
    "DOU Gamedev": 4,
-   "Deadline": 58,
+   "Deadline": 59,
    "Decibel": 12,
    "Digital Foundry": 5,
    "Distorted Sound": 18,
@@ -29826,9 +29780,9 @@
    "GamesIndustry.biz": 18,
    "GitHub Trending": 17,
    "Hugging Face": 3,
-   "IGN": 56,
+   "IGN": 57,
    "ITC.ua": 53,
-   "IndieWire": 19,
+   "IndieWire": 20,
    "Insider Gaming": 71,
    "Kerrang!": 32,
    "Lambgoat": 40,
@@ -29836,9 +29790,9 @@
    "Metal Hammer (Louder)": 24,
    "Metal Injection": 15,
    "MetalSucks": 1,
-   "Mezha": 66,
+   "Mezha": 67,
    "Neformat": 2,
-   "PC Gamer": 69,
+   "PC Gamer": 70,
    "Pitchfork": 8,
    "PlayUA": 22,
    "Polygon": 24,
@@ -29848,14 +29802,14 @@
    "SteamDB": 3,
    "Stereogum": 12,
    "The Decoder": 22,
-   "ThePRP": 45,
+   "ThePRP": 48,
    "VGC": 24,
    "Variety": 24
   },
   "translators": {
    "DeepL": 29,
    "gemini-flash-latest": 17,
-   "gemini-flash-lite-latest": 1037
+   "gemini-flash-lite-latest": 1044
   },
   "week": "2026-W44"
  },
@@ -32690,11 +32644,6 @@
    "",
    1793196175.07475
   ],
-  "q:day": [
-   0,
-   "",
-   1793136687.5281549
-  ],
   "q:day one": [
    0,
    "",
@@ -34295,6 +34244,11 @@
    "",
    1793271803.7401328
   ],
+  "q:game mouthwashing": [
+   0,
+   "",
+   1793311377.3529532
+  ],
   "q:game of thrones": [
    208730,
    "Game of Thrones",
@@ -34694,6 +34648,16 @@
    0,
    "",
    1793214145.4523015
+  ],
+  "q:greg": [
+   0,
+   "",
+   1793311391.4917262
+  ],
+  "q:greg zeschuk": [
+   0,
+   "",
+   1793311390.8999364
   ],
   "q:gridiron": [
    3878710,
@@ -35105,10 +35069,35 @@
    "",
    1793291899.9697025
   ],
+  "q:hit": [
+   0,
+   "",
+   1793311373.0383034
+  ],
   "q:hit before it's even come out": [
    0,
    "",
    1793188888.1689498
+  ],
+  "q:hit indie": [
+   0,
+   "",
+   1793311372.417348
+  ],
+  "q:hit indie horror": [
+   0,
+   "",
+   1793311371.7510943
+  ],
+  "q:hit indie horror game": [
+   0,
+   "",
+   1793311371.2121928
+  ],
+  "q:hit indie horror game mouthwashing": [
+   0,
+   "",
+   1793311370.3947692
   ],
   "q:hogwarts legacy": [
    990080,
@@ -35134,6 +35123,21 @@
    0,
    "",
    1793190720.908146
+  ],
+  "q:horror": [
+   0,
+   "",
+   1793311376.7364447
+  ],
+  "q:horror game": [
+   0,
+   "",
+   1793311376.185182
+  ],
+  "q:horror game mouthwashing": [
+   0,
+   "",
+   1793311375.551866
   ],
   "q:hotline miami": [
    219150,
@@ -35219,11 +35223,6 @@
    0,
    "",
    1793190675.202689
-  ],
-  "q:hulick": [
-   0,
-   "",
-   1793136685.6937783
   ],
   "q:humankind 2": [
    2581850,
@@ -35339,6 +35338,21 @@
    0,
    "",
    1793206928.590291
+  ],
+  "q:indie horror": [
+   0,
+   "",
+   1793311374.8788528
+  ],
+  "q:indie horror game": [
+   0,
+   "",
+   1793311374.2743528
+  ],
+  "q:indie horror game mouthwashing": [
+   0,
+   "",
+   1793311373.5928972
   ],
   "q:indie world presentation": [
    0,
@@ -36650,16 +36664,6 @@
    "",
    1793183576.4099836
   ],
-  "q:n7": [
-   0,
-   "",
-   1793136686.9511092
-  ],
-  "q:n7 day": [
-   0,
-   "",
-   1793136686.4181707
-  ],
   "q:navi team": [
    0,
    "",
@@ -36959,6 +36963,16 @@
    2152570,
    "Noble",
    1792800092.0489268
+  ],
+  "q:none": [
+   1082900,
+   "none",
+   1793311390.3620691
+  ],
+  "q:none of these people have ever made a game": [
+   0,
+   "",
+   1793311389.2656238
   ],
   "q:north": [
    0,
@@ -38100,11 +38114,6 @@
    "Rayman Legends Retold",
    1792607495.2570462
   ],
-  "q:re scored": [
-   0,
-   "",
-   1793136684.4619744
-  ],
   "q:rebellion": [
    0,
    "",
@@ -38539,11 +38548,6 @@
    0,
    "",
    1793145729.1489213
-  ],
-  "q:sam hulick": [
-   0,
-   "",
-   1793136685.0176184
   ],
   "q:samson": [
    3634520,
@@ -39579,6 +39583,16 @@
    0,
    "",
    1793293450.9989433
+  ],
+  "q:they": [
+   0,
+   "",
+   1793311392.569407
+  ],
+  "q:they just don": [
+   0,
+   "",
+   1793311389.8086402
   ],
   "q:this company has been driven into a wall for years": [
    0,
@@ -41189,31 +41203,31 @@
    0,
    "",
    1793210772.2827156
+  ],
+  "q:zeschuk": [
+   0,
+   "",
+   1793311392.0058177
   ]
  },
  "tag_hints": {
   "Mezha": [
    "\"бандероль\"",
    "brave",
-   "chrome",
-   "gmail",
-   "google",
-   "iphone",
    "microsoft",
+   "samsung",
    "windows 11",
    "авіація",
    "актори",
    "безпілотники",
-   "браузери",
    "бізнес",
    "винищувачі",
+   "витік даних",
    "вмс зсу",
    "герань-5",
-   "гур",
    "дата-центри",
-   "дрони",
    "залізо",
-   "комплектуючі",
+   "кібербезпека",
    "кіно",
    "люди",
    "материнські плати",
@@ -41227,23 +41241,13 @@
    "смартфони",
    "софт",
    "су-34",
+   "сша",
+   "хакери",
    "штучний інтелект",
    "іскандер"
   ]
  },
  "titles": [
-  [
-   1793138570.13693,
-   "Fmr. MSFT Exec.: Buyouts Is a Harbinger of AI Future"
-  ],
-  [
-   1793138579.6908867,
-   "David Hayter Opens Up About His 'Huge' Lost Planet Movie That Never Got Made"
-  ],
-  [
-   1793138582.7405937,
-   "Newly Fired Malevolent Creation Members Cite Toxic Work Environment, Phil Fasciana Claims They Couldn’t Play The Band’s Songs Live"
-  ],
   [
    1793139776.3485003,
    "Apple Bets MacBook Pro Buyers Will Pay More for Touch Screens"
@@ -43255,21 +43259,41 @@
   [
    1793309498.4697196,
    "God Complex reveal that vocalist Harry Rule and guitarist Kyle Holt have exited the band"
+  ],
+  [
+   1793311368.238732,
+   "The Netflix Original Movie Experiment Has Failed — and Netflix Will Be All the Better for It"
+  ],
+  [
+   1793311379.3181233,
+   "Hit Indie Horror Game Mouthwashing is Getting a Live-Action Movie From the Director of Jennifer's Body"
+  ],
+  [
+   1793311382.388912,
+   "Early Dying Fetus Vinyl Reissues Set For December Release"
+  ],
+  [
+   1793311387.2372134,
+   "Chase Sui Wonders In Talks to Join A24’s ‘Goblin’"
+  ],
+  [
+   1793311394.0709243,
+   "'None of these people have ever made a game,' BioWare co-founder Greg Zeschuk says of game industry executives: 'They just don't know how it works'"
+  ],
+  [
+   1793311397.0385652,
+   "Blind Channel’s “Messiah” Music Video Debuts"
+  ],
+  [
+   1793311399.2477078,
+   "Працівника університету в США звільнили від використання ШІ через гуманістичні переконання"
+  ],
+  [
+   1793311402.1541402,
+   "Grayscale Season Premiere “Mov” Music Video"
   ]
  ],
  "titles_uk": [
-  [
-   1793138570.1369312,
-   "Скупка компаній є передвісником майбутнього ШІ"
-  ],
-  [
-   1793138579.6908877,
-   "Девід Гайтер розповів про скасовану екранізацію Lost Planet"
-  ],
-  [
-   1793138582.7405941,
-   "Malevolent Creation звільнили басиста та гітариста"
-  ],
   [
    1793139776.348501,
    "Apple розраховує, що покупці MacBook Pro готові переплачувати за сенсорні екрани"
@@ -45281,6 +45305,38 @@
   [
    1793309498.4697204,
    "God Complex оголосили про вихід вокаліста Гаррі Рула та гітариста Кајла Голта"
+  ],
+  [
+   1793311368.2387328,
+   "Експеримент Netflix із власними фільмами провалився"
+  ],
+  [
+   1793311379.318124,
+   "Хоррор Mouthwashing екранізують за участю режисерки Jennifer's Body"
+  ],
+  [
+   1793311382.3889127,
+   "Dying Fetus перевидають класичні альбоми на вінілі"
+  ],
+  [
+   1793311387.2372143,
+   "Чейз Суі Вондерс може зіграти у фільмі Goblin від A24"
+  ],
+  [
+   1793311394.0709248,
+   "Співзасновник BioWare критикує топменеджмент ігрової індустрії"
+  ],
+  [
+   1793311397.0385656,
+   "Blind Channel випустили кліп на пісню Messiah"
+  ],
+  [
+   1793311399.2477083,
+   "Працівника університету в США звільнили від використання ШІ через гуманістичні переконання"
+  ],
+  [
+   1793311402.1541407,
+   "Grayscale Season випустили кліп на трек “mov”"
   ]
  ],
  "ukrainian": {
@@ -47560,7 +47616,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793307802.1684055,
+  "last_check": 1793311411.54656,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
