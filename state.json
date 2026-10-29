@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1793291477.7553658
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1793291475.923949
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-28",
  "freebies": {
   "last_check": 1793288201.2109208,
@@ -29,122 +16,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-29 16:38 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-10-29 17:07 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 11
+   "gemini-flash-lite-latest": 13
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792602109.7189715,
-   1702,
-   "🎮",
-   "IGN показав сім нових карт Magic: The Gathering Star Trek",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/exclusive-see-7-new-cards-from-magic-the-gathering-star-trek-including-1-that-remembers-the-most-iconic-drink-of-tng",
-    "orig": "Exclusive — See 7 New Cards From Magic: The Gathering Star Trek, Including 1 That Remembers the Most Iconic Drink of TNG"
-   }
-  ],
-  [
-   1792602126.2086222,
-   1703,
-   "🤘",
-   "Гітарист THE OFFSPRING Нудлс тимчасово залишає концертні виступи через проблеми зі здоров'ям",
-   "Blabbermouth",
-   {
-    "also": [
-     [
-      "Loudwire",
-      "https://loudwire.com/offspring-noodles-health-issue-statement/"
-     ],
-     [
-      "Lambgoat",
-      "https://lambgoat.com/news/55464/the-offsprings-kevin-john-wasserman-to-step-away-from-touring-for-the-near-future/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/the-offspring-guitarist-noodles-to-step-away-from-live-performances-due-to-fairly-serious-health-issue",
-    "orig": "THE OFFSPRING Guitarist NOODLES To 'Step Away From Live Performances' Due To 'Fairly Serious Health Issue'"
-   }
-  ],
-  [
-   1792602151.7004068,
-   1704,
-   "🤘",
-   "Читачі обрали найкращі straight-edge пісні всіх часів",
-   "Revolver",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.revolvermag.com/feature/fan-poll-top-5-straight-edge-songs-of-all-time/",
-    "orig": "Fan poll: Top 5 straight-edge songs of all time"
-   }
-  ],
-  [
-   1792602160.9649513,
-   1705,
-   "🤘",
-   "Evil Invaders анонсували новий альбом Weaponized Chaos",
-   "Distorted Sound",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://distortedsoundmag.com/evil-invaders-announce-new-album-weaponized-chaos/",
-    "orig": "Evil Invaders announce new album ‘Weaponized Chaos’"
-   }
-  ],
-  [
-   1792602171.6550539,
-   1706,
-   "🎮",
-   "Біля штаб-квартири PSA вкрали картки Pokémon та інших TCG на $1 мільйон",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/gaming-industry/nearly-usd1-million-worth-of-psa-graded-pokemon-and-other-tcg-have-been-stolen-right-outside-psas-headquarters/",
-    "orig": "Nearly $1 million worth of PSA-graded Pokémon and other TCG have been stolen right outside PSA's headquarters"
-   }
-  ],
-  [
-   1792602178.4792018,
-   1707,
-   "🎮",
-   "Soulslike Valor Mortis окупився за тиждень після релізу",
-   "Eurogamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.eurogamer.net/soulslike-valor-mortis-making-profit-seven-days",
-    "orig": "First-person Soulslike Valor Mortis is already making a profit after seven days, despite launching against some stiff competition"
-   }
-  ],
-  [
-   1792602188.7235575,
-   1708,
-   "🤘",
-   "У грі Stage Tour з'являться треки Volbeat, Trivium і Silverstein",
-   "ThePRP",
-   {
-    "also": [
-     [
-      "Insider Gaming",
-      "https://insider-gaming.com/all-stage-tour-songs/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/10/21/news/volbeat-trivium-silverstein-tracks-announced-for-upcoming-stage-tour-video-game/",
-    "orig": "Volbeat, Trivium & Silverstein Tracks Announced For Upcoming ‘Stage Tour’ Video Game"
-   }
-  ],
   [
    1792603226.834876,
    1709,
@@ -22973,7 +22855,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Netflix продовжив серіал The Diplomat на п&#x27;ятий сезон</b>\n\nNetflix офіційно продовжив політичний трилер The Diplomat на п&#x27;ятий сезон. Анонс пролунав за два тижні після прем&#x27;єри четвертого сезону, який завершився драматичною відставкою головної героїні Кейт Вейлер під час саміту G7 в Італії.\n\n🔗 <a href=\"https://deadline.com/2026/10/the-diplomat-renewed-season-5-netflix-1237207664/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/the-diplomat-renewed-season-5-netflix-1237207664/",
     "orig": "‘The Diplomat’ Renewed For Season 5 At Netflix"
@@ -22987,7 +22868,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>У Феніксі почали будівництво високотехнологічного Atari Hotel із кіберспортивною ареною та студіями</b>\n\nКомпанія Atari Hotels офіційно розпочала будівництво у Феніксі, штат Арізона; завершення робіт заплановано на кінець 2028 — початок 2029 року. Цей об’єкт може стати черговим провідним майданчиком для кіберспорту в США.\n\n🔗 <a href=\"https://www.ign.com/articles/high-tech-atari-hotel-with-esports-venue-and-creator-studios-breaks-ground-in-phoenix\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/high-tech-atari-hotel-with-esports-venue-and-creator-studios-breaks-ground-in-phoenix",
     "orig": "'High-Tech' Atari Hotel With Esports Venue and Creator Studios Breaks Ground in Phoenix"
@@ -23001,7 +22881,6 @@
    "PlayUA",
    {
     "also": [],
-    "caption": "🎮 <b>У CS2 додали режим «Великі голови» — Valve випустила новий патч</b>\n\n29 жовтня Valve випустила оновлення для Counter-Strike 2, яке додало модифікатор Big Heads («Великі голови») та виправило кілька технічних помилок. Зміни також торкнулися механіки тихого перезаряджання, графіки та перегляду записів матчів. Головною особливістю патча став модифікатор Big Heads, доступний у звичайному режимі гри. Його механіка досить проста: після кожного вбивства голова персонажа збільшується в розмірах. […]\n\n🔗 <a href=\"https://playua.net/u-cs2-dodaly-rezhym-velyki-golovy-valve-vypustyla-novyj-patch/\">PlayUA</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://playua.net/u-cs2-dodaly-rezhym-velyki-golovy-valve-vypustyla-novyj-patch/",
     "orig": "У CS2 додали режим «Великі голови» — Valve випустила новий патч"
@@ -23015,7 +22894,6 @@
    "GameSpot",
    {
     "also": [],
-    "caption": "🎮 <b>Глава Xbox стверджує, що дефіцит консолей Xbox Series X|S досі триває</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2269460/\">CEO</a>\n\nПопри заяви керівниці підрозділу про проблеми з постачанням у фінансовому звіті Microsoft, придбати консолі в США зараз не проблема як у великих мережах, так і на офіційному сайті.\n\n🔗 <a href=\"https://www.gamespot.com/articles/xbox-ceo-says-xbox-series-xs-is-supply-constrained-but-is-it/\">GameSpot</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamespot.com/articles/xbox-ceo-says-xbox-series-xs-is-supply-constrained-but-is-it/",
     "orig": "Xbox CEO Says Xbox Series X|S Is Supply Constrained, But Is It?"
@@ -23029,7 +22907,6 @@
    "Decibel",
    {
     "also": [],
-    "caption": "🤘 <b>Італійські дез-метал-виконавці Obbrobrius випустили новий альбом Usurped</b>\n\nІталійський гурт Obbrobrius презентував свій другий повноформатний альбом Usurped, який вийшов 6 листопада на лейблі Over the Border Records. Платівка поєднує олдскульний дез-метал із сучасними елементами, а її лірика натхненна тру-краймом, постапокаліптичним кіно та жанром горор.\n\n🔗 <a href=\"https://www.decibelmagazine.com/2026/10/29/full-album-stream-italian-death-metal-crew-obbrobrius-offer-up-usurped/\">Decibel</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.decibelmagazine.com/2026/10/29/full-album-stream-italian-death-metal-crew-obbrobrius-offer-up-usurped/",
     "orig": "Full Album Stream: Italian Death Metal Crew Obbrobrius Offer Up Usurped"
@@ -23043,7 +22920,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Кейн Парсонс планує зняти сиквел Backrooms через невдоволення деякими елементами першого фільму</b>\n\nДайте нам The Bacteria або смерть!\n\n🔗 <a href=\"https://www.pcgamer.com/movies-tv/if-kane-parsons-does-make-a-backrooms-sequel-then-itll-be-to-poke-at-aspects-of-the-first-film-that-didnt-feel-like-it-accurately-spoke-to-the-cultural-core-of-backrooms/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/movies-tv/if-kane-parsons-does-make-a-backrooms-sequel-then-itll-be-to-poke-at-aspects-of-the-first-film-that-didnt-feel-like-it-accurately-spoke-to-the-cultural-core-of-backrooms/",
     "orig": "If Kane Parsons does make a Backrooms sequel then it'll be to 'poke at' aspects of the first film that 'didn't feel like it accurately spoke to the cultural core of Backrooms'"
@@ -23057,7 +22933,6 @@
    "Hugging Face",
    {
     "also": [],
-    "caption": "🤖 <b>Вийшов патч Granite Switch 4.1.1 для модульних мовних моделей</b>\n\nВийшло оновлення Granite Switch 4.1.1, повністю сумісне з версією 4.1. Патч покращує швидкість розгортання завдяки тому, що базова модель залишається незмінною, а нові адаптери додаються окремо.\n\n🔗 <a href=\"https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1\">Hugging Face</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1",
     "orig": "Granite Switch 4.1.1 — Update models like you update software"
@@ -23071,7 +22946,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b>Горор Mouthwashing виходить на консолях та в Xbox Game Pass</b>\n\nВизнаний критиками психологічний хорор Mouthwashing від розробника Wrong Organ тепер доступний на консолях та в сервісі Xbox Game Pass. Гра розповідає про екіпаж космічного вантажного корабля Tulpar, який зіштовхується з катастрофою та поступовим психологічним розпадом.\n\n🔗 <a href=\"https://www.eurogamer.net/mouthwashing-game-pass-ps5-ps4-switch-xbox-now-playing\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/mouthwashing-game-pass-ps5-ps4-switch-xbox-now-playing",
     "orig": "Mouthwashing is finally on consoles and Xbox Game Pass, and it's a Halloween must for horror fans"
@@ -23085,7 +22959,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>XBOX <a href=\"https://store.steampowered.com/app/2269460/\">CEO</a> <a href=\"https://store.steampowered.com/app/1786130/\">Asha</a> Шарма заявляє, що попит на Xbox перевищує пропозицію</b>\n\nАша Шарма зазначила, що попит на ігрові приставки XBOX перевищує пропозицію, через що їх зараз важко придбати.\n\n🔗 <a href=\"https://insider-gaming.com/xbox-ceo-asha-sharma-says-xbox-demand-outpaces-supply/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/xbox-ceo-asha-sharma-says-xbox-demand-outpaces-supply/",
     "orig": "XBOX CEO Asha Sharma Says Xbox Demand Outpaces Supply"
@@ -23099,7 +22972,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Як повідомляє «The New York Times», китайські шпигуни взяли на приціл генерального директора Nvidia Дженсена Хуанга</b>\n\nАмериканські розвідувальні служби вважають, що один із керівників із оточення генерального директора Nvidia Дженсена Хуанга є інформатором Китаю. Стаття «Китайські шпигуни взяли на приціл генерального директора Nvidia Дженсена Хуанга», опублікована в газеті «The New York Times», вперше з’явилася на сайті The Decoder.\n\n🔗 <a href=\"https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/chinese-spies-targeted-nvidia-ceo-jensen-huang-according-to-the-new-york-times/",
     "orig": "Chinese spies targeted Nvidia CEO Jensen Huang, according to The New York Times"
@@ -23113,7 +22985,6 @@
    "VGC",
    {
     "also": [],
-    "caption": "🎮 <b>Офіційний саундтрек GTA 6 від Justice вийде у грудні</b>\n\nМузика також з&#x27;явиться на стрімінгових платформах, а один трек уже доступний для прослуховування\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/the-official-grand-theft-auto-6-musical-score-by-justice-is-released-in-december-cd-and-vinyl-pre-orders-available-now/\">VGC</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/news/the-official-grand-theft-auto-6-musical-score-by-justice-is-released-in-december-cd-and-vinyl-pre-orders-available-now/",
     "orig": "The official Grand Theft Auto 6 musical score by Justice is released in December, CD and vinyl pre-orders available now"
@@ -23132,7 +23003,6 @@
       "https://www.revolvermag.com/music/hear-sleep-theory-confront-cycles-of-addiction-on-new-song-giving-in/"
      ]
     ],
-    "caption": "🤘 <b>Sleep Theory випустили новий сингл Giving In та з&#x27;явилися у лайнапі Welcome To Rockville</b>\n\nГурт Sleep Theory випустив новий сингл Giving In, присвячений боротьбі з циклами залежності. Тим часом фестиваль Welcome To Rockville частково розсекретив лайнап на наступний рік, куди увійшли Sleep Theory та Kublai Khan TX.\n\n🔗 <a href=\"https://www.kerrang.com/sleep-theory-confront-cycles-of-addiction-on-new-single-giving-in\">Kerrang!</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.kerrang.com/sleep-theory-confront-cycles-of-addiction-on-new-single-giving-in",
     "orig": "Sleep Theory confront cycles of addiction on new single, Giving In"
@@ -23146,7 +23016,6 @@
    "Neformat",
    {
     "also": [],
-    "caption": "🤘 <b>Walst повертається до творчості з новим синглом</b>\n\nСольний слоукор-проєкт Walst днями презентував пісню &quot;Waiting for You&quot; на нішевому лейблі Sour Patch. Засновник проєкту Назар написав цю пісню на одному диханні, й саме вона вивела артиста із затяжн\n\n🔗 <a href=\"https://www.neformat.com.ua/news/28451-walst-povertaietsya-do-tvorchosti-z-novim-singlom.html\">Neformat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.neformat.com.ua/news/28451-walst-povertaietsya-do-tvorchosti-z-novim-singlom.html",
     "orig": "Walst повертається до творчості з новим синглом"
@@ -23846,6 +23715,193 @@
     "link": "https://www.polygon.com/fire-emblem-fortune-weave-fabio-dietrich-love/",
     "orig": "Fire Emblem: Fortune’s Weave Actor on Dietrich and Fabio: ‘His First Real Love’"
    }
+  ],
+  [
+   1793293309.8347518,
+   3493,
+   "🎮",
+   "Франшиза Hellraiser отримає три нові настільні ігри до Гелловіну 2027 року",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Франшиза Hellraiser отримає три нові настільні ігри до Гелловіну <a href=\"https://store.steampowered.com/app/5089480/\">2027</a> року</b>\n\nКомпанія Salt Entertainment анонсувала три офіційні настільні ігри за франшизою Hellraiser, реліз першої з яких заплановано на Гелловін 2027 року до 40-річчя оригінального фільму. Лінійка включатиме гру з кубиками Hellraiser: Puzzle of Flesh, повноцінну настільну рольову гру від Франческо Непітелло та велику настільну гру від Майкла Шіналла.\n\n🔗 <a href=\"https://www.ign.com/articles/the-hellraiser-franchise-is-getting-three-new-tabletop-adaptations-for-halloween-2027\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/the-hellraiser-franchise-is-getting-three-new-tabletop-adaptations-for-halloween-2027",
+    "orig": "The Hellraiser Franchise Is Getting Three New Tabletop Adaptations for Halloween 2027"
+   }
+  ],
+  [
+   1793293329.837698,
+   3494,
+   "🎮",
+   "У півфіналі турніру найстрашніших ігор зійдуться дві частини Amnesia",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>У півфіналі турніру найстрашніших ігор зійдуться дві частини <a href=\"https://store.steampowered.com/app/1823380/\">Amnesia</a></b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/1823380/\">Amnesia</a>\n\nВидання PC Gamer проводить фінальні етапи голосування за звання найстрашнішої гри на ПК. У півфіналі зустрінуться Amnesia та Amnesia, а також Silent Hill 2 змагатиметься з Alien: Isolation. Переможця оголосять на Гелловін.\n\n🔗 <a href=\"https://www.pcgamer.com/games/horror/its-amnesia-vs-amnesia-in-the-scariest-game-semifinals-vote-now/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/games/horror/its-amnesia-vs-amnesia-in-the-scariest-game-semifinals-vote-now/",
+    "orig": "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now!"
+   }
+  ],
+  [
+   1793293355.598684,
+   3495,
+   "🎮",
+   "Bethesda може анонсувати Elder Scrolls 6: Sentinel наступного місяця",
+   "Insider Gaming",
+   {
+    "also": [
+     [
+      "VGC",
+      "https://www.videogameschronicle.com/news/xbox-is-reportedly-set-to-officially-name-the-elder-scrolls-6-sentinel-as-soon-as-next-month/"
+     ]
+    ],
+    "caption": "🎮 <b>Bethesda може анонсувати Elder Scrolls 6: Sentinel наступного місяця</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/882200/\">Reveal</a>\n\nЗгідно з новим звітом, наступного місяця Bethesda може офіційно представити назву The Elder Scrolls 6 — Sentinel та розкрити перші деталі. Події гри розгорнуться в Hammerfell, а сам анонс може збігтися з 15-ю річницею релізу Skyrim.\n\n🔗 <a href=\"https://insider-gaming.com/bethesda-could-reveal-elder-scrolls-6-sentinel-next-month-its-claimed/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/bethesda-could-reveal-elder-scrolls-6-sentinel-next-month-its-claimed/",
+    "orig": "Bethesda Could Reveal ‘Elder Scrolls 6: Sentinel’ Next Month, It’s Claimed"
+   }
+  ],
+  [
+   1793293396.9554398,
+   3496,
+   "🤘",
+   "Гітарист Avenged Sevenfold Закі Вендженс підтримав використання ШІ",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Гітарист Avenged Sevenfold Закі Вендженс підтримав використання ШІ</b>\n\nГітарист Avenged Sevenfold Закі Вендженс публічно підтримав використання ШІ через критику обкладинки для їхнього нового каверу на Misfits. Музикант заявив, що ШІ є розширенням можливостей і ефективністю майбутнього, хоча й визнав, що технологія може замінити лише тих, хто цього припустився через лінощі.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/29/news/avenged-sevenfolds-zacky-vengeance-says-he-fully-embraces-ai-following-backlash-for-ai-generated-artwork-for-the-bands-new-misfits-cover/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/29/news/avenged-sevenfolds-zacky-vengeance-says-he-fully-embraces-ai-following-backlash-for-ai-generated-artwork-for-the-bands-new-misfits-cover/",
+    "orig": "Avenged Sevenfold’s Zacky Vengeance Says He Fully Embraces AI Following Backlash For AI-Generated Artwork For The Band’s New Misfits Cover"
+   }
+  ],
+  [
+   1793293447.4845808,
+   3497,
+   "🎮",
+   "Xbox прагне перевершити PlayStation і Nintendo за прибутковістю до 2030 року",
+   "GameSpot",
+   {
+    "also": [],
+    "caption": "🎮 <b>Xbox прагне перевершити PlayStation і Nintendo за прибутковістю до 2030 року</b>\n\nГенеральна директорка Xbox Asha Sharma заявила про амбітну мету компанії перевершити прибуткові показники Sony та Nintendo до середини 2030 року. Для цього Microsoft планує зосередитися на ексклюзивних проєктах та розширити свої позиції на ринку казуальних ігор.\n\n🔗 <a href=\"https://www.gamespot.com/articles/xbox-wants-to-be-more-profitable-than-playstation-and-nintendo-by-2030/\">GameSpot</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamespot.com/articles/xbox-wants-to-be-more-profitable-than-playstation-and-nintendo-by-2030/",
+    "orig": "Xbox Wants To Be More Profitable Than PlayStation And Nintendo By 2030"
+   }
+  ],
+  [
+   1793293484.748336,
+   3498,
+   "🎮",
+   "Художник GTA Стівен Блісс розповів про створення культового візуального стилю серії",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Художник GTA Стівен Блісс розповів про створення культового візуального стилю серії</b>\n\n🔗 <a href=\"https://www.ign.com/articles/grand-theft-auto-artist-stephen-bliss-explains-how-he-defined-the-series-iconic-visual-style\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/grand-theft-auto-artist-stephen-bliss-explains-how-he-defined-the-series-iconic-visual-style",
+    "orig": "Grand Theft Auto Artist Stephen Bliss Explains How He Defined the Series' Iconic Visual Style"
+   }
+  ],
+  [
+   1793293502.084037,
+   3499,
+   "🤘",
+   "blink-182 стали першим хедлайнером Graspop Metal Meeting 2027",
+   "Kerrang!",
+   {
+    "also": [],
+    "caption": "🤘 <b>blink-182 стали першим хедлайнером Graspop Metal Meeting 2027</b>\n\n🔗 <a href=\"https://www.kerrang.com/blink-182-pierce-the-veil-korn-bad-omens-welcome-to-rockville-2027-150-new-names-daytona-international-speedway-2027\">Kerrang!</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.kerrang.com/blink-182-pierce-the-veil-korn-bad-omens-welcome-to-rockville-2027-150-new-names-daytona-international-speedway-2027",
+    "orig": "blink-182, Korn, Pierce The Veil and Bad Omens lead Welcome To Rockville’s massive 2027 line-up"
+   }
+  ],
+  [
+   1793293504.6073868,
+   3500,
+   "💾",
+   "Windows 11 отримала оновлення з переробленим контекстним меню",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "💾 <b>Windows 11 отримала оновлення з переробленим контекстним меню</b>\n\nMicrosoft випустила оновлення KB5127936 для Windows 11, яке додає перероблене контекстне меню зі швидшою роботою та додатковими можливостями кастомізації.\n\n🔗 <a href=\"https://mezha.ua/news/windows-11-kb5127936-update-316684/\">Mezha</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/windows-11-kb5127936-update-316684/",
+    "orig": "Windows 11 отримала оновлення з переробленим контекстним меню"
+   }
+  ],
+  [
+   1793293533.6171288,
+   3501,
+   "🤘",
+   "Анонсували лайнап фестивалю Welcome 2027 із понад 150 гуртами",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Анонсували лайнап фестивалю Welcome 2027 із понад 150 гуртами</b>\n\nKevin Winter, Getty Images, Danny Wimmer Presents / Steve Thrasher, Danny Wimmer Presents / @catievioxcaptures, Buda Mendes, Getty Images, Loudwire, Danny Wimmer Presents\n\n🔗 <a href=\"https://loudwire.com/welcome-to-rockville-2027-lineup/\">Loudwire</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://loudwire.com/welcome-to-rockville-2027-lineup/",
+    "orig": "Welcome to Rockville 2027 Lineup Revealed - Over 150 Acts Booked!"
+   }
+  ],
+  [
+   1793293565.6131136,
+   3502,
+   "🎮",
+   "Денніс Даяк заявив, що AAA-видавці зловживають раннім доступом",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Денніс Даяк заявив, що <a href=\"https://store.steampowered.com/app/3408350/\">AAA</a>-видавці зловживають раннім доступом</b>\n\nРозробник Денніс Даяк вважає, що великі компанії використовують ранній доступ як маркетинговий інструмент для майже готових ігор. Це завищує очікування гравців і створює серйозні перешкоди для незалежних розробників, яким цей формат потрібен для завершення проєктів.\n\n🔗 <a href=\"https://www.pcgamer.com/gaming-industry/game-development/aaa-publishers-are-abusing-early-access-denis-dyack-says-and-thats-making-things-harder-for-everyone-else/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/gaming-industry/game-development/aaa-publishers-are-abusing-early-access-denis-dyack-says-and-thats-making-things-harder-for-everyone-else/",
+    "orig": "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else"
+   }
+  ],
+  [
+   1793293595.8898735,
+   3503,
+   "🤘",
+   "Bryan Adams випустив другу пісню-дисс на Donald Trump",
+   "Stereogum",
+   {
+    "also": [],
+    "caption": "🤘 <b>Bryan Adams випустив другу пісню-дисс на Donald Trump</b>\n\nКанадський музикант Bryan Adams презентував трек &quot;Lake Ontario&quot; зі свого майбутнього альбому How&#x27;s It Goin&#x27;. У композиції він розкритикував наміри Donald Trump перейменувати водойми, а також згадав скандал навколо файлів Jeffrey Epstein.\n\n🔗 <a href=\"https://stereogum.com/2515960/bryan-adams-donald-trump-diss-track-epstein-files/music/\">Stereogum</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://stereogum.com/2515960/bryan-adams-donald-trump-diss-track-epstein-files/music/",
+    "orig": "Bryan Adams Drops Another Trump Diss Track And This One Mentions The Epstein Files"
+   }
+  ],
+  [
+   1793293629.5680025,
+   3504,
+   "🎬",
+   "Disney розкрила фінальний бюджет фільму Deadpool & Wolverine",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Disney розкрила фінальний бюджет фільму Deadpool &amp; Wolverine</b>\n\nСтрічка стала одним із найбільших хітів Marvel Studios, і витрати на її виробництво виявилися чималенькими.\n\n🔗 <a href=\"https://www.slashfilm.com/2301164/deadpool-and-wolverine-cost-disney/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2301164/deadpool-and-wolverine-cost-disney/",
+    "orig": "Deadpool & Wolverine's Final Cost Confirmed By Disney (And It's Higher Than Expected)"
+   }
+  ],
+  [
+   1793293664.2540157,
+   3505,
+   "🎮",
+   "Повернення видаленого контенту в Destiny 2 затягнеться до початку 2028 року",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Повернення видаленого контенту в <a href=\"https://store.steampowered.com/app/1085660/\">Destiny 2</a> затягнеться до початку 2028 року</b>\n\nBungie планує повернути видалений раніше контент у Destiny 2 лише на початку 2028 року. Дорожня карта складається з п&#x27;яти етапів, наразі студія перебуває на стадії препродакшну, а виробництво триватиме близько року.\n\n🔗 <a href=\"https://insider-gaming.com/destiny-2s-unvaulting-plans-wont-be-complete-until-early-2028/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/destiny-2s-unvaulting-plans-wont-be-complete-until-early-2028/",
+    "orig": "Destiny 2’s Unvaulting Plans Won’t Be Complete Until Early 2028"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23918,7 +23974,8 @@
    1793214102.1710265,
    1793282768.8882632,
    1793284316.3144805,
-   1793291747.5759244
+   1793291747.5759244,
+   1793293447.4850645
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
    1793264596.5835838,
@@ -23928,7 +23985,6 @@
    1793287964.6116188
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1793203294.4575207,
    1793210600.9187858,
    1793210666.7434163,
    1793217697.7818828,
@@ -23939,7 +23995,9 @@
    1793282733.7153668,
    1793286417.0641844,
    1793286456.373072,
-   1793286561.137237
+   1793286561.137237,
+   1793293309.8352172,
+   1793293484.748811
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1793201742.415062,
@@ -23962,7 +24020,9 @@
    1793289915.1201472,
    1793291799.7517474,
    1793291847.3498642,
-   1793291871.9704685
+   1793291871.9704685,
+   1793293355.5991635,
+   1793293664.2544458
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1793203355.193053,
@@ -23989,7 +24049,9 @@
    1793284557.1784835,
    1793286525.0561826,
    1793288135.328151,
-   1793291717.7314754
+   1793291717.7314754,
+   1793293329.8382108,
+   1793293565.6135871
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1793199713.3400092,
@@ -24033,7 +24095,8 @@
    1793248362.5304146,
    1793248365.4052548,
    1793251885.3390741,
-   1793288097.1275826
+   1793288097.1275826,
+   1793293629.5684404
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792944099.3403795,
@@ -24123,13 +24186,13 @@
    1793280708.4266365
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
-   1793205200.8210208,
    1793273552.2389686,
    1793275358.450076,
    1793277121.1841633,
    1793278996.5105572,
    1793283018.45441,
-   1793290052.0615315
+   1793290052.0615315,
+   1793293502.0844758
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
    1793154696.484527,
@@ -24149,7 +24212,8 @@
    1793218938.8983276,
    1793221322.1799362,
    1793269922.066384,
-   1793286808.3097186
+   1793286808.3097186,
+   1793293533.6176841
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1793235757.2918334,
@@ -24180,9 +24244,9 @@
    1793205128.9902816
   ],
   "music|Stereogum|https://www.stereogum.com/feed/": [
-   1793205146.6606107,
    1793286700.4766893,
-   1793289832.5244904
+   1793289832.5244904,
+   1793293595.8903108
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
    1793207067.8279307,
@@ -24197,7 +24261,8 @@
    1793221326.8987598,
    1793223122.674141,
    1793257295.2742999,
-   1793291821.569373
+   1793291821.569373,
+   1793293396.955933
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1793100702.0206006,
@@ -24227,14 +24292,13 @@
    1793286812.8222306
   ],
   "software|Mezha|https://mezha.ua/feed/": [
-   1793205114.1234171,
-   1793205124.1723673,
    1793226790.7263663,
    1793262984.919095,
    1793275289.104852,
    1793280732.5665329,
    1793280877.3438325,
-   1793288192.2171407
+   1793288192.2171407,
+   1793293504.607868
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1793259092.121225,
@@ -24571,6 +24635,7 @@
   "12962f54a33977b4": 1793283020.8751106,
   "129d883730a1d79f": 1793001659.2458375,
   "129f7876d5112ff3": 1793025354.397728,
+  "12bb1b558070d81f": 1793293533.6176322,
   "12e604caa54205cf": 1792503109.0566,
   "12f03d811bed224d": 1792616476.5398698,
   "1301000eedacf463": 1793107950.265779,
@@ -25351,6 +25416,7 @@
   "413dcb479c090b06": 1793176595.1260428,
   "414cc1fa3ed7d33e": 1792350098.5222456,
   "414db130791a9d19": 1792515654.6131237,
+  "4150ea12a0295b32": 1793293502.0844312,
   "416e8408095f0640": 1792558779.4628644,
   "417af7af2605dde6": 1793129492.6191158,
   "417ec62257d54cf2": 1792427640.6575158,
@@ -25363,6 +25429,7 @@
   "41e0ebb8ff8b06ae": 1792854053.1157928,
   "4205818aacb7e1ce": 1792111201.8760307,
   "420e3128427ac541": 1793203465.117033,
+  "42302d21336315b3": 1793293664.2544005,
   "423176b1f5b5240a": 1792659700.2608771,
   "42332ffa952150cc": 1792602188.7239175,
   "423efe3f7869feb5": 1793205136.8900115,
@@ -25417,6 +25484,7 @@
   "4599904f2cf09ac1": 1792704722.8647158,
   "459a44a631ff3472": 1793288165.0292504,
   "45afde6e7645bde9": 1793138475.1644733,
+  "45c44995916e8f70": 1793293595.8902667,
   "45c6b4e238931487": 1792515788.5555103,
   "45d6252574e7c1b5": 1792256264.4734173,
   "45f67ae97eada0b4": 1793206921.814117,
@@ -25499,7 +25567,9 @@
   "4b4e35f7bffe284e": 1793133110.8623116,
   "4b57ba5c7500bacb": 1792821755.2995782,
   "4b591feae98a1e0e": 1792515678.3679833,
+  "4b5b083edb85324a": 1793293329.8381596,
   "4b5b0c40c3500f36": 1792521053.3389432,
+  "4b7e488803998de9": 1793293282.1346955,
   "4b8606a72eab4b79": 1793196143.320489,
   "4b931255fa64efb1": 1792295963.2647643,
   "4bc7929496320a0d": 1793097217.8647578,
@@ -25980,6 +26050,7 @@
   "6902616b25bab517": 1793120482.2650888,
   "69046dac910d5167": 1792589514.5813036,
   "6905a2c2e51144c2": 1793017985.4098544,
+  "693fdf9c6a66b177": 1793293355.599118,
   "694b66106911d412": 1792699489.4483354,
   "694fdc84c7f2b206": 1792747853.395347,
   "695a4a80a2da6149": 1792591408.0965388,
@@ -26473,6 +26544,7 @@
   "871c216a743cfb91": 1792346480.644846,
   "8721225a6d2a7f1f": 1792753295.6319604,
   "8731a54a3c3fa37e": 1792619384.6139266,
+  "8738014985a1c1ea": 1793293447.485017,
   "873f76d05fea2276": 1793197859.826799,
   "8745ada1d31ddfb5": 1792998319.679243,
   "8755bc1233b8c71c": 1792555379.124613,
@@ -26743,6 +26815,7 @@
   "96c65e1116a42b6b": 1792686708.8900337,
   "96e538d094e5f3d8": 1792695697.750197,
   "96fb6db8c5170cdc": 1792427584.0698988,
+  "971715fa670fc77d": 1793293309.8351667,
   "97173073332a5650": 1793039503.0894141,
   "9729e211d9bb51b2": 1793020655.9842627,
   "97411bca089ab729": 1792668725.6253703,
@@ -27032,6 +27105,7 @@
   "a9c7314dcdbdea08": 1793196102.0453415,
   "a9c854ae04357b58": 1793122287.313978,
   "a9cf44cee6190480": 1792576886.3405383,
+  "a9edfddc01839285": 1793293504.6078203,
   "a9fa595b758184ec": 1792479930.7962537,
   "a9fc257516e379d3": 1792587712.0099072,
   "aa010ec10c79fa28": 1792747853.395347,
@@ -27057,6 +27131,7 @@
   "abc651d8e95c70e7": 1792467103.3604484,
   "abd2970eba863e91": 1792427702.6737905,
   "abdc79a465820e8d": 1793131343.6890454,
+  "ac07a7bbcce0a655": 1793293378.1253593,
   "ac2454c7138bebac": 1792281223.5437524,
   "ac2743dccbb1a688": 1792704659.4916987,
   "ac2e84230e21faee": 1792423963.5752678,
@@ -27145,6 +27220,7 @@
   "b048e81305337ca5": 1792526559.3690498,
   "b051c4acfda138d8": 1793280708.4265866,
   "b085d441153a7073": 1793077280.7328568,
+  "b093c025952d00c1": 1793293282.1478913,
   "b0953378c53d9598": 1792636362.4359775,
   "b09be82318e98a87": 1793018069.2093632,
   "b0a37134ad6000ae": 1793284580.762127,
@@ -27154,6 +27230,7 @@
   "b0c5d137f7bb3596": 1793290052.0614736,
   "b0c92081eaa93c50": 1792681297.1446602,
   "b0cb4d78a23eb118": 1792854097.9113228,
+  "b0cff2fd96b597fb": 1793293484.7487578,
   "b0d6c112324e7dc0": 1793100707.4531374,
   "b0e9f39d3f11aafc": 1793125882.9393995,
   "b0f40d2bce2ad955": 1792584060.629931,
@@ -27522,6 +27599,7 @@
   "c7e0a937756fd4d3": 1793291871.9704227,
   "c7ea08bfb580ce26": 1792668744.9354198,
   "c7fbdb83d8024fa3": 1793088182.3004682,
+  "c8072addaebb633e": 1793293565.6135354,
   "c80fae5a3d5d5618": 1792344696.8477082,
   "c81bd90e16e9ff81": 1792778485.0541632,
   "c81dce180c4d4181": 1792935125.8600752,
@@ -28165,6 +28243,8 @@
   "f33fc0b1750a1b68": 1792591518.6114793,
   "f34c24127709c365": 1792395094.7771184,
   "f3538b6fb36f4f58": 1793282848.2991073,
+  "f35afa200f38632a": 1793293396.9558856,
+  "f36c315683ef0962": 1793293629.568397,
   "f379ec216e17f0ed": 1792742466.4211743,
   "f3a9158637d1a587": 1793286839.002255,
   "f3abdc53bc3584ac": 1793050280.3924372,
@@ -29585,7 +29665,7 @@
    "Variety": 3
   },
   "sources": {
-   "/Film": 22,
+   "/Film": 23,
    "AIN.ua": 4,
    "Blabbermouth": 56,
    "Bloomberg": 38,
@@ -29595,23 +29675,23 @@
    "Digital Foundry": 4,
    "Distorted Sound": 18,
    "Eurogamer": 26,
-   "GameSpot": 24,
+   "GameSpot": 25,
    "GamesIndustry.biz": 18,
    "GitHub Trending": 17,
    "Hugging Face": 3,
-   "IGN": 49,
+   "IGN": 51,
    "ITC.ua": 51,
    "IndieWire": 16,
-   "Insider Gaming": 65,
-   "Kerrang!": 29,
+   "Insider Gaming": 67,
+   "Kerrang!": 30,
    "Lambgoat": 30,
-   "Loudwire": 14,
+   "Loudwire": 15,
    "Metal Hammer (Louder)": 24,
    "Metal Injection": 12,
    "MetalSucks": 1,
-   "Mezha": 62,
+   "Mezha": 63,
    "Neformat": 2,
-   "PC Gamer": 64,
+   "PC Gamer": 66,
    "Pitchfork": 6,
    "PlayUA": 20,
    "Polygon": 23,
@@ -29619,16 +29699,16 @@
    "Revolver": 7,
    "Rock Paper Shotgun": 17,
    "SteamDB": 2,
-   "Stereogum": 11,
+   "Stereogum": 12,
    "The Decoder": 21,
-   "ThePRP": 39,
+   "ThePRP": 40,
    "VGC": 23,
    "Variety": 24
   },
   "translators": {
    "DeepL": 28,
    "gemini-flash-latest": 17,
-   "gemini-flash-lite-latest": 933
+   "gemini-flash-lite-latest": 946
   },
   "week": "2026-W44"
  },
@@ -29647,6 +29727,11 @@
    "1131190",
    "NERTS! Online",
    1791724894.7207022
+  ],
+  "id:1142050": [
+   "1142050",
+   "Deadhaus Sonata",
+   1793293535.2504394
   ],
   "id:1203620": [
    "1203620",
@@ -30533,21 +30618,6 @@
    "",
    1793253678.5800092
   ],
-  "q:46 seconds of new": [
-   0,
-   "",
-   1793118765.834872
-  ],
-  "q:46 seconds of new final": [
-   0,
-   "",
-   1793118765.3459437
-  ],
-  "q:46 seconds of new final fantasy": [
-   0,
-   "",
-   1793118764.848956
-  ],
   "q:47": [
    4921720,
    "47都道府県にプロ野球チームが存在する世界線で日本一の球団をめざそう！",
@@ -30628,6 +30698,11 @@
    "",
    1793122358.8261406
   ],
+  "q:6 sentinel": [
+   0,
+   "",
+   1793293358.9877524
+  ],
   "q:60": [
    0,
    "",
@@ -30692,6 +30767,16 @@
    0,
    "",
    1793125883.499773
+  ],
+  "q:aaa": [
+   3408350,
+   "AAA",
+   1793293536.3002434
+  ],
+  "q:aaa publishers are abusing early access": [
+   0,
+   "",
+   1793293535.7415736
   ],
   "q:abiotic factor": [
    427410,
@@ -30868,10 +30953,20 @@
    "",
    1793286710.1203823
   ],
+  "q:amnesia": [
+   1823380,
+   "AMNESIA",
+   1793293313.2259138
+  ],
   "q:amnesia the dark descent": [
    57300,
    "Amnesia: The Dark Descent",
    1792501321.7501497
+  ],
+  "q:amnesia vs amnesia": [
+   0,
+   "",
+   1793293312.7354848
   ],
   "q:among us": [
    945360,
@@ -31168,6 +31263,31 @@
    "",
    1793122356.2771983
   ],
+  "q:auto artist": [
+   0,
+   "",
+   1793293454.9068675
+  ],
+  "q:auto artist stephen": [
+   0,
+   "",
+   1793293454.429019
+  ],
+  "q:auto artist stephen bliss": [
+   0,
+   "",
+   1793293453.936408
+  ],
+  "q:auto artist stephen bliss explains": [
+   0,
+   "",
+   1793293453.453526
+  ],
+  "q:auto artist stephen bliss explains how": [
+   0,
+   "",
+   1793293452.9752724
+  ],
   "q:backrooms": [
    0,
    "",
@@ -31263,6 +31383,26 @@
    "Battleplan",
    1791815079.4738243
   ],
+  "q:be more": [
+   0,
+   "",
+   1793293404.3343043
+  ],
+  "q:be more profitable": [
+   0,
+   "",
+   1793293403.7793574
+  ],
+  "q:be more profitable than": [
+   0,
+   "",
+   1793293403.3064032
+  ],
+  "q:be more profitable than playstation": [
+   0,
+   "",
+   1793293402.8361876
+  ],
   "q:beast xr glasses are available": [
    0,
    "",
@@ -31312,6 +31452,16 @@
    0,
    "",
    1793201530.9183073
+  ],
+  "q:bethesda could": [
+   0,
+   "",
+   1793293332.7234287
+  ],
+  "q:bethesda could reveal": [
+   0,
+   "",
+   1793293332.26623
   ],
   "q:betrayed": [
    2855940,
@@ -31863,31 +32013,6 @@
    "",
    1793203316.1739151
   ],
-  "q:check": [
-   0,
-   "",
-   1793118762.256767
-  ],
-  "q:check out": [
-   0,
-   "",
-   1793118761.5717757
-  ],
-  "q:check out 46": [
-   0,
-   "",
-   1793118760.947146
-  ],
-  "q:check out 46 seconds": [
-   0,
-   "",
-   1793118760.4540613
-  ],
-  "q:check out 46 seconds of new": [
-   0,
-   "",
-   1793118759.9179318
-  ],
   "q:chinese": [
    0,
    "",
@@ -32102,6 +32227,16 @@
    0,
    "",
    1793124122.2738595
+  ],
+  "q:could": [
+   0,
+   "",
+   1793293333.7392743
+  ],
+  "q:could reveal": [
+   0,
+   "",
+   1793293333.2083182
   ],
   "q:counter strike": [
    10,
@@ -32458,6 +32593,16 @@
    "Demon Slayer",
    1792645234.1388905
   ],
+  "q:denis": [
+   0,
+   "",
+   1793293537.2563858
+  ],
+  "q:denis dyack": [
+   0,
+   "",
+   1793293536.762221
+  ],
   "q:departure": [
    1957220,
    "Departure.",
@@ -32477,6 +32622,26 @@
    1085660,
    "Destiny 2",
    1792436511.4081278
+  ],
+  "q:destiny 2's unvaulting": [
+   0,
+   "",
+   1793293633.0347795
+  ],
+  "q:destiny 2's unvaulting plans": [
+   0,
+   "",
+   1793293632.5541768
+  ],
+  "q:destiny 2's unvaulting plans won't": [
+   0,
+   "",
+   1793293632.011313
+  ],
+  "q:destiny 2's unvaulting plans won't be": [
+   0,
+   "",
+   1793293631.5343409
   ],
   "q:deus ex": [
    3131640,
@@ -32763,21 +32928,6 @@
    "",
    1793198140.7014081
   ],
-  "q:dragons": [
-   0,
-   "",
-   1793118781.412797
-  ],
-  "q:dragons world": [
-   0,
-   "",
-   1793118780.8002348
-  ],
-  "q:dragons world of warcraft": [
-   0,
-   "",
-   1793118780.2826645
-  ],
   "q:drunken goddess reflux": [
    4150720,
    "Drunken Goddess Reflux",
@@ -32792,16 +32942,6 @@
    1172710,
    "Dune: Awakening",
    1792164557.695081
-  ],
-  "q:dungeons dragons": [
-   0,
-   "",
-   1793118779.7226572
-  ],
-  "q:dungeons dragons world": [
-   0,
-   "",
-   1793118779.2085428
   ],
   "q:dusk": [
    519860,
@@ -32822,6 +32962,11 @@
    975370,
    "Dwarf Fortress",
    1791931860.7723489
+  ],
+  "q:dyack": [
+   0,
+   "",
+   1793293537.7155633
   ],
   "q:dying light the beast": [
    3008130,
@@ -32892,6 +33037,36 @@
    1245620,
    "ELDEN RING",
    1792866688.6403193
+  ],
+  "q:elder": [
+   0,
+   "",
+   1793293336.3020089
+  ],
+  "q:elder scrolls": [
+   0,
+   "",
+   1793293335.7649908
+  ],
+  "q:elder scrolls 6": [
+   0,
+   "",
+   1793293335.1871579
+  ],
+  "q:elder scrolls 6 sentinel": [
+   0,
+   "",
+   1793293331.8060462
+  ],
+  "q:elder scrolls 6 sentinel'": [
+   0,
+   "",
+   1793293334.7316406
+  ],
+  "q:elder scrolls 6 sentinel' next": [
+   0,
+   "",
+   1793293334.2222989
   ],
   "q:elon musk": [
    0,
@@ -33578,6 +33753,36 @@
    "",
    1793277079.877838
   ],
+  "q:franchise": [
+   0,
+   "",
+   1793293288.4351912
+  ],
+  "q:franchise is": [
+   0,
+   "",
+   1793293287.9330842
+  ],
+  "q:franchise is getting": [
+   0,
+   "",
+   1793293287.430385
+  ],
+  "q:franchise is getting three": [
+   0,
+   "",
+   1793293286.9577444
+  ],
+  "q:franchise is getting three new": [
+   0,
+   "",
+   1793293286.4982114
+  ],
+  "q:franchise is getting three new tabletop": [
+   0,
+   "",
+   1793293286.0364747
+  ],
   "q:free jarvan": [
    0,
    "",
@@ -34008,6 +34213,21 @@
    "",
    1793246575.8162217
   ],
+  "q:grand theft auto artist": [
+   0,
+   "",
+   1793293450.4972782
+  ],
+  "q:grand theft auto artist stephen": [
+   0,
+   "",
+   1793293450.0402405
+  ],
+  "q:grand theft auto artist stephen bliss": [
+   0,
+   "",
+   1793293449.5194821
+  ],
   "q:gray zone warfare": [
    2479810,
    "Gray Zone Warfare",
@@ -34132,21 +34352,6 @@
    0,
    "",
    1793223111.3051958
-  ],
-  "q:has more": [
-   0,
-   "",
-   1793118803.4999413
-  ],
-  "q:has more traction": [
-   0,
-   "",
-   1793118802.9565248
-  ],
-  "q:has more traction than": [
-   0,
-   "",
-   1793118802.3292058
   ],
   "q:has taken 6 years": [
    0,
@@ -34327,6 +34532,36 @@
    0,
    "",
    1793196219.6693017
+  ],
+  "q:hellraiser": [
+   0,
+   "",
+   1793293285.532901
+  ],
+  "q:hellraiser franchise": [
+   0,
+   "",
+   1793293284.6792276
+  ],
+  "q:hellraiser franchise is": [
+   0,
+   "",
+   1793293284.194461
+  ],
+  "q:hellraiser franchise is getting": [
+   0,
+   "",
+   1793293283.6985264
+  ],
+  "q:hellraiser franchise is getting three": [
+   0,
+   "",
+   1793293283.2082121
+  ],
+  "q:hellraiser franchise is getting three new": [
+   0,
+   "",
+   1793293282.6976933
   ],
   "q:here's the crimson": [
    0,
@@ -34842,6 +35077,16 @@
    0,
    "",
    1793201779.6299455
+  ],
+  "q:it's amnesia": [
+   0,
+   "",
+   1793293312.2587724
+  ],
+  "q:it's amnesia vs amnesia": [
+   0,
+   "",
+   1793293311.7928362
   ],
   "q:jabbi to cs": [
    0,
@@ -35598,26 +35843,6 @@
    "",
    1793221302.307883
   ],
-  "q:mass effect's petition": [
-   0,
-   "",
-   1793118799.7957346
-  ],
-  "q:mass effect's petition has": [
-   0,
-   "",
-   1793118799.0202863
-  ],
-  "q:mass effect's petition has more": [
-   0,
-   "",
-   1793118798.4803922
-  ],
-  "q:mass effect's petition has more traction": [
-   0,
-   "",
-   1793118797.9758735
-  ],
   "q:mates": [
    0,
    "",
@@ -35842,11 +36067,6 @@
    1736630,
    "Minesweeper Ultimate",
    1791642328.393718
-  ],
-  "q:mmo": [
-   0,
-   "",
-   1793118781.9138253
   ],
   "q:mmorpg focused": [
    0,
@@ -36658,26 +36878,6 @@
    "",
    1793218941.0193133
   ],
-  "q:out 46": [
-   0,
-   "",
-   1793118764.356709
-  ],
-  "q:out 46 seconds": [
-   0,
-   "",
-   1793118763.8562746
-  ],
-  "q:out 46 seconds of new": [
-   0,
-   "",
-   1793118763.356724
-  ],
-  "q:out 46 seconds of new final": [
-   0,
-   "",
-   1793118762.819487
-  ],
   "q:outlast": [
    238320,
    "Outlast",
@@ -36812,26 +37012,6 @@
    0,
    "",
    1793286529.4983406
-  ],
-  "q:petition has": [
-   0,
-   "",
-   1793118801.8376176
-  ],
-  "q:petition has more": [
-   0,
-   "",
-   1793118801.3495088
-  ],
-  "q:petition has more traction": [
-   0,
-   "",
-   1793118800.8122177
-  ],
-  "q:petition has more traction than": [
-   0,
-   "",
-   1793118800.2908516
   ],
   "q:phantom": [
    0,
@@ -37057,6 +37237,16 @@
    3219030,
    "Planet Zoo 2",
    1791894812.7149363
+  ],
+  "q:plans won't be complete until": [
+   0,
+   "",
+   1793293637.56058
+  ],
+  "q:plans won't be complete until early": [
+   0,
+   "",
+   1793293637.0743182
   ],
   "q:plants vs zombies": [
    3590,
@@ -38003,11 +38193,6 @@
    "",
    1793142156.3076775
   ],
-  "q:save physical games": [
-   0,
-   "",
-   1793118797.4876878
-  ],
   "q:says xbox": [
    0,
    "",
@@ -38053,6 +38238,31 @@
    "",
    1793176289.5948246
   ],
+  "q:scrolls": [
+   0,
+   "",
+   1793293358.5049305
+  ],
+  "q:scrolls 6": [
+   0,
+   "",
+   1793293358.028771
+  ],
+  "q:scrolls 6 sentinel": [
+   0,
+   "",
+   1793293357.5684423
+  ],
+  "q:scrolls 6 sentinel' next": [
+   0,
+   "",
+   1793293337.2242227
+  ],
+  "q:scrolls 6 sentinel' next month": [
+   0,
+   "",
+   1793293336.7606423
+  ],
   "q:sealbreakers": [
    4244460,
    "Sealbreakers",
@@ -38097,6 +38307,11 @@
    3766220,
    "Send In The Clown",
    1791929874.2648864
+  ],
+  "q:sentinel": [
+   0,
+   "",
+   1793293359.5416253
   ],
   "q:september": [
    0,
@@ -38868,6 +39083,26 @@
    "",
    1793246579.2578266
   ],
+  "q:theft auto artist": [
+   0,
+   "",
+   1793293452.454551
+  ],
+  "q:theft auto artist stephen": [
+   0,
+   "",
+   1793293451.9764419
+  ],
+  "q:theft auto artist stephen bliss": [
+   0,
+   "",
+   1793293451.4990866
+  ],
+  "q:theft auto artist stephen bliss explains": [
+   0,
+   "",
+   1793293450.9989433
+  ],
   "q:this company has been driven into a wall for years": [
    0,
    "",
@@ -39228,6 +39463,36 @@
    "",
    1793207092.4799328
   ],
+  "q:unvaulting": [
+   0,
+   "",
+   1793293636.5079718
+  ],
+  "q:unvaulting plans": [
+   0,
+   "",
+   1793293635.9399495
+  ],
+  "q:unvaulting plans won't": [
+   0,
+   "",
+   1793293635.4222348
+  ],
+  "q:unvaulting plans won't be": [
+   0,
+   "",
+   1793293634.8929272
+  ],
+  "q:unvaulting plans won't be complete": [
+   0,
+   "",
+   1793293634.2636974
+  ],
+  "q:unvaulting plans won't be complete until": [
+   0,
+   "",
+   1793293633.5751166
+  ],
   "q:upcoming": [
    0,
    "",
@@ -39522,6 +39787,26 @@
    0,
    "",
    1793201778.1645758
+  ],
+  "q:wants to be": [
+   0,
+   "",
+   1793293402.3691533
+  ],
+  "q:wants to be more": [
+   0,
+   "",
+   1793293401.84404
+  ],
+  "q:wants to be more profitable": [
+   0,
+   "",
+   1793293401.3366857
+  ],
+  "q:wants to be more profitable than": [
+   0,
+   "",
+   1793293400.8804128
   ],
   "q:war 4": [
    0,
@@ -40138,6 +40423,26 @@
    "",
    1793205153.0198164
   ],
+  "q:xbox wants": [
+   0,
+   "",
+   1793293400.3974802
+  ],
+  "q:xbox wants to be": [
+   0,
+   "",
+   1793293399.9034834
+  ],
+  "q:xbox wants to be more": [
+   0,
+   "",
+   1793293399.4455342
+  ],
+  "q:xbox wants to be more profitable": [
+   0,
+   "",
+   1793293398.9561598
+  ],
   "q:xbox working": [
    0,
    "",
@@ -40297,15 +40602,13 @@
    "gta 6",
    "iphone",
    "m2",
+   "microsoft",
    "mk 19",
    "nvidia",
    "reddit",
    "roboneers",
    "rockstar",
-   "toyota",
-   "toyota bz4x",
-   "toyota bz4x touring",
-   "авто",
+   "windows 11",
    "авіація",
    "безпілотники",
    "блоги",
@@ -40324,7 +40627,6 @@
    "новини",
    "нрк",
    "оборонка",
-   "огляди",
    "ракети",
    "реклама",
    "робототехніка",
@@ -40333,44 +40635,11 @@
    "софт",
    "су-34",
    "сша",
-   "тест-драйв",
    "штучний інтелект",
    "ігри"
   ]
  },
  "titles": [
-  [
-   1793120502.8744512,
-   "Everything Under the Sun"
-  ],
-  [
-   1793120531.0983045,
-   "Shadows In The Night"
-  ],
-  [
-   1793120551.3089206,
-   "KISS Announces New 'End Of The Road' Documentary Focusing On Final Tour"
-  ],
-  [
-   1793120570.32327,
-   "Vote for the scariest game of all time: Round 1"
-  ],
-  [
-   1793120690.9129872,
-   "South Korean Politician Urges President to Play Modern Warfare 4 to Understand 'Devastation' of Potential Invasion"
-  ],
-  [
-   1793120710.8246646,
-   "'The Voice' Competitors Battle It Out to Evanescence Classic"
-  ],
-  [
-   1793120729.2789347,
-   "‘Neil Peart: No One’s Disciple’ Documentary Released In Full For Free"
-  ],
-  [
-   1793120755.1609755,
-   "VITURE and S-GAME Launch Phantom Beast XR Glasses"
-  ],
   [
    1793122287.3139803,
    "Meta AI Boom Fuels Goldman Windfall"
@@ -42330,41 +42599,61 @@
   [
    1793291919.3228939,
    "Fire Emblem: Fortune’s Weave Actor on Dietrich and Fabio: ‘His First Real Love’"
+  ],
+  [
+   1793293309.8351693,
+   "The Hellraiser Franchise Is Getting Three New Tabletop Adaptations for Halloween 2027"
+  ],
+  [
+   1793293329.838162,
+   "It's Amnesia vs Amnesia in the 'scariest game' semifinals—vote now!"
+  ],
+  [
+   1793293355.5991201,
+   "Bethesda Could Reveal ‘Elder Scrolls 6: Sentinel’ Next Month, It’s Claimed"
+  ],
+  [
+   1793293396.9558873,
+   "Avenged Sevenfold’s Zacky Vengeance Says He Fully Embraces AI Following Backlash For AI-Generated Artwork For The Band’s New Misfits Cover"
+  ],
+  [
+   1793293447.4850192,
+   "Xbox Wants To Be More Profitable Than PlayStation And Nintendo By 2030"
+  ],
+  [
+   1793293484.7487597,
+   "Grand Theft Auto Artist Stephen Bliss Explains How He Defined the Series' Iconic Visual Style"
+  ],
+  [
+   1793293502.0844333,
+   "blink-182, Korn, Pierce The Veil and Bad Omens lead Welcome To Rockville’s massive 2027 line-up"
+  ],
+  [
+   1793293504.6078243,
+   "Windows 11 отримала оновлення з переробленим контекстним меню"
+  ],
+  [
+   1793293533.6176345,
+   "Welcome to Rockville 2027 Lineup Revealed - Over 150 Acts Booked!"
+  ],
+  [
+   1793293565.6135378,
+   "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else"
+  ],
+  [
+   1793293595.8902683,
+   "Bryan Adams Drops Another Trump Diss Track And This One Mentions The Epstein Files"
+  ],
+  [
+   1793293629.568399,
+   "Deadpool & Wolverine's Final Cost Confirmed By Disney (And It's Higher Than Expected)"
+  ],
+  [
+   1793293664.2544024,
+   "Destiny 2’s Unvaulting Plans Won’t Be Complete Until Early 2028"
   ]
  ],
  "titles_uk": [
-  [
-   1793120502.874452,
-   "Гурт NICKELBACK випустив одинадцятий студійний альбом Everything Under the Sun"
-  ],
-  [
-   1793120531.0983055,
-   "Гурт RATTLESNAKES випустив дебютний альбом Shadows In The Night"
-  ],
-  [
-   1793120551.3089218,
-   "KISS анонсували документальний фільм End Of The Road про фінальний тур"
-  ],
-  [
-   1793120570.3232715,
-   "PC Gamer запускає голосування за найстрашнішу гру всіх часів"
-  ],
-  [
-   1793120690.912988,
-   "Парламентар закликав президента Південної Кореї зіграти в Call of Duty: Modern Warfare 4"
-  ],
-  [
-   1793120710.8246655,
-   "Учасниці The Voice виконали класичний трек Bring Me to Life гурту Evanescence"
-  ],
-  [
-   1793120729.278936,
-   "Документальний фільм про Neil Peart виклали у вільний доступ"
-  ],
-  [
-   1793120755.160976,
-   "VITURE та S-GAME випустили XR-окуляри Phantom Beast"
-  ],
   [
    1793122287.3139815,
    "Бум угод із Meta AI приносить Goldman Sachs рекордний прибуток"
@@ -44324,6 +44613,58 @@
   [
    1793291919.322895,
    "Актор Fire Emblem: Fortune’s Weave розповів про стосунки Dietrich та Fabio"
+  ],
+  [
+   1793293309.8351703,
+   "Франшиза Hellraiser отримає три нові настільні ігри до Гелловіну 2027 року"
+  ],
+  [
+   1793293329.8381631,
+   "У півфіналі турніру найстрашніших ігор зійдуться дві частини Amnesia"
+  ],
+  [
+   1793293355.5991209,
+   "Bethesda може анонсувати Elder Scrolls 6: Sentinel наступного місяця"
+  ],
+  [
+   1793293396.9558883,
+   "Гітарист Avenged Sevenfold Закі Вендженс підтримав використання ШІ"
+  ],
+  [
+   1793293447.4850202,
+   "Xbox прагне перевершити PlayStation і Nintendo за прибутковістю до 2030 року"
+  ],
+  [
+   1793293484.748761,
+   "Художник GTA Стівен Блісс розповів про створення культового візуального стилю серії"
+  ],
+  [
+   1793293502.0844345,
+   "blink-182 стали першим хедлайнером Graspop Metal Meeting 2027"
+  ],
+  [
+   1793293504.6078265,
+   "Windows 11 отримала оновлення з переробленим контекстним меню"
+  ],
+  [
+   1793293533.6176355,
+   "Анонсували лайнап фестивалю Welcome 2027 із понад 150 гуртами"
+  ],
+  [
+   1793293565.6135387,
+   "Денніс Даяк заявив, що AAA-видавці зловживають раннім доступом"
+  ],
+  [
+   1793293595.8902693,
+   "Bryan Adams випустив другу пісню-дисс на Donald Trump"
+  ],
+  [
+   1793293629.5684,
+   "Disney розкрила фінальний бюджет фільму Deadpool & Wolverine"
+  ],
+  [
+   1793293664.254403,
+   "Повернення видаленого контенту в Destiny 2 затягнеться до початку 2028 року"
   ]
  ],
  "ukrainian": {
