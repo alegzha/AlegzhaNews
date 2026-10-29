@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1793262693.1416006
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-28",
  "freebies": {
   "last_check": 1793259203.0970864,
@@ -22,11 +15,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-29 08:41 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-10-29 09:03 UTC",
+  "gemini_error": "Gemini повернув відповідь не того формату",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 6
   },
   "used": [
    "DeepL",
@@ -34,123 +27,6 @@
   ]
  },
  "post_log": [
-  [
-   1792573279.7382615,
-   1600,
-   "💾",
-   "hibi — відкрита альтернатива для Obsidian",
-   "Product Hunt",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.producthunt.com/products/hibi",
-    "orig": "hibi"
-   }
-  ],
-  [
-   1792573282.370632,
-   1601,
-   "🎮",
-   "GTA 6 ще не вийшла, а вже заробила більше, ніж багато ААА-ігор за все життя",
-   "ITC.ua",
-   {
-    "also": [
-     [
-      "GamesIndustry.biz",
-      "https://www.gamesindustry.biz/games-like-call-of-duty-and-ea-sports-fc-most-at-risk-of-losing-players-during-gta-6-launch-according-to-new-data"
-     ],
-     [
-      "Mezha",
-      "https://mezha.ua/news/gta-6-more-than-600-mil-revenue-316392/"
-     ],
-     [
-      "GameSpot",
-      "https://www.gamespot.com/articles/new-ps5-update-is-out-now-and-sony-may-be-tightening-security-before-gta-6/"
-     ]
-    ],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/gta-6-shhe-ne-vyjshla-a-vzhe-zarobyla-bilshe-nizh-bagato-aaa-igor-za-vse-zhyttya/",
-    "orig": "GTA 6 ще не вийшла, а вже заробила більше, ніж багато ААА-ігор за все життя"
-   }
-  ],
-  [
-   1792573285.5722797,
-   1602,
-   "🤖",
-   "Claude створив білкові зв'язувальні молекули проти отрути скорпіонів",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/claude-science-tackles-deadly-scorpion-stings-by-designing-protein-binders-from-scratch/",
-    "orig": "Claude Science tackles deadly scorpion stings by designing protein binders from scratch"
-   }
-  ],
-  [
-   1792573287.433144,
-   1603,
-   "🎬",
-   "\"Велике розчарування\": CEO Hugging Face заявив, що Netflix викривив факти в документалці про атаку ШІ",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/hugging-face-ceo-slams-netflix-s-ai-documentary-316372/",
-    "orig": "\"Велике розчарування\": CEO Hugging Face заявив, що Netflix викривив факти в документалці про атаку ШІ"
-   }
-  ],
-  [
-   1792573292.1307216,
-   1604,
-   "🤘",
-   "Гурт IGNEA випустив новий атмосферний альбом Monumental",
-   "Distorted Sound",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://distortedsoundmag.com/album-review-monumental-ignea/",
-    "orig": "ALBUM REVIEW: Monumental – Ignea"
-   }
-  ],
-  [
-   1792573296.6491642,
-   1605,
-   "🎮",
-   "Нова консоль Xbox Project Helix може коштувати до $1,800",
-   "Eurogamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.eurogamer.net/microsoft-next-gen-xbox-helix-date-price",
-    "orig": "Xbox's next-gen console to reportedly cost up to $1,800, with a Helix handheld coming in 2027 and a full release in holiday 2028"
-   }
-  ],
-  [
-   1792573303.2479112,
-   1606,
-   "🎬",
-   "Фінчер скоротив сценарій Тарантіно: деталі сиквелу про Кліффа Бута",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/fincher-skorotyv-stsenarij-tarantino-detali-sykvelu-pro-kliffa-buta/",
-    "orig": "Фінчер скоротив сценарій Тарантіно: деталі сиквелу про Кліффа Бута"
-   }
-  ],
-  [
-   1792573307.498704,
-   1607,
-   "💾",
-   "Вийшов реліз Agentic Awesome Skills V19.13.0 з бібліотекою з понад 2737 інструкцій",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/sickn33/agentic-awesome-skills",
-    "orig": "sickn33/agentic-awesome-skills"
-   }
-  ],
   [
    1792575325.2956655,
    1608,
@@ -22718,7 +22594,6 @@
    "Distorted Sound",
    {
     "also": [],
-    "caption": "🤘 <b>Mean Ghouls випустили новий кліп на пісню He’s a Serial Killer</b>\n\nХоррор-панк-тріо Mean Ghouls презентувало новий сингл і кліп He’s a Serial Killer. Трек увійде до дебютного альбому гурту …and the Horror Goes On, реліз якого запланований на 30 жовтня.\n\n🔗 <a href=\"https://distortedsoundmag.com/mean-ghouls-release-new-music-video-for-hes-a-serial-killer/\">Distorted Sound</a>\n\n#музика",
     "kind": "photo",
     "link": "https://distortedsoundmag.com/mean-ghouls-release-new-music-video-for-hes-a-serial-killer/",
     "orig": "Mean Ghouls release new music video for ‘He’s a Serial Killer’"
@@ -22732,7 +22607,6 @@
    "Pitchfork",
    {
     "also": [],
-    "caption": "🤘 <b>Фронтмен My Morning Jacket Джим Джеймс анонсував мемуари One Wonders</b>\n\nФронтмен My Morning Jacket Джим Джеймс анонсував свою першу книгу мемуарів One Wonders, яка вийде 13 квітня у видавництві Simon &amp; Schuster. У виданні музикант розповість про своє дитинство у Луїсвіллі, труднощі професійної кар&#x27;єри, а також про боротьбу з алкоголізмом і депресією.\n\n🔗 <a href=\"https://pitchfork.com/story/jim-james-announces-memoir-one-wonders/\">Pitchfork</a>\n\n#музика",
     "kind": "photo",
     "link": "https://pitchfork.com/story/jim-james-announces-memoir-one-wonders/",
     "orig": "Jim James Announces Memoir One Wonders"
@@ -22746,7 +22620,6 @@
    "Loudwire",
    {
     "also": [],
-    "caption": "🤘 <b>Кенні Гікі з Type O Negative назвав свої улюблені альбоми юності</b>\n\nГітарист Кенні Гікі з Silvertomb і Type O Negative згадав музику, яка формувала його смак у підлітковому віці з 1979 по 1985 рік. Музикант також розповів про роботу над новим альбомом гурту The Interpretations of Nightmares.\n\n🔗 <a href=\"https://loudwire.com/kenny-hickey-type-o-negative-silvertomb-favorite-albums-teenager/\">Loudwire</a>\n\n#музика",
     "kind": "photo",
     "link": "https://loudwire.com/kenny-hickey-type-o-negative-silvertomb-favorite-albums-teenager/",
     "orig": "Kenny Hickey's 5 Favorite Albums When He Was a Teenager"
@@ -22760,7 +22633,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>CNN, Politico та MS NOW оновили позов проти заборони Дональда Трампа на доступ до Air Force One</b>\n\nCNN, Politico та MS NOW доповнили позов проти Дональда Трампа через обмеження доступу їхніх журналістів до Air Force One та певних зон Білого дому. Раніше суд заборонив анулювати перепустки репортерів, проте видання все ще не допускають до пулових завдань та поїздок із президентом.\n\n🔗 <a href=\"https://deadline.com/2026/10/trump-ban-cnn-ms-now-politico-air-force-one-1237207471/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/trump-ban-cnn-ms-now-politico-air-force-one-1237207471/",
     "orig": "CNN, MS NOW And Politico Amend Lawsuit To Challenge Trump Ban On Access To Air Force One And Certain White House Areas"
@@ -22774,7 +22646,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Queens Of The Stone Age випустили лірик-відео на трек Run Away From The Mob</b>\n\nQueens Of The Stone Age презентували лірик-відео на композицію Run Away From The Mob. Цей трек завершує дев&#x27;ятий студійний альбом Perfecth, реліз якого запланований на п&#x27;ятницю, 30 жовтня. За словами вокаліста Джоша Гоммі, пісня є останнім листом батька до старшого сина з настановами на випадок, якщо все піде шкереберть.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/28/news/queens-of-the-stone-age-debut-run-away-from-the-mob-lyric-video/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/28/news/queens-of-the-stone-age-debut-run-away-from-the-mob-lyric-video/",
     "orig": "Queens Of The Stone Age Debut “Run Away From The Mob” Lyric Video"
@@ -22788,7 +22659,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>Джон Карпентер отримає нагороду Filmmaker of the Year від ACE Eddie Awards</b>\n\nРежисер Джон Карпентер отримає почесну нагороду Golden Eddie Filmmaker of the Year на 77-й церемонії American Cinema Editors Eddie Awards. Премія відзначить його внесок у кінематограф, а також роботу монтажерів Бонні Келер і Крістофера Нельсона, які отримають нагороду за кар&#x27;єрні досягнення. Церемонія відбудеться 6 лютого 2027 року, а ведучим знову стане Паттон Осволт.\n\n🔗 <a href=\"https://www.indiewire.com/awards/results/john-carpenter-golden-eddie-ace-1235224147/\">IndieWire</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.indiewire.com/awards/results/john-carpenter-golden-eddie-ace-1235224147/",
     "orig": "ACE Eddie Awards Will Honor John Carpenter as Filmmaker of the Year"
@@ -22802,7 +22672,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🎮 <b>Наступниця <a href=\"https://store.steampowered.com/app/1328670/\">Mass Effect</a>: розробники <a href=\"https://store.steampowered.com/app/3230960/\">EXODUS</a> показали 40 хвилин геймплею</b>\n\nArchetype Entertainment, заснована вихідцями з BioWare, показала 40 хвилин ігрового процесу EXODUS, яка дуже нагадує Mass Effect. Гра вийде навесні наступного року.\n\n🔗 <a href=\"https://mezha.ua/news/exodus-gameplay-316650/\">Mezha</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://mezha.ua/news/exodus-gameplay-316650/",
     "orig": "Наступниця Mass Effect: розробники EXODUS показали 40 хвилин геймплею"
@@ -23588,6 +23457,104 @@
     "link": "https://github.com/ruvnet/RuView",
     "orig": "ruvnet/RuView"
    }
+  ],
+  [
+   1793264585.6904743,
+   3368,
+   "💾",
+   "AssemblyAI",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>AssemblyAI</b>\n\nСтворено нову технологію text-to-speech для голосових агентів\n\n🔗 <a href=\"https://www.producthunt.com/products/assemblyai\">Product Hunt</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/assemblyai",
+    "orig": "AssemblyAI"
+   }
+  ],
+  [
+   1793264587.7050679,
+   3369,
+   "🎬",
+   "\"Бунтар Один\" франшизи: перші відгуки на \"Світанок перед Жнивами\"",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎬 <b>&quot;Бунтар Один&quot; франшизи: перші відгуки на &quot;Світанок перед Жнивами&quot;</b>\n\nУ світовий прокат 20 листопада виходить шостий фільм культової франшизи “Голодні ігри” з підзаголовком “Світанок еред Жнивами” (Sunrise on the Reaping). Стрічка є другим приквелом серії після виходу “Балади про співочих птахів і змій” 2023 року.\n\n🔗 <a href=\"https://itc.ua/ua/novini/buntar-odyn-franshyzy-pershi-vidguky-na-svitanok-pered-zhnyvamy/\">ITC.ua</a>\n\n#кіно_і_серіали",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/buntar-odyn-franshyzy-pershi-vidguky-na-svitanok-pered-zhnyvamy/",
+    "orig": "\"Бунтар Один\" франшизи: перші відгуки на \"Світанок перед Жнивами\""
+   }
+  ],
+  [
+   1793264590.7462673,
+   3370,
+   "🎬",
+   "Піппа Гарріс та Елісон Ломакс увійшли до складу ради директорів NFTS",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Піппа Гарріс та Елісон Ломакс увійшли до складу ради директорів NFTS</b>\n\nБританська продюсерка Піппа Гарріс та керівниця YouTube UK Елісон Ломакс приєдналися до ради керуючих Національної школи кіно і телебачення Британії. Вони долучилися до складу на тлі підготовки закладу до розширення та відкриття нової будівлі у січні 2027 року.\n\n🔗 <a href=\"https://deadline.com/2026/10/nfts-board-pippa-harris-alison-lomax-1237207185/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/nfts-board-pippa-harris-alison-lomax-1237207185/",
+    "orig": "Pippa Harris & YouTube UK Boss Alison Lomax Join Board Of National Film & Television School"
+   }
+  ],
+  [
+   1793264596.5831885,
+   3371,
+   "🎮",
+   "П'ять головних правил зовнішньої розробки ігор",
+   "GamesIndustry.biz",
+   {
+    "also": [],
+    "caption": "🎮 <b>П&#x27;ять головних правил зовнішньої розробки ігор</b>\n\nКомпанія Code Wizards поділилася головними правилами успішної роботи із зовнішніми партнерами в ігровій індустрії. Досвідчений розробник наголошує на важливості взаємної довіри, прозорості процесів, міцної репутації та вміння визнавати власні помилки.\n\n🔗 <a href=\"https://www.gamesindustry.biz/the-five-golden-rules-of-external-development\">GamesIndustry.biz</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamesindustry.biz/the-five-golden-rules-of-external-development",
+    "orig": "The five golden rules of external development"
+   }
+  ],
+  [
+   1793264599.4854867,
+   3372,
+   "🎮",
+   "Навіть з EcoFlow — на зимівлю під Львів: шість історій розробників з Київщини про підготовку до блекаутів",
+   "DOU Gamedev",
+   {
+    "also": [],
+    "caption": "🎮 <b>Навіть з EcoFlow — на зимівлю під Львів: шість історій розробників з Київщини про підготовку до блекаутів</b>\n\nУ когось зарядних станцій вистачає на чотири години роботи, а хтось підготував запас живлення на кілька діб. Проте навіть якщо світло є, можна залишитися без інтернету. Розпитали, які робочі сетапи використовують фахівці, як вони залишаються на зв’язку та що допомагає їм працювати під час тривалих відключень.\n\n🔗 <a href=\"https://gamedev.dou.ua/articles/gamedev-blackout-prep/\">DOU Gamedev</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://gamedev.dou.ua/articles/gamedev-blackout-prep/",
+    "orig": "Навіть з EcoFlow — на зимівлю під Львів: шість історій розробників з Київщини про підготовку до блекаутів"
+   }
+  ],
+  [
+   1793264610.671397,
+   3373,
+   "🎮",
+   "Ідеї для повторного проходження Fire Emblem: Three Houses",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Ідеї для повторного проходження Fire Emblem: Three Houses</b>\n\n🔗 <a href=\"https://www.polygon.com/fire-emblem-three-houses-replay-ideas/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/fire-emblem-three-houses-replay-ideas/",
+    "orig": "7 Fire Emblem: Three Houses Replay Ideas to Make Garreg Mach Feel Brand New"
+   }
+  ],
+  [
+   1793264616.3325362,
+   3374,
+   "💾",
+   "Вийшла нова версія книги The Craft of Selfteaching на GitHub",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>Вийшла нова версія книги The Craft of Selfteaching на GitHub</b>\n\nОпубліковано книгу The Craft of Selfteaching на GitHub. Для найкращого досвіду читання автор рекомендує спершу встановити Jupyterlab за допомогою додатка в репозиторії.\n\n🔗 <a href=\"https://github.com/xiaolai/the-craft-of-selfteaching\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/xiaolai/the-craft-of-selfteaching",
+    "orig": "xiaolai/the-craft-of-selfteaching"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23642,8 +23609,7 @@
    1793210725.2492478
   ],
   "games|DOU Gamedev|https://gamedev.dou.ua/feed/": [
-   1793093481.3084502,
-   1793178114.5230744
+   1793264599.4858894
   ],
   "games|Digital Foundry|https://www.digitalfoundry.net/feed": [
    1793214149.0742316
@@ -23667,11 +23633,11 @@
    1793214102.1710265
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
-   1793176599.3596466,
    1793179919.6853378,
    1793183587.0168798,
    1793196143.320539,
-   1793197973.048487
+   1793197973.048487,
+   1793264596.5835838
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
    1793160093.1209977,
@@ -23745,7 +23711,8 @@
    1793192534.1519537,
    1793203519.2597268,
    1793207089.960463,
-   1793262980.624154
+   1793262980.624154,
+   1793264610.671868
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1793136694.5540981,
@@ -23781,7 +23748,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1793176317.5226212,
    1793179907.7400842,
    1793183590.0226896,
    1793185327.964663,
@@ -23795,15 +23761,15 @@
    1793242877.552172,
    1793251889.3936846,
    1793253676.5013542,
-   1793261126.9316099
+   1793261126.9316099,
+   1793264590.746688
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
-   1793122312.6100073,
-   1793178098.0733602,
    1793181801.8746202,
    1793194317.5414414,
    1793199715.4574835,
-   1793205228.2483215
+   1793205228.2483215,
+   1793264587.7054763
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
    1793196215.4263656,
@@ -23968,7 +23934,8 @@
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
    1793259189.33132,
    1793261291.4766765,
-   1793263263.4965568
+   1793263263.4965568,
+   1793264616.3329563
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1793114800.417317,
@@ -23986,11 +23953,10 @@
    1793262984.919095
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
-   1793176591.6444972,
-   1793178094.0153651,
    1793179895.5265257,
    1793259092.121225,
-   1793260894.4412467
+   1793260894.4412467,
+   1793264585.6908908
   ]
  },
  "seen": {
@@ -24782,6 +24748,7 @@
   "30316015220c890d": 1792429349.1613474,
   "3038e450a09e3776": 1792371702.243978,
   "304e6970df0027b6": 1793020622.2278008,
+  "305e2f68afad494f": 1793264610.6718228,
   "30708e5e125d291c": 1792685391.502244,
   "308056a6fe886829": 1792998309.142991,
   "30830af5458b317f": 1792596703.6485708,
@@ -25044,6 +25011,7 @@
   "3fd8cdb7c5249b87": 1792422088.5326104,
   "3fdb5ae09602723e": 1793109727.760625,
   "3ff0e3614404436d": 1792533711.5494316,
+  "3ff4dcecaa5dd2df": 1793264599.4858465,
   "3fff5531568c1906": 1792684989.5999973,
   "400367c4acf485e9": 1793032477.666732,
   "401979eefa49da8a": 1793023276.159025,
@@ -25960,6 +25928,7 @@
   "7941b82cb431e01e": 1793018096.4459476,
   "79656a855c09e260": 1792855915.7177994,
   "797530a64e789bde": 1792686886.756467,
+  "798e0bb92c267722": 1793264587.7054312,
   "7996569815c451c5": 1792769813.778646,
   "79b9c3db9b24cfda": 1792938690.243639,
   "79d2afe0d845e18f": 1793115182.241569,
@@ -26499,6 +26468,7 @@
   "9b9b1e52cdfdbe87": 1793043126.4563136,
   "9b9edd7c62351c0d": 1792295985.1784513,
   "9bc4d77288e9c779": 1792591673.9519217,
+  "9bf1af7a03ffc263": 1793264596.5835426,
   "9bfabaffab4b0656": 1792177262.6651225,
   "9c03094cdda1ed3e": 1793035857.1705277,
   "9c1bbdcdebca21e2": 1792924286.2848496,
@@ -26969,6 +26939,7 @@
   "bbaea4849e7d49ae": 1792614699.7746358,
   "bbb81096076943dc": 1793210481.1459775,
   "bbcb770e33140286": 1793035857.1705277,
+  "bc08968e82a654b5": 1793264585.6908438,
   "bc18b9045ca29574": 1792589568.7558157,
   "bc1e39a9dc2fd3fb": 1792771255.1467223,
   "bc1ea23d1d7b7068": 1792414947.4947658,
@@ -27226,6 +27197,7 @@
   "cc4196ef6ac6a22f": 1793125913.9408326,
   "ccaf1f24845da743": 1792695727.067485,
   "ccb36f2accabecef": 1792953079.0642214,
+  "ccbd80583e093a71": 1793264616.3328989,
   "ccbffb8c155c722d": 1793201773.7736428,
   "ccc13f0290e588b4": 1792214796.311989,
   "ccce27a6ec55e4c3": 1792774926.2213082,
@@ -27256,6 +27228,7 @@
   "cf4ca9c083e76bad": 1793205248.75993,
   "cf74cf134f60e6bb": 1792648892.7651772,
   "cf82ba1fd8519adf": 1792627366.9257436,
+  "cf9b3efb246f7be1": 1793264590.7466466,
   "cfacfd84268e1f2f": 1792508675.6725671,
   "cfdf3b8c520adf75": 1792791012.8896737,
   "cfe037f26f6bc818": 1792432857.498807,
@@ -29203,18 +29176,18 @@
    "AIN.ua": 4,
    "Blabbermouth": 49,
    "Bloomberg": 33,
-   "DOU Gamedev": 3,
-   "Deadline": 49,
+   "DOU Gamedev": 4,
+   "Deadline": 50,
    "Decibel": 8,
    "Digital Foundry": 3,
    "Distorted Sound": 17,
    "Eurogamer": 18,
    "GameSpot": 21,
-   "GamesIndustry.biz": 13,
-   "GitHub Trending": 16,
+   "GamesIndustry.biz": 14,
+   "GitHub Trending": 17,
    "Hugging Face": 2,
    "IGN": 42,
-   "ITC.ua": 41,
+   "ITC.ua": 42,
    "IndieWire": 15,
    "Insider Gaming": 56,
    "Kerrang!": 23,
@@ -29228,8 +29201,8 @@
    "PC Gamer": 53,
    "Pitchfork": 6,
    "PlayUA": 18,
-   "Polygon": 19,
-   "Product Hunt": 15,
+   "Polygon": 20,
+   "Product Hunt": 16,
    "Revolver": 7,
    "Rock Paper Shotgun": 17,
    "SteamDB": 1,
@@ -29240,9 +29213,9 @@
    "Variety": 24
   },
   "translators": {
-   "DeepL": 17,
+   "DeepL": 18,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 806
+   "gemini-flash-lite-latest": 812
   },
   "week": "2026-W44"
  },
@@ -30311,6 +30284,31 @@
    0,
    "",
    1793109789.2245264
+  ],
+  "q:7": [
+   0,
+   "",
+   1793264603.4235113
+  ],
+  "q:7 fire": [
+   0,
+   "",
+   1793264602.9341397
+  ],
+  "q:7 fire emblem": [
+   0,
+   "",
+   1793264602.4117253
+  ],
+  "q:7 fire emblem three": [
+   0,
+   "",
+   1793264601.9403117
+  ],
+  "q:7 fire emblem three houses": [
+   0,
+   "",
+   1793264601.4631782
   ],
   "q:70": [
    0,
@@ -32532,6 +32530,11 @@
    "",
    1793198050.8954663
   ],
+  "q:ecoflow": [
+   0,
+   "",
+   1793264598.6628954
+  ],
   "q:ecstatica": [
    4834840,
    "Ecstatica",
@@ -32556,6 +32559,16 @@
    1055090,
    "Embark",
    1792676055.464709
+  ],
+  "q:emblem three houses replay": [
+   0,
+   "",
+   1793264606.7547722
+  ],
+  "q:emblem three houses replay ideas": [
+   0,
+   "",
+   1793264606.2800095
   ],
   "q:empty": [
    0,
@@ -32926,6 +32939,31 @@
    0,
    "",
    1793183601.0296578
+  ],
+  "q:fire": [
+   0,
+   "",
+   1793264605.8096356
+  ],
+  "q:fire emblem": [
+   0,
+   "",
+   1793264605.3195639
+  ],
+  "q:fire emblem three": [
+   0,
+   "",
+   1793264604.8436606
+  ],
+  "q:fire emblem three houses": [
+   0,
+   "",
+   1793264604.3695152
+  ],
+  "q:fire emblem three houses replay": [
+   0,
+   "",
+   1793264603.8984952
   ],
   "q:first cast details": [
    0,
@@ -39609,22 +39647,6 @@
  },
  "titles": [
   [
-   1793091772.4078355,
-   "Revix AI"
-  ],
-  [
-   1793091774.29352,
-   "Anthropic подала документи для IPO: оцінка компанії може сягнути $2 трлн"
-  ],
-  [
-   1793091777.3085835,
-   "Stephen & Simon Cornwell Take On Chairmen Roles At ‘Night Manager’ Producer The Ink Factory As Michele Wolkoff Upped To President"
-  ],
-  [
-   1793091780.9647017,
-   "multica-ai/andrej-karpathy-skills"
-  ],
-  [
    1793092118.6849298,
    "Xbox staff among up to 60,000 Microsoft employees offered voluntary exit"
   ],
@@ -41603,25 +41625,37 @@
   [
    1793263263.4965167,
    "ruvnet/RuView"
+  ],
+  [
+   1793264585.690846,
+   "AssemblyAI"
+  ],
+  [
+   1793264587.7054334,
+   "\"Бунтар Один\" франшизи: перші відгуки на \"Світанок перед Жнивами\""
+  ],
+  [
+   1793264590.746648,
+   "Pippa Harris & YouTube UK Boss Alison Lomax Join Board Of National Film & Television School"
+  ],
+  [
+   1793264596.5835445,
+   "The five golden rules of external development"
+  ],
+  [
+   1793264599.4858487,
+   "Навіть з EcoFlow — на зимівлю під Львів: шість історій розробників з Київщини про підготовку до блекаутів"
+  ],
+  [
+   1793264610.6718247,
+   "7 Fire Emblem: Three Houses Replay Ideas to Make Garreg Mach Feel Brand New"
+  ],
+  [
+   1793264616.3329005,
+   "xiaolai/the-craft-of-selfteaching"
   ]
  ],
  "titles_uk": [
-  [
-   1793091772.407837,
-   "Revix AI"
-  ],
-  [
-   1793091774.2935212,
-   "Anthropic подала документи для IPO: оцінка компанії може сягнути $2 трлн"
-  ],
-  [
-   1793091777.3085842,
-   "Стівен і Саймон Корнвелл стали головами студії The Ink Factory"
-  ],
-  [
-   1793091780.9647026,
-   "Анонсовано платформу Multica для керування ШІ-агентами"
-  ],
   [
    1793092118.6849306,
    "Співробітникам Xbox та інших підрозділів Microsoft запропонували добровільне звільнення"
@@ -43601,6 +43635,34 @@
   [
    1793263263.4965172,
    "ruvnet/RuView"
+  ],
+  [
+   1793264585.690847,
+   "AssemblyAI"
+  ],
+  [
+   1793264587.705434,
+   "\"Бунтар Один\" франшизи: перші відгуки на \"Світанок перед Жнивами\""
+  ],
+  [
+   1793264590.7466488,
+   "Піппа Гарріс та Елісон Ломакс увійшли до складу ради директорів NFTS"
+  ],
+  [
+   1793264596.583545,
+   "П'ять головних правил зовнішньої розробки ігор"
+  ],
+  [
+   1793264599.4858494,
+   "Навіть з EcoFlow — на зимівлю під Львів: шість історій розробників з Київщини про підготовку до блекаутів"
+  ],
+  [
+   1793264610.6718254,
+   "Ідеї для повторного проходження Fire Emblem: Three Houses"
+  ],
+  [
+   1793264616.332901,
+   "Вийшла нова версія книги The Craft of Selfteaching на GitHub"
   ]
  ],
  "ukrainian": {
