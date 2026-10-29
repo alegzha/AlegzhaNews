@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1793309471.0975208
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1793309469.6548784
+  }
+ },
  "daily_digest_date": "2026-10-29",
  "freebies": {
   "last_check": 1793304129.232674,
@@ -17,92 +30,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-29 21:03 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-10-29 21:31 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 5
+   "gemini-flash-lite-latest": 7
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792618283.6502087,
-   1778,
-   "🤘",
-   "Ben Folds Five анонсували перший тур за 13 років",
-   "Pitchfork",
-   {
-    "also": [
-     [
-      "Stereogum",
-      "https://stereogum.com/2515249/ben-folds-five-announce-reunion-tour/news/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://pitchfork.com/story/ben-folds-five-announce-first-tour-since-2013/",
-    "orig": "Ben Folds Five Announce First Tour Since 2013"
-   }
-  ],
-  [
-   1792618288.195614,
-   1779,
-   "🎬",
-   "Кіновиробництво в Каліфорнії продовжує падати попри мільйонні субсидії",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/film/news/california-film-credit-filmla-report-q3-1236918175/",
-    "orig": "California Tried to Jumpstart the Film Economy. Production Keeps Falling."
-   }
-  ],
-  [
-   1792618291.1219797,
-   1780,
-   "🤘",
-   "Downswing випустили новий студійний сет для Audiotree",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/10/21/news/downswings-new-in-studio-set-for-audiotree-released/",
-    "orig": "Downswing’s New In-Studio Set For Audiotree Released"
-   }
-  ],
-  [
-   1792618293.9459653,
-   1781,
-   "🎬",
-   "Джонатан Тісон про роль Джейсона Вурхіза у серіалі Crystal Lake",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/crystal-lake-jonathan-tison-jason-slasher-era-1237170020/",
-    "orig": "‘Crystal Lake’s Jonathan Tison On Bringing Jason Into His Slasher Era, How He Found Out The Secretive Role He Landed: “I Was Shocked”"
-   }
-  ],
-  [
-   1792618296.8735805,
-   1782,
-   "🤘",
-   "Conjurer анонсували американські концерти з Armed For Apocalypse",
-   "ThePRP",
-   {
-    "also": [
-     [
-      "Lambgoat",
-      "https://lambgoat.com/news/55478/conjurer-announce-us-headline-tour-dates-with-armed-for-apocalypse/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/10/21/news/conjurer-announce-u-s-headlining-shows-with-armed-for-apocalypse/",
-    "orig": "Conjurer Announce U.S. Headlining Shows With Armed For Apocalypse"
-   }
-  ],
   [
    1792618299.6849506,
    1783,
@@ -23079,7 +23017,6 @@
    "SteamDB",
    {
     "also": [],
-    "caption": "🎮 <b>У Steam безплатно роздають головоломку <a href=\"https://store.steampowered.com/app/785890/\">Hexologic</a></b>\n\n🔗 <a href=\"https://bsky.app/profile/steamdb.info/post/3myzrkdjwje2j\">SteamDB</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://bsky.app/profile/steamdb.info/post/3myzrkdjwje2j",
     "orig": "🆓 Hexologic is free to keep on Steam"
@@ -23093,7 +23030,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Microsoft планує залучити щонайменше $25 мільярдів через випуск облігацій</b>\n\nMicrosoft готується випустити інвестиційні облігації в США вперше за майже десять років, щоб залучити щонайменше $25 млрд. Це рішення підтверджує прогнози щодо подальшого зростання витрат компанії на розвиток ШІ.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-29/microsoft-turns-to-bond-market-as-ai-spending-grows-video\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-10-29/microsoft-turns-to-bond-market-as-ai-spending-grows-video",
     "orig": "Microsoft Turns to Bond Market as AI Spending Grows"
@@ -23107,7 +23043,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Winterfylleth перевидадуть своє демо 2007 року на 20-річчя</b>\n\nБританський гурт Winterfylleth анонсував розширене перевидання свого демо Rising Of The Winter Full Moon 2007 року, яке вийде 27 лютого 2027 року на лейблі Resonance. Окрім трьох оригінальних треків, реліз міститиме два раніше не видані інструментальні треки з тих самих сесій та нове оформлення.\n\n🔗 <a href=\"https://lambgoat.com/news/55597/winterfylleth-announce-20th-anniversary-reissue-of-2007-demo-rising-of-the-winter-full-moon/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55597/winterfylleth-announce-20th-anniversary-reissue-of-2007-demo-rising-of-the-winter-full-moon/",
     "orig": "Winterfylleth announce 20th anniversary reissue of 2007 demo, 'Rising Of The Winter Full Moon'"
@@ -23130,7 +23065,6 @@
       "https://www.theprp.com/2026/10/29/news/200-stab-wounds-tap-code-orange-etc-members-to-oversee-their-new-sweet-suicide-music-video/"
      ]
     ],
-    "caption": "🤘 <b>200 Stab Wounds випустили кліп на новий сингл Sweet Suicide</b>\n\nГурт 200 Stab Wounds презентував кліп на композицію Sweet Suicide з майбутнього альбому Lowest Form, реліз якого запланований на 19 лютого 2027 року на лейблі Metal Blade Records. Трек присвячений темам гніву, відчаю та боротьби з внутрішніми демонами.\n\n🔗 <a href=\"https://lambgoat.com/news/55598/200-stab-wounds-share-music-video-for-second-new-single-sweet-suicide-off-new-lp/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55598/200-stab-wounds-share-music-video-for-second-new-single-sweet-suicide-off-new-lp/",
     "orig": "200 Stab Wounds share music video for second new single, \"Sweet Suicide\", off new LP"
@@ -23144,7 +23078,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Кіт Морріс відвідав фестиваль Sound and Fury заради PeelingFlesh</b>\n\nФронтмен Circle Jerks Кіт Морріс розповів у подкасті Hardlore, що відвідав цьогорічний фестиваль Sound and Fury спеціально для того, щоб наживо побачити гурт PeelingFlesh. Музикант одразу підтвердив це під час розмови з ведучими.\n\n🔗 <a href=\"https://lambgoat.com/news/55599/kieth-morris-circle-jerksblack-flag-claims-he-attended-sound-and-fury-to-see-peeling-flesh/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55599/kieth-morris-circle-jerksblack-flag-claims-he-attended-sound-and-fury-to-see-peeling-flesh/",
     "orig": "Kieth Morris (Circle Jerks/Black Flag) claims he attended Sound and Fury to see Peeling Flesh"
@@ -23502,6 +23435,10 @@
      [
       "IGN",
       "https://www.ign.com/articles/pubg-is-getting-a-live-action-series-on-netflix-written-directed-by-and-starring-donald-glover"
+     ],
+     [
+      "Insider Gaming",
+      "https://insider-gaming.com/netflix-pubg-live-action-series-donald-glover/"
      ]
     ],
     "caption": "🎮 <b>Netflix готує серіалу за PUBG із Дональдом Гловером у головній ролі</b>\n\nKrafton та Netflix анонсували ігровий серіал за мотивами PUBG. Володар премії «Еммі» Дональд Гловер виконає головну роль, а також стане режисером, сценаристом і виконавчим продюсером проєкту разом зі своїм братом Стівеном Гловером.\n\n🔗 <a href=\"https://www.gamespot.com/articles/a-pubg-tv-show-is-coming-to-netflix-starring-donald-glover/\">GameSpot</a>\n\n#ігри",
@@ -23966,6 +23903,76 @@
     "link": "https://deadline.com/2026/10/widows-bay-kate-oflynn-joins-naughty-comedy-olivia-wilde-1237207906/",
     "orig": "‘Widow’s Bay’ Breakout Kate O’Flynn Joins Olivia Wilde Comedy ‘Naughty’ At Universal; Jamie Demetriou & Dexter Sol Ansell Also Set"
    }
+  ],
+  [
+   1793309477.578441,
+   3587,
+   "🎬",
+   "Документальний фільм «Musk» про Ілона Маска зіткнувся з цензурою в соцмережах",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Документальний фільм «Musk» про Ілона Маска зіткнувся з цензурою в соцмережах</b>\n\nСоцмережі блокували рекламу та трейлери документального фільму «Musk» від Алекса Гібні, помилково вважаючи стрічку політичною. Через низькі касові збори дистриб&#x27;ютор Bleecker Street переніс цифровий реліз на 6 листопада, після чого проєкт зірвав рекорд із передзамовлень на Apple.\n\n🔗 <a href=\"https://www.indiewire.com/news/breaking-news/bleecker-street-ceo-social-media-ad-suppression-musk-1235224208/\">IndieWire</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/news/breaking-news/bleecker-street-ceo-social-media-ad-suppression-musk-1235224208/",
+    "orig": "Bleecker Street CEO on Why the Social Media Suppression of ‘Musk’ Is About Much More Than Film"
+   }
+  ],
+  [
+   1793309480.158946,
+   3588,
+   "🤘",
+   "Лицарські бої в новому кліпі Imminence на трек Crestfallen",
+   "Metal Injection",
+   {
+    "also": [],
+    "caption": "🤘 <b>Лицарські бої в новому кліпі Imminence на трек Crestfallen</b>\n\nГурт випустив новий реліз під назвою Axis Mundi\n\n🔗 <a href=\"https://metalinjection.net/news/watch-knights-battle-for-victory-in-imminences-new-music-video-for-crestfallen\">Metal Injection</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://metalinjection.net/news/watch-knights-battle-for-victory-in-imminences-new-music-video-for-crestfallen",
+    "orig": "Watch: Knights Battle For Victory In Imminence's New Music Video for “Crestfallen”"
+   }
+  ],
+  [
+   1793309490.4660933,
+   3589,
+   "🎮",
+   "Phantom Blade Zero виходить із патчем першого дня для покращення трасування променів",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/4115450/\">Phantom Blade Zero</a> виходить із патчем першого дня для покращення трасування променів</b>\n\nЕкшн Phantom Blade Zero отримав релізний патч об&#x27;ємом 5 ГБ, який покращує продуктивність ray tracing та path tracing, а також виправляє кілька багів. Розробники також рекомендують гравцям із відеокартами NVIDIA використовувати версію драйвера 617.42 через нестабільність на новішій версії 621.01.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/phantom-blade-zero-kicks-off-its-launch-with-a-day-one-patch-that-offers-improvements-to-ray-tracing-and-some-bug-fixes-to-boot\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/phantom-blade-zero-kicks-off-its-launch-with-a-day-one-patch-that-offers-improvements-to-ray-tracing-and-some-bug-fixes-to-boot",
+    "orig": "Phantom Blade Zero kicks off its launch with a day one patch that offers improvements to ray tracing and some bug fixes to boot"
+   }
+  ],
+  [
+   1793309494.1205595,
+   3590,
+   "🤘",
+   "Гурт All Human випустив альбом Horror Porn, and the Eviscerating Climax",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Гурт All Human випустив альбом Horror Porn, and the Eviscerating Climax</b>\n\nГурт All Human випустив альбом Horror Porn, and the Eviscerating Climax після десятирічної перерви. Це важка та психологічно глибока пластинка про дитячі травми, дорослі страхи та усвідомлення власних темних сторін. Над проєктом працював Адам Руперт Фішер разом із музикантами з Trophy Scars і The Maykit.\n\n🔗 <a href=\"https://lambgoat.com/albums/3450/all-human-horror-porn-and-the-eviscerating-climax/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/albums/3450/all-human-horror-porn-and-the-eviscerating-climax/",
+    "orig": "REVIEW: All Human - Horror Porn, and the Eviscerating Climax"
+   }
+  ],
+  [
+   1793309498.4693334,
+   3591,
+   "🤘",
+   "God Complex оголосили про вихід вокаліста Гаррі Рула та гітариста Кајла Голта",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>God Complex оголосили про вихід вокаліста Гаррі Рула та гітариста Кајла Голта</b>\n\n🔗 <a href=\"https://lambgoat.com/news/55609/god-complex-reveal-that-vocalist-harry-rule-and-guitarist-kyle-holt-have-exited-the-band/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55609/god-complex-reveal-that-vocalist-harry-rule-and-guitarist-kyle-holt-have-exited-the-band/",
+    "orig": "God Complex reveal that vocalist Harry Rule and guitarist Kyle Holt have exited the band"
+   }
   ]
  ],
  "posted_by_source": {
@@ -24142,7 +24149,8 @@
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1793297144.3660357,
    1793298761.6084552,
-   1793304115.3946884
+   1793304115.3946884,
+   1793309490.4665356
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1793253680.906989,
@@ -24193,11 +24201,11 @@
    1793291898.006634
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
-   1793221298.6774664,
    1793223102.3861642,
    1793284416.234995,
    1793302388.5944755,
-   1793304104.0741134
+   1793304104.0741134,
+   1793309477.5788996
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1793305980.3167088
@@ -24269,7 +24277,9 @@
    1793297232.4203012,
    1793300565.403918,
    1793300570.3842099,
-   1793304120.2537673
+   1793304120.2537673,
+   1793309494.1210217,
+   1793309498.4697726
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1793218938.8983276,
@@ -24290,7 +24300,8 @@
   "music|Metal Injection|https://metalinjection.net/feed": [
    1793287996.4522424,
    1793296890.1515994,
-   1793302400.4260347
+   1793302400.4260347,
+   1793309480.1593864
   ],
   "music|MetalSucks|https://www.metalsucks.net/feed/": [
    1793223099.157012
@@ -24532,7 +24543,6 @@
   "089e6b26460bfc38": 1793125902.6292062,
   "08a956fa0ac8f8f5": 1792782170.4246993,
   "08ae7d4e40182433": 1792771293.3016713,
-  "08e286007302bf79": 1792099067.014035,
   "08f656a9f2c0a245": 1793117042.865278,
   "0904193fed3c1ecf": 1793190866.6858618,
   "091590c3d50e2fcf": 1793005369.2740388,
@@ -24590,7 +24600,6 @@
   "0c014775a5bab9c3": 1792501321.2883563,
   "0c1f69034e6cc1f2": 1793302385.5509415,
   "0c5e987daa2b8064": 1792944092.1152034,
-  "0c8784bf416ae71c": 1792099102.0718117,
   "0ca22df7dfe17db0": 1793291847.3498197,
   "0cab694563740193": 1793133097.8716917,
   "0cab6f949a16f5e4": 1793138582.7405922,
@@ -24834,7 +24843,6 @@
   "1aaaf06de47f17c7": 1792352514.8442829,
   "1ab805ccb7e963ee": 1793295075.9151297,
   "1ab84688646e98e8": 1793224901.1226544,
-  "1ac0a558cc31786c": 1792099125.702752,
   "1ac561e7af9f7968": 1793203280.9484515,
   "1acabbd4dbd90876": 1793109801.7260292,
   "1acc085be81effb5": 1793019937.9770453,
@@ -24872,7 +24880,6 @@
   "1c3644c8fa507cb9": 1793012455.8384645,
   "1c472d19892fb565": 1793203280.9571052,
   "1c57d21dabf87dfd": 1793304115.3946443,
-  "1c5c5b899c127c6d": 1792099052.6825736,
   "1c5cfbe84a92e915": 1792249932.98259,
   "1c6d1fa45cc2645e": 1792246827.5744035,
   "1c7378673402d183": 1793028993.9649322,
@@ -25336,7 +25343,6 @@
   "37f2c8dd2225cb7c": 1792611105.5988803,
   "38006d7bbea5b0ff": 1792998078.3789952,
   "3827c96b519bfe6d": 1793275302.5595667,
-  "382b3acfc271dd99": 1792099117.2201388,
   "383434e3a59b2e3d": 1793084571.400178,
   "3858b240891b662c": 1792514102.953255,
   "38b11c9d116db972": 1793223099.1569538,
@@ -25625,6 +25631,7 @@
   "4944ab9fb099ea64": 1793203355.193007,
   "4964454f997ded3b": 1792632677.2290754,
   "499b46e2fc1046da": 1792188120.1700075,
+  "49a28ea01faefdb6": 1793309490.4664886,
   "49e49f2465ec054b": 1793057488.9247115,
   "49e882d235b5a971": 1792148883.2151694,
   "4a34a03127ad822c": 1792814484.6630898,
@@ -25760,7 +25767,6 @@
   "5190793ba3ee0d8a": 1793050304.3329682,
   "51b3d57c133e0b91": 1793207034.1248643,
   "51d7e14428cd890a": 1793158390.7785208,
-  "51e7ebbf532009ed": 1792099071.7265372,
   "51eec4ccb5778011": 1793188981.8229525,
   "51f02bd9add51286": 1793023532.499534,
   "52352162b3e1b54c": 1793235764.281572,
@@ -25930,7 +25936,6 @@
   "5b3f58f2157964b8": 1793014254.9330378,
   "5b5de6947a8df5a4": 1792427684.4318216,
   "5b5ffafaa71b7e9e": 1793111596.8682287,
-  "5b6effa0896b447b": 1792099080.532876,
   "5b896091ecaaf61c": 1792496084.9827569,
   "5baf3093f8e23569": 1793196215.4263186,
   "5bbb11d17e997699": 1793304120.253723,
@@ -26315,7 +26320,6 @@
   "7216aa0528f7a4b6": 1792773055.4309604,
   "724b207366f96017": 1793018028.3951144,
   "727ae2d17087a4bf": 1793097176.678172,
-  "72824c92e89aa6e4": 1792099090.951587,
   "7283d55fafb21d12": 1792775318.379392,
   "7285ed3ab26c211d": 1792452653.2654438,
   "728805a2e5a9bb3f": 1792418623.9499154,
@@ -26508,6 +26512,7 @@
   "7d34230b5c2920e1": 1793151082.8816102,
   "7d4d0f42814ee298": 1793109776.1991725,
   "7d632d40eb24536f": 1792440124.726138,
+  "7d7424d6c549d392": 1793309494.1209757,
   "7d881e61f623240c": 1792785825.673461,
   "7d89155754e7cfbd": 1792465292.9505286,
   "7d8fd463ef7ffbde": 1792404363.5884256,
@@ -26616,7 +26621,6 @@
   "8508c24369d52fe9": 1792807292.1491585,
   "850a3e56d7ff1957": 1793066491.7253084,
   "853e165ae40dab2a": 1792407652.7428136,
-  "8559f48c5f094b6b": 1792099121.5478666,
   "855fc00ea47196b5": 1793283014.015196,
   "8561a47981cb19ea": 1792746086.991791,
   "857e72e7289d1344": 1793028776.806581,
@@ -26723,10 +26727,10 @@
   "8aeab3f4a15b3bf0": 1792461845.406532,
   "8af363f0da8fa3bb": 1792782146.2330556,
   "8b11ccb6e91a28ce": 1792352383.023121,
+  "8b2b1a2dabac7854": 1793309489.179761,
   "8b2bd268187f2469": 1792834282.1742113,
   "8b2d1dfea6ba7fb6": 1792524181.1741827,
   "8b39b4af7d2ef3d8": 1793133107.7044072,
-  "8b58413ea7bf07e7": 1792099051.6184113,
   "8b61554611894397": 1792481487.1423378,
   "8b761f59c9c765ef": 1792351874.9374244,
   "8b7c1adb1af54394": 1792767865.3630583,
@@ -26809,7 +26813,6 @@
   "90459b0522482fde": 1792893684.5577319,
   "9045b6765cfd8e98": 1792780421.2162938,
   "9046ca1d4aad6685": 1793107874.4980493,
-  "904e548719413b36": 1792099095.4171643,
   "9068a7401a059aae": 1792666857.0082133,
   "9074d73b6e51c5b3": 1793197993.0959628,
   "9080296097697050": 1792686656.5169692,
@@ -26958,6 +26961,7 @@
   "990b8058d500b284": 1792413149.4383852,
   "990d8cf742a77ea6": 1792668744.1469476,
   "991263f555aebc26": 1792764174.761603,
+  "991a098a52f288c9": 1793309477.578851,
   "991e0ad725a25639": 1793145653.2960103,
   "991ef7b7a3250b58": 1792440121.4558704,
   "9928ec226bc228f0": 1792775807.6461036,
@@ -26997,6 +27001,7 @@
   "9ae994c2290a7ab5": 1792687119.149697,
   "9b0106aa51e84a4a": 1792832599.5504208,
   "9b0607073fc4d8fa": 1792528301.405173,
+  "9b270ea475553ca1": 1793309498.4697175,
   "9b35c0bfb2f0e3cd": 1792598549.5769973,
   "9b3bbac7776d3c29": 1793296876.7080326,
   "9b61d4289f6fb3ad": 1793120455.811652,
@@ -27498,6 +27503,7 @@
   "ba2ec4b2e97b90e3": 1792753254.9112473,
   "ba33192bd85d9c0f": 1792521222.9651577,
   "ba3a1a07afcb5c5e": 1792535501.9852178,
+  "ba4128e1e7414b41": 1793309480.1593397,
   "ba520f2df6ef2566": 1792756138.3602471,
   "ba741b574ed6bcd1": 1792501315.8906395,
   "ba8902766d020497": 1792249973.5878103,
@@ -27981,7 +27987,6 @@
   "d9e47d2752a1896a": 1792850452.5839844,
   "d9f44c45d290115b": 1792246857.3589647,
   "da09ec83c007850f": 1792495905.3143945,
-  "da0af8c10cc10c09": 1792099075.9052477,
   "da1a218db1b8d8de": 1793295446.4797752,
   "da200d4eb98f67c4": 1792188168.0155032,
   "da247c7786586954": 1792679652.0916255,
@@ -28216,7 +28221,6 @@
   "e738f4b01f3bf8d3": 1792886542.1816316,
   "e745730939c9355b": 1793300482.7237089,
   "e745e906a007bb5d": 1793122368.6768425,
-  "e74d77496514b484": 1792099051.600866,
   "e74f245499d98550": 1792767655.7489853,
   "e76072366a79a333": 1792609359.1752505,
   "e787e662143885d1": 1793116879.2441692,
@@ -28453,7 +28457,6 @@
   "f763b811244a8a5f": 1793115184.3629885,
   "f7791f02fff8d3e7": 1793187198.0564623,
   "f7807416ab6c2be5": 1792884114.5240872,
-  "f7820223d0e69bdd": 1792099106.195247,
   "f79f7f1f12cc4976": 1792531907.1623285,
   "f7ae5a0fc826839c": 1792765961.5241733,
   "f7d96c9bfabcdbdc": 1792111206.2308028,
@@ -28540,6 +28543,7 @@
   "fb8c063e71291fb8": 1793100700.010519,
   "fbab3ba6532b2166": 1792164226.938352,
   "fbb2a3485681c4c3": 1793210666.7433634,
+  "fbccb443db4d4d86": 1793309496.5230434,
   "fbe29df6b6a310ed": 1793300532.3635015,
   "fc015f0ef0f654bd": 1792512291.9587786,
   "fc0e91b028e05c56": 1792769837.8254826,
@@ -29057,7 +29061,7 @@
   ],
   "artists_checked": 1793295547.946745,
   "blocked_until": 1793293716.7461896,
-  "cursor": 44,
+  "cursor": 54,
   "digest_week": "2026-W43",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -29824,13 +29828,13 @@
    "Hugging Face": 3,
    "IGN": 56,
    "ITC.ua": 53,
-   "IndieWire": 18,
+   "IndieWire": 19,
    "Insider Gaming": 71,
    "Kerrang!": 32,
-   "Lambgoat": 38,
+   "Lambgoat": 40,
    "Loudwire": 16,
    "Metal Hammer (Louder)": 24,
-   "Metal Injection": 14,
+   "Metal Injection": 15,
    "MetalSucks": 1,
    "Mezha": 66,
    "Neformat": 2,
@@ -29840,7 +29844,7 @@
    "Polygon": 24,
    "Product Hunt": 18,
    "Revolver": 8,
-   "Rock Paper Shotgun": 20,
+   "Rock Paper Shotgun": 21,
    "SteamDB": 3,
    "Stereogum": 12,
    "The Decoder": 22,
@@ -29851,7 +29855,7 @@
   "translators": {
    "DeepL": 29,
    "gemini-flash-latest": 17,
-   "gemini-flash-lite-latest": 1030
+   "gemini-flash-lite-latest": 1037
   },
   "week": "2026-W44"
  },
@@ -31781,11 +31785,6 @@
    "",
    1793160088.8892357
   ],
-  "q:blasted": [
-   0,
-   "",
-   1793134898.222595
-  ],
   "q:blizzard sparks": [
    0,
    "",
@@ -32526,21 +32525,6 @@
    "Creators",
    1793134884.0242746
   ],
-  "q:creators of the original": [
-   0,
-   "",
-   1793134883.4791248
-  ],
-  "q:creators of the original doom": [
-   0,
-   "",
-   1793134882.9265285
-  ],
-  "q:creators of the original doom are": [
-   0,
-   "",
-   1793134882.270861
-  ],
   "q:creed": [
    0,
    "",
@@ -32901,21 +32885,6 @@
    "Deus Ex Remastered",
    1792873916.23202
   ],
-  "q:developer don't": [
-   0,
-   "",
-   1793134896.500567
-  ],
-  "q:developer don't nod": [
-   0,
-   "",
-   1793134895.997404
-  ],
-  "q:developer don't nod blasted": [
-   0,
-   "",
-   1793134895.4489386
-  ],
   "q:developer explains why games": [
    0,
    "",
@@ -32930,6 +32899,36 @@
    0,
    "",
    1793304087.1381297
+  ],
+  "q:developing": [
+   0,
+   "",
+   1793309487.2512789
+  ],
+  "q:developing live action": [
+   0,
+   "",
+   1793309486.7533278
+  ],
+  "q:developing live action pubg": [
+   0,
+   "",
+   1793309486.2619808
+  ],
+  "q:developing live action pubg series": [
+   0,
+   "",
+   1793309485.7611077
+  ],
+  "q:developing live action pubg series with": [
+   0,
+   "",
+   1793309485.2407906
+  ],
+  "q:developing live action pubg series with donald": [
+   0,
+   "",
+   1793309484.7472014
   ],
   "q:devs": [
    0,
@@ -33170,11 +33169,6 @@
    0,
    "",
    1793297097.4423296
-  ],
-  "q:don't nod blasted": [
-   0,
-   "",
-   1793134897.038433
   ],
   "q:donald glover": [
    0,
@@ -35956,21 +35950,6 @@
    "Life is Strange Remastered",
    1793134894.9491076
   ],
-  "q:life is strange developer": [
-   0,
-   "",
-   1793134894.3354876
-  ],
-  "q:life is strange developer don't": [
-   0,
-   "",
-   1793134893.7879784
-  ],
-  "q:life is strange developer don't nod": [
-   0,
-   "",
-   1793134893.280985
-  ],
   "q:lifetime": [
    2264760,
    "Lifetime",
@@ -36020,6 +35999,11 @@
    0,
    "",
    1793273478.4009871
+  ],
+  "q:live action pubg series with donald glover": [
+   0,
+   "",
+   1793309487.7489247
   ],
   "q:logitech": [
    0,
@@ -36741,6 +36725,31 @@
    "Need to Know",
    1793124096.5074084
   ],
+  "q:netflix developing": [
+   0,
+   "",
+   1793309484.2582045
+  ],
+  "q:netflix developing live action": [
+   0,
+   "",
+   1793309483.7695794
+  ],
+  "q:netflix developing live action pubg": [
+   0,
+   "",
+   1793309483.2518811
+  ],
+  "q:netflix developing live action pubg series": [
+   0,
+   "",
+   1793309482.7606342
+  ],
+  "q:netflix developing live action pubg series with": [
+   0,
+   "",
+   1793309482.2603455
+  ],
   "q:new game": [
    0,
    "",
@@ -36950,11 +36959,6 @@
    2152570,
    "Noble",
    1792800092.0489268
-  ],
-  "q:nod blasted": [
-   0,
-   "",
-   1793134897.5733433
   ],
   "q:north": [
    0,
@@ -37255,26 +37259,6 @@
    0,
    "",
    1793235692.462872
-  ],
-  "q:original doom": [
-   0,
-   "",
-   1793134886.333473
-  ],
-  "q:original doom are": [
-   0,
-   "",
-   1793134885.8142285
-  ],
-  "q:original doom are arguing": [
-   0,
-   "",
-   1793134885.0110457
-  ],
-  "q:original doom are arguing about": [
-   0,
-   "",
-   1793134884.5202677
   ],
   "q:our": [
    0,
@@ -39846,16 +39830,6 @@
    "",
    1793300527.5473363
   ],
-  "q:two": [
-   0,
-   "",
-   1793134881.7380908
-  ],
-  "q:two creators": [
-   0,
-   "",
-   1793134881.1322577
-  ],
   "q:typhoon": [
    0,
    "",
@@ -40010,16 +39984,6 @@
    391540,
    "Undertale",
    1793039505.7366686
-  ],
-  "q:union employees over 'illegal' management": [
-   0,
-   "",
-   1793134899.2847357
-  ],
-  "q:union employees over 'illegal' management practices": [
-   0,
-   "",
-   1793134898.7887971
   ],
   "q:unity": [
    0,
@@ -41268,26 +41232,6 @@
   ]
  },
  "titles": [
-  [
-   1793136679.3827152,
-   "METALLICA's 'Kill 'Em All' Assistant Engineer ANDREW WROBLEWSKI Shares Stories And Rare Photos In 'Bass Solo - Take One' Memoir"
-  ],
-  [
-   1793136682.349785,
-   "New KISS Documentary ‘KISS: End Of The Road’ Due In November"
-  ],
-  [
-   1793136688.9501696,
-   "Mass Effect composer Sam Hulick is working on a 're-scored' version of the leaked Mass Effect 5 trailer for N7 Day"
-  ],
-  [
-   1793136691.2272573,
-   "Перший в Китаї фільм, повністю створений ШІ, повністю провалився у прокаті"
-  ],
-  [
-   1793136694.5540485,
-   "Discord know they replaced forums, so they're making your messages in discoverable servers searchable, which immediately raises one question: what about AI?"
-  ],
   [
    1793138570.13693,
    "Fmr. MSFT Exec.: Buyouts Is a Harbinger of AI Future"
@@ -43291,29 +43235,29 @@
   [
    1793307791.7668405,
    "‘Widow’s Bay’ Breakout Kate O’Flynn Joins Olivia Wilde Comedy ‘Naughty’ At Universal; Jamie Demetriou & Dexter Sol Ansell Also Set"
+  ],
+  [
+   1793309477.5788531,
+   "Bleecker Street CEO on Why the Social Media Suppression of ‘Musk’ Is About Much More Than Film"
+  ],
+  [
+   1793309480.1593416,
+   "Watch: Knights Battle For Victory In Imminence's New Music Video for “Crestfallen”"
+  ],
+  [
+   1793309490.46649,
+   "Phantom Blade Zero kicks off its launch with a day one patch that offers improvements to ray tracing and some bug fixes to boot"
+  ],
+  [
+   1793309494.1209772,
+   "REVIEW: All Human - Horror Porn, and the Eviscerating Climax"
+  ],
+  [
+   1793309498.4697196,
+   "God Complex reveal that vocalist Harry Rule and guitarist Kyle Holt have exited the band"
   ]
  ],
  "titles_uk": [
-  [
-   1793136679.3827164,
-   "Асистент звукорежисера METALLICA випустив мемуари про записи альбому Kill 'Em All"
-  ],
-  [
-   1793136682.3497858,
-   "У листопаді вийде новий документальний фільм про прощальний тур KISS"
-  ],
-  [
-   1793136688.950171,
-   "Композитор Mass Effect Сем Г'юлік готує нову музику для злитого трейлера Mass Effect 5"
-  ],
-  [
-   1793136691.2272584,
-   "Перший в Китаї фільм, повністю створений ШІ, повністю провалився у прокаті"
-  ],
-  [
-   1793136694.5540497,
-   "Discord робить публічними повідомлення з публічних серверів для пошукових систем"
-  ],
   [
    1793138570.1369312,
    "Скупка компаній є передвісником майбутнього ШІ"
@@ -45317,6 +45261,26 @@
   [
    1793307791.7668414,
    "Кейт О’Флінн, Джеймі Деметріу та Декстер Сол Анселл зняться в комедії Naughty"
+  ],
+  [
+   1793309477.5788538,
+   "Документальний фільм «Musk» про Ілона Маска зіткнувся з цензурою в соцмережах"
+  ],
+  [
+   1793309480.1593425,
+   "Лицарські бої в новому кліпі Imminence на трек Crestfallen"
+  ],
+  [
+   1793309490.4664912,
+   "Phantom Blade Zero виходить із патчем першого дня для покращення трасування променів"
+  ],
+  [
+   1793309494.120978,
+   "Гурт All Human випустив альбом Horror Porn, and the Eviscerating Climax"
+  ],
+  [
+   1793309498.4697204,
+   "God Complex оголосили про вихід вокаліста Гаррі Рула та гітариста Кајла Голта"
   ]
  ],
  "ukrainian": {
