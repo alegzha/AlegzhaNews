@@ -1,10 +1,10 @@
 {
  "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «Neformat» не працює",
+  "src:music|ThePRP|https://www.theprp.com/feed/": {
+   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ThePRP» не працює",
    "sent": 0,
-   "since": 1793268591.384241
+   "since": 1793271687.3952599
   }
  },
  "daily_digest_date": "2026-10-28",
@@ -22,70 +22,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-29 10:32 UTC",
-  "gemini_error": "",
+  "at": "2026-10-29 11:03 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 7
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792580496.438983,
-   1619,
-   "🎮",
-   "Системні вимоги Shrek 2 Remastered здивували гравців",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/shrek-2-remastered-surprising-pc-requirements",
-    "orig": "Fans React to Shrek 2 Remastered's Surprising PC Requirements"
-   }
-  ],
-  [
-   1792580498.590173,
-   1620,
-   "💾",
-   "Chrome попереджатиме про підозрілі сайти ще до їх відкриття",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/chrome-adds-new-warnings-for-suspicious-websites-316370/",
-    "orig": "Chrome попереджатиме про підозрілі сайти ще до їх відкриття"
-   }
-  ],
-  [
-   1792580502.7703657,
-   1621,
-   "🎮",
-   "Мережа готується до масованих атак через витік критичних вразливостей PHP",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/software/security/we-expect-mass-attacks-to-start-within-15-minutes-of-the-release-web-admins-braced-for-emergency-php-updates-to-plug-leaked-high-severity-holes/",
-    "orig": "'We expect mass attacks to start within 15 minutes of the release': Web admins braced for emergency PHP updates to plug leaked high-severity holes"
-   }
-  ],
-  [
-   1792580507.9833188,
-   1622,
-   "🎮",
-   "EA Sports FC та Pokémon Go отримали рейтинг PEGI 16 через лутбокси",
-   "VGC",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.videogameschronicle.com/news/ea-sports-fc-and-pokemon-go-age-ratings-bumped-to-16-in-pegi-loot-box-crackdown/",
-    "orig": "EA Sports FC and Pokémon Go age ratings bumped to 16 in PEGI loot box crackdown"
-   }
-  ],
   [
    1792582298.520114,
    1623,
@@ -22671,7 +22618,6 @@
       "https://lambgoat.com/news/55589/face-yourself-set-to-record-their-debut-album-this-coming-november/"
      ]
     ],
-    "caption": "🤘 <b>Face Yourself почнуть запис дебютного альбому в листопаді</b>\n\nГурт Face Yourself вирушить до студії наступного місяця для запису свого дебютного повноформатного альбому. Продюсером, мікшером та мастером пластинки стане Джої Стерджис, а реліз відбудеться на лейблі Sumerian Records.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/28/news/face-yourself-to-record-their-debut-album-in-november/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/28/news/face-yourself-to-record-their-debut-album-in-november/",
     "orig": "Face Yourself To Record Their Debut Album In November"
@@ -22685,7 +22631,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Baroness, Meshuggah, Gojira та Converge потрапили до 200 найкращих рок-пісень XXI століття</b>\n\nЖурнал Rolling Stone опублікував рейтинг 200 найкращих рок-пісень XXI століття.\n\n🔗 <a href=\"https://lambgoat.com/news/55584/baroness-meshuggah-gojira-converge-and-more-named-on-200-greatest-rock-songs-of-the-21st-century/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55584/baroness-meshuggah-gojira-converge-and-more-named-on-200-greatest-rock-songs-of-the-21st-century/",
     "orig": "Baroness, Meshuggah, Gojira, Converge and more named on 200 Greatest Rock Songs of the 21st Century"
@@ -22699,7 +22644,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Фестиваль Welcome to Rockville переніс анонс лайнапу на четвер</b>\n\nОрганізатори фестивалю Welcome to Rockville відклали повний анонс лайнапу на четвер, 29 жовтня. Музична подія пройде з 6 по 9 травня на Daytona International Speedway у Флориді, а серед заявлених учасників є Suicide Boys, Bullet For My Valentine, The Prodigy, Meshuggah та інші.\n\n🔗 <a href=\"https://lambgoat.com/news/55585/suicide-boys-revealed-for-welcome-to-rockville-full-line-up-reveal-pushed-back-until-thursday/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55585/suicide-boys-revealed-for-welcome-to-rockville-full-line-up-reveal-pushed-back-until-thursday/",
     "orig": "Suicide Boys revealed for Welcome to Rockville, full line up reveal pushed back until Thursday"
@@ -22718,7 +22662,6 @@
       "https://www.theprp.com/2026/10/28/news/poison-the-well-announce-january-shows-with-rosasharin-xseraphx/"
      ]
     ],
-    "caption": "🤘 <b>Poison The Well анонсували розігрівальні концерти перед фестивалем FYA XIII</b>\n\n🔗 <a href=\"https://lambgoat.com/news/55586/poison-the-well-announce-a-pair-of-fya-xiii-warm-up-shows/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55586/poison-the-well-announce-a-pair-of-fya-xiii-warm-up-shows/",
     "orig": "Poison The Well announce a pair of FYA XIII warm up shows"
@@ -22737,7 +22680,6 @@
       "https://www.theprp.com/2026/10/28/news/al-jourgensen-confirms-the-venue-and-date-for-ministrys-final-live-show/"
      ]
     ],
-    "caption": "🤘 <b>Аль Юргенсен назвав дату та місце фінального концерту MINISTRY</b>\n\nЗасновник MINISTRY Аль Юргенсен оголосив, що гурт припинить існування 30 жовтня 2027 року після масштабного концерту на Kia Forum у Лос-Анджелесі. Виступ відбудеться через рік після релізу фінального альбому &quot;Hate To Go (Take Out Or Delivery)&quot;, над яким музикант знову працював із Полом Баркером.\n\n🔗 <a href=\"https://blabbermouth.net/news/al-jourgensen-reveals-date-and-venue-for-ministrys-final-concert\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/al-jourgensen-reveals-date-and-venue-for-ministrys-final-concert",
     "orig": "AL JOURGENSEN Reveals Date And Venue For MINISTRY's Final Concert"
@@ -22751,7 +22693,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Штучний інтелект робить фінансові шахрайства переконливішими</b>\n\nШтучний інтелект допомагає шахраям масштабувати традиційні фінансові афери та підробляти голоси родичів, створюючи нові ризики для інвесторів. Cayla Culver із Schwab Advisor Services зазначає, що такі загрози стають набагато складнішими для виявлення.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-28/schwab-says-ai-making-scams-harder-to-spot-video\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-10-28/schwab-says-ai-making-scams-harder-to-spot-video",
     "orig": "Schwab Says AI Making Scams Harder to Spot"
@@ -23531,6 +23472,90 @@
     "link": "https://the-decoder.com/googles-ai-search-problem-finally-shows-up-in-the-earnings-report-some-investors-believe/",
     "orig": "Google's AI search problem finally shows up in the earnings report, some investors believe"
    }
+  ],
+  [
+   1793271791.5287242,
+   3384,
+   "🤘",
+   "Fish пригадав створення Marillion та історію про розлюченого Rod Stewart",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Fish пригадав створення Marillion та історію про розлюченого Rod Stewart</b>\n\nМузикант розповів про ранні розчарування, переїзд до Англії та порівняння з Genesis\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/interviews/fish-marillion-early-days\">Metal Hammer (Louder)</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/interviews/fish-marillion-early-days",
+    "orig": "“Rod Stewart was pissed. I thought, ‘That’s something I could do!’” Fish and the making of Marillion"
+   }
+  ],
+  [
+   1793271806.5676405,
+   3385,
+   "🎮",
+   "Galax спростувала чутки про закриття заводу та припинення роботи",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Galax спростувала чутки про закриття заводу та припинення роботи</b>\n\nБренд відеокарт Galax вдруге за рік заперечив чутки про закриття свого підприємства. Компанія запевнила, що продовжує працювати у звичному режимі, а продукція й надалі доступна на ринку, попри реорганізацію управління брендами Palit.\n\n🔗 <a href=\"https://www.pcgamer.com/hardware/graphics-cards/for-the-second-time-this-year-galax-says-its-not-closing-down-palit-owned-graphics-card-brand-continues-to-operate-as-usual/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/for-the-second-time-this-year-galax-says-its-not-closing-down-palit-owned-graphics-card-brand-continues-to-operate-as-usual/",
+    "orig": "For the second time this year, Galax says it's not closing down: Palit-owned graphics card brand 'continues to operate as usual'"
+   }
+  ],
+  [
+   1793271815.5023003,
+   3386,
+   "🎮",
+   "Продажі Xbox впали, але Asha Sharma каже про дефіцит консолей",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Продажі Xbox впали, але <a href=\"https://store.steampowered.com/app/1786130/\">Asha</a> Sharma каже про дефіцит консолей</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/996920/\">Continue</a>\n\nЗагальний дохід Xbox у першому кварталі скоротився на 2%, а продаж заліза впав на 14%. Попри це, очільниця підрозділу Asha Sharma заявила про дефіцит пристроїв на ринку та високий попит, що перевищує наявну пропозицію консолей.\n\n🔗 <a href=\"https://www.ign.com/articles/asha-sharma-insists-theres-more-demand-than-consoles-available-as-xbox-hardware-sales-continue-to-plummet\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/asha-sharma-insists-theres-more-demand-than-consoles-available-as-xbox-hardware-sales-continue-to-plummet",
+    "orig": "Asha Sharma Insists There's 'More Demand Than Consoles Available' as Xbox Hardware Sales Continue to Plummet"
+   }
+  ],
+  [
+   1793271824.452947,
+   3387,
+   "🎮",
+   "Shopify Rebellion підписала чемпіонів світу з Rocket League",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Shopify Rebellion підписала чемпіонів світу з Rocket League</b>\n\nКіберспортивна організація Shopify Rebellion представила новий склад з Rocket League, до якого увійшли два гравці та тренер чемпіонського ростеру NRG 2025 року. Команда готується до старту сезону 2027 року та нового турніру RLCS Club Championship у Лондоні з призовим фондом $2,5 мільйона.\n\n🔗 <a href=\"https://insider-gaming.com/shopify-rebellion-2027-rocket-league-roster/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/shopify-rebellion-2027-rocket-league-roster/",
+    "orig": "Shopify Rebellion Secures Two World Champions for Rocket League Roster"
+   }
+  ],
+  [
+   1793271828.720407,
+   3388,
+   "🎮",
+   "Доходи Xbox у першому кварталі впали на 2%, а продаж заліза знизився на 14%",
+   "GamesIndustry.biz",
+   {
+    "also": [],
+    "caption": "🎮 <b>Доходи Xbox у першому кварталі впали на 2%, а продаж заліза знизився на 14%</b>\n\nMicrosoft звітувала про загальну виручку у $92,3 мільярда, попри падіння доходів підрозділу Xbox на 2% та зменшення продажу заліза на 14%. Збитки частково компенсувало зростання контенту від внутрішніх студій, а Minecraft встановив історичні рекорди за залученістю та доходом. Водночас компанія продовжує реструктуризацію, яка передбачає скорочення штату.\n\n🔗 <a href=\"https://www.gamesindustry.biz/xbox-first-party-content-partially-offsets-2-drop-in-q1-revenue-hardware-decreases-14\">GamesIndustry.biz</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamesindustry.biz/xbox-first-party-content-partially-offsets-2-drop-in-q1-revenue-hardware-decreases-14",
+    "orig": "Xbox first-party content partially offsets 2% drop in Q1 revenue, hardware decreases 14%"
+   }
+  ],
+  [
+   1793271831.6725955,
+   3389,
+   "🎬",
+   "Адам Адлер став креативним директором виробничого підрозділу Channel 4",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Адам Адлер став креативним директором виробничого підрозділу Channel 4</b>\n\nТворець шоу The Cube Адам Адлер приєднався до внутрішнього виробничого підрозділу Channel 4 як креативний директор. На новій посаді він очолить створення нових проєктів для підрозділу, який очолює Сара Діллістон. Адлер відомий своїми роботами над ігровими шоу та реаліти, зокрема британською та американською версіями The Cube.\n\n🔗 <a href=\"https://deadline.com/2026/10/adam-adler-joins-channel-4-productions-the-cube-1237207215/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/adam-adler-joins-channel-4-productions-the-cube-1237207215/",
+    "orig": "‘The Cube’ Creator Adam Adler Joins Channel 4’s Production Biz As Creative Director"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23610,21 +23635,20 @@
    1793214102.1710265
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
-   1793179919.6853378,
-   1793183587.0168798,
    1793196143.320539,
    1793197973.048487,
-   1793264596.5835838
+   1793264596.5835838,
+   1793271828.7208414
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1793160093.1209977,
    1793188981.8230023,
    1793192493.8501327,
    1793203294.4575207,
    1793210600.9187858,
    1793210666.7434163,
    1793217697.7818828,
-   1793235700.152788
+   1793235700.152788,
+   1793271815.502733
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1793201742.415062,
@@ -23632,9 +23656,6 @@
    1793266287.1259134
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1793183605.1032982,
-   1793185315.6549382,
-   1793185324.541636,
    1793187191.8722768,
    1793190735.706111,
    1793192598.9869115,
@@ -23650,7 +23671,8 @@
    1793223116.2900112,
    1793226788.4256427,
    1793246583.1616366,
-   1793268177.4373946
+   1793268177.4373946,
+   1793271824.453361
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1793176595.1260886,
@@ -23676,7 +23698,8 @@
    1793223107.510705,
    1793228483.6739354,
    1793241079.51909,
-   1793241083.7365086
+   1793241083.7365086,
+   1793271806.5680857
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1793178103.8808808,
@@ -23726,8 +23749,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1793183590.0226896,
-   1793185327.964663,
    1793189021.801867,
    1793190848.7684557,
    1793192608.6827505,
@@ -23740,7 +23761,8 @@
    1793253676.5013542,
    1793261126.9316099,
    1793264590.746688,
-   1793268171.9004457
+   1793268171.9004457,
+   1793271831.67309
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1793194317.5414414,
@@ -23839,12 +23861,12 @@
    1793269922.066384
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
-   1793183571.248012,
    1793192517.8660834,
    1793235757.2918334,
    1793242874.7859316,
    1793246571.0751314,
-   1793261032.870117
+   1793261032.870117,
+   1793271791.5291452
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1793124108.5606825,
@@ -24031,6 +24053,7 @@
   "05a7cad1f19ef16e": 1792863188.3589852,
   "05c3545215fa5e76": 1792782161.396849,
   "05c95c60b65fa65a": 1793125857.8037868,
+  "05cc0c623ee6d258": 1793271806.5680392,
   "05d8d1ba243c8cdf": 1792148787.082236,
   "05db6fae2277022f": 1792674057.1359856,
   "05dcb092cd7cf8a0": 1792744291.0590034,
@@ -24479,6 +24502,7 @@
   "2006d7d7723cab8c": 1793023319.2483625,
   "200bea7ad3494f0e": 1792522879.7976527,
   "200f8bb5ed2a51e0": 1793253676.501305,
+  "20137a9775b6e0e9": 1793271699.5357819,
   "20146418fd217bbe": 1792295961.712643,
   "201dbb89b3783d1b": 1792523144.4372835,
   "20264713e6dbbdb3": 1792654290.7850683,
@@ -25284,6 +25308,7 @@
   "52ed7b1c7d57ae9e": 1792264347.2980595,
   "52edf22425f540dc": 1792873902.5272386,
   "52f81882dab3d409": 1792342882.6603274,
+  "52fc9a77b1cb8498": 1793271803.2160976,
   "5307351c26a5dff9": 1793214153.6887107,
   "531241ecdbe6d02c": 1793201680.9153972,
   "531e2624c87a9d0c": 1792972962.1583157,
@@ -25434,6 +25459,7 @@
   "5bee63ca48e2797f": 1792515677.312114,
   "5c057de4471e7288": 1792281275.1902585,
   "5c264083e6be8f2c": 1792468979.206972,
+  "5c42cb5d3a5fb806": 1793271831.6730425,
   "5c4aee3d89f55839": 1792935079.611996,
   "5c5b749f46a69c8d": 1792432924.2754538,
   "5c68d336f050bb23": 1792602178.47957,
@@ -25492,6 +25518,7 @@
   "5f63c55a5a5a6035": 1792387872.764556,
   "5f682c7a8639e2ed": 1793234005.0918224,
   "5f78597e52e1e77b": 1792431090.625755,
+  "5f7a78e43a190123": 1793271791.529099,
   "5f83911213c4b00a": 1793235691.8800142,
   "5f943699c5928b08": 1792429299.129604,
   "5f94ea6c987736a9": 1792684885.4455698,
@@ -26114,6 +26141,7 @@
   "8755bc1233b8c71c": 1792555379.124613,
   "876a29ee0a5d3acc": 1792281237.5537195,
   "877807ea7d3e48a7": 1792362702.1025689,
+  "8778d5ef4ce9de81": 1793271828.7207968,
   "878b991d4a911dbc": 1793089898.9946342,
   "8792bc563dc0d76c": 1792089266.8002923,
   "8797688871eb711f": 1792659693.2151346,
@@ -26250,6 +26278,7 @@
   "8fa88cf6b143d638": 1793107901.1384058,
   "8fbc3ab7ccf7d879": 1793206909.4407272,
   "8fd57b8fcff58beb": 1792793190.9633424,
+  "8fde5060d8f38da3": 1793271824.4533155,
   "8fe573d5cab672cd": 1792710103.6431656,
   "8fe98d2c4c26327d": 1792778453.5270102,
   "8fef01df29470023": 1792942253.4728909,
@@ -27191,6 +27220,7 @@
   "cda0ff8c4b28bf28": 1792378911.9657006,
   "cda63ff41108493c": 1793147525.1135733,
   "cdc340154db8f7c7": 1792778479.451782,
+  "cdc74720f1ff85f4": 1793271653.7889771,
   "cddf08adb621121e": 1792585856.8161144,
   "ce121f45f7bd4c73": 1792677833.7294867,
   "ce495841f579466e": 1792442058.8615544,
@@ -27782,6 +27812,7 @@
   "f6005c1d6e8c5b1f": 1793041274.3692088,
   "f6181f8abd199f72": 1792949454.1675134,
   "f61d916fdbc39f4d": 1793021481.2234132,
+  "f62fee3d3a9e7eef": 1793271815.5026896,
   "f6508b275f94c1b0": 1792449086.333194,
   "f6591049393e3100": 1792407652.7428136,
   "f65a7fb9dfdf4164": 1793136682.3497837,
@@ -29147,7 +29178,7 @@
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 18,
    "Pitchfork": 2,
-   "Polygon": 42,
+   "Polygon": 43,
    "Revolver": 1,
    "Stereogum": 1,
    "VGC": 1,
@@ -29159,28 +29190,28 @@
    "Blabbermouth": 49,
    "Bloomberg": 33,
    "DOU Gamedev": 4,
-   "Deadline": 51,
+   "Deadline": 52,
    "Decibel": 8,
    "Digital Foundry": 3,
    "Distorted Sound": 17,
    "Eurogamer": 19,
    "GameSpot": 21,
-   "GamesIndustry.biz": 14,
+   "GamesIndustry.biz": 15,
    "GitHub Trending": 17,
    "Hugging Face": 2,
-   "IGN": 42,
+   "IGN": 43,
    "ITC.ua": 44,
    "IndieWire": 15,
-   "Insider Gaming": 57,
+   "Insider Gaming": 58,
    "Kerrang!": 23,
    "Lambgoat": 30,
    "Loudwire": 13,
-   "Metal Hammer (Louder)": 22,
+   "Metal Hammer (Louder)": 23,
    "Metal Injection": 11,
    "MetalSucks": 1,
    "Mezha": 54,
    "Neformat": 1,
-   "PC Gamer": 53,
+   "PC Gamer": 54,
    "Pitchfork": 6,
    "PlayUA": 18,
    "Polygon": 20,
@@ -29197,7 +29228,7 @@
   "translators": {
    "DeepL": 18,
    "gemini-flash-latest": 17,
-   "gemini-flash-lite-latest": 819
+   "gemini-flash-lite-latest": 826
   },
   "week": "2026-W44"
  },
@@ -29802,6 +29833,11 @@
    "",
    1793122300.1204708
   ],
+  "q:14": [
+   0,
+   "",
+   1793271826.988225
+  ],
   "q:145gb": [
    0,
    "",
@@ -29891,16 +29927,6 @@
    3740720,
    "ハルスベリヤ叙事詩2.5",
    1792595281.694616
-  ],
-  "q:2 and warhammer": [
-   0,
-   "",
-   1793097199.1456153
-  ],
-  "q:2 and warhammer survivors": [
-   0,
-   "",
-   1793097198.6264105
   ],
   "q:2 job listing further": [
    0,
@@ -30677,6 +30703,31 @@
    "Asha",
    1791908394.3771522
   ],
+  "q:asha sharma": [
+   0,
+   "",
+   1793271810.5378168
+  ],
+  "q:asha sharma insists": [
+   0,
+   "",
+   1793271810.0482612
+  ],
+  "q:asha sharma insists there": [
+   0,
+   "",
+   1793271809.5553787
+  ],
+  "q:asha sharma insists there's 'more": [
+   0,
+   "",
+   1793271809.0628605
+  ],
+  "q:asha sharma insists there's 'more demand": [
+   0,
+   "",
+   1793271808.5726018
+  ],
   "q:asia": [
    0,
    "",
@@ -30902,6 +30953,26 @@
    "Before Dark",
    1792317845.4245293
   ],
+  "q:behind": [
+   0,
+   "",
+   1793271802.0498672
+  ],
+  "q:behind only": [
+   0,
+   "",
+   1793271801.5296829
+  ],
+  "q:behind only counter strike": [
+   0,
+   "",
+   1793271801.029973
+  ],
+  "q:behind only counter strike 2": [
+   0,
+   "",
+   1793271800.5329397
+  ],
   "q:best": [
    0,
    "",
@@ -31111,21 +31182,6 @@
    0,
    "",
    1793124133.0197954
-  ],
-  "q:boltgun 2": [
-   0,
-   "",
-   1793097198.127892
-  ],
-  "q:boltgun 2 and warhammer": [
-   0,
-   "",
-   1793097197.6232681
-  ],
-  "q:boltgun 2 and warhammer survivors": [
-   0,
-   "",
-   1793097197.123781
   ],
   "q:boo": [
    0,
@@ -31566,11 +31622,6 @@
    0,
    "",
    1793201563.6142738
-  ],
-  "q:coming 2027": [
-   0,
-   "",
-   1793098886.9956944
   ],
   "q:committee": [
    0,
@@ -32932,16 +32983,6 @@
    "",
    1793264603.8984952
   ],
-  "q:first cast details": [
-   0,
-   "",
-   1793098887.9679444
-  ],
-  "q:first cast details leaked": [
-   0,
-   "",
-   1793098887.4741588
-  ],
   "q:first ever": [
    0,
    "",
@@ -33041,6 +33082,16 @@
    0,
    "",
    1793113318.499492
+  ],
+  "q:flyer": [
+   0,
+   "",
+   1793271800.041584
+  ],
+  "q:flyer on steam": [
+   0,
+   "",
+   1793271799.5338378
   ],
   "q:fnatic": [
    0,
@@ -33252,11 +33303,6 @@
    "Free to Play",
    1793097181.3473184
   ],
-  "q:free to play pok": [
-   0,
-   "",
-   1793097180.839415
-  ],
   "q:french": [
    0,
    "",
@@ -33282,21 +33328,6 @@
    "Friday 星期五部门",
    1792609327.7098076
   ],
-  "q:from": [
-   0,
-   "",
-   1793097195.6386685
-  ],
-  "q:from early": [
-   0,
-   "",
-   1793097195.1287718
-  ],
-  "q:from early access": [
-   0,
-   "",
-   1793097194.6240606
-  ],
   "q:full circle": [
    1439270,
    "Full Circle",
@@ -33312,30 +33343,10 @@
    "",
    1793187184.798419
   ],
-  "q:game is": [
+  "q:galax": [
    0,
    "",
-   1793097183.8643527
-  ],
-  "q:game is shutting": [
-   0,
-   "",
-   1793097183.3514524
-  ],
-  "q:game is shutting down": [
-   0,
-   "",
-   1793097182.8402479
-  ],
-  "q:game is shutting down after": [
-   0,
-   "",
-   1793097182.3422613
-  ],
-  "q:game is shutting down after 5": [
-   0,
-   "",
-   1793097181.842834
+   1793271803.7401328
   ],
   "q:game of thrones": [
    208730,
@@ -33496,6 +33507,16 @@
    0,
    "",
    1793203298.058669
+  ],
+  "q:gets off": [
+   0,
+   "",
+   1793271798.0447927
+  ],
+  "q:gets off to a flyer": [
+   0,
+   "",
+   1793271797.5519717
   ],
   "q:getting more pvp focused": [
    0,
@@ -33932,21 +33953,6 @@
    "",
    1793199779.7005181
   ],
-  "q:hill remake": [
-   0,
-   "",
-   1793098885.0546298
-  ],
-  "q:hill remake coming": [
-   0,
-   "",
-   1793098884.5746238
-  ],
-  "q:hill remake coming 2027": [
-   0,
-   "",
-   1793098884.098151
-  ],
   "q:hit before it's even come out": [
    0,
    "",
@@ -34197,6 +34203,11 @@
    "",
    1793189005.1666045
   ],
+  "q:insists there's 'more demand than consoles": [
+   0,
+   "",
+   1793271813.983235
+  ],
   "q:insomniac": [
    0,
    "",
@@ -34261,31 +34272,6 @@
    0,
    "",
    1793201527.2691054
-  ],
-  "q:is shutting": [
-   0,
-   "",
-   1793097186.35077
-  ],
-  "q:is shutting down": [
-   0,
-   "",
-   1793097185.8555422
-  ],
-  "q:is shutting down after": [
-   0,
-   "",
-   1793097185.3593915
-  ],
-  "q:is shutting down after 5": [
-   0,
-   "",
-   1793097184.8604295
-  ],
-  "q:is shutting down after 5 years": [
-   0,
-   "",
-   1793097184.3624585
   ],
   "q:is shutting down after nearly": [
    0,
@@ -35092,11 +35078,6 @@
    "",
    1793099022.5077312
   ],
-  "q:mass effect was my ultimate white whale": [
-   0,
-   "",
-   1793097215.6573772
-  ],
   "q:mass effect's petition": [
    0,
    "",
@@ -35877,6 +35858,16 @@
    "",
    1793142160.4899125
   ],
+  "q:off to a flyer": [
+   0,
+   "",
+   1793271799.0375483
+  ],
+  "q:off to a flyer on steam": [
+   0,
+   "",
+   1793271798.5378308
+  ],
   "q:official wow": [
    0,
    "",
@@ -35981,26 +35972,6 @@
    4478540,
    "One Day",
    1793097191.8062801
-  ],
-  "q:one day out": [
-   0,
-   "",
-   1793097191.268767
-  ],
-  "q:one day out from": [
-   0,
-   "",
-   1793097190.7737215
-  ],
-  "q:one day out from early": [
-   0,
-   "",
-   1793097190.27309
-  ],
-  "q:one day out from early access": [
-   0,
-   "",
-   1793097189.7753873
   ],
   "q:one piece": [
    0,
@@ -36182,11 +36153,6 @@
    "",
    1793218941.0193133
   ],
-  "q:out": [
-   0,
-   "",
-   1793097194.1034834
-  ],
   "q:out 46": [
    0,
    "",
@@ -36206,21 +36172,6 @@
    0,
    "",
    1793118762.819487
-  ],
-  "q:out from": [
-   0,
-   "",
-   1793097193.5915253
-  ],
-  "q:out from early": [
-   0,
-   "",
-   1793097192.8071492
-  ],
-  "q:out from early access": [
-   0,
-   "",
-   1793097192.3064475
   ],
   "q:outlast": [
    238320,
@@ -36251,6 +36202,11 @@
    0,
    "",
    1793100694.5958164
+  ],
+  "q:palit owned": [
+   0,
+   "",
+   1793271804.236171
   ],
   "q:palworld": [
    1623730,
@@ -36431,6 +36387,16 @@
    0,
    "",
    1793214143.2519293
+  ],
+  "q:phantom blade zero gets": [
+   0,
+   "",
+   1793271797.0011823
+  ],
+  "q:phantom blade zero gets off": [
+   0,
+   "",
+   1793271796.3847892
   ],
   "q:phantom blade zero looks": [
    0,
@@ -36862,6 +36828,11 @@
    "",
    1793207072.6437175
   ],
+  "q:q1": [
+   0,
+   "",
+   1793271826.473042
+  ],
   "q:quake": [
    2310,
    "Quake",
@@ -36911,6 +36882,31 @@
    0,
    "",
    1793124160.3708498
+  ],
+  "q:rebellion": [
+   0,
+   "",
+   1793271822.4622085
+  ],
+  "q:rebellion secures": [
+   0,
+   "",
+   1793271821.9468336
+  ],
+  "q:rebellion secures two": [
+   0,
+   "",
+   1793271821.4550078
+  ],
+  "q:rebellion secures two world": [
+   0,
+   "",
+   1793271820.95756
+  ],
+  "q:rebellion secures two world champions": [
+   0,
+   "",
+   1793271820.4563534
   ],
   "q:reblade the death spiral": [
    3489340,
@@ -36971,21 +36967,6 @@
    3723230,
    "Regions",
    1792666910.9642568
-  ],
-  "q:remake": [
-   0,
-   "",
-   1793098886.523989
-  ],
-  "q:remake coming": [
-   0,
-   "",
-   1793098886.0207083
-  ],
-  "q:remake coming 2027": [
-   0,
-   "",
-   1793098885.543973
   ],
   "q:remastered": [
    0,
@@ -37482,6 +37463,11 @@
    "",
    1793185295.324742
   ],
+  "q:secures two world champions for rocket": [
+   0,
+   "",
+   1793271822.949106
+  ],
   "q:seen running": [
    0,
    "",
@@ -37532,6 +37518,36 @@
    "",
    1793102498.2261407
   ],
+  "q:sharma": [
+   0,
+   "",
+   1793271813.4938345
+  ],
+  "q:sharma insists": [
+   0,
+   "",
+   1793271812.9965549
+  ],
+  "q:sharma insists there": [
+   0,
+   "",
+   1793271812.5073402
+  ],
+  "q:sharma insists there's 'more": [
+   0,
+   "",
+   1793271812.0179126
+  ],
+  "q:sharma insists there's 'more demand": [
+   0,
+   "",
+   1793271811.5232363
+  ],
+  "q:sharma insists there's 'more demand than": [
+   0,
+   "",
+   1793271811.0286136
+  ],
   "q:shenmue 3 enhanced": [
    3957530,
    "Shenmue III Enhanced",
@@ -37542,25 +37558,40 @@
    "",
    1793102541.1426997
   ],
+  "q:shopify": [
+   0,
+   "",
+   1793271819.9674935
+  ],
+  "q:shopify rebellion": [
+   0,
+   "",
+   1793271819.4814506
+  ],
+  "q:shopify rebellion secures": [
+   0,
+   "",
+   1793271818.9869533
+  ],
+  "q:shopify rebellion secures two": [
+   0,
+   "",
+   1793271818.4957323
+  ],
+  "q:shopify rebellion secures two world": [
+   0,
+   "",
+   1793271818.002449
+  ],
+  "q:shopify rebellion secures two world champions": [
+   0,
+   "",
+   1793271817.5091064
+  ],
   "q:shutting down after nearly six years": [
    0,
    "",
    1793106100.3731842
-  ],
-  "q:silent hill remake": [
-   0,
-   "",
-   1793098883.5998716
-  ],
-  "q:silent hill remake coming": [
-   0,
-   "",
-   1793098883.118198
-  ],
-  "q:silent hill remake coming 2027": [
-   0,
-   "",
-   1793098882.6370041
   ],
   "q:skate": [
    3354750,
@@ -39470,13 +39501,17 @@
    "playstation",
    "ps plus",
    "sony",
-   "trump mobile t1",
+   "авто",
    "авіація",
    "безпілотники",
+   "бпла",
    "бізнес",
    "винищувачі",
    "військова допомога",
+   "генштаб",
    "герань-4",
+   "герань-5",
+   "держмитслужба",
    "компоненти зброї",
    "монітори",
    "монітори для роботи",
@@ -39486,8 +39521,10 @@
    "оборонка",
    "огляди",
    "польща",
+   "рлс",
+   "росія",
    "санкції",
-   "смартфони",
+   "сили оборони",
    "софт",
    "стартапи",
    "україна",
@@ -39497,58 +39534,6 @@
   ]
  },
  "titles": [
-  [
-   1793097173.7915046,
-   "Ghost Of Yotei Was A Hit, But Its Developer Is Reportedly Cutting Jobs"
-  ],
-  [
-   1793097178.8407936,
-   "Album review: Boss Keloid – Float & Aperture"
-  ],
-  [
-   1793097187.7791033,
-   "Free-to-Play Pokémon Game Is Shutting Down After 5 Years"
-  ],
-  [
-   1793097201.0763924,
-   "Boltgun 2 and Warhammer Survivors devs Auroch Digital say they're laying of 25% of their staff in now-deleted posts"
-  ],
-  [
-   1793097204.5834632,
-   "OpenAI's Ted Sanders shares a rule of thumb for picking the right GPT-model"
-  ],
-  [
-   1793097208.4876955,
-   "Riley Voelkel & Shiva Negar To Voice Adult Animated Comedy Project ‘Above Average’"
-  ],
-  [
-   1793097211.744887,
-   "Стартап експрацівників DOGE \"зламав\" Anthropic – ШІ-агенти проникли в систему менш ніж за 12 годин"
-  ],
-  [
-   1793097213.663572,
-   "Зірка \"Зоряного крейсера \"Галактика\" зіграє в еротичному боді-горорі"
-  ],
-  [
-   1793097217.8647594,
-   "\"Mass Effect was my ultimate white whale\": Journey composer shares 20 minutes of music created during talks to work on BioWare's recently cancelled RPG"
-  ],
-  [
-   1793098987.3945963,
-   "Silent Hill Remake Coming 2027, First Cast Details Leaked"
-  ],
-  [
-   1793099010.3174987,
-   "ARC Raiders 2.3 Update Adds New Player Project and 100 Bug Fixes"
-  ],
-  [
-   1793099020.5289104,
-   "COD DMZ Getting More PvP-Focused Content in Season 1, It’s Claimed"
-  ],
-  [
-   1793099029.5964735,
-   "Mass Effect Has Been Taken Away Just When We Needed It Most"
-  ],
   [
    1793099038.7922497,
    "Infinity Ward Taking Action Against DMZ Duplication Exploits"
@@ -41500,61 +41485,33 @@
   [
    1793269928.1989884,
    "Google's AI search problem finally shows up in the earnings report, some investors believe"
+  ],
+  [
+   1793271791.5291007,
+   "“Rod Stewart was pissed. I thought, ‘That’s something I could do!’” Fish and the making of Marillion"
+  ],
+  [
+   1793271806.5680408,
+   "For the second time this year, Galax says it's not closing down: Palit-owned graphics card brand 'continues to operate as usual'"
+  ],
+  [
+   1793271815.5026908,
+   "Asha Sharma Insists There's 'More Demand Than Consoles Available' as Xbox Hardware Sales Continue to Plummet"
+  ],
+  [
+   1793271824.4533172,
+   "Shopify Rebellion Secures Two World Champions for Rocket League Roster"
+  ],
+  [
+   1793271828.7207992,
+   "Xbox first-party content partially offsets 2% drop in Q1 revenue, hardware decreases 14%"
+  ],
+  [
+   1793271831.6730444,
+   "‘The Cube’ Creator Adam Adler Joins Channel 4’s Production Biz As Creative Director"
   ]
  ],
  "titles_uk": [
-  [
-   1793097173.7915056,
-   "Ghost of Yotei стала хітом, але розробник гри скорочує штат"
-  ],
-  [
-   1793097178.8407946,
-   "Рецензія на альбом: Boss Keloid – Float & Aperture"
-  ],
-  [
-   1793097187.7791042,
-   "Pokémon Unite закривається через п'ять років після релізу"
-  ],
-  [
-   1793097201.0763931,
-   "Auroch Digital звільняє 25% співробітників через кризу в індустрії"
-  ],
-  [
-   1793097204.5834641,
-   "Ted Sanders з OpenAI поділився правилом вибору моделі GPT"
-  ],
-  [
-   1793097208.4876962,
-   "Райлі Воелкел і Шива Негар озвучать анімаційний комедійний серіал Above Average"
-  ],
-  [
-   1793097211.744888,
-   "Стартап експрацівників DOGE \"зламав\" Anthropic – ШІ-агенти проникли в систему менш ніж за 12 годин"
-  ],
-  [
-   1793097213.663573,
-   "Зірка \"Зоряного крейсера \"Галактика\" зіграє в еротичному боді-горорі"
-  ],
-  [
-   1793097217.8647604,
-   "Остін Вінторі показав 20 хвилин музики для скасованої Mass Effect"
-  ],
-  [
-   1793098987.394598,
-   "Ремейк Silent Hill вийде у 2027 році, а в мережі з'явилися перші деталі акторського складу"
-  ],
-  [
-   1793099010.3174999,
-   "У грі ARC Raiders вийшло оновлення 2.3 із проєктом Souls Offering та виправленням 100 помилок"
-  ],
-  [
-   1793099020.5289114,
-   "У першому сезоні Call of Duty DMZ може з'явитися PvP-карта XO1"
-  ],
-  [
-   1793099029.5964746,
-   "Закриття BioWare та скасування Mass Effect 5 викликали хвилю обурення"
-  ],
   [
    1793099038.7922509,
    "Infinity Ward карає гравців за дюп предметів у DMZ"
@@ -43506,6 +43463,30 @@
   [
    1793269928.1989894,
    "Проблеми пошуку з ШІ позначилися на фінансовому звіті Google"
+  ],
+  [
+   1793271791.5291018,
+   "Fish пригадав створення Marillion та історію про розлюченого Rod Stewart"
+  ],
+  [
+   1793271806.5680418,
+   "Galax спростувала чутки про закриття заводу та припинення роботи"
+  ],
+  [
+   1793271815.5026913,
+   "Продажі Xbox впали, але Asha Sharma каже про дефіцит консолей"
+  ],
+  [
+   1793271824.4533179,
+   "Shopify Rebellion підписала чемпіонів світу з Rocket League"
+  ],
+  [
+   1793271828.7208002,
+   "Доходи Xbox у першому кварталі впали на 2%, а продаж заліза знизився на 14%"
+  ],
+  [
+   1793271831.6730452,
+   "Адам Адлер став креативним директором виробничого підрозділу Channel 4"
   ]
  ],
  "ukrainian": {
