@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1793268591.384241
+  }
+ },
  "daily_digest_date": "2026-10-28",
  "freebies": {
   "last_check": 1793266304.908188,
@@ -26,19 +33,6 @@
   ]
  },
  "post_log": [
-  [
-   1792576978.7086132,
-   1612,
-   "💾",
-   "Triage від Chodeberg",
-   "Product Hunt",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.producthunt.com/products/triage-by-chodeberg",
-    "orig": "Triage by Chodeberg"
-   }
-  ],
   [
    1792578684.3004138,
    1613,
@@ -22715,7 +22709,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Тім Свіні заявив, що Valve стримує розвиток геймінгу</b>\n\nГенеральний директор Epic Games Тім Свіні розкритикував Valve, заявивши, що компанія роками стримує геймінг через прив&#x27;язку розробників до Steamworks та 30% комісії. На його думку, екосистема Steam утворює закритий соціальний простір, який ізолює гравців від інших платформ.\n\n🔗 <a href=\"https://www.pcgamer.com/software/platforms/epic-games-chief-tim-sweeney-claims-valve-has-held-gaming-back-for-years/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/software/platforms/epic-games-chief-tim-sweeney-claims-valve-has-held-gaming-back-for-years/",
     "orig": "Epic Games chief Tim Sweeney claims 'Valve has held gaming back for years'"
@@ -23580,6 +23573,20 @@
     "link": "https://insider-gaming.com/aurora-enters-valorant-with-derke-and-boo/",
     "orig": "Aurora Enters Valorant with derke and Boo"
    }
+  ],
+  [
+   1793268597.448692,
+   3381,
+   "🎬",
+   "\"Діаманти DC\": Ґанн розкрив деталі 10-річного плану розвитку DCU",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎬 <b>&quot;Діаманти DC&quot;: Ґанн розкрив деталі 10-річного плану розвитку DCU</b>\n\nСпівкерівник DC Studios Джеймс Ґанн знову вийшов у соцмережу Threads, аби захистити власне бачення кіновсесвіту DCU, уточнити раніше анонсовану 8-10-річну “дорожню карту” розвитку франшизи та чітко пояснити місце кожного персонажа в ній.\n\n🔗 <a href=\"https://itc.ua/ua/novini/diamanty-dc-gann-rozkryv-detali-10-richnogo-planu-rozvytku-dcu/\">ITC.ua</a>\n\n#кіно_і_серіали",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/diamanty-dc-gann-rozkryv-detali-10-richnogo-planu-rozvytku-dcu/",
+    "orig": "\"Діаманти DC\": Ґанн розкрив деталі 10-річного плану розвитку DCU"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23792,11 +23799,11 @@
    1793268171.9004457
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
-   1793181801.8746202,
    1793194317.5414414,
    1793199715.4574835,
    1793205228.2483215,
-   1793264587.7054763
+   1793264587.7054763,
+   1793268597.4491427
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
    1793196215.4263656,
@@ -24749,6 +24756,7 @@
   "2ea4a620a44d44c3": 1793107854.2174432,
   "2ec4c2351d617b4c": 1792594886.4495227,
   "2ecd6a873597674d": 1792197816.2451081,
+  "2edce1938290d381": 1793268597.449097,
   "2ee2a5d94408082c": 1792603276.9900854,
   "2ee71149e8c79665": 1793259084.352233,
   "2eeac714db634918": 1792607482.279542,
@@ -24957,6 +24965,7 @@
   "3bcaee35f2c62ebd": 1793251885.3390276,
   "3be9f63a58c87a2e": 1792249943.7430582,
   "3c01136fd3ef0388": 1792789311.3052301,
+  "3c071370206b1461": 1793268596.836632,
   "3c0b2965a1e23231": 1793198169.2382984,
   "3c14d621f1a403f4": 1792589485.6113114,
   "3c1edad8ed575f88": 1793241076.6609395,
@@ -27562,6 +27571,7 @@
   "e36cdfec8b1fd9a0": 1792530082.4416595,
   "e37d3424cecd4b46": 1792629149.095694,
   "e3841cf71d1a5a7a": 1793026932.4646761,
+  "e39469abc2e766e0": 1793268550.6943142,
   "e395a31027440a90": 1792616512.1695848,
   "e3b80d3d81165538": 1792164613.3894355,
   "e3ec02120107c1db": 1792676134.2642596,
@@ -29189,7 +29199,7 @@
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 18,
    "Pitchfork": 2,
-   "Polygon": 41,
+   "Polygon": 42,
    "Revolver": 1,
    "Stereogum": 1,
    "VGC": 1,
@@ -29211,7 +29221,7 @@
    "GitHub Trending": 17,
    "Hugging Face": 2,
    "IGN": 42,
-   "ITC.ua": 43,
+   "ITC.ua": 44,
    "IndieWire": 15,
    "Insider Gaming": 57,
    "Kerrang!": 23,
@@ -30899,21 +30909,6 @@
    "Battleplan",
    1791815079.4738243
   ],
-  "q:be taken": [
-   0,
-   "",
-   1793095291.3492541
-  ],
-  "q:be taken offline": [
-   0,
-   "",
-   1793095290.8555121
-  ],
-  "q:be taken offline in 2027": [
-   0,
-   "",
-   1793095290.3668754
-  ],
   "q:beast xr glasses are available": [
    0,
    "",
@@ -32443,21 +32438,6 @@
    570,
    "Dota 2",
    1792129284.3772893
-  ],
-  "q:down": [
-   0,
-   "",
-   1793095306.7004743
-  ],
-  "q:down next": [
-   0,
-   "",
-   1793095306.1920795
-  ],
-  "q:down next year": [
-   0,
-   "",
-   1793095305.701117
   ],
   "q:dragon": [
    0,
@@ -35774,16 +35754,6 @@
    "",
    1793197924.366206
   ],
-  "q:next": [
-   0,
-   "",
-   1793095307.6998763
-  ],
-  "q:next year": [
-   0,
-   "",
-   1793095307.1900542
-  ],
   "q:night": [
    0,
    "",
@@ -36774,16 +36744,6 @@
    "POK",
    1791807510.4405518
   ],
-  "q:pokemon": [
-   0,
-   "",
-   1793095287.8760462
-  ],
-  "q:pokemon unite": [
-   0,
-   "",
-   1793095287.381307
-  ],
   "q:pokemon unite is": [
    0,
    "",
@@ -36803,21 +36763,6 @@
    0,
    "",
    1793106094.0983775
-  ],
-  "q:pokemon unite to be": [
-   0,
-   "",
-   1793095286.8893213
-  ],
-  "q:pokemon unite to be taken": [
-   0,
-   "",
-   1793095286.3991244
-  ],
-  "q:pokemon unite to be taken offline": [
-   0,
-   "",
-   1793095285.9101012
   ],
   "q:politician urges president to play modern": [
    0,
@@ -37689,30 +37634,10 @@
    "",
    1793102541.1426997
   ],
-  "q:shutting": [
-   0,
-   "",
-   1793095305.2083628
-  ],
-  "q:shutting down": [
-   0,
-   "",
-   1793095304.7211728
-  ],
   "q:shutting down after nearly six years": [
    0,
    "",
    1793106100.3731842
-  ],
-  "q:shutting down next": [
-   0,
-   "",
-   1793095304.2358055
-  ],
-  "q:shutting down next year": [
-   0,
-   "",
-   1793095303.748452
   ],
   "q:silent hill remake": [
    0,
@@ -38464,11 +38389,6 @@
    "",
    1793134898.7887971
   ],
-  "q:unite": [
-   0,
-   "",
-   1793095289.8763723
-  ],
   "q:unite is": [
    0,
    "",
@@ -38493,21 +38413,6 @@
    0,
    "",
    1793106096.1705992
-  ],
-  "q:unite to be": [
-   0,
-   "",
-   1793095289.369129
-  ],
-  "q:unite to be taken": [
-   0,
-   "",
-   1793095288.880165
-  ],
-  "q:unite to be taken offline": [
-   0,
-   "",
-   1793095288.3750393
   ],
   "q:unite's 1": [
    0,
@@ -39543,11 +39448,6 @@
    0,
    "",
    1793205149.278596
-  ],
-  "q:year": [
-   0,
-   "",
-   1793095308.2140784
   ],
   "q:year in review": [
    0,
@@ -41700,6 +41600,10 @@
   [
    1793268177.4373527,
    "Aurora Enters Valorant with derke and Boo"
+  ],
+  [
+   1793268597.4490988,
+   "\"Діаманти DC\": Ґанн розкрив деталі 10-річного плану розвитку DCU"
   ]
  ],
  "titles_uk": [
@@ -43694,6 +43598,10 @@
   [
    1793268177.4373536,
    "Aurora Gaming збирає зірковий склад з Valorant"
+  ],
+  [
+   1793268597.4490993,
+   "\"Діаманти DC\": Ґанн розкрив деталі 10-річного плану розвитку DCU"
   ]
  ],
  "ukrainian": {
