@@ -2,7 +2,7 @@
  "alerts": {},
  "daily_digest_date": "2026-10-28",
  "freebies": {
-  "last_check": 1793251890.9902732,
+  "last_check": 1793259203.0970864,
   "seen": {
    "3716": 1792306888.9735367,
    "3816": 1792306888.9735367,
@@ -15,30 +15,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-29 07:01 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-latest",
+  "at": "2026-10-29 07:33 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792566437.5356727,
-   1588,
-   "💾",
-   "Graphify-Labs/graphify",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/Graphify-Labs/graphify",
-    "orig": "Graphify-Labs/graphify"
-   }
-  ],
   [
    1792568135.1779208,
    1589,
@@ -22736,7 +22723,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b>Розробники <a href=\"https://store.steampowered.com/app/4665290/\">Alien: Isolation 2</a> підтвердили вихід фізичного видання гри</b>\n\nРозробники з Creative Assembly підтвердили, що сиквел Alien: Isolation отримає повне фізичне видання на дисках. Команда також розповіла про відкриті локації, ще розумнішого Ксеноморфа та збереження атмосфери оригінального фільму Рідлі Скотта. Дата виходу гри наразі невідома.\n\n🔗 <a href=\"https://www.eurogamer.net/alien-isolation-2-commit-physical-edition\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/alien-isolation-2-commit-physical-edition",
     "orig": "Alien: Isolation 2 devs commit to a physical edition: \"Staying true to the analogue nature of Alien is one of our pillars\""
@@ -22755,7 +22741,6 @@
       "https://itc.ua/ua/novini/google-vypustyla-gemini-4-carbon-shi-dlya-vyyavlennya-vrazlyvostej-u-pz/"
      ]
     ],
-    "caption": "🤖 <b>Google DeepMind випустила ШІ-модель Gemini 4 Carbon</b>\n\n🔗 <a href=\"https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/google-deepmind-releases-gemini-4-carbon-just-two-weeks-after-argon-with-gains-across-the-board/",
     "orig": "Google Deepmind releases Gemini 4 Carbon just two weeks after Argon with gains across the board"
@@ -23611,6 +23596,34 @@
     "link": "https://www.theprp.com/2026/10/28/news/haywires-guerilla-video-shoot-in-times-square-quickly-ended-by-the-nypd/",
     "orig": "Haywire’s Guerilla Video Shoot In Times Square Quickly Ended By The NYPD"
    }
+  ],
+  [
+   1793259092.1207693,
+   3358,
+   "💾",
+   "Arco",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>Arco</b>\n\nПроблеми з GitHub і Linear тепер доступні прямо в обговореннях Codex\n\n🔗 <a href=\"https://www.producthunt.com/products/arco-4\">Product Hunt</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/arco-4",
+    "orig": "Arco"
+   }
+  ],
+  [
+   1793259189.330864,
+   3359,
+   "💾",
+   "Macro — єдиний робочий простір для команди",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>Macro — єдиний робочий простір для команди</b>\n\nІнструмент об&#x27;єднує пошту, чат, документи, завдання, агенти, дзвінки та CRM із спільною пам&#x27;яттю на базі ШІ в єдиному швидкому інтерфейсі\n\n🔗 <a href=\"https://github.com/macro-inc/macro\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/macro-inc/macro",
+    "orig": "macro-inc/macro"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23991,12 +24004,9 @@
    1792416696.5336893
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
-   1793088190.4737575,
-   1793089908.5955698,
-   1793091780.9647465,
-   1793171244.087825,
    1793173088.8538845,
-   1793174570.0184677
+   1793174570.0184677,
+   1793259189.33132
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1793114800.417317,
@@ -24013,11 +24023,11 @@
    1793226790.7263663
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
-   1793095283.8431485,
    1793172959.069733,
    1793176591.6444972,
    1793178094.0153651,
-   1793179895.5265257
+   1793179895.5265257,
+   1793259092.121225
   ]
  },
  "seen": {
@@ -24102,6 +24112,7 @@
   "055063f262d5006c": 1793043123.3967369,
   "0555c056d0e11559": 1792080964.3635151,
   "055b9b0913660adf": 1792659681.287901,
+  "0568c09fc85bb2cd": 1793259084.351516,
   "05756f41ddcad4aa": 1792517745.4484406,
   "0575a865e1c3b52b": 1792524128.710633,
   "057d22b7d1040012": 1792702991.1673229,
@@ -24278,6 +24289,7 @@
   "0fa9c3d1a6ce402a": 1793124078.9724152,
   "0fb395b0348ea26f": 1792503139.4916189,
   "0fb5afc9bafc377e": 1792582332.9974902,
+  "0fbdcdfbc49b10c7": 1793259092.121179,
   "0fc23f74f70eaa1b": 1792616476.2030647,
   "0fd44ce5b5c66a69": 1793125921.6521685,
   "0fe3c592aa2b5aa4": 1792919065.3443704,
@@ -24433,6 +24445,7 @@
   "18110877f704747d": 1792342882.6636946,
   "181f73209371dd8a": 1792344680.3336189,
   "182dfa661bf21592": 1792295967.5868788,
+  "182f846e5acaf7e8": 1793259084.3508482,
   "184919ff256e9ffc": 1792270348.786627,
   "186cfe3c3af3b7cd": 1792528327.905065,
   "187503038e084374": 1792683088.5128713,
@@ -24779,6 +24792,7 @@
   "2ec4c2351d617b4c": 1792594886.4495227,
   "2ecd6a873597674d": 1792197816.2451081,
   "2ee2a5d94408082c": 1792603276.9900854,
+  "2ee71149e8c79665": 1793259084.352233,
   "2eeac714db634918": 1792607482.279542,
   "2eec0d8a3497fe76": 1793052082.392098,
   "2eecf6dc3daa1d36": 1792580486.1850193,
@@ -27310,6 +27324,7 @@
   "d1c9a823d59dae3d": 1792531889.2157872,
   "d1ee1b0931d0bcde": 1792612911.4321294,
   "d1f881dcc6843cea": 1792875681.5059094,
+  "d1fa668338b35d98": 1793259202.7391942,
   "d22038c60a8da85f": 1792576855.8088057,
   "d227268959074616": 1793154696.4844794,
   "d229692c4818258f": 1792681317.6590695,
@@ -27508,6 +27523,7 @@
   "df0fb9255c61270b": 1793104450.628442,
   "df1fc52d84e05ce0": 1792854089.001392,
   "df24f28b92dab794": 1792607533.8121731,
+  "df43f2fe1a6cdcdc": 1793259189.3312745,
   "df4521dbfd791bf0": 1792612895.8318949,
   "df45908305c15494": 1792314073.1622975,
   "df54e50a14be2141": 1792400600.6408873,
@@ -29223,7 +29239,7 @@
    "Eurogamer": 18,
    "GameSpot": 21,
    "GamesIndustry.biz": 13,
-   "GitHub Trending": 13,
+   "GitHub Trending": 14,
    "Hugging Face": 2,
    "IGN": 42,
    "ITC.ua": 40,
@@ -29241,7 +29257,7 @@
    "Pitchfork": 6,
    "PlayUA": 18,
    "Polygon": 18,
-   "Product Hunt": 13,
+   "Product Hunt": 14,
    "Revolver": 7,
    "Rock Paper Shotgun": 17,
    "SteamDB": 1,
@@ -29254,7 +29270,7 @@
   "translators": {
    "DeepL": 15,
    "gemini-flash-latest": 15,
-   "gemini-flash-lite-latest": 798
+   "gemini-flash-lite-latest": 801
   },
   "week": "2026-W44"
  },
@@ -32584,30 +32600,10 @@
    "ELDEN RING",
    1792866688.6403193
   ],
-  "q:elder": [
-   0,
-   "",
-   1793084574.453076
-  ],
-  "q:elder scrolls": [
-   0,
-   "",
-   1793084573.946805
-  ],
-  "q:elder scrolls elsweyr": [
-   0,
-   "",
-   1793084573.4469278
-  ],
   "q:elon musk": [
    0,
    "",
    1793199829.5553746
-  ],
-  "q:elsweyr": [
-   0,
-   "",
-   1793084575.9412541
   ],
   "q:embark": [
    1055090,
@@ -37644,16 +37640,6 @@
    "",
    1793176289.5948246
   ],
-  "q:scrolls": [
-   0,
-   "",
-   1793084575.454554
-  ],
-  "q:scrolls elsweyr": [
-   0,
-   "",
-   1793084574.9509928
-  ],
   "q:sealbreakers": [
    4244460,
    "Sealbreakers",
@@ -39685,20 +39671,15 @@
    "sony",
    "xreal",
    "авто",
-   "авіація",
-   "африка",
    "безпілотники",
    "бізнес",
-   "винищувачі",
    "володар перснів",
    "володар перснів: персні влади",
    "електромобілі",
    "емулятори",
-   "ефіопія",
    "китай",
    "кібербезпека",
    "кіно",
-   "літаки",
    "міноборони",
    "новини",
    "ноутбуки",
@@ -39706,28 +39687,14 @@
    "оборонка",
    "пам'ять",
    "робот-амфібія",
-   "росія",
    "серіали",
    "смартокуляри",
    "софт",
-   "су-35с",
    "технології",
    "ігри"
   ]
  },
  "titles": [
-  [
-   1793084571.4001791,
-   "Bill Kramer Says AMPAS Plans To Expand List Of Festivals That Can Serve As Qualifiers For The International Oscar Category"
-  ],
-  [
-   1793084576.98479,
-   "The Elder Scrolls: Elsweyr вийде в листопаді"
-  ],
-  [
-   1793084942.1276422,
-   "nightly-labs/openbot"
-  ],
   [
    1793086480.0675297,
    "Major 'Avatar: Seven Havens’ Korra Reveal May Be Hiding the Truth About the Cataclysm"
@@ -41735,21 +41702,17 @@
   [
    1793257295.2742352,
    "Haywire’s Guerilla Video Shoot In Times Square Quickly Ended By The NYPD"
+  ],
+  [
+   1793259092.1211812,
+   "Arco"
+  ],
+  [
+   1793259189.331277,
+   "macro-inc/macro"
   ]
  ],
  "titles_uk": [
-  [
-   1793084571.4001799,
-   "AMPAS розширить список фестивалів для кваліфікації на «Оскар»"
-  ],
-  [
-   1793084576.9847908,
-   "The Elder Scrolls: Elsweyr вийде в листопаді"
-  ],
-  [
-   1793084942.127643,
-   "nightly-labs/openbot"
-  ],
   [
    1793086480.0675304,
    "Сьомий епизод Avatar: Seven Havens розкриває правду про руйнування Korra"
@@ -43757,6 +43720,14 @@
   [
    1793257295.274236,
    "Поліція Нью-Йорка зірвала несанкціоновані зйомки кліпу Haywire на Таймс-сквер"
+  ],
+  [
+   1793259092.121182,
+   "Arco"
+  ],
+  [
+   1793259189.3312776,
+   "Macro — єдиний робочий простір для команди"
   ]
  ],
  "ukrainian": {
