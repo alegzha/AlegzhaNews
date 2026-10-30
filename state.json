@@ -17,69 +17,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-30 01:08 UTC",
-  "gemini_error": "",
+  "at": "2026-10-30 02:03 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 4
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792632677.22871,
-   1816,
-   "🎮",
-   "Новий тест від PC Gamer пропонує вгадати хорор-ігри за їхніми монстрами",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/can-you-identify-the-horror-game-by-its-horrors/",
-    "orig": "Can you identify the horror game by its horrors?"
-   }
-  ],
-  [
-   1792632680.1083884,
-   1817,
-   "🎮",
-   "Наступна Mass Effect мала отримати небачений рівень свободи вибору",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/mass-effect/the-next-mass-effect-would-have-had-a-level-of-autonomy-and-choice-that-no-other-game-has-been-able-to-match-according-to-bioware-veteran/",
-    "orig": "The next Mass Effect would have had 'a level of autonomy and choice that no other game has been able to match', according to BioWare veteran"
-   }
-  ],
-  [
-   1792634487.7271752,
-   1818,
-   "🤖",
-   "Tesla, IBM та Meta готуються опублікувати звіти на тлі домінування ШІ",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/videos/2026-10-21/the-close-10-21-2026-video",
-    "orig": "Tesla, IBM & Meta Report Earnings as AI Takes Center Stage"
-   }
-  ],
-  [
-   1792634504.9741652,
-   1819,
-   "🎮",
-   "Dragon Ball Xenoverse 3 вийде у другій половині 2027 року",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/dragon-ball-xenoverse-3-narrows-release-window-following-player-feedback",
-    "orig": "Dragon Ball Xenoverse 3 Narrows Release Window Following Player Feedback"
-   }
-  ],
   [
    1792638081.2402194,
    1820,
@@ -22999,7 +22947,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Mammoth змінили концертного барабанщика</b>\n\n🔗 <a href=\"https://www.theprp.com/2026/10/29/news/mammoth-welcome-intervals-drummer-nathan-bulla-following-the-departure-of-garrett-whitlock/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/29/news/mammoth-welcome-intervals-drummer-nathan-bulla-following-the-departure-of-garrett-whitlock/",
     "orig": "Mammoth Welcome Intervals Drummer Nathan Bulla Following The Departure Of Garrett Whitlock"
@@ -23858,6 +23805,20 @@
     "link": "https://variety.com/2026/film/news/beef-actor-justin-h-min-journey-there-hong-sangsoo-film-sales-1236934722/",
     "orig": "‘Beef’ Actor Justin H. Min’s ‘Journey There,’ Hong Sangsoo’s Locarno Winner ‘Nowhere to Lay My Eyes’ Rack Up International Sales for Finecut"
    }
+  ],
+  [
+   1793325781.297563,
+   3618,
+   "🎮",
+   "Attack on Titan 3: перший перегляд",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Attack on Titan 3: перший перегляд</b>\n\nAttack on Titan 3 не є прямим продовженням у звичному розумінні, а скоріше переосмисленням історії. Гра береться за чимало задач одразу, а її амбіції запропонувати щось нове для франшизи справді заслуговують на похвалу.\n\n🔗 <a href=\"https://www.ign.com/articles/attack-on-titan-3-the-final-preview\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/attack-on-titan-3-the-final-preview",
+    "orig": "Attack on Titan 3: The Final Preview"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23945,7 +23906,6 @@
    1793287964.6116188
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1793235700.152788,
    1793271815.502733,
    1793275286.87575,
    1793278927.6195827,
@@ -23962,7 +23922,8 @@
    1793302381.5862408,
    1793311379.318166,
    1793315017.2011275,
-   1793318486.5932448
+   1793318486.5932448,
+   1793325781.2980177
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1793217712.660811,
@@ -25183,6 +25144,7 @@
   "35128c7f307da6ff": 1793226778.7048647,
   "351ff959b9b4fd9f": 1793125882.9278913,
   "352e9a05320a220a": 1792508524.8477433,
+  "3546000bb526f873": 1793325781.2979681,
   "3547e9b704a4f8e2": 1793120668.5453598,
   "3559cf0d5f3297f3": 1792944096.0405872,
   "355f6a04481eb61e": 1792523108.9541988,
@@ -29726,7 +29688,7 @@
    "GamesIndustry.biz": 18,
    "GitHub Trending": 17,
    "Hugging Face": 3,
-   "IGN": 59,
+   "IGN": 60,
    "ITC.ua": 53,
    "IndieWire": 20,
    "Insider Gaming": 72,
@@ -29755,7 +29717,7 @@
   "translators": {
    "DeepL": 29,
    "gemini-flash-latest": 19,
-   "gemini-flash-lite-latest": 1063
+   "gemini-flash-lite-latest": 1064
   },
   "week": "2026-W44"
  },
@@ -30570,6 +30532,16 @@
    "",
    1793196108.545777
   ],
+  "q:3 the final": [
+   0,
+   "",
+   1793325688.3473494
+  ],
+  "q:3 the final preview": [
+   0,
+   "",
+   1793325687.8037796
+  ],
   "q:3 upcoming": [
    0,
    "",
@@ -31354,6 +31326,21 @@
    0,
    "",
    1793210771.720212
+  ],
+  "q:attack": [
+   0,
+   "",
+   1793325684.9624069
+  ],
+  "q:attack on titan": [
+   0,
+   "",
+   1793325684.3573506
+  ],
+  "q:attack on titan 3": [
+   0,
+   "",
+   1793325683.797138
   ],
   "q:aurora enters": [
    0,
@@ -33660,6 +33647,11 @@
    "",
    1793190675.7008207
   ],
+  "q:final": [
+   0,
+   "",
+   1793325689.4005592
+  ],
   "q:final fantasy": [
    1173770,
    "FINAL FANTASY",
@@ -33679,6 +33671,11 @@
    3259780,
    "FINAL FANTASY RESONANCE",
    1792501347.0056672
+  ],
+  "q:final preview": [
+   0,
+   "",
+   1793325688.867673
   ],
   "q:find out": [
    444410,
@@ -39530,6 +39527,26 @@
    "",
    1793287923.8820858
   ],
+  "q:titan": [
+   0,
+   "",
+   1793325687.2925305
+  ],
+  "q:titan 3": [
+   0,
+   "",
+   1793325686.7954648
+  ],
+  "q:titan 3 the final": [
+   0,
+   "",
+   1793325685.9813273
+  ],
+  "q:titan 3 the final preview": [
+   0,
+   "",
+   1793325685.4189253
+  ],
   "q:tomb raider 4 6 remastered": [
    2525380,
    "Tomb Raider IV-VI Remastered",
@@ -41132,10 +41149,6 @@
   ]
  },
  "titles": [
-  [
-   1793152879.234967,
-   "Cheap Trick have reportedly cancelled all of next year's tour dates"
-  ],
   [
    1793154690.6365395,
    "‘Dancing With The Stars’ Recap: 2 Couples Are Sent Packing On Horror Movie Night After Routines Inspired By ‘Sinners,’ ‘The Omen’ & More"
@@ -43167,13 +43180,13 @@
   [
    1793322488.4655538,
    "‘Beef’ Actor Justin H. Min’s ‘Journey There,’ Hong Sangsoo’s Locarno Winner ‘Nowhere to Lay My Eyes’ Rack Up International Sales for Finecut"
+  ],
+  [
+   1793325781.2979705,
+   "Attack on Titan 3: The Final Preview"
   ]
  ],
  "titles_uk": [
-  [
-   1793152879.234968,
-   "Cheap Trick скасовують усі концертні дати на наступний рік"
-  ],
   [
    1793154690.6365404,
    "Дع пари залишили шоу Dancing With The Stars у випуску на тему хорор-фільмів"
@@ -45205,6 +45218,10 @@
   [
    1793322488.4655547,
    "Фільми Хон Сан Су та Кіма Джин Ю знайшли нових міжнародних дистриб'юторів"
+  ],
+  [
+   1793325781.2979712,
+   "Attack on Titan 3: перший перегляд"
   ]
  ],
  "ukrainian": {
