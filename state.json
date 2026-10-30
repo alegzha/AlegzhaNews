@@ -1,8 +1,15 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
+   "detail": "https://www.kerrang.com/feed.rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Kerrang!» не працює",
+   "sent": 0,
+   "since": 1793372476.168546
+  }
+ },
  "daily_digest_date": "2026-10-29",
  "freebies": {
-  "last_check": 1793365353.705513,
+  "last_check": 1793372556.1993506,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -17,265 +24,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-30 14:32 UTC",
+  "at": "2026-10-30 15:02 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 4
+   "gemini-flash-lite-latest": 10
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792679652.091326,
-   1914,
-   "🎮",
-   "Marvel's Wolverine очолила чарт продажів у США з рекордом для Sony з часів Helldivers 2",
-   "GamesIndustry.biz",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.gamesindustry.biz/marvels-wolverine-leads-us-september-charts-achieves-highest-monthly-dollar-sales-for-a-sony-published-title-since-helldivers-2",
-    "orig": "Marvel's Wolverine leads US September charts, achieves highest monthly dollar sales for a Sony-published title since Helldivers 2"
-   }
-  ],
-  [
-   1792679660.938829,
-   1915,
-   "🤖",
-   "ШІ збирає ваші секрети: дослідники виявили ризики пам’яті чатботів",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/shi-zapam-yatovuye-te-chogo-vi-pryamo-ne-govorili-yak-chatgpt-stvoryuye-vash-profil-316435/",
-    "orig": "ШІ збирає ваші секрети: дослідники виявили ризики пам’яті чатботів"
-   }
-  ],
-  [
-   1792679674.6934228,
-   1916,
-   "🎮",
-   "Демоверсія Monster Hunter Wilds для Nintendo Switch 2 приємно вражає оптимізацією",
-   "Digital Foundry",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.digitalfoundry.net/previews/monster-hunter-wilds-switch-2-demo-is-surprisingly-refined-with-clever-cutbacks-and-superior-upscaling",
-    "orig": "Preview: Monster Hunter Wilds' Switch 2 Demo Is Surprisingly Refined, with Clever Cutbacks and Superior Upscaling"
-   }
-  ],
-  [
-   1792679686.482147,
-   1917,
-   "🎮",
-   "Уразливість у PHP спричинила збої в Final Fantasy 14 та інших іграх",
-   "Eurogamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.eurogamer.net/video-games-down-php-vulnerability",
-    "orig": "Final Fantasy 14, Umamusume: Pretty Derby, and more impacted as PHP vulnerability outages hit games around the globe"
-   }
-  ],
-  [
-   1792679699.8433394,
-   1918,
-   "🎮",
-   "Режисер Resident Evil Zach Cregger прокоментував успіх свого фільму після хейту",
-   "GameSpot",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.gamespot.com/articles/resident-evil-director-zach-cregger-feels-vindicated-following-gamer-backlash-to-his-highly-successful-movie/",
-    "orig": "Resident Evil Director Zach Cregger Feels “Vindicated” Following Gamer Backlash To His Highly Successful Movie"
-   }
-  ],
-  [
-   1792679701.8951137,
-   1919,
-   "🎬",
-   "Рекорд із часів Нолана: чому \"Проєкт \"Аве Марія\" важливий для жанру",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/rekord-iz-chasiv-nolana-chomu-proyekt-ave-mariya-vazhlyvyj-dlya-zhanru/",
-    "orig": "Рекорд із часів Нолана: чому \"Проєкт \"Аве Марія\" важливий для жанру"
-   }
-  ],
-  [
-   1792679773.3944826,
-   1920,
-   "🎮",
-   "Новий драйвер Nvidia додає підтримку Advanced Shader Delivery для Call of Duty та Gears of War",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/hardware/graphics-cards/no-more-waiting-on-shaders-to-compile-as-nvidias-latest-driver-adds-advanced-shader-delivery-users-report-lower-ram-usage-in-call-of-duty-modern-warfare-4-and-gears-of-war-e-day/",
-    "orig": "No more waiting on shaders to compile as Nvidia's latest driver adds advanced shader delivery: users report lower RAM usage in Call of Duty: Modern Warfare 4 and Gears of War: E-Day"
-   }
-  ],
-  [
-   1792679784.2757509,
-   1921,
-   "🤘",
-   "Spanish Love Songs випустили новий сингл Doom Tripping",
-   "Kerrang!",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.kerrang.com/listen-to-spanish-love-songs-retro-new-single-welcome-to-hell-future-nausea-dylan-slocum",
-    "orig": "Listen to Spanish Love Songs’ retro new single, Welcome To Hell"
-   }
-  ],
-  [
-   1792679786.5637193,
-   1922,
-   "🤖",
-   "Muse від Meta налаштували 10 млн людей – найчастіше агенту доручають покупки",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/meta-muse-10-mln-users-316412/",
-    "orig": "Muse від Meta налаштували 10 млн людей – найчастіше агенту доручають покупки"
-   }
-  ],
-  [
-   1792679789.3729084,
-   1923,
-   "🎮",
-   "Сценаристи Mass Effect 5 розповіли, якою мала бути скасована гра",
-   "ITC.ua",
-   {
-    "also": [
-     [
-      "PC Gamer",
-      "https://www.pcgamer.com/gaming-industry/ex-bioware-boss-and-mass-effect-director-casey-hudson-says-hell-forever-be-grateful-for-his-time-at-the-studio-its-legacy-will-live-on/"
-     ],
-     [
-      "Insider Gaming",
-      "https://insider-gaming.com/canceled-mass-effect-games-trailer-seemingly-leaks-online/"
-     ],
-     [
-      "IGN",
-      "https://www.ign.com/articles/mass-effect-5-dev-says-bioware-saw-what-larian-and-cd-projekt-had-done-in-the-rpg-space-and-was-taking-the-franchise-to-the-next-level"
-     ],
-     [
-      "Mezha",
-      "https://mezha.ua/news/mass-effect-universe-trailer-316444/"
-     ]
-    ],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/stsenarysty-mass-effect-5-rozpovily-yakoyu-mala-buty-skasovana-gra/",
-    "orig": "Сценаристи Mass Effect 5 розповіли, якою мала бути скасована гра"
-   }
-  ],
-  [
-   1792679799.266593,
-   1924,
-   "🎬",
-   "Метт Френд долучився до шоу Thursday Night Football на Prime Video",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/matt-friend-prime-video-thursday-night-football-postgame-1237170159/",
-    "orig": "Matt Friend Joins Prime Video’s ‘Thursday Night Football’ Postgame Show"
-   }
-  ],
-  [
-   1792681297.1442475,
-   1925,
-   "🎮",
-   "Sony анонсувала лімітований геймпад DualSense на честь 30-річчя серії Gran Turismo",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/gran-turismo-limited-edition-ps5-dualsense-controller-where-to-buy",
-    "orig": "Gran Turismo Limited-Edition PS5 DualSense Controller Is Up for Preorder in Celebration of the Series 30th Anniversary"
-   }
-  ],
-  [
-   1792681317.6587074,
-   1926,
-   "🤘",
-   "Queens of the Stone Age анонсували тур 2027 року з Pixies",
-   "Loudwire",
-   {
-    "also": [
-     [
-      "Revolver",
-      "https://www.revolvermag.com/events/queens-of-the-stone-age-announce-perfecth-u-s-arena-tour/"
-     ],
-     [
-      "Kerrang!",
-      "https://www.kerrang.com/queens-of-the-stone-age-announce-perfecth-us-tour-with-pixies-supporting"
-     ],
-     [
-      "Blabbermouth",
-      "https://blabbermouth.net/news/queens-of-the-stone-age-announce-may-2027-u-s-tour"
-     ],
-     [
-      "ThePRP",
-      "https://www.theprp.com/2026/10/22/news/queens-of-the-stone-age-perform-on-the-tonight-show-announce-u-s-tour-with-pixies-wheelchair-sports-camp/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://loudwire.com/queens-of-the-stone-age-2027-tour-dates-pixies/",
-    "orig": "Queens of the Stone Age Announce 2027 Tour With Pixies"
-   }
-  ],
-  [
-   1792681326.910388,
-   1927,
-   "🎮",
-   "Воррен Спектор різко розкритикував закриття BioWare",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/gaming-industry/game-industry-legend-warren-spector-blows-up-over-biowares-closure-its-utter-bulls-t/",
-    "orig": "Game industry legend Warren Spector blows up over BioWare's closure: 'it's utter bulls**t'"
-   }
-  ],
-  [
-   1792681335.7681515,
-   1928,
-   "🤘",
-   "Iron Maiden, Korn, blink-182 та Falling in Reverse стануть хедлайнерами Sonic Temple 2027",
-   "Revolver",
-   {
-    "also": [
-     [
-      "ThePRP",
-      "https://www.theprp.com/2026/10/22/news/iron-maiden-korn-falling-in-reverse-blink-182-faith-no-more-etc-booked-for-2027-sonic-temple-festival/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.revolvermag.com/events/iron-maiden-korn-blink-182-and-falling-in-reverse-headline-sonic-temple-2027/",
-    "orig": "IRON MAIDEN, KORN, BLINK-182 and FALLING IN REVERSE headline SONIC TEMPLE 2027"
-   }
-  ],
-  [
-   1792681338.2736835,
-   1929,
-   "💾",
-   "1Password дозволив ChatGPT та іншим ШІ-агентам користуватися паролями \"наосліп\"",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/1password-for-agents-316438/",
-    "orig": "1Password дозволив ChatGPT та іншим ШІ-агентам користуватися паролями \"наосліп\""
-   }
-  ],
   [
    1792681360.6252704,
    1930,
@@ -23205,7 +22964,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Завершилися зйомки документального фільму A Girl Like Rose про моделювання та життя Rose Bertram</b>\n\nБельгійська супермодель Rose Bertram розповіла про документальну стрічку A Girl Like Rose, яка розповідає про її кар&#x27;єру та боротьбу з наслідками залежності її матері. Фільм знімали протягом шести років під керівництвом режисера Jonathan de Jong, а його реліз заплановано на 2027 рік.\n\n🔗 <a href=\"https://deadline.com/2026/10/supermodel-rose-bertram-documentary-a-girl-like-rose-2027-1237208052/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/supermodel-rose-bertram-documentary-a-girl-like-rose-2027-1237208052/",
     "orig": "Supermodel Rose Bertram On Her Revealing Feature Doc: “The Thing I’ve Kept Secret For So Long Is Now, In A Way, Being Shared With The World”"
@@ -23219,7 +22977,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎮 <b>PS5 запускає ігри зі Steam через Linux: модифікація активує додаткові блоки GPU</b>\n\nPlayStation 5 навчилася запускати ігри зі Steam завдяки спеціальній версії Linux Bazzite. Проєкт ps5-bazzite-deck дозволяє завантажувати консоль у Steam Gaming Mode, користуватися бібліотекою ПК-ігор і перемикатися на робочий стіл Linux. Крім того, модифікація може розблокувати додаткові обчислювальні блоки графічного процесора PS5.\n\n🔗 <a href=\"https://itc.ua/ua/novini/ps5-zapuskaye-igry-zi-steam-cherez-linux-modyfikatsiya-aktyvuye-dodatkovi-bloky-gpu/\">ITC.ua</a>\n\n#ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/ps5-zapuskaye-igry-zi-steam-cherez-linux-modyfikatsiya-aktyvuye-dodatkovi-bloky-gpu/",
     "orig": "PS5 запускає ігри зі Steam через Linux: модифікація активує додаткові блоки GPU"
@@ -23233,7 +22990,6 @@
    "Kerrang!",
    {
     "also": [],
-    "caption": "🤘 <b>Nickelback анонсували світове турне за участю Don Broco</b>\n\nГурт Nickelback запланував серію концертом на наступний рік у Великій Британії, Європі, Північній Америці та Австралії. До колективу в цьому турі приєднається гурт Don Broco.\n\n🔗 <a href=\"https://www.kerrang.com/album-review-nickelback-everything-under-the-sun\">Kerrang!</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.kerrang.com/album-review-nickelback-everything-under-the-sun",
     "orig": "Album review: Nickelback – Everything Under The Sun"
@@ -23247,7 +23003,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b>Celeste і TowerFall зняли з продажу на Xbox через підтримку руху BDS</b>\n\nРозробник Maddy Thorson добровільно видалив Celeste та TowerFall з магазину Xbox на підтримку руху BDS. Це рішення пов&#x27;язане з партнерством Microsoft і його хмарних технологій з урядом Ізраїлю. Ігри й надалі доступні на PlayStation, ПК та Switch.\n\n🔗 <a href=\"https://www.eurogamer.net/towerfall-celeste-xbox-boycott-delisted\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/towerfall-celeste-xbox-boycott-delisted",
     "orig": "Celeste and TowerFall dev explains why both games were suddenly delisted from Xbox"
@@ -23261,7 +23016,6 @@
    "AIN.ua",
    {
     "also": [],
-    "caption": "💾 <b>Медична лабораторія у кишені: як застосунок Діла спрощує контроль здоров’я для всієї родини</b>\n\nШвидкі візити між зідзвонами, аналітика графіків чи контроль даних усієї родини — у кожного свій ритм. Розповідаємо, як застосунок «Діла» адаптується під сценарії трьох різних користувачів.\n\n🔗 <a href=\"https://ain.ua/2026/10/29/dila-medychna-laboratoria-v-kysheni/\">AIN.ua</a>\n\n#софт",
     "kind": "photo",
     "link": "https://ain.ua/2026/10/29/dila-medychna-laboratoria-v-kysheni/",
     "orig": "Медична лабораторія у кишені: як застосунок Діла спрощує контроль здоров’я для всієї родини"
@@ -23275,7 +23029,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>Молоді розробники ремейку Ocarina of Time не грали в оригінал</b>\n\nПродюсер серії Zelda Ейдзі Аонума розповів, що деякі молоді члени команди ремейку Ocarina of Time ніколи не грали в оригінальну гру. За його словами, це пішло на користь проєкту, оскільки свіжий погляд допоміг адаптувати управління та зробити його цікавішим для сучасних гравців.\n\n🔗 <a href=\"https://www.ign.com/articles/zelda-chief-eiji-aonuma-says-some-of-the-younger-members-of-the-ocarina-of-time-remake-team-had-never-played-the-original-game-and-thats-a-good-thing\">IGN</a>\n\n#ігри",
     "kind": "text",
     "link": "https://www.ign.com/articles/zelda-chief-eiji-aonuma-says-some-of-the-younger-members-of-the-ocarina-of-time-remake-team-had-never-played-the-original-game-and-thats-a-good-thing",
     "orig": "Zelda Chief Eiji Aonuma Says Some of the Younger Members of the Ocarina of Time Remake Team Had Never Played the Original Game — and That's a Good Thing"
@@ -23289,7 +23042,6 @@
    "Kerrang!",
    {
     "also": [],
-    "caption": "🤘 <b>Native James випустив новий сингл DUMB BRUDDAH</b>\n\n🔗 <a href=\"https://www.kerrang.com/watch-native-james-pay-tribute-to-classic-00s-nu-metal-videos-in-visuals-for-new-single-dumb-bruddah\">Kerrang!</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.kerrang.com/watch-native-james-pay-tribute-to-classic-00s-nu-metal-videos-in-visuals-for-new-single-dumb-bruddah",
     "orig": "Watch Native James pay tribute to classic ‘00s nu metal videos in visuals for new single, DUMB BRUDDAH"
@@ -23303,7 +23055,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>Для <a href=\"https://store.steampowered.com/app/1086940/\">Baldur&#x27;s Gate 3</a> вийшов мод із власною кампанією у всесвіті World of Warcraft</b>\n\nМодер SquallyDaBeanz випустив перший акт кампанії Forsaken для Baldur&#x27;s Gate 3, події якої розгортаються в локації Tirisfal Glades із World of Warcraft. Гравці візьмуть під контроль невмерлого, що звільнився від влади Lich King і прагне повернути Lordaeron. Доступно понад 20 квестів для 1–5 рівнів та троє супутників.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/baldurs-gate-3-custom-campaign-mod-channels-world-of-warcraft-with-an-adventure-about-undead-former-slaves-fighting-to-reclaim-a-kingdom\">Rock Paper Shotgun</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/baldurs-gate-3-custom-campaign-mod-channels-world-of-warcraft-with-an-adventure-about-undead-former-slaves-fighting-to-reclaim-a-kingdom",
     "orig": "Baldur's Gate 3 custom campaign mod channels World of Warcraft with an adventure about undead former slaves fighting to reclaim a kingdom"
@@ -24059,11 +23810,138 @@
    "Нову Mass Effect скасували на користь Star Wars: Battlefront 3",
    "Insider Gaming",
    {
-    "also": [],
+    "also": [
+     [
+      "Eurogamer",
+      "https://www.eurogamer.net/ea-closed-bioware-because-star-wars-battlefront-3"
+     ]
+    ],
     "caption": "🎮 <b>Нову <a href=\"https://store.steampowered.com/app/1328670/\">Mass Effect</a> скасували на користь <a href=\"https://store.steampowered.com/app/1237980/\">Star Wars: Battlefront</a> 3</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2651130/\">Canceled</a>\n\nКомпанія EA закрила студію BioWare та скасувала розробку нової Mass Effect через інвестиції в Star Wars: Battlefront 3. Керівництво визнало проєкт за франшизою Star Wars менш ризикованим, а попередні ігри BioWare не виправдали очікувань.\n\n🔗 <a href=\"https://insider-gaming.com/new-mass-effect-was-canceled-in-favor-of-star-wars-battlefront-3/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/new-mass-effect-was-canceled-in-favor-of-star-wars-battlefront-3/",
     "orig": "New Mass Effect Was Canceled in Favor of Star Wars: Battlefront 3"
+   }
+  ],
+  [
+   1793372487.5637028,
+   3724,
+   "🎬",
+   "Рецензія на документальний фільм Everest: The Other Side",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Рецензія на документальний фільм Everest: The Other Side</b>\n\nNatGeo випускає в кінотеатри документальну стрічку режисерів Джиммі Чіна та Елізабет Чай Васархелі про альпініста й лижника Джима Моррісона. Фільм розповідає про його небезпечне сходження на Північну стіну Everest на тлі особистих трагедій і загибелі його партнерки Гіларі Нелсон.\n\n🔗 <a href=\"https://www.indiewire.com/criticism/movies/everest-the-other-side-review-everest-climbing-doc-1235214536/\">IndieWire</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/criticism/movies/everest-the-other-side-review-everest-climbing-doc-1235214536/",
+    "orig": "‘Everest: The Other Side’ Review: A Grieving Ski Mountaineer Scales the Face of Death in Chai Vasarhelyi and Jimmy Chin’s Climbing Doc"
+   }
+  ],
+  [
+   1793372491.1527815,
+   3725,
+   "🤘",
+   "Enslaved випустили атмосферний візуалайзер на трек \"I Am Ice\" за участю Johan Sara Jr.",
+   "Metal Injection",
+   {
+    "also": [],
+    "caption": "🤘 <b>Enslaved випустили атмосферний візуалайзер на трек &quot;I Am Ice&quot; за участю Johan Sara Jr.</b>\n\nКрижаний трек, щоб ідеально розпочати ваш гелловінський вікенд.\n\n🔗 <a href=\"https://metalinjection.net/new-music/watch-enslaved-release-visualizer-for-mid-standout-song-i-am-ice-featuring-johan-sara-jr\">Metal Injection</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://metalinjection.net/new-music/watch-enslaved-release-visualizer-for-mid-standout-song-i-am-ice-featuring-johan-sara-jr",
+    "orig": "Watch: Enslaved Release Visualizer For 'Mið' Standout song \"I Am Ice\" Featuring Johan Sara Jr."
+   }
+  ],
+  [
+   1793372498.2097526,
+   3726,
+   "🤘",
+   "Rob Zombie випустив новий кліп на трек Sir Lord Acid Wolfman до Хелловіну",
+   "Blabbermouth",
+   {
+    "also": [
+     [
+      "Metal Injection",
+      "https://metalinjection.net/news/happy-halloween-watch-rob-zombies-new-video-for-sir-acid-wolfman"
+     ]
+    ],
+    "caption": "🤘 <b>Rob Zombie випустив новий кліп на трек Sir Lord Acid Wolfman до Хелловіну</b>\n\nРок-ікона Rob Zombie презентував новий кліп на пісню &quot;Sir Lord Acid Wolfman&quot; з останнього альбому &quot;The Great Satan&quot;. Відео виконане у фірмовому макабричному стилі музиканта й приурочене до святкування Хелловіну.\n\n🔗 <a href=\"https://blabbermouth.net/news/rob-zombie-summons-sir-lord-acid-wolfman-in-new-halloween-music-video\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/rob-zombie-summons-sir-lord-acid-wolfman-in-new-halloween-music-video",
+    "orig": "ROB ZOMBIE Summons 'Sir Lord Acid Wolfman' In New Halloween Music Video"
+   }
+  ],
+  [
+   1793372504.3351555,
+   3727,
+   "🎮",
+   "У Brawl Stars роздають безкоштовний Thinking Pin — як забрати нагороду?",
+   "PlayUA",
+   {
+    "also": [],
+    "caption": "🎮 <b>У Brawl Stars роздають безкоштовний Thinking Pin — як забрати нагороду?</b>\n\nSupercell підготувала новий подарунок для гравців Brawl Stars напередодні жовтневого Brawl Talk 2026. Користувачі можуть безкоштовно отримати тематичний пін із зображенням замисленого скелета, скориставшись спеціальним QR-кодом або посиланням. Нова косметична нагорода отримала серед спільноти назву Thinking Pin, хоча офіційно Supercell її так не називала. На піні зображено череп скелета із замисленим виразом. Про появу подарунка […]\n\n🔗 <a href=\"https://playua.net/u-brawl-stars-rozdayut-bezkoshtovnyj-thinking-pin-yak-zabraty-nagorodu/\">PlayUA</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://playua.net/u-brawl-stars-rozdayut-bezkoshtovnyj-thinking-pin-yak-zabraty-nagorodu/",
+    "orig": "У Brawl Stars роздають безкоштовний Thinking Pin — як забрати нагороду?"
+   }
+  ],
+  [
+   1793372510.1940055,
+   3728,
+   "🎮",
+   "EA закрила BioWare заради розробки Star Wars Battlefront 3",
+   "VGC",
+   {
+    "also": [
+     [
+      "IGN",
+      "https://www.ign.com/articles/mass-effect-5-and-bioware-reportedly-died-so-star-wars-battlefront-3-could-live"
+     ]
+    ],
+    "caption": "🎮 <b>EA закрила BioWare заради розробки <a href=\"https://store.steampowered.com/app/1237980/\">Star Wars Battlefront</a> 3</b>\n\nЗгідно з новим звітом, рішення EA закрити BioWare та скасувати нову гру у серії Mass Effect було пов&#x27;язане з вибором на користь Star Wars Battlefront 3. Керівництво компанії вирішило інвестувати у проєкт за «Зоряними війнами», вважаючи його більш перспективним на тлі фінансових труднощів.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/ea-chose-to-shut-down-bioware-so-it-could-make-star-wars-battlefront-3-instead-its-claimed/\">VGC</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/ea-chose-to-shut-down-bioware-so-it-could-make-star-wars-battlefront-3-instead-its-claimed/",
+    "orig": "EA chose to shut down BioWare so it could make Star Wars Battlefront 3 instead, it’s claimed"
+   }
+  ],
+  [
+   1793372530.3917782,
+   3729,
+   "🎮",
+   "Studio Atelico випустила Atelico AI Engine у ранній доступ",
+   "GamesIndustry.biz",
+   {
+    "also": [],
+    "caption": "🎮 <b>Studio Atelico випустила Atelico AI Engine у ранній доступ</b>\n\nStudio Atelico випустила у ранній доступ рушій Atelico AI Engine для локальної роботи на пристроях без хмарних серверів. Технологія сумісна з Unity, Unreal Engine та Godot, дозволяючи генерувати графіку, запускати мовні моделі та керувати персонажами без падіння продуктивності геймплею.\n\n🔗 <a href=\"https://www.gamesindustry.biz/studio-atelico-launches-atelico-ai-engine-into-early-access\">GamesIndustry.biz</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamesindustry.biz/studio-atelico-launches-atelico-ai-engine-into-early-access",
+    "orig": "Studio Atelico launches Atelico AI Engine into Early Access"
+   }
+  ],
+  [
+   1793372548.1335685,
+   3730,
+   "🎮",
+   "Вийшов новий епізод подкасту VGC",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>Вийшов новий епізод подкасту VGC</b>\n\nУ свіжому випуску VGC: The Video Game Podcast журналісти Джордан Міддлер і Кріс Скалліон обговорюють головні ігрові новини тижня. Також Кріс ділиться враженнями від Switch Sports Resort.\n\n🔗 <a href=\"https://www.videogameschronicle.com/blog/podcast/podcast-we-pitch-xboxs-800-million-netflix-empire/\">VGC</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/blog/podcast/podcast-we-pitch-xboxs-800-million-netflix-empire/",
+    "orig": "Podcast: We pitch Xbox’s $800 Million Netflix empire"
+   }
+  ],
+  [
+   1793372554.6380806,
+   3731,
+   "🎮",
+   "Crimson Desert Enhanced Edition отримала безплатну демоверсію на PlayStation та Xbox",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/3321460/\">Crimson Desert Enhanced</a> Edition отримала безплатну демоверсію на PlayStation та Xbox</b>\n\nРозробники випустили безплатну п&#x27;ятигодинну пробну версію Crimson Desert Enhanced Edition для консолей PlayStation та Xbox на честь релізу DLC Charting the Unknown. Збережений прогрес можна буде перенести до повної версії гри після її купівлі.\n\n🔗 <a href=\"https://www.eurogamer.net/crimson-desert-free-demo-xbox-playstation\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/crimson-desert-free-demo-xbox-playstation",
+    "orig": "Crimson Desert Enhanced Edition gets a surprise demo on PlayStation and Xbox, lets you play for 5 hours and carry over your save data"
    }
   ]
  ],
@@ -24123,13 +24001,11 @@
    1793368995.6274958
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1793280859.587325,
-   1793282869.232121,
-   1793284580.7621686,
    1793288167.0471866,
    1793291895.771292,
    1793356283.3814626,
-   1793363585.288578
+   1793363585.288578,
+   1793372554.6385462
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1793282768.8882632,
@@ -24144,11 +24020,11 @@
    1793304112.5441198
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
-   1793279009.9306014,
    1793287916.8874373,
    1793287964.6116188,
    1793358146.4592693,
-   1793365299.3911376
+   1793365299.3911376,
+   1793372530.3922298
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
    1793278927.6195827,
@@ -24227,11 +24103,10 @@
    1793370751.863595
   ],
   "games|PlayUA|https://playua.net/feed/": [
-   1793278961.9243023,
-   1793282737.1575086,
    1793295361.0304713,
    1793295368.9002233,
-   1793349384.3380992
+   1793349384.3380992,
+   1793372504.335576
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
    1793291919.3229356,
@@ -24257,10 +24132,11 @@
    1793295464.3271272
   ],
   "games|VGC|https://www.videogameschronicle.com/feed/": [
-   1793283014.0152397,
    1793298776.5641387,
    1793354502.614497,
-   1793369043.0100954
+   1793369043.0100954,
+   1793372510.1944795,
+   1793372548.1340249
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1793288097.1275826,
@@ -24298,11 +24174,11 @@
    1793370766.8298547
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
-   1793284416.234995,
    1793302388.5944755,
    1793304104.0741134,
    1793309477.5788996,
-   1793311368.2387774
+   1793311368.2387774,
+   1793372487.5641656
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1793305980.3167088
@@ -24318,7 +24194,6 @@
    1793322481.9678745
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1793284295.047244,
    1793291693.5082853,
    1793291766.9080882,
    1793295355.539453,
@@ -24331,7 +24206,8 @@
    1793365279.7793088,
    1793367273.4925017,
    1793368936.6866915,
-   1793368973.1462455
+   1793368973.1462455,
+   1793372498.2101905
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -24399,7 +24275,8 @@
    1793296890.1515994,
    1793302400.4260347,
    1793309480.1593864,
-   1793367278.5374775
+   1793367278.5374775,
+   1793372491.1532452
   ],
   "music|MetalSucks|https://www.metalsucks.net/feed/": [
    1793223099.157012
@@ -24649,6 +24526,7 @@
   "0876c9c2b39765c7": 1793349392.834355,
   "087aa22901d42913": 1792431054.249864,
   "087de18cd7aaaca2": 1792776725.5636072,
+  "087ee6deba848839": 1793372484.525533,
   "0889f8dbf01bd0dc": 1793019967.6420817,
   "089e6b26460bfc38": 1793125902.6292062,
   "08a956fa0ac8f8f5": 1792782170.4246993,
@@ -24685,6 +24563,7 @@
   "0a917c4ab073a7c6": 1792582303.238337,
   "0ab60fd395648efc": 1792674238.2990987,
   "0ac334896b0cc95d": 1792758683.242251,
+  "0acdb34a2815525c": 1793372498.2101462,
   "0ace1b14f2f5cdea": 1792688776.9853544,
   "0aee19387688069a": 1792619375.4974558,
   "0afa1d87c395f9fb": 1792863196.1637373,
@@ -25340,6 +25219,7 @@
   "3085291e223eefb2": 1792720884.3421679,
   "3088197c276e6e0d": 1792679454.2770658,
   "30905c3403f9ca5b": 1792571491.704074,
+  "3096aa92ab3e554d": 1793372484.54455,
   "30988543bd3fb746": 1793199706.1641254,
   "30b33e33e366feba": 1793295368.900179,
   "30be303575f979d2": 1792177237.6718464,
@@ -25427,6 +25307,7 @@
   "35b0095709618c32": 1792665186.3055496,
   "35b6752c52af44eb": 1793206879.087405,
   "35be12eaf49040a5": 1792764140.6915898,
+  "35c7c978195d3a78": 1793372522.233624,
   "35d89621cb0500ea": 1793113368.5385554,
   "360091168de07488": 1792476083.8763885,
   "3617b3e21507e27b": 1793193000.6582832,
@@ -25837,6 +25718,7 @@
   "4de5ae8cab3acc33": 1792197803.449663,
   "4de893c3213a0a2e": 1793104394.1019852,
   "4e07ba2a098db815": 1793201545.8753684,
+  "4e124e1998c509a0": 1793372484.5462632,
   "4e1c294c9f14e0ab": 1792776755.796842,
   "4e569a08412e8ec3": 1793194317.5413907,
   "4e76c4e336a16839": 1793100681.6811984,
@@ -25966,6 +25848,7 @@
   "557548bcc6d90893": 1792416731.0726314,
   "5587920a4d23b288": 1792621910.323267,
   "55889500fcdf5419": 1793199713.3399613,
+  "55971c64f62c815a": 1793372530.3921862,
   "55e77c526310cc43": 1792519338.8522263,
   "55eb6a719b898160": 1792706500.090594,
   "55f023811b9efe9c": 1793187191.8722298,
@@ -26106,6 +25989,7 @@
   "5d118fadbe793ddd": 1792670538.8058562,
   "5d1c70075be34a95": 1792665082.1346412,
   "5d21b9766f658375": 1793111477.221037,
+  "5d2ae12f22af5b6b": 1793372504.3355322,
   "5d2ca3784a2c7521": 1792607491.6169372,
   "5d52524d6c56762d": 1792470684.6750398,
   "5d559ffe12d84ad5": 1792775817.3664658,
@@ -26364,6 +26248,7 @@
   "6c1920a3be0c08fe": 1793102565.337167,
   "6c20a5ea40754ac5": 1792947683.145798,
   "6c23d46484781d62": 1793104452.9583921,
+  "6c382df1aa3474fd": 1793372510.1944354,
   "6c3909f02bf46b4b": 1792676050.5073264,
   "6c4615c9f19e776a": 1792400619.9457192,
   "6c4d4b52e5b9d1e5": 1793026878.5568428,
@@ -26468,6 +26353,7 @@
   "71d57705fc5606b4": 1792681310.569161,
   "71e302cc8dad4844": 1792414916.6822224,
   "71e56a7b21516d6e": 1792702971.695565,
+  "71f0e9eaac778af1": 1793372550.1000662,
   "71f11f84b94b32fb": 1792585922.1488452,
   "7201f15fe5a7e2f6": 1792756133.0334382,
   "7203879df98082f0": 1792825405.646989,
@@ -26858,6 +26744,7 @@
   "8954a7478946bb17": 1793208685.8469906,
   "89599497293a46a2": 1792443686.3810863,
   "8960ee4e0648583d": 1793020590.2737174,
+  "89bc908f76e1f72d": 1793372548.1339798,
   "89f5d86d57cc5ad4": 1792346493.0826466,
   "8a090c85828412dc": 1792670718.2033083,
   "8a2017f56e593542": 1792668678.497815,
@@ -27554,6 +27441,7 @@
   "b20fcdf61b72dcd3": 1793289832.524448,
   "b239a9edb868e7cc": 1793210835.824067,
   "b23fd40b8c815cd5": 1792432891.9650607,
+  "b254c4c4c749975a": 1793372535.0958557,
   "b26e01ad9a360759": 1792766009.6875176,
   "b279361ff9219da7": 1793347589.9730864,
   "b27d157e9d3716ec": 1792431081.499187,
@@ -27613,6 +27501,7 @@
   "b59542c992a8d630": 1792686678.765768,
   "b59d50f87e18ab51": 1792596683.2210956,
   "b59df2e9009b584c": 1792405917.6922417,
+  "b5a0ae71fd6d647c": 1793372491.1532001,
   "b5ab2f1eb02f98c4": 1792764224.9324474,
   "b5d007cc06be8036": 1792705436.5553093,
   "b5d1731d605bbb09": 1792774961.7066147,
@@ -27788,6 +27677,7 @@
   "bf8f242863c76865": 1793201742.415019,
   "bfa15ca709a23426": 1792670588.472271,
   "bfa70ca8ccf6c434": 1793289653.589609,
+  "bfa78d9cb3f7bfef": 1793372457.1026773,
   "bfad7b6fc4d60cd3": 1792295980.6157248,
   "bfc6724bf3579d9b": 1792445511.2701929,
   "bfcb38341bee6351": 1792840413.5015178,
@@ -28315,6 +28205,7 @@
   "e1c7e5cf91a9af7d": 1792342887.8607316,
   "e1d21d005bd755d2": 1793166801.403429,
   "e1eeeb6b31df086a": 1792337508.496806,
+  "e1f3c0b94b90d03f": 1793372554.6384993,
   "e1f82eaeba5e61dc": 1792368119.0109403,
   "e1fd6d68d5fec6d9": 1793278996.510514,
   "e20fa915798631a6": 1792634487.7274785,
@@ -28361,6 +28252,7 @@
   "e4798de9f762ac18": 1793295491.3080368,
   "e481e8eea357f053": 1793210853.8194854,
   "e4966501a21957ec": 1793304112.5440762,
+  "e4ba7e2d91709b08": 1793372538.793497,
   "e4cd1e4201bfe6c8": 1792625521.0163085,
   "e4dac1a330f504b7": 1792270269.7761528,
   "e505bfc21ee5b6a7": 1792949495.8698394,
@@ -28534,6 +28426,7 @@
   "ef3b02306c28bea8": 1793226775.7955341,
   "ef407df4fdefdcf7": 1792970437.507964,
   "ef4d3a362b09c3db": 1793097196.6198316,
+  "ef82dc1f3f9781ee": 1793372487.564123,
   "efa1ebec11d58c36": 1793291458.0984018,
   "efa6b08c22b55318": 1792886547.9425578,
   "efb04152e06859f7": 1792791107.1763618,
@@ -30007,7 +29900,7 @@
   },
   "filtered": {
    "/Film": 9,
-   "Bloomberg": 8,
+   "Bloomberg": 9,
    "Deadline": 6,
    "Distorted Sound": 1,
    "GamesIndustry.biz": 1,
@@ -30028,7 +29921,7 @@
   "sources": {
    "/Film": 27,
    "AIN.ua": 6,
-   "Blabbermouth": 67,
+   "Blabbermouth": 68,
    "Bloomberg": 48,
    "DOU": 1,
    "DOU Gamedev": 5,
@@ -30036,26 +29929,26 @@
    "Decibel": 12,
    "Digital Foundry": 6,
    "Distorted Sound": 18,
-   "Eurogamer": 28,
+   "Eurogamer": 29,
    "GameSpot": 31,
-   "GamesIndustry.biz": 20,
+   "GamesIndustry.biz": 21,
    "GitHub Trending": 19,
    "Hugging Face": 3,
    "IGN": 68,
    "ITC.ua": 61,
-   "IndieWire": 20,
+   "IndieWire": 21,
    "Insider Gaming": 81,
    "Kerrang!": 37,
    "Lambgoat": 43,
    "Loudwire": 21,
    "Metal Hammer (Louder)": 30,
-   "Metal Injection": 16,
+   "Metal Injection": 17,
    "MetalSucks": 1,
    "Mezha": 71,
    "Neformat": 2,
    "PC Gamer": 75,
    "Pitchfork": 8,
-   "PlayUA": 23,
+   "PlayUA": 24,
    "Polygon": 28,
    "Product Hunt": 21,
    "Revolver": 8,
@@ -30064,13 +29957,13 @@
    "Stereogum": 12,
    "The Decoder": 23,
    "ThePRP": 56,
-   "VGC": 26,
+   "VGC": 28,
    "Variety": 30
   },
   "translators": {
    "DeepL": 30,
    "gemini-flash-latest": 37,
-   "gemini-flash-lite-latest": 1159
+   "gemini-flash-lite-latest": 1169
   },
   "week": "2026-W44"
  },
@@ -30790,11 +30683,6 @@
    "180°",
    1792953097.974842
   ],
-  "q:2": [
-   0,
-   "",
-   1793198073.2800052
-  ],
   "q:2 5": [
    3740720,
    "ハルスベリヤ叙事詩2.5",
@@ -30899,6 +30787,11 @@
    2825780,
    "2D?!",
    1792595316.7502198
+  ],
+  "q:3": [
+   0,
+   "",
+   1793372506.7971106
   ],
   "q:3 dream projects": [
    0,
@@ -31020,20 +30913,40 @@
    "47都道府県にプロ野球チームが存在する世界線で日本一の球団をめざそう！",
    1793142159.9904087
   ],
+  "q:5": [
+   0,
+   "",
+   1793372515.8178458
+  ],
   "q:5 15": [
    0,
    "",
    1793215924.3586946
   ],
+  "q:5 and bioware": [
+   0,
+   "",
+   1793372515.295319
+  ],
+  "q:5 and bioware reportedly": [
+   0,
+   "",
+   1793372514.7627857
+  ],
+  "q:5 and bioware reportedly died": [
+   0,
+   "",
+   1793372514.1845772
+  ],
+  "q:5 and bioware reportedly died so": [
+   0,
+   "",
+   1793372513.6756887
+  ],
   "q:5 season fantasy series is basically harry": [
    0,
    "",
    1793262703.8811147
-  ],
-  "q:50": [
-   0,
-   "",
-   1793198121.8587494
   ],
   "q:5050": [
    2542430,
@@ -31049,11 +30962,6 @@
    0,
    "",
    1793253679.104112
-  ],
-  "q:6": [
-   0,
-   "",
-   1793197978.686044
   ],
   "q:6 3": [
    0,
@@ -31145,11 +31053,6 @@
    "",
    1793264601.4631782
   ],
-  "q:70": [
-   0,
-   "",
-   1793198120.3135417
-  ],
   "q:76 26": [
    0,
    "",
@@ -31159,6 +31062,21 @@
    0,
    "",
    1793205218.5533361
+  ],
+  "q:800": [
+   0,
+   "",
+   1793372542.6328027
+  ],
+  "q:800 million": [
+   0,
+   "",
+   1793372542.1519809
+  ],
+  "q:800 million netflix": [
+   0,
+   "",
+   1793372541.6833446
   ],
   "q:86": [
    0,
@@ -31309,6 +31227,11 @@
    0,
    "",
    1793210702.9317393
+  ],
+  "q:ai engine": [
+   0,
+   "",
+   1793372525.1862671
   ],
   "q:ai gpus": [
    0,
@@ -31690,6 +31613,21 @@
    "",
    1793282509.196838
   ],
+  "q:atelico": [
+   0,
+   "",
+   1793372523.7406812
+  ],
+  "q:atelico ai": [
+   0,
+   "",
+   1793372524.6849694
+  ],
+  "q:atelico ai engine": [
+   0,
+   "",
+   1793372524.2263596
+  ],
   "q:athanasia": [
    1761910,
    "Athanasia",
@@ -31784,36 +31722,6 @@
    1086940,
    "Baldur's Gate 3",
    1792645245.2077034
-  ],
-  "q:ball": [
-   0,
-   "",
-   1793198146.5046728
-  ],
-  "q:ball z": [
-   0,
-   "",
-   1793198146.004988
-  ],
-  "q:ball z budokai": [
-   0,
-   "",
-   1793198145.4701693
-  ],
-  "q:ball z budokai now": [
-   0,
-   "",
-   1793198144.984932
-  ],
-  "q:ball z budokai now playable": [
-   0,
-   "",
-   1793198144.4315052
-  ],
-  "q:ball z budokai now playable through": [
-   0,
-   "",
-   1793198143.9441254
   ],
   "q:bar": [
    0,
@@ -32070,10 +31978,25 @@
    "",
    1793235702.1902962
   ],
-  "q:black friday": [
+  "q:bioware reportedly died": [
    0,
    "",
-   1793198119.7804377
+   1793372517.9587953
+  ],
+  "q:bioware reportedly died so": [
+   0,
+   "",
+   1793372517.4319613
+  ],
+  "q:bioware reportedly died so star": [
+   0,
+   "",
+   1793372516.936062
+  ],
+  "q:bioware reportedly died so star wars": [
+   0,
+   "",
+   1793372516.3599992
   ],
   "q:black white": [
    1998450,
@@ -32214,6 +32137,16 @@
    0,
    "",
    1793295363.1549468
+  ],
+  "q:brawl stars thinking": [
+   0,
+   "",
+   1793372500.7849736
+  ],
+  "q:brawl stars thinking pin": [
+   0,
+   "",
+   1793372500.2602875
   ],
   "q:breaking promise": [
    0,
@@ -32950,6 +32883,16 @@
    "Crimson Desert Enhanced",
    1791654268.365305
   ],
+  "q:crimson desert enhanced": [
+   3321460,
+   "Crimson Desert Enhanced",
+   1793372551.031146
+  ],
+  "q:crimson desert enhanced edition": [
+   0,
+   "",
+   1793372550.5813043
+  ],
   "q:cronos lazarus": [
    4768180,
    "Cronos: Lazarus",
@@ -33530,16 +33473,6 @@
    "Dota 2",
    1792129284.3772893
   ],
-  "q:dragon": [
-   0,
-   "",
-   1793198143.4217458
-  ],
-  "q:dragon ball": [
-   0,
-   "",
-   1793198142.8993604
-  ],
   "q:dragon ball xenoverse 2": [
    454650,
    "DRAGON BALL XENOVERSE 2",
@@ -33549,26 +33482,6 @@
    1857810,
    "DRAGON BALL XENOVERSE 3",
    1792594922.3813076
-  ],
-  "q:dragon ball z": [
-   0,
-   "",
-   1793198142.3906465
-  ],
-  "q:dragon ball z budokai": [
-   0,
-   "",
-   1793198141.8676603
-  ],
-  "q:dragon ball z budokai now": [
-   0,
-   "",
-   1793198141.2423277
-  ],
-  "q:dragon ball z budokai now playable": [
-   0,
-   "",
-   1793198140.7014081
   ],
   "q:drop": [
    0,
@@ -33634,16 +33547,6 @@
    0,
    "",
    1793199831.2834816
-  ],
-  "q:earthquake": [
-   0,
-   "",
-   1793198051.4509847
-  ],
-  "q:earthquake and typhoon": [
-   0,
-   "",
-   1793198050.8954663
   ],
   "q:ecoflow": [
    0,
@@ -33833,12 +33736,7 @@
   "q:engine": [
    0,
    "",
-   1793197978.179255
-  ],
-  "q:engine 6": [
-   0,
-   "",
-   1793197977.665874
+   1793372525.6694136
   ],
   "q:engine and fortnite": [
    0,
@@ -36530,6 +36428,21 @@
    "Mass Effect™ Legendary Edition",
    1792342921.68182
   ],
+  "q:mass effect 5": [
+   0,
+   "",
+   1793372513.2051961
+  ],
+  "q:mass effect 5 and bioware": [
+   0,
+   "",
+   1793372512.640519
+  ],
+  "q:mass effect 5 and bioware reportedly": [
+   0,
+   "",
+   1793372512.1828067
+  ],
   "q:mass effect exodus": [
    0,
    "",
@@ -36709,6 +36622,16 @@
    1373530,
    "Militsioner",
    1791675531.5092142
+  ],
+  "q:million": [
+   0,
+   "",
+   1793372543.573746
+  ],
+  "q:million netflix": [
+   0,
+   "",
+   1793372543.097794
   ],
   "q:minecraft": [
    0,
@@ -37169,21 +37092,6 @@
    0,
    "",
    1793203362.7958226
-  ],
-  "q:newzoo": [
-   0,
-   "",
-   1793197925.4384267
-  ],
-  "q:newzoo's september": [
-   0,
-   "",
-   1793197924.8540323
-  ],
-  "q:newzoo's september pc": [
-   0,
-   "",
-   1793197924.366206
   ],
   "q:next shooter survived the microsoft": [
    0,
@@ -37780,11 +37688,6 @@
    "",
    1793208840.4761193
   ],
-  "q:pass": [
-   0,
-   "",
-   1793198050.4048774
-  ],
   "q:passes": [
    0,
    "",
@@ -38065,6 +37968,11 @@
    "",
    1793199710.7534006
   ],
+  "q:pin": [
+   0,
+   "",
+   1793372503.2965972
+  ],
   "q:planet zoo 2": [
    3219030,
    "Planet Zoo 2",
@@ -38130,6 +38038,11 @@
    "",
    1793370756.4612727
   ],
+  "q:playstation and xbox": [
+   0,
+   "",
+   1793372551.522453
+  ],
   "q:playstation hiring": [
    0,
    "",
@@ -38174,6 +38087,16 @@
    0,
    "",
    1793201776.6931071
+  ],
+  "q:podcast": [
+   0,
+   "",
+   1793372539.843261
+  ],
+  "q:podcast we": [
+   0,
+   "",
+   1793372539.275709
   ],
   "q:pok": [
    4513280,
@@ -38330,16 +38253,6 @@
    "",
    1793275335.9421844
   ],
-  "q:proton's black": [
-   0,
-   "",
-   1793198119.2531743
-  ],
-  "q:proton's black friday": [
-   0,
-   "",
-   1793198118.764396
-  ],
   "q:ps plus": [
    0,
    "",
@@ -38409,6 +38322,11 @@
    2726580,
    "PUBG: DED.NET",
    1791718263.8791842
+  ],
+  "q:pubg netflix": [
+   0,
+   "",
+   1793372550.097075
   ],
   "q:pubg tv": [
    0,
@@ -38890,16 +38808,6 @@
    "",
    1793201689.848906
   ],
-  "q:ringside": [
-   0,
-   "",
-   1793198049.8770566
-  ],
-  "q:ringside pass": [
-   0,
-   "",
-   1793198049.3531713
-  ],
   "q:risk": [
    0,
    "",
@@ -39189,16 +39097,6 @@
    0,
    "",
    1793293359.5416253
-  ],
-  "q:september": [
-   0,
-   "",
-   1793197926.4653888
-  ],
-  "q:september pc": [
-   0,
-   "",
-   1793197925.9534056
   ],
   "q:serious sam the third encounter": [
    459920,
@@ -39650,6 +39548,11 @@
    "STAR WARS™ Battlefront",
    1792468982.2060437
   ],
+  "q:star wars battlefront 3": [
+   0,
+   "",
+   1793372506.324556
+  ],
   "q:star wars galactic racer": [
    4078430,
    "STAR WARS: Galactic Racer™",
@@ -39694,6 +39597,16 @@
    0,
    "",
    1793295365.3243127
+  ],
+  "q:stars thinking": [
+   0,
+   "",
+   1793372501.746126
+  ],
+  "q:stars thinking pin": [
+   0,
+   "",
+   1793372501.2461755
   ],
   "q:state of decay": [
    241540,
@@ -39809,6 +39722,16 @@
    0,
    "",
    1793280839.000891
+  ],
+  "q:studio": [
+   0,
+   "",
+   1793372523.227916
+  ],
+  "q:studio atelico": [
+   0,
+   "",
+   1793372522.696817
   ],
   "q:stupid never dies": [
    3486530,
@@ -40155,6 +40078,16 @@
    "",
    1793311389.8086402
   ],
+  "q:thinking": [
+   0,
+   "",
+   1793372502.798589
+  ],
+  "q:thinking pin": [
+   0,
+   "",
+   1793372502.2058792
+  ],
   "q:this company has been driven into a wall for years": [
    0,
    "",
@@ -40500,11 +40433,6 @@
    "",
    1793300527.5473363
   ],
-  "q:typhoon": [
-   0,
-   "",
-   1793198051.9773679
-  ],
   "q:ubisoft doesn't": [
    0,
    "",
@@ -40689,21 +40617,6 @@
    0,
    "",
    1793210707.1456656
-  ],
-  "q:unreal": [
-   0,
-   "",
-   1793197977.164917
-  ],
-  "q:unreal engine": [
-   0,
-   "",
-   1793197976.5825858
-  ],
-  "q:unreal engine 6": [
-   0,
-   "",
-   1793197976.0995982
   ],
   "q:unreal engine and fortnite": [
    0,
@@ -40944,16 +40857,6 @@
    0,
    "",
    1793313179.4228923
-  ],
-  "q:vpn": [
-   0,
-   "",
-   1793198121.2979856
-  ],
-  "q:vpn and 50": [
-   0,
-   "",
-   1793198120.8097885
   ],
   "q:walking simulator": [
    1214280,
@@ -41365,11 +41268,6 @@
    "",
    1793300540.6630318
   ],
-  "q:world": [
-   0,
-   "",
-   1793199682.0386353
-  ],
   "q:world of tanks": [
    1407200,
    "World of Tanks",
@@ -41655,6 +41553,21 @@
    "",
    1793205149.278596
   ],
+  "q:xbox's 800": [
+   0,
+   "",
+   1793372541.22487
+  ],
+  "q:xbox's 800 million": [
+   0,
+   "",
+   1793372540.758357
+  ],
+  "q:xbox's 800 million netflix": [
+   0,
+   "",
+   1793372540.301195
+  ],
   "q:xbox's recent": [
    0,
    "",
@@ -41689,16 +41602,6 @@
    0,
    "",
    1793205150.8594398
-  ],
-  "q:yes": [
-   0,
-   "",
-   1793197975.6127353
-  ],
-  "q:yes we are vibe coding things": [
-   0,
-   "",
-   1793197975.044874
   ],
   "q:yoko": [
    2664050,
@@ -41830,31 +41733,29 @@
   "Mezha": [
    "apple",
    "binance",
+   "brave1 market",
    "death stranding",
    "directx 12",
-   "esa",
    "kojima productions",
    "macbook pro",
    "maincast",
    "microsoft",
-   "rivian",
-   "rivian r2",
-   "space rider",
+   "netflix",
+   "pubg",
    "windows 11",
-   "авто",
    "аніме",
    "аоз",
-   "блоги",
    "бпла",
-   "електромобілі",
-   "космос",
+   "дрони",
    "крилаті ракети",
    "криптовалюта",
    "криптовалютна біржа",
+   "кіно",
    "новини",
    "ноутбуки",
    "оборонка",
    "озброєння",
+   "перехоплювачі",
    "ракети",
    "софт",
    "телевізори",
@@ -41865,58 +41766,6 @@
   ]
  },
  "titles": [
-  [
-   1793197993.0959644,
-   "'Yes, we are vibe-coding things': Epic confirms it's using AI tools to code Unreal Engine 6, Fortnite, and more"
-  ],
-  [
-   1793198022.9910643,
-   "Monster Train 2 is getting a new clan, and they're edgy as h̶e̶l̶l heaven"
-  ],
-  [
-   1793198046.8265212,
-   "Every Heavy Metal Song on Rolling Stone's '200 Best Songs of the 21st Century' Ranking"
-  ],
-  [
-   1793198071.2327366,
-   "WWE 2K26’s final Ringside Pass launches today, adding four more wrestlers including Earthquake and Typhoon"
-  ],
-  [
-   1793198114.3363636,
-   "Ex-ACCEPT Singer DAVID REECE Is 'Speaking Again' With WOLF HOFFMANN After Nearly Four Decades: It's 'Really Exciting'"
-  ],
-  [
-   1793198116.6204937,
-   "Розробник роїв дронів Swarmer купує перевірені в боях технології української Vataga Drone"
-  ],
-  [
-   1793198138.7146401,
-   "Proton's Black Friday sale is already live: ditch Google with up to 70% off its VPN and 50% off unlimited plan"
-  ],
-  [
-   1793198155.9664543,
-   "Dragon Ball Z Budokai Now Playable Through Your Browser"
-  ],
-  [
-   1793198169.2383,
-   "Kevin Morby – “Nursery Rhyme” (Feat. Lonnie Holley)"
-  ],
-  [
-   1793199713.339964,
-   "Fortnite анонсувала колаборацію з One Piece у рамках нового мінісезону Treasure Hunters"
-  ],
-  [
-   1793199715.457421,
-   "Катніс Евердін знову у \"Голодних іграх\": реакція Дженніфер Лоуренс"
-  ],
-  [
-   1793199739.0316675,
-   "Hear AMIRA ELFEKY’s powerful new song “I don’t want to fall in love”"
-  ],
-  [
-   1793199741.5843308,
-   "Apple Creator Studio отримає ШІ-асистента та інструменти MotionVFX"
-  ],
   [
    1793199795.287065,
    "Here’s Why State Of Decay 3 Has Taken 6 Years To Develop So Far"
@@ -43916,61 +43765,41 @@
   [
    1793370777.8729086,
    "New Mass Effect Was Canceled in Favor of Star Wars: Battlefront 3"
+  ],
+  [
+   1793372487.5641243,
+   "‘Everest: The Other Side’ Review: A Grieving Ski Mountaineer Scales the Face of Death in Chai Vasarhelyi and Jimmy Chin’s Climbing Doc"
+  ],
+  [
+   1793372491.1532018,
+   "Watch: Enslaved Release Visualizer For 'Mið' Standout song \"I Am Ice\" Featuring Johan Sara Jr."
+  ],
+  [
+   1793372498.2101476,
+   "ROB ZOMBIE Summons 'Sir Lord Acid Wolfman' In New Halloween Music Video"
+  ],
+  [
+   1793372504.3355339,
+   "У Brawl Stars роздають безкоштовний Thinking Pin — як забрати нагороду?"
+  ],
+  [
+   1793372510.194437,
+   "EA chose to shut down BioWare so it could make Star Wars Battlefront 3 instead, it’s claimed"
+  ],
+  [
+   1793372530.3921878,
+   "Studio Atelico launches Atelico AI Engine into Early Access"
+  ],
+  [
+   1793372548.133982,
+   "Podcast: We pitch Xbox’s $800 Million Netflix empire"
+  ],
+  [
+   1793372554.6385012,
+   "Crimson Desert Enhanced Edition gets a surprise demo on PlayStation and Xbox, lets you play for 5 hours and carry over your save data"
   ]
  ],
  "titles_uk": [
-  [
-   1793197993.0959654,
-   "Epic Games використовує ШІ для розробки Unreal Engine 6 та Fortnite"
-  ],
-  [
-   1793198022.991065,
-   "Monster Train 2 отримає новий клан"
-  ],
-  [
-   1793198046.8265219,
-   "Всі важкі металеві треки у списку 200 найкращих пісень XXI століття від Rolling Stone"
-  ],
-  [
-   1793198071.2327375,
-   "Для WWE 2K26 виходить останній Ringside Pass та набор зі Street Fighter"
-  ],
-  [
-   1793198114.3363645,
-   "Ексвокаліст ACCEPT Давід Ріс знову спілкується з Вольфом Гоффманном"
-  ],
-  [
-   1793198116.6204948,
-   "Розробник роїв дронів Swarmer купує перевірені в боях технології української Vataga Drone"
-  ],
-  [
-   1793198138.7146406,
-   "Proton запускає розпродаж до Black Friday зі знижками до 70%"
-  ],
-  [
-   1793198155.966455,
-   "Dragon Ball Z Budokai тепер доступна прямо у браузері"
-  ],
-  [
-   1793198169.238301,
-   "Kevin Morby випустив протестну пісню \"Nursery Rhyme\" за участю Lonnie Holley"
-  ],
-  [
-   1793199713.3399649,
-   "Fortnite анонсувала колаборацію з One Piece у рамках нового мінісезону Treasure Hunters"
-  ],
-  [
-   1793199715.4574218,
-   "Катніс Евердін знову у \"Голодних іграх\": реакція Дженніфер Лоуренс"
-  ],
-  [
-   1793199739.0316682,
-   "AMIRA ELFEKY випустила новий сингл “I don’t want to fall in love”"
-  ],
-  [
-   1793199741.5843315,
-   "Apple Creator Studio отримає ШІ-асистента та інструменти MotionVFX"
-  ],
   [
    1793199795.2870657,
    "Чому розробка State of Decay 3 триває вже шість років"
@@ -45970,6 +45799,38 @@
   [
    1793370777.8729093,
    "Нову Mass Effect скасували на користь Star Wars: Battlefront 3"
+  ],
+  [
+   1793372487.5641253,
+   "Рецензія на документальний фільм Everest: The Other Side"
+  ],
+  [
+   1793372491.153203,
+   "Enslaved випустили атмосферний візуалайзер на трек \"I Am Ice\" за участю Johan Sara Jr."
+  ],
+  [
+   1793372498.2101486,
+   "Rob Zombie випустив новий кліп на трек Sir Lord Acid Wolfman до Хелловіну"
+  ],
+  [
+   1793372504.3355346,
+   "У Brawl Stars роздають безкоштовний Thinking Pin — як забрати нагороду?"
+  ],
+  [
+   1793372510.1944382,
+   "EA закрила BioWare заради розробки Star Wars Battlefront 3"
+  ],
+  [
+   1793372530.3921888,
+   "Studio Atelico випустила Atelico AI Engine у ранній доступ"
+  ],
+  [
+   1793372548.1339827,
+   "Вийшов новий епізод подкасту VGC"
+  ],
+  [
+   1793372554.638503,
+   "Crimson Desert Enhanced Edition отримала безплатну демоверсію на PlayStation та Xbox"
   ]
  ],
  "ukrainian": {
