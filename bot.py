@@ -501,7 +501,15 @@ def tg(method, **payload):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/{method}"
     files = payload.pop("files", None)
     for attempt in range(3):
-        r = requests.post(url, data=payload, files=files, timeout=60)
+        try:
+            r = requests.post(url, data=payload, files=files, timeout=60)
+        except requests.ConnectionError as e:
+            # разовий збій мережі (наприклад, Connection reset by peer) — пробуємо ще раз
+            if attempt == 2:
+                raise
+            log.info("Telegram: збій з'єднання (%s), повторюю", e)
+            time.sleep(3 * (attempt + 1))
+            continue
         data = r.json()
         if data.get("ok"):
             return data
