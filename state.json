@@ -17,30 +17,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-30 05:01 UTC",
-  "gemini_error": "",
+  "at": "2026-10-30 05:34 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 4
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 5
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792647162.9768102,
-   1830,
-   "🤖",
-   "ШІ-стартап Emulate оцінили в мільярди доларів без сайту та продукту",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-10-22/venture-capitalists-push-up-ai-startup-valuations-with-tranched-two-step-rounds",
-    "orig": "Venture Capitalists Push Up AI Startup Valuations with Tranched, Two-Step Rounds"
-   }
-  ],
   [
    1792648890.640271,
    1831,
@@ -22965,7 +22953,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Кінотеатри показали мерч для фільму Avengers: Doomsday</b>\n\nКінотеатральні мережі анонсували колекційні відра для попкорну та напоїв за фільмом Avengers: Doomsday. Лінійка включає контейнери у вигляді бюста та трона Doctor Doom, а також посуд у стилі Sentinel. Маркетинг повністю зосереджений на образі Doctor Doom та поверненні Роберта Дауні — молодшого до Marvel Cinematic Universe.\n\n🔗 <a href=\"https://www.slashfilm.com/2301543/avengers-doomsday-theater-merchandise-doctor-doom-sentinels/\">/Film</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2301543/avengers-doomsday-theater-merchandise-doctor-doom-sentinels/",
     "orig": "Avengers: Doomsday Theater Merchandise Is All About Doctor Doom And The Sentinels"
@@ -22979,7 +22966,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Bloodlines випустили новий сингл Freefall</b>\n\nХристиянський металкор-гурт Bloodlines представив третій сингл Freefall зі свого майбутнього альбому To A Thousand Generations, реліз якого запланований на 4 грудня на лейблі Facedown. Разом із треком вийшов лірик-відео. Сьогодні колектив завершує спільний тур із Demon Hunter та Wolves At The Gate у Нешвіллі.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/29/news/bloodlines-new-single-freefall-arrives-online/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/29/news/bloodlines-new-single-freefall-arrives-online/",
     "orig": "Bloodlines’ New Single “Freefall” Arrives Online"
@@ -22993,7 +22979,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Ніко МакБрейн розповів про майбутнє IRON MAIDEN і своє рішення піти з туру</b>\n\nБарабанщик Ніко МакБрейн заявив, що IRON MAIDEN продовжать виступати, доки хтось із музикантів не вирішить зупинитися. Музикант пішов із гастролей через вік і проблеми зі здоров&#x27;ям, які заважали йому грати складні партії. Надалі він хотів би записати як гість кілька пісень для майбутнього альбому гурту, тоді як за барабанною установкою його замінив Саймон Доусон.\n\n🔗 <a href=\"https://blabbermouth.net/news/nicko-mcbrain-iron-maiden-will-continue-until-somebody-else-in-the-band-says-i-cant-do-it-anymore\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/nicko-mcbrain-iron-maiden-will-continue-until-somebody-else-in-the-band-says-i-cant-do-it-anymore",
     "orig": "NICKO MCBRAIN: IRON MAIDEN Will Continue 'Until Somebody Else In The Band Says, 'I Can't Do It Anymore''"
@@ -23042,6 +23027,10 @@
      [
       "PC Gamer",
       "https://www.pcgamer.com/movies-tv/patrick-stewart-star-trek-and-shakespeare-legend-has-died/"
+     ],
+     [
+      "/Film",
+      "https://www.slashfilm.com/2301783/patrick-stewart-death-hollywood-reactions-star-trek-x-men-actor/"
      ]
     ],
     "caption": "🎬 <b>Помер Патрік Стюарт, зірка Star Trek та видатний актор театру і кіно</b>\n\nУ віці 86 років помер легендарний британський актор театру та кіно сер Патрік Стюарт. Протягом шести десятиліть він грав у класичних театральних постановках та здобув всесвітню популярність завдяки ролі Жана-Люка Пікара в серіалі “Star Trek: The Next Generation”.\n\n🔗 <a href=\"https://www.indiewire.com/news/obituary/patrick-stewart-dead-1235224653/\">IndieWire</a>\n\n#кіно_і_серіали",
@@ -23557,7 +23546,12 @@
    "Black metal гурт Unholy Altar підписав контракт із лейблом BLKIIBLK",
    "ThePRP",
    {
-    "also": [],
+    "also": [
+     [
+      "Lambgoat",
+      "https://lambgoat.com/news/55615/unholy-altar-sign-with-blkiiblk/"
+     ]
+    ],
     "caption": "🤘 <b>Black metal гурт Unholy Altar підписав контракт із лейблом BLKIIBLK</b>\n\nБлек-метал гурт Unholy Altar підписав угоду з лейблом BLKIIBLK Records і готує до випуску свій найтемніший реліз. Голова лейблу Майк Гіттер відзначив унікальну атмосферу та небезпечну естетику колективу. Музиканти також оголосили найближчі концертні плани.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/29/news/unholy-altar-sign-with-blkiiblk/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/10/29/news/unholy-altar-sign-with-blkiiblk/",
@@ -23829,6 +23823,48 @@
     "link": "https://www.theprp.com/2026/10/29/news/a-killers-confession-premiere-meat-hook-music-video/",
     "orig": "A Killer’s Confession Premiere “Meat Hook” Music Video"
    }
+  ],
+  [
+   1793338445.0165346,
+   3629,
+   "🎬",
+   "Роль Патріка Стюарта в X-Men стала найкращим кастингом в історії кінокоміксів",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Роль Патріка Стюарта в X-Men стала найкращим кастингом в історії кінокоміксів</b>\n\nЗапрошення Патріка Стюарта на роль Charles Xavier у фільмах X-Men вважають найвлучнішим кастинговим рішенням серед усіх екранізацій коміксів.\n\n🔗 <a href=\"https://www.slashfilm.com/2301771/patrick-stewart-x-men-best-comic-book-movie-casting-all-time/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2301771/patrick-stewart-x-men-best-comic-book-movie-casting-all-time/",
+    "orig": "Patrick Stewart's X-Men Role Was The Best Comic Book Movie Casting Of All Time"
+   }
+  ],
+  [
+   1793338451.422189,
+   3630,
+   "🤘",
+   "Crown The Empire випустили новий кліп на пісню “violet”",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Crown The Empire випустили новий кліп на пісню “violet”</b>\n\nГурт Crown The Empire представив новий сингл “violet” разом із кліпом, режисером якого виступив B.K. Barone. Трек був спродюсований Zach Jones і став черговою роботою колективу у складі дуету після червневого синглу “Raw”.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/29/news/crown-the-empires-violet-music-video-arrives-online/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/29/news/crown-the-empires-violet-music-video-arrives-online/",
+    "orig": "Crown The Empire’s “Violet” Music Video Arrives Online"
+   }
+  ],
+  [
+   1793338454.9739137,
+   3631,
+   "💾",
+   "Біткоїн, викрадений під час зламу Binance, навряд чи вдасться повернути",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "💾 <b>Біткоїн, викрадений під час зламу Binance, навряд чи вдасться повернути</b>\n\nВикрадену під час хакерської атаки на криптобіржу Binance криптовалюту, ймовірно, неможливо буде повернути. Про це заявив Боббі Лі, засновник компанії Ballet Global Inc.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-10-30/bitcoin-stolen-in-binance-hack-is-likely-gone-ballet-says\">Bloomberg</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-30/bitcoin-stolen-in-binance-hack-is-likely-gone-ballet-says",
+    "orig": "Bitcoin Stolen in Binance Hack Is Likely ‘Gone,’ Ballet Says"
+   }
   ]
  ],
  "posted_by_source": {
@@ -24024,12 +24060,10 @@
    1793298776.5641387
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
-   1793248362.5304146,
-   1793248365.4052548,
-   1793251885.3390741,
    1793288097.1275826,
    1793293629.5684404,
-   1793302414.745342
+   1793302414.745342,
+   1793338445.0169947
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792944099.3403795,
@@ -24195,7 +24229,8 @@
    1793322162.4561758,
    1793336497.87388,
    1793336501.0183613,
-   1793336504.1848128
+   1793336504.1848128,
+   1793338451.4226756
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1793100702.0206006,
@@ -24208,7 +24243,8 @@
    1793275374.41918,
    1793275385.7156353,
    1793313170.9484823,
-   1793334681.859374
+   1793334681.859374,
+   1793338454.9744072
   ],
   "software|DOU|https://dou.ua/feed/": [
    1792352542.7076654,
@@ -24709,6 +24745,7 @@
   "1ab805ccb7e963ee": 1793295075.9151297,
   "1ab84688646e98e8": 1793224901.1226544,
   "1ac561e7af9f7968": 1793203280.9484515,
+  "1aca5ede62df96f9": 1793338273.145817,
   "1acabbd4dbd90876": 1793109801.7260292,
   "1acc085be81effb5": 1793019937.9770453,
   "1ad1f13ec81eafc5": 1793225052.291243,
@@ -25495,6 +25532,7 @@
   "48b67215aaa49547": 1793102583.8541045,
   "48c1d13f2287303a": 1792693977.775202,
   "48e78493cddc0ce0": 1792607529.4580483,
+  "48f3716db9e542a0": 1793338459.9954014,
   "4912f54a0fde1555": 1792585899.6591551,
   "49342a27ebd24693": 1792214799.77382,
   "4935095de4e5f9f9": 1792499494.7649205,
@@ -26117,6 +26155,7 @@
   "6d68b723c2436a11": 1792402526.2861214,
   "6d68f1cf5b97effe": 1793275274.482867,
   "6d6bdcf7899b0e1b": 1792229916.7405567,
+  "6d765ef48c131eee": 1793338454.9743629,
   "6d9bc7ad7f20ef2b": 1792954885.214165,
   "6db1ffb40f3f1fb8": 1792663276.571185,
   "6db89df477711a6b": 1793296852.7314725,
@@ -26476,6 +26515,7 @@
   "8323af744b7d22e6": 1792342909.8476253,
   "832c0db4158b005a": 1793010673.2590876,
   "8333faf6d1c99f96": 1792607482.6895094,
+  "833585c3aa612b5c": 1793338457.9985294,
   "836ca427c997b50c": 1792800086.0099647,
   "836d1a5447767f04": 1793320281.6202652,
   "837072da54cade09": 1792762273.668003,
@@ -26970,6 +27010,7 @@
   "a0b232e15c191b55": 1792490486.7294014,
   "a0bb7c6697300864": 1792414939.1926262,
   "a0d0d201a640180b": 1792589540.4712,
+  "a0ea849df92b7895": 1793338449.4277813,
   "a10e320722d242a0": 1793208749.7644103,
   "a1361b9d942e9af9": 1792767876.5080068,
   "a144020bd845e53e": 1793217684.406171,
@@ -28167,6 +28208,7 @@
   "eb245f1767bf4df0": 1793224854.427171,
   "eb28eef06e660eff": 1792879295.7465208,
   "eb5246b40166091b": 1792882912.9509904,
+  "eb6510aad183bd0e": 1793338445.0169456,
   "eb7460a24f767637": 1792530081.9317684,
   "eba86fe47dd8e41f": 1792605705.6731994,
   "ebb9dca224a96562": 1792789300.773582,
@@ -28263,6 +28305,7 @@
   "f2488a784d7cfdfe": 1792490500.3452482,
   "f277373868716570": 1793296970.3471851,
   "f27e7201fe87a6e8": 1792710100.6784377,
+  "f284786c6ddd7d23": 1793338451.4226284,
   "f29c23a57f752eda": 1792352542.7076206,
   "f2a604d4571dc961": 1793124140.8972375,
   "f2aa652e8c009a8a": 1792594853.9380503,
@@ -29703,10 +29746,10 @@
    "Variety": 4
   },
   "sources": {
-   "/Film": 24,
+   "/Film": 25,
    "AIN.ua": 4,
    "Blabbermouth": 63,
-   "Bloomberg": 44,
+   "Bloomberg": 45,
    "DOU Gamedev": 4,
    "Deadline": 61,
    "Decibel": 12,
@@ -29739,14 +29782,14 @@
    "SteamDB": 3,
    "Stereogum": 12,
    "The Decoder": 22,
-   "ThePRP": 54,
+   "ThePRP": 55,
    "VGC": 24,
    "Variety": 30
   },
   "translators": {
    "DeepL": 29,
-   "gemini-flash-latest": 22,
-   "gemini-flash-lite-latest": 1072
+   "gemini-flash-latest": 23,
+   "gemini-flash-lite-latest": 1077
   },
   "week": "2026-W44"
  },
@@ -41179,14 +41222,6 @@
  },
  "titles": [
   [
-   1793165505.7540581,
-   "Entertainment Hits $332.B To Become World’s Second Most Valuable Sector As Netflix, YouTube & Spotify Fly – Interbrand Report"
-  ],
-  [
-   1793165508.4284613,
-   "Gen Z Is Still Skeptical of AI-Infused Dating Apps, New Survey Finds"
-  ],
-  [
    1793166798.3544998,
    "Brad Pitt's Survival Thriller Became A Sleeper Box Office Hit While You Weren't Looking"
   ],
@@ -43221,17 +43256,21 @@
   [
    1793336504.1847708,
    "A Killer’s Confession Premiere “Meat Hook” Music Video"
+  ],
+  [
+   1793338445.0169477,
+   "Patrick Stewart's X-Men Role Was The Best Comic Book Movie Casting Of All Time"
+  ],
+  [
+   1793338451.42263,
+   "Crown The Empire’s “Violet” Music Video Arrives Online"
+  ],
+  [
+   1793338454.974365,
+   "Bitcoin Stolen in Binance Hack Is Likely ‘Gone,’ Ballet Says"
   ]
  ],
  "titles_uk": [
-  [
-   1793165505.754059,
-   "Сектор розваг обійшов автомобільну галузь і став другим за вартістю у світі"
-  ],
-  [
-   1793165508.4284627,
-   "Gen Z скептично ставиться до додатків для знайомств із ШІ"
-  ],
   [
    1793166798.3545003,
    "Трилер Бреда Пітта Heart of the Beast став касовим хітом"
@@ -45267,6 +45306,18 @@
   [
    1793336504.1847715,
    "A Killer’s Confession випустили кліп на пісню \"Meat Hook\""
+  ],
+  [
+   1793338445.016949,
+   "Роль Патріка Стюарта в X-Men стала найкращим кастингом в історії кінокоміксів"
+  ],
+  [
+   1793338451.4226315,
+   "Crown The Empire випустили новий кліп на пісню “violet”"
+  ],
+  [
+   1793338454.974366,
+   "Біткоїн, викрадений під час зламу Binance, навряд чи вдасться повернути"
   ]
  ],
  "ukrainian": {
@@ -47550,7 +47601,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793334690.9249482,
+  "last_check": 1793338466.9863117,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
