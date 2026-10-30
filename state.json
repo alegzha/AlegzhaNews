@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1793383282.2510173
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1793383279.0193367
+  }
+ },
  "daily_digest_date": "2026-10-29",
  "freebies": {
   "last_check": 1793379769.7674465,
@@ -18,100 +31,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-30 17:32 UTC",
+  "at": "2026-10-30 18:02 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 11
+   "gemini-flash-lite-latest": 12
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792690455.4992929,
-   1989,
-   "🎮",
-   "Для WoW: Forever створять новий сервер за численними проханнями гравців",
-   "GameSpot",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.gamespot.com/articles/wow-forever-is-getting-a-new-server-option-by-popular-demand/",
-    "orig": "WoW: Forever Is Getting A New Server Option By Popular Demand"
-   }
-  ],
-  [
-   1792692101.6942008,
-   1990,
-   "🤘",
-   "Сюрприз на Гелловін: три таємні метал-CD за $31",
-   "Metal Injection",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://metalinjection.net/news/trick-or-treat-3-mystery-metal-cds-for-31",
-    "orig": "Trick or Treat: 3 Mystery Metal CDs for $31"
-   }
-  ],
-  [
-   1792692120.484502,
-   1991,
-   "🤘",
-   "Карл Сандерс із гурту «Nile» відновлюється після операції з багаторівневого спондилодезу в ділянці шиї",
-   "Metal Injection",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://metalinjection.net/news/niles-karl-sanders-recovering-from-multilevel-spinal-fusion-surgery-in-neck",
-    "orig": "Nile’s Karl Sanders Recovering From Multilevel Spinal Fusion Surgery In Neck"
-   }
-  ],
-  [
-   1792692127.3256497,
-   1992,
-   "🎮",
-   "Студія Gamepires скорочує штат через кілька місяців після купівлі Splash Damage",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/gaming-industry/splash-damage-acquired-this-studio-just-3-months-after-laying-off-a-bunch-of-people-now-its-laying-them-off-too/",
-    "orig": "Splash Damage acquired this studio just 3 months after laying off a bunch of people—now it's laying them off, too"
-   }
-  ],
-  [
-   1792692144.223374,
-   1993,
-   "🤖",
-   "Google представила Agent Compute Engine для ШІ-агентів Gemini",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/googles-agent-compute-engine-gives-every-gemini-agent-its-own-hardware-isolated-micro-virtual-machine/",
-    "orig": "Google's Agent Compute Engine gives every Gemini agent its own hardware-isolated micro virtual machine"
-   }
-  ],
-  [
-   1792692149.4830382,
-   1994,
-   "🤘",
-   "Lifesick анонсували новий альбом When Brutality Becomes The Language та випустили кліп All Eyes On Me",
-   "ThePRP",
-   {
-    "also": [
-     [
-      "Lambgoat",
-      "https://lambgoat.com/news/55492/lifesick-announce-new-full-length-share-new-single-all-eyes-on-me/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/10/22/news/lifesicks-new-album-when-brutality-becomes-the-language-due-in-january-all-eyes-on-me-music-video-debuts/",
-    "orig": "Lifesick’s New Album “When Brutality Becomes The Language” Due In January, “All Eyes On Me” Music Video Debuts"
-   }
-  ],
   [
    1792692161.990975,
    1995,
@@ -22886,7 +22816,6 @@
       "https://www.ign.com/articles/call-of-duty-modern-warfare-2-rating-potentially-leaks-port-for-original-2009-fps"
      ]
     ],
-    "caption": "🎮 <b>Оригінальна <a href=\"https://store.steampowered.com/app/2000950/\">Call of Duty: Modern Warfare</a> 2 отримала віковий рейтинг в Австралії</b>\n\nАвстралійська комісія з класифікації видала віковий рейтинг R 18+ для гри Call of Duty: Modern Warfare 2 2009 року випуску. Документ не вказує конкретні платформи, але зазвичай поява рейтингу свідчить про наближення анонсу чи релізу.\n\n🔗 <a href=\"https://insider-gaming.com/original-call-of-duty-modern-warfare-2-rated-in-australia/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/original-call-of-duty-modern-warfare-2-rated-in-australia/",
     "orig": "Original Call of Duty: Modern Warfare 2 Rated in Australia"
@@ -22900,7 +22829,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Анонсовано ремейк The Legend of Zelda: Ocarina of Time для Nintendo Switch 2</b>\n\nNintendo анонсувала ремейк The Legend of Zelda: Ocarina of Time для Nintendo Switch 2 з оновленою графікою, геймплеєм і саундтреком. Реліз гри відбудеться 5 листопада 2026 року переважно о півночі за місцевим часом.\n\n🔗 <a href=\"https://insider-gaming.com/the-legend-of-zelda-ocarina-of-time-remake-release-date-start-times/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/the-legend-of-zelda-ocarina-of-time-remake-release-date-start-times/",
     "orig": "The Legend Of Zelda: Ocarina Of Time Remake Release Date & Start Times"
@@ -22914,7 +22842,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>ЗМІ оскаржують заборону Білого дому на доступ до президентських локацій</b>\n\n🔗 <a href=\"https://deadline.com/2026/10/cnn-attorney-interview-trump-white-house-ban-1237208541/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/cnn-attorney-interview-trump-white-house-ban-1237208541/",
     "orig": "Attorney For CNN, MS NOW & Politico Talks About Why It’s Urgent To Stop Latest Trump White House Ban: “The Chilling Effect Is Immense”"
@@ -22928,7 +22855,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Александр Скарсгард грає чарівного монстра у фільмі Wicker</b>\n\nУ кавковій стрічці Wicker від режисерів Елеонор Вілсон та Алекса Гаустона Фішера Олівія Колман замовляє Пітеру Дінкледжу чоловіка з лози. Цю роль виконує Александр Скарсгард, поєднуючи практичні ефекти та цифровий дизайн від Weta. Фільм поєднує соціальну сатиру, гумор та казкову атмосферу.\n\n🔗 <a href=\"https://www.polygon.com/wicker-review/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/wicker-review/",
     "orig": "Alexander Skarsgård Raises the Bar for Hot Monsters in the Darkly Funny Wicker"
@@ -22942,7 +22868,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🎮 <b>Чому EA закрила BioWare</b>\n\nЧерез фінансовий тиск ігровий видавець обрав Star Wars замість Mass Effect\n\n🔗 <a href=\"https://www.bloomberg.com/news/newsletters/2026-10-30/why-electronic-arts-shut-down-bioware-and-cancelled-mass-effect\">Bloomberg</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.bloomberg.com/news/newsletters/2026-10-30/why-electronic-arts-shut-down-bioware-and-cancelled-mass-effect",
     "orig": "Why Electronic Arts Shut Down BioWare"
@@ -22956,7 +22881,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Intel планує закрити прогалину у сегменті потужних ПК за допомогою Nova <a href=\"https://store.steampowered.com/app/1118240/\">Lake</a></b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/1118240/\">Lake</a>\n\nIntel готується представити процесори Nova Lake на виставці CES у січні 2027 року. Представники компанії заявили, що нові чіпи на базі техпроцесу 18A-P мають заповнити прогалину в портфоліо компанії для ринку високопродуктивних настільних ПК.\n\n🔗 <a href=\"https://www.pcgamer.com/hardware/processors/intel-giving-us-a-reason-to-be-excited-for-nova-lake-weve-had-a-bit-of-a-hole-in-our-portfolio-for-high-end-desktop-nova-lake-filled-in-that-gap/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/hardware/processors/intel-giving-us-a-reason-to-be-excited-for-nova-lake-weve-had-a-bit-of-a-hole-in-our-portfolio-for-high-end-desktop-nova-lake-filled-in-that-gap/",
     "orig": "Intel giving us a reason to be excited for Nova Lake: 'We've had a bit of a hole in our portfolio for high-end desktop, Nova Lake filled in that gap'"
@@ -22970,7 +22894,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🎮 <b>Microsoft впроваджує кластерну геометрію в DirectX 12: покращення FPS та до <a href=\"https://store.steampowered.com/app/3070650/\">90</a>% менше використання пам’яті</b>\n\nКомпанія називає це оновлення найбільшим в історії DirectX Raytracing (DXR). Попередня версія Microsoft DirectX 12 Agility SDK представляє низку нових технологій, серед яких кластерна геометрія для оптимізації обробки трасування променів.\n\n🔗 <a href=\"https://mezha.ua/news/microsoft-directx-12-dxr-clustered-geometry-and-ptlas-316727/\">Mezha</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://mezha.ua/news/microsoft-directx-12-dxr-clustered-geometry-and-ptlas-316727/",
     "orig": "Microsoft впроваджує кластерну геометрію в DirectX 12: покращення FPS та до 90% менше використання пам’яті"
@@ -22984,7 +22907,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎬 <b>Анонси тижня: що будемо дивитися найближчим часом</b>\n\nП’ятниця — ідеальний час для того, щоб нарешті відкласти робочі справи, заварити гарячий чай та подивитися, що нам пропонують кіностудії та стримінгові платформи в найближчій перспективі. Останні потішили низкою свіжих анонсів та трейлерів: від довгоочікуваного фіналу монументальної фантастичної трилогії та серіальної адаптації класики до зіркової комедії, напруженого трилера і сімейних пригод.\n\n🔗 <a href=\"https://itc.ua/ua/novini/anonsy-tyzhnya-shho-budemo-dyvytysya-najblyzhchym-chasom/\">ITC.ua</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/anonsy-tyzhnya-shho-budemo-dyvytysya-najblyzhchym-chasom/",
     "orig": "Анонси тижня: що будемо дивитися найближчим часом"
@@ -23007,7 +22929,6 @@
       "https://www.rockpapershotgun.com/ea-execs-choosing-star-wars-battlefront-3-over-mass-effect-5-was-the-main-factor-in-biowares-demise-according-to-report"
      ]
     ],
-    "caption": "🎮 <b>Нову <a href=\"https://store.steampowered.com/app/1328670/\">Mass Effect</a> скасували на користь <a href=\"https://store.steampowered.com/app/1237980/\">Star Wars: Battlefront</a> 3</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2651130/\">Canceled</a>\n\nКомпанія EA закрила студію BioWare та скасувала розробку нової Mass Effect через інвестиції в Star Wars: Battlefront 3. Керівництво визнало проєкт за франшизою Star Wars менш ризикованим, а попередні ігри BioWare не виправдали очікувань.\n\n🔗 <a href=\"https://insider-gaming.com/new-mass-effect-was-canceled-in-favor-of-star-wars-battlefront-3/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/new-mass-effect-was-canceled-in-favor-of-star-wars-battlefront-3/",
     "orig": "New Mass Effect Was Canceled in Favor of Star Wars: Battlefront 3"
@@ -23021,7 +22942,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>Рецензія на документальний фільм Everest: The Other Side</b>\n\nNatGeo випускає в кінотеатри документальну стрічку режисерів Джиммі Чіна та Елізабет Чай Васархелі про альпініста й лижника Джима Моррісона. Фільм розповідає про його небезпечне сходження на Північну стіну Everest на тлі особистих трагедій і загибелі його партнерки Гіларі Нелсон.\n\n🔗 <a href=\"https://www.indiewire.com/criticism/movies/everest-the-other-side-review-everest-climbing-doc-1235214536/\">IndieWire</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.indiewire.com/criticism/movies/everest-the-other-side-review-everest-climbing-doc-1235214536/",
     "orig": "‘Everest: The Other Side’ Review: A Grieving Ski Mountaineer Scales the Face of Death in Chai Vasarhelyi and Jimmy Chin’s Climbing Doc"
@@ -23035,7 +22955,6 @@
    "Metal Injection",
    {
     "also": [],
-    "caption": "🤘 <b>Enslaved випустили атмосферний візуалайзер на трек &quot;I Am Ice&quot; за участю Johan Sara Jr.</b>\n\nКрижаний трек, щоб ідеально розпочати ваш гелловінський вікенд.\n\n🔗 <a href=\"https://metalinjection.net/new-music/watch-enslaved-release-visualizer-for-mid-standout-song-i-am-ice-featuring-johan-sara-jr\">Metal Injection</a>\n\n#музика",
     "kind": "photo",
     "link": "https://metalinjection.net/new-music/watch-enslaved-release-visualizer-for-mid-standout-song-i-am-ice-featuring-johan-sara-jr",
     "orig": "Watch: Enslaved Release Visualizer For 'Mið' Standout song \"I Am Ice\" Featuring Johan Sara Jr."
@@ -23058,7 +22977,6 @@
       "https://lambgoat.com/news/55622/rob-zombie-premieres-sir-lord-acid-wolfman-music-video/"
      ]
     ],
-    "caption": "🤘 <b>Rob Zombie випустив новий кліп на трек Sir Lord Acid Wolfman до Хелловіну</b>\n\nРок-ікона Rob Zombie презентував новий кліп на пісню &quot;Sir Lord Acid Wolfman&quot; з останнього альбому &quot;The Great Satan&quot;. Відео виконане у фірмовому макабричному стилі музиканта й приурочене до святкування Хелловіну.\n\n🔗 <a href=\"https://blabbermouth.net/news/rob-zombie-summons-sir-lord-acid-wolfman-in-new-halloween-music-video\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/rob-zombie-summons-sir-lord-acid-wolfman-in-new-halloween-music-video",
     "orig": "ROB ZOMBIE Summons 'Sir Lord Acid Wolfman' In New Halloween Music Video"
@@ -23772,6 +23690,174 @@
     "link": "https://www.polygon.com/mass-effect-bioware-shutdown-ea-star-wars/",
     "orig": "We Finally Know What Killed Mass Effect"
    }
+  ],
+  [
+   1793383296.5482075,
+   3778,
+   "🎮",
+   "Wizards of the Coast планує додаткові тиражі Foundations Commander Decks для Magic: The Gathering",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Wizards of the Coast планує додаткові тиражі Foundations Commander Decks для Magic: The Gathering</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/1035560/\">Struggling</a>\n\nГеймпродюсер Brandon Kreines підтвердив, що нові колоди Foundations Commander Decks для Magic: The Gathering планують зробити постійно доступним продуктом. Через високий попит і завищені ціни розробники готують додаткові тиражі, щоб новачкам було легше долучитися до грального формату за рекомендованою вартістю.\n\n🔗 <a href=\"https://www.ign.com/articles/struggling-to-buy-magics-foundations-commander-decks-wizards-confirms-reprints-are-likely\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/struggling-to-buy-magics-foundations-commander-decks-wizards-confirms-reprints-are-likely",
+    "orig": "Struggling To Buy Magic’s Foundations Commander Decks? Wizards Confirms Reprints Are Likely"
+   }
+  ],
+  [
+   1793383299.5290785,
+   3779,
+   "🤖",
+   "Акції Intel падають на тлі проблем із ПК, а курс Bitcoin обвалився через хакерську атаки на Binance",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Акції Intel падають на тлі проблем із ПК, а курс Bitcoin обвалився через хакерську атаки на Binance</b>\n\nАкції Intel знизилися через слабкі перспективи на ринку ПК та труднощі з попитом на CPU. Водночас курс Bitcoin різко впав після того, як хакери вивели з Binance $6.3 мільярда, а в AWS заявили про прискорення зростання завдяки інвестиціям у ШІ.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-30/bloomberg-tech-10-30-2026-video\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-30/bloomberg-tech-10-30-2026-video",
+    "orig": "Intel Tumbles on PC Outlook, AWS CEO on AI Spending and Growth"
+   }
+  ],
+  [
+   1793383309.1139913,
+   3780,
+   "🎮",
+   "Нова консоль Switch 2 приховує приховану пасхалку на честь The Legend of Zelda",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Нова консоль Switch 2 приховує приховану пасхалку на честь The Legend of Zelda</b>\n\nФанати виявили прихований піксель-арт із Link та Zelda на док-станції лімітованої консолі Switch 2. Під кришкою також зображено шістнадцять сердечок, а комплектний контроллер та аксесуари містять інші ретро-відсилання до франшизи.\n\n🔗 <a href=\"https://www.polygon.com/zelda-switch-2-console-easter-egg-preorder-controller-case-pixel-art/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/zelda-switch-2-console-easter-egg-preorder-controller-case-pixel-art/",
+    "orig": "New Switch 2 Consoles Quietly Hide A Perfect 'Zelda' Homage"
+   }
+  ],
+  [
+   1793383312.390719,
+   3781,
+   "🤘",
+   "Stone Sour воссоєдналися з Джимом Рутом заради нової версії пісні для релізу Audio Secrecy",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Stone Sour воссоєдналися з Джимом Рутом заради нової версії пісні для релізу Audio Secrecy</b>\n\nГурт Stone Sour записав невидану пісню «Full Of Empty» до 15-річчя альбому «Audio Secrecy». До роботи над треком повернулися колишній гітарист Джим Рут та інші учасники колективу. Ювілейне видання альбому вийде 20 листопада та міститиме демо, альтернативні версії та концертний запис.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/30/news/stone-sour-reunited-with-jim-root-to-complete-an-unfinished-audio-secrecy-song-for-the-albums-deluxe-15th-anniversary-release/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/30/news/stone-sour-reunited-with-jim-root-to-complete-an-unfinished-audio-secrecy-song-for-the-albums-deluxe-15th-anniversary-release/",
+    "orig": "Stone Sour Reunited With Jim Root To Complete An Unfinished “Audio Secrecy” Song For The Album’s Deluxe 15th Anniversary Release"
+   }
+  ],
+  [
+   1793383317.8693604,
+   3782,
+   "🎮",
+   "Хоррор-мод Whispering Hills перетворює Fallout 4 на Silent Hill",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Хоррор-мод Whispering Hills перетворює <a href=\"https://store.steampowered.com/app/377160/\">Fallout 4</a> на Silent Hill</b>\n\nНовий хардкорний мод Whispering Hills перетворює Commonwealth у Fallout 4 на моторошну долини з густим туманом, сильними дощами та новими ворогами на кшталт Sirenhead. Модифікація додає атмосферу виживання у стилі Silent Hill, пропонуючи гравцям незвичні квести та підвищену складність.\n\n🔗 <a href=\"https://www.pcgamer.com/games/fallout/this-brutal-fallout-4-horror-mod-turns-the-commonwealth-into-silent-hill/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/games/fallout/this-brutal-fallout-4-horror-mod-turns-the-commonwealth-into-silent-hill/",
+    "orig": "This brutal Fallout 4 horror mod turns the Commonwealth into Silent Hill"
+   }
+  ],
+  [
+   1793383321.4726117,
+   3783,
+   "🎮",
+   "У магазині GOG роздають пригодницьку гру A New Beginning - Final Cut",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>У магазині GOG роздають пригодницьку гру A New Beginning - Final Cut</b>\n\nУ сервісі GOG стартувала безплатна роздача пригодницької гри A New Beginning - Final Cut від розробника Daedalic. Акція триватиме до 2 листопада. Проєкт присвячений темі боротьби з екологічною катастрофою та подорожам у часі.\n\n🔗 <a href=\"https://www.pcgamer.com/games/adventure/a-daedalic-adventure-classic-is-free-on-gog/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/games/adventure/a-daedalic-adventure-classic-is-free-on-gog/",
+    "orig": "A Daedalic adventure classic is free on GOG"
+   }
+  ],
+  [
+   1793383325.6950397,
+   3784,
+   "🤖",
+   "OpenAI оновила правила поведінки для своїх моделей ШІ",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>OpenAI оновила правила поведінки для своїх моделей ШІ</b>\n\nOpenAI оновила документ Model Spec із п&#x27;ятьма базовими цінностями для ШІ, включно з відповідністю намірам людини та зменшенням шкоди. Тепер GPT-моделі мають використовувати попередні розмови, чітко розрізняти слова користувача і власні висновки, а також не перешкоджати контролю чи вимкненню.\n\n🔗 <a href=\"https://the-decoder.com/openai-sets-new-behavioral-guidelines-for-ai-models-that-have-already-proven-hard-to-control/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/openai-sets-new-behavioral-guidelines-for-ai-models-that-have-already-proven-hard-to-control/",
+    "orig": "OpenAI sets new behavioral guidelines for AI models that have already proven hard to control"
+   }
+  ],
+  [
+   1793383332.4416456,
+   3785,
+   "🎮",
+   "FromSoftware тимчасово вимикає сервери Dark Souls 2 і Dark Souls 3",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>FromSoftware тимчасово вимикає сервери <a href=\"https://store.steampowered.com/app/236430/\">Dark Souls 2</a> і <a href=\"https://store.steampowered.com/app/374320/\">Dark Souls 3</a></b>\n\nРозробник FromSoftware оголосив про тимчасове припинення роботи серверів Dark Souls 2 та Dark Souls 3 на всіх платформах через не уточнено проблеми. Наразі недоступні мережеві функції, зокрема PvP-вторгнення, знаки призову та повідомлення. Точної дати відновлення онлайн-режиму студія поки не називає.\n\n🔗 <a href=\"https://www.eurogamer.net/dark-souls-servers-temporarily-shutting-down-fromsoftware\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/dark-souls-servers-temporarily-shutting-down-fromsoftware",
+    "orig": "Dark Souls 2 and Dark Souls 3's online servers are temporarily going dark, FromSoftware announces"
+   }
+  ],
+  [
+   1793383335.6417646,
+   3786,
+   "🤘",
+   "Ministry випустили кліп на трек «Crickets» та фінальний альбом",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Ministry випустили кліп на трек «Crickets» та фінальний альбом</b>\n\nГурт Ministry випустив останній студійний альбом «Hate To Go – Take Out Or Delivery» разом із кліпом на сингл «Crickets», знятим режисером Діном Карром. Фронтмен Ел Юргенсен підтвердив, що гурт припинить існування 30 жовтня 2026 року, а грандіозне прощальне шоу відбудеться в Kia Forum 30 жовтня 2027 року.\n\n🔗 <a href=\"https://www.theprp.com/2026/10/30/news/ministrys-crickets-music-video-launched-alongside-the-arrival-of-their-final-studio-album/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/30/news/ministrys-crickets-music-video-launched-alongside-the-arrival-of-their-final-studio-album/",
+    "orig": "Ministry’s “Crickets” Music Video Launched Alongside The Arrival Of Their Final Studio Album"
+   }
+  ],
+  [
+   1793383344.7373118,
+   3787,
+   "🎮",
+   "Respawn анонсувала оновлення Apex Legends Cipher та деталі Сезону 31",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Respawn анонсувала оновлення <a href=\"https://store.steampowered.com/app/1172470/\">Apex Legends</a> Cipher та деталі Сезону 31</b>\n\n🔗 <a href=\"https://insider-gaming.com/when-does-apex-legends-cipher-release-and-whats-new/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/when-does-apex-legends-cipher-release-and-whats-new/",
+    "orig": "When Does Apex Legends Cipher Release and What’s New?"
+   }
+  ],
+  [
+   1793383348.7322218,
+   3788,
+   "🤘",
+   "Час таємних гостей і класики на другому шоу Aerosmith & Friends",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Час таємних гостей і класики на другому шоу Aerosmith &amp; Friends</b>\n\n🔗 <a href=\"https://loudwire.com/what-who-like-see-second-aerosmith-friends-show/\">Loudwire</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://loudwire.com/what-who-like-see-second-aerosmith-friends-show/",
+    "orig": "What (+ Who) We'd Like to See at Next Aerosmith & Friends Show"
+   }
+  ],
+  [
+   1793383351.8872592,
+   3789,
+   "🤖",
+   "Створено інтерактивний проєкт MonsterHouse на базі технологій NVIDIA",
+   "Hugging Face",
+   {
+    "also": [],
+    "caption": "🤖 <b>Створено інтерактивний проєкт MonsterHouse на базі технологій NVIDIA</b>\n\nЕнтузіаст створив до Гелловіну інтерактивну проєкцію MonsterHouse, яка перетворює гаражні ворота на сварливу стару будівлю з історією піратського корабля. Проєкт працює на одній робочій станції за допомогою NVIDIA Nemotron Voice Agent, ASR, Nemotron 3.5 Bolt E4B 4GB, Magpie TTS Zeroshot та Audio2Face-3D.\n\n🔗 <a href=\"https://huggingface.co/blog/nvidia/nemotron-halloween\">Hugging Face</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://huggingface.co/blog/nvidia/nemotron-halloween",
+    "orig": "nemotron-halloween"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23779,18 +23865,18 @@
    1793345489.1731842
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1793295475.904625,
    1793302370.8296332,
    1793315020.2377949,
    1793365276.0347295,
    1793374289.5703142,
-   1793377963.8153067
+   1793377963.8153067,
+   1793383299.5295925
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1793359881.1455073
   ],
   "ai|Hugging Face|https://huggingface.co/blog/feed.xml": [
-   1793282848.299152
+   1793383351.8877287
   ],
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
    1793277123.0990932,
@@ -23807,12 +23893,9 @@
    1793376194.7393901
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
-   1793280836.9805245,
-   1793282993.116131,
-   1793284515.8853486,
-   1793288189.7745461,
    1793304093.0643573,
-   1793363602.7952008
+   1793363602.7952008,
+   1793383325.6955123
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1793370738.9416513
@@ -23831,12 +23914,11 @@
    1793377941.610425
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1793288167.0471866,
-   1793291895.771292,
    1793356283.3814626,
    1793363585.288578,
    1793372554.6385462,
-   1793374323.1015167
+   1793374323.1015167,
+   1793383332.4420981
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1793295409.3726573,
@@ -23857,13 +23939,6 @@
    1793372530.3922298
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1793278927.6195827,
-   1793282733.7153668,
-   1793286417.0641844,
-   1793286456.373072,
-   1793286561.137237,
-   1793293309.8352172,
-   1793293484.748811,
    1793296914.671003,
    1793296970.3472314,
    1793297037.7417727,
@@ -23880,7 +23955,8 @@
    1793361794.1228116,
    1793361806.762455,
    1793361818.8185203,
-   1793365291.6684744
+   1793365291.6684744,
+   1793383296.5486903
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1793280788.5289931,
@@ -23889,9 +23965,6 @@
    1793355116.518946
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1793293355.5991635,
-   1793293664.2544458,
-   1793295446.4798193,
    1793297119.4419043,
    1793300521.9452698,
    1793302410.042198,
@@ -23905,7 +23978,8 @@
    1793369066.2336066,
    1793369082.600938,
    1793370777.8729508,
-   1793379748.1027277
+   1793379748.1027277,
+   1793383344.7377777
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1793370764.7920284,
@@ -23925,7 +23999,9 @@
    1793374348.6471114,
    1793379752.985449,
    1793381519.175542,
-   1793381535.2893696
+   1793381535.2893696,
+   1793383317.8697996,
+   1793383321.473079
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1793295361.0304713,
@@ -23934,12 +24010,12 @@
    1793372504.335576
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1793295389.4667027,
    1793354547.4577086,
    1793354557.058623,
    1793365344.250878,
    1793369110.5779233,
-   1793381553.037594
+   1793381553.037594,
+   1793383309.1144736
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1793297144.3660357,
@@ -24089,7 +24165,8 @@
    1793368958.6502442,
    1793374312.8119326,
    1793376214.3191054,
-   1793381509.0948775
+   1793381509.0948775,
+   1793383348.7327313
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1793322485.2963562,
@@ -24127,7 +24204,6 @@
    1793381527.3204079
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1793293396.955933,
    1793298747.3177829,
    1793300484.7018964,
    1793300549.9471657,
@@ -24144,7 +24220,9 @@
    1793336504.1848128,
    1793338451.4226756,
    1793341983.845381,
-   1793379756.1410685
+   1793379756.1410685,
+   1793383312.3911865,
+   1793383335.6422257
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1793356285.5005145
@@ -25134,6 +25212,7 @@
   "35128c7f307da6ff": 1793226778.7048647,
   "351ff959b9b4fd9f": 1793125882.9278913,
   "352e9a05320a220a": 1792508524.8477433,
+  "3533c27ae020afab": 1793383325.6954696,
   "3546000bb526f873": 1793325781.2979681,
   "3547e9b704a4f8e2": 1793120668.5453598,
   "3559cf0d5f3297f3": 1792944096.0405872,
@@ -25821,6 +25900,7 @@
   "5caaa79300fb7030": 1792951301.123536,
   "5cb4efc082891b13": 1792526481.0749602,
   "5cbf96954b361583": 1792969254.6031685,
+  "5cc989c45b6a75d9": 1793383344.7377312,
   "5cd9816c8b7b910f": 1792328496.9111874,
   "5cdcd4991d694e8f": 1793241054.3613508,
   "5ce223a43a1b7a9f": 1793241054.3613508,
@@ -26538,6 +26618,7 @@
   "8643ff0554ac6f28": 1793198114.336362,
   "865f7ae4a8bf95ef": 1792352545.681555,
   "865fb0b9b3298bee": 1792611113.9521074,
+  "8664acb95ee8a64f": 1793383309.1144292,
   "8671b6cf48a47a6e": 1792686679.1465383,
   "86849046756c235b": 1792705461.1137817,
   "868c10ed0d4d81a3": 1792670649.283569,
@@ -26855,6 +26936,7 @@
   "97b2f471101935f3": 1793109834.6328378,
   "97c95451533bac2e": 1793052117.8485096,
   "9822dbf5e3a6f609": 1793138570.1369286,
+  "982c2ac2eb0c4657": 1793383335.6421795,
   "983340287c3f09ed": 1792866680.9620616,
   "983f23e99302862c": 1792825401.5848832,
   "9840f744f166dd71": 1793205200.8209755,
@@ -26910,6 +26992,7 @@
   "9ac1ae1f5452b3c6": 1793275368.0799065,
   "9ad5ce51a9979f8c": 1792917074.218716,
   "9ae994c2290a7ab5": 1792687119.149697,
+  "9afddd98f9877fc1": 1793383312.3911133,
   "9b0106aa51e84a4a": 1792832599.5504208,
   "9b0607073fc4d8fa": 1792528301.405173,
   "9b270ea475553ca1": 1793309498.4697175,
@@ -26998,6 +27081,7 @@
   "a0198314f11ae36e": 1792782185.1950371,
   "a02930367833f6ce": 1792607504.2668285,
   "a030fd3a5fbee6aa": 1792571452.7426152,
+  "a0432c7ba6a8a1f6": 1793383317.8697517,
   "a0698b310adf5ec0": 1792188113.8055182,
   "a085cdbbc6fd40d1": 1793018000.9549913,
   "a08781591b7a3f26": 1793028934.690513,
@@ -27303,6 +27387,7 @@
   "b1d8664a6fb9d05e": 1793025225.7725754,
   "b1ddfb3391888202": 1793268177.4373505,
   "b20fcdf61b72dcd3": 1793289832.524448,
+  "b2263e9f84127c76": 1793383351.887684,
   "b239a9edb868e7cc": 1793210835.824067,
   "b23fd40b8c815cd5": 1792432891.9650607,
   "b254c4c4c749975a": 1793372535.0958557,
@@ -27623,6 +27708,7 @@
   "c410a051775a62f3": 1792418609.5736082,
   "c425511b3facba8c": 1793145677.5125148,
   "c43169d41b5f78b5": 1793273473.217962,
+  "c436e3fb2c7ee46a": 1793383299.5295477,
   "c44e63c1e2373e7b": 1792962086.9894247,
   "c452988cc45f7355": 1793365307.8109207,
   "c463cf50d3d3eefd": 1792767841.439141,
@@ -27671,6 +27757,7 @@
   "c6dd4fe391531aa4": 1792679773.3947988,
   "c6f5241e418f3e9a": 1792972875.3557944,
   "c7159b49b4ec9828": 1792413118.166048,
+  "c71fa180348e8a9f": 1793383321.4730325,
   "c73447b03cdb9531": 1792249978.196443,
   "c75e1c627726edb0": 1793174570.0184221,
   "c762fec47d138699": 1792638085.0296996,
@@ -27863,6 +27950,7 @@
   "d447813bb1cbaa25": 1792677855.0629535,
   "d46bc6c38954c7f3": 1793114854.5257056,
   "d47ba70e05a48283": 1792954906.193052,
+  "d4d9e61c62c08631": 1793383332.4420538,
   "d4e76acabac153cf": 1793134902.022932,
   "d4efb6c40ea2bb79": 1793071987.3155534,
   "d4f3a0916644ee76": 1793131258.1143897,
@@ -28112,6 +28200,7 @@
   "e4087589171bb1ae": 1793134891.2182145,
   "e40b1a1ef978ee30": 1793282737.15746,
   "e41245ff660ecc5e": 1792411305.9608705,
+  "e439fd8cc88b0b7c": 1793383258.0614157,
   "e44466260f0b3f14": 1792427486.7053337,
   "e44bf404aded39db": 1792602124.4728942,
   "e45b12d59e8e965a": 1793368927.459385,
@@ -28195,6 +28284,7 @@
   "e84e7947c146a275": 1792607540.6289332,
   "e8512b2eb69c6504": 1793273473.2148447,
   "e87d416cf54aca14": 1792273238.8297417,
+  "e88055f742db64f2": 1793383296.5486405,
   "e891c97409f3641e": 1792859639.2112093,
   "e8a2029a8f0142d4": 1793117141.4261708,
   "e8c3f38b57b3eb77": 1792701117.597372,
@@ -28299,6 +28389,7 @@
   "efa6b08c22b55318": 1792886547.9425578,
   "efb04152e06859f7": 1792791107.1763618,
   "efc1710b8201b640": 1793286589.232509,
+  "efc4289d898092cb": 1793383348.7326844,
   "efefd3e7f16fbe36": 1793217712.6607685,
   "f0339613a2d9dbcf": 1792177205.8319185,
   "f03a6b556d636049": 1793241083.7364578,
@@ -29037,9 +29128,9 @@
    "6jdXkhI59ngreTw9GwoKNv",
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
-  "artists_checked": 1793295547.946745,
+  "artists_checked": 1793383356.3043954,
   "blocked_until": 1793382007.2033439,
-  "cursor": 54,
+  "cursor": 64,
   "digest_week": "2026-W44",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -29782,7 +29873,7 @@
    "Loudwire": 5,
    "Metal Hammer (Louder)": 2,
    "Metal Injection": 1,
-   "PC Gamer": 20,
+   "PC Gamer": 21,
    "Pitchfork": 2,
    "Polygon": 54,
    "Revolver": 1,
@@ -29795,48 +29886,48 @@
    "/Film": 29,
    "AIN.ua": 6,
    "Blabbermouth": 71,
-   "Bloomberg": 52,
+   "Bloomberg": 53,
    "DOU": 1,
    "DOU Gamedev": 5,
    "Deadline": 71,
    "Decibel": 12,
    "Digital Foundry": 8,
    "Distorted Sound": 18,
-   "Eurogamer": 30,
+   "Eurogamer": 31,
    "GameSpot": 34,
    "GamesIndustry.biz": 21,
    "GitHub Trending": 20,
-   "Hugging Face": 3,
-   "IGN": 68,
+   "Hugging Face": 4,
+   "IGN": 69,
    "ITC.ua": 63,
    "IndieWire": 21,
-   "Insider Gaming": 82,
+   "Insider Gaming": 83,
    "Kerrang!": 39,
    "Lambgoat": 46,
-   "Loudwire": 24,
+   "Loudwire": 25,
    "Metal Hammer (Louder)": 30,
    "Metal Injection": 18,
    "MetalSucks": 1,
    "Mezha": 75,
    "Neformat": 3,
-   "PC Gamer": 80,
+   "PC Gamer": 82,
    "Pitchfork": 8,
    "PlayUA": 24,
-   "Polygon": 29,
+   "Polygon": 30,
    "Product Hunt": 21,
    "Revolver": 9,
    "Rock Paper Shotgun": 25,
    "SteamDB": 3,
    "Stereogum": 15,
-   "The Decoder": 23,
-   "ThePRP": 57,
+   "The Decoder": 24,
+   "ThePRP": 59,
    "VGC": 28,
    "Variety": 30
   },
   "translators": {
    "DeepL": 30,
    "gemini-flash-latest": 37,
-   "gemini-flash-lite-latest": 1216
+   "gemini-flash-lite-latest": 1228
   },
   "week": "2026-W44"
  },
@@ -30576,6 +30667,26 @@
    "ハルスベリヤ叙事詩2.5",
    1792595281.694616
   ],
+  "q:2 consoles": [
+   0,
+   "",
+   1793383307.255044
+  ],
+  "q:2 consoles quietly": [
+   0,
+   "",
+   1793383306.7611046
+  ],
+  "q:2 consoles quietly hide": [
+   0,
+   "",
+   1793383306.2412708
+  ],
+  "q:2 consoles quietly hide a perfect": [
+   0,
+   "",
+   1793383305.7411659
+  ],
   "q:2 exclusive the duskbloods": [
    0,
    "",
@@ -30655,11 +30766,6 @@
    0,
    "",
    1793372506.7971106
-  ],
-  "q:3 dream projects": [
-   0,
-   "",
-   1793208838.7546628
   ],
   "q:3 the final": [
    0,
@@ -31301,6 +31407,16 @@
    "Apex Legends™",
    1792659698.9548612
   ],
+  "q:apex legends cipher release": [
+   0,
+   "",
+   1793383343.1925704
+  ],
+  "q:apex legends cipher release and what": [
+   0,
+   "",
+   1793383342.661681
+  ],
   "q:apex legends update": [
    0,
    "",
@@ -31325,11 +31441,6 @@
    1808500,
    "ARC Raiders",
    1791742986.4642007
-  ],
-  "q:arc raiders'": [
-   0,
-   "",
-   1793208769.7959433
   ],
   "q:are taking": [
    0,
@@ -32096,35 +32207,10 @@
    "",
    1793367282.4118314
   ],
-  "q:brutal": [
-   0,
-   "",
-   1793210487.3184557
-  ],
   "q:brutal legend": [
    225260,
    "Brutal Legend",
    1792609332.9176137
-  ],
-  "q:brutal mmorpg": [
-   0,
-   "",
-   1793210486.5239196
-  ],
-  "q:brutal mmorpg focused": [
-   0,
-   "",
-   1793210485.9116495
-  ],
-  "q:brutal mmorpg focused on bloody": [
-   0,
-   "",
-   1793210485.3972244
-  ],
-  "q:brutal mmorpg focused on bloody violence": [
-   0,
-   "",
-   1793210484.6915102
   ],
   "q:buckshot roulette": [
    2835570,
@@ -32150,6 +32236,31 @@
    0,
    "",
    1793286425.004825
+  ],
+  "q:buy": [
+   0,
+   "",
+   1793383293.7349532
+  ],
+  "q:buy magic": [
+   0,
+   "",
+   1793383293.149907
+  ],
+  "q:buy magic's foundations": [
+   0,
+   "",
+   1793383292.5812624
+  ],
+  "q:buy magic's foundations commander": [
+   0,
+   "",
+   1793383292.0607984
+  ],
+  "q:buy magic's foundations commander decks": [
+   0,
+   "",
+   1793383291.5593505
   ],
   "q:buyout": [
    0,
@@ -32526,6 +32637,11 @@
    "",
    1793369084.7857974
   ],
+  "q:commonwealth": [
+   0,
+   "",
+   1793383314.4148386
+  ],
   "q:company of heroes 3": [
    1677280,
    "Company of Heroes 3",
@@ -32866,10 +32982,30 @@
    "",
    1793379741.498286
   ],
+  "q:daedalic": [
+   0,
+   "",
+   1793383319.9137676
+  ],
   "q:dark souls 2": [
    236430,
    "DARK SOULS™ II",
    1792350087.4852767
+  ],
+  "q:dark souls 2 and dark": [
+   0,
+   "",
+   1793383328.190388
+  ],
+  "q:dark souls 2 and dark souls": [
+   0,
+   "",
+   1793383327.6946433
+  ],
+  "q:dark souls 3": [
+   374320,
+   "DARK SOULS™ III",
+   1793383328.702487
   ],
   "q:david": [
    346180,
@@ -33270,6 +33406,31 @@
    2650890,
    "DMZ",
    1792582328.5199592
+  ],
+  "q:does": [
+   0,
+   "",
+   1793383342.1439204
+  ],
+  "q:does apex": [
+   0,
+   "",
+   1793383341.6191065
+  ],
+  "q:does apex legends": [
+   0,
+   "",
+   1793383341.1164737
+  ],
+  "q:does apex legends cipher": [
+   0,
+   "",
+   1793383340.5864952
+  ],
+  "q:does apex legends cipher release": [
+   0,
+   "",
+   1793383340.0950565
   ],
   "q:does wow forever": [
    0,
@@ -34851,11 +35012,6 @@
    "Half-Life",
    1792692153.7414753
   ],
-  "q:halloween": [
-   0,
-   "",
-   1793208695.044187
-  ],
   "q:halloween night": [
    2658090,
    "Halloween Night",
@@ -35105,6 +35261,11 @@
    0,
    "",
    1793282506.0496352
+  ],
+  "q:hill": [
+   0,
+   "",
+   1793383315.9526591
   ],
   "q:hiring": [
    0,
@@ -35386,11 +35547,6 @@
    "Iron Lung",
    1791994329.4241986
   ],
-  "q:is a dark": [
-   0,
-   "",
-   1793210484.071222
-  ],
   "q:is already": [
    0,
    "",
@@ -35645,16 +35801,6 @@
    0,
    "",
    1793282997.4924204
-  ],
-  "q:kane": [
-   0,
-   "",
-   1793208839.946411
-  ],
-  "q:kane parsons": [
-   0,
-   "",
-   1793208839.2353892
   ],
   "q:katana zero": [
    460950,
@@ -35921,11 +36067,6 @@
    "",
    1793302378.6889493
   ],
-  "q:life": [
-   0,
-   "",
-   1793208750.9715087
-  ],
   "q:life is strange": [
    1265920,
    "Life is Strange Remastered",
@@ -36110,6 +36251,16 @@
    0,
    "",
    1793361799.6518068
+  ],
+  "q:magic's foundations commander": [
+   0,
+   "",
+   1793383294.7447114
+  ],
+  "q:magic's foundations commander decks": [
+   0,
+   "",
+   1793383294.2488852
   ],
   "q:mainline story could wrap up": [
    0,
@@ -36450,11 +36601,6 @@
    0,
    "",
    1793210488.4203887
-  ],
-  "q:mmorpg focused on bloody violence": [
-   0,
-   "",
-   1793210487.869978
   ],
   "q:modern": [
    0,
@@ -36825,6 +36971,31 @@
    0,
    "",
    1793370768.8913238
+  ],
+  "q:new switch": [
+   0,
+   "",
+   1793383303.6246777
+  ],
+  "q:new switch 2": [
+   0,
+   "",
+   1793383303.1045005
+  ],
+  "q:new switch 2 consoles": [
+   0,
+   "",
+   1793383302.605796
+  ],
+  "q:new switch 2 consoles quietly": [
+   0,
+   "",
+   1793383302.0298505
+  ],
+  "q:new switch 2 consoles quietly hide": [
+   0,
+   "",
+   1793383301.5241692
   ],
   "q:next shooter survived the microsoft": [
    0,
@@ -37295,11 +37466,6 @@
    0,
    "",
    1793363592.233459
-  ],
-  "q:parsons": [
-   0,
-   "",
-   1793208840.4761193
   ],
   "q:passes": [
    0,
@@ -38025,11 +38191,6 @@
    1104800,
    "Radiance",
    1791795353.6866915
-  ],
-  "q:raiders'": [
-   0,
-   "",
-   1793208770.315595
   ],
   "q:rain98": [
    3498720,
@@ -38896,6 +39057,16 @@
    "",
    1793300529.5445185
   ],
+  "q:silent": [
+   0,
+   "",
+   1793383315.438586
+  ],
+  "q:silent hill": [
+   0,
+   "",
+   1793383314.9174247
+  ],
   "q:sinyala": [
    0,
    "",
@@ -39376,6 +39547,31 @@
    "",
    1793280839.000891
   ],
+  "q:struggling": [
+   1035560,
+   "Struggling",
+   1793383291.0496666
+  ],
+  "q:struggling to buy": [
+   0,
+   "",
+   1793383290.5105586
+  ],
+  "q:struggling to buy magic": [
+   0,
+   "",
+   1793383289.903571
+  ],
+  "q:struggling to buy magic's foundations": [
+   0,
+   "",
+   1793383289.4026124
+  ],
+  "q:struggling to buy magic's foundations commander": [
+   0,
+   "",
+   1793383288.8887618
+  ],
   "q:studio": [
    0,
    "",
@@ -39410,6 +39606,21 @@
    0,
    "",
    1793223105.8956754
+  ],
+  "q:switch 2 consoles": [
+   0,
+   "",
+   1793383305.2009122
+  ],
+  "q:switch 2 consoles quietly": [
+   0,
+   "",
+   1793383304.6437871
+  ],
+  "q:switch 2 consoles quietly hide": [
+   0,
+   "",
+   1793383304.1199186
   ],
   "q:switch 2 exclusive": [
    0,
@@ -39725,11 +39936,6 @@
    0,
    "",
    1793372502.2058792
-  ],
-  "q:this company has been driven into a wall for years": [
-   0,
-   "",
-   1793208750.4336584
   ],
   "q:this game": [
    0,
@@ -40371,21 +40577,6 @@
    "",
    1793223104.4128416
   ],
-  "q:vampir": [
-   0,
-   "",
-   1793210483.5295262
-  ],
-  "q:vampir is": [
-   0,
-   "",
-   1793210483.0136652
-  ],
-  "q:vampir is a dark": [
-   0,
-   "",
-   1793210482.4842749
-  ],
   "q:vatira": [
    0,
    "",
@@ -40731,15 +40922,35 @@
    "",
    1793289868.5810602
   ],
-  "q:what we want to do going forward": [
-   0,
-   "",
-   1793208769.1866393
-  ],
   "q:whatever you want": [
    0,
    "",
    1793298683.3522847
+  ],
+  "q:when does": [
+   0,
+   "",
+   1793383339.5958085
+  ],
+  "q:when does apex": [
+   0,
+   "",
+   1793383339.106075
+  ],
+  "q:when does apex legends": [
+   0,
+   "",
+   1793383338.6151605
+  ],
+  "q:when does apex legends cipher": [
+   0,
+   "",
+   1793383338.1237626
+  ],
+  "q:when does apex legends cipher release": [
+   0,
+   "",
+   1793383337.6339223
   ],
   "q:which": [
    0,
@@ -41259,41 +41470,38 @@
  },
  "tag_hints": {
   "Mezha": [
+   "alphabet",
    "anthropic",
-   "apple",
-   "brave1 market",
-   "directx 12",
+   "copilot",
+   "intel",
    "logitech",
-   "macbook pro",
    "microsoft",
-   "netflix",
-   "openai",
+   "nvidia",
+   "osint",
    "palaye",
    "pro x3 superstrike",
-   "pubg",
    "samsung",
    "spacex",
    "starni games",
    "steel core",
+   "авіація",
    "безпілотники",
-   "бпла",
    "бізнес",
+   "винищувачі",
+   "гелікоптери",
    "двигун",
-   "дрони",
    "зроблено в україні",
-   "кіно",
-   "математика",
+   "китай",
    "новини",
-   "ноутбуки",
    "оборонка",
    "огляди",
-   "перехоплювачі",
    "планшети",
    "ракети",
-   "сем альтман",
+   "росія",
+   "софт",
+   "су-34",
    "сша",
-   "технології",
-   "трасування променів",
+   "третій армійський корпус",
    "чехія",
    "штучний інтелект",
    "ігри",
@@ -41301,22 +41509,6 @@
   ]
  },
  "titles": [
-  [
-   1793208821.1226506,
-   "Photos: Periphery Live in Toronto"
-  ],
-  [
-   1793208823.629,
-   "Третій сезон \"Перснів влади\" покаже орка-перебіжчика, який зраджує Саурона"
-  ],
-  [
-   1793208836.7758148,
-   "Gaerea Release All Four Versions Of Their New Track “Shallow”"
-  ],
-  [
-   1793208850.999475,
-   "Backrooms director Kane Parsons is currently working on '3 dream projects' while wearing a Valve hoodie—suspicious"
-  ],
   [
    1793210600.9187355,
    "Vampir Is a Dark, Brutal MMORPG Focused on Bloody Violence"
@@ -43304,25 +43496,57 @@
   [
    1793381553.0375526,
    "We Finally Know What Killed Mass Effect"
+  ],
+  [
+   1793383296.548643,
+   "Struggling To Buy Magic’s Foundations Commander Decks? Wizards Confirms Reprints Are Likely"
+  ],
+  [
+   1793383299.5295496,
+   "Intel Tumbles on PC Outlook, AWS CEO on AI Spending and Growth"
+  ],
+  [
+   1793383309.1144314,
+   "New Switch 2 Consoles Quietly Hide A Perfect 'Zelda' Homage"
+  ],
+  [
+   1793383312.3911152,
+   "Stone Sour Reunited With Jim Root To Complete An Unfinished “Audio Secrecy” Song For The Album’s Deluxe 15th Anniversary Release"
+  ],
+  [
+   1793383317.8697546,
+   "This brutal Fallout 4 horror mod turns the Commonwealth into Silent Hill"
+  ],
+  [
+   1793383321.4730341,
+   "A Daedalic adventure classic is free on GOG"
+  ],
+  [
+   1793383325.6954713,
+   "OpenAI sets new behavioral guidelines for AI models that have already proven hard to control"
+  ],
+  [
+   1793383332.4420555,
+   "Dark Souls 2 and Dark Souls 3's online servers are temporarily going dark, FromSoftware announces"
+  ],
+  [
+   1793383335.6421819,
+   "Ministry’s “Crickets” Music Video Launched Alongside The Arrival Of Their Final Studio Album"
+  ],
+  [
+   1793383344.737733,
+   "When Does Apex Legends Cipher Release and What’s New?"
+  ],
+  [
+   1793383348.7326865,
+   "What (+ Who) We'd Like to See at Next Aerosmith & Friends Show"
+  ],
+  [
+   1793383351.8876865,
+   "nemotron-halloween"
   ]
  ],
  "titles_uk": [
-  [
-   1793208821.122652,
-   "Фоторепортаж: Periphery наживо в Торонто"
-  ],
-  [
-   1793208823.6290004,
-   "Третій сезон \"Перснів влади\" покаже орка-перебіжчика, який зраджує Саурона"
-  ],
-  [
-   1793208836.7758155,
-   "Gaerea випустили всі чотири версії треку Shallow"
-  ],
-  [
-   1793208850.9994757,
-   "Режисер The Backrooms Кейн Парсонс працює над трьома проєктами"
-  ],
   [
    1793210600.9187376,
    "Vampir — нова темна і брутальна MMORPG з акцентом на криваве насильство"
@@ -45310,6 +45534,54 @@
   [
    1793381553.037553,
    "EA закрила студію BioWare через майбутню гру за Star Wars"
+  ],
+  [
+   1793383296.548644,
+   "Wizards of the Coast планує додаткові тиражі Foundations Commander Decks для Magic: The Gathering"
+  ],
+  [
+   1793383299.5295508,
+   "Акції Intel падають на тлі проблем із ПК, а курс Bitcoin обвалився через хакерську атаки на Binance"
+  ],
+  [
+   1793383309.1144326,
+   "Нова консоль Switch 2 приховує приховану пасхалку на честь The Legend of Zelda"
+  ],
+  [
+   1793383312.3911364,
+   "Stone Sour воссоєдналися з Джимом Рутом заради нової версії пісні для релізу Audio Secrecy"
+  ],
+  [
+   1793383317.869756,
+   "Хоррор-мод Whispering Hills перетворює Fallout 4 на Silent Hill"
+  ],
+  [
+   1793383321.4730353,
+   "У магазині GOG роздають пригодницьку гру A New Beginning - Final Cut"
+  ],
+  [
+   1793383325.6954722,
+   "OpenAI оновила правила поведінки для своїх моделей ШІ"
+  ],
+  [
+   1793383332.4420564,
+   "FromSoftware тимчасово вимикає сервери Dark Souls 2 і Dark Souls 3"
+  ],
+  [
+   1793383335.6421826,
+   "Ministry випустили кліп на трек «Crickets» та фінальний альбом"
+  ],
+  [
+   1793383344.737734,
+   "Respawn анонсувала оновлення Apex Legends Cipher та деталі Сезону 31"
+  ],
+  [
+   1793383348.7326875,
+   "Час таємних гостей і класики на другому шоу Aerosmith & Friends"
+  ],
+  [
+   1793383351.8876872,
+   "Створено інтерактивний проєкт MonsterHouse на базі технологій NVIDIA"
   ]
  ],
  "ukrainian": {
