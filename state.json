@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1793453474.187177
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1793453473.0291824
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-30",
  "freebies": {
   "last_check": 1793450045.4033866,
@@ -32,126 +19,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-31 13:31 UTC",
+  "at": "2026-10-31 14:03 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 4
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792762311.2499273,
-   2159,
-   "🎮",
-   "Реклама Call of Duty: Modern Warfare 4 на Xbox перекриває кастомні фони користувачів",
-   "GameSpot",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.gamespot.com/articles/call-of-duty-ads-on-xbox-are-even-more-annoying-this-year-with-modern-warfare-4/",
-    "orig": "Call Of Duty Ads On Xbox Are Even More Annoying This Year With Modern Warfare 4"
-   }
-  ],
-  [
-   1792762322.5026147,
-   2160,
-   "🎮",
-   "Хідео Міямото стане першим розробником ігор, який отримає японський Орден культури",
-   "GamesIndustry.biz",
-   {
-    "also": [
-     [
-      "IGN",
-      "https://www.ign.com/articles/nintendo-legend-shigeru-miyamoto-becomes-first-game-designer-to-be-awarded-japans-order-of-culture"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.gamesindustry.biz/nintendo-veteran-shigeru-miyamoto-to-receive-japans-order-of-culture-award",
-    "orig": "Nintendo veteran Shigeru Miyamoto to receive Japan's Order of Culture award"
-   }
-  ],
-  [
-   1792762329.4008176,
-   2161,
-   "🎮",
-   "Mammoth Tank і Priest зійшлися у фіналі турніру найкращих RTS-юнітів",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/rts/vote-now-the-mammoth-tank-and-priest-go-head-to-head-to-determine-the-best-rts-unit-of-all-time/",
-    "orig": "Vote now: The Mammoth Tank and Priest go head-to-head to determine the best RTS unit of all time"
-   }
-  ],
-  [
-   1792762347.9016275,
-   2162,
-   "🎮",
-   "У новому Halloween-бандлі від Fanatical можна забрати Prey, Doom та The Evil Within",
-   "VGC",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.videogameschronicle.com/news/fanatical-halloween-bundle-gives-you-prey-doom-1-2-and-evil-within-1-2-for-11-66/",
-    "orig": "Fanatical Halloween bundle gives you Prey, Doom 1 & 2, and Evil Within 1 & 2 for $11.66"
-   }
-  ],
-  [
-   1792762354.189157,
-   2163,
-   "🤘",
-   "MOTHER OF GRAVES випустять новий трек у межах Decibel Flexi Series",
-   "Decibel",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.decibelmagazine.com/2026/10/23/mother-of-graves-to-release-exclusive-new-song-a-terrible-famine-of-words-via-the-decibel-flexi-series/",
-    "orig": "MOTHER OF GRAVES to Release Exclusive New Song, “A Terrible Famine of Words,” via the Decibel Flexi Series!"
-   }
-  ],
-  [
-   1792762375.4565735,
-   2164,
-   "💾",
-   "Новий складний iPhone Duo від Apple зібрав черги у перший день продажу",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/videos/2026-10-23/apple-iphone-duo-debuts-with-long-lines-limited-supply-video",
-    "orig": "Apple’s $2K iPhone Duo Debuts With Long Lines and Limited Supply"
-   }
-  ],
-  [
-   1792762392.236966,
-   2165,
-   "🎮",
-   "Кіберспортивна організація LYON вийшла з дисципліни Valorant",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/lyon-become-latest-org-to-withdraw-from-valorant/",
-    "orig": "LYON Become Latest Org to Withdraw from Valorant"
-   }
-  ],
-  [
-   1792764156.979921,
-   2166,
-   "🤘",
-   "Анонсовано 11 нових рок- і метал-турів",
-   "Loudwire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://loudwire.com/new-rock-metal-tours-oct-16-22-2026/",
-    "orig": "11 New Rock + Metal Tours Announced This Past Week"
-   }
-  ],
   [
    1792764195.0682223,
    2167,
@@ -22481,7 +22360,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/390460/\">Tyler</a> із For Fun розповів про старт на ALGS Split 2 Playoffs</b>\n\nГравець For Fun Tyler розповів про успішний початок турніру ALGS Split 2 Playoffs та проблеми з паузами. Команда вдало провела перші матчі, проте зіткнулася з труднощами через технічні збої та перезапуски серверів.\n\n🔗 <a href=\"https://insider-gaming.com/for-fun-tyler-interview-algs-split-2-2026/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/for-fun-tyler-interview-algs-split-2-2026/",
     "orig": "For Fun Tyler at ALGS Split 2: “We want to prove to people that we can win, that we can do it under pressure”"
@@ -22495,7 +22373,6 @@
    "Distorted Sound",
    {
     "also": [],
-    "caption": "🤘 <b>North Atlas випустили новий кліп на пісню Wake The Dead</b>\n\nШотландський рок-гурт North Atlas презентував кліп на сингл Wake The Dead. Відео зняли біля давніх поховань у Шотландії, а трек поєднує важкі рифи та теми стародавніх кельтських ритуалів.\n\n🔗 <a href=\"https://distortedsoundmag.com/north-atlas-release-new-music-video-for-wake-the-dead/\">Distorted Sound</a>\n\n#музика",
     "kind": "photo",
     "link": "https://distortedsoundmag.com/north-atlas-release-new-music-video-for-wake-the-dead/",
     "orig": "North Atlas release new music video for ‘Wake The Dead’"
@@ -22727,6 +22604,10 @@
      [
       "Polygon",
       "https://www.polygon.com/final-fantasy-xiv-evercold-release-date-delayed/"
+     ],
+     [
+      "Insider Gaming",
+      "https://insider-gaming.com/final-fantasy-14-evercold-release-date/"
      ]
     ],
     "caption": "🎮 <b>Доповнення Evercold для <a href=\"https://store.steampowered.com/app/1173770/\">Final Fantasy</a> XIV перенесли на лютий 2027 року</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2753190/\">Delayed</a>\n\nРеліз доповнення Evercold для Final Fantasy XIV затримають на чотири тижні. Вихід гри тепер відбудеться 23 лютого 2027 року, а ранній доступ відкриється 19 лютого. На заході в Японії також показали новий трейлер, анонсували новий клас Zephyr із арбалетом та повідомили про кросовери з Neon Genesis Evangelion і Final Fantasy VII.\n\n🔗 <a href=\"https://www.ign.com/articles/final-fantasy-xiv-evercold-delayed-new-release-date-announced-at-ffxiv-fan-fest\">IGN</a>\n\n#ігри",
@@ -23336,6 +23217,34 @@
     "link": "https://insider-gaming.com/silver-palace-release-date/",
     "orig": "Silver Palace Arrives on PS5, PC, and Mobile This December"
    }
+  ],
+  [
+   1793455366.5870593,
+   3916,
+   "🎬",
+   "Телеканали готують рекордне висвітлення виборів на тлі конкуренції з блогерами",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Телеканали готують рекордне висвітлення виборів на тлі конкуренції з блогерами</b>\n\nТелеканали готують найбільше за останні роки висвітлення виборів із використанням нових даних і трансляцій, стикаючись із конкуренцією з боку творців контенту на YouTube. NBC News запланував 13 годин ефіру, а платформи на кшталт Fox News впроваджують ШІ-чатботи та стріми для боротьби за уваги глядачів.\n\n🔗 <a href=\"https://deadline.com/2026/10/midterms-news-networks-coverage-2026-1237207099/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/midterms-news-networks-coverage-2026-1237207099/",
+    "orig": "What To Watch For As Networks Cover Midterm Election Night: More Data, More Coverage & More Competition"
+   }
+  ],
+  [
+   1793455378.1309485,
+   3917,
+   "🎮",
+   "Гелен Міррен хоче з'явитися у фінальному фільмі Fast and Furious",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Гелен Міррен хоче з&#x27;явитися у фінальному фільмі Fast and Furious</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2631350/\">Helen</a>\n\nАкторка Гелен Міррен заявила про бажання повернутися до ролі Магдалини «Квіні» Еллмансон-Шоу у фінальній частині франшизи Fast and Furious. Вона сподівається, що Він Дізель знову знайде для неї невелику епізодичну роль, як робив це раніше у чотирьох фільмах серії.\n\n🔗 <a href=\"https://www.polygon.com/helen-mirren-wants-to-be-in-the-last-fast-and-furious-movie/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/helen-mirren-wants-to-be-in-the-last-fast-and-furious-movie/",
+    "orig": "Helen Mirren Wants To Be in the Last ‘Fast and Furious’ Movie"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23489,12 +23398,12 @@
    1793395880.9716468
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1793365344.250878,
    1793369110.5779233,
    1793381553.037594,
    1793383309.1144736,
    1793442774.1807659,
-   1793442800.5258586
+   1793442800.5258586,
+   1793455378.1314802
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1793309490.4665356,
@@ -23529,9 +23438,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1793361775.5866191,
-   1793365334.6289632,
-   1793368927.4594529,
    1793369098.7211196,
    1793394141.4130363,
    1793395986.3384602,
@@ -23543,7 +23449,8 @@
    1793437386.9738183,
    1793440884.791508,
    1793442810.5992405,
-   1793448078.9142873
+   1793448078.9142873,
+   1793455366.587543
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1793359919.5794566,
@@ -23817,6 +23724,7 @@
   "046b1beb267e4f08": 1793091772.4078338,
   "0483d653250f6fed": 1792668748.8697498,
   "048928e5c022f729": 1793100681.6765983,
+  "04adc418d863b8a8": 1793455253.529009,
   "04be08d5a97e19b1": 1792434685.2168472,
   "04bf884757415f28": 1792593158.2692006,
   "04cec270ff94cbd1": 1792985459.7584827,
@@ -24697,7 +24605,6 @@
   "33ff777f274e1a43": 1792787505.877791,
   "340076b11cdcc1d6": 1793282504.9867005,
   "341df134e33094c5": 1792699514.3038557,
-  "3429c7218e4f7d01": 1792244086.4117854,
   "34370e88c88d0cd4": 1793118789.7184525,
   "345dc724e72fe68f": 1792497655.4927337,
   "34607fa71dc872e1": 1792436456.6644757,
@@ -25158,6 +25065,7 @@
   "4de893c3213a0a2e": 1793104394.1019852,
   "4e07ba2a098db815": 1793201545.8753684,
   "4e124e1998c509a0": 1793372484.5462632,
+  "4e1a373b48373e00": 1793455378.1314347,
   "4e1c294c9f14e0ab": 1792776755.796842,
   "4e569a08412e8ec3": 1793194317.5413907,
   "4e76c4e336a16839": 1793100681.6811984,
@@ -25212,7 +25120,6 @@
   "50cf7323fb03ae1a": 1792645254.1242821,
   "50d24c7f8b39af9d": 1793107912.729106,
   "50d26b78ca51375f": 1792953084.3821683,
-  "50da6912ca75d057": 1792244037.6504922,
   "50e4a04dc2f56103": 1793261291.4766266,
   "50e5af312aefd332": 1792692096.7135513,
   "516f7b4c93380578": 1793210742.9788778,
@@ -25368,7 +25275,6 @@
   "59dfe9e2fc3b8716": 1793311394.0709226,
   "59ead4c24eadd770": 1793286129.2408173,
   "59fcada27301c811": 1792501291.1945188,
-  "59fdfd3e0e2924a3": 1792244021.5216222,
   "5a008d0fb2985f50": 1793027271.0076158,
   "5a0caf5f4ce94e10": 1792429255.8692856,
   "5a234f5733cc18dc": 1792790977.3207083,
@@ -25758,7 +25664,6 @@
   "6e456e768fc370d8": 1793124128.0668616,
   "6e66ca4ddfa62fb4": 1793089901.000461,
   "6e67e9917b788477": 1793120729.2789328,
-  "6e68a3f15db37bdb": 1792244062.2069013,
   "6e6f06653e2d83c1": 1793116879.2320538,
   "6e80a2d619b36392": 1792519371.728134,
   "6e850be2a3ec9b38": 1792328480.261266,
@@ -26106,7 +26011,6 @@
   "81b13b5f6649e345": 1793005386.2747838,
   "81b98509a7318284": 1792333906.3051164,
   "81bac336664d9503": 1792434708.7181153,
-  "81c60f65d26703ec": 1792244013.6619866,
   "81d8ed08bac46a6d": 1793100681.6790187,
   "81f53b0ad221f73b": 1793026974.3601005,
   "81f89a246b0c1fc3": 1793291895.7712486,
@@ -26282,7 +26186,6 @@
   "8c5b3b1c01e45cea": 1793291747.5758805,
   "8c6d09b72bbee120": 1793368887.4152513,
   "8c6d1520dbb62ee5": 1792600307.7744868,
-  "8c78792dcece6981": 1792244031.369591,
   "8c8cc7eb0265afbd": 1792688760.062426,
   "8c8dc3d6d730f323": 1792423879.268033,
   "8cc308cb5493abf4": 1792427707.025855,
@@ -26324,12 +26227,12 @@
   "8f32e994a7e46ca2": 1792928076.4436035,
   "8f48a845502d6da3": 1792692096.6941333,
   "8f5b76e651c7c526": 1793295371.0249524,
+  "8f5ea080678b9c3c": 1793455362.670195,
   "8f7761cc83b93431": 1793451651.7324479,
   "8f797a9e60524f7c": 1792710077.6001596,
   "8f87a50a5b809b80": 1792531894.0367324,
   "8f8808a68b630662": 1792656082.4787238,
   "8f8ab4983741182d": 1793296852.7314725,
-  "8f8caf581bdc33af": 1792244041.9555044,
   "8f9fec8ef2615331": 1792855922.2052743,
   "8fa3c54396fed602": 1792688559.5491064,
   "8fa416d9ed518d49": 1793392412.9245498,
@@ -26352,6 +26255,7 @@
   "908ffb3c1245390c": 1793075481.5680187,
   "909786c7698d64c2": 1792573307.4991057,
   "9099be1cfb13d53e": 1792663478.375077,
+  "90cf6be5a847c405": 1793455366.5874949,
   "90d5770dc7ea3aa3": 1792794687.55806,
   "90ddebc2105070e0": 1792639876.5397155,
   "90e049ae067dc38d": 1792668701.5788705,
@@ -26375,7 +26279,6 @@
   "92619c501a77f368": 1792609385.3368094,
   "927daa4f3ded9772": 1793248365.4052112,
   "929780c21798d906": 1792429338.4739318,
-  "929d01a762d35464": 1792244052.52162,
   "92a0f5a7afd7f6ba": 1792352386.1310177,
   "92b2f0cf0aef1a67": 1793120649.548882,
   "92b3b7da377e79e4": 1792427654.4568613,
@@ -26479,7 +26382,6 @@
   "97511ae871b6742b": 1793295409.372612,
   "975aa25aa3f9e914": 1792783896.327609,
   "97634f85402a420d": 1793188990.240187,
-  "976a5076e0e100cb": 1792244011.6036248,
   "978858e3121bf8da": 1793014498.7271607,
   "9790cfb9186cf657": 1793199856.24314,
   "97aba5ddd856365a": 1793241054.3613508,
@@ -26615,7 +26517,6 @@
   "9ed69390fe20c767": 1792323120.4642806,
   "9edf8f8b983c0052": 1792467078.051755,
   "9eebf3288fb96f21": 1793034146.2498186,
-  "9eee4171570d77e6": 1792244017.1963375,
   "9ef61c58da4d3ab0": 1792801883.8463635,
   "9f1364ec37494b09": 1792611090.1067271,
   "9f183790f322ba67": 1793363588.7437308,
@@ -27186,7 +27087,6 @@
   "beaf268984cbb65a": 1792713682.912498,
   "bec86fbdc72c855c": 1793212569.3640876,
   "bec96e80ce715e42": 1792789286.1226044,
-  "becc918d3917ca68": 1792244066.584133,
   "bed1f99b10fcb0d6": 1792782118.6245992,
   "bed980afd9b47117": 1793275289.1048028,
   "beed31b8a7a62633": 1793097201.076391,
@@ -27761,6 +27661,7 @@
   "e166beb3aa9a34d8": 1792769719.818474,
   "e199a8a72a068404": 1793131306.6270678,
   "e1a18ac139b178d4": 1792789286.6427832,
+  "e1b99c9d71a1a6d7": 1793455273.126777,
   "e1c7e5cf91a9af7d": 1792342887.8607316,
   "e1d21d005bd755d2": 1793166801.403429,
   "e1eeeb6b31df086a": 1792337508.496806,
@@ -27813,7 +27714,6 @@
   "e45b12d59e8e965a": 1793368927.459385,
   "e45e8d7d3b5fe1f2": 1792487057.804484,
   "e463138d1f55a6a0": 1792522879.8138556,
-  "e473e2d92085a8c9": 1792244071.6444137,
   "e4798de9f762ac18": 1793295491.3080368,
   "e481e8eea357f053": 1793210853.8194854,
   "e4966501a21957ec": 1793304112.5440762,
@@ -27856,7 +27756,6 @@
   "e6737f6bd74cdd1d": 1792416726.4256728,
   "e6872aff90aa1520": 1793332955.5684218,
   "e69843451af02153": 1792672394.4168599,
-  "e69d3218b1cef545": 1792244081.3454986,
   "e6a0a5678f199016": 1792785800.927577,
   "e6a17a68283e5a76": 1792515841.027615,
   "e6af825b3878cdeb": 1793183590.0226388,
@@ -29484,7 +29383,7 @@
   },
   "filtered": {
    "/Film": 15,
-   "Bloomberg": 9,
+   "Bloomberg": 10,
    "Deadline": 7,
    "Distorted Sound": 1,
    "Eurogamer": 2,
@@ -29512,7 +29411,7 @@
    "Bloomberg": 58,
    "DOU": 1,
    "DOU Gamedev": 5,
-   "Deadline": 82,
+   "Deadline": 83,
    "Decibel": 12,
    "Digital Foundry": 8,
    "Distorted Sound": 24,
@@ -29536,7 +29435,7 @@
    "PC Gamer": 85,
    "Pitchfork": 10,
    "PlayUA": 27,
-   "Polygon": 32,
+   "Polygon": 33,
    "Product Hunt": 25,
    "Revolver": 9,
    "Rock Paper Shotgun": 26,
@@ -29549,8 +29448,8 @@
   },
   "translators": {
    "DeepL": 35,
-   "gemini-flash-latest": 43,
-   "gemini-flash-lite-latest": 1364
+   "gemini-flash-latest": 44,
+   "gemini-flash-lite-latest": 1366
   },
   "week": "2026-W44"
  },
@@ -30245,10 +30144,25 @@
    "",
    1793358142.5319693
   ],
-  "q:134": [
+  "q:14": [
    0,
    "",
-   1793280862.6689832
+   1793455276.9003117
+  ],
+  "q:14 evercold": [
+   0,
+   "",
+   1793455276.372018
+  ],
+  "q:14 evercold delayed": [
+   0,
+   "",
+   1793455275.8545887
+  ],
+  "q:14 evercold delayed to february": [
+   0,
+   "",
+   1793455275.3501043
   ],
   "q:145": [
    0,
@@ -31365,6 +31279,11 @@
    "",
    1793367285.6635933
   ],
+  "q:be in the last": [
+   0,
+   "",
+   1793455373.421352
+  ],
   "q:be more": [
    0,
    "",
@@ -32065,21 +31984,6 @@
    "",
    1793394121.741864
   ],
-  "q:charts": [
-   0,
-   "",
-   1793280765.7914133
-  ],
-  "q:charts on day": [
-   0,
-   "",
-   1793280765.2022793
-  ],
-  "q:charts on day one": [
-   0,
-   "",
-   1793280764.6544318
-  ],
   "q:cheats": [
    0,
    "",
@@ -32729,6 +32633,16 @@
    2753190,
    "Delayed",
    1793415681.1304584
+  ],
+  "q:delayed to february": [
+   0,
+   "",
+   1793455279.0169826
+  ],
+  "q:delayed to february 2027": [
+   0,
+   "",
+   1793455278.4889069
   ],
   "q:delays": [
    0,
@@ -33655,6 +33569,16 @@
    "",
    1793415680.1833384
   ],
+  "q:evercold delayed to february": [
+   0,
+   "",
+   1793455277.905292
+  ],
+  "q:evercold delayed to february 2027": [
+   0,
+   "",
+   1793455277.4002037
+  ],
   "q:every legend": [
    4660010,
    "Every Legend",
@@ -33699,21 +33623,6 @@
    4615220,
    "EXPLODES",
    1793280762.2264638
-  ],
-  "q:explodes on steam": [
-   0,
-   "",
-   1793280761.6527402
-  ],
-  "q:explodes on steam charts": [
-   0,
-   "",
-   1793280761.0968435
-  ],
-  "q:explodes on steam charts on day": [
-   0,
-   "",
-   1793280760.5535061
   ],
   "q:extremes": [
    0,
@@ -33805,6 +33714,16 @@
    "Farlands",
    1792958489.5209355
   ],
+  "q:fast and furious": [
+   0,
+   "",
+   1793455368.6237087
+  ],
+  "q:fast and furious' movie": [
+   0,
+   "",
+   1793455374.4899478
+  ],
   "q:feature": [
    0,
    "",
@@ -33840,6 +33759,11 @@
    "",
    1793412077.5318851
   ],
+  "q:february 2027": [
+   0,
+   "",
+   1793455279.5667627
+  ],
   "q:final": [
    0,
    "",
@@ -33849,6 +33773,21 @@
    1173770,
    "FINAL FANTASY",
    1792672326.88277
+  ],
+  "q:final fantasy 14": [
+   0,
+   "",
+   1793455274.8526554
+  ],
+  "q:final fantasy 14 evercold": [
+   0,
+   "",
+   1793455274.182098
+  ],
+  "q:final fantasy 14 evercold delayed": [
+   0,
+   "",
+   1793455273.6764033
   ],
   "q:final fantasy 7": [
    3837340,
@@ -33969,11 +33908,6 @@
    0,
    "",
    1793390695.0394444
-  ],
-  "q:forever": [
-   0,
-   "",
-   1793280737.0045717
   ],
   "q:forever 4": [
    0,
@@ -34795,10 +34729,20 @@
    "Helen",
    1793183585.619203
   ],
-  "q:helix": [
+  "q:helen mirren": [
    0,
    "",
-   1793280738.2637098
+   1793455370.2063859
+  ],
+  "q:helen mirren wants": [
+   0,
+   "",
+   1793455369.6974626
+  ],
+  "q:helen mirren wants to be": [
+   0,
+   "",
+   1793455369.1972651
   ],
   "q:helldivers 2": [
    553850,
@@ -35050,31 +34994,6 @@
    "Hotline Miami",
    1793039506.7827897
   ],
-  "q:how long": [
-   0,
-   "",
-   1793280793.1270385
-  ],
-  "q:how long is": [
-   0,
-   "",
-   1793280792.401014
-  ],
-  "q:how long is phantom": [
-   0,
-   "",
-   1793280791.6802993
-  ],
-  "q:how long is phantom blade": [
-   0,
-   "",
-   1793280791.173072
-  ],
-  "q:how long is phantom blade zero": [
-   0,
-   "",
-   1793280790.6070344
-  ],
   "q:how tencent": [
    0,
    "",
@@ -35269,16 +35188,6 @@
    0,
    "",
    1793295436.015836
-  ],
-  "q:is phantom blade": [
-   0,
-   "",
-   1793280797.2431126
-  ],
-  "q:is phantom blade zero": [
-   0,
-   "",
-   1793280796.5857182
   ],
   "q:is pumping": [
    0,
@@ -35625,6 +35534,11 @@
    "Lanterns",
    1792080993.37305
   ],
+  "q:last": [
+   0,
+   "",
+   1793455373.9457998
+  ],
   "q:last chance": [
    4383640,
    "Last Chance",
@@ -35824,31 +35738,6 @@
    0,
    "",
    1793298703.8577776
-  ],
-  "q:long": [
-   0,
-   "",
-   1793280796.0303843
-  ],
-  "q:long is": [
-   0,
-   "",
-   1793280795.5055192
-  ],
-  "q:long is phantom": [
-   0,
-   "",
-   1793280794.880513
-  ],
-  "q:long is phantom blade": [
-   0,
-   "",
-   1793280794.2774422
-  ],
-  "q:long is phantom blade zero": [
-   0,
-   "",
-   1793280793.6333847
   ],
   "q:looking glass": [
    1272530,
@@ -36140,11 +36029,6 @@
    "Metroidvania",
    1793440887.2654004
   ],
-  "q:microsd": [
-   0,
-   "",
-   1793280862.1305828
-  ],
   "q:microsoft directx": [
    0,
    "",
@@ -36279,6 +36163,21 @@
    0,
    "",
    1793363590.7294474
+  ],
+  "q:mirren": [
+   0,
+   "",
+   1793455371.740945
+  ],
+  "q:mirren wants": [
+   0,
+   "",
+   1793455371.2026997
+  ],
+  "q:mirren wants to be": [
+   0,
+   "",
+   1793455370.701239
   ],
   "q:mobile": [
    0,
@@ -36689,11 +36588,6 @@
    0,
    "",
    1793286460.6429203
-  ],
-  "q:nintendo uk": [
-   0,
-   "",
-   1793280861.5886664
   ],
   "q:nintendo's biggest": [
    0,
@@ -37284,16 +37178,6 @@
    0,
    "",
    1793282479.4317386
-  ],
-  "q:phantom blade zero explodes": [
-   0,
-   "",
-   1793280759.9942381
-  ],
-  "q:phantom blade zero explodes on steam": [
-   0,
-   "",
-   1793280759.4105692
   ],
   "q:phantom blade zero heading": [
    0,
@@ -39065,21 +38949,6 @@
    "",
    1793305985.2568054
   ],
-  "q:steam charts": [
-   0,
-   "",
-   1793280764.094494
-  ],
-  "q:steam charts on day": [
-   0,
-   "",
-   1793280763.5164146
-  ],
-  "q:steam charts on day one": [
-   0,
-   "",
-   1793280762.829704
-  ],
   "q:steam deck": [
    1675200,
    "Steam Deck",
@@ -39104,11 +38973,6 @@
    1673210,
    "Steam Next Fest",
    1792342912.7217317
-  ],
-  "q:steam valve": [
-   0,
-   "",
-   1793280788.104844
   ],
   "q:steel core": [
    4749570,
@@ -39159,11 +39023,6 @@
    1364780,
    "Street Fighter™ 6",
    1791853920.8349786
-  ],
-  "q:strike team": [
-   0,
-   "",
-   1793280839.000891
   ],
   "q:struggling": [
    1035560,
@@ -40210,10 +40069,20 @@
    "",
    1793286419.260789
   ],
+  "q:wants": [
+   0,
+   "",
+   1793455372.8063524
+  ],
   "q:wants to be": [
    0,
    "",
    1793293402.3691533
+  ],
+  "q:wants to be in the last": [
+   0,
+   "",
+   1793455372.2736006
   ],
   "q:wants to be more": [
    0,
@@ -40229,11 +40098,6 @@
    0,
    "",
    1793293400.8804128
-  ],
-  "q:warcraft forever": [
-   0,
-   "",
-   1793280736.1696434
   ],
   "q:warfare": [
    0,
@@ -40660,11 +40524,6 @@
    "World of Tanks",
    1793005388.3132465
   ],
-  "q:world of warcraft forever": [
-   0,
-   "",
-   1793280735.3293688
-  ],
   "q:would not exist without playstation": [
    0,
    "",
@@ -40779,11 +40638,6 @@
    0,
    "",
    1793282850.3013997
-  ],
-  "q:xbox helix": [
-   0,
-   "",
-   1793280737.594885
   ],
   "q:xbox wants": [
    0,
@@ -41060,50 +40914,6 @@
   ]
  },
  "titles": [
-  [
-   1793280708.4265883,
-   "ALBUM REVIEW: Rita – Paerish"
-  ],
-  [
-   1793280730.357999,
-   "U2 add UK and European dates to 2027 world tour, humbly entitled The Greatest Show On Earth"
-  ],
-  [
-   1793280732.5664878,
-   "У Києві запустили безплатний сервіс пошуку попутників \"Збіг\" – альтернативу таксі під час тривог"
-  ],
-  [
-   1793280757.181297,
-   "World of Warcraft Forever controller support is the first step to playing ‘anywhere’, as Blizzard prepares for Xbox Helix"
-  ],
-  [
-   1793280786.0825398,
-   "Phantom Blade Zero Explodes on Steam Charts on Day One"
-  ],
-  [
-   1793280788.5289507,
-   "Steam переповнений ШІ-сміттям: Valve шукає спосіб врятувати хороші ігри"
-  ],
-  [
-   1793280836.9804757,
-   "OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses"
-  ],
-  [
-   1793280859.58728,
-   "With a cracking new tactical feature and dedicated UI \"strike team\", Football Manager 27 is a huge step back towards FM's best form"
-  ],
-  [
-   1793280875.090153,
-   "Nintendo UK is selling a Switch 2 bundle including Mario Kart World, a camera and a MicroSD card for £134 off"
-  ],
-  [
-   1793280877.3437612,
-   "Reddit змінює головну сторінку: з'являться стрічки \"Для вас\" і \"Підписки\""
-  ],
-  [
-   1793280898.123406,
-   "‘The Diplomat’ Renewed For Season 5 At Netflix"
-  ],
   [
    1793282733.7153108,
    "'High-Tech' Atari Hotel With Esports Venue and Creator Studios Breaks Ground in Phoenix"
@@ -42971,53 +42781,17 @@
   [
    1793453497.6882627,
    "Silver Palace Arrives on PS5, PC, and Mobile This December"
+  ],
+  [
+   1793455366.5874965,
+   "What To Watch For As Networks Cover Midterm Election Night: More Data, More Coverage & More Competition"
+  ],
+  [
+   1793455378.1314363,
+   "Helen Mirren Wants To Be in the Last ‘Fast and Furious’ Movie"
   ]
  ],
  "titles_uk": [
-  [
-   1793280708.4265897,
-   "Французькі рокери PAERISH випустили четвертий альбом Rita"
-  ],
-  [
-   1793280730.3580003,
-   "U2 додали дати у Великій Британії та Європі до туру 2027 року"
-  ],
-  [
-   1793280732.5664887,
-   "У Києві запустили безплатний сервіс пошуку попутників \"Збіг\" – альтернативу таксі під час тривог"
-  ],
-  [
-   1793280757.181298,
-   "Додавання підтримки геймпадів у World of Warcraft: Forever відкриє гру для нових пристроїв"
-  ],
-  [
-   1793280786.0825408,
-   "Phantom Blade Zero зібрала рекордну аудиторію в Steam у день релізу"
-  ],
-  [
-   1793280788.528952,
-   "Steam переповнений ШІ-сміттям: Valve шукає спосіб врятувати хороші ігри"
-  ],
-  [
-   1793280836.9804766,
-   "ШІ-лабораторії з Китаю переключилися на модель Astra від OpenAI"
-  ],
-  [
-   1793280859.5872812,
-   "Football Manager 27 повертається до найкращої форми завдяки оновленому інтерфейсу"
-  ],
-  [
-   1793280875.090154,
-   "Nintendo UK випустила бандл зі Switch 2 та Mario Kart World зі знижкою £134"
-  ],
-  [
-   1793280877.3437624,
-   "Reddit змінює головну сторінку: з'являться стрічки \"Для вас\" і \"Підписки\""
-  ],
-  [
-   1793280898.123407,
-   "Netflix продовжив серіал The Diplomat на п'ятий сезон"
-  ],
   [
    1793282733.7153118,
    "У Феніксі почали будівництво високотехнологічного Atari Hotel із кіберспортивною ареною та студіями"
@@ -44885,6 +44659,14 @@
   [
    1793453497.6882634,
    "Реліз Silver Palace відбудеться у грудні на PS5, PC та мобільних пристроях"
+  ],
+  [
+   1793455366.5874975,
+   "Телеканали готують рекордне висвітлення виборів на тлі конкуренції з блогерами"
+  ],
+  [
+   1793455378.131437,
+   "Гелен Міррен хоче з'явитися у фінальному фільмі Fast and Furious"
   ]
  ],
  "ukrainian": {
@@ -47170,7 +46952,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793451689.8512723,
+  "last_check": 1793455386.91389,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
