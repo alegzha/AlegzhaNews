@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1793453474.187177
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1793453473.0291824
+  }
+ },
  "daily_digest_date": "2026-10-30",
  "freebies": {
   "last_check": 1793450045.4033866,
@@ -19,126 +32,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-31 12:45 UTC",
+  "at": "2026-10-31 13:31 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 4
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792760485.581501,
-   2151,
-   "🤘",
-   "Трек A PERFECT CIRCLE очолив чарт Billboard уперше за 23 роки",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/a-perfect-circles-starless-hits-no-1-on-billboard-mainstream-rock-airplay-chart",
-    "orig": "A PERFECT CIRCLE's 'Starless' Hits No. 1 On Billboard Mainstream Rock Airplay Chart"
-   }
-  ],
-  [
-   1792760488.7209039,
-   2152,
-   "🤘",
-   "Sophie Lloyd випустила гітарний кавер на Nightmare від Avenged Sevenfold",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/sophie-lloyd-reimagines-avenged-sevenfolds-nightmare-in-a-cinematic-horror-music-video",
-    "orig": "SOPHIE LLOYD Reimagines AVENGED SEVENFOLD's 'Nightmare' In A Cinematic Horror Music Video"
-   }
-  ],
-  [
-   1792760491.9556751,
-   2153,
-   "🤘",
-   "Томмі Алдрідж випустив першу роботу з колекції drum art",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/legendary-drummer-tommy-aldridge-discusses-off-the-hook-first-piece-from-sonic-visions-drum-art-collection-in-new-video",
-    "orig": "Legendary Drummer TOMMY ALDRIDGE Discusses 'Off The Hook', First Piece From 'Sonic Visions' Drum Art Collection, In New Video"
-   }
-  ],
-  [
-   1792760496.7449467,
-   2154,
-   "🎮",
-   "eFootball 2027: стартувала Halloween Campaign із безкоштовним Форланом",
-   "PlayUA",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://playua.net/efootball-2027-startuvala-halloween-campaign-iz-bezkoshtovnym-forlanom/",
-    "orig": "eFootball 2027: стартувала Halloween Campaign із безкоштовним Форланом"
-   }
-  ],
-  [
-   1792760499.7724156,
-   2155,
-   "🎮",
-   "Phantom Blade Zero продався тиражом у пів мільйона копій на Steam ще до релізу",
-   "Eurogamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.eurogamer.net/phantom-blade-zero-hit-not-out",
-    "orig": "Phantom Blade Zero isn't even out yet, but it could be 'one of the year's breakout hits' as it shifts half a million copies on Steam alone"
-   }
-  ],
-  [
-   1792760502.852431,
-   2156,
-   "🤘",
-   "Tony Iommi випустив лірик-відео на трек 'Over The Violent Sun'",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/tony-iommi-shares-lyric-video-for-over-the-violent-sun-from-long-awaited-new-solo-album-from-the-dark",
-    "orig": "TONY IOMMI Shares Lyric Video For 'Over The Violent Sun' From Long-Awaited New Solo Album 'From The Dark'"
-   }
-  ],
-  [
-   1792760507.3233802,
-   2157,
-   "🤘",
-   "Haywire анонсували турне Північною Америкою, Європою та Великою Британією на 2027 рік",
-   "ThePRP",
-   {
-    "also": [
-     [
-      "Kerrang!",
-      "https://www.kerrang.com/haywire-announce-i-dont-wanna-say-goodbye-tour-for-the-uk-europe-and-north-america"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/10/23/news/haywire-announce-north-american-european-uk-touring-for-2027/",
-    "orig": "Haywire Announce North American, European & UK Touring For 2027"
-   }
-  ],
-  [
-   1792762286.8441925,
-   2158,
-   "🤘",
-   "Haywire анонсували масштабний тур у підтримку альбому I Don’t Wanna Say Goodbye",
-   "Revolver",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.revolvermag.com/events/haywire-announce-massive-u-s-headline-tour/",
-    "orig": "HAYWIRE announce massive U.S. headline tour"
-   }
-  ],
   [
    1792762311.2499273,
    2159,
@@ -22525,7 +22429,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>Apple зіткнулася з дефіцитом екранів для заміни</b>\n\nУ подкасті Power On Марк Гурман та Кріс Велч обговорили проблеми з тріснутими екранами пристроїв Apple. Головною причиною складнощів із ремонтом став дефіцит запчастин у компанії.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-30/how-apple-is-deflecting-the-duo-s-cracked-display-issue-video\">Bloomberg</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-10-30/how-apple-is-deflecting-the-duo-s-cracked-display-issue-video",
     "orig": "Power On: How Apple Is Deflecting the Duo’s Cracked Display Problem"
@@ -22539,7 +22442,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>S&amp;P знизила прогноз кредитного рейтингу Meta до негативного через витрати на ШІ</b>\n\nS&amp;P Global Ratings погіршила прогноз кредитного рейтингу Meta Platforms Inc. до негативного на тлі зростаючого тиску на фінанси компанії через високі витрати на штучний інтелект. Це створює ризик зниження самого рейтингу протягом наступних двох років.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-10-30/meta-s-credit-rating-outlook-downgraded-to-negative-by-s-p\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-10-30/meta-s-credit-rating-outlook-downgraded-to-negative-by-s-p",
     "orig": "Meta’s Rating Outlook Cut to Negative by S&P on AI Spending"
@@ -22553,7 +22455,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>Хідео Кодзіма з&#x27;явився в анімаційній короткометражці My Chemical Romance</b>\n\nТворець Death Stranding Хідео Кодзіма озвучив епізодичну роль в анімаційному проєкті Prelude to The End гурту My Chemical Romance. У семихвилинному темному кароому казку-відеокліпі також з&#x27;явилися Phoebe Bridgers і Billie Eilish, голоси яких звучать у голосових повідомленнях головної героїні.\n\n🔗 <a href=\"https://www.ign.com/articles/hideo-kojima-makes-surprise-cameo-in-new-my-chemical-romance-animated-short\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/hideo-kojima-makes-surprise-cameo-in-new-my-chemical-romance-animated-short",
     "orig": "Hideo Kojima Makes Surprise Cameo in New My Chemical Romance Animated Short"
@@ -22567,7 +22468,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🤖 <b>Fujifilm у 5 разів збільшить виробництво магнітних стрічок через попит з боку ШІ та дата-центрів</b>\n\nFujifilm оголосила про інвестиції в розмірі близько $63 млн для 5-кратного збільшення виробництва магнітних стрічок для зберігання даних. Рішення пояснюється стрімким зростанням попиту на архівне зберігання інформації на тлі поширення систем ШІ, які спричиняють швидке збільшення обсягів даних у всьому світі.\n\n🔗 <a href=\"https://mezha.ua/news/fujifilm-u-5-raziv-zbilshit-virobnictvo-magnitnih-strichok-316738/\">Mezha</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://mezha.ua/news/fujifilm-u-5-raziv-zbilshit-virobnictvo-magnitnih-strichok-316738/",
     "orig": "Fujifilm у 5 разів збільшить виробництво магнітних стрічок через попит з боку ШІ та дата-центрів"
@@ -22823,7 +22723,12 @@
    "Доповнення Evercold для Final Fantasy XIV перенесли на лютий 2027 року",
    "IGN",
    {
-    "also": [],
+    "also": [
+     [
+      "Polygon",
+      "https://www.polygon.com/final-fantasy-xiv-evercold-release-date-delayed/"
+     ]
+    ],
     "caption": "🎮 <b>Доповнення Evercold для <a href=\"https://store.steampowered.com/app/1173770/\">Final Fantasy</a> XIV перенесли на лютий 2027 року</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2753190/\">Delayed</a>\n\nРеліз доповнення Evercold для Final Fantasy XIV затримають на чотири тижні. Вихід гри тепер відбудеться 23 лютого 2027 року, а ранній доступ відкриється 19 лютого. На заході в Японії також показали новий трейлер, анонсували новий клас Zephyr із арбалетом та повідомили про кросовери з Neon Genesis Evangelion і Final Fantasy VII.\n\n🔗 <a href=\"https://www.ign.com/articles/final-fantasy-xiv-evercold-delayed-new-release-date-announced-at-ffxiv-fan-fest\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/final-fantasy-xiv-evercold-delayed-new-release-date-announced-at-ffxiv-fan-fest",
@@ -23375,6 +23280,62 @@
     "link": "https://itc.ua/ua/novini/fanat-prince-of-persia-proponuye-ubisoft-5-mln-za-remejk-the-sands-of-time/",
     "orig": "Фанат Prince of Persia пропонує Ubisoft €5 млн за римейк The Sands of Time"
    }
+  ],
+  [
+   1793453481.5162377,
+   3912,
+   "🤖",
+   "Інвестори стурбовані величезними витратами Big Tech на ШІ через розчарування у прибутках",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Інвестори стурбовані величезними витратами Big Tech на ШІ через розчарування у прибутках</b>\n\nНевтішні фінансові результати технологічних гігантів посилюють побоювання інвесторів щодо того, чи окупляться масштабні інвестиції у ШІ. Під особливим тиском опинилися компанії Alphabet та Intel.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-31/ai-spending-fears-hammer-big-tech-stocks-video\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-10-31/ai-spending-fears-hammer-big-tech-stocks-video",
+    "orig": "AI Spending Fears Hammer Big Tech Stocks"
+   }
+  ],
+  [
+   1793453485.0399692,
+   3913,
+   "🤘",
+   "Добірка треків для відлякування дітей на Halloween",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Добірка треків для відлякування дітей на Halloween</b>\n\nОпубліковано список із важких та моторошних пісень, які допоможуть відлякати дітей, що збирають солодощі на Halloween. До добірки увійшли композиції від Black Sabbath, Sopor Aeturnus &amp; the Ensemble of Shadows, Gnaw Their Tongues та The Berzerker.\n\n🔗 <a href=\"https://loudwire.com/songs-to-scare-off-trick-or-treaters/\">Loudwire</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://loudwire.com/songs-to-scare-off-trick-or-treaters/",
+    "orig": "11 Songs to Scare Off Trick-or-Treaters"
+   }
+  ],
+  [
+   1793453488.8124392,
+   3914,
+   "🎮",
+   "Колишній волонтер погрожує судом фанатському проєкту Skyblivion",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Колишній волонтер погрожує судом фанатському проєкту Skyblivion</b>\n\nКолишній волонтер фанатського ремейку Skyblivion погрожує судом через використання написаного ним коду та вимагає особисті дані керівників проєкту. Команда видалила спірний код і переписала систему з нуля, проте погрози продовжилися. Реліз проєкту заплановано на 2026 рік.\n\n🔗 <a href=\"https://www.eurogamer.net/skyblivion-former-volunteer-legal-threats\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/skyblivion-former-volunteer-legal-threats",
+    "orig": "A former volunteer is threatening legal action against fan-made game project Skyblivion"
+   }
+  ],
+  [
+   1793453497.6878788,
+   3915,
+   "🎮",
+   "Реліз Silver Palace відбудеться у грудні на PS5, PC та мобільних пристроях",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Реліз Silver Palace відбудеться у грудні на PS5, PC та мобільних пристроях</b>\n\nБезплатна екшен-RPG у відкритому світі Silver Palace вийде 14 грудня на PlayStation 5, PC, iOS та Android. Гра поєднує динамічні бої, розслідування в місті Silvernia та відкритий світ із вибором впливу на сюжет. Наразі триває глобальна попередня реєстрація з нагородами за досягнення міхстоунів.\n\n🔗 <a href=\"https://insider-gaming.com/silver-palace-release-date/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/silver-palace-release-date/",
+    "orig": "Silver Palace Arrives on PS5, PC, and Mobile This December"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23382,12 +23343,12 @@
    1793345489.1731842
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1793365276.0347295,
    1793374289.5703142,
    1793377963.8153067,
    1793383299.5295925,
    1793390543.9641984,
-   1793403078.7099895
+   1793403078.7099895,
+   1793453481.5167098
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1793359881.1455073
@@ -23426,13 +23387,12 @@
    1793377941.610425
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1793356283.3814626,
-   1793363585.288578,
    1793372554.6385462,
    1793374323.1015167,
    1793383332.4420981,
    1793390699.1675005,
-   1793440888.5901551
+   1793440888.5901551,
+   1793453488.8128676
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1793295409.3726573,
@@ -23485,8 +23445,6 @@
    1793451680.772996
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1793359917.7223308,
-   1793361834.4655716,
    1793367287.4233315,
    1793369007.4713116,
    1793369054.3884969,
@@ -23498,7 +23456,8 @@
    1793399284.6729708,
    1793403101.9225786,
    1793404900.8076437,
-   1793428291.890293
+   1793428291.890293,
+   1793453497.6883051
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1793370764.7920284,
@@ -23670,10 +23629,6 @@
    1793406677.7301166
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
-   1793341976.7544663,
-   1793343849.7364995,
-   1793345487.2532923,
-   1793361797.613908,
    1793368958.6502442,
    1793374312.8119326,
    1793376214.3191054,
@@ -23682,7 +23637,8 @@
    1793385115.6047118,
    1793385303.2592614,
    1793390703.1763256,
-   1793392388.831576
+   1793392388.831576,
+   1793453485.0403833
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1793368945.9662194,
@@ -25442,6 +25398,7 @@
   "5b13f35f6001b90f": 1792785827.479321,
   "5b1df914a6453c4f": 1792492413.3475513,
   "5b203a280c105af6": 1792618291.1223652,
+  "5b21be88b5005115": 1793453479.6353858,
   "5b2b1d9ad90c48a6": 1792459885.441514,
   "5b3f58f2157964b8": 1793014254.9330378,
   "5b5de6947a8df5a4": 1792427684.4318216,
@@ -26347,6 +26304,7 @@
   "8de7609e50d398b0": 1792352540.5085328,
   "8e012ffa873243ff": 1793433983.738015,
   "8e0983cf3fa52cac": 1792560677.295506,
+  "8e1e8ced19a5f6d3": 1793453488.812824,
   "8e23b5a0821d56c4": 1792780279.6700447,
   "8e24385f3db44b6c": 1792589571.142918,
   "8e272a094d7df59d": 1793044917.6394243,
@@ -26604,6 +26562,7 @@
   "9b9b1e52cdfdbe87": 1793043126.4563136,
   "9b9edd7c62351c0d": 1792295985.1784513,
   "9bc4d77288e9c779": 1792591673.9519217,
+  "9bda9f67c79d4cdb": 1793453481.5166616,
   "9bf1af7a03ffc263": 1793264596.5835426,
   "9c03094cdda1ed3e": 1793035857.1705277,
   "9c1bbdcdebca21e2": 1792924286.2848496,
@@ -27299,6 +27258,7 @@
   "c23ff2db42051387": 1793280786.0825374,
   "c255843ca6628dad": 1792683185.1236722,
   "c25f101c800f036c": 1793145719.7966433,
+  "c2637a6c0c5095ad": 1793453485.0403361,
   "c27a137c17664cba": 1793114796.85183,
   "c2a201e619464031": 1792705454.5906646,
   "c2bebc4f876553c2": 1793034357.264773,
@@ -27315,6 +27275,7 @@
   "c3848dce64ee0ce0": 1793210481.9026375,
   "c38987d62b007a97": 1792427618.80404,
   "c396249863bf1452": 1793316683.0045443,
+  "c399e8e4d09bcb0e": 1793453479.6406412,
   "c3aa1a48a676008c": 1793012569.0121572,
   "c3addd91b08e3247": 1793109655.7474616,
   "c3b6d1b018b8746f": 1792663369.325014,
@@ -27377,6 +27338,7 @@
   "c6dd4fe391531aa4": 1792679773.3947988,
   "c6f5241e418f3e9a": 1792972875.3557944,
   "c7159b49b4ec9828": 1792413118.166048,
+  "c717df762cf720aa": 1793453497.6882606,
   "c71fa180348e8a9f": 1793383321.4730325,
   "c73447b03cdb9531": 1792249978.196443,
   "c75e1c627726edb0": 1793174570.0184221,
@@ -27742,6 +27704,7 @@
   "de84370b45bfd675": 1793284515.8853037,
   "de869ca542ee557b": 1792503137.5460207,
   "deadf1fbda2be2e2": 1792675907.2269838,
+  "deb44fdad61c1e8c": 1793453479.64336,
   "deb49e644f9db522": 1792306060.2569096,
   "debea4928523a913": 1792663381.0133617,
   "ded9ac107db4721c": 1792607501.2287495,
@@ -29546,14 +29509,14 @@
    "/Film": 33,
    "AIN.ua": 6,
    "Blabbermouth": 77,
-   "Bloomberg": 57,
+   "Bloomberg": 58,
    "DOU": 1,
    "DOU Gamedev": 5,
    "Deadline": 82,
    "Decibel": 12,
    "Digital Foundry": 8,
    "Distorted Sound": 24,
-   "Eurogamer": 33,
+   "Eurogamer": 34,
    "GameSpot": 34,
    "GamesIndustry.biz": 21,
    "GitHub Trending": 24,
@@ -29561,10 +29524,10 @@
    "IGN": 86,
    "ITC.ua": 66,
    "IndieWire": 25,
-   "Insider Gaming": 87,
+   "Insider Gaming": 88,
    "Kerrang!": 42,
    "Lambgoat": 53,
-   "Loudwire": 29,
+   "Loudwire": 30,
    "Metal Hammer (Louder)": 35,
    "Metal Injection": 18,
    "MetalSucks": 1,
@@ -29587,7 +29550,7 @@
   "translators": {
    "DeepL": 35,
    "gemini-flash-latest": 43,
-   "gemini-flash-lite-latest": 1360
+   "gemini-flash-lite-latest": 1364
   },
   "week": "2026-W44"
  },
@@ -30257,11 +30220,6 @@
    "孟铣（116）",
    1792515815.9158685
   ],
-  "q:12": [
-   0,
-   "",
-   1793278964.4330184
-  ],
   "q:12 fps": [
    0,
    "",
@@ -30772,11 +30730,6 @@
    "",
    1793318482.5418785
   ],
-  "q:advantage of hype for ps5 emulators": [
-   0,
-   "",
-   1793278923.5234075
-  ],
   "q:after being spray painted blue": [
    0,
    "",
@@ -31062,20 +31015,15 @@
    "",
    1793450041.3846557
   ],
-  "q:are taking": [
+  "q:arrives": [
    0,
    "",
-   1793278921.1028738
+   1793453494.6496892
   ],
-  "q:are taking advantage": [
+  "q:arrives on ps5": [
    0,
    "",
-   1793278920.4906256
-  ],
-  "q:are taking advantage of hype": [
-   0,
-   "",
-   1793278919.996246
+   1793453494.1564553
   ],
   "q:arrowhead": [
    5359860,
@@ -31941,11 +31889,6 @@
    0,
    "",
    1793370774.4572027
-  ],
-  "q:capcom h1": [
-   0,
-   "",
-   1793279000.1404502
   ],
   "q:capcom isn't": [
    0,
@@ -34692,11 +34635,6 @@
    "",
    1793295397.4796784
   ],
-  "q:h1": [
-   0,
-   "",
-   1793279000.6859558
-  ],
   "q:habitat": [
    299340,
    "Habitat",
@@ -35176,11 +35114,6 @@
    1752080,
    "HUNGER",
    1792703022.910811
-  ],
-  "q:hunter": [
-   0,
-   "",
-   1793278999.6133423
   ],
   "q:hunter outlanders": [
    0,
@@ -36047,11 +35980,6 @@
    "",
    1793403084.630502
   ],
-  "q:malaysian": [
-   0,
-   "",
-   1793278964.928266
-  ],
   "q:mammoth": [
    5272890,
    "Mammoth",
@@ -36352,6 +36280,21 @@
    "",
    1793363590.7294474
   ],
+  "q:mobile": [
+   0,
+   "",
+   1793453496.1593184
+  ],
+  "q:mobile this": [
+   0,
+   "",
+   1793453495.6609385
+  ],
+  "q:mobile this december": [
+   0,
+   "",
+   1793453495.1229258
+  ],
   "q:mode": [
    0,
    "",
@@ -36406,16 +36349,6 @@
    4179890,
    "Monarchs at Play",
    1793142165.5811265
-  ],
-  "q:monster": [
-   0,
-   "",
-   1793278999.089047
-  ],
-  "q:monster hunter": [
-   0,
-   "",
-   1793278998.5413558
   ],
   "q:monster hunter outlanders": [
    0,
@@ -36561,31 +36494,6 @@
    0,
    "",
    1793387008.8518538
-  ],
-  "q:navi team": [
-   0,
-   "",
-   1793278956.9364014
-  ],
-  "q:navi team spirit": [
-   0,
-   "",
-   1793278956.4140432
-  ],
-  "q:navi team spirit pgl": [
-   0,
-   "",
-   1793278955.9109972
-  ],
-  "q:navi team spirit pgl masters": [
-   0,
-   "",
-   1793278955.3989797
-  ],
-  "q:navi team spirit pgl masters bucharest": [
-   0,
-   "",
-   1793278954.8992426
   ],
   "q:nba 2k27": [
    4356430,
@@ -37162,11 +37070,6 @@
    "",
    1793302407.5453913
   ],
-  "q:over 12": [
-   0,
-   "",
-   1793278963.9162464
-  ],
   "q:over 400": [
    0,
    "",
@@ -37221,6 +37124,21 @@
    3374280,
    "P.I.",
    1792857743.151104
+  ],
+  "q:palace": [
+   0,
+   "",
+   1793453493.6873515
+  ],
+  "q:palace arrives": [
+   0,
+   "",
+   1793453493.2100916
+  ],
+  "q:palace arrives on ps5": [
+   0,
+   "",
+   1793453492.7467134
   ],
   "q:palworld": [
    1623730,
@@ -38422,31 +38340,6 @@
    "",
    1793282743.9085896
   ],
-  "q:scammers": [
-   0,
-   "",
-   1793278919.4977565
-  ],
-  "q:scammers are": [
-   0,
-   "",
-   1793278918.9731805
-  ],
-  "q:scammers are taking": [
-   0,
-   "",
-   1793278918.407636
-  ],
-  "q:scammers are taking advantage": [
-   0,
-   "",
-   1793278917.8790596
-  ],
-  "q:scammers are taking advantage of hype": [
-   0,
-   "",
-   1793278917.3507094
-  ],
   "q:score is up": [
    0,
    "",
@@ -38712,6 +38605,26 @@
    "",
    1793383314.9174247
   ],
+  "q:silver": [
+   0,
+   "",
+   1793453492.2843583
+  ],
+  "q:silver palace": [
+   0,
+   "",
+   1793453491.763827
+  ],
+  "q:silver palace arrives": [
+   0,
+   "",
+   1793453491.310623
+  ],
+  "q:silver palace arrives on ps5": [
+   0,
+   "",
+   1793453490.8066201
+  ],
   "q:silver pines": [
    2333000,
    "Silver Pines",
@@ -38766,6 +38679,11 @@
    0,
    "",
    1793419300.54274
+  ],
+  "q:skyblivion": [
+   0,
+   "",
+   1793453487.0527635
   ],
   "q:sleeping dogs": [
    202170,
@@ -38941,16 +38859,6 @@
    0,
    "",
    1793291873.9937932
-  ],
-  "q:spirit pgl masters bucharest": [
-   0,
-   "",
-   1793278960.5645504
-  ],
-  "q:spirit pgl masters bucharest 2026": [
-   0,
-   "",
-   1793278960.0518193
   ],
   "q:split": [
    0,
@@ -39362,21 +39270,6 @@
    "",
    1793419303.0167959
   ],
-  "q:taking advantage": [
-   0,
-   "",
-   1793278922.7783787
-  ],
-  "q:taking advantage of hype": [
-   0,
-   "",
-   1793278922.2584848
-  ],
-  "q:taking advantage of hype for ps5": [
-   0,
-   "",
-   1793278921.668568
-  ],
   "q:talks": [
    0,
    "",
@@ -39441,31 +39334,6 @@
    440,
    "Team Fortress 2",
    1791654258.6520588
-  ],
-  "q:team spirit": [
-   0,
-   "",
-   1793278959.530015
-  ],
-  "q:team spirit pgl": [
-   0,
-   "",
-   1793278959.0188
-  ],
-  "q:team spirit pgl masters": [
-   0,
-   "",
-   1793278958.5213401
-  ],
-  "q:team spirit pgl masters bucharest": [
-   0,
-   "",
-   1793278958.0120146
-  ],
-  "q:team spirit pgl masters bucharest 2026": [
-   0,
-   "",
-   1793278957.5067983
   ],
   "q:tech": [
    0,
@@ -41155,72 +41023,43 @@
  },
  "tag_hints": {
   "Mezha": [
-   "alphabet",
+   "anthropic",
    "apple",
-   "copilot",
+   "fpv-дрони",
    "fujifilm",
-   "intel",
+   "google",
    "iphone duo",
    "mass effect",
    "microsoft",
-   "nvidia",
-   "osint",
+   "openai",
    "pornhub",
+   "reddit",
    "samsung",
    "star wars: battlefront",
-   "авіація",
-   "бізнес",
-   "винищувачі",
-   "гелікоптери",
-   "китай",
+   "бпла",
+   "відео",
+   "військові заводи",
+   "генштаб",
+   "добірки",
+   "дрони",
+   "кіно",
+   "нептун",
    "новини",
    "оборонка",
-   "планшети",
    "росія",
+   "серіали",
    "смартфони",
-   "софт",
-   "су-34",
-   "сша",
+   "статті",
+   "сіткомети",
    "технології",
-   "третій армійський корпус",
+   "україна",
+   "фільми",
    "штучний інтелект",
    "ігри",
    "інтернет"
   ]
  },
  "titles": [
-  [
-   1793278915.3170238,
-   "Disney+ & Netflix Hoover Up Non-English Acquisitions As Fervor For Japanese & Korean Content Continues – Ampere"
-  ],
-  [
-   1793278927.6195388,
-   "Scammers Are Taking Advantage of Hype for PS5 Emulators by Tricking Gamers Into Downloading Malware"
-  ],
-  [
-   1793278950.8299263,
-   "Finland's CROWNSHIFT Announces New Album 'The Shadows We Buried', Shares 'In The Dead Of Night' Single"
-  ],
-  [
-   1793278952.8941245,
-   "Яким буде новий Араґорн: Джеймі Дорнан про спадкоємність ролі"
-  ],
-  [
-   1793278961.9242613,
-   "NAVI розгромили Team Spirit та пробилися до плей-оф PGL Masters Bucharest 2026"
-  ],
-  [
-   1793278986.4442196,
-   "Over $12 million worth of AI chips seized by Malaysian authorities after suspected smuggling syndicate tries to sneak servers through customs under false pretenses"
-  ],
-  [
-   1793278996.5105157,
-   "YUNGBLUD announces IDOLS photography exhibition in London, created by Tom Pallant"
-  ],
-  [
-   1793279009.9305604,
-   "Onimusha, Resident Evil, Pragmata, and Monster Hunter franchises boost Capcom H1 results"
-  ],
   [
    1793280708.4265883,
    "ALBUM REVIEW: Rita – Paerish"
@@ -43116,41 +42955,25 @@
   [
    1793451680.7729442,
    "Фанат Prince of Persia пропонує Ubisoft €5 млн за римейк The Sands of Time"
+  ],
+  [
+   1793453481.5166636,
+   "AI Spending Fears Hammer Big Tech Stocks"
+  ],
+  [
+   1793453485.0403373,
+   "11 Songs to Scare Off Trick-or-Treaters"
+  ],
+  [
+   1793453488.8128257,
+   "A former volunteer is threatening legal action against fan-made game project Skyblivion"
+  ],
+  [
+   1793453497.6882627,
+   "Silver Palace Arrives on PS5, PC, and Mobile This December"
   ]
  ],
  "titles_uk": [
-  [
-   1793278915.3170247,
-   "Netflix і Disney+ активно купують неангломовний контент із Японії та Кореї"
-  ],
-  [
-   1793278927.6195397,
-   "Шахраї поширюють шкідливе ПЗ під виглядом PS5-емуляторів"
-  ],
-  [
-   1793278950.8299267,
-   "CROWNSHIFT анонсували альбом The Shadows We Buried і випустили сингл"
-  ],
-  [
-   1793278952.8941255,
-   "Яким буде новий Араґорн: Джеймі Дорнан про спадкоємність ролі"
-  ],
-  [
-   1793278961.924262,
-   "NAVI розгромили Team Spirit та пробилися до плей-оф PGL Masters Bucharest 2026"
-  ],
-  [
-   1793278986.4442203,
-   "Митниця Малайзії конфіскувала ШІ-чипи на $12 мільйонів через контрабанду"
-  ],
-  [
-   1793278996.5105162,
-   "YUNGBLUD випустив відео спільного виступу з Billy Corgan"
-  ],
-  [
-   1793279009.930561,
-   "Capcom звітує про рекордні фінансові результати завдяки Resident Evil та Monster Hunter"
-  ],
   [
    1793280708.4265897,
    "Французькі рокери PAERISH випустили четвертий альбом Rita"
@@ -45046,6 +44869,22 @@
   [
    1793451680.7729452,
    "Фанат Prince of Persia пропонує Ubisoft €5 млн за римейк The Sands of Time"
+  ],
+  [
+   1793453481.5166643,
+   "Інвестори стурбовані величезними витратами Big Tech на ШІ через розчарування у прибутках"
+  ],
+  [
+   1793453485.0403385,
+   "Добірка треків для відлякування дітей на Halloween"
+  ],
+  [
+   1793453488.8128264,
+   "Колишній волонтер погрожує судом фанатському проєкту Skyblivion"
+  ],
+  [
+   1793453497.6882634,
+   "Реліз Silver Palace відбудеться у грудні на PS5, PC та мобільних пристроях"
   ]
  ],
  "ukrainian": {
