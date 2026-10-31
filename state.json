@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1793467872.8523018
+  }
+ },
  "daily_digest_date": "2026-10-30",
  "freebies": {
   "last_check": 1793466280.7110739,
@@ -19,266 +26,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-31 17:04 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-10-31 17:31 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 4
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792775090.7821023,
-   2217,
-   "🤘",
-   "A Place to Kill випустили новий кліп на трек \"Ugly World\"",
-   "Metal Injection",
-   {
-    "also": [
-     [
-      "ThePRP",
-      "https://www.theprp.com/2026/10/23/news/a-place-to-kill-filter-etc-unveil-ugly-world-music-video/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://metalinjection.net/news/watch-a-place-to-kill-show-us-its-an-ugly-world-in-new-video",
-    "orig": "Watch: A Place to Kill Show Us It's An \"Ugly World\" In New Video"
-   }
-  ],
-  [
-   1792775115.2401044,
-   2218,
-   "🎮",
-   "Blizzard готує важливі покращення системи layering для релізу WoW: Forever",
-   "GameSpot",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.gamespot.com/articles/wow-forevers-divisive-layering-will-see-major-improvements-for-launch-blizzard-says/",
-    "orig": "WoW: Forever’s Divisive Layering Will See Major Improvements For Launch, Blizzard Says"
-   }
-  ],
-  [
-   1792775162.8736696,
-   2219,
-   "🤘",
-   "Барабанщик Coal Chamber зламав стегно через падіння на баскетбольному майданчику",
-   "ThePRP",
-   {
-    "also": [
-     [
-      "Lambgoat",
-      "https://lambgoat.com/news/55513/coal-chamber-drummer-mikey-bug-cox-breaks-femur-to-miss-immediate-shows/"
-     ],
-     [
-      "Blabbermouth",
-      "https://blabbermouth.net/news/coal-chambers-mikey-cox-to-miss-shows-after-shattering-his-femur"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/10/23/news/coal-chambers-mikey-bug-cox-suffers-broken-femur-band-tap-devildriver-drummer-for-immediate-shows/",
-    "orig": "Coal Chamber’s Mikey “Bug” Cox, Suffers Broken Femur, Band Tap DevilDriver Drummer For Immediate Shows"
-   }
-  ],
-  [
-   1792775165.0089726,
-   2220,
-   "💾",
-   "Забудьте про XeSS: модери запустили FSR 4.1.2 на Intel Arc",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/zabudte-pro-xess-modery-zapustyly-fsr-4-1-2-na-intel-arc/",
-    "orig": "Забудьте про XeSS: модери запустили FSR 4.1.2 на Intel Arc"
-   }
-  ],
-  [
-   1792775182.53305,
-   2221,
-   "🤘",
-   "Meshuggah натякають на анонс до свого 40-річчя",
-   "Metal Injection",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://metalinjection.net/news/looks-like-meshuggah-is-teasing-something-big-for-their-40th-anniversary",
-    "orig": "Looks Like Meshuggah Is Teasing Something Big For Their 40th Anniversary"
-   }
-  ],
-  [
-   1792775201.2136412,
-   2222,
-   "🎮",
-   "Humble Bundle випустив новий Sci-Fi Exposure з вісьмома іграми за $25",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/humble-bundles-sci-fi-exposure-bundle-is-stacked-with-8-games-for-25-including-marathon",
-    "orig": "Humble Bundle’s Sci-Fi Exposure Bundle Is Stacked With 8 Games for $25, Including Marathon"
-   }
-  ],
-  [
-   1792775215.887699,
-   2223,
-   "🤘",
-   "BAD WOLVES випустили нову версію треку Jolene за участі Dolly Parton",
-   "Blabbermouth",
-   {
-    "also": [
-     [
-      "ThePRP",
-      "https://www.theprp.com/2026/10/23/news/bad-wolves-release-new-version-of-their-cover-of-jolene-featuring-previously-recorded-vocals-from-dolly-parton/"
-     ],
-     [
-      "Loudwire",
-      "https://loudwire.com/bad-wolves-jolene-featuring-dolly-parton/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/bad-wolves-release-new-version-of-jolene-featuring-dolly-parton",
-    "orig": "BAD WOLVES Release New Version Of 'Jolene' Featuring DOLLY PARTON"
-   }
-  ],
-  [
-   1792775231.470191,
-   2224,
-   "🎮",
-   "Демограйнд Abyssal Lapidary пропонує розрізати та шліфувати коштовне каміння",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/sim/abyssal-lapidary-is-making-the-social-media-rounds-and-i-can-confirm-cutting-gemstones-is-just-as-satisfying-as-it-looks/",
-    "orig": "Abyssal Lapidary is making the social media rounds and I can confirm cutting gemstones is just as satisfying as it looks"
-   }
-  ],
-  [
-   1792775318.378989,
-   2225,
-   "🤘",
-   "Alex Terrible зі Slaughter to Prevail розкритикував токсичну маскуфінність та хоче бути сильним духом",
-   "Metal Injection",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://metalinjection.net/news/slaughter-to-prevails-alex-terrible-says-f-all-this-masculinity-bull-wants-to-be-strong-in-spirit",
-    "orig": "Slaughter to Prevail’s Alex Terrible Says “F*** All This Masculinity Bull***,” Wants to Be “Strong In Spirit”"
-   }
-  ],
-  [
-   1792775778.1796663,
-   2226,
-   "🤘",
-   "Haywire анонсували ще один масштабний тур на 2027 рік",
-   "Metal Injection",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://metalinjection.net/tour-dates/haywire-announces-another-massive-tour-for-2027",
-    "orig": "Haywire Announces Another Massive Tour For 2027"
-   }
-  ],
-  [
-   1792775784.6466124,
-   2227,
-   "🤘",
-   "Starset стали гостями шоу Paranormal Prison",
-   "Loudwire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://loudwire.com/starset-paranormal-prison-ghost-hunt/",
-    "orig": "Starset's 'Paranormal Prison' Ghost Hunt"
-   }
-  ],
-  [
-   1792775790.182175,
-   2228,
-   "🎮",
-   "Чому Final Fantasy повернулася до 2D",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.bloomberg.com/news/newsletters/2026-10-23/why-final-fantasy-returned-to-2d",
-    "orig": "Why ‘Final Fantasy’ Returned To 2D"
-   }
-  ],
-  [
-   1792775794.0519826,
-   2229,
-   "🤘",
-   "Проєкт Single Print Index випустив дебютний EP CONFESSIONS",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/10/23/news/single-print-index-code-orange-etc-release-their-debut-ep-confessions/",
-    "orig": "Single Print Index (Code Orange, Etc.) Release Their Debut EP “CONFESSIONS”"
-   }
-  ],
-  [
-   1792775807.6456988,
-   2230,
-   "🎮",
-   "MIBR перевела весь склад у запас перед сезоном VCT 2027",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/aspas-zekken-amongst-benched-players-as-mibr-evaluates-roster/",
-    "orig": "aspas & zekken Amongst Benched Players as MIBR Evaluates Roster"
-   }
-  ],
-  [
-   1792775811.579548,
-   2231,
-   "🎬",
-   "Black Bear випускає у прокат фільм Wicker із Олівією Колман",
-   "IndieWire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.indiewire.com/news/box-office/wicker-black-bear-breakout-box-office-erotic-drama-1235223545/",
-    "orig": "Will ‘Wicker’ Be Black Bear’s First Big Breakout?"
-   }
-  ],
-  [
-   1792775814.6803572,
-   2232,
-   "🤘",
-   "Wisdom in Chains випустили сингл пам'яті Лу Коллера із Sick of It All",
-   "Lambgoat",
-   {
-    "also": [
-     [
-      "ThePRP",
-      "https://www.theprp.com/2026/10/23/news/wisdom-in-chains-join-up-with-street-dogs-more-on-new-tribute-to-lou-koller/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55511/wisdom-in-chains-issue-new-single-dedicated-to-late-sick-of-it-all-frontman-lou-koller/",
-    "orig": "Wisdom in Chains issue new single dedicated to late Sick of It All frontman Lou Koller"
-   }
-  ],
-  [
-   1792775819.1381273,
-   2233,
-   "🤘",
-   "Incendiary та Angel Du$t анонсували спільні концерти у Великій Британії та Ірландії",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55514/incendiary-to-join-angel-dut-for-a-pair-of-shows-in-uk-and-ireland/",
-    "orig": "Incendiary to join Angel Du$t for a pair of shows in UK and Ireland"
-   }
-  ],
   [
    1792776725.5631182,
    2234,
@@ -22021,7 +21779,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Теодора Ана Міхай представила фільм Heysel 85 на кінофестивалі у Токіо</b>\n\nРумунсько-бельгійська режисерка Теодора Ана Міхай презентувала на кінофестивалі у Токіо свою стрічку Heysel 85, присвячену трагедії на стадіоні Ейзель у Брюсселі 1985 року. Фільм досліджує структурні помилки, що призвели до загибелі 39 людей перед фіналом Кубка європейських чемпіонів між Ліверпулем та Ювентусом. Стрічка поєднує архівні кадри та ігрові послідовності, зняті на 16-мм плівку.\n\n🔗 <a href=\"https://deadline.com/2026/10/teodora-ana-mihai-heysel-85-tokyo-1237210571/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/teodora-ana-mihai-heysel-85-tokyo-1237210571/",
     "orig": "Teodora Ana Mihai On Her Breakout Feature ‘Heysel 85’ & Plans For Her Next Film — Tokyo"
@@ -22035,7 +21792,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Визначено сітку стадії плейоф ALGS Split 2 Playoffs</b>\n\nЗавершився груповий етап ALGS Split 2 Playoffs у Лас-Вегасі, за результатами якого сформувалися сітки переможців та переможених. Перше місце у групі посіла команда DINOS із 181 очком, а топ-20 колективів пройшли до сітки переможців. У наступному раунді турніру визначаться учасники фіналу, а половина з 40 команд покине змагання.\n\n🔗 <a href=\"https://insider-gaming.com/algs-split-2-playoffs-groups-results-the-bracket-stage-is-set/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/algs-split-2-playoffs-groups-results-the-bracket-stage-is-set/",
     "orig": "ALGS Split 2 Playoffs Groups Results: The Bracket Stage is Set"
@@ -22808,6 +22564,10 @@
      [
       "Lambgoat",
       "https://lambgoat.com/news/55642/metallica-asked-turnstile-to-tour-with-them-but-were-turned-down/"
+     ],
+     [
+      "Stereogum",
+      "https://stereogum.com/2516208/james-hetfield-says-turnstile-turned-down-metallica-tour/news/"
      ]
     ],
     "caption": "🤘 <b>Turnstile відмовилися від туру з Metallica</b>\n\nФронтмен Metallica Джеймс Гетфілд розповів, що хардкор-гурт Turnstile відмовився від спільного туру з легендарними металістами. Музиканти не захотіли долучатися до концертів легенд важкої музики.\n\n🔗 <a href=\"https://metalinjection.net/news/james-hetfield-turnstile-turned-down-touring-with-metallica\">Metal Injection</a>\n\n#музика",
@@ -22870,6 +22630,34 @@
     "kind": "photo",
     "link": "https://deadline.com/2026/10/andy-cohen-bravo-leah-mcsweeney-lawsuit-settlement-1237210617/",
     "orig": "Andy Cohen & Bravo Settle Leah McSweeney ‘RHONY’ Toxic Workplace & Booze Abuse Lawsuit"
+   }
+  ],
+  [
+   1793467892.623894,
+   3941,
+   "🎮",
+   "Розробники Outlast сумнівалися, чи варто додавати одну з найгірших сцен у грі",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Розробники <a href=\"https://store.steampowered.com/app/238320/\">Outlast</a> сумнівалися, чи варто додавати одну з найгірших сцен у грі</b>\n\nДе проходить межа дозволеного у всесвіті, який постійно розсуває межі жорстокості?\n\n🔗 <a href=\"https://www.pcgamer.com/games/horror/are-we-going-too-far-with-this-one-of-the-worst-scenes-in-outlast-had-its-devs-debating-whether-to-add-it-to-the-game-or-not/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/games/horror/are-we-going-too-far-with-this-one-of-the-worst-scenes-in-outlast-had-its-devs-debating-whether-to-add-it-to-the-game-or-not/",
+    "orig": "'Are we going too far with this?': One of the worst scenes in Outlast had its devs debating whether to add it to the game or not"
+   }
+  ],
+  [
+   1793467904.976041,
+   3942,
+   "🎮",
+   "Читачі PC Gamer обрали найстрашнішу гру на ПК",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Читачі PC Gamer обрали найстрашнішу гру на ПК</b>\n\nГра Alien: Isolation перемогла у голосуванні читачів PC Gamer та стала найстрашнішим хорором на ПК. У фіналі вона обійшла іншого фіналіста — класичну гру Amnesia: The Dark Descent.\n\n🔗 <a href=\"https://www.pcgamer.com/games/horror/the-votes-are-in-and-pc-gamer-readers-have-picked-the-scariest-game-on-pc/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/games/horror/the-votes-are-in-and-pc-gamer-readers-have-picked-the-scariest-game-on-pc/",
+    "orig": "The votes are in, and PC Gamer readers have picked the scariest game on PC"
    }
   ]
  ],
@@ -22993,7 +22781,6 @@
    1793377945.8974078
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1793379752.985449,
    1793381519.175542,
    1793381535.2893696,
    1793383317.8697996,
@@ -23003,7 +22790,9 @@
    1793394160.7020648,
    1793457082.922013,
    1793464280.2381165,
-   1793464293.2297337
+   1793464293.2297337,
+   1793467892.6243596,
+   1793467904.9764903
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1793392399.8326666,
@@ -23263,6 +23052,7 @@
   "003e6db9fa84d318": 1792983777.4480674,
   "004e5f511037f9f4": 1792872123.5682662,
   "0075f9885681995e": 1792531881.5805173,
+  "007cc87d798c4faf": 1793467876.870301,
   "0081662cdcefa432": 1793205124.1723232,
   "0097268bd97d31a8": 1793097052.6388667,
   "0098b381985b8230": 1793178110.80984,
@@ -25342,6 +25132,7 @@
   "724b207366f96017": 1793018028.3951144,
   "727ae2d17087a4bf": 1793097176.678172,
   "7283d55fafb21d12": 1792775318.379392,
+  "7284fdd7b6148259": 1793467892.6243136,
   "7285ed3ab26c211d": 1792452653.2654438,
   "728805a2e5a9bb3f": 1792418623.9499154,
   "728d757d268f0dc3": 1793260894.441194,
@@ -25822,6 +25613,7 @@
   "8e2c6531f1f6a1e4": 1792834441.332146,
   "8e3a89059c36a416": 1792407677.524236,
   "8e52acc68d8ef942": 1793020680.8228817,
+  "8e54d8b5680c3c22": 1793467876.8727493,
   "8e5e5b055578bd59": 1793109684.0425017,
   "8e5fc4047be7819d": 1793166798.3544984,
   "8e62adcb49282672": 1792382502.8838835,
@@ -27094,6 +26886,7 @@
   "d7cef410286ae471": 1792706487.4704,
   "d7e61bfb839a20fe": 1792603257.8658597,
   "d810c72df5128038": 1793032520.3992875,
+  "d829b3b15187b808": 1793467851.5924788,
   "d860d5e608a36543": 1792645231.5445533,
   "d86fc384d4baa4bd": 1792352552.7190707,
   "d8772632ebabeb12": 1792665195.3582604,
@@ -27306,6 +27099,7 @@
   "e39469abc2e766e0": 1793268550.6943142,
   "e395a31027440a90": 1792616512.1695848,
   "e3b47d668df5014a": 1793457082.9219685,
+  "e3dbcce264641a69": 1793467851.5924788,
   "e3ec02120107c1db": 1792676134.2642596,
   "e3f9bc1a24c3fde0": 1793388655.8069236,
   "e4087589171bb1ae": 1793134891.2182145,
@@ -27411,6 +27205,7 @@
   "e9477af60f23035d": 1793392408.3448083,
   "e95eddc1ecfae54b": 1792503092.1877615,
   "e984c0f3b6a7c3c9": 1792859455.3426251,
+  "e98ea7dbed010d83": 1793467904.976444,
   "e996067c43b9285e": 1793201631.3980844,
   "e9af705e854b736e": 1793352774.6742744,
   "e9df9b23e8c1114a": 1792675971.0120866,
@@ -29001,7 +28796,7 @@
    "Loudwire": 5,
    "Metal Hammer (Louder)": 2,
    "Metal Injection": 2,
-   "PC Gamer": 21,
+   "PC Gamer": 23,
    "Pitchfork": 2,
    "Polygon": 67,
    "Revolver": 2,
@@ -29038,7 +28833,7 @@
    "MetalSucks": 1,
    "Mezha": 77,
    "Neformat": 3,
-   "PC Gamer": 88,
+   "PC Gamer": 90,
    "Pitchfork": 10,
    "PlayUA": 28,
    "Polygon": 34,
@@ -29055,7 +28850,7 @@
   "translators": {
    "DeepL": 35,
    "gemini-flash-latest": 45,
-   "gemini-flash-lite-latest": 1392
+   "gemini-flash-lite-latest": 1394
   },
   "week": "2026-W44"
  },
@@ -29164,6 +28959,11 @@
    "2121510",
    "Tenebris Somnia",
    1792380680.6869726
+  ],
+  "id:214490": [
+   "214490",
+   "Alien: Isolation",
+   1793467894.3007169
   ],
   "id:2190700": [
    "2190700",
@@ -29594,6 +29394,11 @@
    "553850",
    "HELLDIVERS™ 2",
    1792521183.2890737
+  ],
+  "id:57300": [
+   "57300",
+   "Amnesia: The Dark Descent",
+   1793467894.3955684
   ],
   "id:594650": [
    "594650",
@@ -30040,11 +29845,6 @@
    "",
    1793296895.9311404
   ],
-  "q:6 sentinel": [
-   0,
-   "",
-   1793293358.9877524
-  ],
   "q:6 the original": [
    0,
    "",
@@ -30099,11 +29899,6 @@
    3408350,
    "AAA",
    1793293536.3002434
-  ],
-  "q:aaa publishers are abusing early access": [
-   0,
-   "",
-   1793293535.7415736
   ],
   "q:abiotic factor": [
    427410,
@@ -30345,11 +30140,6 @@
    "Amnesia: The Dark Descent",
    1792501321.7501497
   ],
-  "q:amnesia vs amnesia": [
-   0,
-   "",
-   1793293312.7354848
-  ],
   "q:among us": [
    945360,
    "Among Us",
@@ -30424,6 +30214,16 @@
    0,
    "",
    1793450041.3846557
+  ],
+  "q:are": [
+   0,
+   "",
+   1793467877.9298563
+  ],
+  "q:are we going too far with this": [
+   0,
+   "",
+   1793467877.4209945
   ],
   "q:arrives": [
    0,
@@ -30635,31 +30435,6 @@
    "",
    1793392378.5650442
   ],
-  "q:auto artist": [
-   0,
-   "",
-   1793293454.9068675
-  ],
-  "q:auto artist stephen": [
-   0,
-   "",
-   1793293454.429019
-  ],
-  "q:auto artist stephen bliss": [
-   0,
-   "",
-   1793293453.936408
-  ],
-  "q:auto artist stephen bliss explains": [
-   0,
-   "",
-   1793293453.453526
-  ],
-  "q:auto artist stephen bliss explains how": [
-   0,
-   "",
-   1793293452.9752724
-  ],
   "q:away at 86": [
    0,
    "",
@@ -30740,26 +30515,6 @@
    "",
    1793455373.421352
   ],
-  "q:be more": [
-   0,
-   "",
-   1793293404.3343043
-  ],
-  "q:be more profitable": [
-   0,
-   "",
-   1793293403.7793574
-  ],
-  "q:be more profitable than": [
-   0,
-   "",
-   1793293403.3064032
-  ],
-  "q:be more profitable than playstation": [
-   0,
-   "",
-   1793293402.8361876
-  ],
   "q:become": [
    3710850,
    "Become",
@@ -30769,16 +30524,6 @@
    1440370,
    "Before Dark",
    1792317845.4245293
-  ],
-  "q:bethesda could": [
-   0,
-   "",
-   1793293332.7234287
-  ],
-  "q:bethesda could reveal": [
-   0,
-   "",
-   1793293332.26623
   ],
   "q:bethesda pays": [
    0,
@@ -31590,11 +31335,6 @@
    "",
    1793298688.1822882
   ],
-  "q:could": [
-   0,
-   "",
-   1793293333.7392743
-  ],
   "q:could be": [
    0,
    "",
@@ -31609,11 +31349,6 @@
    0,
    "",
    1793367284.2635603
-  ],
-  "q:could reveal": [
-   0,
-   "",
-   1793293333.2083182
   ],
   "q:counter strike": [
    10,
@@ -31910,16 +31645,6 @@
    "Demon Slayer",
    1792645234.1388905
   ],
-  "q:denis": [
-   0,
-   "",
-   1793293537.2563858
-  ],
-  "q:denis dyack": [
-   0,
-   "",
-   1793293536.762221
-  ],
   "q:departure": [
    1957220,
    "Departure.",
@@ -31999,26 +31724,6 @@
    1085660,
    "Destiny 2",
    1792436511.4081278
-  ],
-  "q:destiny 2's unvaulting": [
-   0,
-   "",
-   1793293633.0347795
-  ],
-  "q:destiny 2's unvaulting plans": [
-   0,
-   "",
-   1793293632.5541768
-  ],
-  "q:destiny 2's unvaulting plans won't": [
-   0,
-   "",
-   1793293632.011313
-  ],
-  "q:destiny 2's unvaulting plans won't be": [
-   0,
-   "",
-   1793293631.5343409
   ],
   "q:destiny 4 commander deck bundles": [
    0,
@@ -32490,11 +32195,6 @@
    "Dwarf Fortress",
    1791931860.7723489
   ],
-  "q:dyack": [
-   0,
-   "",
-   1793293537.7155633
-  ],
   "q:dying light the beast": [
    3008130,
    "Dying Light: The Beast",
@@ -32625,21 +32325,6 @@
    "ELDEN RING",
    1792866688.6403193
   ],
-  "q:elder": [
-   0,
-   "",
-   1793293336.3020089
-  ],
-  "q:elder scrolls": [
-   0,
-   "",
-   1793293335.7649908
-  ],
-  "q:elder scrolls 6": [
-   0,
-   "",
-   1793293335.1871579
-  ],
   "q:elder scrolls 6 announcement": [
    0,
    "",
@@ -32664,21 +32349,6 @@
    0,
    "",
    1793296892.261839
-  ],
-  "q:elder scrolls 6 sentinel": [
-   0,
-   "",
-   1793293331.8060462
-  ],
-  "q:elder scrolls 6 sentinel'": [
-   0,
-   "",
-   1793293334.7316406
-  ],
-  "q:elder scrolls 6 sentinel' next": [
-   0,
-   "",
-   1793293334.2222989
   ],
   "q:elder scrolls oblivion": [
    0,
@@ -33195,36 +32865,6 @@
    "FragPunk",
    1792958490.0584688
   ],
-  "q:franchise": [
-   0,
-   "",
-   1793293288.4351912
-  ],
-  "q:franchise is": [
-   0,
-   "",
-   1793293287.9330842
-  ],
-  "q:franchise is getting": [
-   0,
-   "",
-   1793293287.430385
-  ],
-  "q:franchise is getting three": [
-   0,
-   "",
-   1793293286.9577444
-  ],
-  "q:franchise is getting three new": [
-   0,
-   "",
-   1793293286.4982114
-  ],
-  "q:franchise is getting three new tabletop": [
-   0,
-   "",
-   1793293286.0364747
-  ],
   "q:free to play": [
    245550,
    "Free to Play",
@@ -33309,6 +32949,11 @@
    1670460,
    "GameMaker",
    1793039505.1588671
+  ],
+  "q:gamer": [
+   0,
+   "",
+   1793467894.9347763
   ],
   "q:games list": [
    0,
@@ -33515,21 +33160,6 @@
    "Grand Theft Auto V Enhanced",
    1792431115.9327633
   ],
-  "q:grand theft auto artist": [
-   0,
-   "",
-   1793293450.4972782
-  ],
-  "q:grand theft auto artist stephen": [
-   0,
-   "",
-   1793293450.0402405
-  ],
-  "q:grand theft auto artist stephen bliss": [
-   0,
-   "",
-   1793293449.5194821
-  ],
   "q:gray zone warfare": [
    2479810,
    "Gray Zone Warfare",
@@ -33704,36 +33334,6 @@
    553850,
    "HELLDIVERS™ 2",
    1792490482.5319238
-  ],
-  "q:hellraiser": [
-   0,
-   "",
-   1793293285.532901
-  ],
-  "q:hellraiser franchise": [
-   0,
-   "",
-   1793293284.6792276
-  ],
-  "q:hellraiser franchise is": [
-   0,
-   "",
-   1793293284.194461
-  ],
-  "q:hellraiser franchise is getting": [
-   0,
-   "",
-   1793293283.6985264
-  ],
-  "q:hellraiser franchise is getting three": [
-   0,
-   "",
-   1793293283.2082121
-  ],
-  "q:hellraiser franchise is getting three new": [
-   0,
-   "",
-   1793293282.6976933
   ],
   "q:hexe": [
    0,
@@ -34084,16 +33684,6 @@
    0,
    "",
    1793457084.976563
-  ],
-  "q:it's amnesia": [
-   0,
-   "",
-   1793293312.2587724
-  ],
-  "q:it's amnesia vs amnesia": [
-   0,
-   "",
-   1793293311.7928362
   ],
   "q:it's better": [
    0,
@@ -35890,16 +35480,6 @@
    "Planet Zoo 2",
    1791894812.7149363
   ],
-  "q:plans won't be complete until": [
-   0,
-   "",
-   1793293637.56058
-  ],
-  "q:plans won't be complete until early": [
-   0,
-   "",
-   1793293637.0743182
-  ],
   "q:plants vs zombies": [
    3590,
    "Plants vs. Zombies GOTY Edition",
@@ -36845,16 +36425,6 @@
    "",
    1793374342.2284899
   ],
-  "q:scrolls": [
-   0,
-   "",
-   1793293358.5049305
-  ],
-  "q:scrolls 6": [
-   0,
-   "",
-   1793293358.028771
-  ],
   "q:scrolls 6 announcement": [
    0,
    "",
@@ -36884,21 +36454,6 @@
    0,
    "",
    1793296893.8115096
-  ],
-  "q:scrolls 6 sentinel": [
-   0,
-   "",
-   1793293357.5684423
-  ],
-  "q:scrolls 6 sentinel' next": [
-   0,
-   "",
-   1793293337.2242227
-  ],
-  "q:scrolls 6 sentinel' next month": [
-   0,
-   "",
-   1793293336.7606423
   ],
   "q:scrolls oblivion": [
    0,
@@ -36949,11 +36504,6 @@
    3766220,
    "Send In The Clown",
    1791929874.2648864
-  ],
-  "q:sentinel": [
-   0,
-   "",
-   1793293359.5416253
   ],
   "q:serious sam the third encounter": [
    459920,
@@ -37680,26 +37230,6 @@
    "",
    1793392377.9717634
   ],
-  "q:theft auto artist": [
-   0,
-   "",
-   1793293452.454551
-  ],
-  "q:theft auto artist stephen": [
-   0,
-   "",
-   1793293451.9764419
-  ],
-  "q:theft auto artist stephen bliss": [
-   0,
-   "",
-   1793293451.4990866
-  ],
-  "q:theft auto artist stephen bliss explains": [
-   0,
-   "",
-   1793293450.9989433
-  ],
   "q:there is 'no other assassin's creed": [
    0,
    "",
@@ -38155,36 +37685,6 @@
    "",
    1793394124.6549037
   ],
-  "q:unvaulting": [
-   0,
-   "",
-   1793293636.5079718
-  ],
-  "q:unvaulting plans": [
-   0,
-   "",
-   1793293635.9399495
-  ],
-  "q:unvaulting plans won't": [
-   0,
-   "",
-   1793293635.4222348
-  ],
-  "q:unvaulting plans won't be": [
-   0,
-   "",
-   1793293634.8929272
-  ],
-  "q:unvaulting plans won't be complete": [
-   0,
-   "",
-   1793293634.2636974
-  ],
-  "q:unvaulting plans won't be complete until": [
-   0,
-   "",
-   1793293633.5751166
-  ],
   "q:update lets": [
    0,
    "",
@@ -38335,30 +37835,10 @@
    "",
    1793455372.8063524
   ],
-  "q:wants to be": [
-   0,
-   "",
-   1793293402.3691533
-  ],
   "q:wants to be in the last": [
    0,
    "",
    1793455372.2736006
-  ],
-  "q:wants to be more": [
-   0,
-   "",
-   1793293401.84404
-  ],
-  "q:wants to be more profitable": [
-   0,
-   "",
-   1793293401.3366857
-  ],
-  "q:wants to be more profitable than": [
-   0,
-   "",
-   1793293400.8804128
   ],
   "q:warfare": [
    0,
@@ -38810,26 +38290,6 @@
    "",
    1793369000.1238277
   ],
-  "q:xbox wants": [
-   0,
-   "",
-   1793293400.3974802
-  ],
-  "q:xbox wants to be": [
-   0,
-   "",
-   1793293399.9034834
-  ],
-  "q:xbox wants to be more": [
-   0,
-   "",
-   1793293399.4455342
-  ],
-  "q:xbox wants to be more profitable": [
-   0,
-   "",
-   1793293398.9561598
-  ],
   "q:xbox's 800": [
    0,
    "",
@@ -39057,38 +38517,6 @@
   ]
  },
  "titles": [
-  [
-   1793293484.7487597,
-   "Grand Theft Auto Artist Stephen Bliss Explains How He Defined the Series' Iconic Visual Style"
-  ],
-  [
-   1793293502.0844333,
-   "blink-182, Korn, Pierce The Veil and Bad Omens lead Welcome To Rockville’s massive 2027 line-up"
-  ],
-  [
-   1793293504.6078243,
-   "Windows 11 отримала оновлення з переробленим контекстним меню"
-  ],
-  [
-   1793293533.6176345,
-   "Welcome to Rockville 2027 Lineup Revealed - Over 150 Acts Booked!"
-  ],
-  [
-   1793293565.6135378,
-   "'AAA publishers are abusing early access,' Denis Dyack says, and that's making things harder for everyone else"
-  ],
-  [
-   1793293595.8902683,
-   "Bryan Adams Drops Another Trump Diss Track And This One Mentions The Epstein Files"
-  ],
-  [
-   1793293629.568399,
-   "Deadpool & Wolverine's Final Cost Confirmed By Disney (And It's Higher Than Expected)"
-  ],
-  [
-   1793293664.2544024,
-   "Destiny 2’s Unvaulting Plans Won’t Be Complete Until Early 2028"
-  ],
   [
    1793295355.539406,
    "See SLAYER's Entire Performance At 2026 SICK NEW WORLD TEXAS Festival"
@@ -40760,41 +40188,17 @@
   [
    1793466269.1502519,
    "Andy Cohen & Bravo Settle Leah McSweeney ‘RHONY’ Toxic Workplace & Booze Abuse Lawsuit"
+  ],
+  [
+   1793467892.6243157,
+   "'Are we going too far with this?': One of the worst scenes in Outlast had its devs debating whether to add it to the game or not"
+  ],
+  [
+   1793467904.976446,
+   "The votes are in, and PC Gamer readers have picked the scariest game on PC"
   ]
  ],
  "titles_uk": [
-  [
-   1793293484.748761,
-   "Художник GTA Стівен Блісс розповів про створення культового візуального стилю серії"
-  ],
-  [
-   1793293502.0844345,
-   "blink-182 стали першим хедлайнером Graspop Metal Meeting 2027"
-  ],
-  [
-   1793293504.6078265,
-   "Windows 11 отримала оновлення з переробленим контекстним меню"
-  ],
-  [
-   1793293533.6176355,
-   "Анонсували лайнап фестивалю Welcome 2027 із понад 150 гуртами"
-  ],
-  [
-   1793293565.6135387,
-   "Денніс Даяк заявив, що AAA-видавці зловживають раннім доступом"
-  ],
-  [
-   1793293595.8902693,
-   "Bryan Adams випустив другу пісню-дисс на Donald Trump"
-  ],
-  [
-   1793293629.5684,
-   "Disney розкрила фінальний бюджет фільму Deadpool & Wolverine"
-  ],
-  [
-   1793293664.254403,
-   "Повернення видаленого контенту в Destiny 2 затягнеться до початку 2028 року"
-  ],
   [
    1793295355.5394068,
    "Перегляньте повний виступ гурту SLAYER на фестивалі «SICK NEW WORLD TEXAS» 2026 року"
@@ -42466,6 +41870,14 @@
   [
    1793466269.1502526,
    "Енді Коен і Bravo врегулювали судовий позов Лі МакСвіні щодо токсичного середовища"
+  ],
+  [
+   1793467892.624317,
+   "Розробники Outlast сумнівалися, чи варто додавати одну з найгірших сцен у грі"
+  ],
+  [
+   1793467904.9764469,
+   "Читачі PC Gamer обрали найстрашнішу гру на ПК"
   ]
  ],
  "ukrainian": {
