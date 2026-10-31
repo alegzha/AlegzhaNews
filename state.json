@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1793467872.8523018
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-30",
  "freebies": {
   "last_check": 1793466280.7110739,
@@ -26,169 +19,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-31 17:31 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-10-31 18:01 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 8
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792776725.5631182,
-   2234,
-   "💾",
-   "Огляд Apple iPhone Duo: розкішний складаний екран і сирі застосунки",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/features/2026-10-23/apple-iphone-duo-review-stunning-foldable-screen-uneven-apps",
-    "orig": "Apple iPhone Duo Review: Stunning Foldable Screen, Uneven Apps"
-   }
-  ],
-  [
-   1792776753.7347984,
-   2235,
-   "💾",
-   "Довгоочікуваний складаний iPhone від Apple зіткнувся з дитячими хворобами",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/videos/2026-10-23/iphone-duo-review",
-    "orig": "Apple’s Most Exciting Phone in Years Has Growing Pains"
-   }
-  ],
-  [
-   1792776755.7963674,
-   2236,
-   "🎮",
-   "Subnautica 2 готує найстрашнішу локацію в історії серії",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/subnautica-2-gotuye-najstrashnishu-lokatsiyu-v-istoriyi-seriyi/",
-    "orig": "Subnautica 2 готує найстрашнішу локацію в історії серії"
-   }
-  ],
-  [
-   1792776779.8212986,
-   2237,
-   "🎮",
-   "Future? No Thanks! видалив ШІ-озвучку після критики та пропонує повернення коштів",
-   "Rock Paper Shotgun",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.rockpapershotgun.com/future-no-thanks-dev-removes-ai-generated-voices-from-game-and-offers-refunds-to-players-who-feel-betrayed",
-    "orig": "Future? No Thanks! dev removes AI-generated voices from game and offers refunds to players who feel \"betrayed\""
-   }
-  ],
-  [
-   1792776807.1248229,
-   2238,
-   "🎮",
-   "Для Factorio вийшов фінальний малюватаупдейт версії 2.1",
-   "Rock Paper Shotgun",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.rockpapershotgun.com/factorios-final-major-update-has-rolled-off-the-assembly-line-adding-the-things-we-wanted-to-do-for-20-but-didnt-have-time-for",
-    "orig": "Factorio's final major update has rolled off the assembly line, adding \"the things we wanted to do for 2.0 but didn't have time for\""
-   }
-  ],
-  [
-   1792778481.6434424,
-   2239,
-   "🤘",
-   "Laura Guldemond залишила гурт BURNING WITCHES",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/burning-witches-part-ways-with-longtime-singer-laura-guldemond",
-    "orig": "BURNING WITCHES Part Ways With Longtime Singer LAURA GULDEMOND"
-   }
-  ],
-  [
-   1792778486.7666826,
-   2240,
-   "🤘",
-   "Фоторепортаж з концерту Cradle of Filth, Black Satellite, Black Braid і Worm у Нью-Йорку",
-   "Metal Injection",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://metalinjection.net/photos/photos-cradle-of-filth-black-satellite-black-braid-worm-in-new-york-city",
-    "orig": "Photos: Cradle of Filth, Black Satellite, Black Braid & Worm in New York City"
-   }
-  ],
-  [
-   1792778491.6125174,
-   2241,
-   "🤘",
-   "Band of Skulls випустили новий кліп на пісню Bitter Dream",
-   "Distorted Sound",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://distortedsoundmag.com/band-of-skulls-release-new-music-video-for-bitter-dream/",
-    "orig": "Band of Skulls release new music video for ‘Bitter Dream’"
-   }
-  ],
-  [
-   1792778494.7960546,
-   2242,
-   "🤘",
-   "Metallica показали офіційне живе відео «Lux Æterna» зі свого шоу в The Sphere",
-   "ThePRP",
-   {
-    "also": [
-     [
-      "Blabbermouth",
-      "https://blabbermouth.net/news/metallica-shares-pro-shot-video-of-lux-aeterna-performance-from-third-show-of-las-vegas-sphere-residency"
-     ],
-     [
-      "Lambgoat",
-      "https://lambgoat.com/news/55522/metallica-share-live-performance-clip-of-lux-aterna-from-las-vegas-sphere-residency/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/10/23/news/metallica-share-official-lux-aeterna-live-video-from-their-residency-at-the-sphere/",
-    "orig": "Metallica Share Official “Lux Æterna” Live Video From Their Residency At The Sphere"
-   }
-  ],
-  [
-   1792778498.1557336,
-   2243,
-   "🎬",
-   "Білл Гейдер розповів про створення свого дебютного фільму They Know",
-   "IndieWire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.indiewire.com/news/events/bill-hader-first-film-they-know-snl-divorce-1235222526/",
-    "orig": "Watch Bill Hader Explain the Many Influences That Led to His First Film, ‘They Know’"
-   }
-  ],
-  [
-   1792778501.8108149,
-   2244,
-   "🤖",
-   "Аудит OpenAI виявив серйозні прогалини в моніторингу безпеки ШІ",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/three-week-on-site-audit-at-openai-reveals-major-gaps-in-ai-safety-monitoring/",
-    "orig": "Three-week on-site audit at OpenAI reveals major gaps in AI safety monitoring"
-   }
-  ],
   [
    1792780386.888667,
    2246,
@@ -21805,7 +21646,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Beyond The Gates здобув чотири нагороди Daytime Emmy у свій дебютний рік</b>\n\nСеріал Beyond the Gates від CBS тріумфував на 53-й щорічній церемонії Daytime Emmy Awards у перший же рік участі. Шоу здобуло важливі нагороди в категоріях головної чоловічої ролі та нової акторки. Загалом проєкт сценаристки Мішель Валь Жан виборов чотири статуетки Emmy під час церемонії, яку транслювали на YouTube.\n\n🔗 <a href=\"https://deadline.com/2026/10/beyond-the-gates-wins-multiple-daytime-emmys-1237210503/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/beyond-the-gates-wins-multiple-daytime-emmys-1237210503/",
     "orig": "‘Beyond The Gates’ Wins Four Daytime Emmys In Its First Year Of Eligibility"
@@ -21819,7 +21659,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Репозиторій mattpocock/skills: навички для реальних інженерів від AI Hero</b>\n\nДобірка практичних навичок для розробки реальних застосунків без зайвої абстракції та втрати контролю над процесом\n\n🔗 <a href=\"https://github.com/mattpocock/skills\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/mattpocock/skills",
     "orig": "mattpocock/skills"
@@ -21833,7 +21672,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>AC Bridge</b>\n\nВаші розумні світильники покажуть, коли Клод Код або Кодекс потребують вашої допомоги. Обговорення | Посилання\n\n🔗 <a href=\"https://www.producthunt.com/products/ac-bridge\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/ac-bridge",
     "orig": "AC Bridge"
@@ -21847,7 +21685,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>pingdotgg/t3code</b>\n\nhttps://t3.codes T3 Code T3 Code — це «інтерфейс управління агентами». Він дозволяє керувати агентами на вашому комп’ютері за допомогою найкращого у своєму класі мобільного додатка (iOS, Android), веб-додатка та настільного додатка на базі Electron. Працює з вашими підписками на Claude Code, Codex, Cursor, Grok Build, OpenCode та Google Antigravity. Якщо вони налаштовані на вашому комп’ютері, T3 Code може ними керувати. «Зачекайте, а що ви мені продаєте?» Нічого.\n\n🔗 <a href=\"https://github.com/pingdotgg/t3code\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/pingdotgg/t3code",
     "orig": "pingdotgg/t3code"
@@ -21861,7 +21698,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>Apple обійшла Nvidia і стала найдорожчою компанією у світі</b>\n\nУ п’ятницю компанія Apple Inc. знову стала найдорожчою компанією світу, посунувши з цього місця компанію Nvidia Corp., оскільки інвестори шукають у виробника iPhone відчуття безпеки на тлі побоювань щодо витрат на штучний інтелект.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-10-30/apple-overtakes-nvidia-to-become-world-s-most-valuable-company\">Bloomberg</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-10-30/apple-overtakes-nvidia-to-become-world-s-most-valuable-company",
     "orig": "Apple Overtakes Nvidia to Become World’s Most Valuable Company"
@@ -21875,7 +21711,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>Godwit</b>\n\nОбговорення поштового клієнта з відкритим кодом на основі ШІ\n\n🔗 <a href=\"https://www.producthunt.com/products/godwit\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/godwit",
     "orig": "Godwit"
@@ -22070,7 +21905,12 @@
    "My Chemical Romance натякнули на вихід MCR5",
    "Kerrang!",
    {
-    "also": [],
+    "also": [
+     [
+      "ThePRP",
+      "https://www.theprp.com/2026/10/31/news/my-chemical-romance-confirmed-their-new-album-plans-and-rolled-out-setlist-surprises-with-the-used-last-night/"
+     ]
+    ],
     "caption": "🤘 <b>My Chemical Romance натякнули на вихід MCR5</b>\n\nПід час концерту в Hollywood Bowl Джерард Вей заявив, що гурт може нарешті записати новий альбом уже наступного року\n\n🔗 <a href=\"https://www.kerrang.com/did-my-chemical-romance-just-confirm-mcr-5-hints-rumours-gerard-way-hollywood-bowl-long-live-black-parade\">Kerrang!</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.kerrang.com/did-my-chemical-romance-just-confirm-mcr-5-hints-rumours-gerard-way-hollywood-bowl-long-live-black-parade",
@@ -22659,6 +22499,90 @@
     "link": "https://www.pcgamer.com/games/horror/the-votes-are-in-and-pc-gamer-readers-have-picked-the-scariest-game-on-pc/",
     "orig": "The votes are in, and PC Gamer readers have picked the scariest game on PC"
    }
+  ],
+  [
+   1793469674.1427827,
+   3943,
+   "🎬",
+   "Серіал Billy the Kid із зіркою The Hunger Games залишається недооціненим",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Серіал Billy the Kid із зіркою The Hunger Games залишається недооціненим</b>\n\nВестерн-драма «Billy the Kid» від MGM+ розповідає про життя легендарного стрільця у виконанні Тома Блайта ще до його участі у фільмі «The Hunger Games: The Ballad of Songbirds &amp; Snakes». Шоу від творця «Vikings» Майкла Гірста детально описує шлях героя від іммігранта до розшукуваного злочинця під час війни в окрузі Лінкольн.\n\n🔗 <a href=\"https://www.slashfilm.com/2296559/the-hunger-games-tom-blyth-western-series-billy-the-kid/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2296559/the-hunger-games-tom-blyth-western-series-billy-the-kid/",
+    "orig": "A Hunger Games Star's Western Series Is One Of The Genre's Most Underrated Offerings"
+   }
+  ],
+  [
+   1793469677.1656737,
+   3944,
+   "🤘",
+   "Vinny Appice та його проєкт SABBATH KNIGHTS виконали класику BLACK SABBATH і DIO",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Vinny Appice та його проєкт SABBATH KNIGHTS виконали класику BLACK SABBATH і DIO</b>\n\nБарабанщик Вінні Аппіче разом із проєктом SABBATH KNIGHTS виступив у Розевіллі, штат Каліфорнія. Музиканти виконали класичні композиції BLACK SABBATH і DIO. Разом із Аппіче на сцені грали вокаліст Джим Крін, бас-гітарист Джиммі Капуто та гітарист Арті Діллон.\n\n🔗 <a href=\"https://blabbermouth.net/news/watch-vinny-appices-sabbath-knights-performs-black-sabbath-and-dio-classics-in-roseville-california\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/watch-vinny-appices-sabbath-knights-performs-black-sabbath-and-dio-classics-in-roseville-california",
+    "orig": "Watch: VINNY APPICE's SABBATH KNIGHTS Performs BLACK SABBATH And DIO Classics In Roseville, California"
+   }
+  ],
+  [
+   1793469688.3159165,
+   3945,
+   "🎮",
+   "Nintendo анонсувала серію анімаційних короткометражок Hello! Pikmin",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Nintendo анонсувала серію анімаційних короткометражок Hello! Pikmin</b>\n\nПід час трансляції Pikmin Day Direct Сігеру Міямото представив першу короткометражку з циклу Hello! Pikmin від Nintendo Pictures. Надалі нові епізоди виходитимуть щомісяця в додатку Nintendo Today та в соцмережах.\n\n🔗 <a href=\"https://insider-gaming.com/hello-pikmin-nintendo-pictures-explained/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/hello-pikmin-nintendo-pictures-explained/",
+    "orig": "What Is Hello! Pikmin? Nintendo’s New Animated Shorts"
+   }
+  ],
+  [
+   1793469692.6792421,
+   3946,
+   "🤘",
+   "In This Moment випустили live-відео з треком “I Want To Believe” на SiriusXM",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>In This Moment випустили live-відео з треком “I Want To Believe” на SiriusXM</b>\n\n🔗 <a href=\"https://www.theprp.com/2026/10/31/news/in-this-moments-live-in-studio-performance-of-i-want-to-believe-at-siriusxm-arrives-online/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/10/31/news/in-this-moments-live-in-studio-performance-of-i-want-to-believe-at-siriusxm-arrives-online/",
+    "orig": "In This Moment’s Live In-Studio Performance Of “I Want To Believe” At SiriusXM Arrives Online"
+   }
+  ],
+  [
+   1793469695.9937048,
+   3947,
+   "🤘",
+   "My Chemical Romance анонсували новий альбом і виступнули з Bert McCracken",
+   "Stereogum",
+   {
+    "also": [],
+    "caption": "🤘 <b>My Chemical Romance анонсували новий альбом і виступнули з Bert McCracken</b>\n\nГурт My Chemical Romance під час концерту в Лос-Анджелесі підтвердив плани записати новий альбом наступного року, через що музиканти не планують виступів. Також на концертах до гурту приєднався колишній суперник Bert McCracken із The Used.\n\n🔗 <a href=\"https://stereogum.com/2516212/my-chemical-romance-bring-out-bert-mccracken-confirm-plans-for-new-album/news/\">Stereogum</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://stereogum.com/2516212/my-chemical-romance-bring-out-bert-mccracken-confirm-plans-for-new-album/news/",
+    "orig": "My Chemical Romance Bring Out Bert McCracken, Confirm Plans For New Album"
+   }
+  ],
+  [
+   1793469705.2509437,
+   3948,
+   "🎮",
+   "Гелен Міррен і Олден Еренрайх зіграли у фільмі A Talent for Murder",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Гелен Міррен і Олден Еренрайх зіграли у фільмі A Talent for Murder</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2631350/\">Helen</a>\n\nГелен Міррен і Олден Еренрайх виконали головні ролі у стрічці A Talent for Murder режисера Антона Корбайна. Фільм є екранізацією п&#x27;єси Switzerland та розповідає про письменницю Патрицію Гайсміт і її спілкування з представником видавництва, а також містить сюжетну лінію про Тома Ріплі.\n\n🔗 <a href=\"https://www.polygon.com/helen-mirren-alden-ehrenreich-interview-a-talent-for-murder/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/helen-mirren-alden-ehrenreich-interview-a-talent-for-murder/",
+    "orig": "Helen Mirren and Alden Ehrenreich on Playing Tom Ripley and His Creator Patricia Highsmith"
+   }
   ]
  ],
  "posted_by_source": {
@@ -22762,19 +22686,13 @@
    1793451680.772996
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1793367287.4233315,
-   1793369007.4713116,
-   1793369054.3884969,
-   1793369066.2336066,
-   1793369082.600938,
-   1793370777.8729508,
-   1793379748.1027277,
    1793383344.7377777,
    1793399284.6729708,
    1793403101.9225786,
    1793404900.8076437,
    1793428291.890293,
-   1793453497.6883051
+   1793453497.6883051,
+   1793469688.3163705
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1793370764.7920284,
@@ -22801,12 +22719,12 @@
    1793464286.3705075
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1793381553.037594,
    1793383309.1144736,
    1793442774.1807659,
    1793442800.5258586,
    1793455378.1314802,
-   1793457092.665299
+   1793457092.665299,
+   1793469705.2513673
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1793309490.4665356,
@@ -22829,12 +22747,12 @@
    1793450043.8149366
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
-   1793381501.595799,
    1793392392.097592,
    1793426179.8427382,
    1793428279.6145835,
    1793450039.3370042,
-   1793464272.8840926
+   1793464272.8840926,
+   1793469674.1432414
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792944099.3403795,
@@ -22893,7 +22811,8 @@
    1793458887.5361302,
    1793458890.6891563,
    1793462619.7557933,
-   1793466262.5776198
+   1793466262.5776198,
+   1793469677.1661434
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -22976,20 +22895,9 @@
    1793374328.2733572
   ],
   "music|Stereogum|https://www.stereogum.com/feed/": [
-   1793374332.537393,
-   1793377892.1150308,
-   1793381527.3204079
+   1793469695.994156
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1793320276.044327,
-   1793320279.0492444,
-   1793322162.4561758,
-   1793336497.87388,
-   1793336501.0183613,
-   1793336504.1848128,
-   1793338451.4226756,
-   1793341983.845381,
-   1793379756.1410685,
    1793383312.3911865,
    1793383335.6422257,
    1793385299.300353,
@@ -22999,7 +22907,8 @@
    1793392415.9274855,
    1793395981.5053113,
    1793395989.3522491,
-   1793399275.2886522
+   1793399275.2886522,
+   1793469692.6796846
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1793356285.5005145
@@ -23094,6 +23003,7 @@
   "02bb7413188810c2": 1792264351.4903998,
   "02c6d1c29f4c63ea": 1792936852.3058267,
   "02ddbe1aaa9ff9b1": 1793284278.2642753,
+  "02df0ca94830b91b": 1793469688.3163257,
   "02e73b610900317e": 1792452680.9788663,
   "02e8b4e1ab7f95bb": 1792432934.853331,
   "0302430592ffbaf6": 1793350881.9504387,
@@ -23799,6 +23709,7 @@
   "287269218779b215": 1793278890.8683312,
   "28779801fbc69203": 1792805570.580035,
   "287d5b7fea65f2f2": 1793133104.1518307,
+  "28831238e43a6143": 1793469652.6683245,
   "288d115437974d82": 1793388693.9226851,
   "288ef221c7d809cb": 1792571479.856287,
   "2895b4a4de1f27c4": 1793358053.085314,
@@ -24000,6 +23911,7 @@
   "33ca4069ccade276": 1792427670.2162242,
   "33cc858b68fe4222": 1793059299.7240689,
   "33d8ebc3069d5d34": 1792514312.6262708,
+  "33dd50c106dd4d0c": 1793469695.9941125,
   "33e13b0eec3f3dd9": 1792524114.7549076,
   "33ff777f274e1a43": 1792787505.877791,
   "340076b11cdcc1d6": 1793282504.9867005,
@@ -25043,6 +24955,7 @@
   "6d68b723c2436a11": 1792402526.2861214,
   "6d68f1cf5b97effe": 1793275274.482867,
   "6d765ef48c131eee": 1793338454.9743629,
+  "6d7b856d0bd58939": 1793469691.323878,
   "6d9896b01e30bb14": 1793365312.7663844,
   "6d9bc7ad7f20ef2b": 1792954885.214165,
   "6db1ffb40f3f1fb8": 1792663276.571185,
@@ -25309,6 +25222,7 @@
   "7bc0884a2a187e5d": 1793367291.2481668,
   "7bcd5f347a83ad40": 1792749731.872932,
   "7bedc67dd717409c": 1792699525.7569578,
+  "7c07ec0fac8d0d17": 1793469677.166098,
   "7c0cf47791ab8851": 1792773087.3836048,
   "7c19b4a4a43a0cf2": 1792602151.7007782,
   "7c1e75f5b019a6eb": 1793117088.8412097,
@@ -25991,6 +25905,7 @@
   "a38af8732f5e3ea1": 1793032255.3988454,
   "a39d997a4ae688ad": 1792497708.7723825,
   "a3a9efef137d4a73": 1792524281.4419186,
+  "a3b9a5589ab24e44": 1793469674.1431966,
   "a3bb4ad2ae33a3a9": 1792764098.7629182,
   "a3ce2e813452a898": 1793235757.2917876,
   "a3e802ec3cc749d7": 1793223102.3861172,
@@ -26165,6 +26080,7 @@
   "ad4c98cfa282dc20": 1792890260.2896423,
   "ad5357caaf5b7f82": 1793199681.5013194,
   "ad6c2543f41dd65e": 1793365276.03468,
+  "ad75ffb35dd1632a": 1793469692.67964,
   "ad76e0df411b0c50": 1793278875.3224423,
   "ad960e290ea576d9": 1793176591.6444523,
   "adb9f6bc34a42116": 1792314079.6117754,
@@ -26945,6 +26861,7 @@
   "db9354add583ca31": 1792573279.7385182,
   "db98bf59a6c7e420": 1793122351.5762181,
   "db9f86860fe4dd4b": 1793287996.4521744,
+  "dba2ecede230cc3c": 1793469705.2513254,
   "dba4e1abe474f0e8": 1792974773.5004857,
   "dbc73fab9fbb420e": 1793185297.9544957,
   "dbd32b7155b577b1": 1792540674.5925205,
@@ -27350,6 +27267,7 @@
   "f2aa652e8c009a8a": 1792594853.9380503,
   "f2c36932fd45d8f8": 1793178114.5230346,
   "f2d07824c5744808": 1793036061.5534372,
+  "f2f198e41448a328": 1793469680.7633116,
   "f2febc8f539eee7a": 1792683187.9929807,
   "f30598e38881fe55": 1793127758.0031807,
   "f30a63ce6744b137": 1792616481.488003,
@@ -27362,6 +27280,7 @@
   "f35afa200f38632a": 1793293396.9558856,
   "f36c315683ef0962": 1793293629.568397,
   "f379ec216e17f0ed": 1792742466.4211743,
+  "f38921022979fd43": 1793469672.4014676,
   "f38b7e2f903e07ec": 1793298747.3177323,
   "f3a9158637d1a587": 1793286839.002255,
   "f3abdc53bc3584ac": 1793050280.3924372,
@@ -28803,12 +28722,12 @@
    "Rock Paper Shotgun": 1,
    "Stereogum": 2,
    "VGC": 2,
-   "Variety": 5
+   "Variety": 6
   },
   "sources": {
-   "/Film": 34,
+   "/Film": 35,
    "AIN.ua": 6,
-   "Blabbermouth": 81,
+   "Blabbermouth": 82,
    "Bloomberg": 59,
    "DOU": 1,
    "DOU Gamedev": 5,
@@ -28824,7 +28743,7 @@
    "IGN": 87,
    "ITC.ua": 66,
    "IndieWire": 26,
-   "Insider Gaming": 88,
+   "Insider Gaming": 89,
    "Kerrang!": 42,
    "Lambgoat": 53,
    "Loudwire": 30,
@@ -28836,21 +28755,21 @@
    "PC Gamer": 90,
    "Pitchfork": 10,
    "PlayUA": 28,
-   "Polygon": 34,
+   "Polygon": 35,
    "Product Hunt": 25,
    "Revolver": 9,
    "Rock Paper Shotgun": 26,
    "SteamDB": 3,
-   "Stereogum": 15,
+   "Stereogum": 16,
    "The Decoder": 28,
-   "ThePRP": 67,
+   "ThePRP": 68,
    "VGC": 30,
    "Variety": 36
   },
   "translators": {
    "DeepL": 35,
    "gemini-flash-latest": 45,
-   "gemini-flash-lite-latest": 1394
+   "gemini-flash-lite-latest": 1402
   },
   "week": "2026-W44"
  },
@@ -30010,6 +29929,31 @@
    "Alan Wake",
    1792148868.4306724
   ],
+  "q:alden": [
+   0,
+   "",
+   1793469702.7881668
+  ],
+  "q:alden ehrenreich": [
+   0,
+   "",
+   1793469702.2616272
+  ],
+  "q:alden ehrenreich on playing": [
+   0,
+   "",
+   1793469701.769328
+  ],
+  "q:alden ehrenreich on playing tom": [
+   0,
+   "",
+   1793469701.1212814
+  ],
+  "q:alden ehrenreich on playing tom ripley": [
+   0,
+   "",
+   1793469700.622253
+  ],
   "q:alexander": [
    0,
    "",
@@ -30059,31 +30003,6 @@
    4665290,
    "Alien: Isolation 2",
    1793215933.545154
-  ],
-  "q:all guessed": [
-   0,
-   "",
-   1793295396.9284997
-  ],
-  "q:all guessed elder": [
-   0,
-   "",
-   1793295396.2918773
-  ],
-  "q:all guessed elder scrolls": [
-   0,
-   "",
-   1793295395.669894
-  ],
-  "q:all guessed elder scrolls 6": [
-   0,
-   "",
-   1793295395.076092
-  ],
-  "q:all guessed elder scrolls 6's name": [
-   0,
-   "",
-   1793295394.4154947
   ],
   "q:allowing rgg studio": [
    0,
@@ -30149,6 +30068,16 @@
    5168040,
    "Angelfall",
    1792765964.524343
+  ],
+  "q:animated": [
+   0,
+   "",
+   1793469686.9661777
+  ],
+  "q:animated shorts": [
+   0,
+   "",
+   1793469686.433
   ],
   "q:announcement": [
    0,
@@ -30610,21 +30539,6 @@
    "",
    1793379737.8671203
   ],
-  "q:bioware co founder breaks": [
-   0,
-   "",
-   1793295374.2633998
-  ],
-  "q:bioware co founder breaks down": [
-   0,
-   "",
-   1793295373.7054195
-  ],
-  "q:bioware co founder breaks down the problem": [
-   0,
-   "",
-   1793295373.0516148
-  ],
   "q:bioware reportedly died": [
    0,
    "",
@@ -30690,21 +30604,6 @@
    "",
    1793327484.3751035
   ],
-  "q:blizzard wow": [
-   0,
-   "",
-   1793295358.9731996
-  ],
-  "q:blizzard wow forever": [
-   0,
-   "",
-   1793295358.3724754
-  ],
-  "q:blizzard wow forever 4": [
-   0,
-   "",
-   1793295357.8579023
-  ],
   "q:bloomberg": [
    0,
    "",
@@ -30755,26 +30654,6 @@
    "",
    1793298723.2800333
   ],
-  "q:brawl": [
-   0,
-   "",
-   1793295364.7613509
-  ],
-  "q:brawl stars": [
-   0,
-   "",
-   1793295364.205662
-  ],
-  "q:brawl stars chaos": [
-   0,
-   "",
-   1793295363.7027705
-  ],
-  "q:brawl stars chaos drop": [
-   0,
-   "",
-   1793295363.1549468
-  ],
   "q:brawl stars thinking": [
    0,
    "",
@@ -30784,31 +30663,6 @@
    0,
    "",
    1793372500.2602875
-  ],
-  "q:breaks": [
-   0,
-   "",
-   1793295379.4557998
-  ],
-  "q:breaks down": [
-   0,
-   "",
-   1793295378.896468
-  ],
-  "q:breaks down the problem": [
-   0,
-   "",
-   1793295378.3623002
-  ],
-  "q:breaks down the problem with": [
-   0,
-   "",
-   1793295377.858515
-  ],
-  "q:breaks down the problem with ai": [
-   0,
-   "",
-   1793295377.2814796
   ],
   "q:bros could": [
    0,
@@ -31045,16 +30899,6 @@
    "Changes",
    1791920807.5606358
   ],
-  "q:chaos": [
-   0,
-   "",
-   1793295367.6073475
-  ],
-  "q:chaos drop": [
-   0,
-   "",
-   1793295367.0571039
-  ],
   "q:charting": [
    0,
    "",
@@ -31170,25 +31014,10 @@
    "",
    1793369050.5946634
   ],
-  "q:co founder breaks": [
+  "q:club": [
    0,
    "",
-   1793295376.7715747
-  ],
-  "q:co founder breaks down": [
-   0,
-   "",
-   1793295375.9963677
-  ],
-  "q:co founder breaks down the problem": [
-   0,
-   "",
-   1793295375.3982227
-  ],
-  "q:co founder breaks down the problem with": [
-   0,
-   "",
-   1793295374.8291297
+   1793469679.7037833
   ],
   "q:cod": [
    0,
@@ -32170,11 +31999,6 @@
    "",
    1793379751.165448
   ],
-  "q:drop": [
-   0,
-   "",
-   1793295368.1256454
-  ],
   "q:drunken goddess reflux": [
    4150720,
    "Drunken Goddess Reflux",
@@ -32309,6 +32133,16 @@
    0,
    "",
    1793347502.4610474
+  ],
+  "q:ehrenreich on playing tom": [
+   0,
+   "",
+   1793469703.7895207
+  ],
+  "q:ehrenreich on playing tom ripley": [
+   0,
+   "",
+   1793469703.2794852
   ],
   "q:eiji aonuma says": [
    0,
@@ -32739,11 +32573,6 @@
    0,
    "",
    1793390695.0394444
-  ],
-  "q:forever 4": [
-   0,
-   "",
-   1793295360.1836936
   ],
   "q:forever controller": [
    0,
@@ -33195,16 +33024,6 @@
    "",
    1793302391.802467
   ],
-  "q:guessed elder scrolls 6": [
-   0,
-   "",
-   1793295398.0773268
-  ],
-  "q:guessed elder scrolls 6's name": [
-   0,
-   "",
-   1793295397.4796784
-  ],
   "q:habitat": [
    299340,
    "Habitat",
@@ -33320,6 +33139,16 @@
    "",
    1793455370.2063859
   ],
+  "q:helen mirren and alden": [
+   0,
+   "",
+   1793469698.5373714
+  ],
+  "q:helen mirren and alden ehrenreich": [
+   0,
+   "",
+   1793469698.005419
+  ],
   "q:helen mirren wants": [
    0,
    "",
@@ -33334,6 +33163,11 @@
    553850,
    "HELLDIVERS™ 2",
    1792490482.5319238
+  ],
+  "q:hello": [
+   0,
+   "",
+   1793469682.877943
   ],
   "q:hexe": [
    0,
@@ -33565,30 +33399,10 @@
    "Iron Lung",
    1791994329.4241986
   ],
-  "q:is outpacing": [
+  "q:is hello": [
    0,
    "",
-   1793295438.2067251
-  ],
-  "q:is outpacing previous gen": [
-   0,
-   "",
-   1793295437.6217613
-  ],
-  "q:is outpacing previous gen lifetime": [
-   0,
-   "",
-   1793295437.0664082
-  ],
-  "q:is outpacing previous gen lifetime us": [
-   0,
-   "",
-   1793295436.5618627
-  ],
-  "q:is outpacing previous gen lifetime us sales": [
-   0,
-   "",
-   1793295436.015836
+   1793469682.3611648
   ],
   "q:is pumping": [
    0,
@@ -34460,6 +34274,21 @@
    "",
    1793455371.740945
   ],
+  "q:mirren and alden": [
+   0,
+   "",
+   1793469700.1333523
+  ],
+  "q:mirren and alden ehrenreich": [
+   0,
+   "",
+   1793469699.5621374
+  ],
+  "q:mirren and alden ehrenreich on playing": [
+   0,
+   "",
+   1793469699.0682948
+  ],
   "q:mirren wants": [
    0,
    "",
@@ -34750,6 +34579,16 @@
    "",
    1793309482.2603455
   ],
+  "q:new animated": [
+   0,
+   "",
+   1793469685.930712
+  ],
+  "q:new animated shorts": [
+   0,
+   "",
+   1793469685.4443805
+  ],
   "q:new assassin": [
    0,
    "",
@@ -34924,6 +34763,21 @@
    0,
    "",
    1793442676.4882174
+  ],
+  "q:nintendo's new": [
+   0,
+   "",
+   1793469684.8640382
+  ],
+  "q:nintendo's new animated": [
+   0,
+   "",
+   1793469684.365279
+  ],
+  "q:nintendo's new animated shorts": [
+   0,
+   "",
+   1793469683.8602147
   ],
   "q:nivalis nights": [
    1488490,
@@ -35250,16 +35104,6 @@
    "",
    1793381529.7221172
   ],
-  "q:outpacing previous gen lifetime us": [
-   0,
-   "",
-   1793295439.3280866
-  ],
-  "q:outpacing previous gen lifetime us sales": [
-   0,
-   "",
-   1793295438.8105934
-  ],
   "q:over": [
    0,
    "",
@@ -35469,6 +35313,11 @@
    0,
    "",
    1793392398.5098953
+  ],
+  "q:pikmin": [
+   0,
+   "",
+   1793469683.3684595
   ],
   "q:pin": [
    0,
@@ -35699,31 +35548,6 @@
    759000,
    ".projekt",
    1791908459.1061475
-  ],
-  "q:ps5 is": [
-   0,
-   "",
-   1793295435.5160346
-  ],
-  "q:ps5 is outpacing": [
-   0,
-   "",
-   1793295434.949308
-  ],
-  "q:ps5 is outpacing previous gen": [
-   0,
-   "",
-   1793295434.436629
-  ],
-  "q:ps5 is outpacing previous gen lifetime": [
-   0,
-   "",
-   1793295433.8032517
-  ],
-  "q:ps5 is outpacing previous gen lifetime us": [
-   0,
-   "",
-   1793295433.2928169
   ],
   "q:ps5 steam": [
    0,
@@ -36965,21 +36789,6 @@
    "Starfield",
    1791769120.1507218
   ],
-  "q:stars": [
-   0,
-   "",
-   1793295366.4144995
-  ],
-  "q:stars chaos": [
-   0,
-   "",
-   1793295365.8678894
-  ],
-  "q:stars chaos drop": [
-   0,
-   "",
-   1793295365.3243127
-  ],
   "q:stars thinking": [
    0,
    "",
@@ -38035,6 +37844,16 @@
    "What Comes After",
    1792080962.4789066
   ],
+  "q:what is": [
+   0,
+   "",
+   1793469681.8076324
+  ],
+  "q:what is hello": [
+   0,
+   "",
+   1793469681.2890325
+  ],
   "q:whatever you want": [
    0,
    "",
@@ -38235,11 +38054,6 @@
    "World of Tanks",
    1793005388.3132465
   ],
-  "q:wow forever 4": [
-   0,
-   "",
-   1793295359.5284593
-  ],
   "q:wow forever controller": [
    0,
    "",
@@ -38325,35 +38139,15 @@
    "",
    1793415678.7928662
   ],
+  "q:yacht club": [
+   0,
+   "",
+   1793469679.190111
+  ],
   "q:yoko": [
    2664050,
    "YOKO",
    1791742996.7788212
-  ],
-  "q:you all": [
-   0,
-   "",
-   1793295393.8307161
-  ],
-  "q:you all guessed": [
-   0,
-   "",
-   1793295393.3147178
-  ],
-  "q:you all guessed elder": [
-   0,
-   "",
-   1793295392.7441397
-  ],
-  "q:you all guessed elder scrolls": [
-   0,
-   "",
-   1793295392.2130015
-  ],
-  "q:you all guessed elder scrolls 6": [
-   0,
-   "",
-   1793295391.6964827
   ],
   "q:you don't": [
    0,
@@ -38517,70 +38311,6 @@
   ]
  },
  "titles": [
-  [
-   1793295355.539406,
-   "See SLAYER's Entire Performance At 2026 SICK NEW WORLD TEXAS Festival"
-  ],
-  [
-   1793295361.030428,
-   "Blizzard послабила мисливців у WoW: Forever перед релізом 4 листопада"
-  ],
-  [
-   1793295368.9001808,
-   "У Brawl Stars можна безкоштовно отримати Chaos Drop — посилання на нагороду"
-  ],
-  [
-   1793295371.0249543,
-   "Claude блокує акаунти за російський паспорт, скаржаться користувачі"
-  ],
-  [
-   1793295389.4666638,
-   "BioWare Co-Founder Breaks Down the Problem With AI in Game Development Perfectly"
-  ],
-  [
-   1793295409.3726137,
-   "You All Guessed Elder Scrolls 6’s Name, And Now Here’s The Game’s Setup – Report"
-  ],
-  [
-   1793295419.210908,
-   "MOTHICA returns with heaviest single to date, My Confession"
-  ],
-  [
-   1793295431.2473037,
-   "MAMMOTH Parts Ways With Drummer GARRETT WHITLOCK, Announces Replacement"
-  ],
-  [
-   1793295446.479777,
-   "PS5 Is Outpacing Previous-Gen Lifetime US Sales"
-  ],
-  [
-   1793295464.3270843,
-   "🆓 Hexologic is free to keep on Steam"
-  ],
-  [
-   1793295475.9045737,
-   "Microsoft Turns to Bond Market as AI Spending Grows"
-  ],
-  [
-   1793295491.3080385,
-   "Winterfylleth announce 20th anniversary reissue of 2007 demo, 'Rising Of The Winter Full Moon'"
-  ],
-  [
-   1793295502.7164934,
-   "200 Stab Wounds share music video for second new single, \"Sweet Suicide\", off new LP"
-  ],
-  [
-   1793295517.9046535,
-   "Kieth Morris (Circle Jerks/Black Flag) claims he attended Sound and Fury to see Peeling Flesh"
-  ],
-  [
-   1793295532.5666726,
-   "Ruins Of Perception present music video for latest single \"The Crimson Key\" off upcoming album"
-  ],
-  [
-   1793296890.1515558,
-   "Month-Long Massacre, Final Kill: 92 Vinyl Records, All $31 or Less"
-  ],
   [
    1793296914.6709588,
    "The Elder Scrolls 6 Is Reportedly Subtitled 'Sentinel,' New Story Details Revealed Ahead of Rumored Announcement"
@@ -40196,73 +39926,33 @@
   [
    1793467904.976446,
    "The votes are in, and PC Gamer readers have picked the scariest game on PC"
+  ],
+  [
+   1793469674.143198,
+   "A Hunger Games Star's Western Series Is One Of The Genre's Most Underrated Offerings"
+  ],
+  [
+   1793469677.1660998,
+   "Watch: VINNY APPICE's SABBATH KNIGHTS Performs BLACK SABBATH And DIO Classics In Roseville, California"
+  ],
+  [
+   1793469688.3163276,
+   "What Is Hello! Pikmin? Nintendo’s New Animated Shorts"
+  ],
+  [
+   1793469692.679642,
+   "In This Moment’s Live In-Studio Performance Of “I Want To Believe” At SiriusXM Arrives Online"
+  ],
+  [
+   1793469695.9941142,
+   "My Chemical Romance Bring Out Bert McCracken, Confirm Plans For New Album"
+  ],
+  [
+   1793469705.251327,
+   "Helen Mirren and Alden Ehrenreich on Playing Tom Ripley and His Creator Patricia Highsmith"
   ]
  ],
  "titles_uk": [
-  [
-   1793295355.5394068,
-   "Перегляньте повний виступ гурту SLAYER на фестивалі «SICK NEW WORLD TEXAS» 2026 року"
-  ],
-  [
-   1793295361.0304286,
-   "Blizzard послабила мисливців у WoW: Forever перед релізом 4 листопада"
-  ],
-  [
-   1793295368.9001815,
-   "У Brawl Stars можна безкоштовно отримати Chaos Drop — посилання на нагороду"
-  ],
-  [
-   1793295371.0249548,
-   "Claude блокує акаунти за російський паспорт, скаржаться користувачі"
-  ],
-  [
-   1793295389.4666648,
-   "Співзасновник BioWare розкритикував використання ШІ у геймдеві"
-  ],
-  [
-   1793295409.3726144,
-   "Bethesda готує анонс підзаголовка та локації The Elder Scrolls VI"
-  ],
-  [
-   1793295419.2109084,
-   "MOTHICA випустила lo-fi версію свого EP Somewhere In Between"
-  ],
-  [
-   1793295431.2473042,
-   "Гурт MAMMOTH залишив барабанщик Garrett Whitlock"
-  ],
-  [
-   1793295446.4797778,
-   "Продажі PS5 у США перевищують показники минулих поколінь"
-  ],
-  [
-   1793295464.327085,
-   "У Steam безплатно роздають головоломку Hexologic"
-  ],
-  [
-   1793295475.9045744,
-   "Microsoft планує залучити щонайменше $25 мільярдів через випуск облігацій"
-  ],
-  [
-   1793295491.3080392,
-   "Winterfylleth перевидадуть своє демо 2007 року на 20-річчя"
-  ],
-  [
-   1793295502.7164943,
-   "200 Stab Wounds випустили кліп на новий сингл Sweet Suicide"
-  ],
-  [
-   1793295517.904654,
-   "Кіт Морріс відвідав фестиваль Sound and Fury заради PeelingFlesh"
-  ],
-  [
-   1793295532.5666745,
-   "Ruins Of Perception випустили кліп на сингл The Crimson Key"
-  ],
-  [
-   1793296890.151557,
-   "Розпродаж вінілових платівок: 92 релизи за ціною до $31"
-  ],
   [
    1793296914.6709597,
    "Інсайдер розкрив підзаголовок та сюжетні деталі The Elder Scrolls 6"
@@ -41878,6 +41568,30 @@
   [
    1793467904.9764469,
    "Читачі PC Gamer обрали найстрашнішу гру на ПК"
+  ],
+  [
+   1793469674.1431987,
+   "Серіал Billy the Kid із зіркою The Hunger Games залишається недооціненим"
+  ],
+  [
+   1793469677.1661007,
+   "Vinny Appice та його проєкт SABBATH KNIGHTS виконали класику BLACK SABBATH і DIO"
+  ],
+  [
+   1793469688.3163283,
+   "Nintendo анонсувала серію анімаційних короткометражок Hello! Pikmin"
+  ],
+  [
+   1793469692.6796424,
+   "In This Moment випустили live-відео з треком “I Want To Believe” на SiriusXM"
+  ],
+  [
+   1793469695.9941149,
+   "My Chemical Romance анонсували новий альбом і виступнули з Bert McCracken"
+  ],
+  [
+   1793469705.2513278,
+   "Гелен Міррен і Олден Еренрайх зіграли у фільмі A Talent for Murder"
   ]
  ],
  "ukrainian": {
