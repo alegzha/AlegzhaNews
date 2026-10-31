@@ -1,15 +1,8 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1793485901.2796469
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-31",
  "freebies": {
-  "last_check": 1793480601.1121767,
+  "last_check": 1793487701.4144223,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -28,11 +21,10 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-31 22:32 UTC",
+  "at": "2026-10-31 23:01 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
    "gemini-flash-lite-latest": 1
   },
   "used": [
@@ -21191,7 +21183,6 @@
    "VGC",
    {
     "also": [],
-    "caption": "🎮 <b>Створено першу повністю прозору портативну консоль The Arduview</b>\n\nСтудент Луї Хуан представив The Arduview — першу повністю прозору портативну ігрову консоль, де прозорим є навіть екран. Пристрій розміром із кредитну картку працює на платформі Arduino та вже успішно зібрав кошти на Kickstarter.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/the-arduview-is-the-worlds-first-fully-transparent-handheld-including-the-screen/\">VGC</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/news/the-arduview-is-the-worlds-first-fully-transparent-handheld-including-the-screen/",
     "orig": "The Arduview is the world’s first fully transparent handheld, including the screen"
@@ -22063,6 +22054,20 @@
     "link": "https://www.indiewire.com/features/craft/scad-savannah-film-festival-artisans-ruth-de-jong-amy-roth-1235224897/",
     "orig": "Artisans Break Down the Tricks and Treats of Designing a Trojan Horse at SCAD Savannah Film Festival"
    }
+  ],
+  [
+   1793487692.032267,
+   3974,
+   "🎬",
+   "Режисери розповіли про виклики у роботі з VFX та нові навички в кіно",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Режисери розповіли про виклики у роботі з VFX та нові навички в кіно</b>\n\nНа кінофестивалі SCAD Savannah Film Festival режисери та продюсери обговорили свій досвід у постановці фільмів і майбутнє кіновиробництва. Зокрема, вони підняли питання взаємодії з командами візуальних ефектів, розуміння бюджетування VFX та опанування нових навичок для майбутніх проєктів.\n\n🔗 <a href=\"https://www.indiewire.com/features/craft/scad-savannah-film-festival-directors-panel-1235224898/\">IndieWire</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/features/craft/scad-savannah-film-festival-directors-panel-1235224898/",
+    "orig": "The Arcane Knowledge Directors Wish They Could Summon"
+   }
   ]
  ],
  "posted_by_source": {
@@ -22250,7 +22255,8 @@
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
    1793460682.7796674,
-   1793485929.1567388
+   1793485929.1567388,
+   1793487692.0327117
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1793435498.9012954
@@ -25373,6 +25379,7 @@
   "a4552c78a4944cff": 1793356255.8654177,
   "a45645b6f493c42b": 1793392256.1180868,
   "a48c86c194076d69": 1793284277.8653388,
+  "a4ae931d79d496ec": 1793487692.0326593,
   "a4b2738955eeb0e3": 1793298771.032884,
   "a4c265c1e61f0eae": 1792859646.1603632,
   "a4c85a5317e49297": 1793275394.2070296,
@@ -26906,6 +26913,7 @@
   "fc015f0ef0f654bd": 1792512291.9587786,
   "fc0d0d94bb7c3b0c": 1793354493.761103,
   "fc0e91b028e05c56": 1792769837.8254826,
+  "fc14c8883c9e79fe": 1793487654.4058235,
   "fc177f78cf743296": 1792348286.1639628,
   "fc1a94bd8b3a8972": 1792515809.7721677,
   "fc36090d001ee4ad": 1792352525.9842098,
@@ -27425,7 +27433,7 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1793471508.5614371,
-  "blocked_until": 1793469815.4778402,
+  "blocked_until": 1793557967.7080007,
   "cursor": 254,
   "digest_week": "2026-W44",
   "seen": {
@@ -28158,7 +28166,7 @@
    "Халява": 6
   },
   "filtered": {
-   "/Film": 20,
+   "/Film": 21,
    "Bloomberg": 10,
    "Deadline": 8,
    "Distorted Sound": 1,
@@ -28198,7 +28206,7 @@
    "Hugging Face": 4,
    "IGN": 90,
    "ITC.ua": 66,
-   "IndieWire": 27,
+   "IndieWire": 28,
    "Insider Gaming": 90,
    "Kerrang!": 43,
    "Lambgoat": 55,
@@ -28225,7 +28233,7 @@
   "translators": {
    "DeepL": 35,
    "gemini-flash-latest": 49,
-   "gemini-flash-lite-latest": 1429
+   "gemini-flash-lite-latest": 1430
   },
   "week": "2026-W44"
  },
@@ -29884,26 +29892,6 @@
    1440370,
    "Before Dark",
    1792317845.4245293
-  ],
-  "q:bethesda pays": [
-   0,
-   "",
-   1793314887.058951
-  ],
-  "q:bethesda pays tribute": [
-   0,
-   "",
-   1793314886.5838668
-  ],
-  "q:bethesda pays tribute to patrick": [
-   0,
-   "",
-   1793314886.0495138
-  ],
-  "q:bethesda pays tribute to patrick stewart": [
-   0,
-   "",
-   1793314885.5495176
   ],
   "q:betrayed": [
    2855940,
@@ -34200,26 +34188,6 @@
    "Paul",
    1792852287.4923358
   ],
-  "q:pays": [
-   0,
-   "",
-   1793314889.261947
-  ],
-  "q:pays tribute": [
-   0,
-   "",
-   1793314888.7265568
-  ],
-  "q:pays tribute to patrick": [
-   0,
-   "",
-   1793314888.1871996
-  ],
-  "q:pays tribute to patrick stewart": [
-   0,
-   "",
-   1793314887.6284618
-  ],
   "q:peak": [
    3527290,
    "PEAK",
@@ -34899,31 +34867,6 @@
    0,
    "",
    1793392394.055334
-  ],
-  "q:rockstar union": [
-   0,
-   "",
-   1793313175.3200996
-  ],
-  "q:rockstar union vote": [
-   0,
-   "",
-   1793313174.7549515
-  ],
-  "q:rockstar union vote could": [
-   0,
-   "",
-   1793313174.2129273
-  ],
-  "q:rockstar union vote could cover": [
-   0,
-   "",
-   1793313173.5877495
-  ],
-  "q:rockstar union vote could cover over": [
-   0,
-   "",
-   1793313173.064465
   ],
   "q:romero": [
    0,
@@ -35890,11 +35833,6 @@
    "",
    1793314890.2896395
   ],
-  "q:tribute to patrick stewart for his": [
-   0,
-   "",
-   1793314889.777237
-  ],
   "q:trying": [
    0,
    "",
@@ -36005,36 +35943,6 @@
    "Undertale",
    1793039505.7366686
   ],
-  "q:union": [
-   0,
-   "",
-   1793313178.9131112
-  ],
-  "q:union vote": [
-   0,
-   "",
-   1793313178.3626647
-  ],
-  "q:union vote could": [
-   0,
-   "",
-   1793313177.8407896
-  ],
-  "q:union vote could cover": [
-   0,
-   "",
-   1793313177.02588
-  ],
-  "q:union vote could cover over": [
-   0,
-   "",
-   1793313176.4639754
-  ],
-  "q:union vote could cover over 1": [
-   0,
-   "",
-   1793313175.83219
-  ],
   "q:unknown": [
    0,
    "",
@@ -36099,11 +36007,6 @@
    0,
    "",
    1793379730.3299043
-  ],
-  "q:vote could cover over 1": [
-   0,
-   "",
-   1793313179.4228923
   ],
   "q:vrchat": [
    438100,
@@ -36765,14 +36668,6 @@
   ]
  },
  "titles": [
-  [
-   1793313170.9484415,
-   "Suspected Billion-Dollar Binance Hack Sends Fear Through Crypto"
-  ],
-  [
-   1793313180.8637266,
-   "Rockstar Union Vote Could Cover Over 1,600 UK Workers"
-  ],
   [
    1793315017.2010834,
    "Bethesda Pays Tribute to Patrick Stewart for His Role in Oblivion, Fans Remember His Role in Games like Castlevania"
@@ -38220,17 +38115,13 @@
   [
    1793485929.1566894,
    "Artisans Break Down the Tricks and Treats of Designing a Trojan Horse at SCAD Savannah Film Festival"
+  ],
+  [
+   1793487692.0326612,
+   "The Arcane Knowledge Directors Wish They Could Summon"
   ]
  ],
  "titles_uk": [
-  [
-   1793313170.9484425,
-   "Підозри на хак Binance на мільярди доларів сколихнули крипторинок"
-  ],
-  [
-   1793313180.863727,
-   "У Rockstar Games у Великій Британії триває голосування щодо створення профспілки"
-  ],
   [
    1793315017.2010841,
    "Bethesda віддала шану Патріку Стюарту за роль в Oblivion, а фанати згадали Castlevania"
@@ -39678,6 +39569,10 @@
   [
    1793485929.1566906,
    "Творці фільму The Odyssey розповіли про створення Троянського коня"
+  ],
+  [
+   1793487692.0326622,
+   "Режисери розповіли про виклики у роботі з VFX та нові навички в кіно"
   ]
  ],
  "ukrainian": {
@@ -41963,7 +41858,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793482466.024618,
+  "last_check": 1793487700.9689953,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
