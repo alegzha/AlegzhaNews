@@ -2,7 +2,7 @@
  "alerts": {},
  "daily_digest_date": "2026-10-30",
  "freebies": {
-  "last_check": 1793426481.8945343,
+  "last_check": 1793434012.0844734,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -19,28 +19,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-31 07:41 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": null,
-  "gemini_models_used": {},
+  "at": "2026-10-31 08:06 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
+  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_models_used": {
+   "gemini-flash-lite-latest": 5
+  },
   "used": [
-   "DeepL"
+   "DeepL",
+   "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792742492.6776161,
-   2110,
-   "🎮",
-   "Як локалізують ігри українською. Інтерв’ю з перекладачкою Hades II та Baldur’s Gate 3 Богданою Вознюк",
-   "DOU Gamedev",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://gamedev.dou.ua/articles/localizing-hades-2-and-bg3-interview/",
-    "orig": "Як локалізують ігри українською. Інтерв’ю з перекладачкою Hades II та Baldur’s Gate 3 Богданою Вознюк"
-   }
-  ],
   [
    1792744291.0586762,
    2111,
@@ -22690,7 +22680,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Постановою «Hamlet» 2008 року об&#x27;єднала зірок Doctor Who та Star Trek</b>\n\nУ постановці «Hamlet» від Royal Shakespeare Company 2008 року головну роль виконав Девід Теннант, а роль короля Клавдія зіграв Патрік Стюарт. Режисером вистави став Грегорі Доран, а критики високо оцінили акторську гру та назвали її видатним театральним проєктом. Виставу зняли для телебачення і випустили на DVD у 2009 році.\n\n🔗 <a href=\"https://www.slashfilm.com/2302830/patrick-stewart-shakespeare-performance-sci-fi-icon-crossover-david-tennant/\">/Film</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2302830/patrick-stewart-shakespeare-performance-sci-fi-icon-crossover-david-tennant/",
     "orig": "Patrick Stewart's Legendary Shakespeare Performance Was Also A Sci-Fi Icon Crossover"
@@ -22704,7 +22693,6 @@
    "PlayUA",
    {
     "also": [],
-    "caption": "🎮 <b>У Rocket League пройде колаборація з One Piece — безкоштовні нагороди та нові автомобільні скіни</b>\n\nУ Rocket League анонсували тематичну подію One Piece, яка стартує 1 листопада. Протягом обмеженого часу гравці зможуть виконувати спеціальні завдання та отримувати безкоштовні косметичні предмети, натхненні популярним аніме. Колаборація триватиме до 23 листопада, а серед головних нагород будуть солом’яний капелюх Луффі, тематичне прискорення та автомобільний слід у стилі корабля Going Merry. Як отримати безкоштовні нагороди […]\n\n🔗 <a href=\"https://playua.net/u-rocket-league-projde-kolaboracziya-z-one-piece-bezkoshtovni-nagorody-ta-novi-avtomobilni-skiny/\">PlayUA</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://playua.net/u-rocket-league-projde-kolaboracziya-z-one-piece-bezkoshtovni-nagorody-ta-novi-avtomobilni-skiny/",
     "orig": "У Rocket League пройде колаборація з One Piece — безкоштовні нагороди та нові автомобільні скіни"
@@ -22718,7 +22706,6 @@
    "PlayUA",
    {
     "also": [],
-    "caption": "🎮 <b>У <a href=\"https://store.steampowered.com/app/1297900/\">Gothic 1 Remake</a> додали Marvin Mode і фоторежим</b>\n\nGothic 1 Remake (наш огляд) отримала перше масштабне оновлення, яке принесло одразу кілька нових функцій. Серед головних нововведень — фоторежим, повернення легендарного Marvin Mode, додаткові можливості зміни зовнішності Безіменного героя та численні виправлення помилок. Однією з найпомітніших новинок став фоторежим, завдяки якому гравці можуть фотографувати краєвиди Колонії та створювати власні знімки. Функція має кілька налаштувань […]\n\n🔗 <a href=\"https://playua.net/u-gothic-1-remake-dodaly-marvin-mode-i-fotorezhym/\">PlayUA</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://playua.net/u-gothic-1-remake-dodaly-marvin-mode-i-fotorezhym/",
     "orig": "У Gothic 1 Remake додали Marvin Mode і фоторежим"
@@ -23565,6 +23552,48 @@
     "link": "https://github.com/pingdotgg/t3code",
     "orig": "pingdotgg/t3code"
    }
+  ],
+  [
+   1793433875.249055,
+   3885,
+   "💾",
+   "Apple обійшла Nvidia і стала найдорожчою компанією у світі",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "💾 <b>Apple обійшла Nvidia і стала найдорожчою компанією у світі</b>\n\nУ п’ятницю компанія Apple Inc. знову стала найдорожчою компанією світу, посунувши з цього місця компанію Nvidia Corp., оскільки інвестори шукають у виробника iPhone відчуття безпеки на тлі побоювань щодо витрат на штучний інтелект.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-10-30/apple-overtakes-nvidia-to-become-world-s-most-valuable-company\">Bloomberg</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-30/apple-overtakes-nvidia-to-become-world-s-most-valuable-company",
+    "orig": "Apple Overtakes Nvidia to Become World’s Most Valuable Company"
+   }
+  ],
+  [
+   1793433983.7376056,
+   3886,
+   "💾",
+   "Godwit",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>Godwit</b>\n\nОбговорення поштового клієнта з відкритим кодом на основі ШІ\n\n🔗 <a href=\"https://www.producthunt.com/products/godwit\">Product Hunt</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/godwit",
+    "orig": "Godwit"
+   }
+  ],
+  [
+   1793434003.5543907,
+   3887,
+   "💾",
+   "Anthropic відкрила репозиторій зі скіллами для Claude",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>Anthropic відкрила репозиторій зі скіллами для Claude</b>\n\nУ публічному доступі з&#x27;явилися інструкції, скрипти та ресурси, які Claude завантажує динамічно для покращення виконання спеціалізованих завдань\n\n🔗 <a href=\"https://github.com/anthropics/skills\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/anthropics/skills",
+    "orig": "anthropics/skills"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23937,11 +23966,10 @@
    1793139776.3485425
   ],
   "software|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1793334681.859374,
-   1793338454.9744072,
    1793363580.569104,
    1793376197.8077993,
-   1793403075.6705723
+   1793403075.6705723,
+   1793433875.2495415
   ],
   "software|DOU|https://dou.ua/feed/": [
    1792352542.7076654,
@@ -23951,7 +23979,8 @@
    1793349392.8344266,
    1793376218.4693432,
    1793430327.8395417,
-   1793432515.529636
+   1793432515.529636,
+   1793434003.5548308
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1793286812.8222306,
@@ -23965,10 +23994,10 @@
    1793381523.591336
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
-   1793347495.3008893,
    1793349121.2522652,
    1793352770.9786131,
-   1793432150.8162885
+   1793432150.8162885,
+   1793433983.7380598
   ]
  },
  "seen": {
@@ -24162,6 +24191,7 @@
   "097fd1ea157ab84c": 1792515678.3691077,
   "098b51e8da4e6200": 1793246477.609968,
   "09a5961416763a80": 1792609311.1672697,
+  "09b2025bf7e9f9a5": 1793433652.8606083,
   "09bdba1b79b4d7f6": 1792396907.964611,
   "09c4b9f68bca49fc": 1792775232.97327,
   "09d79237b662144f": 1793124105.6391397,
@@ -24275,6 +24305,7 @@
   "109079e1411c80e6": 1792793168.8710096,
   "1095f9094a1f0236": 1793170878.020481,
   "10b1b74d928606a6": 1792598896.2873132,
+  "10ba719313a0c835": 1793434003.5547855,
   "10de553bf4937d8b": 1792971151.1395435,
   "10e60bceefb63f3c": 1792933461.7746987,
   "10e791a593245c66": 1793138586.8071597,
@@ -26517,6 +26548,7 @@
   "8da5e471f902d068": 1793131285.117358,
   "8dd1f0416300a129": 1793163693.299013,
   "8de7609e50d398b0": 1792352540.5085328,
+  "8e012ffa873243ff": 1793433983.738015,
   "8e0983cf3fa52cac": 1792560677.295506,
   "8e23b5a0821d56c4": 1792780279.6700447,
   "8e24385f3db44b6c": 1792589571.142918,
@@ -28350,6 +28382,7 @@
   "f84f1df27062e286": 1793403094.2137055,
   "f85508b23fdf9289": 1792789307.8734195,
   "f8843380c3ab1530": 1792618283.65063,
+  "f896db7719e03f9d": 1793433875.2494948,
   "f8a4e5a5b750613a": 1792686679.1699202,
   "f8abb1fb740026f5": 1792612908.8499284,
   "f8b546a787d5c1e9": 1793242877.552127,
@@ -29692,7 +29725,7 @@
    "Metal Injection": 1,
    "PC Gamer": 21,
    "Pitchfork": 2,
-   "Polygon": 61,
+   "Polygon": 62,
    "Revolver": 2,
    "Rock Paper Shotgun": 1,
    "Stereogum": 2,
@@ -29703,7 +29736,7 @@
    "/Film": 32,
    "AIN.ua": 6,
    "Blabbermouth": 76,
-   "Bloomberg": 56,
+   "Bloomberg": 57,
    "DOU": 1,
    "DOU Gamedev": 5,
    "Deadline": 78,
@@ -29713,7 +29746,7 @@
    "Eurogamer": 32,
    "GameSpot": 34,
    "GamesIndustry.biz": 21,
-   "GitHub Trending": 22,
+   "GitHub Trending": 23,
    "Hugging Face": 4,
    "IGN": 86,
    "ITC.ua": 64,
@@ -29731,7 +29764,7 @@
    "Pitchfork": 10,
    "PlayUA": 27,
    "Polygon": 30,
-   "Product Hunt": 22,
+   "Product Hunt": 23,
    "Revolver": 9,
    "Rock Paper Shotgun": 26,
    "SteamDB": 3,
@@ -29742,9 +29775,9 @@
    "Variety": 36
   },
   "translators": {
-   "DeepL": 34,
+   "DeepL": 35,
    "gemini-flash-latest": 41,
-   "gemini-flash-lite-latest": 1333
+   "gemini-flash-lite-latest": 1338
   },
   "week": "2026-W44"
  },
@@ -41947,18 +41980,6 @@
  },
  "titles": [
   [
-   1793260894.441196,
-   "Flatbread"
-  ],
-  [
-   1793261032.870069,
-   "Dave Hill brings less noise on debut solo album Dirty Foot Lane"
-  ],
-  [
-   1793261126.931561,
-   "Toho CEO Matsuoka Hiro On The Company’s Decision To Self-Distribute ‘Godzilla Minus One’ In The U.S. — Tokyo"
-  ],
-  [
    1793261291.4766283,
    "expo/skills"
   ],
@@ -43977,21 +43998,21 @@
   [
    1793432515.5295818,
    "pingdotgg/t3code"
+  ],
+  [
+   1793433875.2494977,
+   "Apple Overtakes Nvidia to Become World’s Most Valuable Company"
+  ],
+  [
+   1793433983.738017,
+   "Godwit"
+  ],
+  [
+   1793434003.5547874,
+   "anthropics/skills"
   ]
  ],
  "titles_uk": [
-  [
-   1793260894.4411972,
-   "Flatbread"
-  ],
-  [
-   1793261032.87007,
-   "Гітарист Slade Дейв Гілл випустив несподівано м'який дебютний соло-альбом Dirty Foot Lane"
-  ],
-  [
-   1793261126.9315617,
-   "Чому Toho вирішила самостійно випускати Godzilla Minus One у США"
-  ],
   [
    1793261291.476629,
    "Expo представила офіційні навички для ШІ-агентів"
@@ -46011,6 +46032,18 @@
   [
    1793432515.5295827,
    "pingdotgg/t3code"
+  ],
+  [
+   1793433875.2494986,
+   "Apple обійшла Nvidia і стала найдорожчою компанією у світі"
+  ],
+  [
+   1793433983.7380178,
+   "Godwit"
+  ],
+  [
+   1793434003.554788,
+   "Anthropic відкрила репозиторій зі скіллами для Claude"
   ]
  ],
  "ukrainian": {
@@ -48296,7 +48329,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793430336.7511117,
+  "last_check": 1793434012.0102096,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
