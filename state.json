@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1793415672.2336304
+  }
+ },
  "daily_digest_date": "2026-10-30",
  "freebies": {
   "last_check": 1793410469.8166192,
@@ -19,7 +26,7 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-31 02:01 UTC",
+  "at": "2026-10-31 03:01 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
@@ -30,45 +37,6 @@
   ]
  },
  "post_log": [
-  [
-   1792720884.341831,
-   2077,
-   "🎬",
-   "Режисер Travis Knight розповів про технології для stop-motion фільму Wildwood",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2294693/wildwood-director-travis-knight-interview/",
-    "orig": "Wildwood Director Travis Knight Reveals The Innovations That Made The Epic Stop-Motion Film Possible [Exclusive]"
-   }
-  ],
-  [
-   1792720894.3090866,
-   2078,
-   "🎮",
-   "IGN опублікував прев'ю Wo Long 2: Wings of Ember",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/wo-long-2-wings-of-ember-gets-wuxia-and-let-me-fight-a-horrific-spider-thing-ign-preview",
-    "orig": "Wo Long 2: Wings of Ember Gets Wuxia… and Let Me Fight a Horrific Spider Thing | IGN Preview"
-   }
-  ],
-  [
-   1792722706.5634835,
-   2079,
-   "🤖",
-   "Побоювання навколо ШІ підняли світові кредитні спреди до 17-місячного максимуму",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-10-23/ai-tech-fears-push-global-credit-spreads-to-17-month-high",
-    "orig": "AI Tech Fears Push Global Credit Spreads to 17-Month High"
-   }
-  ],
   [
    1792724498.2446477,
    2080,
@@ -22967,7 +22935,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>У Британії помер їжак, якого пофарбували в синій колір під Sonic</b>\n\n🔗 <a href=\"https://www.ign.com/articles/hedgehog-dies-after-being-spray-painted-blue-to-look-like-sonic\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/hedgehog-dies-after-being-spray-painted-blue-to-look-like-sonic",
     "orig": "Hedgehog Dies After Being Spray Painted Blue to Look Like Sonic"
@@ -23832,6 +23799,20 @@
     "link": "https://www.ign.com/articles/stranger-than-heaven-features-optional-cheats-to-make-its-combat-easier",
     "orig": "Stranger Than Heaven Features Optional “Cheats” to Make its Combat Easier"
    }
+  ],
+  [
+   1793415696.8254473,
+   3872,
+   "🎮",
+   "Доповнення Evercold для Final Fantasy XIV перенесли на лютий 2027 року",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Доповнення Evercold для <a href=\"https://store.steampowered.com/app/1173770/\">Final Fantasy</a> XIV перенесли на лютий 2027 року</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2753190/\">Delayed</a>\n\nРеліз доповнення Evercold для Final Fantasy XIV затримають на чотири тижні. Вихід гри тепер відбудеться 23 лютого 2027 року, а ранній доступ відкриється 19 лютого. На заході в Японії також показали новий трейлер, анонсували новий клас Zephyr із арбалетом та повідомили про кросовери з Neon Genesis Evangelion і Final Fantasy VII.\n\n🔗 <a href=\"https://www.ign.com/articles/final-fantasy-xiv-evercold-delayed-new-release-date-announced-at-ffxiv-fan-fest\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/final-fantasy-xiv-evercold-delayed-new-release-date-announced-at-ffxiv-fan-fest",
+    "orig": "Final Fantasy XIV Evercold Delayed, New Release Date Announced at FFXIV Fan Fest"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23912,7 +23893,6 @@
    1793372530.3922298
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1793325781.2980177,
    1793347589.9731362,
    1793354491.7790718,
    1793354511.4018075,
@@ -23936,7 +23916,8 @@
    1793404890.74938,
    1793409555.3771765,
    1793409567.3299625,
-   1793412083.002983
+   1793412083.002983,
+   1793415696.825914
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1793302392.7809672,
@@ -24584,6 +24565,7 @@
   "126796ed170bcdec": 1793205103.410562,
   "1284889784ee91d4": 1792782082.127573,
   "1286efa8955acb1d": 1793387021.5185125,
+  "128c3f5deaa8dd79": 1793415696.825863,
   "128fa4228cc21b6a": 1792785684.5053737,
   "12962f54a33977b4": 1793283020.8751106,
   "129d883730a1d79f": 1793001659.2458375,
@@ -27574,6 +27556,7 @@
   "ba741b574ed6bcd1": 1792501315.8906395,
   "ba8902766d020497": 1792249973.5878103,
   "ba8a1e8d32e3d579": 1792643453.9104059,
+  "baabdb6ea97fb1dd": 1793415654.296254,
   "bab361754a47bfc5": 1793302410.0421534,
   "bab6c11dec074530": 1792515962.2673388,
   "baba9c1b86869720": 1793008930.458088,
@@ -29953,7 +29936,7 @@
    "Metal Injection": 1,
    "PC Gamer": 21,
    "Pitchfork": 2,
-   "Polygon": 60,
+   "Polygon": 61,
    "Revolver": 2,
    "Rock Paper Shotgun": 1,
    "Stereogum": 2,
@@ -29976,7 +29959,7 @@
    "GamesIndustry.biz": 21,
    "GitHub Trending": 20,
    "Hugging Face": 4,
-   "IGN": 84,
+   "IGN": 85,
    "ITC.ua": 64,
    "IndieWire": 25,
    "Insider Gaming": 86,
@@ -30005,7 +29988,7 @@
   "translators": {
    "DeepL": 30,
    "gemini-flash-latest": 40,
-   "gemini-flash-lite-latest": 1322
+   "gemini-flash-lite-latest": 1323
   },
   "week": "2026-W44"
  },
@@ -30799,11 +30782,6 @@
    0,
    "",
    1793369058.1945508
-  ],
-  "q:20": [
-   0,
-   "",
-   1793241081.569934
   ],
   "q:2021": [
    1742450,
@@ -33290,6 +33268,11 @@
    "Deep Dish Dungeon",
    1791926681.627954
   ],
+  "q:delayed": [
+   2753190,
+   "Delayed",
+   1793415681.1304584
+  ],
   "q:delays": [
    0,
    "",
@@ -34230,6 +34213,16 @@
    "",
    1793291772.9739556
   ],
+  "q:evercold": [
+   0,
+   "",
+   1793415680.639686
+  ],
+  "q:evercold delayed": [
+   0,
+   "",
+   1793415680.1833384
+  ],
   "q:every legend": [
    4660010,
    "Every Legend",
@@ -34464,6 +34457,21 @@
    3259780,
    "FINAL FANTASY RESONANCE",
    1792501347.0056672
+  ],
+  "q:final fantasy xiv": [
+   0,
+   "",
+   1793415678.3271577
+  ],
+  "q:final fantasy xiv evercold": [
+   0,
+   "",
+   1793415677.8402362
+  ],
+  "q:final fantasy xiv evercold delayed": [
+   0,
+   "",
+   1793415677.36915
   ],
   "q:final preview": [
    0,
@@ -37484,6 +37492,21 @@
    0,
    "",
    1793370768.8913238
+  ],
+  "q:new release date": [
+   0,
+   "",
+   1793415682.578312
+  ],
+  "q:new release date announced": [
+   0,
+   "",
+   1793415682.080913
+  ],
+  "q:new release date announced at ffxiv": [
+   0,
+   "",
+   1793415681.60922
   ],
   "q:new switch": [
    0,
@@ -41770,11 +41793,6 @@
    "",
    1793300537.0817814
   ],
-  "q:wulin": [
-   0,
-   "",
-   1793241082.149665
-  ],
   "q:wwe 2k26": [
    3717070,
    "WWE 2K26",
@@ -41919,6 +41937,21 @@
    0,
    "",
    1793291719.6908867
+  ],
+  "q:xiv": [
+   0,
+   "",
+   1793415679.7272315
+  ],
+  "q:xiv evercold": [
+   0,
+   "",
+   1793415679.2488914
+  ],
+  "q:xiv evercold delayed": [
+   0,
+   "",
+   1793415678.7928662
   ],
   "q:yoko": [
    2664050,
@@ -42112,14 +42145,6 @@
   ]
  },
  "titles": [
-  [
-   1793242874.7858884,
-   "U2 announce intimate BBC gig to take place in London: here's how you could get tickets"
-  ],
-  [
-   1793242877.5521286,
-   "How A Former Senior Netflix Staffer Launched One Of Japan’s Buzziest Indie Cinemas"
-  ],
   [
    1793246571.0750868,
    "The Who's Pete Townshend on the birth of heavy metal, Black Sabbath, Hendrix, AC/DC and Led Zeppelin"
@@ -44143,17 +44168,13 @@
   [
    1793412083.0029516,
    "Stranger Than Heaven Features Optional “Cheats” to Make its Combat Easier"
+  ],
+  [
+   1793415696.8258657,
+   "Final Fantasy XIV Evercold Delayed, New Release Date Announced at FFXIV Fan Fest"
   ]
  ],
  "titles_uk": [
-  [
-   1793242874.7858894,
-   "U2 анонсували камерний концерт у Лондоні для BBC"
-  ],
-  [
-   1793242877.5521295,
-   "Колишній співробітник Netflix відкрив інді-кінотеатр у Японії"
-  ],
   [
    1793246571.0750875,
    "Піт Таунсенд із The Who розповів про появу геві-металу, Black Sabbath, Hendrix, AC/DC та Led Zeppelin"
@@ -46177,6 +46198,10 @@
   [
    1793412083.002952,
    "Stranger Than Heaven отримає опціональні чіти для спрощення боївки"
+  ],
+  [
+   1793415696.8258665,
+   "Доповнення Evercold для Final Fantasy XIV перенесли на лютий 2027 року"
   ]
  ],
  "ukrainian": {
@@ -48462,7 +48487,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793410469.4795043,
+  "last_check": 1793415705.3294091,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
