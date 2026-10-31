@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1793485901.2796469
+  }
+ },
  "daily_digest_date": "2026-10-31",
  "freebies": {
   "last_check": 1793480601.1121767,
@@ -21,225 +28,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-31 22:01 UTC",
+  "at": "2026-10-31 22:32 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 4
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792792944.8487759,
-   2291,
-   "🤘",
-   "Ноель Галлагер розповів про повернення Oasis на шоу Chicken Shop Date",
-   "Pitchfork",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://pitchfork.com/story/noel-gallagher-talks-vegans-macca-underwear-on-chicken-shop-date/",
-    "orig": "Noel Gallagher Talks Vegans, Macca, Underwear on Chicken Shop Date"
-   }
-  ],
-  [
-   1792793151.9798505,
-   2292,
-   "🤘",
-   "Slayyyter скасувала решту концертів туру у Великій Британії та Європі",
-   "Pitchfork",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://pitchfork.com/story/slayyyter-cancels-remaining-uk-and-european-tour-dates/",
-    "orig": "Slayyyter Cancels Remaining UK and European Tour Dates"
-   }
-  ],
-  [
-   1792793154.9286425,
-   2293,
-   "🎬",
-   "CineGouna розширює підтримку кінематографістів на тлі рекордного інтересу",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/film/global/el-gouna-cinegouna-arab-film-industry-programs-1236929945/",
-    "orig": "El Gouna’s CineGouna Expands Industry Push: ‘We Want to Give Every Filmmaker a Chance’"
-   }
-  ],
-  [
-   1792793158.131695,
-   2294,
-   "🎬",
-   "На Shudder вийшов горор-детектив The Cycle про перевертнів",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/film/features/the-cycle-werewolf-horror-movie-police-procedural-1236914753/",
-    "orig": "‘The Cycle’ Is a Surprising New Take on the Police Procedural, With a Huge Twist and an Emotional Resonance the Director Didn’t Expect"
-   }
-  ],
-  [
-   1792793160.8118258,
-   2295,
-   "🤘",
-   "Bruiser Wolf та Conductor Williams випустили сингл “Ain’t Got Time”",
-   "Stereogum",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://stereogum.com/2515493/bruiser-wolf-conductor-williams-aint-got-time/music/",
-    "orig": "Bruiser Wolf & Conductor Williams – “Ain’t Got Time”"
-   }
-  ],
-  [
-   1792793165.943469,
-   2296,
-   "🎬",
-   "Як Александр Скарсгард грав людину з лози у фільмі Wicker",
-   "Variety",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://variety.com/2026/artisans/news/what-alexander-skarsgard-wicker-basket-was-made-from-1236929863/",
-    "orig": "Why Olivia Colman Didn’t Get Splinters From Getting Intimate With Alexander Skarsgård’s ‘Wicker’ Costume"
-   }
-  ],
-  [
-   1792793171.769004,
-   2297,
-   "🎮",
-   "Capcom задоволена рівнем складності Onimusha: Way of the Sword",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/action/based-on-player-data-capcoms-pretty-happy-with-the-difficulty-level-of-onimusha-way-of-the-sword-we-think-its-hit-the-right-spot/",
-    "orig": "Based on player data, Capcom's pretty happy with the difficulty level of Onimusha: Way of the Sword: 'We think it's hit the right spot'"
-   }
-  ],
-  [
-   1792793174.6837847,
-   2298,
-   "🤘",
-   "Surgeon анонсували новий альбом “Aphantasia”",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/10/23/news/surgeon-ex-reflections-announce-new-album-aphantasia/",
-    "orig": "Surgeon (Ex-Reflections) Announce New Album “Aphantasia”"
-   }
-  ],
-  [
-   1792793184.666103,
-   2299,
-   "🎮",
-   "Сігеру Міямото не виключає розробки нової гри",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/shigeru-miyamoto-may-make-another-game/",
-    "orig": "Shigeru Miyamoto May Make Another Game, Despite Film Focus"
-   }
-  ],
-  [
-   1792793187.93298,
-   2300,
-   "🎬",
-   "Режисер David Fortune приймав крижаний душ для підготовки до пітчингу AT&T Untold Stories Award",
-   "IndieWire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.indiewire.com/news/events/att-award-winner-david-fortune-future-of-filmmaking-summit-1235223494/",
-    "orig": "‘Color Book’ Director David Fortune Used Ice Cold Showers to Practice His AT&T Untold Stories Award Pitch — Watch"
-   }
-  ],
-  [
-   1792793190.9628153,
-   2301,
-   "🎬",
-   "Арон Гузіковскі пише сценарій для нового фільму у всесвіті Alien",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/new-alien-movie-aaron-guzikowski-writing-20th-1237172102/",
-    "orig": "Aaron Guzikowski Tapped To Pen New ‘Alien’ Movie For 20th, Scott Free"
-   }
-  ],
-  [
-   1792794689.2095494,
-   2302,
-   "🎬",
-   "Гантер Байден підписав контракт з агентством CAA",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/hunter-biden-caa-1236929895/",
-    "orig": "Hunter Biden Signs With CAA"
-   }
-  ],
-  [
-   1792794692.1292143,
-   2303,
-   "🎬",
-   "Blumhouse пропонує поскаржитися на страх від її фільмів та серіалів",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/blumhouse-testimony-victimized-movies-tv-shows-1236929923/",
-    "orig": "Blumhouse Soliciting Testimony from Anyone Who Feels ‘Personally Victimized’ by One of Its Movies or TV Shows"
-   }
-  ],
-  [
-   1792794695.437173,
-   2304,
-   "🤘",
-   "5 найкращих пісень тижня",
-   "Stereogum",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://stereogum.com/2515345/the-5-best-songs-of-the-week-649/lists/the-5-best-songs-of-the-week/",
-    "orig": "The 5 Best Songs Of The Week"
-   }
-  ],
-  [
-   1792794699.8959157,
-   2305,
-   "🎬",
-   "Ethan Klein прокоментував звинувачення у зраді й розпад H3 Podcast",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/digital/news/ethan-klein-reacts-hila-klein-cheating-allegations-h3-1236929836/",
-    "orig": "Ethan Klein Reacts to Hila Klein’s Cheating Allegations Amid ‘H3 Podcast’ Fallout: ‘Please Respect My Family’s Privacy … They Have Nothing to Do With This’"
-   }
-  ],
-  [
-   1792794702.9906452,
-   2306,
-   "🤘",
-   "Таємничий гурт Arcus випустив кліп на трек Rebirth на тлі скандалу зі Sleep Token",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/10/23/news/following-recent-sleep-token-controversy-mystery-band-arcus-drop-rebirth-music-video/",
-    "orig": "Following Recent Sleep Token Controversy, Mystery Band Arcus Drop “Rebirth” Music Video"
-   }
-  ],
   [
    1792796644.3266227,
    2307,
@@ -21365,7 +21165,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🤖 <b>Користувацькі ПК витрачають необхідну нам DRAM: Сем Альтман закликає віддавати більше доступной пам&#x27;яті ЦОД</b>\n\nГендиректор OpenAI Сем Альтман критикує використання великих обсягів дефіцитної оперативної пам’яті у конфігураціях користувацьких ПК.\n\n🔗 <a href=\"https://itc.ua/ua/novini/korystuvatski-pk-vytrachayut-neobhidnu-nam-dram-sem-altman-zaklykaye-viddavaty-bilshe-dostupnoj-pam-yati-tsod/\">ITC.ua</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/korystuvatski-pk-vytrachayut-neobhidnu-nam-dram-sem-altman-zaklykaye-viddavaty-bilshe-dostupnoj-pam-yati-tsod/",
     "orig": "Користувацькі ПК витрачають необхідну нам DRAM: Сем Альтман закликає віддавати більше доступной пам'яті ЦОД"
@@ -21379,7 +21178,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Після Star Trek Патрік Стюарт зіграв Captain Nemo у забутому фантастичному фільмі Hallmark</b>\n\nПатрік Стюарт втілив культового персонажа Жуля Верна у забутій науково-фантастичній екранізації для Hallmark Channel.\n\n🔗 <a href=\"https://www.slashfilm.com/2301993/star-trek-patrick-stewart-captain-nemo-hallmar-sci-fi-movie-mysterious-island/\">/Film</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2301993/star-trek-patrick-stewart-captain-nemo-hallmar-sci-fi-movie-mysterious-island/",
     "orig": "After Star Trek, Patrick Stewart Played Captain Nemo In A Forgotten Hallmark Sci-Fi Movie"
@@ -22237,6 +22035,34 @@
     "link": "https://www.ign.com/articles/anthropic-blocks-ai-game-clones-in-claude-opus-update",
     "orig": "Anthropic Blocks AI Game Clones in Claude Opus Update"
    }
+  ],
+  [
+   1793485925.9655254,
+   3972,
+   "💾",
+   "FBI звинуватило Північну Корею у викраденні понад $6 мільярдів з Binance",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "💾 <b>FBI звинуватило Північну Корею у викраденні понад $6 мільярдів з Binance</b>\n\nФедеральне бюро розслідувань заявило, що Північна Корея відповідальна за зухвалу хакерську атаку на Binance. За даними відомства, зловмисники викрали криптовалюту на суму понад $6 мільярдів.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-10-31/fbi-blames-north-korea-for-6-billion-binance-crypto-hack\">Bloomberg</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-10-31/fbi-blames-north-korea-for-6-billion-binance-crypto-hack",
+    "orig": "FBI Blames North Korea for $6 Billion Binance Crypto Hack"
+   }
+  ],
+  [
+   1793485929.156286,
+   3973,
+   "🎬",
+   "Творці фільму The Odyssey розповіли про створення Троянського коня",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Творці фільму The Odyssey розповіли про створення Троянського коня</b>\n\nНа кінофестивалі SCAD Savannah Film Festival художниця-постановниця Рут де Йонг поділилася деталями зйомок фільму The Odyssey. Вона розповіла про масштабну побудову Троянського коня, який під час випробувань постраждав від хвиль і був перебудований за ніч для досягнення автентичного вигляду.\n\n🔗 <a href=\"https://www.indiewire.com/features/craft/scad-savannah-film-festival-artisans-ruth-de-jong-amy-roth-1235224897/\">IndieWire</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/features/craft/scad-savannah-film-festival-artisans-ruth-de-jong-amy-roth-1235224897/",
+    "orig": "Artisans Break Down the Tricks and Treats of Designing a Trojan Horse at SCAD Savannah Film Festival"
+   }
   ]
  ],
  "posted_by_source": {
@@ -22423,11 +22249,8 @@
    1793379735.8858602
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
-   1793392372.462266,
-   1793392375.8917384,
-   1793397685.605441,
-   1793399485.0619142,
-   1793460682.7796674
+   1793460682.7796674,
+   1793485929.1567388
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1793435498.9012954
@@ -22545,10 +22368,9 @@
    1793139776.3485425
   ],
   "software|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1793363580.569104,
-   1793376197.8077993,
    1793403075.6705723,
-   1793433875.2495415
+   1793433875.2495415,
+   1793485925.9659994
   ],
   "software|DOU|https://dou.ua/feed/": [
    1792352542.7076654,
@@ -22917,6 +22739,7 @@
   "11a179d95827cd8d": 1793218942.8198647,
   "11a68d622c6bf5c9": 1792689485.356036,
   "11a7c571007618d7": 1793390706.1317136,
+  "11a8c51a678d4da0": 1793485929.1566863,
   "11ae4696aac4636f": 1792798284.9167757,
   "11c1dd1be1549349": 1792687138.9255009,
   "11d913cba9cd8a51": 1792710085.756498,
@@ -24230,6 +24053,7 @@
   "5a665c85d1078135": 1792742492.6780198,
   "5a86c2a4f8462bc5": 1792715491.3201392,
   "5a8851130f0c9019": 1793473380.172763,
+  "5a997b1394ffd895": 1793485925.965948,
   "5a9e9d37f5781604": 1793369091.8885028,
   "5aa5498c843f2acc": 1792490537.1860263,
   "5aa93fce536baaa0": 1793044934.32435,
@@ -24796,6 +24620,7 @@
   "7831eb94b2f18030": 1792587736.1429682,
   "783906216911b387": 1792760499.7728324,
   "783bb86d4091aa6f": 1793044855.9093509,
+  "78447fcf55d604db": 1793485853.851234,
   "7848fe414aa5ab16": 1793385303.2592158,
   "784d31633c3a9d8a": 1792940522.792798,
   "785677c6ad1cbc80": 1792440106.34015,
@@ -27091,6 +26916,7 @@
   "fc4cfae9be9fa676": 1793381519.1754973,
   "fc54dd61356cc59f": 1792810874.3599637,
   "fc5a94732cfd4cc2": 1792295999.9260092,
+  "fc76c4d05dee1e30": 1793485853.851234,
   "fc88cbf0bb1b4161": 1792612854.3680623,
   "fc90c750e381c97b": 1792855920.476975,
   "fc919df4e0a29aa5": 1792693992.8881981,
@@ -27600,7 +27426,7 @@
   ],
   "artists_checked": 1793471508.5614371,
   "blocked_until": 1793469815.4778402,
-  "cursor": 244,
+  "cursor": 254,
   "digest_week": "2026-W44",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -28347,7 +28173,7 @@
    "Metal Injection": 2,
    "PC Gamer": 23,
    "Pitchfork": 2,
-   "Polygon": 69,
+   "Polygon": 71,
    "Revolver": 2,
    "Rock Paper Shotgun": 1,
    "Stereogum": 2,
@@ -28358,7 +28184,7 @@
    "/Film": 36,
    "AIN.ua": 6,
    "Blabbermouth": 84,
-   "Bloomberg": 59,
+   "Bloomberg": 60,
    "DOU": 1,
    "DOU Gamedev": 5,
    "Deadline": 88,
@@ -28372,7 +28198,7 @@
    "Hugging Face": 4,
    "IGN": 90,
    "ITC.ua": 66,
-   "IndieWire": 26,
+   "IndieWire": 27,
    "Insider Gaming": 90,
    "Kerrang!": 43,
    "Lambgoat": 55,
@@ -28398,8 +28224,8 @@
   },
   "translators": {
    "DeepL": 35,
-   "gemini-flash-latest": 48,
-   "gemini-flash-lite-latest": 1428
+   "gemini-flash-latest": 49,
+   "gemini-flash-lite-latest": 1429
   },
   "week": "2026-W44"
  },
@@ -32064,11 +31890,6 @@
    "",
    1793381516.394074
   ],
-  "q:game mouthwashing": [
-   0,
-   "",
-   1793311377.3529532
-  ],
   "q:game of the year": [
    1205680,
    "Game of the Year",
@@ -32238,16 +32059,6 @@
    2479810,
    "Gray Zone Warfare",
    1792337501.7086034
-  ],
-  "q:greg": [
-   0,
-   "",
-   1793311391.4917262
-  ],
-  "q:greg zeschuk": [
-   0,
-   "",
-   1793311390.8999364
   ],
   "q:grenade": [
    0,
@@ -32459,31 +32270,6 @@
    "",
    1793383315.9526591
   ],
-  "q:hit": [
-   0,
-   "",
-   1793311373.0383034
-  ],
-  "q:hit indie": [
-   0,
-   "",
-   1793311372.417348
-  ],
-  "q:hit indie horror": [
-   0,
-   "",
-   1793311371.7510943
-  ],
-  "q:hit indie horror game": [
-   0,
-   "",
-   1793311371.2121928
-  ],
-  "q:hit indie horror game mouthwashing": [
-   0,
-   "",
-   1793311370.3947692
-  ],
   "q:hobbit play boosters just": [
    0,
    "",
@@ -32513,21 +32299,6 @@
    0,
    "",
    1793457081.279001
-  ],
-  "q:horror": [
-   0,
-   "",
-   1793311376.7364447
-  ],
-  "q:horror game": [
-   0,
-   "",
-   1793311376.185182
-  ],
-  "q:horror game mouthwashing": [
-   0,
-   "",
-   1793311375.551866
   ],
   "q:hot monsters in the darkly": [
    0,
@@ -32618,21 +32389,6 @@
    2116120,
    "Incursion Red River",
    1793044919.7005494
-  ],
-  "q:indie horror": [
-   0,
-   "",
-   1793311374.8788528
-  ],
-  "q:indie horror game": [
-   0,
-   "",
-   1793311374.2743528
-  ],
-  "q:indie horror game mouthwashing": [
-   0,
-   "",
-   1793311373.5928972
   ],
   "q:inside": [
    304430,
@@ -34068,11 +33824,6 @@
    1082900,
    "none",
    1793311390.3620691
-  ],
-  "q:none of these people have ever made a game": [
-   0,
-   "",
-   1793311389.2656238
   ],
   "q:north korean": [
    0,
@@ -36024,16 +35775,6 @@
    "",
    1793390637.778447
   ],
-  "q:they": [
-   0,
-   "",
-   1793311392.569407
-  ],
-  "q:they just don": [
-   0,
-   "",
-   1793311389.8086402
-  ],
   "q:thinking": [
    0,
    "",
@@ -36983,11 +36724,6 @@
    0,
    "",
    1793386882.5969505
-  ],
-  "q:zeschuk": [
-   0,
-   "",
-   1793311392.0058177
   ]
  },
  "tag_hints": {
@@ -37029,38 +36765,6 @@
   ]
  },
  "titles": [
-  [
-   1793311368.238732,
-   "The Netflix Original Movie Experiment Has Failed — and Netflix Will Be All the Better for It"
-  ],
-  [
-   1793311379.3181233,
-   "Hit Indie Horror Game Mouthwashing is Getting a Live-Action Movie From the Director of Jennifer's Body"
-  ],
-  [
-   1793311382.388912,
-   "Early Dying Fetus Vinyl Reissues Set For December Release"
-  ],
-  [
-   1793311387.2372134,
-   "Chase Sui Wonders In Talks to Join A24’s ‘Goblin’"
-  ],
-  [
-   1793311394.0709243,
-   "'None of these people have ever made a game,' BioWare co-founder Greg Zeschuk says of game industry executives: 'They just don't know how it works'"
-  ],
-  [
-   1793311397.0385652,
-   "Blind Channel’s “Messiah” Music Video Debuts"
-  ],
-  [
-   1793311399.2477078,
-   "Працівника університету в США звільнили від використання ШІ через гуманістичні переконання"
-  ],
-  [
-   1793311402.1541402,
-   "Grayscale Season Premiere “Mov” Music Video"
-  ],
   [
    1793313170.9484415,
    "Suspected Billion-Dollar Binance Hack Sends Fear Through Crypto"
@@ -38508,41 +38212,17 @@
   [
    1793484103.0619645,
    "Anthropic Blocks AI Game Clones in Claude Opus Update"
+  ],
+  [
+   1793485925.96595,
+   "FBI Blames North Korea for $6 Billion Binance Crypto Hack"
+  ],
+  [
+   1793485929.1566894,
+   "Artisans Break Down the Tricks and Treats of Designing a Trojan Horse at SCAD Savannah Film Festival"
   ]
  ],
  "titles_uk": [
-  [
-   1793311368.2387328,
-   "Експеримент Netflix із власними фільмами провалився"
-  ],
-  [
-   1793311379.318124,
-   "Хоррор Mouthwashing екранізують за участю режисерки Jennifer's Body"
-  ],
-  [
-   1793311382.3889127,
-   "Dying Fetus перевидають класичні альбоми на вінілі"
-  ],
-  [
-   1793311387.2372143,
-   "Чейз Суі Вондерс може зіграти у фільмі Goblin від A24"
-  ],
-  [
-   1793311394.0709248,
-   "Співзасновник BioWare критикує топменеджмент ігрової індустрії"
-  ],
-  [
-   1793311397.0385656,
-   "Blind Channel випустили кліп на пісню Messiah"
-  ],
-  [
-   1793311399.2477083,
-   "Працівника університету в США звільнили від використання ШІ через гуманістичні переконання"
-  ],
-  [
-   1793311402.1541407,
-   "Grayscale Season випустили кліп на трек “mov”"
-  ],
   [
    1793313170.9484425,
    "Підозри на хак Binance на мільярди доларів сколихнули крипторинок"
@@ -39990,6 +39670,14 @@
   [
    1793484103.0619655,
    "Anthropic оновила Claude для блокування ШІ-клонів відеоігор"
+  ],
+  [
+   1793485925.965951,
+   "FBI звинуватило Північну Корею у викраденні понад $6 мільярдів з Binance"
+  ],
+  [
+   1793485929.1566906,
+   "Творці фільму The Odyssey розповіли про створення Троянського коня"
   ]
  ],
  "ukrainian": {
