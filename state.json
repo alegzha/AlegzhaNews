@@ -1,8 +1,21 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1793494871.2018387
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1793494867.9748392
+  }
+ },
  "daily_digest_date": "2026-10-31",
  "freebies": {
-  "last_check": 1793487701.4144223,
+  "last_check": 1793494883.902189,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -23193,6 +23206,7 @@
   "2bb73bb0ce47ee69": 1793287853.8526087,
   "2be94a4245203851": 1793122405.5746734,
   "2c1134183d1bbac6": 1792404399.0901637,
+  "2c445ccd223caa21": 1793494851.2202039,
   "2c46dd4752d3921d": 1793179876.8601167,
   "2c4f3f8daf64c83b": 1792643479.7523875,
   "2c5251e6166da627": 1792575426.0858614,
@@ -28145,7 +28159,7 @@
    "Metal Injection": 2,
    "PC Gamer": 23,
    "Pitchfork": 2,
-   "Polygon": 71,
+   "Polygon": 72,
    "Revolver": 2,
    "Rock Paper Shotgun": 1,
    "Stereogum": 2,
@@ -36733,10 +36747,6 @@
  },
  "titles": [
   [
-   1793320279.0492017,
-   "Unholy Altar Sign With BLKIIBLK"
-  ],
-  [
    1793322153.39968,
    "Matthew Weiner Exits Peacock, 101 Studios Series ‘The Chairman’ Starring Eddie Murphy (EXCLUSIVE)"
   ],
@@ -38178,10 +38188,6 @@
   ]
  ],
  "titles_uk": [
-  [
-   1793320279.0492022,
-   "Black metal гурт Unholy Altar підписав контракт із лейблом BLKIIBLK"
-  ],
   [
    1793322153.399681,
    "Меттью Вайнер покинув серіал The Chairman з Едді Мерфі"
@@ -41906,7 +41912,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793491327.4992383,
+  "last_check": 1793494883.552303,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
