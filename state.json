@@ -1,36 +1,5 @@
 {
- "alerts": {
-  "src:ai|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1793491293.770537
-  },
-  "src:games|Digital Foundry|https://www.digitalfoundry.net/feed": {
-   "detail": "https://www.digitalfoundry.net/feed → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/feed.xml → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.eurogamer.net/feed/digitalfoundry → 404 Client Error: Not Found for url: https://www.eurogamer.net/feed/digitalfoundry",
-   "label": "Джерело «Digital Foundry» не працює",
-   "sent": 0,
-   "since": 1793491277.225137
-  },
-  "src:games|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1793491260.7538195
-  },
-  "src:movies|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1793491291.4844224
-  },
-  "src:software|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1793491291.5089128
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-31",
  "freebies": {
   "last_check": 1793487701.4144223,
@@ -52,11 +21,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-01 00:02 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-01 00:15 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemini-flash-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-latest": 2
   },
   "used": [
    "Gemini"
@@ -21180,7 +21149,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Інвестори стурбовані величезними витратами Big Tech на ШІ через розчарування у прибутках</b>\n\nНевтішні фінансові результати технологічних гігантів посилюють побоювання інвесторів щодо того, чи окупляться масштабні інвестиції у ШІ. Під особливим тиском опинилися компанії Alphabet та Intel.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-10-31/ai-spending-fears-hammer-big-tech-stocks-video\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-10-31/ai-spending-fears-hammer-big-tech-stocks-video",
     "orig": "AI Spending Fears Hammer Big Tech Stocks"
@@ -21194,7 +21162,6 @@
    "Loudwire",
    {
     "also": [],
-    "caption": "🤘 <b>Добірка треків для відлякування дітей на Halloween</b>\n\nОпубліковано список із важких та моторошних пісень, які допоможуть відлякати дітей, що збирають солодощі на Halloween. До добірки увійшли композиції від Black Sabbath, Sopor Aeturnus &amp; the Ensemble of Shadows, Gnaw Their Tongues та The Berzerker.\n\n🔗 <a href=\"https://loudwire.com/songs-to-scare-off-trick-or-treaters/\">Loudwire</a>\n\n#музика",
     "kind": "photo",
     "link": "https://loudwire.com/songs-to-scare-off-trick-or-treaters/",
     "orig": "11 Songs to Scare Off Trick-or-Treaters"
@@ -22047,6 +22014,34 @@
     "link": "https://www.ign.com/articles/input-lag-is-so-bad-in-call-of-duty-modern-warfare-4-on-nintendo-switch-2-that-players-suffer-from-a-competitive-disadvantage",
     "orig": "Input Lag Is So Bad in Call of Duty: Modern Warfare 4 on Nintendo Switch 2 That Players Suffer From a 'Competitive Disadvantage'"
    }
+  ],
+  [
+   1793492039.637291,
+   3978,
+   "🎬",
+   "Паапа Ессьєду відповів на критику щодо своєї ролі в серіалі Harry Potter",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Паапа Ессьєду відповів на критику щодо своєї ролі в серіалі Harry Potter</b>\n\nНа тлі очікування різдвяної прем&#x27;єри Harry Potter Паапа Ессьєду торкнувся теми суперечок довкола шоу. Актор, який зіграє Severus Snape у майбутньому серіалі HBO за мотивами книг Дж. К. Роулінг, відповів на закиди щодо своєї участі в проєкті після хвилі трансфобних висловлювань письменниці в соцмережах.\n\n🔗 <a href=\"https://deadline.com/2026/10/harry-potter-paapa-essiedu-defends-casting-trans-rights-1237210681/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/harry-potter-paapa-essiedu-defends-casting-trans-rights-1237210681/",
+    "orig": "‘Harry Potter’s Paapa Essiedu Defends Role After Advocating For Trans Rights: “People Have A Lot Of Feelings About This”"
+   }
+  ],
+  [
+   1793492124.3811655,
+   3979,
+   "🎮",
+   "Karmine Corp, LYON та BiliBili Gaming вибороли останні путівки в плейоф LoL Worlds",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Karmine Corp, LYON та BiliBili Gaming вибороли останні путівки в плейоф LoL Worlds</b>\n\nШвейцарський етап чемпіонату світу з League of Legends завершився, визначивши останніх чвертьфіналістів. Karmine Corp розгромила Movistar KOI з рахунком 2:0, LYON здійснила камбек проти бразильської команди LØS, а BiliBili Gaming впевнено здолала фаворитів із HLE.\n\n🔗 <a href=\"https://insider-gaming.com/kcorp-lyon-blg-secure-lol-worlds-knockouts/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/kcorp-lyon-blg-secure-lol-worlds-knockouts/",
+    "orig": "KCorp, LYON, and BLG Secure Final LoL Worlds Knockouts Spots"
+   }
   ]
  ],
  "posted_by_source": {
@@ -22142,13 +22137,11 @@
    1793451680.772996
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1793399284.6729708,
-   1793403101.9225786,
-   1793404900.8076437,
    1793428291.890293,
    1793453497.6883051,
    1793469688.3163705,
-   1793482449.1704292
+   1793482449.1704292,
+   1793492124.3815575
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1793370764.7920284,
@@ -22223,7 +22216,8 @@
    1793466269.1502938,
    1793482349.1808815,
    1793484087.1435792,
-   1793491308.5651205
+   1793491308.5651205,
+   1793492039.6376936
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1793359919.5794566,
@@ -23954,6 +23948,7 @@
   "566c764ecac6fb4b": 1792508488.7046292,
   "567487709e93780b": 1793241054.3613508,
   "567f0778baae717f": 1792981878.786423,
+  "56865d851368cb97": 1793492124.3815207,
   "5692163a9c77f686": 1793113392.1228995,
   "56ae604783dec258": 1792319471.5020306,
   "56bc49abd32fab90": 1792508710.8693228,
@@ -26192,6 +26187,7 @@
   "d4efb6c40ea2bb79": 1793071987.3155534,
   "d4f3a0916644ee76": 1793131258.1143897,
   "d4ff3405a8fba1fb": 1792760507.3237944,
+  "d522847532caddae": 1793492039.6376545,
   "d533101255faa087": 1793127742.9065545,
   "d53e838e82acd8a8": 1792785780.420318,
   "d54d7406953e8dbb": 1792895513.3098783,
@@ -28162,7 +28158,7 @@
    "Bloomberg": 60,
    "DOU": 1,
    "DOU Gamedev": 5,
-   "Deadline": 89,
+   "Deadline": 90,
    "Decibel": 12,
    "Digital Foundry": 8,
    "Distorted Sound": 24,
@@ -28174,7 +28170,7 @@
    "IGN": 92,
    "ITC.ua": 66,
    "IndieWire": 28,
-   "Insider Gaming": 90,
+   "Insider Gaming": 91,
    "Kerrang!": 43,
    "Lambgoat": 55,
    "Loudwire": 30,
@@ -28199,7 +28195,7 @@
   },
   "translators": {
    "DeepL": 35,
-   "gemini-flash-latest": 49,
+   "gemini-flash-latest": 51,
    "gemini-flash-lite-latest": 1433
   },
   "week": "2026-W44"
@@ -29930,6 +29926,11 @@
    "Blade Runner: Enhanced Edition",
    1792463484.3598378
   ],
+  "q:blg": [
+   0,
+   "",
+   1793492045.37681
+  ],
   "q:blg and visa": [
    0,
    "",
@@ -29944,6 +29945,31 @@
    0,
    "",
    1793327484.3751035
+  ],
+  "q:blg secure": [
+   0,
+   "",
+   1793492044.8658361
+  ],
+  "q:blg secure final": [
+   0,
+   "",
+   1793492044.3534093
+  ],
+  "q:blg secure final lol": [
+   0,
+   "",
+   1793492043.8307467
+  ],
+  "q:blg secure final lol worlds": [
+   0,
+   "",
+   1793492043.3076506
+  ],
+  "q:blg secure final lol worlds knockouts": [
+   0,
+   "",
+   1793492042.7782872
   ],
   "q:blocks": [
    0,
@@ -32620,6 +32646,11 @@
    "KAZ",
    1791894819.2258348
   ],
+  "q:kcorp": [
+   0,
+   "",
+   1793492041.6945376
+  ],
   "q:kingdom come": [
    4815610,
    "Kingdom Come",
@@ -32964,6 +32995,11 @@
    263120,
    "Ludwig",
    1792530110.5452714
+  ],
+  "q:lyon": [
+   0,
+   "",
+   1793492042.2571256
   ],
   "q:machinegames": [
    0,
@@ -35100,6 +35136,26 @@
    "",
    1793442785.4637053
   ],
+  "q:secure final lol": [
+   0,
+   "",
+   1793492047.4446766
+  ],
+  "q:secure final lol worlds": [
+   0,
+   "",
+   1793492046.9359212
+  ],
+  "q:secure final lol worlds knockouts": [
+   0,
+   "",
+   1793492046.430333
+  ],
+  "q:secure final lol worlds knockouts spots": [
+   0,
+   "",
+   1793492045.8794887
+  ],
   "q:sees": [
    0,
    "",
@@ -36640,6 +36696,7 @@
   "Mezha": [
    "anthropic",
    "apple",
+   "binance",
    "claude",
    "fpv-дрони",
    "geforce rtx 5080",
@@ -36649,7 +36706,6 @@
    "nvidia",
    "openai",
    "prince of persia: sands of time remake",
-   "reddit",
    "ubisoft",
    "volkswagen",
    "авто",
@@ -36661,6 +36717,8 @@
    "дрони",
    "електромобілі",
    "залізо",
+   "криптовалюта",
+   "криптовалютна біржа",
    "нептун",
    "новини",
    "оборонка",
@@ -36668,10 +36726,8 @@
    "росія",
    "сіткомети",
    "технології",
-   "україна",
    "штучний інтелект",
-   "ігри",
-   "інтернет"
+   "ігри"
   ]
  },
  "titles": [
@@ -38114,6 +38170,14 @@
   [
    1793491318.4390407,
    "Input Lag Is So Bad in Call of Duty: Modern Warfare 4 on Nintendo Switch 2 That Players Suffer From a 'Competitive Disadvantage'"
+  ],
+  [
+   1793492039.6376562,
+   "‘Harry Potter’s Paapa Essiedu Defends Role After Advocating For Trans Rights: “People Have A Lot Of Feelings About This”"
+  ],
+  [
+   1793492124.3815224,
+   "KCorp, LYON, and BLG Secure Final LoL Worlds Knockouts Spots"
   ]
  ],
  "titles_uk": [
@@ -39556,6 +39620,14 @@
   [
    1793491318.4390419,
    "Call of Duty: Modern Warfare 4 на Nintendo Switch 2 страждає від серйозного input lag"
+  ],
+  [
+   1793492039.637657,
+   "Паапа Ессьєду відповів на критику щодо своєї ролі в серіалі Harry Potter"
+  ],
+  [
+   1793492124.3815231,
+   "Karmine Corp, LYON та BiliBili Gaming вибороли останні путівки в плейоф LoL Worlds"
   ]
  ],
  "ukrainian": {
