@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1793494871.2018387
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1793494867.9748392
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-10-31",
  "freebies": {
   "last_check": 1793494883.902189,
@@ -34,82 +21,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-01 00:15 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-latest",
+  "at": "2026-11-01 01:31 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 2
+   "gemini-flash-lite-latest": 5
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792801883.846019,
-   2314,
-   "🎬",
-   "Режисери Everest: The Other Side обговорили свою нову стрічку",
-   "IndieWire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.indiewire.com/news/events/everest-the-other-side-directors-indiewire-art-of-the-doc-1235223651/",
-    "orig": "‘They’re Still Humans Like the Rest of Us’: Watch the ‘Everest: The Other Side’ Directors Discuss Relating to Extreme Athletes"
-   }
-  ],
-  [
-   1792801887.036189,
-   2315,
-   "🎬",
-   "У прокаті стартують нові фільми з Джоном Туртурро, Олівією Колман та Гелен Міррен",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/indie-films-opening-only-living-pickpocket-in-new-york-wicker-1237171300/",
-    "orig": "Awards Season Heats Up With ‘The Only Living Pickpocket In New York,’ ‘Fatherland’ & More — Specialty Preview"
-   }
-  ],
-  [
-   1792803763.6280916,
-   2316,
-   "🎬",
-   "Брент Спайнер розповів, як його звільнили зі Star Wars до ролі Data у Star Trek",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2295858/star-trek-brent-spiner-data-actor-fired-star-wars-universe/",
-    "orig": "Star Trek's Brent Spiner Was Fired From The Star Wars Universe Years Before Data"
-   }
-  ],
-  [
-   1792803795.2853944,
-   2317,
-   "🎬",
-   "Патрік Стюарт планував повернутися до ролі Picard у скасованому серіалі Star Trek: Legacy",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2295977/star-trek-legacy-patrick-stewart-picard-supporting-role/",
-    "orig": "Star Trek: Legacy Would Have Featured Patrick Stewart's Picard In A Supporting Role"
-   }
-  ],
-  [
-   1792803809.3096166,
-   2318,
-   "🎮",
-   "З Dead by Daylight видалять весь контент із Chucky",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/dead-by-daylight-to-remove-chucky-content-just-months-after-losing-michael-myers",
-    "orig": "Dead by Daylight to Remove Chucky Content Just Months After Losing Michael Myers"
-   }
-  ],
   [
    1792805570.5795512,
    2319,
@@ -21188,7 +21110,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b>Колишній волонтер погрожує судом фанатському проєкту Skyblivion</b>\n\nКолишній волонтер фанатського ремейку Skyblivion погрожує судом через використання написаного ним коду та вимагає особисті дані керівників проєкту. Команда видалила спірний код і переписала систему з нуля, проте погрози продовжилися. Реліз проєкту заплановано на 2026 рік.\n\n🔗 <a href=\"https://www.eurogamer.net/skyblivion-former-volunteer-legal-threats\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/skyblivion-former-volunteer-legal-threats",
     "orig": "A former volunteer is threatening legal action against fan-made game project Skyblivion"
@@ -21202,7 +21123,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Реліз Silver Palace відбудеться у грудні на PS5, PC та мобільних пристроях</b>\n\nБезплатна екшен-RPG у відкритому світі Silver Palace вийде 14 грудня на PlayStation 5, PC, iOS та Android. Гра поєднує динамічні бої, розслідування в місті Silvernia та відкритий світ із вибором впливу на сюжет. Наразі триває глобальна попередня реєстрація з нагородами за досягнення міхстоунів.\n\n🔗 <a href=\"https://insider-gaming.com/silver-palace-release-date/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/silver-palace-release-date/",
     "orig": "Silver Palace Arrives on PS5, PC, and Mobile This December"
@@ -21216,7 +21136,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Телеканали готують рекордне висвітлення виборів на тлі конкуренції з блогерами</b>\n\nТелеканали готують найбільше за останні роки висвітлення виборів із використанням нових даних і трансляцій, стикаючись із конкуренцією з боку творців контенту на YouTube. NBC News запланував 13 годин ефіру, а платформи на кшталт Fox News впроваджують ШІ-чатботи та стріми для боротьби за уваги глядачів.\n\n🔗 <a href=\"https://deadline.com/2026/10/midterms-news-networks-coverage-2026-1237207099/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/midterms-news-networks-coverage-2026-1237207099/",
     "orig": "What To Watch For As Networks Cover Midterm Election Night: More Data, More Coverage & More Competition"
@@ -21230,7 +21149,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Гелен Міррен хоче з&#x27;явитися у фінальному фільмі Fast and Furious</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2631350/\">Helen</a>\n\nАкторка Гелен Міррен заявила про бажання повернутися до ролі Магдалини «Квіні» Еллмансон-Шоу у фінальній частині франшизи Fast and Furious. Вона сподівається, що Він Дізель знову знайде для неї невелику епізодичну роль, як робив це раніше у чотирьох фільмах серії.\n\n🔗 <a href=\"https://www.polygon.com/helen-mirren-wants-to-be-in-the-last-fast-and-furious-movie/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/helen-mirren-wants-to-be-in-the-last-fast-and-furious-movie/",
     "orig": "Helen Mirren Wants To Be in the Last ‘Fast and Furious’ Movie"
@@ -21244,7 +21162,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Алекс Едельман заявив про фактичну втрату Kennedy Center для коміків через політику Дональда Трампа</b>\n\nКомік і актор Алекс Едельман розповів, що через політичні зміни та контроль Дональда Трампа над Kennedy Center виступати там тепер можуть переважно лише прихильники президента. Через це артист вважає майданчик фактично втраченим для більшості коміків, а церемонія Kennedy Center Honors уперше в історії переїжджає в інше місце.\n\n🔗 <a href=\"https://deadline.com/2026/10/alex-edelman-kennedy-center-1237210602/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/alex-edelman-kennedy-center-1237210602/",
     "orig": "Emmy-Winning Comedian Alex Edelman Says Loss Of Kennedy Center Is No Joke"
@@ -22055,6 +21972,76 @@
     "link": "https://insider-gaming.com/kcorp-lyon-blg-secure-lol-worlds-knockouts/",
     "orig": "KCorp, LYON, and BLG Secure Final LoL Worlds Knockouts Spots"
    }
+  ],
+  [
+   1793496679.4791868,
+   3980,
+   "🎬",
+   "Френк Міллер радий зменшенню кількості екранізацій коміксів",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Френк Міллер радий зменшенню кількості екранізацій коміксів</b>\n\nАвтор коміксів Френк Міллер заявив, що радий спаду кількості екранізацій. На його думку, через гонитву за кіноадаптаціями комікси втрачали власну ідентичність і ризикували втратити душі.\n\n🔗 <a href=\"https://variety.com/2026/film/global/frank-miller-comic-book-movies-lucca-1236936369/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/global/frank-miller-comic-book-movies-lucca-1236936369/",
+    "orig": "Frank Miller on Why He’s Relieved There Are Fewer Comic Book Adaptations Now: They Were ‘Really in Danger of Losing Their Souls’"
+   }
+  ],
+  [
+   1793496682.5342221,
+   3981,
+   "🎬",
+   "Режисер Green Room згадав Патріка Стюарта та назвав його рятівником фільму",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Режисер Green Room згадав Патріка Стюарта та назвав його рятівником фільму</b>\n\nРежисер Джеремі Солньє нагадав на показі фільму Green Room до його десятої річниці, як Патрік Стюарт врятував стрічку від закриття своєю участю. За словами постановника, зірковий статус актора миттєво дав проєкту зелене світло та допоміг продовжити зйомки.\n\n🔗 <a href=\"https://variety.com/2026/film/news/green-room-director-patrick-stewart-1236936405/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/news/green-room-director-patrick-stewart-1236936405/",
+    "orig": "‘Green Room’ Director Remembers Patrick Stewart as a ‘F—ing Sweetheart’ and Credits Him for Rescuing the Film: He ‘Swooped Down’ ‘Into Our Cruddy Ass Movie and Saved Us’"
+   }
+  ],
+  [
+   1793496685.492246,
+   3982,
+   "🎬",
+   "Режисерка Аріані Дармаван повертається в кіно з драмою “Jani Be Good”",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Режисерка Аріані Дармаван повертається в кіно з драмою “Jani Be Good”</b>\n\nФільм “Jani Be Good” режисерки Аріані Дармаван бере участь у конкурсі Asian Future Токійського міжнародного кінофестивалю. Стрічка розповідає про чотирьох жінок із трьох поколінь китайсько-індонезійської родини та досліджує тему материнства й мовчання. Це повернення Дармаван до режисури після понад 10 років перерви, присвячених вихованню дитини.\n\n🔗 <a href=\"https://variety.com/2026/film/festivals/tokyo-drama-jani-be-good-silence-motherhood-1236936404/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/festivals/tokyo-drama-jani-be-good-silence-motherhood-1236936404/",
+    "orig": "Tokyo Asian Future Drama ‘Jani Be Good’ Probes Silence and Motherhood in a Chinese-Indonesian Family, Marking Ariani Darmawan’s Return"
+   }
+  ],
+  [
+   1793496689.4739254,
+   3983,
+   "🎬",
+   "Нова стрічка Цю Цюнцзюна «Fuxi: Four Tales of Feasting» змагається на Tokyo International Film Festival",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Нова стрічка Цю Цюнцзюна «Fuxi: Four Tales of Feasting» змагається на Tokyo International Film Festival</b>\n\nКитайський художник і режисер Цю Цюнцзюєн представив на кінофестивалі в Токіо фільм «Fuxi: Four Tales of Feasting», створений під впливом пандемійного прагнення людей знову збиратися разом за столом. Стрічка складається з чотирьох новел, які об&#x27;єднують різні епохи через їжу та роздуми про життя і смерть. Головні ролі у фільмі виконали Лі Каншен та Лі Хунці, які грають на діалекті провінції Сичуань.\n\n🔗 <a href=\"https://variety.com/2026/film/festivals/pandemic-longing-gather-tokyo-competition-title-fuxi-1236936421/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/festivals/pandemic-longing-gather-tokyo-competition-title-fuxi-1236936421/",
+    "orig": "Pandemic-Era Longing to Gather Fed Qiu Jiongjiong’s Tokyo Competition Title ‘Fuxi: Four Tales of Feasting’"
+   }
+  ],
+  [
+   1793496692.6184022,
+   3984,
+   "🤘",
+   "Як Venom створили альбом Black Metal і змінили курс важкої музики",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Як Venom створили альбом Black Metal і змінили курс важкої музики</b>\n\nВипущений у 1982 році альбом Black Metal гурту Venom став однією з найвпливовіших платівок в історії, заклавши основу для thrash, death та самого black metal. Учасники колективу з Ньюкасла не намагалися наслідувати інші гурти й просто робили те, що їм подобається, попри складні соціально-економічні умови того часу.\n\n🔗 <a href=\"https://www.loudersound.com/music/albums/venom-black-metal-story-behind-the-album\">Metal Hammer (Louder)</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/music/albums/venom-black-metal-story-behind-the-album",
+    "orig": "How Venom made their unholy masterpiece Black Metal and changed the course of metal"
+   }
   ]
  ],
  "posted_by_source": {
@@ -22247,14 +22234,14 @@
    1793435498.9012954
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1793409540.0007498,
-   1793409543.0949323,
-   1793409558.1717372
+   1793496682.5346184,
+   1793496685.4926548,
+   1793496689.4743426
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
-   1793409545.9223547,
    1793410457.1671827,
-   1793410460.1132178
+   1793410460.1132178,
+   1793496679.4799929
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
    1793450714.9695027,
@@ -22310,12 +22297,12 @@
    1793453485.0403833
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
-   1793409570.750413,
    1793419289.5149755,
    1793426187.6836314,
    1793442777.5411062,
    1793448082.470829,
-   1793464276.163448
+   1793464276.163448,
+   1793496692.6188085
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1793377967.8608086,
@@ -25294,6 +25281,7 @@
   "a0138f50f0cd8373": 1792947681.9709346,
   "a01958a807aad443": 1793185283.0667882,
   "a0198314f11ae36e": 1792782185.1950371,
+  "a025e5c342878163": 1793496685.4926116,
   "a02930367833f6ce": 1792607504.2668285,
   "a030fd3a5fbee6aa": 1792571452.7426152,
   "a0432c7ba6a8a1f6": 1793383317.8697517,
@@ -25595,6 +25583,7 @@
   "b0c92081eaa93c50": 1792681297.1446602,
   "b0cb4d78a23eb118": 1792854097.9113228,
   "b0cff2fd96b597fb": 1793293484.7487578,
+  "b0d35b5cbd5bfc47": 1793496679.4798324,
   "b0d6c112324e7dc0": 1793100707.4531374,
   "b0e9f39d3f11aafc": 1793125882.9393995,
   "b0f40d2bce2ad955": 1792584060.629931,
@@ -25772,6 +25761,7 @@
   "bab6c11dec074530": 1792515962.2673388,
   "baba9c1b86869720": 1793008930.458088,
   "babc7d69827d232c": 1792499483.329574,
+  "bac5741b6a7fe64b": 1793496682.534574,
   "bae01e3d9e028019": 1793392256.1180868,
   "bae1de536adf234e": 1792342915.0631604,
   "bb228593e2932c98": 1792589494.7540889,
@@ -26381,6 +26371,7 @@
   "df54e50a14be2141": 1792400600.6408873,
   "df65a0fa305312ca": 1793125882.956092,
   "df79c318d38312b8": 1792611053.7842038,
+  "df84dc39bdb132b4": 1793496689.4742987,
   "df9569c2b149c8c5": 1792548053.8558683,
   "dfaa10c816e64cb6": 1792681411.5634916,
   "dff4756213bd06bb": 1792319470.5310957,
@@ -26799,6 +26790,7 @@
   "f7ae5a0fc826839c": 1792765961.5241733,
   "f7dae8da6278f0ad": 1792423950.3674614,
   "f7f0b8b381470958": 1793286056.2505057,
+  "f7f2293e2a4fccd1": 1793496692.6187634,
   "f7f3da10dc3004f3": 1793185324.5415845,
   "f7f71bf130cd15a6": 1793109798.5026255,
   "f804720e6fdb4373": 1793376222.9165154,
@@ -28189,7 +28181,7 @@
    "Kerrang!": 43,
    "Lambgoat": 55,
    "Loudwire": 30,
-   "Metal Hammer (Louder)": 36,
+   "Metal Hammer (Louder)": 37,
    "Metal Injection": 20,
    "MetalSucks": 1,
    "Mezha": 77,
@@ -28206,12 +28198,12 @@
    "The Decoder": 29,
    "ThePRP": 70,
    "VGC": 30,
-   "Variety": 36
+   "Variety": 40
   },
   "translators": {
    "DeepL": 35,
    "gemini-flash-latest": 51,
-   "gemini-flash-lite-latest": 1433
+   "gemini-flash-lite-latest": 1438
   },
   "week": "2026-W44"
  },
@@ -36747,38 +36739,6 @@
  },
  "titles": [
   [
-   1793322153.39968,
-   "Matthew Weiner Exits Peacock, 101 Studios Series ‘The Chairman’ Starring Eddie Murphy (EXCLUSIVE)"
-  ],
-  [
-   1793322156.5652704,
-   "California Begins Discussion on Unlimited Film Incentives: ‘That Is a Heavy Lift’"
-  ],
-  [
-   1793322159.481241,
-   "Ian McKellen Pays Tribute to Close Friend Patrick Stewart: ‘He Wore His Heart on His Sleeve’"
-  ],
-  [
-   1793322162.4561265,
-   "Filth Is Eternal’s Touring Van Stolen, Fans Urged To Keep An Eye Out For It"
-  ],
-  [
-   1793322477.9038594,
-   "Skydance’s JB Perrette Reveals His Full Leadership Team, Announces Departures of Several Execs Not Joining Following the Paramount-Warner Bros. Merger"
-  ],
-  [
-   1793322481.9678283,
-   "Earl Barret, TV Writer and Co-Creator of ‘Too Close for Comfort,’ Dies at 94"
-  ],
-  [
-   1793322485.2963147,
-   "System Of A Down's John Dolmayan has just spent $825,000 on a comic book"
-  ],
-  [
-   1793322488.4655538,
-   "‘Beef’ Actor Justin H. Min’s ‘Journey There,’ Hong Sangsoo’s Locarno Winner ‘Nowhere to Lay My Eyes’ Rack Up International Sales for Finecut"
-  ],
-  [
    1793325781.2979705,
    "Attack on Titan 3: The Final Preview"
   ],
@@ -38185,41 +38145,29 @@
   [
    1793492124.3815224,
    "KCorp, LYON, and BLG Secure Final LoL Worlds Knockouts Spots"
+  ],
+  [
+   1793496679.4798346,
+   "Frank Miller on Why He’s Relieved There Are Fewer Comic Book Adaptations Now: They Were ‘Really in Danger of Losing Their Souls’"
+  ],
+  [
+   1793496682.5345762,
+   "‘Green Room’ Director Remembers Patrick Stewart as a ‘F—ing Sweetheart’ and Credits Him for Rescuing the Film: He ‘Swooped Down’ ‘Into Our Cruddy Ass Movie and Saved Us’"
+  ],
+  [
+   1793496685.4926133,
+   "Tokyo Asian Future Drama ‘Jani Be Good’ Probes Silence and Motherhood in a Chinese-Indonesian Family, Marking Ariani Darmawan’s Return"
+  ],
+  [
+   1793496689.4743009,
+   "Pandemic-Era Longing to Gather Fed Qiu Jiongjiong’s Tokyo Competition Title ‘Fuxi: Four Tales of Feasting’"
+  ],
+  [
+   1793496692.6187658,
+   "How Venom made their unholy masterpiece Black Metal and changed the course of metal"
   ]
  ],
  "titles_uk": [
-  [
-   1793322153.399681,
-   "Меттью Вайнер покинув серіал The Chairman з Едді Мерфі"
-  ],
-  [
-   1793322156.5652714,
-   "У Каліфорнії обговорюють зняття ліміту на податкові пільги для кіно"
-  ],
-  [
-   1793322159.4812424,
-   "Іен МакКеллен вшанував пам'ять свого близького друга Патріка Стюарта"
-  ],
-  [
-   1793322162.4561274,
-   "У гурту Filth Is Eternal вкрали гастрольний вен у Сіетлі"
-  ],
-  [
-   1793322477.9038606,
-   "JB Перрет представив нову команду керівників Skydance після злиття"
-  ],
-  [
-   1793322481.9678295,
-   "Помер телесценарист і творець «Too Close for Comfort» Ерл Баррет"
-  ],
-  [
-   1793322485.2963154,
-   "Драмер System Of A Down придбав комікс за $825 000"
-  ],
-  [
-   1793322488.4655547,
-   "Фільми Хон Сан Су та Кіма Джин Ю знайшли нових міжнародних дистриб'юторів"
-  ],
   [
    1793325781.2979712,
    "Attack on Titan 3: перший перегляд"
@@ -39627,6 +39575,26 @@
   [
    1793492124.3815231,
    "Karmine Corp, LYON та BiliBili Gaming вибороли останні путівки в плейоф LoL Worlds"
+  ],
+  [
+   1793496679.4798357,
+   "Френк Міллер радий зменшенню кількості екранізацій коміксів"
+  ],
+  [
+   1793496682.534577,
+   "Режисер Green Room згадав Патріка Стюарта та назвав його рятівником фільму"
+  ],
+  [
+   1793496685.4926145,
+   "Режисерка Аріані Дармаван повертається в кіно з драмою “Jani Be Good”"
+  ],
+  [
+   1793496689.4743018,
+   "Нова стрічка Цю Цюнцзюна «Fuxi: Four Tales of Feasting» змагається на Tokyo International Film Festival"
+  ],
+  [
+   1793496692.6187668,
+   "Як Venom створили альбом Black Metal і змінили курс важкої музики"
   ]
  ],
  "ukrainian": {
