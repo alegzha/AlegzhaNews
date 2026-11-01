@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1793498494.0798717
+  }
+ },
  "daily_digest_date": "2026-10-31",
  "freebies": {
   "last_check": 1793494883.902189,
@@ -21,56 +28,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-01 01:31 UTC",
+  "at": "2026-11-01 02:01 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 5
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792805570.5795512,
-   2319,
-   "💾",
-   "Новий iPhone за $1999 розкладається під час кризи доступності",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/videos/2026-10-23/-1-999-new-iphone-unfolds-during-affordability-crisis-video",
-    "orig": "$1,999 New iPhone 'Unfolds' During Affordability Crisis"
-   }
-  ],
-  [
-   1792807287.1799836,
-   2320,
-   "🎬",
-   "Universal знімає повнометражний фільм Miami Vice ’85 у форматі Imax",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/feature/miami-vice-85-movie-news-updates-1237172205/",
-    "orig": "Everything We Know About Universal’s ‘Miami Vice ’85’ Movie So Far"
-   }
-  ],
-  [
-   1792807292.148561,
-   2321,
-   "🎬",
-   "Мійстер Фантастік кидає першу подачу у тізері Avengers: Doomsday",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/avengers-doomsday-world-series-sneak-peek-1237172207/",
-    "orig": "‘Avengers: Doomsday’ World Series Sneak Peek Sees Mister Fantastic Throw Out First Pitch"
-   }
-  ],
   [
    1792810914.5436275,
    2322,
@@ -21175,7 +21143,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Співзасновник Red Barrels дивується відсутності клонів <a href=\"https://store.steampowered.com/app/238320/\">Outlast</a></b>\n\nСерія Outlast за 13 років зібрала понад 50 мільйонів гравців, але співзасновник студії Red Barrels Філіп Морін зізнається, що й сам не розуміє, чому досі ніхто не спробував повторити їхній успіх. На його думку, причина може критися у відсутності бойової системи чи специфічному рівні жорстокості, який важко збалансувати.\n\n🔗 <a href=\"https://www.pcgamer.com/games/horror/red-barrels-co-founder-is-just-as-confused-as-we-are-as-to-why-no-ones-tried-to-replicate-outlasts-success-honestly-i-dont-know/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/horror/red-barrels-co-founder-is-just-as-confused-as-we-are-as-to-why-no-ones-tried-to-replicate-outlasts-success-honestly-i-dont-know/",
     "orig": "Red Barrels' co-founder is just as confused as we are as to why no one's tried to replicate Outlast's success: 'Honestly, I don't know'"
@@ -21189,7 +21156,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>До Гелловіну на HBO Max випустили спеціальний епізод It: Welcome to Derry</b>\n\nНа HBO Max без попередження вийшов 30-хвилинний спецвипуск A Story of Derry у межах серіалу It: Welcome to Derry. Дія подій розгортається сотні років тому у Western Woods, де група дітей стикається з давнім духом, пов&#x27;язаним із Pennywise. Серіал також офіційно продовжили на другий сезон-антологію.\n\n🔗 <a href=\"https://www.polygon.com/it-welcome-to-derry-halloween-special/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/it-welcome-to-derry-halloween-special/",
     "orig": "It: Welcome to Derry Drops News Episode To Celebrate Halloween"
@@ -21203,7 +21169,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Ексвокаліст ACCEPT Девід Ріс виступить із гуртом на двох концертах</b>\n\nКолишній фронтмен ACCEPT Девід Ріс возз&#x27;єднається з гуртом для виконання кількох пісень на концертах у межах ювілейного туру до 50-річчя колективу. Музикант виступить на шоу 21 листопада в Обергаузені та 2 грудня в Мілані після запрошення від гітариста Вольфа Гоффманна.\n\n🔗 <a href=\"https://blabbermouth.net/news/ex-accept-singer-david-reece-to-perform-with-the-band-at-two-shows-on-50th-anniversary-tour\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/ex-accept-singer-david-reece-to-perform-with-the-band-at-two-shows-on-50th-anniversary-tour",
     "orig": "Ex-ACCEPT Singer DAVID REECE To Perform With The Band At Two Shows On 50th-Anniversary Tour"
@@ -22042,6 +22007,48 @@
     "link": "https://www.loudersound.com/music/albums/venom-black-metal-story-behind-the-album",
     "orig": "How Venom made their unholy masterpiece Black Metal and changed the course of metal"
    }
+  ],
+  [
+   1793498502.5070064,
+   3985,
+   "🎬",
+   "Емі Полер отримала нагороду на WSJ. Magazine Innovator Awards",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Емі Полер отримала нагороду на WSJ. Magazine Innovator Awards</b>\n\nАкторка та комікеса Емі Полер отримала відзнаку за інновації в комедії на церемонії WSJ. Magazine Innovator Awards у Нью-Йорку. Під час промови вона зізналася, що комедія неодноразово рятувала їй життя, та наголосила на важливості мистецтва як ескапізму.\n\n🔗 <a href=\"https://variety.com/2026/tv/news/amy-poehler-comedy-has-saved-my-life-1236936332/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/tv/news/amy-poehler-comedy-has-saved-my-life-1236936332/",
+    "orig": "Amy Poehler: ‘Comedy Has Saved My Life Many Times’"
+   }
+  ],
+  [
+   1793498505.953901,
+   3986,
+   "🎬",
+   "Пол Беттані пошкодив судини в оці на зйомках VisionQuest",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Пол Беттані пошкодив судини в оці на зйомках VisionQuest</b>\n\nАктор Пол Беттані розповів, що через надмірну емоційність на зйомках серіалу VisionQuest він лопнув 10 кровоносних судин у власному оці. Через це око актора залишалося червоним протягом двох тижнів, і цей дефект довелося прибирати під час монтажу.\n\n🔗 <a href=\"https://variety.com/2026/tv/news/paul-bettany-visionquest-eye-blood-vessels-1236936359/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/tv/news/paul-bettany-visionquest-eye-blood-vessels-1236936359/",
+    "orig": "Paul Bettany Says He ‘Blew Out’ 10 Blood Vessels in His Eye While Filming ‘VisionQuest’: ‘I Was Just Wildly Overacting’"
+   }
+  ],
+  [
+   1793498509.2046018,
+   3987,
+   "🎮",
+   "Для Alien: Isolation вийшов інструментарій для модів версії 1.0",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Для <a href=\"https://store.steampowered.com/app/214490/\">Alien: Isolation</a> вийшов інструментарій для модів версії <a href=\"https://store.steampowered.com/app/5044640/\">1.0</a></b>\n\nРозробник Метт Фаїлер випустив фінальну версію 1.0 інструментів OpenCAGE для Alien: Isolation на Steam після майже дев&#x27;яти років роботи. Оновлення дозволяє створювати повноцінні кастомні карти, місії, персонажів, зброю та інші модифікації для гри.\n\n🔗 <a href=\"https://www.pcgamer.com/games/horror/after-almost-a-decade-of-work-alien-isolation-mod-tools-hit-1-0-with-support-for-full-custom-maps-missions-modes-characters-weapons-animations-sounds-models-textures-and-more/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/games/horror/after-almost-a-decade-of-work-alien-isolation-mod-tools-hit-1-0-with-support-for-full-custom-maps-missions-modes-characters-weapons-animations-sounds-models-textures-and-more/",
+    "orig": "After almost a decade of work, Alien: Isolation mod tools hit 1.0 with support for 'full custom maps, missions, modes, characters, weapons, animations, sounds, models, textures, and more'"
+   }
   ]
  ],
  "posted_by_source": {
@@ -22154,7 +22161,8 @@
    1793467892.6243596,
    1793467904.9764903,
    1793478686.1992648,
-   1793482457.3618605
+   1793482457.3618605,
+   1793498509.2050138
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1793392399.8326666,
@@ -22239,9 +22247,9 @@
    1793496689.4743426
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
-   1793410457.1671827,
-   1793410460.1132178,
-   1793496679.4799929
+   1793496679.4799929,
+   1793498502.5074568,
+   1793498505.9543986
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
    1793450714.9695027,
@@ -24275,6 +24283,7 @@
   "6860fcbb52291d85": 1793188881.8974605,
   "6862ebd80a13d022": 1792513881.9064367,
   "6866d1c9a85eda43": 1793025169.9688566,
+  "6877cdebe00a8924": 1793498505.9543352,
   "6878ca3285bc5ae9": 1793315020.237749,
   "689faf33809b2ba5": 1793030481.3066814,
   "68a70ae749d1b601": 1793403051.901825,
@@ -25996,6 +26005,7 @@
   "c7bd9f6b0cc67fcc": 1793307791.766838,
   "c7ced1c0ce99cd50": 1793367086.6955616,
   "c7e0a937756fd4d3": 1793291871.9704227,
+  "c7e2130336f00627": 1793498509.2049692,
   "c7ea08bfb580ce26": 1792668744.9354198,
   "c7fbdb83d8024fa3": 1793088182.3004682,
   "c8072addaebb633e": 1793293565.6135354,
@@ -26022,6 +26032,7 @@
   "c9ac75d8db97b11f": 1793352778.3821108,
   "c9b4e7d8a77d0dd0": 1792438371.8457463,
   "c9cb5104d42acfd3": 1792922487.8644497,
+  "c9d0b2bff236c259": 1793498502.5074034,
   "ca007a670eca9e91": 1792506189.40778,
   "ca08e3c2a0c3a7e1": 1792619357.6889036,
   "ca0e7a4f7750879d": 1792614716.2861722,
@@ -28186,7 +28197,7 @@
    "MetalSucks": 1,
    "Mezha": 77,
    "Neformat": 3,
-   "PC Gamer": 92,
+   "PC Gamer": 93,
    "Pitchfork": 10,
    "PlayUA": 28,
    "Polygon": 36,
@@ -28198,12 +28209,12 @@
    "The Decoder": 29,
    "ThePRP": 70,
    "VGC": 30,
-   "Variety": 40
+   "Variety": 42
   },
   "translators": {
    "DeepL": 35,
    "gemini-flash-latest": 51,
-   "gemini-flash-lite-latest": 1438
+   "gemini-flash-lite-latest": 1441
   },
   "week": "2026-W44"
  },
@@ -28452,6 +28463,11 @@
    "335300",
    "DARK SOULS™ II: Scholar of the First Sin",
    1792947684.893652
+  ],
+  "id:3367530": [
+   "3367530",
+   "OpenCAGE",
+   1793498507.6105008
   ],
   "id:3404260": [
    "3404260",
@@ -29037,16 +29053,6 @@
    0,
    "",
    1793372506.7971106
-  ],
-  "q:3 the final": [
-   0,
-   "",
-   1793325688.3473494
-  ],
-  "q:3 the final preview": [
-   0,
-   "",
-   1793325687.8037796
   ],
   "q:300": [
    5206350,
@@ -29692,21 +29698,6 @@
    0,
    "",
    1793374296.0850925
-  ],
-  "q:attack": [
-   0,
-   "",
-   1793325684.9624069
-  ],
-  "q:attack on titan": [
-   0,
-   "",
-   1793325684.3573506
-  ],
-  "q:attack on titan 3": [
-   0,
-   "",
-   1793325683.797138
   ],
   "q:australia": [
    0,
@@ -31598,11 +31589,6 @@
    "",
    1793455279.5667627
   ],
-  "q:final": [
-   0,
-   "",
-   1793325689.4005592
-  ],
   "q:final fantasy": [
    1173770,
    "FINAL FANTASY",
@@ -31652,11 +31638,6 @@
    0,
    "",
    1793415677.36915
-  ],
-  "q:final preview": [
-   0,
-   "",
-   1793325688.867673
   ],
   "q:finally": [
    0,
@@ -35828,26 +35809,6 @@
    "",
    1793369073.0089397
   ],
-  "q:titan": [
-   0,
-   "",
-   1793325687.2925305
-  ],
-  "q:titan 3": [
-   0,
-   "",
-   1793325686.7954648
-  ],
-  "q:titan 3 the final": [
-   0,
-   "",
-   1793325685.9813273
-  ],
-  "q:titan 3 the final preview": [
-   0,
-   "",
-   1793325685.4189253
-  ],
   "q:tomb raider 4 6 remastered": [
    2525380,
    "Tomb Raider IV-VI Remastered",
@@ -38165,6 +38126,18 @@
   [
    1793496692.6187658,
    "How Venom made their unholy masterpiece Black Metal and changed the course of metal"
+  ],
+  [
+   1793498502.5074053,
+   "Amy Poehler: ‘Comedy Has Saved My Life Many Times’"
+  ],
+  [
+   1793498505.9543376,
+   "Paul Bettany Says He ‘Blew Out’ 10 Blood Vessels in His Eye While Filming ‘VisionQuest’: ‘I Was Just Wildly Overacting’"
+  ],
+  [
+   1793498509.2049701,
+   "After almost a decade of work, Alien: Isolation mod tools hit 1.0 with support for 'full custom maps, missions, modes, characters, weapons, animations, sounds, models, textures, and more'"
   ]
  ],
  "titles_uk": [
@@ -39595,6 +39568,18 @@
   [
    1793496692.6187668,
    "Як Venom створили альбом Black Metal і змінили курс важкої музики"
+  ],
+  [
+   1793498502.507406,
+   "Емі Полер отримала нагороду на WSJ. Magazine Innovator Awards"
+  ],
+  [
+   1793498505.95434,
+   "Пол Беттані пошкодив судини в оці на зйомках VisionQuest"
+  ],
+  [
+   1793498509.204971,
+   "Для Alien: Isolation вийшов інструментарій для модів версії 1.0"
   ]
  ],
  "ukrainian": {
@@ -41880,7 +41865,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793494883.552303,
+  "last_check": 1793498517.3538609,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
