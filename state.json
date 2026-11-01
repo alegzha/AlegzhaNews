@@ -1,8 +1,15 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1793568677.658669
+  }
+ },
  "daily_digest_date": "2026-11-01",
  "freebies": {
-  "last_check": 1793561489.5981462,
+  "last_check": 1793568715.34574,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -22,43 +29,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-01 21:02 UTC",
+  "at": "2026-11-01 21:31 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-latest",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792877491.6960592,
-   2440,
-   "🤘",
-   "Марті Фрідман назвав барабанника Ніка Мензу причиною мейнстримного успіху MEGADETH",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/marty-friedman-nick-menzas-drumming-was-a-big-reason-why-megadeth-became-as-popular-in-the-mainstream-as-we-did",
-    "orig": "MARTY FRIEDMAN: NICK MENZA's Drumming Was 'A Big Reason Why MEGADETH Became As Popular In The Mainstream As We Did'"
-   }
-  ],
-  [
-   1792877498.531567,
-   2441,
-   "🎬",
-   "Джессіка Біл готує перезапуск серіалу 7th Heaven",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/jessica-biel-modernize-7th-heaven-reboot-create-safe-space-1237172395/",
-    "orig": "Jessica Biel Teases How She Plans To “Modernize” ‘7th Heaven’ With Reboot & Create “Safe Space” On Set As EP"
-   }
-  ],
   [
    1792879295.746007,
    2442,
@@ -21009,7 +20991,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>OpenAI обмежує кількість платных акаунтів ChatGPT на пристроях</b>\n\nOpenAI запроваджує ліміти на платіжні картки та пристрої для ChatGPT, щоб запобігти зловживанню дешевими підписками. Тепер користувачі не зможуть прив&#x27;язувати забагато підписок до однієї картки чи пристрою і змушені будуть купувати додаткові кредити.\n\n🔗 <a href=\"https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/openai-is-steering-chatgpt-users-toward-more-paid-usage/",
     "orig": "OpenAI is steering ChatGPT users toward more paid usage"
@@ -21023,7 +21004,6 @@
    "Kerrang!",
    {
     "also": [],
-    "caption": "🤘 <b>Benji Webbe розповів про шлях Skindred від пабів до аре</b>\n\nПеред туром Великою Британією на підтримку свого першого альбому-чарттопера You Got This фронтмен Бенджі Веббе згадав шлях гурту від невеликих клубів до масштабних концертів.\n\n🔗 <a href=\"https://www.kerrang.com/live-review-skindred-london-alexandra-palace\">Kerrang!</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.kerrang.com/live-review-skindred-london-alexandra-palace",
     "orig": "Live review: Skindred, London Alexandra Palace"
@@ -21037,7 +21017,6 @@
    "Distorted Sound",
    {
     "also": [],
-    "caption": "🤘 <b>Sleep Theory випустили новий кліп на пісню «Giving In»</b>\n\n🔗 <a href=\"https://distortedsoundmag.com/sleep-theory-release-new-music-video-for-giving-in/\">Distorted Sound</a>\n\n#музика",
     "kind": "photo",
     "link": "https://distortedsoundmag.com/sleep-theory-release-new-music-video-for-giving-in/",
     "orig": "Sleep Theory release new music video for ‘Giving In’"
@@ -21051,7 +21030,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Вокаліст QUEENSRŸCHE Тодд Ла Торре заспівав Powerslave гурту IRON MAIDEN у домашній студії</b>\n\nВокаліст QUEENSRŸCHE Тодд Ла Торре поділився відео, на якому він співає класичний трек IRON MAIDEN «Powerslave» у своїй домашній студії під час розминки перед записом демо для нового альбому гурту. У ролику Тодд сказав: «What&#x27;s up...»\n\n🔗 <a href=\"https://blabbermouth.net/news/watch-queensryches-todd-la-torre-sings-iron-maidens-powerslave-at-his-home-studio\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/watch-queensryches-todd-la-torre-sings-iron-maidens-powerslave-at-his-home-studio",
     "orig": "Watch: QUEENSRŸCHE's TODD LA TORRE Sings IRON MAIDEN's 'Powerslave' At His Home Studio"
@@ -21864,6 +21842,62 @@
     "link": "https://insider-gaming.com/gta-6-ultimate-edition-is-it-worth-paying-more/",
     "orig": "GTA 6 Ultimate Edition: Is It Worth Paying More?"
    }
+  ],
+  [
+   1793568706.0875962,
+   4088,
+   "🤘",
+   "Джастін Сарджент розповів, як став новим вокалістом SKID ROW",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Джастін Сарджент розповів, як став новим вокалістом SKID ROW</b>\n\nБродвейський співак Джастін Сарджент назвав приєднання до SKID ROW «здійсненням мрії». Менеджер гурту помітив його на благодійному заході Rockers On Broadway і запросив на прослуховування. Музиканти записали з ним кілька класичних пісень, провели спільну репетицію та врешті затвердили на роль фронтмена після місяців пошуків.\n\n🔗 <a href=\"https://blabbermouth.net/news/justin-sargent-on-becoming-skid-rows-new-singer-its-surreal-and-a-dream-come-true\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/justin-sargent-on-becoming-skid-rows-new-singer-its-surreal-and-a-dream-come-true",
+    "orig": "JUSTIN SARGENT On Becoming SKID ROW's New Singer: It's 'Surreal' And 'A Dream Come True'"
+   }
+  ],
+  [
+   1793568709.3452954,
+   4089,
+   "🎬",
+   "Енді Вейр назвав умову для створення сиквела Project Hail Mary",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Енді Вейр назвав умову для створення сиквела Project Hail Mary</b>\n\nПисьменник Енді Вейр готовий написати продовження роману Project Hail Mary лише за умови, що придумає справді гідну ідею. Наразі автор працює над іншим самостійним романом і не збирається форсувати створення сиквела заради касових зборів чи кіноадаптації.\n\n🔗 <a href=\"https://www.slashfilm.com/2303088/project-hail-mary-author-andy-weir-sequel-condition/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2303088/project-hail-mary-author-andy-weir-sequel-condition/",
+    "orig": "Author Andy Weir Will Write A Project Hail Mary Sequel Under One Condition [Exclusive]"
+   }
+  ],
+  [
+   1793568711.5990765,
+   4090,
+   "🎮",
+   "XBOX використовує ШІ в розробці відеоігор, а ті студії, які стверджують протилежне, просто \"прикидаються\" – менеджер XBOX",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🎮 <b>XBOX використовує ШІ в розробці відеоігор, а ті студії, які стверджують протилежне, просто &quot;прикидаються&quot; – менеджер XBOX</b>\n\nМенеджер зі стратегії XBOX відкрито заявив у соцмережі X, що компанія застосовує ШІ в процесі створення ігор. Він також додав, що ті студії, які стверджують, що не використовують цю технологію, просто &quot;прикидаються&quot;. Незабаром після цих висловлювань він деактивував свій акаунт.\n\n🔗 <a href=\"https://mezha.ua/news/menedzher-xbox-pidtverdiv-vikoristannya-shi-u-rozrobci-videoigor-316755/\">Mezha</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/menedzher-xbox-pidtverdiv-vikoristannya-shi-u-rozrobci-videoigor-316755/",
+    "orig": "XBOX використовує ШІ в розробці відеоігор, а ті студії, які стверджують протилежне, просто \"прикидаються\" – менеджер XBOX"
+   }
+  ],
+  [
+   1793568713.5260327,
+   4091,
+   "💾",
+   "Хакери зламали застосунок «Повітряна тривога», яку розробили в Ajax",
+   "DOU",
+   {
+    "also": [],
+    "caption": "💾 <b>Хакери зламали застосунок «Повітряна тривога», яку розробили в Ajax</b>\n\nУ застосунку «Повітряна тривога», яку у 2022 році розробили в компанії Ajax Systems, стався збій. Користувачі отримують сповіщення про неправдиві загрози, як-от ядерні та хімічні. Про це повідомили у Повітряних Силах, а сам застосунок нині недоступний. Скриншот сповіщень із застосунку «Повітряна тривога» «Імовірно додаток „Повітряна тривога“ піддався ворожому впливу. Жодної радіаційної загрози немає!\n\n🔗 <a href=\"https://dou.ua/lenta/news/air-alert-app-malfunction/\">DOU</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://dou.ua/lenta/news/air-alert-app-malfunction/",
+    "orig": "Хакери зламали застосунок «Повітряна тривога», яку розробили в Ajax"
+   }
   ]
  ],
  "posted_by_source": {
@@ -21964,7 +21998,8 @@
    1793566952.7667348
   ],
   "games|Mezha|https://mezha.ua/feed/": [
-   1793521877.1029077
+   1793521877.1029077,
+   1793568711.5994976
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1793478686.1992648,
@@ -22010,12 +22045,12 @@
    1793450043.8149366
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
-   1793480520.195641,
    1793514131.0360446,
    1793516467.4826624,
    1793539951.6810658,
    1793552856.3000028,
-   1793557970.038861
+   1793557970.038861,
+   1793568709.3457267
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792944099.3403795,
@@ -22065,7 +22100,6 @@
    1793498505.9543986
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1793480589.5498512,
    1793484090.590509,
    1793538219.3564944,
    1793538313.0149176,
@@ -22075,7 +22109,8 @@
    1793548971.7963338,
    1793549311.4867182,
    1793552980.6250074,
-   1793559680.937373
+   1793559680.937373,
+   1793568706.0880249
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -22161,8 +22196,7 @@
    1793485925.9659994
   ],
   "software|DOU|https://dou.ua/feed/": [
-   1792352542.7076654,
-   1792416696.5336893
+   1793568713.5264478
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
    1793518469.639401,
@@ -23444,6 +23478,7 @@
   "44db34ae6755a6a4": 1792771255.1467223,
   "44dcbcfaa941fc74": 1793092118.684928,
   "45184e6bf027bbd5": 1793210600.918734,
+  "451f36c5090958dd": 1793568709.3456807,
   "4532951e6d3210d7": 1793028754.3473961,
   "453967791184dfdc": 1792706496.3088262,
   "453ffefdb9afad76": 1792882887.2172132,
@@ -24345,6 +24380,7 @@
   "75e4b970563bcc38": 1793552453.5361238,
   "75f7326d1c746944": 1792438377.965322,
   "76026d72282e65a0": 1792402496.6026087,
+  "762a2a39faae462b": 1793568711.599455,
   "762ae869bc7524f6": 1792672280.5008578,
   "762edc6daefce6f1": 1792796647.7484732,
   "7638194da972c422": 1792863177.8035083,
@@ -24376,7 +24412,6 @@
   "7791c624cf2d4361": 1792427523.1209834,
   "77b6a68bf9086a31": 1792503142.6609352,
   "77bb066abd827afc": 1792429281.0999272,
-  "77ca31800fd0d914": 1792359111.4405072,
   "77ccbcfa9476392c": 1792785657.1558166,
   "77d0b937d49cddad": 1792778494.796468,
   "77ea647e63de69c0": 1792602160.9653478,
@@ -24900,6 +24935,7 @@
   "95d66dba52a5bcec": 1792661480.6526306,
   "95d9941816b60882": 1793377941.6103673,
   "95fa9942124144ea": 1792910016.5783992,
+  "961d0930420938d4": 1793568713.526406,
   "963e6a9503c794c3": 1792442044.4370599,
   "96479cd731f28caa": 1792440096.7286623,
   "965b42b00c4a777b": 1793530887.2833588,
@@ -26566,6 +26602,7 @@
   "f6d8efaa16b2d631": 1792688489.6530683,
   "f6f83e2c56819f89": 1793359919.5794098,
   "f6fcc34e660b5848": 1792593247.3221037,
+  "f702d3bee6e77e2d": 1793568706.0879765,
   "f7045fc62fee7dc7": 1793154684.167086,
   "f7077689b0997e1b": 1792449079.849742,
   "f712ae346a74a02a": 1792528311.0115857,
@@ -27197,7 +27234,7 @@
   ],
   "artists_checked": 1793558017.072132,
   "blocked_until": 1793557967.7080007,
-  "cursor": 314,
+  "cursor": 324,
   "digest_week": "2026-W44",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -27953,11 +27990,11 @@
    "Variety": 9
   },
   "sources": {
-   "/Film": 41,
+   "/Film": 42,
    "AIN.ua": 6,
-   "Blabbermouth": 93,
+   "Blabbermouth": 94,
    "Bloomberg": 63,
-   "DOU": 1,
+   "DOU": 2,
    "DOU Gamedev": 5,
    "Deadline": 101,
    "Decibel": 12,
@@ -27978,7 +28015,7 @@
    "Metal Hammer (Louder)": 42,
    "Metal Injection": 22,
    "MetalSucks": 1,
-   "Mezha": 80,
+   "Mezha": 81,
    "Neformat": 3,
    "PC Gamer": 102,
    "Pitchfork": 11,
@@ -27996,8 +28033,8 @@
   },
   "translators": {
    "DeepL": 38,
-   "gemini-flash-latest": 56,
-   "gemini-flash-lite-latest": 1538
+   "gemini-flash-latest": 57,
+   "gemini-flash-lite-latest": 1539
   },
   "week": "2026-W44"
  },
@@ -28612,11 +28649,6 @@
    "Echoes of Mystralia",
    1792677687.2991743
   ],
-  "q:000": [
-   0,
-   "",
-   1793394159.2957222
-  ],
   "q:007 first light": [
    3768760,
    "007 First Light",
@@ -28911,11 +28943,6 @@
    0,
    "",
    1793559698.7844076
-  ],
-  "q:70": [
-   0,
-   "",
-   1793394158.7309859
   ],
   "q:90": [
    3070650,
@@ -29497,11 +29524,6 @@
    "",
    1793442677.955547
   ],
-  "q:biggest most violent": [
-   0,
-   "",
-   1793394153.5945282
-  ],
   "q:bioshock 2": [
    8850,
    "BioShock® 2",
@@ -29737,31 +29759,6 @@
    "",
    1793559697.760068
   ],
-  "q:charting": [
-   0,
-   "",
-   1793394124.1328454
-  ],
-  "q:charting the unknown": [
-   0,
-   "",
-   1793394123.4921122
-  ],
-  "q:charting the unknown review": [
-   0,
-   "",
-   1793394122.8227637
-  ],
-  "q:charting the unknown review so": [
-   0,
-   "",
-   1793394122.2338865
-  ],
-  "q:charting the unknown review so far": [
-   0,
-   "",
-   1793394121.741864
-  ],
   "q:cheats": [
    0,
    "",
@@ -29897,16 +29894,6 @@
    "Crimson Desert Enhanced",
    1791654268.365305
   ],
-  "q:crimson desert charting": [
-   0,
-   "",
-   1793394121.0859382
-  ],
-  "q:crimson desert charting the unknown": [
-   0,
-   "",
-   1793394120.5441275
-  ],
   "q:crimson desert enhanced": [
    3321460,
    "Crimson Desert Enhanced",
@@ -29991,56 +29978,6 @@
    374320,
    "DARK SOULS™ III",
    1793383328.702487
-  ],
-  "q:darkhold": [
-   0,
-   "",
-   1793394106.8209999
-  ],
-  "q:darkhold destiny": [
-   0,
-   "",
-   1793394106.3011138
-  ],
-  "q:darkhold destiny 4": [
-   0,
-   "",
-   1793394105.8232515
-  ],
-  "q:darkhold destiny 4 commander": [
-   0,
-   "",
-   1793394105.2238643
-  ],
-  "q:darkhold destiny 4 commander deck": [
-   0,
-   "",
-   1793394104.6934674
-  ],
-  "q:darkhold destiny 4 commander deck bundles": [
-   0,
-   "",
-   1793394104.1579692
-  ],
-  "q:darkhold destiny collector": [
-   0,
-   "",
-   1793394114.6962624
-  ],
-  "q:darkhold destiny collector booster": [
-   0,
-   "",
-   1793394114.150708
-  ],
-  "q:darkhold destiny collector booster early": [
-   0,
-   "",
-   1793394113.5900073
-  ],
-  "q:darkhold destiny collector booster early with": [
-   0,
-   "",
-   1793394113.1057644
   ],
   "q:david": [
    346180,
@@ -30172,31 +30109,6 @@
    "Destiny 2",
    1792436511.4081278
   ],
-  "q:destiny 4 commander deck bundles": [
-   0,
-   "",
-   1793394107.3883874
-  ],
-  "q:destiny collector": [
-   0,
-   "",
-   1793394117.0962315
-  ],
-  "q:destiny collector booster": [
-   0,
-   "",
-   1793394116.5145433
-  ],
-  "q:destiny collector booster early": [
-   0,
-   "",
-   1793394115.7969854
-  ],
-  "q:destiny collector booster early with": [
-   0,
-   "",
-   1793394115.2806425
-  ],
   "q:deus ex": [
    3131640,
    "Deus Ex Remastered",
@@ -30226,31 +30138,6 @@
    0,
    "",
    1793409551.6770976
-  ],
-  "q:devs": [
-   0,
-   "",
-   1793394135.962084
-  ],
-  "q:devs spark": [
-   0,
-   "",
-   1793394135.3942332
-  ],
-  "q:devs spark outrage": [
-   0,
-   "",
-   1793394134.8257732
-  ],
-  "q:devs spark outrage after": [
-   0,
-   "",
-   1793394134.2264948
-  ],
-  "q:devs spark outrage after refusing": [
-   0,
-   "",
-   1793394133.604315
   ],
   "q:dex": [
    269650,
@@ -31612,11 +31499,6 @@
    "Last Light",
    1792686911.2478743
   ],
-  "q:leading to an explosion of content": [
-   0,
-   "",
-   1793394158.2164981
-  ],
   "q:lena": [
    3170980,
    "Lena",
@@ -31656,26 +31538,6 @@
    2719590,
    "Light No Fire",
    1791831124.554275
-  ],
-  "q:lock": [
-   0,
-   "",
-   1793394112.6217313
-  ],
-  "q:lock in a darkhold": [
-   0,
-   "",
-   1793394112.079192
-  ],
-  "q:lock in a darkhold destiny": [
-   0,
-   "",
-   1793394111.5907714
-  ],
-  "q:lock in a darkhold destiny collector": [
-   0,
-   "",
-   1793394111.067714
   ],
   "q:looking glass": [
    1272530,
@@ -31887,16 +31749,6 @@
    "Minecraft Dungeons II",
    1793394148.509648
   ],
-  "q:minecraft dungeons 2 for nintendo": [
-   0,
-   "",
-   1793394148.0163372
-  ],
-  "q:minecraft dungeons 2 for nintendo switch": [
-   0,
-   "",
-   1793394147.5016594
-  ],
   "q:minesweeper": [
    1736630,
    "Minesweeper Ultimate",
@@ -32017,11 +31869,6 @@
    "Moonlighter",
    1792431154.7540057
   ],
-  "q:more": [
-   0,
-   "",
-   1793394144.6494627
-  ],
   "q:mortal shell 2": [
    2584270,
    "Mortal Shell II",
@@ -32071,31 +31918,6 @@
    2475490,
    "Mouthwashing",
    1793363582.659193
-  ],
-  "q:mtg darkhold": [
-   0,
-   "",
-   1793394103.6729853
-  ],
-  "q:mtg darkhold destiny": [
-   0,
-   "",
-   1793394103.102144
-  ],
-  "q:mtg darkhold destiny 4": [
-   0,
-   "",
-   1793394102.5600736
-  ],
-  "q:mtg darkhold destiny 4 commander": [
-   0,
-   "",
-   1793394101.918291
-  ],
-  "q:mtg darkhold destiny 4 commander deck": [
-   0,
-   "",
-   1793394101.4162545
   ],
   "q:mycopunk": [
    3247750,
@@ -32212,16 +32034,6 @@
    "",
    1793529279.8878694
   ],
-  "q:nintendo switch 2 ahead": [
-   0,
-   "",
-   1793394149.6934497
-  ],
-  "q:nintendo switch 2 ahead of black": [
-   0,
-   "",
-   1793394149.1200328
-  ],
   "q:nintendo switch 2 edition": [
    0,
    "",
@@ -32301,26 +32113,6 @@
    3339880,
    "OFF",
    1793142162.0413911
-  ],
-  "q:off minecraft": [
-   0,
-   "",
-   1793394147.0012753
-  ],
-  "q:off minecraft dungeons": [
-   0,
-   "",
-   1793394146.4092605
-  ],
-  "q:off minecraft dungeons 2": [
-   0,
-   "",
-   1793394145.8384984
-  ],
-  "q:off minecraft dungeons 2 for nintendo": [
-   0,
-   "",
-   1793394145.249488
   ],
   "q:oh pigstep was such a banger that they want more bangers": [
    0,
@@ -32827,16 +32619,6 @@
    "",
    1793458895.388959
   ],
-  "q:review so far": [
-   0,
-   "",
-   1793394126.8259945
-  ],
-  "q:rpg": [
-   0,
-   "",
-   1793394154.6583476
-  ],
   "q:runescape": [
    1343400,
    "RuneScape ®",
@@ -32886,16 +32668,6 @@
    526870,
    "Satisfactory",
    1791853950.2996902
-  ],
-  "q:save": [
-   0,
-   "",
-   1793394144.0867095
-  ],
-  "q:save 20": [
-   0,
-   "",
-   1793394143.519137
   ],
   "q:save mass": [
    0,
@@ -33121,11 +32893,6 @@
    4095380,
    "Soulframe",
    1793392417.936633
-  ],
-  "q:spark outrage after refusing to include": [
-   0,
-   "",
-   1793394136.5663154
   ],
   "q:spelunky": [
    239350,
@@ -33587,26 +33354,6 @@
    "Undertale",
    1793039505.7366686
   ],
-  "q:unknown": [
-   0,
-   "",
-   1793394126.2502038
-  ],
-  "q:unknown review": [
-   0,
-   "",
-   1793394125.7178614
-  ],
-  "q:unknown review so": [
-   0,
-   "",
-   1793394125.22928
-  ],
-  "q:unknown review so far": [
-   0,
-   "",
-   1793394124.6549037
-  ],
   "q:valor mortis": [
    2828710,
    "Valor Mortis",
@@ -33646,31 +33393,6 @@
    438100,
    "VRChat",
    1793394133.1038349
-  ],
-  "q:vrchat devs": [
-   0,
-   "",
-   1793394132.614734
-  ],
-  "q:vrchat devs spark": [
-   0,
-   "",
-   1793394132.1361766
-  ],
-  "q:vrchat devs spark outrage": [
-   0,
-   "",
-   1793394131.6130807
-  ],
-  "q:vrchat devs spark outrage after": [
-   0,
-   "",
-   1793394131.0841994
-  ],
-  "q:vrchat devs spark outrage after refusing": [
-   0,
-   "",
-   1793394130.456221
   ],
   "q:walking simulator": [
    1214280,
@@ -34044,10 +33766,6 @@
   ]
  },
  "titles": [
-  [
-   1793395880.9716063,
-   "Ремейк першої Silent Hill вийде наступного року"
-  ],
   [
    1793395981.5052683,
    "TEETH Seek Fans For Their Upcoming Music Video Shoot In Hamilton, ON"
@@ -34987,13 +34705,25 @@
   [
    1793566952.7666917,
    "GTA 6 Ultimate Edition: Is It Worth Paying More?"
+  ],
+  [
+   1793568706.0879788,
+   "JUSTIN SARGENT On Becoming SKID ROW's New Singer: It's 'Surreal' And 'A Dream Come True'"
+  ],
+  [
+   1793568709.3456824,
+   "Author Andy Weir Will Write A Project Hail Mary Sequel Under One Condition [Exclusive]"
+  ],
+  [
+   1793568711.5994568,
+   "XBOX використовує ШІ в розробці відеоігор, а ті студії, які стверджують протилежне, просто \"прикидаються\" – менеджер XBOX"
+  ],
+  [
+   1793568713.5264082,
+   "Хакери зламали застосунок «Повітряна тривога», яку розробили в Ajax"
   ]
  ],
  "titles_uk": [
-  [
-   1793395880.9716072,
-   "Ремейк першої Silent Hill вийде наступного року"
-  ],
   [
    1793395981.5052693,
    "Гурт TEETH шукає фанатів для зйомок нового кліпу в Гамільтоні"
@@ -35933,6 +35663,22 @@
   [
    1793566952.7666924,
    "GTA 6 Ultimate Edition коштуватиме $99.99: що пропонують за доплату у $20"
+  ],
+  [
+   1793568706.0879798,
+   "Джастін Сарджент розповів, як став новим вокалістом SKID ROW"
+  ],
+  [
+   1793568709.345683,
+   "Енді Вейр назвав умову для створення сиквела Project Hail Mary"
+  ],
+  [
+   1793568711.5994577,
+   "XBOX використовує ШІ в розробці відеоігор, а ті студії, які стверджують протилежне, просто \"прикидаються\" – менеджер XBOX"
+  ],
+  [
+   1793568713.5264091,
+   "Хакери зламали застосунок «Повітряна тривога», яку розробили в Ajax"
   ]
  ],
  "ukrainian": {
