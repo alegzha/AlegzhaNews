@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1793568677.658669
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-01",
  "freebies": {
   "last_check": 1793568715.34574,
@@ -29,57 +22,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-01 21:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-01 22:03 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792879295.746007,
-   2442,
-   "🎮",
-   "Скасована Mass Effect Universe мала розповісти про агента N7 у стилі John Wick",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/mass-effect-universe-reveal-creator/",
-    "orig": "‘Mass Effect 5’ Starred a Customizable ‘John Wick’ N7 Agent 600 Years After the Reaper War"
-   }
-  ],
-  [
-   1792879305.024092,
-   2443,
-   "🤘",
-   "Даґ Піннік із KING'S X випустить сольний альбом Abracadabra",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/kings-xs-doug-dug-pinnick-to-release-new-solo-album-abracadabra-in-november",
-    "orig": "KING'S X's DOUG 'DUG' PINNICK To Release New Solo Album, 'Abracadabra', In November"
-   }
-  ],
-  [
-   1792879313.6700416,
-   2444,
-   "🎮",
-   "Анонсовано сюрреалістичний платформер Abelina про потойбіччя",
-   "Rock Paper Shotgun",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.rockpapershotgun.com/abelina-is-a-strange-platforming-romp-through-a-natural-afterlife-from-a-former-league-of-legends-animator-and-the-composer-of-zach-creggers-resident-evil",
-    "orig": "Abelina is a strange, platforming romp through a natural afterlife from a former League of Legends animator and the composer of Zach Cregger's Resident Evil"
-   }
-  ],
   [
    1792881077.3776228,
    2445,
@@ -21043,7 +20996,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Гітарист TESLA Фрэнк Геннон виконав дві пісні разом із Y&amp;T</b>\n\nМинулої п&#x27;ятниці, 30 жовтня, гітарист TESLA Фрэнк Геннон виступив разом із Y&amp;T на сцені Quarry Park Amphitheater у Рокліні, штат Каліфорнія. Музиканти виконали композиції &quot;Rescue Me&quot; та &quot;Earthshaker&quot;.\n\n🔗 <a href=\"https://blabbermouth.net/news/watch-teslas-frank-hannon-performs-two-songs-with-yt-in-rocklin-california\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/watch-teslas-frank-hannon-performs-two-songs-with-yt-in-rocklin-california",
     "orig": "Watch: TESLA's FRANK HANNON Performs Two Songs With Y&T In Rocklin, California"
@@ -21057,7 +21009,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Дослідження показало політичну складність китайських ШІ-моделей</b>\n\nДослідження Vals AI показало, що китайські ШІ-моделі відповідають на політичні питання менш одноманітно, ніж очікувалося. Рівень їхньої провладної позиції виявився нижчим, ніж передбачалося, причому мова промпту та формат відповідей суттєво впливають на результат. Водночас деякі західні моделі теж інколи погоджувалися з офіційною позицією Пекіна.\n\n🔗 <a href=\"https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/",
     "orig": "Chinese AI models are politically complex, not just government mouthpieces, study finds"
@@ -21071,7 +21022,6 @@
    "Distorted Sound",
    {
     "also": [],
-    "caption": "🤘 <b>Crownshift анонсували новий альбом The Shadows We Buried</b>\n\nФінський метал-гурт Crownshift випустить другий повноформатний альбом The Shadows We Buried 29 січня 2027 року на лейблі Nuclear Blast Records. Музиканти обіцяють важче, більш мелодійне та динамічне звучання, що поєднує сучасний дез-метал і прогресивні елементи. Одночасно колектив представив новий сингл і кліп In The Dead Of Night.\n\n🔗 <a href=\"https://distortedsoundmag.com/crownshift-announce-new-album-the-shadows-we-buried/\">Distorted Sound</a>\n\n#музика",
     "kind": "photo",
     "link": "https://distortedsoundmag.com/crownshift-announce-new-album-the-shadows-we-buried/",
     "orig": "Crownshift announce new album ‘The Shadows We Buried’"
@@ -21898,6 +21848,48 @@
     "link": "https://dou.ua/lenta/news/air-alert-app-malfunction/",
     "orig": "Хакери зламали застосунок «Повітряна тривога», яку розробили в Ajax"
    }
+  ],
+  [
+   1793570513.7765396,
+   4092,
+   "🎬",
+   "Акторський склад Criminal Minds відреагував на закриття серіалу",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Акторський склад Criminal Minds відреагував на закриття серіалу</b>\n\nСеріал Criminal Minds: Evolution закривають після 20 сезонів на Paramount+. Пейджет Брюстер, Ей Джей Кук, Кірстен Вангснесс та інші актори поділилися емоціями в соцмережах через завершення шоу. Фінальний сезон вийде у 2027 році.\n\n🔗 <a href=\"https://deadline.com/2026/11/criminal-minds-evolution-stars-react-cancellation-1237210934/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "text",
+    "link": "https://deadline.com/2026/11/criminal-minds-evolution-stars-react-cancellation-1237210934/",
+    "orig": "‘Criminal Minds: Evolution’s Paget Brewster, AJ Cook, Kirsten Vangsness & More React To Cancellation: “The Finest Group Of People”"
+   }
+  ],
+  [
+   1793570543.3676953,
+   4093,
+   "🤘",
+   "Брюс Дікінсон випустить перший сингл із нового сольного альбому за два тижні",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Брюс Дікінсон випустить перший сингл із нового сольного альбому за два тижні</b>\n\nФронтмен IRON MAIDEN Брюс Дікінсон оголосив, що випустить перший сингл і кліп зі свого майбутнього сольного альбому вже за кілька днів. Нова пластинка, реліз якої запланований на початок 2027 року на лейблі BMG, записувалася без використання ШІ та семплів і налічує 18 треків.\n\n🔗 <a href=\"https://blabbermouth.net/news/bruce-dickinson-to-release-first-single-from-his-upcoming-solo-album-within-next-two-weeks\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/bruce-dickinson-to-release-first-single-from-his-upcoming-solo-album-within-next-two-weeks",
+    "orig": "BRUCE DICKINSON To Release First Single From His Upcoming Solo Album Within Next Two Weeks"
+   }
+  ],
+  [
+   1793570581.3576956,
+   4094,
+   "🎮",
+   "Доповнення Blood and Ice для Dune: Awakening вийде у грудні з очікуваним офлайн-режимом",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>Доповнення <a href=\"https://store.steampowered.com/app/455320/\">Blood and Ice</a> для <a href=\"https://store.steampowered.com/app/1172710/\">Dune: Awakening</a> вийде у грудні з очікуваним офлайн-режимом</b>\n\nБезплатне доповнення Blood and Ice для Dune: Awakening вийде у грудні, а вже цього місяця гра отримає офлайн-режим.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/dune-awakenings-seasonally-appropriate-blood-and-ice-expansion-gets-a-december-release-date-and-in-a-plus-for-preservation-an-offline-mode-this-month\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/dune-awakenings-seasonally-appropriate-blood-and-ice-expansion-gets-a-december-release-date-and-in-a-plus-for-preservation-an-offline-mode-this-month",
+    "orig": "Dune: Awakening's seasonally appropriate Blood and Ice expansion gets a December release date, and in a plus for preservation, an offline mode this month"
+   }
   ]
  ],
  "posted_by_source": {
@@ -22030,7 +22022,8 @@
    1793559700.2277164
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
-   1793557992.414178
+   1793557992.414178,
+   1793570581.3581192
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1793253680.906989,
@@ -22057,8 +22050,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1793482349.1808815,
-   1793484087.1435792,
    1793491308.5651205,
    1793492039.6376936,
    1793507580.0797255,
@@ -22071,7 +22062,8 @@
    1793552930.5593257,
    1793553105.0773652,
    1793554433.2791736,
-   1793557997.607879
+   1793557997.607879,
+   1793570513.7769413
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1793359919.5794566,
@@ -22100,7 +22092,6 @@
    1793498505.9543986
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1793484090.590509,
    1793538219.3564944,
    1793538313.0149176,
    1793541711.4631283,
@@ -22110,7 +22101,8 @@
    1793549311.4867182,
    1793552980.6250074,
    1793559680.937373,
-   1793568706.0880249
+   1793568706.0880249,
+   1793570543.3680923
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -22764,6 +22756,7 @@
   "1d936f8b3a12ee0b": 1793511051.5169284,
   "1d9771558d1d7cb4": 1792915563.7755892,
   "1daaaf96e424557b": 1793189000.1734586,
+  "1dad40257927d9ca": 1793570513.7768931,
   "1db8a10adeebea48": 1793233880.11878,
   "1dcff934b5264968": 1793286778.9896433,
   "1de9ee4250d8c3b6": 1793290088.3821433,
@@ -23142,7 +23135,6 @@
   "3269fd84965b515d": 1793374340.1621776,
   "326bba170a6738d7": 1792760496.745372,
   "327da9ae8342df67": 1792969298.5734496,
-  "32881189f38bb052": 1792359121.848284,
   "32985ea2d2f119db": 1792675854.2456481,
   "32995f482f848b41": 1793514131.0359926,
   "32b8b43660e06081": 1792436501.2899582,
@@ -23399,7 +23391,6 @@
   "408faa1c200e5cf1": 1793115104.3550653,
   "40994a32def78c57": 1793122310.6027272,
   "409cbb4bba3f9de6": 1793018094.1681547,
-  "40ac51c480da25b0": 1792360897.6825385,
   "40ca66021df75eaa": 1793365334.6289148,
   "40d1817245288d1d": 1792904007.9191196,
   "40df5be56ab8cd9d": 1793288192.217112,
@@ -23449,6 +23440,7 @@
   "4341922ec9bb436c": 1793084942.1276407,
   "4377c7997535c963": 1793190716.4191542,
   "4382052080d55f26": 1793295419.210906,
+  "4394f3b5c008e152": 1793570543.368046,
   "439b6635122fd180": 1792402278.0223076,
   "43b32f99d49cca98": 1793507583.2550945,
   "43b32fa6ce9da908": 1792596683.2224457,
@@ -24407,6 +24399,7 @@
   "771ed81459907cd0": 1792514077.245496,
   "772826780fa6c05e": 1793210700.935244,
   "7749acdf4ab66a88": 1793554457.2120223,
+  "774eda18ad118fec": 1793570581.3580635,
   "77578b97602204ed": 1793084576.984789,
   "7765ce2d21097ce1": 1793208850.999473,
   "7791c624cf2d4361": 1792427523.1209834,
@@ -25624,7 +25617,6 @@
   "bcf31f4f990180b6": 1793273473.2012017,
   "bcf9e110bf30c7af": 1793185315.6548622,
   "bd0353dd0f07fe9b": 1792630892.4833171,
-  "bd122a0b1ca4302c": 1792360907.317098,
   "bd2610a21ad8fc5e": 1793399284.672924,
   "bd26759780610e77": 1793316683.0011308,
   "bd2870b32eed59c2": 1793383500.2945433,
@@ -26355,7 +26347,6 @@
   "e7a020127cd03098": 1792602087.7565956,
   "e7bb2a2d438030c2": 1792438374.8593967,
   "e7c0271945ec23c9": 1792756128.5019803,
-  "e7ec2c1fc20d94fd": 1792360891.393675,
   "e80d73fc146aa805": 1792928082.5821898,
   "e81f82cc1bf7b033": 1792632675.4807746,
   "e823c8720d727f7e": 1793304089.6826453,
@@ -27234,7 +27225,7 @@
   ],
   "artists_checked": 1793558017.072132,
   "blocked_until": 1793557967.7080007,
-  "cursor": 324,
+  "cursor": 334,
   "digest_week": "2026-W44",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -27960,83 +27951,15 @@
   }
  },
  "stats": {
-  "extra": {
-   "Вішліст Steam": 11,
-   "Українська локалізація": 2,
-   "Халява": 7
-  },
-  "filtered": {
-   "/Film": 25,
-   "Bloomberg": 11,
-   "Deadline": 8,
-   "Distorted Sound": 1,
-   "Eurogamer": 2,
-   "GamesIndustry.biz": 1,
-   "IGN": 2,
-   "IndieWire": 2,
-   "Insider Gaming": 43,
-   "Lambgoat": 1,
-   "Loudwire": 5,
-   "Metal Hammer (Louder)": 4,
-   "Metal Injection": 2,
-   "PC Gamer": 24,
-   "Pitchfork": 2,
-   "Polygon": 85,
-   "Revolver": 2,
-   "Rock Paper Shotgun": 1,
-   "Stereogum": 2,
-   "ThePRP": 2,
-   "VGC": 2,
-   "Variety": 9
-  },
   "sources": {
-   "/Film": 42,
-   "AIN.ua": 6,
-   "Blabbermouth": 94,
-   "Bloomberg": 63,
-   "DOU": 2,
-   "DOU Gamedev": 5,
-   "Deadline": 101,
-   "Decibel": 12,
-   "Digital Foundry": 8,
-   "Distorted Sound": 30,
-   "Eurogamer": 38,
-   "GameSpot": 34,
-   "GamesIndustry.biz": 21,
-   "GitHub Trending": 28,
-   "Hugging Face": 4,
-   "IGN": 92,
-   "ITC.ua": 66,
-   "IndieWire": 31,
-   "Insider Gaming": 97,
-   "Kerrang!": 46,
-   "Lambgoat": 55,
-   "Loudwire": 32,
-   "Metal Hammer (Louder)": 42,
-   "Metal Injection": 22,
-   "MetalSucks": 1,
-   "Mezha": 81,
-   "Neformat": 3,
-   "PC Gamer": 102,
-   "Pitchfork": 11,
-   "PlayUA": 28,
-   "Polygon": 42,
-   "Product Hunt": 25,
-   "Revolver": 9,
-   "Rock Paper Shotgun": 27,
-   "SteamDB": 3,
-   "Stereogum": 20,
-   "The Decoder": 35,
-   "ThePRP": 73,
-   "VGC": 30,
-   "Variety": 42
+   "Blabbermouth": 1,
+   "Deadline": 1,
+   "Rock Paper Shotgun": 1
   },
   "translators": {
-   "DeepL": 38,
-   "gemini-flash-latest": 57,
-   "gemini-flash-lite-latest": 1539
+   "gemini-flash-lite-latest": 3
   },
-  "week": "2026-W44"
+  "week": "2026-W45"
  },
  "steam": {
   "id:1043850": [
@@ -29529,11 +29452,6 @@
    "BioShock® 2",
    1792945886.1220896
   ],
-  "q:bioware star wars battlefront 3": [
-   0,
-   "",
-   1793395979.6035347
-  ],
   "q:black white": [
    1998450,
    "Black & White",
@@ -29603,11 +29521,6 @@
    455320,
    "Blood and Ice",
    1793541751.437324
-  ],
-  "q:bloomberg": [
-   0,
-   "",
-   1793395980.1021187
   ],
   "q:blue archive": [
    3557620,
@@ -30268,31 +30181,6 @@
    3008130,
    "Dying Light: The Beast",
    1792445518.8057127
-  ],
-  "q:ea bioware": [
-   0,
-   "",
-   1793395979.0824878
-  ],
-  "q:ea bioware star": [
-   0,
-   "",
-   1793395978.581473
-  ],
-  "q:ea bioware star wars": [
-   0,
-   "",
-   1793395978.088334
-  ],
-  "q:ea bioware star wars battlefront": [
-   0,
-   "",
-   1793395977.5807445
-  ],
-  "q:ea bioware star wars battlefront 3": [
-   0,
-   "",
-   1793395977.0821083
   ],
   "q:ea sports fc 27": [
    4080220,
@@ -33767,30 +33655,6 @@
  },
  "titles": [
   [
-   1793395981.5052683,
-   "TEETH Seek Fans For Their Upcoming Music Video Shoot In Hamilton, ON"
-  ],
-  [
-   1793395986.3384156,
-   "‘The Further Mis-Adventures Of Cliff Booth’: Netflix Brad Pitt Pic Won’t Be Playing Top Chains Regal & Cinemark"
-  ],
-  [
-   1793395989.352208,
-   "Power Trip Invite Fans To Attend Dallas, TX Music Video Shoot/Live Show"
-  ],
-  [
-   1793397682.674065,
-   "TONY IOMMI Says It's 'Unfair' To Compare JORN LANDE To RONNIE JAMES DIO: 'That's The Sort Of Voice I Wanted' For 'From The Dark' Album"
-  ],
-  [
-   1793397685.6053913,
-   "Watch the ‘Rehearsals for a Revolution’ Director and Editor Explain How Memories Can Help Fight Authoritarianism"
-  ],
-  [
-   1793397694.776785,
-   "Bungie Says 'Don't Buy Marathon as a Donation' as Destiny Players Look to Support Studio's Future"
-  ],
-  [
    1793399275.2886043,
    "Finger Eleven’s “Them Vs. You Vs. Me” Set For First Vinyl Release"
   ],
@@ -34721,33 +34585,21 @@
   [
    1793568713.5264082,
    "Хакери зламали застосунок «Повітряна тривога», яку розробили в Ajax"
+  ],
+  [
+   1793570513.776895,
+   "‘Criminal Minds: Evolution’s Paget Brewster, AJ Cook, Kirsten Vangsness & More React To Cancellation: “The Finest Group Of People”"
+  ],
+  [
+   1793570543.3680477,
+   "BRUCE DICKINSON To Release First Single From His Upcoming Solo Album Within Next Two Weeks"
+  ],
+  [
+   1793570581.3580647,
+   "Dune: Awakening's seasonally appropriate Blood and Ice expansion gets a December release date, and in a plus for preservation, an offline mode this month"
   ]
  ],
  "titles_uk": [
-  [
-   1793395981.5052693,
-   "Гурт TEETH шукає фанатів для зйомок нового кліпу в Гамільтоні"
-  ],
-  [
-   1793395986.3384163,
-   "Фільм про Cliff Booth від Netflix не вийде в кінотеатрах Regal і Cinemark"
-  ],
-  [
-   1793395989.3522086,
-   "Power Trip запрошують фанатів на зйомки нового кліпу в Далласі"
-  ],
-  [
-   1793397682.6740658,
-   "Тоні Айоммі вважає несправедливим порівняння Jorn Lande з Ronnie James Dio"
-  ],
-  [
-   1793397685.6053922,
-   "Режисерка Pegah Ahangurani пояснила важливість пам'яті у фільмі Rehearsals for a Revolution"
-  ],
-  [
-   1793397694.7767854,
-   "Bungie закликає фанатів Destiny не купувати Marathon як пожертву"
-  ],
   [
    1793399275.2886052,
    "Альбом Finger Eleven «Them Vs. You Vs. Me» уперше вийде на вінілі"
@@ -35679,6 +35531,18 @@
   [
    1793568713.5264091,
    "Хакери зламали застосунок «Повітряна тривога», яку розробили в Ajax"
+  ],
+  [
+   1793570513.7768958,
+   "Акторський склад Criminal Minds відреагував на закриття серіалу"
+  ],
+  [
+   1793570543.3680482,
+   "Брюс Дікінсон випустить перший сингл із нового сольного альбому за два тижні"
+  ],
+  [
+   1793570581.3580656,
+   "Доповнення Blood and Ice для Dune: Awakening вийде у грудні з очікуваним офлайн-режимом"
   ]
  ],
  "ukrainian": {
@@ -37965,7 +37829,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793566961.9922173,
+  "last_check": 1793570590.3803284,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
