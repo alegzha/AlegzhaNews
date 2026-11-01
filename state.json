@@ -1,8 +1,15 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:ai|Hugging Face|https://huggingface.co/blog/feed.xml": {
+   "detail": "https://huggingface.co/blog/feed.xml → 429 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Hugging Face» не працює",
+   "sent": 0,
+   "since": 1793538079.2329502
+  }
+ },
  "daily_digest_date": "2026-10-31",
  "freebies": {
-  "last_check": 1793530896.3989508,
+  "last_check": 1793538329.9756095,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -21,10 +28,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-01 12:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-01 13:05 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
+   "gemini-flash-latest": 1,
    "gemini-flash-lite-latest": 3
   },
   "used": [
@@ -32,32 +40,6 @@
   ]
  },
  "post_log": [
-  [
-   1792845090.9068494,
-   2359,
-   "🎮",
-   "Factorio отримала останнє велике оновлення після 14 років розробки",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/survival-crafting/after-14-years-of-development-factorios-final-major-update-is-out-now/",
-    "orig": "After 14 years of development, Factorio's final major update is out now"
-   }
-  ],
-  [
-   1792846957.3041453,
-   2360,
-   "🤘",
-   "Опубліковано відео зустрічі MEGADETH із Меттом Пінфілдом у Grammy Museum",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/see-official-video-of-megadeths-conversation-with-matt-pinfield-at-los-angeless-grammy-museum",
-    "orig": "See Official Video Of MEGADETH's Conversation With MATT PINFIELD At Los Angeles's Grammy Museum"
-   }
-  ],
   [
    1792847141.4797897,
    2361,
@@ -21174,7 +21156,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Студія CoSA VFX показала, на що пішов бюджет серіалу Lanterns від HBO</b>\n\nСтудія CoSA VFX показала залаштунки серіалу Lanterns від HBO, де 16 команд створили 2350 кадрів зі спецефектами. Оскільки зйомки проходили біля Лос-Анджелеса, фахівці масово замінювали пейзажі та небо, щоб відтворити Небраску. Крім фонів, за допомогою VFX створили навіть бороду персонажа John Stewart у флешбеках.\n\n🔗 <a href=\"https://www.slashfilm.com/2300904/lanterns-vfx-reel-hbo-series-budget/\">/Film</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2300904/lanterns-vfx-reel-hbo-series-budget/",
     "orig": "Lanterns VFX Reel Shows How The HBO Series Spent Its Massive Budget"
@@ -21188,7 +21169,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>CRO-MAGS майже завершили запис нового альбому</b>\n\nФронтмен CRO-MAGS Гарлі Фленаган повідомив, що гурт майже закінчив роботу над новим альбомом, реліз якого очікується на початку наступного року. Музиканти вже записали дев&#x27;ять треків і незабаром запишуть ще кілька пісень у дусі червневого синглу Wired For Chaos. За словами лідера, свіжий матеріал натхненний MOTÖRHEAD, BAD BRAINS та BLACK SABBATH.\n\n🔗 <a href=\"https://blabbermouth.net/news/cro-mags-are-almost-done-with-new-album-we-have-nine-songs-tracked-and-six-more-songs-written\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/cro-mags-are-almost-done-with-new-album-we-have-nine-songs-tracked-and-six-more-songs-written",
     "orig": "CRO-MAGS Are 'Almost Done' With New Album: We Have 'Nine Songs Tracked And Six More Songs' Written"
@@ -21202,7 +21182,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>У мережі з&#x27;явився ймовірний геймплей ремейку Persona 1</b>\n\nУ мережі опублікували майже двохвилинне відео, яке може бути геймплеєм неанонсованого ремейку Persona 1 від Sega та Atlus. Фанати вважають ролик справжнім через деталізовану графіку, знайомі анімації та персонажів. Офіційних підтверджень від розробників поки що немає.\n\n🔗 <a href=\"https://www.ign.com/articles/persona-1-remake-footage-seemingly-leaks-online\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/persona-1-remake-footage-seemingly-leaks-online",
     "orig": "Persona 1 Remake Footage Seemingly Leaks Online"
@@ -21216,7 +21195,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Суд остаточно відхилив позов Дональда Трампа проти The Wall Street Journal на $10 млрд</b>\n\nФедеральний суддя відхилив позов Дональда Трампа на $10 млрд проти The Wall Street Journal та Руперта Мердока. Приводом для позову стала стаття про лист Джеффрі Епштейну до дня народження у 2003 році. Суд дійшов висновку, що позивач не зумів довести злий умисел медійників, і закрив справу без права повторного подання.\n\n🔗 <a href=\"https://deadline.com/2026/10/trump-wall-street-journal-lawsuit-dismissed-jeffrey-epstein-1237210665/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/10/trump-wall-street-journal-lawsuit-dismissed-jeffrey-epstein-1237210665/",
     "orig": "Judge Again Tosses Out Donald Trump’s $10 Billion Lawsuit Against The Wall Street Journal Over Its Reporting On Jeffrey Epstein Birthday Letter"
@@ -22019,6 +21997,62 @@
     "link": "https://distortedsoundmag.com/sleep-theory-release-new-music-video-for-giving-in/",
     "orig": "Sleep Theory release new music video for ‘Giving In’"
    }
+  ],
+  [
+   1793538219.3560731,
+   4025,
+   "🤘",
+   "Вокаліст QUEENSRŸCHE Тодд Ла Торре заспівав Powerslave гурту IRON MAIDEN у домашній студії",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Вокаліст QUEENSRŸCHE Тодд Ла Торре заспівав Powerslave гурту IRON MAIDEN у домашній студії</b>\n\nВокаліст QUEENSRŸCHE Тодд Ла Торре поділився відео, на якому він співає класичний трек IRON MAIDEN «Powerslave» у своїй домашній студії під час розминки перед записом демо для нового альбому гурту. У ролику Тодд сказав: «What&#x27;s up...»\n\n🔗 <a href=\"https://blabbermouth.net/news/watch-queensryches-todd-la-torre-sings-iron-maidens-powerslave-at-his-home-studio\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/watch-queensryches-todd-la-torre-sings-iron-maidens-powerslave-at-his-home-studio",
+    "orig": "Watch: QUEENSRŸCHE's TODD LA TORRE Sings IRON MAIDEN's 'Powerslave' At His Home Studio"
+   }
+  ],
+  [
+   1793538313.0144877,
+   4026,
+   "🤘",
+   "Гітарист TESLA Фрэнк Геннон виконав дві пісні разом із Y&T",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Гітарист TESLA Фрэнк Геннон виконав дві пісні разом із Y&amp;T</b>\n\nМинулої п&#x27;ятниці, 30 жовтня, гітарист TESLA Фрэнк Геннон виступив разом із Y&amp;T на сцені Quarry Park Amphitheater у Рокліні, штат Каліфорнія. Музиканти виконали композиції &quot;Rescue Me&quot; та &quot;Earthshaker&quot;.\n\n🔗 <a href=\"https://blabbermouth.net/news/watch-teslas-frank-hannon-performs-two-songs-with-yt-in-rocklin-california\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/watch-teslas-frank-hannon-performs-two-songs-with-yt-in-rocklin-california",
+    "orig": "Watch: TESLA's FRANK HANNON Performs Two Songs With Y&T In Rocklin, California"
+   }
+  ],
+  [
+   1793538316.652566,
+   4027,
+   "🤖",
+   "Дослідження показало політичну складність китайських ШІ-моделей",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Дослідження показало політичну складність китайських ШІ-моделей</b>\n\nДослідження Vals AI показало, що китайські ШІ-моделі відповідають на політичні питання менш одноманітно, ніж очікувалося. Рівень їхньої провладної позиції виявився нижчим, ніж передбачалося, причому мова промпту та формат відповідей суттєво впливають на результат. Водночас деякі західні моделі теж інколи погоджувалися з офіційною позицією Пекіна.\n\n🔗 <a href=\"https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/chinese-ai-models-are-politically-complex-not-just-government-mouthpieces-study-finds/",
+    "orig": "Chinese AI models are politically complex, not just government mouthpieces, study finds"
+   }
+  ],
+  [
+   1793538321.097029,
+   4028,
+   "🤘",
+   "Crownshift анонсували новий альбом The Shadows We Buried",
+   "Distorted Sound",
+   {
+    "also": [],
+    "caption": "🤘 <b>Crownshift анонсували новий альбом The Shadows We Buried</b>\n\nФінський метал-гурт Crownshift випустить другий повноформатний альбом The Shadows We Buried 29 січня 2027 року на лейблі Nuclear Blast Records. Музиканти обіцяють важче, більш мелодійне та динамічне звучання, що поєднує сучасний дез-метал і прогресивні елементи. Одночасно колектив представив новий сингл і кліп In The Dead Of Night.\n\n🔗 <a href=\"https://distortedsoundmag.com/crownshift-announce-new-album-the-shadows-we-buried/\">Distorted Sound</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://distortedsoundmag.com/crownshift-announce-new-album-the-shadows-we-buried/",
+    "orig": "Crownshift announce new album ‘The Shadows We Buried’"
+   }
   ]
  ],
  "posted_by_source": {
@@ -22050,7 +22084,8 @@
    1793474724.2817042,
    1793527559.4844007,
    1793532886.75927,
-   1793536274.492623
+   1793536274.492623,
+   1793538316.653016
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1793370738.9416513
@@ -22218,14 +22253,15 @@
    1793498505.9543986
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1793450714.9695027,
    1793458887.5361302,
    1793458890.6891563,
    1793462619.7557933,
    1793466262.5776198,
    1793469677.1661434,
    1793480589.5498512,
-   1793484090.590509
+   1793484090.590509,
+   1793538219.3564944,
+   1793538313.0149176
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -22237,12 +22273,12 @@
    1793300557.154594
   ],
   "music|Distorted Sound|https://distortedsoundmag.com/feed/": [
-   1793450712.107386,
    1793525757.7249186,
    1793527516.261931,
    1793527607.9681807,
    1793532785.4442441,
-   1793536282.3704648
+   1793536282.3704648,
+   1793538321.0974395
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
    1793475083.5244577,
@@ -22926,7 +22962,6 @@
   "1eadcfcc159619a7": 1792891890.4415748,
   "1eaf640563d3fdb2": 1793214122.300237,
   "1ebcdd8600bc1201": 1793046658.234037,
-  "1ec00d2af0387bde": 1792326692.5025265,
   "1ec20107aa7be7f1": 1792341084.4050367,
   "1eca14a053949975": 1792611124.1603694,
   "1ee3d04d18d14555": 1793117113.03446,
@@ -23101,7 +23136,6 @@
   "28b15ab154e8c4c5": 1792661479.2652586,
   "28d048884966e80f": 1792582298.5205588,
   "28f73b6431625bbb": 1792787497.4596574,
-  "28f9fc6adf8f1ee5": 1792328509.2026987,
   "28fcba05d05e4e48": 1792841491.2948828,
   "2902d822b8bb2054": 1793385316.9243116,
   "2904ca5a15ae2d71": 1793181801.8745768,
@@ -23538,7 +23572,6 @@
   "40994a32def78c57": 1793122310.6027272,
   "409cbb4bba3f9de6": 1793018094.1681547,
   "40ac51c480da25b0": 1792360897.6825385,
-  "40acf03cbac00fdf": 1792326710.9943023,
   "40ca66021df75eaa": 1793365334.6289148,
   "40d1817245288d1d": 1792904007.9191196,
   "40df5be56ab8cd9d": 1793288192.217112,
@@ -23577,6 +23610,7 @@
   "4277ab5c1f64d1fe": 1793444578.5410326,
   "427e0ab67bb488dd": 1792987382.570774,
   "42851d404f94fe69": 1793266296.2902496,
+  "42a5dfc85a6bfac5": 1793538055.0085032,
   "42b03997a2b56f41": 1793122284.80668,
   "42b1126bd8633f88": 1792672322.8112528,
   "42c536a6872439d0": 1793354511.401761,
@@ -23797,7 +23831,6 @@
   "4f891d7f2fd0bd53": 1793032481.2363756,
   "4f97eb4e67349aab": 1793003661.771698,
   "4fac36e35593d007": 1792611116.5528197,
-  "4fb2803512702a14": 1792326708.1810756,
   "4fbbb1ca3af32e4f": 1792409485.2444258,
   "4fbf217d4e9e1850": 1793139774.8894732,
   "4fc1c2762b0136e0": 1792775778.1799984,
@@ -24046,7 +24079,6 @@
   "5cbf96954b361583": 1792969254.6031685,
   "5cc989c45b6a75d9": 1793383344.7377312,
   "5ccab9069af08f03": 1793397694.7767823,
-  "5cd9816c8b7b910f": 1792328496.9111874,
   "5cdcd4991d694e8f": 1793241054.3613508,
   "5ce223a43a1b7a9f": 1793241054.3613508,
   "5ceb63f8e658d907": 1793014288.1883664,
@@ -24245,7 +24277,6 @@
   "683c4a899f9eaa2f": 1793095309.6361096,
   "68469f20b0135bb1": 1792505104.1313543,
   "6852c9782cf68cc6": 1793025147.2321131,
-  "68553c8ae55485bf": 1792328499.9192948,
   "6860fcbb52291d85": 1793188881.8974605,
   "6862ebd80a13d022": 1792513881.9064367,
   "6866d1c9a85eda43": 1793025169.9688566,
@@ -24379,7 +24410,6 @@
   "6e67e9917b788477": 1793120729.2789328,
   "6e6f06653e2d83c1": 1793116879.2320538,
   "6e80a2d619b36392": 1792519371.728134,
-  "6e850be2a3ec9b38": 1792328480.261266,
   "6e9238f921a755bc": 1793460703.6633193,
   "6ea3709ae2f4e1bd": 1792683055.060128,
   "6ea650c783d823dd": 1793385115.604662,
@@ -24579,7 +24609,6 @@
   "78aecb83a66a3b9c": 1792431151.645634,
   "78bac4d3a7125605": 1792775015.7669168,
   "78eba4edfa61f399": 1793203477.484365,
-  "78ede7b606d46bbc": 1792326695.616055,
   "790713c746923f5f": 1793111623.447527,
   "79160e9843ff81fb": 1793458901.2695856,
   "7921408d85cf1a6f": 1792852303.087897,
@@ -24737,6 +24766,7 @@
   "824069a43fbf7e44": 1793019925.613357,
   "824b8a1fcd845bad": 1792764363.7009766,
   "82bbe52b7c2bf89d": 1792666857.0082133,
+  "82c2d3b0d0ef2af7": 1793538316.6529753,
   "82cd1c7df699aea7": 1793410457.167143,
   "82f9e67b19988f32": 1793041302.0314975,
   "82fd3bf7d98608db": 1793448054.1956563,
@@ -24999,6 +25029,7 @@
   "923bf4fa10960b5f": 1792693964.4773376,
   "924c29b63d7d3b0a": 1793530854.2756913,
   "92619c501a77f368": 1792609385.3368094,
+  "9278e2f0222d71e6": 1793538219.356448,
   "927daa4f3ded9772": 1793248365.4052112,
   "929780c21798d906": 1792429338.4739318,
   "92a0f5a7afd7f6ba": 1792352386.1310177,
@@ -25684,6 +25715,7 @@
   "b7a9a1b97fce9e56": 1792699255.0839438,
   "b7b98190af652545": 1792589516.5177772,
   "b7be1a8883227e2a": 1793188991.244404,
+  "b7d56cbf92a1fb3c": 1793538313.014872,
   "b7e04700f8dc0ea1": 1792668728.0143685,
   "b7eeeed9a29ca89b": 1792528374.250107,
   "b7f573ab717adadd": 1793201803.7399113,
@@ -26342,6 +26374,7 @@
   "df4521dbfd791bf0": 1792612895.8318949,
   "df480c402f946493": 1793406683.3552864,
   "df54e50a14be2141": 1792400600.6408873,
+  "df5a3f5826a74af5": 1793538321.0973961,
   "df65a0fa305312ca": 1793125882.956092,
   "df79c318d38312b8": 1792611053.7842038,
   "df84dc39bdb132b4": 1793496689.4742987,
@@ -26792,7 +26825,6 @@
   "f90b427afcb07994": 1792510287.7665179,
   "f90d154ea1990620": 1792519394.212179,
   "f9112448855df8d1": 1792665082.1300592,
-  "f9122fb12ee04e05": 1792326698.9894855,
   "f9173bb79a9aefe7": 1793173088.853835,
   "f918db6b6c150779": 1792625478.5477486,
   "f923d9949ea7b1d5": 1792531910.4337246,
@@ -28127,7 +28159,7 @@
    "Metal Injection": 2,
    "PC Gamer": 23,
    "Pitchfork": 2,
-   "Polygon": 78,
+   "Polygon": 79,
    "Revolver": 2,
    "Rock Paper Shotgun": 1,
    "Stereogum": 2,
@@ -28138,14 +28170,14 @@
   "sources": {
    "/Film": 38,
    "AIN.ua": 6,
-   "Blabbermouth": 84,
+   "Blabbermouth": 86,
    "Bloomberg": 61,
    "DOU": 1,
    "DOU Gamedev": 5,
    "Deadline": 96,
    "Decibel": 12,
    "Digital Foundry": 8,
-   "Distorted Sound": 29,
+   "Distorted Sound": 30,
    "Eurogamer": 36,
    "GameSpot": 34,
    "GamesIndustry.biz": 21,
@@ -28172,15 +28204,15 @@
    "Rock Paper Shotgun": 26,
    "SteamDB": 3,
    "Stereogum": 17,
-   "The Decoder": 32,
+   "The Decoder": 33,
    "ThePRP": 72,
    "VGC": 30,
    "Variety": 42
   },
   "translators": {
    "DeepL": 37,
-   "gemini-flash-latest": 53,
-   "gemini-flash-lite-latest": 1478
+   "gemini-flash-latest": 54,
+   "gemini-flash-lite-latest": 1481
   },
   "week": "2026-W44"
  },
@@ -32135,11 +32167,6 @@
    "INSIDE",
    1792593178.120817
   ],
-  "q:invictus and hexe": [
-   0,
-   "",
-   1793363599.0573413
-  ],
   "q:iron lung": [
    1846170,
    "Iron Lung",
@@ -32630,16 +32657,6 @@
    "",
    1793464283.809236
   ],
-  "q:maddy makes": [
-   0,
-   "",
-   1793363596.4655933
-  ],
-  "q:maddy makes games": [
-   0,
-   "",
-   1793363595.9749365
-  ],
   "q:magic the gathering designers": [
    0,
    "",
@@ -32664,16 +32681,6 @@
    0,
    "",
    1793412079.222469
-  ],
-  "q:makes": [
-   0,
-   "",
-   1793363597.4856892
-  ],
-  "q:makes games": [
-   0,
-   "",
-   1793363596.9452534
   ],
   "q:makes surprise": [
    0,
@@ -32939,11 +32946,6 @@
    1736630,
    "Minesweeper Ultimate",
    1791642328.393718
-  ],
-  "q:minor cultural shorthand": [
-   0,
-   "",
-   1793363590.7294474
   ],
   "q:mirren": [
    0,
@@ -33739,11 +33741,6 @@
    0,
    "",
    1793460711.93268
-  ],
-  "q:park": [
-   0,
-   "",
-   1793363592.233459
   ],
   "q:path of exile": [
    238960,
@@ -34785,20 +34782,10 @@
    "Soulframe",
    1793392417.936633
   ],
-  "q:south": [
-   0,
-   "",
-   1793363591.7249799
-  ],
   "q:south korean": [
    0,
    "",
    1793377969.8740041
-  ],
-  "q:south park": [
-   0,
-   "",
-   1793363591.2277565
   ],
   "q:spark outrage after refusing to include": [
    0,
@@ -36047,70 +36034,6 @@
  },
  "titles": [
   [
-   1793363580.569059,
-   "Chevron Keeps Microsoft Data Center Timeline Despite Texas Pause"
-  ],
-  [
-   1793363585.2885349,
-   "Sony has snapped up the film rights for Mouthwashing"
-  ],
-  [
-   1793363588.743732,
-   "OCE players are stuck in perpetual night on WoW: Forever, but its devs are considering a fix"
-  ],
-  [
-   1793363593.9601095,
-   "Kane Parsons believes his interpretation of the backrooms is 'minor cultural shorthand' for the abstract space—just look at South Park's recent episode"
-  ],
-  [
-   1793363602.7951586,
-   "Open-weight model GLM 5.3 built full Firefox exploit chains with zero human input in under 48 hours"
-  ],
-  [
-   1793363606.5883405,
-   "“There’s a reason for each element and meaning behind every word”: Currents announce new album, Our Fates Lie In Tandem, and drop single, Retributioner"
-  ],
-  [
-   1793365276.0346818,
-   "Deutsche Bank Says ‘AI Dollar’ Is Here, Haven Bias Less Certain"
-  ],
-  [
-   1793365279.779265,
-   "Watch: AEROSMITH Reunites With Drummer JOEY KRAMER For First Of Two Hollywood Bowl Concerts"
-  ],
-  [
-   1793365291.6684322,
-   "MTG's Reality Fracture Commander Deck Is \"Among The Most Powerful We've Ever Released\" According to WOTC"
-  ],
-  [
-   1793365299.3910944,
-   "Gaming storefronts are facing a Slop Grenade problem | Opinion"
-  ],
-  [
-   1793365307.8109229,
-   "Intel shifts Panther Lake capacity to data center chips while the memory crisis wreaks havoc on PC market; still sold out of budget Wildcat Lake chips"
-  ],
-  [
-   1793365312.766386,
-   "Album review: Against The Current – Till Death & Back"
-  ],
-  [
-   1793365322.1420887,
-   "Останнє оновлення Windows 11 додає функцію відновлення з хмари"
-  ],
-  [
-   1793365327.6742334,
-   "Helldivers 2 boss can \"absolutely see\" making a game parody of generative AI, but it would need to be \"quirky\" rather than \"doom-laden\""
-  ],
-  [
-   1793365334.628917,
-   "International Insider: Votes Cast In Israel & Brazil; Tokyo Drift; Domingo Corral Interview"
-  ],
-  [
-   1793365344.2508373,
-   "The Witcher Meets Carrie in a New Epic Fantasy Book"
-  ],
-  [
    1793367273.492456,
    "Photographer MARK 'WEISSGUY' WEISS Announces BON JOVI 'Slippery When Wet' 40th-Anniversary Photo Exhibition"
   ],
@@ -37357,73 +37280,25 @@
   [
    1793536282.3704238,
    "Sleep Theory release new music video for ‘Giving In’"
+  ],
+  [
+   1793538219.3564498,
+   "Watch: QUEENSRŸCHE's TODD LA TORRE Sings IRON MAIDEN's 'Powerslave' At His Home Studio"
+  ],
+  [
+   1793538313.0148737,
+   "Watch: TESLA's FRANK HANNON Performs Two Songs With Y&T In Rocklin, California"
+  ],
+  [
+   1793538316.6529772,
+   "Chinese AI models are politically complex, not just government mouthpieces, study finds"
+  ],
+  [
+   1793538321.097398,
+   "Crownshift announce new album ‘The Shadows We Buried’"
   ]
  ],
  "titles_uk": [
-  [
-   1793363580.5690596,
-   "Chevron не змінює терміни запуску дата-центра Microsoft попри паузу в Техасі"
-  ],
-  [
-   1793363585.2885356,
-   "Sony екранізує інді-хорор Mouthwashing"
-  ],
-  [
-   1793363588.7437327,
-   "Гравці в World of Warcraft: Forever скаржаться на вічну ніч через сервери"
-  ],
-  [
-   1793363593.9601102,
-   "Фільм Кейна Парсонса про Backrooms став новим попкультурним феноменом"
-  ],
-  [
-   1793363602.795159,
-   "Модель GLM 5.3 самостійно створила ланцюжки експлойтів для Firefox"
-  ],
-  [
-   1793363606.5883412,
-   "Currents анонсували новий альбом Our Fates Lie In Tandem і випустили сингл Retributioner"
-  ],
-  [
-   1793365276.034683,
-   "Deutsche Bank попередив про загрозу статусу долара через ШІ"
-  ],
-  [
-   1793365279.7792659,
-   "AEROSMITH возз'єдналися з барабанником Джої Крамером у Лос-Анджелесі"
-  ],
-  [
-   1793365291.6684332,
-   "Новий Commander-дек для Magic: The Gathering називають одним із найпотужніших в історії"
-  ],
-  [
-   1793365299.3910959,
-   "Ігрові магазини стикаються з проблемою неякісного ШІ-контенту"
-  ],
-  [
-   1793365307.8109238,
-   "Intel переносить виробництво Panther Lake на дата-центри через кризу пам'яті"
-  ],
-  [
-   1793365312.7663872,
-   "Кріссі Костанза виступить в Оксфордському союзі перед новим туром Against The Current"
-  ],
-  [
-   1793365322.1420898,
-   "Останнє оновлення Windows 11 додає функцію відновлення з хмари"
-  ],
-  [
-   1793365327.6742344,
-   "Креативний директор Arrowhead допускає створення гри-пародії на ШІ"
-  ],
-  [
-   1793365334.6289191,
-   "Підсумки виборів у Ізраїлі й Бразилії та новини з Tokyo Film Festival"
-  ],
-  [
-   1793365344.2508383,
-   "Автор The Bloodsworn Saga анонсував нове фентезі The Wolves of War"
-  ],
   [
    1793367273.4924567,
    "Фотограф Mark 'Weissguy' Weiss анонсував виставку до 40-річчя альбому Slippery When Wet гурту BON JOVI"
@@ -38671,6 +38546,22 @@
   [
    1793536282.3704243,
    "Sleep Theory випустили новий кліп на пісню «Giving In»"
+  ],
+  [
+   1793538219.3564508,
+   "Вокаліст QUEENSRŸCHE Тодд Ла Торре заспівав Powerslave гурту IRON MAIDEN у домашній студії"
+  ],
+  [
+   1793538313.014875,
+   "Гітарист TESLA Фрэнк Геннон виконав дві пісні разом із Y&T"
+  ],
+  [
+   1793538316.6529782,
+   "Дослідження показало політичну складність китайських ШІ-моделей"
+  ],
+  [
+   1793538321.0973988,
+   "Crownshift анонсували новий альбом The Shadows We Buried"
   ]
  ],
  "ukrainian": {
@@ -40957,7 +40848,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793532895.4551556,
+  "last_check": 1793538329.8761601,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
