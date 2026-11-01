@@ -1,5 +1,36 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:ai|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1793491293.770537
+  },
+  "src:games|Digital Foundry|https://www.digitalfoundry.net/feed": {
+   "detail": "https://www.digitalfoundry.net/feed → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/feed.xml → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.eurogamer.net/feed/digitalfoundry → 404 Client Error: Not Found for url: https://www.eurogamer.net/feed/digitalfoundry",
+   "label": "Джерело «Digital Foundry» не працює",
+   "sent": 0,
+   "since": 1793491277.225137
+  },
+  "src:games|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1793491260.7538195
+  },
+  "src:movies|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1793491291.4844224
+  },
+  "src:software|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1793491291.5089128
+  }
+ },
  "daily_digest_date": "2026-10-31",
  "freebies": {
   "last_check": 1793487701.4144223,
@@ -21,108 +52,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-10-31 23:01 UTC",
+  "at": "2026-11-01 00:02 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792796644.3266227,
-   2307,
-   "🤘",
-   "Kalandra: «Я не фанатіла від The Beatles, але на прослуховуванні сказала, що все життя про це мріяла»",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/features/kalandra-interview-the-other-side-beatles-paul-mccartney-wardruna-einar-selvik",
-    "orig": "Kalandra: “I wasn’t a fan of the Beatles, but going into that audition, I said, ‘This has been my dream forever!’”"
-   }
-  ],
-  [
-   1792796647.7481642,
-   2308,
-   "🤘",
-   "Секрети створення шедевра My Chemical Romance — The Black Parade",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/bands-artists/the-story-behind-my-chemical-romance-masterpiece-the-black-parade",
-    "orig": "\"We were invisible and insignificant. When nobody pays any attention to you, you realise how mortal you are. That’s why teenagers that are troubled are drawn to death.\" The story behind My Chemical Romance's world-conquering masterpiece The Black Parade"
-   }
-  ],
-  [
-   1792796658.5870566,
-   2309,
-   "🎮",
-   "G2 згаяли перевагу та поступилися Dplus KIA на LoL Worlds 2026",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/g2-throw-dk-lead-lec-lol-world-2026/",
-    "orig": "G2 Throw DK Lead and End LEC’s Undefeated LoL Worlds Run"
-   }
-  ],
-  [
-   1792798281.6419966,
-   2310,
-   "🎬",
-   "Констанс Ву розповіла про серіал-сиквел Crazy Rich Asians для HBO",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/crazy-rich-asians-constance-wu-teases-funny-hbo-series-1237172108/",
-    "orig": "‘Crazy Rich Asians’ Star Constance Wu Teases “Really Funny” HBO Series Filming In NYC"
-   }
-  ],
-  [
-   1792798284.916294,
-   2311,
-   "🤘",
-   "Mastodon розповіли про створення нового альбому Marrow Deep на тлі втрат",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/bands-artists/mastodon-marrow-deep-interview",
-    "orig": "How Mastodon coped with the grief of two deaths and made their most cathartic album"
-   }
-  ],
-  [
-   1792800086.0094361,
-   2312,
-   "🤘",
-   "Mark William Lewis випустив делюкс-версію альбому та новий трек \"Adrenaline\"",
-   "Stereogum",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://stereogum.com/2515477/mark-william-lewis-adrenaline/music/",
-    "orig": "Mark William Lewis – “Adrenaline”"
-   }
-  ],
-  [
-   1792800094.9879768,
-   2313,
-   "🎮",
-   "У продажу з'явився новий пазл за серією Dungeon Crawler Carl",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/barnes-noble-has-the-first-500-piece-dungeon-crawler-carl-jigsaw-puzzle-for-sale",
-    "orig": "Barnes & Noble Has the First 500-Piece Dungeon Crawler Carl Jigsaw Puzzle for Sale"
-   }
-  ],
   [
    1792801883.846019,
    2314,
@@ -21196,7 +21136,6 @@
    "Distorted Sound",
    {
     "also": [],
-    "caption": "🤘 <b>Серіна Черрі випускає другий альбом проєкту NOCTULE</b>\n\nПісля завершення кар&#x27;єри гурту SVALBARD музикантка Серіна Черрі випустила другий альбом свого сольного проєкту NOCTULE під назвою Extinguish Thy Flame. На створення платівки її надихнула відеогра Elden Ring та складні випробування у ній.\n\n🔗 <a href=\"https://distortedsoundmag.com/interview-noctule-from-the-ashes-of-the-erdtree/\">Distorted Sound</a>\n\n#музика",
     "kind": "photo",
     "link": "https://distortedsoundmag.com/interview-noctule-from-the-ashes-of-the-erdtree/",
     "orig": "Noctule: From The Ashes of the Erdtree"
@@ -21210,7 +21149,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Storm Corrosion готують другий альбом із 45-хвилинним треком</b>\n\nСтівен Вілсон і Мікаель Окерфельдт працюють над другим альбомом проєкту STORM CORROSION. Платівка складатиметься з єдиного 45-хвилинного треку, записаного переважно на акустичних інструментах із додаванням морської тематики.\n\n🔗 <a href=\"https://blabbermouth.net/news/storm-corrosions-upcoming-second-album-will-include-a-single-piece-of-music-that-is-45-minutes-long\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/storm-corrosions-upcoming-second-album-will-include-a-single-piece-of-music-that-is-45-minutes-long",
     "orig": "STORM CORROSION's Upcoming Second Album Will Include 'A Single Piece Of Music That Is 45 Minutes Long'"
@@ -21229,7 +21167,6 @@
       "https://mezha.ua/news/fanat-prince-of-persia-proponuye-ubisoft-5-mln-za-zavershennya-remeyku-316746/"
      ]
     ],
-    "caption": "🎮 <b>Фанат <a href=\"https://store.steampowered.com/app/19980/\">Prince of Persia</a> пропонує Ubisoft €5 млн за римейк The <a href=\"https://store.steampowered.com/app/4923300/\">Sands of Time</a></b>\n\nФанат ігрової франшизи The Prince of Persia запропонував Ubisoft понад €5 млн за завершення римейку The Sands of Time, скасованого раніше в цьому році.\n\n🔗 <a href=\"https://itc.ua/ua/novini/fanat-prince-of-persia-proponuye-ubisoft-5-mln-za-remejk-the-sands-of-time/\">ITC.ua</a>\n\n#ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/fanat-prince-of-persia-proponuye-ubisoft-5-mln-za-remejk-the-sands-of-time/",
     "orig": "Фанат Prince of Persia пропонує Ubisoft €5 млн за римейк The Sands of Time"
@@ -22068,6 +22005,48 @@
     "link": "https://www.indiewire.com/features/craft/scad-savannah-film-festival-directors-panel-1235224898/",
     "orig": "The Arcane Knowledge Directors Wish They Could Summon"
    }
+  ],
+  [
+   1793491304.7828536,
+   3975,
+   "🎮",
+   "Офіс EA в Мадриді розмалювали графіті Save Mass Effect",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Офіс EA в Мадриді розмалювали графіті Save <a href=\"https://store.steampowered.com/app/1328670/\">Mass Effect</a></b>\n\n🔗 <a href=\"https://www.ign.com/articles/save-mass-effect-graffiti-reportedly-spray-painted-outside-ea-building\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/save-mass-effect-graffiti-reportedly-spray-painted-outside-ea-building",
+    "orig": "Save Mass Effect Graffiti Reportedly Spray-Painted Outside EA Building"
+   }
+  ],
+  [
+   1793491308.5647273,
+   3976,
+   "🎬",
+   "Тайка Вайтіті різко розкритикував рецензентів свого фільму Klara and the Sun",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Тайка Вайтіті різко розкритикував рецензентів свого фільму Klara and the Sun</b>\n\nРежисер Тайка Вайтіті назвав кінокритиків свого нового фільму Klara and the Sun «неактуальними та застарілими». Водночас стрічка отримала лише 26% схвалення від критиків на Rotten Tomatoes і зібрала всього $701 тисяч у США за перший вікенд при бюджеті у $20 млн.\n\n🔗 <a href=\"https://deadline.com/2026/10/taika-waititi-calls-klara-and-the-sun-critics-irrelevant-1237210687/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/10/taika-waititi-calls-klara-and-the-sun-critics-irrelevant-1237210687/",
+    "orig": "Taika Waititi Calls ‘Klara and the Sun’ Critics “Irrelevant, Out Of Touch, Obsolete”"
+   }
+  ],
+  [
+   1793491318.4386737,
+   3977,
+   "🎮",
+   "Call of Duty: Modern Warfare 4 на Nintendo Switch 2 страждає від серйозного input lag",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/2000950/\">Call of Duty: Modern Warfare</a> 4 на Nintendo Switch 2 страждає від серйозного <a href=\"https://store.steampowered.com/app/4016010/\">input</a> lag</b>\n\nАналіз Digital Foundry показав, що у версії Call of Duty: Modern Warfare 4 для Nintendo Switch 2 затримка введення вдвічі перевищує показники PS5. У портативному режимі input lag сягає 100-125 мс, що ставить гравців у нерівні умови в мультиплеєрі, попри стабільні 60fps.\n\n🔗 <a href=\"https://www.ign.com/articles/input-lag-is-so-bad-in-call-of-duty-modern-warfare-4-on-nintendo-switch-2-that-players-suffer-from-a-competitive-disadvantage\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/input-lag-is-so-bad-in-call-of-duty-modern-warfare-4-on-nintendo-switch-2-that-players-suffer-from-a-competitive-disadvantage",
+    "orig": "Input Lag Is So Bad in Call of Duty: Modern Warfare 4 on Nintendo Switch 2 That Players Suffer From a 'Competitive Disadvantage'"
+   }
   ]
  ],
  "posted_by_source": {
@@ -22146,8 +22125,6 @@
    1793372530.3922298
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1793403088.3436582,
-   1793404890.74938,
    1793409555.3771765,
    1793409567.3299625,
    1793412083.002983,
@@ -22156,7 +22133,9 @@
    1793458901.2696383,
    1793476916.8532355,
    1793480599.3042967,
-   1793484103.0620124
+   1793484103.0620124,
+   1793491304.7832394,
+   1793491318.4390821
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1793387024.5696225,
@@ -22231,8 +22210,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1793403109.332329,
-   1793404881.692786,
    1793419296.9743114,
    1793428282.8234224,
    1793430232.4972498,
@@ -22245,7 +22222,8 @@
    1793460706.6157548,
    1793466269.1502938,
    1793482349.1808815,
-   1793484087.1435792
+   1793484087.1435792,
+   1793491308.5651205
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1793359919.5794566,
@@ -22431,7 +22409,6 @@
   "010c6d48b1e5f952": 1793351162.4246716,
   "011cc77ea72f034b": 1793018071.305719,
   "0120603410d811b3": 1793160083.4726992,
-  "0123b97c669feb80": 1792281232.7290099,
   "0129edf9d878bc47": 1793041344.9418051,
   "012a1727648e7f1e": 1792409525.8083944,
   "012bd9d9338c3e33": 1792726295.002681,
@@ -22468,7 +22445,6 @@
   "0343883f5244de04": 1792688509.1056721,
   "034ca9198dabca0a": 1792440095.2444327,
   "03667d0fe9dee95f": 1793289866.1088898,
-  "0390539d611de408": 1792281250.0493808,
   "03a7f2fab1bbcbfc": 1792440089.4938984,
   "03af1325ae0b0dd0": 1792402507.4494019,
   "03b5576353619ead": 1792775246.8938854,
@@ -22570,7 +22546,6 @@
   "07e4b78dd4ac7131": 1793034223.9594576,
   "07f114f11bf91819": 1792496082.9174666,
   "07f1e11594b493fd": 1793198022.9910626,
-  "07fda0469597f90a": 1792281245.7376587,
   "07fe994fd908d971": 1793201706.4028132,
   "08030a5e833dded3": 1793221322.1798923,
   "080867f3cc80fa1f": 1793048489.61019,
@@ -23109,7 +23084,6 @@
   "2521874317bf5259": 1793218938.898277,
   "252e4996228b1c70": 1793014486.3827193,
   "253ccaa0b6d52fa3": 1793120755.1609738,
-  "256eba115c9fd899": 1792281283.8120537,
   "259e99550aad65ff": 1792676079.1930747,
   "25a11735906051e2": 1792767655.7489853,
   "25a585ffc2b0ebbb": 1792524236.8654618,
@@ -23348,7 +23322,6 @@
   "32bb4e40252adb72": 1792575078.0680928,
   "32bffc3b532ae18a": 1793152879.234965,
   "32d1b1221d39f4b9": 1792492414.2800176,
-  "32d335af8fb1af3d": 1792281264.6447327,
   "32d4e22bed0cf28b": 1793179919.6852942,
   "32dc3e3aff11ec39": 1792663495.5033689,
   "32f669d87e7b98ee": 1793196195.9905612,
@@ -24085,7 +24058,6 @@
   "5bbb11d17e997699": 1793304120.253723,
   "5bbdd3b8d4f89892": 1792342906.3803601,
   "5bee63ca48e2797f": 1792515677.312114,
-  "5c057de4471e7288": 1792281275.1902585,
   "5c264083e6be8f2c": 1792468979.206972,
   "5c2c6eca4262adf3": 1793406677.730069,
   "5c42cb5d3a5fb806": 1793271831.6730425,
@@ -24353,7 +24325,6 @@
   "6a7af5c146603541": 1792422345.3332243,
   "6a9172fc4bab7ca5": 1792521140.0820882,
   "6a9277498b881d8f": 1792771293.3057654,
-  "6a9e0803aae674a2": 1792281223.533934,
   "6aaa8ed4d331fc8a": 1792352417.7990172,
   "6ab54cad7011f2b6": 1792492417.8062067,
   "6abaadf6942ae298": 1792595349.1176615,
@@ -24733,7 +24704,6 @@
   "7e5e9f17d9ab4c7e": 1792429316.8797965,
   "7e645e93183e8550": 1793277115.0753274,
   "7e7a6ce6c81ff0b4": 1793435592.9244723,
-  "7e9f4353d3f54acd": 1792281279.4565277,
   "7ea4156157dc444f": 1792762354.189617,
   "7eadcfab21bfacae": 1792859545.133006,
   "7eb12e82dc88d123": 1792528366.9903996,
@@ -24869,7 +24839,6 @@
   "873f76d05fea2276": 1793197859.826799,
   "8745ada1d31ddfb5": 1792998319.679243,
   "8755bc1233b8c71c": 1792555379.124613,
-  "876a29ee0a5d3acc": 1792281237.5537195,
   "877807ea7d3e48a7": 1792362702.1025689,
   "8778d5ef4ce9de81": 1793271828.7207968,
   "878b991d4a911dbc": 1793089898.9946342,
@@ -24910,6 +24879,7 @@
   "8954a7478946bb17": 1793208685.8469906,
   "89599497293a46a2": 1792443686.3810863,
   "8960ee4e0648583d": 1793020590.2737174,
+  "896978ea0202418d": 1793491308.565077,
   "89bc908f76e1f72d": 1793372548.1339798,
   "89f5d86d57cc5ad4": 1792346493.0826466,
   "8a090c85828412dc": 1792670718.2033083,
@@ -25199,6 +25169,7 @@
   "9984cef4b23e5fc4": 1793140288.0200877,
   "998ca5903d76ff06": 1792879253.5977192,
   "99938ccfefa50511": 1793275274.468206,
+  "9994c687d4cac11e": 1793491318.4390392,
   "9994f22d479055c9": 1793212604.067642,
   "99a1e82f41a7329f": 1793117074.9749768,
   "99a81e8268b7c018": 1792402623.1871777,
@@ -25356,6 +25327,7 @@
   "a2f2f9618514394b": 1793187196.008826,
   "a2fab407a1445220": 1792531923.7592003,
   "a2fea2ec1ef758fe": 1793014479.8326626,
+  "a31ebd4de4d65ef5": 1793491304.7831938,
   "a32cd3bec0e7da7c": 1793179897.8637753,
   "a32e33c7155a19c3": 1792607510.795099,
   "a3371908b767766e": 1792494154.5405889,
@@ -25516,7 +25488,6 @@
   "abdc79a465820e8d": 1793131343.6890454,
   "ac07a7bbcce0a655": 1793293378.1253593,
   "ac1e8b11b59a0e2d": 1793377930.3183196,
-  "ac2454c7138bebac": 1792281223.5437524,
   "ac2743dccbb1a688": 1792704659.4916987,
   "ac2e84230e21faee": 1792423963.5752678,
   "ac38962e8471dc4c": 1792375293.0947435,
@@ -25709,7 +25680,6 @@
   "b5d1731d605bbb09": 1792774961.7066147,
   "b5d613d302ddbbde": 1793298750.6876457,
   "b5d642a858ee4e65": 1793020611.1965215,
-  "b5f5b5654d7fc5bd": 1792281241.524026,
   "b5f7f300df6b34fe": 1793207020.085853,
   "b5fe12be629f305a": 1793289868.0926223,
   "b609be2fa6b938d2": 1792605794.7909818,
@@ -26051,7 +26021,6 @@
   "c97c44329ab28839": 1792512381.1285355,
   "c9ac75d8db97b11f": 1793352778.3821108,
   "c9b4e7d8a77d0dd0": 1792438371.8457463,
-  "c9cb07ac9e555059": 1792281288.5756776,
   "c9cb5104d42acfd3": 1792922487.8644497,
   "ca007a670eca9e91": 1792506189.40778,
   "ca08e3c2a0c3a7e1": 1792619357.6889036,
@@ -26111,7 +26080,6 @@
   "cd1aeebb74d80dda": 1793478679.4454348,
   "cd1f78c2abecd875": 1792603251.2103403,
   "cd4cefbc8b03185b": 1792407745.7637825,
-  "cd537d94965efdd7": 1792281254.1057408,
   "cda0ff8c4b28bf28": 1792378911.9657006,
   "cda63ff41108493c": 1793147525.1135733,
   "cdc340154db8f7c7": 1792778479.451782,
@@ -26879,7 +26847,6 @@
   "fa63425302900fe8": 1792794658.2445986,
   "fa890020bc986c86": 1793403075.670536,
   "fa8e540688a8ab4e": 1793139787.4976292,
-  "fa949988bc6f0cc5": 1792281224.0908048,
   "fa97042a490e1c02": 1793057475.943985,
   "faa01d98d67aaeb6": 1793367278.5374339,
   "fac265c8a195a2fc": 1793068257.2750583,
@@ -28195,7 +28162,7 @@
    "Bloomberg": 60,
    "DOU": 1,
    "DOU Gamedev": 5,
-   "Deadline": 88,
+   "Deadline": 89,
    "Decibel": 12,
    "Digital Foundry": 8,
    "Distorted Sound": 24,
@@ -28204,7 +28171,7 @@
    "GamesIndustry.biz": 21,
    "GitHub Trending": 24,
    "Hugging Face": 4,
-   "IGN": 90,
+   "IGN": 92,
    "ITC.ua": 66,
    "IndieWire": 28,
    "Insider Gaming": 90,
@@ -28233,7 +28200,7 @@
   "translators": {
    "DeepL": 35,
    "gemini-flash-latest": 49,
-   "gemini-flash-lite-latest": 1430
+   "gemini-flash-lite-latest": 1433
   },
   "week": "2026-W44"
  },
@@ -29093,31 +29060,6 @@
    "",
    1793374334.5666466
   ],
-  "q:4 adds": [
-   0,
-   "",
-   1793318482.0148394
-  ],
-  "q:4 adds 'non": [
-   0,
-   "",
-   1793318481.4998589
-  ],
-  "q:4 adds 'non milsim": [
-   0,
-   "",
-   1793318481.0161974
-  ],
-  "q:4 adds 'non milsim content'": [
-   0,
-   "",
-   1793318480.5036724
-  ],
-  "q:4 adds 'non milsim content' disclaimer": [
-   0,
-   "",
-   1793318480.01369
-  ],
   "q:4 devs have": [
    0,
    "",
@@ -29322,26 +29264,6 @@
    5151960,
    "Actors",
    1792494216.4245722
-  ],
-  "q:adds 'non": [
-   0,
-   "",
-   1793318484.0421515
-  ],
-  "q:adds 'non milsim": [
-   0,
-   "",
-   1793318483.539277
-  ],
-  "q:adds 'non milsim content'": [
-   0,
-   "",
-   1793318483.039732
-  ],
-  "q:adds 'non milsim content' disclaimer": [
-   0,
-   "",
-   1793318482.5418785
   ],
   "q:after being spray painted blue": [
    0,
@@ -30472,6 +30394,11 @@
    1677280,
    "Company of Heroes 3",
    1793207139.3398516
+  ],
+  "q:competitive disadvantage": [
+   0,
+   "",
+   1793491310.6243658
   ],
   "q:complete": [
    0,
@@ -32033,6 +31960,21 @@
    "",
    1793355116.0042088
   ],
+  "q:graffiti reportedly spray painted outside": [
+   0,
+   "",
+   1793491302.6615856
+  ],
+  "q:graffiti reportedly spray painted outside ea": [
+   0,
+   "",
+   1793491302.0730865
+  ],
+  "q:graffiti reportedly spray painted outside ea building": [
+   0,
+   "",
+   1793491301.5581295
+  ],
   "q:grand theft auto 4": [
    12210,
    "Grand Theft Auto IV: The Complete Edition",
@@ -32378,6 +32320,31 @@
    "Incursion Red River",
    1793044919.7005494
   ],
+  "q:input": [
+   4016010,
+   "Input",
+   1793491313.3795223
+  ],
+  "q:input lag": [
+   0,
+   "",
+   1793491312.7541804
+  ],
+  "q:input lag is": [
+   0,
+   "",
+   1793491312.2254899
+  ],
+  "q:input lag is so": [
+   0,
+   "",
+   1793491311.711478
+  ],
+  "q:input lag is so bad": [
+   0,
+   "",
+   1793491311.1470919
+  ],
   "q:inside": [
    304430,
    "INSIDE",
@@ -32402,6 +32369,11 @@
    0,
    "",
    1793469682.3611648
+  ],
+  "q:is so bad in call": [
+   0,
+   "",
+   1793491316.9413073
   ],
   "q:isn't": [
    0,
@@ -32757,6 +32729,31 @@
    0,
    "",
    1793377957.490806
+  ],
+  "q:lag": [
+   0,
+   "",
+   1793491316.3634152
+  ],
+  "q:lag is": [
+   0,
+   "",
+   1793491315.5818522
+  ],
+  "q:lag is so": [
+   0,
+   "",
+   1793491315.07252
+  ],
+  "q:lag is so bad": [
+   0,
+   "",
+   1793491314.5571358
+  ],
+  "q:lag is so bad in call": [
+   0,
+   "",
+   1793491313.9513552
   ],
   "q:lain": [
    4988650,
@@ -33132,6 +33129,26 @@
    0,
    "",
    1793372512.1828067
+  ],
+  "q:mass effect graffiti": [
+   0,
+   "",
+   1793491301.0286913
+  ],
+  "q:mass effect graffiti reportedly": [
+   0,
+   "",
+   1793491300.5043695
+  ],
+  "q:mass effect graffiti reportedly spray painted": [
+   0,
+   "",
+   1793491299.9807887
+  ],
+  "q:mass effect graffiti reportedly spray painted outside": [
+   0,
+   "",
+   1793491299.4144073
   ],
   "q:mass effect was": [
    0,
@@ -33792,21 +33809,6 @@
    2152570,
    "Noble",
    1792800092.0489268
-  ],
-  "q:non milsim content": [
-   0,
-   "",
-   1793318479.511835
-  ],
-  "q:non milsim content' disclaimer": [
-   0,
-   "",
-   1793318485.0516818
-  ],
-  "q:non milsim content' disclaimer to halloween": [
-   0,
-   "",
-   1793318484.5440245
   ],
   "q:none": [
    1082900,
@@ -34972,6 +34974,31 @@
    0,
    "",
    1793394143.519137
+  ],
+  "q:save mass": [
+   0,
+   "",
+   1793491298.7909834
+  ],
+  "q:save mass effect": [
+   0,
+   "",
+   1793491298.2762372
+  ],
+  "q:save mass effect graffiti": [
+   0,
+   "",
+   1793491297.693286
+  ],
+  "q:save mass effect graffiti reportedly": [
+   0,
+   "",
+   1793491297.1753278
+  ],
+  "q:save mass effect graffiti reportedly spray painted": [
+   0,
+   "",
+   1793491296.551587
   ],
   "q:says": [
    0,
@@ -36649,14 +36676,6 @@
  },
  "titles": [
   [
-   1793318486.5931919,
-   "Call of Duty: Modern Warfare 4 Adds 'Non MilSim Content' Disclaimer to Halloween Themed Content"
-  ],
-  [
-   1793318489.964027,
-   "Malevolent Creation guitarist Phil Fasciana gives statement following touring members being fired"
-  ],
-  [
    1793320276.044278,
    "Bloodbath & NervoChaos Announce Australian Tour For Early 2027"
   ],
@@ -38083,17 +38102,21 @@
   [
    1793487692.0326612,
    "The Arcane Knowledge Directors Wish They Could Summon"
+  ],
+  [
+   1793491304.7831955,
+   "Save Mass Effect Graffiti Reportedly Spray-Painted Outside EA Building"
+  ],
+  [
+   1793491308.5650787,
+   "Taika Waititi Calls ‘Klara and the Sun’ Critics “Irrelevant, Out Of Touch, Obsolete”"
+  ],
+  [
+   1793491318.4390407,
+   "Input Lag Is So Bad in Call of Duty: Modern Warfare 4 on Nintendo Switch 2 That Players Suffer From a 'Competitive Disadvantage'"
   ]
  ],
  "titles_uk": [
-  [
-   1793318486.5931933,
-   "Call of Duty: Modern Warfare 4 отримав позначку Non-MilSim Content для контенту на Геловін"
-  ],
-  [
-   1793318489.9640276,
-   "Гітарист Malevolent Creation Філ Фасціана прокоментував звільнення учасників туру"
-  ],
   [
    1793320276.0442789,
    "Bloodbath і NervoChaos вирушать у спільний тур Австралією"
@@ -39521,6 +39544,18 @@
   [
    1793487692.0326622,
    "Режисери розповіли про виклики у роботі з VFX та нові навички в кіно"
+  ],
+  [
+   1793491304.7831964,
+   "Офіс EA в Мадриді розмалювали графіті Save Mass Effect"
+  ],
+  [
+   1793491308.5650792,
+   "Тайка Вайтіті різко розкритикував рецензентів свого фільму Klara and the Sun"
+  ],
+  [
+   1793491318.4390419,
+   "Call of Duty: Modern Warfare 4 на Nintendo Switch 2 страждає від серйозного input lag"
   ]
  ],
  "ukrainian": {
@@ -41806,7 +41841,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793487700.9689953,
+  "last_check": 1793491327.4992383,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
