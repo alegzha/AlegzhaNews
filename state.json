@@ -1,8 +1,15 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:software|AIN.ua|https://ain.ua/feed/": {
+   "detail": "https://ain.ua/feed/ → Response ended prematurely",
+   "label": "Джерело «AIN.ua» не працює",
+   "sent": 0,
+   "since": 1793651472.0060058
+  }
+ },
  "daily_digest_date": "2026-11-02",
  "freebies": {
-  "last_check": 1793644418.7102144,
+  "last_check": 1793651515.6454413,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -25,11 +32,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-02 20:05 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-11-02 20:32 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 10
+   "gemini-flash-lite-latest": 4
   },
   "used": [
    "Gemini"
@@ -22447,7 +22454,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>Blizzard підтвердила час глобального релізу та старт попереднього завантаження World of Warcraft Forever</b>\n\nBlizzard оголосила час глобального релізу World of Warcraft Forever, який відбудеться 4 листопада о 15:00 за тихоокеанським часом. Гра вже доступна для попереднього завантаження у лаунчері Battle.net, а для її встановлення знадобиться щонайменше 128 ГБ на SSD.\n\n🔗 <a href=\"https://www.ign.com/articles/world-of-warcraft-forever-preload-and-global-release-times-confirmed\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/world-of-warcraft-forever-preload-and-global-release-times-confirmed",
     "orig": "World of Warcraft Forever Preload and Global Release Times Confirmed"
@@ -22461,7 +22467,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Активність гравців у <a href=\"https://store.steampowered.com/app/1938090/\">Call of Duty</a> знижується попри релізи нових частин</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2685360/\">Remove</a>\n\n🔗 <a href=\"https://insider-gaming.com/sbmm-call-of-duty/\">Insider Gaming</a>\n\n#ігри",
     "kind": "text",
     "link": "https://insider-gaming.com/sbmm-call-of-duty/",
     "orig": "Call of Duty Needs to Remove Skill-Based Matchmaking for it to be Successful Again"
@@ -22480,7 +22485,6 @@
       "https://lambgoat.com/news/55657/thornhill-announce-surfs-up-festival-2027-with-alpha-wolf-varials-and-more/"
      ]
     ],
-    "caption": "🤘 <b>Thornhill анонсували власний фестиваль Surf’s Up! Festival у Мельбурні</b>\n\nАвстралійський гурт Thornhill анонсував власний фестиваль Surf’s Up! Festival, який відбудеться 20 лютого в Мельбурні на площадці Riviera Beach Club. Музиканти особисто сформували лайнап події, до якого увійшли Stand Atlantic, Alpha Wolf, sace6 та інші колективи.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/02/news/thornhill-announce-their-surfs-up-festival-with-stand-atlantic-alpha-wolf-sace6-more/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/02/news/thornhill-announce-their-surfs-up-festival-with-stand-atlantic-alpha-wolf-sace6-more/",
     "orig": "Thornhill Announce Their ‘Surf’s Up! Festival’ With Stand Atlantic, Alpha Wolf, Sace6 & More"
@@ -22494,7 +22498,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎬 <b>Режисер культового шоу Spaced дізнався про 4K-видання із соцмережі</b>\n\nРежисер Едгар Райт («Скотт Пілігрим проти всіх», «Людина, що біжить») розкритикував майбутнє перевидання культового британського серіалу Spaced на Blu-ray, яке, за описом, апскейлили до 4K із застосуванням ШІ. Режисер каже, що вперше дізнався про реліз із соцмережі, і заявляє, що видання не погоджував ніхто з тих, хто брав участь у створенні шоу.\n\n🔗 <a href=\"https://itc.ua/ua/novini/rezhyser-kultovogo-shou-spaced-diznavsya-pro-4k-vydannya-iz-sotsmerezhi/\">ITC.ua</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/rezhyser-kultovogo-shou-spaced-diznavsya-pro-4k-vydannya-iz-sotsmerezhi/",
     "orig": "Режисер культового шоу Spaced дізнався про 4K-видання із соцмережі"
@@ -23306,11 +23309,72 @@
    "Knocked Loose та Arkangel виступлять на фестивалі FYA XIII",
    "Lambgoat",
    {
-    "also": [],
+    "also": [
+     [
+      "ThePRP",
+      "https://www.theprp.com/2026/11/02/news/knocked-loose-arkangel-added-to-2027-fya-fest/"
+     ]
+    ],
     "caption": "🤘 <b>Knocked Loose та Arkangel виступлять на фестивалі FYA XIII</b>\n\nГурти Knocked Loose та Arkangel поповнили лайнап хардкор-фестивалю FYA XIII, який пройде 9–10 січня 2027 року в Орландо. Knocked Loose виступлять хедлайнерами другого дня заходу, а Arkangel приєднаються до них у суботу, 10 січня.\n\n🔗 <a href=\"https://lambgoat.com/news/55659/knocked-loose-and-arkangel-added-to-fya-xiii/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55659/knocked-loose-and-arkangel-added-to-fya-xiii/",
     "orig": "Knocked Loose and Arkangel added to FYA XIII"
+   }
+  ],
+  [
+   1793651478.8967273,
+   4309,
+   "🤘",
+   "Parkway Drive, Evanescence та Beartooth виступлять на Rock for People 2027",
+   "Kerrang!",
+   {
+    "also": [],
+    "caption": "🤘 <b>Parkway Drive, Evanescence та Beartooth виступлять на Rock for People 2027</b>\n\n🔗 <a href=\"https://www.kerrang.com/parkway-drive-evanescence-beartooth-and-more-announced-for-rock-for-people-2027\">Kerrang!</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.kerrang.com/parkway-drive-evanescence-beartooth-and-more-announced-for-rock-for-people-2027",
+    "orig": "Parkway Drive, Evanescence, Beartooth and more announced for Rock for People 2027"
+   }
+  ],
+  [
+   1793651486.870435,
+   4310,
+   "🤖",
+   "Goldman Sachs обмежив доступ трейдерів і банкірів до ШІ-інструментів",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Goldman Sachs обмежив доступ трейдерів і банкірів до ШІ-інструментів</b>\n\nКомпанія Goldman Sachs заборонила більшості співробітників, зокрема трейдерам і банкірам, користуватися просунутими ШІ-інструментами для написання коду на кшталт Claude Code та GitHub. Доступ залишили лише інженерам через питання продуктивності та управління ризиками.\n\n🔗 <a href=\"https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/goldman-sachs-pulls-ai-coding-tools-from-traders-and-bankers/",
+    "orig": "Goldman Sachs pulls AI coding tools from traders and bankers"
+   }
+  ],
+  [
+   1793651503.3496587,
+   4311,
+   "🤘",
+   "Cave In та Glacier анонсували спільні концерти на лютий 2027 року",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Cave In та Glacier анонсували спільні концерти на лютий 2027 року</b>\n\nГурти Cave In та Glacier анонсували два спільні концерти, які відбудуться у лютому 2027 року в Брукліні та Чеширі. На афішах використано обкладинку з компіляції Cave In 1998 року «Beyond Hypothermia».\n\n🔗 <a href=\"https://www.theprp.com/2026/11/02/news/cave-in-and-glacier-announce-february-2027-east-coast-shows/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/11/02/news/cave-in-and-glacier-announce-february-2027-east-coast-shows/",
+    "orig": "Cave In And Glacier Announce February 2027 East Coast Shows"
+   }
+  ],
+  [
+   1793651505.2037437,
+   4312,
+   "💾",
+   "Розробник скомпілював у ШІ Qwen процесор RISC-V та запустив на ньому Doom",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "💾 <b>Розробник скомпілював у ШІ Qwen процесор RISC-V та запустив на ньому Doom</b>\n\nІнженер ШІ Дів&#x27;янш Агравал представив Qwenputer. Цей програмний витвір поєднує модель Qwen 3.5 4B з 32-бітовим процесором RISC-V, скомпільованим та вставленим у її ваги. Так, він може запускати Doom.\n\n🔗 <a href=\"https://mezha.ua/news/doom-on-qwenputer-316797/\">Mezha</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/doom-on-qwenputer-316797/",
+    "orig": "Розробник скомпілював у ШІ Qwen процесор RISC-V та запустив на ньому Doom"
    }
   ]
  ],
@@ -23346,7 +23410,8 @@
    1793635430.1373937,
    1793637109.878051,
    1793644404.110085,
-   1793649854.8986146
+   1793649854.8986146,
+   1793651486.8708634
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1793370738.9416513
@@ -23566,10 +23631,8 @@
    1793644382.6681406
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
-   1793532879.7078288,
-   1793534485.9964345,
-   1793536278.2365446,
-   1793615571.3938231
+   1793615571.3938231,
+   1793651478.8971636
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
    1793639185.722519,
@@ -23623,7 +23686,8 @@
    1793642514.115536,
    1793646102.6507056,
    1793647911.828064,
-   1793649828.9046812
+   1793649828.9046812,
+   1793651503.3501039
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1793613840.9178333
@@ -23659,10 +23723,10 @@
    1793635464.8252332
   ],
   "software|Mezha|https://mezha.ua/feed/": [
-   1793557994.734496,
    1793602973.6274893,
    1793612090.4614837,
-   1793617284.1237152
+   1793617284.1237152,
+   1793651505.2041721
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1793608295.3269203,
@@ -24362,6 +24426,7 @@
   "259e99550aad65ff": 1792676079.1930747,
   "25a11735906051e2": 1792767655.7489853,
   "25a585ffc2b0ebbb": 1792524236.8654618,
+  "25aac006b01cda83": 1793651505.2041273,
   "25b95661cf65bfb6": 1792771418.1505067,
   "25cd0e80e6a75d7f": 1793368887.4111154,
   "25dfcb924708a408": 1793147553.6313708,
@@ -24473,6 +24538,7 @@
   "2b81dcf9e507563d": 1793037754.3713224,
   "2bb73bb0ce47ee69": 1793287853.8526087,
   "2bbf00a5ae944e24": 1793608303.005661,
+  "2bd4df03607da181": 1793651486.8708184,
   "2be94a4245203851": 1793122405.5746734,
   "2c445ccd223caa21": 1793494851.2202039,
   "2c46dd4752d3921d": 1793179876.8601167,
@@ -24712,6 +24778,7 @@
   "39f493f54d0929f7": 1792695730.2072413,
   "3a0713752c203ca2": 1792868516.8868833,
   "3a08633d34e0240f": 1793358091.271157,
+  "3a28b6857e1c43e9": 1793651452.7271295,
   "3a5a921f9cab9df4": 1793106092.10505,
   "3a5c98bbeebb49d1": 1792600316.6334214,
   "3a655cf5b117398d": 1793008894.639011,
@@ -24859,7 +24926,6 @@
   "41abc7095c1d5e76": 1793432150.8162344,
   "41c939ba78b119a1": 1792762311.2503817,
   "41d1022308607941": 1793626398.572794,
-  "41d9141846fea3d3": 1792441875.1472027,
   "41e0ebb8ff8b06ae": 1792854053.1157928,
   "41eb96a631379cff": 1793336501.0182874,
   "420e3128427ac541": 1793203465.117033,
@@ -25171,6 +25237,7 @@
   "53ba44d6f02e962e": 1792702880.131792,
   "53bedd77182905bc": 1793410460.1131809,
   "53c0799096c07d35": 1792616515.29157,
+  "53c7321c7f208bad": 1793651474.6009927,
   "53cd622ecf95c9c3": 1792953054.3401487,
   "53e83790b851ff73": 1793172959.069665,
   "53f1002f88b94fe8": 1793390708.705557,
@@ -25235,6 +25302,7 @@
   "5752f8049c9bfa12": 1792780419.9417808,
   "5758d4a252c11a93": 1792659700.8276908,
   "57595750c52e519a": 1792492403.2252326,
+  "5773515e4858031c": 1793651503.3500595,
   "5781f241b5cdf113": 1793020581.5877795,
   "578a4e7c080a95c7": 1793363606.5883389,
   "579b584eafaa4147": 1792578701.320366,
@@ -25622,7 +25690,6 @@
   "6bb47dacc174606a": 1792623653.3875859,
   "6bc8cbfb21d3a747": 1793210820.8066473,
   "6bd0091621829615": 1793124057.0988903,
-  "6bd69432294c8b0f": 1792441875.6606822,
   "6bef440fd66cae9a": 1793435454.1575031,
   "6bf443b51d6286a5": 1793604776.9877975,
   "6bf816ec3870b8d9": 1792735456.740413,
@@ -26039,6 +26106,7 @@
   "82c2d3b0d0ef2af7": 1793538316.6529753,
   "82cd1c7df699aea7": 1793410457.167143,
   "82da43c404ae6738": 1793558003.142297,
+  "82daf9e9c378eff7": 1793651474.2692106,
   "82f9e67b19988f32": 1793041302.0314975,
   "82fd3bf7d98608db": 1793448054.1956563,
   "8302831122ccf886": 1793302392.7809267,
@@ -27754,6 +27822,7 @@
   "e45e8d7d3b5fe1f2": 1792487057.804484,
   "e463138d1f55a6a0": 1792522879.8138556,
   "e468f4bfa64dbd11": 1793639134.2829976,
+  "e470899c9154060a": 1793651507.8428893,
   "e4798de9f762ac18": 1793295491.3080368,
   "e481e8eea357f053": 1793210853.8194854,
   "e4966501a21957ec": 1793304112.5440762,
@@ -27939,7 +28008,6 @@
   "efefd3e7f16fbe36": 1793217712.6607685,
   "f03a6b556d636049": 1793241083.7364578,
   "f06b4bddf27b5dbe": 1793113276.9959323,
-  "f0884b43a744ed86": 1792441853.8507822,
   "f088dd9b8cb7e47b": 1793052122.5443468,
   "f09a6989a24c5c7a": 1792708282.630945,
   "f09b100f5046f8be": 1793437379.2043796,
@@ -28179,6 +28247,7 @@
   "fc43383b6b2c8e09": 1793363600.241697,
   "fc4cfae9be9fa676": 1793381519.1754973,
   "fc54dd61356cc59f": 1792810874.3599637,
+  "fc63bd75f12a0f57": 1793651478.8971174,
   "fc76c4d05dee1e30": 1793485853.851234,
   "fc81d743c9602d50": 1793520081.7436445,
   "fc88cbf0bb1b4161": 1792612854.3680623,
@@ -28693,7 +28762,7 @@
   ],
   "artists_checked": 1793646137.3875685,
   "blocked_until": 1793644476.5654018,
-  "cursor": 25,
+  "cursor": 35,
   "digest_week": "2026-W44",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -29430,7 +29499,7 @@
    "Digital Foundry": 1,
    "GameSpot": 1,
    "IGN": 1,
-   "Insider Gaming": 13,
+   "Insider Gaming": 14,
    "Kerrang!": 1,
    "PC Gamer": 1,
    "Polygon": 10
@@ -29453,12 +29522,12 @@
    "ITC.ua": 12,
    "IndieWire": 5,
    "Insider Gaming": 15,
-   "Kerrang!": 1,
+   "Kerrang!": 2,
    "Lambgoat": 6,
    "Loudwire": 6,
    "Metal Hammer (Louder)": 6,
    "Metal Injection": 1,
-   "Mezha": 10,
+   "Mezha": 11,
    "PC Gamer": 13,
    "Pitchfork": 2,
    "PlayUA": 3,
@@ -29467,15 +29536,15 @@
    "Revolver": 1,
    "Rock Paper Shotgun": 8,
    "Stereogum": 3,
-   "The Decoder": 6,
-   "ThePRP": 7,
+   "The Decoder": 7,
+   "ThePRP": 8,
    "VGC": 8,
    "Variety": 6
   },
   "translators": {
    "DeepL": 5,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 211
+   "gemini-flash-lite-latest": 215
   },
   "week": "2026-W45"
  },
@@ -33910,36 +33979,6 @@
    "",
    1793482352.0978916
   ],
-  "q:joe": [
-   0,
-   "",
-   1793476912.3194754
-  ],
-  "q:joe manganiello": [
-   0,
-   "",
-   1793476911.8022356
-  ],
-  "q:joe manganiello says": [
-   0,
-   "",
-   1793476911.2856905
-  ],
-  "q:joe manganiello says he": [
-   0,
-   "",
-   1793476910.5945785
-  ],
-  "q:joe manganiello says he 'will": [
-   0,
-   "",
-   1793476910.0879107
-  ],
-  "q:joe manganiello says he 'will never": [
-   0,
-   "",
-   1793476909.5394816
-  ],
   "q:join": [
    4948290,
    "JOIN",
@@ -34339,31 +34378,6 @@
    5272890,
    "Mammoth",
    1792762325.5861564
-  ],
-  "q:manganiello says": [
-   0,
-   "",
-   1793476914.9172633
-  ],
-  "q:manganiello says he": [
-   0,
-   "",
-   1793476914.4204946
-  ],
-  "q:manganiello says he 'will": [
-   0,
-   "",
-   1793476913.9287925
-  ],
-  "q:manganiello says he 'will never": [
-   0,
-   "",
-   1793476913.3040993
-  ],
-  "q:manganiello says he 'will never give": [
-   0,
-   "",
-   1793476912.8096578
   ],
   "q:marathon": [
    3065800,
@@ -37240,11 +37254,6 @@
    "",
    1793553040.0011
   ],
-  "q:will never give up hope": [
-   0,
-   "",
-   1793476909.0423894
-  ],
   "q:witchbrook": [
    1846700,
    "Witchbrook",
@@ -37542,9 +37551,9 @@
    "binance",
    "brave1",
    "call of duty",
-   "meta",
    "motorola",
    "osint",
+   "qwen3",
    "spacex",
    "антидронові сітки",
    "бізнес",
@@ -37558,11 +37567,10 @@
    "новини",
    "оборонка",
    "опк",
-   "правосуддя",
    "північна корея",
    "росія",
    "смартфони",
-   "статті",
+   "софт",
    "технології",
    "україна",
    "флот",
@@ -37573,10 +37581,6 @@
   ]
  },
  "titles": [
-  [
-   1793478686.1992068,
-   "Elder Scrolls Skyblivion mod faces lawsuit from former volunteer, project lead urges 'Please don't turn this into any kind of witch hunt'"
-  ],
   [
    1793480520.195595,
    "Lanterns VFX Reel Shows How The HBO Series Spent Its Massive Budget"
@@ -38912,13 +38916,25 @@
   [
    1793649917.1394498,
    "Knocked Loose and Arkangel added to FYA XIII"
+  ],
+  [
+   1793651478.8971198,
+   "Parkway Drive, Evanescence, Beartooth and more announced for Rock for People 2027"
+  ],
+  [
+   1793651486.8708203,
+   "Goldman Sachs pulls AI coding tools from traders and bankers"
+  ],
+  [
+   1793651503.3500607,
+   "Cave In And Glacier Announce February 2027 East Coast Shows"
+  ],
+  [
+   1793651505.2041287,
+   "Розробник скомпілював у ШІ Qwen процесор RISC-V та запустив на ньому Doom"
   ]
  ],
  "titles_uk": [
-  [
-   1793478686.1992073,
-   "Автори модифікації Skyblivion зіткнулися з позовом від колишнього волонтера"
-  ],
   [
    1793480520.195596,
    "Студія CoSA VFX показала, на що пішов бюджет серіалу Lanterns від HBO"
@@ -40254,6 +40270,22 @@
   [
    1793649917.1394515,
    "Knocked Loose та Arkangel виступлять на фестивалі FYA XIII"
+  ],
+  [
+   1793651478.8971205,
+   "Parkway Drive, Evanescence та Beartooth виступлять на Rock for People 2027"
+  ],
+  [
+   1793651486.8708212,
+   "Goldman Sachs обмежив доступ трейдерів і банкірів до ШІ-інструментів"
+  ],
+  [
+   1793651503.350062,
+   "Cave In та Glacier анонсували спільні концерти на лютий 2027 року"
+  ],
+  [
+   1793651505.20413,
+   "Розробник скомпілював у ШІ Qwen процесор RISC-V та запустив на ньому Doom"
   ]
  ],
  "ukrainian": {
@@ -40299,6 +40331,7 @@
    "1252330": "",
    "1268750": "",
    "1282730": "",
+   "1285190": "",
    "1286830": "",
    "1289670": "",
    "1295660": "",
@@ -40383,6 +40416,7 @@
    "1938090": "",
    "1939970": "",
    "1940340": "is",
+   "1942280": "",
    "1943950": "",
    "1946700": "is",
    "1951230": "i",
@@ -40395,6 +40429,7 @@
    "2050650": "",
    "2054970": "",
    "2055770": "i",
+   "2060160": "",
    "2062430": "is",
    "2067790": "",
    "2073620": "",
@@ -40456,6 +40491,7 @@
    "242760": "",
    "2428980": "",
    "243950": "",
+   "2440760": "",
    "2446540": "",
    "2461850": "is",
    "2464280": "",
@@ -40743,7 +40779,7 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1793629937.9668455,
+  "last_check": 1793651526.1264186,
   "with_uk": 100
  },
  "weekly_releases_week": "2026-W45",
@@ -42542,7 +42578,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793647920.4925742,
+  "last_check": 1793651515.330056,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
