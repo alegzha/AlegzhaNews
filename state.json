@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1793664078.753545
+  }
+ },
  "daily_digest_date": "2026-11-02",
  "freebies": {
   "last_check": 1793658717.284555,
@@ -25,43 +32,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-02 23:31 UTC",
+  "at": "2026-11-03 00:02 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 5
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1792971151.1391392,
-   2560,
-   "🎬",
-   "Творці The New Stanford Prison Experiment від Netflix розповіли про фінал шоу",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/the-new-stanford-prison-experiment-finale-shocker-netflix-1236930530/",
-    "orig": "‘The New Stanford Prison Experiment’ Creators Break Down Its Shocking Finale"
-   }
-  ],
-  [
-   1792971156.127484,
-   2561,
-   "🤘",
-   "Учасників Cancer Bats обікрали під час туру в США",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/bands-artists/cancer-bats",
-    "orig": "How Cancer Bats are surviving the music industry on their own terms"
-   }
-  ],
   [
    1792972962.1577044,
    2562,
@@ -22720,7 +22701,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>Серіал The Fall and Rise of Reggie Dinkins вражає гумором</b>\n\nУ другому сезоні ситкому колишній гравець NFL Реджі Дінкінс намагається потрапити до Зали слави американського футболу. Його документаліст Артур Тобін шукає правильний ракурс для камбеку, а колишня дружина й агент Моніка намагається закріпити минулі успіхи.\n\n🔗 <a href=\"https://www.indiewire.com/criticism/shows/the-fall-and-rise-of-reggie-dinkins-season-2-review-1235224563/\">IndieWire</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.indiewire.com/criticism/shows/the-fall-and-rise-of-reggie-dinkins-season-2-review-1235224563/",
     "orig": "‘The Fall and Rise of Reggie Dinkins’ Is the Funniest Series of the Year"
@@ -22734,7 +22714,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>NBC розробляє детективну драму Worth</b>\n\nNBC та Universal Television працюють над новим детективним серіалом Worth. Сюжет розповідає про колишнього армійського рейнджера та автора бестселерів Вілла Ворта, який повертається до роботи детектива в Нашвіллі. Проєкт створюють Майк Ділiберті, Джейк Кобурн та Джек Карр.\n\n🔗 <a href=\"https://deadline.com/2026/11/mike-diliberti-developing-worth-drama-series-nbc-1237210996/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/mike-diliberti-developing-worth-drama-series-nbc-1237210996/",
     "orig": "‘Worth’ Detective Drama From Mike Diliberti, Jake Coburn & Jack Carr In Development At NBC"
@@ -23074,7 +23053,12 @@
    "Trivium випустили лайв-відео треку Fugue напередодні туру",
    "ThePRP",
    {
-    "also": [],
+    "also": [
+     [
+      "Lambgoat",
+      "https://lambgoat.com/news/55663/trivium-perform-fugue-on-their-latest-episode-of-live-at-the-hanger/"
+     ]
+    ],
     "caption": "🤘 <b>Trivium випустили лайв-відео треку Fugue напередодні туру</b>\n\nГурт Trivium опублікував студійне лайв-відео на композицію Fugue (A Revelation) з альбому Ember To Inferno. Запис зробили на їхній репетиційній базі The Hangar як розминку перед північноамериканським туром на підтримку нової пластинки Crown In The Grave, реліз якої запланований на 20 листопада.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/02/news/trivium-release-fugue-live-performance-from-their-hangar-homebase/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/02/news/trivium-release-fugue-live-performance-from-their-hangar-homebase/",
@@ -23191,7 +23175,12 @@
    "Cave In та Glacier анонсували спільні концерти на лютий 2027 року",
    "ThePRP",
    {
-    "also": [],
+    "also": [
+     [
+      "Lambgoat",
+      "https://lambgoat.com/news/55662/cave-in-book-pair-of-early-2027-northeastern-dates-with-glacier/"
+     ]
+    ],
     "caption": "🤘 <b>Cave In та Glacier анонсували спільні концерти на лютий 2027 року</b>\n\nГурти Cave In та Glacier анонсували два спільні концерти, які відбудуться у лютому 2027 року в Брукліні та Чеширі. На афішах використано обкладинку з компіляції Cave In 1998 року «Beyond Hypothermia».\n\n🔗 <a href=\"https://www.theprp.com/2026/11/02/news/cave-in-and-glacier-announce-february-2027-east-coast-shows/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/02/news/cave-in-and-glacier-announce-february-2027-east-coast-shows/",
@@ -23527,7 +23516,12 @@
    "Thy Art Is Murder випустили трек і кліп \"Squeeze\" з новим вокалістом",
    "ThePRP",
    {
-    "also": [],
+    "also": [
+     [
+      "Lambgoat",
+      "https://lambgoat.com/news/55664/thy-art-is-murder-debut-single-squeeze-featuring-new-vocalist-jerry-grimefeld/"
+     ]
+    ],
     "caption": "🤘 <b>Thy Art Is Murder випустили трек і кліп &quot;Squeeze&quot; з новим вокалістом</b>\n\nГурт Thy Art Is Murder презентував пісню та кліп &quot;Squeeze&quot;, що стали першою студійною роботою з новим вокалістом Jerry Grimefeld. Трек записали за участю продюсера Will Putney на власному лейблі колективу Human Warfare. У грудні колектив також вирушить у короткий тур Австралією на підтримку релізу.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/02/news/thy-art-is-murder-hard-launch-their-new-era-with-squeeze-music-video-december-australian-tour/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/02/news/thy-art-is-murder-hard-launch-their-new-era-with-squeeze-music-video-december-australian-tour/",
@@ -23574,6 +23568,34 @@
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/02/news/the-useds-orchestral-live-film-a-mid-summer-nights-symphony-is-coming-to-streaming-this-month/",
     "orig": "The Used’s Orchestral Live Film ‘A Mid Summer Night’s Symphony’ Is Coming To Streaming This Month"
+   }
+  ],
+  [
+   1793664113.1288722,
+   4339,
+   "🎮",
+   "Смертельно хворий фанат GTA 6 помер за три тижні до релізу гри",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Смертельно хворий фанат GTA 6 помер за три тижні до релізу гри</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/1757350/\">Ill</a>\n\nБлогер Jerry, відомий як Void Only, помер через ускладнення після операції на легендях. Він мріяв зіграти у GTA 6 і планував стрімити гру для своєї спільноти, яка зібрала $50 000 на його лікування через GoFundMe.\n\n🔗 <a href=\"https://www.ign.com/articles/terminally-ill-gta-6-fan-dies-three-weeks-before-games-launch-fans-pay-their-respects\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/terminally-ill-gta-6-fan-dies-three-weeks-before-games-launch-fans-pay-their-respects",
+    "orig": "Terminally Ill GTA 6 Fan Dies 3 Weeks Before Game's Launch, Fans Pay Their Respects"
+   }
+  ],
+  [
+   1793664121.168774,
+   4340,
+   "🤘",
+   "Фронтмен Contention Космо Відуссі випускає мемуари про європейський тур гурту",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Фронтмен Contention Космо Відуссі випускає мемуари про європейський тур гурту</b>\n\nФронтмен хардкор-гурту Contention Космо Відуссі анонсував книжку Life In Exile: European Annihilation. Мемуари присвячені 10 концертам колективу в Європі влітку 2025 року, зокрема виступу на Outbreak Fest у Манчестері. Реліз видання запланований на 20 листопада 2026 року.\n\n🔗 <a href=\"https://lambgoat.com/news/55665/contentions-cosmo-vidussi-releases-life-in-exile-european-annihilation-2025-tour-memoir/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55665/contentions-cosmo-vidussi-releases-life-in-exile-european-annihilation-2025-tour-memoir/",
+    "orig": "Contention's Cosmo Vidussi releases 'LIFE IN EXILE: European Annihilation' 2025 tour memoir"
    }
   ]
  ],
@@ -23665,7 +23687,8 @@
    1793649850.9737365,
    1793653380.578155,
    1793657149.5542402,
-   1793660594.8607693
+   1793660594.8607693,
+   1793664113.129391
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1793617332.4510343,
@@ -23843,7 +23866,8 @@
    1793642545.237678,
    1793642550.1801994,
    1793649886.0160327,
-   1793649917.1394968
+   1793649917.1394968,
+   1793664121.1692753
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1793626381.529533,
@@ -24405,6 +24429,7 @@
   "182f846e5acaf7e8": 1793259084.3508482,
   "1850a1bf855c9485": 1793640659.9838288,
   "186cfe3c3af3b7cd": 1792528327.905065,
+  "187082d91f09f74c": 1793664118.122448,
   "187503038e084374": 1792683088.5128713,
   "18953afe3d6d1db4": 1792792877.8679307,
   "18a3eb2bbbc29372": 1792873896.7767787,
@@ -24416,6 +24441,7 @@
   "193c3476051a3e3a": 1793644407.26151,
   "1950cef0688b5a75": 1792819884.92142,
   "197f7f9d3c4c7331": 1793368973.1461992,
+  "198af98f7329de4c": 1793664116.4814746,
   "1990d44db17959f1": 1792666886.609666,
   "19b02860231dbdd5": 1793291799.7517018,
   "19ba1e744eab5717": 1792904010.80863,
@@ -24606,7 +24632,6 @@
   "233d9a1ae15e0f6a": 1793000068.655508,
   "2340f23a7866f63a": 1793617303.6064975,
   "23512709f36e2548": 1793262980.6241066,
-  "236999d0426ce59b": 1792454490.5140986,
   "23849ec5ae2c15af": 1792688715.1904914,
   "238ba0f5766f4273": 1792697476.6153088,
   "239847d653e8dc3a": 1792879313.6705377,
@@ -25092,6 +25117,7 @@
   "3f27b55d48448ec0": 1792915928.8324142,
   "3f4f65f1f3a93f4a": 1793291485.7270722,
   "3f6fb5fab81d5dc7": 1793313170.9484394,
+  "3f78491a683059a9": 1793664055.972561,
   "3f831eff304bbf23": 1792764053.9746714,
   "3f88bfc617ec2070": 1792841591.1889095,
   "3fae66dae3f8f212": 1792697497.8688934,
@@ -25815,6 +25841,7 @@
   "673bede5c967a05e": 1793363576.4927995,
   "67437b8079eff178": 1792787522.7506843,
   "6744bfc95f7fc1c5": 1793656934.4880238,
+  "6753efab78a345ac": 1793664121.1692266,
   "676cec2606af3350": 1793037835.5168483,
   "677eae266e0e28e0": 1792942280.741516,
   "6790a6c53c6649e4": 1793521881.124335,
@@ -27091,6 +27118,7 @@
   "aeb5096740df2f6a": 1792945882.6656585,
   "aebc71219a75a5f4": 1793291693.50822,
   "aee63b39942cb1fd": 1792740682.0338914,
+  "af05a4f395ef5aa3": 1793664119.5049946,
   "af060baeba081c08": 1793617330.5527074,
   "af11834436cee011": 1793647908.5787363,
   "af17bc7ccd95e7ef": 1792692144.22374,
@@ -27522,7 +27550,6 @@
   "c61c0e6d43a2c02a": 1793221325.3479266,
   "c623924cba214600": 1793176599.3595934,
   "c62bad1fc3b2d510": 1793334678.8673882,
-  "c62d2e0ec4ebc1fc": 1792454498.0777168,
   "c63da46be72f3462": 1792717287.9706907,
   "c64e5541ef85cb59": 1793077254.2722714,
   "c664ba06e4355cb1": 1792595378.2044032,
@@ -27791,6 +27818,7 @@
   "d810c72df5128038": 1793032520.3992875,
   "d829b3b15187b808": 1793467851.5924788,
   "d860d5e608a36543": 1792645231.5445533,
+  "d86ca31ae63c5420": 1793664113.1293368,
   "d8772632ebabeb12": 1792665195.3582604,
   "d878298a40e200f6": 1793044908.4506693,
   "d87c452ed95dbabd": 1792944099.340335,
@@ -28408,7 +28436,6 @@
   "fb1ab11044199980": 1792582321.31292,
   "fb25838c66a3f8a9": 1792996285.7731857,
   "fb2669e9e03653c3": 1793302419.5425978,
-  "fb2f740a637cea5b": 1792454494.8568294,
   "fb37eafea7abb973": 1792657916.1643279,
   "fb38713656330def": 1792497706.68113,
   "fb3a5cfa2e01c2c1": 1792778479.4542189,
@@ -29690,7 +29717,7 @@
    "Deadline": 1,
    "Digital Foundry": 1,
    "GameSpot": 1,
-   "IGN": 1,
+   "IGN": 2,
    "Insider Gaming": 14,
    "Kerrang!": 1,
    "PC Gamer": 1,
@@ -29710,12 +29737,12 @@
    "GameSpot": 5,
    "GamesIndustry.biz": 5,
    "GitHub Trending": 8,
-   "IGN": 13,
+   "IGN": 14,
    "ITC.ua": 12,
    "IndieWire": 5,
    "Insider Gaming": 16,
    "Kerrang!": 2,
-   "Lambgoat": 6,
+   "Lambgoat": 7,
    "Loudwire": 7,
    "Metal Hammer (Louder)": 6,
    "Metal Injection": 2,
@@ -29736,7 +29763,7 @@
   "translators": {
    "DeepL": 5,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 243
+   "gemini-flash-lite-latest": 248
   },
   "week": "2026-W45"
  },
@@ -33821,6 +33848,36 @@
    "",
    1793629887.5395582
   ],
+  "q:ill": [
+   1757350,
+   "ILL",
+   1793664094.940183
+  ],
+  "q:ill gta": [
+   0,
+   "",
+   1793664094.354538
+  ],
+  "q:ill gta 6": [
+   0,
+   "",
+   1793664093.6674302
+  ],
+  "q:ill gta 6 fan": [
+   0,
+   "",
+   1793664093.0818415
+  ],
+  "q:ill gta 6 fan dies": [
+   0,
+   "",
+   1793664092.4886086
+  ],
+  "q:ill gta 6 fan dies 3": [
+   0,
+   "",
+   1793664091.9105575
+  ],
   "q:impressions": [
    1220330,
    "Impressions",
@@ -36851,6 +36908,36 @@
    "Tenebris Somnia",
    1792326687.5396647
   ],
+  "q:terminally": [
+   0,
+   "",
+   1793664091.3907106
+  ],
+  "q:terminally ill": [
+   0,
+   "",
+   1793664090.7606106
+  ],
+  "q:terminally ill gta": [
+   0,
+   "",
+   1793664090.1553276
+  ],
+  "q:terminally ill gta 6": [
+   0,
+   "",
+   1793664089.4654539
+  ],
+  "q:terminally ill gta 6 fan": [
+   0,
+   "",
+   1793664088.8655684
+  ],
+  "q:terminally ill gta 6 fan dies": [
+   0,
+   "",
+   1793664088.2316115
+  ],
   "q:thailand": [
    0,
    "",
@@ -37825,18 +37912,6 @@
   ]
  },
  "titles": [
-  [
-   1793491304.7831955,
-   "Save Mass Effect Graffiti Reportedly Spray-Painted Outside EA Building"
-  ],
-  [
-   1793491308.5650787,
-   "Taika Waititi Calls ‘Klara and the Sun’ Critics “Irrelevant, Out Of Touch, Obsolete”"
-  ],
-  [
-   1793491318.4390407,
-   "Input Lag Is So Bad in Call of Duty: Modern Warfare 4 on Nintendo Switch 2 That Players Suffer From a 'Competitive Disadvantage'"
-  ],
   [
    1793492039.6376562,
    "‘Harry Potter’s Paapa Essiedu Defends Role After Advocating For Trans Rights: “People Have A Lot Of Feelings About This”"
@@ -39232,21 +39307,17 @@
   [
    1793662294.156574,
    "The Used’s Orchestral Live Film ‘A Mid Summer Night’s Symphony’ Is Coming To Streaming This Month"
+  ],
+  [
+   1793664113.129339,
+   "Terminally Ill GTA 6 Fan Dies 3 Weeks Before Game's Launch, Fans Pay Their Respects"
+  ],
+  [
+   1793664121.1692288,
+   "Contention's Cosmo Vidussi releases 'LIFE IN EXILE: European Annihilation' 2025 tour memoir"
   ]
  ],
  "titles_uk": [
-  [
-   1793491304.7831964,
-   "Офіс EA в Мадриді розмалювали графіті Save Mass Effect"
-  ],
-  [
-   1793491308.5650792,
-   "Тайка Вайтіті різко розкритикував рецензентів свого фільму Klara and the Sun"
-  ],
-  [
-   1793491318.4390419,
-   "Call of Duty: Modern Warfare 4 на Nintendo Switch 2 страждає від серйозного input lag"
-  ],
   [
    1793492039.637657,
    "Паапа Ессьєду відповів на критику щодо своєї ролі в серіалі Harry Potter"
@@ -40642,6 +40713,14 @@
   [
    1793662294.1565752,
    "The Used випустять лайв-фільм з оркестром на стрімінгах"
+  ],
+  [
+   1793664113.1293406,
+   "Смертельно хворий фанат GTA 6 помер за три тижні до релізу гри"
+  ],
+  [
+   1793664121.16923,
+   "Фронтмен Contention Космо Відуссі випускає мемуари про європейський тур гурту"
   ]
  ],
  "ukrainian": {
