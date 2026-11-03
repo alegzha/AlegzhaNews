@@ -1,10 +1,10 @@
 {
  "alerts": {
-  "src:movies|Variety|https://variety.com/v/tv/feed/": {
-   "detail": "https://variety.com/v/tv/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Variety» не працює",
+  "src:music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": {
+   "detail": "https://www.loudersound.com/feeds/all\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
+   "label": "Джерело «Metal Hammer (Louder)» не працює",
    "sent": 0,
-   "since": 1793725283.46956
+   "since": 1793727082.5941978
   }
  },
  "daily_digest_date": "2026-11-02",
@@ -32,197 +32,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-03 17:04 UTC",
+  "at": "2026-11-03 17:38 UTC",
   "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 14
+   "gemini-flash-lite-latest": 8
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793034357.2641711,
-   2735,
-   "🤖",
-   "Розпродаж у секторах технологій поставив під сумнів ажіотаж довкола ШІ",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-10-26/goldman-s-pasquariello-says-tech-rout-casts-doubt-on-ai-trade",
-    "orig": "Goldman’s Pasquariello Says Tech Rout Casts Doubt on AI Trade"
-   }
-  ],
-  [
-   1793034389.1429555,
-   2736,
-   "🎮",
-   "Рецензії на Grand Theft Auto 6 вийдуть 18 листопада",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/grand-theft-auto-6-review-embargo/",
-    "orig": "Grand Theft Auto 6 Review Embargo Date Details"
-   }
-  ],
-  [
-   1793035980.2183201,
-   2738,
-   "🤘",
-   "FIVE FINGER DEATH PUNCH пожертвували $200 000 атлетам збірної США",
-   "Blabbermouth",
-   {
-    "also": [
-     [
-      "Metal Injection",
-      "https://metalinjection.net/news/five-finger-death-punch-backs-team-usa-with-200000-donation-for-prospective-2028-olympic-and-paralympic-athletes"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/five-finger-death-punch-donates-200000-to-team-usa-athletes-preparing-for-2028-olympic-and-paralympic-games",
-    "orig": "FIVE FINGER DEATH PUNCH Donates $200,000 To Team USA Athletes Preparing For 2028 Olympic And Paralympic Games"
-   }
-  ],
-  [
-   1793035997.9100163,
-   2739,
-   "🤘",
-   "METALLICA випустила професійне відео виконання «Fade To Black» у Las Vegas Sphere",
-   "Blabbermouth",
-   {
-    "also": [
-     [
-      "ThePRP",
-      "https://www.theprp.com/2026/10/26/news/metallica-share-pro-shot-live-footage-of-fade-to-black-from-their-residency-at-the-sphere/"
-     ],
-     [
-      "Loudwire",
-      "https://loudwire.com/metallica-las-vagas-sphere-residency-videos/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/metallica-shares-pro-shot-video-of-fade-to-black-performance-from-third-show-of-las-vegas-sphere-residency",
-    "orig": "METALLICA Shares Pro-Shot Video Of 'Fade To Black' Performance From Third Show Of Las Vegas Sphere Residency"
-   }
-  ],
-  [
-   1793036011.560423,
-   2740,
-   "🤘",
-   "Haken анонсували тур Північною Америкою на весну 2027 року",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/10/26/news/haken-announce-spring-2027-north-american-tour-with-thank-you-scientist-einar-solberg/",
-    "orig": "Haken Announce Spring 2027 North American Tour With Thank You Scientist & Einar Solberg"
-   }
-  ],
-  [
-   1793036045.7658162,
-   2741,
-   "🎮",
-   "Чи має Sony ексклюзив на портативну графіку RDNA 5?",
-   "Digital Foundry",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.digitalfoundry.net/news/2026/10/does-sony-have-an-exclusive-on-handheld-rdna-5",
-    "orig": "Does Sony Have an Exclusive on Handheld RDNA 5?"
-   }
-  ],
-  [
-   1793036061.5530546,
-   2742,
-   "🎬",
-   "Помер Вольтер Кеніг, відомий за роллю Чекова у «Star Trek»",
-   "IndieWire",
-   {
-    "also": [
-     [
-      "PC Gamer",
-      "https://www.pcgamer.com/movies-tv/walter-koenig-star-treks-pavel-chekhov-has-died/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.indiewire.com/news/obituary/walter-koenig-chekov-star-trek-dead-1235223759/",
-    "orig": "Walter Koenig, Actor Who Played Chekov on ‘Star Trek,’ Dies at 90"
-   }
-  ],
-  [
-   1793036073.849725,
-   2743,
-   "🤘",
-   "Фронтмен Testament Чак Біллі випускає мемуари Holding My Breath",
-   "Decibel",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.decibelmagazine.com/2026/10/26/qa-chuck-billy-on-his-new-memoir-holding-my-breath-the-two-testaments-of-chuck-billy/",
-    "orig": "Q&A: Chuck Billy on His New memoir, ‘Holding My Breath: The Two Testaments of Chuck Billy’"
-   }
-  ],
-  [
-   1793036086.9667346,
-   2744,
-   "🤘",
-   "Meshuggah готують північноамериканський тур на честь свого 40-річчя",
-   "ThePRP",
-   {
-    "also": [
-     [
-      "Lambgoat",
-      "https://lambgoat.com/news/55540/meshuggah-to-tour-north-america-with-testament-and-blood-incantation/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/10/26/news/meshuggahs-north-american-40th-anniversary-tour-to-feature-testament-blood-incantation/",
-    "orig": "Meshuggah’s North American 40th Anniversary Tour To Feature Testament & Blood Incantation"
-   }
-  ],
-  [
-   1793036104.6176293,
-   2745,
-   "🤖",
-   "Сабреддіт r/opensource заборонив будь-які проєкти, пов'язані зі ШІ",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/reddits-r-opensource-bans-all-ai-related-projects-sparking-backlash-and-a-rival-subreddit/",
-    "orig": "Reddit's r/opensource bans all AI-related projects, sparking backlash and a rival subreddit"
-   }
-  ],
-  [
-   1793036118.730961,
-   2746,
-   "🤘",
-   "Шерон Осборн пояснила, чому відмовилася від публічного похорону для Ozzy",
-   "Loudwire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://loudwire.com/why-osbourne-family-opted-against-public-burial-ozzy/",
-    "orig": "Why the Osbourne Family Opted Against Public Burial for Ozzy"
-   }
-  ],
-  [
-   1793036133.3546252,
-   2747,
-   "🤘",
-   "Рецензія на делюкс-альбом Poster Child від Taylor Acorn",
-   "Distorted Sound",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://distortedsoundmag.com/album-review-poster-child-deluxe-taylor-acorn/",
-    "orig": "ALBUM REVIEW: Poster Child (Deluxe) – Taylor Acorn"
-   }
-  ],
   [
    1793037705.0733697,
    2748,
@@ -22598,7 +22418,6 @@
    "GameSpot",
    {
     "also": [],
-    "caption": "🎮 <b>Доходи Remedy Entertainment зросли на 226% після релізу <a href=\"https://store.steampowered.com/app/3669870/\">Control Resonant</a></b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/3339880/\">Off</a>\n\nПісля вересневого релізу Control Resonant виторг розробника Remedy Entertainment у третьому кварталі зріс на 226% і сягнув €39.6 мільйона. Генеральний директор Жан-Шарль Годешон назвав це досягнення визначальною віхою для компанії.\n\n🔗 <a href=\"https://www.gamespot.com/articles/remedys-big-bet-on-control-resonant-appears-to-be-paying-off/\">GameSpot</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamespot.com/articles/remedys-big-bet-on-control-resonant-appears-to-be-paying-off/",
     "orig": "Remedy’s Big Bet On Control Resonant Appears To Be Paying Off"
@@ -22612,7 +22431,6 @@
    "Decibel",
    {
     "also": [],
-    "caption": "🤘 <b>Вийшла нова книга про золоті роки гурту Black Flag</b>\n\nВидавництво Bazillion Points випустило книгу My War On Wilshire: Black Flag vs. the Wilshire Federal Building…and the Vex. Вона містить архівні та переважно раніше невідомі фотографії Майкла Пірсона, що документують виступи гурту Black Flag на піку їхньої популярності.\n\n🔗 <a href=\"https://www.decibelmagazine.com/2026/11/03/qa-michael-pearson-on-photographing-black-flag-at-their-peak/\">Decibel</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.decibelmagazine.com/2026/11/03/qa-michael-pearson-on-photographing-black-flag-at-their-peak/",
     "orig": "Q&A: ‘My War On Wilshire’ Author Michael Pearson on Photographing Black Flag at Their Peak"
@@ -22626,7 +22444,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>PRONG випустили новий сингл &#x27;New Commission&#x27;</b>\n\nГурт PRONG представив новий сингл &#x27;New Commission&#x27; зі свого майбутнього однойменного альбому, реліз якого запланований на 6 листопада на лейблі Napalm Records. Трек поєднує елементи треш-металу, хардкору та індастріал-текстур, а фронтмен Томмі Віктор назвав його потужним та швидким бойовиком із лютим брейкдауном.\n\n🔗 <a href=\"https://blabbermouth.net/news/prong-shares-new-single-new-commission-from-upcoming-self-titled-album\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/prong-shares-new-single-new-commission-from-upcoming-self-titled-album",
     "orig": "PRONG Shares New Single 'New Commission' From Upcoming Self-Titled Album"
@@ -22640,7 +22457,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/784150/\">Workers &amp; Resources: Soviet Republic</a> отримає DLC про космос</b>\n\nДля симулятора мібудівництва Workers &amp; Resources: Soviet Republic анонсовано доповнення Space Program, яке вийде 23 листопада. Воно додасть нові технології, індустрії, програми на кшталт Sputnik і Vostok, а також кампанію у стилі 1960-х років.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/workers-resources-soviet-republics-next-dlc-is-set-to-expand-the-city-building-sim-into-the-one-place-not-corrupted-by-capitalism-space\">Rock Paper Shotgun</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/workers-resources-soviet-republics-next-dlc-is-set-to-expand-the-city-building-sim-into-the-one-place-not-corrupted-by-capitalism-space",
     "orig": "Workers & Resources: Soviet Republic's next DLC is set to expand the city building sim into the one place not corrupted by capitalism: SPACE"
@@ -22654,7 +22470,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Майк Фленаган розповів про роботу над проєктом за Warhammer 40,000</b>\n\nРежисер Майк Фленаган розповів, що працює над екранізацією Warhammer 40,000 разом із Генрі Кавіллом. Деталі проєкту тримаються в секреті, оскільки актор буде вкрай лютим через будь-який витік інформації. Фленаган назвав всесвіт неймовірно масштабним і захопливим.\n\n🔗 <a href=\"https://www.pcgamer.com/movies-tv/mike-flanagan-thinks-warhammer-is-a-fascinating-world-but-cant-tell-us-anything-else-about-the-upcoming-warhammer-40-000-project-because-henry-cavill-would-be-furious/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/movies-tv/mike-flanagan-thinks-warhammer-is-a-fascinating-world-but-cant-tell-us-anything-else-about-the-upcoming-warhammer-40-000-project-because-henry-cavill-would-be-furious/",
     "orig": "Mike Flanagan thinks 'Warhammer is a fascinating world' but can't tell us anything else about the upcoming Warhammer 40,000 project because 'Henry Cavill would be furious'"
@@ -22668,7 +22483,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Сервери <a href=\"https://store.steampowered.com/app/236430/\">Dark Souls 2</a> і 3 вимкнули через вразливість у безпеці</b>\n\nКомпанія FromSoftware зупинила роботу серверів Dark Souls 2 та Dark Souls 3 на всіх платформах через виявлену вразливість у безпеці. Точної дати відновлення онлайн-режимів наразі не називають, проте офлайн-гра залишається доступною для користувачів.\n\n🔗 <a href=\"https://insider-gaming.com/dark-souls-2-3-servers-shut-down-indefinitely-due-to-security-vulnerabilities/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/dark-souls-2-3-servers-shut-down-indefinitely-due-to-security-vulnerabilities/",
     "orig": "Dark Souls 2 & 3 Servers Shut Down Indefinitely Due to ‘Security Vulnerabilities’"
@@ -22687,7 +22501,6 @@
       "https://the-decoder.com/openai-hires-ex-army-secretary-gaining-bipartisan-reach-just-as-midterms-loom/"
      ]
     ],
-    "caption": "🤖 <b>OpenAI вчетверо збільшила винагороди за пошук вразливостей через загрозу ШІ-кібератак</b>\n\nOpenAI більш ніж учетверо збільшила рівень винагород у своїй програмі Security Bug Bounty на тлі активізації кібератак із використанням штучного інтелекту. За особливо &quot;виняткові&quot; звіти дослідники можуть отримати до $172 000.\n\n🔗 <a href=\"https://mezha.ua/news/openai-quadruples-bug-bounty-rewards-316818/\">Mezha</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://mezha.ua/news/openai-quadruples-bug-bounty-rewards-316818/",
     "orig": "OpenAI вчетверо збільшила винагороди за пошук вразливостей через загрозу ШІ-кібератак"
@@ -22701,7 +22514,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Dambi залишає склад Nongshim RedForce з Valorant</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/1957220/\">Departure</a>\n\nКіберспортивна організація Nongshim RedForce оголосила про відхід Лі «Dambi» Хьок Кю перед сезоном 2027 року. Команда раніше не отримала партнерського статусу у VCT на 2027–2028 роки, попри успішні виступи у 2026-му. Гравець був головною зіркою колективу як основний Duellist та один із найкращих виконавців на агентах зі швидкою механікою.\n\n🔗 <a href=\"https://insider-gaming.com/dambi-leaves-nongshim-redforce-valorant/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/dambi-leaves-nongshim-redforce-valorant/",
     "orig": "Nongshim RedForce Announces Dambi Departure"
@@ -23479,6 +23291,118 @@
     "link": "https://www.theprp.com/2026/11/03/news/currents-vana-stick-to-your-guns-vanna-dreamwake-north-american-tour-booked/",
     "orig": "Currents, Vana, Stick To Your Guns, Vanna & Dreamwake North American Tour Booked"
    }
+  ],
+  [
+   1793727285.5407572,
+   4502,
+   "🎬",
+   "Фільм зі штучним інтелектом Gods Don’t Give Gifts отримав камео Grimes від ШІ та показ «Оскар»",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Фільм зі штучним інтелектом Gods Don’t Give Gifts отримав камео Grimes від ШІ та показ «Оскар»</b>\n\nАвтор і ютубер Gossip Goblin вважає, що не варто списувати стрічку лише як рекламний трюк\n\n🔗 <a href=\"https://www.indiewire.com/news/breaking-news/ai-movie-gods-dont-give-gifts-grimes-cameo-times-square-1235225119/\">IndieWire</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/news/breaking-news/ai-movie-gods-dont-give-gifts-grimes-cameo-times-square-1235225119/",
+    "orig": "AI Movie ‘Gods Don’t Give Gifts’ Gets Serious with AI-Generated Grimes Cameo, Times Square Marketing Push, Oscar Screenings"
+   }
+  ],
+  [
+   1793727331.2632515,
+   4503,
+   "🎮",
+   "Кросовер World of Warcraft із D&D вийшов неоднозначним",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Кросовер World of Warcraft із D&amp;D вийшов неоднозначним</b>\n\nМасштабний колаборантський проєкт World of Warcraft та Dungeons &amp; Dragons отримав суперечливі відгуки. Нова книга правил містить цікаві класові опціі та нові заклинання, проте деякі класи адаптовані невдало або просто відсилають до стандартного довідника гравця.\n\n🔗 <a href=\"https://www.pcgamer.com/games/world-of-warcraft/world-of-warcrafts-d-and-d-crossover-is-neat-but-inconsistent-novel-on-one-page-then-shrugging-and-pointing-to-the-phb-you-already-own-on-the-next/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcrafts-d-and-d-crossover-is-neat-but-inconsistent-novel-on-one-page-then-shrugging-and-pointing-to-the-phb-you-already-own-on-the-next/",
+    "orig": "World of Warcraft's D&D crossover is neat, but inconsistent—novel on one page, then shrugging and pointing to the PHB you already own on the next"
+   }
+  ],
+  [
+   1793727340.2230935,
+   4504,
+   "🎮",
+   "CI Games залучила $32 мільйони кредиту на самовидавництво Lords of the Fallen 2",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>CI Games залучила $32 мільйони кредиту на самовидавництво <a href=\"https://store.steampowered.com/app/4767480/\">Lords of the Fallen 2</a></b>\n\nКомпанія CI Games підписала кредитну угоду на $32 мільйони для завершення розробки, запуску та рефінансування боргів Lords of the Fallen 2. Завдяки цьому гра вийде самостійно у першому кварталі 2027 року на PC, PlayStation 5 і Xbox Series X|S. Погасити кредит планують за рахунок майбутніх продажу проєкту після релізу.\n\n🔗 <a href=\"https://insider-gaming.com/lords-of-the-fallen-2-receives-32-million-loan/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/lords-of-the-fallen-2-receives-32-million-loan/",
+    "orig": "Lords of the Fallen 2 to be Self-Published Thanks to $32 Million Loan"
+   }
+  ],
+  [
+   1793727362.372201,
+   4505,
+   "🤘",
+   "Elder анонсували перенесені концерти на весну",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Elder анонсували перенесені концерти на весну</b>\n\nГурт Elder оголосив новий розклад весняних концертів після того, як восени тур довелося перервати через операцію на серці у басиста Джека Донована. До колективу знову приєднається гурт Blackwater Holylight, а раніше придбані квитки залишаються дійсними.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/03/news/elder-announce-rescheduled-spring-2027-tour-with-blackwater-holylight/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/11/03/news/elder-announce-rescheduled-spring-2027-tour-with-blackwater-holylight/",
+    "orig": "Elder Announce Rescheduled Spring 2027 Tour With Blackwater Holylight"
+   }
+  ],
+  [
+   1793727365.0462701,
+   4506,
+   "🤖",
+   "Microsoft хоче навчити ШІ редагувати прямі трансляції – це може відкрити шлях до дипфейків у реальному часі",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🤖 <b>Microsoft хоче навчити ШІ редагувати прямі трансляції – це може відкрити шлях до дипфейків у реальному часі</b>\n\nMicrosoft запатентувала ШІ-технологію, яка зможе змінювати слова та міміку людей під час прямих трансляцій у режимі реального часу. Вона може прибирати слова-паразити та перекладати виступи, але водночас викликає занепокоєння через можливість створення дипфейків.\n\n🔗 <a href=\"https://mezha.ua/news/new-microsoft-patent-changes-speech-in-real-time-316835/\">Mezha</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/new-microsoft-patent-changes-speech-in-real-time-316835/",
+    "orig": "Microsoft хоче навчити ШІ редагувати прямі трансляції – це може відкрити шлях до дипфейків у реальному часі"
+   }
+  ],
+  [
+   1793727400.896067,
+   4507,
+   "🤘",
+   "Вокаліст ANTHRAX Джої Белладонна виконав гімн США перед матчем NFL",
+   "Revolver",
+   {
+    "also": [],
+    "caption": "🤘 <b>Вокаліст ANTHRAX Джої Белладонна виконав гімн США перед матчем NFL</b>\n\nФронтмен гурту ANTHRAX Джої Белладонна виконав національний гімн США перед матчем між Seattle Seahawks та Chicago Bears на стадіоні Lumen Field. Музикант виступив у футболці команди з номером 12, продовживши серію появ рок- і метал-виконавців на матчах цього сезону NFL.\n\n🔗 <a href=\"https://www.revolvermag.com/culture/see-anthraxs-joey-belladonna-sing-national-anthem-at-seahawks-game/\">Revolver</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.revolvermag.com/culture/see-anthraxs-joey-belladonna-sing-national-anthem-at-seahawks-game/",
+    "orig": "See ANTHRAX’s JOEY BELLADONNA sing national anthem at SEAHAWKS game"
+   }
+  ],
+  [
+   1793727467.2285519,
+   4508,
+   "🎮",
+   "У новому кліпі Cyberpunk: Edgerunners показали свіжі сцени та передісторії персонажів",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>У новому кліпі Cyberpunk: Edgerunners показали свіжі сцени та передісторії персонажів</b>\n\nStudio Trigger випустила аніме-кліп за Cyberpunk: Edgerunners, що розкриває передісторію Weak та Avida\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/cyberpunk-edgerunners-2-music-video-reveals-entire-new-scenes-character-backstories/\">VGC</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/cyberpunk-edgerunners-2-music-video-reveals-entire-new-scenes-character-backstories/",
+    "orig": "Cyberpunk: Edgerunners 2 music video reveals entire new scenes, character backstories"
+   }
+  ],
+  [
+   1793727489.958202,
+   4509,
+   "🎮",
+   "У Helldivers 2 додадуть новий підвид термінідів та оновлені печери",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>У <a href=\"https://store.steampowered.com/app/553850/\">Helldivers 2</a> додадуть новий підвид термінідів та оновлені печери</b>\n\nНаступне оновлення Helldivers 2 додасть отруйних Noxious Terminids, що включають швидких Noxious Scavengers та небезпечних Noxious Spewer. Також у грі з&#x27;являться нові підземні печери на різних планетах, а головною метою гравців стане знищення цих інвазивних істот вогнем.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/venom-toothed-noxious-terminids-are-soon-to-infest-helldivers-2-and-its-your-noble-job-to-sterilise-the-galaxy-for-super-earth\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/venom-toothed-noxious-terminids-are-soon-to-infest-helldivers-2-and-its-your-noble-job-to-sterilise-the-galaxy-for-super-earth",
+    "orig": "Venom-toothed Noxious Terminids are soon to infest Helldivers 2, and it's your noble job to sterilise the galaxy for Super Earth"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23511,7 +23435,8 @@
    1793662286.7303498,
    1793716285.2673426,
    1793716331.6998112,
-   1793716512.2425253
+   1793716512.2425253,
+   1793727365.0466135
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1793644404.110085,
@@ -23581,7 +23506,6 @@
    1793723595.1505473
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1793639116.439106,
    1793644397.9505646,
    1793653389.5965328,
    1793671313.5717072,
@@ -23594,7 +23518,8 @@
    1793718259.5230782,
    1793720227.7373536,
    1793723587.6116421,
-   1793725331.3728423
+   1793725331.3728423,
+   1793727340.2235339
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1793694799.624516,
@@ -23603,9 +23528,6 @@
    1793723593.1335075
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1793639142.6313052,
-   1793639158.5326946,
-   1793640883.3072984,
    1793642523.7922413,
    1793642528.5472765,
    1793642535.227069,
@@ -23616,7 +23538,8 @@
    1793716365.0571804,
    1793716484.4631917,
    1793720093.6716566,
-   1793720368.7155874
+   1793720368.7155874,
+   1793727331.2637064
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1793610235.6751368,
@@ -23638,7 +23561,8 @@
    1793701910.5218263,
    1793716463.729121,
    1793718303.2608757,
-   1793725370.4375265
+   1793725370.4375265,
+   1793727489.9586465
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1793253680.906989,
@@ -23653,7 +23577,8 @@
    1793721834.727866,
    1793721937.8819504,
    1793723692.8866594,
-   1793725354.551167
+   1793725354.551167,
+   1793727467.2290015
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1793640853.31128,
@@ -23694,11 +23619,11 @@
    1793723597.170689
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
-   1793639170.676808,
    1793642538.317457,
    1793716559.3054814,
    1793721697.1404195,
-   1793723790.2340755
+   1793723790.2340755,
+   1793727285.5412009
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1793435498.9012954
@@ -23798,7 +23723,7 @@
    1793671295.4428024
   ],
   "music|Revolver|https://www.revolvermag.com/rss.xml": [
-   1793637095.9923213
+   1793727400.8965406
   ],
   "music|Stereogum|https://www.stereogum.com/feed/": [
    1793647879.1633632,
@@ -23806,7 +23731,6 @@
    1793721903.1337
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1793639120.3230958,
    1793641103.1749468,
    1793642514.115536,
    1793646102.6507056,
@@ -23823,7 +23747,8 @@
    1793662294.156621,
    1793723600.2293956,
    1793725341.7466247,
-   1793725460.9467614
+   1793725460.9467614,
+   1793727362.372654
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1793613840.9178333
@@ -23937,6 +23862,7 @@
   "03d1350789a4c165": 1792573292.1311307,
   "03d60a9ffdd50cde": 1793046955.6938887,
   "03dc5121f4a5127a": 1793322162.4561253,
+  "03f9856249ee7c3b": 1793727400.896497,
   "040dfb08fd4ddd6d": 1793642486.0808966,
   "040f3cce98fac26b": 1793134909.817085,
   "041b81dd61f6e7f2": 1793117001.3565714,
@@ -23967,7 +23893,6 @@
   "055063f262d5006c": 1793043123.3967369,
   "055b9b0913660adf": 1792659681.287901,
   "0568c09fc85bb2cd": 1793259084.351516,
-  "05756f41ddcad4aa": 1792517745.4484406,
   "0575a865e1c3b52b": 1792524128.710633,
   "057d22b7d1040012": 1792702991.1673229,
   "057ddb0ee78a6a6a": 1793251889.393638,
@@ -24051,7 +23976,6 @@
   "08f656a9f2c0a245": 1793117042.865278,
   "0904193fed3c1ecf": 1793190866.6858618,
   "091590c3d50e2fcf": 1793005369.2740388,
-  "091790cc380a60a7": 1792515945.3504577,
   "093422c5270a8e9f": 1793127723.1595213,
   "093e0c4591266766": 1793288189.7745109,
   "0941e6a67bcb30a7": 1793390679.1545703,
@@ -24093,7 +24017,6 @@
   "0b4f29806fcdf4dc": 1793176601.3329837,
   "0b5c877f4c2f6dab": 1793394156.2163694,
   "0b5db6f5c1eefcdd": 1793628273.6191905,
-  "0b7050755bf8785a": 1792517456.0833268,
   "0b80edf4d28921cc": 1793088052.6012394,
   "0b81309593d1d40b": 1793399272.6363308,
   "0b819fa75a74d3eb": 1793192534.1519043,
@@ -24116,7 +24039,6 @@
   "0cc5631c74abeac1": 1793376192.1795187,
   "0cd9d1743ddd938f": 1793129509.0168862,
   "0cdb4d64574b03d7": 1793284493.94886,
-  "0cde5f6abbab38fc": 1792517766.766169,
   "0cf07954997104bf": 1792775115.2405145,
   "0cfe317bd0174f1c": 1792677728.8754532,
   "0d0ac9e2c198774c": 1793172681.070154,
@@ -24624,6 +24546,7 @@
   "283bf8b04ead2c91": 1793268168.7817717,
   "2855ae21a7e6ae29": 1793214139.186097,
   "286b585a98f5a21c": 1792881158.5099425,
+  "286fed7b9d3367b7": 1793727092.1059341,
   "287269218779b215": 1793278890.8683312,
   "28779801fbc69203": 1792805570.580035,
   "287d5b7fea65f2f2": 1793133104.1518307,
@@ -24655,7 +24578,6 @@
   "29cf1f6dafb5d2bc": 1792528283.2742631,
   "29d0169528529666": 1792672280.5029624,
   "29d2e626def1aae0": 1793185256.529108,
-  "29d5218f38944297": 1792515873.225819,
   "2a162ccf7f6d2b21": 1792600257.4748182,
   "2a2c14787462d4d5": 1792648908.9345562,
   "2a3b6904bebd87f2": 1792949485.7448547,
@@ -24751,7 +24673,6 @@
   "2fc0f01bce684f21": 1793131324.9481244,
   "2fd3ad1f8f885826": 1792596683.2262578,
   "2fde3a7e257e8b00": 1793023566.5576844,
-  "2fe1f171969a38b1": 1792517670.2398946,
   "2fe770f64b1e1238": 1793304080.2661023,
   "2ffb0b118dfb15a3": 1793629857.7154393,
   "301b30efee9abd71": 1793712704.738874,
@@ -25074,6 +24995,7 @@
   "41eb96a631379cff": 1793336501.0182874,
   "420e3128427ac541": 1793203465.117033,
   "42302d21336315b3": 1793293664.2544005,
+  "42306817435af783": 1793727092.1078324,
   "423176b1f5b5240a": 1792659700.2608771,
   "42332ffa952150cc": 1792602188.7239175,
   "423efe3f7869feb5": 1793205136.8900115,
@@ -25345,6 +25267,7 @@
   "51eec4ccb5778011": 1793188981.8229525,
   "51f02bd9add51286": 1793023532.499534,
   "52352162b3e1b54c": 1793235764.281572,
+  "52371ab0e49556ca": 1793727365.04657,
   "523e3178e1703e76": 1792600323.7393303,
   "524243e2e4b6626c": 1793280757.1812954,
   "5248cfa423a31d48": 1792998110.9369998,
@@ -25393,7 +25316,6 @@
   "546236d183e98e30": 1792728077.2205446,
   "548b26e68ea19500": 1792593090.975243,
   "548cd3284c19ce47": 1792791012.8879561,
-  "54914a3eb70f1eaa": 1792517456.0833268,
   "54a84e2c55f75503": 1792692096.7037907,
   "54aa392e7ef595d9": 1793572280.0093975,
   "54aefc573cc2dcf8": 1792888286.1469865,
@@ -25454,6 +25376,7 @@
   "57f634c923024532": 1793484103.0619628,
   "5805768785928d59": 1792857733.1354241,
   "5816f02080b3cf58": 1793640742.7625618,
+  "58179c293b7baf2c": 1793727285.5411546,
   "5833a5cd91fe4f47": 1793017860.6852288,
   "58385446778c35f4": 1793628364.5235372,
   "58385f1814563ae8": 1792596696.6719828,
@@ -25472,7 +25395,6 @@
   "58febfbc4b656339": 1793275402.4980257,
   "591016f48ff3eced": 1792614681.5079594,
   "591a87dbfeed1585": 1793109777.701483,
-  "59250c97b25fcc67": 1792517790.1511545,
   "5925290646c80b0c": 1793131258.1143897,
   "594229cfe1443d26": 1792801887.0367198,
   "5973a617e60b6891": 1793037908.7965965,
@@ -25706,7 +25628,6 @@
   "65e35e35466a0852": 1793307785.584391,
   "65e920d92cb33372": 1792602109.7193775,
   "65ef93922d35606a": 1793099052.1977832,
-  "65ffd44f3efd6496": 1792517456.0833268,
   "6601b6c4e72582c1": 1793557997.6078336,
   "661d5edf8c100a56": 1792548053.8558683,
   "662e34addb61c8b8": 1793023544.8056722,
@@ -25901,7 +25822,6 @@
   "6f23d9016ab2e4dc": 1793361806.7623823,
   "6f27a40fcc6f4778": 1793205146.660564,
   "6f2d9f36b840d91d": 1793356285.5004687,
-  "6f2e2ce0b3b40a87": 1792515915.4750125,
   "6f3518e657c20225": 1793114800.417275,
   "6f35d87d579dccd1": 1792668690.3551822,
   "6f402b6dfb77db26": 1793667704.9574847,
@@ -25925,7 +25845,6 @@
   "7088251ef81a48da": 1793268076.668993,
   "7090e2364dcef13f": 1792612924.5556905,
   "709b0d0641ae179b": 1793363593.9601083,
-  "709dd8dc47706ab0": 1792517862.0144985,
   "70a5bbed888935d0": 1793377954.897732,
   "70a79f4eb8e9bcb6": 1793694786.2211125,
   "70bf7e659841c9a4": 1793716284.4379504,
@@ -25994,6 +25913,7 @@
   "74062977e21d149c": 1792769762.49855,
   "7407c43ab23869a4": 1793624493.077372,
   "740da17c272d7d9b": 1792776703.5774932,
+  "742206ef41dbfe2c": 1793727340.223489,
   "7446e53eaa7355f9": 1792576886.3401651,
   "7448961896d449b2": 1793397697.0265777,
   "745899c11bce09e2": 1793367287.4232876,
@@ -26181,6 +26101,7 @@
   "7ef8f911234937cd": 1792553620.426525,
   "7f0956f030c21670": 1793107899.671712,
   "7f20b7759cc7dda3": 1792638080.0395277,
+  "7f2407e045f4d7bb": 1793727331.2636409,
   "7f2f1e9fe3a0f958": 1793114811.0027254,
   "7f3a0e869765a199": 1792585926.8879418,
   "7f416b101e3fe831": 1793165508.428459,
@@ -26773,6 +26694,7 @@
   "a10e320722d242a0": 1793208749.7644103,
   "a119e5d9c2919cdc": 1793390629.7385907,
   "a126b20bf05f855f": 1793361810.5563114,
+  "a13400b79d82adb3": 1793727489.9586036,
   "a1361b9d942e9af9": 1792767876.5080068,
   "a144020bd845e53e": 1793217684.406171,
   "a14a9d738408efb4": 1793036011.560898,
@@ -26783,6 +26705,7 @@
   "a1b4e60c581cfbe1": 1793584900.3887947,
   "a1b9570c5b17407e": 1793595777.8166616,
   "a1c620388910a312": 1793376082.7510111,
+  "a1d90b025fa77e9e": 1793727362.372608,
   "a1f8850cbbd377ee": 1793210481.459595,
   "a1fd30cfe91a48d8": 1793185283.0429108,
   "a1fea5a38e432a36": 1792521231.943749,
@@ -26796,7 +26719,6 @@
   "a2ba5dcd66a093ad": 1793390715.0442462,
   "a2bc707253fa1e28": 1792600332.210698,
   "a2c71b3da08d95a2": 1792591941.3010178,
-  "a2c7e06b234aca03": 1792517500.7421837,
   "a2c83770af809152": 1792783893.2290056,
   "a2ce4d0721c9e2c5": 1793639076.020746,
   "a2d26dc086c299b0": 1793124168.348605,
@@ -27244,7 +27166,6 @@
   "ba991ede2f6b38bc": 1793450043.814905,
   "baabdb6ea97fb1dd": 1793415654.296254,
   "bab361754a47bfc5": 1793302410.0421534,
-  "bab6c11dec074530": 1792515962.2673388,
   "baba9c1b86869720": 1793008930.458088,
   "bac5741b6a7fe64b": 1793496682.534574,
   "bae01e3d9e028019": 1793392256.1180868,
@@ -27297,7 +27218,6 @@
   "bdae53d3519971a0": 1793206884.2116728,
   "bdb739837adc0179": 1793354557.0585806,
   "bdecc06403513885": 1792870286.0588214,
-  "bdf8d7c7a9c8e52d": 1792515978.034136,
   "be0012a9f42bc9f9": 1792915560.6711035,
   "be2a14f57b14b600": 1793480589.549807,
   "be393135f7f610ea": 1793099048.9311063,
@@ -27673,7 +27593,6 @@
   "d594bf9977987887": 1793444574.6376414,
   "d59619d192f7806a": 1793550681.465666,
   "d5ab87514d550048": 1792656174.047673,
-  "d5b6113a99bacfe2": 1792517815.3037057,
   "d5d005f9ea205461": 1793036118.7313657,
   "d5dfb55b012918e7": 1792773137.6920857,
   "d5e0b1582d85851f": 1792855922.972264,
@@ -28033,6 +27952,7 @@
   "e94451e7827bbf54": 1792791116.9684014,
   "e9477af60f23035d": 1793392408.3448083,
   "e984c0f3b6a7c3c9": 1792859455.3426251,
+  "e9874453c8fe361b": 1793727467.2289574,
   "e98ea7dbed010d83": 1793467904.976444,
   "e996067c43b9285e": 1793201631.3980844,
   "e9af705e854b736e": 1793352774.6742744,
@@ -28250,7 +28170,6 @@
   "f68000ae1e7c3ebe": 1793125891.4268103,
   "f68d8b404f7088e3": 1793347495.3008418,
   "f690160f3a9f104a": 1792703006.9933765,
-  "f69247d6f6e61839": 1792517519.6115668,
   "f6a123d355f2a8c4": 1792873905.856916,
   "f6ac1bf7753a32ca": 1793655075.3033547,
   "f6bb78e51b44135f": 1792526481.4404943,
@@ -28338,7 +28257,6 @@
   "fac8490605f1d327": 1793286810.794286,
   "facabea9a9c1097c": 1793025258.401438,
   "facc0a7ea0dc126f": 1792600342.6887207,
-  "fad6351abbe109a6": 1792517557.290877,
   "fafb7eea87f8c489": 1792643453.9104059,
   "fb0d5518b869e212": 1793474512.7021697,
   "fb18ccad08a6dbad": 1793106089.0668824,
@@ -29650,31 +29568,31 @@
    "Hugging Face": 2,
    "IGN": 21,
    "ITC.ua": 25,
-   "IndieWire": 8,
-   "Insider Gaming": 27,
+   "IndieWire": 9,
+   "Insider Gaming": 28,
    "Kerrang!": 8,
    "Lambgoat": 11,
    "Loudwire": 9,
    "Metal Hammer (Louder)": 11,
    "Metal Injection": 2,
-   "Mezha": 21,
-   "PC Gamer": 21,
+   "Mezha": 22,
+   "PC Gamer": 22,
    "Pitchfork": 3,
    "PlayUA": 4,
    "Polygon": 10,
    "Product Hunt": 8,
-   "Revolver": 1,
-   "Rock Paper Shotgun": 12,
+   "Revolver": 2,
+   "Rock Paper Shotgun": 13,
    "Stereogum": 4,
    "The Decoder": 12,
-   "ThePRP": 19,
-   "VGC": 15,
+   "ThePRP": 20,
+   "VGC": 16,
    "Variety": 12
   },
   "translators": {
    "DeepL": 6,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 411
+   "gemini-flash-lite-latest": 419
   },
   "week": "2026-W45"
  },
@@ -30564,6 +30482,16 @@
    "高三最后300天",
    1793025344.181545
   ],
+  "q:32 million": [
+   0,
+   "",
+   1793727338.433449
+  ],
+  "q:32 million loan": [
+   0,
+   "",
+   1793727337.9874175
+  ],
   "q:39 6m": [
    0,
    "",
@@ -30828,11 +30756,6 @@
    0,
    "",
    1793624476.8660264
-  ],
-  "q:a heavy machinegun that fires literal explosions": [
-   0,
-   "",
-   1793553039.488609
   ],
   "q:aaa": [
    3408350,
@@ -31103,11 +31026,6 @@
    0,
    "",
    1793667690.7329514
-  ],
-  "q:an absolute behemoth": [
-   0,
-   "",
-   1793553038.9881215
   ],
   "q:angeles": [
    0,
@@ -32534,6 +32452,21 @@
    "Cyberpunk 2077",
    1792164135.6035278
   ],
+  "q:cyberpunk edgerunners": [
+   0,
+   "",
+   1793727403.3178897
+  ],
+  "q:cyberpunk edgerunners 2": [
+   0,
+   "",
+   1793727402.8543801
+  ],
+  "q:d d": [
+   0,
+   "",
+   1793727289.547312
+  ],
   "q:dark souls 2": [
    236430,
    "DARK SOULS™ II",
@@ -33164,10 +33097,10 @@
    "EA SPORTS FC™ 27",
    1792535481.871171
   ],
-  "q:early": [
+  "q:earth": [
    0,
    "",
-   1793552982.8280184
+   1793727472.5994945
   ],
   "q:ecstatica": [
    4834840,
@@ -33908,16 +33841,6 @@
    2440510,
    "Forza Motorsport",
    1793296918.519627
-  ],
-  "q:fps": [
-   0,
-   "",
-   1793553041.2666466
-  ],
-  "q:fps selaco": [
-   0,
-   "",
-   1793553040.5578616
   ],
   "q:fragpunk": [
    2943650,
@@ -35559,6 +35482,11 @@
    "",
    1793691084.9050567
   ],
+  "q:lords of the fallen 2": [
+   4767480,
+   "Lords of the Fallen II",
+   1793727333.2537503
+  ],
   "q:los": [
    0,
    "",
@@ -36334,6 +36262,16 @@
    "",
    1793653387.6177125
   ],
+  "q:noxious": [
+   0,
+   "",
+   1793727470.6427867
+  ],
+  "q:noxious terminids": [
+   0,
+   "",
+   1793727470.1480105
+  ],
   "q:oblivion": [
    0,
    "",
@@ -36728,6 +36666,11 @@
    0,
    "",
    1793639122.7911015
+  ],
+  "q:phb": [
+   0,
+   "",
+   1793727290.1086123
   ],
   "q:pigstep": [
    0,
@@ -37714,6 +37657,31 @@
    "",
    1793640744.8786137
   ],
+  "q:self published": [
+   0,
+   "",
+   1793727335.6461706
+  ],
+  "q:self published thanks": [
+   0,
+   "",
+   1793727335.1646397
+  ],
+  "q:self published thanks to 32": [
+   0,
+   "",
+   1793727334.7165709
+  ],
+  "q:self published thanks to 32 million": [
+   0,
+   "",
+   1793727334.1721592
+  ],
+  "q:self published thanks to 32 million loan": [
+   0,
+   "",
+   1793727333.7115643
+  ],
   "q:selkie's salvage co": [
    4984870,
    "Selkie's Salvage&Co.",
@@ -38339,6 +38307,16 @@
    "",
    1793626282.361569
   ],
+  "q:super": [
+   0,
+   "",
+   1793727472.062716
+  ],
+  "q:super earth": [
+   0,
+   "",
+   1793727471.5773654
+  ],
   "q:support the actual bottom line business": [
    0,
    "",
@@ -38484,6 +38462,11 @@
    "",
    1793664088.2316115
   ],
+  "q:terminids": [
+   0,
+   "",
+   1793727471.104446
+  ],
   "q:thailand": [
    0,
    "",
@@ -38498,6 +38481,26 @@
    0,
    "",
    1793631747.0148597
+  ],
+  "q:thanks": [
+   0,
+   "",
+   1793727337.5241697
+  ],
+  "q:thanks to 32": [
+   0,
+   "",
+   1793727337.0394287
+  ],
+  "q:thanks to 32 million": [
+   0,
+   "",
+   1793727336.5838404
+  ],
+  "q:thanks to 32 million loan": [
+   0,
+   "",
+   1793727336.099981
   ],
   "q:theft": [
    0,
@@ -38884,6 +38887,16 @@
    "Valor Mortis",
    1791815059.088638
   ],
+  "q:venom toothed noxious": [
+   0,
+   "",
+   1793727469.6842844
+  ],
+  "q:venom toothed noxious terminids": [
+   0,
+   "",
+   1793727469.191472
+  ],
   "q:very soon": [
    0,
    "",
@@ -39048,6 +39061,16 @@
    0,
    "",
    1793657101.2667217
+  ],
+  "q:warcraft's d": [
+   0,
+   "",
+   1793727289.0475554
+  ],
+  "q:warcraft's d d": [
+   0,
+   "",
+   1793727288.5885158
   ],
   "q:wardogs": [
    1867240,
@@ -39309,11 +39332,6 @@
    "Wildcat",
    1793365305.9304438
   ],
-  "q:wildly": [
-   0,
-   "",
-   1793553040.0011
-  ],
   "q:witchbrook": [
    1846700,
    "Witchbrook",
@@ -39428,6 +39446,16 @@
    0,
    "",
    1793657100.7459266
+  ],
+  "q:world of warcraft's d": [
+   0,
+   "",
+   1793727288.114822
+  ],
+  "q:world of warcraft's d d": [
+   0,
+   "",
+   1793727287.6076145
   ],
   "q:would just go crazy if they had to read all of that": [
    0,
@@ -39672,11 +39700,11 @@
    "bethesda",
    "binance",
    "deepseek",
-   "himera",
+   "fpv-дрони",
    "iphone",
+   "microsoft",
    "numo robotics",
    "radeon",
-   "starlink",
    "steam",
    "the elder scrolls vi",
    "valve",
@@ -39690,15 +39718,11 @@
    "криптовалюти",
    "кібербезпека",
    "наземні дрони",
-   "нейротехнології",
    "новини",
    "нрк",
    "німеччина",
    "оборонка",
    "софт",
-   "супутники",
-   "супутниковий зв'язок",
-   "технології",
    "україна",
    "хакери",
    "шпигунське пз",
@@ -39708,50 +39732,6 @@
   ]
  },
  "titles": [
-  [
-   1793552784.683892,
-   "How Saint Agnes overcame tragedy and industry interference"
-  ],
-  [
-   1793552856.29996,
-   "Patrick Stewart Had A Surprising Love For This Classic MTV Animated Series"
-  ],
-  [
-   1793552930.5592794,
-   "‘Planted!’ Game Dev Ben Cawthorne On Digging Up Chaos In A Competitive Gardening Game"
-  ],
-  [
-   1793552980.6249628,
-   "DAVE LOMBARDO Reflects On SLAYER's 'Reign In Blood': 'The Reviews Weren't All Great At The Time'"
-  ],
-  [
-   1793553036.9686418,
-   "Chronicles: Medieval developer faces imminent closure after losing funding: 'What makes it hurt is how close we are. Early access is in reach'"
-  ],
-  [
-   1793553078.366903,
-   "'An absolute behemoth': Wildly ambitious FPS Selaco is getting a massive update that doubles its size and adds 'a heavy machinegun that fires literal explosions'"
-  ],
-  [
-   1793553105.0773227,
-   "Savannah Guthrie Renews Plea For Information About Mom Nancy’s Disappearance: “We Cannot Move Forward”"
-  ],
-  [
-   1793554295.3603892,
-   "Rock Stars Celebrating Birthdays in November"
-  ],
-  [
-   1793554315.1821508,
-   "Composer and designer Lena Raine explains how Pigstep altered Minecraft's approach to music: 'The prompt I keep hearing is \"Oh, Pigstep was such a banger that they want more bangers\"'"
-  ],
-  [
-   1793554433.279132,
-   "‘Nobody Wants This’ Actress Tovah Feldshuh Insists “Tensions Are Not Rising” With Adam Brody, Hopes “We Are Chosen” For Season 4"
-  ],
-  [
-   1793554457.212024,
-   "Modern Warfare 4 on Switch 2 has much worse input lag than PS5"
-  ],
   [
    1793556177.626357,
    "Metallica Celebrate Halloween With Spooky Sphere Song Debut"
@@ -41459,53 +41439,41 @@
   [
    1793725460.946719,
    "Currents, Vana, Stick To Your Guns, Vanna & Dreamwake North American Tour Booked"
+  ],
+  [
+   1793727285.5411565,
+   "AI Movie ‘Gods Don’t Give Gifts’ Gets Serious with AI-Generated Grimes Cameo, Times Square Marketing Push, Oscar Screenings"
+  ],
+  [
+   1793727331.2636425,
+   "World of Warcraft's D&D crossover is neat, but inconsistent—novel on one page, then shrugging and pointing to the PHB you already own on the next"
+  ],
+  [
+   1793727340.2234914,
+   "Lords of the Fallen 2 to be Self-Published Thanks to $32 Million Loan"
+  ],
+  [
+   1793727362.37261,
+   "Elder Announce Rescheduled Spring 2027 Tour With Blackwater Holylight"
+  ],
+  [
+   1793727365.0465717,
+   "Microsoft хоче навчити ШІ редагувати прямі трансляції – це може відкрити шлях до дипфейків у реальному часі"
+  ],
+  [
+   1793727400.896499,
+   "See ANTHRAX’s JOEY BELLADONNA sing national anthem at SEAHAWKS game"
+  ],
+  [
+   1793727467.2289593,
+   "Cyberpunk: Edgerunners 2 music video reveals entire new scenes, character backstories"
+  ],
+  [
+   1793727489.9586053,
+   "Venom-toothed Noxious Terminids are soon to infest Helldivers 2, and it's your noble job to sterilise the galaxy for Super Earth"
   ]
  ],
  "titles_uk": [
-  [
-   1793552784.683893,
-   "Як Saint Agnes подолали трагедію та втручання індустрії"
-  ],
-  [
-   1793552856.2999609,
-   "Патрік Стюарт мав несподівану пристрасть до цього класичного мультсеріалу на MTV"
-  ],
-  [
-   1793552930.5592802,
-   "Розробник Бен Кавтрн розповів про створення хаотичної гри Planted!"
-  ],
-  [
-   1793552980.6249635,
-   "Дейв Ломбардо розповів про реакцію на альбом SLAYER Reign In Blood"
-  ],
-  [
-   1793553036.9686425,
-   "Студія Raw Power Games опинилася під загрозою закриття через втрату фінансування"
-  ],
-  [
-   1793553078.3669038,
-   "FPS Selaco отримає масштабне оновлення, яке вдвічі збільшить розмір гри"
-  ],
-  [
-   1793553105.0773237,
-   "Саванна Гатрі знову закликала допомогти знайти зниклу матір"
-  ],
-  [
-   1793554295.3603897,
-   "У листопаді святкують дні народження легенди рок-музики"
-  ],
-  [
-   1793554315.182152,
-   "Лена Райн розповіла про вплив треку Pigstep на музику в Minecraft"
-  ],
-  [
-   1793554433.2791326,
-   "Това Фелдшу заперечує конфлікти на зйомках Nobody Wants This через позицію Адама Броді"
-  ],
-  [
-   1793554457.212025,
-   "Call of Warfare: Modern Warfare 4 на Switch 2 має значно гіршу затримку введення, ніж на PS5"
-  ],
   [
    1793556177.626358,
    "Metallica виконала моторошну пісню на Геловін у Sphere"
@@ -43213,6 +43181,38 @@
   [
    1793725460.9467196,
    "Currents, Vana, Stick To Your Guns, Vanna та Dreamwake вирушають у тур Північною Америкою"
+  ],
+  [
+   1793727285.5411575,
+   "Фільм зі штучним інтелектом Gods Don’t Give Gifts отримав камео Grimes від ШІ та показ «Оскар»"
+  ],
+  [
+   1793727331.2636437,
+   "Кросовер World of Warcraft із D&D вийшов неоднозначним"
+  ],
+  [
+   1793727340.2234924,
+   "CI Games залучила $32 мільйони кредиту на самовидавництво Lords of the Fallen 2"
+  ],
+  [
+   1793727362.3726108,
+   "Elder анонсували перенесені концерти на весну"
+  ],
+  [
+   1793727365.0465724,
+   "Microsoft хоче навчити ШІ редагувати прямі трансляції – це може відкрити шлях до дипфейків у реальному часі"
+  ],
+  [
+   1793727400.8965,
+   "Вокаліст ANTHRAX Джої Белладонна виконав гімн США перед матчем NFL"
+  ],
+  [
+   1793727467.2289603,
+   "У новому кліпі Cyberpunk: Edgerunners показали свіжі сцени та передісторії персонажів"
+  ],
+  [
+   1793727489.958606,
+   "У Helldivers 2 додадуть новий підвид термінідів та оновлені печери"
   ]
  ],
  "ukrainian": {
