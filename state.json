@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
+   "detail": "https://www.kerrang.com/feed.rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Kerrang!» не працює",
+   "sent": 0,
+   "since": 1793800873.749908
+  }
+ },
  "daily_digest_date": "2026-11-03",
  "freebies": {
   "last_check": 1793797708.845057,
@@ -26,209 +33,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-04 13:32 UTC",
-  "gemini_error": "",
+  "at": "2026-11-04 14:06 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 7
+   "gemini-flash-lite-latest": 8
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793107960.581666,
-   2934,
-   "🎮",
-   "Зростання кількості ігор у Steam Early Access підвищує очікування гравців",
-   "GamesIndustry.biz",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.gamesindustry.biz/developers-need-to-treat-early-access-like-a-real-launch-because-players-do-early-access-games-are-on-the-rise-but-so-are-player-expectations",
-    "orig": "\"Developers need to treat Early Access like a real launch, because players do\" – Early Access games are on the rise, but so are player expectations"
-   }
-  ],
-  [
-   1793107963.2021067,
-   2935,
-   "🤖",
-   "Disruptive закрила мегафонд на $10 мільярдів для стартапів у сфері ШІ та оборони",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-10-27/disruptive-closes-10-billion-megafund-for-ai-defense-startups",
-    "orig": "Disruptive Closes $10 Billion Megafund for AI, Defense Startups"
-   }
-  ],
-  [
-   1793109702.2730045,
-   2936,
-   "🎮",
-   "UKIE закликає уряд модернізувати податкові пільги для відеоігор",
-   "GamesIndustry.biz",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.gamesindustry.biz/ukie-calls-on-government-to-modernise-video-games-expenditure-credit-ahead-of-autumn-budget",
-    "orig": "UKIE calls on government to modernise Video Games Expenditure Credit ahead of Autumn Budget"
-   }
-  ],
-  [
-   1793109717.0935006,
-   2937,
-   "🎮",
-   "Рецензія на The Wolf Among Us Remastered",
-   "IGN",
-   {
-    "also": [
-     [
-      "GameSpot",
-      "https://www.gamespot.com/articles/the-wolf-among-us-remastered-doesnt-change-much-and-thats-a-good-thing/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/the-wolf-among-us-remastered-review",
-    "orig": "The Wolf Among Us Remastered Review"
-   }
-  ],
-  [
-   1793109727.7600656,
-   2938,
-   "🎮",
-   "Пітер Моліньє заявив про неможливість кодування без використання ШІ",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/strategy/peter-molyneux-speaks-candidly-about-ai-we-as-the-industry-are-pretending-were-not-using-ai-but-the-reality-is-its-almost-impossible-to-code-now-without-using-ai/",
-    "orig": "Peter Molyneux speaks candidly about AI: 'We, as the industry, are pretending we're not using AI, but the reality is, it's almost impossible to code now without using AI'"
-   }
-  ],
-  [
-   1793109776.1985958,
-   2939,
-   "🎮",
-   "Голова Pocketpair розповів про збереження інді-духу після успіху Palworld",
-   "VGC",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.videogameschronicle.com/features/interviews/pocketpair-ceo/",
-    "orig": "Pocketpair CEO on keeping the indie spirit alive after Palworld’s success"
-   }
-  ],
-  [
-   1793109778.2841105,
-   2940,
-   "🎬",
-   "Голлівудський дебют творця \"Ґодзілли мінус один\": перші подробиці",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/gollivudskyj-debyut-tvortsya-godzilly-minus-odyn-pershi-podrobytsi/",
-    "orig": "Голлівудський дебют творця \"Ґодзілли мінус один\": перші подробиці"
-   }
-  ],
-  [
-   1793109782.6980023,
-   2941,
-   "🤘",
-   "Архівні кадри ранніх KYUSS увійшли в ювілейне видання фільму Desert Age",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/footage-of-early-kyuss-live-performance-featured-in-clip-from-desert-age-a-rock-and-roll-scene-history-10th-anniversary-special-edition",
-    "orig": "Footage Of Early KYUSS Live Performance Featured In Clip From 'Desert Age: A Rock And Roll Scene History - 10th Anniversary Special Edition'"
-   }
-  ],
-  [
-   1793109794.580394,
-   2942,
-   "🎮",
-   "У новому трейлері Escape From Playtime натякнули на Poppy Playtime Chapter 6",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/poppy-playtime-chapter-6-teased-for-2027-in-new-trailer/",
-    "orig": "Poppy Playtime Chapter 6 Teased For 2027 in New Trailer"
-   }
-  ],
-  [
-   1793109798.5020404,
-   2943,
-   "🤘",
-   "Інді-рок-гурт Trinket випустив сингл If Not Soon Then Now",
-   "Stereogum",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://stereogum.com/2515648/trinket-if-not-soon-then-now/music/",
-    "orig": "Trinket – “If Not Soon Then Now”"
-   }
-  ],
-  [
-   1793109801.7254438,
-   2944,
-   "🎮",
-   "GTA 6 вже не перенесуть: журналісти почали отримувати копії для огляду",
-   "ITC.ua",
-   {
-    "also": [
-     [
-      "IGN",
-      "https://www.ign.com/articles/get-gta-6-ultimate-edition-on-ps5-for-just-85-using-this-trick-today-only"
-     ],
-     [
-      "PC Gamer",
-      "https://www.pcgamer.com/games/grand-theft-auto/edge-magazine-went-to-rockstar-to-see-gta-6-and-will-tell-you-all-about-in-lavish-detail-this-thursday-october-29/"
-     ]
-    ],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/gta-6-vzhe-ne-perenesut-zhurnalisty-pochaly-otrymuvaty-kopiyi-dlya-oglyadu/",
-    "orig": "GTA 6 вже не перенесуть: журналісти почали отримувати копії для огляду"
-   }
-  ],
-  [
-   1793109834.6322458,
-   2945,
-   "🎮",
-   "Nintendo анонсувала презентацію Indie World на цей тиждень",
-   "VGC",
-   {
-    "also": [
-     [
-      "Eurogamer",
-      "https://www.eurogamer.net/nintendo-new-indie-world-showcase-october-28"
-     ],
-     [
-      "Insider Gaming",
-      "https://insider-gaming.com/nintendo-indie-world-showcase-october-28-2026/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.videogameschronicle.com/news/nintendos-next-indie-world-showcase-will-take-place-this-week/",
-    "orig": "Nintendo’s next Indie World showcase will take place this week"
-   }
-  ],
-  [
-   1793109844.887984,
-   2946,
-   "🤖",
-   "Експерт із Deepmind хоче подолати галюцинації ШІ за допомогою підходу AlphaGo",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/former-deepmind-researcher-thinks-alphagos-playbook-can-cure-ai-hallucinations/",
-    "orig": "Former Deepmind researcher thinks AlphaGo's playbook can cure AI hallucinations"
-   }
-  ],
   [
    1793111498.6706772,
    2947,
@@ -22464,7 +22279,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>Rungle</b>\n\nПеретворюйте свої бігові фото та кліпи на готові до публікації Reels\n\n🔗 <a href=\"https://www.producthunt.com/products/rungle\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/rungle",
     "orig": "Rungle"
@@ -22478,7 +22292,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Фільм King із Shah Rukh Khan вийде в міжнародний прокат 24 грудня</b>\n\nКомпанія Phars Film займеться міжнародним прокатом фільму King за участю Шахрукха Кхана та режисера Сіддхарта Ананда. Стрічка вийде на великі екрани в усьому світі одночасно з релізом в Індії 24 грудня. Картина є новим спільним проєктом актора й режисера після успішного блокбастера Pathaan.\n\n🔗 <a href=\"https://deadline.com/2026/11/shah-rukh-khan-king-siddarth-anand-phars-film-1237212918/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/shah-rukh-khan-king-siddarth-anand-phars-film-1237212918/",
     "orig": "Shah Rukh Khan’s ‘King’ To Be Released In International Territories By Phars Film"
@@ -22492,7 +22305,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>Історія користувацьких інтерфейсів: від командного рядка до сенсорних екранів</b>\n\nУ кожного елемента інтерфейсів ПК чи смартфонів є власний винахідник та історія створення. Згадуємо як користувацький інтерфейс еволюціонував протягом останніх 50 років.\n\n🔗 <a href=\"https://mezha.ua/articles/istoriya-koristuvackih-interfeysiv-316823/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/articles/istoriya-koristuvackih-interfeysiv-316823/",
     "orig": "Історія користувацьких інтерфейсів: від командного рядка до сенсорних екранів"
@@ -22506,7 +22318,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "💾 <b>До 40% швидша Windows 11: Microsoft оптимізувала ОС під ПК з 8 ГБ ОЗП</b>\n\nMicrosoft заявила про низку оптимізацій Windows 11 спеціально під системи з 8 ГБ оперативної пам’яті.\n\n🔗 <a href=\"https://itc.ua/ua/novini/do-40-shvydsha-windows-11-microsoft-optymizuvala-os-pid-pk-z-8-gb-ozp/\">ITC.ua</a>\n\n#софт",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/do-40-shvydsha-windows-11-microsoft-optymizuvala-os-pid-pk-z-8-gb-ozp/",
     "orig": "До 40% швидша Windows 11: Microsoft оптимізувала ОС під ПК з 8 ГБ ОЗП"
@@ -22520,7 +22331,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Rockstar готується блокувати спойлери GTA 6 за допомогою авторських прав</b>\n\n🔗 <a href=\"https://insider-gaming.com/rockstar-might-dmca-gta-6-spoilers/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/rockstar-might-dmca-gta-6-spoilers/",
     "orig": "Rockstar Might DMCA GTA 6 Spoilers, Even After Launch"
@@ -22534,7 +22344,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/2621690/\">Eva</a> <a href=\"https://store.steampowered.com/app/2955180/\">Elfie</a> стала амбасадоркою платформи BC Game</b>\n\n🔗 <a href=\"https://insider-gaming.com/eva-elfie-bc-game-platform-ambassador-esports/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/eva-elfie-bc-game-platform-ambassador-esports/",
     "orig": "Eva Elfie Brings Esports Following to BC Game Platform as Ambassador"
@@ -22548,7 +22357,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Вийшов Floci — безплатний локальний AWS-емулятор для розробки та тестування</b>\n\nFloci є безплатним відкритим локальним AWS-емулятором, який працює без облікового запису чи платних обмежень. Інструмент дає змогу запускати сервіси на кшталт Lambda, RDS та EC2 на власній машині через Docker і замінює LocalStack.\n\n🔗 <a href=\"https://github.com/floci-io/floci\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/floci-io/floci",
     "orig": "floci-io/floci"
@@ -22562,7 +22370,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>Fedora Linux 45 отримає GNOME 51 із виправленнями для Wayland</b>\n\nОновлення принесе підтримку ключів oo7 та сучасні інструментарії\n\n🔗 <a href=\"https://www.producthunt.com/products/fedora-linux-45\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/fedora-linux-45",
     "orig": "Fedora Linux 45"
@@ -23329,6 +23136,118 @@
     "link": "https://www.gamesindustry.biz/i-realised-i-might-only-have-time-to-make-one-more-game-so-i-wanted-to-try-something-new-tekken-director-katsuhiro-harada-on-starting-vs-studio",
     "orig": "\"I realised I might only have time to make one more game, so I wanted to try something new\" – Tekken director Katsuhiro Harada on starting VS Studio"
    }
+  ],
+  [
+   1793800935.2165911,
+   4691,
+   "🤘",
+   "Джеймс Гетфілд і EMG випустили лімітовані сигнатурні датчики до 50-річчя бренду",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Джеймс Гетфілд і EMG випустили лімітовані сигнатурні датчики до 50-річчя бренду</b>\n\nФронтмен METALLICA Джеймс Гетфілд допоміг компанії EMG відзначити 50-річчя випуском лімітованого набору сигнатурних датчиків. Комплект із 200 штук має кастомний логотип, створений самим музикантом на основі шрифту гурту. Набір надійде в продаж 13 листопада 2026 року.\n\n🔗 <a href=\"https://blabbermouth.net/news/metallicas-james-hetfield-helps-emg-celebrate-50th-anniversary-with-limited-edition-signature-set-release\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/metallicas-james-hetfield-helps-emg-celebrate-50th-anniversary-with-limited-edition-signature-set-release",
+    "orig": "METALLICA's JAMES HETFIELD Helps EMG Celebrate 50th Anniversary With Limited-Edition Signature Set Release"
+   }
+  ],
+  [
+   1793800956.0773723,
+   4692,
+   "🎮",
+   "Ультрарідкісний предмет у Fortnite спричинив хвилю шахрайства та продажів на eBay",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Ультрарідкісний предмет у Fortnite спричинив хвилю шахрайства та продажів на eBay</b>\n\nНовий кросовер Fortnite та One Piece додав надзвичайно рідкісний Pirate Shop Token, який дозволяє безплатно отримувати предмети з магазину. Гравці почали продавати послуги з його фарму та виставляти акаунти на eBay за тисячі доларів, порушуючи правила Epic Games.\n\n🔗 <a href=\"https://www.ign.com/articles/fortnite-pirate-shop-token-hunt-sparked-wave-of-profiteering\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/fortnite-pirate-shop-token-hunt-sparked-wave-of-profiteering",
+    "orig": "Fortnite's Ultra-Rare Pirate Shop Token Hunt Sparks Wave of Profiteering and eBay Listings"
+   }
+  ],
+  [
+   1793801027.3014083,
+   4693,
+   "🎮",
+   "Ubisoft може врятувати гру Marvel's Blade від закриття",
+   "GameSpot",
+   {
+    "also": [],
+    "caption": "🎮 <b>Ubisoft може врятувати гру Marvel&#x27;s Blade від закриття</b>\n\nЗа даними нового звіту, Arkane Lyon шукає покупця, і Ubisoft розглядає можливість придбати розробників Marvel&#x27;s Blade. Раніше студія опинилася під загрозою після того, як Xbox почала позбавлятися активів.\n\n🔗 <a href=\"https://www.gamespot.com/articles/ubisoft-could-be-the-company-that-keeps-marvels-blade-alive/\">GameSpot</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamespot.com/articles/ubisoft-could-be-the-company-that-keeps-marvels-blade-alive/",
+    "orig": "Ubisoft Could Be The Company That Keeps Marvel’s Blade Alive"
+   }
+  ],
+  [
+   1793801035.831757,
+   4694,
+   "🎮",
+   "NAVI вийшли у гранд-фінал EPL Masters III з Dota 2",
+   "PlayUA",
+   {
+    "also": [],
+    "caption": "🎮 <b>NAVI вийшли у гранд-фінал EPL Masters III з <a href=\"https://store.steampowered.com/app/570/\">Dota 2</a></b>\n\nNatus Vincere перемогли Yellow Submarine із рахунком 2:0 та забезпечили собі місце у гранд-фіналі EPL Masters III з Dota 2. Вирішальний матч турніру відбудеться 5 листопада 2026 року. Українська кіберспортивна організація продовжує успішні виступи одразу у двох дисциплінах. Раніше склад NAVI з Counter-Strike 2 здолав Team Falcons із рахунком 2:1 та пробився до чвертьфіналу IEM […]\n\n🔗 <a href=\"https://playua.net/navi-vyjshly-u-grand-final-epl-masters-iii-z-dota-2/\">PlayUA</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://playua.net/navi-vyjshly-u-grand-final-epl-masters-iii-z-dota-2/",
+    "orig": "NAVI вийшли у гранд-фінал EPL Masters III з Dota 2"
+   }
+  ],
+  [
+   1793801073.3674164,
+   4695,
+   "🎮",
+   "Виробник пам'яті для картриджів Nintendo виходить із цього бізнесу",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Виробник пам&#x27;яті для картриджів Nintendo виходить із цього бізнесу</b>\n\nКомпанія Macronix, яка є давнім партнером Nintendo та виробником ROM-пам&#x27;яті для картриджів Switch і Switch 2, планує повністю згорнути цей напрям до кінця третього кварталу 2026 фінансового року. Через це навантаження на ланцюжок постачань зросте, що може призвести до подорожчання фізичних копій ігор або переходу видавців на Game-Key Cards.\n\n🔗 <a href=\"https://www.eurogamer.net/nintendo-switch-2-cartridge-macronix-ending-rom-manufacturing\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/nintendo-switch-2-cartridge-macronix-ending-rom-manufacturing",
+    "orig": "One of Nintendo's Switch and Switch 2 cartridge manufacturers is exiting the business, which could make physical games more expensive"
+   }
+  ],
+  [
+   1793801123.8089879,
+   4696,
+   "🎮",
+   "TenZ повертається на про-сцену VALORANT у складі T1",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>TenZ повертається на про-сцену VALORANT у складі T1</b>\n\nТайсон ТенЗ Нго планує повернутися до змагального VALORANT і приєднатися до активного складу T1 наступного року. Раніше він завершив кар&#x27;єру у вересні 2024 року заради створення контенту, але тепер знову стане гравцем команди на тлі участі T1 у VCT Pacific.\n\n🔗 <a href=\"https://insider-gaming.com/tenz-competitive-valorant-next-year-with-t1/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/tenz-competitive-valorant-next-year-with-t1/",
+    "orig": "TenZ Returning to Competitive VALORANT Next Year with T1, It’s Claimed"
+   }
+  ],
+  [
+   1793801173.979675,
+   4697,
+   "🎮",
+   "У Fortnite можуть з'явитися фінішери як у Call of Duty",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>У Fortnite можуть з&#x27;явитися фінішери як у <a href=\"https://store.steampowered.com/app/1938090/\">Call of Duty</a></b>\n\nУсе вказує на те, що у Fortnite додадуть фінішні добивання, які вже роками є у серії Call of Duty\n\n🔗 <a href=\"https://insider-gaming.com/fortnite-finishing-moves-soon-call-of-duty/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/fortnite-finishing-moves-soon-call-of-duty/",
+    "orig": "Fortnite Might Get Finishing Moves Soon, Mirroring Call of Duty"
+   }
+  ],
+  [
+   1793801209.752232,
+   4698,
+   "🎮",
+   "Nintendo, Xbox, Ubisoft та інші компанії впровадили теги Accessible Games Initiative",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>Nintendo, Xbox, Ubisoft та інші компанії впровадили теги Accessible Games Initiative</b>\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/accessible-games-initiative-tags-adopted-by-nintendo-xbox-ubisoft-and-ea-making-it-easier-to-find-accessibility-features/\">VGC</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/accessible-games-initiative-tags-adopted-by-nintendo-xbox-ubisoft-and-ea-making-it-easier-to-find-accessibility-features/",
+    "orig": "Accessible Games Initiative tags adopted by Nintendo, Xbox, Ubisoft and EA, making it easier to find accessibility features"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23398,7 +23317,8 @@
    1793786577.3370283,
    1793790111.7501547,
    1793797353.4743714,
-   1793799116.859782
+   1793799116.859782,
+   1793801073.3678572
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1793716397.219496,
@@ -23407,7 +23327,8 @@
    1793734520.723406,
    1793736123.5262313,
    1793737919.857603,
-   1793743318.5178132
+   1793743318.5178132,
+   1793801027.3018324
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
    1793719912.7076437,
@@ -23432,7 +23353,8 @@
    1793790139.9715738,
    1793790160.0620465,
    1793793701.673344,
-   1793797560.0987756
+   1793797560.0987756,
+   1793800956.0778172
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1793723595.1505473,
@@ -23455,7 +23377,9 @@
    1793781227.1865008,
    1793793726.7979782,
    1793797504.8982508,
-   1793799132.3665402
+   1793799132.3665402,
+   1793801123.8092346,
+   1793801173.9800754
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1793712687.6619625,
@@ -23479,10 +23403,8 @@
    1793793731.8436017
   ],
   "games|PlayUA|https://playua.net/feed/": [
-   1793644387.9268937,
-   1793644400.1881704,
-   1793691085.515969,
-   1793730746.9032555
+   1793730746.9032555,
+   1793801035.8320165
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
    1793721966.8739955,
@@ -23519,7 +23441,8 @@
    1793730753.5628915,
    1793736153.0847406,
    1793745092.3754802,
-   1793797477.6085398
+   1793797477.6085398,
+   1793801209.7526588
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1793718102.8564167,
@@ -23579,7 +23502,6 @@
    1793763078.3152678
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1793712692.8986287,
    1793716306.632689,
    1793716438.1119943,
    1793718280.4419115,
@@ -23594,7 +23516,8 @@
    1793743308.404818,
    1793759599.2263527,
    1793797394.5201423,
-   1793797597.57829
+   1793797597.57829,
+   1793800935.217062
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -23936,6 +23859,7 @@
   "0a56ce5822a722f5": 1793104471.0170724,
   "0a59fd18770071a2": 1792868501.9115129,
   "0a6b9121b666dc65": 1792699527.957413,
+  "0a72cb7cf38fdebe": 1793800904.646153,
   "0a852a1554189643": 1793482252.8936336,
   "0a98676779c148c3": 1793770277.8583286,
   "0ab60fd395648efc": 1792674238.2990987,
@@ -24176,6 +24100,7 @@
   "174a74f5db002b56": 1793295355.5394044,
   "175fd901142b078d": 1793212514.7363465,
   "176660ad5b41fcda": 1793653380.5781026,
+  "177025c4f7fa5eb3": 1793801027.3018024,
   "1779cc56d7d8d962": 1792702854.1379561,
   "177bddab4a5d01c0": 1793062888.9745376,
   "1788aa79a2223e6c": 1792693883.6589432,
@@ -24693,6 +24618,7 @@
   "34c1af0295a3aad9": 1792689495.1172206,
   "34c32066ce32b7bc": 1793107874.485146,
   "34c884c91d812923": 1793088186.8086922,
+  "34d5abb3d6476b5b": 1793800885.1169317,
   "34df04f4eaad904a": 1793520052.6677861,
   "34e0daac80ace3da": 1793640853.3112383,
   "34f4190ab64d7102": 1792783885.0354223,
@@ -25048,7 +24974,6 @@
   "4a32b637801bf014": 1793428291.8902476,
   "4a34a03127ad822c": 1792814484.6630898,
   "4a44cd3f184fe23d": 1792704685.1394806,
-  "4a62a9419ab70c3c": 1792591254.1789236,
   "4a6e52a01df205bd": 1793365344.2508354,
   "4a741597d43a001d": 1793284557.178438,
   "4a759d990ae5e17e": 1792733496.1643553,
@@ -25179,6 +25104,7 @@
   "50e4a04dc2f56103": 1793261291.4766266,
   "50e5af312aefd332": 1792692096.7135513,
   "513e680627d522a9": 1793610245.9991863,
+  "515f1b534898cbf6": 1793801073.367826,
   "51688dc7df72e4e2": 1793604773.643212,
   "516f7b4c93380578": 1793210742.9788778,
   "51743bca4fd9d66a": 1793035880.752646,
@@ -25422,6 +25348,7 @@
   "5e45c42a80d0e93c": 1792954902.1131532,
   "5e4c376f82207f9b": 1793003666.458597,
   "5e5dc7b7dc8d74d9": 1793355116.518903,
+  "5e6b562fb3d25949": 1793800935.217012,
   "5e722e0d46052950": 1793412083.0029504,
   "5e73d983ae1cf80d": 1793241054.3613508,
   "5e923b7138425ae2": 1793196128.9305916,
@@ -25451,7 +25378,6 @@
   "5fc318b41e685a12": 1793615453.5353343,
   "5fd88f33c8255fae": 1793449884.5930266,
   "5fe409d007bffc76": 1793120502.8744493,
-  "5fec07394168c473": 1792591295.5011218,
   "5ff0fed9e67a9d4f": 1793559680.9373286,
   "60059f03698deb8b": 1792679674.6936393,
   "60072bba96246e3f": 1793102518.4447305,
@@ -25617,7 +25543,6 @@
   "694b66106911d412": 1792699489.4483354,
   "694fdc84c7f2b206": 1792747853.395347,
   "694ff79e8b94a511": 1793642545.237634,
-  "695a4a80a2da6149": 1792591408.0965388,
   "695be059eba9624a": 1793426187.683587,
   "696ab3fd2f817d51": 1793390675.9271827,
   "696bceef45141772": 1792643453.9104059,
@@ -25688,6 +25613,7 @@
   "6c99b250c41f92a4": 1793379768.161995,
   "6ca65c9c7866fa35": 1793288167.0471551,
   "6cb682bd03948274": 1793020678.290429,
+  "6cc5515fae2b49a9": 1793800885.1215549,
   "6cdb51479df094a6": 1793131299.2972074,
   "6cf18c6404d4760f": 1793746893.914856,
   "6d0eac8d7426d550": 1792674086.5338023,
@@ -25816,6 +25742,7 @@
   "7396c95008ce2a40": 1793648085.570265,
   "739757869a68c709": 1792593227.8783355,
   "739b30fd573deaf4": 1793464280.238074,
+  "73a0c99e51c28428": 1793800885.1191442,
   "73b24678465c9b60": 1793046707.3773746,
   "73be9d81c4e3a523": 1792935130.3775742,
   "73c230ab07d0fa02": 1792863054.4605272,
@@ -26247,7 +26174,6 @@
   "8e012ffa873243ff": 1793433983.738015,
   "8e1e8ced19a5f6d3": 1793453488.812824,
   "8e23b5a0821d56c4": 1792780279.6700447,
-  "8e24385f3db44b6c": 1792589571.142918,
   "8e272a094d7df59d": 1793044917.6394243,
   "8e2c6531f1f6a1e4": 1792834441.332146,
   "8e322064ca31b16e": 1793532879.707783,
@@ -26567,6 +26493,7 @@
   "9e516ebc7a9ce25e": 1793390692.9872398,
   "9e5a489407a1416d": 1792598624.3893275,
   "9e6798564220acc0": 1793725295.896661,
+  "9e6ae8148bfa92f5": 1793801173.980046,
   "9e8576e95565c1e4": 1793187177.6447916,
   "9e902a011ede93b8": 1793208821.1226487,
   "9e906b4d4b6be55d": 1793102486.7010148,
@@ -26700,6 +26627,7 @@
   "a660c61702a8c11b": 1793084477.9259665,
   "a6946d99228206ef": 1793278952.894123,
   "a699236225b1222c": 1793210764.299496,
+  "a6ab2a20d9daf026": 1793800885.1102955,
   "a6b21f133af10897": 1793633599.1860323,
   "a6bcd8f61978adb6": 1793273473.2092345,
   "a6c4e0e7843d548b": 1792690287.236157,
@@ -26743,6 +26671,7 @@
   "a8edba6b49457969": 1793241054.3613508,
   "a908381c021f809b": 1793556189.249489,
   "a91f804c54e58b7c": 1792733493.1108751,
+  "a928ee59dd35e0e7": 1793801123.8092053,
   "a9346c10c9986e26": 1793718102.8563695,
   "a9358f2427dfc85d": 1793241076.654878,
   "a94e25f37034c5ff": 1793206879.5213656,
@@ -26868,7 +26797,6 @@
   "af79c95c380192eb": 1793273453.065667,
   "af7a88d8ff1a96bc": 1792731766.4964757,
   "af98ed0ac06dffeb": 1792825370.3791301,
-  "afa0b1545defcdb0": 1792591361.3473911,
   "afabee8dd491d914": 1792987379.1866846,
   "afafe7a3e5b72ff0": 1793730687.6909645,
   "afb8ff0630f0f02d": 1793246477.0786796,
@@ -27102,7 +27030,6 @@
   "bbeb3e92d8e940a7": 1793707280.169243,
   "bbf38c02dadd57d9": 1793631732.9490244,
   "bc08968e82a654b5": 1793264585.6908438,
-  "bc18b9045ca29574": 1792589568.7558157,
   "bc1e39a9dc2fd3fb": 1792771255.1467223,
   "bc2b72bddbe6013e": 1793397655.8950074,
   "bc459a849db7bb67": 1793291766.908042,
@@ -27192,7 +27119,6 @@
   "c16aa9194bf23a2a": 1793305983.1641345,
   "c172e56cc8991080": 1793370766.8298123,
   "c18214794fc1b90b": 1793639188.9155376,
-  "c1887e7be2ea4603": 1792591561.538277,
   "c19c9d0434647bfc": 1792756855.7458665,
   "c1a078c1af02f885": 1793390689.7494864,
   "c1b4d70aa746715f": 1793462622.912179,
@@ -27313,7 +27239,6 @@
   "c82358ed4e39a193": 1793799106.123002,
   "c83c21ee2a01b229": 1792762286.844665,
   "c84a2bad3ae732a8": 1793745088.4347131,
-  "c84bd13d4104221c": 1792591312.8990512,
   "c876ad899ff837e9": 1793755680.6626332,
   "c877c429cfbfb1b2": 1793377967.860746,
   "c89d690c69a57c4e": 1792659680.8537717,
@@ -27369,6 +27294,7 @@
   "cb5d1ed905a96288": 1793228480.580658,
   "cb7873f790f3a0d8": 1792758690.4463036,
   "cba8f249eae7082f": 1793142154.2969387,
+  "cbb2e5aea21cee94": 1793800956.0777733,
   "cbb5ced9c5cca89c": 1793720402.3975544,
   "cbb698c35ad2536d": 1793584878.8547297,
   "cbc8db7dc5b12dff": 1793188996.920624,
@@ -27579,6 +27505,7 @@
   "d9a2abfe63498dff": 1792783901.928069,
   "d9a8af61315bef82": 1792926166.3084486,
   "d9aa1ad2c5e2c17e": 1793109782.6985657,
+  "d9bc06779f5a7c06": 1793801035.831989,
   "d9c272590d52b8da": 1792598796.0835633,
   "d9c2ecd4a6cc153c": 1793689278.0833693,
   "d9cdf8d3e4799e95": 1793198046.8265197,
@@ -27623,6 +27550,7 @@
   "dba4e1abe474f0e8": 1792974773.5004857,
   "dbc72b25f5cd5cd1": 1793658707.96473,
   "dbc73fab9fbb420e": 1793185297.9544957,
+  "dbd399a1d7f0b0f4": 1793801209.7526288,
   "dbd7714f767330f0": 1793136679.3827136,
   "dc1b915ea17b22e1": 1792775794.0523136,
   "dc2a518e8d517960": 1793619166.2811775,
@@ -27809,7 +27737,6 @@
   "e5a0e0fdbe25ecd9": 1793122382.3567166,
   "e5a884f6e28727f0": 1793286456.3730297,
   "e5b2aa7005e04390": 1793322477.903858,
-  "e5b4c115247de93f": 1792591456.214588,
   "e5bfb51c3d3b9fb8": 1792607511.8219502,
   "e5ce210332a83b59": 1792690327.2465618,
   "e5d86317671ccb47": 1793640808.7067301,
@@ -28034,7 +27961,6 @@
   "f3146fa5cb0cd156": 1793241054.3613508,
   "f331a1d07e32aedc": 1793457092.665254,
   "f33d1a49158ce0ea": 1793482349.180834,
-  "f33fc0b1750a1b68": 1792591518.6114793,
   "f3538b6fb36f4f58": 1793282848.2991073,
   "f35afa200f38632a": 1793293396.9558856,
   "f36c315683ef0962": 1793293629.568397,
@@ -28061,7 +27987,6 @@
   "f49ae1c7def43d60": 1793120482.2597299,
   "f4a3a6408146e28d": 1793117025.4249923,
   "f4aade4c6661830d": 1793395986.3384132,
-  "f4ab916a786fb5c3": 1792589587.1052966,
   "f4b88e1b098a2ae7": 1792591855.6388552,
   "f4d77bb0326d702e": 1793723790.2340157,
   "f4d8ee40cbcceecf": 1793628141.8324409,
@@ -29510,7 +29435,7 @@
   "sources": {
    "/Film": 14,
    "AIN.ua": 4,
-   "Blabbermouth": 28,
+   "Blabbermouth": 29,
    "Bloomberg": 31,
    "DOU": 4,
    "DOU Gamedev": 3,
@@ -29518,15 +29443,15 @@
    "Decibel": 6,
    "Digital Foundry": 5,
    "Distorted Sound": 7,
-   "Eurogamer": 14,
-   "GameSpot": 12,
+   "Eurogamer": 15,
+   "GameSpot": 13,
    "GamesIndustry.biz": 10,
    "GitHub Trending": 18,
    "Hugging Face": 2,
-   "IGN": 35,
+   "IGN": 36,
    "ITC.ua": 34,
    "IndieWire": 10,
-   "Insider Gaming": 37,
+   "Insider Gaming": 39,
    "Kerrang!": 12,
    "Lambgoat": 20,
    "Loudwire": 12,
@@ -29535,7 +29460,7 @@
    "Mezha": 31,
    "PC Gamer": 31,
    "Pitchfork": 5,
-   "PlayUA": 5,
+   "PlayUA": 6,
    "Polygon": 14,
    "Product Hunt": 12,
    "Revolver": 3,
@@ -29544,13 +29469,13 @@
    "Stereogum": 6,
    "The Decoder": 14,
    "ThePRP": 27,
-   "VGC": 20,
+   "VGC": 21,
    "Variety": 18
   },
   "translators": {
    "DeepL": 6,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 599
+   "gemini-flash-lite-latest": 607
   },
   "week": "2026-W45"
  },
@@ -30760,6 +30685,16 @@
    "Absence",
    1792591299.6776512
   ],
+  "q:accessible games": [
+   0,
+   "",
+   1793801176.370802
+  ],
+  "q:accessible games initiative": [
+   0,
+   "",
+   1793801175.9397418
+  ],
   "q:actors": [
    5151960,
    "Actors",
@@ -31044,11 +30979,6 @@
    0,
    "",
    1793667690.7329514
-  ],
-  "q:angeles": [
-   0,
-   "",
-   1793626400.7799842
   ],
   "q:angelfall": [
    5168040,
@@ -31375,60 +31305,25 @@
    "Battleplan",
    1791815079.4738243
   ],
-  "q:bautista": [
-   0,
-   "",
-   1793626397.6452672
-  ],
-  "q:bautista is": [
-   0,
-   "",
-   1793626397.1205432
-  ],
-  "q:bautista is looking": [
-   0,
-   "",
-   1793626396.6179457
-  ],
-  "q:bautista is looking more": [
-   0,
-   "",
-   1793626396.1173074
-  ],
-  "q:bautista is looking more like": [
-   0,
-   "",
-   1793626395.602283
-  ],
-  "q:bautista is looking more like kratos": [
-   0,
-   "",
-   1793626395.0995753
-  ],
   "q:bay 12 mech repair": [
    5092570,
    "Bay 12: Mech Repair",
    1793641166.5669193
   ],
-  "q:be the first": [
+  "q:be the company that": [
    0,
    "",
-   1793626388.9540846
+   1793800962.9146447
   ],
-  "q:be the first game": [
+  "q:be the company that keeps": [
    0,
    "",
-   1793626388.288874
+   1793800962.4410663
   ],
-  "q:be the first game from": [
+  "q:be the company that keeps marvel": [
    0,
    "",
-   1793626387.7626114
-  ],
-  "q:be the first game from nagoshi": [
-   0,
-   "",
-   1793626387.2445467
+   1793800962.0066617
   ],
   "q:beach": [
    0,
@@ -32340,6 +32235,16 @@
    "Company of Heroes 3",
    1793207139.3398516
   ],
+  "q:competitive valorant next": [
+   0,
+   "",
+   1793801080.1489038
+  ],
+  "q:competitive valorant next year": [
+   0,
+   "",
+   1793801079.7087767
+  ],
   "q:completely ignored": [
    0,
    "",
@@ -32444,6 +32349,31 @@
    0,
    "",
    1793730722.9475594
+  ],
+  "q:could": [
+   0,
+   "",
+   1793800961.5560057
+  ],
+  "q:could be": [
+   0,
+   "",
+   1793800961.0923092
+  ],
+  "q:could be the company": [
+   0,
+   "",
+   1793800960.6413362
+  ],
+  "q:could be the company that": [
+   0,
+   "",
+   1793800960.2068768
+  ],
+  "q:could be the company that keeps": [
+   0,
+   "",
+   1793800959.7696047
   ],
   "q:counter strike": [
    10,
@@ -32694,36 +32624,6 @@
    0,
    "",
    1793721759.705413
-  ],
-  "q:dave": [
-   0,
-   "",
-   1793626394.5837982
-  ],
-  "q:dave bautista": [
-   0,
-   "",
-   1793626394.0705576
-  ],
-  "q:dave bautista is": [
-   0,
-   "",
-   1793626393.5722198
-  ],
-  "q:dave bautista is looking": [
-   0,
-   "",
-   1793626393.0765436
-  ],
-  "q:dave bautista is looking more": [
-   0,
-   "",
-   1793626392.2464526
-  ],
-  "q:dave bautista is looking more like": [
-   0,
-   "",
-   1793626391.7316604
   ],
   "q:david": [
    346180,
@@ -33475,6 +33375,31 @@
    "Envelope",
    1792080961.450779
   ],
+  "q:epl": [
+   0,
+   "",
+   1793801033.3507855
+  ],
+  "q:epl masters": [
+   0,
+   "",
+   1793801032.8057842
+  ],
+  "q:epl masters 3": [
+   0,
+   "",
+   1793801032.3719032
+  ],
+  "q:epl masters 3 dota": [
+   0,
+   "",
+   1793801031.9257755
+  ],
+  "q:epl masters 3 dota 2": [
+   0,
+   "",
+   1793801031.475884
+  ],
   "q:escape from playtime": [
    2087540,
    "Escape from Playtime",
@@ -33855,11 +33780,6 @@
    "",
    1793743344.2341256
   ],
-  "q:first game from nagoshi studio it": [
-   0,
-   "",
-   1793626389.5395703
-  ],
   "q:flanagan": [
    0,
    "",
@@ -34054,6 +33974,61 @@
    0,
    "",
    1793736117.8275874
+  ],
+  "q:fortnite": [
+   0,
+   "",
+   1793800939.4248042
+  ],
+  "q:fortnite might": [
+   0,
+   "",
+   1793801127.54938
+  ],
+  "q:fortnite might get": [
+   0,
+   "",
+   1793801127.1162574
+  ],
+  "q:fortnite might get finishing": [
+   0,
+   "",
+   1793801126.6756248
+  ],
+  "q:fortnite might get finishing moves": [
+   0,
+   "",
+   1793801126.2114582
+  ],
+  "q:fortnite might get finishing moves soon": [
+   0,
+   "",
+   1793801125.7501793
+  ],
+  "q:fortnite's ultra rare": [
+   0,
+   "",
+   1793800938.975088
+  ],
+  "q:fortnite's ultra rare pirate": [
+   0,
+   "",
+   1793800938.5252566
+  ],
+  "q:fortnite's ultra rare pirate shop": [
+   0,
+   "",
+   1793800938.076917
+  ],
+  "q:fortnite's ultra rare pirate shop token": [
+   0,
+   "",
+   1793800937.6358533
+  ],
+  "q:fortnite's ultra rare pirate shop token hunt": [
+   0,
+   "",
+   1793800937.1959348
   ],
   "q:forza horizon 6": [
    2483190,
@@ -34295,6 +34270,11 @@
    "",
    1793709099.4779887
   ],
+  "q:games initiative": [
+   0,
+   "",
+   1793801176.8106654
+  ],
   "q:gamescom asia": [
    0,
    "",
@@ -34304,16 +34284,6 @@
    4146000,
    "GANG OF DRAGON",
    1793613847.5146475
-  ],
-  "q:gang of dragon won't": [
-   0,
-   "",
-   1793626384.058189
-  ],
-  "q:gang of dragon won't be": [
-   0,
-   "",
-   1793626383.5575156
   ],
   "q:gear": [
    0,
@@ -34334,6 +34304,21 @@
    0,
    "",
    1793631690.8867784
+  ],
+  "q:get finishing": [
+   0,
+   "",
+   1793801130.643311
+  ],
+  "q:get finishing moves": [
+   0,
+   "",
+   1793801130.2037868
+  ],
+  "q:get finishing moves soon": [
+   0,
+   "",
+   1793801129.7597218
   ],
   "q:gets": [
    0,
@@ -34910,11 +34895,6 @@
    "",
    1793720021.7355163
   ],
-  "q:heroes' 20th": [
-   0,
-   "",
-   1793626286.23136
-  ],
   "q:hexen": [
    0,
    "",
@@ -35274,6 +35254,11 @@
    0,
    "",
    1793743325.6613843
+  ],
+  "q:initiative": [
+   0,
+   "",
+   1793801177.2616537
   ],
   "q:input": [
    4016010,
@@ -35955,16 +35940,6 @@
    "Lords of the Fallen II",
    1793727333.2537503
   ],
-  "q:los": [
-   0,
-   "",
-   1793626400.262834
-  ],
-  "q:los angeles": [
-   0,
-   "",
-   1793626399.7337325
-  ],
   "q:lost records bloom rage": [
    1902960,
    "Lost Records: Bloom & Rage",
@@ -36155,6 +36130,16 @@
    "Mass Effect™ Legendary Edition",
    1793583090.1881073
   ],
+  "q:masters 3 dota": [
+   0,
+   "",
+   1793801034.4429739
+  ],
+  "q:masters 3 dota 2": [
+   0,
+   "",
+   1793801034.002924
+  ],
   "q:matchmaking": [
    0,
    "",
@@ -36304,6 +36289,26 @@
    0,
    "",
    1793781197.5783253
+  ],
+  "q:might get": [
+   0,
+   "",
+   1793801129.3123422
+  ],
+  "q:might get finishing": [
+   0,
+   "",
+   1793801128.8785727
+  ],
+  "q:might get finishing moves": [
+   0,
+   "",
+   1793801128.4405065
+  ],
+  "q:might get finishing moves soon": [
+   0,
+   "",
+   1793801127.9985187
   ],
   "q:mike flanagan": [
    0,
@@ -36460,21 +36465,6 @@
    "Moonlighter",
    1792431154.7540057
   ],
-  "q:more": [
-   0,
-   "",
-   1793626285.7335773
-  ],
-  "q:more heroes'": [
-   0,
-   "",
-   1793626285.1232283
-  ],
-  "q:more heroes' 20th": [
-   0,
-   "",
-   1793626284.5863254
-  ],
   "q:morrowind": [
    0,
    "",
@@ -36574,6 +36564,31 @@
    0,
    "",
    1793721701.6756256
+  ],
+  "q:navi epl": [
+   0,
+   "",
+   1793801031.0261784
+  ],
+  "q:navi epl masters": [
+   0,
+   "",
+   1793801030.5887692
+  ],
+  "q:navi epl masters 3": [
+   0,
+   "",
+   1793801030.128469
+  ],
+  "q:navi epl masters 3 dota": [
+   0,
+   "",
+   1793801029.6785507
+  ],
+  "q:navi epl masters 3 dota 2": [
+   0,
+   "",
+   1793801029.2415245
   ],
   "q:nba 2k27": [
    4356430,
@@ -36760,6 +36775,21 @@
    "",
    1793718200.0071135
   ],
+  "q:nintendo's switch": [
+   0,
+   "",
+   1793801040.0078118
+  ],
+  "q:nintendo's switch and switch": [
+   0,
+   "",
+   1793801039.5661063
+  ],
+  "q:nintendo's switch and switch 2": [
+   0,
+   "",
+   1793801039.1310039
+  ],
   "q:nivalis nights": [
    1488490,
    "Nivalis Nights",
@@ -36769,21 +36799,6 @@
    275850,
    "No Man's Sky",
    1791769120.6093671
-  ],
-  "q:no more": [
-   0,
-   "",
-   1793626284.048386
-  ],
-  "q:no more heroes'": [
-   0,
-   "",
-   1793626283.5089517
-  ],
-  "q:no more heroes' 20th": [
-   0,
-   "",
-   1793626282.9627442
   ],
   "q:no one": [
    735540,
@@ -37059,6 +37074,21 @@
    4478540,
    "One Day",
    1793097191.8062801
+  ],
+  "q:one of nintendo": [
+   0,
+   "",
+   1793801038.6836948
+  ],
+  "q:one of nintendo's switch": [
+   0,
+   "",
+   1793801038.2460315
+  ],
+  "q:one of nintendo's switch and switch": [
+   0,
+   "",
+   1793801037.8047633
   ],
   "q:one piece grand gourmet": [
    3905010,
@@ -38285,6 +38315,31 @@
    "ReTurned",
    1792775787.5425408
   ],
+  "q:returning": [
+   0,
+   "",
+   1793801079.2713034
+  ],
+  "q:returning to competitive": [
+   0,
+   "",
+   1793801078.821277
+  ],
+  "q:returning to competitive valorant": [
+   0,
+   "",
+   1793801078.3811958
+  ],
+  "q:returning to competitive valorant next": [
+   0,
+   "",
+   1793801077.934222
+  ],
+  "q:returning to competitive valorant next year": [
+   0,
+   "",
+   1793801077.4951768
+  ],
   "q:revamp": [
    3295000,
    "ReVamp",
@@ -39225,11 +39280,6 @@
    "",
    1793639114.41623
   ],
-  "q:suda51": [
-   0,
-   "",
-   1793626282.361569
-  ],
   "q:suitors trying to buy": [
    0,
    "",
@@ -39274,6 +39324,16 @@
    307150,
    "Survival Games",
    1792688496.4997191
+  ],
+  "q:switch and switch": [
+   0,
+   "",
+   1793801040.8901808
+  ],
+  "q:switch and switch 2": [
+   0,
+   "",
+   1793801040.4436908
   ],
   "q:sword": [
    0,
@@ -39369,6 +39429,31 @@
    2121510,
    "Tenebris Somnia",
    1792326687.5396647
+  ],
+  "q:tenz": [
+   0,
+   "",
+   1793801077.0556993
+  ],
+  "q:tenz returning": [
+   0,
+   "",
+   1793801076.6178977
+  ],
+  "q:tenz returning to competitive": [
+   0,
+   "",
+   1793801076.1843157
+  ],
+  "q:tenz returning to competitive valorant": [
+   0,
+   "",
+   1793801075.7493935
+  ],
+  "q:tenz returning to competitive valorant next": [
+   0,
+   "",
+   1793801075.3140144
   ],
   "q:terminally": [
    0,
@@ -39795,6 +39880,11 @@
    "",
    1793743281.9421294
   ],
+  "q:ubisoft and ea": [
+   0,
+   "",
+   1793801177.6963935
+  ],
   "q:ubisoft assassin": [
    0,
    "",
@@ -39804,6 +39894,26 @@
    0,
    "",
    1793644384.6991954
+  ],
+  "q:ubisoft could": [
+   0,
+   "",
+   1793800959.3364666
+  ],
+  "q:ubisoft could be": [
+   0,
+   "",
+   1793800958.8965354
+  ],
+  "q:ubisoft could be the company": [
+   0,
+   "",
+   1793800958.456154
+  ],
+  "q:ubisoft could be the company that": [
+   0,
+   "",
+   1793800958.0183542
   ],
   "q:ubisoft dishonored": [
    0,
@@ -39849,6 +39959,36 @@
    0,
    "",
    1793797484.5724375
+  ],
+  "q:ultra rare": [
+   0,
+   "",
+   1793800942.0735219
+  ],
+  "q:ultra rare pirate": [
+   0,
+   "",
+   1793800941.6398032
+  ],
+  "q:ultra rare pirate shop": [
+   0,
+   "",
+   1793800941.2024841
+  ],
+  "q:ultra rare pirate shop token": [
+   0,
+   "",
+   1793800940.7556944
+  ],
+  "q:ultra rare pirate shop token hunt": [
+   0,
+   "",
+   1793800940.3149996
+  ],
+  "q:ultra rare pirate shop token hunt sparks": [
+   0,
+   "",
+   1793800939.8664865
   ],
   "q:umamusume pretty derby": [
    3224770,
@@ -40220,11 +40360,6 @@
    "",
    1793718232.945212
   ],
-  "q:we all met by doing improv comedy": [
-   0,
-   "",
-   1793626399.1789677
-  ],
   "q:we can take the heat": [
    0,
    "",
@@ -40449,31 +40584,6 @@
    0,
    "",
    1793736148.9841454
-  ],
-  "q:won't": [
-   0,
-   "",
-   1793626386.7193482
-  ],
-  "q:won't be": [
-   0,
-   "",
-   1793626386.169821
-  ],
-  "q:won't be the first": [
-   0,
-   "",
-   1793626385.6546056
-  ],
-  "q:won't be the first game": [
-   0,
-   "",
-   1793626385.098153
-  ],
-  "q:won't be the first game from": [
-   0,
-   "",
-   1793626384.5622213
   ],
   "q:won't get more": [
    0,
@@ -40823,30 +40933,33 @@
  },
  "tag_hints": {
   "Mezha": [
+   "amd",
    "anthropic",
    "canva",
-   "google",
+   "game pass",
    "gta 6",
+   "radeon",
    "rockstar",
-   "безпілотники",
+   "starlink",
+   "xbox",
    "бпла",
    "бізнес",
+   "відеокарти",
    "військові технології",
-   "генштаб",
-   "двигун",
    "дрони",
+   "залізо",
    "звільнення",
-   "зрк",
+   "космос",
    "кібератаки",
    "новини",
    "оборонка",
-   "освіта",
-   "ппо",
    "реб",
    "рер",
    "розвіддрон",
-   "сили оборони",
+   "росія",
    "софт",
+   "супутники",
+   "супутниковий зв'язок",
    "ударні безпілотники",
    "україна",
    "українська зброя",
@@ -40857,46 +40970,6 @@
   ]
  },
  "titles": [
-  [
-   1793626377.9196482,
-   "‘Travis Touchdown will definitely be back’: Suda51 is planning something for No More Heroes’ 20th anniversary next year"
-  ],
-  [
-   1793626381.5294902,
-   "Full Setlist + Video - Aerosmith & Friends, Night 2"
-  ],
-  [
-   1793626402.8607893,
-   "\"We all met by doing improv comedy\" – The Los Angeles indie studio making a comedy game in one of the most expensive places for game dev in the world"
-  ],
-  [
-   1793628141.8324425,
-   "South Park Season 29 Just Found The Funniest Replacement For Kenny"
-  ],
-  [
-   1793628236.451888,
-   "Entire FURIA Valorant Roster Enters Free Agency"
-  ],
-  [
-   1793628258.313028,
-   "This week in PC games: go helldiving in Gravhounds, wreck a hoverbike in Airframe Ultra, or feed humans to a cutaway spaceship in Hull Rupture"
-  ],
-  [
-   1793628273.6191916,
-   "Over a decade later, Bloodborne remains so popular it reportedly sold a quarter of a million copies this year alone"
-  ],
-  [
-   1793628316.1627424,
-   "Arc Raiders devs have used a music sample 'from a piano in Chernobyl' that someone had discovered in the Forbidden Zone"
-  ],
-  [
-   1793628364.5235393,
-   "Ray tracing memory usage could be reduced by up to 90% thanks to 'most significant' DirectX update"
-  ],
-  [
-   1793628391.9372633,
-   "BioWare Fans Place Memorials For ‘Fallen Studios’ at EA Offices"
-  ],
   [
    1793628427.6031644,
    "Ruth Madeley Never Thought Acting Was an Option — Now, She’s Playing a Disability Rights Legend in ‘Being Heumann’"
@@ -42820,49 +42893,41 @@
   [
    1793799150.7229216,
    "\"I realised I might only have time to make one more game, so I wanted to try something new\" – Tekken director Katsuhiro Harada on starting VS Studio"
+  ],
+  [
+   1793800935.2170134,
+   "METALLICA's JAMES HETFIELD Helps EMG Celebrate 50th Anniversary With Limited-Edition Signature Set Release"
+  ],
+  [
+   1793800956.0777745,
+   "Fortnite's Ultra-Rare Pirate Shop Token Hunt Sparks Wave of Profiteering and eBay Listings"
+  ],
+  [
+   1793801027.3018038,
+   "Ubisoft Could Be The Company That Keeps Marvel’s Blade Alive"
+  ],
+  [
+   1793801035.83199,
+   "NAVI вийшли у гранд-фінал EPL Masters III з Dota 2"
+  ],
+  [
+   1793801073.367827,
+   "One of Nintendo's Switch and Switch 2 cartridge manufacturers is exiting the business, which could make physical games more expensive"
+  ],
+  [
+   1793801123.809207,
+   "TenZ Returning to Competitive VALORANT Next Year with T1, It’s Claimed"
+  ],
+  [
+   1793801173.9800475,
+   "Fortnite Might Get Finishing Moves Soon, Mirroring Call of Duty"
+  ],
+  [
+   1793801209.75263,
+   "Accessible Games Initiative tags adopted by Nintendo, Xbox, Ubisoft and EA, making it easier to find accessibility features"
   ]
  ],
  "titles_uk": [
-  [
-   1793626377.9196503,
-   "Suda51 планує сюрприз до 20-річчя No More Heroes"
-  ],
-  [
-   1793626381.5294912,
-   "Aerosmith виступили на другому концерті в Hollywood Bowl із новими гостями"
-  ],
-  [
-   1793626402.86079,
-   "Колишні інженери SpaceX та сценаристи запустили інді-студію Mad Herons у Лос-Анджелесе"
-  ],
-  [
-   1793628141.8324435,
-   "У 29 сезоні South Park з'явилася кумедна заміна для Kenny"
-  ],
-  [
-   1793628236.45189,
-   "Увесь склад FURIA з Valorant отримав статус вільних агентів"
-  ],
-  [
-   1793628258.3130288,
-   "Нові релізи тижня на PC"
-  ],
-  [
-   1793628273.6191926,
-   "Bloodborne цього року продався тиражем у чверть мільйона копій"
-  ],
-  [
-   1793628316.162743,
-   "Розробники Arc Raiders використали семпл фортепіано з Чорнобиля"
-  ],
-  [
-   1793628364.52354,
-   "Оновлення DirectX може зменшити споживання пам'яті для ray tracing на 90%"
-  ],
-  [
-   1793628391.9372642,
-   "Фанати влаштували меморіали закритим студіям біля офісів EA"
-  ],
   [
    1793628427.6031651,
    "Рут Медлі зіграє активістку Джуді Гауман у стрічці Being Heumann"
@@ -44786,6 +44851,38 @@
   [
    1793799150.7229226,
    "Кацухіро Харада пояснив причину створення нової студії VS Studio"
+  ],
+  [
+   1793800935.217014,
+   "Джеймс Гетфілд і EMG випустили лімітовані сигнатурні датчики до 50-річчя бренду"
+  ],
+  [
+   1793800956.0777755,
+   "Ультрарідкісний предмет у Fortnite спричинив хвилю шахрайства та продажів на eBay"
+  ],
+  [
+   1793801027.301804,
+   "Ubisoft може врятувати гру Marvel's Blade від закриття"
+  ],
+  [
+   1793801035.8319902,
+   "NAVI вийшли у гранд-фінал EPL Masters III з Dota 2"
+  ],
+  [
+   1793801073.3678277,
+   "Виробник пам'яті для картриджів Nintendo виходить із цього бізнесу"
+  ],
+  [
+   1793801123.8092072,
+   "TenZ повертається на про-сцену VALORANT у складі T1"
+  ],
+  [
+   1793801173.980048,
+   "У Fortnite можуть з'явитися фінішери як у Call of Duty"
+  ],
+  [
+   1793801209.7526302,
+   "Nintendo, Xbox, Ubisoft та інші компанії впровадили теги Accessible Games Initiative"
   ]
  ],
  "ukrainian": {
@@ -47100,7 +47197,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793797708.5328841,
+  "last_check": 1793801218.40064,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
