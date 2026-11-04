@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1793804482.1327555
+  }
+ },
  "daily_digest_date": "2026-11-03",
  "freebies": {
   "last_check": 1793797708.845057,
@@ -26,178 +33,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-04 14:32 UTC",
+  "at": "2026-11-04 15:06 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 10
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793111596.8675783,
-   2948,
-   "🎮",
-   "Sucker Punch звільнила 24 працівників попри успіх Ghost of Yōtei",
-   "PC Gamer",
-   {
-    "also": [
-     [
-      "GamesIndustry.biz",
-      "https://www.gamesindustry.biz/sucker-punch-productions-reportedly-lays-off-24-employees-following-launch-of-ghost-of-yotei-complete-edition"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/gaming-industry/you-just-cant-win-despite-ghost-of-yotei-selling-millions-of-copies-24-people-are-reportedly-being-let-go-from-sucker-punch/",
-    "orig": "You just can't win—despite Ghost of Yōtei selling millions of copies, 24 people are reportedly being let go from Sucker Punch"
-   }
-  ],
-  [
-   1793111602.3307257,
-   2949,
-   "🤖",
-   "Proton проведе \"повторні співбесіди\" з персоналом щодо ШІ, які можуть закінчитися звільненнями",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/proton-re-interviews-staff-about-ai-use-316578/",
-    "orig": "Proton проведе \"повторні співбесіди\" з персоналом щодо ШІ, які можуть закінчитися звільненнями"
-   }
-  ],
-  [
-   1793111609.4320652,
-   2950,
-   "🤘",
-   "Гурт Saxon анонсував гастролі у Великій Британії та Ірландії",
-   "Kerrang!",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.kerrang.com/epic-metal-epic-story-listen-to-saxons-new-single-medusa",
-    "orig": "“Epic metal, epic story!”: Listen to Saxon’s new single, Medusa"
-   }
-  ],
-  [
-   1793111621.5978673,
-   2951,
-   "🎮",
-   "У демо Deadline: Afterlife Processing можна вирішувати долю померлих",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/sim/deadline-afterlife-processing-lets-you-take-morality-into-your-own-hands-and-judge-who-deserves-eternal-salvation-or-damnation/",
-    "orig": "Deadline: Afterlife Processing lets you take morality into your own hands and judge who deserves eternal salvation or damnation"
-   }
-  ],
-  [
-   1793111623.4468906,
-   2952,
-   "💾",
-   "Opera представила WebAI – новий вебстандарт для запуску ШІ-моделей безпосередньо в браузері",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/opera-introduces-webai-for-local-ai-in-browsers-316594/",
-    "orig": "Opera представила WebAI – новий вебстандарт для запуску ШІ-моделей безпосередньо в браузері"
-   }
-  ],
-  [
-   1793113312.279452,
-   2953,
-   "🎮",
-   "RecompLauncher зібрав Sonic, Zelda та сотні неофіційних портів консольних ігор для ПК",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/recomplauncher-sonic-zelda-for-pc-316595/",
-    "orig": "RecompLauncher зібрав Sonic, Zelda та сотні неофіційних портів консольних ігор для ПК"
-   }
-  ],
-  [
-   1793113338.2020519,
-   2954,
-   "🎮",
-   "Steam Next Fest затопило неякісними проєктами зі ШІ",
-   "GameSpot",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.gamespot.com/articles/steam-next-fest-was-flooded-with-slop-these-50-demos-cut-through-the-noise/",
-    "orig": "Steam Next Fest Was Flooded With Slop. These 50 Demos Cut Through The Noise"
-   }
-  ],
-  [
-   1793113368.5380065,
-   2955,
-   "🎮",
-   "Нові вакансії CD Projekt RED натякають на мультиплеєр у Cyberpunk 2",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/new-cyberpunk-2-job-listing-further-supports-multiplayer-mode/",
-    "orig": "New Cyberpunk 2 Job Listing Further Supports Multiplayer Mode"
-   }
-  ],
-  [
-   1793113370.9147468,
-   2956,
-   "🤖",
-   "Українські дрони \"Колібрі\" отримали ШІ-донаведення та пройшли бойові випробування",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://oboronka.mezha.ua/droni-kolibri-z-shi-proyshli-boyovi-viprobuvannya-316585/",
-    "orig": "Українські дрони \"Колібрі\" отримали ШІ-донаведення та пройшли бойові випробування"
-   }
-  ],
-  [
-   1793113373.9309163,
-   2957,
-   "🎮",
-   "Call of Duty заробила $40 млрд за всю історію франшизи",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/call-of-duty-earn-40b-316580/",
-    "orig": "Call of Duty заробила $40 млрд за всю історію франшизи"
-   }
-  ],
-  [
-   1793113417.544295,
-   2958,
-   "🎮",
-   "Embark думає над поверненням PvE-режиму в Arc Raiders",
-   "VGC",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.videogameschronicle.com/news/after-experimenting-with-a-pve-mode-arc-raiders-studio-embark-says-its-figuring-out-whether-to-bring-it-back-permanently/",
-    "orig": "After experimenting with a PvE mode, Arc Raiders studio Embark says it’s figuring out whether to bring it back permanently"
-   }
-  ],
-  [
-   1793113428.4335573,
-   2959,
-   "🎮",
-   "Phantom Blade Zero очолив чарт продажів у Steam",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/phantom-blade-zero-crosses-mw4-to-become-top-seller-on-steam/",
-    "orig": "Phantom Blade Zero Crosses MW4 to Become Top Seller on Steam"
-   }
-  ],
   [
    1793114745.3413036,
    2960,
@@ -22406,7 +22252,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Вийшов інструмент Usagi-org/ai-goofish-monitor</b>\n\nПроєкт Usagi-org/ai-goofish-monitor автоматизує перевірку залежностей Playwright CLI та браузерів, збирає фронтенд і запускає бекенд через скрипт start.sh. Головний сервіс керує процесами моніторингу за розкладом або за запитом користувача.\n\n🔗 <a href=\"https://github.com/Usagi-org/ai-goofish-monitor\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/Usagi-org/ai-goofish-monitor",
     "orig": "Usagi-org/ai-goofish-monitor"
@@ -22420,7 +22265,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>TellPip</b>\n\nМаленька пташка, яка підказує, що казати під час дзвінків\n\n🔗 <a href=\"https://www.producthunt.com/products/tellpip\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/tellpip",
     "orig": "TellPip"
@@ -22434,7 +22278,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎬 <b>Хто стане наступним Бондом? Пірс Броснан назвав фаворита</b>\n\nНа тлі пошуку нового виконавця ролі агента 007 серед фанатів та кіноекспертів активно обговорюються імена Каллума Тернера та Джоша О’Коннора. Претенденти вже отримують перші відгуки від колег. Після того, як своїми очікуваннями від кастингу поділився Ґері Олдман, колишній виконавець ролі Джеймса Бонда Пірс Броснан публічно підтримав Каллума Тернера, з яким йому вже доводилося працювати на одному знімальному майданчику.\n\n🔗 <a href=\"https://itc.ua/ua/novini/hto-stane-nastupnym-bondom-pirs-brosnan-nazvav-favoryta/\">ITC.ua</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/hto-stane-nastupnym-bondom-pirs-brosnan-nazvav-favoryta/",
     "orig": "Хто стане наступним Бондом? Пірс Броснан назвав фаворита"
@@ -22448,7 +22291,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>Hashference</b>\n\nФінансуйте понад 45 топових ШІ-моделей за допомогою обчислювальної потужності вашого простоюючого процесора чи відеокарти\n\n🔗 <a href=\"https://www.producthunt.com/products/hashference\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/hashference",
     "orig": "Hashference"
@@ -22462,7 +22304,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Meta вперше випускає євробонди на тлі зростання витрат на ШІ</b>\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-04/meta-starts-debut-euro-bond-sale-after-15-billion-dollar-deal\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-04/meta-starts-debut-euro-bond-sale-after-15-billion-dollar-deal",
     "orig": "Meta Starts Debut Euro Bond as AI Funding Race Gets Costlier"
@@ -22476,7 +22317,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎮 <b>Одна з найкращих ігор 2026 року отримала безкоштовну пробну версію в PS Plus</b>\n\n007 First Light стала доступною для пробного проходження передплатникам PlayStation Plus Premium. Користувачі найвищого тарифу можуть безкоштовно пограти в нову гру про Джеймса Бонда протягом 60 хвилин, починаючи з самого початку кампанії.\n\n🔗 <a href=\"https://itc.ua/ua/novini/odna-z-najkrashhyh-igor-2026-roku-otrymala-bezkoshtovnu-probnu-versiyu-v-ps-plus/\">ITC.ua</a>\n\n#ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/odna-z-najkrashhyh-igor-2026-roku-otrymala-bezkoshtovnu-probnu-versiyu-v-ps-plus/",
     "orig": "Одна з найкращих ігор 2026 року отримала безкоштовну пробну версію в PS Plus"
@@ -22495,7 +22335,6 @@
       "https://www.gamespot.com/articles/guild-wars-is-getting-its-first-new-expansion-in-almost-20-years/"
      ]
     ],
-    "caption": "🎮 <b>Guild Wars отримала перше велике геймплейне оновлення майже за 20 років</b>\n\nArenaNet та студія 2Weeks анонсували Guild Wars Afterlife — перше масштабне оновлення для гри за майже двадцять років\n\n🔗 <a href=\"https://www.eurogamer.net/guild-wars-1-afterlife-announced-20-years\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/guild-wars-1-afterlife-announced-20-years",
     "orig": "Guild Wars gets its first major gameplay update in almost 20 years"
@@ -22509,7 +22348,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Джордан Рудесс розповів про свій прихід у Dream Theater</b>\n\nКлавішник Джордан Рудесс поділився спогадами про приєднання до Dream Theater у 1999 році після роботи в Liquid Tension Experiment. Музикант зізнався, що його прагнення експериментувати зі звуком спочатку лякало колег по гурту, але інтерес до оркестрування повністю змінив їхнє звучання.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/interviews/when-jordan-rudess-joined-dream-theater\">Metal Hammer (Louder)</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/interviews/when-jordan-rudess-joined-dream-theater",
     "orig": "“My desire to push those buttons made them nervous”: Jordan Rudess had much to learn when he joined Dream Theater"
@@ -23063,7 +22901,12 @@
    "Композитор Halo та Destiny Марті О'Доннелл програв вибори до Конгресу США",
    "Eurogamer",
    {
-    "also": [],
+    "also": [
+     [
+      "IGN",
+      "https://www.ign.com/articles/democrat-mocks-former-bungie-composer-marty-odonnell-with-halo-monk-chant-tweet-after-us-midterm-elections-victory"
+     ]
+    ],
     "caption": "🎮 <b>Композитор Halo та Destiny Марті О&#x27;Доннелл програв вибори до Конгресу США</b>\n\nКомпозитор серій Halo та Destiny Марті О&#x27;Доннелл програв вибори до Палати представників США від Республіканської партії у штаті Невада. Перемогу здобула представниця Демократичної партії Сьюзі Лі, яка набрала 59,1% голосів проти 38,6% у О&#x27;Доннелла.\n\n🔗 <a href=\"https://www.eurogamer.net/halo-destiny-composer-martin-o-donnell-projected-lose-us-congress-race\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/halo-destiny-composer-martin-o-donnell-projected-lose-us-congress-race",
@@ -23245,7 +23088,12 @@
    "Breaking Benjamin анонсували тур на початок 2027 року",
    "Loudwire",
    {
-    "also": [],
+    "also": [
+     [
+      "Blabbermouth",
+      "https://blabbermouth.net/news/breaking-benjamin-announces-2027-tour-dates-with-starset-p-o-d-and-filter"
+     ]
+    ],
     "caption": "🤘 <b>Breaking Benjamin анонсували тур на початок 2027 року</b>\n\nГурт Breaking Benjamin оголосив про 16-концертний тур США, який триватиме з 16 лютого по 12 березня 2027 року. У поїздку музиканти вирушать за підтримки Starset, P.O.D. та Filter на тлі підготовки нового альбому.\n\n🔗 <a href=\"https://loudwire.com/breaking-benjamin-2027-us-tour-starset-pod-filter/\">Loudwire</a>\n\n#музика",
     "kind": "photo",
     "link": "https://loudwire.com/breaking-benjamin-2027-us-tour-starset-pod-filter/",
@@ -23278,6 +23126,123 @@
     "kind": "photo",
     "link": "https://lambgoat.com/news/55699/we-came-as-romans-release-dead-silent-single-featuring-make-them-suffer/",
     "orig": "We Came As Romans release \"Dead Silent\" single featuring Make Them Suffer"
+   }
+  ],
+  [
+   1793804505.71799,
+   4703,
+   "🤘",
+   "Музиканти LAMB OF GOD, GWAR та DEATH ANGEL виконали кавери на METALLICA",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Музиканти LAMB OF GOD, GWAR та DEATH ANGEL виконали кавери на METALLICA</b>\n\nПід час круїзу Headbangers Boat 2026 музиканти з LAMB OF GOD, GWAR, DEATH ANGEL та IN FLAMES зіграли треки з альбому METALLICA «Master Of Puppets». Концерт присвятили майбутньому 40-річчю платівки, виконавши культові пісні на зразок «Battery» та «Master Of Puppets».\n\n🔗 <a href=\"https://blabbermouth.net/news/watch-members-of-lamb-of-god-gwar-death-angel-others-celebrate-40th-anniversary-of-metallicas-master-of-puppets-aboard-headbangers-boat-2026\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/watch-members-of-lamb-of-god-gwar-death-angel-others-celebrate-40th-anniversary-of-metallicas-master-of-puppets-aboard-headbangers-boat-2026",
+    "orig": "Watch: Members Of LAMB OF GOD, GWAR, DEATH ANGEL, Others Celebrate 40th Anniversary Of METALLICA's 'Master Of Puppets' Aboard 'Headbangers Boat 2026'"
+   }
+  ],
+  [
+   1793804532.4644203,
+   4704,
+   "🎮",
+   "GTA 6 продалася тиражем майже 8 мільйонів копій ще до релізу",
+   "GameSpot",
+   {
+    "also": [],
+    "caption": "🎮 <b>GTA 6 продалася тиражем майже 8 мільйонів копій ще до релізу</b>\n\nКомпанія Sensor Tower оновила дані щодо передзамовлень GTA 6. Гра вже розійшлася тиражем 7,71 мільйона примірників, принесла близько $751 мільйона доходу, а більшість продажів припадає на PS5.\n\n🔗 <a href=\"https://www.gamespot.com/articles/gta-6-has-sold-almost-8-million-copies-so-far-and-ps5-is-dominating-the-split-of-course/\">GameSpot</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamespot.com/articles/gta-6-has-sold-almost-8-million-copies-so-far-and-ps5-is-dominating-the-split-of-course/",
+    "orig": "GTA 6 Has Sold Almost 8 Million Copies So Far, And PS5 Is Dominating The Split (Of Course)"
+   }
+  ],
+  [
+   1793804584.9760082,
+   4705,
+   "🎮",
+   "The Elder Scrolls VI: Sentinel покаже справжнє ставлення Xbox до ексклюзивності",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>The Elder Scrolls VI: Sentinel покаже справжнє ставлення Xbox до ексклюзивності</b>\n\nСтало відомо повну назву та місце дії наступної частини RPG від Bethesda — The Elder Scrolls VI: Sentinel розгорнеться в регіоні Hammerfell. Реліз гри відбудеться ще нескоро, через що постають важливі питання про те, чи стане вона ексклюзивом Xbox та чи вийде в день запуску нової гібридної консолі Project Helix.\n\n🔗 <a href=\"https://www.ign.com/articles/the-elder-scrolls-6-sentinel-will-show-us-just-how-serious-xbox-is-about-exclusivity\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/the-elder-scrolls-6-sentinel-will-show-us-just-how-serious-xbox-is-about-exclusivity",
+    "orig": "The Elder Scrolls 6: Sentinel Will Show Us Just How Serious Xbox Is About Exclusivity"
+   }
+  ],
+  [
+   1793804607.4488914,
+   4706,
+   "🎮",
+   "Друге доповнення для Pokémon Pokopia вийде у грудні",
+   "VGC",
+   {
+    "also": [
+     [
+      "Insider Gaming",
+      "https://insider-gaming.com/pokemon-pokopia-expansion-pass-dazzling-decorations-release-date-revealed/"
+     ]
+    ],
+    "caption": "🎮 <b>Друге доповнення для Pokémon Pokopia вийде у грудні</b>\n\nNintendo анонсувала друге платне доповнення Dazzling Decorations та безплатне оновлення версії 3.0.0 для Pokémon Pokopia, які вийдуть у грудні. Гра стала величезним успіхом для Switch 2, продавшись тиражем у п&#x27;ять мільйонів копій за п&#x27;ять місяців.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/pokemon-pokopias-second-expansion-announced-for-december/\">VGC</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/pokemon-pokopias-second-expansion-announced-for-december/",
+    "orig": "Pokémon Pokopia’s second expansion announced for December"
+   }
+  ],
+  [
+   1793804652.7524538,
+   4707,
+   "🤘",
+   "Чак Біллі з TESTAMENT кардинально змінив імідж та обрізав довге волосся",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Чак Біллі з TESTAMENT кардинально змінив імідж та обрізав довге волосся</b>\n\nФронтмен TESTAMENT Чак Біллі вперше за довгі роки змінив зачіску та позбувся довгого волосся. На такий крок музиканта надихнув приклад Джеррі Кантрелла з ALICE IN CHAINS. Також на 10 листопада 2026 року запланований вихід мемуарів артиста під назвою «Holding My Breath: The Two Testaments Of Chuck Billy».\n\n🔗 <a href=\"https://blabbermouth.net/news/testaments-chuck-billy-debuts-new-look-ive-had-long-hair-my-whole-life-except-when-i-was-ill-with-cancer\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/testaments-chuck-billy-debuts-new-look-ive-had-long-hair-my-whole-life-except-when-i-was-ill-with-cancer",
+    "orig": "TESTAMENT's CHUCK BILLY Debuts New Look: 'I've Had Long Hair My Whole Life, Except When I Was Ill With Cancer'"
+   }
+  ],
+  [
+   1793804681.4099696,
+   4708,
+   "🎬",
+   "Алан Каммінг назвав роль у Tip Toe найкращою у своїй кар'єрі",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Алан Каммінг назвав роль у Tip Toe найкращою у своїй кар&#x27;єрі</b>\n\nАктор Алан Каммінг зізнався, що роль квір-бармена Лео в мінісеріалі Tip Toe від Расселла Т. Девіса стала найвидатнішою у його кар&#x27;єрі. Водночас він назвав зйомки настільки виснажливими й травматичними, що тепер хоче назавжди забути про цей досвід.\n\n🔗 <a href=\"https://www.indiewire.com/features/interviews/alan-cumming-tip-toe-greatest-role-ever-finale-1235225300/\">IndieWire</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/features/interviews/alan-cumming-tip-toe-greatest-role-ever-finale-1235225300/",
+    "orig": "Alan Cumming Says ‘Tip Toe’ Was His Greatest Role Ever — but He Never Wants to Think About It Again"
+   }
+  ],
+  [
+   1793804701.9856184,
+   4709,
+   "🤘",
+   "Фанати визначили найкращі пісні альбому Saturday Night Wrist гурту DEFTONES",
+   "Revolver",
+   {
+    "also": [],
+    "caption": "🤘 <b>Фанати визначили найкращі пісні альбому Saturday Night Wrist гурту DEFTONES</b>\n\nВидання Revolver провело опитування серед слухачів, щоб обрати п&#x27;ятірку найкращих композицій з п&#x27;ятого альбому Saturday Night Wrist гурту DEFTONES. До топу увійшли такі визначні треки колективу, як «Hole in the Earth», «Cherry Waves», «Beware» та «Xerces».\n\n🔗 <a href=\"https://www.revolvermag.com/feature/fan-poll-top-5-songs-on-deftones-saturday-night-wrist/\">Revolver</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.revolvermag.com/feature/fan-poll-top-5-songs-on-deftones-saturday-night-wrist/",
+    "orig": "Fan poll: Top 5 songs on DEFTONES’ ‘Saturday Night Wrist’"
+   }
+  ],
+  [
+   1793804753.8471282,
+   4710,
+   "🤘",
+   "Iron Maiden випустять графічний альбом до 40-річчя Somewhere in Time",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Iron Maiden випустять графічний альбом до 40-річчя Somewhere in Time</b>\n\n🔗 <a href=\"https://loudwire.com/iron-maidens-somewhere-in-time-gets-40th-anniversary-graphic-novel/\">Loudwire</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://loudwire.com/iron-maidens-somewhere-in-time-gets-40th-anniversary-graphic-novel/",
+    "orig": "Iron Maiden's 'Somewhere in Time' 40th Anniversary Graphic Novel"
    }
   ]
  ],
@@ -23352,14 +23317,14 @@
    1793801073.3678572
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
-   1793716397.219496,
    1793719979.375452,
    1793720350.5065641,
    1793734520.723406,
    1793736123.5262313,
    1793737919.857603,
    1793743318.5178132,
-   1793801027.3018324
+   1793801027.3018324,
+   1793804532.4648683
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
    1793719912.7076437,
@@ -23367,7 +23332,6 @@
    1793799150.7229593
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1793718131.6968446,
    1793721728.9146273,
    1793721754.7233567,
    1793721783.1502972,
@@ -23385,7 +23349,8 @@
    1793790160.0620465,
    1793793701.673344,
    1793797560.0987756,
-   1793800956.0778172
+   1793800956.0778172,
+   1793804584.9764378
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1793723595.1505473,
@@ -23473,7 +23438,8 @@
    1793736153.0847406,
    1793745092.3754802,
    1793797477.6085398,
-   1793801209.7526588
+   1793801209.7526588,
+   1793804607.4493132
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1793718102.8564167,
@@ -23513,11 +23479,11 @@
    1793790162.0386574
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
-   1793716559.3054814,
    1793721697.1404195,
    1793723790.2340755,
    1793727285.5412009,
-   1793730760.2724686
+   1793730760.2724686,
+   1793804681.410398
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1793435498.9012954
@@ -23533,8 +23499,6 @@
    1793763078.3152678
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1793716306.632689,
-   1793716438.1119943,
    1793718280.4419115,
    1793720317.932319,
    1793725292.6021378,
@@ -23548,7 +23512,9 @@
    1793759599.2263527,
    1793797394.5201423,
    1793797597.57829,
-   1793800935.217062
+   1793800935.217062,
+   1793804505.718415,
+   1793804652.7528906
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -23591,7 +23557,8 @@
    1793729042.706857,
    1793737925.1662486,
    1793779287.6634996,
-   1793802693.4604023
+   1793802693.4604023,
+   1793804753.8475313
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1793712684.6871521,
@@ -23622,7 +23589,8 @@
   ],
   "music|Revolver|https://www.revolvermag.com/rss.xml": [
    1793727400.8965406,
-   1793797416.1226833
+   1793797416.1226833,
+   1793804701.9860487
   ],
   "music|Stereogum|https://www.stereogum.com/feed/": [
    1793721903.1337,
@@ -23769,7 +23737,6 @@
   "048928e5c022f729": 1793100681.6765983,
   "04933964a41696d8": 1793637109.8780062,
   "04adc418d863b8a8": 1793455253.529009,
-  "04bf884757415f28": 1792593158.2692006,
   "04cec270ff94cbd1": 1792985459.7584827,
   "04dff612c76de1bd": 1793099038.7922485,
   "04f29cb5f4bb9a22": 1793018002.9112763,
@@ -23957,7 +23924,6 @@
   "0e665bfbe5f070ed": 1792683079.8736866,
   "0e72beefca2921fa": 1792765935.8604379,
   "0e79b2165b8315b4": 1793304104.0740697,
-  "0e9b77a37a3d99a1": 1792593171.8918839,
   "0ea2f479103990f0": 1793793658.998931,
   "0ea67535b0592636": 1793390699.1674576,
   "0eaede27b87f8531": 1793721966.873953,
@@ -24041,7 +24007,6 @@
   "1226bc7510068133": 1793199656.5185251,
   "12270345435634b0": 1793017998.947144,
   "12333d282db44145": 1792605742.921931,
-  "125fc29f9357ebff": 1792594886.8513048,
   "126796ed170bcdec": 1793205103.410562,
   "1284889784ee91d4": 1792782082.127573,
   "1286efa8955acb1d": 1793387021.5185125,
@@ -24490,6 +24455,7 @@
   "2ac26d4b798b8638": 1792704684.6301727,
   "2ac29150c507c44b": 1792706507.1230128,
   "2ad53f865686db2d": 1793295475.9045715,
+  "2adc95d39c7e3883": 1793804652.7528498,
   "2add21d42259c330": 1793790062.3569953,
   "2af70e3e8352a149": 1792751625.8706534,
   "2af795c800f288d6": 1792704685.6277623,
@@ -24540,7 +24506,6 @@
   "2e992634f9d399b9": 1793199715.4574196,
   "2ea44914ef443fe8": 1793048514.359128,
   "2ea4a620a44d44c3": 1793107854.2174432,
-  "2ec4c2351d617b4c": 1792594886.4495227,
   "2ecbf6b34d5feab3": 1793718057.0315993,
   "2edce1938290d381": 1793268597.449097,
   "2ee2a5d94408082c": 1792603276.9900854,
@@ -24622,6 +24587,7 @@
   "3310ce65ece99624": 1793016162.1972497,
   "33118002c749f198": 1793730687.6979594,
   "331faaf337aceb0e": 1793127745.69856,
+  "333126c8ac9be967": 1793804753.8474927,
   "3335a918f3cc50ab": 1793734301.6911168,
   "3338f360030012c2": 1793197882.1506777,
   "3357660a64439725": 1793207186.0868273,
@@ -24915,7 +24881,6 @@
   "442c9553749a6be4": 1793098881.4897525,
   "44380857e87e1d0e": 1793037817.6021788,
   "4442ecf042b16e6f": 1792665188.9139593,
-  "44498dcc56a5be3a": 1792594886.4473135,
   "444aba49b33c9df5": 1793313183.6756437,
   "444d3197f961294e": 1793289915.1201022,
   "444f96d55f8f01e5": 1792683055.060128,
@@ -24963,7 +24928,6 @@
   "471d38d0736ca067": 1793365273.0790122,
   "472278d7d35a9442": 1792782090.823818,
   "4722ca068d3d5fa0": 1793113338.2026246,
-  "474586463fa68df3": 1792593203.60573,
   "476b65a385ecc883": 1793233969.290654,
   "47864e2dc6c72ab7": 1793559671.4105906,
   "478c19029f2697e1": 1792859611.5930955,
@@ -25180,6 +25144,7 @@
   "535e5761f92f80a7": 1793118808.251964,
   "5381bbb177606c04": 1793359881.1454604,
   "53903c31ef562e10": 1793109778.2846694,
+  "5393cf2026d05807": 1793804673.308179,
   "539bffe42cdb02a4": 1793480599.3042521,
   "53ba44d6f02e962e": 1792702880.131792,
   "53bedd77182905bc": 1793410460.1131809,
@@ -25468,7 +25433,6 @@
   "62c961e968c08efe": 1793394160.702015,
   "62cb32fb1742397d": 1792663472.8326023,
   "6304a354a3957b1a": 1793273552.2389226,
-  "630f46cf186e4428": 1792595104.9118028,
   "635a0ce9c8ec7e42": 1793100696.8383381,
   "638133c831a2198a": 1792864903.3701034,
   "638f7d7aad6fad1e": 1792864893.625285,
@@ -25556,7 +25520,6 @@
   "689faf33809b2ba5": 1793030481.3066814,
   "68a70ae749d1b601": 1793403051.901825,
   "68b4f33ea46c92f5": 1793395880.3570914,
-  "68c39eb242b9ce4b": 1792594919.0379317,
   "68c4beb77aeef5de": 1792645260.9671817,
   "68cc7e0c515d129f": 1793298731.655323,
   "68dcd9f041afb37f": 1792958503.460119,
@@ -25772,7 +25735,6 @@
   "7370ddfdc2520cfd": 1792920677.7561848,
   "73721c050d1549ef": 1793473373.711377,
   "7396c95008ce2a40": 1793648085.570265,
-  "739757869a68c709": 1792593227.8783355,
   "739b30fd573deaf4": 1793464280.238074,
   "73a0c99e51c28428": 1793800885.1191442,
   "73b24678465c9b60": 1793046707.3773746,
@@ -25794,7 +25756,6 @@
   "7463a982eb950886": 1793478686.1992052,
   "747d4ce4fbb69f19": 1793739677.6958723,
   "747ede526a3a1fa7": 1792598857.3105187,
-  "747f2bc5325e1102": 1792595060.6959124,
   "748519dc6cabaae7": 1793622675.0267966,
   "748e7e8c1124bb2e": 1792687098.251177,
   "749d1e39a47c27e8": 1792654274.6947958,
@@ -26090,6 +26051,7 @@
   "86b5a8ace1e0261c": 1792787525.6515934,
   "86b9ff4ada6410b6": 1792766023.1186771,
   "86c8281a34004289": 1792689504.824069,
+  "86ccd472a105916c": 1793804701.9860039,
   "86d16d5316ef5385": 1792793154.9291542,
   "86efa72848e6b6d5": 1793790085.7070832,
   "86f3491b2903d152": 1793361681.089524,
@@ -26108,6 +26070,7 @@
   "878b991d4a911dbc": 1793089898.9946342,
   "8797688871eb711f": 1792659693.2151346,
   "87995ef26d6c227f": 1792773055.4309604,
+  "879e97ff25794157": 1793804681.4103541,
   "87ab69afea58a6e4": 1793057485.0844483,
   "87deeb0ead4a09c8": 1792609382.557903,
   "87f86189a03e3aa5": 1793725370.4374797,
@@ -26916,6 +26879,7 @@
   "b3fcbd2694728e08": 1792611127.0686367,
   "b4081874d608ec70": 1793030690.533003,
   "b4257897cb1f568f": 1793381482.7886956,
+  "b430b9321e4eaf0a": 1793804636.1437027,
   "b431c363b607466b": 1793446276.7630446,
   "b43203abcc2477b7": 1793226793.3337662,
   "b43207e3b59e92e4": 1792873900.7841825,
@@ -27075,7 +27039,6 @@
   "bd26759780610e77": 1793316683.0011308,
   "bd2870b32eed59c2": 1793383500.2945433,
   "bd28dc198e354d61": 1792857767.3278832,
-  "bd2d73edffcd93c5": 1792594886.8576925,
   "bd4b463b316fb457": 1792731759.2024364,
   "bd4c16334cfa675d": 1793055684.398082,
   "bd79eb405c18a4ce": 1792713714.5295756,
@@ -27085,6 +27048,7 @@
   "bd97e0b11417a701": 1792940546.011379,
   "bd9ad9cc335471ee": 1793736107.543311,
   "bda522f4de41add7": 1792760485.581914,
+  "bda7822d60012035": 1793804584.9763937,
   "bdae53d3519971a0": 1793206884.2116728,
   "bdb739837adc0179": 1793354557.0585806,
   "bdecc06403513885": 1792870286.0588214,
@@ -27345,6 +27309,7 @@
   "ccce27a6ec55e4c3": 1792774926.2213082,
   "ccdf995e0e8d4392": 1793392372.4622192,
   "cce2fa4d5924d195": 1792674131.8089573,
+  "ccf6fad7cd02c1aa": 1793804607.4492698,
   "cd0557b02801d830": 1793048457.7747824,
   "cd12f8b00d40afa5": 1793395880.348252,
   "cd1870b249fc63c4": 1792764195.0686786,
@@ -27823,7 +27788,6 @@
   "e8de89403099ba6b": 1793189019.3404224,
   "e8e155b17a636590": 1793367273.4924543,
   "e915e2c58aed6f0c": 1793297232.420256,
-  "e9383c6c52d52173": 1792595149.7851534,
   "e943edaa16211af7": 1793320274.1535432,
   "e94451e7827bbf54": 1792791116.9684014,
   "e9477af60f23035d": 1793392408.3448083,
@@ -27875,12 +27839,12 @@
   "ec38e52fbfcc529e": 1793302381.586197,
   "ec4158768b9b61d4": 1792645257.3871634,
   "ec576641e0d89296": 1792690455.4997454,
-  "ec5b19205213bc8e": 1792593139.885591,
   "ec5b376ef1cc4164": 1792852256.7497966,
   "ec657f5b0e576fb0": 1793124117.9023347,
   "ec6b7b6e44f27570": 1793208768.6301363,
   "ec6ea326222feb7f": 1792775033.9412754,
   "ec7586c9592380d5": 1793016175.040569,
+  "ec84e80c699a6613": 1793804459.5507169,
   "ec85f06d1c6acc13": 1792661497.4960594,
   "ec872ecdb4120749": 1793129488.3169155,
   "ec989f77a525a922": 1793737923.0998027,
@@ -27975,7 +27939,6 @@
   "f2a15464005f451f": 1793367086.1665149,
   "f2a157f3a67790dd": 1793590276.5168917,
   "f2a604d4571dc961": 1793124140.8972375,
-  "f2aa652e8c009a8a": 1792594853.9380503,
   "f2bf693f4149480a": 1793781211.164813,
   "f2c36932fd45d8f8": 1793178114.5230346,
   "f2c965397175d677": 1793721683.8811429,
@@ -27997,9 +27960,11 @@
   "f39a7fe4bd5423cf": 1793512878.3441641,
   "f39ee164130692dc": 1793554255.0551445,
   "f3a9158637d1a587": 1793286839.002255,
+  "f3a9a6d85e17f21f": 1793804532.4648266,
   "f3abdc53bc3584ac": 1793050280.3924372,
   "f3bd1404a18f1ece": 1793064654.5025103,
   "f3bd27121d1e7846": 1792686825.8357034,
+  "f3d7ae30909a3099": 1793804505.718369,
   "f3d980cab58c4a6b": 1793646102.6506567,
   "f3f76757c51756bd": 1793318486.5931904,
   "f406ed902c907639": 1792769795.9938836,
@@ -28051,7 +28016,6 @@
   "f6caad3e9149ce18": 1792796644.3271317,
   "f6d8efaa16b2d631": 1792688489.6530683,
   "f6f83e2c56819f89": 1793359919.5794098,
-  "f6fcc34e660b5848": 1792593247.3221037,
   "f702d3bee6e77e2d": 1793568706.0879765,
   "f7045fc62fee7dc7": 1793154684.167086,
   "f71c5b67ab9aa333": 1793035997.910502,
@@ -28190,6 +28154,7 @@
   "fd2e5d80deda14a4": 1792598899.904047,
   "fd3d40f1fd866129": 1792627282.9617617,
   "fd423848dc22249a": 1793345475.5572803,
+  "fd523d134668ba47": 1793804489.7808375,
   "fd5ff0766db538d4": 1793716331.6997678,
   "fd64225362d05689": 1792746086.991791,
   "fd66594e66c0d7bc": 1792972875.3538337,
@@ -29445,7 +29410,7 @@
    "Deadline": 3,
    "Digital Foundry": 1,
    "GameSpot": 3,
-   "IGN": 2,
+   "IGN": 3,
    "IndieWire": 2,
    "Insider Gaming": 23,
    "Kerrang!": 1,
@@ -29460,7 +29425,7 @@
   "sources": {
    "/Film": 14,
    "AIN.ua": 4,
-   "Blabbermouth": 29,
+   "Blabbermouth": 31,
    "Bloomberg": 31,
    "DOU": 4,
    "DOU Gamedev": 3,
@@ -29469,17 +29434,17 @@
    "Digital Foundry": 5,
    "Distorted Sound": 7,
    "Eurogamer": 15,
-   "GameSpot": 13,
+   "GameSpot": 14,
    "GamesIndustry.biz": 10,
    "GitHub Trending": 18,
    "Hugging Face": 2,
-   "IGN": 36,
+   "IGN": 37,
    "ITC.ua": 34,
-   "IndieWire": 10,
+   "IndieWire": 11,
    "Insider Gaming": 39,
    "Kerrang!": 12,
    "Lambgoat": 21,
-   "Loudwire": 13,
+   "Loudwire": 14,
    "Metal Hammer (Louder)": 15,
    "Metal Injection": 9,
    "Mezha": 32,
@@ -29488,19 +29453,19 @@
    "PlayUA": 6,
    "Polygon": 14,
    "Product Hunt": 12,
-   "Revolver": 3,
+   "Revolver": 4,
    "Rock Paper Shotgun": 21,
    "SteamDB": 1,
    "Stereogum": 6,
    "The Decoder": 14,
    "ThePRP": 27,
-   "VGC": 21,
+   "VGC": 22,
    "Variety": 18
   },
   "translators": {
    "DeepL": 6,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 610
+   "gemini-flash-lite-latest": 620
   },
   "week": "2026-W45"
  },
@@ -30540,6 +30505,26 @@
    "",
    1793725325.8799136
   ],
+  "q:6 has sold": [
+   0,
+   "",
+   1793804510.977161
+  ],
+  "q:6 has sold almost": [
+   0,
+   "",
+   1793804510.4227104
+  ],
+  "q:6 has sold almost 8": [
+   0,
+   "",
+   1793804509.90628
+  ],
+  "q:6 has sold almost 8 million": [
+   0,
+   "",
+   1793804509.4129474
+  ],
   "q:6 have 60 fps": [
    0,
    "",
@@ -30659,6 +30644,21 @@
    0,
    "",
    1793790134.2641025
+  ],
+  "q:6 sentinel will": [
+   0,
+   "",
+   1793804537.1423237
+  ],
+  "q:6 sentinel will show": [
+   0,
+   "",
+   1793804536.6437607
+  ],
+  "q:6 sentinel will show us": [
+   0,
+   "",
+   1793804536.1630743
   ],
   "q:6 standard": [
    0,
@@ -30834,11 +30834,6 @@
    0,
    "",
    1793725348.170401
-  ],
-  "q:ai created": [
-   0,
-   "",
-   1793629917.9219654
   ],
   "q:ai olympius": [
    1478970,
@@ -31240,11 +31235,6 @@
    "",
    1793723586.209226
   ],
-  "q:backlash": [
-   0,
-   "",
-   1793629891.8448026
-  ],
   "q:balatro": [
    2379780,
    "Balatro",
@@ -31464,26 +31454,6 @@
    0,
    "",
    1793799121.304676
-  ],
-  "q:bend studios'": [
-   0,
-   "",
-   1793629898.2818198
-  ],
-  "q:bend studios' next": [
-   0,
-   "",
-   1793629897.8154519
-  ],
-  "q:bend studios' next game": [
-   0,
-   "",
-   1793629897.3572385
-  ],
-  "q:bend studios' next game to be": [
-   0,
-   "",
-   1793629896.9053266
   ],
   "q:best": [
    0,
@@ -32635,6 +32605,36 @@
    "DayZ Badlands",
    1792519355.2651722
   ],
+  "q:dazzling": [
+   0,
+   "",
+   1793804659.706827
+  ],
+  "q:dazzling decorations": [
+   0,
+   "",
+   1793804654.7502928
+  ],
+  "q:dazzling decorations'": [
+   0,
+   "",
+   1793804659.2161777
+  ],
+  "q:dazzling decorations' release": [
+   0,
+   "",
+   1793804658.7417526
+  ],
+  "q:dazzling decorations' release date": [
+   0,
+   "",
+   1793804658.266459
+  ],
+  "q:dazzling decorations' release date revealed": [
+   0,
+   "",
+   1793804657.7924142
+  ],
   "q:dd2": [
    0,
    "",
@@ -32730,6 +32730,11 @@
    "",
    1793729162.4131763
   ],
+  "q:decorations' release date revealed": [
+   0,
+   "",
+   1793804660.1802094
+  ],
   "q:deep dish dungeon": [
    2871520,
    "Deep Dish Dungeon",
@@ -32749,6 +32754,36 @@
    0,
    "",
    1793790107.0559225
+  ],
+  "q:democrat": [
+   0,
+   "",
+   1793804612.1074831
+  ],
+  "q:democrat mocks": [
+   0,
+   "",
+   1793804611.5600889
+  ],
+  "q:democrat mocks former": [
+   0,
+   "",
+   1793804611.0775173
+  ],
+  "q:democrat mocks former bungie": [
+   0,
+   "",
+   1793804610.5891747
+  ],
+  "q:democrat mocks former bungie composer": [
+   0,
+   "",
+   1793804610.0769823
+  ],
+  "q:democrat mocks former bungie composer marty": [
+   0,
+   "",
+   1793804609.5605342
   ],
   "q:demon slayer": [
    3025800,
@@ -32899,21 +32934,6 @@
    4249130,
    "Dino Crisis",
    1792409517.1506498
-  ],
-  "q:director": [
-   0,
-   "",
-   1793629890.3790479
-  ],
-  "q:director reacts": [
-   0,
-   "",
-   1793629889.8704188
-  ],
-  "q:director reacts to backlash": [
-   0,
-   "",
-   1793629889.412468
   ],
   "q:director says he wouldn't have": [
    0,
@@ -33215,6 +33235,11 @@
    "",
    1793790132.7115989
   ],
+  "q:elder scrolls 6 sentinel will": [
+   0,
+   "",
+   1793804534.4958827
+  ],
   "q:elfie": [
    2955180,
    "Elfie",
@@ -33429,6 +33454,16 @@
    0,
    "",
    1793701896.322834
+  ],
+  "q:expansion": [
+   0,
+   "",
+   1793804656.77331
+  ],
+  "q:expansion pass": [
+   0,
+   "",
+   1793804656.2517002
   ],
   "q:explains": [
    0,
@@ -34465,6 +34500,21 @@
    "",
    1793725323.7997563
   ],
+  "q:gta 6 has sold": [
+   0,
+   "",
+   1793804508.9357576
+  ],
+  "q:gta 6 has sold almost": [
+   0,
+   "",
+   1793804508.394829
+  ],
+  "q:gta 6 has sold almost 8": [
+   0,
+   "",
+   1793804507.8150826
+  ],
   "q:gta 6 have": [
    0,
    "",
@@ -34664,6 +34714,31 @@
    0,
    "",
    1793725328.5647502
+  ],
+  "q:has sold": [
+   0,
+   "",
+   1793804513.5045545
+  ],
+  "q:has sold almost": [
+   0,
+   "",
+   1793804513.0073416
+  ],
+  "q:has sold almost 8": [
+   0,
+   "",
+   1793804512.4991765
+  ],
+  "q:has sold almost 8 million": [
+   0,
+   "",
+   1793804511.967965
+  ],
+  "q:has sold almost 8 million copies": [
+   0,
+   "",
+   1793804511.4580734
   ],
   "q:have": [
    0,
@@ -35029,21 +35104,6 @@
    2861210,
    "HYPNOS",
    1792686709.409942
-  ],
-  "q:i should have": [
-   0,
-   "",
-   1793629892.7659593
-  ],
-  "q:i should have known": [
-   0,
-   "",
-   1793629892.3067865
-  ],
-  "q:i should have known better": [
-   0,
-   "",
-   1793629887.5395582
   ],
   "q:iap": [
    0,
@@ -35860,41 +35920,6 @@
    "",
    1793782880.4178448
   ],
-  "q:m4": [
-   0,
-   "",
-   1793629911.6374826
-  ],
-  "q:m4 max": [
-   0,
-   "",
-   1793629911.1571612
-  ],
-  "q:m4 max 70": [
-   0,
-   "",
-   1793629910.6970994
-  ],
-  "q:m4 max 70 the witcher": [
-   0,
-   "",
-   1793629910.244916
-  ],
-  "q:macbook pro m4": [
-   0,
-   "",
-   1793629907.8629832
-  ],
-  "q:macbook pro m4 max": [
-   0,
-   "",
-   1793629907.3700306
-  ],
-  "q:macbook pro m4 max 70": [
-   0,
-   "",
-   1793629906.9121304
-  ],
   "q:made their way into": [
    0,
    "",
@@ -36280,6 +36305,36 @@
    "",
    1793739683.7242067
   ],
+  "q:mocks": [
+   0,
+   "",
+   1793804615.2218587
+  ],
+  "q:mocks former": [
+   0,
+   "",
+   1793804614.7213795
+  ],
+  "q:mocks former bungie": [
+   0,
+   "",
+   1793804614.2262363
+  ],
+  "q:mocks former bungie composer": [
+   0,
+   "",
+   1793804613.7078998
+  ],
+  "q:mocks former bungie composer marty": [
+   0,
+   "",
+   1793804613.1007464
+  ],
+  "q:mocks former bungie composer marty o'donnell": [
+   0,
+   "",
+   1793804612.5936499
+  ],
   "q:modern": [
    0,
    "",
@@ -36544,21 +36599,6 @@
    0,
    "",
    1793649689.6188333
-  ],
-  "q:next game": [
-   0,
-   "",
-   1793629901.9876466
-  ],
-  "q:next game to be": [
-   0,
-   "",
-   1793629901.5261433
-  ],
-  "q:next game to be revealed": [
-   0,
-   "",
-   1793629901.0715292
   ],
   "q:nexus": [
    0,
@@ -37145,6 +37185,11 @@
    "",
    1793631773.2882595
   ],
+  "q:pass": [
+   0,
+   "",
+   1793804657.28731
+  ],
   "q:path of exile": [
    238960,
    "Path of Exile",
@@ -37294,6 +37339,21 @@
    4513280,
    "POK",
    1791807510.4405518
+  ],
+  "q:pokopia": [
+   0,
+   "",
+   1793804586.9810474
+  ],
+  "q:pokopia expansion": [
+   0,
+   "",
+   1793804655.7425447
+  ],
+  "q:pokopia expansion pass": [
+   0,
+   "",
+   1793804655.2645304
   ],
   "q:police": [
    0,
@@ -37490,26 +37550,6 @@
    "Prince of Persia®",
    1793451676.8490756
   ],
-  "q:pro": [
-   0,
-   "",
-   1793629909.7549148
-  ],
-  "q:pro m4": [
-   0,
-   "",
-   1793629909.2912624
-  ],
-  "q:pro m4 max": [
-   0,
-   "",
-   1793629908.7959697
-  ],
-  "q:pro m4 max 70": [
-   0,
-   "",
-   1793629908.3359437
-  ],
   "q:probably": [
    0,
    "",
@@ -37704,16 +37744,6 @@
    4084710,
    "Rayman Legends Retold",
    1792607495.2570462
-  ],
-  "q:reacts": [
-   0,
-   "",
-   1793629891.3599777
-  ],
-  "q:reacts to backlash": [
-   0,
-   "",
-   1793629890.8798845
   ],
   "q:rebirth": [
    0,
@@ -38145,21 +38175,6 @@
    "",
    1793642498.2140167
   ],
-  "q:resident evil director": [
-   0,
-   "",
-   1793629888.9237611
-  ],
-  "q:resident evil director reacts": [
-   0,
-   "",
-   1793629888.4628985
-  ],
-  "q:resident evil director reacts to backlash": [
-   0,
-   "",
-   1793629888.0050783
-  ],
   "q:resident evil requiem": [
    3764200,
    "Resident Evil Requiem",
@@ -38455,6 +38470,16 @@
    "",
    1793790133.228736
   ],
+  "q:scrolls 6 sentinel will": [
+   0,
+   "",
+   1793804535.6212237
+  ],
+  "q:scrolls 6 sentinel will show": [
+   0,
+   "",
+   1793804535.138089
+  ],
   "q:scskiller": [
    0,
    "",
@@ -38614,6 +38639,31 @@
    0,
    "",
    1793790135.7961814
+  ],
+  "q:sentinel will": [
+   0,
+   "",
+   1793804539.8951793
+  ],
+  "q:sentinel will show": [
+   0,
+   "",
+   1793804539.2982316
+  ],
+  "q:sentinel will show us": [
+   0,
+   "",
+   1793804538.7997627
+  ],
+  "q:sentinel will show us just": [
+   0,
+   "",
+   1793804538.2272408
+  ],
+  "q:sentinel will show us just how": [
+   0,
+   "",
+   1793804537.7143428
   ],
   "q:serious sam the third encounter": [
    459920,
@@ -39015,11 +39065,6 @@
    "Steam Next Fest",
    1792342912.7217317
   ],
-  "q:steamos mac": [
-   0,
-   "",
-   1793629906.457915
-  ],
   "q:steel core": [
    4749570,
    "Steel Core",
@@ -39104,31 +39149,6 @@
    0,
    "",
    1793799146.9059858
-  ],
-  "q:studios'": [
-   0,
-   "",
-   1793629900.6161325
-  ],
-  "q:studios' next": [
-   0,
-   "",
-   1793629900.1212833
-  ],
-  "q:studios' next game": [
-   0,
-   "",
-   1793629899.6687293
-  ],
-  "q:studios' next game to be": [
-   0,
-   "",
-   1793629899.204959
-  ],
-  "q:studios' next game to be revealed": [
-   0,
-   "",
-   1793629898.7505462
   ],
   "q:stupid never dies": [
    3486530,
@@ -40395,6 +40415,11 @@
    "Wildcat",
    1793365305.9304438
   ],
+  "q:will show us just how serious": [
+   0,
+   "",
+   1793804540.3972144
+  ],
   "q:wishlist": [
    2135800,
    "Wishlist",
@@ -40793,12 +40818,14 @@
  },
  "tag_hints": {
   "Mezha": [
+   "5g",
    "amd",
    "anthropic",
    "game pass",
-   "gta 6",
+   "himera",
+   "qualcomm",
    "radeon",
-   "rockstar",
+   "spacex",
    "starlink",
    "xbox",
    "безпілотники",
@@ -40807,16 +40834,19 @@
    "військові технології",
    "дрони",
    "залізо",
+   "зв'язок",
    "космос",
+   "мобільний зв'язок",
    "новини",
    "оборонка",
-   "реб",
-   "рер",
+   "рація",
    "розвіддрон",
    "росія",
+   "сили оборони",
    "софт",
    "супутники",
    "супутниковий зв'язок",
+   "технології",
    "ударні безпілотники",
    "україна",
    "українська зброя",
@@ -40825,34 +40855,6 @@
   ]
  },
  "titles": [
-  [
-   1793631697.9605384,
-   "Gears Of War: E-Day’s Apparent $500 Million Budget May Not Tell The Full Story – Report"
-  ],
-  [
-   1793631732.9490263,
-   "Star Wars Jedi 3 is ‘Far in Development’"
-  ],
-  [
-   1793631741.27215,
-   "Classic Prog Rock’s 5 Best 3-Album Hot Streaks"
-  ],
-  [
-   1793631757.4590907,
-   "Gamescom Asia x Thailand Game Show \"most international yet\", attracting nearly 220,000 visitors from 113 countries"
-  ],
-  [
-   1793631762.08911,
-   "Randy Holden – Population II"
-  ],
-  [
-   1793631786.6193392,
-   "The Batman Part 2's Mystery Villains May Have Just Been Confirmed in Major Leak"
-  ],
-  [
-   1793631788.5218878,
-   "OpenAI обʼєднає ліміти ChatGPT і Codex: що зміниться для користувачів"
-  ],
   [
    1793633583.2670748,
    "GREAT WHITE's MARK KENDALL Remembers His 'Best Friend' JACK RUSSELL: 'We Were Connected At The Hip Our Entire Career'"
@@ -42760,37 +42762,41 @@
   [
    1793802734.1699052,
    "We Came As Romans release \"Dead Silent\" single featuring Make Them Suffer"
+  ],
+  [
+   1793804505.7183712,
+   "Watch: Members Of LAMB OF GOD, GWAR, DEATH ANGEL, Others Celebrate 40th Anniversary Of METALLICA's 'Master Of Puppets' Aboard 'Headbangers Boat 2026'"
+  ],
+  [
+   1793804532.4648287,
+   "GTA 6 Has Sold Almost 8 Million Copies So Far, And PS5 Is Dominating The Split (Of Course)"
+  ],
+  [
+   1793804584.9763956,
+   "The Elder Scrolls 6: Sentinel Will Show Us Just How Serious Xbox Is About Exclusivity"
+  ],
+  [
+   1793804607.4492714,
+   "Pokémon Pokopia’s second expansion announced for December"
+  ],
+  [
+   1793804652.7528515,
+   "TESTAMENT's CHUCK BILLY Debuts New Look: 'I've Had Long Hair My Whole Life, Except When I Was Ill With Cancer'"
+  ],
+  [
+   1793804681.4103563,
+   "Alan Cumming Says ‘Tip Toe’ Was His Greatest Role Ever — but He Never Wants to Think About It Again"
+  ],
+  [
+   1793804701.9860058,
+   "Fan poll: Top 5 songs on DEFTONES’ ‘Saturday Night Wrist’"
+  ],
+  [
+   1793804753.8474941,
+   "Iron Maiden's 'Somewhere in Time' 40th Anniversary Graphic Novel"
   ]
  ],
  "titles_uk": [
-  [
-   1793631697.9605393,
-   "Бюджет Gears of War: E-Day нібито становить $500 мільйонів"
-  ],
-  [
-   1793631732.9490275,
-   "Star Wars Jedi 3 перебуває на протапаному етапі розробки"
-  ],
-  [
-   1793631741.272151,
-   "5 найкращих трилогій альбомів у класичному прог-році"
-  ],
-  [
-   1793631757.459092,
-   "Gamescom Asia x Thailand Game Show відвідали майже 220 000 людей"
-  ],
-  [
-   1793631762.0891109,
-   "Альбом Population II від Randy Holden потрапив до Зали слави Decibel"
-  ],
-  [
-   1793631786.61934,
-   "У мережі злили ймовірних лиходіїв та акторський склад фільму The Batman Part 2"
-  ],
-  [
-   1793631788.5218885,
-   "OpenAI обʼєднає ліміти ChatGPT і Codex: що зміниться для користувачів"
-  ],
   [
    1793633583.2670755,
    "Марк Кендалл із GREAT WHITE згадав покійного друга Джек Расселла"
@@ -44698,6 +44704,38 @@
   [
    1793802734.169906,
    "We Came As Romans випустили сингл Dead Silent за участі Make Them Suffer"
+  ],
+  [
+   1793804505.7183719,
+   "Музиканти LAMB OF GOD, GWAR та DEATH ANGEL виконали кавери на METALLICA"
+  ],
+  [
+   1793804532.4648297,
+   "GTA 6 продалася тиражем майже 8 мільйонів копій ще до релізу"
+  ],
+  [
+   1793804584.9763963,
+   "The Elder Scrolls VI: Sentinel покаже справжнє ставлення Xbox до ексклюзивності"
+  ],
+  [
+   1793804607.4492726,
+   "Друге доповнення для Pokémon Pokopia вийде у грудні"
+  ],
+  [
+   1793804652.7528522,
+   "Чак Біллі з TESTAMENT кардинально змінив імідж та обрізав довге волосся"
+  ],
+  [
+   1793804681.410357,
+   "Алан Каммінг назвав роль у Tip Toe найкращою у своїй кар'єрі"
+  ],
+  [
+   1793804701.9860067,
+   "Фанати визначили найкращі пісні альбому Saturday Night Wrist гурту DEFTONES"
+  ],
+  [
+   1793804753.8474948,
+   "Iron Maiden випустять графічний альбом до 40-річчя Somewhere in Time"
   ]
  ],
  "ukrainian": {
@@ -45049,6 +45087,7 @@
    "3679080": "",
    "3685570": "",
    "3722330": "",
+   "3727090": "is",
    "3740090": "",
    "3744430": "is",
    "3751260": "",
@@ -45141,6 +45180,7 @@
    "509980": "i",
    "5133900": "",
    "5155360": "",
+   "5181520": "is",
    "518790": "",
    "5228920": "is",
    "524220": "",
@@ -45206,8 +45246,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1793782942.9045012,
-  "with_uk": 105
+  "last_check": 1793804772.5075912,
+  "with_uk": 106
  },
  "weekly_releases_week": "2026-W45",
  "wishlist": {
@@ -46971,9 +47011,9 @@
    },
    "953490": {
     "coming_soon": false,
-    "discount": 23,
+    "discount": 0,
     "name": "CARRION",
-    "price": "358,00₴",
+    "price": "415,00₴",
     "release": 1595512800
    },
    "964800": {
@@ -47012,7 +47052,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793801218.40064,
+  "last_check": 1793804762.7743137,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
