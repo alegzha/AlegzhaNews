@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1793790452.0712194
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1793790450.8097496
+  }
+ },
  "daily_digest_date": "2026-11-03",
  "freebies": {
   "last_check": 1793790182.5443745,
@@ -25,118 +38,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-04 11:03 UTC",
+  "at": "2026-11-04 11:08 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 12
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793098987.3940506,
-   2890,
-   "🎮",
-   "Ремейк Silent Hill вийде у 2027 році, а в мережі з'явилися перші деталі акторського складу",
-   "IGN",
-   {
-    "also": [
-     [
-      "VGC",
-      "https://www.videogameschronicle.com/news/bloober-teams-silent-hill-remake-is-set-for-a-2027-release-with-the-first-two-actors-named-report-claims/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/silent-hill-remake-coming-2027-cast-details-leaked",
-    "orig": "Silent Hill Remake Coming 2027, First Cast Details Leaked"
-   }
-  ],
-  [
-   1793099010.3169775,
-   2891,
-   "🎮",
-   "У грі ARC Raiders вийшло оновлення 2.3 із проєктом Souls Offering та виправленням 100 помилок",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/arc-raiders-2-3-update-adds-new-player-project-and-100-bug-fixes/",
-    "orig": "ARC Raiders 2.3 Update Adds New Player Project and 100 Bug Fixes"
-   }
-  ],
-  [
-   1793099020.528364,
-   2892,
-   "🎮",
-   "У першому сезоні Call of Duty DMZ може з'явитися PvP-карта XO1",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/new-dmz-pvp-content-season-1-claimed/",
-    "orig": "COD DMZ Getting More PvP-Focused Content in Season 1, It’s Claimed"
-   }
-  ],
-  [
-   1793099029.5959308,
-   2893,
-   "🎮",
-   "Закриття BioWare та скасування Mass Effect 5 викликали хвилю обурення",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/mass-effect-has-been-taken-away-just-when-we-needed-it-most",
-    "orig": "Mass Effect Has Been Taken Away Just When We Needed It Most"
-   }
-  ],
-  [
-   1793099038.7917347,
-   2894,
-   "🎮",
-   "Infinity Ward карає гравців за дюп предметів у DMZ",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/infinity-ward-taking-action-against-dmz-duplication-exploits/",
-    "orig": "Infinity Ward Taking Action Against DMZ Duplication Exploits"
-   }
-  ],
-  [
-   1793099042.9230917,
-   2895,
-   "🤘",
-   "Брюс Дікінсон анонсує концерти в межах PsychoGod у Великій Британії та Європі",
-   "Kerrang!",
-   {
-    "also": [
-     [
-      "Blabbermouth",
-      "https://blabbermouth.net/news/bruce-dickinson-announces-2027-psychogod-european-tour"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.kerrang.com/bruce-dickinson-announces-psychogod-uk-and-europe-shows",
-    "orig": "Bruce Dickinson announces PsychoGod UK and Europe shows"
-   }
-  ],
-  [
-   1793099048.9305766,
-   2896,
-   "🎮",
-   "GSC Game World оживила Зону в S.T.A.L.K.E.R. 2: подробиці оновлення 2.1",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/gsc-game-world-ozhyvyla-zonu-v-s-t-a-l-k-e-r-2-podrobytsi-onovlennya-2-1/",
-    "orig": "GSC Game World оживила Зону в S.T.A.L.K.E.R. 2: подробиці оновлення 2.1"
-   }
-  ],
   [
    1793100692.4862576,
    2897,
@@ -22667,7 +22579,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Harakiri For The Sky випустили лайв-відео на пісню &quot;Funeral Dreams&quot;</b>\n\nАвстрійський гурт Harakiri For The Sky опублікував живий виступ із треком &quot;Funeral Dreams&quot; із альбому 2016 року III: Trauma. Відео записали 1 травня в австрійському Theater Akzent під час туру на честь десятої річниці пластинки.\n\n🔗 <a href=\"https://lambgoat.com/news/55690/harakiri-for-the-sky-premiere-funeral-dreams-live-performance-video/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55690/harakiri-for-the-sky-premiere-funeral-dreams-live-performance-video/",
     "orig": "Harakiri For The Sky premiere \"Funeral Dreams\" live performance video"
@@ -22681,7 +22592,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Sevendust анонсували тур Австралією з гуртом Caligula’s Horse</b>\n\nГурт Sevendust вирушить у тур Австралією у лютому 2027 року, а відкриватимуть концерти Caligula’s Horse. Виступи пройдуть у Перті, Брісбені, Сіднеї та Мельбурні. Передпродаж квитків стартує 9 листопада, а загальний продаж — 11 листопада.\n\n🔗 <a href=\"https://lambgoat.com/news/55692/sevendust-announce-australian-tour-with-caligulas-horse/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55692/sevendust-announce-australian-tour-with-caligulas-horse/",
     "orig": "Sevendust announce Australian tour with Caligula’s Horse"
@@ -23522,6 +23432,34 @@
     "link": "https://www.rockpapershotgun.com/smash-hit-cyberpunk-storekeeper-probably-stolen-was-originally-a-different-non-cyberpunk-game-that-seemed-destined-to-sink-without-trace",
     "orig": "Smash hit cyberpunk storekeeper Probably Stolen was originally a different, non-cyberpunk game that seemed destined to sink without trace"
    }
+  ],
+  [
+   1793790457.3851547,
+   4660,
+   "🤖",
+   "Tencent випустила нову модель ШІ та заявила про її лідерство в Китаї",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Tencent випустила нову модель ШІ та заявила про її лідерство в Китаї</b>\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-04/tencent-declares-latest-ai-model-ranks-among-china-s-best\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-04/tencent-declares-latest-ai-model-ranks-among-china-s-best",
+    "orig": "Tencent Declares Latest AI Model Ranks Among China’s Best"
+   }
+  ],
+  [
+   1793790481.1952355,
+   4661,
+   "🤘",
+   "Панк-рок, серфінг і колаби з AC/DC: хто такі HEADSEND",
+   "Kerrang!",
+   {
+    "also": [],
+    "caption": "🤘 <b>Панк-рок, серфінг і колаби з AC/DC: хто такі HEADSEND</b>\n\nАвстралійське тріо HEADSEND вривається у 2026 рік. Перед виходом нової EP фронтмен Rasmus King розповідає все, що треба знати про гурт\n\n🔗 <a href=\"https://www.kerrang.com/who-the-hell-are-headsend-australia-punk-interview\">Kerrang!</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.kerrang.com/who-the-hell-are-headsend-australia-punk-interview",
+    "orig": "Punk rock, surfing and playing with AC/DC: Who the Hell are HEADSEND?"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23533,7 +23471,8 @@
    1793761308.2105107,
    1793766703.671743,
    1793775684.1446216,
-   1793786478.9352891
+   1793786478.9352891,
+   1793790457.3856094
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1793694786.2211568,
@@ -23803,7 +23742,8 @@
    1793709084.0840015,
    1793710980.404466,
    1793729081.02187,
-   1793790104.4866135
+   1793790104.4866135,
+   1793790481.1956937
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
    1793718325.8818903,
@@ -24044,6 +23984,7 @@
   "06b9d1aaa419ef93": 1793386980.1455052,
   "06bf2573b17f87f8": 1792782142.6116443,
   "06c8a6c2949a2b7b": 1793007181.731709,
+  "06ceac650559309e": 1793790457.3855624,
   "06e266c9d991ff7b": 1793464272.8840501,
   "06e2d2d084317210": 1793203256.0653896,
   "06f8340325178b32": 1793179911.0680478,
@@ -25595,6 +25536,7 @@
   "5d559ffe12d84ad5": 1792775817.3664658,
   "5d5b9133fd3cb672": 1793703647.578039,
   "5d5f1b784d506530": 1793781191.0380929,
+  "5d65eb104765e6c6": 1793790481.195648,
   "5d67929b085fd6ad": 1793016117.1130958,
   "5d7c44f75a5d8b26": 1792668713.496217,
   "5d7eec3d292d192b": 1792751594.6375048,
@@ -29699,7 +29641,7 @@
    "/Film": 14,
    "AIN.ua": 3,
    "Blabbermouth": 26,
-   "Bloomberg": 29,
+   "Bloomberg": 30,
    "DOU": 4,
    "DOU Gamedev": 3,
    "Deadline": 38,
@@ -29715,7 +29657,7 @@
    "ITC.ua": 32,
    "IndieWire": 10,
    "Insider Gaming": 34,
-   "Kerrang!": 10,
+   "Kerrang!": 11,
    "Lambgoat": 20,
    "Loudwire": 12,
    "Metal Hammer (Louder)": 15,
@@ -29738,7 +29680,7 @@
   "translators": {
    "DeepL": 6,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 571
+   "gemini-flash-lite-latest": 573
   },
   "week": "2026-W45"
  },
@@ -30518,11 +30460,6 @@
    "180°",
    1792953097.974842
   ],
-  "q:1998": [
-   0,
-   "",
-   1793617290.9055898
-  ],
   "q:1v1": [
    0,
    "",
@@ -30922,11 +30859,6 @@
    0,
    "",
    1793752279.6321716
-  ],
-  "q:8": [
-   0,
-   "",
-   1793617331.933212
   ],
   "q:90": [
    3070650,
@@ -34013,11 +33945,6 @@
    "",
    1793743344.2341256
   ],
-  "q:firmware update improves security ahead": [
-   0,
-   "",
-   1793617328.9722588
-  ],
   "q:first game from nagoshi studio it": [
    0,
    "",
@@ -34607,21 +34534,6 @@
    0,
    "",
    1793746905.7299712
-  ],
-  "q:google's zelda": [
-   0,
-   "",
-   1793617287.1748366
-  ],
-  "q:google's zelda ocarina": [
-   0,
-   "",
-   1793617286.7040377
-  ],
-  "q:google's zelda ocarina of time": [
-   0,
-   "",
-   1793617286.1970723
   ],
   "q:gothic 1 remake": [
    1297900,
@@ -35828,36 +35740,6 @@
    "Last Light",
    1792686911.2478743
   ],
-  "q:latest": [
-   0,
-   "",
-   1793617325.8672645
-  ],
-  "q:latest ps5": [
-   0,
-   "",
-   1793617325.3689494
-  ],
-  "q:latest ps5 firmware": [
-   0,
-   "",
-   1793617324.8844178
-  ],
-  "q:latest ps5 firmware update": [
-   0,
-   "",
-   1793617324.3617108
-  ],
-  "q:latest ps5 firmware update improves": [
-   0,
-   "",
-   1793617323.8721614
-  ],
-  "q:latest ps5 firmware update improves security": [
-   0,
-   "",
-   1793617323.3589926
-  ],
   "q:legend": [
    0,
    "",
@@ -36182,11 +36064,6 @@
    0,
    "",
    1793730714.576507
-  ],
-  "q:meat biome": [
-   0,
-   "",
-   1793617301.594121
   ],
   "q:medium rare": [
    4909780,
@@ -36593,11 +36470,6 @@
    "",
    1793734327.9925852
   ],
-  "q:n64": [
-   0,
-   "",
-   1793617314.3261118
-  ],
   "q:name": [
    0,
    "",
@@ -36933,16 +36805,6 @@
    "Obsession",
    1793192522.4879262
   ],
-  "q:ocarina": [
-   0,
-   "",
-   1793617289.8680043
-  ],
-  "q:ocarina of time": [
-   0,
-   "",
-   1793617289.229447
-  ],
   "q:ocarina of time remake": [
    0,
    "",
@@ -37002,11 +36864,6 @@
    0,
    "",
    1793784716.2135692
-  ],
-  "q:ocarina of time uk": [
-   0,
-   "",
-   1793617313.348026
   ],
   "q:october": [
    5026510,
@@ -37682,31 +37539,6 @@
    0,
    "",
    1793743299.0332925
-  ],
-  "q:ps5 firmware": [
-   0,
-   "",
-   1793617328.4548109
-  ],
-  "q:ps5 firmware update": [
-   0,
-   "",
-   1793617327.9674249
-  ],
-  "q:ps5 firmware update improves": [
-   0,
-   "",
-   1793617327.4185748
-  ],
-  "q:ps5 firmware update improves security": [
-   0,
-   "",
-   1793617326.9256122
-  ],
-  "q:ps5 firmware update improves security ahead": [
-   0,
-   "",
-   1793617326.4258528
   ],
   "q:ps5 owners": [
    0,
@@ -39078,11 +38910,6 @@
    "",
    1793721942.060602
   ],
-  "q:steam 8": [
-   0,
-   "",
-   1793617331.4400842
-  ],
   "q:steam deck": [
    1675200,
    "Steam Deck",
@@ -39518,11 +39345,6 @@
    "",
    1793621129.0506158
   ],
-  "q:time": [
-   0,
-   "",
-   1793617290.3872502
-  ],
   "q:time remake": [
    0,
    "",
@@ -39622,11 +39444,6 @@
    0,
    "",
    1793784717.2213268
-  ],
-  "q:time uk": [
-   0,
-   "",
-   1793617313.8406897
   ],
   "q:times and install": [
    0,
@@ -40693,11 +40510,6 @@
    "",
    1793721994.8685963
   ],
-  "q:zelda": [
-   0,
-   "",
-   1793617288.7012773
-  ],
   "q:zelda edition": [
    0,
    "",
@@ -40723,16 +40535,6 @@
    "",
    1793642504.7839475
   ],
-  "q:zelda ocarina": [
-   0,
-   "",
-   1793617288.1908262
-  ],
-  "q:zelda ocarina of time": [
-   0,
-   "",
-   1793617287.7111077
-  ],
   "q:zelda ocarina of time remake": [
    0,
    "",
@@ -40747,11 +40549,6 @@
    0,
    "",
    1793784715.0969713
-  ],
-  "q:zelda ocarina of time uk": [
-   0,
-   "",
-   1793617312.8553681
   ],
   "q:zeus": [
    0,
@@ -40792,7 +40589,6 @@
    "lidar",
    "monobank",
    "nvidia",
-   "openai",
    "ubisoft",
    "xbox",
    "автономне керування",
@@ -40802,9 +40598,11 @@
    "бпла",
    "бізнес",
    "військові технології",
+   "генштаб",
    "гур",
    "двигун",
    "дрони",
+   "зрк",
    "кинджал",
    "крилаті ракети",
    "морські дрони",
@@ -40812,12 +40610,12 @@
    "німеччина",
    "оборонка",
    "освіта",
-   "пам'ять",
    "перехоплювачі",
    "платформи",
+   "ппо",
    "ракети",
    "росія",
-   "сем альтман",
+   "сили оборони",
    "софт",
    "флот",
    "фінтех",
@@ -42747,6 +42545,14 @@
   [
    1793790169.1975994,
    "Smash hit cyberpunk storekeeper Probably Stolen was originally a different, non-cyberpunk game that seemed destined to sink without trace"
+  ],
+  [
+   1793790457.385564,
+   "Tencent Declares Latest AI Model Ranks Among China’s Best"
+  ],
+  [
+   1793790481.1956508,
+   "Punk rock, surfing and playing with AC/DC: Who the Hell are HEADSEND?"
   ]
  ],
  "titles_uk": [
@@ -44669,6 +44475,14 @@
   [
    1793790169.1976004,
    "Кіберпанк-хіт Probably Stolen починався як зовсім інша гра"
+  ],
+  [
+   1793790457.3855653,
+   "Tencent випустила нову модель ШІ та заявила про її лідерство в Китаї"
+  ],
+  [
+   1793790481.1956518,
+   "Панк-рок, серфінг і колаби з AC/DC: хто такі HEADSEND"
   ]
  ],
  "ukrainian": {
