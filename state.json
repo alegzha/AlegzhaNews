@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1793790452.0712194
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1793790450.8097496
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-03",
  "freebies": {
   "last_check": 1793790182.5443745,
@@ -38,7 +25,7 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-04 11:08 UTC",
+  "at": "2026-11-04 11:31 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
@@ -23300,7 +23287,12 @@
    "Dragon's Dogma 2 отримав колаборацію з Delicious in Dungeon",
    "Eurogamer",
    {
-    "also": [],
+    "also": [
+     [
+      "VGC",
+      "https://www.videogameschronicle.com/guide/dd2-dark-arisen-delicious-in-dungeon-collab-items-bonuses/"
+     ]
+    ],
     "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/2054970/\">Dragon&#x27;s Dogma 2</a> отримав колаборацію з Delicious in Dungeon</b>\n\nCapcom випустила тимчасовий кросовер екшену Dragon&#x27;s Dogma 2 із манґою та аніме Delicious in Dungeon. У грі з&#x27;явилися офіційні пеони й тематичні вбрання персонажів Laios та Marcille, доступні на PC, PlayStation та Xbox.\n\n🔗 <a href=\"https://www.eurogamer.net/dragons-dogma-2-dungeon-meshi-collaboration-out-now\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/dragons-dogma-2-dungeon-meshi-collaboration-out-now",
@@ -24621,7 +24613,6 @@
   "28aebfd65d103ce2": 1793642535.2270255,
   "28b15ab154e8c4c5": 1792661479.2652586,
   "28b1c3bb71cf1122": 1793548975.0566423,
-  "28d048884966e80f": 1792582298.5205588,
   "28f73b6431625bbb": 1792787497.4596574,
   "28fcba05d05e4e48": 1792841491.2948828,
   "29025edb0323c45f": 1793545435.371547,
@@ -26072,6 +26063,7 @@
   "79f502dbc270fefd": 1793336497.8738217,
   "7a18feab9af32366": 1793041329.3067365,
   "7a2c91fc344e6b5c": 1793289786.4778192,
+  "7a53076bad5912b3": 1793791881.4996517,
   "7a63d39d187994e3": 1793649809.8780675,
   "7a7bbb95c9385fbc": 1793435498.9012454,
   "7a84487794c454d8": 1792609364.659832,
@@ -26322,7 +26314,6 @@
   "8a2017f56e593542": 1792668678.497815,
   "8a2f668f24474141": 1792587744.2917285,
   "8a454552577ca5fa": 1792717287.223091,
-  "8a468700b8bdfdc3": 1792582293.371245,
   "8a482634e2672965": 1792866679.0582583,
   "8a5dd45d21a12971": 1792998311.3306265,
   "8a5f56e4fbb63931": 1792764327.3629096,
@@ -26956,6 +26947,7 @@
   "acfd7252c348479a": 1793289681.4575768,
   "ad1a21e881b46eeb": 1793786577.3369799,
   "ad207b02c72aea2b": 1793280732.5664854,
+  "ad429d325c65e3e4": 1793791898.5633519,
   "ad4c98cfa282dc20": 1792890260.2896423,
   "ad5357caaf5b7f82": 1793199681.5013194,
   "ad68ad21ff9aefae": 1793761284.9463658,
@@ -27056,6 +27048,7 @@
   "b20adaa5fbb6be2d": 1793613851.103073,
   "b20fcdf61b72dcd3": 1793289832.524448,
   "b21b527311fcd74a": 1793617299.0170603,
+  "b2229ae2402318ac": 1793791891.6259105,
   "b2263e9f84127c76": 1793383351.887684,
   "b239a9edb868e7cc": 1793210835.824067,
   "b254c4c4c749975a": 1793372535.0958557,
@@ -29680,7 +29673,7 @@
   "translators": {
    "DeepL": 6,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 573
+   "gemini-flash-lite-latest": 575
   },
   "week": "2026-W45"
  },
@@ -31335,6 +31328,21 @@
    "",
    1793730715.0562716
   ],
+  "q:arisen all": [
+   0,
+   "",
+   1793791887.2819927
+  ],
+  "q:arisen all delicious": [
+   0,
+   "",
+   1793791886.7908876
+  ],
+  "q:arisen all delicious in dungeon": [
+   0,
+   "",
+   1793791886.3492794
+  ],
   "q:arkane": [
    0,
    "",
@@ -32735,6 +32743,26 @@
    "",
    1793727289.547312
   ],
+  "q:dark": [
+   0,
+   "",
+   1793791885.8934932
+  ],
+  "q:dark arisen": [
+   0,
+   "",
+   1793791885.4360816
+  ],
+  "q:dark arisen all": [
+   0,
+   "",
+   1793791884.9468842
+  ],
+  "q:dark arisen all delicious": [
+   0,
+   "",
+   1793791884.500984
+  ],
   "q:dark souls 2": [
    236430,
    "DARK SOULS™ II",
@@ -32839,6 +32867,31 @@
    3816030,
    "DayZ Badlands",
    1792519355.2651722
+  ],
+  "q:dd2": [
+   0,
+   "",
+   1793791883.9813576
+  ],
+  "q:dd2 dark": [
+   0,
+   "",
+   1793791883.4991558
+  ],
+  "q:dd2 dark arisen": [
+   0,
+   "",
+   1793791882.9603944
+  ],
+  "q:dd2 dark arisen all": [
+   0,
+   "",
+   1793791882.500487
+  ],
+  "q:dd2 dark arisen all delicious": [
+   0,
+   "",
+   1793791882.0231488
   ],
   "q:dead island 2": [
    934700,
@@ -36805,6 +36858,16 @@
    "Obsession",
    1793192522.4879262
   ],
+  "q:ocarina": [
+   0,
+   "",
+   1793791895.2415044
+  ],
+  "q:ocarina of time": [
+   0,
+   "",
+   1793791894.789866
+  ],
   "q:ocarina of time remake": [
    0,
    "",
@@ -36839,6 +36902,11 @@
    0,
    "",
    1793703648.244281
+  ],
+  "q:ocarina of time remake one": [
+   0,
+   "",
+   1793791894.3360143
   ],
   "q:ocarina of time remake review": [
    0,
@@ -38210,6 +38278,16 @@
    "",
    1793723483.8959565
   ],
+  "q:review the legend": [
+   0,
+   "",
+   1793791892.521448
+  ],
+  "q:review the legend of zelda": [
+   0,
+   "",
+   1793791892.069672
+  ],
   "q:rockstar might": [
    0,
    "",
@@ -39345,6 +39423,11 @@
    "",
    1793621129.0506158
   ],
+  "q:time": [
+   0,
+   "",
+   1793791897.1220746
+  ],
   "q:time remake": [
    0,
    "",
@@ -39404,6 +39487,21 @@
    0,
    "",
    1793703649.3664901
+  ],
+  "q:time remake one": [
+   0,
+   "",
+   1793791896.633078
+  ],
+  "q:time remake one of nintendo": [
+   0,
+   "",
+   1793791896.1515243
+  ],
+  "q:time remake one of nintendo's best looking": [
+   0,
+   "",
+   1793791895.691815
   ],
   "q:time remake review": [
    0,
@@ -40510,6 +40608,11 @@
    "",
    1793721994.8685963
   ],
+  "q:zelda": [
+   0,
+   "",
+   1793791893.8665576
+  ],
   "q:zelda edition": [
    0,
    "",
@@ -40534,6 +40637,16 @@
    0,
    "",
    1793642504.7839475
+  ],
+  "q:zelda ocarina": [
+   0,
+   "",
+   1793791893.424168
+  ],
+  "q:zelda ocarina of time": [
+   0,
+   "",
+   1793791892.965125
   ],
   "q:zelda ocarina of time remake": [
    0,
