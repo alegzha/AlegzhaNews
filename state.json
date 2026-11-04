@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:ai|The Decoder|https://the-decoder.com/feed/": {
+   "detail": "https://the-decoder.com/feed/ → 500 Server Error: Internal Server Error for url: https://the-decoder.com/feed/",
+   "label": "Джерело «The Decoder» не працює",
+   "sent": 0,
+   "since": 1793824280.0391746
+  }
+ },
  "daily_digest_date": "2026-11-04",
  "freebies": {
   "last_check": 1793822065.7167969,
@@ -26,108 +33,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-04 20:01 UTC",
+  "at": "2026-11-04 20:31 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 6
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793131316.762555,
-   3052,
-   "🎮",
-   "Колишній керівник Halo очолив Wizards of the Coast та Hasbro Digital Games",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/gaming-industry/former-halo-boss-is-now-in-charge-of-wizards-of-the-coast-and-hasbro-digital-games/",
-    "orig": "Former Halo boss is now in charge of Wizards of the Coast and Hasbro Digital Games"
-   }
-  ],
-  [
-   1793131331.5165799,
-   3053,
-   "🤘",
-   "Тілль Ліндеманн анонсував європейський тур на 2027 рік",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/10/27/news/rammsteins-till-lindemann-announces-2027-european-uk-tour/",
-    "orig": "Rammstein’s Till Lindemann Announces 2027 European/UK Tour"
-   }
-  ],
-  [
-   1793131334.422134,
-   3054,
-   "🎬",
-   "Nobody Wants This демонструє найкращий старт комедійного серіалу Netflix у 2025 році",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/nobody-wants-this-season-3-premiere-viewership-netflix-1237206481/",
-    "orig": "‘Nobody Wants This’ Has Netflix’s Best Scripted Comedy Return Of The Year Despite 28% Audience Decline For Season 3 Debut"
-   }
-  ],
-  [
-   1793131376.3908708,
-   3055,
-   "🤘",
-   "Альбоми Kingdom Of Sorrow вперше за роки видадуть на вінилі",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55562/kingdom-of-sorrow-hatebreedcrowbar-to-receive-second-ever-vinyl-repress-on-2008-and-2010-lps/",
-    "orig": "Kingdom Of Sorrow (Hatebreed/Crowbar) to receive second-ever vinyl repress on 2008 and 2010 LPs"
-   }
-  ],
-  [
-   1793131407.7970417,
-   3056,
-   "🤘",
-   "Pelican, Spotlights і The Life And Times вирушать у тур із Hum у 2027 році",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55564/pelican-spotlights-and-the-life-and-times-to-support-hum-on-2027-us-tour-dates/",
-    "orig": "Pelican, Spotlights and The Life And Times to support Hum on 2027 U.S. tour dates"
-   }
-  ],
-  [
-   1793133084.9157472,
-   3057,
-   "🎬",
-   "Документалка You Can See Everything збирає вражаючу касу в США",
-   "IndieWire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.indiewire.com/news/box-office/you-can-see-everything-catch-fahrenheit-9-11-box-office-1235223865/",
-    "orig": "Will ‘You Can See Everything’ Catch ‘Fahrenheit 9/11’ to Be the Highest-Grossing Documentary Ever?"
-   }
-  ],
-  [
-   1793133088.41408,
-   3058,
-   "🤘",
-   "Піт Тауншенд зізнався, що ніколи не захоплювався LED ZEPPELIN",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/the-whos-pete-townshend-says-he-never-really-got-into-led-zeppelin-the-only-heavy-metal-i-really-listened-to-was-ac-dc",
-    "orig": "THE WHO's PETE TOWNSHEND Says He 'Never Really Got Into LED ZEPPELIN': 'The Only Heavy Metal I Really Listened To Was AC/DC'"
-   }
-  ],
   [
    1793133097.8711462,
    3059,
@@ -22354,7 +22270,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Їжак Sonic офіційно повертається в кінотеатри цього Різдва</b>\n\nДо прем&#x27;єри Sonic the Hedgehog 4 ще кілька місяців, проте новий трейлер розкриває, що Sonic з&#x27;явиться у стрічці Angry Birds 3 Movie\n\n🔗 <a href=\"https://www.polygon.com/sonic-the-hedgehog-2026-movie-angry-birds-3/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/sonic-the-hedgehog-2026-movie-angry-birds-3/",
     "orig": "Sonic the Hedgehog Officially Returns to Movie Theaters this Christmas"
@@ -22368,7 +22283,6 @@
    "Stereogum",
    {
     "also": [],
-    "caption": "🤘 <b>Лондонський продюсер Love Remain випустив новий трек &quot;Shadow Swim&quot;</b>\n\nЛондонський продюсер Love Remain представив новий атмосферний трек &quot;Shadow Swim&quot; із закрученим хаус-бітом та вокальними гармоніями. Ця композиція стала першим анонсом нового EP артиста, який вийде наступного тижня.\n\n🔗 <a href=\"https://stereogum.com/2516506/love-remain-shadow-swim/music/\">Stereogum</a>\n\n#музика",
     "kind": "photo",
     "link": "https://stereogum.com/2516506/love-remain-shadow-swim/music/",
     "orig": "Love Remain – “Shadow Swim”"
@@ -22382,7 +22296,6 @@
    "VGC",
    {
     "also": [],
-    "caption": "🎮 <b>Сем Алтман назвав свої слова про ПК-геймерів і оперативну пам&#x27;ять вирваними з контексту</b>\n\nГенеральний директор OpenAI Сем Алтман заявив, що його скандальні слова про те, що тримати DRAM у домашніх ПК неефективно, були вирвані з контексту. Раніше він зазначив у подкасті, що дефіцит пам&#x27;яті через розвиток ШІ робить закупівлі занадто витратними для користувачів, а критику назвав дратівливою.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/fing-annoying-sam-altman-claims-comments-about-pc-gamers-buying-ram-taken-out-of-context/\">VGC</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/news/fing-annoying-sam-altman-claims-comments-about-pc-gamers-buying-ram-taken-out-of-context/",
     "orig": "‘F***ing annoying’: Sam Altman claims comments about PC gamers buying RAM ‘taken out of context’"
@@ -23002,7 +22915,12 @@
    "Elder, Russian Circles, Brutus та інші поповнили лайнап ArcTanGent 2027",
    "Lambgoat",
    {
-    "also": [],
+    "also": [
+     [
+      "ThePRP",
+      "https://www.theprp.com/2026/11/04/news/russian-circles-brutus-elder-etc-added-to-2027-arctangent-festival/"
+     ]
+    ],
     "caption": "🤘 <b>Elder, Russian Circles, Brutus та інші поповнили лайнап ArcTanGent 2027</b>\n\nФестиваль ArcTanGent оголосив чергову хвилю учасників на 2027 рік, проведення якого заплановане на серпень.\n\n🔗 <a href=\"https://lambgoat.com/news/55703/elder-russian-circles-brutus-and-more-added-to-arctangent-2027/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55703/elder-russian-circles-brutus-and-more-added-to-arctangent-2027/",
@@ -23242,6 +23160,48 @@
     "link": "https://www.theprp.com/2026/11/04/news/rosetta-debut-self-dealing-position-from-their-upcoming-final-album-temporal-lapse/",
     "orig": "Rosetta Debut “Self-Dealing Position” From Their Upcoming Final Album “Temporal Lapse”"
    }
+  ],
+  [
+   1793824292.0054991,
+   4801,
+   "🤘",
+   "Прем'єра архівного треку The New Yorkers за участі майбутніх учасників Megadeth",
+   "Decibel",
+   {
+    "also": [],
+    "caption": "🤘 <b>Прем&#x27;єра архівного треку The New Yorkers за участі майбутніх учасників Megadeth</b>\n\nГурт The New Yorkers випустив архівний трек «I Only Cry For You», записаний наприкінці 70-х за участі майбутніх учасників Megadeth Кріса Поланда та Гар Самюелсона. Ця композиція увійде до майбутнього альбому невдалих демо та концертних записів «Low-Temperature Delay», реліз якого на вінілі та цифрі відбудеться 4 грудня на лейблі Psychic Reader Records.\n\n🔗 <a href=\"https://www.decibelmagazine.com/2026/11/04/track-premiere-the-new-yorkers-pre-megadeth-i-only-cry-for-you/\">Decibel</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.decibelmagazine.com/2026/11/04/track-premiere-the-new-yorkers-pre-megadeth-i-only-cry-for-you/",
+    "orig": "Track Premiere: The New Yorkers (pre-Megadeth) – “I Only Cry For You”"
+   }
+  ],
+  [
+   1793824294.3708181,
+   4802,
+   "🎬",
+   "Їжак Сонік зустрічає пташок у трейлері \"Angry Birds у кіно 3\" / The Angry Birds Movie 3",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🎬 <b>Їжак Сонік зустрічає пташок у трейлері &quot;Angry Birds у кіно 3&quot; / The Angry Birds Movie 3</b>\n\nЩоб побачити Соніка на великому екрані, глядачам не доведеться чекати березня, коли вийде четвертий фільм про нього. Другий трейлер “Angry Birds у кіно 3” / The Angry Birds Movie 3 демонструє неочікуваний кросовер.\n\n🔗 <a href=\"https://mezha.ua/news/sonic-in-angry-birds-movie-3-316889/\">Mezha</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/sonic-in-angry-birds-movie-3-316889/",
+    "orig": "Їжак Сонік зустрічає пташок у трейлері \"Angry Birds у кіно 3\" / The Angry Birds Movie 3"
+   }
+  ],
+  [
+   1793824297.707855,
+   4803,
+   "🤘",
+   "Барабанщик Кріс Контос залишив гурт FORBIDDEN після трьох років роботи",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Барабанщик Кріс Контос залишив гурт FORBIDDEN після трьох років роботи</b>\n\nБарабанщик Кріс Контос оголосив про свій негайний вихід із гурту FORBIDDEN через нерозв&#x27;язані проблеми з фінансовою прозорістю та бізнес-рішеннями колективу. Музикант працював у команді три роки й брав участь у записі нового однойменного альбому. Інші учасники гурту заявили, що дізналися про його відхід із соцмереж.\n\n🔗 <a href=\"https://blabbermouth.net/news/drummer-chris-kontos-exits-forbidden-i-have-decided-that-i-can-no-longer-continue-as-a-part-of-the-band\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/drummer-chris-kontos-exits-forbidden-i-have-decided-that-i-can-no-longer-continue-as-a-part-of-the-band",
+    "orig": "Drummer CHRIS KONTOS Exits FORBIDDEN: 'I Have Decided That I Can No Longer Continue As A Part Of The Band'"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23475,7 +23435,7 @@
    1793818989.7646945
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
-   1793435498.9012954
+   1793824294.3712368
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
    1793761314.0505695,
@@ -23488,8 +23448,6 @@
    1793763078.3152678
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1793736097.7984576,
-   1793736110.6937983,
    1793739693.791628,
    1793743308.404818,
    1793759599.2263527,
@@ -23501,17 +23459,15 @@
    1793813501.5485044,
    1793815362.3736284,
    1793815383.2757282,
-   1793819022.2099192
+   1793819022.2099192,
+   1793824297.7082329
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
   ],
   "music|Decibel|https://www.decibelmagazine.com/feed/": [
-   1793716421.557994,
-   1793725381.1940482,
-   1793730742.9879458,
-   1793736159.0781949,
-   1793802709.8075683
+   1793802709.8075683,
+   1793824292.005878
   ],
   "music|Distorted Sound|https://distortedsoundmag.com/feed/": [
    1793746901.6202884,
@@ -23673,6 +23629,7 @@
   "01334f1db6d0dacd": 1793187182.8404298,
   "01356b3fb6b05ea9": 1793099029.5964723,
   "01406d352d89809f": 1793723600.2293522,
+  "014900fad1376c96": 1793824297.7081478,
   "0155b1d244900c8c": 1793183587.0168352,
   "01715d1d1a8e69cf": 1792870295.3867612,
   "01814cbabe964e38": 1793106103.075852,
@@ -23711,7 +23668,6 @@
   "040f3cce98fac26b": 1793134909.817085,
   "041b81dd61f6e7f2": 1793117001.3565714,
   "041c171b9a946f63": 1793802681.6696603,
-  "0426528f51ff623c": 1792614683.5364943,
   "042d295dd32636bb": 1793631757.4590878,
   "042e42d225422ccb": 1793198116.620492,
   "04453b2a5b32ad4d": 1793641037.032886,
@@ -23759,7 +23715,6 @@
   "0668804dd1db3f86": 1792859638.0804634,
   "066ce240bf612c09": 1793037857.9523182,
   "066cf0040ee2ea7a": 1793300524.5609717,
-  "06734d41047a5c2f": 1792612914.270907,
   "068629af5069ee94": 1793295502.7164915,
   "0691c388924a1bb6": 1793304052.600284,
   "06a084373ab697dc": 1793018066.8078265,
@@ -24481,6 +24436,7 @@
   "2da3a77fd2ab37f4": 1793813860.5651276,
   "2da3d50bd50ce3ef": 1793311397.0385637,
   "2dc813debefa99c7": 1793811770.358316,
+  "2dee6415317db513": 1793824301.5825603,
   "2df14628d3314b0d": 1792686911.669889,
   "2df4265a30afcde3": 1793311368.2387302,
   "2df8ab076d297aab": 1793185306.293644,
@@ -24927,6 +24883,7 @@
   "482e7efa033c2504": 1793136691.2272556,
   "482fdd9e584f0863": 1793736097.7984061,
   "4845a540d62f75f2": 1792765977.1708195,
+  "48471f7f5ecd3a22": 1793824254.550742,
   "484ac19dd855309f": 1793743318.5177479,
   "488e19425e65b650": 1793037803.329831,
   "4893de3923c06341": 1793615476.192061,
@@ -24973,7 +24930,6 @@
   "4adaaf9df2544bd3": 1793116913.9861078,
   "4add9805752a7781": 1793720021.0795097,
   "4b09ebebed5ff723": 1792618299.6853623,
-  "4b0f11458843515c": 1792614686.7827096,
   "4b1ee8db8b11e3eb": 1793278950.8299243,
   "4b2d4fdc2fbfb4d2": 1793131285.0922763,
   "4b4583b2772c4d98": 1792719087.6175306,
@@ -24994,6 +24950,7 @@
   "4c3ae0e2dc574080": 1793114811.9939032,
   "4c46fd9950281ec5": 1793025199.5990126,
   "4c4c5eeaf2d25744": 1793296877.8721495,
+  "4c59d5cc4d39b715": 1793824254.550742,
   "4c70874e125a9fad": 1793579592.2042034,
   "4c7874c019be5bd7": 1793381490.7337124,
   "4c80410b5714e944": 1793275274.4858103,
@@ -25230,7 +25187,6 @@
   "58d291901dd0bc74": 1793282455.477287,
   "58f93a3abe095520": 1793205128.990238,
   "58febfbc4b656339": 1793275402.4980257,
-  "591016f48ff3eced": 1792614681.5079594,
   "591a87dbfeed1585": 1793109777.701483,
   "5925290646c80b0c": 1793131258.1143897,
   "594229cfe1443d26": 1792801887.0367198,
@@ -25672,7 +25628,6 @@
   "70471321e554ec93": 1792733502.5179763,
   "707d3701e78d1b46": 1793019986.932121,
   "7088251ef81a48da": 1793268076.668993,
-  "7090e2364dcef13f": 1792612924.5556905,
   "709b0d0641ae179b": 1793363593.9601083,
   "70a5bbed888935d0": 1793377954.897732,
   "70a79f4eb8e9bcb6": 1793694786.2211125,
@@ -25804,6 +25759,7 @@
   "76f608444e98d11b": 1793086465.8748114,
   "7700d7f02ff33773": 1793821931.8923917,
   "770a737e22515656": 1793273538.852709,
+  "771bb5e829acae51": 1793824254.550742,
   "772826780fa6c05e": 1793210700.935244,
   "7749acdf4ab66a88": 1793554457.2120223,
   "774eda18ad118fec": 1793570581.3580635,
@@ -26345,6 +26301,7 @@
   "97411bca089ab729": 1792668725.6253703,
   "97511ae871b6742b": 1793295409.372612,
   "975aa25aa3f9e914": 1792783896.327609,
+  "975af12acfa19dfb": 1793824280.7693458,
   "97634f85402a420d": 1793188990.240187,
   "978858e3121bf8da": 1793014498.7271607,
   "9790cfb9186cf657": 1793199856.24314,
@@ -26428,7 +26385,6 @@
   "9c1bbdcdebca21e2": 1792924286.2848496,
   "9c1c13d9414e102e": 1793260855.1404,
   "9c3e02609486bbb0": 1793819030.7217646,
-  "9c6039251689f2c8": 1792614691.9346416,
   "9c629c580e994924": 1793122330.402763,
   "9c678d9b6e46c88a": 1793720227.7373075,
   "9c75a73118999bb6": 1792990745.4743483,
@@ -26438,7 +26394,6 @@
   "9ca5a894b5020cfa": 1793354502.6144547,
   "9caa5386945acd38": 1793098987.394595,
   "9caab2ab3db9310a": 1792652571.5684028,
-  "9cc09db9161f482b": 1792614654.1164234,
   "9cc90a75c5ce846b": 1792762329.4012802,
   "9cd4c71200e8e145": 1793104494.3342624,
   "9cd913d596ab7ee5": 1793007198.0826168,
@@ -26632,6 +26587,7 @@
   "a841ec3de8c8b0ec": 1793716484.4631484,
   "a84deab5558652bd": 1792717290.9801292,
   "a87b91042c123fa0": 1793068282.1712766,
+  "a895d61162e64226": 1793824254.550742,
   "a89cb2ccef4eab5f": 1793812003.5182016,
   "a8b8d8b11b360c39": 1793223107.510653,
   "a8be44fc891c57ef": 1792692183.4845805,
@@ -26732,6 +26688,7 @@
   "ad6c2543f41dd65e": 1793365276.03468,
   "ad75ffb35dd1632a": 1793469692.67964,
   "ad76e0df411b0c50": 1793278875.3224423,
+  "ad95eb9f71da4c96": 1793824280.7754414,
   "ad960e290ea576d9": 1793176591.6444523,
   "add98f932a55a283": 1793667685.8833592,
   "ade8d5e5a9c3b80e": 1793282869.2320766,
@@ -26750,6 +26707,7 @@
   "ae572fdcd35e05f7": 1793277123.0990484,
   "ae59d23f019d47d4": 1792845090.9072745,
   "ae5d3d76a923ab28": 1793214161.1837404,
+  "ae7e1b49da25222b": 1793824300.7045074,
   "ae85f28e49a969a8": 1793172685.6050282,
   "ae8fe55e19923b97": 1792792944.849285,
   "aeb5096740df2f6a": 1792945882.6656585,
@@ -26861,6 +26819,7 @@
   "b3917be0925f2390": 1792747886.8660903,
   "b3aca3a32b20f6f9": 1792956680.7782102,
   "b3c29c83ab83048d": 1793277076.627354,
+  "b3cc9632a79a5996": 1793824288.6555696,
   "b3e48533903bdb8c": 1793345487.2532442,
   "b3e5ab80dc09d012": 1793340249.1493475,
   "b3eccd2fc0291a74": 1793120570.3232682,
@@ -26985,6 +26944,7 @@
   "baba9c1b86869720": 1793008930.458088,
   "bac5741b6a7fe64b": 1793496682.534574,
   "bae01e3d9e028019": 1793392256.1180868,
+  "bb1713c941bc97f3": 1793824254.550742,
   "bb2f711d7f0da184": 1793635485.6206167,
   "bb2fa2a0d9d3fe78": 1793392405.0988355,
   "bb315329c616b68c": 1792623693.4695501,
@@ -26994,7 +26954,6 @@
   "bb3b2f49540ff49e": 1793633593.3258402,
   "bb4a7cc54de3f5b0": 1793174453.5668344,
   "bb6ae4cc0157fa2c": 1793700082.9378054,
-  "bbaea4849e7d49ae": 1792614699.7746358,
   "bbb81096076943dc": 1793210481.1459775,
   "bbc92680ec6b4b21": 1793570964.435122,
   "bbcb770e33140286": 1793035857.1705277,
@@ -27077,6 +27036,7 @@
   "c04243005edf472c": 1793597573.4414065,
   "c0431dfd70ee5a60": 1793059295.6590042,
   "c0577b2832178b66": 1793304118.151298,
+  "c081797c8aaa54b3": 1793824292.0058177,
   "c082fdd1f69582fa": 1793214127.4893403,
   "c0858c2a0d94a8d9": 1793781213.19279,
   "c0869a868b8d3538": 1792918852.6691864,
@@ -27259,7 +27219,6 @@
   "cb29de28ed72c353": 1793189021.8018208,
   "cb2ae14af824e883": 1792793174.6842897,
   "cb2e0ccae64d8a48": 1792627365.4521804,
-  "cb44a2485d56deab": 1792614696.8516707,
   "cb4cd5ec5135fc9e": 1792938682.6852176,
   "cb57b12855e10373": 1792794698.3611982,
   "cb5d1ed905a96288": 1793228480.580658,
@@ -27634,6 +27593,7 @@
   "e1f3c0b94b90d03f": 1793372554.6384993,
   "e1fd6d68d5fec6d9": 1793278996.510514,
   "e1fddcf8698b72f9": 1793736134.4477098,
+  "e20aa9d9cae2afd3": 1793824280.7684836,
   "e20fa915798631a6": 1792634487.7274785,
   "e2344c81d347f26a": 1792872137.2159295,
   "e2469c92ba3c15a3": 1792911845.885203,
@@ -27676,6 +27636,7 @@
   "e40a08a638030069": 1793471488.0244532,
   "e40b1a1ef978ee30": 1793282737.15746,
   "e429d7a416ccf592": 1793797699.85117,
+  "e42a9ce6bcb51d58": 1793824294.3711224,
   "e43170111e1ee1d9": 1793451651.7324479,
   "e439fd8cc88b0b7c": 1793383258.0614157,
   "e441fe865239f6d8": 1793403088.3436222,
@@ -28029,6 +27990,7 @@
   "f8f548b4bf7bda73": 1793206852.5538197,
   "f90e5bdbe981b2d7": 1793734298.5056155,
   "f9112448855df8d1": 1792665082.1300592,
+  "f9112e8d166c383c": 1793824254.550742,
   "f9173bb79a9aefe7": 1793173088.853835,
   "f918db6b6c150779": 1792625478.5477486,
   "f93c260a8102c189": 1792775811.5798705,
@@ -28123,6 +28085,7 @@
   "fd0dd24b3008cfef": 1793190874.7831242,
   "fd1f73ac3071ea8f": 1793284277.882595,
   "fd2665291e3c4dc1": 1793021492.6742065,
+  "fd26d09408cef2b9": 1793824303.2300498,
   "fd3d40f1fd866129": 1792627282.9617617,
   "fd423848dc22249a": 1793345475.5572803,
   "fd523d134668ba47": 1793804489.7808375,
@@ -28620,7 +28583,7 @@
   ],
   "artists_checked": 1793822069.0866761,
   "blocked_until": 1793820828.0619776,
-  "cursor": 207,
+  "cursor": 217,
   "digest_week": "2026-W44",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -29383,7 +29346,7 @@
    "GameSpot": 3,
    "IGN": 4,
    "IndieWire": 2,
-   "Insider Gaming": 26,
+   "Insider Gaming": 32,
    "Kerrang!": 1,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
@@ -29396,12 +29359,12 @@
   "sources": {
    "/Film": 17,
    "AIN.ua": 4,
-   "Blabbermouth": 35,
+   "Blabbermouth": 36,
    "Bloomberg": 32,
    "DOU": 4,
    "DOU Gamedev": 3,
    "Deadline": 45,
-   "Decibel": 7,
+   "Decibel": 8,
    "Digital Foundry": 7,
    "Distorted Sound": 10,
    "Eurogamer": 17,
@@ -29418,7 +29381,7 @@
    "Loudwire": 18,
    "Metal Hammer (Louder)": 16,
    "Metal Injection": 11,
-   "Mezha": 35,
+   "Mezha": 36,
    "PC Gamer": 37,
    "Pitchfork": 6,
    "PlayUA": 6,
@@ -29436,7 +29399,7 @@
   "translators": {
    "DeepL": 6,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 720
+   "gemini-flash-lite-latest": 726
   },
   "week": "2026-W45"
  },
@@ -30726,31 +30689,6 @@
    "",
    1793707292.9882965
   ],
-  "q:adding": [
-   0,
-   "",
-   1793649846.2164927
-  ],
-  "q:adding a weather": [
-   0,
-   "",
-   1793649845.7371805
-  ],
-  "q:adding a weather system": [
-   0,
-   "",
-   1793649845.2670617
-  ],
-  "q:adding a weather system this": [
-   0,
-   "",
-   1793649844.7589118
-  ],
-  "q:adding a weather system this week": [
-   0,
-   "",
-   1793649844.2769904
-  ],
   "q:adds": [
    0,
    "",
@@ -31531,6 +31469,11 @@
    "BioShock® 2",
    1792945886.1220896
   ],
+  "q:black": [
+   0,
+   "",
+   1793824302.1029131
+  ],
   "q:black friday": [
    0,
    "",
@@ -31895,11 +31838,6 @@
    1962663,
    "Call of Duty®: Warzone™",
    1793606482.6005132
-  ],
-  "q:call of duty warzone is": [
-   0,
-   "",
-   1793649841.8208113
   ],
   "q:calm bricks": [
    5348660,
@@ -35241,26 +35179,6 @@
    "Iron Lung",
    1791994329.4241986
   ],
-  "q:is adding": [
-   0,
-   "",
-   1793649843.7662213
-  ],
-  "q:is adding a weather": [
-   0,
-   "",
-   1793649843.2974825
-  ],
-  "q:is adding a weather system": [
-   0,
-   "",
-   1793649842.825432
-  ],
-  "q:is adding a weather system this": [
-   0,
-   "",
-   1793649842.2908401
-  ],
   "q:is always": [
    0,
    "",
@@ -35925,6 +35843,21 @@
    0,
    "",
    1793730733.6177602
+  ],
+  "q:makes james bond's new": [
+   0,
+   "",
+   1793824287.1750052
+  ],
+  "q:makes james bond's new game": [
+   0,
+   "",
+   1793824286.6773026
+  ],
+  "q:makes james bond's new game free": [
+   0,
+   "",
+   1793824286.1607294
   ],
   "q:mamdani": [
    0,
@@ -37301,6 +37234,31 @@
    "",
    1793786482.6133568
   ],
+  "q:plus makes": [
+   0,
+   "",
+   1793824285.6622412
+  ],
+  "q:plus makes james": [
+   0,
+   "",
+   1793824285.1667936
+  ],
+  "q:plus makes james bond": [
+   0,
+   "",
+   1793824284.6726997
+  ],
+  "q:plus makes james bond's new": [
+   0,
+   "",
+   1793824284.1518178
+  ],
+  "q:plus makes james bond's new game": [
+   0,
+   "",
+   1793824283.5486865
+  ],
   "q:pok": [
    4513280,
    "POK",
@@ -37555,6 +37513,26 @@
    0,
    "",
    1793786482.098559
+  ],
+  "q:ps plus makes": [
+   0,
+   "",
+   1793824283.0477095
+  ],
+  "q:ps plus makes james": [
+   0,
+   "",
+   1793824282.5408373
+  ],
+  "q:ps plus makes james bond": [
+   0,
+   "",
+   1793824282.0199006
+  ],
+  "q:ps plus makes james bond's new": [
+   0,
+   "",
+   1793824281.436821
   ],
   "q:ps5 and xbox": [
    0,
@@ -38565,11 +38543,6 @@
    0,
    "",
    1793799123.80061
-  ],
-  "q:setting": [
-   0,
-   "",
-   1793649691.1889749
   ],
   "q:shader compilation stutter": [
    0,
@@ -40091,16 +40064,6 @@
    "",
    1793710946.8092108
   ],
-  "q:weather system this": [
-   0,
-   "",
-   1793649847.1897295
-  ],
-  "q:weather system this week": [
-   0,
-   "",
-   1793649846.6994846
-  ],
   "q:whalefall": [
    4489380,
    "Whalefall",
@@ -40539,6 +40502,7 @@
  },
  "tag_hints": {
   "Mezha": [
+   "angry birds",
    "bayraktar tb2",
    "casio",
    "fpv-дрони",
@@ -40550,7 +40514,7 @@
    "oled",
    "playstation",
    "samsung",
-   "youtube",
+   "анімаційні фільми",
    "безпілотники",
    "бпла",
    "бізнес",
@@ -40558,6 +40522,7 @@
    "дисплеї",
    "залізо",
    "зрк",
+   "кіно",
    "новини",
    "оборонка",
    "пам'ять",
@@ -40566,8 +40531,6 @@
    "розумне кільце",
    "смарткільце",
    "смартфони",
-   "софт",
-   "соціальні мережі",
    "третій армійський корпус",
    "туреччина",
    "штучний інтелект",
@@ -40575,50 +40538,6 @@
   ]
  },
  "titles": [
-  [
-   1793649809.8780699,
-   "Alien: Isolation 2 Devs Tease New Protagonist, Planet Setting, and 1979 Film Roots"
-  ],
-  [
-   1793649812.250576,
-   "NYT подала позов проти Brave через незаконне використання контенту для ШІ та обходу платних доступів"
-  ],
-  [
-   1793649828.904636,
-   "Trivium Release “Fugue” Live Performance From Their Hangar Homebase"
-  ],
-  [
-   1793649839.8282542,
-   "Oracle Kicks Off $20 Billion Capital Raise"
-  ],
-  [
-   1793649850.9736927,
-   "Call of Duty: Warzone Is Adding a Weather System This Week"
-  ],
-  [
-   1793649854.898568,
-   "AI elites might hoard intelligence like mercantilists hoarded gold"
-  ],
-  [
-   1793649886.0159905,
-   "Alestorm enter studio to begin work on LP9, 'Infinite Seas Of Stellar Damnation'"
-  ],
-  [
-   1793649917.1394498,
-   "Knocked Loose and Arkangel added to FYA XIII"
-  ],
-  [
-   1793651478.8971198,
-   "Parkway Drive, Evanescence, Beartooth and more announced for Rock for People 2027"
-  ],
-  [
-   1793651486.8708203,
-   "Goldman Sachs pulls AI coding tools from traders and bankers"
-  ],
-  [
-   1793651503.3500607,
-   "Cave In And Glacier Announce February 2027 East Coast Shows"
-  ],
   [
    1793651505.2041287,
    "Розробник скомпілював у ШІ Qwen процесор RISC-V та запустив на ньому Doom"
@@ -42550,53 +42469,21 @@
   [
    1793822508.4787507,
    "Rosetta Debut “Self-Dealing Position” From Their Upcoming Final Album “Temporal Lapse”"
+  ],
+  [
+   1793824292.0058215,
+   "Track Premiere: The New Yorkers (pre-Megadeth) – “I Only Cry For You”"
+  ],
+  [
+   1793824294.3711245,
+   "Їжак Сонік зустрічає пташок у трейлері \"Angry Birds у кіно 3\" / The Angry Birds Movie 3"
+  ],
+  [
+   1793824297.7081497,
+   "Drummer CHRIS KONTOS Exits FORBIDDEN: 'I Have Decided That I Can No Longer Continue As A Part Of The Band'"
   ]
  ],
  "titles_uk": [
-  [
-   1793649809.8780708,
-   "Alien: Isolation 2 отримає нового протагоніста, іншу планету та атмосферу оригінального фільму 1979 року"
-  ],
-  [
-   1793649812.2505772,
-   "NYT подала позов проти Brave через незаконне використання контенту для ШІ та обходу платних доступів"
-  ],
-  [
-   1793649828.9046369,
-   "Trivium випустили лайв-відео треку Fugue напередодні туру"
-  ],
-  [
-   1793649839.8282552,
-   "Oracle залучає $20 мільярдів на розвиток ШІ-інфраструктури"
-  ],
-  [
-   1793649850.9736936,
-   "У Call of Duty: Warzone з'явиться система погоди"
-  ],
-  [
-   1793649854.8985689,
-   "ШІ-еліта може привласнити інтелект на кшталт меркантилістів"
-  ],
-  [
-   1793649886.0159914,
-   "Alestorm почали запис дев'ятого альбому Infinite Seas Of Stellar Damnation"
-  ],
-  [
-   1793649917.1394515,
-   "Knocked Loose та Arkangel виступлять на фестивалі FYA XIII"
-  ],
-  [
-   1793651478.8971205,
-   "Parkway Drive, Evanescence та Beartooth виступлять на Rock for People 2027"
-  ],
-  [
-   1793651486.8708212,
-   "Goldman Sachs обмежив доступ трейдерів і банкірів до ШІ-інструментів"
-  ],
-  [
-   1793651503.350062,
-   "Cave In та Glacier анонсували спільні концерти на лютий 2027 року"
-  ],
   [
    1793651505.20413,
    "Розробник скомпілював у ШІ Qwen процесор RISC-V та запустив на ньому Doom"
@@ -44528,6 +44415,18 @@
   [
    1793822508.478752,
    "Rosetta випустили сингл «Self-Dealing Position» з фінального альбому"
+  ],
+  [
+   1793824292.0058227,
+   "Прем'єра архівного треку The New Yorkers за участі майбутніх учасників Megadeth"
+  ],
+  [
+   1793824294.3711257,
+   "Їжак Сонік зустрічає пташок у трейлері \"Angry Birds у кіно 3\" / The Angry Birds Movie 3"
+  ],
+  [
+   1793824297.7081509,
+   "Барабанщик Кріс Контос залишив гурт FORBIDDEN після трьох років роботи"
   ]
  ],
  "ukrainian": {
