@@ -1,5 +1,36 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:ai|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1793853096.429374
+  },
+  "src:games|Digital Foundry|https://www.digitalfoundry.net/feed": {
+   "detail": "https://www.digitalfoundry.net/feed → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/feed.xml → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.eurogamer.net/feed/digitalfoundry → 404 Client Error: Not Found for url: https://www.eurogamer.net/feed/digitalfoundry",
+   "label": "Джерело «Digital Foundry» не працює",
+   "sent": 0,
+   "since": 1793853079.1155329
+  },
+  "src:games|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1793853063.072185
+  },
+  "src:movies|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1793853093.7194965
+  },
+  "src:software|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1793853093.7417994
+  }
+ },
  "daily_digest_date": "2026-11-04",
  "freebies": {
   "last_check": 1793851339.69205,
@@ -26,11 +57,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-05 04:02 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-11-05 04:31 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 7
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
@@ -22391,7 +22422,6 @@
       "https://www.pcgamer.com/games/november-games-2026/"
      ]
     ],
-    "caption": "🎮 <b>GTA 6 порівняли зі справжнім Маямі: наскільки правдоподібно виглядає місто</b>\n\nGTA 6 настільки реалістично відтворює Маямі, що деякі гравці не одразу змогли відрізнити скриншот гри від справжньої фотографії міста. Порівняння опублікував користувач Reddit під ніком Alex200496, зіставивши кадр із майбутньої гри Rockstar зі знімком реальної локації.\n\n🔗 <a href=\"https://itc.ua/ua/novini/gta-6-porivnyaly-zi-spravzhnim-mayami-naskilky-pravdopodibno-vyglyadaye-misto/\">ITC.ua</a>\n\n#ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/gta-6-porivnyaly-zi-spravzhnim-mayami-naskilky-pravdopodibno-vyglyadaye-misto/",
     "orig": "GTA 6 порівняли зі справжнім Маямі: наскільки правдоподібно виглядає місто"
@@ -22405,7 +22435,6 @@
    "Stereogum",
    {
     "also": [],
-    "caption": "🤘 <b>Christine And The Queens випустив сингл «Rendez-vous Avec Toi»</b>\n\nChristine And The Queens презентував новий сингл «Rendez-vous Avec Toi» та його англомовну версію «Rendez-vous In Your Arms». Ця композиція стала першим вісником майбутнього альбому артиста, реліз якого заплановано на наступну весну. Трек також отримав кліп, знятий Крісом спільно з Рафаелем Де Альбукерке.\n\n🔗 <a href=\"https://stereogum.com/2516516/christine-and-the-queens-rendez-vous-avec-toi/music/\">Stereogum</a>\n\n#музика",
     "kind": "photo",
     "link": "https://stereogum.com/2516516/christine-and-the-queens-rendez-vous-avec-toi/music/",
     "orig": "Christine And The Queens – “Rendez-vous Avec Toi”"
@@ -23261,6 +23290,34 @@
     "link": "https://lambgoat.com/news/55721/forbidden-guitarist-craig-locicero-gives-video-statement-following-kontos-abrupt-exit/",
     "orig": "Forbidden guitarist Craig Locicero gives video statement following Kontos' abrupt exit"
    }
+  ],
+  [
+   1793853106.2146347,
+   4851,
+   "🎬",
+   "Дафні Кін розповіла про наркотики в Голлівуді та турботу Г'ю Джекмана на зйомках Logan",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Дафні Кін розповіла про наркотики в Голлівуді та турботу Г&#x27;ю Джекмана на зйомках Logan</b>\n\nЗірка фільму Logan Дафні Кін розповіла, що у віці 11–13 років їй пропонували кокаїн на голлівудських вечірках. Також акторка поділилася, що її колега Г&#x27;ю Джекман ретельно стежив за дотриманням її знімального графіку та захищав від закулісних напружень.\n\n🔗 <a href=\"https://variety.com/2026/film/news/logan-dafne-keen-cocaine-11-years-old-hollywood-1236939718/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/news/logan-dafne-keen-cocaine-11-years-old-hollywood-1236939718/",
+    "orig": "‘Logan’ Star Dafne Keen Says ‘I Was Offered Cocaine’ as an 11-Year-Old in Hollywood and Hugh Jackman ‘Made Sure No One Abused My Hours’ on Set"
+   }
+  ],
+  [
+   1793853114.8109417,
+   4852,
+   "🤘",
+   "Зірка Stranger Things слухав Sleep Token заради ролі у The Lord Of The Rings: The Rings Of Power",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Зірка Stranger Things слухав Sleep Token заради ролі у The Lord Of The Rings: The Rings Of Power</b>\n\nАктор Джеймі Кемпбелл Бауер розповів, що слухав трек Euclid гурту Sleep Token на повторі, готуючись до ролі ельфа Келеборна у третьому сезоні серіалу The Lord Of The Rings: The Rings Of Power. Прем&#x27;єра сезону на сервісі Amazon Prime запланована на 11 листопада.\n\n🔗 <a href=\"https://www.loudersound.com/news/strager-things-jamie-campbell-bower-listened-sleep-token-prep-lord-of-the-rings-rings-of-power-role-2026\">Metal Hammer (Louder)</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/news/strager-things-jamie-campbell-bower-listened-sleep-token-prep-lord-of-the-rings-rings-of-power-role-2026",
+    "orig": "Stranger Things star Jamie Campbell Bower listened to Sleep Token to prep for his new Lord Of The Rings TV role"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23494,7 +23551,8 @@
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
    1793849512.9655669,
-   1793849525.6763258
+   1793849525.6763258,
+   1793853106.215162
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1793851294.3809733,
@@ -23564,11 +23622,10 @@
    1793819027.1448312
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
-   1793728942.8066297,
-   1793761322.2219756,
    1793773880.1196744,
    1793790094.6932118,
-   1793815320.5546734
+   1793815320.5546734,
+   1793853114.8113484
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1793734298.5056555,
@@ -24468,12 +24525,12 @@
   "2bbf00a5ae944e24": 1793608303.005661,
   "2bcc0d9702cf7214": 1793822038.9346817,
   "2bd4df03607da181": 1793651486.8708184,
+  "2be54f12526ae2a5": 1793853106.215113,
   "2be94a4245203851": 1793122405.5746734,
   "2bec071b6c642e87": 1793734294.9914932,
   "2c404600d91faa96": 1793692889.6723294,
   "2c445ccd223caa21": 1793494851.2202039,
   "2c46dd4752d3921d": 1793179876.8601167,
-  "2c4f3f8daf64c83b": 1792643479.7523875,
   "2c6bfad592c322e4": 1793210785.869181,
   "2c71e9984823e245": 1793743304.844976,
   "2c8a80d3b3521880": 1793300562.8807142,
@@ -25158,7 +25215,6 @@
   "53f41d893109d5e7": 1792657879.5864673,
   "540115594c8f4a5f": 1793610232.2864075,
   "540e284f1730e060": 1793387028.7222939,
-  "540eb056f6c1137b": 1792643482.6882346,
   "5428d22ff83b2d97": 1793102556.761718,
   "542ed681e6376703": 1793707289.9544702,
   "544212268959f169": 1793052056.020532,
@@ -25279,7 +25335,6 @@
   "5a9e9d37f5781604": 1793369091.8885028,
   "5aa93fce536baaa0": 1793044934.32435,
   "5ab7e22fb13cfc17": 1793613849.026599,
-  "5adaa90dda59101a": 1792643453.9104059,
   "5adccfbca82b8ac2": 1792780386.8890154,
   "5af21e06c07b383a": 1793010712.7158947,
   "5afc49da7bd40515": 1793815496.1089234,
@@ -25544,7 +25599,6 @@
   "694ff79e8b94a511": 1793642545.237634,
   "695be059eba9624a": 1793426187.683587,
   "696ab3fd2f817d51": 1793390675.9271827,
-  "696bceef45141772": 1792643453.9104059,
   "69709db882584435": 1793639142.6312556,
   "697ca62f507bd254": 1793106079.7611513,
   "6990bc6cb486f8cb": 1793088177.588549,
@@ -25640,6 +25694,7 @@
   "6e2e024d97bfb592": 1793046724.8859768,
   "6e2e4eb07cff136e": 1793235753.2715364,
   "6e353c3e910d0294": 1793621005.078388,
+  "6e4232e626f1f119": 1793853114.811305,
   "6e456e768fc370d8": 1793124128.0668616,
   "6e66ca4ddfa62fb4": 1793089901.000461,
   "6e67e9917b788477": 1793120729.2789328,
@@ -26709,7 +26764,6 @@
   "abb39f58f9120370": 1793367086.157203,
   "abb3c7336d1ec5c4": 1793387024.5695693,
   "abbb20b419ddf734": 1793698311.3162396,
-  "abc319b5c069f374": 1792643480.8236797,
   "abc55f9f24b2652d": 1793019654.9579628,
   "abd29352a1191065": 1793700183.1836717,
   "abdc79a465820e8d": 1793131343.6890454,
@@ -27000,7 +27054,6 @@
   "ba4a0e38eeb1e60a": 1793818854.4176915,
   "ba520f2df6ef2566": 1792756138.3602471,
   "ba54ebae84058093": 1793772085.1299164,
-  "ba8a1e8d32e3d579": 1792643453.9104059,
   "ba991ede2f6b38bc": 1793450043.814905,
   "baabdb6ea97fb1dd": 1793415654.296254,
   "bab361754a47bfc5": 1793302410.0421534,
@@ -28080,7 +28133,6 @@
   "facabea9a9c1097c": 1793025258.401438,
   "facf18e96dd948d9": 1793813501.5484555,
   "fad81aecb94732f1": 1793790094.693166,
-  "fafb7eea87f8c489": 1792643453.9104059,
   "fb0d5518b869e212": 1793474512.7021697,
   "fb18ccad08a6dbad": 1793106089.0668824,
   "fb25838c66a3f8a9": 1792996285.7731857,
@@ -28190,8 +28242,7 @@
   "ffd196e2e58ac222": 1792704716.105818,
   "ffd41cfb623a1a87": 1792677885.9894211,
   "ffdc6181797137d0": 1793062853.5190768,
-  "ffdd75c1d1f0034c": 1793235752.9311948,
-  "ffee56ae91e34187": 1792643479.7530408
+  "ffdd75c1d1f0034c": 1793235752.9311948
  },
  "source_urls": {
   "https://insider-gaming.com/feed/": "https://insider-gaming.com/feed/",
@@ -29428,7 +29479,7 @@
    "Kerrang!": 13,
    "Lambgoat": 32,
    "Loudwire": 18,
-   "Metal Hammer (Louder)": 16,
+   "Metal Hammer (Louder)": 17,
    "Metal Injection": 11,
    "Mezha": 39,
    "PC Gamer": 39,
@@ -29443,12 +29494,12 @@
    "The Decoder": 18,
    "ThePRP": 35,
    "VGC": 28,
-   "Variety": 23
+   "Variety": 24
   },
   "translators": {
    "DeepL": 6,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 784
+   "gemini-flash-lite-latest": 786
   },
   "week": "2026-W45"
  },
@@ -40997,10 +41048,6 @@
  },
  "titles": [
   [
-   1793678569.6315508,
-   "Blackstone, Pimco Chiefs Debate the Perils of AI Boom"
-  ],
-  [
    1793683879.7485278,
    "Scorpions announce mammoth Love, Peace, & Rock'N'Roll European tour"
   ],
@@ -42947,13 +42994,17 @@
   [
    1793851330.399999,
    "Forbidden guitarist Craig Locicero gives video statement following Kontos' abrupt exit"
+  ],
+  [
+   1793853106.2151153,
+   "‘Logan’ Star Dafne Keen Says ‘I Was Offered Cocaine’ as an 11-Year-Old in Hollywood and Hugh Jackman ‘Made Sure No One Abused My Hours’ on Set"
+  ],
+  [
+   1793853114.811307,
+   "Stranger Things star Jamie Campbell Bower listened to Sleep Token to prep for his new Lord Of The Rings TV role"
   ]
  ],
  "titles_uk": [
-  [
-   1793678569.6315515,
-   "Керівники Blackstone та Pimco обговорюють ризики буму ШІ"
-  ],
   [
    1793683879.7485287,
    "Scorpions анонсували масштабний європейський тур Love, Peace, & Rock'N'Roll"
@@ -44901,6 +44952,14 @@
   [
    1793851330.3999999,
    "Гітарист Forbidden Крейг Лочічеро записав відеозвернення після раптового відходу Kontos"
+  ],
+  [
+   1793853106.2151165,
+   "Дафні Кін розповіла про наркотики в Голлівуді та турботу Г'ю Джекмана на зйомках Logan"
+  ],
+  [
+   1793853114.8113084,
+   "Зірка Stranger Things слухав Sleep Token заради ролі у The Lord Of The Rings: The Rings Of Power"
   ]
  ],
  "ukrainian": {
