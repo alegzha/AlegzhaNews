@@ -1,34 +1,28 @@
 {
  "alerts": {
-  "src:ai|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
+  "src:ai|ITC.ua|https://itc.ua/ua/feed/": {
+   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ITC.ua» не працює",
    "sent": 0,
-   "since": 1793853096.429374
+   "since": 1793854964.0860474
   },
-  "src:games|Digital Foundry|https://www.digitalfoundry.net/feed": {
-   "detail": "https://www.digitalfoundry.net/feed → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/feed.xml → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.eurogamer.net/feed/digitalfoundry → 404 Client Error: Not Found for url: https://www.eurogamer.net/feed/digitalfoundry",
-   "label": "Джерело «Digital Foundry» не працює",
+  "src:games|ITC.ua|https://itc.ua/ua/feed/": {
+   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ITC.ua» не працює",
    "sent": 0,
-   "since": 1793853079.1155329
+   "since": 1793854888.1840253
   },
-  "src:games|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
+  "src:movies|ITC.ua|https://itc.ua/ua/feed/": {
+   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ITC.ua» не працює",
    "sent": 0,
-   "since": 1793853063.072185
+   "since": 1793854916.7960453
   },
-  "src:movies|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
+  "src:software|ITC.ua|https://itc.ua/ua/feed/": {
+   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ITC.ua» не працює",
    "sent": 0,
-   "since": 1793853093.7194965
-  },
-  "src:software|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1793853093.7417994
+   "since": 1793854938.8922367
   }
  },
  "daily_digest_date": "2026-11-04",
@@ -57,43 +51,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-05 04:31 UTC",
+  "at": "2026-11-05 05:02 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793163693.2986135,
-   3103,
-   "🎬",
-   "Джеймі Дорнан прокоментував роль Aragorn у The Lord of the Rings: The Hunt for Gollum",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2299067/the-lord-of-the-rings-the-hunt-for-gollam-jamie-dornan-aragorn-recasting-comments/",
-    "orig": "The Lord Of The Rings: The Hunt For Gollum Star Jamie Dornan Breaks Silence On Aragorn Recasting"
-   }
-  ],
-  [
-   1793163696.444205,
-   3104,
-   "🎬",
-   "Керрі Енн Інаба й Вал Чмерковський помирилися на зйомках Dancing with the Stars",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/carrie-ann-inaba-val-chmerkovskiy-hug-dancing-with-the-stars-suspension-drama-1237206864/",
-    "orig": "Carrie Ann Inaba & Val Chmerkovskiy Hug It Out After ‘Dancing With The Stars’ Suspension Drama"
-   }
-  ],
   [
    1793165505.7534118,
    3105,
@@ -22448,7 +22416,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Хронометраж Dune: Part Three зробить стрічку найкоротшою у трилогії</b>\n\nЗгідно з даними Ірландського офісу класифікації фільмів, хронометраж стрічки Dune: Part Three складе 151 хвилину. Це робить фільм найкоротшою частиною трилогії Дені Вільнева порівняно зі 155 хвилинами першої частини та 166 хвилинами сиквела.\n\n🔗 <a href=\"https://www.slashfilm.com/2306919/dune-part-three-runtime/\">/Film</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2306919/dune-part-three-runtime/",
     "orig": "Dune: Part Three's Official Runtime Confirms It's The Shortest Movie In The Series"
@@ -23318,6 +23285,20 @@
     "link": "https://www.loudersound.com/news/strager-things-jamie-campbell-bower-listened-sleep-token-prep-lord-of-the-rings-rings-of-power-role-2026",
     "orig": "Stranger Things star Jamie Campbell Bower listened to Sleep Token to prep for his new Lord Of The Rings TV role"
    }
+  ],
+  [
+   1793854967.5571783,
+   4853,
+   "🤖",
+   "Goldman Sachs та Apollo планують продати частину AI-угоди SpaceX на $40 мільярдів",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Goldman Sachs та Apollo планують продати частину AI-угоди SpaceX на $40 мільярдів</b>\n\nGoldman Sachs Group Inc. та Apollo Global Management Inc. ведуть переговори з Волл-стріт про продаж часток у фінансовій угоді на $40 мільярдів для придбання чипів SpaceX. Це відбувається на тлі можливих змін на ринку штучного інтелекту після перемоги Демократичної партії.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-04/goldman-apollo-in-talks-to-sell-spacex-s-40-billion-ai-deal\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-04/goldman-apollo-in-talks-to-sell-spacex-s-40-billion-ai-deal",
+    "orig": "Goldman, Apollo in Talks to Sell SpaceX’s $40 Billion AI Deal"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23326,12 +23307,12 @@
    1793793717.2525244
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1793766703.671743,
    1793775684.1446216,
    1793786478.9352891,
    1793790457.3856094,
    1793849483.4138803,
-   1793849495.7375872
+   1793849495.7375872,
+   1793854967.5576444
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1793694786.2211568,
@@ -24022,7 +24003,6 @@
   "0ff77e43a7190299": 1793207162.8471122,
   "0ffca5433adec72e": 1793205218.0193624,
   "1001a91e293eb834": 1793315026.6644495,
-  "101074601545d4d0": 1792645250.8354855,
   "101914a6c70cb718": 1792987370.1623871,
   "1031ce5f7747ed8f": 1793230278.015421,
   "10439e81d0b3763b": 1793171244.0877953,
@@ -24571,7 +24551,6 @@
   "2eec0d8a3497fe76": 1793052082.392098,
   "2eef31ae36a97ce0": 1793718081.3705566,
   "2f052fd6fb628b08": 1793827913.3597782,
-  "2f0fb1ccc7b0f4c3": 1792645241.7439597,
   "2f1270bcc9a6c870": 1793835103.2061846,
   "2f2c8cfa917e4be7": 1793520052.6677861,
   "2f3116ab9c32dd8d": 1792666895.814405,
@@ -25155,7 +25134,6 @@
   "50afcd0f665c24c4": 1793145738.4674857,
   "50bcb3278039c302": 1792710077.6091142,
   "50c7e9dfcc607ffe": 1793208707.7675128,
-  "50cf7323fb03ae1a": 1792645254.1242821,
   "50d24c7f8b39af9d": 1793107912.729106,
   "50d26b78ca51375f": 1792953084.3821683,
   "50e4a04dc2f56103": 1793261291.4766266,
@@ -25579,7 +25557,6 @@
   "689faf33809b2ba5": 1793030481.3066814,
   "68a70ae749d1b601": 1793403051.901825,
   "68b4f33ea46c92f5": 1793395880.3570914,
-  "68c4beb77aeef5de": 1792645260.9671817,
   "68cc7e0c515d129f": 1793298731.655323,
   "68dcd9f041afb37f": 1792958503.460119,
   "68de18dd3b395750": 1793379759.1371446,
@@ -27159,6 +27136,7 @@
   "c09b59fb539cfb47": 1793550652.2649205,
   "c0cb0f429a20d8d3": 1793127716.272179,
   "c0fb60c327e3d7ce": 1793656888.6909146,
+  "c13d15d55ac0e59c": 1793854967.5575988,
   "c151cd7aa456356c": 1793289682.1766922,
   "c169e092ccd08a78": 1792690311.8176615,
   "c16a70800d95a41d": 1793140284.1437523,
@@ -27534,7 +27512,6 @@
   "d810c72df5128038": 1793032520.3992875,
   "d82515c20d8a555e": 1793722025.7744446,
   "d829b3b15187b808": 1793467851.5924788,
-  "d860d5e608a36543": 1792645231.5445533,
   "d86ca31ae63c5420": 1793664113.1293368,
   "d8772632ebabeb12": 1792665195.3582604,
   "d878298a40e200f6": 1793044908.4506693,
@@ -27880,7 +27857,6 @@
   "ec364b9dab187526": 1792836054.9993808,
   "ec3676d79d1dcbe8": 1792888254.8279274,
   "ec38e52fbfcc529e": 1793302381.586197,
-  "ec4158768b9b61d4": 1792645257.3871634,
   "ec576641e0d89296": 1792690455.4997454,
   "ec5b376ef1cc4164": 1792852256.7497966,
   "ec657f5b0e576fb0": 1793124117.9023347,
@@ -29460,7 +29436,7 @@
    "/Film": 18,
    "AIN.ua": 4,
    "Blabbermouth": 37,
-   "Bloomberg": 34,
+   "Bloomberg": 35,
    "DOU": 4,
    "DOU Gamedev": 3,
    "Deadline": 49,
@@ -29499,7 +29475,7 @@
   "translators": {
    "DeepL": 6,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 786
+   "gemini-flash-lite-latest": 787
   },
   "week": "2026-W45"
  },
@@ -43002,6 +42978,10 @@
   [
    1793853114.811307,
    "Stranger Things star Jamie Campbell Bower listened to Sleep Token to prep for his new Lord Of The Rings TV role"
+  ],
+  [
+   1793854967.5576003,
+   "Goldman, Apollo in Talks to Sell SpaceX’s $40 Billion AI Deal"
   ]
  ],
  "titles_uk": [
@@ -44960,6 +44940,10 @@
   [
    1793853114.8113084,
    "Зірка Stranger Things слухав Sleep Token заради ролі у The Lord Of The Rings: The Rings Of Power"
+  ],
+  [
+   1793854967.5576012,
+   "Goldman Sachs та Apollo планують продати частину AI-угоди SpaceX на $40 мільярдів"
   ]
  ],
  "ukrainian": {
@@ -47292,7 +47276,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793851339.2166698,
+  "last_check": 1793854976.468207,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
