@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1793847676.8324587
+  }
+ },
  "daily_digest_date": "2026-11-04",
  "freebies": {
   "last_check": 1793844106.993796,
@@ -26,43 +33,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-05 02:01 UTC",
-  "gemini_error": "",
+  "at": "2026-11-05 03:01 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 4
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793154690.635953,
-   3097,
-   "🎬",
-   "Дع пари залишили шоу Dancing With The Stars у випуску на тему хорор-фільмів",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/dancing-with-the-stars-recap-season-35-horror-halloween-1237206671/",
-    "orig": "‘Dancing With The Stars’ Recap: 2 Couples Are Sent Packing On Horror Movie Night After Routines Inspired By ‘Sinners,’ ‘The Omen’ & More"
-   }
-  ],
-  [
-   1793154696.4838889,
-   3098,
-   "🤘",
-   "My Chemical Romance врегулювали суперечку з власниками Dallas Cowboys Cheerleaders",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55567/my-chemical-romance-drop-dallas-cowboys-cheerleaders-lookalikes-as-part-of-new-settlement/",
-    "orig": "My Chemical Romance drop Dallas Cowboys Cheerleaders lookalikes as part of new settlement"
-   }
-  ],
   [
    1793158328.8605213,
    3099,
@@ -22321,7 +22302,6 @@
    "Loudwire",
    {
     "also": [],
-    "caption": "🤘 <b>Чак Біллі з Testament кардинально змінив зачіску під впливом Джеррі Кантрелла</b>\n\nВокаліст Testament Чак Біллі вперше за десятиліття підстригся коротко, надихнувшись новим іміджем Джері Кантрелла з Alice in Chains. Музикант запевнив, що зміни не пов&#x27;язані з проблемами зі здоров&#x27;ям, а просто знаменують початок нового етапу.\n\n🔗 <a href=\"https://loudwire.com/testament-chuck-billy-haircut-jerry-cantrell/\">Loudwire</a>\n\n#музика",
     "kind": "photo",
     "link": "https://loudwire.com/testament-chuck-billy-haircut-jerry-cantrell/",
     "orig": "Jerry Cantrell Inspired Testament's Chuck Billy to Cut His Hair"
@@ -23199,6 +23179,20 @@
     "link": "https://lambgoat.com/news/55716/the-useds-a-mid-summer-nights-symphony-film-to-stream-on-veeps/",
     "orig": "The Used’s “A Mid Summer Night’s Symphony” film to stream on Veeps"
    }
+  ],
+  [
+   1793847694.0913432,
+   4841,
+   "🤘",
+   "This Is Lorelei зіграли треки з альбому The Singer in My Band на радіо KCRW",
+   "Pitchfork",
+   {
+    "also": [],
+    "caption": "🤘 <b>This Is Lorelei зіграли треки з альбому The Singer in My Band на радіо KCRW</b>\n\nNate Amos виконав п&#x27;ять пісень зі своєї нової платівки в ефірі громадської радіостанції\n\n🔗 <a href=\"https://pitchfork.com/story/watch-this-is-lorelei-play-the-singer-in-my-band-songs-on-kcrw/\">Pitchfork</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://pitchfork.com/story/watch-this-is-lorelei-play-the-singer-in-my-band-songs-on-kcrw/",
+    "orig": "Watch This Is Lorelei Play The Singer in My Band Songs on KCRW"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23525,8 +23519,8 @@
    1793376222.9165611
   ],
   "music|Pitchfork|https://pitchfork.com/feed/feed-news/rss": [
-   1793759588.7841785,
-   1793819009.7965548
+   1793819009.7965548,
+   1793847694.0917146
   ],
   "music|Revolver|https://www.revolvermag.com/rss.xml": [
    1793727400.8965406,
@@ -23857,7 +23851,6 @@
   "0dc5c4e09a0736c8": 1792859455.3426251,
   "0dc8302057de6eef": 1793692882.4021676,
   "0dd65bf90d66b9a6": 1793027102.738727,
-  "0de01c1b36e93c52": 1792638083.6535778,
   "0dede64c07d1765c": 1792954854.168891,
   "0deee00246b2c5d1": 1793817138.4981608,
   "0dfea7360abc28fc": 1793802679.825789,
@@ -24554,6 +24547,7 @@
   "34939b6c2163ad77": 1792762347.9021494,
   "3493f501c2461e6e": 1793639170.6767592,
   "34995eb440d2c358": 1792891853.972916,
+  "349a52a89dda4be4": 1793847694.0916648,
   "34a3662ad247d9a3": 1792675935.3347828,
   "34a3feb57c841355": 1793122340.9541366,
   "34c1af0295a3aad9": 1792689495.1172206,
@@ -25867,7 +25861,6 @@
   "7ecd1ec68836a9a5": 1793737919.8575509,
   "7edf3e47f505d55d": 1793730687.6987667,
   "7f0956f030c21670": 1793107899.671712,
-  "7f20b7759cc7dda3": 1792638080.0395277,
   "7f2407e045f4d7bb": 1793727331.2636409,
   "7f2b9a40ca2e8528": 1793831457.5401118,
   "7f2f1e9fe3a0f958": 1793114811.0027254,
@@ -26739,7 +26732,6 @@
   "b074434452f1d91d": 1793815285.4268231,
   "b085d441153a7073": 1793077280.7328568,
   "b093c025952d00c1": 1793293282.1478913,
-  "b0953378c53d9598": 1792636362.4359775,
   "b09bbc111ff3809e": 1793822055.7728088,
   "b09be82318e98a87": 1793018069.2093632,
   "b0a37134ad6000ae": 1793284580.762127,
@@ -27148,7 +27140,6 @@
   "c7558dd3ccbfa85d": 1793775688.2714465,
   "c75e1c627726edb0": 1793174570.0184221,
   "c760063489d733ed": 1793638887.5627484,
-  "c762fec47d138699": 1792638085.0296996,
   "c769fd27612a254b": 1793826101.9858046,
   "c76b3c53b983342d": 1793093480.42714,
   "c783c4e1c069886c": 1793007193.310346,
@@ -27387,7 +27378,6 @@
   "d621b1e60697e4da": 1792704725.794215,
   "d6265d70e991f16b": 1793660607.1294117,
   "d642d7f5c0d33e9d": 1792677655.9307318,
-  "d6471000c5ad10d0": 1792638081.240419,
   "d64729b214317c8a": 1793277113.2345135,
   "d6517cafbebf0e03": 1793124148.8766906,
   "d663d2cea3ecdfc1": 1793790139.9715297,
@@ -29366,7 +29356,7 @@
    "Metal Injection": 11,
    "Mezha": 39,
    "PC Gamer": 39,
-   "Pitchfork": 6,
+   "Pitchfork": 7,
    "PlayUA": 6,
    "Polygon": 18,
    "Product Hunt": 12,
@@ -29382,7 +29372,7 @@
   "translators": {
    "DeepL": 6,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 771
+   "gemini-flash-lite-latest": 772
   },
   "week": "2026-W45"
  },
@@ -40931,38 +40921,6 @@
  },
  "titles": [
   [
-   1793674831.3738153,
-   "OpenAI Says Former Army Secretary Dan Driscoll to Join Company"
-  ],
-  [
-   1793674834.638741,
-   "Veteran Publicist Bill Harrison and Creative Director Johnny Wujek Join Nonprofit Art of Elysium (EXCLUSIVE)"
-  ],
-  [
-   1793674837.6776958,
-   "New Japanese Animation Prize Named Nippon Anime Awards, Sets First Ceremony for November 2027"
-  ],
-  [
-   1793674841.111915,
-   "Cynthia Nixon Says She ‘Loved’ Miranda’s Attempts to Become ‘Woke’ on ‘And Just Like That’ Despite Fans Being ‘Horrified’"
-  ],
-  [
-   1793674844.1386683,
-   "DBS CEO on How Southeast Asia's Biggest Bank Deploys AI"
-  ],
-  [
-   1793674848.5968168,
-   "‘Tetsuo’ Director Tsukamoto Shinya on Staying Independent and Why He Can’t Pull Away From War Films"
-  ],
-  [
-   1793674855.3216145,
-   "Combust, Step 2 This and Lose Sight announce early January East Coast tour"
-  ],
-  [
-   1793674858.2136369,
-   "Walls Of Jericho announce Detroit album release show for first new LP in a decade"
-  ],
-  [
    1793678569.6315508,
    "Blackstone, Pimco Chiefs Debate the Perils of AI Boom"
   ],
@@ -42873,41 +42831,13 @@
   [
    1793844097.2602918,
    "The Used’s “A Mid Summer Night’s Symphony” film to stream on Veeps"
+  ],
+  [
+   1793847694.0916667,
+   "Watch This Is Lorelei Play The Singer in My Band Songs on KCRW"
   ]
  ],
  "titles_uk": [
-  [
-   1793674831.3738163,
-   "До OpenAI приєднається колишній міністр армії США Ден Гаузер"
-  ],
-  [
-   1793674834.6387417,
-   "Біл Гаррісон і Джонні Вуджек приєдналися до організації The Art of Elysium"
-  ],
-  [
-   1793674837.6776965,
-   "Анонсовано нову премію Nippon Anime Awards із першою церемонією у 2027 році"
-  ],
-  [
-   1793674841.1119165,
-   "Синтія Ніксон захистила арку Міранди в серіалі And Just Like That"
-  ],
-  [
-   1793674844.138669,
-   "Голова DBS Tan Su Shan розповіла про впровадження ШІ в банку"
-  ],
-  [
-   1793674848.5968182,
-   "Режисер Сінья Цукамото про незалежне кіно та фільми про війну"
-  ],
-  [
-   1793674855.3216155,
-   "Combust вирушають у тур Східним узбережжям разом із Step 2 This і Lose Sight"
-  ],
-  [
-   1793674858.2136376,
-   "Walls Of Jericho анонсували перший за десять років альбом"
-  ],
   [
    1793678569.6315515,
    "Керівники Blackstone та Pimco обговорюють ризики буму ШІ"
@@ -44819,6 +44749,10 @@
   [
    1793844097.2602928,
    "Фільм A Mid Summer Night’s Symphony від The Used вийде на стрімінгу"
+  ],
+  [
+   1793847694.0916674,
+   "This Is Lorelei зіграли треки з альбому The Singer in My Band на радіо KCRW"
   ]
  ],
  "ukrainian": {
@@ -47148,7 +47082,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793844106.8343477,
+  "last_check": 1793847703.135558,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
