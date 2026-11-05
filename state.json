@@ -1,8 +1,21 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1793858472.4546494
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1793858470.2529333
+  }
+ },
  "daily_digest_date": "2026-11-04",
  "freebies": {
-  "last_check": 1793851339.69205,
+  "last_check": 1793858485.971675,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -26921,6 +26934,7 @@
   "b431c363b607466b": 1793446276.7630446,
   "b43203abcc2477b7": 1793226793.3337662,
   "b43207e3b59e92e4": 1792873900.7841825,
+  "b4339a2de81dbed3": 1793858453.7471614,
   "b43a708b12ef412b": 1793210802.8136814,
   "b43bbbb49fe32110": 1792656080.2098348,
   "b45282603f85d674": 1792953081.2484014,
@@ -29430,7 +29444,7 @@
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 2,
-   "Polygon": 26,
+   "Polygon": 27,
    "The Decoder": 1,
    "VGC": 1,
    "Variety": 3
@@ -47415,7 +47429,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793854976.468207,
+  "last_check": 1793858485.5859756,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
