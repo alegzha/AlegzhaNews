@@ -1,30 +1,5 @@
 {
- "alerts": {
-  "src:ai|ITC.ua|https://itc.ua/ua/feed/": {
-   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ITC.ua» не працює",
-   "sent": 0,
-   "since": 1793854964.0860474
-  },
-  "src:games|ITC.ua|https://itc.ua/ua/feed/": {
-   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ITC.ua» не працює",
-   "sent": 0,
-   "since": 1793854888.1840253
-  },
-  "src:movies|ITC.ua|https://itc.ua/ua/feed/": {
-   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ITC.ua» не працює",
-   "sent": 0,
-   "since": 1793854916.7960453
-  },
-  "src:software|ITC.ua|https://itc.ua/ua/feed/": {
-   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ITC.ua» не працює",
-   "sent": 0,
-   "since": 1793854938.8922367
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-04",
  "freebies": {
   "last_check": 1793851339.69205,
@@ -51,43 +26,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-05 05:02 UTC",
-  "gemini_error": "",
+  "at": "2026-11-05 05:33 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793165505.7534118,
-   3105,
-   "🎬",
-   "Сектор розваг обійшов автомобільну галузь і став другим за вартістю у світі",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/entertainment-second-most-valuable-interbrand-global-report-1237206126/",
-    "orig": "Entertainment Hits $332.B To Become World’s Second Most Valuable Sector As Netflix, YouTube & Spotify Fly – Interbrand Report"
-   }
-  ],
-  [
-   1793165508.427865,
-   3106,
-   "💾",
-   "Gen Z скептично ставиться до додатків для знайомств із ШІ",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-10-28/gen-z-is-still-skeptical-of-ai-infused-dating-apps-new-survey-finds",
-    "orig": "Gen Z Is Still Skeptical of AI-Infused Dating Apps, New Survey Finds"
-   }
-  ],
   [
    1793166798.3539927,
    3107,
@@ -22429,7 +22378,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Mistborn TTRPG від Brotherwise Games готує ґрунт для нової трилогії Брендона Сандерсона</b>\n\nКомпанія Brotherwise Games розробляє настільну рольову гру за всесвітом Mistborn Брендона Сандерсона, яка охоплює дві епохи планети Scadrial. Проєкт створено у тісній співпраці з автором та Dragonsteel Books, щоб уникнути конфліктів із майбутньою трилогією та екранізацією.\n\n🔗 <a href=\"https://www.polygon.com/brandon-sanderson-mistborn-ttrpg-interview/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/brandon-sanderson-mistborn-ttrpg-interview/",
     "orig": "Brandon Sanderson’s Mistborn TTRPG Lays the Groundwork for His Next Series"
@@ -22448,7 +22396,6 @@
       "https://blabbermouth.net/news/scorpions-biopic-wind-of-change-to-receive-north-american-theatrical-release-in-march-2027"
      ]
     ],
-    "caption": "🎬 <b>Біографічний фільм Wind of Change про Scorpions вийде навесні 2027 року</b>\n\nБіографічна стрічка Wind of Change про рок-гурт Scorpions отримала дату кінотеатрального релізу в Північній Америці на березень 2027 року. Фільм розповідає про шлях музикантів із 1965 року до світової слави та створення культового гіта 1991 року. Режисером картини виступив Алекс Ранарівело, а головні ролі виконали Александер Дреймон, Людвіг Трепте, Ед Спілерс та інші актори.\n\n🔗 <a href=\"https://deadline.com/2026/11/scorpions-movie-release-date-wind-of-change-1237213375/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://deadline.com/2026/11/scorpions-movie-release-date-wind-of-change-1237213375/",
     "orig": "Scorpions Biopic ‘Wind Of Change’ From Fox Entertainment Global Lands Spring 2027 Theatrical Release With Roadside Attractions"
@@ -22462,7 +22409,6 @@
    "Distorted Sound",
    {
     "also": [],
-    "caption": "🤘 <b>ArcTanGent оголосив нові гурти для фестивалю у 2027 році</b>\n\nФестиваль ArcTanGent оголосив нову хвилю учасників на 2027 рік, серед яких ELDER, а також RUSSIAN CIRCLES і BRUTUS, які стануть співхедлайнерами середи. Подія пройде з 19 по 21 серпня 2027 року на новій локації у Глостерширі.\n\n🔗 <a href=\"https://distortedsoundmag.com/arctangent-announce-more-bands-for-2027/\">Distorted Sound</a>\n\n#музика",
     "kind": "photo",
     "link": "https://distortedsoundmag.com/arctangent-announce-more-bands-for-2027/",
     "orig": "ArcTanGent announce more bands for 2027"
@@ -23299,6 +23245,48 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-04/goldman-apollo-in-talks-to-sell-spacex-s-40-billion-ai-deal",
     "orig": "Goldman, Apollo in Talks to Sell SpaceX’s $40 Billion AI Deal"
    }
+  ],
+  [
+   1793856771.640437,
+   4854,
+   "🎮",
+   "Nintendo хотіла зробити ремейк Ocarina Of Time кращим, а не просто іншим",
+   "GameSpot",
+   {
+    "also": [],
+    "caption": "🎮 <b>Nintendo хотіла зробити ремейк Ocarina Of Time кращим, а не просто іншим</b>\n\nСтворення ремейку The Legend of Zelda: The Ocarina of Time вимагало від Nintendo балансу між вірністю оригіналу та актуальними покращеннями. Гра зберігає основу оригінального проєкту, але пропонує окрему кнопку стрибка та оновлене керування.\n\n🔗 <a href=\"https://www.gamespot.com/articles/nintendo-wanted-ocarina-of-time-to-feel-better-in-the-remake-not-just-different/\">GameSpot</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamespot.com/articles/nintendo-wanted-ocarina-of-time-to-feel-better-in-the-remake-not-just-different/",
+    "orig": "Nintendo Wanted Ocarina Of Time To Feel Better In The Remake, Not Just Different"
+   }
+  ],
+  [
+   1793856780.6801445,
+   4855,
+   "🎮",
+   "Успіх The Legend of Zelda пов'язаний зі збереженням кадрів Nintendo",
+   "GameSpot",
+   {
+    "also": [],
+    "caption": "🎮 <b>Успіх The Legend of Zelda пов&#x27;язаний зі збереженням кадрів Nintendo</b>\n\nThe Legend of Zelda: Ocarina of Time та її ремейк для Switch 2 отримують високе визнання критиків упродовж майже 30 років. Головною причиною такого успіху є те, що Nintendo вдалося зберегти штат працівників протягом багатьох років, чого не змогли досягти інші компанії.\n\n🔗 <a href=\"https://www.gamespot.com/articles/how-zelda-ocarina-of-time-benefits-from-a-glaringly-obvious-tactic-that-few-game-devs-follow/\">GameSpot</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamespot.com/articles/how-zelda-ocarina-of-time-benefits-from-a-glaringly-obvious-tactic-that-few-game-devs-follow/",
+    "orig": "How Zelda: Ocarina Of Time Benefits From A Glaringly Obvious Tactic That Few Game Devs Follow"
+   }
+  ],
+  [
+   1793856784.2229898,
+   4856,
+   "🤘",
+   "Джої Темпест розповів про свій шлях до успіху та новий альбом Europe",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Джої Темпест розповів про свій шлях до успіху та новий альбом Europe</b>\n\nФронтмен гурту Europe Джої Темпест розповів про своє становлення у Швеції, музичні витоки та роботу над новим альбомом Come This Madness. До запису пластинки долучилися Тобіас Форге з Ghost та Мікаель Окерфельдт з Opeth, які виконали бек-вокал.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/interviews/joey-tempest-come-this-madness-interview\">Metal Hammer (Louder)</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/interviews/joey-tempest-come-this-madness-interview",
+    "orig": "How Joey Tempest survived the wild whirlwind of fame, fortune and global success entirely unscathed"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23374,7 +23362,9 @@
    1793808118.5774708,
    1793827913.359826,
    1793829698.362185,
-   1793840511.3968835
+   1793840511.3968835,
+   1793856771.6410267,
+   1793856780.6807415
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
    1793790150.730591,
@@ -23606,7 +23596,8 @@
    1793773880.1196744,
    1793790094.6932118,
    1793815320.5546734,
-   1793853114.8113484
+   1793853114.8113484,
+   1793856784.223496
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1793734298.5056555,
@@ -23943,6 +23934,7 @@
   "0cab694563740193": 1793133097.8716917,
   "0cab6f949a16f5e4": 1793138582.7405922,
   "0cc5631c74abeac1": 1793376192.1795187,
+  "0cce55285c5b39f0": 1793856655.0170114,
   "0cd9d1743ddd938f": 1793129509.0168862,
   "0cdb4d64574b03d7": 1793284493.94886,
   "0cf07954997104bf": 1792775115.2405145,
@@ -24432,6 +24424,7 @@
   "2734cff6c3bce4b4": 1793820695.0175738,
   "276e574a7a301885": 1793291485.7346532,
   "277b5bc6edf21f2f": 1793385087.0976193,
+  "2790a8134a03852f": 1793856655.0170114,
   "279c876cf999a9b8": 1793028728.934268,
   "27a51d1c0a0dd536": 1793019999.247821,
   "27ae8e6da700dbdb": 1793701856.4633598,
@@ -24926,6 +24919,7 @@
   "44767ce95e8f4f1c": 1793284348.1944165,
   "44b0db65eb76f947": 1792773128.7644677,
   "44b26d846fea533e": 1793133088.4146247,
+  "44c1a0ca3d3a2020": 1793856771.64098,
   "44c57de0d665c91a": 1793474720.4552457,
   "44cdf2003210c1d6": 1793289740.9815109,
   "44d3244a3af04be0": 1792787519.4164832,
@@ -25384,6 +25378,7 @@
   "5e73d983ae1cf80d": 1793241054.3613508,
   "5e923b7138425ae2": 1793196128.9305916,
   "5e94741403c928fa": 1792688490.1740713,
+  "5ecc9ac404af1978": 1793856655.0170114,
   "5ed417750a204108": 1793050287.4081442,
   "5ed7d79a85d74fc0": 1793808331.1583874,
   "5ed897bf2a24fcae": 1793242874.785887,
@@ -25460,7 +25455,6 @@
   "625e9f78cd3272d4": 1793385311.2481368,
   "62769e58d07d19d8": 1793707280.1615667,
   "6284bd7ae594dfcf": 1792677705.8410535,
-  "628dd4086ffb75ba": 1792647079.7771232,
   "629b51758e20fc9f": 1792785684.020013,
   "62afae08291a012a": 1793642514.1154943,
   "62b75735b1ff02aa": 1793460682.7796006,
@@ -25527,6 +25521,7 @@
   "66d5d7ddf655484c": 1792969276.7891538,
   "66d7591ffd2a8ede": 1793723591.1174884,
   "66ee3f95357d2941": 1793750491.6366787,
+  "67044e34ea1a0b6c": 1793856655.0170114,
   "6705536db75f799a": 1793709084.0839562,
   "670eda9de256d3ab": 1793298744.09575,
   "67175da0320024db": 1792695701.2489493,
@@ -25537,6 +25532,7 @@
   "6744bfc95f7fc1c5": 1793656934.4880238,
   "6753efab78a345ac": 1793664121.1692266,
   "67611eb4cd73f28a": 1793701894.322488,
+  "676bc1f9bfb102bf": 1793856784.223447,
   "676cec2606af3350": 1793037835.5168483,
   "677eae266e0e28e0": 1792942280.741516,
   "6790a6c53c6649e4": 1793521881.124335,
@@ -25712,6 +25708,7 @@
   "70471321e554ec93": 1792733502.5179763,
   "707d3701e78d1b46": 1793019986.932121,
   "7088251ef81a48da": 1793268076.668993,
+  "7090d84dd8c03fe7": 1793856780.6806948,
   "709b0d0641ae179b": 1793363593.9601083,
   "70a5bbed888935d0": 1793377954.897732,
   "70a79f4eb8e9bcb6": 1793694786.2211125,
@@ -25932,6 +25929,7 @@
   "7c6002b2d2ce45e9": 1793349380.5888422,
   "7c76a041c668bfdf": 1793811659.333505,
   "7c8a49a437a9a896": 1793374289.570269,
+  "7c99df89882f57c8": 1793856655.0170114,
   "7caea78b540f7cdb": 1793300546.9340997,
   "7cbb02306931a28e": 1793548978.0345774,
   "7cd14f2d0bd89c25": 1793635327.079541,
@@ -26060,6 +26058,7 @@
   "850a3e56d7ff1957": 1793066491.7253084,
   "855fc00ea47196b5": 1793283014.015196,
   "8561a47981cb19ea": 1792746086.991791,
+  "857add9d4780ad41": 1793856655.0170114,
   "857e72e7289d1344": 1793028776.806581,
   "85a551fa5bfbaf4d": 1792755084.554609,
   "85c0f6582f1f3662": 1792769484.6438107,
@@ -26212,6 +26211,7 @@
   "8eb47fdbfd90c31a": 1793269928.1989863,
   "8ed8bc880c6579ae": 1792947682.7759533,
   "8ee5d6fb69f6e34e": 1793088167.4534411,
+  "8eee178e53fb2b8b": 1793856655.0170114,
   "8ef9572f875dcea1": 1793212254.4699214,
   "8f03b34a92d7cb4d": 1793820686.935686,
   "8f1e7485cbcf8a27": 1793790150.7305477,
@@ -27159,6 +27159,7 @@
   "c21acd2a9c84f481": 1793027186.151077,
   "c22168660463d2b7": 1793561489.2513406,
   "c23ff2db42051387": 1793280786.0825374,
+  "c240c7f32290a2cc": 1793856655.0170114,
   "c255843ca6628dad": 1792683185.1236722,
   "c25f101c800f036c": 1793145719.7966433,
   "c2637a6c0c5095ad": 1793453485.0403361,
@@ -27436,6 +27437,7 @@
   "d265e6fefd1f16ed": 1793385307.9820569,
   "d2777304f0c5f4e2": 1792990742.539259,
   "d2bc9a7e81902402": 1793343849.7364519,
+  "d2d855a1430fffd8": 1793856655.0170114,
   "d2f32ac8b3494bd1": 1793644397.9505122,
   "d3196d8707184e92": 1792803763.628644,
   "d32869d513e95c73": 1793790130.341379,
@@ -27451,7 +27453,6 @@
   "d3fe551a03df4eb4": 1793134878.8529685,
   "d40261b44f1b6c31": 1793370758.3075724,
   "d416ceb6cf42eff2": 1793055693.7168052,
-  "d42c5d5cbf0ce4a1": 1792647162.9772477,
   "d442392587b4f0ea": 1793600511.1316695,
   "d447813bb1cbaa25": 1792677855.0629535,
   "d44c1871502e8c2a": 1793464276.1634023,
@@ -27611,6 +27612,7 @@
   "dd964df1a73fdff2": 1793102539.0933423,
   "ddc003649d172d65": 1793203315.7151132,
   "ddc00f1f29b65ec8": 1792679784.2760673,
+  "ddcedef3e111cbb8": 1793856655.0170114,
   "ddd034250614c916": 1792873899.7499433,
   "ddd4a4800e9ec00c": 1792940532.833447,
   "dde467b4f0632c96": 1793106080.1887832,
@@ -27781,6 +27783,7 @@
   "e727dd7925358971": 1793201649.1391542,
   "e737a8339efe80c1": 1793417474.2716668,
   "e738f4b01f3bf8d3": 1792886542.1816316,
+  "e741d4e1bec9d49f": 1793856655.0170114,
   "e745730939c9355b": 1793300482.7237089,
   "e745e906a007bb5d": 1793122368.6768425,
   "e74f245499d98550": 1792767655.7489853,
@@ -29415,7 +29418,7 @@
   },
   "filtered": {
    "/Film": 11,
-   "Bloomberg": 4,
+   "Bloomberg": 5,
    "Deadline": 3,
    "Digital Foundry": 1,
    "Eurogamer": 1,
@@ -29427,7 +29430,7 @@
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 2,
-   "Polygon": 16,
+   "Polygon": 26,
    "The Decoder": 1,
    "VGC": 1,
    "Variety": 3
@@ -29444,7 +29447,7 @@
    "Digital Foundry": 7,
    "Distorted Sound": 13,
    "Eurogamer": 17,
-   "GameSpot": 19,
+   "GameSpot": 21,
    "GamesIndustry.biz": 12,
    "GitHub Trending": 18,
    "Hugging Face": 3,
@@ -29455,7 +29458,7 @@
    "Kerrang!": 13,
    "Lambgoat": 32,
    "Loudwire": 18,
-   "Metal Hammer (Louder)": 17,
+   "Metal Hammer (Louder)": 18,
    "Metal Injection": 11,
    "Mezha": 39,
    "PC Gamer": 39,
@@ -29475,7 +29478,7 @@
   "translators": {
    "DeepL": 6,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 787
+   "gemini-flash-lite-latest": 790
   },
   "week": "2026-W45"
  },
@@ -31399,6 +31402,16 @@
    0,
    "",
    1793799121.304676
+  ],
+  "q:benefits from a glaringly obvious": [
+   0,
+   "",
+   1793856779.2436702
+  ],
+  "q:benefits from a glaringly obvious tactic": [
+   0,
+   "",
+   1793856778.7452826
   ],
   "q:best": [
    0,
@@ -33520,6 +33533,11 @@
    "February",
    1793458903.2734616
   ],
+  "q:feel better in the remake": [
+   0,
+   "",
+   1793856679.9829836
+  ],
   "q:final fantasy": [
    1173770,
    "FINAL FANTASY",
@@ -35169,6 +35187,21 @@
    0,
    "",
    1793701901.3677795
+  ],
+  "q:how zelda": [
+   0,
+   "",
+   1793856774.6647222
+  ],
+  "q:how zelda ocarina": [
+   0,
+   "",
+   1793856774.1549182
+  ],
+  "q:how zelda ocarina of time": [
+   0,
+   "",
+   1793856773.657882
   ],
   "q:hs80 v2 max wireless": [
    0,
@@ -36980,6 +37013,21 @@
    "",
    1793818997.615153
   ],
+  "q:nintendo wanted": [
+   0,
+   "",
+   1793856675.38421
+  ],
+  "q:nintendo wanted ocarina": [
+   0,
+   "",
+   1793856674.8852797
+  ],
+  "q:nintendo wanted ocarina of time": [
+   0,
+   "",
+   1793856674.3655128
+  ],
   "q:nintendo's switch": [
    0,
    "",
@@ -37155,6 +37203,16 @@
    "",
    1793791894.789866
   ],
+  "q:ocarina of time benefits": [
+   0,
+   "",
+   1793856776.1648753
+  ],
+  "q:ocarina of time benefits from": [
+   0,
+   "",
+   1793856775.6594355
+  ],
   "q:ocarina of time full": [
    0,
    "",
@@ -37209,6 +37267,16 @@
    0,
    "",
    1793784716.2135692
+  ],
+  "q:ocarina of time to feel": [
+   0,
+   "",
+   1793856678.4510996
+  ],
+  "q:ocarina of time to feel better": [
+   0,
+   "",
+   1793856677.9523878
   ],
   "q:ocarina of time's navi": [
    0,
@@ -39670,6 +39738,26 @@
    "",
    1793791897.1220746
   ],
+  "q:time benefits": [
+   0,
+   "",
+   1793856778.2153857
+  ],
+  "q:time benefits from": [
+   0,
+   "",
+   1793856777.7222195
+  ],
+  "q:time benefits from a glaringly": [
+   0,
+   "",
+   1793856777.2192893
+  ],
+  "q:time benefits from a glaringly obvious": [
+   0,
+   "",
+   1793856776.6675758
+  ],
   "q:time full": [
    0,
    "",
@@ -39759,6 +39847,16 @@
    0,
    "",
    1793784717.2213268
+  ],
+  "q:time to feel": [
+   0,
+   "",
+   1793856679.4871552
+  ],
+  "q:time to feel better": [
+   0,
+   "",
+   1793856678.9486253
   ],
   "q:time's navi": [
    0,
@@ -40234,6 +40332,26 @@
    1214280,
    "Walking Simulator",
    1792575423.2553575
+  ],
+  "q:wanted": [
+   0,
+   "",
+   1793856677.4310813
+  ],
+  "q:wanted ocarina": [
+   0,
+   "",
+   1793856676.8891158
+  ],
+  "q:wanted ocarina of time": [
+   0,
+   "",
+   1793856676.3848197
+  ],
+  "q:wanted ocarina of time to feel": [
+   0,
+   "",
+   1793856675.8857238
   ],
   "q:war movie": [
    0,
@@ -40955,6 +41073,11 @@
    "",
    1793791892.965125
   ],
+  "q:zelda ocarina of time benefits": [
+   0,
+   "",
+   1793856775.1651568
+  ],
   "q:zelda ocarina of time full": [
    0,
    "",
@@ -41023,10 +41146,6 @@
   ]
  },
  "titles": [
-  [
-   1793683879.7485278,
-   "Scorpions announce mammoth Love, Peace, & Rock'N'Roll European tour"
-  ],
   [
    1793685689.6643178,
    "Johnny Depp Open To Reprising ‘Pirates Of The Caribbean’ Role To “Send Them Off On A Better Note”"
@@ -42982,13 +43101,21 @@
   [
    1793854967.5576003,
    "Goldman, Apollo in Talks to Sell SpaceX’s $40 Billion AI Deal"
+  ],
+  [
+   1793856771.6409817,
+   "Nintendo Wanted Ocarina Of Time To Feel Better In The Remake, Not Just Different"
+  ],
+  [
+   1793856780.6806965,
+   "How Zelda: Ocarina Of Time Benefits From A Glaringly Obvious Tactic That Few Game Devs Follow"
+  ],
+  [
+   1793856784.2234483,
+   "How Joey Tempest survived the wild whirlwind of fame, fortune and global success entirely unscathed"
   ]
  ],
  "titles_uk": [
-  [
-   1793683879.7485287,
-   "Scorpions анонсували масштабний європейський тур Love, Peace, & Rock'N'Roll"
-  ],
   [
    1793685689.6643193,
    "Джонні Депп готовий знову зіграти Джека Горобця"
@@ -44944,6 +45071,18 @@
   [
    1793854967.5576012,
    "Goldman Sachs та Apollo планують продати частину AI-угоди SpaceX на $40 мільярдів"
+  ],
+  [
+   1793856771.640983,
+   "Nintendo хотіла зробити ремейк Ocarina Of Time кращим, а не просто іншим"
+  ],
+  [
+   1793856780.680698,
+   "Успіх The Legend of Zelda пов'язаний зі збереженням кадрів Nintendo"
+  ],
+  [
+   1793856784.2234497,
+   "Джої Темпест розповів про свій шлях до успіху та новий альбом Europe"
   ]
  ],
  "ukrainian": {
