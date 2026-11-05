@@ -1,10 +1,10 @@
 {
  "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1793917873.6426125
+  "gemini": {
+   "detail": "429: ліміт безкоштовних запитів Gemini вичерпано\nПоки що перекладаю через DeepL і Google. Безкоштовний ліміт Gemini оновлюється щодоби.",
+   "label": "Gemini більше не перекладає",
+   "sent": 1793919722.3435109,
+   "since": 1793919722.3435109
   }
  },
  "daily_digest_date": "2026-11-05",
@@ -34,113 +34,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-05 22:32 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-11-05 23:02 UTC",
+  "gemini_error": "429: ліміт безкоштовних запитів Gemini вичерпано",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 5
+   "gemini-flash-lite-latest": 3
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793226775.795218,
-   3327,
-   "🤘",
-   "Аль Юргенсен назвав дату та місце фінального концерту MINISTRY",
-   "Blabbermouth",
-   {
-    "also": [
-     [
-      "ThePRP",
-      "https://www.theprp.com/2026/10/28/news/al-jourgensen-confirms-the-venue-and-date-for-ministrys-final-live-show/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/al-jourgensen-reveals-date-and-venue-for-ministrys-final-concert",
-    "orig": "AL JOURGENSEN Reveals Date And Venue For MINISTRY's Final Concert"
-   }
-  ],
-  [
-   1793226778.7045496,
-   3328,
-   "🤖",
-   "Штучний інтелект робить фінансові шахрайства переконливішими",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/videos/2026-10-28/schwab-says-ai-making-scams-harder-to-spot-video",
-    "orig": "Schwab Says AI Making Scams Harder to Spot"
-   }
-  ],
-  [
-   1793226788.4252782,
-   3329,
-   "🎮",
-   "Bloober Team анонсувала DLC Lazarus для Cronos: The New Dawn",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/cronos-lazarus-dlc-release-date-price/",
-    "orig": "Cronos: Lazarus DLC Launches December 3 for $9.99"
-   }
-  ],
-  [
-   1793226790.7260094,
-   3330,
-   "💾",
-   "Фейкові емулятори PlayStation 5 на GitHub поширюють шкідливе ПЗ для крадіжки паролів",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/feykovi-emulyatori-ps5-na-github-poshiryuyut-shkidlive-pz-316653/",
-    "orig": "Фейкові емулятори PlayStation 5 на GitHub поширюють шкідливе ПЗ для крадіжки паролів"
-   }
-  ],
-  [
-   1793228480.5802872,
-   3331,
-   "🎬",
-   "Netflix анонсував новий серіал Pride & Prejudice з Еммою Коррін та Джеком Лоуденом",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://deadline.com/feature/netflix-pride-amp-prejudice-series-news-updates-1236968654/",
-    "orig": "Everything We Know About Netflix’s New ‘Pride & Prejudice’ Series So Far"
-   }
-  ],
-  [
-   1793228483.6735058,
-   3332,
-   "🎮",
-   "PC Gamer випустив новий квіз на знання горор-ігор за їхніми туалетами",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/horror/can-you-name-the-horror-game-these-deeply-unpleasant-bathrooms-are-from/",
-    "orig": "Can you name the horror games these deeply unpleasant bathrooms are from?"
-   }
-  ],
-  [
-   1793228487.7076523,
-   3333,
-   "🤘",
-   "Telepathy випустили трек Water Divides The Tide (Redux)",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55581/telepathy-share-reimagined-track-water-divides-the-tide-redux-from-forthcoming-tempest-reissue/",
-    "orig": "Telepathy share reimagined track \"Water Divides The Tide (Redux)\" from forthcoming 'Tempest' reissue"
-   }
-  ],
   [
    1793233969.290236,
    3334,
@@ -22531,7 +22436,6 @@
       "https://www.theprp.com/2026/11/05/news/convictions-sign-with-unfd-atonement-music-video-premieres/"
      ]
     ],
-    "caption": "🤘 <b>Convictions підписали контракт із UNIFIED Music Group і випустили сингл Atonement</b>\n\nГурт Convictions приєднався до лейбла UNIFIED Music Group і презентував новий сингл і кліп під назвою &quot;Atonement&quot;. Реліз відбувся напередодні спільного туру колективу з Born of Osiris, Miss May I та Downswing.\n\n🔗 <a href=\"https://lambgoat.com/news/55725/convictions-sign-with-unified-music-group-and-debut-new-single-atonement/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55725/convictions-sign-with-unified-music-group-and-debut-new-single-atonement/",
     "orig": "Convictions sign with Unified Music Group and debut new single \"Atonement\""
@@ -22545,7 +22449,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>Рецензія на фільм «Hen»: кривава комедія про міграційну кризи очима курки</b>\n\nСтрічка Дьордя Пальфі, виконавчими продюсерами якої виступив Арі Астер, нагадує «EO» та «Flow» завдяки погляду на людські похибки від першої особи тварини.\n\n🔗 <a href=\"https://www.indiewire.com/criticism/movies/hen-movie-review-1235225630/\">IndieWire</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.indiewire.com/criticism/movies/hen-movie-review-1235225630/",
     "orig": "‘Hen’ Review: A Cockeyed Comedy Sees Europe’s Migrant Crisis Through the Eyes of a Chicken"
@@ -22559,7 +22462,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Metal Queen DORO вкотре відкинула думку про завершення кар&#x27;єри</b>\n\nУ новому інтерв&#x27;ю 62-річна німецька співачка Доро Пеш зізналася, що ніколи не замислювалася про пенсію і хоче померти прямо на сцені.\n\n🔗 <a href=\"https://blabbermouth.net/news/doro-once-again-rules-out-retirement-i-wanna-die-on-stage\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/doro-once-again-rules-out-retirement-i-wanna-die-on-stage",
     "orig": "DORO Once Again Rules Out Retirement: 'I Wanna Die On Stage'"
@@ -22578,7 +22480,6 @@
       "https://www.videogameschronicle.com/uncategorised/ea-has-released-25-classic-restored-games-on-pc-including-ultima-and-road-rash/"
      ]
     ],
-    "caption": "🎮 <b>EA випускає купу класичних ігор у Steam, і 7 із них — ремастери</b>\n\nРемастери також з&#x27;являться в GOG\n\n🔗 <a href=\"https://www.pcgamer.com/games/eas-releasing-a-truckload-of-classic-games-on-steam-and-7-of-them-are-remasters/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/eas-releasing-a-truckload-of-classic-games-on-steam-and-7-of-them-are-remasters/",
     "orig": "EA's releasing a truckload of classic games on Steam, and 7 of them are remasters"
@@ -23381,6 +23282,62 @@
     "link": "https://www.pcgamer.com/gaming-industry/warren-spector-sounds-even-angrier-about-biowares-closure-as-he-recounts-the-massive-salaries-of-ea-execs-is-there-any-accountability-left-in-this-world/",
     "orig": "Warren Spector sounds even angrier about BioWare's closure as he recounts the massive salaries of EA execs: 'Is there ANY accountability left in this world?'"
    }
+  ],
+  [
+   1793919695.2773244,
+   5106,
+   "🎮",
+   "Bill Скарсгард пояснює, чому роль у фільмі «Physint» Хідео Кодзіми є для нього «важливою подією»",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/1897470/\">Bill</a> Скарсгард пояснює, чому роль у фільмі «Physint» Хідео Кодзіми є для нього «важливою подією»</b>\n\nБілл Скашгорд розповів про участь у таємничому проєкті Physint від Хідео Кодзіми\n\n🔗 <a href=\"https://www.ign.com/articles/bill-skarsgrd-explains-why-starring-in-hideo-kojimas-physint-is-a-big-deal-for-him\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/bill-skarsgrd-explains-why-starring-in-hideo-kojimas-physint-is-a-big-deal-for-him",
+    "orig": "Bill Skarsgård Explains Why Starring in Hideo Kojima’s Physint Is a ‘Big Deal’ for Him"
+   }
+  ],
+  [
+   1793919705.5724602,
+   5107,
+   "🎮",
+   "Amazon Luna поповнилася новими іграми",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Amazon <a href=\"https://store.steampowered.com/app/3437200/\">Luna</a> поповнилася новими іграми</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2582320/\">Mixtape</a>\n\nХмарний сервіс Amazon Luna додав до своєї бібліотеки Mixtape, Madden NFL 27, NBA The Run, Kingdom Come: Deliverance 2, Police Simulator: Patrol Officers та ремастер Disney’s Epic Mickey. Крім того, підписники Prime у листопаді зможуть забрати кілька PC-ігор, а незабаром на платформі з&#x27;явиться Sushi Go!. Навіть попри те, що реліз деяких проєктів викликав суперечки, оновлення пропонує різноманітні жанри для гравців.\n\n🔗 <a href=\"https://insider-gaming.com/amazon-luna-november-2026-games/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/amazon-luna-november-2026-games/",
+    "orig": "Amazon Luna Adds Mixtape, Madden NFL 27, and NBA The Run"
+   }
+  ],
+  [
+   1793919711.4415371,
+   5108,
+   "🤘",
+   "Гурт Thrown Into Exile випустив новий музичний кліп на пісню «Remorse»",
+   "Distorted Sound",
+   {
+    "also": [],
+    "caption": "🤘 <b>Гурт Thrown Into Exile випустив новий музичний кліп на пісню «Remorse»</b>\n\nГурт THROWN INTO EXILE випустив новий музичний кліп! Новий музичний кліп на пісню «Remorse» став останнім\n\n🔗 <a href=\"https://distortedsoundmag.com/thrown-into-exile-release-new-music-video-for-remorse/\">Distorted Sound</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://distortedsoundmag.com/thrown-into-exile-release-new-music-video-for-remorse/",
+    "orig": "Thrown Into Exile release new music video for ‘Remorse’"
+   }
+  ],
+  [
+   1793919719.102685,
+   5109,
+   "🎮",
+   "Зіткніться з корпорацією, що маніпулює часом, у грі CHRONO PUNK — екшен-рогалайті, що поєднує в собі елементи Soul Eater та Jet Set Radio",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>Зіткніться з корпорацією, що маніпулює часом, у грі <a href=\"https://store.steampowered.com/app/5081550/\">CHRONO PUNK</a> — екшен-рогалайті, що поєднує в собі елементи <a href=\"https://store.steampowered.com/app/2836250/\">Soul Eater</a> та Jet Set Radio</b>\n\nМені найбільше подобаються ігри, які, очевидно, прагнуть відтворити атмосферу певної епохи ігрової індустрії, але при цьому не виглядають так, ніби намагаються бути схожими на будь-яку іншу гру з тієї епохи; більше того, якби хтось сказав мені, що це гра для PS2 чи Dreamcast, про яку всі вже забули, я б у це повірив.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/take-on-a-time-manipulating-corporation-in-the-very-soul-eater-meets-jet-set-radio-action-roguelite-chrono-punk\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/take-on-a-time-manipulating-corporation-in-the-very-soul-eater-meets-jet-set-radio-action-roguelite-chrono-punk",
+    "orig": "Take on a time-manipulating corporation in the very Soul Eater meets Jet Set Radio action roguelite CHRONO PUNK"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23480,7 +23437,8 @@
    1793909081.9182944,
    1793909097.8627703,
    1793912599.6595473,
-   1793916187.2386048
+   1793916187.2386048,
+   1793919695.2777975
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1793820704.2366774,
@@ -23513,7 +23471,8 @@
    1793914286.8827474,
    1793914298.7165022,
    1793917891.9204063,
-   1793917901.6765723
+   1793917901.6765723,
+   1793919705.5729368
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1793806348.7569947,
@@ -23556,7 +23515,8 @@
    1793899979.6417534,
    1793903612.629624,
    1793903643.8062403,
-   1793905362.5412045
+   1793905362.5412045,
+   1793919719.1031957
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1793743357.1874926,
@@ -23653,12 +23613,11 @@
    1793824292.005878
   ],
   "music|Distorted Sound|https://distortedsoundmag.com/feed/": [
-   1793826128.5595415,
-   1793829719.989463,
    1793835100.0641398,
    1793901710.8291738,
    1793903599.0678544,
-   1793909086.3184805
+   1793909086.3184805,
+   1793919711.4419994
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
    1793874752.4004126,
@@ -23819,6 +23778,7 @@
   "014900fad1376c96": 1793824297.7081478,
   "0155b1d244900c8c": 1793183587.0168352,
   "01715d1d1a8e69cf": 1792870295.3867612,
+  "017b2cac732da1e5": 1793919656.8897884,
   "01814cbabe964e38": 1793106103.075852,
   "0197eea0e422e762": 1793010700.5788727,
   "01a67c9f3f730132": 1793208685.2798853,
@@ -23827,6 +23787,7 @@
   "0225edb619b6a76e": 1792749655.9135356,
   "024a9a0a704d86fb": 1792917166.3521016,
   "0250f6cbfb3ed861": 1793896404.6825366,
+  "025483d120d50629": 1793919711.4419525,
   "025f7fa143318c70": 1793432515.5295794,
   "0265a52bdfbd211b": 1793390461.4887984,
   "0281b612948daa49": 1792873919.1973965,
@@ -24128,7 +24089,6 @@
   "11ae4696aac4636f": 1792798284.9167757,
   "11b9783d5c4c6e77": 1793644265.4954946,
   "11c0ea9aeef7d772": 1793626254.0529625,
-  "11d913cba9cd8a51": 1792710085.756498,
   "1200888ce2cde804": 1793203371.2835758,
   "12056f68900d63fa": 1792855881.0641873,
   "12126a71df84f543": 1793701910.5217838,
@@ -25224,7 +25184,6 @@
   "509364c3ce89d8f1": 1793885549.3798807,
   "50a0fa01c7098b4a": 1793844097.26029,
   "50afcd0f665c24c4": 1793145738.4674857,
-  "50bcb3278039c302": 1792710077.6091142,
   "50c7e9dfcc607ffe": 1793208707.7675128,
   "50cda3781da36193": 1793889081.467352,
   "50d24c7f8b39af9d": 1793107912.729106,
@@ -26338,7 +26297,6 @@
   "8f5ea080678b9c3c": 1793455362.670195,
   "8f65aabcdeb27cd3": 1793725287.5275962,
   "8f7761cc83b93431": 1793451651.7324479,
-  "8f797a9e60524f7c": 1792710077.6001596,
   "8f8ab4983741182d": 1793296852.7314725,
   "8f9fec8ef2615331": 1792855922.2052743,
   "8fa416d9ed518d49": 1793392412.9245498,
@@ -26348,7 +26306,6 @@
   "8fbc3ab7ccf7d879": 1793206909.4407272,
   "8fd57b8fcff58beb": 1792793190.9633424,
   "8fde5060d8f38da3": 1793271824.4533155,
-  "8fe573d5cab672cd": 1792710103.6431656,
   "8fe98d2c4c26327d": 1792778453.5270102,
   "8fef01df29470023": 1792942253.4728909,
   "900ec2b4a90ada3a": 1793379680.1304505,
@@ -26833,6 +26790,7 @@
   "ab1326192fd17f1c": 1793793684.0223513,
   "ab16f15db4c0fa4a": 1793761308.210467,
   "ab2436113e4055fa": 1793365302.9410708,
+  "ab29c660172a2556": 1793919705.5728858,
   "ab2d096007269d11": 1793876902.575167,
   "ab36ba8af7e285cf": 1792953099.447638,
   "ab3d5946e9d30585": 1793374323.1014733,
@@ -27170,6 +27128,7 @@
   "bcb95eefa8ef4f5b": 1793536278.236502,
   "bcd945528d2d063d": 1792852282.2369092,
   "bce393054129665a": 1793062885.7023773,
+  "bcea0162abb29c7f": 1793919656.8897884,
   "bcf31f4f990180b6": 1793273473.2012017,
   "bcf9e110bf30c7af": 1793185315.6548622,
   "bcfafe0f329c82f0": 1793872936.839472,
@@ -27179,6 +27138,7 @@
   "bd28dc198e354d61": 1792857767.3278832,
   "bd4b463b316fb457": 1792731759.2024364,
   "bd4c16334cfa675d": 1793055684.398082,
+  "bd55895dbad1aa4c": 1793919695.2777495,
   "bd79eb405c18a4ce": 1792713714.5295756,
   "bd7be402bd09fd61": 1793114739.9172006,
   "bd7ea3fdd1448936": 1793208836.7758129,
@@ -27316,7 +27276,6 @@
   "c53bbbc928c25df1": 1793541657.803968,
   "c55373f4c22309a4": 1792740872.6594949,
   "c559a7678bc35b78": 1792958484.3184676,
-  "c559b9174d527c15": 1792710091.4375508,
   "c5aa7e0413fcf76f": 1793386881.3644998,
   "c5af300215483888": 1793736064.701493,
   "c5c67f4aa38230da": 1793840511.3968415,
@@ -27446,6 +27405,7 @@
   "ccbffb8c155c722d": 1793201773.7736428,
   "ccce27a6ec55e4c3": 1792774926.2213082,
   "ccdf995e0e8d4392": 1793392372.4622192,
+  "cce0629d13e2b34c": 1793919719.1031468,
   "ccf6fad7cd02c1aa": 1793804607.4492698,
   "cd0202091e2ce36f": 1793821931.3479493,
   "cd0557b02801d830": 1793048457.7747824,
@@ -28060,7 +28020,6 @@
   "f23382b2a7fcad2f": 1793214106.4447944,
   "f26a127f3d621f54": 1793737862.9434402,
   "f277373868716570": 1793296970.3471851,
-  "f27e7201fe87a6e8": 1792710100.6784377,
   "f28089da1ef6de53": 1793865693.2333915,
   "f284786c6ddd7d23": 1793338451.4226284,
   "f2a15464005f451f": 1793367086.1665149,
@@ -28165,6 +28124,7 @@
   "f8280b4de9960a3f": 1793374284.6047819,
   "f82ca14ea500cc76": 1793163696.4447827,
   "f82da415ab0a51d5": 1792954877.37646,
+  "f837a1e7305ea72b": 1793919684.1916068,
   "f83cf42d64260a25": 1793027127.8314106,
   "f847bc7a72867b8e": 1793782877.8432264,
   "f84f1df27062e286": 1793403094.2137055,
@@ -28765,7 +28725,7 @@
   ],
   "artists_checked": 1793909124.7162163,
   "blocked_until": 1793908528.3979313,
-  "cursor": 348,
+  "cursor": 358,
   "digest_week": "2026-W44",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -29523,7 +29483,7 @@
   "filtered": {
    "/Film": 12,
    "Bloomberg": 6,
-   "Deadline": 4,
+   "Deadline": 5,
    "Digital Foundry": 1,
    "Eurogamer": 1,
    "GameSpot": 3,
@@ -29536,7 +29496,7 @@
    "PC Gamer": 3,
    "Polygon": 43,
    "The Decoder": 2,
-   "VGC": 15,
+   "VGC": 16,
    "Variety": 4
   },
   "sources": {
@@ -29549,16 +29509,16 @@
    "Deadline": 60,
    "Decibel": 8,
    "Digital Foundry": 7,
-   "Distorted Sound": 16,
+   "Distorted Sound": 17,
    "Eurogamer": 21,
    "GameSpot": 24,
    "GamesIndustry.biz": 17,
    "GitHub Trending": 28,
    "Hugging Face": 5,
-   "IGN": 59,
+   "IGN": 60,
    "ITC.ua": 51,
    "IndieWire": 20,
-   "Insider Gaming": 76,
+   "Insider Gaming": 77,
    "Kerrang!": 18,
    "Lambgoat": 38,
    "Loudwire": 24,
@@ -29571,7 +29531,7 @@
    "Polygon": 24,
    "Product Hunt": 15,
    "Revolver": 6,
-   "Rock Paper Shotgun": 30,
+   "Rock Paper Shotgun": 31,
    "SteamDB": 2,
    "Stereogum": 12,
    "The Decoder": 23,
@@ -29580,9 +29540,9 @@
    "Variety": 24
   },
   "translators": {
-   "DeepL": 62,
+   "DeepL": 67,
    "gemini-flash-latest": 4,
-   "gemini-flash-lite-latest": 1028
+   "gemini-flash-lite-latest": 1031
   },
   "week": "2026-W45"
  },
@@ -30937,6 +30897,16 @@
    "",
    1793899974.5926552
   ],
+  "q:adds": [
+   0,
+   "",
+   1793919700.5284054
+  ],
+  "q:adds mixtape": [
+   0,
+   "",
+   1793919700.071077
+  ],
   "q:admits both": [
    0,
    "",
@@ -31137,6 +31107,21 @@
    "",
    1793812060.1917188
   ],
+  "q:amazon luna": [
+   0,
+   "",
+   1793919698.2033095
+  ],
+  "q:amazon luna adds": [
+   0,
+   "",
+   1793919697.7205474
+  ],
+  "q:amazon luna adds mixtape": [
+   0,
+   "",
+   1793919697.2474704
+  ],
   "q:amazon prime": [
    0,
    "",
@@ -31326,11 +31311,6 @@
    0,
    "",
    1793791886.3492794
-  ],
-  "q:arkane": [
-   0,
-   "",
-   1793745086.8860927
   ],
   "q:arkane lyon": [
    0,
@@ -31612,6 +31592,11 @@
    "Betrayed",
    1792776758.0281951
   ],
+  "q:big deal": [
+   0,
+   "",
+   1793919684.6386175
+  ],
   "q:big interview": [
    0,
    "",
@@ -31651,6 +31636,11 @@
    1897470,
    "Bill",
    1793725352.0686252
+  ],
+  "q:bill skarsg": [
+   0,
+   "",
+   1793919685.1041634
   ],
   "q:bioshock 2": [
    8850,
@@ -32181,6 +32171,11 @@
    2231020,
    "Chronicles: Medieval",
    1793369046.0317242
+  ],
+  "q:chrono punk": [
+   5081550,
+   "CHRONO PUNK",
+   1793919716.3517978
   ],
   "q:chucky": [
    999250,
@@ -33532,6 +33527,31 @@
    "",
    1793874754.4015603
   ],
+  "q:explains": [
+   0,
+   "",
+   1793919687.8847096
+  ],
+  "q:explains why": [
+   0,
+   "",
+   1793919687.4043884
+  ],
+  "q:explains why starring": [
+   0,
+   "",
+   1793919686.9475381
+  ],
+  "q:explains why starring in hideo": [
+   0,
+   "",
+   1793919686.5001712
+  ],
+  "q:explains why starring in hideo kojima": [
+   0,
+   "",
+   1793919686.0289876
+  ],
   "q:explodes": [
    4615220,
    "EXPLODES",
@@ -33596,6 +33616,11 @@
    2252680,
    "Farlands",
    1792958489.5209355
+  ],
+  "q:faster pc launcher": [
+   0,
+   "",
+   1793919683.002545
   ],
   "q:fate of the galaxy": [
    0,
@@ -35587,6 +35612,21 @@
    "JEFF",
    1792021764.8697996
   ],
+  "q:jet": [
+   0,
+   "",
+   1793919714.9339445
+  ],
+  "q:jet set": [
+   0,
+   "",
+   1793919714.409021
+  ],
+  "q:jet set radio": [
+   0,
+   "",
+   1793919713.9100773
+  ],
   "q:join": [
    4948290,
    "JOIN",
@@ -36172,10 +36212,40 @@
    "Ludwig",
    1792530110.5452714
   ],
+  "q:luna": [
+   3437200,
+   "LUNA",
+   1793919699.612868
+  ],
+  "q:luna adds": [
+   0,
+   "",
+   1793919699.099775
+  ],
+  "q:luna adds mixtape": [
+   0,
+   "",
+   1793919698.6500058
+  ],
   "q:lyon": [
    0,
    "",
    1793782880.4178448
+  ],
+  "q:madden": [
+   0,
+   "",
+   1793919702.469236
+  ],
+  "q:madden nfl": [
+   0,
+   "",
+   1793919701.9919283
+  ],
+  "q:madden nfl 27": [
+   0,
+   "",
+   1793919701.486331
   ],
   "q:makes 14 games free": [
    0,
@@ -36582,6 +36652,11 @@
    "",
    1793822025.1979454
   ],
+  "q:mixtape": [
+   2582320,
+   "Mixtape",
+   1793919701.005821
+  ],
   "q:mobile": [
    0,
    "",
@@ -36641,11 +36716,6 @@
    0,
    "",
    1793804612.5936499
-  ],
-  "q:mods": [
-   0,
-   "",
-   1793745091.0133576
   ],
   "q:mods forces": [
    0,
@@ -36991,11 +37061,6 @@
    0,
    "",
    1793869433.4421437
-  ],
-  "q:nexus mods": [
-   0,
-   "",
-   1793745090.4906044
   ],
   "q:nexus mods forces": [
    0,
@@ -38397,6 +38462,11 @@
    "Radiance",
    1791795353.6866915
   ],
+  "q:radio": [
+   0,
+   "",
+   1793919715.8803623
+  ],
   "q:raiders": [
    0,
    "",
@@ -39212,6 +39282,11 @@
    "",
    1793799123.80061
   ],
+  "q:set radio": [
+   0,
+   "",
+   1793919715.4099395
+  ],
   "q:set to leave g2 despite": [
    0,
    "",
@@ -39301,6 +39376,11 @@
    0,
    "",
    1793916083.5168087
+  ],
+  "q:skarsg": [
+   0,
+   "",
+   1793919685.5813239
   ],
   "q:skate": [
    3354750,
@@ -39476,6 +39556,11 @@
    0,
    "",
    1793815417.7440479
+  ],
+  "q:soul eater": [
+   2836250,
+   "Soul Eater",
+   1793919713.4234169
   ],
   "q:soulframe": [
    4095380,
@@ -40827,6 +40912,26 @@
    "",
    1793912632.4898458
   ],
+  "q:why starring": [
+   0,
+   "",
+   1793919689.7620826
+  ],
+  "q:why starring in hideo": [
+   0,
+   "",
+   1793919689.3049042
+  ],
+  "q:why starring in hideo kojima": [
+   0,
+   "",
+   1793919688.7992542
+  ],
+  "q:why starring in hideo kojima's physint": [
+   0,
+   "",
+   1793919688.3295145
+  ],
   "q:wi fi": [
    3736050,
    "Wi-Fi",
@@ -41307,9 +41412,9 @@
   "Mezha": [
    "discord",
    "motorola",
-   "nvidia",
    "openai",
    "renault",
+   "samsung",
    "sony",
    "u mobile",
    "walkman",
@@ -41317,7 +41422,6 @@
    "акумулятори",
    "безпілотники",
    "блоги",
-   "відеокарти",
    "енергонезалежність",
    "кібербезпека",
    "мобільний зв'язок",
@@ -41332,37 +41436,13 @@
    "статті",
    "укртелеком",
    "франція",
+   "фітнес-браслети",
    "штучний інтелект",
-   "ігри",
    "інвертор",
    "інтернет"
   ]
  },
  "titles": [
-  [
-   1793746890.8823647,
-   "The Witcher 3 Devs Talk Songs of the Past DLC Details"
-  ],
-  [
-   1793746893.9148567,
-   "DC Studios Officially Casts Mason Thames As Robin — Will He Play Him In Live-Action?"
-  ],
-  [
-   1793746897.0663981,
-   "Ubisoft are reportedly tapped as one potential company that could acquire Arkane, though the Dishonored studio's own management may be in the running too"
-  ],
-  [
-   1793746901.620234,
-   "LIVE REVIEW: Against The Current @ Manchester Academy, Manchester"
-  ],
-  [
-   1793746907.9794421,
-   "Google criticized by NYC mayor Zohran Mamdani following AI policy change: 'Google is trying to use its monopoly power to force AI into our public schools'"
-  ],
-  [
-   1793746911.6684158,
-   "Midterm Elections: Piers Morgan & Rashida Jones On How ‘Uncensored’s Going Into Uncharted Territory Tonight, The Trump Wild Card"
-  ],
   [
    1793748762.3329098,
    "Tami Roman To Star In & EP ‘Double Double Trouble’ Sequel At Lifetime; Roger Cross To Co-Lead"
@@ -43274,33 +43354,25 @@
   [
    1793917906.939921,
    "Warren Spector sounds even angrier about BioWare's closure as he recounts the massive salaries of EA execs: 'Is there ANY accountability left in this world?'"
+  ],
+  [
+   1793919695.2777514,
+   "Bill Skarsgård Explains Why Starring in Hideo Kojima’s Physint Is a ‘Big Deal’ for Him"
+  ],
+  [
+   1793919705.5728884,
+   "Amazon Luna Adds Mixtape, Madden NFL 27, and NBA The Run"
+  ],
+  [
+   1793919711.441955,
+   "Thrown Into Exile release new music video for ‘Remorse’"
+  ],
+  [
+   1793919719.1031485,
+   "Take on a time-manipulating corporation in the very Soul Eater meets Jet Set Radio action roguelite CHRONO PUNK"
   ]
  ],
  "titles_uk": [
-  [
-   1793746890.8823652,
-   "CD Projekt Red поділилися деталями доповнення Songs of the Past для The Witcher 3"
-  ],
-  [
-   1793746893.9148571,
-   "DC Studios обрала Месона Темза на роль Робіна в анімаційному фільмі Dynamic Duo"
-  ],
-  [
-   1793746897.0663986,
-   "Ubisoft розглядається як потенційний покупець студії Arkane"
-  ],
-  [
-   1793746901.6202345,
-   "Концерт AGAINST THE CURRENT і DAYDREAMERS у Манчестері"
-  ],
-  [
-   1793746907.9794426,
-   "Google заблокує доступ до пошуку та ШІ для шкільних акаунтів"
-  ],
-  [
-   1793746911.6684163,
-   "Пірс Морган і Рашида Джонс про вибори та фактор Дональд Трамп у спецвипуску Uncensored"
-  ],
   [
    1793748762.3329113,
    "Tami Roman та Роджер Кросс зіграють у сиквелі фільму Double Double Trouble на Lifetime"
@@ -45212,6 +45284,22 @@
   [
    1793917906.9399216,
    "Воррен Спектр знову лютує через закриття BioWare і величезні зарплати топменеджерів EA"
+  ],
+  [
+   1793919695.2777524,
+   "Bill Скарсгард пояснює, чому роль у фільмі «Physint» Хідео Кодзіми є для нього «важливою подією»"
+  ],
+  [
+   1793919705.5728896,
+   "Amazon Luna поповнилася новими іграми"
+  ],
+  [
+   1793919711.4419558,
+   "Гурт Thrown Into Exile випустив новий музичний кліп на пісню «Remorse»"
+  ],
+  [
+   1793919719.1031494,
+   "Зіткніться з корпорацією, що маніпулює часом, у грі CHRONO PUNK — екшен-рогалайті, що поєднує в собі елементи Soul Eater та Jet Set Radio"
   ]
  ],
  "ukrainian": {
