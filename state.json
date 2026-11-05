@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1793862080.8394432
+  }
+ },
  "daily_digest_date": "2026-11-04",
  "freebies": {
   "last_check": 1793858485.971675,
@@ -26,8 +33,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-05 05:33 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-11-05 07:02 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 3
@@ -37,45 +44,6 @@
   ]
  },
  "post_log": [
-  [
-   1793166798.3539927,
-   3107,
-   "🎬",
-   "Трилер Бреда Пітта Heart of the Beast став касовим хітом",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2298532/brad-pitt-survival-thriller-heart-of-the-beast-sleeper-box-office-hit/",
-    "orig": "Brad Pitt's Survival Thriller Became A Sleeper Box Office Hit While You Weren't Looking"
-   }
-  ],
-  [
-   1793166801.4029484,
-   3108,
-   "🎬",
-   "Режисер Clayface закликає критикувати його за можливі недоліки фільму",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2298917/clayface-director-blame-fans-not-like-dc-comics-movie/",
-    "orig": "Clayface Director Makes It Clear Who's To Blame If Fans Don't Like The DC Movie"
-   }
-  ],
-  [
-   1793170878.7915783,
-   3109,
-   "🤖",
-   "Фрілансери під загрозою: штучний інтелект вже виконує 16% реальних проєктів",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://highload.tech/uk/frilansery-pid-zagrozoyu-shtuchnyj-intelekt-vzhe-vykonuye-16-realnyh-proyektiv/#new_tab",
-    "orig": "Фрілансери під загрозою: штучний інтелект вже виконує 16% реальних проєктів"
-   }
-  ],
   [
    1793171244.0875204,
    3110,
@@ -22422,7 +22390,6 @@
    "Stereogum",
    {
     "also": [],
-    "caption": "🤘 <b>GIFT випустили новий сингл “Every Step” та анонсували альбом Frenzy For The Thrill</b>\n\nПсихо-поп гурт GIFT презентував трек «Every Step» разом із кліпом, де побитий вокаліст TJ Freda шукає спокою у місті. Нова композиція увійде до майбутнього альбому Frenzy For The Thrill, реліз якого на лейблі Captured Tracks запланований на 15 січня.\n\n🔗 <a href=\"https://stereogum.com/2516370/gift-every-step-frenzy-for-the-thrill-song-video/music/\">Stereogum</a>\n\n#музика",
     "kind": "photo",
     "link": "https://stereogum.com/2516370/gift-every-step-frenzy-for-the-thrill-song-video/music/",
     "orig": "GIFT – “Every Step”"
@@ -22436,7 +22403,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>ChatGPT тепер створює анімовані GIF за допомогою моделі Images 2.6</b>\n\nChatGPT отримав оновлення на основі моделі Images 2.6, яке дозволяє генерувати анімовані GIF із текстових запитів або фотографій. Користувачі можуть налаштовувати швидкість анімації та редагувати окремі кадри, а нова модель забезпечує стабільність зображення.\n\n🔗 <a href=\"https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/chatgpt-can-now-turn-text-prompts-and-photos-into-animated-gifs-with-openais-images-2-6-model/",
     "orig": "ChatGPT can now turn text prompts and photos into animated GIFs with OpenAI's Images 2.6 model"
@@ -22450,7 +22416,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Фронтмен (hed)p.e. готується до складної операції на коліні</b>\n\nВокаліст (hed)p.e. Jared Gomes оголосив, що 9 грудня перенесе операцію із заміни колінного суглоба. Проблема пов&#x27;язана з травмою, яку він отримав понад 20 років тому під час виступу на одній сцені з Soulfly. Через тривалий період реабілітації гурт тимчасово призупинить діяльність.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/04/news/hedp-e-s-jared-gomes-to-undergo-total-knee-replacement-surgery-this-december/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/04/news/hedp-e-s-jared-gomes-to-undergo-total-knee-replacement-surgery-this-december/",
     "orig": "(hed)p.e.’s Jared Gomes To Undergo Total Knee Replacement Surgery This December"
@@ -23287,6 +23252,48 @@
     "link": "https://www.loudersound.com/bands-artists/interviews/joey-tempest-come-this-madness-interview",
     "orig": "How Joey Tempest survived the wild whirlwind of fame, fortune and global success entirely unscathed"
    }
+  ],
+  [
+   1793862130.0501127,
+   4857,
+   "🎬",
+   "Ліам Нісон оцінив те, що Меріл Стріп озвучить Аслана в новій «Narnia»",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Ліам Нісон оцінив те, що Меріл Стріп озвучить Аслана в новій «Narnia»</b>\n\nЧерез 16 років після роботи над фільмами Disney колишній голос лева передає естафету акторці в новій стрічці від Ґрети Ґервіг.\n\n🔗 <a href=\"https://deadline.com/2026/11/liam-neeson-reacts-meryl-streep-narnia-aslan-1237213943/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/liam-neeson-reacts-meryl-streep-narnia-aslan-1237213943/",
+    "orig": "Liam Neeson Reacts To Meryl Streep Taking Over ‘Narnia’ Role Of Aslan: “Nobody Better”"
+   }
+  ],
+  [
+   1793862139.6528826,
+   4858,
+   "🎮",
+   "Sony покращила фінансовий прогноз після успіху PlayStation",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🎮 <b>Sony покращила фінансовий прогноз після успіху PlayStation</b>\n\nSony Group Corp. підвищила прогноз прибутку завдяки кращим за очікування результатам у вересневому кварталі. Зростання зумовлене серією успіхів у сфері розваг, зокрема досягненнями у напрямі PlayStation.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-05/sony-lifts-outlook-after-spider-man-and-playstation-fuel-growth\">Bloomberg</a>\n\n#ігри",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-05/sony-lifts-outlook-after-spider-man-and-playstation-fuel-growth",
+    "orig": "Sony Lifts Outlook After Spider-Man and PlayStation Fuel Growth"
+   }
+  ],
+  [
+   1793862148.6685123,
+   4859,
+   "🎮",
+   "Прибуток Nintendo впав через дефіцит релізів і витрати на Switch 2",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🎮 <b>Прибуток Nintendo впав через дефіцит релізів і витрати на Switch 2</b>\n\nNintendo повідомила про зниження прибутку за вересневий квартал. Це сталося через брак великих нових ігор та зростання витрат на компоненти для консолі Switch 2.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-05/nintendo-profit-drops-after-memory-crunch-and-lack-of-big-debuts\">Bloomberg</a>\n\n#ігри",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-05/nintendo-profit-drops-after-memory-crunch-and-lack-of-big-debuts",
+    "orig": "Nintendo Profit Drops After Memory Crunch and Lack of Big Debuts"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23332,8 +23339,8 @@
    1793370738.9416513
   ],
   "games|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1793647901.105795,
-   1793685705.6947436
+   1793862139.6533527,
+   1793862148.668973
   ],
   "games|DOU Gamedev|https://gamedev.dou.ua/feed/": [
    1793698306.3367426,
@@ -23486,7 +23493,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1793773887.6206064,
    1793781188.7556477,
    1793782913.0216954,
    1793790143.2261634,
@@ -23500,7 +23506,8 @@
    1793835103.2062328,
    1793836894.2886486,
    1793842245.1180332,
-   1793842251.6225727
+   1793842251.6225727,
+   1793862130.0505536
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1793711002.6699638,
@@ -24933,7 +24940,6 @@
   "453ffefdb9afad76": 1792882887.2172132,
   "457c42997f07fbc6": 1793205173.4173467,
   "45895797d73b992f": 1792695755.1886616,
-  "458cf3415d2c57b7": 1792652532.2477686,
   "4599904f2cf09ac1": 1792704722.8647158,
   "459a44a631ff3472": 1793288165.0292504,
   "45afde6e7645bde9": 1793138475.1644733,
@@ -25638,6 +25644,7 @@
   "6cc5515fae2b49a9": 1793800885.1215549,
   "6cdb51479df094a6": 1793131299.2972074,
   "6cf18c6404d4760f": 1793746893.914856,
+  "6cf3ff9d9a412270": 1793862130.0505047,
   "6d0eac8d7426d550": 1792674086.5338023,
   "6d104b53e20b61fd": 1792909951.304713,
   "6d23e5714d1e17cd": 1793102567.4008582,
@@ -26270,6 +26277,7 @@
   "91d6cf705a9b87fb": 1793437386.9737728,
   "91e1aa86d592251c": 1793214093.3021789,
   "91ebd3e47220a803": 1793617284.1236634,
+  "91ec8ea0d62eea5a": 1793862139.6533058,
   "92225e14089776fd": 1793739677.6954904,
   "92233af4215b022c": 1793554255.0551445,
   "923bf4fa10960b5f": 1792693964.4773376,
@@ -26576,6 +26584,7 @@
   "a288965104674d35": 1793296877.101634,
   "a2983cef11873564": 1793698283.159456,
   "a29e9f43c0fab23f": 1793020601.4839637,
+  "a2b413aa558c2f35": 1793862148.668929,
   "a2ba5dcd66a093ad": 1793390715.0442462,
   "a2c83770af809152": 1792783893.2290056,
   "a2ce4d0721c9e2c5": 1793639076.020746,
@@ -26662,7 +26671,6 @@
   "a785229c1275ff56": 1792839782.2607527,
   "a798eddf6b10dbe9": 1793448078.91424,
   "a7a2a44280ebb9f7": 1793178096.0534205,
-  "a7b4f33690dc8f72": 1792652483.5200486,
   "a7c8058b84f78985": 1793311387.237212,
   "a7cbabca4f54e4a1": 1793689276.0280428,
   "a7d9008549498759": 1793205103.402206,
@@ -27304,7 +27312,6 @@
   "caaed7fbcc149f48": 1793639136.5191188,
   "cab702867fde0ee0": 1792701056.0781362,
   "cab7d24b6d0bb1d1": 1793181801.5101426,
-  "cac5f332da9993d9": 1792650682.3023837,
   "cacdd6cefbfef72b": 1793615574.7099502,
   "cacf9ca938ef335f": 1793113417.5449734,
   "cb1ce2b14a3882eb": 1793621061.1551027,
@@ -29437,10 +29444,10 @@
    "/Film": 18,
    "AIN.ua": 4,
    "Blabbermouth": 37,
-   "Bloomberg": 35,
+   "Bloomberg": 37,
    "DOU": 4,
    "DOU Gamedev": 3,
-   "Deadline": 49,
+   "Deadline": 50,
    "Decibel": 8,
    "Digital Foundry": 7,
    "Distorted Sound": 13,
@@ -29476,7 +29483,7 @@
   "translators": {
    "DeepL": 6,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 790
+   "gemini-flash-lite-latest": 793
   },
   "week": "2026-W45"
  },
@@ -32981,6 +32988,16 @@
    "Dragon's Dogma 2",
    1793790106.5359025
   ],
+  "q:drops after memory crunch": [
+   0,
+   "",
+   1793862147.3473625
+  ],
+  "q:drops after memory crunch and lack": [
+   0,
+   "",
+   1793862146.853092
+  ],
   "q:drunken goddess reflux": [
    4150720,
    "Drunken Goddess Reflux",
@@ -35856,6 +35873,31 @@
    "Lifetime",
    1793107886.4472113
   ],
+  "q:lifts": [
+   0,
+   "",
+   1793862136.4273508
+  ],
+  "q:lifts outlook": [
+   0,
+   "",
+   1793862135.8276918
+  ],
+  "q:lifts outlook after": [
+   0,
+   "",
+   1793862135.288632
+  ],
+  "q:lifts outlook after spider man": [
+   0,
+   "",
+   1793862134.7686107
+  ],
+  "q:lifts outlook after spider man and playstation": [
+   0,
+   "",
+   1793862134.2342093
+  ],
   "q:light no fire": [
    2719590,
    "Light No Fire",
@@ -36906,6 +36948,31 @@
    "",
    1793806320.1168094
   ],
+  "q:nintendo profit": [
+   0,
+   "",
+   1793862143.7885811
+  ],
+  "q:nintendo profit drops": [
+   0,
+   "",
+   1793862143.2650955
+  ],
+  "q:nintendo profit drops after": [
+   0,
+   "",
+   1793862142.6791637
+  ],
+  "q:nintendo profit drops after memory": [
+   0,
+   "",
+   1793862142.1870618
+  ],
+  "q:nintendo profit drops after memory crunch": [
+   0,
+   "",
+   1793862141.6857705
+  ],
   "q:nintendo releases": [
    0,
    "",
@@ -37396,6 +37463,21 @@
    "Outlast",
    1792344690.5935159
   ],
+  "q:outlook after spider man": [
+   0,
+   "",
+   1793862138.0544877
+  ],
+  "q:outlook after spider man and playstation": [
+   0,
+   "",
+   1793862137.5106864
+  ],
+  "q:outlook after spider man and playstation fuel": [
+   0,
+   "",
+   1793862136.947446
+  ],
   "q:over the hill": [
    2929250,
    "over the hill",
@@ -37815,6 +37897,31 @@
    0,
    "",
    1793822494.32121
+  ],
+  "q:profit": [
+   0,
+   "",
+   1793862146.3597474
+  ],
+  "q:profit drops": [
+   0,
+   "",
+   1793862145.8546011
+  ],
+  "q:profit drops after": [
+   0,
+   "",
+   1793862145.3538678
+  ],
+  "q:profit drops after memory": [
+   0,
+   "",
+   1793862144.8607984
+  ],
+  "q:profit drops after memory crunch": [
+   0,
+   "",
+   1793862144.3617961
   ],
   "q:project conflicts": [
    0,
@@ -39080,6 +39187,26 @@
    0,
    "",
    1793811938.9937365
+  ],
+  "q:sony lifts": [
+   0,
+   "",
+   1793862133.7306836
+  ],
+  "q:sony lifts outlook": [
+   0,
+   "",
+   1793862133.228375
+  ],
+  "q:sony lifts outlook after": [
+   0,
+   "",
+   1793862132.6769621
+  ],
+  "q:sony lifts outlook after spider man": [
+   0,
+   "",
+   1793862132.1841643
   ],
   "q:sony pushes": [
    0,
@@ -41085,14 +41212,6 @@
  },
  "titles": [
   [
-   1793689276.0280447,
-   "Marshals Season 2 Teases Yellowstone Fans With A Major Character Name-Drop"
-  ],
-  [
-   1793689278.083371,
-   "Ілон Маск урізав тижневі ліміти Grok і пояснив причину"
-  ],
-  [
    1793691076.5038395,
    "Transformers Model Integration Contracts"
   ],
@@ -43035,17 +43154,21 @@
   [
    1793856784.2234483,
    "How Joey Tempest survived the wild whirlwind of fame, fortune and global success entirely unscathed"
+  ],
+  [
+   1793862130.050507,
+   "Liam Neeson Reacts To Meryl Streep Taking Over ‘Narnia’ Role Of Aslan: “Nobody Better”"
+  ],
+  [
+   1793862139.6533086,
+   "Sony Lifts Outlook After Spider-Man and PlayStation Fuel Growth"
+  ],
+  [
+   1793862148.6689312,
+   "Nintendo Profit Drops After Memory Crunch and Lack of Big Debuts"
   ]
  ],
  "titles_uk": [
-  [
-   1793689276.0280461,
-   "У другому сезоні Marshals згадують персонажів Yellowstone"
-  ],
-  [
-   1793689278.0833724,
-   "Ілон Маск урізав тижневі ліміти Grok і пояснив причину"
-  ],
   [
    1793691076.5038404,
    "У Transformers з'явилися Model Integration Contracts для тестування"
@@ -44989,6 +45112,18 @@
   [
    1793856784.2234497,
    "Джої Темпест розповів про свій шлях до успіху та новий альбом Europe"
+  ],
+  [
+   1793862130.0505083,
+   "Ліам Нісон оцінив те, що Меріл Стріп озвучить Аслана в новій «Narnia»"
+  ],
+  [
+   1793862139.6533093,
+   "Sony покращила фінансовий прогноз після успіху PlayStation"
+  ],
+  [
+   1793862148.6689322,
+   "Прибуток Nintendo впав через дефіцит релізів і витрати на Switch 2"
   ]
  ],
  "ukrainian": {
@@ -47321,7 +47456,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793858485.5859756,
+  "last_check": 1793862157.6178524,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
