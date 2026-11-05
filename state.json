@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1793847676.8324587
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-04",
  "freebies": {
   "last_check": 1793844106.993796,
@@ -33,11 +26,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-05 03:01 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-11-05 03:32 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 5
   },
   "used": [
    "Gemini"
@@ -22315,7 +22308,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Комік Jaron Myers випустить новий спеціальний виступ Happier</b>\n\nКомік Jaron Myers анонсував вихід свого нового стендап-спешлу Happier на стримінговій платформі Gorilla Comedy+ 16 листопада з подальшою прем&#x27;єрою на YouTube 15 грудня. У програмі автор розповідає про свій шлюб, дитинство у Міссурі та курйозні життєві ситуації. Це його третій великий сольний проєкт після попередніх виступів на Prime Video.\n\n🔗 <a href=\"https://deadline.com/2026/11/jaron-myers-special-happier-where-to-watch-1237213363/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/jaron-myers-special-happier-where-to-watch-1237213363/",
     "orig": "Comedian Jaron Myers Getting ‘Happier’ With 800 Pound Gorilla Special"
@@ -22329,7 +22321,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Студія Rant Gaming показала 14 хвилин геймплею sci-fi шутера Fragmentary Order</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/882200/\">Reveal</a>\n\nРозробники на чолі з Микитою Буяновим представили 14-хвилинний геймплейний трейлер тактичного sci-fi шутера Fragmentary Order на Unreal Engine. Дії гри розгортаються у 2251 році, де гравці керують клонами на Марсі та інших планетах. Проєкт отримає платну програму тестування від $44.99 за базове видання.\n\n🔗 <a href=\"https://insider-gaming.com/nikita-buyanov-fragmentary-order-gameplay-reveal-2/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/nikita-buyanov-fragmentary-order-gameplay-reveal-2/",
     "orig": "Nikita Buyanov’s Fragmentary Order Gets Stunning 14-Minute Gameplay Reveal"
@@ -22343,7 +22334,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b>Кожна третя куплена великими компаніями ігрова студія закрилася з <a href=\"https://store.steampowered.com/app/1642580/\">2000</a> року</b>\n\nАналіз понад 300 ігрових студій, придбаних великими компаніями з 2000 року, показав, що третина з них повністю припинила роботу. Половина закритих студій припинила існування протягом п&#x27;яти років після купівлі, причому Activision Blizzard, Disney, Midway та Thunderful закрили або довели до занепаду всі придбані команди. Найкращі показники демонструє Nintendo, яка не втратила жодної з шести куплених студій.\n\n🔗 <a href=\"https://www.gamesindustry.biz/analysis-one-in-three-acquired-game-studios-has-been-shut-down-since-2000\">GamesIndustry.biz</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/analysis-one-in-three-acquired-game-studios-has-been-shut-down-since-2000",
     "orig": "Analysis: one in three acquired game studios has been shut down since 2000"
@@ -22362,7 +22352,6 @@
       "https://www.theprp.com/2026/11/04/news/russian-circles-brutus-elder-etc-added-to-2027-arctangent-festival/"
      ]
     ],
-    "caption": "🤘 <b>Elder, Russian Circles, Brutus та інші поповнили лайнап ArcTanGent 2027</b>\n\nФестиваль ArcTanGent оголосив чергову хвилю учасників на 2027 рік, проведення якого заплановане на серпень.\n\n🔗 <a href=\"https://lambgoat.com/news/55703/elder-russian-circles-brutus-and-more-added-to-arctangent-2027/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55703/elder-russian-circles-brutus-and-more-added-to-arctangent-2027/",
     "orig": "Elder, Russian Circles, Brutus and more added to ArcTanGent 2027"
@@ -23103,7 +23092,12 @@
    "Суд відхилив апеляцію Warner Bros у справі щодо серіалу The Pitt",
    "Deadline",
    {
-    "also": [],
+    "also": [
+     [
+      "Variety",
+      "https://variety.com/2026/tv/news/the-pitt-noah-wyle-crichton-lawsuit-1236939852/"
+     ]
+    ],
     "caption": "🎬 <b>Суд відхилив апеляцію Warner Bros у справі щодо серіалу The Pitt</b>\n\nАпеляційний суд відхилив скаргу Warner Bros. у справі проти спадкоємців Майкла Крайтона щодо серіалу The Pitt. Позивачі стверджують, що медична драма є похідною від серіалу ER, тоді як розробники заперечують звинувачення. Тепер справу передадуть на розгляд суду присяжних у Лос-Анджелесі.\n\n🔗 <a href=\"https://deadline.com/2026/11/the-pitt-michael-crichton-estate-lawsuit-trial-1237213710/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/the-pitt-michael-crichton-estate-lawsuit-trial-1237213710/",
@@ -23193,6 +23187,62 @@
     "link": "https://pitchfork.com/story/watch-this-is-lorelei-play-the-singer-in-my-band-songs-on-kcrw/",
     "orig": "Watch This Is Lorelei Play The Singer in My Band Songs on KCRW"
    }
+  ],
+  [
+   1793849483.413497,
+   4842,
+   "🤖",
+   "Акції технологічних компаній зросли на тлі результатів виборів",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Акції технологічних компаній зросли на тлі результатів виборів</b>\n\nНа американському ринку зафіксовано зростання акцій великих технологічних компаній після виборів. Події вплинули на прогнози щодо витрат на ШІ.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-04/big-tech-rallies-on-ai-outlook-closing-bell-video\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-04/big-tech-rallies-on-ai-outlook-closing-bell-video",
+    "orig": "Big Tech Rallies as Election Results Reshape AI Spending Outlook | Closing Bell"
+   }
+  ],
+  [
+   1793849495.7372077,
+   4843,
+   "🤖",
+   "Джон Чемберс назвав розвиток ШІ перемогою для суспільства",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Джон Чемберс назвав розвиток ШІ перемогою для суспільства</b>\n\nЗасновник JC2 Ventures і колишній генеральний директор Cisco Джон Чемберс заявив, що його не здивували темпи зростання штучного інтелекту та капіталовкладень. За його словами, він почав інвестувати у стартапи у сфері ШІ ще дев&#x27;ять років тому.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-04/john-chambers-backs-ai-calling-it-a-win-for-society-video\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-04/john-chambers-backs-ai-calling-it-a-win-for-society-video",
+    "orig": "John Chambers Makes the Case for AI, Calling It a Win for Society"
+   }
+  ],
+  [
+   1793849512.9651568,
+   4844,
+   "🎬",
+   "Демократичний здвиг у Конгресі США впливає на плани Голлівуду та медіа",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Демократичний здвиг у Конгресі США впливає на плани Голлівуду та медіа</b>\n\nПеремога демократів на проміжних виборах створює нові виклики для голлівудських студій та медіакомпаній у Вашингтоні. Під загрозою опинилося ухвалення федерального податкового стимулу до кінця року, а також на медіа чекає посилення нагляду за головою FCC Brendan Carr з боку демократів у Конгресі.\n\n🔗 <a href=\"https://variety.com/2026/film/news/blue-wave-questions-hollywood-media-1236939674/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/news/blue-wave-questions-hollywood-media-1236939674/",
+    "orig": "Blue Wave Sweep: What Does Democratic Shift Mean for Hollywood and the Media?"
+   }
+  ],
+  [
+   1793849525.6758916,
+   4845,
+   "🎬",
+   "Ендрю Гарфілд заперечив слова Сема Альтмана про їхню зустріч на зйомках Artificial",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Ендрю Гарфілд заперечив слова Сема Альтмана про їхню зустріч на зйомках Artificial</b>\n\nЕндрю Гарфілд заявив, що ніколи не зустрічався із Семом Альтманом під час зйомок фільму “Artificial”, попри твердження голови OpenAI про те, що вони помахали одне одному. Актор зізнався, що був дуже здивований цією історією, адже навіть не бачив мільярдера наживо.\n\n🔗 <a href=\"https://variety.com/2026/film/news/andrew-garfield-sam-altman-artificial-1236939933/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/news/andrew-garfield-sam-altman-artificial-1236939933/",
+    "orig": "Andrew Garfield Says He ‘Never Had Any Interaction’ With Sam Altman While Filming ‘Artificial,’ Despite Altman Claiming They Waved to Each Other: ‘I Was Very Confused By That’"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23201,12 +23251,12 @@
    1793793717.2525244
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1793761305.339614,
-   1793761308.2105107,
    1793766703.671743,
    1793775684.1446216,
    1793786478.9352891,
-   1793790457.3856094
+   1793790457.3856094,
+   1793849483.4138803,
+   1793849495.7375872
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1793694786.2211568,
@@ -23425,9 +23475,8 @@
    1793824294.3712368
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1793761314.0505695,
-   1793761318.7795477,
-   1793763083.6654088
+   1793849512.9655669,
+   1793849525.6763258
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1793761302.3309538,
@@ -24680,7 +24729,6 @@
   "3cdb468b0f662984": 1793734309.0712404,
   "3cec1e70ef86520d": 1793020603.5367851,
   "3cf15057b01c7d0a": 1792776807.125356,
-  "3cf203740b27df1b": 1792639874.7398376,
   "3d09a39389e1b92e": 1793376176.528772,
   "3d0d363ed76e0fa4": 1793354547.457664,
   "3d0da74e5d3ee8cc": 1793730742.9879024,
@@ -24713,6 +24761,7 @@
   "3e391ef36b5b9dbe": 1792746285.0097127,
   "3e55a82c8c080eb6": 1793124087.0111487,
   "3e5ae69d8597dd41": 1793812057.6454804,
+  "3e6bb8c64f80c1d9": 1793849483.4138262,
   "3e78c65a2d0eb712": 1792775182.5333664,
   "3e7fa9d680d29e84": 1793377878.8936732,
   "3e899e90bd2f0e96": 1792681508.4106894,
@@ -25664,6 +25713,7 @@
   "73721c050d1549ef": 1793473373.711377,
   "7396c95008ce2a40": 1793648085.570265,
   "739b30fd573deaf4": 1793464280.238074,
+  "73a0c4b5bb7be44b": 1793849512.96551,
   "73a0c99e51c28428": 1793800885.1191442,
   "73abf5d9c578ce58": 1793806319.3281088,
   "73b24678465c9b60": 1793046707.3773746,
@@ -25850,6 +25900,7 @@
   "7e0447dba3365153": 1793622676.5296125,
   "7e1979fc2f820fc8": 1792792877.8543391,
   "7e2b0c9a55bdb545": 1793257295.274233,
+  "7e2d1f4e30e2760f": 1793849525.6762714,
   "7e325932b0277dd1": 1793379764.324909,
   "7e442099a30d1b1a": 1793709131.0258775,
   "7e469c3603adb664": 1793192476.3764877,
@@ -26154,7 +26205,6 @@
   "90b2977de139aada": 1793635256.7568827,
   "90cf6be5a847c405": 1793455366.5874949,
   "90d5770dc7ea3aa3": 1792794687.55806,
-  "90ddebc2105070e0": 1792639876.5397155,
   "90e049ae067dc38d": 1792668701.5788705,
   "9102145788d70e1a": 1792688816.1299617,
   "913a674a2a3385b7": 1793179895.5264766,
@@ -26953,6 +27003,7 @@
   "bc1e39a9dc2fd3fb": 1792771255.1467223,
   "bc2b72bddbe6013e": 1793397655.8950074,
   "bc459a849db7bb67": 1793291766.908042,
+  "bc4a3c13f739bed8": 1793849499.6063247,
   "bc5133fa656e86f5": 1792724498.2451725,
   "bc99d51b9f4a910e": 1793763078.3152146,
   "bcb89dd9d757f1e9": 1793104274.4161053,
@@ -27391,6 +27442,7 @@
   "d6fa9dcc5349b895": 1793827916.6509485,
   "d6ff3b0232933c90": 1792857754.8263862,
   "d7069e5fd878be3c": 1792699255.0839438,
+  "d713f570446d7273": 1793849495.7375321,
   "d7288948adcbfb8b": 1793790164.4106803,
   "d740fe5e44ef76f2": 1792767861.3442836,
   "d747ecb5894f9458": 1793700258.1707191,
@@ -28083,7 +28135,6 @@
   "fe505d6feca84491": 1793192981.7060502,
   "fe57c0c1c2386730": 1792958454.0962284,
   "fe60ca62a115de1e": 1793797394.5200958,
-  "fe613c15e05ab599": 1792639874.743795,
   "fe61572102ce0e92": 1793476852.6182845,
   "fe6340488c1c7441": 1793203427.1367009,
   "fe91ba2ef9c2b623": 1793709078.3043365,
@@ -29333,7 +29384,7 @@
    "/Film": 18,
    "AIN.ua": 4,
    "Blabbermouth": 37,
-   "Bloomberg": 32,
+   "Bloomberg": 34,
    "DOU": 4,
    "DOU Gamedev": 3,
    "Deadline": 49,
@@ -29367,12 +29418,12 @@
    "The Decoder": 18,
    "ThePRP": 35,
    "VGC": 28,
-   "Variety": 18
+   "Variety": 20
   },
   "translators": {
    "DeepL": 6,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 772
+   "gemini-flash-lite-latest": 777
   },
   "week": "2026-W45"
  },
@@ -42835,6 +42886,22 @@
   [
    1793847694.0916667,
    "Watch This Is Lorelei Play The Singer in My Band Songs on KCRW"
+  ],
+  [
+   1793849483.413828,
+   "Big Tech Rallies as Election Results Reshape AI Spending Outlook | Closing Bell"
+  ],
+  [
+   1793849495.7375345,
+   "John Chambers Makes the Case for AI, Calling It a Win for Society"
+  ],
+  [
+   1793849512.9655123,
+   "Blue Wave Sweep: What Does Democratic Shift Mean for Hollywood and the Media?"
+  ],
+  [
+   1793849525.6762733,
+   "Andrew Garfield Says He ‘Never Had Any Interaction’ With Sam Altman While Filming ‘Artificial,’ Despite Altman Claiming They Waved to Each Other: ‘I Was Very Confused By That’"
   ]
  ],
  "titles_uk": [
@@ -44753,6 +44820,22 @@
   [
    1793847694.0916674,
    "This Is Lorelei зіграли треки з альбому The Singer in My Band на радіо KCRW"
+  ],
+  [
+   1793849483.4138288,
+   "Акції технологічних компаній зросли на тлі результатів виборів"
+  ],
+  [
+   1793849495.7375355,
+   "Джон Чемберс назвав розвиток ШІ перемогою для суспільства"
+  ],
+  [
+   1793849512.9655135,
+   "Демократичний здвиг у Конгресі США впливає на плани Голлівуду та медіа"
+  ],
+  [
+   1793849525.6762745,
+   "Ендрю Гарфілд заперечив слова Сема Альтмана про їхню зустріч на зйомках Artificial"
   ]
  ],
  "ukrainian": {
@@ -44978,6 +45061,7 @@
    "250900": "",
    "2513280": "",
    "251570": "",
+   "2523740": "",
    "252490": "isa",
    "2525380": "",
    "2536520": "",
@@ -44987,6 +45071,7 @@
    "2584270": "is",
    "2584990": "",
    "2590240": "isa",
+   "2615540": "",
    "2622380": "",
    "2623190": "",
    "2638890": "",
@@ -45099,6 +45184,7 @@
    "3564740": "",
    "3569420": "",
    "3571870": "",
+   "3581230": "",
    "3590290": "",
    "359320": "",
    "359550": "",
@@ -45269,7 +45355,7 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1793827932.4680557,
+  "last_check": 1793849537.33546,
   "with_uk": 105
  },
  "weekly_releases_week": "2026-W45",
