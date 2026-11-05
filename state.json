@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1793917873.6426125
+  }
+ },
  "daily_digest_date": "2026-11-05",
  "freebies": {
   "last_check": 1793912685.1117642,
@@ -27,61 +34,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-05 22:03 UTC",
+  "at": "2026-11-05 22:32 UTC",
   "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 4
+   "gemini-flash-lite-latest": 5
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793225048.743122,
-   3324,
-   "🤘",
-   "Baroness, Meshuggah, Gojira та Converge потрапили до 200 найкращих рок-пісень XXI століття",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55584/baroness-meshuggah-gojira-converge-and-more-named-on-200-greatest-rock-songs-of-the-21st-century/",
-    "orig": "Baroness, Meshuggah, Gojira, Converge and more named on 200 Greatest Rock Songs of the 21st Century"
-   }
-  ],
-  [
-   1793225052.290796,
-   3325,
-   "🤘",
-   "Фестиваль Welcome to Rockville переніс анонс лайнапу на четвер",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55585/suicide-boys-revealed-for-welcome-to-rockville-full-line-up-reveal-pushed-back-until-thursday/",
-    "orig": "Suicide Boys revealed for Welcome to Rockville, full line up reveal pushed back until Thursday"
-   }
-  ],
-  [
-   1793225064.3646083,
-   3326,
-   "🤘",
-   "Poison The Well анонсували розігрівальні концерти перед фестивалем FYA XIII",
-   "Lambgoat",
-   {
-    "also": [
-     [
-      "ThePRP",
-      "https://www.theprp.com/2026/10/28/news/poison-the-well-announce-january-shows-with-rosasharin-xseraphx/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55586/poison-the-well-announce-a-pair-of-fya-xiii-warm-up-shows/",
-    "orig": "Poison The Well announce a pair of FYA XIII warm up shows"
-   }
-  ],
   [
    1793226775.795218,
    3327,
@@ -22511,7 +22474,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Primus випустять вініл &quot;Sailing The Seas Of Cheese&quot; з «сиром» усередині</b>\n\nЦе не справжній сир.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/05/news/new-cheese-filled-vinyl-pressing-of-primus-sailing-the-seas-of-cheese-due-this-month/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/05/news/new-cheese-filled-vinyl-pressing-of-primus-sailing-the-seas-of-cheese-due-this-month/",
     "orig": "New ‘Cheese-Filled’ Vinyl Pressing Of Primus’ “Sailing The Seas Of Cheese” Due This Month"
@@ -22525,7 +22487,6 @@
    "PlayUA",
    {
     "also": [],
-    "caption": "🎮 <b>В <a href=\"https://store.steampowered.com/app/1808500/\">ARC Raiders</a> додали українську мову</b>\n\nМультиплеєрний шутер ARC Raiders нарешті отримав українську локалізацію. Сталося це сьогодні разом із виходом невеликого оновлення 2.4.1.\n\n🔗 <a href=\"https://playua.net/v-arc-raiders-dodaly-ukrayinsku-movu/\">PlayUA</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://playua.net/v-arc-raiders-dodaly-ukrayinsku-movu/",
     "orig": "В ARC Raiders додали українську мову"
@@ -22539,7 +22500,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>Вийшов огляд фільму Wild Horse Nine Мартіна Макдонаха</b>\n\nФільм Wild Horse Nine переносить фірмову атмосферу In Bruges у декорації класичного вестерну на острові Пасхи на тлі приходу до влади Августо Піночета. Стрічка поєднує чорну комедію та політичний контекст, проте її емоції виглядають менш переконливими, ніж конспірологія. Головну роль у картині виконав Джон Малкович.\n\n🔗 <a href=\"https://www.indiewire.com/criticism/movies/wild-horse-nine-movie-review-1235213912/\">IndieWire</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.indiewire.com/criticism/movies/wild-horse-nine-movie-review-1235213912/",
     "orig": "‘Wild Horse Nine’ Review: Martin McDonagh’s Prickly but Unconvincing CIA Satire Recasts ‘In Bruges’ as the Stuff of a Classic Western"
@@ -22553,7 +22513,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>Аркадна гра <a href=\"https://store.steampowered.com/app/2831000/\">Faraway</a> вийшла після 16 років розробки</b>\n\nРозробник культової мобільної гри Eliss Стеф Тіріон випустив аркадну гру Faraway, на створення якої пішло 16 років. У ній гравець керує падаючою зіркою, що збирає енергію інших зірок для продовження життя та створення сузір&#x27;їв. Новинка вже доступна в Steam.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/after-a-16-year-long-dev-period-faraway-a-shooting-star-arcade-game-about-siphoning-the-energy-of-other-stars-is-out-now\">Rock Paper Shotgun</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/after-a-16-year-long-dev-period-faraway-a-shooting-star-arcade-game-about-siphoning-the-energy-of-other-stars-is-out-now",
     "orig": "After a 16-year long dev period, Faraway, a shooting star arcade game about siphoning the energy of other stars, is out now"
@@ -23366,6 +23325,62 @@
     "link": "https://www.videogameschronicle.com/news/union-actors-could-appear-in-early-game-demos-under-new-sag-aftra-plan/",
     "orig": "Union actors could appear in early game demos, under new SAG-AFTRA plan"
    }
+  ],
+  [
+   1793917881.3928804,
+   5102,
+   "🤘",
+   "Вокалістка HEART Енн Вілсон розкрила секрет збереження голосу після п'яти десятиліть на сцені",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Вокалістка HEART Енн Вілсон розкрила секрет збереження голосу після п&#x27;яти десятиліть на сцені</b>\n\nВокалістка HEART Енн Вілсон розповіла, що підтримує голос за допомогою годинної розспівки під альбоми інших виконавців, зокрема Elton John. Артистка також поділилася спогадами про минулі роки та підтвердила готовність повернутися до гастролей у 2025 році після проходження курсу хіміотерапії.\n\n🔗 <a href=\"https://blabbermouth.net/news/hearts-ann-wilson-on-how-she-has-managed-to-keep-her-singing-voice-in-such-great-shape-after-five-decades-i-take-care-of-myself-moderately\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/hearts-ann-wilson-on-how-she-has-managed-to-keep-her-singing-voice-in-such-great-shape-after-five-decades-i-take-care-of-myself-moderately",
+    "orig": "HEART's ANN WILSON On How She Has Managed To Keep Her Singing Voice In Such Great Shape After Five Decades: 'I Take Care Of Myself Moderately'"
+   }
+  ],
+  [
+   1793917891.9199042,
+   5103,
+   "🎮",
+   "Цифрові продажі Nintendo сягнули 60.7% від загального доходу",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Цифрові продажі Nintendo сягнули 60.7% від загального доходу</b>\n\nЗ квітня по вересень 2026 року цифрові продажі Nintendo склали 60.7% від загального доходу програмного забезпечення на платформах компанії. Показник зріс на 6.2 відсоткового пункту порівняно з минулим роком і досяг ¥249.6 мільярда єн. Зростання зумовлене зокрема наявністю завантажуваних ігор у комплекті консолей та курсом єни.\n\n🔗 <a href=\"https://insider-gaming.com/nintendo-digital-software-revenue-share-2026/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/nintendo-digital-software-revenue-share-2026/",
+    "orig": "Nintendo Digital Sales Reach 60.7% of Software Revenue"
+   }
+  ],
+  [
+   1793917901.6761065,
+   5104,
+   "🎮",
+   "SkewMond покидає G2 Esports попри звільнення тренера Perkz",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>SkewMond покидає G2 Esports попри звільнення тренера Perkz</b>\n\n🔗 <a href=\"https://insider-gaming.com/skewmond-still-set-to-leave-g2-despite-perkz-sacking-its-claimed/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/skewmond-still-set-to-leave-g2-despite-perkz-sacking-its-claimed/",
+    "orig": "SkewMond Still Set to Leave G2 Despite Perkz Sacking, It’s Claimed"
+   }
+  ],
+  [
+   1793917906.9395332,
+   5105,
+   "🎮",
+   "Воррен Спектр знову лютує через закриття BioWare і величезні зарплати топменеджерів EA",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Воррен Спектр знову лютує через закриття BioWare і величезні зарплати топменеджерів EA</b>\n\nЧерез два тижні після своїх різких висловлювань про долю студії гнів геймдизайнера й досі не вщух\n\n🔗 <a href=\"https://www.pcgamer.com/gaming-industry/warren-spector-sounds-even-angrier-about-biowares-closure-as-he-recounts-the-massive-salaries-of-ea-execs-is-there-any-accountability-left-in-this-world/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/gaming-industry/warren-spector-sounds-even-angrier-about-biowares-closure-as-he-recounts-the-massive-salaries-of-ea-execs-is-there-any-accountability-left-in-this-world/",
+    "orig": "Warren Spector sounds even angrier about BioWare's closure as he recounts the massive salaries of EA execs: 'Is there ANY accountability left in this world?'"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23474,8 +23489,6 @@
    1793901796.5323248
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1793827903.2831483,
-   1793829715.5622697,
    1793835095.520843,
    1793863908.88112,
    1793869512.7395825,
@@ -23498,7 +23511,9 @@
    1793907134.7835057,
    1793912650.0410643,
    1793914286.8827474,
-   1793914298.7165022
+   1793914298.7165022,
+   1793917891.9204063,
+   1793917901.6765723
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1793806348.7569947,
@@ -23506,7 +23521,6 @@
    1793892698.826328
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1793827916.650999,
    1793844086.4076388,
    1793880107.720239,
    1793881943.1716702,
@@ -23515,7 +23529,8 @@
    1793898229.9585087,
    1793905317.2772038,
    1793909037.5032356,
-   1793912612.6820338
+   1793912612.6820338,
+   1793917906.9399633
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1793863890.332546,
@@ -23627,7 +23642,8 @@
    1793907114.5701149,
    1793907174.346553,
    1793910695.6292913,
-   1793912679.502582
+   1793912679.502582,
+   1793917881.393364
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -24118,6 +24134,7 @@
   "12126a71df84f543": 1793701910.5217838,
   "1213804285fb0ec2": 1793226774.272732,
   "121ea9fad14141ee": 1793032455.74377,
+  "122299fff0278681": 1793917852.8708968,
   "12230656767e79dd": 1793901653.8973465,
   "1226bc7510068133": 1793199656.5185251,
   "12270345435634b0": 1793017998.947144,
@@ -24261,6 +24278,7 @@
   "1a676cee9c76c3d8": 1793584890.899226,
   "1a77295081231128": 1793235762.2557824,
   "1a82f992b518778f": 1793287874.6884918,
+  "1a870854af14f0f5": 1793917901.676527,
   "1a8b3549100212ec": 1792733505.5450127,
   "1a982d3f2e3d433f": 1793179907.740039,
   "1ab3f2e82411c41b": 1793736128.0008984,
@@ -24732,6 +24750,7 @@
   "3511d33dfef66618": 1793606761.6469293,
   "35128c7f307da6ff": 1793226778.7048647,
   "351ff959b9b4fd9f": 1793125882.9278913,
+  "352f7412914d3876": 1793917852.8708968,
   "3533c27ae020afab": 1793383325.6954696,
   "353fdd3e747bab31": 1793813641.4719038,
   "3546000bb526f873": 1793325781.2979681,
@@ -24849,6 +24868,7 @@
   "3cb909ba47d83f9a": 1792940539.9811897,
   "3cbb3d460908743e": 1793833253.9015992,
   "3cbf14ddd6d635ca": 1793176302.8580031,
+  "3cd48cb24f5b4a13": 1793917881.3933167,
   "3cdb468b0f662984": 1793734309.0712404,
   "3cec1e70ef86520d": 1793020603.5367851,
   "3cf15057b01c7d0a": 1792776807.125356,
@@ -25124,6 +25144,7 @@
   "4ce432aae74e5e8c": 1793070083.5389535,
   "4ceb3c3cf5ce5be6": 1793478681.5249367,
   "4d24554b9a67601e": 1792753254.9112473,
+  "4d2c1912e1f3cba3": 1793917852.8708968,
   "4d40776f6fad2727": 1793287964.6115835,
   "4d41cb8aaf131ac3": 1793896281.3090413,
   "4d4ad2bdc634ca23": 1792728081.19841,
@@ -25277,7 +25298,6 @@
   "54aa392e7ef595d9": 1793572280.0093975,
   "54ab1d381e32606a": 1793750479.69853,
   "54aefc573cc2dcf8": 1792888286.1469865,
-  "54cd137a9f90f362": 1792708286.2155037,
   "54ee163344ccb892": 1793379740.4944324,
   "54f237de851aab5e": 1793205182.0495782,
   "54f6555beabbb27b": 1793124157.7517543,
@@ -25401,6 +25421,7 @@
   "5bd2dc7caa15cde4": 1793631664.5142746,
   "5be68864a3f340f1": 1793721683.879615,
   "5bf37bad13c10678": 1793869516.7838788,
+  "5c169d01f79df873": 1793917906.9399195,
   "5c2c6eca4262adf3": 1793406677.730069,
   "5c42cb5d3a5fb806": 1793271831.6730425,
   "5c4aee3d89f55839": 1792935079.611996,
@@ -25581,6 +25602,7 @@
   "6658c33bfeb90beb": 1793721728.9145792,
   "665fdab0cfd66025": 1792762375.4571183,
   "666095fe20f7ff1d": 1792785794.4025352,
+  "666639ad11119cf5": 1793917852.8708968,
   "666779e4f744bdb5": 1792828887.4602394,
   "6671e515625a19f1": 1792960382.162961,
   "667850f1252d98d6": 1793125897.8399518,
@@ -25603,6 +25625,7 @@
   "6753efab78a345ac": 1793664121.1692266,
   "6759a06fa8a01064": 1793909119.6722019,
   "67611eb4cd73f28a": 1793701894.322488,
+  "6762df4d1786f114": 1793917852.8708968,
   "676bc1f9bfb102bf": 1793856784.223447,
   "676cec2606af3350": 1793037835.5168483,
   "677eae266e0e28e0": 1792942280.741516,
@@ -25776,6 +25799,7 @@
   "701b5dd795c0be64": 1793554315.182149,
   "7023ae050a7dccd1": 1792891885.7163527,
   "702ba9aaa90f72d5": 1793277100.2943623,
+  "7034d0d8e38eddb2": 1793917891.920359,
   "7038fddd58d6197f": 1792855853.874162,
   "704573f0cb96c3bc": 1793089896.8486874,
   "70471321e554ec93": 1792733502.5179763,
@@ -26057,6 +26081,7 @@
   "7f416b101e3fe831": 1793165508.428459,
   "7f49801a8098ed57": 1792852256.7497966,
   "7f4d92c0bea813bf": 1793721937.8819056,
+  "7f91ecfdf82ee56b": 1793917912.480465,
   "7f92add28ab82d3b": 1793300454.6501536,
   "7fa1311f86ef7904": 1793743366.855443,
   "7fa2bcef78fc9fa3": 1793295517.904652,
@@ -26489,6 +26514,7 @@
   "9840f744f166dd71": 1793205200.8209755,
   "984e371a49caa99f": 1793887407.5226257,
   "9879a54a1f0e44c0": 1793288135.328113,
+  "988500758e7cc482": 1793917852.8708968,
   "98aa46b22993ee44": 1793880095.9586532,
   "98b22ac0b32f4c8e": 1793113373.931447,
   "98ce7dcd27719cf9": 1793409555.3771222,
@@ -27971,7 +27997,6 @@
   "ed69891a80e07cf6": 1793392392.097546,
   "ed7cc4d25400771b": 1793359917.7222805,
   "ed97931a27414f95": 1793822048.7180307,
-  "ed9fa928d96e904c": 1792708280.5839186,
   "edcdb4e13fc01c5e": 1793914276.7164643,
   "ee183b6f6ba7b5f9": 1793516467.4826074,
   "ee20861d2010c0d4": 1793104411.800924,
@@ -28008,7 +28033,6 @@
   "f06b4bddf27b5dbe": 1793113276.9959323,
   "f088dd9b8cb7e47b": 1793052122.5443468,
   "f092ae509039930c": 1793711000.5938559,
-  "f09a6989a24c5c7a": 1792708282.630945,
   "f09b100f5046f8be": 1793437379.2043796,
   "f0a07c09fbf11339": 1793235675.9591463,
   "f0c0776b97656db1": 1792803795.285922,
@@ -28741,7 +28765,7 @@
   ],
   "artists_checked": 1793909124.7162163,
   "blocked_until": 1793908528.3979313,
-  "cursor": 338,
+  "cursor": 348,
   "digest_week": "2026-W44",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -29499,7 +29523,7 @@
   "filtered": {
    "/Film": 12,
    "Bloomberg": 6,
-   "Deadline": 3,
+   "Deadline": 4,
    "Digital Foundry": 1,
    "Eurogamer": 1,
    "GameSpot": 3,
@@ -29510,15 +29534,15 @@
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 3,
-   "Polygon": 41,
+   "Polygon": 43,
    "The Decoder": 2,
-   "VGC": 13,
-   "Variety": 3
+   "VGC": 15,
+   "Variety": 4
   },
   "sources": {
    "/Film": 23,
    "AIN.ua": 4,
-   "Blabbermouth": 49,
+   "Blabbermouth": 50,
    "Bloomberg": 44,
    "DOU": 5,
    "DOU Gamedev": 4,
@@ -29534,14 +29558,14 @@
    "IGN": 59,
    "ITC.ua": 51,
    "IndieWire": 20,
-   "Insider Gaming": 74,
+   "Insider Gaming": 76,
    "Kerrang!": 18,
    "Lambgoat": 38,
    "Loudwire": 24,
    "Metal Hammer (Louder)": 22,
    "Metal Injection": 14,
    "Mezha": 47,
-   "PC Gamer": 47,
+   "PC Gamer": 48,
    "Pitchfork": 8,
    "PlayUA": 12,
    "Polygon": 24,
@@ -29558,7 +29582,7 @@
   "translators": {
    "DeepL": 62,
    "gemini-flash-latest": 4,
-   "gemini-flash-lite-latest": 1023
+   "gemini-flash-lite-latest": 1028
   },
   "week": "2026-W45"
  },
@@ -31148,31 +31172,6 @@
    "Amnesia: The Dark Descent",
    1792501321.7501497
   ],
-  "q:among": [
-   0,
-   "",
-   1793743286.675938
-  ],
-  "q:among suitors": [
-   0,
-   "",
-   1793743286.1425364
-  ],
-  "q:among suitors trying": [
-   0,
-   "",
-   1793743285.4374387
-  ],
-  "q:among suitors trying to buy": [
-   0,
-   "",
-   1793743284.8903246
-  ],
-  "q:among suitors trying to buy marvel": [
-   0,
-   "",
-   1793743284.1868632
-  ],
   "q:among us": [
    945360,
    "Among Us",
@@ -31247,6 +31246,11 @@
    2412640,
    "Another Day",
    1792607483.3603911
+  ],
+  "q:any": [
+   0,
+   "",
+   1793917904.75466
   ],
   "q:anywhere": [
    4386680,
@@ -31537,31 +31541,6 @@
    0,
    "",
    1793885631.5832481
-  ],
-  "q:behind": [
-   0,
-   "",
-   1793743325.0706294
-  ],
-  "q:behind indie": [
-   0,
-   "",
-   1793743324.5285208
-  ],
-  "q:behind indie gem": [
-   0,
-   "",
-   1793743324.0104856
-  ],
-  "q:behind indie gem sea": [
-   0,
-   "",
-   1793743323.4713843
-  ],
-  "q:behind indie gem sea of stars": [
-   0,
-   "",
-   1793743322.9017375
   ],
   "q:beholder conductor": [
    2825530,
@@ -31902,36 +31881,6 @@
    0,
    "",
    1793863888.4785979
-  ],
-  "q:bride": [
-   0,
-   "",
-   1793743333.9769144
-  ],
-  "q:bride goes": [
-   0,
-   "",
-   1793743333.3324268
-  ],
-  "q:bride goes viral": [
-   0,
-   "",
-   1793743332.786962
-  ],
-  "q:bride goes viral after": [
-   0,
-   "",
-   1793743332.232244
-  ],
-  "q:bride goes viral after challenging": [
-   0,
-   "",
-   1793743331.6275916
-  ],
-  "q:bride goes viral after challenging groom": [
-   0,
-   "",
-   1793743331.1186302
   ],
   "q:brings": [
    0,
@@ -32363,11 +32312,6 @@
    "",
    1793887383.008631
   ],
-  "q:consoles are in stock ahead": [
-   0,
-   "",
-   1793743302.7873118
-  ],
   "q:constantine": [
    0,
    "",
@@ -32522,36 +32466,6 @@
    0,
    "",
    1793898255.2597985
-  ],
-  "q:custom": [
-   0,
-   "",
-   1793743316.6228602
-  ],
-  "q:custom xbox inside an alligator": [
-   0,
-   "",
-   1793743316.0694866
-  ],
-  "q:custom xbox inside an alligator console": [
-   0,
-   "",
-   1793743315.4172335
-  ],
-  "q:custom xbox inside an alligator console is": [
-   0,
-   "",
-   1793743314.6516771
-  ],
-  "q:custom xbox inside an alligator console is actually": [
-   0,
-   "",
-   1793743314.0121117
-  ],
-  "q:custom xbox inside an alligator console is actually one": [
-   0,
-   "",
-   1793743313.4294705
   ],
   "q:cutout village": [
    3907910,
@@ -33013,6 +32927,21 @@
    "",
    1793883685.2950969
   ],
+  "q:digital sales reach": [
+   0,
+   "",
+   1793917887.3267972
+  ],
+  "q:digital sales reach 60 7": [
+   0,
+   "",
+   1793917886.7550097
+  ],
+  "q:digital sales reach 60 7 of software": [
+   0,
+   "",
+   1793917886.219624
+  ],
   "q:dino crisis": [
    4249130,
    "Dino Crisis",
@@ -33367,21 +33296,6 @@
    1055090,
    "Embark",
    1792676055.464709
-  ],
-  "q:emblem ish": [
-   0,
-   "",
-   1793743347.5655992
-  ],
-  "q:emblem ish food": [
-   0,
-   "",
-   1793743347.0673914
-  ],
-  "q:emblem ish food devils": [
-   0,
-   "",
-   1793743346.5268478
   ],
   "q:enough hits": [
    0,
@@ -33862,26 +33776,6 @@
    444410,
    "Find Out",
    1792593209.6582353
-  ],
-  "q:fire": [
-   0,
-   "",
-   1793743346.002419
-  ],
-  "q:fire emblem ish": [
-   0,
-   "",
-   1793743345.3836093
-  ],
-  "q:fire emblem ish food": [
-   0,
-   "",
-   1793743344.769536
-  ],
-  "q:fire emblem ish food devils": [
-   0,
-   "",
-   1793743344.2341256
   ],
   "q:first gameplay trailer for upcoming": [
    0,
@@ -34683,31 +34577,6 @@
    "Godzilla: Destroy All Monsters Melee Remastered",
    1793642516.1267724
   ],
-  "q:goes": [
-   0,
-   "",
-   1793743336.7829728
-  ],
-  "q:goes viral": [
-   0,
-   "",
-   1793743336.2001758
-  ],
-  "q:goes viral after": [
-   0,
-   "",
-   1793743335.627543
-  ],
-  "q:goes viral after challenging": [
-   0,
-   "",
-   1793743335.089633
-  ],
-  "q:goes viral after challenging groom": [
-   0,
-   "",
-   1793743334.5034978
-  ],
   "q:gog announces": [
    0,
    "",
@@ -35067,31 +34936,6 @@
    0,
    "",
    1793806324.3871772
-  ],
-  "q:have looked": [
-   0,
-   "",
-   1793743364.862269
-  ],
-  "q:have looked into": [
-   0,
-   "",
-   1793743364.3254352
-  ],
-  "q:have looked into buying": [
-   0,
-   "",
-   1793743363.7644012
-  ],
-  "q:have looked into buying arkane": [
-   0,
-   "",
-   1793743363.236927
-  ],
-  "q:have looked into buying arkane studios": [
-   0,
-   "",
-   1793743362.6351724
   ],
   "q:hawke": [
    0,
@@ -35457,21 +35301,6 @@
    5346150,
    "Indian Truck Simulator",
    1793701893.6642637
-  ],
-  "q:indie gem sea": [
-   0,
-   "",
-   1793743326.7300434
-  ],
-  "q:indie gem sea of stars": [
-   0,
-   "",
-   1793743326.2016668
-  ],
-  "q:indie gem sea of stars developing": [
-   0,
-   "",
-   1793743325.6613843
   ],
   "q:initiative": [
    0,
@@ -36317,11 +36146,6 @@
    0,
    "",
    1793793686.0875897
-  ],
-  "q:looked into buying arkane studios": [
-   0,
-   "",
-   1793743365.4103546
   ],
   "q:looking glass": [
    1272530,
@@ -37283,6 +37107,26 @@
    "",
    1793806320.1168094
   ],
+  "q:nintendo digital": [
+   0,
+   "",
+   1793917885.5163233
+  ],
+  "q:nintendo digital sales": [
+   0,
+   "",
+   1793917884.7453017
+  ],
+  "q:nintendo digital sales reach": [
+   0,
+   "",
+   1793917884.209077
+  ],
+  "q:nintendo digital sales reach 60 7": [
+   0,
+   "",
+   1793917883.5413227
+  ],
   "q:nintendo h1": [
    0,
    "",
@@ -37843,31 +37687,6 @@
    "OTHERS",
    1793743362.0592418
   ],
-  "q:others have": [
-   0,
-   "",
-   1793743361.5083208
-  ],
-  "q:others have looked": [
-   0,
-   "",
-   1793743361.0008883
-  ],
-  "q:others have looked into": [
-   0,
-   "",
-   1793743360.4743247
-  ],
-  "q:others have looked into buying": [
-   0,
-   "",
-   1793743359.8914368
-  ],
-  "q:others have looked into buying arkane": [
-   0,
-   "",
-   1793743359.3412619
-  ],
   "q:our": [
    0,
    "",
@@ -38273,21 +38092,6 @@
    "PRAGMATA",
    1793203330.6081498
   ],
-  "q:pre release": [
-   0,
-   "",
-   1793743354.593784
-  ],
-  "q:pre release review": [
-   0,
-   "",
-   1793743354.0717227
-  ],
-  "q:pre release review process": [
-   0,
-   "",
-   1793743353.4868565
-  ],
   "q:preload release": [
    0,
    "",
@@ -38393,11 +38197,6 @@
    "",
    1793790166.4693987
   ],
-  "q:process": [
-   0,
-   "",
-   1793743355.6243207
-  ],
   "q:producer": [
    0,
    "",
@@ -38497,21 +38296,6 @@
    0,
    "",
    1793824281.436821
-  ],
-  "q:ps5 and xbox": [
-   0,
-   "",
-   1793743300.0918565
-  ],
-  "q:ps5 and xbox consoles": [
-   0,
-   "",
-   1793743299.5853562
-  ],
-  "q:ps5 and xbox consoles are": [
-   0,
-   "",
-   1793743299.0332925
   ],
   "q:ps5 is": [
    0,
@@ -38923,11 +38707,6 @@
    "",
    1793790173.6894605
   ],
-  "q:review process": [
-   0,
-   "",
-   1793743355.1045127
-  ],
   "q:review so far": [
    0,
    "",
@@ -39143,35 +38922,15 @@
    "",
    1793916190.5918136
   ],
-  "q:salacious": [
-   0,
-   "",
-   1793743343.6804547
-  ],
-  "q:salacious fire": [
-   0,
-   "",
-   1793743343.1596227
-  ],
-  "q:salacious fire emblem ish": [
-   0,
-   "",
-   1793743342.6505036
-  ],
-  "q:salacious fire emblem ish food": [
-   0,
-   "",
-   1793743342.120999
-  ],
-  "q:salacious fire emblem ish food devils": [
-   0,
-   "",
-   1793743341.605153
-  ],
   "q:sale": [
    0,
    "",
    1793808230.3845563
+  ],
+  "q:sales": [
+   0,
+   "",
+   1793917890.2235236
   ],
   "q:sales continue to increase": [
    0,
@@ -39187,6 +38946,26 @@
    0,
    "",
    1793883687.839876
+  ],
+  "q:sales reach": [
+   0,
+   "",
+   1793917889.698251
+  ],
+  "q:sales reach 60 7": [
+   0,
+   "",
+   1793917889.072975
+  ],
+  "q:sales reach 60 7 of software": [
+   0,
+   "",
+   1793917888.4771106
+  ],
+  "q:sales reach 60 7 of software revenue": [
+   0,
+   "",
+   1793917887.84167
   ],
   "q:sam": [
    0,
@@ -39433,6 +39212,16 @@
    "",
    1793799123.80061
   ],
+  "q:set to leave g2 despite": [
+   0,
+   "",
+   1793917899.9255621
+  ],
+  "q:set to leave g2 despite perkz": [
+   0,
+   "",
+   1793917899.423638
+  ],
   "q:share the same": [
    0,
    "",
@@ -39517,6 +39306,31 @@
    3354750,
    "skate.",
    1792609361.7887642
+  ],
+  "q:skewmond": [
+   0,
+   "",
+   1793917896.0474417
+  ],
+  "q:skewmond still": [
+   0,
+   "",
+   1793917895.547301
+  ],
+  "q:skewmond still set": [
+   0,
+   "",
+   1793917894.9978032
+  ],
+  "q:skewmond still set to leave": [
+   0,
+   "",
+   1793917894.4964182
+  ],
+  "q:skewmond still set to leave g2": [
+   0,
+   "",
+   1793917893.9292567
   ],
   "q:skins": [
    0,
@@ -39687,6 +39501,11 @@
    0,
    "",
    1793885527.700541
+  ],
+  "q:spector": [
+   0,
+   "",
+   1793917904.204794
   ],
   "q:speedrunner": [
    2193690,
@@ -39868,6 +39687,31 @@
    "Steven",
    1792145450.2663064
   ],
+  "q:still": [
+   0,
+   "",
+   1793917898.902444
+  ],
+  "q:still set": [
+   0,
+   "",
+   1793917898.3126523
+  ],
+  "q:still set to leave": [
+   0,
+   "",
+   1793917897.8068333
+  ],
+  "q:still set to leave g2": [
+   0,
+   "",
+   1793917897.176789
+  ],
+  "q:still set to leave g2 despite": [
+   0,
+   "",
+   1793917896.5815625
+  ],
   "q:stolen": [
    0,
    "",
@@ -39937,21 +39781,6 @@
    1962700,
    "Subnautica 2",
    1792494157.8367805
-  ],
-  "q:suitors trying to buy": [
-   0,
-   "",
-   1793743288.2797089
-  ],
-  "q:suitors trying to buy marvel": [
-   0,
-   "",
-   1793743287.7341094
-  ],
-  "q:suitors trying to buy marvel's blade": [
-   0,
-   "",
-   1793743287.1964912
   ],
   "q:survival games": [
    307150,
@@ -40072,26 +39901,6 @@
    0,
    "",
    1793826098.3894339
-  ],
-  "q:team behind": [
-   0,
-   "",
-   1793743322.2840264
-  ],
-  "q:team behind indie": [
-   0,
-   "",
-   1793743321.6888394
-  ],
-  "q:team behind indie gem": [
-   0,
-   "",
-   1793743321.0887341
-  ],
-  "q:team behind indie gem sea": [
-   0,
-   "",
-   1793743320.5267053
   ],
   "q:team fortress 2": [
    440,
@@ -40222,31 +40031,6 @@
    0,
    "",
    1793896542.3723812
-  ],
-  "q:this custom": [
-   0,
-   "",
-   1793743312.8425887
-  ],
-  "q:this custom xbox inside an alligator": [
-   0,
-   "",
-   1793743312.250121
-  ],
-  "q:this custom xbox inside an alligator console": [
-   0,
-   "",
-   1793743311.6229422
-  ],
-  "q:this custom xbox inside an alligator console is": [
-   0,
-   "",
-   1793743310.9721663
-  ],
-  "q:this custom xbox inside an alligator console is actually": [
-   0,
-   "",
-   1793743310.435017
   ],
   "q:this handheld": [
    0,
@@ -40583,26 +40367,6 @@
    "Tyler",
    1793403098.8882158
   ],
-  "q:ubisoft among": [
-   0,
-   "",
-   1793743283.6914954
-  ],
-  "q:ubisoft among suitors": [
-   0,
-   "",
-   1793743283.0762694
-  ],
-  "q:ubisoft among suitors trying": [
-   0,
-   "",
-   1793743282.4909403
-  ],
-  "q:ubisoft among suitors trying to buy": [
-   0,
-   "",
-   1793743281.9421294
-  ],
   "q:ubisoft and ea": [
    0,
    "",
@@ -40753,26 +40517,6 @@
    "",
    1793907131.4789906
   ],
-  "q:updates": [
-   0,
-   "",
-   1793743352.8839076
-  ],
-  "q:updates to the pre release": [
-   0,
-   "",
-   1793743352.3072133
-  ],
-  "q:updates to the pre release review": [
-   0,
-   "",
-   1793743351.76332
-  ],
-  "q:updates to the pre release review process": [
-   0,
-   "",
-   1793743351.1309338
-  ],
   "q:us house": [
    0,
    "",
@@ -40827,11 +40571,6 @@
    2949660,
    "Vincent",
    1792927881.432758
-  ],
-  "q:viral after challenging groom to beat": [
-   0,
-   "",
-   1793743337.356904
   ],
   "q:virtue and a sledgehammer": [
    3743260,
@@ -40978,6 +40717,11 @@
    "Warlock: Dungeons & Dragons",
    1791931755.0434942
   ],
+  "q:warren spector": [
+   0,
+   "",
+   1793917903.687073
+  ],
   "q:wendy": [
    0,
    "",
@@ -41047,26 +40791,6 @@
    0,
    "",
    1793829691.4484565
-  ],
-  "q:what ps5": [
-   0,
-   "",
-   1793743298.4722717
-  ],
-  "q:what ps5 and xbox": [
-   0,
-   "",
-   1793743297.9472828
-  ],
-  "q:what ps5 and xbox consoles": [
-   0,
-   "",
-   1793743297.270651
-  ],
-  "q:what ps5 and xbox consoles are": [
-   0,
-   "",
-   1793743296.6770952
   ],
   "q:white house": [
    0,
@@ -41363,31 +41087,6 @@
    "",
    1793829708.372473
   ],
-  "q:xbox consoles": [
-   0,
-   "",
-   1793743302.2775047
-  ],
-  "q:xbox consoles are": [
-   0,
-   "",
-   1793743301.5987196
-  ],
-  "q:xbox consoles are in stock": [
-   0,
-   "",
-   1793743301.0956933
-  ],
-  "q:xbox consoles are in stock ahead": [
-   0,
-   "",
-   1793743300.59246
-  ],
-  "q:xbox inside an alligator console is actually one big": [
-   0,
-   "",
-   1793743317.1751432
-  ],
   "q:xbox pc": [
    0,
    "",
@@ -41606,14 +41305,14 @@
  },
  "tag_hints": {
   "Mezha": [
-   "anduril",
    "discord",
    "motorola",
    "nvidia",
    "openai",
-   "origin",
    "renault",
+   "sony",
    "u mobile",
+   "walkman",
    "x/twitter",
    "акумулятори",
    "безпілотники",
@@ -41622,13 +41321,11 @@
    "енергонезалежність",
    "кібербезпека",
    "мобільний зв'язок",
-   "нато",
+   "навушники",
    "новини",
    "нрк",
    "оборонка",
-   "перехоплювачі",
    "податки",
-   "ппо",
    "смартфони",
    "софт",
    "соціальні мережі",
@@ -41642,22 +41339,6 @@
   ]
  },
  "titles": [
-  [
-   1793745081.78749,
-   "Rock For People Adds Evanescence, Parkway Drive, The Devil Wears Prada and More to Lineup"
-  ],
-  [
-   1793745084.7948186,
-   "Mastodon Moves to Dismiss Key Claims in Brent Hinds Estate Lawsuit"
-  ],
-  [
-   1793745088.434715,
-   "Ubisoft reportedly wants to buy Arkane from Xbox"
-  ],
-  [
-   1793745092.3754365,
-   "Nexus Mods rules out full AI ban despite community backlash"
-  ],
   [
    1793746890.8823647,
    "The Witcher 3 Devs Talk Songs of the Past DLC Details"
@@ -43577,25 +43258,25 @@
   [
    1793916193.2074482,
    "Union actors could appear in early game demos, under new SAG-AFTRA plan"
+  ],
+  [
+   1793917881.3933187,
+   "HEART's ANN WILSON On How She Has Managed To Keep Her Singing Voice In Such Great Shape After Five Decades: 'I Take Care Of Myself Moderately'"
+  ],
+  [
+   1793917891.9203608,
+   "Nintendo Digital Sales Reach 60.7% of Software Revenue"
+  ],
+  [
+   1793917901.6765287,
+   "SkewMond Still Set to Leave G2 Despite Perkz Sacking, It’s Claimed"
+  ],
+  [
+   1793917906.939921,
+   "Warren Spector sounds even angrier about BioWare's closure as he recounts the massive salaries of EA execs: 'Is there ANY accountability left in this world?'"
   ]
  ],
  "titles_uk": [
-  [
-   1793745081.7874908,
-   "Rock For People оголосив нові гурти у лайнапі фестивалю"
-  ],
-  [
-   1793745084.7948194,
-   "Mastodon намагається відхилити ключові звинувачення в позові від спадкоємців Brent Hinds"
-  ],
-  [
-   1793745088.434716,
-   "Ubisoft хоче придбати студію Arkane у Xbox"
-  ],
-  [
-   1793745092.3754375,
-   "Nexus Mods не заборонятиме моди з використанням ШІ"
-  ],
   [
    1793746890.8823652,
    "CD Projekt Red поділилися деталями доповнення Songs of the Past для The Witcher 3"
@@ -45515,6 +45196,22 @@
   [
    1793916193.2074492,
    "SAG-AFTRA дозволила залучати акторів на ранніх етапах створення ігор"
+  ],
+  [
+   1793917881.3933196,
+   "Вокалістка HEART Енн Вілсон розкрила секрет збереження голосу після п'яти десятиліть на сцені"
+  ],
+  [
+   1793917891.9203618,
+   "Цифрові продажі Nintendo сягнули 60.7% від загального доходу"
+  ],
+  [
+   1793917901.6765294,
+   "SkewMond покидає G2 Esports попри звільнення тренера Perkz"
+  ],
+  [
+   1793917906.9399216,
+   "Воррен Спектр знову лютує через закриття BioWare і величезні зарплати топменеджерів EA"
   ]
  ],
  "ukrainian": {
@@ -47857,7 +47554,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793914338.1339412,
+  "last_check": 1793917920.413986,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
