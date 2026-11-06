@@ -1,7 +1,7 @@
 {
  "alerts": {
   "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
-   "detail": "https://distortedsoundmag.com/feed/ → 504 Server Error: Gateway Time-out for url: https://distortedsoundmag.com/feed/",
+   "detail": "https://distortedsoundmag.com/feed/ → HTTPSConnectionPool(host='distortedsoundmag.com', port=443): Read timed out. (read timeout=20)",
    "label": "Джерело «Distorted Sound» не працює",
    "sent": 0,
    "since": 1793966484.038593
@@ -35,160 +35,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-06 13:01 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-11-06 14:03 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793280708.4262028,
-   3421,
-   "🤘",
-   "Французькі рокери PAERISH випустили четвертий альбом Rita",
-   "Distorted Sound",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://distortedsoundmag.com/album-review-rita-paerish/",
-    "orig": "ALBUM REVIEW: Rita – Paerish"
-   }
-  ],
-  [
-   1793280730.3575587,
-   3422,
-   "🤘",
-   "U2 додали дати у Великій Британії та Європі до туру 2027 року",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/news/u2-announce-2027-uk-europe-tour-dates-greatest-show-on-earth-2026",
-    "orig": "U2 add UK and European dates to 2027 world tour, humbly entitled The Greatest Show On Earth"
-   }
-  ],
-  [
-   1793280732.5660682,
-   3423,
-   "💾",
-   "У Києві запустили безплатний сервіс пошуку попутників \"Збіг\" – альтернативу таксі під час тривог",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/kyiv-launches-a-free-ride-sharing-service-316672/",
-    "orig": "У Києві запустили безплатний сервіс пошуку попутників \"Збіг\" – альтернативу таксі під час тривог"
-   }
-  ],
-  [
-   1793280757.180893,
-   3424,
-   "🎮",
-   "Додавання підтримки геймпадів у World of Warcraft: Forever відкриє гру для нових пристроїв",
-   "VGC",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.videogameschronicle.com/news/world-of-warcraft-forever-controller-support-is-the-first-step-to-playing-anywhere-as-blizzard-prepares-for-xbox-helix/",
-    "orig": "World of Warcraft Forever controller support is the first step to playing ‘anywhere’, as Blizzard prepares for Xbox Helix"
-   }
-  ],
-  [
-   1793280786.0821364,
-   3425,
-   "🎮",
-   "Phantom Blade Zero зібрала рекордну аудиторію в Steam у день релізу",
-   "Polygon",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.polygon.com/phantom-blade-zero-best-selling-top-single-player-game-steam-charts/",
-    "orig": "Phantom Blade Zero Explodes on Steam Charts on Day One"
-   }
-  ],
-  [
-   1793280788.5285215,
-   3426,
-   "🎮",
-   "Steam переповнений ШІ-сміттям: Valve шукає спосіб врятувати хороші ігри",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/steam-perepovnenyj-shi-smittyam-valve-shukaye-sposib-vryatuvaty-horoshi-igry/",
-    "orig": "Steam переповнений ШІ-сміттям: Valve шукає спосіб врятувати хороші ігри"
-   }
-  ],
-  [
-   1793280836.9800847,
-   3427,
-   "🤖",
-   "ШІ-лабораторії з Китаю переключилися на модель Astra від OpenAI",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/openais-astra-becomes-the-main-target-for-chinese-ai-labs-after-anthropic-tightens-its-defenses/",
-    "orig": "OpenAI's Astra becomes the main target for Chinese AI labs after Anthropic tightens its defenses"
-   }
-  ],
-  [
-   1793280859.586866,
-   3428,
-   "🎮",
-   "Football Manager 27 повертається до найкращої форми завдяки оновленому інтерфейсу",
-   "Eurogamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.eurogamer.net/football-manager-27-preview-interview-tactical-effectiveness-ui-strike-team",
-    "orig": "With a cracking new tactical feature and dedicated UI \"strike team\", Football Manager 27 is a huge step back towards FM's best form"
-   }
-  ],
-  [
-   1793280875.089718,
-   3429,
-   "🎮",
-   "Nintendo UK випустила бандл зі Switch 2 та Mario Kart World зі знижкою £134",
-   "VGC",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.videogameschronicle.com/news/nintendo-uk-is-selling-a-switch-2-bundle-including-mario-kart-world-a-camera-and-a-microsd-card-for-134-off/",
-    "orig": "Nintendo UK is selling a Switch 2 bundle including Mario Kart World, a camera and a MicroSD card for £134 off"
-   }
-  ],
-  [
-   1793280877.343358,
-   3430,
-   "💾",
-   "Reddit змінює головну сторінку: з'являться стрічки \"Для вас\" і \"Підписки\"",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/reddit-introduces-a-personalized-for-you-feed-316663/",
-    "orig": "Reddit змінює головну сторінку: з'являться стрічки \"Для вас\" і \"Підписки\""
-   }
-  ],
-  [
-   1793280898.123008,
-   3431,
-   "🎬",
-   "Netflix продовжив серіал The Diplomat на п'ятий сезон",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/the-diplomat-renewed-season-5-netflix-1237207664/",
-    "orig": "‘The Diplomat’ Renewed For Season 5 At Netflix"
-   }
-  ],
   [
    1793282733.7149043,
    3432,
@@ -22141,7 +21998,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>Зіткніться з корпорацією, що маніпулює часом, у грі <a href=\"https://store.steampowered.com/app/5081550/\">CHRONO PUNK</a> — екшен-рогалайті, що поєднує в собі елементи <a href=\"https://store.steampowered.com/app/2836250/\">Soul Eater</a> та Jet Set Radio</b>\n\nМені найбільше подобаються ігри, які, очевидно, прагнуть відтворити атмосферу певної епохи ігрової індустрії, але при цьому не виглядають так, ніби намагаються бути схожими на будь-яку іншу гру з тієї епохи; більше того, якби хтось сказав мені, що це гра для PS2 чи Dreamcast, про яку всі вже забули, я б у це повірив.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/take-on-a-time-manipulating-corporation-in-the-very-soul-eater-meets-jet-set-radio-action-roguelite-chrono-punk\">Rock Paper Shotgun</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/take-on-a-time-manipulating-corporation-in-the-very-soul-eater-meets-jet-set-radio-action-roguelite-chrono-punk",
     "orig": "Take on a time-manipulating corporation in the very Soul Eater meets Jet Set Radio action roguelite CHRONO PUNK"
@@ -22155,7 +22011,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Аль Джоргенсен про обмежену участь Пола Баркера у створенні останнього альбому гурту Ministry: «Те, що працювало в дев’яностих, зараз не працює»</b>\n\nСпочатку дует планував спільно попрацювати над усім останнім студійним альбомом гурту Ministry, але зрештою обмежився однією піснею.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/05/news/al-jourgensen-on-paul-barkers-limited-involvement-on-ministrys-final-album-what-worked-in-the-nineties-doesnt-work-now/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/05/news/al-jourgensen-on-paul-barkers-limited-involvement-on-ministrys-final-album-what-worked-in-the-nineties-doesnt-work-now/",
     "orig": "Al Jourgensen On Paul Barker’s Limited Involvement On Ministry’s Final Album: “What Worked In The Nineties Doesn’t Work Now”"
@@ -23001,6 +22856,34 @@
     "link": "https://itc.ua/ua/novini/ostannye-masshtabne-onovlennya-pered-windows-12-microsoft-gotuye-windows-11-27h2/",
     "orig": "Останнє масштабне оновлення перед Windows 12? Microsoft готує Windows 11 27H2"
    }
+  ],
+  [
+   1793973801.2107267,
+   5171,
+   "🎬",
+   "Джек Вайтолл, Ніна Добрев, Грег Кіннір та Енді МакДавелл зіграють у ромкомі Honeymooners",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Джек Вайтолл, Ніна Добрев, Грег Кіннір та Енді МакДавелл зіграють у ромкомі Honeymooners</b>\n\nЗірковий склад поповнив романтичну комедію Honeymooners від режиссера Деріла Вейна. Міжнародними продажами стрічки на AFM займатиметься HanWay Films.\n\n🔗 <a href=\"https://deadline.com/2026/11/nina-dobrev-jack-whitehall-greg-kinnear-honeymooners-movie-1237215360/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/nina-dobrev-jack-whitehall-greg-kinnear-honeymooners-movie-1237215360/",
+    "orig": "Jack Whitehall, Nina Dobrev, Greg Kinnear & Andie MacDowell Set For Rom-Com ‘Honeymooners’; HanWay & CAA Launch For AFM"
+   }
+  ],
+  [
+   1793973804.1375139,
+   5172,
+   "🤖",
+   "Представлено ToyBlocks — симулятор для вивчення та тестування роботів",
+   "Hugging Face",
+   {
+    "also": [],
+    "caption": "🤖 <b>Представлено ToyBlocks — симулятор для вивчення та тестування роботів</b>\n\n🔗 <a href=\"https://huggingface.co/blog/allenai/toyblocks\">Hugging Face</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://huggingface.co/blog/allenai/toyblocks",
+    "orig": "ToyBlocks: A controlled world for robot learning and evaluation"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23021,8 +22904,8 @@
    1793952454.2693582
   ],
   "ai|Hugging Face|https://huggingface.co/blog/feed.xml": [
-   1793876511.1607816,
-   1793909050.8418012
+   1793909050.8418012,
+   1793973804.1380508
   ],
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
    1793901791.4381263,
@@ -23210,8 +23093,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1793885563.4143746,
-   1793885582.3518758,
    1793901864.7027793,
    1793905355.1138437,
    1793907171.2403705,
@@ -23224,7 +23105,8 @@
    1793950285.4030151,
    1793959349.1292706,
    1793962977.5185516,
-   1793964693.0000153
+   1793964693.0000153,
+   1793973801.2111654
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1793880078.4370158,
@@ -24348,7 +24230,6 @@
   "34883185cce8d04b": 1793772052.7682447,
   "34888939304ad5f3": 1793835100.0640867,
   "348e6091ade8ac88": 1793527607.9681401,
-  "34939b6c2163ad77": 1792762347.9021494,
   "3493f501c2461e6e": 1793639170.6767592,
   "34995eb440d2c358": 1792891853.972916,
   "349a52a89dda4be4": 1793847694.0916648,
@@ -24377,7 +24258,6 @@
   "35a7dcfb05324f3a": 1793109853.1739852,
   "35aeee524f8ec7e1": 1793280682.7474515,
   "35b6752c52af44eb": 1793206879.087405,
-  "35be12eaf49040a5": 1792764140.6915898,
   "35c7c978195d3a78": 1793372522.233624,
   "35cad1d958b2841b": 1793521877.1028616,
   "35d89621cb0500ea": 1793113368.5385554,
@@ -24418,7 +24298,6 @@
   "38bf18b1a81b6a90": 1792780430.6788054,
   "38cedecc5d650ec4": 1793127715.8125124,
   "38ddaa8a1dcabaac": 1793545390.7232473,
-  "3908d56ff73874db": 1792762392.237454,
   "391f928a41fa3a48": 1793394138.1941593,
   "3922128bd4587445": 1793118741.0585067,
   "392225384d4e6fd1": 1793851314.57619,
@@ -24526,7 +24405,6 @@
   "3f6fb5fab81d5dc7": 1793313170.9484394,
   "3f78491a683059a9": 1793664055.972561,
   "3f799af8df7757bf": 1793903639.1428232,
-  "3f831eff304bbf23": 1792764053.9746714,
   "3f83453e353ec4a7": 1793718228.3871365,
   "3f88bfc617ec2070": 1792841591.1889095,
   "3fb2a65184671418": 1793909072.0261939,
@@ -24571,7 +24449,6 @@
   "41910ba2a6b0e328": 1793300521.945227,
   "41abc23c0481789d": 1793014502.6837733,
   "41abc7095c1d5e76": 1793432150.8162344,
-  "41c939ba78b119a1": 1792762311.2503817,
   "41d1022308607941": 1793626398.572794,
   "41e0ebb8ff8b06ae": 1792854053.1157928,
   "41eb96a631379cff": 1793336501.0182874,
@@ -25183,7 +25060,6 @@
   "64d37b4b962c35f6": 1793059254.1746871,
   "64ef614d2c95ef44": 1793653282.5216963,
   "6520eb2a723479ef": 1793613677.8454714,
-  "653e07aa3cfb7801": 1792762322.5031266,
   "654124b4cf3f70e6": 1793129507.0961447,
   "655d7cceb3ca0846": 1793257275.9779625,
   "655df500de25b710": 1793275332.465009,
@@ -25201,7 +25077,6 @@
   "663609732a6bc47b": 1793025343.1236606,
   "66522fce5a14d966": 1793219582.9985342,
   "6658c33bfeb90beb": 1793721728.9145792,
-  "665fdab0cfd66025": 1792762375.4571183,
   "666095fe20f7ff1d": 1792785794.4025352,
   "666639ad11119cf5": 1793917852.8708968,
   "666779e4f744bdb5": 1792828887.4602394,
@@ -25612,6 +25487,7 @@
   "7b2dae2891a089e0": 1793548971.7962878,
   "7b39442a6078b703": 1792793160.8123236,
   "7b3e0c1588d57a10": 1793480451.990929,
+  "7b416e0989d2a7f5": 1793973801.2111194,
   "7b464136049b2381": 1793032255.3988454,
   "7b6195d780bc79c9": 1793358096.4332318,
   "7b7219162235545f": 1792972965.8160064,
@@ -25627,7 +25503,6 @@
   "7c1e75f5b019a6eb": 1793117088.8412097,
   "7c213e5a7519af56": 1792920875.8849838,
   "7c2b6e643459589a": 1793300552.93139,
-  "7c3157cd197049fa": 1792762298.526936,
   "7c5f4bca215a0faf": 1793305876.5635006,
   "7c6002b2d2ce45e9": 1793349380.5888422,
   "7c6127fe20fbbc9a": 1793916177.8176472,
@@ -25664,7 +25539,6 @@
   "7e645e93183e8550": 1793277115.0753274,
   "7e7a6ce6c81ff0b4": 1793435592.9244723,
   "7e9d876b30c3b435": 1793721877.592814,
-  "7ea4156157dc444f": 1792762354.189617,
   "7eadcfab21bfacae": 1792859545.133006,
   "7ecd1ec68836a9a5": 1793737919.8575509,
   "7edf3e47f505d55d": 1793730687.6987667,
@@ -26109,7 +25983,6 @@
   "98ced92d79f6af37": 1793892655.141962,
   "98d65a22d2ad1aea": 1793131258.1143897,
   "990b40b60d3ae9c8": 1793052081.924234,
-  "991263f555aebc26": 1792764174.761603,
   "991a098a52f288c9": 1793309477.578851,
   "991e0ad725a25639": 1793145653.2960103,
   "9921b12bdf523054": 1793876564.4156368,
@@ -26183,7 +26056,6 @@
   "9ca49938cf8008d0": 1793545399.510608,
   "9ca5a894b5020cfa": 1793354502.6144547,
   "9caa5386945acd38": 1793098987.394595,
-  "9cc90a75c5ce846b": 1792762329.4012802,
   "9cd4c71200e8e145": 1793104494.3342624,
   "9cd913d596ab7ee5": 1793007198.0826168,
   "9cf1f8b3b0108b19": 1793629894.9535327,
@@ -26294,7 +26166,6 @@
   "a351bbffd5ac3395": 1792917074.2200687,
   "a38af8732f5e3ea1": 1793032255.3988454,
   "a3b9a5589ab24e44": 1793469674.1431966,
-  "a3bb4ad2ae33a3a9": 1792764098.7629182,
   "a3c2d09f372a85a4": 1793484087.1435232,
   "a3ce2e813452a898": 1793235757.2917876,
   "a3e64008697d9872": 1793808471.7419782,
@@ -26408,7 +26279,6 @@
   "aa7823bf70d0ac9e": 1793120531.0983026,
   "aa7eb7f56dd7d314": 1793910700.2170768,
   "aa92caf3cb14da85": 1792821775.7513094,
-  "aac85c68ef3da505": 1792764053.9746714,
   "aac89d2fdefb68f0": 1793476919.8684542,
   "aae19b0df5e67f13": 1793320279.0491996,
   "aae510db0a72729b": 1793628391.9372618,
@@ -26766,6 +26636,7 @@
   "bdb8581f1d1266ac": 1793808524.2777085,
   "bdecc06403513885": 1792870286.0588214,
   "be0012a9f42bc9f9": 1792915560.6711035,
+  "be1ba71e55b7f125": 1793973804.1380033,
   "be2a14f57b14b600": 1793480589.549807,
   "be393135f7f610ea": 1793099048.9311063,
   "be44259350b7cc83": 1793941283.951193,
@@ -27017,7 +26888,6 @@
   "cd0202091e2ce36f": 1793821931.3479493,
   "cd0557b02801d830": 1793048457.7747824,
   "cd12f8b00d40afa5": 1793395880.348252,
-  "cd1870b249fc63c4": 1792764195.0686786,
   "cd1aeebb74d80dda": 1793478679.4454348,
   "cd224fcd39008e66": 1793793715.2023675,
   "cd44c03f21a64745": 1793718057.0315993,
@@ -27376,6 +27246,7 @@
   "e2a4fe5de5b73d55": 1793674848.596815,
   "e2b21d107925400f": 1793399485.061857,
   "e2beb4b31e0908b9": 1793280682.7630222,
+  "e2c69588bf60a739": 1793973655.8678432,
   "e2dd175fa48ae813": 1793946687.8230014,
   "e2dd85529398cb66": 1792780414.3837748,
   "e2f2938dd94a8a6b": 1792870254.6457899,
@@ -27620,7 +27491,6 @@
   "f17c7519eadd803e": 1793397682.6740632,
   "f18a7b8bac219fe2": 1793637058.4404707,
   "f1a176b889f26e64": 1793218934.9833777,
-  "f1aa5b59c81f2688": 1792764156.9804578,
   "f1aa717587602628": 1793732515.207654,
   "f1af6209a8afd730": 1793210868.737465,
   "f1b18e31d1a7b56e": 1793359878.9863567,
@@ -29109,7 +28979,7 @@
    "PC Gamer": 3,
    "Polygon": 45,
    "The Decoder": 2,
-   "VGC": 22,
+   "VGC": 23,
    "Variety": 4
   },
   "sources": {
@@ -29119,7 +28989,7 @@
    "Bloomberg": 51,
    "DOU": 6,
    "DOU Gamedev": 4,
-   "Deadline": 68,
+   "Deadline": 69,
    "Decibel": 8,
    "Digital Foundry": 7,
    "Distorted Sound": 17,
@@ -29127,7 +28997,7 @@
    "GameSpot": 24,
    "GamesIndustry.biz": 18,
    "GitHub Trending": 32,
-   "Hugging Face": 5,
+   "Hugging Face": 6,
    "IGN": 60,
    "ITC.ua": 57,
    "IndieWire": 20,
@@ -29155,7 +29025,7 @@
   "translators": {
    "DeepL": 109,
    "gemini-flash-latest": 9,
-   "gemini-flash-lite-latest": 1055
+   "gemini-flash-lite-latest": 1057
   },
   "week": "2026-W45"
  },
@@ -30310,11 +30180,6 @@
    "",
    1793804509.4129474
   ],
-  "q:6 rockstar": [
-   0,
-   "",
-   1793799097.5646605
-  ],
   "q:6 sentinel will": [
    0,
    "",
@@ -31044,21 +30909,6 @@
    2825530,
    "Beholder: Conductor",
    1793719889.3906271
-  ],
-  "q:beijing": [
-   0,
-   "",
-   1793799122.2918322
-  ],
-  "q:beijing playoffs": [
-   0,
-   "",
-   1793799121.7919862
-  ],
-  "q:beijing playoffs set": [
-   0,
-   "",
-   1793799121.304676
   ],
   "q:benefits from a glaringly obvious": [
    0,
@@ -32165,11 +32015,6 @@
    "DEPLOYMENT",
    1792751622.9033506
   ],
-  "q:destiny": [
-   0,
-   "",
-   1793799108.699724
-  ],
   "q:destiny 2": [
    1085660,
    "Destiny 2",
@@ -32840,16 +32685,6 @@
    "Factorio",
    1792845082.5299585
   ],
-  "q:falcons": [
-   0,
-   "",
-   1793799124.9304128
-  ],
-  "q:falcons humiliated": [
-   0,
-   "",
-   1793799124.4101765
-  ],
   "q:fallen aces": [
    1411910,
    "Fallen Aces",
@@ -32884,11 +32719,6 @@
    0,
    "",
    1793919683.002545
-  ],
-  "q:fate of the galaxy": [
-   0,
-   "",
-   1793799134.3523946
   ],
   "q:feature for some": [
    0,
@@ -33410,16 +33240,6 @@
    "Free to Play",
    1793097181.3473184
   ],
-  "q:freespace": [
-   0,
-   "",
-   1793799135.812762
-  ],
-  "q:freespace open": [
-   0,
-   "",
-   1793799135.3108447
-  ],
   "q:friday": [
    1167900,
    "Friday 星期五部门",
@@ -33499,11 +33319,6 @@
    4288220,
    "Gag Order",
    1793574077.0104003
-  ],
-  "q:galaxy": [
-   0,
-   "",
-   1793799134.838198
   ],
   "q:game of the year": [
    1205680,
@@ -33910,11 +33725,6 @@
    "",
    1793804507.8150826
   ],
-  "q:gta 6 rockstar": [
-   0,
-   "",
-   1793799097.0638733
-  ],
   "q:gtx": [
    0,
    "",
@@ -33949,11 +33759,6 @@
    0,
    "",
    1793806425.681432
-  ],
-  "q:halo and destiny": [
-   0,
-   "",
-   1793799108.1188376
   ],
   "q:halo composer": [
    0,
@@ -34004,11 +33809,6 @@
    0,
    "",
    1793885598.1585562
-  ],
-  "q:harada": [
-   0,
-   "",
-   1793799146.364951
   ],
   "q:has": [
    0,
@@ -34260,16 +34060,6 @@
    "",
    1793887361.8479831
   ],
-  "q:house": [
-   0,
-   "",
-   1793799112.1792512
-  ],
-  "q:house of representatives": [
-   0,
-   "",
-   1793799111.6636195
-  ],
   "q:how can prices fall when there": [
    0,
    "",
@@ -34349,26 +34139,6 @@
    0,
    "",
    1793896399.611991
-  ],
-  "q:iem": [
-   0,
-   "",
-   1793799120.3279042
-  ],
-  "q:iem beijing": [
-   0,
-   "",
-   1793799119.8049207
-  ],
-  "q:iem beijing playoffs": [
-   0,
-   "",
-   1793799119.332407
-  ],
-  "q:iem beijing playoffs set": [
-   0,
-   "",
-   1793799118.861339
   ],
   "q:ign": [
    0,
@@ -34754,16 +34524,6 @@
    460950,
    "Katana ZERO",
    1792685257.372185
-  ],
-  "q:katsuhiro": [
-   0,
-   "",
-   1793799145.795846
-  ],
-  "q:katsuhiro harada": [
-   0,
-   "",
-   1793799145.3206902
   ],
   "q:kaz": [
    3633760,
@@ -35314,16 +35074,6 @@
    3065800,
    "Marathon",
    1792337493.8494666
-  ],
-  "q:marty": [
-   0,
-   "",
-   1793799109.679248
-  ],
-  "q:marty o'donnell": [
-   0,
-   "",
-   1793799109.1898997
   ],
   "q:marvel": [
    0,
@@ -36485,11 +36235,6 @@
    "",
    1793813525.7402847
   ],
-  "q:o'donnell": [
-   0,
-   "",
-   1793799110.1719577
-  ],
   "q:obsession": [
    5385440,
    "Obsession",
@@ -36654,11 +36399,6 @@
    2638890,
    "Onimusha: Way of the Sword",
    1792793170.1187458
-  ],
-  "q:open": [
-   0,
-   "",
-   1793799136.3559194
   ],
   "q:order": [
    0,
@@ -36914,16 +36654,6 @@
    3590,
    "Plants vs. Zombies GOTY Edition",
    1792587742.0772517
-  ],
-  "q:playoffs": [
-   0,
-   "",
-   1793799123.2561464
-  ],
-  "q:playoffs set": [
-   0,
-   "",
-   1793799122.7813473
   ],
   "q:playstation 6": [
    0,
@@ -37510,11 +37240,6 @@
    "",
    1793885534.9082143
   ],
-  "q:representatives": [
-   0,
-   "",
-   1793799112.6711137
-  ],
   "q:resident evil": [
    304240,
    "Resident Evil",
@@ -38020,11 +37745,6 @@
    "Serious Sam: The Third Encounter",
    1792663494.276188
   ],
-  "q:set": [
-   0,
-   "",
-   1793799123.80061
-  ],
   "q:set radio": [
    0,
    "",
@@ -38505,11 +38225,6 @@
    "Struggling",
    1793383291.0496666
   ],
-  "q:studio": [
-   0,
-   "",
-   1793799146.9059858
-  ],
   "q:studio's closure": [
    0,
    "",
@@ -38704,11 +38419,6 @@
    3164530,
    "Ted",
    1793725352.648036
-  ],
-  "q:tekken": [
-   0,
-   "",
-   1793799144.8471007
   ],
   "q:tekken 8": [
    1778820,
@@ -39174,16 +38884,6 @@
    0,
    "",
    1793907131.4789906
-  ],
-  "q:us house": [
-   0,
-   "",
-   1793799111.1769757
-  ],
-  "q:us house of representatives": [
-   0,
-   "",
-   1793799110.683531
   ],
   "q:valor mortis": [
    2828710,
@@ -39890,68 +39590,36 @@
    "macos",
    "renault",
    "renault symbioz",
-   "roboneers",
    "spacex",
    "tesla",
    "unity",
    "авто",
-   "безпілотники",
    "бпла",
    "бізнес",
    "відеоредактори",
    "військові технології",
    "дрони",
+   "кндр",
+   "кібератаки",
    "наземні дрони",
-   "нбу",
    "новини",
    "ноутбуки",
    "нрк",
    "оборонка",
    "огляди",
+   "північна корея",
+   "рер",
    "саудівська аравія",
    "сили оборони",
    "софт",
    "сша",
    "тест-драйв",
-   "україна",
-   "штучний інтелект",
+   "хакери",
    "ігри",
    "ілон маск"
   ]
  },
  "titles": [
-  [
-   1793799103.7004874,
-   "Waymo Co-CEO Says Uber App Deal Was ‘Crapshoot’ for Riders"
-  ],
-  [
-   1793799106.1230035,
-   "Кожен п’ятий українець у 2026 році отримував новини через ШІ – опитування"
-  ],
-  [
-   1793799116.8597422,
-   "Halo and Destiny composer Marty O'Donnell loses his race for a seat in the US House of Representatives"
-  ],
-  [
-   1793799132.3664975,
-   "IEM Beijing Playoffs Set – Falcons Humiliated as NAVI and BetBoom Advance"
-  ],
-  [
-   1793799142.835278,
-   "Fate of the Galaxy is a huge, fully-featured Star Wars space combat sim that, thanks to being a total conversion mod for Freespace Open, even runs on my rubbish laptop"
-  ],
-  [
-   1793799150.7229216,
-   "\"I realised I might only have time to make one more game, so I wanted to try something new\" – Tekken director Katsuhiro Harada on starting VS Studio"
-  ],
-  [
-   1793800935.2170134,
-   "METALLICA's JAMES HETFIELD Helps EMG Celebrate 50th Anniversary With Limited-Edition Signature Set Release"
-  ],
-  [
-   1793800956.0777745,
-   "Fortnite's Ultra-Rare Pirate Shop Token Hunt Sparks Wave of Profiteering and eBay Listings"
-  ],
   [
    1793801027.3018038,
    "Ubisoft Could Be The Company That Keeps Marvel’s Blade Alive"
@@ -41739,41 +41407,17 @@
   [
    1793971888.884462,
    "Останнє масштабне оновлення перед Windows 12? Microsoft готує Windows 11 27H2"
+  ],
+  [
+   1793973801.2111213,
+   "Jack Whitehall, Nina Dobrev, Greg Kinnear & Andie MacDowell Set For Rom-Com ‘Honeymooners’; HanWay & CAA Launch For AFM"
+  ],
+  [
+   1793973804.1380053,
+   "ToyBlocks: A controlled world for robot learning and evaluation"
   ]
  ],
  "titles_uk": [
-  [
-   1793799103.700488,
-   "Waymo пояснила розрив ексклюзивної угоди з Uber"
-  ],
-  [
-   1793799106.123004,
-   "Кожен п’ятий українець у 2026 році отримував новини через ШІ – опитування"
-  ],
-  [
-   1793799116.8597429,
-   "Композитор Halo та Destiny Марті О'Доннелл програв вибори до Конгресу США"
-  ],
-  [
-   1793799132.3664982,
-   "NAVI та BetBoom вийшли у плейоф IEM Beijing, а Team Falcons зазнали розгромного вильоту"
-  ],
-  [
-   1793799142.8352787,
-   "Вийшов Fate of the Galaxy — масштабний космічний симулятор за Star Wars"
-  ],
-  [
-   1793799150.7229226,
-   "Кацухіро Харада пояснив причину створення нової студії VS Studio"
-  ],
-  [
-   1793800935.217014,
-   "Джеймс Гетфілд і EMG випустили лімітовані сигнатурні датчики до 50-річчя бренду"
-  ],
-  [
-   1793800956.0777755,
-   "Ультрарідкісний предмет у Fortnite спричинив хвилю шахрайства та продажів на eBay"
-  ],
   [
    1793801027.301804,
    "Ubisoft може врятувати гру Marvel's Blade від закриття"
@@ -43561,6 +43205,14 @@
   [
    1793971888.884463,
    "Останнє масштабне оновлення перед Windows 12? Microsoft готує Windows 11 27H2"
+  ],
+  [
+   1793973801.2111225,
+   "Джек Вайтолл, Ніна Добрев, Грег Кіннір та Енді МакДавелл зіграють у ромкомі Honeymooners"
+  ],
+  [
+   1793973804.1380067,
+   "Представлено ToyBlocks — симулятор для вивчення та тестування роботів"
   ]
  ],
  "ukrainian": {
