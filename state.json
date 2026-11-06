@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
-   "detail": "https://distortedsoundmag.com/feed/ → HTTPSConnectionPool(host='distortedsoundmag.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «Distorted Sound» не працює",
-   "sent": 0,
-   "since": 1793966484.038593
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-05",
  "freebies": {
   "last_check": 1793971897.512473,
@@ -35,7 +28,7 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-06 14:32 UTC",
+  "at": "2026-11-06 15:01 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
@@ -46,111 +39,6 @@
   ]
  },
  "post_log": [
-  [
-   1793284348.193902,
-   3446,
-   "🎮",
-   "Escape from Tarkov отримав масштабний Гелловінський оновлення, але апгрейд Unity перенесли",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/tarkov-halloween-update-unity-upgrade-delay/",
-    "orig": "Tarkov’s Big Halloween Update Is Here, But The Unity Upgrade Has Been Delayed"
-   }
-  ],
-  [
-   1793284416.2344108,
-   3447,
-   "🎬",
-   "Вийшов трейлер фільму Everytime від Сандри Волльнер",
-   "IndieWire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.indiewire.com/news/trailers/everytime-trailer-sandra-wollner-cannes-winner-1235224540/",
-    "orig": "‘Everytime’ Trailer: The Mind-Bending Grief Portrait That’s Left Audiences Spellbound Since Cannes"
-   }
-  ],
-  [
-   1793284466.7913387,
-   3448,
-   "🎮",
-   "На eBay виставили кластер ШІ-серверів за $60 мільйонів із майже 10 000 GPU від Nvidia",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/software/ai/usd60-million-ai-rack-cluster-listed-on-ebay-with-1-4-petabytes-of-memory-and-almost-10-000-nvidia-ai-gpus/",
-    "orig": "$60 million AI rack cluster listed on eBay, with 1.4 petabytes of memory and almost 10,000 Nvidia AI GPUs"
-   }
-  ],
-  [
-   1793284468.6464531,
-   3449,
-   "🤖",
-   "Google запускає рекламу в ШІ-пошуку по всьому світу",
-   "Mezha",
-   {
-    "also": [
-     [
-      "PC Gamer",
-      "https://www.pcgamer.com/software/ai/we-feel-very-good-about-our-trajectory-here-says-google-as-its-stock-tanks-by-usd500-billion/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/google-expands-ai-search-ads-globally-316668/",
-    "orig": "Google запускає рекламу в ШІ-пошуку по всьому світу"
-   }
-  ],
-  [
-   1793284515.884771,
-   3450,
-   "🤖",
-   "Мін'юст США перевіряє угоду Nvidia щодо Hugging Face та торговельну практику компанії",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/us-antitrust-regulators-are-scrutinizing-nvidias-hugging-face-deal-and-sales-practices/",
-    "orig": "US antitrust regulators are scrutinizing Nvidia's Hugging Face deal and sales practices"
-   }
-  ],
-  [
-   1793284557.1779218,
-   3451,
-   "🎮",
-   "Покращене освітлення та вода з проєкту World of Warcraft: Forever з'являться в роздрібній версії",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forevers-shiny-lighting-and-water-changes-will-be-coming-to-retail-i-dont-know-when-but-i-know-theyre-talking-about-doing-it/",
-    "orig": "World of Warcraft: Forever's shiny lighting and water changes will be coming to retail: 'I don't know when, but I know they're talking about doing it'"
-   }
-  ],
-  [
-   1793284580.761564,
-   3452,
-   "🎮",
-   "Гра The Duskbloods від FromSoftware перенесена на 2027 рік",
-   "Eurogamer",
-   {
-    "also": [
-     [
-      "Insider Gaming",
-      "https://insider-gaming.com/the-duskbloods-delayed-to-2027-by-fromsoftware/"
-     ],
-     [
-      "IGN",
-      "https://www.ign.com/articles/fromsoftwares-nintendo-switch-2-exclusive-the-duskbloods-officially-delayed-into-2027"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.eurogamer.net/fromsofts-switch-2-exclusive-the-duskbloods-has-been-delayed-into-2027",
-    "orig": "FromSoft's Switch 2 exclusive, The Duskbloods, has been delayed into 2027"
-   }
-  ],
   [
    1793286417.0637674,
    3453,
@@ -21863,7 +21751,6 @@
       "https://variety.com/2026/tv/news/chris-pratt-terminal-list-savage-son-series-amazon-1236940840/"
      ]
     ],
-    "caption": "🎬 <b>Amazon екранізує Savage Son — продовження The Terminal List із Крісом Праттом</b>\n\nAmazon MGM Studios розробляє серіальну адаптацію роману Savage Son Джека Карра, де Кріс Пратт повернеться до ролі James Reece. Поки невідомо, чи проєкт стане третім сезоном The Terminal List, чи вийде окремо. За сюжетом, герой збирає команду спецпризначенців, щоб помститися зв&#x27;язаному з російською мафією офіцеру-зраднику CIA.\n\n🔗 <a href=\"https://deadline.com/2026/11/the-terminal-list-franchise-amazon-savage-son-chris-pratt-1237215033/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/the-terminal-list-franchise-amazon-savage-son-chris-pratt-1237215033/",
     "orig": "‘The Terminal List’ Franchise Continues At Amazon With ‘Savage Son’"
@@ -21877,7 +21764,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Пояснення кінця Godzilla Minus Zero та майбутнє франшизи</b>\n\nҐодзілла повертається у прямому сиквелі Godzilla Minus One під назвою Godzilla Minus Zero, щоб влаштувати новий хаос. Розповідаємо, як усе завершилося.\n\n🔗 <a href=\"https://www.slashfilm.com/2306539/godzilla-minus-zero-ending-explained/\">/Film</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2306539/godzilla-minus-zero-ending-explained/",
     "orig": "Godzilla Minus Zero Ending Explained: Where The Franchise Goes From Here"
@@ -22718,6 +22604,34 @@
     "link": "https://deadline.com/2026/11/international-film-buyers-form-distribution-network-lokia-1237215302/",
     "orig": "International Buyers From 12 Territories Launch Film Distribution Network Lokia On Eve Of AFM"
    }
+  ],
+  [
+   1793977287.1586287,
+   5176,
+   "🎮",
+   "Кіану Рівз офіційно повернеться до ролі John Wick у новому анімаційному фільмі",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Кіану Рівз офіційно повернеться до ролі John Wick у новому анімаційному фільмі</b>\n\nКіану Рівз офіційно повернеться до ролі Джона Віка в анімаційному приквелі франшизи. Стрічка розповість про «неможливу задачу» — ніч, коли найманець знищив усіх своїх суперників заради свободи від High Table. Режисером проєкту виступить Шеннон Тіндл.\n\n🔗 <a href=\"https://www.polygon.com/keanu-reeves-return-john-wick-animated-prequel/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/keanu-reeves-return-john-wick-animated-prequel/",
+    "orig": "Keanu Reeves Officially Returning as John Wick in New Movie"
+   }
+  ],
+  [
+   1793977290.8202748,
+   5177,
+   "🎮",
+   "SAG-AFTRA представила нову угоду для найму акторів у відеоіграх на етапі пітчингу",
+   "GamesIndustry.biz",
+   {
+    "also": [],
+    "caption": "🎮 <b>SAG-AFTRA представила нову угоду для найму акторів у відеоіграх на етапі пітчингу</b>\n\nПрофспілка SAG-AFTRA запровадила угоду Pre-Funding Pitch Interactive Media Agreement, яка дозволяє розробникам залучати професійних акторів на ранніх етапах створення ігор. Вона поширюється на демоверсії, трейлери, тизери та прототипи проєктів, які залучають фінансування. Краудфандингові та комерційні проєкти участі не беруть.\n\n🔗 <a href=\"https://www.gamesindustry.biz/sag-aftra-launches-new-video-game-agreement-enabling-devs-to-hire-professional-actors-for-demos-and-vertical-slices\">GamesIndustry.biz</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamesindustry.biz/sag-aftra-launches-new-video-game-agreement-enabling-devs-to-hire-professional-actors-for-demos-and-vertical-slices",
+    "orig": "SAG-AFTRA launches new video game agreement enabling devs to hire professional actors for demos and vertical slices"
+   }
   ]
  ],
  "posted_by_source": {
@@ -22793,11 +22707,10 @@
    1793912609.2361844
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
-   1793880164.8172343,
-   1793887344.724013,
    1793907098.1805391,
    1793916177.8176932,
-   1793963129.1310532
+   1793963129.1310532,
+   1793977290.8207023
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
    1793836890.8205404,
@@ -22882,7 +22795,8 @@
    1793901873.822366,
    1793909047.6479485,
    1793914313.0477717,
-   1793975514.9460788
+   1793975514.9460788,
+   1793977287.1591
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1793876564.4156837,
@@ -23321,7 +23235,6 @@
   "0a1f231d535ab2f8": 1792778479.0074925,
   "0a2248ff00eaf75b": 1793790162.0386083,
   "0a2c3369e5ba1017": 1793034078.1606505,
-  "0a4470c3e169aac9": 1792767655.7489853,
   "0a5154678368ee27": 1792859635.9913268,
   "0a5354c80248c950": 1793784655.9129539,
   "0a56ce5822a722f5": 1793104471.0170724,
@@ -23392,7 +23305,6 @@
   "0e44be0ccd1f3120": 1793305992.2960172,
   "0e4504ef13d921b6": 1793817101.1104596,
   "0e4d9193594533a5": 1793059286.6862025,
-  "0e72beefca2921fa": 1792765935.8604379,
   "0e79b2165b8315b4": 1793304104.0740697,
   "0ea2f479103990f0": 1793793658.998931,
   "0ea67535b0592636": 1793390699.1674576,
@@ -23429,6 +23341,7 @@
   "0ffca5433adec72e": 1793205218.0193624,
   "1001a91e293eb834": 1793315026.6644495,
   "101914a6c70cb718": 1792987370.1623871,
+  "10212d3e4ef0ced0": 1793977287.159054,
   "1031ce5f7747ed8f": 1793230278.015421,
   "10439e81d0b3763b": 1793171244.0877953,
   "10714e623a2ae593": 1793734305.8283293,
@@ -23729,6 +23642,7 @@
   "2006d7d7723cab8c": 1793023319.2483625,
   "200f8bb5ed2a51e0": 1793253676.501305,
   "20137a9775b6e0e9": 1793271699.5357819,
+  "201ced87b1c7b534": 1793977290.8206599,
   "2041ec71adf76df0": 1793649917.1394475,
   "2046f5e50fafe44a": 1793376218.469297,
   "2048aad6c27f09d4": 1793819009.7965024,
@@ -23820,7 +23734,6 @@
   "253ccaa0b6d52fa3": 1793120755.1609738,
   "256a937a7691a984": 1793647901.1057427,
   "25866d2711d23a5f": 1793901864.702728,
-  "25a11735906051e2": 1792767655.7489853,
   "25aac006b01cda83": 1793651505.2041273,
   "25af0fbf32f4457e": 1793655078.6061056,
   "25b95661cf65bfb6": 1792771418.1505067,
@@ -24384,7 +24297,6 @@
   "4815931cfcd61dd0": 1793799094.9981434,
   "482e7efa033c2504": 1793136691.2272556,
   "482fdd9e584f0863": 1793736097.7984061,
-  "4845a540d62f75f2": 1792765977.1708195,
   "48471f7f5ecd3a22": 1793824254.550742,
   "484ac19dd855309f": 1793743318.5177479,
   "488e19425e65b650": 1793037803.329831,
@@ -24676,7 +24588,6 @@
   "58c07b25e47b0a01": 1793799097.5665848,
   "58c2b2f154b95f4f": 1792845079.184916,
   "58c484e09bd90954": 1793104436.9924414,
-  "58cc558088809735": 1792767684.0447578,
   "58d291901dd0bc74": 1793282455.477287,
   "58f93a3abe095520": 1793205128.990238,
   "58febfbc4b656339": 1793275402.4980257,
@@ -24701,7 +24612,6 @@
   "5a25ddb9e1ce1e2f": 1793282478.848351,
   "5a31c9c04b95d4cc": 1793212618.0066514,
   "5a36eb1b3fb63e23": 1793034123.4978638,
-  "5a3ed0cc305c03cf": 1792765945.7525907,
   "5a571e2b34122991": 1793307788.940901,
   "5a5fb315f6d0e980": 1793369066.2335606,
   "5a6a20a5ccd73207": 1793493059.718314,
@@ -25488,7 +25398,6 @@
   "86a2df94bdacda09": 1793822508.4787483,
   "86a425808f124289": 1792983780.381404,
   "86b5a8ace1e0261c": 1792787525.6515934,
-  "86b9ff4ada6410b6": 1792766023.1186771,
   "86ccd472a105916c": 1793804701.9860039,
   "86d16d5316ef5385": 1792793154.9291542,
   "86efa72848e6b6d5": 1793790085.7070832,
@@ -26265,7 +26174,6 @@
   "b22ad9f6b573aaab": 1793874760.2286494,
   "b239a9edb868e7cc": 1793210835.824067,
   "b254c4c4c749975a": 1793372535.0958557,
-  "b26e01ad9a360759": 1792766009.6875176,
   "b279361ff9219da7": 1793347589.9730864,
   "b2a3863d53551c9a": 1793104481.326919,
   "b2ab4fba3d75390e": 1793752286.2891366,
@@ -27159,7 +27067,6 @@
   "e741d4e1bec9d49f": 1793856655.0170114,
   "e745730939c9355b": 1793300482.7237089,
   "e745e906a007bb5d": 1793122368.6768425,
-  "e74f245499d98550": 1792767655.7489853,
   "e753e22de9b80091": 1793633628.1330848,
   "e76c9df5f85d0e55": 1793909025.995891,
   "e787e662143885d1": 1793116879.2441692,
@@ -27408,6 +27315,7 @@
   "f68d8b404f7088e3": 1793347495.3008418,
   "f6a123d355f2a8c4": 1792873905.856916,
   "f6ac1bf7753a32ca": 1793655075.3033547,
+  "f6c8f5d9858d2f10": 1793977252.830465,
   "f6caad3e9149ce18": 1792796644.3271317,
   "f6f83e2c56819f89": 1793359919.5794098,
   "f702d3bee6e77e2d": 1793568706.0879765,
@@ -27421,7 +27329,6 @@
   "f7791f02fff8d3e7": 1793187198.0564623,
   "f7807416ab6c2be5": 1792884114.5240872,
   "f78a7fc61cbf0b11": 1793374328.273312,
-  "f7ae5a0fc826839c": 1792765961.5241733,
   "f7c4bc55872d53b0": 1793716285.2672915,
   "f7e4825a3d5eac15": 1793899880.6701646,
   "f7f0b8b381470958": 1793286056.2505057,
@@ -28806,6 +28713,7 @@
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 3,
+   "Pitchfork": 1,
    "Polygon": 45,
    "The Decoder": 2,
    "VGC": 23,
@@ -28824,7 +28732,7 @@
    "Distorted Sound": 17,
    "Eurogamer": 22,
    "GameSpot": 24,
-   "GamesIndustry.biz": 18,
+   "GamesIndustry.biz": 19,
    "GitHub Trending": 32,
    "Hugging Face": 6,
    "IGN": 60,
@@ -28840,7 +28748,7 @@
    "PC Gamer": 50,
    "Pitchfork": 9,
    "PlayUA": 12,
-   "Polygon": 25,
+   "Polygon": 26,
    "Product Hunt": 16,
    "Revolver": 6,
    "Rock Paper Shotgun": 31,
@@ -28854,7 +28762,7 @@
   "translators": {
    "DeepL": 109,
    "gemini-flash-latest": 9,
-   "gemini-flash-lite-latest": 1059
+   "gemini-flash-lite-latest": 1061
   },
   "week": "2026-W45"
  },
@@ -34134,6 +34042,26 @@
    "",
    1793919713.9100773
   ],
+  "q:john": [
+   0,
+   "",
+   1793977285.2997496
+  ],
+  "q:john wick": [
+   0,
+   "",
+   1793977284.7889314
+  ],
+  "q:john wick in new": [
+   0,
+   "",
+   1793977284.2582197
+  ],
+  "q:john wick in new movie": [
+   0,
+   "",
+   1793977283.7118373
+  ],
   "q:join": [
    4948290,
    "JOIN",
@@ -34193,6 +34121,21 @@
    3633760,
    "KAZ",
    1791894819.2258348
+  ],
+  "q:keanu": [
+   0,
+   "",
+   1793977280.2353544
+  ],
+  "q:keanu reeves officially": [
+   0,
+   "",
+   1793977279.7295341
+  ],
+  "q:keanu reeves officially returning": [
+   0,
+   "",
+   1793977279.2315514
   ],
   "q:key": [
    0,
@@ -35944,6 +35887,11 @@
    "",
    1793909044.7321641
   ],
+  "q:officially returning": [
+   0,
+   "",
+   1793977282.3909407
+  ],
   "q:officially returns": [
    0,
    "",
@@ -36709,6 +36657,21 @@
    "Red Rising",
    1792557081.305152
   ],
+  "q:reeves": [
+   0,
+   "",
+   1793977281.7740085
+  ],
+  "q:reeves officially": [
+   0,
+   "",
+   1793977281.2712414
+  ],
+  "q:reeves officially returning": [
+   0,
+   "",
+   1793977280.7599723
+  ],
   "q:regions": [
    3723230,
    "Regions",
@@ -36863,6 +36826,11 @@
    5258070,
    "ReTurned",
    1792775787.5425408
+  ],
+  "q:returning": [
+   0,
+   "",
+   1793977283.0210726
   ],
   "q:reuters": [
    0,
@@ -39143,10 +39111,6 @@
  },
  "titles": [
   [
-   1793802734.1699052,
-   "We Came As Romans release \"Dead Silent\" single featuring Make Them Suffer"
-  ],
-  [
    1793804505.7183712,
    "Watch: Members Of LAMB OF GOD, GWAR, DEATH ANGEL, Others Celebrate 40th Anniversary Of METALLICA's 'Master Of Puppets' Aboard 'Headbangers Boat 2026'"
   ],
@@ -40909,13 +40873,17 @@
   [
    1793975518.1521559,
    "International Buyers From 12 Territories Launch Film Distribution Network Lokia On Eve Of AFM"
+  ],
+  [
+   1793977287.1590557,
+   "Keanu Reeves Officially Returning as John Wick in New Movie"
+  ],
+  [
+   1793977290.8206613,
+   "SAG-AFTRA launches new video game agreement enabling devs to hire professional actors for demos and vertical slices"
   ]
  ],
  "titles_uk": [
-  [
-   1793802734.169906,
-   "We Came As Romans випустили сингл Dead Silent за участі Make Them Suffer"
-  ],
   [
    1793804505.7183719,
    "Музиканти LAMB OF GOD, GWAR та DEATH ANGEL виконали кавери на METALLICA"
@@ -42679,6 +42647,14 @@
   [
    1793975518.152157,
    "Міжнародні дистриб'ютори з 12 територій запустили мережу Lokia"
+  ],
+  [
+   1793977287.1590567,
+   "Кіану Рівз офіційно повернеться до ролі John Wick у новому анімаційному фільмі"
+  ],
+  [
+   1793977290.820662,
+   "SAG-AFTRA представила нову угоду для найму акторів у відеоіграх на етапі пітчингу"
   ]
  ],
  "ukrainian": {
