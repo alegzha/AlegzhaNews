@@ -1,8 +1,15 @@
 {
- "alerts": {},
+ "alerts": {
+  "gemini": {
+   "detail": "429: ліміт безкоштовних запитів Gemini вичерпано\nПоки що перекладаю через DeepL і Google. Безкоштовний ліміт Gemini оновлюється щодоби.",
+   "label": "Gemini більше не перекладає",
+   "sent": 1793935890.8577833,
+   "since": 1793935890.8577833
+  }
+ },
  "daily_digest_date": "2026-11-05",
  "freebies": {
-  "last_check": 1793928749.0254633,
+  "last_check": 1793935890.8574636,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -28,14 +35,12 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-06 03:03 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-lite-latest",
-  "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
-  },
+  "at": "2026-11-06 03:31 UTC",
+  "gemini_error": "429: ліміт безкоштовних запитів Gemini вичерпано",
+  "gemini_model": null,
+  "gemini_models_used": {},
   "used": [
-   "Gemini"
+   "DeepL"
   ]
  },
  "post_log": [
@@ -22411,7 +22416,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Infinity Ward опублікувала список відомих проблем <a href=\"https://store.steampowered.com/app/2000950/\">Call of Duty: Modern Warfare</a> 4</b>\n\nРозробники з Infinity Ward та Activision створили публічну дошку Trello для відстеження відомих проблем у Call of Duty: Modern Warfare 4. Станом на 5 листопада 2026 року зафіксовано 13 багів: шість глобальних, шість у мультиплеєрі та один у режимі DMZ.\n\n🔗 <a href=\"https://insider-gaming.com/call-of-duty-modern-warfare-4-known-issues/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/call-of-duty-modern-warfare-4-known-issues/",
     "orig": "Call of Duty: Modern Warfare 4—List of Known Issues (Updated November 5)"
@@ -22425,7 +22429,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Google випустила Gemini Omni 1.2 Flash зі зниженням ціни на 30%</b>\n\nGoogle Deepmind випустила модель генерації відео Gemini Omni 1.2 Flash, яка створює ролики тривалістю до 15 секунд та коштує на 30% дешевше. Новинка отримала підтримку розмовного редагування, покращене дотримання референсів і зменшену кількість візуальних спотворень.\n\n🔗 <a href=\"https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/googles-gemini-omni-1-2-flash-stretches-ai-video-clips-to-15-seconds-and-cuts-pricing-by-30-percent/",
     "orig": "Google's Gemini Omni 1.2 Flash stretches AI video clips to 15 seconds and cuts pricing by 30 percent"
@@ -23261,6 +23264,34 @@
     "link": "https://lambgoat.com/news/55736/burn-eternal-killswitch-engage-premiere-new-song-wounds-ive-made/",
     "orig": "Burn Eternal (Killswitch Engage) premiere new song “Wounds I’ve Made”"
    }
+  ],
+  [
+   1793935877.9813392,
+   5121,
+   "🤘",
+   "Послухайте нову пісню Олівії Родріго «Take Me Home (4 Christmas)»",
+   "Pitchfork",
+   {
+    "also": [],
+    "caption": "🤘 <b>Послухайте нову пісню Олівії Родріго «Take Me Home (4 Christmas)»</b>\n\nВона просто хоче насолодитися бранчем після похмілля разом із твоєю мамою\n\n🔗 <a href=\"https://pitchfork.com/story/listen-to-olivia-rodrigos-new-song-take-me-home-4-christmas/\">Pitchfork</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://pitchfork.com/story/listen-to-olivia-rodrigos-new-song-take-me-home-4-christmas/",
+    "orig": "Listen to Olivia Rodrigo’s New Song “Take Me Home (4 Christmas)”"
+   }
+  ],
+  [
+   1793935882.3935506,
+   5122,
+   "🎮",
+   "Річард Гаріотт про стан ігрової індустрії: «Надмірні прикраси вже не мають значення»",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Річард Гаріотт про стан ігрової індустрії: «Надмірні прикраси вже не мають значення»</b>\n\n«До появи EA ми ніколи не скасовували жодного проєкту».\n\n🔗 <a href=\"https://www.pcgamer.com/gaming-industry/richard-garriott-on-the-state-of-the-games-industry-the-bells-and-whistles-are-no-longer-whats-important/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/gaming-industry/richard-garriott-on-the-state-of-the-games-industry-the-bells-and-whistles-are-no-longer-whats-important/",
+    "orig": "Richard Garriott on the state of the games industry: 'The bells and whistles are no longer what's important'"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23404,7 +23435,6 @@
    1793892698.826328
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1793844086.4076388,
    1793880107.720239,
    1793881943.1716702,
    1793885644.2470083,
@@ -23413,7 +23443,8 @@
    1793905317.2772038,
    1793909037.5032356,
    1793912612.6820338,
-   1793917906.9399633
+   1793917906.9399633,
+   1793935882.3940177
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1793863890.332546,
@@ -23589,8 +23620,8 @@
    1793376222.9165611
   ],
   "music|Pitchfork|https://pitchfork.com/feed/feed-news/rss": [
-   1793847694.0917146,
-   1793907159.6815817
+   1793907159.6815817,
+   1793935877.9818218
   ],
   "music|Revolver|https://www.revolvermag.com/rss.xml": [
    1793898247.550585,
@@ -24377,6 +24408,7 @@
   "25ea5d426e2647c8": 1792945890.8808117,
   "260d107d0bb91f4d": 1793822504.0309627,
   "26177bd73b9e0e4c": 1793725356.054796,
+  "262180340bf72999": 1793935882.393971,
   "2625cf3404f146f3": 1793799092.929753,
   "26277e22498259b6": 1793345489.1731415,
   "2655ce0263b199de": 1793606476.3368418,
@@ -26866,6 +26898,7 @@
   "b2a3863d53551c9a": 1793104481.326919,
   "b2ab4fba3d75390e": 1793752286.2891366,
   "b2abcb04438b5aa8": 1793311382.3889103,
+  "b2c047598eccca67": 1793935877.9817748,
   "b2c61a22610f6a80": 1793203381.3722465,
   "b2da6897482cb04f": 1793710889.6168733,
   "b2eaf4b2a39431f3": 1793305977.9427395,
@@ -29440,8 +29473,8 @@
    "Metal Hammer (Louder)": 22,
    "Metal Injection": 14,
    "Mezha": 47,
-   "PC Gamer": 48,
-   "Pitchfork": 8,
+   "PC Gamer": 49,
+   "Pitchfork": 9,
    "PlayUA": 12,
    "Polygon": 24,
    "Product Hunt": 15,
@@ -29455,7 +29488,7 @@
    "Variety": 24
   },
   "translators": {
-   "DeepL": 77,
+   "DeepL": 81,
    "gemini-flash-latest": 6,
    "gemini-flash-lite-latest": 1035
   },
@@ -34252,6 +34285,11 @@
    "GANG OF DRAGON",
    1793613847.5146475
   ],
+  "q:garriott": [
+   0,
+   "",
+   1793935881.0016344
+  ],
   "q:gears": [
    0,
    "",
@@ -38692,6 +38730,11 @@
    "",
    1793797279.07093
   ],
+  "q:richard garriott": [
+   0,
+   "",
+   1793935880.4901998
+  ],
   "q:road": [
    0,
    "",
@@ -39956,6 +39999,11 @@
    0,
    "",
    1793889109.0302298
+  ],
+  "q:the bells and whistles are no longer what": [
+   0,
+   "",
+   1793935879.9990816
   ],
   "q:the fight is finished": [
    0,
@@ -41283,14 +41331,6 @@
   ]
  },
  "titles": [
-  [
-   1793763078.3152165,
-   "What Election Day Commentators Are Saying: Trump Rants, Hasan Piker Wonders if MAGA ‘Cult’ Is Over and More (Updating)"
-  ],
-  [
-   1793763083.6653569,
-   "Democrats Win House, Poised to Take Senate"
-  ],
   [
    1793766703.671681,
    "Runway on Generative AI Worlds"
@@ -43182,17 +43222,17 @@
   [
    1793934178.5727286,
    "Burn Eternal (Killswitch Engage) premiere new song “Wounds I’ve Made”"
+  ],
+  [
+   1793935877.9817772,
+   "Listen to Olivia Rodrigo’s New Song “Take Me Home (4 Christmas)”"
+  ],
+  [
+   1793935882.3939729,
+   "Richard Garriott on the state of the games industry: 'The bells and whistles are no longer what's important'"
   ]
  ],
  "titles_uk": [
-  [
-   1793763078.3152177,
-   "Що відомі коментатори говорять у день виборів у США"
-  ],
-  [
-   1793763083.665358,
-   "Демократи отримали більшість у Палаті представників на виборах 2026 року"
-  ],
   [
    1793766703.671682,
    "Runway готує перехід генеративного ШІ до інтерактивних світів"
@@ -45084,6 +45124,14 @@
   [
    1793934178.5727298,
    "Burn Eternal (Killswitch Engage) випустили новий трек Wounds I've Made"
+  ],
+  [
+   1793935877.981778,
+   "Послухайте нову пісню Олівії Родріго «Take Me Home (4 Christmas)»"
+  ],
+  [
+   1793935882.3939738,
+   "Річард Гаріотт про стан ігрової індустрії: «Надмірні прикраси вже не мають значення»"
   ]
  ],
  "ukrainian": {
@@ -47426,7 +47474,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793932282.3117847,
+  "last_check": 1793935890.7676976,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
