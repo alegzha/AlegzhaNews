@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "gemini": {
-   "detail": "429: ліміт безкоштовних запитів Gemini вичерпано\nПоки що перекладаю через DeepL і Google. Безкоштовний ліміт Gemini оновлюється щодоби.",
-   "label": "Gemini більше не перекладає",
-   "sent": 1793919722.3435109,
-   "since": 1793919722.3435109
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-05",
  "freebies": {
   "last_check": 1793921499.550889,
@@ -34,12 +27,14 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-05 23:31 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
-  "gemini_model": null,
-  "gemini_models_used": {},
+  "at": "2026-11-06 00:02 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemini-flash-latest",
+  "gemini_models_used": {
+   "gemini-flash-latest": 2
+  },
   "used": [
-   "DeepL"
+   "Gemini"
   ]
  },
  "post_log": [
@@ -22516,7 +22511,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>Apple залучає близько $7 мільярдів через продаж облігацій</b>\n\nApple планує залучити близько $7 мільярдів у межах свого першого за понад рік продажу інвестиційних облігацій. Отримані кошти спрямують на фінансування викупу акцій. Експерти зазначають, що цей крок є опортуністичним, а не викликаним гострою потребою в готівці.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-05/apple-taps-bond-market-for-7b-as-tech-sells-off-video\">Bloomberg</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-11-05/apple-taps-bond-market-for-7b-as-tech-sells-off-video",
     "orig": "Apple Taps Bond Market for $7B as Tech Sells Off"
@@ -22530,7 +22524,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Арі Слідгем приєднався до акторського складу п&#x27;ятого сезону Reacher</b>\n\nЗірка серіалу Scorpion Арі Слідгем отримав епізодичну роль у п&#x27;ятому сезоні Reacher. Він зіграє нечесного бізнесмена Діна Лассідера, який керує темними справами з пустельного стриптиз-клубу.\n\n🔗 <a href=\"https://deadline.com/2026/11/ari-stidham-cast-reacher-season-5-1237214644/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/ari-stidham-cast-reacher-season-5-1237214644/",
     "orig": "Ari Stidham Joins ‘Reacher’ For Season 5"
@@ -23075,7 +23068,12 @@
    "Шэрон Озборн розкрила деталі щодо лайнапу Ozzfest 2027",
    "Loudwire",
    {
-    "also": [],
+    "also": [
+     [
+      "ThePRP",
+      "https://www.theprp.com/2026/11/05/news/sharon-osbourne-says-the-2027-ozzfest-lineup-is-only-50-booked-confirms-where-unreleased-ozzy-songs-will-surface/"
+     ]
+    ],
     "caption": "🤘 <b>Шэрон Озборн розкрила деталі щодо лайнапу Ozzfest 2027</b>\n\nRich Polk, Getty Images, Ozzfest\n\n🔗 <a href=\"https://loudwire.com/half-ozzfest-2027-lineup-sharon-osbourne/\">Loudwire</a>\n\n#музика",
     "kind": "photo",
     "link": "https://loudwire.com/half-ozzfest-2027-lineup-sharon-osbourne/",
@@ -23361,6 +23359,34 @@
     "link": "https://insider-gaming.com/nintendo-making-more-remakes/",
     "orig": "Nintendo Isn’t Stopping Remakes After Zelda and Star Fox, It’s Claimed"
    }
+  ],
+  [
+   1793923311.9577317,
+   5112,
+   "🎮",
+   "Ейдзі Аонума розповів, як Nintendo зберігає спадщину The Legend of Zelda",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Ейдзі Аонума розповів, як Nintendo зберігає спадщину The Legend of Zelda</b>\n\nПродюсер Ейдзі Аонума поділився, як Nintendo зберігає спадщину The Legend of Zelda завдяки ветеранам студії. Досвідчені співробітники допомагають обговорювати нові ідеї та навчають новачків принципам дизайну, не обмежуючи їхню творчість. Такий підхід забезпечує наступність розробки серії ще з часів Міямото.\n\n🔗 <a href=\"https://insider-gaming.com/aonuma-nintendo-zelda-legacy/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/aonuma-nintendo-zelda-legacy/",
+    "orig": "Aonuma Explains How Nintendo Preserves Zelda’s Legacy"
+   }
+  ],
+  [
+   1793923324.029452,
+   5113,
+   "🎬",
+   "Amazon екранізує Savage Son — продовження The Terminal List із Крісом Праттом",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Amazon екранізує Savage Son — продовження The Terminal List із Крісом Праттом</b>\n\nAmazon MGM Studios розробляє серіальну адаптацію роману Savage Son Джека Карра, де Кріс Пратт повернеться до ролі James Reece. Поки невідомо, чи проєкт стане третім сезоном The Terminal List, чи вийде окремо. За сюжетом, герой збирає команду спецпризначенців, щоб помститися зв&#x27;язаному з російською мафією офіцеру-зраднику CIA.\n\n🔗 <a href=\"https://deadline.com/2026/11/the-terminal-list-franchise-amazon-savage-son-chris-pratt-1237215033/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/the-terminal-list-franchise-amazon-savage-son-chris-pratt-1237215033/",
+    "orig": "‘The Terminal List’ Franchise Continues At Amazon With ‘Savage Son’"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23470,7 +23496,6 @@
    1793901796.5323248
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1793835095.520843,
    1793863908.88112,
    1793869512.7395825,
    1793876537.690687,
@@ -23496,7 +23521,8 @@
    1793917891.9204063,
    1793917901.6765723,
    1793919705.5729368,
-   1793921489.4406183
+   1793921489.4406183,
+   1793923311.9581974
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1793806348.7569947,
@@ -23573,8 +23599,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1793835103.2062328,
-   1793836894.2886486,
    1793842245.1180332,
    1793842251.6225727,
    1793862130.0505536,
@@ -23587,7 +23611,8 @@
    1793905355.1138437,
    1793907171.2403705,
    1793907178.1437087,
-   1793909005.935613
+   1793909005.935613,
+   1793923324.02992
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1793867504.4807332,
@@ -24021,6 +24046,7 @@
   "0d0ac9e2c198774c": 1793172681.070154,
   "0d0cd741a1e67e7a": 1792753319.5272167,
   "0d2b597a9369ac2a": 1793097204.5834613,
+  "0d3839e1177f625f": 1793923311.958133,
   "0d7b6307233943dc": 1793909055.4474516,
   "0d88eaa1830b5f51": 1792827227.2209725,
   "0d8cf328fd85454a": 1793440886.2950199,
@@ -25641,6 +25667,7 @@
   "6902616b25bab517": 1793120482.2650888,
   "6902d19fb6a81565": 1793711002.6699135,
   "6905a2c2e51144c2": 1793017985.4098544,
+  "692868a307cd52d5": 1793923274.5150125,
   "692d0d02ca08fbcc": 1793448054.1956563,
   "6931c78dfe620acf": 1793725292.6020617,
   "693b4ee82f2ea146": 1793419281.5477223,
@@ -26573,6 +26600,7 @@
   "9c75a73118999bb6": 1792990745.4743483,
   "9c8009a72aa0fb67": 1793349386.4143019,
   "9c84f00ce4bafae0": 1793793731.843558,
+  "9c9d6ea966bf1d77": 1793923253.2255971,
   "9ca49938cf8008d0": 1793545399.510608,
   "9ca5a894b5020cfa": 1793354502.6144547,
   "9caa5386945acd38": 1793098987.394595,
@@ -26898,6 +26926,7 @@
   "aec67bc17f528368": 1793871080.5043733,
   "aecb7b2632eacf76": 1793813843.7958722,
   "aee63b39942cb1fd": 1792740682.0338914,
+  "af00080caa41aed0": 1793923324.0298736,
   "af04e5ada552d24b": 1793736153.0846891,
   "af05a4f395ef5aa3": 1793664119.5049946,
   "af060baeba081c08": 1793617330.5527074,
@@ -27067,6 +27096,7 @@
   "b701d5847e737c0a": 1793586696.284922,
   "b70416564eb23ed5": 1793343986.605405,
   "b7242ad4a00ce74c": 1793656982.6360471,
+  "b72b577840dfc276": 1793923274.512951,
   "b73e95fdbd8f92c6": 1793044961.7572536,
   "b770fcb6738db72e": 1793601185.5302284,
   "b792e75cd260489c": 1793139776.348499,
@@ -27165,10 +27195,8 @@
   "bd4b463b316fb457": 1792731759.2024364,
   "bd4c16334cfa675d": 1793055684.398082,
   "bd55895dbad1aa4c": 1793919695.2777495,
-  "bd79eb405c18a4ce": 1792713714.5295756,
   "bd7be402bd09fd61": 1793114739.9172006,
   "bd7ea3fdd1448936": 1793208836.7758129,
-  "bd90bcc0d4819341": 1792713684.746968,
   "bd97e0b11417a701": 1792940546.011379,
   "bd9ad9cc335471ee": 1793736107.543311,
   "bda522f4de41add7": 1792760485.581914,
@@ -27187,7 +27215,6 @@
   "be7e6ba41dfdcfe7": 1793484095.1579175,
   "bea2daaf5ded6aa1": 1792771393.405475,
   "beac489d6216260d": 1793041356.19435,
-  "beaf268984cbb65a": 1792713682.912498,
   "bec86fbdc72c855c": 1793212569.3640876,
   "bec96e80ce715e42": 1792789286.1226044,
   "bed1f99b10fcb0d6": 1792782118.6245992,
@@ -27514,7 +27541,6 @@
   "d1a32fab3e3fc355": 1792755095.5780344,
   "d1a37e288596876e": 1793734350.5004196,
   "d1a677698369d1bc": 1793793726.7979345,
-  "d1afc9069cc6acfe": 1792711979.5883446,
   "d1c35dfe580b0082": 1793725361.5818524,
   "d1c87f5f82bb9724": 1793586693.0275111,
   "d1f503372a06729c": 1793907114.5700712,
@@ -28000,6 +28026,7 @@
   "ef1781069f98b753": 1793710963.0277398,
   "ef1c10b386f80562": 1793674851.8294363,
   "ef223a86bf3ca885": 1793093481.308404,
+  "ef26921549ed89c8": 1793923274.5207808,
   "ef3046569015e58c": 1793100654.931831,
   "ef3b02306c28bea8": 1793226775.7955341,
   "ef407df4fdefdcf7": 1792970437.507964,
@@ -28290,7 +28317,6 @@
   "fe9db8195dd26e17": 1792774926.2026849,
   "fec0e46ceba430b8": 1793691076.5038383,
   "fee4de69df9a1757": 1793199681.4859216,
-  "ff057eb64b0462d2": 1792711969.874328,
   "ff2c165defa5bfa6": 1793633491.7031133,
   "ff3cd87b1f8fcb64": 1793106139.4523365,
   "ff40e620b8c6ad34": 1793190858.654706,
@@ -28752,7 +28778,7 @@
   ],
   "artists_checked": 1793909124.7162163,
   "blocked_until": 1793908528.3979313,
-  "cursor": 368,
+  "cursor": 9,
   "digest_week": "2026-W44",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -29516,7 +29542,7 @@
    "GameSpot": 3,
    "IGN": 4,
    "IndieWire": 2,
-   "Insider Gaming": 45,
+   "Insider Gaming": 46,
    "Kerrang!": 2,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
@@ -29533,7 +29559,7 @@
    "Bloomberg": 44,
    "DOU": 5,
    "DOU Gamedev": 4,
-   "Deadline": 60,
+   "Deadline": 61,
    "Decibel": 8,
    "Digital Foundry": 7,
    "Distorted Sound": 17,
@@ -29545,7 +29571,7 @@
    "IGN": 60,
    "ITC.ua": 51,
    "IndieWire": 20,
-   "Insider Gaming": 78,
+   "Insider Gaming": 79,
    "Kerrang!": 18,
    "Lambgoat": 38,
    "Loudwire": 24,
@@ -29568,7 +29594,7 @@
   },
   "translators": {
    "DeepL": 73,
-   "gemini-flash-latest": 4,
+   "gemini-flash-latest": 6,
    "gemini-flash-lite-latest": 1031
   },
   "week": "2026-W45"
@@ -31253,6 +31279,31 @@
    0,
    "",
    1793874755.0397277
+  ],
+  "q:aonuma explains": [
+   0,
+   "",
+   1793923277.259444
+  ],
+  "q:aonuma explains how": [
+   0,
+   "",
+   1793923276.6990726
+  ],
+  "q:aonuma explains how nintendo": [
+   0,
+   "",
+   1793923276.16301
+  ],
+  "q:aonuma explains how nintendo preserves": [
+   0,
+   "",
+   1793923275.6606364
+  ],
+  "q:aonuma explains how nintendo preserves zelda": [
+   0,
+   "",
+   1793923275.1269999
   ],
   "q:apex legends": [
    1172470,
@@ -33519,6 +33570,31 @@
    "",
    1793919687.8847096
   ],
+  "q:explains how": [
+   0,
+   "",
+   1793923280.0603132
+  ],
+  "q:explains how nintendo": [
+   0,
+   "",
+   1793923279.517839
+  ],
+  "q:explains how nintendo preserves": [
+   0,
+   "",
+   1793923278.9125166
+  ],
+  "q:explains how nintendo preserves zelda": [
+   0,
+   "",
+   1793923278.3809211
+  ],
+  "q:explains how nintendo preserves zelda's legacy": [
+   0,
+   "",
+   1793923277.7677996
+  ],
   "q:explains why": [
    0,
    "",
@@ -35163,6 +35239,16 @@
    0,
    "",
    1793793684.5715773
+  ],
+  "q:how nintendo preserves zelda": [
+   0,
+   "",
+   1793923281.2769246
+  ],
+  "q:how nintendo preserves zelda's legacy": [
+   0,
+   "",
+   1793923280.591088
   ],
   "q:how zelda": [
    0,
@@ -41446,26 +41532,6 @@
  },
  "titles": [
   [
-   1793748762.3329098,
-   "Tami Roman To Star In & EP ‘Double Double Trouble’ Sequel At Lifetime; Roger Cross To Co-Lead"
-  ],
-  [
-   1793750488.8121295,
-   "007 First Light Gets Free Trial For Select PlayStation Plus Subscribers"
-  ],
-  [
-   1793750493.2815535,
-   "Harakiri For The Sky premiere \"Funeral Dreams\" live performance video"
-  ],
-  [
-   1793750496.1875,
-   "Sevendust announce Australian tour with Caligula’s Horse"
-  ],
-  [
-   1793750499.2712326,
-   "Meridian Veil ft members of The Agonist, Cryptopsy & Seven Spires sign to Season Of Mist"
-  ],
-  [
    1793752286.2891388,
    "Bethesda's associate art director really did try to fit 7,000 actual steps into Skyrim's 7,000 Steps: 'I take no responsibility for the Frost Troll'"
   ],
@@ -43380,29 +43446,17 @@
   [
    1793921489.4405742,
    "Nintendo Isn’t Stopping Remakes After Zelda and Star Fox, It’s Claimed"
+  ],
+  [
+   1793923311.958135,
+   "Aonuma Explains How Nintendo Preserves Zelda’s Legacy"
+  ],
+  [
+   1793923324.0298758,
+   "‘The Terminal List’ Franchise Continues At Amazon With ‘Savage Son’"
   ]
  ],
  "titles_uk": [
-  [
-   1793748762.3329113,
-   "Tami Roman та Роджер Кросс зіграють у сиквелі фільму Double Double Trouble на Lifetime"
-  ],
-  [
-   1793750488.8121305,
-   "007 First Light отримала безплатний пробний період для передплатників PlayStation Plus"
-  ],
-  [
-   1793750493.2815547,
-   "Harakiri For The Sky випустили лайв-відео на пісню \"Funeral Dreams\""
-  ],
-  [
-   1793750496.1875007,
-   "Sevendust анонсували тур Австралією з гуртом Caligula’s Horse"
-  ],
-  [
-   1793750499.2712338,
-   "Meridian Veil підписали контракт із Season Of Mist і готують дебютний альбом"
-  ],
   [
    1793752286.2891393,
    "У Bethesda намагалися вмістити реальні 7 000 сходинок у Skyrim"
@@ -45318,6 +45372,14 @@
   [
    1793921489.440575,
    "Як стверджується, Nintendo не збирається припиняти випуск ремейків після «Zelda» та «Star Fox»"
+  ],
+  [
+   1793923311.9581356,
+   "Ейдзі Аонума розповів, як Nintendo зберігає спадщину The Legend of Zelda"
+  ],
+  [
+   1793923324.029877,
+   "Amazon екранізує Savage Son — продовження The Terminal List із Крісом Праттом"
   ]
  ],
  "ukrainian": {
