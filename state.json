@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "gemini": {
+   "detail": "429: ліміт безкоштовних запитів Gemini вичерпано\nПоки що перекладаю через DeepL і Google. Безкоштовний ліміт Gemini оновлюється щодоби.",
+   "label": "Gemini більше не перекладає",
+   "sent": 1793925097.8601544,
+   "since": 1793925097.8601544
+  }
+ },
  "daily_digest_date": "2026-11-05",
  "freebies": {
   "last_check": 1793921499.550889,
@@ -27,13 +34,14 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-06 00:02 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-latest",
+  "at": "2026-11-06 00:31 UTC",
+  "gemini_error": "429: ліміт безкоштовних запитів Gemini вичерпано",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 2
+   "gemini-flash-lite-latest": 2
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
@@ -22537,7 +22545,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>Вийшла Ablahshikar — похмура CRPG про виживання, мародерство та потрошіння військових кораблів</b>\n\nГра доступна в ранньому доступі й пропонує покрокові битви на покинутому « Candle Sea », де потрібно видирати органи з ворожих суден, щоб перетворити власний корабель на приречену химеру.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/ablahshikar-is-a-maximalist-sickos-only-salvage-survival-crpg-about-ripping-organs-out-of-warships-and-pawning-off-strange-goods-thats-now-out-in-early-access\">Rock Paper Shotgun</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/ablahshikar-is-a-maximalist-sickos-only-salvage-survival-crpg-about-ripping-organs-out-of-warships-and-pawning-off-strange-goods-thats-now-out-in-early-access",
     "orig": "Ablahshikar is a maximalist, sickos only salvage-survival CRPG about ripping organs out of warships and pawning off strange goods that's now out in early access"
@@ -22551,7 +22558,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b>Інвестиційна фірма Denmu закрила дебютний фонд із понад $50 мільйонами</b>\n\nІнвестиційна фірма Denmu закрила свій дебютний фонд, перевищивши цільовий показник у $50 мільйонів. Кошти спрямують на підтримку ігор із чіткою творчою ідентичністю та розбудову партнерств із розробниками. Серед уже фінансованих проєктів — The Hundred Line: Last Defense Academy, Blue Protocol: Star Resonance та інші.\n\n🔗 <a href=\"https://www.gamesindustry.biz/investment-firm-denmu-closes-oversubscribed-debut-fund-surpassing-50-million-target\">GamesIndustry.biz</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/investment-firm-denmu-closes-oversubscribed-debut-fund-surpassing-50-million-target",
     "orig": "Investment firm Denmu closes oversubscribed debut fund, surpassing $50 million target"
@@ -22565,7 +22571,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Metallica поділилася професійним відео виконання &#x27;For Whom The Bell Tolls&#x27; у Лас-Вегасі</b>\n\nГурт METALLICA опублікував професійно зняте відео виступу з піснею «For Whom The Bell Tolls» з шостого концерту серії «Life Burns Faster», який відбувся 17 жовтня у концертному залі «Sphere» у Лас-Вегасі, штат Невада. Перегляньте його нижче. Ця серія концертів включає 24 виступи, представлені у вигляді 12 «No...\n\n🔗 <a href=\"https://blabbermouth.net/news/metallica-shares-pro-shot-video-of-for-whom-the-bell-tolls-performance-from-sixth-show-of-las-vegas-sphere-residency\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/metallica-shares-pro-shot-video-of-for-whom-the-bell-tolls-performance-from-sixth-show-of-las-vegas-sphere-residency",
     "orig": "METALLICA Shares Pro-Shot Video Of 'For Whom The Bell Tolls' Performance From Sixth Show Of Las Vegas Sphere Residency"
@@ -23387,6 +23392,48 @@
     "link": "https://deadline.com/2026/11/the-terminal-list-franchise-amazon-savage-son-chris-pratt-1237215033/",
     "orig": "‘The Terminal List’ Franchise Continues At Amazon With ‘Savage Son’"
    }
+  ],
+  [
+   1793925081.1633554,
+   5114,
+   "🎬",
+   "Пояснення кінця Godzilla Minus Zero та майбутнє франшизи",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Пояснення кінця Godzilla Minus Zero та майбутнє франшизи</b>\n\nҐодзілла повертається у прямому сиквелі Godzilla Minus One під назвою Godzilla Minus Zero, щоб влаштувати новий хаос. Розповідаємо, як усе завершилося.\n\n🔗 <a href=\"https://www.slashfilm.com/2306539/godzilla-minus-zero-ending-explained/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2306539/godzilla-minus-zero-ending-explained/",
+    "orig": "Godzilla Minus Zero Ending Explained: Where The Franchise Goes From Here"
+   }
+  ],
+  [
+   1793925084.509345,
+   5115,
+   "🎬",
+   "Lionsgate та 3 Arts запускають новий хорор-лейбл Render Road",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Lionsgate та 3 Arts запускають новий хорор-лейбл Render Road</b>\n\nКомпанія Lionsgate та її дочірнє підприємство 3 Arts Entertainment оголосили про створення нового хорор-лейблу Render Road. Керувати проєктом будуть Люк Максвелл і Вілл Роботам. Нова ініціатива розроблятиме, фінансуватиме та випускатиме фільми, серіали й цифрові проєкти у жанрі жахів.\n\n🔗 <a href=\"https://deadline.com/2026/11/horror-films-lionsgate-3-arts-banner-1237215107/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/horror-films-lionsgate-3-arts-banner-1237215107/",
+    "orig": "Lionsgate & 3 Arts Set New Horror Banner Render Road Led By Luke Maxwell & Will Rowbotham – The Dish"
+   }
+  ],
+  [
+   1793925088.20049,
+   5116,
+   "🤘",
+   "Том Морелло про свого сина-гітариста Романа: «Це не кумівство, коли твоя дитина така, блядь, талановита»",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Том Морелло про свого сина-гітариста Романа: «Це не кумівство, коли твоя дитина така, блядь, талановита»</b>\n\nРоман став співавтором п’яти пісень на останньому альбомі Тома.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/05/news/tom-morello-on-his-guitarist-son-roman-its-not-nepotism-when-your-kids-that-fcking-good/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/11/05/news/tom-morello-on-his-guitarist-son-roman-its-not-nepotism-when-your-kids-that-fcking-good/",
+    "orig": "Tom Morello On His Guitarist Son Roman: “It’s Not Nepotism When Your Kid’s That F*cking Good”"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23587,12 +23634,12 @@
    1793916193.2074995
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
-   1793836879.4258997,
    1793865731.6192818,
    1793896488.4251423,
    1793901726.7614038,
    1793909101.1663146,
-   1793912628.560471
+   1793912628.560471,
+   1793925081.1638436
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792944099.3403795,
@@ -23612,7 +23659,8 @@
    1793907171.2403705,
    1793907178.1437087,
    1793909005.935613,
-   1793923324.02992
+   1793923324.02992,
+   1793925084.5098007
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1793867504.4807332,
@@ -23741,7 +23789,8 @@
    1793910700.2171233,
    1793912654.834376,
    1793912683.1526055,
-   1793921479.7284553
+   1793921479.7284553,
+   1793925088.2009122
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1793613840.9178333
@@ -24865,6 +24914,7 @@
   "3c2c06e1cb7daf0b": 1793451680.7729416,
   "3c374f534f494892": 1793381498.2713509,
   "3c46f96d07a3a9a5": 1792855888.2661157,
+  "3c4e556345a49323": 1793925088.2008684,
   "3c610e589cd5d2c6": 1793529263.1193218,
   "3c69b7cb4619404e": 1793729189.99207,
   "3c6edc03c7ac9d06": 1792954898.9527411,
@@ -25402,7 +25452,6 @@
   "5a5fb315f6d0e980": 1793369066.2335606,
   "5a665c85d1078135": 1792742492.6780198,
   "5a6a20a5ccd73207": 1793493059.718314,
-  "5a86c2a4f8462bc5": 1792715491.3201392,
   "5a8851130f0c9019": 1793473380.172763,
   "5a88ff16c539925b": 1793581252.248414,
   "5a90ee79d51c3d1b": 1793822052.59311,
@@ -25575,6 +25624,7 @@
   "638f7d7aad6fad1e": 1792864893.625285,
   "63a85020b34452a5": 1793286703.8514652,
   "63ade99c01fabec5": 1793218944.2092752,
+  "63ba98f877f70ee2": 1793925081.1637943,
   "63d2398c9275b494": 1793190752.0090716,
   "63dca797f6baf924": 1793214149.074181,
   "63f3d769468dc455": 1793637106.0465386,
@@ -25864,6 +25914,7 @@
   "72e61cb3b47a792d": 1793901858.8515282,
   "72ecc2c64f39f8ad": 1792769692.761051,
   "73071fe291b9086e": 1793741483.6444745,
+  "7318835aebb5c5fb": 1793925076.7035167,
   "731e200a53aed226": 1792846957.30456,
   "73337ced442a1400": 1793374332.5373514,
   "7344cbfecd951efc": 1793032499.5710497,
@@ -25897,6 +25948,7 @@
   "745b3fd3a4dbfb63": 1792775162.8740697,
   "745f58e9abbcecf8": 1793138453.7991607,
   "7463a982eb950886": 1793478686.1992052,
+  "747336ce88a5adc6": 1793925084.5097532,
   "747d4ce4fbb69f19": 1793739677.6958723,
   "748519dc6cabaae7": 1793622675.0267966,
   "749eeda51b56231e": 1793563252.4594228,
@@ -26777,7 +26829,6 @@
   "a7634ab086b9d0e7": 1793198071.232735,
   "a7659782f40e5fc2": 1793369054.388452,
   "a766ec0e80b8e3c0": 1793385320.5233803,
-  "a783be4cabedec90": 1792715488.2618315,
   "a785229c1275ff56": 1792839782.2607527,
   "a798eddf6b10dbe9": 1793448078.91424,
   "a7a2a44280ebb9f7": 1793178096.0534205,
@@ -28777,8 +28828,8 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1793909124.7162163,
-  "blocked_until": 1793908528.3979313,
-  "cursor": 9,
+  "blocked_until": 1793995583.859988,
+  "cursor": 11,
   "digest_week": "2026-W44",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -29553,13 +29604,13 @@
    "Variety": 4
   },
   "sources": {
-   "/Film": 23,
+   "/Film": 24,
    "AIN.ua": 4,
    "Blabbermouth": 50,
    "Bloomberg": 44,
    "DOU": 5,
    "DOU Gamedev": 4,
-   "Deadline": 61,
+   "Deadline": 62,
    "Decibel": 8,
    "Digital Foundry": 7,
    "Distorted Sound": 17,
@@ -29588,14 +29639,14 @@
    "SteamDB": 2,
    "Stereogum": 12,
    "The Decoder": 23,
-   "ThePRP": 47,
+   "ThePRP": 48,
    "VGC": 40,
    "Variety": 24
   },
   "translators": {
-   "DeepL": 73,
+   "DeepL": 75,
    "gemini-flash-latest": 6,
-   "gemini-flash-lite-latest": 1031
+   "gemini-flash-lite-latest": 1033
   },
   "week": "2026-W45"
  },
@@ -30299,21 +30350,6 @@
    3768760,
    "007 First Light",
    1792056045.1976461
-  ],
-  "q:007 first light gets": [
-   0,
-   "",
-   1793750481.4354112
-  ],
-  "q:007 first light gets free": [
-   0,
-   "",
-   1793750480.8556058
-  ],
-  "q:007 first light gets free trial": [
-   0,
-   "",
-   1793750480.3370543
   ],
   "q:1": [
    0,
@@ -34230,26 +34266,6 @@
    "Free to Play",
    1793097181.3473184
   ],
-  "q:free trial": [
-   0,
-   "",
-   1793750486.5478892
-  ],
-  "q:free trial for select": [
-   0,
-   "",
-   1793750485.9388301
-  ],
-  "q:free trial for select playstation": [
-   0,
-   "",
-   1793750485.3910587
-  ],
-  "q:free trial for select playstation plus": [
-   0,
-   "",
-   1793750484.8319979
-  ],
   "q:freespace": [
    0,
    "",
@@ -34539,31 +34555,6 @@
    0,
    "",
    1793901764.9105291
-  ],
-  "q:gets": [
-   0,
-   "",
-   1793750484.3160818
-  ],
-  "q:gets free": [
-   0,
-   "",
-   1793750483.7440412
-  ],
-  "q:gets free trial": [
-   0,
-   "",
-   1793750483.1230545
-  ],
-  "q:gets free trial for select": [
-   0,
-   "",
-   1793750482.5616803
-  ],
-  "q:gets free trial for select playstation": [
-   0,
-   "",
-   1793750481.962144
   ],
   "q:gets its": [
    0,
@@ -41532,10 +41523,6 @@
  },
  "titles": [
   [
-   1793752286.2891388,
-   "Bethesda's associate art director really did try to fit 7,000 actual steps into Skyrim's 7,000 Steps: 'I take no responsibility for the Frost Troll'"
-  ],
-  [
    1793755677.7117102,
    "Park Hoon-jung’s ‘Tristes Tropiques’ Sells To Well Go USA For North America; Swift For France"
   ],
@@ -43454,13 +43441,21 @@
   [
    1793923324.0298758,
    "‘The Terminal List’ Franchise Continues At Amazon With ‘Savage Son’"
+  ],
+  [
+   1793925081.1637957,
+   "Godzilla Minus Zero Ending Explained: Where The Franchise Goes From Here"
+  ],
+  [
+   1793925084.5097554,
+   "Lionsgate & 3 Arts Set New Horror Banner Render Road Led By Luke Maxwell & Will Rowbotham – The Dish"
+  ],
+  [
+   1793925088.2008698,
+   "Tom Morello On His Guitarist Son Roman: “It’s Not Nepotism When Your Kid’s That F*cking Good”"
   ]
  ],
  "titles_uk": [
-  [
-   1793752286.2891393,
-   "У Bethesda намагалися вмістити реальні 7 000 сходинок у Skyrim"
-  ],
   [
    1793755677.7117107,
    "Екшн-нуар Tristes Tropiques від Пак Хун Джуна продали в Північну Америку та Європу"
@@ -45380,6 +45375,18 @@
   [
    1793923324.029877,
    "Amazon екранізує Savage Son — продовження The Terminal List із Крісом Праттом"
+  ],
+  [
+   1793925081.1637964,
+   "Пояснення кінця Godzilla Minus Zero та майбутнє франшизи"
+  ],
+  [
+   1793925084.509756,
+   "Lionsgate та 3 Arts запускають новий хорор-лейбл Render Road"
+  ],
+  [
+   1793925088.2008708,
+   "Том Морелло про свого сина-гітариста Романа: «Це не кумівство, коли твоя дитина така, блядь, талановита»"
   ]
  ],
  "ukrainian": {
@@ -47722,7 +47729,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793921499.405151,
+  "last_check": 1793925097.0687177,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
