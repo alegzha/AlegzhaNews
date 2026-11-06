@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
-   "detail": "https://www.kerrang.com/feed.rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Kerrang!» не працює",
-   "sent": 0,
-   "since": 1793948474.0619383
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-05",
  "freebies": {
   "last_check": 1793943089.637279,
@@ -44,19 +37,6 @@
   ]
  },
  "post_log": [
-  [
-   1793257295.2738283,
-   3357,
-   "🤘",
-   "Поліція Нью-Йорка зірвала несанкціоновані зйомки кліпу Haywire на Таймс-сквер",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/10/28/news/haywires-guerilla-video-shoot-in-times-square-quickly-ended-by-the-nypd/",
-    "orig": "Haywire’s Guerilla Video Shoot In Times Square Quickly Ended By The NYPD"
-   }
-  ],
   [
    1793259092.1207693,
    3358,
@@ -22611,7 +22591,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>Рецензія на фільм «Everytime»: глибока та моторошна драма про горе у цифрову епоху від Сандры Воллнер</b>\n\nТретя повнометражна робота режиссера Wollner досліджує зміни у ставленні сучасного світу до смерті\n\n🔗 <a href=\"https://www.indiewire.com/criticism/movies/everytime-movie-review-sandra-wollner-1235215903/\">IndieWire</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.indiewire.com/criticism/movies/everytime-movie-review-sandra-wollner-1235215903/",
     "orig": "‘Everytime’ Review: Sandra Wollner’s Infinitely Beguiling Portrait of Grief in the Digital Age Is One of the Most Haunting Films of the Decade"
@@ -23480,6 +23459,20 @@
     "link": "https://highload.tech/uk/google-deepmind-vymagaye-vid-pratsivnykiv-movchaty-pro-ryzyky-shtuchnogo-intelektu/#new_tab",
     "orig": "Google DeepMind вимагає від працівників мовчати про ризики штучного інтелекту"
    }
+  ],
+  [
+   1793949380.8961556,
+   5144,
+   "🤖",
+   "Паніка через ШІ охопила фондові ринки США та Азії: Nasdaq втратив $2,3 трлн, а Kospi обвалився на 8,8%",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🤖 <b>Паніка через ШІ охопила фондові ринки США та Азії: Nasdaq втратив $2,3 трлн, а Kospi обвалився на 8,8%</b>\n\nРозпродаж акцій технологічних компаній на тлі побоювань щодо перспектив ШІ охопив США та Азію. Nasdaq втратив рекордні $2,3 трлн ринкової вартості, а південнокорейський Kospi обвалився на 8,8%.\n\n🔗 <a href=\"https://mezha.ua/news/poboyuvannya-shchodo-shi-obvalili-nasdaq-na-2-3-trln-i-sprovokuvali-rozprodazh-akciy-v-aziji-316938/\">Mezha</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/poboyuvannya-shchodo-shi-obvalili-nasdaq-na-2-3-trln-i-sprovokuvali-rozprodazh-akciy-v-aziji-316938/",
+    "orig": "Паніка через ШІ охопила фондові ринки США та Азії: Nasdaq втратив $2,3 трлн, а Kospi обвалився на 8,8%"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23507,14 +23500,10 @@
    1793948487.172221
   ],
   "ai|Mezha|https://mezha.ua/feed/": [
-   1793799106.123045,
-   1793811770.3583636,
-   1793815511.2137585,
-   1793826119.8352013,
-   1793829706.3604667,
    1793869514.9045289,
    1793876567.0420032,
-   1793881927.3816097
+   1793881927.3816097,
+   1793949380.8965936
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1793822052.593153,
@@ -24152,6 +24141,7 @@
   "0d9c47dbb7596ac1": 1793381522.5383954,
   "0d9e57cb7a35ce3e": 1793773878.0409436,
   "0daa17b4fab29440": 1793462615.944772,
+  "0db9d5e692516820": 1793949380.8965333,
   "0dc5c4e09a0736c8": 1792859455.3426251,
   "0dc8302057de6eef": 1793692882.4021676,
   "0dd65bf90d66b9a6": 1793027102.738727,
@@ -25638,7 +25628,6 @@
   "6168d548a387aa0d": 1792897365.3374908,
   "6193a102466b2e6f": 1792873910.0410018,
   "6194eae52cdb4652": 1793460700.6340034,
-  "619b3cfc3ac9ca9b": 1792739161.3595877,
   "619c2fea55a24a62": 1793450714.969448,
   "61a9db4374328c0b": 1792850571.5138538,
   "61ad4d737a0bbfe4": 1792775215.8880954,
@@ -29671,7 +29660,7 @@
    "Loudwire": 24,
    "Metal Hammer (Louder)": 24,
    "Metal Injection": 14,
-   "Mezha": 47,
+   "Mezha": 48,
    "PC Gamer": 50,
    "Pitchfork": 9,
    "PlayUA": 12,
@@ -41517,7 +41506,6 @@
  },
  "tag_hints": {
   "Mezha": [
-   "discord",
    "motorola",
    "openai",
    "renault",
@@ -41529,6 +41517,8 @@
    "акумулятори",
    "безпілотники",
    "блоги",
+   "бізнес",
+   "економіка",
    "енергонезалежність",
    "кібербезпека",
    "мобільний зв'язок",
@@ -41541,6 +41531,7 @@
    "софт",
    "соціальні мережі",
    "статті",
+   "сша",
    "укртелеком",
    "франція",
    "фітнес-браслети",
@@ -43501,6 +43492,10 @@
   [
    1793948487.17217,
    "Google DeepMind вимагає від працівників мовчати про ризики штучного інтелекту"
+  ],
+  [
+   1793949380.8965354,
+   "Паніка через ШІ охопила фондові ринки США та Азії: Nasdaq втратив $2,3 трлн, а Kospi обвалився на 8,8%"
   ]
  ],
  "titles_uk": [
@@ -45455,6 +45450,10 @@
   [
    1793948487.172171,
    "Google DeepMind вимагає від працівників мовчати про ризики штучного інтелекту"
+  ],
+  [
+   1793949380.8965364,
+   "Паніка через ШІ охопила фондові ринки США та Азії: Nasdaq втратив $2,3 трлн, а Kospi обвалився на 8,8%"
   ]
  ],
  "ukrainian": {
