@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "gemini": {
-   "detail": "429: ліміт безкоштовних запитів Gemini вичерпано\nПоки що перекладаю через DeepL і Google. Безкоштовний ліміт Gemini оновлюється щодоби.",
-   "label": "Gemini більше не перекладає",
-   "sent": 1793925097.8601544,
-   "since": 1793925097.8601544
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-05",
  "freebies": {
   "last_check": 1793928749.0254633,
@@ -35,75 +28,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-06 01:32 UTC",
-  "gemini_error": "429: ліміт безкоштовних запитів Gemini вичерпано",
+  "at": "2026-11-06 03:03 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793241079.5186386,
-   3345,
-   "🎮",
-   "У Phantom Blade Zero одна з найкращих зброй доступна на самому початку",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-best-weapon-jagged-steel/",
-    "orig": "Phantom Blade Zero's best weapon might just be the first one you get"
-   }
-  ],
-  [
-   1793241083.7359812,
-   3346,
-   "🎮",
-   "Головні поради для проходження Phantom Blade Zero",
-   "PC Gamer",
-   {
-    "also": [
-     [
-      "IGN",
-      "https://www.ign.com/articles/phantom-blade-zero-fixes-my-biggest-annoyance-with-boss-fights"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/action/phantom-blade-zero-tips/",
-    "orig": "I've spent over 50 hours in Phantom Blade Zero—here are my top 20 tips to conquer the Wulin"
-   }
-  ],
-  [
-   1793242874.785487,
-   3347,
-   "🤘",
-   "U2 анонсували камерний концерт у Лондоні для BBC",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/bands-artists/u2-announce-intimate-london-gig-and-you-too-could-be-there",
-    "orig": "U2 announce intimate BBC gig to take place in London: here's how you could get tickets"
-   }
-  ],
-  [
-   1793242877.5517495,
-   3348,
-   "🎬",
-   "Колишній співробітник Netflix відкрив інді-кінотеатр у Японії",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/cineyama-matt-kelson-japan-indie-cinema-1237207784/",
-    "orig": "How A Former Senior Netflix Staffer Launched One Of Japan’s Buzziest Indie Cinemas"
-   }
-  ],
   [
    1793246571.0746777,
    3349,
@@ -22463,7 +22398,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/2000950/\">Call of Duty: Modern Warfare</a> 4 отримує перше велике оновлення до Season 1</b>\n\nActivision випускає другий великий патч для Call of Duty: Modern Warfare 4 разом зі стартом Season 1. Оновлення додає режими Grind і Drop Zone, нові зразки зброї та модулі, а також розширює локацію DMZ під землею завдяки об&#x27;єкту X01.\n\n🔗 <a href=\"https://insider-gaming.com/modern-warfare-4-patch-notes/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/modern-warfare-4-patch-notes/",
     "orig": "Call of Duty: Modern Warfare 4 Patch Notes: Latest Update and Full Patch History"
@@ -23313,6 +23247,20 @@
     "link": "https://deadline.com/2026/11/helene-hahn-lloyd-dies-disney-dreamworks-exec-1237215141/",
     "orig": "Helene Hahn Lloyd Dies: Former Disney EVP & DreamWorks Founding Exec Was 78"
    }
+  ],
+  [
+   1793934178.5723195,
+   5120,
+   "🤘",
+   "Burn Eternal (Killswitch Engage) випустили новий трек Wounds I've Made",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Burn Eternal (Killswitch Engage) випустили новий трек Wounds I&#x27;ve Made</b>\n\nГурт поділився лірик-відео на свою нову композицію Wounds I&#x27;ve Made\n\n🔗 <a href=\"https://lambgoat.com/news/55736/burn-eternal-killswitch-engage-premiere-new-song-wounds-ive-made/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55736/burn-eternal-killswitch-engage-premiere-new-song-wounds-ive-made/",
+    "orig": "Burn Eternal (Killswitch Engage) premiere new song “Wounds I’ve Made”"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23603,10 +23551,6 @@
    1793898282.907308
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1793833291.612669,
-   1793833295.6043794,
-   1793833300.158968,
-   1793844097.2603374,
    1793851323.6127787,
    1793851330.4000435,
    1793892911.227769,
@@ -23614,7 +23558,8 @@
    1793892917.5655274,
    1793892962.1412914,
    1793903647.2733974,
-   1793914321.8265698
+   1793914321.8265698,
+   1793934178.5727751
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1793863899.4650683,
@@ -23777,7 +23722,6 @@
   "02df0ca94830b91b": 1793469688.3163257,
   "02ea645a4d62c4e7": 1793649868.3424227,
   "0302430592ffbaf6": 1793350881.9504387,
-  "0315cdfb0807a16e": 1792724508.1642187,
   "031c231044bce92e": 1792771255.1467223,
   "033190fcdc02aadb": 1793639174.329667,
   "0338f89c08365c4d": 1793608295.3268735,
@@ -23840,7 +23784,6 @@
   "068629af5069ee94": 1793295502.7164915,
   "0691c388924a1bb6": 1793304052.600284,
   "06a084373ab697dc": 1793018066.8078265,
-  "06a51dce32e7093e": 1792724506.1839483,
   "06ac7a204a07e98e": 1793901796.532273,
   "06b896766663c219": 1793118786.6472006,
   "06b9d1aaa419ef93": 1793386980.1455052,
@@ -24609,6 +24552,7 @@
   "30de37568f34f157": 1792877498.5320117,
   "30e8352540f9871a": 1793185331.675567,
   "30f60b2311507370": 1793268171.9004025,
+  "30f8f5b6a3af214c": 1793934178.5727267,
   "30fe9dbf1de93b8d": 1792970433.1024907,
   "31012c31c856accc": 1793223116.2899666,
   "3101fcb668c0e8b3": 1793050294.0004637,
@@ -25360,7 +25304,6 @@
   "5c2c6eca4262adf3": 1793406677.730069,
   "5c42cb5d3a5fb806": 1793271831.6730425,
   "5c4aee3d89f55839": 1792935079.611996,
-  "5c77a5b855becaf0": 1792722706.5638113,
   "5c79593dafa1cd48": 1793718081.3735888,
   "5c80a2616fd3eca3": 1793169079.2856617,
   "5c8feb125e5f215b": 1793201659.0745134,
@@ -25729,7 +25672,6 @@
   "6fc3df60655b4c77": 1793901835.2385743,
   "6fc91d40962b71be": 1793903647.2733448,
   "6fe1de2b48f3a84f": 1793739690.1276684,
-  "6fe7b27fcc87bfea": 1792724510.919743,
   "6ff920377ebdbb68": 1793296914.6709578,
   "7002d1fd294e8155": 1793327573.2271204,
   "7009fb8a71c5651a": 1793660575.1137156,
@@ -26306,7 +26248,6 @@
   "90cf6be5a847c405": 1793455366.5874949,
   "90d5770dc7ea3aa3": 1792794687.55806,
   "913a674a2a3385b7": 1793179895.5264766,
-  "914eabdc10585dae": 1792724489.9842541,
   "9174ede8a45e4a6b": 1793129515.9131255,
   "91832b2f6b501c6c": 1793613845.5178423,
   "91b1a0f4459327db": 1793892698.8262823,
@@ -27101,7 +27042,6 @@
   "bc2b72bddbe6013e": 1793397655.8950074,
   "bc459a849db7bb67": 1793291766.908042,
   "bc4a3c13f739bed8": 1793849499.6063247,
-  "bc5133fa656e86f5": 1792724498.2451725,
   "bc99d51b9f4a910e": 1793763078.3152146,
   "bcb89dd9d757f1e9": 1793104274.4161053,
   "bcb95eefa8ef4f5b": 1793536278.236502,
@@ -27540,7 +27480,6 @@
   "d69979056e72dceb": 1793473376.9258718,
   "d6e5d4be003ea2bd": 1793235653.5635622,
   "d6f2f27c06414f69": 1793377973.439564,
-  "d6f40a62dd714377": 1792724501.4403846,
   "d6fa9dcc5349b895": 1793827916.6509485,
   "d6ff3b0232933c90": 1792857754.8263862,
   "d706e6c706b5424e": 1793905317.2771583,
@@ -27568,6 +27507,7 @@
   "d8eebb95c79608d6": 1793194303.609671,
   "d8f396bbbf457987": 1793575892.3860388,
   "d90d007aae6e0f93": 1793394128.4496553,
+  "d912ce43c9f4a71e": 1793934073.4592197,
   "d91c0e5deeb244c3": 1793387001.6952822,
   "d91d51e87d0e175b": 1793334681.859328,
   "d9295badd3534203": 1793869429.0483804,
@@ -29495,7 +29435,7 @@
    "IndieWire": 20,
    "Insider Gaming": 79,
    "Kerrang!": 18,
-   "Lambgoat": 38,
+   "Lambgoat": 39,
    "Loudwire": 24,
    "Metal Hammer (Louder)": 22,
    "Metal Injection": 14,
@@ -29517,7 +29457,7 @@
   "translators": {
    "DeepL": 77,
    "gemini-flash-latest": 6,
-   "gemini-flash-lite-latest": 1034
+   "gemini-flash-lite-latest": 1035
   },
   "week": "2026-W45"
  },
@@ -41344,42 +41284,6 @@
  },
  "titles": [
   [
-   1793759588.784118,
-   "Kurt Vile Shreds Through “99 BPM” on Fallon"
-  ],
-  [
-   1793759599.2263095,
-   "Prong"
-  ],
-  [
-   1793761302.330908,
-   "Netflix Orders YA Drama ‘Prep’ Based on Curtis Sittenfeld Novel From Nicole Taylor"
-  ],
-  [
-   1793761305.3395693,
-   "AI Industry on Safety and Control"
-  ],
-  [
-   1793761308.210469,
-   "AMD Forecast Exceeds Estimates as AI Chip Demand Soars"
-  ],
-  [
-   1793761311.2473521,
-   "Eric Dane’s Posthumous Memoir Reveals Actor’s Fight With Josh Duhamel on Set: ‘Let’s Go, You P—- Ass Actor!’"
-  ],
-  [
-   1793761314.0505276,
-   "Lucy Liu’s ‘The Pirate Queen’ Expands With Graphic Novel, New Game and International Tour as Creator Eloise Singer Joins BAFTA Breakthrough Cohort (EXCLUSIVE)"
-  ],
-  [
-   1793761318.779503,
-   "Weta FX and TAICCA Partner to Turn Taiwan Into an AI Screen Production Hub for Asia (EXCLUSIVE)"
-  ],
-  [
-   1793761322.221934,
-   "Joe Walsh once joined a reggae band in New Zealand: The experience saved his life"
-  ],
-  [
    1793763078.3152165,
    "What Election Day Commentators Are Saying: Trump Rants, Hasan Piker Wonders if MAGA ‘Cult’ Is Over and More (Updating)"
   ],
@@ -43274,45 +43178,13 @@
   [
    1793928739.8367112,
    "Helene Hahn Lloyd Dies: Former Disney EVP & DreamWorks Founding Exec Was 78"
+  ],
+  [
+   1793934178.5727286,
+   "Burn Eternal (Killswitch Engage) premiere new song “Wounds I’ve Made”"
   ]
  ],
  "titles_uk": [
-  [
-   1793759588.7841184,
-   "Kurt Vile виконав трек “99 BPM” у шоу Fallon"
-  ],
-  [
-   1793759599.2263107,
-   "Гурт Prong анонсував однойменний альбом 2026 року"
-  ],
-  [
-   1793761302.3309093,
-   "Netflix замовляє підлітковий драматичний серіал Prep за романом Curtis Sittenfeld"
-  ],
-  [
-   1793761305.3395708,
-   "Ден Лагав і Жоель Піно обговорили безпеку та контроль ШІ"
-  ],
-  [
-   1793761308.21047,
-   "Прогноз доходу AMD перевищив очікування завдяки попиту на ШІ"
-  ],
-  [
-   1793761311.2473528,
-   "Посмертні мемуари Еріка Дейна розкрили його бійку з Джошем Дюамелем на зйомках"
-  ],
-  [
-   1793761314.0505283,
-   "Франшиза The Pirate Queen отримає графічний роман, гру та тур"
-  ],
-  [
-   1793761318.779504,
-   "Weta FX та TAICCA перетворять Тайвань на хаб ШІ-продакшну"
-  ],
-  [
-   1793761322.2219348,
-   "Гітарист Eagles Джо Волш свого часу приєднався до новозеландського реггі-гурту Herbs"
-  ],
   [
    1793763078.3152177,
    "Що відомі коментатори говорять у день виборів у США"
@@ -45208,6 +45080,10 @@
   [
    1793928739.836712,
    "Померла Гелен Ган Ллойд: колишня виконавча віцепрезидентка «Діснея» та одна із засновниць «Дрімворкс» померла у віці 78 років"
+  ],
+  [
+   1793934178.5727298,
+   "Burn Eternal (Killswitch Engage) випустили новий трек Wounds I've Made"
   ]
  ],
  "ukrainian": {
