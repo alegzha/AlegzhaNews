@@ -73,7 +73,7 @@ categories:
   music:
     emoji: "🤘"
     hashtag: "#музика"
-    max_per_day: 20             # постів рубрики на добу
+    max_per_day: 15             # постів рубрики на добу
     feeds:
       - name: Metal Injection
         url: https://metalinjection.net/feed
@@ -133,7 +133,7 @@ categories:
   movies:
     emoji: "🎬"
     hashtag: "#кіно_і_серіали"
-    max_per_day: 10             # постів рубрики на добу
+    max_per_day: 25             # постів рубрики на добу
     feeds:
       # - name: Collider            # вимкнено: забагато підбірок і повторів
       #   url: https://collider.com/feed/
@@ -170,7 +170,7 @@ categories:
   software:
     emoji: "💾"
     hashtag: "#софт"
-    max_per_day: 8             # постів рубрики на добу
+    max_per_day: 15             # постів рубрики на добу
     feeds:
       - name: Mezha
         url: https://mezha.ua/feed/
@@ -213,7 +213,7 @@ categories:
   ai:
     emoji: "🤖"
     hashtag: "#ШІ"
-    max_per_day: 7             # постів рубрики на добу
+    max_per_day: 20             # постів рубрики на добу
     feeds:
       - name: Mezha
         url: https://mezha.ua/feed/
@@ -345,7 +345,7 @@ limits:
   max_posts_per_run: 5         # максимум постів за одну перевірку (кожні 30 хв)
   max_per_source_per_run: 2    # максимум з одного сайту за перевірку
   max_per_source_per_day: 4     # типовий денний ліміт для одного джерела (можна змінити в самому джерелі)
-  max_posts_per_day: 70         # усього постів новин на добу (розподіляються рівномірно)
+  max_posts_per_day: 100         # усього постів новин на добу (розподіляються рівномірно)
   max_age_hours: 12            # старіші новини ігноруються
   summary_chars: 450           # довжина опису під заголовком
   summarize: true              # англомовні статті: Gemini пише короткий переказ самої статті
