@@ -2,7 +2,7 @@
  "alerts": {},
  "daily_digest_date": "2026-11-05",
  "freebies": {
-  "last_check": 1793943089.637279,
+  "last_check": 1793950286.9820147,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -28,12 +28,14 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-06 07:01 UTC",
-  "gemini_error": "429: ліміт безкоштовних запитів Gemini вичерпано",
-  "gemini_model": null,
-  "gemini_models_used": {},
+  "at": "2026-11-06 07:31 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_models_used": {
+   "gemini-flash-lite-latest": 1
+  },
   "used": [
-   "DeepL"
+   "Gemini"
   ]
  },
  "post_log": [
@@ -22604,7 +22606,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Кенні Гіккі розповів про пропозиції великих грошей за триб&#x27;ют-концерт TYPE O NEGATIVE</b>\n\nГітарист Кенні Гіккі розповів, що TYPE O NEGATIVE отримували пропозиції зіграти триб&#x27;ют-концерт пам&#x27;яті Пітера Стіла за великі гроші. За його словами, організація такого шоу надто складна через логістику та пошук басиста й вокаліста, здатних замінити Стіла.\n\n🔗 <a href=\"https://blabbermouth.net/news/kenny-hickey-type-o-negative-was-offered-a-lot-of-money-to-play-one-peter-steele-tribute-concert\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/kenny-hickey-type-o-negative-was-offered-a-lot-of-money-to-play-one-peter-steele-tribute-concert",
     "orig": "KENNY HICKEY: TYPE O NEGATIVE Was Offered 'A Lot Of Money' To Play One PETER STEELE Tribute Concert"
@@ -23473,6 +23474,20 @@
     "link": "https://mezha.ua/news/poboyuvannya-shchodo-shi-obvalili-nasdaq-na-2-3-trln-i-sprovokuvali-rozprodazh-akciy-v-aziji-316938/",
     "orig": "Паніка через ШІ охопила фондові ринки США та Азії: Nasdaq втратив $2,3 трлн, а Kospi обвалився на 8,8%"
    }
+  ],
+  [
+   1793950285.4025447,
+   5145,
+   "🎬",
+   "У Тайвані відкрився фестиваль TCCF із акцентом на IP, копродукцію та держпідтримку",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>У Тайвані відкрився фестиваль TCCF із акцентом на IP, копродукцію та держпідтримку</b>\n\nУ Тайвані стартував сьомий фестиваль Taiwan Creative Content Fest. Головними темами заходу стали розвиток інтелектуальної власності, вихід на міжнародні ринки через копродукцію, роль ШІ та другий транш інвестицій від уряду на суму $303M.\n\n🔗 <a href=\"https://deadline.com/2026/11/taiwan-creative-content-fest-taicca-weta-1237215199/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/taiwan-creative-content-fest-taicca-weta-1237215199/",
+    "orig": "Taiwan Creative Content Fest Opens With Focus On IP, Co-Production & Pledges Of Government Support"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23683,7 +23698,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1793862130.0505536,
    1793869382.17524,
    1793871136.750587,
    1793876908.9888825,
@@ -23697,7 +23711,8 @@
    1793923324.02992,
    1793925084.5098007,
    1793928735.8944397,
-   1793928739.8367574
+   1793928739.8367574,
+   1793950285.4030151
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1793867504.4807332,
@@ -24187,6 +24202,7 @@
   "0fd44ce5b5c66a69": 1793125921.6521685,
   "0fda04f75624a3da": 1793730728.9030435,
   "0fe3c592aa2b5aa4": 1792919065.3443704,
+  "0fe3d7fd31b93cb1": 1793950285.4029667,
   "0ff77e43a7190299": 1793207162.8471122,
   "0ffca5433adec72e": 1793205218.0193624,
   "1001a91e293eb834": 1793315026.6644495,
@@ -27002,7 +27018,6 @@
   "aebc71219a75a5f4": 1793291693.50822,
   "aec67bc17f528368": 1793871080.5043733,
   "aecb7b2632eacf76": 1793813843.7958722,
-  "aee63b39942cb1fd": 1792740682.0338914,
   "af00080caa41aed0": 1793923324.0298736,
   "af04e5ada552d24b": 1793736153.0846891,
   "af05a4f395ef5aa3": 1793664119.5049946,
@@ -29642,7 +29657,7 @@
    "Bloomberg": 47,
    "DOU": 5,
    "DOU Gamedev": 4,
-   "Deadline": 64,
+   "Deadline": 65,
    "Decibel": 8,
    "Digital Foundry": 7,
    "Distorted Sound": 17,
@@ -29678,7 +29693,7 @@
   "translators": {
    "DeepL": 108,
    "gemini-flash-latest": 8,
-   "gemini-flash-lite-latest": 1040
+   "gemini-flash-lite-latest": 1041
   },
   "week": "2026-W45"
  },
@@ -41542,10 +41557,6 @@
  },
  "titles": [
   [
-   1793777484.2551868,
-   "Will Ebenezer Be The Box Office Hit Johnny Depp's Hollywood Comeback Needs?"
-  ],
-  [
    1793777493.845929,
    "ARC Raiders CEO Admits Both PvE and PvP Need To Be Catered For"
   ],
@@ -43496,13 +43507,13 @@
   [
    1793949380.8965354,
    "Паніка через ШІ охопила фондові ринки США та Азії: Nasdaq втратив $2,3 трлн, а Kospi обвалився на 8,8%"
+  ],
+  [
+   1793950285.402969,
+   "Taiwan Creative Content Fest Opens With Focus On IP, Co-Production & Pledges Of Government Support"
   ]
  ],
  "titles_uk": [
-  [
-   1793777484.2551877,
-   "Чи стане Ebenezer касовим хітом, якого потребує Джонні Депп"
-  ],
   [
    1793777493.8459303,
    "Embark Studios визнала необхідність додати PvE-контент у ARC Raiders"
@@ -45454,6 +45465,10 @@
   [
    1793949380.8965364,
    "Паніка через ШІ охопила фондові ринки США та Азії: Nasdaq втратив $2,3 трлн, а Kospi обвалився на 8,8%"
+  ],
+  [
+   1793950285.4029698,
+   "У Тайвані відкрився фестиваль TCCF із акцентом на IP, копродукцію та держпідтримку"
   ]
  ],
  "ukrainian": {
