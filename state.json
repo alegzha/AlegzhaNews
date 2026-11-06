@@ -35,11 +35,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-06 04:03 UTC",
-  "gemini_error": "429: ліміт безкоштовних запитів Gemini вичерпано",
+  "at": "2026-11-06 04:34 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "DeepL",
@@ -47,45 +47,6 @@
   ]
  },
  "post_log": [
-  [
-   1793246583.1612072,
-   3350,
-   "🎮",
-   "У новому епізоді South Park показали геймплей GTA 6",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/new-grand-theft-auto-6-gameplay-revealed-during-south-park/",
-    "orig": "New Grand Theft Auto 6 Gameplay Revealed During South Park"
-   }
-  ],
-  [
-   1793248362.5299444,
-   3351,
-   "🎬",
-   "Absolute Batman #25 готує зовсім інший погляд на Damian Wayne від DC",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2300059/absolute-batman-issue-25-setup-dc-damian-wayne/",
-    "orig": "Absolute Batman #25 Sets Up A Very Different Take On DC's Damian Wayne"
-   }
-  ],
-  [
-   1793248365.4047837,
-   3352,
-   "🎬",
-   "You Can See Everything не змагатиметься за режисерську нагороду DGA",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2300497/you-can-see-everything-dga-ineligible-award-before-oscars/",
-    "orig": "You Can See Everything Deemed Ineligible For A Major Award On The Road To The Oscars"
-   }
-  ],
   [
    1793251885.3386533,
    3353,
@@ -22484,7 +22445,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Новий альбом AMARANTHE повернеться до звучання гетеборзького металу</b>\n\nВокалістка Еліз Рійд розповіла, що гурт AMARANTHE розпочинає запис нового альбому з продюсером Якобом Хансеном. За її словами, майбутня пластинка повернеться до витоків із фірмовими рифами гетеборзького металу. Це буде другий реліз колективу за участю екстрим-вокаліста Мікаеля Селіна.\n\n🔗 <a href=\"https://blabbermouth.net/news/elize-ryd-amaranthes-upcoming-album-will-feature-back-to-the-roots-gothenburg-metal-sound\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/elize-ryd-amaranthes-upcoming-album-will-feature-back-to-the-roots-gothenburg-metal-sound",
     "orig": "ELIZE RYD: AMARANTHE's Upcoming Album Will Feature 'Back-To-The-Roots Gothenburg Metal Sound'"
@@ -22498,7 +22458,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Суд над Russell Brand показав усю суть телеіндустрії</b>\n\nRussell Brand визнали винним у зґвалтуванні та сексуальному насильстві після майже місячного судового процесу. Це перший гучний процес у межах #MeToo для британського телебачення, під час якого Лондонський суд Саутварка заслухав свідчення\n\n🔗 <a href=\"https://deadline.com/2026/11/russell-brand-trial-reveals-worst-best-of-tv-industry-1237214490/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/russell-brand-trial-reveals-worst-best-of-tv-industry-1237214490/",
     "orig": "Russell Brand Trial Reveals Worst & Best Of TV Industry That Protected, Then Exposed A Predator"
@@ -23165,7 +23124,12 @@
    "Amazon екранізує Savage Son — продовження The Terminal List із Крісом Праттом",
    "Deadline",
    {
-    "also": [],
+    "also": [
+     [
+      "Variety",
+      "https://variety.com/2026/tv/news/chris-pratt-terminal-list-savage-son-series-amazon-1236940840/"
+     ]
+    ],
     "caption": "🎬 <b>Amazon екранізує Savage Son — продовження The Terminal List із Крісом Праттом</b>\n\nAmazon MGM Studios розробляє серіальну адаптацію роману Savage Son Джека Карра, де Кріс Пратт повернеться до ролі James Reece. Поки невідомо, чи проєкт стане третім сезоном The Terminal List, чи вийде окремо. За сюжетом, герой збирає команду спецпризначенців, щоб помститися зв&#x27;язаному з російською мафією офіцеру-зраднику CIA.\n\n🔗 <a href=\"https://deadline.com/2026/11/the-terminal-list-franchise-amazon-savage-son-chris-pratt-1237215033/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/the-terminal-list-franchise-amazon-savage-son-chris-pratt-1237215033/",
@@ -23338,6 +23302,34 @@
     "kind": "photo",
     "link": "https://variety.com/2026/film/markets-festivals/lord-of-the-rings-avatar-vfx-team-weta-fx-back-taiwan-studio-1236941018/",
     "orig": "‘Lord of the Rings,’ ‘Avatar’ VFX House Weta FX to Invest in Taiwan’s Moonshine Studio Under AI Pact With TAICCA"
+   }
+  ],
+  [
+   1793939658.7167592,
+   5127,
+   "🎬",
+   "Хірург із амнезією протистоїть своєму минулому у сфері торгівлі органами в серіалі «Hannibal Inside» для Taiwan Creative Content Fest",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Хірург із амнезією протистоїть своєму минулому у сфері торгівлі органами в серіалі «Hannibal Inside» для Taiwan Creative Content Fest</b>\n\nУ кримінальному трилері «Hannibal Inside» від Studio76, знятому за мотивами роману «The Monster Community», права на який продюсери придбали у видавництва Kadokawa Taiwan, шеф-кухар сашимі, що страждає на амнезію, дізнається, що колись був провідним хірургом синдикату, який займався торгівлею органами. Проєкт представлено на фестивалі Taiwan Creative Content Fest (TCCF) у Тайбеї. Через два роки після того, як автомобіль […]\n\n🔗 <a href=\"https://variety.com/2026/tv/spotlight/amnesiac-surgeon-thriller-taiwan-creative-content-fest-1236940903/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/tv/spotlight/amnesiac-surgeon-thriller-taiwan-creative-content-fest-1236940903/",
+    "orig": "Amnesiac Surgeon Confronts His Organ-Trafficking Past in Taiwan Creative Content Fest Series ‘Hannibal Inside’"
+   }
+  ],
+  [
+   1793939662.1077244,
+   5128,
+   "🎬",
+   "Джейлен Брансон дебютував у серіалі «Закон і порядок: Спеціальний корпус» у ролі поліцейського, якого підвищили у званні: «Я зосередився на своїх цілях… Усе склалося якнайкраще»",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Джейлен Брансон дебютував у серіалі «Закон і порядок: Спеціальний корпус» у ролі поліцейського, якого підвищили у званні: «Я зосередився на своїх цілях… Усе склалося якнайкраще»</b>\n\nДжейлен Брансон, який у червні привів «Нью-Йорк Нікс» до їхнього першого чемпіонського титулу в НБА за останні 53 роки, з’явився в ролі поліцейського у четверговому епізоді серіалу «Закон і порядок: Спеціальний корпус». Він з’являється в епізоді лише в одній короткій сцені, де зустрічається з Олівією Бенсон (роль виконує Маріска Харгітей), щоб надати інформацію про підозрюваного […]\n\n🔗 <a href=\"https://variety.com/2026/tv/news/jalen-brunson-cop-law-and-order-svu-1236939700/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/tv/news/jalen-brunson-cop-law-and-order-svu-1236939700/",
+    "orig": "Jalen Brunson Makes ‘Law & Order: SVU’ Acting Debut as a Promoted Cop: ‘I Focused on My Goals… Things Worked Out’"
    }
   ]
  ],
@@ -23588,9 +23580,8 @@
    1793937775.988979
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
-   1793851294.3809733,
-   1793851300.8695996,
-   1793851314.5762455
+   1793939658.7171986,
+   1793939662.108167
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
    1793881925.0276005,
@@ -24842,7 +24833,6 @@
   "3d6cd78f9934ae55": 1793559693.9614067,
   "3dbb73ef4a095336": 1793379727.2581506,
   "3dbc4f6b1fea674b": 1793125894.7813888,
-  "3dbc9c1b21004bba": 1792729878.6944134,
   "3dd148d04f967dc0": 1793203519.259686,
   "3dd3c941d8999a2f": 1792843341.9443567,
   "3dd4b916ea74e2f2": 1793041277.5961473,
@@ -25664,6 +25654,7 @@
   "6bb2d94b62065196": 1793111477.2269268,
   "6bc8cbfb21d3a747": 1793210820.8066473,
   "6bd0091621829615": 1793124057.0988903,
+  "6bdf11427a7a1bb5": 1793939662.1081095,
   "6bef440fd66cae9a": 1793435454.1575031,
   "6bf443b51d6286a5": 1793604776.9877975,
   "6bf816ec3870b8d9": 1792735456.740413,
@@ -25966,6 +25957,7 @@
   "7ae9530528bcd6e5": 1792747879.4138863,
   "7af23a4a7268cf9c": 1793341976.7544203,
   "7afa5b38de3009d7": 1793899906.306727,
+  "7b1bf47eb79a4d62": 1793939475.9033875,
   "7b2619617ae995a3": 1793552784.6838899,
   "7b2a0e382eedd60d": 1793008877.9542034,
   "7b2b2fba52306775": 1793736110.6937468,
@@ -27887,6 +27879,7 @@
   "e9cd622c57fadabc": 1793905293.112482,
   "e9ea6a9229cbe726": 1792735454.6947062,
   "e9f0ae4618e8f932": 1793079172.7955256,
+  "ea09a2dc8c17c0fe": 1793939658.7171464,
   "ea1548a3ff740b8b": 1793053980.6306236,
   "ea2851a3cf61f8d0": 1792935122.457733,
   "ea4b56c6183fa3fb": 1793640710.3835752,
@@ -29534,12 +29527,12 @@
    "The Decoder": 23,
    "ThePRP": 48,
    "VGC": 40,
-   "Variety": 26
+   "Variety": 28
   },
   "translators": {
-   "DeepL": 83,
+   "DeepL": 86,
    "gemini-flash-latest": 6,
-   "gemini-flash-lite-latest": 1038
+   "gemini-flash-lite-latest": 1039
   },
   "week": "2026-W45"
  },
@@ -41381,14 +41374,6 @@
  },
  "titles": [
   [
-   1793766703.671681,
-   "Runway on Generative AI Worlds"
-  ],
-  [
-   1793766726.478442,
-   "Obituary announce pair of Tampa shows celebrating 'Xecutioner's Return' & 'Darkest Day' re-issues"
-  ],
-  [
    1793770277.8583302,
    "Oracle Scraps $7 Billion Deal to Lease Chips to Tencent, FT Says"
   ],
@@ -43295,17 +43280,17 @@
   [
    1793937775.9889388,
    "‘Lord of the Rings,’ ‘Avatar’ VFX House Weta FX to Invest in Taiwan’s Moonshine Studio Under AI Pact With TAICCA"
+  ],
+  [
+   1793939658.717148,
+   "Amnesiac Surgeon Confronts His Organ-Trafficking Past in Taiwan Creative Content Fest Series ‘Hannibal Inside’"
+  ],
+  [
+   1793939662.1081111,
+   "Jalen Brunson Makes ‘Law & Order: SVU’ Acting Debut as a Promoted Cop: ‘I Focused on My Goals… Things Worked Out’"
   ]
  ],
  "titles_uk": [
-  [
-   1793766703.671682,
-   "Runway готує перехід генеративного ШІ до інтерактивних світів"
-  ],
-  [
-   1793766726.478443,
-   "Obituary анонсували два концерти в Тампі на честь перевидання альбомів Xecutioner's Return і Darkest Day"
-  ],
   [
    1793770277.8583312,
    "Oracle скасувала угоду на $7 мільярдів з Tencent щодо оренди чіпів"
@@ -45213,6 +45198,14 @@
   [
    1793937775.9889395,
    "Компанія Weta FX, яка створювала візуальні ефекти для фільмів «Володар перснів» та «Аватар», інвестуватиме в тайванську студію Moonshine Studio в рамках угоди про співпрацю в галузі штучного інтелекту з TAICCA"
+  ],
+  [
+   1793939658.717149,
+   "Хірург із амнезією протистоїть своєму минулому у сфері торгівлі органами в серіалі «Hannibal Inside» для Taiwan Creative Content Fest"
+  ],
+  [
+   1793939662.1081119,
+   "Джейлен Брансон дебютував у серіалі «Закон і порядок: Спеціальний корпус» у ролі поліцейського, якого підвищили у званні: «Я зосередився на своїх цілях… Усе склалося якнайкраще»"
   ]
  ],
  "ukrainian": {
@@ -47557,7 +47550,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1793935890.7676976,
+  "last_check": 1793939670.8214617,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
