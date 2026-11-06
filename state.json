@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
+   "detail": "https://distortedsoundmag.com/feed/ → 504 Server Error: Gateway Time-out for url: https://distortedsoundmag.com/feed/",
+   "label": "Джерело «Distorted Sound» не працює",
+   "sent": 0,
+   "since": 1793966484.038593
+  }
+ },
  "daily_digest_date": "2026-11-05",
  "freebies": {
   "last_check": 1793964707.3392508,
@@ -39,71 +46,6 @@
   ]
  },
  "post_log": [
-  [
-   1793273538.852336,
-   3392,
-   "🤘",
-   "Померла Крістін Макдоналд, дружина фронтмена VOIVOD Деніса \"Snake\" Беланжера",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/voivod-singer-snakes-partner-christine-mcdonald-dies-after-battle-with-cancer",
-    "orig": "VOIVOD Singer SNAKE's Partner CHRISTINE MCDONALD Dies After Battle With Cancer"
-   }
-  ],
-  [
-   1793273546.4456096,
-   3393,
-   "🎮",
-   "Продажі консолей Xbox впали на 14 відсотків через обмежену кількість пристроїв",
-   "Eurogamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.eurogamer.net/xbox-financials-sales-asha-sharma-microsoft",
-    "orig": "Xbox leader Asha Sharma says there's \"more demand than consoles available\" as Xbox hardware sales dip by 14%"
-   }
-  ],
-  [
-   1793273552.2385423,
-   3394,
-   "🤘",
-   "Enter Shikari рефлексують про плин часу в новому синглі Lightyears",
-   "Kerrang!",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.kerrang.com/enter-shikari-reflect-on-the-passing-of-time-on-new-single-lightyears",
-    "orig": "Enter Shikari reflect on the passing of time on new single, Lightyears"
-   }
-  ],
-  [
-   1793275286.8752744,
-   3395,
-   "🎮",
-   "Helldivers 2 отримала хвилю негативних відгуків у Steam через античит",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/helldivers-2-review-bombed-on-steam-anti-cheat",
-    "orig": "Helldivers 2 Review Bombed on Steam After Anti-Cheat Friendly Fire"
-   }
-  ],
-  [
-   1793275289.104363,
-   3396,
-   "💾",
-   "YouTube встановив новий рекорд за кількістю Premium-підписників",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/youtube-hits-150-million-paid-subscribers-316661/",
-    "orig": "YouTube встановив новий рекорд за кількістю Premium-підписників"
-   }
-  ],
   [
    1793275317.9579446,
    3397,
@@ -22430,7 +22372,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Вокалістка HEART Енн Вілсон розкрила секрет збереження голосу після п&#x27;яти десятиліть на сцені</b>\n\nВокалістка HEART Енн Вілсон розповіла, що підтримує голос за допомогою годинної розспівки під альбоми інших виконавців, зокрема Elton John. Артистка також поділилася спогадами про минулі роки та підтвердила готовність повернутися до гастролей у 2025 році після проходження курсу хіміотерапії.\n\n🔗 <a href=\"https://blabbermouth.net/news/hearts-ann-wilson-on-how-she-has-managed-to-keep-her-singing-voice-in-such-great-shape-after-five-decades-i-take-care-of-myself-moderately\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/hearts-ann-wilson-on-how-she-has-managed-to-keep-her-singing-voice-in-such-great-shape-after-five-decades-i-take-care-of-myself-moderately",
     "orig": "HEART's ANN WILSON On How She Has Managed To Keep Her Singing Voice In Such Great Shape After Five Decades: 'I Take Care Of Myself Moderately'"
@@ -22444,7 +22385,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Цифрові продажі Nintendo сягнули 60.7% від загального доходу</b>\n\nЗ квітня по вересень 2026 року цифрові продажі Nintendo склали 60.7% від загального доходу програмного забезпечення на платформах компанії. Показник зріс на 6.2 відсоткового пункту порівняно з минулим роком і досяг ¥249.6 мільярда єн. Зростання зумовлене зокрема наявністю завантажуваних ігор у комплекті консолей та курсом єни.\n\n🔗 <a href=\"https://insider-gaming.com/nintendo-digital-software-revenue-share-2026/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/nintendo-digital-software-revenue-share-2026/",
     "orig": "Nintendo Digital Sales Reach 60.7% of Software Revenue"
@@ -23290,12 +23230,39 @@
     "link": "https://www.bloomberg.com/news/newsletters/2026-11-06/ai-s-grip-on-financial-markets-was-never-clearer-on-the-way-down",
     "orig": "AI’s Grip on Financial Markets Was Never Clearer on the Way Down"
    }
+  ],
+  [
+   1793966491.9678857,
+   5164,
+   "🤖",
+   "Shield AI домовилася купити виробника радарів для протидії дронам Echodyne за $5,3 млрд",
+   "AIN.ua",
+   {
+    "also": [],
+    "caption": "🤖 <b>Shield AI домовилася купити виробника радарів для протидії дронам Echodyne за $5,3 млрд</b>\n\nНа момент закриття угоди Shield AI передасть $4,8 млрд грошима та цінними паперами. Ще до $500 млн залежатимуть від того, чи досягне Echodyne погоджених показників.\n\n🔗 <a href=\"https://ain.ua/2026/11/06/shield-ai-domovilasia-kupiti-virobnika-radariv-dlia-protidiyi-dronam-echodyne-za-53-mlrd/\">AIN.ua</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://ain.ua/2026/11/06/shield-ai-domovilasia-kupiti-virobnika-radariv-dlia-protidiyi-dronam-echodyne-za-53-mlrd/",
+    "orig": "Shield AI домовилася купити виробника радарів для протидії дронам Echodyne за $5,3 млрд"
+   }
+  ],
+  [
+   1793966494.7044747,
+   5165,
+   "🤖",
+   "НБУ створює ШІ-агентів, які імітуватимуть українців для прогнозування інфляційних очікувань",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🤖 <b>НБУ створює ШІ-агентів, які імітуватимуть українців для прогнозування інфляційних очікувань</b>\n\nНаціональний банк України розробляє систему штучного інтелекту, яка імітуватиме поведінку різних груп населення, щоб оцінювати їхні інфляційні очікування. За допомогою віртуальних агентів фінансовий регулятор зможе прогнозувати реакцію українців на економічні події ще до проведення реальних соціологічних опитувань.\n\n🔗 <a href=\"https://mezha.ua/news/ukraine-s-central-bank-ai-agents-316955/\">Mezha</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/ukraine-s-central-bank-ai-agents-316955/",
+    "orig": "НБУ створює ШІ-агентів, які імітуватимуть українців для прогнозування інфляційних очікувань"
+   }
   ]
  ],
  "posted_by_source": {
   "ai|AIN.ua|https://ain.ua/feed/": [
-   1793782905.9027898,
-   1793793717.2525244
+   1793966491.9683197
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
    1793937769.570517,
@@ -23318,10 +23285,9 @@
    1793948487.172221
   ],
   "ai|Mezha|https://mezha.ua/feed/": [
-   1793869514.9045289,
-   1793876567.0420032,
    1793881927.3816097,
-   1793949380.8965936
+   1793949380.8965936,
+   1793966494.7049053
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1793822052.593153,
@@ -23914,6 +23880,7 @@
   "0b1e1bd15abeca5e": 1793305876.5551422,
   "0b286f30107c8928": 1793732525.983779,
   "0b3b7d5fac5c04cd": 1793199827.0185874,
+  "0b3de78738dbecbe": 1793966491.9682775,
   "0b4f29806fcdf4dc": 1793176601.3329837,
   "0b5897eebb67c969": 1793741518.7749407,
   "0b5c877f4c2f6dab": 1793394156.2163694,
@@ -24151,7 +24118,6 @@
   "17a85fce2d531cdc": 1793638852.949851,
   "17b5fe363e443324": 1792963876.5165408,
   "17ba457ec21b3c5d": 1793784720.72842,
-  "17c7dcbe4ad3b2f7": 1792756117.8100069,
   "17caa45502685d45": 1792882893.8228083,
   "17d47ed0502d37f6": 1792976482.2375033,
   "17d53e823c8b7894": 1793071890.1689131,
@@ -25732,7 +25698,6 @@
   "71dd1ea94808a8c9": 1793374312.8118863,
   "71ef25aaff00ade5": 1793898214.6162205,
   "71f0e9eaac778af1": 1793372550.1000662,
-  "7201f15fe5a7e2f6": 1792756133.0334382,
   "7203879df98082f0": 1792825405.646989,
   "72160039d9a7afa0": 1792999883.44305,
   "7216aa0528f7a4b6": 1792773055.4309604,
@@ -25773,7 +25738,6 @@
   "73c45374c6497dfa": 1793833291.6126142,
   "73cd00dc5ef4772a": 1792767851.188185,
   "73d4c80b2a37d981": 1793657149.5542076,
-  "73d5da5103461688": 1792756144.0192437,
   "73dc4b1b295aba9d": 1793833298.6685505,
   "73ed347acd5f1b74": 1793230276.2653632,
   "74062977e21d149c": 1792769762.49855,
@@ -25858,7 +25822,6 @@
   "78050604b516110e": 1793876601.0519812,
   "78084b96ec8acb0a": 1793131359.4955695,
   "7828af8fde3638b6": 1792850579.5036874,
-  "782985bb9c47e158": 1792756154.285652,
   "783906216911b387": 1792760499.7728324,
   "783bb86d4091aa6f": 1793044855.9093509,
   "78447fcf55d604db": 1793485853.851234,
@@ -26104,7 +26067,9 @@
   "87995ef26d6c227f": 1792773055.4309604,
   "879e97ff25794157": 1793804681.4103541,
   "87ab69afea58a6e4": 1793057485.0844483,
+  "87b8d8fb0e754097": 1793966491.4273164,
   "87cdbef683907c54": 1793901726.76135,
+  "87da6a6ac6a8b0ae": 1793966494.7048624,
   "87f86189a03e3aa5": 1793725370.4374797,
   "880497432dc04e52": 1793203280.9654865,
   "883c7337eedf9614": 1793018014.8968763,
@@ -27013,7 +26978,6 @@
   "ba4128e1e7414b41": 1793309480.1593397,
   "ba41771332bbb595": 1793867512.7852068,
   "ba4a0e38eeb1e60a": 1793818854.4176915,
-  "ba520f2df6ef2566": 1792756138.3602471,
   "ba5430cc2906aba7": 1793903636.0120976,
   "ba54ebae84058093": 1793772085.1299164,
   "ba991ede2f6b38bc": 1793450043.814905,
@@ -27127,7 +27091,6 @@
   "c16aa9194bf23a2a": 1793305983.1641345,
   "c172e56cc8991080": 1793370766.8298123,
   "c18214794fc1b90b": 1793639188.9155376,
-  "c19c9d0434647bfc": 1792756855.7458665,
   "c1a078c1af02f885": 1793390689.7494864,
   "c1b4d70aa746715f": 1793462622.912179,
   "c1c206994b73c464": 1793125909.2689114,
@@ -27276,7 +27239,6 @@
   "ca3fd4e686f4fa67": 1793829719.989421,
   "ca435c224950349d": 1793102523.4216716,
   "ca64fb02eb1893b3": 1793217701.594971,
-  "ca694582f1ed5d0e": 1792756117.8089204,
   "ca7fd900f47ed9e9": 1793638878.1430268,
   "ca925f90135eae9c": 1792855918.1874487,
   "ca97c1e36703a76c": 1793057506.6042607,
@@ -27368,6 +27330,7 @@
   "cf3e27b8ded52932": 1793390706.9398148,
   "cf44555c0999c78d": 1793790111.750108,
   "cf4ca9c083e76bad": 1793205248.75993,
+  "cf584ec39a7f346d": 1793966454.8435318,
   "cf9b3efb246f7be1": 1793264590.7466466,
   "cfd154621e5525b2": 1793374307.6584728,
   "cfdc27da9cadc483": 1793806486.7724233,
@@ -27416,7 +27379,6 @@
   "d243b60ef871bed9": 1793844092.5397108,
   "d243fc5aaaf62609": 1793819049.8181703,
   "d2442fb2f79eaf6d": 1793691079.2821026,
-  "d25d210fb677f7f7": 1792756887.069081,
   "d265e6fefd1f16ed": 1793385307.9820569,
   "d2777304f0c5f4e2": 1792990742.539259,
   "d2bc9a7e81902402": 1793343849.7364519,
@@ -27776,7 +27738,6 @@
   "e787e662143885d1": 1793116879.2441692,
   "e78d8b7d13ff2cb7": 1793898256.1616,
   "e78e033c95c4b9f5": 1793822034.1446362,
-  "e7c0271945ec23c9": 1792756128.5019803,
   "e7c9c3e98f8a84d2": 1793725319.4185233,
   "e80d73fc146aa805": 1792928082.5821898,
   "e823c8720d727f7e": 1793304089.6826453,
@@ -27826,7 +27787,6 @@
   "eab2ce59243862bb": 1793181658.1788645,
   "eab9137b93cc9392": 1793008888.9543064,
   "eac1f38a3b2e678a": 1793419312.3275275,
-  "eac635583c601407": 1792756163.3204913,
   "eacfdcb153362aef": 1793525660.863877,
   "eada5cf40ace096a": 1792782154.6049461,
   "eada7bc2f2a435d6": 1793203491.3376794,
@@ -27949,6 +27909,7 @@
   "f284786c6ddd7d23": 1793338451.4226284,
   "f2a15464005f451f": 1793367086.1665149,
   "f2a157f3a67790dd": 1793590276.5168917,
+  "f2a55ff3bb51f156": 1793966454.8435318,
   "f2a604d4571dc961": 1793124140.8972375,
   "f2bf693f4149480a": 1793781211.164813,
   "f2c36932fd45d8f8": 1793178114.5230346,
@@ -29413,21 +29374,21 @@
    "Eurogamer": 1,
    "GameSpot": 3,
    "GamesIndustry.biz": 1,
-   "IGN": 4,
+   "IGN": 5,
    "IndieWire": 2,
    "Insider Gaming": 47,
    "Kerrang!": 2,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 3,
-   "Polygon": 44,
+   "Polygon": 45,
    "The Decoder": 2,
    "VGC": 19,
    "Variety": 4
   },
   "sources": {
    "/Film": 24,
-   "AIN.ua": 4,
+   "AIN.ua": 5,
    "Blabbermouth": 50,
    "Bloomberg": 51,
    "DOU": 6,
@@ -29450,7 +29411,7 @@
    "Loudwire": 24,
    "Metal Hammer (Louder)": 24,
    "Metal Injection": 14,
-   "Mezha": 49,
+   "Mezha": 50,
    "PC Gamer": 50,
    "Pitchfork": 9,
    "PlayUA": 12,
@@ -34748,21 +34709,6 @@
    "",
    1793811806.650984
   ],
-  "q:how long": [
-   0,
-   "",
-   1793793685.5815938
-  ],
-  "q:how long is": [
-   0,
-   "",
-   1793793685.0579948
-  ],
-  "q:how long is the legend": [
-   0,
-   "",
-   1793793684.5715773
-  ],
   "q:how nintendo preserves zelda": [
    0,
    "",
@@ -35082,16 +35028,6 @@
    0,
    "",
    1793808082.920242
-  ],
-  "q:is the legend": [
-   0,
-   "",
-   1793793688.550262
-  ],
-  "q:is the legend of zelda": [
-   0,
-   "",
-   1793793688.0736096
   ],
   "q:isn't": [
    0,
@@ -35777,26 +35713,6 @@
    0,
    "",
    1793880170.4092882
-  ],
-  "q:long": [
-   0,
-   "",
-   1793793687.5978606
-  ],
-  "q:long is": [
-   0,
-   "",
-   1793793687.105414
-  ],
-  "q:long is the legend": [
-   0,
-   "",
-   1793793686.5677035
-  ],
-  "q:long is the legend of zelda": [
-   0,
-   "",
-   1793793686.0875897
   ],
   "q:looking glass": [
    1272530,
@@ -37068,16 +36984,6 @@
    "Obsession",
    1793192522.4879262
   ],
-  "q:ocarina": [
-   0,
-   "",
-   1793791895.2415044
-  ],
-  "q:ocarina of time": [
-   0,
-   "",
-   1793791894.789866
-  ],
   "q:ocarina of time benefits": [
    0,
    "",
@@ -37102,11 +37008,6 @@
    0,
    "",
    1793797506.8934991
-  ],
-  "q:ocarina of time remake one": [
-   0,
-   "",
-   1793791894.3360143
   ],
   "q:ocarina of time remake reviews": [
    0,
@@ -38267,16 +38168,6 @@
    0,
    "",
    1793836887.4023504
-  ],
-  "q:review the legend": [
-   0,
-   "",
-   1793791892.521448
-  ],
-  "q:review the legend of zelda": [
-   0,
-   "",
-   1793791892.069672
   ],
   "q:reviews are": [
    0,
@@ -39558,11 +39449,6 @@
    "",
    1793826103.9659643
   ],
-  "q:time": [
-   0,
-   "",
-   1793791897.1220746
-  ],
   "q:time benefits": [
    0,
    "",
@@ -39612,21 +39498,6 @@
    0,
    "",
    1793797507.385008
-  ],
-  "q:time remake one": [
-   0,
-   "",
-   1793791896.633078
-  ],
-  "q:time remake one of nintendo": [
-   0,
-   "",
-   1793791896.1515243
-  ],
-  "q:time remake one of nintendo's best looking": [
-   0,
-   "",
-   1793791895.691815
   ],
   "q:time remake reviews": [
    0,
@@ -40703,21 +40574,6 @@
    "",
    1793909075.932166
   ],
-  "q:zelda": [
-   0,
-   "",
-   1793791893.8665576
-  ],
-  "q:zelda ocarina": [
-   0,
-   "",
-   1793791893.424168
-  ],
-  "q:zelda ocarina of time": [
-   0,
-   "",
-   1793791892.965125
-  ],
   "q:zelda ocarina of time benefits": [
    0,
    "",
@@ -40742,29 +40598,24 @@
  "tag_hints": {
   "Mezha": [
    "anthropic",
-   "blue origin",
    "claude",
    "cybercab",
    "cybertruck",
-   "new glenn",
+   "ea",
    "osint",
    "tesla",
    "the new york times",
    "авіація",
    "аоз",
-   "бомбер",
    "бпла",
    "бізнес",
    "герань-4",
    "герань-5",
-   "дрони",
-   "космос",
    "кібербезпека",
    "кіберзахист",
-   "наземні дрони",
+   "нбу",
    "нова пошта",
    "новини",
-   "нрк",
    "оборонка",
    "оборонні закупівлі",
    "опк",
@@ -40777,6 +40628,7 @@
    "ударні безпілотники",
    "україна",
    "штучний інтелект",
+   "ігри",
    "інтернет"
   ]
  },
@@ -42660,6 +42512,14 @@
   [
    1793964698.39738,
    "AI’s Grip on Financial Markets Was Never Clearer on the Way Down"
+  ],
+  [
+   1793966491.9682794,
+   "Shield AI домовилася купити виробника радарів для протидії дронам Echodyne за $5,3 млрд"
+  ],
+  [
+   1793966494.7048638,
+   "НБУ створює ШІ-агентів, які імітуватимуть українців для прогнозування інфляційних очікувань"
   ]
  ],
  "titles_uk": [
@@ -44542,6 +44402,14 @@
   [
    1793964698.397381,
    "Вплив ШІ на фінансові ринки став очевидним під час падіння"
+  ],
+  [
+   1793966491.9682803,
+   "Shield AI домовилася купити виробника радарів для протидії дронам Echodyne за $5,3 млрд"
+  ],
+  [
+   1793966494.704865,
+   "НБУ створює ШІ-агентів, які імітуватимуть українців для прогнозування інфляційних очікувань"
   ]
  ],
  "ukrainian": {
