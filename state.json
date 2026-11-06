@@ -1,7 +1,7 @@
 {
  "alerts": {
   "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
-   "detail": "https://distortedsoundmag.com/feed/ → 504 Server Error: Gateway Time-out for url: https://distortedsoundmag.com/feed/",
+   "detail": "https://distortedsoundmag.com/feed/ → HTTPSConnectionPool(host='distortedsoundmag.com', port=443): Read timed out. (read timeout=20)",
    "label": "Джерело «Distorted Sound» не працює",
    "sent": 0,
    "since": 1793966484.038593
@@ -35,8 +35,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-06 12:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-06 13:01 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 1
@@ -46,110 +46,6 @@
   ]
  },
  "post_log": [
-  [
-   1793277094.9332523,
-   3406,
-   "🤘",
-   "Новий сольний альбом Стівена Персі вийде у 2027 році",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/stephen-pearcys-the-dogg-mob-solo-album-is-now-due-in-january-february-2027-first-single-to-arrive-next-month",
-    "orig": "STEPHEN PEARCY's 'The Dogg Mob' Solo Album Is Now Due In January/February 2027; First Single To Arrive Next Month"
-   }
-  ],
-  [
-   1793277100.2938943,
-   3407,
-   "🤖",
-   "IPO Anthropic може відродити інтерес до акцій у сфері ШІ",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-10-29/anthropic-ipo-may-spark-ai-rally-as-short-bets-on-tech-pile-up",
-    "orig": "Anthropic IPO May Spark AI Rally as Short Bets on Tech Pile Up"
-   }
-  ],
-  [
-   1793277106.280274,
-   3408,
-   "🤘",
-   "BEATALLICA їде в європейський тур у січні та лютому 2027 року",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/metallica-beatles-mashup-act-beatallica-announces-january-february-2027-european-tour",
-    "orig": "METALLICA + BEATLES Mashup Act BEATALLICA Announces January/February 2027 European Tour"
-   }
-  ],
-  [
-   1793277113.2341032,
-   3409,
-   "🎬",
-   "Асоціація CEPI прийняла перших міжнародних членів із Канади",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/cepi-welcomes-cmpa-aqpm-canada-international-members-1237208034/",
-    "orig": "European Production Association CEPI Welcomes Canadian Bodies As First International Members"
-   }
-  ],
-  [
-   1793277115.0749018,
-   3410,
-   "🤖",
-   "Батьки померлої жінки судяться з OpenAI: ChatGPT склав їй план відмови від ліків проти епілепсії",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/ai-chatgpt-medication-epilepsy-316670/",
-    "orig": "Батьки померлої жінки судяться з OpenAI: ChatGPT склав їй план відмови від ліків проти епілепсії"
-   }
-  ],
-  [
-   1793277121.1836429,
-   3411,
-   "🤘",
-   "Coachella оголосила лайнап на наступний рік",
-   "Kerrang!",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.kerrang.com/the-chats-announce-new-album-half-cut-and-uk-and-ireland-tour-dates-off-it-single-video-eamon-sandwith",
-    "orig": "The Chats announce new album, Half Cut, and UK and Ireland tour dates"
-   }
-  ],
-  [
-   1793277123.0986116,
-   3412,
-   "🤖",
-   "Вперше працівнику дозволили не використовувати ШІ через власні переконання",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/vpershe-pratsivnyku-dozvolyly-ne-vykorystovuvaty-shi-cherez-vlasni-perekonannya/",
-    "orig": "Вперше працівнику дозволили не використовувати ШІ через власні переконання"
-   }
-  ],
-  [
-   1793278915.316633,
-   3413,
-   "🎬",
-   "Netflix і Disney+ активно купують неангломовний контент із Японії та Кореї",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://deadline.com/2026/10/disney-netflix-non-english-acquisitions-ampere-analysis-1237208043/",
-    "orig": "Disney+ & Netflix Hoover Up Non-English Acquisitions As Fervor For Japanese & Korean Content Continues – Ampere"
-   }
-  ],
   [
    1793278927.619133,
    3414,
@@ -22284,7 +22180,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Воррен Спектр знову лютує через закриття BioWare і величезні зарплати топменеджерів EA</b>\n\nЧерез два тижні після своїх різких висловлювань про долю студії гнів геймдизайнера й досі не вщух\n\n🔗 <a href=\"https://www.pcgamer.com/gaming-industry/warren-spector-sounds-even-angrier-about-biowares-closure-as-he-recounts-the-massive-salaries-of-ea-execs-is-there-any-accountability-left-in-this-world/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/gaming-industry/warren-spector-sounds-even-angrier-about-biowares-closure-as-he-recounts-the-massive-salaries-of-ea-execs-is-there-any-accountability-left-in-this-world/",
     "orig": "Warren Spector sounds even angrier about BioWare's closure as he recounts the massive salaries of EA execs: 'Is there ANY accountability left in this world?'"
@@ -22298,7 +22193,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/1897470/\">Bill</a> Скарсгард пояснює, чому роль у фільмі «Physint» Хідео Кодзіми є для нього «важливою подією»</b>\n\nБілл Скашгорд розповів про участь у таємничому проєкті Physint від Хідео Кодзіми\n\n🔗 <a href=\"https://www.ign.com/articles/bill-skarsgrd-explains-why-starring-in-hideo-kojimas-physint-is-a-big-deal-for-him\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/bill-skarsgrd-explains-why-starring-in-hideo-kojimas-physint-is-a-big-deal-for-him",
     "orig": "Bill Skarsgård Explains Why Starring in Hideo Kojima’s Physint Is a ‘Big Deal’ for Him"
@@ -23144,6 +23038,34 @@
     "link": "https://highload.tech/uk/vash-domashnij-bankir-anthropic-zapuskaye-finansovogo-pomichnyka-na-bazi-claude/#new_tab",
     "orig": "Ваш домашній банкір: Anthropic запускає фінансового помічника на базі Claude"
    }
+  ],
+  [
+   1793970105.856307,
+   5167,
+   "💾",
+   "Instagram випустила безплатний відеоредактор Edits для Mac із підтримкою 4K",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "💾 <b>Instagram випустила безплатний відеоредактор Edits для Mac із підтримкою 4K</b>\n\n🔗 <a href=\"https://mezha.ua/news/instagram-edits-mac-316937/\">Mezha</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/instagram-edits-mac-316937/",
+    "orig": "Instagram випустила безплатний відеоредактор Edits для Mac із підтримкою 4K"
+   }
+  ],
+  [
+   1793970118.0100682,
+   5168,
+   "🎮",
+   "Crimson Desert вражає своїм максималізмом у новому зухвалому трейлері Charting the Unknown",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/3321460/\">Crimson Desert</a> вражає своїм максималізмом у новому зухвалому трейлері Charting the Unknown</b>\n\nМи знову повертаємося до Pywel — величезного та неймовірно красивого світу, де розгортаються події гри. На головного героя Kliff та його загін Greymanes чекають нові виклики в регіоні, де начебто запанував мир.\n\n🔗 <a href=\"https://www.eurogamer.net/crimson-desert-charting-the-unknown-now-playing\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/crimson-desert-charting-the-unknown-now-playing",
+    "orig": "In Charting the Unknown, Crimson Desert doubles down on its maximalism in audacious, faintly sinister style"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23202,11 +23124,10 @@
    1793813559.2223816
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1793820702.044519,
-   1793872936.8395205,
    1793883833.909585,
    1793885639.0671716,
-   1793896546.8601723
+   1793896546.8601723,
+   1793970118.010522
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1793827913.359826,
@@ -23542,10 +23463,10 @@
    1793896538.0668435
   ],
   "software|Mezha|https://mezha.ua/feed/": [
-   1793872888.5272682,
    1793896522.9151413,
    1793898249.6858928,
-   1793955687.804599
+   1793955687.804599,
+   1793970105.8567486
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1793867500.6870053,
@@ -24413,7 +24334,6 @@
   "2f85b21ef3681896": 1793376201.9195704,
   "2f87cafd1f290975": 1793241054.3613508,
   "2f8dc49a95d3a22a": 1793302391.3083787,
-  "2fa770a872d46aa2": 1792760475.6507044,
   "2fb6fc8f157d6bb9": 1793914286.8827145,
   "2fc0f01bce684f21": 1793131324.9481244,
   "2fde3a7e257e8b00": 1793023566.5576844,
@@ -24424,6 +24344,7 @@
   "304e6970df0027b6": 1793020622.2278008,
   "3054dc1bf4dadf45": 1793721684.3140144,
   "305e2f68afad494f": 1793264610.6718228,
+  "3069ed7e77cde6e4": 1793970105.8567038,
   "3074755342b9ddd9": 1793439083.7811255,
   "307a8643073070b6": 1793269922.0663373,
   "307f29e2b301b3bd": 1793820685.3999834,
@@ -24460,9 +24381,7 @@
   "3227ae99e55bc340": 1793214114.6055806,
   "32347e74523b6c10": 1793745095.6282132,
   "3244ad7fd6a729ce": 1793397685.6053889,
-  "325b3f6243696a75": 1792760475.6414213,
   "3269fd84965b515d": 1793374340.1621776,
-  "326bba170a6738d7": 1792760496.745372,
   "3271c528877c7d82": 1793615453.5353343,
   "327c76e888111331": 1793822027.6340158,
   "327da9ae8342df67": 1792969298.5734496,
@@ -25329,7 +25248,6 @@
   "648ff0b1264daf43": 1793779277.978204,
   "64a1c261ad28cdce": 1793466262.5775726,
   "64a55d262699c342": 1793189003.2266657,
-  "64b7787f89487275": 1792760491.9560916,
   "64c5ac6052289391": 1792812674.826995,
   "64cb04feb00596af": 1793221298.677415,
   "64d37b4b962c35f6": 1793059254.1746871,
@@ -25710,7 +25628,6 @@
   "78050604b516110e": 1793876601.0519812,
   "78084b96ec8acb0a": 1793131359.4955695,
   "7828af8fde3638b6": 1792850579.5036874,
-  "783906216911b387": 1792760499.7728324,
   "783bb86d4091aa6f": 1793044855.9093509,
   "78447fcf55d604db": 1793485853.851234,
   "7848fe414aa5ab16": 1793385303.2592158,
@@ -25973,7 +25890,6 @@
   "8885d107c718490e": 1793617315.8028147,
   "888d66371df46762": 1793655084.5343997,
   "889cc801e936136d": 1792893686.671183,
-  "88afdf01a20cc1a7": 1792760502.8528607,
   "88b589ea0de84b97": 1793743329.1119328,
   "88c998f42ab3588f": 1793813454.1071496,
   "88d7d38d517826b8": 1793199739.0316648,
@@ -26238,6 +26154,7 @@
   "977003579ca52a4b": 1793898089.9954352,
   "977670d7f920356e": 1793869382.1751883,
   "978858e3121bf8da": 1793014498.7271607,
+  "9790ac8ab76111c8": 1793970118.0104785,
   "9790cfb9186cf657": 1793199856.24314,
   "97aba5ddd856365a": 1793241054.3613508,
   "97ad1e562c0b70a0": 1793037882.1394637,
@@ -26562,7 +26479,6 @@
   "aa92caf3cb14da85": 1792821775.7513094,
   "aac85c68ef3da505": 1792764053.9746714,
   "aac89d2fdefb68f0": 1793476919.8684542,
-  "aac98fd7e8450447": 1792760452.808901,
   "aae19b0df5e67f13": 1793320279.0491996,
   "aae510db0a72729b": 1793628391.9372618,
   "aaf0737c7a751454": 1792852311.7821877,
@@ -26914,7 +26830,6 @@
   "bd7ea3fdd1448936": 1793208836.7758129,
   "bd97e0b11417a701": 1792940546.011379,
   "bd9ad9cc335471ee": 1793736107.543311,
-  "bda522f4de41add7": 1792760485.581914,
   "bda7822d60012035": 1793804584.9763937,
   "bdae53d3519971a0": 1793206884.2116728,
   "bdb739837adc0179": 1793354557.0585806,
@@ -27050,7 +26965,6 @@
   "c5dbd1eabe8875e7": 1792774926.2172053,
   "c5e92e40146c6188": 1793786478.9352443,
   "c5eb928b54cc83e8": 1793719887.2057378,
-  "c5f1ba7c2d824f97": 1792760475.6390023,
   "c5f52e227c7c7aea": 1792776779.821789,
   "c6023f085d6ee202": 1792778453.5270102,
   "c60fd4214fa8a362": 1793278961.9242601,
@@ -27102,7 +27016,6 @@
   "c8b60040a21c340f": 1793392256.1180868,
   "c8c751983f9e7388": 1793941287.010817,
   "c8d2c47052ffbb4f": 1793718259.5230331,
-  "c8e4c8ba2f4174be": 1792760488.7213295,
   "c8f8efe33cd2db8e": 1793914290.5743232,
   "c90734f7e6e5b840": 1793297049.487316,
   "c93063b27c5fba68": 1793284468.6469977,
@@ -27301,7 +27214,6 @@
   "d4e76acabac153cf": 1793134902.022932,
   "d4efb6c40ea2bb79": 1793071987.3155534,
   "d4f3a0916644ee76": 1793131258.1143897,
-  "d4ff3405a8fba1fb": 1792760507.3237944,
   "d522847532caddae": 1793492039.6376545,
   "d533101255faa087": 1793127742.9065545,
   "d53e838e82acd8a8": 1792785780.420318,
@@ -27989,7 +27901,6 @@
   "fc97a544e3986b61": 1793036133.355053,
   "fca08595f81686ed": 1793100692.486667,
   "fcb41871670a3d49": 1793811683.7675543,
-  "fccb58584bd5ed06": 1792760505.3771152,
   "fcd136e8ad20ffe6": 1793547091.1056676,
   "fce390f4f37f6bba": 1793394109.033772,
   "fce8cb5009156f21": 1793217724.584087,
@@ -29280,7 +29191,7 @@
    "Decibel": 8,
    "Digital Foundry": 7,
    "Distorted Sound": 17,
-   "Eurogamer": 21,
+   "Eurogamer": 22,
    "GameSpot": 24,
    "GamesIndustry.biz": 18,
    "GitHub Trending": 32,
@@ -29294,7 +29205,7 @@
    "Loudwire": 24,
    "Metal Hammer (Louder)": 24,
    "Metal Injection": 14,
-   "Mezha": 50,
+   "Mezha": 51,
    "PC Gamer": 50,
    "Pitchfork": 9,
    "PlayUA": 12,
@@ -29312,7 +29223,7 @@
   "translators": {
    "DeepL": 109,
    "gemini-flash-latest": 9,
-   "gemini-flash-lite-latest": 1054
+   "gemini-flash-lite-latest": 1055
   },
   "week": "2026-W45"
  },
@@ -31801,6 +31712,16 @@
    1044120,
    "Changes",
    1791920807.5606358
+  ],
+  "q:charting": [
+   0,
+   "",
+   1793970108.5302408
+  ],
+  "q:charting the unknown": [
+   0,
+   "",
+   1793970107.9601996
   ],
   "q:chronicles medieval": [
    2231020,
@@ -34842,26 +34763,6 @@
    "",
    1793885524.3719168
   ],
-  "q:is it": [
-   0,
-   "",
-   1793797281.0699215
-  ],
-  "q:is it still": [
-   0,
-   "",
-   1793797280.553542
-  ],
-  "q:is it still the best": [
-   0,
-   "",
-   1793797280.0590994
-  ],
-  "q:is it still the best video": [
-   0,
-   "",
-   1793797279.5644963
-  ],
   "q:is still selling hundreds": [
    0,
    "",
@@ -34931,11 +34832,6 @@
    0,
    "",
    1793907131.001904
-  ],
-  "q:it still the best video game": [
-   0,
-   "",
-   1793797281.5629294
   ],
   "q:itch io no": [
    0,
@@ -36877,16 +36773,6 @@
    "",
    1793797506.8934991
   ],
-  "q:ocarina of time remake reviews": [
-   0,
-   "",
-   1793797276.5729449
-  ],
-  "q:ocarina of time remake reviews are": [
-   0,
-   "",
-   1793797276.0794756
-  ],
   "q:ocarina of time to feel": [
    0,
    "",
@@ -37907,16 +37793,6 @@
    "",
    1793797508.8772516
   ],
-  "q:remake reviews": [
-   0,
-   "",
-   1793797278.5751595
-  ],
-  "q:remake reviews are": [
-   0,
-   "",
-   1793797278.079166
-  ],
   "q:remove": [
    2685360,
    "Remove: 범죄는 흔적을 남긴다",
@@ -38036,11 +37912,6 @@
    0,
    "",
    1793836887.4023504
-  ],
-  "q:reviews are": [
-   0,
-   "",
-   1793797279.07093
   ],
   "q:richard garriott": [
    0,
@@ -39337,16 +39208,6 @@
    "",
    1793797507.385008
   ],
-  "q:time remake reviews": [
-   0,
-   "",
-   1793797277.581944
-  ],
-  "q:time remake reviews are": [
-   0,
-   "",
-   1793797277.087998
-  ],
   "q:time to feel": [
    0,
    "",
@@ -39651,6 +39512,11 @@
    0,
    "",
    1793943085.6918933
+  ],
+  "q:unknown": [
+   0,
+   "",
+   1793970109.1626892
   ],
   "q:update patch notes": [
    0,
@@ -40415,28 +40281,29 @@
  },
  "tag_hints": {
   "Mezha": [
-   "anthropic",
-   "claude",
+   "apple",
+   "brave1",
    "ea",
    "instagram",
+   "macbook neo",
    "macos",
    "roboneers",
    "spacex",
    "tesla",
    "the new york times",
    "авіація",
-   "аоз",
    "безпілотники",
    "бпла",
    "бізнес",
    "відеоредактори",
+   "військові технології",
    "дрони",
    "кібербезпека",
    "кіберзахист",
    "нбу",
    "новини",
+   "ноутбуки",
    "оборонка",
-   "оборонні закупівлі",
    "опк",
    "сбу",
    "сили оборони",
@@ -42322,6 +42189,14 @@
   [
    1793968290.370216,
    "Ваш домашній банкір: Anthropic запускає фінансового помічника на базі Claude"
+  ],
+  [
+   1793970105.8567054,
+   "Instagram випустила безплатний відеоредактор Edits для Mac із підтримкою 4K"
+  ],
+  [
+   1793970118.0104804,
+   "In Charting the Unknown, Crimson Desert doubles down on its maximalism in audacious, faintly sinister style"
   ]
  ],
  "titles_uk": [
@@ -44196,6 +44071,14 @@
   [
    1793968290.3702168,
    "Ваш домашній банкір: Anthropic запускає фінансового помічника на базі Claude"
+  ],
+  [
+   1793970105.8567061,
+   "Instagram випустила безплатний відеоредактор Edits для Mac із підтримкою 4K"
+  ],
+  [
+   1793970118.0104816,
+   "Crimson Desert вражає своїм максималізмом у новому зухвалому трейлері Charting the Unknown"
   ]
  ],
  "ukrainian": {
