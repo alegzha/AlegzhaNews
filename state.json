@@ -5,6 +5,12 @@
    "label": "Gemini більше не перекладає",
    "sent": 1793935890.8577833,
    "since": 1793935890.8577833
+  },
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1793941276.107642
   }
  },
  "daily_digest_date": "2026-11-05",
@@ -35,15 +41,12 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-06 04:34 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-lite-latest",
-  "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
-  },
+  "at": "2026-11-06 05:01 UTC",
+  "gemini_error": "429: ліміт безкоштовних запитів Gemini вичерпано",
+  "gemini_model": null,
+  "gemini_models_used": {},
   "used": [
-   "DeepL",
-   "Gemini"
+   "DeepL"
   ]
  },
  "post_log": [
@@ -22471,7 +22474,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>Новозеландський каннібальський горор The Weed Eaters вийде у широкий прокат цієї зими</b>\n\nСтрічка режисера Callum Devlin виходить у широкий прокат у США після вересневого релізу на Letterboxd Video Store\n\n🔗 <a href=\"https://www.indiewire.com/news/business/the-weed-eaters-cannibal-horror-acquired-yellow-veil-1235225546/\">IndieWire</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.indiewire.com/news/business/the-weed-eaters-cannibal-horror-acquired-yellow-veil-1235225546/",
     "orig": "‘The Weed Eaters’ Lands Expanded Release from Yellow Veil Pictures: New Zealand Cannibal Movie Sets Winter Rollout"
@@ -22485,7 +22487,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Тейона П&#x27;арріс зніметься разом із Дензелом Вашингтоном у трилері Крістофера МакКворрі для United Artists</b>\n\nЕКСКЛЮЗИВ: Тейона Парріс зіграє головну роль у трилері без назви від Amazon MGM Studios та United Artists, де її партнером по екрану стане Дензел Вашингтон, а режисером виступить Крістофер Маккуоррі. Фільм, сценарій до якого написали Скотт Баркан і Грегг Зехентнер, вийде в прокат 1 жовтня 2027 року. Сюжет розгортається навколо колишнього поліцейського детектива, який працює […]\n\n🔗 <a href=\"https://deadline.com/2026/11/teyonah-parris-denzel-washington-christopher-mcquarrie-1237214613/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/teyonah-parris-denzel-washington-christopher-mcquarrie-1237214613/",
     "orig": "Teyonah Parris To Co-Star With Denzel Washington In Christopher McQuarrie’s Thriller For United Artists"
@@ -22499,7 +22500,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>Wendy&#x27;s випустила 15-годинну RPG WendyQuest із реальными нагородами за босів</b>\n\nМережа фастфуду Wendy&#x27;s випустила безплатну покрокову RPG WendyQuest на Steam, Android та iOS. За перемогу над п&#x27;ятьма босами гравці отримують коди на реальну їжу з додатку Wendy&#x27;s за умови здійснення окремої покупки.\n\n🔗 <a href=\"https://www.ign.com/articles/wendys-rpg-wendyquest-offers-real-food-rewards-for-beating-boss-fights\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/wendys-rpg-wendyquest-offers-real-food-rewards-for-beating-boss-fights",
     "orig": "Wendy's RPG WendyQuest Offers Real Food Rewards for Beating Boss Fights"
@@ -22792,7 +22792,12 @@
    "The Hate Project випустили кліп на трек Annihilation",
    "ThePRP",
    {
-    "also": [],
+    "also": [
+     [
+      "Lambgoat",
+      "https://lambgoat.com/news/55743/the-hate-project-present-music-video-for-annihilation-as-new-album-drops/"
+     ]
+    ],
     "caption": "🤘 <b>The Hate Project випустили кліп на трек Annihilation</b>\n\nРеліз однойменного EP відбудеться вже цієї п&#x27;ятниці.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/05/news/the-hate-projects-annihilation-music-video-debuts/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/05/news/the-hate-projects-annihilation-music-video-debuts/",
@@ -22810,6 +22815,10 @@
      [
       "ThePRP",
       "https://www.theprp.com/2026/11/05/news/sharon-osbourne-says-the-2027-ozzfest-lineup-is-only-50-booked-confirms-where-unreleased-ozzy-songs-will-surface/"
+     ],
+     [
+      "Lambgoat",
+      "https://lambgoat.com/news/55741/ozzfest-2027-is-half-booked-and-will-feature-unreleased-ozzy-track-as-per-sharon-osbourne/"
      ]
     ],
     "caption": "🤘 <b>Шэрон Озборн розкрила деталі щодо лайнапу Ozzfest 2027</b>\n\nRich Polk, Getty Images, Ozzfest\n\n🔗 <a href=\"https://loudwire.com/half-ozzfest-2027-lineup-sharon-osbourne/\">Loudwire</a>\n\n#музика",
@@ -23331,6 +23340,48 @@
     "link": "https://variety.com/2026/tv/news/jalen-brunson-cop-law-and-order-svu-1236939700/",
     "orig": "Jalen Brunson Makes ‘Law & Order: SVU’ Acting Debut as a Promoted Cop: ‘I Focused on My Goals… Things Worked Out’"
    }
+  ],
+  [
+   1793941287.01044,
+   5129,
+   "🎬",
+   "Чи спричинили проміжні вибори зміни у світовому інформаційному ладі?",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Чи спричинили проміжні вибори зміни у світовому інформаційному ладі?</b>\n\nА справжнім переможцем проміжних виборів 2026 року в США став… Стів Корнакі? Згідно з даними Nielsen, у прайм-тайм більше глядачів традиційного телебачення вирішили дивитися репортажі NBC News про хід голосування, але цифри вказують на певні зміни в загальних тенденціях телеперегляду — деякі з них були очікуваними, а деякі — ні. NBC збільшила кількість […]\n\n🔗 <a href=\"https://variety.com/2026/tv/news/midterm-elections-tv-ratings-news-nbc-fox-news-1236940743/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/tv/news/midterm-elections-tv-ratings-news-nbc-fox-news-1236940743/",
+    "orig": "Did Midterm Elections Cause Changes in News World Order?"
+   }
+  ],
+  [
+   1793941290.683913,
+   5130,
+   "🤘",
+   "Новий альбом гурту Theory Of A Deadman може називатися «Funeral Songs», але робота над ним ще далеко не завершена",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Новий альбом гурту Theory Of A Deadman може називатися «Funeral Songs», але робота над ним ще далеко не завершена</b>\n\nЗа більш ніж два десятиліття своєї кар’єри гурт Theory Of A Deadman пережив справжню бурхливу подорож\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/theory-of-a-deadman-funeral-songs-interview\">Metal Hammer (Louder)</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/theory-of-a-deadman-funeral-songs-interview",
+    "orig": "Theory Of A Deadman's new record may be called Funeral Songs, but they're far from finished"
+   }
+  ],
+  [
+   1793941294.7265162,
+   5131,
+   "🎬",
+   "Джейн Фонда «навіть не наважувалася уявити» «синій цунамі» демократів: «Ми маємо зупинити те, що погане, і боротися за те, що добре»",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Джейн Фонда «навіть не наважувалася уявити» «синій цунамі» демократів: «Ми маємо зупинити те, що погане, і боротися за те, що добре»</b>\n\nУ четвер ввечері Джейн Фонда була в піднесеному настрої на урочистій церемонії «Women in Film Honors» у Беверлі-Гіллз. «Я така схвильована», — сказала вона мені, практично підстрибуючи по червоній доріжці. Ця давня політична активістка перебуває на хвилі «синьої хвилі» дня виборів, яка допомогла демократам здобути контроль над Палатою представників і Сенатом США. […]\n\n🔗 <a href=\"https://variety.com/2026/politics/columns/jane-fonda-democrats-blue-tsunami-wave-midterm-election-1236941027/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/politics/columns/jane-fonda-democrats-blue-tsunami-wave-midterm-election-1236941027/",
+    "orig": "Jane Fonda ‘Didn’t Dare Imagine’ Democrats’ Blue Tsunami: ‘We Have to Block What’s Bad and Fight For What’s Good’"
+   }
   ]
  ],
  "posted_by_source": {
@@ -23575,13 +23626,14 @@
    1793824294.3712368
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1793853106.215162,
    1793937766.8960292,
-   1793937775.988979
+   1793937775.988979,
+   1793941294.7269435
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1793939658.7171986,
-   1793939662.108167
+   1793939662.108167,
+   1793941287.0108776
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
    1793881925.0276005,
@@ -23639,12 +23691,12 @@
    1793912670.0978909
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
-   1793853114.8113484,
    1793856784.223496,
    1793874726.94078,
    1793878289.9886878,
    1793881915.2249825,
-   1793903604.0636919
+   1793903604.0636919,
+   1793941290.684291
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1793892736.5084252,
@@ -25642,6 +25694,7 @@
   "6b40790e89cf0724": 1793903643.8061934,
   "6b41d156e1c01e6a": 1793426179.8426895,
   "6b46dc76895fea96": 1793223096.7217677,
+  "6b4bb8fcd501e8b0": 1793941290.6842377,
   "6b5c13180d6edebf": 1793207244.6289876,
   "6b715242d4341546": 1793280682.7598977,
   "6b7cc34430a94756": 1793786475.6705563,
@@ -26714,6 +26767,7 @@
   "a7659782f40e5fc2": 1793369054.388452,
   "a766ec0e80b8e3c0": 1793385320.5233803,
   "a785229c1275ff56": 1792839782.2607527,
+  "a796c506984ca25d": 1793941283.948846,
   "a798eddf6b10dbe9": 1793448078.91424,
   "a7a2a44280ebb9f7": 1793178096.0534205,
   "a7c8058b84f78985": 1793311387.237212,
@@ -27075,6 +27129,7 @@
   "b9e8ca69f5cc9a98": 1793037976.523656,
   "b9f9376c5202e8d8": 1793545382.6427636,
   "ba085cd79c20d2a8": 1793701906.6519623,
+  "ba1a0727338361fc": 1793941294.7268906,
   "ba249d7ed3b96aa4": 1793655075.3027618,
   "ba2ec4b2e97b90e3": 1792753254.9112473,
   "ba30ed73caac62c8": 1793532785.444196,
@@ -27141,6 +27196,7 @@
   "be0012a9f42bc9f9": 1792915560.6711035,
   "be2a14f57b14b600": 1793480589.549807,
   "be393135f7f610ea": 1793099048.9311063,
+  "be44259350b7cc83": 1793941283.951193,
   "be4a31258eeae5f4": 1793278927.6195369,
   "be50edb61b0e4af3": 1792942286.7205575,
   "be67949c3ac2aee8": 1793173083.901085,
@@ -27317,7 +27373,9 @@
   "c87dd438875c392f": 1793815341.686367,
   "c8a3a35f93120185": 1793698304.0087483,
   "c8a89b2bac93ad8a": 1793392256.1180868,
+  "c8acb422d9397fe1": 1793941284.4177978,
   "c8b60040a21c340f": 1793392256.1180868,
+  "c8c751983f9e7388": 1793941287.010817,
   "c8d2c47052ffbb4f": 1793718259.5230331,
   "c8e4c8ba2f4174be": 1792760488.7213295,
   "c8f8efe33cd2db8e": 1793914290.5743232,
@@ -27977,6 +28035,7 @@
   "efefd3e7f16fbe36": 1793217712.6607685,
   "f03a6b556d636049": 1793241083.7364578,
   "f03adbe27aca475d": 1793723483.3107488,
+  "f04fd22d9b8eebdc": 1793941254.2450097,
   "f05711b82d0bdf25": 1793729138.3298163,
   "f06b4bddf27b5dbe": 1793113276.9959323,
   "f088dd9b8cb7e47b": 1793052122.5443468,
@@ -29484,7 +29543,7 @@
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 3,
-   "Polygon": 43,
+   "Polygon": 44,
    "The Decoder": 2,
    "VGC": 16,
    "Variety": 4
@@ -29512,7 +29571,7 @@
    "Kerrang!": 18,
    "Lambgoat": 39,
    "Loudwire": 24,
-   "Metal Hammer (Louder)": 22,
+   "Metal Hammer (Louder)": 23,
    "Metal Injection": 14,
    "Mezha": 47,
    "PC Gamer": 49,
@@ -29527,10 +29586,10 @@
    "The Decoder": 23,
    "ThePRP": 48,
    "VGC": 40,
-   "Variety": 28
+   "Variety": 30
   },
   "translators": {
-   "DeepL": 86,
+   "DeepL": 92,
    "gemini-flash-latest": 6,
    "gemini-flash-lite-latest": 1039
   },
@@ -43288,6 +43347,18 @@
   [
    1793939662.1081111,
    "Jalen Brunson Makes ‘Law & Order: SVU’ Acting Debut as a Promoted Cop: ‘I Focused on My Goals… Things Worked Out’"
+  ],
+  [
+   1793941287.0108194,
+   "Did Midterm Elections Cause Changes in News World Order?"
+  ],
+  [
+   1793941290.6842399,
+   "Theory Of A Deadman's new record may be called Funeral Songs, but they're far from finished"
+  ],
+  [
+   1793941294.7268927,
+   "Jane Fonda ‘Didn’t Dare Imagine’ Democrats’ Blue Tsunami: ‘We Have to Block What’s Bad and Fight For What’s Good’"
   ]
  ],
  "titles_uk": [
@@ -45206,6 +45277,18 @@
   [
    1793939662.1081119,
    "Джейлен Брансон дебютував у серіалі «Закон і порядок: Спеціальний корпус» у ролі поліцейського, якого підвищили у званні: «Я зосередився на своїх цілях… Усе склалося якнайкраще»"
+  ],
+  [
+   1793941287.0108206,
+   "Чи спричинили проміжні вибори зміни у світовому інформаційному ладі?"
+  ],
+  [
+   1793941290.6842408,
+   "Новий альбом гурту Theory Of A Deadman може називатися «Funeral Songs», але робота над ним ще далеко не завершена"
+  ],
+  [
+   1793941294.7268937,
+   "Джейн Фонда «навіть не наважувалася уявити» «синій цунамі» демократів: «Ми маємо зупинити те, що погане, і боротися за те, що добре»"
   ]
  ],
  "ukrainian": {
