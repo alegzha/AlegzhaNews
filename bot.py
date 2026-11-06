@@ -728,10 +728,10 @@ def report_health(alerts, pub):
     """Сповіщення про переклад і публікацію за підсумками запуску."""
     if "Gemini" in _disabled:
         alerts.problem(
-            "gemini", "Gemini більше не перекладає",
-            f"{_disabled['Gemini']}\nПоки що перекладаю через DeepL і Google. "
-            "Безкоштовний ліміт Gemini оновлюється щодоби.",
-            repeat_hours=24,
+            "gemini", "Gemini не перекладає вже добу",
+            f"{_disabled['Gemini']}\nПерекладаю через DeepL і Google. Денний ліміт, що закінчився на кілька "
+            "годин, — це нормально; сповіщаю лише якщо Gemini не працює цілу добу (напр., ключ недійсний).",
+            after_hours=24, repeat_hours=24,
         )
     elif "Gemini" in TR_STATS["ok"]:
         alerts.ok("gemini")
@@ -1208,10 +1208,11 @@ def collect(config, state, alerts):
                 )
             fresh.sort(key=lambda c: c["ts"], reverse=True)
             take = int(feed.get("max_per_run", limits["max_per_source_per_run"]))
-            if feed.get("max_per_day"):
-                # для дуже плідних джерел (Deadline, Product Hunt…) — не більше N постів на добу
+            per_day = feed.get("max_per_day", limits.get("max_per_source_per_day"))
+            if per_day:
+                # не більше N постів на добу з одного джерела (типово — limits.max_per_source_per_day)
                 day_log = [t for t in state.setdefault("posted_by_source", {}).get(source_id, []) if now - t < 86400]
-                take = min(take, max(0, int(feed["max_per_day"]) - len(day_log)))
+                take = min(take, max(0, int(per_day) - len(day_log)))
             for f in fresh:
                 f["source_id"] = source_id
             candidates.extend(fresh[:take])
@@ -1258,6 +1259,19 @@ def main():
     steam = SteamLinker(HTTP, state, config.get("filters", {}).get("steam_ignore", []))
 
     budget = limits["max_posts_per_run"]
+    # денний ліміт каналу: розподіляємо рівномірно до кінця доби, щоб вечірні новини теж влізли
+    now_k = datetime.now(wishlist.KYIV)
+    day_start = now_k.replace(hour=0, minute=0, second=0, microsecond=0).timestamp()
+    today = [p for p in state.get("post_log", []) if p[0] >= day_start]
+    daily_cap = limits.get("max_posts_per_day")
+    if daily_cap:
+        left = max(0, int(daily_cap) - len(today))
+        runs_left = max(1, (24 * 60 - (now_k.hour * 60 + now_k.minute)) // 30)
+        budget = min(budget, max(1 if left else 0, -(-left // runs_left)))
+        log.info("Сьогодні вже %d постів з %d — у цьому запуску до %d", len(today), daily_cap, budget)
+    cat_today = {}
+    for p in today:
+        cat_today[p[2]] = cat_today.get(p[2], 0) + 1
     if first_run:
         # Перший запуск: публікуємо лише кілька найсвіжіших, решту позначаємо як бачені,
         # щоб не завалити канал старими новинами.
@@ -1270,6 +1284,10 @@ def main():
             break
         if any(s["key"] == c["key"] for s in selected):
             continue
+        cat_cap = c["cat"].get("max_per_day")
+        emoji = c["cat"].get("emoji", "")
+        if cat_cap and cat_today.get(emoji, 0) + sum(1 for s in selected if s["cat"] is c["cat"]) >= int(cat_cap):
+            continue  # рубрика на сьогодні заповнена — новина почекає (якщо ще не застаріє)
         dup = is_duplicate_story(c["title"], state["titles"] + [(0, s["title"]) for s in selected])
         if dup:
             log.info("↪ дубль іншої новини: %s", c["title"])
