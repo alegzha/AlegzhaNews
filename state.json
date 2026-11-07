@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
+   "detail": "https://www.kerrang.com/feed.rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Kerrang!» не працює",
+   "sent": 0,
+   "since": 1794054669.9101079
+  }
+ },
  "daily_digest_date": "2026-11-06",
  "freebies": {
   "last_check": 1794052879.2357757,
@@ -28,186 +35,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-07 12:01 UTC",
-  "gemini_error": "",
+  "at": "2026-11-07 12:33 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793361775.586145,
-   3679,
-   "🎬",
-   "Екскерівник контенту Movistar Plus Домінго Корраль розповів про угоду з HBO та якісне ТБ",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://deadline.com/2026/10/domingo-corral-hbo-deal-quality-mainstream-1237173046/",
-    "orig": "Former Movistar Plus Content Chief Domingo Corral On His HBO Deal & Why Quality TV Can Be Commercial"
-   }
-  ],
-  [
-   1793361794.1223557,
-   3680,
-   "🎮",
-   "Тестуємо Gears of War: E-Day на максимальних налаштуваннях у NVIDIA GeForce NOW",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/trying-gears-of-war-e-day-with-max-settings-on-nvidia-geforce-now",
-    "orig": "Trying Gears of War: E-Day with Max Settings on NVIDIA GeForce NOW"
-   }
-  ],
-  [
-   1793361797.6134496,
-   3681,
-   "🤘",
-   "Papa Roach і Ice Nine Kills готують спільний тур у США на 2027 рік",
-   "Loudwire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://loudwire.com/jacoby-shaddix-spencer-charnas-2027-tour-interview/",
-    "orig": "Jacoby Shaddix + Spencer Charnas: Ready to Tour Together In 2027"
-   }
-  ],
-  [
-   1793361806.7619681,
-   3682,
-   "🎮",
-   "Коробка бустерів Magic: The Gathering за мотивами творів Толкіна отримала знижку",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/magic-the-gathering-hobbit-play-boosters-just-hit-a-new-lowest-ever-price-ahead-of-black-friday",
-    "orig": "Magic: The Gathering’s Hobbit Play Boosters Just Hit a New Lowest-Ever Price Ahead of Black Friday"
-   }
-  ],
-  [
-   1793361818.8180635,
-   3683,
-   "🎮",
-   "Гравці Star Trek Online вшанували пам'ять Патріка Стюарта",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/star-trek-online-players-form-galaxy-class-honor-guard-to-pay-tribute-to-captain-picard-actor-sir-patrick-stewart",
-    "orig": "Star Trek Online Players Form Galaxy Class Honor Guard to Pay Tribute to Captain Picard Actor Sir Patrick Stewart"
-   }
-  ],
-  [
-   1793361825.23993,
-   3684,
-   "💾",
-   "Reddit закриє дописи для користувачів без авторизації",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/reddit-to-require-logins-316705/",
-    "orig": "Reddit закриє дописи для користувачів без авторизації"
-   }
-  ],
-  [
-   1793361834.4650898,
-   3685,
-   "🎮",
-   "Infinity Ward таємно збільшила пріоритет PvP у режимі DMZ для Modern Warfare 4",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/modern-warfare-4-devs-have-secretly-increased-pvp-in-dmz-its-claimed/",
-    "orig": "Modern Warfare 4 Devs Have Secretly Increased PvP in DMZ, It’s Claimed"
-   }
-  ],
-  [
-   1793363580.5686545,
-   3686,
-   "💾",
-   "Chevron не змінює терміни запуску дата-центра Microsoft попри паузу в Техасі",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-10-30/chevron-keeps-microsoft-data-center-timeline-despite-texas-pause",
-    "orig": "Chevron Keeps Microsoft Data Center Timeline Despite Texas Pause"
-   }
-  ],
-  [
-   1793363585.2881277,
-   3687,
-   "🎮",
-   "Sony екранізує інді-хорор Mouthwashing",
-   "Eurogamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.eurogamer.net/mouthwashing-movie-rights-sony-director",
-    "orig": "Sony has snapped up the film rights for Mouthwashing"
-   }
-  ],
-  [
-   1793363588.7433572,
-   3688,
-   "🎮",
-   "Гравці в World of Warcraft: Forever скаржаться на вічну ніч через сервери",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/world-of-warcraft/oce-players-are-stuck-in-perpetual-night-on-wow-forever-but-its-devs-are-considering-a-fix/",
-    "orig": "OCE players are stuck in perpetual night on WoW: Forever, but its devs are considering a fix"
-   }
-  ],
-  [
-   1793363593.9597092,
-   3689,
-   "🎮",
-   "Фільм Кейна Парсонса про Backrooms став новим попкультурним феноменом",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/movies-tv/kane-parsons-believes-his-interpretation-of-the-backrooms-is-minor-cultural-shorthand-for-the-abstract-space-just-look-at-south-parks-recent-episode/",
-    "orig": "Kane Parsons believes his interpretation of the backrooms is 'minor cultural shorthand' for the abstract space—just look at South Park's recent episode"
-   }
-  ],
-  [
-   1793363602.794778,
-   3690,
-   "🤖",
-   "Модель GLM 5.3 самостійно створила ланцюжки експлойтів для Firefox",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/open-weight-model-glm-5-3-built-full-firefox-exploit-chains-with-zero-human-input-in-under-48-hours/",
-    "orig": "Open-weight model GLM 5.3 built full Firefox exploit chains with zero human input in under 48 hours"
-   }
-  ],
-  [
-   1793363606.5879664,
-   3691,
-   "🤘",
-   "Currents анонсували новий альбом Our Fates Lie In Tandem і випустили сингл Retributioner",
-   "Kerrang!",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.kerrang.com/currents-announce-new-album-our-fates-in-tandem-release-single-retribution-rise-records-brian-wille",
-    "orig": "“There’s a reason for each element and meaning behind every word”: Currents announce new album, Our Fates Lie In Tandem, and drop single, Retributioner"
-   }
-  ],
   [
    1793365276.0342634,
    3692,
@@ -19963,7 +19802,6 @@
    "Stereogum",
    {
     "also": [],
-    "caption": "🤘 <b>Guppy випустили сингл “Looking Right At It”</b>\n\n🔗 <a href=\"https://stereogum.com/2516903/guppy-looking-right-at-it/music/\">Stereogum</a>\n\n#музика",
     "kind": "photo",
     "link": "https://stereogum.com/2516903/guppy-looking-right-at-it/music/",
     "orig": "Guppy – “Looking Right At It”"
@@ -19977,7 +19815,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Художник посперечався з Тімом Свіні в X через використання ШІ</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2269460/\">CEO</a>\n\n🔗 <a href=\"https://www.pcgamer.com/software/ai/the-ai-posting-war-is-heating-up-please-leave-me-behind-says-artist-who-got-into-it-with-epic-ceo-tim-sweeney-on-x/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/software/ai/the-ai-posting-war-is-heating-up-please-leave-me-behind-says-artist-who-got-into-it-with-epic-ceo-tim-sweeney-on-x/",
     "orig": "The AI posting war is heating up: 'Please, leave me behind,' says artist who got into it with Epic CEO Tim Sweeney on X"
@@ -20813,6 +20650,34 @@
     "link": "https://deadline.com/2026/11/joel-wilson-eleven-films-jack-thorne-lord-of-the-flies-1237216218/",
     "orig": "How A Mistake In Warner Bros. Contracts Helped Eleven Film & Jack Thorne Land ‘Lord Of The Flies’ TV Rights — Thessaloniki"
    }
+  ],
+  [
+   1794054694.1619694,
+   5268,
+   "🎮",
+   "Студія Bit Reactor звільнила частину розробників Star Wars Zero Company",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Студія Bit Reactor звільнила частину розробників <a href=\"https://store.steampowered.com/app/2075800/\">Star Wars Zero Company</a></b>\n\nСтудія Bit Reactor звільнила частину працівників після попереднього відправлення майже всієї команди у вимушені відпустки перед релізом. Попри те, що Star Wars Zero Company розійшлася накладом в один мільйон копій за перший місяць і деяких фахівців повернули, комерційного успіху гри виявилося замало, аби вберегти штат від скорочень.\n\n🔗 <a href=\"https://www.pcgamer.com/games/strategy/after-furloughing-its-developers-and-then-hiring-some-of-them-back-star-wars-zero-company-developer-has-laid-off-an-unspecified-number-of-staff/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/games/strategy/after-furloughing-its-developers-and-then-hiring-some-of-them-back-star-wars-zero-company-developer-has-laid-off-an-unspecified-number-of-staff/",
+    "orig": "After furloughing its developers and then hiring some of them back, Star Wars Zero Company developer has laid off an unspecified number of staff"
+   }
+  ],
+  [
+   1794054814.6515217,
+   5269,
+   "🎮",
+   "Xbox тестує можливість використовувати смартфон як геймпад для Smart TV",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Xbox тестує можливість використовувати смартфон як геймпад для Smart TV</b>\n\nКомпанія випробовує нові способи запуску хмарних ігор, зокрема без використання будь-якого контролера взагалі\n\n🔗 <a href=\"https://www.eurogamer.net/xbox-cloud-gaming-phone-controller-smart-tv-nano-cloud-connect\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/xbox-cloud-gaming-phone-controller-smart-tv-nano-cloud-connect",
+    "orig": "Xbox is testing a way to use your phone as a controller on smart TVs"
+   }
   ]
  ],
  "posted_by_source": {
@@ -20871,7 +20736,8 @@
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
    1793970118.010522,
-   1793988091.9135098
+   1793988091.9135098,
+   1794054814.6519074
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1793912609.2361844,
@@ -20905,10 +20771,10 @@
    1794042080.9251046
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1793943087.6668577,
    1794004410.8021333,
    1794009696.4696355,
-   1794024088.5760322
+   1794024088.5760322,
+   1794054694.1623883
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1793898256.1616452,
@@ -22126,6 +21992,7 @@
   "3a28b6857e1c43e9": 1793651452.7271295,
   "3a3521afc2daf7d8": 1793907094.828857,
   "3a3638e6ea188d3f": 1793892680.764708,
+  "3a4a2514e9ddc56a": 1794054814.6518655,
   "3a5a921f9cab9df4": 1793106092.10505,
   "3a655cf5b117398d": 1793008894.639011,
   "3a9a0978376e8758": 1793968252.071034,
@@ -22191,7 +22058,6 @@
   "3dbb73ef4a095336": 1793379727.2581506,
   "3dbc4f6b1fea674b": 1793125894.7813888,
   "3dd148d04f967dc0": 1793203519.259686,
-  "3dd3c941d8999a2f": 1792843341.9443567,
   "3dd4b916ea74e2f2": 1793041277.5961473,
   "3dd4e21487476585": 1793394141.4129894,
   "3ded8e5ae2256300": 1793241054.3613508,
@@ -22631,7 +22497,6 @@
   "58b94a77061957d9": 1793529053.5721898,
   "58bf8ae4a45bab0d": 1793628115.3944323,
   "58c07b25e47b0a01": 1793799097.5665848,
-  "58c2b2f154b95f4f": 1792845079.184916,
   "58c484e09bd90954": 1793104436.9924414,
   "58d291901dd0bc74": 1793282455.477287,
   "58f93a3abe095520": 1793205128.990238,
@@ -22837,6 +22702,7 @@
   "63a85020b34452a5": 1793286703.8514652,
   "63ade99c01fabec5": 1793218944.2092752,
   "63ba98f877f70ee2": 1793925081.1637943,
+  "63c6d8ee314361d5": 1794054694.1623435,
   "63d2398c9275b494": 1793190752.0090716,
   "63dca797f6baf924": 1793214149.074181,
   "63f3d769468dc455": 1793637106.0465386,
@@ -23376,6 +23242,7 @@
   "8229c322703af30c": 1793730655.2936435,
   "82391e12200ccab8": 1793381457.1420338,
   "824069a43fbf7e44": 1793019925.613357,
+  "82472410dffbbb9a": 1794054651.509462,
   "829e270d45609990": 1793790169.1975977,
   "82c2d3b0d0ef2af7": 1793538316.6529753,
   "82cd1c7df699aea7": 1793410457.167143,
@@ -23778,7 +23645,6 @@
   "9a945af4bff676bc": 1793133112.8787665,
   "9aa8f818670fe6d4": 1793746890.8823638,
   "9abcb33dfc2e5a80": 1793363580.5690572,
-  "9ac10c4484958e92": 1792845079.9412336,
   "9ac1ae1f5452b3c6": 1793275368.0799065,
   "9ad5ce51a9979f8c": 1792917074.218716,
   "9aec28ceca6a6543": 1793444583.8566778,
@@ -24106,7 +23972,6 @@
   "ae493824a6a8b8ef": 1793118777.1165755,
   "ae5717cb2c959315": 1793583091.8493834,
   "ae572fdcd35e05f7": 1793277123.0990484,
-  "ae59d23f019d47d4": 1792845090.9072745,
   "ae5d3d76a923ab28": 1793214161.1837404,
   "ae7e1b49da25222b": 1793824300.7045074,
   "ae85f28e49a969a8": 1793172685.6050282,
@@ -25140,7 +25005,6 @@
   "ed0ab85c020e6bc2": 1793874752.400368,
   "ed10794f4548aad9": 1793813669.1376052,
   "ed2da0e97774b222": 1793530894.551266,
-  "ed3bed0754a6ddcf": 1792843441.7252343,
   "ed4e4256a4b7be04": 1793106143.8320236,
   "ed5137e4f490aee2": 1793685689.664316,
   "ed63255b2d272f84": 1793781156.2821667,
@@ -26680,7 +26544,7 @@
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 3,
    "Pitchfork": 1,
-   "Polygon": 64,
+   "Polygon": 65,
    "Revolver": 2,
    "Rock Paper Shotgun": 1,
    "The Decoder": 2,
@@ -26698,7 +26562,7 @@
    "Decibel": 8,
    "Digital Foundry": 7,
    "Distorted Sound": 17,
-   "Eurogamer": 23,
+   "Eurogamer": 24,
    "GameSpot": 25,
    "GamesIndustry.biz": 20,
    "GitHub Trending": 42,
@@ -26714,7 +26578,7 @@
    "Metal Injection": 14,
    "Mezha": 56,
    "Neformat": 1,
-   "PC Gamer": 53,
+   "PC Gamer": 54,
    "Pitchfork": 9,
    "PlayUA": 13,
    "Polygon": 30,
@@ -26730,8 +26594,8 @@
   },
   "translators": {
    "DeepL": 112,
-   "gemini-flash-latest": 15,
-   "gemini-flash-lite-latest": 1138
+   "gemini-flash-latest": 16,
+   "gemini-flash-lite-latest": 1139
   },
   "week": "2026-W45"
  },
@@ -27421,11 +27285,6 @@
    "007 First Light",
    1792056045.1976461
   ],
-  "q:1": [
-   0,
-   "",
-   1793880100.2419932
-  ],
   "q:1 0": [
    5044640,
    "思安α.1.0",
@@ -27435,11 +27294,6 @@
    3376520,
    "1+1=？",
    1792249922.5328646
-  ],
-  "q:1 and 2": [
-   0,
-   "",
-   1793880099.6901011
   ],
   "q:10": [
    0,
@@ -27536,11 +27390,6 @@
    "16叠谋杀之谜",
    1792416683.7367072
   ],
-  "q:16 9": [
-   0,
-   "",
-   1793881876.7474515
-  ],
   "q:16 year": [
    0,
    "",
@@ -27570,31 +27419,6 @@
    3740720,
    "ハルスベリヤ叙事詩2.5",
    1792595281.694616
-  ],
-  "q:2 has": [
-   0,
-   "",
-   1793880126.5877726
-  ],
-  "q:2 has sold": [
-   0,
-   "",
-   1793880126.0634751
-  ],
-  "q:2 has sold over": [
-   0,
-   "",
-   1793880125.5254085
-  ],
-  "q:2 has sold over 26": [
-   0,
-   "",
-   1793880125.007522
-  ],
-  "q:2 has sold over 26 million": [
-   0,
-   "",
-   1793880124.496306
   ],
   "q:2000": [
    1642580,
@@ -27760,11 +27584,6 @@
    0,
    "",
    1793959352.2047997
-  ],
-  "q:5 bucks": [
-   0,
-   "",
-   1793880082.1738915
   ],
   "q:50": [
    0,
@@ -28901,11 +28720,6 @@
    "Creators",
    1793134884.0242746
   ],
-  "q:crew": [
-   0,
-   "",
-   1793880081.142853
-  ],
   "q:crimson desert": [
    3321460,
    "Crimson Desert Enhanced",
@@ -29260,11 +29074,6 @@
    0,
    "",
    1793912611.2356126
-  ],
-  "q:dream": [
-   0,
-   "",
-   1793880171.452635
   ],
   "q:dressmaker": [
    4019220,
@@ -29865,11 +29674,6 @@
    0,
    "",
    1793883772.995569
-  ],
-  "q:fortnite crew": [
-   0,
-   "",
-   1793880080.5834854
   ],
   "q:fortnite power": [
    0,
@@ -31261,25 +31065,10 @@
    "Lena",
    1793554299.106612
   ],
-  "q:life": [
-   0,
-   "",
-   1793880169.8899167
-  ],
   "q:life is strange": [
    1265920,
    "Life is Strange Remastered",
    1793134894.9491076
-  ],
-  "q:life living": [
-   0,
-   "",
-   1793880169.3490996
-  ],
-  "q:life living the dream": [
-   0,
-   "",
-   1793880168.8380642
   ],
   "q:lifetime": [
    2264760,
@@ -31305,16 +31094,6 @@
    0,
    "",
    1793907128.4781141
-  ],
-  "q:living": [
-   0,
-   "",
-   1793880170.933816
-  ],
-  "q:living the dream": [
-   0,
-   "",
-   1793880170.4092882
   ],
   "q:looking glass": [
    1272530,
@@ -31926,21 +31705,6 @@
    "",
    1793899968.6008945
   ],
-  "q:nintendo switch 2 has": [
-   0,
-   "",
-   1793880121.8914871
-  ],
-  "q:nintendo switch 2 has sold": [
-   0,
-   "",
-   1793880121.377343
-  ],
-  "q:nintendo switch 2 has sold over": [
-   0,
-   "",
-   1793880120.8707645
-  ],
   "q:nivalis nights": [
    1488490,
    "Nivalis Nights",
@@ -32196,11 +31960,6 @@
    "",
    1794015086.8722963
   ],
-  "q:og pass": [
-   0,
-   "",
-   1793880081.66907
-  ],
   "q:one day": [
    4478540,
    "One Day",
@@ -32395,16 +32154,6 @@
    291650,
    "Pillars of Eternity",
    1793880099.15965
-  ],
-  "q:pillars of eternity 1": [
-   0,
-   "",
-   1793880098.6248367
-  ],
-  "q:pillars of eternity 1 and 2": [
-   0,
-   "",
-   1793880098.086417
   ],
   "q:pillars of eternity 2 deadfire": [
    560130,
@@ -33746,26 +33495,6 @@
    "Survival Games",
    1792688496.4997191
   ],
-  "q:switch 2 has": [
-   0,
-   "",
-   1793880123.9755557
-  ],
-  "q:switch 2 has sold": [
-   0,
-   "",
-   1793880123.4726741
-  ],
-  "q:switch 2 has sold over": [
-   0,
-   "",
-   1793880122.9448755
-  ],
-  "q:switch 2 has sold over 26": [
-   0,
-   "",
-   1793880122.4358344
-  ],
   "q:sword of the sea": [
    2453160,
    "Sword of the Sea",
@@ -33951,26 +33680,6 @@
    "Tomb Raider: Legacy of Atlantis",
    1792947692.545781
   ],
-  "q:tomodachi": [
-   0,
-   "",
-   1793880168.3335865
-  ],
-  "q:tomodachi life": [
-   0,
-   "",
-   1793880167.8267722
-  ],
-  "q:tomodachi life living": [
-   0,
-   "",
-   1793880167.3251543
-  ],
-  "q:tomodachi life living the dream": [
-   0,
-   "",
-   1793880166.8230677
-  ],
   "q:tone": [
    3224410,
    "Tone",
@@ -33995,6 +33704,11 @@
    2671300,
    "Trailblazers: Into the March",
    1792264378.8967957
+  ],
+  "q:tvs": [
+   0,
+   "",
+   1794054696.2266955
   ],
   "q:tweet bomb": [
    0,
@@ -34621,54 +34335,6 @@
   ]
  },
  "titles": [
-  [
-   1793880095.9586546,
-   "Fortnite Crew subscribers are no longer getting free skins or the OG Pass, will get more V-Bucks instead"
-  ],
-  [
-   1793880107.7201953,
-   "Oh hell yes: Pillars of Eternity 1 and 2 are getting full-fat gamepad support and you can try it right now"
-  ],
-  [
-   1793880118.8678064,
-   "Resolve explore the horror of sleep paralysis on new single, Mind Awake, Body Asleep"
-  ],
-  [
-   1793880164.817196,
-   "PlayStation raises full-year forecast after revenue growth in network services and first-party software"
-  ],
-  [
-   1793880183.0836418,
-   "Thysrael/Horizon"
-  ],
-  [
-   1793881915.2249327,
-   "“From the darkest of origins, they’ve become one of the biggest bands”: Korn delight London at sold-out O2 spectacular"
-  ],
-  [
-   1793881925.0275526,
-   "KORPIKLAANI's JONNE JÄRVELÄ To Release 'Harjumaa' Solo Album In December"
-  ],
-  [
-   1793881927.3815618,
-   "Uber зафіксувала лише чотири поїздки, замовлені ШІ-агентами, у найзавантаженіший тиждень жовтня"
-  ],
-  [
-   1793881929.3275228,
-   "Забудьте про хмарні сховища: Google впроваджує автоматичне резервне копіювання зі смартфона на ПК"
-  ],
-  [
-   1793881943.1716218,
-   "Experimental project beats Intel in bringing 'real Intel XeSS super resolution' to SteamOS and Proton games on Linux"
-  ],
-  [
-   1793881969.4854956,
-   "You can now play Pillars of Eternity and Pillars of Eternity 2: Deadfire with a controller on PC from start to finish, thanks to a new update open for testing"
-  ],
-  [
-   1793881987.8860452,
-   "scenario-labs/skills"
-  ],
   [
    1793883770.9606142,
    "PlayStation Digital Sales Continue To Increase Year Over Year"
@@ -35920,57 +35586,17 @@
   [
    1794052877.4684687,
    "How A Mistake In Warner Bros. Contracts Helped Eleven Film & Jack Thorne Land ‘Lord Of The Flies’ TV Rights — Thessaloniki"
+  ],
+  [
+   1794054694.162345,
+   "After furloughing its developers and then hiring some of them back, Star Wars Zero Company developer has laid off an unspecified number of staff"
+  ],
+  [
+   1794054814.6518672,
+   "Xbox is testing a way to use your phone as a controller on smart TVs"
   ]
  ],
  "titles_uk": [
-  [
-   1793880095.9586556,
-   "Передплатники Fortnite Crew більше не отримують безкоштовні скіни та OG Pass, натомість вони отримають більше V-Bucks"
-  ],
-  [
-   1793880107.720196,
-   "Pillars of Eternity 1 та 2 отримали підтримку геймпадів на ПК"
-  ],
-  [
-   1793880118.8678074,
-   "Resolve досліджують жахи сонливого паралічу у новому синглі Mind Awake, Body Asleep"
-  ],
-  [
-   1793880164.8171966,
-   "PlayStation підвищує річний прогноз завдяки зростанню доходів від мережевих послуг та власного програмного забезпечення"
-  ],
-  [
-   1793880183.0836427,
-   "Thysrael/Horizon"
-  ],
-  [
-   1793881915.2249336,
-   "Korn влаштували аншлаг на арені O2 у Лондоні"
-  ],
-  [
-   1793881925.0275533,
-   "Фронтмен KORPIKLAANI Йонне Ярвеля випустить сольний альбом «Harjumaa» у грудні"
-  ],
-  [
-   1793881927.381563,
-   "Uber зафіксувала лише чотири поїздки, замовлені ШІ-агентами, у найзавантаженіший тиждень жовтня"
-  ],
-  [
-   1793881929.3275235,
-   "Забудьте про хмарні сховища: Google впроваджує автоматичне резервне копіювання зі смартфона на ПК"
-  ],
-  [
-   1793881943.1716228,
-   "Експериментальний проєкт обійшов Intel у впровадженні підтримки реальної Intel XeSS у SteamOS і Proton на Linux"
-  ],
-  [
-   1793881969.4854965,
-   "Тепер ви можете грати в Pillars of Eternity та Pillars of Eternity 2: Deadfire за допомогою контролера на ПК від початку до кінця завдяки новому оновленню, доступному для тестування"
-  ],
-  [
-   1793881987.886046,
-   "scenario-labs/skills"
-  ],
   [
    1793883770.9606152,
    "Обсяги цифрових продажів PlayStation Continue зростуть у порівнянні з минулим роком"
@@ -37222,6 +36848,14 @@
   [
    1794052877.4684699,
    "Помилка в контрактах Warner Bros. допомогла отримати права на адаптацію Lord of the Flies"
+  ],
+  [
+   1794054694.1623456,
+   "Студія Bit Reactor звільнила частину розробників Star Wars Zero Company"
+  ],
+  [
+   1794054814.6518679,
+   "Xbox тестує можливість використовувати смартфон як геймпад для Smart TV"
   ]
  ],
  "ukrainian": {
@@ -38222,9 +37856,9 @@
    },
    "1737870": {
     "coming_soon": false,
-    "discount": 35,
+    "discount": 0,
     "name": "REKA",
-    "price": "269,00₴",
+    "price": "415,00₴",
     "release": 1793012066
    },
    "17470": {
@@ -39572,7 +39206,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794051094.1338115,
+  "last_check": 1794054823.2116933,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
