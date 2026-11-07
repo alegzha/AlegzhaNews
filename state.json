@@ -1,13 +1,6 @@
 {
- "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1794076270.6776059
-  }
- },
- "daily_digest_date": "2026-11-06",
+ "alerts": {},
+ "daily_digest_date": "2026-11-07",
  "freebies": {
   "last_check": 1794074484.3677683,
   "seen": {
@@ -35,8 +28,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-07 17:01 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-11-07 19:02 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 2
@@ -18783,7 +18776,12 @@
    "\"Зупинимо брудні дата-центри\": в Європі тривають масштабні протести",
    "Mezha",
    {
-    "also": [],
+    "also": [
+     [
+      "Bloomberg",
+      "https://www.bloomberg.com/news/articles/2026-11-07/ai-backlash-spreads-across-europe-with-data-center-protests"
+     ]
+    ],
     "caption": "🤖 <b>&quot;Зупинимо брудні дата-центри&quot;: в Європі тривають масштабні протести</b>\n\nПонад 100 організацій з 15 європейських країн об’єдналися для участі в кампанії проти будівництва центрів обробки даних. Акції протесту проходитимуть у Великій Британії, Ірландії, Польщі, Данії, Фінляндії, Іспанії, Нідерландах та Франції 6 та 7 листопада.\n\n🔗 <a href=\"https://mezha.ua/news/europe-protests-stop-dirty-data-centers-316977/\">Mezha</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://mezha.ua/news/europe-protests-stop-dirty-data-centers-316977/",
@@ -20048,7 +20046,6 @@
   "0a2c3369e5ba1017": 1793034078.1606505,
   "0a5354c80248c950": 1793784655.9129539,
   "0a56ce5822a722f5": 1793104471.0170724,
-  "0a59fd18770071a2": 1792868501.9115129,
   "0a72cb7cf38fdebe": 1793800904.646153,
   "0a852a1554189643": 1793482252.8936336,
   "0a98676779c148c3": 1793770277.8583286,
@@ -20261,7 +20258,6 @@
   "16a9568ef24f06d5": 1793901873.8223162,
   "16b04da3cc4e4ec5": 1793889129.7972276,
   "16b3393de8c8c000": 1792933458.7031355,
-  "16be04e9e35d9bef": 1792868525.0044816,
   "16cbaf47a7dd9420": 1793028802.1890814,
   "16cdaccc1b2b17be": 1793376055.7612596,
   "16d3ba2d3f20a04e": 1793521875.1510756,
@@ -20352,7 +20348,6 @@
   "1bf81594f9d72167": 1793639158.5326436,
   "1c05cb3fc555955d": 1793032279.8507679,
   "1c1a19b7e800d5de": 1794049308.5673697,
-  "1c2d203c06d686f9": 1792868454.004266,
   "1c2d4c5f353d0212": 1793404881.6927397,
   "1c2dea59856d073d": 1793701912.6693478,
   "1c3644c8fa507cb9": 1793012455.8384645,
@@ -20834,7 +20829,6 @@
   "395ca2061d3bc456": 1793878289.9886367,
   "39af44b713245796": 1793192476.3733094,
   "39edf80df04406b8": 1793448086.4381962,
-  "3a0713752c203ca2": 1792868516.8868833,
   "3a08633d34e0240f": 1793358091.271157,
   "3a28b6857e1c43e9": 1793651452.7271295,
   "3a3521afc2daf7d8": 1793907094.828857,
@@ -21797,7 +21791,6 @@
   "71434420f42df352": 1793808081.7181706,
   "714456cdd6d81f0e": 1793277106.2806954,
   "715d5f0d4a80f0f5": 1793898089.9867158,
-  "71693ac4304a8818": 1792866701.1610258,
   "7169ae28816e04d2": 1793351165.9411945,
   "716a7aa478d1bd2a": 1793516465.352256,
   "71838a11aaf00031": 1793889078.5804212,
@@ -22632,6 +22625,7 @@
   "a4537320331b5bbf": 1793086844.7778494,
   "a4552c78a4944cff": 1793356255.8654177,
   "a45645b6f493c42b": 1793392256.1180868,
+  "a462b4fffcfc193c": 1794078168.5169017,
   "a47431159eef21df": 1793545421.8084657,
   "a48c86c194076d69": 1793284277.8653388,
   "a4ae931d79d496ec": 1793487692.0326593,
@@ -22898,7 +22892,6 @@
   "b33041aa1c79d17f": 1793743369.6616802,
   "b3521667b4456c35": 1793106147.5665853,
   "b355736f60d5114d": 1793899966.6056497,
-  "b358bf55720f4c19": 1792866697.9859853,
   "b366259b032d5bb8": 1793005389.0845315,
   "b372e57252932660": 1793419289.514948,
   "b3787d7bbfb66f39": 1793525452.7321477,
@@ -23662,7 +23655,6 @@
   "e3563fe94c8ffa8f": 1793556053.8338614,
   "e35807aea90a8823": 1793466055.6390314,
   "e35ae8971623270a": 1793399483.3314643,
-  "e36ac0652f99559b": 1792866690.6136746,
   "e375b153b84e2956": 1793737886.3499029,
   "e379016607ab7879": 1793901809.639425,
   "e381740fac65dae1": 1793586707.8709908,
@@ -24082,7 +24074,6 @@
   "fc2fb02ead8c606e": 1793734312.1806116,
   "fc3789bee460856f": 1793484055.5163987,
   "fc3d9dddd681abd5": 1793980856.010392,
-  "fc411d9be21ec0c9": 1792866694.3856487,
   "fc425bcd3bf2dc0d": 1793628431.8808472,
   "fc43383b6b2c8e09": 1793363600.241697,
   "fc4c87bd494e185b": 1793718391.0677536,
@@ -25416,7 +25407,7 @@
   "translators": {
    "DeepL": 112,
    "gemini-flash-latest": 17,
-   "gemini-flash-lite-latest": 1151
+   "gemini-flash-lite-latest": 1153
   },
   "week": "2026-W45"
  },
@@ -26191,11 +26182,6 @@
    "16叠谋杀之谜",
    1792416683.7367072
   ],
-  "q:16 year": [
-   0,
-   "",
-   1793903641.6639736
-  ],
   "q:17": [
    0,
    "",
@@ -26465,11 +26451,6 @@
    0,
    "",
    1793919700.071077
-  ],
-  "q:after a 16 year": [
-   0,
-   "",
-   1793903641.1377544
   ],
   "q:after star": [
    0,
@@ -27776,11 +27757,6 @@
    "EXODUS",
    1792688778.4513245
   ],
-  "q:expanse": [
-   0,
-   "",
-   1793903610.4527574
-  ],
   "q:explains": [
    0,
    "",
@@ -28776,21 +28752,6 @@
    "",
    1793977279.2315514
   ],
-  "q:khiimori": [
-   0,
-   "",
-   1793903608.6683335
-  ],
-  "q:khiimori's mongolian": [
-   0,
-   "",
-   1793903608.1364877
-  ],
-  "q:khiimori's mongolian expanse": [
-   0,
-   "",
-   1793903607.6382298
-  ],
   "q:kid's father pleads": [
    0,
    "",
@@ -28950,21 +28911,6 @@
    0,
    "",
    1793909077.417069
-  ],
-  "q:legend of khiimori": [
-   0,
-   "",
-   1793903607.1363072
-  ],
-  "q:legend of khiimori's mongolian": [
-   0,
-   "",
-   1793903606.6343105
-  ],
-  "q:legend of khiimori's mongolian expanse": [
-   0,
-   "",
-   1793903606.1319358
   ],
   "q:lena": [
    3170980,
@@ -29225,16 +29171,6 @@
    4179890,
    "Monarchs at Play",
    1793142165.5811265
-  ],
-  "q:mongolian": [
-   0,
-   "",
-   1793903609.902921
-  ],
-  "q:mongolian expanse": [
-   0,
-   "",
-   1793903609.3786232
   ],
   "q:monster hunter wilds": [
    2246340,
@@ -29500,11 +29436,6 @@
    0,
    "",
    1793907122.9801283
-  ],
-  "q:november": [
-   0,
-   "",
-   1793903614.719694
   ],
   "q:november 5": [
    0,
@@ -31700,82 +31631,6 @@
  },
  "titles": [
   [
-   1793903599.067807,
-   "ALBUM REVIEW: Future Nausea – Spanish Love Songs"
-  ],
-  [
-   1793903604.0636468,
-   "“It’s going to be very difficult. It’s hard to let go”: Is Pallas’ new album the veterans’ final bow?"
-  ],
-  [
-   1793903612.629573,
-   "The Legend of Khiimori's Mongolian Expanse update brings in frosty mountains and scorching deserts that'll require a lot more than a fur coat and a sturdy horse"
-  ],
-  [
-   1793903616.5852072,
-   "Amazon Prime’s seven ‘free’ games for November include Jurassic World Evolution 2"
-  ],
-  [
-   1793903618.446861,
-   "Топ 10 фентезі-фільмів усіх часів за версією Інституту кіномистецтва"
-  ],
-  [
-   1793903624.612774,
-   "King Buffalo Stream New Track “Ether On The Dark Side”"
-  ],
-  [
-   1793903633.6380236,
-   "New ‘Cheese-Filled’ Vinyl Pressing Of Primus’ “Sailing The Seas Of Cheese” Due This Month"
-  ],
-  [
-   1793903636.0120995,
-   "В ARC Raiders додали українську мову"
-  ],
-  [
-   1793903639.1428251,
-   "‘Wild Horse Nine’ Review: Martin McDonagh’s Prickly but Unconvincing CIA Satire Recasts ‘In Bruges’ as the Stuff of a Classic Western"
-  ],
-  [
-   1793903643.806196,
-   "After a 16-year long dev period, Faraway, a shooting star arcade game about siphoning the energy of other stars, is out now"
-  ],
-  [
-   1793903647.2733474,
-   "Convictions sign with Unified Music Group and debut new single \"Atonement\""
-  ],
-  [
-   1793905295.5731444,
-   "‘Hen’ Review: A Cockeyed Comedy Sees Europe’s Migrant Crisis Through the Eyes of a Chicken"
-  ],
-  [
-   1793905306.6038597,
-   "DORO Once Again Rules Out Retirement: 'I Wanna Die On Stage'"
-  ],
-  [
-   1793905317.2771595,
-   "EA's releasing a truckload of classic games on Steam, and 7 of them are remasters"
-  ],
-  [
-   1793905321.4865835,
-   "Whitechapel’s Gruesome NSFW “Bedlam” Music Video Debuts Online"
-  ],
-  [
-   1793905336.445595,
-   "Shawn Layden On Why Bloodborne 2 Hasn’t Happened"
-  ],
-  [
-   1793905339.3971663,
-   "Apple Taps Bond Market for $7B as Tech Sells Off"
-  ],
-  [
-   1793905355.1137984,
-   "Ari Stidham Joins ‘Reacher’ For Season 5"
-  ],
-  [
-   1793905362.541164,
-   "Ablahshikar is a maximalist, sickos only salvage-survival CRPG about ripping organs out of warships and pawning off strange goods that's now out in early access"
-  ],
-  [
    1793907098.180494,
    "Investment firm Denmu closes oversubscribed debut fund, surpassing $50 million target"
   ],
@@ -32685,82 +32540,6 @@
   ]
  ],
  "titles_uk": [
-  [
-   1793903599.0678077,
-   "Рецензія на альбом Future Nausea від Spanish Love Songs"
-  ],
-  [
-   1793903604.0636477,
-   "Чи стане новий альбом Pallas фінальним для ветеранів прогресив-року"
-  ],
-  [
-   1793903612.6295743,
-   "Оновлення The Mongolian Expanse для The Legend of Khiimori додає нові біоми та випробування"
-  ],
-  [
-   1793903616.5852084,
-   "Amazon Prime роздає сім безплатних ігор на листопад"
-  ],
-  [
-   1793903618.4468617,
-   "Топ 10 фентезі-фільмів усіх часів за версією Інституту кіномистецтва"
-  ],
-  [
-   1793903624.6127748,
-   "King Buffalo випустили новий сингл “Ether On The Dark Side”"
-  ],
-  [
-   1793903633.638024,
-   "Primus випустять вініл \"Sailing The Seas Of Cheese\" з «сиром» усередині"
-  ],
-  [
-   1793903636.0121005,
-   "В ARC Raiders додали українську мову"
-  ],
-  [
-   1793903639.142826,
-   "Вийшов огляд фільму Wild Horse Nine Мартіна Макдонаха"
-  ],
-  [
-   1793903643.8061967,
-   "Аркадна гра Faraway вийшла після 16 років розробки"
-  ],
-  [
-   1793903647.2733483,
-   "Convictions підписали контракт із UNIFIED Music Group і випустили сингл Atonement"
-  ],
-  [
-   1793905295.5731452,
-   "Рецензія на фільм «Hen»: кривава комедія про міграційну кризи очима курки"
-  ],
-  [
-   1793905306.6038609,
-   "Metal Queen DORO вкотре відкинула думку про завершення кар'єри"
-  ],
-  [
-   1793905317.2771602,
-   "EA випускає купу класичних ігор у Steam, і 7 із них — ремастери"
-  ],
-  [
-   1793905321.4865844,
-   "Whitechapel випустили жорстокий NSFW-кліп на трек Bedlam"
-  ],
-  [
-   1793905336.445596,
-   "Шон Лайден пояснив, чому досі немає Bloodborne 2"
-  ],
-  [
-   1793905339.3971672,
-   "Apple залучає близько $7 мільярдів через продаж облігацій"
-  ],
-  [
-   1793905355.1137989,
-   "Арі Слідгем приєднався до акторського складу п'ятого сезону Reacher"
-  ],
-  [
-   1793905362.5411649,
-   "Вийшла Ablahshikar — похмура CRPG про виживання, мародерство та потрошіння військових кораблів"
-  ],
   [
    1793907098.1804948,
    "Інвестиційна фірма Denmu закрила дебютний фонд із понад $50 мільйонами"
@@ -36019,7 +35798,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794074484.0429766,
+  "last_check": 1794078175.8592083,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
