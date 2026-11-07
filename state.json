@@ -1,5 +1,24 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:ai|The Decoder|https://the-decoder.com/feed/": {
+   "detail": "https://the-decoder.com/feed/ → HTTPSConnectionPool(host='the-decoder.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutEr",
+   "label": "Джерело «The Decoder» не працює",
+   "sent": 0,
+   "since": 1794013299.7678876
+  },
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1794013276.2205706
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1794013274.1650796
+  }
+ },
  "daily_digest_date": "2026-11-06",
  "freebies": {
   "last_check": 1794007897.170705,
@@ -28,69 +47,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-07 00:58 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-11-07 01:03 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793322153.3993154,
-   3610,
-   "🎬",
-   "Меттью Вайнер покинув серіал The Chairman з Едді Мерфі",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/matthew-weiner-peacock-101-studios-chairman-eddie-murphy-1236934392/",
-    "orig": "Matthew Weiner Exits Peacock, 101 Studios Series ‘The Chairman’ Starring Eddie Murphy (EXCLUSIVE)"
-   }
-  ],
-  [
-   1793322156.5648668,
-   3611,
-   "🎬",
-   "У Каліфорнії обговорюють зняття ліміту на податкові пільги для кіно",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/film/news/california-film-incentives-unlimited-1236934661/",
-    "orig": "California Begins Discussion on Unlimited Film Incentives: ‘That Is a Heavy Lift’"
-   }
-  ],
-  [
-   1793322159.4808276,
-   3612,
-   "🎬",
-   "Іен МакКеллен вшанував пам'ять свого близького друга Патріка Стюарта",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/film/news/ian-mckellen-patrick-stewart-tribute-1236934477/",
-    "orig": "Ian McKellen Pays Tribute to Close Friend Patrick Stewart: ‘He Wore His Heart on His Sleeve’"
-   }
-  ],
-  [
-   1793322162.4557285,
-   3613,
-   "🤘",
-   "У гурту Filth Is Eternal вкрали гастрольний вен у Сіетлі",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/10/29/news/filth-is-eternals-touring-van-stolen-fans-urged-to-keep-an-eye-out-for-it/",
-    "orig": "Filth Is Eternal’s Touring Van Stolen, Fans Urged To Keep An Eye Out For It"
-   }
-  ],
   [
    1793322477.9034126,
    3614,
@@ -20314,7 +20282,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Збірка відкритих скілів garden-skills для ШІ-агентів</b>\n\nКолекція готових до продакшену скілів для Claude Code, Cursor, Codex та інших ШІ-агентів, що охоплює вебдизайн, пошук знань, генерацію зображень та інші можливості.\n\n🔗 <a href=\"https://github.com/ConardLi/garden-skills\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/ConardLi/garden-skills",
     "orig": "ConardLi/garden-skills"
@@ -20328,7 +20295,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Глава Studio N Мікюн Квон — про силу вебкомів та ризики з корейською епопеєю The Remarried Empress</b>\n\nІнтерв&#x27;ю з генеральною директоркою Studio N Мікюн Квон про створення хіта Bloodhounds для Netflix, блокбастера My Daughter is a Zombie та адаптацію коміксів\n\n🔗 <a href=\"https://deadline.com/2026/11/studio-n-mikyung-kwon-webtoon-the-remarried-empress-1237212460/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/studio-n-mikyung-kwon-webtoon-the-remarried-empress-1237212460/",
     "orig": "International Disruptors: Studio N Chief Mikyung Kwon On The Value Of Webcomic IP & Taking Risks With Korean Epic ‘The Remarried Empress’"
@@ -21164,6 +21130,34 @@
     "link": "https://deadline.com/2026/11/trump-60-minutes-midterms-1237216042/",
     "orig": "Trump Reveals Plans For Post-Midterm Firings In ‘60 Minutes’ Interview, Hours Before Announcing That Susie Wiles Was Out"
    }
+  ],
+  [
+   1794013391.2333512,
+   5221,
+   "🤘",
+   "Джин Гоґлан анонсував новий реліз DARK ANGEL до кінця року",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Джин Гоґлан анонсував новий реліз DARK ANGEL до кінця року</b>\n\nБарабанщик DARK ANGEL Джин Гоґлан заявив, що гурт планує випустити нову музику до кінця року або щонайбільше із запізненням на місяць-два. Музикант зазначив, що колектив уже перебуває на порозі офіційних анонсів. Новий матеріал стане продовженням альбому Extinction Level Event.\n\n🔗 <a href=\"https://blabbermouth.net/news/gene-hoglan-says-new-dark-angel-music-will-arrive-before-the-end-of-the-year-im-really-excited\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/gene-hoglan-says-new-dark-angel-music-will-arrive-before-the-end-of-the-year-im-really-excited",
+    "orig": "GENE HOGLAN Says New DARK ANGEL Music Will Arrive 'Before The End Of The Year': 'I'm Really Excited'"
+   }
+  ],
+  [
+   1794013396.2468424,
+   5222,
+   "🤘",
+   "Carriers випустив кавер на пісню Gillian Welch і David Rawlings “Look At Miss Ohio”",
+   "Stereogum",
+   {
+    "also": [],
+    "caption": "🤘 <b>Carriers випустив кавер на пісню Gillian Welch і David Rawlings “Look At Miss Ohio”</b>\n\nМузикант Керт Кайзер, що виступає під проєктом Carriers, записав кавер на композицію &quot;Look At Miss Ohio&quot; дуету Gillian Welch та David Rawlings. На створення треку його надихнула перемога Емі Ектон на виборах губернатора Огайо.\n\n🔗 <a href=\"https://stereogum.com/2516786/carriers-look-at-miss-ohio-gillian-welch-david-rawlings-cover-amy-acton/music/\">Stereogum</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://stereogum.com/2516786/carriers-look-at-miss-ohio-gillian-welch-david-rawlings-cover-amy-acton/music/",
+    "orig": "Carriers – “Look At Miss Ohio” (Gillian Welch & David Rawlings Cover)"
+   }
   ]
  ],
  "posted_by_source": {
@@ -21353,19 +21347,7 @@
    1793941287.0108776
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1793881925.0276005,
-   1793885520.395051,
-   1793887355.6837213,
-   1793887407.5226822,
-   1793896430.5026212,
-   1793896536.0288446,
-   1793905306.603905,
-   1793907107.7435803,
-   1793907114.5701149,
-   1793907174.346553,
-   1793910695.6292913,
-   1793912679.502582,
-   1793917881.393364
+   1794013391.233802
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -21430,7 +21412,8 @@
    1793899892.8634937
   ],
   "music|Stereogum|https://www.stereogum.com/feed/": [
-   1794004398.1796865
+   1794004398.1796865,
+   1794013396.2473128
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
    1793896520.4991848,
@@ -22714,6 +22697,7 @@
   "47f19734179f296e": 1793102485.54203,
   "47f84659f95d465a": 1793210453.9614267,
   "4815931cfcd61dd0": 1793799094.9981434,
+  "482d3d22c928dd47": 1794013391.2337513,
   "482e7efa033c2504": 1793136691.2272556,
   "482fdd9e584f0863": 1793736097.7984061,
   "48471f7f5ecd3a22": 1793824254.550742,
@@ -24004,6 +23988,7 @@
   "943272d33197cb6f": 1792857718.2088532,
   "9433502ddf9db1d7": 1793044929.0697448,
   "944a84c6e66940ec": 1793046715.0692396,
+  "944e8a227014f802": 1794013396.247265,
   "9450c191ba923eb5": 1793851294.3809237,
   "945a620074a768af": 1793023471.3446453,
   "945ee95bc961149e": 1793341983.845336,
@@ -25066,7 +25051,6 @@
   "d2d855a1430fffd8": 1793856655.0170114,
   "d2e97dcd5879492e": 1793928735.8943906,
   "d2f32ac8b3494bd1": 1793644397.9505122,
-  "d3196d8707184e92": 1792803763.628644,
   "d32869d513e95c73": 1793790130.341379,
   "d35379af0309f744": 1793892680.7573888,
   "d3615d30dfbca74c": 1793647852.0864375,
@@ -25547,7 +25531,6 @@
   "f092ae509039930c": 1793711000.5938559,
   "f09b100f5046f8be": 1793437379.2043796,
   "f0a07c09fbf11339": 1793235675.9591463,
-  "f0c0776b97656db1": 1792803795.285922,
   "f0da9e69dffe9090": 1793963129.131009,
   "f0deda09a7f35bb6": 1793016153.6678228,
   "f0f6311bd4d74722": 1793349384.3380558,
@@ -26267,7 +26250,7 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1793997100.1058724,
-  "blocked_until": 1793995583.859988,
+  "blocked_until": 1794083559.5527017,
   "cursor": 111,
   "digest_week": "2026-W45",
   "seen": {
@@ -27049,7 +27032,7 @@
   "sources": {
    "/Film": 25,
    "AIN.ua": 6,
-   "Blabbermouth": 50,
+   "Blabbermouth": 51,
    "Bloomberg": 51,
    "DOU": 7,
    "DOU Gamedev": 4,
@@ -27080,7 +27063,7 @@
    "Revolver": 6,
    "Rock Paper Shotgun": 31,
    "SteamDB": 2,
-   "Stereogum": 13,
+   "Stereogum": 14,
    "The Decoder": 27,
    "ThePRP": 54,
    "VGC": 40,
@@ -27088,8 +27071,8 @@
   },
   "translators": {
    "DeepL": 110,
-   "gemini-flash-latest": 10,
-   "gemini-flash-lite-latest": 1097
+   "gemini-flash-latest": 11,
+   "gemini-flash-lite-latest": 1098
   },
   "week": "2026-W45"
  },
@@ -30379,31 +30362,6 @@
    "Forbidden zone",
    1793628276.6804101
   ],
-  "q:forever's launch": [
-   0,
-   "",
-   1793840491.3562768
-  ],
-  "q:forever's launch is": [
-   0,
-   "",
-   1793840490.8202434
-  ],
-  "q:forever's launch is going": [
-   0,
-   "",
-   1793840490.1834316
-  ],
-  "q:forever's launch is going surprisingly": [
-   0,
-   "",
-   1793840489.5357468
-  ],
-  "q:forever's launch is going surprisingly smooth": [
-   0,
-   "",
-   1793840488.98624
-  ],
   "q:forever's launch was": [
    0,
    "",
@@ -31733,26 +31691,6 @@
    0,
    "",
    1793907124.8468087
-  ],
-  "q:launch is": [
-   0,
-   "",
-   1793840493.4924433
-  ],
-  "q:launch is going": [
-   0,
-   "",
-   1793840493.015877
-  ],
-  "q:launch is going surprisingly": [
-   0,
-   "",
-   1793840492.4141743
-  ],
-  "q:launch is going surprisingly smooth": [
-   0,
-   "",
-   1793840491.8960874
   ],
   "q:launch was running": [
    0,
@@ -35454,21 +35392,6 @@
    "",
    1793984493.1559653
   ],
-  "q:wow forever's launch": [
-   0,
-   "",
-   1793840488.4277956
-  ],
-  "q:wow forever's launch is": [
-   0,
-   "",
-   1793840487.9166582
-  ],
-  "q:wow forever's launch is going": [
-   0,
-   "",
-   1793840487.4039063
-  ],
   "q:wwe 2k26": [
    3717070,
    "WWE 2K26",
@@ -35639,10 +35562,6 @@
   ]
  },
  "titles": [
-  [
-   1793840511.3968441,
-   "WoW: Forever’s Launch Is Going Surprisingly Smooth"
-  ],
   [
    1793842245.1179857,
    "Pixar Veteran Jim Morris Moving To Emeritus Position; Jonathan Garson Named New President"
@@ -37054,13 +36973,17 @@
   [
    1794013130.1960173,
    "Trump Reveals Plans For Post-Midterm Firings In ‘60 Minutes’ Interview, Hours Before Announcing That Susie Wiles Was Out"
+  ],
+  [
+   1794013391.2337537,
+   "GENE HOGLAN Says New DARK ANGEL Music Will Arrive 'Before The End Of The Year': 'I'm Really Excited'"
+  ],
+  [
+   1794013396.2472665,
+   "Carriers – “Look At Miss Ohio” (Gillian Welch & David Rawlings Cover)"
   ]
  ],
  "titles_uk": [
-  [
-   1793840511.3968449,
-   "Запуск World of Warcraft: Forever проходить напрочуд гладко"
-  ],
   [
    1793842245.1179867,
    "У Pixar змінюється президент"
@@ -38472,6 +38395,14 @@
   [
    1794013130.1960177,
    "Дональд Трамп анонсував кадрові зміни в інтерв'ю для 60 Minutes"
+  ],
+  [
+   1794013391.2337546,
+   "Джин Гоґлан анонсував новий реліз DARK ANGEL до кінця року"
+  ],
+  [
+   1794013396.2472677,
+   "Carriers випустив кавер на пісню Gillian Welch і David Rawlings “Look At Miss Ohio”"
   ]
  ],
  "ukrainian": {
@@ -40822,7 +40753,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794009705.6587687,
+  "last_check": 1794013404.9014218,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
