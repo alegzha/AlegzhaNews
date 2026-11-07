@@ -1,27 +1,8 @@
 {
- "alerts": {
-  "src:ai|The Decoder|https://the-decoder.com/feed/": {
-   "detail": "https://the-decoder.com/feed/ → HTTPSConnectionPool(host='the-decoder.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutEr",
-   "label": "Джерело «The Decoder» не працює",
-   "sent": 0,
-   "since": 1794013299.7678876
-  },
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1794013276.2205706
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1794013274.1650796
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-06",
  "freebies": {
-  "last_check": 1794007897.170705,
+  "last_check": 1794015094.7062957,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -47,75 +28,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-07 01:03 UTC",
-  "gemini_error": "",
+  "at": "2026-11-07 01:31 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793322477.9034126,
-   3614,
-   "🎬",
-   "JB Перрет представив нову команду керівників Skydance після злиття",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/skydance-jb-perrette-leadership-team-departures-1236934597/",
-    "orig": "Skydance’s JB Perrette Reveals His Full Leadership Team, Announces Departures of Several Execs Not Joining Following the Paramount-Warner Bros. Merger"
-   }
-  ],
-  [
-   1793322481.967366,
-   3615,
-   "🎬",
-   "Помер телесценарист і творець «Too Close for Comfort» Ерл Баррет",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/people-news/earl-barret-dead-too-close-for-comfort-1236934343/",
-    "orig": "Earl Barret, TV Writer and Co-Creator of ‘Too Close for Comfort,’ Dies at 94"
-   }
-  ],
-  [
-   1793322485.2958906,
-   3616,
-   "🤘",
-   "Драмер System Of A Down придбав комікс за $825 000",
-   "Metal Hammer (Louder)",
-   {
-    "also": [
-     [
-      "ThePRP",
-      "https://www.theprp.com/2026/10/29/news/system-of-a-downs-john-dolmayan-recently-spent-825000-on-a-rare-superman-comic-book/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/bands-artists/system-of-a-down-john-dolmayan-comic-book",
-    "orig": "System Of A Down's John Dolmayan has just spent $825,000 on a comic book"
-   }
-  ],
-  [
-   1793322488.4651148,
-   3617,
-   "🎬",
-   "Фільми Хон Сан Су та Кіма Джин Ю знайшли нових міжнародних дистриб'юторів",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/film/news/beef-actor-justin-h-min-journey-there-hong-sangsoo-film-sales-1236934722/",
-    "orig": "‘Beef’ Actor Justin H. Min’s ‘Journey There,’ Hong Sangsoo’s Locarno Winner ‘Nowhere to Lay My Eyes’ Rack Up International Sales for Finecut"
-   }
-  ],
   [
    1793325781.297563,
    3618,
@@ -20308,7 +20231,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Microsoft випустила стрімінгову модель VibeVoice-ASR-Streaming</b>\n\nMicrosoft випустила VibeVoice-ASR-Streaming — уніфіковану стрімінгову модель розпізнавання мови, яка безперервно транскрибує аудіо з визначенням того, хто що сказав, підтримуючи 10 мов та кастомні слова. Також проєкт включає рушій VibeVoice-ASR-BitNet для запуску на CPU та інші відкриті мовні ШІ-моделі.\n\n🔗 <a href=\"https://github.com/microsoft/VibeVoice\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/microsoft/VibeVoice",
     "orig": "microsoft/VibeVoice"
@@ -20322,7 +20244,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b>Unity звітує про рекордний третій квартал завдяки ШІ-платформі Vector</b>\n\nКомпанія Unity показала найкращі результати третього кварталу завдяки зростанню ШІ-мережі Vector на 126% та вперше вийшла в прибуток за GAAP із моменту виходу на біржу у 2020 році. Також з&#x27;явилася інформація про переговори щодо можливого поглинання за участю приватних інвесторів з оцінкою в $25 мільярдів.\n\n🔗 <a href=\"https://www.gamesindustry.biz/unity-reports-strongest-ever-q3-results-driven-by-its-ai-powered-ad-network-vector\">GamesIndustry.biz</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/unity-reports-strongest-ever-q3-results-driven-by-its-ai-powered-ad-network-vector",
     "orig": "Unity reports \"strongest ever\" Q3 results driven by its AI-powered ad network Vector"
@@ -21158,6 +21079,34 @@
     "link": "https://stereogum.com/2516786/carriers-look-at-miss-ohio-gillian-welch-david-rawlings-cover-amy-acton/music/",
     "orig": "Carriers – “Look At Miss Ohio” (Gillian Welch & David Rawlings Cover)"
    }
+  ],
+  [
+   1794015083.079651,
+   5223,
+   "🤘",
+   "«Якщо гітара розстроєна, ти не зможеш її налаштувати»: Steven Wilson про боротьбу з «ванільним прогом»",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>«Якщо гітара розстроєна, ти не зможеш її налаштувати»: Steven Wilson про боротьбу з «ванільним прогом»</b>\n\nВідійшовши від ностальгійного альбому у стилі 70-х, музикант взявся за незнайомі інструменти та змішав максимум жанрів у своїй дев&#x27;ятій пластинці\n\n🔗 <a href=\"https://www.loudersound.com/music/albums/steven-wilson-requiem-village-rules\">Metal Hammer (Louder)</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/music/albums/steven-wilson-requiem-village-rules",
+    "orig": "“I told him, ‘If the guitar’s out of tune, you can’t tune it”: Steven Wilson’s bid to avoid “vanilla prog”"
+   }
+  ],
+  [
+   1794015092.7636955,
+   5224,
+   "🎮",
+   "Раян Гослінг працює над перезапуском The Flintstones",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Раян Гослінг працює над перезапуском The Flintstones</b>\n\nКомпанія Раяна Гослінга Open Invite спільно з Warner Bros. розробляє ігровий перезапуск The Flintstones. Проєкт зосередиться на дорослому персонажі Bamm-Bamm, а наразі автори шукають сценариста для роботи над стрічкою.\n\n🔗 <a href=\"https://www.polygon.com/ryan-gosling-flintstones-bamm-bamm-movie/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/ryan-gosling-flintstones-bamm-bamm-movie/",
+    "orig": "Ryan Gosling is Officially Reviving The Flintstones for New Project"
+   }
   ]
  ],
  "posted_by_source": {
@@ -21264,7 +21213,8 @@
    1793975514.9460788,
    1793977287.1591,
    1793989903.24684,
-   1794002498.5959523
+   1794002498.5959523,
+   1794015092.7640872
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1793876564.4156837,
@@ -21385,12 +21335,9 @@
    1793912670.0978909
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
-   1793874726.94078,
-   1793878289.9886878,
-   1793881915.2249825,
-   1793903604.0636919,
    1793941290.684291,
-   1793944885.907541
+   1793944885.907541,
+   1794015083.0800445
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1793892736.5084252,
@@ -23447,6 +23394,7 @@
   "71f0e9eaac778af1": 1793372550.1000662,
   "7203879df98082f0": 1792825405.646989,
   "72160039d9a7afa0": 1792999883.44305,
+  "7231e211057f6b69": 1794015092.7640433,
   "7235cad86128e0a5": 1793621008.1314886,
   "723adcdd75a4435b": 1793635375.5086267,
   "724b207366f96017": 1793018028.3951144,
@@ -23919,6 +23867,7 @@
   "8fde5060d8f38da3": 1793271824.4533155,
   "8fef01df29470023": 1792942253.4728909,
   "900ec2b4a90ada3a": 1793379680.1304505,
+  "90102ace3531583d": 1794015083.0799994,
   "90251bc2d28c60eb": 1793541737.3289256,
   "903d313554c812f4": 1793095282.3284261,
   "90459b0522482fde": 1792893684.5577319,
@@ -25772,7 +25721,6 @@
   "fdbc9ddb2fc7d622": 1793937675.1387613,
   "fdd85da1cae825cc": 1793107963.2027392,
   "fde7efddcc5ab4da": 1793212521.0518937,
-  "fdf52231ad13638a": 1792803809.3101494,
   "fe04a1be120d1981": 1793210645.7137754,
   "fe070e3439762e5c": 1793409570.7503614,
   "fe15c48880158f63": 1793903621.0456195,
@@ -27052,13 +27000,13 @@
    "Kerrang!": 18,
    "Lambgoat": 42,
    "Loudwire": 24,
-   "Metal Hammer (Louder)": 24,
+   "Metal Hammer (Louder)": 25,
    "Metal Injection": 14,
    "Mezha": 54,
    "PC Gamer": 52,
    "Pitchfork": 9,
    "PlayUA": 13,
-   "Polygon": 28,
+   "Polygon": 29,
    "Product Hunt": 16,
    "Revolver": 6,
    "Rock Paper Shotgun": 31,
@@ -27072,7 +27020,7 @@
   "translators": {
    "DeepL": 110,
    "gemini-flash-latest": 11,
-   "gemini-flash-lite-latest": 1098
+   "gemini-flash-lite-latest": 1100
   },
   "week": "2026-W45"
  },
@@ -30342,6 +30290,16 @@
    "",
    1793901718.2852497
   ],
+  "q:flintstones for new": [
+   0,
+   "",
+   1794015090.9233408
+  ],
+  "q:flintstones for new project": [
+   0,
+   "",
+   1794015090.4476204
+  ],
   "q:fnatic ahead of vct": [
    0,
    "",
@@ -30756,6 +30714,11 @@
    1029780,
    "Going Medieval",
    1791931134.6342354
+  ],
+  "q:gosling": [
+   0,
+   "",
+   1794015086.390822
   ],
   "q:gothic 1 remake": [
    1297900,
@@ -32887,6 +32850,21 @@
    "",
    1793975512.5279243
   ],
+  "q:officially reviving": [
+   0,
+   "",
+   1794015087.858309
+  ],
+  "q:officially reviving the flintstones": [
+   0,
+   "",
+   1794015087.3843815
+  ],
+  "q:officially reviving the flintstones for new": [
+   0,
+   "",
+   1794015086.8722963
+  ],
   "q:og pass": [
    0,
    "",
@@ -33752,6 +33730,26 @@
    "Reveal",
    1792515822.5227997
   ],
+  "q:reviving": [
+   0,
+   "",
+   1794015089.9632654
+  ],
+  "q:reviving the flintstones": [
+   0,
+   "",
+   1794015089.4191833
+  ],
+  "q:reviving the flintstones for new": [
+   0,
+   "",
+   1794015088.9254382
+  ],
+  "q:reviving the flintstones for new project": [
+   0,
+   "",
+   1794015088.4348764
+  ],
   "q:richard garriott": [
    0,
    "",
@@ -33896,6 +33894,16 @@
    0,
    "",
    1793909039.4805222
+  ],
+  "q:ryan": [
+   0,
+   "",
+   1794015085.7296147
+  ],
+  "q:ryan gosling": [
+   0,
+   "",
+   1794015085.211967
   ],
   "q:sag aftra": [
    0,
@@ -35563,14 +35571,6 @@
  },
  "titles": [
   [
-   1793842245.1179857,
-   "Pixar Veteran Jim Morris Moving To Emeritus Position; Jonathan Garson Named New President"
-  ],
-  [
-   1793842251.6225276,
-   "John Constantine Movie From ‘Evil Dead Wrath’s Francis Galluppi In Development At DC"
-  ],
-  [
    1793844086.4075918,
    "Critical Role's upcoming series with Hololive gave Matt Mercer 'a deeper understanding and appreciation' for vtubers"
   ],
@@ -36981,17 +36981,17 @@
   [
    1794013396.2472665,
    "Carriers – “Look At Miss Ohio” (Gillian Welch & David Rawlings Cover)"
+  ],
+  [
+   1794015083.0800014,
+   "“I told him, ‘If the guitar’s out of tune, you can’t tune it”: Steven Wilson’s bid to avoid “vanilla prog”"
+  ],
+  [
+   1794015092.7640452,
+   "Ryan Gosling is Officially Reviving The Flintstones for New Project"
   ]
  ],
  "titles_uk": [
-  [
-   1793842245.1179867,
-   "У Pixar змінюється президент"
-  ],
-  [
-   1793842251.6225286,
-   "DC Studios розробляє новий фільм про John Constantine"
-  ],
   [
    1793844086.4075933,
    "Метт Мерсер розповів про роботу з vtuber від Hololive над Shattered Legends"
@@ -38403,6 +38403,14 @@
   [
    1794013396.2472677,
    "Carriers випустив кавер на пісню Gillian Welch і David Rawlings “Look At Miss Ohio”"
+  ],
+  [
+   1794015083.0800023,
+   "«Якщо гітара розстроєна, ти не зможеш її налаштувати»: Steven Wilson про боротьбу з «ванільним прогом»"
+  ],
+  [
+   1794015092.7640467,
+   "Раян Гослінг працює над перезапуском The Flintstones"
   ]
  ],
  "ukrainian": {
