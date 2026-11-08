@@ -11,12 +11,6 @@
    "label": "Джерело «Bloomberg» не працює",
    "sent": 0,
    "since": 1794092467.4426842
-  },
-  "src:music|ThePRP|https://www.theprp.com/feed/": {
-   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ThePRP» не працює",
-   "sent": 0,
-   "since": 1794121289.7573094
   }
  },
  "daily_digest_date": "2026-11-07",
@@ -47,7 +41,7 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-08 07:01 UTC",
+  "at": "2026-11-08 07:31 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
@@ -58,32 +52,6 @@
   ]
  },
  "post_log": [
-  [
-   1793430232.4968266,
-   3881,
-   "🎬",
-   "Beyond The Gates здобув чотири нагороди Daytime Emmy у свій дебютний рік",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/beyond-the-gates-wins-multiple-daytime-emmys-1237210503/",
-    "orig": "‘Beyond The Gates’ Wins Four Daytime Emmys In Its First Year Of Eligibility"
-   }
-  ],
-  [
-   1793430327.8391147,
-   3882,
-   "💾",
-   "Репозиторій mattpocock/skills: навички для реальних інженерів від AI Hero",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/mattpocock/skills",
-    "orig": "mattpocock/skills"
-   }
-  ],
   [
    1793432150.8158708,
    3883,
@@ -18205,7 +18173,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Netflix готується придбати Radford Studio Center за понад $400 мільйонів</b>\n\nNetflix продовжує роботу над придбанням виробничого комплексу Radford Studio Center за понад $400 мільйонів. Угода про купівлю території площею 55 акрів просувається за узгодженим графіком попри нещодавні скептичні коментарі від нинішнього орендодавця стримінгу.\n\n🔗 <a href=\"https://deadline.com/2026/11/netflix-radford-studio-purchase-latest-1237216149/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/netflix-radford-studio-purchase-latest-1237216149/",
     "orig": "Netflix’s Radford Studio Acquisition Moving Ahead Despite Streamer’s Sunset Blvd Landlord Throwing Shade On Deal"
@@ -18219,7 +18186,6 @@
    "VGC",
    {
     "also": [],
-    "caption": "🎮 <b>Ремейк Zelda OOT: де знайти та кому продати всі маски</b>\n\nУсі маски з Happy Mask Shop та покупці для них у ремейку The Legend of Zelda: Ocarina of Time\n\n🔗 <a href=\"https://www.videogameschronicle.com/guide/zelda-oot-remake-all-masks-buyers-locations-profit/\">VGC</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/guide/zelda-oot-remake-all-masks-buyers-locations-profit/",
     "orig": "Zelda OOT Remake: All Masks and where to sell them"
@@ -19060,6 +19026,34 @@
     "link": "https://deadline.com/2026/11/our-blues-midnight-diner-taicca-joint-venture-funds-1237216640/",
     "orig": "‘Our Blues’, ‘Midnight Diner’ & ‘C’Est La Vie’ Among Projects Backed By TAICCA Joint Venture Funds"
    }
+  ],
+  [
+   1794123081.4123626,
+   5337,
+   "🎮",
+   "Композитор оригінальної трилогії Mass Effect поділився альтернативним треком для скасованої гри",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>Композитор оригінальної трилогії <a href=\"https://store.steampowered.com/app/1328670/\">Mass Effect</a> поділився альтернативним треком для скасованої гри</b>\n\nКомпозитор Сем Гюлік представив власне музичне переосмислення трейлера скасованої гри Mass Effect 5, яку розробляла BioWare. Музикант хотів попрощатися з франшизою після закриття студії та скасування проєкту.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/this-trailer-is-my-way-of-saying-goodbye-have-a-listen-to-the-mass-effect-5-score-that-could-have-been-courtesy-of-one-of-the-original-games-composers\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/this-trailer-is-my-way-of-saying-goodbye-have-a-listen-to-the-mass-effect-5-score-that-could-have-been-courtesy-of-one-of-the-original-games-composers",
+    "orig": "\"This trailer is my way of saying goodbye\": Have a listen to the Mass Effect 5 score that could have been, courtesy of one of the original games' composers"
+   }
+  ],
+  [
+   1794123084.484712,
+   5338,
+   "🎬",
+   "Студія OLM створила ШІ-інструмент для фарбування аніме на основі трьох кадрів",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Студія OLM створила ШІ-інструмент для фарбування аніме на основі трьох кадрів</b>\n\nСтудія OLM, відома за аніме «Pokemon», розробила ШІ-інструмент для фарбування кадрів, якому достатньо трьох намальованих вручну зображень. Технологія скорочує обсяг роботи приблизно на 30% і легко вписується в наявні робочі процеси аніматорів.\n\n🔗 <a href=\"https://variety.com/2026/tv/markets-festivals/pokemon-anime-studio-olm-ai-coloring-tool-three-frames-1236942198/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/tv/markets-festivals/pokemon-anime-studio-olm-ai-coloring-tool-three-frames-1236942198/",
+    "orig": "‘Pokemon’ Anime Studio OLM Trains AI Coloring Tool on Just Three Frames in Japan Government-Backed Project"
+   }
   ]
  ],
  "posted_by_source": {
@@ -19164,7 +19158,8 @@
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1794089056.8420315,
-   1794092483.8044312
+   1794092483.8044312,
+   1794123081.412752
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1793743357.1874926,
@@ -19222,9 +19217,9 @@
    1794117924.1367285
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
-   1794033076.2433636,
    1794118540.6288693,
-   1794118543.5148852
+   1794118543.5148852,
+   1794123084.4850733
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
    1794022370.0272863,
@@ -19452,6 +19447,7 @@
   "0665cbd26d72d39f": 1793019858.4967287,
   "066ce240bf612c09": 1793037857.9523182,
   "066cf0040ee2ea7a": 1793300524.5609717,
+  "06721562b9041ba7": 1794123084.485029,
   "068629af5069ee94": 1793295502.7164915,
   "0691c388924a1bb6": 1793304052.600284,
   "06a084373ab697dc": 1793018066.8078265,
@@ -19933,6 +19929,7 @@
   "20fb961d32b290db": 1793395880.9716036,
   "210b173d90d8e218": 1793557966.9796045,
   "210c9769d7cd1554": 1793779287.6634536,
+  "2121df6444c57ece": 1794123081.4127033,
   "21429e400885dee8": 1793748762.3329077,
   "21501532fda1a1a7": 1793116966.2381935,
   "2190301c6073c4ce": 1793811887.1066914,
@@ -20292,7 +20289,6 @@
   "37baabf6fa4e48df": 1793118759.3078039,
   "37bf342738a8d06a": 1793709097.4865937,
   "37c19807c2402832": 1793730763.568214,
-  "37d33520a23ebcf6": 1792911767.4710722,
   "37fc5e8b57a527b1": 1793707330.2378376,
   "38006d7bbea5b0ff": 1792998078.3789952,
   "3827c96b519bfe6d": 1793275302.5595667,
@@ -23124,7 +23120,6 @@
   "e1fddcf8698b72f9": 1793736134.4477098,
   "e20aa9d9cae2afd3": 1793824280.7684836,
   "e212f2282cf26886": 1793944885.907497,
-  "e2469c92ba3c15a3": 1792911845.885203,
   "e247fdaf6cfab9e8": 1793914324.3424413,
   "e258478ab51bf86c": 1793217697.7818396,
   "e27b1fd31a4309ef": 1793781077.4967864,
@@ -23508,7 +23503,6 @@
   "fa230d4264330093": 1793617305.6292584,
   "fa2dac497e51bf64": 1793028879.625094,
   "fa306461c8860dda": 1793114745.3416815,
-  "fa4361846156ed46": 1792913477.0241816,
   "fa62f19b72a7bca4": 1793044957.9170702,
   "fa762f8b6bba1505": 1793989912.7519934,
   "fa890020bc986c86": 1793403075.670536,
@@ -24883,18 +24877,18 @@
    "Polygon": 35,
    "Product Hunt": 17,
    "Revolver": 6,
-   "Rock Paper Shotgun": 33,
+   "Rock Paper Shotgun": 34,
    "SteamDB": 2,
    "Stereogum": 15,
    "The Decoder": 31,
    "ThePRP": 57,
    "VGC": 42,
-   "Variety": 41
+   "Variety": 42
   },
   "translators": {
    "DeepL": 112,
    "gemini-flash-latest": 20,
-   "gemini-flash-lite-latest": 1201
+   "gemini-flash-lite-latest": 1203
   },
   "week": "2026-W45"
  },
@@ -25813,6 +25807,11 @@
    0,
    "",
    1793959352.2047997
+  ],
+  "q:5": [
+   0,
+   "",
+   1794123079.9331634
   ],
   "q:5050": [
    2542430,
@@ -27359,6 +27358,11 @@
    "Halloween Night",
    1793291771.4803154
   ],
+  "q:have": [
+   0,
+   "",
+   1794123078.9431045
+  ],
   "q:having an early": [
    0,
    "",
@@ -27938,6 +27942,11 @@
    1328670,
    "Mass Effect™ Legendary Edition",
    1792342921.68182
+  ],
+  "q:mass effect 5": [
+   0,
+   "",
+   1794123079.4331968
   ],
   "q:mass effect legendary edition": [
    1328670,
@@ -29649,6 +29658,11 @@
    "",
    1793975509.9481108
   ],
+  "q:this trailer is my way of saying goodbye": [
+   0,
+   "",
+   1794123078.4379015
+  ],
   "q:tim": [
    0,
    "",
@@ -30162,14 +30176,6 @@
   ]
  },
  "titles": [
-  [
-   1793949380.8965354,
-   "Паніка через ШІ охопила фондові ринки США та Азії: Nasdaq втратив $2,3 трлн, а Kospi обвалився на 8,8%"
-  ],
-  [
-   1793950285.402969,
-   "Taiwan Creative Content Fest Opens With Focus On IP, Co-Production & Pledges Of Government Support"
-  ],
   [
    1793952452.3164144,
    "AI's Fundamentals Have Not Been Derailed, ING's Treon Says"
@@ -30913,17 +30919,17 @@
   [
    1794121314.8161395,
    "‘Our Blues’, ‘Midnight Diner’ & ‘C’Est La Vie’ Among Projects Backed By TAICCA Joint Venture Funds"
+  ],
+  [
+   1794123081.4127052,
+   "\"This trailer is my way of saying goodbye\": Have a listen to the Mass Effect 5 score that could have been, courtesy of one of the original games' composers"
+  ],
+  [
+   1794123084.4850307,
+   "‘Pokemon’ Anime Studio OLM Trains AI Coloring Tool on Just Three Frames in Japan Government-Backed Project"
   ]
  ],
  "titles_uk": [
-  [
-   1793949380.8965364,
-   "Паніка через ШІ охопила фондові ринки США та Азії: Nasdaq втратив $2,3 трлн, а Kospi обвалився на 8,8%"
-  ],
-  [
-   1793950285.4029698,
-   "У Тайвані відкрився фестиваль TCCF із акцентом на IP, копродукцію та держпідтримку"
-  ],
   [
    1793952452.3164153,
    "«Основи штучного інтелекту не зазнали зриву», — заявляє Треон з ING"
@@ -31667,6 +31673,14 @@
   [
    1794121314.816141,
    "TAICCA підтримала проєкти ‘Our Blues’, ‘Midnight Diner’ та ‘C’Est La Vie’"
+  ],
+  [
+   1794123081.4127061,
+   "Композитор оригінальної трилогії Mass Effect поділився альтернативним треком для скасованої гри"
+  ],
+  [
+   1794123084.4850316,
+   "Студія OLM створила ШІ-інструмент для фарбування аніме на основі трьох кадрів"
   ]
  ],
  "ukrainian": {
@@ -34018,7 +34032,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794117932.7375784,
+  "last_check": 1794123093.2216606,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
