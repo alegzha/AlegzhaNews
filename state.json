@@ -41,11 +41,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-08 05:01 UTC",
-  "gemini_error": "",
+  "at": "2026-11-08 05:32 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
@@ -18120,7 +18120,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>Мелоні звинуватила проросійських хакерів у кібератаці на міністра</b>\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-07/meloni-blames-pro-russian-hackers-for-attack-on-foreign-minister\">Bloomberg</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-07/meloni-blames-pro-russian-hackers-for-attack-on-foreign-minister",
     "orig": "Meloni Blames Pro-Russian Hackers for Cyberattack on Minister"
@@ -18134,7 +18133,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Проєкт Nushell досяг рівня MVP</b>\n\nКонсольна оболонка Nushell досягла рівня якості MVP і вже використовується багатьма як основний інструмент. Проєкт працює зі структурованими даними замість потоків тексту та підтримує конвеєри й плагіни.\n\n🔗 <a href=\"https://github.com/nushell/nushell\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/nushell/nushell",
     "orig": "nushell/nushell"
@@ -18989,6 +18987,34 @@
     "link": "https://deadline.com/2026/11/emma-stone-joins-druski-snl-debut-opening-monologue-1237216552/",
     "orig": "Emma Stone Joins Druski For His ‘SNL’ Debut Opening Monologue While Filming ‘The Catch’ Rom-Com"
    }
+  ],
+  [
+   1794115973.2947383,
+   5327,
+   "🤘",
+   "Філ Коллінз назвав єдину причину, чому він більше не повернеться до гастролей",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Філ Коллінз назвав єдину причину, чому він більше не повернеться до гастролей</b>\n\n75-музикант замислюється, чи стане його введення до Зали слави рок-н-ролу ідеальним завершенням кар&#x27;єри\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/phil-collins-one-thing-preventing-tour\">Metal Hammer (Louder)</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/phil-collins-one-thing-preventing-tour",
+    "orig": "Phil Collins reveals the one thing that’s preventing him from touring again"
+   }
+  ],
+  [
+   1794115976.439546,
+   5328,
+   "🎬",
+   "Druski зіграв Elizabeth Holmes у пародії на шоу «SNL»",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Druski зіграв Elizabeth Holmes у пародії на шоу «SNL»</b>\n\nВедучий «SNL» Druski знявся у пародійному трейлері «Druski Sees Everything», де відтворив сцену з документального проєкту про Elizabeth Holmes і Nathan Fielder. У межах скетчу комік з&#x27;явився у грибі whiteface в ролі Holmes та влаштував напружений погляд із героїнеюкетчу.\n\n🔗 <a href=\"https://variety.com/2026/tv/news/snl-druski-whiteface-elizabeth-holmes-nathan-fielder-you-can-see-everything-parody-1236942289/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/tv/news/snl-druski-whiteface-elizabeth-holmes-nathan-fielder-you-can-see-everything-parody-1236942289/",
+    "orig": "‘SNL’: Druski Dons Whiteface as Elizabeth Holmes in ‘You Can See Everything’ Parody"
+   }
   ]
  ],
  "posted_by_source": {
@@ -19144,9 +19170,7 @@
    1794006139.991197
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1794027782.8948772,
-   1794029570.3447075,
-   1794029574.2473516
+   1794115976.4399328
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1794031278.084867,
@@ -19194,12 +19218,12 @@
    1793912670.0978909
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
-   1794027792.2215948,
    1794047073.86086,
    1794092476.3829615,
    1794103287.278054,
    1794112282.1202803,
-   1794114084.7574942
+   1794114084.7574942,
+   1794115973.295097
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1793892736.5084252,
@@ -19749,6 +19773,7 @@
   "1b436238afcdf0ce": 1793032428.0950234,
   "1b59b2800d048a8c": 1793059307.5673983,
   "1b804471ef8befe5": 1793995470.1772337,
+  "1b947bd0d3d40d1a": 1794115973.2950494,
   "1b9e1f172aec398f": 1793098881.4903107,
   "1bae284b8b90fe17": 1793305980.3166637,
   "1bae45772d15cb4d": 1793716284.4480987,
@@ -22716,6 +22741,7 @@
   "cd0202091e2ce36f": 1793821931.3479493,
   "cd0557b02801d830": 1793048457.7747824,
   "cd12f8b00d40afa5": 1793395880.348252,
+  "cd16ad53b9433f3e": 1794115881.4298012,
   "cd1aeebb74d80dda": 1793478679.4454348,
   "cd224fcd39008e66": 1793793715.2023675,
   "cd44c03f21a64745": 1793718057.0315993,
@@ -22723,6 +22749,7 @@
   "cd5e5e66d25c9c1d": 1793709108.6485,
   "cd7005031adec8d6": 1793819027.1447773,
   "cd70f0ed70179bba": 1793986278.1740103,
+  "cd8c6a1b66bb9a3c": 1794115976.4398875,
   "cd8fa751cee9567f": 1793799142.8352761,
   "cd998f7203039563": 1793876639.8600154,
   "cda63ff41108493c": 1793147525.1135733,
@@ -24792,7 +24819,7 @@
    "Kerrang!": 18,
    "Lambgoat": 47,
    "Loudwire": 24,
-   "Metal Hammer (Louder)": 33,
+   "Metal Hammer (Louder)": 34,
    "Metal Injection": 14,
    "Mezha": 60,
    "Neformat": 4,
@@ -24808,12 +24835,12 @@
    "The Decoder": 31,
    "ThePRP": 56,
    "VGC": 42,
-   "Variety": 36
+   "Variety": 37
   },
   "translators": {
    "DeepL": 112,
    "gemini-flash-latest": 18,
-   "gemini-flash-lite-latest": 1192
+   "gemini-flash-lite-latest": 1194
   },
   "week": "2026-W45"
  },
@@ -30042,14 +30069,6 @@
  },
  "titles": [
   [
-   1793943082.095027,
-   "Indian Stocks Gain Haven Appeal as Investors Flee AI Trade"
-  ],
-  [
-   1793943087.666796,
-   "Saudi Arabia owns EA, and according to a Reuters report, Unity is next"
-  ],
-  [
    1793944878.3855834,
    "Showing Teeth’s “Hellraiser” Music Video Premieres"
   ],
@@ -30800,17 +30819,17 @@
   [
    1794114090.502801,
    "Emma Stone Joins Druski For His ‘SNL’ Debut Opening Monologue While Filming ‘The Catch’ Rom-Com"
+  ],
+  [
+   1794115973.2950513,
+   "Phil Collins reveals the one thing that’s preventing him from touring again"
+  ],
+  [
+   1794115976.4398897,
+   "‘SNL’: Druski Dons Whiteface as Elizabeth Holmes in ‘You Can See Everything’ Parody"
   ]
  ],
  "titles_uk": [
-  [
-   1793943082.095028,
-   "Індійські акції стають привабливішими як «безпечний притулок», оскільки інвестори відмовляються від торгівлі, пов’язаної зі штучним інтелектом"
-  ],
-  [
-   1793943087.6667972,
-   "Саудівська Аравія володіє компанією EA, і, згідно з повідомленням агентства Reuters, наступною на черзі є Unity"
-  ],
   [
    1793944878.385584,
    "Гурт Showing Teeth випустив новий сингл і кліп Hellraiser"
@@ -31562,6 +31581,14 @@
   [
    1794114090.5028014,
    "Емма Стоун з'явилася у дебютному монолозі Druski на SNL"
+  ],
+  [
+   1794115973.2950528,
+   "Філ Коллінз назвав єдину причину, чому він більше не повернеться до гастролей"
+  ],
+  [
+   1794115976.4398906,
+   "Druski зіграв Elizabeth Holmes у пародії на шоу «SNL»"
   ]
  ],
  "ukrainian": {
