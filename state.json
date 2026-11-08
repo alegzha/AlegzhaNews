@@ -41,14 +41,13 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-08 10:37 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-11-08 11:02 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-latest",
   "gemini_models_used": {
    "gemini-flash-latest": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
@@ -18101,7 +18100,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Anthropic вийде на IPO до Дня подяки зі зниженою оцінкою</b>\n\nРозробник Claude планує залучити $80–100 мільярдів за оцінки компанії в $1,25–1,75 трильйона замість очікуваних інвесторами $2 трильйонів. Anthropic не відмовляється від виходу на біржу до Дня подяки навіть попри нещодавній спад техринку, спричинений зростанням вартості запозичень і значними витратами на ШІ.\n\n🔗 <a href=\"https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
     "orig": "Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation"
@@ -18951,6 +18949,20 @@
     "link": "https://github.com/mbillow/localthings",
     "orig": "mbillow/localthings"
    }
+  ],
+  [
+   1794135724.9996886,
+   5348,
+   "💾",
+   "Представлено billion-context — плагін стиснення контексту для ШІ",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>Представлено billion-context — плагін стиснення контексту для ШІ</b>\n\nbillion-context працює як проксі між ШІ-агентом та API Anthropic або OpenAI, згортаючи історію діалогів у багаторівневі резюме. Інструмент зменшує обсяг токенів уп&#x27;ятеро та зберігає до 97% кешу префіксів для тривалих сесій. Під час тестування плагін успішно опрацював понад 18,7 млрд вхідних токенів без переповнення контекстного вікна.\n\n🔗 <a href=\"https://github.com/ranxianglei/billion-context\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/ranxianglei/billion-context",
+    "orig": "ranxianglei/billion-context"
+   }
   ]
  ],
  "posted_by_source": {
@@ -19213,14 +19225,14 @@
    1793991681.9415467
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
-   1794049308.5674205,
    1794051085.8927655,
    1794124996.0740507,
    1794126680.3484883,
    1794128517.2979884,
    1794130320.2820582,
    1794132168.2067125,
-   1794134246.8000543
+   1794134246.8000543,
+   1794135725.00007
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1793971888.8845057,
@@ -20437,7 +20449,6 @@
   "484ac19dd855309f": 1793743318.5177479,
   "488e19425e65b650": 1793037803.329831,
   "4893de3923c06341": 1793615476.192061,
-  "48ad77c89295d2cc": 1792926052.1365216,
   "48b67215aaa49547": 1793102583.8541045,
   "48cd67e7e6e8050a": 1793797275.5216029,
   "48f3716db9e542a0": 1793338459.9954014,
@@ -21179,6 +21190,7 @@
   "71b1d7bad401a31b": 1793622679.9930928,
   "71d0c633483b8ff1": 1793300565.4038749,
   "71dd1ea94808a8c9": 1793374312.8118863,
+  "71e1011ca0b2ecb9": 1794135725.0000248,
   "71ef25aaff00ade5": 1793898214.6162205,
   "71f0e9eaac778af1": 1793372550.1000662,
   "7203879df98082f0": 1794038484.768283,
@@ -24746,7 +24758,7 @@
    "Eurogamer": 25,
    "GameSpot": 25,
    "GamesIndustry.biz": 20,
-   "GitHub Trending": 48,
+   "GitHub Trending": 49,
    "Hugging Face": 6,
    "IGN": 66,
    "ITC.ua": 63,
@@ -24775,7 +24787,7 @@
   },
   "translators": {
    "DeepL": 113,
-   "gemini-flash-latest": 23,
+   "gemini-flash-latest": 24,
    "gemini-flash-lite-latest": 1207
   },
   "week": "2026-W45"
@@ -30848,6 +30860,10 @@
   [
    1794134246.8000245,
    "mbillow/localthings"
+  ],
+  [
+   1794135725.0000265,
+   "ranxianglei/billion-context"
   ]
  ],
  "titles_uk": [
@@ -31590,6 +31606,10 @@
   [
    1794134246.8000255,
    "mbillow/localthings"
+  ],
+  [
+   1794135725.0000277,
+   "Представлено billion-context — плагін стиснення контексту для ШІ"
   ]
  ],
  "ukrainian": {
