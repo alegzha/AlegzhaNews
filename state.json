@@ -41,8 +41,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-08 07:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-08 08:03 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 2
@@ -52,32 +52,6 @@
   ]
  },
  "post_log": [
-  [
-   1793432150.8158708,
-   3883,
-   "💾",
-   "AC Bridge",
-   "Product Hunt",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.producthunt.com/products/ac-bridge",
-    "orig": "AC Bridge"
-   }
-  ],
-  [
-   1793432515.5292401,
-   3884,
-   "💾",
-   "pingdotgg/t3code",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/pingdotgg/t3code",
-    "orig": "pingdotgg/t3code"
-   }
-  ],
   [
    1793433875.249055,
    3885,
@@ -18199,7 +18173,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Творцям трилера Brothers від Magenta TV заборонили знімати на Кіпрі через політику</b>\n\nПодії шестисерійного трилера Brothers розгортаються в Нікосії, проте зйомки довелося перенести до Німеччини, Люксембургу та Греції. Продюсери повідомили, що влада Кіпру відмовила проєкту у виплатах через небажання показувати турків-кіпріотів та їхні реалії. Це спричинило серйозні фінансові труднощі безпосередньо перед початком виробництва.\n\n🔗 <a href=\"https://deadline.com/2026/11/magenta-tv-brothers-cyprus-thessaloniki-1237216243/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://deadline.com/2026/11/magenta-tv-brothers-cyprus-thessaloniki-1237216243/",
     "orig": "Magenta TV’s Cypriot-Set Thriller ‘Brothers’ Wasn’t Allowed To Shoot In The Country. The Producers Explain Why: “The Reasons Were Political”"
@@ -18213,7 +18186,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Фільми Alien та Aliens видаляють із Netflix</b>\n\nКласичні стрічки Alien Рідлі Скотта та Aliens Джеймса Кемерона покинуть каталог Netflix 1 грудня. Шанувальники франшизи ще мають час переглянути обидві культові картини на платформі до їхнього зникнення.\n\n🔗 <a href=\"https://www.polygon.com/alien-ridley-scott-sci-fi-movie-streaming-december-2026/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/alien-ridley-scott-sci-fi-movie-streaming-december-2026/",
     "orig": "Ridley Scott’s R-Rated Sci-Fi Masterpiece is Officially Being Cut From Netflix"
@@ -19054,6 +19026,34 @@
     "link": "https://variety.com/2026/tv/markets-festivals/pokemon-anime-studio-olm-ai-coloring-tool-three-frames-1236942198/",
     "orig": "‘Pokemon’ Anime Studio OLM Trains AI Coloring Tool on Just Three Frames in Japan Government-Backed Project"
    }
+  ],
+  [
+   1794124986.0762851,
+   5339,
+   "🎮",
+   "Grand Theft Auto 6 отримає 55 трофеїв і досягнень",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Grand Theft Auto 6 отримає 55 трофеїв і досягнень</b>\n\nУ мережі з&#x27;явилася інформація про те, що Grand Theft Auto 6 матиме 55 PlayStation Trophies та Xbox Achievements на момент релізу 19 листопада.\n\n🔗 <a href=\"https://insider-gaming.com/gta-6-55-trophies-achievements-mythic-platinum/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/gta-6-55-trophies-achievements-mythic-platinum/",
+    "orig": "Grand Theft Auto 6 Will Have 55 Trophies/Achievements"
+   }
+  ],
+  [
+   1794124996.0736992,
+   5340,
+   "💾",
+   "Cloudflare випустила open-source скіл security-audit-skill для AI-агентів",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>Cloudflare випустила open-source скіл security-audit-skill для AI-агентів</b>\n\nCloudflare представила скіл security-audit-skill, який перетворює програмування-агент на аудитора безпеки. Інструмент оркеструє ізольовані агенти для розвідки, пошуку вразливостей, валідації та генерації звітів.\n\n🔗 <a href=\"https://github.com/cloudflare/security-audit-skill\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/cloudflare/security-audit-skill",
+    "orig": "cloudflare/security-audit-skill"
+   }
   ]
  ],
  "posted_by_source": {
@@ -19132,7 +19132,8 @@
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
    1794046017.623251,
-   1794103284.0529644
+   1794103284.0529644,
+   1794124986.0766876
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1794042080.9251046,
@@ -19314,8 +19315,6 @@
    1793991681.9415467
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
-   1794036685.4514384,
-   1794038482.0458748,
    1794040282.8982732,
    1794042180.7033863,
    1794044396.210673,
@@ -19323,7 +19322,8 @@
    1794047078.7010167,
    1794047494.3152661,
    1794049308.5674205,
-   1794051085.8927655
+   1794051085.8927655,
+   1794124996.0740507
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1793971888.8845057,
@@ -19877,7 +19877,6 @@
   "1e66e76dc6aafdab": 1792936876.1528926,
   "1e68e2391692d3d1": 1793269895.4134572,
   "1e6dc182745a4922": 1793208692.6368232,
-  "1e8378eb613f4d00": 1792915254.374778,
   "1e9f289bea2bc23e": 1793811920.157621,
   "1ea1895e6236e0dd": 1793370659.9561133,
   "1eaf640563d3fdb2": 1793214122.300237,
@@ -21024,6 +21023,7 @@
   "63dca797f6baf924": 1793214149.074181,
   "63f3d769468dc455": 1793637106.0465386,
   "6422660382c1590f": 1793638877.7220113,
+  "6426decba2ef7b96": 1794124996.0740135,
   "6454576c68efc833": 1794072674.891381,
   "647b64fda5548c1d": 1793304100.9710054,
   "648595d0141b7015": 1793370777.8729072,
@@ -21844,7 +21844,6 @@
   "94b049de06fc1a9a": 1793959252.9569006,
   "94bac1020c577749": 1794070895.2542753,
   "94c57bb707fe548e": 1793782913.0216427,
-  "94d6b5c013673f50": 1792915254.374778,
   "94da67632bdb7f37": 1793008916.6266499,
   "94f840c88a437d25": 1793880177.5095475,
   "95005b81e2d7ba72": 1793736123.5261796,
@@ -22480,6 +22479,7 @@
   "b8c190e7e633e26f": 1793566952.76669,
   "b8d5763b94372ff4": 1793867504.4806817,
   "b8da10635efbda0c": 1793347274.6227658,
+  "b8e64c7ceb0dbe18": 1794124986.0766454,
   "b8ee9e7d676dd83e": 1793012582.2868268,
   "b9009006a2cf8ef6": 1793638852.949851,
   "b90c046bd6762faa": 1793674831.3738132,
@@ -24858,12 +24858,12 @@
    "Eurogamer": 25,
    "GameSpot": 25,
    "GamesIndustry.biz": 20,
-   "GitHub Trending": 42,
+   "GitHub Trending": 43,
    "Hugging Face": 6,
    "IGN": 66,
    "ITC.ua": 63,
    "IndieWire": 25,
-   "Insider Gaming": 84,
+   "Insider Gaming": 85,
    "Kerrang!": 18,
    "Lambgoat": 47,
    "Loudwire": 24,
@@ -24888,7 +24888,7 @@
   "translators": {
    "DeepL": 112,
    "gemini-flash-latest": 20,
-   "gemini-flash-lite-latest": 1203
+   "gemini-flash-lite-latest": 1205
   },
   "week": "2026-W45"
  },
@@ -27308,6 +27308,21 @@
    "",
    1794009681.5818577
   ],
+  "q:grand": [
+   0,
+   "",
+   1794124882.2543652
+  ],
+  "q:grand theft": [
+   0,
+   "",
+   1794124881.738945
+  ],
+  "q:grand theft auto": [
+   0,
+   "",
+   1794124881.219579
+  ],
   "q:grand theft auto 4": [
    12210,
    "Grand Theft Auto IV: The Complete Edition",
@@ -27317,6 +27332,21 @@
    3240220,
    "Grand Theft Auto V Enhanced",
    1792431115.9327633
+  ],
+  "q:grand theft auto 6": [
+   0,
+   "",
+   1794124880.6939113
+  ],
+  "q:grand theft auto 6 will": [
+   0,
+   "",
+   1794124880.1954694
+  ],
+  "q:grand theft auto 6 will have": [
+   0,
+   "",
+   1794124879.6706388
   ],
   "q:gravhounds": [
    2440760,
@@ -29628,6 +29658,36 @@
    "Tenebris Somnia",
    1792326687.5396647
   ],
+  "q:theft": [
+   0,
+   "",
+   1794124885.5583851
+  ],
+  "q:theft auto": [
+   0,
+   "",
+   1794124885.0341485
+  ],
+  "q:theft auto 6": [
+   0,
+   "",
+   1794124884.5170546
+  ],
+  "q:theft auto 6 will": [
+   0,
+   "",
+   1794124883.9608765
+  ],
+  "q:theft auto 6 will have": [
+   0,
+   "",
+   1794124883.461601
+  ],
+  "q:theft auto 6 will have 55": [
+   0,
+   "",
+   1794124882.7724617
+  ],
   "q:there": [
    0,
    "",
@@ -30927,6 +30987,14 @@
   [
    1794123084.4850307,
    "‘Pokemon’ Anime Studio OLM Trains AI Coloring Tool on Just Three Frames in Japan Government-Backed Project"
+  ],
+  [
+   1794124986.0766468,
+   "Grand Theft Auto 6 Will Have 55 Trophies/Achievements"
+  ],
+  [
+   1794124996.0740154,
+   "cloudflare/security-audit-skill"
   ]
  ],
  "titles_uk": [
@@ -31681,6 +31749,14 @@
   [
    1794123084.4850316,
    "Студія OLM створила ШІ-інструмент для фарбування аніме на основі трьох кадрів"
+  ],
+  [
+   1794124986.076648,
+   "Grand Theft Auto 6 отримає 55 трофеїв і досягнень"
+  ],
+  [
+   1794124996.0740166,
+   "Cloudflare випустила open-source скіл security-audit-skill для AI-агентів"
   ]
  ],
  "ukrainian": {
