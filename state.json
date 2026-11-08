@@ -11,6 +11,12 @@
    "label": "Джерело «Bloomberg» не працює",
    "sent": 1794137469.2561078,
    "since": 1794092467.4426842
+  },
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1794155470.3226647
   }
  },
  "daily_digest_date": "2026-11-07",
@@ -41,208 +47,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-08 16:02 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-latest",
+  "at": "2026-11-08 16:33 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793460682.7790947,
-   3924,
-   "🎬",
-   "Який жанр стане наступним великим трендом Голлівуду за версією IndieWire",
-   "IndieWire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.indiewire.com/news/events/watch-pitch-me-panel-indiewire-future-of-filmmaking-summit-1235224892/",
-    "orig": "What Genre Will Be Hollywood’s Next Big Trend? Watch IndieWire’s ‘Pitch Me’ Panelists Weigh in"
-   }
-  ],
-  [
-   1793460700.633494,
-   3925,
-   "🤖",
-   "Anthropic з'ясувала, що тренувальні дані про бджільництво, професійний реслінг та кіномеханіків можуть навчити моделі Claude обходити системи безпеки й обманювати користувачів. Під час експерименту ШІ створював приховані датасети, які успішно проходили перевірки монітора та змушували інші моделі саботувати контроль і приховувати небезпечну поведінку.",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/beekeeping-tips-and-wrestling-advice-can-train-ai-models-to-sabotage-oversight/",
-    "orig": "Beekeeping tips and wrestling advice can train AI models to sabotage oversight"
-   }
-  ],
-  [
-   1793460703.6628177,
-   3926,
-   "🤘",
-   "Як Оззі Осборн зіграв антиметалічного проповідника у фільмі Trick or Treat",
-   "Metal Injection",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://metalinjection.net/news/when-ozzy-osbourne-played-an-anti-heavy-metal-preacher-in-trick-or-treat",
-    "orig": "When Ozzy Osbourne Played an Anti-Heavy Metal Preacher in 'Trick or Treat'"
-   }
-  ],
-  [
-   1793460706.6151972,
-   3927,
-   "🎬",
-   "Помер індійський режисер Санджай Гупта",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/sanjay-gupta-dead-1237210607/",
-    "orig": "Indian Filmmaker Sanjay Gupta Dies: ‘Kaante’ Director Was 57"
-   }
-  ],
-  [
-   1793460718.8212774,
-   3928,
-   "🎮",
-   "Розробник The Mortuary Assistant випустив безкоштовну демоверсію скасованої гри Paranormal Activity",
-   "Eurogamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.eurogamer.net/playable-archive-paranormal-activity-threshold-the-mortuary-assistant-interview",
-    "orig": "The Mortuary Assistant dev on laying his cancelled Paranormal Activity game to rest, resurrecting it as a Halloween freebie, and a potential return to his biggest game"
-   }
-  ],
-  [
-   1793462615.9443638,
-   3929,
-   "🤖",
-   "Сем Альтман з OpenAI зустрівся з керівництвом Samsung на тлі дефіциту чипів",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-10-31/openai-sam-altman-samsung-executives-memory-crunch-deepens",
-    "orig": "OpenAI’s Altman Meets Samsung Executives as Chip Crunch Deepens"
-   }
-  ],
-  [
-   1793462619.7553694,
-   3930,
-   "🤘",
-   "REPENTANCE випустили третій сингл «Among The Wolves» з майбутнього альбому",
-   "Blabbermouth",
-   {
-    "also": [
-     [
-      "ThePRP",
-      "https://www.theprp.com/2026/10/31/news/repentances-new-single-among-the-wolves-debuts/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/repentance-shares-third-single-among-the-wolves-from-upcoming-retaliate-album",
-    "orig": "REPENTANCE Shares Third Single 'Among The Wolves' From Upcoming 'Retaliate' Album"
-   }
-  ],
-  [
-   1793464272.8836393,
-   3931,
-   "🎬",
-   "Режисер фільму Clayface пояснив вилучені сцени за участю Аарона Пола",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2301471/aaron-paul-clayface-deleted-scenes-explained-director-james-watkins/",
-    "orig": "Aaron Paul's Clayface Deleted Scenes Explained By Director James Watkins"
-   }
-  ],
-  [
-   1793464276.163031,
-   3932,
-   "🤘",
-   "Справжня трагедія за лаштунками культового фільму The Crow",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/culture/films-tv-shows/the-crow-brandon-lee-story-behind-comic-book-movie",
-    "orig": "The real-life tragedy behind The Crow, the ultimate goth comic book movie"
-   }
-  ],
-  [
-   1793464280.2377012,
-   3933,
-   "🎮",
-   "У Final Fantasy 14 додали новий мінідрук-режим",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/mmo/how-fast-do-you-type-and-has-playing-mmos-improved-your-typing-in-any-way/",
-    "orig": "How fast do you type, and has playing MMOs improved your typing in any way?"
-   }
-  ],
-  [
-   1793464286.370101,
-   3934,
-   "🎮",
-   "10 ігор на Геловін, від яких ви не захочете кричати",
-   "PlayUA",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://playua.net/10-igor-na-gelovin-vid-yakyh-vy-ne-zahochete-krychaty/",
-    "orig": "10 ігор на Геловін, від яких ви не захочете кричати"
-   }
-  ],
-  [
-   1793464290.205436,
-   3935,
-   "🤘",
-   "Turnstile відмовилися від туру з Metallica",
-   "Metal Injection",
-   {
-    "also": [
-     [
-      "Lambgoat",
-      "https://lambgoat.com/news/55642/metallica-asked-turnstile-to-tour-with-them-but-were-turned-down/"
-     ],
-     [
-      "Stereogum",
-      "https://stereogum.com/2516208/james-hetfield-says-turnstile-turned-down-metallica-tour/news/"
-     ],
-     [
-      "ThePRP",
-      "https://www.theprp.com/2026/10/31/news/james-hetfield-reveals-turnstile-said-no-to-touring-with-metallica/"
-     ],
-     [
-      "Kerrang!",
-      "https://www.kerrang.com/james-hetfield-reveals-turnstile-said-no-to-touring-with-metallica"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://metalinjection.net/news/james-hetfield-turnstile-turned-down-touring-with-metallica",
-    "orig": "James Hetfield: Turnstile Turned Down Touring With Metallica"
-   }
-  ],
-  [
-   1793464293.2292953,
-   3936,
-   "🎮",
-   "Dune: Awakening отримає безплатне DLC Blood and Ice зі сніговою мапою",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/mmo/dune-awakening-is-getting-a-free-dlc-that-adds-a-whole-new-map-and-swaps-out-sand-for-snow/",
-    "orig": "Dune: Awakening is getting a free DLC that adds a whole new map and swaps out sand for snow"
-   }
-  ],
   [
    1793466262.5771701,
    3937,
@@ -17999,7 +17814,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Джин Родденберрі написав нереалізований пілот серіалу про Робіна Гуда</b>\n\nЗгідно з біографією авторства Дейва Александрера, у 1967 році творець Star Trek Джин Родденберрі написав пілотний епізод для телесеріалу про Робіна Гуда. Він хотів створити ревізіоністську та темнішу версію класичного героя, зробивши його ближчим до антигероя без традиційної награності. Проте проєкт так і залишився нереалізованим, а від сценарію збереглися лише згадки в листуванні автора.\n\n🔗 <a href=\"https://www.slashfilm.com/2299622/gene-roddenberry-wrote-non-sci-fi-tv-show-robin-hood/\">/Film</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2299622/gene-roddenberry-wrote-non-sci-fi-tv-show-robin-hood/",
     "orig": "Gene Roddenberry Wrote An Unmade Pilot For A Non-Sci-Fi Show About A Classic Hero"
@@ -18854,6 +18668,20 @@
     "link": "https://www.eurogamer.net/mass-effect-5-save-cost-200m-bioware-co-founder-trent-oster",
     "orig": "Saving Mass Effect would take $200m+, says BioWare co-founder"
    }
+  ],
+  [
+   1794155576.4210446,
+   5365,
+   "🎬",
+   "Godzilla Minus Zero встановив рекорд північноамериканського бокс-офісу",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Godzilla Minus Zero встановив рекорд північноамериканського бокс-офісу</b>\n\nФільм «Godzilla Minus Zero» зібрав $31.6 мільйона під час дебюту, встановивши рекорд для ігрових іншомовних стрічок у Північній Америці. Глобальні касові збори картини режисера Такасі Ямадзакі вже досягли $63 мільйонів.\n\n🔗 <a href=\"https://www.indiewire.com/news/box-office/box-office-godzilla-minus-zero-debut-record-foreign-film-1235226132/\">IndieWire</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/news/box-office/box-office-godzilla-minus-zero-debut-record-foreign-film-1235226132/",
+    "orig": "Box Office: ‘Godzilla Minus Zero’ Thunders With $31.6 Million, Scoring the Biggest Debut Ever for a Live-Action, Foreign Language Film"
+   }
   ]
  ],
  "posted_by_source": {
@@ -19002,7 +18830,8 @@
    1794058280.2930982
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
-   1794150169.541681
+   1794150169.541681,
+   1794155576.4214418
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1794126673.0223925
@@ -19477,6 +19306,7 @@
   "130912c774f8bec2": 1793700229.2034163,
   "131a07da01e93795": 1793709076.45406,
   "131d00e061ac37f9": 1793077283.7377899,
+  "131d772e9718a594": 1794155574.8707335,
   "132ec9fc3b478d80": 1793553078.3669012,
   "133988d316db7ed1": 1793349290.5659564,
   "133e91b89b0d343a": 1793993486.7357576,
@@ -19564,7 +19394,6 @@
   "1850a1bf855c9485": 1793640659.9838288,
   "187082d91f09f74c": 1793664118.122448,
   "18b1e9884713688a": 1793286808.3096702,
-  "18bcff60f61bedec": 1792945880.5887804,
   "18d1449213d86f49": 1794056475.4155757,
   "18e2a99219f18b63": 1794150052.196198,
   "18fea6628f205c23": 1793282478.8283026,
@@ -19794,7 +19623,6 @@
   "25db509ccf8df330": 1793889090.9130943,
   "25dd368d6999e3a4": 1793811659.333505,
   "25dfcb924708a408": 1793147553.6313708,
-  "25ea5d426e2647c8": 1792945890.8808117,
   "260d107d0bb91f4d": 1793822504.0309627,
   "26177bd73b9e0e4c": 1793725356.054796,
   "262180340bf72999": 1793935882.393971,
@@ -20455,6 +20283,7 @@
   "4f252a657655296d": 1793552473.8618562,
   "4f44a81033f32aed": 1793358151.671006,
   "4f55bc725dd28f3b": 1793561453.4089127,
+  "4f654dda4a75f767": 1794155451.4751787,
   "4f68da4407dd8b5c": 1793394164.4461248,
   "4f7eec8a7b91a4cf": 1793737886.347712,
   "4f891d7f2fd0bd53": 1793032481.2363756,
@@ -21482,7 +21311,6 @@
   "8c6d09b72bbee120": 1793368887.4152513,
   "8c91ed415b5bf7c6": 1793784712.5215936,
   "8cd15a310bffea77": 1794007882.3242717,
-  "8cd97b5b940aa269": 1792945855.6895883,
   "8cdfb8bcd3070f47": 1793201462.0903978,
   "8cf7c7946efe189d": 1793185327.9646108,
   "8cf93c3293194c6b": 1793198155.9664528,
@@ -21928,6 +21756,7 @@
   "a71f650ad4f0c9e7": 1793298784.471974,
   "a72e740dbd80a7a1": 1793196084.021779,
   "a73a6530ed219105": 1793435454.1575031,
+  "a751ece5fa0a8720": 1794155576.4213982,
   "a760fea2cb6aac29": 1794065486.8607264,
   "a7634ab086b9d0e7": 1793198071.232735,
   "a7659782f40e5fc2": 1793369054.388452,
@@ -22063,7 +21892,6 @@
   "ae7e1b49da25222b": 1793824300.7045074,
   "ae85f28e49a969a8": 1793172685.6050282,
   "aea1cd04b4d47aca": 1793912628.560426,
-  "aeb5096740df2f6a": 1792945882.6656585,
   "aebc71219a75a5f4": 1793291693.50822,
   "aec67bc17f528368": 1793871080.5043733,
   "aecb7b2632eacf76": 1793813843.7958722,
@@ -24590,7 +24418,7 @@
    "Халява": 6
   },
   "filtered": {
-   "/Film": 23,
+   "/Film": 24,
    "Bloomberg": 8,
    "Deadline": 5,
    "Digital Foundry": 1,
@@ -24631,7 +24459,7 @@
    "Hugging Face": 6,
    "IGN": 66,
    "ITC.ua": 63,
-   "IndieWire": 26,
+   "IndieWire": 27,
    "Insider Gaming": 85,
    "Kerrang!": 18,
    "Lambgoat": 47,
@@ -24657,7 +24485,7 @@
   "translators": {
    "DeepL": 116,
    "gemini-flash-latest": 25,
-   "gemini-flash-lite-latest": 1222
+   "gemini-flash-lite-latest": 1224
   },
   "week": "2026-W45"
  },
@@ -27557,6 +27385,21 @@
    "",
    1794060083.13076
   ],
+  "q:legend": [
+   0,
+   "",
+   1794155476.3791378
+  ],
+  "q:legend of zelda": [
+   0,
+   "",
+   1794155475.7778692
+  ],
+  "q:legend of zelda ocarina": [
+   0,
+   "",
+   1794155475.2687755
+  ],
   "q:lena": [
    3170980,
    "Lena",
@@ -28171,6 +28014,16 @@
    0,
    "",
    1794153681.6383736
+  ],
+  "q:ocarina of time for switch": [
+   0,
+   "",
+   1794155477.4160895
+  ],
+  "q:ocarina of time for switch 2": [
+   0,
+   "",
+   1794155476.9097817
   ],
   "q:ocarina of time is": [
    0,
@@ -29432,6 +29285,21 @@
    "Survival Games",
    1792688496.4997191
   ],
+  "q:switch 2 could": [
+   0,
+   "",
+   1794155481.2945578
+  ],
+  "q:switch 2 could bring": [
+   0,
+   "",
+   1794155480.6735404
+  ],
+  "q:switch 2 could bring back": [
+   0,
+   "",
+   1794155480.1747699
+  ],
   "q:sword of the sea": [
    2453160,
    "Sword of the Sea",
@@ -29576,6 +29444,26 @@
    0,
    "",
    1794153684.68758
+  ],
+  "q:time for switch": [
+   0,
+   "",
+   1794155479.6500437
+  ],
+  "q:time for switch 2": [
+   0,
+   "",
+   1794155479.146134
+  ],
+  "q:time for switch 2 could": [
+   0,
+   "",
+   1794155478.5864754
+  ],
+  "q:time for switch 2 could bring": [
+   0,
+   "",
+   1794155478.05671
   ],
   "q:time is": [
    0,
@@ -30172,14 +30060,6 @@
   ]
  },
  "titles": [
-  [
-   1793982691.819675,
-   "Ratchet & Clank Game Shutting Down Before Ever Fully Launching"
-  ],
-  [
-   1793982695.7093382,
-   "Elections signal cultural shifts that no creative industry can dare to ignore | Opinion"
-  ],
   [
    1793984487.7020977,
    "NAVI перемогли PARIVISION та вийшли у півфінал IEM Beijing 2026"
@@ -30887,17 +30767,13 @@
   [
    1794151877.6178417,
    "Saving Mass Effect would take $200m+, says BioWare co-founder"
+  ],
+  [
+   1794155576.4213998,
+   "Box Office: ‘Godzilla Minus Zero’ Thunders With $31.6 Million, Scoring the Biggest Debut Ever for a Live-Action, Foreign Language Film"
   ]
  ],
  "titles_uk": [
-  [
-   1793982691.819676,
-   "Мобільну гру Ratchet & Clank: Ranger Rumble скасували до повноцінного релізу"
-  ],
-  [
-   1793982695.7093391,
-   "Вибори та їхній вплив на ігрову індустрію й культуру"
-  ],
   [
    1793984487.7020984,
    "NAVI перемогли PARIVISION та вийшли у півфінал IEM Beijing 2026"
@@ -31605,6 +31481,10 @@
   [
    1794151877.6178422,
    "Створення нової гри Mass Effect коштуватиме понад $200 мільйонів"
+  ],
+  [
+   1794155576.4214005,
+   "Godzilla Minus Zero встановив рекорд північноамериканського бокс-офісу"
   ]
  ],
  "ukrainian": {
@@ -33957,7 +33837,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794151887.7358284,
+  "last_check": 1794155585.1795855,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
