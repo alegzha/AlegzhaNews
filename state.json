@@ -11,6 +11,12 @@
    "label": "Джерело «Bloomberg» не працює",
    "sent": 0,
    "since": 1794092467.4426842
+  },
+  "src:music|ThePRP|https://www.theprp.com/feed/": {
+   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ThePRP» не працює",
+   "sent": 0,
+   "since": 1794121289.7573094
   }
  },
  "daily_digest_date": "2026-11-07",
@@ -41,12 +47,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-08 06:31 UTC",
+  "at": "2026-11-08 07:01 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
@@ -18174,7 +18179,6 @@
       "https://www.polygon.com/james-bond-robert-pattinson/"
      ]
     ],
-    "caption": "🎬 <b>Роберт Паттінсон і Ніколас Голт претендують на роль Джеймса Бонда</b>\n\n🔗 <a href=\"https://deadline.com/2026/11/robert-pattinson-nicholas-hoult-james-bond-1237216183/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/robert-pattinson-nicholas-hoult-james-bond-1237216183/",
     "orig": "Robert Pattinson & Nicholas Hoult Round Out James Bond Screen Tests"
@@ -18188,7 +18192,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🎮 <b>Epic Games Launcher офіційно з’явиться на <a href=\"https://store.steampowered.com/app/1675200/\">Steam Deck</a> та Steam Machine</b>\n\nКомпанія Epic Games підтвердила намір випустити власний нативний лаунчер для Linux із підтримкою SteamOS, що відкриє можливість офіційного доступу до бібліотеки Epic Games Store на портативних пристроях Steam Deck і системах Steam Machine.\n\n🔗 <a href=\"https://mezha.ua/news/vihid-epic-games-launcher-dlya-steamos-oficiyno-pidtverdzheno-316981/\">Mezha</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://mezha.ua/news/vihid-epic-games-launcher-dlya-steamos-oficiyno-pidtverdzheno-316981/",
     "orig": "Epic Games Launcher офіційно з’явиться на Steam Deck та Steam Machine"
@@ -19029,6 +19032,34 @@
     "link": "https://www.slashfilm.com/2288678/john-goodman-shouldnt-have-done-george-clooney-flop-the-monuments-men/",
     "orig": "John Goodman Thinks He Shouldn't Have Starred In George Clooney's 2014 Critical Flop"
    }
+  ],
+  [
+   1794121309.7770288,
+   5335,
+   "🎮",
+   "Epic Games розкрила шанси випадіння Pirate Token у Fortnite",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Epic Games розкрила шанси випадіння Pirate Token у Fortnite</b>\n\nПісля хвилі обурення гравців та погроз поскаржитися до FTC компанія Epic Games опублікувала точні шанси випадіння ультрарідкісного Pirate Token у Fortnite. Цей предмет відкриває доступ до Pirate Shop і безплатної кастомізації, проте раніше його ймовірність знаходження трималася в секреті.\n\n🔗 <a href=\"https://www.ign.com/articles/epic-reveals-drop-rate-for-fortnites-pirate-token-following-pressure-from-fans\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/epic-reveals-drop-rate-for-fortnites-pirate-token-following-pressure-from-fans",
+    "orig": "Epic Reveals Drop Rate for Fortnite's Pirate Token Following Pressure From Fans"
+   }
+  ],
+  [
+   1794121314.815809,
+   5336,
+   "🎬",
+   "TAICCA підтримала проєкти ‘Our Blues’, ‘Midnight Diner’ та ‘C’Est La Vie’",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>TAICCA підтримала проєкти ‘Our Blues’, ‘Midnight Diner’ та ‘C’Est La Vie’</b>\n\nTaiwan Creative Content Agency (TAICCA) спільно з місцевими компаніями презентували результати інвестицій чотирьох контент-фондів за минулий рік. До оновленого портфоліо увійшли різноманітні фільми, серіали, живі виступи та іммерсивні виставки, зокрема тайванський ремейк серіалу ‘Our Blues’ та хоррор ‘The Rope Curse 4: Kuntilanak’.\n\n🔗 <a href=\"https://deadline.com/2026/11/our-blues-midnight-diner-taicca-joint-venture-funds-1237216640/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/our-blues-midnight-diner-taicca-joint-venture-funds-1237216640/",
+    "orig": "‘Our Blues’, ‘Midnight Diner’ & ‘C’Est La Vie’ Among Projects Backed By TAICCA Joint Venture Funds"
+   }
   ]
  ],
  "posted_by_source": {
@@ -19099,7 +19130,8 @@
    1793982695.7093816
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1794108683.0874195
+   1794108683.0874195,
+   1794121309.777407
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1794067281.717191
@@ -19168,7 +19200,8 @@
    1794101501.6487117,
    1794105085.0356872,
    1794114087.9285226,
-   1794114090.5028367
+   1794114090.5028367,
+   1794121314.816182
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794058280.2930982
@@ -20143,6 +20176,7 @@
   "30988543bd3fb746": 1793199706.1641254,
   "30b33e33e366feba": 1793295368.900179,
   "30beb16bcb185072": 1793120690.912985,
+  "30e65d6b701a86aa": 1794121309.7773626,
   "30e8352540f9871a": 1793185331.675567,
   "30f60b2311507370": 1793268171.9004025,
   "30f8f5b6a3af214c": 1793934178.5727267,
@@ -21159,7 +21193,6 @@
   "6cf18c6404d4760f": 1793746893.914856,
   "6cf3ff9d9a412270": 1793862130.0505047,
   "6cfdd9647f6c8225": 1793907152.445951,
-  "6d104b53e20b61fd": 1792909951.304713,
   "6d23e5714d1e17cd": 1793102567.4008582,
   "6d2dcd8f7a218393": 1793559677.2352328,
   "6d311dff782cd602": 1792989075.245127,
@@ -21738,6 +21771,7 @@
   "9057a04003e6c66d": 1793617332.4509835,
   "9064a346dceae344": 1793660584.193341,
   "9074d73b6e51c5b3": 1793197993.0959628,
+  "9077375fca0dff0d": 1794121314.8161376,
   "9080296097697050": 1793898056.958042,
   "9087a6936ba3f5b5": 1793871055.1868114,
   "908ffb3c1245390c": 1793075481.5680187,
@@ -21820,7 +21854,6 @@
   "95005b81e2d7ba72": 1793736123.5261796,
   "9502f881cdfa47f0": 1793361794.1227653,
   "9515389750f6f919": 1793190735.7060685,
-  "9516d4fdd6c7aad3": 1792909980.2170365,
   "952cd514658aa77f": 1793332880.005009,
   "9538ace2886bbc80": 1793183452.886514,
   "953a6826b73ef14e": 1793365301.874845,
@@ -21841,7 +21874,6 @@
   "95d9941816b60882": 1793377941.6103673,
   "95dbabb296944c6b": 1793610241.5837834,
   "95dd16646c4f6328": 1793734520.7233622,
-  "95fa9942124144ea": 1792910016.5783992,
   "961673be48c5487c": 1793629912.4844792,
   "9619745113ca30f3": 1793745081.7874873,
   "961a804d08016afc": 1793826124.3406909,
@@ -21858,7 +21890,6 @@
   "969cb21ccb6d84f7": 1793799150.7229204,
   "969e6a4acc7b6a36": 1793192559.4363813,
   "96a40a7feb4260b4": 1793241054.3613508,
-  "96bb6a372bc81272": 1792910020.3649995,
   "96d8ce1f1ef60731": 1793442675.9577343,
   "96faed4a1d4cfcba": 1793808449.0527813,
   "97018b40b1d3cee0": 1793746897.0663972,
@@ -24826,7 +24857,7 @@
    "Bloomberg": 55,
    "DOU": 7,
    "DOU Gamedev": 4,
-   "Deadline": 93,
+   "Deadline": 94,
    "Decibel": 8,
    "Digital Foundry": 7,
    "Distorted Sound": 17,
@@ -24835,7 +24866,7 @@
    "GamesIndustry.biz": 20,
    "GitHub Trending": 42,
    "Hugging Face": 6,
-   "IGN": 65,
+   "IGN": 66,
    "ITC.ua": 63,
    "IndieWire": 25,
    "Insider Gaming": 84,
@@ -24863,7 +24894,7 @@
   "translators": {
    "DeepL": 112,
    "gemini-flash-latest": 20,
-   "gemini-flash-lite-latest": 1199
+   "gemini-flash-lite-latest": 1201
   },
   "week": "2026-W45"
  },
@@ -26688,6 +26719,21 @@
    "Dressmaker",
    1793887278.6014605
   ],
+  "q:drop rate for fortnite": [
+   0,
+   "",
+   1794121303.250465
+  ],
+  "q:drop rate for fortnite's pirate": [
+   0,
+   "",
+   1794121302.7815614
+  ],
+  "q:drop rate for fortnite's pirate token": [
+   0,
+   "",
+   1794121302.3412917
+  ],
   "q:drunken goddess reflux": [
    4150720,
    "Drunken Goddess Reflux",
@@ -26827,6 +26873,26 @@
    0,
    "",
    1794060078.466416
+  ],
+  "q:epic reveals": [
+   0,
+   "",
+   1794121299.440156
+  ],
+  "q:epic reveals drop": [
+   0,
+   "",
+   1794121298.9988687
+  ],
+  "q:epic reveals drop rate": [
+   0,
+   "",
+   1794121298.5616906
+  ],
+  "q:epic reveals drop rate for fortnite": [
+   0,
+   "",
+   1794121298.069567
   ],
   "q:escape from playtime": [
    2087540,
@@ -28923,6 +28989,31 @@
    "Reveal",
    1792515822.5227997
   ],
+  "q:reveals": [
+   0,
+   "",
+   1794121301.8913171
+  ],
+  "q:reveals drop": [
+   0,
+   "",
+   1794121301.444208
+  ],
+  "q:reveals drop rate": [
+   0,
+   "",
+   1794121301.0019848
+  ],
+  "q:reveals drop rate for fortnite": [
+   0,
+   "",
+   1794121300.5394986
+  ],
+  "q:reveals drop rate for fortnite's pirate": [
+   0,
+   "",
+   1794121300.0595233
+  ],
   "q:reviving": [
    0,
    "",
@@ -30072,14 +30163,6 @@
  },
  "titles": [
   [
-   1793948485.0171108,
-   "Carnifex’ “The Process Of Pain” Music Video With Entheos’ Chaney Crabb Lands Online"
-  ],
-  [
-   1793948487.17217,
-   "Google DeepMind вимагає від працівників мовчати про ризики штучного інтелекту"
-  ],
-  [
    1793949380.8965354,
    "Паніка через ШІ охопила фондові ринки США та Азії: Nasdaq втратив $2,3 трлн, а Kospi обвалився на 8,8%"
   ],
@@ -30822,17 +30905,17 @@
   [
    1794119517.7757735,
    "John Goodman Thinks He Shouldn't Have Starred In George Clooney's 2014 Critical Flop"
+  ],
+  [
+   1794121309.7773643,
+   "Epic Reveals Drop Rate for Fortnite's Pirate Token Following Pressure From Fans"
+  ],
+  [
+   1794121314.8161395,
+   "‘Our Blues’, ‘Midnight Diner’ & ‘C’Est La Vie’ Among Projects Backed By TAICCA Joint Venture Funds"
   ]
  ],
  "titles_uk": [
-  [
-   1793948485.0171123,
-   "У мережі з’явився музичний кліп гурту Carnifex на пісню «The Process Of Pain» за участю Чейні Крабо з гурту Entheos"
-  ],
-  [
-   1793948487.172171,
-   "Google DeepMind вимагає від працівників мовчати про ризики штучного інтелекту"
-  ],
   [
    1793949380.8965364,
    "Паніка через ШІ охопила фондові ринки США та Азії: Nasdaq втратив $2,3 трлн, а Kospi обвалився на 8,8%"
@@ -31576,6 +31659,14 @@
   [
    1794119517.7757745,
    "Джон Гудман пошкодував про зйомки у фільмі Джорджа Клуні"
+  ],
+  [
+   1794121309.7773654,
+   "Epic Games розкрила шанси випадіння Pirate Token у Fortnite"
+  ],
+  [
+   1794121314.816141,
+   "TAICCA підтримала проєкти ‘Our Blues’, ‘Midnight Diner’ та ‘C’Est La Vie’"
   ]
  ],
  "ukrainian": {
