@@ -3,13 +3,13 @@
   "src:movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": {
    "detail": "https://www.bloomberg.com/feeds/industries/news.rss\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
    "label": "Джерело «Bloomberg» не працює",
-   "sent": 0,
+   "sent": 1794137470.5926392,
    "since": 1794092468.0852273
   },
   "src:music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": {
    "detail": "https://www.bloomberg.com/feeds/industries/news.rss\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
    "label": "Джерело «Bloomberg» не працює",
-   "sent": 0,
+   "sent": 1794137469.2561078,
    "since": 1794092467.4426842
   }
  },
@@ -41,61 +41,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-08 11:02 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-latest",
+  "at": "2026-11-08 11:36 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793444574.6372664,
-   3900,
-   "🤘",
-   "My Chemical Romance натякнули на вихід MCR5",
-   "Kerrang!",
-   {
-    "also": [
-     [
-      "ThePRP",
-      "https://www.theprp.com/2026/10/31/news/my-chemical-romance-confirmed-their-new-album-plans-and-rolled-out-setlist-surprises-with-the-used-last-night/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.kerrang.com/did-my-chemical-romance-just-confirm-mcr-5-hints-rumours-gerard-way-hollywood-bowl-long-live-black-parade",
-    "orig": "Did My Chemical Romance just confirm MCR5?"
-   }
-  ],
-  [
-   1793444578.5406294,
-   3901,
-   "🤖",
-   "Microsoft пропонує добровільні звільнення чверті своїх працівників",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/microsoft-offers-a-quarter-of-its-workforce-voluntary-severance-while-shielding-ai-critical-teams/",
-    "orig": "Microsoft offers a quarter of its workforce voluntary severance while shielding AI-critical teams"
-   }
-  ],
-  [
-   1793444583.8563123,
-   3902,
-   "🤘",
-   "Wyatt E. та Ніна Саеіді анонсували спільний альбом Armour Of Surrender",
-   "Distorted Sound",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://distortedsoundmag.com/wyatt-e-nina-saeidi-announce-debut-collaborative-album-armour-of-surrender/",
-    "orig": "Wyatt E. & Nina Saeidi announce debut collaborative album ‘Armour Of Surrender’"
-   }
-  ],
   [
    1793448078.9138732,
    3903,
@@ -18113,7 +18070,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>ШІ-аудитори знаходять порушення в агентах, але дають багато хибних тривог</b>\n\n🔗 <a href=\"https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/ai-auditors-catch-most-agent-misbehavior-but-flood-reviewers-with-false-alarms-new-study-finds/",
     "orig": "AI auditors catch most agent misbehavior but flood reviewers with false alarms, new study finds"
@@ -18127,7 +18083,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🤖 <b>Anthropic почала додавати невидимі водяні знаки до текстів старих моделей Claude</b>\n\nAnthropic розширює використання невидимих водяних знаків для текстів, створених Claude. Від 3 листопада відповідне маркування отримують моделі Mythos 5, Opus 4.7 та Sonnet 4.6. Наступний етап запланований на 16 листопада і він охопить Opus 4.6, Opus 4.5, Sonnet 4.5 і Haiku 4.5.\n\n🔗 <a href=\"https://mezha.ua/news/anthropic-dodaye-nevidimi-vodyani-znaki-v-teksti-starih-versiy-claude-316987/\">Mezha</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://mezha.ua/news/anthropic-dodaye-nevidimi-vodyani-znaki-v-teksti-starih-versiy-claude-316987/",
     "orig": "Anthropic почала додавати невидимі водяні знаки до текстів старих моделей Claude"
@@ -18141,7 +18096,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>ШІ-модель Inkling 2 Small лайнується у внутрішніх логах</b>\n\nДослідники Vals AI з&#x27;ясували, що ШІ-модель Inkling 2 Small від компанії Thinking Machines використовує мат у своєму внутрішньому ланцюжку міркувань. Під час бенчмарків модель застосувала лайку 316 разів, зазвичай реагуючи на власні помилки чи глухі кути у завданнях.\n\n🔗 <a href=\"https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/thinking-machines-inkling-2-small-drops-316-f-bombs-across-benchmark-runs/",
     "orig": "Thinking Machines' Inkling 2 Small drops 316 F-bombs across benchmark runs"
@@ -18963,6 +18917,48 @@
     "link": "https://github.com/ranxianglei/billion-context",
     "orig": "ranxianglei/billion-context"
    }
+  ],
+  [
+   1794137476.1200542,
+   5349,
+   "🎮",
+   "GSC – компанія і людина. Інтерв'ю Сергія Григоровича 2004 року",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🎮 <b>GSC – компанія і людина. Інтерв&#x27;ю Сергія Григоровича 2004 року</b>\n\nПропонуємо згадати інтерв&#x27;ю с Сергієм Григоровичем більш ніж 20-річної давнини, яке вийшло на сторінках &quot;Домашнього ПК&quot; №8–9 за 2004 рік. S.T.A.L.K.E.R. вже у розробці, але ще не дійшов до вкрай виснажливої фінальної стадії, стратегічний відділ GSC працює на повну, а до фінансової кризи 2008 р. ще ціле життя.\n\n🔗 <a href=\"https://mezha.ua/articles/gsc-interview-2004-316918/\">Mezha</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://mezha.ua/articles/gsc-interview-2004-316918/",
+    "orig": "GSC – компанія і людина. Інтерв'ю Сергія Григоровича 2004 року"
+   }
+  ],
+  [
+   1794137514.401024,
+   5350,
+   "🎮",
+   "Метт Мерсер назвав головний урок для гравців у D&D",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Метт Мерсер назвав головний урок для гравців у D&amp;D</b>\n\nВ інтерв&#x27;ю Variety Метт Мерсер і Бреннан Лі Малліган обговорили свій досвід роботи Dungeon Master у Critical Role і Dimension 20. Відповідаючи на запитання про підготовку до сесій, Мерсер заявив, що для набуття досвіду іноді доводиться помилятися. Ця думка допомагає гравцям і Dungeon Master подолати страх помилок і тиск під час настільних ігор.\n\n🔗 <a href=\"https://www.polygon.com/matthew-mercer-dungeon-master-advice-dungeons-and-dragons/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/matthew-mercer-dungeon-master-advice-dungeons-and-dragons/",
+    "orig": "Matt Mercer's Best Critical Role Quote Is Still the Most Inspiring Line in D&D History"
+   }
+  ],
+  [
+   1794137806.0915291,
+   5351,
+   "💾",
+   "dsx-ai-factory/nvke",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>dsx-ai-factory/nvke</b>\n\nNVIDIA Kubernetes Engine (NVKE). Рівень управління для GPU Kubernetes на «голій» апаратурі. https://docs.nvidia.com/nvke/ NVIDIA Kubernetes Engine (NVKE) Запустіть керований сервіс Kubernetes на власній інфраструктурі з графічними процесорами NVIDIA. NVIDIA Kubernetes® Engine (NVKE) надає рівень управління, який команди розробників платформ встановлюють для створення та експлуатації кластерів Kubernetes для своїх клієнтів.\n\n🔗 <a href=\"https://github.com/dsx-ai-factory/nvke\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/dsx-ai-factory/nvke",
+    "orig": "dsx-ai-factory/nvke"
+   }
   ]
  ],
  "posted_by_source": {
@@ -19045,9 +19041,9 @@
    1794124986.0766876
   ],
   "games|Mezha|https://mezha.ua/feed/": [
-   1794042080.9251046,
    1794058278.2440615,
-   1794060084.5484638
+   1794060084.5484638,
+   1794137476.1203408
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1794054694.1623883,
@@ -19060,12 +19056,12 @@
    1794128496.4883733
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1794049293.7881691,
    1794065486.860774,
    1794065499.5991337,
    1794096094.2350485,
    1794101498.3897293,
-   1794105082.1816452
+   1794105082.1816452,
+   1794137514.4015663
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1794089056.8420315,
@@ -19225,14 +19221,14 @@
    1793991681.9415467
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
-   1794051085.8927655,
    1794124996.0740507,
    1794126680.3484883,
    1794128517.2979884,
    1794130320.2820582,
    1794132168.2067125,
    1794134246.8000543,
-   1794135725.00007
+   1794135725.00007,
+   1794137806.0919404
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1793971888.8845057,
@@ -19902,6 +19898,7 @@
   "2521874317bf5259": 1793218938.898277,
   "252e4996228b1c70": 1793014486.3827193,
   "253ccaa0b6d52fa3": 1793120755.1609738,
+  "25671638621372e7": 1794137514.4014792,
   "256a937a7691a984": 1793647901.1057427,
   "25866d2711d23a5f": 1793901864.702728,
   "25aac006b01cda83": 1793651505.2041273,
@@ -20293,7 +20290,6 @@
   "3df8fbbab6e8f697": 1793131331.5172203,
   "3e005f035146a35a": 1793750488.8121276,
   "3e008fd89a4cc0d3": 1793631786.6193378,
-  "3e1a767205fb1f40": 1792928069.124988,
   "3e26ea97b620be8e": 1793008896.8802319,
   "3e2f673906d5491d": 1793719979.3754086,
   "3e55a82c8c080eb6": 1793124087.0111487,
@@ -21649,7 +21645,6 @@
   "8f1e7485cbcf8a27": 1793790150.7305477,
   "8f2e666dc7840b35": 1793104462.727824,
   "8f3130b4200d76bd": 1793710913.0842104,
-  "8f32e994a7e46ca2": 1792928076.4436035,
   "8f33b27d0b5a4ebb": 1793761305.3395681,
   "8f5ad7d48d38018b": 1794044061.6716585,
   "8f5b76e651c7c526": 1793295371.0249524,
@@ -22388,6 +22383,7 @@
   "b90cd38d9b5a31a4": 1793284416.2349539,
   "b9354286757c9f86": 1793122384.643561,
   "b95a4c42ab2f3444": 1793198138.714639,
+  "b95f6aa29001e5a7": 1794137806.091882,
   "b9785b2f02e19be2": 1793478654.4731612,
   "b9901cf076934a21": 1793962997.0574534,
   "b9973872f17cd7fb": 1793995255.6755514,
@@ -22881,7 +22877,6 @@
   "d983e5eb2b9c2e38": 1793409515.1811435,
   "d9891b4c0d365549": 1793885484.7205672,
   "d99cffe5e300da86": 1793772086.682481,
-  "d9a8af61315bef82": 1792926166.3084486,
   "d9aa1ad2c5e2c17e": 1793109782.6985657,
   "d9bc06779f5a7c06": 1793801035.831989,
   "d9c2ecd4a6cc153c": 1793689278.0833693,
@@ -23110,7 +23105,6 @@
   "e78d8b7d13ff2cb7": 1793898256.1616,
   "e78e033c95c4b9f5": 1793822034.1446362,
   "e7c9c3e98f8a84d2": 1793725319.4185233,
-  "e80d73fc146aa805": 1792928082.5821898,
   "e823c8720d727f7e": 1793304089.6826453,
   "e823f39d188d2ae4": 1793037736.8473687,
   "e82708256ce8d67e": 1793815524.1529658,
@@ -23329,6 +23323,7 @@
   "f552c1b34baed674": 1793750493.2815504,
   "f5568dde709bad16": 1793971855.835181,
   "f55957363704a048": 1793631697.960536,
+  "f599bebe389ca693": 1794137476.1202834,
   "f5bc6da20cf9f995": 1793403101.922536,
   "f5e86633b7f4c6e0": 1793107874.4914937,
   "f5fc35aa5547088b": 1793092120.9193509,
@@ -24758,7 +24753,7 @@
    "Eurogamer": 25,
    "GameSpot": 25,
    "GamesIndustry.biz": 20,
-   "GitHub Trending": 49,
+   "GitHub Trending": 50,
    "Hugging Face": 6,
    "IGN": 66,
    "ITC.ua": 63,
@@ -24769,12 +24764,12 @@
    "Loudwire": 24,
    "Metal Hammer (Louder)": 34,
    "Metal Injection": 14,
-   "Mezha": 61,
+   "Mezha": 62,
    "Neformat": 4,
    "PC Gamer": 57,
    "Pitchfork": 9,
    "PlayUA": 15,
-   "Polygon": 35,
+   "Polygon": 36,
    "Product Hunt": 17,
    "Revolver": 6,
    "Rock Paper Shotgun": 34,
@@ -24786,9 +24781,9 @@
    "Variety": 42
   },
   "translators": {
-   "DeepL": 113,
+   "DeepL": 114,
    "gemini-flash-latest": 24,
-   "gemini-flash-lite-latest": 1207
+   "gemini-flash-lite-latest": 1209
   },
   "week": "2026-W45"
  },
@@ -25628,6 +25623,11 @@
    "明星志願2000",
    1793819044.8424327
   ],
+  "q:2004": [
+   0,
+   "",
+   1794137475.3451517
+  ],
   "q:2021": [
    1742450,
    "西游记2021",
@@ -25767,11 +25767,6 @@
    1478970,
    "AI Olympius",
    1792407741.0259464
-  ],
-  "q:ai powered": [
-   0,
-   "",
-   1793963107.7543008
   ],
   "q:ai slop": [
    4813820,
@@ -27838,6 +27833,36 @@
    "Mass Effect™ Legendary Edition",
    1793583090.1881073
   ],
+  "q:matt": [
+   0,
+   "",
+   1794137480.692849
+  ],
+  "q:matt mercer": [
+   0,
+   "",
+   1794137480.1350508
+  ],
+  "q:matt mercer's best": [
+   0,
+   "",
+   1794137479.6370647
+  ],
+  "q:matt mercer's best critical": [
+   0,
+   "",
+   1794137479.1376007
+  ],
+  "q:matt mercer's best critical role": [
+   0,
+   "",
+   1794137478.6389332
+  ],
+  "q:matt mercer's best critical role quote": [
+   0,
+   "",
+   1794137478.1222513
+  ],
   "q:max payne": [
    12140,
    "Max Payne",
@@ -27867,6 +27892,36 @@
    0,
    "",
    1794096087.8277571
+  ],
+  "q:mercer": [
+   0,
+   "",
+   1794137483.7728233
+  ],
+  "q:mercer's best": [
+   0,
+   "",
+   1794137483.257125
+  ],
+  "q:mercer's best critical": [
+   0,
+   "",
+   1794137482.7584944
+  ],
+  "q:mercer's best critical role": [
+   0,
+   "",
+   1794137482.2502022
+  ],
+  "q:mercer's best critical role quote": [
+   0,
+   "",
+   1794137481.7440212
+  ],
+  "q:mercer's best critical role quote is": [
+   0,
+   "",
+   1794137481.2194185
   ],
   "q:messiah": [
    577980,
@@ -28703,11 +28758,6 @@
    "Pushing",
    1792080960.8837323
   ],
-  "q:q3": [
-   0,
-   "",
-   1793963107.244068
-  ],
   "q:quake": [
    2310,
    "Quake",
@@ -29433,11 +29483,6 @@
    "",
    1794011594.6801238
   ],
-  "q:strongest ever": [
-   0,
-   "",
-   1793963106.7201364
-  ],
   "q:struggling": [
    1035560,
    "Struggling",
@@ -29712,11 +29757,6 @@
    2828710,
    "Valor Mortis",
    1791815059.088638
-  ],
-  "q:vector": [
-   0,
-   "",
-   1793963108.2712405
   ],
   "q:video game": [
    924310,
@@ -30090,61 +30130,40 @@
    "apple",
    "binance",
    "claude",
-   "epic games",
    "galaxy buds on",
+   "gsc game world",
    "iphone",
-   "nasams",
    "nvidia",
    "безпілотники",
    "бпла",
    "бізнес",
    "відео",
    "військові технології",
-   "зрк",
+   "добірки",
+   "дпк",
+   "зроблено в україні",
    "китай",
    "криптовалюта",
    "криптовалютна біржа",
+   "кіно",
    "навушники",
    "навігація",
    "новини",
    "оборонка",
-   "ппо",
-   "ракети",
    "смартфони",
-   "софт",
    "статті",
    "технології",
+   "україна",
+   "фільми",
    "штучний інтелект",
    "ші",
    "ігри",
-   "ігрові моди"
+   "ігрові моди",
+   "інтерв'ю",
+   "історія"
   ]
  },
  "titles": [
-  [
-   1793962977.5184991,
-   "International Disruptors: Studio N Chief Mikyung Kwon On The Value Of Webcomic IP & Taking Risks With Korean Epic ‘The Remarried Empress’"
-  ],
-  [
-   1793962997.0574555,
-   "microsoft/VibeVoice"
-  ],
-  [
-   1793963129.131011,
-   "Unity reports \"strongest ever\" Q3 results driven by its AI-powered ad network Vector"
-  ],
-  [
-   1793963226.0852718,
-   "HSBC’s Max Kettner: The AI Trade Hasn’t Fundamentally Changed"
-  ],
-  [
-   1793964692.9999723,
-   "Story Of Woman Who Shadowed Top L.A. Detective Jigsaw John Optioned For TV By UK Indie"
-  ],
-  [
-   1793964698.39738,
-   "AI’s Grip on Financial Markets Was Never Clearer on the Way Down"
-  ],
   [
    1793966491.9682794,
    "Shield AI домовилася купити виробника радарів для протидії дронам Echodyne за $5,3 млрд"
@@ -30864,33 +30883,21 @@
   [
    1794135725.0000265,
    "ranxianglei/billion-context"
+  ],
+  [
+   1794137476.1202862,
+   "GSC – компанія і людина. Інтерв'ю Сергія Григоровича 2004 року"
+  ],
+  [
+   1794137514.4014819,
+   "Matt Mercer's Best Critical Role Quote Is Still the Most Inspiring Line in D&D History"
+  ],
+  [
+   1794137806.0918846,
+   "dsx-ai-factory/nvke"
   ]
  ],
  "titles_uk": [
-  [
-   1793962977.5185,
-   "Глава Studio N Мікюн Квон — про силу вебкомів та ризики з корейською епопеєю The Remarried Empress"
-  ],
-  [
-   1793962997.0574567,
-   "Microsoft випустила стрімінгову модель VibeVoice-ASR-Streaming"
-  ],
-  [
-   1793963129.1310122,
-   "Unity звітує про рекордний третій квартал завдяки ШІ-платформі Vector"
-  ],
-  [
-   1793963226.0852728,
-   "Макс Кеттнер із HSBC: тренд на ШІ фундаментально не змінився"
-  ],
-  [
-   1793964692.999973,
-   "Книгу про роботу з легендарним детективом L.A. адаптують для телебачення"
-  ],
-  [
-   1793964698.397381,
-   "Вплив ШІ на фінансові ринки став очевидним під час падіння"
-  ],
   [
    1793966491.9682803,
    "Shield AI домовилася купити виробника радарів для протидії дронам Echodyne за $5,3 млрд"
@@ -31610,6 +31617,18 @@
   [
    1794135725.0000277,
    "Представлено billion-context — плагін стиснення контексту для ШІ"
+  ],
+  [
+   1794137476.120287,
+   "GSC – компанія і людина. Інтерв'ю Сергія Григоровича 2004 року"
+  ],
+  [
+   1794137514.4014833,
+   "Метт Мерсер назвав головний урок для гравців у D&D"
+  ],
+  [
+   1794137806.0918858,
+   "dsx-ai-factory/nvke"
   ]
  ],
  "ukrainian": {
@@ -33962,7 +33981,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794134255.6454237,
+  "last_check": 1794137814.863134,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
