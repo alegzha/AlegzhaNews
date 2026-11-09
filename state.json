@@ -28,8 +28,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-09 05:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-09 06:03 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 2
@@ -39,19 +39,6 @@
   ]
  },
  "post_log": [
-  [
-   1793512880.27439,
-   3992,
-   "🤘",
-   "Стів Гаккетт згадав, як розізлив колег по Genesis на церемонії Rock Hall",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/music-industry/hall-of-fame/steve-hackett-genesis-rock-hall-induction-yes",
-    "orig": "Steve Hackett recalls messing with Genesis at their Rock Hall induction"
-   }
-  ],
   [
    1793514131.03563,
    3993,
@@ -17748,7 +17735,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Метт Мерсер назвав головний урок для гравців у D&amp;D</b>\n\nВ інтерв&#x27;ю Variety Метт Мерсер і Бреннан Лі Малліган обговорили свій досвід роботи Dungeon Master у Critical Role і Dimension 20. Відповідаючи на запитання про підготовку до сесій, Мерсер заявив, що для набуття досвіду іноді доводиться помилятися. Ця думка допомагає гравцям і Dungeon Master подолати страх помилок і тиск під час настільних ігор.\n\n🔗 <a href=\"https://www.polygon.com/matthew-mercer-dungeon-master-advice-dungeons-and-dragons/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/matthew-mercer-dungeon-master-advice-dungeons-and-dragons/",
     "orig": "Matt Mercer's Best Critical Role Quote Is Still the Most Inspiring Line in D&D History"
@@ -17762,7 +17748,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>dsx-ai-factory/nvke</b>\n\nNVIDIA Kubernetes Engine (NVKE). Рівень управління для GPU Kubernetes на «голій» апаратурі. https://docs.nvidia.com/nvke/ NVIDIA Kubernetes Engine (NVKE) Запустіть керований сервіс Kubernetes на власній інфраструктурі з графічними процесорами NVIDIA. NVIDIA Kubernetes® Engine (NVKE) надає рівень управління, який команди розробників платформ встановлюють для створення та експлуатації кластерів Kubernetes для своїх клієнтів.\n\n🔗 <a href=\"https://github.com/dsx-ai-factory/nvke\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/dsx-ai-factory/nvke",
     "orig": "dsx-ai-factory/nvke"
@@ -18608,6 +18593,34 @@
     "link": "https://deadline.com/2026/11/robert-de-niro-musk-documentary-screening-1237217069/",
     "orig": "Robert De Niro Screens ‘Musk’ Documentary, Needles Elon About Spending Spree On GOP: “How Did That Turn Out For You?”"
    }
+  ],
+  [
+   1794204176.4402034,
+   5412,
+   "🎮",
+   "Реліз Warhammer Blood Bowl перенесли на початок 2027 року",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Реліз Warhammer Blood Bowl перенесли на початок <a href=\"https://store.steampowered.com/app/5089480/\">2027</a> року</b>\n\nЩе один хід.\n\n🔗 <a href=\"https://www.pcgamer.com/games/sports/warhammer-blood-bowl-has-been-delayed-into-2027/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/games/sports/warhammer-blood-bowl-has-been-delayed-into-2027/",
+    "orig": "Warhammer Blood Bowl has been delayed into early 2027"
+   }
+  ],
+  [
+   1794204179.8681455,
+   5413,
+   "🎬",
+   "John Oliver висміяв Ілона Маска та політиків після проміжних виборів",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>John Oliver висміяв Ілона Маска та політиків після проміжних виборів</b>\n\nУ новому випуску шоу Last Week Tonight Джон Олівер прокоментував результати проміжних виборів у США. Комік висміяв Ілона Маска за витрачені пів мільярда доларів на спробу вплинути на вибори та згадав провал політиків на кшталт Haley Stevens.\n\n🔗 <a href=\"https://variety.com/2026/tv/news/john-oliver-midterms-losers-elon-musk-haley-stevens-last-week-tonight-1236942879/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/tv/news/john-oliver-midterms-losers-elon-musk-haley-stevens-last-week-tonight-1236942879/",
+    "orig": "John Oliver Dunks on Midterms Losers Elon Musk and Haley Stevens"
+   }
   ]
  ],
  "posted_by_source": {
@@ -18700,7 +18713,8 @@
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1794143063.8869061,
    1794184279.1222014,
-   1794200479.2527685
+   1794200479.2527685,
+   1794204176.440523
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1794076281.3635452,
@@ -18767,9 +18781,8 @@
    1794126673.0223925
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1794115976.4399328,
-   1794117740.465025,
-   1794117924.1367285
+   1794117924.1367285,
+   1794204179.8684845
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1794118540.6288693,
@@ -19270,7 +19283,6 @@
   "15d104ab2ce02372": 1794200482.770165,
   "15ed9ddb0d121df8": 1793818894.2525833,
   "15f791af37d54966": 1794089061.278885,
-  "1606cfe2c2a91a41": 1792994476.6248968,
   "1607ea18ac1e929a": 1793370729.8325412,
   "16124866e35588c1": 1793026914.9209566,
   "162b1863ef3be02d": 1793095296.314791,
@@ -21603,6 +21615,7 @@
   "a31ebd4de4d65ef5": 1793491304.7831938,
   "a32212491e723104": 1793797631.1847243,
   "a32cd3bec0e7da7c": 1793179897.8637753,
+  "a32dd0353bd4cb08": 1794204176.4404714,
   "a33e8a277dd8a916": 1793116970.2477806,
   "a3445fa239822a4b": 1793117036.2503676,
   "a3480c4838fea0f4": 1793716512.2424831,
@@ -21940,6 +21953,7 @@
   "b61aaf87239c6748": 1793199656.5185251,
   "b62ace2dbb959b41": 1793205228.2482767,
   "b62bad7b5c9b3080": 1793190848.7684124,
+  "b62df3d19da62723": 1794204179.8684347,
   "b63e6f55fe65bf17": 1793901777.273283,
   "b6533917e0f97e8a": 1793340073.8244045,
   "b667d34e59f880ff": 1793390703.17628,
@@ -24324,12 +24338,13 @@
    "Metal Hammer (Louder)": 2,
    "Mezha": 3,
    "Neformat": 4,
-   "PC Gamer": 2,
-   "Polygon": 3
+   "PC Gamer": 3,
+   "Polygon": 3,
+   "Variety": 1
   },
   "translators": {
    "DeepL": 2,
-   "gemini-flash-lite-latest": 35
+   "gemini-flash-lite-latest": 37
   },
   "week": "2026-W46"
  },
@@ -25554,10 +25569,20 @@
    "",
    1794144679.604452
   ],
+  "q:blood": [
+   0,
+   "",
+   1794204084.3833137
+  ],
   "q:blood and ice": [
    455320,
    "Blood and Ice",
    1793541751.437324
+  ],
+  "q:blood bowl": [
+   0,
+   "",
+   1794204083.8349922
   ],
   "q:blue archive": [
    3557620,
@@ -25583,6 +25608,11 @@
    1113710,
    "Boss Rush",
    1792413147.0418508
+  ],
+  "q:bowl": [
+   0,
+   "",
+   1794204084.92079
   ],
   "q:boy": [
    0,
@@ -29159,6 +29189,16 @@
    "Warframe",
    1793394154.1156282
   ],
+  "q:warhammer blood": [
+   0,
+   "",
+   1794204083.3259196
+  ],
+  "q:warhammer blood bowl": [
+   0,
+   "",
+   1794204082.7669175
+  ],
   "q:warhammer survivors": [
    3669620,
    "Warhammer Survivors",
@@ -29503,22 +29543,6 @@
   ]
  },
  "titles": [
-  [
-   1794029570.3446693,
-   "Bill Maher Rubs Salt in Trump’s Midterms Wound: ‘Donnie, Are You OK?’"
-  ],
-  [
-   1794029574.247312,
-   "Taiwan’s Chunghwa Telecom Unveils 10 Content Investments, From ‘Gunshot’ to ‘Call of Lobster’"
-  ],
-  [
-   1794031278.0848246,
-   "Why ‘Suits’ Japan Swapped Drugs for Cash: NBCUniversal, TBS Format Chiefs on Localizing Hits at Taiwan Creative Content Fest"
-  ],
-  [
-   1794031281.2427123,
-   "‘Fire Country’ and ‘Sheriff Country’ Bosses Break Down the Crossover Episode, ‘Con Air’ Influences and the Potential Romance That Wasn’t on the Page"
-  ],
   [
    1794033072.380793,
    "Neocloud Groq Aims to Double Value to $8 Billion Amid AI Selloff"
@@ -30186,25 +30210,17 @@
   [
    1794202308.160775,
    "Robert De Niro Screens ‘Musk’ Documentary, Needles Elon About Spending Spree On GOP: “How Did That Turn Out For You?”"
+  ],
+  [
+   1794204176.4404736,
+   "Warhammer Blood Bowl has been delayed into early 2027"
+  ],
+  [
+   1794204179.8684366,
+   "John Oliver Dunks on Midterms Losers Elon Musk and Haley Stevens"
   ]
  ],
  "titles_uk": [
-  [
-   1794029570.3446703,
-   "Bill Maher потролив Trump після провалу на виборах: «Donnie, Are You OK?»"
-  ],
-  [
-   1794029574.2473128,
-   "Chunghwa Telecom інвестує у 10 нових проєктів у кіно, телебаченні та музиці"
-  ],
-  [
-   1794031278.0848255,
-   "Чому в японському ремейку «Suits» марихуану замінили на готівку"
-  ],
-  [
-   1794031281.242713,
-   "Шоуранери «Fire Country» та «Sheriff Country» розповіли про кросовер"
-  ],
   [
    1794033072.3807936,
    "Groq прагне подвоїти оцінку вартості до $8 млрд на тлі падіння ринку ШІ"
@@ -30872,6 +30888,14 @@
   [
    1794202308.1607764,
    "Роберт Де Ніро висміяв Ілона Маска на показi документалки Musk"
+  ],
+  [
+   1794204176.440475,
+   "Реліз Warhammer Blood Bowl перенесли на початок 2027 року"
+  ],
+  [
+   1794204179.8684385,
+   "John Oliver висміяв Ілона Маска та політиків після проміжних виборів"
   ]
  ],
  "ukrainian": {
@@ -33224,7 +33248,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794200491.6350267,
+  "last_check": 1794204188.3647742,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
