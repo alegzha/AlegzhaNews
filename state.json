@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1794216690.6564448
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-08",
  "freebies": {
   "last_check": 1794216796.3300698,
@@ -35,69 +28,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-09 09:33 UTC",
+  "at": "2026-11-09 10:04 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793525660.863509,
-   4003,
-   "🎬",
-   "SNL вшанував пам'ять Patrick Stewart фрагментом із його випуску 1994 року",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/10/snl-pays-tribute-patrick-stewart-1237210812/",
-    "orig": "‘SNL’ Pays Tribute To Patrick Stewart With Clip From His 1994 Episode"
-   }
-  ],
-  [
-   1793525757.7245162,
-   4004,
-   "🤘",
-   "Enemy Inside анонсували новий альбом ‘R.I.P.’",
-   "Distorted Sound",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://distortedsoundmag.com/enemy-inside-announce-new-album-r-i-p/",
-    "orig": "Enemy Inside announce new album ‘R.I.P.’"
-   }
-  ],
-  [
-   1793527409.3161974,
-   4005,
-   "🎮",
-   "Очільник Battlestate затизерив окрему гру Tarkov Zombies",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://insider-gaming.com/escape-from-tarkov-zombies-standalone-game-teased/",
-    "orig": "‘Tarkov Zombies’ Standalone Game Teased by Battlestate Lead"
-   }
-  ],
-  [
-   1793527443.218738,
-   4006,
-   "🤘",
-   "У які костюми вбралися рок- та метал-музиканти на Halloween",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/11/01/news/heres-what-heavy-metal-hard-rock-artists-wore-for-halloween-2027/",
-    "orig": "Here’s What Heavy Metal & Hard Rock Artists Wore For Halloween 2027"
-   }
-  ],
   [
    1793527516.2615154,
    4007,
@@ -17838,7 +17779,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Андрей Карпатий створив платформу відео за вихідні за допомогою Claude та Hacker News</b>\n\nСпівзасновник OpenAI Андрей Карпатий використав модель Claude для фільтрації 43 мільйонів коментарів з Hacker News у 6454 кураторських відео. За його словами, результат перевершує власні рекомендації YouTube.\n\n🔗 <a href=\"https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/andrej-karpathy-built-a-curated-video-platform-in-a-weekend-using-claude-and-20-years-of-hacker-news/",
     "orig": "Andrej Karpathy built a curated video platform in a weekend using Claude and 20 years of Hacker News"
@@ -17852,7 +17792,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Ремейк The Legend of Zelda: Ocarina of Time для Switch 2 зберіг класичну бойову систему</b>\n\nАнонсований для Switch 2 ремейк The Legend of Zelda: Ocarina of Time не додає у боївку модних сучасних механік на кшталт парирування. Nintendo залишила базові рухи Лінка незмінними, зосередившись на точнім таймінзі, ухиляннях та ефектному звучанні ударів Master Sword.\n\n🔗 <a href=\"https://www.polygon.com/the-legend-of-zelda-ocarina-of-time-parrying/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/the-legend-of-zelda-ocarina-of-time-parrying/",
     "orig": "The Legend of Zelda: Ocarina of Time Thankfully Resists FromSoftware’s Influence"
@@ -18693,6 +18632,34 @@
     "link": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-dmz-free-trial-november",
     "orig": "COD: Modern Warfare 4 gets a surprisingly sudden free trial, so you can see what the game's extraction mode DMZ is like"
    }
+  ],
+  [
+   1794218581.2800567,
+   5429,
+   "🤘",
+   "Рецензія на EP: Three Swords – Beyond Extinction",
+   "Distorted Sound",
+   {
+    "also": [],
+    "caption": "🤘 <b>Рецензія на EP: Three Swords – Beyond Extinction</b>\n\nДезкор-гурт BEYOND EXTINCTION з Ессекса проклав собі шлях до авангарду жанру від самого заснування\n\n🔗 <a href=\"https://distortedsoundmag.com/ep-review-three-swords-beyond-extinction/\">Distorted Sound</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://distortedsoundmag.com/ep-review-three-swords-beyond-extinction/",
+    "orig": "EP REVIEW: Three Swords – Beyond Extinction"
+   }
+  ],
+  [
+   1794218683.4609728,
+   5430,
+   "🎬",
+   "«Somewhere In The South» та «Reunion Dinner» тріумфували на пітчингу TCCF",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>«Somewhere In The South» та «Reunion Dinner» тріумфували на пітчингу TCCF</b>\n\nСтрічка «Somewhere In The South» режисера Tan Ce Ding здобула головну нагороду TAICCA x CNC Feature Film Grand Award та $35 000 на Taiwan Creative Content Fest (TCCF). Проєкт створений за участі малайзійської студії Evil Genius Studio Едварда Ліма та сінгапурської Giraffe Pictures Ентоні Чена.\n\n🔗 <a href=\"https://deadline.com/2026/11/somewhere-in-the-south-saga-tccf-pitching-taicca-cnc-1237217100/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/somewhere-in-the-south-saga-tccf-pitching-taicca-cnc-1237217100/",
+    "orig": "‘Somewhere In The South’ Takes Top Award At TCCF Pitching; ‘Reunion Dinner’ Scoops Three Prizes"
+   }
   ]
  ],
  "posted_by_source": {
@@ -18838,7 +18805,8 @@
    1794198767.6656773,
    1794202308.1608276,
    1794205880.0222902,
-   1794214991.3629096
+   1794214991.3629096,
+   1794218683.4613392
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794214891.890266
@@ -18873,11 +18841,7 @@
    1793824292.005878
   ],
   "music|Distorted Sound|https://distortedsoundmag.com/feed/": [
-   1793835100.0641398,
-   1793901710.8291738,
-   1793903599.0678544,
-   1793909086.3184805,
-   1793919711.4419994
+   1794218581.280453
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
    1793874752.4004126,
@@ -19899,6 +19863,7 @@
   "37bf342738a8d06a": 1793709097.4865937,
   "37c19807c2402832": 1793730763.568214,
   "37fc5e8b57a527b1": 1793707330.2378376,
+  "3809cdc19b7d03a5": 1794218581.2804193,
   "381b5f58746d6387": 1794126673.0223253,
   "3827c96b519bfe6d": 1793275302.5595667,
   "382c0175b0e0a7a3": 1793536282.3704221,
@@ -19924,7 +19889,6 @@
   "3a3638e6ea188d3f": 1793892680.764708,
   "3a4a2514e9ddc56a": 1794054814.6518655,
   "3a5a921f9cab9df4": 1793106092.10505,
-  "3a655cf5b117398d": 1793008894.639011,
   "3a9a0978376e8758": 1793968252.071034,
   "3a9b0d85f2125cb2": 1793790115.5346375,
   "3aa57a8d0f692480": 1793637087.483372,
@@ -19991,7 +19955,6 @@
   "3df8fbbab6e8f697": 1793131331.5172203,
   "3e005f035146a35a": 1793750488.8121276,
   "3e008fd89a4cc0d3": 1793631786.6193378,
-  "3e26ea97b620be8e": 1793008896.8802319,
   "3e2f673906d5491d": 1793719979.3754086,
   "3e55a82c8c080eb6": 1793124087.0111487,
   "3e5ae69d8597dd41": 1793812057.6454804,
@@ -20178,7 +20141,6 @@
   "4aa1f15845f9de14": 1793890883.0501435,
   "4aab9aa512a0be03": 1793520052.6677861,
   "4aba016a9fc4baaa": 1793784713.0394628,
-  "4ac7d0968fa8be06": 1793008904.9812086,
   "4acff78502b55f67": 1793297131.2502744,
   "4ad8ad3398350e08": 1793534485.9963894,
   "4ad9cec9c055e71f": 1793278986.4442182,
@@ -20393,7 +20355,6 @@
   "5781f241b5cdf113": 1793020581.5877795,
   "578a4e7c080a95c7": 1793363606.5883389,
   "578adbf633f655f9": 1794040252.109069,
-  "57b40638b1a7b54e": 1793008901.0593169,
   "57bb5f5cbb62bf96": 1793246571.0750854,
   "57d6f3cc3f5561cc": 1793732484.7934673,
   "57f4af93982d6937": 1793115169.4231336,
@@ -20468,6 +20429,7 @@
   "5b61bd572677857c": 1793808426.3606515,
   "5b726ff9365021f2": 1793612090.46144,
   "5baf3093f8e23569": 1793196215.4263186,
+  "5bb8b87955a257ca": 1794218683.4613059,
   "5bbb11d17e997699": 1793304120.253723,
   "5bd2dc7caa15cde4": 1793631664.5142746,
   "5be68864a3f340f1": 1793721683.879615,
@@ -20821,7 +20783,6 @@
   "6ebf1ccac12fc108": 1793181689.9727335,
   "6eedd562d553fb9e": 1793381523.5912888,
   "6ef89104ae6a31b3": 1793034246.913405,
-  "6ef9937bcd38ddf8": 1793008921.273116,
   "6f0998dcd96f0102": 1793552980.6249611,
   "6f217f40854ddef3": 1793905352.2478485,
   "6f23d9016ab2e4dc": 1793361806.7623823,
@@ -21031,7 +20992,6 @@
   "7b169acaced23cb2": 1794214891.8902218,
   "7b1bf47eb79a4d62": 1793939475.9033875,
   "7b2619617ae995a3": 1793552784.6838899,
-  "7b2a0e382eedd60d": 1793008877.9542034,
   "7b2b2fba52306775": 1793736110.6937468,
   "7b2c804f1c1b6064": 1793553036.9686399,
   "7b2dae2891a089e0": 1793548971.7962878,
@@ -21410,7 +21370,6 @@
   "93a7e6bb946d3a14": 1793036028.722132,
   "93ab4f01196c8a15": 1793192546.4060133,
   "93ad2b1fb748a0d6": 1793629857.7154393,
-  "93ad955dafe76d39": 1793008909.2080562,
   "93e99b36a245642f": 1793322485.2963126,
   "93ed264936efe0dd": 1793815510.3636537,
   "9433502ddf9db1d7": 1793044929.0697448,
@@ -21429,7 +21388,6 @@
   "94b65ff8bd0b3da7": 1794182480.579415,
   "94bac1020c577749": 1794070895.2542753,
   "94c57bb707fe548e": 1793782913.0216427,
-  "94da67632bdb7f37": 1793008916.6266499,
   "94dcc3cffc413f91": 1794175369.296574,
   "94f840c88a437d25": 1793880177.5095475,
   "95005b81e2d7ba72": 1793736123.5261796,
@@ -21576,7 +21534,6 @@
   "9ca5a894b5020cfa": 1793354502.6144547,
   "9caa5386945acd38": 1793098987.394595,
   "9cd4c71200e8e145": 1793104494.3342624,
-  "9cd913d596ab7ee5": 1793007198.0826168,
   "9cf1f8b3b0108b19": 1793629894.9535327,
   "9cf848346cd8dc5b": 1793102493.0261319,
   "9cfb4d86ee6ad325": 1793698287.9332845,
@@ -22090,7 +22047,6 @@
   "baa849e20dc9a141": 1793903612.6295707,
   "baabdb6ea97fb1dd": 1793415654.296254,
   "bab361754a47bfc5": 1793302410.0421534,
-  "baba9c1b86869720": 1793008930.458088,
   "bac5741b6a7fe64b": 1793496682.534574,
   "bae01e3d9e028019": 1793392256.1180868,
   "bae3db273354f094": 1793836890.8204951,
@@ -22662,6 +22618,7 @@
   "e062e843dd630e28": 1793114768.3613648,
   "e063e9db63f1f350": 1793896520.49914,
   "e06d38eb13d98bd5": 1793975514.9460323,
+  "e06e9257163cac0d": 1794218452.690086,
   "e076b831b2fedea2": 1793698309.812571,
   "e08f7d2d683d04aa": 1793221301.4523764,
   "e09c503342cc28f9": 1793199802.7523546,
@@ -22825,7 +22782,6 @@
   "ea9a569724f0eb11": 1793263263.4965148,
   "eaa64b0b27987e74": 1793390667.8335378,
   "eab2ce59243862bb": 1793181658.1788645,
-  "eab9137b93cc9392": 1793008888.9543064,
   "eac1f38a3b2e678a": 1793419312.3275275,
   "eacfdcb153362aef": 1793525660.863877,
   "eada7bc2f2a435d6": 1793203491.3376794,
@@ -24386,13 +24342,15 @@
   "filtered": {
    "/Film": 2,
    "Deadline": 1,
-   "Polygon": 4
+   "Polygon": 4,
+   "VGC": 1
   },
   "sources": {
    "/Film": 2,
    "Blabbermouth": 1,
    "Bloomberg": 2,
-   "Deadline": 13,
+   "Deadline": 14,
+   "Distorted Sound": 1,
    "Eurogamer": 1,
    "IGN": 2,
    "ITC.ua": 4,
@@ -24409,7 +24367,7 @@
   },
   "translators": {
    "DeepL": 3,
-   "gemini-flash-lite-latest": 46
+   "gemini-flash-lite-latest": 48
   },
   "week": "2026-W46"
  },
@@ -29656,9 +29614,8 @@
    "bitcoin",
    "ethereum",
    "microsoft",
+   "nasa",
    "nvidia",
-   "siri",
-   "suno",
    "war&sanctions",
    "windows 11",
    "балістика",
@@ -29668,12 +29625,17 @@
    "зброя",
    "китай",
    "компоненти зброї",
+   "космос",
    "криптовалюти",
+   "кібербезпека",
+   "месенджери",
    "навігація",
    "новини",
    "оборонка",
+   "оптоволокно",
    "ракетні удари",
    "софт",
+   "статті",
    "сша",
    "технології",
    "флеш",
@@ -29682,14 +29644,6 @@
   ]
  },
  "titles": [
-  [
-   1794044061.6716602,
-   "Trace by Context.dev"
-  ],
-  [
-   1794044396.2106295,
-   "react/react"
-  ],
   [
    1794046017.6232035,
    "Jynxzi Now Owns a Rainbow Six Siege Esports Team"
@@ -30365,17 +30319,17 @@
   [
    1794216794.5639899,
    "COD: Modern Warfare 4 gets a surprisingly sudden free trial, so you can see what the game's extraction mode DMZ is like"
+  ],
+  [
+   1794218581.280421,
+   "EP REVIEW: Three Swords – Beyond Extinction"
+  ],
+  [
+   1794218683.4613078,
+   "‘Somewhere In The South’ Takes Top Award At TCCF Pitching; ‘Reunion Dinner’ Scoops Three Prizes"
   ]
  ],
  "titles_uk": [
-  [
-   1794044061.6716614,
-   "Trace від Context.dev"
-  ],
-  [
-   1794044396.210631,
-   "react/react"
-  ],
   [
    1794046017.6232047,
    "Джинкзі став власником кіберспортивної команди з Rainbow Six Siege"
@@ -31051,6 +31005,14 @@
   [
    1794216794.563991,
    "COD: Modern Warfare 4 отримала несподіваний безплатний пробний доступ до режиму DMZ"
+  ],
+  [
+   1794218581.2804217,
+   "Рецензія на EP: Three Swords – Beyond Extinction"
+  ],
+  [
+   1794218683.461309,
+   "«Somewhere In The South» та «Reunion Dinner» тріумфували на пітчингу TCCF"
   ]
  ],
  "ukrainian": {
@@ -33410,7 +33372,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794214999.6198483,
+  "last_check": 1794218692.2178895,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
