@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1794349877.8202243
+  }
+ },
  "daily_digest_date": "2026-11-10",
  "freebies": {
   "last_check": 1794344490.8110006,
@@ -28,82 +35,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-10 22:01 UTC",
+  "at": "2026-11-10 22:31 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793656982.6356583,
-   4321,
-   "🤘",
-   "Burn Eternal анонсували дебютний сингл «Wounds I’ve Made»",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/11/02/news/burn-eternal-killswitch-engage-tease-their-debut-single-wounds-ive-made/",
-    "orig": "Burn Eternal (Killswitch Engage) Tease Their Debut Single “Wounds I’ve Made”"
-   }
-  ],
-  [
-   1793657019.848771,
-   4322,
-   "🤘",
-   "Ozzy Osbourne та Black Sabbath випустять фільм і саундтрек Back To The Beginning",
-   "Distorted Sound",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://distortedsoundmag.com/ozzy-osbourne-black-sabbath-announce-back-to-the-beginning-soundtrack-and-film/",
-    "orig": "Ozzy Osbourne & Black Sabbath announce ‘Back To The Beginning’ soundtrack and film"
-   }
-  ],
-  [
-   1793657060.6719615,
-   4323,
-   "🎮",
-   "Вийшов релізний огляд виживача Enshrouded",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/survival-crafting/enshrouded-1-0-review/",
-    "orig": "Enshrouded 1.0 review"
-   }
-  ],
-  [
-   1793657096.3220944,
-   4324,
-   "🤘",
-   "Vended працюють у студії з продюсером Nick Raskulinecz над новим матеріалом",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/11/02/news/vended-have-hit-the-studio-with-producer-nick-raskulinecz/",
-    "orig": "Vended Have Hit The Studio With Producer Nick Raskulinecz"
-   }
-  ],
-  [
-   1793657149.5538404,
-   4325,
-   "🎮",
-   "Зламаний маунт у World of Warcraft викликав нову хвилю скарг на стан гри",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/a-buggy-world-of-warcraft-mount-has-renewed-player-frustrations-at-the-state-of-retail",
-    "orig": "A Buggy World of Warcraft Mount has Renewed Player Frustrations at the State of Retail"
-   }
-  ],
   [
    1793658698.757845,
    4326,
@@ -15561,7 +15503,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Оголошено акторський склад мюзиклу Paddington: The Musical на Бродвеї</b>\n\nБродвейський мюзикл Paddington: The Musical, прем&#x27;єра якого запланована на квітень 2027 року, оголосив акторський склад. У постановці візьмуть участь Тоні Гейл, Келвін Дьюкс, Джессі Мюллер та інші відомі актори. Попередні показди розпочнуться 30 березня в театрі Al Hirschfeld Theatre.\n\n🔗 <a href=\"https://deadline.com/2026/11/paddington-the-musical-broadway-cast-2026-1237218092/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/paddington-the-musical-broadway-cast-2026-1237218092/",
     "orig": "‘Paddington: The Musical’ Sets Broadway Cast With Tony Hale, J. Quinton Johnson, Jessie Mueller & More"
@@ -15575,7 +15516,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>У Лондоні відбулася світова прем&#x27;єра фільму Ebenezer за участю Johnny Depp</b>\n\n🔗 <a href=\"https://deadline.com/2026/11/johnny-depp-ti-west-london-ebenezer-global-premiere-1237218130/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://deadline.com/2026/11/johnny-depp-ti-west-london-ebenezer-global-premiere-1237218130/",
     "orig": "Johnny Depp & Ti West Land In A Chilly London For ‘Ebenezer’ Global Premiere"
@@ -16439,6 +16379,34 @@
     "link": "https://www.indiewire.com/features/interviews/square-peg-social-2026-ari-aster-lance-oppenheim-1235226526/",
     "orig": "Why Ari Aster and Lars Knudsen’s Square Peg Built a Therapy Circle for Hollywood’s Next Generation in Texas"
    }
+  ],
+  [
+   1794349889.1387854,
+   5578,
+   "🎬",
+   "Джеймс Ганн і Пітер Сафран залишили DC Studios",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Джеймс Ганн і Пітер Сафран залишили DC Studios</b>\n\nКерівники DC Studios Джеймс Ганн і Пітер Сафран залишили свої посади після серії касових невдач і змін у керівництві компанії Skydance. Їхні масштабні проєкти, включно з фільмом &quot;Supergirl&quot;, не виправдали фінансових очікувань і не змогли завоювати достатню увагу глядачів.\n\n🔗 <a href=\"https://variety.com/2026/film/news/james-gunn-exits-dc-studios-losing-money-1236944392/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/news/james-gunn-exits-dc-studios-losing-money-1236944392/",
+    "orig": "DC Studios Exit: James Gunn and Peter Safran Spent Big, Lost Money and Didn’t Hook Audiences"
+   }
+  ],
+  [
+   1794349893.5883515,
+   5579,
+   "🎬",
+   "Лі МакКендрік зніме трилер Delulu за участю Медді Зіглер",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Лі МакКендрік зніме трилер Delulu за участю Медді Зіглер</b>\n\nРежисерка Лі МакКендрік готує новий трилер Delulu про поп-співачку, яка викрадає популярну influencer та вимагає мільйон підписників за два тижні. Головні ролі у стрічці виконають сама МакКендрік та Медді Зіглер. Виробництвом проєкту займуться компанії XYZ Films і Temple Hill.\n\n🔗 <a href=\"https://deadline.com/2026/11/leah-mckendrick-and-maddie-ziegler-star-in-delulu-thriller-1237219314/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/leah-mckendrick-and-maddie-ziegler-star-in-delulu-thriller-1237219314/",
+    "orig": "Leah McKendrick To Follow ‘Voicemails For Isabelle’ With “Ferociously Female” Thriller ‘Delulu’ Starring Maddie Ziegler; XYZ & Temple Hill Produce — AFM"
+   }
   ]
  ],
  "posted_by_source": {
@@ -16568,8 +16536,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1794261680.3718846,
-   1794263376.6670082,
    1794268886.7795968,
    1794270680.8302903,
    1794270683.8532453,
@@ -16582,7 +16548,8 @@
    1794295904.4572206,
    1794313877.0725212,
    1794317498.314904,
-   1794319299.6830812
+   1794319299.6830812,
+   1794349893.5886748
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794308484.7822244
@@ -16599,9 +16566,7 @@
    1794312210.7259297
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
-   1794211286.8406851,
-   1794211407.5577338,
-   1794229287.1545606
+   1794349889.1391351
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
    1794099675.8192008,
@@ -16897,7 +16862,6 @@
   "0c7d9e965d9339fb": 1793629919.4033787,
   "0c9720e209e6388e": 1793662286.7303,
   "0ca22df7dfe17db0": 1793291847.3498197,
-  "0cab6f949a16f5e4": 1793138582.7405922,
   "0cc5631c74abeac1": 1793376192.1795187,
   "0cce55285c5b39f0": 1793856655.0170114,
   "0cd8e0e73583a48e": 1793880077.9141972,
@@ -16964,8 +16928,6 @@
   "10ba719313a0c835": 1793434003.5547855,
   "10bd7120ab656829": 1793872929.1739988,
   "10e2ed5cfc88d0e3": 1793914251.9255452,
-  "10e791a593245c66": 1793138586.8071597,
-  "10e7d74ea92621e8": 1793139780.35366,
   "10f2506461496361": 1793707315.8694823,
   "10f55c42bdbb3650": 1793592052.4979794,
   "110439da3fe92339": 1793581252.248414,
@@ -17230,7 +17192,6 @@
   "226ee0e59c3c5d59": 1793298761.6084073,
   "2275f293155b4596": 1793723483.3112245,
   "229d0c0b5b0fa647": 1793354491.7790215,
-  "22dfde8ba8f8a164": 1793139783.428876,
   "22f59a270a857748": 1793235700.1527355,
   "2305226d00ffc15d": 1793284466.7919056,
   "23196e218954bc2d": 1794027782.8948328,
@@ -17457,6 +17418,7 @@
   "333126c8ac9be967": 1793804753.8474927,
   "3335a918f3cc50ab": 1793734301.6911168,
   "3338f360030012c2": 1793197882.1506777,
+  "335086bf8f0c729f": 1794349854.945267,
   "3357660a64439725": 1793207186.0868273,
   "33581660b613c852": 1793649926.553101,
   "337a81140467cd0a": 1793646107.1049304,
@@ -17839,7 +17801,6 @@
   "4f7eec8a7b91a4cf": 1793737886.347712,
   "4f891d7f2fd0bd53": 1794263378.9488752,
   "4fa3bca5cf0d1f0b": 1793889078.5786896,
-  "4fbf217d4e9e1850": 1793139774.8894732,
   "4fcb70953ddfa569": 1794299503.9570954,
   "4fcc803bd5cd3b55": 1794220253.7824736,
   "4ff14bb22d7d39a7": 1793261032.8700666,
@@ -18926,7 +18887,6 @@
   "97aba5ddd856365a": 1793241054.3613508,
   "97d0a0029e38ece5": 1793404900.8075988,
   "98046c2399608724": 1793392415.9274385,
-  "9822dbf5e3a6f609": 1793138570.1369286,
   "98270c712011cea5": 1793961095.7366772,
   "98299469d0dc13ed": 1793442774.1807175,
   "982c2ac2eb0c4657": 1793383335.6421795,
@@ -18946,7 +18906,6 @@
   "994f1b736d2b9cc7": 1793297096.3520472,
   "9959b87cf28e9452": 1793649828.9046333,
   "99689044792dc3ee": 1793392399.832621,
-  "9984cef4b23e5fc4": 1793140288.0200877,
   "99882059b81d30e7": 1793822456.2873676,
   "998ca5903d76ff06": 1794241852.9158669,
   "99938ccfefa50511": 1793275274.468206,
@@ -18965,6 +18924,7 @@
   "9a7a2125566a21e3": 1793205103.4016588,
   "9a7e69477d6fb755": 1793566853.4477115,
   "9a865dae7205bd92": 1794126672.5865357,
+  "9a945af4bff676bc": 1794349891.0385704,
   "9aa8f818670fe6d4": 1793746890.8823638,
   "9abcb33dfc2e5a80": 1793363580.5690572,
   "9ac1ae1f5452b3c6": 1793275368.0799065,
@@ -19065,6 +19025,7 @@
   "a21d0e04cb7a31d3": 1793617321.3414595,
   "a24cbc98a1a56dc7": 1793881876.1541889,
   "a25472f4d1b51258": 1793899976.3401167,
+  "a258190d3a1acd4c": 1794349889.1390882,
   "a288965104674d35": 1793296877.101634,
   "a289dad29d3e8d89": 1794133851.471907,
   "a2983cef11873564": 1793698283.159456,
@@ -19394,7 +19355,6 @@
   "b69907af84c8f7e8": 1793865733.6320138,
   "b69bf27e78dbc3d0": 1793878279.2970648,
   "b69ca67d46b99b05": 1793586706.4456904,
-  "b6b82a53e4dc34d0": 1793138579.6908848,
   "b6d912548a810b0c": 1793610194.0242841,
   "b6ea3f4b40434dfc": 1793890856.2474601,
   "b701d5847e737c0a": 1793586696.284922,
@@ -19403,7 +19363,6 @@
   "b7242ad4a00ce74c": 1793656982.6360471,
   "b72b577840dfc276": 1793923274.512951,
   "b770fcb6738db72e": 1793601185.5302284,
-  "b792e75cd260489c": 1793139776.348499,
   "b79d99b85665c970": 1794324720.406491,
   "b7a3c8d9703d447a": 1793637086.0724623,
   "b7a8cde00e165c6c": 1793694799.6244726,
@@ -19414,6 +19373,7 @@
   "b7fa9eb1f2c1bdf6": 1793464271.2223754,
   "b8079000c53bcbd0": 1793291485.7168531,
   "b817ced09356f6fd": 1794258098.324036,
+  "b81a7e4ec3a1a423": 1794349893.5886278,
   "b81c422950988129": 1793660599.633465,
   "b82088eef1d7b3c4": 1793208809.714039,
   "b82798d0066570d3": 1793336493.8540268,
@@ -19541,7 +19501,6 @@
   "c1470f580db41f85": 1794330058.4836624,
   "c14877cba6b6ce96": 1793957456.027642,
   "c151cd7aa456356c": 1793289682.1766922,
-  "c16a70800d95a41d": 1793140284.1437523,
   "c16aa9194bf23a2a": 1793305983.1641345,
   "c172e56cc8991080": 1793370766.8298123,
   "c18214794fc1b90b": 1793639188.9155376,
@@ -20258,7 +20217,6 @@
   "f3d7ae30909a3099": 1793804505.718369,
   "f3d980cab58c4a6b": 1793646102.6506567,
   "f3f76757c51756bd": 1793318486.5931904,
-  "f4219376132a2c0f": 1793139778.736846,
   "f441823aa584fcbe": 1793527559.484358,
   "f44e7d810c328af1": 1793304090.9301102,
   "f476695084256755": 1793376203.9858284,
@@ -20349,7 +20307,6 @@
   "fa2ec973f9cfdb14": 1794348101.5814364,
   "fa762f8b6bba1505": 1793989912.7519934,
   "fa890020bc986c86": 1793403075.670536,
-  "fa8e540688a8ab4e": 1793139787.4976292,
   "fa912ca9995e3b84": 1794069054.1396751,
   "faa01d98d67aaeb6": 1793367278.5374339,
   "fab23470f7ba7ec4": 1794243688.411807,
@@ -20894,7 +20851,7 @@
   ],
   "artists_checked": 1794348118.474827,
   "blocked_until": 1794346622.300908,
-  "cursor": 55,
+  "cursor": 65,
   "digest_week": "2026-W45",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -21656,7 +21613,7 @@
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 2,
-   "Polygon": 18,
+   "Polygon": 19,
    "The Decoder": 2,
    "VGC": 5,
    "Variety": 1
@@ -21668,7 +21625,7 @@
    "Bloomberg": 16,
    "DOU": 3,
    "DOU Gamedev": 1,
-   "Deadline": 29,
+   "Deadline": 30,
    "Distorted Sound": 2,
    "Eurogamer": 5,
    "GamesIndustry.biz": 3,
@@ -21695,11 +21652,11 @@
    "The Decoder": 5,
    "ThePRP": 1,
    "VGC": 4,
-   "Variety": 9
+   "Variety": 10
   },
   "translators": {
    "DeepL": 10,
-   "gemini-flash-lite-latest": 165
+   "gemini-flash-lite-latest": 167
   },
   "week": "2026-W46"
  },
@@ -21858,11 +21815,6 @@
    "2333000",
    "Silver Pines",
    1791786700.1740146
-  ],
-  "id:2391940": [
-   "2391940",
-   "ETRE",
-   1791757263.0958583
   ],
   "id:2416450": [
    "2416450",
@@ -26520,8 +26472,6 @@
    "amazon",
    "apple",
    "fp-2",
-   "gemini",
-   "google",
    "hdmi",
    "iphone 18",
    "iphone air",
@@ -26537,7 +26487,10 @@
    "дрони",
    "дронопорт",
    "залізо",
+   "київстар",
    "комп'ютери",
+   "мобільний зв'язок",
+   "мобільні оператори",
    "новини",
    "оборонка",
    "огляди",
@@ -26552,36 +26505,14 @@
    "смартфони",
    "софт",
    "соціальні мережі",
+   "телеком",
    "технології",
+   "україна",
    "хакери",
    "штучний інтелект"
   ]
  },
  "titles": [
-  [
-   1794175363.6683908,
-   "Druski Leads One Of ‘SNL’s Most Star-Studded Curtain Calls Ever With Emma Stone, Michael B. Jordan, Austin Butler, Plus Chappelle, Rock, Goggins"
-  ],
-  [
-   1794175365.9801452,
-   "Death Pill випускають перший сингл, створений повністю на відстані"
-  ],
-  [
-   1794175369.2965755,
-   "Watch: Killswitch Engage joined on stage by SPEED's Jem Siow in Australia for \"My Last Serenade\""
-  ],
-  [
-   1794177074.1994627,
-   "Музична Шкатулка випускає новий альбом"
-  ],
-  [
-   1794177076.3284569,
-   "TSYTSKA зіграють на Obscene Extreme 2027"
-  ],
-  [
-   1794177079.9678276,
-   "Watch: Sepultura's final live show footage"
-  ],
   [
    1794178884.9584503,
    "Apple може перетворити Siri на повноцінного ШІ-агента вже наступного року – Марк Гурман"
@@ -27341,33 +27272,17 @@
   [
    1794348106.1791682,
    "Why Ari Aster and Lars Knudsen’s Square Peg Built a Therapy Circle for Hollywood’s Next Generation in Texas"
+  ],
+  [
+   1794349889.13909,
+   "DC Studios Exit: James Gunn and Peter Safran Spent Big, Lost Money and Didn’t Hook Audiences"
+  ],
+  [
+   1794349893.5886295,
+   "Leah McKendrick To Follow ‘Voicemails For Isabelle’ With “Ferociously Female” Thriller ‘Delulu’ Starring Maddie Ziegler; XYZ & Temple Hill Produce — AFM"
   ]
  ],
  "titles_uk": [
-  [
-   1794175363.6683915,
-   "Druski став першим цифровим творцем, який провел SNL"
-  ],
-  [
-   1794175365.980146,
-   "Death Pill випускають перший сингл, створений повністю на відстані"
-  ],
-  [
-   1794175369.2965763,
-   "Вокаліст SPEED Джем Сайо виступив на одній сцені з Killswitch Engage в Австралії"
-  ],
-  [
-   1794177074.1994636,
-   "Музична Шкатулка випускає новий альбом"
-  ],
-  [
-   1794177076.3284578,
-   "TSYTSKA зіграють на Obscene Extreme 2027"
-  ],
-  [
-   1794177079.9678285,
-   "З'явилося відео з фінального концерту Sepultura"
-  ],
   [
    1794178884.9584515,
    "Apple може перетворити Siri на повноцінного ШІ-агента вже наступного року – Марк Гурман"
@@ -28127,6 +28042,14 @@
   [
    1794348106.1791692,
    "Студія Square Peg запустила терапевтичний саміт для кінематографістів у Техасі"
+  ],
+  [
+   1794349889.139091,
+   "Джеймс Ганн і Пітер Сафран залишили DC Studios"
+  ],
+  [
+   1794349893.5886307,
+   "Лі МакКендрік зніме трилер Delulu за участю Медді Зіглер"
   ]
  ],
  "ukrainian": {
