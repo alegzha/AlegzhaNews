@@ -1,15 +1,8 @@
 {
- "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1794349877.8202243
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-10",
  "freebies": {
-  "last_check": 1794344490.8110006,
+  "last_check": 1794353483.138469,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -35,8 +28,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-10 22:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-10 23:31 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 2
@@ -46,146 +39,6 @@
   ]
  },
  "post_log": [
-  [
-   1793658698.757845,
-   4326,
-   "🎬",
-   "Передпродажі Avengers: Doomsday перевершили світові збори Supergirl",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2304593/avengers-doomsday-ticket-presales-supergirl-box-office/",
-    "orig": "Avengers: Doomsday Ticket Presales Top Supergirl's Worldwide Box Office Run"
-   }
-  ],
-  [
-   1793658701.92599,
-   4327,
-   "🎬",
-   "Джош Гартнетт, Емма Томпсон та інші приєдналися до касту байопіку Moonsong: A Life In Seven Verses",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/hartnett-thompson-hawkins-huston-aramayo-miller-moonsong-1237211647/",
-    "orig": "Josh Hartnett, Emma Thompson, Sally Hawkins, Danny Huston, Robert Aramayo & Chloe Pirrie Join Elle Fanning & Julianne Moore In Rebecca Miller’s ‘Moonsong: A Life In Seven Verses’ – AFM"
-   }
-  ],
-  [
-   1793658704.879225,
-   4328,
-   "🤘",
-   "Трент Резнор і Аттікус Рос напишуть саундтрек до нового фільму Девіда Фінчера",
-   "ThePRP",
-   {
-    "also": [
-     [
-      "Variety",
-      "https://variety.com/2026/music/news/trent-reznor-atticus-ross-score-david-fincher-cliff-booth-1236938107/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/11/02/news/trent-reznor-atticus-ross-have-scored-david-finchers-new-film-the-further-mis-adventures-of-cliff-booth/",
-    "orig": "Trent Reznor & Atticus Ross Have Scored David Fincher’s New Film ‘The Further Mis-Adventures Of Cliff Booth’"
-   }
-  ],
-  [
-   1793658707.964347,
-   4329,
-   "🎬",
-   "Голлівудські профспілки стурбовані майбутнім податкових кредитів Каліфорнії для кіно",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/hollywood-unions-react-newsom-1-billion-film-tax-credit-1237211519/",
-    "orig": "Hollywood Unions Wonder Whether Next California Governor Will Share Newsom’s Commitment To Expanding Film Tax Credits"
-   }
-  ],
-  [
-   1793660575.113231,
-   4330,
-   "🤘",
-   "Скотт Іан з ANTHRAX назвав AC/DC епохи Bon Scott своєю улюбленою групою",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/anthraxs-scott-ian-why-bon-scott-era-ac-dc-is-my-favorite-band-of-all-time",
-    "orig": "ANTHRAX's SCOTT IAN: Why BON SCOTT-Era AC/DC Is 'My Favorite Band Of All Time'"
-   }
-  ],
-  [
-   1793660585.6840024,
-   4331,
-   "🤘",
-   "Гурт Oblivion Choir випустив кавер на пісню Sin гурту Nine Inch Nails",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/11/02/news/oblivion-choir-ex-20-dead-flower-children-hedp-e-debut-their-cover-of-nine-inch-nails-sin/",
-    "orig": "Oblivion Choir (Ex-20 Dead Flower Children / (hed)p.e.) Debut Their Cover Of Nine Inch Nails’ “Sin”"
-   }
-  ],
-  [
-   1793660594.860225,
-   4332,
-   "🎮",
-   "Jisoo з Blackpink надихнулася Ada Wong у новому кліпі",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/blackpinks-jisoo-confirms-she-referenced-resident-evils-ada-wong-in-new-music-video",
-    "orig": "Blackpink's Jisoo Confirms She Referenced Resident Evil's Ada Wong in New Music Video"
-   }
-  ],
-  [
-   1793660599.632892,
-   4333,
-   "🎮",
-   "Реліз dark fantasy RPG Queen's Domain відбувся 30 жовтня",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/rpg/queens-domain-might-be-the-best-game-like-metroid-prime-since-metroid-prime/",
-    "orig": "Queen's Domain might be the best game like Metroid Prime since Metroid Prime"
-   }
-  ],
-  [
-   1793660604.099525,
-   4334,
-   "🤘",
-   "Grotesco Karma анонсували новий альбом Metanoia",
-   "Distorted Sound",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://distortedsoundmag.com/grotesco-karma-announce-new-album-metanoia/",
-    "orig": "Grotesco Karma announce new album ‘Metanoia’"
-   }
-  ],
-  [
-   1793660607.1289124,
-   4335,
-   "🤘",
-   "Thy Art Is Murder випустили трек і кліп \"Squeeze\" з новим вокалістом",
-   "ThePRP",
-   {
-    "also": [
-     [
-      "Lambgoat",
-      "https://lambgoat.com/news/55664/thy-art-is-murder-debut-single-squeeze-featuring-new-vocalist-jerry-grimefeld/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/11/02/news/thy-art-is-murder-hard-launch-their-new-era-with-squeeze-music-video-december-australian-tour/",
-    "orig": "Thy Art Is Murder Hard Launch Their New Era With “Squeeze” Music Video & December Australian Tour"
-   }
-  ],
   [
    1793662286.7298481,
    4336,
@@ -15529,7 +15382,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Перші відгуки про ‘Ebenezer’: повернення Johnny Depp у Голлівуд називають чудовим святковим кіно</b>\n\nФільм ‘Ebenezer’ офіційно вийшов, і кінокритики переважно схвалюють стрічку з Johnny Depp у головній ролі, називаючи її сильним поверненням актора\n\n🔗 <a href=\"https://variety.com/2026/film/news/ebenezer-first-reactions-johnny-depp-hollywood-comeback-1236941249/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/film/news/ebenezer-first-reactions-johnny-depp-hollywood-comeback-1236941249/",
     "orig": "‘Ebenezer’ First Reactions: Johnny Depp’s Hollywood Comeback Is a ‘Wickedly Fun Holiday Treat’ That Adds ‘Refreshing New Layers’ to the Christmas Classic"
@@ -15543,7 +15395,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>The Undertones готуються до туру на честь піввікового ювілею</b>\n\nЛегендарний гурт The Undertones відзначає 50-річчя та анонсує ювілейний тур Великою Британією та Ірландією. Музиканти також працюють над шістьма чи сімома новими піснями, які можуть випустити у форматі EP.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/undertones-tour-interview\">Metal Hammer (Louder)</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/undertones-tour-interview",
     "orig": "Fifty years after forming, Northern Ireland's finest The Undertones are in the mood to celebrate"
@@ -15557,7 +15408,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "💾 <b>AMD вже пропонує Microsoft Project Zenith на власному міні-ПК з Ryzen AI Halo</b>\n\nВ AMD повідомили, що новітнє середовище для розробки від Microsoft Project Zenith вже доступне для розробників на платформі Ryzen AI Halo.\n\n🔗 <a href=\"https://itc.ua/ua/novini/amd-vzhe-proponuye-microsoft-project-zenith-na-vlasnomu-mini-pk-z-ryzen-ai-halo/\">ITC.ua</a>\n\n#софт",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/amd-vzhe-proponuye-microsoft-project-zenith-na-vlasnomu-mini-pk-z-ryzen-ai-halo/",
     "orig": "AMD вже пропонує Microsoft Project Zenith на власному міні-ПК з Ryzen AI Halo"
@@ -16407,6 +16257,48 @@
     "link": "https://deadline.com/2026/11/leah-mckendrick-and-maddie-ziegler-star-in-delulu-thriller-1237219314/",
     "orig": "Leah McKendrick To Follow ‘Voicemails For Isabelle’ With “Ferociously Female” Thriller ‘Delulu’ Starring Maddie Ziegler; XYZ & Temple Hill Produce — AFM"
    }
+  ],
+  [
+   1794353367.7627637,
+   5580,
+   "🤘",
+   "IGNEA і Combichrist видали спільний сингл",
+   "Neformat",
+   {
+    "also": [],
+    "caption": "🤘 <b>IGNEA і Combichrist видали спільний сингл</b>\n\nДнями український модерн-метал-гурт IGNEA й американський індастріал-метал-проєкт Combichrist разом створили сингл &quot;Prefab&quot;. Він сплітає звучання двох формацій в енергійний і важкий рейв-саундтрек. A\n\n🔗 <a href=\"https://www.neformat.com.ua/news/28393-ignea-i-combichrist-vidali-spilniy-singl.html\">Neformat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.neformat.com.ua/news/28393-ignea-i-combichrist-vidali-spilniy-singl.html",
+    "orig": "IGNEA і Combichrist видали спільний сингл"
+   }
+  ],
+  [
+   1794353465.35815,
+   5581,
+   "🤘",
+   "Alexisonfire випустили перший тизер нового альбому",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Alexisonfire випустили перший тизер нового альбому</b>\n\nГурт опублікував коротке відео, яким, схоже, розпочав тізерити свій шостий студійний альбом\n\n🔗 <a href=\"https://lambgoat.com/news/55824/alexisonfire-drop-first-teaser-for-new-album/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55824/alexisonfire-drop-first-teaser-for-new-album/",
+    "orig": "Alexisonfire drop first teaser for new album"
+   }
+  ],
+  [
+   1794353473.9351964,
+   5582,
+   "🤘",
+   "Haywire скасували виступ на Vans Warped Tour в Орландо",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Haywire скасували виступ на Vans Warped Tour в Орландо</b>\n\nХардкор-гурт Haywire з Бостона оголосив про скасування свого виступу на фестивалі Vans Warped Tour в Орландо через накладку в графіку. Музиканти не надали додаткових деталей, проте продовжать свій насичений концертний тур в Австралії та Європі.\n\n🔗 <a href=\"https://lambgoat.com/news/55825/haywire-withdraw-from-warped-tour-orlando/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55825/haywire-withdraw-from-warped-tour-orlando/",
+    "orig": "Haywire withdraw from Warped Tour Orlando"
+   }
   ]
  ],
  "posted_by_source": {
@@ -16588,10 +16480,10 @@
    1794222361.3425462
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1794263486.3049242,
-   1794265282.2454934,
    1794267175.227353,
-   1794288693.5100121
+   1794288693.5100121,
+   1794353465.3585176,
+   1794353473.9355676
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1793863899.4650683,
@@ -16615,10 +16507,8 @@
    1793223099.157012
   ],
   "music|Neformat|https://www.neformat.com.ua/": [
-   1794263378.9489174,
-   1794265276.6551368,
-   1794265278.7715251,
-   1794268889.4003255
+   1794268889.4003255,
+   1794353367.763117
   ],
   "music|Pitchfork|https://pitchfork.com/feed/feed-news/rss": [
    1794268883.5499911
@@ -17214,7 +17104,6 @@
   "249e2cf9bfbe9caa": 1793813475.4432364,
   "249ea90952d5812f": 1793890883.051384,
   "24ad34995e0d2fdc": 1793914321.8265257,
-  "24b64508af689e66": 1793142163.6043267,
   "24daa1e948fd5afb": 1793520052.6677861,
   "24deac1a75281779": 1793729213.3627903,
   "24ee0d11b76f3a78": 1793518469.6393425,
@@ -17890,6 +17779,7 @@
   "557c31398258c3e4": 1793624475.8935785,
   "55889500fcdf5419": 1793199713.3399613,
   "55971c64f62c815a": 1793372530.3921862,
+  "55c25e13c2d1b4c6": 1794353465.3584552,
   "55f023811b9efe9c": 1793187191.8722298,
   "55f1a05e3c242a02": 1794306676.3979933,
   "55f463ec17ccc74f": 1793248251.320901,
@@ -18086,7 +17976,6 @@
   "61e572d9e288981d": 1793197973.0484483,
   "62003956354a4fda": 1793295053.0146327,
   "621cbc293125eebd": 1793673083.0359828,
-  "622fbd10dd79def8": 1793142167.9597201,
   "6233cf16ca8d6f4b": 1793368958.6502,
   "623685dea76cef94": 1793277076.6269114,
   "6242f278d158f01e": 1793369007.4712665,
@@ -19062,6 +18951,7 @@
   "a48c86c194076d69": 1793284277.8653388,
   "a4ae931d79d496ec": 1793487692.0326593,
   "a4b2738955eeb0e3": 1793298771.032884,
+  "a4c265c1e61f0eae": 1794353367.763071,
   "a4c85a5317e49297": 1793275394.2070296,
   "a4f46b540920a897": 1793649684.9992905,
   "a5131b4a4a4e6e3c": 1793833286.8042223,
@@ -19648,7 +19538,6 @@
   "cb5d1ed905a96288": 1793228480.580658,
   "cb9702b0c10ca89a": 1793874679.9481912,
   "cba46daeb73f22ff": 1794295689.1235507,
-  "cba8f249eae7082f": 1793142154.2969387,
   "cbb2e5aea21cee94": 1793800956.0777733,
   "cbb5ced9c5cca89c": 1793720402.3975544,
   "cbb698c35ad2536d": 1793584878.8547297,
@@ -20276,6 +20165,7 @@
   "f847bc7a72867b8e": 1793782877.8432264,
   "f84cce9069954581": 1793991693.880322,
   "f84f1df27062e286": 1793403094.2137055,
+  "f857e39141f21e8a": 1794353473.935522,
   "f881bafed6675b4c": 1793721754.7233136,
   "f896db7719e03f9d": 1793433875.2494948,
   "f8ac7a069c5abf7b": 1794108683.0873785,
@@ -20851,7 +20741,7 @@
   ],
   "artists_checked": 1794348118.474827,
   "blocked_until": 1794346622.300908,
-  "cursor": 65,
+  "cursor": 75,
   "digest_week": "2026-W45",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -21636,11 +21526,11 @@
    "IndieWire": 2,
    "Insider Gaming": 8,
    "Kerrang!": 1,
-   "Lambgoat": 8,
+   "Lambgoat": 10,
    "Metal Hammer (Louder)": 8,
    "Metal Injection": 1,
    "Mezha": 17,
-   "Neformat": 8,
+   "Neformat": 9,
    "PC Gamer": 5,
    "Pitchfork": 1,
    "PlayUA": 1,
@@ -21656,7 +21546,7 @@
   },
   "translators": {
    "DeepL": 10,
-   "gemini-flash-lite-latest": 167
+   "gemini-flash-lite-latest": 169
   },
   "week": "2026-W46"
  },
@@ -23151,26 +23041,6 @@
    "創業王 CEO",
    1791853958.9171717
   ],
-  "q:ceo jensen": [
-   0,
-   "",
-   1794178891.7281995
-  ],
-  "q:ceo jensen huang": [
-   0,
-   "",
-   1794178891.1717398
-  ],
-  "q:ceo jensen huang investigated": [
-   0,
-   "",
-   1794178890.6695514
-  ],
-  "q:ceo jensen huang investigated for affair": [
-   0,
-   "",
-   1794178890.1549711
-  ],
   "q:ceo strauss": [
    0,
    "",
@@ -24381,21 +24251,6 @@
    "JEFF",
    1792021764.8697996
   ],
-  "q:jensen huang investigated": [
-   0,
-   "",
-   1794178893.2705457
-  ],
-  "q:jensen huang investigated for affair": [
-   0,
-   "",
-   1794178892.7549362
-  ],
-  "q:jensen huang investigated for affair with": [
-   0,
-   "",
-   1794178892.2112868
-  ],
   "q:join": [
    4948290,
    "JOIN",
@@ -25020,26 +24875,6 @@
    0,
    "",
    1794321231.2128932
-  ],
-  "q:nvidia ceo": [
-   0,
-   "",
-   1794178889.5995853
-  ],
-  "q:nvidia ceo jensen": [
-   0,
-   "",
-   1794178888.8776505
-  ],
-  "q:nvidia ceo jensen huang": [
-   0,
-   "",
-   1794178888.209693
-  ],
-  "q:nvidia ceo jensen huang investigated": [
-   0,
-   "",
-   1794178887.6207879
   ],
   "q:oblivion": [
    0,
@@ -25901,11 +25736,6 @@
    "Survival Games",
    1792688496.4997191
   ],
-  "q:suspected chinese spy": [
-   0,
-   "",
-   1794178887.0539134
-  ],
   "q:switch 2 us": [
    0,
    "",
@@ -26513,18 +26343,6 @@
   ]
  },
  "titles": [
-  [
-   1794178884.9584503,
-   "Apple може перетворити Siri на повноцінного ШІ-агента вже наступного року – Марк Гурман"
-  ],
-  [
-   1794178895.0015202,
-   "NVIDIA CEO Jensen Huang Investigated for Affair With ‘Suspected Chinese Spy’"
-  ],
-  [
-   1794178898.515003,
-   "Suicide Silence's Chris Garza reunited with Schecter guitar used during Mitch memorial show & more"
-  ],
   [
    1794180769.8261087,
    "NBC’s Mike Tirico Skipping ‘Sunday Night Football’ In Chicago Due To “Health Issue”"
@@ -27280,21 +27098,21 @@
   [
    1794349893.5886295,
    "Leah McKendrick To Follow ‘Voicemails For Isabelle’ With “Ferociously Female” Thriller ‘Delulu’ Starring Maddie Ziegler; XYZ & Temple Hill Produce — AFM"
+  ],
+  [
+   1794353367.7630727,
+   "IGNEA і Combichrist видали спільний сингл"
+  ],
+  [
+   1794353465.3584576,
+   "Alexisonfire drop first teaser for new album"
+  ],
+  [
+   1794353473.9355247,
+   "Haywire withdraw from Warped Tour Orlando"
   ]
  ],
  "titles_uk": [
-  [
-   1794178884.9584515,
-   "Apple може перетворити Siri на повноцінного ШІ-агента вже наступного року – Марк Гурман"
-  ],
-  [
-   1794178895.0015216,
-   "Голову NVIDIA Дженсена Хуанга розслідують через зв'язки з підозрюваною у шпигунстві"
-  ],
-  [
-   1794178898.5150042,
-   "Гітарист Suicide Silence повернув легендарну гітару після обміну"
-  ],
   [
    1794180769.8261104,
    "Mike Tirico пропустить Sunday Night Football у Чикаго через проблеми зі здоров'ям"
@@ -28050,6 +27868,18 @@
   [
    1794349893.5886307,
    "Лі МакКендрік зніме трилер Delulu за участю Медді Зіглер"
+  ],
+  [
+   1794353367.7630737,
+   "IGNEA і Combichrist видали спільний сингл"
+  ],
+  [
+   1794353465.3584585,
+   "Alexisonfire випустили перший тизер нового альбому"
+  ],
+  [
+   1794353473.9355257,
+   "Haywire скасували виступ на Vans Warped Tour в Орландо"
   ]
  ],
  "ukrainian": {
@@ -28227,6 +28057,7 @@
    "2160480": "",
    "216150": "",
    "2161620": "",
+   "2169200": "",
    "2172010": "",
    "2183900": "is",
    "2186990": "is",
@@ -28319,6 +28150,7 @@
    "2697000": "is",
    "270880": "i",
    "2713000": "is",
+   "2742830": "",
    "2747660": "",
    "2753970": "is",
    "275850": "",
@@ -28334,6 +28166,7 @@
    "2814860": "",
    "281990": "",
    "2825860": "is",
+   "2826790": "",
    "2828710": "is",
    "2838950": "",
    "284160": "",
@@ -28364,6 +28197,7 @@
    "305620": "is",
    "306130": "",
    "3073940": "",
+   "3115160": "",
    "3124540": "is",
    "3156770": "is",
    "3159330": "",
@@ -28603,8 +28437,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1794331902.7880445,
-  "with_uk": 109
+  "last_check": 1794353493.580868,
+  "with_uk": 107
  },
  "weekly_releases_week": "2026-W46",
  "wishlist": {
@@ -30402,7 +30236,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794348114.7914877,
+  "last_check": 1794353483.0313509,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
