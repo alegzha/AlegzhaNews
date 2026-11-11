@@ -2,7 +2,7 @@
  "alerts": {},
  "daily_digest_date": "2026-11-10",
  "freebies": {
-  "last_check": 1794396887.310846,
+  "last_check": 1794404097.0555837,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -28,178 +28,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-11 13:01 UTC",
-  "gemini_error": "",
+  "at": "2026-11-11 13:34 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 3
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793710942.1683788,
-   4423,
-   "🤖",
-   "Anthropic випустила Message Threads у публічну бета-версію",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/anthropics-message-threads-cut-time-to-first-token-by-35-percent-for-long-conversations/",
-    "orig": "Anthropic's Message Threads cut time to first token by 35 percent for long conversations"
-   }
-  ],
-  [
-   1793710963.0273905,
-   4424,
-   "🎮",
-   "Розробники Wardogs ідуть на відпочинок у грудні й радять пограти в GTA 6",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/go-play-gta-6-says-wardogs-developer",
-    "orig": "'Go Play GTA 6, We Need to Detox,' Wardogs Developer Tells Fans as It Prepares to Take December Off"
-   }
-  ],
-  [
-   1793710980.404069,
-   4425,
-   "🤘",
-   "M. Shadows із Avenged Sevenfold розповів про досвід альбому The Stage",
-   "Kerrang!",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.kerrang.com/avenged-sevenfolds-m-shadows-reflects-on-what-he-learned-from-the-stage-ten-years-on",
-    "orig": "Avenged Sevenfold’s M. Shadows reflects on what he learned from The Stage ten years on"
-   }
-  ],
-  [
-   1793710984.684048,
-   4426,
-   "🤘",
-   "Золтан Баторі виділив ще $100 000 на розвиток дзюдо",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/five-finger-death-punchs-zoltan-bathory-doubles-down-on-judo-commitment",
-    "orig": "FIVE FINGER DEATH PUNCH's ZOLTAN BATHORY Doubles Down On Judo Commitment"
-   }
-  ],
-  [
-   1793710998.554249,
-   4427,
-   "🎮",
-   "Ubisoft випускає масштабне оновлення для The Division 2",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/ubisoft-division-2-project-conflict-gta-6-launch/",
-    "orig": "Ubisoft’s Division 2 Project Conflicts with GTA 6 Launch"
-   }
-  ],
-  [
-   1793711000.5935094,
-   4428,
-   "💾",
-   "Windows 11 26H2 запускається на ПК зі 128 МБ ОЗП: працюють робочий стіл, провідник і блокнот",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/windows-11-26h2-zapuskayetsya-na-pk-zi-128-mb-ozp-pratsyuyut-robochyj-stil-providnyk-i-bloknot/",
-    "orig": "Windows 11 26H2 запускається на ПК зі 128 МБ ОЗП: працюють робочий стіл, провідник і блокнот"
-   }
-  ],
-  [
-   1793711002.669571,
-   4429,
-   "🎬",
-   "Зірка «Крику» прокоментувала участь у 8 частині культового горору",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/zirka-kryku-prokomentuvala-uchast-u-8-chastyni-kultovogo-gororu/",
-    "orig": "Зірка «Крику» прокоментувала участь у 8 частині культового горору"
-   }
-  ],
-  [
-   1793712684.6867113,
-   4430,
-   "🤘",
-   "Чого Avenged Sevenfold навчив несподіваний реліз альбому The Stage",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/music/albums/avenged-sevenfold-the-stage-lessons-learned-m-shadows",
-    "orig": "“They said, ‘We feel shafted. You didn’t let us know’”: What Avenged Sevenfold learned from The Stage"
-   }
-  ],
-  [
-   1793712687.6615283,
-   4431,
-   "🎮",
-   "У 2026 році в ігровій індустрії звільнили більше людей, ніж за весь 2025-й",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/game-industry-layoffs-in-2026-so-far-316812/",
-    "orig": "У 2026 році в ігровій індустрії звільнили більше людей, ніж за весь 2025-й"
-   }
-  ],
-  [
-   1793712692.8981764,
-   4432,
-   "🤘",
-   "AS I LAY DYING випустили новий сингл 'The Cost To Stay' та анонсували альбом",
-   "Blabbermouth",
-   {
-    "also": [
-     [
-      "Lambgoat",
-      "https://lambgoat.com/news/55674/as-i-lay-dying-release-latest-single-the-cost-to-stay-along-with-official-music-video/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/as-i-lay-dying-shares-new-single-the-cost-to-stay-from-upcoming-self-titled-album",
-    "orig": "AS I LAY DYING Shares New Single 'The Cost To Stay' From Upcoming Self-Titled Album"
-   }
-  ],
-  [
-   1793712702.5944464,
-   4433,
-   "🎮",
-   "Новий фанатський мод усуває зависання у ПК-версії Dead Space Remake",
-   "Digital Foundry",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.digitalfoundry.net/features/dead-space-remake-mod-finally-fixes-traversal-stutter-in-the-pc-version",
-    "orig": "Feature: Dead Space Remake Mod Finally Fixes Traversal Stutter in the PC Version"
-   }
-  ],
-  [
-   1793712704.7383997,
-   4434,
-   "💾",
-   "Новий експлойт Android може призвести до збою телефону без вашої участі: що відомо",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/novyj-eksplojt-android-mozhe-pryzvesty-do-zboyu-telefonu-bez-vashoyi-uchasti-shho-vidomo/",
-    "orig": "Новий експлойт Android може призвести до збою телефону без вашої участі: що відомо"
-   }
-  ],
   [
    1793716285.2668862,
    4435,
@@ -15071,7 +14911,6 @@
       "https://www.neformat.com.ua/news/28390-violent-omen-vipustili-pershiy-albom-za-13-rokiv.html"
      ]
     ],
-    "caption": "🤘 <b>Alexisonfire випустили перший тизер нового альбому</b>\n\nГурт опублікував коротке відео, яким, схоже, розпочав тізерити свій шостий студійний альбом\n\n🔗 <a href=\"https://lambgoat.com/news/55824/alexisonfire-drop-first-teaser-for-new-album/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55824/alexisonfire-drop-first-teaser-for-new-album/",
     "orig": "Alexisonfire drop first teaser for new album"
@@ -15085,7 +14924,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Haywire скасували виступ на Vans Warped Tour в Орландо</b>\n\nХардкор-гурт Haywire з Бостона оголосив про скасування свого виступу на фестивалі Vans Warped Tour в Орландо через накладку в графіку. Музиканти не надали додаткових деталей, проте продовжать свій насичений концертний тур в Австралії та Європі.\n\n🔗 <a href=\"https://lambgoat.com/news/55825/haywire-withdraw-from-warped-tour-orlando/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55825/haywire-withdraw-from-warped-tour-orlando/",
     "orig": "Haywire withdraw from Warped Tour Orlando"
@@ -15099,7 +14937,6 @@
    "Neformat",
    {
     "also": [],
-    "caption": "🤘 <b>Ace of Swords вирушає в глибини підсвідомості з новим EP</b>\n\nСьогодні дарк-фолк-гурт оприлюднив новий мініальбом &quot;Tulpa&quot;. Його прогресивна структура й меланхолійна атмосфера заводять слухача вглиб власних переживань. Tulpa by Ace of Swords Новий мініальбом вс\n\n🔗 <a href=\"https://www.neformat.com.ua/news/28391-ace-of-swords-virushaie-v-glibini-pidsvidomosti-z-novim-ep.html\">Neformat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.neformat.com.ua/news/28391-ace-of-swords-virushaie-v-glibini-pidsvidomosti-z-novim-ep.html",
     "orig": "Ace of Swords вирушає в глибини підсвідомості з новим EP"
@@ -15944,6 +15781,48 @@
     "link": "https://variety.com/2026/tv/news/julianna-margulies-american-heiress-mgm-series-1236944246/",
     "orig": "Julianna Margulies to Star in Period Romantic Comedy Series ‘American Heiress’ at MGM+"
    }
+  ],
+  [
+   1794403883.9128995,
+   5642,
+   "🎬",
+   "Режисер J.M. Harper про створення документалки Soul Patrol про спецназ у В'єтнамі",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Режисер J.M. Harper про створення документалки Soul Patrol про спецназ у В&#x27;єтнамі</b>\n\nДокументальний фільм Soul Patrol режисера J.M. Harper виходить у кінопрокат після прем&#x27;єри на Sundance. Стрічка розповідає про Team 2/6 — першопрохідців серед афроамериканських підрозділів спеціального призначення США у В&#x27;єтнамі, заснована на мемуарах ветерана Ed Emanuel.\n\n🔗 <a href=\"https://deadline.com/2026/11/soul-patrol-j-m-harper-kino-lorber-dochouse-1237219688/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/soul-patrol-j-m-harper-kino-lorber-dochouse-1237219688/",
+    "orig": "‘Soul Patrol’: J.M. Harper On Exploring The Complex Legacy Of The First All-Black U.S. Special Ops Team In Vietnam"
+   }
+  ],
+  [
+   1794403992.1358988,
+   5643,
+   "🎮",
+   "Bethesda не покаже нові деталі Sentinel до ювілею серії The Elder Scrolls",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Bethesda не покаже нові деталі Sentinel до ювілею серії The Elder Scrolls</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/1650040/\">Huge</a>, <a href=\"https://store.steampowered.com/app/882200/\">Reveal</a>\n\nСьогодні всесвіт The Elder Scrolls святкує важливий ювілей, проте розробники не використовують цю дату для анонсів щодо наступної гри — Sentinel\n\n🔗 <a href=\"https://insider-gaming.com/elder-scrolls-sentinel-no-news-today-anniversary/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/elder-scrolls-sentinel-no-news-today-anniversary/",
+    "orig": "Bethesda Won’t Use Today’s Huge Elder Scrolls Anniversary to Reveal More Sentinel News"
+   }
+  ],
+  [
+   1794404095.259232,
+   5644,
+   "🎮",
+   "ЄС готує новий закон Digital Fairness Act, який жорстко регулюватиме лутбокси, pay-to-win та віртуальні валюти в іграх",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>ЄС готує новий закон Digital Fairness Act, який жорстко регулюватиме лутбокси, pay-to-win та віртуальні валюти в іграх</b>\n\n«Лути-бокси», «темні патерни», віртуальні валюти, сервіси за передплатою, системи «плати, щоб виграти» та багато інших атрибутів диявольського цифрового кріпацтва підлягатимуть суворому регулюванню відповідно до запропонованого Європейською комісією Закону про цифрову справедливість, який сьогодні було офіційно представлено країнам-членам ЄС. Повний текст проекту регламенту просочився в мережу на початку цього тижня.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/lootboxes-pay-to-win-virtual-currencies-and-other-blights-unto-gaming-face-heavy-regulation-as-the-eu-tables-new-digital-fairness-act\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/lootboxes-pay-to-win-virtual-currencies-and-other-blights-unto-gaming-face-heavy-regulation-as-the-eu-tables-new-digital-fairness-act",
+    "orig": "Lootboxes, pay-to-win, virtual currencies and other blights unto gaming face heavy regulation as the EU tables new Digital Fairness Act"
+   }
   ]
  ],
  "posted_by_source": {
@@ -16024,7 +15903,8 @@
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
    1794322897.3264713,
    1794324720.4065378,
-   1794398688.2693393
+   1794398688.2693393,
+   1794403992.1362698
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1794308495.9100363
@@ -16049,7 +15929,8 @@
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1794394889.8856018,
-   1794400295.8181477
+   1794400295.8181477,
+   1794404095.2595353
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1794272482.362866,
@@ -16071,7 +15952,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1794313877.0725212,
    1794317498.314904,
    1794319299.6830812,
    1794349893.5886748,
@@ -16085,7 +15965,8 @@
    1794376880.7021782,
    1794379596.8600478,
    1794379783.9103842,
-   1794387773.8867042
+   1794387773.8867042,
+   1794403883.913295
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794308484.7822244
@@ -16300,6 +16181,7 @@
   "06721562b9041ba7": 1794123084.485029,
   "068629af5069ee94": 1793295502.7164915,
   "0691c388924a1bb6": 1793304052.600284,
+  "06a3440977807218": 1794403852.8500218,
   "06a544e6d607592d": 1794394853.3603945,
   "06ac7a204a07e98e": 1793901796.532273,
   "06b851675cb99f73": 1793946699.9029233,
@@ -16378,7 +16260,6 @@
   "0b7454db6a9bc1d9": 1794141053.1955943,
   "0b8062dfabc5b1db": 1793916081.07267,
   "0b81309593d1d40b": 1793399272.6363308,
-  "0b819fa75a74d3eb": 1793192534.1519043,
   "0b9aae3be395fc50": 1794265282.2454684,
   "0b9baf8e0263731a": 1793392256.1180868,
   "0b9c46dcbc0aaec9": 1793811861.5830736,
@@ -16627,7 +16508,6 @@
   "1c57d21dabf87dfd": 1793304115.3946443,
   "1c5fa7cd6b6be5bf": 1793386853.778682,
   "1c6e86a652834daa": 1793815467.806976,
-  "1ca59dd99874f5fd": 1793192608.6827052,
   "1cbfc1df68a0ec8a": 1793359902.942002,
   "1cc767f035cfcafd": 1794326506.0290408,
   "1ceb56a3b3745da8": 1793959276.1517801,
@@ -16700,7 +16580,6 @@
   "20af5cf3d6012ea1": 1793302370.8295865,
   "20b3f7f37a074d11": 1793284316.314437,
   "20c46d20a284b6db": 1793729067.5918496,
-  "20de93a5259c2c7f": 1793192598.9868407,
   "20eb8527cb3350fa": 1793385305.8600316,
   "20f58c756737a3c9": 1793898089.9903834,
   "20fb961d32b290db": 1793395880.9716036,
@@ -16819,7 +16698,6 @@
   "29327459ca073fdf": 1793377927.2227225,
   "293a1d8b82625e5b": 1794231054.60154,
   "293a229facbbf3e4": 1793374348.6470652,
-  "294255a456a3bf33": 1793192558.7081301,
   "2950fb3099664ca8": 1793300510.4575071,
   "2959dc4e84a4998d": 1793224899.1329055,
   "29640df8731931b3": 1793759599.2263076,
@@ -16993,7 +16871,6 @@
   "35b6752c52af44eb": 1793206879.087405,
   "35c7c978195d3a78": 1793372522.233624,
   "35cad1d958b2841b": 1793521877.1028616,
-  "3617b3e21507e27b": 1793193000.6582832,
   "363a3157a06f97c8": 1793305972.0646014,
   "3712e197a4478fbe": 1793473377.7628138,
   "372e272e7f799819": 1793896430.5025733,
@@ -17092,6 +16969,7 @@
   "3e0a76a1e05144aa": 1794335488.7555916,
   "3e2f673906d5491d": 1793719979.3754086,
   "3e44185b943f0c09": 1794313886.5421631,
+  "3e57339765a5c089": 1794403992.1362224,
   "3e5ae69d8597dd41": 1793812057.6454804,
   "3e6bb8c64f80c1d9": 1793849483.4138262,
   "3e7019c0f2362058": 1794178884.958449,
@@ -17308,7 +17186,6 @@
   "4e20377450a9dd7d": 1793638877.7164671,
   "4e22c51acacfd42d": 1794069054.1396751,
   "4e5469a3f0dee49f": 1794096081.7873914,
-  "4e569a08412e8ec3": 1793194317.5413907,
   "4e5c554f46ce2c81": 1793665855.4540458,
   "4e850475e2eb3aec": 1793626402.8607879,
   "4e8826442bb96c71": 1793235677.973066,
@@ -17433,7 +17310,6 @@
   "57274d1f0866156c": 1793818893.834342,
   "5729fd482eb126e5": 1793637099.2159998,
   "57445073924f55eb": 1794223877.2082872,
-  "57486404ead9f605": 1793192557.2048879,
   "5773515e4858031c": 1793651503.3500595,
   "5777a1ac177a31c9": 1793863899.4650154,
   "578a4e7c080a95c7": 1793363606.5883389,
@@ -17705,7 +17581,6 @@
   "68d13fafc7c56e1c": 1794223852.0687604,
   "68de18dd3b395750": 1793379759.1371446,
   "68e8ca1575e78dba": 1793553105.0773208,
-  "68eb569f45c08e03": 1793194315.5467055,
   "68f983775e47d0a9": 1793379731.9274502,
   "6902d19fb6a81565": 1793711002.6699135,
   "692868a307cd52d5": 1793923274.5150125,
@@ -17877,6 +17752,7 @@
   "731362751099257f": 1794099679.2837117,
   "7318835aebb5c5fb": 1793925076.7035167,
   "73337ced442a1400": 1793374332.5373514,
+  "733d840549e94357": 1794404095.2594936,
   "73564b0868b06fd1": 1793633615.2269716,
   "735d1954bcc7e351": 1793871080.5038064,
   "73721c050d1549ef": 1793473373.711377,
@@ -18076,6 +17952,7 @@
   "809dd9fe0be28f66": 1793637058.4404707,
   "80db25dc396c0461": 1793892655.141962,
   "80dea0e246e0c9d2": 1794099675.8191545,
+  "80f6804ec58cab81": 1794403883.9132445,
   "81090fe21ce7330a": 1793424676.7619402,
   "810ced8245976128": 1793377945.8973536,
   "810d7f870a467074": 1793808081.7077937,
@@ -18337,7 +18214,6 @@
   "936a95047963af5d": 1793300535.0954514,
   "936ae3c3abd74c82": 1793797275.1181605,
   "939467b5e073e5e2": 1793750499.2712302,
-  "93ab4f01196c8a15": 1793192546.4060133,
   "93ad2b1fb748a0d6": 1793629857.7154393,
   "93e99b36a245642f": 1793322485.2963126,
   "93ed264936efe0dd": 1793815510.3636537,
@@ -18389,7 +18265,6 @@
   "969661981f446bd1": 1793302414.7452998,
   "9697a1beb0a123f7": 1793246583.1615922,
   "969cb21ccb6d84f7": 1793799150.7229204,
-  "969e6a4acc7b6a36": 1793192559.4363813,
   "96a40a7feb4260b4": 1793241054.3613508,
   "96d8ce1f1ef60731": 1793442675.9577343,
   "96ec760e5e7fd534": 1794146451.9028087,
@@ -18695,7 +18570,6 @@
   "ac3b087391a04625": 1793898132.4002135,
   "ac4788dea6ad997d": 1793728924.0371978,
   "ac4a9315223a645c": 1793639095.9157019,
-  "acad6d78f19b9408": 1793192978.4677958,
   "acaf5634f2a38941": 1793815303.6129956,
   "acb63de4db3cb4da": 1793698284.6600015,
   "acbad1b30197da27": 1793694784.319945,
@@ -18845,7 +18719,6 @@
   "b4e05fc62379bae9": 1793439081.5498314,
   "b513259b4763bc58": 1793241054.3613508,
   "b513ab7fd516f43b": 1793361825.240339,
-  "b5186077e167d6b1": 1793194328.9847565,
   "b51a129b966abf70": 1793246477.609365,
   "b5419a6793fed1ff": 1793545252.091723,
   "b5539d7160646797": 1793736114.167941,
@@ -19083,7 +18956,6 @@
   "c62bad1fc3b2d510": 1793334678.8673882,
   "c6315c929a01423a": 1794340882.3778493,
   "c65f74ca87dccc7f": 1793736064.701493,
-  "c66b43b212c74755": 1793194285.2693458,
   "c6730812703b9db1": 1793365291.6684308,
   "c6afeb2fb1e7ce2b": 1793826148.1227229,
   "c6ccf70140869a3a": 1793781227.1864572,
@@ -19338,7 +19210,6 @@
   "d8bc5671d00617ad": 1793997057.807581,
   "d8d58ac5421796bc": 1793203294.4574778,
   "d8ee1b04bb365377": 1793844086.40759,
-  "d8eebb95c79608d6": 1793194303.609671,
   "d8f396bbbf457987": 1793575892.3860388,
   "d90d007aae6e0f93": 1793394128.4496553,
   "d912ce43c9f4a71e": 1793934073.4592197,
@@ -19682,7 +19553,6 @@
   "f0f7b1cf8112748b": 1794150179.1281905,
   "f120a3777b512e44": 1793775684.1445663,
   "f15a88e3133f8122": 1793734356.451171,
-  "f15b36ce9fa7d8e4": 1793192517.8660328,
   "f17c7519eadd803e": 1793397682.6740632,
   "f18a7b8bac219fe2": 1793637058.4404707,
   "f1a176b889f26e64": 1793218934.9833777,
@@ -19891,7 +19761,6 @@
   "fe168b25a465812c": 1793246454.163636,
   "fe1c4b7b571ffdab": 1793889104.9653654,
   "fe3406a94f452d40": 1793565052.9826593,
-  "fe505d6feca84491": 1793192981.7060502,
   "fe60ca62a115de1e": 1793797394.5200958,
   "fe61572102ce0e92": 1793476852.6182845,
   "fe6340488c1c7441": 1793203427.1367009,
@@ -21112,7 +20981,7 @@
    "Вішліст Steam": 5
   },
   "filtered": {
-   "/Film": 12,
+   "/Film": 13,
    "Bloomberg": 1,
    "Deadline": 1,
    "IGN": 1,
@@ -21134,7 +21003,7 @@
    "Bloomberg": 18,
    "DOU": 4,
    "DOU Gamedev": 1,
-   "Deadline": 41,
+   "Deadline": 42,
    "Distorted Sound": 2,
    "Eurogamer": 7,
    "GamesIndustry.biz": 4,
@@ -21143,7 +21012,7 @@
    "IGN": 5,
    "ITC.ua": 21,
    "IndieWire": 3,
-   "Insider Gaming": 9,
+   "Insider Gaming": 10,
    "Kerrang!": 1,
    "Lambgoat": 12,
    "Metal Hammer (Louder)": 12,
@@ -21155,7 +21024,7 @@
    "PlayUA": 3,
    "Polygon": 15,
    "Product Hunt": 1,
-   "Rock Paper Shotgun": 5,
+   "Rock Paper Shotgun": 6,
    "SteamDB": 2,
    "Stereogum": 1,
    "The Decoder": 6,
@@ -21164,9 +21033,9 @@
    "Variety": 15
   },
   "translators": {
-   "DeepL": 15,
+   "DeepL": 16,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 216
+   "gemini-flash-lite-latest": 219
   },
   "week": "2026-W46"
  },
@@ -22355,6 +22224,31 @@
    2825530,
    "Beholder: Conductor",
    1793719889.3906271
+  ],
+  "q:bethesda won't": [
+   0,
+   "",
+   1794403887.9056242
+  ],
+  "q:bethesda won't use": [
+   0,
+   "",
+   1794403887.4116793
+  ],
+  "q:bethesda won't use today": [
+   0,
+   "",
+   1794403886.911445
+  ],
+  "q:bethesda won't use today's huge": [
+   0,
+   "",
+   1794403886.4205396
+  ],
+  "q:bethesda won't use today's huge elder": [
+   0,
+   "",
+   1794403885.9314632
   ],
   "q:betrayed": [
    2855940,
@@ -25561,6 +25455,11 @@
    "",
    1794315867.141126
   ],
+  "q:use today's huge elder scrolls anniversary": [
+   0,
+   "",
+   1794403891.3777575
+  ],
   "q:valor mortis": [
    2828710,
    "Valor Mortis",
@@ -25811,6 +25710,36 @@
    "Witchbrook",
    1793201711.3159413
   ],
+  "q:won't": [
+   0,
+   "",
+   1794403890.883459
+  ],
+  "q:won't use": [
+   0,
+   "",
+   1794403890.368043
+  ],
+  "q:won't use today": [
+   0,
+   "",
+   1794403889.875103
+  ],
+  "q:won't use today's huge": [
+   0,
+   "",
+   1794403889.3852284
+  ],
+  "q:won't use today's huge elder": [
+   0,
+   "",
+   1794403888.8931859
+  ],
+  "q:won't use today's huge elder scrolls": [
+   0,
+   "",
+   1794403888.3954892
+  ],
   "q:workers resources soviet republic": [
    784150,
    "Workers & Resources: Soviet Republic",
@@ -25901,44 +25830,38 @@
   "Mezha": [
    "anthropic",
    "apple",
-   "asus",
    "claude",
    "dji",
-   "dot-chain defence",
-   "fpv-дрони",
+   "ford",
    "grand theft auto vi",
    "gta 6",
    "ifixit",
    "macbook pro",
-   "microsoft",
    "rockstar games",
-   "rog xbox ally x",
    "spacex",
    "starlink",
+   "steam",
    "xbox cloud gaming",
+   "you are empty",
    "youtube",
-   "аоз",
+   "авто",
    "безпілотники",
    "блоги",
    "бпла",
    "військові технології",
    "генштаб",
    "дрони",
-   "міноборони",
+   "зроблено в україні",
    "новини",
    "ноутбуки",
-   "нрк",
    "оборонка",
-   "перехоплювачі",
    "платформи",
    "подкасти",
-   "портативні пк",
-   "реб",
    "сили оборони",
-   "софт",
    "соціальні мережі",
    "супутниковий інтернет",
    "технології",
+   "україна",
    "штучний інтелект",
    "європейська комісія",
    "європейський союз",
@@ -25947,14 +25870,6 @@
   ]
  },
  "titles": [
-  [
-   1794231085.968641,
-   "BLAST Eyes $2 Million Deal to Bring CS2 Major to Las Vegas"
-  ],
-  [
-   1794231087.987107,
-   "Mass Effect зібрала найбільше гравців за п'ять років: творець трилогії заговорив про повернення"
-  ],
   [
    1794232935.785288,
    "This week in PC games: solve the disappearance of 700 people, build a night market for spirits, and play chess on a board that disobeys physics"
@@ -26710,17 +26625,21 @@
   [
    1794402084.7752502,
    "Julianna Margulies to Star in Period Romantic Comedy Series ‘American Heiress’ at MGM+"
+  ],
+  [
+   1794403883.9132462,
+   "‘Soul Patrol’: J.M. Harper On Exploring The Complex Legacy Of The First All-Black U.S. Special Ops Team In Vietnam"
+  ],
+  [
+   1794403992.1362264,
+   "Bethesda Won’t Use Today’s Huge Elder Scrolls Anniversary to Reveal More Sentinel News"
+  ],
+  [
+   1794404095.2594955,
+   "Lootboxes, pay-to-win, virtual currencies and other blights unto gaming face heavy regulation as the EU tables new Digital Fairness Act"
   ]
  ],
  "titles_uk": [
-  [
-   1794231085.968642,
-   "BLAST хоче провести мейджор з CS2 у Лас-Вегасі у 2028 році"
-  ],
-  [
-   1794231087.9871078,
-   "Mass Effect зібрала найбільше гравців за п'ять років: творець трилогії заговорив про повернення"
-  ],
   [
    1794232935.7852893,
    "Головні релізи тижня на ПК та залаштунки редакції Rock Paper Shotgun"
@@ -27476,6 +27395,18 @@
   [
    1794402084.775251,
    "Джуліанна Маргуліс отримала головну роль у серіалі American Heiress від MGM+"
+  ],
+  [
+   1794403883.9132473,
+   "Режисер J.M. Harper про створення документалки Soul Patrol про спецназ у В'єтнамі"
+  ],
+  [
+   1794403992.1362283,
+   "Bethesda не покаже нові деталі Sentinel до ювілею серії The Elder Scrolls"
+  ],
+  [
+   1794404095.259496,
+   "ЄС готує новий закон Digital Fairness Act, який жорстко регулюватиме лутбокси, pay-to-win та віртуальні валюти в іграх"
   ]
  ],
  "ukrainian": {
