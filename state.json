@@ -1,11 +1,5 @@
 {
  "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1794389482.1143134
-  },
   "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
    "detail": "https://distortedsoundmag.com/feed/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
    "label": "Джерело «Distorted Sound» не працює",
@@ -41,87 +35,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-11 09:31 UTC",
+  "at": "2026-11-11 10:02 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-latest",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793698298.575287,
-   4383,
-   "🎮",
-   "Виторг Remedy зріс утричі завдяки релізу Control Resonant",
-   "GamesIndustry.biz",
-   {
-    "also": [
-     [
-      "Eurogamer",
-      "https://www.eurogamer.net/control-resonant-remedy-revenue-leaps"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.gamesindustry.biz/remedy-q3-revenue-triples-to-396m-following-launch-of-control-resonant",
-    "orig": "Remedy Q3 revenue triples to €39.6m following launch of Control Resonant"
-   }
-  ],
-  [
-   1793698304.0083213,
-   4384,
-   "🤘",
-   "Рецензія на альбом: thrown – UNWANTED",
-   "Kerrang!",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.kerrang.com/album-review-thrown-unwanted",
-    "orig": "Album review: thrown – UNWANTED"
-   }
-  ],
-  [
-   1793698306.3362515,
-   4385,
-   "🎮",
-   "В яких країнах найбільше купують українські інді-ігри",
-   "DOU Gamedev",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://gamedev.dou.ua/articles/ukrainian-indie-games-sales-by-country/",
-    "orig": "В яких країнах найбільше купують українські інді-ігри"
-   }
-  ],
-  [
-   1793698309.8121834,
-   4386,
-   "💾",
-   "На кіберстійкість України у 2026 році виділили понад €32 млн у межах Талліннського механізму",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://speka.ua/news/na-kiberstiikist-ukrayini-u-2026-roci-vidilili-ponad-eur32-mln-u-mezax-tallinnskogo-mexanizmu-pjznr4#new_tab",
-    "orig": "На кіберстійкість України у 2026 році виділили понад €32 млн у межах Талліннського механізму"
-   }
-  ],
-  [
-   1793698316.147692,
-   4387,
-   "💾",
-   "Проєкт colibri дозволяє запускати великі ШІ-моделі на звичайному ПК",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/JustVugg/colibri",
-    "orig": "JustVugg/colibri"
-   }
-  ],
   [
    1793700183.1833444,
    4388,
@@ -15441,7 +15366,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🤖 <b>Anthropic запустила Claude Whiteboards, Sheets і Data</b>\n\nAnthropic вирішила, що Claude має бути не лише чатботом, а й місцем, де команда щодня працює з документами, таблицями та даними. 10 листопада компанія представила набір інструментів для офісних завдань.\n\n🔗 <a href=\"https://highload.tech/uk/anthropic-zapustyla-claude-whiteboards-sheets-i-data/#new_tab\">ITC.ua</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://highload.tech/uk/anthropic-zapustyla-claude-whiteboards-sheets-i-data/#new_tab",
     "orig": "Anthropic запустила Claude Whiteboards, Sheets і Data"
@@ -15455,7 +15379,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Google випустила ШІ-модель Gemini 4 Carbon</b>\n\nGoogle випустила нову ШІ-модель Gemini 4 Carbon після двотижневого тестування. Модель створена для складних завдань на кшталт програмування й наукових досліджень, проте вона використовує більше токенів, ніж Gemini 4 Argon. Новинка вже доступна для розробників і бізнес-клієнтів через Gemini API.\n\n🔗 <a href=\"https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/gemini-4-carbon-arrives-just-in-time-to-feel-like-yesterdays-news-in-the-fastest-model-cycle-yet/",
     "orig": "Gemini 4 Carbon arrives just in time to feel like yesterday's news in the fastest model cycle yet"
@@ -15469,7 +15392,6 @@
    "AIN.ua",
    {
     "also": [],
-    "caption": "🤖 <b>Instagram за допомогою ШІ виявлятиме підлітків по всьому світу, які приховали свій вік: що зміниться</b>\n\nШтучний інтелект визначатиме, чи належить акаунт підлітку, навіть якщо під час реєстрації користувач вказав дорослий вік. Для таких профілів автоматично вмикатимуть додаткові обмеження.\n\n🔗 <a href=\"https://ain.ua/2026/11/10/instagram-rozsiriuje-si-perevirku-viku-na-ves-svit/\">AIN.ua</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://ain.ua/2026/11/10/instagram-rozsiriuje-si-perevirku-viku-na-ves-svit/",
     "orig": "Instagram за допомогою ШІ виявлятиме підлітків по всьому світу, які приховали свій вік: що зміниться"
@@ -16309,6 +16231,48 @@
     "link": "https://mezha.ua/news/chatgpt-businesses-317087/",
     "orig": "ChatGPT стане майданчиком для бізнесу: компанії зможуть створювати профілі та власних ШІ-консультантів"
    }
+  ],
+  [
+   1794391335.732914,
+   5628,
+   "🎮",
+   "BBC прибрала епізод Doctor Who через звинувачення проти Девіда Волльямса",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>BBC прибрала епізод Doctor Who через звинувачення проти Девіда Волльямса</b>\n\nЧерез звинувачення британського актора Девіда Волльямса у сексуальних домаганнях BBC вилучила епізод The God Complex серіалу Doctor Who та низку інших шоу за його участю. Мовник наразі проводить перевірку всього контенту з актором. Шанувальники серіалу зустріли це рішення хвилею обурення в соціальних мережах.\n\n🔗 <a href=\"https://www.polygon.com/david-walliams-doctor-who-god-complex/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/david-walliams-doctor-who-god-complex/",
+    "orig": "One of Doctor Who's Best Episodes Just Got Removed, and Fans Aren't Happy"
+   }
+  ],
+  [
+   1794391339.6761832,
+   5629,
+   "🎮",
+   "ШІ може змусити Rockstar прискорити вихід GTA 6 на ПК",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎮 <b>ШІ може змусити Rockstar прискорити вихід GTA 6 на ПК</b>\n\nКолишній технічний директор Rockstar North Оббе Вермеї вважає, що GTA 6 може отримати офіційну ПК-версію раніше, ніж очікують гравці. Причиною може стати розвиток генеративного ШІ, який здатен допомогти ентузіастам створити неофіційний порт гри навіть без участі Rockstar.\n\n🔗 <a href=\"https://itc.ua/ua/novini/shi-mozhe-zmusyty-rockstar-pryskoryty-vyhid-gta-6-na-pk/\">ITC.ua</a>\n\n#ігри",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/shi-mozhe-zmusyty-rockstar-pryskoryty-vyhid-gta-6-na-pk/",
+    "orig": "ШІ може змусити Rockstar прискорити вихід GTA 6 на ПК"
+   }
+  ],
+  [
+   1794391349.2772036,
+   5630,
+   "🎮",
+   "Ремейк The Legend of Zelda: Ocarina of Time встановив рекорд продажу на Switch 2",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Ремейк The Legend of Zelda: Ocarina of Time встановив рекорд продажу на Switch 2</b>\n\nРемейк The Legend of Zelda: Ocarina of Time став найшвидше продаваною грою для Switch 2, розійшовшись тиражем у понад 5,2 мільйона копій за чотири дні. Такий успіх також зумовив зростання продажу самих консолей у США.\n\n🔗 <a href=\"https://www.eurogamer.net/zelda-ocarina-of-time-switch-2-sales-nintendo\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/zelda-ocarina-of-time-switch-2-sales-nintendo",
+    "orig": "The Legend of Zelda: Ocarina of Time remake sells in huge numbers, becoming the fastest-selling Switch 2 game"
+   }
   ]
  ],
  "posted_by_source": {
@@ -16366,9 +16330,9 @@
    1793813559.2223816
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1794263478.4024444,
    1794308490.627461,
-   1794313886.5422115
+   1794313886.5422115,
+   1794391349.2775483
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1793912609.2361844,
@@ -16383,9 +16347,8 @@
    1794371492.9669664
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
-   1794224793.6029882,
-   1794231087.9871485,
-   1794310276.9323914
+   1794310276.9323914,
+   1794391339.6765947
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
    1794299503.9571395,
@@ -16406,12 +16369,11 @@
    1794362593.066877
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1794301294.5958097,
-   1794304905.6558404,
    1794315872.0403378,
    1794319309.5816073,
    1794380495.176841,
-   1794380505.1668668
+   1794380505.1668668,
+   1794391335.7332594
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1794224076.9594681,
@@ -16676,7 +16638,6 @@
   "06dcda872cd5a8ae": 1793885520.3950043,
   "06e266c9d991ff7b": 1793464272.8840501,
   "06e2d2d084317210": 1793203256.0653896,
-  "06f8340325178b32": 1793179911.0680478,
   "070d309edf47bb38": 1794268889.400284,
   "0722139ecf4023aa": 1793554419.5124795,
   "07235597a904525b": 1793818989.7646408,
@@ -17312,7 +17273,6 @@
   "3271c528877c7d82": 1793615453.5353343,
   "327c76e888111331": 1793822027.6340158,
   "32995f482f848b41": 1793514131.0359926,
-  "32d4e22bed0cf28b": 1793179919.6852942,
   "32f669d87e7b98ee": 1793196195.9905612,
   "33097b39e293d40b": 1794211286.8406339,
   "330f8609a1e460e9": 1793217704.8512528,
@@ -17334,6 +17294,7 @@
   "340076b11cdcc1d6": 1793282504.9867005,
   "3431abaa623c08ef": 1793612084.5290318,
   "345b13def69fe3f2": 1793646119.2241182,
+  "345ee7a0e9649060": 1794391349.2775056,
   "34817c5083633cab": 1793716255.2120693,
   "34883185cce8d04b": 1793772052.7682447,
   "34888939304ad5f3": 1793835100.0640867,
@@ -18027,6 +17988,7 @@
   "648d80a971806a0e": 1794236575.692363,
   "648ff0b1264daf43": 1793779277.978204,
   "64916e4765583079": 1794186041.8604743,
+  "649cade6cf52b099": 1794391256.5139039,
   "64a1c261ad28cdce": 1793466262.5775726,
   "64a55d262699c342": 1793189003.2266657,
   "64cb04feb00596af": 1793221298.677415,
@@ -18185,7 +18147,6 @@
   "6eaa64434e8db0c7": 1793876914.6332395,
   "6ead78a2b1ef1331": 1793192476.3693697,
   "6ebc1ab9a09902c2": 1793743256.1613154,
-  "6ebf1ccac12fc108": 1793181689.9727335,
   "6eedd562d553fb9e": 1793381523.5912888,
   "6f0998dcd96f0102": 1793552980.6249611,
   "6f217f40854ddef3": 1793905352.2478485,
@@ -19678,6 +19639,7 @@
   "d44c1871502e8c2a": 1793464276.1634023,
   "d47aac3559e44177": 1793869351.9697082,
   "d4939ded07807929": 1793826057.931267,
+  "d4a9ee75a7756395": 1794391335.733212,
   "d4b61d02960cb4a1": 1793896522.9150953,
   "d4d212e9eeb98e88": 1793901789.2799876,
   "d4d9e61c62c08631": 1793383332.4420538,
@@ -19993,7 +19955,6 @@
   "ea927bba19898b68": 1793790062.3569953,
   "ea9a569724f0eb11": 1793263263.4965148,
   "eaa64b0b27987e74": 1793390667.8335378,
-  "eab2ce59243862bb": 1793181658.1788645,
   "eac1f38a3b2e678a": 1793419312.3275275,
   "eacfdcb153362aef": 1793525660.863877,
   "eada7bc2f2a435d6": 1793203491.3376794,
@@ -20221,6 +20182,7 @@
   "facf18e96dd948d9": 1793813501.5484555,
   "fad81aecb94732f1": 1793790094.693166,
   "fae4dabf59c219a8": 1793898282.9072604,
+  "fb04c0b514602955": 1794391339.6765509,
   "fb0d5518b869e212": 1793474512.7021697,
   "fb1854566a71cb5f": 1793898089.9815722,
   "fb2669e9e03653c3": 1793302419.5425978,
@@ -21517,7 +21479,7 @@
    "Deadline": 1,
    "IGN": 1,
    "IndieWire": 1,
-   "Insider Gaming": 14,
+   "Insider Gaming": 15,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 2,
@@ -21536,12 +21498,12 @@
    "DOU Gamedev": 1,
    "Deadline": 41,
    "Distorted Sound": 2,
-   "Eurogamer": 5,
+   "Eurogamer": 6,
    "GamesIndustry.biz": 3,
    "GitHub Trending": 8,
    "Hugging Face": 3,
    "IGN": 4,
-   "ITC.ua": 20,
+   "ITC.ua": 21,
    "IndieWire": 3,
    "Insider Gaming": 8,
    "Kerrang!": 1,
@@ -21553,7 +21515,7 @@
    "PC Gamer": 8,
    "Pitchfork": 1,
    "PlayUA": 2,
-   "Polygon": 13,
+   "Polygon": 14,
    "Product Hunt": 1,
    "Rock Paper Shotgun": 3,
    "SteamDB": 2,
@@ -21565,8 +21527,8 @@
   },
   "translators": {
    "DeepL": 13,
-   "gemini-flash-latest": 8,
-   "gemini-flash-lite-latest": 206
+   "gemini-flash-latest": 9,
+   "gemini-flash-lite-latest": 207
   },
   "week": "2026-W46"
  },
@@ -22401,11 +22363,6 @@
    "Отделение 38",
    1793896540.059568
   ],
-  "q:4": [
-   0,
-   "",
-   1794216700.9694374
-  ],
   "q:47": [
    4921720,
    "47都道府県にプロ野球チームが存在する世界線で日本一の球団をめざそう！",
@@ -22415,6 +22372,11 @@
    2542430,
    "5050",
    1792681371.753771
+  ],
+  "q:6": [
+   0,
+   "",
+   1794391339.12015
   ],
   "q:700": [
    0,
@@ -23041,21 +23003,6 @@
    "",
    1794322890.9485319
   ],
-  "q:cod modern": [
-   0,
-   "",
-   1794216697.7957542
-  ],
-  "q:cod modern warfare": [
-   0,
-   "",
-   1794216697.2866518
-  ],
-  "q:cod modern warfare 4": [
-   0,
-   "",
-   1794216696.7898269
-  ],
   "q:company of heroes 3": [
    1677280,
    "Company of Heroes 3",
@@ -23290,6 +23237,36 @@
    2650890,
    "DMZ",
    1792582328.5199592
+  ],
+  "q:doctor": [
+   0,
+   "",
+   1794391288.1429121
+  ],
+  "q:doctor who": [
+   0,
+   "",
+   1794391287.6761057
+  ],
+  "q:doctor who's best": [
+   0,
+   "",
+   1794391287.2045217
+  ],
+  "q:doctor who's best episodes": [
+   0,
+   "",
+   1794391286.7486227
+  ],
+  "q:doctor who's best episodes just": [
+   0,
+   "",
+   1794391286.2924023
+  ],
+  "q:doctor who's best episodes just got": [
+   0,
+   "",
+   1794391285.8419805
   ],
   "q:dominance": [
    2175780,
@@ -23901,6 +23878,11 @@
    "Gridiron Remastered",
    1792789303.2274137
   ],
+  "q:gta 6": [
+   0,
+   "",
+   1794391338.6329796
+  ],
   "q:habitat": [
    299340,
    "Habitat",
@@ -24291,6 +24273,21 @@
    "",
    1794312081.9461613
   ],
+  "q:legend": [
+   0,
+   "",
+   1794391342.614127
+  ],
+  "q:legend of zelda": [
+   0,
+   "",
+   1794391342.14216
+  ],
+  "q:legend of zelda ocarina": [
+   0,
+   "",
+   1794391341.6644762
+  ],
   "q:legendary": [
    0,
    "",
@@ -24525,21 +24522,6 @@
    2303000,
    "MOBILE SUIT GUNDAM BATTLE OPERATION 3",
    1793725363.7039416
-  ],
-  "q:modern": [
-   0,
-   "",
-   1794216699.3757339
-  ],
-  "q:modern warfare": [
-   0,
-   "",
-   1794216698.8540797
-  ],
-  "q:modern warfare 4": [
-   0,
-   "",
-   1794216698.3150377
   ],
   "q:monarchs at play": [
    4179890,
@@ -24776,6 +24758,16 @@
    "Obsession",
    1793192522.4879262
   ],
+  "q:ocarina": [
+   0,
+   "",
+   1794391344.891856
+  ],
+  "q:ocarina of time": [
+   0,
+   "",
+   1794391344.4151285
+  ],
   "q:ocarina of time remake": [
    0,
    "",
@@ -24851,6 +24843,11 @@
    "",
    1794315864.4671137
   ],
+  "q:one": [
+   0,
+   "",
+   1794391285.380262
+  ],
   "q:one day": [
    4478540,
    "One Day",
@@ -24865,6 +24862,26 @@
    0,
    "",
    1794358878.2738853
+  ],
+  "q:one of doctor": [
+   0,
+   "",
+   1794391284.9019222
+  ],
+  "q:one of doctor who": [
+   0,
+   "",
+   1794391284.4428506
+  ],
+  "q:one of doctor who's best": [
+   0,
+   "",
+   1794391283.9910567
+  ],
+  "q:one of doctor who's best episodes": [
+   0,
+   "",
+   1794391283.5367827
   ],
   "q:one piece grand gourmet": [
    3905010,
@@ -25230,6 +25247,16 @@
    882200,
    "Reveal",
    1792515822.5227997
+  ],
+  "q:rockstar gta": [
+   0,
+   "",
+   1794391338.1659849
+  ],
+  "q:rockstar gta 6": [
+   0,
+   "",
+   1794391337.694827
   ],
   "q:runescape": [
    1343400,
@@ -25681,6 +25708,11 @@
    "",
    1794234689.2145336
   ],
+  "q:time": [
+   0,
+   "",
+   1794391345.4240408
+  ],
   "q:time remake": [
    0,
    "",
@@ -25856,16 +25888,6 @@
    "WARDOGS",
    1793709125.56465
   ],
-  "q:warfare": [
-   0,
-   "",
-   1794216700.4441504
-  ],
-  "q:warfare 4": [
-   0,
-   "",
-   1794216699.9188337
-  ],
   "q:warframe": [
    230410,
    "Warframe",
@@ -25991,6 +26013,11 @@
    "",
    1794371488.7647395
   ],
+  "q:who's best episodes just got removed": [
+   0,
+   "",
+   1794391288.5975218
+  ],
   "q:wi fi": [
    3736050,
    "Wi-Fi",
@@ -26091,10 +26118,25 @@
    "WWE 2K26",
    1793198048.8500617
   ],
+  "q:zelda": [
+   0,
+   "",
+   1794391343.9755113
+  ],
   "q:zelda and gta": [
    0,
    "",
    1794232938.3244748
+  ],
+  "q:zelda ocarina": [
+   0,
+   "",
+   1794391343.5192711
+  ],
+  "q:zelda ocarina of time": [
+   0,
+   "",
+   1794391343.0726564
   ],
   "q:zelda ocarina of time remake": [
    0,
@@ -26124,32 +26166,41 @@
  },
  "tag_hints": {
   "Mezha": [
-   "apple",
+   "asus",
    "chatgpt",
+   "dot-chain defence",
+   "fpv-дрони",
    "google",
    "gripen",
-   "iphone",
+   "microsoft",
    "nasams",
    "nvidia",
    "openai",
    "playstation",
+   "rog xbox ally x",
    "saab",
    "saab jas 39 gripen",
    "sony",
    "thales",
+   "аоз",
    "бізнес",
    "вайбкодинг",
    "винищувачі",
    "дональд трамп",
    "дрони",
    "китай",
+   "міноборони",
    "навчання",
    "нато",
    "новини",
+   "нрк",
    "оборонка",
+   "перехоплювачі",
    "повітряні сили",
+   "портативні пк",
    "ппо",
    "радар",
+   "реб",
    "софт",
    "сша",
    "україна",
@@ -26160,10 +26211,6 @@
   ]
  },
  "titles": [
-  [
-   1794216794.5639899,
-   "COD: Modern Warfare 4 gets a surprisingly sudden free trial, so you can see what the game's extraction mode DMZ is like"
-  ],
   [
    1794218581.280421,
    "EP REVIEW: Three Swords – Beyond Extinction"
@@ -26931,13 +26978,21 @@
   [
    1794389489.2267222,
    "ChatGPT стане майданчиком для бізнесу: компанії зможуть створювати профілі та власних ШІ-консультантів"
+  ],
+  [
+   1794391335.733214,
+   "One of Doctor Who's Best Episodes Just Got Removed, and Fans Aren't Happy"
+  ],
+  [
+   1794391339.6765525,
+   "ШІ може змусити Rockstar прискорити вихід GTA 6 на ПК"
+  ],
+  [
+   1794391349.2775075,
+   "The Legend of Zelda: Ocarina of Time remake sells in huge numbers, becoming the fastest-selling Switch 2 game"
   ]
  ],
  "titles_uk": [
-  [
-   1794216794.563991,
-   "COD: Modern Warfare 4 отримала несподіваний безплатний пробний доступ до режиму DMZ"
-  ],
   [
    1794218581.2804217,
    "Рецензія на EP: Three Swords – Beyond Extinction"
@@ -27705,6 +27760,18 @@
   [
    1794389489.2267234,
    "ChatGPT стане майданчиком для бізнесу: компанії зможуть створювати профілі та власних ШІ-консультантів"
+  ],
+  [
+   1794391335.7332146,
+   "BBC прибрала епізод Doctor Who через звинувачення проти Девіда Волльямса"
+  ],
+  [
+   1794391339.6765535,
+   "ШІ може змусити Rockstar прискорити вихід GTA 6 на ПК"
+  ],
+  [
+   1794391349.2775083,
+   "Ремейк The Legend of Zelda: Ocarina of Time встановив рекорд продажу на Switch 2"
   ]
  ],
  "ukrainian": {
