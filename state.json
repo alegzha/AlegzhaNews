@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
+   "detail": "https://distortedsoundmag.com/feed/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
+   "label": "Джерело «Distorted Sound» не працює",
+   "sent": 0,
+   "since": 1794385869.9745588
+  }
+ },
  "daily_digest_date": "2026-11-10",
  "freebies": {
   "last_check": 1794382288.6130033,
@@ -28,11 +35,10 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-11 08:04 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-latest",
+  "at": "2026-11-11 08:31 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
    "gemini-flash-lite-latest": 1
   },
   "used": [
@@ -15502,7 +15508,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>Siemens розширює бізнес із проєктування чипів завдяки новій софт-угоді</b>\n\nКомпанія Siemens AG домовилася про придбання сімейної компанії Lauterbach GmbH з метою розширення свого портфеля рішень у сфері проектування мікросхем; це є частиною стратегії з придбання спеціалізованих технологічних компаній, що має на меті задоволення зростаючого попиту на найсучасніші напівпровідники.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-10/siemens-expands-chip-design-business-with-latest-software-deal\">Bloomberg</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-10/siemens-expands-chip-design-business-with-latest-software-deal",
     "orig": "Siemens Expands Chip-Design Business With Software Deal"
@@ -16038,7 +16043,12 @@
    "Sony скасувала розробку PvP-шутера Fairgames від Haven Studios",
    "PC Gamer",
    {
-    "also": [],
+    "also": [
+     [
+      "Mezha",
+      "https://mezha.ua/news/sony-cancels-fairgames-317089/"
+     ]
+    ],
     "caption": "🎮 <b>Sony скасувала розробку PvP-шутера Fairgames від Haven Studios</b>\n\n🔗 <a href=\"https://www.pcgamer.com/gaming-industry/sony-cancels-another-live-service-game-ahead-of-release-but-at-least-there-wont-be-any-layoffs-this-time/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/gaming-industry/sony-cancels-another-live-service-game-ahead-of-release-but-at-least-there-wont-be-any-layoffs-this-time/",
@@ -16366,6 +16376,20 @@
     "link": "https://variety.com/2026/tv/reviews/the-body-review-netflix-1236943535/",
     "orig": "Netflix’s Genre-Bending YA Drama ‘The Body’ Is a Queer Y2K Extravaganza: TV Review"
    }
+  ],
+  [
+   1794385885.3049762,
+   5624,
+   "💾",
+   "Розробники випустили спільнотний форк Maybe Finance під назвою Sure",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>Розробники випустили спільнотний форк Maybe Finance під назвою Sure</b>\n\nКоманда закинутого додатку для управління фінансами Maybe Finance відкрила вихідний код проєкту після витрат на розробку у розмірі майже $1 мільйон. Новий спільнотний форк під назвою Sure працює через Docker і доступний для самостійного хостингу на різних пристроях та платформах.\n\n🔗 <a href=\"https://github.com/we-promise/sure\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/we-promise/sure",
+    "orig": "we-promise/sure"
+   }
   ]
  ],
  "posted_by_source": {
@@ -16613,7 +16637,8 @@
    1794240085.563692
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
-   1794384082.4839458
+   1794384082.4839458,
+   1794385885.305318
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1794295689.1235957,
@@ -19090,6 +19115,7 @@
   "a8cbcd235f5a829c": 1793392256.1180868,
   "a8e42577b4f6202a": 1793287916.8873882,
   "a8edba6b49457969": 1793241054.3613508,
+  "a8efea0dacde155c": 1794385885.3052723,
   "a8f47de703ee7c26": 1794261675.0510595,
   "a908381c021f809b": 1793556189.249489,
   "a928ee59dd35e0e7": 1793801123.8092053,
@@ -19277,6 +19303,7 @@
   "b3882f401b34f932": 1793808081.7304814,
   "b3a3aeb8b08f045c": 1794337279.8824642,
   "b3c29c83ab83048d": 1793277076.627354,
+  "b3cb857d764d57cb": 1794385880.7145314,
   "b3cc9632a79a5996": 1793824288.6555696,
   "b3da93fc455a2cd1": 1794319309.5815644,
   "b3e48533903bdb8c": 1793345487.2532442,
@@ -21602,7 +21629,7 @@
    "Distorted Sound": 2,
    "Eurogamer": 5,
    "GamesIndustry.biz": 3,
-   "GitHub Trending": 6,
+   "GitHub Trending": 7,
    "Hugging Face": 3,
    "IGN": 4,
    "ITC.ua": 20,
@@ -21630,7 +21657,7 @@
   "translators": {
    "DeepL": 13,
    "gemini-flash-latest": 7,
-   "gemini-flash-lite-latest": 203
+   "gemini-flash-lite-latest": 204
   },
   "week": "2026-W46"
  },
@@ -23610,6 +23637,11 @@
    "Factorio",
    1792845082.5299585
   ],
+  "q:fairgames": [
+   0,
+   "",
+   1794385878.621155
+  ],
   "q:faker demons to make worlds": [
    0,
    "",
@@ -23999,6 +24031,16 @@
    0,
    "",
    1794371486.0246096
+  ],
+  "q:haven": [
+   983970,
+   "Haven",
+   1794385879.7040913
+  ],
+  "q:haven studios": [
+   0,
+   "",
+   1794385879.1483045
   ],
   "q:held": [
    1625880,
@@ -25040,6 +25082,21 @@
    "Paul",
    1792852287.4923358
   ],
+  "q:payday": [
+   0,
+   "",
+   1794385877.5677764
+  ],
+  "q:payday sony": [
+   0,
+   "",
+   1794385877.033939
+  ],
+  "q:payday sony fairgames": [
+   0,
+   "",
+   1794385876.4947028
+  ],
   "q:peak": [
    3527290,
    "PEAK",
@@ -25485,6 +25542,11 @@
    "Songs of the Past",
    1794223983.8362014
   ],
+  "q:sony fairgames": [
+   0,
+   "",
+   1794385878.0769916
+  ],
   "q:soul eater": [
    2836250,
    "Soul Eater",
@@ -25649,6 +25711,11 @@
    1035560,
    "Struggling",
    1793383291.0496666
+  ],
+  "q:studios": [
+   0,
+   "",
+   1794385880.3050416
   ],
   "q:stupid never dies": [
    3486530,
@@ -26200,15 +26267,16 @@
    "iphone 18",
    "iphone air",
    "nvidia",
+   "playstation",
    "reddit",
    "saab",
    "saab jas 39 gripen",
+   "sony",
    "бізнес",
    "вайбкодинг",
    "винищувачі",
    "дональд трамп",
    "дрони",
-   "залізо",
    "китай",
    "київстар",
    "мобільний зв'язок",
@@ -26216,8 +26284,6 @@
    "навчання",
    "новини",
    "оборонка",
-   "охолодження",
-   "пк",
    "повітряні сили",
    "ппо",
    "смартфони",
@@ -26229,7 +26295,8 @@
    "україна",
    "чипи",
    "шахед",
-   "штучний інтелект"
+   "штучний інтелект",
+   "ігри"
   ]
  },
  "titles": [
@@ -27008,6 +27075,10 @@
   [
    1794384247.79786,
    "Netflix’s Genre-Bending YA Drama ‘The Body’ Is a Queer Y2K Extravaganza: TV Review"
+  ],
+  [
+   1794385885.3052735,
+   "we-promise/sure"
   ]
  ],
  "titles_uk": [
@@ -27786,6 +27857,10 @@
   [
    1794384247.7978606,
    "Рецензія на The Body: підліткова квір-драма від Netflix у дусі 2000-х"
+  ],
+  [
+   1794385885.305275,
+   "Розробники випустили спільнотний форк Maybe Finance під назвою Sure"
   ]
  ],
  "ukrainian": {
@@ -30142,7 +30217,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794382288.3010726,
+  "last_check": 1794385894.155143,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
