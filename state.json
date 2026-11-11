@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1794436272.8113062
+  }
+ },
  "daily_digest_date": "2026-11-11",
  "freebies": {
   "last_check": 1794434591.8063493,
@@ -28,8 +35,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-11 22:03 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-11-11 22:32 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 3
@@ -39,68 +46,6 @@
   ]
  },
  "post_log": [
-  [
-   1793745081.7870822,
-   4587,
-   "🤘",
-   "Rock For People оголосив нові гурти у лайнапі фестивалю",
-   "Metal Injection",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://metalinjection.net/tour-dates/festivals/rock-for-people-adds-evanescence-parkway-drive-the-devil-wears-prada-and-more-to-lineup",
-    "orig": "Rock For People Adds Evanescence, Parkway Drive, The Devil Wears Prada and More to Lineup"
-   }
-  ],
-  [
-   1793745084.7943542,
-   4588,
-   "🤘",
-   "Mastodon намагається відхилити ключові звинувачення в позові від спадкоємців Brent Hinds",
-   "Metal Injection",
-   {
-    "also": [
-     [
-      "Lambgoat",
-      "https://lambgoat.com/news/55695/mastodon-seek-to-dismiss-several-claims-from-hinds-estate-lawsuit/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://metalinjection.net/news/mastodon-moves-to-dismiss-key-claims-in-brent-hinds-estate-lawsuit",
-    "orig": "Mastodon Moves to Dismiss Key Claims in Brent Hinds Estate Lawsuit"
-   }
-  ],
-  [
-   1793745088.434272,
-   4589,
-   "🎮",
-   "Ubisoft хоче придбати студію Arkane у Xbox",
-   "PC Gamer",
-   {
-    "also": [
-     [
-      "GamesIndustry.biz",
-      "https://www.gamesindustry.biz/ubisoft-reportedly-seeking-to-acquire-arkane-lyon-from-xbox"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/gaming-industry/ubisoft-reportedly-wants-to-buy-arkane-from-xbox/",
-    "orig": "Ubisoft reportedly wants to buy Arkane from Xbox"
-   }
-  ],
-  [
-   1793745092.3749938,
-   4590,
-   "🎮",
-   "Nexus Mods не заборонятиме моди з використанням ШІ",
-   "VGC",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.videogameschronicle.com/news/nexus-mods-rules-out-full-ai-ban-despite-community-backlash/",
-    "orig": "Nexus Mods rules out full AI ban despite community backlash"
-   }
-  ],
   [
    1793746890.8821704,
    4591,
@@ -13284,7 +13229,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Учасники гурту Beat розкажуть про нову музику після завершення гастролей</b>\n\nМузиканти гурту Beat, створеного на основі складу King Crimson 80-х років, визначаться з майбутнім проєкту та можливим записом нової музики не раніше кінця наступного року. Наразі планам заважають інші зобов&#x27;язання учасників колективу та щільний гастрольний графік.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/king-crimson-beat-new-music\">Metal Hammer (Louder)</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/king-crimson-beat-new-music",
     "orig": "“That’s absolutely the biggest factor”: When might King Crimson offshoot Beat make new music?"
@@ -13298,7 +13242,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>У фіналі VisionQuest натякнули на появу несподіваного персонажа в Avengers: Doomsday</b>\n\nСПОЙЛЕРИ: У сцені після титрів фінальної серії першого сезону VisionQuest з&#x27;явився таємничий персонаж, схожий на Доктора Дума у виконанні Роберта Дауні-молодшого.\n\n🔗 <a href=\"https://deadline.com/2026/11/visionquest-teases-avengers-doomsday-character-post-credits-scene-1237220017/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/visionquest-teases-avengers-doomsday-character-post-credits-scene-1237220017/",
     "orig": "‘VisionQuest’ Teases Surprise ‘Avengers: Doomsday’ Character Return In Post-Credits Scene"
@@ -13312,7 +13255,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Spirit Possession анонсували європейський тур на весну 2027 року</b>\n\nГурт Spirit Possession оголосив про проведення європейського та британського туру навесні 2027 року. На першій частині гастролей гурт підтримуватиме колектив Funeral Chant. Концерти охоплять низку країн, зокрема Австрію, Німеччину, Францію, Велику Британію та інші.\n\n🔗 <a href=\"https://lambgoat.com/news/55831/spirit-possession-announce-europeanuk-tour-with-funeral-chant/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55831/spirit-possession-announce-europeanuk-tour-with-funeral-chant/",
     "orig": "Spirit Possession announce European/UK tour with Funeral Chant"
@@ -14158,6 +14100,48 @@
     "link": "https://deadline.com/2026/11/moontower-comedy-festival-sets-2027-hiatus-1237220943/",
     "orig": "Austin’s Moontower Comedy Festival Taking Year Off In 2027 Amid Paramount Theatre Restoration"
    }
+  ],
+  [
+   1794436295.0949273,
+   5675,
+   "🎮",
+   "Гравці Final Fantasy XIV влаштовують віртуальні похорони басиста The Primals",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Гравці <a href=\"https://store.steampowered.com/app/1173770/\">Final Fantasy</a> XIV влаштовують віртуальні похорони басиста The Primals</b>\n\n🔗 <a href=\"https://www.ign.com/articles/final-fantasy-xiv-players-mourn-the-primals-bassist-with-in-game-funerals-and-gatherings\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/final-fantasy-xiv-players-mourn-the-primals-bassist-with-in-game-funerals-and-gatherings",
+    "orig": "Final Fantasy XIV Players Mourn The Primals Bassist With In-Game Funerals and Gatherings"
+   }
+  ],
+  [
+   1794436304.2530951,
+   5676,
+   "🎮",
+   "Оновлення клієнта Steam від 11 листопада",
+   "SteamDB",
+   {
+    "also": [],
+    "caption": "🎮 <b>Оновлення клієнта Steam від 11 листопада</b>\n\n🔗 <a href=\"https://bsky.app/profile/steamdb.info/post/3n22xei3qcy2f\">SteamDB</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://bsky.app/profile/steamdb.info/post/3n22xei3qcy2f",
+    "orig": "Steam Client Update - November 11th"
+   }
+  ],
+  [
+   1794436312.3360856,
+   5677,
+   "🎮",
+   "Steam Achievement Sets тепер доступні для всіх",
+   "SteamDB",
+   {
+    "also": [],
+    "caption": "🎮 <b>Steam Achievement Sets тепер доступні для всіх</b>\n\n🔗 <a href=\"https://bsky.app/profile/steamdb.info/post/3n22xemrrwd2j\">SteamDB</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://bsky.app/profile/steamdb.info/post/3n22xemrrwd2j",
+    "orig": "Steam Achievement Sets — Now Available to Everyone"
+   }
   ]
  ],
  "posted_by_source": {
@@ -14228,7 +14212,8 @@
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
    1794371492.9669664,
-   1794393116.6744118
+   1794393116.6744118,
+   1794436295.0952451
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1794310276.9323914,
@@ -14267,8 +14252,8 @@
    1794404095.2595353
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
-   1794272482.362866,
-   1794321299.1740773
+   1794436304.2533653,
+   1794436312.3363128
   ],
   "games|VGC|https://www.videogameschronicle.com/feed/": [
    1794405782.1863887,
@@ -14801,7 +14786,6 @@
   "1aca5ede62df96f9": 1793338273.145817,
   "1acabb2bd9d569b1": 1793381527.3203638,
   "1ace1eba4d3ffbfa": 1793728992.60286,
-  "1ad1f13ec81eafc5": 1793225052.291243,
   "1addf225ea804561": 1793637089.172884,
   "1af35d1fc5bc86d1": 1793377962.2512007,
   "1b08b37648722331": 1793385087.1088011,
@@ -15072,6 +15056,7 @@
   "2f1270bcc9a6c870": 1793835103.2061846,
   "2f14eb6673a2a8fd": 1793878258.231417,
   "2f2c8cfa917e4be7": 1793520052.6677861,
+  "2f51a6efe9f2bb6c": 1794436304.253308,
   "2f673417c56614a4": 1793376183.042111,
   "2f79679015ab97b3": 1794396878.3959684,
   "2f85b21ef3681896": 1793376201.9195704,
@@ -15281,7 +15266,6 @@
   "4021c37ac54f3542": 1793718081.3862214,
   "4031e70586351989": 1793867500.6869516,
   "40597e89e7eb779a": 1793442777.541059,
-  "4061a49134aa5bb0": 1793226658.7137182,
   "4066a49169b38caa": 1793278875.3168712,
   "406cc205bbce2620": 1793397655.8950074,
   "407a2548b3244750": 1793507577.1871667,
@@ -15559,7 +15543,6 @@
   "551ddc8e9b482c56": 1793899855.0556493,
   "552ab8cd067cf18a": 1793520052.6677861,
   "554ebd537f707231": 1793889149.9197137,
-  "555a3ae859e4a51b": 1793225064.3650255,
   "557c31398258c3e4": 1793624475.8935785,
   "55971c64f62c815a": 1793372530.3921862,
   "55c25e13c2d1b4c6": 1794353465.3584552,
@@ -17408,6 +17391,7 @@
   "d804fd7da2bc2a58": 1793743308.404747,
   "d82515c20d8a555e": 1793722025.7744446,
   "d829b3b15187b808": 1793467851.5924788,
+  "d85ff52f939a4c86": 1794436312.336284,
   "d86ca31ae63c5420": 1793664113.1293368,
   "d8813cba61879b3f": 1793952452.3164127,
   "d89e9cf214cf86d9": 1793952052.0746377,
@@ -17791,7 +17775,6 @@
   "f4f92c0923560ef7": 1794006137.7353477,
   "f5147c5b766bddb4": 1793635461.277553,
   "f519ca4e6fbcb340": 1793653392.7380261,
-  "f51e2299ce788235": 1793225048.7435222,
   "f52454ddc256a82d": 1794396687.6364672,
   "f5278622b3cd00d5": 1793300570.3841667,
   "f537c7ff770e5b92": 1793633606.3951752,
@@ -17847,6 +17830,7 @@
   "f8b546a787d5c1e9": 1793242877.552127,
   "f8c381ad4351f956": 1793275350.7431655,
   "f8c7a4d918b43ca4": 1793322156.5652688,
+  "f8cbfeed39802472": 1794436295.0952077,
   "f8d93f792dab5483": 1793720350.506521,
   "f8da911b3170bf8a": 1794002489.058005,
   "f8e1bc9b90841129": 1793745092.375435,
@@ -18405,7 +18389,7 @@
   ],
   "artists_checked": 1794434595.2385197,
   "blocked_until": 1794434577.9451318,
-  "cursor": 155,
+  "cursor": 165,
   "digest_week": "2026-W45",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -19187,7 +19171,7 @@
    "GamesIndustry.biz": 4,
    "GitHub Trending": 8,
    "Hugging Face": 3,
-   "IGN": 5,
+   "IGN": 6,
    "ITC.ua": 24,
    "IndieWire": 3,
    "Insider Gaming": 10,
@@ -19203,7 +19187,7 @@
    "Polygon": 16,
    "Product Hunt": 3,
    "Rock Paper Shotgun": 6,
-   "SteamDB": 2,
+   "SteamDB": 4,
    "Stereogum": 1,
    "The Decoder": 9,
    "ThePRP": 3,
@@ -19213,7 +19197,7 @@
   "translators": {
    "DeepL": 17,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 241
+   "gemini-flash-lite-latest": 244
   },
   "week": "2026-W46"
  },
@@ -19908,6 +19892,11 @@
    "孟铣（116）",
    1792515815.9158685
   ],
+  "q:11th": [
+   0,
+   "",
+   1794436302.8532019
+  ],
   "q:15": [
    0,
    "",
@@ -20013,11 +20002,6 @@
    "",
    1794321228.7237213
   ],
-  "q:3 5": [
-   0,
-   "",
-   1794263480.469058
-  ],
   "q:3 nov": [
    0,
    "",
@@ -20112,6 +20096,16 @@
    0,
    "",
    1794324680.3927736
+  ],
+  "q:achievement": [
+   0,
+   "",
+   1794436307.7636693
+  ],
+  "q:achievement sets": [
+   0,
+   "",
+   1794436307.2574453
   ],
   "q:act": [
    0,
@@ -20277,6 +20271,16 @@
    0,
    "",
    1794362481.8280456
+  ],
+  "q:available": [
+   0,
+   "",
+   1794436310.8482263
+  ],
+  "q:available to everyone": [
+   0,
+   "",
+   1794436310.3164523
   ],
   "q:avatar": [
    0,
@@ -20593,16 +20597,6 @@
    "創業王 CEO",
    1791853958.9171717
   ],
-  "q:ceo strauss": [
-   0,
-   "",
-   1794263474.9833796
-  ],
-  "q:ceo strauss zelnick": [
-   0,
-   "",
-   1794263474.4730978
-  ],
   "q:changes": [
    1044120,
    "Changes",
@@ -20657,6 +20651,26 @@
    1722870,
    "Clank!",
    1793982689.6435225
+  ],
+  "q:client": [
+   0,
+   "",
+   1794436300.7525113
+  ],
+  "q:client update": [
+   0,
+   "",
+   1794436300.2495353
+  ],
+  "q:client update november": [
+   0,
+   "",
+   1794436299.6490476
+  ],
+  "q:client update november 11th": [
+   0,
+   "",
+   1794436299.1343324
   ],
   "q:cluj napoca": [
    0,
@@ -21153,6 +21167,11 @@
    "Every Legend",
    1792920680.1672125
   ],
+  "q:everyone": [
+   0,
+   "",
+   1794436311.3508632
+  ],
   "q:everything": [
    582270,
    "Everything",
@@ -21272,6 +21291,21 @@
    3259780,
    "FINAL FANTASY RESONANCE",
    1792501347.0056672
+  ],
+  "q:final fantasy xiv": [
+   0,
+   "",
+   1794436282.180993
+  ],
+  "q:final fantasy xiv players": [
+   0,
+   "",
+   1794436281.6613126
+  ],
+  "q:final fantasy xiv players mourn": [
+   0,
+   "",
+   1794436281.1373317
   ],
   "q:find out": [
    444410,
@@ -22503,10 +22537,30 @@
    "",
    1794321231.7189882
   ],
+  "q:november 11th": [
+   0,
+   "",
+   1794436302.336158
+  ],
   "q:november 2026": [
    0,
    "",
    1794321231.2128932
+  ],
+  "q:now": [
+   0,
+   "",
+   1794436309.7846456
+  ],
+  "q:now available": [
+   0,
+   "",
+   1794436309.2754836
+  ],
+  "q:now available to everyone": [
+   0,
+   "",
+   1794436308.7755802
   ],
   "q:obsession": [
    5385440,
@@ -22822,6 +22876,26 @@
    3590,
    "Plants vs. Zombies GOTY Edition",
    1792587742.0772517
+  ],
+  "q:players mourn": [
+   0,
+   "",
+   1794436286.6909134
+  ],
+  "q:players mourn the primals": [
+   0,
+   "",
+   1794436286.20131
+  ],
+  "q:players mourn the primals bassist": [
+   0,
+   "",
+   1794436285.6914945
+  ],
+  "q:players mourn the primals bassist with": [
+   0,
+   "",
+   1794436285.1995225
   ],
   "q:playstation 5": [
    0,
@@ -23148,10 +23222,10 @@
    "Serious Sam: The Third Encounter",
    1792663494.276188
   ],
-  "q:set a new baseline": [
+  "q:sets": [
    0,
    "",
-   1794263473.3281393
+   1794436308.2838206
   ],
   "q:settlers": [
    0,
@@ -23358,6 +23432,36 @@
    "State of Decay 3",
    1793190869.8152926
   ],
+  "q:steam achievement": [
+   0,
+   "",
+   1794436306.7689397
+  ],
+  "q:steam achievement sets": [
+   0,
+   "",
+   1794436306.2534018
+  ],
+  "q:steam client": [
+   0,
+   "",
+   1794436298.6189227
+  ],
+  "q:steam client update": [
+   0,
+   "",
+   1794436298.1205113
+  ],
+  "q:steam client update november": [
+   0,
+   "",
+   1794436297.604386
+  ],
+  "q:steam client update november 11th": [
+   0,
+   "",
+   1794436297.0931735
+  ],
   "q:steam deck": [
    1675200,
    "Steam Deck",
@@ -23407,16 +23511,6 @@
    4260840,
    "STRANGER THAN HEAVEN",
    1792591722.8387933
-  ],
-  "q:strauss": [
-   0,
-   "",
-   1794263476.024755
-  ],
-  "q:strauss zelnick": [
-   0,
-   "",
-   1794263475.4835804
   ],
   "q:street fighter 6": [
    1364780,
@@ -23482,11 +23576,6 @@
    0,
    "",
    1794290484.4056902
-  ],
-  "q:take two": [
-   0,
-   "",
-   1794263473.8811603
   ],
   "q:tanuki pon's summer": [
    3218570,
@@ -23663,6 +23752,16 @@
    "",
    1794315867.141126
   ],
+  "q:update november": [
+   0,
+   "",
+   1794436301.8220127
+  ],
+  "q:update november 11th": [
+   0,
+   "",
+   1794436301.3255367
+  ],
   "q:use today's huge elder scrolls anniversary": [
    0,
    "",
@@ -23833,11 +23932,6 @@
    "",
    1794319301.7244742
   ],
-  "q:well above expectations": [
-   0,
-   "",
-   1794263472.664605
-  ],
   "q:whalefall": [
    4489380,
    "Whalefall",
@@ -24003,6 +24097,31 @@
    "",
    1794407485.4520845
   ],
+  "q:xiv": [
+   0,
+   "",
+   1794436284.6962056
+  ],
+  "q:xiv players": [
+   0,
+   "",
+   1794436284.1900468
+  ],
+  "q:xiv players mourn": [
+   0,
+   "",
+   1794436283.7006853
+  ],
+  "q:xiv players mourn the primals": [
+   0,
+   "",
+   1794436283.201463
+  ],
+  "q:xiv players mourn the primals bassist": [
+   0,
+   "",
+   1794436282.671572
+  ],
   "q:zelda": [
    0,
    "",
@@ -24027,11 +24146,6 @@
    0,
    "",
    1794285084.8952844
-  ],
-  "q:zelnick": [
-   0,
-   "",
-   1794263476.587944
   ],
   "q:zero parades": [
    2863680,
@@ -24084,26 +24198,6 @@
   ]
  },
  "titles": [
-  [
-   1794263376.6669614,
-   "XTR Joins Oscar Contender ‘Y Vân: The Lost Sounds of Saigon,’ Award-Winning Documentary About “The Quincy Jones of Saigon”"
-  ],
-  [
-   1794263378.9488769,
-   "KVITKOVASOBAKA видали сингл"
-  ],
-  [
-   1794263478.402415,
-   "GTA 6 pre-orders are tracking \"well above expectations\" and the game will \"set a new baseline\" for Take-Two, says CEO Strauss Zelnick"
-  ],
-  [
-   1794263482.103371,
-   "Take-Two expects to make as much as $3.5 billion during the GTA 6 launch period"
-  ],
-  [
-   1794263486.3049004,
-   "Darkest Hour: An Interview with Mike Schleibaum"
-  ],
   [
    1794265276.6551118,
    "OwlCraft повернувся з новим синглом"
@@ -24855,29 +24949,21 @@
   [
    1794434589.9613569,
    "Austin’s Moontower Comedy Festival Taking Year Off In 2027 Amid Paramount Theatre Restoration"
+  ],
+  [
+   1794436295.095209,
+   "Final Fantasy XIV Players Mourn The Primals Bassist With In-Game Funerals and Gatherings"
+  ],
+  [
+   1794436304.2533095,
+   "Steam Client Update - November 11th"
+  ],
+  [
+   1794436312.3362849,
+   "Steam Achievement Sets — Now Available to Everyone"
   ]
  ],
  "titles_uk": [
-  [
-   1794263376.6669621,
-   "XTR приєдналася до оскарівської кампанії документалки Y Vân: The Lost Sounds of Saigon"
-  ],
-  [
-   1794263378.948878,
-   "KVITKOVASOBAKA видали сингл"
-  ],
-  [
-   1794263478.4024155,
-   "Предзамовлення GTA 6 значно перевищують очікування Take-Two"
-  ],
-  [
-   1794263482.1033714,
-   "Take-Two очікує до $3.5 мільярда доходу під час запуску Grand Theft Auto 6"
-  ],
-  [
-   1794263486.3049006,
-   "Інтерв'ю з Майком Шлайбаумом із Darkest Hour"
-  ],
   [
    1794265276.655112,
    "OwlCraft повернувся з новим синглом"
@@ -25629,6 +25715,18 @@
   [
    1794434589.9613576,
    "Moontower Comedy Festival візьме паузу у 2027 році через реставрацію Paramount Theatre"
+  ],
+  [
+   1794436295.0952098,
+   "Гравці Final Fantasy XIV влаштовують віртуальні похорони басиста The Primals"
+  ],
+  [
+   1794436304.25331,
+   "Оновлення клієнта Steam від 11 листопада"
+  ],
+  [
+   1794436312.3362854,
+   "Steam Achievement Sets тепер доступні для всіх"
   ]
  ],
  "ukrainian": {
@@ -27988,7 +28086,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794431122.2549834,
+  "last_check": 1794436322.2093887,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
