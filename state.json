@@ -1,5 +1,11 @@
 {
  "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1794389482.1143134
+  },
   "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
    "detail": "https://distortedsoundmag.com/feed/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
    "label": "Джерело «Distorted Sound» не працює",
@@ -9,7 +15,7 @@
  },
  "daily_digest_date": "2026-11-10",
  "freebies": {
-  "last_check": 1794382288.6130033,
+  "last_check": 1794389509.153309,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -35,43 +41,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-11 09:03 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-11 09:31 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemini-flash-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-latest": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793698284.6595314,
-   4381,
-   "💾",
-   "One Roof",
-   "Product Hunt",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.producthunt.com/products/one-roof",
-    "orig": "One Roof"
-   }
-  ],
-  [
-   1793698287.9328127,
-   4382,
-   "🤖",
-   "ШІ викликає страх масових звільнень, але еволюція технологій вже відбувалася",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-03/ai-evolution-stokes-fear-factor-stanchart-ceo-winters-says",
-    "orig": "AI Evolution Stokes ‘Fear Factor,’ StanChart CEO Winters Says"
-   }
-  ],
   [
    1793698298.575287,
    4383,
@@ -15448,7 +15428,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🤖 <b>Співрежисер «Короля Лева» зніме фільм з ШІ-дитиною та собаками</b>\n\nСпіврежисер культового «Короля Лева» Роб Мінкофф очолить Storm Dogs — гібридний сімейний фільм про собак, що говорять, від компанії Particle 6. Проєкт розробляє Елін ван дер Велден, продюсерка ШІ-акторки Тіллі Норвуд.\n\n🔗 <a href=\"https://itc.ua/ua/novini/spivrezhyser-korolya-leva-znime-film-z-shi-dytynoyu-ta-sobakamy/\">ITC.ua</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/spivrezhyser-korolya-leva-znime-film-z-shi-dytynoyu-ta-sobakamy/",
     "orig": "Співрежисер «Короля Лева» зніме фільм з ШІ-дитиною та собаками"
@@ -15941,6 +15920,10 @@
      [
       "Mezha",
       "https://mezha.ua/news/sony-cancels-fairgames-317089/"
+     ],
+     [
+      "Eurogamer",
+      "https://www.eurogamer.net/fairgames-playstation-heist-shooter-live-service-cancelled-haven"
      ]
     ],
     "caption": "🎮 <b>Sony скасувала розробку PvP-шутера Fairgames від Haven Studios</b>\n\n🔗 <a href=\"https://www.pcgamer.com/gaming-industry/sony-cancels-another-live-service-game-ahead-of-release-but-at-least-there-wont-be-any-layoffs-this-time/\">PC Gamer</a>\n\n#ігри",
@@ -16312,6 +16295,20 @@
     "link": "https://github.com/tokio-rs/topcoat",
     "orig": "tokio-rs/topcoat"
    }
+  ],
+  [
+   1794389489.2263865,
+   5627,
+   "💾",
+   "ChatGPT стане майданчиком для бізнесу: компанії зможуть створювати профілі та власних ШІ-консультантів",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "💾 <b>ChatGPT стане майданчиком для бізнесу: компанії зможуть створювати профілі та власних ШІ-консультантів</b>\n\nOpenAI запускає Businesses in ChatGPT – інструмент для створення підтверджених профілів компаній із каталогами товарів, цінами та даними про наявність. Окремі бізнеси також зможуть створювати власних ШІ-консультантів для спілкування з потенційними клієнтами.\n\n🔗 <a href=\"https://mezha.ua/news/chatgpt-businesses-317087/\">Mezha</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/chatgpt-businesses-317087/",
+    "orig": "ChatGPT стане майданчиком для бізнесу: компанії зможуть створювати профілі та власних ШІ-консультантів"
+   }
   ]
  ],
  "posted_by_source": {
@@ -16570,10 +16567,10 @@
    1794378724.7713091
   ],
   "software|Mezha|https://mezha.ua/feed/": [
-   1794297879.1323476,
    1794306682.778445,
    1794326506.0290835,
-   1794344481.8467798
+   1794344481.8467798,
+   1794389489.226769
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1794297877.26297
@@ -16968,7 +16965,6 @@
   "1a77295081231128": 1793235762.2557824,
   "1a82f992b518778f": 1793287874.6884918,
   "1a870854af14f0f5": 1793917901.676527,
-  "1a982d3f2e3d433f": 1793179907.740039,
   "1ab3f2e82411c41b": 1793736128.0008984,
   "1ab805ccb7e963ee": 1793295075.9151297,
   "1ab84688646e98e8": 1793224901.1226544,
@@ -17226,7 +17222,6 @@
   "2bec071b6c642e87": 1793734294.9914932,
   "2c404600d91faa96": 1793692889.6723294,
   "2c445ccd223caa21": 1793494851.2202039,
-  "2c46dd4752d3921d": 1793179876.8601167,
   "2c6bfad592c322e4": 1793210785.869181,
   "2c71e9984823e245": 1793743304.844976,
   "2c8a80d3b3521880": 1793300562.8807142,
@@ -18682,7 +18677,6 @@
   "90b2977de139aada": 1793635256.7568827,
   "90c61afaf744fca3": 1794020477.300451,
   "90cf6be5a847c405": 1793455366.5874949,
-  "913a674a2a3385b7": 1793179895.5264766,
   "917f9b9cd1ac231c": 1794009692.3323495,
   "91832b2f6b501c6c": 1793613845.5178423,
   "91b1a0f4459327db": 1793892698.8262823,
@@ -18828,6 +18822,7 @@
   "9a1463568f071f11": 1793640659.9838288,
   "9a22548e8b7ee10d": 1794303084.7110562,
   "9a2ea61c28cdc4b5": 1794160856.846131,
+  "9a39cdaae20f017a": 1794389489.2267208,
   "9a40677e823afcd8": 1793206879.5257323,
   "9a54e94e8afd3352": 1793190860.4936337,
   "9a768addc84b7133": 1794018675.2626524,
@@ -18950,7 +18945,6 @@
   "a2f2f9618514394b": 1793187196.008826,
   "a31ebd4de4d65ef5": 1793491304.7831938,
   "a32212491e723104": 1793797631.1847243,
-  "a32cd3bec0e7da7c": 1793179897.8637753,
   "a32dd0353bd4cb08": 1794204176.4404714,
   "a3480c4838fea0f4": 1793716512.2424831,
   "a3b9a5589ab24e44": 1793469674.1431966,
@@ -20264,6 +20258,7 @@
   "fc4c87bd494e185b": 1793718391.0677536,
   "fc4cfae9be9fa676": 1793381519.1754973,
   "fc63bd75f12a0f57": 1793651478.8971174,
+  "fc6c62dc15431a53": 1794389502.144764,
   "fc76c4d05dee1e30": 1793485853.851234,
   "fc81d743c9602d50": 1793520081.7436445,
   "fc90c750e381c97b": 1794092486.2020237,
@@ -21553,7 +21548,7 @@
    "Lambgoat": 12,
    "Metal Hammer (Louder)": 12,
    "Metal Injection": 1,
-   "Mezha": 17,
+   "Mezha": 18,
    "Neformat": 11,
    "PC Gamer": 8,
    "Pitchfork": 1,
@@ -21570,7 +21565,7 @@
   },
   "translators": {
    "DeepL": 13,
-   "gemini-flash-latest": 7,
+   "gemini-flash-latest": 8,
    "gemini-flash-lite-latest": 206
   },
   "week": "2026-W46"
@@ -26130,34 +26125,33 @@
  "tag_hints": {
   "Mezha": [
    "apple",
+   "chatgpt",
    "google",
    "gripen",
    "iphone",
-   "iphone 18",
-   "iphone air",
+   "nasams",
    "nvidia",
+   "openai",
    "playstation",
    "saab",
    "saab jas 39 gripen",
    "sony",
+   "thales",
    "бізнес",
    "вайбкодинг",
    "винищувачі",
    "дональд трамп",
    "дрони",
    "китай",
-   "київстар",
-   "мобільний зв'язок",
-   "мобільні оператори",
    "навчання",
+   "нато",
    "новини",
    "оборонка",
    "повітряні сили",
    "ппо",
-   "смартфони",
+   "радар",
+   "софт",
    "сша",
-   "телеком",
-   "технології",
    "україна",
    "чипи",
    "шахед",
@@ -26166,14 +26160,6 @@
   ]
  },
  "titles": [
-  [
-   1794214991.3628674,
-   "Nicola Coughlan Says Society Not Doing Enough To Tackle Toxic Masculinity On Eve Of Launch Of Powerful Channel 4 Drama ‘I Am Helen’"
-  ],
-  [
-   1794216694.7409604,
-   "Український досвід допомагає вдосконалювати світові системи кібербезпеки"
-  ],
   [
    1794216794.5639899,
    "COD: Modern Warfare 4 gets a surprisingly sudden free trial, so you can see what the game's extraction mode DMZ is like"
@@ -26941,17 +26927,13 @@
   [
    1794387783.9448493,
    "tokio-rs/topcoat"
+  ],
+  [
+   1794389489.2267222,
+   "ChatGPT стане майданчиком для бізнесу: компанії зможуть створювати профілі та власних ШІ-консультантів"
   ]
  ],
  "titles_uk": [
-  [
-   1794214991.3628683,
-   "Нікола Коглан вважає суспільство недостатньо готовим до боротьби з токсичною маскулінністю"
-  ],
-  [
-   1794216694.7409613,
-   "Український досвід допомагає вдосконалювати світові системи кібербезпеки"
-  ],
   [
    1794216794.563991,
    "COD: Modern Warfare 4 отримала несподіваний безплатний пробний доступ до режиму DMZ"
@@ -27719,6 +27701,10 @@
   [
    1794387783.9448502,
    "Анонсовано Topcoat — новий Rust-фреймворк для повного стека додатків"
+  ],
+  [
+   1794389489.2267234,
+   "ChatGPT стане майданчиком для бізнесу: компанії зможуть створювати профілі та власних ШІ-консультантів"
   ]
  ],
  "ukrainian": {
@@ -30075,7 +30061,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794385894.155143,
+  "last_check": 1794389508.7776608,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
