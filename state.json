@@ -1,15 +1,8 @@
 {
- "alerts": {
-  "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
-   "detail": "https://distortedsoundmag.com/feed/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
-   "label": "Джерело «Distorted Sound» не працює",
-   "sent": 0,
-   "since": 1794385869.9745588
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-10",
  "freebies": {
-  "last_check": 1794389509.153309,
+  "last_check": 1794396887.310846,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -35,92 +28,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-11 11:02 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-latest",
+  "at": "2026-11-11 11:34 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 3
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793705574.1551898,
-   4403,
-   "🎬",
-   "Фільм Elsinore лідирує за кількістю номінацій на British Independent Film Awards",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/british-independent-film-awards-elsinore-2026-1237211788/",
-    "orig": "British Independent Film Awards: ‘Elsinore’ Leads Nominations"
-   }
-  ],
-  [
-   1793705583.144605,
-   4404,
-   "🎮",
-   "GTA 6 на старті вийде у 30 FPS",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/gta-6-60-fps-graphics-settings/",
-    "orig": "Does GTA 6 Have 60 FPS Mode? All Confirmed & Rumored GTA 6 Graphics Settings"
-   }
-  ],
-  [
-   1793705588.2602856,
-   4405,
-   "🎮",
-   "Call of Duty: Modern Warfare 4 зібрала менше гравців на старті в США, ніж Black Ops 7",
-   "Eurogamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-player-engagement-black-ops-7",
-    "orig": "It looks like Call of Duty: Modern Warfare 4 had fewer active players at launch in the US compared to last year's Black Ops 7"
-   }
-  ],
-  [
-   1793705592.2995944,
-   4406,
-   "🤘",
-   "Meshuggah анонсували тур на честь свого 40-річчя",
-   "Kerrang!",
-   {
-    "also": [
-     [
-      "Metal Hammer (Louder)",
-      "https://www.loudersound.com/bands-artists/meshuggah-40th-anniversary-tour-2027"
-     ],
-     [
-      "Lambgoat",
-      "https://lambgoat.com/news/55676/meshuggah-announce-40th-anniversary-tour-of-europe-and-the-uk/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.kerrang.com/meshuggah-announce-uk-and-europe-leg-of-the-forty-year-anomaly-anniversary-tour",
-    "orig": "Meshuggah announce UK and Europe leg of The Forty Year Anomaly anniversary tour"
-   }
-  ],
-  [
-   1793705596.1364121,
-   4407,
-   "💾",
-   "Heretic дозволяє модифікувати мовні моделі на домашньому ПК",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/p-e-w/heretic",
-    "orig": "p-e-w/heretic"
-   }
-  ],
   [
    1793707287.9304976,
    4408,
@@ -15262,7 +15181,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>Reddit перетворює обговорення користувачів на огляди товарів за допомогою ШІ</b>\n\nІнструмент Reddit Reviews перетворить відгуки, думки та рекомендації користувачів на огляди товарів. Це здається зручнішим, але автоматичні ШІ-огляди можуть бути вразливими для маніпуляцій.\n\n🔗 <a href=\"https://mezha.ua/news/reddit-reviews-317081/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/reddit-reviews-317081/",
     "orig": "Reddit перетворює обговорення користувачів на огляди товарів за допомогою ШІ"
@@ -15276,7 +15194,6 @@
    "Stereogum",
    {
     "also": [],
-    "caption": "🤘 <b>Shane Butler випустив новий сингл “Devotee” з майбутнього сольного альбому</b>\n\nМузикант Shane Butler представив новий інтимний трек “Devotee” з майбутнього дебютного сольного альбому Heavy Debt, який вийде наступного місяця. У пісні він роздумує про життя своєї матері, котра понад 25 років прожила в духовній комуні, де виростав і сам артист.\n\n🔗 <a href=\"https://stereogum.com/2517257/shane-butler-devotee/music/\">Stereogum</a>\n\n#музика",
     "kind": "photo",
     "link": "https://stereogum.com/2517257/shane-butler-devotee/music/",
     "orig": "Shane Butler – “Devotee”"
@@ -16135,6 +16052,34 @@
     "link": "https://www.polygon.com/rings-of-power-wizards-secret-flame-explained/",
     "orig": "In One Scene, Prime Video Officially Rewrites Gandalf’s Mission in Lord of the Rings"
    }
+  ],
+  [
+   1794396687.6361666,
+   5635,
+   "🎮",
+   "Monster Hunter Wilds може отримати бета-тест доповнення Ascendance",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Monster Hunter Wilds може отримати бета-тест доповнення <a href=\"https://store.steampowered.com/app/2275750/\">Ascendance</a></b>\n\nСудячи з оновлень у бета-додатку гри в Steam, перше доповнення Ascendance вийде наступного року, але спробувати новинки ми зможемо раніше, ніж очікувалося.\n\n🔗 <a href=\"https://www.eurogamer.net/monster-hunter-wilds-ascendance-beta-steam-backend\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/monster-hunter-wilds-ascendance-beta-steam-backend",
+    "orig": "Monster Hunter Wilds' upcoming Ascendance expansion may be getting a beta, some curious Steam backend updates suggest"
+   }
+  ],
+  [
+   1794396878.3956819,
+   5636,
+   "🎮",
+   "Що закон про цифрову справедливість означає для ігрової індустрії",
+   "GamesIndustry.biz",
+   {
+    "also": [],
+    "caption": "🎮 <b>Що закон про цифрову справедливість означає для ігрової індустрії</b>\n\nПісля того, як на початку цього тижня інформація про цей документ просочилася в ЗМІ, Європейська комісія сьогодні офіційно представила проект Закону про цифрову справедливість. У разі прийняття цей закон матиме значний вплив на ігрову галузь, особливо в тих випадках, що стосуються віртуальних валют. Читати далі\n\n🔗 <a href=\"https://www.gamesindustry.biz/what-the-digital-fairness-act-means-for-the-games-industry\">GamesIndustry.biz</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamesindustry.biz/what-the-digital-fairness-act-means-for-the-games-industry",
+    "orig": "What the Digital Fairness Act means for the games industry"
+   }
   ]
  ],
  "posted_by_source": {
@@ -16193,17 +16138,17 @@
    1793813559.2223816
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1794308490.627461,
    1794313886.5422115,
-   1794391349.2775483
+   1794391349.2775483,
+   1794396687.6365123
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1793912609.2361844,
    1793982691.8197184
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
-   1794303084.7111006,
-   1794321225.692725
+   1794321225.692725,
+   1794396878.396027
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
    1794371492.9669664,
@@ -16422,7 +16367,6 @@
   "00fca79105b141ef": 1793448054.1956563,
   "00fe6f61a20100a7": 1793844099.616388,
   "010c6d48b1e5f952": 1793351162.4246716,
-  "01334f1db6d0dacd": 1793187182.8404298,
   "01406d352d89809f": 1793723600.2293522,
   "014900fad1376c96": 1793824297.7081478,
   "01535d7089aa4e8a": 1793993481.1960783,
@@ -17083,6 +17027,7 @@
   "2f14eb6673a2a8fd": 1793878258.231417,
   "2f2c8cfa917e4be7": 1793520052.6677861,
   "2f673417c56614a4": 1793376183.042111,
+  "2f79679015ab97b3": 1794396878.3959684,
   "2f85b21ef3681896": 1793376201.9195704,
   "2f87cafd1f290975": 1793241054.3613508,
   "2f8dc49a95d3a22a": 1793302391.3083787,
@@ -17236,6 +17181,7 @@
   "3b02f528d8d8c55b": 1793863908.881065,
   "3b07ebbaa131456e": 1794256256.1973255,
   "3b21b386e6fd64e7": 1793207119.433152,
+  "3b271e893923b536": 1794396679.4891856,
   "3b3b596a9a45d7f7": 1793817219.13401,
   "3b3f9def4d9959f2": 1793442800.5258107,
   "3b460729b2a9caee": 1793291821.5693266,
@@ -17338,7 +17284,6 @@
   "42302d21336315b3": 1793293664.2544005,
   "42306817435af783": 1793727092.1078324,
   "423efe3f7869feb5": 1793205136.8900115,
-  "4240f62191d157f1": 1793187080.1642256,
   "4277ab5c1f64d1fe": 1793444578.5410326,
   "42851d404f94fe69": 1793266296.2902496,
   "428bb17898f2b719": 1793901723.8097148,
@@ -17611,7 +17556,6 @@
   "55971c64f62c815a": 1793372530.3921862,
   "55c25e13c2d1b4c6": 1794353465.3584552,
   "55cad23c843395ab": 1794379783.9103365,
-  "55f023811b9efe9c": 1793187191.8722298,
   "55f1a05e3c242a02": 1794306676.3979933,
   "55f463ec17ccc74f": 1793248251.320901,
   "561b88a4a1443c4f": 1794213096.5452287,
@@ -18585,7 +18529,6 @@
   "965fc91216b77012": 1793604655.1569731,
   "966be0dd49dc9414": 1793395880.344788,
   "966cf2eab96cf8b8": 1793710853.7589157,
-  "9690ce976cf3e8ad": 1793187174.8448029,
   "96919aa38357a25f": 1793199681.4975486,
   "969661981f446bd1": 1793302414.7452998,
   "9697a1beb0a123f7": 1793246583.1615922,
@@ -18697,7 +18640,6 @@
   "9e644ca061818088": 1793818893.8419943,
   "9e6798564220acc0": 1793725295.896661,
   "9e6ae8148bfa92f5": 1793801173.980046,
-  "9e8576e95565c1e4": 1793187177.6447916,
   "9e902a011ede93b8": 1793208821.1226487,
   "9e937c4dcca3f8b1": 1793878323.524087,
   "9ea514358be42441": 1794229282.9569669,
@@ -18757,7 +18699,6 @@
   "a2dcc96569bb74e6": 1793196084.0325353,
   "a2e12a9607913900": 1793644288.104079,
   "a2e7b3a9159fc601": 1793991681.941497,
-  "a2f2f9618514394b": 1793187196.008826,
   "a31ebd4de4d65ef5": 1793491304.7831938,
   "a32212491e723104": 1793797631.1847243,
   "a32dd0353bd4cb08": 1794204176.4404714,
@@ -19945,6 +19886,7 @@
   "f5147c5b766bddb4": 1793635461.277553,
   "f519ca4e6fbcb340": 1793653392.7380261,
   "f51e2299ce788235": 1793225048.7435222,
+  "f52454ddc256a82d": 1794396687.6364672,
   "f5278622b3cd00d5": 1793300570.3841667,
   "f537c7ff770e5b92": 1793633606.3951752,
   "f54fe0da5d316a00": 1793703657.8336687,
@@ -19968,7 +19910,6 @@
   "f7453298f281e46c": 1793273495.723186,
   "f74a518967e53adb": 1793820702.0444758,
   "f754cabc2f8ef71d": 1794173482.8446748,
-  "f7791f02fff8d3e7": 1793187198.0564623,
   "f78a7fc61cbf0b11": 1793374328.273312,
   "f7b75b2901deecc1": 1794290493.7624779,
   "f7c24ffe7055f885": 1794288688.7639577,
@@ -21343,8 +21284,8 @@
    "DOU Gamedev": 1,
    "Deadline": 41,
    "Distorted Sound": 2,
-   "Eurogamer": 6,
-   "GamesIndustry.biz": 3,
+   "Eurogamer": 7,
+   "GamesIndustry.biz": 4,
    "GitHub Trending": 8,
    "Hugging Face": 3,
    "IGN": 5,
@@ -21371,9 +21312,9 @@
    "Variety": 14
   },
   "translators": {
-   "DeepL": 13,
+   "DeepL": 14,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 208
+   "gemini-flash-lite-latest": 211
   },
   "week": "2026-W46"
  },
@@ -22288,6 +22229,11 @@
    "",
    1794324680.3927736
   ],
+  "q:act": [
+   0,
+   "",
+   1794396693.5980337
+  ],
   "q:actors": [
    5151960,
    "Actors",
@@ -22422,6 +22368,11 @@
    0,
    "",
    1794394881.2449698
+  ],
+  "q:ascendance": [
+   2275750,
+   "Ascendance",
+   1794396682.6738393
   ],
   "q:asha": [
    1786130,
@@ -22648,26 +22599,6 @@
    "",
    1794223879.8390555
   ],
-  "q:blg overcomes": [
-   0,
-   "",
-   1794223879.328828
-  ],
-  "q:blg overcomes faker": [
-   0,
-   "",
-   1794223878.821082
-  ],
-  "q:blg overcomes faker demons": [
-   0,
-   "",
-   1794223878.3217125
-  ],
-  "q:blg overcomes faker demons to make": [
-   0,
-   "",
-   1794223877.8118534
-  ],
   "q:blood and ice": [
    455320,
    "Blood and Ice",
@@ -22687,26 +22618,6 @@
    3676250,
    "Boars in Rome",
    1794092481.101398
-  ],
-  "q:boosts dungeon xp": [
-   0,
-   "",
-   1794222369.136184
-  ],
-  "q:boosts dungeon xp as": [
-   0,
-   "",
-   1794222368.6307085
-  ],
-  "q:boosts dungeon xp as blizzard": [
-   0,
-   "",
-   1794222368.1333654
-  ],
-  "q:boosts dungeon xp as blizzard struggles": [
-   0,
-   "",
-   1794222367.6378317
   ],
   "q:borderlands 4": [
    1285190,
@@ -23113,6 +23024,21 @@
    "Diablo® IV",
    1793044912.647966
   ],
+  "q:digital": [
+   0,
+   "",
+   1794396692.1028986
+  ],
+  "q:digital fairness": [
+   0,
+   "",
+   1794396691.5975058
+  ],
+  "q:digital fairness act": [
+   0,
+   "",
+   1794396691.1059976
+  ],
   "q:dino crisis": [
    4249130,
    "Dino Crisis",
@@ -23473,6 +23399,16 @@
    "",
    1794385878.621155
   ],
+  "q:fairness": [
+   0,
+   "",
+   1794396693.0937526
+  ],
+  "q:fairness act": [
+   0,
+   "",
+   1794396692.605099
+  ],
   "q:faker demons to make worlds": [
    0,
    "",
@@ -23562,31 +23498,6 @@
    0,
    "",
    1794308488.2310562
-  ],
-  "q:forever boosts": [
-   0,
-   "",
-   1794222367.1363387
-  ],
-  "q:forever boosts dungeon": [
-   0,
-   "",
-   1794222366.6086984
-  ],
-  "q:forever boosts dungeon xp": [
-   0,
-   "",
-   1794222366.0263972
-  ],
-  "q:forever boosts dungeon xp as": [
-   0,
-   "",
-   1794222365.5333736
-  ],
-  "q:forever boosts dungeon xp as blizzard": [
-   0,
-   "",
-   1794222365.0077157
   ],
   "q:forza horizon 6": [
    2483190,
@@ -24017,6 +23928,16 @@
    0,
    "",
    1794324674.8348844
+  ],
+  "q:hunter": [
+   0,
+   "",
+   1794396681.6432426
+  ],
+  "q:hunter wilds'": [
+   0,
+   "",
+   1794396681.1239252
   ],
   "q:hypnos": [
    2861210,
@@ -24513,10 +24434,20 @@
    "Monarchs at Play",
    1793142165.5811265
   ],
+  "q:monster hunter": [
+   0,
+   "",
+   1794396680.621213
+  ],
   "q:monster hunter wilds": [
    2246340,
    "Monster Hunter Wilds",
    1793203331.0712078
+  ],
+  "q:monster hunter wilds'": [
+   0,
+   "",
+   1794396680.1087902
   ],
   "q:monster train 2": [
    2742830,
@@ -26098,6 +26029,21 @@
    "",
    1794371488.7647395
   ],
+  "q:what the digital": [
+   0,
+   "",
+   1794396690.6146514
+  ],
+  "q:what the digital fairness": [
+   0,
+   "",
+   1794396690.1254568
+  ],
+  "q:what the digital fairness act": [
+   0,
+   "",
+   1794396689.629298
+  ],
   "q:who's best episodes just got removed": [
    0,
    "",
@@ -26122,6 +26068,11 @@
    4960310,
    "Wildcat",
    1793365305.9304438
+  ],
+  "q:wilds'": [
+   0,
+   "",
+   1794396682.1498735
   ],
   "q:wishlist": [
    2135800,
@@ -26162,21 +26113,6 @@
    0,
    "",
    1794308486.7815306
-  ],
-  "q:wow forever boosts": [
-   0,
-   "",
-   1794222364.5136616
-  ],
-  "q:wow forever boosts dungeon": [
-   0,
-   "",
-   1794222363.9396555
-  ],
-  "q:wow forever boosts dungeon xp": [
-   0,
-   "",
-   1794222363.4049623
   ],
   "q:wuthering waves": [
    3513350,
@@ -26253,15 +26189,14 @@
   "Mezha": [
    "asus",
    "chatgpt",
+   "dji",
    "dot-chain defence",
    "fpv-дрони",
-   "google",
    "grand theft auto vi",
    "gripen",
    "gta 6",
    "microsoft",
    "nasams",
-   "nvidia",
    "openai",
    "playstation",
    "rockstar games",
@@ -26269,16 +26204,18 @@
    "saab",
    "saab jas 39 gripen",
    "sony",
+   "spacex",
+   "starlink",
    "thales",
    "xbox cloud gaming",
    "аоз",
+   "безпілотники",
+   "бпла",
    "бізнес",
-   "вайбкодинг",
    "винищувачі",
-   "дональд трамп",
-   "китай",
+   "військові технології",
+   "дрони",
    "міноборони",
-   "навчання",
    "нато",
    "новини",
    "нрк",
@@ -26290,31 +26227,15 @@
    "радар",
    "реб",
    "софт",
-   "сша",
+   "супутниковий інтернет",
+   "технології",
    "україна",
-   "чипи",
    "шахед",
    "штучний інтелект",
    "ігри"
   ]
  },
  "titles": [
-  [
-   1794222361.342501,
-   "Are Fall Out Boy teasing some big shows?"
-  ],
-  [
-   1794222370.7217972,
-   "WoW: Forever Boosts Dungeon XP As Blizzard Struggles to Get Leveling Balance Right"
-  ],
-  [
-   1794223978.6754313,
-   "BLG Overcomes Faker Demons to Make Worlds 2026 Grand Final; What Will T1 Do Next?"
-  ],
-  [
-   1794224076.9594257,
-   "Ahead of The Witcher 3: Songs of the Past, here's a \"lore friendly unofficial expansion to Geralt's life in Toussaint\" from a well-established quest modder"
-  ],
   [
    1794224793.6029427,
    "Death Stranding здивувала масштабом своєї аудиторії: франшиза святкує сім років"
@@ -27078,25 +26999,17 @@
   [
    1794394970.9847689,
    "In One Scene, Prime Video Officially Rewrites Gandalf’s Mission in Lord of the Rings"
+  ],
+  [
+   1794396687.6364694,
+   "Monster Hunter Wilds' upcoming Ascendance expansion may be getting a beta, some curious Steam backend updates suggest"
+  ],
+  [
+   1794396878.3959706,
+   "What the Digital Fairness Act means for the games industry"
   ]
  ],
  "titles_uk": [
-  [
-   1794222361.3425016,
-   "Чи натякає гурт Fall Out Boy на якісь великі концерти?"
-  ],
-  [
-   1794222370.721798,
-   "Blizzard збільшила досвід за вбивство монстрів у підземеллях у WoW: Forever"
-  ],
-  [
-   1794223978.675432,
-   "BLG перемогли T1 та вийшли у грандфінал Worlds 2026"
-  ],
-  [
-   1794224076.9594266,
-   "Вийшов неофіційний сюжетний аддон для The Witcher 3 про пригоди Ґеральта в Toussaint"
-  ],
   [
    1794224793.6029437,
    "Death Stranding здивувала масштабом своєї аудиторії: франшиза святкує сім років"
@@ -27860,6 +27773,14 @@
   [
    1794394970.9847693,
    "У The Rings of Power розкрили особу Dark Wizard і нову місію Gandalf"
+  ],
+  [
+   1794396687.63647,
+   "Monster Hunter Wilds може отримати бета-тест доповнення Ascendance"
+  ],
+  [
+   1794396878.3959715,
+   "Що закон про цифрову справедливість означає для ігрової індустрії"
   ]
  ],
  "ukrainian": {
@@ -28417,8 +28338,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1794375116.4028919,
-  "with_uk": 107
+  "last_check": 1794396897.3025727,
+  "with_uk": 106
  },
  "weekly_releases_week": "2026-W46",
  "wishlist": {
@@ -30216,7 +30137,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794393125.4508147,
+  "last_check": 1794396887.1724453,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
