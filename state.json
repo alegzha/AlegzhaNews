@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1794373274.794281
+  }
+ },
  "daily_digest_date": "2026-11-10",
  "freebies": {
   "last_check": 1794367900.6856487,
@@ -28,11 +35,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-11 04:31 UTC",
+  "at": "2026-11-11 05:02 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_model": "gemini-flash-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-latest": 2
   },
   "used": [
    "Gemini"
@@ -15496,7 +15503,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Розробники Battletoads і Disney Illusion Island анонсували екшен Murals</b>\n\nБританська студія Dlala Studios анонсувала свій власний проєкт — ізометричний екшен-адвентюр Murals, заснований на класичних казок із гумористичним сюжетом. Гравець керує мовчазним героєм у викришеному світі, де Sleeping Beauty слухає важкий метал, а Rapunzel страждає від власного волосся.\n\n🔗 <a href=\"https://www.polygon.com/murals-hands-on-dlala-studios/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/murals-hands-on-dlala-studios/",
     "orig": "We Need More Games Like Murals"
@@ -15510,7 +15516,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b>Доходи Krafton у третьому кварталі зросли на 11,6% попри спад у сегментах ПК і консолей</b>\n\nКомпанія Krafton повідомила про зниження операційного прибутку на 35,5 % до 225 млрд вон ($168,1 млн) у третьому кварталі, що, за її словами, пов’язано з витратами «на участь у виставці Gamescom та інші заходи». Читати далі\n\n🔗 <a href=\"https://www.gamesindustry.biz/krafton-q3-revenue-rises-116-despite-decreases-in-pc-and-console-segments\">GamesIndustry.biz</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/krafton-q3-revenue-rises-116-despite-decreases-in-pc-and-console-segments",
     "orig": "Krafton Q3 revenue rises 11.6% despite decreases in PC and console segments"
@@ -16365,6 +16370,34 @@
     "link": "https://deadline.com/2026/11/trump-bbc-lawsuit-judge-1237219938/",
     "orig": "Judge Declines To Dismiss Donald Trump’s Defamation Claim Against BBC"
    }
+  ],
+  [
+   1794373316.03451,
+   5609,
+   "🤖",
+   "СЕО Otter.ai розповів про міжнародну експансію та нові мови сервісу",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>СЕО Otter.ai розповів про міжнародну експансію та нові мови сервісу</b>\n\nГенеральний директор ШІ-сервісу для транскрипції Otter.ai Сем Лян поділився планами розвитку компанії. В інтерв&#x27;ю для Bloomberg він розповів про впровадження багатомовності, вихід на міжнародні ринки та стратегію розподілу капіталу для подальшого зростання.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-11/otter-ai-ceo-on-growth-strategy-multi-language-push-video\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-11/otter-ai-ceo-on-growth-strategy-multi-language-push-video",
+    "orig": "Otter.ai CEO on Growth Strategy, Multi-language push"
+   }
+  ],
+  [
+   1794373334.7700377,
+   5610,
+   "🤖",
+   "Tether AI Research представила BotPsy — ШІ-асистента для роботи на пристроях",
+   "Hugging Face",
+   {
+    "also": [],
+    "caption": "🤖 <b>Tether AI Research представила BotPsy — ШІ-асистента для роботи на пристроях</b>\n\nTether AI Research представила модель BotPsy на 0,8 млрд параметрів, створену на базі Qwen3.5-0.8B для роботи на пристроях. Вона слугує асистентом для повсякденних завдань, пошти й календаря, зберігаючи приватність даних. За ефективністю виклику інструментів розробка перевершує протестовані моделі розміром до 1,2B параметрів.\n\n🔗 <a href=\"https://huggingface.co/blog/qvac/botpsy\">Hugging Face</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://huggingface.co/blog/qvac/botpsy",
+    "orig": "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model"
+   }
   ]
  ],
  "posted_by_source": {
@@ -16373,20 +16406,19 @@
    1794337279.8825092
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1794285082.7906594,
    1794326503.5965126,
    1794330083.2042954,
    1794333679.4848573,
    1794340882.3778958,
-   1794369694.540116
+   1794369694.540116,
+   1794373316.0348976
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1794310275.0561354,
    1794339074.5730672
   ],
   "ai|Hugging Face|https://huggingface.co/blog/feed.xml": [
-   1794245572.8379426,
-   1794247287.3895657
+   1794373334.7703888
   ],
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
    1794330484.588982,
@@ -17933,6 +17965,7 @@
   "5afc49da7bd40515": 1793815496.1089234,
   "5b03893d101641b8": 1793235685.2887976,
   "5b1a46d04f637d02": 1793896550.3638928,
+  "5b1e520a5dac7f11": 1794373316.0348516,
   "5b21be88b5005115": 1793453479.6353858,
   "5b2f8d9500ed2fb0": 1794198777.1462855,
   "5b3b0284e4cdb730": 1793813725.7801633,
@@ -18699,7 +18732,6 @@
   "8dc4a6a9ec353083": 1794267175.2273066,
   "8dc952d0250ee645": 1793790174.7717426,
   "8dd03b31fcd78c57": 1793883833.9095404,
-  "8dd1f0416300a129": 1793163693.299013,
   "8e012ffa873243ff": 1793433983.738015,
   "8e1e8ced19a5f6d3": 1793453488.812824,
   "8e2231f6c64bfa5a": 1793817177.5515943,
@@ -19253,6 +19285,7 @@
   "b2189a02ad850663": 1794043852.507571,
   "b21b527311fcd74a": 1793617299.0170603,
   "b2229ae2402318ac": 1793791891.6259105,
+  "b22522d14a17f95f": 1794373334.770345,
   "b2263e9f84127c76": 1793383351.887684,
   "b22ad9f6b573aaab": 1793874760.2286494,
   "b2356d340e22b114": 1794020481.8517892,
@@ -19761,6 +19794,7 @@
   "d592869aab9003e8": 1793817162.1902502,
   "d594bf9977987887": 1793444574.6376414,
   "d59619d192f7806a": 1793550681.465666,
+  "d5c35cc6974f5a60": 1794373255.2240887,
   "d5d46baa865ef6d1": 1794227485.9262125,
   "d5e0b1582d85851f": 1794089059.1793842,
   "d5f026f90b587220": 1793712658.3106353,
@@ -20245,7 +20279,6 @@
   "f810cc816c112d3c": 1793300484.701852,
   "f81facf1836d01f2": 1793541756.4674182,
   "f8280b4de9960a3f": 1793374284.6047819,
-  "f82ca14ea500cc76": 1793163696.4447827,
   "f837a1e7305ea72b": 1793919684.1916068,
   "f83db0331ff8590e": 1794225780.2382436,
   "f847bc7a72867b8e": 1793782877.8432264,
@@ -21589,7 +21622,7 @@
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 2,
-   "Polygon": 20,
+   "Polygon": 21,
    "SteamDB": 1,
    "The Decoder": 2,
    "VGC": 5,
@@ -21599,7 +21632,7 @@
    "/Film": 10,
    "AIN.ua": 3,
    "Blabbermouth": 1,
-   "Bloomberg": 17,
+   "Bloomberg": 18,
    "DOU": 3,
    "DOU Gamedev": 1,
    "Deadline": 37,
@@ -21607,7 +21640,7 @@
    "Eurogamer": 5,
    "GamesIndustry.biz": 3,
    "GitHub Trending": 5,
-   "Hugging Face": 2,
+   "Hugging Face": 3,
    "IGN": 4,
    "ITC.ua": 19,
    "IndieWire": 3,
@@ -21633,7 +21666,7 @@
   },
   "translators": {
    "DeepL": 10,
-   "gemini-flash-latest": 2,
+   "gemini-flash-latest": 4,
    "gemini-flash-lite-latest": 194
   },
   "week": "2026-W46"
@@ -22614,16 +22647,6 @@
    "Angelfall",
    1792765964.524343
   ],
-  "q:animal": [
-   0,
-   "",
-   1794198775.7181718
-  ],
-  "q:animal crossing": [
-   0,
-   "",
-   1794198775.2090461
-  ],
   "q:another day": [
    2412640,
    "Another Day",
@@ -22998,16 +23021,6 @@
    0,
    "",
    1794317486.0264242
-  ],
-  "q:bruce": [
-   0,
-   "",
-   1794200475.8759944
-  ],
-  "q:bruce nesmith": [
-   0,
-   "",
-   1794200475.3580906
   ],
   "q:brutal legend": [
    225260,
@@ -24169,26 +24182,6 @@
    "",
    1794227487.9472039
   ],
-  "q:hoyoverse": [
-   0,
-   "",
-   1794198773.204507
-  ],
-  "q:hoyoverse's take": [
-   0,
-   "",
-   1794198772.7205734
-  ],
-  "q:hoyoverse's take on animal": [
-   0,
-   "",
-   1794198772.1073444
-  ],
-  "q:hoyoverse's take on animal crossing": [
-   0,
-   "",
-   1794198771.5466738
-  ],
   "q:huge": [
    1650040,
    "HuGe",
@@ -24774,11 +24767,6 @@
    "Neosis Echoes",
    1793813563.3796542
   ],
-  "q:nesmith": [
-   0,
-   "",
-   1794200476.3797874
-  ],
   "q:network": [
    0,
    "",
@@ -24888,11 +24876,6 @@
    0,
    "",
    1794321231.2128932
-  ],
-  "q:oblivion": [
-   0,
-   "",
-   1794200477.473651
   ],
   "q:obsession": [
    5385440,
@@ -25094,16 +25077,6 @@
    "Penguin Colony",
    1792486874.5018551
   ],
-  "q:petit": [
-   0,
-   "",
-   1794198770.5422423
-  ],
-  "q:petit planet": [
-   0,
-   "",
-   1794198769.8998039
-  ],
   "q:pgl": [
    0,
    "",
@@ -25158,11 +25131,6 @@
    560130,
    "Pillars of Eternity II: Deadfire",
    1793881945.8049543
-  ],
-  "q:planet": [
-   0,
-   "",
-   1794198771.0441692
   ],
   "q:planet zoo 2": [
    3219030,
@@ -25519,11 +25487,6 @@
    "",
    1794317484.6616955
   ],
-  "q:skyrim": [
-   0,
-   "",
-   1794200476.9548068
-  ],
   "q:sleeping dogs": [
    202170,
    "Sleeping Dogs",
@@ -25744,11 +25707,6 @@
    "System Shock",
    1792409517.6523504
   ],
-  "q:take": [
-   0,
-   "",
-   1794198774.697683
-  ],
   "q:take anything": [
    0,
    "",
@@ -25758,16 +25716,6 @@
    0,
    "",
    1794290484.4056902
-  ],
-  "q:take on animal": [
-   0,
-   "",
-   1794198774.1923428
-  ],
-  "q:take on animal crossing": [
-   0,
-   "",
-   1794198773.6941004
   ],
   "q:take two": [
    0,
@@ -26324,22 +26272,6 @@
   ]
  },
  "titles": [
-  [
-   1794198767.6656258,
-   "‘The Hit List’ From ‘Gangs Of London’ Director Kim Hong-sun Boarded By Finecut For Sales"
-  ],
-  [
-   1794198777.1462872,
-   "Petit Planet, aka HoYoverse's Take on Animal Crossing, Is Packed With Charm and Attention to Detail | IGN Preview"
-  ],
-  [
-   1794200479.2527347,
-   "Lead designer Bruce Nesmith says Skyrim was a hit because it was built on institutional knowledge from Oblivion"
-  ],
-  [
-   1794200482.7701674,
-   "Silly Goose announce Goose Fest and record music video at Denny's in GA"
-  ],
   [
    1794202297.0677667,
    "Father Arrested After Leaving Sleeping 6-Year-Old Daughter in Line for Pokémon Cards"
@@ -27103,25 +27035,17 @@
   [
    1794371498.1182106,
    "Judge Declines To Dismiss Donald Trump’s Defamation Claim Against BBC"
+  ],
+  [
+   1794373316.034853,
+   "Otter.ai CEO on Growth Strategy, Multi-language push"
+  ],
+  [
+   1794373334.7703462,
+   "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model"
   ]
  ],
  "titles_uk": [
-  [
-   1794198767.6656268,
-   "Finecut займеться міжнародними продажами бойовика The Hit List"
-  ],
-  [
-   1794198777.146288,
-   "HoYoverse анонсували симулятор життя Petit Planet у стилі Animal Crossing"
-  ],
-  [
-   1794200479.2527359,
-   "Брюс Несміт пояснив успіх Skyrim командним досвідом з Oblivion"
-  ],
-  [
-   1794200482.770168,
-   "Гурт Silly Goose влаштував концертій у Denny's та анонсував власний фестиваль"
-  ],
   [
    1794202297.0677676,
    "У США заарештували батька, який залишив сплячу дитину в черзі за Pokémon картками"
@@ -27885,6 +27809,14 @@
   [
    1794371498.1182115,
    "Суд відхилив клопотання BBC про закриття позову про наклеп від Donald Trump"
+  ],
+  [
+   1794373316.034854,
+   "СЕО Otter.ai розповів про міжнародну експансію та нові мови сервісу"
+  ],
+  [
+   1794373334.7703474,
+   "Tether AI Research представила BotPsy — ШІ-асистента для роботи на пристроях"
   ]
  ],
  "ukrainian": {
