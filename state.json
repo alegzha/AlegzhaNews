@@ -28,44 +28,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-12 11:04 UTC",
+  "at": "2026-11-12 11:29 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 2
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793790457.3851547,
-   4660,
-   "🤖",
-   "Tencent випустила нову модель ШІ та заявила про її лідерство в Китаї",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-04/tencent-declares-latest-ai-model-ranks-among-china-s-best",
-    "orig": "Tencent Declares Latest AI Model Ranks Among China’s Best"
-   }
-  ],
-  [
-   1793790481.1952355,
-   4661,
-   "🤘",
-   "Панк-рок, серфінг і колаби з AC/DC: хто такі HEADSEND",
-   "Kerrang!",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.kerrang.com/who-the-hell-are-headsend-australia-punk-interview",
-    "orig": "Punk rock, surfing and playing with AC/DC: Who the Hell are HEADSEND?"
-   }
-  ],
   [
    1793793701.6729214,
    4662,
@@ -13089,7 +13062,6 @@
    "VGC",
    {
     "also": [],
-    "caption": "🎮 <b>CD Projekt Red використала ШІ для голосу Ґеральта в доповненні до The Witcher 3</b>\n\nCD Projekt Red залучила компанію Respeecher, щоб адаптувати польську озвучку Ґеральта у доповненні Songs of the Past до The Witcher 3 за допомогою ШІ. Рішення ухвалили через зміни в голосі актора Яцека Розенека після перенесеного ним інсульту у 2019 році, причому актор дав на це свою згоду. ШІ-алгоритм на базі попередніх записів Розенека налаштував нові репліки так, щоб вони звучали як у базовій грі десятиліття тому.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/the-witcher-3-expansion-uses-ai-to-adjust-geralts-polish-voiceover-because-the-actor-suffered-a-stroke/\">VGC</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/news/the-witcher-3-expansion-uses-ai-to-adjust-geralts-polish-voiceover-because-the-actor-suffered-a-stroke/",
     "orig": "The Witcher 3 expansion uses AI to adjust Geralt’s Polish voiceover because the actor suffered a stroke"
@@ -13896,7 +13868,12 @@
    "Звільнені розробники з Id Software заснували власну студію Hidden Horses",
    "GamesIndustry.biz",
    {
-    "also": [],
+    "also": [
+     [
+      "VGC",
+      "https://www.videogameschronicle.com/news/a-group-of-developers-laid-off-from-id-software-have-formed-new-studio-hidden-horses/"
+     ]
+    ],
     "caption": "🎮 <b>Звільнені розробники з Id Software заснували власну студію Hidden Horses</b>\n\nКолишні співробітники Id Software, які постраждали від хвиль скорочень в Xbox, створили незалежну студію Hidden Horses, що належить працівникам.\n\n🔗 <a href=\"https://www.gamesindustry.biz/laid-off-id-software-devs-form-employee-owned-studio-hidden-horses\">GamesIndustry.biz</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/laid-off-id-software-devs-form-employee-owned-studio-hidden-horses",
@@ -13943,6 +13920,20 @@
     "kind": "photo",
     "link": "https://deadline.com/2026/11/line-of-duty-bbc-season-7-first-look-images-1237221458/",
     "orig": "‘Line Of Duty’: Arnott, Fleming & Hastings Return To Service In First Look At Season 7 Of BBC’s Record-Setting Cop Drama"
+   }
+  ],
+  [
+   1794482969.9521172,
+   5733,
+   "🎮",
+   "Marvel 1943: Rise of Hydra від Емі Генніг не скасували",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Marvel 1943: Rise of Hydra від Емі Генніг не скасували</b>\n\nПопри чутки та проблеми, супергеройський екшен від Skydance досі перебуває в розробці\n\n🔗 <a href=\"https://www.eurogamer.net/marvel-1943-rise-of-hydra-not-cancelled-skydance-says\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/marvel-1943-rise-of-hydra-not-cancelled-skydance-says",
+    "orig": "Amy Hennig's Marvel 1943: Rise of Hydra hasn't been cancelled, Skydance reportedly says, as rumours swirl to the contrary"
    }
   ]
  ],
@@ -14001,9 +13992,9 @@
    1793813559.2223816
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1794391349.2775483,
    1794396687.6365123,
-   1794407562.5904303
+   1794407562.5904303,
+   1794482969.9524834
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1793912609.2361844,
@@ -16909,6 +16900,7 @@
   "c692980557d859fb": 1794416476.658943,
   "c6afeb2fb1e7ce2b": 1793826148.1227229,
   "c6ccf70140869a3a": 1793781227.1864572,
+  "c6df244503533497": 1794482969.9524407,
   "c717df762cf720aa": 1793453497.6882606,
   "c71fa180348e8a9f": 1793383321.4730325,
   "c73852c9918dd39d": 1793720093.6716075,
@@ -17436,6 +17428,7 @@
   "ee30f1b248213596": 1793908860.4204457,
   "ee33087e894a4c9a": 1793890892.7230315,
   "ee473118fc8b5175": 1793901710.8291235,
+  "ee5d138905ed731b": 1794482973.1377099,
   "ee61f547fc688a21": 1793311252.6575263,
   "ee8301f272047996": 1794317494.1838448,
   "eebfc544c9792fbb": 1794024055.3195434,
@@ -17574,6 +17567,7 @@
   "f881bafed6675b4c": 1793721754.7233136,
   "f896db7719e03f9d": 1793433875.2494948,
   "f8ac7a069c5abf7b": 1794108683.0873785,
+  "f8bf296d26f8e412": 1794482852.3299081,
   "f8c381ad4351f956": 1793275350.7431655,
   "f8c7a4d918b43ca4": 1793322156.5652688,
   "f8cbfeed39802472": 1794436295.0952077,
@@ -18894,7 +18888,7 @@
    "Loudwire": 1,
    "Metal Hammer (Louder)": 2,
    "PC Gamer": 2,
-   "Polygon": 32,
+   "Polygon": 33,
    "SteamDB": 1,
    "The Decoder": 2,
    "VGC": 7,
@@ -18909,7 +18903,7 @@
    "DOU Gamedev": 2,
    "Deadline": 55,
    "Distorted Sound": 3,
-   "Eurogamer": 8,
+   "Eurogamer": 9,
    "GamesIndustry.biz": 5,
    "GitHub Trending": 12,
    "Hugging Face": 3,
@@ -18939,7 +18933,7 @@
   "translators": {
    "DeepL": 24,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 297
+   "gemini-flash-lite-latest": 299
   },
   "week": "2026-W46"
  },
@@ -19928,6 +19922,26 @@
    945360,
    "Among Us",
    1793109708.198485
+  ],
+  "q:amy hennig": [
+   0,
+   "",
+   1794482873.6627634
+  ],
+  "q:amy hennig's marvel": [
+   0,
+   "",
+   1794482873.1113403
+  ],
+  "q:amy hennig's marvel 1943": [
+   0,
+   "",
+   1794482872.5549183
+  ],
+  "q:amy hennig's marvel 1943 rise": [
+   0,
+   "",
+   1794482872.0581234
   ],
   "q:angelfall": [
    5168040,
@@ -21094,30 +21108,10 @@
    "Forbidden zone",
    1793628276.6804101
   ],
-  "q:forever": [
-   0,
-   "",
-   1794308488.2310562
-  ],
   "q:forza motorsport": [
    2440510,
    "Forza Motorsport",
    1793296918.519627
-  ],
-  "q:fps": [
-   0,
-   "",
-   1794308495.0992994
-  ],
-  "q:fps steam": [
-   0,
-   "",
-   1794308494.5854032
-  ],
-  "q:fps steam deck": [
-   0,
-   "",
-   1794308494.101888
   ],
   "q:fragmentary": [
    4083060,
@@ -21369,6 +21363,26 @@
    "HELLDIVERS™ 2",
    1792490482.5319238
   ],
+  "q:hennig": [
+   0,
+   "",
+   1794482875.7279286
+  ],
+  "q:hennig's marvel": [
+   0,
+   "",
+   1794482875.2204485
+  ],
+  "q:hennig's marvel 1943": [
+   0,
+   "",
+   1794482874.6774216
+  ],
+  "q:hennig's marvel 1943 rise": [
+   0,
+   "",
+   1794482874.1700273
+  ],
   "q:here's what": [
    0,
    "",
@@ -21553,6 +21567,11 @@
    0,
    "",
    1794396681.1239252
+  ],
+  "q:hydra": [
+   0,
+   "",
+   1794482877.3086789
   ],
   "q:hypnos": [
    2861210,
@@ -21993,6 +22012,11 @@
    3065800,
    "Marathon",
    1792337493.8494666
+  ],
+  "q:marvel": [
+   0,
+   "",
+   1794482876.2484057
   ],
   "q:marvel 1943": [
    0,
@@ -23009,6 +23033,11 @@
    "",
    1794475886.9692357
   ],
+  "q:rise": [
+   0,
+   "",
+   1794482876.7664707
+  ],
   "q:rise of hydra": [
    0,
    "",
@@ -23173,6 +23202,11 @@
    3354750,
    "skate.",
    1792609361.7887642
+  ],
+  "q:skydance": [
+   0,
+   "",
+   1794482877.8102975
   ],
   "q:skydance games": [
    0,
@@ -23358,21 +23392,6 @@
    1675200,
    "Steam Deck",
    1792490502.854336
-  ],
-  "q:steam fps": [
-   0,
-   "",
-   1794308493.6174092
-  ],
-  "q:steam fps steam": [
-   0,
-   "",
-   1794308493.1271067
-  ],
-  "q:steam fps steam deck": [
-   0,
-   "",
-   1794308492.625471
   ],
   "q:steam next fest": [
    1673210,
@@ -23619,11 +23638,6 @@
    "Walking Simulator",
    1792575423.2553575
   ],
-  "q:warcraft forever": [
-   0,
-   "",
-   1794308487.727665
-  ],
   "q:wardogs": [
    1867240,
    "WARDOGS",
@@ -23819,16 +23833,6 @@
    "World of Tanks",
    1793005388.3132465
   ],
-  "q:world of warcraft": [
-   0,
-   "",
-   1794308487.254213
-  ],
-  "q:world of warcraft forever": [
-   0,
-   "",
-   1794308486.7815306
-  ],
   "q:worlds": [
    0,
    "",
@@ -23907,11 +23911,11 @@
  },
  "tag_hints": {
   "Mezha": [
-   "apple carplay",
    "cybertruck",
-   "gemini",
    "google",
+   "magura",
    "microsoft",
+   "nemesis",
    "openai",
    "rafael",
    "starlink",
@@ -23922,6 +23926,7 @@
    "безпека",
    "бпла",
    "військові технології",
+   "двигун",
    "дрони",
    "зброя",
    "крилаті ракети",
@@ -23941,7 +23946,8 @@
    "штучний інтелект",
    "ші-агенти",
    "єс",
-   "ілон маск"
+   "ілон маск",
+   "інвестиції"
   ]
  },
  "titles": [
@@ -24720,6 +24726,10 @@
   [
    1794481453.1893077,
    "‘Line Of Duty’: Arnott, Fleming & Hastings Return To Service In First Look At Season 7 Of BBC’s Record-Setting Cop Drama"
+  ],
+  [
+   1794482969.9524422,
+   "Amy Hennig's Marvel 1943: Rise of Hydra hasn't been cancelled, Skydance reportedly says, as rumours swirl to the contrary"
   ]
  ],
  "titles_uk": [
@@ -25498,6 +25508,10 @@
   [
    1794481453.189309,
    "BBC показала перші кадри сьомого сезону серіалу Line of Duty"
+  ],
+  [
+   1794482969.952443,
+   "Marvel 1943: Rise of Hydra від Емі Генніг не скасували"
   ]
  ],
  "ukrainian": {
