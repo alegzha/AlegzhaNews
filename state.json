@@ -1,10 +1,40 @@
 {
  "alerts": {
-  "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
-   "detail": "https://distortedsoundmag.com/feed/ → HTTPSConnectionPool(host='distortedsoundmag.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «Distorted Sound» не працює",
+  "src:ai|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
    "sent": 0,
-   "since": 1794466886.687019
+   "since": 1794468716.4351413
+  },
+  "src:games|DOU Gamedev|https://gamedev.dou.ua/feed/": {
+   "detail": "https://gamedev.dou.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «DOU Gamedev» не працює",
+   "sent": 0,
+   "since": 1794468667.3267643
+  },
+  "src:games|Digital Foundry|https://www.digitalfoundry.net/feed": {
+   "detail": "https://www.digitalfoundry.net/rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/feed → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/feed.xml → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.eurogamer.net/feed/digitalfoundry → 404 Client Error: Not Found for url: https://www.eurogamer.net/feed/digitalfoundry",
+   "label": "Джерело «Digital Foundry» не працює",
+   "sent": 0,
+   "since": 1794468691.7389183
+  },
+  "src:games|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1794468673.2279663
+  },
+  "src:movies|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1794468712.4788976
+  },
+  "src:software|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1794468712.518135
   }
  },
  "daily_digest_date": "2026-11-11",
@@ -35,44 +65,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-12 07:02 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-11-12 07:32 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 4
+   "gemini-flash-lite-latest": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793777484.2547927,
-   4624,
-   "🎬",
-   "Чи стане Ebenezer касовим хітом, якого потребує Джонні Депп",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2305949/johnny-depp-movie-ebenezer-a-christmas-carol-box-office-preview/",
-    "orig": "Will Ebenezer Be The Box Office Hit Johnny Depp's Hollywood Comeback Needs?"
-   }
-  ],
-  [
-   1793777493.8455706,
-   4625,
-   "🎮",
-   "Embark Studios визнала необхідність додати PvE-контент у ARC Raiders",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/arc-raiders-ceo-admits-both-pve-and-pvp-cater/",
-    "orig": "ARC Raiders CEO Admits Both PvE and PvP Need To Be Catered For"
-   }
-  ],
   [
    1793779278.6991844,
    4626,
@@ -13366,7 +13369,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>ШІ Ілона Маска створив застосунки, які &quot;зливали&quot; конфіденційні дані SpaceX</b>\n\nЧерез помилку в роботі ШІ-агента Grok Build у відкритий доступ потрапили конфіденційні дані тисяч користувачів, зокрема внутрішні документи SpaceX та інших великих компаній.\n\n🔗 <a href=\"https://mezha.ua/news/grok-leaked-spacex-data-317111/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/grok-leaked-spacex-data-317111/",
     "orig": "ШІ Ілона Маска створив застосунки, які \"зливали\" конфіденційні дані SpaceX"
@@ -13380,7 +13382,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>bonds chat</b>\n\nМультиплеєрний ШІ, який гине, якщо ви з друзями зриваєте плани\n\n🔗 <a href=\"https://www.producthunt.com/products/bonds-2\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/bonds-2",
     "orig": "bonds chat"
@@ -14221,6 +14222,34 @@
     "link": "https://lambgoat.com/news/55857/0-miles-per-hour-van-stolen-in-portland-or-while-on-tour-with-a-sky-so-black/",
     "orig": "0 Miles Per Hour van broken into in Portland, OR while on tour with A Sky So Black"
    }
+  ],
+  [
+   1794468723.2383332,
+   5717,
+   "🎬",
+   "Інон Крейз виступив на гала-вечері Simon Wiesenthal Center із промовою про боротьбу з антисемітизмом",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Інон Крейз виступив на гала-вечері Simon Wiesenthal Center із промовою про боротьбу з антисемітизмом</b>\n\nГенеральний директор Skydance Інон Крейз отримав гуманітарну премію від Simon Wiesenthal Center. У своїй промові він наголосив на моральній відповідальності бізнес-лідерів у боротьбі з антисемітизмом та поширенням ненависті на нових платформах.\n\n🔗 <a href=\"https://deadline.com/2026/11/ynon-kreiz-simon-wiesenthal-dinner-skydance-1237220683/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/ynon-kreiz-simon-wiesenthal-dinner-skydance-1237220683/",
+    "orig": "Skydance Co-CEO Ynon Kreiz Spotlights “Moral Responsibility” + Combating Antisemitism & Injustice In Simon Wiesenthal Gala Speech"
+   }
+  ],
+  [
+   1794468725.5860996,
+   5718,
+   "💾",
+   "На 80% швидше завантаження застосунків на старті Windows 11: просте налаштування зменшує затримки",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "💾 <b>На 80% швидше завантаження застосунків на старті Windows 11: просте налаштування зменшує затримки</b>\n\nНалаштування двох параметрів реєстру у Windows 11 дозволяє усунути затримку під час завантаження застосунків на старті роботи ОС.\n\n🔗 <a href=\"https://itc.ua/ua/novini/na-80-shvydshe-zavantazhennya-zastosunkiv-na-starti-windows-11-proste-nalashtuvannya-zmenshuye-zatrymky/\">ITC.ua</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/na-80-shvydshe-zavantazhennya-zastosunkiv-na-starti-windows-11-proste-nalashtuvannya-zmenshuye-zatrymky/",
+    "orig": "На 80% швидше завантаження застосунків на старті Windows 11: просте налаштування зменшує затримки"
+   }
   ]
  ],
  "posted_by_source": {
@@ -14365,7 +14394,8 @@
    1794456194.0249884,
    1794461483.0767455,
    1794463287.9111404,
-   1794466916.2197335
+   1794466916.2197335,
+   1794468723.2386591
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794308484.7822244
@@ -14472,10 +14502,8 @@
    1794387783.9448917
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
-   1794331889.9997196,
-   1794337281.9379346,
-   1794378724.7713091,
-   1794414781.2747045
+   1794414781.2747045,
+   1794468725.5864017
   ],
   "software|Mezha|https://mezha.ua/feed/": [
    1794389489.226769,
@@ -14568,7 +14596,6 @@
   "05414e171daf5c5a": 1794344481.8467357,
   "0548bc0cfb430fd6": 1793674841.1119132,
   "05633073ef61800f": 1794294082.9916484,
-  "0568c09fc85bb2cd": 1793259084.351516,
   "057e22ab69c04fb1": 1794245572.8378994,
   "05b150ca6cc40468": 1793392256.1180868,
   "05cc0c623ee6d258": 1793271806.5680392,
@@ -14713,7 +14740,6 @@
   "0fa55bbf472a6475": 1794096084.7982104,
   "0fb0dcf784e38afc": 1793797633.3928258,
   "0fbb7fb25526cb1c": 1794281499.191693,
-  "0fbdcdfbc49b10c7": 1793259092.121179,
   "0fda04f75624a3da": 1793730728.9030435,
   "0fe3d7fd31b93cb1": 1793950285.4029667,
   "0fe3faebeaaa410f": 1794371492.9669104,
@@ -14829,7 +14855,6 @@
   "17fe3e31cfa5ab76": 1793280788.5289493,
   "1827172938135d47": 1793464296.1661189,
   "182eb590434b1f1f": 1793296987.389673,
-  "182f846e5acaf7e8": 1793259084.3508482,
   "1847baeab96262e7": 1794117651.9309552,
   "1850a1bf855c9485": 1793640659.9838288,
   "187082d91f09f74c": 1793664118.122448,
@@ -15120,7 +15145,6 @@
   "2ed36b56a538cf6f": 1794272486.0230196,
   "2edc981a025beeb9": 1794144676.90814,
   "2edce1938290d381": 1793268597.449097,
-  "2ee71149e8c79665": 1793259084.352233,
   "2eef31ae36a97ce0": 1793718081.3705566,
   "2f052fd6fb628b08": 1793827913.3597782,
   "2f1270bcc9a6c870": 1793835103.2061846,
@@ -15219,6 +15243,7 @@
   "35aeee524f8ec7e1": 1793280682.7474515,
   "35c7c978195d3a78": 1793372522.233624,
   "35cad1d958b2841b": 1793521877.1028616,
+  "35ec820eff5461f0": 1794468723.2386136,
   "363a3157a06f97c8": 1793305972.0646014,
   "3712e197a4478fbe": 1793473377.7628138,
   "372e272e7f799819": 1793896430.5025733,
@@ -15446,6 +15471,7 @@
   "49e1b05e466420dd": 1793641130.8567448,
   "49eceb4f0f4bb4a9": 1793685693.4614995,
   "49f47d0a04e244f6": 1793649860.6717303,
+  "4a0f2863e5da5058": 1794468725.5863578,
   "4a32b637801bf014": 1793428291.8902476,
   "4a6ac7574e97ebb8": 1793851323.6127343,
   "4a6e52a01df205bd": 1793365344.2508354,
@@ -19210,14 +19236,14 @@
    "Bloomberg": 25,
    "DOU": 4,
    "DOU Gamedev": 1,
-   "Deadline": 53,
+   "Deadline": 54,
    "Distorted Sound": 3,
    "Eurogamer": 8,
    "GamesIndustry.biz": 4,
    "GitHub Trending": 8,
    "Hugging Face": 3,
    "IGN": 8,
-   "ITC.ua": 24,
+   "ITC.ua": 25,
    "IndieWire": 3,
    "Insider Gaming": 12,
    "Kerrang!": 1,
@@ -19242,7 +19268,7 @@
   "translators": {
    "DeepL": 18,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 286
+   "gemini-flash-lite-latest": 287
   },
   "week": "2026-W46"
  },
@@ -24302,22 +24328,6 @@
  },
  "titles": [
   [
-   1794295687.2329602,
-   "Fifty years after forming, Northern Ireland's finest The Undertones are in the mood to celebrate"
-  ],
-  [
-   1794295689.1235526,
-   "AMD вже пропонує Microsoft Project Zenith на власному міні-ПК з Ryzen AI Halo"
-  ],
-  [
-   1794295897.1755638,
-   "‘Ramayana’ Makes History as First Indian Film to Top U.K., Ireland Box Office as ‘Godzilla Minus Zero’ Debuts in Third"
-  ],
-  [
-   1794295904.4571865,
-   "Producer Jemima Goldsmith Accuses Russell Brand of “Violence, Coercive Control & Abuse”"
-  ],
-  [
    1794297877.2629187,
    "HitPay Agentic Discovery"
   ],
@@ -25080,25 +25090,17 @@
   [
    1794466941.6055055,
    "0 Miles Per Hour van broken into in Portland, OR while on tour with A Sky So Black"
+  ],
+  [
+   1794468723.2386153,
+   "Skydance Co-CEO Ynon Kreiz Spotlights “Moral Responsibility” + Combating Antisemitism & Injustice In Simon Wiesenthal Gala Speech"
+  ],
+  [
+   1794468725.5863593,
+   "На 80% швидше завантаження застосунків на старті Windows 11: просте налаштування зменшує затримки"
   ]
  ],
  "titles_uk": [
-  [
-   1794295687.232961,
-   "The Undertones готуються до туру на честь піввікового ювілею"
-  ],
-  [
-   1794295689.1235533,
-   "AMD вже пропонує Microsoft Project Zenith на власному міні-ПК з Ryzen AI Halo"
-  ],
-  [
-   1794295897.1755643,
-   "Ramayana очолив бокс-офіс Великої Британії та Ірландії"
-  ],
-  [
-   1794295904.4571872,
-   "Продюсерка Джеміма Голдсміт звинуватила Рассела Бранда в насильстві"
-  ],
   [
    1794297877.2629197,
    "HitPay представляє Agentic Discovery"
@@ -25862,6 +25864,14 @@
   [
    1794466941.6055067,
    "Фургон гурту 0 Miles Per Hour обікрали в Портленді під час туру з A Sky So Black"
+  ],
+  [
+   1794468723.2386162,
+   "Інон Крейз виступив на гала-вечері Simon Wiesenthal Center із промовою про боротьбу з антисемітизмом"
+  ],
+  [
+   1794468725.58636,
+   "На 80% швидше завантаження застосунків на старті Windows 11: просте налаштування зменшує затримки"
   ]
  ],
  "ukrainian": {
@@ -28222,7 +28232,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794465198.4873507,
+  "last_check": 1794468734.9619553,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
