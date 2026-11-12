@@ -1,45 +1,8 @@
 {
- "alerts": {
-  "src:ai|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1794468716.4351413
-  },
-  "src:games|DOU Gamedev|https://gamedev.dou.ua/feed/": {
-   "detail": "https://gamedev.dou.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «DOU Gamedev» не працює",
-   "sent": 0,
-   "since": 1794468667.3267643
-  },
-  "src:games|Digital Foundry|https://www.digitalfoundry.net/feed": {
-   "detail": "https://www.digitalfoundry.net/rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/feed → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.digitalfoundry.net/feed.xml → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3\nhttps://www.eurogamer.net/feed/digitalfoundry → 404 Client Error: Not Found for url: https://www.eurogamer.net/feed/digitalfoundry",
-   "label": "Джерело «Digital Foundry» не працює",
-   "sent": 0,
-   "since": 1794468691.7389183
-  },
-  "src:games|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1794468673.2279663
-  },
-  "src:movies|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1794468712.4788976
-  },
-  "src:software|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1794468712.518135
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-11",
  "freebies": {
-  "last_check": 1794463289.7108896,
+  "last_check": 1794470495.261698,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -76,32 +39,6 @@
   ]
  },
  "post_log": [
-  [
-   1793779278.6991844,
-   4626,
-   "🤖",
-   "Китайські моделі штучного інтелекту відстають від американських значно сильніше, ніж вважалося",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://highload.tech/uk/kytajski-modeli-shtuchnogo-intelektu-vidstayut-vid-amerykanskyh-znachno-sylnishe-nizh-vvazhalosya/#new_tab",
-    "orig": "Китайські моделі штучного інтелекту відстають від американських значно сильніше, ніж вважалося"
-   }
-  ],
-  [
-   1793779287.663077,
-   4627,
-   "🤘",
-   "Учасники Ninth Key розповіли про створення гурту та нову музику",
-   "Loudwire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://loudwire.com/ninth-key-ekoh-lo-spirit-interview/",
-    "orig": "Ninth Key's Ekoh + Lo Spirit Open Up About New Music + More"
-   }
-  ],
   [
    1793781125.7617989,
    4628,
@@ -13395,7 +13332,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "💾 <b>Повний контроль над відеокартою: віцепрезидент Microsoft створив диспетчер завдань для GPU</b>\n\nВіцепрезидент та член технічного персоналу Microsoft/GitHub Скотт Хансельман створив застосунок для детального моніторингу використання відеопам’яті графічними процесорами.\n\n🔗 <a href=\"https://itc.ua/ua/novini/povnyj-kontrol-nad-videokartoyu-vitseprezydent-microsoft-stvoryv-dyspetcher-zavdan-dlya-gpu/\">ITC.ua</a>\n\n#софт",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/povnyj-kontrol-nad-videokartoyu-vitseprezydent-microsoft-stvoryv-dyspetcher-zavdan-dlya-gpu/",
     "orig": "Повний контроль над відеокартою: віцепрезидент Microsoft створив диспетчер завдань для GPU"
@@ -13409,7 +13345,6 @@
    "AIN.ua",
    {
     "also": [],
-    "caption": "🤖 <b>Microsoft запатентувала технологію, яка дозволить навчати ШІ на відеокартах користувачів: як це працюватиме</b>\n\nКомпанія пропонує використовувати вільні потужності відеокарт на комп&#x27;ютерах і смартфонах для навчання штучного інтелекту. За участь у цьому користувачі зможуть отримувати винагороду.\n\n🔗 <a href=\"https://ain.ua/2026/11/11/microsoft-zapatentuvala-texnologiiu-iaka-dozvolit-navcati-si-na-videokartax-koristuvaciv/\">AIN.ua</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://ain.ua/2026/11/11/microsoft-zapatentuvala-texnologiiu-iaka-dozvolit-navcati-si-na-videokartax-koristuvaciv/",
     "orig": "Microsoft запатентувала технологію, яка дозволить навчати ШІ на відеокартах користувачів: як це працюватиме"
@@ -14250,6 +14185,34 @@
     "link": "https://itc.ua/ua/novini/na-80-shvydshe-zavantazhennya-zastosunkiv-na-starti-windows-11-proste-nalashtuvannya-zmenshuye-zatrymky/",
     "orig": "На 80% швидше завантаження застосунків на старті Windows 11: просте налаштування зменшує затримки"
    }
+  ],
+  [
+   1794470490.4252648,
+   5719,
+   "🎮",
+   "Витік розкрив новий проєкт, пов’язаний із Mega Man Legends",
+   "PlayUA",
+   {
+    "also": [],
+    "caption": "🎮 <b>Витік розкрив новий проєкт, пов’язаний із Mega Man Legends</b>\n\nCapcom, імовірно, працює над новим проєктом у всесвіті Mega Man Legends. На сайті канадської акторської профспілки ACTRA Toronto виявили запис про виробництво під назвою Mega Man Legends — New Media. Інформація може вказувати на підготовку перевидання класичних ігор, однак офіційного анонсу від видавця поки не було. На незвичайний запис звернули увагу користувачі спільноти Mega Man […]\n\n🔗 <a href=\"https://playua.net/vytik-rozkryv-novyj-proyekt-povyazanyj-iz-mega-man-legends/\">PlayUA</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://playua.net/vytik-rozkryv-novyj-proyekt-povyazanyj-iz-mega-man-legends/",
+    "orig": "Витік розкрив новий проєкт, пов’язаний із Mega Man Legends"
+   }
+  ],
+  [
+   1794470493.3108103,
+   5720,
+   "🎮",
+   "Valve оновила систему досягнень Steam: набори, трофеї та нові можливості",
+   "PlayUA",
+   {
+    "also": [],
+    "caption": "🎮 <b>Valve оновила систему досягнень Steam: набори, трофеї та нові можливості</b>\n\nValve випустила масштабне оновлення системи досягнень Steam, додавши окремі набори досягнень, спеціальні трофеї та інструменти для керування недоступними завданнями. Також компанія переробила сторінку досягнень, розширивши можливості відстеження прогресу та порівняння результатів із друзями. Головним нововведенням стала можливість розподіляти досягнення однієї гри на тематичні набори.\n\n🔗 <a href=\"https://playua.net/valve-onovyla-systemu-dosyagnen-steam-nabory-trofeyi-ta-novi-mozhlyvosti/\">PlayUA</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://playua.net/valve-onovyla-systemu-dosyagnen-steam-nabory-trofeyi-ta-novi-mozhlyvosti/",
+    "orig": "Valve оновила систему досягнень Steam: набори, трофеї та нові можливості"
+   }
   ]
  ],
  "posted_by_source": {
@@ -14346,8 +14309,9 @@
    1794456162.6430812
   ],
   "games|PlayUA|https://playua.net/feed/": [
-   1794362593.066877,
-   1794400285.8061483
+   1794400285.8061483,
+   1794470490.4255903,
+   1794470493.3111122
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
    1794380495.176841,
@@ -15199,6 +15163,7 @@
   "3271c528877c7d82": 1793615453.5353343,
   "327c76e888111331": 1793822027.6340158,
   "32995f482f848b41": 1793514131.0359926,
+  "32b31c0204f4a5cb": 1794470490.4255424,
   "33097b39e293d40b": 1794211286.8406339,
   "33107e2202e70853": 1793655081.5649998,
   "33118002c749f198": 1793730687.6979594,
@@ -15418,6 +15383,7 @@
   "444aba49b33c9df5": 1793313183.6756437,
   "444d3197f961294e": 1793289915.1201022,
   "44767ce95e8f4f1c": 1793284348.1944165,
+  "449789e271e8cc68": 1794470493.3110666,
   "44c1a0ca3d3a2020": 1793856771.64098,
   "44c57de0d665c91a": 1793474720.4552457,
   "44cde2a9ca1b2d25": 1793896395.295273,
@@ -16064,7 +16030,6 @@
   "726f07ebf3b0942c": 1793797560.0987308,
   "7272e00294ab2549": 1793730746.9032133,
   "7284fdd7b6148259": 1793467892.6243136,
-  "728d757d268f0dc3": 1793260894.441194,
   "72a2d5961e77d2a3": 1793896598.2354026,
   "72a4509cad4a73ee": 1793709113.1204128,
   "72bf4f466374e6ae": 1793291717.7314296,
@@ -16642,7 +16607,6 @@
   "9bf1af7a03ffc263": 1793264596.5835426,
   "9c03387547edb6b9": 1793790143.2261176,
   "9c1a9368ebd6a42c": 1793946696.695091,
-  "9c1c13d9414e102e": 1793260855.1404,
   "9c32bcd3c3b11649": 1793880164.8171937,
   "9c3e02609486bbb0": 1793819030.7217646,
   "9c678d9b6e46c88a": 1793720227.7373075,
@@ -17384,7 +17348,6 @@
   "d1dba08093721437": 1794459674.8123393,
   "d1e18c09b992d466": 1794143063.8868604,
   "d1f503372a06729c": 1793907114.5700712,
-  "d1fa668338b35d98": 1793259202.7391942,
   "d20df3bde0319a4b": 1793358160.3093574,
   "d243b60ef871bed9": 1793844092.5397108,
   "d243fc5aaaf62609": 1793819049.8181703,
@@ -17555,7 +17518,6 @@
   "df174b24e365a19e": 1793761311.24735,
   "df253b521204f8c4": 1793273490.657977,
   "df40e808d4a0f758": 1793633618.2304688,
-  "df43f2fe1a6cdcdc": 1793259189.3312745,
   "df480c402f946493": 1793406683.3552864,
   "df4e28563ece410a": 1794205882.9517407,
   "df5a3f5826a74af5": 1793538321.0973961,
@@ -19254,7 +19216,7 @@
    "Neformat": 11,
    "PC Gamer": 12,
    "Pitchfork": 1,
-   "PlayUA": 3,
+   "PlayUA": 5,
    "Polygon": 17,
    "Product Hunt": 3,
    "Rock Paper Shotgun": 6,
@@ -22358,6 +22320,16 @@
    "Mammoth",
    1792762325.5861564
   ],
+  "q:man": [
+   0,
+   "",
+   1794470489.4030423
+  ],
+  "q:man legends": [
+   0,
+   "",
+   1794470488.9495904
+  ],
   "q:marathon": [
    3065800,
    "Marathon",
@@ -22417,6 +22389,21 @@
    2213600,
    "Medusa",
    1792037204.3360293
+  ],
+  "q:mega": [
+   0,
+   "",
+   1794470488.439976
+  ],
+  "q:mega man": [
+   0,
+   "",
+   1794470487.9646428
+  ],
+  "q:mega man legends": [
+   0,
+   "",
+   1794470487.4967265
   ],
   "q:messiah": [
    577980,
@@ -23938,6 +23925,11 @@
    "",
    1794403891.3777575
   ],
+  "q:valve steam": [
+   0,
+   "",
+   1794470492.4120522
+  ],
   "q:video game": [
    924310,
    "VIDEO GAME",
@@ -24291,17 +24283,15 @@
  },
  "tag_hints": {
   "Mezha": [
-   "acer",
-   "acer predator helios neo 16",
+   "apple carplay",
    "bmw",
-   "call of duty",
+   "gemini",
    "grand theft auto vi",
    "logitech",
    "nvidia",
    "openai",
    "samsung",
    "авто",
-   "авіація",
    "безпілотники",
    "бомбер",
    "бізнес",
@@ -24310,20 +24300,17 @@
    "дніпро",
    "електромобілі",
    "китай",
-   "літаки",
    "новини",
-   "ноутбуки",
    "нрк",
    "оборонка",
-   "огляди",
    "освіта",
    "сем альтман",
-   "сша",
+   "софт",
    "технології",
    "шпигунство",
    "штучний інтелект",
    "ігри",
-   "ігрові ноутбуки"
+   "ілон маск"
   ]
  },
  "titles": [
@@ -25098,6 +25085,14 @@
   [
    1794468725.5863593,
    "На 80% швидше завантаження застосунків на старті Windows 11: просте налаштування зменшує затримки"
+  ],
+  [
+   1794470490.425544,
+   "Витік розкрив новий проєкт, пов’язаний із Mega Man Legends"
+  ],
+  [
+   1794470493.311069,
+   "Valve оновила систему досягнень Steam: набори, трофеї та нові можливості"
   ]
  ],
  "titles_uk": [
@@ -25872,6 +25867,14 @@
   [
    1794468725.58636,
    "На 80% швидше завантаження застосунків на старті Windows 11: просте налаштування зменшує затримки"
+  ],
+  [
+   1794470490.4255447,
+   "Витік розкрив новий проєкт, пов’язаний із Mega Man Legends"
+  ],
+  [
+   1794470493.3110702,
+   "Valve оновила систему досягнень Steam: набори, трофеї та нові можливості"
   ]
  ],
  "ukrainian": {
