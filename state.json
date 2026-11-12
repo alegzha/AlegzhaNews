@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
+   "detail": "https://distortedsoundmag.com/feed/ → HTTPSConnectionPool(host='distortedsoundmag.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Distorted Sound» не працює",
+   "sent": 0,
+   "since": 1794466886.687019
+  }
+ },
  "daily_digest_date": "2026-11-11",
  "freebies": {
   "last_check": 1794463289.7108896,
@@ -28,43 +35,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-12 06:33 UTC",
+  "at": "2026-11-12 07:02 UTC",
   "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 4
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793775684.1441479,
-   4622,
-   "🤖",
-   "Інвесторів закликають диверсифікувати портфелі поза межами ШІ",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-03/alliancebernstein-s-yu-urges-investors-to-diversify-beyond-ai",
-    "orig": "AllianceBernstein’s Yu Urges Investors to Diversify Beyond AI"
-   }
-  ],
-  [
-   1793775688.2710664,
-   4623,
-   "🤘",
-   "Mastodon вимагають часткового скасування позову від спадкоємців Брента Гаїндза",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/11/03/news/mastodon-file-for-partial-dismissal-of-lawsuit-brought-forth-by-brent-hinds-estate/",
-    "orig": "Mastodon File For Partial Dismissal Of Lawsuit Brought Forth By Brent Hinds’ Estate"
-   }
-  ],
   [
    1793777484.2547927,
    4624,
@@ -13358,7 +13340,6 @@
       "https://the-decoder.com/helsing-built-an-ai-system-that-prepares-targets-for-weapons-systems-and-says-every-decision-will-carry-a-human-name/"
      ]
     ],
-    "caption": "🤖 <b>Німецька Helsing представила ШІ-платформу, яка за секунди аналізує розвіддані та виявляє військові цілі</b>\n\nНімецька Helsing представила Clarity – ШІ-платформу для аналізу військових даних, виявлення цілей та підготовки інформації для ударів. Її розробили з урахуванням потреб Бундесверу.\n\n🔗 <a href=\"https://oboronka.mezha.ua/helsing-predstavila-shi-platformu-clarity-317104/\">Mezha</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://oboronka.mezha.ua/helsing-predstavila-shi-platformu-clarity-317104/",
     "orig": "Німецька Helsing представила ШІ-платформу, яка за секунди аналізує розвіддані та виявляє військові цілі"
@@ -13372,7 +13353,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>Reddit Reviews</b>\n\nСторінки товарів тепер збирають відгуки з Reddit\n\n🔗 <a href=\"https://www.producthunt.com/products/reddit\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/reddit",
     "orig": "Reddit Reviews"
@@ -14213,6 +14193,34 @@
     "link": "https://www.theprp.com/2026/11/11/news/killswitch-engage-spineshank-far-etc-members-guest-on-abandon-the-bands-debut-album/",
     "orig": "Killswitch Engage, Spineshank, Far, Etc. Members Guest On Abandon The Band’s Debut Album"
    }
+  ],
+  [
+   1794466916.219402,
+   5715,
+   "🎬",
+   "Бек Беннетт зітід у комедії про гірськолижний курорт від FX",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Бек Беннетт зітід у комедії про гірськолижний курорт від FX</b>\n\nЕКСКЛЮЗИВ: Як повідомили джерела виданню Deadline, колишні учасники шоу «Saturday Night Live» Анна Дрезен, Пол Бріганті та Бек Беннетт працюють над створенням півгодинного комедійного серіалу для каналу FX. Беннет зіграє в цьому проєкті роль зганьбленого олімпійського лижника, який змушений рятувати курорт своєї родини в Аспені, що перебуває на межі банкрутства, — і це буде нелегка боротьба, оскільки його єдиний талант полягає в тому, щоб ковзати […]\n\n🔗 <a href=\"https://deadline.com/2026/11/beck-bennett-snl-reunion-ski-resort-comedy-show-fx-1237220707/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/beck-bennett-snl-reunion-ski-resort-comedy-show-fx-1237220707/",
+    "orig": "Beck Bennett To Star In Ski Resort Comedy In Works At FX, In Reunion With ‘SNL’ Duo Anna Drezen & Paul Briganti"
+   }
+  ],
+  [
+   1794466941.6052387,
+   5716,
+   "🤘",
+   "Фургон гурту 0 Miles Per Hour обікрали в Портленді під час туру з A Sky So Black",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Фургон гурту 0 Miles Per Hour обікрали в Портленді під час туру з A Sky So Black</b>\n\nАльтернативний шугейз-гурт 0 Miles Per Hour з Флориди збирає кошти після пограбування\n\n🔗 <a href=\"https://lambgoat.com/news/55857/0-miles-per-hour-van-stolen-in-portland-or-while-on-tour-with-a-sky-so-black/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55857/0-miles-per-hour-van-stolen-in-portland-or-while-on-tour-with-a-sky-so-black/",
+    "orig": "0 Miles Per Hour van broken into in Portland, OR while on tour with A Sky So Black"
+   }
   ]
  ],
  "posted_by_source": {
@@ -14345,8 +14353,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1794379596.8600478,
-   1794379783.9103842,
    1794387773.8867042,
    1794403883.913295,
    1794434586.8519957,
@@ -14358,7 +14364,8 @@
    1794450683.2133973,
    1794456194.0249884,
    1794461483.0767455,
-   1794463287.9111404
+   1794463287.9111404,
+   1794466916.2197335
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794308484.7822244
@@ -14398,10 +14405,10 @@
    1794222361.3425462
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1794376883.9152374,
    1794441681.0200486,
    1794441684.146562,
-   1794443496.1960924
+   1794443496.1960924,
+   1794466941.6055477
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1793863899.4650683,
@@ -15822,7 +15829,6 @@
   "64ef614d2c95ef44": 1793653282.5216963,
   "64f2bfb69cf9bf65": 1794220468.528721,
   "6520eb2a723479ef": 1793613677.8454714,
-  "655d7cceb3ca0846": 1793257275.9779625,
   "655df500de25b710": 1793275332.465009,
   "659f525c9542d03c": 1793916054.947063,
   "65b32f39a0fe6361": 1793833279.4040277,
@@ -16204,7 +16210,6 @@
   "7de28663b6aefb0e": 1793381553.0375512,
   "7dea89799ae000b7": 1793721684.7566607,
   "7e0447dba3365153": 1793622676.5296125,
-  "7e2b0c9a55bdb545": 1793257295.274233,
   "7e2d1f4e30e2760f": 1793849525.6762714,
   "7e321eace551bbbe": 1793883770.9606118,
   "7e325932b0277dd1": 1793379764.324909,
@@ -17406,6 +17411,7 @@
   "d603dc80c86d3e2b": 1793872886.6384912,
   "d6125c01595d4175": 1793729100.5072117,
   "d6265d70e991f16b": 1793660607.1294117,
+  "d63adf0d2e971a9f": 1794466916.2196858,
   "d63c0929e8c0e276": 1793916054.947063,
   "d646f9aa1742060b": 1794243653.6223223,
   "d64729b214317c8a": 1793277113.2345135,
@@ -17548,6 +17554,7 @@
   "e0f6bc52026fa6ae": 1793910653.3599937,
   "e0f942506a8a6943": 1794097887.8733616,
   "e0f98daa54e8849a": 1793772088.3333282,
+  "e0ff9411e353d849": 1794466941.6055038,
   "e1226f987c90e0c2": 1793413855.5621593,
   "e12670fcd7f91101": 1793633583.267073,
   "e1279056e5abb540": 1794090690.3268855,
@@ -19203,7 +19210,7 @@
    "Bloomberg": 25,
    "DOU": 4,
    "DOU Gamedev": 1,
-   "Deadline": 52,
+   "Deadline": 53,
    "Distorted Sound": 3,
    "Eurogamer": 8,
    "GamesIndustry.biz": 4,
@@ -19214,7 +19221,7 @@
    "IndieWire": 3,
    "Insider Gaming": 12,
    "Kerrang!": 1,
-   "Lambgoat": 15,
+   "Lambgoat": 16,
    "Metal Hammer (Louder)": 14,
    "Metal Injection": 1,
    "Mezha": 27,
@@ -19233,9 +19240,9 @@
    "Variety": 18
   },
   "translators": {
-   "DeepL": 17,
+   "DeepL": 18,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 282
+   "gemini-flash-lite-latest": 286
   },
   "week": "2026-W46"
  },
@@ -24295,10 +24302,6 @@
  },
  "titles": [
   [
-   1794294082.99165,
-   "‘Ebenezer’ First Reactions: Johnny Depp’s Hollywood Comeback Is a ‘Wickedly Fun Holiday Treat’ That Adds ‘Refreshing New Layers’ to the Christmas Classic"
-  ],
-  [
    1794295687.2329602,
    "Fifty years after forming, Northern Ireland's finest The Undertones are in the mood to celebrate"
   ],
@@ -25069,13 +25072,17 @@
   [
    1794465189.7481802,
    "Killswitch Engage, Spineshank, Far, Etc. Members Guest On Abandon The Band’s Debut Album"
+  ],
+  [
+   1794466916.2196877,
+   "Beck Bennett To Star In Ski Resort Comedy In Works At FX, In Reunion With ‘SNL’ Duo Anna Drezen & Paul Briganti"
+  ],
+  [
+   1794466941.6055055,
+   "0 Miles Per Hour van broken into in Portland, OR while on tour with A Sky So Black"
   ]
  ],
  "titles_uk": [
-  [
-   1794294082.991651,
-   "Перші відгуки про ‘Ebenezer’: повернення Johnny Depp у Голлівуд називають чудовим святковим кіно"
-  ],
   [
    1794295687.232961,
    "The Undertones готуються до туру на честь піввікового ювілею"
@@ -25847,6 +25854,14 @@
   [
    1794465189.7481813,
    "Учасники Killswitch Engage та Spineshank грають на дебютному альбомі Abandon The Band"
+  ],
+  [
+   1794466916.2196887,
+   "Бек Беннетт зітід у комедії про гірськолижний курорт від FX"
+  ],
+  [
+   1794466941.6055067,
+   "Фургон гурту 0 Miles Per Hour обікрали в Портленді під час туру з A Sky So Black"
   ]
  ],
  "ukrainian": {
