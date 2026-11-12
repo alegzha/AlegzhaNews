@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
+   "detail": "https://distortedsoundmag.com/feed/ → HTTPSConnectionPool(host='distortedsoundmag.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Distorted Sound» не працює",
+   "sent": 0,
+   "since": 1794497490.2984703
+  }
+ },
  "daily_digest_date": "2026-11-11",
  "freebies": {
   "last_check": 1794493893.1631012,
@@ -28,178 +35,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-12 15:01 UTC",
-  "gemini_error": "",
+  "at": "2026-11-12 15:33 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793804505.71799,
-   4703,
-   "🤘",
-   "Музиканти LAMB OF GOD, GWAR та DEATH ANGEL виконали кавери на METALLICA",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/watch-members-of-lamb-of-god-gwar-death-angel-others-celebrate-40th-anniversary-of-metallicas-master-of-puppets-aboard-headbangers-boat-2026",
-    "orig": "Watch: Members Of LAMB OF GOD, GWAR, DEATH ANGEL, Others Celebrate 40th Anniversary Of METALLICA's 'Master Of Puppets' Aboard 'Headbangers Boat 2026'"
-   }
-  ],
-  [
-   1793804532.4644203,
-   4704,
-   "🎮",
-   "GTA 6 продалася тиражем майже 8 мільйонів копій ще до релізу",
-   "GameSpot",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.gamespot.com/articles/gta-6-has-sold-almost-8-million-copies-so-far-and-ps5-is-dominating-the-split-of-course/",
-    "orig": "GTA 6 Has Sold Almost 8 Million Copies So Far, And PS5 Is Dominating The Split (Of Course)"
-   }
-  ],
-  [
-   1793804584.9760082,
-   4705,
-   "🎮",
-   "The Elder Scrolls VI: Sentinel покаже справжнє ставлення Xbox до ексклюзивності",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/the-elder-scrolls-6-sentinel-will-show-us-just-how-serious-xbox-is-about-exclusivity",
-    "orig": "The Elder Scrolls 6: Sentinel Will Show Us Just How Serious Xbox Is About Exclusivity"
-   }
-  ],
-  [
-   1793804607.4488914,
-   4706,
-   "🎮",
-   "Друге доповнення для Pokémon Pokopia вийде у грудні",
-   "VGC",
-   {
-    "also": [
-     [
-      "Insider Gaming",
-      "https://insider-gaming.com/pokemon-pokopia-expansion-pass-dazzling-decorations-release-date-revealed/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.videogameschronicle.com/news/pokemon-pokopias-second-expansion-announced-for-december/",
-    "orig": "Pokémon Pokopia’s second expansion announced for December"
-   }
-  ],
-  [
-   1793804652.7524538,
-   4707,
-   "🤘",
-   "Чак Біллі з TESTAMENT кардинально змінив імідж та обрізав довге волосся",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/testaments-chuck-billy-debuts-new-look-ive-had-long-hair-my-whole-life-except-when-i-was-ill-with-cancer",
-    "orig": "TESTAMENT's CHUCK BILLY Debuts New Look: 'I've Had Long Hair My Whole Life, Except When I Was Ill With Cancer'"
-   }
-  ],
-  [
-   1793804681.4099696,
-   4708,
-   "🎬",
-   "Алан Каммінг назвав роль у Tip Toe найкращою у своїй кар'єрі",
-   "IndieWire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.indiewire.com/features/interviews/alan-cumming-tip-toe-greatest-role-ever-finale-1235225300/",
-    "orig": "Alan Cumming Says ‘Tip Toe’ Was His Greatest Role Ever — but He Never Wants to Think About It Again"
-   }
-  ],
-  [
-   1793804701.9856184,
-   4709,
-   "🤘",
-   "Фанати визначили найкращі пісні альбому Saturday Night Wrist гурту DEFTONES",
-   "Revolver",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.revolvermag.com/feature/fan-poll-top-5-songs-on-deftones-saturday-night-wrist/",
-    "orig": "Fan poll: Top 5 songs on DEFTONES’ ‘Saturday Night Wrist’"
-   }
-  ],
-  [
-   1793804753.8471282,
-   4710,
-   "🤘",
-   "Iron Maiden випустять графічний альбом до 40-річчя Somewhere in Time",
-   "Loudwire",
-   {
-    "also": [
-     [
-      "Metal Hammer (Louder)",
-      "https://www.loudersound.com/culture/merchandise/iron-maiden-somewhere-in-time-graphic-novel"
-     ],
-     [
-      "Revolver",
-      "https://www.revolvermag.com/culture/iron-maiden-announce-somewhere-in-time-graphic-novel-starring-eddie/"
-     ],
-     [
-      "Blabbermouth",
-      "https://blabbermouth.net/news/iron-maiden-and-z2-present-somewhere-in-time-the-graphic-album-celebrating-lps-40th-anniversary"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://loudwire.com/iron-maidens-somewhere-in-time-gets-40th-anniversary-graphic-novel/",
-    "orig": "Iron Maiden's 'Somewhere in Time' 40th Anniversary Graphic Novel"
-   }
-  ],
-  [
-   1793806344.1226528,
-   4711,
-   "🎮",
-   "Nintendo може зіткнутися з новою проблемою картриджів",
-   "GameSpot",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.gamespot.com/articles/nintendo-could-have-a-new-cartridge-problem-on-its-hands/",
-    "orig": "Nintendo Could Have A New Cartridge Problem On Its Hands"
-   }
-  ],
-  [
-   1793806348.7565706,
-   4712,
-   "🎮",
-   "Багато ШІ-слопу? Valve не встигає перевіряти ігри у Steam – очікування сягає 12 днів",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/steam-valve-games-flood-316861/",
-    "orig": "Багато ШІ-слопу? Valve не встигає перевіряти ігри у Steam – очікування сягає 12 днів"
-   }
-  ],
-  [
-   1793806388.6389194,
-   4713,
-   "🎮",
-   "Для Phantom Blade Zero вийшло велике оновлення 1.0302256 з поліпшеннями та виправленнями",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/phantom-blade-zero-november-4-update-patch-notes-new-features-performance-fixes-more/",
-    "orig": "Phantom Blade Zero November 4 Update & Patch Notes—New Features, Performance Fixes & More"
-   }
-  ],
   [
    1793806417.3647823,
    4714,
@@ -12727,7 +12574,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Біл Келлігер і Нік Джонстон стали героями нового випуску Rig Rundown</b>\n\nГітаристи Mastodon Біл Келлігер і Нік Джонстон показали свій концертний сетап у новому випуску рубрики Rig Rundown від журналу Premier Guitar. Музиканти зустрілися з Крісом Кісом у Мемфісі невдовзі після завершення туру The Poisonous Weapons та анонсу їхньої участі у фестивалі Sonic Temple 2027 у травні.\n\n🔗 <a href=\"https://lambgoat.com/news/55851/mastodons-bill-kelliher-and-nick-johnston-featured-on-latest-rig-rundown/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55851/mastodons-bill-kelliher-and-nick-johnston-featured-on-latest-rig-rundown/",
     "orig": "Mastodon's Bill Kelliher and Nick Johnston featured on latest 'Rig Rundown'"
@@ -13592,6 +13438,20 @@
     "link": "https://mezha.ua/news/dc-stuios-superman-constantine-317155/",
     "orig": "Зміни в DC: Кавілл може стати Суперменом, а режисер \"Константина\" назвав Ганна перешкодою другого фільму"
    }
+  ],
+  [
+   1794497598.6365545,
+   5750,
+   "💾",
+   "Фонд Кушнера Affinity та Salesforce підтримали квантовий стартап Q-Ctrl у раунді на $290 мільйонів",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "💾 <b>Фонд Кушнера Affinity та Salesforce підтримали квантовий стартап Q-Ctrl у раунді на $290 мільйонів</b>\n\nSalesforce Ventures очолила раунд фінансування компанії Q-Ctrl на суму 290 мільйонів доларів, в результаті чого оцінка австралійської компанії, що розробляє квантове програмне забезпечення, перевищила 1 мільярд доларів.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-12/kushner-s-affinity-salesforce-back-quantum-startup-q-ctrl-in-290-million-round\">Bloomberg</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-12/kushner-s-affinity-salesforce-back-quantum-startup-q-ctrl-in-290-million-round",
+    "orig": "Kushner’s Affinity, Salesforce Back Quantum Startup Q-Ctrl in $290 Million Round"
+   }
   ]
  ],
  "posted_by_source": {
@@ -13830,8 +13690,8 @@
    1793547082.3914192
   ],
   "software|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1794339077.5050933,
-   1794423681.5965693
+   1794423681.5965693,
+   1794497598.6368191
   ],
   "software|DOU|https://dou.ua/feed/": [
    1794483075.0825574
@@ -13874,7 +13734,6 @@
   "00cbc3c46cbd3da9": 1793363585.2885334,
   "00e817c76e37f52f": 1794231085.9686391,
   "00f49f01d532bf11": 1793300487.7109823,
-  "00f7b87499aef290": 1793286747.5188818,
   "00f9839cfa634fa4": 1794254454.641067,
   "00fca79105b141ef": 1793448054.1956563,
   "00fe6f61a20100a7": 1793844099.616388,
@@ -14106,7 +13965,6 @@
   "116a2269b5c9dc74": 1794438100.512025,
   "116d30c127425b92": 1793550677.1726167,
   "116f264ab51383d1": 1793409567.3299124,
-  "11940249f0c29374": 1793286776.4920144,
   "11a7c571007618d7": 1793390706.1317136,
   "11a8c51a678d4da0": 1793485929.1566863,
   "11b9783d5c4c6e77": 1793644265.4954946,
@@ -14201,7 +14059,6 @@
   "1847baeab96262e7": 1794117651.9309552,
   "1850a1bf855c9485": 1793640659.9838288,
   "187082d91f09f74c": 1793664118.122448,
-  "18b1e9884713688a": 1793286808.3096702,
   "18d1449213d86f49": 1794056475.4155757,
   "18e2a99219f18b63": 1794150052.196198,
   "193c3476051a3e3a": 1793644407.26151,
@@ -14209,6 +14066,7 @@
   "198af98f7329de4c": 1793664116.4814746,
   "198ca8fd99c15ae4": 1793728894.5660353,
   "198daa040ef65130": 1793964698.3973782,
+  "19a0a3221833cdf0": 1794497495.8385534,
   "19a766cff80206ff": 1794317498.314858,
   "19acddb00b886bfe": 1793901696.5518076,
   "19b02860231dbdd5": 1793291799.7517018,
@@ -14220,7 +14078,6 @@
   "1a1a116d138e54c9": 1793639185.7224717,
   "1a60c217b506651e": 1793863890.332492,
   "1a676cee9c76c3d8": 1793584890.899226,
-  "1a82f992b518778f": 1793287874.6884918,
   "1a870854af14f0f5": 1793917901.676527,
   "1ab3f2e82411c41b": 1793736128.0008984,
   "1ab805ccb7e963ee": 1793295075.9151297,
@@ -14261,7 +14118,6 @@
   "1dad40257927d9ca": 1793570513.7768931,
   "1dbf4e9e49e7d75d": 1794108686.055419,
   "1dcba263afee938f": 1794393098.500801,
-  "1dcff934b5264968": 1793286778.9896433,
   "1dd2e66a4892f900": 1793720170.1051707,
   "1de7acf6a82bc955": 1793631741.2721481,
   "1de9ee4250d8c3b6": 1793290088.3821433,
@@ -14437,7 +14293,6 @@
   "2b1608cf72e71b0d": 1794214856.4079065,
   "2b3bfcd1c50fa9aa": 1794083478.7347698,
   "2b48fc3308d6ced3": 1794364252.7798047,
-  "2bb73bb0ce47ee69": 1793287853.8526087,
   "2bbf00a5ae944e24": 1793608303.005661,
   "2bcc0d9702cf7214": 1793822038.9346817,
   "2bced931fe8d25ec": 1793912454.7085621,
@@ -14832,7 +14687,6 @@
   "4cb6efcf5b90573b": 1793903633.6380222,
   "4ceb3c3cf5ce5be6": 1793478681.5249367,
   "4d2c1912e1f3cba3": 1793917852.8708968,
-  "4d40776f6fad2727": 1793287964.6115835,
   "4d41cb8aaf131ac3": 1793896281.3090413,
   "4d708c647b8de8c6": 1793723587.6116004,
   "4d71d2a90e55aa27": 1793298726.1319523,
@@ -14950,6 +14804,7 @@
   "554ebd537f707231": 1793889149.9197137,
   "557c31398258c3e4": 1793624475.8935785,
   "55971c64f62c815a": 1793372530.3921862,
+  "55a7097586f4e45a": 1794497598.6367674,
   "55c25e13c2d1b4c6": 1794353465.3584552,
   "55cad23c843395ab": 1794379783.9103365,
   "55f1a05e3c242a02": 1794306676.3979933,
@@ -14998,7 +14853,6 @@
   "59c5dbff26ef0145": 1794027792.2215495,
   "59d407b1583dafde": 1793296890.1515543,
   "59dfe9e2fc3b8716": 1793311394.0709226,
-  "59ead4c24eadd770": 1793286129.2408173,
   "5a219b665b83b93a": 1793829689.4582603,
   "5a571e2b34122991": 1793307788.940901,
   "5a5fb315f6d0e980": 1793369066.2335606,
@@ -15051,7 +14905,6 @@
   "5d5f1b784d506530": 1793781191.0380929,
   "5d65eb104765e6c6": 1793790481.195648,
   "5d999b17f72c1067": 1793811683.7862215,
-  "5da068f547e250e4": 1793287874.6768353,
   "5db4f5dab125fd6e": 1793440888.5901074,
   "5db5eec8faf5ae7a": 1794475909.8663523,
   "5dd7a59be3d009c9": 1794232940.0602186,
@@ -15139,7 +14992,6 @@
   "6313b76326a66d9a": 1794094467.743985,
   "631e8e478b15f9d2": 1794285082.7906053,
   "6325eddd1263a9d9": 1793806388.6392844,
-  "63a85020b34452a5": 1793286703.8514652,
   "63ba98f877f70ee2": 1793925081.1637943,
   "63c6d8ee314361d5": 1794054694.1623435,
   "63f3d769468dc455": 1793637106.0465386,
@@ -15567,7 +15419,6 @@
   "810ced8245976128": 1793377945.8973536,
   "810d7f870a467074": 1793808081.7077937,
   "811010a56774957b": 1794414658.7033095,
-  "811a213a8ba7711f": 1793286561.1371765,
   "812101c073fb0cc1": 1793827903.2830946,
   "81250cbbe2c4498b": 1793374256.362971,
   "812b7763ae7c76c9": 1794069054.1396751,
@@ -15714,7 +15565,6 @@
   "8cd15a310bffea77": 1794007882.3242717,
   "8cf4ddd7d3cd8e60": 1794238457.9315062,
   "8cfaed82168eaf48": 1793838683.4596999,
-  "8d0c638ac318299f": 1793286417.0641403,
   "8d0cf00f38071c8d": 1794007892.8830473,
   "8d1d7aca693f6656": 1793457094.9126527,
   "8d236ecfaa66bc9e": 1794031281.2427106,
@@ -15798,7 +15648,6 @@
   "92ecdce6789e4c30": 1793827885.702775,
   "9303a651e9605408": 1793320274.1561115,
   "930403bc125569e9": 1793642501.2807372,
-  "9310262ad9bb061a": 1793286525.0561368,
   "932685bbf824e5b5": 1793647904.9881756,
   "9328428ce2953fe6": 1794157296.8875062,
   "9333c0d0080f4c3c": 1793739677.6956937,
@@ -16088,7 +15937,6 @@
   "a89cb2ccef4eab5f": 1793812003.5182016,
   "a8c2af5e3fc07d5e": 1793831484.5398436,
   "a8cbcd235f5a829c": 1793392256.1180868,
-  "a8e42577b4f6202a": 1793287916.8873882,
   "a8efea0dacde155c": 1794385885.3052723,
   "a8f47de703ee7c26": 1794261675.0510595,
   "a908381c021f809b": 1793556189.249489,
@@ -16102,7 +15950,6 @@
   "a9c20c422fb3053a": 1794430880.6321664,
   "a9edfddc01839285": 1793293504.6078203,
   "a9fcedd0d816cbdb": 1793829698.3621378,
-  "aa06ddc0efb4fae4": 1793286700.476647,
   "aa15338a8f4c2a9c": 1793300482.737089,
   "aa166ec5cf47726c": 1793392256.1180868,
   "aa259f0b2dac82df": 1793691085.5159245,
@@ -16372,6 +16219,7 @@
   "bcd35440bc852b1c": 1793989903.2467942,
   "bcea0162abb29c7f": 1793919656.8897884,
   "bcfafe0f329c82f0": 1793872936.839472,
+  "bd0886bfe5db68f9": 1794497454.0506542,
   "bd2610a21ad8fc5e": 1793399284.672924,
   "bd26759780610e77": 1793316683.0011308,
   "bd2870b32eed59c2": 1793383500.2945433,
@@ -16458,7 +16306,6 @@
   "c48222cbf9458638": 1793901756.121126,
   "c4c883e345291daa": 1793723483.320058,
   "c4e717434265c662": 1794310276.9323466,
-  "c507903241b41921": 1793286494.1109936,
   "c50ecccddc3b7a55": 1793673080.1751275,
   "c5124ec28a88d69c": 1793937769.570473,
   "c51a2ccff4f6c2a8": 1793383497.1360636,
@@ -16763,7 +16610,6 @@
   "db7f68d419f23bf1": 1793341996.436942,
   "db805d20598e37eb": 1793692855.3318622,
   "db872a05753e6b8e": 1793725321.7603288,
-  "db9f86860fe4dd4b": 1793287996.4521744,
   "dba2ecede230cc3c": 1793469705.2513254,
   "dbb3a334a8ebf687": 1793998853.2252662,
   "dbb6b006557887b7": 1794448895.6862843,
@@ -16889,14 +16735,12 @@
   "e4ba7e2d91709b08": 1793372538.793497,
   "e510bccf40f837ca": 1793725373.7901483,
   "e532e7e2d744c0eb": 1794283287.6384728,
-  "e535f43eda54b5fe": 1793286812.8221707,
   "e54705dd839e1934": 1793559690.5051024,
   "e5485e562b33b74b": 1793545418.266287,
   "e5563af007cb8b0e": 1793910695.6292431,
   "e579432f29a1f432": 1793340253.784108,
   "e585c92eed4bb721": 1793295075.5565298,
   "e5a05696c6fe9b8c": 1793725314.7853074,
-  "e5a884f6e28727f0": 1793286456.3730297,
   "e5b2aa7005e04390": 1793322477.903858,
   "e5b3815c17e25256": 1794288693.509967,
   "e5d86317671ccb47": 1793640808.7067301,
@@ -17024,7 +16868,6 @@
   "ef93867bfa771d13": 1793422879.89185,
   "ef9e91f542f1bbb3": 1793871113.176061,
   "efa1ebec11d58c36": 1793291458.0984018,
-  "efc1710b8201b640": 1793286589.232509,
   "efc4289d898092cb": 1793383348.7326844,
   "effc65526f54d5dd": 1794043852.507571,
   "f00758c128e31a13": 1794013123.8191855,
@@ -17074,7 +16917,6 @@
   "f38b7e2f903e07ec": 1793298747.3177323,
   "f39a7fe4bd5423cf": 1793512878.3441641,
   "f39ee164130692dc": 1793554255.0551445,
-  "f3a9158637d1a587": 1793286839.002255,
   "f3a9a6d85e17f21f": 1793804532.4648266,
   "f3c2d620e44aeae6": 1794342653.1379323,
   "f3d7ae30909a3099": 1793804505.718369,
@@ -17170,13 +17012,13 @@
   "faa01d98d67aaeb6": 1793367278.5374339,
   "fab23470f7ba7ec4": 1794243688.411807,
   "faba5b826a9e0510": 1793892962.1412437,
-  "fac8490605f1d327": 1793286810.794286,
   "facf18e96dd948d9": 1793813501.5484555,
   "fad81aecb94732f1": 1793790094.693166,
   "fae4dabf59c219a8": 1793898282.9072604,
   "fb04c0b514602955": 1794391339.6765509,
   "fb0d5518b869e212": 1793474512.7021697,
   "fb1854566a71cb5f": 1793898089.9815722,
+  "fb210422208acb2e": 1794497454.0506542,
   "fb2669e9e03653c3": 1793302419.5425978,
   "fb5b63b0cc055640": 1793457053.1627548,
   "fb64d4d56ad62588": 1793899881.1157694,
@@ -17237,6 +17079,7 @@
   "fe15c48880158f63": 1793903621.0456195,
   "fe1c4b7b571ffdab": 1793889104.9653654,
   "fe3406a94f452d40": 1793565052.9826593,
+  "fe425cb8489ba922": 1794497454.0506542,
   "fe60ca62a115de1e": 1793797394.5200958,
   "fe61572102ce0e92": 1793476852.6182845,
   "fe65a80affa94623": 1794267173.5283654,
@@ -18458,22 +18301,22 @@
    "Bloomberg": 2,
    "Deadline": 3,
    "IGN": 1,
-   "IndieWire": 2,
+   "IndieWire": 3,
    "Insider Gaming": 23,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 2,
    "PC Gamer": 2,
-   "Polygon": 34,
+   "Polygon": 35,
    "SteamDB": 1,
    "The Decoder": 2,
-   "VGC": 7,
+   "VGC": 8,
    "Variety": 4
   },
   "sources": {
    "/Film": 12,
    "AIN.ua": 4,
    "Blabbermouth": 3,
-   "Bloomberg": 25,
+   "Bloomberg": 26,
    "DOU": 5,
    "DOU Gamedev": 2,
    "Deadline": 57,
@@ -18506,9 +18349,9 @@
    "Variety": 21
   },
   "translators": {
-   "DeepL": 27,
+   "DeepL": 28,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 312
+   "gemini-flash-lite-latest": 314
   },
   "week": "2026-W46"
  },
@@ -19243,21 +19086,6 @@
    "封神榜2023",
    1793203354.1961262
   ],
-  "q:2027 invites ulaanbaatar": [
-   0,
-   "",
-   1794322894.6907325
-  ],
-  "q:2027 invites ulaanbaatar event": [
-   0,
-   "",
-   1794322894.138605
-  ],
-  "q:2027 invites ulaanbaatar event announced": [
-   0,
-   "",
-   1794322893.56271
-  ],
   "q:218 episode sci fi series is": [
    0,
    "",
@@ -19367,11 +19195,6 @@
    440470,
    "Absence",
    1792591299.6776512
-  ],
-  "q:access on steam next month": [
-   0,
-   "",
-   1794324680.3927736
   ],
   "q:achievement": [
    0,
@@ -19723,11 +19546,6 @@
    "BioShock® 2",
    1792945886.1220896
   ],
-  "q:bioware's ip": [
-   0,
-   "",
-   1794322902.3954375
-  ],
   "q:black forest": [
    523070,
    "Black Forest",
@@ -19952,31 +19770,6 @@
    0,
    "",
    1794465075.9222236
-  ],
-  "q:cluj napoca": [
-   0,
-   "",
-   1794322893.0578303
-  ],
-  "q:cluj napoca 2027": [
-   0,
-   "",
-   1794322892.5627165
-  ],
-  "q:cluj napoca 2027 invites": [
-   0,
-   "",
-   1794322892.0029402
-  ],
-  "q:cluj napoca 2027 invites ulaanbaatar": [
-   0,
-   "",
-   1794322891.5100334
-  ],
-  "q:cluj napoca 2027 invites ulaanbaatar event": [
-   0,
-   "",
-   1794322890.9485319
   ],
   "q:company of heroes 3": [
    1677280,
@@ -20352,26 +20145,6 @@
    4080220,
    "EA SPORTS FC™ 27",
    1792535481.871171
-  ],
-  "q:early": [
-   0,
-   "",
-   1794324679.8934577
-  ],
-  "q:early access on steam": [
-   0,
-   "",
-   1794324679.3607488
-  ],
-  "q:early access on steam next": [
-   0,
-   "",
-   1794324678.8689702
-  ],
-  "q:early access on steam next month": [
-   0,
-   "",
-   1794324678.3749223
   ],
   "q:ecstatica": [
    4834840,
@@ -21098,21 +20871,6 @@
    "HUNGER",
    1792703022.910811
   ],
-  "q:hunger launching": [
-   0,
-   "",
-   1794324675.835758
-  ],
-  "q:hunger launching in early": [
-   0,
-   "",
-   1794324675.3378608
-  ],
-  "q:hunger launching in early access": [
-   0,
-   "",
-   1794324674.8348844
-  ],
   "q:hunter": [
    0,
    "",
@@ -21343,11 +21101,6 @@
    "Knightmare",
    1792864897.7004297
   ],
-  "q:kotor": [
-   0,
-   "",
-   1794322901.9014277
-  ],
   "q:laid off id": [
    0,
    "",
@@ -21382,26 +21135,6 @@
    1675620,
    "Last Light",
    1792686911.2478743
-  ],
-  "q:launching": [
-   0,
-   "",
-   1794324677.8721669
-  ],
-  "q:launching in early": [
-   0,
-   "",
-   1794324677.3688498
-  ],
-  "q:launching in early access": [
-   0,
-   "",
-   1794324676.8652916
-  ],
-  "q:launching in early access on steam": [
-   0,
-   "",
-   1794324676.345102
   ],
   "q:legend": [
    0,
@@ -22208,26 +21941,6 @@
    "Penguin Colony",
    1792486874.5018551
   ],
-  "q:pgl cluj napoca": [
-   0,
-   "",
-   1794322890.3800583
-  ],
-  "q:pgl cluj napoca 2027": [
-   0,
-   "",
-   1794322889.845768
-  ],
-  "q:pgl cluj napoca 2027 invites": [
-   0,
-   "",
-   1794322889.3078213
-  ],
-  "q:pgl cluj napoca 2027 invites ulaanbaatar": [
-   0,
-   "",
-   1794322888.7638881
-  ],
   "q:pgl singapore major 2026": [
    0,
    "",
@@ -22813,11 +22526,6 @@
    "Standard Edition",
    1793797484.0764632
   ],
-  "q:star": [
-   0,
-   "",
-   1794322900.3537538
-  ],
   "q:star trek online": [
    9900,
    "Star Trek Online",
@@ -22828,20 +22536,10 @@
    "Star Trek: Outposts Unknown",
    1792414942.208155
   ],
-  "q:star wars": [
-   0,
-   "",
-   1794322899.840709
-  ],
   "q:star wars battlefront": [
    1237980,
    "STAR WARS™ Battlefront",
    1792468982.2060437
-  ],
-  "q:star wars kotor": [
-   0,
-   "",
-   1794322899.3243334
   ],
   "q:star wars the old republic": [
    1286830,
@@ -23183,16 +22881,6 @@
    "Warlock: Dungeons & Dragons",
    1791931755.0434942
   ],
-  "q:wars": [
-   0,
-   "",
-   1794322901.376417
-  ],
-  "q:wars kotor": [
-   0,
-   "",
-   1794322900.8549662
-  ],
   "q:whalefall": [
    4489380,
    "Whalefall",
@@ -23416,22 +23104,20 @@
  },
  "tag_hints": {
   "Mezha": [
-   "dacia",
    "dc comics",
    "dlss",
    "galaxy fold",
    "himera",
+   "id software",
    "marvel",
    "nvidia",
    "samsung",
    "skydance",
    "supercell",
-   "авто",
    "аоз",
    "бізнес",
    "військові технології",
    "генрі кавілл",
-   "електромобілі",
    "камери",
    "кіно",
    "мобільні ігри",
@@ -23453,22 +23139,6 @@
   ]
  },
  "titles": [
-  [
-   1794322897.3264377,
-   "PGL Cluj-Napoca 2027 Invites & Ulaanbaatar Event Announced"
-  ],
-  [
-   1794322912.1605108,
-   "BioWare co-founder and Star Wars KOTOR director say they’re interested in reuniting to try and save BioWare’s IP"
-  ],
-  [
-   1794324720.4064934,
-   "HUNGER Launching in Early Access on Steam Next Month"
-  ],
-  [
-   1794324722.6547484,
-   "Стенфордський університет визнав застарілим свій 100-річний звіт про майбутнє ШІ"
-  ],
   [
    1794326503.5964675,
    "Carlyle's Thomas Warns About AI Infrastructure Financing Risks"
@@ -24240,25 +23910,13 @@
   [
    1794495683.619005,
    "Зміни в DC: Кавілл може стати Суперменом, а режисер \"Константина\" назвав Ганна перешкодою другого фільму"
+  ],
+  [
+   1794497598.636769,
+   "Kushner’s Affinity, Salesforce Back Quantum Startup Q-Ctrl in $290 Million Round"
   ]
  ],
  "titles_uk": [
-  [
-   1794322897.3264384,
-   "PGL анонсувала турнір у Монголії та запрошення на PGL Cluj-Napoca 2027"
-  ],
-  [
-   1794322912.1605115,
-   "Співзасновник BioWare та колишній директор Star Wars KOTOR хочуть врятувати IP студії"
-  ],
-  [
-   1794324720.4064944,
-   "HUNGER виходить у ранньому доступі на Steam у грудні"
-  ],
-  [
-   1794324722.6547494,
-   "Стенфордський університет визнав застарілим свій 100-річний звіт про майбутнє ШІ"
-  ],
   [
    1794326503.5964687,
    "Carlyle попередила про ризики фінансування ШІ-інфраструктури"
@@ -25030,6 +24688,10 @@
   [
    1794495683.6190057,
    "Зміни в DC: Кавілл може стати Суперменом, а режисер \"Константина\" назвав Ганна перешкодою другого фільму"
+  ],
+  [
+   1794497598.6367702,
+   "Фонд Кушнера Affinity та Salesforce підтримали квантовий стартап Q-Ctrl у раунді на $290 мільйонів"
   ]
  ],
  "ukrainian": {
