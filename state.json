@@ -1,8 +1,15 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1794609073.6346025
+  }
+ },
  "daily_digest_date": "2026-11-13",
  "freebies": {
-  "last_check": 1794601883.91616,
+  "last_check": 1794609311.4301748,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -29,69 +36,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-13 22:04 UTC",
+  "at": "2026-11-13 22:35 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 4
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793917881.3928804,
-   5102,
-   "🤘",
-   "Вокалістка HEART Енн Вілсон розкрила секрет збереження голосу після п'яти десятиліть на сцені",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/hearts-ann-wilson-on-how-she-has-managed-to-keep-her-singing-voice-in-such-great-shape-after-five-decades-i-take-care-of-myself-moderately",
-    "orig": "HEART's ANN WILSON On How She Has Managed To Keep Her Singing Voice In Such Great Shape After Five Decades: 'I Take Care Of Myself Moderately'"
-   }
-  ],
-  [
-   1793917891.9199042,
-   5103,
-   "🎮",
-   "Цифрові продажі Nintendo сягнули 60.7% від загального доходу",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/nintendo-digital-software-revenue-share-2026/",
-    "orig": "Nintendo Digital Sales Reach 60.7% of Software Revenue"
-   }
-  ],
-  [
-   1793917901.6761065,
-   5104,
-   "🎮",
-   "SkewMond покидає G2 Esports попри звільнення тренера Perkz",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/skewmond-still-set-to-leave-g2-despite-perkz-sacking-its-claimed/",
-    "orig": "SkewMond Still Set to Leave G2 Despite Perkz Sacking, It’s Claimed"
-   }
-  ],
-  [
-   1793917906.9395332,
-   5105,
-   "🎮",
-   "Воррен Спектр знову лютує через закриття BioWare і величезні зарплати топменеджерів EA",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/gaming-industry/warren-spector-sounds-even-angrier-about-biowares-closure-as-he-recounts-the-massive-salaries-of-ea-execs-is-there-any-accountability-left-in-this-world/",
-    "orig": "Warren Spector sounds even angrier about BioWare's closure as he recounts the massive salaries of EA execs: 'Is there ANY accountability left in this world?'"
-   }
-  ],
   [
    1793919695.2773244,
    5106,
@@ -9150,7 +9106,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Rosalía здобула третю перемогу в категорії «Альбом року» на Latin Grammy Awards 2026</b>\n\nУ Лас-Вегасі завершилася 27-ма церемонія вручення премії Latin Grammy Awards. Тріумфаторкою вечора стала іспанська співачка Rosalía, яка здобула перемогу в номінації «Альбом року» з платівкою Lux, а також отримала нагороди за «Пісню року» та інші треки.\n\n🔗 <a href=\"https://deadline.com/2026/11/latin-grammy-awards-2026-winners-full-list-1237222557/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/latin-grammy-awards-2026-winners-full-list-1237222557/",
     "orig": "Latin Grammy Awards 2026 Winners: Rosalía Wins Her Third Album Of The Year — Full List"
@@ -9164,7 +9119,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Sony повертає в кінотеатри блокбастер Spider-Man: Brand New Day з новими кадрами</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/3740720/\">2.5</a>\n\nSony готує повторний реліз фільму Spider-Man: Brand New Day з додатковими сімома хвилинами матеріалу, який вийде в кінотеатрах 4 грудня. У розширену версію під назвою Spider-Man: (Brand New) Brand New Day увійде вирізана сцена з Розаріо Доусон у ролі Claire Temple, а також інші сюрпризи. Збори стрічки наразі становлять $2.52 мільярда.\n\n🔗 <a href=\"https://www.polygon.com/spider-man-brand-new-day-rerelease-extended-new-footage-cameos/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/spider-man-brand-new-day-rerelease-extended-new-footage-cameos/",
     "orig": "Sony's Bringing Back Spider-Man $2.5 Billion Hit With New Footage"
@@ -9594,7 +9548,12 @@
    "Абсолютний рекорд за передзамовленнями: GTA 6 заробила $1 млрд ще до релізу",
    "ITC.ua",
    {
-    "also": [],
+    "also": [
+     [
+      "PC Gamer",
+      "https://www.pcgamer.com/games/yes-some-brave-games-are-still-launching-on-steam-during-gta-6-launch-week/"
+     ]
+    ],
     "caption": "🎮 <b>Абсолютний рекорд за передзамовленнями: GTA 6 заробила $1 млрд ще до релізу</b>\n\nGTA 6, схоже, встановила рекорд, заробивши понад $1 млрд ще до офіційного релізу. За оцінками аналітичної компанії Sensor Tower, станом на 11 листопада гравці оформили 10,31 млн цифрових передзамовлень гри для PlayStation 5 та Xbox Series X|S. Водночас Sony та Microsoft уже підтвердили, що нова гра Rockstar стала найпопулярнішим за передзамовленнями релізом в історії їхніх цифрових магазинів.\n\n🔗 <a href=\"https://itc.ua/ua/novini/absolyutnyj-rekord-za-peredzamovlennyamy-gta-6-zarobyla-1-mlrd-shhe-do-relizu/\">ITC.ua</a>\n\n#ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/absolyutnyj-rekord-za-peredzamovlennyamy-gta-6-zarobyla-1-mlrd-shhe-do-relizu/",
@@ -10020,6 +9979,34 @@
     "link": "https://lambgoat.com/news/55892/kingdom-of-giants-premiere-past-life-music-video/",
     "orig": "Kingdom of Giants premiere \"Past Life\" music video"
    }
+  ],
+  [
+   1794609307.078844,
+   5868,
+   "🎬",
+   "Sony запускає потужну кампанію за «Оскар» для Spider-Man",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Sony запускає потужну кампанію за «Оскар» для Spider-Man</b>\n\nЕКСКЛЮЗИВ: Оскаре, стережись! Людина-павук прагне привернути твою увагу. Фільм «Людина-павук: Новий день» від Sony Pictures і Marvel готується розпочати масштабну кампанію, щоб поборотися за місце в номінації «Найкращий фільм» на 99-й щорічній церемонії вручення премії «Оскар». Чи зможе фільм, який став найкасовішим не лише цього року, а й за всю історію […]\n\n🔗 <a href=\"https://deadline.com/2026/11/spider-man-brand-new-day-oscar-campaign-1237221729/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/spider-man-brand-new-day-oscar-campaign-1237221729/",
+    "orig": "Sony’s Tom Rothman Hopes It Will Be A ‘Brand New Day’ For ‘Spider-Man’ As Studio Launches Major Best Picture Oscar Campaign: “Are You Telling Me There Are 10 Films Better Than This One?”"
+   }
+  ],
+  [
+   1794609309.8214357,
+   5869,
+   "💾",
+   "ФБР розслідує причину збою FAA через можливе оновлення ПЗ",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "💾 <b>ФБР розслідує причину збою FAA через можливе оновлення ПЗ</b>\n\nФБР перевіряє, чи стало оновлення програмного забезпечення причиною масштабного масового збою в роботі Федерального управління цивільної авіації США. При цьому джерела зазначають, що кібератаку або кримінальний слід слідчі наразі не виявляють.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-13/fbi-said-to-probe-whether-software-update-caused-mass-faa-outage\">Bloomberg</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-13/fbi-said-to-probe-whether-software-update-caused-mass-faa-outage",
+    "orig": "FBI Said to Probe Whether Software Update Caused Mass FAA Outage"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10144,7 +10131,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1794492144.8847566,
    1794524548.5083547,
    1794526285.0047967,
    1794528082.9178588,
@@ -10158,7 +10144,8 @@
    1794573079.6083748,
    1794573175.19347,
    1794574970.8973532,
-   1794578507.6178405
+   1794578507.6178405,
+   1794609307.079111
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794484882.6861026,
@@ -10258,8 +10245,7 @@
    1793547082.3914192
   ],
   "software|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1794423681.5965693,
-   1794497598.6368191
+   1794609309.8216882
   ],
   "software|DOU|https://dou.ua/feed/": [
    1794596480.8390687
@@ -10421,7 +10407,6 @@
   "0b6892c0d9ef094d": 1793836894.2886055,
   "0b7454db6a9bc1d9": 1794141053.1955943,
   "0b8062dfabc5b1db": 1793916081.07267,
-  "0b81309593d1d40b": 1793399272.6363308,
   "0b9aae3be395fc50": 1794265282.2454684,
   "0b9c46dcbc0aaec9": 1793811861.5830736,
   "0ba956fe84014cc6": 1793885456.9019864,
@@ -10618,6 +10603,7 @@
   "1bc693cb0759f732": 1794355280.5712426,
   "1bf81594f9d72167": 1793639158.5326436,
   "1bfc56b870723ce3": 1794216653.1201742,
+  "1c128a7475e16ccb": 1794609307.0790644,
   "1c1a19b7e800d5de": 1794049308.5673697,
   "1c2d4c5f353d0212": 1793404881.6927397,
   "1c2dea59856d073d": 1793701912.6693478,
@@ -11116,6 +11102,7 @@
   "4add9805752a7781": 1793720021.0795097,
   "4b145d44df4b08b2": 1794486690.388952,
   "4b64d62bc402e23e": 1793701882.8287108,
+  "4b64f60c5eefa606": 1794609309.8216448,
   "4baf3758314e2a1a": 1793887365.9196165,
   "4be278f93172949a": 1793772052.7682447,
   "4befee19d0fce700": 1794198767.665624,
@@ -11158,6 +11145,7 @@
   "4e1a373b48373e00": 1793455378.1314347,
   "4e20377450a9dd7d": 1793638877.7164671,
   "4e22c51acacfd42d": 1794069054.1396751,
+  "4e285fad042ed34f": 1794609055.1572344,
   "4e2910dfe679ae25": 1794546093.7181077,
   "4e5469a3f0dee49f": 1794096081.7873914,
   "4e5c554f46ce2c81": 1793665855.4540458,
@@ -11285,7 +11273,6 @@
   "5936ef39a45b3457": 1793889133.512389,
   "594a7880d7954e73": 1794240087.6773205,
   "59761c970629b9bf": 1793991653.8628635,
-  "59930f3b9d111605": 1793399273.7853262,
   "59b063e7c9bc57d4": 1793896587.5838223,
   "59c5dbff26ef0145": 1794027792.2215495,
   "59e542e3e2ca7d61": 1794528079.523132,
@@ -11811,6 +11798,7 @@
   "829e270d45609990": 1793790169.1975977,
   "82c2d3b0d0ef2af7": 1793538316.6529753,
   "82cd1c7df699aea7": 1793410457.167143,
+  "82cd917056ad5a79": 1794609055.1572344,
   "82da43c404ae6738": 1793558003.142297,
   "82daf9e9c378eff7": 1793651474.2692106,
   "82efcffd91b518e1": 1793705588.2606974,
@@ -12238,6 +12226,7 @@
   "a796c506984ca25d": 1793941283.948846,
   "a798eddf6b10dbe9": 1793448078.91424,
   "a7cbabca4f54e4a1": 1793689276.0280428,
+  "a7eb5fc032ab0a7a": 1794609079.3628771,
   "a7ecdcb9fbffe67c": 1793527650.2090352,
   "a80cdef0819e11a2": 1794402084.7752478,
   "a80d2f389ba891b8": 1794421925.4892602,
@@ -12446,6 +12435,7 @@
   "b9009006a2cf8ef6": 1793638852.949851,
   "b90c046bd6762faa": 1793674831.3738132,
   "b92249596faf3845": 1794537172.4872894,
+  "b93a96a7e7974928": 1794609055.1572344,
   "b95f6aa29001e5a7": 1794137806.091882,
   "b9785b2f02e19be2": 1793478654.4731612,
   "b9901cf076934a21": 1793962997.0574534,
@@ -12491,7 +12481,6 @@
   "bcfafe0f329c82f0": 1793872936.839472,
   "bd0886bfe5db68f9": 1794497454.0506542,
   "bd094462e92c17c9": 1794520852.2037077,
-  "bd2610a21ad8fc5e": 1793399284.672924,
   "bd28dc198e354d61": 1794265278.771504,
   "bd55895dbad1aa4c": 1793919695.2777495,
   "bd9ad9cc335471ee": 1793736107.543311,
@@ -12617,7 +12606,6 @@
   "c9dd7ee53f02c0a8": 1793892911.2277231,
   "ca01a399ba2d812c": 1793892680.3292687,
   "ca1638d1637c3cbd": 1793606453.0569854,
-  "ca2650d44b31b0be": 1793399275.2886019,
   "ca32ee556366de15": 1793773887.6205585,
   "ca38a4658abbf897": 1794263486.3048987,
   "ca3f9839954f9874": 1793812092.4948199,
@@ -12928,14 +12916,12 @@
   "e27b1fd31a4309ef": 1793781077.4967864,
   "e284f952f14757a2": 1794366148.4089472,
   "e2a4fe5de5b73d55": 1793674848.596815,
-  "e2b21d107925400f": 1793399485.061857,
   "e2c69588bf60a739": 1793973655.8678432,
   "e2dd175fa48ae813": 1793946687.8230014,
   "e342b2a464df4b64": 1793635390.899675,
   "e34c8acff7681938": 1794114054.0824747,
   "e3563fe94c8ffa8f": 1793556053.8338614,
   "e35807aea90a8823": 1793466055.6390314,
-  "e35ae8971623270a": 1793399483.3314643,
   "e35e600baddee350": 1794118543.514841,
   "e375b153b84e2956": 1793737886.3499029,
   "e379016607ab7879": 1793901809.639425,
@@ -13071,6 +13057,7 @@
   "ef1c10b386f80562": 1793674851.8294363,
   "ef26921549ed89c8": 1793923274.5207808,
   "ef3b8d8386fafe5e": 1793971886.8100708,
+  "ef4e8652efb8d259": 1794609084.4809654,
   "ef6bd76457a21945": 1794292278.404903,
   "ef8c894ed567b004": 1793721683.477896,
   "ef93867bfa771d13": 1793422879.89185,
@@ -13726,9 +13713,9 @@
    "6jdXkhI59ngreTw9GwoKNv",
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
-  "artists_checked": 1794522786.0812218,
+  "artists_checked": 1794609314.6505501,
   "blocked_until": 1794609245.6584907,
-  "cursor": 345,
+  "cursor": 355,
   "digest_week": "2026-W46",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -14483,12 +14470,12 @@
    "Халява": 1
   },
   "filtered": {
-   "/Film": 24,
+   "/Film": 25,
    "Bloomberg": 3,
    "Deadline": 4,
    "GameSpot": 1,
    "GamesIndustry.biz": 1,
-   "IGN": 3,
+   "IGN": 4,
    "IndieWire": 4,
    "Insider Gaming": 30,
    "Loudwire": 3,
@@ -14500,16 +14487,16 @@
    "SteamDB": 1,
    "The Decoder": 2,
    "VGC": 9,
-   "Variety": 9
+   "Variety": 10
   },
   "sources": {
    "/Film": 15,
    "AIN.ua": 6,
    "Blabbermouth": 5,
-   "Bloomberg": 35,
+   "Bloomberg": 36,
    "DOU": 8,
    "DOU Gamedev": 3,
-   "Deadline": 71,
+   "Deadline": 72,
    "Distorted Sound": 5,
    "Eurogamer": 10,
    "GameSpot": 1,
@@ -14540,9 +14527,9 @@
    "Variety": 27
   },
   "translators": {
-   "DeepL": 34,
+   "DeepL": 35,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 412
+   "gemini-flash-lite-latest": 416
   },
   "week": "2026-W46"
  },
@@ -19130,18 +19117,6 @@
  },
  "titles": [
   [
-   1794436295.095209,
-   "Final Fantasy XIV Players Mourn The Primals Bassist With In-Game Funerals and Gatherings"
-  ],
-  [
-   1794436304.2533095,
-   "Steam Client Update - November 11th"
-  ],
-  [
-   1794436312.3362849,
-   "Steam Achievement Sets — Now Available to Everyone"
-  ],
-  [
    1794438090.6696527,
    "Netflix's Hit Spy Thriller Returns and Takes Over Streaming Charts"
   ],
@@ -19880,21 +19855,17 @@
   [
    1794607474.096682,
    "Kingdom of Giants premiere \"Past Life\" music video"
+  ],
+  [
+   1794609307.0790663,
+   "Sony’s Tom Rothman Hopes It Will Be A ‘Brand New Day’ For ‘Spider-Man’ As Studio Launches Major Best Picture Oscar Campaign: “Are You Telling Me There Are 10 Films Better Than This One?”"
+  ],
+  [
+   1794609309.8216467,
+   "FBI Said to Probe Whether Software Update Caused Mass FAA Outage"
   ]
  ],
  "titles_uk": [
-  [
-   1794436295.0952098,
-   "Гравці Final Fantasy XIV влаштовують віртуальні похорони басиста The Primals"
-  ],
-  [
-   1794436304.25331,
-   "Оновлення клієнта Steam від 11 листопада"
-  ],
-  [
-   1794436312.3362854,
-   "Steam Achievement Sets тепер доступні для всіх"
-  ],
   [
    1794438090.6696534,
    "Другий сезон Black Doves очолив стрімінгові чарти Netflix"
@@ -20634,6 +20605,14 @@
   [
    1794607474.096683,
    "Kingdom of Giants випустили кліп на трек Past Life та новий альбом Usurper"
+  ],
+  [
+   1794609307.0790677,
+   "Sony запускає потужну кампанію за «Оскар» для Spider-Man"
+  ],
+  [
+   1794609309.8216474,
+   "ФБР розслідує причину збою FAA через можливе оновлення ПЗ"
   ]
  ],
  "ukrainian": {
