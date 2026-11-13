@@ -29,56 +29,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-13 19:32 UTC",
+  "at": "2026-11-13 19:54 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793907174.346089,
-   5052,
-   "🤘",
-   "Новий альбом AMARANTHE повернеться до звучання гетеборзького металу",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/elize-ryd-amaranthes-upcoming-album-will-feature-back-to-the-roots-gothenburg-metal-sound",
-    "orig": "ELIZE RYD: AMARANTHE's Upcoming Album Will Feature 'Back-To-The-Roots Gothenburg Metal Sound'"
-   }
-  ],
-  [
-   1793907178.1432745,
-   5053,
-   "🎬",
-   "Суд над Russell Brand показав усю суть телеіндустрії",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/russell-brand-trial-reveals-worst-best-of-tv-industry-1237214490/",
-    "orig": "Russell Brand Trial Reveals Worst & Best Of TV Industry That Protected, Then Exposed A Predator"
-   }
-  ],
-  [
-   1793907184.179332,
-   5054,
-   "🎬",
-   "Новозеландський каннібальський горор The Weed Eaters вийде у широкий прокат цієї зими",
-   "IndieWire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.indiewire.com/news/business/the-weed-eaters-cannibal-horror-acquired-yellow-veil-1235225546/",
-    "orig": "‘The Weed Eaters’ Lands Expanded Release from Yellow Veil Pictures: New Zealand Cannibal Movie Sets Winter Rollout"
-   }
-  ],
   [
    1793909005.9351444,
    5055,
@@ -9572,7 +9533,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Помер актор Стейсі Кіч, відомий за фільмом Batman: Mask of the Phantasm</b>\n\n🔗 <a href=\"https://www.slashfilm.com/2315598/stacy-keach-batman-mask-of-the-phantasm-villain-role-explained/\">/Film</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2315598/stacy-keach-batman-mask-of-the-phantasm-villain-role-explained/",
     "orig": "Stacy Keach Played A Villain In One Of The Best Batman Movies Of All Time"
@@ -9711,7 +9671,12 @@
    "IPO Anthropic перевищило попит у шість разів",
    "Bloomberg",
    {
-    "also": [],
+    "also": [
+     [
+      "The Decoder",
+      "https://the-decoder.com/anthropics-ipo-is-six-times-oversubscribed-and-on-track-to-become-the-largest-public-offering-in-history/"
+     ]
+    ],
     "caption": "🤖 <b>IPO Anthropic перевищило попит у шість разів</b>\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-13/anthropic-ipo-said-to-be-six-times-oversubscribed-video\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-11-13/anthropic-ipo-said-to-be-six-times-oversubscribed-video",
@@ -10437,6 +10402,20 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-13/anthropic-ceo-calls-computing-power-deepest-business-dilemma",
     "orig": "Anthropic CEO Calls Computing Power ‘Deepest Business Dilemma’"
    }
+  ],
+  [
+   1794599661.4686322,
+   5862,
+   "🤖",
+   "Створюємо симуляцію робота для сортування за допомогою асетів SimReady",
+   "Hugging Face",
+   {
+    "also": [],
+    "caption": "🤖 <b>Створюємо симуляцію робота для сортування за допомогою асетів SimReady</b>\n\n🔗 <a href=\"https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place\">Hugging Face</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
+    "orig": "Build a Robot Pick-and-Place Simulation with SimReady Assets"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10456,8 +10435,8 @@
    1794592885.867481
   ],
   "ai|Hugging Face|https://huggingface.co/blog/feed.xml": [
-   1794511876.8845031,
-   1794591220.2610548
+   1794591220.2610548,
+   1794599661.4689524
   ],
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
    1794555074.9992392,
@@ -11124,6 +11103,7 @@
   "237200f3fc0c28fc": 1793867502.5795617,
   "240fef8f68642036": 1793725254.2864459,
   "2412e135eaf937ab": 1793980856.010392,
+  "2427bacb74a96b4b": 1794599661.468905,
   "24982a37ef56e1a1": 1794366140.102291,
   "249d2e5ccb170fc4": 1794405782.1863456,
   "249e2cf9bfbe9caa": 1793813475.4432364,
@@ -11131,6 +11111,7 @@
   "24ad34995e0d2fdc": 1793914321.8265257,
   "24daa1e948fd5afb": 1793520052.6677861,
   "24deac1a75281779": 1793729213.3627903,
+  "24e30821eb6f08bc": 1794599463.414183,
   "24ee0d11b76f3a78": 1793518469.6393425,
   "250bd675c4fcfe04": 1794319299.683036,
   "25671638621372e7": 1794137514.4014792,
@@ -12276,6 +12257,7 @@
   "8489eb6a41549a0c": 1793813702.978673,
   "84fc9cb0221674bc": 1793821931.345506,
   "8544a7a904166e19": 1794223852.0687604,
+  "854d8ee1525d81cb": 1794599440.456944,
   "8559e9084395cce9": 1794538893.9047623,
   "857add9d4780ad41": 1793856655.0170114,
   "859ee2f273ce2c78": 1793980856.010392,
@@ -14957,6 +14939,7 @@
    "/Film": 24,
    "Bloomberg": 3,
    "Deadline": 3,
+   "GameSpot": 1,
    "GamesIndustry.biz": 1,
    "IGN": 3,
    "IndieWire": 3,
@@ -14984,7 +14967,7 @@
    "GameSpot": 1,
    "GamesIndustry.biz": 7,
    "GitHub Trending": 20,
-   "Hugging Face": 5,
+   "Hugging Face": 6,
    "IGN": 9,
    "ITC.ua": 36,
    "IndieWire": 4,
@@ -15011,7 +14994,7 @@
   "translators": {
    "DeepL": 34,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 405
+   "gemini-flash-lite-latest": 407
   },
   "week": "2026-W46"
  },
@@ -20374,6 +20357,10 @@
   [
    1794598371.811613,
    "Anthropic CEO Calls Computing Power ‘Deepest Business Dilemma’"
+  ],
+  [
+   1794599661.4689064,
+   "Build a Robot Pick-and-Place Simulation with SimReady Assets"
   ]
  ],
  "titles_uk": [
@@ -21128,6 +21115,10 @@
   [
    1794598371.8116148,
    "Голова Anthropic назвав пошук обчислювальних потужностей головною дилемою бізнесу"
+  ],
+  [
+   1794599661.4689078,
+   "Створюємо симуляцію робота для сортування за допомогою асетів SimReady"
   ]
  ],
  "ukrainian": {
