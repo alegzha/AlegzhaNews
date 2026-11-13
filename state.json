@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": {
-   "detail": "https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
-   "label": "Джерело «Bloomberg» не працює",
-   "sent": 0,
-   "since": 1794568306.7600327
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-12",
  "freebies": {
   "last_check": 1794565881.5332172,
@@ -36,7 +29,7 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-13 11:12 UTC",
+  "at": "2026-11-13 11:32 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
@@ -47,58 +40,6 @@
   ]
  },
  "post_log": [
-  [
-   1793878289.9881713,
-   4906,
-   "🤘",
-   "Стівен Вілсон анонсував новий сольний альбом Requiem For A Village",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/music/albums/steven-wilson-requiem-for-a-village",
-    "orig": "Steven Wilson's ninth solo album Requiem For A Village welcomes the weird"
-   }
-  ],
-  [
-   1793878291.9785793,
-   4907,
-   "💾",
-   "Xbox вперше отримує підтримку FSR 4.1.2",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/xbox-vpershe-otrymuye-pidtrymku-fsr-4-1-2/",
-    "orig": "Xbox вперше отримує підтримку FSR 4.1.2"
-   }
-  ],
-  [
-   1793878293.9231532,
-   4908,
-   "💾",
-   "GhostMap: помилка Android може відправити смартфон у нескінченне перезавантаження",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/android-mozhna-zlamaty-bez-zapusku-zastosunkiv/",
-    "orig": "GhostMap: помилка Android може відправити смартфон у нескінченне перезавантаження"
-   }
-  ],
-  [
-   1793878323.5236442,
-   4909,
-   "💾",
-   "MichaelCade/90 днів DevOps",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/MichaelCade/90DaysOfDevOps",
-    "orig": "MichaelCade/90DaysOfDevOps"
-   }
-  ],
   [
    1793880078.4365942,
    4910,
@@ -10967,7 +10908,6 @@
    "SteamDB",
    {
     "also": [],
-    "caption": "🎮 <b>Онлайн <a href=\"https://store.steampowered.com/app/4262460/\">ROB RUN</a> у Steam вперше перевищил 309 000 гравців при 52.92% позитивних відгуків</b>\n\n🔗 <a href=\"https://bsky.app/profile/steamdb.info/post/3n25hf2wdp42p\">SteamDB</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://bsky.app/profile/steamdb.info/post/3n25hf2wdp42p",
     "orig": "ROB RUN has reached 309,097 concurrent players on Steam for the first time (52.92% rating)"
@@ -11727,7 +11667,12 @@
    "Wolfenstein 3 офіційно перебуває в розробці у MachineGames",
    "GameSpot",
    {
-    "also": [],
+    "also": [
+     [
+      "ITC.ua",
+      "https://itc.ua/ua/novini/blaskovits-znovu-v-dili-machinegames-ofitsijno-anonsuvala-wolfenstein-3/"
+     ]
+    ],
     "caption": "🎮 <b>Wolfenstein 3 офіційно перебуває в розробці у MachineGames</b>\n\nСтудія MachineGames офіційно підтвердила розробку Wolfenstein 3. Це перша нова частина серії після Wolfenstein: Youngblood у 2019 році та перша основна гра франшизи з 2017 року.\n\n🔗 <a href=\"https://www.gamespot.com/articles/wolfenstein-3-is-officially-in-production-at-machinegames/\">GameSpot</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamespot.com/articles/wolfenstein-3-is-officially-in-production-at-machinegames/",
@@ -11830,6 +11775,20 @@
     "kind": "photo",
     "link": "https://github.com/Alishahryar1/free-claude-code",
     "orig": "Alishahryar1/free-claude-code"
+   }
+  ],
+  [
+   1794569525.3369014,
+   5829,
+   "💾",
+   "Оновлення проєкту llama.cpp для локального запуску LLM",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>Оновлення проєкту llama.cpp для локального запуску LLM</b>\n\nГоловна мета llama.cpp полягає у забезпеченні запуску LLM та VLM з мінімальним налаштуванням і високою продуктивністю на різноманітному обладнанні як локально, так і в хмарі. Проєкт розвиває бібліотеку llama API та llama-server REST API.\n\n🔗 <a href=\"https://github.com/ggml-org/llama.cpp\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/ggml-org/llama.cpp",
+    "orig": "ggml-org/llama.cpp"
    }
   ]
  ],
@@ -12079,7 +12038,8 @@
    1794564188.1661654,
    1794565879.9856575,
    1794567703.8834987,
-   1794568367.1634672
+   1794568367.1634672,
+   1794569525.337225
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1794414781.2747045,
@@ -12457,7 +12417,6 @@
   "1c2dea59856d073d": 1793701912.6693478,
   "1c5fa7cd6b6be5bf": 1793386853.778682,
   "1c6e86a652834daa": 1793815467.806976,
-  "1cbfc1df68a0ec8a": 1793359902.942002,
   "1cc767f035cfcafd": 1794326506.0290408,
   "1ceb56a3b3745da8": 1793959276.1517801,
   "1ceb589ad53d2c58": 1793507580.0796819,
@@ -12535,7 +12494,6 @@
   "231e30df1c69ffba": 1793642523.7921996,
   "232855a4da04162f": 1793480520.195593,
   "23311729ae556dc2": 1793619173.8159542,
-  "23347c26c2ebb828": 1793359887.5348983,
   "2336c1fa1626bfa3": 1793979054.939418,
   "2340eeb27cb528d3": 1793671295.442756,
   "2340f23a7866f63a": 1793617303.6064975,
@@ -12813,6 +12771,7 @@
   "3ba974ef6b346fc3": 1793710998.5545986,
   "3bba40698e8a49cb": 1793892914.1152773,
   "3bc84169613335a6": 1793813837.0778592,
+  "3bff0dc92a8ddcbb": 1794569485.4693987,
   "3c1370d622106a23": 1793899927.6183171,
   "3c2c06e1cb7daf0b": 1793451680.7729416,
   "3c3501ff08bf1c68": 1794380495.1767907,
@@ -13087,7 +13046,6 @@
   "5304ba5fb3dee170": 1793912670.0978487,
   "53288350f5910b45": 1793409534.3676164,
   "532e8de89e556a5c": 1793880152.6756754,
-  "5381bbb177606c04": 1793359881.1454604,
   "538eff81caea302b": 1794002501.8985727,
   "5393cf2026d05807": 1793804673.308179,
   "539bffe42cdb02a4": 1793480599.3042521,
@@ -13658,6 +13616,7 @@
   "7d470575f6ebd39a": 1793584884.9921496,
   "7d4bbd7010f340f2": 1794024082.7521226,
   "7d4ec0131cfd44ba": 1794196887.63887,
+  "7d8321c30b48b6e4": 1794569525.33716,
   "7d84f4c94fbfdaae": 1793806445.8635557,
   "7d9881c254d70b08": 1793892883.3875897,
   "7dd2e688b5a7d77f": 1794044396.2106276,
@@ -15055,7 +15014,6 @@
   "ed5137e4f490aee2": 1793685689.664316,
   "ed63255b2d272f84": 1793781156.2821667,
   "ed69891a80e07cf6": 1793392392.097546,
-  "ed7cc4d25400771b": 1793359917.7222805,
   "ed97931a27414f95": 1793822048.7180307,
   "edc9a1577a280398": 1794250882.6056623,
   "edcdb4e13fc01c5e": 1793914276.7164643,
@@ -15097,7 +15055,6 @@
   "f17c7519eadd803e": 1793397682.6740632,
   "f18a7b8bac219fe2": 1793637058.4404707,
   "f1aa717587602628": 1793732515.207654,
-  "f1b18e31d1a7b56e": 1793359878.9863567,
   "f1bac8efcf3ddb21": 1794101501.6486664,
   "f1dec55a848fb5c5": 1793905339.3971648,
   "f1edb305277afb73": 1793368886.9204347,
@@ -15157,7 +15114,6 @@
   "f6929cbc1acc2983": 1794243653.6223223,
   "f6ac1bf7753a32ca": 1793655075.3033547,
   "f6c8f5d9858d2f10": 1793977252.830465,
-  "f6f83e2c56819f89": 1793359919.5794098,
   "f702d3bee6e77e2d": 1793568706.0879765,
   "f74a518967e53adb": 1793820702.0444758,
   "f754cabc2f8ef71d": 1794173482.8446748,
@@ -16526,7 +16482,7 @@
    "Eurogamer": 10,
    "GameSpot": 1,
    "GamesIndustry.biz": 6,
-   "GitHub Trending": 19,
+   "GitHub Trending": 20,
    "Hugging Face": 4,
    "IGN": 9,
    "ITC.ua": 32,
@@ -16554,7 +16510,7 @@
   "translators": {
    "DeepL": 34,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 382
+   "gemini-flash-lite-latest": 383
   },
   "week": "2026-W46"
  },
@@ -19054,16 +19010,6 @@
    "HUNGER",
    1792703022.910811
   ],
-  "q:hunter": [
-   0,
-   "",
-   1794396681.6432426
-  ],
-  "q:hunter wilds'": [
-   0,
-   "",
-   1794396681.1239252
-  ],
   "q:hydra": [
    0,
    "",
@@ -19399,6 +19345,16 @@
    "",
    1794535008.3042095
   ],
+  "q:machinegames wolfenstein": [
+   0,
+   "",
+   1794569485.128841
+  ],
+  "q:machinegames wolfenstein 3": [
+   0,
+   "",
+   1794569484.6272545
+  ],
   "q:major 2026": [
    0,
    "",
@@ -19614,20 +19570,10 @@
    "Monarchs at Play",
    1793142165.5811265
   ],
-  "q:monster hunter": [
-   0,
-   "",
-   1794396680.621213
-  ],
   "q:monster hunter wilds": [
    2246340,
    "Monster Hunter Wilds",
    1793203331.0712078
-  ],
-  "q:monster hunter wilds'": [
-   0,
-   "",
-   1794396680.1087902
   ],
   "q:monster train 2": [
    2742830,
@@ -21054,11 +21000,6 @@
    "Wildcat",
    1793365305.9304438
   ],
-  "q:wilds'": [
-   0,
-   "",
-   1794396682.1498735
-  ],
   "q:will a grand": [
    0,
    "",
@@ -21285,6 +21226,8 @@
    "gta 6",
    "machinegames",
    "microsoft",
+   "msi",
+   "msi crosshair a16 hx mlg edition",
    "nvidia",
    "openai",
    "raytheon",
@@ -21298,10 +21241,11 @@
    "гур",
    "двигун",
    "дрони",
-   "збій",
    "новини",
+   "ноутбуки",
    "німеччина",
    "оборонка",
+   "огляди",
    "пошук",
    "ппо",
    "ракети",
@@ -21313,14 +21257,11 @@
    "флот",
    "шпигунство",
    "штучний інтелект",
-   "ігри"
+   "ігри",
+   "ігрові ноутбуки"
   ]
  },
  "titles": [
-  [
-   1794396687.6364694,
-   "Monster Hunter Wilds' upcoming Ascendance expansion may be getting a beta, some curious Steam backend updates suggest"
-  ],
   [
    1794396878.3959706,
    "What the Digital Fairness Act means for the games industry"
@@ -22068,13 +22009,13 @@
   [
    1794568367.1634219,
    "Alishahryar1/free-claude-code"
+  ],
+  [
+   1794569525.3371623,
+   "ggml-org/llama.cpp"
   ]
  ],
  "titles_uk": [
-  [
-   1794396687.63647,
-   "Monster Hunter Wilds може отримати бета-тест доповнення Ascendance"
-  ],
   [
    1794396878.3959715,
    "Що закон про цифрову справедливість означає для ігрової індустрії"
@@ -22822,6 +22763,10 @@
   [
    1794568367.163423,
    "Реліз інструменту Free Claude Code для роботи з ШІ"
+  ],
+  [
+   1794569525.3371632,
+   "Оновлення проєкту llama.cpp для локального запуску LLM"
   ]
  ],
  "ukrainian": {
