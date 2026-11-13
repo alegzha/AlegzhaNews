@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": {
+   "detail": "https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
+   "label": "Джерело «Bloomberg» не працює",
+   "sent": 0,
+   "since": 1794568306.7600327
+  }
+ },
  "daily_digest_date": "2026-11-12",
  "freebies": {
   "last_check": 1794565881.5332172,
@@ -29,205 +36,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-13 11:01 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-11-13 11:12 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793876511.1602724,
-   4893,
-   "🤖",
-   "Огляд Phonon TTS: запуск якісного локального синтезу мовлення, що очолив бенчмарки",
-   "Hugging Face",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://huggingface.co/blog/phonon-tts",
-    "orig": "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks."
-   }
-  ],
-  [
-   1793876515.28544,
-   4894,
-   "🤖",
-   "Лора Купер з Nuveen бачить привабливі можливості у кредитуванні ШІ",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/videos/2026-11-05/nuveen-sees-attractive-opportunities-in-ai-credit-video",
-    "orig": "Nuveen's Cooper Sees Attractive Opportunities in AI Credit"
-   }
-  ],
-  [
-   1793876524.9180214,
-   4895,
-   "🎮",
-   "Nintendo виключила подальше підвищення цін на Switch 2 на тлі падіння прибутків",
-   "IGN",
-   {
-    "also": [
-     [
-      "Insider Gaming",
-      "https://insider-gaming.com/nintendo-not-considering-another-switch-2-price-increase/"
-     ],
-     [
-      "Eurogamer",
-      "https://www.eurogamer.net/nintendo-switch-2-no-plans-for-more-price-hikes"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/nintendo-rules-out-further-switch-2-price-rises-as-console-sales-and-profit-fall",
-    "orig": "Nintendo Rules Out Further Switch 2 Price Rises as Console Sales and Profit Fall"
-   }
-  ],
-  [
-   1793876537.6902275,
-   4896,
-   "🎮",
-   "Комікс «Вовк» від Marvel розійшовся тиражем 2,4 мільйона примірників за перші 50 днів",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/marvels-wolverine-sells-2-4-million-units-in-first-50-days/",
-    "orig": "Marvel’s Wolverine Sells 2.4 Million Units In First 50 Days"
-   }
-  ],
-  [
-   1793876546.9324646,
-   4897,
-   "🎮",
-   "Fragmentary Order та Escape from Tarkov розгортаються в одному всесвіті",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/fragmentary-order-escape-from-tarkov-same-universe/",
-    "orig": "Fragmentary Order and Escape from Tarkov Share the Same Universe"
-   }
-  ],
-  [
-   1793876559.4265306,
-   4898,
-   "🎮",
-   "Масштабний патч 0.5.1 для Gray Zone Warfare усуває серйозні проблеми в режимі «Rogue Ops»",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/massive-gray-zone-warfare-update-fixes-problems/",
-    "orig": "Gray Zone Warfare’s Massive 0.5.1 Patch Addresses Significant ‘Rogue Ops’ Issues"
-   }
-  ],
-  [
-   1793876564.4152095,
-   4899,
-   "🎮",
-   "Петиція до канадського уряду вимагає врятувати закриту BioWare",
-   "Rock Paper Shotgun",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.rockpapershotgun.com/biowares-closure-represents-an-immense-loss-to-and-possibly-a-targeted-attack-on-canadas-cultural-legacy-argues-petition-calling-on-canadian-government-to-step-in",
-    "orig": "\"BioWare's closure represents an immense loss to and possibly a targeted attack on Canada's cultural legacy\" argues petition calling on Canadian government to step in"
-   }
-  ],
-  [
-   1793876567.041524,
-   4900,
-   "🤖",
-   "Meta купила Conductor – сервіс для керування командою ШІ-програмістів",
-   "Mezha",
-   {
-    "also": [
-     [
-      "The Decoder",
-      "https://the-decoder.com/meta-buys-ai-coding-startup-conductor-as-big-tech-races-to-lock-in-developers/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/meta-buys-conductor-316899/",
-    "orig": "Meta купила Conductor – сервіс для керування командою ШІ-програмістів"
-   }
-  ],
-  [
-   1793876601.0515234,
-   4901,
-   "🎮",
-   "Розробка PlayStation 6 набирає обертів, оскільки продажі PS5 наближаються до 100 мільйонів",
-   "Insider Gaming",
-   {
-    "also": [
-     [
-      "GameSpot",
-      "https://www.gamespot.com/articles/ps5-is-closing-in-on-100-million-sales-despite-getting-more-expensive/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/playstation-6-development-ramps-up-as-ps5-sales-near-100-million/",
-    "orig": "PlayStation 6 Development Ramps Up As PS5 Sales Near 100 Million"
-   }
-  ],
-  [
-   1793876639.8595734,
-   4902,
-   "💾",
-   "FareedKhan-dev/kimi-k3-in-c",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/FareedKhan-dev/kimi-k3-in-c",
-    "orig": "FareedKhan-dev/kimi-k3-in-c"
-   }
-  ],
-  [
-   1793876902.574818,
-   4903,
-   "🤖",
-   "Продажі Nvidia Partner Hon Hai зросли на 46% на тлі попиту на ШІ",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-05/nvidia-partner-hon-hai-s-sales-rise-46-thanks-to-ai-demand",
-    "orig": "Nvidia Partner Hon Hai’s Sales Rise 46% Thanks to AI Demand"
-   }
-  ],
-  [
-   1793876908.9885163,
-   4904,
-   "🎬",
-   "Channel 4 закрив шоу Married At First Sight UK через звинувачення в зґвалтуванні",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/channel-4-cancels-married-at-first-sight-uk-rape-1237214149/",
-    "orig": "Channel 4 Cancels ‘Married At First Sight UK’ After Rape Allegations"
-   }
-  ],
-  [
-   1793876914.6329026,
-   4905,
-   "💾",
-   "Disc Image Studio — інструмент для створення й запису зображень на диски",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/JiaFeiMiao-K-Cat/DiscImageStudio",
-    "orig": "JiaFeiMiao-K-Cat/DiscImageStudio"
-   }
-  ],
   [
    1793878289.9881713,
    4906,
@@ -11122,7 +10941,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>AMD випустила драйвер із виправленням надмірних записів на SSD у відеокартах Radeon</b>\n\nAMD випустила драйвер Adrenalin Edition 26.11.1, який усуває проблему надмірного запису даних на SSD. Вона зачіпала власників Radeon RX 7000 і RX 9000 та спричиняла фоновий запис інформації навіть під час простою комп’ютера.\n\n🔗 <a href=\"https://mezha.ua/news/amd-vipustila-drayver-yakiy-vipravlyaye-nadmirni-zapisi-na-ssd-317169/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/amd-vipustila-drayver-yakiy-vipravlyaye-nadmirni-zapisi-na-ssd-317169/",
     "orig": "AMD випустила драйвер із виправленням надмірних записів на SSD у відеокартах Radeon"
@@ -11136,7 +10954,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Дейв Мастейн розповів про своє ставлення до дез-метал-гуртів</b>\n\nЛідер MEGADETH Дейв Мастейн зізнався, що надає перевагу гуртам із традиційним вокалом, хоча й цінує зусилля дез-метал-вокалістів. Музикант також згадав ранні експерименти з вокалом та час, коли Slash міг приєднатися до гурту.\n\n🔗 <a href=\"https://blabbermouth.net/news/does-dave-mustaine-like-any-death-metal-bands-i-like-bands-that-have-a-singer-he-says\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/does-dave-mustaine-like-any-death-metal-bands-i-like-bands-that-have-a-singer-he-says",
     "orig": "Does DAVE MUSTAINE Like Any Death Metal Bands? 'I Like Bands That Have A Singer', He Says"
@@ -11986,6 +11803,34 @@
     "link": "https://github.com/CopilotKit/OpenBot",
     "orig": "CopilotKit/OpenBot"
    }
+  ],
+  [
+   1794568315.964403,
+   5827,
+   "🤖",
+   "13 моделей Claude, AI-тестувальник і нові інструменти — AI шумлять #8",
+   "DOU",
+   {
+    "also": [],
+    "caption": "🤖 <b>13 моделей Claude, AI-тестувальник і нові інструменти — AI шумлять #8</b>\n\nУ восьмому випуску «AI шумлять» розбираємо найцікавіші новини зі світу штучного інтелекту за останні два тижні: нові моделі, автономних агентів, інструменти для розробників і креаторів. ChatGPT навчився створювати GIF, AI-агенти тестують відеоігри й працюють із GitHub, а нові інструменти допомагають відтворювати анімації, створювати лендинги та збирати відео зі сценарію.\n\n🔗 <a href=\"https://dou.ua/lenta/articles/ai-tools-8/\">DOU</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://dou.ua/lenta/articles/ai-tools-8/",
+    "orig": "13 моделей Claude, AI-тестувальник і нові інструменти — AI шумлять #8"
+   }
+  ],
+  [
+   1794568367.1631746,
+   5828,
+   "💾",
+   "Реліз інструменту Free Claude Code для роботи з ШІ",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>Реліз інструменту Free Claude Code для роботи з ШІ</b>\n\n🔗 <a href=\"https://github.com/Alishahryar1/free-claude-code\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/Alishahryar1/free-claude-code",
+    "orig": "Alishahryar1/free-claude-code"
+   }
   ]
  ],
  "posted_by_source": {
@@ -11999,9 +11844,7 @@
    1794553378.846296
   ],
   "ai|DOU|https://dou.ua/feed/": [
-   1794310275.0561354,
-   1794339074.5730672,
-   1794394892.6427193
+   1794568315.9647284
   ],
   "ai|Hugging Face|https://huggingface.co/blog/feed.xml": [
    1794511876.8845031
@@ -12235,7 +12078,8 @@
    1794562760.8285232,
    1794564188.1661654,
    1794565879.9856575,
-   1794567703.8834987
+   1794567703.8834987,
+   1794568367.1634672
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1794414781.2747045,
@@ -12472,6 +12316,7 @@
   "109270637f0d1ea4": 1794488660.3232384,
   "10ba719313a0c835": 1793434003.5547855,
   "10bd7120ab656829": 1793872929.1739988,
+  "10cb73893904f837": 1794568315.9646816,
   "10e2ed5cfc88d0e3": 1793914251.9255452,
   "10f2506461496361": 1793707315.8694823,
   "10f55c42bdbb3650": 1793592052.4979794,
@@ -12631,7 +12476,6 @@
   "1e0e4eed93dfadc6": 1793813706.0787451,
   "1e268e0e4bca10ed": 1794249088.4324608,
   "1e2838ea98941734": 1793741483.9736936,
-  "1e30ae7347d69bff": 1793358157.910558,
   "1e385cb58714ffdc": 1793968294.66553,
   "1e3c5d4af4a1c8b0": 1793464290.2058303,
   "1e43dbac00d7acc0": 1794441678.011534,
@@ -13194,7 +13038,6 @@
   "4f0269e6d1833933": 1793642493.411298,
   "4f22dbc96e6a5dc4": 1793819214.258513,
   "4f252a657655296d": 1793552473.8618562,
-  "4f44a81033f32aed": 1793358151.671006,
   "4f55bc725dd28f3b": 1793561453.4089127,
   "4f654dda4a75f767": 1794155451.4751787,
   "4f68da4407dd8b5c": 1793394164.4461248,
@@ -14112,7 +13955,6 @@
   "954d99f6049bb507": 1793808118.5774229,
   "954e165166324d67": 1793604780.6572866,
   "95618d2aeca5798b": 1793732513.1392722,
-  "956618e5b6f8558c": 1793358154.6334088,
   "95735b7f3eabaa39": 1793705583.145027,
   "957a1239fbd5e0bf": 1793379752.9854019,
   "957b5851bc8bb1fe": 1793394118.5105917,
@@ -14751,7 +14593,6 @@
   "c93876de0c8d1c24": 1793633491.704676,
   "c93d57bf104cfb4f": 1794276090.3029108,
   "c93fa93c88eee1cb": 1793692874.411329,
-  "c9663ce7f2e35963": 1793358139.384063,
   "c97f73ff002aedd0": 1794180655.9188743,
   "c9d0b2bff236c259": 1793498502.5074034,
   "c9dd7ee53f02c0a8": 1793892911.2277231,
@@ -14859,12 +14700,12 @@
   "d1a37e288596876e": 1793734350.5004196,
   "d1a677698369d1bc": 1793793726.7979345,
   "d1a89bee4c3dcfe9": 1794398697.6708577,
+  "d1aa340a643527c9": 1794568367.1634204,
   "d1c35dfe580b0082": 1793725361.5818524,
   "d1c87f5f82bb9724": 1793586693.0275111,
   "d1dba08093721437": 1794459674.8123393,
   "d1e18c09b992d466": 1794143063.8868604,
   "d1f503372a06729c": 1793907114.5700712,
-  "d20df3bde0319a4b": 1793358160.3093574,
   "d243b60ef871bed9": 1793844092.5397108,
   "d243fc5aaaf62609": 1793819049.8181703,
   "d2442fb2f79eaf6d": 1793691079.2821026,
@@ -15460,7 +15301,6 @@
   "ff8790d9b2bad418": 1793655075.305974,
   "ff9627da71a51e63": 1794227453.9175088,
   "ffa91b4c31aa5123": 1793374256.362971,
-  "ffb0e8d21523ac81": 1793358146.459226,
   "ffc8ca2e29daf217": 1793620960.2337942,
   "ffdb6c474541d802": 1794184281.9744554
  },
@@ -16679,14 +16519,14 @@
    "AIN.ua": 5,
    "Blabbermouth": 5,
    "Bloomberg": 30,
-   "DOU": 5,
+   "DOU": 6,
    "DOU Gamedev": 3,
    "Deadline": 67,
    "Distorted Sound": 5,
    "Eurogamer": 10,
    "GameSpot": 1,
    "GamesIndustry.biz": 6,
-   "GitHub Trending": 18,
+   "GitHub Trending": 19,
    "Hugging Face": 4,
    "IGN": 9,
    "ITC.ua": 32,
@@ -16714,7 +16554,7 @@
   "translators": {
    "DeepL": 34,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 381
+   "gemini-flash-lite-latest": 382
   },
   "week": "2026-W46"
  },
@@ -17374,11 +17214,6 @@
    "",
    1794436302.8532019
   ],
-  "q:15": [
-   0,
-   "",
-   1794394884.1478705
-  ],
   "q:16": [
    4655470,
    "16叠谋杀之谜",
@@ -17578,11 +17413,6 @@
    0,
    "",
    1794567679.8111055
-  ],
-  "q:5": [
-   0,
-   "",
-   1794394883.6524138
   ],
   "q:5 100": [
    0,
@@ -17809,21 +17639,6 @@
    "art of rally",
    1792229915.3910358
   ],
-  "q:as the elder": [
-   0,
-   "",
-   1794394882.1924706
-  ],
-  "q:as the elder scrolls": [
-   0,
-   "",
-   1794394881.7145069
-  ],
-  "q:as the elder scrolls 5": [
-   0,
-   "",
-   1794394881.2449698
-  ],
   "q:ascendance": [
    2275750,
    "Ascendance",
@@ -17978,21 +17793,6 @@
    2855940,
    "Betrayed",
    1792776758.0281951
-  ],
-  "q:beyond": [
-   0,
-   "",
-   1794394885.5865443
-  ],
-  "q:beyond skyrim": [
-   0,
-   "",
-   1794394885.0920465
-  ],
-  "q:beyond skyrim bruma": [
-   0,
-   "",
-   1794394884.6179254
   ],
   "q:big walk": [
    1478500,
@@ -18604,11 +18404,6 @@
    "ELDEN RING",
    1792866688.6403193
   ],
-  "q:elder scrolls 5": [
-   0,
-   "",
-   1794394882.6814766
-  ],
   "q:elfie": [
    2955180,
    "Elfie",
@@ -18693,11 +18488,6 @@
    3230960,
    "EXODUS",
    1792688778.4513245
-  ],
-  "q:expanded worldspace": [
-   0,
-   "",
-   1794394880.7736778
   ],
   "q:expanse": [
    0,
@@ -20109,11 +19899,6 @@
    "ONE PIECE: Grand Gourmet",
    1792598552.0538206
   ],
-  "q:one scene": [
-   0,
-   "",
-   1794394894.6185803
-  ],
   "q:onimusha way of the sword": [
    2638890,
    "Onimusha: Way of the Sword",
@@ -20339,36 +20124,6 @@
    "Prey",
    1792762331.9156969
   ],
-  "q:prime": [
-   0,
-   "",
-   1794394897.975315
-  ],
-  "q:prime video": [
-   0,
-   "",
-   1794394897.483915
-  ],
-  "q:prime video officially": [
-   0,
-   "",
-   1794394897.0116909
-  ],
-  "q:prime video officially rewrites": [
-   0,
-   "",
-   1794394896.5351992
-  ],
-  "q:prime video officially rewrites gandalf": [
-   0,
-   "",
-   1794394896.059795
-  ],
-  "q:prime video officially rewrites gandalf's mission": [
-   0,
-   "",
-   1794394895.5861387
-  ],
   "q:prince of persia": [
    19980,
    "Prince of Persia®",
@@ -20579,16 +20334,6 @@
    "Sands of Time",
    1793451680.37186
   ],
-  "q:scene": [
-   0,
-   "",
-   1794394895.1125786
-  ],
-  "q:scrolls 5": [
-   0,
-   "",
-   1794394883.161071
-  ],
   "q:sealbreakers": [
    4244460,
    "Sealbreakers",
@@ -20743,11 +20488,6 @@
    0,
    "",
    1794482877.8102975
-  ],
-  "q:skyrim bruma": [
-   0,
-   "",
-   1794394886.056239
   ],
   "q:slay the spire 2": [
    2868840,
@@ -21214,26 +20954,6 @@
    "VIDEO GAME",
    1792675949.3848453
   ],
-  "q:video officially": [
-   0,
-   "",
-   1794394899.8687165
-  ],
-  "q:video officially rewrites": [
-   0,
-   "",
-   1794394899.3929617
-  ],
-  "q:video officially rewrites gandalf": [
-   0,
-   "",
-   1794394898.9219508
-  ],
-  "q:video officially rewrites gandalf's mission": [
-   0,
-   "",
-   1794394898.4465091
-  ],
   "q:vincent": [
    2949660,
    "Vincent",
@@ -21557,6 +21277,7 @@
  },
  "tag_hints": {
   "Mezha": [
+   "anthropic",
    "bethesda",
    "fpv-дрони",
    "gemini",
@@ -21565,6 +21286,7 @@
    "machinegames",
    "microsoft",
    "nvidia",
+   "openai",
    "raytheon",
    "starlink",
    "wolfenstein",
@@ -21589,15 +21311,12 @@
    "супутники",
    "супутниковий зв'язок",
    "флот",
+   "шпигунство",
    "штучний інтелект",
    "ігри"
   ]
  },
  "titles": [
-  [
-   1794394970.9847689,
-   "In One Scene, Prime Video Officially Rewrites Gandalf’s Mission in Lord of the Rings"
-  ],
   [
    1794396687.6364694,
    "Monster Hunter Wilds' upcoming Ascendance expansion may be getting a beta, some curious Steam backend updates suggest"
@@ -22341,13 +22060,17 @@
   [
    1794567703.8834515,
    "CopilotKit/OpenBot"
+  ],
+  [
+   1794568315.9646835,
+   "13 моделей Claude, AI-тестувальник і нові інструменти — AI шумлять #8"
+  ],
+  [
+   1794568367.1634219,
+   "Alishahryar1/free-claude-code"
   ]
  ],
  "titles_uk": [
-  [
-   1794394970.9847693,
-   "У The Rings of Power розкрили особу Dark Wizard і нову місію Gandalf"
-  ],
   [
    1794396687.63647,
    "Monster Hunter Wilds може отримати бета-тест доповнення Ascendance"
@@ -23091,6 +22814,14 @@
   [
    1794567703.8834524,
    "OpenBot: ШІ-колеги з власним віртуальним середовищем"
+  ],
+  [
+   1794568315.9646842,
+   "13 моделей Claude, AI-тестувальник і нові інструменти — AI шумлять #8"
+  ],
+  [
+   1794568367.163423,
+   "Реліз інструменту Free Claude Code для роботи з ШІ"
   ]
  ],
  "ukrainian": {
