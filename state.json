@@ -29,69 +29,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-13 03:01 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-11-13 03:35 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 2
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793849483.413497,
-   4842,
-   "🤖",
-   "Акції технологічних компаній зросли на тлі результатів виборів",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/videos/2026-11-04/big-tech-rallies-on-ai-outlook-closing-bell-video",
-    "orig": "Big Tech Rallies as Election Results Reshape AI Spending Outlook | Closing Bell"
-   }
-  ],
-  [
-   1793849495.7372077,
-   4843,
-   "🤖",
-   "Джон Чемберс назвав розвиток ШІ перемогою для суспільства",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/videos/2026-11-04/john-chambers-backs-ai-calling-it-a-win-for-society-video",
-    "orig": "John Chambers Makes the Case for AI, Calling It a Win for Society"
-   }
-  ],
-  [
-   1793849512.9651568,
-   4844,
-   "🎬",
-   "Демократичний здвиг у Конгресі США впливає на плани Голлівуду та медіа",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/film/news/blue-wave-questions-hollywood-media-1236939674/",
-    "orig": "Blue Wave Sweep: What Does Democratic Shift Mean for Hollywood and the Media?"
-   }
-  ],
-  [
-   1793849525.6758916,
-   4845,
-   "🎬",
-   "Ендрю Гарфілд заперечив слова Сема Альтмана про їхню зустріч на зйомках Artificial",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/film/news/andrew-garfield-sam-altman-artificial-1236939933/",
-    "orig": "Andrew Garfield Says He ‘Never Had Any Interaction’ With Sam Altman While Filming ‘Artificial,’ Despite Altman Claiming They Waved to Each Other: ‘I Was Very Confused By That’"
-   }
-  ],
   [
    1793851294.3805113,
    4846,
@@ -11395,7 +11344,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>«Один із прикладів етичного використання штучного інтелекту»: компанія CDPR модифікувала польський голос Геральта у грі «Відьмак 3: <a href=\"https://store.steampowered.com/app/4825960/\">Songs of the Past</a>» за допомогою генеративного ШІ через інсульт актора</b>\n\nЯк повідомляється, компанія CD Projekt Red залучила українську компанію Respeecher, що спеціалізується на штучному інтелекті, для модифікації голосових реплік, записаних для польської версії персонажа Геральта з Рівії у майбутньому доповненні до гри «Відьмак 3» під назвою «Пісні минулого». Цей крок було зроблено з дозволу польського актора озвучування Геральта, Яцека Розенека, і пояснюється тим, що студія прагне, аби його нові репліки звучали подібно до тих, які він записав для оригінальної гри до того, як переніс …\n\n🔗 <a href=\"https://www.rockpapershotgun.com/one-of-those-ways-where-you-can-use-ai-ethically-cdpr-have-modified-geralts-polish-voice-in-the-witcher-3-songs-of-the-past-with-genai-due-to-actors-stroke\">Rock Paper Shotgun</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/one-of-those-ways-where-you-can-use-ai-ethically-cdpr-have-modified-geralts-polish-voice-in-the-witcher-3-songs-of-the-past-with-genai-due-to-actors-stroke",
     "orig": "\"One of those ways where you can use AI ethically\": CDPR have modified Geralt's Polish voice in The Witcher 3: Songs of the Past with genAI, due to actor's stroke"
@@ -11409,7 +11357,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>BBC показала перші кадри сьомого сезону серіалу Line of Duty</b>\n\nМартин Компстон, Вікі Маклюр та Едріан Данбар повертаються до своїх ролей у сьомому сезоні поліцейської драми Line of Duty від BBC. До акторського складу також приєднався Роберт Карлайл, який зіграє спецагента Шона Массі. Новий сезон розслідуватиме справу проти команди TO-7 та їхнього командира, якого звинувачують у домаганнях.\n\n🔗 <a href=\"https://deadline.com/2026/11/line-of-duty-bbc-season-7-first-look-images-1237221458/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/line-of-duty-bbc-season-7-first-look-images-1237221458/",
     "orig": "‘Line Of Duty’: Arnott, Fleming & Hastings Return To Service In First Look At Season 7 Of BBC’s Record-Setting Cop Drama"
@@ -12255,6 +12202,34 @@
     "link": "https://deadline.com/2026/11/alanis-morissette-dogma-ben-affleck-lead-with-my-sexuality-1237222468/",
     "orig": "Alanis Morissette Recalls ‘Dogma’ Co-Star Ben Affleck Asking Her Why She Didn’t “Lead With My Sexuality”"
    }
+  ],
+  [
+   1794540952.2273984,
+   5796,
+   "🎮",
+   "Огляд фіналу чемпіонату світу з LoL 2026: хто здобуде трофей — Gen.G чи BLG?",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Огляд фіналу чемпіонату світу з LoL 2026: хто здобуде трофей — Gen.G чи BLG?</b>\n\nФінал LoL Worlds 2026 пройде цієї суботи, 14 листопада, у Нью-Йорку між Gen.G та BLG в боротьбі за Summoner&#x27;s Cup\n\n🔗 <a href=\"https://insider-gaming.com/lol-worlds-2026-final-preview-geng-blg/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/lol-worlds-2026-final-preview-geng-blg/",
+    "orig": "LoL Worlds 2026 Final Preview: Will Gen.G or BLG Claim The Trophy?"
+   }
+  ],
+  [
+   1794540954.9722774,
+   5797,
+   "🎬",
+   "Серіал The Spot від Hulu з Клер Дейнз та Юеном Макгрегором отримав дату виходу",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Серіал The Spot від Hulu з Клер Дейнз та Юеном Макгрегором отримав дату виходу</b>\n\nПсихологічний трилер The Spot стартує на стрімінгу 13 січня. Сюжет розповідає про успішного хірурга у виконанні Клер Дейнз та її чоловіка-шкільного вчителя (Юен Макгрегор), які підозрюють її у причетності до смертельної аварії з дитиною.\n\n🔗 <a href=\"https://deadline.com/2026/11/the-spot-release-date-claire-danes-ewan-mcgregor-hulu-photo-1237222480/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/the-spot-release-date-claire-danes-ewan-mcgregor-hulu-photo-1237222480/",
+    "orig": "Hulu Series ‘The Spot’ Starring Claire Danes & Ewan McGregor Gets Release Date, First-Look Photos"
+   }
   ]
  ],
  "posted_by_source": {
@@ -12331,10 +12306,10 @@
    1794391339.6765947
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1794448895.6863608,
    1794522703.274413,
    1794522780.5866501,
-   1794531688.0177777
+   1794531688.0177777,
+   1794540952.2276878
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1794407565.0353231,
@@ -12393,7 +12368,8 @@
    1794528082.9178588,
    1794535006.1049852,
    1794537169.1350954,
-   1794538904.7599146
+   1794538904.7599146,
+   1794540954.9725559
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794484882.6861026,
@@ -12672,6 +12648,7 @@
   "0ba956fe84014cc6": 1793885456.9019864,
   "0bb1e45aecc7bc3b": 1793642541.5833328,
   "0bbe57064cac1af2": 1793617344.6080875,
+  "0bc1858408fdc657": 1794540952.2276444,
   "0bf47a791c292675": 1793820704.2366338,
   "0c1088cdee3680ce": 1793633637.6107845,
   "0c297c6bdca7d2a6": 1794270680.8302598,
@@ -12698,7 +12675,6 @@
   "0dc8302057de6eef": 1793692882.4021676,
   "0deee00246b2c5d1": 1793817138.4981608,
   "0dfea7360abc28fc": 1793802679.825789,
-  "0e13b0f707f0b5cd": 1793331077.304468,
   "0e1f950331fc0a58": 1793376197.8077543,
   "0e256d43bc315679": 1793912650.0410194,
   "0e41cc476573c34b": 1794457886.0946999,
@@ -12890,7 +12866,6 @@
   "1ceb56a3b3745da8": 1793959276.1517801,
   "1ceb589ad53d2c58": 1793507580.0796819,
   "1d159c433000f79b": 1793379756.1410232,
-  "1d4319961af0c448": 1793331083.0213315,
   "1d5b91cceb66f5a0": 1794342653.1379323,
   "1d83d65aba62e1e5": 1794330058.4836624,
   "1d936f8b3a12ee0b": 1793511051.5169284,
@@ -13111,6 +13086,7 @@
   "2f85b21ef3681896": 1793376201.9195704,
   "2fb6fc8f157d6bb9": 1793914286.8827145,
   "2fc5883a7d6660ac": 1794051085.892718,
+  "2fe760ec94934248": 1794540653.3231752,
   "2ffb0b118dfb15a3": 1793629857.7154393,
   "30182bb5471e7bbf": 1794407562.5903838,
   "301b30efee9abd71": 1793712704.738874,
@@ -15585,6 +15561,7 @@
   "f3c2d620e44aeae6": 1794342653.1379323,
   "f3d7ae30909a3099": 1793804505.718369,
   "f3d980cab58c4a6b": 1793646102.6506567,
+  "f3e9dad2a9a8949b": 1794540954.972512,
   "f441823aa584fcbe": 1793527559.484358,
   "f476695084256755": 1793376203.9858284,
   "f4aade4c6661830d": 1793395986.3384132,
@@ -16958,7 +16935,7 @@
    "Халява": 1
   },
   "filtered": {
-   "/Film": 19,
+   "/Film": 20,
    "Bloomberg": 2,
    "Deadline": 3,
    "IGN": 2,
@@ -16980,7 +16957,7 @@
    "Bloomberg": 29,
    "DOU": 5,
    "DOU Gamedev": 2,
-   "Deadline": 63,
+   "Deadline": 64,
    "Distorted Sound": 5,
    "Eurogamer": 10,
    "GamesIndustry.biz": 6,
@@ -16989,7 +16966,7 @@
    "IGN": 9,
    "ITC.ua": 29,
    "IndieWire": 3,
-   "Insider Gaming": 15,
+   "Insider Gaming": 16,
    "Kerrang!": 1,
    "Lambgoat": 19,
    "Metal Hammer (Louder)": 17,
@@ -17010,9 +16987,9 @@
    "Variety": 22
   },
   "translators": {
-   "DeepL": 29,
+   "DeepL": 30,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 355
+   "gemini-flash-lite-latest": 357
   },
   "week": "2026-W46"
  },
@@ -17721,6 +17698,21 @@
    2581570,
    "封神榜2023",
    1793203354.1961262
+  ],
+  "q:2026 final preview": [
+   0,
+   "",
+   1794540679.7992046
+  ],
+  "q:2026 final preview will": [
+   0,
+   "",
+   1794540679.220288
+  ],
+  "q:2026 final preview will gen g": [
+   0,
+   "",
+   1794540678.569682
   ],
   "q:218 episode sci fi series is": [
    0,
@@ -19932,6 +19924,31 @@
    "",
    1794398498.6508012
   ],
+  "q:lol": [
+   0,
+   "",
+   1794540675.7801597
+  ],
+  "q:lol worlds": [
+   0,
+   "",
+   1794540675.252183
+  ],
+  "q:lol worlds 2026": [
+   0,
+   "",
+   1794540674.743034
+  ],
+  "q:lol worlds 2026 final": [
+   0,
+   "",
+   1794540674.14976
+  ],
+  "q:lol worlds 2026 final preview": [
+   0,
+   "",
+   1794540673.6492937
+  ],
   "q:looking glass": [
    1272530,
    "Looking Glass",
@@ -21827,6 +21844,26 @@
    "",
    1794400289.230886
   ],
+  "q:worlds 2026": [
+   0,
+   "",
+   1794540677.9949625
+  ],
+  "q:worlds 2026 final": [
+   0,
+   "",
+   1794540677.4667177
+  ],
+  "q:worlds 2026 final preview": [
+   0,
+   "",
+   1794540676.919728
+  ],
+  "q:worlds 2026 final preview will": [
+   0,
+   "",
+   1794540676.3520818
+  ],
   "q:wuthering waves": [
    3513350,
    "Wuthering Waves",
@@ -21943,26 +21980,6 @@
   ]
  },
  "titles": [
-  [
-   1794366140.1022933,
-   "Devin Townsend Announces Australian & New Zealand ‘Metamorphosis Tour’ For 2027"
-  ],
-  [
-   1794366148.4089491,
-   "Want a Full Scholarship to One of Our Film Festival Intensives? IndieWire’s Future of Filmmaking Video Contest Is Now Live"
-  ],
-  [
-   1794367877.3758407,
-   "Sony cancels another live service game ahead of release, but at least there won't be any layoffs this time"
-  ],
-  [
-   1794367885.548258,
-   "‘Dancing With The Stars’ Recap: Dance Offs On Grammy Night Bring Tough Competition To Quarterfinals"
-  ],
-  [
-   1794367891.9064138,
-   "VisionQuest's Finale Finally Pays Off A Story Marvel Started In Avengers: Age Of Ultron"
-  ],
   [
    1794369683.9391954,
    "Lucy Hale Notes “Everyone Is Willing” To Reunite For ‘Pretty Little Liars’ Revival: “There’s Gotta Be A New Version Of ‘A'”"
@@ -22710,29 +22727,17 @@
   [
    1794538904.7598712,
    "Alanis Morissette Recalls ‘Dogma’ Co-Star Ben Affleck Asking Her Why She Didn’t “Lead With My Sexuality”"
+  ],
+  [
+   1794540952.227646,
+   "LoL Worlds 2026 Final Preview: Will Gen.G or BLG Claim The Trophy?"
+  ],
+  [
+   1794540954.9725134,
+   "Hulu Series ‘The Spot’ Starring Claire Danes & Ewan McGregor Gets Release Date, First-Look Photos"
   ]
  ],
  "titles_uk": [
-  [
-   1794366140.1022942,
-   "Devin Townsend анонсував тур Metamorphosis по Австралії та Новій Зеландії на 2027 рік"
-  ],
-  [
-   1794366148.4089503,
-   "IndieWire запускає відеоконкурс Future of Filmmaking із повними стипендіями"
-  ],
-  [
-   1794367877.3758419,
-   "Sony скасувала розробку PvP-шутера Fairgames від Haven Studios"
-  ],
-  [
-   1794367885.548259,
-   "Учасники Dancing with the Stars змагаються у чвертьфіналі на Grammy night"
-  ],
-  [
-   1794367891.9064143,
-   "Фінал серіалу VisionQuest завершує сюжетну арку з Avengers: Age of Ultron"
-  ],
   [
    1794369683.939196,
    "Люсі Гейл натякнула на можливе повернення серіалу Pretty Little Liars"
@@ -23480,6 +23485,14 @@
   [
    1794538904.7598722,
    "Аланіс Моріссетт пригадала, як Бен Аффлек радив їй «демонструвати сексуальність» на зйомках фільму Dogma"
+  ],
+  [
+   1794540952.2276473,
+   "Огляд фіналу чемпіонату світу з LoL 2026: хто здобуде трофей — Gen.G чи BLG?"
+  ],
+  [
+   1794540954.9725144,
+   "Серіал The Spot від Hulu з Клер Дейнз та Юеном Макгрегором отримав дату виходу"
   ]
  ],
  "ukrainian": {
