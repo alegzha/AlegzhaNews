@@ -29,11 +29,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-13 19:54 UTC",
+  "at": "2026-11-13 20:03 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
@@ -9546,7 +9546,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Сценаристи Avengers: Doomsday підтвердили появу Deadpool і Wolverine</b>\n\n🔗 <a href=\"https://www.slashfilm.com/2315528/avengers-doomsday-writing-credits-marvel-cameos-deadpool-wolverine/\">/Film</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2315528/avengers-doomsday-writing-credits-marvel-cameos-deadpool-wolverine/",
     "orig": "Avengers: Doomsday's Official Writing Credits Confirm Two Major Marvel Cameos"
@@ -10416,6 +10415,20 @@
     "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
     "orig": "Build a Robot Pick-and-Place Simulation with SimReady Assets"
    }
+  ],
+  [
+   1794600173.2368665,
+   5863,
+   "🤖",
+   "ШІ-агент Muse від Meta тепер може самостійно телефонувати до компаній замість користувачів",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>ШІ-агент Muse від Meta тепер може самостійно телефонувати до компаній замість користувачів</b>\n\nШІ-агент Muse від Meta тепер може телефонувати до ресторанів і провайдерів від імені користувачів із США. За словами керівника напряму ШІ у Meta Александра Ванга, сервіс уже має понад 10 мільйонів користувачів. Аналогічні функції є у Google Gemini, Instinct та Grok Bot від xAI, проте багато компаній кидають слухавку щойно розуміють, що розмовляють зі штучним інтелектом.\n\n🔗 <a href=\"https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/",
+    "orig": "Meta's Muse now calls businesses for you, but many companies might just hang up on the AI"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10447,10 +10460,9 @@
    1794592887.9069731
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
-   1794510080.6115878,
-   1794513766.4619286,
    1794585676.9122806,
-   1794594681.705938
+   1794594681.705938,
+   1794600173.2371519
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1793370738.9416513
@@ -10712,7 +10724,6 @@
   "0250f6cbfb3ed861": 1793896404.6825366,
   "025483d120d50629": 1793919711.4419525,
   "025f7fa143318c70": 1793432515.5295794,
-  "0265a52bdfbd211b": 1793390461.4887984,
   "0292ab11a949c049": 1794024088.575985,
   "02a2508663d4f5f3": 1794110451.877304,
   "02ac703b9b732098": 1793543473.0676832,
@@ -11200,6 +11211,7 @@
   "2c404600d91faa96": 1793692889.6723294,
   "2c445ccd223caa21": 1793494851.2202039,
   "2c71e9984823e245": 1793743304.844976,
+  "2ca413dd274a9f2b": 1794600080.697358,
   "2ca71f06584ad6ac": 1793729122.071837,
   "2cb0fcc6ce2aa0ab": 1794328281.8888555,
   "2cb9c24738f073bb": 1793450039.3369665,
@@ -11526,7 +11538,6 @@
   "4ad8ad3398350e08": 1793534485.9963894,
   "4add9805752a7781": 1793720021.0795097,
   "4b145d44df4b08b2": 1794486690.388952,
-  "4b5e821c3938bacf": 1793390461.4887984,
   "4b64d62bc402e23e": 1793701882.8287108,
   "4baf3758314e2a1a": 1793887365.9196165,
   "4be278f93172949a": 1793772052.7682447,
@@ -12460,6 +12471,7 @@
   "95d837d3c441d2a4": 1793997087.534506,
   "95dbabb296944c6b": 1793610241.5837834,
   "95dd16646c4f6328": 1793734520.7233622,
+  "96166831a5ddf5c7": 1794600055.3928566,
   "961673be48c5487c": 1793629912.4844792,
   "9619745113ca30f3": 1793745081.7874873,
   "961a804d08016afc": 1793826124.3406909,
@@ -12556,7 +12568,6 @@
   "9d4221b6523a9758": 1794528082.917809,
   "9d6171fb3c746cf7": 1794430855.13756,
   "9d73839645e96898": 1793448088.5229383,
-  "9e04457b8d9ce8a3": 1793390486.7713456,
   "9e085a255c73df4d": 1794268881.4913025,
   "9e0a28fb70f0cc3f": 1793640883.307255,
   "9e0c2d65932d588f": 1793392388.83153,
@@ -12632,7 +12643,6 @@
   "a3e947c2a9342231": 1793721903.1336567,
   "a413226e549f55ab": 1793660585.6844897,
   "a41fd22d8f6a2ac9": 1794411054.0634255,
-  "a43aef3aca634a63": 1793390543.9641533,
   "a45645b6f493c42b": 1793392256.1180868,
   "a45f5cdd4b10ac8f": 1794522707.2744567,
   "a462b4fffcfc193c": 1794078168.5169017,
@@ -12734,7 +12744,6 @@
   "acc2fde4f9c849c4": 1793649812.2505736,
   "acd742fc231f12a1": 1793624476.3358803,
   "aced397866891a7b": 1793817205.910537,
-  "acf9c8af7f5f5d94": 1793390461.4887984,
   "ad1a21e881b46eeb": 1793786577.3369799,
   "ad429d325c65e3e4": 1793791898.5633519,
   "ad68ad21ff9aefae": 1793761284.9463658,
@@ -13680,6 +13689,7 @@
   "fc0502e246bfa1ee": 1793637095.9922755,
   "fc14c8883c9e79fe": 1793487654.4058235,
   "fc1b382a6980e72e": 1793728861.050268,
+  "fc1d231f506810a3": 1794600173.2371047,
   "fc1f08036e4f049f": 1794522780.586601,
   "fc1f10d3ea4ad31a": 1793914302.7687907,
   "fc22740509e6482c": 1793712684.6871066,
@@ -14949,6 +14959,7 @@
    "PC Gamer": 3,
    "Pitchfork": 1,
    "Polygon": 49,
+   "Revolver": 1,
    "SteamDB": 1,
    "The Decoder": 2,
    "VGC": 9,
@@ -14986,7 +14997,7 @@
    "Rock Paper Shotgun": 10,
    "SteamDB": 5,
    "Stereogum": 4,
-   "The Decoder": 15,
+   "The Decoder": 16,
    "ThePRP": 8,
    "VGC": 7,
    "Variety": 26
@@ -14994,7 +15005,7 @@
   "translators": {
    "DeepL": 34,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 407
+   "gemini-flash-lite-latest": 408
   },
   "week": "2026-W46"
  },
@@ -20361,6 +20372,10 @@
   [
    1794599661.4689064,
    "Build a Robot Pick-and-Place Simulation with SimReady Assets"
+  ],
+  [
+   1794600173.2371068,
+   "Meta's Muse now calls businesses for you, but many companies might just hang up on the AI"
   ]
  ],
  "titles_uk": [
@@ -21119,6 +21134,10 @@
   [
    1794599661.4689078,
    "Створюємо симуляцію робота для сортування за допомогою асетів SimReady"
+  ],
+  [
+   1794600173.2371078,
+   "ШІ-агент Muse від Meta тепер може самостійно телефонувати до компаній замість користувачів"
   ]
  ],
  "ukrainian": {
@@ -23500,7 +23519,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794596582.246317,
+  "last_check": 1794600181.9026818,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
