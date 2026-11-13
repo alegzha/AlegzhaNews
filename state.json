@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
+   "detail": "https://distortedsoundmag.com/feed/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
+   "label": "Джерело «Distorted Sound» не працює",
+   "sent": 0,
+   "since": 1794612674.880975
+  }
+ },
  "daily_digest_date": "2026-11-13",
  "freebies": {
   "last_check": 1794609311.4301748,
@@ -29,43 +36,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-13 23:03 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-11-13 23:31 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793921479.728035,
-   5110,
-   "🤘",
-   "Аль Джоргенсен про обмежену участь Пола Баркера у створенні останнього альбому гурту Ministry: «Те, що працювало в дев’яностих, зараз не працює»",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/11/05/news/al-jourgensen-on-paul-barkers-limited-involvement-on-ministrys-final-album-what-worked-in-the-nineties-doesnt-work-now/",
-    "orig": "Al Jourgensen On Paul Barker’s Limited Involvement On Ministry’s Final Album: “What Worked In The Nineties Doesn’t Work Now”"
-   }
-  ],
-  [
-   1793921489.4402027,
-   5111,
-   "🎮",
-   "Як стверджується, Nintendo не збирається припиняти випуск ремейків після «Zelda» та «Star Fox»",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/nintendo-making-more-remakes/",
-    "orig": "Nintendo Isn’t Stopping Remakes After Zelda and Star Fox, It’s Claimed"
-   }
-  ],
   [
    1793923311.9577317,
    5112,
@@ -9121,7 +9102,6 @@
       "https://www.bloomberg.com/news/articles/2026-11-13/microsoft-says-making-progress-fixing-one-of-its-longest-outages"
      ]
     ],
-    "caption": "🤖 <b>Microsoft показала, як непомітно перетворити ШІ-агента на шкідливий троян</b>\n\nДослідники Microsoft описали метод Lazarus: бекдор у мовну модель можна вбудувати без жодного навчання, достатньо переписати параметри менш ніж десятка «сплячих» нейронів.\n\n🔗 <a href=\"https://highload.tech/uk/microsoft-pokazala-yak-nepomitno-peretvoryty-shi-agenta-na-shkidlyvyj-troyan/#new_tab\">ITC.ua</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://highload.tech/uk/microsoft-pokazala-yak-nepomitno-peretvoryty-shi-agenta-na-shkidlyvyj-troyan/#new_tab",
     "orig": "Microsoft показала, як непомітно перетворити ШІ-агента на шкідливий троян"
@@ -9135,7 +9115,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Рассела Бренда звинуватили у сексуальних домаганнях ще шість жінок</b>\n\nШість нових жінок висунули звинувачення у сексуальних домаганнях та хижацькій поведінці проти Russell Brand після його засудження за зґвалтування та сексуальне насильство. Нові епізоди включають звинувачення в інтимній близькості без згоди та ігноруванні прохань зупинитися. Сам актор і комік раніше заперечував усі звинувачення.\n\n🔗 <a href=\"https://deadline.com/2026/11/russell-brand-accused-sexual-misconduct-six-more-women-1237222571/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/russell-brand-accused-sexual-misconduct-six-more-women-1237222571/",
     "orig": "Russell Brand Accused Of Sexual Misconduct By Six More Women After Rape Conviction"
@@ -9149,7 +9128,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>Масштабний збій Microsoft 365 триває понад 12 годин – компанія не може відновити роботу сервісів</b>\n\n🔗 <a href=\"https://mezha.ua/news/masshtabniy-zbiy-microsoft-365-317178/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/masshtabniy-zbiy-microsoft-365-317178/",
     "orig": "Масштабний збій Microsoft 365 триває понад 12 годин – компанія не може відновити роботу сервісів"
@@ -9489,6 +9467,10 @@
      [
       "PC Gamer",
       "https://www.pcgamer.com/games/yes-some-brave-games-are-still-launching-on-steam-during-gta-6-launch-week/"
+     ],
+     [
+      "Insider Gaming",
+      "https://insider-gaming.com/barbie-rewind-gta-6-release-window/"
      ]
     ],
     "caption": "🎮 <b>Абсолютний рекорд за передзамовленнями: GTA 6 заробила $1 млрд ще до релізу</b>\n\nGTA 6, схоже, встановила рекорд, заробивши понад $1 млрд ще до офіційного релізу. За оцінками аналітичної компанії Sensor Tower, станом на 11 листопада гравці оформили 10,31 млн цифрових передзамовлень гри для PlayStation 5 та Xbox Series X|S. Водночас Sony та Microsoft уже підтвердили, що нова гра Rockstar стала найпопулярнішим за передзамовленнями релізом в історії їхніх цифрових магазинів.\n\n🔗 <a href=\"https://itc.ua/ua/novini/absolyutnyj-rekord-za-peredzamovlennyamy-gta-6-zarobyla-1-mlrd-shhe-do-relizu/\">ITC.ua</a>\n\n#ігри",
@@ -9986,6 +9968,48 @@
     "link": "https://www.slashfilm.com/2316683/johnny-depp-ebenezer-character-adaptations-cut-scrooge-sister/",
     "orig": "Johnny Depp's Ebenezer Features One Character Most Adaptations Usually Cut"
    }
+  ],
+  [
+   1794612684.7514617,
+   5873,
+   "🎬",
+   "Marvel підтвердила склад команди Avengers у фільмі Avengers: Doomsday",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Marvel підтвердила склад команди Avengers у фільмі Avengers: Doomsday</b>\n\nMarvel Studios офіційно розкрила склад офіційної команди Avengers у стрічці Avengers: Doomsday. Під керівництвом Сема Вілсона зібралися Falcon, Ant-Man, Shang-Chi та Thor.\n\n🔗 <a href=\"https://www.slashfilm.com/2316675/marvel-sam-wilson-avengers-roster-doomsday/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2316675/marvel-sam-wilson-avengers-roster-doomsday/",
+    "orig": "Marvel Officially Confirms Sam Wilson's Avengers Roster In Doomsday"
+   }
+  ],
+  [
+   1794612694.804086,
+   5874,
+   "🎮",
+   "Pearl Abyss продовжить використовувати ШІ для нових проєктів",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Pearl Abyss продовжить використовувати ШІ для нових проєктів</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/3321460/\">Crimson Desert</a>\n\nЗгідно зі свіжим фінансовим звітом Pearl Abyss, компанія продовжить впроваджувати ШІ у свій процес розробки для швидкої перевірки дизайнерських концептів. Розробники запевняють, що контент і геймплей створюватимуться людьми, хоча раніше студія вже вибачалася за нерозкрите використання генеративного арту в Crimson Desert.\n\n🔗 <a href=\"https://insider-gaming.com/crimson-desert-devs-proudly-using-ai/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/crimson-desert-devs-proudly-using-ai/",
+    "orig": "Crimson Desert Devs Proudly Using AI for Future Projects"
+   }
+  ],
+  [
+   1794612697.7444885,
+   5875,
+   "🎬",
+   "Фінал серіалу VisionQuest встановив рекорд для Marvel за три роки",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Фінал серіалу VisionQuest встановив рекорд для Marvel за три роки</b>\n\nФінальний епізод серіалу VisionQuest на Disney+ зібрав 3,7 мільйона переглядів за першу добу, ставши найпопулярнішим фіналом Marvel за останні три роки. Сцена після титрів із поверненням Wanda Maximoff підігріла інтерес до майбутньої прем&#x27;єри фільму Avengers: Doomsday.\n\n🔗 <a href=\"https://deadline.com/2026/11/visionquest-finale-viewership-record-marvel-1237223483/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/visionquest-finale-viewership-record-marvel-1237223483/",
+    "orig": "‘VisionQuest’ Sticks The Landing With Most-Watched Marvel Finale In 3 Years"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10060,10 +10084,9 @@
    1794576681.5238745
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1794522703.274413,
-   1794522780.5866501,
    1794531688.0177777,
-   1794540952.2276878
+   1794540952.2276878,
+   1794612694.8044236
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1794547873.2127151
@@ -10103,15 +10126,14 @@
    1794535293.5612378,
    1794544464.6060266,
    1794546103.7939122,
-   1794610972.187995
+   1794610972.187995,
+   1794612684.751761
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792944099.3403795,
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1794524548.5083547,
-   1794526285.0047967,
    1794528082.9178588,
    1794535006.1049852,
    1794537169.1350954,
@@ -10124,7 +10146,8 @@
    1794573175.19347,
    1794574970.8973532,
    1794578507.6178405,
-   1794609307.079111
+   1794609307.079111,
+   1794612697.744786
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794484882.6861026,
@@ -10324,6 +10347,7 @@
   "05633073ef61800f": 1794294082.9916484,
   "057e22ab69c04fb1": 1794245572.8378994,
   "05971735f7581743": 1794522703.2743623,
+  "05acc5df2ba56e7f": 1794612684.7517095,
   "06721562b9041ba7": 1794123084.485029,
   "06a3440977807218": 1794403852.8500218,
   "06a544e6d607592d": 1794394853.3603945,
@@ -10838,6 +10862,7 @@
   "337c1012d87987ce": 1793907159.681541,
   "338ba400d7f1589f": 1793734337.9321942,
   "339050b06b8febb2": 1793635470.8660152,
+  "33ad2ccf820a8d69": 1794612694.8043666,
   "33d2b21005ba1854": 1793725354.5511239,
   "33d5b0599d85cf64": 1794029574.2473106,
   "33dd50c106dd4d0c": 1793469695.9941125,
@@ -10945,7 +10970,6 @@
   "3dec15a0667db350": 1794118540.628823,
   "3df06d8a4b96bf12": 1793887404.632401,
   "3df50d5666b5c2bf": 1794139283.0981796,
-  "3df6e8ce78c3d704": 1793403078.7099495,
   "3e005f035146a35a": 1793750488.8121276,
   "3e008fd89a4cc0d3": 1793631786.6193378,
   "3e0a76a1e05144aa": 1794335488.7555916,
@@ -11105,6 +11129,7 @@
   "4d766eb799a55a62": 1793869563.498421,
   "4d81b1f7a3ffd75c": 1793806255.4557526,
   "4da316b2099c54c9": 1793907174.3465087,
+  "4da78e4e0640e9bb": 1794612656.5591114,
   "4dafb9f4494be07d": 1793909097.8627243,
   "4db4ed3bf92ebd86": 1793476916.85319,
   "4dba0461a8f2749d": 1794506457.045124,
@@ -11429,7 +11454,6 @@
   "6877cdebe00a8924": 1793498505.9543352,
   "688295274d88c736": 1794443492.7068605,
   "689c1996862c7e40": 1794463287.9110885,
-  "68a70ae749d1b601": 1793403051.901825,
   "68d13fafc7c56e1c": 1794223852.0687604,
   "68e8ca1575e78dba": 1793553105.0773208,
   "6902d19fb6a81565": 1793711002.6699135,
@@ -12229,6 +12253,7 @@
   "a9af0a643c8db158": 1793527443.219087,
   "a9bab6bfa0e12e41": 1794106882.3997464,
   "a9c20c422fb3053a": 1794430880.6321664,
+  "a9c72ffb5e58e570": 1794612697.7447355,
   "a9fcedd0d816cbdb": 1793829698.3621378,
   "aa259f0b2dac82df": 1793691085.5159245,
   "aa339780a040f4e0": 1793819022.2098622,
@@ -12680,7 +12705,6 @@
   "d103276575f4556c": 1793458887.5360758,
   "d10608b520d3cfea": 1793520052.6677861,
   "d10cdaa227e0a470": 1793732518.6884692,
-  "d11950542da9edef": 1793403090.4578264,
   "d17e646dc8961d53": 1793736145.296797,
   "d1a37e288596876e": 1793734350.5004196,
   "d1a677698369d1bc": 1793793726.7979345,
@@ -12918,13 +12942,13 @@
   "e429d7a416ccf592": 1793797699.85117,
   "e42a9ce6bcb51d58": 1793824294.3711224,
   "e43170111e1ee1d9": 1793451651.7324479,
-  "e441fe865239f6d8": 1793403088.3436222,
   "e448147f623bf40d": 1793409545.9223077,
   "e468f4bfa64dbd11": 1793639134.2829976,
   "e470899c9154060a": 1793651507.8428893,
   "e48d6f07fd827d73": 1794585676.9122105,
   "e4b8454be1056c49": 1793716537.7955177,
   "e4b8ec6c3b375c04": 1794236457.3327184,
+  "e4d16c1c883bd6b6": 1794612682.433116,
   "e510bccf40f837ca": 1793725373.7901483,
   "e532e7e2d744c0eb": 1794283287.6384728,
   "e54705dd839e1934": 1793559690.5051024,
@@ -13136,7 +13160,6 @@
   "f83db0331ff8590e": 1794225780.2382436,
   "f847bc7a72867b8e": 1793782877.8432264,
   "f84cce9069954581": 1793991693.880322,
-  "f84f1df27062e286": 1793403094.2137055,
   "f857e39141f21e8a": 1794353473.935522,
   "f863c741bb7ae143": 1794369694.5400813,
   "f881bafed6675b4c": 1793721754.7233136,
@@ -13164,7 +13187,6 @@
   "fa2ec973f9cfdb14": 1794348101.5814364,
   "fa5492267cf340ea": 1794535009.7471654,
   "fa762f8b6bba1505": 1793989912.7519934,
-  "fa890020bc986c86": 1793403075.670536,
   "fa912ca9995e3b84": 1794069054.1396751,
   "fab23470f7ba7ec4": 1794243688.411807,
   "faba5b826a9e0510": 1793892962.1412437,
@@ -13694,7 +13716,7 @@
   ],
   "artists_checked": 1794609314.6505501,
   "blocked_until": 1794609245.6584907,
-  "cursor": 365,
+  "cursor": 5,
   "digest_week": "2026-W46",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -14449,7 +14471,7 @@
    "Халява": 1
   },
   "filtered": {
-   "/Film": 25,
+   "/Film": 26,
    "Bloomberg": 3,
    "Deadline": 4,
    "GameSpot": 1,
@@ -14469,13 +14491,13 @@
    "Variety": 10
   },
   "sources": {
-   "/Film": 16,
+   "/Film": 17,
    "AIN.ua": 6,
    "Blabbermouth": 6,
    "Bloomberg": 36,
    "DOU": 8,
    "DOU Gamedev": 3,
-   "Deadline": 72,
+   "Deadline": 73,
    "Distorted Sound": 5,
    "Eurogamer": 10,
    "GameSpot": 1,
@@ -14485,7 +14507,7 @@
    "IGN": 9,
    "ITC.ua": 36,
    "IndieWire": 4,
-   "Insider Gaming": 16,
+   "Insider Gaming": 17,
    "Kerrang!": 1,
    "Lambgoat": 20,
    "Metal Hammer (Louder)": 17,
@@ -14508,7 +14530,7 @@
   "translators": {
    "DeepL": 35,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 418
+   "gemini-flash-lite-latest": 421
   },
   "week": "2026-W46"
  },
@@ -15753,11 +15775,6 @@
    "Black Forest",
    1794438094.304574
   ],
-  "q:black forest games": [
-   0,
-   "",
-   1794438093.7556372
-  ],
   "q:black white": [
    1998450,
    "Black & White",
@@ -16048,6 +16065,31 @@
    "Creators",
    1793134884.0242746
   ],
+  "q:crimson desert": [
+   3321460,
+   "Crimson Desert Enhanced",
+   1794612688.9451778
+  ],
+  "q:crimson desert devs": [
+   0,
+   "",
+   1794612688.4583893
+  ],
+  "q:crimson desert devs proudly": [
+   0,
+   "",
+   1794612687.9467194
+  ],
+  "q:crimson desert devs proudly using": [
+   0,
+   "",
+   1794612687.448576
+  ],
+  "q:crimson desert devs proudly using ai": [
+   0,
+   "",
+   1794612686.9428003
+  ],
   "q:crimson desert enhanced": [
    3321460,
    "Crimson Desert Enhanced",
@@ -16248,6 +16290,31 @@
    "",
    1794542479.4974
   ],
+  "q:devs": [
+   0,
+   "",
+   1794612691.5765944
+  ],
+  "q:devs proudly": [
+   0,
+   "",
+   1794612691.039762
+  ],
+  "q:devs proudly using": [
+   0,
+   "",
+   1794612690.5111957
+  ],
+  "q:devs proudly using ai": [
+   0,
+   "",
+   1794612689.9659433
+  ],
+  "q:devs proudly using ai for future": [
+   0,
+   "",
+   1794612689.4646878
+  ],
   "q:dex": [
    269650,
    "Dex",
@@ -16357,16 +16424,6 @@
    1055090,
    "Embark",
    1792676055.464709
-  ],
-  "q:embracer": [
-   0,
-   "",
-   1794438095.3585923
-  ],
-  "q:embracer 'some": [
-   0,
-   "",
-   1794438094.816862
   ],
   "q:empire": [
    0,
@@ -16633,11 +16690,6 @@
    "",
    1794547872.5085814
   ],
-  "q:giana sisters": [
-   0,
-   "",
-   1794438092.6810226
-  ],
   "q:gloomwood": [
    1150760,
    "Gloomwood",
@@ -16862,31 +16914,6 @@
    0,
    "",
    1794443488.483314
-  ],
-  "q:hit": [
-   0,
-   "",
-   1794438077.689024
-  ],
-  "q:hit spy": [
-   0,
-   "",
-   1794438077.1595569
-  ],
-  "q:hit spy thriller": [
-   0,
-   "",
-   1794438076.6481159
-  ],
-  "q:hit spy thriller returns": [
-   0,
-   "",
-   1794438076.1552327
-  ],
-  "q:hit spy thriller returns and takes": [
-   0,
-   "",
-   1794438075.610958
   ],
   "q:holt": [
    1675600,
@@ -17533,11 +17560,6 @@
    "Neosis Echoes",
    1793813563.3796542
   ],
-  "q:netflix's hit": [
-   0,
-   "",
-   1794438075.0142095
-  ],
   "q:new 4 minute": [
    0,
    "",
@@ -17918,6 +17940,16 @@
    "",
    1794448893.1066334
   ],
+  "q:proudly using ai for future": [
+   0,
+   "",
+   1794612692.590981
+  ],
+  "q:proudly using ai for future projects": [
+   0,
+   "",
+   1794612692.088186
+  ],
   "q:psychonauts": [
    3830,
    "Psychonauts",
@@ -18223,11 +18255,6 @@
    "Silver Pines",
    1793440886.8226674
   ],
-  "q:sisters": [
-   0,
-   "",
-   1794438093.2289076
-  ],
   "q:skate": [
    3354750,
    "skate.",
@@ -18262,11 +18289,6 @@
    0,
    "",
    1794479481.374101
-  ],
-  "q:some": [
-   0,
-   "",
-   1794438095.8729954
   ],
   "q:songs of the past": [
    4825960,
@@ -18322,21 +18344,6 @@
    239350,
    "Spelunky",
    1793039507.3305044
-  ],
-  "q:spy thriller returns": [
-   0,
-   "",
-   1794438079.3182566
-  ],
-  "q:spy thriller returns and takes": [
-   0,
-   "",
-   1794438078.8186634
-  ],
-  "q:spy thriller returns and takes over": [
-   0,
-   "",
-   1794438078.1855233
   ],
   "q:stage tour": [
    4452700,
@@ -18905,18 +18912,6 @@
   ]
  },
  "titles": [
-  [
-   1794439890.6270118,
-   "A Death Metal Guitarist Is So Into WoW Forever, He Took it Onstage With a Steam Deck"
-  ],
-  [
-   1794439893.7029002,
-   "Harakiri For The Sky announce new live album ‘Reliving The Trauma – Live At Theater Akzent’"
-  ],
-  [
-   1794439897.097101,
-   "From Inde Navarrette’s Stunning 40-Carat Diamond Necklace to a Surprise Role Model Performance: Inside David Yurman’s VIP Dinner Party at Chateau Marmont"
-  ],
   [
    1794441678.0115352,
    "Jimmy Page says he doesn't want to tour again but he's still playing guitar"
@@ -19652,21 +19647,21 @@
   [
    1794610972.1879654,
    "Johnny Depp's Ebenezer Features One Character Most Adaptations Usually Cut"
+  ],
+  [
+   1794612684.7517111,
+   "Marvel Officially Confirms Sam Wilson's Avengers Roster In Doomsday"
+  ],
+  [
+   1794612694.804369,
+   "Crimson Desert Devs Proudly Using AI for Future Projects"
+  ],
+  [
+   1794612697.7447364,
+   "‘VisionQuest’ Sticks The Landing With Most-Watched Marvel Finale In 3 Years"
   ]
  ],
  "titles_uk": [
-  [
-   1794439890.6270125,
-   "Гітарист Archspire грав у World of Warcraft Forever на Steam Deck прямо під час концерту"
-  ],
-  [
-   1794439893.7029014,
-   "Harakiri For The Sky анонсували новий лайв-альбом Reliving The Trauma"
-  ],
-  [
-   1794439897.097102,
-   "Бренд David Yurman влаштував VIP-вечерю в Chateau Marmont"
-  ],
   [
    1794441678.0115356,
    "Джиммі Пейдж заявив, що більше не хоче гастролювати"
@@ -20402,6 +20397,18 @@
   [
    1794610972.1879659,
    "Новий фільм Ebenezer повертає персонажа, якого зазвичай вирізають з екранізацій"
+  ],
+  [
+   1794612684.751712,
+   "Marvel підтвердила склад команди Avengers у фільмі Avengers: Doomsday"
+  ],
+  [
+   1794612694.8043697,
+   "Pearl Abyss продовжить використовувати ШІ для нових проєктів"
+  ],
+  [
+   1794612697.7447374,
+   "Фінал серіалу VisionQuest встановив рекорд для Marvel за три роки"
   ]
  ],
  "ukrainian": {
