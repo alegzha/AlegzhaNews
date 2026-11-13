@@ -29,8 +29,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-13 01:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-13 01:56 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 2
@@ -11338,7 +11338,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>shadcn представив agent skill для аудитів і планів коду</b>\n\nНовий інструмент для агентів аналізує кодову базу, проводить аудит за дев&#x27;ятьма категоріями та створює детальні плани впровадження у форматі markdown. Штучний інтелект проєктує зміни та записує їх для дешевших виконавців, залишаючи всю рутинну роботу їм.\n\n🔗 <a href=\"https://github.com/shadcn/improve\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/shadcn/improve",
     "orig": "shadcn/improve"
@@ -12150,7 +12149,12 @@
    "Генеральна директорка Xbox анонсувала розробку Wolfenstein 3",
    "Insider Gaming",
    {
-    "also": [],
+    "also": [
+     [
+      "PC Gamer",
+      "https://www.pcgamer.com/games/fps/wolfenstein-3-is-in-production-at-machinegames/"
+     ]
+    ],
     "caption": "🎮 <b>Генеральна директорка Xbox анонсувала розробку Wolfenstein 3</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2269460/\">CEO</a>\n\nГенеральна директорка Xbox Asha Sharma офіційно підтвердила, що студія MachineGames працює над Wolfenstein 3. У соцмережах вона опублікувала фрагмент першого розділу сценарію з назвою «Nazitraz». Дата виходу гри поки що не оголошена.\n\n🔗 <a href=\"https://insider-gaming.com/wolfenstein-3-confirmed-xbox-asha-sharma/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/wolfenstein-3-confirmed-xbox-asha-sharma/",
@@ -12197,6 +12201,20 @@
     "kind": "photo",
     "link": "https://lambgoat.com/news/55871/half-me-plea-to-fans-to-purchase-upcoming-tickets-due-to-hardships-during-current-touring-cycle/",
     "orig": "HALF ME plea to fans to purchase upcoming tickets due to hardships during current touring cycle"
+   }
+  ],
+  [
+   1794535006.1047266,
+   5789,
+   "🎬",
+   "Френкі Муніз повідомив про стан здоров'я після аварії на NASCAR",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Френкі Муніз повідомив про стан здоров&#x27;я після аварії на NASCAR</b>\n\nАктора та гонщика госпіталізували після серйозної аварії під час розминки перед виставковою гонкою Proud to Honor Veterans Day Classic.\n\n🔗 <a href=\"https://deadline.com/2026/11/frankie-muniz-speaks-out-after-nascar-crash-1237222430/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/frankie-muniz-speaks-out-after-nascar-crash-1237222430/",
+    "orig": "Frankie Muniz Posts Health Update After NASCAR Crash: “I’m Grateful To Be Walking Right Now”"
    }
   ]
  ],
@@ -12324,8 +12342,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1794444578.0039575,
-   1794447084.8330386,
    1794448886.3390749,
    1794450683.2133973,
    1794456194.0249884,
@@ -12338,7 +12354,8 @@
    1794492144.8847566,
    1794524548.5083547,
    1794526285.0047967,
-   1794528082.9178588
+   1794528082.9178588,
+   1794535006.1049852
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794484882.6861026,
@@ -15371,6 +15388,7 @@
   "e6dbfcf051d9cf0a": 1793720428.3155057,
   "e6e518654b4c30ca": 1794490488.941453,
   "e706194334c0ebf9": 1793716284.44162,
+  "e71e9c1c1dab29e4": 1794535006.104952,
   "e737a8339efe80c1": 1793417474.2716668,
   "e741d4e1bec9d49f": 1793856655.0170114,
   "e75162f51dbd7873": 1794364279.3029287,
@@ -15602,6 +15620,7 @@
   "fa129f3254882734": 1794130255.9531379,
   "fa230d4264330093": 1793617305.6292584,
   "fa2ec973f9cfdb14": 1794348101.5814364,
+  "fa5492267cf340ea": 1794535009.7471654,
   "fa762f8b6bba1505": 1793989912.7519934,
   "fa890020bc986c86": 1793403075.670536,
   "fa912ca9995e3b84": 1794069054.1396751,
@@ -16139,7 +16158,7 @@
   ],
   "artists_checked": 1794522786.0812218,
   "blocked_until": 1794521054.3675828,
-  "cursor": 315,
+  "cursor": 325,
   "digest_week": "2026-W45",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -16916,7 +16935,7 @@
    "Bloomberg": 29,
    "DOU": 5,
    "DOU Gamedev": 2,
-   "Deadline": 60,
+   "Deadline": 61,
    "Distorted Sound": 5,
    "Eurogamer": 10,
    "GamesIndustry.biz": 6,
@@ -16948,7 +16967,7 @@
   "translators": {
    "DeepL": 29,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 347
+   "gemini-flash-lite-latest": 349
   },
   "week": "2026-W46"
  },
@@ -19863,6 +19882,11 @@
    "LUNA",
    1793919699.612868
   ],
+  "q:machinegames": [
+   0,
+   "",
+   1794535008.3042095
+  ],
   "q:major 2026": [
    0,
    "",
@@ -21820,10 +21844,6 @@
  },
  "titles": [
   [
-   1794360713.347038,
-   "Amanda Seyfried Says ‘You Can See Everything’ Role “Scares” Her, “Feels Good” Taking On Doc"
-  ],
-  [
    1794362579.4257674,
    "Steam's age verification in Australia now takes your account's age into consideration"
   ],
@@ -22586,13 +22606,13 @@
   [
    1794533503.0712712,
    "HALF ME plea to fans to purchase upcoming tickets due to hardships during current touring cycle"
+  ],
+  [
+   1794535006.1049533,
+   "Frankie Muniz Posts Health Update After NASCAR Crash: “I’m Grateful To Be Walking Right Now”"
   ]
  ],
  "titles_uk": [
-  [
-   1794360713.347039,
-   "Аманда Сейфрід зізналася, чому її лякає роль у проєкті You Can See Everything"
-  ],
   [
    1794362579.425768,
    "Steam в Австралії почав враховувати вік акаунта для перевірки віку"
@@ -23356,6 +23376,10 @@
   [
    1794533503.0712721,
    "HALF ME попросили фанатів купувати квитки на тур заздалегідь через фінансові труднощі"
+  ],
+  [
+   1794535006.1049538,
+   "Френкі Муніз повідомив про стан здоров'я після аварії на NASCAR"
   ]
  ],
  "ukrainian": {
