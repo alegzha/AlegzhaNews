@@ -2,7 +2,7 @@
  "alerts": {},
  "daily_digest_date": "2026-11-13",
  "freebies": {
-  "last_check": 1794647006.6813734,
+  "last_check": 1794654197.9015577,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -29,30 +29,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-14 10:38 UTC",
-  "gemini_error": "",
+  "at": "2026-11-14 11:03 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793962977.5180836,
-   5158,
-   "🎬",
-   "Глава Studio N Мікюн Квон — про силу вебкомів та ризики з корейською епопеєю The Remarried Empress",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/studio-n-mikyung-kwon-webtoon-the-remarried-empress-1237212460/",
-    "orig": "International Disruptors: Studio N Chief Mikyung Kwon On The Value Of Webcomic IP & Taking Risks With Korean Epic ‘The Remarried Empress’"
-   }
-  ],
   [
    1793962997.05704,
    5159,
@@ -9186,7 +9173,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>ШІ-агент Muse від Meta тепер може самостійно телефонувати до компаній замість користувачів</b>\n\nШІ-агент Muse від Meta тепер може телефонувати до ресторанів і провайдерів від імені користувачів із США. За словами керівника напряму ШІ у Meta Александра Ванга, сервіс уже має понад 10 мільйонів користувачів. Аналогічні функції є у Google Gemini, Instinct та Grok Bot від xAI, проте багато компаній кидають слухавку щойно розуміють, що розмовляють зі штучним інтелектом.\n\n🔗 <a href=\"https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/",
     "orig": "Meta's Muse now calls businesses for you, but many companies might just hang up on the AI"
@@ -9200,7 +9186,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Звільнення Дженсена Хуанга пов&#x27;язане з ризикованою бізнес-практикою Nvidia</b>\n\nЗгідно зі звітом WSJ, Дженсена Хуанга усунули через ризиковану кредитну програму Nvidia та фінансові гарантії для хмарних провайдерів і дата-центрів на мільярди доларів. Акції компанії впали після розголосу угоди з OpenAI, а тимчасова гендиректорка Колетт Кресс скоротила зобов&#x27;язання перед партнерами вдвічі. Також Хуанг тиснув на хмарних CEO через надмірну залежність від кількох великих клієнтів і падіння оцінки акцій Nvidia.\n\n🔗 <a href=\"https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
     "orig": "Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life"
@@ -10041,6 +10026,34 @@
     "link": "https://github.com/Likely7/Veyra-NRVideo",
     "orig": "Likely7/Veyra-NRVideo"
    }
+  ],
+  [
+   1794654185.3006663,
+   5924,
+   "🎮",
+   "Анімаційний серіал Planeswalker за Magic: The Gathering вийде на Netflix у 2027 році",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Анімаційний серіал Planeswalker за Magic: The Gathering вийде на Netflix у 2027 році</b>\n\nДовгоочікуване анімаційне шоу за всесвітом Magic: The Gathering отримало назву Planeswalker та з&#x27;явиться на Netflix у 2027 році\n\n🔗 <a href=\"https://www.eurogamer.net/magic-the-gathering-planeswalker-netflix-animated-series-2027\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/magic-the-gathering-planeswalker-netflix-animated-series-2027",
+    "orig": "Magic: The Gathering animated series Planeswalker is coming to Netflix in 2027"
+   }
+  ],
+  [
+   1794654195.9603174,
+   5925,
+   "💾",
+   "Google випустила Chrome DevTools для ШІ-агентів",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>Google випустила Chrome DevTools для ШІ-агентів</b>\n\nІнструмент chrome-devtools-mcp дозволяє ШІ-асистентам на кшталт Claude, Cursor чи Copilot керувати браузером Chrome і перевіряти його. Проєкт доступний як сервер Model-Context-Protocol та CLI для автоматизації, дебагінгу й аналізу продуктивності.\n\n🔗 <a href=\"https://github.com/ChromeDevTools/chrome-devtools-mcp\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+    "orig": "ChromeDevTools/chrome-devtools-mcp"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10096,7 +10109,8 @@
    1793813559.2223816
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1794634305.29535
+   1794634305.29535,
+   1794654185.3008957
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1794564088.5962489
@@ -10277,7 +10291,6 @@
    1794596480.8390687
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
-   1794567703.8834987,
    1794568367.1634672,
    1794569525.337225,
    1794641660.5051203,
@@ -10285,7 +10298,8 @@
    1794646997.4718904,
    1794648890.1377268,
    1794652401.9458134,
-   1794652692.3617272
+   1794652692.3617272,
+   1794654195.96055
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1794591222.274497,
@@ -11006,7 +11020,6 @@
   "3e5ae69d8597dd41": 1793812057.6454804,
   "3e6bb8c64f80c1d9": 1793849483.4138262,
   "3e7019c0f2362058": 1794178884.958449,
-  "3ec7561b5e4dd412": 1793444481.7382681,
   "3f2e067186861ece": 1794614678.0289764,
   "3f75245320df9051": 1794151877.6178396,
   "3f78491a683059a9": 1793664055.972561,
@@ -11038,7 +11051,6 @@
   "42193120745a619e": 1794286884.7511115,
   "4222981ed583939f": 1794447081.855637,
   "42306817435af783": 1793727092.1078324,
-  "4277ab5c1f64d1fe": 1793444578.5410326,
   "428bb17898f2b719": 1793901723.8097148,
   "42984313622662ae": 1794263382.7341657,
   "42a5dfc85a6bfac5": 1793538055.0085032,
@@ -11770,6 +11782,7 @@
   "7e321eace551bbbe": 1793883770.9606118,
   "7e442099a30d1b1a": 1793709131.0258775,
   "7e88237922f25327": 1794475853.9786184,
+  "7e8cb50fb1252936": 1794654185.3008568,
   "7e96f5920135ce48": 1794038482.0458248,
   "7e9d876b30c3b435": 1793721877.592814,
   "7ecd1ec68836a9a5": 1793737919.8575509,
@@ -12112,7 +12125,6 @@
   "9a945af4bff676bc": 1794349891.0385704,
   "9aa8f818670fe6d4": 1793746890.8823638,
   "9ad41e055efeff08": 1794417337.7084458,
-  "9aec28ceca6a6543": 1793444583.8566778,
   "9aefd02ab82f040a": 1794629074.8660176,
   "9b07f215c2b4e375": 1794544464.6059783,
   "9b095f9b1e9df6de": 1794524454.8551903,
@@ -12243,6 +12255,7 @@
   "a65090be49e4582b": 1794481449.6699495,
   "a659cbd73d5f5363": 1793471476.0964336,
   "a6659606e01438d2": 1793815343.7265677,
+  "a67bb8d2a6b42350": 1794654195.9605079,
   "a6ab2a20d9daf026": 1793800885.1102955,
   "a6ab513ca092dd1e": 1794335485.1881518,
   "a6b21f133af10897": 1793633599.1860323,
@@ -12785,7 +12798,6 @@
   "d57491b05c6fbe3b": 1794634296.9440062,
   "d576ff8f3cdbe735": 1793881929.327521,
   "d592869aab9003e8": 1793817162.1902502,
-  "d594bf9977987887": 1793444574.6376414,
   "d59619d192f7806a": 1793550681.465666,
   "d5a243f0ceab02c5": 1794382279.7024496,
   "d5c35cc6974f5a60": 1794373255.2240887,
@@ -12986,7 +12998,6 @@
   "e60c52017fb67cc7": 1793723582.6716378,
   "e60dab9e64bde426": 1793741516.5209775,
   "e6120d5f4a4236cd": 1793619183.2650187,
-  "e616be37d82f6d7b": 1793444455.210568,
   "e63656ce9a24b210": 1793881925.0275502,
   "e647c634711cb3bf": 1793797680.0959146,
   "e64c80d1b8221ec8": 1793557994.7344515,
@@ -14528,10 +14539,10 @@
    "DOU Gamedev": 3,
    "Deadline": 82,
    "Distorted Sound": 7,
-   "Eurogamer": 11,
+   "Eurogamer": 12,
    "GameSpot": 1,
    "GamesIndustry.biz": 7,
-   "GitHub Trending": 26,
+   "GitHub Trending": 27,
    "Hugging Face": 6,
    "IGN": 11,
    "ITC.ua": 36,
@@ -14560,7 +14571,7 @@
   "translators": {
    "DeepL": 38,
    "gemini-flash-latest": 15,
-   "gemini-flash-lite-latest": 469
+   "gemini-flash-lite-latest": 471
   },
   "week": "2026-W46"
  },
@@ -15284,6 +15295,11 @@
    0,
    "",
    1794540678.569682
+  ],
+  "q:2027": [
+   0,
+   "",
+   1794654077.9677827
   ],
   "q:2027 will be the biggest": [
    0,
@@ -16840,6 +16856,11 @@
    "GANG OF DRAGON",
    1793613847.5146475
   ],
+  "q:gathering": [
+   0,
+   "",
+   1794654076.5105429
+  ],
   "q:gdc": [
    0,
    "",
@@ -17355,6 +17376,11 @@
    "",
    1794569484.6272545
   ],
+  "q:magic the gathering": [
+   0,
+   "",
+   1794654076.024361
+  ],
   "q:makes": [
    0,
    "",
@@ -17539,6 +17565,11 @@
    5049580,
    "Neosis Echoes",
    1793813563.3796542
+  ],
+  "q:netflix in 2027": [
+   0,
+   "",
+   1794654077.4543002
   ],
   "q:new 4 minute": [
    0,
@@ -17819,6 +17850,11 @@
    560130,
    "Pillars of Eternity II: Deadfire",
    1793881945.8049543
+  ],
+  "q:planeswalker": [
+   0,
+   "",
+   1794654076.981195
   ],
   "q:plants vs zombies": [
    3590,
@@ -19758,6 +19794,14 @@
   [
    1794652692.3616822,
    "Likely7/Veyra-NRVideo"
+  ],
+  [
+   1794654185.3008578,
+   "Magic: The Gathering animated series Planeswalker is coming to Netflix in 2027"
+  ],
+  [
+   1794654195.9605098,
+   "ChromeDevTools/chrome-devtools-mcp"
   ]
  ],
  "titles_uk": [
@@ -20512,6 +20556,14 @@
   [
    1794652692.3616827,
    "Вийшов апдейт софту Likely7/Veyra-NRVideo"
+  ],
+  [
+   1794654185.3008587,
+   "Анімаційний серіал Planeswalker за Magic: The Gathering вийде на Netflix у 2027 році"
+  ],
+  [
+   1794654195.9605105,
+   "Google випустила Chrome DevTools для ШІ-агентів"
   ]
  ],
  "ukrainian": {
