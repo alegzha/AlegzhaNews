@@ -2,7 +2,7 @@
  "alerts": {},
  "daily_digest_date": "2026-11-14",
  "freebies": {
-  "last_check": 1794682957.5300527,
+  "last_check": 1794690171.8777692,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -29,8 +29,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-14 20:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-14 21:02 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 1
@@ -40,19 +40,6 @@
   ]
  },
  "post_log": [
-  [
-   1793997087.5341177,
-   5201,
-   "🤖",
-   "Startup Thinking Machines представив ШІ-модель Inkling 2 Small",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/thinking-machines-inkling-2-small-claims-top-spot-among-western-open-weight-models/",
-    "orig": "Thinking Machines' Inkling 2 Small claims top spot among western open-weight models"
-   }
-  ],
   [
    1794002489.0575898,
    5202,
@@ -8978,7 +8965,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Барабанщик JOURNEY Дін Кастроново тимчасово залишив тур через проблеми зі здоров&#x27;ям</b>\n\nБарабанщик JOURNEY Дін Кастроново тимчасово залишив поточний тур гурту, щоб зосередитися на здоров&#x27;ї. До кінця листопада його замінить Стів Мерфі, який уже відіграв концерт у Клівленді. Гурт продовжує гастролі в межах туру &quot;Final Frontier&quot;.\n\n🔗 <a href=\"https://blabbermouth.net/news/journey-drummer-deen-castronovo-steps-away-from-tour-to-focus-on-personal-health-matters-temporary-replacement-announced\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/journey-drummer-deen-castronovo-steps-away-from-tour-to-focus-on-personal-health-matters-temporary-replacement-announced",
     "orig": "JOURNEY Drummer DEEN CASTRONOVO Steps Away From Tour To Focus On 'Personal Health Matters'; Temporary Replacement Announced"
@@ -9833,6 +9819,20 @@
     "link": "https://the-decoder.com/anthropic-can-already-retrain-mythos-with-a-fraction-of-the-compute-originally-needed-says-former-researcher-coxon/",
     "orig": "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon"
    }
+  ],
+  [
+   1794690162.9910703,
+   5949,
+   "🤖",
+   "Runway випустила відкриту модель Praxis-1 для керування роботами через відео ШІ",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Runway випустила відкриту модель Praxis-1 для керування роботами через відео ШІ</b>\n\nКомпанія Runway виклала у відкритий доступ модель Praxis-1 за ліцензією Apache 2.0. Вона використовує навички відеомоделей для керування роботами та очолює категорію World Action Model у бенчмарку RoboLab-120 від Nvidia, хоча поки не вміє самостійно планувати складні послідовності дій.\n\n🔗 <a href=\"https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
+    "orig": "Runway's open-source Praxis-1 turns video AI into a robot controller"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9865,7 +9865,8 @@
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1794682948.4133458,
    1794684685.5509033,
-   1794688284.0626576
+   1794688284.0626576,
+   1794690162.9913428
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1793370738.9416513
@@ -10480,7 +10481,6 @@
   "22f515f288ce48ef": 1794650473.9104357,
   "23196e218954bc2d": 1794027782.8948328,
   "231e30df1c69ffba": 1793642523.7921996,
-  "232855a4da04162f": 1793480520.195593,
   "23311729ae556dc2": 1793619173.8159542,
   "2336c1fa1626bfa3": 1793979054.939418,
   "2340eeb27cb528d3": 1793671295.442756,
@@ -10501,6 +10501,7 @@
   "24e30821eb6f08bc": 1794599463.414183,
   "24ee0d11b76f3a78": 1793518469.6393425,
   "250bd675c4fcfe04": 1794319299.683036,
+  "25536a46fd2bb0b1": 1794690051.930596,
   "256005002a962116": 1794652401.9457853,
   "25671638621372e7": 1794137514.4014792,
   "256a937a7691a984": 1793647901.1057427,
@@ -11396,7 +11397,6 @@
   "7440232213c89728": 1793980856.010392,
   "74475f1dd230d5f8": 1794538904.75987,
   "74542b6782dc8a9f": 1793729175.5617964,
-  "7463a982eb950886": 1793478686.1992052,
   "747336ce88a5adc6": 1793925084.5097532,
   "747d4ce4fbb69f19": 1793739677.6958723,
   "748519dc6cabaae7": 1793622675.0267966,
@@ -11488,9 +11488,9 @@
   "7b1bf47eb79a4d62": 1793939475.9033875,
   "7b2619617ae995a3": 1793552784.6838899,
   "7b2b2fba52306775": 1793736110.6937468,
+  "7b2b6b63b1cfbc4b": 1794690162.9912977,
   "7b2c804f1c1b6064": 1793553036.9686399,
   "7b2dae2891a089e0": 1793548971.7962878,
-  "7b3e0c1588d57a10": 1793480451.990929,
   "7b416e0989d2a7f5": 1793973801.2111194,
   "7b7b018bb7ea8f5e": 1794196853.7492511,
   "7b819b792d5f2b35": 1793876455.0968173,
@@ -12605,6 +12605,7 @@
   "dc1ce90dabcb1462": 1793885627.5702245,
   "dc1fd8f7ce3dd6ce": 1794402091.127294,
   "dc2a518e8d517960": 1793619166.2811775,
+  "dc4e3b35cf305df9": 1794690051.930596,
   "dc64bfb53276f322": 1794022254.4008634,
   "dc7b54d8e5336fbb": 1793746911.6684148,
   "dc9e30ea8329ed7b": 1793550675.5293267,
@@ -14232,12 +14233,12 @@
    "Mezha": 1,
    "PC Gamer": 3,
    "Pitchfork": 1,
-   "Polygon": 61,
+   "Polygon": 62,
    "Revolver": 1,
    "SteamDB": 1,
    "The Decoder": 2,
    "VGC": 9,
-   "Variety": 13
+   "Variety": 14
   },
   "sources": {
    "/Film": 19,
@@ -14273,7 +14274,7 @@
    "Rock Paper Shotgun": 10,
    "SteamDB": 6,
    "Stereogum": 4,
-   "The Decoder": 20,
+   "The Decoder": 21,
    "ThePRP": 9,
    "VGC": 7,
    "Variety": 32
@@ -14281,7 +14282,7 @@
   "translators": {
    "DeepL": 38,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 489
+   "gemini-flash-lite-latest": 490
   },
   "week": "2026-W46"
  },
@@ -18735,10 +18736,6 @@
  },
  "titles": [
   [
-   1794517281.057361,
-   "AMD випустила драйвер із виправленням надмірних записів на SSD у відеокартах Radeon"
-  ],
-  [
    1794520881.1333895,
    "Does DAVE MUSTAINE Like Any Death Metal Bands? 'I Like Bands That Have A Singer', He Says"
   ],
@@ -19457,13 +19454,13 @@
   [
    1794688284.0626104,
    "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon"
+  ],
+  [
+   1794690162.9912999,
+   "Runway's open-source Praxis-1 turns video AI into a robot controller"
   ]
  ],
  "titles_uk": [
-  [
-   1794517281.057362,
-   "AMD випустила драйвер із виправленням надмірних записів на SSD у відеокартах Radeon"
-  ],
   [
    1794520881.1333904,
    "Дейв Мастейн розповів про своє ставлення до дез-метал-гуртів"
@@ -20183,6 +20180,10 @@
   [
    1794688284.0626113,
    "Anthropic здатна перенавчити модель Mythos із мінімальними обчислювальними витратами"
+  ],
+  [
+   1794690162.9913006,
+   "Runway випустила відкриту модель Praxis-1 для керування роботами через відео ШІ"
   ]
  ],
  "ukrainian": {
@@ -22565,7 +22566,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794686491.8817487,
+  "last_check": 1794690171.799526,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
