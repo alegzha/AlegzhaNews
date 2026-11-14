@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1794691865.3660007
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1794691864.4329011
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-14",
  "freebies": {
   "last_check": 1794690171.8777692,
@@ -42,56 +29,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-14 21:02 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-11-14 22:03 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 3
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794002489.0575898,
-   5202,
-   "🎬",
-   "The New York Times купує Letterboxd за $330 мільйонів",
-   "IndieWire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.indiewire.com/features/general/letterboxd-bought-new-york-times-pros-cons-questions-1235225977/",
-    "orig": "Letterboxd’s Sale to the New York Times: 9 Pros, Cons, and Big Questions From the $330 Million Deal"
-   }
-  ],
-  [
-   1794002498.595523,
-   5203,
-   "🎮",
-   "Нові фільми вихідних на Netflix, Prime Video та інших платформах",
-   "Polygon",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.polygon.com/new-movies-streaming-this-weekend-netflix-november-6-8/",
-    "orig": "10 New Movies to Watch This Weekend on Netflix, Prime Video, and Peacock (November 6 - 8)"
-   }
-  ],
-  [
-   1794002501.8982346,
-   5204,
-   "🤘",
-   "Corrosion Of Conformity випустили Dolby Atmos-мікс альбому та живі відео на Sweetwater Studios",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55762/corrosion-of-conformity-featured-on-sweetwater-studios-live-performance-series/",
-    "orig": "Corrosion Of Conformity featured on Sweetwater Studios live performance series"
-   }
-  ],
   [
    1794004279.9608762,
    5205,
@@ -8991,7 +8940,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Pearl Abyss розширює використання ШІ у розробці <a href=\"https://store.steampowered.com/app/3321460/\">Crimson Desert</a></b>\n\nСтудія Pearl Abyss у звіті за третій квартал 2026 року повідомила про плани інтегрувати технології ШІ на всіх етапах розробки Crimson Desert. Компанія використовує штучний інтелект для перевірки концептів, автоматизації рутинних завдань та оптимізації тестування, наголошуючи, що геймплей та контент створюють люди.\n\n🔗 <a href=\"https://www.pcgamer.com/software/ai/dont-like-ai-in-games-crimson-desert-studio-pearl-abyss-aint-care-its-expanding-ai-use-throughout-our-entire-development-pipeline/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/software/ai/dont-like-ai-in-games-crimson-desert-studio-pearl-abyss-aint-care-its-expanding-ai-use-throughout-our-entire-development-pipeline/",
     "orig": "Don't like AI in games? Crimson Desert studio Pearl Abyss ain't care: it's expanding AI use 'throughout our entire development pipeline'"
@@ -9005,7 +8953,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>FAA скасувала заборону на польоти через збій застарілого обладнання</b>\n\n🔗 <a href=\"https://deadline.com/2026/11/faa-shutdown-lifted-radar-1237223564/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://deadline.com/2026/11/faa-shutdown-lifted-radar-1237223564/",
     "orig": "Nationwide FAA Ground Stop Lifted; Radar “Instability,” Old System Was Root Of Airspace Shutdown, Transportation Secretary Insists"
@@ -9019,7 +8966,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>As Cities Burn анонсували тур на підтримку альбому brain matter(s)</b>\n\nГурт As Cities Burn оголосив дати американського туру на січень та лютий 2027 року на підтримку свого нового альбому brain matter(s). Платівка, що раніше виходила обмеженим тиражом, тепер доступна у всьому світі. Концерти пройдуть за участю Baby In The 90s та Colour Revolt.\n\n🔗 <a href=\"https://lambgoat.com/news/55893/as-cities-burn-reveal-january-2027-tour-dates-supporting-their-latest-release/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55893/as-cities-burn-reveal-january-2027-tour-dates-supporting-their-latest-release/",
     "orig": "As Cities Burn reveal January 2027 tour dates supporting their latest release"
@@ -9846,6 +9792,48 @@
     "link": "https://the-decoder.com/runways-open-source-praxis-1-turns-video-ai-into-a-robot-controller/",
     "orig": "Runway's open-source Praxis-1 turns video AI into a robot controller"
    }
+  ],
+  [
+   1794693772.929168,
+   5950,
+   "🎬",
+   "Зірки серіалу «Glee» влаштували міні-зустріч на Бродвеї на тлі підготовки до перезапуску серіалу на Hulu",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Зірки серіалу «Glee» влаштували міні-зустріч на Бродвеї на тлі підготовки до перезапуску серіалу на Hulu</b>\n\nВчора ввечері бродвейська вистава «The Rocky Horror Show» стала місцем міні-зустрічі акторів серіалу «Glee»: Леа Мішель, Дженна Ушковіц та Бекка Тобін прийшли подивитися виставу, у якій зараз грає їхній колишній колега по серіалу Кевін Макхейл. У короткому відеоролику, опублікованому на сторінці «Роккі Хоррор» в Instagram, четверо зірок серіалу «Glee» збираються за лаштунками і синхронізують губи […]\n\n🔗 <a href=\"https://deadline.com/2026/11/glee-lea-michele-kevin-mchale-rocky-horror-1237224000/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/glee-lea-michele-kevin-mchale-rocky-horror-1237224000/",
+    "orig": "‘Glee’ Stars Stage Broadway Mini-Reunion As Hulu Reboot Gears Up"
+   }
+  ],
+  [
+   1794693777.2002845,
+   5951,
+   "🎮",
+   "У Steam вийшов Rasen — PvP-гра у стилі Dark Souls із rollback-неткодом",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>У Steam вийшов Rasen — PvP-гра у стилі <a href=\"https://store.steampowered.com/app/570940/\">Dark Souls</a> із rollback-неткодом</b>\n\nУ Steam у ранньому доступі вийшов Rasen — PvP-проєкт, що поєднує боївку у стилі Dark Souls і Sekiro здинамічнішими сутичками до восьми гравців. Гра вирізняється використанням rollback-неткоду, який частіше зустрічається у 2D-файтингах, а також доступна для ознайомлення завдяки демоверсії.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/rasen-out-in-early-access-now-is-a-pvp-focused-take-on-dark-souls-that-borrows-one-of-fighting-games-best-techy-tricks\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/rasen-out-in-early-access-now-is-a-pvp-focused-take-on-dark-souls-that-borrows-one-of-fighting-games-best-techy-tricks",
+    "orig": "Rasen, out in early access now, is a PvP focused take on Dark Souls that borrows one of fighting games' best techy tricks"
+   }
+  ],
+  [
+   1794693790.4064765,
+   5952,
+   "🎬",
+   "Створення мультфільму Wildwood: від Біллі Айліш до пекла та поєднання реального й цифрового",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Створення мультфільму Wildwood: від Біллі Айліш до пекла та поєднання реального й цифрового</b>\n\nНовий анімаційний фільм студії «Laika» у техніці стоп-моушн, «Wildwood», поєднує кадр-за-кадром анімацію з візуальними ефектами. Режисер Тревіс Найт, оператор Калеб Дешанель та супервайзер з візуальних ефектів Стів Емерсон поділилися в студії «Contenders Film» у Лос-Анджелесі деякими реальними джерелами натхнення, які вплинули на їхню роботу. Дешанелю довелося планувати кадри ще до того, як персонажі фільму були готові. Тож він […]\n\n🔗 <a href=\"https://deadline.com/2026/11/wildwood-travis-knight-inspiration-interview-1237224069/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/wildwood-travis-knight-inspiration-interview-1237224069/",
+    "orig": "From Billie Eilish To Hell, ‘Wildwood’ Filmmakers Combined Real And Digital Inspirations – Contenders L.A."
+   }
   ]
  ],
  "posted_by_source": {
@@ -9944,10 +9932,7 @@
    1794672120.956792
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
-   1794481449.669995,
-   1794488660.3232932,
-   1794524545.2055244,
-   1794567690.382515
+   1794693777.200541
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1794623482.2775664
@@ -9966,8 +9951,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1794574970.8973532,
-   1794578507.6178405,
    1794609307.079111,
    1794612697.744786,
    1794614665.178259,
@@ -9979,7 +9962,9 @@
    1794632478.5519311,
    1794637883.8932812,
    1794643281.1091259,
-   1794661281.0355153
+   1794661281.0355153,
+   1794693772.9294326,
+   1794693790.406755
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794663071.9451547
@@ -10587,6 +10572,7 @@
   "2b1608cf72e71b0d": 1794214856.4079065,
   "2b3bfcd1c50fa9aa": 1794083478.7347698,
   "2b48fc3308d6ced3": 1794364252.7798047,
+  "2b50e1e804c98216": 1794693777.2004967,
   "2bbf00a5ae944e24": 1793608303.005661,
   "2bcc0d9702cf7214": 1793822038.9346817,
   "2bced931fe8d25ec": 1793912454.7085621,
@@ -10657,7 +10643,6 @@
   "31c45dde60f31290": 1793534451.901408,
   "31c7d09643d90bb8": 1794630779.338195,
   "31cf95dd69bbec45": 1793968290.3702145,
-  "31ed3d6fb33c6ad8": 1793482449.1703806,
   "31f929863abbf97d": 1793872888.5272176,
   "32236035c16c6bec": 1793543481.282739,
   "32347e74523b6c10": 1793745095.6282132,
@@ -10961,7 +10946,6 @@
   "4e850475e2eb3aec": 1793626402.8607879,
   "4e95f2e07d2eee9b": 1793781192.9947064,
   "4ea70341d87c09c6": 1793622673.6246212,
-  "4ed85de469330bea": 1793484090.5904572,
   "4ee386199935ddd0": 1793746907.9794414,
   "4ee39abf60ee8a85": 1794042180.7033417,
   "4f0269e6d1833933": 1793642493.411298,
@@ -11047,7 +11031,6 @@
   "561b88a4a1443c4f": 1794213096.5452287,
   "56865d851368cb97": 1793492124.3815207,
   "569e626cef36fad0": 1793741616.2568378,
-  "56c5a3292b9e4588": 1793482457.3618114,
   "56e79674200fef27": 1793881915.224931,
   "5710af7adc0214dd": 1793885639.0671265,
   "5712d3358e3cece4": 1794268886.779551,
@@ -11062,7 +11045,6 @@
   "578adbf633f655f9": 1794040252.109069,
   "57c2ee4d257ece9c": 1794499253.4405737,
   "57d6f3cc3f5561cc": 1793732484.7934673,
-  "57f634c923024532": 1793484103.0619628,
   "5816f02080b3cf58": 1793640742.7625618,
   "58179c293b7baf2c": 1793727285.5411546,
   "5826d233cb4408e3": 1794306681.8971698,
@@ -11970,7 +11952,6 @@
   "a3480c4838fea0f4": 1793716512.2424831,
   "a36a26d296b8606a": 1794405831.1688273,
   "a3c167758fc64ca2": 1794324722.654746,
-  "a3c2d09f372a85a4": 1793484087.1435232,
   "a3d68c16e0fc6d72": 1794180772.513675,
   "a3e64008697d9872": 1793808471.7419782,
   "a3e947c2a9342231": 1793721903.1336567,
@@ -12273,7 +12254,6 @@
   "be46fc9fc7d45c2d": 1794339077.5050507,
   "be6dcb8dbf1cc5c9": 1794551489.7444518,
   "be75b07fa4e25505": 1794333679.4848025,
-  "be7e6ba41dfdcfe7": 1793484095.1579175,
   "bea2be3f2d42d96c": 1794441684.146538,
   "bee17da749f97fae": 1793649839.8282518,
   "bf428dc5419779c5": 1794450683.2133462,
@@ -12304,6 +12284,7 @@
   "c1e75570c5a279da": 1794281593.4774,
   "c2016914d67edb81": 1793815285.4528103,
   "c203ab4695c76f75": 1793802693.460354,
+  "c20c76bac6df0a5c": 1794693790.4067116,
   "c22168660463d2b7": 1793561489.2513406,
   "c240c7f32290a2cc": 1793856655.0170114,
   "c283c3e0f147ac9c": 1793592072.7894156,
@@ -12859,7 +12840,6 @@
   "f2f96cdad9d06291": 1793957484.8537347,
   "f3040aceb4d30279": 1794619753.424945,
   "f3083e479530037a": 1794459677.3013132,
-  "f33d1a49158ce0ea": 1793482349.180834,
   "f386aaa207a548e4": 1794558686.766569,
   "f39a7fe4bd5423cf": 1793512878.3441641,
   "f39ee164130692dc": 1793554255.0551445,
@@ -12979,7 +12959,6 @@
   "fc1f10d3ea4ad31a": 1793914302.7687907,
   "fc22740509e6482c": 1793712684.6871066,
   "fc2fb02ead8c606e": 1793734312.1806116,
-  "fc3789bee460856f": 1793484055.5163987,
   "fc3d9dddd681abd5": 1793980856.010392,
   "fc425bcd3bf2dc0d": 1793628431.8808472,
   "fc4c87bd494e185b": 1793718391.0677536,
@@ -13028,6 +13007,7 @@
   "ff70f672847edd0e": 1793734294.9895241,
   "ff840b54d34eddc6": 1793876537.6906407,
   "ff8790d9b2bad418": 1793655075.305974,
+  "ff9473a0f9509091": 1794693772.929385,
   "ff9627da71a51e63": 1794227453.9175088,
   "ffb95674798e00c4": 1794583853.089954,
   "ffc8ca2e29daf217": 1793620960.2337942,
@@ -14257,7 +14237,7 @@
    "Bloomberg": 40,
    "DOU": 8,
    "DOU Gamedev": 3,
-   "Deadline": 83,
+   "Deadline": 85,
    "Digital Foundry": 1,
    "Distorted Sound": 7,
    "Eurogamer": 14,
@@ -14281,7 +14261,7 @@
    "PlayUA": 9,
    "Polygon": 31,
    "Product Hunt": 6,
-   "Rock Paper Shotgun": 10,
+   "Rock Paper Shotgun": 11,
    "SteamDB": 6,
    "Stereogum": 4,
    "The Decoder": 21,
@@ -14290,9 +14270,9 @@
    "Variety": 32
   },
   "translators": {
-   "DeepL": 38,
+   "DeepL": 41,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 490
+   "gemini-flash-lite-latest": 493
   },
   "week": "2026-W46"
  },
@@ -15901,6 +15881,11 @@
    1091500,
    "Cyberpunk 2077",
    1792164135.6035278
+  ],
+  "q:dark souls": [
+   570940,
+   "DARK SOULS™: REMASTERED",
+   1794693775.5031538
   ],
   "q:dark souls 2": [
    236430,
@@ -17647,6 +17632,11 @@
    "PUBG: BATTLEGROUNDS",
    1793826087.257368
   ],
+  "q:pvp": [
+   0,
+   "",
+   1794693774.98586
+  ],
   "q:qssr": [
    0,
    "",
@@ -18706,10 +18696,10 @@
    "авіація",
    "аеродром",
    "бізнес",
-   "відео",
    "військові технології",
    "генштаб",
    "залізо",
+   "зв'язок",
    "кібербезпека",
    "новини",
    "німеччина",
@@ -18719,24 +18709,12 @@
    "росія",
    "смартфони",
    "софт",
-   "технології",
    "хакерські атаки",
-   "ігри"
+   "ігри",
+   "інтернет"
   ]
  },
  "titles": [
-  [
-   1794520881.1333895,
-   "Does DAVE MUSTAINE Like Any Death Metal Bands? 'I Like Bands That Have A Singer', He Says"
-  ],
-  [
-   1794520890.0403743,
-   "ROB RUN has reached 309,097 concurrent players on Steam for the first time (52.92% rating)"
-  ],
-  [
-   1794520892.3300495,
-   "Walst повертається до творчості з новим синглом"
-  ],
   [
    1794522703.2743645,
    "Seoul Sets $1 Million Budget to Host LoL Worlds 2027 Final"
@@ -19448,21 +19426,21 @@
   [
    1794690162.9912999,
    "Runway's open-source Praxis-1 turns video AI into a robot controller"
+  ],
+  [
+   1794693772.9293869,
+   "‘Glee’ Stars Stage Broadway Mini-Reunion As Hulu Reboot Gears Up"
+  ],
+  [
+   1794693777.2004983,
+   "Rasen, out in early access now, is a PvP focused take on Dark Souls that borrows one of fighting games' best techy tricks"
+  ],
+  [
+   1794693790.4067128,
+   "From Billie Eilish To Hell, ‘Wildwood’ Filmmakers Combined Real And Digital Inspirations – Contenders L.A."
   ]
  ],
  "titles_uk": [
-  [
-   1794520881.1333904,
-   "Дейв Мастейн розповів про своє ставлення до дез-метал-гуртів"
-  ],
-  [
-   1794520890.0403745,
-   "Онлайн ROB RUN у Steam вперше перевищил 309 000 гравців при 52.92% позитивних відгуків"
-  ],
-  [
-   1794520892.3300498,
-   "Walst повертається до творчості з новим синглом"
-  ],
   [
    1794522703.2743654,
    "Сеул виділив мільйон доларів на проведення фіналу LoL Worlds 2027"
@@ -20174,6 +20152,18 @@
   [
    1794690162.9913006,
    "Runway випустила відкриту модель Praxis-1 для керування роботами через відео ШІ"
+  ],
+  [
+   1794693772.929388,
+   "Зірки серіалу «Glee» влаштували міні-зустріч на Бродвеї на тлі підготовки до перезапуску серіалу на Hulu"
+  ],
+  [
+   1794693777.2004995,
+   "У Steam вийшов Rasen — PvP-гра у стилі Dark Souls із rollback-неткодом"
+  ],
+  [
+   1794693790.4067135,
+   "Створення мультфільму Wildwood: від Біллі Айліш до пекла та поєднання реального й цифрового"
   ]
  ],
  "ukrainian": {
@@ -22556,7 +22546,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794690171.799526,
+  "last_check": 1794693799.331239,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
