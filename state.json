@@ -1,11 +1,5 @@
 {
  "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1794643270.9355512
-  },
   "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
    "detail": "https://distortedsoundmag.com/feed/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
    "label": "Джерело «Distorted Sound» не працює",
@@ -42,11 +36,10 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-14 08:03 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-latest",
+  "at": "2026-11-14 08:31 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
    "gemini-flash-lite-latest": 1
   },
   "used": [
@@ -54,37 +47,6 @@
   ]
  },
  "post_log": [
-  [
-   1793952452.3160076,
-   5146,
-   "🤖",
-   "«Основи штучного інтелекту не зазнали зриву», — заявляє Треон з ING",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/videos/2026-11-06/ai-fundamentals-have-not-been-derailed-ing-s-treon-says-video",
-    "orig": "AI's Fundamentals Have Not Been Derailed, ING's Treon Says"
-   }
-  ],
-  [
-   1793952454.2689054,
-   5147,
-   "🤖",
-   "«Складно придумати завдання, яке не можна кинути в Claude»: чи вбив ШІ тестові для розробників",
-   "DOU",
-   {
-    "also": [
-     [
-      "Mezha",
-      "https://mezha.ua/news/claude-personal-finance-316933/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://dou.ua/lenta/articles/developer-test-tasks-ai/",
-    "orig": "«Складно придумати завдання, яке не можна кинути в Claude»: чи вбив ШІ тестові для розробників"
-   }
-  ],
   [
    1793953885.030677,
    5148,
@@ -9249,7 +9211,6 @@
    "DOU",
    {
     "also": [],
-    "caption": "🤖 <b>В Україні створять базу текстів для навчання ШІ. Хто зможе нею користуватися</b>\n\nКабмін вирішив створити базу українських текстів, на яких розробники зможуть навчати й тестувати великі мовні моделі. Доступ до цієї бази буде безплатним, але доступним не для всіх. Відповідну постанову № 1416 уряд ухвалив 11 листопада 2026 року. До бази планують включити літературні твори, наукові дослідження, архівні документи та інші матеріали українською мовою.\n\n🔗 <a href=\"https://dou.ua/lenta/news/database-of-ukrainian-texts-for-ai/\">DOU</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://dou.ua/lenta/news/database-of-ukrainian-texts-for-ai/",
     "orig": "В Україні створять базу текстів для навчання ШІ. Хто зможе нею користуватися"
@@ -10099,6 +10060,20 @@
     "link": "https://github.com/backnotprop/plannotator",
     "orig": "backnotprop/plannotator"
    }
+  ],
+  [
+   1794645076.406275,
+   5915,
+   "💾",
+   "Thunder: надшвидка персистентна база даних для ШІ-навантажень",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>Thunder: надшвидка персистентна база даних для ШІ-навантажень</b>\n\nОбговорення проєкту Thunder, створеного для роботи з ШІ\n\n🔗 <a href=\"https://www.producthunt.com/products/thunder-3\">Product Hunt</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/thunder-3",
+    "orig": "Thunder"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10360,8 +10335,7 @@
    1794589276.7801876
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
-   1794501093.1855075,
-   1794502963.9585087
+   1794645076.406524
   ]
  },
  "seen": {
@@ -10566,7 +10540,6 @@
   "105c9cb2e2d680f8": 1794103287.2780123,
   "10714e623a2ae593": 1793734305.8283293,
   "109270637f0d1ea4": 1794488660.3232384,
-  "10ba719313a0c835": 1793434003.5547855,
   "10bd7120ab656829": 1793872929.1739988,
   "10cb73893904f837": 1794568315.9646816,
   "10e2ed5cfc88d0e3": 1793914251.9255452,
@@ -11591,7 +11564,6 @@
   "6bcc599b869e2f87": 1794187889.1669471,
   "6bd172f668062b9c": 1794526285.0047514,
   "6bdf11427a7a1bb5": 1793939662.1081095,
-  "6bef440fd66cae9a": 1793435454.1575031,
   "6bf443b51d6286a5": 1793604776.9877975,
   "6c0a831d66e325b3": 1793615475.831599,
   "6c182e85d2ac67f6": 1793903599.0678053,
@@ -12020,7 +11992,6 @@
   "8dc4a6a9ec353083": 1794267175.2273066,
   "8dc952d0250ee645": 1793790174.7717426,
   "8dd03b31fcd78c57": 1793883833.9095404,
-  "8e012ffa873243ff": 1793433983.738015,
   "8e1e8ced19a5f6d3": 1793453488.812824,
   "8e2231f6c64bfa5a": 1793817177.5515943,
   "8e322064ca31b16e": 1793532879.707783,
@@ -12309,7 +12280,6 @@
   "a5f52aa5d56360ac": 1793840486.7174122,
   "a60c4d1cbce2c052": 1794524545.2054734,
   "a615c2a9720f54aa": 1793610231.8430502,
-  "a635ac454c88559a": 1793435454.1575031,
   "a63cf4553f266a18": 1794400283.729265,
   "a646f185cfdb8f99": 1793761322.221932,
   "a65090be49e4582b": 1794481449.6699495,
@@ -12320,7 +12290,6 @@
   "a6b21f133af10897": 1793633599.1860323,
   "a6dedc6c569234c7": 1793646053.9942713,
   "a70866f44525d9a7": 1794592884.4843674,
-  "a73a6530ed219105": 1793435454.1575031,
   "a751ece5fa0a8720": 1794155576.4213982,
   "a760fea2cb6aac29": 1794065486.8607264,
   "a76bd5a702717db5": 1794110475.7236583,
@@ -12370,6 +12339,7 @@
   "ab1326192fd17f1c": 1793793684.0223513,
   "ab16f15db4c0fa4a": 1793761308.210467,
   "ab29c660172a2556": 1793919705.5728858,
+  "ab2c2f54c2bae79b": 1794645076.4064775,
   "ab2d096007269d11": 1793876902.575167,
   "ab3f38c70ec09c26": 1793579595.3732646,
   "ab4706531f52e990": 1794108652.0787802,
@@ -13260,7 +13230,6 @@
   "f857e39141f21e8a": 1794353473.935522,
   "f863c741bb7ae143": 1794369694.5400813,
   "f881bafed6675b4c": 1793721754.7233136,
-  "f896db7719e03f9d": 1793433875.2494948,
   "f8ac7a069c5abf7b": 1794108683.0873785,
   "f8bf296d26f8e412": 1794482852.3299081,
   "f8cbfeed39802472": 1794436295.0952077,
@@ -14618,7 +14587,7 @@
    "Pitchfork": 3,
    "PlayUA": 8,
    "Polygon": 29,
-   "Product Hunt": 5,
+   "Product Hunt": 6,
    "Rock Paper Shotgun": 10,
    "SteamDB": 6,
    "Stereogum": 4,
@@ -14630,7 +14599,7 @@
   "translators": {
    "DeepL": 37,
    "gemini-flash-latest": 13,
-   "gemini-flash-lite-latest": 461
+   "gemini-flash-lite-latest": 462
   },
   "week": "2026-W46"
  },
@@ -17520,16 +17489,6 @@
    "Mammoth",
    1792762325.5861564
   ],
-  "q:man": [
-   0,
-   "",
-   1794470489.4030423
-  ],
-  "q:man legends": [
-   0,
-   "",
-   1794470488.9495904
-  ],
   "q:marathon": [
    3065800,
    "Marathon",
@@ -17564,21 +17523,6 @@
    12140,
    "Max Payne",
    1792940534.8389542
-  ],
-  "q:mega": [
-   0,
-   "",
-   1794470488.439976
-  ],
-  "q:mega man": [
-   0,
-   "",
-   1794470487.9646428
-  ],
-  "q:mega man legends": [
-   0,
-   "",
-   1794470487.4967265
   ],
   "q:messiah": [
    577980,
@@ -18885,11 +18829,6 @@
    "",
    1794616309.6361501
   ],
-  "q:valve steam": [
-   0,
-   "",
-   1794470492.4120522
-  ],
   "q:vice": [
    0,
    "",
@@ -19967,6 +19906,10 @@
   [
    1794643426.4887395,
    "backnotprop/plannotator"
+  ],
+  [
+   1794645076.4064794,
+   "Thunder"
   ]
  ],
  "titles_uk": [
@@ -20725,6 +20668,10 @@
   [
    1794643426.4887407,
    "Plannotator: робочий простір для контролю та співпраці з ШІ-агентами"
+  ],
+  [
+   1794645076.4064798,
+   "Thunder: надшвидка персистентна база даних для ШІ-навантажень"
   ]
  ],
  "ukrainian": {
