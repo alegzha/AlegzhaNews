@@ -1,15 +1,8 @@
 {
- "alerts": {
-  "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
-   "detail": "https://distortedsoundmag.com/feed/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
-   "label": "Джерело «Distorted Sound» не працює",
-   "sent": 0,
-   "since": 1794612674.880975
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-13",
  "freebies": {
-  "last_check": 1794639709.4799802,
+  "last_check": 1794647006.6813734,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -36,69 +29,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-14 08:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-14 09:03 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793953885.030677,
-   5148,
-   "💾",
-   "Letterpress-1",
-   "Product Hunt",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.producthunt.com/products/letterpress-1",
-    "orig": "Letterpress-1"
-   }
-  ],
-  [
-   1793953887.143233,
-   5149,
-   "🎬",
-   "Кайло Рен все? Адам Драйвер розповів про майбутнє у «Зоряних війнах»",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/kajlo-ren-vse-adam-drajver-rozpoviv-pro-majbutnye-u-zoryanyh-vijnah/",
-    "orig": "Кайло Рен все? Адам Драйвер розповів про майбутнє у «Зоряних війнах»"
-   }
-  ],
-  [
-   1793955687.8041627,
-   5150,
-   "💾",
-   "Кількість користувачів нового застосунку \"Нової пошти\" зросла вдесятеро за два роки – до 6,4 млн",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/kilkist-koristuvachiv-novogo-zastosunku-novoji-poshti-316941/",
-    "orig": "Кількість користувачів нового застосунку \"Нової пошти\" зросла вдесятеро за два роки – до 6,4 млн"
-   }
-  ],
-  [
-   1793955703.0298598,
-   5151,
-   "💾",
-   "Огляд алгоритму швидкого стиснення даних LZ4",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/lz4/lz4",
-    "orig": "lz4/lz4"
-   }
-  ],
   [
    1793957484.8533504,
    5152,
@@ -9224,7 +9165,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🤖 <b>Дослідження: IT-компаніям дедалі більше потрібні менеджери, а вакансії для дизайнерів зникають</b>\n\nНа IT-ринку зростає попит на продакт-менеджерів, тоді як кількість вакансій для дизайнерів впала до рекордного мінімуму. Новий звіт також показує, як змінюються вимоги до фахівців через розвиток штучного інтелекту.\n\n🔗 <a href=\"https://mezha.ua/news/state-of-tech-job-market-in-2026-317191/\">Mezha</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://mezha.ua/news/state-of-tech-job-market-in-2026-317191/",
     "orig": "Дослідження: IT-компаніям дедалі більше потрібні менеджери, а вакансії для дизайнерів зникають"
@@ -9238,7 +9178,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Інвесторів із Китаю та Гонконгу відсторонили від IPO Anthropic</b>\n\nБанки відхиляють замовлення на купівлю акцій Anthropic від інвесторів із материкового Китаю та Гонконгу через правила експортного контролю США. Розміщення акцій на Nasdaq заплановане на 18 листопада під тикером ANT.\n\n🔗 <a href=\"https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/banks-bar-chinese-and-hong-kong-investors-from-anthropic-ipo-over-us-export-controls/",
     "orig": "Banks bar Chinese and Hong Kong investors from Anthropic IPO over US export controls"
@@ -10074,6 +10013,34 @@
     "link": "https://www.producthunt.com/products/thunder-3",
     "orig": "Thunder"
    }
+  ],
+  [
+   1794646968.042978,
+   5916,
+   "🤘",
+   "Memoriam випустили новий трек «At The Point Of No Return»",
+   "Distorted Sound",
+   {
+    "also": [],
+    "caption": "🤘 <b>Memoriam випустили новий трек «At The Point Of No Return»</b>\n\nБританські дез-металісти презентували свіжий сингл «At The Point Of No Return»\n\n🔗 <a href=\"https://distortedsoundmag.com/memoriam-release-new-song-at-the-point-of-no-return/\">Distorted Sound</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://distortedsoundmag.com/memoriam-release-new-song-at-the-point-of-no-return/",
+    "orig": "Memoriam release new song ‘At The Point Of No Return’"
+   }
+  ],
+  [
+   1794646997.4716456,
+   5917,
+   "💾",
+   "Автори Uptime Kuma попереджають про фейковий сайт у Google",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>Автори Uptime Kuma попереджають про фейковий сайт у Google</b>\n\nРозробники проєкту Uptime Kuma закликають користувачів остерігатися сайту uptimekuma.co, який є першим результатами пошуку в Google, але не контролюється командою. Також автори нагадують про правила встановлення та надання підтримки через GitHub і Reddit.\n\n🔗 <a href=\"https://github.com/louislam/uptime-kuma\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/louislam/uptime-kuma",
+    "orig": "louislam/uptime-kuma"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10251,8 +10218,7 @@
    1793824292.005878
   ],
   "music|Distorted Sound|https://distortedsoundmag.com/feed/": [
-   1794524493.4767237,
-   1794528079.5231812
+   1794646968.0432434
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
    1794222361.3425462
@@ -10313,8 +10279,6 @@
    1794596480.8390687
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
-   1794558686.766613,
-   1794560515.4584217,
    1794562760.8285232,
    1794564188.1661654,
    1794565879.9856575,
@@ -10322,7 +10286,8 @@
    1794568367.1634672,
    1794569525.337225,
    1794641660.5051203,
-   1794643426.4887812
+   1794643426.4887812,
+   1794646997.4718904
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1794591222.274497,
@@ -11341,6 +11306,7 @@
   "5936ac056f3e67e0": 1794150169.541632,
   "5936ef39a45b3457": 1793889133.512389,
   "594a7880d7954e73": 1794240087.6773205,
+  "594ea04fa2a1fdf5": 1794646968.0431976,
   "59761c970629b9bf": 1793991653.8628635,
   "59b063e7c9bc57d4": 1793896587.5838223,
   "59c5dbff26ef0145": 1794027792.2215495,
@@ -11437,7 +11403,6 @@
   "603310e61b886322": 1793549311.4866598,
   "60515bc7f438428d": 1793685705.6947038,
   "608ce90f141027fc": 1793826117.378732,
-  "609c94608dce2af9": 1793435496.4819915,
   "60aa3dbc0035e637": 1793707363.0458121,
   "60c6cad26ef7ccd4": 1793734346.6105225,
   "60d7821bcb5065de": 1793959360.6930087,
@@ -11764,7 +11729,6 @@
   "7a53076bad5912b3": 1793791881.4996517,
   "7a611172b2abc75e": 1794310275.0560873,
   "7a63d39d187994e3": 1793649809.8780675,
-  "7a7bbb95c9385fbc": 1793435498.9012454,
   "7aa7e24b324aa8d5": 1793728894.5557163,
   "7ac2cc389f343a7b": 1793728894.571197,
   "7afa5b38de3009d7": 1793899906.306727,
@@ -11809,7 +11773,6 @@
   "7e2d1f4e30e2760f": 1793849525.6762714,
   "7e321eace551bbbe": 1793883770.9606118,
   "7e442099a30d1b1a": 1793709131.0258775,
-  "7e7a6ce6c81ff0b4": 1793435592.9244723,
   "7e88237922f25327": 1794475853.9786184,
   "7e96f5920135ce48": 1794038482.0458248,
   "7e9d876b30c3b435": 1793721877.592814,
@@ -12038,7 +12001,6 @@
   "91bf41646a4e8582": 1794623482.2775147,
   "91c776c9d6c04a8f": 1794052875.925719,
   "91cff8f8baf538d7": 1793827893.8692386,
-  "91d6cf705a9b87fb": 1793437386.9737728,
   "91ebd3e47220a803": 1793617284.1236634,
   "91ec8ea0d62eea5a": 1793862139.6533058,
   "920f86ea3f72befe": 1794089056.8419774,
@@ -13137,7 +13099,6 @@
   "f05711b82d0bdf25": 1793729138.3298163,
   "f061d861d0ee89a0": 1794011577.8131485,
   "f092ae509039930c": 1793711000.5938559,
-  "f09b100f5046f8be": 1793437379.2043796,
   "f0b306ec9354762c": 1794438097.6335125,
   "f0da9e69dffe9090": 1793963129.131009,
   "f0f662f08256c3ce": 1793626277.974847,
@@ -13187,6 +13148,7 @@
   "f5147c5b766bddb4": 1793635461.277553,
   "f519ca4e6fbcb340": 1793653392.7380261,
   "f52454ddc256a82d": 1794396687.6364672,
+  "f53325a92664d362": 1794646997.4718451,
   "f537c7ff770e5b92": 1793633606.3951752,
   "f54fe0da5d316a00": 1793703657.8336687,
   "f552c1b34baed674": 1793750493.2815504,
@@ -14566,11 +14528,11 @@
    "DOU": 8,
    "DOU Gamedev": 3,
    "Deadline": 82,
-   "Distorted Sound": 5,
+   "Distorted Sound": 6,
    "Eurogamer": 11,
    "GameSpot": 1,
    "GamesIndustry.biz": 7,
-   "GitHub Trending": 22,
+   "GitHub Trending": 23,
    "Hugging Face": 6,
    "IGN": 11,
    "ITC.ua": 36,
@@ -14599,7 +14561,7 @@
   "translators": {
    "DeepL": 37,
    "gemini-flash-latest": 13,
-   "gemini-flash-lite-latest": 462
+   "gemini-flash-lite-latest": 464
   },
   "week": "2026-W46"
  },
@@ -19152,22 +19114,6 @@
  },
  "titles": [
   [
-   1794472283.108448,
-   "Russell Brand Documentary From ‘Jimmy Savile: A British Horror Story’ Producers Set at Netflix Days After Rape Sentencing"
-  ],
-  [
-   1794472295.8656452,
-   "GoogleChrome/modern-web-guidance-src"
-  ],
-  [
-   1794474079.9113371,
-   "Півтори години світла на день: як я роблю стратегію Wainhold з командою ШІ-агентів"
-  ],
-  [
-   1794474085.2638524,
-   "shadcn/improve"
-  ],
-  [
    1794475909.866354,
    "Lord of the Rings Officially Reveals Gollum’s Replacement"
   ],
@@ -19910,25 +19856,17 @@
   [
    1794645076.4064794,
    "Thunder"
+  ],
+  [
+   1794646968.0431993,
+   "Memoriam release new song ‘At The Point Of No Return’"
+  ],
+  [
+   1794646997.471847,
+   "louislam/uptime-kuma"
   ]
  ],
  "titles_uk": [
-  [
-   1794472283.1084487,
-   "Netflix анонсував документалку про Russell Brand після вироку за зґвалтування"
-  ],
-  [
-   1794472295.865646,
-   "Google та партнери запустили Modern Web Guidance для ШІ-агентів"
-  ],
-  [
-   1794474079.911338,
-   "Півтори години світла на день: як я роблю стратегію Wainhold з командою ШІ-агентів"
-  ],
-  [
-   1794474085.263853,
-   "shadcn представив agent skill для аудитів і планів коду"
-  ],
   [
    1794475909.8663545,
    "У серіалі The Lord of the Rings: The Rings of Power з'явилася заміна Gollum"
@@ -20672,6 +20610,14 @@
   [
    1794645076.4064798,
    "Thunder: надшвидка персистентна база даних для ШІ-навантажень"
+  ],
+  [
+   1794646968.0432003,
+   "Memoriam випустили новий трек «At The Point Of No Return»"
+  ],
+  [
+   1794646997.471848,
+   "Автори Uptime Kuma попереджають про фейковий сайт у Google"
   ]
  ],
  "ukrainian": {
@@ -23054,7 +23000,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794641669.6501117,
+  "last_check": 1794647006.3246663,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
