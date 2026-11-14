@@ -1,7 +1,7 @@
 {
  "alerts": {
   "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
-   "detail": "https://distortedsoundmag.com/feed/ → HTTPSConnectionPool(host='distortedsoundmag.com', port=443): Read timed out. (read timeout=20)",
+   "detail": "https://distortedsoundmag.com/feed/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
    "label": "Джерело «Distorted Sound» не працює",
    "sent": 0,
    "since": 1794612674.880975
@@ -36,56 +36,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-14 05:31 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-11-14 06:01 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793944878.3851879,
-   5134,
-   "🤘",
-   "Гурт Showing Teeth випустив новий сингл і кліп Hellraiser",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/11/05/news/showing-teeths-hellraiser-music-video-premieres/",
-    "orig": "Showing Teeth’s “Hellraiser” Music Video Premieres"
-   }
-  ],
-  [
-   1793944882.1782126,
-   5135,
-   "🤘",
-   "Сьогодні ввечері гурт Motionless In White на сцені подякував зірці WWE Реї Ріплі за популяризацію метал- та гот-культури у всьому світі",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/11/05/news/motionless-in-white-thanked-wwe-star-rhea-ripley-onstage-tonight-for-spreading-metal-goth-culture-worldwide/",
-    "orig": "Motionless In White Thanked WWE Star Rhea Ripley Onstage Tonight For Spreading Metal & Goth Culture Worldwide"
-   }
-  ],
-  [
-   1793944885.9070842,
-   5136,
-   "🤘",
-   "«Orgasmatron» гурту Motörhead був «кастрований» у Нью-Йорку — і ось нарешті його відремонтували",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/music/albums/motorhead-orgasmatron-40th-anniversary-edition",
-    "orig": "Motörhead's Orgasmatron was neutered in New York - and now it's finally been fixed"
-   }
-  ],
   [
    1793946679.8250318,
    5137,
@@ -9268,7 +9229,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Анонсовано світовий тур KPop Demon Hunters на 2027 рік</b>\n\nNetflix і Sony Pictures Animation підтвердили проведення концертного туру KPop Demon Hunters у 2027 році за спонсорства Mastercard. Наразі невідомо, хто саме виконуватиме пісні на сцені та чи буде шоу анімаційним. Передпродаж квитків для власників карток розпочнеться 18 листопада.\n\n🔗 <a href=\"https://www.polygon.com/kpop-demon-hunters-world-tour-2027/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/kpop-demon-hunters-world-tour-2027/",
     "orig": "KPop Demon Hunters' 2027 World Tour Is Official, but There's a Catch"
@@ -9282,7 +9242,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Intel різко наростила частку ринку десктопних CPU за рахунок AMD</b>\n\nЗгідно з даними Mercury Research за Q3 2026 року, Intel несподівано збільшила свою частку на ринку десктопних CPU на 5,1%, тоді як показник AMD знизився до 29,9%. Дослідники припускають, що це сталося через зниження попиту на мобільні процесори у випадку Intel та дефіцит потужних відеокарт і пам&#x27;яті, що вдарив по геймерах і загалом по позиціях AMD.\n\n🔗 <a href=\"https://www.pcgamer.com/hardware/processors/intel-takes-massive-chunk-out-of-amds-desktop-cpu-market-share-in-unexpected-turnaround-may-be-due-to-the-red-teams-dominance-in-gaming-chips-weirdly/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/hardware/processors/intel-takes-massive-chunk-out-of-amds-desktop-cpu-market-share-in-unexpected-turnaround-may-be-due-to-the-red-teams-dominance-in-gaming-chips-weirdly/",
     "orig": "Intel takes massive chunk out of AMD's desktop CPU market share in unexpected turnaround - may be due to the red team's dominance in gaming chips, weirdly"
@@ -10118,6 +10077,34 @@
     "link": "https://www.eurogamer.net/blood-of-dawnwalker-new-game-plus",
     "orig": "The Blood of Dawnwalker is getting a New Game Plus mode in next week's update"
    }
+  ],
+  [
+   1794636081.4099612,
+   5905,
+   "🤘",
+   "Аль Юргенсен розповів про фінальний альбом і тур Ministry",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Аль Юргенсен розповів про фінальний альбом і тур Ministry</b>\n\nФронтмен Ministry Аль Юргенсен поділився деталями про останній студійний альбом гурту Hate to Go – Take Out or Delivery та майбутній тур. За його словами, ця платівка стане підсумком усього творчого шляху колективу та об&#x27;єднає ключових учасників минулого. Музикант вирішив остаточно завершити діяльність гурту, оскільки вважає подальший розвиток проєкту неможливим.\n\n🔗 <a href=\"https://loudwire.com/ministry-al-jourgensen-final-album-tour-interview/\">Loudwire</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://loudwire.com/ministry-al-jourgensen-final-album-tour-interview/",
+    "orig": "Al Jourgensen Opens up About Ministry's Final Album + Tour"
+   }
+  ],
+  [
+   1794636089.0107415,
+   5906,
+   "🎬",
+   "Two and a Half Men вперше з'явиться на безплатній стрімінговій платформі",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Two and a Half Men вперше з&#x27;явиться на безплатній стрімінговій платформі</b>\n\nСеріал Two and a Half Men вперше стане доступним на безплатній стрімінговій платформі завдяки угоді Pluto TV з Warner Bros. TV. Разом із ним на сервісі з&#x27;являться шоу Veronica Mars, The Jamie Foxx Show, Martin та The Wayans Bros.\n\n🔗 <a href=\"https://variety.com/2026/tv/news/two-and-a-half-men-free-streaming-pluto-tv-1236947325/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/tv/news/two-and-a-half-men-free-streaming-pluto-tv-1236947325/",
+    "orig": "‘Two and a Half Men’ Hitting Free Streaming for the First Time via Deal With Pluto TV (EXCLUSIVE)"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10278,9 +10265,9 @@
    1794607470.7708466
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
-   1794547876.3985934,
    1794616296.5765646,
-   1794630779.3382533
+   1794630779.3382533,
+   1794636089.0109932
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
    1794610966.8876688,
@@ -10308,7 +10295,8 @@
    1794621696.9494784
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
-   1794625282.641445
+   1794625282.641445,
+   1794636081.410232
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1794457893.2829862,
@@ -11335,6 +11323,7 @@
   "547d40c3ef40a6bc": 1794330085.6635382,
   "54aa392e7ef595d9": 1793572280.0093975,
   "54ab1d381e32606a": 1793750479.69853,
+  "54be389e3be2abdb": 1794636081.410183,
   "54d9cbc77679af17": 1794340855.1154919,
   "550034fd0ea815d3": 1793696481.2467098,
   "5505da3fa9161bd3": 1793799116.859741,
@@ -11573,7 +11562,6 @@
   "6931c78dfe620acf": 1793725292.6020617,
   "693e8d289d3b73ed": 1794542573.636068,
   "694ff79e8b94a511": 1793642545.237634,
-  "695be059eba9624a": 1793426187.683587,
   "69709db882584435": 1793639142.6312556,
   "6977c286f70598a1": 1793880107.7201939,
   "697a5163ec67ca2c": 1794241881.363532,
@@ -11595,7 +11583,6 @@
   "6b1473eb7f420026": 1794061897.4784827,
   "6b22c012e9ffa57b": 1793907117.8202837,
   "6b40790e89cf0724": 1793903643.8061934,
-  "6b41d156e1c01e6a": 1793426179.8426895,
   "6b4bb8fcd501e8b0": 1793941290.6842377,
   "6b7cc34430a94756": 1793786475.6705563,
   "6b847954f01e4dd0": 1793912454.7085621,
@@ -12343,6 +12330,7 @@
   "a78fc493dec55644": 1794614451.7468662,
   "a796c506984ca25d": 1793941283.948846,
   "a798eddf6b10dbe9": 1793448078.91424,
+  "a7b899ced9981df1": 1794636089.0109465,
   "a7cbabca4f54e4a1": 1793689276.0280428,
   "a7eb5fc032ab0a7a": 1794609079.3628771,
   "a7ecdcb9fbffe67c": 1793527650.2090352,
@@ -14621,7 +14609,7 @@
    "Insider Gaming": 20,
    "Kerrang!": 1,
    "Lambgoat": 23,
-   "Loudwire": 1,
+   "Loudwire": 2,
    "Metal Hammer (Louder)": 17,
    "Metal Injection": 2,
    "Mezha": 37,
@@ -14637,12 +14625,12 @@
    "The Decoder": 17,
    "ThePRP": 9,
    "VGC": 7,
-   "Variety": 29
+   "Variety": 30
   },
   "translators": {
    "DeepL": 37,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 451
+   "gemini-flash-lite-latest": 453
   },
   "week": "2026-W46"
  },
@@ -19155,14 +19143,6 @@
  },
  "titles": [
   [
-   1794463281.6174479,
-   "Alphabet Kicks Off Asia Bond Sale as AI Firms Face Scrutiny"
-  ],
-  [
-   1794463287.9110904,
-   "Lionsgate Acquires Alma Har’el’s ‘Wet’ Starring Connor Storrie, Rebecca Ferguson, Odessa A’zion, Rosalía & Lukas Haas"
-  ],
-  [
    1794465186.4375181,
    "Marvel 1943: Rise of Hydra Is Reportedly 'Close to Done,' Though at the Cost of Cutting Back on Content and Length"
   ],
@@ -19909,17 +19889,17 @@
   [
    1794634305.2953026,
    "The Blood of Dawnwalker is getting a New Game Plus mode in next week's update"
+  ],
+  [
+   1794636081.4101849,
+   "Al Jourgensen Opens up About Ministry's Final Album + Tour"
+  ],
+  [
+   1794636089.0109491,
+   "‘Two and a Half Men’ Hitting Free Streaming for the First Time via Deal With Pluto TV (EXCLUSIVE)"
   ]
  ],
  "titles_uk": [
-  [
-   1794463281.6174493,
-   "Alphabet випустила перші облігації в Гонконзі та Сінгапурі на тлі уваги до ШІ"
-  ],
-  [
-   1794463287.9110916,
-   "Lionsgate придбала права на фільм Wet режисерки Alma Har’el"
-  ],
   [
    1794465186.437519,
    "Marvel 1943: Rise of Hydra майже готова, але розробникам довелося скоротити контент і тривалість"
@@ -20667,6 +20647,14 @@
   [
    1794634305.2953033,
    "The Blood of Dawnwalker отримає режим New Game Plus у наступному оновленні"
+  ],
+  [
+   1794636081.4101858,
+   "Аль Юргенсен розповів про фінальний альбом і тур Ministry"
+  ],
+  [
+   1794636089.0109503,
+   "Two and a Half Men вперше з'явиться на безплатній стрімінговій платформі"
   ]
  ],
  "ukrainian": {
