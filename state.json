@@ -1,7 +1,7 @@
 {
  "alerts": {
   "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
-   "detail": "https://distortedsoundmag.com/feed/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
+   "detail": "https://distortedsoundmag.com/feed/ → HTTPSConnectionPool(host='distortedsoundmag.com', port=443): Read timed out. (read timeout=20)",
    "label": "Джерело «Distorted Sound» не працює",
    "sent": 0,
    "since": 1794612674.880975
@@ -36,82 +36,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-14 05:01 UTC",
+  "at": "2026-11-14 05:31 UTC",
   "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793941287.01044,
-   5129,
-   "🎬",
-   "Чи спричинили проміжні вибори зміни у світовому інформаційному ладі?",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/midterm-elections-tv-ratings-news-nbc-fox-news-1236940743/",
-    "orig": "Did Midterm Elections Cause Changes in News World Order?"
-   }
-  ],
-  [
-   1793941290.683913,
-   5130,
-   "🤘",
-   "Новий альбом гурту Theory Of A Deadman може називатися «Funeral Songs», але робота над ним ще далеко не завершена",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/bands-artists/theory-of-a-deadman-funeral-songs-interview",
-    "orig": "Theory Of A Deadman's new record may be called Funeral Songs, but they're far from finished"
-   }
-  ],
-  [
-   1793941294.7265162,
-   5131,
-   "🎬",
-   "Джейн Фонда «навіть не наважувалася уявити» «синій цунамі» демократів: «Ми маємо зупинити те, що погане, і боротися за те, що добре»",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/politics/columns/jane-fonda-democrats-blue-tsunami-wave-midterm-election-1236941027/",
-    "orig": "Jane Fonda ‘Didn’t Dare Imagine’ Democrats’ Blue Tsunami: ‘We Have to Block What’s Bad and Fight For What’s Good’"
-   }
-  ],
-  [
-   1793943082.0946,
-   5132,
-   "🤖",
-   "Індійські акції стають привабливішими як «безпечний притулок», оскільки інвестори відмовляються від торгівлі, пов’язаної зі штучним інтелектом",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-06/indian-stocks-gain-haven-appeal-as-investors-flee-ai-trade",
-    "orig": "Indian Stocks Gain Haven Appeal as Investors Flee AI Trade"
-   }
-  ],
-  [
-   1793943087.6664073,
-   5133,
-   "🎮",
-   "Саудівська Аравія володіє компанією EA, і, згідно з повідомленням агентства Reuters, наступною на черзі є Unity",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/gaming-industry/saudi-arabia-owns-ea-and-according-to-a-reuters-report-unity-is-next/",
-    "orig": "Saudi Arabia owns EA, and according to a Reuters report, Unity is next"
-   }
-  ],
   [
    1793944878.3851879,
    5134,
@@ -9307,7 +9242,6 @@
    "VGC",
    {
     "also": [],
-    "caption": "🎮 <b>Fanatical запустила бандл ігор для <a href=\"https://store.steampowered.com/app/1675200/\">Steam Deck</a> зі знижками</b>\n\nМагазин Fanatical представив новий бандл Build Your Own: Play on the Go Elite Collection, що містить 20 ігор із перевіркою для Steam Deck. Користувачі можуть самостійно обирати від двох до двадцяти проєктів, знижуючи вартість кожного при збільшенні їхньої кількості. До добірки увійшли High on Life, Lonely Mountains: Snow Riders, Immortality та The Elder Scrolls Online Deluxe Collection: Necrom.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/fanaticals-new-play-on-the-go-deal-lets-your-build-your-own-bundle-of-steam-deck-verified-games/\">VGC</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/news/fanaticals-new-play-on-the-go-deal-lets-your-build-your-own-bundle-of-steam-deck-verified-games/",
     "orig": "Fanatical’s new Play on the Go deal lets your build your own bundle of Steam Deck verified games"
@@ -9321,7 +9255,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🤖 <b>Назвав себе шматком лайна: Дженсен Хуанг важко сприйняв звільнення з NVIDIA</b>\n\nЗа інформацією Bloomberg співзасновник та колишній гендиректор NVIDIA Дженсен Хуанг важко сприйняв звільнення на тлі скандалів навколо його позашлюбних зв’язків.\n\n🔗 <a href=\"https://itc.ua/ua/novini/nazvav-sebe-shmatkom-lajna-dzhensen-huang-vazhko-spryjnyav-zvilnennya-z-nvidia/\">ITC.ua</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/nazvav-sebe-shmatkom-lajna-dzhensen-huang-vazhko-spryjnyav-zvilnennya-z-nvidia/",
     "orig": "Назвав себе шматком лайна: Дженсен Хуанг важко сприйняв звільнення з NVIDIA"
@@ -9880,7 +9813,12 @@
    "Atlas випустили новий сингл Sex Magic Eclipse",
    "Lambgoat",
    {
-    "also": [],
+    "also": [
+     [
+      "ThePRP",
+      "https://www.theprp.com/2026/11/13/news/atlas-premiere-their-new-single-sex-magic-eclipse/"
+     ]
+    ],
     "caption": "🤘 <b>Atlas випустили новий сингл Sex Magic Eclipse</b>\n\n🔗 <a href=\"https://lambgoat.com/news/55894/atlas-premiere-music-video-for-new-single-sex-magic-eclipse/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55894/atlas-premiere-music-video-for-new-single-sex-magic-eclipse/",
@@ -10152,6 +10090,34 @@
     "link": "https://deadline.com/2026/11/ari-emanuel-blames-faa-issues-pete-buttigieg-1237223687/",
     "orig": "Ari Emanuel Blames FAA Issues On Pete Buttigieg: “You Left A Failing System In Place”"
    }
+  ],
+  [
+   1794634298.6206105,
+   5903,
+   "🎮",
+   "Світловий меч Дарта Вейдера продали за рекордні $4,875 млн",
+   "PlayUA",
+   {
+    "also": [],
+    "caption": "🎮 <b>Світловий меч Дарта Вейдера продали за рекордні $4,875 млн</b>\n\nСвітловий меч Дарта Вейдера з фільму «Зоряні війни. Епізод V: Імперія завдає удару у відповідь» продали за 4,875 млн доларів на аукціоні Heritage Auctions. Ця сума стала рекордною для предметів, пов’язаних із франшизою «Зоряні війни», які коли-небудь виставляли на відкриті торги. Як повідомляє The Hollywood Reporter, проданий реквізит використовували під час зйомок п’ятого епізоду кіносаги. […]\n\n🔗 <a href=\"https://playua.net/svitlovyj-mech-darta-vejdera-prodaly-za-rekordni-4875-mln/\">PlayUA</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://playua.net/svitlovyj-mech-darta-vejdera-prodaly-za-rekordni-4875-mln/",
+    "orig": "Світловий меч Дарта Вейдера продали за рекордні $4,875 млн"
+   }
+  ],
+  [
+   1794634305.295129,
+   5904,
+   "🎮",
+   "The Blood of Dawnwalker отримає режим New Game Plus у наступному оновленні",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>The Blood of Dawnwalker отримає режим New Game Plus у наступному оновленні</b>\n\nРежим New Game Plus з&#x27;явиться у вампірській RPG The Blood of Dawnwalker уже наступного тижня\n\n🔗 <a href=\"https://www.eurogamer.net/blood-of-dawnwalker-new-game-plus\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/blood-of-dawnwalker-new-game-plus",
+    "orig": "The Blood of Dawnwalker is getting a New Game Plus mode in next week's update"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10207,9 +10173,7 @@
    1793813559.2223816
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1794407562.5904303,
-   1794482969.9524834,
-   1794488672.1793914
+   1794634305.29535
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1794564088.5962489
@@ -10243,7 +10207,8 @@
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1794556880.553954,
-   1794580287.2614644
+   1794580287.2614644,
+   1794634298.6208632
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
    1794551489.744502,
@@ -11264,6 +11229,7 @@
   "4c8cf793b7e99f74": 1793703655.7485986,
   "4c9c40bbfb2a5fbb": 1793878258.231417,
   "4c9d05fa09c21b12": 1793802734.1699033,
+  "4cb0ce66c92778cb": 1794634298.6207952,
   "4cb6efcf5b90573b": 1793903633.6380222,
   "4cd881b2588872fc": 1794632474.2095976,
   "4ceb3c3cf5ce5be6": 1793478681.5249367,
@@ -11543,6 +11509,7 @@
   "63f3d769468dc455": 1793637106.0465386,
   "640605731e029679": 1794297879.132297,
   "641b542c5b48bfb8": 1794434589.9613547,
+  "642009db7497a736": 1794634296.9431808,
   "6422660382c1590f": 1793638877.7220113,
   "6425a06d9ec7e297": 1794371498.1182091,
   "6426decba2ef7b96": 1794124996.0740135,
@@ -11623,6 +11590,7 @@
   "6a86af37165ac791": 1794411074.2185235,
   "6a8af45f5074e1c1": 1794047490.51162,
   "6aba2f0e414f9e04": 1793642547.6896386,
+  "6abd2f5eef76c8b8": 1794634255.263127,
   "6ad3b63ac5f73385": 1794580255.5600233,
   "6b1473eb7f420026": 1794061897.4784827,
   "6b22c012e9ffa57b": 1793907117.8202837,
@@ -11829,6 +11797,7 @@
   "7917cf245ef030a4": 1793898229.9584515,
   "791944c93c3a2649": 1793786482.999139,
   "799aa7fd4a6e756a": 1793696453.714617,
+  "799baede4d49ee43": 1794634255.263127,
   "79b06dc5892f7b14": 1794072652.3176856,
   "79b8a6a025616032": 1793622673.6256464,
   "79d39a59a3c130fb": 1794607470.770798,
@@ -11906,11 +11875,11 @@
   "80183508472d4f7c": 1794047078.7009654,
   "80542f3fe60a2c67": 1793720446.2484384,
   "805434c7976f3d30": 1793833279.0000412,
+  "8096d0c63c292e0b": 1794634305.2953007,
   "809dd9fe0be28f66": 1793637058.4404707,
   "80db25dc396c0461": 1793892655.141962,
   "80dea0e246e0c9d2": 1794099675.8191545,
   "80f6804ec58cab81": 1794403883.9132445,
-  "81090fe21ce7330a": 1793424676.7619402,
   "810d7f870a467074": 1793808081.7077937,
   "811010a56774957b": 1794414658.7033095,
   "812101c073fb0cc1": 1793827903.2830946,
@@ -11995,6 +11964,7 @@
   "87da6a6ac6a8b0ae": 1793966494.7048624,
   "87f86189a03e3aa5": 1793725370.4374797,
   "87f8ddd930380cdd": 1794112278.9359908,
+  "881debcf1a1d3952": 1794634255.263127,
   "883f640a6c833459": 1793880053.6176856,
   "8840c180a5ce48c6": 1793988056.3209734,
   "8845e2086549ec91": 1793649854.898565,
@@ -12897,6 +12867,7 @@
   "d54afa0ec07d8296": 1793646123.454455,
   "d568bb29f3cea4ba": 1793905336.4455938,
   "d570f98e83a6ca58": 1793817151.3548534,
+  "d57491b05c6fbe3b": 1794634296.9440062,
   "d576ff8f3cdbe735": 1793881929.327521,
   "d592869aab9003e8": 1793817162.1902502,
   "d594bf9977987887": 1793444574.6376414,
@@ -14623,7 +14594,7 @@
    "Metal Hammer (Louder)": 2,
    "PC Gamer": 3,
    "Pitchfork": 1,
-   "Polygon": 52,
+   "Polygon": 55,
    "Revolver": 1,
    "SteamDB": 1,
    "The Decoder": 2,
@@ -14639,7 +14610,7 @@
    "DOU Gamedev": 3,
    "Deadline": 80,
    "Distorted Sound": 5,
-   "Eurogamer": 10,
+   "Eurogamer": 11,
    "GameSpot": 1,
    "GamesIndustry.biz": 7,
    "GitHub Trending": 20,
@@ -14657,7 +14628,7 @@
    "Neformat": 13,
    "PC Gamer": 16,
    "Pitchfork": 3,
-   "PlayUA": 7,
+   "PlayUA": 8,
    "Polygon": 27,
    "Product Hunt": 5,
    "Rock Paper Shotgun": 10,
@@ -14671,7 +14642,7 @@
   "translators": {
    "DeepL": 37,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 450
+   "gemini-flash-lite-latest": 451
   },
   "week": "2026-W46"
  },
@@ -15641,6 +15612,11 @@
    "",
    1794535284.5171976
   ],
+  "q:875": [
+   0,
+   "",
+   1794634297.6947103
+  ],
   "q:90": [
    3070650,
    "群島物語 - 實習鍊金術士的 90 天之旅",
@@ -15981,10 +15957,20 @@
    "",
    1794629073.2790637
   ],
+  "q:blood": [
+   0,
+   "",
+   1794634301.273603
+  ],
   "q:blood and ice": [
    455320,
    "Blood and Ice",
    1793541751.437324
+  ],
+  "q:blood of dawnwalker": [
+   0,
+   "",
+   1794634300.7438498
   ],
   "q:blue archive": [
    3557620,
@@ -16340,6 +16326,11 @@
    2201320,
    "Date Everything!",
    1793914293.2013562
+  ],
+  "q:dawnwalker": [
+   0,
+   "",
+   1794634301.7972944
   ],
   "q:days gone": [
    1259420,
@@ -16860,6 +16851,11 @@
    208730,
    "Game of Thrones",
    1792295994.145245
+  ],
+  "q:game plus": [
+   0,
+   "",
+   1794634302.9263341
   ],
   "q:game world": [
    5061320,
@@ -17681,6 +17677,11 @@
    "",
    1794571280.8621292
   ],
+  "q:new game plus": [
+   0,
+   "",
+   1794634302.3757772
+  ],
   "q:new wolfenstein": [
    0,
    "",
@@ -17945,6 +17946,11 @@
    0,
    "",
    1794582085.0073566
+  ],
+  "q:plus": [
+   0,
+   "",
+   1794634303.5200124
   ],
   "q:pocketpair": [
    0,
@@ -19149,14 +19155,6 @@
  },
  "titles": [
   [
-   1794461483.0767,
-   "Denis Villeneuve Shares Update On James Bond Casting: “I Am Pushing The Gas”"
-  ],
-  [
-   1794461486.1653528,
-   "Bullet For My Valentine & Lorna Shore’s Will Ramos Debut “I Don’t Trust Tomorrow” Video"
-  ],
-  [
    1794463281.6174479,
    "Alphabet Kicks Off Asia Bond Sale as AI Firms Face Scrutiny"
   ],
@@ -19903,17 +19901,17 @@
   [
    1794632478.5518885,
    "Ari Emanuel Blames FAA Issues On Pete Buttigieg: “You Left A Failing System In Place”"
+  ],
+  [
+   1794634298.6207974,
+   "Світловий меч Дарта Вейдера продали за рекордні $4,875 млн"
+  ],
+  [
+   1794634305.2953026,
+   "The Blood of Dawnwalker is getting a New Game Plus mode in next week's update"
   ]
  ],
  "titles_uk": [
-  [
-   1794461483.0767007,
-   "Дені Вільнев поділився новинами про кастинг нового James Bond"
-  ],
-  [
-   1794461486.1653535,
-   "Bullet For My Valentine і Вілл Рамос випустили кліп на трек «I Don’t Trust Tomorrow»"
-  ],
   [
    1794463281.6174493,
    "Alphabet випустила перші облігації в Гонконзі та Сінгапурі на тлі уваги до ШІ"
@@ -20661,6 +20659,14 @@
   [
    1794632478.5518892,
    "Арі Емануель звинуватив Піта Буттіджича в проблемах FAA: «Ви залишили систему, що руйнується»"
+  ],
+  [
+   1794634298.6207983,
+   "Світловий меч Дарта Вейдера продали за рекордні $4,875 млн"
+  ],
+  [
+   1794634305.2953033,
+   "The Blood of Dawnwalker отримає режим New Game Plus у наступному оновленні"
   ]
  ],
  "ukrainian": {
@@ -23043,7 +23049,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794629083.7429676,
+  "last_check": 1794634314.312116,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
