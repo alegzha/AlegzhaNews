@@ -36,43 +36,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-14 07:01 UTC",
-  "gemini_error": "",
+  "at": "2026-11-14 07:34 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793949380.8961556,
-   5144,
-   "🤖",
-   "Паніка через ШІ охопила фондові ринки США та Азії: Nasdaq втратив $2,3 трлн, а Kospi обвалився на 8,8%",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/poboyuvannya-shchodo-shi-obvalili-nasdaq-na-2-3-trln-i-sprovokuvali-rozprodazh-akciy-v-aziji-316938/",
-    "orig": "Паніка через ШІ охопила фондові ринки США та Азії: Nasdaq втратив $2,3 трлн, а Kospi обвалився на 8,8%"
-   }
-  ],
-  [
-   1793950285.4025447,
-   5145,
-   "🎬",
-   "У Тайвані відкрився фестиваль TCCF із акцентом на IP, копродукцію та держпідтримку",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/taiwan-creative-content-fest-taicca-weta-1237215199/",
-    "orig": "Taiwan Creative Content Fest Opens With Focus On IP, Co-Production & Pledges Of Government Support"
-   }
-  ],
   [
    1793952452.3160076,
    5146,
@@ -9216,7 +9190,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>X дозволив публікувати до 20 медіафайлів в одному дописі</b>\n\nСоцмережа X скасувала давнє обмеження на кількість медіафайлів, які можна було додавати до одного допису: якщо раніше дозволялось не більше чотирьох, то нині ліміт збільшили вп&#x27;ятеро – до 20 фото і відео. Нова функція вже доступна у вебверсії й поступово з&#x27;являється на iOS та Android, якщо ви не бачите змін – спробуйте оновити застосунок.\n\n🔗 <a href=\"https://mezha.ua/news/x-raises-post-media-limit-317194/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/x-raises-post-media-limit-317194/",
     "orig": "X дозволив публікувати до 20 медіафайлів в одному дописі"
@@ -9230,7 +9203,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>Новий пошук Windows 11 дозволяє змінювати системні налаштування без відкриття програми</b>\n\nПісля пошуку системних налаштувань у Windows 11 зазвичай необхідно перейти у програму “Налаштування”. Нова тестова збірка Windows дозволяє пропускати цей крок.\n\n🔗 <a href=\"https://mezha.ua/news/noviy-poshuk-windows-11-317206/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/noviy-poshuk-windows-11-317206/",
     "orig": "Новий пошук Windows 11 дозволяє змінювати системні налаштування без відкриття програми"
@@ -10066,6 +10038,34 @@
     "link": "https://www.polygon.com/fallout-5-fo3-remaster-new-games-bethesda-softworks/",
     "orig": "Fallout 5 and Fallout Remasters Officially Announced"
    }
+  ],
+  [
+   1794641656.7548468,
+   5911,
+   "🤖",
+   "Білий дім закликає послабити відповідальність заради безпеки ШІ",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Білий дім закликає послабити відповідальність заради безпеки ШІ</b>\n\nНа зустрічі в Білому домі посадовці рекомендували спростити правила кібервідповідальності задля безпеки ШІ\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-14/white-house-urges-easing-liability-to-encourage-ai-disclosure\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-14/white-house-urges-easing-liability-to-encourage-ai-disclosure",
+    "orig": "White House Urges Easing Liability to Encourage AI Disclosure"
+   }
+  ],
+  [
+   1794641660.5048902,
+   5912,
+   "💾",
+   "Alibaba відкрила вихідний код ШІ-інструмента для рев'ю коду Open Code Review",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>Alibaba відкрила вихідний код ШІ-інструмента для рев&#x27;ю коду Open Code Review</b>\n\nAlibaba Group випустила у відкритий доступ Open Code Review — ШІ-інструмент командного рядка для глибокого аналізу коду. Утиліта читає Git diff, аналізує повні файли та шукає дефекти за допомогою налаштовуваної LLM. Порівняно з універсальними агентами, проєкт забезпечує вищу точність, споживаючи вдев&#x27;ятеро менше токенів.\n\n🔗 <a href=\"https://github.com/alibaba/open-code-review\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/alibaba/open-code-review",
+    "orig": "alibaba/open-code-review"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10073,12 +10073,12 @@
    1794502965.8877752
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1794553378.846296,
    1794587487.646851,
    1794587490.763029,
    1794594684.574402,
    1794596574.106983,
-   1794598371.8116753
+   1794598371.8116753,
+   1794641656.7550848
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1794568315.9647284,
@@ -10312,7 +10312,8 @@
    1794565879.9856575,
    1794567703.8834987,
    1794568367.1634672,
-   1794569525.337225
+   1794569525.337225,
+   1794641660.5051203
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1794591222.274497,
@@ -11595,6 +11596,7 @@
   "6e4ee01b0ba9380d": 1794094472.0260727,
   "6e6bafa600b14443": 1793896256.7747672,
   "6e9238f921a755bc": 1793460703.6633193,
+  "6ea89312432564a4": 1794641656.7550395,
   "6eaa64434e8db0c7": 1793876914.6332395,
   "6eb32b0851601da7": 1794409253.592725,
   "6ebc1ab9a09902c2": 1793743256.1613154,
@@ -11705,7 +11707,6 @@
   "7636cc795b841c4c": 1793876559.4269843,
   "76402fd6dd062bfa": 1793642538.3174148,
   "76551f2a2e3ecbd5": 1793694799.2027638,
-  "76608378b6647553": 1793430327.8394961,
   "767c099fae08452a": 1794582059.4334304,
   "76bb8ee3cb627559": 1794355282.8404045,
   "76cc28958da88938": 1793674844.1386662,
@@ -13093,7 +13094,6 @@
   "ecb529168cece5c3": 1793728861.050268,
   "ecc32be386b3f7fb": 1794623485.5717816,
   "ecddc21aefcfd385": 1794639695.051407,
-  "ecfb97f4531b1d15": 1793430232.4972064,
   "ecfe36af39a1f0bf": 1794056451.8977742,
   "ed038a90db45bed4": 1793644380.0670712,
   "ed0ab85c020e6bc2": 1793874752.400368,
@@ -13209,6 +13209,7 @@
   "f7b75b2901deecc1": 1794290493.7624779,
   "f7c24ffe7055f885": 1794288688.7639577,
   "f7c4bc55872d53b0": 1793716285.2672915,
+  "f7cfdfd7bcc39abd": 1794641660.5050795,
   "f7dd0f3bacb35fde": 1794360706.8185656,
   "f7dfba137cf6e7fc": 1794387773.8866594,
   "f7e4825a3d5eac15": 1793899880.6701646,
@@ -14555,7 +14556,7 @@
    "/Film": 17,
    "AIN.ua": 6,
    "Blabbermouth": 8,
-   "Bloomberg": 36,
+   "Bloomberg": 37,
    "DOU": 8,
    "DOU Gamedev": 3,
    "Deadline": 81,
@@ -14563,7 +14564,7 @@
    "Eurogamer": 11,
    "GameSpot": 1,
    "GamesIndustry.biz": 7,
-   "GitHub Trending": 20,
+   "GitHub Trending": 21,
    "Hugging Face": 6,
    "IGN": 11,
    "ITC.ua": 36,
@@ -14592,7 +14593,7 @@
   "translators": {
    "DeepL": 37,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 457
+   "gemini-flash-lite-latest": 460
   },
   "week": "2026-W46"
  },
@@ -19175,22 +19176,6 @@
  },
  "titles": [
   [
-   1794466916.2196877,
-   "Beck Bennett To Star In Ski Resort Comedy In Works At FX, In Reunion With ‘SNL’ Duo Anna Drezen & Paul Briganti"
-  ],
-  [
-   1794466941.6055055,
-   "0 Miles Per Hour van broken into in Portland, OR while on tour with A Sky So Black"
-  ],
-  [
-   1794468723.2386153,
-   "Skydance Co-CEO Ynon Kreiz Spotlights “Moral Responsibility” + Combating Antisemitism & Injustice In Simon Wiesenthal Gala Speech"
-  ],
-  [
-   1794468725.5863593,
-   "На 80% швидше завантаження застосунків на старті Windows 11: просте налаштування зменшує затримки"
-  ],
-  [
    1794470490.425544,
    "Витік розкрив новий проєкт, пов’язаний із Mega Man Legends"
   ],
@@ -19937,25 +19922,17 @@
   [
    1794639707.4883125,
    "Fallout 5 and Fallout Remasters Officially Announced"
+  ],
+  [
+   1794641656.755041,
+   "White House Urges Easing Liability to Encourage AI Disclosure"
+  ],
+  [
+   1794641660.5050812,
+   "alibaba/open-code-review"
   ]
  ],
  "titles_uk": [
-  [
-   1794466916.2196887,
-   "Бек Беннетт зітід у комедії про гірськолижний курорт від FX"
-  ],
-  [
-   1794466941.6055067,
-   "Фургон гурту 0 Miles Per Hour обікрали в Портленді під час туру з A Sky So Black"
-  ],
-  [
-   1794468723.2386162,
-   "Інон Крейз виступив на гала-вечері Simon Wiesenthal Center із промовою про боротьбу з антисемітизмом"
-  ],
-  [
-   1794468725.58636,
-   "На 80% швидше завантаження застосунків на старті Windows 11: просте налаштування зменшує затримки"
-  ],
   [
    1794470490.4255447,
    "Витік розкрив новий проєкт, пов’язаний із Mega Man Legends"
@@ -20703,6 +20680,14 @@
   [
    1794639707.488314,
    "Bethesda анонсувала Fallout 5 та ремастери Fallout 3 і Fallout: New Vegas"
+  ],
+  [
+   1794641656.755042,
+   "Білий дім закликає послабити відповідальність заради безпеки ШІ"
+  ],
+  [
+   1794641660.5050821,
+   "Alibaba відкрила вихідний код ШІ-інструмента для рев'ю коду Open Code Review"
   ]
  ],
  "ukrainian": {
@@ -23085,7 +23070,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794637892.476949,
+  "last_check": 1794641669.6501117,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
