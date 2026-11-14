@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1794657677.3087082
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1794657676.32488
+  }
+ },
  "daily_digest_date": "2026-11-13",
  "freebies": {
   "last_check": 1794654197.9015577,
@@ -40,32 +53,6 @@
   ]
  },
  "post_log": [
-  [
-   1793964692.9996524,
-   5162,
-   "🎬",
-   "Книгу про роботу з легендарним детективом L.A. адаптують для телебачення",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/jigsaw-john-jane-howatt-la-detective-project-in-works-1237215304/",
-    "orig": "Story Of Woman Who Shadowed Top L.A. Detective Jigsaw John Optioned For TV By UK Indie"
-   }
-  ],
-  [
-   1793964698.3970969,
-   5163,
-   "🤖",
-   "Вплив ШІ на фінансові ринки став очевидним під час падіння",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/newsletters/2026-11-06/ai-s-grip-on-financial-markets-was-never-clearer-on-the-way-down",
-    "orig": "AI’s Grip on Financial Markets Was Never Clearer on the Way Down"
-   }
-  ],
   [
    1793966491.9678857,
    5164,
@@ -9186,7 +9173,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Kingdom of Giants випустили кліп на трек Past Life та новий альбом Usurper</b>\n\nГурт Kingdom of Giants презентував офіційний кліп на сингл «Past Life» із нового альбому «Usurper», який вийшов на лейблі SharpTone Records. Також колектив розпочинає північноамериканський тур за участю Deadlands, Holy Wars і Night Rider.\n\n🔗 <a href=\"https://lambgoat.com/news/55892/kingdom-of-giants-premiere-past-life-music-video/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55892/kingdom-of-giants-premiere-past-life-music-video/",
     "orig": "Kingdom of Giants premiere \"Past Life\" music video"
@@ -10041,6 +10027,20 @@
     "link": "https://www.pcgamer.com/games/action/indiana-jones-and-the-great-circle-once-had-a-grand-theft-auto-inspired-wanted-system-because-machinegames-was-afraid-players-would-kill-all-the-nazis-with-just-guns/",
     "orig": "Indiana Jones and the Great Circle once had a Grand Theft Auto inspired wanted system, because MachineGames was 'afraid' players would kill all the Nazis 'with just guns'"
    }
+  ],
+  [
+   1794657687.3124342,
+   5928,
+   "🎮",
+   "Магія проти лазерів. Огляд ігор Wielders of the Essence та Warhammer Survivors",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🎮 <b>Магія проти лазерів. Огляд ігор <a href=\"https://store.steampowered.com/app/3546610/\">Wielders of the Essence</a> та <a href=\"https://store.steampowered.com/app/3669620/\">Warhammer Survivors</a></b>\n\nЯкщо ви вважали, що бум ігор у жанрі survivors-like ака bullet heaven вже пройшов, то ви помиляєтеся. Буквально протягом тижня вийшло ще два цікавих проєкти у цьому дусі – Wielders of the Essence від студії Lavapotion та Warhammer Survivors від Auroch Digital\n\n🔗 <a href=\"https://mezha.ua/reviews/oglyad-igor-wielders-of-the-essence-ta-warhammer-survivors-317202/\">Mezha</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://mezha.ua/reviews/oglyad-igor-wielders-of-the-essence-ta-warhammer-survivors-317202/",
+    "orig": "Магія проти лазерів. Огляд ігор Wielders of the Essence та Warhammer Survivors"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10122,7 +10122,7 @@
    1794629074.8660595
   ],
   "games|Mezha|https://mezha.ua/feed/": [
-   1794547873.2127151
+   1794657687.3126683
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1794583895.2487628,
@@ -10306,6 +10306,7 @@
  "seen": {
   "00164db7041842f0": 1794099685.654394,
   "002b0486b2419a9f": 1794439897.0970998,
+  "0032a0e84465878b": 1794657687.3126094,
   "003d54f4d366367a": 1793721992.3491292,
   "003df62bf51a6f7a": 1793732520.1529908,
   "004b7a3f5aa03bff": 1794313874.3753316,
@@ -10317,7 +10318,6 @@
   "00beee23d2986191": 1793629915.966581,
   "00e817c76e37f52f": 1794231085.9686391,
   "00f9839cfa634fa4": 1794254454.641067,
-  "00fca79105b141ef": 1793448054.1956563,
   "00fe6f61a20100a7": 1793844099.616388,
   "012e35da599c0051": 1794499279.9660673,
   "01406d352d89809f": 1793723600.2293522,
@@ -10954,7 +10954,6 @@
   "395a0157127825f3": 1794625282.6414,
   "395ca2061d3bc456": 1793878289.9886367,
   "39c34f7a0914636f": 1794252654.4309437,
-  "39edf80df04406b8": 1793448086.4381962,
   "3a28b6857e1c43e9": 1793651452.7271295,
   "3a3521afc2daf7d8": 1793907094.828857,
   "3a3638e6ea188d3f": 1793892680.764708,
@@ -11491,7 +11490,6 @@
   "6902d19fb6a81565": 1793711002.6699135,
   "692617833aad1b71": 1794492082.919936,
   "692868a307cd52d5": 1793923274.5150125,
-  "692d0d02ca08fbcc": 1793448054.1956563,
   "6931c78dfe620acf": 1793725292.6020617,
   "693e8d289d3b73ed": 1794542573.636068,
   "694ff79e8b94a511": 1793642545.237634,
@@ -11832,7 +11830,6 @@
   "82da43c404ae6738": 1793558003.142297,
   "82daf9e9c378eff7": 1793651474.2692106,
   "82efcffd91b518e1": 1793705588.2606974,
-  "82fd3bf7d98608db": 1793448054.1956563,
   "83006f94f1a5f32f": 1793890882.1479006,
   "83186b0550e5f2fc": 1794556877.7875981,
   "8330eb8c164f81ec": 1793464271.2149193,
@@ -12151,7 +12148,6 @@
   "9d41906a31411e84": 1794495683.6190026,
   "9d4221b6523a9758": 1794528082.917809,
   "9d6171fb3c746cf7": 1794430855.13756,
-  "9d73839645e96898": 1793448088.5229383,
   "9e085a255c73df4d": 1794268881.4913025,
   "9e0a28fb70f0cc3f": 1793640883.307255,
   "9e14b9836b8a50ec": 1793613708.356179,
@@ -12257,7 +12253,6 @@
   "a76bd5a702717db5": 1794110475.7236583,
   "a78fc493dec55644": 1794614451.7468662,
   "a796c506984ca25d": 1793941283.948846,
-  "a798eddf6b10dbe9": 1793448078.91424,
   "a7b899ced9981df1": 1794636089.0109465,
   "a7cbabca4f54e4a1": 1793689276.0280428,
   "a7eb5fc032ab0a7a": 1794609079.3628771,
@@ -12427,7 +12422,6 @@
   "b4d214e3f6b5e91a": 1793655087.710369,
   "b5419a6793fed1ff": 1793545252.091723,
   "b5539d7160646797": 1793736114.167941,
-  "b5a284f285d1d93b": 1793448082.4707842,
   "b5b9da2359e07ed7": 1793802679.4506247,
   "b6058558c0e5bec3": 1794542572.18445,
   "b62df3d19da62723": 1794204179.8684347,
@@ -12545,6 +12539,7 @@
   "c0c11a847eb68103": 1794448886.3390272,
   "c0ecd6d3439523f9": 1794011585.384639,
   "c0fb60c327e3d7ce": 1793656888.6909146,
+  "c114542661967976": 1794657664.8976924,
   "c13d15d55ac0e59c": 1793854967.5575988,
   "c141019d47f37a4f": 1793878258.231417,
   "c1470f580db41f85": 1794330058.4836624,
@@ -14518,7 +14513,7 @@
    "SteamDB": 1,
    "The Decoder": 2,
    "VGC": 9,
-   "Variety": 10
+   "Variety": 11
   },
   "sources": {
    "/Film": 17,
@@ -14543,7 +14538,7 @@
    "Loudwire": 2,
    "Metal Hammer (Louder)": 18,
    "Metal Injection": 2,
-   "Mezha": 37,
+   "Mezha": 38,
    "Neformat": 13,
    "PC Gamer": 18,
    "Pitchfork": 3,
@@ -18601,11 +18596,6 @@
    "",
    1794484885.2381706
   ],
-  "q:thq nordic": [
-   0,
-   "",
-   1794484884.7446249
-  ],
   "q:tomb raider 4 6 remastered": [
    2525380,
    "Tomb Raider IV-VI Remastered",
@@ -18811,6 +18801,21 @@
    "Wick",
    1793989879.2923725
   ],
+  "q:wielders of the essence": [
+   3546610,
+   "Wielders of the Essence",
+   1794657686.76229
+  ],
+  "q:wielders of the essence warhammer": [
+   0,
+   "",
+   1794657686.1754804
+  ],
+  "q:wielders of the essence warhammer survivors": [
+   0,
+   "",
+   1794657685.7106192
+  ],
   "q:wildcard": [
    4590570,
    "Wildcard",
@@ -19008,14 +19013,6 @@
   ]
  },
  "titles": [
-  [
-   1794483134.7948625,
-   "BBC Boss Matt Brittin & Industry Leaders Set To Attend Culture Secretary’s Emergency Meeting Next Week Following Brand & Walliams Scandals"
-  ],
-  [
-   1794484882.686052,
-   "Нова «Афера Томаса Крауна» несподівано перетнулася з фільмом 1999 року"
-  ],
   [
    1794484988.2377076,
    "Black Forest Games spins out from THQ Nordic, co-founds indie studio group Third Signal"
@@ -19759,17 +19756,13 @@
   [
    1794655885.1691747,
    "Indiana Jones and the Great Circle once had a Grand Theft Auto inspired wanted system, because MachineGames was 'afraid' players would kill all the Nazis 'with just guns'"
+  ],
+  [
+   1794657687.3126109,
+   "Магія проти лазерів. Огляд ігор Wielders of the Essence та Warhammer Survivors"
   ]
  ],
  "titles_uk": [
-  [
-   1794483134.7948635,
-   "Голова BBC та лідери індустрії відвідають екстрену зустріч через скандали"
-  ],
-  [
-   1794484882.6860528,
-   "Нова «Афера Томаса Крауна» несподівано перетнулася з фільмом 1999 року"
-  ],
   [
    1794484988.2377086,
    "Black Forest Games відокремилася від THQ Nordic і створила групу інді-студій Third Signal"
@@ -20513,6 +20506,10 @@
   [
    1794655885.1691754,
    "Indiana Jones and the Great Circle мав розшук у стилі GTA"
+  ],
+  [
+   1794657687.3126118,
+   "Магія проти лазерів. Огляд ігор Wielders of the Essence та Warhammer Survivors"
   ]
  ],
  "ukrainian": {
@@ -22895,7 +22892,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794652410.8055687,
+  "last_check": 1794657695.4599516,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
