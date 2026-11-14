@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1794657677.3087082
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1794657676.32488
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-13",
  "freebies": {
   "last_check": 1794654197.9015577,
@@ -42,56 +29,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-14 11:31 UTC",
+  "at": "2026-11-14 12:31 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793966491.9678857,
-   5164,
-   "🤖",
-   "Shield AI домовилася купити виробника радарів для протидії дронам Echodyne за $5,3 млрд",
-   "AIN.ua",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://ain.ua/2026/11/06/shield-ai-domovilasia-kupiti-virobnika-radariv-dlia-protidiyi-dronam-echodyne-za-53-mlrd/",
-    "orig": "Shield AI домовилася купити виробника радарів для протидії дронам Echodyne за $5,3 млрд"
-   }
-  ],
-  [
-   1793966494.7044747,
-   5165,
-   "🤖",
-   "НБУ створює ШІ-агентів, які імітуватимуть українців для прогнозування інфляційних очікувань",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/ukraine-s-central-bank-ai-agents-316955/",
-    "orig": "НБУ створює ШІ-агентів, які імітуватимуть українців для прогнозування інфляційних очікувань"
-   }
-  ],
-  [
-   1793968290.369792,
-   5166,
-   "🤖",
-   "Ваш домашній банкір: Anthropic запускає фінансового помічника на базі Claude",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://highload.tech/uk/vash-domashnij-bankir-anthropic-zapuskaye-finansovogo-pomichnyka-na-bazi-claude/#new_tab",
-    "orig": "Ваш домашній банкір: Anthropic запускає фінансового помічника на базі Claude"
-   }
-  ],
   [
    1793970105.856307,
    5167,
@@ -9186,7 +9134,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Sony запускає потужну кампанію за «Оскар» для Spider-Man</b>\n\nЕКСКЛЮЗИВ: Оскаре, стережись! Людина-павук прагне привернути твою увагу. Фільм «Людина-павук: Новий день» від Sony Pictures і Marvel готується розпочати масштабну кампанію, щоб поборотися за місце в номінації «Найкращий фільм» на 99-й щорічній церемонії вручення премії «Оскар». Чи зможе фільм, який став найкасовішим не лише цього року, а й за всю історію […]\n\n🔗 <a href=\"https://deadline.com/2026/11/spider-man-brand-new-day-oscar-campaign-1237221729/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/spider-man-brand-new-day-oscar-campaign-1237221729/",
     "orig": "Sony’s Tom Rothman Hopes It Will Be A ‘Brand New Day’ For ‘Spider-Man’ As Studio Launches Major Best Picture Oscar Campaign: “Are You Telling Me There Are 10 Films Better Than This One?”"
@@ -10041,6 +9988,20 @@
     "link": "https://mezha.ua/reviews/oglyad-igor-wielders-of-the-essence-ta-warhammer-survivors-317202/",
     "orig": "Магія проти лазерів. Огляд ігор Wielders of the Essence та Warhammer Survivors"
    }
+  ],
+  [
+   1794659494.4704392,
+   5929,
+   "🎮",
+   "Ubisoft розробляє нову частину Rainbow Six Vegas",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Ubisoft розробляє нову частину Rainbow Six Vegas</b>\n\nКомпанія Ubisoft Montreal працює над новою грою серії Rainbow Six Vegas під кодовою назвою Spades. Проєкт перебуває на ранній стадії розробки і, за даними джерел, є новою частиною, а не ремейком. Офіційного анонсу доведеться чекати ще кілька років.\n\n🔗 <a href=\"https://www.eurogamer.net/rainbow-six-vegas-new-game-ubisoft-spades-report\">Eurogamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/rainbow-six-vegas-new-game-ubisoft-spades-report",
+    "orig": "Ubisoft is reportedly making a new Rainbow Six Vegas game, nearly two decades after Vegas 2"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10098,7 +10059,8 @@
   "games|Eurogamer|https://www.eurogamer.net/feed": [
    1794634305.29535,
    1794654185.3008957,
-   1794655879.9927797
+   1794655879.9927797,
+   1794659494.4706783
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1794564088.5962489
@@ -10614,6 +10576,7 @@
   "19c81b68c2f0e13d": 1793649850.9736905,
   "19cb250603dbf7c1": 1793887355.6836658,
   "19d4baf6d5cb6e7e": 1793799103.7004852,
+  "19e563a267e1b55f": 1794659494.4706376,
   "19f16132083d1a84": 1794004398.1796412,
   "1a1a116d138e54c9": 1793639185.7224717,
   "1a60c217b506651e": 1793863890.332492,
@@ -11387,7 +11350,6 @@
   "5fc318b41e685a12": 1793615453.5353343,
   "5fc51f7f274eb3e5": 1794087051.001706,
   "5fce1438ca55a1b0": 1793826085.3561068,
-  "5fd88f33c8255fae": 1793449884.5930266,
   "5ff0fed9e67a9d4f": 1793559680.9373286,
   "5ff19eb66039b50c": 1793953887.143655,
   "5ff87d2b1afb5020": 1794128496.4883294,
@@ -12913,6 +12875,7 @@
   "dfae7298f97c1c24": 1793723595.1505055,
   "dfb32029695f8a72": 1793667695.618428,
   "dfea77f4d09a1ddd": 1793761284.9457726,
+  "dff5868d772e2c33": 1794659479.793679,
   "e0171016b64ad4fc": 1794412899.1679995,
   "e04968c3ea98611f": 1794034986.8762047,
   "e063e9db63f1f350": 1793896520.49914,
@@ -14524,7 +14487,7 @@
    "DOU Gamedev": 3,
    "Deadline": 82,
    "Distorted Sound": 7,
-   "Eurogamer": 13,
+   "Eurogamer": 14,
    "GameSpot": 1,
    "GamesIndustry.biz": 7,
    "GitHub Trending": 27,
@@ -14556,7 +14519,7 @@
   "translators": {
    "DeepL": 38,
    "gemini-flash-latest": 15,
-   "gemini-flash-lite-latest": 473
+   "gemini-flash-lite-latest": 474
   },
   "week": "2026-W46"
  },
@@ -15245,6 +15208,11 @@
    4566690,
    "180°",
    1792953097.974842
+  ],
+  "q:2": [
+   0,
+   "",
+   1794659483.6599927
   ],
   "q:2 5": [
    3740720,
@@ -17586,11 +17554,6 @@
    "none",
    1793311390.3620691
   ],
-  "q:nordic": [
-   0,
-   "",
-   1794484885.7493672
-  ],
   "q:northgard battlegrounds": [
    4487060,
    "Northgard Battlegrounds",
@@ -17971,6 +17934,21 @@
    "Rain98",
    1792281227.8248696
   ],
+  "q:rainbow": [
+   0,
+   "",
+   1794659481.2423675
+  ],
+  "q:rainbow six": [
+   0,
+   "",
+   1794659480.7852614
+  ],
+  "q:rainbow six vegas": [
+   0,
+   "",
+   1794659480.3225713
+  ],
   "q:rayman legends retold": [
    4084710,
    "Rayman Legends Retold",
@@ -18231,15 +18209,20 @@
    "Shutdown",
    1793606484.1140392
   ],
-  "q:signal": [
-   0,
-   "",
-   1794484887.2491312
-  ],
   "q:silver pines": [
    2333000,
    "Silver Pines",
    1793440886.8226674
+  ],
+  "q:six": [
+   0,
+   "",
+   1794659482.2231414
+  ],
+  "q:six vegas": [
+   0,
+   "",
+   1794659481.6915996
   ],
   "q:skate": [
    3354750,
@@ -18581,21 +18564,6 @@
    "",
    1794488665.3758893
   ],
-  "q:third": [
-   0,
-   "",
-   1794484886.7586637
-  ],
-  "q:third signal": [
-   0,
-   "",
-   1794484886.2444773
-  ],
-  "q:thq": [
-   0,
-   "",
-   1794484885.2381706
-  ],
   "q:tomb raider 4 6 remastered": [
    2525380,
    "Tomb Raider IV-VI Remastered",
@@ -18675,6 +18643,16 @@
    0,
    "",
    1794655877.2918417
+  ],
+  "q:vegas": [
+   0,
+   "",
+   1794659482.7316163
+  ],
+  "q:vegas 2": [
+   0,
+   "",
+   1794659483.2144885
   ],
   "q:vice": [
    0,
@@ -19013,10 +18991,6 @@
   ]
  },
  "titles": [
-  [
-   1794484988.2377076,
-   "Black Forest Games spins out from THQ Nordic, co-founds indie studio group Third Signal"
-  ],
   [
    1794486800.059786,
    "Victorian Psycho Review: Maika Monroe Goes Crazy In This Erratic Mix Of Humor And Horror"
@@ -19760,13 +19734,13 @@
   [
    1794657687.3126109,
    "Магія проти лазерів. Огляд ігор Wielders of the Essence та Warhammer Survivors"
+  ],
+  [
+   1794659494.470639,
+   "Ubisoft is reportedly making a new Rainbow Six Vegas game, nearly two decades after Vegas 2"
   ]
  ],
  "titles_uk": [
-  [
-   1794484988.2377086,
-   "Black Forest Games відокремилася від THQ Nordic і створила групу інді-студій Third Signal"
-  ],
   [
    1794486800.0597868,
    "Огляд Victorian Psycho: Майка Монро божеволіє в цьому божевільному міксі гумору та горору"
@@ -20510,6 +20484,10 @@
   [
    1794657687.3126118,
    "Магія проти лазерів. Огляд ігор Wielders of the Essence та Warhammer Survivors"
+  ],
+  [
+   1794659494.47064,
+   "Ubisoft розробляє нову частину Rainbow Six Vegas"
   ]
  ],
  "ukrainian": {
@@ -21093,8 +21071,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1794637902.3259254,
-  "with_uk": 106
+  "last_check": 1794659505.267541,
+  "with_uk": 107
  },
  "weekly_releases_week": "2026-W46",
  "wishlist": {
