@@ -29,43 +29,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-14 09:03 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-11-14 09:34 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 3
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1793957484.8533504,
-   5152,
-   "💾",
-   "Прем'єр-міністр Японії Санае Такаїті анонсувала екстрений пакет кібербезпеки",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-06/japan-pm-takaichi-announces-emergency-cybersecurity-package",
-    "orig": "Japan PM Takaichi Announces Emergency Cybersecurity Package"
-   }
-  ],
-  [
-   1793957579.4599473,
-   5153,
-   "💾",
-   "Google випустила репозиторій Agent Skills для своїх продуктів і технологій",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/google/skills",
-    "orig": "google/skills"
-   }
-  ],
   [
    1793959349.1288195,
    5154,
@@ -9191,7 +9166,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Доходи Cerebras зросли на 55% завдяки попиту на ШІ</b>\n\nКомпанія Cerebras підвищила прогнози після того, як її доходи за третій квартал зросли на 55%. Головний виконавчий директор Ендрю Фельдман зазначив, що зростає попит на швидкий ШІ-інференс і зміцнюються партнерства з Microsoft, AWS та Oracle.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-13/cerebras-ceo-ai-infrastructure-opportunity-is-expanding-video\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-11-13/cerebras-ceo-ai-infrastructure-opportunity-is-expanding-video",
     "orig": "Cerebras CEO: AI Infrastructure Opportunity Is Expanding"
@@ -9205,7 +9179,6 @@
    "DOU",
    {
     "also": [],
-    "caption": "💾 <b>Застосунок «Повітряна тривога» повністю відновили і додали авторизацію через Дію</b>\n\nУ застосунку «Повітряна тривога» відновили відображення руху повітряних цілей на карті після кібератаки 1 листопада. Однак тепер, щоб переглядати ці дані, користувачам потрібно авторизуватися через Дію. Решта функцій застосунку залишаються доступними без авторизації. Про це для DOU повідомили розробники застосунку — компанії Ajax Systems і Stfalcon. Авторизацію в Дії додали на вимогу Повітряних сил.\n\n🔗 <a href=\"https://dou.ua/lenta/news/air-alarm-updated-app/\">DOU</a>\n\n#софт",
     "kind": "photo",
     "link": "https://dou.ua/lenta/news/air-alarm-updated-app/",
     "orig": "Застосунок «Повітряна тривога» повністю відновили і додали авторизацію через Дію"
@@ -10041,6 +10014,34 @@
     "link": "https://github.com/louislam/uptime-kuma",
     "orig": "louislam/uptime-kuma"
    }
+  ],
+  [
+   1794648773.5510561,
+   5918,
+   "🤘",
+   "Inferum анонсували новий альбом Adversity",
+   "Distorted Sound",
+   {
+    "also": [],
+    "caption": "🤘 <b>Inferum анонсували новий альбом Adversity</b>\n\nINFERUM оголосили про вихід нового альбому! Нідерландський деткоровий колектив оголосив про вихід свого нового альбому «Adversity», реліз якого заплановано на\n\n🔗 <a href=\"https://distortedsoundmag.com/inferum-announce-new-album-adversity/\">Distorted Sound</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://distortedsoundmag.com/inferum-announce-new-album-adversity/",
+    "orig": "Inferum announce new album ‘Adversity’"
+   }
+  ],
+  [
+   1794648890.137468,
+   5919,
+   "💾",
+   "block/buzz",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>block/buzz</b>\n\nBuzz — платформа для спільної роботи людей та ШІ-агентів у єдиному просторі з відкритим кодом\n\n🔗 <a href=\"https://github.com/block/buzz\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/block/buzz",
+    "orig": "block/buzz"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10218,7 +10219,8 @@
    1793824292.005878
   ],
   "music|Distorted Sound|https://distortedsoundmag.com/feed/": [
-   1794646968.0432434
+   1794646968.0432434,
+   1794648773.5513384
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
    1794222361.3425462
@@ -10287,7 +10289,8 @@
    1794569525.337225,
    1794641660.5051203,
    1794643426.4887812,
-   1794646997.4718904
+   1794646997.4718904,
+   1794648890.1377268
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1794591222.274497,
@@ -10851,7 +10854,6 @@
   "3050b81b2afc935c": 1794114087.9284823,
   "3054dc1bf4dadf45": 1793721684.3140144,
   "3069ed7e77cde6e4": 1793970105.8567038,
-  "3074755342b9ddd9": 1793439083.7811255,
   "3075ca301b8d7fbc": 1793997084.0037012,
   "307e4c6031127188": 1794277896.9373963,
   "307f29e2b301b3bd": 1793820685.3999834,
@@ -11242,6 +11244,7 @@
   "532e8de89e556a5c": 1793880152.6756754,
   "538eff81caea302b": 1794002501.8985727,
   "5393cf2026d05807": 1793804673.308179,
+  "53958cf51f47108f": 1794648890.1376827,
   "539bffe42cdb02a4": 1793480599.3042521,
   "53b662d65501de35": 1793899954.3696232,
   "53c7321c7f208bad": 1793651474.6009927,
@@ -11862,6 +11865,7 @@
   "857add9d4780ad41": 1793856655.0170114,
   "859ee2f273ce2c78": 1793980856.010392,
   "85ad1adf22507944": 1793898089.9974968,
+  "85e411e342226a52": 1794648773.5512936,
   "85f03656f8c81635": 1793885582.3518298,
   "863ee0b4d8519b84": 1793541754.3831782,
   "86727e9c9805d2e2": 1794105082.1815956,
@@ -11906,6 +11910,7 @@
   "897c983913b197f6": 1793885644.246963,
   "897e230eae85ab42": 1793626277.3856006,
   "89a04f14fe7bcd31": 1794504679.8192382,
+  "89b1f5bfbda1a562": 1794648652.8129776,
   "89c62d8965d47965": 1793912612.6819906,
   "89dda09798bee130": 1793556192.301501,
   "89e770a06adee210": 1793683879.7485266,
@@ -12426,7 +12431,6 @@
   "b4c06ed5e7f89ad5": 1793629883.095886,
   "b4c7cf56769f3008": 1794166253.2590482,
   "b4d214e3f6b5e91a": 1793655087.710369,
-  "b4e05fc62379bae9": 1793439081.5498314,
   "b5419a6793fed1ff": 1793545252.091723,
   "b5539d7160646797": 1793736114.167941,
   "b5a284f285d1d93b": 1793448082.4707842,
@@ -14513,7 +14517,7 @@
    "Mezha": 1,
    "PC Gamer": 3,
    "Pitchfork": 1,
-   "Polygon": 55,
+   "Polygon": 56,
    "Revolver": 1,
    "SteamDB": 1,
    "The Decoder": 2,
@@ -14528,11 +14532,11 @@
    "DOU": 8,
    "DOU Gamedev": 3,
    "Deadline": 82,
-   "Distorted Sound": 6,
+   "Distorted Sound": 7,
    "Eurogamer": 11,
    "GameSpot": 1,
    "GamesIndustry.biz": 7,
-   "GitHub Trending": 23,
+   "GitHub Trending": 24,
    "Hugging Face": 6,
    "IGN": 11,
    "ITC.ua": 36,
@@ -14559,9 +14563,9 @@
    "Variety": 30
   },
   "translators": {
-   "DeepL": 37,
+   "DeepL": 38,
    "gemini-flash-latest": 13,
-   "gemini-flash-lite-latest": 464
+   "gemini-flash-lite-latest": 467
   },
   "week": "2026-W46"
  },
@@ -15165,11 +15169,6 @@
    "974480",
    "Echoes of Mystralia",
    1792677687.2991743
-  ],
-  "q:007 first light": [
-   3768760,
-   "007 First Light",
-   1792056045.1976461
   ],
   "q:097": [
    0,
@@ -15835,11 +15834,6 @@
    2855940,
    "Betrayed",
    1792776758.0281951
-  ],
-  "q:big walk": [
-   1478500,
-   "Big Walk",
-   1792056009.0377672
   ],
   "q:bill": [
    1897470,
@@ -19114,10 +19108,6 @@
  },
  "titles": [
   [
-   1794475909.866354,
-   "Lord of the Rings Officially Reveals Gollum’s Replacement"
-  ],
-  [
    1794476274.2096274,
    "openai/codex-security"
   ],
@@ -19864,13 +19854,17 @@
   [
    1794646997.471847,
    "louislam/uptime-kuma"
+  ],
+  [
+   1794648773.5512955,
+   "Inferum announce new album ‘Adversity’"
+  ],
+  [
+   1794648890.137684,
+   "block/buzz"
   ]
  ],
  "titles_uk": [
-  [
-   1794475909.8663545,
-   "У серіалі The Lord of the Rings: The Rings of Power з'явилася заміна Gollum"
-  ],
   [
    1794476274.2096283,
    "openai/codex-security"
@@ -20618,6 +20612,14 @@
   [
    1794646997.471848,
    "Автори Uptime Kuma попереджають про фейковий сайт у Google"
+  ],
+  [
+   1794648773.5512962,
+   "Inferum анонсували новий альбом Adversity"
+  ],
+  [
+   1794648890.137685,
+   "block/buzz"
   ]
  ],
  "ukrainian": {
