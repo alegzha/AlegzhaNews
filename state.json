@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:software|AIN.ua|https://ain.ua/feed/": {
+   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «AIN.ua» не працює",
+   "sent": 0,
+   "since": 1794771096.3467672
+  }
+ },
  "daily_digest_date": "2026-11-15",
  "freebies": {
   "last_check": 1794765696.9962268,
@@ -29,30 +36,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-15 18:01 UTC",
+  "at": "2026-11-15 19:32 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794076281.3629322,
-   5285,
-   "🎮",
-   "The Witcher: No Man’s Land відкриє передзамовлення 17 листопада",
-   "PlayUA",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://playua.net/the-witcher-no-mans-land-vidkryye-peredzamovlennya-17-lystopada/",
-    "orig": "The Witcher: No Man’s Land відкриє передзамовлення 17 листопада"
-   }
-  ],
   [
    1794081727.181996,
    5287,
@@ -8938,7 +8932,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Knight став MVP Worlds 2026 з LoL після перемоги BLG</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/4709990/\">Crowned</a>\n\nКитайський мідер Knight здобув звання MVP чемпіонату світу з LoL 2026 року, після того як BLG перемогли Gen.G з рахунком 3:1 у гранд-фіналі\n\n🔗 <a href=\"https://insider-gaming.com/knight-crowned-lol-worlds-2026-mvp-after-blg-victory/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/knight-crowned-lol-worlds-2026-mvp-after-blg-victory/",
     "orig": "Knight Crowned LoL Worlds 2026 MVP After BLG Victory"
@@ -8952,7 +8945,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Композитор Рікі Хо витратив два місяці на перші чотири ноти сонати для фільму The Violinist</b>\n\nКомпозитор Рікі Хо розповів, що два місяці писав перші ноти головної музичної теми для анімаційного фільму The Violinist. Стрічка розповідає про скрипальку, яка шукає коханого після розлуки під час Другої світової війни, а створена соната слугує сюжетоутворюючим елементом та символом їхнього зв&#x27;язку.\n\n🔗 <a href=\"https://deadline.com/2026/11/the-violinist-composer-interview-1237224216/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://deadline.com/2026/11/the-violinist-composer-interview-1237224216/",
     "orig": "‘The Violinist’ Composer Ricky Ho Took Two Months To Write The First Four Notes Of Central Sonata – Contenders L.A."
@@ -8966,7 +8958,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>10 найкращих кооперативних ігор для гравців із насиченим графіком</b>\n\nДобірка з 10 кооперативних відеоігор створена спеціально для гравців із обмеженим вільним часом. До списку увійшли проєкти різної тривалості й форматів, зокрема Overcooked! All You Can Eat, Deep Rock Galactic, We Were Here Forever та Orbitals, які підходять як для коротких сесій, так і для довгих вечорів із друзями.\n\n🔗 <a href=\"https://www.polygon.com/co-op-games-real-life-schedules/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/co-op-games-real-life-schedules/",
     "orig": "10 Must-Play Co-Op Games for People With Real-Life Schedules"
@@ -9788,6 +9779,48 @@
     "link": "https://bsky.app/profile/steamdb.info/post/3n2elr7447y24",
     "orig": "Steam Auto-Battler RPG Fest will begin tomorrow"
    }
+  ],
+  [
+   1794771113.6255627,
+   6030,
+   "🤖",
+   "Інтеграція ШІ в Siri керуватиме розумними окулярами та планами iPhone Duo 2",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Інтеграція ШІ в Siri керуватиме розумними окулярами та планами iPhone Duo 2</b>\n\nА також: деталі гонки за впровадження Face ID в iPhone Duo\n\n🔗 <a href=\"https://www.bloomberg.com/news/newsletters/2026-11-15/apple-siri-ai-app-integrations-power-smart-glasses-iphone-duo-2-face-id-plan\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/newsletters/2026-11-15/apple-siri-ai-app-integrations-power-smart-glasses-iphone-duo-2-face-id-plan",
+    "orig": "Apple Siri AI App Integrations Power Smart Glasses, iPhone Duo 2 Face ID Plan"
+   }
+  ],
+  [
+   1794771126.3485343,
+   6031,
+   "🤖",
+   "Нова модель Claude Fable 5.2 створює картини через симуляцію мазків пензлем",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Нова модель Claude Fable 5.2 створює картини через симуляцію мазків пензлем</b>\n\nНова мовна модель Claude Fable 5.2 від Anthropic генерує деталізовані зображення, створюючи кодом сотні тисяч мазків на віртуальному полотні. Замість звичайної дифузії ШІ симулює фізичний процес малювання, враховуючи текстуру фарби, помилки та накладання шарів.\n\n🔗 <a href=\"https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/anthropics-claude-fable-5-2-doesnt-generate-images-it-paints-them/",
+    "orig": "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them"
+   }
+  ],
+  [
+   1794771138.1195207,
+   6032,
+   "🤖",
+   "Фонд менеджера Madonna володіє часткою в Anthropic на $7 млрд",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Фонд менеджера Madonna володіє часткою в Anthropic на $7 млрд</b>\n\nГенеральний директор Anthropic Даріо Амодей зустрівся у 2023 році з венчурним інвестором Ештоном Кучером та музичним менеджером Гаєм Осірі. Венчурний фонд Осірі володіє значною часткою в компанії Anthropic на суму $7 мільярдів.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-15/vc-firm-run-by-madonna-s-manager-has-7-billion-anthropic-stake\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-15/vc-firm-run-by-madonna-s-manager-has-7-billion-anthropic-stake",
+    "orig": "VC Firm Run by Madonna’s Manager Has $7 Billion Anthropic Stake"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9795,12 +9828,11 @@
    1794502965.8877752
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1794682938.242719,
-   1794682944.2308395,
-   1794684682.3707993,
    1794708110.0776129,
    1794738676.6179576,
-   1794755066.3503494
+   1794755066.3503494,
+   1794771113.6258197,
+   1794771138.1197734
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1794568315.9647284,
@@ -9819,10 +9851,9 @@
    1794610969.0440137
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
-   1794682948.4133458,
-   1794684685.5509033,
    1794688284.0626576,
-   1794690162.9913428
+   1794690162.9913428,
+   1794771126.348783
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1793370738.9416513
@@ -10132,6 +10163,7 @@
   "07af74155443be79": 1793626377.919646,
   "07e3ff620e587bf4": 1793584882.1422906,
   "07eb24776200c433": 1794713476.5142853,
+  "07eb8e476513f05f": 1794771054.9261434,
   "07edf45b889118e3": 1794699052.266333,
   "080813f6e6514518": 1794756680.6636622,
   "0814cb884dd14798": 1794740484.8247116,
@@ -10740,7 +10772,6 @@
   "3fa1090af0f1f1a6": 1794735531.8540745,
   "3fb2a65184671418": 1793909072.0261939,
   "3fb95227d023a6bb": 1793892700.9536927,
-  "3fe1930f9a39b73a": 1793561483.8291807,
   "4004b0aa49fa9cdc": 1794711882.7637846,
   "40185ced1634ed99": 1794722573.6509268,
   "4021c37ac54f3542": 1793718081.3862214,
@@ -10904,7 +10935,6 @@
   "4ee39abf60ee8a85": 1794042180.7033417,
   "4f0269e6d1833933": 1793642493.411298,
   "4f22dbc96e6a5dc4": 1793819214.258513,
-  "4f55bc725dd28f3b": 1793561453.4089127,
   "4f654dda4a75f767": 1794155451.4751787,
   "4f7eec8a7b91a4cf": 1793737886.347712,
   "4f891d7f2fd0bd53": 1794263378.9488752,
@@ -10915,6 +10945,7 @@
   "4ff2500ae4ccf3a4": 1794423681.5965264,
   "500d494b1b1b1c65": 1793716421.5579512,
   "504631b73ef654bd": 1793955703.0302567,
+  "507f124765a8661b": 1794771054.9261434,
   "50830f5c4d4fe6ad": 1794483075.0825148,
   "509364c3ce89d8f1": 1793885549.3798807,
   "50a0fa01c7098b4a": 1793844097.26029,
@@ -11493,7 +11524,6 @@
   "811010a56774957b": 1794414658.7033095,
   "812101c073fb0cc1": 1793827903.2830946,
   "812b7763ae7c76c9": 1794069054.1396751,
-  "81468641524bbc15": 1793561453.4089127,
   "8160e2966f77be13": 1794382276.2949195,
   "817a11c3933ae3cf": 1794047494.3152075,
   "817a423502651d70": 1793815285.4356992,
@@ -11838,6 +11868,7 @@
   "9f3531ca32f906ef": 1794486802.0942328,
   "9f4debb14940fc3e": 1794457893.282934,
   "9f5683e3c2435c99": 1794601881.948526,
+  "9f5fc6e5123bcf74": 1794771138.1197286,
   "9f83c40e1566258c": 1793743349.103002,
   "9fa14fa8fda01249": 1794567690.3824625,
   "9fb54cdca3533e83": 1794150182.2347202,
@@ -12103,6 +12134,7 @@
   "b71964586a613668": 1794101487.8059556,
   "b7242ad4a00ce74c": 1793656982.6360471,
   "b72b577840dfc276": 1793923274.512951,
+  "b7560196b1d1c140": 1794771126.3487391,
   "b761befe780aeb95": 1794751279.1553652,
   "b770fcb6738db72e": 1793601185.5302284,
   "b79d99b85665c970": 1794324720.406491,
@@ -12210,7 +12242,6 @@
   "c2016914d67edb81": 1793815285.4528103,
   "c203ab4695c76f75": 1793802693.460354,
   "c20c76bac6df0a5c": 1794693790.4067116,
-  "c22168660463d2b7": 1793561489.2513406,
   "c240c7f32290a2cc": 1793856655.0170114,
   "c250cec7e4c6a3e5": 1794697280.052423,
   "c283c3e0f147ac9c": 1793592072.7894156,
@@ -12546,7 +12577,6 @@
   "de592cec7aeebc1a": 1793646053.9942713,
   "de5c481f56ce8e94": 1793716350.2999425,
   "de87ead1d615e446": 1794106852.4088318,
-  "de89b86b5e7256b0": 1793561485.731573,
   "dec170f4b484dcb6": 1794511879.1530688,
   "dec1e7d32918c7ad": 1793613840.9177947,
   "dec4699ec03595d3": 1794063720.07867,
@@ -12640,6 +12670,7 @@
   "e71e9c1c1dab29e4": 1794535006.104952,
   "e741d4e1bec9d49f": 1793856655.0170114,
   "e75162f51dbd7873": 1794364279.3029287,
+  "e751fd0f3b13fe95": 1794771113.625774,
   "e753e22de9b80091": 1793633628.1330848,
   "e76c9df5f85d0e55": 1793909025.995891,
   "e7844a2d07194cc8": 1794571372.1144512,
@@ -14126,7 +14157,7 @@
    "Халява": 1
   },
   "filtered": {
-   "/Film": 35,
+   "/Film": 36,
    "Bloomberg": 3,
    "Deadline": 6,
    "Eurogamer": 2,
@@ -14147,13 +14178,13 @@
    "The Decoder": 2,
    "ThePRP": 1,
    "VGC": 9,
-   "Variety": 17
+   "Variety": 18
   },
   "sources": {
    "/Film": 23,
    "AIN.ua": 7,
    "Blabbermouth": 10,
-   "Bloomberg": 43,
+   "Bloomberg": 45,
    "DOU": 8,
    "DOU Gamedev": 3,
    "Deadline": 98,
@@ -14183,7 +14214,7 @@
    "Rock Paper Shotgun": 12,
    "SteamDB": 7,
    "Stereogum": 4,
-   "The Decoder": 21,
+   "The Decoder": 22,
    "ThePRP": 10,
    "VGC": 7,
    "Variety": 37
@@ -14191,7 +14222,7 @@
   "translators": {
    "DeepL": 56,
    "gemini-flash-latest": 20,
-   "gemini-flash-lite-latest": 563
+   "gemini-flash-lite-latest": 566
   },
   "week": "2026-W46"
  },
@@ -18749,10 +18780,6 @@
  },
  "titles": [
   [
-   1794598278.7437522,
-   "Не треба лізти у Параметри: як змінити системні налаштування Windows 11 через пошук"
-  ],
-  [
    1794598371.811613,
    "Anthropic CEO Calls Computing Power ‘Deepest Business Dilemma’"
   ],
@@ -19419,13 +19446,21 @@
   [
    1794765695.3161945,
    "Steam Auto-Battler RPG Fest will begin tomorrow"
+  ],
+  [
+   1794771113.6257753,
+   "Apple Siri AI App Integrations Power Smart Glasses, iPhone Duo 2 Face ID Plan"
+  ],
+  [
+   1794771126.3487408,
+   "Anthropic's Claude Fable 5.2 doesn't generate images, it paints them"
+  ],
+  [
+   1794771138.1197312,
+   "VC Firm Run by Madonna’s Manager Has $7 Billion Anthropic Stake"
   ]
  ],
  "titles_uk": [
-  [
-   1794598278.7437537,
-   "Не треба лізти у Параметри: як змінити системні налаштування Windows 11 через пошук"
-  ],
   [
    1794598371.8116148,
    "Голова Anthropic назвав пошук обчислювальних потужностей головною дилемою бізнесу"
@@ -20093,6 +20128,18 @@
   [
    1794765695.3161955,
    "Завтра стартує фестиваль RPG та автобатлерів у Steam"
+  ],
+  [
+   1794771113.6257763,
+   "Інтеграція ШІ в Siri керуватиме розумними окулярами та планами iPhone Duo 2"
+  ],
+  [
+   1794771126.3487415,
+   "Нова модель Claude Fable 5.2 створює картини через симуляцію мазків пензлем"
+  ],
+  [
+   1794771138.119732,
+   "Фонд менеджера Madonna володіє часткою в Anthropic на $7 млрд"
   ]
  ],
  "ukrainian": {
@@ -22475,7 +22522,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794767490.7351017,
+  "last_check": 1794771146.8704813,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
