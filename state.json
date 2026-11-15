@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutErr",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1794711693.1136732
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-14",
  "freebies": {
   "last_check": 1794711892.0930355,
@@ -36,11 +29,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-15 03:04 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-11-15 03:31 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
@@ -8972,7 +8965,6 @@
    "Distorted Sound",
    {
     "also": [],
-    "caption": "🤘 <b>Memoriam випустили новий трек «At The Point Of No Return»</b>\n\nБританські дез-металісти презентували свіжий сингл «At The Point Of No Return»\n\n🔗 <a href=\"https://distortedsoundmag.com/memoriam-release-new-song-at-the-point-of-no-return/\">Distorted Sound</a>\n\n#музика",
     "kind": "photo",
     "link": "https://distortedsoundmag.com/memoriam-release-new-song-at-the-point-of-no-return/",
     "orig": "Memoriam release new song ‘At The Point Of No Return’"
@@ -8986,7 +8978,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Автори Uptime Kuma попереджають про фейковий сайт у Google</b>\n\nРозробники проєкту Uptime Kuma закликають користувачів остерігатися сайту uptimekuma.co, який є першим результатами пошуку в Google, але не контролюється командою. Також автори нагадують про правила встановлення та надання підтримки через GitHub і Reddit.\n\n🔗 <a href=\"https://github.com/louislam/uptime-kuma\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/louislam/uptime-kuma",
     "orig": "louislam/uptime-kuma"
@@ -9827,6 +9818,34 @@
     "link": "https://blabbermouth.net/news/tiamats-johan-edlund-suffers-brain-hemorrhage-belgrade-serbia-concert-canceled",
     "orig": "TIAMAT's JOHAN EDLUND Suffers Brain Hemorrhage; Belgrade, Serbia Concert Canceled"
    }
+  ],
+  [
+   1794713476.5140717,
+   5978,
+   "🤘",
+   "Skindred, After The Burial та ERRA поповнили лайнап Rock am Ring та Rock im Park",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Skindred, After The Burial та ERRA поповнили лайнап Rock am Ring та Rock im Park</b>\n\nФестивалі Rock am Ring та Rock im Park оголосили про розширення лайнапа. До списку учасників додали такі гурти, як Skindred, After The Burial, ERRA, Ghostemane, Motionless In White та багато інших.\n\n🔗 <a href=\"https://lambgoat.com/news/55898/skindred-after-the-burial-erra-etc-added-to-2027-rock-am-ring-rock-im-park-festivals/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55898/skindred-after-the-burial-erra-etc-added-to-2027-rock-am-ring-rock-im-park-festivals/",
+    "orig": "Skindred, After The Burial, ERRA, Etc. added to 2027 Rock am Ring & Rock im Park festivals"
+   }
+  ],
+  [
+   1794713481.875898,
+   5979,
+   "🎬",
+   "Александр Скарсгард оцінив соціальний контекст фільму Wicker",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Александр Скарсгард оцінив соціальний контекст фільму Wicker</b>\n\nАлександр Скарсгард розповів про роботу над стрічкою Wicker режисерів Алекса Гаустона Фішера та Елеонор Вілсон. Актору сподобався сценарій та участь Олівії Колман, а також тонкий і неповчальний соціальний контекст фільму про патріархат і шлюб.\n\n🔗 <a href=\"https://deadline.com/2026/11/alexander-skarsgard-wicker-interview-1237224217/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "text",
+    "link": "https://deadline.com/2026/11/alexander-skarsgard-wicker-interview-1237224217/",
+    "orig": "‘Wicker’ Star Alexander Skarsgård Appreciated “Social Commentary” Of Feminist Romantasy Film Without It Being “Too Preachy” – Contenders L.A."
+   }
   ]
  ],
  "posted_by_source": {
@@ -9947,8 +9966,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1794625285.586914,
-   1794627081.734229,
    1794629065.3564248,
    1794632478.5519311,
    1794637883.8932812,
@@ -9961,7 +9978,8 @@
    1794700879.2539604,
    1794702686.0977576,
    1794704495.3499436,
-   1794709884.1092277
+   1794709884.1092277,
+   1794713481.8761437
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794663071.9451547
@@ -10004,9 +10022,9 @@
    1794222361.3425462
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1794621696.9494784,
    1794695773.986437,
-   1794706296.9391344
+   1794706296.9391344,
+   1794713476.5143275
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1794625282.641445,
@@ -10173,6 +10191,7 @@
   "07a434408ccb9f84": 1793637058.4404707,
   "07af74155443be79": 1793626377.919646,
   "07e3ff620e587bf4": 1793584882.1422906,
+  "07eb24776200c433": 1794713476.5142853,
   "07edf45b889118e3": 1794699052.266333,
   "081883f9298b7cd1": 1793968252.071034,
   "085ae393f1fd8eca": 1794031278.084823,
@@ -11297,6 +11316,7 @@
   "6c5c317baac8ac3f": 1794058280.2930562,
   "6c73c9c780143428": 1793721783.1502526,
   "6c74902506dc3335": 1793723692.8866181,
+  "6c7b301e5d5526b6": 1794713474.5924284,
   "6c82033229592cb7": 1793707287.9308925,
   "6cc5515fae2b49a9": 1793800885.1215549,
   "6cf18c6404d4760f": 1793746893.914856,
@@ -11686,6 +11706,7 @@
   "8b70fc04e8823306": 1793716365.057134,
   "8bb9b1bbd3d2ad72": 1794478233.0950007,
   "8bd5960f8c7c875e": 1793597570.3997002,
+  "8bd933f459bcf3eb": 1794713481.876106,
   "8be5c5acd91f2eb2": 1793887344.723957,
   "8c000a26a84ecf7e": 1793889137.3593447,
   "8c0c52a5b15270f8": 1794177079.9678257,
@@ -13464,8 +13485,8 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1794695778.2249558,
-  "blocked_until": 1794695774.3424344,
-  "cursor": 175,
+  "blocked_until": 1794782237.829693,
+  "cursor": 177,
   "digest_week": "2026-W46",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -14249,7 +14270,7 @@
    "Bloomberg": 41,
    "DOU": 8,
    "DOU Gamedev": 3,
-   "Deadline": 91,
+   "Deadline": 92,
    "Digital Foundry": 1,
    "Distorted Sound": 7,
    "Eurogamer": 14,
@@ -14262,7 +14283,7 @@
    "IndieWire": 6,
    "Insider Gaming": 21,
    "Kerrang!": 1,
-   "Lambgoat": 25,
+   "Lambgoat": 26,
    "Loudwire": 3,
    "Metal Hammer (Louder)": 20,
    "Metal Injection": 2,
@@ -14284,7 +14305,7 @@
   "translators": {
    "DeepL": 44,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 519
+   "gemini-flash-lite-latest": 521
   },
   "week": "2026-W46"
  },
@@ -16989,16 +17010,6 @@
    "",
    1794540674.743034
   ],
-  "q:lol worlds 2026 final": [
-   0,
-   "",
-   1794540674.14976
-  ],
-  "q:lol worlds 2026 final preview": [
-   0,
-   "",
-   1794540673.6492937
-  ],
   "q:looking glass": [
    1272530,
    "Looking Glass",
@@ -19436,6 +19447,14 @@
   [
    1794711882.7637866,
    "TIAMAT's JOHAN EDLUND Suffers Brain Hemorrhage; Belgrade, Serbia Concert Canceled"
+  ],
+  [
+   1794713476.5142865,
+   "Skindred, After The Burial, ERRA, Etc. added to 2027 Rock am Ring & Rock im Park festivals"
+  ],
+  [
+   1794713481.876107,
+   "‘Wicker’ Star Alexander Skarsgård Appreciated “Social Commentary” Of Feminist Romantasy Film Without It Being “Too Preachy” – Contenders L.A."
   ]
  ],
  "titles_uk": [
@@ -20158,6 +20177,14 @@
   [
    1794711882.7637873,
    "Лідер TIAMAT Йохан Едлунд потрапив до лікарні з крововиливом у мозок"
+  ],
+  [
+   1794713476.5142875,
+   "Skindred, After The Burial та ERRA поповнили лайнап Rock am Ring та Rock im Park"
+  ],
+  [
+   1794713481.876108,
+   "Александр Скарсгард оцінив соціальний контекст фільму Wicker"
   ]
  ],
  "ukrainian": {
