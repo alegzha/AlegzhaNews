@@ -29,11 +29,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-15 09:38 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-latest",
+  "at": "2026-11-15 10:02 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "DeepL",
@@ -41,19 +41,6 @@
   ]
  },
  "post_log": [
-  [
-   1794044396.2102816,
-   5255,
-   "💾",
-   "react/react",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/react/react",
-    "orig": "react/react"
-   }
-  ],
   [
    1794046017.6229198,
    5256,
@@ -9005,7 +8992,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Інструменти ШІ, які просував Хуанг, стали основою для мемів про його падіння</b>\n\nКолись головний промоутер штучного інтелекту Jensen Huang тепер перетворився на обличчя нової хвилі мемів, створених за допомогою ШІ.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-14/ai-tools-huang-championed-now-star-in-memes-of-his-downfall\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-14/ai-tools-huang-championed-now-star-in-memes-of-his-downfall",
     "orig": "AI Tools Huang Championed Now Star in Memes of His Downfall"
@@ -9019,7 +9005,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Gemini 4 Carbon очолив бенчмарк MathArena, але виявився у 15 разів дорожчим за конкурента</b>\n\nGoogle Gemini 4 Carbon обійшов GPT-6.1 Sol на бенчмарку MathArena, ставши першою не-OpenAI моделлю на першому місці. Проте модель коштує приблизно у 15 разів дорожче за GPT-6.1 Sol і має проблеми з перевищенням ліміту часу виконання завдань.\n\n🔗 <a href=\"https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/gemini-4-carbon-takes-the-matharena-crown-but-costs-15-times-more-than-gpt-6-1-sol/",
     "orig": "Gemini 4 Carbon takes the MathArena crown but costs 15 times more than GPT-6.1 Sol"
@@ -9868,6 +9853,34 @@
     "link": "https://github.com/JuliusBrussee/caveman",
     "orig": "JuliusBrussee/caveman"
    }
+  ],
+  [
+   1794736889.2866375,
+   6005,
+   "🤘",
+   "Dragged Under випустили новий трек Beautiful World",
+   "Distorted Sound",
+   {
+    "also": [],
+    "caption": "🤘 <b>Dragged Under випустили новий трек Beautiful World</b>\n\nГурт із Сіетла презентував новий сингл Beautiful World, записаний за участю PINKNOISE\n\n🔗 <a href=\"https://distortedsoundmag.com/dragged-under-release-new-song-beautiful-world/\">Distorted Sound</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://distortedsoundmag.com/dragged-under-release-new-song-beautiful-world/",
+    "orig": "Dragged Under release new song ‘Beautiful World’"
+   }
+  ],
+  [
+   1794736922.7313142,
+   6006,
+   "💾",
+   "Tencent заснувала нову студію LoopForge",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>Tencent заснувала нову студію LoopForge</b>\n\nСамостійно розгорнуті робочі процеси для надання послуг кодувальників. Координуйте роботу CodeBuddy, Codex та Claude Code за допомогою скриптів та етапів затвердження, що вимагають втручання людини. Включає локальні робочі процеси для помічників-кодувальників. https://loopforge.cn Англійська · 简体中文 Два способи роботи · Швидкий старт · Стандартні операційні процедури (SOP) · Функції · Локальні · Часті запитання · Документація https://github.com/user-attachments/assets/8af401d9-1aae-427c-b4bc-455c12d17beb 80-секундний огляд продукту (1080p, зі звуком).\n\n🔗 <a href=\"https://github.com/Tencent/LoopForge\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/Tencent/LoopForge",
+    "orig": "Tencent/LoopForge"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10038,8 +10051,7 @@
    1793824292.005878
   ],
   "music|Distorted Sound|https://distortedsoundmag.com/feed/": [
-   1794646968.0432434,
-   1794648773.5513384
+   1794736889.2868562
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
    1794222361.3425462
@@ -10106,7 +10118,8 @@
    1794654195.96055,
    1794731814.1593776,
    1794733368.4778838,
-   1794735531.85412
+   1794735531.85412,
+   1794736922.7315495
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1794591222.274497,
@@ -10691,6 +10704,7 @@
   "31f929863abbf97d": 1793872888.5272176,
   "32236035c16c6bec": 1793543481.282739,
   "32347e74523b6c10": 1793745095.6282132,
+  "32418cc562c404cd": 1794736879.429503,
   "3267aa4aa3a6f6aa": 1794367885.5482562,
   "3271c528877c7d82": 1793615453.5353343,
   "3278da9f0f45dcdf": 1794688284.0626087,
@@ -11299,6 +11313,7 @@
   "69a1b65340b4082b": 1793716438.1119516,
   "69abb375e192bdf5": 1794367853.0564857,
   "69b9c0657ac3a25e": 1793703662.6357632,
+  "6a36938791d14140": 1794736922.7315037,
   "6a4aea7469290d4f": 1794189682.0357335,
   "6a660b35f9a6c210": 1794441681.0200262,
   "6a74893005d85c84": 1794029570.3446674,
@@ -12701,6 +12716,7 @@
   "e063e9db63f1f350": 1793896520.49914,
   "e06d38eb13d98bd5": 1793975514.9460323,
   "e06e9257163cac0d": 1794218452.690086,
+  "e07123461fe01938": 1794736889.2868085,
   "e076b831b2fedea2": 1793698309.812571,
   "e0d00c08b8c853e2": 1794555081.9932432,
   "e0df3535aa3d8863": 1793566853.4477115,
@@ -14294,11 +14310,11 @@
    "DOU Gamedev": 3,
    "Deadline": 96,
    "Digital Foundry": 1,
-   "Distorted Sound": 7,
+   "Distorted Sound": 8,
    "Eurogamer": 14,
    "GameSpot": 1,
    "GamesIndustry.biz": 7,
-   "GitHub Trending": 30,
+   "GitHub Trending": 31,
    "Hugging Face": 6,
    "IGN": 12,
    "ITC.ua": 38,
@@ -14325,9 +14341,9 @@
    "Variety": 36
   },
   "translators": {
-   "DeepL": 52,
+   "DeepL": 53,
    "gemini-flash-latest": 18,
-   "gemini-flash-lite-latest": 542
+   "gemini-flash-lite-latest": 544
   },
   "week": "2026-W46"
  },
@@ -18903,14 +18919,6 @@
  },
  "titles": [
   [
-   1794562760.8284721,
-   "QwenLM/qwen-code"
-  ],
-  [
-   1794564088.5961962,
-   "Wolfenstein 3 Is Officially In Production At MachineGames"
-  ],
-  [
    1794564188.1661232,
    "ashhart/TensorFold"
   ],
@@ -19633,17 +19641,17 @@
   [
    1794735531.8540764,
    "JuliusBrussee/caveman"
+  ],
+  [
+   1794736889.2868102,
+   "Dragged Under release new song ‘Beautiful World’"
+  ],
+  [
+   1794736922.7315054,
+   "Tencent/LoopForge"
   ]
  ],
  "titles_uk": [
-  [
-   1794562760.8284729,
-   "QwenLM випустила модель qwen-code"
-  ],
-  [
-   1794564088.5961971,
-   "Wolfenstein 3 офіційно перебуває в розробці у MachineGames"
-  ],
   [
    1794564188.166124,
    "ashhart/TensorFold: рушій для інференсу LLM для Metal, CUDA і Vulkan"
@@ -20367,6 +20375,14 @@
   [
    1794735531.8540773,
    "JuliusBrussee/caveman"
+  ],
+  [
+   1794736889.2868109,
+   "Dragged Under випустили новий трек Beautiful World"
+  ],
+  [
+   1794736922.7315059,
+   "Tencent заснувала нову студію LoopForge"
   ]
  ],
  "ukrainian": {
@@ -22749,7 +22765,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794733376.8865597,
+  "last_check": 1794736930.9285195,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
