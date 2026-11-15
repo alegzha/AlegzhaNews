@@ -1,15 +1,8 @@
 {
- "alerts": {
-  "src:music|Loudwire|https://loudwire.com/feed/": {
-   "detail": "https://loudwire.com/feed/ → HTTPSConnectionPool(host='loudwire.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «Loudwire» не працює",
-   "sent": 0,
-   "since": 1794749486.908896
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-14",
  "freebies": {
-  "last_check": 1794744171.151948,
+  "last_check": 1794751288.31581,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -48,24 +41,6 @@
   ]
  },
  "post_log": [
-  [
-   1794060076.4349544,
-   5273,
-   "🎬",
-   "Роберт Паттінсон і Ніколас Голт претендують на роль Джеймса Бонда",
-   "Deadline",
-   {
-    "also": [
-     [
-      "Polygon",
-      "https://www.polygon.com/james-bond-robert-pattinson/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/robert-pattinson-nicholas-hoult-james-bond-1237216183/",
-    "orig": "Robert Pattinson & Nicholas Hoult Round Out James Bond Screen Tests"
-   }
-  ],
   [
    1794060084.54807,
    5274,
@@ -8969,7 +8944,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Померла канадська акторка Дон Ґрінгал</b>\n\nУ віці 93 років пішла з життя канадська театральна та кіноакторка Дон Ґрінгал. Вона була однією з акторок-засновниць Stratford Festival та зіграла у багатьох проєктах, зокрема в мінісеріалі Anne of Green Gables і фільмі The Virgin Suicides.\n\n🔗 <a href=\"https://deadline.com/2026/11/dawn-greenhalgh-dead-1237224098/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/dawn-greenhalgh-dead-1237224098/",
     "orig": "Dawn Greenhalgh Dies: Revered Canadian Stage Actor, Star Of TV’s ‘Anne of Green Gables’ Was 93"
@@ -9814,6 +9788,20 @@
     "link": "https://itc.ua/ua/novini/korysni-ne-lyshe-v-yasnyj-den-vcheni-peretvoryly-sonyachni-paneli-na-doshhomiry/",
     "orig": "Корисні не лише в ясний день: вчені перетворили сонячні панелі на дощоміри"
    }
+  ],
+  [
+   1794751279.1551647,
+   6018,
+   "💾",
+   "ЄС та IFC запускають програму на понад €146 млн для малого й середнього бізнесу",
+   "AIN.ua",
+   {
+    "also": [],
+    "caption": "💾 <b>ЄС та IFC запускають програму на понад €146 млн для малого й середнього бізнесу</b>\n\nПрограма орієнтована на підприємства, які постраждали від війни, бізнеси ветеранів і компанії, що працевлаштовують ветеранів.\n\n🔗 <a href=\"https://ain.ua/2026/11/13/jes-ta-ifc-zapuskaiut-programu-na-ponad-eur146-mln-dlia-malogo-i-serednyogo-biznesu/\">AIN.ua</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://ain.ua/2026/11/13/jes-ta-ifc-zapuskaiut-programu-na-ponad-eur146-mln-dlia-malogo-i-serednyogo-biznesu/",
+    "orig": "ЄС та IFC запускають програму на понад €146 млн для малого й середнього бізнесу"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10035,7 +10023,7 @@
    1794735166.9776022
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
-   1794574877.164015
+   1794751279.155413
   ],
   "software|Bloomberg|https://www.bloomberg.com/authors/AS7Hj1mBMGM/mark-gurman.rss": [
    1793547082.3914192
@@ -12169,6 +12157,7 @@
   "b71964586a613668": 1794101487.8059556,
   "b7242ad4a00ce74c": 1793656982.6360471,
   "b72b577840dfc276": 1793923274.512951,
+  "b761befe780aeb95": 1794751279.1553652,
   "b770fcb6738db72e": 1793601185.5302284,
   "b79d99b85665c970": 1794324720.406491,
   "b7a3c8d9703d447a": 1793637086.0724623,
@@ -12309,7 +12298,6 @@
   "c5124ec28a88d69c": 1793937769.570473,
   "c52547815a99c517": 1793815511.2137158,
   "c536c6239f83de86": 1793912679.5025377,
-  "c53bbbc928c25df1": 1793541657.803968,
   "c569f35d614e8300": 1794076281.363412,
   "c56a94d8d3eee212": 1794301294.5957663,
   "c56e348905d1aac9": 1794067281.717144,
@@ -14225,7 +14213,7 @@
   },
   "sources": {
    "/Film": 23,
-   "AIN.ua": 6,
+   "AIN.ua": 7,
    "Blabbermouth": 10,
    "Bloomberg": 42,
    "DOU": 8,
@@ -19442,6 +19430,10 @@
   [
    1794749693.5568879,
    "Корисні не лише в ясний день: вчені перетворили сонячні панелі на дощоміри"
+  ],
+  [
+   1794751279.155367,
+   "ЄС та IFC запускають програму на понад €146 млн для малого й середнього бізнесу"
   ]
  ],
  "titles_uk": [
@@ -20160,6 +20152,10 @@
   [
    1794749693.556889,
    "Корисні не лише в ясний день: вчені перетворили сонячні панелі на дощоміри"
+  ],
+  [
+   1794751279.155368,
+   "ЄС та IFC запускають програму на понад €146 млн для малого й середнього бізнесу"
   ]
  ],
  "ukrainian": {
@@ -22542,7 +22538,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794747686.0539422,
+  "last_check": 1794751287.8746734,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
