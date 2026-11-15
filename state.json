@@ -1,8 +1,15 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutErr",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1794711693.1136732
+  }
+ },
  "daily_digest_date": "2026-11-14",
  "freebies": {
-  "last_check": 1794704505.435193,
+  "last_check": 1794711892.0930355,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -29,61 +36,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-15 02:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-15 03:04 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794018684.4568279,
-   5228,
-   "🎮",
-   "У Steam стартував розпродаж цифрових настільних ігор",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/steam-digital-tabletop-fest-early-black-friday-deals-2026",
-    "orig": "Steam Is Having an Early Black Friday Sale on Digital Board Games Right Now"
-   }
-  ],
-  [
-   1794020481.8514209,
-   5229,
-   "🤘",
-   "Проєкт Dusted випустив новий сингл “Black Tattoo”",
-   "Stereogum",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://stereogum.com/2516785/dusted-black-tattoo-brian-borcherdt-holy-fuck/music/",
-    "orig": "Dusted – “Black Tattoo”"
-   }
-  ],
-  [
-   1794020483.733231,
-   5230,
-   "🤖",
-   "\"Зупинимо брудні дата-центри\": в Європі тривають масштабні протести",
-   "Mezha",
-   {
-    "also": [
-     [
-      "Bloomberg",
-      "https://www.bloomberg.com/news/articles/2026-11-07/ai-backlash-spreads-across-europe-with-data-center-protests"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/europe-protests-stop-dirty-data-centers-316977/",
-    "orig": "\"Зупинимо брудні дата-центри\": в Європі тривають масштабні протести"
-   }
-  ],
   [
    1794022370.0268407,
    5231,
@@ -8983,7 +8946,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Plannotator: робочий простір для контролю та співпраці з ШІ-агентами</b>\n\nІнструмент дозволяє координувати роботу автономних агентів: формувати завдання, планувати, залишати нотатки, переглядати код, ділитися напрацюваннями з командою та надсилати фідбек агентам в один клік. Підтримує спільну скриньку Inbox, перегляд дифів і PR, а також анотування специфікацій, планів, Markdown, HTML та інших інтерактивних артефактів: https://plannotator.ai\n\n🔗 <a href=\"https://github.com/backnotprop/plannotator\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/backnotprop/plannotator",
     "orig": "backnotprop/plannotator"
@@ -8997,7 +8959,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>Thunder: надшвидка персистентна база даних для ШІ-навантажень</b>\n\nОбговорення проєкту Thunder, створеного для роботи з ШІ\n\n🔗 <a href=\"https://www.producthunt.com/products/thunder-3\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/thunder-3",
     "orig": "Thunder"
@@ -9838,6 +9799,34 @@
     "link": "https://deadline.com/2026/11/nickelodeon-kids-choice-awards-winners-1237223740/",
     "orig": "Nickelodeon Kids’ Choice Awards: BTS, ‘Stranger Things’ & ‘KPop Demon Hunters’ Among Winners"
    }
+  ],
+  [
+   1794711880.020616,
+   5976,
+   "🎬",
+   "Це скетч-шоу 60-х стало одним із найбільших провалів в історії телебачення",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Це скетч-шоу 60-х стало одним із найбільших провалів в історії телебачення</b>\n\nСьогодні це сюрреалістичне скетч-шоу ідеально б вписалося в ефір Adult Swim. Але у 60-х воно стало історичним провалом\n\n🔗 <a href=\"https://www.slashfilm.com/2308325/turn-on-60s-sketch-show-biggest-flops-tv-history/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2308325/turn-on-60s-sketch-show-biggest-flops-tv-history/",
+    "orig": "This '60s Sketch Show Became One Of The Biggest Flops In TV History"
+   }
+  ],
+  [
+   1794711882.7635741,
+   5977,
+   "🤘",
+   "Лідер TIAMAT Йохан Едлунд потрапив до лікарні з крововиливом у мозок",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Лідер TIAMAT Йохан Едлунд потрапив до лікарні з крововиливом у мозок</b>\n\nФронтмен і засновник TIAMAT Йохан Едлунд переніс крововилив у мозок та наразі перебуває в лікарні. Через екстрену медичну ситуацію гурт скасував запланований на сьогодні концерт у Белграді.\n\n🔗 <a href=\"https://blabbermouth.net/news/tiamats-johan-edlund-suffers-brain-hemorrhage-belgrade-serbia-concert-canceled\">Blabbermouth</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/tiamats-johan-edlund-suffers-brain-hemorrhage-belgrade-serbia-concert-canceled",
+    "orig": "TIAMAT's JOHAN EDLUND Suffers Brain Hemorrhage; Belgrade, Serbia Concert Canceled"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9950,7 +9939,8 @@
    1794668477.2773163,
    1794695763.853563,
    1794699168.1069596,
-   1794702682.9902713
+   1794702682.9902713,
+   1794711880.020868
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792944099.3403795,
@@ -9995,10 +9985,9 @@
    1794636089.0109932
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1794610966.8876688,
-   1794619881.9929879,
    1794627078.9178865,
-   1794697284.9680853
+   1794697284.9680853,
+   1794711882.7638297
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -10501,6 +10490,7 @@
   "2343206f38040e0e": 1793912599.6595032,
   "236b1dfdc88c83a5": 1794331887.9148386,
   "237200f3fc0c28fc": 1793867502.5795617,
+  "23da551222d5fdb0": 1794711880.0208218,
   "23e328a2c6f8544b": 1794702682.9902213,
   "240fef8f68642036": 1793725254.2864459,
   "2412e135eaf937ab": 1793980856.010392,
@@ -10804,6 +10794,7 @@
   "3fb2a65184671418": 1793909072.0261939,
   "3fb95227d023a6bb": 1793892700.9536927,
   "3fe1930f9a39b73a": 1793561483.8291807,
+  "4004b0aa49fa9cdc": 1794711882.7637846,
   "4021c37ac54f3542": 1793718081.3862214,
   "4031e70586351989": 1793867500.6869516,
   "407a2548b3244750": 1793507577.1871667,
@@ -11526,6 +11517,7 @@
   "7d8321c30b48b6e4": 1794569525.33716,
   "7d84f4c94fbfdaae": 1793806445.8635557,
   "7d9881c254d70b08": 1793892883.3875897,
+  "7dccb487c29d857b": 1794711697.966141,
   "7dd2e688b5a7d77f": 1794044396.2106276,
   "7ddf93474cac452a": 1794171681.8344698,
   "7dea89799ae000b7": 1793721684.7566607,
@@ -13473,7 +13465,7 @@
   ],
   "artists_checked": 1794695778.2249558,
   "blocked_until": 1794695774.3424344,
-  "cursor": 165,
+  "cursor": 175,
   "digest_week": "2026-W46",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -14251,9 +14243,9 @@
    "Variety": 14
   },
   "sources": {
-   "/Film": 22,
+   "/Film": 23,
    "AIN.ua": 6,
-   "Blabbermouth": 9,
+   "Blabbermouth": 10,
    "Bloomberg": 41,
    "DOU": 8,
    "DOU Gamedev": 3,
@@ -14292,7 +14284,7 @@
   "translators": {
    "DeepL": 44,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 516
+   "gemini-flash-lite-latest": 519
   },
   "week": "2026-W46"
  },
@@ -18726,22 +18718,6 @@
  },
  "titles": [
   [
-   1794537169.1350505,
-   "‘Today’ Co-Host Savannah Guthrie Extends NBC News Contract"
-  ],
-  [
-   1794537172.487291,
-   "The 50th anniversary edition of Frank Zappa's Zoot Allures is much more than mere barrel scrapings"
-  ],
-  [
-   1794538893.904764,
-   "Watch Rosalía Perform a Lux Medley at the 2026 Latin Grammys"
-  ],
-  [
-   1794538904.7598712,
-   "Alanis Morissette Recalls ‘Dogma’ Co-Star Ben Affleck Asking Her Why She Didn’t “Lead With My Sexuality”"
-  ],
-  [
    1794540952.227646,
    "LoL Worlds 2026 Final Preview: Will Gen.G or BLG Claim The Trophy?"
   ],
@@ -19452,25 +19428,17 @@
   [
    1794709884.1091828,
    "Nickelodeon Kids’ Choice Awards: BTS, ‘Stranger Things’ & ‘KPop Demon Hunters’ Among Winners"
+  ],
+  [
+   1794711880.0208232,
+   "This '60s Sketch Show Became One Of The Biggest Flops In TV History"
+  ],
+  [
+   1794711882.7637866,
+   "TIAMAT's JOHAN EDLUND Suffers Brain Hemorrhage; Belgrade, Serbia Concert Canceled"
   ]
  ],
  "titles_uk": [
-  [
-   1794537169.1350513,
-   "Саванна Гатрі продовжила контракт з NBC News"
-  ],
-  [
-   1794537172.4872918,
-   "Вийшло ювілейне видання альбому Zoot Allures від Frank Zappa"
-  ],
-  [
-   1794538893.904765,
-   "Росалія виконала попурі з треків альбому Lux на Latin Grammys 2026"
-  ],
-  [
-   1794538904.7598722,
-   "Аланіс Моріссетт пригадала, як Бен Аффлек радив їй «демонструвати сексуальність» на зйомках фільму Dogma"
-  ],
   [
    1794540952.2276473,
    "Огляд фіналу чемпіонату світу з LoL 2026: хто здобуде трофей — Gen.G чи BLG?"
@@ -20182,6 +20150,14 @@
   [
    1794709884.109184,
    "BTS, Stranger Things і KPop Demon Hunters перемогли на Nickelodeon Kids’ Choice Awards"
+  ],
+  [
+   1794711880.020824,
+   "Це скетч-шоу 60-х стало одним із найбільших провалів в історії телебачення"
+  ],
+  [
+   1794711882.7637873,
+   "Лідер TIAMAT Йохан Едлунд потрапив до лікарні з крововиливом у мозок"
   ]
  ],
  "ukrainian": {
@@ -22564,7 +22540,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794708122.2819679,
+  "last_check": 1794711891.9999096,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
