@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1794722473.0064845
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1794722471.922245
+  }
+ },
  "daily_digest_date": "2026-11-14",
  "freebies": {
   "last_check": 1794720692.82243,
@@ -29,8 +42,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-15 05:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-15 06:02 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 2
@@ -40,63 +53,6 @@
   ]
  },
  "post_log": [
-  [
-   1794029570.3443115,
-   5238,
-   "🎬",
-   "Bill Maher потролив Trump після провалу на виборах: «Donnie, Are You OK?»",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/bill-maher-trump-midterms-loss-real-time-hbo-lindsey-graham-1236941912/",
-    "orig": "Bill Maher Rubs Salt in Trump’s Midterms Wound: ‘Donnie, Are You OK?’"
-   }
-  ],
-  [
-   1794029574.2469563,
-   5239,
-   "🎬",
-   "Chunghwa Telecom інвестує у 10 нових проєктів у кіно, телебаченні та музиці",
-   "Variety",
-   {
-    "also": [
-     [
-      "Deadline",
-      "https://deadline.com/2026/11/chang-chen-choi-siwon-kent-tsai-chunghwa-telecom-1237216224/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://variety.com/2026/film/markets-festivals/taiwan-chunghwa-telecom-backs-gunshot-call-of-lobster-1236941920/",
-    "orig": "Taiwan’s Chunghwa Telecom Unveils 10 Content Investments, From ‘Gunshot’ to ‘Call of Lobster’"
-   }
-  ],
-  [
-   1794031278.0844333,
-   5240,
-   "🎬",
-   "Чому в японському ремейку «Suits» марихуану замінили на готівку",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/markets-festivals/suits-japan-swapped-drugs-cash-nbcuniversal-tbs-format-localization-1236941878/",
-    "orig": "Why ‘Suits’ Japan Swapped Drugs for Cash: NBCUniversal, TBS Format Chiefs on Localizing Hits at Taiwan Creative Content Fest"
-   }
-  ],
-  [
-   1794031281.2423253,
-   5241,
-   "🎬",
-   "Шоуранери «Fire Country» та «Sheriff Country» розповіли про кросовер",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/fire-country-sheriff-country-crossover-episode-1236941480/",
-    "orig": "‘Fire Country’ and ‘Sheriff Country’ Bosses Break Down the Crossover Episode, ‘Con Air’ Influences and the Potential Romance That Wasn’t on the Page"
-   }
-  ],
   [
    1794033072.3803911,
    5242,
@@ -9009,7 +8965,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/1938090/\">Call of Duty</a> Endowment випустив Valor Pack до Дня пам&#x27;яті</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/3434370/\">Remembrance</a>\n\nCall of Duty Endowment закликає гравців Modern Warfare 4 і Warzone купувати Valor Pack, щоб допомогти ветеранам знайти роботу. Усі кошти від продажу наборів спрямовують на благодійність. Ініціатива приурочена до Дня пам&#x27;яті та 17-річчя організації.\n\n🔗 <a href=\"https://www.eurogamer.net/call-of-duty-endowment-valor-pack-remembrance-day-veterans\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/call-of-duty-endowment-valor-pack-remembrance-day-veterans",
     "orig": "Call of Duty Endowment marks Remembrance Day with veterans' Valor Pack push"
@@ -9023,7 +8978,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/2677660/\">Indiana Jones and the Great Circle</a> мав розшук у стилі GTA</b>\n\nПід час розробки Indiana Jones and the Great Circle студія MachineGames експериментувала із системою розшуку на кшталт GTA, щоб відучити гравців знищувати всіх нацистів виключно за допомогою вогнепальної зброї. Зрештою розробники вирішили цю проблему завдяки різноманітній ламкій ближній зброї на кшталт сковорідок та скрипок.\n\n🔗 <a href=\"https://www.pcgamer.com/games/action/indiana-jones-and-the-great-circle-once-had-a-grand-theft-auto-inspired-wanted-system-because-machinegames-was-afraid-players-would-kill-all-the-nazis-with-just-guns/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/action/indiana-jones-and-the-great-circle-once-had-a-grand-theft-auto-inspired-wanted-system-because-machinegames-was-afraid-players-would-kill-all-the-nazis-with-just-guns/",
     "orig": "Indiana Jones and the Great Circle once had a Grand Theft Auto inspired wanted system, because MachineGames was 'afraid' players would kill all the Nazis 'with just guns'"
@@ -9868,6 +9822,34 @@
     "link": "https://variety.com/2026/tv/news/amanda-seyfried-snl-host-debut-december-don-toliver-1236947942/",
     "orig": "Amanda Seyfried to Make Her Debut as ‘Saturday Night Live’ Host"
    }
+  ],
+  [
+   1794722570.2574205,
+   5988,
+   "🤘",
+   "Як Філ Манзанера допоміг Девіду Ґілмару створити фінальний альбом Pink Floyd",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Як Філ Манзанера допоміг Девіду Ґілмару створити фінальний альбом Pink Floyd</b>\n\nСтопка MiniDiscs перетворилася на сольник Ґілмора On An Island, після чого Манзанеру попросили повторити це для The Endless River\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/phil-manzanera-davif-gilmour-pink-floyd\">Metal Hammer (Louder)</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/phil-manzanera-davif-gilmour-pink-floyd",
+    "orig": "How Phil Manzanera reconnected with David Gilmour, leading to Pink Floyd’s final album"
+   }
+  ],
+  [
+   1794722573.6507342,
+   5989,
+   "🤘",
+   "Phil Collins емоційно відреагував на введення до Rock And Roll Hall Of Fame",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Phil Collins емоційно відреагував на введення до Rock And Roll Hall Of Fame</b>\n\nPhil Collins отримав індивідуальне визнання в Rock And Roll Hall Of Fame та заявив, що його кар&#x27;єра ще не закінчена. На церемонії в Лос-Анджелесі музикант з&#x27;явився з двома тростинами для підтримки, але пообіцяв повернутися до роботи в студії та не виключив можливість проведення концертів.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/phil-collins-rock-roll-hall-fame-induction-2026\">Metal Hammer (Louder)</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/phil-collins-rock-roll-hall-fame-induction-2026",
+    "orig": "“You haven't heard the last of me. I can promise you that”: Phil Collins gets emotional at Rock Hall induction"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10058,7 +10040,9 @@
    1794652341.239821,
    1794697281.7608986,
    1794699261.5175796,
-   1794717103.7216868
+   1794717103.7216868,
+   1794722570.25766,
+   1794722573.650976
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1794632474.2096412
@@ -10843,6 +10827,7 @@
   "3fb95227d023a6bb": 1793892700.9536927,
   "3fe1930f9a39b73a": 1793561483.8291807,
   "4004b0aa49fa9cdc": 1794711882.7637846,
+  "40185ced1634ed99": 1794722573.6509268,
   "4021c37ac54f3542": 1793718081.3862214,
   "4031e70586351989": 1793867500.6869516,
   "407e4309223feda2": 1793962977.5184963,
@@ -11521,7 +11506,6 @@
   "79b06dc5892f7b14": 1794072652.3176856,
   "79b8a6a025616032": 1793622673.6256464,
   "79d39a59a3c130fb": 1794607470.770798,
-  "79dd266b9cea90c1": 1793512880.274746,
   "7a09efd450dc1d7b": 1793912683.152562,
   "7a0a720b715addd0": 1794454276.5957723,
   "7a1a9fdba05583c6": 1794263376.6669595,
@@ -12559,6 +12543,7 @@
   "d40db588eb6dfd7c": 1794231054.60154,
   "d41420acb93245c1": 1794011452.4842267,
   "d442392587b4f0ea": 1793600511.1316695,
+  "d473cb58c4cce837": 1794722570.257613,
   "d47aac3559e44177": 1793869351.9697082,
   "d4939ded07807929": 1793826057.931267,
   "d4a9ee75a7756395": 1794391335.733212,
@@ -12907,7 +12892,6 @@
   "f3040aceb4d30279": 1794619753.424945,
   "f3083e479530037a": 1794459677.3013132,
   "f386aaa207a548e4": 1794558686.766569,
-  "f39a7fe4bd5423cf": 1793512878.3441641,
   "f39ee164130692dc": 1793554255.0551445,
   "f3a9a6d85e17f21f": 1793804532.4648266,
   "f3c2d620e44aeae6": 1794342653.1379323,
@@ -14315,7 +14299,7 @@
    "Kerrang!": 1,
    "Lambgoat": 27,
    "Loudwire": 3,
-   "Metal Hammer (Louder)": 21,
+   "Metal Hammer (Louder)": 23,
    "Metal Injection": 2,
    "Mezha": 40,
    "Neformat": 13,
@@ -14335,7 +14319,7 @@
   "translators": {
    "DeepL": 44,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 531
+   "gemini-flash-lite-latest": 533
   },
   "week": "2026-W46"
  },
@@ -15590,11 +15574,6 @@
    "Bullet Ballet",
    1792418629.8256197
   ],
-  "q:call of duty": [
-   1938090,
-   "Call of Duty®",
-   1792129236.7939193
-  ],
   "q:call of duty endowment": [
    0,
    "",
@@ -16054,11 +16033,6 @@
    379720,
    "DOOM",
    1794571281.5455735
-  ],
-  "q:dota 2": [
-   570,
-   "Dota 2",
-   1792129284.3772893
   ],
   "q:dragon ball xenoverse 2": [
    454650,
@@ -18829,14 +18803,6 @@
  },
  "titles": [
   [
-   1794549691.605746,
-   "New 4-minute Fable gameplay trailer shows a game that doesn't look much like Fable"
-  ],
-  [
-   1794549698.9706082,
-   "Latin Grammy Awards 2026 Winners: Rosalía Wins Her Third Album Of The Year — Full List"
-  ],
-  [
    1794551489.7444541,
    "Sony's Bringing Back Spider-Man $2.5 Billion Hit With New Footage"
   ],
@@ -19551,17 +19517,17 @@
   [
    1794720683.1718035,
    "Amanda Seyfried to Make Her Debut as ‘Saturday Night Live’ Host"
+  ],
+  [
+   1794722570.2576146,
+   "How Phil Manzanera reconnected with David Gilmour, leading to Pink Floyd’s final album"
+  ],
+  [
+   1794722573.6509292,
+   "“You haven't heard the last of me. I can promise you that”: Phil Collins gets emotional at Rock Hall induction"
   ]
  ],
  "titles_uk": [
-  [
-   1794549691.6057475,
-   "Xbox показав чотири хвилини геймплею перезапуску Fable"
-  ],
-  [
-   1794549698.9706094,
-   "Rosalía здобула третю перемогу в категорії «Альбом року» на Latin Grammy Awards 2026"
-  ],
   [
    1794551489.744455,
    "Sony повертає в кінотеатри блокбастер Spider-Man: Brand New Day з новими кадрами"
@@ -20277,6 +20243,14 @@
   [
    1794720683.1718042,
    "Аманда Сейфрід уперше стане ведучою Saturday Night Live"
+  ],
+  [
+   1794722570.2576153,
+   "Як Філ Манзанера допоміг Девіду Ґілмару створити фінальний альбом Pink Floyd"
+  ],
+  [
+   1794722573.6509302,
+   "Phil Collins емоційно відреагував на введення до Rock And Roll Hall Of Fame"
   ]
  ],
  "ukrainian": {
