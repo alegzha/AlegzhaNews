@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1794745866.7952714
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1794745865.8530865
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-14",
  "freebies": {
   "last_check": 1794744171.151948,
@@ -10740,7 +10727,6 @@
   "37fc5e8b57a527b1": 1793707330.2378376,
   "3809cdc19b7d03a5": 1794218581.2804193,
   "381b5f58746d6387": 1794126673.0223253,
-  "382c0175b0e0a7a3": 1793536282.3704221,
   "3859791d3bf42656": 1794501093.1854599,
   "385b4d2382269474": 1794493853.6947322,
   "387d59961ecdd4ea": 1793881969.4854937,
@@ -10848,7 +10834,6 @@
   "42306817435af783": 1793727092.1078324,
   "428bb17898f2b719": 1793901723.8097148,
   "42984313622662ae": 1794263382.7341657,
-  "42a5dfc85a6bfac5": 1793538055.0085032,
   "42b60ca4012171c1": 1793565052.9826593,
   "42b8a5165a052554": 1793730750.3044915,
   "42ced3c4e720e22b": 1794145167.6816053,
@@ -10885,7 +10870,6 @@
   "458cefb8dfb04aa8": 1793885529.5324147,
   "459866361dbd4e14": 1794448884.4600258,
   "459cf8b7d12fd46f": 1794313873.8865442,
-  "45fcb87da41bb89f": 1793536274.492582,
   "4613fbf4e742339a": 1793761318.779501,
   "46543acef25d9106": 1794546054.4432764,
   "466c18f796cb2e91": 1793773882.0759587,
@@ -11266,7 +11250,9 @@
   "6832d00d5055987f": 1794630680.5273528,
   "684ece845f1296b8": 1793613677.484527,
   "688295274d88c736": 1794443492.7068605,
+  "688ef3f2dc4b3697": 1794747655.1469178,
   "689c1996862c7e40": 1794463287.9110885,
+  "68c7910dbf502e8c": 1794747655.1469178,
   "68d13fafc7c56e1c": 1794223852.0687604,
   "68e8ca1575e78dba": 1793553105.0773208,
   "68f3cf0a92827aee": 1794725136.8755693,
@@ -12271,7 +12257,6 @@
   "bc4a3c13f739bed8": 1793849499.6063247,
   "bc6cd049e9a32803": 1794502963.9584627,
   "bc99d51b9f4a910e": 1793763078.3152146,
-  "bcb95eefa8ef4f5b": 1793536278.236502,
   "bcd35440bc852b1c": 1793989903.2467942,
   "bcea0162abb29c7f": 1793919656.8897884,
   "bcfafe0f329c82f0": 1793872936.839472,
@@ -12700,6 +12685,7 @@
   "e1fddcf8698b72f9": 1793736134.4477098,
   "e20aa9d9cae2afd3": 1793824280.7684836,
   "e212f2282cf26886": 1793944885.907497,
+  "e2155bb3ad00fed6": 1794747655.1469178,
   "e227ca7fe05e4f6e": 1794362593.0668566,
   "e247fdaf6cfab9e8": 1793914324.3424413,
   "e266f4e112858e45": 1794378724.7712657,
@@ -14244,7 +14230,7 @@
    "Халява": 1
   },
   "filtered": {
-   "/Film": 31,
+   "/Film": 33,
    "Bloomberg": 3,
    "Deadline": 6,
    "Eurogamer": 1,
@@ -14259,7 +14245,7 @@
    "Mezha": 1,
    "PC Gamer": 3,
    "Pitchfork": 1,
-   "Polygon": 65,
+   "Polygon": 66,
    "Revolver": 1,
    "SteamDB": 1,
    "The Decoder": 2,
@@ -18699,14 +18685,14 @@
    "amd",
    "euro truck simulator 2",
    "euro truck simulator 2 - coaches",
+   "facebook",
    "farsight vision",
    "galaxy s27",
    "gta 6",
    "intel",
-   "playstation",
+   "meta",
    "ramayana: rise of a legend",
    "uber",
-   "xbox",
    "авто",
    "авіація",
    "вибір редакції",
@@ -18726,6 +18712,7 @@
    "рамаяна: народження легенди",
    "росія",
    "смартфони",
+   "соціальні мережі",
    "статті",
    "фільми",
    "хакерські атаки",
@@ -18734,18 +18721,6 @@
   ]
  },
  "titles": [
-  [
-   1794573079.6083274,
-   "‘Facing The Numbers:’ Kieran Satour & Tyson Perkins On Telling An Authentic First Nations Story With Their Breakout Hybrid Feature"
-  ],
-  [
-   1794573175.1934254,
-   "Jason Voorhees Returns: Steve Miner To Direct 13th Entry Of ‘Friday The 13th,’ First Film In Franchise In Nearly Two Decades"
-  ],
-  [
-   1794574877.1639757,
-   "ReBuild Ukraine 2026: ЄС оголосив нові програми на €376 млн, а українські кластери представили рішення для відбудови"
-  ],
   [
    1794574970.8973136,
    "International Insider: AFM Deep Dive; Walliams Scandal; ‘Ebenezer’ In London"
@@ -19460,18 +19435,6 @@
   ]
  ],
  "titles_uk": [
-  [
-   1794573079.608328,
-   "Кіран Сатур і Тайсон Перкінс випустили документальний проєкт Facing The Numbers"
-  ],
-  [
-   1794573175.1934261,
-   "Стів Майнер зніме 13-й фільм франшизи Friday the 13th із поверненням Jason Voorhees"
-  ],
-  [
-   1794574877.1639767,
-   "ReBuild Ukraine 2026: ЄС оголосив нові програми на €376 млн, а українські кластери представили рішення для відбудови"
-  ],
   [
    1794574970.8973148,
    "Міжнародний інсайдер: розбір AFM, скандал із Walliams та «Ebenezer» у Лондоні"
@@ -20766,8 +20729,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1794726090.7837303,
-  "with_uk": 108
+  "last_check": 1794747695.1159084,
+  "with_uk": 107
  },
  "weekly_releases_week": "2026-W46",
  "wishlist": {
@@ -22565,7 +22528,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794744170.784567,
+  "last_check": 1794747686.0539422,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
