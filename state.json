@@ -1,15 +1,8 @@
 {
- "alerts": {
-  "src:software|AIN.ua|https://ain.ua/feed/": {
-   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «AIN.ua» не працює",
-   "sent": 0,
-   "since": 1794771096.3467672
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-15",
  "freebies": {
-  "last_check": 1794765696.9962268,
+  "last_check": 1794772974.1216657,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -36,30 +29,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-15 19:32 UTC",
-  "gemini_error": "",
+  "at": "2026-11-15 20:02 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794081727.181996,
-   5287,
-   "🤖",
-   "Anthropic вийде на IPO до Дня подяки зі зниженою оцінкою",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/anthropic-pushes-ahead-with-pre-thanksgiving-ipo-despite-tech-selloff-accepts-lower-valuation/",
-    "orig": "Anthropic pushes ahead with pre-Thanksgiving IPO despite tech selloff, accepts lower valuation"
-   }
-  ],
   [
    1794083478.7345574,
    5288,
@@ -8971,7 +8951,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Murderdolls оголосили склад учасників для реюніон-шоу</b>\n\nГурт Murderdolls розкрив склад музикантів для реюніон-концертів наступного року. До колективу увійшли оригінальні учасники Wednesday 13, Eric Griffin та Acey Slade, а також музиканти сольного проєкту Wednesday 13 — Mike Dupke та Jack Tankersley. Виступи присвятять 25-річчю альбому Beyond The Valley Of The Murderdolls та пам&#x27;яті покійних Joey Jordison і Ben Graves.\n\n🔗 <a href=\"https://lambgoat.com/news/55901/murderdolls-officially-confirm-their-reunion-lineup/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55901/murderdolls-officially-confirm-their-reunion-lineup/",
     "orig": "Murderdolls officially confirm their reunion lineup"
@@ -9821,6 +9800,20 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-15/vc-firm-run-by-madonna-s-manager-has-7-billion-anthropic-stake",
     "orig": "VC Firm Run by Madonna’s Manager Has $7 Billion Anthropic Stake"
    }
+  ],
+  [
+   1794772972.171261,
+   6033,
+   "🤖",
+   "Фірма, пов'язана з колишньою коханою Jensen Huang, нібито провела замовлень чіпів Nvidia для Китаю на майже $12 млрд",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Фірма, пов&#x27;язана з колишньою коханою Jensen Huang, нібито провела замовлень чіпів Nvidia для Китаю на майже $12 млрд</b>\n\nКомпанія Megaspeed, яка належить колишній коханій колишнього очільника Nvidia Jensen Huang — Alice Huang, у період з 2024 по 2025 рік організувала постачання чіпів Nvidia для китайських компаній на суму близько $12 млрд, повідомляє WSJ. За оцінками шортселлера Culper Research, реальна частка виручки Nvidia в Китаї перевищує 20%, що значно вище за офіційно задекларовані 7%.\n\n🔗 <a href=\"https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/firm-linked-to-jensen-huangs-ex-lover-reportedly-brokered-nearly-12-billion-in-nvidia-chip-orders-for-china/",
+    "orig": "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9853,7 +9846,8 @@
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1794688284.0626576,
    1794690162.9913428,
-   1794771126.348783
+   1794771126.348783,
+   1794772972.1715162
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1793370738.9416513
@@ -10461,7 +10455,6 @@
   "21d0933180612bf7": 1793988094.1415625,
   "21eb099d4d049c74": 1794564188.1661212,
   "21f61a24de74bd6b": 1793720145.5981388,
-  "21fcd70f6694d569": 1793563252.4594228,
   "2209ca018fef27f6": 1793887398.4071934,
   "221b3f216a71272d": 1793703681.599376,
   "22230d807f4ec09b": 1794438052.6129565,
@@ -11373,7 +11366,6 @@
   "747d4ce4fbb69f19": 1793739677.6958723,
   "748519dc6cabaae7": 1793622675.0267966,
   "748c8f3fc6d8603e": 1794409282.7311387,
-  "749eeda51b56231e": 1793563252.4594228,
   "74bda49a8cd3e751": 1794186046.0341835,
   "74e2a74d8e7af469": 1793736131.647855,
   "74f4dc23960b0083": 1793646092.2662385,
@@ -11615,6 +11607,7 @@
   "897c983913b197f6": 1793885644.246963,
   "897e230eae85ab42": 1793626277.3856006,
   "89a04f14fe7bcd31": 1794504679.8192382,
+  "89af4559da72d4cc": 1794772972.1714723,
   "89b1f5bfbda1a562": 1794648652.8129776,
   "89c62d8965d47965": 1793912612.6819906,
   "89e558f7f64154ab": 1794666687.7072842,
@@ -11730,7 +11723,6 @@
   "932685bbf824e5b5": 1793647904.9881756,
   "9328428ce2953fe6": 1794157296.8875062,
   "9333c0d0080f4c3c": 1793739677.6956937,
-  "933df02f37cc7362": 1793563295.7339947,
   "935023f59f00a5f8": 1793718131.6967964,
   "936ae3c3abd74c82": 1793797275.1181605,
   "939467b5e073e5e2": 1793750499.2712302,
@@ -12074,6 +12066,7 @@
   "b165097410c7b267": 1793723597.1706493,
   "b1653e0002ca97af": 1793718371.7518206,
   "b175f947cd0ebc2e": 1794022373.6541386,
+  "b196e95258849c92": 1794772855.921209,
   "b19f27cefa4a2508": 1794279784.2837017,
   "b1c3b002c73dbe85": 1793613839.0723276,
   "b1cd52710041421c": 1794224076.959424,
@@ -14172,7 +14165,7 @@
    "Mezha": 1,
    "PC Gamer": 3,
    "Pitchfork": 1,
-   "Polygon": 67,
+   "Polygon": 68,
    "Revolver": 1,
    "SteamDB": 1,
    "The Decoder": 2,
@@ -14214,7 +14207,7 @@
    "Rock Paper Shotgun": 12,
    "SteamDB": 7,
    "Stereogum": 4,
-   "The Decoder": 22,
+   "The Decoder": 23,
    "ThePRP": 10,
    "VGC": 7,
    "Variety": 37
@@ -14222,7 +14215,7 @@
   "translators": {
    "DeepL": 56,
    "gemini-flash-latest": 20,
-   "gemini-flash-lite-latest": 566
+   "gemini-flash-lite-latest": 567
   },
   "week": "2026-W46"
  },
@@ -18780,18 +18773,6 @@
  },
  "titles": [
   [
-   1794598371.811613,
-   "Anthropic CEO Calls Computing Power ‘Deepest Business Dilemma’"
-  ],
-  [
-   1794599661.4689064,
-   "Build a Robot Pick-and-Place Simulation with SimReady Assets"
-  ],
-  [
-   1794600173.2371068,
-   "Meta's Muse now calls businesses for you, but many companies might just hang up on the AI"
-  ],
-  [
    1794601881.9485278,
    "Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life"
   ],
@@ -19458,21 +19439,13 @@
   [
    1794771138.1197312,
    "VC Firm Run by Madonna’s Manager Has $7 Billion Anthropic Stake"
+  ],
+  [
+   1794772972.1714737,
+   "Firm linked to Jensen Huang's ex-lover reportedly brokered nearly $12 billion in Nvidia chip orders for China"
   ]
  ],
  "titles_uk": [
-  [
-   1794598371.8116148,
-   "Голова Anthropic назвав пошук обчислювальних потужностей головною дилемою бізнесу"
-  ],
-  [
-   1794599661.4689078,
-   "Створюємо симуляцію робота для сортування за допомогою асетів SimReady"
-  ],
-  [
-   1794600173.2371078,
-   "ШІ-агент Muse від Meta тепер може самостійно телефонувати до компаній замість користувачів"
-  ],
   [
    1794601881.948529,
    "Звільнення Дженсена Хуанга пов'язане з ризикованою бізнес-практикою Nvidia"
@@ -20140,6 +20113,10 @@
   [
    1794771138.119732,
    "Фонд менеджера Madonna володіє часткою в Anthropic на $7 млрд"
+  ],
+  [
+   1794772972.1714745,
+   "Фірма, пов'язана з колишньою коханою Jensen Huang, нібито провела замовлень чіпів Nvidia для Китаю на майже $12 млрд"
   ]
  ],
  "ukrainian": {
