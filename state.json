@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1794745866.7952714
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1794745865.8530865
+  }
+ },
  "daily_digest_date": "2026-11-14",
  "freebies": {
   "last_check": 1794744171.151948,
@@ -15210,11 +15223,6 @@
    "Angelfall",
    1792765964.524343
   ],
-  "q:announced": [
-   0,
-   "",
-   1794571283.6826596
-  ],
   "q:another day": [
    2412640,
    "Another Day",
@@ -17320,11 +17328,6 @@
    "New Era",
    1793530891.7137573
   ],
-  "q:new game": [
-   0,
-   "",
-   1794571280.8621292
-  ],
   "q:new game plus": [
    0,
    "",
@@ -17354,16 +17357,6 @@
    0,
    "",
    1794672115.553456
-  ],
-  "q:new wolfenstein": [
-   0,
-   "",
-   1794571282.5915647
-  ],
-  "q:new wolfenstein announced": [
-   0,
-   "",
-   1794571282.0634692
   ],
   "q:nier automata": [
    524220,
@@ -18635,11 +18628,6 @@
    "",
    1794655882.4953375
   ],
-  "q:wolfenstein announced": [
-   0,
-   "",
-   1794571283.1036885
-  ],
   "q:workers resources soviet republic": [
    784150,
    "Workers & Resources: Soviet Republic",
@@ -18746,10 +18734,6 @@
   ]
  },
  "titles": [
-  [
-   1794571372.1144528,
-   "Steam's submission and approval backlog is forcing indie devs to delay game launches"
-  ],
   [
    1794573079.6083274,
    "‘Facing The Numbers:’ Kieran Satour & Tyson Perkins On Telling An Authentic First Nations Story With Their Breakout Hybrid Feature"
@@ -19476,10 +19460,6 @@
   ]
  ],
  "titles_uk": [
-  [
-   1794571372.1144538,
-   "Черги на модерацію у Steam змушують інді-розробників переносити релізи"
-  ],
   [
    1794573079.608328,
    "Кіран Сатур і Тайсон Перкінс випустили документальний проєкт Facing The Numbers"
