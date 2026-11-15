@@ -1,5 +1,24 @@
 {
- "alerts": {},
+ "alerts": {
+  "gemini": {
+   "detail": "Expecting ':' delimiter: line 4 column 1 (char 375)\nПерекладаю через DeepL і Google. Денний ліміт, що закінчився на кілька годин, — це нормально; сповіщаю лише якщо Gemini не працює цілу добу (напр., ключ недійсний).",
+   "label": "Gemini не перекладає вже добу",
+   "sent": 0,
+   "since": 1794725141.496534
+  },
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1794725125.1935604
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1794725124.255655
+  }
+ },
  "daily_digest_date": "2026-11-14",
  "freebies": {
   "last_check": 1794720692.82243,
@@ -29,15 +48,12 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-15 06:36 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-lite-latest",
-  "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
-  },
+  "at": "2026-11-15 06:45 UTC",
+  "gemini_error": "Expecting ':' delimiter: line 4 column 1 (char 375)",
+  "gemini_model": null,
+  "gemini_models_used": {},
   "used": [
-   "DeepL",
-   "Gemini"
+   "DeepL"
   ]
  },
  "post_log": [
@@ -8979,7 +8995,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Cinephil придбала права на документальну стрічку Small Expectations Александру Соломона</b>\n\nКомпанія Cinephil стала міжнародним дистриб&#x27;ютором документального фільму Small Expectations режисера Александру Соломона перед його прем&#x27;єрою на IDFA. Стрічка досліджує хаотичну президентську кампанію 2025 року в Румунії, де незалежний кандидат Нікушор Дан змагався з ультраправими силами на тлі дезінформації та втручання з боку РФ.\n\n🔗 <a href=\"https://deadline.com/2026/11/cinephil-alexandru-solomon-small-expectations-idfa-1237223722/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/cinephil-alexandru-solomon-small-expectations-idfa-1237223722/",
     "orig": "Cinephil Boards Alexandru Solomon’s Romanian Election Doc ‘Small Expectations’ – IDFA"
@@ -8993,7 +9008,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>У третьому сезоні The Lord of the Rings: The Rings of Power покажуть людський бік Nazgûl</b>\n\nУ третьому сезоні серіалу The Lord of the Rings: The Rings of Power Sauron залучає майбутніх Nazgûl, даруючи людям кільця, що зцілюють та дарують силу в обмін на поступову втрату свободи. Шоуранери Патрік Маккей і Дж. Д. Пейн та режисерка Шарлотта Брандстрем прагнули показати людську сутність персонажів до їх остаточного перетворення на похмурих привидів.\n\n🔗 <a href=\"https://www.polygon.com/rings-of-power-season-3-nazgnagol-vs-nazgul-explained/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/rings-of-power-season-3-nazgnagol-vs-nazgul-explained/",
     "orig": "Rings of Power Just Changed the Nazgul in 1 Terrifying Way: ‘They Still Have a Human Side’"
@@ -9838,6 +9852,34 @@
     "link": "https://variety.com/2026/tv/news/john-mulaney-mocks-robert-f-kennedy-jr-snl-monologue-1236947905/",
     "orig": "John Mulaney Mocks Robert F. Kennedy Jr. in ‘SNL’ Monologue: ‘No One Likes Him. You Dumbass … Your Thing Can’t Be the Measles!’"
    }
+  ],
+  [
+   1794725136.875381,
+   5992,
+   "🎮",
+   "У будівлі офісу компанії inXile пролунали постріли; про постраждалих не повідомляється",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>У будівлі офісу компанії inXile пролунали постріли; про постраждалих не повідомляється</b>\n\nНіхто не постраждав після того, як у будівлі в Тустіні, де розташована студія inXile, що розробляє ігри для Xbox, пролунали постріли. Підозрюваного затримано, а мотив злочину поки що залишається нез’ясованим.\n\n🔗 <a href=\"https://insider-gaming.com/inxile-building-shooting-no-injuries/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/inxile-building-shooting-no-injuries/",
+    "orig": "inXile Office Building Hit by Gunfire; No Injuries Reported"
+   }
+  ],
+  [
+   1794725139.9955745,
+   5993,
+   "🎬",
+   "Боуен Ян представляє скетч «Oh Mary!» у програмі «SNL» у вигляді грандіозного музичного номера",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Боуен Ян представляє скетч «Oh Mary!» у програмі «SNL» у вигляді грандіозного музичного номера</b>\n\nКоли Боуен Ян взяв перерву у зйомках серіалу «Oh Mary!» і повернувся додому, у «Studio 8H», він привів першу леді на шоу «Saturday Night Live». У суботу номінант на премію «Тоні» несподівано з’явився в ролі Мері Тодд Лінкольн у музичному скетчі «The Little Park of Horrors», виконавши пародію на пісню з мюзиклу «Dreamgirls» […]\n\n🔗 <a href=\"https://deadline.com/2026/11/bowen-yang-oh-mary-snl-musical-sketch-1237224406/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/bowen-yang-oh-mary-snl-musical-sketch-1237224406/",
+    "orig": "Bowen Yang Brings ‘Oh Mary!’ To ‘SNL’ With Epic Musical Sketch"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9910,7 +9952,8 @@
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
    1794704489.7478528,
-   1794718886.1458957
+   1794718886.1458957,
+   1794725136.8756306
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1794657687.3126683,
@@ -9957,7 +10000,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1794637883.8932812,
    1794643281.1091259,
    1794661281.0355153,
    1794693772.9294326,
@@ -9971,7 +10013,8 @@
    1794713481.8761437,
    1794715283.2245018,
    1794718893.7047057,
-   1794720679.8037286
+   1794720679.8037286,
+   1794725139.9958117
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794663071.9451547
@@ -11261,6 +11304,7 @@
   "689c1996862c7e40": 1794463287.9110885,
   "68d13fafc7c56e1c": 1794223852.0687604,
   "68e8ca1575e78dba": 1793553105.0773208,
+  "68f3cf0a92827aee": 1794725136.8755693,
   "6902d19fb6a81565": 1793711002.6699135,
   "690405cdfdae1279": 1794695750.8160481,
   "692617833aad1b71": 1794492082.919936,
@@ -12102,6 +12146,7 @@
   "ae4646f6d8e728ae": 1794431113.3806431,
   "ae5717cb2c959315": 1793583091.8493834,
   "ae7e1b49da25222b": 1793824300.7045074,
+  "ae89cb80d8abb581": 1794725127.997097,
   "aea1cd04b4d47aca": 1793912628.560426,
   "aea5e35fc67530fd": 1794224793.0624897,
   "aeb73e76581d7e63": 1794623453.1714458,
@@ -12879,6 +12924,7 @@
   "f2f96cdad9d06291": 1793957484.8537347,
   "f3040aceb4d30279": 1794619753.424945,
   "f3083e479530037a": 1794459677.3013132,
+  "f31eeeaad90757f9": 1794725139.9957623,
   "f386aaa207a548e4": 1794558686.766569,
   "f39ee164130692dc": 1793554255.0551445,
   "f3a9a6d85e17f21f": 1793804532.4648266,
@@ -14272,7 +14318,7 @@
    "Bloomberg": 41,
    "DOU": 8,
    "DOU Gamedev": 3,
-   "Deadline": 95,
+   "Deadline": 96,
    "Digital Foundry": 1,
    "Distorted Sound": 7,
    "Eurogamer": 14,
@@ -14283,7 +14329,7 @@
    "IGN": 12,
    "ITC.ua": 37,
    "IndieWire": 6,
-   "Insider Gaming": 22,
+   "Insider Gaming": 23,
    "Kerrang!": 1,
    "Lambgoat": 27,
    "Loudwire": 4,
@@ -14305,7 +14351,7 @@
    "Variety": 36
   },
   "translators": {
-   "DeepL": 45,
+   "DeepL": 49,
    "gemini-flash-latest": 16,
    "gemini-flash-lite-latest": 536
   },
@@ -15317,11 +15363,6 @@
    "Athanasia",
    1792409515.1002765
   ],
-  "q:back spider man 2 5 billion hit with": [
-   0,
-   "",
-   1794551487.0901482
-  ],
   "q:baldur's gate": [
    228280,
    "Baldur's Gate: Enhanced Edition",
@@ -15502,36 +15543,6 @@
    "Boss Rush",
    1792413147.0418508
   ],
-  "q:bringing": [
-   0,
-   "",
-   1794551486.5995553
-  ],
-  "q:bringing back": [
-   0,
-   "",
-   1794551485.9889657
-  ],
-  "q:bringing back spider man": [
-   0,
-   "",
-   1794551485.532379
-  ],
-  "q:bringing back spider man 2 5": [
-   0,
-   "",
-   1794551484.939665
-  ],
-  "q:bringing back spider man 2 5 billion": [
-   0,
-   "",
-   1794551484.4247386
-  ],
-  "q:bringing back spider man 2 5 billion hit": [
-   0,
-   "",
-   1794551483.9431794
-  ],
   "q:brutal legend": [
    225260,
    "Brutal Legend",
@@ -15546,6 +15557,16 @@
    2289860,
    "Buggy",
    1793657100.1779923
+  ],
+  "q:building": [
+   0,
+   "",
+   1794725130.575766
+  ],
+  "q:building hit": [
+   0,
+   "",
+   1794725130.0593636
   ],
   "q:bulkhead": [
    1467670,
@@ -16477,6 +16498,11 @@
    "",
    1794576679.041489
   ],
+  "q:gunfire": [
+   0,
+   "",
+   1794725131.6263835
+  ],
   "q:habitat": [
    299340,
    "Habitat",
@@ -16546,6 +16572,11 @@
    785890,
    "Hexologic",
    1793295448.4804857
+  ],
+  "q:hit": [
+   0,
+   "",
+   1794725131.1010232
   ],
   "q:hobbes'": [
    0,
@@ -16651,6 +16682,16 @@
    2677660,
    "Indiana Jones and the Great Circle",
    1794655882.998761
+  ],
+  "q:injuries": [
+   0,
+   "",
+   1794725133.6422734
+  ],
+  "q:injuries reported": [
+   0,
+   "",
+   1794725133.1333995
   ],
   "q:input": [
    4016010,
@@ -17047,36 +17088,6 @@
    "",
    1794654076.024361
   ],
-  "q:makes": [
-   0,
-   "",
-   1794551496.576697
-  ],
-  "q:makes popular": [
-   0,
-   "",
-   1794551496.0796027
-  ],
-  "q:makes popular world": [
-   0,
-   "",
-   1794551495.6084297
-  ],
-  "q:makes popular world war": [
-   0,
-   "",
-   1794551495.1033056
-  ],
-  "q:makes popular world war 2": [
-   0,
-   "",
-   1794551494.608836
-  ],
-  "q:makes popular world war 2 strategy": [
-   0,
-   "",
-   1794551494.0618157
-  ],
   "q:mama": [
    4227120,
    "Mama",
@@ -17402,6 +17413,16 @@
    "Nightshade/百花百狼",
    1793025235.4720597
   ],
+  "q:no injuries": [
+   0,
+   "",
+   1794725132.630661
+  ],
+  "q:no injuries reported": [
+   0,
+   "",
+   1794725132.1284537
+  ],
   "q:no man's land": [
    3863620,
    "No Man's Land",
@@ -17441,6 +17462,21 @@
    3339880,
    "OFF",
    1793142162.0413911
+  ],
+  "q:office": [
+   0,
+   "",
+   1794725129.5612473
+  ],
+  "q:office building": [
+   0,
+   "",
+   1794725129.0345628
+  ],
+  "q:office building hit": [
+   0,
+   "",
+   1794725128.5286772
   ],
   "q:officially in production": [
    0,
@@ -17641,11 +17677,6 @@
    1721470,
    "Poppy Playtime",
    1793109786.3838956
-  ],
-  "q:popular world war 2 strategy game": [
-   0,
-   "",
-   1794551497.0406137
   ],
   "q:portal": [
    400,
@@ -17877,6 +17908,11 @@
    "Remove: 범죄는 흔적을 남긴다",
    1792803803.3787062
   ],
+  "q:reported": [
+   0,
+   "",
+   1794725134.1520126
+  ],
   "q:resident evil requiem": [
    3764200,
    "Resident Evil Requiem",
@@ -18092,31 +18128,6 @@
    "Songs of the Past",
    1794223983.8362014
   ],
-  "q:sony's bringing": [
-   0,
-   "",
-   1794551483.4565623
-  ],
-  "q:sony's bringing back": [
-   0,
-   "",
-   1794551482.9957771
-  ],
-  "q:sony's bringing back spider man": [
-   0,
-   "",
-   1794551482.537308
-  ],
-  "q:sony's bringing back spider man 2 5": [
-   0,
-   "",
-   1794551482.080305
-  ],
-  "q:sony's bringing back spider man 2 5 billion": [
-   0,
-   "",
-   1794551481.6168294
-  ],
   "q:soul eater": [
    2836250,
    "Soul Eater",
@@ -18271,31 +18282,6 @@
    1675200,
    "Steam Deck",
    1792490502.854336
-  ],
-  "q:steam makes": [
-   0,
-   "",
-   1794551493.5888379
-  ],
-  "q:steam makes popular": [
-   0,
-   "",
-   1794551493.1120934
-  ],
-  "q:steam makes popular world": [
-   0,
-   "",
-   1794551492.6544156
-  ],
-  "q:steam makes popular world war": [
-   0,
-   "",
-   1794551492.1992366
-  ],
-  "q:steam makes popular world war 2": [
-   0,
-   "",
-   1794551491.7048388
   ],
   "q:steam next fest": [
    1673210,
@@ -19503,6 +19489,14 @@
   [
    1794724560.940139,
    "John Mulaney Mocks Robert F. Kennedy Jr. in ‘SNL’ Monologue: ‘No One Likes Him. You Dumbass … Your Thing Can’t Be the Measles!’"
+  ],
+  [
+   1794725136.8755715,
+   "inXile Office Building Hit by Gunfire; No Injuries Reported"
+  ],
+  [
+   1794725139.9957647,
+   "Bowen Yang Brings ‘Oh Mary!’ To ‘SNL’ With Epic Musical Sketch"
   ]
  ],
  "titles_uk": [
@@ -20229,6 +20223,14 @@
   [
    1794724560.94014,
    "Джон Мулані висміяв Роберта Ф. Кеннеді-молодшого в монолозі на SNL"
+  ],
+  [
+   1794725136.8755727,
+   "У будівлі офісу компанії inXile пролунали постріли; про постраждалих не повідомляється"
+  ],
+  [
+   1794725139.9957654,
+   "Боуен Ян представляє скетч «Oh Mary!» у програмі «SNL» у вигляді грандіозного музичного номера"
   ]
  ],
  "ukrainian": {
