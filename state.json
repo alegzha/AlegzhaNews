@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Loudwire|https://loudwire.com/feed/": {
+   "detail": "https://loudwire.com/feed/ → HTTPSConnectionPool(host='loudwire.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Loudwire» не працює",
+   "sent": 0,
+   "since": 1794749486.908896
+  }
+ },
  "daily_digest_date": "2026-11-14",
  "freebies": {
   "last_check": 1794744171.151948,
@@ -29,91 +36,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-15 12:02 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-latest",
+  "at": "2026-11-15 13:34 UTC",
+  "gemini_error": "Expecting value: line 3 column 1 (char 88)",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1
+   "gemini-flash-lite-latest": 3
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794054694.1619694,
-   5268,
-   "🎮",
-   "Студія Bit Reactor звільнила частину розробників Star Wars Zero Company",
-   "PC Gamer",
-   {
-    "also": [
-     [
-      "Rock Paper Shotgun",
-      "https://www.rockpapershotgun.com/after-star-wars-zero-company-dev-bit-reactor-brought-back-an-unspecified-number-of-furloughed-devs-some-of-those-who-werent-have-seemingly-been-laid-off"
-     ],
-     [
-      "Eurogamer",
-      "https://www.eurogamer.net/star-wars-zero-company-bit-reactor-layoffs"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/strategy/after-furloughing-its-developers-and-then-hiring-some-of-them-back-star-wars-zero-company-developer-has-laid-off-an-unspecified-number-of-staff/",
-    "orig": "After furloughing its developers and then hiring some of them back, Star Wars Zero Company developer has laid off an unspecified number of staff"
-   }
-  ],
-  [
-   1794054814.6515217,
-   5269,
-   "🎮",
-   "Xbox тестує можливість використовувати смартфон як геймпад для Smart TV",
-   "Eurogamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.eurogamer.net/xbox-cloud-gaming-phone-controller-smart-tv-nano-cloud-connect",
-    "orig": "Xbox is testing a way to use your phone as a controller on smart TVs"
-   }
-  ],
-  [
-   1794056475.415193,
-   5270,
-   "🎬",
-   "Один із найважливіших персонажів Daredevil мав з'явитися лише раз",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2303819/daredevil-important-character-only-supposed-appear-once-elektra/",
-    "orig": "One Of Daredevil's Most Important Characters Was Only Supposed To Appear Once"
-   }
-  ],
-  [
-   1794058278.2437017,
-   5271,
-   "🎮",
-   "Модифікуйте це! Топ 10 найбільш модифікованих відеоігор",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/articles/game-mods-316904/",
-    "orig": "Модифікуйте це! Топ 10 найбільш модифікованих відеоігор"
-   }
-  ],
-  [
-   1794058280.2927566,
-   5272,
-   "🎬",
-   "Сідні Свіні без цензури: всі 13 фільмів акторки з обмеженням R (17+)",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/sidni-svini-bez-tsenzury-vsi-13-filmiv-r-17/",
-    "orig": "Сідні Свіні без цензури: всі 13 фільмів акторки з обмеженням R (17+)"
-   }
-  ],
   [
    1794060076.4349544,
    5273,
@@ -8996,7 +8930,6 @@
       "https://deadline.com/2026/11/chris-pratt-would-love-james-gunn-another-guardians-galaxy-1237224237/"
      ]
     ],
-    "caption": "🎬 <b>Кріс Претт хоче знову працювати з Джеймсом Ганном над Guardians of the Galaxy 4</b>\n\nАктор Кріс Претт заявив, що був би радий знову попрацювати з режисером Джеймсом Ганном над четвертою частиною Guardians of the Galaxy. Це стало можливим після того, як Ганн залишив посаду в DC Studios. Претт уже зіграв Star-Lord у шести фільмах франшизи та раніше підтвердив, що студія готує повернення його персонажа на екрани.\n\n🔗 <a href=\"https://variety.com/2026/film/news/chris-pratt-james-gunn-guardians-of-the-galaxy-4-dc-exit-1236947808/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/film/news/chris-pratt-james-gunn-guardians-of-the-galaxy-4-dc-exit-1236947808/",
     "orig": "Chris Pratt Says He ‘Would Love’ James Gunn to Direct a Fourth ‘Guardians of the Galaxy’ After DC Exit"
@@ -9010,7 +8943,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Режисерка фільму Tenzing Дженніфер Підім розповіла про створення картини</b>\n\nРежисерка Дженніфер Підім розповіла про роботу над біографічною стрічкою Tenzing, яка розповідає про Тенцинга Норгея та його підкорення Евересту в тіні сера Едмунда Гілларі. Проєкт зосереджується на духовному зв&#x27;язку альпініста з гористу місцевістю, родинних зв&#x27;язках та ризиках, на які йдуть шерпи заради чужих мрій.\n\n🔗 <a href=\"https://deadline.com/2026/11/tenzing-director-interview-1237224117/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/tenzing-director-interview-1237224117/",
     "orig": "‘Tenzing’ Director Jennifer Peedom Scaled Great Heights With The Pioneering Sherpa At Her Side – Contenders L.A."
@@ -9024,7 +8956,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Зірка серіалу «Slow Horses» Джек Лоуден знявся у найбільш недооціненому фільмі Дуейна Джонсона</b>\n\nПерш ніж зіграти головну роль у серіалі «Slow Horses», Джек Лоуден виконав зовсім іншу роль — професійного реслера з робітничого класу — у цьому недооціненому фільмі з Дуейном Джонсоном.\n\n🔗 <a href=\"https://www.slashfilm.com/2316904/slow-horses-star-jack-lowden-dwayne-johnson-movie-fighting-with-my-family/\">/Film</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2316904/slow-horses-star-jack-lowden-dwayne-johnson-movie-fighting-with-my-family/",
     "orig": "Slow Horses Star Jack Lowden Was In Dwayne Johnson's Most Underrated Movie"
@@ -9841,6 +9772,48 @@
     "link": "https://mezha.ua/articles/oglyad-dopovnennya-euro-truck-simulator-2-coaches-317218/",
     "orig": "Не дрова везеш! Огляд доповнення Euro Truck Simulator 2 - Coaches"
    }
+  ],
+  [
+   1794749685.750858,
+   6015,
+   "🎮",
+   "Stardew Valley зустрічається з Night in the Woods в одній із найстрашніших нових ігор 2026 року",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/413150/\">Stardew Valley</a> зустрічається з <a href=\"https://store.steampowered.com/app/481510/\">Night in the Woods</a> в одній із найстрашніших нових ігор 2026 року</b>\n\n«Village in the Shade» — це симулятор фермерського господарства в жанрі жахів, який глибоко занурює гравця у жахи життя в громаді\n\n🔗 <a href=\"https://www.polygon.com/village-in-the-shade-new-farm-sim-horror-game/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/village-in-the-shade-new-farm-sim-horror-game/",
+    "orig": "Stardew Valley Meets Night in the Woods in One of 2026's Scariest New Games"
+   }
+  ],
+  [
+   1794749691.5683098,
+   6016,
+   "🎬",
+   "Жінка, яка звинуватила Рассела Бренда, відмовилася від анонімності, стверджуючи, що у віці 16 років вона стала жертвою зґвалтування з боку зірки",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Жінка, яка звинуватила Рассела Бренда, відмовилася від анонімності, стверджуючи, що у віці 16 років вона стала жертвою зґвалтування з боку зірки</b>\n\nОдна з обвинувачок Расселла Брэнда відмовилася від анонімності після того, як актора ув&#x27;язнили за зґвалтування\n\n🔗 <a href=\"https://deadline.com/2026/11/russell-brand-mia-latter-waives-anonymity-allege-rape-1237224442/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/russell-brand-mia-latter-waives-anonymity-allege-rape-1237224442/",
+    "orig": "Russell Brand Accuser Waives Anonymity, Alleging She Was Raped By Star At Age Of 16"
+   }
+  ],
+  [
+   1794749693.556661,
+   6017,
+   "🤖",
+   "Корисні не лише в ясний день: вчені перетворили сонячні панелі на дощоміри",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🤖 <b>Корисні не лише в ясний день: вчені перетворили сонячні панелі на дощоміри</b>\n\nСонячні панелі можуть бути корисними не лише в ясну погоду. Німецькі дослідники перетворили їх на датчики дощу: спеціальний сенсор вловлює крихітні вібрації, які викликають краплі, що б’ють по панелі, а штучний інтелект за цими сигналами обчислює інтенсивність опадів. Результати випробувань оприлюднив Інститут цифрових медіатехнологій Фраунгофера (Fraunhofer IDMT).\n\n🔗 <a href=\"https://itc.ua/ua/novini/korysni-ne-lyshe-v-yasnyj-den-vcheni-peretvoryly-sonyachni-paneli-na-doshhomiry/\">ITC.ua</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/korysni-ne-lyshe-v-yasnyj-den-vcheni-peretvoryly-sonyachni-paneli-na-doshhomiry/",
+    "orig": "Корисні не лише в ясний день: вчені перетворили сонячні панелі на дощоміри"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9863,7 +9836,8 @@
    1794599661.4689524
   ],
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
-   1794729676.9678605
+   1794729676.9678605,
+   1794749693.5569293
   ],
   "ai|Mezha|https://mezha.ua/feed/": [
    1794592887.9069731,
@@ -9931,12 +9905,12 @@
    1794729679.8353188
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1794661290.4994133,
    1794672120.956792,
    1794700889.0071418,
    1794706293.624299,
    1794727878.8784146,
-   1794727888.1774108
+   1794727888.1774108,
+   1794749685.7511315
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1794693777.200541,
@@ -9961,7 +9935,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1794661281.0355153,
    1794693772.9294326,
    1794693790.406755,
    1794695682.75582,
@@ -9975,7 +9948,8 @@
    1794718893.7047057,
    1794720679.8037286,
    1794725139.9958117,
-   1794742509.82873
+   1794742509.82873,
+   1794749691.5686011
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794663071.9451547
@@ -10910,6 +10884,7 @@
   "4a3ad21c5d3efe23": 1794574877.1639743,
   "4a6ac7574e97ebb8": 1793851323.6127343,
   "4a7c29da96f417cf": 1793909059.2409804,
+  "4a83d98d19bf22e1": 1794749685.7510865,
   "4a8b1f844c83ad1a": 1793811804.631894,
   "4a9cddd9bc3da6c7": 1793815383.275674,
   "4aa1f15845f9de14": 1793890883.0501435,
@@ -11012,7 +10987,6 @@
   "52b00cab52f58b1b": 1794040282.8982358,
   "52d6ac30c6dc2f71": 1793819042.8044815,
   "52f17e755ac0d4fc": 1794537169.1350489,
-  "52fd9f539d1b725e": 1793539951.6810272,
   "52ffb28c7d67be19": 1793813559.2223399,
   "5304ba5fb3dee170": 1793912670.0978487,
   "532e8de89e556a5c": 1793880152.6756754,
@@ -11597,7 +11571,6 @@
   "82661a54ff263b73": 1794247282.629497,
   "8275d9fda686ec67": 1794114090.5027995,
   "829e270d45609990": 1793790169.1975977,
-  "82c2d3b0d0ef2af7": 1793538316.6529753,
   "82cd917056ad5a79": 1794609055.1572344,
   "82da43c404ae6738": 1793558003.142297,
   "82daf9e9c378eff7": 1793651474.2692106,
@@ -11617,7 +11590,6 @@
   "83def6411e7ad1a3": 1794673879.3453333,
   "83f7d16126d0d484": 1794697284.9680347,
   "8400bdfe1e2afd49": 1794591220.2610095,
-  "842cd87f263e68e3": 1793539960.6357944,
   "843d101017100eed": 1793545386.8386407,
   "844c3fc762bf0639": 1793541749.3906631,
   "846d698246f16e66": 1793896256.7747672,
@@ -11787,7 +11759,6 @@
   "925c1047a69c1897": 1793962873.3232477,
   "926426826b17633f": 1793746901.620233,
   "9269281917109e40": 1793548974.5653558,
-  "9278e2f0222d71e6": 1793538219.356448,
   "92b2f5783afbd668": 1794178895.0015182,
   "92bacde228758c35": 1793730738.5019758,
   "92ecdce6789e4c30": 1793827885.702775,
@@ -11855,6 +11826,7 @@
   "98270c712011cea5": 1793961095.7366772,
   "984e371a49caa99f": 1793887407.5226257,
   "988500758e7cc482": 1793917852.8708968,
+  "98a667d2d4848ece": 1794749691.5685575,
   "98aa46b22993ee44": 1793880095.9586532,
   "98ced92d79f6af37": 1793892655.141962,
   "98de91cd35641ed5": 1794443482.5911212,
@@ -11903,6 +11875,7 @@
   "9c84f00ce4bafae0": 1793793731.843558,
   "9c9d6ea966bf1d77": 1793923253.2255971,
   "9ca49938cf8008d0": 1793545399.510608,
+  "9cb3becff78cf9dc": 1794749693.5568864,
   "9ccc0aaa28506746": 1794308495.909991,
   "9cf1f8b3b0108b19": 1793629894.9535327,
   "9cfb4d86ee6ad325": 1793698287.9332845,
@@ -12200,7 +12173,6 @@
   "b79d99b85665c970": 1794324720.406491,
   "b7a3c8d9703d447a": 1793637086.0724623,
   "b7a8cde00e165c6c": 1793694799.6244726,
-  "b7d56cbf92a1fb3c": 1793538313.014872,
   "b7eb78405bc3fd30": 1793790085.2908962,
   "b817ced09356f6fd": 1794258098.324036,
   "b81a7e4ec3a1a423": 1794349893.5886278,
@@ -12654,7 +12626,6 @@
   "df174b24e365a19e": 1793761311.24735,
   "df40e808d4a0f758": 1793633618.2304688,
   "df4e28563ece410a": 1794205882.9517407,
-  "df5a3f5826a74af5": 1793538321.0973961,
   "df5d49df63ffedfd": 1793658704.879603,
   "df61523a46cb1450": 1793718081.3648684,
   "df66360291fe9c29": 1793944878.3855815,
@@ -14259,7 +14230,7 @@
    "Bloomberg": 42,
    "DOU": 8,
    "DOU Gamedev": 3,
-   "Deadline": 97,
+   "Deadline": 98,
    "Digital Foundry": 1,
    "Distorted Sound": 8,
    "Eurogamer": 14,
@@ -14268,7 +14239,7 @@
    "GitHub Trending": 32,
    "Hugging Face": 6,
    "IGN": 12,
-   "ITC.ua": 38,
+   "ITC.ua": 39,
    "IndieWire": 6,
    "Insider Gaming": 24,
    "Kerrang!": 1,
@@ -14281,7 +14252,7 @@
    "PC Gamer": 22,
    "Pitchfork": 3,
    "PlayUA": 10,
-   "Polygon": 35,
+   "Polygon": 36,
    "Product Hunt": 8,
    "Rock Paper Shotgun": 12,
    "SteamDB": 6,
@@ -14292,9 +14263,9 @@
    "Variety": 37
   },
   "translators": {
-   "DeepL": 53,
+   "DeepL": 55,
    "gemini-flash-latest": 20,
-   "gemini-flash-lite-latest": 550
+   "gemini-flash-lite-latest": 553
   },
   "week": "2026-W46"
  },
@@ -14884,11 +14855,6 @@
    "Echoes of Mystralia",
    1792677687.2991743
   ],
-  "q:1": [
-   0,
-   "",
-   1794576680.9061763
-  ],
   "q:1 0": [
    5044640,
    "思安α.1.0",
@@ -15108,16 +15074,6 @@
    2542430,
    "5050",
    1792681371.753771
-  ],
-  "q:6": [
-   0,
-   "",
-   1794576680.423223
-  ],
-  "q:6 1": [
-   0,
-   "",
-   1794576679.9454439
   ],
   "q:66": [
    0,
@@ -16464,16 +16420,6 @@
    "Gridiron Remastered",
    1792789303.2274137
   ],
-  "q:gta 6": [
-   0,
-   "",
-   1794576679.4983351
-  ],
-  "q:gta 6 1": [
-   0,
-   "",
-   1794576679.041489
-  ],
   "q:gunfire": [
    0,
    "",
@@ -17079,6 +17025,21 @@
    "Max Payne",
    1792940534.8389542
   ],
+  "q:meets": [
+   0,
+   "",
+   1794749499.313111
+  ],
+  "q:meets night": [
+   0,
+   "",
+   1794749498.7929533
+  ],
+  "q:meets night in the woods": [
+   0,
+   "",
+   1794749498.2821362
+  ],
   "q:messiah": [
    577980,
    "Messiah",
@@ -17349,6 +17310,16 @@
    "NieR:Automata™",
    1793909103.268731
   ],
+  "q:night in the woods": [
+   481510,
+   "Night in the Woods",
+   1794749500.440462
+  ],
+  "q:night in the woods in one": [
+   0,
+   "",
+   1794749499.8359168
+  ],
   "q:nightshade": [
    512180,
    "Nightshade/百花百狼",
@@ -17478,6 +17449,26 @@
    4478540,
    "One Day",
    1793097191.8062801
+  ],
+  "q:one of 2026": [
+   0,
+   "",
+   1794749502.502178
+  ],
+  "q:one of 2026's scariest": [
+   0,
+   "",
+   1794749502.0088499
+  ],
+  "q:one of 2026's scariest new": [
+   0,
+   "",
+   1794749501.4964232
+  ],
+  "q:one of 2026's scariest new games": [
+   0,
+   "",
+   1794749500.9453514
   ],
   "q:one piece grand gourmet": [
    3905010,
@@ -18219,6 +18210,21 @@
    "Stardeus",
    1793813598.9109585
   ],
+  "q:stardew valley": [
+   413150,
+   "Stardew Valley",
+   1794749497.770741
+  ],
+  "q:stardew valley meets": [
+   0,
+   "",
+   1794749497.2668715
+  ],
+  "q:stardew valley meets night": [
+   0,
+   "",
+   1794749496.5028238
+  ],
   "q:state of decay": [
    241540,
    "State of Decay",
@@ -18721,14 +18727,6 @@
   ]
  },
  "titles": [
-  [
-   1794574970.8973136,
-   "International Insider: AFM Deep Dive; Walliams Scandal; ‘Ebenezer’ In London"
-  ],
-  [
-   1794576681.5238302,
-   "Абсолютний рекорд за передзамовленнями: GTA 6 заробила $1 млрд ще до релізу"
-  ],
   [
    1794578500.2054546,
    "Anthony Mackie and Jamie Dornan’s Heist Drama ’12 12 12′ Feels Like a Bad Video Game: TV Review"
@@ -19432,17 +19430,21 @@
   [
    1794744161.8438861,
    "Не дрова везеш! Огляд доповнення Euro Truck Simulator 2 - Coaches"
+  ],
+  [
+   1794749685.7510881,
+   "Stardew Valley Meets Night in the Woods in One of 2026's Scariest New Games"
+  ],
+  [
+   1794749691.568559,
+   "Russell Brand Accuser Waives Anonymity, Alleging She Was Raped By Star At Age Of 16"
+  ],
+  [
+   1794749693.5568879,
+   "Корисні не лише в ясний день: вчені перетворили сонячні панелі на дощоміри"
   ]
  ],
  "titles_uk": [
-  [
-   1794574970.8973148,
-   "Міжнародний інсайдер: розбір AFM, скандал із Walliams та «Ebenezer» у Лондоні"
-  ],
-  [
-   1794576681.5238314,
-   "Абсолютний рекорд за передзамовленнями: GTA 6 заробила $1 млрд ще до релізу"
-  ],
   [
    1794578500.2054555,
    "На Apple TV вийшов пограбувальний трилер 12 12 12 з Ентоні Макі та Джеймі Дорнаном"
@@ -20146,6 +20148,18 @@
   [
    1794744161.8438873,
    "Не дрова везеш! Огляд доповнення Euro Truck Simulator 2 - Coaches"
+  ],
+  [
+   1794749685.7510893,
+   "Stardew Valley зустрічається з Night in the Woods в одній із найстрашніших нових ігор 2026 року"
+  ],
+  [
+   1794749691.56856,
+   "Жінка, яка звинуватила Рассела Бренда, відмовилася від анонімності, стверджуючи, що у віці 16 років вона стала жертвою зґвалтування з боку зірки"
+  ],
+  [
+   1794749693.556889,
+   "Корисні не лише в ясний день: вчені перетворили сонячні панелі на дощоміри"
   ]
  ],
  "ukrainian": {
