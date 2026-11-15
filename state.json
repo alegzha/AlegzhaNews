@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1794722473.0064845
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1794722471.922245
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-14",
  "freebies": {
   "last_check": 1794720692.82243,
@@ -42,43 +29,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-15 06:02 UTC",
+  "at": "2026-11-15 06:36 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 3
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794033072.3803911,
-   5242,
-   "🤖",
-   "Groq прагне подвоїти оцінку вартості до $8 млрд на тлі падіння ринку ШІ",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-06/neocloud-groq-aims-to-double-value-to-8-billion-amid-ai-selloff",
-    "orig": "Neocloud Groq Aims to Double Value to $8 Billion Amid AI Selloff"
-   }
-  ],
-  [
-   1794033076.2428756,
-   5243,
-   "🎬",
-   "Серіал The Remarried Empress встановив рекорд на Disney+ і Hulu",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/remarried-empress-disney-hulu-biggest-local-premiere-ever-1236941857/",
-    "orig": "‘The Remarried Empress’ Becomes Most-Viewed Local Original Premiere Ever on Disney+ and Hulu"
-   }
-  ],
   [
    1794034986.8758135,
    5244,
@@ -8991,7 +8953,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🎮 <b>Магія проти лазерів. Огляд ігор <a href=\"https://store.steampowered.com/app/3546610/\">Wielders of the Essence</a> та <a href=\"https://store.steampowered.com/app/3669620/\">Warhammer Survivors</a></b>\n\nЯкщо ви вважали, що бум ігор у жанрі survivors-like ака bullet heaven вже пройшов, то ви помиляєтеся. Буквально протягом тижня вийшло ще два цікавих проєкти у цьому дусі – Wielders of the Essence від студії Lavapotion та Warhammer Survivors від Auroch Digital\n\n🔗 <a href=\"https://mezha.ua/reviews/oglyad-igor-wielders-of-the-essence-ta-warhammer-survivors-317202/\">Mezha</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://mezha.ua/reviews/oglyad-igor-wielders-of-the-essence-ta-warhammer-survivors-317202/",
     "orig": "Магія проти лазерів. Огляд ігор Wielders of the Essence та Warhammer Survivors"
@@ -9005,7 +8966,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b>Ubisoft розробляє нову частину Rainbow Six Vegas</b>\n\nКомпанія Ubisoft Montreal працює над новою грою серії Rainbow Six Vegas під кодовою назвою Spades. Проєкт перебуває на ранній стадії розробки і, за даними джерел, є новою частиною, а не ремейком. Офіційного анонсу доведеться чекати ще кілька років.\n\n🔗 <a href=\"https://www.eurogamer.net/rainbow-six-vegas-new-game-ubisoft-spades-report\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/rainbow-six-vegas-new-game-ubisoft-spades-report",
     "orig": "Ubisoft is reportedly making a new Rainbow Six Vegas game, nearly two decades after Vegas 2"
@@ -9850,6 +9810,34 @@
     "link": "https://www.loudersound.com/bands-artists/phil-collins-rock-roll-hall-fame-induction-2026",
     "orig": "“You haven't heard the last of me. I can promise you that”: Phil Collins gets emotional at Rock Hall induction"
    }
+  ],
+  [
+   1794724367.8768053,
+   5990,
+   "🤘",
+   "Філ Коллінз удруге увійшов до Зали слави рок-н-ролу",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Філ Коллінз удруге увійшов до Зали слави рок-н-ролу</b>\n\nКевін Вінтер, WireImage\n\n🔗 <a href=\"https://loudwire.com/phil-collins-inducted-into-rock-and-roll-hall-of-fame-for-a-second-time/\">Loudwire</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://loudwire.com/phil-collins-inducted-into-rock-and-roll-hall-of-fame-for-a-second-time/",
+    "orig": "Phil Collins Inducted Into the Rock Hall for a Second Time"
+   }
+  ],
+  [
+   1794724560.9399304,
+   5991,
+   "🎬",
+   "Джон Мулані висміяв Роберта Ф. Кеннеді-молодшого в монолозі на SNL",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Джон Мулані висміяв Роберта Ф. Кеннеді-молодшого в монолозі на SNL</b>\n\nВступний монолог Джона Мулейні у випуску програми «Saturday Night Live» цього тижня набув несподіваного повороту, коли він висміяв скандально відомого міністра охорони здоров’я та соціальних служб США Роберта Ф. Кеннеді-молодшого. Комік розпочав виступ, зігравши роль Кеннеді, і сказав: «Мій батько був хорошим чоловіком, а я — нікчемний, але у нас одне ім’я. Чи є я хорошим […]\n\n🔗 <a href=\"https://variety.com/2026/tv/news/john-mulaney-mocks-robert-f-kennedy-jr-snl-monologue-1236947905/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/tv/news/john-mulaney-mocks-robert-f-kennedy-jr-snl-monologue-1236947905/",
+    "orig": "John Mulaney Mocks Robert F. Kennedy Jr. in ‘SNL’ Monologue: ‘No One Likes Him. You Dumbass … Your Thing Can’t Be the Measles!’"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10002,9 +9990,9 @@
    1794695679.6209319
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
-   1794636089.0109932,
    1794717099.7118566,
-   1794720683.1718485
+   1794720683.1718485,
+   1794724560.9401846
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
    1794627078.9178865,
@@ -10032,9 +10020,8 @@
    1794718889.3773
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
-   1794625282.641445,
-   1794636081.410232,
-   1794708113.8908067
+   1794708113.8908067,
+   1794724367.8770852
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1794652341.239821,
@@ -10684,7 +10671,6 @@
   "3271c528877c7d82": 1793615453.5353343,
   "3278da9f0f45dcdf": 1794688284.0626087,
   "327c76e888111331": 1793822027.6340158,
-  "32995f482f848b41": 1793514131.0359926,
   "32b31c0204f4a5cb": 1794470490.4255424,
   "33097b39e293d40b": 1794211286.8406339,
   "33107e2202e70853": 1793655081.5649998,
@@ -11753,6 +11739,7 @@
   "8f03b34a92d7cb4d": 1793820686.935686,
   "8f05bc7d66a846df": 1793910653.3599937,
   "8f1e7485cbcf8a27": 1793790150.7305477,
+  "8f2e6702d71c6071": 1794724367.8769994,
   "8f3130b4200d76bd": 1793710913.0842104,
   "8f33b27d0b5a4ebb": 1793761305.3395681,
   "8f472a09e7303e6b": 1794261677.441168,
@@ -12086,6 +12073,7 @@
   "aba56d5501717f7c": 1793808269.6959002,
   "abace1f32748e0e9": 1793750479.6978714,
   "abaee4f4bc3c5e06": 1793624539.2137918,
+  "abb0a1c37edeff0d": 1794724560.940137,
   "abbb20b419ddf734": 1793698311.3162396,
   "abbf5ebc5b3dcb73": 1793910680.9057589,
   "abd29352a1191065": 1793700183.1836717,
@@ -14298,7 +14286,7 @@
    "Insider Gaming": 22,
    "Kerrang!": 1,
    "Lambgoat": 27,
-   "Loudwire": 3,
+   "Loudwire": 4,
    "Metal Hammer (Louder)": 23,
    "Metal Injection": 2,
    "Mezha": 40,
@@ -14314,12 +14302,12 @@
    "The Decoder": 21,
    "ThePRP": 9,
    "VGC": 7,
-   "Variety": 35
+   "Variety": 36
   },
   "translators": {
-   "DeepL": 44,
+   "DeepL": 45,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 533
+   "gemini-flash-lite-latest": 536
   },
   "week": "2026-W46"
  },
@@ -15088,11 +15076,6 @@
    0,
    "",
    1794580286.4135222
-  ],
-  "q:4 minute": [
-   0,
-   "",
-   1794549687.9192839
   ],
   "q:47": [
    4921720,
@@ -17319,11 +17302,6 @@
    "",
    1794672112.8213031
   ],
-  "q:new 4 minute": [
-   0,
-   "",
-   1794549687.17876
-  ],
   "q:new dawn": [
    1644970,
    "NEW DAWN",
@@ -18803,14 +18781,6 @@
  },
  "titles": [
   [
-   1794551489.7444541,
-   "Sony's Bringing Back Spider-Man $2.5 Billion Hit With New Footage"
-  ],
-  [
-   1794551588.898513,
-   "Steam Makes Popular World War II Strategy Game Free to Play This Weekend"
-  ],
-  [
    1794553375.192377,
    "Palworld developer Pocketpair gives employees time off for 'a 5-day business trip in Vice City when GTA 6 launches'"
   ],
@@ -19525,17 +19495,17 @@
   [
    1794722573.6509292,
    "“You haven't heard the last of me. I can promise you that”: Phil Collins gets emotional at Rock Hall induction"
+  ],
+  [
+   1794724367.8770235,
+   "Phil Collins Inducted Into the Rock Hall for a Second Time"
+  ],
+  [
+   1794724560.940139,
+   "John Mulaney Mocks Robert F. Kennedy Jr. in ‘SNL’ Monologue: ‘No One Likes Him. You Dumbass … Your Thing Can’t Be the Measles!’"
   ]
  ],
  "titles_uk": [
-  [
-   1794551489.744455,
-   "Sony повертає в кінотеатри блокбастер Spider-Man: Brand New Day з новими кадрами"
-  ],
-  [
-   1794551588.8985145,
-   "Steam робить популярну стратегію про Другу світову безплатною на вихідні"
-  ],
   [
    1794553375.192378,
    "Розробники Palworld отримають відгул на 5 днів під час релізу GTA 6"
@@ -20251,6 +20221,14 @@
   [
    1794722573.6509302,
    "Phil Collins емоційно відреагував на введення до Rock And Roll Hall Of Fame"
+  ],
+  [
+   1794724367.8770251,
+   "Філ Коллінз удруге увійшов до Зали слави рок-н-ролу"
+  ],
+  [
+   1794724560.94014,
+   "Джон Мулані висміяв Роберта Ф. Кеннеді-молодшого в монолозі на SNL"
   ]
  ],
  "ukrainian": {
@@ -22633,7 +22611,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794720692.3550858,
+  "last_check": 1794724570.0141973,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
