@@ -1,24 +1,5 @@
 {
- "alerts": {
-  "src:ai|DOU|https://dou.ua/feed/": {
-   "detail": "https://dou.ua/feed/ → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «DOU» не працює",
-   "sent": 0,
-   "since": 1794717085.7207634
-  },
-  "src:games|DOU Gamedev|https://gamedev.dou.ua/feed/": {
-   "detail": "https://gamedev.dou.ua/feed/ → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «DOU Gamedev» не працює",
-   "sent": 0,
-   "since": 1794717060.3257365
-  },
-  "src:software|DOU|https://dou.ua/feed/": {
-   "detail": "https://dou.ua/feed/ → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «DOU» не працює",
-   "sent": 0,
-   "since": 1794717083.995669
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-14",
  "freebies": {
   "last_check": 1794711892.0930355,
@@ -48,8 +29,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-15 04:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-15 05:01 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 3
@@ -8989,7 +8970,6 @@
       "https://deadline.com/2026/11/european-film-awards-2026-nominations-1237223704/"
      ]
     ],
-    "caption": "🎬 <b>Fatherland Павела Павліковського лідирує за номінаціями на European Film Awards</b>\n\nДрама Fatherland Павела Павліковського здобула 11 номінацій на 39-ту премію European Film Awards, а слідом із 10 категоріями йде La Bola Negra Хав&#x27;єра Кальво та Хав&#x27;єра Амброссі. Третє місце посів фільм Fjord Крістіана Мунджіу з п’ятьма номінаціями. Переможців кінопремії оголосять 16 січня в Афінах.\n\n🔗 <a href=\"https://variety.com/2026/film/news/fatherland-la-bola-negra-european-film-awards-nominations-1236947619/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/film/news/fatherland-la-bola-negra-european-film-awards-nominations-1236947619/",
     "orig": "European Film Award Nominations: ‘Fatherland’ Reigns Over Contest, Followed by ‘La Bola Negra’"
@@ -9003,7 +8983,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Tailscale випустила інструмент tailcat</b>\n\nКоманда Tailscale представила tailcat — новий інструмент і Go-бібліотеку, що поєднують відкриті компоненти Tailscale для роботи на кшталт netcat. Програма забезпечує шифровані через WireGuard з&#x27;єднання «точка-точка» між пристроями без потреби в обліковому записі Tailscale чи правах адміністратора.\n\n🔗 <a href=\"https://github.com/tailscale/tailcat\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/tailscale/tailcat",
     "orig": "tailscale/tailcat"
@@ -9017,7 +8996,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Вийшов апдейт софту Likely7/Veyra-NRVideo</b>\n\nПроєкт Likely7/Veyra-NRVideo об&#x27;єднує локальне відео, камери захоплення та стрімінг ігор в єдиний конвеєр покращення графіки на GPU в реальному часі. Оновлення додають нові функції шумозаглушення, масштабування, генерації кадрів та покращують сумісність із залізом NVIDIA та AMD.\n\n🔗 <a href=\"https://github.com/Likely7/Veyra-NRVideo\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/Likely7/Veyra-NRVideo",
     "orig": "Likely7/Veyra-NRVideo"
@@ -9848,6 +9826,48 @@
     "link": "https://www.loudersound.com/bands-artists/id-like-to-live-in-your-head-for-a-while-i-think-i-could-learn-a-lot-of-stuff-the-other-members-of-u2-would-love-to-trade-places-with-the-edge",
     "orig": "The other members of U2 would love to trade places with The Edge"
    }
+  ],
+  [
+   1794718886.1456456,
+   5983,
+   "🎮",
+   "Гравці Genshin Impact обурені потенційним нерфом Mitya",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Гравці Genshin Impact обурені потенційним нерфом Mitya</b>\n\nГравці Genshin Impact розкритикували HoYoverse через плани послабити нового 5-зіркового персонажа Mitya в патчі 7.3. Спільнота помітила в описі виправлень приховані зміни радіуса атаки й автоприцілювання героя, що викликало понад 83 000 обговорень у мережі.\n\n🔗 <a href=\"https://insider-gaming.com/genshin-impact-mitya-nerf-controversy/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/genshin-impact-mitya-nerf-controversy/",
+    "orig": "Genshin Impact Players Are Furious At Potential Mitya Nerfs, Here’s Why"
+   }
+  ],
+  [
+   1794718889.3770695,
+   5984,
+   "🤘",
+   "Amira Elfeky випустила кліп на трек Funeral",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Amira Elfeky випустила кліп на трек Funeral</b>\n\nAmira Elfeky презентувала офіційне музичне відео на пісню Funeral. Цей трек увійшов до її нового альбому It Was Only A Dream, який уже вийшов на лейблах Anemoia Records та Atlantic Records.\n\n🔗 <a href=\"https://lambgoat.com/news/55896/amira-elfeky-premieres-funeral-music-video/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55896/amira-elfeky-premieres-funeral-music-video/",
+    "orig": "Amira Elfeky premieres “Funeral” music video"
+   }
+  ],
+  [
+   1794718893.7044742,
+   5985,
+   "🎬",
+   "Bowen Yang зіграв Jensen Huang у новому випуску Saturday Night Live",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Bowen Yang зіграв Jensen Huang у новому випуску Saturday Night Live</b>\n\nКомік повернувся в шоу для скетчу, який висміює довірливість техномільярдерів до привабливих шпигунок. За сюжетом, Jensen Huang залишає посаду CEO Nvidia через розслідування подібних зв&#x27;язків\n\n🔗 <a href=\"https://deadline.com/2026/11/saturday-night-live-open-bowen-yang-jensen-huang-1237224372/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/saturday-night-live-open-bowen-yang-jensen-huang-1237224372/",
+    "orig": "Bowen Yang Returns To ‘Saturday Night Live’ As Jensen Huang In Cold Open That Skewers Tech Billionaires’ Susceptibility To Honey Pot Plots"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9919,9 +9939,8 @@
    1794576681.5238745
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1794619762.9686427,
-   1794629074.8660595,
-   1794704489.7478528
+   1794704489.7478528,
+   1794718886.1458957
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1794657687.3126683,
@@ -9968,8 +9987,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1794629065.3564248,
-   1794632478.5519311,
    1794637883.8932812,
    1794643281.1091259,
    1794661281.0355153,
@@ -9982,7 +9999,8 @@
    1794704495.3499436,
    1794709884.1092277,
    1794713481.8761437,
-   1794715283.2245018
+   1794715283.2245018,
+   1794718893.7047057
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794663071.9451547
@@ -10027,7 +10045,8 @@
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
    1794695773.986437,
    1794706296.9391344,
-   1794713476.5143275
+   1794713476.5143275,
+   1794718889.3773
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1794625282.641445,
@@ -10440,7 +10459,6 @@
   "1c6e86a652834daa": 1793815467.806976,
   "1cc767f035cfcafd": 1794326506.0290408,
   "1ceb56a3b3745da8": 1793959276.1517801,
-  "1ceb589ad53d2c58": 1793507580.0796819,
   "1d5b91cceb66f5a0": 1794342653.1379323,
   "1d83d65aba62e1e5": 1794330058.4836624,
   "1d936f8b3a12ee0b": 1793511051.5169284,
@@ -10533,6 +10551,7 @@
   "256005002a962116": 1794652401.9457853,
   "25671638621372e7": 1794137514.4014792,
   "256a937a7691a984": 1793647901.1057427,
+  "256a9746b134b753": 1794718877.0665543,
   "25866d2711d23a5f": 1793901864.702728,
   "25aac006b01cda83": 1793651505.2041273,
   "25af0fbf32f4457e": 1793655078.6061056,
@@ -10717,6 +10736,7 @@
   "3511d33dfef66618": 1793606761.6469293,
   "352f7412914d3876": 1793917852.8708968,
   "353fdd3e747bab31": 1793813641.4719038,
+  "3544a836063b2a5c": 1794718889.3772535,
   "3558f6c1aff3ffd2": 1794132168.2066665,
   "3566dc58ff64d1be": 1794379596.8600004,
   "357765adde7f2a3d": 1794033076.243317,
@@ -10754,6 +10774,7 @@
   "395a0157127825f3": 1794625282.6414,
   "395ca2061d3bc456": 1793878289.9886367,
   "39c34f7a0914636f": 1794252654.4309437,
+  "39dddfafa7ab01b4": 1794718893.7046595,
   "3a02062d6fb9c8bf": 1794715283.2244556,
   "3a28b6857e1c43e9": 1793651452.7271295,
   "3a3521afc2daf7d8": 1793907094.828857,
@@ -10823,7 +10844,6 @@
   "4004b0aa49fa9cdc": 1794711882.7637846,
   "4021c37ac54f3542": 1793718081.3862214,
   "4031e70586351989": 1793867500.6869516,
-  "407a2548b3244750": 1793507577.1871667,
   "407e4309223feda2": 1793962977.5184963,
   "40b1bb8d31051d8a": 1793692893.5329428,
   "40b9a0970f25255b": 1794229254.6836922,
@@ -10860,7 +10880,6 @@
   "4367e94850966e18": 1793842251.6225247,
   "4394f3b5c008e152": 1793570543.368046,
   "43aa7e9118a4773f": 1793982691.819673,
-  "43b32f99d49cca98": 1793507583.2550945,
   "43c1eb5821e24c49": 1793937775.9889371,
   "43d48515eb9b726d": 1794222370.7217953,
   "43d49f1b03818b19": 1793782905.9027445,
@@ -11903,7 +11922,6 @@
   "9b2aeda814b2af34": 1793608310.8926706,
   "9b3ef50de606d162": 1793644288.1053762,
   "9b4821102ef88f02": 1793610089.2471867,
-  "9b7fedab6c4dc929": 1793507588.1005988,
   "9b8956863556ed6c": 1794474085.2638512,
   "9b8a8e522d9f1d83": 1794040275.8748078,
   "9b8c441c69663be7": 1794510055.210753,
@@ -12022,6 +12040,7 @@
   "a6ab513ca092dd1e": 1794335485.1881518,
   "a6b21f133af10897": 1793633599.1860323,
   "a6dedc6c569234c7": 1793646053.9942713,
+  "a6e99d9b5819b83b": 1794718886.145845,
   "a70866f44525d9a7": 1794592884.4843674,
   "a751ece5fa0a8720": 1794155576.4213982,
   "a760fea2cb6aac29": 1794065486.8607264,
@@ -12269,6 +12288,7 @@
   "bbd87f9e04dde43e": 1794358892.4297469,
   "bbeb3e92d8e940a7": 1793707280.169243,
   "bbf38c02dadd57d9": 1793631732.9490244,
+  "bc233f2bb1fd25a6": 1794718851.8888588,
   "bc3356ccbb0f312b": 1794214991.3628657,
   "bc4a3c13f739bed8": 1793849499.6063247,
   "bc6cd049e9a32803": 1794502963.9584627,
@@ -14265,7 +14285,7 @@
    "Mezha": 1,
    "PC Gamer": 3,
    "Pitchfork": 1,
-   "Polygon": 62,
+   "Polygon": 63,
    "Revolver": 1,
    "SteamDB": 1,
    "The Decoder": 2,
@@ -14279,7 +14299,7 @@
    "Bloomberg": 41,
    "DOU": 8,
    "DOU Gamedev": 3,
-   "Deadline": 93,
+   "Deadline": 94,
    "Digital Foundry": 1,
    "Distorted Sound": 7,
    "Eurogamer": 14,
@@ -14290,9 +14310,9 @@
    "IGN": 12,
    "ITC.ua": 37,
    "IndieWire": 6,
-   "Insider Gaming": 21,
+   "Insider Gaming": 22,
    "Kerrang!": 1,
-   "Lambgoat": 26,
+   "Lambgoat": 27,
    "Loudwire": 3,
    "Metal Hammer (Louder)": 21,
    "Metal Injection": 2,
@@ -14314,7 +14334,7 @@
   "translators": {
    "DeepL": 44,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 526
+   "gemini-flash-lite-latest": 529
   },
   "week": "2026-W46"
  },
@@ -16419,6 +16439,31 @@
    "",
    1794547872.5085814
   ],
+  "q:genshin": [
+   0,
+   "",
+   1794718880.0278478
+  ],
+  "q:genshin impact": [
+   0,
+   "",
+   1794718879.3371658
+  ],
+  "q:genshin impact players": [
+   0,
+   "",
+   1794718878.7910435
+  ],
+  "q:genshin impact players are": [
+   0,
+   "",
+   1794718878.2396414
+  ],
+  "q:genshin impact players are furious": [
+   0,
+   "",
+   1794718877.705654
+  ],
   "q:gloomwood": [
    1150760,
    "Gloomwood",
@@ -16608,6 +16653,31 @@
    1757350,
    "ILL",
    1793664094.940183
+  ],
+  "q:impact": [
+   0,
+   "",
+   1794718883.0019033
+  ],
+  "q:impact players": [
+   0,
+   "",
+   1794718882.4049633
+  ],
+  "q:impact players are": [
+   0,
+   "",
+   1794718881.8601062
+  ],
+  "q:impact players are furious": [
+   0,
+   "",
+   1794718881.2736995
+  ],
+  "q:impact players are furious at potential": [
+   0,
+   "",
+   1794718880.558392
   ],
   "q:impressions": [
    1220330,
@@ -17598,6 +17668,16 @@
    0,
    "",
    1794582085.0073566
+  ],
+  "q:players are furious at potential": [
+   0,
+   "",
+   1794718884.153884
+  ],
+  "q:players are furious at potential mitya": [
+   0,
+   "",
+   1794718883.5199847
   ],
   "q:plus": [
    0,
@@ -18753,14 +18833,6 @@
  },
  "titles": [
   [
-   1794544460.9972153,
-   "‘Yellowjackets’ Cast Eulogizes Show With “Quite Heartbreaking” Farewell At Final Season Premiere: “All Great Things Must Come To An End”"
-  ],
-  [
-   1794544464.6059802,
-   "Stacy Keach Played A Villain In One Of The Best Batman Movies Of All Time"
-  ],
-  [
    1794546103.79387,
    "Avengers: Doomsday's Official Writing Credits Confirm Two Major Marvel Cameos"
   ],
@@ -19479,17 +19551,21 @@
   [
    1794717103.7216432,
    "The other members of U2 would love to trade places with The Edge"
+  ],
+  [
+   1794718886.145847,
+   "Genshin Impact Players Are Furious At Potential Mitya Nerfs, Here’s Why"
+  ],
+  [
+   1794718889.3772557,
+   "Amira Elfeky premieres “Funeral” music video"
+  ],
+  [
+   1794718893.7046611,
+   "Bowen Yang Returns To ‘Saturday Night Live’ As Jensen Huang In Cold Open That Skewers Tech Billionaires’ Susceptibility To Honey Pot Plots"
   ]
  ],
  "titles_uk": [
-  [
-   1794544460.997216,
-   "Акторський склад «Yellowjackets» попрощався з серіалом на прем'єрі фінального сезону"
-  ],
-  [
-   1794544464.6059809,
-   "Помер актор Стейсі Кіч, відомий за фільмом Batman: Mask of the Phantasm"
-  ],
   [
    1794546103.793871,
    "Сценаристи Avengers: Doomsday підтвердили появу Deadpool і Wolverine"
@@ -20209,6 +20285,18 @@
   [
    1794717103.7216444,
    "Учасники U2 зізналися, з ким із колег хотіли б помінятися місцями"
+  ],
+  [
+   1794718886.1458483,
+   "Гравці Genshin Impact обурені потенційним нерфом Mitya"
+  ],
+  [
+   1794718889.377257,
+   "Amira Elfeky випустила кліп на трек Funeral"
+  ],
+  [
+   1794718893.7046623,
+   "Bowen Yang зіграв Jensen Huang у новому випуску Saturday Night Live"
   ]
  ],
  "ukrainian": {
