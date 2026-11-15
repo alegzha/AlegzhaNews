@@ -1,5 +1,24 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:ai|DOU|https://dou.ua/feed/": {
+   "detail": "https://dou.ua/feed/ → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «DOU» не працює",
+   "sent": 0,
+   "since": 1794717085.7207634
+  },
+  "src:games|DOU Gamedev|https://gamedev.dou.ua/feed/": {
+   "detail": "https://gamedev.dou.ua/feed/ → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «DOU Gamedev» не працює",
+   "sent": 0,
+   "since": 1794717060.3257365
+  },
+  "src:software|DOU|https://dou.ua/feed/": {
+   "detail": "https://dou.ua/feed/ → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «DOU» не працює",
+   "sent": 0,
+   "since": 1794717083.995669
+  }
+ },
  "daily_digest_date": "2026-11-14",
  "freebies": {
   "last_check": 1794711892.0930355,
@@ -29,43 +48,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-15 04:01 UTC",
+  "at": "2026-11-15 04:31 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794024088.5756037,
-   5234,
-   "🎮",
-   "Для Path of Exile 2 анонсували новий клас Shadow",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/rpg/path-of-exile-2-announces-a-second-new-class-the-shadow-for-its-december-1-0-release/",
-    "orig": "Path of Exile 2 announces a second new class, the Shadow, for its December 1.0 release"
-   }
-  ],
-  [
-   1794025884.9882972,
-   5235,
-   "🤘",
-   "Type O Negative відмовилися від великих грошей заради возз'єднання",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/news/why-type-o-negative-turn-down-peter-steele-tribute-reunion-shows-2026",
-    "orig": "Why Type O Negative turned down “a lot of money” to reunite for a Peter Steele tribute show: “there’s a lot of guys running around singing with a deep voice pretending they’re Peter”"
-   }
-  ],
   [
    1794027782.894454,
    5236,
@@ -8965,7 +8958,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>block/buzz</b>\n\nBuzz — платформа для спільної роботи людей та ШІ-агентів у єдиному просторі з відкритим кодом\n\n🔗 <a href=\"https://github.com/block/buzz\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/block/buzz",
     "orig": "block/buzz"
@@ -8979,7 +8971,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Кенні Гікі прокоментував можливість реюніону або триб’юту Type O Negative</b>\n\nКолишній гітарист Type O Negative Кенні Гікі прокоментував ідею триб’юту гурту, наголосивши, що виступає категорично проти копіювання Пітера Стіла. Наразі логістичних планів на шоу немає, оскільки музикант зосереджений на колективі Silvertomb, але він не проти виконувати з новим складом частини старих пісень, які свого часу співав сам.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/kenny-hickey-type-o-negative-tribute-silvertomb\">Metal Hammer (Louder)</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/kenny-hickey-type-o-negative-tribute-silvertomb",
     "orig": "Kenny Hickey on the long-speculated Type O Negative reunion"
@@ -9435,6 +9426,10 @@
      [
       "Polygon",
       "https://www.polygon.com/league-of-legends-with-new-dawn-reveal-worlds-2026/"
+     ],
+     [
+      "Insider Gaming",
+      "https://insider-gaming.com/league-of-legends-new-dawn-update-revealed-worlds/"
      ]
     ],
     "caption": "🎮 <b>Riot анонсувала маштабне оновлення League of Legends: New Dawn на 2027 рік та показала дебютний трейлер</b>\n\nУ фіналі Чемпіонату світу з «League of Legends» 2026 року компанія Riot Games офіційно представила «League of Legends: New Dawn». Це масштабне оновлення заплановано на 2027 рік і принесе зміни в ігровий клієнт, карту «Summoner&#x27;s Rift», графіку та ігровий процес, ознаменувавши початок нового етапу в історії однієї з найдовговічніших ігор індустрії.\n\n🔗 <a href=\"https://www.ign.com/articles/league-of-legends-new-dawn-unveiled-with-debut-trailer-riot-announces-major-overhaul-coming-in-2027\">IGN</a>\n\n#ігри",
@@ -9450,7 +9445,12 @@
    "Кріс Претт хоче знову працювати з Джеймсом Ганном над Guardians of the Galaxy 4",
    "Variety",
    {
-    "also": [],
+    "also": [
+     [
+      "Deadline",
+      "https://deadline.com/2026/11/chris-pratt-would-love-james-gunn-another-guardians-galaxy-1237224237/"
+     ]
+    ],
     "caption": "🎬 <b>Кріс Претт хоче знову працювати з Джеймсом Ганном над Guardians of the Galaxy 4</b>\n\nАктор Кріс Претт заявив, що був би радий знову попрацювати з режисером Джеймсом Ганном над четвертою частиною Guardians of the Galaxy. Це стало можливим після того, як Ганн залишив посаду в DC Studios. Претт уже зіграв Star-Lord у шести фільмах франшизи та раніше підтвердив, що студія готує повернення його персонажа на екрани.\n\n🔗 <a href=\"https://variety.com/2026/film/news/chris-pratt-james-gunn-guardians-of-the-galaxy-4-dc-exit-1236947808/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/film/news/chris-pratt-james-gunn-guardians-of-the-galaxy-4-dc-exit-1236947808/",
@@ -9820,6 +9820,34 @@
     "link": "https://deadline.com/2026/11/carrie-coon-lily-james-liberation-interview-1237224238/",
     "orig": "Carrie Coon & Lily James Humanized Cult Member And Leader In Guy Nattiv’s ‘The Liberation’ – Contenders L.A."
    }
+  ],
+  [
+   1794717099.7115777,
+   5981,
+   "🎬",
+   "Філіппини перемогли на першому конкурсі Eurovision Song Contest Asia",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Філіппини перемогли на першому конкурсі Eurovision Song Contest Asia</b>\n\n🔗 <a href=\"https://variety.com/2026/tv/global/philippines-wins-eurovision-song-contest-asia-carmelle-1236947812/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/tv/global/philippines-wins-eurovision-song-contest-asia-carmelle-1236947812/",
+    "orig": "Philippines Wins Inaugural Eurovision Song Contest Asia in Thailand"
+   }
+  ],
+  [
+   1794717103.7214348,
+   5982,
+   "🤘",
+   "Учасники U2 зізналися, з ким із колег хотіли б помінятися місцями",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Учасники U2 зізналися, з ким із колег хотіли б помінятися місцями</b>\n\nПід час виступу на SiriusXM гурт U2 презентував свій 16-й альбом Carnaval De Luz та відповів на запитання фанатів. Музиканти Боно, Larry Mullen Jr і Adam Clayton розповіли, з ким із колег хотіли б помінятися місцями, і більшість обрала гітариста The Edge.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/id-like-to-live-in-your-head-for-a-while-i-think-i-could-learn-a-lot-of-stuff-the-other-members-of-u2-would-love-to-trade-places-with-the-edge\">Metal Hammer (Louder)</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/id-like-to-live-in-your-head-for-a-while-i-think-i-could-learn-a-lot-of-stuff-the-other-members-of-u2-would-love-to-trade-places-with-the-edge",
+    "orig": "The other members of U2 would love to trade places with The Edge"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9973,9 +10001,9 @@
    1794695679.6209319
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
-   1794616296.5765646,
    1794630779.3382533,
-   1794636089.0109932
+   1794636089.0109932,
+   1794717099.7118566
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
    1794627078.9178865,
@@ -10009,7 +10037,8 @@
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1794652341.239821,
    1794697281.7608986,
-   1794699261.5175796
+   1794699261.5175796,
+   1794717103.7216868
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1794632474.2096412
@@ -10435,6 +10464,7 @@
   "1f09a52d6b4abe16": 1793802709.8075225,
   "1f28e1dc6cb60933": 1793557992.4141335,
   "1f316c9119743610": 1793820707.258438,
+  "1f465208c608aa7c": 1794717086.8106782,
   "1f4661fcbea03f6a": 1793835081.650976,
   "1f4eec63d5d1cd89": 1794421855.4705105,
   "1f880700c684c642": 1794164452.8558764,
@@ -10736,6 +10766,7 @@
   "3aa57a8d0f692480": 1793637087.483372,
   "3ace2e3d4bdc631b": 1793808081.7335856,
   "3add102e6028f601": 1793676658.0214493,
+  "3ae61ef5615e6692": 1794717103.7216418,
   "3ae63eeebba5480b": 1794022254.4008634,
   "3ae8ad07de9bca4c": 1793822014.258152,
   "3b02f528d8d8c55b": 1793863908.881065,
@@ -11488,6 +11519,7 @@
   "7b2b6b63b1cfbc4b": 1794690162.9912977,
   "7b2c804f1c1b6064": 1793553036.9686399,
   "7b2dae2891a089e0": 1793548971.7962878,
+  "7b3b411dcee488aa": 1794717099.7117941,
   "7b416e0989d2a7f5": 1793973801.2111194,
   "7b7b018bb7ea8f5e": 1794196853.7492511,
   "7b819b792d5f2b35": 1793876455.0968173,
@@ -12471,6 +12503,7 @@
   "d0c9e7f9362f5003": 1793646108.9210649,
   "d10608b520d3cfea": 1793520052.6677861,
   "d10cdaa227e0a470": 1793732518.6884692,
+  "d146ff6cd3ab4eef": 1794717097.104979,
   "d175dd3083d65f17": 1794708110.0775664,
   "d17e646dc8961d53": 1793736145.296797,
   "d1a37e288596876e": 1793734350.5004196,
@@ -14261,7 +14294,7 @@
    "Kerrang!": 1,
    "Lambgoat": 26,
    "Loudwire": 3,
-   "Metal Hammer (Louder)": 20,
+   "Metal Hammer (Louder)": 21,
    "Metal Injection": 2,
    "Mezha": 40,
    "Neformat": 13,
@@ -14276,12 +14309,12 @@
    "The Decoder": 21,
    "ThePRP": 9,
    "VGC": 7,
-   "Variety": 33
+   "Variety": 34
   },
   "translators": {
    "DeepL": 44,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 523
+   "gemini-flash-lite-latest": 526
   },
   "week": "2026-W46"
  },
@@ -16861,6 +16894,11 @@
    "",
    1794695480.282628
   ],
+  "q:league of legends new dawn update": [
+   0,
+   "",
+   1794717087.3730822
+  ],
   "q:legends": [
    0,
    "",
@@ -16885,6 +16923,21 @@
    0,
    "",
    1794695482.4605045
+  ],
+  "q:legends new dawn update": [
+   0,
+   "",
+   1794717088.8369288
+  ],
+  "q:legends new dawn update revealed": [
+   0,
+   "",
+   1794717088.3828819
+  ],
+  "q:legends new dawn update revealed during": [
+   0,
+   "",
+   1794717087.9223127
   ],
   "q:lena": [
    3170980,
@@ -17231,6 +17284,11 @@
    "",
    1794549687.17876
   ],
+  "q:new dawn": [
+   1644970,
+   "NEW DAWN",
+   1794717091.204965
+  ],
   "q:new dawn unveiled with": [
    0,
    "",
@@ -17245,6 +17303,26 @@
    0,
    "",
    1794695485.2518141
+  ],
+  "q:new dawn update": [
+   0,
+   "",
+   1794717090.7048254
+  ],
+  "q:new dawn update revealed": [
+   0,
+   "",
+   1794717090.2345974
+  ],
+  "q:new dawn update revealed during": [
+   0,
+   "",
+   1794717089.7744534
+  ],
+  "q:new dawn update revealed during worlds": [
+   0,
+   "",
+   1794717089.3138204
   ],
   "q:new era": [
    1377320,
@@ -18331,6 +18409,21 @@
    "Undertale",
    1793039505.7366686
   ],
+  "q:update revealed during": [
+   0,
+   "",
+   1794717092.6256514
+  ],
+  "q:update revealed during worlds": [
+   0,
+   "",
+   1794717092.1739438
+  ],
+  "q:update revealed during worlds final": [
+   0,
+   "",
+   1794717091.6750307
+  ],
   "q:updates revealed for marvel": [
    0,
    "",
@@ -18659,10 +18752,6 @@
   ]
  },
  "titles": [
-  [
-   1794542573.6360698,
-   "‘SVU’ Star Mariska Hargitay Breaks Down Benson and Stabler’s Complicated Reunion and Her Final Choice: ‘There Are So Many Feelings’"
-  ],
   [
    1794544460.9972153,
    "‘Yellowjackets’ Cast Eulogizes Show With “Quite Heartbreaking” Farewell At Final Season Premiere: “All Great Things Must Come To An End”"
@@ -19382,13 +19471,17 @@
   [
    1794715283.2244573,
    "Carrie Coon & Lily James Humanized Cult Member And Leader In Guy Nattiv’s ‘The Liberation’ – Contenders L.A."
+  ],
+  [
+   1794717099.7117958,
+   "Philippines Wins Inaugural Eurovision Song Contest Asia in Thailand"
+  ],
+  [
+   1794717103.7216432,
+   "The other members of U2 would love to trade places with The Edge"
   ]
  ],
  "titles_uk": [
-  [
-   1794542573.6360707,
-   "Марішка Гаргітей розповіла про складне возз'єднання Бенсон і Стейблера у серіалі «Law & Order: Special Victims Unit»"
-  ],
   [
    1794544460.997216,
    "Акторський склад «Yellowjackets» попрощався з серіалом на прем'єрі фінального сезону"
@@ -20108,6 +20201,14 @@
   [
    1794715283.224458,
    "Керрі Кун та Лілі Джеймс розповіли про стрічку The Liberation"
+  ],
+  [
+   1794717099.7117965,
+   "Філіппини перемогли на першому конкурсі Eurovision Song Contest Asia"
+  ],
+  [
+   1794717103.7216444,
+   "Учасники U2 зізналися, з ким із колег хотіли б помінятися місцями"
   ]
  ],
  "ukrainian": {
@@ -22490,7 +22591,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794711891.9999096,
+  "last_check": 1794717112.0087898,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
