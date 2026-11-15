@@ -1,24 +1,5 @@
 {
- "alerts": {
-  "gemini": {
-   "detail": "Expecting ':' delimiter: line 4 column 1 (char 375)\nПерекладаю через DeepL і Google. Денний ліміт, що закінчився на кілька годин, — це нормально; сповіщаю лише якщо Gemini не працює цілу добу (напр., ключ недійсний).",
-   "label": "Gemini не перекладає вже добу",
-   "sent": 0,
-   "since": 1794725141.496534
-  },
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1794725125.1935604
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1794725124.255655
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-14",
  "freebies": {
   "last_check": 1794720692.82243,
@@ -48,12 +29,14 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-15 06:45 UTC",
-  "gemini_error": "Expecting ':' delimiter: line 4 column 1 (char 375)",
-  "gemini_model": null,
-  "gemini_models_used": {},
+  "at": "2026-11-15 07:01 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_models_used": {
+   "gemini-flash-lite-latest": 2
+  },
   "used": [
-   "DeepL"
+   "Gemini"
   ]
  },
  "post_log": [
@@ -9021,7 +9004,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎬 <b>Бетмен або Бонд: Паттінсону, можливо, доведеться зняти плащ заради 007</b>\n\nПошук нового Джеймса Бонда наближається до завершення. Amazon MGM Studios схиляється до кандидатів із Голлівуду, а фіналісти проходять останні екранні проби перед оголошенням переможця. Роберт Паттінсон нібито приєднався до фінального етапу в останній момент, оскільки студію не повністю влаштували інші претенденти — Джек Лауден, Джош О’Коннор і Каллум Тернер. Раніше проби також проходив Ніколас Голт.\n\n🔗 <a href=\"https://itc.ua/ua/novini/betmen-bond-pattinson-znyaty-plashh-zarady-007/\">ITC.ua</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/betmen-bond-pattinson-znyaty-plashh-zarady-007/",
     "orig": "Бетмен або Бонд: Паттінсону, можливо, доведеться зняти плащ заради 007"
@@ -9880,6 +9862,20 @@
     "link": "https://deadline.com/2026/11/bowen-yang-oh-mary-snl-musical-sketch-1237224406/",
     "orig": "Bowen Yang Brings ‘Oh Mary!’ To ‘SNL’ With Epic Musical Sketch"
    }
+  ],
+  [
+   1794726078.0588756,
+   5994,
+   "🎮",
+   "У World of Warcraft: Forever змінинили видачу досвіду за вбивство ворогів у підземеллях",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>У World of Warcraft: Forever змінинили видачу досвіду за вбивство ворогів у підземеллях</b>\n\nУ World of Warcraft: Forever вийшов хотфікс, який скасовує нарахування досвіду за вбивство ворогів у підземеллях, якщо їхній рівень є тривіальним хоча б для одного члена групи. Це нововведення б&#x27;є по практиці бусту низькорівневих гравців друзями чи платними провідниками, але спільнота зустріла його суперечливо.\n\n🔗 <a href=\"https://www.pcgamer.com/games/world-of-warcraft/wow-forever-dungeon-mobs-no-longer-give-exp-if-theyre-trivial-for-anyone-in-the-party/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-dungeon-mobs-no-longer-give-exp-if-theyre-trivial-for-anyone-in-the-party/",
+    "orig": "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9960,10 +9956,10 @@
    1794670326.7229002
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1794637880.8278124,
    1794655885.1692154,
    1794672110.799492,
-   1794709881.1904974
+   1794709881.1904974,
+   1794726078.0591302
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1794634298.6208632,
@@ -10531,7 +10527,6 @@
   "21f61a24de74bd6b": 1793720145.5981388,
   "21fcd70f6694d569": 1793563252.4594228,
   "2209ca018fef27f6": 1793887398.4071934,
-  "221ab30f740df33f": 1793516487.8547528,
   "221b3f216a71272d": 1793703681.599376,
   "22230d807f4ec09b": 1794438052.6129565,
   "22438c0e7fac2ca4": 1793883839.2759979,
@@ -11420,7 +11415,6 @@
   "713f6dbda6ec1870": 1794666656.604099,
   "71434420f42df352": 1793808081.7181706,
   "715d5f0d4a80f0f5": 1793898089.9867158,
-  "716a7aa478d1bd2a": 1793516465.352256,
   "71838a11aaf00031": 1793889078.5804212,
   "719585b3319d675f": 1793959349.1292052,
   "71b1d7bad401a31b": 1793622679.9930928,
@@ -11472,6 +11466,7 @@
   "750cc55fcddcad5a": 1794607254.7994547,
   "751d55596c0f85db": 1794720683.1718018,
   "752dbb03c9f29158": 1794043852.507571,
+  "753d8f1edf32327b": 1794726080.5770595,
   "7550aba4eec280c2": 1793647852.0864375,
   "75663462add6a754": 1793748769.1327786,
   "756d297194018dee": 1793813819.413655,
@@ -11964,6 +11959,7 @@
   "9d3b7fed8daead43": 1794402056.59474,
   "9d41906a31411e84": 1794495683.6190026,
   "9d4221b6523a9758": 1794528082.917809,
+  "9d60dfee72e58ac6": 1794726078.0590801,
   "9d6171fb3c746cf7": 1794430855.13756,
   "9e085a255c73df4d": 1794268881.4913025,
   "9e0a28fb70f0cc3f": 1793640883.307255,
@@ -12868,7 +12864,6 @@
   "ed97931a27414f95": 1793822048.7180307,
   "edc9a1577a280398": 1794250882.6056623,
   "edcdb4e13fc01c5e": 1793914276.7164643,
-  "ee183b6f6ba7b5f9": 1793516467.4826074,
   "ee30f1b248213596": 1793908860.4204457,
   "ee33087e894a4c9a": 1793890892.7230315,
   "ee38bc3887a6ea58": 1794618173.1613715,
@@ -14337,7 +14332,7 @@
    "Metal Injection": 2,
    "Mezha": 40,
    "Neformat": 13,
-   "PC Gamer": 20,
+   "PC Gamer": 21,
    "Pitchfork": 3,
    "PlayUA": 9,
    "Polygon": 33,
@@ -14353,7 +14348,7 @@
   "translators": {
    "DeepL": 49,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 536
+   "gemini-flash-lite-latest": 538
   },
   "week": "2026-W46"
  },
@@ -16163,6 +16158,11 @@
    "EXODUS",
    1792688778.4513245
   ],
+  "q:exp": [
+   0,
+   "",
+   1794726072.416712
+  ],
   "q:explodes": [
    4615220,
    "EXPLODES",
@@ -16312,6 +16312,11 @@
    2117450,
    "Forbidden zone",
    1793628276.6804101
+  ],
+  "q:forever": [
+   0,
+   "",
+   1794726071.904612
   ],
   "q:forza motorsport": [
    2440510,
@@ -18703,6 +18708,11 @@
    "World of Tanks",
    1793005388.3132465
   ],
+  "q:wow forever": [
+   0,
+   "",
+   1794726071.3738418
+  ],
   "q:wuthering waves": [
    3513350,
    "Wuthering Waves",
@@ -19497,6 +19507,10 @@
   [
    1794725139.9957647,
    "Bowen Yang Brings ‘Oh Mary!’ To ‘SNL’ With Epic Musical Sketch"
+  ],
+  [
+   1794726078.059082,
+   "WoW: Forever dungeon mobs no longer give EXP if they're trivial for anyone in the party"
   ]
  ],
  "titles_uk": [
@@ -20231,6 +20245,10 @@
   [
    1794725139.9957654,
    "Боуен Ян представляє скетч «Oh Mary!» у програмі «SNL» у вигляді грандіозного музичного номера"
+  ],
+  [
+   1794726078.059083,
+   "У World of Warcraft: Forever змінинили видачу досвіду за вбивство ворогів у підземеллях"
   ]
  ],
  "ukrainian": {
@@ -20814,8 +20832,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1794704515.4169946,
-  "with_uk": 107
+  "last_check": 1794726090.7837303,
+  "with_uk": 108
  },
  "weekly_releases_week": "2026-W46",
  "wishlist": {
