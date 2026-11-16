@@ -1,15 +1,8 @@
 {
- "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1794832280.2798357
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-15",
  "freebies": {
-  "last_check": 1794826982.6613727,
+  "last_check": 1794834195.897164,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -36,11 +29,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-16 12:33 UTC",
+  "at": "2026-11-16 13:03 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
@@ -9015,7 +9008,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Біллі Еванс заперечив роман між Натаном Філдером та Елізабет Голмс</b>\n\nБіллі Еванс заявив, що режисер Натан Філдер не був закоханий в Елізабет Голмс під час зйомок документального фільму A24 «You Can See Everything». За його словами, їхні стосунки не мали романтичного характеру, а деякі епізоди були перебільшені для критики власних упереджень.\n\n🔗 <a href=\"https://variety.com/2026/tv/news/nathan-fielder-elizabeth-holmes-billy-evans-1236948256/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/tv/news/nathan-fielder-elizabeth-holmes-billy-evans-1236948256/",
     "orig": "Nathan Fielder Wasn’t ‘Infatuated’ With Elizabeth Holmes While Filming ‘You Can See Everything,’ Says Billy Evans: ‘I Didn’t Get The Impression for One Minute That It Was Romantic’"
@@ -9029,7 +9021,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Queens Of The Stone Age випустили студійний виступ для World Cafe</b>\n\nГурт Queens Of The Stone Age випустив записи свого виступу для World Cafe, записаного 19 жовтня. Сесія включає чотири живі треки з їхнього нового альбому та чотири інтерв&#x27;ю з колективом.\n\n🔗 <a href=\"https://lambgoat.com/news/55905/queens-of-the-stone-age-share-in-studio-world-cafe-performance/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55905/queens-of-the-stone-age-share-in-studio-world-cafe-performance/",
     "orig": "Queens Of The Stone Age share in-studio World Cafe performance"
@@ -9860,6 +9851,34 @@
     "link": "https://itc.ua/ua/novini/ne-hakery-i-ne-shi-microsoft-poyasnyla-shho-poklalo-outlook-i-teams/",
     "orig": "Не хакери і не ШІ: Microsoft пояснила, що «поклало» Outlook і Teams"
    }
+  ],
+  [
+   1794834186.5876892,
+   6105,
+   "🎮",
+   "Скільки грошей заробила GTA 6 на передзамовленнях",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Скільки грошей заробила GTA 6 на передзамовленнях</b>\n\nGrand Theft Auto 6 зібрала шалену суму ще до релізу проєкту. Читайте про свіжі дані продажів передзамовлень GTA 6.\n\n🔗 <a href=\"https://insider-gaming.com/gta-6-pre-orders/\">Insider Gaming</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/gta-6-pre-orders/",
+    "orig": "How Much Money Has GTA 6 Made in Pre-Orders?"
+   }
+  ],
+  [
+   1794834194.274722,
+   6106,
+   "🎮",
+   "Unity запускає грант у $50 000 для інді-розробників",
+   "GamesIndustry.biz",
+   {
+    "also": [],
+    "caption": "🎮 <b>Unity запускає грант у $50 000 для інді-розробників</b>\n\nUnity анонсувала програму Unity Fellowship, у межах якої десять інді-студій отримають по $50 000 без передачі частки у бізнесі чи повернення коштів. Переможців оголосять на GDC у березні 2027 року, окрім фінансування, вони отримають експертну підтримку та допомогу з піаром.\n\n🔗 <a href=\"https://www.gamesindustry.biz/unity-launches-50000-grant-for-indie-developers-with-no-equity-or-repayment\">GamesIndustry.biz</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamesindustry.biz/unity-launches-50000-grant-for-indie-developers-with-no-equity-or-repayment",
+    "orig": "Unity launches $50,000 grant for indie developers with no equity or repayment"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9920,8 +9939,7 @@
    1794564088.5962489
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
-   1794484988.2377496,
-   1794571372.1144955
+   1794834194.2750075
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
    1794760180.7987273,
@@ -9931,10 +9949,10 @@
    1794576681.5238745
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1794731759.329656,
    1794792685.4035325,
    1794810780.0712059,
-   1794812490.789233
+   1794812490.789233,
+   1794834186.5879943
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1794744161.8439357,
@@ -10181,6 +10199,7 @@
   "057e22ab69c04fb1": 1794245572.8378994,
   "05971735f7581743": 1794522703.2743623,
   "05acc5df2ba56e7f": 1794612684.7517095,
+  "062ba47c62da9eee": 1794834194.274951,
   "0671c06d7df1ebdc": 1794655885.169173,
   "06721562b9041ba7": 1794123084.485029,
   "06764ddd4b90c3d7": 1794627081.7342012,
@@ -10976,6 +10995,7 @@
   "4ff2500ae4ccf3a4": 1794423681.5965264,
   "500d494b1b1b1c65": 1793716421.5579512,
   "504631b73ef654bd": 1793955703.0302567,
+  "50553c7ed298b632": 1794834056.1069303,
   "507f124765a8661b": 1794771054.9261434,
   "50830f5c4d4fe6ad": 1794483075.0825148,
   "509364c3ce89d8f1": 1793885549.3798807,
@@ -11033,7 +11053,6 @@
   "551ddc8e9b482c56": 1793899855.0556493,
   "55304c918f40a77e": 1794493891.529127,
   "554ebd537f707231": 1793889149.9197137,
-  "557c31398258c3e4": 1793624475.8935785,
   "55a7097586f4e45a": 1794497598.6367674,
   "55c25e13c2d1b4c6": 1794353465.3584552,
   "55cad23c843395ab": 1794379783.9103365,
@@ -11382,7 +11401,6 @@
   "73c45374c6497dfa": 1793833291.6126142,
   "73d4c80b2a37d981": 1793657149.5542076,
   "73dc4b1b295aba9d": 1793833298.6685505,
-  "7407c43ab23869a4": 1793624493.077372,
   "742206ef41dbfe2c": 1793727340.223489,
   "742a79191e1f4f9b": 1793914276.7185953,
   "74366967f6c12f50": 1794731759.329611,
@@ -12006,7 +12024,6 @@
   "ab964cff152db3d1": 1793876567.0419593,
   "aba56d5501717f7c": 1793808269.6959002,
   "abace1f32748e0e9": 1793750479.6978714,
-  "abaee4f4bc3c5e06": 1793624539.2137918,
   "abb0a1c37edeff0d": 1794724560.940137,
   "abbb20b419ddf734": 1793698311.3162396,
   "abbf5ebc5b3dcb73": 1793910680.9057589,
@@ -12022,7 +12039,6 @@
   "acbad1b30197da27": 1793694784.319945,
   "acc1803d15a8e377": 1793979092.5317345,
   "acc2fde4f9c849c4": 1793649812.2505736,
-  "acd742fc231f12a1": 1793624476.3358803,
   "aced397866891a7b": 1793817205.910537,
   "ad1a21e881b46eeb": 1793786577.3369799,
   "ad429d325c65e3e4": 1793791898.5633519,
@@ -12219,7 +12235,6 @@
   "bfa09830a050a1c2": 1793734358.0302365,
   "bfa9b4aac3ebac4d": 1794036685.4513843,
   "bfca699caed01135": 1794261652.7951982,
-  "bfe4a58a891bf566": 1793624476.3384118,
   "bffba3693987cd8c": 1793901653.8973465,
   "c017d54a0cb29901": 1793813596.8832836,
   "c05d22619cf92fb7": 1794348106.1791668,
@@ -12480,6 +12495,7 @@
   "d6707efc7652b83a": 1794427255.008425,
   "d6c79430dd9144bc": 1794610972.1879642,
   "d6dc4adfda7341d9": 1794292285.989086,
+  "d6e8809ef645f2a6": 1794834056.1069303,
   "d6fa9dcc5349b895": 1793827916.6509485,
   "d706e6c706b5424e": 1793905317.2771583,
   "d713f570446d7273": 1793849495.7375321,
@@ -12926,6 +12942,7 @@
   "fd8ce74ae912803f": 1793914330.7433422,
   "fdb1dcd5479f9de0": 1794510080.6115386,
   "fdbc9ddb2fc7d622": 1793937675.1387613,
+  "fdda5be8f769a2fc": 1794834186.5879462,
   "fe15c48880158f63": 1793903621.0456195,
   "fe1c4b7b571ffdab": 1793889104.9653654,
   "fe2fbf48b34f3d2f": 1794798057.0684564,
@@ -14141,6 +14158,8 @@
  },
  "stats": {
   "filtered": {
+   "/Film": 1,
+   "GameSpot": 1,
    "IGN": 1,
    "Insider Gaming": 4,
    "Polygon": 7
@@ -14153,10 +14172,11 @@
    "Deadline": 13,
    "Distorted Sound": 1,
    "Eurogamer": 1,
+   "GamesIndustry.biz": 1,
    "GitHub Trending": 4,
    "IGN": 1,
    "ITC.ua": 1,
-   "Insider Gaming": 3,
+   "Insider Gaming": 4,
    "Lambgoat": 4,
    "Metal Hammer (Louder)": 5,
    "Mezha": 2,
@@ -14172,7 +14192,7 @@
   "translators": {
    "DeepL": 10,
    "gemini-flash-latest": 6,
-   "gemini-flash-lite-latest": 60
+   "gemini-flash-lite-latest": 62
   },
   "week": "2026-W47"
  },
@@ -14757,6 +14777,11 @@
    "Echoes of Mystralia",
    1792677687.2991743
   ],
+  "q:000": [
+   0,
+   "",
+   1794834189.1702187
+  ],
   "q:1 0": [
    5044640,
    "思安α.1.0",
@@ -14921,6 +14946,11 @@
    0,
    "",
    1794700887.1529899
+  ],
+  "q:50": [
+   0,
+   "",
+   1794834188.6470418
   ],
   "q:5050": [
    2542430,
@@ -16467,6 +16497,31 @@
    "Hotline Miami",
    1793039506.7827897
   ],
+  "q:how much": [
+   0,
+   "",
+   1794834091.0681777
+  ],
+  "q:how much money": [
+   0,
+   "",
+   1794834090.5530686
+  ],
+  "q:how much money has": [
+   0,
+   "",
+   1794834090.0592055
+  ],
+  "q:how much money has gta": [
+   0,
+   "",
+   1794834089.5647495
+  ],
+  "q:how much money has gta 6": [
+   0,
+   "",
+   1794834089.0735343
+  ],
   "q:hull rupture": [
    4358660,
    "Hull Rupture",
@@ -16696,16 +16751,6 @@
    0,
    "",
    1794661288.4566882
-  ],
-  "q:just changed the nazgul": [
-   0,
-   "",
-   1794661287.9800897
-  ],
-  "q:just changed the nazgul in 1": [
-   0,
-   "",
-   1794661287.496769
   ],
   "q:k pop": [
    3073310,
@@ -17107,6 +17152,11 @@
    "Monarchs at Play",
    1793142165.5811265
   ],
+  "q:money has gta 6 made": [
+   0,
+   "",
+   1794834094.5985985
+  ],
   "q:monster hunter wilds": [
    2246340,
    "Monster Hunter Wilds",
@@ -17146,6 +17196,36 @@
    2475490,
    "Mouthwashing",
    1793363582.659193
+  ],
+  "q:much": [
+   0,
+   "",
+   1794834094.0885592
+  ],
+  "q:much money": [
+   0,
+   "",
+   1794834093.5739372
+  ],
+  "q:much money has": [
+   0,
+   "",
+   1794834093.0751724
+  ],
+  "q:much money has gta": [
+   0,
+   "",
+   1794834092.5521626
+  ],
+  "q:much money has gta 6": [
+   0,
+   "",
+   1794834092.0581837
+  ],
+  "q:much money has gta 6 made": [
+   0,
+   "",
+   1794834091.564363
   ],
   "q:must play": [
    0,
@@ -17687,26 +17767,6 @@
    "Portal",
    1793556187.1483276
   ],
-  "q:power": [
-   0,
-   "",
-   1794661287.021134
-  ],
-  "q:power just": [
-   0,
-   "",
-   1794661286.527892
-  ],
-  "q:power just changed": [
-   0,
-   "",
-   1794661286.0496905
-  ],
-  "q:power just changed the nazgul": [
-   0,
-   "",
-   1794661285.556617
-  ],
   "q:pragmata": [
    3357650,
    "PRAGMATA",
@@ -17976,26 +18036,6 @@
    0,
    "",
    1794670280.5918648
-  ],
-  "q:rings": [
-   0,
-   "",
-   1794661285.0825193
-  ],
-  "q:rings of power": [
-   0,
-   "",
-   1794661284.5943215
-  ],
-  "q:rings of power just": [
-   0,
-   "",
-   1794661284.1139007
-  ],
-  "q:rings of power just changed": [
-   0,
-   "",
-   1794661283.615867
   ],
   "q:rob run": [
    4262460,
@@ -18312,11 +18352,6 @@
    "",
    1794715289.8564022
   ],
-  "q:they still have a human side": [
-   0,
-   "",
-   1794661283.1331437
-  ],
   "q:tomb raider": [
    203160,
    "Tomb Raider Game of the Year",
@@ -18620,24 +18655,23 @@
  },
  "tag_hints": {
   "Mezha": [
-   "amazon",
    "apple",
    "bluebird",
    "brave1 market",
    "it",
    "microsoft",
    "microsoft 365",
+   "nvidia",
    "saab",
    "spacex",
    "starlink",
    "starshield",
-   "ula",
    "антидронові сітки",
    "безпілотники",
    "бпла",
    "дрони",
    "естонія",
-   "космос",
+   "китай",
    "міноборони",
    "новини",
    "оборона",
@@ -18647,22 +18681,16 @@
    "радар",
    "робота",
    "софт",
+   "сша",
    "технології",
    "ударні безпілотники",
    "україна",
+   "чипи",
    "штучний інтелект",
    "інтернет"
   ]
  },
  "titles": [
-  [
-   1794661281.035472,
-   "Cinephil Boards Alexandru Solomon’s Romanian Election Doc ‘Small Expectations’ – IDFA"
-  ],
-  [
-   1794661290.4993727,
-   "Rings of Power Just Changed the Nazgul in 1 Terrifying Way: ‘They Still Have a Human Side’"
-  ],
   [
    1794663071.9451077,
    "Бетмен або Бонд: Паттінсону, можливо, доведеться зняти плащ заради 007"
@@ -19342,17 +19370,17 @@
   [
    1794832383.4725468,
    "Не хакери і не ШІ: Microsoft пояснила, що «поклало» Outlook і Teams"
+  ],
+  [
+   1794834186.5879488,
+   "How Much Money Has GTA 6 Made in Pre-Orders?"
+  ],
+  [
+   1794834194.2749524,
+   "Unity launches $50,000 grant for indie developers with no equity or repayment"
   ]
  ],
  "titles_uk": [
-  [
-   1794661281.0354729,
-   "Cinephil придбала права на документальну стрічку Small Expectations Александру Соломона"
-  ],
-  [
-   1794661290.4993737,
-   "У третьому сезоні The Lord of the Rings: The Rings of Power покажуть людський бік Nazgûl"
-  ],
   [
    1794663071.9451084,
    "Бетмен або Бонд: Паттінсону, можливо, доведеться зняти плащ заради 007"
@@ -20032,6 +20060,14 @@
   [
    1794832383.4725482,
    "Не хакери і не ШІ: Microsoft пояснила, що «поклало» Outlook і Teams"
+  ],
+  [
+   1794834186.5879502,
+   "Скільки грошей заробила GTA 6 на передзамовленнях"
+  ],
+  [
+   1794834194.2749538,
+   "Unity запускає грант у $50 000 для інді-розробників"
   ]
  ],
  "ukrainian": {
@@ -20506,6 +20542,7 @@
    "440": "i",
    "4435490": "",
    "4439310": "is",
+   "4444800": "",
    "4459590": "",
    "4487060": "",
    "4493130": "",
@@ -20546,8 +20583,10 @@
    "5160800": "i",
    "5175310": "is",
    "5181520": "is",
+   "5185750": "",
    "5185890": "",
    "518790": "",
+   "5200620": "",
    "5228920": "is",
    "524220": "",
    "5245810": "",
@@ -20616,8 +20655,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1794812505.4698596,
-  "with_uk": 106
+  "last_check": 1794834205.9301035,
+  "with_uk": 104
  },
  "weekly_releases_week": "2026-W47",
  "wishlist": {
