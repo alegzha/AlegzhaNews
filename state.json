@@ -29,43 +29,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-16 07:34 UTC",
-  "gemini_error": "",
+  "at": "2026-11-16 08:10 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 1
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794124986.0762851,
-   5339,
-   "🎮",
-   "Grand Theft Auto 6 отримає 55 трофеїв і досягнень",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/gta-6-55-trophies-achievements-mythic-platinum/",
-    "orig": "Grand Theft Auto 6 Will Have 55 Trophies/Achievements"
-   }
-  ],
-  [
-   1794124996.0736992,
-   5340,
-   "💾",
-   "Cloudflare випустила open-source скіл security-audit-skill для AI-агентів",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/cloudflare/security-audit-skill",
-    "orig": "cloudflare/security-audit-skill"
-   }
-  ],
   [
    1794126673.0219913,
    5341,
@@ -8951,7 +8926,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b>Студія Treyarch звільнила ветерана серії <a href=\"https://store.steampowered.com/app/1938090/\">Call of Duty</a> після 20 років роботи</b>\n\nКрейг Г&#x27;юстон, колишній провідний сценарист Treyarch та ключовий розробник режиму Zombies, потрапив під хвилю звільнень після приблизно 20 років роботи в компанії. Скорочення пов&#x27;язані з масштабною реорганізацією Xbox, яка раніше оголосила про ліквідацію 3200 робочих місць.\n\n🔗 <a href=\"https://www.eurogamer.net/craig-houston-layoff-treyarch-call-of-duty-layoffs\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/craig-houston-layoff-treyarch-call-of-duty-layoffs",
     "orig": "Treyarch lays off lead Call of Duty writer and Zombies veteran after \"approximately 20 years\" of service"
@@ -8965,7 +8939,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>Xbox святкує 25 років: спогади про всю неймовірну історію бренда</b>\n\n25 років Xbox: головні спогади та шлях бренду від самого запуску з Halo\n\n🔗 <a href=\"https://www.ign.com/articles/xbox-at-25-my-memories-from-across-xboxs-entire-and-quite-incredible-history\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/xbox-at-25-my-memories-from-across-xboxs-entire-and-quite-incredible-history",
     "orig": "Xbox at 25: My Memories From Across Xbox’s Entire (and Quite Incredible) History"
@@ -9801,6 +9774,34 @@
     "link": "https://www.loudersound.com/bands-artists/meet-pieces-of-molly-the-high-voltage-kiwi-quartet-with-global-ambitions",
     "orig": "Meet Pieces Of Molly, the high-voltage Kiwi quartet with global ambitions"
    }
+  ],
+  [
+   1794816283.4071589,
+   6084,
+   "💾",
+   "Мова Mic",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>Мова Mic</b>\n\nГоворіть своєю мовою на зустрічах, а вони почують свою\n\n🔗 <a href=\"https://www.producthunt.com/products/lingomic\">Product Hunt</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/lingomic",
+    "orig": "LingoMic"
+   }
+  ],
+  [
+   1794816654.5504937,
+   6085,
+   "🎮",
+   "Офіційна кампанія Marvel «Месники: Доomsday Prep» стартує 18 листопада",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Офіційна кампанія Marvel «Месники: Доomsday Prep» стартує 18 листопада</b>\n\nКомпанія Marvel повертається до сюжетної лінії «Таємні війни» у новій серії «Incursion» за участю «Людей Ікс» та «Фантастичної четвірки» напередодні виходу фільму «Месники: Судний день»\n\n🔗 <a href=\"https://www.polygon.com/avengers-doomsday-marvel-comics-to-read-incursions-secret-wars/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/avengers-doomsday-marvel-comics-to-read-incursions-secret-wars/",
+    "orig": "Marvel's Official Avengers: Doomsday Prep Launches on Nov. 18"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9896,7 +9897,8 @@
    1794760193.6007123,
    1794789233.0809515,
    1794794853.2285948,
-   1794814473.0154674
+   1794814473.0154674,
+   1794816654.5507488
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1794693777.200541,
@@ -10049,7 +10051,8 @@
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1794740481.6387722,
-   1794742362.4026759
+   1794742362.4026759,
+   1794816283.4074678
   ]
  },
  "seen": {
@@ -10137,7 +10140,6 @@
   "073ac511f04a8ffd": 1793829701.0726392,
   "074d1fa4d204af4f": 1794236573.3468974,
   "077044752840ba09": 1793734507.856099,
-  "077be06312645f27": 1793606773.4735112,
   "07a434408ccb9f84": 1793637058.4404707,
   "07af74155443be79": 1793626377.919646,
   "07eb24776200c433": 1794713476.5142853,
@@ -10488,7 +10490,6 @@
   "26177bd73b9e0e4c": 1793725356.054796,
   "262180340bf72999": 1793935882.393971,
   "2625cf3404f146f3": 1793799092.929753,
-  "2655ce0263b199de": 1793606476.3368418,
   "2673a4eaef717bb0": 1793829715.5622253,
   "26806661cb28f40a": 1793916193.207446,
   "269c60bbb5bb1216": 1793889078.579774,
@@ -10537,6 +10538,7 @@
   "29febbe95d926c67": 1793907144.8423254,
   "2a202f7d4ea389d5": 1794576655.1775482,
   "2a3930aaf407205c": 1794241852.9158669,
+  "2a5abb1256d183b5": 1794816283.4074228,
   "2a81b1b9e1d007d3": 1793718346.8606431,
   "2a9164d4bc8c605d": 1793613835.1495266,
   "2adc95d39c7e3883": 1793804652.7528498,
@@ -10607,7 +10609,6 @@
   "30c481d9d2140be9": 1794180774.7131963,
   "30e65d6b701a86aa": 1794121309.7773626,
   "30f8f5b6a3af214c": 1793934178.5727267,
-  "310fce217d5330e7": 1793606479.4844732,
   "3178136d8e46d9bb": 1793811904.08628,
   "31c7d09643d90bb8": 1794630779.338195,
   "31cf95dd69bbec45": 1793968290.3702145,
@@ -10653,7 +10654,6 @@
   "34eecb13125caef6": 1793909081.9182503,
   "34f514a4695542e5": 1794369689.3384242,
   "34fc7f9035834703": 1794598278.1298761,
-  "3511d33dfef66618": 1793606761.6469293,
   "352f7412914d3876": 1793917852.8708968,
   "353fdd3e747bab31": 1793813641.4719038,
   "3544a836063b2a5c": 1794718889.3772535,
@@ -10905,7 +10905,6 @@
   "4e0482a6a17a670a": 1793710930.2773001,
   "4e07520f9f49aa72": 1793829704.029989,
   "4e0c6a77fffae336": 1794096094.234996,
-  "4e0cc916eed745b8": 1793606804.947497,
   "4e14634d48f9271d": 1793621186.3601422,
   "4e20377450a9dd7d": 1793638877.7164671,
   "4e22c51acacfd42d": 1794069054.1396751,
@@ -12306,7 +12305,6 @@
   "c97f73ff002aedd0": 1794180655.9188743,
   "c9dd7ee53f02c0a8": 1793892911.2277231,
   "ca01a399ba2d812c": 1793892680.3292687,
-  "ca1638d1637c3cbd": 1793606453.0569854,
   "ca32ee556366de15": 1793773887.6205585,
   "ca38a4658abbf897": 1794263486.3048987,
   "ca3f9839954f9874": 1793812092.4948199,
@@ -12618,6 +12616,7 @@
   "e429d7a416ccf592": 1793797699.85117,
   "e42a9ce6bcb51d58": 1793824294.3711224,
   "e4417c4016aa9641": 1794661254.0536256,
+  "e457e0a4d0a25c96": 1794816654.5507064,
   "e468f4bfa64dbd11": 1793639134.2829976,
   "e470899c9154060a": 1793651507.8428893,
   "e48d6f07fd827d73": 1794585676.9122105,
@@ -14153,13 +14152,14 @@
    "PC Gamer": 1,
    "Pitchfork": 2,
    "PlayUA": 1,
-   "Polygon": 3,
+   "Polygon": 4,
+   "Product Hunt": 1,
    "Variety": 5
   },
   "translators": {
-   "DeepL": 2,
+   "DeepL": 5,
    "gemini-flash-latest": 5,
-   "gemini-flash-lite-latest": 42
+   "gemini-flash-lite-latest": 43
   },
   "week": "2026-W47"
  },
@@ -15113,6 +15113,21 @@
    0,
    "",
    1794765689.5256646
+  ],
+  "q:avengers doomsday": [
+   0,
+   "",
+   1794816290.5930367
+  ],
+  "q:avengers doomsday prep": [
+   0,
+   "",
+   1794816290.1469548
+  ],
+  "q:avengers doomsday prep launches": [
+   0,
+   "",
+   1794816289.5401716
   ],
   "q:award winning": [
    0,
@@ -16934,6 +16949,11 @@
    "Marathon",
    1792337493.8494666
   ],
+  "q:marvel": [
+   0,
+   "",
+   1794816287.2557015
+  ],
   "q:marvel cosmic invasion": [
    2753970,
    "MARVEL Cosmic Invasion",
@@ -16943,6 +16963,26 @@
    2767030,
    "Marvel Rivals",
    1792362696.659049
+  ],
+  "q:marvel's official": [
+   0,
+   "",
+   1794816286.7878544
+  ],
+  "q:marvel's official avengers": [
+   0,
+   "",
+   1794816286.3292792
+  ],
+  "q:marvel's official avengers doomsday": [
+   0,
+   "",
+   1794816285.872058
+  ],
+  "q:marvel's official avengers doomsday prep": [
+   0,
+   "",
+   1794816285.4171267
   ],
   "q:mass effect": [
    1328670,
@@ -17418,6 +17458,26 @@
    0,
    "",
    1794725128.5286772
+  ],
+  "q:official avengers": [
+   0,
+   "",
+   1794816289.0680087
+  ],
+  "q:official avengers doomsday": [
+   0,
+   "",
+   1794816288.6174557
+  ],
+  "q:official avengers doomsday prep": [
+   0,
+   "",
+   1794816288.1619396
+  ],
+  "q:official avengers doomsday prep launches": [
+   0,
+   "",
+   1794816287.7096066
   ],
   "q:officially getting remade without": [
    0,
@@ -18611,14 +18671,6 @@
  },
  "titles": [
   [
-   1794643281.109079,
-   "FAA Ground Stoppage Could Impact One Of Hollywood’s Busiest Weekends"
-  ],
-  [
-   1794643426.4887395,
-   "backnotprop/plannotator"
-  ],
-  [
    1794645076.4064794,
    "Thunder"
   ],
@@ -19285,17 +19337,17 @@
   [
    1794814476.4494553,
    "Meet Pieces Of Molly, the high-voltage Kiwi quartet with global ambitions"
+  ],
+  [
+   1794816283.4074244,
+   "LingoMic"
+  ],
+  [
+   1794816654.550708,
+   "Marvel's Official Avengers: Doomsday Prep Launches on Nov. 18"
   ]
  ],
  "titles_uk": [
-  [
-   1794643281.1090798,
-   "Тимчасова зупинка польотів FAA загрожує голлівудським подіям"
-  ],
-  [
-   1794643426.4887407,
-   "Plannotator: робочий простір для контролю та співпраці з ШІ-агентами"
-  ],
   [
    1794645076.4064798,
    "Thunder: надшвидка персистентна база даних для ШІ-навантажень"
@@ -19963,6 +20015,14 @@
   [
    1794814476.4494565,
    "Новозеландський рок-гурт Pieces Of Molly вирушив у турне Великою Британією"
+  ],
+  [
+   1794816283.4074256,
+   "Мова Mic"
+  ],
+  [
+   1794816654.550709,
+   "Офіційна кампанія Marvel «Месники: Доomsday Prep» стартує 18 листопада"
   ]
  ],
  "ukrainian": {
@@ -20550,7 +20610,7 @@
   "last_check": 1794812505.4698596,
   "with_uk": 106
  },
- "weekly_releases_week": "2026-W46",
+ "weekly_releases_week": "2026-W47",
  "wishlist": {
   "apps": {
    "1016800": {
