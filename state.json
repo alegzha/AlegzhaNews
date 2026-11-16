@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:games|Polygon|https://www.polygon.com/feed/": {
+   "detail": "https://www.polygon.com/feed/ → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\nhttps://www.polygon.com/rss/index.xml → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+   "label": "Джерело «Polygon» не працює",
+   "sent": 0,
+   "since": 1794835861.6130052
+  }
+ },
  "daily_digest_date": "2026-11-15",
  "freebies": {
   "last_check": 1794834195.897164,
@@ -29,69 +36,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-16 13:03 UTC",
+  "at": "2026-11-16 13:34 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 3
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794143063.8865154,
-   5355,
-   "🎮",
-   "Напередодні старту 3-го сезону Wardogs компанія Bulkhead заявляє, що створила «одну з найдосконаліших у світі систем боротьби з читерством» за допомогою «машинного навчання та штучного інтелекту»",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/fps/as-wardogs-season-3-looms-bulkhead-claims-to-have-built-one-of-the-worlds-most-sophisticated-anti-cheat-systems-assisted-by-machine-learning-and-ai/",
-    "orig": "As Wardogs Season 3 looms, Bulkhead claims to have built 'one of the world's most sophisticated anti-cheat systems', assisted by 'machine learning and AI'"
-   }
-  ],
-  [
-   1794143067.0646126,
-   5356,
-   "🤖",
-   "Ринки Азії готуються до нової волатильності через ШІ",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/videos/2026-11-08/asia-markets-brace-for-more-ai-volatility-video",
-    "orig": "Asia Markets Brace for More AI Volatility"
-   }
-  ],
-  [
-   1794144676.907685,
-   5357,
-   "🎬",
-   "Як працюють різні режими фазерів у всесвіті Star Trek",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2305915/star-trek-phaser-settings-explained/",
-    "orig": "Set Phasers To Stun: Star Trek's Different Phaser Settings Explained"
-   }
-  ],
-  [
-   1794144682.2608993,
-   5358,
-   "🎮",
-   "Зниклого підлітка врятували завдяки листуванню в Among Us",
-   "Eurogamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.eurogamer.net/among-us-missing-teen-rescued-utah-oregon",
-    "orig": "Missing teenager rescued after reaching out to another player in Among Us"
-   }
-  ],
   [
    1794145167.6812477,
    5359,
@@ -9034,7 +8990,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Дакота Джонсон обирає між багатством і коханням у драмі Materialists</b>\n\nСтрічка Materialists режисерки Селін Сонг препарує індустрію сучасного дейтингу, сфокусовану на статках і зовнішності. Сюжет розповідає про сваху для багатіїв Lucy (Дакота Джонсон), яка постає перед вибором між ідеальним заможним залицяльником Harry (Педро Паскаль) та бідним колишнім John (Кріс Еванс).\n\n🔗 <a href=\"https://www.slashfilm.com/2312166/colleen-hoover-verity-fans-watch-dakota-johnson-movie-materialists/\">/Film</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2312166/colleen-hoover-verity-fans-watch-dakota-johnson-movie-materialists/",
     "orig": "If You Liked Colleen Hoover's Verity, Watch Dakota Johnson's Acclaimed 2025 Movie Next"
@@ -9048,7 +9003,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Рассел Бренд отримав 10,5 року ув&#x27;язнення за зґвалтування та сексуальне насильство</b>\n\nРассела Бренда засудили до 10 років і 6 місяців ув&#x27;язнення за зґвалтування та сексуальне насильство. Його дружина Лора Галлачер випустила відеозвернення, у якому заявила, що комік молиться та почувається нормально, а сам Бренд назвав себе невинним.\n\n🔗 <a href=\"https://variety.com/2026/tv/news/russell-brand-rape-trial-sentencing-1236948233/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/tv/news/russell-brand-rape-trial-sentencing-1236948233/",
     "orig": "Russell Brand Compares Rape Trial Coverage to a ‘Football Match’ in Pre-Recorded Video as His Wife Says He’s ‘Okay’ and ‘Praying’ Post-Sentencing"
@@ -9879,6 +9833,34 @@
     "link": "https://www.gamesindustry.biz/unity-launches-50000-grant-for-indie-developers-with-no-equity-or-repayment",
     "orig": "Unity launches $50,000 grant for indie developers with no equity or repayment"
    }
+  ],
+  [
+   1794836079.153645,
+   6107,
+   "🎮",
+   "Проти Intel подано колективний позов із звинуваченням у «введенні інвесторів в оману» — нещодавнє падіння показників компанії частково пов’язане з тим, наскільки зараз дорогі ПК",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Проти Intel подано колективний позов із звинуваченням у «введенні інвесторів в оману» — нещодавнє падіння показників компанії частково пов’язане з тим, наскільки зараз дорогі ПК</b>\n\nАкції компанії різко впали минулого тижня\n\n🔗 <a href=\"https://www.pcgamer.com/hardware/processors/intel-hit-with-class-action-alleging-it-misled-investors-companys-recent-downturn-due-in-part-to-how-darn-expensive-pcs-are-right-now/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/hardware/processors/intel-hit-with-class-action-alleging-it-misled-investors-companys-recent-downturn-due-in-part-to-how-darn-expensive-pcs-are-right-now/",
+    "orig": "Intel hit with class action alleging it 'misled investors' – company's recent downturn due in part to how darn expensive PCs are right now"
+   }
+  ],
+  [
+   1794836085.506212,
+   6108,
+   "🎮",
+   "EA та Xbox повертають рекламу у відеоігри",
+   "GamesIndustry.biz",
+   {
+    "also": [],
+    "caption": "🎮 <b>EA та Xbox повертають рекламу у відеоігри</b>\n\n🔗 <a href=\"https://www.gamesindustry.biz/gamers-dont-hate-ads-they-hate-bad-ads-why-ea-and-xbox-are-putting-adverts-in-their-games\">GamesIndustry.biz</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamesindustry.biz/gamers-dont-hate-ads-they-hate-bad-ads-why-ea-and-xbox-are-putting-adverts-in-their-games",
+    "orig": "\"Gamers don't hate ads; they hate bad ads\" – Why EA and Xbox are putting adverts in their games"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9939,7 +9921,8 @@
    1794564088.5962489
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
-   1794834194.2750075
+   1794834194.2750075,
+   1794836085.5064938
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
    1794760180.7987273,
@@ -9961,7 +9944,8 @@
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1794760184.200354,
    1794808989.7638185,
-   1794830574.116481
+   1794830574.116481,
+   1794836079.153976
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1794729679.8353188,
@@ -10215,7 +10199,6 @@
   "074d1fa4d204af4f": 1794236573.3468974,
   "077044752840ba09": 1793734507.856099,
   "07a434408ccb9f84": 1793637058.4404707,
-  "07af74155443be79": 1793626377.919646,
   "07d2726f6e23edf6": 1794832383.472545,
   "07eb24776200c433": 1794713476.5142853,
   "07eb8e476513f05f": 1794771054.9261434,
@@ -10341,7 +10324,6 @@
   "116d6bd5830c9031": 1794655852.1792724,
   "1170adc197d29b61": 1794702686.0977051,
   "11b9783d5c4c6e77": 1793644265.4954946,
-  "11c0ea9aeef7d772": 1793626254.0529625,
   "11eed905692148c5": 1794303052.7507446,
   "12126a71df84f543": 1793701910.5217838,
   "12216eaf6f39bf09": 1794339053.433796,
@@ -10358,7 +10340,6 @@
   "12aaf54ff259bc0c": 1793863886.3997002,
   "12b35b4ae829ba54": 1794420054.9001808,
   "12b53ca735f12cd3": 1793986253.4546647,
-  "12c24befce181a02": 1793626391.191157,
   "12c275d70c1a7d65": 1794380505.1668162,
   "12cb9ca270140134": 1793909016.0350482,
   "12e94feb3d6b3d25": 1793646131.529448,
@@ -10849,7 +10830,6 @@
   "4198c3a801068762": 1794025884.9886954,
   "41af9493af0cf53b": 1794526281.7948456,
   "41baea658257f510": 1794016922.9356942,
-  "41d1022308607941": 1793626398.572794,
   "41d7065499eb23df": 1794274276.3566425,
   "41db8d6b264a6329": 1794621696.949433,
   "42193120745a619e": 1794286884.7511115,
@@ -10979,7 +10959,6 @@
   "4e2910dfe679ae25": 1794546093.7181077,
   "4e5469a3f0dee49f": 1794096081.7873914,
   "4e5c554f46ce2c81": 1793665855.4540458,
-  "4e850475e2eb3aec": 1793626402.8607879,
   "4e95f2e07d2eee9b": 1793781192.9947064,
   "4ee386199935ddd0": 1793746907.9794414,
   "4ee39abf60ee8a85": 1794042180.7033417,
@@ -11127,7 +11106,6 @@
   "5c778283c5ef88e9": 1793984456.2345605,
   "5c79593dafa1cd48": 1793718081.3735888,
   "5c7af98210427b8c": 1794668451.1657076,
-  "5cbfe7c1dde31cf4": 1793626254.0529625,
   "5cc77acecf7b8096": 1793899979.6416984,
   "5d2258efa952a87d": 1793641069.9223027,
   "5d30e04b8d52c5c9": 1793725350.8635116,
@@ -11377,7 +11355,6 @@
   "7203879df98082f0": 1794038484.768283,
   "7231e211057f6b69": 1794015092.7640433,
   "723adcdd75a4435b": 1793635375.5086267,
-  "72613641a4131636": 1793626381.5294886,
   "726b61922e287429": 1794520890.0403724,
   "726f07ebf3b0942c": 1793797560.0987308,
   "7272e00294ab2549": 1793730746.9032133,
@@ -11648,7 +11625,6 @@
   "89209ab642b10e25": 1793876511.160731,
   "8960f0fbccbd9b95": 1793826119.8351567,
   "897c983913b197f6": 1793885644.246963,
-  "897e230eae85ab42": 1793626277.3856006,
   "89a04f14fe7bcd31": 1794504679.8192382,
   "89a313b5b5220dfd": 1794814476.4494536,
   "89af4559da72d4cc": 1794772972.1714723,
@@ -11906,6 +11882,7 @@
   "9fff0dbddc804835": 1793633602.3764791,
   "a00ed45380a2ff0d": 1794394889.8855524,
   "a017fdbe15ca0630": 1794438090.669651,
+  "a0338a2d9b1c8c7a": 1794836085.5064359,
   "a07c6234395751c7": 1794547873.2126691,
   "a0baa12c6ca17347": 1793781125.7622426,
   "a0c07b20325751f7": 1794774828.309141,
@@ -12134,6 +12111,7 @@
   "b4339a2de81dbed3": 1793858453.7471614,
   "b4546289e864fbac": 1793642486.076861,
   "b46156e843dd0a68": 1793984487.702095,
+  "b46dada6e9c8b558": 1794836079.153923,
   "b486349bd8ca9a1f": 1793876455.0968173,
   "b4c06ed5e7f89ad5": 1793629883.095886,
   "b4c7cf56769f3008": 1794166253.2590482,
@@ -12779,7 +12757,6 @@
   "f0b306ec9354762c": 1794438097.6335125,
   "f0bce55563863bd3": 1794704489.7478058,
   "f0da9e69dffe9090": 1793963129.131009,
-  "f0f662f08256c3ce": 1793626277.974847,
   "f0f7b1cf8112748b": 1794150179.1281905,
   "f120a3777b512e44": 1793775684.1445663,
   "f15a88e3133f8122": 1793734356.451171,
@@ -14172,7 +14149,7 @@
    "Deadline": 13,
    "Distorted Sound": 1,
    "Eurogamer": 1,
-   "GamesIndustry.biz": 1,
+   "GamesIndustry.biz": 2,
    "GitHub Trending": 4,
    "IGN": 1,
    "ITC.ua": 1,
@@ -14180,7 +14157,7 @@
    "Lambgoat": 4,
    "Metal Hammer (Louder)": 5,
    "Mezha": 2,
-   "PC Gamer": 2,
+   "PC Gamer": 3,
    "Pitchfork": 2,
    "PlayUA": 1,
    "Polygon": 4,
@@ -14190,9 +14167,9 @@
    "Variety": 6
   },
   "translators": {
-   "DeepL": 10,
+   "DeepL": 11,
    "gemini-flash-latest": 6,
-   "gemini-flash-lite-latest": 62
+   "gemini-flash-lite-latest": 65
   },
   "week": "2026-W47"
  },
@@ -15867,6 +15844,11 @@
    "Dying Light: The Beast",
    1792445518.8057127
   ],
+  "q:ea and xbox": [
+   0,
+   "",
+   1794836083.1929288
+  ],
   "q:ea sports fc 27": [
    4080220,
    "EA SPORTS FC™ 27",
@@ -16186,6 +16168,16 @@
    0,
    "",
    1794727886.5397391
+  ],
+  "q:gamers": [
+   0,
+   "",
+   1794836081.6691444
+  ],
+  "q:gamers don": [
+   0,
+   "",
+   1794836081.1539943
   ],
   "q:gang of dragon": [
    4146000,
@@ -16747,11 +16739,6 @@
    "Jusant",
    1792530145.2687528
   ],
-  "q:just changed": [
-   0,
-   "",
-   1794661288.4566882
-  ],
   "q:k pop": [
    3073310,
    "K-Pop!",
@@ -17131,6 +17118,11 @@
    17410,
    "Mirror's Edge™",
    1794092479.460713
+  ],
+  "q:misled investors": [
+   0,
+   "",
+   1794835877.581883
   ],
   "q:missed the mark": [
    0,
@@ -17691,6 +17683,11 @@
    4346090,
    "Paul",
    1792852287.4923358
+  ],
+  "q:pcs": [
+   0,
+   "",
+   1794835878.1221762
   ],
   "q:peanut": [
    1068490,
@@ -18522,6 +18519,16 @@
    "",
    1794715285.2994416
   ],
+  "q:why ea": [
+   0,
+   "",
+   1794836082.7012045
+  ],
+  "q:why ea and xbox": [
+   0,
+   "",
+   1794836082.2101746
+  ],
   "q:wi fi": [
    3736050,
    "Wi-Fi",
@@ -18655,10 +18662,10 @@
  },
  "tag_hints": {
   "Mezha": [
-   "apple",
    "bluebird",
    "brave1 market",
    "it",
+   "mac hub",
    "microsoft",
    "microsoft 365",
    "nvidia",
@@ -18666,17 +18673,19 @@
    "spacex",
    "starlink",
    "starshield",
-   "антидронові сітки",
    "безпілотники",
    "бпла",
+   "гур",
    "дрони",
    "естонія",
+   "зсу",
    "китай",
    "міноборони",
    "новини",
    "оборона",
    "оборонка",
    "перехоплювачі",
+   "повітряні сили",
    "ппо",
    "радар",
    "робота",
@@ -18691,10 +18700,6 @@
   ]
  },
  "titles": [
-  [
-   1794663071.9451077,
-   "Бетмен або Бонд: Паттінсону, можливо, доведеться зняти плащ заради 007"
-  ],
   [
    1794666683.297247,
    "Venice Prizewinner ‘A Day in the Life of Jo’ Explores ‘Who and What We Truly Are’ Through Emotional Journey of Ordinary, Remarkable Teenage Girl"
@@ -19378,13 +19383,17 @@
   [
    1794834194.2749524,
    "Unity launches $50,000 grant for indie developers with no equity or repayment"
+  ],
+  [
+   1794836079.1539257,
+   "Intel hit with class action alleging it 'misled investors' – company's recent downturn due in part to how darn expensive PCs are right now"
+  ],
+  [
+   1794836085.5064375,
+   "\"Gamers don't hate ads; they hate bad ads\" – Why EA and Xbox are putting adverts in their games"
   ]
  ],
  "titles_uk": [
-  [
-   1794663071.9451084,
-   "Бетмен або Бонд: Паттінсону, можливо, доведеться зняти плащ заради 007"
-  ],
   [
    1794666683.2972476,
    "Фільм «A Day in the Life of Jo» триумфує на кінофестивалях"
@@ -20068,6 +20077,14 @@
   [
    1794834194.2749538,
    "Unity запускає грант у $50 000 для інді-розробників"
+  ],
+  [
+   1794836079.153927,
+   "Проти Intel подано колективний позов із звинуваченням у «введенні інвесторів в оману» — нещодавнє падіння показників компанії частково пов’язане з тим, наскільки зараз дорогі ПК"
+  ],
+  [
+   1794836085.5064387,
+   "EA та Xbox повертають рекламу у відеоігри"
   ]
  ],
  "ukrainian": {
@@ -22461,7 +22478,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794832392.507505,
+  "last_check": 1794836094.291617,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
