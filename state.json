@@ -1,10 +1,10 @@
 {
  "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
+  "src:music|ThePRP|https://www.theprp.com/feed/": {
+   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ThePRP» не працює",
    "sent": 0,
-   "since": 1794858072.3752902
+   "since": 1794861088.9953275
   }
  },
  "daily_digest_date": "2026-11-16",
@@ -36,30 +36,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-16 19:41 UTC",
+  "at": "2026-11-16 20:33 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794169899.720302,
-   5370,
-   "🤖",
-   "Дослідники сумніваються у свідомості сучасного ШІ",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/the-brain-as-computer-metaphor-shaped-modern-ai-but-may-be-misleading-the-consciousness-debate/",
-    "orig": "The brain-as-computer metaphor shaped modern AI but may be misleading the consciousness debate"
-   }
-  ],
   [
    1794171681.8342128,
    5371,
@@ -9153,7 +9140,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Нові треки тижня за версією Classic Rock</b>\n\nВидання Classic Rock представило добірку найкращих нових треків тижня, куди увійшли композиції від The Record Company, Cardinal Black, Bones UK, а також нові сольні й гуртові проєкти відомих рок-музикантів. Слухачі можуть долучитися до голосування за найкращу пісню на сайті.\n\n🔗 <a href=\"https://www.loudersound.com/music/tracks-singles/classic-rock-tracks-of-the-week-november-16-2027\">Metal Hammer (Louder)</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/music/tracks-singles/classic-rock-tracks-of-the-week-november-16-2027",
     "orig": "Classic Rock Tracks Of The Week: November 16, 2027"
@@ -9167,7 +9153,6 @@
    "Pitchfork",
    {
     "also": [],
-    "caption": "🤘 <b>Пітер Гук, Deftones і Лорен Мейберрі виконали треки Joy Division та New Order</b>\n\nНа церемонії Rock &amp; Roll Hall of Fame 2026 Joy Division та New Order офіційно ввели до Зали слави. Через багаторічний конфлікт із колишніми колегами Пітер Гук прийшов на подію сам і виконав треки «Love Will Tear Us Apart» та «Bizarre Love Triangle» за участі Deftones і Лорен Мейберрі.\n\n🔗 <a href=\"https://pitchfork.com/story/deftones-lauren-mayberry-peter-hook-play-joy-division-and-new-order-songs-at-2026-rock-hall/\">Pitchfork</a>\n\n#музика",
     "kind": "text",
     "link": "https://pitchfork.com/story/deftones-lauren-mayberry-peter-hook-play-joy-division-and-new-order-songs-at-2026-rock-hall/",
     "orig": "Peter Hook, Lauren Mayberry, Deftones Play Joy Division and New Order Songs at 2026 Rock Hall"
@@ -9181,7 +9166,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Джейсон Судейкіс і Ганна Ваддінгем виконали кавер на Islands in the Stream</b>\n\nЗірки серіалу Ted Lasso Джейсон Судейкіс і Ганна Ваддінгем возз&#x27;єдналися на сцені благодійного заходу Thundergong!, щоб виконати хіт Islands in the Stream на згадку про Доллі Партон. Ваддінгем вразила глядачів своїм вокалом, доповнивши виступ колеги. Захід збирає кошти для людей з ампутаціями через фонд Steps of Faith.\n\n🔗 <a href=\"https://deadline.com/2026/11/jason-sudeikis-hanna-waddingham-islands-in-the-stream-1237224834/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/jason-sudeikis-hanna-waddingham-islands-in-the-stream-1237224834/",
     "orig": "Jason Sudeikis & Hanna Waddingham Duet On “Islands In The Stream” – Watch"
@@ -9866,7 +9850,12 @@
    "Google попереджає про близькі повністю автоматизовані хакерські атаки на базі ШІ",
    "ITC.ua",
    {
-    "also": [],
+    "also": [
+     [
+      "The Decoder",
+      "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/"
+     ]
+    ],
     "caption": "🤖 <b>Google попереджає про близькі повністю автоматизовані хакерські атаки на базі ШІ</b>\n\nGoogle Threat Intelligence Group (GTIG) попереджає, що кіберзловмисники переходять до агентних робочих процесів на основі ШІ-фреймворків, які автоматизують пошук і експлуатацію вразливостей. Спершу ШІ в атаках застосовували експериментально, проте тепер GTIG бачить його масове використання як фінансово мотивованими, так і підтримуваними державами групами.\n\n🔗 <a href=\"https://itc.ua/ua/novini/google-poperedzhaye-pro-blyzki-povnistyu-avtomatyzovani-hakerski-ataky-na-bazi-shi/\">ITC.ua</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/google-poperedzhaye-pro-blyzki-povnistyu-avtomatyzovani-hakerski-ataky-na-bazi-shi/",
@@ -10007,6 +9996,48 @@
     "link": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
     "orig": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice"
    }
+  ],
+  [
+   1794861150.4700408,
+   6135,
+   "🤖",
+   "Сем Альтман вважає, що індустрія ШІ впорається після відставки Дженсена Хуанга",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Сем Альтман вважає, що індустрія ШІ впорається після відставки Дженсена Хуанга</b>\n\nСем Альтман із OpenAI заявив, що індустрія штучного інтелекту зможе подолати невизначеність, спричинену нещодавньою відставкою генерального директора Nvidia Corp. Дженсена Хуанга. На його думку, галузь залишиться стабільною попри ці події.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-16/altman-says-ai-industry-will-be-fine-after-huang-s-ouster\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-16/altman-says-ai-industry-will-be-fine-after-huang-s-ouster",
+    "orig": "Altman Says AI Industry ‘Will Be Fine’ After Huang’s Ouster"
+   }
+  ],
+  [
+   1794861220.9576693,
+   6136,
+   "🤖",
+   "Tradeweb запускає ШІ-ассистент для трейдерів держоблігацій",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Tradeweb запускає ШІ-ассистент для трейдерів держоблігацій</b>\n\nTradeweb Markets Inc. випускає ШІ-асистент для торгівлі державними облігаціями США. Це робиться на тлі прагнення електронних торгових майданчиків зробити штучний інтелект центральною функцією своїх платформ.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-16/tradeweb-is-rolling-out-ai-assistant-for-us-treasury-traders\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-16/tradeweb-is-rolling-out-ai-assistant-for-us-treasury-traders",
+    "orig": "Tradeweb Is Rolling Out AI Assistant for US Treasury Traders"
+   }
+  ],
+  [
+   1794861223.1812239,
+   6137,
+   "🤖",
+   "OpenAI представила нові інструменти для виявлення матеріалів сексуального насильства над дітьми",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🤖 <b>OpenAI представила нові інструменти для виявлення матеріалів сексуального насильства над дітьми</b>\n\nКомпанія OpenAI оголосила про запуск нових інструментів для боротьби з матеріалами сексуального насильства над дітьми (CSAM) на тлі зростання занепокоєння щодо безпеки використання систем штучного інтелекту.\n\n🔗 <a href=\"https://mezha.ua/news/openai-predstavila-novi-instrumenti-dlya-borotbi-zi-csam-317272/\">Mezha</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/openai-predstavila-novi-instrumenti-dlya-borotbi-zi-csam-317272/",
+    "orig": "OpenAI представила нові інструменти для виявлення матеріалів сексуального насильства над дітьми"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10014,12 +10045,12 @@
    1794844878.6975121
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1794771113.6258197,
-   1794771138.1197734,
    1794774828.309189,
    1794796286.0083685,
    1794828859.121882,
-   1794844886.9726896
+   1794844886.9726896,
+   1794861150.4702928,
+   1794861220.9579172
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1794852104.345479
@@ -10036,7 +10067,8 @@
   "ai|Mezha|https://mezha.ua/feed/": [
    1794839485.2085938,
    1794846689.241473,
-   1794848606.1513245
+   1794848606.1513245,
+   1794861223.1814985
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1794772972.1715162,
@@ -10298,7 +10330,6 @@
   "02b98c519cea79b0": 1793692886.129161,
   "02c59df6f1eb74ed": 1794097855.0003257,
   "02da8b7d01f8cb9a": 1793819096.5777454,
-  "02ea645a4d62c4e7": 1793649868.3424227,
   "02f9ebbdd55cb2f6": 1794812490.789183,
   "0322dc1ae5e39faa": 1794709877.275052,
   "033168300b88fa0b": 1794034991.97429,
@@ -10489,7 +10520,6 @@
   "1365ba998e33abdc": 1793878291.9790094,
   "13ae1734ec3f9dd5": 1794243690.4623184,
   "13b88825b033d60f": 1794249090.7646024,
-  "13df89ceabebc516": 1793649886.0159886,
   "13e15c979bc7f0bc": 1793819091.1654918,
   "13e1a65ff91b7ffc": 1794781971.0920577,
   "140ba3a9eca450a0": 1794729679.8352752,
@@ -10550,7 +10580,6 @@
   "19a766cff80206ff": 1794317498.314858,
   "19acddb00b886bfe": 1793901696.5518076,
   "19af98d7c7127689": 1794814464.6482637,
-  "19c81b68c2f0e13d": 1793649850.9736905,
   "19cb250603dbf7c1": 1793887355.6836658,
   "19d4baf6d5cb6e7e": 1793799103.7004852,
   "19e563a267e1b55f": 1794659494.4706376,
@@ -10615,7 +10644,6 @@
   "2012e2bc9e7d7929": 1794524548.5083108,
   "201ced87b1c7b534": 1793977290.8206599,
   "20236d44aef35df3": 1794312055.4112585,
-  "2041ec71adf76df0": 1793649917.1394475,
   "2048aad6c27f09d4": 1793819009.7965024,
   "205129827c312af3": 1793896256.7747672,
   "20c46d20a284b6db": 1793729067.5918496,
@@ -10662,7 +10690,6 @@
   "25671638621372e7": 1794137514.4014792,
   "256a9746b134b753": 1794718877.0665543,
   "25866d2711d23a5f": 1793901864.702728,
-  "25aac006b01cda83": 1793651505.2041273,
   "25af0fbf32f4457e": 1793655078.6061056,
   "25be104710a5787d": 1794227453.9175088,
   "25d0b3664537571b": 1794009696.4695926,
@@ -10732,7 +10759,6 @@
   "2bba46206d0c85ec": 1794837697.1199596,
   "2bcc0d9702cf7214": 1793822038.9346817,
   "2bced931fe8d25ec": 1793912454.7085621,
-  "2bd4df03607da181": 1793651486.8708184,
   "2be54f12526ae2a5": 1793853106.215113,
   "2bec071b6c642e87": 1793734294.9914932,
   "2c1f15f8322385d6": 1794520881.1333885,
@@ -10799,6 +10825,7 @@
   "3267aa4aa3a6f6aa": 1794367885.5482562,
   "3278da9f0f45dcdf": 1794688284.0626087,
   "327c76e888111331": 1793822027.6340158,
+  "328a1f0e8933a048": 1794861150.4702475,
   "32b31c0204f4a5cb": 1794470490.4255424,
   "33089f1255de174c": 1794799881.619647,
   "33097b39e293d40b": 1794211286.8406339,
@@ -10807,7 +10834,6 @@
   "333126c8ac9be967": 1793804753.8474927,
   "3335a918f3cc50ab": 1793734301.6911168,
   "335086bf8f0c729f": 1794349854.945267,
-  "33581660b613c852": 1793649926.553101,
   "337c1012d87987ce": 1793907159.681541,
   "338ba400d7f1589f": 1793734337.9321942,
   "33ad2ccf820a8d69": 1794612694.8043666,
@@ -10868,7 +10894,6 @@
   "39c34f7a0914636f": 1794252654.4309437,
   "39dddfafa7ab01b4": 1794718893.7046595,
   "3a02062d6fb9c8bf": 1794715283.2244556,
-  "3a28b6857e1c43e9": 1793651452.7271295,
   "3a3521afc2daf7d8": 1793907094.828857,
   "3a3638e6ea188d3f": 1793892680.764708,
   "3a4a2514e9ddc56a": 1794054814.6518655,
@@ -10924,6 +10949,7 @@
   "3e6bb8c64f80c1d9": 1793849483.4138262,
   "3e7019c0f2362058": 1794178884.958449,
   "3f2e067186861ece": 1794614678.0289764,
+  "3f341dcc7fc32191": 1794861220.9578738,
   "3f75245320df9051": 1794151877.6178396,
   "3f78491a683059a9": 1793664055.972561,
   "3f799af8df7757bf": 1793903639.1428232,
@@ -11019,7 +11045,6 @@
   "49d48c710ecdd499": 1794596480.8390253,
   "49df04ef0fcca6ec": 1794531691.8776586,
   "49eceb4f0f4bb4a9": 1793685693.4614995,
-  "49f47d0a04e244f6": 1793649860.6717303,
   "4a0f2863e5da5058": 1794468725.5863578,
   "4a31f61b02fc4280": 1794643258.248781,
   "4a3ad21c5d3efe23": 1794574877.1639743,
@@ -11030,6 +11055,7 @@
   "4a9cddd9bc3da6c7": 1793815383.275674,
   "4aa1f15845f9de14": 1793890883.0501435,
   "4aba016a9fc4baaa": 1793784713.0394628,
+  "4ad53c8eb5f45934": 1794861053.5738606,
   "4ad73f2ac91b448c": 1794643281.1090765,
   "4add9805752a7781": 1793720021.0795097,
   "4ae98c8fc59d539b": 1794760180.7986965,
@@ -11127,7 +11153,6 @@
   "5393cf2026d05807": 1793804673.308179,
   "53958cf51f47108f": 1794648890.1376827,
   "53b662d65501de35": 1793899954.3696232,
-  "53c7321c7f208bad": 1793651474.6009927,
   "53c8e319e186a06f": 1794130255.9531379,
   "5414ecc9b939f980": 1794607474.0966804,
   "541ad1bfc1eb4ee6": 1793892655.141962,
@@ -11161,7 +11186,6 @@
   "5724f9472617b49a": 1793653395.331362,
   "57274d1f0866156c": 1793818893.834342,
   "57445073924f55eb": 1794223877.2082872,
-  "5773515e4858031c": 1793651503.3500595,
   "5777a1ac177a31c9": 1793863899.4650154,
   "57886324beb7c569": 1794682948.413298,
   "578adbf633f655f9": 1794040252.109069,
@@ -11224,6 +11248,7 @@
   "5d65eb104765e6c6": 1793790481.195648,
   "5d999b17f72c1067": 1793811683.7862215,
   "5db5eec8faf5ae7a": 1794475909.8663523,
+  "5dc12a2327e6f454": 1794861105.3816972,
   "5dd7a59be3d009c9": 1794232940.0602186,
   "5ddaa834fe4ebd5f": 1794333654.8439758,
   "5defa60d5c39c846": 1793797535.9518971,
@@ -11250,6 +11275,7 @@
   "5f98c8d8af98451b": 1794148278.9657562,
   "5f9b38a8416afa45": 1794616312.000508,
   "5f9df56fed9a28e3": 1794598371.8116102,
+  "5fa346d1bde734c4": 1794861223.1814535,
   "5fc51f7f274eb3e5": 1794087051.001706,
   "5fce1438ca55a1b0": 1793826085.3561068,
   "5ff19eb66039b50c": 1793953887.143655,
@@ -11554,7 +11580,6 @@
   "7a1a9fdba05583c6": 1794263376.6669595,
   "7a53076bad5912b3": 1793791881.4996517,
   "7a611172b2abc75e": 1794310275.0560873,
-  "7a63d39d187994e3": 1793649809.8780675,
   "7aa7e24b324aa8d5": 1793728894.5557163,
   "7ac2cc389f343a7b": 1793728894.571197,
   "7ad5254cb90b9927": 1794682854.575637,
@@ -11655,7 +11680,6 @@
   "8275d9fda686ec67": 1794114090.5027995,
   "829e270d45609990": 1793790169.1975977,
   "82cd917056ad5a79": 1794609055.1572344,
-  "82daf9e9c378eff7": 1793651474.2692106,
   "82efcffd91b518e1": 1793705588.2606974,
   "83006f94f1a5f32f": 1793890882.1479006,
   "83186b0550e5f2fc": 1794556877.7875981,
@@ -11705,7 +11729,6 @@
   "881debcf1a1d3952": 1794634255.263127,
   "883f640a6c833459": 1793880053.6176856,
   "8840c180a5ce48c6": 1793988056.3209734,
-  "8845e2086549ec91": 1793649854.898565,
   "884b01750c3f263b": 1794832381.563612,
   "885dfa36220b1c5d": 1794663052.3051553,
   "885e2a5c60d7f489": 1793730719.046269,
@@ -11893,7 +11916,6 @@
   "9921b12bdf523054": 1793876564.4156368,
   "992a01611b2e7356": 1794538856.044465,
   "993703f4aeb9cd74": 1793836876.9948044,
-  "9959b87cf28e9452": 1793649828.9046333,
   "9974ef79a57fccc7": 1794456162.6430361,
   "99882059b81d30e7": 1793822456.2873676,
   "998ca5903d76ff06": 1794241852.9158669,
@@ -12005,7 +12027,6 @@
   "a482c85429afe413": 1794110477.4075284,
   "a4c265c1e61f0eae": 1794353367.763071,
   "a4e3b24e889e8164": 1794826980.8674247,
-  "a4f46b540920a897": 1793649684.9992905,
   "a5131b4a4a4e6e3c": 1793833286.8042223,
   "a5433ee88c25ff65": 1794682854.575637,
   "a543abe4c5eb1f99": 1793808491.071388,
@@ -12091,7 +12112,6 @@
   "acb63de4db3cb4da": 1793698284.6600015,
   "acbad1b30197da27": 1793694784.319945,
   "acc1803d15a8e377": 1793979092.5317345,
-  "acc2fde4f9c849c4": 1793649812.2505736,
   "aced397866891a7b": 1793817205.910537,
   "ad1a21e881b46eeb": 1793786577.3369799,
   "ad429d325c65e3e4": 1793791898.5633519,
@@ -12276,7 +12296,6 @@
   "be6dcb8dbf1cc5c9": 1794551489.7444518,
   "be75b07fa4e25505": 1794333679.4848025,
   "bea2be3f2d42d96c": 1794441684.146538,
-  "bee17da749f97fae": 1793649839.8282518,
   "bf428dc5419779c5": 1794450683.2133462,
   "bf55d92aebf43d96": 1794792688.2601962,
   "bfa09830a050a1c2": 1793734358.0302365,
@@ -12677,7 +12696,6 @@
   "e42a9ce6bcb51d58": 1793824294.3711224,
   "e4417c4016aa9641": 1794661254.0536256,
   "e457e0a4d0a25c96": 1794816654.5507064,
-  "e470899c9154060a": 1793651507.8428893,
   "e48d6f07fd827d73": 1794585676.9122105,
   "e4b8454be1056c49": 1793716537.7955177,
   "e4b8ec6c3b375c04": 1794236457.3327184,
@@ -12938,7 +12956,6 @@
   "fc2fb02ead8c606e": 1793734312.1806116,
   "fc3d9dddd681abd5": 1793980856.010392,
   "fc4c87bd494e185b": 1793718391.0677536,
-  "fc63bd75f12a0f57": 1793651478.8971174,
   "fc6c62dc15431a53": 1794389502.144764,
   "fc90c750e381c97b": 1794092486.2020237,
   "fc90c941bfca0cb5": 1794589273.877405,
@@ -14182,6 +14199,7 @@
    "GameSpot": 1,
    "IGN": 2,
    "Insider Gaming": 4,
+   "Loudwire": 1,
    "Polygon": 12,
    "Variety": 2
   },
@@ -14189,7 +14207,7 @@
    "/Film": 6,
    "AIN.ua": 1,
    "Blabbermouth": 3,
-   "Bloomberg": 6,
+   "Bloomberg": 8,
    "DOU": 2,
    "DOU Gamedev": 1,
    "Deadline": 13,
@@ -14203,7 +14221,7 @@
    "Insider Gaming": 4,
    "Lambgoat": 4,
    "Metal Hammer (Louder)": 5,
-   "Mezha": 8,
+   "Mezha": 9,
    "PC Gamer": 3,
    "Pitchfork": 2,
    "PlayUA": 1,
@@ -14217,7 +14235,7 @@
   "translators": {
    "DeepL": 11,
    "gemini-flash-latest": 6,
-   "gemini-flash-lite-latest": 73
+   "gemini-flash-lite-latest": 75
   },
   "week": "2026-W47"
  },
@@ -18689,6 +18707,7 @@
    "blade runner",
    "lenovo",
    "nvidia",
+   "openai",
    "pac-3 mse",
    "patriot",
    "slow horses",
@@ -18697,7 +18716,6 @@
    "бізнес",
    "відеокарти",
    "двигун",
-   "дональд трамп",
    "дрони",
    "зброя",
    "київстар",
@@ -18723,10 +18741,6 @@
   ]
  },
  "titles": [
-  [
-   1794688284.0626104,
-   "Anthropic can already retrain Mythos with \"a fraction of the compute originally needed,\" says former researcher Coxon"
-  ],
   [
    1794690162.9912999,
    "Runway's open-source Praxis-1 turns video AI into a robot controller"
@@ -19442,13 +19456,21 @@
   [
    1794858091.412122,
    "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice"
+  ],
+  [
+   1794861150.4702497,
+   "Altman Says AI Industry ‘Will Be Fine’ After Huang’s Ouster"
+  ],
+  [
+   1794861220.9578757,
+   "Tradeweb Is Rolling Out AI Assistant for US Treasury Traders"
+  ],
+  [
+   1794861223.1814554,
+   "OpenAI представила нові інструменти для виявлення матеріалів сексуального насильства над дітьми"
   ]
  ],
  "titles_uk": [
-  [
-   1794688284.0626113,
-   "Anthropic здатна перенавчити модель Mythos із мінімальними обчислювальними витратами"
-  ],
   [
    1794690162.9913006,
    "Runway випустила відкриту модель Praxis-1 для керування роботами через відео ШІ"
@@ -20164,6 +20186,18 @@
   [
    1794858091.412123,
    "GPT-6 Astra допомогла розв'язати давню проблему Стандартної моделі"
+  ],
+  [
+   1794861150.4702501,
+   "Сем Альтман вважає, що індустрія ШІ впорається після відставки Дженсена Хуанга"
+  ],
+  [
+   1794861220.9578764,
+   "Tradeweb запускає ШІ-ассистент для трейдерів держоблігацій"
+  ],
+  [
+   1794861223.181456,
+   "OpenAI представила нові інструменти для виявлення матеріалів сексуального насильства над дітьми"
   ]
  ],
  "ukrainian": {
@@ -22562,7 +22596,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794855726.2107604,
+  "last_check": 1794861231.6754298,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
