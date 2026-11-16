@@ -1,10 +1,16 @@
 {
  "alerts": {
-  "src:games|Polygon|https://www.polygon.com/feed/": {
-   "detail": "https://www.polygon.com/feed/ → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\nhttps://www.polygon.com/rss/index.xml → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-   "label": "Джерело «Polygon» не працює",
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+   "label": "Джерело «Neformat» не працює",
    "sent": 0,
-   "since": 1794835861.6130052
+   "since": 1794837690.9993825
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1794837670.313879
   }
  },
  "daily_digest_date": "2026-11-15",
@@ -36,36 +42,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-16 13:34 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-11-16 14:01 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794145167.6812477,
-   5359,
-   "🎮",
-   "Як отримати Silver Scale та Golden Scale у The Legend of Zelda: Ocarina of Time",
-   "VGC",
-   {
-    "also": [
-     [
-      "Polygon",
-      "https://www.polygon.com/zelda-ocarina-of-time-switch-2-remake-goty-game-awards/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.videogameschronicle.com/guide/zelda-oot-remake-silver-golden-scale-dive/",
-    "orig": "Zelda OOT Remake: Get the Silver and Golden Scales to dive deeper"
-   }
-  ],
   [
    1794148278.96544,
    5360,
@@ -9016,7 +9003,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Фільм Club Kid відзначився найкращим обмеженим прокатом року</b>\n\nСтрічка Club Kid від A24 зібрала $756 тисяч за другий тиждень на 27 екранах, продемонструвавши найкращий обмежений прокат року. Тим часом кримінальний трилер Paper Tiger режисера Джеймса Грея показав найкращий старт на один екран у Нью-Йорку та Лос-Анджелесі.\n\n🔗 <a href=\"https://deadline.com/2026/11/indie-film-box-office-club-kid-expands-paper-tiger-james-gray-1237224498/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/indie-film-box-office-club-kid-expands-paper-tiger-james-gray-1237224498/",
     "orig": "‘Club Kid’ Rocks Limited Expansion As ‘Paper Tiger’ Scores James Gray’s Best Per-Screen Debut — Specialty Box Office"
@@ -9030,7 +9016,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Ерік Сінгер з KISS розкритикував барабанщиків, які беруть гроші за поради</b>\n\nПід час сесії запитань і відповідей на заході KISS Kruise: Land-Locked In Vegas барабанщик поділився своєю думкою про те, як роздавати поради початківцям у музичній індустрії.\n\n🔗 <a href=\"https://blabbermouth.net/news/kisss-eric-singer-rips-drummers-who-charge-for-advice-and-information-thats-not-how-it-works\">Blabbermouth</a>\n\n#музика",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/kisss-eric-singer-rips-drummers-who-charge-for-advice-and-information-thats-not-how-it-works",
     "orig": "KISS's ERIC SINGER Rips Drummers Who Charge For Advice And Information: 'That's Not How It Works'"
@@ -9861,6 +9846,34 @@
     "link": "https://www.gamesindustry.biz/gamers-dont-hate-ads-they-hate-bad-ads-why-ea-and-xbox-are-putting-adverts-in-their-games",
     "orig": "\"Gamers don't hate ads; they hate bad ads\" – Why EA and Xbox are putting adverts in their games"
    }
+  ],
+  [
+   1794837697.1197796,
+   6109,
+   "🎮",
+   "Doom: The Dark Ages отримає режим Slaughter Mode, але не для всіх гравців",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/3017860/\">Doom: The Dark Ages</a> отримає режим Slaughter Mode, але не для всіх гравців</b>\n\nСьогодні, 16 листопада, DOOM: The Dark Ages отримає оновлення з новим режимом Slaughter Mode. У ньому гравцям доведеться витримувати нескінченні хвилі ворогів на 19 аренах, а складність поступово зростатиме. За проходження раундів можна отримати нагороди, які відкривають нові косметичні предмети та покращення.\n\n🔗 <a href=\"https://itc.ua/ua/novini/doom-the-dark-ages-otrymaye-rezhym-slaughter-mode-ale-ne-dlya-vsih-gravtsiv/\">ITC.ua</a>\n\n#ігри",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/doom-the-dark-ages-otrymaye-rezhym-slaughter-mode-ale-ne-dlya-vsih-gravtsiv/",
+    "orig": "Doom: The Dark Ages отримає режим Slaughter Mode, але не для всіх гравців"
+   }
+  ],
+  [
+   1794837716.6234343,
+   6110,
+   "🎮",
+   "Нова книга D&D усередині всесвіту World of Warcraft вирішує проблеми високих рівнів",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Нова книга D&amp;D усередині всесвіту World of Warcraft вирішує проблеми високих рівнів</b>\n\n🔗 <a href=\"https://www.polygon.com/dnd-world-of-warcraft-dungeons-dragons-monsters-high-cr-design-bosses/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/dnd-world-of-warcraft-dungeons-dragons-monsters-high-cr-design-bosses/",
+    "orig": "D&D’s World of Warcraft Book Fixes the RPG’s Biggest Endgame Issue"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9929,7 +9942,7 @@
    1794787350.4929907
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
-   1794576681.5238745
+   1794837697.1200051
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
    1794792685.4035325,
@@ -9952,12 +9965,12 @@
    1794810782.9833782
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1794749685.7511315,
    1794760193.6007123,
    1794789233.0809515,
    1794794853.2285948,
    1794814473.0154674,
-   1794816654.5507488
+   1794816654.5507488,
+   1794837716.6236482
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1794825090.6416788,
@@ -10603,6 +10616,7 @@
   "2b3bfcd1c50fa9aa": 1794083478.7347698,
   "2b48fc3308d6ced3": 1794364252.7798047,
   "2b50e1e804c98216": 1794693777.2004967,
+  "2bba46206d0c85ec": 1794837697.1199596,
   "2bcc0d9702cf7214": 1793822038.9346817,
   "2bced931fe8d25ec": 1793912454.7085621,
   "2bd4df03607da181": 1793651486.8708184,
@@ -10757,6 +10771,7 @@
   "3a9b0d85f2125cb2": 1793790115.5346375,
   "3aa57a8d0f692480": 1793637087.483372,
   "3ace2e3d4bdc631b": 1793808081.7335856,
+  "3ad6dfcbbee37c67": 1794837716.6236005,
   "3add102e6028f601": 1793676658.0214493,
   "3ae61ef5615e6692": 1794717103.7216418,
   "3ae63eeebba5480b": 1794022254.4008634,
@@ -11062,7 +11077,6 @@
   "58385446778c35f4": 1793628364.5235372,
   "5854f584cfbf7e13": 1793734511.2710097,
   "5879d279ef606fe5": 1793728942.8065848,
-  "58bf8ae4a45bab0d": 1793628115.3944323,
   "58c07b25e47b0a01": 1793799097.5665848,
   "58d1500c12993f95": 1794191760.1605656,
   "5916c4ad29c66c6c": 1794046017.6232014,
@@ -14152,7 +14166,7 @@
    "GamesIndustry.biz": 2,
    "GitHub Trending": 4,
    "IGN": 1,
-   "ITC.ua": 1,
+   "ITC.ua": 2,
    "Insider Gaming": 4,
    "Lambgoat": 4,
    "Metal Hammer (Louder)": 5,
@@ -14160,7 +14174,7 @@
    "PC Gamer": 3,
    "Pitchfork": 2,
    "PlayUA": 1,
-   "Polygon": 4,
+   "Polygon": 5,
    "Product Hunt": 2,
    "Rock Paper Shotgun": 2,
    "VGC": 1,
@@ -14169,7 +14183,7 @@
   "translators": {
    "DeepL": 11,
    "gemini-flash-latest": 6,
-   "gemini-flash-lite-latest": 65
+   "gemini-flash-lite-latest": 66
   },
   "week": "2026-W47"
  },
@@ -14283,11 +14297,6 @@
    "2190700",
    "Altered Alma",
    1793287874.8903391
-  ],
-  "id:220860": [
-   "220860",
-   "McPixel",
-   1792244011.798971
   ],
   "id:2231020": [
    "2231020",
@@ -14533,11 +14542,6 @@
    "4146000",
    "GANG OF DRAGON",
    1793640854.9197752
-  ],
-  "id:4150720": [
-   "4150720",
-   "Drunken Goddess Reflux",
-   1792244011.752122
   ],
   "id:4249130": [
    "4249130",
@@ -15629,6 +15633,41 @@
    "Cyberpunk 2077",
    1794825088.4918373
   ],
+  "q:d d": [
+   0,
+   "",
+   1794837700.2661061
+  ],
+  "q:d d's world": [
+   0,
+   "",
+   1794837699.712332
+  ],
+  "q:d d's world of warcraft": [
+   0,
+   "",
+   1794837699.1800046
+  ],
+  "q:d's world": [
+   0,
+   "",
+   1794837702.46845
+  ],
+  "q:d's world of warcraft": [
+   0,
+   "",
+   1794837701.810226
+  ],
+  "q:d's world of warcraft book": [
+   0,
+   "",
+   1794837701.2744653
+  ],
+  "q:d's world of warcraft book fixes": [
+   0,
+   "",
+   1794837700.7716148
+  ],
   "q:dark": [
    0,
    "",
@@ -15793,6 +15832,16 @@
    379720,
    "DOOM",
    1794571281.5455735
+  ],
+  "q:doom the dark ages": [
+   3017860,
+   "DOOM: The Dark Ages",
+   1794837694.9297001
+  ],
+  "q:doom the dark ages slaughter": [
+   0,
+   "",
+   1794837694.349519
   ],
   "q:dota 2": [
    570,
@@ -17139,6 +17188,11 @@
    "MOBILE SUIT GUNDAM BATTLE OPERATION 3",
    1793725363.7039416
   ],
+  "q:mode": [
+   0,
+   "",
+   1794837696.7325387
+  ],
   "q:monarchs at play": [
    4179890,
    "Monarchs at Play",
@@ -18104,6 +18158,16 @@
    "skate.",
    1792609361.7887642
   ],
+  "q:slaughter": [
+   0,
+   "",
+   1794837696.186597
+  ],
+  "q:slaughter mode": [
+   0,
+   "",
+   1794837695.5172594
+  ],
   "q:slay the spire 2": [
    2868840,
    "Slay the Spire 2",
@@ -18474,6 +18538,16 @@
    "Walking Simulator",
    1792575423.2553575
   ],
+  "q:warcraft book fixes the rpg": [
+   0,
+   "",
+   1794837705.1083798
+  ],
+  "q:warcraft book fixes the rpg's biggest": [
+   0,
+   "",
+   1794837704.5382245
+  ],
   "q:wardogs": [
    1867240,
    "WARDOGS",
@@ -18594,6 +18668,21 @@
    "World of Tanks",
    1793005388.3132465
   ],
+  "q:world of warcraft": [
+   0,
+   "",
+   1794837704.0191796
+  ],
+  "q:world of warcraft book": [
+   0,
+   "",
+   1794837703.5100372
+  ],
+  "q:world of warcraft book fixes": [
+   0,
+   "",
+   1794837702.981077
+  ],
   "q:wow forever": [
    0,
    "",
@@ -18664,10 +18753,9 @@
   "Mezha": [
    "bluebird",
    "brave1 market",
+   "intel",
    "it",
    "mac hub",
-   "microsoft",
-   "microsoft 365",
    "nvidia",
    "saab",
    "spacex",
@@ -18675,28 +18763,29 @@
    "starshield",
    "безпілотники",
    "бпла",
+   "бізнес",
    "гур",
    "дрони",
-   "естонія",
+   "залізо",
    "зсу",
    "китай",
    "міноборони",
    "новини",
    "оборона",
    "оборонка",
+   "освіта",
    "перехоплювачі",
    "повітряні сили",
    "ппо",
+   "процесори",
    "радар",
    "робота",
    "софт",
    "сша",
-   "технології",
    "ударні безпілотники",
    "україна",
    "чипи",
-   "штучний інтелект",
-   "інтернет"
+   "штучний інтелект"
   ]
  },
  "titles": [
@@ -19391,6 +19480,14 @@
   [
    1794836085.5064375,
    "\"Gamers don't hate ads; they hate bad ads\" – Why EA and Xbox are putting adverts in their games"
+  ],
+  [
+   1794837697.1199608,
+   "Doom: The Dark Ages отримає режим Slaughter Mode, але не для всіх гравців"
+  ],
+  [
+   1794837716.6236024,
+   "D&D’s World of Warcraft Book Fixes the RPG’s Biggest Endgame Issue"
   ]
  ],
  "titles_uk": [
@@ -20085,6 +20182,14 @@
   [
    1794836085.5064387,
    "EA та Xbox повертають рекламу у відеоігри"
+  ],
+  [
+   1794837697.1199615,
+   "Doom: The Dark Ages отримає режим Slaughter Mode, але не для всіх гравців"
+  ],
+  [
+   1794837716.6236033,
+   "Нова книга D&D усередині всесвіту World of Warcraft вирішує проблеми високих рівнів"
   ]
  ],
  "ukrainian": {
