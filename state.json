@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1794832280.2798357
+  }
+ },
  "daily_digest_date": "2026-11-15",
  "freebies": {
   "last_check": 1794826982.6613727,
@@ -29,43 +36,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-16 12:02 UTC",
+  "at": "2026-11-16 12:33 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794139479.62594,
-   5353,
-   "🎮",
-   "Гайд на риболовлю та приховані нагороди у фанатському ремейку Zelda OOT",
-   "VGC",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.videogameschronicle.com/guide/zelda-oot-remake-fishing-pond-sinking-lure-rewards/",
-    "orig": "Zelda OOT Remake: Fishing Pond and Sinking Lure explained, all rewards"
-   }
-  ],
-  [
-   1794139543.3254387,
-   5354,
-   "🤖",
-   "Anthropic витратить $3.4 млрд на енергопостачання дата-центрів для ШІ",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-08/anthropic-buys-power-for-ai-data-centres-in-3-4b-deal-ft-says",
-    "orig": "Anthropic Buys Power for AI Data Centres in $3.4B Deal, FT Says"
-   }
-  ],
   [
    1794143063.8865154,
    5355,
@@ -9008,7 +8989,6 @@
    "Distorted Sound",
    {
     "also": [],
-    "caption": "🤘 <b>Hellsinki Metal Festival оголосив перших учасників на 2027 рік</b>\n\nФінський фестиваль Hellsinki Metal Festival оголосив першу хвилю гуртів на 6–7 серпня 2027 року. Серед хедлайнерів — EDGUY, PERTURBATOR, DARK FUNERAL, ROTTING CHRIST, NILE та спеціальні шоу від VENOM, ARCTURUS, ENSIFERUM та AKERCOCKE.\n\n🔗 <a href=\"https://distortedsoundmag.com/hellsinki-metal-festival-announce-first-bands-for-2027/\">Distorted Sound</a>\n\n#музика",
     "kind": "photo",
     "link": "https://distortedsoundmag.com/hellsinki-metal-festival-announce-first-bands-for-2027/",
     "orig": "Hellsinki Metal Festival announce first bands for 2027"
@@ -9022,7 +9002,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Олівія Кук припустила, що 8 сезон Slow Horses стане фінальним</b>\n\nАкторка Олівія Кук повернеться до ролі Sid Baker у восьмому сезоні Slow Horses від Apple TV+ і зазначила, що він може стати останнім. За її словами, у знімальної команди вже є відчуття прощання з проєктом. Водночас Apple офіційно ще не оголошувала про завершення серіалу після восьмого сезону, заснованого на романі Clown Town.\n\n🔗 <a href=\"https://deadline.com/2026/11/olivia-cooke-slow-horses-season-8-last-1237224533/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://deadline.com/2026/11/olivia-cooke-slow-horses-season-8-last-1237224533/",
     "orig": "Olivia Cooke Says ‘Slow Horses’ Season 8 Could Be Its “Last,” But “Never Say Never”"
@@ -9853,6 +9832,34 @@
     "link": "https://variety.com/2026/tv/global/hunting-alice-bell-online-sleuthing-1236946862/",
     "orig": "‘Hunting Alice Bell’ Showrunner Says Simon Pegg Thriller Highlights Dangers of Online Sleuthing: It ‘Can Happen to Anyone’"
    }
+  ],
+  [
+   1794832381.5633914,
+   6103,
+   "🎮",
+   "Ніхто не постраждав під час стрілянини біля офісу розробників InXile Entertainment",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>Ніхто не постраждав під час стрілянини біля офісу розробників InXile Entertainment</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2439280/\">Clockwork Revolution</a>\n\nСтудія InXile та місцева поліція підтвердили, що під час інциденту 11 листопада поблизу офісу розробників Clockwork Revolution ніхто не постраждав. Правоохоронці вже затримали підозрюваного.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/nobody-was-hurt-in-shooting-near-clockwork-revolution-devs-inxile-entertainments-office-the-xbox-owned-studio-and-police-confirm\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/nobody-was-hurt-in-shooting-near-clockwork-revolution-devs-inxile-entertainments-office-the-xbox-owned-studio-and-police-confirm",
+    "orig": "\"Nobody was hurt\" in shooting near Clockwork Revolution devs InXile Entertainment's office, the Xbox-owned studio and police confirm"
+   }
+  ],
+  [
+   1794832383.4723358,
+   6104,
+   "💾",
+   "Не хакери і не ШІ: Microsoft пояснила, що «поклало» Outlook і Teams",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "💾 <b>Не хакери і не ШІ: Microsoft пояснила, що «поклало» Outlook і Teams</b>\n\nМинулого тижня Microsoft 365 «лежав» близько доби, а користувачі гадали, хто винен: ШІ чи хакери. Виявилося, все простіше і водночас тривожніше: помилка тихо чекала свого часу в коді з липня.\n\n🔗 <a href=\"https://itc.ua/ua/novini/ne-hakery-i-ne-shi-microsoft-poyasnyla-shho-poklalo-outlook-i-teams/\">ITC.ua</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/ne-hakery-i-ne-shi-microsoft-poyasnyla-shho-poklalo-outlook-i-teams/",
+    "orig": "Не хакери і не ШІ: Microsoft пояснила, що «поклало» Outlook і Teams"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9951,7 +9958,8 @@
    1794816654.5507488
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
-   1794825090.6416788
+   1794825090.6416788,
+   1794832381.563657
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1794765695.316235
@@ -10091,8 +10099,7 @@
    1794823495.8280585
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
-   1794591222.274497,
-   1794598278.7438161
+   1794832383.4725912
   ],
   "software|Mezha|https://mezha.ua/feed/": [
    1794765685.917966,
@@ -10126,7 +10133,6 @@
   "01535d7089aa4e8a": 1793993481.1960783,
   "017b2cac732da1e5": 1793919656.8897884,
   "01cd7e8db3964845": 1793896450.0134697,
-  "0208d5a843a491d6": 1793621127.094078,
   "020b81055a37e00a": 1794144680.8020613,
   "02185a83c836f7cd": 1794553375.1923747,
   "021d38d146d3fad9": 1794065499.599085,
@@ -10191,6 +10197,7 @@
   "077044752840ba09": 1793734507.856099,
   "07a434408ccb9f84": 1793637058.4404707,
   "07af74155443be79": 1793626377.919646,
+  "07d2726f6e23edf6": 1794832383.472545,
   "07eb24776200c433": 1794713476.5142853,
   "07eb8e476513f05f": 1794771054.9261434,
   "07edf45b889118e3": 1794699052.266333,
@@ -10947,7 +10954,6 @@
   "4e0482a6a17a670a": 1793710930.2773001,
   "4e07520f9f49aa72": 1793829704.029989,
   "4e0c6a77fffae336": 1794096094.234996,
-  "4e14634d48f9271d": 1793621186.3601422,
   "4e20377450a9dd7d": 1793638877.7164671,
   "4e22c51acacfd42d": 1794069054.1396751,
   "4e285fad042ed34f": 1794609055.1572344,
@@ -10956,7 +10962,6 @@
   "4e5c554f46ce2c81": 1793665855.4540458,
   "4e850475e2eb3aec": 1793626402.8607879,
   "4e95f2e07d2eee9b": 1793781192.9947064,
-  "4ea70341d87c09c6": 1793622673.6246212,
   "4ee386199935ddd0": 1793746907.9794414,
   "4ee39abf60ee8a85": 1794042180.7033417,
   "4f0269e6d1833933": 1793642493.411298,
@@ -11304,7 +11309,6 @@
   "6dbce3952d2f5273": 1793898089.9727404,
   "6dc2033d771aa842": 1793903618.4468586,
   "6e0e75ad79e6ca67": 1793710984.684394,
-  "6e353c3e910d0294": 1793621005.078388,
   "6e4232e626f1f119": 1793853114.811305,
   "6e4a00ba66338ddb": 1794081653.3860815,
   "6e4b99af19da77ca": 1794605453.407515,
@@ -11347,14 +11351,12 @@
   "715d5f0d4a80f0f5": 1793898089.9867158,
   "71838a11aaf00031": 1793889078.5804212,
   "719585b3319d675f": 1793959349.1292052,
-  "71b1d7bad401a31b": 1793622679.9930928,
   "71e05f1bcda799a4": 1794790852.1093779,
   "71e1011ca0b2ecb9": 1794135725.0000248,
   "71e982c8c7447ef3": 1794240058.5109377,
   "71ef25aaff00ade5": 1793898214.6162205,
   "7203879df98082f0": 1794038484.768283,
   "7231e211057f6b69": 1794015092.7640433,
-  "7235cad86128e0a5": 1793621008.1314886,
   "723adcdd75a4435b": 1793635375.5086267,
   "72613641a4131636": 1793626381.5294886,
   "726b61922e287429": 1794520890.0403724,
@@ -11389,7 +11391,6 @@
   "74542b6782dc8a9f": 1793729175.5617964,
   "747336ce88a5adc6": 1793925084.5097532,
   "747d4ce4fbb69f19": 1793739677.6958723,
-  "748519dc6cabaae7": 1793622675.0267966,
   "748c8f3fc6d8603e": 1794409282.7311387,
   "74bda49a8cd3e751": 1794186046.0341835,
   "74e2a74d8e7af469": 1793736131.647855,
@@ -11455,7 +11456,6 @@
   "799aa7fd4a6e756a": 1793696453.714617,
   "799baede4d49ee43": 1794634255.263127,
   "79b06dc5892f7b14": 1794072652.3176856,
-  "79b8a6a025616032": 1793622673.6256464,
   "79d39a59a3c130fb": 1794607470.770798,
   "7a09efd450dc1d7b": 1793912683.152562,
   "7a0a720b715addd0": 1794454276.5957723,
@@ -11503,7 +11503,6 @@
   "7dd2e688b5a7d77f": 1794044396.2106276,
   "7ddf93474cac452a": 1794171681.8344698,
   "7dea89799ae000b7": 1793721684.7566607,
-  "7e0447dba3365153": 1793622676.5296125,
   "7e2d1f4e30e2760f": 1793849525.6762714,
   "7e321eace551bbbe": 1793883770.9606118,
   "7e442099a30d1b1a": 1793709131.0258775,
@@ -11603,7 +11602,6 @@
   "86efa72848e6b6d5": 1793790085.7070832,
   "870e49f6e3dbf6d3": 1793835106.301555,
   "876f4401e17e3a11": 1793957579.4603608,
-  "8771bf40224c4b06": 1793621288.2817178,
   "878e9d7dd121471d": 1794619881.9929366,
   "879e97ff25794157": 1793804681.4103541,
   "87a40d47e47bd1ff": 1794002456.467597,
@@ -11617,6 +11615,7 @@
   "883f640a6c833459": 1793880053.6176856,
   "8840c180a5ce48c6": 1793988056.3209734,
   "8845e2086549ec91": 1793649854.898565,
+  "884b01750c3f263b": 1794832381.563612,
   "885dfa36220b1c5d": 1794663052.3051553,
   "885e2a5c60d7f489": 1793730719.046269,
   "887407058aab2e36": 1793642518.767057,
@@ -12340,7 +12339,6 @@
   "cb167b5242c04ab8": 1793871115.2284985,
   "cb1a66f38cec8071": 1794364296.32627,
   "cb1ad48859ea8c9c": 1794585652.9085758,
-  "cb1ce2b14a3882eb": 1793621061.1551027,
   "cb242523eb8a50ba": 1794297877.2629168,
   "cb3edb333123d950": 1794531688.0177321,
   "cb469965946b70e4": 1794331889.9996734,
@@ -12670,7 +12668,6 @@
   "e7c9c3e98f8a84d2": 1793725319.4185233,
   "e82708256ce8d67e": 1793815524.1529658,
   "e83daf40029c81d3": 1793629885.5177877,
-  "e8498077f6fd424b": 1793621238.5644767,
   "e850f23496f2efd9": 1793720317.9322736,
   "e864125e0d62ed15": 1793728861.050268,
   "e8690f74b67f5698": 1793909050.841756,
@@ -12820,6 +12817,7 @@
   "f599bebe389ca693": 1794137476.1202834,
   "f5a2411b10abf971": 1794418279.1078956,
   "f5b1d67ac26794db": 1794265276.655111,
+  "f5eac5310adcd0c7": 1794832262.200173,
   "f5fd0b6ae5386051": 1794794842.0780804,
   "f653589f0287ef22": 1793725331.3727984,
   "f67908484fa81436": 1793903484.79082,
@@ -12863,7 +12861,6 @@
   "f9112e8d166c383c": 1793824254.550742,
   "f92d5000800978f8": 1794268883.5499456,
   "f94a385647e28b84": 1794632478.5518868,
-  "f95d23431e3bc612": 1793621332.9541795,
   "f98f92c20ae37316": 1793781188.7556016,
   "f99a51b60671585f": 1793937675.13703,
   "f9a5ea2d1ba92182": 1794177076.3284552,
@@ -14145,7 +14142,7 @@
  "stats": {
   "filtered": {
    "IGN": 1,
-   "Insider Gaming": 3,
+   "Insider Gaming": 4,
    "Polygon": 7
   },
   "sources": {
@@ -14158,6 +14155,7 @@
    "Eurogamer": 1,
    "GitHub Trending": 4,
    "IGN": 1,
+   "ITC.ua": 1,
    "Insider Gaming": 3,
    "Lambgoat": 4,
    "Metal Hammer (Louder)": 5,
@@ -14167,14 +14165,14 @@
    "PlayUA": 1,
    "Polygon": 4,
    "Product Hunt": 2,
-   "Rock Paper Shotgun": 1,
+   "Rock Paper Shotgun": 2,
    "VGC": 1,
    "Variety": 6
   },
   "translators": {
    "DeepL": 10,
    "gemini-flash-latest": 6,
-   "gemini-flash-lite-latest": 59
+   "gemini-flash-lite-latest": 60
   },
   "week": "2026-W47"
  },
@@ -14823,11 +14821,6 @@
    0,
    "",
    1794697287.0697677
-  ],
-  "q:2": [
-   0,
-   "",
-   1794659483.6599927
   ],
   "q:2 5": [
    3740720,
@@ -15484,6 +15477,11 @@
    "Clank!",
    1793982689.6435225
   ],
+  "q:clockwork revolution": [
+   2439280,
+   "Clockwork Revolution",
+   1794832288.2005928
+  ],
   "q:co op games for people with": [
    0,
    "",
@@ -15878,6 +15876,11 @@
    0,
    "",
    1794697291.760111
+  ],
+  "q:entertainment": [
+   0,
+   "",
+   1794832289.7007651
   ],
   "q:escape from playtime": [
    2087540,
@@ -16573,6 +16576,16 @@
    0,
    "",
    1794670282.4000037
+  ],
+  "q:inxile": [
+   0,
+   "",
+   1794832289.1891818
+  ],
+  "q:inxile entertainment": [
+   0,
+   "",
+   1794832288.69536
   ],
   "q:is a console": [
    0,
@@ -17404,6 +17417,16 @@
    "Noble",
    1792800092.0489268
   ],
+  "q:nobody": [
+   0,
+   "",
+   1794832287.708167
+  ],
+  "q:nobody was hurt": [
+   0,
+   "",
+   1794832287.1942542
+  ],
   "q:none": [
    1082900,
    "none",
@@ -17784,21 +17807,6 @@
    "Rain98",
    1792281227.8248696
   ],
-  "q:rainbow": [
-   0,
-   "",
-   1794659481.2423675
-  ],
-  "q:rainbow six": [
-   0,
-   "",
-   1794659480.7852614
-  ],
-  "q:rainbow six vegas": [
-   0,
-   "",
-   1794659480.3225713
-  ],
   "q:rayman legends retold": [
    4084710,
    "Rayman Legends Retold",
@@ -18053,16 +18061,6 @@
    2333000,
    "Silver Pines",
    1793440886.8226674
-  ],
-  "q:six": [
-   0,
-   "",
-   1794659482.2231414
-  ],
-  "q:six vegas": [
-   0,
-   "",
-   1794659481.6915996
   ],
   "q:skate": [
    3354750,
@@ -18414,16 +18412,6 @@
    "",
    1794717091.6750307
   ],
-  "q:vegas": [
-   0,
-   "",
-   1794659482.7316163
-  ],
-  "q:vegas 2": [
-   0,
-   "",
-   1794659483.2144885
-  ],
   "q:video game": [
    924310,
    "VIDEO GAME",
@@ -18514,16 +18502,6 @@
    "Wielders of the Essence",
    1794657686.76229
   ],
-  "q:wielders of the essence warhammer": [
-   0,
-   "",
-   1794657686.1754804
-  ],
-  "q:wielders of the essence warhammer survivors": [
-   0,
-   "",
-   1794657685.7106192
-  ],
   "q:wildcard": [
    4590570,
    "Wildcard",
@@ -18604,6 +18582,11 @@
    "",
    1794759992.767088
   ],
+  "q:xbox owned": [
+   0,
+   "",
+   1794832290.1917806
+  ],
   "q:zelda": [
    0,
    "",
@@ -18641,17 +18624,14 @@
    "apple",
    "bluebird",
    "brave1 market",
+   "it",
    "microsoft",
    "microsoft 365",
    "saab",
-   "skoda",
-   "skoda kamiq",
-   "skoda kamiq monte carlo",
    "spacex",
    "starlink",
    "starshield",
    "ula",
-   "авто",
    "антидронові сітки",
    "безпілотники",
    "бпла",
@@ -18665,9 +18645,8 @@
    "перехоплювачі",
    "ппо",
    "радар",
+   "робота",
    "софт",
-   "статті",
-   "тест-драйв",
    "технології",
    "ударні безпілотники",
    "україна",
@@ -18676,10 +18655,6 @@
   ]
  },
  "titles": [
-  [
-   1794659494.470639,
-   "Ubisoft is reportedly making a new Rainbow Six Vegas game, nearly two decades after Vegas 2"
-  ],
   [
    1794661281.035472,
    "Cinephil Boards Alexandru Solomon’s Romanian Election Doc ‘Small Expectations’ – IDFA"
@@ -19359,13 +19334,17 @@
   [
    1794830577.3902938,
    "‘Hunting Alice Bell’ Showrunner Says Simon Pegg Thriller Highlights Dangers of Online Sleuthing: It ‘Can Happen to Anyone’"
+  ],
+  [
+   1794832381.5636134,
+   "\"Nobody was hurt\" in shooting near Clockwork Revolution devs InXile Entertainment's office, the Xbox-owned studio and police confirm"
+  ],
+  [
+   1794832383.4725468,
+   "Не хакери і не ШІ: Microsoft пояснила, що «поклало» Outlook і Teams"
   ]
  ],
  "titles_uk": [
-  [
-   1794659494.47064,
-   "Ubisoft розробляє нову частину Rainbow Six Vegas"
-  ],
   [
    1794661281.0354729,
    "Cinephil придбала права на документальну стрічку Small Expectations Александру Соломона"
@@ -20045,6 +20024,14 @@
   [
    1794830577.3902946,
    "Шоуранер Hunting Alice Bell розповів про небезпеку інтернет-розслідувань"
+  ],
+  [
+   1794832381.5636141,
+   "Ніхто не постраждав під час стрілянини біля офісу розробників InXile Entertainment"
+  ],
+  [
+   1794832383.4725482,
+   "Не хакери і не ШІ: Microsoft пояснила, що «поклало» Outlook і Teams"
   ]
  ],
  "ukrainian": {
@@ -22435,7 +22422,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794828868.2351305,
+  "last_check": 1794832392.507505,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
