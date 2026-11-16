@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|ThePRP|https://www.theprp.com/feed/": {
-   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ThePRP» не працює",
-   "sent": 0,
-   "since": 1794861088.9953275
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-16",
  "freebies": {
   "last_check": 1794870138.9873676,
@@ -36,12 +29,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-16 23:02 UTC",
-  "gemini_error": "",
+  "at": "2026-11-16 23:31 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
@@ -9175,7 +9167,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Новозеландський рок-гурт Pieces Of Molly вирушив у турне Великою Британією</b>\n\nНовозеландський рок-гурт Pieces Of Molly отримав запрошення від британського гурту Asomvel вирушити у спільний тур Великою Британією. Музиканти зібрали кошти попри фінансові труднощі та випустили свій другий альбом Don’t Take Me To The Disco.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/meet-pieces-of-molly-the-high-voltage-kiwi-quartet-with-global-ambitions\">Metal Hammer (Louder)</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/meet-pieces-of-molly-the-high-voltage-kiwi-quartet-with-global-ambitions",
     "orig": "Meet Pieces Of Molly, the high-voltage Kiwi quartet with global ambitions"
@@ -9189,7 +9180,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>Мова Mic</b>\n\nГоворіть своєю мовою на зустрічах, а вони почують свою\n\n🔗 <a href=\"https://www.producthunt.com/products/lingomic\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/lingomic",
     "orig": "LingoMic"
@@ -9203,7 +9193,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Офіційна кампанія Marvel «Месники: Доomsday Prep» стартує 18 листопада</b>\n\nКомпанія Marvel повертається до сюжетної лінії «Таємні війни» у новій серії «Incursion» за участю «Людей Ікс» та «Фантастичної четвірки» напередодні виходу фільму «Месники: Судний день»\n\n🔗 <a href=\"https://www.polygon.com/avengers-doomsday-marvel-comics-to-read-incursions-secret-wars/\">Polygon</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/avengers-doomsday-marvel-comics-to-read-incursions-secret-wars/",
     "orig": "Marvel's Official Avengers: Doomsday Prep Launches on Nov. 18"
@@ -10034,6 +10023,48 @@
     "link": "https://lambgoat.com/news/55916/the-faceless-akeldama-receive-20th-anniversary-reissue/",
     "orig": "The Faceless' 'Akeldama' receive 20th anniversary reissue"
    }
+  ],
+  [
+   1794871890.6166906,
+   6150,
+   "🎬",
+   "Розширену версію фільму «Spider-Man: Brand New Day» випустять у кінотеатрах у грудні",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Розширену версію фільму «Spider-Man: Brand New Day» випустять у кінотеатрах у грудні</b>\n\nРозширену версію блокбастера «Spider-Man: Brand New Day» випустять у кінотеатрах 4 грудня, а квитки надійдуть у продаж 19 листопада. До повторного прокату увійде раніше вирізана сцена за участю Розаріо Доусон у ролі Claire Temple. Світові касові збори фільму вже сягнули $2.5 млрд.\n\n🔗 <a href=\"https://variety.com/2026/film/news/spider-man-brand-new-day-extended-cut-release-date-1236949654/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/news/spider-man-brand-new-day-extended-cut-release-date-1236949654/",
+    "orig": "‘Spider-Man: Brand New Day’ Extended Cut Sets December Release Date in Theaters"
+   }
+  ],
+  [
+   1794871895.0493367,
+   6151,
+   "🎬",
+   "Зірки Gilligan's Island Джим Бекус та Алан Гейл-молодший знову зійшлися в культовому вестерні",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Зірки Gilligan&#x27;s Island Джим Бекус та Алан Гейл-молодший знову зійшлися в культовому вестерні</b>\n\nДжим Бекус та Алан Гейл-молодший працювали разом над Gilligan&#x27;s Island, а після закриття шоу возз&#x27;єдналися в цьому серіалі в жанрі вестерн\n\n🔗 <a href=\"https://www.slashfilm.com/2314673/gilligans-island-stars-jim-backus-alan-hale-jr-western-series-reunion-wild-wild-west/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2314673/gilligans-island-stars-jim-backus-alan-hale-jr-western-series-reunion-wild-wild-west/",
+    "orig": "After Gilligan's Island, Jim Backus And Alan Hale Jr. Reunited On A Legendary Western Series"
+   }
+  ],
+  [
+   1794871898.1830525,
+   6152,
+   "🎬",
+   "Ніколас Кейдж і Кріс Пайн зіграють у драматичному серіалі American Epic від A24",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Ніколас Кейдж і Кріс Пайн зіграють у драматичному серіалі American Epic від A24</b>\n\nНіколас Кейдж та Кріс Пайн виконають головні ролі в драматичному серіалі American Epic від студії A24 і сценариста Бі Джея Новака. Сюжет розгортається у Вегасі, де магнат казино Вятт Паскаль вступає у протистояння з пастором Біллом Мессі заради створення чогось вічного. Проєкт уже викликав інтерес у кількох покупців, зокрема HBO та Amazon.\n\n🔗 <a href=\"https://deadline.com/2026/11/nicolas-cage-chris-pine-american-epic-series-bj-novak-a24-1237222431/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/nicolas-cage-chris-pine-american-epic-series-bj-novak-a24-1237222431/",
+    "orig": "Nicolas Cage & Chris Pine To Star In Vegas Drama Series ‘American Epic’ From B.J. Novak & A24"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10144,19 +10175,16 @@
    1794828856.2655046
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
-   1794780076.0764616,
-   1794782154.551555,
-   1794783714.5582044,
    1794787353.4841242,
    1794794842.078125,
-   1794799884.5390196
+   1794799884.5390196,
+   1794871895.0495973
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792944099.3403795,
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1794783723.1164756,
    1794785577.1810217,
    1794789168.9837592,
    1794792688.2602396,
@@ -10169,7 +10197,8 @@
    1794826980.8674715,
    1794866643.4631984,
    1794868447.5765774,
-   1794870118.698805
+   1794870118.698805,
+   1794871898.1833014
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794663071.9451547
@@ -10181,9 +10210,8 @@
    1794733272.6256087
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1794783426.8462014,
-   1794783719.9776168,
-   1794830577.3903384
+   1794830577.3903384,
+   1794871890.61698
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1794805286.3651984,
@@ -10417,7 +10445,6 @@
   "0c5cdfc606a6d318": 1794524454.8551903,
   "0c600aca31767b69": 1793701916.0933456,
   "0c7666e6da978f4a": 1793721785.1457179,
-  "0c9720e209e6388e": 1793662286.7303,
   "0cce55285c5b39f0": 1793856655.0170114,
   "0cd8e0e73583a48e": 1793880077.9141972,
   "0ce325c056f8d0a2": 1794414685.9103246,
@@ -10614,7 +10641,6 @@
   "1e43dbac00d7acc0": 1794441678.011534,
   "1e4de2bd0543e6cb": 1794848603.8456602,
   "1e5a4dc1a65f7fdc": 1794866640.181034,
-  "1e667b5c6e28f278": 1793660594.8607132,
   "1e9f289bea2bc23e": 1793811920.157621,
   "1ec658eaa0cdb1a2": 1793761302.3309064,
   "1f031f4fbd266a5b": 1793799081.8821802,
@@ -10873,7 +10899,6 @@
   "3859791d3bf42656": 1794501093.1854599,
   "385b4d2382269474": 1794493853.6947322,
   "387d59961ecdd4ea": 1793881969.4854937,
-  "38869980fe040f44": 1793660604.1001995,
   "3894b974e2e932bb": 1794202308.1607726,
   "389b274465e4181b": 1794858079.9664185,
   "38d062123d715448": 1794092483.804387,
@@ -11031,6 +11056,7 @@
   "48cd67e7e6e8050a": 1793797275.5216029,
   "49747e863e0a2992": 1794106852.4088318,
   "497798b1dab433b4": 1794625285.5868697,
+  "49888aba79a3bf32": 1794871898.1832585,
   "49915d4c7cd2febf": 1794700889.0070953,
   "49b6e355232758e0": 1793743294.673683,
   "49d48c710ecdd499": 1794596480.8390253,
@@ -11446,7 +11472,6 @@
   "6fc91d40962b71be": 1793903647.2733448,
   "6fe1de2b48f3a84f": 1793739690.1276684,
   "6fff152cf8328746": 1794868254.5337205,
-  "7009fb8a71c5651a": 1793660575.1137156,
   "70248a09d92ab732": 1794661254.0536256,
   "702f137160825002": 1794097882.0659804,
   "7034d0d8e38eddb2": 1793917891.920359,
@@ -11477,7 +11502,6 @@
   "7272e00294ab2549": 1793730746.9032133,
   "72a2d5961e77d2a3": 1793896598.2354026,
   "72a4509cad4a73ee": 1793709113.1204128,
-  "72c2d2f1f71d09b1": 1793662290.4289813,
   "72e61cb3b47a792d": 1793901858.8515282,
   "73071fe291b9086e": 1793741483.6444745,
   "731362751099257f": 1794099679.2837117,
@@ -11666,6 +11690,7 @@
   "82661a54ff263b73": 1794247282.629497,
   "8275d9fda686ec67": 1794114090.5027995,
   "829e270d45609990": 1793790169.1975977,
+  "82b66046a6494248": 1794871890.616934,
   "82cd917056ad5a79": 1794609055.1572344,
   "82efcffd91b518e1": 1793705588.2606974,
   "83006f94f1a5f32f": 1793890882.1479006,
@@ -11674,7 +11699,6 @@
   "83495af21add9e1a": 1793696483.2797859,
   "835e84fccf6d41ae": 1793777484.2551851,
   "8369f85e0a3a8f75": 1794411076.0979633,
-  "836a1a0554ad4b02": 1793662294.1565714,
   "838139b01554f2b5": 1793716463.7290773,
   "83a6042853d7c74b": 1793718303.2608309,
   "83cd3d4d239efaec": 1793799132.3664963,
@@ -11801,7 +11825,6 @@
   "8fc516c08a2a2984": 1794673854.7807264,
   "8fe9fee58ef5304e": 1794376880.7021303,
   "90102ace3531583d": 1794015083.0799994,
-  "9064a346dceae344": 1793660584.193341,
   "9077375fca0dff0d": 1794121314.8161376,
   "9080296097697050": 1793898056.958042,
   "9087a6936ba3f5b5": 1793871055.1868114,
@@ -12006,7 +12029,6 @@
   "a3e64008697d9872": 1793808471.7419782,
   "a3e947c2a9342231": 1793721903.1336567,
   "a3eb25072590a878": 1794621693.8390017,
-  "a413226e549f55ab": 1793660585.6844897,
   "a41fd22d8f6a2ac9": 1794411054.0634255,
   "a45f5cdd4b10ac8f": 1794522707.2744567,
   "a462b4fffcfc193c": 1794078168.5169017,
@@ -12214,7 +12236,6 @@
   "b7eb78405bc3fd30": 1793790085.2908962,
   "b817ced09356f6fd": 1794258098.324036,
   "b81a7e4ec3a1a423": 1794349893.5886278,
-  "b81c422950988129": 1793660599.633465,
   "b83fb1ef576bf308": 1793905306.6038578,
   "b84b1922120987f8": 1794112285.2086055,
   "b867f8d3d1879837": 1793881853.2293634,
@@ -12338,6 +12359,7 @@
   "c56a94d8d3eee212": 1794301294.5957663,
   "c56e348905d1aac9": 1794067281.717144,
   "c57dfd8e10aff19d": 1794652692.36168,
+  "c58e0bde42908e08": 1794871895.0495503,
   "c5a19031512a3384": 1794295897.1755624,
   "c5aeb2db23e044df": 1794326480.6572568,
   "c5af300215483888": 1793736064.701493,
@@ -12529,7 +12551,6 @@
   "d6125c01595d4175": 1793729100.5072117,
   "d613b6858b10eb3a": 1794841324.4617226,
   "d61f53951b737b2e": 1794853852.7215874,
-  "d6265d70e991f16b": 1793660607.1294117,
   "d63adf0d2e971a9f": 1794466916.2196858,
   "d63c0929e8c0e276": 1793916054.947063,
   "d646f9aa1742060b": 1794243653.6223223,
@@ -13420,7 +13441,7 @@
   ],
   "artists_checked": 1794870142.4123154,
   "blocked_until": 1794869893.9804366,
-  "cursor": 287,
+  "cursor": 297,
   "digest_week": "2026-W46",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -14186,13 +14207,13 @@
    "Variety": 2
   },
   "sources": {
-   "/Film": 6,
+   "/Film": 7,
    "AIN.ua": 1,
    "Blabbermouth": 3,
    "Bloomberg": 9,
    "DOU": 2,
    "DOU Gamedev": 1,
-   "Deadline": 16,
+   "Deadline": 17,
    "Distorted Sound": 1,
    "Eurogamer": 1,
    "GameSpot": 1,
@@ -14215,12 +14236,12 @@
    "Stereogum": 1,
    "The Decoder": 3,
    "VGC": 1,
-   "Variety": 6
+   "Variety": 7
   },
   "translators": {
    "DeepL": 11,
    "gemini-flash-latest": 7,
-   "gemini-flash-lite-latest": 86
+   "gemini-flash-lite-latest": 89
   },
   "week": "2026-W47"
  },
@@ -18638,9 +18659,12 @@
  },
  "tag_hints": {
   "Mezha": [
+   "apple",
    "apple tv",
    "gemini",
    "google",
+   "iphone",
+   "iphone 20",
    "lenovo",
    "nvidia",
    "openai",
@@ -18648,12 +18672,10 @@
    "patriot",
    "slow horses",
    "блоги",
-   "боєприпаси",
    "бізнес",
    "відеокарти",
    "двигун",
    "джеймс бонд",
-   "дрони",
    "зброя",
    "київстар",
    "кіно",
@@ -18667,12 +18689,12 @@
    "ппо",
    "ракети",
    "серіали",
+   "смартфони",
    "софт",
    "сша",
    "технології",
    "україна",
-   "штучний інтелект",
-   "єс"
+   "штучний інтелект"
   ]
  },
  "titles": [
@@ -19399,6 +19421,18 @@
   [
    1794870137.3934135,
    "The Faceless' 'Akeldama' receive 20th anniversary reissue"
+  ],
+  [
+   1794871890.616936,
+   "‘Spider-Man: Brand New Day’ Extended Cut Sets December Release Date in Theaters"
+  ],
+  [
+   1794871895.049552,
+   "After Gilligan's Island, Jim Backus And Alan Hale Jr. Reunited On A Legendary Western Series"
+  ],
+  [
+   1794871898.1832597,
+   "Nicolas Cage & Chris Pine To Star In Vegas Drama Series ‘American Epic’ From B.J. Novak & A24"
   ]
  ],
  "titles_uk": [
@@ -20125,6 +20159,18 @@
   [
    1794870137.3934145,
    "Sumerian Records готує вініловий реліз альбому Akeldama від The Faceless до свого 20-річчя"
+  ],
+  [
+   1794871890.6169367,
+   "Розширену версію фільму «Spider-Man: Brand New Day» випустять у кінотеатрах у грудні"
+  ],
+  [
+   1794871895.0495532,
+   "Зірки Gilligan's Island Джим Бекус та Алан Гейл-молодший знову зійшлися в культовому вестерні"
+  ],
+  [
+   1794871898.183261,
+   "Ніколас Кейдж і Кріс Пайн зіграють у драматичному серіалі American Epic від A24"
   ]
  ],
  "ukrainian": {
