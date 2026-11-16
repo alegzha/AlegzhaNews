@@ -1,10 +1,10 @@
 {
  "alerts": {
-  "src:music|ThePRP|https://www.theprp.com/feed/": {
-   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ThePRP» не працює",
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
    "sent": 0,
-   "since": 1794848492.3719776
+   "since": 1794858072.3752902
   }
  },
  "daily_digest_date": "2026-11-16",
@@ -36,7 +36,7 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-16 19:31 UTC",
+  "at": "2026-11-16 19:41 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
@@ -9140,7 +9140,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Вокаліст Rev3rent Джош Гор покинув тур через проблеми з ментальним здоров&#x27;ям</b>\n\nВокаліст гурту Rev3rent Джош Гор оголосив про вихід із поточного туру спільно зі Slaughter To Prevail через проблеми з ментальним здоров&#x27;ям. На концертах, що залишилися, його заступлять тимчасові вокалісти Майк і Корі, а сам музикант планує звернутися по професійну допомогу.\n\n🔗 <a href=\"https://lambgoat.com/news/55903/rev3rents-vocalist-josh-guard-leaves-tour-for-mental-health-reasons/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55903/rev3rents-vocalist-josh-guard-leaves-tour-for-mental-health-reasons/",
     "orig": "Rev3rent's vocalist Josh Guard leaves tour for mental health reasons"
@@ -9913,6 +9912,10 @@
      [
       "DOU",
       "https://dou.ua/lenta/articles/dou-news-276/"
+     ],
+     [
+      "Bloomberg",
+      "https://www.bloomberg.com/news/videos/2026-11-16/nvidia-fallout-adds-new-tension-to-us-china-ai-race-video"
      ]
     ],
     "caption": "🤖 <b>Це ще не все: прихильники Дженсена Хуанга готують його тріумфальне повернення до NVIDIA</b>\n\nЗа інформацією Financial Times, екс-гендиректор NVIDIA Дженсен Хуанг вже розглядає можливість знов очолити компанію буквально через кілька днів після резонансного звільнення.\n\n🔗 <a href=\"https://itc.ua/ua/novini/tse-shhe-ne-vse-pryhylnyky-dzhensena-huanga-gotuyut-jogo-triumfalne-povernennya-do-nvidia/\">ITC.ua</a>\n\n#ШІ",
@@ -9990,6 +9993,20 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-16/microsoft-bug-undetected-since-july-triggered-worldwide-outage",
     "orig": "Microsoft Bug Undetected Since July Triggered Worldwide Outage"
    }
+  ],
+  [
+   1794858091.4118996,
+   6134,
+   "🤖",
+   "GPT-6 Astra допомогла розв'язати давню проблему Стандартної моделі",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>GPT-6 Astra допомогла розв&#x27;язати давню проблему Стандартної моделі</b>\n\nGPT-6 Astra від OpenAI допомогла розробити доведення, яке здатне розв&#x27;язати 50-річну проблему у фізиці елементарних частинок. ШІ перетворив стратегію фізика Натаніеля Крейга на робочу конструкцію та очолив роботу над детальним доведенням для складних обчислень на решітці.\n\n🔗 <a href=\"https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/openais-gpt-6-astra-tackles-the-standard-models-toughest-math-problem-on-a-lattice/",
+    "orig": "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10022,10 +10039,10 @@
    1794848606.1513245
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
-   1794771126.348783,
    1794772972.1715162,
    1794776482.4284432,
-   1794778303.2676275
+   1794778303.2676275,
+   1794858091.4121647
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1793370738.9416513
@@ -10840,6 +10857,7 @@
   "387d59961ecdd4ea": 1793881969.4854937,
   "38869980fe040f44": 1793660604.1001995,
   "3894b974e2e932bb": 1794202308.1607726,
+  "389b274465e4181b": 1794858079.9664185,
   "38d062123d715448": 1794092483.804387,
   "38e9481c6bc9f103": 1794610966.8876233,
   "38eb9ea2c5da627f": 1794682938.242665,
@@ -11451,7 +11469,6 @@
   "7318835aebb5c5fb": 1793925076.7035167,
   "733d840549e94357": 1794404095.2594936,
   "735d1954bcc7e351": 1793871080.5038064,
-  "7396c95008ce2a40": 1793648085.570265,
   "73a0c4b5bb7be44b": 1793849512.96551,
   "73a0c99e51c28428": 1793800885.1191442,
   "73abf5d9c578ce58": 1793806319.3281088,
@@ -12231,6 +12248,7 @@
   "bb33f9c0d34d4abb": 1794591222.274452,
   "bb3beab749543672": 1794173485.4995587,
   "bb503ca8dd5624db": 1793890889.1739924,
+  "bb5c94023b11486c": 1794858091.4121206,
   "bb6ae4cc0157fa2c": 1793700082.9378054,
   "bbd87f9e04dde43e": 1794358892.4297469,
   "bbeb3e92d8e940a7": 1793707280.169243,
@@ -12373,6 +12391,7 @@
   "ca7dd68b4ce7da30": 1794277900.4767604,
   "ca925f90135eae9c": 1794175365.9801433,
   "caa5a78f0c624001": 1794650473.5419436,
+  "cac0acbce765ab76": 1794858079.9655144,
   "cacfe991017fc641": 1794169899.7206748,
   "cae126e48b25b690": 1794238460.6993666,
   "cae36b629c02a618": 1794825055.973085,
@@ -14191,13 +14210,14 @@
    "Polygon": 5,
    "Product Hunt": 2,
    "Rock Paper Shotgun": 2,
+   "The Decoder": 1,
    "VGC": 1,
    "Variety": 6
   },
   "translators": {
    "DeepL": 11,
    "gemini-flash-latest": 6,
-   "gemini-flash-lite-latest": 72
+   "gemini-flash-lite-latest": 73
   },
   "week": "2026-W47"
  },
@@ -19418,6 +19438,10 @@
   [
    1794857514.3717544,
    "Microsoft Bug Undetected Since July Triggered Worldwide Outage"
+  ],
+  [
+   1794858091.412122,
+   "OpenAI's GPT-6 Astra tackles the Standard Model's toughest math problem on a lattice"
   ]
  ],
  "titles_uk": [
@@ -20136,6 +20160,10 @@
   [
    1794857514.3717556,
    "Глобальний збій Microsoft спричинив бага, який не помічали з липня"
+  ],
+  [
+   1794858091.412123,
+   "GPT-6 Astra допомогла розв'язати давню проблему Стандартної моделі"
   ]
  ],
  "ukrainian": {
