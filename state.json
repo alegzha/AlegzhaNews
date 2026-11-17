@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1794954679.726234
+  }
+ },
  "daily_digest_date": "2026-11-17",
  "freebies": {
   "last_check": 1794952989.8269062,
@@ -30,8 +37,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-17 22:03 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-11-17 22:31 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 2
@@ -41,76 +48,6 @@
   ]
  },
  "post_log": [
-  [
-   1794263376.6665475,
-   5477,
-   "🎬",
-   "XTR приєдналася до оскарівської кампанії документалки Y Vân: The Lost Sounds of Saigon",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/y-van-the-lost-sounds-of-saigon-xtr-announcement-1237217771/",
-    "orig": "XTR Joins Oscar Contender ‘Y Vân: The Lost Sounds of Saigon,’ Award-Winning Documentary About “The Quincy Jones of Saigon”"
-   }
-  ],
-  [
-   1794263378.9485214,
-   5478,
-   "🤘",
-   "KVITKOVASOBAKA видали сингл",
-   "Neformat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.neformat.com.ua/news/28449-kvitkovasobaka-vidali-singl.html",
-    "orig": "KVITKOVASOBAKA видали сингл"
-   }
-  ],
-  [
-   1794263478.4021356,
-   5479,
-   "🎮",
-   "Предзамовлення GTA 6 значно перевищують очікування Take-Two",
-   "Eurogamer",
-   {
-    "also": [
-     [
-      "Insider Gaming",
-      "https://insider-gaming.com/take-two-ceo-gta-7-development/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.eurogamer.net/gta-6-preorders-tracking-take-two-earnings-call",
-    "orig": "GTA 6 pre-orders are tracking \"well above expectations\" and the game will \"set a new baseline\" for Take-Two, says CEO Strauss Zelnick"
-   }
-  ],
-  [
-   1794263482.1031876,
-   5480,
-   "🎮",
-   "Take-Two очікує до $3.5 мільярда доходу під час запуску Grand Theft Auto 6",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/grand-theft-auto/take-two-expects-to-make-as-much-as-usd3-5-billion-during-the-gta-6-launch-period/",
-    "orig": "Take-Two expects to make as much as $3.5 billion during the GTA 6 launch period"
-   }
-  ],
-  [
-   1794263486.3047297,
-   5481,
-   "🤘",
-   "Інтерв'ю з Майком Шлайбаумом із Darkest Hour",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com//features/interviews/213/darkest-hour-an-interview-with-mike-schleibaum/",
-    "orig": "Darkest Hour: An Interview with Mike Schleibaum"
-   }
-  ],
   [
    1794265276.6548986,
    5482,
@@ -9119,7 +9056,6 @@
    "Pitchfork",
    {
     "also": [],
-    "caption": "🤘 <b>Гейлі Вільямс сформувала лайнап фестивалю Outbreak Fest і стане його хедлайнеркою</b>\n\nВокалістка Paramore Гейлі Вільямс виступила кураторкою наступного фестивалю Outbreak Fest у Манчестері та очолить обидва дні події. Серед обраних нею артистів — Dinosaur Jr., Blood Orange, American Football, Wednesday, Julien Baker та Rico Nasty. Дводенний захід відбудеться 19 і 20 червня на майданчику B.E.C. Arena.\n\n🔗 <a href=\"https://pitchfork.com/story/hayley-williams-outbreak-fest-2027-lineup/\">Pitchfork</a>\n\n#музика",
     "kind": "photo",
     "link": "https://pitchfork.com/story/hayley-williams-outbreak-fest-2027-lineup/",
     "orig": "Hayley Williams-Curated Outbreak Fest Features Dinosaur Jr., Blood Orange"
@@ -9133,7 +9069,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Акції китайського розробника ШІ Z.AI впали на 85%</b>\n\nВартість акцій китайського розробника ШІ Z.AI Co. впала на 85% на тлі побоювань щодо ситуації з чіпами. Це різке падіння демонструє вразливість нових гравців у сфері штучного інтелекту в країні.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-17/china-ai-highflier-crashes-85-as-chip-fears-hit-model-makers\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-17/china-ai-highflier-crashes-85-as-chip-fears-hit-model-makers",
     "orig": "China AI Highflier Crashes 85% as Chip Fears Hit Model Makers"
@@ -9147,7 +9082,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Ілон Маск розкритикував пародію на себе в шоу SNL</b>\n\nІлон Маск різко оцінив пародію коміка Джеремі Калхана на себе в етері шоу Saturday Night Live, назвавши її недостатньо смішною. У скетчі про техномільярдерів також з&#x27;явилися персонажі Сема Альтмана, Марка Цукерберга та інших відомих діячів.\n\n🔗 <a href=\"https://deadline.com/2026/11/elon-musk-snl-jeremy-culhane-impression-1237226296/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/elon-musk-snl-jeremy-culhane-impression-1237226296/",
     "orig": "Elon Musk Blasts ‘SNL’ For Jeremy Culhane’s Impression Of Him: “They Need To Try Harder”"
@@ -9364,6 +9298,10 @@
      [
       "Insider Gaming",
       "https://insider-gaming.com/gta-6-has-62-bird-types-confirms-rockstar-games/"
+     ],
+     [
+      "VGC",
+      "https://www.videogameschronicle.com/news/you-can-win-a-free-devolver-digital-game-if-you-delete-gta-6/"
      ]
     ],
     "caption": "🎮 <b>Нові скріншоти GTA 6: як реалістичні погодні умови впливатимуть на ігролад</b>\n\nRockstar Games продовжує розвивати маркетингову кампанію GTA 6, залучаючи до промоції гри всесвітньо відомі бренди. Цього разу партнером студії став The Weather Channel — американський метеорологічний телеканал і погодний сервіс, який опублікував шість нових скріншотів гри. Вони демонструють динамічну погодну систему вигаданого штату Леоніда та її вплив на ігровий процес.\n\n🔗 <a href=\"https://itc.ua/ua/novini/novi-skrinshoty-gta-6-yak-realistychni-pogodni-umovy-vplyvatymut-na-igrolad/\">ITC.ua</a>\n\n#ігри",
@@ -9973,6 +9911,48 @@
     "link": "https://www.neformat.com.ua/news/28475-ogyda-vipustili-debyutniy-albom.html",
     "orig": "OGYDA випустили дебютний альбом"
    }
+  ],
+  [
+   1794954705.103824,
+   6237,
+   "🤘",
+   "Chuquimamani-Condori поділився новими реміксами треків Kelela",
+   "Stereogum",
+   {
+    "also": [],
+    "caption": "🤘 <b>Chuquimamani-Condori поділився новими реміксами треків Kelela</b>\n\nМузикант опублікував архів із вісьмома редагуваннями пісень Kelela, створеними для старих DJ-сетів. Це сталося після їхнього возз&#x27;єднання на італійському фестивалі C2C та минулорічної співпраці над треками для Берлінської біенале.\n\n🔗 <a href=\"https://stereogum.com/2518393/chuquimamani-condori-kelela-edits-download/music/\">Stereogum</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://stereogum.com/2518393/chuquimamani-condori-kelela-edits-download/music/",
+    "orig": "Chuquimamani-Condori Shares Some Kelela Edits After Their C2C Reunion"
+   }
+  ],
+  [
+   1794954711.7219317,
+   6238,
+   "🎬",
+   "Телевізійний підрозділ A24 демонструє рекордні результати у 2026 році",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Телевізійний підрозділ A24 демонструє рекордні результати у 2026 році</b>\n\nСтудія A24 випустила у 2026 році найбільшу кількість серіалів за всю свою історію, охопивши майже всі провідні стрімінги. Серед проєктів компанії — третій сезон Euphoria, другий сезон Beef, а також новий приквел п&#x27;ятниці 13-го Crystal Lake на Peacock, який став гітом платформи.\n\n🔗 <a href=\"https://www.indiewire.com/news/business/a24-tv-division-istrong-2026-crystal-lake-1235228517/\">IndieWire</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/news/business/a24-tv-division-istrong-2026-crystal-lake-1235228517/",
+    "orig": "A24’s TV Division Is Quietly Having as Strong a Year as Its Film Team"
+   }
+  ],
+  [
+   1794954714.2418933,
+   6239,
+   "🤖",
+   "ШІ-компанія претендувала на власний музичний запис виконавиці в YouTube та намагалася видалити її відео",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🤖 <b>ШІ-компанія претендувала на власний музичний запис виконавиці в YouTube та намагалася видалити її відео</b>\n\nВиконавиця помітила, що відео її версії народної пісні, яка є суспільним надбанням, отримало попередження YouTube. Пошук відповідей привів її до фабрики ШІ-контенту, яка керує 500 каналами та зловживає авторським правом.\n\n🔗 <a href=\"https://mezha.ua/news/shi-kompaniya-pretenduvala-na-vlasniy-muzichniy-zapis-vikonavici-v-youtube-317319/\">Mezha</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/shi-kompaniya-pretenduvala-na-vlasniy-muzichniy-zapis-vikonavici-v-youtube-317319/",
+    "orig": "ШІ-компанія претендувала на власний музичний запис виконавиці в YouTube та намагалася видалити її відео"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10003,7 +9983,8 @@
   "ai|Mezha|https://mezha.ua/feed/": [
    1794927698.1229477,
    1794934900.883714,
-   1794949482.6853971
+   1794949482.6853971,
+   1794954714.24217
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1794862908.6792917,
@@ -10115,9 +10096,9 @@
    1794663071.9451547
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
-   1794866636.2185106,
    1794873694.242629,
-   1794898968.6130636
+   1794898968.6130636,
+   1794954711.7221987
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1794733272.6256087
@@ -10185,7 +10166,8 @@
    1794924126.2098181
   ],
   "music|Stereogum|https://www.stereogum.com/feed/": [
-   1794868348.3863888
+   1794868348.3863888,
+   1794954705.104096
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
    1794875504.7401583,
@@ -10318,7 +10300,6 @@
   "08ab6f25aa1462ec": 1794875504.7401118,
   "08de003d8f66ad50": 1793883795.6272602,
   "08e36f34879d407a": 1793817056.7806334,
-  "08ebb83962cd7ef5": 1793745084.7948165,
   "090544675f69343c": 1793815398.0621917,
   "092f0d20ac5f5209": 1793833300.1589143,
   "0969fc9dcecfc46a": 1794821481.6343384,
@@ -10511,6 +10492,7 @@
   "1c8f472767ef8e44": 1794909753.6288118,
   "1cc767f035cfcafd": 1794326506.0290408,
   "1ceb56a3b3745da8": 1793959276.1517801,
+  "1cff9d4eaf4267f4": 1794954711.7221549,
   "1d3c593ef8dec9a7": 1794951100.3418221,
   "1d5b91cceb66f5a0": 1794342653.1379323,
   "1d83d65aba62e1e5": 1794330058.4836624,
@@ -10611,6 +10593,7 @@
   "2790a8134a03852f": 1793856655.0170114,
   "279e28d5a980b132": 1794484988.2377057,
   "27b22805b56e061e": 1794828651.8879075,
+  "27b30a1338e38084": 1794954684.957669,
   "27d13f92edf1db00": 1793869514.904483,
   "27d174f4ffbad15b": 1793806280.3552277,
   "27d27115416af7e3": 1794304905.6557856,
@@ -10709,7 +10692,6 @@
   "31dac1f628e9fddb": 1794798088.858999,
   "31f929863abbf97d": 1793872888.5272176,
   "3207edff75fc85f5": 1794808983.9656775,
-  "32347e74523b6c10": 1793745095.6282132,
   "32418cc562c404cd": 1794736879.429503,
   "3267aa4aa3a6f6aa": 1794367885.5482562,
   "3278da9f0f45dcdf": 1794688284.0626087,
@@ -11336,6 +11318,7 @@
   "747336ce88a5adc6": 1793925084.5097532,
   "748c8f3fc6d8603e": 1794409282.7311387,
   "74bda49a8cd3e751": 1794186046.0341835,
+  "74cba7f3f72cc622": 1794954714.2421255,
   "750c0d353a678d66": 1794047073.860808,
   "750cc55fcddcad5a": 1794607254.7994547,
   "751d55596c0f85db": 1794720683.1718018,
@@ -11670,7 +11653,6 @@
   "95c23a9afeb3554e": 1794472295.865643,
   "95d837d3c441d2a4": 1793997087.534506,
   "96166831a5ddf5c7": 1794600055.3928566,
-  "9619745113ca30f3": 1793745081.7874873,
   "961a804d08016afc": 1793826124.3406909,
   "967705004d58e64c": 1794828859.1218388,
   "968336dc772d3354": 1794502965.8877325,
@@ -11847,6 +11829,7 @@
   "a8f47de703ee7c26": 1794261675.0510595,
   "a928ee59dd35e0e7": 1793801123.8092053,
   "a9707f7862f7945d": 1794013130.1960151,
+  "a9802821376f6db1": 1794954705.104032,
   "a986ddfbba7a0870": 1793851284.5860887,
   "a9b1dfc34f9eb204": 1794733272.625569,
   "a9bab6bfa0e12e41": 1794106882.3997464,
@@ -12128,7 +12111,6 @@
   "c7c67cca03e83bf2": 1793899892.8634381,
   "c7f2cd8ac9554821": 1794339074.573024,
   "c82358ed4e39a193": 1793799106.123002,
-  "c84a2bad3ae732a8": 1793745088.4347131,
   "c876ad899ff837e9": 1793755680.6626332,
   "c87bc044fe99a0f2": 1793872932.9025483,
   "c87dd438875c392f": 1793815341.686367,
@@ -12599,7 +12581,6 @@
   "f8bf296d26f8e412": 1794482852.3299081,
   "f8cbfeed39802472": 1794436295.0952077,
   "f8da911b3170bf8a": 1794002489.058005,
-  "f8e1bc9b90841129": 1793745092.375435,
   "f902f9480aee3f1e": 1794315872.040283,
   "f9112e8d166c383c": 1793824254.550742,
   "f92d5000800978f8": 1794268883.5499456,
@@ -13902,12 +13883,12 @@
    "GitHub Trending": 9,
    "IGN": 4,
    "ITC.ua": 9,
-   "IndieWire": 3,
+   "IndieWire": 4,
    "Insider Gaming": 6,
    "Kerrang!": 1,
    "Lambgoat": 8,
    "Metal Hammer (Louder)": 6,
-   "Mezha": 15,
+   "Mezha": 16,
    "Neformat": 1,
    "PC Gamer": 5,
    "Pitchfork": 3,
@@ -13917,7 +13898,7 @@
    "Revolver": 2,
    "Rock Paper Shotgun": 5,
    "SteamDB": 1,
-   "Stereogum": 1,
+   "Stereogum": 2,
    "The Decoder": 5,
    "ThePRP": 4,
    "VGC": 2,
@@ -13926,7 +13907,7 @@
   "translators": {
    "DeepL": 16,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 158
+   "gemini-flash-lite-latest": 160
   },
   "week": "2026-W47"
  },
@@ -14680,11 +14661,6 @@
    0,
    "",
    1794902497.7870154
-  ],
-  "q:6 ps5": [
-   0,
-   "",
-   1794780079.0945938
   ],
   "q:6'": [
    0,
@@ -16015,11 +15991,6 @@
    0,
    "",
    1794902496.7653527
-  ],
-  "q:gta 6 ps5": [
-   0,
-   "",
-   1794780078.447061
   ],
   "q:gta 6'": [
    0,
@@ -18184,33 +18155,32 @@
    "ddr5",
    "ethereum",
    "gta 6",
-   "netflix",
    "nvidia",
    "openai",
    "pcie gen5",
+   "tsmc",
+   "youtube",
    "автомати",
+   "авторське право",
    "авіація",
    "безпілотники",
-   "бред пітт",
    "бізнес",
    "винищувачі",
    "дослідження",
    "залізо",
    "каб",
-   "квентін тарантіно",
    "криптовалюти",
-   "кіно",
+   "кібербезпека",
    "новини",
    "нрк",
    "оборонка",
-   "одного разу в голлівуді",
    "росія",
    "сервери",
    "су-34",
    "суд",
    "сша",
-   "технології",
    "турель",
+   "хакерські атаки",
    "шахрайство",
    "штучний інтелект",
    "ігри"
@@ -18968,6 +18938,18 @@
   [
    1794952981.0864913,
    "OGYDA випустили дебютний альбом"
+  ],
+  [
+   1794954705.1040335,
+   "Chuquimamani-Condori Shares Some Kelela Edits After Their C2C Reunion"
+  ],
+  [
+   1794954711.7221565,
+   "A24’s TV Division Is Quietly Having as Strong a Year as Its Film Team"
+  ],
+  [
+   1794954714.2421274,
+   "ШІ-компанія претендувала на власний музичний запис виконавиці в YouTube та намагалася видалити її відео"
   ]
  ],
  "titles_uk": [
@@ -19722,6 +19704,18 @@
   [
    1794952981.0864923,
    "OGYDA випустили дебютний альбом"
+  ],
+  [
+   1794954705.1040347,
+   "Chuquimamani-Condori поділився новими реміксами треків Kelela"
+  ],
+  [
+   1794954711.7221572,
+   "Телевізійний підрозділ A24 демонструє рекордні результати у 2026 році"
+  ],
+  [
+   1794954714.2421284,
+   "ШІ-компанія претендувала на власний музичний запис виконавиці в YouTube та намагалася видалити її відео"
   ]
  ],
  "ukrainian": {
