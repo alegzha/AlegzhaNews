@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1794886270.2568746
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1794886268.5307972
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-16",
  "freebies": {
   "last_check": 1794886286.0723407,
@@ -42,8 +29,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-17 03:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-17 03:58 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 2
@@ -53,19 +40,6 @@
   ]
  },
  "post_log": [
-  [
-   1794195083.6476452,
-   5402,
-   "🤘",
-   "Огляд культового альбому Reign In Blood гурту Slayer",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/music/albums/slayer-reign-in-blood",
-    "orig": "Album Of The Week Club review: Slayer set a land speed record on Reign In Blood"
-   }
-  ],
   [
    1794196887.6385329,
    5403,
@@ -9188,7 +9162,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "💾 <b>Не хакери і не ШІ: Microsoft пояснила, що «поклало» Outlook і Teams</b>\n\nМинулого тижня Microsoft 365 «лежав» близько доби, а користувачі гадали, хто винен: ШІ чи хакери. Виявилося, все простіше і водночас тривожніше: помилка тихо чекала свого часу в коді з липня.\n\n🔗 <a href=\"https://itc.ua/ua/novini/ne-hakery-i-ne-shi-microsoft-poyasnyla-shho-poklalo-outlook-i-teams/\">ITC.ua</a>\n\n#софт",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/ne-hakery-i-ne-shi-microsoft-poyasnyla-shho-poklalo-outlook-i-teams/",
     "orig": "Не хакери і не ШІ: Microsoft пояснила, що «поклало» Outlook і Teams"
@@ -9202,7 +9175,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Скільки грошей заробила GTA 6 на передзамовленнях</b>\n\nGrand Theft Auto 6 зібрала шалену суму ще до релізу проєкту. Читайте про свіжі дані продажів передзамовлень GTA 6.\n\n🔗 <a href=\"https://insider-gaming.com/gta-6-pre-orders/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/gta-6-pre-orders/",
     "orig": "How Much Money Has GTA 6 Made in Pre-Orders?"
@@ -10062,6 +10034,34 @@
     "link": "https://www.theprp.com/2026/11/16/news/john-christ-ex-danzig-etc-has-passed-away/",
     "orig": "John Christ (Ex-Danzig, Etc.) Has Passed Away"
    }
+  ],
+  [
+   1794887923.8820918,
+   6170,
+   "🎮",
+   "Subway випустить сендвіч у стилі GTA 6, але є нюанс",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Subway випустить сендвіч у стилі GTA 6, але є нюанс</b>\n\nМережа Subway готує спеціальний сендвіч, присвячений одній із найочікуваніших ігор.\n\n🔗 <a href=\"https://www.ign.com/articles/subway-is-releasing-a-gta-6-themed-sandwich-but-theres-a-catch\">IGN</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/subway-is-releasing-a-gta-6-themed-sandwich-but-theres-a-catch",
+    "orig": "Subway Is Releasing a GTA 6-Themed Sandwich, but There's a Catch"
+   }
+  ],
+  [
+   1794887933.7796178,
+   6171,
+   "🎮",
+   "Ентоні Макі заявив, що його збрехали про роль у серіалі 12 12 12",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Ентоні Макі заявив, що його збрехали про роль у серіалі 12 12 12</b>\n\nЗірка Marvel Ентоні Макі розповів, що його обдурили щодо серіалу 12 12 12 на Apple TV, де він грає агента ФБР Джека Стрікленда. Проєкт описували як схожий на стрічку The Italian Job, але результат виявився зовсім іншим. У центрі сюжету — полювання на злочинців, які готують велике пограбування у Цюриху.\n\n🔗 <a href=\"https://www.polygon.com/anthony-mackie-jamie-dornan-interview-12-12-12/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/anthony-mackie-jamie-dornan-interview-12-12-12/",
+    "orig": "'Avengers: Doomsday' Star Says He Was Lied to About His Next Big Role"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10128,7 +10128,8 @@
    1794877544.301842
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1794879091.1165862
+   1794879091.1165862,
+   1794887923.882348
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1794837697.1200051
@@ -10154,12 +10155,11 @@
    1794810782.9833782
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1794789233.0809515,
-   1794794853.2285948,
    1794814473.0154674,
    1794816654.5507488,
    1794837716.6236482,
-   1794870128.9395485
+   1794870128.9395485,
+   1794887933.779878
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1794825090.6416788,
@@ -11562,6 +11562,7 @@
   "7765f8cc9566611d": 1793698306.3366966,
   "778fc4eeae5f9c1e": 1794882683.1975877,
   "7792d97d0d9e40d5": 1793876546.9328952,
+  "77b6fd3d807c0870": 1794887923.8823044,
   "77d4ddb30d696982": 1793887419.9302478,
   "77e31e56dbad7d70": 1794700879.2539096,
   "77f4493c76a2899b": 1793827919.8521116,
@@ -11662,6 +11663,7 @@
   "80b878f8a0f2fa9c": 1794805286.365154,
   "80db25dc396c0461": 1793892655.141962,
   "80dea0e246e0c9d2": 1794099675.8191545,
+  "80f2245c44cef0be": 1794887915.5464478,
   "80f6804ec58cab81": 1794403883.9132445,
   "810d7f870a467074": 1793808081.7077937,
   "811010a56774957b": 1794414658.7033095,
@@ -12477,6 +12479,7 @@
   "cf44555c0999c78d": 1793790111.750108,
   "cf584ec39a7f346d": 1793966454.8435318,
   "cfb0209a388095f1": 1794695676.518958,
+  "cfb9041f9aa2aa36": 1794887933.7798338,
   "cfdc27da9cadc483": 1793806486.7724233,
   "cff13b765f4b2dbd": 1794618176.416476,
   "d025d0ca00a6899d": 1793797653.155668,
@@ -13437,7 +13440,7 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1794870142.4123154,
-  "blocked_until": 1794869893.9804366,
+  "blocked_until": 1794956602.5083115,
   "cursor": 7,
   "digest_week": "2026-W46",
   "seen": {
@@ -14216,7 +14219,7 @@
    "GameSpot": 1,
    "GamesIndustry.biz": 3,
    "GitHub Trending": 4,
-   "IGN": 2,
+   "IGN": 3,
    "ITC.ua": 6,
    "IndieWire": 2,
    "Insider Gaming": 4,
@@ -14226,7 +14229,7 @@
    "PC Gamer": 4,
    "Pitchfork": 2,
    "PlayUA": 1,
-   "Polygon": 6,
+   "Polygon": 7,
    "Product Hunt": 2,
    "Revolver": 1,
    "Rock Paper Shotgun": 2,
@@ -14239,7 +14242,7 @@
   "translators": {
    "DeepL": 12,
    "gemini-flash-latest": 7,
-   "gemini-flash-lite-latest": 110
+   "gemini-flash-lite-latest": 112
   },
   "week": "2026-W47"
  },
@@ -15169,6 +15172,11 @@
    "",
    1794765689.5256646
   ],
+  "q:avengers": [
+   0,
+   "",
+   1794887927.9392204
+  ],
   "q:avengers doomsday": [
    0,
    "",
@@ -15183,6 +15191,26 @@
    0,
    "",
    1794816289.5401716
+  ],
+  "q:avengers doomsday'": [
+   0,
+   "",
+   1794887927.4278827
+  ],
+  "q:avengers doomsday' star": [
+   0,
+   "",
+   1794887926.9142177
+  ],
+  "q:avengers doomsday' star says": [
+   0,
+   "",
+   1794887926.3708847
+  ],
+  "q:avengers doomsday' star says he": [
+   0,
+   "",
+   1794887925.8781412
   ],
   "q:award winning": [
    0,
@@ -15818,6 +15846,36 @@
    0,
    "",
    1794837694.349519
+  ],
+  "q:doomsday'": [
+   0,
+   "",
+   1794887931.045593
+  ],
+  "q:doomsday' star": [
+   0,
+   "",
+   1794887930.508027
+  ],
+  "q:doomsday' star says": [
+   0,
+   "",
+   1794887929.9993334
+  ],
+  "q:doomsday' star says he": [
+   0,
+   "",
+   1794887929.491758
+  ],
+  "q:doomsday' star says he was": [
+   0,
+   "",
+   1794887928.9914207
+  ],
+  "q:doomsday' star says he was lied": [
+   0,
+   "",
+   1794887928.4864638
   ],
   "q:dota 2": [
    570,
@@ -16698,6 +16756,26 @@
    0,
    "",
    1794760187.95978
+  ],
+  "q:is releasing": [
+   0,
+   "",
+   1794887920.316395
+  ],
+  "q:is releasing a gta": [
+   0,
+   "",
+   1794887919.7568347
+  ],
+  "q:is releasing a gta 6 themed": [
+   0,
+   "",
+   1794887919.2183383
+  ],
+  "q:is releasing a gta 6 themed sandwich": [
+   0,
+   "",
+   1794887918.7210805
   ],
   "q:iso": [
    2202510,
@@ -17724,6 +17802,21 @@
    "Regions",
    1792666910.9642568
   ],
+  "q:releasing a gta": [
+   0,
+   "",
+   1794887921.8623407
+  ],
+  "q:releasing a gta 6 themed": [
+   0,
+   "",
+   1794887921.3484638
+  ],
+  "q:releasing a gta 6 themed sandwich": [
+   0,
+   "",
+   1794887920.8436003
+  ],
   "q:remake": [
    0,
    "",
@@ -17999,6 +18092,11 @@
    "Standard Edition",
    1793797484.0764632
   ],
+  "q:star says he was lied": [
+   0,
+   "",
+   1794887931.5402086
+  ],
   "q:star trek online": [
    9900,
    "Star Trek Online",
@@ -18103,6 +18201,31 @@
    1962700,
    "Subnautica 2",
    1792494157.8367805
+  ],
+  "q:subway": [
+   0,
+   "",
+   1794887918.2106006
+  ],
+  "q:subway is": [
+   0,
+   "",
+   1794887917.669687
+  ],
+  "q:subway is releasing": [
+   0,
+   "",
+   1794887917.1526062
+  ],
+  "q:subway is releasing a gta": [
+   0,
+   "",
+   1794887916.6259966
+  ],
+  "q:subway is releasing a gta 6 themed": [
+   0,
+   "",
+   1794887916.1055627
   ],
   "q:super meat boy": [
    40800,
@@ -19342,6 +19465,14 @@
   [
    1794886276.836888,
    "John Christ (Ex-Danzig, Etc.) Has Passed Away"
+  ],
+  [
+   1794887923.8823066,
+   "Subway Is Releasing a GTA 6-Themed Sandwich, but There's a Catch"
+  ],
+  [
+   1794887933.7798355,
+   "'Avengers: Doomsday' Star Says He Was Lied to About His Next Big Role"
   ]
  ],
  "titles_uk": [
@@ -20076,6 +20207,14 @@
   [
    1794886276.8368888,
    "Помер колишній гітарист Danzig Джон Кріст"
+  ],
+  [
+   1794887923.8823075,
+   "Subway випустить сендвіч у стилі GTA 6, але є нюанс"
+  ],
+  [
+   1794887933.7798362,
+   "Ентоні Макі заявив, що його збрехали про роль у серіалі 12 12 12"
   ]
  ],
  "ukrainian": {
