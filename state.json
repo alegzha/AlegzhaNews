@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1794943884.274097
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1794943875.918781
+  }
+ },
  "daily_digest_date": "2026-11-17",
  "freebies": {
   "last_check": 1794938488.0629947,
@@ -30,121 +43,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-17 16:13 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-17 19:31 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemini-flash-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-latest": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794245572.837565,
-   5460,
-   "🤖",
-   "Nemotron-Personas-Finance-Japan: синтетичний датасет про демографію та фінанси Японії",
-   "Hugging Face",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan",
-    "orig": "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context"
-   }
-  ],
-  [
-   1794245577.0516722,
-   5461,
-   "🤖",
-   "Disney укладає партнерство з Adobe для створення брендових ШІ-моделей",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/disney-bets-on-adobes-firefly-to-create-brand-safe-ai-models-for-its-entertainment-empire/",
-    "orig": "Disney bets on Adobe's Firefly to create brand-safe AI models for its entertainment empire"
-   }
-  ],
-  [
-   1794247282.6291602,
-   5462,
-   "💾",
-   "Сотні гігабайт непотрібних операцій щодня: графічні драйвери AMD непомітно вбивають SSD",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/sotni-gigabajt-nepotribnyh-operatsij-shhodnya-grafichni-drajvery-amd-nepomitno-vbyvayut-ssd/",
-    "orig": "Сотні гігабайт непотрібних операцій щодня: графічні драйвери AMD непомітно вбивають SSD"
-   }
-  ],
-  [
-   1794247287.3891761,
-   5463,
-   "🤖",
-   "Новий метод HOPE оптимізує пам'ять моделей MoE",
-   "Hugging Face",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://huggingface.co/blog/amazon/higher-order-pruning-experts",
-    "orig": "Your Experts Have Partners. There's HOPE for Keeping Them Together"
-   }
-  ],
-  [
-   1794249088.4321344,
-   5464,
-   "💾",
-   "Apple хоче перетворити Siri на ШІ-агента, який самостійно виконуватиме завдання",
-   "AIN.ua",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://ain.ua/2026/11/09/apple-xoce-peretvoriti-siri-na-si-agenta-iakii-samostiino-vikonuvatime-zavdannia/",
-    "orig": "Apple хоче перетворити Siri на ШІ-агента, який самостійно виконуватиме завдання"
-   }
-  ],
-  [
-   1794249090.7642784,
-   5465,
-   "💾",
-   "Medium запускає TK: застосунок, який поєднує блог і груповий чат",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://highload.tech/uk/medium-zapuskaye-tk-zastosunok-yakyj-poyednuye-blog-i-grupovyj-chat/#new_tab",
-    "orig": "Medium запускає TK: застосунок, який поєднує блог і груповий чат"
-   }
-  ],
-  [
-   1794250882.605294,
-   5469,
-   "🤖",
-   "Розробники української LLM «Сяйво» шукають волонтерів для тренування ШІ",
-   "AIN.ua",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://ain.ua/2026/11/09/rozrobniki-ukrayinskoyi-llm-siaivo-sukaiut-volonteriv-dlia-trenuvannia-si/",
-    "orig": "Розробники української LLM «Сяйво» шукають волонтерів для тренування ШІ"
-   }
-  ],
-  [
-   1794250886.4428637,
-   5470,
-   "🤖",
-   "ШІ-агенти тепер генерують 80% корпоративного використання штучного інтелекту",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/videos/2026-11-09/menlo-agents-now-drive-80-of-enterprise-ai-usage-video",
-    "orig": "Menlo: Agents Now Drive 80% of Enterprise AI Usage"
-   }
-  ],
   [
    1794258098.323686,
    5472,
@@ -9171,7 +9080,6 @@
    "Distorted Sound",
    {
     "also": [],
-    "caption": "🤘 <b>Світовий попит на вейп-продукти стрімко зростає</b>\n\nВейпінг перетворився на значний глобальний ринок завдяки різноманітності пристроїв, смаків та поширенню через соціальні мережі. Водночас уряди різних країн запроваджують регуляції щодо виробництва, реклами й вікових обмежень через занепокоєння станом здоров&#x27;я.\n\n🔗 <a href=\"https://distortedsoundmag.com/the-increasing-demand-for-vape-products-worldwide/\">Distorted Sound</a>\n\n#музика",
     "kind": "photo",
     "link": "https://distortedsoundmag.com/the-increasing-demand-for-vape-products-worldwide/",
     "orig": "The Increasing Demand for Vape Products Worldwide"
@@ -10025,6 +9933,20 @@
     "link": "https://mezha.ua/news/google-detected-first-fully-autonomous-ai-cyberattack-317309/",
     "orig": "Google виявила першу повністю автономну атаку за допомогою ШІ-агентів – її провели російськомовні хакери"
    }
+  ],
+  [
+   1794943900.7335124,
+   6228,
+   "💾",
+   "Apple відновлює роботу сервісів після масштабного збою",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "💾 <b>Apple відновлює роботу сервісів після масштабного збою</b>\n\nApple працює над відновленням своїх систем після внутрішнього оновлення, яке спричинило масштабний збій. Неполадки завадили повноцінній роботі співробітників та сервісів техногіганта.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-17/apple-works-to-restore-systems-after-update-caused-outage\">Bloomberg</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/apple-works-to-restore-systems-after-update-caused-outage",
+    "orig": "Apple Works to Restore Systems After Update Caused Outage"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10253,9 +10175,8 @@
    1793547082.3914192
   ],
   "software|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1794850307.451603,
-   1794855717.7101731,
-   1794857514.3718
+   1794857514.3718,
+   1794943900.7337408
   ],
   "software|DOU|https://dou.ua/feed/": [
    1794843085.3208008
@@ -10455,7 +10376,6 @@
   "103bf22e98c61cba": 1794733252.5875175,
   "104672dae74794fa": 1794007896.8302855,
   "105c9cb2e2d680f8": 1794103287.2780123,
-  "10714e623a2ae593": 1793734305.8283293,
   "109270637f0d1ea4": 1794488660.3232384,
   "10ac305df3233805": 1794727870.9768376,
   "10bd7120ab656829": 1793872929.1739988,
@@ -10718,7 +10638,6 @@
   "2bcc0d9702cf7214": 1793822038.9346817,
   "2bced931fe8d25ec": 1793912454.7085621,
   "2be54f12526ae2a5": 1793853106.215113,
-  "2bec071b6c642e87": 1793734294.9914932,
   "2c1f15f8322385d6": 1794520881.1333885,
   "2c71e9984823e245": 1793743304.844976,
   "2ca413dd274a9f2b": 1794600080.697358,
@@ -10782,7 +10701,6 @@
   "33089f1255de174c": 1794799881.619647,
   "33097b39e293d40b": 1794211286.8406339,
   "333126c8ac9be967": 1793804753.8474927,
-  "3335a918f3cc50ab": 1793734301.6911168,
   "335086bf8f0c729f": 1794349854.945267,
   "337c1012d87987ce": 1793907159.681541,
   "338ba400d7f1589f": 1793734337.9321942,
@@ -10874,7 +10792,6 @@
   "3ca9bd81350269b2": 1794818050.7579744,
   "3cbb3d460908743e": 1793833253.9015992,
   "3cd48cb24f5b4a13": 1793917881.3933167,
-  "3cdb468b0f662984": 1793734309.0712404,
   "3d1cb7cefa9a99f6": 1793779277.975377,
   "3d1e2fcbfa5adfee": 1793874726.940739,
   "3d2f16db9e0ae111": 1794434586.8519456,
@@ -11494,7 +11411,6 @@
   "7b866964c55ffa52": 1794222361.3424985,
   "7ba17441717386c1": 1794425453.5039613,
   "7bc0aa81e38591c4": 1794924126.2097738,
-  "7bd0e1702c68b38a": 1793734304.4291873,
   "7beb863753756d4a": 1794330083.204251,
   "7bf45a02fae15c18": 1793790132.2139566,
   "7bffe8ee5077df03": 1794412878.729675,
@@ -12107,6 +12023,7 @@
   "bb3beab749543672": 1794173485.4995587,
   "bb503ca8dd5624db": 1793890889.1739924,
   "bb5c94023b11486c": 1794858091.4121206,
+  "bb8ae8bd7120e242": 1794943890.3925378,
   "bbd87f9e04dde43e": 1794358892.4297469,
   "bc233f2bb1fd25a6": 1794718851.8888588,
   "bc3356ccbb0f312b": 1794214991.3628657,
@@ -12313,6 +12230,7 @@
   "cff13b765f4b2dbd": 1794618176.416476,
   "d025d0ca00a6899d": 1793797653.155668,
   "d0328fcc9f4da51a": 1793896281.2878256,
+  "d09594a345018c09": 1794943900.7336898,
   "d09a6c749a456739": 1794063729.527597,
   "d0aae701bfab3b18": 1793916054.947063,
   "d0b0910c2f17839b": 1794727878.8783674,
@@ -12706,7 +12624,6 @@
   "f8da911b3170bf8a": 1794002489.058005,
   "f8e1bc9b90841129": 1793745092.375435,
   "f902f9480aee3f1e": 1794315872.040283,
-  "f90e5bdbe981b2d7": 1793734298.5056155,
   "f9112e8d166c383c": 1793824254.550742,
   "f92d5000800978f8": 1794268883.5499456,
   "f94a385647e28b84": 1794632478.5518868,
@@ -12780,7 +12697,6 @@
   "ff45d431b57de1f2": 1793869512.7395349,
   "ff596d820b0f5cb2": 1794902511.0531082,
   "ff6aff9a2dbccb08": 1794414781.274668,
-  "ff70f672847edd0e": 1793734294.9895241,
   "ff840b54d34eddc6": 1793876537.6906407,
   "ff9473a0f9509091": 1794693772.929385,
   "ff9627da71a51e63": 1794227453.9175088,
@@ -13998,7 +13914,7 @@
    "/Film": 10,
    "AIN.ua": 2,
    "Blabbermouth": 3,
-   "Bloomberg": 12,
+   "Bloomberg": 13,
    "DOU": 2,
    "DOU Gamedev": 2,
    "Deadline": 26,
@@ -14031,7 +13947,7 @@
   },
   "translators": {
    "DeepL": 16,
-   "gemini-flash-latest": 11,
+   "gemini-flash-latest": 12,
    "gemini-flash-lite-latest": 152
   },
   "week": "2026-W47"
@@ -15496,11 +15412,6 @@
    570940,
    "DARK SOULS™: REMASTERED",
    1794693775.5031538
-  ],
-  "q:dark souls 2": [
-   236430,
-   "DARK SOULS™ II",
-   1792350087.4852767
   ],
   "q:dark souls 3": [
    374320,
@@ -19082,6 +18993,10 @@
   [
    1794934900.883669,
    "Google виявила першу повністю автономну атаку за допомогою ШІ-агентів – її провели російськомовні хакери"
+  ],
+  [
+   1794943900.733692,
+   "Apple Works to Restore Systems After Update Caused Outage"
   ]
  ],
  "titles_uk": [
@@ -19836,6 +19751,10 @@
   [
    1794934900.88367,
    "Google виявила першу повністю автономну атаку за допомогою ШІ-агентів – її провели російськомовні хакери"
+  ],
+  [
+   1794943900.7336926,
+   "Apple відновлює роботу сервісів після масштабного збою"
   ]
  ],
  "ukrainian": {
@@ -20046,6 +19965,7 @@
    "230410": "is",
    "2315050": "is",
    "2320980": "",
+   "2321470": "i",
    "2321960": "",
    "2325290": "",
    "2333000": "",
@@ -20131,6 +20051,7 @@
    "2767030": "",
    "2769570": "",
    "2779170": "i",
+   "2781660": "",
    "2784470": "is",
    "2787320": "",
    "2806050": "",
@@ -20439,7 +20360,7 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1794922329.2328975,
+  "last_check": 1794943911.493082,
   "with_uk": 108
  },
  "weekly_releases_week": "2026-W47",
