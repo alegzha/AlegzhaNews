@@ -1,8 +1,21 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1794886270.2568746
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1794886268.5307972
+  }
+ },
  "daily_digest_date": "2026-11-16",
  "freebies": {
-  "last_check": 1794877554.127616,
+  "last_check": 1794886286.0723407,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -29,7 +42,7 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-17 03:02 UTC",
+  "at": "2026-11-17 03:31 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
@@ -40,37 +53,6 @@
   ]
  },
  "post_log": [
-  [
-   1794193456.5203085,
-   5400,
-   "🎬",
-   "Документалка «You Can See Everything» тріумфує на Critics Choice Documentary Awards",
-   "IndieWire",
-   {
-    "also": [
-     [
-      "Deadline",
-      "https://deadline.com/2026/11/you-can-see-everything-critics-choice-documentary-awards-winners-1237217011/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.indiewire.com/awards/results/critics-choice-documentary-award-winners-full-list-1235226156/",
-    "orig": "‘You Can See Everything’ Sweeps Critics Choice Documentary Awards"
-   }
-  ],
-  [
-   1794193463.863657,
-   5401,
-   "🎬",
-   "На Бродвеї відбулася прем'єра мюзиклу Wanted",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://deadline.com/2026/11/wanted-musical-broadway-review-1237214464/",
-    "orig": "‘Wanted’ Broadway Review: Historical Musical Plays With Gospel Truth"
-   }
-  ],
   [
    1794195083.6476452,
    5402,
@@ -9193,7 +9175,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>Ніхто не постраждав під час стрілянини біля офісу розробників InXile Entertainment</b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/2439280/\">Clockwork Revolution</a>\n\nСтудія InXile та місцева поліція підтвердили, що під час інциденту 11 листопада поблизу офісу розробників Clockwork Revolution ніхто не постраждав. Правоохоронці вже затримали підозрюваного.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/nobody-was-hurt-in-shooting-near-clockwork-revolution-devs-inxile-entertainments-office-the-xbox-owned-studio-and-police-confirm\">Rock Paper Shotgun</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/nobody-was-hurt-in-shooting-near-clockwork-revolution-devs-inxile-entertainments-office-the-xbox-owned-studio-and-police-confirm",
     "orig": "\"Nobody was hurt\" in shooting near Clockwork Revolution devs InXile Entertainment's office, the Xbox-owned studio and police confirm"
@@ -9972,7 +9953,12 @@
    "Помер режисер кліпів та кінематографіст Ray Tintori",
    "Variety",
    {
-    "also": [],
+    "also": [
+     [
+      "Deadline",
+      "https://deadline.com/2026/11/ray-tintori-dead-filmmaker-heidi-gardner-1237226073/"
+     ]
+    ],
     "caption": "🎬 <b>Помер режисер кліпів та кінематографіст Ray Tintori</b>\n\nRay Tintori, відомий роботою над кліпами для Arcade Fire та MGMT, а також фільмом «Beasts of the Southern Wild», пішов із життя у Нью-Йорку у віці 43 років. Судово-медична експертиза розслідує причину смерті.\n\n🔗 <a href=\"https://variety.com/2026/film/news/ray-tintori-dead-filmmaker-beasts-southern-wild-1236949816/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/film/news/ray-tintori-dead-filmmaker-beasts-southern-wild-1236949816/",
@@ -10061,6 +10047,20 @@
     "kind": "photo",
     "link": "https://lambgoat.com/news/55921/judas-priest-expand-european-summer-tour-dates/",
     "orig": "Judas Priest expand European Summer tour dates"
+   }
+  ],
+  [
+   1794886276.8366606,
+   6169,
+   "🤘",
+   "Помер колишній гітарист Danzig Джон Кріст",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Помер колишній гітарист Danzig Джон Кріст</b>\n\nУ віці 61 року помер колишній гітарист гуртів Danzig та Samhain Джон Кріст. У вересні музикант скасував свої живі плани через проблеми зі здоров&#x27;ям, а 16 листопада на його сторінці в Instagram з&#x27;явилося офіційне повідомлення про його мирну смерть 15 листопада.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/16/news/john-christ-ex-danzig-etc-has-passed-away/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/11/16/news/john-christ-ex-danzig-etc-has-passed-away/",
+    "orig": "John Christ (Ex-Danzig, Etc.) Has Passed Away"
    }
   ]
  ],
@@ -10275,7 +10275,8 @@
   "music|ThePRP|https://www.theprp.com/feed/": [
    1794875504.7401583,
    1794875511.5433328,
-   1794882689.8296018
+   1794882689.8296018,
+   1794886276.8369303
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1794751279.155413
@@ -10820,6 +10821,7 @@
   "2fe760ec94934248": 1794540653.3231752,
   "30182bb5471e7bbf": 1794407562.5903838,
   "301b30efee9abd71": 1793712704.738874,
+  "304278cd392fc64a": 1794886276.8368862,
   "3050b81b2afc935c": 1794114087.9284823,
   "3054dc1bf4dadf45": 1793721684.3140144,
   "3069ed7e77cde6e4": 1793970105.8567038,
@@ -10921,7 +10923,6 @@
   "3a9b0d85f2125cb2": 1793790115.5346375,
   "3ace2e3d4bdc631b": 1793808081.7335856,
   "3ad6dfcbbee37c67": 1794837716.6236005,
-  "3add102e6028f601": 1793676658.0214493,
   "3ae61ef5615e6692": 1794717103.7216418,
   "3ae63eeebba5480b": 1794022254.4008634,
   "3ae8ad07de9bca4c": 1793822014.258152,
@@ -10988,6 +10989,7 @@
   "40eec788e94e4d29": 1793898090.5023394,
   "4100f4f3a6f57555": 1793885456.9019864,
   "412719e27a39d21d": 1793790085.2938612,
+  "41371a3772bd65c2": 1794886253.941115,
   "4198c3a801068762": 1794025884.9886954,
   "41af9493af0cf53b": 1794526281.7948456,
   "41baea658257f510": 1794016922.9356942,
@@ -12577,6 +12579,7 @@
   "d7eda69ecca78506": 1793743339.586493,
   "d804fd7da2bc2a58": 1793743308.404747,
   "d82515c20d8a555e": 1793722025.7744446,
+  "d8360780c2f45960": 1794886275.4924657,
   "d85ff52f939a4c86": 1794436312.336284,
   "d8813cba61879b3f": 1793952452.3164127,
   "d89e9cf214cf86d9": 1793952052.0746377,
@@ -13435,7 +13438,7 @@
   ],
   "artists_checked": 1794870142.4123154,
   "blocked_until": 1794869893.9804366,
-  "cursor": 367,
+  "cursor": 7,
   "digest_week": "2026-W46",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -14190,7 +14193,7 @@
    "Українська локалізація": 1
   },
   "filtered": {
-   "/Film": 4,
+   "/Film": 5,
    "Bloomberg": 3,
    "Deadline": 2,
    "GameSpot": 1,
@@ -14229,14 +14232,14 @@
    "Rock Paper Shotgun": 2,
    "Stereogum": 1,
    "The Decoder": 3,
-   "ThePRP": 3,
+   "ThePRP": 4,
    "VGC": 1,
    "Variety": 8
   },
   "translators": {
    "DeepL": 12,
    "gemini-flash-latest": 7,
-   "gemini-flash-lite-latest": 108
+   "gemini-flash-lite-latest": 110
   },
   "week": "2026-W47"
  },
@@ -18609,22 +18612,6 @@
  },
  "titles": [
   [
-   1794711880.0208232,
-   "This '60s Sketch Show Became One Of The Biggest Flops In TV History"
-  ],
-  [
-   1794711882.7637866,
-   "TIAMAT's JOHAN EDLUND Suffers Brain Hemorrhage; Belgrade, Serbia Concert Canceled"
-  ],
-  [
-   1794713476.5142865,
-   "Skindred, After The Burial, ERRA, Etc. added to 2027 Rock am Ring & Rock im Park festivals"
-  ],
-  [
-   1794713481.876107,
-   "‘Wicker’ Star Alexander Skarsgård Appreciated “Social Commentary” Of Feminist Romantasy Film Without It Being “Too Preachy” – Contenders L.A."
-  ],
-  [
    1794715283.2244573,
    "Carrie Coon & Lily James Humanized Cult Member And Leader In Guy Nattiv’s ‘The Liberation’ – Contenders L.A."
   ],
@@ -19351,25 +19338,13 @@
   [
    1794884533.1063564,
    "Judas Priest expand European Summer tour dates"
+  ],
+  [
+   1794886276.836888,
+   "John Christ (Ex-Danzig, Etc.) Has Passed Away"
   ]
  ],
  "titles_uk": [
-  [
-   1794711880.020824,
-   "Це скетч-шоу 60-х стало одним із найбільших провалів в історії телебачення"
-  ],
-  [
-   1794711882.7637873,
-   "Лідер TIAMAT Йохан Едлунд потрапив до лікарні з крововиливом у мозок"
-  ],
-  [
-   1794713476.5142875,
-   "Skindred, After The Burial та ERRA поповнили лайнап Rock am Ring та Rock im Park"
-  ],
-  [
-   1794713481.876108,
-   "Александр Скарсгард оцінив соціальний контекст фільму Wicker"
-  ],
   [
    1794715283.224458,
    "Керрі Кун та Лілі Джеймс розповіли про стрічку The Liberation"
@@ -20097,6 +20072,10 @@
   [
    1794884533.1063576,
    "Judas Priest розширили європейський літній тур новими концертами"
+  ],
+  [
+   1794886276.8368888,
+   "Помер колишній гітарист Danzig Джон Кріст"
   ]
  ],
  "ukrainian": {
@@ -22500,7 +22479,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794882701.2856555,
+  "last_check": 1794886285.7905946,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
