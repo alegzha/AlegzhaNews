@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1794875476.7722704
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1794875474.661938
+  }
+ },
  "daily_digest_date": "2026-11-16",
  "freebies": {
   "last_check": 1794870138.9873676,
@@ -29,7 +42,7 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-17 00:01 UTC",
+  "at": "2026-11-17 00:31 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
@@ -40,58 +53,6 @@
   ]
  },
  "post_log": [
-  [
-   1794182587.1578176,
-   5388,
-   "🎮",
-   "Найвпливовіший платформер Sega заслуговує на власний великий ремейк",
-   "Polygon",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.polygon.com/super-monkey-ball-retrospective-25-years-sega/",
-    "orig": "Sega’s Most Influential Platformer Deserves Its Big Remake Moment Next"
-   }
-  ],
-  [
-   1794184279.1218126,
-   5389,
-   "🎮",
-   "Jackbox Games не планує використовувати генеративний ШІ",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/gaming-industry/game-development/jackbox-games-isnt-interested-in-ai-development-all-that-is-done-by-people-and-we-have-no-intention-of-changing-that/",
-    "orig": "Jackbox Games isn't interested in AI development: 'All that is done by people, and we have no intention of changing that'"
-   }
-  ],
-  [
-   1794184281.9741302,
-   5390,
-   "🤖",
-   "Бум штучного інтелекту посилить тиск на інфляцію в Австралії",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-08/rba-s-hunter-says-ai-boom-will-put-near-term-pressure-on-prices",
-    "orig": "RBA’s Hunter Says AI Boom Will Put Near-Term Pressure on CPI"
-   }
-  ],
-  [
-   1794184285.0260625,
-   5391,
-   "🎬",
-   "Роб Ділейні спростував популярну фанатську теорію про Пітера з Deadpool 2",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2306570/deadpool-2-rob-delaney-debunk-x-men-fan-theory-peter/",
-    "orig": "Deadpool 2's Rob Delaney Debunks Popular X-Men Fan Theory About His Character Peter"
-   }
-  ],
   [
    1794186041.8601596,
    5392,
@@ -9167,7 +9128,6 @@
    "DOU Gamedev",
    {
     "also": [],
-    "caption": "🎮 <b>Не влізла в Google Play, тож полетіла в Steam: як ми робили гру про Марс, яка лише тепер вийшла на Android</b>\n\nПривіт! Я Віталій Чиж, викладач історії з Полтави, розробник з Brenntkopf Development. Наша гра Cosmoodyssey trip to Mars таки вийшла на Android! І так, ми знаємо, що на ПК вона вийшла ще в серпні 2022 року. Проте робили ми її саме для телефонів, а релізу на ПК спочатку навіть не планували. Просто гра не влізла в тодішній ліміт Google Play, і все пішло трохи іншим шляхом.\n\n🔗 <a href=\"https://gamedev.dou.ua/blogs/kosmoodiseya-on-android/\">DOU Gamedev</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://gamedev.dou.ua/blogs/kosmoodiseya-on-android/",
     "orig": "Не влізла в Google Play, тож полетіла в Steam: як ми робили гру про Марс, яка лише тепер вийшла на Android"
@@ -9181,7 +9141,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>ggml-org/ggml</b>\n\nБібліотека тензорів для машинного навчання https://github.com/ggml-org ggml Бібліотека тензорів для машинного навчання Швидкий старт Компіляція з вихідного коду: git clone https://github.com/ggml-org/ggml cd ggml mkdir build &amp;&amp; cd build cmake .. cmake --build . --config Release -j 8 Мінімальний приклад із повними коментарями (множення матриць) див. у папці examples/simple.\n\n🔗 <a href=\"https://github.com/ggml-org/ggml\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/ggml-org/ggml",
     "orig": "ggml-org/ggml"
@@ -9195,7 +9154,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b>EA найняла колишнього керівника <a href=\"https://store.steampowered.com/app/1938090/\">Call of Duty</a> на чолi всiх студiй Battlefield</b>\n\nEA призначила Сема Купера новим керівником франшизи Battlefield. Раніше він працював в Activision, де очолював глобальний менеджмент продуктів і живий сервіс у Call of Duty. Це призначення продовжує стратегію EA з перенесення моделі Call of Duty на серію Battlefield.\n\n🔗 <a href=\"https://www.eurogamer.net/battlefield-call-of-duty-sam-cooper-byron-beede-live-service\">Eurogamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/battlefield-call-of-duty-sam-cooper-byron-beede-live-service",
     "orig": "EA hires another former Call of Duty boss to take the lead on all Battlefield Studios' projects"
@@ -10031,6 +9989,48 @@
     "link": "https://www.indiewire.com/criticism/movies/hershey-movie-review-1235228446/",
     "orig": "‘Hershey’ Review: An Unbelievably Flavorless Biopic About America’s Most Famous Chocolatier"
    }
+  ],
+  [
+   1794875490.1071181,
+   6155,
+   "🎬",
+   "Режисер Batman Forever ледь не відмовив Джиму Керрі на роль Riddler",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Режисер Batman Forever ледь не відмовив Джиму Керрі на роль Riddler</b>\n\nРежисер Joel Schumacher спершу вважав Джима Керрі занадто молодим для ролі Riddler у фільмі Batman Forever 1995 року. Він змінив свою думку після того, як побачив трейлер фільму The Mask.\n\n🔗 <a href=\"https://www.slashfilm.com/2313491/batman-forever-director-cast-jim-carrey-the-riddler-the-mask/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2313491/batman-forever-director-cast-jim-carrey-the-riddler-the-mask/",
+    "orig": "Batman Forever's Director Nearly Rejected Jim Carrey As The Riddler Until He Saw This Movie"
+   }
+  ],
+  [
+   1794875504.7399275,
+   6156,
+   "🤘",
+   "Гурти Flagman і lespecial узяли участь у триб'ют-альбомі Primus «Bastardized»",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Гурти Flagman і lespecial узяли участь у триб&#x27;ют-альбомі Primus «Bastardized»</b>\n\nПодкаст Primus Tracks випустив альбом каверів «Bastardized: A Primus Tracks Companion» на вінілі та цифрі. До збірки увійшли треки від гуртів, на які вплинула творчість Primus, зокрема кавер на «Too Many Puppies» від Flagman та концертна версія «Harold Of The Rocks» від lespecial.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/16/news/flagman-lespecial-etc-partake-in-new-primus-tribute-album-bastardized/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/11/16/news/flagman-lespecial-etc-partake-in-new-primus-tribute-album-bastardized/",
+    "orig": "Flagman, Lespecial, Etc. Partake In New Primus Tribute Album “Bastardized”"
+   }
+  ],
+  [
+   1794875511.5431092,
+   6157,
+   "🤘",
+   "Mastodon випустили лайв-відео на трек Your Ghost Again",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Mastodon випустили лайв-відео на трек Your Ghost Again</b>\n\nГурт Mastodon презентував нове концертне відео на сингл Your Ghost Again з дев&#x27;ятого альбому Marrow Deep. Трек отримав номінацію на GRAMMY у категорії «Найкраще металуоконання» та присвячений колишньому гітаристу Бренту Гайндсу.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/16/news/mastodon-release-new-your-ghost-again-live-performance-video/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/11/16/news/mastodon-release-new-your-ghost-again-live-performance-video/",
+    "orig": "Mastodon Release New “Your Ghost Again” Live Performance Video"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10141,10 +10141,10 @@
    1794828856.2655046
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
-   1794787353.4841242,
    1794794842.078125,
    1794799884.5390196,
-   1794871895.0495973
+   1794871895.0495973,
+   1794875490.1073518
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792944099.3403795,
@@ -10242,7 +10242,8 @@
    1794868348.3863888
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1794735166.9776022
+   1794875504.7401583,
+   1794875511.5433328
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1794751279.155413
@@ -10373,6 +10374,8 @@
   "085ae393f1fd8eca": 1794031278.084823,
   "0876c9c2b39765c7": 1794567703.8834496,
   "08834e88aa580406": 1794367891.9064121,
+  "0889ade6d9f63738": 1794875461.7247117,
+  "08ab6f25aa1462ec": 1794875504.7401118,
   "08de003d8f66ad50": 1793883795.6272602,
   "08e36f34879d407a": 1793817056.7806334,
   "08ebb83962cd7ef5": 1793745084.7948165,
@@ -10552,13 +10555,11 @@
   "18111343bdbdc862": 1794853852.7215874,
   "1813149d3457eb59": 1794643258.248781,
   "1847baeab96262e7": 1794117651.9309552,
-  "187082d91f09f74c": 1793664118.122448,
   "18d1449213d86f49": 1794056475.4155757,
   "18e2a99219f18b63": 1794150052.196198,
   "192a87db5e9ac2f4": 1794702681.101593,
   "195940eea151a772": 1794782154.5515115,
   "195dcb105c1a6946": 1794801662.3656418,
-  "198af98f7329de4c": 1793664116.4814746,
   "198ca8fd99c15ae4": 1793728894.5660353,
   "198daa040ef65130": 1793964698.3973782,
   "19a0a3221833cdf0": 1794497495.8385534,
@@ -11082,7 +11083,6 @@
   "4e285fad042ed34f": 1794609055.1572344,
   "4e2910dfe679ae25": 1794546093.7181077,
   "4e5469a3f0dee49f": 1794096081.7873914,
-  "4e5c554f46ce2c81": 1793665855.4540458,
   "4e95f2e07d2eee9b": 1793781192.9947064,
   "4ee386199935ddd0": 1793746907.9794414,
   "4ee39abf60ee8a85": 1794042180.7033417,
@@ -11331,7 +11331,6 @@
   "6705536db75f799a": 1793709084.0839562,
   "67119f7300e9ed51": 1794402056.59474,
   "67276f7b5fce03c4": 1793811683.7901714,
-  "6753efab78a345ac": 1793664121.1692266,
   "6759a06fa8a01064": 1793909119.6722019,
   "67611eb4cd73f28a": 1793701894.322488,
   "6762df4d1786f114": 1793917852.8708968,
@@ -11748,6 +11747,7 @@
   "8b5b670089c2a0b5": 1794789233.0809011,
   "8b6fd016fc9d653d": 1794619886.7911649,
   "8b70fc04e8823306": 1793716365.057134,
+  "8b93cfcbd366393c": 1794875490.1073031,
   "8bb9b1bbd3d2ad72": 1794478233.0950007,
   "8bd933f459bcf3eb": 1794713481.876106,
   "8be5c5acd91f2eb2": 1793887344.723957,
@@ -12115,10 +12115,10 @@
   "aed1e271979af7a4": 1794434455.0331035,
   "af00080caa41aed0": 1793923324.0298736,
   "af04e5ada552d24b": 1793736153.0846891,
-  "af05a4f395ef5aa3": 1793664119.5049946,
   "af4b56e6d232f6fa": 1793703677.8270195,
   "af7f01de94ffa5ce": 1794596480.2130246,
   "af9298cee35b1c10": 1794220470.4973693,
+  "af94feae22729c7a": 1794875511.543285,
   "af9fccdcabcd2fce": 1794315858.8469326,
   "afafe7a3e5b72ff0": 1793730687.6909645,
   "afb3715203768996": 1794216694.7409585,
@@ -12550,7 +12550,6 @@
   "d804fd7da2bc2a58": 1793743308.404747,
   "d82515c20d8a555e": 1793722025.7744446,
   "d85ff52f939a4c86": 1794436312.336284,
-  "d86ca31ae63c5420": 1793664113.1293368,
   "d8813cba61879b3f": 1793952452.3164127,
   "d89e9cf214cf86d9": 1793952052.0746377,
   "d8bc5671d00617ad": 1793997057.807581,
@@ -13410,7 +13409,7 @@
   ],
   "artists_checked": 1794870142.4123154,
   "blocked_until": 1794869893.9804366,
-  "cursor": 307,
+  "cursor": 317,
   "digest_week": "2026-W46",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -14170,13 +14169,13 @@
    "Deadline": 1,
    "GameSpot": 1,
    "IGN": 3,
-   "Insider Gaming": 5,
+   "Insider Gaming": 6,
    "Loudwire": 2,
    "Polygon": 12,
    "Variety": 2
   },
   "sources": {
-   "/Film": 7,
+   "/Film": 8,
    "AIN.ua": 1,
    "Blabbermouth": 3,
    "Bloomberg": 9,
@@ -14204,13 +14203,14 @@
    "Rock Paper Shotgun": 2,
    "Stereogum": 1,
    "The Decoder": 3,
+   "ThePRP": 2,
    "VGC": 1,
    "Variety": 7
   },
   "translators": {
    "DeepL": 11,
    "gemini-flash-latest": 7,
-   "gemini-flash-lite-latest": 92
+   "gemini-flash-lite-latest": 95
   },
   "week": "2026-W47"
  },
@@ -14950,11 +14950,6 @@
    "",
    1794789171.125891
   ],
-  "q:5 greatest spaceman spiff comic strips": [
-   0,
-   "",
-   1794700887.1529899
-  ],
   "q:50": [
    0,
    "",
@@ -15419,31 +15414,6 @@
    5348660,
    "Calm Bricks",
    1793032281.0405085
-  ],
-  "q:calvin": [
-   0,
-   "",
-   1794700883.5589974
-  ],
-  "q:calvin and hobbes'": [
-   0,
-   "",
-   1794700883.0559418
-  ],
-  "q:calvin and hobbes' 5": [
-   0,
-   "",
-   1794700882.4882848
-  ],
-  "q:calvin and hobbes' 5 greatest": [
-   0,
-   "",
-   1794700881.9931824
-  ],
-  "q:calvin and hobbes' 5 greatest spaceman": [
-   0,
-   "",
-   1794700881.4260502
   ],
   "q:canceled": [
    2651130,
@@ -16524,36 +16494,6 @@
    0,
    "",
    1794725131.1010232
-  ],
-  "q:hobbes'": [
-   0,
-   "",
-   1794700886.6376553
-  ],
-  "q:hobbes' 5": [
-   0,
-   "",
-   1794700886.1339672
-  ],
-  "q:hobbes' 5 greatest": [
-   0,
-   "",
-   1794700885.5997674
-  ],
-  "q:hobbes' 5 greatest spaceman": [
-   0,
-   "",
-   1794700885.095591
-  ],
-  "q:hobbes' 5 greatest spaceman spiff": [
-   0,
-   "",
-   1794700884.5618036
-  ],
-  "q:hobbes' 5 greatest spaceman spiff comic": [
-   0,
-   "",
-   1794700884.0557966
   ],
   "q:holt": [
    1675600,
@@ -18653,14 +18593,6 @@
  },
  "titles": [
   [
-   1794702682.9902234,
-   "She-Hulk's Tatiana Maslany Starred In A Must-Watch 2026 Apple TV Series"
-  ],
-  [
-   1794702686.0977068,
-   "Meryl Streep, Jon Hamm, Dave Franco Brought Comedy To ‘Hoppers’, Director Daniel Chong Says – Contenders L.A."
-  ],
-  [
    1794704489.7478077,
    "Knight Crowned LoL Worlds 2026 MVP After BLG Victory"
   ],
@@ -19379,17 +19311,21 @@
   [
    1794873694.2425878,
    "‘Hershey’ Review: An Unbelievably Flavorless Biopic About America’s Most Famous Chocolatier"
+  ],
+  [
+   1794875490.1073053,
+   "Batman Forever's Director Nearly Rejected Jim Carrey As The Riddler Until He Saw This Movie"
+  ],
+  [
+   1794875504.7401142,
+   "Flagman, Lespecial, Etc. Partake In New Primus Tribute Album “Bastardized”"
+  ],
+  [
+   1794875511.5432878,
+   "Mastodon Release New “Your Ghost Again” Live Performance Video"
   ]
  ],
  "titles_uk": [
-  [
-   1794702682.9902244,
-   "Тетяна Маслані зіграла головну роль у комедійному трилері Maximum Pleasure Guaranteed"
-  ],
-  [
-   1794702686.0977075,
-   "Меріл Стріп та Джон Гемн озвучать анімаційний фільм Hoppers від Pixar"
-  ],
   [
    1794704489.7478087,
    "Knight став MVP Worlds 2026 з LoL після перемоги BLG"
@@ -20109,6 +20045,18 @@
   [
    1794873694.2425888,
    "Вийшов байопік Hershey від Angel Studios"
+  ],
+  [
+   1794875490.1073065,
+   "Режисер Batman Forever ледь не відмовив Джиму Керрі на роль Riddler"
+  ],
+  [
+   1794875504.7401152,
+   "Гурти Flagman і lespecial узяли участь у триб'ют-альбомі Primus «Bastardized»"
+  ],
+  [
+   1794875511.5432885,
+   "Mastodon випустили лайв-відео на трек Your Ghost Again"
   ]
  ],
  "ukrainian": {
