@@ -1,21 +1,8 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1794875476.7722704
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1794875474.661938
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-16",
  "freebies": {
-  "last_check": 1794870138.9873676,
+  "last_check": 1794877554.127616,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -42,43 +29,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-17 00:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-17 01:06 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 4
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794186041.8601596,
-   5392,
-   "🤘",
-   "Себастьян Бах назвав пісню \"I Remember You\" позачасовою",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/sebastian-bach-on-skid-rows-i-remember-you-that-song-has-transcended-a-lot-of-places-that-we-never-thought-it-would",
-    "orig": "SEBASTIAN BACH On SKID ROW's 'I Remember You': 'That Song Has Transcended A Lot Of Places That We Never Thought It Would'"
-   }
-  ],
-  [
-   1794186046.0339458,
-   5393,
-   "🎬",
-   "Фентезі-фільм The Canterville Ghost 1996 року з Патріком Стюартом став доступним для безплатного перегляду",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2306342/patrick-stewart-90s-fantasy-movie-neve-campbell-streaming-free-the-canterville-ghost/",
-    "orig": "Patrick Stewart's '90s Fantasy Movie With Neve Campbell Is Streaming For Free"
-   }
-  ],
   [
    1794187889.166592,
    5394,
@@ -9167,7 +9129,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>elementalsouls/Claude-BugHunter</b>\n\nНабір навичок Claude Code для пошуку вразливостей та роботи у складі зовнішньої команди «червоних» — 82 навички, 15 команд із символом «/», 681 шаблон оприлюднених звітів, відібраних із 24 основних класів вразливостей, а також матриці атак на корпоративні системи ідентифікації та інфраструктуру.\n\n🔗 <a href=\"https://github.com/elementalsouls/Claude-BugHunter\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/elementalsouls/Claude-BugHunter",
     "orig": "elementalsouls/Claude-BugHunter"
@@ -9181,7 +9142,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Режисер E. Niwas знімає містичну комедію Kurla Boyz</b>\n\n🔗 <a href=\"https://deadline.com/2026/11/e-niwas-directing-kurla-boyz-abundantia-one-entertainment-1237224922/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/e-niwas-directing-kurla-boyz-abundantia-one-entertainment-1237224922/",
     "orig": "E. Niwas Returns To Feature Directing With Supernatural Comedy-Adventure ‘Kurla Boyz’ From Abundantia Entertainment & One Entertainment Films"
@@ -9195,7 +9155,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>NVIDIA випустила SkillEvaluator</b>\n\nБагаторівнева платформа для оцінки навичок агентів штучного інтелекту з використанням контрольних точок якості, виявлення семантичного перекриття, генерації синтетичних наборів даних для оцінки та оцінки агентів у режимі реального часу, що дозволяє визначити, як навички впливають на поведінку агентів. https://docs.nvidia.com/skills/skillevaluator/ SkillEvaluator 📺 Пряма трансляція: Запитайте експертів: Оцінка навичок агентів SkillEvaluator перевіряє навички агентів штучного інтелекту та вимірює їхній вплив на результати виконання завдань: спочатку проводяться перевірки якості, а потім…\n\n🔗 <a href=\"https://github.com/NVIDIA/SkillEvaluator\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/NVIDIA/SkillEvaluator",
     "orig": "NVIDIA/SkillEvaluator"
@@ -10031,6 +9990,48 @@
     "link": "https://www.theprp.com/2026/11/16/news/mastodon-release-new-your-ghost-again-live-performance-video/",
     "orig": "Mastodon Release New “Your Ghost Again” Live Performance Video"
    }
+  ],
+  [
+   1794877484.2347684,
+   6158,
+   "🎬",
+   "CAA уклала угоду з Hybe щодо представлення інтересів артистів, інтелектуальної власності та брендів корейської компанії",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>CAA уклала угоду з Hybe щодо представлення інтересів артистів, інтелектуальної власності та брендів корейської компанії</b>\n\nЗоряне агенство CAA підписало угоду з гігантом Hybe, включно з BTS та іншими K-Pop артистами\n\n🔗 <a href=\"https://deadline.com/2026/11/hybe-caa-artist-representation-1237226005/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/hybe-caa-artist-representation-1237226005/",
+    "orig": "CAA Inks With Hybe To Rep Korean Firm’s Artists, IP & Brands"
+   }
+  ],
+  [
+   1794877497.192661,
+   6159,
+   "🎬",
+   "Сценаристи платформи DramaWave об'єдналися з WGA West",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Сценаристи платформи DramaWave об&#x27;єдналися з WGA West</b>\n\nСценаристи платформи DramaWave офіційно вступили до Writers Guild of America West. Вони добиватимуться покращення умов праці, справедливої оплати, соціальних гарантій та обмеження використання ШІ у своїй роботі.\n\n🔗 <a href=\"https://deadline.com/2026/11/microdrama-writers-dramawave-unionize-wga-west-1237225626/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/microdrama-writers-dramawave-unionize-wga-west-1237225626/",
+    "orig": "Microdrama Writers At DramaWave Unionize With WGA West"
+   }
+  ],
+  [
+   1794877544.301623,
+   6160,
+   "🎮",
+   "Передзамовлення GTA 6 перевищили $1,4 млрд",
+   "GamesIndustry.biz",
+   {
+    "also": [],
+    "caption": "🎮 <b>Передзамовлення GTA 6 перевищили $1,4 млрд</b>\n\nЗа оцінками Sensor Tower, передзамовлення Grand Theft Auto 6 перевищили $1,4 мільярда, причому 87% припадає на Ultimate Edition. Продажі стрімко зросли після виходу спецвипуску від Netflix 27 серпня. Найбільший ризик втратити гравців через реліз мають Fortnite та GTA Online.\n\n🔗 <a href=\"https://www.gamesindustry.biz/sensor-tower-gta-6-pre-orders-exceed-14bn-with-87-for-the-ultimate-edition\">GamesIndustry.biz</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.gamesindustry.biz/sensor-tower-gta-6-pre-orders-exceed-14bn-with-87-for-the-ultimate-edition",
+    "orig": "Sensor Tower: GTA 6 pre-orders exceed $1.4bn, with 87% for the Ultimate Edition"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10093,7 +10094,8 @@
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
    1794834194.2750075,
-   1794836085.5064938
+   1794836085.5064938,
+   1794877544.301842
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
    1794760180.7987273,
@@ -10151,7 +10153,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1794789168.9837592,
    1794792688.2602396,
    1794798088.8590493,
    1794798094.9700303,
@@ -10164,7 +10165,9 @@
    1794868447.5765774,
    1794870118.698805,
    1794871898.1833014,
-   1794873679.9927313
+   1794873679.9927313,
+   1794877484.2350001,
+   1794877497.1928813
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794663071.9451547
@@ -10707,6 +10710,7 @@
   "27d27115416af7e3": 1794304905.6557856,
   "27e90f9ed0a04bdf": 1793766703.6716795,
   "27efcbd5eb6118a1": 1793901849.8696826,
+  "27f0e778d03c3917": 1794877484.234948,
   "27f48bb5f0abbb89": 1793759588.7841163,
   "27fadb27c18bccc4": 1793885595.7199366,
   "280f0e01bc431aae": 1794852103.6623578,
@@ -11427,7 +11431,6 @@
   "6ebc1ab9a09902c2": 1793743256.1613154,
   "6f217f40854ddef3": 1793905352.2478485,
   "6f3dcc99c0a22cbc": 1793874679.9521353,
-  "6f402b6dfb77db26": 1793667704.9574847,
   "6f6ba225786f87fd": 1794393116.6743698,
   "6f6da313af052baf": 1793797477.6084929,
   "6f72f5328ce35a16": 1793971855.835181,
@@ -11663,6 +11666,7 @@
   "83186b0550e5f2fc": 1794556877.7875981,
   "8337248d771f0277": 1793674855.3216126,
   "83495af21add9e1a": 1793696483.2797859,
+  "834fa9ad8d3bea42": 1794877544.3017933,
   "835e84fccf6d41ae": 1793777484.2551851,
   "8369f85e0a3a8f75": 1794411076.0979633,
   "838139b01554f2b5": 1793716463.7290773,
@@ -11906,6 +11910,7 @@
   "9a768addc84b7133": 1794018675.2626524,
   "9a865dae7205bd92": 1794126672.5865357,
   "9a945af4bff676bc": 1794349891.0385704,
+  "9a9fdb36d4913a54": 1794877497.1928325,
   "9aa8f818670fe6d4": 1793746890.8823638,
   "9ad41e055efeff08": 1794417337.7084458,
   "9aefd02ab82f040a": 1794629074.8660176,
@@ -12095,7 +12100,6 @@
   "ad68ad21ff9aefae": 1793761284.9463658,
   "ad95eb9f71da4c96": 1793824280.7754414,
   "adaa3b59b7ba0601": 1794807087.558263,
-  "add98f932a55a283": 1793667685.8833592,
   "ade69825cd896fc1": 1793892917.5654788,
   "adf06ac7b9b76c16": 1793698316.1481507,
   "ae0b07e83910e6ba": 1794760193.6006799,
@@ -12618,7 +12622,6 @@
   "df61523a46cb1450": 1793718081.3648684,
   "df66360291fe9c29": 1793944878.3855815,
   "dfae7298f97c1c24": 1793723595.1505055,
-  "dfb32029695f8a72": 1793667695.618428,
   "dfea77f4d09a1ddd": 1793761284.9457726,
   "dfedfa4966b60219": 1794819950.4708943,
   "dff5868d772e2c33": 1794659479.793679,
@@ -12747,6 +12750,7 @@
   "ec0a2a53e046448a": 1794776482.428397,
   "ec3856809bd646d5": 1794090684.7558832,
   "ec453d1217c21859": 1794650473.5415514,
+  "ec54bb3011fe81bf": 1794877253.0913165,
   "ec562e54b1c40d37": 1794783714.558163,
   "ec6cb8841f10b524": 1793928739.83671,
   "ec84e80c699a6613": 1793804459.5507169,
@@ -13409,7 +13413,7 @@
   ],
   "artists_checked": 1794870142.4123154,
   "blocked_until": 1794869893.9804366,
-  "cursor": 317,
+  "cursor": 327,
   "digest_week": "2026-W46",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -14166,7 +14170,7 @@
   "filtered": {
    "/Film": 4,
    "Bloomberg": 3,
-   "Deadline": 1,
+   "Deadline": 2,
    "GameSpot": 1,
    "IGN": 3,
    "Insider Gaming": 6,
@@ -14181,11 +14185,11 @@
    "Bloomberg": 9,
    "DOU": 2,
    "DOU Gamedev": 1,
-   "Deadline": 18,
+   "Deadline": 20,
    "Distorted Sound": 1,
    "Eurogamer": 1,
    "GameSpot": 1,
-   "GamesIndustry.biz": 2,
+   "GamesIndustry.biz": 3,
    "GitHub Trending": 4,
    "IGN": 1,
    "ITC.ua": 6,
@@ -14208,9 +14212,9 @@
    "Variety": 7
   },
   "translators": {
-   "DeepL": 11,
+   "DeepL": 12,
    "gemini-flash-latest": 7,
-   "gemini-flash-lite-latest": 95
+   "gemini-flash-lite-latest": 99
   },
   "week": "2026-W47"
  },
@@ -14780,6 +14784,11 @@
    "思安α.1.0",
    1792519374.2514403
   ],
+  "q:1 4bn": [
+   0,
+   "",
+   1794877502.5301852
+  ],
   "q:10": [
    0,
    "",
@@ -14994,6 +15003,21 @@
    0,
    "",
    1794787279.691466
+  ],
+  "q:87": [
+   0,
+   "",
+   1794877504.19265
+  ],
+  "q:87 for the ultimate": [
+   0,
+   "",
+   1794877503.595321
+  ],
+  "q:87 for the ultimate edition": [
+   0,
+   "",
+   1794877503.0852225
   ],
   "q:90": [
    3070650,
@@ -17930,6 +17954,21 @@
    "Selkie's Salvage&Co.",
    1792533705.4038172
   ],
+  "q:sensor tower": [
+   0,
+   "",
+   1794877500.426857
+  ],
+  "q:sensor tower gta": [
+   0,
+   "",
+   1794877499.8931131
+  ],
+  "q:sensor tower gta 6": [
+   0,
+   "",
+   1794877499.3758025
+  ],
   "q:serious sam the third encounter": [
    459920,
    "Serious Sam: The Third Encounter",
@@ -18260,10 +18299,35 @@
    "Touchdown",
    1793626281.855268
   ],
+  "q:tower": [
+   0,
+   "",
+   1794877501.993789
+  ],
+  "q:tower gta": [
+   0,
+   "",
+   1794877501.4563794
+  ],
+  "q:tower gta 6": [
+   0,
+   "",
+   1794877500.934059
+  ],
   "q:tyler": [
    390460,
    "Tyler",
    1793403098.8882158
+  ],
+  "q:ultimate": [
+   0,
+   "",
+   1794877505.293886
+  ],
+  "q:ultimate edition": [
+   0,
+   "",
+   1794877504.7360046
   ],
   "q:umamusume pretty derby": [
    3224770,
@@ -18592,14 +18656,6 @@
   ]
  },
  "titles": [
-  [
-   1794704489.7478077,
-   "Knight Crowned LoL Worlds 2026 MVP After BLG Victory"
-  ],
-  [
-   1794704495.3499005,
-   "‘The Violinist’ Composer Ricky Ho Took Two Months To Write The First Four Notes Of Central Sonata – Contenders L.A."
-  ],
   [
    1794706293.6242533,
    "10 Must-Play Co-Op Games for People With Real-Life Schedules"
@@ -19323,17 +19379,21 @@
   [
    1794875511.5432878,
    "Mastodon Release New “Your Ghost Again” Live Performance Video"
+  ],
+  [
+   1794877484.23495,
+   "CAA Inks With Hybe To Rep Korean Firm’s Artists, IP & Brands"
+  ],
+  [
+   1794877497.1928349,
+   "Microdrama Writers At DramaWave Unionize With WGA West"
+  ],
+  [
+   1794877544.301795,
+   "Sensor Tower: GTA 6 pre-orders exceed $1.4bn, with 87% for the Ultimate Edition"
   ]
  ],
  "titles_uk": [
-  [
-   1794704489.7478087,
-   "Knight став MVP Worlds 2026 з LoL після перемоги BLG"
-  ],
-  [
-   1794704495.3499017,
-   "Композитор Рікі Хо витратив два місяці на перші чотири ноти сонати для фільму The Violinist"
-  ],
   [
    1794706293.6242542,
    "10 найкращих кооперативних ігор для гравців із насиченим графіком"
@@ -20057,6 +20117,18 @@
   [
    1794875511.5432885,
    "Mastodon випустили лайв-відео на трек Your Ghost Again"
+  ],
+  [
+   1794877484.234951,
+   "CAA уклала угоду з Hybe щодо представлення інтересів артистів, інтелектуальної власності та брендів корейської компанії"
+  ],
+  [
+   1794877497.1928356,
+   "Сценаристи платформи DramaWave об'єдналися з WGA West"
+  ],
+  [
+   1794877544.3017962,
+   "Передзамовлення GTA 6 перевищили $1,4 млрд"
   ]
  ],
  "ukrainian": {
@@ -20146,6 +20218,7 @@
    "1551980": "",
    "1556200": "",
    "1566200": "is",
+   "1569580": "",
    "1577250": "",
    "1583230": "",
    "1585180": "",
@@ -20174,6 +20247,7 @@
    "1677110": "",
    "1677280": "is",
    "1682970": "i",
+   "1687950": "",
    "1689500": "i",
    "1728620": "",
    "1737870": "is",
@@ -20239,6 +20313,7 @@
    "2160480": "",
    "216150": "",
    "2161620": "",
+   "2161700": "",
    "2169200": "",
    "2172010": "",
    "2183900": "is",
@@ -20494,6 +20569,7 @@
    "3978820": "",
    "3981100": "",
    "4001890": "isa",
+   "400750": "is",
    "4019220": "",
    "4025700": "",
    "40300": "",
@@ -20570,6 +20646,7 @@
    "5037510": "",
    "5053820": "",
    "5064170": "is",
+   "5066010": "is",
    "5088440": "i",
    "509980": "i",
    "5133900": "",
@@ -20649,8 +20726,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1794855738.5409102,
-  "with_uk": 107
+  "last_check": 1794877564.7764945,
+  "with_uk": 108
  },
  "weekly_releases_week": "2026-W47",
  "wishlist": {
@@ -22455,7 +22532,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794873703.0690877,
+  "last_check": 1794877553.8234737,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
