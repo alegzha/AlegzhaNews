@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
+   "detail": "https://distortedsoundmag.com/feed/\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
+   "label": "Джерело «Distorted Sound» не працює",
+   "sent": 0,
+   "since": 1794889873.864386
+  }
+ },
  "daily_digest_date": "2026-11-16",
  "freebies": {
   "last_check": 1794886286.0723407,
@@ -29,44 +36,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-17 04:01 UTC",
-  "gemini_error": "",
+  "at": "2026-11-17 04:31 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794196890.8300354,
-   5404,
-   "🎬",
-   "Джо Байден скорочує промоцію мемуарів через боротьбу з раком",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/joe-biden-cancer-curtailing-book-promotion-1237216995/",
-    "orig": "Joe Biden Is Curtailing Promotion Of His Presidential Memoir Due To Cancer Battle"
-   }
-  ],
-  [
-   1794198674.650938,
-   5405,
-   "🤖",
-   "США дозволили продавати ШІ-чипи NVIDIA фіктивним китайським компаніям, які пов’язані з військовими структурами – NYT",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/nyt-ssha-prodaye-chipi-nvidia-fiktivnim-kitayskim-kompaniyam-316998/",
-    "orig": "США дозволили продавати ШІ-чипи NVIDIA фіктивним китайським компаніям, які пов’язані з військовими структурами – NYT"
-   }
-  ],
   [
    1794198767.6652722,
    5406,
@@ -9202,7 +9182,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b>EA та Xbox повертають рекламу у відеоігри</b>\n\n🔗 <a href=\"https://www.gamesindustry.biz/gamers-dont-hate-ads-they-hate-bad-ads-why-ea-and-xbox-are-putting-adverts-in-their-games\">GamesIndustry.biz</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/gamers-dont-hate-ads-they-hate-bad-ads-why-ea-and-xbox-are-putting-adverts-in-their-games",
     "orig": "\"Gamers don't hate ads; they hate bad ads\" – Why EA and Xbox are putting adverts in their games"
@@ -9216,7 +9195,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/3017860/\">Doom: The Dark Ages</a> отримає режим Slaughter Mode, але не для всіх гравців</b>\n\nСьогодні, 16 листопада, DOOM: The Dark Ages отримає оновлення з новим режимом Slaughter Mode. У ньому гравцям доведеться витримувати нескінченні хвилі ворогів на 19 аренах, а складність поступово зростатиме. За проходження раундів можна отримати нагороди, які відкривають нові косметичні предмети та покращення.\n\n🔗 <a href=\"https://itc.ua/ua/novini/doom-the-dark-ages-otrymaye-rezhym-slaughter-mode-ale-ne-dlya-vsih-gravtsiv/\">ITC.ua</a>\n\n#ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/doom-the-dark-ages-otrymaye-rezhym-slaughter-mode-ale-ne-dlya-vsih-gravtsiv/",
     "orig": "Doom: The Dark Ages отримає режим Slaughter Mode, але не для всіх гравців"
@@ -10076,6 +10054,34 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-17/china-ai-highflier-crashes-85-as-chip-fears-hit-model-makers",
     "orig": "China AI Highflier Crashes 85% as Chip Fears Hit Model Makers"
    }
+  ],
+  [
+   1794889885.7628312,
+   6174,
+   "🎬",
+   "Ілон Маск розкритикував пародію на себе в шоу SNL",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Ілон Маск розкритикував пародію на себе в шоу SNL</b>\n\nІлон Маск різко оцінив пародію коміка Джеремі Калхана на себе в етері шоу Saturday Night Live, назвавши її недостатньо смішною. У скетчі про техномільярдерів також з&#x27;явилися персонажі Сема Альтмана, Марка Цукерберга та інших відомих діячів.\n\n🔗 <a href=\"https://deadline.com/2026/11/elon-musk-snl-jeremy-culhane-impression-1237226296/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/elon-musk-snl-jeremy-culhane-impression-1237226296/",
+    "orig": "Elon Musk Blasts ‘SNL’ For Jeremy Culhane’s Impression Of Him: “They Need To Try Harder”"
+   }
+  ],
+  [
+   1794889903.5496345,
+   6175,
+   "🤘",
+   "Культовий альбом Daughters перевидадуть на вінилі",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Культовий альбом Daughters перевидадуть на вінилі</b>\n\nТретій однойменний студійний альбом гурту Daughters отримав цифровий ремастер\n\n🔗 <a href=\"https://lambgoat.com/news/55920/daughters-self-titled-lp-headed-for-a-remastered-vinyl-release/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55920/daughters-self-titled-lp-headed-for-a-remastered-vinyl-release/",
+    "orig": "Daughters' self-titled LP headed for a remastered vinyl release"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10209,7 +10215,8 @@
    1794873679.9927313,
    1794877484.2350001,
    1794877497.1928813,
-   1794884529.3795588
+   1794884529.3795588,
+   1794889885.7631254
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794663071.9451547
@@ -10250,10 +10257,10 @@
    1794222361.3425462
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1794801684.2401683,
    1794807087.5583096,
    1794870137.3934762,
-   1794884533.106403
+   1794884533.106403,
+   1794889903.549911
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1794708113.8908067,
@@ -10455,6 +10462,7 @@
   "0ba91bff18478de2": 1794699261.5175328,
   "0ba956fe84014cc6": 1793885456.9019864,
   "0bc1858408fdc657": 1794540952.2276444,
+  "0bd2b80718e34b30": 1794889903.5498612,
   "0bf47a791c292675": 1793820704.2366338,
   "0c297c6bdca7d2a6": 1794270680.8302598,
   "0c4bda729bbb8f04": 1794069054.1396751,
@@ -10903,6 +10911,7 @@
   "36f234b2c43689e3": 1794619880.2654126,
   "371ff855707ac2b1": 1794780076.0764132,
   "372e272e7f799819": 1793896430.5025733,
+  "3749461632f3a1b2": 1794889885.7630756,
   "37508090a11c0d6e": 1793793701.673298,
   "3781448153b0315f": 1794823495.8280075,
   "3794e02805893732": 1794375094.2627156,
@@ -11215,7 +11224,6 @@
   "56f34e40817100c2": 1794828856.2654586,
   "5710af7adc0214dd": 1793885639.0671265,
   "5712d3358e3cece4": 1794268886.779551,
-  "5724dfbb9f794ae2": 1793678569.6315482,
   "57274d1f0866156c": 1793818893.834342,
   "57445073924f55eb": 1794223877.2082872,
   "5777a1ac177a31c9": 1793863899.4650154,
@@ -14229,7 +14237,7 @@
    "Bloomberg": 10,
    "DOU": 2,
    "DOU Gamedev": 1,
-   "Deadline": 21,
+   "Deadline": 22,
    "Distorted Sound": 2,
    "Eurogamer": 1,
    "GameSpot": 1,
@@ -14239,7 +14247,7 @@
    "ITC.ua": 6,
    "IndieWire": 2,
    "Insider Gaming": 4,
-   "Lambgoat": 6,
+   "Lambgoat": 7,
    "Metal Hammer (Louder)": 5,
    "Mezha": 9,
    "PC Gamer": 4,
@@ -14258,7 +14266,7 @@
   "translators": {
    "DeepL": 12,
    "gemini-flash-latest": 8,
-   "gemini-flash-lite-latest": 113
+   "gemini-flash-lite-latest": 115
   },
   "week": "2026-W47"
  },
@@ -15347,16 +15355,6 @@
    0,
    "",
    1794843087.3482082
-  ],
-  "q:blg": [
-   0,
-   "",
-   1794715288.8718057
-  ],
-  "q:blg pick": [
-   0,
-   "",
-   1794715288.3960912
   ],
   "q:blizzard": [
    0,
@@ -17623,11 +17621,6 @@
    "Phantom Blade Zero",
    1792666888.1972122
   ],
-  "q:pick": [
-   0,
-   "",
-   1794715289.3629088
-  ],
   "q:piece by piece": [
    3179050,
    "Piece by Piece",
@@ -18293,21 +18286,6 @@
    "",
    1794868350.4339366
   ],
-  "q:their lol worlds": [
-   0,
-   "",
-   1794715290.972912
-  ],
-  "q:their lol worlds 2026": [
-   0,
-   "",
-   1794715290.3229005
-  ],
-  "q:their lol worlds 2026 skins": [
-   0,
-   "",
-   1794715289.8564022
-  ],
   "q:there": [
    0,
    "",
@@ -18513,21 +18491,6 @@
    "",
    1794825087.9823864
   ],
-  "q:who will": [
-   0,
-   "",
-   1794715286.3853161
-  ],
-  "q:who will blg": [
-   0,
-   "",
-   1794715285.8740804
-  ],
-  "q:who will blg pick": [
-   0,
-   "",
-   1794715285.2994416
-  ],
   "q:why ea": [
    0,
    "",
@@ -18562,21 +18525,6 @@
    4960310,
    "Wildcat",
    1793365305.9304438
-  ],
-  "q:will": [
-   0,
-   "",
-   1794715287.910125
-  ],
-  "q:will blg": [
-   0,
-   "",
-   1794715287.371921
-  ],
-  "q:will blg pick": [
-   0,
-   "",
-   1794715286.9006798
   ],
   "q:wishlist": [
    2135800,
@@ -18745,14 +18693,6 @@
   ]
  },
  "titles": [
-  [
-   1794717099.7117958,
-   "Philippines Wins Inaugural Eurovision Song Contest Asia in Thailand"
-  ],
-  [
-   1794717103.7216432,
-   "The other members of U2 would love to trade places with The Edge"
-  ],
   [
    1794718886.145847,
    "Genshin Impact Players Are Furious At Potential Mitya Nerfs, Here’s Why"
@@ -19488,17 +19428,17 @@
   [
    1794888089.2164867,
    "China AI Highflier Crashes 85% as Chip Fears Hit Model Makers"
+  ],
+  [
+   1794889885.7630777,
+   "Elon Musk Blasts ‘SNL’ For Jeremy Culhane’s Impression Of Him: “They Need To Try Harder”"
+  ],
+  [
+   1794889903.5498633,
+   "Daughters' self-titled LP headed for a remastered vinyl release"
   ]
  ],
  "titles_uk": [
-  [
-   1794717099.7117965,
-   "Філіппини перемогли на першому конкурсі Eurovision Song Contest Asia"
-  ],
-  [
-   1794717103.7216444,
-   "Учасники U2 зізналися, з ким із колег хотіли б помінятися місцями"
-  ],
   [
    1794718886.1458483,
    "Гравці Genshin Impact обурені потенційним нерфом Mitya"
@@ -20234,6 +20174,14 @@
   [
    1794888089.2164876,
    "Акції китайського розробника ШІ Z.AI впали на 85%"
+  ],
+  [
+   1794889885.7630787,
+   "Ілон Маск розкритикував пародію на себе в шоу SNL"
+  ],
+  [
+   1794889903.5498648,
+   "Культовий альбом Daughters перевидадуть на вінилі"
   ]
  ],
  "ukrainian": {
@@ -22637,7 +22585,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794886285.7905946,
+  "last_check": 1794889911.7773852,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
