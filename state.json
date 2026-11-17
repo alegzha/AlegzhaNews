@@ -1,10 +1,10 @@
 {
  "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
+  "wishlist": {
+   "detail": "Steam не віддав вішліст (502 Server Error: Bad Gateway for url: https://api.steampowered.com/IWishlistService/GetWishlist/v1/?steamid=76561198074935882). Перевір, що він публічний.",
+   "label": "Вішліст Steam недоступний",
    "sent": 0,
-   "since": 1794954679.726234
+   "since": 1794956602.3237007
   }
  },
  "daily_digest_date": "2026-11-17",
@@ -37,56 +37,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-17 22:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-17 23:03 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794265276.6548986,
-   5482,
-   "🤘",
-   "OwlCraft повернувся з новим синглом",
-   "Neformat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.neformat.com.ua/news/28394-owlcraft-povernuvsya-z-novim-singlom.html",
-    "orig": "OwlCraft повернувся з новим синглом"
-   }
-  ],
-  [
-   1794265278.7713912,
-   5483,
-   "🤘",
-   "Verses Of Severance презентують дебютний сингл",
-   "Neformat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.neformat.com.ua/news/28421-verses-of-severance-prezentuyut-debyutniy-singl.html",
-    "orig": "Verses Of Severance презентують дебютний сингл"
-   }
-  ],
-  [
-   1794265282.2452598,
-   5484,
-   "🤘",
-   "Fall Out Boy випустили новий сингл і анонсували світовий тур на 2027 рік",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55790/fall-out-boy-release-new-song-aces-announce-2027-tour-with-the-offspring-a-day-to-remember-etc/",
-    "orig": "Fall Out Boy release new song \"Aces,\" announce 2027 tour with The Offspring, A Day To Remember, etc."
-   }
-  ],
   [
    1794267164.572974,
    5485,
@@ -9095,7 +9056,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Культовий альбом Daughters перевидадуть на вінилі</b>\n\nТретій однойменний студійний альбом гурту Daughters отримав цифровий ремастер\n\n🔗 <a href=\"https://lambgoat.com/news/55920/daughters-self-titled-lp-headed-for-a-remastered-vinyl-release/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55920/daughters-self-titled-lp-headed-for-a-remastered-vinyl-release/",
     "orig": "Daughters' self-titled LP headed for a remastered vinyl release"
@@ -9109,7 +9069,6 @@
    "IGN",
    {
     "also": [],
-    "caption": "🎮 <b>NHS закликає геймерів берегти руки перед релізом GTA 6</b>\n\nНаціональна служба охорони здоров&#x27;я Великої Британії опублікувала поради для геймерів, як уникнути травм рук через перенапруження перед виходом GTA 6 19 листопада. Експерти радять робити регулярні перерви, щоб запобігти проблемам на кшталт RSI та карпального тунелю.\n\n🔗 <a href=\"https://www.ign.com/articles/uks-national-health-service-is-urging-gamers-to-protect-their-hands-ahead-of-gta-6-launch\">IGN</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.ign.com/articles/uks-national-health-service-is-urging-gamers-to-protect-their-hands-ahead-of-gta-6-launch",
     "orig": "UK’s National Health Service Is Urging Gamers to Protect Their Hands Ahead of GTA 6 Launch"
@@ -9123,7 +9082,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Dolly Parton: Her Life In 10 Songs</b>\n\n«Вона — горобець, коли зламана, але орел, коли летить…»\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/dolly-parton-her-life-in-10-songs\">Metal Hammer (Louder)</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/dolly-parton-her-life-in-10-songs",
     "orig": "Dolly Parton: Her Life In 10 Songs"
@@ -9953,6 +9911,48 @@
     "link": "https://mezha.ua/news/shi-kompaniya-pretenduvala-na-vlasniy-muzichniy-zapis-vikonavici-v-youtube-317319/",
     "orig": "ШІ-компанія претендувала на власний музичний запис виконавиці в YouTube та намагалася видалити її відео"
    }
+  ],
+  [
+   1794956575.5117197,
+   6240,
+   "🎬",
+   "Комік Trae Crowder запускає комедійне токшоу Help Me Out Here, а першим гостем стане Тім Волз",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Комік Trae Crowder запускає комедійне токшоу Help Me Out Here, а першим гостем стане Тім Волз</b>\n\nКомік Trae Crowder об&#x27;єднався з All Things Comedy заради нового щотижневого шоу Help Me Out Here, прем&#x27;єра якого відбудеться на YouTube-каналі Краудера 18 листопада. У проєкті він намагатиметься розібратися в сучасних реаліях за допомогою експертів.\n\n🔗 <a href=\"https://deadline.com/2026/11/trae-crowder-sets-help-me-out-here-series-atc-1237227172/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/trae-crowder-sets-help-me-out-here-series-atc-1237227172/",
+    "orig": "Trae Crowder Sets Comedy Interview Series ‘Help Me Out Here’ With All Things Comedy; Minnesota Gov. Tim Walz Is His First Guest"
+   }
+  ],
+  [
+   1794956584.1719186,
+   6241,
+   "🎮",
+   "У реліз вийшла мальовнича пригодницька гра Milki Delivery",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>У реліз вийшла мальовнича пригодницька гра <a href=\"https://store.steampowered.com/app/4259360/\">Milki Delivery</a></b>\n\nУ Steam відбувся реліз затишної пригодницької гри Milki Delivery, де гравці в ролі героїні на ім&#x27;я Neha доставляють молоко сільськими ландшафтами. Головна мета — допомогти своїй корові на ім&#x27;я Milki знайти друга, виконуючи прості завдання мешканців та експериментуючи з інгредієнтами.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/slow-down-a-bit-and-help-a-cow-find-a-friend-in-the-lush-looking-hand-drawn-milk-deliver-em-up-milki-delivery-which-is-out-now\">Rock Paper Shotgun</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/slow-down-a-bit-and-help-a-cow-find-a-friend-in-the-lush-looking-hand-drawn-milk-deliver-em-up-milki-delivery-which-is-out-now",
+    "orig": "Slow down a bit and help a cow find a friend in the lush-looking, hand-drawn, milk deliver-em-up Milki Delivery, which is out now"
+   }
+  ],
+  [
+   1794956600.08488,
+   6242,
+   "🎮",
+   "Анджела Сант'Альбано розповіла про роботу над Resident Evil Requiem",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Анджела Сант&#x27;Альбано розповіла про роботу над <a href=\"https://store.steampowered.com/app/3764200/\">Resident Evil Requiem</a></b>\n\nНомінантка The Game Awards Анджела Сант&#x27;Альбано поділилася досвідом роботи надмоушн-кепчером для Resident Evil Requiem. Акторка виконувала всі фізичні трюки самостійно, щоб передати тривожний характер і напругу героїні Grace Ashcroft.\n\n🔗 <a href=\"https://www.polygon.com/resident-evil-requiem-grace-angela-santalbano-actor-game-awards-nomination-2026/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/resident-evil-requiem-grace-angela-santalbano-actor-game-awards-nomination-2026/",
+    "orig": "Resident Evil Requiem’s Game Awards Nominee Is Ready for Resident Evil 10"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10046,18 +10046,17 @@
    1794902492.8208728
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1794837716.6236482,
-   1794870128.9395485,
    1794887933.779878,
    1794893609.9541516,
    1794920510.3704586,
-   1794922318.0981853
+   1794922318.0981853,
+   1794956600.085139
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
-   1794832381.563657,
    1794911484.77496,
    1794913442.2738183,
-   1794915180.227912
+   1794915180.227912,
+   1794956584.1721683
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1794925901.615652
@@ -10078,9 +10077,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1794866643.4631984,
-   1794868447.5765774,
-   1794870118.698805,
    1794871898.1833014,
    1794873679.9927313,
    1794877484.2350001,
@@ -10090,7 +10086,8 @@
    1794897106.8863862,
    1794906175.1351595,
    1794913434.9054835,
-   1794916883.3098147
+   1794916883.3098147,
+   1794956575.51198
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794663071.9451547
@@ -10519,7 +10516,6 @@
   "1f8b239a6fd22239": 1793815320.5546253,
   "1f8cf7ec4211d37a": 1793797416.1226397,
   "1f971f2df2d21f56": 1794607254.7994547,
-  "1fa48d126c54c6ef": 1793746882.8333259,
   "1fa67fad51e78ec7": 1793948487.1721668,
   "1fdbc3941d6516d5": 1794009683.1951547,
   "1fe00e788b83a58e": 1794704495.3498983,
@@ -10948,7 +10944,6 @@
   "4e2910dfe679ae25": 1794546093.7181077,
   "4e5469a3f0dee49f": 1794096081.7873914,
   "4e95f2e07d2eee9b": 1793781192.9947064,
-  "4ee386199935ddd0": 1793746907.9794414,
   "4ee39abf60ee8a85": 1794042180.7033417,
   "4f22dbc96e6a5dc4": 1793819214.258513,
   "4f654dda4a75f767": 1794155451.4751787,
@@ -11240,7 +11235,6 @@
   "6c7b301e5d5526b6": 1794713474.5924284,
   "6c8858bedfd8c46b": 1794857514.3717523,
   "6cc5515fae2b49a9": 1793800885.1215549,
-  "6cf18c6404d4760f": 1793746893.914856,
   "6cf3ff9d9a412270": 1793862130.0505047,
   "6cfdd9647f6c8225": 1793907152.445951,
   "6d29073493f11420": 1794709881.1904464,
@@ -11427,6 +11421,7 @@
   "7ecf21b1d2ba264f": 1794326503.5964656,
   "7ed5ec01955bde22": 1794261652.7951982,
   "7ee4411884c51582": 1794425482.4962661,
+  "7ee76404390a1aa4": 1794956600.0850973,
   "7effd0f348541db0": 1794013092.7783961,
   "7f2b9a40ca2e8528": 1793831457.5401118,
   "7f91ecfdf82ee56b": 1793917912.480465,
@@ -11484,6 +11479,7 @@
   "8479aeb6484d7abf": 1793826143.3128893,
   "8489eb6a41549a0c": 1793813702.978673,
   "84fc9cb0221674bc": 1793821931.345506,
+  "8508608452b89271": 1794956575.5119343,
   "8526c6abe186a99e": 1794850307.4515576,
   "8544a7a904166e19": 1794223852.0687604,
   "854d8ee1525d81cb": 1794599440.456944,
@@ -11621,7 +11617,6 @@
   "925546c74bacac2d": 1793831482.5661116,
   "9257f23a13ac1f7c": 1793890882.6075149,
   "925c1047a69c1897": 1793962873.3232477,
-  "926426826b17633f": 1793746901.620233,
   "92b2f5783afbd668": 1794178895.0015182,
   "92ecdce6789e4c30": 1793827885.702775,
   "9328428ce2953fe6": 1794157296.8875062,
@@ -11662,7 +11657,6 @@
   "96ec760e5e7fd534": 1794146451.9028087,
   "96faed4a1d4cfcba": 1793808449.0527813,
   "97011abd5388d7d3": 1794263353.4289265,
-  "97018b40b1d3cee0": 1793746897.0663972,
   "970c468ad9ada0d7": 1794490260.219004,
   "97583856a98b8eee": 1793896517.3480368,
   "975af12acfa19dfb": 1793824280.7693458,
@@ -11697,7 +11691,6 @@
   "9a865dae7205bd92": 1794126672.5865357,
   "9a945af4bff676bc": 1794349891.0385704,
   "9a9fdb36d4913a54": 1794877497.1928325,
-  "9aa8f818670fe6d4": 1793746890.8823638,
   "9ad286843cd07d2d": 1794888089.2164843,
   "9ad41e055efeff08": 1794417337.7084458,
   "9aefd02ab82f040a": 1794629074.8660176,
@@ -12177,6 +12170,7 @@
   "ce128a9695e6fd04": 1793903624.612772,
   "ce2602391dd325fd": 1794286881.4187279,
   "ce2b16947df9c97f": 1794925855.8063161,
+  "ce3dd1f10447d2ae": 1794956584.1721265,
   "ce49faef69c98f7e": 1793851318.2529883,
   "ce5984adc4e9c27e": 1794684685.5508559,
   "ce71ceae338b02df": 1793793717.2524807,
@@ -12325,7 +12319,6 @@
   "dc1fd8f7ce3dd6ce": 1794402091.127294,
   "dc4e3b35cf305df9": 1794690051.930596,
   "dc64bfb53276f322": 1794022254.4008634,
-  "dc7b54d8e5336fbb": 1793746911.6684148,
   "dcbe7ba00871fa67": 1794580287.2614179,
   "dd07abc12c0b20c3": 1794213094.5734825,
   "dd389dd16d8ef8c4": 1794632451.7232893,
@@ -13875,7 +13868,7 @@
    "Bloomberg": 16,
    "DOU": 2,
    "DOU Gamedev": 2,
-   "Deadline": 26,
+   "Deadline": 27,
    "Distorted Sound": 3,
    "Eurogamer": 3,
    "GameSpot": 1,
@@ -13893,10 +13886,10 @@
    "PC Gamer": 5,
    "Pitchfork": 3,
    "PlayUA": 2,
-   "Polygon": 10,
+   "Polygon": 11,
    "Product Hunt": 3,
    "Revolver": 2,
-   "Rock Paper Shotgun": 5,
+   "Rock Paper Shotgun": 6,
    "SteamDB": 1,
    "Stereogum": 2,
    "The Decoder": 5,
@@ -13907,7 +13900,7 @@
   "translators": {
    "DeepL": 16,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 160
+   "gemini-flash-lite-latest": 163
   },
   "week": "2026-W47"
  },
@@ -14917,6 +14910,31 @@
    "",
    1794814467.3319006
   ],
+  "q:awards": [
+   0,
+   "",
+   1794956598.027181
+  ],
+  "q:awards nominee": [
+   0,
+   "",
+   1794956597.4463737
+  ],
+  "q:awards nominee is": [
+   0,
+   "",
+   1794956593.8288774
+  ],
+  "q:awards nominee is ready": [
+   0,
+   "",
+   1794956593.2949648
+  ],
+  "q:awards nominee is ready for resident": [
+   0,
+   "",
+   1794956592.735342
+  ],
   "q:aware": [
    3249600,
    "徨恍 Aware",
@@ -15827,6 +15845,26 @@
    "Gag Order",
    1793574077.0104003
   ],
+  "q:game awards": [
+   0,
+   "",
+   1794956592.1151412
+  ],
+  "q:game awards nominee": [
+   0,
+   "",
+   1794956591.6108394
+  ],
+  "q:game awards nominee is": [
+   0,
+   "",
+   1794956591.0480387
+  ],
+  "q:game awards nominee is ready": [
+   0,
+   "",
+   1794956590.456648
+  ],
   "q:game of the year": [
    1205680,
    "Game of the Year",
@@ -16522,11 +16560,6 @@
    "MARVEL Cosmic Invasion",
    1794103278.1471336
   ],
-  "q:marvel rivals": [
-   2767030,
-   "Marvel Rivals",
-   1792362696.659049
-  ],
   "q:marvel's official": [
    0,
    "",
@@ -16581,6 +16614,11 @@
    2537590,
    "Microsoft Flight Simulator 2024",
    1793100706.5187423
+  ],
+  "q:milki delivery": [
+   4259360,
+   "Milki Delivery",
+   1794956582.319016
   ],
   "q:mina the hollower": [
    1875580,
@@ -17361,6 +17399,21 @@
    3764200,
    "Resident Evil Requiem",
    1794614668.9253628
+  ],
+  "q:resident evil requiem's game": [
+   0,
+   "",
+   1794956589.8877447
+  ],
+  "q:resident evil requiem's game awards": [
+   0,
+   "",
+   1794956589.189879
+  ],
+  "q:resident evil requiem's game awards nominee": [
+   0,
+   "",
+   1794956587.0741594
   ],
   "q:resonant": [
    4319860,
@@ -18188,42 +18241,6 @@
  },
  "titles": [
   [
-   1794781971.0920591,
-   "Russell Brand Maintains Innocence In Message Through Wife From Behind Bars"
-  ],
-  [
-   1794782154.5515134,
-   "How Starship Troopers Author Robert A. Heinlein Really Felt About His Hollywood Experiences"
-  ],
-  [
-   1794782159.1600785,
-   "Hellsinki Metal Festival announce first bands for 2027"
-  ],
-  [
-   1794783423.6779084,
-   "Olivia Cooke Says ‘Slow Horses’ Season 8 Could Be Its “Last,” But “Never Say Never”"
-  ],
-  [
-   1794783426.8461592,
-   "Nathan Fielder Wasn’t ‘Infatuated’ With Elizabeth Holmes While Filming ‘You Can See Everything,’ Says Billy Evans: ‘I Didn’t Get The Impression for One Minute That It Was Romantic’"
-  ],
-  [
-   1794783430.0813456,
-   "Queens Of The Stone Age share in-studio World Cafe performance"
-  ],
-  [
-   1794783714.5581641,
-   "If You Liked Colleen Hoover's Verity, Watch Dakota Johnson's Acclaimed 2025 Movie Next"
-  ],
-  [
-   1794783719.9775603,
-   "Russell Brand Compares Rape Trial Coverage to a ‘Football Match’ in Pre-Recorded Video as His Wife Says He’s ‘Okay’ and ‘Praying’ Post-Sentencing"
-  ],
-  [
-   1794783723.1164367,
-   "‘Club Kid’ Rocks Limited Expansion As ‘Paper Tiger’ Scores James Gray’s Best Per-Screen Debut — Specialty Box Office"
-  ],
-  [
    1794785569.257834,
    "KISS's ERIC SINGER Rips Drummers Who Charge For Advice And Information: 'That's Not How It Works'"
   ],
@@ -18950,45 +18967,21 @@
   [
    1794954714.2421274,
    "ШІ-компанія претендувала на власний музичний запис виконавиці в YouTube та намагалася видалити її відео"
+  ],
+  [
+   1794956575.511936,
+   "Trae Crowder Sets Comedy Interview Series ‘Help Me Out Here’ With All Things Comedy; Minnesota Gov. Tim Walz Is His First Guest"
+  ],
+  [
+   1794956584.1721284,
+   "Slow down a bit and help a cow find a friend in the lush-looking, hand-drawn, milk deliver-em-up Milki Delivery, which is out now"
+  ],
+  [
+   1794956600.0850987,
+   "Resident Evil Requiem’s Game Awards Nominee Is Ready for Resident Evil 10"
   ]
  ],
  "titles_uk": [
-  [
-   1794781971.09206,
-   "Рассел Бранд через дружину передав із в'язниці, що не визнає своєї провини"
-  ],
-  [
-   1794782154.551515,
-   "Що автор Starship Troopers Роберт Гайнлайн насправді думав про свій досвід у Голлівуді"
-  ],
-  [
-   1794782159.1600792,
-   "Hellsinki Metal Festival оголосив перших учасників на 2027 рік"
-  ],
-  [
-   1794783423.6779096,
-   "Олівія Кук припустила, що 8 сезон Slow Horses стане фінальним"
-  ],
-  [
-   1794783426.84616,
-   "Біллі Еванс заперечив роман між Натаном Філдером та Елізабет Голмс"
-  ],
-  [
-   1794783430.0813468,
-   "Queens Of The Stone Age випустили студійний виступ для World Cafe"
-  ],
-  [
-   1794783714.5581653,
-   "Дакота Джонсон обирає між багатством і коханням у драмі Materialists"
-  ],
-  [
-   1794783719.9775612,
-   "Рассел Бренд отримав 10,5 року ув'язнення за зґвалтування та сексуальне насильство"
-  ],
-  [
-   1794783723.1164377,
-   "Фільм Club Kid відзначився найкращим обмеженим прокатом року"
-  ],
   [
    1794785569.2578347,
    "Ерік Сінгер з KISS розкритикував барабанщиків, які беруть гроші за поради"
@@ -19716,6 +19709,18 @@
   [
    1794954714.2421284,
    "ШІ-компанія претендувала на власний музичний запис виконавиці в YouTube та намагалася видалити її відео"
+  ],
+  [
+   1794956575.5119367,
+   "Комік Trae Crowder запускає комедійне токшоу Help Me Out Here, а першим гостем стане Тім Волз"
+  ],
+  [
+   1794956584.1721296,
+   "У реліз вийшла мальовнича пригодницька гра Milki Delivery"
+  ],
+  [
+   1794956600.0850995,
+   "Анджела Сант'Альбано розповіла про роботу над Resident Evil Requiem"
   ]
  ],
  "ukrainian": {
