@@ -36,8 +36,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-17 08:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-17 09:02 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 1
@@ -47,45 +47,6 @@
   ]
  },
  "post_log": [
-  [
-   1794213094.5731633,
-   5423,
-   "🎮",
-   "У PlayStation Network знайшли ознаки мультиплеєра GTA 6",
-   "PlayUA",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://playua.net/u-playstation-network-znajshly-oznaky-multypleyera-gta-6/",
-    "orig": "У PlayStation Network знайшли ознаки мультиплеєра GTA 6"
-   }
-  ],
-  [
-   1794213096.5449119,
-   5424,
-   "💾",
-   "Microsoft нарешті виправить проблему Windows, яка дратує користувачів ще з 1995 року",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/windows-11-sticky-keys-off-317002/",
-    "orig": "Microsoft нарешті виправить проблему Windows, яка дратує користувачів ще з 1995 року"
-   }
-  ],
-  [
-   1794214891.8898506,
-   5425,
-   "🎬",
-   "Іноземний рекордсмен прокату США: хто очолив бокс-офіс",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/inozemnyj-rekordsmen-prokatu-ssha-hto-ocholyv-boks-ofis/",
-    "orig": "Іноземний рекордсмен прокату США: хто очолив бокс-офіс"
-   }
-  ],
   [
    1794214991.3625298,
    5426,
@@ -9209,7 +9170,6 @@
    "DOU",
    {
     "also": [],
-    "caption": "🤖 <b>Як навчити ШІ прогнозувати повені: Google запустила AI Quests для школярів українською</b>\n\nGoogle запустила українську версію безплатної освітньої гри AI Quests для дітей віком від 11 до 14 років. У ній школярі можуть навчитися працювати з моделями штучного інтелекту на прикладах прогнозування повеней і діагностики захворювань. Про це повідомляють у Мінцифри. AI Quests розробили Google Research спільно зі Stanford Accelerator for Learning, а українську версію запустили спільно з Міносвіти та Мінцифри.\n\n🔗 <a href=\"https://dou.ua/lenta/news/google-ai-quests-ukraine-kids/\">DOU</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://dou.ua/lenta/news/google-ai-quests-ukraine-kids/",
     "orig": "Як навчити ШІ прогнозувати повені: Google запустила AI Quests для школярів українською"
@@ -9223,7 +9183,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>Apple додала розблокування за обличчям для iPhone Duo</b>\n\nApple оновила свій перший складаний смартфон iPhone Duo, додавши функцію розблокування за допомогою розпізнавання обличчя. Це вирішує один із головних недоліків пристрою.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-16/apple-to-let-users-face-unlock-iphone-duo-addressing-key-drawback\">Bloomberg</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-16/apple-to-let-users-face-unlock-iphone-duo-addressing-key-drawback",
     "orig": "Apple to Let Users Face-Unlock iPhone Duo, Addressing Key Drawback"
@@ -10074,6 +10033,34 @@
     "link": "https://variety.com/2026/tv/news/t-series-hungama-microdrama-platform-fasttv-1236949339/",
     "orig": "India’s T-Series and Hungama Launch Microdrama Platform FastTV With $32 Million Commitment (EXCLUSIVE)"
    }
+  ],
+  [
+   1794906175.1348648,
+   6191,
+   "🎬",
+   "BBC готує новий етап для культового серіалу Doctor Who",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>BBC готує новий етап для культового серіалу Doctor Who</b>\n\nБлизько пів року британських продакшн-студій потрапили до короткого списку претендентів на створення наступного сезону науково-фантастичного шоу від BBC\n\n🔗 <a href=\"https://deadline.com/2026/11/doctor-who-shortlist-revealed-jed-mercurio-world-stv-1237225237/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/doctor-who-shortlist-revealed-jed-mercurio-world-stv-1237225237/",
+    "orig": "‘Doctor Who’: BBC Draws Up Producer Shortlist As Race To Regenerate Iconic Series Moves To Next Stage"
+   }
+  ],
+  [
+   1794906178.1195524,
+   6192,
+   "🎮",
+   "Соло в Steam за шість тижнів: що я дізнався, випускаючи idle-гру на Godot",
+   "DOU Gamedev",
+   {
+    "also": [],
+    "caption": "🎮 <b>Соло в Steam за шість тижнів: що я дізнався, випускаючи idle-гру на Godot</b>\n\nПривіт, GameDev DOU. Хочу розповісти, як я за півтора місяця зробив і випустив у Steam невелику гру. Це не історія успіху з мільйонними продажами. Скоріше нотатки людини, яка вперше пройшла весь шлях від порожньої папки до сторінки в Steam, патчів за відгуками й таблиць лідерів. Граблі, трохи цифр, багато картинок «було/стало». Moonbow Idle — автобатлер-інкрементал.\n\n🔗 <a href=\"https://gamedev.dou.ua/blogs/solo-idle-game-godot-steam/\">DOU Gamedev</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://gamedev.dou.ua/blogs/solo-idle-game-godot-steam/",
+    "orig": "Соло в Steam за шість тижнів: що я дізнався, випускаючи idle-гру на Godot"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10119,7 +10106,7 @@
    1793862148.668973
   ],
   "games|DOU Gamedev|https://gamedev.dou.ua/feed/": [
-   1794819674.7108803
+   1794906178.1198146
   ],
   "games|Digital Foundry|https://www.digitalfoundry.net/feed": [
    1794670323.927235,
@@ -10209,7 +10196,8 @@
    1794877497.1928813,
    1794884529.3795588,
    1794889885.7631254,
-   1794897106.8863862
+   1794897106.8863862,
+   1794906175.1351595
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794663071.9451547
@@ -10340,7 +10328,6 @@
   "005bf4d33578e1a6": 1793946679.8254259,
   "0085ee554233a51d": 1794139479.6263247,
   "008b57fc1a914194": 1793890882.6054704,
-  "00b9c7b9b50f3ee4": 1793694776.1547537,
   "00e817c76e37f52f": 1794231085.9686391,
   "00ef7d039071e41a": 1794857456.4972806,
   "00f9839cfa634fa4": 1794254454.641067,
@@ -11063,6 +11050,7 @@
   "47204eeb118c962c": 1794520852.2037077,
   "47297d5e5f2e28cb": 1794729676.9678183,
   "47416a844a51e3ba": 1794085282.7166603,
+  "474ba61ee19390b0": 1794906053.6606994,
   "478681fc135e7eeb": 1793921492.1561165,
   "479867c93150e790": 1794270683.853217,
   "47df805b9c024b9a": 1793995255.6755514,
@@ -11204,7 +11192,6 @@
   "54ab1d381e32606a": 1793750479.69853,
   "54be389e3be2abdb": 1794636081.410183,
   "54d9cbc77679af17": 1794340855.1154919,
-  "550034fd0ea815d3": 1793696481.2467098,
   "5505da3fa9161bd3": 1793799116.859741,
   "551c62fbbae8b8e3": 1794272482.36282,
   "551ddc8e9b482c56": 1793899855.0556493,
@@ -11500,7 +11487,6 @@
   "7087628ac29ac5a1": 1794326480.2330475,
   "7090d84dd8c03fe7": 1793856780.6806948,
   "70a5fa89da9df5c2": 1794432684.2376895,
-  "70a79f4eb8e9bcb6": 1793694786.2211125,
   "70bf7e659841c9a4": 1793716284.4379504,
   "70c38477d438e97c": 1794308490.627416,
   "70ee71b0b7c3874e": 1794439890.6270096,
@@ -11518,6 +11504,7 @@
   "71ef25aaff00ade5": 1793898214.6162205,
   "7203879df98082f0": 1794038484.768283,
   "7231e211057f6b69": 1794015092.7640433,
+  "7265652a5266f6fb": 1794906178.1197684,
   "726b61922e287429": 1794520890.0403724,
   "726f07ebf3b0942c": 1793797560.0987308,
   "7272e00294ab2549": 1793730746.9032133,
@@ -11566,7 +11553,6 @@
   "75fb33b042f05d77": 1794225770.9962435,
   "76041458e354c280": 1793808082.201054,
   "7636cc795b841c4c": 1793876559.4269843,
-  "76551f2a2e3ecbd5": 1793694799.2027638,
   "767c099fae08452a": 1794582059.4334304,
   "76bb8ee3cb627559": 1794355282.8404045,
   "76d6546bfc30ef61": 1793914313.0477297,
@@ -11604,7 +11590,6 @@
   "7917cf245ef030a4": 1793898229.9584515,
   "791944c93c3a2649": 1793786482.999139,
   "79442b74ff837f03": 1794843088.1211493,
-  "799aa7fd4a6e756a": 1793696453.714617,
   "799baede4d49ee43": 1794634255.263127,
   "79b06dc5892f7b14": 1794072652.3176856,
   "79d39a59a3c130fb": 1794607470.770798,
@@ -11717,7 +11702,6 @@
   "82efcffd91b518e1": 1793705588.2606974,
   "83006f94f1a5f32f": 1793890882.1479006,
   "83186b0550e5f2fc": 1794556877.7875981,
-  "83495af21add9e1a": 1793696483.2797859,
   "834fa9ad8d3bea42": 1794877544.3017933,
   "835e84fccf6d41ae": 1793777484.2551851,
   "8369f85e0a3a8f75": 1794411076.0979633,
@@ -12028,7 +12012,6 @@
   "a0fa5e54eda8c8ac": 1793896538.0667965,
   "a10d2d9903ab1186": 1794592858.1127434,
   "a13400b79d82adb3": 1793727489.9586036,
-  "a16249fcac5d25f1": 1793696487.6832175,
   "a190a1020acc7b9c": 1793896536.0287971,
   "a1a6683ba08af072": 1793872943.260903,
   "a1c797c25e84744a": 1793903650.5805779,
@@ -12099,6 +12082,7 @@
   "a88bddb17214a029": 1794511876.8844562,
   "a895d61162e64226": 1793824254.550742,
   "a89cb2ccef4eab5f": 1793812003.5182016,
+  "a8ad1e41ec25a4fc": 1794906175.1351109,
   "a8c2af5e3fc07d5e": 1793831484.5398436,
   "a8efea0dacde155c": 1794385885.3052723,
   "a8f47de703ee7c26": 1794261675.0510595,
@@ -12141,7 +12125,6 @@
   "ac69ed41281547d5": 1794808989.7637699,
   "acaf5634f2a38941": 1793815303.6129956,
   "acb63de4db3cb4da": 1793698284.6600015,
-  "acbad1b30197da27": 1793694784.319945,
   "acc1803d15a8e377": 1793979092.5317345,
   "aced397866891a7b": 1793817205.910537,
   "ad1a21e881b46eeb": 1793786577.3369799,
@@ -12253,7 +12236,6 @@
   "b7560196b1d1c140": 1794771126.3487391,
   "b761befe780aeb95": 1794751279.1553652,
   "b79d99b85665c970": 1794324720.406491,
-  "b7a8cde00e165c6c": 1793694799.6244726,
   "b7eb78405bc3fd30": 1793790085.2908962,
   "b817ced09356f6fd": 1794258098.324036,
   "b81a7e4ec3a1a423": 1794349893.5886278,
@@ -12629,7 +12611,6 @@
   "dadade09c980b071": 1794092476.3829165,
   "dadb24a73a7a90e0": 1794765695.316193,
   "daea7cb5a6695bc8": 1794529869.2619073,
-  "db1126994486cafd": 1793694816.186548,
   "db167de220140257": 1793698312.5216415,
   "db2e0a9b48326cef": 1794009652.015791,
   "db872a05753e6b8e": 1793725321.7603288,
@@ -14222,7 +14203,7 @@
    "IGN": 3,
    "Insider Gaming": 8,
    "Loudwire": 2,
-   "Polygon": 14,
+   "Polygon": 15,
    "Variety": 2
   },
   "sources": {
@@ -14231,8 +14212,8 @@
    "Blabbermouth": 3,
    "Bloomberg": 10,
    "DOU": 2,
-   "DOU Gamedev": 1,
-   "Deadline": 23,
+   "DOU Gamedev": 2,
+   "Deadline": 24,
    "Distorted Sound": 2,
    "Eurogamer": 1,
    "GameSpot": 1,
@@ -14261,7 +14242,7 @@
   "translators": {
    "DeepL": 12,
    "gemini-flash-latest": 10,
-   "gemini-flash-lite-latest": 127
+   "gemini-flash-lite-latest": 128
   },
   "week": "2026-W47"
  },
@@ -14780,6 +14761,11 @@
    "5374280",
    "Punch Your Way Out",
    1792380680.1936834
+  ],
+  "id:5405820": [
+   "5405820",
+   "Moonbow Idle: Dark Fantasy Auto Battler",
+   1794906176.8452208
   ],
   "id:5440130": [
    "5440130",
@@ -15536,36 +15522,6 @@
    "CitaDrill",
    1792524238.8896368
   ],
-  "q:clan": [
-   0,
-   "",
-   1794731485.0568345
-  ],
-  "q:clan wins": [
-   0,
-   "",
-   1794731484.5916085
-  ],
-  "q:clan wins blast": [
-   0,
-   "",
-   1794731484.0946548
-  ],
-  "q:clan wins blast r6": [
-   0,
-   "",
-   1794731483.6525028
-  ],
-  "q:clan wins blast r6 major": [
-   0,
-   "",
-   1794731483.1638677
-  ],
-  "q:clan wins blast r6 major osaka": [
-   0,
-   "",
-   1794731482.713269
-  ],
   "q:clank": [
    1722870,
    "Clank!",
@@ -16081,36 +16037,6 @@
    "Farlands",
    1792958489.5209355
   ],
-  "q:faze": [
-   0,
-   "",
-   1794731482.2700477
-  ],
-  "q:faze clan": [
-   0,
-   "",
-   1794731481.8172545
-  ],
-  "q:faze clan wins": [
-   0,
-   "",
-   1794731481.3418567
-  ],
-  "q:faze clan wins blast": [
-   0,
-   "",
-   1794731480.8418198
-  ],
-  "q:faze clan wins blast r6": [
-   0,
-   "",
-   1794731480.2366197
-  ],
-  "q:faze clan wins blast r6 major": [
-   0,
-   "",
-   1794731479.7768362
-  ],
   "q:february": [
    3529080,
    "February",
@@ -16345,6 +16271,11 @@
    0,
    "",
    1794756676.5833926
+  ],
+  "q:godot": [
+   0,
+   "",
+   1794906177.4008288
   ],
   "q:godzilla destroy all monsters melee": [
    4251460,
@@ -18576,22 +18507,6 @@
  },
  "titles": [
   [
-   1794731759.3296125,
-   "FaZe Clan Wins BLAST R6 Major Osaka With Flawless Grand Final"
-  ],
-  [
-   1794731814.1593347,
-   "dream-num/univer"
-  ],
-  [
-   1794733272.62557,
-   "Індійська відповідь \"Дюні\" та \"Володарю перснів\". Огляд фільму \"Рамаяна: Народження легенди\" / Ramayana: Rise Of A Legend"
-  ],
-  [
-   1794733368.477845,
-   "ag-ui-protocol/ag-ui"
-  ],
-  [
    1794735166.9775586,
    "Deftones Helped Induct Joy Division & New Order Into The Rock & Roll Hall Of Fame With Covers And Special Guests"
   ],
@@ -19314,25 +19229,17 @@
   [
    1794904283.7142575,
    "India’s T-Series and Hungama Launch Microdrama Platform FastTV With $32 Million Commitment (EXCLUSIVE)"
+  ],
+  [
+   1794906175.1351128,
+   "‘Doctor Who’: BBC Draws Up Producer Shortlist As Race To Regenerate Iconic Series Moves To Next Stage"
+  ],
+  [
+   1794906178.11977,
+   "Соло в Steam за шість тижнів: що я дізнався, випускаючи idle-гру на Godot"
   ]
  ],
  "titles_uk": [
-  [
-   1794731759.3296137,
-   "FaZe Clan виграла BLAST R6 Major Osaka без жодної поразки у гранд-фіналі"
-  ],
-  [
-   1794731814.1593359,
-   "Univer: відкритий Office SDK для створення редакторів таблиць і документів"
-  ],
-  [
-   1794733272.6255708,
-   "Індійська відповідь \"Дюні\" та \"Володарю перснів\". Огляд фільму \"Рамаяна: Народження легенди\" / Ramayana: Rise Of A Legend"
-  ],
-  [
-   1794733368.4778457,
-   "AG-UI: протокол взаємодії агентів і користувачів для фронтенду"
-  ],
   [
    1794735166.9775593,
    "Deftones вшанували Joy Division та New Order каверами на церемонії Rock & Roll Hall Of Fame"
@@ -20056,6 +19963,14 @@
   [
    1794904283.7142582,
    "T-Series та Hungama запускають платформу мікродрам FastTV за $32 мільйони"
+  ],
+  [
+   1794906175.1351137,
+   "BBC готує новий етап для культового серіалу Doctor Who"
+  ],
+  [
+   1794906178.1197712,
+   "Соло в Steam за шість тижнів: що я дізнався, випускаючи idle-гру на Godot"
   ]
  ],
  "ukrainian": {
