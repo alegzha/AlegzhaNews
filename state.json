@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1794949278.6031713
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1794949277.3826797
+  }
+ },
  "daily_digest_date": "2026-11-17",
  "freebies": {
   "last_check": 1794945706.0272434,
@@ -30,30 +43,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-17 20:01 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-11-17 21:04 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794258098.323686,
-   5472,
-   "🤖",
-   "Meta представила компактну ШІ-модель Muse Ember для рутинних завдань",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/meta-launches-muse-ember-a-small-ai-model-built-for-the-repetitive-work-agents-actually-do/",
-    "orig": "Meta launches Muse Ember, a small AI model built for the repetitive work agents actually do"
-   }
-  ],
   [
    1794260150.8282368,
    5473,
@@ -9093,7 +9093,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Thornhill анонсували австралійський тур Summer Slam</b>\n\nАльтернативний метал-гурт Thornhill вирушить у масштабний тур Австралією у січні та лютому. До них приєднаються Varials та Headwreck, а завершиться гастрольний марафон виступі на фестивалі Surf’s Up! у Мельбурні.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/16/news/thornhill-announce-australian-summer-slam-tour-with-varials-headwreck/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/16/news/thornhill-announce-australian-summer-slam-tour-with-varials-headwreck/",
     "orig": "Thornhill Announce Australian ‘Summer Slam Tour’ With Varials & Headwreck"
@@ -9107,7 +9106,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Крістофер Нолан може врятувати фізичні носії від зникнення</b>\n\nBest Buy знову почне продавати фільми на фізичних носіях у своїх магазинах, зробивши виняток для стрічки &quot;The Odyssey&quot; Крістофера Нолана. Це перший випадок із 2023 року, коли компанія відійшла від свого рішення припинити продаж дисків. Успіх цього кроку може повернути ринок фізичних носіїв до життя.\n\n🔗 <a href=\"https://www.slashfilm.com/2318727/christopher-nolan-helped-rescue-theaters-save-physical-media/\">/Film</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2318727/christopher-nolan-helped-rescue-theaters-save-physical-media/",
     "orig": "Christopher Nolan Helped Rescue Theaters — Now He Could Save Physical Media"
@@ -9121,7 +9119,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Мюзикл The Fantasticks уперше дебютував на Бродвеї</b>\n\nЛегендарний мюзикл The Fantasticks уперше в історії отримав бродвейську постановку в оновленій версії від режисера Крістофера Гателлі. Новий ревайвл переосмислює оригінальний сюжет про закоханих для сучасного світу та залучає зірковий акторський склад.\n\n🔗 <a href=\"https://deadline.com/2026/11/the-fantasticks-broadway-review-1237223063/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://deadline.com/2026/11/the-fantasticks-broadway-review-1237223063/",
     "orig": "‘The Fantasticks’ Review: A Welcome Broadway Debut Seven Decades In The Making"
@@ -9947,6 +9944,48 @@
     "link": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/",
     "orig": "AI agents are starting to fill out medical forms and file insurance requests in place of human staff"
    }
+  ],
+  [
+   1794949384.8741367,
+   6230,
+   "🤖",
+   "IPO Anthropic демонструє масштаб капіталу на приватному ринку ШІ",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>IPO Anthropic демонструє масштаб капіталу на приватному ринку ШІ</b>\n\nПотенційна оцінка Anthropic у $1,4 трильйона показує шалене зростання приватних ринків ще до виходу компаній на біржу та може прокласти шлях для інших техногігантів.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-17/anthropic-ipo-highlights-ai-s-private-market-wealth-video\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-17/anthropic-ipo-highlights-ai-s-private-market-wealth-video",
+    "orig": "Anthropic IPO Highlights AI’s Private Market Wealth"
+   }
+  ],
+  [
+   1794949478.057367,
+   6231,
+   "🤖",
+   "Genesis AI залучила $500 млн і досягла оцінки в $3.5 млрд завдяки робототехніці",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Genesis AI залучила $500 млн і досягла оцінки в $3.5 млрд завдяки робототехніці</b>\n\nКомпанія розробляє універсальних роботів для виконання складних завдань. У планах — випуск американських пристроїв і масштабування ШІ-моделі.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-17/genesis-ai-hits-3-5b-valuation-in-robotics-bet-video\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-17/genesis-ai-hits-3-5b-valuation-in-robotics-bet-video",
+    "orig": "Genesis AI Hits $3.5B Valuation in Robotics Bet"
+   }
+  ],
+  [
+   1794949482.685183,
+   6232,
+   "🤖",
+   "ШІ-моделі можна обманом змусити ідентифікувати цивільні об'єкти як військові цілі, сказавши їм, що це гра – дослідження",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🤖 <b>ШІ-моделі можна обманом змусити ідентифікувати цивільні об&#x27;єкти як військові цілі, сказавши їм, що це гра – дослідження</b>\n\nДеякі моделі ШІ від Anthropic, OpenAI та інших провідних розробників можна відносно легко схилити до визначення цілей для військових ударів, навіть якщо йдеться про цивільних осіб чи об&#x27;єкти на кшталт шкіл. Таких висновків дійшла компанія Vals, яка займається оцінюванням ШІ-систем.\n\n🔗 <a href=\"https://mezha.ua/news/shi-mozhna-zmusiti-viznachati-civilni-ob-yekti-yak-viyskovi-skazavshi-shcho-ce-gra-317315/\">Mezha</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/shi-mozhna-zmusiti-viznachati-civilni-ob-yekti-yak-viyskovi-skazavshi-shcho-ce-gra-317315/",
+    "orig": "ШІ-моделі можна обманом змусити ідентифікувати цивільні об'єкти як військові цілі, сказавши їм, що це гра – дослідження"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9954,12 +9993,11 @@
    1794931288.4678795
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1794861150.4702928,
-   1794861220.9579172,
-   1794862903.164087,
    1794888089.2165565,
    1794929582.806714,
-   1794931985.8368783
+   1794931985.8368783,
+   1794949384.8743756,
+   1794949478.0575523
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1794852104.345479
@@ -9975,10 +10013,9 @@
    1794931286.4438236
   ],
   "ai|Mezha|https://mezha.ua/feed/": [
-   1794848606.1513245,
-   1794861223.1814985,
    1794927698.1229477,
-   1794934900.883714
+   1794934900.883714,
+   1794949482.6853971
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1794862908.6792917,
@@ -10535,6 +10572,7 @@
   "22230d807f4ec09b": 1794438052.6129565,
   "22438c0e7fac2ca4": 1793883839.2759979,
   "226b714f8ef3b13b": 1793808081.7286212,
+  "22c0cfa89bfdb67b": 1794949478.0575066,
   "22f515f288ce48ef": 1794650473.9104357,
   "23196e218954bc2d": 1794027782.8948328,
   "2336c1fa1626bfa3": 1793979054.939418,
@@ -11099,7 +11137,6 @@
   "5f349589d04d8a27": 1793750496.1874974,
   "5f7b62623b2b118a": 1794362590.4859781,
   "5f8099c7d290eccf": 1794504655.5700643,
-  "5f8fafa6dcb87979": 1793737925.1662009,
   "5f90ae3c6234985d": 1794260150.8285909,
   "5f987f0636c53831": 1794387783.944847,
   "5f98c8d8af98451b": 1794148278.9657562,
@@ -11161,6 +11198,7 @@
   "659f525c9542d03c": 1793916054.947063,
   "65b32f39a0fe6361": 1793833279.4040277,
   "65b3d479c4b05145": 1793995255.6755514,
+  "65d230b5cc2390db": 1794949482.6853518,
   "65f8a2e3eddbdfe5": 1794476274.209625,
   "660333daff57b2bc": 1794058278.244017,
   "660cf71fa56df011": 1793898089.9883525,
@@ -11267,7 +11305,6 @@
   "6f922ec7366aa3ab": 1793995467.0008996,
   "6fc3df60655b4c77": 1793901835.2385743,
   "6fc91d40962b71be": 1793903647.2733448,
-  "6fe1de2b48f3a84f": 1793739690.1276684,
   "6fff152cf8328746": 1794868254.5337205,
   "70248a09d92ab732": 1794661254.0536256,
   "702f137160825002": 1794097882.0659804,
@@ -11315,7 +11352,6 @@
   "74475f1dd230d5f8": 1794538904.75987,
   "7460749f72a7b576": 1794931254.6249342,
   "747336ce88a5adc6": 1793925084.5097532,
-  "747d4ce4fbb69f19": 1793739677.6958723,
   "748c8f3fc6d8603e": 1794409282.7311387,
   "74bda49a8cd3e751": 1794186046.0341835,
   "750c0d353a678d66": 1794047073.860808,
@@ -11326,7 +11362,6 @@
   "75663462add6a754": 1793748769.1327786,
   "756d297194018dee": 1793813819.413655,
   "756fea5f4f010445": 1793980856.010392,
-  "7582a51887ae237b": 1793737937.4755719,
   "7583bad40a001f67": 1794682854.575637,
   "7585948070781853": 1794119517.775772,
   "75a6e0d290b5ff4e": 1794094374.1912565,
@@ -11424,7 +11459,6 @@
   "7e8cb50fb1252936": 1794654185.3008568,
   "7e96f5920135ce48": 1794038482.0458248,
   "7ec74f048fd88c8b": 1794682854.575637,
-  "7ecd1ec68836a9a5": 1793737919.8575509,
   "7ecf21b1d2ba264f": 1794326503.5964656,
   "7ed5ec01955bde22": 1794261652.7951982,
   "7ee4411884c51582": 1794425482.4962661,
@@ -11524,6 +11558,7 @@
   "88d4fc07dd6e1af7": 1794461486.165351,
   "88e01033bb89df74": 1794578507.6177986,
   "8912c5f4c1e5a908": 1793812018.2625842,
+  "891e640ab8213420": 1794949384.8743272,
   "89209ab642b10e25": 1793876511.160731,
   "8960f0fbccbd9b95": 1793826119.8351567,
   "897c983913b197f6": 1793885644.246963,
@@ -11616,7 +11651,6 @@
   "91d72bcce28cf6a9": 1794695679.6208858,
   "91ec8ea0d62eea5a": 1793862139.6533058,
   "920f86ea3f72befe": 1794089056.8419774,
-  "92225e14089776fd": 1793739677.6954904,
   "9231336d2e761cf2": 1793980856.010392,
   "92394219fcd474c6": 1794182587.1580834,
   "924ce5d82a4e8e4e": 1794454288.0356266,
@@ -11628,7 +11662,6 @@
   "92b2f5783afbd668": 1794178895.0015182,
   "92ecdce6789e4c30": 1793827885.702775,
   "9328428ce2953fe6": 1794157296.8875062,
-  "9333c0d0080f4c3c": 1793739677.6956937,
   "936ae3c3abd74c82": 1793797275.1181605,
   "939467b5e073e5e2": 1793750499.2712302,
   "93a3edeb4c4faf79": 1794614675.0055325,
@@ -11708,6 +11741,7 @@
   "9aefd02ab82f040a": 1794629074.8660176,
   "9b07f215c2b4e375": 1794544464.6059783,
   "9b095f9b1e9df6de": 1794524454.8551903,
+  "9b61d4289f6fb3ad": 1794949265.3352437,
   "9b8956863556ed6c": 1794474085.2638512,
   "9b8a8e522d9f1d83": 1794040275.8748078,
   "9b8c441c69663be7": 1794510055.210753,
@@ -12292,7 +12326,6 @@
   "d7a348adfc136ae6": 1794211407.5576873,
   "d7acc196165bc533": 1793943082.0950248,
   "d7aef964c8001eb9": 1793984500.74531,
-  "d7bb96de4fe7993d": 1793739693.7915752,
   "d7dacc95c7acdd1b": 1794699168.1069038,
   "d7e0041cb0d0190d": 1794119514.645607,
   "d7eda69ecca78506": 1793743339.586493,
@@ -12474,7 +12507,6 @@
   "ec562e54b1c40d37": 1794783714.558163,
   "ec6cb8841f10b524": 1793928739.83671,
   "ec84e80c699a6613": 1793804459.5507169,
-  "ec989f77a525a922": 1793737923.0998027,
   "ec9a31b734036e55": 1793872949.9901175,
   "eca5775f0eeafe3a": 1794083480.6657107,
   "ecbb3cf6400f7234": 1794704456.3354933,
@@ -12521,7 +12553,6 @@
   "f1bac8efcf3ddb21": 1794101501.6486664,
   "f1d5057261c28936": 1794868254.5337205,
   "f1dec55a848fb5c5": 1793905339.3971648,
-  "f22e1745e42f58f5": 1793737934.481164,
   "f2464ca8b3599ecb": 1794864690.9790192,
   "f28089da1ef6de53": 1793865693.2333915,
   "f2835bad37eed4bf": 1794295687.2329578,
@@ -13875,7 +13906,7 @@
    "Insider Gaming": 11,
    "Lambgoat": 1,
    "Loudwire": 3,
-   "Polygon": 18,
+   "Polygon": 19,
    "VGC": 1,
    "Variety": 4
   },
@@ -13883,7 +13914,7 @@
    "/Film": 10,
    "AIN.ua": 2,
    "Blabbermouth": 3,
-   "Bloomberg": 13,
+   "Bloomberg": 15,
    "DOU": 2,
    "DOU Gamedev": 2,
    "Deadline": 26,
@@ -13899,7 +13930,7 @@
    "Kerrang!": 1,
    "Lambgoat": 8,
    "Metal Hammer (Louder)": 6,
-   "Mezha": 14,
+   "Mezha": 15,
    "PC Gamer": 5,
    "Pitchfork": 3,
    "PlayUA": 2,
@@ -13917,7 +13948,7 @@
   "translators": {
    "DeepL": 16,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 153
+   "gemini-flash-lite-latest": 155
   },
   "week": "2026-W47"
  },
@@ -18170,19 +18201,21 @@
  },
  "tag_hints": {
   "Mezha": [
+   "anthropic",
    "ddr4",
    "ddr5",
    "gta 6",
    "netflix",
    "nvidia",
+   "openai",
    "pcie gen5",
    "автомати",
    "авіація",
    "безпілотники",
    "бред пітт",
    "бізнес",
-   "велика британія",
    "винищувачі",
+   "дослідження",
    "залізо",
    "каб",
    "квентін тарантіно",
@@ -18192,30 +18225,18 @@
    "нрк",
    "оборонка",
    "одного разу в голлівуді",
-   "ппо",
-   "радар",
-   "ракети",
    "росія",
    "сервери",
    "су-34",
    "сша",
    "технології",
    "турель",
-   "україна",
    "штучний інтелект",
    "ші-агенти",
    "ігри"
   ]
  },
  "titles": [
-  [
-   1794774828.3091426,
-   "US, Allies Agree to Guard AI Supply Chains From China, FT Says"
-  ],
-  [
-   1794776482.428399,
-   "Australia's central bank finds AI hitting young workers first, especially in software and customer service"
-  ],
   [
    1794778303.2675943,
    "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU"
@@ -18951,17 +18972,21 @@
   [
    1794945696.4206579,
    "AI agents are starting to fill out medical forms and file insurance requests in place of human staff"
+  ],
+  [
+   1794949384.8743293,
+   "Anthropic IPO Highlights AI’s Private Market Wealth"
+  ],
+  [
+   1794949478.057509,
+   "Genesis AI Hits $3.5B Valuation in Robotics Bet"
+  ],
+  [
+   1794949482.6853538,
+   "ШІ-моделі можна обманом змусити ідентифікувати цивільні об'єкти як військові цілі, сказавши їм, що це гра – дослідження"
   ]
  ],
  "titles_uk": [
-  [
-   1794774828.3091433,
-   "США та союзники домовилися захищати ланцюжки постачання ШІ від Китаю"
-  ],
-  [
-   1794776482.4283998,
-   "ШІ б'є по молодих спеціалістах у сфері софту та підтримки"
-  ],
   [
    1794778303.267595,
    "Meituan випустила ШІ-модель LongCat-2.5 на 1,6 трильйона параметрів без використання GPU від Nvidia"
@@ -19697,6 +19722,18 @@
   [
    1794945696.4206586,
    "ШІ-агенти починають заповнювати медичні форми замість людей"
+  ],
+  [
+   1794949384.8743303,
+   "IPO Anthropic демонструє масштаб капіталу на приватному ринку ШІ"
+  ],
+  [
+   1794949478.05751,
+   "Genesis AI залучила $500 млн і досягла оцінки в $3.5 млрд завдяки робототехніці"
+  ],
+  [
+   1794949482.6853545,
+   "ШІ-моделі можна обманом змусити ідентифікувати цивільні об'єкти як військові цілі, сказавши їм, що це гра – дослідження"
   ]
  ],
  "ukrainian": {
@@ -22108,7 +22145,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794945704.937124,
+  "last_check": 1794949491.1543832,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
