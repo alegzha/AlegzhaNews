@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1794949278.6031713
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1794949277.3826797
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-17",
  "freebies": {
   "last_check": 1794945706.0272434,
@@ -43,11 +30,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-17 21:04 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-11-17 21:31 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
@@ -9132,7 +9119,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Judas Priest розширили європейський літній тур новими концертами</b>\n\nГурт Judas Priest оголосив п&#x27;ять додаткових виступів у межах свого європейського туру влітку 2027 року. Нові зупинки охоплять Нідерланди, Латвію, Польщу, Австрію та Туреччину. Гастролі відбудуться після того, як бас-гітарист Іан Гілл залишив колектив через проблеми зі здоров&#x27;ям, а його місцем на концертах зайнявся Дейві Ріммер.\n\n🔗 <a href=\"https://lambgoat.com/news/55921/judas-priest-expand-european-summer-tour-dates/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55921/judas-priest-expand-european-summer-tour-dates/",
     "orig": "Judas Priest expand European Summer tour dates"
@@ -9986,6 +9972,20 @@
     "link": "https://mezha.ua/news/shi-mozhna-zmusiti-viznachati-civilni-ob-yekti-yak-viyskovi-skazavshi-shcho-ce-gra-317315/",
     "orig": "ШІ-моделі можна обманом змусити ідентифікувати цивільні об'єкти як військові цілі, сказавши їм, що це гра – дослідження"
    }
+  ],
+  [
+   1794951100.3416152,
+   6233,
+   "🤖",
+   "Штати вимагають посиленого нагляду за продажем ШІ-чату",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Штати вимагають посиленого нагляду за продажем ШІ-чату</b>\n\nДесятки генеральних прокурорів штатів звернулися до федерального судді з проханням посилити нагляд за продажем ШІ-чату. Раніше цей бот нібито заохочував суїцидальні думки у 14-річного підлітка, який наклав на себе руки.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-17/states-press-for-scrutiny-in-sale-of-chatbot-said-to-harm-kids\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-17/states-press-for-scrutiny-in-sale-of-chatbot-said-to-harm-kids",
+    "orig": "States Press for Scrutiny in Sale of Chatbot Said to Harm Kids"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9997,7 +9997,8 @@
    1794929582.806714,
    1794931985.8368783,
    1794949384.8743756,
-   1794949478.0575523
+   1794949478.0575523,
+   1794951100.3418818
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1794852104.345479
@@ -10269,6 +10270,7 @@
   "02b1fe46cd45a9dc": 1793881901.6238203,
   "02c59df6f1eb74ed": 1794097855.0003257,
   "02da8b7d01f8cb9a": 1793819096.5777454,
+  "02e82a0803728488": 1794951055.3267138,
   "02f9ebbdd55cb2f6": 1794812490.789183,
   "0322dc1ae5e39faa": 1794709877.275052,
   "033168300b88fa0b": 1794034991.97429,
@@ -10523,6 +10525,7 @@
   "1c8f472767ef8e44": 1794909753.6288118,
   "1cc767f035cfcafd": 1794326506.0290408,
   "1ceb56a3b3745da8": 1793959276.1517801,
+  "1d3c593ef8dec9a7": 1794951100.3418221,
   "1d5b91cceb66f5a0": 1794342653.1379323,
   "1d83d65aba62e1e5": 1794330058.4836624,
   "1dbf4e9e49e7d75d": 1794108686.055419,
@@ -10531,7 +10534,6 @@
   "1e0c242426815874": 1794134246.8000228,
   "1e0e4eed93dfadc6": 1793813706.0787451,
   "1e268e0e4bca10ed": 1794249088.4324608,
-  "1e2838ea98941734": 1793741483.9736936,
   "1e385cb58714ffdc": 1793968294.66553,
   "1e43dbac00d7acc0": 1794441678.011534,
   "1e4de2bd0543e6cb": 1794848603.8456602,
@@ -11333,7 +11335,6 @@
   "726f07ebf3b0942c": 1793797560.0987308,
   "72a2d5961e77d2a3": 1793896598.2354026,
   "72e61cb3b47a792d": 1793901858.8515282,
-  "73071fe291b9086e": 1793741483.6444745,
   "731362751099257f": 1794099679.2837117,
   "7318835aebb5c5fb": 1793925076.7035167,
   "733d840549e94357": 1794404095.2594936,
@@ -11801,6 +11802,7 @@
   "a1c797c25e84744a": 1793903650.5805779,
   "a1cbec1a9c08adaa": 1793914298.7164598,
   "a1e918d3c6e415b4": 1794223978.675429,
+  "a20858528fd502b1": 1794951055.3267138,
   "a224a4c6e09436dd": 1794387657.251034,
   "a24cbc98a1a56dc7": 1793881876.1541889,
   "a25472f4d1b51258": 1793899976.3401167,
@@ -11959,7 +11961,6 @@
   "b2ab5f466f389324": 1794193456.5206633,
   "b2c047598eccca67": 1793935877.9817748,
   "b2fadd4cde6f71b4": 1794783430.0813437,
-  "b30d133ee1c59afd": 1793741483.649622,
   "b30d58ce11504c9a": 1793766726.4784403,
   "b31333fc91eb1eaf": 1794682944.230792,
   "b316968863789424": 1794547879.3076634,
@@ -12515,6 +12516,7 @@
   "ecfe36af39a1f0bf": 1794056451.8977742,
   "ed0ab85c020e6bc2": 1793874752.400368,
   "ed10794f4548aad9": 1793813669.1376052,
+  "ed261b4603b27f96": 1794951081.4973056,
   "ed63255b2d272f84": 1793781156.2821667,
   "ed8c40980fb04204": 1794848606.1512814,
   "ed97931a27414f95": 1793822048.7180307,
@@ -13903,10 +13905,10 @@
    "Deadline": 3,
    "GameSpot": 2,
    "IGN": 5,
-   "Insider Gaming": 11,
+   "Insider Gaming": 12,
    "Lambgoat": 1,
    "Loudwire": 3,
-   "Polygon": 19,
+   "Polygon": 20,
    "VGC": 1,
    "Variety": 4
   },
@@ -13914,7 +13916,7 @@
    "/Film": 10,
    "AIN.ua": 2,
    "Blabbermouth": 3,
-   "Bloomberg": 15,
+   "Bloomberg": 16,
    "DOU": 2,
    "DOU Gamedev": 2,
    "Deadline": 26,
@@ -13948,7 +13950,7 @@
   "translators": {
    "DeepL": 16,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 155
+   "gemini-flash-lite-latest": 156
   },
   "week": "2026-W47"
  },
@@ -18984,6 +18986,10 @@
   [
    1794949482.6853538,
    "ШІ-моделі можна обманом змусити ідентифікувати цивільні об'єкти як військові цілі, сказавши їм, що це гра – дослідження"
+  ],
+  [
+   1794951100.3418238,
+   "States Press for Scrutiny in Sale of Chatbot Said to Harm Kids"
   ]
  ],
  "titles_uk": [
@@ -19734,6 +19740,10 @@
   [
    1794949482.6853545,
    "ШІ-моделі можна обманом змусити ідентифікувати цивільні об'єкти як військові цілі, сказавши їм, що це гра – дослідження"
+  ],
+  [
+   1794951100.3418245,
+   "Штати вимагають посиленого нагляду за продажем ШІ-чату"
   ]
  ],
  "ukrainian": {
