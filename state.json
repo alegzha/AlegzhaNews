@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1795041087.4776857
+  }
+ },
  "daily_digest_date": "2026-11-18",
  "freebies": {
   "last_check": 1795039395.656407,
@@ -30,43 +37,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-18 22:03 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-11-18 22:31 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794349889.1387854,
-   5578,
-   "🎬",
-   "Джеймс Ганн і Пітер Сафран залишили DC Studios",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/film/news/james-gunn-exits-dc-studios-losing-money-1236944392/",
-    "orig": "DC Studios Exit: James Gunn and Peter Safran Spent Big, Lost Money and Didn’t Hook Audiences"
-   }
-  ],
-  [
-   1794349893.5883515,
-   5579,
-   "🎬",
-   "Лі МакКендрік зніме трилер Delulu за участю Медді Зіглер",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/leah-mckendrick-and-maddie-ziegler-star-in-delulu-thriller-1237219314/",
-    "orig": "Leah McKendrick To Follow ‘Voicemails For Isabelle’ With “Ferociously Female” Thriller ‘Delulu’ Starring Maddie Ziegler; XYZ & Temple Hill Produce — AFM"
-   }
-  ],
   [
    1794353367.7627637,
    5580,
@@ -8960,7 +8941,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Джейн Лінч хоче повернутися до ролі Sue Sylvester у перезапуску Glee</b>\n\nDisney+ та Hulu замовили перезапуск серіалу Glee. Джейн Лінч заявила, що залюбки знову зіграє тренерку Sue Sylvester, якщо її запросять. Раніше повідомлялося, що інші зірки оригінального шоу, зокрема Lea Michele, Heather Morris, Chord Overstreet та Chris Colfer, також ведуть переговори про повернення.\n\n🔗 <a href=\"https://deadline.com/2026/11/jane-lynch-glee-sue-sylvester-reboot-1237227696/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/jane-lynch-glee-sue-sylvester-reboot-1237227696/",
     "orig": "Jane Lynch On ‘Glee’ Reboot & If She’d Return: “I Would Love To Do Sue Sylvester For The Rest Of My Life”"
@@ -8974,7 +8954,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Deftones додали додаткові концерти у Нью-Йорку та Лос-Анджелесі</b>\n\nЧерез високий попит на квитки під час передпродажу гурт Deftones оголосив додаткові виступи у Квінсі (Нью-Йорк) та Лос-Анджелесі (Каліфорнія). Концерти відбудуться в межах північноамериканського туру разом із Knocked Loose та Julie.\n\n🔗 <a href=\"https://lambgoat.com/news/55944/deftones-add-second-nights-in-queens-ny-and-los-angeles-ca-on-tour-with-knocked-loose-and-julie/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55944/deftones-add-second-nights-in-queens-ny-and-los-angeles-ca-on-tour-with-knocked-loose-and-julie/",
     "orig": "Deftones add second nights in Queens, NY and Los Angeles, CA on tour with Knocked Loose and Julie"
@@ -9613,7 +9592,12 @@
    "Build a Rocket Boy судиться з «саботажниками» через борги на £61.7 млн",
    "GamesIndustry.biz",
    {
-    "also": [],
+    "also": [
+     [
+      "VGC",
+      "https://www.videogameschronicle.com/news/mindseye-studio-wants-to-sue-saboteurs-to-pay-off-62-million-debt/"
+     ]
+    ],
     "caption": "🎮 <b>Build a <a href=\"https://store.steampowered.com/app/1107940/\">Rocket Boy</a> судиться з «саботажниками» через борги на £61.7 млн</b>\n\nРозробник MindsEye компанія Build a Rocket Boy має £61.7 млн боргів і планує повернути кошти через судові позови проти «саботажників». Керівництво стверджує, що комерційний успіх гри постраждав через скоординовану кампанію негативних відгуків і злочинну діяльність третіх осіб.\n\n🔗 <a href=\"https://www.gamesindustry.biz/build-a-rocket-boy-pursuing-litigation-against-alleged-saboteurs-to-repay-617m-in-debt\">GamesIndustry.biz</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/build-a-rocket-boy-pursuing-litigation-against-alleged-saboteurs-to-repay-617m-in-debt",
@@ -9815,6 +9799,34 @@
     "link": "https://www.neformat.com.ua/news/28476-signals-feed-the-void-vidali-novu-pisnyu.html",
     "orig": "Signals Feed The Void видали нову пісню"
    }
+  ],
+  [
+   1795041096.6695077,
+   6327,
+   "🤘",
+   "Trapped Under Ice анонсували концерти на честь 20-річчя гурту",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Trapped Under Ice анонсували концерти на честь 20-річчя гурту</b>\n\nХардкор-гурт Trapped Under Ice проведе святковий концерт на честь свого 20-річчя 7 лютого в рідному Балтиморі за участі Terror, Trash Talk, Stout і Bad Wave. За день до цього колектив виступить у Нью-Йорку на ювілеї лейбла Flatspot Records разом із Breakdown, End It та іншими.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/18/news/trapped-under-ice-announce-20th-anniversary-show-in-their-hometown/\">ThePRP</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/11/18/news/trapped-under-ice-announce-20th-anniversary-show-in-their-hometown/",
+    "orig": "Trapped Under Ice Announce 20th Anniversary Show In Their Hometown"
+   }
+  ],
+  [
+   1795041102.5298498,
+   6328,
+   "🤖",
+   "IPO Anthropic вказує на високий попит на ШІ-інвестиції",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>IPO Anthropic вказує на високий попит на ШІ-інвестиції</b>\n\nПортфельний менеджер Harbor Capital Advisors Джастін Менне заявив, що ціноутворення майбутнього IPO Anthropic свідчить про потужний інтерес інвесторів до ринку штучного інтелекту. Він радить вкладникам компанії дотримуватися довгострокової стратегії.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-18/anthropic-ipo-signals-strong-ai-appetite-harbor-capital-video\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-18/anthropic-ipo-signals-strong-ai-appetite-harbor-capital-video",
+    "orig": "Anthropic IPO Signals Strong AI Appetite, Harbor Capital's Menne Says"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9822,12 +9834,10 @@
    1794931288.4678795
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1794949384.8743756,
-   1794949478.0575523,
-   1794951100.3418818,
    1794976411.5177596,
    1795017715.7299092,
-   1795019563.0063708
+   1795019563.0063708,
+   1795041102.5301013
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1794852104.345479
@@ -10030,7 +10040,8 @@
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
    1794983498.269072,
-   1795039284.2790725
+   1795039284.2790725,
+   1795041096.669769
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1794751279.155413
@@ -10266,6 +10277,7 @@
   "14511275d18e5d0f": 1793901653.8973465,
   "14832d8209b1a065": 1794913282.811887,
   "14d710c63b178bfb": 1793905362.5411623,
+  "152daa25e42033b6": 1795041101.017265,
   "154aa465ecbcfd2c": 1794240058.5109377,
   "1555ed6bcb1233ac": 1794999745.7375064,
   "15803b02c9331805": 1793910653.3599937,
@@ -10294,6 +10306,7 @@
   "1813149d3457eb59": 1794643258.248781,
   "181c7504d3700986": 1794900675.373803,
   "1847baeab96262e7": 1794117651.9309552,
+  "186cfab811cb355e": 1795041102.5300572,
   "1885357c80d0f18e": 1794925855.8063161,
   "18d1449213d86f49": 1794056475.4155757,
   "18e2a99219f18b63": 1794150052.196198,
@@ -10319,6 +10332,7 @@
   "1b0b723f4bcd1eb3": 1794322897.326436,
   "1b0e7a25a5a7fa27": 1794242064.892113,
   "1b5f24084fc7c8e9": 1794682880.5039337,
+  "1b5f67b1ccd5395d": 1795041064.5826335,
   "1b78899bfafd4225": 1794796282.9013186,
   "1b804471ef8befe5": 1793995470.1772337,
   "1b947bd0d3d40d1a": 1794115973.2950494,
@@ -10752,6 +10766,7 @@
   "4dafb9f4494be07d": 1793909097.8627243,
   "4dba0461a8f2749d": 1794506457.045124,
   "4dea5bc0ac0a5f73": 1793909113.396298,
+  "4dec1063696bc20b": 1795041096.6697226,
   "4e0c6a77fffae336": 1794096094.234996,
   "4e22c51acacfd42d": 1794069054.1396751,
   "4e285fad042ed34f": 1794609055.1572344,
@@ -11097,6 +11112,7 @@
   "71ef25aaff00ade5": 1793898214.6162205,
   "7203879df98082f0": 1794038484.768283,
   "7231e211057f6b69": 1794015092.7640433,
+  "723d1511bd3c62da": 1795041093.900804,
   "7265652a5266f6fb": 1794906178.1197684,
   "726b61922e287429": 1794520890.0403724,
   "72a2d5961e77d2a3": 1793896598.2354026,
@@ -11228,7 +11244,6 @@
   "7ee4411884c51582": 1794425482.4962661,
   "7ee76404390a1aa4": 1794956600.0850973,
   "7effd0f348541db0": 1794013092.7783961,
-  "7f2b9a40ca2e8528": 1793831457.5401118,
   "7f91ecfdf82ee56b": 1793917912.480465,
   "7fe4036245e3bfdf": 1794081653.3860815,
   "8006cfce387357ff": 1794819660.751173,
@@ -11399,7 +11414,6 @@
   "9231336d2e761cf2": 1793980856.010392,
   "92394219fcd474c6": 1794182587.1580834,
   "924ce5d82a4e8e4e": 1794454288.0356266,
-  "925546c74bacac2d": 1793831482.5661116,
   "9257f23a13ac1f7c": 1793890882.6075149,
   "925c1047a69c1897": 1793962873.3232477,
   "92b2f5783afbd668": 1794178895.0015182,
@@ -11504,6 +11518,7 @@
   "9f4debb14940fc3e": 1794457893.282934,
   "9f5683e3c2435c99": 1794601881.948526,
   "9f5fc6e5123bcf74": 1794771138.1197286,
+  "9f74f9b4a3619ddd": 1795041093.9003131,
   "9f753fb3fae6679e": 1794920493.724533,
   "9f7b85cf88a87c90": 1794999653.1275568,
   "9f927f67986c8bd3": 1794916879.4564362,
@@ -11586,7 +11601,6 @@
   "a87bccce8c8844e3": 1793899946.3182786,
   "a88bddb17214a029": 1794511876.8844562,
   "a8ad1e41ec25a4fc": 1794906175.1351109,
-  "a8c2af5e3fc07d5e": 1793831484.5398436,
   "a8d39c6181656603": 1794958372.3117917,
   "a8efea0dacde155c": 1794385885.3052723,
   "a8f47de703ee7c26": 1794261675.0510595,
@@ -11643,6 +11657,7 @@
   "af94feae22729c7a": 1794875511.543285,
   "af9fccdcabcd2fce": 1794315858.8469326,
   "afb3715203768996": 1794216694.7409585,
+  "afba753eba8e2629": 1795041093.9012902,
   "afebafccb65e39ee": 1794564055.7805443,
   "b02a7dde28fd9a2c": 1794481254.5202796,
   "b037dd49d6560de1": 1794022370.027243,
@@ -13554,14 +13569,14 @@
    "Loudwire": 3,
    "PC Gamer": 15,
    "Polygon": 26,
-   "VGC": 27,
+   "VGC": 28,
    "Variety": 6
   },
   "sources": {
    "/Film": 13,
    "AIN.ua": 2,
    "Blabbermouth": 3,
-   "Bloomberg": 21,
+   "Bloomberg": 22,
    "DOU": 2,
    "DOU Gamedev": 3,
    "Deadline": 40,
@@ -13590,14 +13605,14 @@
    "SteamDB": 1,
    "Stereogum": 2,
    "The Decoder": 8,
-   "ThePRP": 6,
+   "ThePRP": 7,
    "VGC": 5,
    "Variety": 17
   },
   "translators": {
    "DeepL": 27,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 233
+   "gemini-flash-lite-latest": 236
   },
   "week": "2026-W47"
  },
@@ -13691,11 +13706,6 @@
    "1944430",
    "Amnesia: The Bunker",
    1793043084.3214574
-  ],
-  "id:2075800": [
-   "2075800",
-   "STAR WARS Zero Company™",
-   1792447338.0923975
   ],
   "id:214490": [
    "214490",
@@ -14361,6 +14371,11 @@
    0,
    "",
    1795014100.975366
+  ],
+  "q:62": [
+   0,
+   "",
+   1795041098.765722
   ],
   "q:87": [
    0,
@@ -16372,11 +16387,6 @@
    "No Man's Land",
    1794076279.902175
   ],
-  "q:no one": [
-   735540,
-   "NO ONE",
-   1792447285.640726
-  ],
   "q:noble": [
    2152570,
    "Noble",
@@ -17778,18 +17788,6 @@
  },
  "titles": [
   [
-   1794866636.2184563,
-   "‘Minotaur’ Review: Andrey Zvyagintsev’s Riveting Comeback Remakes Claude Chabrol and ‘Unfaithful’ for a Hopeless Wartime Russia"
-  ],
-  [
-   1794866640.1810355,
-   "AMIRA ELFEKY announces “It Was Only a Dream” North American headline tour"
-  ],
-  [
-   1794866643.4631565,
-   "Robert Pattinson As James Bond? Baz Bamigboye Has Some Thoughts"
-  ],
-  [
    1794868348.3863442,
    "Outbreak Festival Announces 2027 Lineup Curated By Hayley Williams"
   ],
@@ -18488,21 +18486,17 @@
   [
    1795039386.747143,
    "Signals Feed The Void видали нову пісню"
+  ],
+  [
+   1795041096.6697247,
+   "Trapped Under Ice Announce 20th Anniversary Show In Their Hometown"
+  ],
+  [
+   1795041102.5300589,
+   "Anthropic IPO Signals Strong AI Appetite, Harbor Capital's Menne Says"
   ]
  ],
  "titles_uk": [
-  [
-   1794866636.2184577,
-   "Рецензія на фільм «Minotaur»: повернення Андрія Звягінцева у воєнній Росії"
-  ],
-  [
-   1794866640.181036,
-   "AMIRA ELFEKY анонсувала північноамериканський тур"
-  ],
-  [
-   1794866643.463157,
-   "Роберт Паттінсон отримав роль Джеймса Бонда у новому перезапуску"
-  ],
   [
    1794868348.3863451,
    "Гейлі Вільямс стала кураторкою лайнапу Outbreak Festival 2027"
@@ -19202,6 +19196,14 @@
   [
    1795039386.7471437,
    "Signals Feed The Void видали нову пісню"
+  ],
+  [
+   1795041096.6697254,
+   "Trapped Under Ice анонсували концерти на честь 20-річчя гурту"
+  ],
+  [
+   1795041102.5300596,
+   "IPO Anthropic вказує на високий попит на ШІ-інвестиції"
   ]
  ],
  "ukrainian": {
