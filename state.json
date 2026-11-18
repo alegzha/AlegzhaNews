@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1794988867.5132446
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1794988866.268511
+  }
+ },
  "daily_digest_date": "2026-11-17",
  "freebies": {
   "last_check": 1794983522.3503888,
@@ -41,32 +54,6 @@
   ]
  },
  "post_log": [
-  [
-   1794295897.175244,
-   5519,
-   "🎬",
-   "Ramayana очолив бокс-офіс Великої Британії та Ірландії",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/film/box-office/ramayana-godzilla-minus-zero-uk-ireland-box-office-1236943753/",
-    "orig": "‘Ramayana’ Makes History as First Indian Film to Top U.K., Ireland Box Office as ‘Godzilla Minus Zero’ Debuts in Third"
-   }
-  ],
-  [
-   1794295904.456865,
-   5520,
-   "🎬",
-   "Продюсерка Джеміма Голдсміт звинуватила Рассела Бранда в насильстві",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/jemima-goldsmith-accuses-russell-brand-of-violence-abuse-1237218315/",
-    "orig": "Producer Jemima Goldsmith Accuses Russell Brand of “Violence, Coercive Control & Abuse”"
-   }
-  ],
   [
    1794297877.262619,
    5521,
@@ -9143,7 +9130,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🤖 <b>Сем Альтман запевнив, що не хоче забирати RAM у користувачів, але дата-центри все одно ефективніші</b>\n\nCEO OpenAI Сем Альтман заявив, що хоче, аби користувачі могли купувати багато оперативної пам&#x27;яті для власних комп&#x27;ютерів. Водночас він пояснив, чому за умов дефіциту DRAM її використання у дата-центрах все одно може бути ефективнішим.\n\n🔗 <a href=\"https://mezha.ua/news/sam-altman-ram-317289/\">Mezha</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://mezha.ua/news/sam-altman-ram-317289/",
     "orig": "Сем Альтман запевнив, що не хоче забирати RAM у користувачів, але дата-центри все одно ефективніші"
@@ -9157,7 +9143,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Звіти про створені за допомогою ШІ матеріали сексуального насильства над дітьми зросли на 8400%</b>\n\nЗгідно з даними Childlight Institute, кількість звітів про створені за допомогою ШІ зображення знущань зросла з близько 4700 у 2023 році до понад 400 000 у 2025 році. Матеріали включають діпфейки з додатків для роздягання, якими зловмисники шантажують дітей. Експерти наголошують на необхідності рішучих дій від законодавців і технологічних компаній.\n\n🔗 <a href=\"https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/reports-of-ai-generated-child-sexual-abuse-material-have-surged-more-than-8400-percent-in-two-years/",
     "orig": "Reports of AI-generated child sexual abuse material have surged more than 8,400 percent in two years"
@@ -10007,6 +9992,34 @@
     "link": "https://playua.net/valve-pokazala-zymovu-versiyu-cobblestone-ta-natyaknula-na-povernennya-karty-v-counter-strike-2/",
     "orig": "Valve показала зимову версію Cobblestone та натякнула на повернення карти в Counter-Strike 2"
    }
+  ],
+  [
+   1794988870.660834,
+   6280,
+   "💾",
+   "Linux не єдина альтернатива: новий проєкт відтворює найкраще з Windows 11 й обіцяє широку сумісність",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "💾 <b>Linux не єдина альтернатива: новий проєкт відтворює найкраще з Windows 11 й обіцяє широку сумісність</b>\n\nЗазвичай у пошуках альтернативи Windows користувачі звертаються до Linux. Однак амбітний проєкт LiberNT прагне забезпечити сумісність з актуальними версіями Windows 11 в операційній системі з повністю відкритим вихідним кодом.\n\n🔗 <a href=\"https://itc.ua/ua/novini/linux-ne-yedyna-alternatyva-novyj-proyekt-vidtvoryuye-najkrashhe-z-windows-11-j-obitsyaye-shyroku-sumisnist/\">ITC.ua</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/linux-ne-yedyna-alternatyva-novyj-proyekt-vidtvoryuye-najkrashhe-z-windows-11-j-obitsyaye-shyroku-sumisnist/",
+    "orig": "Linux не єдина альтернатива: новий проєкт відтворює найкраще з Windows 11 й обіцяє широку сумісність"
+   }
+  ],
+  [
+   1794988872.4973447,
+   6281,
+   "🎬",
+   "\"Вони йдуть, щоб нас знищити\": Netflix показав перший тизер другого сезону \"Проблеми трьох тіл\"",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🎬 <b>&quot;Вони йдуть, щоб нас знищити&quot;: Netflix показав перший тизер другого сезону &quot;Проблеми трьох тіл&quot;</b>\n\nNetflix опублікував перші кадри й тизер другого сезону науково-фантастичного серіалу &quot;Проблема трьох тіл&quot; / 3 Body Problem – продовження історії про контакт людства із позаземною цивілізацією, заснованої на трилогії Лю Цісіня &quot;Пам&#x27;ять про минуле Землі&quot;.\n\n🔗 <a href=\"https://mezha.ua/news/3-body-problem-season-2-teaser-317323/\">Mezha</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/3-body-problem-season-2-teaser-317323/",
+    "orig": "\"Вони йдуть, щоб нас знищити\": Netflix показав перший тизер другого сезону \"Проблеми трьох тіл\""
+   }
   ]
  ],
  "posted_by_source": {
@@ -10158,7 +10171,7 @@
    1794954711.7221987
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
-   1794733272.6256087
+   1794988872.4975154
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
    1794952969.8655076,
@@ -10250,8 +10263,8 @@
    1794916888.4183917
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
-   1794857505.8168807,
-   1794925879.5404215
+   1794925879.5404215,
+   1794988870.6610494
   ],
   "software|Mezha|https://mezha.ua/feed/": [
    1794895284.6402812,
@@ -11971,6 +11984,7 @@
   "b105f02e885026ad": 1794117651.9309552,
   "b10e8bc3f4d6e80d": 1793826085.3611226,
   "b12b97d4ceb88903": 1793836879.4258535,
+  "b142d49319b80543": 1794988872.4974785,
   "b175f947cd0ebc2e": 1794022373.6541386,
   "b196e95258849c92": 1794772855.921209,
   "b19f27cefa4a2508": 1794279784.2837017,
@@ -12428,6 +12442,7 @@
   "e12b268340edd9cd": 1793898309.8373187,
   "e14368474ed13847": 1794286878.3594763,
   "e15b553e45986df7": 1794695682.7557752,
+  "e191d57c8956f816": 1794988870.6610136,
   "e1fba496226d5b7b": 1793971855.835181,
   "e20aa9d9cae2afd3": 1793824280.7684836,
   "e212f2282cf26886": 1793944885.907497,
@@ -13946,13 +13961,13 @@
    "GamesIndustry.biz": 5,
    "GitHub Trending": 9,
    "IGN": 6,
-   "ITC.ua": 9,
+   "ITC.ua": 10,
    "IndieWire": 4,
    "Insider Gaming": 7,
    "Kerrang!": 1,
    "Lambgoat": 12,
    "Metal Hammer (Louder)": 9,
-   "Mezha": 16,
+   "Mezha": 17,
    "Neformat": 1,
    "PC Gamer": 8,
    "Pitchfork": 3,
@@ -14926,26 +14941,6 @@
    "",
    1794887925.8781412
   ],
-  "q:award winning": [
-   0,
-   "",
-   1794814469.3201566
-  ],
-  "q:award winning dark": [
-   0,
-   "",
-   1794814468.596229
-  ],
-  "q:award winning dark sci fi": [
-   0,
-   "",
-   1794814467.9307466
-  ],
-  "q:award winning dark sci fi series": [
-   0,
-   "",
-   1794814467.3319006
-  ],
   "q:awards": [
    0,
    "",
@@ -15475,21 +15470,6 @@
    0,
    "",
    1794837700.7716148
-  ],
-  "q:dark": [
-   0,
-   "",
-   1794814470.9042463
-  ],
-  "q:dark sci fi": [
-   0,
-   "",
-   1794814470.37654
-  ],
-  "q:dark sci fi series": [
-   0,
-   "",
-   1794814469.8526947
   ],
   "q:dark souls": [
    570940,
@@ -16946,26 +16926,6 @@
    "",
    1794920495.7269635
   ],
-  "q:netflix's award winning": [
-   0,
-   "",
-   1794814466.8028328
-  ],
-  "q:netflix's award winning dark": [
-   0,
-   "",
-   1794814466.2786117
-  ],
-  "q:netflix's award winning dark sci fi": [
-   0,
-   "",
-   1794814465.7438338
-  ],
-  "q:netflix's award winning dark sci fi series": [
-   0,
-   "",
-   1794814465.227381
-  ],
   "q:new dawn": [
    1644970,
    "NEW DAWN",
@@ -17560,11 +17520,6 @@
    0,
    "",
    1794924102.6741152
-  ],
-  "q:sci fi series": [
-   0,
-   "",
-   1794814471.44799
   ],
   "q:sealbreakers": [
    4244460,
@@ -18404,32 +18359,34 @@
  },
  "tag_hints": {
   "Mezha": [
+   "3 body problem",
    "anthropic",
-   "ddr4",
-   "ddr5",
    "ethereum",
    "gta 6",
-   "nvidia",
+   "netflix",
    "openai",
-   "pcie gen5",
    "tsmc",
    "youtube",
    "автомати",
    "авторське право",
+   "балістика",
    "безпілотники",
-   "бізнес",
    "вразливість",
    "джеймс бонд",
    "дослідження",
-   "залізо",
    "криптовалюти",
    "кібербезпека",
    "кіно",
    "новини",
    "нрк",
+   "німеччина",
    "оборонка",
-   "сервери",
+   "проблема трьох тіл",
+   "ракети",
+   "розвідка",
+   "серіали",
    "суд",
+   "супутники",
    "сша",
    "турель",
    "хакерські атаки",
@@ -18439,14 +18396,6 @@
   ]
  },
  "titles": [
-  [
-   1794814473.0154247,
-   "Netflix's Award-winning Dark Sci-fi Series is Officially Returning"
-  ],
-  [
-   1794814476.4494553,
-   "Meet Pieces Of Molly, the high-voltage Kiwi quartet with global ambitions"
-  ],
   [
    1794816283.4074244,
    "LingoMic"
@@ -19190,17 +19139,17 @@
   [
    1794987096.9393783,
    "Valve показала зимову версію Cobblestone та натякнула на повернення карти в Counter-Strike 2"
+  ],
+  [
+   1794988870.6610143,
+   "Linux не єдина альтернатива: новий проєкт відтворює найкраще з Windows 11 й обіцяє широку сумісність"
+  ],
+  [
+   1794988872.49748,
+   "\"Вони йдуть, щоб нас знищити\": Netflix показав перший тизер другого сезону \"Проблеми трьох тіл\""
   ]
  ],
  "titles_uk": [
-  [
-   1794814473.0154262,
-   "Netflix готує восьмий сезон серіалу Black Mirror"
-  ],
-  [
-   1794814476.4494565,
-   "Новозеландський рок-гурт Pieces Of Molly вирушив у турне Великою Британією"
-  ],
   [
    1794816283.4074256,
    "Мова Mic"
@@ -19944,6 +19893,14 @@
   [
    1794987096.939379,
    "Valve показала зимову версію Cobblestone та натякнула на повернення карти в Counter-Strike 2"
+  ],
+  [
+   1794988870.661015,
+   "Linux не єдина альтернатива: новий проєкт відтворює найкраще з Windows 11 й обіцяє широку сумісність"
+  ],
+  [
+   1794988872.4974806,
+   "\"Вони йдуть, щоб нас знищити\": Netflix показав перший тизер другого сезону \"Проблеми трьох тіл\""
   ]
  ],
  "ukrainian": {
