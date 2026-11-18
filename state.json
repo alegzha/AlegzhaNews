@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795001469.8864295
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1795001469.046299
+  }
+ },
  "daily_digest_date": "2026-11-17",
  "freebies": {
   "last_check": 1794998206.878916,
@@ -30,8 +43,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-18 11:02 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-11-18 11:31 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 2
@@ -41,50 +54,6 @@
   ]
  },
  "post_log": [
-  [
-   1794310275.055734,
-   5534,
-   "🤖",
-   "Безоплатна програма з ШІ від Google: відкрито реєстрацію",
-   "DOU",
-   {
-    "also": [
-     [
-      "Bloomberg",
-      "https://www.bloomberg.com/news/videos/2026-11-10/google-s-gemini-targets-health-care-s-data-problem-video"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://dou.ua/lenta/news/google-free-ai-vibe-coding/",
-    "orig": "Безоплатна програма з ШІ від Google: відкрито реєстрацію"
-   }
-  ],
-  [
-   1794310276.9319975,
-   5535,
-   "🎮",
-   "GTA 6 вже доступна для завантаження: скільки місця знадобиться?",
-   "ITC.ua",
-   {
-    "also": [
-     [
-      "Polygon",
-      "https://www.polygon.com/gta-6-grand-theft-auto-preorders-nba-2k27/"
-     ],
-     [
-      "Digital Foundry",
-      "https://www.digitalfoundry.net/news/2026/11/gta-6-ps5-pro-upgrades-finally-revealed-frame-rate-upscaling-ray-tracing-confirmed"
-     ],
-     [
-      "PC Gamer",
-      "https://www.pcgamer.com/games/grand-theft-auto/i-feel-better-than-ever-waiting-for-gta-6-on-pc-now-rockstar-confirms-its-targeting-30-fps-on-playstation-and-xbox/"
-     ]
-    ],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/gta-6-vzhe-dostupna-dlya-zavantazhennya-skilky-mistsya-znadobytsya/",
-    "orig": "GTA 6 вже доступна для завантаження: скільки місця знадобиться?"
-   }
-  ],
   [
    1794312109.815738,
    5536,
@@ -9120,7 +9089,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Штати вимагають посиленого нагляду за продажем ШІ-чату</b>\n\nДесятки генеральних прокурорів штатів звернулися до федерального судді з проханням посилити нагляд за продажем ШІ-чату. Раніше цей бот нібито заохочував суїцидальні думки у 14-річного підлітка, який наклав на себе руки.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-17/states-press-for-scrutiny-in-sale-of-chatbot-said-to-harm-kids\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-17/states-press-for-scrutiny-in-sale-of-chatbot-said-to-harm-kids",
     "orig": "States Press for Scrutiny in Sale of Chatbot Said to Harm Kids"
@@ -9139,7 +9107,6 @@
       "https://www.indiewire.com/awards/results/ida-documentary-awards-nominations-2026-full-list-1235228889/"
      ]
     ],
-    "caption": "🎬 <b>Номінанти IDA Documentary Awards 2026: лідером стала стрічка Concrete Land</b>\n\nЦього року на премію претендують фільми від відомих режисерів та рекордні 650 заявок із 95 країн\n\n🔗 <a href=\"https://variety.com/2026/film/awards/ida-documentary-awards-2026-nominations-full-list-1236950889/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/film/awards/ida-documentary-awards-2026-nominations-full-list-1236950889/",
     "orig": "IDA Documentary Awards 2026 Nominations: ‘Concrete Land’ Leads With Six, Followed by ‘To Hold a Mountain’ With Five"
@@ -9810,7 +9777,12 @@
    "\"Вони йдуть, щоб нас знищити\": Netflix показав перший тизер другого сезону \"Проблеми трьох тіл\"",
    "Mezha",
    {
-    "also": [],
+    "also": [
+     [
+      "Deadline",
+      "https://deadline.com/2026/11/netflix-uk-ms-apple-adventures-british-ms-rachel-1237227810/"
+     ]
+    ],
     "caption": "🎬 <b>&quot;Вони йдуть, щоб нас знищити&quot;: Netflix показав перший тизер другого сезону &quot;Проблеми трьох тіл&quot;</b>\n\nNetflix опублікував перші кадри й тизер другого сезону науково-фантастичного серіалу &quot;Проблема трьох тіл&quot; / 3 Body Problem – продовження історії про контакт людства із позаземною цивілізацією, заснованої на трилогії Лю Цісіня &quot;Пам&#x27;ять про минуле Землі&quot;.\n\n🔗 <a href=\"https://mezha.ua/news/3-body-problem-season-2-teaser-317323/\">Mezha</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://mezha.ua/news/3-body-problem-season-2-teaser-317323/",
@@ -9984,6 +9956,34 @@
     "link": "https://github.com/jingyaogong/minimind",
     "orig": "jingyaogong/minimind"
    }
+  ],
+  [
+   1795001479.531116,
+   6294,
+   "🤘",
+   "Ієн Маккалох поділився саундтреком свого життя",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Ієн Маккалох поділився саундтреком свого життя</b>\n\nФронтмен гурту Echo &amp; The Bunnymen Ієн Маккалох розповів про ключові музичні моменти свого життя та альбоми, що сформували його смак. Музикант згадав вплив The Rolling Stones, Девіда Бові, Лу Ріда та інших виконавців на його творчість.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/interviews/ian-mcculloch-soundtrack-of-my-life\">Metal Hammer (Louder)</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/interviews/ian-mcculloch-soundtrack-of-my-life",
+    "orig": "Echo & The Bunnymen's Ian McCulloch: The soundtrack of my life"
+   }
+  ],
+  [
+   1795001489.646139,
+   6295,
+   "🎮",
+   "Grand Theft Auto 6 очолила рейтинг найкращих ігор усіх часів на Metacritic",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>Grand Theft Auto 6 очолила рейтинг найкращих ігор усіх часів на Metacritic</b>\n\nГра Grand Theft Auto 6 посіла перше місце у списку найкращих ігор усіх часів за версією Metacritic із середнім балом 99 для PlayStation 5 та Xbox Series X/S. Завдяки цьому проєкт обійшов ремейк The Legend of Zelda: Ocarina of Time та став лідером рейтингу агрегатора рецензій.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/grand-theft-auto-6-is-currently-the-highest-scoring-video-game-of-all-time-according-to-metacritic/\">VGC</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/grand-theft-auto-6-is-currently-the-highest-scoring-video-game-of-all-time-according-to-metacritic/",
+    "orig": "Grand Theft Auto 6 is currently the highest scoring video game of all time, according to Metacritic"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10093,7 +10093,8 @@
    1794925901.615652
   ],
   "games|VGC|https://www.videogameschronicle.com/feed/": [
-   1794999732.979052
+   1794999732.979052,
+   1795001489.6463668
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1794882683.1976333,
@@ -10177,7 +10178,8 @@
    1794961881.3375897,
    1794965493.9252086,
    1794969087.7903683,
-   1794994291.120553
+   1794994291.120553,
+   1795001479.5313768
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1794632474.2096412
@@ -10310,7 +10312,6 @@
   "06a544e6d607592d": 1794394853.3603945,
   "06ac7a204a07e98e": 1793901796.532273,
   "06b851675cb99f73": 1793946699.9029233,
-  "06ceac650559309e": 1793790457.3855624,
   "06dcda872cd5a8ae": 1793885520.3950043,
   "06f47105f1256e15": 1794978094.8520443,
   "070d309edf47bb38": 1794268889.400284,
@@ -10343,7 +10344,6 @@
   "09f7211054e8fd6a": 1793993385.7780004,
   "0a0cabf1c8e8609f": 1794627078.9178329,
   "0a14ef0bbd008b53": 1793975518.1521544,
-  "0a2248ff00eaf75b": 1793790162.0386083,
   "0a24c7e254e6fef2": 1794261680.3718498,
   "0a2b8c2efc2728e5": 1794585687.2769177,
   "0a72cb7cf38fdebe": 1793800904.646153,
@@ -10530,6 +10530,7 @@
   "1d3c593ef8dec9a7": 1794951100.3418221,
   "1d5b91cceb66f5a0": 1794342653.1379323,
   "1d83d65aba62e1e5": 1794330058.4836624,
+  "1db09a89319c31fc": 1795001479.5313246,
   "1dbf4e9e49e7d75d": 1794108686.055419,
   "1dcba263afee938f": 1794393098.500801,
   "1dcc4e08fafb7cdf": 1794819674.710832,
@@ -10776,6 +10777,7 @@
   "37508090a11c0d6e": 1793793701.673298,
   "3781448153b0315f": 1794823495.8280075,
   "3794e02805893732": 1794375094.2627156,
+  "37a8709304e91818": 1795001460.8855703,
   "3809cdc19b7d03a5": 1794218581.2804193,
   "381b5f58746d6387": 1794126673.0223253,
   "3842d8555ab65648": 1794969091.2424684,
@@ -10860,7 +10862,6 @@
   "407e4309223feda2": 1793962977.5184963,
   "40b9a0970f25255b": 1794229254.6836922,
   "40bb194a7043e3b6": 1794076251.7871988,
-  "40db2787dffb6f94": 1793790160.0620031,
   "40eec788e94e4d29": 1793898090.5023394,
   "4100f4f3a6f57555": 1793885456.9019864,
   "41371a3772bd65c2": 1794886253.941115,
@@ -11103,10 +11104,10 @@
   "5c7af98210427b8c": 1794668451.1657076,
   "5cc77acecf7b8096": 1793899979.6416984,
   "5d43055414eaef7c": 1794065489.938823,
-  "5d65eb104765e6c6": 1793790481.195648,
   "5d999b17f72c1067": 1793811683.7862215,
   "5db5eec8faf5ae7a": 1794475909.8663523,
   "5dc12a2327e6f454": 1794861105.3816972,
+  "5dcc0bc6e245bf38": 1795001489.6463184,
   "5dd7a59be3d009c9": 1794232940.0602186,
   "5ddaa834fe4ebd5f": 1794333654.8439758,
   "5defa60d5c39c846": 1793797535.9518971,
@@ -11334,6 +11335,7 @@
   "73bf58ad2b27fa9e": 1794744076.590944,
   "73c45374c6497dfa": 1793833291.6126142,
   "73dc4b1b295aba9d": 1793833298.6685505,
+  "73f808e389f1dfe2": 1795001473.3824723,
   "742a79191e1f4f9b": 1793914276.7185953,
   "74366967f6c12f50": 1794731759.329611,
   "7440232213c89728": 1793980856.010392,
@@ -11403,7 +11405,6 @@
   "7a09efd450dc1d7b": 1793912683.152562,
   "7a0a720b715addd0": 1794454276.5957723,
   "7a1a9fdba05583c6": 1794263376.6669595,
-  "7a53076bad5912b3": 1793791881.4996517,
   "7a5b4a02704c7af8": 1794981684.6440277,
   "7a611172b2abc75e": 1794310275.0560873,
   "7ad5254cb90b9927": 1794682854.575637,
@@ -11493,7 +11494,6 @@
   "82661a54ff263b73": 1794247282.629497,
   "826d29550a05cd7e": 1794979908.303383,
   "8275d9fda686ec67": 1794114090.5027995,
-  "829e270d45609990": 1793790169.1975977,
   "82b66046a6494248": 1794871890.616934,
   "82cd917056ad5a79": 1794609055.1572344,
   "83006f94f1a5f32f": 1793890882.1479006,
@@ -11601,7 +11601,6 @@
   "8d5bae83cfce53c5": 1793815447.287096,
   "8dbaa27d684960be": 1794492161.157827,
   "8dc4a6a9ec353083": 1794267175.2273066,
-  "8dc952d0250ee645": 1793790174.7717426,
   "8dd03b31fcd78c57": 1793883833.9095404,
   "8e1fade4ce2efbb1": 1794846691.2536154,
   "8e2231f6c64bfa5a": 1793817177.5515943,
@@ -11611,7 +11610,6 @@
   "8eee178e53fb2b8b": 1793856655.0170114,
   "8f03b34a92d7cb4d": 1793820686.935686,
   "8f05bc7d66a846df": 1793910653.3599937,
-  "8f1e7485cbcf8a27": 1793790150.7305477,
   "8f2e6702d71c6071": 1794724367.8769994,
   "8f472a09e7303e6b": 1794261677.441168,
   "8f5ad7d48d38018b": 1794044061.6716585,
@@ -12183,6 +12181,7 @@
   "cd0202091e2ce36f": 1793821931.3479493,
   "cd16ad53b9433f3e": 1794115881.4298012,
   "cd224fcd39008e66": 1793793715.2023675,
+  "cd5819428ecda86e": 1795001460.8855703,
   "cd7005031adec8d6": 1793819027.1447773,
   "cd70f0ed70179bba": 1793986278.1740103,
   "cd8c6a1b66bb9a3c": 1794115976.4398875,
@@ -12298,7 +12297,6 @@
   "d6fa9dcc5349b895": 1793827916.6509485,
   "d706e6c706b5424e": 1793905317.2771583,
   "d713f570446d7273": 1793849495.7375321,
-  "d7288948adcbfb8b": 1793790164.4106803,
   "d739b29f104302be": 1794893459.6418285,
   "d74e5733fb0acfb7": 1793980886.2638364,
   "d74e8a8e22fe3ac6": 1794418292.0812464,
@@ -12461,6 +12459,7 @@
   "e9cd622c57fadabc": 1793905293.112482,
   "e9e37faea4d91eef": 1794130320.2819865,
   "e9ee834f07002a34": 1794526278.3937762,
+  "ea020bd4c163cf88": 1795001473.0646799,
   "ea09a2dc8c17c0fe": 1793939658.7171464,
   "ea2065f78b532f39": 1794900685.0720696,
   "ea2fe1af12c11121": 1794400295.8181024,
@@ -13878,7 +13877,7 @@
    "GameSpot": 2,
    "GamesIndustry.biz": 1,
    "IGN": 6,
-   "Insider Gaming": 14,
+   "Insider Gaming": 16,
    "Lambgoat": 1,
    "Loudwire": 3,
    "PC Gamer": 4,
@@ -13905,7 +13904,7 @@
    "Insider Gaming": 7,
    "Kerrang!": 1,
    "Lambgoat": 12,
-   "Metal Hammer (Louder)": 10,
+   "Metal Hammer (Louder)": 11,
    "Mezha": 17,
    "Neformat": 1,
    "PC Gamer": 8,
@@ -13919,13 +13918,13 @@
    "Stereogum": 2,
    "The Decoder": 6,
    "ThePRP": 5,
-   "VGC": 3,
+   "VGC": 4,
    "Variety": 17
   },
   "translators": {
    "DeepL": 23,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 207
+   "gemini-flash-lite-latest": 209
   },
   "week": "2026-W47"
  },
@@ -14745,25 +14744,10 @@
    "",
    1794828673.8568454
   ],
-  "q:across various stages of development": [
-   0,
-   "",
-   1794828672.2819035
-  ],
   "q:actors": [
    5151960,
    "Actors",
    1792494216.4245722
-  ],
-  "q:ai olympius": [
-   1478970,
-   "AI Olympius",
-   1792407741.0259464
-  ],
-  "q:ai slop": [
-   4813820,
-   "AI Slop",
-   1792407702.480783
   ],
   "q:airframe ultra": [
    2522120,
@@ -15189,11 +15173,6 @@
    0,
    "",
    1794924098.9710233
-  ],
-  "q:captures": [
-   1712680,
-   "Captures",
-   1792407695.1787722
   ],
   "q:casters call for change": [
    0,
@@ -16605,6 +16584,11 @@
    "Messiah",
    1793104420.767276
   ],
+  "q:metacritic": [
+   0,
+   "",
+   1795001481.5819035
+  ],
   "q:metro 2033 redux": [
    286690,
    "METRO 2033 Redux",
@@ -17104,11 +17088,6 @@
    0,
    "",
    1794828673.3092437
-  ],
-  "q:pearl abyss": [
-   0,
-   "",
-   1794828672.7839525
   ],
   "q:penguin colony": [
    3695930,
@@ -18288,7 +18267,6 @@
  },
  "tag_hints": {
   "Mezha": [
-   "3 body problem",
    "amazon",
    "anthropic",
    "f-16",
@@ -18308,7 +18286,6 @@
    "військова допомога",
    "дрони",
    "компоненти зброї",
-   "кіно",
    "міноборони",
    "новини",
    "німеччина",
@@ -18316,12 +18293,10 @@
    "опк",
    "польща",
    "ппо",
-   "проблема трьох тіл",
    "південна корея",
    "радар",
    "ракети",
    "розвідка",
-   "серіали",
    "софт",
    "стримінгові платформи",
    "стрімінгові сервіси",
@@ -18333,14 +18308,6 @@
   ]
  },
  "titles": [
-  [
-   1794826975.8053246,
-   "CNN To Reveal ‘Ancient Secrets With Erica Hill’"
-  ],
-  [
-   1794826980.8674269,
-   "British Stars Including Natalie Dormer, Richard Armitage & Susan Wokoma Sign Open Letter Calling For Entertainment Industry To “Acknowledge Role It Plays” In Enabling Bad Behavior"
-  ],
   [
    1794828856.2654603,
    "Crimson Desert studio Pearl Abyss says it now uses AI ‘across various stages of development’"
@@ -19084,17 +19051,17 @@
   [
    1794999745.7375085,
    "jingyaogong/minimind"
+  ],
+  [
+   1795001479.5313272,
+   "Echo & The Bunnymen's Ian McCulloch: The soundtrack of my life"
+  ],
+  [
+   1795001489.6463203,
+   "Grand Theft Auto 6 is currently the highest scoring video game of all time, according to Metacritic"
   ]
  ],
  "titles_uk": [
-  [
-   1794826975.8053253,
-   "CNN анонсує документальний серіал Ancient Secrets with Erica Hill"
-  ],
-  [
-   1794826980.8674278,
-   "Британські зірки підписали відкритий лист проти «культури таємниць» у кіно"
-  ],
   [
    1794828856.2654622,
    "Студія Crimson Desert Pearl Abyss заявляє, що наразі використовує штучний інтелект «на різних етапах розробки»"
@@ -19838,6 +19805,14 @@
   [
    1794999745.7375097,
    "Створіть власну LLM на 64M параметрів лише за 2 години"
+  ],
+  [
+   1795001479.5313282,
+   "Ієн Маккалох поділився саундтреком свого життя"
+  ],
+  [
+   1795001489.646321,
+   "Grand Theft Auto 6 очолила рейтинг найкращих ігор усіх часів на Metacritic"
   ]
  ],
  "ukrainian": {
