@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|ThePRP|https://www.theprp.com/feed/": {
+   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ThePRP» не працює",
+   "sent": 0,
+   "since": 1795003287.9660473
+  }
+ },
  "daily_digest_date": "2026-11-17",
  "freebies": {
   "last_check": 1794998206.878916,
@@ -30,11 +37,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-18 11:55 UTC",
+  "at": "2026-11-18 12:01 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
@@ -9133,7 +9140,6 @@
    "Stereogum",
    {
     "also": [],
-    "caption": "🤘 <b>Chuquimamani-Condori поділився новими реміксами треків Kelela</b>\n\nМузикант опублікував архів із вісьмома редагуваннями пісень Kelela, створеними для старих DJ-сетів. Це сталося після їхнього возз&#x27;єднання на італійському фестивалі C2C та минулорічної співпраці над треками для Берлінської біенале.\n\n🔗 <a href=\"https://stereogum.com/2518393/chuquimamani-condori-kelela-edits-download/music/\">Stereogum</a>\n\n#музика",
     "kind": "photo",
     "link": "https://stereogum.com/2518393/chuquimamani-condori-kelela-edits-download/music/",
     "orig": "Chuquimamani-Condori Shares Some Kelela Edits After Their C2C Reunion"
@@ -9328,7 +9334,12 @@
    "Джефф Безос розповів, чому Роберт Паттінсон став новим Джеймсом Бондом",
    "Deadline",
    {
-    "also": [],
+    "also": [
+     [
+      "Mezha",
+      "https://mezha.ua/news/james-bond-casting-jeff-bezos-amazon-317330/"
+     ]
+    ],
     "caption": "🎬 <b>Джефф Безос розповів, чому Роберт Паттінсон став новим Джеймсом Бондом</b>\n\nЗасновник Amazon Джефф Безос розповів про процес вибору Роберт Паттінсон на роль наступного Джеймса Бонда. Після тестування п&#x27;яти фіналістів у повних костюмах і на реальних декораціях комісія одностайно обрала Паттінсона, попри початкові сумніви через його надмірну популярність.\n\n🔗 <a href=\"https://deadline.com/2026/11/jeff-bezos-chose-robert-pattinson-james-bond-1237227282/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/jeff-bezos-chose-robert-pattinson-james-bond-1237227282/",
@@ -9997,6 +10008,20 @@
     "link": "https://deadline.com/2026/11/noel-clarke-sexual-offenses-trial-november-2027-1237227838/",
     "orig": "Noel Clarke Sexual Offenses Trial Set For Next Year"
    }
+  ],
+  [
+   1795003300.8771746,
+   6298,
+   "🤘",
+   "Bury Tomorrow випустили новий сингл Assimilate",
+   "Kerrang!",
+   {
+    "also": [],
+    "caption": "🤘 <b>Bury Tomorrow випустили новий сингл Assimilate</b>\n\n🔗 <a href=\"https://www.kerrang.com/hear-bury-tomorrow-get-existential-on-shapeshifting-new-single-assimilate\">Kerrang!</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.kerrang.com/hear-bury-tomorrow-get-existential-on-shapeshifting-new-single-assimilate",
+    "orig": "Hear Bury Tomorrow get existential on shapeshifting new single Assimilate"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10175,7 +10200,8 @@
    1794983487.66124
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
-   1794918915.497349
+   1794918915.497349,
+   1795003300.8774254
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
    1794958379.0945435,
@@ -10397,7 +10423,6 @@
   "0e30b894b8aae235": 1794992854.263969,
   "0e41cc476573c34b": 1794457886.0946999,
   "0e4504ef13d921b6": 1793817101.1104596,
-  "0ea2f479103990f0": 1793793658.998931,
   "0eb24c715405b095": 1794846655.2895768,
   "0ec8a31bc0d96daa": 1794706293.6242511,
   "0ede997d073a6cb8": 1794488452.2940018,
@@ -10495,7 +10520,6 @@
   "1796fb9307740fc2": 1793827922.3233933,
   "17bf9318e45dd8a8": 1794839485.2085533,
   "17c6e78082fda4a9": 1794682854.575637,
-  "17f71d4a4f85b1d4": 1793793684.0128694,
   "17f86f1e9e76a0bc": 1794417340.1571603,
   "18111343bdbdc862": 1794853852.7215874,
   "1813149d3457eb59": 1794643258.248781,
@@ -10591,6 +10615,7 @@
   "22230d807f4ec09b": 1794438052.6129565,
   "22438c0e7fac2ca4": 1793883839.2759979,
   "226b714f8ef3b13b": 1793808081.7286212,
+  "2296fe9f1bf19e85": 1795003300.8773806,
   "22c0cfa89bfdb67b": 1794949478.0575066,
   "22f515f288ce48ef": 1794650473.9104357,
   "23196e218954bc2d": 1794027782.8948328,
@@ -10787,7 +10812,6 @@
   "371ff855707ac2b1": 1794780076.0764132,
   "372e272e7f799819": 1793896430.5025733,
   "3749461632f3a1b2": 1794889885.7630756,
-  "37508090a11c0d6e": 1793793701.673298,
   "3781448153b0315f": 1794823495.8280075,
   "3794e02805893732": 1794375094.2627156,
   "37a8709304e91818": 1795001460.8855703,
@@ -11017,6 +11041,7 @@
   "517850c6e01b4d65": 1794592885.8674386,
   "518b485e28cf4f3b": 1794256256.1973255,
   "519ce1a8766ff555": 1793957456.027642,
+  "51c3a879e4d7edac": 1795003298.0033274,
   "51d850fc09234a36": 1794333681.392647,
   "51f6975e1fc0591a": 1794321225.692677,
   "520a4e580cb250cb": 1794060084.5484214,
@@ -11058,6 +11083,7 @@
   "55cad23c843395ab": 1794379783.9103365,
   "55f1a05e3c242a02": 1794306676.3979933,
   "561b88a4a1443c4f": 1794213096.5452287,
+  "569a83400c460624": 1795003253.1151035,
   "56e79674200fef27": 1793881915.224931,
   "56e816063ec93e36": 1794735166.9775567,
   "56f34e40817100c2": 1794828856.2654586,
@@ -11232,6 +11258,7 @@
   "68d13fafc7c56e1c": 1794223852.0687604,
   "68f3cf0a92827aee": 1794725136.8755693,
   "690405cdfdae1279": 1794695750.8160481,
+  "69177d9119ea542c": 1795003302.726953,
   "692617833aad1b71": 1794492082.919936,
   "692868a307cd52d5": 1793923274.5150125,
   "693e8d289d3b73ed": 1794542573.636068,
@@ -11884,7 +11911,6 @@
   "aa732eb7a45a30bc": 1794292275.090826,
   "aa7eb7f56dd7d314": 1793910700.2170768,
   "aad0112bc87d6a39": 1794699072.7626278,
-  "ab1326192fd17f1c": 1793793684.0223513,
   "ab29c660172a2556": 1793919705.5728858,
   "ab2c2f54c2bae79b": 1794645076.4064775,
   "ab2d096007269d11": 1793876902.575167,
@@ -12051,6 +12077,7 @@
   "bd4bc2ce19de7d37": 1794969087.790321,
   "bd4fec8eba81c105": 1794880908.74793,
   "bd55895dbad1aa4c": 1793919695.2777495,
+  "bd58b25f35d4416e": 1795003298.0038018,
   "bda0dc108c4cd47c": 1794904275.4484015,
   "bda7822d60012035": 1793804584.9763937,
   "bdb8581f1d1266ac": 1793808524.2777085,
@@ -12338,6 +12365,7 @@
   "d9a650738e32ea43": 1794733368.4778433,
   "d9bc06779f5a7c06": 1793801035.831989,
   "d9c98341bc7aac99": 1794189685.204877,
+  "d9f34219f11437e9": 1795003298.0041707,
   "d9feef0f6eee3372": 1794394892.642675,
   "da488d2bf9306801": 1794384247.7978582,
   "da5dc4eb4fbc5c01": 1794326455.216971,
@@ -12456,7 +12484,6 @@
   "e8721423a9652ff8": 1794484882.68605,
   "e8724f9e4de1c5e9": 1794411073.816912,
   "e891c97409f3641e": 1794357192.7768784,
-  "e89c5db22ddd9f47": 1793793684.012507,
   "e8c4ec13f33be9f6": 1794398688.2692947,
   "e8e69ff51a6eaaed": 1794695763.8535097,
   "e8f1d534bf4df31f": 1794999653.1275568,
@@ -13895,7 +13922,7 @@
    "Lambgoat": 1,
    "Loudwire": 3,
    "PC Gamer": 4,
-   "Polygon": 25,
+   "Polygon": 26,
    "VGC": 2,
    "Variety": 4
   },
@@ -13916,7 +13943,7 @@
    "ITC.ua": 10,
    "IndieWire": 4,
    "Insider Gaming": 7,
-   "Kerrang!": 1,
+   "Kerrang!": 2,
    "Lambgoat": 12,
    "Metal Hammer (Louder)": 11,
    "Mezha": 17,
@@ -13938,7 +13965,7 @@
   "translators": {
    "DeepL": 23,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 211
+   "gemini-flash-lite-latest": 212
   },
   "week": "2026-W47"
  },
@@ -15052,11 +15079,6 @@
    0,
    "",
    1794843087.3482082
-  ],
-  "q:blizzard": [
-   0,
-   "",
-   1794830477.23914
   ],
   "q:blood and ice": [
    455320,
@@ -16637,11 +16659,6 @@
    0,
    "",
    1794835877.581883
-  ],
-  "q:missed the mark": [
-   0,
-   "",
-   1794830476.712296
   ],
   "q:mitsuda": [
    0,
@@ -18261,7 +18278,6 @@
    "gemini",
    "google",
    "megogo",
-   "microsoft",
    "netflix",
    "nvidia",
    "setanta sports",
@@ -18269,8 +18285,10 @@
    "бпла",
    "бізнес",
    "генштаб",
+   "джеймс бонд",
    "дрони",
    "компоненти зброї",
+   "кіно",
    "новини",
    "оборонка",
    "опк",
@@ -19042,6 +19060,10 @@
   [
    1795002898.9042728,
    "Noel Clarke Sexual Offenses Trial Set For Next Year"
+  ],
+  [
+   1795003300.877382,
+   "Hear Bury Tomorrow get existential on shapeshifting new single Assimilate"
   ]
  ],
  "titles_uk": [
@@ -19796,6 +19818,10 @@
   [
    1795002898.9042737,
    "Суд над актором Noel Clarke у справі про сексуальні злочини відбудеться у 2027 році"
+  ],
+  [
+   1795003300.877383,
+   "Bury Tomorrow випустили новий сингл Assimilate"
   ]
  ],
  "ukrainian": {
