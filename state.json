@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1794965478.723698
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1794965477.3484206
+  }
+ },
  "daily_digest_date": "2026-11-17",
  "freebies": {
   "last_check": 1794960096.1177201,
@@ -30,75 +43,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-18 01:01 UTC",
-  "gemini_error": "Expecting value: line 1 column 1 (char 0)",
+  "at": "2026-11-18 01:31 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 3
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794272482.3624923,
-   5492,
-   "🎮",
-   "Фреймрейт у Steam Deck",
-   "SteamDB",
-   {
-    "also": [
-     [
-      "Rock Paper Shotgun",
-      "https://www.rockpapershotgun.com/steams-new-steam-deck-framerate-graphs-are-good-news-for-handheld-players-though-i-wouldnt-fully-trust-the-numbers-yet"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://bsky.app/profile/steamdb.info/post/3mzw7es6hst2r",
-    "orig": "Steam Deck Framerate"
-   }
-  ],
-  [
-   1794272486.0226912,
-   5493,
-   "💾",
-   "Google DeepMind оновлює фізичний рушій MuJoCo",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/google-deepmind/mujoco",
-    "orig": "google-deepmind/mujoco"
-   }
-  ],
-  [
-   1794274276.3562453,
-   5494,
-   "🤘",
-   "У мережі з'явився архівний кінопробно Paul Stanley з 1980-х",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/bands-artists/paul-stanley-screentest",
-    "orig": "Watch an unintentionally hilarious Paul Stanley screentest from the early 1980s"
-   }
-  ],
-  [
-   1794274279.7757583,
-   5495,
-   "💾",
-   "Anthropic випустила колекцію проєктів Claude Quickstarts",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/anthropics/claude-quickstarts",
-    "orig": "anthropics/claude-quickstarts"
-   }
-  ],
   [
    1794276090.30256,
    5496,
@@ -9128,7 +9083,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>GTA 6 вийде 19 листопада: деталі релізу, ціни видань та попереднє завантаження</b>\n\nGrand Theft Auto 6 виходить 19 листопада 2026 року на Xbox та PlayStation 5, а попереднє завантаження вже стартувало. Гра отримає поетапний запуск опівночі за місцевим часом, починаючи з Нової Зеландії. Проєкт представлений у двох версіях: Standard Edition за $79.99 та Ultimate Edition за $99.99 із бонусами за передзамовлення.\n\n🔗 <a href=\"https://insider-gaming.com/is-gta-6-out-now-launch-day-tracker/\">Insider Gaming</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/is-gta-6-out-now-launch-day-tracker/",
     "orig": "Is GTA 6 Out Now? Grand Theft Auto 6 Launch Day Tracker"
@@ -9163,7 +9117,6 @@
       "https://www.ign.com/articles/gta-6-vice-city-nba-court-revealed-by-miami-heat"
      ]
     ],
-    "caption": "🎮 <b>Нові скріншоти GTA 6: як реалістичні погодні умови впливатимуть на ігролад</b>\n\nRockstar Games продовжує розвивати маркетингову кампанію GTA 6, залучаючи до промоції гри всесвітньо відомі бренди. Цього разу партнером студії став The Weather Channel — американський метеорологічний телеканал і погодний сервіс, який опублікував шість нових скріншотів гри. Вони демонструють динамічну погодну систему вигаданого штату Леоніда та її вплив на ігровий процес.\n\n🔗 <a href=\"https://itc.ua/ua/novini/novi-skrinshoty-gta-6-yak-realistychni-pogodni-umovy-vplyvatymut-na-igrolad/\">ITC.ua</a>\n\n#ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/novi-skrinshoty-gta-6-yak-realistychni-pogodni-umovy-vplyvatymut-na-igrolad/",
     "orig": "Нові скріншоти GTA 6: як реалістичні погодні умови впливатимуть на ігролад"
@@ -9177,7 +9130,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>T-Series та Hungama запускають платформу мікродрам FastTV за $32 мільйони</b>\n\n🔗 <a href=\"https://variety.com/2026/tv/news/t-series-hungama-microdrama-platform-fasttv-1236949339/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/tv/news/t-series-hungama-microdrama-platform-fasttv-1236949339/",
     "orig": "India’s T-Series and Hungama Launch Microdrama Platform FastTV With $32 Million Commitment (EXCLUSIVE)"
@@ -9999,6 +9951,48 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-17/senate-hearing-condemns-roblox-s-child-safety-record",
     "orig": "Senate Hearing Condemns Roblox’s Child Safety Record"
    }
+  ],
+  [
+   1794965489.103345,
+   6253,
+   "🎬",
+   "У The Simpsons вшанували пам'ять Еріка Баузи",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>У The Simpsons вшанували пам&#x27;ять Еріка Баузи</b>\n\nУ фіналі епізоду The Simpsons додали титр із присвятою Еріку Баузі, який раптово помер у 46 років. Відомий актор озвучення посмертно з&#x27;явився в цій серії, озвучивши двох персонажів. Команда проєкту сподівалася на подальшу співпрацю з ним.\n\n🔗 <a href=\"https://www.slashfilm.com/2320092/the-simpsons-season-46-eric-bauza-tribute-explained/\">/Film</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2320092/the-simpsons-season-46-eric-bauza-tribute-explained/",
+    "orig": "The Simpsons Season 46's Eric Bauza Tribute Explained"
+   }
+  ],
+  [
+   1794965493.9249427,
+   6254,
+   "🤘",
+   "Джек Блек назвав найкращого вокаліста в історії важкого металу",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Джек Блек назвав найкращого вокаліста в історії важкого металу</b>\n\nФронтмен Tenacious D Джек Блек назвав покійного Ронні Джеймса Діо найкращим важкометалевим вокалістом усіх часів на благодійному вечорі Bowl for Ronnie. Блек поділився спогадами про музиканта, зазначивши його величезний вплив, почуття гумору та спільну роботу над фільмом Tenacious D in The Pick of Destiny.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/jack-black-names-the-greatest-heavy-metal-vocalist-of-all-time\">Metal Hammer (Louder)</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/jack-black-names-the-greatest-heavy-metal-vocalist-of-all-time",
+    "orig": "Jack Black names the greatest heavy metal vocalist of all time: \"He's still the reigning champion\""
+   }
+  ],
+  [
+   1794965497.0029018,
+   6255,
+   "🎬",
+   "Даріан Ланзетта залишає Mattel Studios",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Даріан Ланзетта залишає Mattel Studios</b>\n\n🔗 <a href=\"https://deadline.com/2026/11/darian-lanzetta-exits-mattel-studios-1237227411/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/darian-lanzetta-exits-mattel-studios-1237227411/",
+    "orig": "Darian Lanzetta Out At Mattel Studios"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10111,18 +10105,16 @@
    1794907889.419466
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
-   1794875490.1073518,
    1794882683.1976333,
    1794882692.550664,
-   1794961877.8476512
+   1794961877.8476512,
+   1794965489.103588
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792944099.3403795,
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1794877484.2350001,
-   1794877497.1928813,
    1794884529.3795588,
    1794889885.7631254,
    1794897106.8863862,
@@ -10134,7 +10126,8 @@
    1794958375.3762827,
    1794960086.3351846,
    1794961884.5306504,
-   1794963653.726286
+   1794963653.726286,
+   1794965497.0031416
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794663071.9451547
@@ -10188,7 +10181,8 @@
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1794891689.151541,
-   1794961881.3375897
+   1794961881.3375897,
+   1794965493.9252086
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1794632474.2096412
@@ -10315,6 +10309,7 @@
   "05acc5df2ba56e7f": 1794612684.7517095,
   "05ceb22b6f1d0639": 1794891685.4781559,
   "062ba47c62da9eee": 1794834194.274951,
+  "062e8e1481971987": 1794965493.925166,
   "0671c06d7df1ebdc": 1794655885.169173,
   "06721562b9041ba7": 1794123084.485029,
   "06764ddd4b90c3d7": 1794627081.7342012,
@@ -11303,6 +11298,7 @@
   "6ea89312432564a4": 1794641656.7550395,
   "6eaa64434e8db0c7": 1793876914.6332395,
   "6eb32b0851601da7": 1794409253.592725,
+  "6eef0929d7191992": 1794965489.1035419,
   "6f217f40854ddef3": 1793905352.2478485,
   "6f3dcc99c0a22cbc": 1793874679.9521353,
   "6f6ba225786f87fd": 1794393116.6743698,
@@ -11495,7 +11491,6 @@
   "817bfb4c1cd93d2e": 1794250886.4431863,
   "818ce15a49e53ad4": 1794177074.1994607,
   "81a176838c6102df": 1794486690.3895006,
-  "81a7517b68b536ff": 1793755677.7117078,
   "81dd8fcf722b9eb8": 1794357093.8702137,
   "81def5cca7df6ff7": 1794423654.150766,
   "81e259df97c82616": 1793896562.4306662,
@@ -11798,10 +11793,12 @@
   "a07c6234395751c7": 1794547873.2126691,
   "a0baa12c6ca17347": 1793781125.7622426,
   "a0c07b20325751f7": 1794774828.309141,
+  "a0e5cf1c4dee7673": 1794965486.335891,
   "a0fa5e54eda8c8ac": 1793896538.0667965,
   "a10d2d9903ab1186": 1794592858.1127434,
   "a190a1020acc7b9c": 1793896536.0287971,
   "a1a6683ba08af072": 1793872943.260903,
+  "a1a8ee03a448c1d9": 1794965497.0031004,
   "a1c797c25e84744a": 1793903650.5805779,
   "a1cbec1a9c08adaa": 1793914298.7164598,
   "a1e918d3c6e415b4": 1794223978.675429,
@@ -12154,7 +12151,6 @@
   "c7c67cca03e83bf2": 1793899892.8634381,
   "c7f2cd8ac9554821": 1794339074.573024,
   "c82358ed4e39a193": 1793799106.123002,
-  "c876ad899ff837e9": 1793755680.6626332,
   "c87bc044fe99a0f2": 1793872932.9025483,
   "c87dd438875c392f": 1793815341.686367,
   "c8acb422d9397fe1": 1793941284.4177978,
@@ -13144,7 +13140,7 @@
   ],
   "artists_checked": 1794958391.3106225,
   "blocked_until": 1794956602.5083115,
-  "cursor": 47,
+  "cursor": 57,
   "digest_week": "2026-W46",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13913,13 +13909,13 @@
    "Variety": 4
   },
   "sources": {
-   "/Film": 11,
+   "/Film": 12,
    "AIN.ua": 2,
    "Blabbermouth": 3,
    "Bloomberg": 17,
    "DOU": 2,
    "DOU Gamedev": 2,
-   "Deadline": 32,
+   "Deadline": 33,
    "Distorted Sound": 3,
    "Eurogamer": 3,
    "GameSpot": 1,
@@ -13931,7 +13927,7 @@
    "Insider Gaming": 6,
    "Kerrang!": 1,
    "Lambgoat": 9,
-   "Metal Hammer (Louder)": 7,
+   "Metal Hammer (Louder)": 8,
    "Mezha": 16,
    "Neformat": 1,
    "PC Gamer": 5,
@@ -13951,7 +13947,7 @@
   "translators": {
    "DeepL": 18,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 174
+   "gemini-flash-lite-latest": 177
   },
   "week": "2026-W47"
  },
@@ -15911,26 +15907,6 @@
    "",
    1794841306.1478443
   ],
-  "q:game preservation": [
-   0,
-   "",
-   1794792680.1312392
-  ],
-  "q:game preservation is": [
-   0,
-   "",
-   1794792679.6327593
-  ],
-  "q:game preservation is core": [
-   0,
-   "",
-   1794792679.137519
-  ],
-  "q:game preservation is core to xbox": [
-   0,
-   "",
-   1794792678.611614
-  ],
   "q:game world": [
    5061320,
    "Game World",
@@ -16360,21 +16336,6 @@
    0,
    "",
    1794812484.7522826
-  ],
-  "q:is core to xbox": [
-   0,
-   "",
-   1794792684.1639547
-  ],
-  "q:is core to xbox project": [
-   0,
-   "",
-   1794792683.667798
-  ],
-  "q:is core to xbox project helix": [
-   0,
-   "",
-   1794792683.1753802
   ],
   "q:is gta": [
    0,
@@ -17200,31 +17161,6 @@
    0,
    "",
    1794922288.5006819
-  ],
-  "q:preservation": [
-   0,
-   "",
-   1794792682.6552753
-  ],
-  "q:preservation is": [
-   0,
-   "",
-   1794792682.1637597
-  ],
-  "q:preservation is core": [
-   0,
-   "",
-   1794792681.6483715
-  ],
-  "q:preservation is core to xbox": [
-   0,
-   "",
-   1794792681.1422918
-  ],
-  "q:preservation is core to xbox project": [
-   0,
-   "",
-   1794792680.6234457
   ],
   "q:prey": [
    480490,
@@ -18294,22 +18230,6 @@
  },
  "titles": [
   [
-   1794790875.7513998,
-   "AVATAR's JOHN ALFREDSSON Praises LARS ULRICH's Drumming: 'He Will Blow You Away. He's So Good.'"
-  ],
-  [
-   1794790879.6178298,
-   "Watch John Fogerty sing Creedence Clearwater Revival in the back of Zach Bryan's Ford Bronco"
-  ],
-  [
-   1794792685.4034903,
-   "Game Preservation Is Core to XBOX Project Helix"
-  ],
-  [
-   1794792688.2601976,
-   "‘Beast Games’ Sets Season 3 Release Date At Prime Video"
-  ],
-  [
    1794794842.0780823,
    "Bill Pullman Starred In This '90s Neo-Noir Drama That Tried Suing The Oscars"
   ],
@@ -19044,25 +18964,21 @@
   [
    1794963668.2155142,
    "Senate Hearing Condemns Roblox’s Child Safety Record"
+  ],
+  [
+   1794965489.1035438,
+   "The Simpsons Season 46's Eric Bauza Tribute Explained"
+  ],
+  [
+   1794965493.9251678,
+   "Jack Black names the greatest heavy metal vocalist of all time: \"He's still the reigning champion\""
+  ],
+  [
+   1794965497.0031025,
+   "Darian Lanzetta Out At Mattel Studios"
   ]
  ],
  "titles_uk": [
-  [
-   1794790875.7514007,
-   "Драмер AVATAR назвав Ларса Ульріха з METALLICA своїм натхненням"
-  ],
-  [
-   1794790879.617832,
-   "John Fogerty зіграв класику Creedence Clearwater Revival у шоу Zach Bryan"
-  ],
-  [
-   1794792685.403491,
-   "Збереження відеоігор стане ключовою частиною для XBOX Project Helix"
-  ],
-  [
-   1794792688.2601984,
-   "Prime Video оголосив дату виходу третього сезону Beast Games"
-  ],
   [
    1794794842.0780833,
    "Білл Пуллман зіграв головну роль у цій нео-нуарній драмі 90-х років, творці якої намагалися подати позов проти «Оскара»"
@@ -19798,6 +19714,18 @@
   [
    1794963668.2155151,
    "Сенат Hearing засуджує політику компанії Roblox щодо безпеки дітей"
+  ],
+  [
+   1794965489.1035445,
+   "У The Simpsons вшанували пам'ять Еріка Баузи"
+  ],
+  [
+   1794965493.9251688,
+   "Джек Блек назвав найкращого вокаліста в історії важкого металу"
+  ],
+  [
+   1794965497.0031033,
+   "Даріан Ланзетта залишає Mattel Studios"
   ]
  ],
  "ukrainian": {
@@ -19958,6 +19886,7 @@
    "1974050": "",
    "1978590": "",
    "2019760": "is",
+   "202970": "",
    "2050650": "",
    "2054970": "",
    "2055770": "i",
@@ -20136,6 +20065,7 @@
    "305620": "is",
    "306130": "",
    "3073940": "",
+   "311210": "",
    "3115160": "",
    "3124540": "is",
    "3156770": "is",
@@ -20304,6 +20234,7 @@
    "4732690": "",
    "4740930": "",
    "4760480": "ia",
+   "476600": "",
    "4810650": "is",
    "4817620": "",
    "482400": "",
@@ -20403,8 +20334,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1794943911.493082,
-  "with_uk": 108
+  "last_check": 1794965514.730687,
+  "with_uk": 106
  },
  "weekly_releases_week": "2026-W47",
  "wishlist": {
@@ -22209,7 +22140,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794961893.471707,
+  "last_check": 1794965505.3614602,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
