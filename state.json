@@ -2,7 +2,7 @@
  "alerts": {},
  "daily_digest_date": "2026-11-17",
  "freebies": {
-  "last_check": 1794967644.5836852,
+  "last_check": 1794976431.8125775,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -30,31 +30,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-18 04:04 UTC",
+  "at": "2026-11-18 04:33 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794285082.790268,
-   5506,
-   "🤖",
-   "В Австралії створять регулятор безпеки ШІ з обов'язковими правилами",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-10/australia-to-create-ai-safety-regulator-mandatory-safety-rules",
-    "orig": "Australia to Create AI Safety Regulator, Mandatory Rules"
-   }
-  ],
   [
    1794286878.3591342,
    5507,
@@ -9126,7 +9112,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>Розбирайте та переробляйте загиблу Землю в <a href=\"https://store.steampowered.com/app/4626680/\">Steel Gullet</a> — похмурому й захопливому фабричному головоломці</b>\n\nГра Steel Gullet вийшла на ПК. Це інженерна головоломка про будівництво фабрик із ретельною увагою до термодинаміки, яка нагадує проєкти від Zachtronics і новіші ігри на кшталт Modulus\n\n🔗 <a href=\"https://www.rockpapershotgun.com/break-up-and-re-commodify-a-fallen-earth-in-steel-gullet-a-satisfyingly-funereal-factory-puzzler-that-really-loves-thermodynamics\">Rock Paper Shotgun</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/break-up-and-re-commodify-a-fallen-earth-in-steel-gullet-a-satisfyingly-funereal-factory-puzzler-that-really-loves-thermodynamics",
     "orig": "Break up and re-commodify a fallen Earth in Steel Gullet, a satisfyingly funereal factory puzzler that really loves thermodynamics"
@@ -9279,7 +9264,12 @@
    "Керрі Кінг анонсував новий сольний альбом та випустив сингл \"My War\"",
    "Revolver",
    {
-    "also": [],
+    "also": [
+     [
+      "Metal Hammer (Louder)",
+      "https://www.loudersound.com/bands-artists/kerry-king-album-2027"
+     ]
+    ],
     "caption": "🤘 <b>Керрі Кінг анонсував новий сольний альбом та випустив сингл &quot;My War&quot;</b>\n\nГітарист SLAYER Керрі Кінг анонсував свій другий сольний альбом The End of All Gods, реліз якого відбудеться 12 лютого на лейблі Reigning Phoenix Music. Разом із анонсом музикант презентував сингл &quot;My War&quot; та постапокаліптичний кліп. Також у 2027 році він приєднається до прощального туру Megadeth та Anthrax.\n\n🔗 <a href=\"https://www.revolvermag.com/music/slayers-kerry-king-announces-new-solo-album-with-raging-song-my-war/\">Revolver</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.revolvermag.com/music/slayers-kerry-king-announces-new-solo-album-with-raging-song-my-war/",
@@ -9981,6 +9971,20 @@
     "link": "https://www.pcgamer.com/games/fps/darktides-new-sister-novitiate-class-gets-a-holy-hand-grenade-and-a-crossbow-that-can-pin-enemies-to-walls/",
     "orig": "Darktide's new Sister Novitiate class gets a holy hand grenade and a crossbow that can pin enemies to walls"
    }
+  ],
+  [
+   1794976411.5174768,
+   6266,
+   "🤖",
+   "Сінгапур застосує ШІ для боротьби з шахрайством та підтримки бізнесу",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Сінгапур застосує ШІ для боротьби з шахрайством та підтримки бізнесу</b>\n\nСінгапур визначив три ключові цілі у сфері штучного інтелекту, що охоплюють фінансові злочини, бізнес-кредитування та транзакції за участю ШІ-агентів, на тлі розширення використання технології у фінансовому секторі, заявив заступник прем&#x27;єр-міністра Ган Кім Йон.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-18/singapore-to-deploy-ai-to-fight-scams-boost-business-lending\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-18/singapore-to-deploy-ai-to-fight-scams-boost-business-lending",
+    "orig": "Singapore to Deploy AI to Fight Scams, Boost Business Lending"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9988,12 +9992,12 @@
    1794931288.4678795
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1794888089.2165565,
    1794929582.806714,
    1794931985.8368783,
    1794949384.8743756,
    1794949478.0575523,
-   1794951100.3418818
+   1794951100.3418818,
+   1794976411.5177596
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1794852104.345479
@@ -10628,7 +10632,6 @@
   "27d13f92edf1db00": 1793869514.904483,
   "27d174f4ffbad15b": 1793806280.3552277,
   "27d27115416af7e3": 1794304905.6557856,
-  "27e90f9ed0a04bdf": 1793766703.6716795,
   "27efcbd5eb6118a1": 1793901849.8696826,
   "27f0e778d03c3917": 1794877484.234948,
   "27fadb27c18bccc4": 1793885595.7199366,
@@ -10654,6 +10657,7 @@
   "2a202f7d4ea389d5": 1794576655.1775482,
   "2a3930aaf407205c": 1794241852.9158669,
   "2a5abb1256d183b5": 1794816283.4074228,
+  "2a5b94a5da077ffd": 1794976424.2125158,
   "2a60ff600a40d1b4": 1794895284.6402338,
   "2adc95d39c7e3883": 1793804652.7528498,
   "2add21d42259c330": 1793790062.3569953,
@@ -11955,7 +11959,6 @@
   "b2ab5f466f389324": 1794193456.5206633,
   "b2c047598eccca67": 1793935877.9817748,
   "b2fadd4cde6f71b4": 1794783430.0813437,
-  "b30d58ce11504c9a": 1793766726.4784403,
   "b31333fc91eb1eaf": 1794682944.230792,
   "b316968863789424": 1794547879.3076634,
   "b31dc777fa5afdb2": 1794511874.7479894,
@@ -12181,6 +12184,7 @@
   "cba46daeb73f22ff": 1794295689.1235507,
   "cbb2e5aea21cee94": 1793800956.0777733,
   "cbbc9ccde347490b": 1793914251.9255452,
+  "cbeaec58796a42da": 1794976411.5177078,
   "cc0eacce9c86d110": 1793907094.8534539,
   "cc0fbb08fe95909e": 1793817124.1848757,
   "cc3009cf5e6fb09d": 1793826113.8442512,
@@ -13131,8 +13135,8 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1794958391.3106225,
-  "blocked_until": 1794956602.5083115,
-  "cursor": 107,
+  "blocked_until": 1795044851.179641,
+  "cursor": 108,
   "digest_week": "2026-W46",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13904,7 +13908,7 @@
    "/Film": 13,
    "AIN.ua": 2,
    "Blabbermouth": 3,
-   "Bloomberg": 17,
+   "Bloomberg": 18,
    "DOU": 2,
    "DOU Gamedev": 2,
    "Deadline": 36,
@@ -13939,7 +13943,7 @@
   "translators": {
    "DeepL": 20,
    "gemini-flash-latest": 13,
-   "gemini-flash-lite-latest": 186
+   "gemini-flash-lite-latest": 188
   },
   "week": "2026-W47"
  },
@@ -18277,14 +18281,6 @@
  },
  "titles": [
   [
-   1794803486.1178215,
-   "Peter Hook, Lauren Mayberry, Deftones Play Joy Division and New Order Songs at 2026 Rock Hall"
-  ],
-  [
-   1794803489.1798496,
-   "Jason Sudeikis & Hanna Waddingham Duet On “Islands In The Stream” – Watch"
-  ],
-  [
    1794805286.365156,
    "‘The Gilded Age’ Star Denée Benton on Peggy’s Big Day: “It Was Like Eating Candy and Steak All at the Same Time”"
   ],
@@ -19023,17 +19019,13 @@
   [
    1794974673.3641994,
    "Darktide's new Sister Novitiate class gets a holy hand grenade and a crossbow that can pin enemies to walls"
+  ],
+  [
+   1794976411.51771,
+   "Singapore to Deploy AI to Fight Scams, Boost Business Lending"
   ]
  ],
  "titles_uk": [
-  [
-   1794803486.117823,
-   "Пітер Гук, Deftones і Лорен Мейберрі виконали треки Joy Division та New Order"
-  ],
-  [
-   1794803489.1798506,
-   "Джейсон Судейкіс і Ганна Ваддінгем виконали кавер на Islands in the Stream"
-  ],
   [
    1794805286.365157,
    "Зірка The Gilded Age Деней Бентон про весілля Пеггі в серіалі"
@@ -19773,6 +19765,10 @@
   [
    1794974673.3642004,
    "Darktide отримує новий клас Sister Novitiate з унікальною зброєю"
+  ],
+  [
+   1794976411.5177112,
+   "Сінгапур застосує ШІ для боротьби з шахрайством та підтримки бізнесу"
   ]
  ],
  "ukrainian": {
@@ -22187,7 +22183,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794972702.3580139,
+  "last_check": 1794976431.4990327,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
