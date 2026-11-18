@@ -1,27 +1,8 @@
 {
- "alerts": {
-  "src:ai|AIN.ua|https://ain.ua/feed/": {
-   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «AIN.ua» не працює",
-   "sent": 0,
-   "since": 1795019542.6630561
-  },
-  "src:music|ThePRP|https://www.theprp.com/feed/": {
-   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ThePRP» не працює",
-   "sent": 0,
-   "since": 1795003287.9660473
-  },
-  "src:software|AIN.ua|https://ain.ua/feed/": {
-   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out.",
-   "label": "Джерело «AIN.ua» не працює",
-   "sent": 0,
-   "since": 1795019520.5642943
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-17",
  "freebies": {
-  "last_check": 1795014122.6188319,
+  "last_check": 1795021315.4841335,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -49,8 +30,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-18 16:32 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-11-18 17:01 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 1
@@ -60,32 +41,6 @@
   ]
  },
  "post_log": [
-  [
-   1794330083.20393,
-   5556,
-   "🤖",
-   "Anthropic найняла британську лобістську компанію Charlesbye",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-10/anthropic-hired-uk-lobby-firm-charlesbye-before-ipo-adding-to-sunak",
-    "orig": "Anthropic Hired UK Lobby Firm Charlesbye Before IPO, Adding to Sunak"
-   }
-  ],
-  [
-   1794330085.6632042,
-   5557,
-   "🤖",
-   "Технологія Deep-TEMPEST дозволяє зчитувати зображення на моніторі без під’єднання та візуального контакту",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/deep-tempest-hdmi-video-317077/",
-    "orig": "Технологія Deep-TEMPEST дозволяє зчитувати зображення на моніторі без під’єднання та візуального контакту"
-   }
-  ],
   [
    1794330482.685326,
    5559,
@@ -9140,7 +9095,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Даріан Ланзетта залишає Mattel Studios</b>\n\n🔗 <a href=\"https://deadline.com/2026/11/darian-lanzetta-exits-mattel-studios-1237227411/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/darian-lanzetta-exits-mattel-studios-1237227411/",
     "orig": "Darian Lanzetta Out At Mattel Studios"
@@ -9995,6 +9949,20 @@
     "link": "https://mezha.ua/news/south-korea-offers-ai-cheating-bounties-317348/",
     "orig": "Південна Корея платитиме до $75 000 за викриття студентів, які списують із допомогою ШІ"
    }
+  ],
+  [
+   1795021302.889157,
+   6316,
+   "💾",
+   "Акції Apple стають одними з найдорожчих на ринку через статус прихистку",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "💾 <b>Акції Apple стають одними з найдорожчих на ринку через статус прихистку</b>\n\nВолатильність на Волл-стріт триває через проміжні вибори та кадрові зміни в Nvidia Corp. На цьому тлі статус безпечного активу робить акції Apple одними з найдорожчих на ринку.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-18/apple-s-haven-status-makes-it-one-of-priciest-stocks-in-market\">Bloomberg</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-18/apple-s-haven-status-makes-it-one-of-priciest-stocks-in-market",
+    "orig": "Apple’s Haven Status Makes It One of Priciest Stocks in Market"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10218,8 +10186,8 @@
    1793547082.3914192
   ],
   "software|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1794857514.3718,
-   1794943900.7337408
+   1794943900.7337408,
+   1795021302.8893893
   ],
   "software|DOU|https://dou.ua/feed/": [
    1794843085.3208008
@@ -10610,7 +10578,6 @@
   "25be104710a5787d": 1794227453.9175088,
   "25d0b3664537571b": 1794009696.4695926,
   "25db509ccf8df330": 1793889090.9130943,
-  "25dd368d6999e3a4": 1793811659.333505,
   "26088c4097d14d2b": 1794882692.550622,
   "260d107d0bb91f4d": 1793822504.0309627,
   "2614f3f779352f91": 1794328279.5536714,
@@ -11106,7 +11073,6 @@
   "5cc77acecf7b8096": 1793899979.6416984,
   "5d43055414eaef7c": 1794065489.938823,
   "5d94b4bae70f6e9b": 1795019563.0063155,
-  "5d999b17f72c1067": 1793811683.7862215,
   "5db5eec8faf5ae7a": 1794475909.8663523,
   "5dc12a2327e6f454": 1794861105.3816972,
   "5dcc0bc6e245bf38": 1795001489.6463184,
@@ -11202,7 +11168,6 @@
   "66f47efbe7517d4b": 1794362579.425766,
   "67044e34ea1a0b6c": 1793856655.0170114,
   "67119f7300e9ed51": 1794402056.59474,
-  "67276f7b5fce03c4": 1793811683.7901714,
   "6759a06fa8a01064": 1793909119.6722019,
   "6762df4d1786f114": 1793917852.8708968,
   "676bc1f9bfb102bf": 1793856784.223447,
@@ -11225,6 +11190,7 @@
   "692868a307cd52d5": 1793923274.5150125,
   "693e8d289d3b73ed": 1794542573.636068,
   "694d0aa5902775d2": 1794929582.8066692,
+  "6972dcc27e7f9599": 1795021302.889339,
   "6977c286f70598a1": 1793880107.7201939,
   "697a5163ec67ca2c": 1794241881.363532,
   "6982fd58f2795fac": 1794684678.5952117,
@@ -11427,7 +11393,6 @@
   "7bffe8ee5077df03": 1794412878.729675,
   "7c0f283dd3a5fe19": 1793874679.9550853,
   "7c6127fe20fbbc9a": 1793916177.8176472,
-  "7c76a041c668bfdf": 1793811659.333505,
   "7c8560a0c0e67300": 1793905355.113797,
   "7c98b42676766a77": 1793880053.6176856,
   "7c99df89882f57c8": 1793856655.0170114,
@@ -11811,6 +11776,7 @@
   "a63cf4553f266a18": 1794400283.729265,
   "a65090be49e4582b": 1794481449.6699495,
   "a6659606e01438d2": 1793815343.7265677,
+  "a66c87177152f36f": 1795021289.7614503,
   "a67bb8d2a6b42350": 1794654195.9605079,
   "a6870c43d087f98a": 1794848456.1917202,
   "a6ab513ca092dd1e": 1794335485.1881518,
@@ -12172,7 +12138,6 @@
   "cd998f7203039563": 1793876639.8600154,
   "cdc610afb464be42": 1794434455.0331035,
   "cdd4680734fb79f1": 1793826110.7237809,
-  "cdee09be2847451f": 1793811659.333505,
   "cdf604e928ac5675": 1794216794.563987,
   "cdfaa61e57eb5df9": 1793905295.5731425,
   "cdfc2ddd8d461a1a": 1793899880.6617155,
@@ -12617,7 +12582,6 @@
   "fc90c941bfca0cb5": 1794589273.877405,
   "fc936359868f7100": 1794227495.6805155,
   "fca3687717888842": 1794492144.8847032,
-  "fcb41871670a3d49": 1793811683.7675543,
   "fcc533697feda8d7": 1794263478.402414,
   "fcc897e60db24b95": 1794972652.6501987,
   "fce68728c74d42dd": 1794580296.155251,
@@ -13839,7 +13803,7 @@
  },
  "stats": {
   "extra": {
-   "Вішліст Steam": 6,
+   "Вішліст Steam": 8,
    "Українська локалізація": 1,
    "Халява": 1
   },
@@ -13863,7 +13827,7 @@
    "/Film": 13,
    "AIN.ua": 2,
    "Blabbermouth": 3,
-   "Bloomberg": 20,
+   "Bloomberg": 21,
    "DOU": 2,
    "DOU Gamedev": 3,
    "Deadline": 40,
@@ -13899,7 +13863,7 @@
   "translators": {
    "DeepL": 25,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 226
+   "gemini-flash-lite-latest": 227
   },
   "week": "2026-W47"
  },
@@ -14879,11 +14843,6 @@
    "Baldur's Gate 3",
    1792645245.2077034
   ],
-  "q:barbarian": [
-   1475300,
-   "Barbarian",
-   1792427557.9259946
-  ],
   "q:barbie rewind": [
    4082030,
    "Barbie™ Rewind",
@@ -15708,11 +15667,6 @@
    3837340,
    "FINAL FANTASY VII",
    1792587740.1963978
-  ],
-  "q:final fantasy 7 revelation": [
-   4354570,
-   "FINAL FANTASY VII REVELATION",
-   1792427657.4477456
   ],
   "q:final fantasy resonance": [
    3259780,
@@ -18864,6 +18818,10 @@
   [
    1795019565.0479994,
    "Південна Корея платитиме до $75 000 за викриття студентів, які списують із допомогою ШІ"
+  ],
+  [
+   1795021302.8893404,
+   "Apple’s Haven Status Makes It One of Priciest Stocks in Market"
   ]
  ],
  "titles_uk": [
@@ -19610,6 +19568,10 @@
   [
    1795019565.0480008,
    "Південна Корея платитиме до $75 000 за викриття студентів, які списують із допомогою ШІ"
+  ],
+  [
+   1795021302.8893414,
+   "Акції Apple стають одними з найдорожчих на ринку через статус прихистку"
   ]
  ],
  "ukrainian": {
@@ -21259,9 +21221,9 @@
    },
    "2842040": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 80,
     "name": "Star Wars Outlaws",
-    "price": "1 519,00₴",
+    "price": "303,00₴",
     "release": 1732211905
    },
    "285900": {
@@ -21980,9 +21942,9 @@
    },
    "916440": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 75,
     "name": "Anno 1800",
-    "price": "915,00₴",
+    "price": "228,00₴",
     "release": 1555430400
    },
    "953490": {
@@ -22028,7 +21990,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795017726.749628,
+  "last_check": 1795021315.2292283,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
