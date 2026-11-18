@@ -1,8 +1,33 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:ai|AIN.ua|https://ain.ua/feed/": {
+   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «AIN.ua» не працює",
+   "sent": 0,
+   "since": 1794997917.569327
+  },
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1794997874.1207428
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1794997872.759045
+  },
+  "src:software|AIN.ua|https://ain.ua/feed/": {
+   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «AIN.ua» не працює",
+   "sent": 0,
+   "since": 1794997895.6087933
+  }
+ },
  "daily_digest_date": "2026-11-17",
  "freebies": {
-  "last_check": 1794990724.7291028,
+  "last_check": 1794998206.878916,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -30,35 +55,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-18 10:04 UTC",
+  "at": "2026-11-18 10:36 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 2
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794306682.778084,
-   5530,
-   "💾",
-   "Claude Code розкриває конфіденційні дані користувачів на GitHub через помилку в налаштуваннях",
-   "Mezha",
-   {
-    "also": [
-     [
-      "AIN.ua",
-      "https://ain.ua/2026/11/10/paroli-i-api-kliuci-z-nalastuvan-claude-code-potrapili-u-vidkriti-repozitoriyi-github/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/claude-code-shares-users-secret-data-on-github-317053/",
-    "orig": "Claude Code розкриває конфіденційні дані користувачів на GitHub через помилку в налаштуваннях"
-   }
-  ],
   [
    1794308484.781829,
    5531,
@@ -9125,7 +9133,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>ШІ-агенти починають заповнювати медичні форми замість людей</b>\n\nOpenAI розробляє системи GPT-6 Astra та GPT-6 Luna для автоматизації адміністративної роботи в американській медицині. Технологія вже використовується компаніями CVS Health і Cigna Healthcare.\n\n🔗 <a href=\"https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/\">The Decoder</a>\n\n#ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/ai-agents-are-starting-to-fill-out-medical-forms-and-file-insurance-requests-in-place-of-human-staff/",
     "orig": "AI agents are starting to fill out medical forms and file insurance requests in place of human staff"
@@ -9139,7 +9146,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>IPO Anthropic демонструє масштаб капіталу на приватному ринку ШІ</b>\n\nПотенційна оцінка Anthropic у $1,4 трильйона показує шалене зростання приватних ринків ще до виходу компаній на біржу та може прокласти шлях для інших техногігантів.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-17/anthropic-ipo-highlights-ai-s-private-market-wealth-video\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-11-17/anthropic-ipo-highlights-ai-s-private-market-wealth-video",
     "orig": "Anthropic IPO Highlights AI’s Private Market Wealth"
@@ -9989,6 +9995,34 @@
     "link": "https://github.com/obra/superpowers",
     "orig": "obra/superpowers"
    }
+  ],
+  [
+   1794997922.7440646,
+   6290,
+   "🤖",
+   "Suno отримав функцію Visuals для створення відео під згенеровану музику",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Suno отримав функцію Visuals для створення відео під згенеровану музику</b>\n\nГенератор музики Suno додав функцію Visuals, яка створює зображення та відеокліпи завдовжки до 15 секунд для згенерованих пісень. Інструмент працює на базі моделі H3 Move та підтримує синхронізацію губ, а також роботу з референсними фото і промптами. Водночас компанія стикається з позовами від музичних лейблів через авторські права.\n\n🔗 <a href=\"https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/",
+    "orig": "Suno's new Visuals feature pairs AI-generated music with AI-generated video"
+   }
+  ],
+  [
+   1794998198.14624,
+   6291,
+   "💾",
+   "Аффан-м/ECC",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>Аффан-м/ECC</b>\n\nОптимізація продуктивності для Claude Code, Codex, Opencode, Cursor та інших інструментів ШІ\n\n🔗 <a href=\"https://github.com/affaan-m/ECC\">GitHub Trending</a>\n\n#софт",
+    "kind": "photo",
+    "link": "https://github.com/affaan-m/ECC",
+    "orig": "affaan-m/ECC"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10023,10 +10057,9 @@
    1794954714.24217
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
-   1794862908.6792917,
-   1794864757.7747173,
    1794927708.090724,
-   1794945696.4206944
+   1794945696.4206944,
+   1794997922.7443333
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1793370738.9416513
@@ -10224,11 +10257,11 @@
    1794843085.3208008
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
-   1794911494.7007217,
    1794915363.0843768,
    1794916888.4183917,
    1794994393.6393986,
-   1794996248.2878828
+   1794996248.2878828,
+   1794998198.1465018
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1794925879.5404215,
@@ -10750,6 +10783,7 @@
   "33d5b0599d85cf64": 1794029574.2473106,
   "341a94bdadcba99d": 1794785577.1809702,
   "342351e01d442b74": 1794709884.109181,
+  "3429c7218e4f7d01": 1794998198.146456,
   "34341cf0424c4b0b": 1794895288.6624558,
   "345ee7a0e9649060": 1794391349.2775056,
   "34764bf4202a6fe3": 1794506527.6776323,
@@ -11643,6 +11677,7 @@
   "915a19290b19235d": 1794565873.5842419,
   "9168fe3d06913f1d": 1794958379.0945005,
   "917f9b9cd1ac231c": 1794009692.3323495,
+  "91951ff6046d0b4b": 1794997922.7442873,
   "919be5e8534ffdf5": 1794670323.9271846,
   "91b1a0f4459327db": 1793892698.8262823,
   "91b4e53bee0f5786": 1793808367.8655899,
@@ -13909,7 +13944,7 @@
    "Eurogamer": 3,
    "GameSpot": 2,
    "GamesIndustry.biz": 5,
-   "GitHub Trending": 11,
+   "GitHub Trending": 12,
    "IGN": 6,
    "ITC.ua": 10,
    "IndieWire": 4,
@@ -13928,15 +13963,15 @@
    "Rock Paper Shotgun": 6,
    "SteamDB": 1,
    "Stereogum": 2,
-   "The Decoder": 5,
+   "The Decoder": 6,
    "ThePRP": 5,
    "VGC": 2,
    "Variety": 17
   },
   "translators": {
-   "DeepL": 22,
+   "DeepL": 23,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 203
+   "gemini-flash-lite-latest": 205
   },
   "week": "2026-W47"
  },
@@ -15355,11 +15390,6 @@
    3907910,
    "Cutout Village",
    1792414941.7158062
-  ],
-  "q:cybermp": [
-   0,
-   "",
-   1794825088.992154
   ],
   "q:cyberpunk 2077": [
    1091500,
@@ -18141,11 +18171,6 @@
    "Warhammer Survivors",
    1793097199.6470678
   ],
-  "q:we've": [
-   0,
-   "",
-   1794825087.9823864
-  ],
   "q:why ea": [
    0,
    "",
@@ -18300,11 +18325,12 @@
    "f-16",
    "google",
    "iris-t",
+   "megogo",
    "microsoft",
    "netflix",
    "purl",
+   "setanta sports",
    "youtube",
-   "авторське право",
    "балістика",
    "бпла",
    "бізнес",
@@ -18329,25 +18355,15 @@
    "серіали",
    "софт",
    "стримінгові платформи",
+   "стрімінгові сервіси",
    "супутники",
+   "тарифи",
    "технології",
    "штучний інтелект",
    "єс"
   ]
  },
  "titles": [
-  [
-   1794823495.8280091,
-   "NVIDIA/SkillEvaluator"
-  ],
-  [
-   1794825085.8859627,
-   "Збій Microsoft 365: компанія пояснила, чому сервіси не працювали понад добу"
-  ],
-  [
-   1794825090.6416347,
-   "\"We've finally reached this milestone\": Cyberpunk 2077 multiplayer mod CyberMP kicks off open beta after around six years preparing for cybermayhem"
-  ],
   [
    1794826975.8053246,
    "CNN To Reveal ‘Ancient Secrets With Erica Hill’"
@@ -19083,21 +19099,17 @@
   [
    1794996248.2878394,
    "obra/superpowers"
+  ],
+  [
+   1794997922.7442884,
+   "Suno's new Visuals feature pairs AI-generated music with AI-generated video"
+  ],
+  [
+   1794998198.146458,
+   "affaan-m/ECC"
   ]
  ],
  "titles_uk": [
-  [
-   1794823495.828011,
-   "NVIDIA випустила SkillEvaluator"
-  ],
-  [
-   1794825085.8859644,
-   "Збій Microsoft 365: компанія пояснила, чому сервіси не працювали понад добу"
-  ],
-  [
-   1794825090.641636,
-   "Для мультиплеєрного мода Cyberpunk 2077 стартувала відкрита бета"
-  ],
   [
    1794826975.8053253,
    "CNN анонсує документальний серіал Ancient Secrets with Erica Hill"
@@ -19833,6 +19845,14 @@
   [
    1794996248.2878408,
    "Superpowers додає методологію розробки для ШІ-агентів"
+  ],
+  [
+   1794997922.7442896,
+   "Suno отримав функцію Visuals для створення відео під згенеровану музику"
+  ],
+  [
+   1794998198.1464589,
+   "Аффан-м/ECC"
   ]
  ],
  "ukrainian": {
@@ -22250,7 +22270,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794994402.5078008,
+  "last_check": 1794998206.479126,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
