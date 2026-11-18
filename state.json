@@ -1,21 +1,8 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1794988867.5132446
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1794988866.268511
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-17",
  "freebies": {
-  "last_check": 1794983522.3503888,
+  "last_check": 1794990724.7291028,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -43,69 +30,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-18 07:31 UTC",
+  "at": "2026-11-18 08:32 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-latest",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794297877.262619,
-   5521,
-   "💾",
-   "HitPay представляє Agentic Discovery",
-   "Product Hunt",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.producthunt.com/products/hitpay-agentic-discovery",
-    "orig": "HitPay Agentic Discovery"
-   }
-  ],
-  [
-   1794297879.1318314,
-   5522,
-   "💾",
-   "Apple випустила оновлення безпеки для iPhone, iPad та Mac – їх варто встановити якнайшвидше",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/ios-27-2-1-ta-macos-27-2-1-usuvayut-vrazlivosti-yaki-zagrozhuvali-bezpeci-pristrojiv-317044/",
-    "orig": "Apple випустила оновлення безпеки для iPhone, iPad та Mac – їх варто встановити якнайшвидше"
-   }
-  ],
-  [
-   1794299476.5764022,
-   5523,
-   "🎬",
-   "HBO Max та Paramount+ об'єднають у бандл на початку 2027 року",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/hbo-max-paramount-bundle-317047/",
-    "orig": "HBO Max та Paramount+ об'єднають у бандл на початку 2027 року"
-   }
-  ],
-  [
-   1794299503.9567387,
-   5524,
-   "🎮",
-   "Микита Буянов розкрив модифікатори для другого сезону Escape from Tarkov",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/tarkov-season-2-modifiers-revealed-nikita/",
-    "orig": "Escape from Tarkov Season 2 Modifiers Revealed by Nikita"
-   }
-  ],
   [
    1794301282.6931822,
    5525,
@@ -9156,7 +9091,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Мексика втрачає бум ШІ-датацентрів через енергетичну кризу</b>\n\nЗастаріла електромережа та затримки з дозволами гальмують інвестиції в країну попри її очевидні переваги.\n\n🔗 <a href=\"https://www.bloomberg.com/news/features/2026-11-17/mexico-is-missing-out-on-ai-data-center-boom-as-energy-crunch-bites\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/features/2026-11-17/mexico-is-missing-out-on-ai-data-center-boom-as-energy-crunch-bites",
     "orig": "Mexico Is Missing Out on AI Data Center Boom as Energy Crunch Bites"
@@ -9170,7 +9104,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>Глава Instagram назвав &quot;проблемною&quot; адаптацію застосунку для iPhone Duo</b>\n\nПонад 200 000 застосунків уже підтримують особливості екранів iPhone Duo, однак навіть після глобального запуску адаптованої версії Instagram користувачі продовжують критикувати її інтерфейс. Глава соцмережі Адам Моссері анонсував виправлення, однак визнав – задача непроста з огляду на те, що програму початково розробляли для високих вертикальних екранів.\n\n🔗 <a href=\"https://mezha.ua/news/instagram-struggles-with-iphone-duo-317293/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/instagram-struggles-with-iphone-duo-317293/",
     "orig": "Глава Instagram назвав \"проблемною\" адаптацію застосунку для iPhone Duo"
@@ -10020,6 +9953,34 @@
     "link": "https://mezha.ua/news/3-body-problem-season-2-teaser-317323/",
     "orig": "\"Вони йдуть, щоб нас знищити\": Netflix показав перший тизер другого сезону \"Проблеми трьох тіл\""
    }
+  ],
+  [
+   1794990707.3617477,
+   6282,
+   "💾",
+   "AssemblyAI випускає модель STT-3.7",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>AssemblyAI випускає модель STT-3.7</b>\n\nРозпізнавання мовлення для живих дзвінків, голосових агентів і записів\n\n🔗 <a href=\"https://www.producthunt.com/products/assemblyai\">Product Hunt</a>\n\n#софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/assemblyai",
+    "orig": "AssemblyAI-STT-3.7"
+   }
+  ],
+  [
+   1794990716.128556,
+   6283,
+   "🎬",
+   "Індійська адаптація серіалу \"House\" під назвою \"Dr. Hassan\" виходить у грудні",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Індійська адаптація серіалу &quot;House&quot; під назвою &quot;Dr. Hassan&quot; виходить у грудні</b>\n\nІндійська адаптація медичної драми &quot;House&quot; під назвою &quot;Dr. Hassan&quot; стартує 11 грудня на JioHotstar. Головну роль геніального, але складного діагноста виконав Навазуддін Сіддіджі, а режисером проєкту виступив Рохан Сіппі.\n\n🔗 <a href=\"https://variety.com/2026/tv/news/nawazuddin-siddiqui-house-adaptation-dr-hassan-premiere-1236950232/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/tv/news/nawazuddin-siddiqui-house-adaptation-dr-hassan-premiere-1236950232/",
+    "orig": "Nawazuddin Siddiqui’s Indian ‘House’ Adaptation ‘Dr. Hassan’ Sets December Premiere on JioHotstar (EXCLUSIVE)"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10179,9 +10140,8 @@
    1794969091.2425146
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
-   1794900675.3738549,
-   1794904283.7143056,
-   1794983512.77931
+   1794983512.77931,
+   1794990716.1288133
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
    1794785569.25788,
@@ -10272,7 +10232,8 @@
    1794929588.947594
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
-   1794931976.458583
+   1794931976.458583,
+   1794990707.3620176
   ]
  },
  "seen": {
@@ -10320,7 +10281,6 @@
   "043f02b0c731b83c": 1793899960.367265,
   "0445d3f3e2397483": 1793874659.3909876,
   "0451b87a43858e55": 1794312109.8160925,
-  "045440099aded241": 1793779278.6995912,
   "0459a6614342b5dd": 1793988056.3209734,
   "045a490eeada4feb": 1793811839.6897967,
   "0483b2c68f47c5c2": 1793905321.4865823,
@@ -10602,7 +10562,6 @@
   "2048aad6c27f09d4": 1793819009.7965024,
   "205129827c312af3": 1793896256.7747672,
   "20f58c756737a3c9": 1793898089.9903834,
-  "210c9769d7cd1554": 1793779287.6634536,
   "2121df6444c57ece": 1794123081.4127033,
   "21634434a9a2ef38": 1794765655.662173,
   "2190301c6073c4ce": 1793811887.1066914,
@@ -10868,7 +10827,6 @@
   "3ca9bd81350269b2": 1794818050.7579744,
   "3cbb3d460908743e": 1793833253.9015992,
   "3cd48cb24f5b4a13": 1793917881.3933167,
-  "3d1cb7cefa9a99f6": 1793779277.975377,
   "3d1e2fcbfa5adfee": 1793874726.940739,
   "3d2f16db9e0ae111": 1794434586.8519456,
   "3d378ca06c4e6fc2": 1794330484.588936,
@@ -11225,7 +11183,6 @@
   "644ff25635dda6f2": 1794378722.8053174,
   "6454576c68efc833": 1794072674.891381,
   "648d80a971806a0e": 1794236575.692363,
-  "648ff0b1264daf43": 1793779277.978204,
   "64916e4765583079": 1794186041.8604743,
   "649cade6cf52b099": 1794391256.5139039,
   "64a0cf7f43056473": 1794929457.0480187,
@@ -11353,6 +11310,7 @@
   "70c38477d438e97c": 1794308490.627416,
   "70ee71b0b7c3874e": 1794439890.6270096,
   "70fd066bff15827b": 1793908860.4204457,
+  "7119ca50a1cae8db": 1794990658.388594,
   "713e61f8f24f1ddb": 1794247258.386749,
   "713f6dbda6ec1870": 1794666656.604099,
   "71434420f42df352": 1793808081.7181706,
@@ -11631,6 +11589,7 @@
   "8b6fd016fc9d653d": 1794619886.7911649,
   "8b93cfcbd366393c": 1794875490.1073031,
   "8bb9b1bbd3d2ad72": 1794478233.0950007,
+  "8bcf2251ec335357": 1794990716.128772,
   "8bd933f459bcf3eb": 1794713481.876106,
   "8be5c5acd91f2eb2": 1793887344.723957,
   "8c000a26a84ecf7e": 1793889137.3593447,
@@ -11795,7 +11754,6 @@
   "9c9d6ea966bf1d77": 1793923253.2255971,
   "9cb3becff78cf9dc": 1794749693.5568864,
   "9ccc0aaa28506746": 1794308495.909991,
-  "9d04474c82b424fb": 1793781077.4937003,
   "9d2d7dbdbc89b8d7": 1794444580.337959,
   "9d31be1a08a39d89": 1794587487.6467981,
   "9d3b7fed8daead43": 1794402056.59474,
@@ -12030,6 +11988,7 @@
   "b63e6f55fe65bf17": 1793901777.273283,
   "b69907af84c8f7e8": 1793865733.6320138,
   "b69bf27e78dbc3d0": 1793878279.2970648,
+  "b6b7f506e1f27186": 1794990686.0561583,
   "b6ea3f4b40434dfc": 1793890856.2474601,
   "b6fb2cda36068b57": 1794740455.9176288,
   "b7159fe7d5325bcf": 1794913434.905437,
@@ -12341,6 +12300,7 @@
   "d600af45b84b0c93": 1794409424.9673688,
   "d603dc80c86d3e2b": 1793872886.6384912,
   "d613b6858b10eb3a": 1794841324.4617226,
+  "d61acba2e826afd4": 1794990707.3619707,
   "d61f53951b737b2e": 1794853852.7215874,
   "d63adf0d2e971a9f": 1794466916.2196858,
   "d63c0929e8c0e276": 1793916054.947063,
@@ -12450,7 +12410,6 @@
   "e227ca7fe05e4f6e": 1794362593.0668566,
   "e247fdaf6cfab9e8": 1793914324.3424413,
   "e266f4e112858e45": 1794378724.7712657,
-  "e27b1fd31a4309ef": 1793781077.4967864,
   "e284f952f14757a2": 1794366148.4089472,
   "e2c69588bf60a739": 1793973655.8678432,
   "e2dd175fa48ae813": 1793946687.8230014,
@@ -13939,6 +13898,7 @@
    "Bloomberg": 7,
    "Deadline": 3,
    "GameSpot": 2,
+   "GamesIndustry.biz": 1,
    "IGN": 6,
    "Insider Gaming": 13,
    "Lambgoat": 1,
@@ -13973,7 +13933,7 @@
    "Pitchfork": 3,
    "PlayUA": 4,
    "Polygon": 11,
-   "Product Hunt": 3,
+   "Product Hunt": 4,
    "Revolver": 2,
    "Rock Paper Shotgun": 6,
    "SteamDB": 1,
@@ -13981,12 +13941,12 @@
    "The Decoder": 5,
    "ThePRP": 5,
    "VGC": 2,
-   "Variety": 15
+   "Variety": 16
   },
   "translators": {
    "DeepL": 20,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 197
+   "gemini-flash-lite-latest": 199
   },
   "week": "2026-W47"
  },
@@ -14905,21 +14865,6 @@
    0,
    "",
    1794887927.9392204
-  ],
-  "q:avengers doomsday": [
-   0,
-   "",
-   1794816290.5930367
-  ],
-  "q:avengers doomsday prep": [
-   0,
-   "",
-   1794816290.1469548
-  ],
-  "q:avengers doomsday prep launches": [
-   0,
-   "",
-   1794816289.5401716
   ],
   "q:avengers doomsday'": [
    0,
@@ -16646,35 +16591,10 @@
    "Mammoth",
    1792762325.5861564
   ],
-  "q:marvel": [
-   0,
-   "",
-   1794816287.2557015
-  ],
   "q:marvel cosmic invasion": [
    2753970,
    "MARVEL Cosmic Invasion",
    1794103278.1471336
-  ],
-  "q:marvel's official": [
-   0,
-   "",
-   1794816286.7878544
-  ],
-  "q:marvel's official avengers": [
-   0,
-   "",
-   1794816286.3292792
-  ],
-  "q:marvel's official avengers doomsday": [
-   0,
-   "",
-   1794816285.872058
-  ],
-  "q:marvel's official avengers doomsday prep": [
-   0,
-   "",
-   1794816285.4171267
   ],
   "q:mass effect legendary edition": [
    1328670,
@@ -17065,26 +16985,6 @@
    3339880,
    "OFF",
    1793142162.0413911
-  ],
-  "q:official avengers": [
-   0,
-   "",
-   1794816289.0680087
-  ],
-  "q:official avengers doomsday": [
-   0,
-   "",
-   1794816288.6174557
-  ],
-  "q:official avengers doomsday prep": [
-   0,
-   "",
-   1794816288.1619396
-  ],
-  "q:official avengers doomsday prep launches": [
-   0,
-   "",
-   1794816287.7096066
   ],
   "q:officially comments on their": [
    0,
@@ -18362,25 +18262,30 @@
    "3 body problem",
    "anthropic",
    "ethereum",
-   "gta 6",
+   "f-16",
+   "iris-t",
+   "microsoft",
    "netflix",
    "openai",
+   "purl",
    "tsmc",
    "youtube",
-   "автомати",
    "авторське право",
    "балістика",
-   "безпілотники",
+   "винищувачі",
    "вразливість",
+   "військова допомога",
    "джеймс бонд",
    "дослідження",
+   "дрони",
    "криптовалюти",
    "кібербезпека",
    "кіно",
+   "міноборони",
    "новини",
-   "нрк",
    "німеччина",
    "оборонка",
+   "ппо",
    "проблема трьох тіл",
    "ракети",
    "розвідка",
@@ -18388,22 +18293,14 @@
    "суд",
    "супутники",
    "сша",
-   "турель",
+   "технології",
    "хакерські атаки",
    "шахрайство",
    "штучний інтелект",
-   "ігри"
+   "єс"
   ]
  },
  "titles": [
-  [
-   1794816283.4074244,
-   "LingoMic"
-  ],
-  [
-   1794816654.550708,
-   "Marvel's Official Avengers: Doomsday Prep Launches on Nov. 18"
-  ],
   [
    1794818050.7579758,
    "ByteVoice"
@@ -19147,17 +19044,17 @@
   [
    1794988872.49748,
    "\"Вони йдуть, щоб нас знищити\": Netflix показав перший тизер другого сезону \"Проблеми трьох тіл\""
+  ],
+  [
+   1794990707.3619726,
+   "AssemblyAI-STT-3.7"
+  ],
+  [
+   1794990716.1287737,
+   "Nawazuddin Siddiqui’s Indian ‘House’ Adaptation ‘Dr. Hassan’ Sets December Premiere on JioHotstar (EXCLUSIVE)"
   ]
  ],
  "titles_uk": [
-  [
-   1794816283.4074256,
-   "Мова Mic"
-  ],
-  [
-   1794816654.550709,
-   "Офіційна кампанія Marvel «Месники: Доomsday Prep» стартує 18 листопада"
-  ],
   [
    1794818050.7579768,
    "ByteVoice"
@@ -19901,6 +19798,14 @@
   [
    1794988872.4974806,
    "\"Вони йдуть, щоб нас знищити\": Netflix показав перший тизер другого сезону \"Проблеми трьох тіл\""
+  ],
+  [
+   1794990707.3619733,
+   "AssemblyAI випускає модель STT-3.7"
+  ],
+  [
+   1794990716.1287746,
+   "Індійська адаптація серіалу \"House\" під назвою \"Dr. Hassan\" виходить у грудні"
   ]
  ],
  "ukrainian": {
@@ -22318,7 +22223,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794987105.4628334,
+  "last_check": 1794990724.337196,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
