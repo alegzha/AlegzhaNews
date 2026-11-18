@@ -1,5 +1,11 @@
 {
  "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1795010503.3791745
+  },
   "src:music|ThePRP|https://www.theprp.com/feed/": {
    "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
    "label": "Джерело «ThePRP» не працює",
@@ -37,43 +43,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-18 13:32 UTC",
-  "gemini_error": "",
+  "at": "2026-11-18 14:02 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 3
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794319299.6826756,
-   5544,
-   "🎬",
-   "Колишня компанія Wasserman під назвою The Team представила новий склад ради директорів",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/the-team-formerly-wasserman-unveils-new-board-1237218114/",
-    "orig": "The Team, Formerly Wasserman, Unveils New Board"
-   }
-  ],
-  [
-   1794319309.5812404,
-   5545,
-   "🎮",
-   "Розробники Battletoads і Disney Illusion Island анонсували екшен Murals",
-   "Polygon",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.polygon.com/murals-hands-on-dlala-studios/",
-    "orig": "We Need More Games Like Murals"
-   }
-  ],
   [
    1794321225.6923323,
    5546,
@@ -9141,7 +9122,6 @@
       "https://www.polygon.com/2026-game-awards-nominations-goty-gta-analysis/"
      ]
     ],
-    "caption": "🎬 <b>Grand Theft Auto VI отримала вісім номінацій на Game Awards 2026</b>\n\nГра Grand Theft Auto VI від Rockstar Games здобула вісім номінацій на Game Awards 2026, зокрема у категорії «Гра року». Проєкт уже зібрав понад $1 млрд передпродажів до свого релізу.\n\n🔗 <a href=\"https://deadline.com/2026/11/grand-theft-auto-vi-game-awards-nominations-1237227159/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/grand-theft-auto-vi-game-awards-nominations-1237227159/",
     "orig": "‘Grand Theft Auto VI’ Speeds Away With Eight Game Awards Nominations For 2026"
@@ -9155,7 +9135,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Big Ass Truck I.E. анонсували грудневий мінітур із Bayway</b>\n\nГурт Big Ass Truck I.E. оголосив про серію концертів у грудні, частину з яких вони проведуть спільно з Bayway. Тур розпочнеться 11 грудня в Каліфорнії, охопить східне узбережжя США та завершиться 19 грудня виступом на фестивалі This Is Hardcore у Пенсильванії.\n\n🔗 <a href=\"https://lambgoat.com/news/55943/big-ass-truck-ie-announce-northeast-december-mini-tour-with-bayway/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55943/big-ass-truck-ie-announce-northeast-december-mini-tour-with-bayway/",
     "orig": "Big Ass Truck I.E. announce Northeast December mini-tour with Bayway"
@@ -9996,6 +9975,34 @@
     "link": "https://www.rockpapershotgun.com/steamdb-will-add-affiliate-links-to-authorised-game-retailers-and-a-new-tab-dedicated-to-mods-first-update-since-nexus-mods-takeover-confirms",
     "orig": "SteamDB will add \"affiliate links to authorised game retailers\" and a new tab dedicated to mods, first update since Nexus Mods takeover confirms"
    }
+  ],
+  [
+   1795010521.5461886,
+   6305,
+   "🤖",
+   "KPMG випробувала ШІ-агентів у паралельному аудит-тестуванні",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>KPMG випробувала ШІ-агентів у паралельному аудит-тестуванні</b>\n\nКомпанія KPMG залучила понад 100 ШІ-агентів до експериментального аудиту британської компанії у межах ініціативи Project Exponential. Боті самостійно збирали й аналізували дані, подекуди занурюючись у питання глибше за людську команду, хоча в окремих завданнях усе ж знадобилося втручання людей.\n\n🔗 <a href=\"https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions/\">The Decoder</a>\n\n#ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/kpmgs-project-exponential-put-ai-agents-alongside-a-real-audit-team-and-found-the-bots-dug-deeper-on-individual-questions/",
+    "orig": "KPMG's \"Project Exponential\" put AI agents alongside a real audit team and found the bots dug deeper on individual questions"
+   }
+  ],
+  [
+   1795010568.6158082,
+   6306,
+   "🎮",
+   "Науково-фантастичний шедевр Рідлі Скотта може повернутися в кінотеатри у шокуючій формі, — заявляють продюсери Reveal",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Науково-фантастичний шедевр Рідлі Скотта може повернутися в кінотеатри у шокуючій формі, — заявляють продюсери <a href=\"https://store.steampowered.com/app/882200/\">Reveal</a></b>\n\nПродюсери Blade Runner 2099 планують обережно розширювати франшизу\n\n🔗 <a href=\"https://www.polygon.com/blade-runner-2099-franchise-interview/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/blade-runner-2099-franchise-interview/",
+    "orig": "Ridley Scott's Sci-Fi Masterpiece Could Return to Theaters in a Shocking Way, Producers Reveal"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10032,7 +10039,8 @@
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1794927708.090724,
    1794945696.4206944,
-   1794997922.7443333
+   1794997922.7443333,
+   1795010521.5464787
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1793370738.9416513
@@ -10091,10 +10099,9 @@
    1794987096.9394171
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1794920510.3704586,
-   1794922318.0981853,
    1794956600.085139,
-   1794996185.302761
+   1794996185.302761,
+   1795010568.6160748
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1794956584.1721683,
@@ -10360,7 +10367,6 @@
   "0a14ef0bbd008b53": 1793975518.1521544,
   "0a24c7e254e6fef2": 1794261680.3718498,
   "0a2b8c2efc2728e5": 1794585687.2769177,
-  "0a72cb7cf38fdebe": 1793800904.646153,
   "0ac3b775b957bbcd": 1794303091.4954739,
   "0b24b5df1f355728": 1794337281.9378862,
   "0b3de78738dbecbe": 1793966491.9682775,
@@ -10389,6 +10395,7 @@
   "0d7b6307233943dc": 1793909055.4474516,
   "0d926c0033bd0b3d": 1794715291.91409,
   "0d9f3ec1ee7dadb4": 1793979083.511364,
+  "0da882e619a5f309": 1795010462.958915,
   "0db05686b8a5dc24": 1794778303.267593,
   "0db219f208b4e693": 1794196890.8303638,
   "0db9d5e692516820": 1793949380.8965333,
@@ -10597,6 +10604,7 @@
   "23469dfe27e6c5eb": 1794897085.7061157,
   "236b1dfdc88c83a5": 1794331887.9148386,
   "237200f3fc0c28fc": 1793867502.5795617,
+  "23ba00645e118534": 1795010512.3083937,
   "23da551222d5fdb0": 1794711880.0208218,
   "23e328a2c6f8544b": 1794702682.9902213,
   "2412e135eaf937ab": 1793980856.010392,
@@ -10764,7 +10772,6 @@
   "34888939304ad5f3": 1793835100.0640867,
   "349a52a89dda4be4": 1793847694.0916648,
   "34c006b7b7ab2b0e": 1794105085.0356414,
-  "34d5abb3d6476b5b": 1793800885.1169317,
   "34eecb13125caef6": 1793909081.9182503,
   "34f514a4695542e5": 1794369689.3384242,
   "34fc7f9035834703": 1794598278.1298761,
@@ -10991,6 +10998,7 @@
   "4e5469a3f0dee49f": 1794096081.7873914,
   "4ee39abf60ee8a85": 1794042180.7033417,
   "4f22dbc96e6a5dc4": 1793819214.258513,
+  "4f635fa3cac3a005": 1795010462.958915,
   "4f654dda4a75f767": 1794155451.4751787,
   "4f891d7f2fd0bd53": 1794263378.9488752,
   "4fa3bca5cf0d1f0b": 1793889078.5786896,
@@ -11106,6 +11114,7 @@
   "5b1a46d04f637d02": 1793896550.3638928,
   "5b1e520a5dac7f11": 1794373316.0348516,
   "5b2f8d9500ed2fb0": 1794198777.1462855,
+  "5b34940197a448d6": 1795010462.958915,
   "5b3b0284e4cdb730": 1793813725.7801633,
   "5b61bd572677857c": 1793808426.3606515,
   "5b7aca1ec0d0b687": 1794432658.9342859,
@@ -11129,7 +11138,6 @@
   "5df951ae2e5518ac": 1793898225.9673288,
   "5e1dc6f4a264d48b": 1794007851.551732,
   "5e4b0da2d02761f4": 1793986253.4546647,
-  "5e6b562fb3d25949": 1793800935.217012,
   "5e7cec6d99dc7fde": 1794573175.1934233,
   "5ead2dbb23527e26": 1793901696.926502,
   "5eae0284659337e1": 1794069054.1396751,
@@ -11248,6 +11256,7 @@
   "699671658ccdcce0": 1793820688.9742742,
   "699f43740159fbae": 1794357054.7360823,
   "69abb375e192bdf5": 1794367853.0564857,
+  "69b165dda0ceb4b0": 1795010462.958915,
   "6a02e92b55e7abcc": 1794846689.2413993,
   "6a1f8d3924a976b0": 1794759968.2490451,
   "6a36938791d14140": 1794736922.7315037,
@@ -11281,7 +11290,6 @@
   "6c5c317baac8ac3f": 1794058280.2930562,
   "6c7b301e5d5526b6": 1794713474.5924284,
   "6c8858bedfd8c46b": 1794857514.3717523,
-  "6cc5515fae2b49a9": 1793800885.1215549,
   "6cf3ff9d9a412270": 1793862130.0505047,
   "6cfdd9647f6c8225": 1793907152.445951,
   "6d29073493f11420": 1794709881.1904464,
@@ -11346,7 +11354,6 @@
   "733d840549e94357": 1794404095.2594936,
   "735d1954bcc7e351": 1793871080.5038064,
   "73a0c4b5bb7be44b": 1793849512.96551,
-  "73a0c99e51c28428": 1793800885.1191442,
   "73abf5d9c578ce58": 1793806319.3281088,
   "73b22c67f8a1872c": 1794313877.072446,
   "73bcae9f8ae41d2f": 1794319283.6507423,
@@ -11519,7 +11526,6 @@
   "83186b0550e5f2fc": 1794556877.7875981,
   "834fa9ad8d3bea42": 1794877544.3017933,
   "8369f85e0a3a8f75": 1794411076.0979633,
-  "83cd3d4d239efaec": 1793799132.3664963,
   "83d5baa27b425e64": 1793876524.9184246,
   "83def6411e7ad1a3": 1794673879.3453333,
   "83f7d16126d0d484": 1794697284.9680347,
@@ -11699,7 +11705,6 @@
   "961a804d08016afc": 1793826124.3406909,
   "967705004d58e64c": 1794828859.1218388,
   "968336dc772d3354": 1794502965.8877325,
-  "969cb21ccb6d84f7": 1793799150.7229204,
   "96c36212c911ad51": 1794445289.2605882,
   "96cea4b180aa7e23": 1794785569.2578328,
   "96ec760e5e7fd534": 1794146451.9028087,
@@ -11842,7 +11847,6 @@
   "a6659606e01438d2": 1793815343.7265677,
   "a67bb8d2a6b42350": 1794654195.9605079,
   "a6870c43d087f98a": 1794848456.1917202,
-  "a6ab2a20d9daf026": 1793800885.1102955,
   "a6ab513ca092dd1e": 1794335485.1881518,
   "a6e99d9b5819b83b": 1794718886.145845,
   "a70866f44525d9a7": 1794592884.4843674,
@@ -12033,6 +12037,7 @@
   "bae3db273354f094": 1793836890.8204951,
   "bb00d3f892d33f01": 1794294078.3600943,
   "bb1713c941bc97f3": 1793824254.550742,
+  "bb1e5f9b24d9d9ed": 1795010521.5464308,
   "bb33f9c0d34d4abb": 1794591222.274452,
   "bb3beab749543672": 1794173485.4995587,
   "bb503ca8dd5624db": 1793890889.1739924,
@@ -12180,7 +12185,6 @@
   "cb469965946b70e4": 1794331889.9996734,
   "cb9702b0c10ca89a": 1793874679.9481912,
   "cba46daeb73f22ff": 1794295689.1235507,
-  "cbb2e5aea21cee94": 1793800956.0777733,
   "cbbc9ccde347490b": 1793914251.9255452,
   "cbeaec58796a42da": 1794976411.5177078,
   "cc0eacce9c86d110": 1793907094.8534539,
@@ -12199,7 +12203,6 @@
   "cd70f0ed70179bba": 1793986278.1740103,
   "cd8c6a1b66bb9a3c": 1794115976.4398875,
   "cd8d02a3b1a16eaf": 1794553280.0375872,
-  "cd8fa751cee9567f": 1793799142.8352761,
   "cd998f7203039563": 1793876639.8600154,
   "cdc610afb464be42": 1794434455.0331035,
   "cdd4680734fb79f1": 1793826110.7237809,
@@ -12227,6 +12230,7 @@
   "cf289e40f2b77443": 1793833288.4657116,
   "cf4063d4e2f35a90": 1794891689.151488,
   "cf584ec39a7f346d": 1793966454.8435318,
+  "cf900dcfbf1c70ef": 1795010462.958915,
   "cfb0209a388095f1": 1794695676.518958,
   "cfb9041f9aa2aa36": 1794887933.7798338,
   "cfdc27da9cadc483": 1793806486.7724233,
@@ -12414,6 +12418,7 @@
   "e3c5bd16ade0144f": 1794452645.5356278,
   "e3d510a9bb4e824c": 1793874756.7174501,
   "e3fe0b2e7b73d421": 1793907184.1797242,
+  "e41482f3fa5f94a7": 1795010568.6160293,
   "e42a9ce6bcb51d58": 1793824294.3711224,
   "e4417c4016aa9641": 1794661254.0536256,
   "e457e0a4d0a25c96": 1794816654.5507064,
@@ -13887,12 +13892,12 @@
    "GameSpot": 3,
    "GamesIndustry.biz": 1,
    "IGN": 6,
-   "Insider Gaming": 17,
+   "Insider Gaming": 18,
    "Lambgoat": 1,
    "Loudwire": 3,
    "PC Gamer": 4,
    "Polygon": 26,
-   "VGC": 10,
+   "VGC": 14,
    "Variety": 4
   },
   "sources": {
@@ -13920,21 +13925,21 @@
    "PC Gamer": 8,
    "Pitchfork": 3,
    "PlayUA": 4,
-   "Polygon": 12,
+   "Polygon": 13,
    "Product Hunt": 4,
    "Revolver": 2,
    "Rock Paper Shotgun": 8,
    "SteamDB": 1,
    "Stereogum": 2,
-   "The Decoder": 6,
+   "The Decoder": 7,
    "ThePRP": 5,
    "VGC": 5,
    "Variety": 17
   },
   "translators": {
-   "DeepL": 23,
+   "DeepL": 24,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 216
+   "gemini-flash-lite-latest": 219
   },
   "week": "2026-W47"
  },
@@ -15334,41 +15339,6 @@
    "Cyberpunk 2077",
    1794825088.4918373
   ],
-  "q:d d": [
-   0,
-   "",
-   1794837700.2661061
-  ],
-  "q:d d's world": [
-   0,
-   "",
-   1794837699.712332
-  ],
-  "q:d d's world of warcraft": [
-   0,
-   "",
-   1794837699.1800046
-  ],
-  "q:d's world": [
-   0,
-   "",
-   1794837702.46845
-  ],
-  "q:d's world of warcraft": [
-   0,
-   "",
-   1794837701.810226
-  ],
-  "q:d's world of warcraft book": [
-   0,
-   "",
-   1794837701.2744653
-  ],
-  "q:d's world of warcraft book fixes": [
-   0,
-   "",
-   1794837700.7716148
-  ],
   "q:dark souls": [
    570940,
    "DARK SOULS™: REMASTERED",
@@ -15494,11 +15464,6 @@
    "DOOM: The Dark Ages",
    1794837694.9297001
   ],
-  "q:doom the dark ages slaughter": [
-   0,
-   "",
-   1794837694.349519
-  ],
   "q:doomsday'": [
    0,
    "",
@@ -15574,11 +15539,6 @@
    "Dying Light: The Beast",
    1792445518.8057127
   ],
-  "q:ea and xbox": [
-   0,
-   "",
-   1794836083.1929288
-  ],
   "q:ea sports fc 27": [
    4080220,
    "EA SPORTS FC™ 27",
@@ -15633,11 +15593,6 @@
    0,
    "",
    1794996084.5163279
-  ],
-  "q:escape from playtime": [
-   2087540,
-   "Escape from Playtime",
-   1792416719.6830463
   ],
   "q:esports": [
    0,
@@ -15923,16 +15878,6 @@
    1670460,
    "GameMaker",
    1793039505.1588671
-  ],
-  "q:gamers": [
-   0,
-   "",
-   1794836081.6691444
-  ],
-  "q:gamers don": [
-   0,
-   "",
-   1794836081.1539943
   ],
   "q:gang of dragon": [
    4146000,
@@ -16608,11 +16553,6 @@
    2303000,
    "MOBILE SUIT GUNDAM BATTLE OPERATION 3",
    1793725363.7039416
-  ],
-  "q:mode": [
-   0,
-   "",
-   1794837696.7325387
   ],
   "q:mods": [
    0,
@@ -17304,6 +17244,36 @@
    "Reveal",
    1792515822.5227997
   ],
+  "q:ridley": [
+   0,
+   "",
+   1795010525.8343897
+  ],
+  "q:ridley scott": [
+   0,
+   "",
+   1795010525.3572142
+  ],
+  "q:ridley scott's sci fi": [
+   0,
+   "",
+   1795010524.9050114
+  ],
+  "q:ridley scott's sci fi masterpiece": [
+   0,
+   "",
+   1795010524.4398737
+  ],
+  "q:ridley scott's sci fi masterpiece could": [
+   0,
+   "",
+   1795010523.9807343
+  ],
+  "q:ridley scott's sci fi masterpiece could return": [
+   0,
+   "",
+   1795010523.5305266
+  ],
   "q:rings": [
    0,
    "",
@@ -17378,6 +17348,36 @@
    0,
    "",
    1794924102.6741152
+  ],
+  "q:sci fi masterpiece could return to theaters": [
+   0,
+   "",
+   1795010528.5821216
+  ],
+  "q:scott": [
+   0,
+   "",
+   1795010528.1329792
+  ],
+  "q:scott's sci fi": [
+   0,
+   "",
+   1795010527.661819
+  ],
+  "q:scott's sci fi masterpiece": [
+   0,
+   "",
+   1795010527.2093163
+  ],
+  "q:scott's sci fi masterpiece could": [
+   0,
+   "",
+   1795010526.7545996
+  ],
+  "q:scott's sci fi masterpiece could return": [
+   0,
+   "",
+   1795010526.2990072
   ],
   "q:sealbreakers": [
    4244460,
@@ -17488,16 +17488,6 @@
    3354750,
    "skate.",
    1792609361.7887642
-  ],
-  "q:slaughter": [
-   0,
-   "",
-   1794837696.186597
-  ],
-  "q:slaughter mode": [
-   0,
-   "",
-   1794837695.5172594
   ],
   "q:slay the spire 2": [
    2868840,
@@ -17999,16 +17989,6 @@
    "Walking Simulator",
    1792575423.2553575
   ],
-  "q:warcraft book fixes the rpg": [
-   0,
-   "",
-   1794837705.1083798
-  ],
-  "q:warcraft book fixes the rpg's biggest": [
-   0,
-   "",
-   1794837704.5382245
-  ],
   "q:ward": [
    0,
    "",
@@ -18048,16 +18028,6 @@
    3669620,
    "Warhammer Survivors",
    1793097199.6470678
-  ],
-  "q:why ea": [
-   0,
-   "",
-   1794836082.7012045
-  ],
-  "q:why ea and xbox": [
-   0,
-   "",
-   1794836082.2101746
   ],
   "q:wi fi": [
    3736050,
@@ -18103,21 +18073,6 @@
    1407200,
    "World of Tanks",
    1793005388.3132465
-  ],
-  "q:world of warcraft": [
-   0,
-   "",
-   1794837704.0191796
-  ],
-  "q:world of warcraft book": [
-   0,
-   "",
-   1794837703.5100372
-  ],
-  "q:world of warcraft book fixes": [
-   0,
-   "",
-   1794837702.981077
   ],
   "q:wrapping up some final stuff for expedition": [
    0,
@@ -18238,22 +18193,6 @@
   ]
  },
  "titles": [
-  [
-   1794836079.1539257,
-   "Intel hit with class action alleging it 'misled investors' – company's recent downturn due in part to how darn expensive PCs are right now"
-  ],
-  [
-   1794836085.5064375,
-   "\"Gamers don't hate ads; they hate bad ads\" – Why EA and Xbox are putting adverts in their games"
-  ],
-  [
-   1794837697.1199608,
-   "Doom: The Dark Ages отримає режим Slaughter Mode, але не для всіх гравців"
-  ],
-  [
-   1794837716.6236024,
-   "D&D’s World of Warcraft Book Fixes the RPG’s Biggest Endgame Issue"
-  ],
   [
    1794839482.7781317,
    "Розробник Google запустив Windows 11 на iPhone Duo за допомогою Gemini"
@@ -18993,25 +18932,17 @@
   [
    1795008715.5243561,
    "SteamDB will add \"affiliate links to authorised game retailers\" and a new tab dedicated to mods, first update since Nexus Mods takeover confirms"
+  ],
+  [
+   1795010521.5464327,
+   "KPMG's \"Project Exponential\" put AI agents alongside a real audit team and found the bots dug deeper on individual questions"
+  ],
+  [
+   1795010568.6160312,
+   "Ridley Scott's Sci-Fi Masterpiece Could Return to Theaters in a Shocking Way, Producers Reveal"
   ]
  ],
  "titles_uk": [
-  [
-   1794836079.153927,
-   "Проти Intel подано колективний позов із звинуваченням у «введенні інвесторів в оману» — нещодавнє падіння показників компанії частково пов’язане з тим, наскільки зараз дорогі ПК"
-  ],
-  [
-   1794836085.5064387,
-   "EA та Xbox повертають рекламу у відеоігри"
-  ],
-  [
-   1794837697.1199615,
-   "Doom: The Dark Ages отримає режим Slaughter Mode, але не для всіх гравців"
-  ],
-  [
-   1794837716.6236033,
-   "Нова книга D&D усередині всесвіту World of Warcraft вирішує проблеми високих рівнів"
-  ],
   [
    1794839482.7781327,
    "Розробник Google запустив Windows 11 на iPhone Duo за допомогою Gemini"
@@ -19751,6 +19682,14 @@
   [
    1795008715.524357,
    "У SteamDB з'являться партнерські посилання та вкладка для модів"
+  ],
+  [
+   1795010521.5464342,
+   "KPMG випробувала ШІ-агентів у паралельному аудит-тестуванні"
+  ],
+  [
+   1795010568.6160324,
+   "Науково-фантастичний шедевр Рідлі Скотта може повернутися в кінотеатри у шокуючій формі, — заявляють продюсери Reveal"
   ]
  ],
  "ukrainian": {
@@ -22169,7 +22108,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795007021.5046463,
+  "last_check": 1795010576.9119701,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
