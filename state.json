@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1795001469.8864295
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1795001469.046299
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-17",
  "freebies": {
   "last_check": 1794998206.878916,
@@ -43,7 +30,7 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-18 11:31 UTC",
+  "at": "2026-11-18 11:55 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
@@ -9120,7 +9107,6 @@
    "Distorted Sound",
    {
     "also": [],
-    "caption": "🤘 <b>Serenity анонсували новий альбом Melancholia</b>\n\nAustrian symphonic metal гурт Serenity анонсував дев&#x27;ятий студійний альбом Melancholia, який вийде 12 лютого 2027 року на Napalm Records. Платівка присвячена 20-річчю колективу та натхненна творчостю художника Albrecht Dürer. Разом із анонсом музиканти випустили заглавний сингл.\n\n🔗 <a href=\"https://distortedsoundmag.com/serenity-announce-new-album-melancholia/\">Distorted Sound</a>\n\n#музика",
     "kind": "photo",
     "link": "https://distortedsoundmag.com/serenity-announce-new-album-melancholia/",
     "orig": "Serenity announce new album ‘Melancholia’"
@@ -9134,7 +9120,6 @@
    "Neformat",
    {
     "also": [],
-    "caption": "🤘 <b>OGYDA випустили дебютний альбом</b>\n\nМинулої суботи тернопільський гурт OGYDA оприлюднив свій перший LP &quot;TYSK&quot;. Його низькочастотний звук на межі сладж- і дум-металу резонує з лірикою про людські &quot;низинні&quot; стани. TYSK by OGYDA Поштовхом\n\n🔗 <a href=\"https://www.neformat.com.ua/news/28475-ogyda-vipustili-debyutniy-albom.html\">Neformat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.neformat.com.ua/news/28475-ogyda-vipustili-debyutniy-albom.html",
     "orig": "OGYDA випустили дебютний альбом"
@@ -9984,6 +9969,34 @@
     "link": "https://www.videogameschronicle.com/news/grand-theft-auto-6-is-currently-the-highest-scoring-video-game-of-all-time-according-to-metacritic/",
     "orig": "Grand Theft Auto 6 is currently the highest scoring video game of all time, according to Metacritic"
    }
+  ],
+  [
+   1795002895.2057772,
+   6296,
+   "🎮",
+   "Скільки часу знадобиться на проходження Grand Theft Auto 6",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>Скільки часу знадобиться на проходження Grand Theft Auto 6</b>\n\nПроходження сюжету GTA 6 із виконанням значної частини побічного контенту займає близько 100 годин. Повне завершення всіх місій, випробувань і пошук колекційних предметів може розтягнутися на понад 200 годин.\n\n🔗 <a href=\"https://www.videogameschronicle.com/guide/how-long-to-beat-grand-theft-auto-6/\">VGC</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/guide/how-long-to-beat-grand-theft-auto-6/",
+    "orig": "How long to beat Grand Theft Auto 6"
+   }
+  ],
+  [
+   1795002898.9040487,
+   6297,
+   "🎬",
+   "Суд над актором Noel Clarke у справі про сексуальні злочини відбудеться у 2027 році",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Суд над актором Noel Clarke у справі про сексуальні злочини відбудеться у 2027 році</b>\n\nСуд над британським актором Noel Clarke, відомим за Doctor Who, у справі про сексуальні злочини попередньо призначено на 8 листопада 2027 року. Звинувачення охоплюють період із 2007 по 2016 рік і стосуються п&#x27;яти жінок, а сам актор не визнає провини за жодним із пунктів.\n\n🔗 <a href=\"https://deadline.com/2026/11/noel-clarke-sexual-offenses-trial-november-2027-1237227838/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/noel-clarke-sexual-offenses-trial-november-2027-1237227838/",
+    "orig": "Noel Clarke Sexual Offenses Trial Set For Next Year"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10094,7 +10107,8 @@
   ],
   "games|VGC|https://www.videogameschronicle.com/feed/": [
    1794999732.979052,
-   1795001489.6463668
+   1795001489.6463668,
+   1795002895.2060354
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1794882683.1976333,
@@ -10108,8 +10122,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1794906175.1351595,
-   1794913434.9054835,
    1794916883.3098147,
    1794956575.51198,
    1794958372.3118384,
@@ -10122,7 +10134,8 @@
    1794970885.2558794,
    1794972690.7789547,
    1794979915.482735,
-   1794987091.7833002
+   1794987091.7833002,
+   1795002898.9043157
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794663071.9451547
@@ -11016,6 +11029,7 @@
   "52f17e755ac0d4fc": 1794537169.1350489,
   "52ffb28c7d67be19": 1793813559.2223399,
   "5304ba5fb3dee170": 1793912670.0978487,
+  "530a03380a212678": 1795002898.9042714,
   "532838f3e45b08f5": 1794920486.41103,
   "532dfc54b7017128": 1794811464.7664373,
   "532e8de89e556a5c": 1793880152.6756754,
@@ -11889,7 +11903,6 @@
   "acaf5634f2a38941": 1793815303.6129956,
   "acc1803d15a8e377": 1793979092.5317345,
   "aced397866891a7b": 1793817205.910537,
-  "ad429d325c65e3e4": 1793791898.5633519,
   "ad528fda3d4a813b": 1794830453.3805504,
   "ad95eb9f71da4c96": 1793824280.7754414,
   "adaa3b59b7ba0601": 1794807087.558263,
@@ -11937,7 +11950,6 @@
   "b1cd52710041421c": 1794224076.959424,
   "b2183a948b0068a2": 1794708113.8907459,
   "b2189a02ad850663": 1794043852.507571,
-  "b2229ae2402318ac": 1793791891.6259105,
   "b22522d14a17f95f": 1794373334.770345,
   "b22ad9f6b573aaab": 1793874760.2286494,
   "b2356d340e22b114": 1794020481.8517892,
@@ -11946,6 +11958,7 @@
   "b2936c94fa8b7e68": 1793997083.4253402,
   "b2ab5f466f389324": 1794193456.5206633,
   "b2c047598eccca67": 1793935877.9817748,
+  "b2df06db8a663c87": 1795002863.2457044,
   "b2fadd4cde6f71b4": 1794783430.0813437,
   "b31333fc91eb1eaf": 1794682944.230792,
   "b316968863789424": 1794547879.3076634,
@@ -12267,6 +12280,7 @@
   "d4b61d02960cb4a1": 1793896522.9150953,
   "d4d212e9eeb98e88": 1793901789.2799876,
   "d4da728360fc7aa3": 1794416474.3916295,
+  "d4dbff03922e3af7": 1795002895.205991,
   "d4fd7cf429d890d8": 1794927698.1229002,
   "d50492543bd75393": 1794033072.3807902,
   "d513625d1d75104d": 1794576681.5238283,
@@ -13882,7 +13896,7 @@
    "Loudwire": 3,
    "PC Gamer": 4,
    "Polygon": 25,
-   "VGC": 1,
+   "VGC": 2,
    "Variety": 4
   },
   "sources": {
@@ -13892,7 +13906,7 @@
    "Bloomberg": 18,
    "DOU": 2,
    "DOU Gamedev": 3,
-   "Deadline": 38,
+   "Deadline": 39,
    "Distorted Sound": 4,
    "Eurogamer": 3,
    "GameSpot": 2,
@@ -13918,13 +13932,13 @@
    "Stereogum": 2,
    "The Decoder": 6,
    "ThePRP": 5,
-   "VGC": 4,
+   "VGC": 5,
    "Variety": 17
   },
   "translators": {
    "DeepL": 23,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 209
+   "gemini-flash-lite-latest": 211
   },
   "week": "2026-W47"
  },
@@ -14739,11 +14753,6 @@
    "Absence",
    1792591299.6776512
   ],
-  "q:abyss": [
-   0,
-   "",
-   1794828673.8568454
-  ],
   "q:actors": [
    5151960,
    "Actors",
@@ -14818,11 +14827,6 @@
    1597670,
    "Astralis",
    1793192563.4859629
-  ],
-  "q:athanasia": [
-   1761910,
-   "Athanasia",
-   1792409515.1002765
   ],
   "q:auto": [
    0,
@@ -15473,11 +15477,6 @@
    2344520,
    "Diablo® IV",
    1793044912.647966
-  ],
-  "q:dino crisis": [
-   4249130,
-   "Dino Crisis",
-   1792409517.1506498
   ],
   "q:dishonored": [
    205100,
@@ -17084,11 +17083,6 @@
    "Peanut",
    1793694788.444233
   ],
-  "q:pearl": [
-   0,
-   "",
-   1794828673.3092437
-  ],
   "q:penguin colony": [
    3695930,
    "Penguin Colony",
@@ -17794,11 +17788,6 @@
    "",
    1794909683.4058583
   ],
-  "q:system shock": [
-   482400,
-   "System Shock",
-   1792409517.6523504
-  ],
   "q:takeaways from the 2026 game": [
    0,
    "",
@@ -18269,53 +18258,39 @@
   "Mezha": [
    "amazon",
    "anthropic",
-   "f-16",
    "gemini",
    "google",
-   "iris-t",
    "megogo",
    "microsoft",
    "netflix",
-   "purl",
+   "nvidia",
    "setanta sports",
    "youtube",
-   "балістика",
    "бпла",
    "бізнес",
-   "винищувачі",
-   "військова допомога",
+   "генштаб",
    "дрони",
    "компоненти зброї",
-   "міноборони",
    "новини",
-   "німеччина",
    "оборонка",
    "опк",
    "польща",
    "ппо",
    "південна корея",
    "радар",
-   "ракети",
-   "розвідка",
+   "російський літак",
+   "сили оборони",
    "софт",
+   "статті",
    "стримінгові платформи",
    "стрімінгові сервіси",
-   "супутники",
    "тарифи",
    "технології",
    "штучний інтелект",
-   "єс"
+   "історія"
   ]
  },
  "titles": [
-  [
-   1794828856.2654603,
-   "Crimson Desert studio Pearl Abyss says it now uses AI ‘across various stages of development’"
-  ],
-  [
-   1794828859.1218405,
-   "Anthropic IPO Tests Whether AI Models Can Rival Nvidia’s Rich Valuation"
-  ],
   [
    1794830574.1164362,
    "WoW: Forever's continued to wrestle with dungeons, as Blizzard admits it briefly 'missed the mark' on hotfixes over the weekend"
@@ -19059,17 +19034,17 @@
   [
    1795001489.6463203,
    "Grand Theft Auto 6 is currently the highest scoring video game of all time, according to Metacritic"
+  ],
+  [
+   1795002895.2059925,
+   "How long to beat Grand Theft Auto 6"
+  ],
+  [
+   1795002898.9042728,
+   "Noel Clarke Sexual Offenses Trial Set For Next Year"
   ]
  ],
  "titles_uk": [
-  [
-   1794828856.2654622,
-   "Студія Crimson Desert Pearl Abyss заявляє, що наразі використовує штучний інтелект «на різних етапах розробки»"
-  ],
-  [
-   1794828859.1218414,
-   "IPO Anthropic перевірить, чи зможуть ШІ-моделі зрівнятися з високою капіталізацією Nvidia"
-  ],
   [
    1794830574.116437,
    "Blizzard визнала помилки в нещодавніх хотфіксах для підземель у WoW: Forever"
@@ -19813,6 +19788,14 @@
   [
    1795001489.646321,
    "Grand Theft Auto 6 очолила рейтинг найкращих ігор усіх часів на Metacritic"
+  ],
+  [
+   1795002895.2059934,
+   "Скільки часу знадобиться на проходження Grand Theft Auto 6"
+  ],
+  [
+   1795002898.9042737,
+   "Суд над актором Noel Clarke у справі про сексуальні злочини відбудеться у 2027 році"
   ]
  ],
  "ukrainian": {
@@ -22230,7 +22213,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1794998206.479126,
+  "last_check": 1795002907.280813,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
