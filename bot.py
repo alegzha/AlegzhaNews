@@ -189,6 +189,15 @@ def clean_text(raw_html):
     return text
 
 
+def tidy_excerpt(text):
+    """Анонс WordPress обривається посеред речення з «[…]» — прибираємо обривок."""
+    t = re.sub(r"\s*(\[\s*(…|\.\.\.|&hellip;)\s*\]|Read more.*|Читати далі.*|Детальніше.*)\s*$", "", text or "", flags=re.I)
+    if t != (text or "") and t and not re.search(r"[.!?…»\"”)]$", t):
+        end = max(t.rfind(". "), t.rfind("! "), t.rfind("? "), t.rfind(".» "))
+        t = t[: end + 1] if end > len(t) * 0.4 else t.rstrip(" ,;:—-") + "…"
+    return t.strip()
+
+
 def shorten(text, limit):
     if len(text) <= limit:
         return text
@@ -335,7 +344,9 @@ def _google_api(text):
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 # Порядок моделей: спершу якісніша Flash; коли її безкоштовний ліміт закінчиться — Flash-Lite.
-GEMINI_MODELS = ["gemini-flash-latest", "gemini-flash-lite-latest"]
+# Порядок моделей: Flash (найкраща, але малий денний ліміт) → Gemma 3 27B (той самий ключ,
+# значно більший ліміт) → Flash-Lite (запасна).
+GEMINI_MODELS = ["gemini-flash-latest", "gemma-3-27b-it", "gemini-flash-lite-latest"]
 GEMINI_PROMPT = """Ти — досвідчений редактор українського новинного Telegram-каналу про відеоігри, \
 важку й альтернативну музику, кіно, серіали, софт і штучний інтелект.
 
@@ -370,14 +381,23 @@ def gemini_json(system, payload):
     global _gemini_model
     last = None
     for model in [m for m in GEMINI_MODELS if m not in _gemini_exhausted]:
+        user_text = json.dumps(payload, ensure_ascii=False)
+        if model.startswith("gemma"):
+            # Gemma не має окремої системної інструкції й JSON-режиму — інструкція йде в сам запит
+            body = {
+                "contents": [{"role": "user", "parts": [{"text": system + "\n\nВхідні дані:\n" + user_text}]}],
+                "generationConfig": {"temperature": 0.3},
+            }
+        else:
+            body = {
+                "systemInstruction": {"parts": [{"text": system}]},
+                "contents": [{"role": "user", "parts": [{"text": user_text}]}],
+                "generationConfig": {"temperature": 0.3, "responseMimeType": "application/json"},
+            }
         r = requests.post(
             f"https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
             headers={"x-goog-api-key": GEMINI_API_KEY, "Content-Type": "application/json"},
-            json={
-                "systemInstruction": {"parts": [{"text": system}]},
-                "contents": [{"role": "user", "parts": [{"text": json.dumps(payload, ensure_ascii=False)}]}],
-                "generationConfig": {"temperature": 0.3, "responseMimeType": "application/json"},
-            },
+            json=body,
             timeout=90,
         )
         if r.status_code == 404:
@@ -399,8 +419,16 @@ def gemini_json(system, payload):
         data = r.json()
         parts = ((data.get("candidates") or [{}])[0].get("content") or {}).get("parts") or []
         # моделі, що «думають», можуть повернути окрему частину з міркуваннями — беремо лише відповідь
-        text = "".join(p.get("text", "") for p in parts if not p.get("thought"))
-        out = json.loads(text)
+        text = "".join(p.get("text", "") for p in parts if not p.get("thought")).strip()
+        # Gemma іноді загортає JSON у ```json … ``` — знімаємо обгортку
+        text = re.sub(r"^```(?:json)?\s*|\s*```$", "", text)
+        try:
+            out = json.loads(text)
+        except ValueError:
+            m = re.search(r"(\[.*\]|\{.*\})", text, re.S)
+            if not m:
+                raise RuntimeError(f"{model} повернув не JSON")
+            out = json.loads(m.group(1))
         _gemini_model = model
         TR_STATS.setdefault("models", {})[model] = TR_STATS.setdefault("models", {}).get(model, 0) + 1
         return out
@@ -423,10 +451,16 @@ GEMINI_REWRITE = GEMINI_PROMPT.split("Отримуєш JSON-масив")[0] + ""
 (або її короткий анонс). Напиши українською:
 - title — заголовок новини за правилами нижче;
 - summary — суть новини у 2–3 реченнях (до 350 символів): що сталося, головні деталі й чому це \
-цікаво. Тільки факти з тексту, без вступів на кшталт «У статті йдеться» і без оцінок від себе.
+цікаво. Тільки факти з тексту, без вступів на кшталт «У статті йдеться» і без оцінок від себе;
+- tags — 0–2 тематичні хештеги без знаку #: назва головної гри, франшизи, гурту, фільму, серіалу \
+чи компанії, про яку новина, одним словом латиницею у стилі CamelCase без пробілів і символів \
+(GTA6, Nintendo, Metallica, TheWitcher, OpenAI). Лише якщо новина справді про щось конкретне.
 
 Правила:""" + GEMINI_PROMPT.split("Правила:")[1].split("Відповідь —")[0] + \
-    "Відповідь — лише JSON-об'єкт {\"title\": \"…\", \"summary\": \"…\"}, без пояснень."
+    "Відповідь — лише JSON-об'єкт {\"title\": \"…\", \"summary\": \"…\", \"tags\": [\"…\"]}, без пояснень."
+
+
+LAST_TAGS = []  # тематичні хештеги останнього переписаного поста
 
 
 def gemini_rewrite(title, text):
@@ -437,6 +471,12 @@ def gemini_rewrite(title, text):
     t, s_ = str(out["title"]).strip(), str(out.get("summary", "")).strip()
     if re.search(r"Q\s*Q\s*\d+\s*Q\s*Q", t + s_, re.I):
         raise RuntimeError("Gemini зіпсував назви — беру запасний перекладач")
+    tags = []
+    for tag in out.get("tags") or []:
+        tag = re.sub(r"[^A-Za-z0-9_]", "", str(tag).lstrip("#"))
+        if 2 <= len(tag) <= 30 and not tag.isdigit() and tag not in tags:
+            tags.append(tag)
+    LAST_TAGS[:] = tags[:2]
     return t, s_
 
 
@@ -796,6 +836,7 @@ def stats_add(state, kind, key, n=1):
 TRANSLATOR_NAMES = {
     "gemini-flash-latest": "Gemini Flash",
     "gemini-flash-lite-latest": "Gemini Flash-Lite",
+    "gemma-3-27b-it": "Gemma 3",
 }
 
 
@@ -920,9 +961,8 @@ def merge_source(post, source, link):
     if not extra.get("caption") or source == post[4] or any(a[0] == source for a in extra["also"]):
         return False
     also = extra["also"] + [[source, link]]
-    body, sep, tags = extra["caption"].rpartition("\n\n")
     links = ", ".join(f'<a href="{html.escape(l, quote=True)}">{html.escape(s)}</a>' for s, l in also)
-    caption = f"{body}\n➕ Також пишуть: {links}{sep}{tags}" if sep else f"{extra['caption']}\n➕ Також пишуть: {links}"
+    caption = f"{extra['caption']}\n➕ Також пишуть: {links}"
     if extra.get("kind") == "photo" and len(caption) > 1024:
         return False
     if DRY_RUN:
@@ -943,23 +983,82 @@ def merge_source(post, source, link):
     return True
 
 
-def build_caption(cat, title_html, summary_uk, source, link, extra_games=()):
+def build_caption(cat, title_html, summary_uk, source, link, extra_lines=(), tags=()):
     esc = html.escape
-    parts = [f"{cat['emoji']} <b>{title_html}</b>"]
-    if extra_games:
-        links = ", ".join(f'<a href="{app_url(a)}">{esc(t)}</a>' for t, a in extra_games)
-        parts[0] += f"\n🕹 Steam: {links}"
+    head = f"{cat['emoji']} <b>{title_html}</b>"
+    if extra_lines:
+        head += "\n" + "\n".join(extra_lines)
+    parts = [head]
     if summary_uk:
         parts.append(esc(summary_uk))
-    parts.append(f'🔗 <a href="{esc(link, quote=True)}">{esc(source)}</a>')
-    parts.append(cat["hashtag"])
+    hashtags = " ".join([cat["hashtag"]] + [f"#{t}" for t in tags if f"#{t}".lower() != cat["hashtag"].lower()])
+    parts.append(f'🔗 <a href="{esc(link, quote=True)}">{esc(source)}</a> · {hashtags}')
     caption = "\n\n".join(parts)
     # ліміт підпису до фото в Telegram — 1024 символи (рахуються лише видимі символи,
     # але для простоти рахуємо з розміткою — так гарантовано влізе)
     if len(caption) > 1024 and summary_uk:
         overflow = len(caption) - 1024 + 2
-        return build_caption(cat, title_html, summary_uk[:-overflow] + "…", source, link, extra_games)
+        return build_caption(cat, title_html, summary_uk[:-overflow] + "…", source, link, extra_lines, tags)
     return caption
+
+
+def steam_price_lines(games, extra_games):
+    """🕹 Назва — ціна в ₴ (зі знижкою), для ігор, згаданих у новині."""
+    ids, names = [], {}
+    for _, _, app_id, name in games:
+        if app_id not in ids:
+            ids.append(app_id)
+            names[app_id] = name
+    for name, app_id in extra_games:
+        if app_id not in ids:
+            ids.append(app_id)
+            names[app_id] = name
+    if not ids:
+        return []
+    try:
+        info = wishlist.fetch_items(HTTP, ids[:3], "UA", "english")
+    except Exception as e:  # noqa: BLE001
+        log.info("Ціни Steam недоступні: %s", e)
+        info = {}
+    esc = html.escape
+    lines = []
+    for app_id in ids[:3]:
+        it = info.get(app_id) or {}
+        name = it.get("name") or names[app_id]
+        link = f'<a href="{app_url(app_id)}">{esc(name)}</a>'
+        if it.get("is_free"):
+            price = "безкоштовно"
+        elif it.get("coming_soon"):
+            price = "ще не вийшла"
+        elif it.get("price"):
+            price = esc(it["price"])
+            if it.get("discount"):
+                price += f" (−{it['discount']}%)"
+        else:
+            price = ""
+        lines.append(f"🕹 {link}" + (f" — {price}" if price else ""))
+    return lines
+
+
+LISTEN_RE = re.compile(
+    r"^(?P<artist>.+?)\s+(?:release|releases|drop|drops|share|shares|unveil|unveils|debut|debuts|premiere|premieres|"
+    r"reveal|reveals|stream|streams|announce|announces|deliver|delivers|launch|launches|return with|post|posts)\b.*?"
+    r"[\"“‘'](?P<work>[^\"”’]{2,80})[\"”’]",
+    re.I,
+)
+
+
+def listen_line(title):
+    """🎧 Слухати: пошук пісні чи альбому в Spotify і YouTube Music (без API)."""
+    m = LISTEN_RE.search(title or "")
+    if not m:
+        return None
+    artist = re.sub(r"^(watch|listen|hear)\s*:\s*", "", m.group("artist"), flags=re.I).strip(" -–—:")
+    if not artist or len(artist) > 60:
+        return None
+    q = requests.utils.quote(f"{artist} {m.group('work')}")
+    return (f'🎧 Слухати: <a href="https://open.spotify.com/search/{q}">Spotify</a> · '
+            f'<a href="https://music.youtube.com/search?q={q}">YouTube Music</a>')
 
 
 # ---------- джерела без RSS (читання сторінки сайту) ----------
@@ -1111,6 +1210,10 @@ def collect(config, state, alerts):
     max_age = limits["max_age_hours"] * 3600
     skip = [k.lower() for k in config.get("filters", {}).get("skip_keywords", [])]
     skip_rx = [re.compile(p, re.I) for p in config.get("filters", {}).get("skip_patterns", []) or []]
+    # новини про «залізо» (відеокарти, пам'ять, процесори) з ігрових сайтів — у рубрику софту
+    hw = config.get("filters", {}).get("hardware") or {}
+    hw_rx = re.compile(hw["pattern"], re.I) if hw.get("pattern") else None
+    hw_to = hw.get("to", "software")
     now = time.time()
     candidates = []
 
@@ -1209,14 +1312,17 @@ def collect(config, state, alerts):
                     continue
                 if not keywords_ok(feed, title):
                     continue
+                c_id, c_cat = cat_id, cat
+                if hw_rx and cat_id == "games" and hw_to in config["categories"] and hw_rx.search(title):
+                    c_id, c_cat = hw_to, config["categories"][hw_to]
                 fresh.append(
                     {
                         "key": key,
                         "ts": ts,
                         "title": title,
                         "entry": entry,
-                        "cat": cat,
-                        "cat_id": cat_id,
+                        "cat": c_cat,
+                        "cat_id": c_id,
                         "source": feed["name"],
                         "lang": feed.get("lang", ""),
                         "social": social,
@@ -1324,7 +1430,7 @@ def main():
         if entry.get("html_source"):
             enrich_html_entry(entry)
         link = entry.get("link", "")
-        summary = clean_text(entry.get("summary", ""))
+        summary = tidy_excerpt(clean_text(entry.get("summary", "")))
         if not c.get("social") and summary.lower().startswith(c["title"].lower()[:40]):
             summary = ""
         summary = shorten(summary, limits["summary_chars"])
@@ -1343,6 +1449,7 @@ def main():
         tr = (lambda t: t) if already_uk else translate
         use_marks = True
         summary_ready = None
+        LAST_TAGS.clear()
         summarize = limits.get("summarize", True) and c.get("summarize", True)
         if not already_uk and GEMINI_API_KEY and "Gemini" not in _disabled and summarize:
             # короткий переказ самої статті замість обрізаного анонсу з RSS (той самий 1 запит)
@@ -1397,7 +1504,13 @@ def main():
             continue
 
         image = image_from_entry(entry) or image_from_page(link)
-        caption = build_caption(c["cat"], title_html, summary_uk, c["source"], link, extra_games)
+        extra_lines = steam_price_lines(games, extra_games) if (games or extra_games) else []
+        if c["cat_id"] == "music":
+            ll = listen_line(c["title"])
+            if ll:
+                extra_lines.append(ll)
+        tags = list(LAST_TAGS) if summary_ready is not None else []
+        caption = build_caption(c["cat"], title_html, summary_uk, c["source"], link, extra_lines, tags)
         favorite = fav_rx and (fav_rx.search(c["title"]) or fav_rx.search(title_plain))
         if favorite:
             caption = "⭐ " + caption

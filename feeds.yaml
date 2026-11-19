@@ -269,6 +269,16 @@ filters:
     - '\b(years? (ago|later))\b'                      # ностальгійні статті
     - '\b(back on streaming|free to watch|is streaming on|now streaming on|where to watch|streaming hit)\b'
     - '\b(worth revisiting|we don.t talk about|deserved (way )?more|no one watched|guest-starred)\b'
+    # реклама й розпродажі
+    - '\b(black friday|cyber monday|prime day|boxing day)\b'
+    - '\b(deals?|bargains?|coupons?|promo codes?|discount codes?)\b'
+    - '\b(on sale|sale price|price drop|lowest price|all-time low|save \$?\d+|\d+% off)\b'
+    - '(чорн\w* п.ятниц|кіберпонеділ|промокод|розпродаж|знижк\w* до|вигідн\w* пропозиц)'
+
+  # «Залізо» з ігрових сайтів (DDR6, відеокарти, процесори) — у рубрику софту
+  hardware:
+    to: software
+    pattern: '\b(DDR\d|GDDR\d|LPDDR|RTX\s?\d{4}|RX\s?\d{4}|Radeon|GeForce|Ryzen|Threadripper|Core Ultra|Core i\d|Arc B\d+|SSD|NVMe|motherboard|chipset|CPU|GPU|processor|graphics card|RAM)\b|(відеокарт|процесор|оперативн\w* пам|материнськ|чіпсет|накопичувач)'
 
   # Якщо бот помилково зробив посиланням не гру (звичайне слово, яке збіглося
   # з назвою якоїсь гри в Steam) — допиши це слово сюди.

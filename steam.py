@@ -13,6 +13,11 @@ import logging
 import re
 import time
 
+try:
+    from wordfreq import zipf_frequency
+except ImportError:  # бібліотека необов'язкова
+    zipf_frequency = None
+
 log = logging.getLogger("news-bot")
 
 SEARCH_URL = "https://store.steampowered.com/api/storesearch/"
@@ -73,6 +78,7 @@ def name_variants(steam_name):
 
 
 CACHE_MISS_TTL = 2 * 86400
+COMMON_WORD_ZIPF = 4.2  # наскільки частим має бути слово, щоб не вважати його назвою гри
 
 
 class SteamLinker:
@@ -141,12 +147,17 @@ class SteamLinker:
 
     # ---------- пошук у заголовку ----------
 
-    def _allowed(self, phrase):
+    def _allowed(self, phrase, quoted=False):
         n = norm(phrase)
         if not n or n in NOT_GAMES or n in self.ignore:
             return False
         if len(n) < 3 and not any(ch.isdigit() for ch in n):
             return False
+        # одне звичайне англійське слово (Friday, Inside, Control…) — найчастіше не гра.
+        # Виняток — назва в лапках: тоді автор явно має на увазі гру.
+        if not quoted and " " not in n and not any(ch.isdigit() for ch in n) and zipf_frequency:
+            if zipf_frequency(n, "en") >= COMMON_WORD_ZIPF:
+                return False
         return True
 
     def from_article_links(self, title, article_html):
@@ -204,7 +215,7 @@ class SteamLinker:
             s, e = m.start(1), m.end(1)
             if any(s < te and e > ts for ts, te, *_ in taken + matches):
                 continue
-            if self._allowed(m.group(1)):
+            if self._allowed(m.group(1), quoted=True):
                 hit = self.search_exact(m.group(1))
                 if hit:
                     matches.append((s, e, hit[0], hit[1]))
