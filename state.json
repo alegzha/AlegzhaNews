@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:ai|The Decoder|https://the-decoder.com/feed/": {
+   "detail": "https://the-decoder.com/feed/ → HTTPSConnectionPool(host='the-decoder.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «The Decoder» не працює",
+   "sent": 0,
+   "since": 1795089699.1356647
+  }
+ },
  "daily_digest_date": "2026-11-18",
  "freebies": {
   "last_check": 1795084742.931245,
@@ -30,11 +37,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-19 11:51 UTC",
-  "gemini_error": "",
+  "at": "2026-11-19 12:03 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
@@ -8982,7 +8989,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Trapped Under Ice анонсували концерти на честь 20-річчя гурту</b>\n\nХардкор-гурт Trapped Under Ice проведе святковий концерт на честь свого 20-річчя 7 лютого в рідному Балтиморі за участі Terror, Trash Talk, Stout і Bad Wave. За день до цього колектив виступить у Нью-Йорку на ювілеї лейбла Flatspot Records разом із Breakdown, End It та іншими.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/18/news/trapped-under-ice-announce-20th-anniversary-show-in-their-hometown/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/18/news/trapped-under-ice-announce-20th-anniversary-show-in-their-hometown/",
     "orig": "Trapped Under Ice Announce 20th Anniversary Show In Their Hometown"
@@ -8996,7 +9002,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>IPO Anthropic вказує на високий попит на ШІ-інвестиції</b>\n\nПортфельний менеджер Harbor Capital Advisors Джастін Менне заявив, що ціноутворення майбутнього IPO Anthropic свідчить про потужний інтерес інвесторів до ринку штучного інтелекту. Він радить вкладникам компанії дотримуватися довгострокової стратегії.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-18/anthropic-ipo-signals-strong-ai-appetite-harbor-capital-video\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-11-18/anthropic-ipo-signals-strong-ai-appetite-harbor-capital-video",
     "orig": "Anthropic IPO Signals Strong AI Appetite, Harbor Capital's Menne Says"
@@ -9832,6 +9837,34 @@
     "link": "https://github.com/punkpeye/awesome-mcp-servers",
     "orig": "punkpeye/awesome-mcp-servers"
    }
+  ],
+  [
+   1795089708.53699,
+   6388,
+   "🎮",
+   "LiberNovo знижує ціни на свої ергономічні крісла до 42% на Black Friday",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>LiberNovo знижує ціни на свої ергономічні крісла до 42% на Black <a href=\"https://store.steampowered.com/app/1167900/\">Friday</a></b>\n\nКомпанія LiberNovo влаштовує розпродаж до Black Friday та Cyber Monday, знижуючи ціни на популярні моделі крісел серій Omni та Maxis до 42%. Акція стартує 19 листопада 2026 року та триватиме до 30 листопада, пропонуючи знижки на більшість моделей і додаткові бонуси за оптові покупках.\n\n🔗 <a href=\"https://www.polygon.com/libernovo-black-friday-cyber-monday-sale-omni-maxis-chairs/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/libernovo-black-friday-cyber-monday-sale-omni-maxis-chairs/",
+    "orig": "LiberNovo Is Cutting The Prices Of Its Best Chairs By Up To 42% For Black Friday And Cyber Monday"
+   }
+  ],
+  [
+   1795089808.0400834,
+   6389,
+   "🎮",
+   "RayNeo випустила AR-окуляри для Modern Warfare 4 із вбудованою Call of Duty",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>RayNeo випустила AR-окуляри для Modern Warfare 4 із вбудованою <a href=\"https://store.steampowered.com/app/1938090/\">Call of Duty</a></b>\n🕹 Steam: <a href=\"https://store.steampowered.com/app/304430/\">Inside</a>\n\nЛімітована версія RayNeo GT Max Call of Duty®: Modern Warfare 4® виходить 19 листопада за $449 і пропонує 307-дюймовий екран та спеціальний інтерфейс.\n\n🔗 <a href=\"https://www.polygon.com/rayneo-gt-max-call-of-duty-modern-warfare-4-limited-edition/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/rayneo-gt-max-call-of-duty-modern-warfare-4-limited-edition/",
+    "orig": "RayNeo Built Modern Warfare 4 Its Own AR Glasses - And Put Call Of Duty Inside The Lens"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9922,10 +9955,11 @@
    1795089082.1423721
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1794996185.302761,
    1795010568.6160748,
    1795046491.842274,
-   1795064492.7575703
+   1795064492.7575703,
+   1795089708.5372415,
+   1795089808.0403624
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1794956584.1721683,
@@ -10201,7 +10235,6 @@
   "0c297c6bdca7d2a6": 1794270680.8302598,
   "0c4bda729bbb8f04": 1794069054.1396751,
   "0c5cdfc606a6d318": 1794524454.8551903,
-  "0cd8e0e73583a48e": 1793880077.9141972,
   "0ce325c056f8d0a2": 1794414685.9103246,
   "0cf3be53fd1630bc": 1795026653.649315,
   "0d03bac0704cfb16": 1794812494.1080506,
@@ -10247,6 +10280,7 @@
   "11304629b3b28943": 1794958375.376239,
   "115684b54442967b": 1795062692.6421797,
   "11659dba19087fda": 1794826975.8053226,
+  "1169e3acab6ba6fd": 1795089654.0120451,
   "116a2269b5c9dc74": 1794438100.512025,
   "116d6bd5830c9031": 1794655852.1792724,
   "1170adc197d29b61": 1794702686.0977051,
@@ -10463,7 +10497,6 @@
   "28a13e0627e48d0e": 1795024853.7713437,
   "28b14e9de5256bb3": 1794524493.4766808,
   "28be3ebf9e180059": 1794529992.2813523,
-  "28e8f69e46202257": 1793880118.867805,
   "28f6eafc3b7955ef": 1795062698.9614763,
   "291357e3ab9659e4": 1794801684.2401192,
   "293a1d8b82625e5b": 1794231054.60154,
@@ -10821,7 +10854,6 @@
   "530a03380a212678": 1795002898.9042714,
   "532838f3e45b08f5": 1794920486.41103,
   "532dfc54b7017128": 1794811464.7664373,
-  "532e8de89e556a5c": 1793880152.6756754,
   "534b9dffec620175": 1795028455.8508024,
   "538eff81caea302b": 1794002501.8985727,
   "53958cf51f47108f": 1794648890.1376827,
@@ -10836,6 +10868,7 @@
   "547d40c3ef40a6bc": 1794330085.6635382,
   "54be389e3be2abdb": 1794636081.410183,
   "54d9cbc77679af17": 1794340855.1154919,
+  "54fc74513568f025": 1795089708.537198,
   "551c62fbbae8b8e3": 1794272482.36282,
   "551ddc8e9b482c56": 1793899855.0556493,
   "55304c918f40a77e": 1794493891.529127,
@@ -11028,7 +11061,6 @@
   "693e8d289d3b73ed": 1794542573.636068,
   "694d0aa5902775d2": 1794929582.8066692,
   "6972dcc27e7f9599": 1795021302.889339,
-  "6977c286f70598a1": 1793880107.7201939,
   "697a5163ec67ca2c": 1794241881.363532,
   "6982fd58f2795fac": 1794684678.5952117,
   "698870d03787a1c7": 1794560451.8675945,
@@ -11218,7 +11250,6 @@
   "7bffe8ee5077df03": 1794412878.729675,
   "7c6127fe20fbbc9a": 1793916177.8176472,
   "7c8560a0c0e67300": 1793905355.113797,
-  "7c98b42676766a77": 1793880053.6176856,
   "7ca078f07809228c": 1795087856.688431,
   "7ce53b7e75f93665": 1794198674.2841558,
   "7ceb67d30947352a": 1794790875.7513986,
@@ -11321,7 +11352,6 @@
   "87f8ddd930380cdd": 1794112278.9359908,
   "87fe55541825dd45": 1794880915.0736182,
   "881debcf1a1d3952": 1794634255.263127,
-  "883f640a6c833459": 1793880053.6176856,
   "8840c180a5ce48c6": 1793988056.3209734,
   "884b01750c3f263b": 1794832381.563612,
   "885dfa36220b1c5d": 1794663052.3051553,
@@ -11375,6 +11405,7 @@
   "8d0cf00f38071c8d": 1794007892.8830473,
   "8d173dd5584087f6": 1794655879.9927368,
   "8d236ecfaa66bc9e": 1794031281.2427106,
+  "8d505fa9b6a387f8": 1795089654.0120451,
   "8dbaa27d684960be": 1794492161.157827,
   "8dc4a6a9ec353083": 1794267175.2273066,
   "8dd03b31fcd78c57": 1793883833.9095404,
@@ -11427,7 +11458,6 @@
   "944e8a227014f802": 1794013396.247265,
   "94515d8671739599": 1794421927.7777536,
   "94687090526b1cb4": 1794499281.4675992,
-  "9490666391e9013b": 1793880183.0836403,
   "949acd8baa20b17b": 1794011598.8377948,
   "949badf102711944": 1794850251.632162,
   "94b049de06fc1a9a": 1793959252.9569006,
@@ -11435,7 +11465,6 @@
   "94bac1020c577749": 1794070895.2542753,
   "94cc632905df6b01": 1794547876.3985503,
   "94dcc3cffc413f91": 1794175369.296574,
-  "94f840c88a437d25": 1793880177.5095475,
   "9511e14ce06d6109": 1795008653.7476661,
   "954a71c2af8cfa1c": 1794398455.161323,
   "958cfbef541d0290": 1794056481.889083,
@@ -11462,7 +11491,6 @@
   "984e371a49caa99f": 1793887407.5226257,
   "988500758e7cc482": 1793917852.8708968,
   "98a667d2d4848ece": 1794749691.5685575,
-  "98aa46b22993ee44": 1793880095.9586532,
   "98ced92d79f6af37": 1793892655.141962,
   "98de91cd35641ed5": 1794443482.5911212,
   "98e2484ef00a8b83": 1794195083.647988,
@@ -11496,7 +11524,6 @@
   "9bb7e4c56669dd3a": 1793910680.9030776,
   "9c10a7f10b16d08d": 1794810782.9833372,
   "9c1a9368ebd6a42c": 1793946696.695091,
-  "9c32bcd3c3b11649": 1793880164.8171937,
   "9c84081fe08c8154": 1794758455.254243,
   "9c9d6ea966bf1d77": 1793923253.2255971,
   "9cb3becff78cf9dc": 1794749693.5568864,
@@ -11771,6 +11798,7 @@
   "bd55895dbad1aa4c": 1793919695.2777495,
   "bd58b25f35d4416e": 1795003298.0038018,
   "bda0dc108c4cd47c": 1794904275.4484015,
+  "bdd1199f666d029f": 1795089808.0403147,
   "bdee13442e7cea7a": 1794308484.7821777,
   "be0c26d579f6ff0e": 1794445285.782634,
   "be106019cefdaa55": 1795042879.084322,
@@ -12143,7 +12171,6 @@
   "e92af29f8a99c4f8": 1794479578.9352138,
   "e94a7627f40d9a23": 1794184279.122158,
   "e95ada295e53806e": 1793909086.3184342,
-  "e9ac5608560afbac": 1793880078.4369736,
   "e9cd622c57fadabc": 1793905293.112482,
   "e9e37faea4d91eef": 1794130320.2819865,
   "e9ee834f07002a34": 1794526278.3937762,
@@ -13555,11 +13582,11 @@
    "GameSpot": 3,
    "GamesIndustry.biz": 1,
    "IGN": 7,
-   "Insider Gaming": 27,
+   "Insider Gaming": 28,
    "Lambgoat": 1,
    "Loudwire": 3,
    "PC Gamer": 16,
-   "Polygon": 35,
+   "Polygon": 36,
    "Product Hunt": 1,
    "VGC": 37,
    "Variety": 6
@@ -13590,7 +13617,7 @@
    "PC Gamer": 10,
    "Pitchfork": 3,
    "PlayUA": 6,
-   "Polygon": 15,
+   "Polygon": 17,
    "Product Hunt": 6,
    "Revolver": 3,
    "Rock Paper Shotgun": 8,
@@ -13604,7 +13631,7 @@
   "translators": {
    "DeepL": 37,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 287
+   "gemini-flash-lite-latest": 289
   },
   "week": "2026-W47"
  },
@@ -14719,6 +14746,36 @@
    "",
    1795014099.2638013
   ],
+  "q:built": [
+   0,
+   "",
+   1795089715.9718914
+  ],
+  "q:built modern": [
+   0,
+   "",
+   1795089715.4653487
+  ],
+  "q:built modern warfare": [
+   0,
+   "",
+   1795089714.9917443
+  ],
+  "q:built modern warfare 4": [
+   0,
+   "",
+   1795089714.503986
+  ],
+  "q:built modern warfare 4 its": [
+   0,
+   "",
+   1795089714.0292225
+  ],
+  "q:built modern warfare 4 its own": [
+   0,
+   "",
+   1795089713.5345323
+  ],
   "q:bulkhead": [
    1467670,
    "Bulkhead",
@@ -14983,6 +15040,26 @@
    4709990,
    "Crowned",
    1794704487.4594748
+  ],
+  "q:cutting": [
+   0,
+   "",
+   1795089705.2979958
+  ],
+  "q:cutting the prices": [
+   0,
+   "",
+   1795089704.7649364
+  ],
+  "q:cutting the prices of its": [
+   0,
+   "",
+   1795089704.268219
+  ],
+  "q:cutting the prices of its best": [
+   0,
+   "",
+   1795089703.7938397
   ],
   "q:cyberpunk 2077": [
    1091500,
@@ -15819,6 +15896,21 @@
    "",
    1795005111.0711217
   ],
+  "q:is cutting": [
+   0,
+   "",
+   1795089703.2804549
+  ],
+  "q:is cutting the prices": [
+   0,
+   "",
+   1795089702.8034987
+  ],
+  "q:is cutting the prices of its": [
+   0,
+   "",
+   1795089702.2220588
+  ],
   "q:is dead": [
    0,
    "",
@@ -15928,6 +16020,26 @@
    3170980,
    "Lena",
    1793554299.106612
+  ],
+  "q:libernovo": [
+   0,
+   "",
+   1795089701.73852
+  ],
+  "q:libernovo is": [
+   0,
+   "",
+   1795089701.2564535
+  ],
+  "q:libernovo is cutting": [
+   0,
+   "",
+   1795089700.7614942
+  ],
+  "q:libernovo is cutting the prices": [
+   0,
+   "",
+   1795089700.123834
   ],
   "q:life is strange": [
    1265920,
@@ -16529,6 +16641,11 @@
    "Prey",
    1792762331.9156969
   ],
+  "q:prices of its best chairs by": [
+   0,
+   "",
+   1795089705.8253512
+  ],
   "q:prince of persia": [
    19980,
    "Prince of Persia®",
@@ -16578,6 +16695,36 @@
    4084710,
    "Rayman Legends Retold",
    1792607495.2570462
+  ],
+  "q:rayneo": [
+   0,
+   "",
+   1795089713.0508826
+  ],
+  "q:rayneo built": [
+   0,
+   "",
+   1795089712.497755
+  ],
+  "q:rayneo built modern": [
+   0,
+   "",
+   1795089711.9802635
+  ],
+  "q:rayneo built modern warfare": [
+   0,
+   "",
+   1795089711.4919567
+  ],
+  "q:rayneo built modern warfare 4": [
+   0,
+   "",
+   1795089711.005757
+  ],
+  "q:rayneo built modern warfare 4 its": [
+   0,
+   "",
+   1795089710.522399
   ],
   "q:reblade the death spiral": [
    3489340,
@@ -17362,7 +17509,6 @@
  },
  "tag_hints": {
   "Mezha": [
-   "chatgpt",
    "delta",
    "fpv-дрони",
    "gemini",
@@ -17370,7 +17516,6 @@
    "gta 6",
    "msi",
    "msi prestige 14 flip ai+ the starry night vincent van gogh edition",
-   "openai",
    "rockstar",
    "бпла",
    "виставки",
@@ -17379,6 +17524,7 @@
    "генштаб",
    "дата-центри",
    "дрони",
+   "дія",
    "консолі",
    "кримський міст",
    "кібербезпека",
@@ -17390,11 +17536,13 @@
    "огляди",
    "опк",
    "оптоволокно",
+   "повітряна тривога",
    "ракети",
    "ракетні удари",
    "сили оборони",
    "софт",
    "ударні безпілотники",
+   "україна",
    "флеш",
    "штучний інтелект",
    "європейська комісія",
@@ -17402,14 +17550,6 @@
   ]
  },
  "titles": [
-  [
-   1794916883.309772,
-   "Netflix Renews Polish Drama Series ‘Anaesthesia’ For Season 2"
-  ],
-  [
-   1794916888.4183443,
-   "kajisho5/ffmpeg-skill"
-  ],
   [
    1794918911.241831,
    "Is it time to retire Dragon Quest as a series? Chrono Trigger composer Yasunori Mitsuda thinks it might be"
@@ -18109,17 +18249,17 @@
   [
    1795089086.6101043,
    "punkpeye/awesome-mcp-servers"
+  ],
+  [
+   1795089708.5371993,
+   "LiberNovo Is Cutting The Prices Of Its Best Chairs By Up To 42% For Black Friday And Cyber Monday"
+  ],
+  [
+   1795089808.0403163,
+   "RayNeo Built Modern Warfare 4 Its Own AR Glasses - And Put Call Of Duty Inside The Lens"
   ]
  ],
  "titles_uk": [
-  [
-   1794916883.3097727,
-   "Netflix продовжив польський серіал Anaesthesia на другий сезон"
-  ],
-  [
-   1794916888.4183452,
-   "Репозиторій ffmpeg-skill дає ШІ-агентам локальний відеоредактор"
-  ],
   [
    1794918911.2418323,
    "Чи настав час завершити серію «Dragon Quest»? Композитор Chrono Trigger Ясунорі Міцуда вважає, що, можливо, так"
@@ -18819,6 +18959,14 @@
   [
    1795089086.6101053,
    "Колекція корисних MCP-серверів на GitHub"
+  ],
+  [
+   1795089708.5372002,
+   "LiberNovo знижує ціни на свої ергономічні крісла до 42% на Black Friday"
+  ],
+  [
+   1795089808.0403178,
+   "RayNeo випустила AR-окуляри для Modern Warfare 4 із вбудованою Call of Duty"
   ]
  ],
  "ukrainian": {
