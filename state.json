@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:ai|The Decoder|https://the-decoder.com/feed/": {
-   "detail": "https://the-decoder.com/feed/ → HTTPSConnectionPool(host='the-decoder.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «The Decoder» не працює",
-   "sent": 0,
-   "since": 1795089699.1356647
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-18",
  "freebies": {
   "last_check": 1795084742.931245,
@@ -37,7 +30,7 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-19 12:03 UTC",
+  "at": "2026-11-19 12:33 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
@@ -48,63 +41,6 @@
   ]
  },
  "post_log": [
-  [
-   1794398688.2689788,
-   5637,
-   "🎮",
-   "s1mple зіграє проти Liquid: оприлюднено результати жеребкування стартових матчів PGL Singapore Major 2026",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/pgl-singapore-major-2026-opening-matchups/",
-    "orig": "s1mple to Face Liquid as PGL Singapore Major 2026 Opening Matchups are Revealed"
-   }
-  ],
-  [
-   1794398697.6705308,
-   5638,
-   "🤖",
-   "Британський регулятор погрожує вишам санкціями через використання студенттами ШІ",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/uk-regulator-threatens-universities-with-sanctions-unless-they-adopt-ai-proof-exam-formats/",
-    "orig": "UK regulator threatens universities with sanctions unless they adopt AI-proof exam formats"
-   }
-  ],
-  [
-   1794400285.8057795,
-   5639,
-   "🎮",
-   "Прибутки Sony виросли на 44%",
-   "PlayUA",
-   {
-    "also": [
-     [
-      "Mezha",
-      "https://mezha.ua/news/sony-shutting-down-playstation-plus-on-pc-317108/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://playua.net/prybutky-sony-vyrosly-na-44/",
-    "orig": "Прибутки Sony виросли на 44%"
-   }
-  ],
-  [
-   1794400295.8177736,
-   5640,
-   "🎮",
-   "Перше сюжетне доповнення для The Outer Worlds 2 вийде у грудні",
-   "Rock Paper Shotgun",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.rockpapershotgun.com/the-outer-worlds-2s-first-story-expansion-could-well-be-the-opening-to-the-series-last-hurrah-and-will-have-you-hunting-for-a-cure-to-explosive-cell-death-in-december",
-    "orig": "The Outer Worlds 2's first story expansion could well be the opening to the series' last hurrah and will have you hunting for a cure to \"explosive cell death\" in December"
-   }
-  ],
   [
    1794402084.7749324,
    5641,
@@ -9015,7 +8951,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Новий кросовер Magic: The Gathering зі всесвітом Star Trek вдало передає дух оригіналу</b>\n\nНовий сет Magic: The Gathering за всесвітом Star Trek успішно переносить теми та мотиви франшизи в ігрову механіку. Механіки на кшталт дослідження, різноманітності екіпажу та керування космічними кораблями підкреслюють командну роботу та дух пригод.\n\n🔗 <a href=\"https://www.pcgamer.com/games/card-games/set-phasers-to-stun-the-contents-of-my-wallet-magics-star-trek-crossover-is-one-of-the-good-ones/\">PC Gamer</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/card-games/set-phasers-to-stun-the-contents-of-my-wallet-magics-star-trek-crossover-is-one-of-the-good-ones/",
     "orig": "Set phasers to stun (the contents of my wallet): Magic's Star Trek crossover is one of the good ones"
@@ -9029,7 +8964,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>У GTA VI з&#x27;явиться спеціальна металева радіостанція з легендарними гуртами</b>\n\nУ Grand Theft Auto VI буде металева радіостанція The Chamber 106.6, діджеями якої стали Том Арая та Керрі Кінг із Slayer. У грі прозвучать треки Slayer, Metallica, Black Sabbath, Megadeth, Anthrax, Pantera, Tool та інших відомих гуртів.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/18/news/the-in-game-metal-radio-station-for-grand-theft-auto-vi-is-stacked-with-heavy-hitters/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/18/news/the-in-game-metal-radio-station-for-grand-theft-auto-vi-is-stacked-with-heavy-hitters/",
     "orig": "The In-Game Metal Radio Station For ‘Grand Theft Auto VI’ Is Stacked With Heavy Hitters"
@@ -9865,6 +9799,34 @@
     "link": "https://www.polygon.com/rayneo-gt-max-call-of-duty-modern-warfare-4-limited-edition/",
     "orig": "RayNeo Built Modern Warfare 4 Its Own AR Glasses - And Put Call Of Duty Inside The Lens"
    }
+  ],
+  [
+   1795091577.2383099,
+   6390,
+   "🎮",
+   "У Fortnite з'явився новий спосіб отримати Pirate Shop Token",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>У Fortnite з&#x27;явився новий спосіб отримати Pirate Shop Token</b>\n\nEpic Games додала Pirate Shop Access token до режиму Respawn Rumble, щоб гравцям було простіше його знайти\n\n🔗 <a href=\"https://www.polygon.com/fortnite-pirate-shop-access-token-respawn-rumble/\">Polygon</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/fortnite-pirate-shop-access-token-respawn-rumble/",
+    "orig": "Fortnite Adds New Way to Get the Pirate Shop Token"
+   }
+  ],
+  [
+   1795091580.1647213,
+   6391,
+   "🎬",
+   "BeIN Media Group уклала нову угоду з NBCUniversal",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>BeIN Media Group уклала нову угоду з NBCUniversal</b>\n\nКатарська beIN Media Group підписала багаторічний контракт з NBCUniversal Global на ексклюзивні права на контент у регіоні MENA. Угода охоплює фільми Michael, Jurassic World Rebirth, Hamnet, а також серіали та бібліотечні проєкти студії.\n\n🔗 <a href=\"https://deadline.com/2026/11/bein-media-group-michael-hamnet-nbc-universal-1237228885/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/bein-media-group-michael-hamnet-nbc-universal-1237228885/",
+    "orig": "BeIN Media Group To Bring ‘Michael’, ‘Hamnet’ & ‘Jurassic World Rebirth’ To MENA Audiences With Fresh NBC Universal Deal"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9959,7 +9921,8 @@
    1795046491.842274,
    1795064492.7575703,
    1795089708.5372415,
-   1795089808.0403624
+   1795089808.0403624,
+   1795091577.2385764
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1794956584.1721683,
@@ -9982,7 +9945,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1795002898.9043157,
    1795007012.6098773,
    1795042982.6484847,
    1795044693.0254283,
@@ -9996,7 +9958,8 @@
    1795059079.8747816,
    1795061027.743887,
    1795068086.6434484,
-   1795077182.9680064
+   1795077182.9680064,
+   1795091580.1650083
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795087876.0739417
@@ -10146,7 +10109,6 @@
   "025483d120d50629": 1793919711.4419525,
   "0292ab11a949c049": 1794024088.575985,
   "02a2508663d4f5f3": 1794110451.877304,
-  "02b1fe46cd45a9dc": 1793881901.6238203,
   "02c59df6f1eb74ed": 1794097855.0003257,
   "02e82a0803728488": 1794951055.3267138,
   "02f9ebbdd55cb2f6": 1794812490.789183,
@@ -10427,6 +10389,7 @@
   "21634434a9a2ef38": 1794765655.662173,
   "21c11943acdcbce7": 1793907171.2403288,
   "21d0933180612bf7": 1793988094.1415625,
+  "21ea1ffdc25552cc": 1795091580.1649384,
   "21eb099d4d049c74": 1794564188.1661212,
   "21f107cbc2ffb018": 1794983487.6611924,
   "2209ca018fef27f6": 1793887398.4071934,
@@ -10629,7 +10592,6 @@
   "385be78c7c4980ff": 1794925879.0101287,
   "387c2ca628aecf1e": 1795039256.6815968,
   "387ce3487493495b": 1795026653.649315,
-  "387d59961ecdd4ea": 1793881969.4854937,
   "3894b974e2e932bb": 1794202308.1607726,
   "389b274465e4181b": 1794858079.9664185,
   "38d062123d715448": 1794092483.804387,
@@ -10667,6 +10629,7 @@
   "3c5dc188800f7e4a": 1794587490.7629814,
   "3c6de122cd5aaf44": 1794549691.605744,
   "3c81bd21a2a8bb66": 1795066295.3549402,
+  "3ca8def2211c3892": 1795091455.8380237,
   "3ca9bd81350269b2": 1794818050.7579744,
   "3cd48cb24f5b4a13": 1793917881.3933167,
   "3d2f16db9e0ae111": 1794434586.8519456,
@@ -10834,7 +10797,6 @@
   "512d853ec5d95163": 1793892680.7622335,
   "5135391d78ae053c": 1795050107.0669103,
   "515a5ecd0e586087": 1795008699.1679084,
-  "51658a905297cb5f": 1793881876.157867,
   "517850c6e01b4d65": 1794592885.8674386,
   "518b485e28cf4f3b": 1794256256.1973255,
   "519ce1a8766ff555": 1793957456.027642,
@@ -10882,7 +10844,6 @@
   "561b88a4a1443c4f": 1794213096.5452287,
   "5689f31b2cda7ca2": 1795023110.4423168,
   "569a83400c460624": 1795003253.1151035,
-  "56e79674200fef27": 1793881915.224931,
   "56e816063ec93e36": 1794735166.9775567,
   "56f34e40817100c2": 1794828856.2654586,
   "5710af7adc0214dd": 1793885639.0671265,
@@ -11050,6 +11011,7 @@
   "688295274d88c736": 1794443492.7068605,
   "688ef3f2dc4b3697": 1794747655.1469178,
   "689c1996862c7e40": 1794463287.9110885,
+  "68ae780c7b749539": 1795091475.6596055,
   "68c7910dbf502e8c": 1794747655.1469178,
   "68d13fafc7c56e1c": 1794223852.0687604,
   "68f3cf0a92827aee": 1794725136.8755693,
@@ -11160,6 +11122,7 @@
   "72e61cb3b47a792d": 1793901858.8515282,
   "731362751099257f": 1794099679.2837117,
   "7318835aebb5c5fb": 1793925076.7035167,
+  "73242c26032fa66f": 1795091475.6584551,
   "733d840549e94357": 1794404095.2594936,
   "73b22c67f8a1872c": 1794313877.072446,
   "73bcae9f8ae41d2f": 1794319283.6507423,
@@ -11282,6 +11245,7 @@
   "7fe4036245e3bfdf": 1794081653.3860815,
   "8006cfce387357ff": 1794819660.751173,
   "800e1c8c237c31f0": 1793909005.9355414,
+  "8011ccba91951021": 1795091475.6579704,
   "80183508472d4f7c": 1794047078.7009654,
   "8096d0c63c292e0b": 1794634305.2953007,
   "80b878f8a0f2fa9c": 1794805286.365154,
@@ -11573,7 +11537,6 @@
   "a20858528fd502b1": 1794951055.3267138,
   "a224a4c6e09436dd": 1794387657.251034,
   "a23ebe05a653c09e": 1795048285.6464028,
-  "a24cbc98a1a56dc7": 1793881876.1541889,
   "a25472f4d1b51258": 1793899976.3401167,
   "a258190d3a1acd4c": 1794349889.1390882,
   "a289dad29d3e8d89": 1794133851.471907,
@@ -11693,6 +11656,7 @@
   "b037dd49d6560de1": 1794022370.027243,
   "b048cc831260425e": 1794202297.0677645,
   "b056e9a28adf5360": 1795032066.1770573,
+  "b06a5a4736ee8ba8": 1795091577.2385314,
   "b07d1654be9b668f": 1794103284.0529191,
   "b0b2cb3fd6672f94": 1794061884.9623625,
   "b105f02e885026ad": 1794117651.9309552,
@@ -11752,7 +11716,6 @@
   "b81a7e4ec3a1a423": 1794349893.5886278,
   "b83fb1ef576bf308": 1793905306.6038578,
   "b84b1922120987f8": 1794112285.2086055,
-  "b867f8d3d1879837": 1793881853.2293634,
   "b882cd9513481eea": 1794229254.6836922,
   "b89c0965e4487c18": 1794744161.843884,
   "b8ac331f9c655156": 1794594681.7058873,
@@ -12006,7 +11969,6 @@
   "d515f4d414c29dc3": 1794434493.5606954,
   "d568bb29f3cea4ba": 1793905336.4455938,
   "d57491b05c6fbe3b": 1794634296.9440062,
-  "d576ff8f3cdbe735": 1793881929.327521,
   "d5a243f0ceab02c5": 1794382279.7024496,
   "d5c35cc6974f5a60": 1794373255.2240887,
   "d5d46baa865ef6d1": 1794227485.9262125,
@@ -12064,7 +12026,6 @@
   "dbbcb62320973b4b": 1795012310.1472316,
   "dbcca75c8f4259bb": 1794765679.7757595,
   "dbcde9a1167eaf23": 1795064492.7575371,
-  "dbeff5a58f342656": 1793881943.17162,
   "dc1c6e040f933f0f": 1794533503.0712693,
   "dc1ce90dabcb1462": 1793885627.5702245,
   "dc1fd8f7ce3dd6ce": 1794402091.127294,
@@ -12140,7 +12101,6 @@
   "e532e7e2d744c0eb": 1794283287.6384728,
   "e5563af007cb8b0e": 1793910695.6292431,
   "e5b3815c17e25256": 1794288693.509967,
-  "e63656ce9a24b210": 1793881925.0275502,
   "e65d90fcf3c57700": 1794528076.3842776,
   "e66c9b0be4a82b93": 1794304889.8565855,
   "e6826344353841f9": 1794564055.7805443,
@@ -12158,6 +12118,7 @@
   "e78d8b7d13ff2cb7": 1793898256.1616,
   "e7b18bd140016235": 1794785574.1654751,
   "e7d5cdee4199eeb2": 1795075495.1578982,
+  "e7dd22a700795b2a": 1795091455.8380237,
   "e80e7b7a1145a8f7": 1794850304.1275158,
   "e8690f74b67f5698": 1793909050.841756,
   "e86dfc11e107840b": 1794180769.8261068,
@@ -12368,7 +12329,6 @@
   "fe4746fdf378174f": 1795050186.806023,
   "fe517e5430fda057": 1795066254.271999,
   "fe65a80affa94623": 1794267173.5283654,
-  "fe91614e7a0c48ea": 1793881927.3815606,
   "fe94b90ae0a1fb12": 1795068082.7999845,
   "fea246d2d95fea5a": 1795026653.649315,
   "fed9e511f06a80e0": 1794486800.0597844,
@@ -13576,13 +13536,13 @@
   },
   "filtered": {
    "/Film": 14,
-   "Bloomberg": 11,
+   "Bloomberg": 12,
    "Deadline": 4,
    "Digital Foundry": 1,
    "GameSpot": 3,
    "GamesIndustry.biz": 1,
    "IGN": 7,
-   "Insider Gaming": 28,
+   "Insider Gaming": 29,
    "Lambgoat": 1,
    "Loudwire": 3,
    "PC Gamer": 16,
@@ -13598,7 +13558,7 @@
    "Bloomberg": 25,
    "DOU": 2,
    "DOU Gamedev": 4,
-   "Deadline": 53,
+   "Deadline": 54,
    "Distorted Sound": 5,
    "Eurogamer": 5,
    "GameSpot": 2,
@@ -13617,7 +13577,7 @@
    "PC Gamer": 10,
    "Pitchfork": 3,
    "PlayUA": 6,
-   "Polygon": 17,
+   "Polygon": 18,
    "Product Hunt": 6,
    "Revolver": 3,
    "Rock Paper Shotgun": 8,
@@ -13631,7 +13591,7 @@
   "translators": {
    "DeepL": 37,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 289
+   "gemini-flash-lite-latest": 291
   },
   "week": "2026-W47"
  },
@@ -14410,6 +14370,26 @@
    440470,
    "Absence",
    1792591299.6776512
+  ],
+  "q:adds": [
+   0,
+   "",
+   1795091480.3061929
+  ],
+  "q:adds new": [
+   0,
+   "",
+   1795091479.7610908
+  ],
+  "q:adds new way": [
+   0,
+   "",
+   1795091479.2453072
+  ],
+  "q:adds new way to get": [
+   0,
+   "",
+   1795091478.7475295
   ],
   "q:affiliate links to authorised game retailers": [
    0,
@@ -15496,6 +15476,31 @@
    "Forbidden zone",
    1793628276.6804101
   ],
+  "q:fortnite": [
+   0,
+   "",
+   1795091478.2422142
+  ],
+  "q:fortnite adds": [
+   0,
+   "",
+   1795091477.7445247
+  ],
+  "q:fortnite adds new": [
+   0,
+   "",
+   1795091477.2398374
+  ],
+  "q:fortnite adds new way": [
+   0,
+   "",
+   1795091476.7304506
+  ],
+  "q:fortnite adds new way to get": [
+   0,
+   "",
+   1795091476.2362711
+  ],
   "q:forza motorsport": [
    2440510,
    "Forza Motorsport",
@@ -16340,6 +16345,21 @@
    0,
    "",
    1794985283.6772525
+  ],
+  "q:new way": [
+   0,
+   "",
+   1795091481.932032
+  ],
+  "q:new way to get": [
+   0,
+   "",
+   1795091481.4132261
+  ],
+  "q:new way to get the pirate": [
+   0,
+   "",
+   1795091480.8468018
   ],
   "q:nexus": [
    0,
@@ -18257,6 +18277,14 @@
   [
    1795089808.0403163,
    "RayNeo Built Modern Warfare 4 Its Own AR Glasses - And Put Call Of Duty Inside The Lens"
+  ],
+  [
+   1795091577.2385328,
+   "Fortnite Adds New Way to Get the Pirate Shop Token"
+  ],
+  [
+   1795091580.164961,
+   "BeIN Media Group To Bring ‘Michael’, ‘Hamnet’ & ‘Jurassic World Rebirth’ To MENA Audiences With Fresh NBC Universal Deal"
   ]
  ],
  "titles_uk": [
@@ -18967,6 +18995,14 @@
   [
    1795089808.0403178,
    "RayNeo випустила AR-окуляри для Modern Warfare 4 із вбудованою Call of Duty"
+  ],
+  [
+   1795091577.238534,
+   "У Fortnite з'явився новий спосіб отримати Pirate Shop Token"
+  ],
+  [
+   1795091580.1649625,
+   "BeIN Media Group уклала нову угоду з NBCUniversal"
   ]
  ],
  "ukrainian": {
