@@ -30,11 +30,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-19 13:17 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-11-19 13:19 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
@@ -9011,7 +9011,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Оператор і монтажер Primetime розповіли про роботу над фільмом</b>\n\nУ фільмі Primetime від A24 оператор Девід Болен та режисер Ленс Оппенгейм використали яскраве освітлення для створення напруги у сцені протистояння. Роберт Паттінсон зіграв Кріса Генсена, і в одній зі сцен оператор навмисно створив ефект супергероя за допомогою контрового світла. Монтажер Деніел Гарбер зазначив, що Паттінсон будував свою роль з огляду на інтернет-меми про Генсена.\n\n🔗 <a href=\"https://deadline.com/2026/11/primetime-cinematograhper-editor-video-interview-1237228520/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/primetime-cinematograhper-editor-video-interview-1237228520/",
     "orig": "‘Primetime’ Cinematographer & Editor On Making Robert Pattinson Look Like A “Superhero” & Breakdown Viral Meme Catchphrase"
@@ -9025,7 +9024,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>Google додала режим &quot;інкогніто&quot; до ШІ-пошуку</b>\n\nGoogle запускає тимчасові чати у режимі AI Mode для своєї пошукової системи – нова функція дозволить спілкуватися зі штучним інтелектом без збереження історії та впливу на майбутні рекомендації.\n\n🔗 <a href=\"https://mezha.ua/news/google-incognito-ai-search-317364/\">Mezha</a>\n\n#софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/google-incognito-ai-search-317364/",
     "orig": "Google додала режим \"інкогніто\" до ШІ-пошуку"
@@ -9861,6 +9859,34 @@
     "link": "https://deadline.com/2026/11/qatar-film-committee-uae-yango-play-explore-falconry-elzam-1237228915/",
     "orig": "Qatar’s Film Committee & UAE-Based Yango Play Explore Partnership Kicking Off With Falconry Doc Series ‘Elzam’"
    }
+  ],
+  [
+   1795094373.6261423,
+   6396,
+   "🎮",
+   "Гравці у World of Warcraft: Forever знайшли рідкісного кота для приручення",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Гравці у World of Warcraft: Forever знайшли рідкісного кота для приручення</b>\n\nПошуки секретів у World of Warcraft: Forever тривають: у нових локаціях гри мисливці знайшли ще один вид приручуваних котів\n\n🔗 <a href=\"https://www.eurogamer.net/world-of-warcraft-forever-secret-hunter-pet-green-cat\">Eurogamer</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/world-of-warcraft-forever-secret-hunter-pet-green-cat",
+    "orig": "The hunt for World of Warcraft: Forever secrets continue with the discovery of an elusive pet"
+   }
+  ],
+  [
+   1795094375.5062847,
+   6397,
+   "🤖",
+   "Anthropic виходить на Nasdaq. Що це означає для українського ІТ та як придбати акції",
+   "DOU",
+   {
+    "also": [],
+    "caption": "🤖 <b>Anthropic виходить на Nasdaq. Що це означає для українського ІТ та як придбати акції</b>\n\nАмериканська компанія Anthropic, яка розробляє ШІ-модель Claude, вийде на фондову біржу Nasdaq під тикером ANT. Торги почнуться 19 листопада о 16:30 за київським часом. Під час первинного розміщення акцій (IPO) компанія встановила ціну $83 за акцію та запропонувала інвесторам 980 млн цінних паперів. Про це йдеться на сайті компанії. Завершення розміщення акцій заплановане на 20 листопада 2026 року.\n\n🔗 <a href=\"https://dou.ua/lenta/news/anthropic-nasdaq-what-it-means/\">DOU</a> · #ШІ",
+    "kind": "photo",
+    "link": "https://dou.ua/lenta/news/anthropic-nasdaq-what-it-means/",
+    "orig": "Anthropic виходить на Nasdaq. Що це означає для українського ІТ та як придбати акції"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9876,7 +9902,7 @@
    1795064479.5724764
   ],
   "ai|DOU|https://dou.ua/feed/": [
-   1794852104.345479
+   1795094375.5065007
   ],
   "ai|Hugging Face|https://huggingface.co/blog/feed.xml": [
    1795014113.7924745,
@@ -9914,8 +9940,8 @@
    1794756680.6637075
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1795005114.1736689,
-   1795082840.639365
+   1795082840.639365,
+   1795094373.6263576
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1794974665.2713342
@@ -11094,6 +11120,7 @@
   "6c511781f9785305": 1794004252.6354504,
   "6c5402a776abce56": 1793890882.6072223,
   "6c5c317baac8ac3f": 1794058280.2930562,
+  "6c5d6002eb4157df": 1795094373.626306,
   "6c7b301e5d5526b6": 1794713474.5924284,
   "6c8858bedfd8c46b": 1794857514.3717523,
   "6cfdd9647f6c8225": 1793907152.445951,
@@ -11826,6 +11853,7 @@
   "c0795d054075efdf": 1794893609.9540985,
   "c08edfbb0325ff31": 1794852057.7928073,
   "c099e8be19bc6cf8": 1793909101.166271,
+  "c0b7ccc248148c3e": 1795094375.506453,
   "c0c11a847eb68103": 1794448886.3390272,
   "c0ecd6d3439523f9": 1794011585.384639,
   "c114542661967976": 1794657664.8976924,
@@ -13599,11 +13627,11 @@
    "AIN.ua": 2,
    "Blabbermouth": 4,
    "Bloomberg": 26,
-   "DOU": 2,
+   "DOU": 3,
    "DOU Gamedev": 4,
    "Deadline": 55,
    "Distorted Sound": 5,
-   "Eurogamer": 5,
+   "Eurogamer": 6,
    "GameSpot": 2,
    "GamesIndustry.biz": 7,
    "GitHub Trending": 21,
@@ -13634,7 +13662,7 @@
   "translators": {
    "DeepL": 37,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 295
+   "gemini-flash-lite-latest": 296
   },
   "week": "2026-W47"
  },
@@ -17354,6 +17382,16 @@
    "",
    1795062678.6807382
   ],
+  "q:warcraft": [
+   0,
+   "",
+   1795094332.1604965
+  ],
+  "q:warcraft forever": [
+   0,
+   "",
+   1795094331.5988865
+  ],
   "q:wardogs": [
    1867240,
    "WARDOGS",
@@ -17413,6 +17451,16 @@
    1407200,
    "World of Tanks",
    1793005388.3132465
+  ],
+  "q:world of warcraft": [
+   0,
+   "",
+   1795094330.980716
+  ],
+  "q:world of warcraft forever": [
+   0,
+   "",
+   1795094330.4049435
   ],
   "q:wrapping up some final stuff for expedition": [
    0,
@@ -18206,6 +18254,14 @@
   [
    1795094263.318524,
    "Qatar’s Film Committee & UAE-Based Yango Play Explore Partnership Kicking Off With Falconry Doc Series ‘Elzam’"
+  ],
+  [
+   1795094373.6263077,
+   "The hunt for World of Warcraft: Forever secrets continue with the discovery of an elusive pet"
+  ],
+  [
+   1795094375.5064552,
+   "Anthropic виходить на Nasdaq. Що це означає для українського ІТ та як придбати акції"
   ]
  ],
  "titles_uk": [
@@ -18924,6 +18980,14 @@
   [
    1795094263.3185246,
    "Кінокомітет Катару та Yango Play готують серіал про соколине полювання Elzam"
+  ],
+  [
+   1795094373.6263092,
+   "Гравці у World of Warcraft: Forever знайшли рідкісного кота для приручення"
+  ],
+  [
+   1795094375.5064564,
+   "Anthropic виходить на Nasdaq. Що це означає для українського ІТ та як придбати акції"
   ]
  ],
  "ukrainian": {
