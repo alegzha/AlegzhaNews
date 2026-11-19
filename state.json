@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
+   "detail": "https://www.kerrang.com/feed.rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Kerrang!» не працює",
+   "sent": 0,
+   "since": 1795048272.133646
+  }
+ },
  "daily_digest_date": "2026-11-18",
  "freebies": {
   "last_check": 1795046501.8027618,
@@ -30,30 +37,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-19 00:01 UTC",
+  "at": "2026-11-19 00:32 UTC",
   "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794355381.7703383,
-   5585,
-   "🤘",
-   "Aftershock оголосив дати проведення на 2027 рік та дозвіл на фестивалі до 2035 року",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55823/aftershock-announce-2027-dates-dwp-approved-for-3-multi-day-events-in-discovery-park-til-2035/",
-    "orig": "Aftershock announce 2027 dates, DWP approved for 3 multi-day events in Discovery Park til 2035"
-   }
-  ],
   [
    1794357190.3575957,
    5586,
@@ -9012,7 +9006,6 @@
    "Distorted Sound",
    {
     "also": [],
-    "caption": "🤘 <b>Bloodstock Festival оголосив 17 нових гуртів на 2027 рік</b>\n\nБританський метал-фестиваль Bloodstock додав до лайнапу 2027 року ще 17 гуртів, серед яких PINTGLASS, BRAT, KHEMMIS та CRISIX. Вони приєдналися до хедлайнерів MERCYFUL FATE, ELECTRIC CALLBOY і MOTIONLESS IN WHITE. Продаж квитків на окремі дні стартує 27 листопада.\n\n🔗 <a href=\"https://distortedsoundmag.com/bloodstock-festival-announce-17-new-bands-for-2027/\">Distorted Sound</a>\n\n#музика",
     "kind": "photo",
     "link": "https://distortedsoundmag.com/bloodstock-festival-announce-17-new-bands-for-2027/",
     "orig": "Bloodstock Festival announce 17 new bands for 2027"
@@ -9026,7 +9019,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Necrot випустили кліп на трек Drill The Skull</b>\n\nDeath-метал-тріо Necrot презентувало новий кліп на композицію Drill The Skull зі свого останнього альбому Lifeless Birth. Відео знімали під час виступів гурту в межах цьогорічного туру Decibel Tour разом із Cryptopsy та іншими колективами.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/17/news/necrot-release-drill-the-skull-music-video/\">ThePRP</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/17/news/necrot-release-drill-the-skull-music-video/",
     "orig": "Necrot Release “Drill The Skull” Music Video"
@@ -9040,7 +9032,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Зірка Dune: Prophecy Табу зіграє в рятувальній драмі Tunnel Men на Netflix</b>\n\nЗірка Dune: Prophecy та Life of Pi Табу приєдналася до акторського складу серіалу Tunnel Men від YRF Entertainment та Netflix. Це художня драма, заснована на реальних подіях 2023 року, коли група робітників опинилася заблокована в обваленому тунелі в Індії. Шоуранера проєкту Шив Равайл зосередиться на деталях рятувальної операції та випробуваннях, які довелося пройти героям.\n\n🔗 <a href=\"https://variety.com/2026/tv/news/dune-prophecy-star-tabu-yrf-netflix-series-tunnel-men-1236950175/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/tv/news/dune-prophecy-star-tabu-yrf-netflix-series-tunnel-men-1236950175/",
     "orig": "‘Dune: Prophecy’ Star Tabu Joins YRF Entertainment’s Netflix Rescue Drama ‘Tunnel Men’ (EXCLUSIVE)"
@@ -9867,6 +9858,48 @@
     "link": "https://www.polygon.com/greatest-games-no-goty-nominations/",
     "orig": "The 10 greatest games to never get a GOTY nomination"
    }
+  ],
+  [
+   1795048285.646196,
+   6338,
+   "🎬",
+   "У Лос-Анджелесе оголосили попередження про евакуацію через негоду",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>У Лос-Анджелесе оголосили попередження про евакуацію через негоду</b>\n\nУ Лос-Анджелесі та околицях через потужний циклон оголосили попередження про евакуацію для районів, які постраждали від нещодавніх пожеж. Очікуються опади до 3 дюймів і пориви вітру до 55 миль на годину, що підвищує ризик сходження небезпечних селів і зсувів ґрунту.\n\n🔗 <a href=\"https://deadline.com/2026/11/rain-evacuation-warnings-pacific-palisades-malibu-hollywood-1237228533/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/rain-evacuation-warnings-pacific-palisades-malibu-hollywood-1237228533/",
+    "orig": "Rain-Related Evacuation Warnings Issued For The Palisades & Parts Of Malibu, The Hollywood Hills, Altadena, Calabasas & Santa Clarita"
+   }
+  ],
+  [
+   1795048335.609668,
+   6339,
+   "🎬",
+   "Кріс Пратт зіграє головну роль у екранізації роману The Traveler від Paramount",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Кріс Пратт зіграє головну роль у екранізації роману The Traveler від Paramount</b>\n\nЗірка «Вартових Галактики» очолить адаптацію книги Джозефа Екерта в межах трирічної угоди про продюсування з кіностудією.\n\n🔗 <a href=\"https://deadline.com/2026/11/chris-pratt-the-traveler-paramount-pictures-1237228625/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/chris-pratt-the-traveler-paramount-pictures-1237228625/",
+    "orig": "Chris Pratt To Star In Paramount’s Feature Take Of Joseph Eckert Novel ‘The Traveler’"
+   }
+  ],
+  [
+   1795048339.1112714,
+   6340,
+   "🤘",
+   "Pain of Truth випустили концертне відео Live at the Long Island Paramount",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Pain of Truth випустили концертне відео Live at the Long Island Paramount</b>\n\nХардкор-гурт Pain of Truth спільно з Daze Records опублікував на YouTube професійне концертне відео Live at the Long Island Paramount. Режисером виступив Том Флінн. Раніше цей запис був доступний лише на фізичних носіях.\n\n🔗 <a href=\"https://lambgoat.com/news/55972/pain-of-truth-streaming-live-at-the-long-island-paramount-pro-shot-concert-video/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55972/pain-of-truth-streaming-live-at-the-long-island-paramount-pro-shot-concert-video/",
+    "orig": "Pain of Truth streaming 'Live at the Long Island Paramount' pro-shot concert video"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9985,8 +10018,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1794960086.3351846,
-   1794961884.5306504,
    1794963653.726286,
    1794965497.0031416,
    1794967638.5452166,
@@ -9998,7 +10029,9 @@
    1795007012.6098773,
    1795042982.6484847,
    1795044693.0254283,
-   1795046483.604918
+   1795046483.604918,
+   1795048285.6464512,
+   1795048335.6099267
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794663071.9451547
@@ -10041,10 +10074,10 @@
    1795003300.8774254
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1794958379.0945435,
    1794972693.691433,
    1794978101.4919631,
-   1794985293.4656641
+   1794985293.4656641,
+   1795048339.1115835
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1794708113.8908067,
@@ -11292,6 +11325,7 @@
   "80b878f8a0f2fa9c": 1794805286.365154,
   "80bd3cba3e663ddd": 1795042982.6484375,
   "80bddf6e8ca661a1": 1794909660.6622963,
+  "80d1635b58ad2566": 1795048281.485335,
   "80db25dc396c0461": 1793892655.141962,
   "80dea0e246e0c9d2": 1794099675.8191545,
   "80f2245c44cef0be": 1794887915.5464478,
@@ -11406,7 +11440,6 @@
   "8c7f570572ed014c": 1794209482.3593812,
   "8cd15a310bffea77": 1794007882.3242717,
   "8cf4ddd7d3cd8e60": 1794238457.9315062,
-  "8cfaed82168eaf48": 1793838683.4596999,
   "8d0ab631b0d4c66f": 1794927690.37838,
   "8d0cf00f38071c8d": 1794007892.8830473,
   "8d173dd5584087f6": 1794655879.9927368,
@@ -11491,6 +11524,7 @@
   "97583856a98b8eee": 1793896517.3480368,
   "977003579ca52a4b": 1793898089.9954352,
   "977670d7f920356e": 1793869382.1751883,
+  "9780bd0f54909f52": 1795048335.6098812,
   "9790ac8ab76111c8": 1793970118.0104785,
   "980e91313f64baa3": 1794594684.5743515,
   "98270c712011cea5": 1793961095.7366772,
@@ -11582,6 +11616,7 @@
   "a1e918d3c6e415b4": 1794223978.675429,
   "a20858528fd502b1": 1794951055.3267138,
   "a224a4c6e09436dd": 1794387657.251034,
+  "a23ebe05a653c09e": 1795048285.6464028,
   "a24cbc98a1a56dc7": 1793881876.1541889,
   "a25472f4d1b51258": 1793899976.3401167,
   "a258190d3a1acd4c": 1794349889.1390882,
@@ -11603,6 +11638,7 @@
   "a4b13d36a94e6d0b": 1794983451.0594394,
   "a4c265c1e61f0eae": 1794353367.763071,
   "a4e3b24e889e8164": 1794826980.8674247,
+  "a4e68d0b01ab1f3c": 1795048339.1115296,
   "a5433ee88c25ff65": 1794682854.575637,
   "a54a5de50b86e841": 1794759968.2490451,
   "a554bee44e8165cd": 1794358884.043912,
@@ -12846,7 +12882,7 @@
   ],
   "artists_checked": 1795046505.6685681,
   "blocked_until": 1795044851.179641,
-  "cursor": 118,
+  "cursor": 128,
   "digest_week": "2026-W46",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13624,7 +13660,7 @@
    "Bloomberg": 22,
    "DOU": 2,
    "DOU Gamedev": 3,
-   "Deadline": 43,
+   "Deadline": 45,
    "Distorted Sound": 4,
    "Eurogamer": 4,
    "GameSpot": 2,
@@ -13636,7 +13672,7 @@
    "IndieWire": 5,
    "Insider Gaming": 7,
    "Kerrang!": 2,
-   "Lambgoat": 12,
+   "Lambgoat": 13,
    "Metal Hammer (Louder)": 11,
    "Mezha": 22,
    "Neformat": 2,
@@ -13657,7 +13693,7 @@
   "translators": {
    "DeepL": 27,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 244
+   "gemini-flash-lite-latest": 247
   },
   "week": "2026-W47"
  },
@@ -13876,11 +13912,6 @@
    "3288210",
    "Super Meat Boy 3D",
    1792857742.5655243
-  ],
-  "id:3295000": [
-   "3295000",
-   "ReVamp",
-   1792454492.1142018
   ],
   "id:3339970": [
    "3339970",
@@ -17746,13 +17777,13 @@
    "google",
    "google пошук",
    "gta 6",
+   "instagram",
    "iphone duo",
    "nvidia",
    "osint",
    "spacexai",
    "waymo",
    "авто",
-   "армія",
    "бпла",
    "бізнес",
    "вояджер-1",
@@ -17761,15 +17792,14 @@
    "екологія",
    "космос",
    "кримський міст",
-   "міноборони",
    "новини",
    "оборонка",
-   "оборонні закупівлі",
    "ракети",
    "роботаксі",
    "сили оборони",
    "смартфони",
    "софт",
+   "соціальні мережі",
    "технології",
    "фінанси",
    "штучний інтелект",
@@ -17778,18 +17808,6 @@
   ]
  },
  "titles": [
-  [
-   1794875490.1073053,
-   "Batman Forever's Director Nearly Rejected Jim Carrey As The Riddler Until He Saw This Movie"
-  ],
-  [
-   1794875504.7401142,
-   "Flagman, Lespecial, Etc. Partake In New Primus Tribute Album “Bastardized”"
-  ],
-  [
-   1794875511.5432878,
-   "Mastodon Release New “Your Ghost Again” Live Performance Video"
-  ],
   [
    1794877484.23495,
    "CAA Inks With Hybe To Rep Korean Firm’s Artists, IP & Brands"
@@ -18477,21 +18495,21 @@
   [
    1795046491.8422081,
    "The 10 greatest games to never get a GOTY nomination"
+  ],
+  [
+   1795048285.6464043,
+   "Rain-Related Evacuation Warnings Issued For The Palisades & Parts Of Malibu, The Hollywood Hills, Altadena, Calabasas & Santa Clarita"
+  ],
+  [
+   1795048335.6098826,
+   "Chris Pratt To Star In Paramount’s Feature Take Of Joseph Eckert Novel ‘The Traveler’"
+  ],
+  [
+   1795048339.1115315,
+   "Pain of Truth streaming 'Live at the Long Island Paramount' pro-shot concert video"
   ]
  ],
  "titles_uk": [
-  [
-   1794875490.1073065,
-   "Режисер Batman Forever ледь не відмовив Джиму Керрі на роль Riddler"
-  ],
-  [
-   1794875504.7401152,
-   "Гурти Flagman і lespecial узяли участь у триб'ют-альбомі Primus «Bastardized»"
-  ],
-  [
-   1794875511.5432885,
-   "Mastodon випустили лайв-відео на трек Your Ghost Again"
-  ],
   [
    1794877484.234951,
    "CAA уклала угоду з Hybe щодо представлення інтересів артистів, інтелектуальної власності та брендів корейської компанії"
@@ -19179,6 +19197,18 @@
   [
    1795046491.8422093,
    "10 видатних ігор, які ніколи не отримували номінацію на GOTY"
+  ],
+  [
+   1795048285.6464052,
+   "У Лос-Анджелесе оголосили попередження про евакуацію через негоду"
+  ],
+  [
+   1795048335.6098835,
+   "Кріс Пратт зіграє головну роль у екранізації роману The Traveler від Paramount"
+  ],
+  [
+   1795048339.1115324,
+   "Pain of Truth випустили концертне відео Live at the Long Island Paramount"
   ]
  ],
  "ukrainian": {
