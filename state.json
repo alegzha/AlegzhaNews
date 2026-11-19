@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:games|ITC.ua|https://itc.ua/ua/feed/": {
-   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ITC.ua» не працює",
-   "sent": 0,
-   "since": 1795060887.864676
-  },
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutErr",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1795060914.5367308
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-18",
  "freebies": {
   "last_check": 1795061043.9171865,
@@ -43,8 +30,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-19 04:04 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-11-19 04:31 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 2
@@ -54,45 +41,6 @@
   ]
  },
  "post_log": [
-  [
-   1794371482.0509968,
-   5606,
-   "🤘",
-   "Промоутер концерту Trapt прокоментував конфлікт гурту з розігрівом",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/11/10/news/promoter-of-trapts-recent-florida-show-comments-on-chris-taylor-browns-clash-with-the-opening-bands/",
-    "orig": "Promoter Of Trapt’s Recent Florida Show Comments On Chris Taylor Brown’s Clash With The Opening Bands"
-   }
-  ],
-  [
-   1794371492.9666107,
-   5607,
-   "🎮",
-   "Покемонівське меню Happy Meal повернулося до McDonald's із новими картками",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/i-tried-the-pokemon-happy-meal-heres-what-i-learned-and-what-i-pulled",
-    "orig": "I Tried the Pokémon Happy Meal — Here’s What I Learned (and What I Pulled)"
-   }
-  ],
-  [
-   1794371498.1178741,
-   5608,
-   "🎬",
-   "Суд відхилив клопотання BBC про закриття позову про наклеп від Donald Trump",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/trump-bbc-lawsuit-judge-1237219938/",
-    "orig": "Judge Declines To Dismiss Donald Trump’s Defamation Claim Against BBC"
-   }
-  ],
   [
    1794373316.03451,
    5609,
@@ -8999,7 +8947,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Створіть власну LLM на 64M параметрів лише за 2 години</b>\n\nПроєкт MiniMind дозволяє навчити крихітну мовну модель із нуля на звичайній відеокарті всього за 2 години, витративши мінімум коштів. Розробники виклали у відкритий доступ усю структуру та повний цикл тренування — від претрейну й SFT до MoE, RLHF, агенктів та дистиляції.\n\n🔗 <a href=\"https://github.com/jingyaogong/minimind\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/jingyaogong/minimind",
     "orig": "jingyaogong/minimind"
@@ -9013,7 +8960,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Ієн Маккалох поділився саундтреком свого життя</b>\n\nФронтмен гурту Echo &amp; The Bunnymen Ієн Маккалох розповів про ключові музичні моменти свого життя та альбоми, що сформували його смак. Музикант згадав вплив The Rolling Stones, Девіда Бові, Лу Ріда та інших виконавців на його творчість.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/interviews/ian-mcculloch-soundtrack-of-my-life\">Metal Hammer (Louder)</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/interviews/ian-mcculloch-soundtrack-of-my-life",
     "orig": "Echo & The Bunnymen's Ian McCulloch: The soundtrack of my life"
@@ -9854,6 +9800,34 @@
     "link": "https://lambgoat.com/news/55975/witch-club-satan-announce-headlining-european-tour-with-otayonii-and-ditte-kroyer/",
     "orig": "Witch Club Satan announce headlining European tour with Otay:Onii and Ditte Krøyer"
    }
+  ],
+  [
+   1795062692.6419332,
+   6358,
+   "🎮",
+   "Волтон Гоггінс не впевнений щодо четвертого сезону серіалу Fallout",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Волтон Гоггінс не впевнений щодо четвертого сезону серіалу Fallout</b>\n\nВиконавець ролі The Ghoul Волтон Гоггінс заявив, що наразі не знає, чи отримає серіал Fallout четвертий сезон. Знімання третього сезону вже завершено, а прем&#x27;єра, за словами Кайла Маклаклана, може відбутися у травні або червні наступного року.\n\n🔗 <a href=\"https://www.pcgamer.com/movies-tv/not-even-walton-goggins-knows-if-fallout-will-have-a-season-4-if-we-get-the-opportunity-to-come-back-for-season-four-that-would-continue-to-honor-how-sacred-this-is-to-people/\">PC Gamer</a>\n\n#ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/movies-tv/not-even-walton-goggins-knows-if-fallout-will-have-a-season-4-if-we-get-the-opportunity-to-come-back-for-season-four-that-would-continue-to-honor-how-sacred-this-is-to-people/",
+    "orig": "Not even Walton Goggins knows if Fallout will have a Season 4: 'if we get the opportunity to come back for season four, that would continue to honor how sacred this is to people'"
+   }
+  ],
+  [
+   1795062698.9612572,
+   6359,
+   "🤘",
+   "U2 поділилися спогадами про роботу з Dolly Parton над її фінальною піснею",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>U2 поділилися спогадами про роботу з Dolly Parton над її фінальною піснею</b>\n\nГурт U2 розповів про співпрацю з Dolly Parton над композицією Torn, яка стала її останнім записом перед смертю 25 серпня. Трек увійшов до нового альбому гурту Carnaval De Luz. Музиканти поділилися деталями створення пісні на шоу Jimmy Kimmel Live.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/u2-on-working-with-dolly-parton-on-torn-the-last-song-she-ever-recorded\">Metal Hammer (Louder)</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/u2-on-working-with-dolly-parton-on-torn-the-last-song-she-ever-recorded",
+    "orig": "U2 share memories of working with Dolly Parton on the last song she ever recorded"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9934,10 +9908,10 @@
    1795012327.1837828
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1794974673.3642466,
    1794979908.3034265,
    1794981717.4584184,
-   1795042884.9402857
+   1795042884.9402857,
+   1795062692.6422322
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1794902492.8208728,
@@ -10038,7 +10012,8 @@
    1794994291.120553,
    1795001479.5313768,
    1795051877.248342,
-   1795057287.8990183
+   1795057287.8990183,
+   1795062698.961518
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1794632474.2096412
@@ -10262,6 +10237,7 @@
   "10e2ed5cfc88d0e3": 1793914251.9255452,
   "112dc0b1f6acfedc": 1794240058.5109377,
   "11304629b3b28943": 1794958375.376239,
+  "115684b54442967b": 1795062692.6421797,
   "11659dba19087fda": 1794826975.8053226,
   "116a2269b5c9dc74": 1794438100.512025,
   "116d6bd5830c9031": 1794655852.1792724,
@@ -10484,6 +10460,7 @@
   "28b14e9de5256bb3": 1794524493.4766808,
   "28be3ebf9e180059": 1794529992.2813523,
   "28e8f69e46202257": 1793880118.867805,
+  "28f6eafc3b7955ef": 1795062698.9614763,
   "291357e3ab9659e4": 1794801684.2401192,
   "293a1d8b82625e5b": 1794231054.60154,
   "2965c27d14acb84b": 1794778261.7964659,
@@ -12839,7 +12816,7 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1795046505.6685681,
-  "blocked_until": 1795044851.179641,
+  "blocked_until": 1795132965.8105006,
   "cursor": 208,
   "digest_week": "2026-W46",
   "seen": {
@@ -13631,10 +13608,10 @@
    "Insider Gaming": 7,
    "Kerrang!": 2,
    "Lambgoat": 14,
-   "Metal Hammer (Louder)": 13,
+   "Metal Hammer (Louder)": 14,
    "Mezha": 23,
    "Neformat": 2,
-   "PC Gamer": 9,
+   "PC Gamer": 10,
    "Pitchfork": 3,
    "PlayUA": 4,
    "Polygon": 14,
@@ -13651,7 +13628,7 @@
   "translators": {
    "DeepL": 28,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 263
+   "gemini-flash-lite-latest": 265
   },
   "week": "2026-W47"
  },
@@ -14290,6 +14267,11 @@
    0,
    "",
    1794909682.9043474
+  ],
+  "q:4": [
+   0,
+   "",
+   1795062681.4984684
   ],
   "q:47": [
    4921720,
@@ -15261,6 +15243,11 @@
    "Fallen Aces",
    1792859627.2828233
   ],
+  "q:fallout": [
+   0,
+   "",
+   1795062680.3514397
+  ],
   "q:fallout 3": [
    22300,
    "Fallout 3",
@@ -15465,6 +15452,11 @@
    4251460,
    "Godzilla: Destroy All Monsters Melee Remastered",
    1793642516.1267724
+  ],
+  "q:goggins": [
+   0,
+   "",
+   1795062679.8131833
   ],
   "q:gothic 1 remake": [
    1297900,
@@ -16836,6 +16828,11 @@
    "Sealbreakers",
    1793100695.6245604
   ],
+  "q:season 4": [
+   0,
+   "",
+   1795062680.907031
+  ],
   "q:selaco": [
    1592280,
    "Selaco",
@@ -17025,11 +17022,6 @@
    9900,
    "Star Trek Online",
    1793361812.7367053
-  ],
-  "q:star wars battlefront": [
-   1237980,
-   "STAR WARS™ Battlefront",
-   1792468982.2060437
   ],
   "q:star wars galactic racer": [
    4078430,
@@ -17336,6 +17328,16 @@
    "Walking Simulator",
    1792575423.2553575
   ],
+  "q:walton": [
+   0,
+   "",
+   1795062679.2810235
+  ],
+  "q:walton goggins": [
+   0,
+   "",
+   1795062678.6807382
+  ],
   "q:ward": [
    0,
    "",
@@ -17516,10 +17518,6 @@
   ]
  },
  "titles": [
-  [
-   1794889885.7630777,
-   "Elon Musk Blasts ‘SNL’ For Jeremy Culhane’s Impression Of Him: “They Need To Try Harder”"
-  ],
   [
    1794889903.5498633,
    "Daughters' self-titled LP headed for a remastered vinyl release"
@@ -18219,13 +18217,17 @@
   [
    1795061035.2963486,
    "Witch Club Satan announce headlining European tour with Otay:Onii and Ditte Krøyer"
+  ],
+  [
+   1795062692.642182,
+   "Not even Walton Goggins knows if Fallout will have a Season 4: 'if we get the opportunity to come back for season four, that would continue to honor how sacred this is to people'"
+  ],
+  [
+   1795062698.961478,
+   "U2 share memories of working with Dolly Parton on the last song she ever recorded"
   ]
  ],
  "titles_uk": [
-  [
-   1794889885.7630787,
-   "Ілон Маск розкритикував пародію на себе в шоу SNL"
-  ],
   [
    1794889903.5498648,
    "Культовий альбом Daughters перевидадуть на вінилі"
@@ -18925,6 +18927,14 @@
   [
    1795061035.2963498,
    "Witch Club Satan анонсували європейський тур на 2027 рік"
+  ],
+  [
+   1795062692.642183,
+   "Волтон Гоггінс не впевнений щодо четвертого сезону серіалу Fallout"
+  ],
+  [
+   1795062698.961479,
+   "U2 поділилися спогадами про роботу з Dolly Parton над її фінальною піснею"
   ]
  ],
  "ukrainian": {
