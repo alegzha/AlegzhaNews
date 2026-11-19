@@ -1,16 +1,10 @@
 {
  "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
    "sent": 0,
-   "since": 1795127469.7642243
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1795127468.6336906
+   "since": 1795129280.6670382
   }
  },
  "daily_digest_date": "2026-11-19",
@@ -44,11 +38,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-19 22:32 UTC",
-  "gemini_error": "",
+  "at": "2026-11-19 23:05 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 1,
+   "gemma-4-26b-a4b-it": 2,
    "gemma-4-31b-it": 1
   },
   "used": [
@@ -56,45 +50,6 @@
   ]
  },
  "post_log": [
-  [
-   1794438090.6693616,
-   5678,
-   "🎮",
-   "Другий сезон Black Doves очолив стрімінгові чарти Netflix",
-   "Polygon",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.polygon.com/keira-knightley-black-doves-netflix-streaming-hit-season-2/",
-    "orig": "Netflix's Hit Spy Thriller Returns and Takes Over Streaming Charts"
-   }
-  ],
-  [
-   1794438097.633222,
-   5679,
-   "🎮",
-   "Black Forest Games викупила себе у Embracer Group",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/gaming-industry/giana-sisters-developer-black-forest-games-buys-itself-out-of-embracer-some-of-the-best-games-of-the-last-decade-came-from-teams-of-fifty-not-five-hundred/",
-    "orig": "Giana Sisters developer Black Forest Games buys itself out of Embracer: 'Some of the best games of the last decade came from teams of fifty, not five hundred'"
-   }
-  ],
-  [
-   1794438100.5117483,
-   5680,
-   "🎬",
-   "Творці VisionQuest розкрили за лаштунками деталі створення серіалу",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/visionquest-finale-interview-1237220853/",
-    "orig": "How ‘VisionQuest’ Set Paul Bettany Ablaze And Got James Spader To Say “LMAO” — The Process"
-   }
-  ],
   [
    1794439890.6267333,
    5681,
@@ -8996,7 +8951,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Зірка «Baywatch» Еріка Еленіак заявила, що OnlyFans врятував її від виселення та фінансових проблем</b>\n\nЗірка &quot;Baywatch&quot; Еріка Еленіак розповіла, як OnlyFans у 56 років врятував її фінанси\n\n🔗 <a href=\"https://variety.com/2026/tv/news/baywatch-erika-eleniak-onlyfans-eviction-1236952802/\">Variety</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/tv/news/baywatch-erika-eleniak-onlyfans-eviction-1236952802/",
     "orig": "‘Baywatch’ Star Erika Eleniak Says Joining OnlyFans Saved Her From ‘Financial Stress’ and Being Evicted: It ‘Feels Really Good to Be in Control’"
@@ -9010,7 +8964,6 @@
    "PlayUA",
    {
     "also": [],
-    "caption": "🎮 <b>Valve випустила патч 7.42 для <a href=\"https://store.steampowered.com/app/570/\">Dota 2</a> зі змінами Рошана, Мучителя та ігрової економіки</b>\n\nКомпанія Valve представила оновлення 7.42 для Dota 2, яке вже доступне для завантаження у Steam. Розробники змінили час появи Рошана й Мучителя, переробили частину ландшафту, оновили систему нейтральних предметів і скоригували характеристики героїв. Значна частина нововведень спрямована на прискорення темпу матчів. Однією з головних змін став новий час появи Мучителя. Тепер нейтральний бос з’являється на […]\n\n🔗 <a href=\"https://playua.net/valve-vypustyla-patch-7-42-dlya-dota-2-zi-zminamy-roshana-muchytelya-ta-igrovoyi-ekonomiky/\">PlayUA</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://playua.net/valve-vypustyla-patch-7-42-dlya-dota-2-zi-zminamy-roshana-muchytelya-ta-igrovoyi-ekonomiky/",
     "orig": "Valve випустила патч 7.42 для Dota 2 зі змінами Рошана, Мучителя та ігрової економіки"
@@ -9024,7 +8977,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "💾 <b>Нова перевірка безпеки Windows 11 блокуватиме погано захищені застосунки</b>\n\nMicrosoft представила нову систему безпекової перевірки Windows 11 під назвою Windows Baseline Protection, яка блокуватиме запуск деяких застосунків у разі невідповідності безпековим вимогам.\n\n🔗 <a href=\"https://itc.ua/ua/novini/nova-perevirka-bezpeky-windows-11-blokuvatyme-pogano-zahyshheni-zastosunky/\">ITC.ua</a>\n\n#софт",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/nova-perevirka-bezpeky-windows-11-blokuvatyme-pogano-zahyshheni-zastosunky/",
     "orig": "Нова перевірка безпеки Windows 11 блокуватиме погано захищені застосунки"
@@ -9841,6 +9793,48 @@
     "link": "https://lambgoat.com/news/55989/bleeding-throughs-john-arnold-recovering-from-heart-attack/",
     "orig": "Bleeding Through’s John Arnold recovering from heart attack"
    }
+  ],
+  [
+   1795129352.0631137,
+   6433,
+   "🎮",
+   "Шон Лейден назвав GTA VI «бустерним уколом» для геймінгу",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🎮 <b>Шон Лейден назвав GTA VI «бустерним уколом» для геймінгу</b>\n\nКолишній президент і CEO Sony Interactive Entertainment America Шон Лейден в інтерв&#x27;ю Bloomberg The Close назвав GTA VI «бустерним уколом» для індустрії. Він також зазначив, що ігри Grand Theft Auto є «окремими планетами».\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-19/-gta-vi-is-a-booster-shot-for-gaming-shawn-layden-says-video\">Bloomberg</a> · #ігри #GTA6 #Sony",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-19/-gta-vi-is-a-booster-shot-for-gaming-shawn-layden-says-video",
+    "orig": "'GTA VI' Is a 'Booster Shot' for Gaming, Shawn Layden Says"
+   }
+  ],
+  [
+   1795129393.4170048,
+   6434,
+   "🎮",
+   "Колишній керівник PlayStation назвав Grand Theft Auto VI цілою економікою",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🎮 <b>Колишній керівник PlayStation назвав Grand Theft Auto VI цілою економікою</b>\n\nКолишній президент Sony Interactive Entertainment America Шон Лейден зазначив, що масштаб Grand Theft Auto VI важко осягнути людям, які не знайомі з іграми. За його словами, проєкт є не просто грою, а справжньою економікою.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-19/former-playstation-exec-on-grand-theft-auto-vi-debut-video\">Bloomberg</a> · #ігри #GTA6 #PlayStation",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-19/former-playstation-exec-on-grand-theft-auto-vi-debut-video",
+    "orig": "Former Playstation Exec. On ‘Grand Theft Auto VI’ Debut"
+   }
+  ],
+  [
+   1795129523.5828605,
+   6435,
+   "🎬",
+   "Чому якісна озвучка не має бути ізольованим процесом",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Чому якісна озвучка не має бути ізольованим процесом</b>\n\nРежисери &quot;Wildwood&quot; Тревіс Найт та &quot;Tangles&quot; Ліа Нельсон розповіли IndieWire, як вони працювали над озвученням в анімації\n\n🔗 <a href=\"https://www.indiewire.com/features/animation/voice-directing-wildwood-tangles-animation-1235229355/\">IndieWire</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/features/animation/voice-directing-wildwood-tangles-animation-1235229355/",
+    "orig": "Why Good Voice Acting Doesn’t Have to Happen in Isolation"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9883,7 +9877,8 @@
    1793370738.9416513
   ],
   "games|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1794963668.215556
+   1795129352.0633705,
+   1795129393.4172497
   ],
   "games|DOU Gamedev|https://gamedev.dou.ua/feed/": [
    1794992869.7279704,
@@ -9981,7 +9976,8 @@
   "movies|IndieWire|https://www.indiewire.com/feed/": [
    1795071681.9440248,
    1795126079.9814177,
-   1795127523.8008435
+   1795127523.8008435,
+   1795129523.5831094
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1794988872.4975154
@@ -10112,7 +10108,6 @@
   "012e35da599c0051": 1794499279.9660673,
   "01535d7089aa4e8a": 1793993481.1960783,
   "017a06c6e66a0ea4": 1795094042.94041,
-  "017b2cac732da1e5": 1793919656.8897884,
   "01ddf7996eecafe4": 1794870118.6987584,
   "01e478ba125afa0c": 1794911494.7006705,
   "01e511a2db798aba": 1794942061.2796698,
@@ -10120,7 +10115,6 @@
   "02185a83c836f7cd": 1794553375.1923747,
   "021d38d146d3fad9": 1794065499.599085,
   "021ea2600fd140a7": 1795006853.2084172,
-  "025483d120d50629": 1793919711.4419525,
   "027978085d9b4855": 1795116654.1601062,
   "0292ab11a949c049": 1794024088.575985,
   "02a2508663d4f5f3": 1794110451.877304,
@@ -10691,6 +10685,7 @@
   "497798b1dab433b4": 1794625285.5868697,
   "49888aba79a3bf32": 1794871898.1832585,
   "49915d4c7cd2febf": 1794700889.0070953,
+  "49c4141c8597c979": 1795129258.2337174,
   "49d48c710ecdd499": 1794596480.8390253,
   "49df04ef0fcca6ec": 1794531691.8776586,
   "4a0f2863e5da5058": 1794468725.5863578,
@@ -10805,6 +10800,7 @@
   "582af0723ae9b8ac": 1794783426.8461566,
   "5836811d188cf5d7": 1793953885.0311246,
   "585ac975b75ce028": 1795073474.7372088,
+  "5876519fff1e97dc": 1795129523.5830646,
   "5880887245247880": 1794897106.8863344,
   "58d1500c12993f95": 1794191760.1605656,
   "590e298f3d1a3af4": 1795118455.5877645,
@@ -11128,6 +11124,7 @@
   "7b866964c55ffa52": 1794222361.3424985,
   "7ba17441717386c1": 1794425453.5039613,
   "7bc0aa81e38591c4": 1794924126.2097738,
+  "7bccc4b70a77783a": 1795129287.6917725,
   "7beb863753756d4a": 1794330083.204251,
   "7bffe8ee5077df03": 1794412878.729675,
   "7ca078f07809228c": 1795087856.688431,
@@ -11503,7 +11500,6 @@
   "aaa4566ea209bbef": 1795095036.2873633,
   "aad0112bc87d6a39": 1794699072.7626278,
   "ab228902b2eb76d0": 1795125655.0498836,
-  "ab29c660172a2556": 1793919705.5728858,
   "ab2c2f54c2bae79b": 1794645076.4064775,
   "ab41b6553da24d4e": 1794978086.8693948,
   "ab4706531f52e990": 1794108652.0787802,
@@ -11637,7 +11633,6 @@
   "bc3356ccbb0f312b": 1794214991.3628657,
   "bc6cd049e9a32803": 1794502963.9584627,
   "bcd35440bc852b1c": 1793989903.2467942,
-  "bcea0162abb29c7f": 1793919656.8897884,
   "bd0886bfe5db68f9": 1794497454.0506542,
   "bd094462e92c17c9": 1794520852.2037077,
   "bd12796d271c4d1b": 1795087856.688431,
@@ -11645,7 +11640,6 @@
   "bd33d17f2ff5c865": 1794673881.9477994,
   "bd4bc2ce19de7d37": 1794969087.790321,
   "bd4fec8eba81c105": 1794880908.74793,
-  "bd55895dbad1aa4c": 1793919695.2777495,
   "bd58b25f35d4416e": 1795003298.0038018,
   "bd5ebbfdeb53e082": 1795114863.5731728,
   "bda0dc108c4cd47c": 1794904275.4484015,
@@ -11694,6 +11688,7 @@
   "c313e3ee418f0c52": 1794330482.6856482,
   "c316780a7dfb370c": 1794663071.9451056,
   "c32687f0269b6d8e": 1794151873.7691176,
+  "c341dbe9803fed63": 1795129258.2337174,
   "c344c11d3d5fc3c2": 1794207701.1322474,
   "c3a616b7e9552087": 1794513658.9207973,
   "c3a78c7b04077682": 1794371482.0513103,
@@ -11735,6 +11730,7 @@
   "c7c1eab184fa6539": 1795014053.3303049,
   "c7f2cd8ac9554821": 1794339074.573024,
   "c8acb422d9397fe1": 1793941284.4177978,
+  "c8b4b39dc9888e8c": 1795129393.4172053,
   "c8bd7bddfbeb9fb6": 1794652341.239789,
   "c8c751983f9e7388": 1793941287.010817,
   "c913b4db39d47bb9": 1794915180.2278678,
@@ -11763,7 +11759,6 @@
   "cc3e62c2fc8cd3ed": 1795066308.2284472,
   "cc6b621d7433f3d2": 1795012321.578571,
   "cc9ad175fffa224d": 1794366131.0094316,
-  "cce0629d13e2b34c": 1793919719.1031468,
   "cd16ad53b9433f3e": 1794115881.4298012,
   "cd5819428ecda86e": 1795001460.8855703,
   "cd70f0ed70179bba": 1793986278.1740103,
@@ -12106,7 +12101,6 @@
   "f7dd0f3bacb35fde": 1794360706.8185656,
   "f7dfba137cf6e7fc": 1794387773.8866594,
   "f804720e6fdb4373": 1794607286.0108721,
-  "f837a1e7305ea72b": 1793919684.1916068,
   "f83db0331ff8590e": 1794225780.2382436,
   "f84cce9069954581": 1793991693.880322,
   "f857e39141f21e8a": 1794353473.935522,
@@ -12127,6 +12121,7 @@
   "fa129f3254882734": 1794130255.9531379,
   "fa2dc81a73c6c087": 1795120257.8905454,
   "fa2ec973f9cfdb14": 1794348101.5814364,
+  "fa32eb5da1587b98": 1795129352.0633268,
   "fa3ae1d859f5de7b": 1794616302.86888,
   "fa5492267cf340ea": 1794535009.7471654,
   "fa762f8b6bba1505": 1793989912.7519934,
@@ -13385,7 +13380,7 @@
    "GamesIndustry.biz": 1,
    "IGN": 13,
    "ITC.ua": 1,
-   "Insider Gaming": 37,
+   "Insider Gaming": 38,
    "Lambgoat": 1,
    "Loudwire": 4,
    "PC Gamer": 16,
@@ -13393,14 +13388,14 @@
    "PlayUA": 1,
    "Polygon": 39,
    "Product Hunt": 1,
-   "VGC": 41,
+   "VGC": 42,
    "Variety": 11
   },
   "sources": {
    "/Film": 15,
    "AIN.ua": 4,
    "Blabbermouth": 4,
-   "Bloomberg": 29,
+   "Bloomberg": 31,
    "DOU": 3,
    "DOU Gamedev": 4,
    "Deadline": 55,
@@ -13412,7 +13407,7 @@
    "Hugging Face": 2,
    "IGN": 6,
    "ITC.ua": 20,
-   "IndieWire": 8,
+   "IndieWire": 9,
    "Insider Gaming": 11,
    "Kerrang!": 2,
    "Lambgoat": 16,
@@ -13437,8 +13432,8 @@
    "DeepL": 42,
    "gemini-flash-latest": 18,
    "gemini-flash-lite-latest": 302,
-   "gemma-4-26b-a4b-it": 6,
-   "gemma-4-31b-it": 7
+   "gemma-4-26b-a4b-it": 8,
+   "gemma-4-31b-it": 8
   },
   "week": "2026-W47"
  },
@@ -14308,6 +14303,16 @@
    "AUTO_BATTLER_RPG",
    1794765690.0339878
   ],
+  "q:auto vi'": [
+   0,
+   "",
+   1795129359.1180007
+  ],
+  "q:auto vi' debut": [
+   0,
+   "",
+   1795129358.6120908
+  ],
   "q:awards": [
    0,
    "",
@@ -14492,6 +14497,11 @@
    3676250,
    "Boars in Rome",
    1794092481.101398
+  ],
+  "q:booster shot": [
+   0,
+   "",
+   1795129288.3781362
   ],
   "q:borderlands 4": [
    1285190,
@@ -15103,11 +15113,6 @@
    "Dwarf Fortress",
    1794672074.7887242
   ],
-  "q:ea sports fc 27": [
-   4080220,
-   "EA SPORTS FC™ 27",
-   1792535481.871171
-  ],
   "q:ecstatica": [
    4834840,
    "Ecstatica",
@@ -15197,6 +15202,11 @@
    582270,
    "Everything",
    1792602113.732813
+  ],
+  "q:exec": [
+   0,
+   "",
+   1795129355.5748124
   ],
   "q:exodus": [
    3230960,
@@ -15307,6 +15317,16 @@
    2117450,
    "Forbidden zone",
    1793628276.6804101
+  ],
+  "q:former playstation": [
+   0,
+   "",
+   1795129354.5734022
+  ],
+  "q:former playstation exec": [
+   0,
+   "",
+   1795129354.0739238
   ],
   "q:fortnite": [
    0,
@@ -15513,6 +15533,16 @@
    "",
    1795080677.4882693
   ],
+  "q:grand theft auto vi'": [
+   0,
+   "",
+   1795129356.8248835
+  ],
+  "q:grand theft auto vi' debut": [
+   0,
+   "",
+   1795129356.3094385
+  ],
   "q:gravhounds": [
    2440760,
    "GRAVHOUNDS",
@@ -15552,6 +15582,26 @@
    0,
    "",
    1795100488.3504934
+  ],
+  "q:gta vi'": [
+   0,
+   "",
+   1795129290.610196
+  ],
+  "q:gta vi' is": [
+   0,
+   "",
+   1795129289.9616437
+  ],
+  "q:gta vi' is a 'booster": [
+   0,
+   "",
+   1795129289.4699106
+  ],
+  "q:gta vi' is a 'booster shot'": [
+   0,
+   "",
+   1795129288.874756
   ],
   "q:half life": [
    70,
@@ -15762,6 +15812,21 @@
    0,
    "",
    1795005111.0711217
+  ],
+  "q:is a 'booster": [
+   0,
+   "",
+   1795129294.1440806
+  ],
+  "q:is a 'booster shot'": [
+   0,
+   "",
+   1795129293.678397
+  ],
+  "q:is a 'booster shot' for gaming": [
+   0,
+   "",
+   1795129293.209616
   ],
   "q:is cutting": [
    0,
@@ -16422,6 +16487,11 @@
    0,
    "",
    1794979894.5525591
+  ],
+  "q:playstation exec": [
+   0,
+   "",
+   1795129355.0470347
   ],
   "q:poppy playtime": [
    1721470,
@@ -17113,6 +17183,16 @@
    "",
    1795080678.5056365
   ],
+  "q:theft auto vi'": [
+   0,
+   "",
+   1795129358.028432
+  ],
+  "q:theft auto vi' debut": [
+   0,
+   "",
+   1795129357.4464974
+  ],
   "q:tiga": [
    0,
    "",
@@ -17222,6 +17302,31 @@
    0,
    "",
    1794985285.1454465
+  ],
+  "q:vi'": [
+   0,
+   "",
+   1795129292.6889977
+  ],
+  "q:vi' debut": [
+   0,
+   "",
+   1795129359.6762664
+  ],
+  "q:vi' is": [
+   0,
+   "",
+   1795129292.112875
+  ],
+  "q:vi' is a 'booster": [
+   0,
+   "",
+   1795129291.5928319
+  ],
+  "q:vi' is a 'booster shot'": [
+   0,
+   "",
+   1795129291.1133337
   ],
   "q:vice": [
    0,
@@ -17459,18 +17564,6 @@
   ]
  },
  "titles": [
-  [
-   1794956575.511936,
-   "Trae Crowder Sets Comedy Interview Series ‘Help Me Out Here’ With All Things Comedy; Minnesota Gov. Tim Walz Is His First Guest"
-  ],
-  [
-   1794956584.1721284,
-   "Slow down a bit and help a cow find a friend in the lush-looking, hand-drawn, milk deliver-em-up Milki Delivery, which is out now"
-  ],
-  [
-   1794956600.0850987,
-   "Resident Evil Requiem’s Game Awards Nominee Is Ready for Resident Evil 10"
-  ],
   [
    1794958372.3117933,
    "Thom Velde Dies: Longtime Head Film Buyer For AMC Theatres Was 83"
@@ -18194,21 +18287,21 @@
   [
    1795127561.273991,
    "Bleeding Through’s John Arnold recovering from heart attack"
+  ],
+  [
+   1795129352.0633283,
+   "'GTA VI' Is a 'Booster Shot' for Gaming, Shawn Layden Says"
+  ],
+  [
+   1795129393.4172072,
+   "Former Playstation Exec. On ‘Grand Theft Auto VI’ Debut"
+  ],
+  [
+   1795129523.5830662,
+   "Why Good Voice Acting Doesn’t Have to Happen in Isolation"
   ]
  ],
  "titles_uk": [
-  [
-   1794956575.5119367,
-   "Комік Trae Crowder запускає комедійне токшоу Help Me Out Here, а першим гостем стане Тім Волз"
-  ],
-  [
-   1794956584.1721296,
-   "У реліз вийшла мальовнича пригодницька гра Milki Delivery"
-  ],
-  [
-   1794956600.0850995,
-   "Анджела Сант'Альбано розповіла про роботу над Resident Evil Requiem"
-  ],
   [
    1794958372.3117945,
    "Помер колишній головний кінозакупівельник AMC Theatres Том Вельде"
@@ -18932,6 +19025,18 @@
   [
    1795127561.2739916,
    "Гітарист Bleeding Through Джон Арнольд одужує після серцевого нападу"
+  ],
+  [
+   1795129352.0633287,
+   "Шон Лейден назвав GTA VI «бустерним уколом» для геймінгу"
+  ],
+  [
+   1795129393.4172084,
+   "Колишній керівник PlayStation назвав Grand Theft Auto VI цілою економікою"
+  ],
+  [
+   1795129523.5830667,
+   "Чому якісна озвучка не має бути ізольованим процесом"
   ]
  ],
  "ukrainian": {
