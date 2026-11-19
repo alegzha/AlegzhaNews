@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1795129280.6670382
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-19",
  "freebies": {
   "last_check": 1795126092.8653038,
@@ -38,57 +31,19 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-19 23:05 UTC",
+  "at": "2026-11-19 23:42 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 2,
-   "gemma-4-31b-it": 1
+   "gemma-4-26b-a4b-it": 1,
+   "gemma-4-31b-it": 2
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794439890.6267333,
-   5681,
-   "🎮",
-   "Гітарист Archspire грав у World of Warcraft Forever на Steam Deck прямо під час концерту",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/a-death-metal-guitarist-is-so-into-wow-forever-he-took-it-onstage-with-a-steam-deck",
-    "orig": "A Death Metal Guitarist Is So Into WoW Forever, He Took it Onstage With a Steam Deck"
-   }
-  ],
-  [
-   1794439893.7026322,
-   5682,
-   "🤘",
-   "Harakiri For The Sky анонсували новий лайв-альбом Reliving The Trauma",
-   "Distorted Sound",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://distortedsoundmag.com/harakiri-for-the-sky-announce-new-live-album-reliving-the-trauma-live-at-theater-akzent/",
-    "orig": "Harakiri For The Sky announce new live album ‘Reliving The Trauma – Live At Theater Akzent’"
-   }
-  ],
-  [
-   1794439897.096822,
-   5683,
-   "🎬",
-   "Бренд David Yurman влаштував VIP-вечерю в Chateau Marmont",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/gallery/inde-navarrettes-role-model-david-yurman-party/",
-    "orig": "From Inde Navarrette’s Stunning 40-Carat Diamond Necklace to a Surprise Role Model Performance: Inside David Yurman’s VIP Dinner Party at Chateau Marmont"
-   }
-  ],
   [
    1794441678.0113084,
    5684,
@@ -8990,7 +8945,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>Nuko</b>\n\nМоушн-дизайн у вашому браузері Обговорення | Посилання\n\n🔗 <a href=\"https://www.producthunt.com/products/nuko\">Product Hunt</a>\n\n#софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/nuko",
     "orig": "Nuko"
@@ -9004,7 +8958,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "💾 <b>Драйвер NVIDIA «з&#x27;їдає» до 15% ресурсу SSD на рік у простої: як перевірити ПК</b>\n\nСвіжі драйвери NVIDIA можуть непомітно зношувати ваш SSD. Власники відеокарт GeForce скаржаться, що після оновлення до версій 621.14 і 621.24 системна служба безперервно переписує лог-файл — до 30 ГБ на годину, навіть коли комп’ютер просто стоїть без діла. Це вже не перша проблема з драйверами компанії цього року.\n\n🔗 <a href=\"https://itc.ua/ua/novini/drajver-nvidia-zyidaye-do-15-resursu-ssd-na-rik/\">ITC.ua</a>\n\n#софт",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/drajver-nvidia-zyidaye-do-15-resursu-ssd-na-rik/",
     "orig": "Драйвер NVIDIA «з'їдає» до 15% ресурсу SSD на рік у простої: як перевірити ПК"
@@ -9018,7 +8971,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Тімоті Шаламе висловився щодо можливого сиквелу фільму Call Me by Your Name</b>\n\nПопри те, що продовження стрічки малоймовірне через скандал довкола Армі Гаммера, Шаламе та Лука Гуаданьїно можуть знову попрацювати разом в майбутньому\n\n🔗 <a href=\"https://deadline.com/2026/11/timothee-chalamet-possibility-call-me-by-your-name-sequel-1237228791/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/timothee-chalamet-possibility-call-me-by-your-name-sequel-1237228791/",
     "orig": "Timothée Chalamet Addresses Possibility Of A ‘Call Me by Your Name’ Sequel: “Never Say Never”"
@@ -9835,6 +9787,48 @@
     "link": "https://www.indiewire.com/features/animation/voice-directing-wildwood-tangles-animation-1235229355/",
     "orig": "Why Good Voice Acting Doesn’t Have to Happen in Isolation"
    }
+  ],
+  [
+   1795131391.645848,
+   6436,
+   "🤖",
+   "CATL та Innolight можуть увійти до технологічного індексу Гонконгу через масштабне оновлення сектору ШІ",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>CATL та Innolight можуть увійти до технологічного індексу Гонконгу через масштабне оновлення сектору ШІ</b>\n\nАкції компаній Contemporary Amperex Technology Co. Ltd. та Zhongji Innolight Co. входять до числа тих, які, як очікується, увійдуть до технологічного індексу Гонконгу в рамках масштабної реорганізації, що допоможе цьому індексу краще відображати бум у сфері штучного інтелекту та конкурувати з азіатськими суперниками.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-19/catl-innolight-may-join-hong-kong-tech-index-in-major-ai-revamp\">Bloomberg</a> · #ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-19/catl-innolight-may-join-hong-kong-tech-index-in-major-ai-revamp",
+    "orig": "CATL, Innolight May Join Hong Kong Tech Index in Major AI Revamp"
+   }
+  ],
+  [
+   1795131549.417267,
+   6437,
+   "🎬",
+   "Пояснили сцену з Katniss та Peeta у The Hunger Games: Sunrise On The Reaping",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Пояснили сцену з Katniss та Peeta у The Hunger Games: Sunrise On The Reaping</b>\n\nВже відомо, що Katniss та Peeta повернуться в новому приквелі The Hunger Games: Sunrise On The Reaping. Але як саме?\n\n🔗 <a href=\"https://www.slashfilm.com/2312000/the-hunger-games-sunrise-on-the-reaping-katniss-peeta-scene-explained/\">/Film</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2312000/the-hunger-games-sunrise-on-the-reaping-katniss-peeta-scene-explained/",
+    "orig": "The Hunger Games: Sunrise On The Reaping's Katniss And Peeta Scene Explained"
+   }
+  ],
+  [
+   1795131715.5401478,
+   6438,
+   "🤘",
+   "У мережі з'явилися раніше невідомі кадри виступу Led Zeppelin на Madison Square Garden у 1977 році",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>У мережі з&#x27;явилися раніше невідомі кадри виступу Led Zeppelin на Madison Square Garden у 1977 році</b>\n\nФанати Led Zeppelin можуть переглянути запис четвертого з шести повністю розпроданих концертів гурту на легендарній арені Нью-Йорка влітку 1977 року\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/previously-unseen-footage-of-led-zeppelin-rocking-madison-square-garden-in-1977-emerges-online\">Metal Hammer (Louder)</a> · #музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/previously-unseen-footage-of-led-zeppelin-rocking-madison-square-garden-in-1977-emerges-online",
+    "orig": "Previously unseen footage of Led Zeppelin rocking Madison Square Garden in 1977 emerges online"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9843,12 +9837,12 @@
    1795114891.4271486
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1795041102.5301013,
    1795050183.3990664,
    1795050186.806102,
    1795064479.5724764,
    1795106159.1351364,
-   1795111438.8284512
+   1795111438.8284512,
+   1795131391.6461046
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1795094375.5065007
@@ -9947,7 +9941,8 @@
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1795055945.7832935,
-   1795094252.2488618
+   1795094252.2488618,
+   1795131549.417504
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792944099.3403795,
@@ -10020,12 +10015,11 @@
    1794724367.8770852
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
-   1794994291.120553,
-   1795001479.5313768,
    1795051877.248342,
    1795057287.8990183,
    1795062698.961518,
-   1795068082.8000305
+   1795068082.8000305,
+   1795131715.540373
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1794632474.2096412
@@ -10337,6 +10331,7 @@
   "1bfc56b870723ce3": 1794216653.1201742,
   "1c128a7475e16ccb": 1794609307.0790644,
   "1c1a19b7e800d5de": 1794049308.5673697,
+  "1c7c3a948c7ce4b2": 1795131055.6482096,
   "1c8f472767ef8e44": 1794909753.6288118,
   "1cc767f035cfcafd": 1794326506.0290408,
   "1ceb56a3b3745da8": 1793959276.1517801,
@@ -10459,8 +10454,10 @@
   "2b48fc3308d6ced3": 1794364252.7798047,
   "2b4c443e34ab3041": 1795070072.035697,
   "2b50e1e804c98216": 1794693777.2004967,
+  "2b8c77bafd61b856": 1795131055.6482096,
   "2bba46206d0c85ec": 1794837697.1199596,
   "2c1f15f8322385d6": 1794520881.1333885,
+  "2c75385bd8df1520": 1795131391.6460595,
   "2ca413dd274a9f2b": 1794600080.697358,
   "2caa4ea0039a63d2": 1795071681.943975,
   "2cb0fcc6ce2aa0ab": 1794328281.8888555,
@@ -10574,6 +10571,7 @@
   "39dddfafa7ab01b4": 1794718893.7046595,
   "3a0106b8a6ccf9f8": 1795008715.524354,
   "3a02062d6fb9c8bf": 1794715283.2244556,
+  "3a13fcbe563c564d": 1795131076.1720586,
   "3a4a2514e9ddc56a": 1794054814.6518655,
   "3a5d500878d9377d": 1795055474.3021817,
   "3a66d6c853bcf975": 1794666683.2972455,
@@ -10648,7 +10646,6 @@
   "43e7927bee291fdf": 1793937766.8959856,
   "43f0bcef865c9ee4": 1793946693.165375,
   "43f41c8c48c6b3a1": 1794450686.830935,
-  "4407e00a760c3444": 1793921479.728405,
   "44157888feac291b": 1795026653.649315,
   "441ac6a9e711b1e8": 1795086083.8416054,
   "44327ea93aa083c2": 1794591053.6005082,
@@ -10673,7 +10670,6 @@
   "47297d5e5f2e28cb": 1794729676.9678183,
   "47416a844a51e3ba": 1794085282.7166603,
   "474ba61ee19390b0": 1794906053.6606994,
-  "478681fc135e7eeb": 1793921492.1561165,
   "479867c93150e790": 1794270683.853217,
   "47df805b9c024b9a": 1793995255.6755514,
   "482d3d22c928dd47": 1794013391.2337513,
@@ -10803,6 +10799,7 @@
   "5876519fff1e97dc": 1795129523.5830646,
   "5880887245247880": 1794897106.8863344,
   "58d1500c12993f95": 1794191760.1605656,
+  "58e3781504357845": 1795131055.6482096,
   "590e298f3d1a3af4": 1795118455.5877645,
   "5916c4ad29c66c6c": 1794046017.6232014,
   "591d82ee7e715012": 1795007003.31536,
@@ -11090,7 +11087,6 @@
   "77f46c6157a6cf39": 1795024853.7713437,
   "782996bb33c06597": 1794412901.8522532,
   "7830b6e9366769b5": 1794755066.3503067,
-  "785024e5e570b158": 1793921489.4405723,
   "786b9ed727f62019": 1794972690.7789228,
   "789655e8ca912d99": 1794918915.4973063,
   "78bf4c326803ceaa": 1795098825.54422,
@@ -11391,6 +11387,7 @@
   "9d41906a31411e84": 1794495683.6190026,
   "9d4221b6523a9758": 1794528082.917809,
   "9d4c4835959d09a0": 1794992453.819771,
+  "9d5f1e7a6ccec6ec": 1795131715.54033,
   "9d60dfee72e58ac6": 1794726078.0590801,
   "9d6171fb3c746cf7": 1794430855.13756,
   "9dd88052038caeda": 1795015855.7187512,
@@ -11407,6 +11404,7 @@
   "9f74f9b4a3619ddd": 1795041093.9003131,
   "9f753fb3fae6679e": 1794920493.724533,
   "9f7b85cf88a87c90": 1794999653.1275568,
+  "9f8e9e79145b2e07": 1795131549.4174578,
   "9f927f67986c8bd3": 1794916879.4564362,
   "9fa14fa8fda01249": 1794567690.3824625,
   "9fb54cdca3533e83": 1794150182.2347202,
@@ -11991,7 +11989,6 @@
   "ea2065f78b532f39": 1794900685.0720696,
   "ea2fe1af12c11121": 1794400295.8181024,
   "ea5b95538217c860": 1794898968.6130197,
-  "ea5d42492aab416f": 1793921474.8877618,
   "ea841668e11ee265": 1795086081.8542414,
   "ea8cd49f1f085136": 1794792685.403489,
   "ea94a7943b469944": 1794841259.8494203,
@@ -13373,7 +13370,7 @@
   },
   "filtered": {
    "/Film": 16,
-   "Bloomberg": 14,
+   "Bloomberg": 15,
    "Deadline": 9,
    "Digital Foundry": 1,
    "GameSpot": 3,
@@ -13388,14 +13385,14 @@
    "PlayUA": 1,
    "Polygon": 39,
    "Product Hunt": 1,
-   "VGC": 42,
-   "Variety": 11
+   "VGC": 43,
+   "Variety": 12
   },
   "sources": {
-   "/Film": 15,
+   "/Film": 16,
    "AIN.ua": 4,
    "Blabbermouth": 4,
-   "Bloomberg": 31,
+   "Bloomberg": 32,
    "DOU": 3,
    "DOU Gamedev": 4,
    "Deadline": 55,
@@ -13411,7 +13408,7 @@
    "Insider Gaming": 11,
    "Kerrang!": 2,
    "Lambgoat": 16,
-   "Metal Hammer (Louder)": 15,
+   "Metal Hammer (Louder)": 16,
    "Mezha": 27,
    "Neformat": 3,
    "PC Gamer": 10,
@@ -13429,11 +13426,11 @@
    "Variety": 22
   },
   "translators": {
-   "DeepL": 42,
+   "DeepL": 43,
    "gemini-flash-latest": 18,
    "gemini-flash-lite-latest": 302,
-   "gemma-4-26b-a4b-it": 8,
-   "gemma-4-31b-it": 8
+   "gemma-4-26b-a4b-it": 9,
+   "gemma-4-31b-it": 10
   },
   "week": "2026-W47"
  },
@@ -14312,31 +14309,6 @@
    0,
    "",
    1795129358.6120908
-  ],
-  "q:awards": [
-   0,
-   "",
-   1794956598.027181
-  ],
-  "q:awards nominee": [
-   0,
-   "",
-   1794956597.4463737
-  ],
-  "q:awards nominee is": [
-   0,
-   "",
-   1794956593.8288774
-  ],
-  "q:awards nominee is ready": [
-   0,
-   "",
-   1794956593.2949648
-  ],
-  "q:awards nominee is ready for resident": [
-   0,
-   "",
-   1794956592.735342
   ],
   "q:aware": [
    3249600,
@@ -15412,26 +15384,6 @@
    4288220,
    "Gag Order",
    1793574077.0104003
-  ],
-  "q:game awards": [
-   0,
-   "",
-   1794956592.1151412
-  ],
-  "q:game awards nominee": [
-   0,
-   "",
-   1794956591.6108394
-  ],
-  "q:game awards nominee is": [
-   0,
-   "",
-   1794956591.0480387
-  ],
-  "q:game awards nominee is ready": [
-   0,
-   "",
-   1794956590.456648
   ],
   "q:game of the year": [
    1205680,
@@ -16658,21 +16610,6 @@
    "Resident Evil Requiem",
    1794614668.9253628
   ],
-  "q:resident evil requiem's game": [
-   0,
-   "",
-   1794956589.8877447
-  ],
-  "q:resident evil requiem's game awards": [
-   0,
-   "",
-   1794956589.189879
-  ],
-  "q:resident evil requiem's game awards nominee": [
-   0,
-   "",
-   1794956587.0741594
-  ],
   "q:resonant": [
    4319860,
    "Resonant",
@@ -17541,9 +17478,9 @@
    "fpv-дрони",
    "gemma 3",
    "google",
+   "iphone",
    "microsoft",
    "nothing",
-   "nvidia",
    "openai",
    "samsung",
    "shure",
@@ -17552,7 +17489,8 @@
    "безпілотники",
    "бпла",
    "бізнес",
-   "відеокарти",
+   "відстеження",
+   "кібербезпека",
    "мікрофони",
    "новини",
    "оборонка",
@@ -17564,18 +17502,6 @@
   ]
  },
  "titles": [
-  [
-   1794958372.3117933,
-   "Thom Velde Dies: Longtime Head Film Buyer For AMC Theatres Was 83"
-  ],
-  [
-   1794958375.3762412,
-   "‘Grand Theft Auto VI’ Speeds Away With Eight Game Awards Nominations For 2026"
-  ],
-  [
-   1794958379.0945024,
-   "Big Ass Truck I.E. announce Northeast December mini-tour with Bayway"
-  ],
   [
    1794960080.3340023,
    "Longtime Exec Howard Lee Departs as Skydance Confirms New Cable Structure and Division Name Under Channing Dungey"
@@ -18299,21 +18225,21 @@
   [
    1795129523.5830662,
    "Why Good Voice Acting Doesn’t Have to Happen in Isolation"
+  ],
+  [
+   1795131391.6460614,
+   "CATL, Innolight May Join Hong Kong Tech Index in Major AI Revamp"
+  ],
+  [
+   1795131549.41746,
+   "The Hunger Games: Sunrise On The Reaping's Katniss And Peeta Scene Explained"
+  ],
+  [
+   1795131715.5403314,
+   "Previously unseen footage of Led Zeppelin rocking Madison Square Garden in 1977 emerges online"
   ]
  ],
  "titles_uk": [
-  [
-   1794958372.3117945,
-   "Помер колишній головний кінозакупівельник AMC Theatres Том Вельде"
-  ],
-  [
-   1794958375.3762422,
-   "Grand Theft Auto VI отримала вісім номінацій на Game Awards 2026"
-  ],
-  [
-   1794958379.0945034,
-   "Big Ass Truck I.E. анонсували грудневий мінітур із Bayway"
-  ],
   [
    1794960080.334003,
    "Skydance підтверджує нову структуру кабельних мереж і звільнення Говарда Лі"
@@ -19037,6 +18963,18 @@
   [
    1795129523.5830667,
    "Чому якісна озвучка не має бути ізольованим процесом"
+  ],
+  [
+   1795131391.6460621,
+   "CATL та Innolight можуть увійти до технологічного індексу Гонконгу через масштабне оновлення сектору ШІ"
+  ],
+  [
+   1795131549.4174607,
+   "Пояснили сцену з Katniss та Peeta у The Hunger Games: Sunrise On The Reaping"
+  ],
+  [
+   1795131715.5403318,
+   "У мережі з'явилися раніше невідомі кадри виступу Led Zeppelin на Madison Square Garden у 1977 році"
   ]
  ],
  "ukrainian": {
@@ -21469,7 +21407,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795126092.7877183,
+  "last_check": 1795131724.240749,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
