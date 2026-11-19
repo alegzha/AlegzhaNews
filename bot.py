@@ -497,12 +497,26 @@ def translate(text):
 
 # ---------- Telegram ----------
 
+class TelegramUnreachable(RuntimeError):
+    """Telegram тимчасово недоступний (мережа), а не помилка налаштувань."""
+
+
 def tg(method, **payload):
     url = f"https://api.telegram.org/bot{BOT_TOKEN}/{method}"
     files = payload.pop("files", None)
-    for attempt in range(3):
-        r = requests.post(url, data=payload, files=files, timeout=60)
-        data = r.json()
+    net_errors = 0
+    for attempt in range(6):
+        try:
+            r = requests.post(url, data=payload, files=files, timeout=60)
+            data = r.json()
+        except (requests.ConnectionError, requests.Timeout, ValueError) as e:
+            # короткий збій мережі між GitHub і Telegram — кілька спроб з паузою
+            net_errors += 1
+            if net_errors >= 4:
+                raise TelegramUnreachable(str(e)) from e
+            log.info("Telegram не відповів (%s), повторюю за %d с", e, 5 * net_errors)
+            time.sleep(5 * net_errors)
+            continue
         if data.get("ok"):
             return data
         retry = data.get("parameters", {}).get("retry_after")
@@ -656,6 +670,9 @@ def check_telegram():
     try:
         me = tg("getMe")["result"]
         log.info("Telegram: бот @%s підключено", me.get("username"))
+    except TelegramUnreachable as e:
+        log.warning("Telegram тимчасово недоступний (%s) — пропускаю цей запуск, спробую за 30 хв", e)
+        sys.exit(0)  # не помилка: наступний запуск усе надолужить
     except Exception as e:  # noqa: BLE001
         log.error("Telegram: токен не працює (%s). Перевір TELEGRAM_BOT_TOKEN.", e)
         return False
