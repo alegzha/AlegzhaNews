@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795127469.7642243
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1795127468.6336906
+  }
+ },
  "daily_digest_date": "2026-11-19",
  "freebies": {
   "last_check": 1795126092.8653038,
@@ -31,57 +44,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-19 22:08 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-latest",
+  "at": "2026-11-19 22:32 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemini-flash-latest": 2
+   "gemma-4-26b-a4b-it": 1,
+   "gemma-4-31b-it": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794436295.0949273,
-   5675,
-   "🎮",
-   "Гравці Final Fantasy XIV влаштовують віртуальні похорони басиста The Primals",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/final-fantasy-xiv-players-mourn-the-primals-bassist-with-in-game-funerals-and-gatherings",
-    "orig": "Final Fantasy XIV Players Mourn The Primals Bassist With In-Game Funerals and Gatherings"
-   }
-  ],
-  [
-   1794436304.2530951,
-   5676,
-   "🎮",
-   "Оновлення клієнта Steam від 11 листопада",
-   "SteamDB",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://bsky.app/profile/steamdb.info/post/3n22xei3qcy2f",
-    "orig": "Steam Client Update - November 11th"
-   }
-  ],
-  [
-   1794436312.3360856,
-   5677,
-   "🎮",
-   "Steam Achievement Sets тепер доступні для всіх",
-   "SteamDB",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://bsky.app/profile/steamdb.info/post/3n22xemrrwd2j",
-    "orig": "Steam Achievement Sets — Now Available to Everyone"
-   }
-  ],
   [
    1794438090.6693616,
    5678,
@@ -8983,7 +8957,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Людвіг Йоранссон і Taylor Swift перемогли на Hollywood Music in Media Awards</b>\n\nНа 17-й церемонії Hollywood Music in Media Awards оголосили переможців у галузі музики для кіно та телебачення. Нагороди здобули Людвіг Йоранссон за саундтрек до фільму The Odyssey, а також Taylor Swift і Джек Антонофф за пісню до стрічки Toy Story 5.\n\n🔗 <a href=\"https://deadline.com/2026/11/hollywood-music-in-media-awards-2026-winners-list-1237227122/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/hollywood-music-in-media-awards-2026-winners-list-1237227122/",
     "orig": "Hollywood Music In Media Awards Winners Include Ludwig Göransson, ‘La Bola Negra,’ Taylor Swift, Diane Warren & Jaafar Jackson"
@@ -8997,7 +8970,6 @@
    "Revolver",
    {
     "also": [],
-    "caption": "🤘 <b>ANTHRAX показали новий кліп &quot;NYC 93&quot;, знятий під час концерту в Saint Vitus</b>\n\nГурт ANTHRAX представив концертний кліп на трек &quot;NYC 93&quot;, знятий під час виступу на відкритті клубу Saint Vitus у Брукліні. Режисером відео виступив Дон Арготт. Нещодавно їхній альбом Cursum Perficio отримав номінацію на Grammy, а також гурт вирушить у тур із Megadeth.\n\n🔗 <a href=\"https://www.revolvermag.com/premiere/see-anthrax-get-saint-vitus-crowd-thrashing-in-new-nyc-93-video/\">Revolver</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.revolvermag.com/premiere/see-anthrax-get-saint-vitus-crowd-thrashing-in-new-nyc-93-video/",
     "orig": "See ANTHRAX get Saint Vitus crowd thrashing in new “NYC 93” video"
@@ -9011,7 +8983,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>Девід Еллісон висловився про інвестиції Ілона Маска у Skydance та плани компанії</b>\n\nПід час саміту DealBook Девід Еллісон підтвердив, що Ілон Маск інвестував $1 мільярд у Skydance та став її акціонером. Еллісон також розповів про бачення майбутнього медіакомпанії та відкинув імовірність цензури щодо документального фільму про Маска.\n\n🔗 <a href=\"https://www.indiewire.com/news/general-news/david-ellison-elon-musk-digger-dealbook-summit-1235229252/\">IndieWire</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.indiewire.com/news/general-news/david-ellison-elon-musk-digger-dealbook-summit-1235229252/",
     "orig": "David Ellison on Elon Musk’s Skydance Investment, Trump and ‘Rush Hour 4,’ and Whether He Would’ve Made ‘Digger’"
@@ -9828,6 +9799,48 @@
     "link": "https://www.neformat.com.ua/news/28477-vistavka-distorshn-vipuskaie-drugiy-albom.html",
     "orig": "Виставка Дисторшн випускає другий альбом"
    }
+  ],
+  [
+   1795127474.22162,
+   6430,
+   "🤖",
+   "Дочірня компанія Foxconn отримала замовлення на смартфон OpenAI – інсайдери",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🤖 <b>Дочірня компанія Foxconn отримала замовлення на смартфон OpenAI – інсайдери</b>\n\nЗгідно з джерелами серед постачальників, OpenAI замовила розробку смартфона тайванській FIH Mobile, дочірній компанії Foxconn. Телефон очікується наприкінці 2027 року або у 2028.\n\n🔗 <a href=\"https://mezha.ua/news/foxconn-smartfon-openai-317403/\">Mezha</a> · #ШІ",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/foxconn-smartfon-openai-317403/",
+    "orig": "Дочірня компанія Foxconn отримала замовлення на смартфон OpenAI – інсайдери"
+   }
+  ],
+  [
+   1795127523.8005934,
+   6431,
+   "🎬",
+   "VFX-супервайзер Backrooms розповів про особливості роботи з Кейном Парсонсом",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>VFX-супервайзер Backrooms розповів про особливості роботи з Кейном Парсонсом</b>\n\nЕдвард Дуглас розповів, як створювали візуальні ефекти для фільму Backrooms від A24. Режисер Кейн Парсонс використовував Blender для розробки декорацій та особисто коригував CG-сцени на серверах. Попри бюджет до $10 млн, стрічка містить понад 10 хвилин повної комп&#x27;ютерної графіки.\n\n🔗 <a href=\"https://www.indiewire.com/features/craft/backrooms-vfx-supervisor-craft-roundtables-1235229604/\">IndieWire</a> · #кіно_і_серіали #Backrooms #A24",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/features/craft/backrooms-vfx-supervisor-craft-roundtables-1235229604/",
+    "orig": "Watch the ‘Backrooms’ VFX Supervisor Explain His Unique Process of Collaborating with Kane Parsons"
+   }
+  ],
+  [
+   1795127561.2737966,
+   6432,
+   "🤘",
+   "Гітарист Bleeding Through Джон Арнольд одужує після серцевого нападу",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Гітарист Bleeding Through Джон Арнольд одужує після серцевого нападу</b>\n\nГітарист гурту Bleeding Through Джон Арнольд переніс серцевий напад минулого четверга. Музикант вижив і зараз перебуває в лікарні, проте він налаштований якнайшвидше повернутися на сцену.\n\n🔗 <a href=\"https://lambgoat.com/news/55989/bleeding-throughs-john-arnold-recovering-from-heart-attack/\">Lambgoat</a> · #музика #BleedingThrough",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55989/bleeding-throughs-john-arnold-recovering-from-heart-attack/",
+    "orig": "Bleeding Through’s John Arnold recovering from heart attack"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9857,7 +9870,8 @@
   "ai|Mezha|https://mezha.ua/feed/": [
    1795105887.5866127,
    1795109703.9108233,
-   1795121160.9480708
+   1795121160.9480708,
+   1795127474.221873
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1795094052.1268492,
@@ -9966,7 +9980,8 @@
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
    1795071681.9440248,
-   1795126079.9814177
+   1795126079.9814177,
+   1795127523.8008435
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1794988872.4975154
@@ -9999,10 +10014,10 @@
    1795003300.8774254
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1794985293.4656641,
    1795048339.1115835,
    1795061035.2964137,
-   1795066308.2284935
+   1795066308.2284935,
+   1795127561.2740307
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1794708113.8908067,
@@ -10207,6 +10222,7 @@
   "0e30b894b8aae235": 1794992854.263969,
   "0e37c572ce07cd71": 1795077053.5438957,
   "0e41cc476573c34b": 1794457886.0946999,
+  "0e720994b798c32e": 1795127523.8008003,
   "0eb24c715405b095": 1794846655.2895768,
   "0ec8a31bc0d96daa": 1794706293.6242511,
   "0edb74315f9fc01e": 1795087879.2406793,
@@ -10243,7 +10259,6 @@
   "11eed905692148c5": 1794303052.7507446,
   "12070a887467a01f": 1795114863.5731728,
   "12216eaf6f39bf09": 1794339053.433796,
-  "122299fff0278681": 1793917852.8708968,
   "1230b6c1c57b4eed": 1794630680.5266824,
   "123d1a5209e8b22c": 1794801687.5797327,
   "12520688b38b9d4b": 1794321054.589151,
@@ -10311,7 +10326,6 @@
   "19af98d7c7127689": 1794814464.6482637,
   "19e563a267e1b55f": 1794659494.4706376,
   "19f16132083d1a84": 1794004398.1796412,
-  "1a870854af14f0f5": 1793917901.676527,
   "1a97c665df3321b9": 1794864757.774673,
   "1a9ec56660c22238": 1794940252.7221177,
   "1aaa788ff2f34838": 1794583895.2487211,
@@ -10526,7 +10540,6 @@
   "34f514a4695542e5": 1794369689.3384242,
   "34fc7f9035834703": 1794598278.1298761,
   "351e500a178cbd45": 1794963668.215512,
-  "352f7412914d3876": 1793917852.8708968,
   "3544a836063b2a5c": 1794718889.3772535,
   "3558f6c1aff3ffd2": 1794132168.2066665,
   "3566dc58ff64d1be": 1794379596.8600004,
@@ -10592,7 +10605,6 @@
   "3c81bd21a2a8bb66": 1795066295.3549402,
   "3ca8def2211c3892": 1795091455.8380237,
   "3ca9bd81350269b2": 1794818050.7579744,
-  "3cd48cb24f5b4a13": 1793917881.3933167,
   "3d2f16db9e0ae111": 1794434586.8519456,
   "3d378ca06c4e6fc2": 1794330484.588936,
   "3d44dcacb6e9a819": 1795039284.2790308,
@@ -10703,7 +10715,6 @@
   "4cb0ce66c92778cb": 1794634298.6207952,
   "4cd881b2588872fc": 1794632474.2095976,
   "4ceecf65844b900d": 1794879091.116545,
-  "4d2c1912e1f3cba3": 1793917852.8708968,
   "4d7337ffb2249a2c": 1794902455.1209733,
   "4d7bf9d67afe14a0": 1795095015.9856734,
   "4d949e0f2262087e": 1794882689.8295574,
@@ -10741,6 +10752,7 @@
   "518b485e28cf4f3b": 1794256256.1973255,
   "519ce1a8766ff555": 1793957456.027642,
   "51c3a879e4d7edac": 1795003298.0033274,
+  "51d4e4712c078cbc": 1795127561.2739894,
   "51d850fc09234a36": 1794333681.392647,
   "51e13d049eb1ab79": 1795006853.2084172,
   "51f6975e1fc0591a": 1794321225.692677,
@@ -10829,7 +10841,6 @@
   "5bb8b87955a257ca": 1794218683.4613059,
   "5bee85a75fc43a55": 1794007873.0432258,
   "5c13f2dd9ebef096": 1794096073.8456311,
-  "5c169d01f79df873": 1793917906.9399195,
   "5c763a38c201ef2e": 1794283284.564199,
   "5c778283c5ef88e9": 1793984456.2345605,
   "5c7af98210427b8c": 1794668451.1657076,
@@ -10922,7 +10933,6 @@
   "6611befb7240bfc7": 1795005060.1889544,
   "663e28c682e5edfe": 1794506492.7083926,
   "66474b7524390ab2": 1794367877.3758395,
-  "666639ad11119cf5": 1793917852.8708968,
   "666779e4f744bdb5": 1794565879.9856107,
   "668ff766f89578ec": 1794369683.939194,
   "6690421edf7bb46d": 1794162657.1204495,
@@ -10930,7 +10940,6 @@
   "670121a3b10e4495": 1795087876.073899,
   "67119f7300e9ed51": 1794402056.59474,
   "675e502b35ccf007": 1795097020.5503254,
-  "6762df4d1786f114": 1793917852.8708968,
   "67965f016a2c2120": 1795008653.7476661,
   "67d53ff65be1812b": 1793963226.0852697,
   "68037ecde0c7b296": 1794783723.1164358,
@@ -11017,7 +11026,6 @@
   "6fff152cf8328746": 1794868254.5337205,
   "70248a09d92ab732": 1794661254.0536256,
   "702f137160825002": 1794097882.0659804,
-  "7034d0d8e38eddb2": 1793917891.920359,
   "7087628ac29ac5a1": 1794326480.2330475,
   "70a5fa89da9df5c2": 1794432684.2376895,
   "70c38477d438e97c": 1794308490.627416,
@@ -11151,7 +11159,6 @@
   "7f0b1cbcf7a02639": 1795102261.0800154,
   "7f2b4cd4364050ee": 1795044680.768859,
   "7f6b285aacd8a7f8": 1795084636.9413862,
-  "7f91ecfdf82ee56b": 1793917912.480465,
   "7fe4036245e3bfdf": 1794081653.3860815,
   "8006cfce387357ff": 1794819660.751173,
   "8011ccba91951021": 1795091475.6579704,
@@ -11344,7 +11351,6 @@
   "980e91313f64baa3": 1794594684.5743515,
   "98270c712011cea5": 1793961095.7366772,
   "983682666b177f74": 1794850251.632162,
-  "988500758e7cc482": 1793917852.8708968,
   "98a667d2d4848ece": 1794749691.5685575,
   "98de91cd35641ed5": 1794443482.5911212,
   "98e2484ef00a8b83": 1794195083.647988,
@@ -11534,6 +11540,7 @@
   "afb3715203768996": 1794216694.7409585,
   "afba753eba8e2629": 1795041093.9012902,
   "afebafccb65e39ee": 1794564055.7805443,
+  "afff48cfbd5a0952": 1795127474.2218285,
   "b02a7dde28fd9a2c": 1794481254.5202796,
   "b037dd49d6560de1": 1794022370.027243,
   "b048cc831260425e": 1794202297.0677645,
@@ -13405,12 +13412,12 @@
    "Hugging Face": 2,
    "IGN": 6,
    "ITC.ua": 20,
-   "IndieWire": 7,
+   "IndieWire": 8,
    "Insider Gaming": 11,
    "Kerrang!": 2,
-   "Lambgoat": 15,
+   "Lambgoat": 16,
    "Metal Hammer (Louder)": 15,
-   "Mezha": 26,
+   "Mezha": 27,
    "Neformat": 3,
    "PC Gamer": 10,
    "Pitchfork": 3,
@@ -13430,8 +13437,8 @@
    "DeepL": 42,
    "gemini-flash-latest": 18,
    "gemini-flash-lite-latest": 302,
-   "gemma-4-26b-a4b-it": 5,
-   "gemma-4-31b-it": 6
+   "gemma-4-26b-a4b-it": 6,
+   "gemma-4-31b-it": 7
   },
   "week": "2026-W47"
  },
@@ -16816,11 +16823,6 @@
    "Selaco",
    1793553041.803855
   ],
-  "q:selkie's salvage co": [
-   4984870,
-   "Selkie's Salvage&Co.",
-   1792533705.4038172
-  ],
   "q:senate": [
    0,
    "",
@@ -17431,25 +17433,25 @@
   "Mezha": [
    "anthropic",
    "apple",
-   "canva",
    "fpv-дрони",
    "gemma 3",
    "google",
    "microsoft",
    "nothing",
    "nvidia",
-   "osint",
+   "openai",
    "samsung",
+   "shure",
    "ubisoft",
    "акумулятори",
    "безпілотники",
    "бпла",
    "бізнес",
    "відеокарти",
-   "кримський міст",
-   "нептун",
+   "мікрофони",
    "новини",
    "оборонка",
+   "смартфони",
    "софт",
    "технології",
    "штучний інтелект",
@@ -17457,18 +17459,6 @@
   ]
  },
  "titles": [
-  [
-   1794954705.1040335,
-   "Chuquimamani-Condori Shares Some Kelela Edits After Their C2C Reunion"
-  ],
-  [
-   1794954711.7221565,
-   "A24’s TV Division Is Quietly Having as Strong a Year as Its Film Team"
-  ],
-  [
-   1794954714.2421274,
-   "ШІ-компанія претендувала на власний музичний запис виконавиці в YouTube та намагалася видалити її відео"
-  ],
   [
    1794956575.511936,
    "Trae Crowder Sets Comedy Interview Series ‘Help Me Out Here’ With All Things Comedy; Minnesota Gov. Tim Walz Is His First Guest"
@@ -18192,21 +18182,21 @@
   [
    1795126083.9034755,
    "Виставка Дисторшн випускає другий альбом"
+  ],
+  [
+   1795127474.22183,
+   "Дочірня компанія Foxconn отримала замовлення на смартфон OpenAI – інсайдери"
+  ],
+  [
+   1795127523.8008022,
+   "Watch the ‘Backrooms’ VFX Supervisor Explain His Unique Process of Collaborating with Kane Parsons"
+  ],
+  [
+   1795127561.273991,
+   "Bleeding Through’s John Arnold recovering from heart attack"
   ]
  ],
  "titles_uk": [
-  [
-   1794954705.1040347,
-   "Chuquimamani-Condori поділився новими реміксами треків Kelela"
-  ],
-  [
-   1794954711.7221572,
-   "Телевізійний підрозділ A24 демонструє рекордні результати у 2026 році"
-  ],
-  [
-   1794954714.2421284,
-   "ШІ-компанія претендувала на власний музичний запис виконавиці в YouTube та намагалася видалити її відео"
-  ],
   [
    1794956575.5119367,
    "Комік Trae Crowder запускає комедійне токшоу Help Me Out Here, а першим гостем стане Тім Волз"
@@ -18930,6 +18920,18 @@
   [
    1795126083.9034765,
    "Виставка Дисторшн випускає другий альбом"
+  ],
+  [
+   1795127474.2218306,
+   "Дочірня компанія Foxconn отримала замовлення на смартфон OpenAI – інсайдери"
+  ],
+  [
+   1795127523.8008032,
+   "VFX-супервайзер Backrooms розповів про особливості роботи з Кейном Парсонсом"
+  ],
+  [
+   1795127561.2739916,
+   "Гітарист Bleeding Through Джон Арнольд одужує після серцевого нападу"
   ]
  ],
  "ukrainian": {
