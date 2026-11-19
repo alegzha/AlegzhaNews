@@ -344,9 +344,9 @@ def _google_api(text):
 
 GEMINI_API_KEY = os.environ.get("GEMINI_API_KEY", "").strip()
 # Порядок моделей: спершу якісніша Flash; коли її безкоштовний ліміт закінчиться — Flash-Lite.
-# Порядок моделей: Flash (найкраща, але малий денний ліміт) → Gemma 3 27B (той самий ключ,
+# Порядок моделей: Flash (найкраща, але малий денний ліміт) → Gemma 4 (той самий ключ,
 # значно більший ліміт) → Flash-Lite (запасна).
-GEMINI_MODELS = ["gemini-flash-latest", "gemma-3-27b-it", "gemini-flash-lite-latest"]
+GEMINI_MODELS = ["gemini-flash-latest", "gemma-4-31b-it", "gemma-4-26b-a4b-it", "gemini-flash-lite-latest"]
 GEMINI_PROMPT = """Ти — досвідчений редактор українського новинного Telegram-каналу про відеоігри, \
 важку й альтернативну музику, кіно, серіали, софт і штучний інтелект.
 
@@ -841,7 +841,8 @@ def stats_add(state, kind, key, n=1):
 TRANSLATOR_NAMES = {
     "gemini-flash-latest": "Gemini Flash",
     "gemini-flash-lite-latest": "Gemini Flash-Lite",
-    "gemma-3-27b-it": "Gemma 3",
+    "gemma-4-31b-it": "Gemma 4 31B",
+    "gemma-4-26b-a4b-it": "Gemma 4 26B",
 }
 
 
