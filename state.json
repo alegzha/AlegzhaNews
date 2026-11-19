@@ -1,8 +1,21 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:games|ITC.ua|https://itc.ua/ua/feed/": {
+   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ITC.ua» не працює",
+   "sent": 0,
+   "since": 1795060887.864676
+  },
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutErr",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795060914.5367308
+  }
+ },
  "daily_digest_date": "2026-11-18",
  "freebies": {
-  "last_check": 1795053734.3735132,
+  "last_check": 1795061043.9171865,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -30,8 +43,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-19 03:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-19 04:04 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 2
@@ -41,71 +54,6 @@
   ]
  },
  "post_log": [
-  [
-   1794367885.5478904,
-   5601,
-   "🎬",
-   "Учасники Dancing with the Stars змагаються у чвертьфіналі на Grammy night",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/dancing-with-the-stars-season-35-recap-grammy-night-1237218651/",
-    "orig": "‘Dancing With The Stars’ Recap: Dance Offs On Grammy Night Bring Tough Competition To Quarterfinals"
-   }
-  ],
-  [
-   1794367891.9060898,
-   5602,
-   "🎬",
-   "Фінал серіалу VisionQuest завершує сюжетну арку з Avengers: Age of Ultron",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2312745/visionquest-finale-payoff-marvel-avengers-age-of-ultron-story/",
-    "orig": "VisionQuest's Finale Finally Pays Off A Story Marvel Started In Avengers: Age Of Ultron"
-   }
-  ],
-  [
-   1794369683.9388828,
-   5603,
-   "🎬",
-   "Люсі Гейл натякнула на можливе повернення серіалу Pretty Little Liars",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/lucy-hale-everyone-willing-reunite-pretty-little-liars-1237219941/",
-    "orig": "Lucy Hale Notes “Everyone Is Willing” To Reunite For ‘Pretty Little Liars’ Revival: “There’s Gotta Be A New Version Of ‘A'”"
-   }
-  ],
-  [
-   1794369689.3381028,
-   5604,
-   "🎬",
-   "Фінал серіалу VisionQuest натякає на повернення Scarlet Witch у кіновсесвіті Marvel",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/film/news/visionquest-elizabeth-olsen-avengers-doomsday-scarlet-witch-1235365599/",
-    "orig": "MCU Surprise: ‘VisionQuest’ Finale Teases the Return of [SPOILER] in ‘Avengers: Doomsday’"
-   }
-  ],
-  [
-   1794369694.539757,
-   5605,
-   "🤖",
-   "Еріка Пун Веркун із Citi про ринки ШІ, ФРС та економіку Китаю",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/videos/2026-11-11/citi-s-poon-werkun-on-ai-trade-fed-china-video",
-    "orig": "Citi's Poon Werkun on AI Trade, Fed, China"
-   }
-  ],
   [
    1794371482.0509968,
    5606,
@@ -9025,7 +8973,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Аффан-м/ECC</b>\n\nОптимізація продуктивності для Claude Code, Codex, Opencode, Cursor та інших інструментів ШІ\n\n🔗 <a href=\"https://github.com/affaan-m/ECC\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/affaan-m/ECC",
     "orig": "affaan-m/ECC"
@@ -9039,7 +8986,6 @@
    "VGC",
    {
     "also": [],
-    "caption": "🎮 <b>GTA 6 виявилася найкращою грою покоління від Rockstar</b>\n\nВийшла рецензія на GTA 6, яка називає проєкт найкращою грою покоління з неймовірним відкритим світом та глибокою історією кохання між головними героями Jason Duval і Lucia Caminos. Гра спирається на напрацювання Red Dead Redemption 2 та пропонує безпрецедентну свободу вибору й взаємодії.\n\n🔗 <a href=\"https://www.videogameschronicle.com/review/grand-theft-auto-6/\">VGC</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/review/grand-theft-auto-6/",
     "orig": "Grand Theft Auto 6 review: Rockstar delivers everything I hoped for – the game of the generation"
@@ -9880,6 +9826,34 @@
     "link": "https://deadline.com/2026/11/larry-poindexter-dead-swat-jag-days-of-our-lives-actor-1237228697/",
     "orig": "Larry Poindexter Dies: ‘S.W.A.T.’, ‘JAG’ & ‘Days Of Our Lives’ Actor Was 66"
    }
+  ],
+  [
+   1795061027.7436187,
+   6356,
+   "🎬",
+   "Ella Langley тріумфує на церемонії CMA Awards",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Ella Langley тріумфує на церемонії CMA Awards</b>\n\nСпівачка забрала п&#x27;ять нагород, зокрема за сингл «Choosin’ Texas» та альбом Dandelion\n\n🔗 <a href=\"https://deadline.com/2026/11/cma-awards-winners-ella-langley-1237227915/\">Deadline</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/cma-awards-winners-ella-langley-1237227915/",
+    "orig": "Ella Langley Leads The Pack Among Early CMA Award Winners"
+   }
+  ],
+  [
+   1795061035.2961385,
+   6357,
+   "🤘",
+   "Witch Club Satan анонсували європейський тур на 2027 рік",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Witch Club Satan анонсували європейський тур на 2027 рік</b>\n\nНорвезький блек-метал-гурт Witch Club Satan оголосив про масштабний тур Hard Healing Tour Європою та Великою Британією у 2027 році. Разом із колективом виступлять Otay:Onii та Ditte Krøyer. Це один із перших турів гурту після змін у складі, зокрема відходу барабанщиці Йоганни Гольт Клейве.\n\n🔗 <a href=\"https://lambgoat.com/news/55975/witch-club-satan-announce-headlining-european-tour-with-otayonii-and-ditte-kroyer/\">Lambgoat</a>\n\n#музика",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/55975/witch-club-satan-announce-headlining-european-tour-with-otayonii-and-ditte-kroyer/",
+    "orig": "Witch Club Satan announce headlining European tour with Otay:Onii and Ditte Krøyer"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9996,7 +9970,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1794972690.7789547,
    1794979915.482735,
    1794987091.7833002,
    1795002898.9043157,
@@ -10010,7 +9983,8 @@
    1795053694.9584012,
    1795053725.0111303,
    1795055662.7312872,
-   1795059079.8747816
+   1795059079.8747816,
+   1795061027.743887
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1794663071.9451547
@@ -10051,10 +10025,10 @@
    1795003300.8774254
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1794972693.691433,
    1794978101.4919631,
    1794985293.4656641,
-   1795048339.1115835
+   1795048339.1115835,
+   1795061035.2964137
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1794708113.8908067,
@@ -10644,7 +10618,6 @@
   "38e9481c6bc9f103": 1794610966.8876233,
   "38eb9ea2c5da627f": 1794682938.242665,
   "3907d91d184e0742": 1794245454.296048,
-  "392225384d4e6fd1": 1793851314.57619,
   "395a0157127825f3": 1794625282.6414,
   "395ca2061d3bc456": 1793878289.9886367,
   "39c34f7a0914636f": 1794252654.4309437,
@@ -10691,7 +10664,6 @@
   "3e0a76a1e05144aa": 1794335488.7555916,
   "3e44185b943f0c09": 1794313886.5421631,
   "3e57339765a5c089": 1794403992.1362224,
-  "3e6bb8c64f80c1d9": 1793849483.4138262,
   "3e7019c0f2362058": 1794178884.958449,
   "3e73f7351779bbff": 1795053694.9583557,
   "3eddfbf648bbbf99": 1795046478.690607,
@@ -10787,7 +10759,6 @@
   "4a2208970147c5e0": 1795026653.649315,
   "4a31f61b02fc4280": 1794643258.248781,
   "4a3ad21c5d3efe23": 1794574877.1639743,
-  "4a6ac7574e97ebb8": 1793851323.6127343,
   "4a7c29da96f417cf": 1793909059.2409804,
   "4a83d98d19bf22e1": 1794749685.7510865,
   "4aa1f15845f9de14": 1793890883.0501435,
@@ -11137,6 +11108,7 @@
   "6eb32b0851601da7": 1794409253.592725,
   "6ee792a2affe5da4": 1795057287.898968,
   "6eef0929d7191992": 1794965489.1035419,
+  "6ef5cc6bcb35c23b": 1795061027.7438369,
   "6ef69fa9ab8f5442": 1795012267.0331166,
   "6f178363e8577792": 1795005060.1889544,
   "6f217f40854ddef3": 1793905352.2478485,
@@ -11181,7 +11153,6 @@
   "7318835aebb5c5fb": 1793925076.7035167,
   "733d840549e94357": 1794404095.2594936,
   "735d1954bcc7e351": 1793871080.5038064,
-  "73a0c4b5bb7be44b": 1793849512.96551,
   "73b22c67f8a1872c": 1794313877.072446,
   "73bcae9f8ae41d2f": 1794319283.6507423,
   "73bf58ad2b27fa9e": 1794744076.590944,
@@ -11291,7 +11262,6 @@
   "7dccb487c29d857b": 1794711697.966141,
   "7dd2e688b5a7d77f": 1794044396.2106276,
   "7ddf93474cac452a": 1794171681.8344698,
-  "7e2d1f4e30e2760f": 1793849525.6762714,
   "7e321eace551bbbe": 1793883770.9606118,
   "7e5179891b2a5c6a": 1794805382.9662855,
   "7e88237922f25327": 1794475853.9786184,
@@ -11456,6 +11426,7 @@
   "90912853abe33df8": 1794945653.1135497,
   "90ae3a0eb04777be": 1794576685.7442052,
   "90ae90ddfa8592d7": 1793889078.5761242,
+  "90b9fbaf9f61fe6d": 1795061035.296347,
   "90c523b9ea78f6c7": 1794805252.091764,
   "90c61afaf744fca3": 1794020477.300451,
   "910b433e2e19ff81": 1794465189.7481787,
@@ -11484,7 +11455,6 @@
   "93f38d52fdfb8e12": 1794706296.939091,
   "93f53cd69d28985d": 1794780079.9921434,
   "944e8a227014f802": 1794013396.247265,
-  "9450c191ba923eb5": 1793851294.3809237,
   "94515d8671739599": 1794421927.7777536,
   "94687090526b1cb4": 1794499281.4675992,
   "9490666391e9013b": 1793880183.0836403,
@@ -11673,7 +11643,6 @@
   "a8f47de703ee7c26": 1794261675.0510595,
   "a9707f7862f7945d": 1794013130.1960151,
   "a9802821376f6db1": 1794954705.104032,
-  "a986ddfbba7a0870": 1793851284.5860887,
   "a998af886d9355e1": 1795044701.484141,
   "a99a938255b7b6a6": 1795012310.146826,
   "a9b1dfc34f9eb204": 1794733272.625569,
@@ -11792,7 +11761,6 @@
   "b84b1922120987f8": 1794112285.2086055,
   "b867f8d3d1879837": 1793881853.2293634,
   "b882cd9513481eea": 1794229254.6836922,
-  "b8861175ba381d38": 1793851300.8695543,
   "b89c0965e4487c18": 1794744161.843884,
   "b8ac331f9c655156": 1794594681.7058873,
   "b8d5763b94372ff4": 1793867504.4806817,
@@ -11825,7 +11793,6 @@
   "bbd87f9e04dde43e": 1794358892.4297469,
   "bc233f2bb1fd25a6": 1794718851.8888588,
   "bc3356ccbb0f312b": 1794214991.3628657,
-  "bc4a3c13f739bed8": 1793849499.6063247,
   "bc6cd049e9a32803": 1794502963.9584627,
   "bcd35440bc852b1c": 1793989903.2467942,
   "bcea0162abb29c7f": 1793919656.8897884,
@@ -11983,7 +11950,6 @@
   "ce2602391dd325fd": 1794286881.4187279,
   "ce2b16947df9c97f": 1794925855.8063161,
   "ce3dd1f10447d2ae": 1794956584.1721265,
-  "ce49faef69c98f7e": 1793851318.2529883,
   "ce5984adc4e9c27e": 1794684685.5508559,
   "ce7df47f4e49a290": 1795055474.96252,
   "ce8eedbf908b6172": 1794157309.2326446,
@@ -11991,7 +11957,6 @@
   "cea51c5edd215ffb": 1794295904.4571853,
   "ceaf5fd4dacc056a": 1794348093.4650974,
   "cebbae4c9350a4e5": 1794020483.733578,
-  "cee85656c840be65": 1793851330.3999975,
   "cf0ec131048bd80e": 1794232935.785287,
   "cf11b0d4a06c4204": 1793952454.2693102,
   "cf11e0992e782c18": 1794668477.2772527,
@@ -12074,7 +12039,6 @@
   "d6e8809ef645f2a6": 1794834056.1069303,
   "d706e6c706b5424e": 1793905317.2771583,
   "d7130c18b2a5fd4f": 1795026653.649315,
-  "d713f570446d7273": 1793849495.7375321,
   "d739b29f104302be": 1794893459.6418285,
   "d74e5733fb0acfb7": 1793980886.2638364,
   "d74e8a8e22fe3ac6": 1794418292.0812464,
@@ -12876,7 +12840,7 @@
   ],
   "artists_checked": 1795046505.6685681,
   "blocked_until": 1795044851.179641,
-  "cursor": 198,
+  "cursor": 208,
   "digest_week": "2026-W46",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13654,7 +13618,7 @@
    "Bloomberg": 24,
    "DOU": 2,
    "DOU Gamedev": 3,
-   "Deadline": 50,
+   "Deadline": 51,
    "Distorted Sound": 5,
    "Eurogamer": 4,
    "GameSpot": 2,
@@ -13666,7 +13630,7 @@
    "IndieWire": 5,
    "Insider Gaming": 7,
    "Kerrang!": 2,
-   "Lambgoat": 13,
+   "Lambgoat": 14,
    "Metal Hammer (Louder)": 13,
    "Mezha": 23,
    "Neformat": 2,
@@ -13687,7 +13651,7 @@
   "translators": {
    "DeepL": 28,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 261
+   "gemini-flash-lite-latest": 263
   },
   "week": "2026-W47"
  },
@@ -14527,31 +14491,6 @@
    "AUTO_BATTLER_RPG",
    1794765690.0339878
   ],
-  "q:avengers": [
-   0,
-   "",
-   1794887927.9392204
-  ],
-  "q:avengers doomsday'": [
-   0,
-   "",
-   1794887927.4278827
-  ],
-  "q:avengers doomsday' star": [
-   0,
-   "",
-   1794887926.9142177
-  ],
-  "q:avengers doomsday' star says": [
-   0,
-   "",
-   1794887926.3708847
-  ],
-  "q:avengers doomsday' star says he": [
-   0,
-   "",
-   1794887925.8781412
-  ],
   "q:awards": [
    0,
    "",
@@ -15141,36 +15080,6 @@
    3017860,
    "DOOM: The Dark Ages",
    1794837694.9297001
-  ],
-  "q:doomsday'": [
-   0,
-   "",
-   1794887931.045593
-  ],
-  "q:doomsday' star": [
-   0,
-   "",
-   1794887930.508027
-  ],
-  "q:doomsday' star says": [
-   0,
-   "",
-   1794887929.9993334
-  ],
-  "q:doomsday' star says he": [
-   0,
-   "",
-   1794887929.491758
-  ],
-  "q:doomsday' star says he was": [
-   0,
-   "",
-   1794887928.9914207
-  ],
-  "q:doomsday' star says he was lied": [
-   0,
-   "",
-   1794887928.4864638
   ],
   "q:dota 2": [
    570,
@@ -15876,26 +15785,6 @@
    0,
    "",
    1794902494.8213785
-  ],
-  "q:is releasing": [
-   0,
-   "",
-   1794887920.316395
-  ],
-  "q:is releasing a gta": [
-   0,
-   "",
-   1794887919.7568347
-  ],
-  "q:is releasing a gta 6 themed": [
-   0,
-   "",
-   1794887919.2183383
-  ],
-  "q:is releasing a gta 6 themed sandwich": [
-   0,
-   "",
-   1794887918.7210805
   ],
   "q:iso": [
    2202510,
@@ -16747,21 +16636,6 @@
    "Regions",
    1792666910.9642568
   ],
-  "q:releasing a gta": [
-   0,
-   "",
-   1794887921.8623407
-  ],
-  "q:releasing a gta 6 themed": [
-   0,
-   "",
-   1794887921.3484638
-  ],
-  "q:releasing a gta 6 themed sandwich": [
-   0,
-   "",
-   1794887920.8436003
-  ],
   "q:remembrance": [
    3434370,
    "Remembrance",
@@ -17142,11 +17016,6 @@
    "",
    1794920497.7616239
   ],
-  "q:star says he was lied": [
-   0,
-   "",
-   1794887931.5402086
-  ],
   "q:star trek": [
    0,
    "",
@@ -17231,31 +17100,6 @@
    1962700,
    "Subnautica 2",
    1792494157.8367805
-  ],
-  "q:subway": [
-   0,
-   "",
-   1794887918.2106006
-  ],
-  "q:subway is": [
-   0,
-   "",
-   1794887917.669687
-  ],
-  "q:subway is releasing": [
-   0,
-   "",
-   1794887917.1526062
-  ],
-  "q:subway is releasing a gta": [
-   0,
-   "",
-   1794887916.6259966
-  ],
-  "q:subway is releasing a gta 6 themed": [
-   0,
-   "",
-   1794887916.1055627
   ],
   "q:super meat boy": [
    40800,
@@ -17672,22 +17516,6 @@
   ]
  },
  "titles": [
-  [
-   1794887923.8823066,
-   "Subway Is Releasing a GTA 6-Themed Sandwich, but There's a Catch"
-  ],
-  [
-   1794887933.7798355,
-   "'Avengers: Doomsday' Star Says He Was Lied to About His Next Big Role"
-  ],
-  [
-   1794888085.2273772,
-   "Hayley Williams-Curated Outbreak Fest Features Dinosaur Jr., Blood Orange"
-  ],
-  [
-   1794888089.2164867,
-   "China AI Highflier Crashes 85% as Chip Fears Hit Model Makers"
-  ],
   [
    1794889885.7630777,
    "Elon Musk Blasts ‘SNL’ For Jeremy Culhane’s Impression Of Him: “They Need To Try Harder”"
@@ -18383,25 +18211,17 @@
   [
    1795059079.8747392,
    "Larry Poindexter Dies: ‘S.W.A.T.’, ‘JAG’ & ‘Days Of Our Lives’ Actor Was 66"
+  ],
+  [
+   1795061027.7438393,
+   "Ella Langley Leads The Pack Among Early CMA Award Winners"
+  ],
+  [
+   1795061035.2963486,
+   "Witch Club Satan announce headlining European tour with Otay:Onii and Ditte Krøyer"
   ]
  ],
  "titles_uk": [
-  [
-   1794887923.8823075,
-   "Subway випустить сендвіч у стилі GTA 6, але є нюанс"
-  ],
-  [
-   1794887933.7798362,
-   "Ентоні Макі заявив, що його збрехали про роль у серіалі 12 12 12"
-  ],
-  [
-   1794888085.227378,
-   "Гейлі Вільямс сформувала лайнап фестивалю Outbreak Fest і стане його хедлайнеркою"
-  ],
-  [
-   1794888089.2164876,
-   "Акції китайського розробника ШІ Z.AI впали на 85%"
-  ],
   [
    1794889885.7630787,
    "Ілон Маск розкритикував пародію на себе в шоу SNL"
@@ -19097,6 +18917,14 @@
   [
    1795059079.87474,
    "Помер актор Ларрі Поїндекстер"
+  ],
+  [
+   1795061027.74384,
+   "Ella Langley тріумфує на церемонії CMA Awards"
+  ],
+  [
+   1795061035.2963498,
+   "Witch Club Satan анонсували європейський тур на 2027 рік"
   ]
  ],
  "ukrainian": {
@@ -21522,7 +21350,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795057299.5677102,
+  "last_check": 1795061043.6981335,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
