@@ -1,30 +1,5 @@
 {
- "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1795114883.8571227
-  },
-  "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
-   "detail": "https://www.kerrang.com/feed.rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Kerrang!» не працює",
-   "sent": 0,
-   "since": 1795114875.436873
-  },
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1795114884.8616683
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1795114877.3954995
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-19",
  "freebies": {
   "last_check": 1795109716.948112,
@@ -9033,7 +9008,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>U2 поділилися спогадами про роботу з Dolly Parton над її фінальною піснею</b>\n\nГурт U2 розповів про співпрацю з Dolly Parton над композицією Torn, яка стала її останнім записом перед смертю 25 серпня. Трек увійшов до нового альбому гурту Carnaval De Luz. Музиканти поділилися деталями створення пісні на шоу Jimmy Kimmel Live.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/u2-on-working-with-dolly-parton-on-torn-the-last-song-she-ever-recorded\">Metal Hammer (Louder)</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/u2-on-working-with-dolly-parton-on-torn-the-last-song-she-ever-recorded",
     "orig": "U2 share memories of working with Dolly Parton on the last song she ever recorded"
@@ -9878,6 +9852,20 @@
     "link": "https://ain.ua/2026/10/29/stucnii-intelekt-u-e-commerce-iak-rozetka-zminiuje-klijentskii-dosvid-za-dopomogoiu-ai-instrumentiv/",
     "orig": "Штучний інтелект у e-commerce: як Rozetka змінює клієнтський досвід за допомогою AI-інструментів"
    }
+  ],
+  [
+   1795116680.8303945,
+   6425,
+   "🤖",
+   "ШІ-асистент Meta Muse показував користувачам чужі банківські рахунки та читав повідомлення Signal",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🤖 <b>ШІ-асистент Meta Muse показував користувачам чужі банківські рахунки та читав повідомлення Signal</b>\n\nШІ-асистент Meta Muse знову опинився в центрі скандалу через можливі порушення конфіденційності. Співробітники Meta повідомили про випадки, коли застосунок отримував доступ до приватних повідомлень у Signal без дозволу користувачів, а також показував банківські баланси, які могли належати іншим людям.\n\n🔗 <a href=\"https://itc.ua/ua/novini/shi-asystent-meta-muse-pokazuvav-korystuvacham-chuzhi-bankivski-rahunky-ta-chytav-povidomlennya-signal/\">ITC.ua</a> · #ШІ",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/shi-asystent-meta-muse-pokazuvav-korystuvacham-chuzhi-bankivski-rahunky-ta-chytav-povidomlennya-signal/",
+    "orig": "ШІ-асистент Meta Muse показував користувачам чужі банківські рахунки та читав повідомлення Signal"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9901,7 +9889,8 @@
    1795028501.1026351
   ],
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
-   1795113261.9904845
+   1795113261.9904845,
+   1795116680.8306391
   ],
   "ai|Mezha|https://mezha.ua/feed/": [
    1795105887.5866127,
@@ -10152,6 +10141,7 @@
   "021d38d146d3fad9": 1794065499.599085,
   "021ea2600fd140a7": 1795006853.2084172,
   "025483d120d50629": 1793919711.4419525,
+  "027978085d9b4855": 1795116654.1601062,
   "0292ab11a949c049": 1794024088.575985,
   "02a2508663d4f5f3": 1794110451.877304,
   "02c59df6f1eb74ed": 1794097855.0003257,
@@ -10517,6 +10507,7 @@
   "2cb0fcc6ce2aa0ab": 1794328281.8888555,
   "2cd0ba5fba2b9546": 1794398455.161323,
   "2ce977b41420a009": 1795111438.8284032,
+  "2cf06754e1565961": 1795116654.1601062,
   "2d1dbe58d50f5ded": 1794945653.1135497,
   "2d2cc7b2189d9490": 1793907107.743534,
   "2d3583eb5078e0fa": 1794295682.2266514,
@@ -10604,6 +10595,7 @@
   "36f234b2c43689e3": 1794619880.2654126,
   "371ff855707ac2b1": 1794780076.0764132,
   "3749461632f3a1b2": 1794889885.7630756,
+  "37704206e3110eeb": 1795116654.1601062,
   "3781448153b0315f": 1794823495.8280075,
   "3794e02805893732": 1794375094.2627156,
   "37a8709304e91818": 1795001460.8855703,
@@ -11683,6 +11675,7 @@
   "b817ced09356f6fd": 1794258098.324036,
   "b81a7e4ec3a1a423": 1794349893.5886278,
   "b84b1922120987f8": 1794112285.2086055,
+  "b8650c834c2620ae": 1795116654.1601062,
   "b882cd9513481eea": 1794229254.6836922,
   "b89c0965e4487c18": 1794744161.843884,
   "b8ac331f9c655156": 1794594681.7058873,
@@ -11967,6 +11960,7 @@
   "d9a650738e32ea43": 1794733368.4778433,
   "d9b73c97285547ab": 1795044685.7933068,
   "d9c98341bc7aac99": 1794189685.204877,
+  "d9f110a1f87890e3": 1795116680.8305902,
   "d9f34219f11437e9": 1795003298.0041707,
   "d9feef0f6eee3372": 1794394892.642675,
   "da488d2bf9306801": 1794384247.7978582,
@@ -13483,12 +13477,13 @@
    "Digital Foundry": 1,
    "GameSpot": 3,
    "GamesIndustry.biz": 1,
-   "IGN": 9,
+   "IGN": 11,
    "ITC.ua": 1,
-   "Insider Gaming": 35,
+   "Insider Gaming": 36,
    "Lambgoat": 1,
    "Loudwire": 3,
    "PC Gamer": 16,
+   "Pitchfork": 1,
    "PlayUA": 1,
    "Polygon": 38,
    "Product Hunt": 1,
@@ -13510,7 +13505,7 @@
    "GitHub Trending": 21,
    "Hugging Face": 2,
    "IGN": 6,
-   "ITC.ua": 19,
+   "ITC.ua": 20,
    "IndieWire": 6,
    "Insider Gaming": 10,
    "Kerrang!": 2,
@@ -14796,11 +14791,6 @@
    999250,
    "Chucky",
    1793183573.390061
-  ],
-  "q:citadrill": [
-   3465440,
-   "CitaDrill",
-   1792524238.8896368
   ],
   "q:city": [
    0,
@@ -16411,11 +16401,6 @@
    3374280,
    "P.I.",
    1792857743.151104
-  ],
-  "q:palworld": [
-   1623730,
-   "Palworld",
-   1792524164.693694
   ],
   "q:paper rex": [
    0,
@@ -18288,6 +18273,10 @@
   [
    1795114891.427105,
    "Штучний інтелект у e-commerce: як Rozetka змінює клієнтський досвід за допомогою AI-інструментів"
+  ],
+  [
+   1795116680.830592,
+   "ШІ-асистент Meta Muse показував користувачам чужі банківські рахунки та читав повідомлення Signal"
   ]
  ],
  "titles_uk": [
@@ -19042,6 +19031,10 @@
   [
    1795114891.4271064,
    "Штучний інтелект у e-commerce: як Rozetka змінює клієнтський досвід за допомогою AI-інструментів"
+  ],
+  [
+   1795116680.8305929,
+   "ШІ-асистент Meta Muse показував користувачам чужі банківські рахунки та читав повідомлення Signal"
   ]
  ],
  "ukrainian": {
@@ -19112,6 +19105,7 @@
    "1378990": "",
    "1401590": "",
    "1407200": "ia",
+   "1426210": "",
    "1429850": "",
    "1431300": "is",
    "1436700": "is",
@@ -19184,6 +19178,7 @@
    "1874880": "is",
    "1875580": "",
    "1881200": "",
+   "1888930": "",
    "1903340": "is",
    "1911610": "",
    "1920290": "is",
@@ -19666,8 +19661,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1795095046.7562737,
-  "with_uk": 100
+  "last_check": 1795116693.1498744,
+  "with_uk": 99
  },
  "weekly_releases_week": "2026-W47",
  "wishlist": {
