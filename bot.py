@@ -403,6 +403,7 @@ def gemini_json(system, payload):
         if r.status_code == 404:
             last = f"модель {model} недоступна"
             _gemini_exhausted.add(model)
+            log.info("Gemini: модель %s недоступна (404)", model)
             continue
         if r.status_code in (500, 502, 503, 504):
             log.info("Gemini %s тимчасово недоступний (%s), пробую наступну модель", model, r.status_code)
@@ -415,6 +416,10 @@ def gemini_json(system, payload):
             continue
         if r.status_code in (400, 401, 403) and "API key" in r.text:
             raise RuntimeError("403: ключ Gemini недійсний")
+        if r.status_code == 400 and model.startswith("gemma"):
+            log.info("Gemma відхилила запит: %s", r.text[:200])
+            _gemini_exhausted.add(model)
+            continue
         r.raise_for_status()
         data = r.json()
         parts = ((data.get("candidates") or [{}])[0].get("content") or {}).get("parts") or []
