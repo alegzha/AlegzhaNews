@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1795098679.177959
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1795098676.4314148
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-18",
  "freebies": {
   "last_check": 1795094061.7180147,
@@ -43,30 +30,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-19 14:33 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "at": "2026-11-19 15:03 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 2
+   "gemma-4-31b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794409282.7308345,
-   5649,
-   "🎮",
-   "PlayStation 5 перетнула позначку у 100 млн відвантажених консолей",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/playstation-5-100m-units-sold-317107/",
-    "orig": "PlayStation 5 перетнула позначку у 100 млн відвантажених консолей"
-   }
-  ],
   [
    1794409424.9670827,
    5650,
@@ -9037,7 +9011,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Головні інвестори заробили мільярди на IPO Anthropic</b>\n\nРекордне первинне публічне розміщення акцій компанії Anthropic PBC принесе мільярди доларів прибутку фінансовим фірмам, які інвестували в розробника чатбота Claude.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-19/the-biggest-winners-in-anthropic-s-landmark-public-offering\">Bloomberg</a>\n\n#ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-19/the-biggest-winners-in-anthropic-s-landmark-public-offering",
     "orig": "The Biggest Winners in Anthropic’s Landmark Public Offering"
@@ -9051,7 +9024,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Джон Макінрой зіграв із Джошем Гоммом і Чадом Смітом кавер на Девіда Бові</b>\n\nЛегендарний тенісист Джон Макінрой приєднався до фронтмена Queens of the Stone Age Джоша Гомма та барабанщика Red Hot Chili Peppers Чада Сміта на благодійному вечорі в Лос-Анджелесі. Зірки виконали класичний трек Девіда Бові Suffragette City на підтримку фонду CORE актора Шона Пенна.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/watch-john-mcenroe-join-queens-of-the-stone-age-frontman-josh-homme-cover-david-bowie\">Metal Hammer (Louder)</a>\n\n#музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/watch-john-mcenroe-join-queens-of-the-stone-age-frontman-josh-homme-cover-david-bowie",
     "orig": "Watch tennis legend John McEnroe join Queens of the Stone Age frontman Josh Homme and Red Hot Chili Peppers drummer Chad Smith onstage in Los Angeles for a raucous cover of David Bowie's glam rock classic Suffragette City"
@@ -9887,6 +9859,34 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-19/uk-court-rules-for-apple-in-user-data-fight-with-government",
     "orig": "UK Court Rules for Apple in User Data Fight with Government"
    }
+  ],
+  [
+   1795100489.5183692,
+   6404,
+   "🎮",
+   "GTA 6 змушує грати з наслідками власних рішень: Rockstar прибрала звичну функцію",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎮 <b>GTA 6 змушує грати з наслідками власних рішень: Rockstar прибрала звичну функцію</b>\n\nУ GTA 6 не можна повторно запускати вже пройдені сюжетні місії через меню гри. На відміну від багатьох попередніх проєктів Rockstar, нова частина серії не має такої можливості на старті. Причина може полягати в розгалуженій структурі історії, на яку впливають рішення гравців та події у відкритому світі.\n\n🔗 <a href=\"https://itc.ua/ua/novini/gta-6-zmushuye-graty-z-naslidkamy-vlasnyh-rishen-rockstar-prybrala-zvychnu-funktsiyu/\">ITC.ua</a> · #ігри",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/gta-6-zmushuye-graty-z-naslidkamy-vlasnyh-rishen-rockstar-prybrala-zvychnu-funktsiyu/",
+    "orig": "GTA 6 змушує грати з наслідками власних рішень: Rockstar прибрала звичну функцію"
+   }
+  ],
+  [
+   1795100607.3019505,
+   6405,
+   "🎮",
+   "007 First Light стала грою року на TIGA Awards 2026, Dovetail Games отримала чотири нагороди",
+   "GamesIndustry.biz",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/3768760/\">007 First Light</a> стала грою року на TIGA Awards 2026, Dovetail Games отримала чотири нагороди</b>\n🕹 <a href=\"https://store.steampowered.com/app/3768760/\">007 First Light</a> — 1 599,00₴\n🕹 <a href=\"https://store.steampowered.com/app/3609160/\">GOTY</a> — ще не вийшла\n\nПроєкт 007 First Light від IO Interactive визнали грою року на TIGA Awards 2026. Dovetail Games здобула чотири статуетки, зокрема звання найкращого видавця та нагороду за найкращу освітню, серйозну або симуляційну гру за Train Sim World 6\n\n🔗 <a href=\"https://www.gamesindustry.biz/007-first-light-wins-goty-at-2026-tiga-awards-dovetail-games-takes-home-four-accolades-including-best-publisher\">GamesIndustry.biz</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.gamesindustry.biz/007-first-light-wins-goty-at-2026-tiga-awards-dovetail-games-takes-home-four-accolades-including-best-publisher",
+    "orig": "007 First Light wins GOTY at 2026 TIGA Awards, Dovetail Games takes home four accolades including Best Publisher"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9947,18 +9947,17 @@
    1795098787.4044573
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
-   1795014110.290894,
    1795084636.9414322,
-   1795097020.5503716
+   1795097020.5503716,
+   1795100607.3021634
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
    1794972687.8596456,
    1794979899.4425597
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
-   1795005106.2549882,
-   1795008701.297161,
-   1795086083.8416557
+   1795086083.8416557,
+   1795100489.5185952
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
    1795080773.3150396,
@@ -10150,7 +10149,6 @@
   "004b7a3f5aa03bff": 1794313874.3753316,
   "005bf4d33578e1a6": 1793946679.8254259,
   "0085ee554233a51d": 1794139479.6263247,
-  "008b57fc1a914194": 1793890882.6054704,
   "00e817c76e37f52f": 1794231085.9686391,
   "00ef7d039071e41a": 1794857456.4972806,
   "00f9839cfa634fa4": 1794254454.641067,
@@ -10191,7 +10189,6 @@
   "04c6c51b286dc80e": 1793914251.9255452,
   "04cd989d5875ca72": 1795024884.9419575,
   "04f7ab6902985e49": 1794412878.730195,
-  "050c8ed363df3a67": 1793890962.9518993,
   "050ea7aed04e3489": 1795017653.3598104,
   "0521b732b16c16eb": 1794241852.9158669,
   "052ae896ab949c94": 1794195086.6329725,
@@ -10471,7 +10468,6 @@
   "24437daf95252ce9": 1794740481.6387289,
   "24982a37ef56e1a1": 1794366140.102291,
   "249d2e5ccb170fc4": 1794405782.1863456,
-  "249ea90952d5812f": 1793890883.051384,
   "24ad34995e0d2fdc": 1793914321.8265257,
   "24d6d6b2cb651c91": 1794781854.546859,
   "24e30821eb6f08bc": 1794599463.414183,
@@ -10610,6 +10606,7 @@
   "342351e01d442b74": 1794709884.109181,
   "3429c7218e4f7d01": 1794998198.146456,
   "34341cf0424c4b0b": 1794895288.6624558,
+  "343bc93302671639": 1795100487.7113585,
   "345ee7a0e9649060": 1794391349.2775056,
   "34764bf4202a6fe3": 1794506527.6776323,
   "34c006b7b7ab2b0e": 1794105085.0356414,
@@ -10788,7 +10785,6 @@
   "4a3ad21c5d3efe23": 1794574877.1639743,
   "4a7c29da96f417cf": 1793909059.2409804,
   "4a83d98d19bf22e1": 1794749685.7510865,
-  "4aa1f15845f9de14": 1793890883.0501435,
   "4ad53c8eb5f45934": 1794861053.5738606,
   "4ad73f2ac91b448c": 1794643281.1090765,
   "4ae98c8fc59d539b": 1794760180.7986965,
@@ -10966,6 +10962,7 @@
   "5ef3b5a127fd5ba4": 1793982695.709336,
   "5f26c041a43f668b": 1794234687.2555015,
   "5f29da6a92a98e9f": 1793896488.4250937,
+  "5f521b871c88a910": 1795100487.7106519,
   "5f7b62623b2b118a": 1794362590.4859781,
   "5f8099c7d290eccf": 1794504655.5700643,
   "5f90ae3c6234985d": 1794260150.8285909,
@@ -11104,7 +11101,6 @@
   "6c2a30bad5fd6157": 1794407565.0352788,
   "6c3b70bf8c28f197": 1794240085.56365,
   "6c511781f9785305": 1794004252.6354504,
-  "6c5402a776abce56": 1793890882.6072223,
   "6c5c317baac8ac3f": 1794058280.2930562,
   "6c5d6002eb4157df": 1795094373.626306,
   "6c7b301e5d5526b6": 1794713474.5924284,
@@ -11152,6 +11148,7 @@
   "70ee71b0b7c3874e": 1794439890.6270096,
   "70fd066bff15827b": 1793908860.4204457,
   "710bfbfd7df00486": 1795051877.248294,
+  "71162aad9bac6a88": 1795100487.7145374,
   "7119ca50a1cae8db": 1794990658.388594,
   "713e61f8f24f1ddb": 1794247258.386749,
   "713f6dbda6ec1870": 1794666656.604099,
@@ -11295,6 +11292,7 @@
   "800e1c8c237c31f0": 1793909005.9355414,
   "8011ccba91951021": 1795091475.6579704,
   "80183508472d4f7c": 1794047078.7009654,
+  "8020a0b3f62e6ca6": 1795100456.85752,
   "8096d0c63c292e0b": 1794634305.2953007,
   "80b878f8a0f2fa9c": 1794805286.365154,
   "80bd3cba3e663ddd": 1795042982.6484375,
@@ -11327,7 +11325,6 @@
   "8275d9fda686ec67": 1794114090.5027995,
   "82b66046a6494248": 1794871890.616934,
   "82cd917056ad5a79": 1794609055.1572344,
-  "83006f94f1a5f32f": 1793890882.1479006,
   "83186b0550e5f2fc": 1794556877.7875981,
   "834fa9ad8d3bea42": 1794877544.3017933,
   "8369f85e0a3a8f75": 1794411076.0979633,
@@ -11440,6 +11437,7 @@
   "910b433e2e19ff81": 1794465189.7481787,
   "9130ec7cd03a3f9d": 1794920486.4114764,
   "915a19290b19235d": 1794565873.5842419,
+  "9163af6f61078e0b": 1795100489.5185406,
   "9168fe3d06913f1d": 1794958379.0945005,
   "917f9b9cd1ac231c": 1794009692.3323495,
   "91951ff6046d0b4b": 1794997922.7442873,
@@ -11453,8 +11451,8 @@
   "92394219fcd474c6": 1794182587.1580834,
   "924154c52b2e946d": 1795059077.2800844,
   "924ce5d82a4e8e4e": 1794454288.0356266,
-  "9257f23a13ac1f7c": 1793890882.6075149,
   "925c1047a69c1897": 1793962873.3232477,
+  "926ca9232c128dae": 1795100607.302115,
   "92b2f5783afbd668": 1794178895.0015182,
   "9328428ce2953fe6": 1794157296.8875062,
   "93a3edeb4c4faf79": 1794614675.0055325,
@@ -11722,6 +11720,7 @@
   "b24d247460104a0c": 1794868447.5765305,
   "b2781f35e5635fe0": 1794695766.841244,
   "b2936c94fa8b7e68": 1793997083.4253402,
+  "b29c6b619b90c5e0": 1795100487.7136989,
   "b2ab5f466f389324": 1794193456.5206633,
   "b2c047598eccca67": 1793935877.9817748,
   "b2df06db8a663c87": 1795002863.2457044,
@@ -11752,7 +11751,6 @@
   "b62df3d19da62723": 1794204179.8684347,
   "b63e6f55fe65bf17": 1793901777.273283,
   "b6b7f506e1f27186": 1794990686.0561583,
-  "b6ea3f4b40434dfc": 1793890856.2474601,
   "b6fb2cda36068b57": 1794740455.9176288,
   "b7159fe7d5325bcf": 1794913434.905437,
   "b71964586a613668": 1794101487.8059556,
@@ -11793,7 +11791,6 @@
   "bb1e5f9b24d9d9ed": 1795010521.5464308,
   "bb33f9c0d34d4abb": 1794591222.274452,
   "bb3beab749543672": 1794173485.4995587,
-  "bb503ca8dd5624db": 1793890889.1739924,
   "bb5c94023b11486c": 1794858091.4121206,
   "bb8ae8bd7120e242": 1794943890.3925378,
   "bbd87f9e04dde43e": 1794358892.4297469,
@@ -11991,6 +11988,7 @@
   "d2a01f0288e1fa74": 1795094252.2488081,
   "d2bf206038dc3bc0": 1794846655.2895768,
   "d2d6b3526353e5da": 1793907178.143664,
+  "d2df987ce8fe2f61": 1795100487.7128925,
   "d2e97dcd5879492e": 1793928735.8943906,
   "d325111f039821d9": 1794787350.4929416,
   "d3314acbcaff8eae": 1794963651.1854727,
@@ -12101,6 +12099,7 @@
   "dec4699ec03595d3": 1794063720.07867,
   "def8657cb527d28d": 1795042855.9275043,
   "df0cd7af985bb394": 1795005106.2549179,
+  "df3c5797c30e338d": 1795100487.7132893,
   "df4e28563ece410a": 1794205882.9517407,
   "df66360291fe9c29": 1793944878.3855815,
   "df7555dec1988786": 1794985290.2638652,
@@ -12203,6 +12202,7 @@
   "eb35f1a36445ebec": 1794517281.0573595,
   "eb43ab51e57b7b12": 1794006142.9397428,
   "eb5873f55e782521": 1793980881.465091,
+  "eb7188a71c381305": 1795100487.7141306,
   "eb753eb5901ab2c2": 1794431111.1529963,
   "eb85283cf01e7e50": 1794999653.1275568,
   "eb8e266816bcb9cd": 1794128517.297944,
@@ -12225,7 +12225,6 @@
   "edcdb4e13fc01c5e": 1793914276.7164643,
   "edf8361276778f50": 1794911454.224739,
   "ee30f1b248213596": 1793908860.4204457,
-  "ee33087e894a4c9a": 1793890892.7230315,
   "ee38bc3887a6ea58": 1794618173.1613715,
   "ee473118fc8b5175": 1793901710.8291235,
   "ee5d138905ed731b": 1794482973.1377099,
@@ -13599,7 +13598,7 @@
    "Loudwire": 3,
    "PC Gamer": 16,
    "PlayUA": 1,
-   "Polygon": 36,
+   "Polygon": 37,
    "Product Hunt": 1,
    "VGC": 38,
    "Variety": 7
@@ -13615,11 +13614,11 @@
    "Distorted Sound": 5,
    "Eurogamer": 6,
    "GameSpot": 3,
-   "GamesIndustry.biz": 8,
+   "GamesIndustry.biz": 9,
    "GitHub Trending": 21,
    "Hugging Face": 2,
    "IGN": 6,
-   "ITC.ua": 17,
+   "ITC.ua": 18,
    "IndieWire": 6,
    "Insider Gaming": 9,
    "Kerrang!": 2,
@@ -13646,7 +13645,7 @@
    "gemini-flash-latest": 16,
    "gemini-flash-lite-latest": 298,
    "gemma-4-26b-a4b-it": 3,
-   "gemma-4-31b-it": 1
+   "gemma-4-31b-it": 2
   },
   "week": "2026-W47"
  },
@@ -14181,15 +14180,15 @@
    "Echoes of Mystralia",
    1792677687.2991743
   ],
+  "q:007 first light": [
+   3768760,
+   "007 First Light",
+   1795100491.5252728
+  ],
   "q:1 0": [
    5044640,
    "思安α.1.0",
    1792519374.2514403
-  ],
-  "q:1 euro truck simulator 2 2": [
-   0,
-   "",
-   1794925892.411482
   ],
   "q:10 years after": [
    339240,
@@ -14200,16 +14199,6 @@
    2077490,
    "孟铣（116）",
    1792515815.9158685
-  ],
-  "q:17": [
-   0,
-   "",
-   1794925888.0765333
-  ],
-  "q:17 november": [
-   0,
-   "",
-   1794925886.856665
   ],
   "q:180": [
    4566690,
@@ -14245,6 +14234,16 @@
    0,
    "",
    1795096943.9240165
+  ],
+  "q:2026 tiga": [
+   0,
+   "",
+   1795100494.2353563
+  ],
+  "q:2026 tiga awards": [
+   0,
+   "",
+   1795100493.6824102
   ],
   "q:20th": [
    0,
@@ -14380,6 +14379,11 @@
    0,
    "",
    1795078881.7260072
+  ],
+  "q:6 rockstar": [
+   0,
+   "",
+   1795100488.9139082
   ],
   "q:61 7m": [
    0,
@@ -14640,6 +14644,11 @@
    2825530,
    "Beholder: Conductor",
    1793719889.3906271
+  ],
+  "q:best publisher": [
+   0,
+   "",
+   1795100496.8153877
   ],
   "q:betrayed": [
    2855940,
@@ -15301,6 +15310,16 @@
    "Dota 2",
    1794810782.140999
   ],
+  "q:dovetail": [
+   0,
+   "",
+   1795100496.3191078
+  ],
+  "q:dovetail games": [
+   0,
+   "",
+   1795100495.822235
+  ],
   "q:dragon ball xenoverse 2": [
    454650,
    "DRAGON BALL XENOVERSE 2",
@@ -15430,11 +15449,6 @@
    4615220,
    "EXPLODES",
    1793280762.2264638
-  ],
-  "q:f2p": [
-   0,
-   "",
-   1794925891.6471565
   ],
   "q:fable": [
    2769570,
@@ -15676,6 +15690,21 @@
    "GOTY",
    1792710088.445226
   ],
+  "q:goty at 2026": [
+   0,
+   "",
+   1795100493.0979686
+  ],
+  "q:goty at 2026 tiga": [
+   0,
+   "",
+   1795100492.5824876
+  ],
+  "q:goty at 2026 tiga awards": [
+   0,
+   "",
+   1795100492.060916
+  ],
   "q:grand": [
    0,
    "",
@@ -15740,6 +15769,11 @@
    0,
    "",
    1795078880.195313
+  ],
+  "q:gta 6 rockstar": [
+   0,
+   "",
+   1795100488.3504934
   ],
   "q:half life": [
    70,
@@ -16421,11 +16455,6 @@
    "",
    1795094967.3017447
   ],
-  "q:no f2p": [
-   0,
-   "",
-   1794925890.7009292
-  ],
   "q:no man's land": [
    3863620,
    "No Man's Land",
@@ -16445,16 +16474,6 @@
    4487060,
    "Northgard Battlegrounds",
    1793018041.608314
-  ],
-  "q:november": [
-   0,
-   "",
-   1794925890.024276
-  ],
-  "q:november 2026": [
-   0,
-   "",
-   1794925889.097218
   ],
   "q:novitiate": [
    0,
@@ -16710,6 +16729,11 @@
    578080,
    "PUBG: BATTLEGROUNDS",
    1793826087.257368
+  ],
+  "q:publisher": [
+   0,
+   "",
+   1795100497.3735259
   ],
   "q:quake": [
    2310,
@@ -17256,6 +17280,16 @@
    "",
    1795080678.5056365
   ],
+  "q:tiga": [
+   0,
+   "",
+   1795100495.3286903
+  ],
+  "q:tiga awards": [
+   0,
+   "",
+   1795100494.823755
+  ],
   "q:tomb raider": [
    203160,
    "Tomb Raider Game of the Year",
@@ -17525,9 +17559,11 @@
  "tag_hints": {
   "Mezha": [
    "apple",
+   "blue origin",
    "brave1",
    "delta",
    "dlss 5",
+   "google",
    "gta 6",
    "iphone",
    "kongsberg",
@@ -17539,7 +17575,7 @@
    "бізнес",
    "дрони",
    "дія",
-   "кібербезпека",
+   "космос",
    "міноборони",
    "новини",
    "норвегія",
@@ -17555,21 +17591,12 @@
    "технології",
    "україна",
    "штучний інтелект",
-   "європейська комісія",
    "єс",
    "ігри",
    "ілон маск"
   ]
  },
  "titles": [
-  [
-   1794927698.1229017,
-   "Сем Альтман запевнив, що не хоче забирати RAM у користувачів, але дата-центри все одно ефективніші"
-  ],
-  [
-   1794927708.0906677,
-   "Reports of AI-generated child sexual abuse material have surged more than 8,400 percent in two years"
-  ],
   [
    1794929582.8066714,
    "Mexico Is Missing Out on AI Data Center Boom as Energy Crunch Bites"
@@ -18285,17 +18312,17 @@
   [
    1795098825.5442219,
    "UK Court Rules for Apple in User Data Fight with Government"
+  ],
+  [
+   1795100489.5185423,
+   "GTA 6 змушує грати з наслідками власних рішень: Rockstar прибрала звичну функцію"
+  ],
+  [
+   1795100607.3021166,
+   "007 First Light wins GOTY at 2026 TIGA Awards, Dovetail Games takes home four accolades including Best Publisher"
   ]
  ],
  "titles_uk": [
-  [
-   1794927698.1229026,
-   "Сем Альтман запевнив, що не хоче забирати RAM у користувачів, але дата-центри все одно ефективніші"
-  ],
-  [
-   1794927708.0906684,
-   "Звіти про створені за допомогою ШІ матеріали сексуального насильства над дітьми зросли на 8400%"
-  ],
   [
    1794929582.8066723,
    "Мексика втрачає бум ШІ-датацентрів через енергетичну кризу"
@@ -19011,6 +19038,14 @@
   [
    1795098825.5442228,
    "Суд у Британії став на бік Apple у суперечці з урядом щодо даних користувачів"
+  ],
+  [
+   1795100489.5185432,
+   "GTA 6 змушує грати з наслідками власних рішень: Rockstar прибрала звичну функцію"
+  ],
+  [
+   1795100607.3021178,
+   "007 First Light стала грою року на TIGA Awards 2026, Dovetail Games отримала чотири нагороди"
   ]
  ],
  "ukrainian": {
