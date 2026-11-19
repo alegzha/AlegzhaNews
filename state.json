@@ -1,10 +1,16 @@
 {
  "alerts": {
-  "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
-   "detail": "https://www.kerrang.com/feed.rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Kerrang!» не працює",
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
    "sent": 0,
-   "since": 1795048272.133646
+   "since": 1795050083.5583646
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1795050082.4875584
   }
  },
  "daily_digest_date": "2026-11-18",
@@ -37,8 +43,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-19 00:32 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-11-19 01:03 UTC",
+  "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 3
@@ -48,67 +54,6 @@
   ]
  },
  "post_log": [
-  [
-   1794357190.3575957,
-   5586,
-   "🎬",
-   "Режисерка Пегах Ахангарані розповіла про документалку Rehearsals for a Revolution та вплив Трампа на Іран",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/pegah-ahangarani-rehearsals-for-a-revolution-interview-1237218614/",
-    "orig": "Doc Talk Podcast: Director Pegah Ahangarani On Her Oscar-Contending ‘Rehearsals For A Revolution’ And Trump’s Fateful Attack On Iran"
-   }
-  ],
-  [
-   1794358884.0436268,
-   5587,
-   "🎮",
-   "Фанат створює ПК-порт втраченого спіноффу The Elder Scrolls Travels: Shadowkey",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/the-elder-scrolls/one-elder-scrolls-fan-is-reviving-and-upgrading-a-lost-spin-off-for-the-nokia-n-gage-and-porting-it-to-pc/",
-    "orig": "One Elder Scrolls fan is reviving and upgrading (with AI) a lost spin-off for the Nokia N-Gage and porting it to PC"
-   }
-  ],
-  [
-   1794358892.4294696,
-   5588,
-   "🎬",
-   "Володар Оскара Девід Дайнстайн став виконавчим продюсером документалки Room of the Absolute",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/room-of-the-absolute-david-dinerstein-ep-1237219590/",
-    "orig": "Oscar Winner David Dinerstein Boards ‘Room Of The Absolute’ As EP; Award-Winning Doc Creates Portrait Of Ukrainian Artist Alla Hurenko"
-   }
-  ],
-  [
-   1794358895.9798107,
-   5589,
-   "🎬",
-   "Помер актор Стейсі Кіч",
-   "Deadline",
-   {
-    "also": [
-     [
-      "Variety",
-      "https://variety.com/2026/film/news/stacy-keach-dead-mike-hammer-fat-city-1236944687/"
-     ],
-     [
-      "IndieWire",
-      "https://www.indiewire.com/news/obituary/stacy-keach-dead-mike-hammer-fat-city-1235226784/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/stacy-keach-dead-mike-hammer-1237219619/",
-    "orig": "Stacy Keach Dies: ‘Mike Hammer’ Star, Film & Stage Actor Was 85"
-   }
-  ],
   [
    1794360701.29123,
    5590,
@@ -9045,7 +8990,6 @@
    "PlayUA",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/22300/\">Fallout 3</a> та New Vegas об’єднали в одному VR-проєкті завдяки модифікації A Tale of Two Realities</b>\n\nДля Fallout 3 та Fallout: New Vegas вийшла фанатська модифікація Fallout: A Tale of Two Realities, яка дозволяє проходити обидві рольові гри у віртуальній реальності. Проєкт базується на відомому моді Tale of Two Wastelands та об’єднує Столичну пустку й пустку Мохаве в межах одного VR-проходження, включно з контентом усіх офіційних доповнень. Основою нової модифікації став […]\n\n🔗 <a href=\"https://playua.net/fallout-3-ta-new-vegas-obyednaly-v-odnomu-vr-proyekti-zavdyaky-modyfikacziyi-a-tale-of-two-realities/\">PlayUA</a>\n\n#ігри",
     "kind": "photo",
     "link": "https://playua.net/fallout-3-ta-new-vegas-obyednaly-v-odnomu-vr-proyekti-zavdyaky-modyfikacziyi-a-tale-of-two-realities/",
     "orig": "Fallout 3 та New Vegas об’єднали в одному VR-проєкті завдяки модифікації A Tale of Two Realities"
@@ -9059,7 +9003,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Гурт Avatar анонсував сольні концерти у Північній Америці</b>\n\nГурт Avatar проведе низку сольних виступів у Північній Америці наступної весни за участю The Barbarians Of California та Gates To Hell. Концерти відбудуться у вільні дні між їхнім туром разом із Metallica та Limp Bizkit. Загальний продаж квитків розпочнеться 20 листопада.\n\n🔗 <a href=\"https://lambgoat.com/news/55946/avatar-add-headlining-dates-to-spring-north-american-tour/\">Lambgoat</a>\n\n#музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55946/avatar-add-headlining-dates-to-spring-north-american-tour/",
     "orig": "Avatar add headlining dates to spring North American tour"
@@ -9073,7 +9016,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Дені Вільнев вважає Dune: Part Three кращою за перші дві частини</b>\n\nРежисер Дені Вільнев заявив, що Dune: Part Three стала його улюбленою частиною трилогії та перевершила попередні фільми. За його словами, у триквелі вдалося створити значно сильнішу напругу й глибшу емоційну історію, досягти яких раніше не вдавалося. Стрічка за мотивами роману Dune Messiah вийде в прокат 18 грудня.\n\n🔗 <a href=\"https://deadline.com/2026/11/denis-villeneuve-dune-part-three-something-even-better-1237227247/\">Deadline</a>\n\n#кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/denis-villeneuve-dune-part-three-something-even-better-1237227247/",
     "orig": "Denis Villeneuve Says ‘Dune: Part Three’ Is “Something Even Better” Than The First Two Films"
@@ -9900,6 +9842,48 @@
     "link": "https://lambgoat.com/news/55972/pain-of-truth-streaming-live-at-the-long-island-paramount-pro-shot-concert-video/",
     "orig": "Pain of Truth streaming 'Live at the Long Island Paramount' pro-shot concert video"
    }
+  ],
+  [
+   1795050107.0667145,
+   6341,
+   "🎬",
+   "Кріс Пратт зіграє у sci-fi драмі The Traveler та підписав угоду з Paramount",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Кріс Пратт зіграє у sci-fi драмі The Traveler та підписав угоду з Paramount</b>\n\nКріс Пратт виконає головну роль у кіноадаптації роману The Traveler від Paramount Pictures та уклав трирічну продюсерську угоду зі студією. Стрічка розповість про подорожі у часі та стосунки батька й сина. Режисерами фільму стануть Зак Ліповскі та Адам Стайн за сценарієм Джастіна Роудса.\n\n🔗 <a href=\"https://variety.com/2026/film/news/chris-pratt-the-traveler-paramount-deal-1236952517/\">Variety</a>\n\n#кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/news/chris-pratt-the-traveler-paramount-deal-1236952517/",
+    "orig": "Chris Pratt to Star in Sci-Fi Family Drama ‘The Traveler,’ Inks First-Look Producing Deal at Paramount (EXCLUSIVE)"
+   }
+  ],
+  [
+   1795050183.3989174,
+   6342,
+   "🤖",
+   "Китайський біотех-стартап MegaRobo залучив $200 мільйонів від інвесторів з Оману",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Китайський біотех-стартап MegaRobo залучив $200 мільйонів від інвесторів з Оману</b>\n\nКитайський біотех-стартап MegaRobo Technologies залучив майже $200 мільйонів у раунді фінансування, який підтримав суверенний фонд Оману. Кошти спрямують на розробку препаратів за допомогою штучного інтелекту та робототехніки.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-19/china-ai-biotech-firm-raises-200-million-in-oman-backed-round\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-19/china-ai-biotech-firm-raises-200-million-in-oman-backed-round",
+    "orig": "China AI Biotech Firm Raises $200 Million in Oman-Backed Round"
+   }
+  ],
+  [
+   1795050186.8058505,
+   6343,
+   "🤖",
+   "Головні інвестори заробили мільярди на IPO Anthropic",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Головні інвестори заробили мільярди на IPO Anthropic</b>\n\nРекордне первинне публічне розміщення акцій компанії Anthropic PBC принесе мільярди доларів прибутку фінансовим фірмам, які інвестували в розробника чатбота Claude.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-19/the-biggest-winners-in-anthropic-s-landmark-public-offering\">Bloomberg</a>\n\n#ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-19/the-biggest-winners-in-anthropic-s-landmark-public-offering",
+    "orig": "The Biggest Winners in Anthropic’s Landmark Public Offering"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9910,7 +9894,9 @@
    1794976411.5177596,
    1795017715.7299092,
    1795019563.0063708,
-   1795041102.5301013
+   1795041102.5301013,
+   1795050183.3990664,
+   1795050186.806102
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1794852104.345479
@@ -10044,9 +10030,9 @@
    1794988872.4975154
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1794960080.3340526,
    1794969091.2425146,
-   1795044701.4842079
+   1795044701.4842079,
+   1795050107.0669584
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1794983512.77931,
@@ -10727,6 +10713,7 @@
   "40185ced1634ed99": 1794722573.6509268,
   "40279761d4213d95": 1794868444.818007,
   "4031e70586351989": 1793867500.6869516,
+  "40345959e8b7840e": 1795050069.409945,
   "404dff4b1ceac471": 1794731814.1593332,
   "407e4309223feda2": 1793962977.5184963,
   "40b9a0970f25255b": 1794229254.6836922,
@@ -10791,6 +10778,7 @@
   "479867c93150e790": 1794270683.853217,
   "47df805b9c024b9a": 1793995255.6755514,
   "482d3d22c928dd47": 1794013391.2337513,
+  "48748b8c64ba0f16": 1795050069.409945,
   "488190ccdb717476": 1794594655.5581527,
   "48a84460fbb5da16": 1794526254.358723,
   "48cfa8b738b7d95f": 1794884529.379504,
@@ -10866,6 +10854,7 @@
   "50ed72106645844d": 1794502856.3719625,
   "51106466d3f3c403": 1794069079.8415568,
   "512d853ec5d95163": 1793892680.7622335,
+  "5135391d78ae053c": 1795050107.0669103,
   "515a5ecd0e586087": 1795008699.1679084,
   "51658a905297cb5f": 1793881876.157867,
   "517850c6e01b4d65": 1794592885.8674386,
@@ -10906,6 +10895,7 @@
   "551ddc8e9b482c56": 1793899855.0556493,
   "55304c918f40a77e": 1794493891.529127,
   "554ebd537f707231": 1793889149.9197137,
+  "557e6772253231ba": 1795050183.399027,
   "55a7097586f4e45a": 1794497598.6367674,
   "55c25e13c2d1b4c6": 1794353465.3584552,
   "55cad23c843395ab": 1794379783.9103365,
@@ -11450,6 +11440,7 @@
   "8e1fade4ce2efbb1": 1794846691.2536154,
   "8e79a4a0a086bb0a": 1794582095.1363876,
   "8eb1c812ba5c288c": 1794852103.13292,
+  "8ebae25272229ef5": 1795050069.409945,
   "8ee92c9f72296efa": 1794339053.433796,
   "8eee178e53fb2b8b": 1793856655.0170114,
   "8f05bc7d66a846df": 1793910653.3599937,
@@ -11645,7 +11636,6 @@
   "a560e96ac3572eba": 1793957456.027642,
   "a568c0d7008bf2ed": 1794513766.4618802,
   "a5e6ed1f4ced8a2e": 1794306682.7784011,
-  "a5f52aa5d56360ac": 1793840486.7174122,
   "a60c4d1cbce2c052": 1794524545.2054734,
   "a63cf4553f266a18": 1794400283.729265,
   "a65090be49e4582b": 1794481449.6699495,
@@ -11654,6 +11644,7 @@
   "a6870c43d087f98a": 1794848456.1917202,
   "a6a3a1aadb8f31ae": 1795026653.649315,
   "a6ab513ca092dd1e": 1794335485.1881518,
+  "a6ae7de35c2bc6c6": 1795050089.2241607,
   "a6e99d9b5819b83b": 1794718886.145845,
   "a6ea30182c44cff7": 1795012310.1463664,
   "a70866f44525d9a7": 1794592884.4843674,
@@ -11917,7 +11908,6 @@
   "c5aeb2db23e044df": 1794326480.6572568,
   "c5b1e7a9ce76fb3b": 1794682854.575637,
   "c5bfd6e72283439e": 1794375098.0150483,
-  "c5c67f4aa38230da": 1793840511.3968415,
   "c5caadda8e830b38": 1794924115.2650104,
   "c6128005c791249c": 1793998853.2252662,
   "c6149e40dfc2e31e": 1793912609.2361388,
@@ -12429,6 +12419,7 @@
   "fe2fbf48b34f3d2f": 1794798057.0684564,
   "fe3406a94f452d40": 1794776454.883932,
   "fe425cb8489ba922": 1794497454.0506542,
+  "fe4746fdf378174f": 1795050186.806023,
   "fe65a80affa94623": 1794267173.5283654,
   "fe91614e7a0c48ea": 1793881927.3815606,
   "fea246d2d95fea5a": 1795026653.649315,
@@ -12882,7 +12873,7 @@
   ],
   "artists_checked": 1795046505.6685681,
   "blocked_until": 1795044851.179641,
-  "cursor": 128,
+  "cursor": 138,
   "digest_week": "2026-W46",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13639,25 +13630,25 @@
   },
   "filtered": {
    "/Film": 13,
-   "Bloomberg": 9,
+   "Bloomberg": 10,
    "Deadline": 4,
    "Digital Foundry": 1,
    "GameSpot": 3,
    "GamesIndustry.biz": 1,
    "IGN": 7,
-   "Insider Gaming": 24,
+   "Insider Gaming": 25,
    "Lambgoat": 1,
    "Loudwire": 3,
    "PC Gamer": 16,
    "Polygon": 26,
-   "VGC": 33,
+   "VGC": 34,
    "Variety": 6
   },
   "sources": {
    "/Film": 13,
    "AIN.ua": 2,
    "Blabbermouth": 3,
-   "Bloomberg": 22,
+   "Bloomberg": 24,
    "DOU": 2,
    "DOU Gamedev": 3,
    "Deadline": 45,
@@ -13688,12 +13679,12 @@
    "The Decoder": 8,
    "ThePRP": 8,
    "VGC": 5,
-   "Variety": 18
+   "Variety": 19
   },
   "translators": {
    "DeepL": 27,
    "gemini-flash-latest": 16,
-   "gemini-flash-lite-latest": 247
+   "gemini-flash-lite-latest": 250
   },
   "week": "2026-W47"
  },
@@ -18507,6 +18498,18 @@
   [
    1795048339.1115315,
    "Pain of Truth streaming 'Live at the Long Island Paramount' pro-shot concert video"
+  ],
+  [
+   1795050107.0669122,
+   "Chris Pratt to Star in Sci-Fi Family Drama ‘The Traveler,’ Inks First-Look Producing Deal at Paramount (EXCLUSIVE)"
+  ],
+  [
+   1795050183.3990288,
+   "China AI Biotech Firm Raises $200 Million in Oman-Backed Round"
+  ],
+  [
+   1795050186.806025,
+   "The Biggest Winners in Anthropic’s Landmark Public Offering"
   ]
  ],
  "titles_uk": [
@@ -19209,6 +19212,18 @@
   [
    1795048339.1115324,
    "Pain of Truth випустили концертне відео Live at the Long Island Paramount"
+  ],
+  [
+   1795050107.0669134,
+   "Кріс Пратт зіграє у sci-fi драмі The Traveler та підписав угоду з Paramount"
+  ],
+  [
+   1795050183.3990295,
+   "Китайський біотех-стартап MegaRobo залучив $200 мільйонів від інвесторів з Оману"
+  ],
+  [
+   1795050186.806026,
+   "Головні інвестори заробили мільярди на IPO Anthropic"
   ]
  ],
  "ukrainian": {
@@ -21627,7 +21642,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795046501.4811258,
+  "last_check": 1795050195.897721,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
