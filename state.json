@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
-   "detail": "https://distortedsoundmag.com/feed/ → HTTPSConnectionPool(host='distortedsoundmag.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «Distorted Sound» не працює",
-   "sent": 0,
-   "since": 1795165291.4878395
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-19",
  "freebies": {
   "last_check": 1795163853.4161673,
@@ -38,30 +31,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-20 09:02 UTC",
+  "at": "2026-11-20 09:36 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-26b-a4b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794475909.8660939,
-   5725,
-   "🎮",
-   "У серіалі The Lord of the Rings: The Rings of Power з'явилася заміна Gollum",
-   "Polygon",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.polygon.com/lord-of-the-rings-gollum-orc-rings-of-power/",
-    "orig": "Lord of the Rings Officially Reveals Gollum’s Replacement"
-   }
-  ],
   [
    1794476274.2093368,
    5726,
@@ -8979,7 +8960,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>IPO Anthropic на $81,3 мільярда побило рекорд SpaceX попри тиск ринку</b>\n\nAnthropic провела найбільше IPO в історії, обійшовши SpaceX. Ранній інвестор Дастін Московіц публічно дистанціювався від компанії, попередивши, що його фінансування могло наблизити «кінець світу».\n\n🔗 <a href=\"https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/\">The Decoder</a> · #ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/anthropics-81-3-billion-ipo-shatters-spacexs-record-as-rising-rates-and-political-headwinds-shake-the-sector/",
     "orig": "Anthropic's $81.3 billion IPO shatters SpaceX's record as rising rates and political headwinds shake the sector"
@@ -8993,7 +8973,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Anthropic провела найбільше IPO в історії, акції зросли на 34%</b>\n\nАкції Anthropic відкрилися на позначці $111.50, що на 34% перевищує ціну IPO у $83. Пітер Сінглхерст із Baillie Gifford вважає цей дебют лише початком розвитку завдяки вдосконаленню моделей та впровадженню ШІ у бізнес.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-19/anthropic-investor-sees-opportunity-beyond-ipo-video\">Bloomberg</a> · #ШІ #Anthropic",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-11-19/anthropic-investor-sees-opportunity-beyond-ipo-video",
     "orig": "Anthropic Investor Sees Opportunity Beyond IPO"
@@ -9829,6 +9808,34 @@
     "link": "https://github.com/nginx/nginx",
     "orig": "nginx/nginx"
    }
+  ],
+  [
+   1795167148.956675,
+   6480,
+   "🤘",
+   "Takedown Festival оголосив перших хедлайнерів на 2027 рік",
+   "Kerrang!",
+   {
+    "also": [],
+    "caption": "🤘 <b>Takedown Festival оголосив перших хедлайнерів на 2027 рік</b>\n\nФестиваль Takedown Festival оголосив перших учасників та хедлайнерів на 2027 рік. Ними стали гурти Nova Twins та unpeople.\n\n🔗 <a href=\"https://www.kerrang.com/takedown-festival-announces-first-bands-for-2027-with-nova-twins-and-unpeople-headlining\">Kerrang!</a> · #музика #NovaTwins #Unpeople",
+    "kind": "photo",
+    "link": "https://www.kerrang.com/takedown-festival-announces-first-bands-for-2027-with-nova-twins-and-unpeople-headlining",
+    "orig": "Takedown Festival announces first bands for 2027, with Nova Twins and unpeople headlining"
+   }
+  ],
+  [
+   1795167364.5534413,
+   6481,
+   "💾",
+   "diagram-design дозволяє ШІ-агентам створювати діаграми у форматі HTML та SVG",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>diagram-design дозволяє ШІ-агентам створювати діаграми у форматі HTML та SVG</b>\n\nНова навичка diagram-design дозволяє ШІ-агентам створювати 51 тип діаграм у форматі одного HTML + SVG файлу. Інструмент сумісний із Cursor, Claude Code, GitHub Copilot, Gemini CLI та іншими платформами. Він забезпечує чистий дизайн без використання Mermaid.\n\n🔗 <a href=\"https://github.com/cathrynlavery/diagram-design\">GitHub Trending</a> · #софт #DiagramDesign #ClaudeCode",
+    "kind": "photo",
+    "link": "https://github.com/cathrynlavery/diagram-design",
+    "orig": "cathrynlavery/diagram-design"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10003,8 +10010,7 @@
    1795057290.96549
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
-   1794918915.497349,
-   1795003300.8774254
+   1795167148.956924
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
    1795127561.2740307,
@@ -10058,14 +10064,14 @@
    1794843085.3208008
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
-   1795080799.0878801,
    1795083121.660463,
    1795084733.9857543,
    1795086182.6949415,
    1795087879.2407231,
    1795089086.6101468,
    1795163851.8186357,
-   1795165321.8502712
+   1795165321.8502712,
+   1795167364.5537064
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1795023110.4423647,
@@ -10273,6 +10279,7 @@
   "1431c8430c64f82f": 1795033859.217856,
   "14832d8209b1a065": 1794913282.811887,
   "1489811c244137e9": 1795087856.688431,
+  "14f321c495182c59": 1795167364.5536597,
   "152daa25e42033b6": 1795041101.017265,
   "154aa465ecbcfd2c": 1794240058.5109377,
   "1555ed6bcb1233ac": 1794999745.7375064,
@@ -10752,7 +10759,6 @@
   "515a5ecd0e586087": 1795008699.1679084,
   "517850c6e01b4d65": 1794592885.8674386,
   "518b485e28cf4f3b": 1794256256.1973255,
-  "519ce1a8766ff555": 1793957456.027642,
   "51c3a879e4d7edac": 1795003298.0033274,
   "51d4e4712c078cbc": 1795127561.2739894,
   "51d850fc09234a36": 1794333681.392647,
@@ -10868,6 +10874,7 @@
   "5eae0284659337e1": 1794069054.1396751,
   "5ed07ad4c00112f9": 1794924098.452095,
   "5ed5ed3e77cdf615": 1795109703.9107819,
+  "5edb8565d8bee6c7": 1795167057.8686705,
   "5ee51a2eff4ec69d": 1794904283.7142558,
   "5ef3b5a127fd5ba4": 1793982695.709336,
   "5f26c041a43f668b": 1794234687.2555015,
@@ -11230,7 +11237,6 @@
   "869876234a931020": 1794958255.0754318,
   "869a19de6ce619a1": 1794202257.9998238,
   "87006c8374bde079": 1795152754.8605757,
-  "876f4401e17e3a11": 1793957579.4603608,
   "878e9d7dd121471d": 1794619881.9929366,
   "87a40d47e47bd1ff": 1794002456.467597,
   "87b8d8fb0e754097": 1793966491.4273164,
@@ -11239,6 +11245,7 @@
   "87da6a6ac6a8b0ae": 1793966494.7048624,
   "87f8ddd930380cdd": 1794112278.9359908,
   "87fe55541825dd45": 1794880915.0736182,
+  "8817381862ce860d": 1795167057.8686705,
   "881debcf1a1d3952": 1794634255.263127,
   "8840c180a5ce48c6": 1793988056.3209734,
   "884b01750c3f263b": 1794832381.563612,
@@ -11473,7 +11480,6 @@
   "a5433ee88c25ff65": 1794682854.575637,
   "a54a5de50b86e841": 1794759968.2490451,
   "a554bee44e8165cd": 1794358884.043912,
-  "a560e96ac3572eba": 1793957456.027642,
   "a568c0d7008bf2ed": 1794513766.4618802,
   "a5e6ed1f4ced8a2e": 1794306682.7784011,
   "a60c4d1cbce2c052": 1794524545.2054734,
@@ -11695,7 +11701,6 @@
   "c114542661967976": 1794657664.8976924,
   "c1449f04b58dcaca": 1794994256.738315,
   "c1470f580db41f85": 1794330058.4836624,
-  "c14877cba6b6ce96": 1793957456.027642,
   "c15827a29ce22e76": 1795094153.9066393,
   "c15fc75af136a790": 1794938453.8847573,
   "c1cca422f01d5a21": 1794004279.9612644,
@@ -11989,6 +11994,7 @@
   "e73a115e1e1afff3": 1795008699.1682863,
   "e75162f51dbd7873": 1794364279.3029287,
   "e751fd0f3b13fe95": 1794771113.625774,
+  "e763621e99978078": 1795167148.9568794,
   "e77ce8d9e19fc38b": 1795145477.1128936,
   "e77f83ae1088eb81": 1794866636.2184536,
   "e7844a2d07194cc8": 1794571372.1144512,
@@ -12077,7 +12083,6 @@
   "f2cfdedad1abd1d4": 1794629065.3563797,
   "f2d28a57cddc32ed": 1794762053.046261,
   "f2eeb31ef09c1376": 1794301282.6935184,
-  "f2f96cdad9d06291": 1793957484.8537347,
   "f2fd3668622bccaf": 1794823302.0580728,
   "f3040aceb4d30279": 1794619753.424945,
   "f3083e479530037a": 1794459677.3013132,
@@ -13389,13 +13394,13 @@
    "Халява": 2
   },
   "filtered": {
-   "/Film": 16,
+   "/Film": 17,
    "Bloomberg": 15,
    "Deadline": 9,
    "Digital Foundry": 1,
    "GameSpot": 3,
    "GamesIndustry.biz": 1,
-   "IGN": 13,
+   "IGN": 14,
    "ITC.ua": 1,
    "Insider Gaming": 40,
    "Lambgoat": 1,
@@ -13421,13 +13426,13 @@
    "Eurogamer": 6,
    "GameSpot": 3,
    "GamesIndustry.biz": 9,
-   "GitHub Trending": 23,
+   "GitHub Trending": 24,
    "Hugging Face": 2,
    "IGN": 7,
    "ITC.ua": 21,
    "IndieWire": 10,
    "Insider Gaming": 11,
-   "Kerrang!": 2,
+   "Kerrang!": 3,
    "Lambgoat": 19,
    "Metal Hammer (Louder)": 18,
    "Metal Injection": 1,
@@ -13450,8 +13455,8 @@
   "translators": {
    "DeepL": 49,
    "gemini-flash-latest": 26,
-   "gemini-flash-lite-latest": 312,
-   "gemma-4-26b-a4b-it": 16,
+   "gemini-flash-lite-latest": 313,
+   "gemma-4-26b-a4b-it": 17,
    "gemma-4-31b-it": 21
   },
   "week": "2026-W47"
@@ -14106,11 +14111,6 @@
    2542430,
    "5050",
    1792681371.753771
-  ],
-  "q:6": [
-   0,
-   "",
-   1794992856.8844995
   ],
   "q:6 193": [
    0,
@@ -15391,11 +15391,6 @@
    0,
    "",
    1795165296.8156857
-  ],
-  "q:gta 6": [
-   0,
-   "",
-   1794992856.3738105
   ],
   "q:gta 6 193": [
    0,
@@ -17137,10 +17132,10 @@
    "gta 6",
    "intel",
    "iphone",
+   "meta",
    "openai",
    "quantum systems",
    "rockstar",
-   "shure",
    "авіація",
    "безпілотники",
    "бпла",
@@ -17152,36 +17147,22 @@
    "комплектуючі",
    "кібербезпека",
    "літак",
-   "мікрофони",
    "новини",
+   "носимі гаджети",
    "оборонка",
    "процесори",
    "розвідка",
    "смартфони",
    "софт",
    "статті",
+   "технології",
    "франція",
    "штучний інтелект",
+   "ші-агенти",
    "ігри"
   ]
  },
  "titles": [
-  [
-   1794992854.263971,
-   "Harry Shum Jr. Honors Late ‘Glee’ Co-Star Naya Rivera During ‘Dancing With the Stars’ Semifinals: ‘We Miss You, Baby Girl’"
-  ],
-  [
-   1794992869.7279308,
-   "Чому всі чекають GTA VI та як серія змінила ігрову індустрію — розповідають українські розробники"
-  ],
-  [
-   1794994291.1205091,
-   "The Bo Diddley albums you should definitely listen to... and one to avoid"
-  ],
-  [
-   1794994393.6393569,
-   "cursor/plugins"
-  ],
   [
    1794996185.3027136,
    "Rings of Power Episode 6 Ending Explained: Amazon Radically Changes the One Ring's Origin Story"
@@ -17913,25 +17894,17 @@
   [
    1795165321.8502274,
    "nginx/nginx"
+  ],
+  [
+   1795167148.9568815,
+   "Takedown Festival announces first bands for 2027, with Nova Twins and unpeople headlining"
+  ],
+  [
+   1795167364.553662,
+   "cathrynlavery/diagram-design"
   ]
  ],
  "titles_uk": [
-  [
-   1794992854.2639718,
-   "Гаррі Шум-молодший вшанував пам’ять покійної колеги по серіалу «Glee» Наї Рівери під час півфіналу шоу «Танці з зірками»: «Ми сумуємо за тобою, крихітко»"
-  ],
-  [
-   1794992869.727932,
-   "Чому всі чекають GTA VI та як серія змінила ігрову індустрію — розповідають українські розробники"
-  ],
-  [
-   1794994291.12051,
-   "Головні альбоми Bo Diddley, які варто послухати"
-  ],
-  [
-   1794994393.6393578,
-   "Cursor випустив специфікацію та офіційні плагіни"
-  ],
   [
    1794996185.3027143,
    "Чому фінал 6 епізоду Rings of Power кардинально змінює історію створення Єдиного Персня"
@@ -18663,6 +18636,14 @@
   [
    1795165321.8502283,
    "Огляд можливостей та архітектури вебсервера NGINX"
+  ],
+  [
+   1795167148.9568825,
+   "Takedown Festival оголосив перших хедлайнерів на 2027 рік"
+  ],
+  [
+   1795167364.5536628,
+   "diagram-design дозволяє ШІ-агентам створювати діаграми у форматі HTML та SVG"
   ]
  ],
  "ukrainian": {
@@ -21107,7 +21088,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795162068.1695662,
+  "last_check": 1795167373.6558228,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
