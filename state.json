@@ -1,36 +1,5 @@
 {
- "alerts": {
-  "src:ai|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: HTTPSConnectionPool(host='alegzhanews.alegzha.workers.dev', port=443): Read timed out. (read ",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1795190537.0253503
-  },
-  "src:games|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: HTTPSConnectionPool(host='alegzhanews.alegzha.workers.dev', port=443): Read timed out. (read ",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1795190512.2344115
-  },
-  "src:games|PlayUA|https://playua.net/feed/": {
-   "detail": "https://playua.net/feed/ → 522 Server Error: <none> for url: https://playua.net/feed/",
-   "label": "Джерело «PlayUA» не працює",
-   "sent": 0,
-   "since": 1795190477.896453
-  },
-  "src:movies|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: HTTPSConnectionPool(host='alegzhanews.alegzha.workers.dev', port=443): Read timed out. (read ",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1795190524.9491146
-  },
-  "src:software|Mezha|https://mezha.ua/feed/": {
-   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: HTTPSConnectionPool(host='alegzhanews.alegzha.workers.dev', port=443): Read timed out. (read ",
-   "label": "Джерело «Mezha» не працює",
-   "sent": 0,
-   "since": 1795190524.9796977
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-19",
  "freebies": {
   "last_check": 1795187035.6469615,
@@ -62,30 +31,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-20 16:03 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemma-4-31b-it",
+  "at": "2026-11-20 16:34 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemma-4-31b-it": 1
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-26b-a4b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794501093.185172,
-   5752,
-   "💾",
-   "Didit MCP",
-   "Product Hunt",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.producthunt.com/products/didit-3",
-    "orig": "Didit MCP"
-   }
-  ],
   [
    1794502963.9581764,
    5753,
@@ -9029,7 +8986,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Названо офіційну причину смерті Патріка Стюарта</b>\n\nЗгідно зі свідоцтвом про смерть, легендарний актор Патрік Стюарт помер у віці 86 років від хвороби Альцгеймера та деменції з тільцями Леві. У документі також зазначено серцево-легеневу недостатність та прогресивний нейрокогнітивний розлад.\n\n🔗 <a href=\"https://deadline.com/2026/11/patrick-stewart-cause-of-death-1237229735/\">Deadline</a> · #кіно_і_серіали #StarTrek #XMen",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/patrick-stewart-cause-of-death-1237229735/",
     "orig": "Patrick Stewart Cause Of Death Revealed"
@@ -9043,7 +8999,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Померла Джоррібелл Агото: зірці фільму «Філіпінана», яка прославилася завдяки цій ролі, було 32 роки</b>\n\nДжоррібелл Агото, зірка нагородженого преміями дебютного повнометражного фільму Рафаеля Мануеля «Філіпінана», померла у віці 32 років. Її родина повідомила, що вона пішла з життя у вівторок, 17 листопада, після боротьби з лімфомою. Філіппінська продюсерська компанія Epicmedia Productions, яка зняла фільм «Філіпінана», опублікувала у своєму акаунті в Instagram: «Ми любимо тебе, Белл».\n\n🔗 <a href=\"https://deadline.com/2026/11/jorrybell-agoto-obituary-filipinana-star-1237229689/\">Deadline</a> · #кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/jorrybell-agoto-obituary-filipinana-star-1237229689/",
     "orig": "Jorrybell Agoto Dies: Filipiñana Breakout Actress Was 32"
@@ -9895,6 +9850,34 @@
     "link": "https://www.eurogamer.net/biddy-blas-star-wars-galactic-racer-viral-scrib-doon",
     "orig": "Star Wars: Galactic Racer studio \"didn't dream\" Biddy Blas would be as popular as he is"
    }
+  ],
+  [
+   1795192397.4347634,
+   6509,
+   "🎮",
+   "Чому Grand Theft Auto 6 працює лише в 60fps?",
+   "Digital Foundry",
+   {
+    "also": [],
+    "caption": "🎮 <b>Чому Grand Theft Auto 6 працює лише в 60fps?</b>\n\nЧи допоможе генерація кадрів? Grand Theft Auto 6 орієнтована на 30fps на всіх платформах, від Series S до потужної PS5 Pro, що відрізняє її від інших сучасних ігор із режимами на 40fps чи 60fps.\n\n🔗 <a href=\"https://www.digitalfoundry.net/features/why-isnt-grand-theft-auto-6-60fps\">Digital Foundry</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.digitalfoundry.net/features/why-isnt-grand-theft-auto-6-60fps",
+    "orig": "Feature: Why Isn't Grand Theft Auto 6 60fps?"
+   }
+  ],
+  [
+   1795192445.4363275,
+   6510,
+   "🎮",
+   "Творець Undertale натякнув на фінал Deltarune",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Творець <a href=\"https://store.steampowered.com/app/391540/\">Undertale</a> натякнув на фінал Deltarune</b>\n🕹 <a href=\"https://store.steampowered.com/app/391540/\">Undertale</a> — 169,00₴\n\nТобі Фокс зазначив, що на відміну від Undertale, Deltarune не матиме кількох варіантів кінцівки. Розробник також додав, що за час тривалої розробки він став досвідченішим і тепер краще розуміє процес створення гри.\n\n🔗 <a href=\"https://www.polygon.com/deltarune-chapter-6-7-finale-update-toby-fox/\">Polygon</a> · #ігри #Deltarune #Undertale",
+    "kind": "photo",
+    "link": "https://www.polygon.com/deltarune-chapter-6-7-finale-update-toby-fox/",
+    "orig": "Undertale Creator Officially Teases the End of Deltarune"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9949,8 +9932,7 @@
    1795185082.0722413
   ],
   "games|Digital Foundry|https://www.digitalfoundry.net/feed": [
-   1794670323.927235,
-   1794756680.6637075
+   1795192397.4350631
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
    1795190633.35624
@@ -9992,9 +9974,9 @@
    1795089082.1423721
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1795104441.2093134,
    1795172717.283973,
-   1795179884.2518396
+   1795179884.2518396,
+   1795192445.4365907
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1795102384.3256137,
@@ -10727,12 +10709,12 @@
   "43069b545c119bfc": 1794081727.1823788,
   "432d8854ba9684e6": 1794254454.641067,
   "435e11c186621b3e": 1795026653.649315,
-  "43aa7e9118a4773f": 1793982691.819673,
   "43d48515eb9b726d": 1794222370.7217953,
   "43f41c8c48c6b3a1": 1794450686.830935,
   "44157888feac291b": 1795026653.649315,
   "441ac6a9e711b1e8": 1795086083.8416054,
   "44327ea93aa083c2": 1794591053.6005082,
+  "44572969db61f752": 1795192445.4365437,
   "449789e271e8cc68": 1794470493.3110666,
   "44b374fa9de1f61e": 1794814473.0154235,
   "44c428c1036f1f45": 1794916883.3097696,
@@ -10945,7 +10927,6 @@
   "5ed5ed3e77cdf615": 1795109703.9107819,
   "5edb8565d8bee6c7": 1795167057.8686705,
   "5ee51a2eff4ec69d": 1794904283.7142558,
-  "5ef3b5a127fd5ba4": 1793982695.709336,
   "5f26c041a43f668b": 1794234687.2555015,
   "5f521b871c88a910": 1795100487.7106519,
   "5f5ac26759d8219c": 1795170655.6016555,
@@ -11040,6 +11021,7 @@
   "68bd205cc8a1ea5c": 1795186853.8663404,
   "68c7910dbf502e8c": 1794747655.1469178,
   "68d13fafc7c56e1c": 1794223852.0687604,
+  "68d87e26d6d47ae1": 1795192397.43501,
   "68f3cf0a92827aee": 1794725136.8755693,
   "690405cdfdae1279": 1794695750.8160481,
   "69177d9119ea542c": 1795003302.726953,
@@ -11195,6 +11177,7 @@
   "795ee1ac9ad510aa": 1795094034.5790455,
   "799baede4d49ee43": 1794634255.263127,
   "79b06dc5892f7b14": 1794072652.3176856,
+  "79c9d1dfc4b40405": 1795192256.6890233,
   "79d39a59a3c130fb": 1794607470.770798,
   "7a0a720b715addd0": 1794454276.5957723,
   "7a1a9fdba05583c6": 1794263376.6669595,
@@ -11828,6 +11811,7 @@
   "c6f66c0f3804d817": 1795059075.8119717,
   "c721d7cfb6967e78": 1794592887.906931,
   "c7368023d59a02b6": 1794623453.1714458,
+  "c738682875364997": 1795192256.6890233,
   "c745d57d83287a7a": 1794542452.4889305,
   "c7720b73ff3263e2": 1794796286.0083234,
   "c7895b90261ff53c": 1794196893.3576224,
@@ -13486,13 +13470,13 @@
    "Lambgoat": 1,
    "Loudwire": 4,
    "Metal Hammer (Louder)": 3,
-   "PC Gamer": 18,
+   "PC Gamer": 19,
    "Pitchfork": 2,
    "PlayUA": 1,
    "Polygon": 46,
    "Product Hunt": 1,
    "The Decoder": 1,
-   "VGC": 46,
+   "VGC": 47,
    "Variety": 13
   },
   "sources": {
@@ -13503,6 +13487,7 @@
    "DOU": 4,
    "DOU Gamedev": 6,
    "Deadline": 68,
+   "Digital Foundry": 1,
    "Distorted Sound": 5,
    "Eurogamer": 7,
    "GameSpot": 4,
@@ -13522,7 +13507,7 @@
    "PC Gamer": 12,
    "Pitchfork": 4,
    "PlayUA": 6,
-   "Polygon": 21,
+   "Polygon": 22,
    "Product Hunt": 6,
    "Revolver": 3,
    "Rock Paper Shotgun": 11,
@@ -13536,8 +13521,8 @@
   "translators": {
    "DeepL": 53,
    "gemini-flash-latest": 26,
-   "gemini-flash-lite-latest": 320,
-   "gemma-4-26b-a4b-it": 24,
+   "gemini-flash-lite-latest": 321,
+   "gemma-4-26b-a4b-it": 25,
    "gemma-4-31b-it": 29
   },
   "week": "2026-W47"
@@ -14808,6 +14793,21 @@
    "",
    1795149082.8285832
   ],
+  "q:creator officially": [
+   0,
+   "",
+   1795192402.5736022
+  ],
+  "q:creator officially teases": [
+   0,
+   "",
+   1795192401.9874713
+  ],
+  "q:creator officially teases the end": [
+   0,
+   "",
+   1795192401.4676344
+  ],
   "q:creators": [
    1882430,
    "Creators",
@@ -15282,6 +15282,26 @@
    2252680,
    "Farlands",
    1792958489.5209355
+  ],
+  "q:feature why": [
+   0,
+   "",
+   1795192284.0924833
+  ],
+  "q:feature why isn't": [
+   0,
+   "",
+   1795192283.557783
+  ],
+  "q:feature why isn't grand": [
+   0,
+   "",
+   1795192283.062433
+  ],
+  "q:feature why isn't grand theft": [
+   0,
+   "",
+   1795192282.5248005
   ],
   "q:february": [
    3529080,
@@ -15858,6 +15878,21 @@
    "",
    1795089702.2220588
   ],
+  "q:isn't grand theft auto": [
+   0,
+   "",
+   1795192288.3207781
+  ],
+  "q:isn't grand theft auto 6": [
+   0,
+   "",
+   1795192287.8069446
+  ],
+  "q:isn't grand theft auto 6 60fps": [
+   0,
+   "",
+   1795192287.2926157
+  ],
   "q:iso": [
    2202510,
    "ISO",
@@ -16283,15 +16318,25 @@
    "",
    1795094966.3679562
   ],
+  "q:officially teases": [
+   0,
+   "",
+   1795192404.1605537
+  ],
+  "q:officially teases the end": [
+   0,
+   "",
+   1795192403.6582425
+  ],
+  "q:officially teases the end of deltarune": [
+   0,
+   "",
+   1795192403.1520863
+  ],
   "q:one day": [
    4478540,
    "One Day",
    1793097191.8062801
-  ],
-  "q:one piece grand gourmet": [
-   3905010,
-   "ONE PIECE: Grand Gourmet",
-   1792598552.0538206
   ],
   "q:onimusha way of the sword": [
    2638890,
@@ -16933,6 +16978,16 @@
    "",
    1795181479.6032362
   ],
+  "q:teases the end": [
+   0,
+   "",
+   1795192405.2952015
+  ],
+  "q:teases the end of deltarune": [
+   0,
+   "",
+   1795192404.768629
+  ],
   "q:ted": [
    3164530,
    "Ted",
@@ -17098,6 +17153,26 @@
    "Undertale",
    1793039505.7366686
   ],
+  "q:undertale creator": [
+   0,
+   "",
+   1795192400.9363105
+  ],
+  "q:undertale creator officially": [
+   0,
+   "",
+   1795192400.4443045
+  ],
+  "q:undertale creator officially teases": [
+   0,
+   "",
+   1795192399.935613
+  ],
+  "q:undertale creator officially teases the end": [
+   0,
+   "",
+   1795192399.4276776
+  ],
   "q:us for october": [
    0,
    "",
@@ -17207,6 +17282,31 @@
    0,
    "",
    1795069879.395967
+  ],
+  "q:why isn't": [
+   0,
+   "",
+   1795192286.7581437
+  ],
+  "q:why isn't grand": [
+   0,
+   "",
+   1795192286.217302
+  ],
+  "q:why isn't grand theft": [
+   0,
+   "",
+   1795192285.7007651
+  ],
+  "q:why isn't grand theft auto": [
+   0,
+   "",
+   1795192285.1905282
+  ],
+  "q:why isn't grand theft auto 6": [
+   0,
+   "",
+   1795192284.6883876
   ],
   "q:wick": [
    418300,
@@ -17326,23 +17426,23 @@
  },
  "tag_hints": {
   "Mezha": [
+   "android",
    "google",
    "grapheneos",
-   "gta 6",
-   "meta",
+   "microsoft",
    "samsung",
-   "spacex",
+   "signal",
    "ubisoft",
-   "whatsapp",
+   "windows 11",
    "бізнес",
    "велика британія",
    "військові технології",
    "кібербезпека",
-   "месенджери",
-   "мобільний зв'язок",
+   "мессенджери",
    "міни",
    "новини",
    "оборонка",
+   "операційні системи",
    "перехоплювачі",
    "ппо",
    "ракети",
@@ -17351,19 +17451,12 @@
    "статті",
    "технології",
    "штучний інтелект",
+   "ші-агенти",
    "ігри",
    "ізраїль"
   ]
  },
  "titles": [
-  [
-   1795019563.0063174,
-   "Viral Patel on AI’s Investment Boom"
-  ],
-  [
-   1795019565.0479994,
-   "Південна Корея платитиме до $75 000 за викриття студентів, які списують із допомогою ШІ"
-  ],
   [
    1795021302.8893404,
    "Apple’s Haven Status Makes It One of Priciest Stocks in Market"
@@ -18099,17 +18192,17 @@
   [
    1795190633.3561924,
    "Star Wars: Galactic Racer studio \"didn't dream\" Biddy Blas would be as popular as he is"
+  ],
+  [
+   1795192397.4350138,
+   "Feature: Why Isn't Grand Theft Auto 6 60fps?"
+  ],
+  [
+   1795192445.4365463,
+   "Undertale Creator Officially Teases the End of Deltarune"
   ]
  ],
  "titles_uk": [
-  [
-   1795019563.006318,
-   "Вірал Пател вважає, що інвестиційний бум у сфері ШІ лише прискорюється"
-  ],
-  [
-   1795019565.0480008,
-   "Південна Корея платитиме до $75 000 за викриття студентів, які списують із допомогою ШІ"
-  ],
   [
    1795021302.8893414,
    "Акції Apple стають одними з найдорожчих на ринку через статус прихистку"
@@ -18845,6 +18938,14 @@
   [
    1795190633.3561933,
    "Розробники Star Wars: Galactic Racer здивовані популярністю Biddy Blas"
+  ],
+  [
+   1795192397.4350157,
+   "Чому Grand Theft Auto 6 працює лише в 60fps?"
+  ],
+  [
+   1795192445.4365473,
+   "Творець Undertale натякнув на фінал Deltarune"
   ]
  ],
  "ukrainian": {
@@ -21292,7 +21393,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795188790.038129,
+  "last_check": 1795192454.658082,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
