@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|ThePRP|https://www.theprp.com/feed/": {
-   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ThePRP» не працює",
-   "sent": 0,
-   "since": 1795154494.2134266
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-19",
  "freebies": {
   "last_check": 1795156391.3482826,
@@ -38,43 +31,19 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-20 06:33 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-latest",
+  "at": "2026-11-20 07:05 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-latest": 1
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-26b-a4b-it": 1,
+   "gemma-4-31b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794466916.219402,
-   5715,
-   "🎬",
-   "Бек Беннетт зітід у комедії про гірськолижний курорт від FX",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/beck-bennett-snl-reunion-ski-resort-comedy-show-fx-1237220707/",
-    "orig": "Beck Bennett To Star In Ski Resort Comedy In Works At FX, In Reunion With ‘SNL’ Duo Anna Drezen & Paul Briganti"
-   }
-  ],
-  [
-   1794466941.6052387,
-   5716,
-   "🤘",
-   "Фургон гурту 0 Miles Per Hour обікрали в Портленді під час туру з A Sky So Black",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55857/0-miles-per-hour-van-stolen-in-portland-or-while-on-tour-with-a-sky-so-black/",
-    "orig": "0 Miles Per Hour van broken into in Portland, OR while on tour with A Sky So Black"
-   }
-  ],
   [
    1794468723.2383332,
    5717,
@@ -8974,7 +8943,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎮 <b>GTA 6 змушує грати з наслідками власних рішень: Rockstar прибрала звичну функцію</b>\n\nУ GTA 6 не можна повторно запускати вже пройдені сюжетні місії через меню гри. На відміну від багатьох попередніх проєктів Rockstar, нова частина серії не має такої можливості на старті. Причина може полягати в розгалуженій структурі історії, на яку впливають рішення гравців та події у відкритому світі.\n\n🔗 <a href=\"https://itc.ua/ua/novini/gta-6-zmushuye-graty-z-naslidkamy-vlasnyh-rishen-rockstar-prybrala-zvychnu-funktsiyu/\">ITC.ua</a> · #ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/gta-6-zmushuye-graty-z-naslidkamy-vlasnyh-rishen-rockstar-prybrala-zvychnu-funktsiyu/",
     "orig": "GTA 6 змушує грати з наслідками власних рішень: Rockstar прибрала звичну функцію"
@@ -8988,7 +8956,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/3768760/\">007 First Light</a> стала грою року на TIGA Awards 2026, Dovetail Games отримала чотири нагороди</b>\n🕹 <a href=\"https://store.steampowered.com/app/3768760/\">007 First Light</a> — 1 599,00₴\n🕹 <a href=\"https://store.steampowered.com/app/3609160/\">GOTY</a> — ще не вийшла\n\nПроєкт 007 First Light від IO Interactive визнали грою року на TIGA Awards 2026. Dovetail Games здобула чотири статуетки, зокрема звання найкращого видавця та нагороду за найкращу освітню, серйозну або симуляційну гру за Train Sim World 6\n\n🔗 <a href=\"https://www.gamesindustry.biz/007-first-light-wins-goty-at-2026-tiga-awards-dovetail-games-takes-home-four-accolades-including-best-publisher\">GamesIndustry.biz</a> · #ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/007-first-light-wins-goty-at-2026-tiga-awards-dovetail-games-takes-home-four-accolades-including-best-publisher",
     "orig": "007 First Light wins GOTY at 2026 TIGA Awards, Dovetail Games takes home four accolades including Best Publisher"
@@ -9829,6 +9796,34 @@
     "link": "https://lambgoat.com/news/55986/rammstein-premiere-du-hast-from-live-in-mexico-city-release/",
     "orig": "Rammstein premiere \"Du Hast\" from 'Live in Mexico City' release"
    }
+  ],
+  [
+   1795158293.798131,
+   6470,
+   "🤘",
+   "Shadows Fall доєдналися до лайнапу Milwaukee Metal Fest 2027",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Shadows Fall доєдналися до лайнапу Milwaukee Metal Fest 2027</b>\n\nВиступ на відкритті фестивалю наступного року\n\n🔗 <a href=\"https://www.theprp.com/2026/11/19/news/shadows-fall-added-to-2027-milwaukee-metal-fest-lineup/\">ThePRP</a> · #музика",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/11/19/news/shadows-fall-added-to-2027-milwaukee-metal-fest-lineup/",
+    "orig": "Shadows Fall Added To 2027 ‘Milwaukee Metal Fest’ Lineup"
+   }
+  ],
+  [
+   1795158349.1239436,
+   6471,
+   "🎬",
+   "The Airport Chaplain з Х'юго Вівінгом отримав другий сезон",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>The Airport Chaplain з Х&#x27;юго Вівінгом отримав другий сезон</b>\n\nСеріал The Airport Chaplain з Х&#x27;юго Вівінгом у головній ролі отримав другий сезон, який зараз перебуває в розробці. Netflix випустить перший сезон 25 січня 2027 року, що є рекордно коротким терміном для мережевих оригіналів в Австралії. Також компанія Wooden Horse готує екранізацію книг Р. Л. Стайна.\n\n🔗 <a href=\"https://deadline.com/2026/11/airport-chaplain-season-2-wooden-horse-interview-1237215499/\">Deadline</a> · #кіно_і_серіали #TheAirportChaplain #Netflix",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/airport-chaplain-season-2-wooden-horse-interview-1237215499/",
+    "orig": "Season 2 Of Hugo Weaving Drama ‘The Airport Chaplain’ Coming Together As Producer Wooden Horse Expands With Hires & R.L. Stine TV Series"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9948,7 +9943,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1795068086.6434484,
    1795077182.9680064,
    1795091580.1650083,
    1795094263.3185656,
@@ -9961,7 +9955,8 @@
    1795143736.9269614,
    1795145931.5669382,
    1795147470.2166493,
-   1795151069.276965
+   1795151069.276965,
+   1795158349.12416
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795087876.0739417
@@ -10038,10 +10033,7 @@
    1795152754.8606226
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1794983498.269072,
-   1795039284.2790725,
-   1795041096.669769,
-   1795042890.8339784
+   1795158293.7983537
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1794751279.155413
@@ -10203,6 +10195,7 @@
   "0da882e619a5f309": 1795010462.958915,
   "0db05686b8a5dc24": 1794778303.267593,
   "0db219f208b4e693": 1794196890.8303638,
+  "0db330cfc115cc99": 1795158293.7982764,
   "0db9d5e692516820": 1793949380.8965333,
   "0dfeec0e6409c875": 1795125763.7381372,
   "0e30b894b8aae235": 1794992854.263969,
@@ -10361,7 +10354,6 @@
   "1f4eec63d5d1cd89": 1794421855.4705105,
   "1f880700c684c642": 1794164452.8558764,
   "1f971f2df2d21f56": 1794607254.7994547,
-  "1fa67fad51e78ec7": 1793948487.1721668,
   "1fb256ce62b78d40": 1794994393.6393545,
   "1fb920e2264c6a5c": 1794974479.7680006,
   "1fdbc3941d6516d5": 1794009683.1951547,
@@ -10373,6 +10365,7 @@
   "202d5a42a7dd3115": 1795015897.3482482,
   "2046f5e50fafe44a": 1794996248.287837,
   "20636f59f0fef6d8": 1795055474.3026843,
+  "207194a9d8ca693d": 1795158349.1241083,
   "2121df6444c57ece": 1794123081.4127033,
   "21634434a9a2ef38": 1794765655.662173,
   "21d0933180612bf7": 1793988094.1415625,
@@ -10989,7 +10982,6 @@
   "6b55fa25bf5d35d1": 1794803489.1798482,
   "6ba2e766eedfc30a": 1794200479.2527332,
   "6ba3a23fa211ace0": 1794866643.4631548,
-  "6bab7e7faaa0798f": 1793948485.0171082,
   "6bc3ad4c802166d0": 1794259854.418043,
   "6bcc599b869e2f87": 1794187889.1669471,
   "6bd172f668062b9c": 1794526285.0047514,
@@ -13411,7 +13403,7 @@
    "Bloomberg": 35,
    "DOU": 3,
    "DOU Gamedev": 4,
-   "Deadline": 65,
+   "Deadline": 66,
    "Distorted Sound": 5,
    "Eurogamer": 6,
    "GameSpot": 3,
@@ -13438,16 +13430,16 @@
    "SteamDB": 1,
    "Stereogum": 4,
    "The Decoder": 12,
-   "ThePRP": 8,
+   "ThePRP": 9,
    "VGC": 8,
    "Variety": 26
   },
   "translators": {
    "DeepL": 46,
    "gemini-flash-latest": 26,
-   "gemini-flash-lite-latest": 310,
-   "gemma-4-26b-a4b-it": 14,
-   "gemma-4-31b-it": 18
+   "gemini-flash-lite-latest": 311,
+   "gemma-4-26b-a4b-it": 15,
+   "gemma-4-31b-it": 19
   },
   "week": "2026-W47"
  },
@@ -17205,14 +17197,6 @@
  },
  "titles": [
   [
-   1794985290.2638674,
-   "Fallout 3 та New Vegas об’єднали в одному VR-проєкті завдяки модифікації A Tale of Two Realities"
-  ],
-  [
-   1794985293.465613,
-   "Avatar add headlining dates to spring North American tour"
-  ],
-  [
    1794987091.7832563,
    "Denis Villeneuve Says ‘Dune: Part Three’ Is “Something Even Better” Than The First Two Films"
   ],
@@ -17943,17 +17927,17 @@
   [
    1795156389.7652385,
    "Rammstein premiere \"Du Hast\" from 'Live in Mexico City' release"
+  ],
+  [
+   1795158293.7982786,
+   "Shadows Fall Added To 2027 ‘Milwaukee Metal Fest’ Lineup"
+  ],
+  [
+   1795158349.1241107,
+   "Season 2 Of Hugo Weaving Drama ‘The Airport Chaplain’ Coming Together As Producer Wooden Horse Expands With Hires & R.L. Stine TV Series"
   ]
  ],
  "titles_uk": [
-  [
-   1794985290.263868,
-   "Fallout 3 та New Vegas об’єднали в одному VR-проєкті завдяки модифікації A Tale of Two Realities"
-  ],
-  [
-   1794985293.4656138,
-   "Гурт Avatar анонсував сольні концерти у Північній Америці"
-  ],
   [
    1794987091.7832572,
    "Дені Вільнев вважає Dune: Part Three кращою за перші дві частини"
@@ -18685,6 +18669,14 @@
   [
    1795156389.7652392,
    "Rammstein поділилися концертним відео Du Hast із релізу Live in Mexico City"
+  ],
+  [
+   1795158293.7982795,
+   "Shadows Fall доєдналися до лайнапу Milwaukee Metal Fest 2027"
+  ],
+  [
+   1795158349.1241114,
+   "The Airport Chaplain з Х'юго Вівінгом отримав другий сезон"
   ]
  ],
  "ukrainian": {
@@ -21125,7 +21117,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795154660.5098796,
+  "last_check": 1795158357.999045,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
