@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1795140075.8392563
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-19",
  "freebies": {
   "last_check": 1795134925.4949396,
@@ -38,14 +31,13 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-20 02:08 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemma-4-31b-it",
+  "at": "2026-11-20 02:25 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemini-flash-latest",
   "gemini_models_used": {
-   "gemma-4-31b-it": 1
+   "gemini-flash-latest": 2
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
@@ -8946,7 +8938,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎬 <b>Зірка «Рятувальників Малібу» пояснила, чому завела сторінку OnlyFans</b>\n\nЕріка Еленіак, яка здобула світову популярність завдяки ролі рятувальниці Шоні Макклейн у серіалі «Рятувальники Малібу», відверто розповіла про те, як запуск сторінки на OnlyFans у 56 років кардинально змінив її фінансове становище.\n\n🔗 <a href=\"https://itc.ua/ua/novini/zirka-ryatuvalnykiv-malibu-poyasnyla-chomu-zavela-storinku-onlyfans/\">ITC.ua</a>\n\n#кіно_і_серіали",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/zirka-ryatuvalnykiv-malibu-poyasnyla-chomu-zavela-storinku-onlyfans/",
     "orig": "Зірка «Рятувальників Малібу» пояснила, чому завела сторінку OnlyFans"
@@ -8960,7 +8951,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>Оновлення JavaScript-бібліотеки Solid</b>\n\nSolid — це декларативна JavaScript-бібліотека для створення інтерфейсів без використання Virtual DOM. Вона компілює JSX безпосередньо в реальні DOM-вузли та забезпечує точкову реактивність завдяки оновленню лише залежного від стану коду.\n\n🔗 <a href=\"https://github.com/solidjs/solid\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/solidjs/solid",
     "orig": "solidjs/solid"
@@ -9796,6 +9786,34 @@
     "link": "https://deadline.com/2026/11/jorrybell-agoto-obituary-filipinana-star-1237229689/",
     "orig": "Jorrybell Agoto Dies: Filipiñana Breakout Actress Was 32"
    }
+  ],
+  [
+   1795141499.5973072,
+   6450,
+   "💾",
+   "Чи можливий в Apple скандал керівництва на кшталт ситуації з Nvidia",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "💾 <b>Чи можливий в Apple скандал керівництва на кшталт ситуації з Nvidia</b>\n\nУ подкасті Power On журналісти Джоанна Стерн та Марк Гурман обговорили кризу лідерства в Nvidia. Вони проаналізували управлінську культуру Apple за керівництва Стіва Джобса й Тіма Кука та пояснили, чому компанія з Купертіно також не застрахована від подібних потрясінь.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-20/could-a-jensen-huang-style-scandal-happen-at-apple-video\">Bloomberg</a> · #софт #Apple #Nvidia",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-20/could-a-jensen-huang-style-scandal-happen-at-apple-video",
+    "orig": "Could a Jensen Huang-Style Scandal Happen at Apple?"
+   }
+  ],
+  [
+   1795141512.801381,
+   6451,
+   "🎬",
+   "Енді Валлентайн зніме фільм про засновницю бренду Sally Hansen",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Енді Валлентайн зніме фільм про засновницю бренду Sally Hansen</b>\n\nКомпанія Smize Productions Тайри Бенкс призначила Енді Валлентайна режисером байопіка про засновницю бренду Sally Hansen. Стрічка розповість про створення косметичної імперії в епоху вінтажного Голлівуду та сучасну команду, яка намагається розгадати таємниці біографії Саллі Гансен на тлі нинішнього культу манікюру.\n\n🔗 <a href=\"https://deadline.com/2026/11/tyra-banks-sally-hansen-film-andy-vallentine-director-1237229673/\">Deadline</a> · #кіно_і_серіали #SallyHansen",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/tyra-banks-sally-hansen-film-andy-vallentine-director-1237229673/",
+    "orig": "Tyra Banks Taps Andy Vallentine To Direct Sally Hansen Film"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9927,7 +9945,8 @@
    1795133038.943532,
    1795134919.4814763,
    1795138416.4906697,
-   1795140442.0977566
+   1795140442.0977566,
+   1795141512.8016162
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795087876.0739417
@@ -10020,9 +10039,9 @@
    1793547082.3914192
   ],
   "software|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1795021302.8893893,
    1795094042.9404545,
-   1795098825.5442615
+   1795098825.5442615,
+   1795141499.5975342
   ],
   "software|DOU|https://dou.ua/feed/": [
    1794843085.3208008
@@ -10814,6 +10833,7 @@
   "5c9ed0adbe744f64": 1795133038.9434793,
   "5d43055414eaef7c": 1794065489.938823,
   "5d58b67890e97256": 1795109457.1504688,
+  "5d63820880de2220": 1795141512.80158,
   "5d94b4bae70f6e9b": 1795019563.0063155,
   "5db5eec8faf5ae7a": 1794475909.8663523,
   "5dc12a2327e6f454": 1794861105.3816972,
@@ -11080,6 +11100,8 @@
   "7a5b4a02704c7af8": 1794981684.6440277,
   "7a611172b2abc75e": 1794310275.0560873,
   "7a6902c111ef1864": 1795096939.375861,
+  "7a6f712d91815c42": 1795141424.1342742,
+  "7ac34781fce60a85": 1795141499.5975015,
   "7ad5254cb90b9927": 1794682854.575637,
   "7ae546f7a2857dba": 1795140442.0977042,
   "7b1451fc786c34f9": 1794247287.389522,
@@ -11147,6 +11169,7 @@
   "817bfb4c1cd93d2e": 1794250886.4431863,
   "818ce15a49e53ad4": 1794177074.1994607,
   "81a176838c6102df": 1794486690.3895006,
+  "81c49d8c5c07357c": 1795141424.134819,
   "81dd8fcf722b9eb8": 1794357093.8702137,
   "81def5cca7df6ff7": 1794423654.150766,
   "81f04d86ad7df520": 1794798094.9699845,
@@ -11445,6 +11468,7 @@
   "a78f2e6e4266d866": 1795046478.6914155,
   "a78fc493dec55644": 1794614451.7468662,
   "a796c506984ca25d": 1793941283.948846,
+  "a7aa7767f67b7605": 1795141424.1340368,
   "a7b899ced9981df1": 1794636089.0109465,
   "a7eb5fc032ab0a7a": 1794609079.3628771,
   "a80cdef0819e11a2": 1794402084.7752478,
@@ -12591,7 +12615,7 @@
   ],
   "artists_checked": 1795133043.9351745,
   "blocked_until": 1795132965.8105006,
-  "cursor": 258,
+  "cursor": 268,
   "digest_week": "2026-W46",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13370,10 +13394,10 @@
    "/Film": 16,
    "AIN.ua": 4,
    "Blabbermouth": 4,
-   "Bloomberg": 32,
+   "Bloomberg": 33,
    "DOU": 3,
    "DOU Gamedev": 4,
-   "Deadline": 59,
+   "Deadline": 60,
    "Distorted Sound": 5,
    "Eurogamer": 6,
    "GameSpot": 3,
@@ -13405,7 +13429,7 @@
   },
   "translators": {
    "DeepL": 45,
-   "gemini-flash-latest": 20,
+   "gemini-flash-latest": 22,
    "gemini-flash-lite-latest": 307,
    "gemma-4-26b-a4b-it": 9,
    "gemma-4-31b-it": 14
@@ -18111,6 +18135,14 @@
   [
    1795140442.097707,
    "Jorrybell Agoto Dies: Filipiñana Breakout Actress Was 32"
+  ],
+  [
+   1795141499.5975032,
+   "Could a Jensen Huang-Style Scandal Happen at Apple?"
+  ],
+  [
+   1795141512.8015814,
+   "Tyra Banks Taps Andy Vallentine To Direct Sally Hansen Film"
   ]
  ],
  "titles_uk": [
@@ -18845,6 +18877,14 @@
   [
    1795140442.0977082,
    "Померла Джоррібелл Агото: зірці фільму «Філіпінана», яка прославилася завдяки цій ролі, було 32 роки"
+  ],
+  [
+   1795141499.5975037,
+   "Чи можливий в Apple скандал керівництва на кшталт ситуації з Nvidia"
+  ],
+  [
+   1795141512.8015826,
+   "Енді Валлентайн зніме фільм про засновницю бренду Sally Hansen"
   ]
  ],
  "ukrainian": {
