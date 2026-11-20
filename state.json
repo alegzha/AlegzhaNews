@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|ThePRP|https://www.theprp.com/feed/": {
+   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ThePRP» не працює",
+   "sent": 0,
+   "since": 1795154494.2134266
+  }
+ },
  "daily_digest_date": "2026-11-19",
  "freebies": {
   "last_check": 1795149178.463139,
@@ -31,44 +38,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-20 05:32 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-20 06:04 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 1
+   "gemma-4-26b-a4b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794463281.6171703,
-   5711,
-   "🤖",
-   "Alphabet випустила перші облігації в Гонконзі та Сінгапурі на тлі уваги до ШІ",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-12/alphabet-kicks-off-asia-bond-sale-as-ai-firms-face-scrutiny",
-    "orig": "Alphabet Kicks Off Asia Bond Sale as AI Firms Face Scrutiny"
-   }
-  ],
-  [
-   1794463287.910882,
-   5712,
-   "🎬",
-   "Lionsgate придбала права на фільм Wet режисерки Alma Har’el",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/connor-storrie-rosalia-wet-lionsgate-1237221317/",
-    "orig": "Lionsgate Acquires Alma Har’el’s ‘Wet’ Starring Connor Storrie, Rebecca Ferguson, Odessa A’zion, Rosalía & Lukas Haas"
-   }
-  ],
   [
    1794465186.4372318,
    5713,
@@ -8973,7 +8953,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Едді Редмейн стрибає з гори в тизері другого сезону The Day of the Jackal</b>\n\nУ мережі з&#x27;явився новий тизер другого сезону серіалу The Day of the Jackal, у якому Едді Редмейн знову виконує роль вбивці та стрибає з гори з парашютом. Прем&#x27;єра продовження трилера на Sky та Peacock запланована на березень 2027 року.\n\n🔗 <a href=\"https://variety.com/2026/tv/global/eddie-redmayne-day-of-the-jackal-season-2-teaser-1236953014/\">Variety</a> · #кіно_і_серіали #TheDayOfTheJackal",
     "kind": "photo",
     "link": "https://variety.com/2026/tv/global/eddie-redmayne-day-of-the-jackal-season-2-teaser-1236953014/",
     "orig": "Eddie Redmayne Jumps Off a Mountain in New ‘Day of the Jackal’ Season 2 Teaser"
@@ -8987,7 +8966,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/2000950/\">Call of Duty: Modern Warfare</a> 4 очолила список продажів у США за жовтень</b>\n🕹 <a href=\"https://store.steampowered.com/app/2000950/\">Call of Duty®: Modern Warfare®</a> — 2 552,00₴\n\nCall of Duty: Modern Warfare 4 стала найпопулярнішою грою в США за жовтень 2026 року, випередивши Gears of War: E-Day та Star Wars: Galactic Racer. Загальні витрати на відеоігри в країні впали на 12% до $4.2 мільярда, проте продажі консолей Xbox Series та PlayStation 5 зросли.\n\n🔗 <a href=\"https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-debuts-as-top-selling-game-in-us-for-october-2026\">GamesIndustry.biz</a> · #ігри #CallOfDuty",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-debuts-as-top-selling-game-in-us-for-october-2026",
     "orig": "Call of Duty: Modern Warfare 4 debuts as top-selling game in US for October 2026"
@@ -9828,6 +9806,34 @@
     "link": "https://pitchfork.com/story/atlas-sound-surprise-releases-first-album-in-15-years/",
     "orig": "Atlas Sound Surprise Releases First Album in 15 Years"
    }
+  ],
+  [
+   1795154506.9421787,
+   6466,
+   "🎮",
+   "Ubisoft додатково скоротить 166 працівників у двох великих студіях Montreal та Quebec",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🎮 <b>Ubisoft додатково скоротить 166 працівників у двох великих студіях Montreal та Quebec</b>\n\nUbisoft оголосила про новий етап реструктуризації, у межах якого буде додатково скорочено 166 робочих місць. Під скорочення потрапила студія Ubisoft Montreal, яка працювала над численними частинами серій Assassin&#x27;s Creed і Far Cry, та Ubisoft Quebec, що випустила торік Assassin&#x27;s Creed Shadows.\n\n🔗 <a href=\"https://mezha.ua/news/ubisoft-skorotit-166-pracivnikiv-u-studiyah-montreal-ta-quebec-317400/\">Mezha</a> · #ігри",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/ubisoft-skorotit-166-pracivnikiv-u-studiyah-montreal-ta-quebec-317400/",
+    "orig": "Ubisoft додатково скоротить 166 працівників у двох великих студіях Montreal та Quebec"
+   }
+  ],
+  [
+   1795154651.4963598,
+   6467,
+   "🤘",
+   "Артур Браун розповів, як ледь не створив гурт із Джимі Хендріксом",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Артур Браун розповів, як ледь не створив гурт із Джимі Хендріксом</b>\n\nДжимі Хендрікс та Артур Браун обговорювали спільний проєкт, але маніакальний епізод зірвав ці плани\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/arthur-brown-almost-formed-a-band-with-jimi-hendrix\">Metal Hammer (Louder)</a> · #музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/arthur-brown-almost-formed-a-band-with-jimi-hendrix",
+    "orig": "Arthur Brown reveals how close he came to forming a band with Jimi Hendrix"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9907,7 +9913,7 @@
    1795125763.7381756
   ],
   "games|Mezha|https://mezha.ua/feed/": [
-   1795012327.1837828
+   1795154506.9424121
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1795062692.6422322,
@@ -10013,12 +10019,9 @@
    1794724367.8770852
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
-   1795051877.248342,
-   1795057287.8990183,
-   1795062698.961518,
-   1795068082.8000305,
    1795131715.540373,
-   1795136487.6679327
+   1795136487.6679327,
+   1795154651.4965863
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1795150925.8390057
@@ -10104,6 +10107,7 @@
   "01e478ba125afa0c": 1794911494.7006705,
   "01e511a2db798aba": 1794942061.2796698,
   "020b81055a37e00a": 1794144680.8020613,
+  "020e7ccb9f4d0be8": 1795154651.4965339,
   "02185a83c836f7cd": 1794553375.1923747,
   "021d38d146d3fad9": 1794065499.599085,
   "021ea2600fd140a7": 1795006853.2084172,
@@ -10259,6 +10263,7 @@
   "12b35b4ae829ba54": 1794420054.9001808,
   "12b53ca735f12cd3": 1793986253.4546647,
   "12c275d70c1a7d65": 1794380505.1668162,
+  "12ed899f1e039ff5": 1795154502.068142,
   "12f0a24c166788ab": 1794456194.0249298,
   "13043e8cad828828": 1795033880.7240903,
   "131d772e9718a594": 1794155574.8707335,
@@ -10860,6 +10865,7 @@
   "5dea7dfa39972259": 1795039386.7471414,
   "5e1dc6f4a264d48b": 1794007851.551732,
   "5e4b0da2d02761f4": 1793986253.4546647,
+  "5e5879f9c1663ef2": 1795154502.0679226,
   "5e7cec6d99dc7fde": 1794573175.1934233,
   "5ea5112be4e209ac": 1795044680.769061,
   "5eae0284659337e1": 1794069054.1396751,
@@ -11782,6 +11788,7 @@
   "ce2602391dd325fd": 1794286881.4187279,
   "ce2b16947df9c97f": 1794925855.8063161,
   "ce37ba0e83d52ab4": 1795132854.102984,
+  "ce397a2ef7be80b4": 1795154506.9423568,
   "ce3dd1f10447d2ae": 1794956584.1721265,
   "ce5984adc4e9c27e": 1794684685.5508559,
   "ce7df47f4e49a290": 1795055474.96252,
@@ -11881,7 +11888,6 @@
   "d8bc5671d00617ad": 1793997057.807581,
   "d8dccb1b6ab26e42": 1794961858.7937615,
   "d8e38acab3d9284f": 1795104054.405295,
-  "d9205b47c6fdcb22": 1793944882.1786098,
   "d942d6f02f28b831": 1794508289.1311436,
   "d96c3c5a836c792f": 1795141877.7904732,
   "d9a650738e32ea43": 1794733368.4778433,
@@ -11927,7 +11933,6 @@
   "df3c5797c30e338d": 1795100487.7132893,
   "df44208b3394f70d": 1795102332.2895555,
   "df4e28563ece410a": 1794205882.9517407,
-  "df66360291fe9c29": 1793944878.3855815,
   "df7555dec1988786": 1794985290.2638652,
   "dfa8b4ae3c654893": 1795105867.4596348,
   "dfedfa4966b60219": 1794819950.4708943,
@@ -11947,7 +11952,6 @@
   "e15b553e45986df7": 1794695682.7557752,
   "e191d57c8956f816": 1794988870.6610136,
   "e1fba496226d5b7b": 1793971855.835181,
-  "e212f2282cf26886": 1793944885.907497,
   "e2155bb3ad00fed6": 1794747655.1469178,
   "e227ca7fe05e4f6e": 1794362593.0668566,
   "e232a797766a2297": 1795042879.085287,
@@ -13425,9 +13429,9 @@
    "Insider Gaming": 11,
    "Kerrang!": 2,
    "Lambgoat": 18,
-   "Metal Hammer (Louder)": 17,
+   "Metal Hammer (Louder)": 18,
    "Metal Injection": 1,
-   "Mezha": 27,
+   "Mezha": 28,
    "Neformat": 3,
    "PC Gamer": 11,
    "Pitchfork": 4,
@@ -13447,7 +13451,7 @@
    "DeepL": 46,
    "gemini-flash-latest": 25,
    "gemini-flash-lite-latest": 310,
-   "gemma-4-26b-a4b-it": 13,
+   "gemma-4-26b-a4b-it": 14,
    "gemma-4-31b-it": 18
   },
   "week": "2026-W47"
@@ -13943,6 +13947,16 @@
    "",
    1795102287.6162899
   ],
+  "q:166 montreal": [
+   0,
+   "",
+   1795154504.8574748
+  ],
+  "q:166 montreal quebec": [
+   0,
+   "",
+   1795154504.336766
+  ],
   "q:180": [
    4566690,
    "180°",
@@ -14298,11 +14312,6 @@
    "徨恍 Aware",
    1794924102.1336243
   ],
-  "q:baffled after elon musk's mom appears": [
-   0,
-   "",
-   1794979897.5713527
-  ],
   "q:baldur's gate": [
    228280,
    "Baldur's Gate: Enhanced Edition",
@@ -14567,11 +14576,6 @@
    999250,
    "Chucky",
    1793183573.390061
-  ],
-  "q:city": [
-   0,
-   "",
-   1794979903.7361372
   ],
   "q:civilization": [
    0,
@@ -15358,26 +15362,6 @@
    "",
    1795100492.060916
   ],
-  "q:grand": [
-   0,
-   "",
-   1794979905.5890677
-  ],
-  "q:grand theft": [
-   0,
-   "",
-   1794979905.11281
-  ],
-  "q:grand theft auto": [
-   0,
-   "",
-   1794979904.624509
-  ],
-  "q:grand theft auto 6": [
-   0,
-   "",
-   1794979904.1797369
-  ],
   "q:grand theft auto 6 have": [
    0,
    "",
@@ -15482,11 +15466,6 @@
    682730,
    "Hearing",
    1794963662.3099103
-  ],
-  "q:heat": [
-   0,
-   "",
-   1794979902.3370967
   ],
   "q:held": [
    1625880,
@@ -15612,26 +15591,6 @@
    3164330,
    "Infinity Nikki",
    1794979894.094324
-  ],
-  "q:infinity nikki players": [
-   0,
-   "",
-   1794979893.629714
-  ],
-  "q:infinity nikki players baffled": [
-   0,
-   "",
-   1794979893.1792676
-  ],
-  "q:infinity nikki players baffled after": [
-   0,
-   "",
-   1794979892.7170458
-  ],
-  "q:infinity nikki players baffled after elon": [
-   0,
-   "",
-   1794979892.2298107
   ],
   "q:input": [
    4016010,
@@ -15878,11 +15837,6 @@
    "Metroidvania",
    1793440887.2654004
   ],
-  "q:miami heat": [
-   0,
-   "",
-   1794979901.863438
-  ],
   "q:micron": [
    290380,
    "Micron",
@@ -15952,6 +15906,16 @@
    0,
    "",
    1795102288.2245798
+  ],
+  "q:montreal": [
+   0,
+   "",
+   1795154505.9794376
+  ],
+  "q:montreal quebec": [
+   0,
+   "",
+   1795154505.3649945
   ],
   "q:moon sweepers": [
    5335510,
@@ -16213,36 +16177,6 @@
    "Plants vs. Zombies GOTY Edition",
    1792587742.0772517
   ],
-  "q:players": [
-   0,
-   "",
-   1794979897.0198407
-  ],
-  "q:players baffled": [
-   0,
-   "",
-   1794979896.5463226
-  ],
-  "q:players baffled after": [
-   0,
-   "",
-   1794979895.9440057
-  ],
-  "q:players baffled after elon": [
-   0,
-   "",
-   1794979895.4829984
-  ],
-  "q:players baffled after elon musk": [
-   0,
-   "",
-   1794979895.0380273
-  ],
-  "q:players baffled after elon musk's mom": [
-   0,
-   "",
-   1794979894.5525591
-  ],
   "q:playstation exec": [
    0,
    "",
@@ -16337,6 +16271,11 @@
    2310,
    "Quake",
    1792688717.666938
+  ],
+  "q:quebec": [
+   0,
+   "",
+   1795154506.495057
   ],
   "q:queen's domain": [
    1799840,
@@ -16848,16 +16787,6 @@
    "",
    1794999682.5995173
   ],
-  "q:theft auto": [
-   0,
-   "",
-   1794979906.5418215
-  ],
-  "q:theft auto 6": [
-   0,
-   "",
-   1794979906.0583305
-  ],
   "q:theft auto 6 have": [
    0,
    "",
@@ -16927,6 +16856,21 @@
    390460,
    "Tyler",
    1793403098.8882158
+  ],
+  "q:ubisoft 166": [
+   0,
+   "",
+   1795154503.7787085
+  ],
+  "q:ubisoft 166 montreal": [
+   0,
+   "",
+   1795154503.2243361
+  ],
+  "q:ubisoft 166 montreal quebec": [
+   0,
+   "",
+   1795154502.700597
   ],
   "q:ubisoft creates": [
    0,
@@ -17042,21 +16986,6 @@
    0,
    "",
    1795129291.1133337
-  ],
-  "q:vice": [
-   0,
-   "",
-   1794979903.2607434
-  ],
-  "q:vice city": [
-   0,
-   "",
-   1794979902.7946181
-  ],
-  "q:vice city hardwood": [
-   0,
-   "",
-   1794979901.402009
   ],
   "q:video game": [
    924310,
@@ -17280,10 +17209,6 @@
   ]
  },
  "titles": [
-  [
-   1794981717.4583633,
-   "Caves of Qud's first DLC is forcing its devs to ask important questions: 'How does a crab get high?'"
-  ],
   [
    1794983487.6611946,
    "Bloodstock Festival announce 17 new bands for 2027"
@@ -18019,13 +17944,17 @@
   [
    1795152758.4494388,
    "Atlas Sound Surprise Releases First Album in 15 Years"
+  ],
+  [
+   1795154506.9423592,
+   "Ubisoft додатково скоротить 166 працівників у двох великих студіях Montreal та Quebec"
+  ],
+  [
+   1795154651.496536,
+   "Arthur Brown reveals how close he came to forming a band with Jimi Hendrix"
   ]
  ],
  "titles_uk": [
-  [
-   1794981717.4583642,
-   "Доповнення Diaspora для Caves of Qud дозволить грати за тварин і рослини"
-  ],
   [
    1794983487.6611958,
    "Bloodstock Festival оголосив 17 нових гуртів на 2027 рік"
@@ -18761,6 +18690,14 @@
   [
    1795152758.4494395,
    "Atlas Sound випустив перший за 15 років альбом Thanatos"
+  ],
+  [
+   1795154506.9423604,
+   "Ubisoft додатково скоротить 166 працівників у двох великих студіях Montreal та Quebec"
+  ],
+  [
+   1795154651.4965374,
+   "Артур Браун розповів, як ледь не створив гурт із Джимі Хендріксом"
   ]
  ],
  "ukrainian": {
@@ -21201,7 +21138,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795151078.1194913,
+  "last_check": 1795154660.5098796,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
