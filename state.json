@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1795140075.8392563
+  }
+ },
  "daily_digest_date": "2026-11-19",
  "freebies": {
   "last_check": 1795134925.4949396,
@@ -31,44 +38,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-20 01:33 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-20 02:08 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 1
+   "gemma-4-31b-it": 1
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794448886.3387446,
-   5696,
-   "🎬",
-   "Кан Дон Вон і Кім Го Ин знімуться в історичній дорамі Netflix The Twilight Between Us",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/netflix-korea-twilight-between-us-gang-dong-won-kim-go-eun-1237220213/",
-    "orig": "Gang Dong-won & Kim Go-eun To Lead Netflix Korea Romance-Action Period Drama ‘The Twilight Between Us’ From Kim Won-suk"
-   }
-  ],
-  [
-   1794448895.6860144,
-   5697,
-   "🎮",
-   "Геймплей та сюжет Intergalactic: The Heretic Prophet покажуть у 2027 році",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/intergalactic-the-heretic-prophet-gameplay-and-story-will-be-revealed-in-2027/",
-    "orig": "Intergalactic: The Heretic Prophet Gameplay and Story Will Be Revealed in 2027"
-   }
-  ],
   [
    1794450683.2130718,
    5698,
@@ -8952,7 +8933,6 @@
    "GitHub Trending",
    {
     "also": [],
-    "caption": "💾 <b>n8n-io/n8n</b>\n\nПлатформа автоматизації робочих процесів із вбудованими можливостями ШІ. Поєднує візуальний конструктор та власний код, підтримує самостійне хостирування чи хмару й понад 1500 інтеграцій.\n\n🔗 <a href=\"https://github.com/n8n-io/n8n\">GitHub Trending</a>\n\n#софт",
     "kind": "photo",
     "link": "https://github.com/n8n-io/n8n",
     "orig": "n8n-io/n8n"
@@ -9802,6 +9782,20 @@
     "link": "https://deadline.com/2026/11/patrick-stewart-cause-of-death-1237229735/",
     "orig": "Patrick Stewart Cause Of Death Revealed"
    }
+  ],
+  [
+   1795140442.0975118,
+   6449,
+   "🎬",
+   "Померла Джоррібелл Агото: зірці фільму «Філіпінана», яка прославилася завдяки цій ролі, було 32 роки",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Померла Джоррібелл Агото: зірці фільму «Філіпінана», яка прославилася завдяки цій ролі, було 32 роки</b>\n\nДжоррібелл Агото, зірка нагородженого преміями дебютного повнометражного фільму Рафаеля Мануеля «Філіпінана», померла у віці 32 років. Її родина повідомила, що вона пішла з життя у вівторок, 17 листопада, після боротьби з лімфомою. Філіппінська продюсерська компанія Epicmedia Productions, яка зняла фільм «Філіпінана», опублікувала у своєму акаунті в Instagram: «Ми любимо тебе, Белл».\n\n🔗 <a href=\"https://deadline.com/2026/11/jorrybell-agoto-obituary-filipinana-star-1237229689/\">Deadline</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/jorrybell-agoto-obituary-filipinana-star-1237229689/",
+    "orig": "Jorrybell Agoto Dies: Filipiñana Breakout Actress Was 32"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9923,8 +9917,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1795053694.9584012,
-   1795053725.0111303,
    1795055662.7312872,
    1795059079.8747816,
    1795061027.743887,
@@ -9934,7 +9926,8 @@
    1795094263.3185656,
    1795133038.943532,
    1795134919.4814763,
-   1795138416.4906697
+   1795138416.4906697,
+   1795140442.0977566
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795087876.0739417
@@ -11088,6 +11081,7 @@
   "7a611172b2abc75e": 1794310275.0560873,
   "7a6902c111ef1864": 1795096939.375861,
   "7ad5254cb90b9927": 1794682854.575637,
+  "7ae546f7a2857dba": 1795140442.0977042,
   "7b1451fc786c34f9": 1794247287.389522,
   "7b169acaced23cb2": 1794214891.8902218,
   "7b1bf47eb79a4d62": 1793939475.9033875,
@@ -12002,6 +11996,7 @@
   "ed8c40980fb04204": 1794848606.1512814,
   "edc9a1577a280398": 1794250882.6056623,
   "edf8361276778f50": 1794911454.224739,
+  "edfacd6a630da946": 1795140491.123892,
   "ee38bc3887a6ea58": 1794618173.1613715,
   "ee5d138905ed731b": 1794482973.1377099,
   "ee8301f272047996": 1794317494.1838448,
@@ -12596,7 +12591,7 @@
   ],
   "artists_checked": 1795133043.9351745,
   "blocked_until": 1795132965.8105006,
-  "cursor": 248,
+  "cursor": 258,
   "digest_week": "2026-W46",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13378,7 +13373,7 @@
    "Bloomberg": 32,
    "DOU": 3,
    "DOU Gamedev": 4,
-   "Deadline": 58,
+   "Deadline": 59,
    "Distorted Sound": 5,
    "Eurogamer": 6,
    "GameSpot": 3,
@@ -13409,11 +13404,11 @@
    "Variety": 25
   },
   "translators": {
-   "DeepL": 43,
+   "DeepL": 45,
    "gemini-flash-latest": 20,
    "gemini-flash-lite-latest": 307,
    "gemma-4-26b-a4b-it": 9,
-   "gemma-4-31b-it": 13
+   "gemma-4-31b-it": 14
   },
   "week": "2026-W47"
  },
@@ -17386,14 +17381,6 @@
  },
  "titles": [
   [
-   1794967638.5451498,
-   "IDA Awards Nominations: ‘Concrete Land’ Lands 6, With ‘To Hold A Mountain’ Close Behind; Elizabeth Holmes Doc In The Mix"
-  ],
-  [
-   1794967642.9729326,
-   "After Gilligan's Island, Jim Backus Appeared In This 1977 Disney Cult Classic"
-  ],
-  [
    1794969087.790323,
    "Julien Baker announces This World Or The Next, their first new album in six years"
   ],
@@ -18120,17 +18107,13 @@
   [
    1795138416.490624,
    "Patrick Stewart Cause Of Death Revealed"
+  ],
+  [
+   1795140442.097707,
+   "Jorrybell Agoto Dies: Filipiñana Breakout Actress Was 32"
   ]
  ],
  "titles_uk": [
-  [
-   1794967638.5451508,
-   "Номінації на премію IDA: фільм «Concrete Land» отримав 6 номінацій, а «To Hold A Mountain» — трохи менше; серед номінантів — документальний фільм про Елізабет Холмс"
-  ],
-  [
-   1794967642.9729335,
-   "Джим Бекус у культовому фільмі Disney 1977 року Pete's Dragon"
-  ],
   [
    1794969087.7903242,
    "Julien Baker анонсувала альбом This World Or The Next"
@@ -18858,6 +18841,10 @@
   [
    1795138416.4906247,
    "Названо офіційну причину смерті Патріка Стюарта"
+  ],
+  [
+   1795140442.0977082,
+   "Померла Джоррібелл Агото: зірці фільму «Філіпінана», яка прославилася завдяки цій ролі, було 32 роки"
   ]
  ],
  "ukrainian": {
@@ -21298,7 +21285,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795136507.1430886,
+  "last_check": 1795140498.572826,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
