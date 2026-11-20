@@ -1,15 +1,8 @@
 {
- "alerts": {
-  "gemini": {
-   "detail": "Expecting ',' delimiter: line 2 column 45 (char 46)\nПерекладаю через DeepL і Google. Денний ліміт, що закінчився на кілька годин, — це нормально; сповіщаю лише якщо Gemini не працює цілу добу (напр., ключ недійсний).",
-   "label": "Gemini не перекладає вже добу",
-   "sent": 0,
-   "since": 1795215835.5775456
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-20",
  "freebies": {
-  "last_check": 1795210275.6717138,
+  "last_check": 1795217678.4348655,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -38,58 +31,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-20 23:03 UTC",
-  "gemini_error": "Expecting ',' delimiter: line 2 column 45 (char 46)",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "at": "2026-11-20 23:34 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemini-flash-latest",
   "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 1,
+   "gemini-flash-latest": 2,
    "gemma-4-31b-it": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794526281.7946012,
-   5776,
-   "🤘",
-   "Альбом Fear Of Music від Talking Heads отримав делюкс-видання",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/music/albums/talking-heads-fear-of-music-super-deluxe-edition",
-    "orig": "Talking Heads' Fear Of Music remains an evergreen post-punk landmark"
-   }
-  ],
-  [
-   1794526285.0044925,
-   5777,
-   "🎬",
-   "Кріс Колфер обговорює можливе повернення до серіалу Glee",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/chris-colfer-conversation-glee-reboot-1237222143/",
-    "orig": "Chris Colfer In “Conversation” About ‘Glee’ Reboot, Jokes He’ll Return If Mr. Schue & Sue Perform “WAP”"
-   }
-  ],
-  [
-   1794526288.721318,
-   5778,
-   "🤘",
-   "Saba та Pivot Gang анонсували тур Північною Америкою на 2027 рік",
-   "Pitchfork",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://pitchfork.com/story/saba-and-pivot-gang-set-2027-north-american-tour/",
-    "orig": "Saba and Pivot Gang Set 2027 North American Tour"
-   }
-  ],
   [
    1794528076.3840559,
    5779,
@@ -9049,7 +9002,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Скандал з Nvidia відкрив можливості для індійських конкурентів у сфері ШІ</b>\n\nДовгий час Індія не відігравала великої ролі у світовій гонці ШІ, проте тепер бачить шанси в геополітичному хаосі, що охопив галузь\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-20/nvidia-scandal-fallout-india-ai-yotta-ambani-adani-am-intelligence-e2e-networks\">Bloomberg</a> · #ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-20/nvidia-scandal-fallout-india-ai-yotta-ambani-adani-am-intelligence-e2e-networks",
     "orig": "Nvidia Scandal Fallout Creates Opening for India’s AI Contenders"
@@ -9063,7 +9015,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Hunger Games: Sunrise on the Reaping зібрав $21.25M на попередніх показах</b>\n\nСтрічка показала другий найкращий результат попередніх показів у історії франшизи, випередивши Wicked та The Odyssey. Очікувані касові збори за відкриття можуть сягнути $100M. Глядачі оцінили фільм у 95% на Rotten Tomatoes, що стало рекордом для серії.\n\n🔗 <a href=\"https://deadline.com/2026/11/box-office-hunger-games-sunrise-on-the-reaping-1237229925/\">Deadline</a> · #кіно_і_серіали #HungerGames #Lionsgate",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/box-office-hunger-games-sunrise-on-the-reaping-1237229925/",
     "orig": "‘Hunger Games: Sunrise On The Reaping’ 2nd Best Franchise Previews With $21M+; Scorches ‘Wicked’ & ‘The Odyssey’ – Box Office"
@@ -9077,7 +9028,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>У кліпі SCATTERBRAIN “HERE WE GO AGAIN” учасники Korn та Papa Roach говорять про ментальне здоров&#x27;я</b>\n\nТам також є ще кілька знайомих облич.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/19/news/scatterbrains-here-we-go-again-music-video-finds-members-of-korn-papa-roach-more-speaking-on-their-mental-health/\">ThePRP</a> · #музика",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/19/news/scatterbrains-here-we-go-again-music-video-finds-members-of-korn-papa-roach-more-speaking-on-their-mental-health/",
     "orig": "SCATTERBRAIN’s “HERE WE GO AGAIN” Music Video Finds Members Of Korn, Papa Roach & More Speaking On Their Mental Health"
@@ -9919,6 +9869,48 @@
     "link": "https://www.theprp.com/2026/11/20/news/impending-dooms-new-single-i-have-seen-the-light-is-now-streaming/",
     "orig": "Impending Doom’s New Single “I Have Seen The Light” Is Now Streaming"
    }
+  ],
+  [
+   1795217582.0031686,
+   6535,
+   "🎮",
+   "«Флоридський Джокер» домігся свого: він став «спеціальним актором озвучення» у Grand Theft Auto 6",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>«Флоридський Джокер» домігся свого: він став «спеціальним актором озвучення» у Grand Theft Auto 6</b>\n\nСхоже, Лоуренс Салліван владнав усі розбіжності з Rockstar.\n\n🔗 <a href=\"https://www.pcgamer.com/games/grand-theft-auto/florida-joker-gets-his-wish-hes-a-special-voice-actor-in-grand-theft-auto-6/\">PC Gamer</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/games/grand-theft-auto/florida-joker-gets-his-wish-hes-a-special-voice-actor-in-grand-theft-auto-6/",
+    "orig": "Florida Joker gets his wish: He's a 'special voice actor' in Grand Theft Auto 6"
+   }
+  ],
+  [
+   1795217660.0588458,
+   6536,
+   "🤘",
+   "R.E.M. ніколи не об'єднаються знову",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>R.E.M. ніколи не об&#x27;єднаються знову</b>\n\nУчасники R.E.M. коротко об&#x27;єдналися в червні 2024 року для виступу в Songwriters Hall of Fame, але офіційного відродження гурту не буде. Майк Міллс і Пітер Бак вважають, що розпад був правильним рішенням, а повернення лише зашкодило б спадщині колективу. Майкл Стайпс готує сольний альбом, який має вийти у 2027 році.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/r-e-m-bassist-mike-mills-is-perfectly-happy-knowing-that-the-band-will-never-reform\">Metal Hammer (Louder)</a> · #музика #REM",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/r-e-m-bassist-mike-mills-is-perfectly-happy-knowing-that-the-band-will-never-reform",
+    "orig": "R.E.M. are perfectly happy in the knowledge that they will never, ever reform"
+   }
+  ],
+  [
+   1795217669.0920641,
+   6537,
+   "🤘",
+   "Redneck став першим платиновим синглом у кар'єрі Lamb Of God",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Redneck став першим платиновим синглом у кар&#x27;єрі Lamb Of God</b>\n\nСингл Redneck з альбому Sacrament 2006 року офіційно став першим платиновим треком в історії Lamb Of God за версією RIAA. Водночас статус золотого здобув культовий трек Laid To Rest із платівки Ashes Of The Wake. Раніше гурт отримував платину лише за концертні відеорелізи Killadelphia та Walk With Me In Hell.\n\n🔗 <a href=\"https://lambgoat.com/news/56004/lamb-of-god-land-their-first-riaa-platinum-single-with-redneck-laid-to-rest-scores-gold/\">Lambgoat</a> · #музика #LambOfGod",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/56004/lamb-of-god-land-their-first-riaa-platinum-single-with-redneck-laid-to-rest-scores-gold/",
+    "orig": "Lamb Of God land their first RIAA Platinum single with \"Redneck\", \"Laid To Rest\" scores Gold"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10006,7 +9998,8 @@
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1795145843.3549738,
-   1795176534.3025072
+   1795176534.3025072,
+   1795217582.003434
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1795073478.9227216,
@@ -10099,10 +10092,10 @@
    1795174346.004332
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1795127561.2740307,
    1795136498.1510923,
    1795149176.8727982,
-   1795156389.765283
+   1795156389.765283,
+   1795217669.092342
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1795213943.3199003
@@ -10110,7 +10103,8 @@
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1795131715.540373,
    1795136487.6679327,
-   1795154651.4965863
+   1795154651.4965863,
+   1795217660.0591006
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1795150925.8390057
@@ -10320,7 +10314,6 @@
   "10074b4f3f21ecac": 1795190540.5025694,
   "1029657e0fde26b1": 1794682854.575637,
   "103bf22e98c61cba": 1794733252.5875175,
-  "104672dae74794fa": 1794007896.8302855,
   "105c9cb2e2d680f8": 1794103287.2780123,
   "107680502cf0baad": 1795113081.8806236,
   "109270637f0d1ea4": 1794488660.3232384,
@@ -10473,6 +10466,7 @@
   "207194a9d8ca693d": 1795158349.1241083,
   "2121df6444c57ece": 1794123081.4127033,
   "21634434a9a2ef38": 1794765655.662173,
+  "21cc50589efc95a4": 1795217454.61787,
   "21ea1ffdc25552cc": 1795091580.1649384,
   "21eb099d4d049c74": 1794564188.1661212,
   "21f107cbc2ffb018": 1794983487.6611924,
@@ -10494,6 +10488,7 @@
   "2427bacb74a96b4b": 1794599661.468905,
   "243d19758b01e2dc": 1794866459.0638292,
   "24437daf95252ce9": 1794740481.6387289,
+  "247257c36ff4af29": 1795217669.0922933,
   "2497e1c3e10ce315": 1795134676.975582,
   "24982a37ef56e1a1": 1794366140.102291,
   "249d2e5ccb170fc4": 1794405782.1863456,
@@ -10623,6 +10618,7 @@
   "33089f1255de174c": 1794799881.619647,
   "33097b39e293d40b": 1794211286.8406339,
   "335086bf8f0c729f": 1794349854.945267,
+  "335d04711017ab53": 1795217474.8411345,
   "338b8e861a7e48c5": 1795147470.2166028,
   "33ad2ccf820a8d69": 1794612694.8043666,
   "33d5b0599d85cf64": 1794029574.2473106,
@@ -10817,6 +10813,7 @@
   "4cb0ce66c92778cb": 1794634298.6207952,
   "4cd881b2588872fc": 1794632474.2095976,
   "4ceecf65844b900d": 1794879091.116545,
+  "4d656bee1ec94875": 1795217454.61787,
   "4d7337ffb2249a2c": 1794902455.1209733,
   "4d7bf9d67afe14a0": 1795095015.9856734,
   "4d949e0f2262087e": 1794882689.8295574,
@@ -10941,7 +10938,6 @@
   "5b97842de015809e": 1795039384.3064091,
   "5ba9b5832ada88ed": 1794682854.575637,
   "5bb8b87955a257ca": 1794218683.4613059,
-  "5bee85a75fc43a55": 1794007873.0432258,
   "5c13f2dd9ebef096": 1794096073.8456311,
   "5c763a38c201ef2e": 1794283284.564199,
   "5c7af98210427b8c": 1794668451.1657076,
@@ -10958,7 +10954,6 @@
   "5ddaa834fe4ebd5f": 1794333654.8439758,
   "5dea7dfa39972259": 1795039386.7471414,
   "5e1c006fb6403377": 1795210255.0325866,
-  "5e1dc6f4a264d48b": 1794007851.551732,
   "5e5879f9c1663ef2": 1795154502.0679226,
   "5e7cec6d99dc7fde": 1794573175.1934233,
   "5ea5112be4e209ac": 1795044680.769061,
@@ -10967,6 +10962,7 @@
   "5ed5ed3e77cdf615": 1795109703.9107819,
   "5edb8565d8bee6c7": 1795167057.8686705,
   "5ee51a2eff4ec69d": 1794904283.7142558,
+  "5ef35868df0d84d4": 1795217660.0590563,
   "5f26c041a43f668b": 1794234687.2555015,
   "5f521b871c88a910": 1795100487.7106519,
   "5f5ac26759d8219c": 1795170655.6016555,
@@ -11381,6 +11377,7 @@
   "8b6fd016fc9d653d": 1794619886.7911649,
   "8b93cfcbd366393c": 1794875490.1073031,
   "8bb9b1bbd3d2ad72": 1794478233.0950007,
+  "8bcb4c9b6a2acf13": 1795217582.0033872,
   "8bcf2251ec335357": 1794990716.128772,
   "8bd933f459bcf3eb": 1794713481.876106,
   "8bf24a55f9bd1032": 1795082840.639321,
@@ -11389,10 +11386,8 @@
   "8c1a3577a904f795": 1794250854.4925213,
   "8c62345f3381e394": 1794216653.1201742,
   "8c7f570572ed014c": 1794209482.3593812,
-  "8cd15a310bffea77": 1794007882.3242717,
   "8cf4ddd7d3cd8e60": 1794238457.9315062,
   "8d0ab631b0d4c66f": 1794927690.37838,
-  "8d0cf00f38071c8d": 1794007892.8830473,
   "8d173dd5584087f6": 1794655879.9927368,
   "8d236ecfaa66bc9e": 1794031281.2427106,
   "8d505fa9b6a387f8": 1795089654.0120451,
@@ -12073,6 +12068,7 @@
   "e266f4e112858e45": 1794378724.7712657,
   "e27acfe916702ec8": 1795194054.9388816,
   "e284f952f14757a2": 1794366148.4089472,
+  "e2bed42139e803bb": 1795217454.61787,
   "e34389c32b33e596": 1794929483.5526125,
   "e34c8acff7681938": 1794114054.0824747,
   "e35567941ebd5072": 1794888085.2273755,
@@ -13501,9 +13497,9 @@
    "Халява": 2
   },
   "filtered": {
-   "/Film": 17,
+   "/Film": 18,
    "Blabbermouth": 1,
-   "Bloomberg": 18,
+   "Bloomberg": 19,
    "Deadline": 11,
    "Decibel": 1,
    "Digital Foundry": 1,
@@ -13523,7 +13519,7 @@
    "Product Hunt": 1,
    "Revolver": 1,
    "The Decoder": 1,
-   "VGC": 50,
+   "VGC": 51,
    "Variety": 14
   },
   "sources": {
@@ -13546,13 +13542,13 @@
    "IndieWire": 11,
    "Insider Gaming": 11,
    "Kerrang!": 4,
-   "Lambgoat": 19,
+   "Lambgoat": 20,
    "Loudwire": 1,
-   "Metal Hammer (Louder)": 18,
+   "Metal Hammer (Louder)": 19,
    "Metal Injection": 1,
    "Mezha": 34,
    "Neformat": 4,
-   "PC Gamer": 12,
+   "PC Gamer": 13,
    "Pitchfork": 4,
    "PlayUA": 6,
    "Polygon": 23,
@@ -13568,10 +13564,10 @@
   },
   "translators": {
    "DeepL": 55,
-   "gemini-flash-latest": 26,
+   "gemini-flash-latest": 28,
    "gemini-flash-lite-latest": 330,
    "gemma-4-26b-a4b-it": 27,
-   "gemma-4-31b-it": 34
+   "gemma-4-31b-it": 35
   },
   "week": "2026-W47"
  },
@@ -14460,6 +14456,11 @@
    1597670,
    "Astralis",
    1793192563.4859629
+  ],
+  "q:auto 6": [
+   0,
+   "",
+   1795217481.3384721
   ],
   "q:auto 6 have director mode": [
    0,
@@ -15366,6 +15367,11 @@
    "FINAL FANTASY",
    1792672326.88277
   ],
+  "q:florida joker": [
+   0,
+   "",
+   1795217475.454624
+  ],
   "q:forbidden zone": [
    2117450,
    "Forbidden zone",
@@ -15570,6 +15576,21 @@
    0,
    "",
    1795100492.060916
+  ],
+  "q:grand theft": [
+   0,
+   "",
+   1795217478.30573
+  ],
+  "q:grand theft auto": [
+   0,
+   "",
+   1795217477.5748367
+  ],
+  "q:grand theft auto 6": [
+   0,
+   "",
+   1795217476.8790252
   ],
   "q:grand theft auto 6 have": [
    0,
@@ -15940,6 +15961,11 @@
    4948290,
    "JOIN",
    1793187188.652792
+  ],
+  "q:joker": [
+   0,
+   "",
+   1795217476.0761154
   ],
   "q:journey": [
    638230,
@@ -17011,6 +17037,21 @@
    "The Odyssey",
    1795179748.360304
   ],
+  "q:theft": [
+   0,
+   "",
+   1795217480.6751075
+  ],
+  "q:theft auto": [
+   0,
+   "",
+   1795217479.8295867
+  ],
+  "q:theft auto 6": [
+   0,
+   "",
+   1795217479.1099753
+  ],
   "q:theft auto 6 have": [
    0,
    "",
@@ -17469,18 +17510,6 @@
   ]
  },
  "titles": [
-  [
-   1795044685.7933085,
-   "Mythless Announce Debut Album Hex: Hear “Brocken Spectre”"
-  ],
-  [
-   1795044693.0253842,
-   "Elon Musk Feels “Pretty Foolish” For Donating Mega-Bucks To Losing MAGA In Midterms"
-  ],
-  [
-   1795044701.4841423,
-   "Elon Musk Admits He Feels ‘Pretty Foolish’ Having Spent Nearly $500 Million on Midterm Election Races Won by Democrats, Claims He Is ‘Not MAGA’"
-  ],
   [
    1795046483.6048717,
    "‘Primetime’ Cinematographer & Editor On Making Robert Pattinson Look Like A “Superhero” & Breakdown Viral Meme Catchphrase"
@@ -18252,21 +18281,21 @@
   [
    1795215770.510029,
    "Impending Doom’s New Single “I Have Seen The Light” Is Now Streaming"
+  ],
+  [
+   1795217582.003389,
+   "Florida Joker gets his wish: He's a 'special voice actor' in Grand Theft Auto 6"
+  ],
+  [
+   1795217660.0590582,
+   "R.E.M. are perfectly happy in the knowledge that they will never, ever reform"
+  ],
+  [
+   1795217669.0922952,
+   "Lamb Of God land their first RIAA Platinum single with \"Redneck\", \"Laid To Rest\" scores Gold"
   ]
  ],
  "titles_uk": [
-  [
-   1795044685.7933092,
-   "Прогресив-рок дует Mythless анонсував дебютний альбом Hex"
-  ],
-  [
-   1795044693.0253851,
-   "Ілон Маск пошкодував про витрату мільйонів на кампанію MAGA"
-  ],
-  [
-   1795044701.484143,
-   "Ілон Маск зізнався, що почувається по-дурному через витрачені на вибори $500 млн"
-  ],
   [
    1795046483.6048725,
    "Оператор і монтажер Primetime розповіли про роботу над фільмом"
@@ -19038,6 +19067,18 @@
   [
    1795215770.5100303,
    "Impending Doom представили новий сингл “I Have Seen The Light”"
+  ],
+  [
+   1795217582.0033898,
+   "«Флоридський Джокер» домігся свого: він став «спеціальним актором озвучення» у Grand Theft Auto 6"
+  ],
+  [
+   1795217660.0590591,
+   "R.E.M. ніколи не об'єднаються знову"
+  ],
+  [
+   1795217669.0922961,
+   "Redneck став першим платиновим синглом у кар'єрі Lamb Of God"
   ]
  ],
  "ukrainian": {
@@ -21102,7 +21143,7 @@
     "discount": 0,
     "name": "TROLLHEIM: GNOMES",
     "price": null,
-    "release": null
+    "release": 1796652000
    },
    "414700": {
     "coming_soon": false,
@@ -21490,7 +21531,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795212410.8433456,
+  "last_check": 1795217678.3490355,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
