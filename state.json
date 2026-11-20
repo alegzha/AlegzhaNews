@@ -1,5 +1,36 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:ai|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: HTTPSConnectionPool(host='alegzhanews.alegzha.workers.dev', port=443): Read timed out. (read ",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1795190537.0253503
+  },
+  "src:games|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: HTTPSConnectionPool(host='alegzhanews.alegzha.workers.dev', port=443): Read timed out. (read ",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1795190512.2344115
+  },
+  "src:games|PlayUA|https://playua.net/feed/": {
+   "detail": "https://playua.net/feed/ → 522 Server Error: <none> for url: https://playua.net/feed/",
+   "label": "Джерело «PlayUA» не працює",
+   "sent": 0,
+   "since": 1795190477.896453
+  },
+  "src:movies|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: HTTPSConnectionPool(host='alegzhanews.alegzha.workers.dev', port=443): Read timed out. (read ",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1795190524.9491146
+  },
+  "src:software|Mezha|https://mezha.ua/feed/": {
+   "detail": "https://mezha.ua/feed/ → 403 напряму; через воркер: HTTPSConnectionPool(host='alegzhanews.alegzha.workers.dev', port=443): Read timed out. (read ",
+   "label": "Джерело «Mezha» не працює",
+   "sent": 0,
+   "since": 1795190524.9796977
+  }
+ },
  "daily_digest_date": "2026-11-19",
  "freebies": {
   "last_check": 1795187035.6469615,
@@ -31,7 +62,7 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-20 15:33 UTC",
+  "at": "2026-11-20 16:03 UTC",
   "gemini_error": "",
   "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
@@ -42,32 +73,6 @@
   ]
  },
  "post_log": [
-  [
-   1794497598.6365545,
-   5750,
-   "💾",
-   "Фонд Кушнера Affinity та Salesforce підтримали квантовий стартап Q-Ctrl у раунді на $290 мільйонів",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-12/kushner-s-affinity-salesforce-back-quantum-startup-q-ctrl-in-290-million-round",
-    "orig": "Kushner’s Affinity, Salesforce Back Quantum Startup Q-Ctrl in $290 Million Round"
-   }
-  ],
-  [
-   1794499279.965827,
-   5751,
-   "💾",
-   "Підтримка Windows 11 23H2 добігає кінця: що робити",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/pidtrymka-windows-11-23h2-dobigaye-kintsya-shho-robyty/",
-    "orig": "Підтримка Windows 11 23H2 добігає кінця: що робити"
-   }
-  ],
   [
    1794501093.185172,
    5752,
@@ -8998,7 +9003,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Agriculture розширюють європейський тур на весну 2027 року, на підтримку виступить Rhododendron</b>\n\nЛос-анджелеський блек-метал-гурт Agriculture анонсував додаткові європейські концерти в статусі хедлайнерів\n\n🔗 <a href=\"https://lambgoat.com/news/55991/agriculture-expand-spring-2027-european-tour-dates-rhododendron-to-support/\">Lambgoat</a> · #музика",
     "kind": "photo",
     "link": "https://lambgoat.com/news/55991/agriculture-expand-spring-2027-european-tour-dates-rhododendron-to-support/",
     "orig": "Agriculture expand Spring 2027 European tour dates, Rhododendron to support"
@@ -9012,7 +9016,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Bentonville Film Festival оголосив дати проведення у 2027 році</b>\n\n13-й кінофестиваль Bentonville Film Festival пройде з 14 по 20 червня 2027 року. Захід, заснований Джиною Девіс, уже третій рік поспіль співпрацюватиме з ініціативою Variety 10 Producers to Watch. Також до ради директорів BFFoundation приєднався колишній регіональний CEO Walmart International Лі Гопкінс.\n\n🔗 <a href=\"https://variety.com/2026/film/news/bentonville-film-festival-2027-dates-1236953811/\">Variety</a> · #кіно_і_серіали #Variety",
     "kind": "text",
     "link": "https://variety.com/2026/film/news/bentonville-film-festival-2027-dates-1236953811/",
     "orig": "Bentonville Film Festival Sets 2027 Dates, Variety’s Producers to Watch Returns for 3rd Year"
@@ -9411,6 +9414,18 @@
      [
       "Polygon",
       "https://www.polygon.com/gta-6leonida-keys-breath-of-the-wild/"
+     ],
+     [
+      "VGC",
+      "https://www.videogameschronicle.com/blog/podcast/podcast-should-your-teenager-play-gta-6/"
+     ],
+     [
+      "GameSpot",
+      "https://www.gamespot.com/articles/gta-7-please-let-gta-6-cook-first-take-two-ceo-says/"
+     ],
+     [
+      "Insider Gaming",
+      "https://insider-gaming.com/niko-bellic-gta-6/"
      ]
     ],
     "caption": "🎮 <b>GTA 6 спричинила рекордний стрибок інтернет-трафіку – стріми зібрали майже 8 млн глядачів</b>\n\nGTA 6 встановила рекорд трафіку в глобальній системі інтернет-вузлів DE-CIX, через які провайдери та онлайн-сервіси обмінюються даними. Паралельно прямі трансляції гри зібрали майже 8 млн одночасних глядачів на Twitch, YouTube, Kick та інших платформах.\n\n🔗 <a href=\"https://mezha.ua/news/gta-6-traffic-records-317407/\">Mezha</a> · #ігри",
@@ -9852,12 +9867,41 @@
     "link": "https://www.gamespot.com/articles/these-pokemon-anniversary-fender-guitars-have-a-secret-weapon-game-boy-sounds/",
     "orig": "These Pokemon Anniversary Fender Guitars Have A Secret Weapon: Game Boy Sounds"
    }
+  ],
+  [
+   1795190541.010356,
+   6507,
+   "🤖",
+   "Світ в епоху ШІ: 27 листопада відбудеться безоплатна конференція ШТУКА",
+   "AIN.ua",
+   {
+    "also": [],
+    "caption": "🤖 <b>Світ в епоху ШІ: 27 листопада відбудеться безоплатна конференція ШТУКА</b>\n\n27 листопада на безоплатній онлайн-конференції «ШТУКА» розберуть практичне впровадження ШІ в українському бізнесі. У програмі — кейси автоматизації процесів, використання віртуальних працівників, юридичні ризики та зміни в креативних індустріях. Захід пройде на платформі CASES.\n\n🔗 <a href=\"https://ain.ua/2026/11/20/svit-v-epoxu-si-27-listopada-vidbudetsia-bezoplatna-konferenciia-shtuka/\">AIN.ua</a> · #ШІ",
+    "kind": "photo",
+    "link": "https://ain.ua/2026/11/20/svit-v-epoxu-si-27-listopada-vidbudetsia-bezoplatna-konferenciia-shtuka/",
+    "orig": "Світ в епоху ШІ: 27 листопада відбудеться безоплатна конференція ШТУКА"
+   }
+  ],
+  [
+   1795190633.3558867,
+   6508,
+   "🎮",
+   "Розробники Star Wars: Galactic Racer здивовані популярністю Biddy Blas",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Розробники <a href=\"https://store.steampowered.com/app/4078430/\">Star Wars: Galactic Racer</a> здивовані популярністю Biddy Blas</b>\n🕹 <a href=\"https://store.steampowered.com/app/4078430/\">STAR WARS: Galactic Racer™</a> — 1 390,00₴\n\nПерсонаж Biddy Blas із гри Star Wars: Galactic Racer став віральним завдяки своєму образу та озвучці Річарда Саммерс-Калверта. Розробники з Fuse Games та наративний дизайнер Рен Алекс-Роуз зізналися, що не очікували такої популярності героя. Успіх помітив і продюсер Lucasfilm Крейг Деррік.\n\n🔗 <a href=\"https://www.eurogamer.net/biddy-blas-star-wars-galactic-racer-viral-scrib-doon\">Eurogamer</a> · #ігри #StarWarsGalacticRacer",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/biddy-blas-star-wars-galactic-racer-viral-scrib-doon",
+    "orig": "Star Wars: Galactic Racer studio \"didn't dream\" Biddy Blas would be as popular as he is"
+   }
   ]
  ],
  "posted_by_source": {
   "ai|AIN.ua|https://ain.ua/feed/": [
    1795114889.6052532,
-   1795114891.4271486
+   1795114891.4271486,
+   1795190541.010601
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
    1795106159.1351364,
@@ -9909,8 +9953,7 @@
    1794756680.6637075
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1795082840.639365,
-   1795094373.6263576
+   1795190633.35624
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1795188781.189875
@@ -10123,6 +10166,7 @@
   "00f9839cfa634fa4": 1794254454.641067,
   "011688b9e1d4dd5b": 1795125675.98536,
   "012e35da599c0051": 1794499279.9660673,
+  "0133f0fd14f007b2": 1795190541.0105524,
   "01535d7089aa4e8a": 1793993481.1960783,
   "017a06c6e66a0ea4": 1795094042.94041,
   "01ddf7996eecafe4": 1794870118.6987584,
@@ -10253,6 +10297,7 @@
   "0ff24f09d1e42fea": 1795160042.8999865,
   "0ffc31cda43a6c46": 1794267164.5733147,
   "1004f5b1d037c0c2": 1794908254.4516182,
+  "10074b4f3f21ecac": 1795190540.5025694,
   "1029657e0fde26b1": 1794682854.575637,
   "103bf22e98c61cba": 1794733252.5875175,
   "104672dae74794fa": 1794007896.8302855,
@@ -10306,6 +10351,7 @@
   "152daa25e42033b6": 1795041101.017265,
   "154aa465ecbcfd2c": 1794240058.5109377,
   "1555ed6bcb1233ac": 1794999745.7375064,
+  "156a05f5148430a3": 1795190539.4530833,
   "15949ec6496d1bb4": 1795109457.1504688,
   "15aa8dd812510738": 1795163481.3206105,
   "15d104ab2ce02372": 1794200482.770165,
@@ -10426,7 +10472,6 @@
   "23da551222d5fdb0": 1794711880.0208218,
   "23e197de8cc58353": 1795156299.3821158,
   "23e328a2c6f8544b": 1794702682.9902213,
-  "2412e135eaf937ab": 1793980856.010392,
   "2427bacb74a96b4b": 1794599661.468905,
   "243d19758b01e2dc": 1794866459.0638292,
   "24437daf95252ce9": 1794740481.6387289,
@@ -10669,6 +10714,7 @@
   "4198c3a801068762": 1794025884.9886954,
   "41af9493af0cf53b": 1794526281.7948456,
   "41baea658257f510": 1794016922.9356942,
+  "41c9551765274204": 1795190539.9781833,
   "41d7065499eb23df": 1794274276.3566425,
   "41db8d6b264a6329": 1794621696.949433,
   "42193120745a619e": 1794286884.7511115,
@@ -11044,6 +11090,7 @@
   "6d7256b3d37860cb": 1794002498.595903,
   "6d934b84dca27339": 1794610969.0439706,
   "6d9766d36aa95310": 1794461483.076698,
+  "6dbbef7fcf0697c1": 1795190538.9666822,
   "6df1c951d5f0d9f4": 1794898974.3085027,
   "6e2efce20f5c97f7": 1795114863.5731728,
   "6e4a00ba66338ddb": 1794081653.3860815,
@@ -11082,6 +11129,7 @@
   "7203879df98082f0": 1794038484.768283,
   "7231e211057f6b69": 1794015092.7640433,
   "723d1511bd3c62da": 1795041093.900804,
+  "72586569a7e3b78e": 1795190538.9688873,
   "7265652a5266f6fb": 1794906178.1197684,
   "726b61922e287429": 1794520890.0403724,
   "731362751099257f": 1794099679.2837117,
@@ -11093,12 +11141,12 @@
   "73f7c83e86ab8527": 1795005060.1889544,
   "73f808e389f1dfe2": 1795001473.3824723,
   "74366967f6c12f50": 1794731759.329611,
-  "7440232213c89728": 1793980856.010392,
   "74475f1dd230d5f8": 1794538904.75987,
   "7460749f72a7b576": 1794931254.6249342,
   "748b6844c2215731": 1794992487.6648252,
   "748c8f3fc6d8603e": 1794409282.7311387,
   "74a336f847aa8827": 1795046483.6048703,
+  "74bd8ac67faf67b8": 1795190456.7331672,
   "74bda49a8cd3e751": 1794186046.0341835,
   "74cba7f3f72cc622": 1794954714.2421255,
   "750c0d353a678d66": 1794047073.860808,
@@ -11109,7 +11157,6 @@
   "753d8f1edf32327b": 1794726080.5770595,
   "75623b38e68bd27d": 1795028501.1025891,
   "756c071b94f82ef2": 1795149079.6961665,
-  "756fea5f4f010445": 1793980856.010392,
   "7583bad40a001f67": 1794682854.575637,
   "7585948070781853": 1794119517.775772,
   "75a6e0d290b5ff4e": 1794094374.1912565,
@@ -11260,7 +11307,6 @@
   "8586e6dd4786edf4": 1795179654.744277,
   "85918bf3877587ac": 1795126079.981354,
   "85931a406daa451e": 1794996185.3027115,
-  "859ee2f273ce2c78": 1793980856.010392,
   "85e411e342226a52": 1794648773.5512936,
   "86727e9c9805d2e2": 1794105082.1815956,
   "869876234a931020": 1794958255.0754318,
@@ -11362,7 +11408,6 @@
   "91c776c9d6c04a8f": 1794052875.925719,
   "91d72bcce28cf6a9": 1794695679.6208858,
   "920f86ea3f72befe": 1794089056.8419774,
-  "9231336d2e761cf2": 1793980856.010392,
   "92394219fcd474c6": 1794182587.1580834,
   "924154c52b2e946d": 1795059077.2800844,
   "924ce5d82a4e8e4e": 1794454288.0356266,
@@ -11507,6 +11552,7 @@
   "a4c265c1e61f0eae": 1794353367.763071,
   "a4e3b24e889e8164": 1794826980.8674247,
   "a4e68d0b01ab1f3c": 1795048339.1115296,
+  "a5248f6ddd2f8f3b": 1795190456.7331672,
   "a52f8bdaf00a9610": 1795051875.3415005,
   "a5433ee88c25ff65": 1794682854.575637,
   "a54a5de50b86e841": 1794759968.2490451,
@@ -11909,7 +11955,6 @@
   "d6e8809ef645f2a6": 1794834056.1069303,
   "d7130c18b2a5fd4f": 1795026653.649315,
   "d739b29f104302be": 1794893459.6418285,
-  "d74e5733fb0acfb7": 1793980886.2638364,
   "d74e8a8e22fe3ac6": 1794418292.0812464,
   "d771592a333cd07a": 1794510083.4754808,
   "d77ee0a9e36b7d97": 1794153732.7842033,
@@ -11986,6 +12031,7 @@
   "e0f942506a8a6943": 1794097887.8733616,
   "e0ff9411e353d849": 1794466941.6055038,
   "e100efa2f2ede575": 1795042855.9275043,
+  "e1151e856867ad55": 1795190456.7331672,
   "e1279056e5abb540": 1794090690.3268855,
   "e14368474ed13847": 1794286878.3594763,
   "e15b553e45986df7": 1794695682.7557752,
@@ -12060,7 +12106,6 @@
   "eb2b9038a4a7bdd2": 1794637880.8277705,
   "eb35f1a36445ebec": 1794517281.0573595,
   "eb43ab51e57b7b12": 1794006142.9397428,
-  "eb5873f55e782521": 1793980881.465091,
   "eb7188a71c381305": 1795100487.7141306,
   "eb753eb5901ab2c2": 1794431111.1529963,
   "eb85283cf01e7e50": 1794999653.1275568,
@@ -12132,6 +12177,7 @@
   "f52454ddc256a82d": 1794396687.6364672,
   "f52ce957eaf0a478": 1795006853.2084172,
   "f53325a92664d362": 1794646997.4718451,
+  "f54418d5d572ba39": 1795190538.9674985,
   "f579a8b76f33fba1": 1794794853.2285511,
   "f5973a9ac4e9ddd1": 1794488672.1793375,
   "f599bebe389ca693": 1794137476.1202834,
@@ -12185,6 +12231,7 @@
   "fa912ca9995e3b84": 1794069054.1396751,
   "fab23470f7ba7ec4": 1794243688.411807,
   "fac040f82bdf2c83": 1794913442.2737758,
+  "fac52a1283045840": 1795190633.3561904,
   "faf21b410aec80ad": 1794782159.160077,
   "fb04c0b514602955": 1794391339.6765509,
   "fb10ee13be5ad53d": 1795012267.0331166,
@@ -12198,7 +12245,6 @@
   "fc1d231f506810a3": 1794600173.2371047,
   "fc1f08036e4f049f": 1794522780.586601,
   "fc35742e83aa346d": 1794907889.419431,
-  "fc3d9dddd681abd5": 1793980856.010392,
   "fc6c62dc15431a53": 1794389502.144764,
   "fc90c750e381c97b": 1794092486.2020237,
   "fc90c941bfca0cb5": 1794589273.877405,
@@ -13443,22 +13489,22 @@
    "PC Gamer": 18,
    "Pitchfork": 2,
    "PlayUA": 1,
-   "Polygon": 44,
+   "Polygon": 46,
    "Product Hunt": 1,
    "The Decoder": 1,
-   "VGC": 45,
+   "VGC": 46,
    "Variety": 13
   },
   "sources": {
    "/Film": 16,
-   "AIN.ua": 4,
+   "AIN.ua": 5,
    "Blabbermouth": 4,
    "Bloomberg": 36,
    "DOU": 4,
    "DOU Gamedev": 6,
    "Deadline": 68,
    "Distorted Sound": 5,
-   "Eurogamer": 6,
+   "Eurogamer": 7,
    "GameSpot": 4,
    "GamesIndustry.biz": 12,
    "GitHub Trending": 29,
@@ -13492,7 +13538,7 @@
    "gemini-flash-latest": 26,
    "gemini-flash-lite-latest": 320,
    "gemma-4-26b-a4b-it": 24,
-   "gemma-4-31b-it": 28
+   "gemma-4-31b-it": 29
   },
   "week": "2026-W47"
  },
@@ -14457,6 +14503,16 @@
    "Betrayed",
    1792776758.0281951
   ],
+  "q:biddy": [
+   0,
+   "",
+   1795190544.381897
+  ],
+  "q:biddy blas": [
+   0,
+   "",
+   1795190543.751636
+  ],
   "q:bill": [
    1897470,
    "Bill",
@@ -14471,6 +14527,11 @@
    523070,
    "Black Forest",
    1794438094.304574
+  ],
+  "q:blas": [
+   0,
+   "",
+   1795190544.9472337
   ],
   "q:blood": [
    0,
@@ -14941,6 +15002,11 @@
    2344520,
    "Diablo® IV",
    1793044912.647966
+  ],
+  "q:didn": [
+   0,
+   "",
+   1795190543.2137933
   ],
   "q:digital fairness": [
    0,
@@ -17291,14 +17357,6 @@
  },
  "titles": [
   [
-   1795017715.7298636,
-   "NYC Comptroller Says Pensions Are Ready to Fight for AI Safety"
-  ],
-  [
-   1795017717.6111534,
-   "MacPaw представила застосунок Moonlock для захисту iPhone від шахрайства"
-  ],
-  [
    1795019563.0063174,
    "Viral Patel on AI’s Investment Boom"
   ],
@@ -18033,17 +18091,17 @@
   [
    1795188781.1898353,
    "These Pokemon Anniversary Fender Guitars Have A Secret Weapon: Game Boy Sounds"
+  ],
+  [
+   1795190541.010554,
+   "Світ в епоху ШІ: 27 листопада відбудеться безоплатна конференція ШТУКА"
+  ],
+  [
+   1795190633.3561924,
+   "Star Wars: Galactic Racer studio \"didn't dream\" Biddy Blas would be as popular as he is"
   ]
  ],
  "titles_uk": [
-  [
-   1795017715.7298646,
-   "Фінансовий контролер Нью-Йорка заявив про готовність пенсійних фондів боротися за безпеку ШІ"
-  ],
-  [
-   1795017717.6111543,
-   "MacPaw представила застосунок Moonlock для захисту iPhone від шахрайства"
-  ],
   [
    1795019563.006318,
    "Вірал Пател вважає, що інвестиційний бум у сфері ШІ лише прискорюється"
@@ -18779,6 +18837,14 @@
   [
    1795188781.189836,
    "Fender випустила електрогітари до 30-річчя Pokemon"
+  ],
+  [
+   1795190541.0105548,
+   "Світ в епоху ШІ: 27 листопада відбудеться безоплатна конференція ШТУКА"
+  ],
+  [
+   1795190633.3561933,
+   "Розробники Star Wars: Galactic Racer здивовані популярністю Biddy Blas"
   ]
  ],
  "ukrainian": {
