@@ -31,31 +31,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-20 20:03 UTC",
-  "gemini_error": "",
+  "at": "2026-11-20 20:31 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
-   "gemma-4-31b-it": 1
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794513766.4616046,
-   5765,
-   "🤖",
-   "Google випустила швидку ШІ-модель Gemini 4 Hydrogen",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/googles-gemini-4-hydrogen-outscores-the-bigger-argon-just-four-weeks-after-its-launch/",
-    "orig": "Google's Gemini 4 Hydrogen outscores the bigger Argon just four weeks after its launch"
-   }
-  ],
   [
    1794517281.057089,
    5766,
@@ -9059,7 +9045,6 @@
    "Metal Injection",
    {
     "also": [],
-    "caption": "🤘 <b>Rammstein представили нове лайв-відео на “Du Hast” зі свого концертного фільму</b>\n🎧 Слухати: <a href=\"https://open.spotify.com/search/Rammstein%20Du%20Hast\">Spotify</a> · <a href=\"https://music.youtube.com/search?q=Rammstein%20Du%20Hast\">YouTube Music</a>\n\nСупровідний альбом до &#x27;Rammstein—Live In Mexico City&#x27; вийде вже завтра, 20 листопада\n\n🔗 <a href=\"https://metalinjection.net/news/watch-rammstein-debut-new-live-video-for-du-hast-from-their-concert-film\">Metal Injection</a> · #музика",
     "kind": "photo",
     "link": "https://metalinjection.net/news/watch-rammstein-debut-new-live-video-for-du-hast-from-their-concert-film",
     "orig": "Watch: Rammstein Debut New Live Video for “Du Hast” From Their Concert Film"
@@ -9925,6 +9910,20 @@
     "link": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
     "orig": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats"
    }
+  ],
+  [
+   1795206685.5014908,
+   6525,
+   "🤖",
+   "Через ШІ в Китаї робочі місця для творчих професій скорочуються швидше",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Через ШІ в Китаї робочі місця для творчих професій скорочуються швидше</b>\n\nАналіз 10 мільйонів вакансій від Bloomberg показує, що ШІ посилює кризу на ринку праці в Китаї. Найбільше постраждали новачки та креативна індустрія: понад 90% китайських мікросеріалів тепер створюють за допомогою ШІ. Ексрадник центробанку Цай Фан попереджає, що справжній удар від ШІ ще попереду.\n\n🔗 <a href=\"https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/\">The Decoder</a> · #ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
+    "orig": "Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9962,7 +9961,8 @@
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1795186954.2942967,
    1795201509.5377302,
-   1795204965.5333762
+   1795204965.5333762,
+   1795206685.501737
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1793370738.9416513
@@ -10425,7 +10425,6 @@
   "1b5f24084fc7c8e9": 1794682880.5039337,
   "1b5f67b1ccd5395d": 1795041064.5826335,
   "1b78899bfafd4225": 1794796282.9013186,
-  "1b804471ef8befe5": 1793995470.1772337,
   "1b947bd0d3d40d1a": 1794115973.2950494,
   "1bb91ef6ce0f7547": 1794720679.803682,
   "1bc693cb0759f732": 1794355280.5712426,
@@ -10597,7 +10596,6 @@
   "304278cd392fc64a": 1794886276.8368862,
   "3050b81b2afc935c": 1794114087.9284823,
   "3069cdb6ed9f5e99": 1795084273.2507288,
-  "3075ca301b8d7fbc": 1793997084.0037012,
   "307e4c6031127188": 1794277896.9373963,
   "3080bbfdb9ec726a": 1794097884.914067,
   "30879e84663167fd": 1794463281.617446,
@@ -10924,7 +10922,6 @@
   "5a76f8dd334f572b": 1794744158.3046794,
   "5a7f3db70cdaee86": 1794879184.689089,
   "5a816630502b807b": 1795172717.2839258,
-  "5abb7a3213532432": 1793997057.807581,
   "5ac13cd68b665ef0": 1794825090.6416328,
   "5ac3f5eba4489a81": 1794666690.1784606,
   "5ad23f0e2e10f315": 1794562760.8284698,
@@ -11127,7 +11124,6 @@
   "6f178363e8577792": 1795005060.1889544,
   "6f6ba225786f87fd": 1794393116.6743698,
   "6f6c81e4591e1edb": 1794925901.6156065,
-  "6f922ec7366aa3ab": 1793995467.0008996,
   "6fa4a4e4dd853d59": 1794970885.2558308,
   "6fff152cf8328746": 1794868254.5337205,
   "70248a09d92ab732": 1794661254.0536256,
@@ -11691,7 +11687,6 @@
   "b2356d340e22b114": 1794020481.8517892,
   "b24d247460104a0c": 1794868447.5765305,
   "b2781f35e5635fe0": 1794695766.841244,
-  "b2936c94fa8b7e68": 1793997083.4253402,
   "b29c6b619b90c5e0": 1795100487.7136989,
   "b2ab5f466f389324": 1794193456.5206633,
   "b2df06db8a663c87": 1795002863.2457044,
@@ -11717,6 +11712,7 @@
   "b4f0f039e17803ca": 1795096853.5346801,
   "b547abf34cacf5b9": 1794983478.4929273,
   "b54d065cbac029c7": 1794839482.7781298,
+  "b557cf01bc22033d": 1795206572.6487815,
   "b58555f0eedbea5b": 1795134763.1663706,
   "b5b0ef89bd92326a": 1795098686.462664,
   "b6058558c0e5bec3": 1794542572.18445,
@@ -11909,6 +11905,7 @@
   "ceaf5fd4dacc056a": 1794348093.4650974,
   "cebbae4c9350a4e5": 1794020483.733578,
   "ced815f20d655e65": 1795145477.1130702,
+  "cefa48c4af768819": 1795206685.5016928,
   "cf0ec131048bd80e": 1794232935.785287,
   "cf11e0992e782c18": 1794668477.2772527,
   "cf4063d4e2f35a90": 1794891689.151488,
@@ -11990,7 +11987,6 @@
   "d7e0041cb0d0190d": 1794119514.645607,
   "d8360780c2f45960": 1794886275.4924657,
   "d85ff52f939a4c86": 1794436312.336284,
-  "d8bc5671d00617ad": 1793997057.807581,
   "d8dccb1b6ab26e42": 1794961858.7937615,
   "d8df33447ec0af9c": 1795183259.032751,
   "d8e38acab3d9284f": 1795104054.405295,
@@ -13506,7 +13502,7 @@
    "Decibel": 1,
    "Digital Foundry": 1,
    "GameSpot": 3,
-   "GamesIndustry.biz": 3,
+   "GamesIndustry.biz": 4,
    "IGN": 18,
    "ITC.ua": 1,
    "Insider Gaming": 55,
@@ -13557,7 +13553,7 @@
    "Rock Paper Shotgun": 12,
    "SteamDB": 1,
    "Stereogum": 4,
-   "The Decoder": 15,
+   "The Decoder": 16,
    "ThePRP": 10,
    "VGC": 9,
    "Variety": 27
@@ -13565,7 +13561,7 @@
   "translators": {
    "DeepL": 53,
    "gemini-flash-latest": 26,
-   "gemini-flash-lite-latest": 326,
+   "gemini-flash-lite-latest": 327,
    "gemma-4-26b-a4b-it": 25,
    "gemma-4-31b-it": 32
   },
@@ -18219,6 +18215,10 @@
   [
    1795204965.5333316,
    "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats"
+  ],
+  [
+   1795206685.5016944,
+   "Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others"
   ]
  ],
  "titles_uk": [
@@ -18997,6 +18997,10 @@
   [
    1795204965.5333328,
    "Signal блокує знімки екрана на iOS та Android через загрозу від ШІ"
+  ],
+  [
+   1795206685.5016952,
+   "Через ШІ в Китаї робочі місця для творчих професій скорочуються швидше"
   ]
  ],
  "ukrainian": {
