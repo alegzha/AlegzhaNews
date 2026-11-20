@@ -1,6 +1,6 @@
 {
  "alerts": {},
- "daily_digest_date": "2026-11-19",
+ "daily_digest_date": "2026-11-20",
  "freebies": {
   "last_check": 1795195946.88276,
   "seen": {
@@ -31,11 +31,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-20 18:34 UTC",
+  "at": "2026-11-20 19:06 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemma-4-31b-it",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
+   "gemini-flash-lite-latest": 2,
    "gemma-4-31b-it": 1
   },
   "used": [
@@ -43,32 +43,6 @@
   ]
  },
  "post_log": [
-  [
-   1794510080.6112711,
-   5760,
-   "🤖",
-   "В Австралії планують зобов'язати розробників передових моделей ШІ проходити незалежне тестування",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/australias-proposed-ai-safety-bill-would-force-frontier-model-makers-to-open-up-to-independent-testing/",
-    "orig": "Australia's proposed AI safety bill would force frontier model makers to open up to independent testing"
-   }
-  ],
-  [
-   1794510083.4752438,
-   5761,
-   "🤖",
-   "Фінансування сфери ШІ залишається стабільним попри ситуацію з Nvidia",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/videos/2026-11-12/ai-financing-strong-despite-nvidia-rosenbaum-video",
-    "orig": "AI Financing Strong Despite Nvidia: Rosenbaum"
-   }
-  ],
   [
    1794511876.8842022,
    5763,
@@ -9033,7 +9007,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Не переймайтеся тим, щоб зібрати все в грі <a href=\"https://store.steampowered.com/app/1799840/\">Queen&#x27;s Domain</a>: з часом ви отримаєте інструменти, які допоможуть знайти приховані скарби</b>\n🕹 <a href=\"https://store.steampowered.com/app/1799840/\">Queen&#x27;s Domain</a> — 470,00₴\n\nЗбери їх усіх — рано чи пізно\n\n🔗 <a href=\"https://www.pcgamer.com/games/rpg/dont-stress-about-collectathon-completionism-in-queens-domain-it-eventually-gives-you-tools-to-help-find-hidden-treasures/\">PC Gamer</a> · #ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/rpg/dont-stress-about-collectathon-completionism-in-queens-domain-it-eventually-gives-you-tools-to-help-find-hidden-treasures/",
     "orig": "Don't stress about collectathon completionism in Queen's Domain: It eventually gives you tools to help find hidden treasures"
@@ -9047,7 +9020,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Суд вирішує, чи дозволити закрити Kennedy Center на реновацію</b>\n\nФедеральний суддя Крістофер Купер має визначити, чи може Kennedy Center закритися на два роки для проведення ремонтних робіт. Опозиція на чолі з Джойс Бітті побоюється, що це може призвести до знесення комплексу Дональдом Трампом. Наразі головна будівля закрита з міркувань безпеки через обвалення частини стелі.\n\n🔗 <a href=\"https://deadline.com/2026/11/kennedy-center-closure-judge-injunction-trump-1237229582/\">Deadline</a> · #кіно_і_серіали #KennedyCenter",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/kennedy-center-closure-judge-injunction-trump-1237229582/",
     "orig": "Judge Weighs Whether To Allow Kennedy Center To Proceed With Closure Plan"
@@ -9899,6 +9871,34 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-20/microsoft-to-pay-top-cloud-workers-more-crack-down-on-others",
     "orig": "Microsoft to Pay Top Cloud Workers More, Crack Down on Others"
    }
+  ],
+  [
+   1795201370.9809103,
+   6518,
+   "💾",
+   "Хмарна компанія CloudFerro розглядає можливість IPO у Варшаві",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "💾 <b>Хмарна компанія CloudFerro розглядає можливість IPO у Варшаві</b>\n\nПольський провайдер хмарної інфраструктури CloudFerro SA планує вихід на біржу у Варшаві вже наступного року.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-20/cloud-infrastructure-firm-cloudferro-is-said-to-weigh-warsaw-ipo\">Bloomberg</a> · #софт",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-20/cloud-infrastructure-firm-cloudferro-is-said-to-weigh-warsaw-ipo",
+    "orig": "Cloud Infrastructure Firm CloudFerro Is Said to Weigh Warsaw IPO"
+   }
+  ],
+  [
+   1795201509.5374713,
+   6519,
+   "🤖",
+   "Gemini від Google тепер керує програмами на Mac у фоновому режимі",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Gemini від Google тепер керує програмами на Mac у фоновому режимі</b>\n\nGoogle представив функцію Computer Use для Gemini на Mac, яка дозволяє ШІ виконувати багатоетапні завдання в локальних файлах, програмах і вебсайтах. Процес відбувається в окремому вікні, щоб не заважати користувачеві, а доступ до додатків та ключові дії контролюються людиною. Функція вже доступна англійською мовою в США.\n\n🔗 <a href=\"https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/\">The Decoder</a> · #ШІ #Google #Gemini",
+    "kind": "photo",
+    "link": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
+    "orig": "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9936,10 +9936,8 @@
    1795127474.221873
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
-   1795109701.6311476,
-   1795111374.2384024,
-   1795113258.7373333,
-   1795186954.2942967
+   1795186954.2942967,
+   1795201509.5377302
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1793370738.9416513
@@ -10124,7 +10122,8 @@
   ],
   "software|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
    1795141499.5975342,
-   1795199629.0622773
+   1795199629.0622773,
+   1795201370.9811456
   ],
   "software|DOU|https://dou.ua/feed/": [
    1794843085.3208008
@@ -10890,7 +10889,6 @@
   "5936ac056f3e67e0": 1794150169.541632,
   "594a7880d7954e73": 1794240087.6773205,
   "594ea04fa2a1fdf5": 1794646968.0431976,
-  "59761c970629b9bf": 1793991653.8628635,
   "59b842e896ed4bb1": 1795087856.688431,
   "59c5dbff26ef0145": 1794027792.2215495,
   "59e542e3e2ca7d61": 1794528079.523132,
@@ -10977,14 +10975,13 @@
   "624a8efcb627a89a": 1794322888.132793,
   "624b7bda5081baab": 1794846655.2895768,
   "624c16a98abfb6b8": 1794759968.2490451,
-  "626a2cba4784cbfb": 1793991653.8628635,
   "62a7555008ce43d9": 1794742362.40263,
   "62b226ac36663dad": 1795084273.251863,
   "62c6ced8a6ea6559": 1794637883.8932354,
-  "62e2e3eeb21fce9d": 1793991681.3611515,
   "62f4248c3e246268": 1794209485.6089444,
   "6313b76326a66d9a": 1794094467.743985,
   "631e8e478b15f9d2": 1794285082.7906053,
+  "6321868b6dedc5b3": 1795201253.256003,
   "6390b50884d7428a": 1795150855.389229,
   "63c6d8ee314361d5": 1794054694.1623435,
   "63c6eae86c1e97a9": 1795106159.1350882,
@@ -11030,6 +11027,7 @@
   "68321c890662ccae": 1794985293.465611,
   "6832b6cb9697ac09": 1794533481.1353736,
   "6832d00d5055987f": 1794630680.5273528,
+  "6868028639bb0d78": 1795201253.256003,
   "688295274d88c736": 1794443492.7068605,
   "688ef3f2dc4b3697": 1794747655.1469178,
   "689c1996862c7e40": 1794463287.9110885,
@@ -11066,6 +11064,7 @@
   "6abd2f5eef76c8b8": 1794634255.263127,
   "6ad3b63ac5f73385": 1794580255.5600233,
   "6b1473eb7f420026": 1794061897.4784827,
+  "6b443038782082d8": 1795201509.537692,
   "6b55fa25bf5d35d1": 1794803489.1798482,
   "6ba2e766eedfc30a": 1794200479.2527332,
   "6ba3a23fa211ace0": 1794866643.4631548,
@@ -11313,6 +11312,7 @@
   "869876234a931020": 1794958255.0754318,
   "869a19de6ce619a1": 1794202257.9998238,
   "87006c8374bde079": 1795152754.8605757,
+  "87030049f7ce6f3f": 1795201253.256003,
   "874ddd2827fff652": 1795181712.698616,
   "878e9d7dd121471d": 1794619881.9929366,
   "87a40d47e47bd1ff": 1794002456.467597,
@@ -11537,7 +11537,6 @@
   "a2b120d65f0e323a": 1795094964.3119497,
   "a2d58b2918cbeec6": 1794207703.0176299,
   "a2dec32411360930": 1795094014.6517174,
-  "a2e7b3a9159fc601": 1793991681.941497,
   "a32dd0353bd4cb08": 1794204176.4404714,
   "a36a26d296b8606a": 1794405831.1688273,
   "a39149cdea547c57": 1794873694.242586,
@@ -12011,6 +12010,7 @@
   "de360b2f10f9e08c": 1795195937.4424798,
   "de50248ee731c2a4": 1795165321.8502262,
   "de87ead1d615e446": 1794106852.4088318,
+  "deb358d0f00bd4f7": 1795201370.9811132,
   "debb052e03097dcf": 1795185082.072191,
   "dec170f4b484dcb6": 1794511879.1530688,
   "dec4699ec03595d3": 1794063720.07867,
@@ -12208,7 +12208,6 @@
   "f7dfba137cf6e7fc": 1794387773.8866594,
   "f804720e6fdb4373": 1794607286.0108721,
   "f83db0331ff8590e": 1794225780.2382436,
-  "f84cce9069954581": 1793991693.880322,
   "f857e39141f21e8a": 1794353473.935522,
   "f863c741bb7ae143": 1794369694.5400813,
   "f867e5218e752d33": 1795014053.3303049,
@@ -13477,7 +13476,7 @@
   "filtered": {
    "/Film": 17,
    "Blabbermouth": 1,
-   "Bloomberg": 16,
+   "Bloomberg": 17,
    "Deadline": 11,
    "Decibel": 1,
    "Digital Foundry": 1,
@@ -13489,20 +13488,21 @@
    "Lambgoat": 1,
    "Loudwire": 4,
    "Metal Hammer (Louder)": 3,
+   "Metal Injection": 1,
    "PC Gamer": 19,
    "Pitchfork": 2,
    "PlayUA": 1,
    "Polygon": 48,
    "Product Hunt": 1,
    "The Decoder": 1,
-   "VGC": 47,
+   "VGC": 48,
    "Variety": 13
   },
   "sources": {
    "/Film": 16,
    "AIN.ua": 6,
    "Blabbermouth": 4,
-   "Bloomberg": 38,
+   "Bloomberg": 39,
    "DOU": 4,
    "DOU Gamedev": 6,
    "Deadline": 68,
@@ -13532,7 +13532,7 @@
    "Rock Paper Shotgun": 12,
    "SteamDB": 1,
    "Stereogum": 4,
-   "The Decoder": 13,
+   "The Decoder": 14,
    "ThePRP": 10,
    "VGC": 9,
    "Variety": 27
@@ -13540,9 +13540,9 @@
   "translators": {
    "DeepL": 53,
    "gemini-flash-latest": 26,
-   "gemini-flash-lite-latest": 323,
+   "gemini-flash-lite-latest": 325,
    "gemma-4-26b-a4b-it": 25,
-   "gemma-4-31b-it": 30
+   "gemma-4-31b-it": 31
   },
   "week": "2026-W47"
  },
@@ -16532,11 +16532,6 @@
    "",
    1795145477.6961274
   ],
-  "q:rayman legends retold": [
-   4084710,
-   "Rayman Legends Retold",
-   1792607495.2570462
-  ],
   "q:rayneo": [
    0,
    "",
@@ -17450,10 +17445,6 @@
  },
  "titles": [
   [
-   1795028501.102591,
-   "Why your fine-tuning job takes longer than the FLOPs say"
-  ],
-  [
    1795039284.2790318,
    "Battlesnake’s New Single “Mud Wife” Arrives"
   ],
@@ -18204,13 +18195,17 @@
   [
    1795199629.0622368,
    "Microsoft to Pay Top Cloud Workers More, Crack Down on Others"
+  ],
+  [
+   1795201370.9811146,
+   "Cloud Infrastructure Firm CloudFerro Is Said to Weigh Warsaw IPO"
+  ],
+  [
+   1795201509.5376937,
+   "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working"
   ]
  ],
  "titles_uk": [
-  [
-   1795028501.1025918,
-   "Чому розрахунки через FLOPs не прогнозують точний час доопрацювання моделей"
-  ],
   [
    1795039284.2790325,
    "Battlesnake випустили новий сингл “Mud Wife”"
@@ -18962,6 +18957,14 @@
   [
    1795199629.0622377,
    "Microsoft прив'язує зарплати в хмарному підрозділі до результатів роботи"
+  ],
+  [
+   1795201370.981115,
+   "Хмарна компанія CloudFerro розглядає можливість IPO у Варшаві"
+  ],
+  [
+   1795201509.5376945,
+   "Gemini від Google тепер керує програмами на Mac у фоновому режимі"
   ]
  ],
  "ukrainian": {
