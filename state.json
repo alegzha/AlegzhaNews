@@ -1,15 +1,8 @@
 {
- "alerts": {
-  "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
-   "detail": "https://distortedsoundmag.com/feed/ → HTTPSConnectionPool(host='distortedsoundmag.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «Distorted Sound» не працює",
-   "sent": 0,
-   "since": 1795159888.0931778
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-19",
  "freebies": {
-  "last_check": 1795156391.3482826,
+  "last_check": 1795163853.4161673,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -38,44 +31,15 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-20 08:07 UTC",
+  "at": "2026-11-20 08:37 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemma-4-26b-a4b-it",
-  "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 1
-  },
+  "gemini_model": null,
+  "gemini_models_used": {},
   "used": [
-   "DeepL",
-   "Gemini"
+   "DeepL"
   ]
  },
  "post_log": [
-  [
-   1794472283.1081686,
-   5721,
-   "🎬",
-   "Netflix анонсував документалку про Russell Brand після вироку за зґвалтування",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/russell-brand-documentary-jimmy-savile-producers-netflix-1236945930/",
-    "orig": "Russell Brand Documentary From ‘Jimmy Savile: A British Horror Story’ Producers Set at Netflix Days After Rape Sentencing"
-   }
-  ],
-  [
-   1794472295.8653476,
-   5722,
-   "💾",
-   "Google та партнери запустили Modern Web Guidance для ШІ-агентів",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/GoogleChrome/modern-web-guidance-src",
-    "orig": "GoogleChrome/modern-web-guidance-src"
-   }
-  ],
   [
    1794474079.9110692,
    5723,
@@ -8975,7 +8939,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🤖 <b>Canva дозволила вимикати функції генеративного ШІ</b>\n\nПлатформа для графічного дизайну Canva додала перемикач, який дозволяє деактивувати більшість ШІ-функцій: зокрема, генерацію зображень, текстів, дизайнів тощо. Нове налаштування доступне як передплатникам версії Pro, так і безплатним користувачам.\n\n🔗 <a href=\"https://mezha.ua/news/canva-adds-ai-controls-317389/\">Mezha</a> · #ШІ",
     "kind": "photo",
     "link": "https://mezha.ua/news/canva-adds-ai-controls-317389/",
     "orig": "Canva дозволила вимикати функції генеративного ШІ"
@@ -8989,7 +8952,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Фінансовий директор Anthropic про «демократизацію доступу» до акцій компанії</b>\n\nФіндиректор Anthropic Крішна Рао розповів про рекордний вихід компанії на біржу на $107,3 млрд\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-19/anthropic-cfo-on-democratizing-access-to-company-stock-video\">Bloomberg</a> · #ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-11-19/anthropic-cfo-on-democratizing-access-to-company-stock-video",
     "orig": "Anthropic CFO on 'Democratizing Access' to Company Stock"
@@ -9830,6 +9792,34 @@
     "link": "https://mezha.ua/news/gta-6-traffic-records-317407/",
     "orig": "GTA 6 спричинила рекордний стрибок інтернет-трафіку – стріми зібрали майже 8 млн глядачів"
    }
+  ],
+  [
+   1795163481.3203807,
+   6476,
+   "🤖",
+   "Компанія Федорова співпрацюватиме з польською JRH ASI. Працюватимуть над ШІ, сенсорами та БПЛА",
+   "DOU",
+   {
+    "also": [],
+    "caption": "🤖 <b>Компанія Федорова співпрацюватиме з польською JRH ASI. Працюватимуть над ШІ, сенсорами та БПЛА</b>\n\nПольська інвестиційна компанія JRH ASI, акції якої торгуються на Варшавській фондовій біржі, підписала угоду про співпрацю з українською Mission Defense Partners. Її створили колишній міністр оборони Михайло Федоров і засновник підрозділу Lasar’s Group Павло Єлізаров. Про це повідомила JRH ASI. Угоду підписали 17 листопада у Варшаві. Компанії планують разом розробляти оборонні технології та налагоджувати їхнє виробництво.\n\n🔗 <a href=\"https://dou.ua/lenta/news/fedorovs-company-with-polish-jrh-asi/\">DOU</a> · #ШІ",
+    "kind": "photo",
+    "link": "https://dou.ua/lenta/news/fedorovs-company-with-polish-jrh-asi/",
+    "orig": "Компанія Федорова співпрацюватиме з польською JRH ASI. Працюватимуть над ШІ, сенсорами та БПЛА"
+   }
+  ],
+  [
+   1795163851.8183043,
+   6477,
+   "💾",
+   "firecrawl/firecrawl",
+   "GitHub Trending",
+   {
+    "also": [],
+    "caption": "💾 <b>firecrawl/firecrawl</b>\n\nІнфраструктура знань, що робить ваших агентів розумнішими. Пошук, витяг даних та доступ до понад 550 постачальників даних через єдиний API. https://firecrawl.dev 🔥 Firecrawl — інфраструктура знань, що робить ваших агентів розумнішими. 🔥 Ви можете використовувати Firecrawl трьома способами. У цьому репозиторії міститься код для Firecrawl Local та сервера, що розміщується на власному хостингу, а також SDK, які працюють з усіма трьома варіантами. Firecrawl Local .\n\n🔗 <a href=\"https://github.com/firecrawl/firecrawl\">GitHub Trending</a> · #софт",
+    "kind": "photo",
+    "link": "https://github.com/firecrawl/firecrawl",
+    "orig": "firecrawl/firecrawl"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9846,7 +9836,8 @@
    1795160042.90003
   ],
   "ai|DOU|https://dou.ua/feed/": [
-   1795094375.5065007
+   1795094375.5065007,
+   1795163481.3206565
   ],
   "ai|Hugging Face|https://huggingface.co/blog/feed.xml": [
    1795014113.7924745,
@@ -10059,14 +10050,14 @@
    1794843085.3208008
   ],
   "software|GitHub Trending|https://mshibanami.github.io/GitHubTrendingRSS/daily/all.xml": [
-   1795077192.6193728,
    1795078888.843738,
    1795080799.0878801,
    1795083121.660463,
    1795084733.9857543,
    1795086182.6949415,
    1795087879.2407231,
-   1795089086.6101468
+   1795089086.6101468,
+   1795163851.8186357
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1795023110.4423647,
@@ -10241,6 +10232,7 @@
   "1169e3acab6ba6fd": 1795089654.0120451,
   "116a2269b5c9dc74": 1794438100.512025,
   "116d6bd5830c9031": 1794655852.1792724,
+  "116e8d1fda116d86": 1795163455.9823968,
   "1170adc197d29b61": 1794702686.0977051,
   "11b0d0ea895fab50": 1794963651.7044976,
   "11e70fdc63eb7126": 1795123855.034798,
@@ -10277,6 +10269,7 @@
   "154aa465ecbcfd2c": 1794240058.5109377,
   "1555ed6bcb1233ac": 1794999745.7375064,
   "15949ec6496d1bb4": 1795109457.1504688,
+  "15aa8dd812510738": 1795163481.3206105,
   "15d104ab2ce02372": 1794200482.770165,
   "15f791af37d54966": 1794089061.278885,
   "16010c92860b7275": 1794907853.4173076,
@@ -10467,6 +10460,7 @@
   "2bba46206d0c85ec": 1794837697.1199596,
   "2c1f15f8322385d6": 1794520881.1333885,
   "2c75385bd8df1520": 1795131391.6460595,
+  "2c7b3111701b0646": 1795163851.8185823,
   "2ca413dd274a9f2b": 1794600080.697358,
   "2caa4ea0039a63d2": 1795071681.943975,
   "2cb0fcc6ce2aa0ab": 1794328281.8888555,
@@ -10803,7 +10797,6 @@
   "57fe05da63744a2f": 1795039256.6815968,
   "5826d233cb4408e3": 1794306681.8971698,
   "582af0723ae9b8ac": 1794783426.8461566,
-  "5836811d188cf5d7": 1793953885.0311246,
   "585ac975b75ce028": 1795073474.7372088,
   "5876519fff1e97dc": 1795129523.5830646,
   "5880887245247880": 1794897106.8863344,
@@ -10880,7 +10873,6 @@
   "5f9df56fed9a28e3": 1794598371.8116102,
   "5fa346d1bde734c4": 1794861223.1814535,
   "5fc51f7f274eb3e5": 1794087051.001706,
-  "5ff19eb66039b50c": 1793953887.143655,
   "5ff87d2b1afb5020": 1794128496.4883294,
   "601561991121fbc1": 1794358895.9801354,
   "60301cc88564a134": 1793968252.071034,
@@ -11598,6 +11590,7 @@
   "b3daa2d6912f86dd": 1795064479.5724437,
   "b400aa22068cb5c7": 1794504655.5700643,
   "b418109caafc73a3": 1794444578.0039203,
+  "b41e2782d523a29d": 1795163455.9823968,
   "b46156e843dd0a68": 1793984487.702095,
   "b46dada6e9c8b558": 1794836079.153923,
   "b4bfed7cd71d0d12": 1795082475.2382138,
@@ -13395,7 +13388,7 @@
    "GamesIndustry.biz": 1,
    "IGN": 13,
    "ITC.ua": 1,
-   "Insider Gaming": 38,
+   "Insider Gaming": 40,
    "Lambgoat": 1,
    "Loudwire": 4,
    "Metal Hammer (Louder)": 1,
@@ -13412,14 +13405,14 @@
    "AIN.ua": 4,
    "Blabbermouth": 4,
    "Bloomberg": 36,
-   "DOU": 3,
+   "DOU": 4,
    "DOU Gamedev": 4,
    "Deadline": 67,
    "Distorted Sound": 5,
    "Eurogamer": 6,
    "GameSpot": 3,
    "GamesIndustry.biz": 9,
-   "GitHub Trending": 21,
+   "GitHub Trending": 22,
    "Hugging Face": 2,
    "IGN": 7,
    "ITC.ua": 21,
@@ -13446,7 +13439,7 @@
    "Variety": 26
   },
   "translators": {
-   "DeepL": 47,
+   "DeepL": 49,
    "gemini-flash-latest": 26,
    "gemini-flash-lite-latest": 311,
    "gemma-4-26b-a4b-it": 16,
@@ -17098,43 +17091,38 @@
  },
  "tag_hints": {
   "Mezha": [
+   "amd",
    "anthropic",
-   "apple",
-   "fpv-дрони",
-   "gemma 3",
-   "google",
+   "chatgpt",
    "gta 6",
+   "intel",
    "iphone",
    "openai",
    "rockstar",
-   "samsung",
    "shure",
    "ubisoft",
-   "акумулятори",
-   "безпілотники",
-   "бпла",
+   "авіація",
    "бізнес",
+   "вмс",
    "відстеження",
+   "залізо",
+   "комплектуючі",
    "кібербезпека",
+   "літак",
    "мікрофони",
    "новини",
    "оборонка",
+   "процесори",
+   "розвідка",
    "смартфони",
    "софт",
-   "технології",
+   "статті",
+   "франція",
    "штучний інтелект",
    "ігри"
   ]
  },
  "titles": [
-  [
-   1794990707.3619726,
-   "AssemblyAI-STT-3.7"
-  ],
-  [
-   1794990716.1287737,
-   "Nawazuddin Siddiqui’s Indian ‘House’ Adaptation ‘Dr. Hassan’ Sets December Premiere on JioHotstar (EXCLUSIVE)"
-  ],
   [
    1794992854.263971,
    "Harry Shum Jr. Honors Late ‘Glee’ Co-Star Naya Rivera During ‘Dancing With the Stars’ Semifinals: ‘We Miss You, Baby Girl’"
@@ -17866,17 +17854,17 @@
   [
    1795162059.326353,
    "GTA 6 спричинила рекордний стрибок інтернет-трафіку – стріми зібрали майже 8 млн глядачів"
+  ],
+  [
+   1795163481.320612,
+   "Компанія Федорова співпрацюватиме з польською JRH ASI. Працюватимуть над ШІ, сенсорами та БПЛА"
+  ],
+  [
+   1795163851.8185842,
+   "firecrawl/firecrawl"
   ]
  ],
  "titles_uk": [
-  [
-   1794990707.3619733,
-   "AssemblyAI випускає модель STT-3.7"
-  ],
-  [
-   1794990716.1287746,
-   "Індійська адаптація серіалу \"House\" під назвою \"Dr. Hassan\" виходить у грудні"
-  ],
   [
    1794992854.2639718,
    "Гаррі Шум-молодший вшанував пам’ять покійної колеги по серіалу «Glee» Наї Рівери під час півфіналу шоу «Танці з зірками»: «Ми сумуємо за тобою, крихітко»"
@@ -18608,6 +18596,14 @@
   [
    1795162059.3263543,
    "GTA 6 спричинила рекордний стрибок інтернет-трафіку – стріми зібрали майже 8 млн глядачів"
+  ],
+  [
+   1795163481.320613,
+   "Компанія Федорова співпрацюватиме з польською JRH ASI. Працюватимуть над ШІ, сенсорами та БПЛА"
+  ],
+  [
+   1795163851.8185854,
+   "firecrawl/firecrawl"
   ]
  ],
  "ukrainian": {
