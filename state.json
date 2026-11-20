@@ -31,43 +31,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-20 17:32 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-20 18:34 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-31b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794506492.7080858,
-   5756,
-   "🤖",
-   "Що чекає на Nvidia, Китай та гонку ШІ без Jensen Huang",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/sessions/2026-11-12/live-q-amp-a-with-jensen-huang-out-what-s-next-for-nvidia-china-and-ai-race",
-    "orig": "With Jensen Huang Out, What’s Next For Nvidia, China and AI Race? Live QA"
-   }
-  ],
-  [
-   1794506527.6773796,
-   5757,
-   "🤖",
-   "Торгові центри у США стали захистом для інвестицій у ШІ",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-12/shopping-malls-a-pretty-good-offset-for-ai-trade-urw-ceo-says",
-    "orig": "Shopping Malls a ‘Pretty Good Offset’ for AI Trade, URW CEO Says"
-   }
-  ],
   [
    1794510080.6112711,
    5760,
@@ -9032,7 +9007,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Зірки Can’t Hardly Wait закликають Sony створити сиквел культового фільму 1998 року</b>\n\nПітер Фачінеллі та Джоел Мікелі висловили бажання зняти продовження Can’t Hardly Wait. Актори зазначають, що фанати роками просять про реюніон, тому пропонують Sony Pictures або стрімінгам створити сиквел до 30-річчя стрічки у 2028 році.\n\n🔗 <a href=\"https://deadline.com/2026/11/cant-hardly-wait-stars-campaign-sequel-1237229853/\">Deadline</a> · #кіно_і_серіали #CantHardlyWait",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/cant-hardly-wait-stars-campaign-sequel-1237229853/",
     "orig": "‘Can’t Hardly Wait’ Stars Campaign For Sequel To 1998 Teen Movie: “Would Be So Fun”"
@@ -9046,7 +9020,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Сієнна Міллер і Домінік Вест про фінал драми «War»</b>\n\nУ фіналі першого сезону серіалу «War» герої Сієнни Міллер і Домініка Веста раптово миряться перед завершенням розлучення й укладають справедливу угоду самостійно. У другому сезоні шоу повернеться з новими акторами та справою про наклеп.\n\n🔗 <a href=\"https://variety.com/2026/tv/global/war-finale-sienna-miller-dominic-west-final-scene-who-won-divorce-1236951845/\">Variety</a> · #кіно_і_серіали #War #HBO",
     "kind": "photo",
     "link": "https://variety.com/2026/tv/global/war-finale-sienna-miller-dominic-west-final-scene-who-won-divorce-1236951845/",
     "orig": "‘War’ Stars Sienna Miller and Dominic West Tussle Over Who Won the Divorce Drama: ‘Gwyneth Paltrow Ran So That the Rest of Us Could Walk’"
@@ -9898,6 +9871,34 @@
     "link": "https://www.bloomberg.com/news/videos/2026-11-20/ai-speeds-patching-raises-outage-risks-expert-video",
     "orig": "AI Speeds Patching, Raises Outage Risks: Expert"
    }
+  ],
+  [
+   1795199592.6747925,
+   6515,
+   "💾",
+   "Новий драйвер Nvidia занадто активно записує дані на SSD",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "💾 <b>Новий драйвер Nvidia занадто активно записує дані на SSD</b>\n\nСвіжий патч GeForce 621.24 без потреби забиває накопичувачі користувачів величезними обсягами інформації\n\n🔗 <a href=\"https://www.rockpapershotgun.com/nvidias-latest-graphics-card-driver-appears-to-be-unnecessarily-writing-to-pc-ssds-something-thats-dumb-annoying-and-definitely-warrants-reverting\">Rock Paper Shotgun</a> · #софт",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/nvidias-latest-graphics-card-driver-appears-to-be-unnecessarily-writing-to-pc-ssds-something-thats-dumb-annoying-and-definitely-warrants-reverting",
+    "orig": "Nvidia's latest graphics card driver appears to be unnecessarily writing to PC SSDs, something that's dumb, annoying and definitely warrants reverting"
+   }
+  ],
+  [
+   1795199629.0620108,
+   6516,
+   "💾",
+   "Microsoft прив'язує зарплати в хмарному підрозділі до результатів роботи",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "💾 <b>Microsoft прив&#x27;язує зарплати в хмарному підрозділі до результатів роботи</b>\n\nMicrosoft Corp. змінює систему оплати праці у своєму ключовому хмарному підрозділі, роблячи її залежною від продуктивності. Це чергова спроба техіндустрії стимулювати працівників працювати інтенсивніше.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-20/microsoft-to-pay-top-cloud-workers-more-crack-down-on-others\">Bloomberg</a> · #софт #Microsoft",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-20/microsoft-to-pay-top-cloud-workers-more-crack-down-on-others",
+    "orig": "Microsoft to Pay Top Cloud Workers More, Crack Down on Others"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9999,9 +10000,9 @@
    1795192445.4365907
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
-   1795102384.3256137,
    1795179746.3112566,
-   1795183335.597968
+   1795183335.597968,
+   1795199592.6750622
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1794925901.615652
@@ -10122,9 +10123,8 @@
    1793547082.3914192
   ],
   "software|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1795094042.9404545,
-   1795098825.5442615,
-   1795141499.5975342
+   1795141499.5975342,
+   1795199629.0622773
   ],
   "software|DOU|https://dou.ua/feed/": [
    1794843085.3208008
@@ -10191,10 +10191,10 @@
   "040c94c004adcc1d": 1794619762.9685986,
   "0431a3df410942d2": 1795149173.4702308,
   "0451b87a43858e55": 1794312109.8160925,
-  "0459a6614342b5dd": 1793988056.3209734,
   "04920b26f2a5ccac": 1794187892.2465663,
   "04a702a6bd870247": 1794922318.0981417,
   "04c121ae35afc0cd": 1794574970.897312,
+  "04c6c51b286dc80e": 1795199460.213731,
   "04cd989d5875ca72": 1795024884.9419575,
   "04f7ab6902985e49": 1794412878.730195,
   "050ea7aed04e3489": 1795017653.3598104,
@@ -10257,6 +10257,7 @@
   "0ba91bff18478de2": 1794699261.5175328,
   "0bc1858408fdc657": 1794540952.2276444,
   "0bd2b80718e34b30": 1794889903.5498612,
+  "0bd4787cdb21f321": 1795199460.213731,
   "0bf0b1b6e6acb828": 1795138416.4906218,
   "0c096291231fd66f": 1795059061.5460818,
   "0c297c6bdca7d2a6": 1794270680.8302598,
@@ -10357,6 +10358,7 @@
   "160a54a4a100f73f": 1794474079.911317,
   "160cf42ed5965ad5": 1795055952.8746333,
   "161c6cff0baba272": 1794672120.9567468,
+  "1635eda7c996f240": 1795199629.0622354,
   "1649e614cf2fe5dc": 1795177895.0435784,
   "164e3a1e640329ec": 1794376883.9151897,
   "166bc4efa54c458d": 1794052853.3676574,
@@ -10450,7 +10452,6 @@
   "207194a9d8ca693d": 1795158349.1241083,
   "2121df6444c57ece": 1794123081.4127033,
   "21634434a9a2ef38": 1794765655.662173,
-  "21d0933180612bf7": 1793988094.1415625,
   "21ea1ffdc25552cc": 1795091580.1649384,
   "21eb099d4d049c74": 1794564188.1661212,
   "21f107cbc2ffb018": 1794983487.6611924,
@@ -10490,7 +10491,6 @@
   "2614f3f779352f91": 1794328279.5536714,
   "269e88e8bf42cecb": 1795194077.8276596,
   "26b52d229f334526": 1794274279.7760832,
-  "26b80c604c88382a": 1793988091.913465,
   "26bcadb7f4e8e281": 1794670326.7228556,
   "26cc3576ef6e093b": 1794270652.4116833,
   "26d2320c8c034d0b": 1794825085.8859608,
@@ -10636,6 +10636,7 @@
   "3781448153b0315f": 1794823495.8280075,
   "3794e02805893732": 1794375094.2627156,
   "37a8709304e91818": 1795001460.8855703,
+  "37ccbd8a97b28a34": 1795199460.213731,
   "3809cdc19b7d03a5": 1794218581.2804193,
   "381a523e6f789745": 1795165257.754759,
   "381b5f58746d6387": 1794126673.0223253,
@@ -10797,6 +10798,7 @@
   "4dab3e7a97ed0998": 1794783423.6779065,
   "4dba0461a8f2749d": 1794506457.045124,
   "4dec1063696bc20b": 1795041096.6697226,
+  "4dfeed0ddd6557a9": 1795199460.213731,
   "4e0c6a77fffae336": 1794096094.234996,
   "4e22c51acacfd42d": 1794069054.1396751,
   "4e285fad042ed34f": 1794609055.1572344,
@@ -11321,7 +11323,6 @@
   "87fe55541825dd45": 1794880915.0736182,
   "8817381862ce860d": 1795167057.8686705,
   "881debcf1a1d3952": 1794634255.263127,
-  "8840c180a5ce48c6": 1793988056.3209734,
   "884b01750c3f263b": 1794832381.563612,
   "885dfa36220b1c5d": 1794663052.3051553,
   "887f85b1a5ee8bf1": 1794519083.197897,
@@ -11420,6 +11421,7 @@
   "944e8a227014f802": 1794013396.247265,
   "94515d8671739599": 1794421927.7777536,
   "94687090526b1cb4": 1794499281.4675992,
+  "94784eb390a51a31": 1795199485.7734878,
   "948d8d7ca14890cd": 1795183259.032751,
   "949acd8baa20b17b": 1794011598.8377948,
   "949badf102711944": 1794850251.632162,
@@ -11477,6 +11479,7 @@
   "9b8956863556ed6c": 1794474085.2638512,
   "9b8a8e522d9f1d83": 1794040275.8748078,
   "9b8c441c69663be7": 1794510055.210753,
+  "9b9df8216280f5b5": 1795199592.675019,
   "9bb2b262c6a7ff23": 1794452475.9596944,
   "9c10a7f10b16d08d": 1794810782.9833372,
   "9c84081fe08c8154": 1794758455.254243,
@@ -11734,7 +11737,6 @@
   "bc233f2bb1fd25a6": 1794718851.8888588,
   "bc3356ccbb0f312b": 1794214991.3628657,
   "bc6cd049e9a32803": 1794502963.9584627,
-  "bcd35440bc852b1c": 1793989903.2467942,
   "bd0886bfe5db68f9": 1794497454.0506542,
   "bd094462e92c17c9": 1794520852.2037077,
   "bd12796d271c4d1b": 1795087856.688431,
@@ -12035,6 +12037,7 @@
   "e14368474ed13847": 1794286878.3594763,
   "e15b553e45986df7": 1794695682.7557752,
   "e191d57c8956f816": 1794988870.6610136,
+  "e1fb3e34391ef3ba": 1795199460.213731,
   "e2155bb3ad00fed6": 1794747655.1469178,
   "e227ca7fe05e4f6e": 1794362593.0668566,
   "e232a797766a2297": 1795042879.085287,
@@ -12228,7 +12231,6 @@
   "fa32eb5da1587b98": 1795129352.0633268,
   "fa3ae1d859f5de7b": 1794616302.86888,
   "fa5492267cf340ea": 1794535009.7471654,
-  "fa762f8b6bba1505": 1793989912.7519934,
   "fa912ca9995e3b84": 1794069054.1396751,
   "fab23470f7ba7ec4": 1794243688.411807,
   "fac040f82bdf2c83": 1794913442.2737758,
@@ -13468,7 +13470,7 @@
  },
  "stats": {
   "extra": {
-   "Вішліст Steam": 12,
+   "Вішліст Steam": 13,
    "Українська локалізація": 1,
    "Халява": 2
   },
@@ -13481,16 +13483,16 @@
    "Digital Foundry": 1,
    "GameSpot": 3,
    "GamesIndustry.biz": 3,
-   "IGN": 17,
+   "IGN": 18,
    "ITC.ua": 1,
-   "Insider Gaming": 53,
+   "Insider Gaming": 55,
    "Lambgoat": 1,
    "Loudwire": 4,
    "Metal Hammer (Louder)": 3,
    "PC Gamer": 19,
    "Pitchfork": 2,
    "PlayUA": 1,
-   "Polygon": 46,
+   "Polygon": 48,
    "Product Hunt": 1,
    "The Decoder": 1,
    "VGC": 47,
@@ -13500,7 +13502,7 @@
    "/Film": 16,
    "AIN.ua": 6,
    "Blabbermouth": 4,
-   "Bloomberg": 37,
+   "Bloomberg": 38,
    "DOU": 4,
    "DOU Gamedev": 6,
    "Deadline": 68,
@@ -13527,7 +13529,7 @@
    "Polygon": 22,
    "Product Hunt": 6,
    "Revolver": 3,
-   "Rock Paper Shotgun": 11,
+   "Rock Paper Shotgun": 12,
    "SteamDB": 1,
    "Stereogum": 4,
    "The Decoder": 13,
@@ -13538,9 +13540,9 @@
   "translators": {
    "DeepL": 53,
    "gemini-flash-latest": 26,
-   "gemini-flash-lite-latest": 322,
+   "gemini-flash-lite-latest": 323,
    "gemma-4-26b-a4b-it": 25,
-   "gemma-4-31b-it": 29
+   "gemma-4-31b-it": 30
   },
   "week": "2026-W47"
  },
@@ -14380,11 +14382,6 @@
    "",
    1795188695.658851
   ],
-  "q:another day": [
-   2412640,
-   "Another Day",
-   1792607483.3603911
-  ],
   "q:anywhere": [
    4386680,
    "Anywhere",
@@ -14675,11 +14672,6 @@
    "",
    1795064482.3071232
   ],
-  "q:canceled": [
-   2651130,
-   "Canceled",
-   1792603903.1193275
-  ],
   "q:capacity": [
    3317350,
    "Capacity",
@@ -14769,11 +14761,6 @@
    0,
    "",
    1795098689.3623188
-  ],
-  "q:continue": [
-   996920,
-   "CONTINUE",
-   1792605749.3152213
   ],
   "q:counter strike": [
    10,
@@ -16605,11 +16592,6 @@
    "Resident Evil Requiem",
    1794614668.9253628
   ],
-  "q:respawn": [
-   1922940,
-   "Respawn",
-   1792605717.442696
-  ],
   "q:returned": [
    5258070,
    "ReTurned",
@@ -18214,6 +18196,14 @@
   [
    1795195937.4424818,
    "AI Speeds Patching, Raises Outage Risks: Expert"
+  ],
+  [
+   1795199592.6750207,
+   "Nvidia's latest graphics card driver appears to be unnecessarily writing to PC SSDs, something that's dumb, annoying and definitely warrants reverting"
+  ],
+  [
+   1795199629.0622368,
+   "Microsoft to Pay Top Cloud Workers More, Crack Down on Others"
   ]
  ],
  "titles_uk": [
@@ -18964,6 +18954,14 @@
   [
    1795195937.4424825,
    "ШІ прискорює патчінг систем, але підвищує ризики збоїв"
+  ],
+  [
+   1795199592.6750216,
+   "Новий драйвер Nvidia занадто активно записує дані на SSD"
+  ],
+  [
+   1795199629.0622377,
+   "Microsoft прив'язує зарплати в хмарному підрозділі до результатів роботи"
   ]
  ],
  "ukrainian": {
@@ -19893,9 +19891,9 @@
    },
    "1449110": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 60,
     "name": "The Outer Worlds 2",
-    "price": "2 299,00₴",
+    "price": "919,00₴",
     "release": 1761757153
    },
    "1449690": {
@@ -20537,9 +20535,9 @@
    },
    "2661300": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 20,
     "name": "Grounded 2",
-    "price": "999,00₴",
+    "price": "799,00₴",
     "release": 1753808815
    },
    "2668510": {
@@ -21062,9 +21060,9 @@
    },
    "459220": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 75,
     "name": "Halo Wars: Definitive Edition",
-    "price": "699,00₴",
+    "price": "174,00₴",
     "release": 1492707855
    },
    "463530": {
@@ -21321,9 +21319,9 @@
    },
    "847370": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 75,
     "name": "Sunset Overdrive",
-    "price": "280,00₴",
+    "price": "70,00₴",
     "release": 1542387617
    },
    "867210": {
@@ -21391,9 +21389,9 @@
    },
    "976730": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 75,
     "name": "Halo: The Master Chief Collection",
-    "price": "1 399,00₴",
+    "price": "349,00₴",
     "release": 1575396000
    },
    "977810": {
@@ -21411,7 +21409,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795195946.7740998,
+  "last_check": 1795199640.6111073,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
