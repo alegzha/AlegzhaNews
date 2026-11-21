@@ -2,7 +2,7 @@
  "alerts": {},
  "daily_digest_date": "2026-11-21",
  "freebies": {
-  "last_check": 1795285890.0682447,
+  "last_check": 1795293276.1547444,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -31,57 +31,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-21 19:37 UTC",
+  "at": "2026-11-21 20:34 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-31b-it": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794599661.4686322,
-   5862,
-   "🤖",
-   "Створюємо симуляцію робота для сортування за допомогою асетів SimReady",
-   "Hugging Face",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://huggingface.co/blog/nvidia/simready-assets-robot-pick-and-place",
-    "orig": "Build a Robot Pick-and-Place Simulation with SimReady Assets"
-   }
-  ],
-  [
-   1794600173.2368665,
-   5863,
-   "🤖",
-   "ШІ-агент Muse від Meta тепер може самостійно телефонувати до компаній замість користувачів",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/metas-muse-now-calls-businesses-for-you-but-many-companies-might-just-hang-up-on-the-ai/",
-    "orig": "Meta's Muse now calls businesses for you, but many companies might just hang up on the AI"
-   }
-  ],
-  [
-   1794601881.9482634,
-   5864,
-   "🤖",
-   "Звільнення Дженсена Хуанга пов'язане з ризикованою бізнес-практикою Nvidia",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/jensen-huangs-ouster-likely-traces-back-to-nvidias-risky-business-practices-more-than-his-personal-life/",
-    "orig": "Jensen Huang's ouster likely traces back to Nvidia's risky business practices more than his personal life"
-   }
-  ],
   [
    1794607286.0106692,
    5865,
@@ -8811,7 +8772,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Меланія Трамп закликала до миру під час прем&#x27;єри серіалу Melania: The Series</b>\n\nПід час прем&#x27;єри документального серіалу Melania: The Series на Amazon Prime Video Меланія Трамп закликала до миру у всьому світі. На запитання про конфлікти в Газі та Ізраїлі вона відповіла, що хоче, аби всі жили в гармонії. Проєкт досліджує особисте життя першої леді та її роль у Білому домі.\n\n🔗 <a href=\"https://variety.com/2026/tv/news/melania-trump-series-gaza-israel-children-peace-amazon-1236954718/\">Variety</a> · #кіно_і_серіали #Amazon",
     "kind": "photo",
     "link": "https://variety.com/2026/tv/news/melania-trump-series-gaza-israel-children-peace-amazon-1236954718/",
     "orig": "Melania Trump Calls for ‘Peace’ When Asked About Children in Gaza and Israel at Amazon Series Premiere"
@@ -9445,7 +9405,12 @@
    "Китай планує посилити стандарти токенів ШІ в межах розвитку обчислювальних технологій",
    "Mezha",
    {
-    "also": [],
+    "also": [
+     [
+      "Bloomberg",
+      "https://www.bloomberg.com/news/articles/2026-11-21/china-plans-to-strengthen-ai-token-standards-in-computing-push"
+     ]
+    ],
     "caption": "🤖 <b>Китай планує посилити стандарти токенів ШІ в межах розвитку обчислювальних технологій</b>\n\nНаціональне управління даних Китаю має намір удосконалити стандарти вимірювання та тарифікації токенів штучного інтелекту, а також оцінювання їхньої якості. Пекін таким чином прагне спрямувати розвиток галузі, яка швидко зростає.\n\n🔗 <a href=\"https://mezha.ua/news/kitay-vdoskonalit-standarti-vimiryuvannya-i-tarifikaciji-tokeniv-shi-317450/\">Mezha</a> · #ШІ",
     "kind": "photo",
     "link": "https://mezha.ua/news/kitay-vdoskonalit-standarti-vimiryuvannya-i-tarifikaciji-tokeniv-shi-317450/",
@@ -9661,6 +9626,20 @@
     "link": "https://the-decoder.com/silicon-valleys-growing-obsession-with-ai-doomsday-is-turning-parts-of-the-tech-industry-toward-cult-like-devotion/",
     "orig": "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion"
    }
+  ],
+  [
+   1795293274.5482612,
+   6606,
+   "🤖",
+   "Акції техгігантів США зазнали найгіршого щотижневого падіння з часів пандемії",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Акції техгігантів США зазнали найгіршого щотижневого падіння з часів пандемії</b>\n\nІндекс Nasdaq 100 впав на 10,4% за тиждень, що стало найгіршим показником з часів пандемії. Причинами стали сумніви в перспективності ШІ, перевірка бухгалтерії Nvidia з боку SEC та висока інфляція. Акції Nvidia обвалилися на 14%, а Anthropic — на 9,1%.\n\n🔗 <a href=\"https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/\">The Decoder</a> · #ШІ #Nvidia #Anthropic",
+    "kind": "photo",
+    "link": "https://the-decoder.com/us-technology-stocks-suffer-their-worst-weekly-loss-since-the-pandemic-as-ai-doubts-pile-up/",
+    "orig": "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9695,10 +9674,9 @@
    1795264286.1575968
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
-   1795204965.5333762,
-   1795206685.501737,
    1795277144.8097234,
-   1795289847.2270412
+   1795289847.2270412,
+   1795293274.5485168
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1793370738.9416513
@@ -10307,7 +10285,6 @@
   "2ae4635bdd701088": 1794562640.91256,
   "2b1608cf72e71b0d": 1794214856.4079065,
   "2b2da10265aa694e": 1794931985.8368273,
-  "2b3bfcd1c50fa9aa": 1794083478.7347698,
   "2b420be98801526a": 1795005105.700162,
   "2b48fc3308d6ced3": 1794364252.7798047,
   "2b4c443e34ab3041": 1795070072.035697,
@@ -10505,7 +10482,6 @@
   "42ced3c4e720e22b": 1794145167.6816053,
   "42d9655f3f2d4cee": 1794447084.8329892,
   "42f5e9eaccf724aa": 1794229287.1545224,
-  "43069b545c119bfc": 1794081727.1823788,
   "432d8854ba9684e6": 1794254454.641067,
   "435e11c186621b3e": 1795026653.649315,
   "43d48515eb9b726d": 1794222370.7217953,
@@ -10674,6 +10650,7 @@
   "58d1500c12993f95": 1794191760.1605656,
   "58e3781504357845": 1795131055.6482096,
   "590e298f3d1a3af4": 1795118455.5877645,
+  "590ea7f90068a257": 1795293274.5484715,
   "591d82ee7e715012": 1795007003.31536,
   "5936ac056f3e67e0": 1794150169.541632,
   "594a7880d7954e73": 1794240087.6773205,
@@ -11154,6 +11131,7 @@
   "8dbaa27d684960be": 1794492161.157827,
   "8dc4a6a9ec353083": 1794267175.2273066,
   "8e1fade4ce2efbb1": 1794846691.2536154,
+  "8e503ca403fd11b0": 1795293218.0060165,
   "8e79a4a0a086bb0a": 1794582095.1363876,
   "8ea17a39bd425244": 1795170655.6016555,
   "8eb1c812ba5c288c": 1794852103.13292,
@@ -11338,6 +11316,7 @@
   "a54a5de50b86e841": 1794759968.2490451,
   "a554bee44e8165cd": 1794358884.043912,
   "a568c0d7008bf2ed": 1794513766.4618802,
+  "a5da9f97d65375b5": 1795293059.0225935,
   "a5e6ed1f4ced8a2e": 1794306682.7784011,
   "a60c4d1cbce2c052": 1794524545.2054734,
   "a63a0bf7ba742fe5": 1795224701.7799451,
@@ -11933,7 +11912,6 @@
   "ec453d1217c21859": 1794650473.5415514,
   "ec54bb3011fe81bf": 1794877253.0913165,
   "ec562e54b1c40d37": 1794783714.558163,
-  "eca5775f0eeafe3a": 1794083480.6657107,
   "ecbb3cf6400f7234": 1794704456.3354933,
   "ecc32be386b3f7fb": 1794623485.5717816,
   "eccb1f105ec32cd7": 1795136498.1510496,
@@ -13321,7 +13299,7 @@
    "Product Hunt": 1,
    "Revolver": 1,
    "The Decoder": 2,
-   "VGC": 61,
+   "VGC": 62,
    "Variety": 15
   },
   "sources": {
@@ -13359,7 +13337,7 @@
    "Rock Paper Shotgun": 13,
    "SteamDB": 1,
    "Stereogum": 6,
-   "The Decoder": 18,
+   "The Decoder": 19,
    "ThePRP": 12,
    "VGC": 9,
    "Variety": 32
@@ -13367,9 +13345,9 @@
   "translators": {
    "DeepL": 69,
    "gemini-flash-latest": 35,
-   "gemini-flash-lite-latest": 352,
+   "gemini-flash-lite-latest": 353,
    "gemma-4-26b-a4b-it": 44,
-   "gemma-4-31b-it": 43
+   "gemma-4-31b-it": 44
   },
   "week": "2026-W47"
  },
@@ -17755,6 +17733,10 @@
   [
    1795289847.2269976,
    "Silicon Valley's growing obsession with AI doomsday is turning parts of the tech industry toward cult-like devotion"
+  ],
+  [
+   1795293274.5484731,
+   "US technology stocks suffer their worst weekly loss since the pandemic as AI doubts pile up"
   ]
  ],
  "titles_uk": [
@@ -18461,6 +18443,10 @@
   [
    1795289847.2269986,
    "Одержимість кремнієвої долини сценаріями кінця світу через ШІ перетворюється на культ"
+  ],
+  [
+   1795293274.5484738,
+   "Акції техгігантів США зазнали найгіршого щотижневого падіння з часів пандемії"
   ]
  ],
  "ukrainian": {
@@ -19111,8 +19097,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1795271493.9490662,
-  "with_uk": 98
+  "last_check": 1795293285.9455667,
+  "with_uk": 96
  },
  "weekly_releases_week": "2026-W47",
  "wishlist": {
