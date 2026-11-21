@@ -31,56 +31,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-21 11:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-21 12:08 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794569525.3369014,
-   5829,
-   "💾",
-   "Оновлення проєкту llama.cpp для локального запуску LLM",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/ggml-org/llama.cpp",
-    "orig": "ggml-org/llama.cpp"
-   }
-  ],
-  [
-   1794571365.456182,
-   5830,
-   "🎮",
-   "Id Software та MachineGames анонсували нові ігри",
-   "Polygon",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.polygon.com/wolfenstein-doom-bethesda-new-game-announced/",
-    "orig": "New Game from Doom studio and New Wolfenstein Announced"
-   }
-  ],
-  [
-   1794571372.1142206,
-   5831,
-   "🎮",
-   "Черги на модерацію у Steam змушують інді-розробників переносити релізи",
-   "GamesIndustry.biz",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.gamesindustry.biz/steams-submission-and-approval-backlog-is-forcing-indie-devs-to-delay-game-launches",
-    "orig": "Steam's submission and approval backlog is forcing indie devs to delay game launches"
-   }
-  ],
   [
    1794573079.6080747,
    5832,
@@ -8984,7 +8946,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>CEO Altruist Джейсон Венк обговорив вплив ШІ на управління капіталом</b>\n\nДжейсон Венк, CEO Altruist, в інтерв&#x27;ю Bloomberg обговорив, як технології та ШІ можуть змінити економіку управління капіталом. Він також розповів про можливе приєднання до Vanguard, розвиток ринку RIA custody та плани компанії щодо розширення продуктів.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-20/altruist-s-wenk-on-ai-next-era-of-financial-advice-video\">Bloomberg</a> · #ШІ #Altruist",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-11-20/altruist-s-wenk-on-ai-next-era-of-financial-advice-video",
     "orig": "Altruist’s Wenk on AI and the Next Era of Financial Advice"
@@ -8998,7 +8959,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Signal блокує знімки екрана на iOS та Android через загрозу від ШІ</b>\n\nSignal обмежує створення знімків екрана на iOS і Android, щоб захистити приватні чати від ШІ-агентів. Системні помічники на кшталт Siri та Gemini здатні читати розшифровані повідомлення з екрана, що підриває наскрізне шифрування.\n\n🔗 <a href=\"https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/\">The Decoder</a> · #ШІ #Signal",
     "kind": "photo",
     "link": "https://the-decoder.com/signal-blocks-screenshots-on-ios-27-and-android-to-stop-ai-agents-from-reading-private-chats/",
     "orig": "Signal blocks screenshots on iOS 27 and Android to stop AI agents from reading private chats"
@@ -9012,7 +8972,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Через ШІ в Китаї робочі місця для творчих професій скорочуються швидше</b>\n\nАналіз 10 мільйонів вакансій від Bloomberg показує, що ШІ посилює кризу на ринку праці в Китаї. Найбільше постраждали новачки та креативна індустрія: понад 90% китайських мікросеріалів тепер створюють за допомогою ШІ. Ексрадник центробанку Цай Фан попереджає, що справжній удар від ШІ ще попереду.\n\n🔗 <a href=\"https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/\">The Decoder</a> · #ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/bloomberg-analysis-of-10-million-job-postings-shows-ai-exposed-roles-in-china-fell-10-percentage-points-faster-than-others/",
     "orig": "Bloomberg analysis of 10 million job postings shows AI-exposed roles in China fell 10 percentage points faster than others"
@@ -9834,13 +9793,54 @@
     "link": "https://www.polygon.com/the-legend-of-vox-machina-prime-video-rec/",
     "orig": "Goodbye 'Rings of Power,' Prime Video’s Legendary 48-Episode Fantasy Series Is Even Better"
    }
+  ],
+  [
+   1795262542.93636,
+   6584,
+   "🎮",
+   "Сценаристка Clair Obscur: Expedition 33 висловилася про загрозу звільнень у Rockstar",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Сценаристка Clair Obscur: Expedition 33 висловилася про загрозу звільнень у Rockstar</b>\n\nКолишня головна сценаристка Sandfall Interactive Дженніфер Сведберг-Єн прокоментувала побоювання розробників GTA 6 щодо можливих звільнень після релізу. Вона зазначила, що творці гри не отримують пропорційну до створеної цінності частку прибутків, що загострює проблему нестабільності в ігровій індустрії.\n\n🔗 <a href=\"https://www.pcgamer.com/games/grand-theft-auto/expedition-33-lead-writer-says-grand-theft-auto-6-layoff-concerns-show-that-people-creating-the-value-do-not-receive-a-proportionate-amount-of-that-value/\">PC Gamer</a> · #ігри #GTA6 #ClairObscurExpedition33",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/games/grand-theft-auto/expedition-33-lead-writer-says-grand-theft-auto-6-layoff-concerns-show-that-people-creating-the-value-do-not-receive-a-proportionate-amount-of-that-value/",
+    "orig": "Expedition 33 lead writer says Grand Theft Auto 6 layoff concerns show that 'people creating the value do not receive a proportionate amount of that value'"
+   }
+  ],
+  [
+   1795262898.8026905,
+   6585,
+   "🎬",
+   "Документальний фільм про Кейт Міддлтон «Heal» вийде на BBC та NBC; спеціальний випуск про виклик «Три вершини» принцеси та її боротьбу з раком отримав дату виходу та трейлер",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Документальний фільм про Кейт Міддлтон «Heal» вийде на BBC та NBC; спеціальний випуск про виклик «Три вершини» принцеси та її боротьбу з раком отримав дату виходу та трейлер</b>\n\nКейт Міддлтон зніметься у своєму першому документальному фільмі, і це буде дуже особиста стрічка. Фільм під назвою «Heal» вийде в ефір 29 листопада на каналі BBC у Великій Британії та на каналі NBC у США.\n\n🔗 <a href=\"https://deadline.com/2026/11/kate-middleton-documentary-heal-release-date-trailer-1237230712/\">Deadline</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/kate-middleton-documentary-heal-release-date-trailer-1237230712/",
+    "orig": "Kate Middleton Documentary ‘Heal’ Set At BBC & NBC; Special About Princess’ Three Peaks Challenge & Cancer Journey Gets Release Date & Trailer"
+   }
+  ],
+  [
+   1795262900.6922164,
+   6586,
+   "🤖",
+   "Загальний дохід Lenovo у другому кварталі сягнув рекордних $30,2 млрд, а дохід від ШІ вперше перевищив $10 млрд",
+   "AIN.ua",
+   {
+    "also": [],
+    "caption": "🤖 <b>Загальний дохід Lenovo у другому кварталі сягнув рекордних $30,2 млрд, а дохід від ШІ вперше перевищив $10 млрд</b>\n\nLenovo відзвітувала про рекордний другий квартал фінансового року: загальний дохід компанії зріс на 48% — до $30,2 млрд, а чистий прибуток підскочив на 166% — до $1,4 млрд. Понад третину всіх надходжень ($10 млрд) компанії вперше принесли продукти та сервіси у сфері штучного інтелекту\n\n🔗 <a href=\"https://ain.ua/2026/11/20/vitorg-lenovo-u-drugomu-kvartali-siagnuv-rekordnix-302-mlrd-a-doxid-vid-si-vperse-perevishhiv-10-mlrd/\">AIN.ua</a> · #ШІ",
+    "kind": "photo",
+    "link": "https://ain.ua/2026/11/20/vitorg-lenovo-u-drugomu-kvartali-siagnuv-rekordnix-302-mlrd-a-doxid-vid-si-vperse-perevishhiv-10-mlrd/",
+    "orig": "Загальний дохід Lenovo у другому кварталі сягнув рекордних $30,2 млрд, а дохід від ШІ вперше перевищив $10 млрд"
+   }
   ]
  ],
  "posted_by_source": {
   "ai|AIN.ua|https://ain.ua/feed/": [
-   1795114889.6052532,
-   1795114891.4271486,
-   1795190541.010601
+   1795190541.010601,
+   1795262900.692502
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
    1795195937.4425237,
@@ -9920,10 +9920,10 @@
    1795248084.634361
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1795145843.3549738,
    1795176534.3025072,
    1795217582.003434,
-   1795221239.8891237
+   1795221239.8891237,
+   1795262542.9366298
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1795073478.9227216,
@@ -9971,7 +9971,8 @@
    1795234044.1679242,
    1795234121.9146147,
    1795255451.0490115,
-   1795255749.9519207
+   1795255749.9519207,
+   1795262898.8029902
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795087876.0739417
@@ -10266,7 +10267,6 @@
   "1292882f1373b059": 1794483134.7948608,
   "12962f54a33977b4": 1794520892.330049,
   "12a048d71bf45c8d": 1794961877.8475974,
-  "12a1fccbaa22f6c3": 1794052877.4684665,
   "12b35b4ae829ba54": 1794420054.9001808,
   "12c275d70c1a7d65": 1794380505.1668162,
   "12ed899f1e039ff5": 1795154502.068142,
@@ -10306,7 +10306,6 @@
   "1635eda7c996f240": 1795199629.0622354,
   "1649e614cf2fe5dc": 1795177895.0435784,
   "164e3a1e640329ec": 1794376883.9151897,
-  "166bc4efa54c458d": 1794052853.3676574,
   "167450f5d8ac1c41": 1794360713.347036,
   "167e46fd298bdafd": 1794983512.779265,
   "16870c21e1133f93": 1794902492.8208287,
@@ -10875,6 +10874,7 @@
   "5c9ed0adbe744f64": 1795133038.9434793,
   "5ce05ddce2ac9c98": 1795237281.589098,
   "5d43055414eaef7c": 1794065489.938823,
+  "5d47fb15e68090bb": 1795262898.8029451,
   "5d58b67890e97256": 1795109457.1504688,
   "5d5ee9363e772e0d": 1795149079.696492,
   "5d63820880de2220": 1795141512.80158,
@@ -11350,7 +11350,6 @@
   "91951ff6046d0b4b": 1794997922.7442873,
   "919be5e8534ffdf5": 1794670323.9271846,
   "91bf41646a4e8582": 1794623482.2775147,
-  "91c776c9d6c04a8f": 1794052875.925719,
   "91d72bcce28cf6a9": 1794695679.6208858,
   "920f86ea3f72befe": 1794089056.8419774,
   "92394219fcd474c6": 1794182587.1580834,
@@ -11647,6 +11646,7 @@
   "b6058558c0e5bec3": 1794542572.18445,
   "b62df3d19da62723": 1794204179.8684347,
   "b6b7f506e1f27186": 1794990686.0561583,
+  "b6f410986be8de54": 1795262542.9365838,
   "b6fb2cda36068b57": 1794740455.9176288,
   "b7159fe7d5325bcf": 1794913434.905437,
   "b71964586a613668": 1794101487.8059556,
@@ -11717,6 +11717,7 @@
   "bfc14e550eb304db": 1795042855.9275043,
   "bfca699caed01135": 1794261652.7951982,
   "c013548ae573e5a5": 1795246712.6543932,
+  "c0176b29b71765d3": 1795262900.692457,
   "c03f7b16bb04bfe0": 1794934900.8836668,
   "c05d22619cf92fb7": 1794348106.1791668,
   "c0795d054075efdf": 1794893609.9540985,
@@ -13473,12 +13474,12 @@
   },
   "sources": {
    "/Film": 19,
-   "AIN.ua": 6,
+   "AIN.ua": 7,
    "Blabbermouth": 4,
    "Bloomberg": 47,
    "DOU": 4,
    "DOU Gamedev": 6,
-   "Deadline": 80,
+   "Deadline": 81,
    "Digital Foundry": 1,
    "Distorted Sound": 5,
    "Eurogamer": 8,
@@ -13497,7 +13498,7 @@
    "Metal Injection": 2,
    "Mezha": 36,
    "Neformat": 4,
-   "PC Gamer": 14,
+   "PC Gamer": 15,
    "Pitchfork": 4,
    "PlayUA": 6,
    "Polygon": 26,
@@ -13512,9 +13513,9 @@
    "Variety": 32
   },
   "translators": {
-   "DeepL": 65,
+   "DeepL": 67,
    "gemini-flash-latest": 35,
-   "gemini-flash-lite-latest": 343,
+   "gemini-flash-lite-latest": 345,
    "gemma-4-26b-a4b-it": 41,
    "gemma-4-31b-it": 43
   },
@@ -14120,6 +14121,11 @@
    5206350,
    "高三最后300天",
    1793025344.181545
+  ],
+  "q:33": [
+   0,
+   "",
+   1795262480.3467917
   ],
   "q:38": [
    3061580,
@@ -14886,31 +14892,6 @@
    "Days Gone",
    1793613835.6606152
   ],
-  "q:ddr5": [
-   0,
-   "",
-   1795089080.2140152
-  ],
-  "q:ddr5 jedec": [
-   0,
-   "",
-   1795089079.7638595
-  ],
-  "q:ddr6": [
-   0,
-   "",
-   1795089079.3102994
-  ],
-  "q:ddr6 ddr5": [
-   0,
-   "",
-   1795089078.830755
-  ],
-  "q:ddr6 ddr5 jedec": [
-   0,
-   "",
-   1795089078.338112
-  ],
   "q:dead island 2": [
    934700,
    "Dead Island 2",
@@ -15200,6 +15181,11 @@
    3230960,
    "EXODUS",
    1792688778.4513245
+  ],
+  "q:expedition 33": [
+   0,
+   "",
+   1795262479.8074613
   ],
   "q:explained director": [
    0,
@@ -15920,11 +15906,6 @@
    2202510,
    "ISO",
    1793025234.961304
-  ],
-  "q:jedec": [
-   0,
-   "",
-   1795089080.6785345
   ],
   "q:jennifer hale": [
    0,
@@ -17615,22 +17596,6 @@
  },
  "titles": [
   [
-   1795089082.1423235,
-   "DDR6 буде вчетверо швидшою за DDR5: JEDEC представила попередні характеристики нового стандарту пам’яті"
-  ],
-  [
-   1795089086.6101043,
-   "punkpeye/awesome-mcp-servers"
-  ],
-  [
-   1795089708.5371993,
-   "LiberNovo Is Cutting The Prices Of Its Best Chairs By Up To 42% For Black Friday And Cyber Monday"
-  ],
-  [
-   1795089808.0403163,
-   "RayNeo Built Modern Warfare 4 Its Own AR Glasses - And Put Call Of Duty Inside The Lens"
-  ],
-  [
    1795091577.2385328,
    "Fortnite Adds New Way to Get the Pirate Shop Token"
   ],
@@ -18377,25 +18342,21 @@
   [
    1795260692.8986564,
    "Goodbye 'Rings of Power,' Prime Video’s Legendary 48-Episode Fantasy Series Is Even Better"
+  ],
+  [
+   1795262542.9365857,
+   "Expedition 33 lead writer says Grand Theft Auto 6 layoff concerns show that 'people creating the value do not receive a proportionate amount of that value'"
+  ],
+  [
+   1795262898.8029468,
+   "Kate Middleton Documentary ‘Heal’ Set At BBC & NBC; Special About Princess’ Three Peaks Challenge & Cancer Journey Gets Release Date & Trailer"
+  ],
+  [
+   1795262900.6924589,
+   "Загальний дохід Lenovo у другому кварталі сягнув рекордних $30,2 млрд, а дохід від ШІ вперше перевищив $10 млрд"
   ]
  ],
  "titles_uk": [
-  [
-   1795089082.1423242,
-   "DDR6 буде вчетверо швидшою за DDR5: JEDEC представила попередні характеристики нового стандарту пам’яті"
-  ],
-  [
-   1795089086.6101053,
-   "Колекція корисних MCP-серверів на GitHub"
-  ],
-  [
-   1795089708.5372002,
-   "LiberNovo знижує ціни на свої ергономічні крісла до 42% на Black Friday"
-  ],
-  [
-   1795089808.0403178,
-   "RayNeo випустила AR-окуляри для Modern Warfare 4 із вбудованою Call of Duty"
-  ],
   [
    1795091577.238534,
    "У Fortnite з'явився новий спосіб отримати Pirate Shop Token"
@@ -19143,6 +19104,18 @@
   [
    1795260692.8986568,
    "Анімаційний серіал The Legend of Vox Machina на Prime Video"
+  ],
+  [
+   1795262542.9365869,
+   "Сценаристка Clair Obscur: Expedition 33 висловилася про загрозу звільнень у Rockstar"
+  ],
+  [
+   1795262898.8029475,
+   "Документальний фільм про Кейт Міддлтон «Heal» вийде на BBC та NBC; спеціальний випуск про виклик «Три вершини» принцеси та її боротьбу з раком отримав дату виходу та трейлер"
+  ],
+  [
+   1795262900.69246,
+   "Загальний дохід Lenovo у другому кварталі сягнув рекордних $30,2 млрд, а дохід від ШІ вперше перевищив $10 млрд"
   ]
  ],
  "ukrainian": {
