@@ -1,10 +1,22 @@
 {
  "alerts": {
-  "src:music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": {
-   "detail": "https://www.loudersound.com/feeds/all → HTTPSConnectionPool(host='www.loudersound.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «Metal Hammer (Louder)» не працює",
+  "src:ai|DOU|https://dou.ua/feed/": {
+   "detail": "https://dou.ua/feed/ → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «DOU» не працює",
    "sent": 0,
-   "since": 1795230091.1070852
+   "since": 1795231889.3460069
+  },
+  "src:games|DOU Gamedev|https://gamedev.dou.ua/feed/": {
+   "detail": "https://gamedev.dou.ua/feed/ → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «DOU Gamedev» не працює",
+   "sent": 0,
+   "since": 1795231862.5101056
+  },
+  "src:software|DOU|https://dou.ua/feed/": {
+   "detail": "https://dou.ua/feed/ → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «DOU» не працює",
+   "sent": 0,
+   "since": 1795231887.625303
   }
  },
  "daily_digest_date": "2026-11-20",
@@ -38,14 +50,13 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-21 03:09 UTC",
+  "at": "2026-11-21 03:34 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemma-4-26b-a4b-it": 2
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
@@ -9085,7 +9096,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🎬 <b>Netflix переносить реліз п’ятого сезону &quot;Відьмака&quot; на &quot;2027 рік або пізніше&quot;</b>\n\nОчікувалось, що п&#x27;ятий і фінальний сезон фентезійного серіалу &quot;Відьмак&quot; / The Witcher вийде на Netflix цієї осені, утім стримінг офіційно підтвердив: на прем&#x27;єру слід очікувати лише у 2027 році або пізніше.\n\n🔗 <a href=\"https://mezha.ua/news/the-witcher-ends-in-2027-or-later-317417/\">Mezha</a> · #кіно_і_серіали",
     "kind": "photo",
     "link": "https://mezha.ua/news/the-witcher-ends-in-2027-or-later-317417/",
     "orig": "Netflix переносить реліз п’ятого сезону \"Відьмака\" на \"2027 рік або пізніше\""
@@ -9099,7 +9109,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b>Як новий закон ЄС Digital Fairness Act вплине на дизайн відеоігор</b>\n\nЄвропейська комісія опублікувала проєкт закону Digital Fairness Act, який може суттєво вплинути на геймдизайн та розробників з ЄС. Документ вимагає відображати реальну валютну вартість під час витрачання віртуальної валюти у грі, що створює складнощі для ігрового процесу.\n\n🔗 <a href=\"https://www.gamesindustry.biz/how-the-eus-digital-fairness-act-will-impact-game-design-and-why-it-hits-european-indies-particularly-hard\">GamesIndustry.biz</a> · #ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/how-the-eus-digital-fairness-act-will-impact-game-design-and-why-it-hits-european-indies-particularly-hard",
     "orig": "How the EU's Digital Fairness Act will impact game design, and why it hits European indies particularly hard"
@@ -9322,7 +9331,12 @@
    "Apple розробляє ШІ-агента, який керуватиме застосунками та писатиме код замість користувача",
    "AIN.ua",
    {
-    "also": [],
+    "also": [
+     [
+      "Deadline",
+      "https://deadline.com/feature/presumed-innocent-season-2-news-updates-1236568924/"
+     ]
+    ],
     "caption": "💾 <b>Apple розробляє ШІ-агента, який керуватиме застосунками та писатиме код замість користувача</b>\n\nApple розглядає можливість представити сервіс уже наприкінці 2027 року, однак сама розробка зараз на ранньому етапі.\n\n🔗 <a href=\"https://ain.ua/2026/11/20/apple-rozrobliaje-si-agenta-iakii-keruvatime-zastosunkami-ta-pisatime-kod-zamist-koristuvaca/\">AIN.ua</a> · #софт",
     "kind": "photo",
     "link": "https://ain.ua/2026/11/20/apple-rozrobliaje-si-agenta-iakii-keruvatime-zastosunkami-ta-pisatime-kod-zamist-koristuvaca/",
@@ -9930,6 +9944,34 @@
     "link": "https://deadline.com/feature/hunger-games-sunrise-on-the-reaping-songs-soundtrack-album-1237165820/",
     "orig": "‘The Hunger Games: Sunrise On The Reaping’ Album Boasts 29 Songs; Releases Ahead Of Film"
    }
+  ],
+  [
+   1795231939.9444892,
+   6557,
+   "🎮",
+   "Grand Theft Auto спричинила рекордне навантаження на інтернет-провайдерів",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🎮 <b>Grand Theft Auto спричинила рекордне навантаження на інтернет-провайдерів</b>\n\nЧерез шалений попит на нову Grand Theft Auto VI обсяги інтернет-трафіку в США цього тижня досягли рекордних показників.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-20/-grand-theft-auto-drives-internet-providers-to-busiest-day-ever\">Bloomberg</a> · #ігри",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-20/-grand-theft-auto-drives-internet-providers-to-busiest-day-ever",
+    "orig": "‘Grand Theft Auto’ Drives Internet Providers to Record Usage"
+   }
+  ],
+  [
+   1795232088.0745835,
+   6558,
+   "🎬",
+   "Білл Маер висміяв молодих гравців Grand Theft Auto 6 невдалим жартом про ICE",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Білл Маер висміяв молодих гравців Grand Theft Auto 6 невдалим жартом про ICE</b>\n\nУ п&#x27;ятницю вийшов фінал 24 сезону шоу “Real Time with Bill Maher”, яке вже продовжили ще на два сезони до 2028 року. У своєму монолозі комік пройшовся по всьому: від масових технологічних збоїв до зради колишнього CEO Nvidia Jensen Huang та Grand Theft Auto 6.\n\n🔗 <a href=\"https://variety.com/2026/tv/news/bill-maher-grand-theft-auto-6-young-men-ice-real-time-hbo-1236954795/\">Variety</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/tv/news/bill-maher-grand-theft-auto-6-young-men-ice-real-time-hbo-1236954795/",
+    "orig": "Bill Maher Mocks ‘Grand Theft Auto 6’-Playing Young Men With Awful ICE Joke"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9973,7 +10015,8 @@
    1793370738.9416513
   ],
   "games|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1795222953.5563025
+   1795222953.5563025,
+   1795231939.9447293
   ],
   "games|DOU Gamedev|https://gamedev.dou.ua/feed/": [
    1795165299.799645,
@@ -10079,9 +10122,9 @@
    1795177878.0187626
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1795143815.2201784,
    1795221303.1654642,
-   1795226555.9276197
+   1795226555.9276197,
+   1795232088.0748205
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1795175603.9045115,
@@ -10367,6 +10410,7 @@
   "134b09598195da03": 1794277855.4332993,
   "13588c6d5470b5f4": 1794526288.7215617,
   "1384678544a8eeef": 1795219282.8535988,
+  "138e316a30c220bf": 1795231890.2785,
   "13ae1734ec3f9dd5": 1794243690.4623184,
   "13b88825b033d60f": 1794249090.7646024,
   "13e1a65ff91b7ffc": 1794781971.0920577,
@@ -10706,7 +10750,6 @@
   "3a828f83d3420d77": 1795005060.1889544,
   "3ad6dfcbbee37c67": 1794837716.6236005,
   "3ae61ef5615e6692": 1794717103.7216418,
-  "3ae63eeebba5480b": 1794022254.4008634,
   "3b07ebbaa131456e": 1794256256.1973255,
   "3b125feb9667330c": 1794760184.2003238,
   "3b271e893923b536": 1794396679.4891856,
@@ -10758,6 +10801,7 @@
   "41db8d6b264a6329": 1794621696.949433,
   "42193120745a619e": 1794286884.7511115,
   "4222981ed583939f": 1794447081.855637,
+  "42786359f873995b": 1795232088.07478,
   "42984313622662ae": 1794263382.7341657,
   "42a78ea0035323d9": 1795143815.220135,
   "42ced3c4e720e22b": 1794145167.6816053,
@@ -11687,7 +11731,6 @@
   "afebafccb65e39ee": 1794564055.7805443,
   "afff48cfbd5a0952": 1795127474.2218285,
   "b02a7dde28fd9a2c": 1794481254.5202796,
-  "b037dd49d6560de1": 1794022370.027243,
   "b048cc831260425e": 1794202297.0677645,
   "b056e9a28adf5360": 1795032066.1770573,
   "b06a5a4736ee8ba8": 1795091577.2385314,
@@ -11695,7 +11738,6 @@
   "b0b2cb3fd6672f94": 1794061884.9623625,
   "b105f02e885026ad": 1794117651.9309552,
   "b142d49319b80543": 1794988872.4974785,
-  "b175f947cd0ebc2e": 1794022373.6541386,
   "b196e95258849c92": 1794772855.921209,
   "b19f27cefa4a2508": 1794279784.2837017,
   "b1adf23db471e238": 1795005105.6995087,
@@ -11766,6 +11808,7 @@
   "b98b39ca4d62267d": 1794922256.1694205,
   "b9adfa7445830217": 1794036679.1735399,
   "b9bf97c175cfaf8a": 1794384055.7073183,
+  "ba1a565b3acb1053": 1795231890.279287,
   "ba5f106f556a7ee8": 1794790879.6178286,
   "ba917f886ce52e90": 1794920454.799004,
   "baa0550b9814fd83": 1795084273.2512887,
@@ -12042,7 +12085,6 @@
   "dc1fd8f7ce3dd6ce": 1794402091.127294,
   "dc4913208d86bb83": 1795134676.973493,
   "dc4e3b35cf305df9": 1794690051.930596,
-  "dc64bfb53276f322": 1794022254.4008634,
   "dcbe7ba00871fa67": 1794580287.2614179,
   "dd07abc12c0b20c3": 1794213094.5734825,
   "dd389dd16d8ef8c4": 1794632451.7232893,
@@ -12085,6 +12127,7 @@
   "e145f331f21cea7b": 1795228077.574488,
   "e15b553e45986df7": 1794695682.7557752,
   "e191d57c8956f816": 1794988870.6610136,
+  "e1ad944802c9a414": 1795231939.9446876,
   "e1fb3e34391ef3ba": 1795199460.213731,
   "e2155bb3ad00fed6": 1794747655.1469178,
   "e227ca7fe05e4f6e": 1794362593.0668566,
@@ -12770,7 +12813,7 @@
   ],
   "artists_checked": 1795221316.665932,
   "blocked_until": 1795219503.7468832,
-  "cursor": 8,
+  "cursor": 18,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13555,7 +13598,7 @@
    "/Film": 17,
    "AIN.ua": 6,
    "Blabbermouth": 4,
-   "Bloomberg": 42,
+   "Bloomberg": 43,
    "DOU": 4,
    "DOU Gamedev": 6,
    "Deadline": 76,
@@ -13589,13 +13632,13 @@
    "The Decoder": 16,
    "ThePRP": 12,
    "VGC": 9,
-   "Variety": 31
+   "Variety": 32
   },
   "translators": {
    "DeepL": 58,
    "gemini-flash-latest": 35,
    "gemini-flash-lite-latest": 335,
-   "gemma-4-26b-a4b-it": 33,
+   "gemma-4-26b-a4b-it": 35,
    "gemma-4-31b-it": 35
   },
   "week": "2026-W47"
@@ -14530,6 +14573,26 @@
    0,
    "",
    1795129358.6120908
+  ],
+  "q:auto' drives": [
+   0,
+   "",
+   1795231896.5224624
+  ],
+  "q:auto' drives internet": [
+   0,
+   "",
+   1795231896.0446944
+  ],
+  "q:auto' drives internet providers": [
+   0,
+   "",
+   1795231895.5401838
+  ],
+  "q:auto' drives internet providers to record": [
+   0,
+   "",
+   1795231895.067034
   ],
   "q:aware": [
    3249600,
@@ -15740,6 +15803,26 @@
    0,
    "",
    1795129356.3094385
+  ],
+  "q:grand theft auto'": [
+   0,
+   "",
+   1795231892.421342
+  ],
+  "q:grand theft auto' drives": [
+   0,
+   "",
+   1795231891.9318228
+  ],
+  "q:grand theft auto' drives internet": [
+   0,
+   "",
+   1795231891.4454918
+  ],
+  "q:grand theft auto' drives internet providers": [
+   0,
+   "",
+   1795231890.9424894
   ],
   "q:gravhounds": [
    2440760,
@@ -17251,6 +17334,26 @@
    "",
    1795129357.4464974
   ],
+  "q:theft auto'": [
+   0,
+   "",
+   1795231894.5856864
+  ],
+  "q:theft auto' drives": [
+   0,
+   "",
+   1795231894.0753894
+  ],
+  "q:theft auto' drives internet": [
+   0,
+   "",
+   1795231893.5589657
+  ],
+  "q:theft auto' drives internet providers": [
+   0,
+   "",
+   1795231893.0495408
+  ],
   "q:these pokemon": [
    0,
    "",
@@ -17719,14 +17822,6 @@
   ]
  },
  "titles": [
-  [
-   1795059077.2800865,
-   "MICHAEL ANTHONY Confirms PATTY SMYTH Was Once 'Considered' For VAN HALEN Singer Position"
-  ],
-  [
-   1795059079.8747392,
-   "Larry Poindexter Dies: ‘S.W.A.T.’, ‘JAG’ & ‘Days Of Our Lives’ Actor Was 66"
-  ],
   [
    1795061027.7438393,
    "Ella Langley Leads The Pack Among Early CMA Award Winners"
@@ -18502,17 +18597,17 @@
   [
    1795230551.7888384,
    "‘The Hunger Games: Sunrise On The Reaping’ Album Boasts 29 Songs; Releases Ahead Of Film"
+  ],
+  [
+   1795231939.944689,
+   "‘Grand Theft Auto’ Drives Internet Providers to Record Usage"
+  ],
+  [
+   1795232088.0747817,
+   "Bill Maher Mocks ‘Grand Theft Auto 6’-Playing Young Men With Awful ICE Joke"
   ]
  ],
  "titles_uk": [
-  [
-   1795059077.2800875,
-   "Пети Сміт дійсно розтинали як вокалістку VAN HALEN у 1985 році"
-  ],
-  [
-   1795059079.87474,
-   "Помер актор Ларрі Поїндекстер"
-  ],
   [
    1795061027.74384,
    "Ella Langley тріумфує на церемонії CMA Awards"
@@ -19288,6 +19383,14 @@
   [
    1795230551.788839,
    "Альбом «Голодні ігри: Світанок на Жнивах» містить 29 пісень; вийде до прем’єри фільму"
+  ],
+  [
+   1795231939.94469,
+   "Grand Theft Auto спричинила рекордне навантаження на інтернет-провайдерів"
+  ],
+  [
+   1795232088.0747824,
+   "Білл Маер висміяв молодих гравців Grand Theft Auto 6 невдалим жартом про ICE"
   ]
  ],
  "ukrainian": {
