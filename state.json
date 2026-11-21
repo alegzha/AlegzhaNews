@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": {
+   "detail": "https://www.loudersound.com/feeds/all → HTTPSConnectionPool(host='www.loudersound.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Metal Hammer (Louder)» не працює",
+   "sent": 0,
+   "since": 1795230091.1070852
+  }
+ },
  "daily_digest_date": "2026-11-20",
  "freebies": {
   "last_check": 1795226602.4159882,
@@ -31,12 +38,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-21 02:37 UTC",
+  "at": "2026-11-21 03:09 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2,
-   "gemma-4-26b-a4b-it": 1
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "DeepL",
@@ -44,32 +50,6 @@
   ]
  },
  "post_log": [
-  [
-   1794538893.904507,
-   5794,
-   "🤘",
-   "Росалія виконала попурі з треків альбому Lux на Latin Grammys 2026",
-   "Pitchfork",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://pitchfork.com/story/watch-rosalia-perform-a-lux-medley-at-the-2026-latin-grammys/",
-    "orig": "Watch Rosalía Perform a Lux Medley at the 2026 Latin Grammys"
-   }
-  ],
-  [
-   1794538904.7596252,
-   5795,
-   "🎬",
-   "Аланіс Моріссетт пригадала, як Бен Аффлек радив їй «демонструвати сексуальність» на зйомках фільму Dogma",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/alanis-morissette-dogma-ben-affleck-lead-with-my-sexuality-1237222468/",
-    "orig": "Alanis Morissette Recalls ‘Dogma’ Co-Star Ben Affleck Asking Her Why She Didn’t “Lead With My Sexuality”"
-   }
-  ],
   [
    1794540952.2273984,
    5796,
@@ -9079,7 +9059,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/3751950/\">Assassin&#x27;s Creed Black Flag Resynced</a> забезпечив перевищення прогнозу щодо чистого обсягу замовлень Ubisoft у 2-му кварталі; результати за 1-е півріччя знизилися на 16,5 % до 644,7 млн євро</b>\n🕹 <a href=\"https://store.steampowered.com/app/3751950/\">Assassin&#x27;s Creed Black Flag Resynced</a> — 1 799,00₴\n\nВипуск гри «Assassin&#x27;s Creed Black Flag Resynced» сприяв зростанню чистого обсягу замовлень Ubisoft у другому кварталі до 389 млн євро, що перевищило прогнозний показник у 370 млн євро.\n\n🔗 <a href=\"https://www.gamesindustry.biz/assassins-creed-black-flag-resynced-drives-ubisoft-q2-net-bookings-above-guidance-h1-results-decline-165-to-6447m\">GamesIndustry.biz</a> · #ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/assassins-creed-black-flag-resynced-drives-ubisoft-q2-net-bookings-above-guidance-h1-results-decline-165-to-6447m",
     "orig": "Assassin's Creed Black Flag Resynced drives Ubisoft Q2 net bookings above guidance; H1 results decline 16.5% to €644.7m"
@@ -9093,7 +9072,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Дизайнер WoW: Forever розповідає про створення унікальних та атмосферних предметів</b>\n\nСтарший ігровий дизайнер WoW: Forever Ейдан Мун прагне, щоб предмети в грі були атмосферними та розповідали історію світу, а не лише надавали бонуси. Він фокусується на унікальності речей, наприклад, на предметах, що дають додаткові характеристики за повний інвентар.\n\n🔗 <a href=\"https://www.pcgamer.com/games/world-of-warcraft/ive-done-some-stupid-stuff-says-wow-forever-dev-whos-adding-unique-fun-items-to-the-game-theres-a-lot-theyve-not-seen-that-im-very-happy-with/\">PC Gamer</a> · #ігри #WoWForever",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/world-of-warcraft/ive-done-some-stupid-stuff-says-wow-forever-dev-whos-adding-unique-fun-items-to-the-game-theres-a-lot-theyve-not-seen-that-im-very-happy-with/",
     "orig": "'I've done some stupid stuff', says WoW: Forever dev who's adding unique, fun items to the game: 'There's a lot they've not seen that I'm very happy with'"
@@ -9924,6 +9902,34 @@
     "link": "https://variety.com/2026/film/news/hello-sunshine-lauren-neustadter-exits-reese-witherspoon-1236954660/",
     "orig": "Hello Sunshine’s Lauren Neustadter to Leave Reese Witherspoon’s Company at End of Year"
    }
+  ],
+  [
+   1795230109.4502242,
+   6555,
+   "🎬",
+   "Sunrise on the Reaping називають найпохмурішим фільмом у франшизі The Hunger Games",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Sunrise on the Reaping називають найпохмурішим фільмом у франшизі The Hunger Games</b>\n\nФільм The Hunger Games: Sunrise on the Reaping вирізняється надзвичайно похмурою атмосферою, жорстокими смертями та безжальним ставленням Капітолію до дітей. Ця стрічка зосереджується на трагічній історії боротьби проти тиранії, значно перевершуючи попередні частини за рівнем безнадії.\n\n🔗 <a href=\"https://www.slashfilm.com/2322593/why-the-hunger-games-sunrise-n-the-reaping-darkest-movie-series/\">/Film</a> · #кіно_і_серіали #TheHungerGames",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2322593/why-the-hunger-games-sunrise-n-the-reaping-darkest-movie-series/",
+    "orig": "Why The Hunger Games: Sunrise On The Reaping Is The Darkest Movie In The Series"
+   }
+  ],
+  [
+   1795230551.788682,
+   6556,
+   "🎬",
+   "Альбом «Голодні ігри: Світанок на Жнивах» містить 29 пісень; вийде до прем’єри фільму",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Альбом «Голодні ігри: Світанок на Жнивах» містить 29 пісень; вийде до прем’єри фільму</b>\n\nОновлено, 20 листопада: Нарешті вийшов фільм «Голодні ігри: Світанок на Жнивах», у якому є як похмурі сцени тортур, так і сцени, що вселяють надію.\n\n🔗 <a href=\"https://deadline.com/feature/hunger-games-sunrise-on-the-reaping-songs-soundtrack-album-1237165820/\">Deadline</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/feature/hunger-games-sunrise-on-the-reaping-songs-soundtrack-album-1237165820/",
+    "orig": "‘The Hunger Games: Sunrise On The Reaping’ Album Boasts 29 Songs; Releases Ahead Of Film"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10040,17 +10046,13 @@
    1795181616.1431384
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
-   1795055945.7832935,
-   1795094252.2488618,
-   1795131549.417504
+   1795230109.4504516
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792944099.3403795,
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1795141929.7191947,
-   1795143736.9269614,
    1795145931.5669382,
    1795147470.2166493,
    1795151069.276965,
@@ -10063,7 +10065,8 @@
    1795222893.6280503,
    1795226592.8383157,
    1795228006.021587,
-   1795228077.574535
+   1795228077.574535,
+   1795230551.7888846
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795087876.0739417
@@ -11434,7 +11437,6 @@
   "90ae3a0eb04777be": 1794576685.7442052,
   "90b9fbaf9f61fe6d": 1795061035.296347,
   "90c523b9ea78f6c7": 1794805252.091764,
-  "90c61afaf744fca3": 1794020477.300451,
   "910b433e2e19ff81": 1794465189.7481787,
   "9130ec7cd03a3f9d": 1794920486.4114764,
   "915a19290b19235d": 1794565873.5842419,
@@ -11702,7 +11704,6 @@
   "b2183a948b0068a2": 1794708113.8907459,
   "b2189a02ad850663": 1794043852.507571,
   "b22522d14a17f95f": 1794373334.770345,
-  "b2356d340e22b114": 1794020481.8517892,
   "b24d247460104a0c": 1794868447.5765305,
   "b2781f35e5635fe0": 1794695766.841244,
   "b29c6b619b90c5e0": 1795100487.7136989,
@@ -11883,6 +11884,7 @@
   "c93d57bf104cfb4f": 1794276090.3029108,
   "c97f73ff002aedd0": 1794180655.9188743,
   "c9860e157915af78": 1794940252.7221177,
+  "c9b8f8a2dd2a6317": 1795230109.4504037,
   "ca38a4658abbf897": 1794263486.3048987,
   "ca4a8dd162908ceb": 1794915363.0843284,
   "ca4be54cab311714": 1794051080.6632652,
@@ -11906,6 +11908,7 @@
   "cc3e62c2fc8cd3ed": 1795066308.2284472,
   "cc6b621d7433f3d2": 1795012321.578571,
   "cc9ad175fffa224d": 1794366131.0094316,
+  "ccc544e4b8e1c700": 1795230551.7888367,
   "cd16ad53b9433f3e": 1794115881.4298012,
   "cd2a9e679a7417f2": 1795177877.3336859,
   "cd5819428ecda86e": 1795001460.8855703,
@@ -11925,7 +11928,6 @@
   "cea12eeb92c17f88": 1794591053.6005082,
   "cea51c5edd215ffb": 1794295904.4571853,
   "ceaf5fd4dacc056a": 1794348093.4650974,
-  "cebbae4c9350a4e5": 1794020483.733578,
   "ced815f20d655e65": 1795145477.1130702,
   "ceefaeb1763d1f00": 1795208454.5689726,
   "cefa48c4af768819": 1795206685.5016928,
@@ -12768,7 +12770,7 @@
   ],
   "artists_checked": 1795221316.665932,
   "blocked_until": 1795219503.7468832,
-  "cursor": 368,
+  "cursor": 8,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13550,13 +13552,13 @@
    "Variety": 15
   },
   "sources": {
-   "/Film": 16,
+   "/Film": 17,
    "AIN.ua": 6,
    "Blabbermouth": 4,
    "Bloomberg": 42,
    "DOU": 4,
    "DOU Gamedev": 6,
-   "Deadline": 75,
+   "Deadline": 76,
    "Digital Foundry": 1,
    "Distorted Sound": 5,
    "Eurogamer": 7,
@@ -13590,9 +13592,9 @@
    "Variety": 31
   },
   "translators": {
-   "DeepL": 56,
+   "DeepL": 58,
    "gemini-flash-latest": 35,
-   "gemini-flash-lite-latest": 334,
+   "gemini-flash-lite-latest": 335,
    "gemma-4-26b-a4b-it": 33,
    "gemma-4-31b-it": 35
   },
@@ -17718,22 +17720,6 @@
  },
  "titles": [
   [
-   1795055945.7832482,
-   "Friday The 13th (2027) Movie Cast, Title And Everything We Know So Far"
-  ],
-  [
-   1795055952.874635,
-   "Taylor Swift Performs ‘I Knew It, I Knew You’ and ‘Our Song’ Mashup at CMA Awards"
-  ],
-  [
-   1795057287.8989701,
-   "Instant noodles and cassette tapes: A short history of Bon Jovi and advertising"
-  ],
-  [
-   1795057290.9654453,
-   "Deadlands release new music video for ‘Savior’"
-  ],
-  [
    1795059077.2800865,
    "MICHAEL ANTHONY Confirms PATTY SMYTH Was Once 'Considered' For VAN HALEN Singer Position"
   ],
@@ -18508,25 +18494,17 @@
   [
    1795228645.1996648,
    "Hello Sunshine’s Lauren Neustadter to Leave Reese Witherspoon’s Company at End of Year"
+  ],
+  [
+   1795230109.450405,
+   "Why The Hunger Games: Sunrise On The Reaping Is The Darkest Movie In The Series"
+  ],
+  [
+   1795230551.7888384,
+   "‘The Hunger Games: Sunrise On The Reaping’ Album Boasts 29 Songs; Releases Ahead Of Film"
   ]
  ],
  "titles_uk": [
-  [
-   1795055945.783249,
-   "Анонсовано новий фільм про Jason Voorhees з датою виходу у 2027 році"
-  ],
-  [
-   1795055952.8746357,
-   "Taylor Swift виступила на CMA Awards уперше за 13 років"
-  ],
-  [
-   1795057287.8989708,
-   "Історія співпраці Bon Jovi з японською та світовою рекламою"
-  ],
-  [
-   1795057290.9654462,
-   "Deadlands випустили новий кліп на пісню Savior"
-  ],
   [
    1795059077.2800875,
    "Пети Сміт дійсно розтинали як вокалістку VAN HALEN у 1985 році"
@@ -19302,6 +19280,14 @@
   [
    1795228645.1996655,
    "Лорен Нойстедтер залишає компанію Різ Візерспун Hello Sunshine"
+  ],
+  [
+   1795230109.4504056,
+   "Sunrise on the Reaping називають найпохмурішим фільмом у франшизі The Hunger Games"
+  ],
+  [
+   1795230551.788839,
+   "Альбом «Голодні ігри: Світанок на Жнивах» містить 29 пісень; вийде до прем’єри фільму"
   ]
  ],
  "ukrainian": {
@@ -21756,7 +21742,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795226601.9471674,
+  "last_check": 1795230561.0102594,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
