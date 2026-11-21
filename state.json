@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 500 Server Error: Internal Server Error for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1795251693.4175014
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-20",
  "freebies": {
   "last_check": 1795249979.5440125,
@@ -38,11 +31,12 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-21 09:37 UTC",
+  "at": "2026-11-21 10:09 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-31b-it": 1
   },
   "used": [
    "DeepL",
@@ -50,50 +44,6 @@
   ]
  },
  "post_log": [
-  [
-   1794562760.8281326,
-   5820,
-   "💾",
-   "QwenLM випустила модель qwen-code",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/QwenLM/qwen-code",
-    "orig": "QwenLM/qwen-code"
-   }
-  ],
-  [
-   1794564088.5959008,
-   5821,
-   "🎮",
-   "Wolfenstein 3 офіційно перебуває в розробці у MachineGames",
-   "GameSpot",
-   {
-    "also": [
-     [
-      "ITC.ua",
-      "https://itc.ua/ua/novini/blaskovits-znovu-v-dili-machinegames-ofitsijno-anonsuvala-wolfenstein-3/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.gamespot.com/articles/wolfenstein-3-is-officially-in-production-at-machinegames/",
-    "orig": "Wolfenstein 3 Is Officially In Production At MachineGames"
-   }
-  ],
-  [
-   1794564188.1658814,
-   5822,
-   "💾",
-   "ashhart/TensorFold: рушій для інференсу LLM для Metal, CUDA і Vulkan",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/ashhart/TensorFold",
-    "orig": "ashhart/TensorFold"
-   }
-  ],
   [
    1794565873.5839956,
    5823,
@@ -9054,7 +9004,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>Microsoft прив&#x27;язує зарплати в хмарному підрозділі до результатів роботи</b>\n\nMicrosoft Corp. змінює систему оплати праці у своєму ключовому хмарному підрозділі, роблячи її залежною від продуктивності. Це чергова спроба техіндустрії стимулювати працівників працювати інтенсивніше.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-20/microsoft-to-pay-top-cloud-workers-more-crack-down-on-others\">Bloomberg</a> · #софт #Microsoft",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-20/microsoft-to-pay-top-cloud-workers-more-crack-down-on-others",
     "orig": "Microsoft to Pay Top Cloud Workers More, Crack Down on Others"
@@ -9068,7 +9017,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>Хмарна компанія CloudFerro розглядає можливість IPO у Варшаві</b>\n\nПольський провайдер хмарної інфраструктури CloudFerro SA планує вихід на біржу у Варшаві вже наступного року.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-20/cloud-infrastructure-firm-cloudferro-is-said-to-weigh-warsaw-ipo\">Bloomberg</a> · #софт",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-20/cloud-infrastructure-firm-cloudferro-is-said-to-weigh-warsaw-ipo",
     "orig": "Cloud Infrastructure Firm CloudFerro Is Said to Weigh Warsaw IPO"
@@ -9082,7 +9030,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Gemini від Google тепер керує програмами на Mac у фоновому режимі</b>\n\nGoogle представив функцію Computer Use для Gemini на Mac, яка дозволяє ШІ виконувати багатоетапні завдання в локальних файлах, програмах і вебсайтах. Процес відбувається в окремому вікні, щоб не заважати користувачеві, а доступ до додатків та ключові дії контролюються людиною. Функція вже доступна англійською мовою в США.\n\n🔗 <a href=\"https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/\">The Decoder</a> · #ШІ #Google #Gemini",
     "kind": "photo",
     "link": "https://the-decoder.com/googles-gemini-can-now-run-mac-apps-and-finish-desktop-chores-in-the-background-while-you-keep-working/",
     "orig": "Google's Gemini can now run Mac apps and finish desktop chores in the background while you keep working"
@@ -9904,6 +9851,48 @@
     "link": "https://www.bloomberg.com/news/videos/2026-11-21/how-ai-is-reshaping-china-s-industrial-policy-video",
     "orig": "How AI Is Reshaping China's Industrial Policy"
    }
+  ],
+  [
+   1795255451.0487509,
+   6579,
+   "🎬",
+   "Біопік Michael про Майкла Джексона пропустить BAFTAs",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Біопік Michael про Майкла Джексона пропустить BAFTAs</b>\n\nНеочікувано, але касовий хіт Michael не потрапить на BAFTAs, підтверджує Deadline. Продюсери GK Films та дистриб&#x27;ютор Universal не подадуть мільярдний фільм Антуана Фуква про короля поп-музики на розгляд. Міжнародним релізом стрічки займалася Lionsgate.\n\n🔗 <a href=\"https://deadline.com/2026/11/michael-jackson-biopic-michael-skipping-baftas-1237230863/\">Deadline</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/michael-jackson-biopic-michael-skipping-baftas-1237230863/",
+    "orig": "Michael Jackson Biopic ‘Michael’ Skipping BAFTAs"
+   }
+  ],
+  [
+   1795255749.951665,
+   6580,
+   "🎬",
+   "Зірка серіалу «Аль-Хайба» Таїм Хасан зіграє роль сирійського викривача Фаріда Аль-Мадхана у біографічному фільмі «Цезар», знятому за підтримки компанії Neon",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Зірка серіалу «Аль-Хайба» Таїм Хасан зіграє роль сирійського викривача Фаріда Аль-Мадхана у біографічному фільмі «Цезар», знятому за підтримки компанії Neon</b>\n\nСирійський актор Таїм Хасан (Аль-Хайбар) підписав контракт на головну роль у біографічному фільмі «Цезар», що знімається за підтримки компанії Neon. Фільм розповідає про військового офіцера Фаріда Аль-Мадхана, який ризикував життям, щоб викрити тортури та порушення прав людини у в’язницях за часів президентства Башара Аль-Асада. Водночас було оголошено, що режисером цієї драми стане Амір Фахер Ельдін.\n\n🔗 <a href=\"https://deadline.com/2026/11/al-hayba-taim-hassan-syrian-neon-department-m-caesar-biopic-1237230860/\">Deadline</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/al-hayba-taim-hassan-syrian-neon-department-m-caesar-biopic-1237230860/",
+    "orig": "‘Al Hayba’ Star Taim Hasan To Play Syrian Whistleblower Farid Al-Madhhan In Neon-Backed ‘Caesar’ Biopic"
+   }
+  ],
+  [
+   1795255758.0186944,
+   6581,
+   "🎮",
+   "Maniac поєднує виживання у стилі Vampire Survivors та хаос класичних GTA",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/1482380/\">Maniac</a> поєднує виживання у стилі <a href=\"https://store.steampowered.com/app/1794680/\">Vampire Survivors</a> та хаос класичних GTA</b>\n🕹 <a href=\"https://store.steampowered.com/app/1794680/\">Vampire Survivors</a> — 79,00₴\n🕹 <a href=\"https://store.steampowered.com/app/1482380/\">Maniac</a> — 159,00₴\n\nРозробник Міхал Марцинковскі випустив рогаліт-шутер Maniac за £4, який поєднує геймплей Vampire Survivors і ретро-екшен Grand Theft Auto 2. Гравцям пропонують влаштовувати хаос на процедурно згенерованій карті, підвищувати рівень розшуку та виживати протягом 20 хвилин.\n\n🔗 <a href=\"https://www.eurogamer.net/grand-theft-auto-6-vampire-survivors-maniac-interview\">Eurogamer</a> · #ігри #Maniac #GrandTheftAuto",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/grand-theft-auto-6-vampire-survivors-maniac-interview",
+    "orig": "What if Vampire Survivors met Grand Theft Auto 2? Maniac is a brilliant mash-up that dares to ask that question"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9959,7 +9948,8 @@
    1795192397.4350631
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1795190633.35624
+   1795190633.35624,
+   1795255758.0189424
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1795188781.189875
@@ -10028,10 +10018,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1795151069.276965,
-   1795158349.12416,
-   1795160100.253826,
-   1795169002.4798064,
    1795213947.065613,
    1795214135.4331422,
    1795221210.1404307,
@@ -10041,7 +10027,9 @@
    1795228077.574535,
    1795230551.7888846,
    1795234044.1679242,
-   1795234121.9146147
+   1795234121.9146147,
+   1795255451.0490115,
+   1795255749.9519207
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795087876.0739417
@@ -10913,7 +10901,6 @@
   "58d1500c12993f95": 1794191760.1605656,
   "58e3781504357845": 1795131055.6482096,
   "590e298f3d1a3af4": 1795118455.5877645,
-  "5916c4ad29c66c6c": 1794046017.6232014,
   "591d82ee7e715012": 1795007003.31536,
   "5936ac056f3e67e0": 1794150169.541632,
   "594a7880d7954e73": 1794240087.6773205,
@@ -11259,7 +11246,6 @@
   "7d9153c0bf2c6f9a": 1795089086.610102,
   "7da1aa5af83fca9b": 1794961881.3375428,
   "7dccb487c29d857b": 1794711697.966141,
-  "7dd2e688b5a7d77f": 1794044396.2106276,
   "7ddf93474cac452a": 1794171681.8344698,
   "7e5179891b2a5c6a": 1794805382.9662855,
   "7e51a9c0ae735278": 1795237263.5151572,
@@ -11437,6 +11423,7 @@
   "926ca9232c128dae": 1795100607.302115,
   "92b2f5783afbd668": 1794178895.0015182,
   "9328428ce2953fe6": 1794157296.8875062,
+  "935dd02587c2e47e": 1795255253.744273,
   "93a3edeb4c4faf79": 1794614675.0055325,
   "93d275bd2b7d4e46": 1795053725.0110817,
   "93f38d52fdfb8e12": 1794706296.939091,
@@ -11483,7 +11470,6 @@
   "998ca5903d76ff06": 1794241852.9158669,
   "999268c316e2c4e1": 1794987096.939376,
   "999ee7e1f36a32ae": 1794756685.861182,
-  "99c58b0dd06fcfd9": 1794046059.3308759,
   "9a0fd65b06fef295": 1795113258.737289,
   "9a22548e8b7ee10d": 1794303084.7110562,
   "9a2ea61c28cdc4b5": 1794160856.846131,
@@ -11618,6 +11604,7 @@
   "a8d39c6181656603": 1794958372.3117917,
   "a8efea0dacde155c": 1794385885.3052723,
   "a8f47de703ee7c26": 1794261675.0510595,
+  "a9279387ae705a48": 1795255749.951876,
   "a9802821376f6db1": 1794954705.104032,
   "a998af886d9355e1": 1795044701.484141,
   "a99a938255b7b6a6": 1795012310.146826,
@@ -11939,6 +11926,7 @@
   "d1bd74de1aa61c8b": 1795147332.8076549,
   "d1d5982577bef9c1": 1795240915.26803,
   "d1dba08093721437": 1794459674.8123393,
+  "d1dc6f43e5e26e58": 1795255758.018902,
   "d1e18c09b992d466": 1794143063.8868604,
   "d23ce669a9437549": 1795132875.7118263,
   "d24529fab54439e8": 1794551588.8985112,
@@ -12234,6 +12222,7 @@
   "f5fd0b6ae5386051": 1794794842.0780804,
   "f669a5e85b54dd50": 1794999732.9790018,
   "f6929cbc1acc2983": 1794243653.6223223,
+  "f6afea080b7ad85a": 1795255451.0489664,
   "f6e433df38054a4e": 1794754851.4331238,
   "f71b1eeb2c071adc": 1795073478.9226756,
   "f73295c867ad4ff6": 1794682854.575637,
@@ -13538,7 +13527,7 @@
    "PC Gamer": 19,
    "Pitchfork": 2,
    "PlayUA": 2,
-   "Polygon": 55,
+   "Polygon": 56,
    "Product Hunt": 1,
    "Revolver": 1,
    "The Decoder": 1,
@@ -13552,10 +13541,10 @@
    "Bloomberg": 47,
    "DOU": 4,
    "DOU Gamedev": 6,
-   "Deadline": 78,
+   "Deadline": 80,
    "Digital Foundry": 1,
    "Distorted Sound": 5,
-   "Eurogamer": 7,
+   "Eurogamer": 8,
    "GameSpot": 4,
    "GamesIndustry.biz": 12,
    "GitHub Trending": 29,
@@ -13586,11 +13575,11 @@
    "Variety": 32
   },
   "translators": {
-   "DeepL": 63,
+   "DeepL": 65,
    "gemini-flash-latest": 35,
-   "gemini-flash-lite-latest": 341,
+   "gemini-flash-lite-latest": 342,
    "gemma-4-26b-a4b-it": 41,
-   "gemma-4-31b-it": 41
+   "gemma-4-31b-it": 42
   },
   "week": "2026-W47"
  },
@@ -14360,16 +14349,6 @@
    "",
    1795082477.019333
   ],
-  "q:after grand theft auto": [
-   0,
-   "",
-   1795082476.4085724
-  ],
-  "q:after grand theft auto 6": [
-   0,
-   "",
-   1795082475.853468
-  ],
   "q:ai driven": [
    0,
    "",
@@ -14454,6 +14433,11 @@
    1597670,
    "Astralis",
    1793192563.4859629
+  ],
+  "q:auto 2": [
+   0,
+   "",
+   1795255753.6850457
   ],
   "q:auto 6": [
    0,
@@ -15670,6 +15654,11 @@
    "",
    1795217477.5748367
   ],
+  "q:grand theft auto 2": [
+   0,
+   "",
+   1795255752.5456507
+  ],
   "q:grand theft auto 6": [
    0,
    "",
@@ -16169,6 +16158,11 @@
    5272890,
    "Mammoth",
    1792762325.5861564
+  ],
+  "q:maniac": [
+   1482380,
+   "Maniac",
+   1795255754.2123826
   ],
   "q:marvel cosmic invasion": [
    2753970,
@@ -17165,6 +17159,11 @@
    "",
    1795217479.8295867
   ],
+  "q:theft auto 2": [
+   0,
+   "",
+   1795255753.1270304
+  ],
   "q:theft auto 6": [
    0,
    "",
@@ -17364,6 +17363,11 @@
    0,
    "",
    1795096942.0742786
+  ],
+  "q:vampire survivors": [
+   1794680,
+   "Vampire Survivors",
+   1795255752.0298913
   ],
   "q:vi'": [
    0,
@@ -17667,10 +17671,6 @@
   ]
  },
  "titles": [
-  [
-   1795082840.6393225,
-   "After Grand Theft Auto 6's launch, players are in love with wacky criminality, in-game social media, and animal fatalities"
-  ],
   [
    1795083121.6604223,
    "appwrite/appwrite"
@@ -18442,13 +18442,21 @@
   [
    1795253856.8415217,
    "How AI Is Reshaping China's Industrial Policy"
+  ],
+  [
+   1795255451.048969,
+   "Michael Jackson Biopic ‘Michael’ Skipping BAFTAs"
+  ],
+  [
+   1795255749.9518778,
+   "‘Al Hayba’ Star Taim Hasan To Play Syrian Whistleblower Farid Al-Madhhan In Neon-Backed ‘Caesar’ Biopic"
+  ],
+  [
+   1795255758.0189037,
+   "What if Vampire Survivors met Grand Theft Auto 2? Maniac is a brilliant mash-up that dares to ask that question"
   ]
  ],
  "titles_uk": [
-  [
-   1795082840.639324,
-   "Після виходу гри Grand Theft Auto 6 гравці у захваті від божевільних злочинів, ігрових соціальних мереж та загибелі тварин"
-  ],
   [
    1795083121.6604235,
    "appwrite/appwrite"
@@ -19220,6 +19228,18 @@
   [
    1795253856.8415227,
    "Як штучний інтелект змінює промислову політику Китаю"
+  ],
+  [
+   1795255451.0489695,
+   "Біопік Michael про Майкла Джексона пропустить BAFTAs"
+  ],
+  [
+   1795255749.9518785,
+   "Зірка серіалу «Аль-Хайба» Таїм Хасан зіграє роль сирійського викривача Фаріда Аль-Мадхана у біографічному фільмі «Цезар», знятому за підтримки компанії Neon"
+  ],
+  [
+   1795255758.0189047,
+   "Maniac поєднує виживання у стилі Vampire Survivors та хаос класичних GTA"
   ]
  ],
  "ukrainian": {
@@ -20988,6 +21008,13 @@
     "price": "1 599,00₴",
     "release": 1758211254
    },
+   "3010850": {
+    "coming_soon": false,
+    "discount": 30,
+    "name": "Gears of War: E-Day",
+    "price": "1 609,00₴",
+    "release": 1791298839
+   },
    "301910": {
     "coming_soon": false,
     "discount": 80,
@@ -21675,7 +21702,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795251740.2493284,
+  "last_check": 1795255766.4968743,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
