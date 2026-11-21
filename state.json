@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:games|Polygon|https://www.polygon.com/feed/": {
+   "detail": "https://www.polygon.com/feed/ → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\nhttps://www.polygon.com/rss/index.xml → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+   "label": "Джерело «Polygon» не працює",
+   "sent": 0,
+   "since": 1795260017.780663
+  }
+ },
  "daily_digest_date": "2026-11-20",
  "freebies": {
   "last_check": 1795257086.1149356,
@@ -31,102 +38,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-21 10:09 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-21 11:21 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
    "gemma-4-31b-it": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794565873.5839956,
-   5823,
-   "🎬",
-   "Прем'єра «Того, хто біжить по лезу 2099»: як виглядали головні зірки",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/prem-yera-togo-hto-bizhyt-po-lezu-2099-yak-vyglyadaly-golovni-zirky/",
-    "orig": "Прем'єра «Того, хто біжить по лезу 2099»: як виглядали головні зірки"
-   }
-  ],
-  [
-   1794565879.9853463,
-   5824,
-   "💾",
-   "Оновлення графіка релизів та правила для розробників Node.js",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/nodejs/node",
-    "orig": "nodejs/node"
-   }
-  ],
-  [
-   1794567690.3821492,
-   5825,
-   "🎮",
-   "Анонсовано Horu — глобальну 4X RTS у стилі Star Wars: Empire at War",
-   "Rock Paper Shotgun",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.rockpapershotgun.com/horu-is-a-sci-fi-4x-rts-inspired-by-star-wars-empire-at-war-in-which-spaceships-are-spellcasters-who-can-summon-black-holes",
-    "orig": "Horu is a sci-fi 4X RTS inspired by Star Wars: Empire at War in which spaceships are spellcasters who can summon black holes"
-   }
-  ],
-  [
-   1794567703.8831909,
-   5826,
-   "💾",
-   "OpenBot: ШІ-колеги з власним віртуальним середовищем",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/CopilotKit/OpenBot",
-    "orig": "CopilotKit/OpenBot"
-   }
-  ],
-  [
-   1794568315.964403,
-   5827,
-   "🤖",
-   "13 моделей Claude, AI-тестувальник і нові інструменти — AI шумлять #8",
-   "DOU",
-   {
-    "also": [
-     [
-      "The Decoder",
-      "https://the-decoder.com/anthropics-claude-for-manufacturing-plugs-ai-directly-into-factory-software-to-automate-industrial-workflows/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://dou.ua/lenta/articles/ai-tools-8/",
-    "orig": "13 моделей Claude, AI-тестувальник і нові інструменти — AI шумлять #8"
-   }
-  ],
-  [
-   1794568367.1631746,
-   5828,
-   "💾",
-   "Реліз інструменту Free Claude Code для роботи з ШІ",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/Alishahryar1/free-claude-code",
-    "orig": "Alishahryar1/free-claude-code"
-   }
-  ],
   [
    1794569525.3369014,
    5829,
@@ -9043,7 +8965,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🤖 <b>Signal блокує функцію скриншотів, щоб Gemini та Siri AI не читали листування</b>\n\nМесенджер Signal запроваджує обмеження на створення скриншотів на пристроях з Android та iOS, аби вберегти користувачів від надмірного доступу ШІ-помічників до особистої інформації.\n\n🔗 <a href=\"https://mezha.ua/news/signal-blocks-screenshots-317432/\">Mezha</a> · #ШІ",
     "kind": "photo",
     "link": "https://mezha.ua/news/signal-blocks-screenshots-317432/",
     "orig": "Signal блокує функцію скриншотів, щоб Gemini та Siri AI не читали листування"
@@ -9893,6 +9814,20 @@
     "link": "https://www.eurogamer.net/grand-theft-auto-6-vampire-survivors-maniac-interview",
     "orig": "What if Vampire Survivors met Grand Theft Auto 2? Maniac is a brilliant mash-up that dares to ask that question"
    }
+  ],
+  [
+   1795260086.5879824,
+   6582,
+   "🎬",
+   "Ель Фаннінг зіграє молоду Effie Trinket у The Hunger Games: Sunrise on the Reaping",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Ель Фаннінг зіграє молоду Effie Trinket у The Hunger Games: Sunrise on the Reaping</b>\n\nЕль Фаннінг зіграє молоду Effie Trinket у приквелі The Hunger Games: Sunrise on the Reaping. За сюжетом вона стане стилісткою, яка підтримує Haymitch Abernathy. До акторського складу також увійшли Джозеф Зада, Кіран Калкін та Ральф Файнс.\n\n🔗 <a href=\"https://www.slashfilm.com/2314806/effie-trinket-the-hunger-games-sunrise-on-the-reaping-actress-elle-fanning/\">/Film</a> · #кіно_і_серіали #HungerGames",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2314806/effie-trinket-the-hunger-games-sunrise-on-the-reaping-actress-elle-fanning/",
+    "orig": "Why Effie Trinket From The Hunger Games: Sunrise On The Reaping Looks So Familiar"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10011,7 +9946,8 @@
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1795230109.4504516,
-   1795235553.7755306
+   1795235553.7755306,
+   1795260086.5882065
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792944099.3403795,
@@ -10414,7 +10350,6 @@
   "1bc693cb0759f732": 1794355280.5712426,
   "1bfc56b870723ce3": 1794216653.1201742,
   "1c128a7475e16ccb": 1794609307.0790644,
-  "1c1a19b7e800d5de": 1794049308.5673697,
   "1c7c3a948c7ce4b2": 1795131055.6482096,
   "1c7fb1154a9e9ebb": 1795185063.5654962,
   "1c8f472767ef8e44": 1794909753.6288118,
@@ -10445,7 +10380,6 @@
   "1fb256ce62b78d40": 1794994393.6393545,
   "1fb920e2264c6a5c": 1794974479.7680006,
   "1fe00e788b83a58e": 1794704495.3498983,
-  "2012888a0ef483bf": 1794049293.7881222,
   "2012e2bc9e7d7929": 1794524548.5083108,
   "20236d44aef35df3": 1794312055.4112585,
   "202d5a42a7dd3115": 1795015897.3482482,
@@ -10691,6 +10625,7 @@
   "3c81bd21a2a8bb66": 1795066295.3549402,
   "3ca8def2211c3892": 1795091455.8380237,
   "3ca9bd81350269b2": 1794818050.7579744,
+  "3cdc1e9688609114": 1795260086.5881538,
   "3d2f16db9e0ae111": 1794434586.8519456,
   "3d378ca06c4e6fc2": 1794330484.588936,
   "3d44dcacb6e9a819": 1795039284.2790308,
@@ -13532,7 +13467,7 @@
    "Variety": 15
   },
   "sources": {
-   "/Film": 18,
+   "/Film": 19,
    "AIN.ua": 6,
    "Blabbermouth": 4,
    "Bloomberg": 47,
@@ -13576,7 +13511,7 @@
    "gemini-flash-latest": 35,
    "gemini-flash-lite-latest": 342,
    "gemma-4-26b-a4b-it": 41,
-   "gemma-4-31b-it": 42
+   "gemma-4-31b-it": 43
   },
   "week": "2026-W47"
  },
@@ -14571,20 +14506,10 @@
    "",
    1795222897.8823984
   ],
-  "q:blood": [
-   0,
-   "",
-   1795086082.887999
-  ],
   "q:blood and ice": [
    455320,
    "Blood and Ice",
    1793541751.437324
-  ],
-  "q:blood of dawnwalker": [
-   0,
-   "",
-   1795086082.3670135
   ],
   "q:blue archive": [
    3557620,
@@ -14950,11 +14875,6 @@
    2201320,
    "Date Everything!",
    1793914293.2013562
-  ],
-  "q:dawnwalker": [
-   0,
-   "",
-   1795086083.3725042
   ],
   "q:days gone": [
    1259420,
@@ -16536,11 +16456,6 @@
    "Peanut",
    1793694788.444233
   ],
-  "q:phantom blade zero": [
-   4115450,
-   "Phantom Blade Zero",
-   1792666888.1972122
-  ],
   "q:piece by piece": [
    3179050,
    "Piece by Piece",
@@ -16700,11 +16615,6 @@
    0,
    "",
    1795183295.3596776
-  ],
-  "q:regions": [
-   3723230,
-   "Regions",
-   1792666910.9642568
   ],
   "q:remembrance": [
    3434370,
@@ -17613,17 +17523,13 @@
    "the legend of zelda",
    "the legend of zelda: ocarina of time",
    "ukrspecsystems",
-   "xiaomi",
-   "xiaomi su7",
-   "xiaomi yu7",
-   "авто",
    "авіація",
    "бпла",
    "бізнес",
    "вибір редакції",
    "винищувачі",
+   "відео",
    "дрони",
-   "електромобілі",
    "залізо",
    "крістофер нолан",
    "кіно",
@@ -17643,14 +17549,6 @@
   ]
  },
  "titles": [
-  [
-   1795086083.841607,
-   "The Blood of Dawnwalker отримала велике оновлення: що додали?"
-  ],
-  [
-   1795086182.6948965,
-   "n8n-io/n8n"
-  ],
   [
    1795087876.073901,
    "Зірка «Рятувальників Малібу» пояснила, чому завела сторінку OnlyFans"
@@ -18414,17 +18312,13 @@
   [
    1795255758.0189037,
    "What if Vampire Survivors met Grand Theft Auto 2? Maniac is a brilliant mash-up that dares to ask that question"
+  ],
+  [
+   1795260086.5881557,
+   "Why Effie Trinket From The Hunger Games: Sunrise On The Reaping Looks So Familiar"
   ]
  ],
  "titles_uk": [
-  [
-   1795086083.8416085,
-   "The Blood of Dawnwalker отримала велике оновлення: що додали?"
-  ],
-  [
-   1795086182.6948972,
-   "n8n-io/n8n"
-  ],
   [
    1795087876.073902,
    "Зірка «Рятувальників Малібу» пояснила, чому завела сторінку OnlyFans"
@@ -19188,6 +19082,10 @@
   [
    1795255758.0189047,
    "Maniac поєднує виживання у стилі Vampire Survivors та хаос класичних GTA"
+  ],
+  [
+   1795260086.588157,
+   "Ель Фаннінг зіграє молоду Effie Trinket у The Hunger Games: Sunrise on the Reaping"
   ]
  ],
  "ukrainian": {
@@ -21650,7 +21548,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795255766.4968743,
+  "last_check": 1795260095.5953336,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
