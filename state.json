@@ -1,27 +1,8 @@
 {
- "alerts": {
-  "src:ai|DOU|https://dou.ua/feed/": {
-   "detail": "https://dou.ua/feed/ → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «DOU» не працює",
-   "sent": 0,
-   "since": 1795231889.3460069
-  },
-  "src:games|DOU Gamedev|https://gamedev.dou.ua/feed/": {
-   "detail": "https://gamedev.dou.ua/feed/ → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «DOU Gamedev» не працює",
-   "sent": 0,
-   "since": 1795231862.5101056
-  },
-  "src:software|DOU|https://dou.ua/feed/": {
-   "detail": "https://dou.ua/feed/ → 503 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «DOU» не працює",
-   "sent": 0,
-   "since": 1795231887.625303
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-20",
  "freebies": {
-  "last_check": 1795226602.4159882,
+  "last_check": 1795234131.2746549,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -50,56 +31,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-21 03:34 UTC",
+  "at": "2026-11-21 04:08 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 2
+   "gemma-4-31b-it": 1
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794540952.2273984,
-   5796,
-   "🎮",
-   "Огляд фіналу чемпіонату світу з LoL 2026: хто здобуде трофей — Gen.G чи BLG?",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/lol-worlds-2026-final-preview-geng-blg/",
-    "orig": "LoL Worlds 2026 Final Preview: Will Gen.G or BLG Claim The Trophy?"
-   }
-  ],
-  [
-   1794540954.9722774,
-   5797,
-   "🎬",
-   "Серіал The Spot від Hulu з Клер Дейнз та Юеном Макгрегором отримав дату виходу",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/the-spot-release-date-claire-danes-ewan-mcgregor-hulu-photo-1237222480/",
-    "orig": "Hulu Series ‘The Spot’ Starring Claire Danes & Ewan McGregor Gets Release Date, First-Look Photos"
-   }
-  ],
-  [
-   1794542573.635809,
-   5798,
-   "🎬",
-   "Марішка Гаргітей розповіла про складне возз'єднання Бенсон і Стейблера у серіалі «Law & Order: Special Victims Unit»",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/svu-mariska-hargitay-benson-stabler-reunion-1236945584/",
-    "orig": "‘SVU’ Star Mariska Hargitay Breaks Down Benson and Stabler’s Complicated Reunion and Her Final Choice: ‘There Are So Many Feelings’"
-   }
-  ],
   [
    1794544460.9969778,
    5799,
@@ -9122,7 +9065,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>Помер Акіра Курабаяші, директор Arika та розробник Street Fighter EX і Tetris 99</b>\n🕹 <a href=\"https://store.steampowered.com/app/871200/\">FIGHTING EX LAYER</a> — 26,00₴\n\nПомер Акіра Курабаяші, директор студії Arika, причиною стала серцева недостатність. Він працював над Street Fighter EX, Fighting EX Layer, Tetris 99 та PAC-MAN 99, а свою кар&#x27;єру розпочав як програміст у Taito.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/akira-kurabayashi-company-director-at-arika-and-developer-on-street-fighter-ex-tetris-99-fighting-ex-layer-and-more-has-sadly-passed-away-due-to-heart-failure\">Rock Paper Shotgun</a> · #ігри #Arika #StreetFighter",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/akira-kurabayashi-company-director-at-arika-and-developer-on-street-fighter-ex-tetris-99-fighting-ex-layer-and-more-has-sadly-passed-away-due-to-heart-failure",
     "orig": "Akira Kurabayashi, company director at Arika and developer on Street Fighter EX, Tetris 99, Fighting EX Layer and more, has sadly passed away due to heart failure"
@@ -9136,7 +9078,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Метт Деймон розкрив секрет епічної фінальної битви у <a href=\"https://store.steampowered.com/app/516560/\">The Odyssey</a></b>\n🕹 <a href=\"https://store.steampowered.com/app/516560/\">The Odyssey</a>\n\nМетт Деймон поділився секретом зйомок фінальної битви у фільмі The Odyssey Крістофера Нолана. Замість зазубрювання складної хореографії, актор працював із досвідченими каскадерами, які могли адаптуватися до його рухів. Джон Легуізамо порівняв цю сцену з фільмами самураїв Акіри Куросави.\n\n🔗 <a href=\"https://www.polygon.com/the-odyssey-matt-damon-final-fight-stunt-team/\">Polygon</a> · #ігри #TheOdyssey #ChristopherNolan",
     "kind": "photo",
     "link": "https://www.polygon.com/the-odyssey-matt-damon-final-fight-stunt-team/",
     "orig": "Matt Damon Reveals the Surprising Secret Behind 'The Odyssey's Epic Final Battle"
@@ -9972,6 +9913,34 @@
     "link": "https://variety.com/2026/tv/news/bill-maher-grand-theft-auto-6-young-men-ice-real-time-hbo-1236954795/",
     "orig": "Bill Maher Mocks ‘Grand Theft Auto 6’-Playing Young Men With Awful ICE Joke"
    }
+  ],
+  [
+   1795234044.1676385,
+   6559,
+   "🎬",
+   "Бассам Тарік про вихід із фільму «Блейд» від Marvel: «Життя занадто коротке, щоб знімати лайнові фільми»",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Бассам Тарік про вихід із фільму «Блейд» від Marvel: «Життя занадто коротке, щоб знімати лайнові фільми»</b>\n\nБассам Тарік колись мав знімати фільм «Блейд» від Marvel із Махершалою Алі в головній ролі, але зрештою покинув проект. У новому інтерв’ю режисер фільму «Your Mother Your Mother Your Mother» розповідає, чому він вирішив не знімати цей супергеройський фільм.\n\n🔗 <a href=\"https://deadline.com/2026/11/bassam-tariq-marvel-blade-director-1237230728/\">Deadline</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/bassam-tariq-marvel-blade-director-1237230728/",
+    "orig": "Bassam Tariq On Exiting Marvel’s ‘Blade’: “Life’s Too Short To Make Sh** Films”"
+   }
+  ],
+  [
+   1795234121.9143631,
+   6560,
+   "🎬",
+   "The Hunger Games: Sunrise on the Reaping заробляє $76 млн на старті",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>The Hunger Games: Sunrise on the Reaping заробляє $76 млн на старті</b>\n\nСтрічка заробляє близько $76 млн у світовому прокаті, майже наздогнавши старт The Hunger Games: The Ballad of Songbirds &amp; Snakes. Фільм посів перше місце у 66 із 67 ринків. Виробництво картини обійшлося Lionsgate у $150 млн, а маркетинг у США — у $60 млн.\n\n🔗 <a href=\"https://deadline.com/2026/11/box-office-global-hunger-games-sunrise-on-the-reaping-1237230714/\">Deadline</a> · #кіно_і_серіали #HungerGames #Lionsgate",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/box-office-global-hunger-games-sunrise-on-the-reaping-1237230714/",
+    "orig": "‘Hunger Games: Sunrise On The Reaping’ Begins Global Weekend With $76M Running Cume – Update"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10096,8 +10065,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1795145931.5669382,
-   1795147470.2166493,
    1795151069.276965,
    1795158349.12416,
    1795160100.253826,
@@ -10109,7 +10076,9 @@
    1795226592.8383157,
    1795228006.021587,
    1795228077.574535,
-   1795230551.7888846
+   1795230551.7888846,
+   1795234044.1679242,
+   1795234121.9146147
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795087876.0739417
@@ -10248,7 +10217,6 @@
   "021d38d146d3fad9": 1794065499.599085,
   "021ea2600fd140a7": 1795006853.2084172,
   "027978085d9b4855": 1795116654.1601062,
-  "0292ab11a949c049": 1794024088.575985,
   "02a2508663d4f5f3": 1794110451.877304,
   "02c59df6f1eb74ed": 1794097855.0003257,
   "02e82a0803728488": 1794951055.3267138,
@@ -10626,6 +10594,7 @@
   "2ca413dd274a9f2b": 1794600080.697358,
   "2caa4ea0039a63d2": 1795071681.943975,
   "2cb0fcc6ce2aa0ab": 1794328281.8888555,
+  "2cc6a645712dcbdb": 1795234121.914571,
   "2cd0ba5fba2b9546": 1794398455.161323,
   "2ce977b41420a009": 1795111438.8284032,
   "2cf06754e1565961": 1795116654.1601062,
@@ -10839,6 +10808,7 @@
   "47416a844a51e3ba": 1794085282.7166603,
   "474ba61ee19390b0": 1794906053.6606994,
   "479867c93150e790": 1794270683.853217,
+  "47cf621edf3b3c3b": 1795233681.848361,
   "48748b8c64ba0f16": 1795050069.409945,
   "488190ccdb717476": 1794594655.5581527,
   "48a84460fbb5da16": 1794526254.358723,
@@ -11310,7 +11280,6 @@
   "7cfb4731798252b0": 1794787353.4840808,
   "7d3733059674860a": 1794843085.320755,
   "7d4a14b478e3a0bc": 1795109701.6310992,
-  "7d4bbd7010f340f2": 1794024082.7521226,
   "7d4ec0131cfd44ba": 1794196887.63887,
   "7d6f0364fb7195a8": 1795156389.7652364,
   "7d75fbf5660cfd4c": 1795113261.9904413,
@@ -12208,6 +12177,7 @@
   "eb753eb5901ab2c2": 1794431111.1529963,
   "eb85283cf01e7e50": 1794999653.1275568,
   "eb8e266816bcb9cd": 1794128517.297944,
+  "eb9ed10f13c529dc": 1795234044.1678782,
   "ebe09b08e592c2f6": 1794321299.1740322,
   "ec0a2a53e046448a": 1794776482.428397,
   "ec3856809bd646d5": 1794090684.7558832,
@@ -12229,7 +12199,6 @@
   "ee38bc3887a6ea58": 1794618173.1613715,
   "ee5d138905ed731b": 1794482973.1377099,
   "ee8301f272047996": 1794317494.1838448,
-  "eebfc544c9792fbb": 1794024055.3195434,
   "eed71cdd1bdb7c5e": 1794405677.7830338,
   "eedb82b12eac9d5c": 1794583853.089954,
   "eee7e3081ec583c4": 1794697281.7608502,
@@ -12813,7 +12782,7 @@
   ],
   "artists_checked": 1795221316.665932,
   "blocked_until": 1795219503.7468832,
-  "cursor": 18,
+  "cursor": 28,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13601,7 +13570,7 @@
    "Bloomberg": 43,
    "DOU": 4,
    "DOU Gamedev": 6,
-   "Deadline": 76,
+   "Deadline": 78,
    "Digital Foundry": 1,
    "Distorted Sound": 5,
    "Eurogamer": 7,
@@ -13635,11 +13604,11 @@
    "Variety": 32
   },
   "translators": {
-   "DeepL": 58,
+   "DeepL": 60,
    "gemini-flash-latest": 35,
    "gemini-flash-lite-latest": 335,
    "gemma-4-26b-a4b-it": 35,
-   "gemma-4-31b-it": 35
+   "gemma-4-31b-it": 36
   },
   "week": "2026-W47"
  },
@@ -17823,14 +17792,6 @@
  },
  "titles": [
   [
-   1795061027.7438393,
-   "Ella Langley Leads The Pack Among Early CMA Award Winners"
-  ],
-  [
-   1795061035.2963486,
-   "Witch Club Satan announce headlining European tour with Otay:Onii and Ditte Krøyer"
-  ],
-  [
    1795062692.642182,
    "Not even Walton Goggins knows if Fallout will have a Season 4: 'if we get the opportunity to come back for season four, that would continue to honor how sacred this is to people'"
   ],
@@ -18605,17 +18566,17 @@
   [
    1795232088.0747817,
    "Bill Maher Mocks ‘Grand Theft Auto 6’-Playing Young Men With Awful ICE Joke"
+  ],
+  [
+   1795234044.1678803,
+   "Bassam Tariq On Exiting Marvel’s ‘Blade’: “Life’s Too Short To Make Sh** Films”"
+  ],
+  [
+   1795234121.914573,
+   "‘Hunger Games: Sunrise On The Reaping’ Begins Global Weekend With $76M Running Cume – Update"
   ]
  ],
  "titles_uk": [
-  [
-   1795061027.74384,
-   "Ella Langley тріумфує на церемонії CMA Awards"
-  ],
-  [
-   1795061035.2963498,
-   "Witch Club Satan анонсували європейський тур на 2027 рік"
-  ],
   [
    1795062692.642183,
    "Волтон Гоггінс не впевнений щодо четвертого сезону серіалу Fallout"
@@ -19391,6 +19352,14 @@
   [
    1795232088.0747824,
    "Білл Маер висміяв молодих гравців Grand Theft Auto 6 невдалим жартом про ICE"
+  ],
+  [
+   1795234044.167881,
+   "Бассам Тарік про вихід із фільму «Блейд» від Marvel: «Життя занадто коротке, щоб знімати лайнові фільми»"
+  ],
+  [
+   1795234121.914574,
+   "The Hunger Games: Sunrise on the Reaping заробляє $76 млн на старті"
   ]
  ],
  "ukrainian": {
@@ -21845,7 +21814,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795230561.0102594,
+  "last_check": 1795234131.1859787,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
