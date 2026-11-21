@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → HTTPSConnectionPool(host='www.revolvermag.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1795239095.9233627
+  }
+ },
  "daily_digest_date": "2026-11-20",
  "freebies": {
   "last_check": 1795234131.2746549,
@@ -31,9 +38,9 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-21 05:02 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "at": "2026-11-21 05:34 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
    "gemma-4-26b-a4b-it": 1,
    "gemma-4-31b-it": 1
@@ -43,45 +50,6 @@
   ]
  },
  "post_log": [
-  [
-   1794547873.2124035,
-   5802,
-   "🎮",
-   "Понад половина звільнених за останні два роки розробників ігор досі не знайшли роботу – звіт GDC",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/ponad-50-zvilnenih-pracivnikiv-igrovoji-industriji-dosi-ne-znayshli-novoji-roboti-317173/",
-    "orig": "Понад половина звільнених за останні два роки розробників ігор досі не знайшли роботу – звіт GDC"
-   }
-  ],
-  [
-   1794547876.398291,
-   5803,
-   "🎬",
-   "Створена Куінн Шепард драма “The Body” досліджує віру та масову істерію на Netflix",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/the-body-finale-sexuality-grace-god-1236946216/",
-    "orig": "‘The Body’ Creator on the Dance Team’s Sexuality, What Happened to Grace and Whether God Is Real"
-   }
-  ],
-  [
-   1794547879.3073938,
-   5804,
-   "🤘",
-   "From Ashes To New випустили кліп «After Death»",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/11/12/news/from-ashes-to-news-after-death-music-video-is-now-online/",
-    "orig": "From Ashes To New’s “After Death” Music Video Is Now Online"
-   }
-  ],
   [
    1794549691.6054256,
    5805,
@@ -9104,7 +9072,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎮 <b>Fallout без RPG: Bethesda підтвердила новий спін-офф в серії</b>\n\nBethesda підтвердила A Wasteland Full of Cats — казуальний спін-офф Fallout від бразильської студії Devcats. Замість стрілянини й діалогів гравцям доведеться розшукувати котів, які втекли зі Сховища.\n\n🔗 <a href=\"https://itc.ua/ua/novini/fallout-bez-rpg-bethesda-pidtverdyla-novyj-spin-off-v-seriyi/\">ITC.ua</a> · #ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/fallout-bez-rpg-bethesda-pidtverdyla-novyj-spin-off-v-seriyi/",
     "orig": "Fallout без RPG: Bethesda підтвердила новий спін-офф в серії"
@@ -9118,7 +9085,6 @@
    "DOU Gamedev",
    {
     "also": [],
-    "caption": "🎮 <b>Від ДТЕК до польського МЗС — як політики, компанії та військові відреагували реліз GTA VI</b>\n\nПісля восьми років у розробці GTA VI нарешті вийшла 19 листопада. І аналітична фірма Sensor Tower вже оцінює її продажі з урахуванням передзамовлень сягнули 24,58 млн копій, а виторг — $2,36 млрд. Реліз гри явно вийшов за межі ігрової спільноти. Розповідаємо, як вихід GTA VI став приводом поговорити про роботу енергетиків, статки мільярдерів і навіть призначення послів. Україна.\n\n🔗 <a href=\"https://gamedev.dou.ua/articles/gta-vi-launch-reactions/\">DOU Gamedev</a> · #ігри",
     "kind": "photo",
     "link": "https://gamedev.dou.ua/articles/gta-vi-launch-reactions/",
     "orig": "Від ДТЕК до польського МЗС — як політики, компанії та військові відреагували реліз GTA VI"
@@ -9959,6 +9925,34 @@
     "link": "https://lambgoat.com/news/56012/angelus-apatrida-premiere-burn-it-down-music-video/",
     "orig": "Angelus Apatrida premiere “Burn It Down” music video"
    }
+  ],
+  [
+   1795239214.042765,
+   6565,
+   "🤘",
+   "5 найкращих пісень цього тижня",
+   "Stereogum",
+   {
+    "also": [],
+    "caption": "🤘 <b>5 найкращих пісень цього тижня</b>\n\n🔗 <a href=\"https://stereogum.com/2518768/the-5-best-songs-of-the-week-653/lists/the-5-best-songs-of-the-week/\">Stereogum</a> · #музика",
+    "kind": "photo",
+    "link": "https://stereogum.com/2518768/the-5-best-songs-of-the-week-653/lists/the-5-best-songs-of-the-week/",
+    "orig": "The 5 Best Songs Of The Week"
+   }
+  ],
+  [
+   1795239290.1723228,
+   6566,
+   "🎮",
+   "Deltarune Chapter 6 вже можна пройти від початку до кінця",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/1671210/\">Deltarune</a> Chapter 6 вже можна пройти від початку до кінця</b>\n🕹 <a href=\"https://store.steampowered.com/app/1671210/\">DELTARUNE</a> — 499,00₴\n\nТобі Фокс повідомив, що Deltarune Chapter 6 стала структурно завершеним чернеткою з усіма картами та битвами, хоча деякі сцени ще потребують доопрацювання. Команда розпочала локалізацію та попереднє тестування, а частина розробників уже перейшла до роботи над Chapter 7. Дата виходу невідома, але автор сподівається випустити розділ у 2027 році.\n\n🔗 <a href=\"https://insider-gaming.com/deltarune-chapter-6-playable-start-to-finish/\">Insider Gaming</a> · #ігри #Deltarune",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/deltarune-chapter-6-playable-start-to-finish/",
+    "orig": "Deltarune Chapter 6 Is Playable From Start to Finish"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10033,10 +10027,7 @@
    1795185079.160235
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1795080773.3150396,
-   1795095036.2874157,
-   1795104287.0355456,
-   1795125763.7381756
+   1795239290.1725826
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1795154506.9424121,
@@ -10169,7 +10160,7 @@
    1795070079.4944077
   ],
   "music|Stereogum|https://www.stereogum.com/feed/": [
-   1795152754.8606226
+   1795239214.0430505
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
    1795158293.7983537,
@@ -10527,7 +10518,6 @@
   "2296fe9f1bf19e85": 1795003300.8773806,
   "22c0cfa89bfdb67b": 1794949478.0575066,
   "22f515f288ce48ef": 1794650473.9104357,
-  "23196e218954bc2d": 1794027782.8948328,
   "23469dfe27e6c5eb": 1794897085.7061157,
   "235ccd8cdfbaf600": 1795012327.1837327,
   "236b1dfdc88c83a5": 1794331887.9148386,
@@ -10674,7 +10664,6 @@
   "335d04711017ab53": 1795217474.8411345,
   "338b8e861a7e48c5": 1795147470.2166028,
   "33ad2ccf820a8d69": 1794612694.8043666,
-  "33d5b0599d85cf64": 1794029574.2473106,
   "341a94bdadcba99d": 1794785577.1809702,
   "342351e01d442b74": 1794709884.109181,
   "3429c7218e4f7d01": 1794998198.146456,
@@ -10970,7 +10959,6 @@
   "594a7880d7954e73": 1794240087.6773205,
   "594ea04fa2a1fdf5": 1794646968.0431976,
   "59b842e896ed4bb1": 1795087856.688431,
-  "59c5dbff26ef0145": 1794027792.2215495,
   "59e542e3e2ca7d61": 1794528079.523132,
   "59ec7011c467f8d3": 1794596574.1069338,
   "5a061e33076c9053": 1794765685.9179225,
@@ -11141,7 +11129,6 @@
   "6a4aea7469290d4f": 1794189682.0357335,
   "6a660b35f9a6c210": 1794441681.0200262,
   "6a6723ccff5c8f3e": 1795094052.1268046,
-  "6a74893005d85c84": 1794029570.3446674,
   "6a86af37165ac791": 1794411074.2185235,
   "6a8af45f5074e1c1": 1794047490.51162,
   "6abd2f5eef76c8b8": 1794634255.263127,
@@ -11251,6 +11238,7 @@
   "77289a6efa1d517c": 1794558680.3096478,
   "77289af06016ee25": 1794173452.809499,
   "7729eb8bf81c5b21": 1794511854.6925483,
+  "7737098bcc05fdf5": 1795239290.172538,
   "778fc4eeae5f9c1e": 1794882683.1975877,
   "77b6fd3d807c0870": 1794887923.8823044,
   "77c714e805154f1b": 1795005105.6972797,
@@ -12072,6 +12060,7 @@
   "dadb24a73a7a90e0": 1794765695.316193,
   "daea7cb5a6695bc8": 1794529869.2619073,
   "db37c6115a53a5ad": 1794979899.4425118,
+  "db554fe2504000d1": 1795239214.0430043,
   "dbb6b006557887b7": 1794448895.6862843,
   "dbbcb62320973b4b": 1795012310.1472316,
   "dbcca75c8f4259bb": 1794765679.7757595,
@@ -13606,7 +13595,7 @@
    "IGN": 7,
    "ITC.ua": 25,
    "IndieWire": 12,
-   "Insider Gaming": 11,
+   "Insider Gaming": 12,
    "Kerrang!": 4,
    "Lambgoat": 22,
    "Loudwire": 1,
@@ -13622,7 +13611,7 @@
    "Revolver": 3,
    "Rock Paper Shotgun": 12,
    "SteamDB": 1,
-   "Stereogum": 4,
+   "Stereogum": 5,
    "The Decoder": 16,
    "ThePRP": 12,
    "VGC": 9,
@@ -13632,8 +13621,8 @@
    "DeepL": 60,
    "gemini-flash-latest": 35,
    "gemini-flash-lite-latest": 336,
-   "gemma-4-26b-a4b-it": 37,
-   "gemma-4-31b-it": 37
+   "gemma-4-26b-a4b-it": 38,
+   "gemma-4-31b-it": 38
   },
   "week": "2026-W47"
  },
@@ -14363,6 +14352,11 @@
    "",
    1795219397.2320063
   ],
+  "q:6 is playable from start": [
+   0,
+   "",
+   1795239221.5806491
+  ],
   "q:6 rockstar": [
    0,
    "",
@@ -14778,36 +14772,6 @@
    "Calm Bricks",
    1793032281.0405085
   ],
-  "q:calvin": [
-   0,
-   "",
-   1795064484.454585
-  ],
-  "q:calvin and hobbes": [
-   0,
-   "",
-   1795064481.7901788
-  ],
-  "q:calvin and hobbes'": [
-   0,
-   "",
-   1795064483.9072804
-  ],
-  "q:calvin and hobbes' best": [
-   0,
-   "",
-   1795064483.3897417
-  ],
-  "q:calvin and hobbes' best miss": [
-   0,
-   "",
-   1795064482.8414102
-  ],
-  "q:calvin and hobbes' best miss wormwood": [
-   0,
-   "",
-   1795064482.3071232
-  ],
   "q:capacity": [
    3317350,
    "Capacity",
@@ -14827,6 +14791,31 @@
    2269460,
    "創業王 CEO",
    1794456080.6666977
+  ],
+  "q:chapter 6": [
+   0,
+   "",
+   1795239221.1101046
+  ],
+  "q:chapter 6 is": [
+   0,
+   "",
+   1795239220.614107
+  ],
+  "q:chapter 6 is playable": [
+   0,
+   "",
+   1795239220.14055
+  ],
+  "q:chapter 6 is playable from": [
+   0,
+   "",
+   1795239219.6426024
+  ],
+  "q:chapter 6 is playable from start": [
+   0,
+   "",
+   1795239219.1477752
   ],
   "q:chronicles medieval": [
    2231020,
@@ -15122,6 +15111,36 @@
    2753190,
    "Delayed",
    1793415681.1304584
+  ],
+  "q:deltarune": [
+   1671210,
+   "DELTARUNE",
+   1795239218.6696758
+  ],
+  "q:deltarune chapter": [
+   0,
+   "",
+   1795239218.1129363
+  ],
+  "q:deltarune chapter 6": [
+   0,
+   "",
+   1795239217.5937033
+  ],
+  "q:deltarune chapter 6 is": [
+   0,
+   "",
+   1795239217.1216319
+  ],
+  "q:deltarune chapter 6 is playable": [
+   0,
+   "",
+   1795239216.6505935
+  ],
+  "q:deltarune chapter 6 is playable from": [
+   0,
+   "",
+   1795239216.1308033
   ],
   "q:departure": [
    1957220,
@@ -15927,36 +15946,6 @@
    785890,
    "Hexologic",
    1793295448.4804857
-  ],
-  "q:hobbes'": [
-   0,
-   "",
-   1795064487.6252544
-  ],
-  "q:hobbes' best": [
-   0,
-   "",
-   1795064487.1082168
-  ],
-  "q:hobbes' best miss": [
-   0,
-   "",
-   1795064486.5821404
-  ],
-  "q:hobbes' best miss wormwood": [
-   0,
-   "",
-   1795064486.0521505
-  ],
-  "q:hobbes' best miss wormwood quote": [
-   0,
-   "",
-   1795064485.5102746
-  ],
-  "q:hobbes' best miss wormwood quote is": [
-   0,
-   "",
-   1795064484.9857981
   ],
   "q:holt": [
    1675600,
@@ -17777,10 +17766,6 @@
  },
  "titles": [
   [
-   1795066308.228449,
-   "From First To Last share acoustic version of \"They Said Your Ghost Was A Promise\""
-  ],
-  [
    1795068082.7999861,
    "Joe Strummer's two-year rampage with The 101'ers documented on evocative box set"
   ],
@@ -18559,13 +18544,17 @@
   [
    1795237362.1854126,
    "Angelus Apatrida premiere “Burn It Down” music video"
+  ],
+  [
+   1795239214.0430055,
+   "The 5 Best Songs Of The Week"
+  ],
+  [
+   1795239290.17254,
+   "Deltarune Chapter 6 Is Playable From Start to Finish"
   ]
  ],
  "titles_uk": [
-  [
-   1795066308.2284498,
-   "From First To Last випустили акустичну версію \"They Said Your Ghost Was A Promise\""
-  ],
   [
    1795068082.7999868,
    "Дворічний період гурту The 101'ers за участю Joe Strummer випустять на масштабному бокс-сеті"
@@ -19345,6 +19334,14 @@
   [
    1795237362.1854134,
    "Angelus Apatrida представили кліп на пісню Burn It Down"
+  ],
+  [
+   1795239214.0430067,
+   "5 найкращих пісень цього тижня"
+  ],
+  [
+   1795239290.172541,
+   "Deltarune Chapter 6 вже можна пройти від початку до кінця"
   ]
  ],
  "ukrainian": {
@@ -21799,7 +21796,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795234131.1859787,
+  "last_check": 1795239298.7942479,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
