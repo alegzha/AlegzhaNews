@@ -31,43 +31,19 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-21 15:32 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-21 16:07 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-26b-a4b-it": 1
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794585676.9119644,
-   5845,
-   "🤖",
-   "Державні агенції США масово впроваджують генеративний ШІ, а профспілки вимагають захисту",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/nearly-70-percent-of-us-agencies-use-generative-ai-and-unions-are-finally-catching-up-with-guardrails/",
-    "orig": "Nearly 70 percent of US agencies use generative AI, and unions are finally catching up with guardrails"
-   }
-  ],
-  [
-   1794585687.2766995,
-   5846,
-   "🎮",
-   "Fridays the 13th повертається з режисером оригінальних сиквелів",
-   "Polygon",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.polygon.com/friday-the-13th-new-film-steve-miner/",
-    "orig": "Friday the 13th Officially Sets Return With Legendary Director"
-   }
-  ],
   [
    1794587487.6465938,
    5847,
@@ -8888,7 +8864,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Headwreck надихнулися Need For Speed: Most Wanted та Crazy Taxi для кліпу на Ruckus</b>\n\nАвстралійський nü-metalcore гурт Headwreck випустив новий сингл Ruckus. Кліп до треку натхненний іграми Need For Speed: Most Wanted та Crazy Taxi, щоб передати відчуття швидкої їзди по шосе під час погоні. Гурт співпрацює з лейблом EMPIRE.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/20/news/headwreck-drew-upon-need-for-speed-most-wanted-crazy-taxi-for-their-ruckus-video/\">ThePRP</a> · #музика #Headwreck",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/20/news/headwreck-drew-upon-need-for-speed-most-wanted-crazy-taxi-for-their-ruckus-video/",
     "orig": "Headwreck Drew Upon ‘Need For Speed: Most Wanted’ & ‘Crazy Taxi’ For Their “Ruckus” Video"
@@ -8902,7 +8877,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Impending Doom представили новий сингл “I Have Seen The Light”</b>\n\nDeathcore-гурт Impending Doom випустив новий сингл “I Have Seen The Light”. Трек є частиною довгоочікуваного альбому “At The Throne Of God”, який стане першим релізом гурту за 8 років. Повний вихід платівки на цифрових платформах заплановано на 5 лютого, проте альбом уже можна придбати напряму у музикантів.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/20/news/impending-dooms-new-single-i-have-seen-the-light-is-now-streaming/\">ThePRP</a> · #музика #ImpendingDoom",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/20/news/impending-dooms-new-single-i-have-seen-the-light-is-now-streaming/",
     "orig": "Impending Doom’s New Single “I Have Seen The Light” Is Now Streaming"
@@ -8916,7 +8890,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>«Флоридський Джокер» домігся свого: він став «спеціальним актором озвучення» у Grand Theft Auto 6</b>\n\nСхоже, Лоуренс Салліван владнав усі розбіжності з Rockstar.\n\n🔗 <a href=\"https://www.pcgamer.com/games/grand-theft-auto/florida-joker-gets-his-wish-hes-a-special-voice-actor-in-grand-theft-auto-6/\">PC Gamer</a> · #ігри",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/grand-theft-auto/florida-joker-gets-his-wish-hes-a-special-voice-actor-in-grand-theft-auto-6/",
     "orig": "Florida Joker gets his wish: He's a 'special voice actor' in Grand Theft Auto 6"
@@ -9738,6 +9711,48 @@
     "link": "https://www.digitalfoundry.net/features/apex-neural-rendering-can-independent-devs-beat-dlss",
     "orig": "Feature: Apex Neural Rendering: Can Independent Devs Beat DLSS?"
    }
+  ],
+  [
+   1795277144.80946,
+   6594,
+   "🤖",
+   "Нова відкрита модель Inkling 2 Mini мислить циклами для вирішення завдань та працює на ноутбуці",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Нова відкрита модель Inkling 2 Mini мислить циклами для вирішення завдань та працює на ноутбуці</b>\n\nКомпанія Thinking Machines випустила Inkling 2 Mini — трансформер з відкритим циклом, який за один токен обробляє 12 із 24 своїх шарів тричі. Це дозволяє моделі довше здійснювати внутрішні міркування, не генеруючи зайвого тексту. За індексом інтелекту Artificial Analysis вона ділить перше місце з Qwen3.8 27B, при цьому її вартість приблизно в шість разів нижча.\n\n🔗 <a href=\"https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/\">The Decoder</a> · #ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
+    "orig": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop"
+   }
+  ],
+  [
+   1795277148.440021,
+   6595,
+   "🎮",
+   "Чоловік з мозковим імплантом Neuralink зіграв у GTA 6 лише за допомогою сили думки",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🎮 <b>Чоловік з мозковим імплантом Neuralink зіграв у GTA 6 лише за допомогою сили думки</b>\n\nКомпанія Neuralink опублікувала в соцмережі X відео, на якому учасник випробувань проходить GTA 6 лише за допомогою мозкового імпланта. Замість традиційного контролера для керування грою застосовуються сигнали мозку, які зчитує імплант.\n\n🔗 <a href=\"https://mezha.ua/news/neuralink-pokazala-prohodzhennya-gta-6-za-dopomogoyu-mozkovogo-implanta-317453/\">Mezha</a> · #ігри",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/neuralink-pokazala-prohodzhennya-gta-6-za-dopomogoyu-mozkovogo-implanta-317453/",
+    "orig": "Чоловік з мозковим імплантом Neuralink зіграв у GTA 6 лише за допомогою сили думки"
+   }
+  ],
+  [
+   1795277275.771536,
+   6596,
+   "🎮",
+   "Phasmophobia отримає оновлення Resonance з новими командами для привидів та переходом на Unity 6",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Phasmophobia отримає оновлення Resonance з новими командами для привидів та переходом на Unity 6</b>\n\nОновлення Resonance вийде 24 листопада і додасть нове обладнання, зокрема лозохідні стержні, та можливість наказувати привидам кидати предмети або взаємодіяти з дверима й перемикачами. Phasmophobia перейде на Unity 6, що покращить освітлення, стабільність та графіку. Також з&#x27;явиться підтримка Xbox Play Anywhere.\n\n🔗 <a href=\"https://www.eurogamer.net/phasmophobia-resonance-update-release-date-dowsing-rods-unity-6\">Eurogamer</a> · #ігри #Phasmophobia",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/phasmophobia-resonance-update-release-date-dowsing-rods-unity-6",
+    "orig": "Phasmophobia's next update lets you ask ghosts to throw things and it's out next week"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9772,10 +9787,10 @@
    1795264286.1575968
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
-   1795186954.2942967,
    1795201509.5377302,
    1795204965.5333762,
-   1795206685.501737
+   1795206685.501737,
+   1795277144.8097234
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1793370738.9416513
@@ -9793,8 +9808,8 @@
    1795275136.5635202
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1795190633.35624,
-   1795255758.0189424
+   1795255758.0189424,
+   1795277275.7718217
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1795188781.189875
@@ -9818,10 +9833,10 @@
    1795246402.32563
   ],
   "games|Mezha|https://mezha.ua/feed/": [
-   1795188688.4372663,
    1795219398.0763006,
    1795248084.634361,
-   1795264283.7526934
+   1795264283.7526934,
+   1795277148.440283
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1795217582.003434,
@@ -10012,6 +10027,7 @@
   "011688b9e1d4dd5b": 1795125675.98536,
   "012e35da599c0051": 1794499279.9660673,
   "0133f0fd14f007b2": 1795190541.0105524,
+  "01535cdaae5f33ce": 1795277144.8096766,
   "0164845dc393f9d6": 1795253856.8415198,
   "017a06c6e66a0ea4": 1795094042.94041,
   "01ddf7996eecafe4": 1794870118.6987584,
@@ -10081,6 +10097,7 @@
   "08834e88aa580406": 1794367891.9064121,
   "0889ade6d9f63738": 1794875461.7247117,
   "08ab6f25aa1462ec": 1794875504.7401118,
+  "08cd740c1304b694": 1795276859.0083566,
   "08f56e0b3143dc4b": 1795114891.427103,
   "0969fc9dcecfc46a": 1794821481.6343384,
   "099b928a7258f949": 1794978059.335902,
@@ -10803,6 +10820,7 @@
   "5ee51a2eff4ec69d": 1794904283.7142558,
   "5ef35868df0d84d4": 1795217660.0590563,
   "5f26c041a43f668b": 1794234687.2555015,
+  "5f4037c695c2f6ac": 1795277275.7717788,
   "5f521b871c88a910": 1795100487.7106519,
   "5f5ac26759d8219c": 1795170655.6016555,
   "5f7b62623b2b118a": 1794362590.4859781,
@@ -11671,7 +11689,6 @@
   "c55a5ef2e7da29fd": 1795264286.1575544,
   "c569f35d614e8300": 1794076281.363412,
   "c56a94d8d3eee212": 1794301294.5957663,
-  "c56e348905d1aac9": 1794067281.717144,
   "c578679540d44fe8": 1795275080.2742527,
   "c57dfd8e10aff19d": 1794652692.36168,
   "c58e0bde42908e08": 1794871895.0495503,
@@ -11707,6 +11724,7 @@
   "c93d57bf104cfb4f": 1794276090.3029108,
   "c97f73ff002aedd0": 1794180655.9188743,
   "c9860e157915af78": 1794940252.7221177,
+  "c9b095395b0d2df0": 1795277148.440239,
   "c9b8f8a2dd2a6317": 1795230109.4504037,
   "ca38a4658abbf897": 1794263486.3048987,
   "ca4a8dd162908ceb": 1794915363.0843284,
@@ -11937,6 +11955,7 @@
   "e4b515a6bfb5c99d": 1794931288.4678357,
   "e4b8ec6c3b375c04": 1794236457.3327184,
   "e4d16c1c883bd6b6": 1794612682.433116,
+  "e4da97cc344964ea": 1795276859.0083566,
   "e516df992423df85": 1794753081.674545,
   "e531100642cc5280": 1794952981.0864894,
   "e532e7e2d744c0eb": 1794283287.6384728,
@@ -13376,12 +13395,12 @@
    "GamesIndustry.biz": 4,
    "IGN": 19,
    "ITC.ua": 1,
-   "Insider Gaming": 67,
+   "Insider Gaming": 68,
    "Lambgoat": 1,
    "Loudwire": 4,
    "Metal Hammer (Louder)": 3,
    "Metal Injection": 1,
-   "PC Gamer": 20,
+   "PC Gamer": 21,
    "Pitchfork": 2,
    "PlayUA": 2,
    "Polygon": 58,
@@ -13401,7 +13420,7 @@
    "Deadline": 81,
    "Digital Foundry": 2,
    "Distorted Sound": 5,
-   "Eurogamer": 8,
+   "Eurogamer": 9,
    "GameSpot": 4,
    "GamesIndustry.biz": 12,
    "GitHub Trending": 29,
@@ -13415,7 +13434,7 @@
    "Loudwire": 3,
    "Metal Hammer (Louder)": 21,
    "Metal Injection": 2,
-   "Mezha": 39,
+   "Mezha": 40,
    "Neformat": 4,
    "PC Gamer": 16,
    "Pitchfork": 4,
@@ -13426,16 +13445,16 @@
    "Rock Paper Shotgun": 12,
    "SteamDB": 1,
    "Stereogum": 6,
-   "The Decoder": 16,
+   "The Decoder": 17,
    "ThePRP": 12,
    "VGC": 9,
    "Variety": 32
   },
   "translators": {
-   "DeepL": 67,
+   "DeepL": 68,
    "gemini-flash-latest": 35,
-   "gemini-flash-lite-latest": 348,
-   "gemma-4-26b-a4b-it": 41,
+   "gemini-flash-lite-latest": 349,
+   "gemma-4-26b-a4b-it": 42,
    "gemma-4-31b-it": 43
   },
   "week": "2026-W47"
@@ -13731,11 +13750,6 @@
    "Lots of Axos",
    1793642520.9182227
   ],
-  "id:4738100": [
-   "4738100",
-   "10 Million Pixels",
-   1792683198.327274
-  ],
   "id:4739980": [
    "4739980",
    "Monster Train 2: The Punished",
@@ -13921,11 +13935,6 @@
    "",
    1795176084.6335456
   ],
-  "q:166": [
-   0,
-   "",
-   1795102287.6162899
-  ],
   "q:166 montreal": [
    0,
    "",
@@ -13950,11 +13959,6 @@
    1642580,
    "明星志願2000",
    1793819044.8424327
-  ],
-  "q:2021": [
-   1742450,
-   "西游记2021",
-   1792683220.5527263
   ],
   "q:2023": [
    2581570,
@@ -14905,11 +14909,6 @@
    0,
    "",
    1795219402.6966538
-  ],
-  "q:epic games'": [
-   0,
-   "",
-   1795102335.3615704
   ],
   "q:etsy": [
    0,
@@ -15876,11 +15875,6 @@
    "Monster Train 2",
    1793197995.3387616
   ],
-  "q:montr": [
-   0,
-   "",
-   1795102288.2245798
-  ],
   "q:montreal": [
    0,
    "",
@@ -15955,6 +15949,21 @@
    0,
    "",
    1795275085.1935
+  ],
+  "q:neuralink": [
+   0,
+   "",
+   1795277148.0124178
+  ],
+  "q:neuralink gta": [
+   0,
+   "",
+   1795277147.4157634
+  ],
+  "q:neuralink gta 6": [
+   0,
+   "",
+   1795277146.9246738
   ],
   "q:new dawn": [
    1644970,
@@ -16085,26 +16094,6 @@
    3374280,
    "P.I.",
    1792857743.151104
-  ],
-  "q:paper rex": [
-   0,
-   "",
-   1795104083.5595453
-  ],
-  "q:paper rex full": [
-   0,
-   "",
-   1795104082.95855
-  ],
-  "q:paper rex full roster": [
-   0,
-   "",
-   1795104082.4419093
-  ],
-  "q:paper rex full roster for vct": [
-   0,
-   "",
-   1795104081.9431264
   ],
   "q:path of exile 2": [
    2694490,
@@ -16315,16 +16304,6 @@
    0,
    "",
    1795104085.2182477
-  ],
-  "q:rex full roster for vct": [
-   0,
-   "",
-   1795104084.6384177
-  ],
-  "q:rex full roster for vct 2027": [
-   0,
-   "",
-   1795104084.1057475
   ],
   "q:rings of power": [
    0,
@@ -16626,11 +16605,6 @@
    "Survival Games",
    1792688496.4997191
   ],
-  "q:sweeney": [
-   0,
-   "",
-   1795102334.7391565
-  ],
   "q:sword of the sea": [
    2453160,
    "Sword of the Sea",
@@ -16765,11 +16739,6 @@
    0,
    "",
    1795188690.52523
-  ],
-  "q:tim sweeney": [
-   0,
-   "",
-   1795102334.2426078
   ],
   "q:toby": [
    0,
@@ -17170,18 +17139,6 @@
   ]
  },
  "titles": [
-  [
-   1795102384.3255708,
-   "Fish with a sniper rifle takes aim at Tim Sweeney's hopes and dreams, as genAI-free meme game tops Epic Games' vibe-coding megajam"
-  ],
-  [
-   1795104287.0355182,
-   "Paper Rex Full Roster for VCT 2027 Confirmed; Primmie Joins PRX"
-  ],
-  [
-   1795104441.2092824,
-   "'Yellowjackets' Season 4 Review: A Chaotic Finale That Goes Out on Its Own Terms"
-  ],
   [
    1795105887.5865698,
    "Canva дозволила вимикати функції генеративного ШІ"
@@ -17889,21 +17846,21 @@
   [
    1795275136.5634773,
    "Feature: Apex Neural Rendering: Can Independent Devs Beat DLSS?"
+  ],
+  [
+   1795277144.8096786,
+   "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop"
+  ],
+  [
+   1795277148.4402406,
+   "Чоловік з мозковим імплантом Neuralink зіграв у GTA 6 лише за допомогою сили думки"
+  ],
+  [
+   1795277275.7717803,
+   "Phasmophobia's next update lets you ask ghosts to throw things and it's out next week"
   ]
  ],
  "titles_uk": [
-  [
-   1795102384.3255715,
-   "Гра без ШІ про рибу зі снайперкою стала найпопулярнішою на Epic AI MegaJam"
-  ],
-  [
-   1795104287.0355184,
-   "Paper Rex представили повний склад на VCT 2027: до команди приєднався Primmie"
-  ],
-  [
-   1795104441.2092829,
-   "Рецензія на 4 сезон 'Yellowjackets': хаотичний фінал на власних умовах"
-  ],
   [
    1795105887.5865705,
    "Canva дозволила вимикати функції генеративного ШІ"
@@ -18611,6 +18568,18 @@
   [
    1795275136.563478,
    "Apex Compute випустила бета-версію нейронного рендерингу Apex Neural Rendering"
+  ],
+  [
+   1795277144.8096795,
+   "Нова відкрита модель Inkling 2 Mini мислить циклами для вирішення завдань та працює на ноутбуці"
+  ],
+  [
+   1795277148.440241,
+   "Чоловік з мозковим імплантом Neuralink зіграв у GTA 6 лише за допомогою сили думки"
+  ],
+  [
+   1795277275.7717812,
+   "Phasmophobia отримає оновлення Resonance з новими командами для привидів та переходом на Unity 6"
   ]
  ],
  "ukrainian": {
