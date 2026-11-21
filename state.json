@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → HTTPSConnectionPool(host='www.revolvermag.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1795239095.9233627
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-20",
  "freebies": {
   "last_check": 1795234131.2746549,
@@ -38,44 +31,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-21 05:34 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemma-4-31b-it",
+  "at": "2026-11-21 06:01 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 1,
-   "gemma-4-31b-it": 1
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-26b-a4b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794549691.6054256,
-   5805,
-   "🎮",
-   "Xbox показав чотири хвилини геймплею перезапуску Fable",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/rpg/new-4-minute-fable-gameplay-trailer-shows-a-game-that-doesnt-look-much-like-fable/",
-    "orig": "New 4-minute Fable gameplay trailer shows a game that doesn't look much like Fable"
-   }
-  ],
-  [
-   1794549698.9703135,
-   5806,
-   "🎬",
-   "Rosalía здобула третю перемогу в категорії «Альбом року» на Latin Grammy Awards 2026",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/latin-grammy-awards-2026-winners-full-list-1237222557/",
-    "orig": "Latin Grammy Awards 2026 Winners: Rosalía Wins Her Third Album Of The Year — Full List"
-   }
-  ],
   [
    1794551489.7441652,
    5807,
@@ -9098,7 +9065,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Nvidia купує стартап Inception за $500 млн для розвитку моделей Nemotron</b>\n\nNvidia купує ШІ-стартап Inception щонайменше за $500 млн. Компанія розробляє мовні моделі на основі дифузійного процесу, що дозволяє створювати відповіді поетапно, а не по одному токену. Це має підсилити відкриті моделі Nemotron та фізичні моделі для роботів, щоб конкурувати з OpenAI та Anthropic.\n\n🔗 <a href=\"https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/\">The Decoder</a> · #ШІ #Nvidia",
     "kind": "photo",
     "link": "https://the-decoder.com/nvidia-bets-at-least-500-million-on-inceptions-diffusion-models-to-strengthen-its-open-source-nemotron-lineup/",
     "orig": "Nvidia bets at least $500 million on Inception's diffusion models to strengthen its open-source Nemotron lineup"
@@ -9112,7 +9078,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🎮 <b>Ubisoft відкрила новий підрозділ, який займатиметься впровадженням ШІ в ігри</b>\n\nUbisoft створила дочірню компанію Motherbrain, яка розроблятиме ШІ-технології для відеоігор. Серед її цілей – створення розумних NPC із пам&#x27;яттю та нових ігрових можливостей.\n\n🔗 <a href=\"https://mezha.ua/news/ubisoft-motherbrain-ai-subsidiary-317425/\">Mezha</a> · #ігри",
     "kind": "photo",
     "link": "https://mezha.ua/news/ubisoft-motherbrain-ai-subsidiary-317425/",
     "orig": "Ubisoft відкрила новий підрозділ, який займатиметься впровадженням ШІ в ігри"
@@ -9953,6 +9918,34 @@
     "link": "https://insider-gaming.com/deltarune-chapter-6-playable-start-to-finish/",
     "orig": "Deltarune Chapter 6 Is Playable From Start to Finish"
    }
+  ],
+  [
+   1795240911.7936382,
+   6567,
+   "🤘",
+   "Реслер зламав ногу під час концерту It Dies Today у мошпі",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Реслер зламав ногу під час концерту It Dies Today у мошпі</b>\n\nПід час виступу гурту It Dies Today у Буффало незалежний реслер Кевін Блеквуд отримав важку травму в мошпі. У нього зламані обидві кістки ноги та виявився тромб у крові. Гурт It Dies Today збирає $10,000 через GoFundMe, щоб допомогти йому з витратами на лікування.\n\n🔗 <a href=\"https://loudwire.com/it-dies-today-wrestler-injury/\">Loudwire</a> · #музика #ItDiesToday",
+    "kind": "photo",
+    "link": "https://loudwire.com/it-dies-today-wrestler-injury/",
+    "orig": "Wrestler Breaks Leg at Metalcore Band's 25th Anniversary Show"
+   }
+  ],
+  [
+   1795240915.2678359,
+   6568,
+   "🎬",
+   "Спецефекти у фільмі ‘Disclosure Day’ Стівена Спілберга створювали так, щоб вони були непомітними",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Спецефекти у фільмі ‘Disclosure Day’ Стівена Спілберга створювали так, щоб вони були непомітними</b>\n\nУ блокбастері Стівена Спілберга ‘Disclosure Day’ більшість трюків знімали практично, зокрема зіткнення потяга з автомобілем за участю Джоша О&#x27;Коннора та Емілі Блант. Команда з візуальних ефектів працювала над непомітною інтеграцією CGI у кадри з реалістичними трюками.\n\n🔗 <a href=\"https://www.indiewire.com/features/craft/disclosure-day-vfx-craft-roundtables-1235229693/\">IndieWire</a> · #кіно_і_серіали #DisclosureDay",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/features/craft/disclosure-day-vfx-craft-roundtables-1235229693/",
+    "orig": "‘Disclosure Day’ Did Its Biggest Stunts Practically, So the VFX Team Worked Hard to Look Invisible — Watch"
+   }
   ]
  ],
  "posted_by_source": {
@@ -10095,7 +10088,8 @@
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
    1795181712.6986809,
-   1795222970.5537515
+   1795222970.5537515,
+   1795240915.2680714
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1795177878.0187626
@@ -10135,7 +10129,8 @@
    1795237362.185457
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
-   1795213943.3199003
+   1795213943.3199003,
+   1795240911.7939036
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1795154651.4965863,
@@ -10283,7 +10278,6 @@
   "07edf45b889118e3": 1794699052.266333,
   "080813f6e6514518": 1794756680.6636622,
   "0814cb884dd14798": 1794740484.8247116,
-  "085ae393f1fd8eca": 1794031278.084823,
   "0876c9c2b39765c7": 1794567703.8834496,
   "08834e88aa580406": 1794367891.9064121,
   "0889ade6d9f63738": 1794875461.7247117,
@@ -10854,6 +10848,7 @@
   "4c6a78e9df138969": 1795024853.7713437,
   "4c86569c29b6a87b": 1794166253.2590482,
   "4cb0ce66c92778cb": 1794634298.6207952,
+  "4cc488b08684e710": 1795240911.793855,
   "4cd881b2588872fc": 1794632474.2095976,
   "4ceecf65844b900d": 1794879091.116545,
   "4d656bee1ec94875": 1795217454.61787,
@@ -11438,7 +11433,6 @@
   "8cf4ddd7d3cd8e60": 1794238457.9315062,
   "8d0ab631b0d4c66f": 1794927690.37838,
   "8d173dd5584087f6": 1794655879.9927368,
-  "8d236ecfaa66bc9e": 1794031281.2427106,
   "8d505fa9b6a387f8": 1795089654.0120451,
   "8d99fb491011606c": 1795102261.0800154,
   "8dbaa27d684960be": 1794492161.157827,
@@ -11977,6 +11971,7 @@
   "d1a89bee4c3dcfe9": 1794398697.6708577,
   "d1aa340a643527c9": 1794568367.1634204,
   "d1bd74de1aa61c8b": 1795147332.8076549,
+  "d1d5982577bef9c1": 1795240915.26803,
   "d1dba08093721437": 1794459674.8123393,
   "d1e18c09b992d466": 1794143063.8868604,
   "d23ce669a9437549": 1795132875.7118263,
@@ -13594,11 +13589,11 @@
    "Hugging Face": 2,
    "IGN": 7,
    "ITC.ua": 25,
-   "IndieWire": 12,
+   "IndieWire": 13,
    "Insider Gaming": 12,
    "Kerrang!": 4,
    "Lambgoat": 22,
-   "Loudwire": 1,
+   "Loudwire": 2,
    "Metal Hammer (Louder)": 21,
    "Metal Injection": 1,
    "Mezha": 35,
@@ -13620,8 +13615,8 @@
   "translators": {
    "DeepL": 60,
    "gemini-flash-latest": 35,
-   "gemini-flash-lite-latest": 336,
-   "gemma-4-26b-a4b-it": 38,
+   "gemini-flash-lite-latest": 337,
+   "gemma-4-26b-a4b-it": 39,
    "gemma-4-31b-it": 38
   },
   "week": "2026-W47"
@@ -17766,14 +17761,6 @@
  },
  "titles": [
   [
-   1795068082.7999861,
-   "Joe Strummer's two-year rampage with The 101'ers documented on evocative box set"
-  ],
-  [
-   1795068086.643407,
-   "Hollywood Music In Media Awards Winners Include Ludwig Göransson, ‘La Bola Negra,’ Taylor Swift, Diane Warren & Jaafar Jackson"
-  ],
-  [
    1795070079.4943588,
    "See ANTHRAX get Saint Vitus crowd thrashing in new “NYC 93” video"
   ],
@@ -18552,17 +18539,17 @@
   [
    1795239290.17254,
    "Deltarune Chapter 6 Is Playable From Start to Finish"
+  ],
+  [
+   1795240911.7938561,
+   "Wrestler Breaks Leg at Metalcore Band's 25th Anniversary Show"
+  ],
+  [
+   1795240915.2680316,
+   "‘Disclosure Day’ Did Its Biggest Stunts Practically, So the VFX Team Worked Hard to Look Invisible — Watch"
   ]
  ],
  "titles_uk": [
-  [
-   1795068082.7999868,
-   "Дворічний період гурту The 101'ers за участю Joe Strummer випустять на масштабному бокс-сеті"
-  ],
-  [
-   1795068086.6434083,
-   "Людвіг Йоранссон і Taylor Swift перемогли на Hollywood Music in Media Awards"
-  ],
   [
    1795070079.4943597,
    "ANTHRAX показали новий кліп \"NYC 93\", знятий під час концерту в Saint Vitus"
@@ -19342,6 +19329,14 @@
   [
    1795239290.172541,
    "Deltarune Chapter 6 вже можна пройти від початку до кінця"
+  ],
+  [
+   1795240911.793857,
+   "Реслер зламав ногу під час концерту It Dies Today у мошпі"
+  ],
+  [
+   1795240915.2680328,
+   "Спецефекти у фільмі ‘Disclosure Day’ Стівена Спілберга створювали так, щоб вони були непомітними"
   ]
  ],
  "ukrainian": {
