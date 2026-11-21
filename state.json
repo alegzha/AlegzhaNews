@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:games|Polygon|https://www.polygon.com/feed/": {
-   "detail": "https://www.polygon.com/feed/ → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\nhttps://www.polygon.com/rss/index.xml → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-   "label": "Джерело «Polygon» не працює",
-   "sent": 0,
-   "since": 1795260017.780663
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-20",
  "freebies": {
   "last_check": 1795257086.1149356,
@@ -38,11 +31,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-21 11:21 UTC",
+  "at": "2026-11-21 11:31 UTC",
   "gemini_error": "",
-  "gemini_model": "gemma-4-31b-it",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemma-4-31b-it": 1
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
@@ -8978,7 +8971,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🤖 <b>Щоб позаздрили у NVIDIA: Moore Threads готує нову геймерську відеокарту з рекордним обсягом VRAM</b>\n\nКитайський виробник Moore Threads готує нову геймерську відеокарту під кодовою назвою «Lushan», обіцяючи найбільший обсяг відеопам’яті в історії користувацьких графічних процесорів.\n\n🔗 <a href=\"https://itc.ua/ua/novini/shhob-pozazdryly-u-nvidia-moore-threads-gotuye-novu-gejmersku-videokartu-z-rekordnym-obsyagom-vram/\">ITC.ua</a> · #ШІ",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/shhob-pozazdryly-u-nvidia-moore-threads-gotuye-novu-gejmersku-videokartu-z-rekordnym-obsyagom-vram/",
     "orig": "Щоб позаздрили у NVIDIA: Moore Threads готує нову геймерську відеокарту з рекордним обсягом VRAM"
@@ -9828,6 +9820,20 @@
     "link": "https://www.slashfilm.com/2314806/effie-trinket-the-hunger-games-sunrise-on-the-reaping-actress-elle-fanning/",
     "orig": "Why Effie Trinket From The Hunger Games: Sunrise On The Reaping Looks So Familiar"
    }
+  ],
+  [
+   1795260692.8984523,
+   6583,
+   "🎮",
+   "Анімаційний серіал The Legend of Vox Machina на Prime Video",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Анімаційний серіал The Legend of Vox Machina на Prime Video</b>\n\nАнімаційне фентезі The Legend of Vox Machina від Critical Role та Prime Video поєднує епічні пригоди у світі Exandria з брутальним гумором. Сюжет розповідає про хаотичну команду шукачів пригод, яка береться за знищення могутнього синього дракона.\n\n🔗 <a href=\"https://www.polygon.com/the-legend-of-vox-machina-prime-video-rec/\">Polygon</a> · #ігри #TheLegendOfVoxMachina #PrimeVideo",
+    "kind": "photo",
+    "link": "https://www.polygon.com/the-legend-of-vox-machina-prime-video-rec/",
+    "orig": "Goodbye 'Rings of Power,' Prime Video’s Legendary 48-Episode Fantasy Series Is Even Better"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9924,12 +9930,12 @@
    1795089082.1423721
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1795172717.283973,
    1795179884.2518396,
    1795192445.4365907,
    1795212399.408102,
    1795219438.9716916,
-   1795224701.7799938
+   1795224701.7799938,
+   1795260692.8986967
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1795179746.3112566,
@@ -10510,7 +10516,6 @@
   "2f74490b62c539dc": 1795253492.8145654,
   "2f79679015ab97b3": 1794396878.3959684,
   "2f8e87a0c57291da": 1794963653.7262375,
-  "2fc5883a7d6660ac": 1794051085.892718,
   "2fe28318cf9ef633": 1794688255.2504742,
   "2fe760ec94934248": 1794540653.3231752,
   "30182bb5471e7bbf": 1794407562.5903838,
@@ -11746,6 +11751,7 @@
   "c47a29c5bd9d5d1b": 1795151069.276924,
   "c4acffc0e8f7ad34": 1795213947.0655618,
   "c4bd7bc5ecb1d7ca": 1794614665.1782117,
+  "c4d82fe47ccf40ab": 1795260692.8986545,
   "c4d9d231669e0fa5": 1795174475.3433554,
   "c4e717434265c662": 1794310276.9323466,
   "c50363867e0741ed": 1794783380.5936024,
@@ -11789,7 +11795,6 @@
   "c9b8f8a2dd2a6317": 1795230109.4504037,
   "ca38a4658abbf897": 1794263486.3048987,
   "ca4a8dd162908ceb": 1794915363.0843284,
-  "ca4be54cab311714": 1794051080.6632652,
   "ca5ce62ca9cfa9c1": 1794598278.7437491,
   "ca7dd68b4ce7da30": 1794277900.4767604,
   "ca925f90135eae9c": 1794175365.9801433,
@@ -13495,7 +13500,7 @@
    "PC Gamer": 14,
    "Pitchfork": 4,
    "PlayUA": 6,
-   "Polygon": 25,
+   "Polygon": 26,
    "Product Hunt": 6,
    "Revolver": 3,
    "Rock Paper Shotgun": 12,
@@ -13509,7 +13514,7 @@
   "translators": {
    "DeepL": 65,
    "gemini-flash-latest": 35,
-   "gemini-flash-lite-latest": 342,
+   "gemini-flash-lite-latest": 343,
    "gemma-4-26b-a4b-it": 41,
    "gemma-4-31b-it": 43
   },
@@ -15526,6 +15531,16 @@
    "Godzilla: Destroy All Monsters Melee Remastered",
    1793642516.1267724
   ],
+  "q:goodbye 'rings": [
+   0,
+   "",
+   1795260682.926526
+  ],
+  "q:goodbye 'rings of power": [
+   0,
+   "",
+   1795260682.4100392
+  ],
   "q:gothic 1 remake": [
    1297900,
    "Gothic 1 Remake",
@@ -16536,6 +16551,31 @@
    "",
    1795098687.990402
   ],
+  "q:prime video": [
+   0,
+   "",
+   1795260685.5359793
+  ],
+  "q:prime video's legendary": [
+   0,
+   "",
+   1795260685.017962
+  ],
+  "q:prime video's legendary 48 episode": [
+   0,
+   "",
+   1795260684.5139024
+  ],
+  "q:prime video's legendary 48 episode fantasy": [
+   0,
+   "",
+   1795260684.0140028
+  ],
+  "q:prime video's legendary 48 episode fantasy series": [
+   0,
+   "",
+   1795260683.5121398
+  ],
   "q:prince of persia": [
    19980,
    "Prince of Persia®",
@@ -16680,6 +16720,11 @@
    0,
    "",
    1795104084.1057475
+  ],
+  "q:rings of power": [
+   0,
+   "",
+   1795260681.8865242
   ],
   "q:rob run": [
    4262460,
@@ -17281,6 +17326,26 @@
    "VIDEO GAME",
    1792675949.3848453
   ],
+  "q:video's legendary 48 episode": [
+   0,
+   "",
+   1795260687.5964956
+  ],
+  "q:video's legendary 48 episode fantasy": [
+   0,
+   "",
+   1795260687.095722
+  ],
+  "q:video's legendary 48 episode fantasy series": [
+   0,
+   "",
+   1795260686.5932884
+  ],
+  "q:video's legendary 48 episode fantasy series is": [
+   0,
+   "",
+   1795260686.0627675
+  ],
   "q:vincent": [
    2949660,
    "Vincent",
@@ -17549,14 +17614,6 @@
   ]
  },
  "titles": [
-  [
-   1795087876.073901,
-   "Зірка «Рятувальників Малібу» пояснила, чому завела сторінку OnlyFans"
-  ],
-  [
-   1795087879.2406805,
-   "solidjs/solid"
-  ],
   [
    1795089082.1423235,
    "DDR6 буде вчетверо швидшою за DDR5: JEDEC представила попередні характеристики нового стандарту пам’яті"
@@ -18316,17 +18373,13 @@
   [
    1795260086.5881557,
    "Why Effie Trinket From The Hunger Games: Sunrise On The Reaping Looks So Familiar"
+  ],
+  [
+   1795260692.8986564,
+   "Goodbye 'Rings of Power,' Prime Video’s Legendary 48-Episode Fantasy Series Is Even Better"
   ]
  ],
  "titles_uk": [
-  [
-   1795087876.073902,
-   "Зірка «Рятувальників Малібу» пояснила, чому завела сторінку OnlyFans"
-  ],
-  [
-   1795087879.2406814,
-   "Оновлення JavaScript-бібліотеки Solid"
-  ],
   [
    1795089082.1423242,
    "DDR6 буде вчетверо швидшою за DDR5: JEDEC представила попередні характеристики нового стандарту пам’яті"
@@ -19086,6 +19139,10 @@
   [
    1795260086.588157,
    "Ель Фаннінг зіграє молоду Effie Trinket у The Hunger Games: Sunrise on the Reaping"
+  ],
+  [
+   1795260692.8986568,
+   "Анімаційний серіал The Legend of Vox Machina на Prime Video"
   ]
  ],
  "ukrainian": {
