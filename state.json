@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
+   "detail": "https://distortedsoundmag.com/feed/ → HTTPSConnectionPool(host='distortedsoundmag.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Distorted Sound» не працює",
+   "sent": 0,
+   "since": 1795298486.8636582
+  }
+ },
  "daily_digest_date": "2026-11-21",
  "freebies": {
   "last_check": 1795293276.1547444,
@@ -31,56 +38,19 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-21 21:02 UTC",
-  "gemini_error": "",
+  "at": "2026-11-21 22:07 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
+   "gemini-flash-lite-latest": 1,
    "gemma-4-31b-it": 1
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794607286.0106692,
-   5865,
-   "🤘",
-   "Drill Sergeant випустили сингл і кліп, анонсують LP",
-   "Neformat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.neformat.com.ua/news/28468-drill-sergeant-vipustili-singl-i-klip-anonsuyut-lp.html",
-    "orig": "Drill Sergeant випустили сингл і кліп, анонсують LP"
-   }
-  ],
-  [
-   1794607470.7705953,
-   5866,
-   "🎬",
-   "Брюс Спрінгстін поскаржився, що Стівен Спілберг зіпсував йому купання після виходу «Jaws»",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/film/news/bruce-springsteen-steven-spielberg-jaws-skinny-dipping-1236947282/",
-    "orig": "Bruce Springsteen Says Steven Spielberg ‘F—ed Up’ Skinny Dipping After Releasing ‘Jaws’: ‘Why Would a Nice Man Do That?’"
-   }
-  ],
-  [
-   1794607474.0964646,
-   5867,
-   "🤘",
-   "Kingdom of Giants випустили кліп на трек Past Life та новий альбом Usurper",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55892/kingdom-of-giants-premiere-past-life-music-video/",
-    "orig": "Kingdom of Giants premiere \"Past Life\" music video"
-   }
-  ],
   [
    1794609307.078844,
    5868,
@@ -8797,7 +8767,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🎮 <b>Що реліз Grand Theft Auto 6 означає для кризи в індустрії відеоігор</b>\n\nУ новому випуску Wall Street Week розглянули вплив майбутнього релізу Grand Theft Auto 6 на ігрову індустрію, яка регулярно стикається зі звільненнями, перенесеннями проєктів і спадом витрат гравців. Крім того, експерти обговорили способи подолання боргової кризи в США та стрімке зростання витрат на охорону здоров&#x27;я.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-21/wall-street-week-gaming-blockbuster-cybersecurity-video\">Bloomberg</a> · #ігри #GTA6",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-11-21/wall-street-week-gaming-blockbuster-cybersecurity-video",
     "orig": "Wall Street Week | Gaming Blockbuster, Healthcare Costs, Cybersecurity Meets AI"
@@ -8811,7 +8780,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>Трамп підтримав запровадження федеральних податкових пільг для кіноіндустрії США</b>\n\nЯк повідомляє видання IndieWire, Дональд Трамп підтвердив підтримку двопартійного законопроєкту про федеральні податкові пільги для кіно та телебачення. Законодавці прагнуть ухвалити ініціативу до кінця року, щоб повернути кіновиробництво з-за кордону. У разі ухвалення проєкти отримають 20% кредиту на витрати на оплату праці.\n\n🔗 <a href=\"https://www.indiewire.com/news/breaking-news/trump-says-federal-film-tax-credit-will-pass-congress-1235229851/\">IndieWire</a> · #кіно_і_серіали #Hollywood",
     "kind": "photo",
     "link": "https://www.indiewire.com/news/breaking-news/trump-says-federal-film-tax-credit-will-pass-congress-1235229851/",
     "orig": "Trump Renews Backing for Federal Film Tax Credit as Lawmakers Push for Year-End Passage"
@@ -8825,7 +8793,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>The Witcher 4 отримає фізичне видання, але диск під питанням</b>\n\nСпівкерівник CD Projekt Міхал Новаковський підтвердив, що The Witcher 4 точно отримає фізичне коробкове видання з бонусами. Проте студія не впевнена, чи буде всередині сам диск, адже Sony планує припинити їхнє виробництво для PlayStation у січні 2028 року. Реліз гри очікується у 2028 році на PC, PS5 та Xbox Series X.\n\n🔗 <a href=\"https://www.polygon.com/the-witcher-4-physical-release-cd-projekt-red-ps5/\">Polygon</a> · #ігри #TheWitcher #CDProjekt",
     "kind": "photo",
     "link": "https://www.polygon.com/the-witcher-4-physical-release-cd-projekt-red-ps5/",
     "orig": "The Witcher 4 Gets Official Update on Physical Release"
@@ -9652,6 +9619,48 @@
     "link": "https://the-decoder.com/bytedance-argues-most-ai-training-phases-are-unnecessary-and-backs-it-up-with-a-competitive-open-model/",
     "orig": "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model"
    }
+  ],
+  [
+   1795298736.260385,
+   6608,
+   "🤘",
+   "Фонд All Within My Hands гурту METALLICA пожертвував $100 000 на допомогу дітям, які постраждали від домашнього насильства",
+   "Blabbermouth",
+   {
+    "also": [],
+    "caption": "🤘 <b>Фонд All Within My Hands гурту METALLICA пожертвував $100 000 на допомогу дітям, які постраждали від домашнього насильства</b>\n\nОрганізація SafeNest — найбільша некомерційна організація Південної Невади, що займається боротьбою з домашнім та сексуальним насильством, — отримала грант у розмірі 100 000 доларів від фонду гурту METALLICA «All Within My Hands» для розширення підтримки дітей та сімей, які постраждали від домашнього насильства в окрузі Кларк. Рене Річардсон, директорка...\n\n🔗 <a href=\"https://blabbermouth.net/news/metallicas-all-within-my-hands-foundation-donates-100000-to-support-children-affected-by-domestic-violence\">Blabbermouth</a> · #музика",
+    "kind": "photo",
+    "link": "https://blabbermouth.net/news/metallicas-all-within-my-hands-foundation-donates-100000-to-support-children-affected-by-domestic-violence",
+    "orig": "METALLICA's 'All Within My Hands' Foundation Donates $100,000 To Support Children Affected By Domestic Violence"
+   }
+  ],
+  [
+   1795298812.58782,
+   6609,
+   "🎬",
+   "Кейтлан Коллінз пояснила відсутність у фіналі Real Time пресконференцією в Білому дому",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Кейтлан Коллінз пояснила відсутність у фіналі Real Time пресконференцією в Білому дому</b>\n\nКейтлан Коллінз пропустила фінал 24-го сезону Real Time через пресконференцію з Дональдом Трампом у Білому дому. Це сталося на тлі чуток про її таємне вилучення зі складу гостей. 25-й сезон шоу повернеться в ефір 15 січня.\n\n🔗 <a href=\"https://deadline.com/2026/11/kaitlan-collins-real-time-absence-white-house-press-conference-1237231015/\">Deadline</a> · #кіно_і_серіали #RealTime #HBO",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/kaitlan-collins-real-time-absence-white-house-press-conference-1237231015/",
+    "orig": "Kaitlan Collins Notes ‘Real Time’ Absence Was Due To White House Press Conference"
+   }
+  ],
+  [
+   1795298814.8708067,
+   6610,
+   "🤘",
+   "IGNEA випустили LP \"Monumental\"",
+   "Neformat",
+   {
+    "also": [],
+    "caption": "🤘 <b>IGNEA випустили LP &quot;Monumental&quot;</b>\n\nСьогодні київський модерн-метал-гурт IGNEA видали анонсований альбом &quot;Monumental&quot; на лейблі Napalm Records. Це багатошарова робота, вибудована як &quot;ностальгійні гойдалки&quot; і сповнена образів минулого й\n\n🔗 <a href=\"https://www.neformat.com.ua/news/28469-ignea-vipustili-lp-monumental.html\">Neformat</a> · #музика",
+    "kind": "photo",
+    "link": "https://www.neformat.com.ua/news/28469-ignea-vipustili-lp-monumental.html",
+    "orig": "IGNEA випустили LP \"Monumental\""
+   }
   ]
  ],
  "posted_by_source": {
@@ -9789,7 +9798,8 @@
    1795234121.9146147,
    1795255451.0490115,
    1795255749.9519207,
-   1795262898.8029902
+   1795262898.8029902,
+   1795298812.5880344
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795087876.0739417
@@ -9815,7 +9825,7 @@
    1795228645.1997085
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
-   1795059077.2801335
+   1795298736.2606103
   ],
   "music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792663481.2509966
@@ -9856,8 +9866,7 @@
    1793223099.157012
   ],
   "music|Neformat|https://www.neformat.com.ua/": [
-   1795126083.9035256,
-   1795212402.1109724
+   1795298814.8709943
   ],
   "music|Pitchfork|https://pitchfork.com/feed/feed-news/rss": [
    1795152758.4494793
@@ -10117,7 +10126,6 @@
   "15aa8dd812510738": 1795163481.3206105,
   "15c25642e81cafd9": 1795215739.3827276,
   "15d104ab2ce02372": 1794200482.770165,
-  "15f791af37d54966": 1794089061.278885,
   "15ffb70a9838e69e": 1795181454.9966192,
   "16010c92860b7275": 1794907853.4173076,
   "160a54a4a100f73f": 1794474079.911317,
@@ -10898,6 +10906,7 @@
   "71e05f1bcda799a4": 1794790852.1093779,
   "71e1011ca0b2ecb9": 1794135725.0000248,
   "71e982c8c7447ef3": 1794240058.5109377,
+  "7203879df98082f0": 1795298814.8709586,
   "723d1511bd3c62da": 1795041093.900804,
   "72586569a7e3b78e": 1795190538.9688873,
   "7265652a5266f6fb": 1794906178.1197684,
@@ -11174,7 +11183,6 @@
   "919be5e8534ffdf5": 1794670323.9271846,
   "91bf41646a4e8582": 1794623482.2775147,
   "91d72bcce28cf6a9": 1794695679.6208858,
-  "920f86ea3f72befe": 1794089056.8419774,
   "92394219fcd474c6": 1794182587.1580834,
   "924154c52b2e946d": 1795059077.2800844,
   "924ce5d82a4e8e4e": 1794454288.0356266,
@@ -11223,6 +11231,7 @@
   "9927f89f2c8535c3": 1795219282.8531234,
   "992a01611b2e7356": 1794538856.044465,
   "9955dd9251a1ad76": 1795086056.5025625,
+  "995dd9ac908f0022": 1795298457.372487,
   "9974ef79a57fccc7": 1794456162.6430361,
   "998ca5903d76ff06": 1794241852.9158669,
   "999268c316e2c4e1": 1794987096.939376,
@@ -11253,6 +11262,7 @@
   "9cb3becff78cf9dc": 1794749693.5568864,
   "9cb6d5209d4461e9": 1795094014.6517174,
   "9ccc0aaa28506746": 1794308495.909991,
+  "9ccc3f2e9807d775": 1795298812.5879889,
   "9cef63bb562924fa": 1795175603.9044662,
   "9d2d7dbdbc89b8d7": 1794444580.337959,
   "9d31be1a08a39d89": 1794587487.6467981,
@@ -11717,6 +11727,7 @@
   "d3f0b19763b0644e": 1794862903.1640396,
   "d4075ecb0cb06067": 1795059075.8121054,
   "d40db588eb6dfd7c": 1794231054.60154,
+  "d4218061f7e0d044": 1795298736.260573,
   "d426d987bdc57691": 1794873679.9926894,
   "d46578824ac4420e": 1795042855.9275043,
   "d473cb58c4cce837": 1794722570.257613,
@@ -11733,7 +11744,6 @@
   "d5a243f0ceab02c5": 1794382279.7024496,
   "d5c35cc6974f5a60": 1794373255.2240887,
   "d5d46baa865ef6d1": 1794227485.9262125,
-  "d5e0b1582d85851f": 1794089059.1793842,
   "d5e995443cc7f9ba": 1794729653.9018893,
   "d600af45b84b0c93": 1794409424.9673688,
   "d613b6858b10eb3a": 1794841324.4617226,
@@ -11859,6 +11869,7 @@
   "e4b8ec6c3b375c04": 1794236457.3327184,
   "e4d16c1c883bd6b6": 1794612682.433116,
   "e4da97cc344964ea": 1795276859.0083566,
+  "e50f71f83ebd200e": 1795298490.477409,
   "e516df992423df85": 1794753081.674545,
   "e531100642cc5280": 1794952981.0864894,
   "e532e7e2d744c0eb": 1794283287.6384728,
@@ -13310,7 +13321,7 @@
    "PC Gamer": 23,
    "Pitchfork": 2,
    "PlayUA": 3,
-   "Polygon": 62,
+   "Polygon": 63,
    "Product Hunt": 1,
    "Revolver": 1,
    "The Decoder": 2,
@@ -13320,11 +13331,11 @@
   "sources": {
    "/Film": 19,
    "AIN.ua": 7,
-   "Blabbermouth": 4,
+   "Blabbermouth": 5,
    "Bloomberg": 48,
    "DOU": 4,
    "DOU Gamedev": 6,
-   "Deadline": 81,
+   "Deadline": 82,
    "Digital Foundry": 2,
    "Distorted Sound": 5,
    "Eurogamer": 9,
@@ -13342,7 +13353,7 @@
    "Metal Hammer (Louder)": 21,
    "Metal Injection": 2,
    "Mezha": 40,
-   "Neformat": 4,
+   "Neformat": 5,
    "PC Gamer": 16,
    "Pitchfork": 4,
    "PlayUA": 7,
@@ -13358,11 +13369,11 @@
    "Variety": 32
   },
   "translators": {
-   "DeepL": 69,
+   "DeepL": 70,
    "gemini-flash-latest": 35,
-   "gemini-flash-lite-latest": 353,
+   "gemini-flash-lite-latest": 354,
    "gemma-4-26b-a4b-it": 44,
-   "gemma-4-31b-it": 45
+   "gemma-4-31b-it": 46
   },
   "week": "2026-W47"
  },
@@ -14766,21 +14777,6 @@
    570,
    "Dota 2",
    1794810782.140999
-  ],
-  "q:dplus": [
-   0,
-   "",
-   1795125682.4259777
-  ],
-  "q:dplus kia": [
-   0,
-   "",
-   1795125681.9090831
-  ],
-  "q:dplus kia in lck": [
-   0,
-   "",
-   1795125681.4109402
   ],
   "q:dragon ball xenoverse 2": [
    454650,
@@ -16347,11 +16343,6 @@
    "SLOP",
    1793365294.3814354
   ],
-  "q:smash": [
-   0,
-   "",
-   1795125677.1987607
-  ],
   "q:songs of the past": [
    4825960,
    "Songs of the Past",
@@ -16421,26 +16412,6 @@
    1340720,
    "State of Decay 3",
    1793190869.8152926
-  ],
-  "q:stay with": [
-   0,
-   "",
-   1795125679.356224
-  ],
-  "q:stay with dplus": [
-   0,
-   "",
-   1795125678.7609992
-  ],
-  "q:stay with dplus kia": [
-   0,
-   "",
-   1795125678.249912
-  ],
-  "q:stay with dplus kia in lck": [
-   0,
-   "",
-   1795125677.7001548
   ],
   "q:steel core": [
    4749570,
@@ -16937,21 +16908,6 @@
    "",
    1795224687.8985815
   ],
-  "q:with dplus": [
-   0,
-   "",
-   1795125680.90527
-  ],
-  "q:with dplus kia": [
-   0,
-   "",
-   1795125680.401876
-  ],
-  "q:with dplus kia in lck": [
-   0,
-   "",
-   1795125679.869929
-  ],
   "q:workers resources soviet republic": [
    784150,
    "Workers & Resources: Soviet Republic",
@@ -17035,10 +16991,6 @@
   ]
  },
  "titles": [
-  [
-   1795125763.7381394,
-   "ShowMaker, Smash, and cvMax Stay With Dplus Kia in LCK"
-  ],
   [
    1795126079.9813564,
    "Aaron Pierre on ‘Lanterns,’ the DC Shake-Up, and Landing a Role in Ryan Gosling’s ‘Star Wars’ Movie"
@@ -17742,13 +17694,21 @@
   [
    1795294960.602067,
    "Bytedance argues most AI training phases are unnecessary and backs it up with a competitive open model"
+  ],
+  [
+   1795298736.2605748,
+   "METALLICA's 'All Within My Hands' Foundation Donates $100,000 To Support Children Affected By Domestic Violence"
+  ],
+  [
+   1795298812.5879903,
+   "Kaitlan Collins Notes ‘Real Time’ Absence Was Due To White House Press Conference"
+  ],
+  [
+   1795298814.8709595,
+   "IGNEA випустили LP \"Monumental\""
   ]
  ],
  "titles_uk": [
-  [
-   1795125763.73814,
-   "ShowMaker, Smash і тренер cvMax залишаються в Dplus Kia"
-  ],
   [
    1795126079.981357,
    "Аарон П'єр про Lanterns, зміни в DC та роль у фільмі Star Wars Раяна Ґослінґа"
@@ -18452,6 +18412,18 @@
   [
    1795294960.6020677,
    "Bytedance вважає більшість етапів навчання ШІ зайвими"
+  ],
+  [
+   1795298736.2605753,
+   "Фонд All Within My Hands гурту METALLICA пожертвував $100 000 на допомогу дітям, які постраждали від домашнього насильства"
+  ],
+  [
+   1795298812.5879912,
+   "Кейтлан Коллінз пояснила відсутність у фіналі Real Time пресконференцією в Білому дому"
+  ],
+  [
+   1795298814.8709605,
+   "IGNEA випустили LP \"Monumental\""
   ]
  ],
  "ukrainian": {
@@ -20915,7 +20887,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795294968.780336,
+  "last_check": 1795298824.211734,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
