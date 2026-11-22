@@ -31,45 +31,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-22 09:09 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-11-22 10:04 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-latest",
   "gemini_models_used": {
    "gemini-flash-latest": 1,
    "gemma-4-31b-it": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794648773.5510561,
-   5918,
-   "🤘",
-   "Inferum анонсували новий альбом Adversity",
-   "Distorted Sound",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://distortedsoundmag.com/inferum-announce-new-album-adversity/",
-    "orig": "Inferum announce new album ‘Adversity’"
-   }
-  ],
-  [
-   1794648890.137468,
-   5919,
-   "💾",
-   "block/buzz",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/block/buzz",
-    "orig": "block/buzz"
-   }
-  ],
   [
    1794652341.2395897,
    5920,
@@ -8729,7 +8702,6 @@
    "Digital Foundry",
    {
     "also": [],
-    "caption": "🎮 <b>Apex Compute випустила бета-версію нейронного рендерингу Apex Neural Rendering</b>\n\nКомпанія Apex Compute випустила бета-версію набору технологій Apex Neural Rendering, створеного розробником-одинаком. Технологія пропонує генерацію кадрів і демонструє результати, порівнянні з рішеннями від Nvidia, у таких іграх, як Marvel&#x27;s Spider-Man та Cyberpunk 2077.\n\n🔗 <a href=\"https://www.digitalfoundry.net/features/apex-neural-rendering-can-independent-devs-beat-dlss\">Digital Foundry</a> · #ігри #Nvidia #ApexCompute",
     "kind": "photo",
     "link": "https://www.digitalfoundry.net/features/apex-neural-rendering-can-independent-devs-beat-dlss",
     "orig": "Feature: Apex Neural Rendering: Can Independent Devs Beat DLSS?"
@@ -8743,7 +8715,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Нова відкрита модель Inkling 2 Mini мислить циклами для вирішення завдань та працює на ноутбуці</b>\n\nКомпанія Thinking Machines випустила Inkling 2 Mini — трансформер з відкритим циклом, який за один токен обробляє 12 із 24 своїх шарів тричі. Це дозволяє моделі довше здійснювати внутрішні міркування, не генеруючи зайвого тексту. За індексом інтелекту Artificial Analysis вона ділить перше місце з Qwen3.8 27B, при цьому її вартість приблизно в шість разів нижча.\n\n🔗 <a href=\"https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/\">The Decoder</a> · #ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/new-open-model-inkling-2-mini-thinks-in-loops-to-solve-problems-with-fewer-words-and-still-runs-on-a-laptop/",
     "orig": "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop"
@@ -8762,7 +8733,6 @@
       "https://playua.net/paralizovanyj-gejmer-zigrav-u-gta-6-za-dopomogoyu-mozkovogo-implanta-neuralink/"
      ]
     ],
-    "caption": "🎮 <b>Чоловік з мозковим імплантом Neuralink зіграв у GTA 6 лише за допомогою сили думки</b>\n\nКомпанія Neuralink опублікувала в соцмережі X відео, на якому учасник випробувань проходить GTA 6 лише за допомогою мозкового імпланта. Замість традиційного контролера для керування грою застосовуються сигнали мозку, які зчитує імплант.\n\n🔗 <a href=\"https://mezha.ua/news/neuralink-pokazala-prohodzhennya-gta-6-za-dopomogoyu-mozkovogo-implanta-317453/\">Mezha</a> · #ігри",
     "kind": "photo",
     "link": "https://mezha.ua/news/neuralink-pokazala-prohodzhennya-gta-6-za-dopomogoyu-mozkovogo-implanta-317453/",
     "orig": "Чоловік з мозковим імплантом Neuralink зіграв у GTA 6 лише за допомогою сили думки"
@@ -9579,12 +9549,54 @@
     "link": "https://playua.net/natus-vincere-staly-chempionamy-brawl-stars-world-finals-2026-ta-zarobyly-450-000/",
     "orig": "Natus Vincere стали чемпіонами Brawl Stars World Finals 2026 та заробили $450 000"
    }
+  ],
+  [
+   1795341793.5306718,
+   6656,
+   "🎬",
+   "SXSW став партнером єгипетського фестивалю UTH",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>SXSW став партнером єгипетського фестивалю UTH</b>\n\nSXSW об&#x27;єднався з єгипетським UTH Festival для підтримки місцевих кінорежисерів, музикантів та підприємців. У межах співпраці делегація з 20 осіб відвідає SXSW у березні, а в майбутньому в Остіні планують створити Egypt House для єгипетських талантів.\n\n🔗 <a href=\"https://variety.com/2026/film/global/sxsw-partnership-egypt-uth-festival-youth-culture-1236955220/\">Variety</a> · #кіно_і_серіали #SXSW #UTHFestival",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/global/sxsw-partnership-egypt-uth-festival-youth-culture-1236955220/",
+    "orig": "SXSW Forges Partnership With Egypt’s UTH Festival Dedicated to Youth Culture"
+   }
+  ],
+  [
+   1795341795.5156832,
+   6657,
+   "🤖",
+   "Signal обмежить створення скриншотів на смартфонах, щоб захистити листування від ШІ",
+   "AIN.ua",
+   {
+    "also": [],
+    "caption": "🤖 <b>Signal обмежить створення скриншотів на смартфонах, щоб захистити листування від ШІ</b>\n\nМесенджер закликає Apple, Google та Microsoft надати розробникам більше інструментів для захисту конфіденційних даних від ШІ-агентів.\n\n🔗 <a href=\"https://ain.ua/2026/11/20/signal-obmezit-stvorennia-skrinsotiv-na-smartfonax-shhob-zaxistiti-listuvannia-vid-si/\">AIN.ua</a> · #ШІ",
+    "kind": "photo",
+    "link": "https://ain.ua/2026/11/20/signal-obmezit-stvorennia-skrinsotiv-na-smartfonax-shhob-zaxistiti-listuvannia-vid-si/",
+    "orig": "Signal обмежить створення скриншотів на смартфонах, щоб захистити листування від ШІ"
+   }
+  ],
+  [
+   1795341888.547384,
+   6658,
+   "🤘",
+   "Firewind та Powerglove анонсували спільний тур Північною Америкою",
+   "Distorted Sound",
+   {
+    "also": [],
+    "caption": "🤘 <b>Firewind та Powerglove анонсували спільний тур Північною Америкою</b>\n\nFIREWIND та POWERGLOVE вирушають у спільний тур США. Грецькі павер-металісти та фаворити інструментального металу проведуть\n\n🔗 <a href=\"https://distortedsoundmag.com/firewind-and-powerglove-announce-co-headline-north-american-tour/\">Distorted Sound</a> · #музика",
+    "kind": "photo",
+    "link": "https://distortedsoundmag.com/firewind-and-powerglove-announce-co-headline-north-american-tour/",
+    "orig": "Firewind and Powerglove announce co-headline North American tour"
+   }
   ]
  ],
  "posted_by_source": {
   "ai|AIN.ua|https://ain.ua/feed/": [
-   1795190541.010601,
-   1795262900.692502
+   1795262900.692502,
+   1795341795.5158873
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
    1795237331.845538,
@@ -9743,8 +9755,8 @@
    1795327503.105598
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
-   1795228645.1997085,
-   1795309620.247094
+   1795309620.247094,
+   1795341793.5309024
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
    1795298736.2606103,
@@ -9760,7 +9772,8 @@
    1793824292.005878
   ],
   "music|Distorted Sound|https://distortedsoundmag.com/feed/": [
-   1795327352.195023
+   1795327352.195023,
+   1795341888.5476065
   ],
   "music|Kerrang!|https://www.kerrang.com/feed.rss": [
    1795167148.956924,
@@ -10319,7 +10332,6 @@
   "34fc7f9035834703": 1794598278.1298761,
   "351e500a178cbd45": 1794963668.215512,
   "3544a836063b2a5c": 1794718889.3772535,
-  "3558f6c1aff3ffd2": 1794132168.2066665,
   "3566dc58ff64d1be": 1794379596.8600004,
   "35ab349aa9777645": 1795320137.6138074,
   "35b15e4570eca0e9": 1794546103.7938688,
@@ -10400,6 +10412,7 @@
   "3e57339765a5c089": 1794403992.1362224,
   "3e7019c0f2362058": 1794178884.958449,
   "3e73f7351779bbff": 1795053694.9583557,
+  "3ea7ab9e54c73d65": 1795341888.54756,
   "3eddfbf648bbbf99": 1795046478.690607,
   "3f029a56caafca47": 1794972687.859595,
   "3f2e067186861ece": 1794614678.0289764,
@@ -10556,6 +10569,7 @@
   "532dfc54b7017128": 1794811464.7664373,
   "534b9dffec620175": 1795028455.8508024,
   "53958cf51f47108f": 1794648890.1376827,
+  "53992085435d7819": 1795341793.5308545,
   "53f804c9fdfe5036": 1795187035.2631474,
   "5414ecc9b939f980": 1794607474.0966804,
   "544396b7298dff1b": 1795282267.5256326,
@@ -10576,6 +10590,7 @@
   "55c25e13c2d1b4c6": 1794353465.3584552,
   "55cad23c843395ab": 1794379783.9103365,
   "55f1a05e3c242a02": 1794306676.3979933,
+  "55fe7f213a059021": 1795341795.5158405,
   "561b88a4a1443c4f": 1794213096.5452287,
   "5689f31b2cda7ca2": 1795023110.4423168,
   "569a83400c460624": 1795003253.1151035,
@@ -10998,6 +11013,7 @@
   "83f7d16126d0d484": 1794697284.9680347,
   "8400bdfe1e2afd49": 1794591220.2610095,
   "84b00af36c22dd61": 1795186853.8663404,
+  "84b129d286a6d2e7": 1795341679.2149568,
   "84b50641334733c1": 1794999653.1275568,
   "84c493ffab2a300d": 1794960096.0063965,
   "8508608452b89271": 1794956575.5119343,
@@ -11834,7 +11850,6 @@
   "e94a7627f40d9a23": 1794184279.122158,
   "e96f29b738a8fe95": 1795275136.563475,
   "e9c7b7798ee94ff3": 1795134676.9737735,
-  "e9e37faea4d91eef": 1794130320.2819865,
   "e9ee834f07002a34": 1794526278.3937762,
   "ea020bd4c163cf88": 1795001473.0646799,
   "ea2065f78b532f39": 1794900685.0720696,
@@ -13256,14 +13271,14 @@
   },
   "sources": {
    "/Film": 24,
-   "AIN.ua": 7,
+   "AIN.ua": 8,
    "Blabbermouth": 8,
    "Bloomberg": 49,
    "DOU": 4,
    "DOU Gamedev": 6,
    "Deadline": 91,
    "Digital Foundry": 2,
-   "Distorted Sound": 6,
+   "Distorted Sound": 7,
    "Eurogamer": 10,
    "GameSpot": 4,
    "GamesIndustry.biz": 12,
@@ -13292,14 +13307,14 @@
    "The Decoder": 20,
    "ThePRP": 12,
    "VGC": 9,
-   "Variety": 36
+   "Variety": 37
   },
   "translators": {
    "DeepL": 72,
-   "gemini-flash-latest": 38,
+   "gemini-flash-latest": 39,
    "gemini-flash-lite-latest": 362,
    "gemma-4-26b-a4b-it": 54,
-   "gemma-4-31b-it": 66
+   "gemma-4-31b-it": 67
   },
   "week": "2026-W47"
  },
@@ -17193,22 +17208,6 @@
  },
  "titles": [
   [
-   1795167148.9568815,
-   "Takedown Festival announces first bands for 2027, with Nova Twins and unpeople headlining"
-  ],
-  [
-   1795167364.553662,
-   "cathrynlavery/diagram-design"
-  ],
-  [
-   1795169002.4797587,
-   "David Lean Doc Narrated By Cate Blanchett Sells To Spain, France, Germany, Australia Ahead Of UK Release"
-  ],
-  [
-   1795169023.456411,
-   "mjmirza/app-store-compliance"
-  ],
-  [
    1795170780.7427719,
    "Ubisoft launches Motherbrain, a new subsidiary focused on AI-driven \"gameplay innovation\""
   ],
@@ -17879,25 +17878,21 @@
   [
    1795339885.7154696,
    "Natus Vincere стали чемпіонами Brawl Stars World Finals 2026 та заробили $450 000"
+  ],
+  [
+   1795341793.5308561,
+   "SXSW Forges Partnership With Egypt’s UTH Festival Dedicated to Youth Culture"
+  ],
+  [
+   1795341795.515843,
+   "Signal обмежить створення скриншотів на смартфонах, щоб захистити листування від ШІ"
+  ],
+  [
+   1795341888.5475616,
+   "Firewind and Powerglove announce co-headline North American tour"
   ]
  ],
  "titles_uk": [
-  [
-   1795167148.9568825,
-   "Takedown Festival оголосив перших хедлайнерів на 2027 рік"
-  ],
-  [
-   1795167364.5536628,
-   "diagram-design дозволяє ШІ-агентам створювати діаграми у форматі HTML та SVG"
-  ],
-  [
-   1795169002.47976,
-   "Maverick: The Epic Adventures of David Lean розпродали на міжнародні ринки"
-  ],
-  [
-   1795169023.4564118,
-   "Створено інструмент для запобігання відхиленню мобільних додатків у маркеттах"
-  ],
   [
    1795170780.7427728,
    "Ubisoft запускає Motherbrain для розробки ШІ-технологій у геймплеї"
@@ -18569,6 +18564,18 @@
   [
    1795339885.7154706,
    "Natus Vincere стали чемпіонами Brawl Stars World Finals 2026 та заробили $450 000"
+  ],
+  [
+   1795341793.530858,
+   "SXSW став партнером єгипетського фестивалю UTH"
+  ],
+  [
+   1795341795.5158439,
+   "Signal обмежить створення скриншотів на смартфонах, щоб захистити листування від ШІ"
+  ],
+  [
+   1795341888.5475628,
+   "Firewind та Powerglove анонсували спільний тур Північною Америкою"
   ]
  ],
  "ukrainian": {
