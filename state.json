@@ -31,108 +31,19 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-22 07:33 UTC",
+  "at": "2026-11-22 09:09 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemma-4-31b-it",
+  "gemini_model": "gemini-flash-latest",
   "gemini_models_used": {
+   "gemini-flash-latest": 1,
    "gemma-4-31b-it": 1
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794641656.7548468,
-   5911,
-   "🤖",
-   "Білий дім закликає послабити відповідальність заради безпеки ШІ",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-14/white-house-urges-easing-liability-to-encourage-ai-disclosure",
-    "orig": "White House Urges Easing Liability to Encourage AI Disclosure"
-   }
-  ],
-  [
-   1794641660.5048902,
-   5912,
-   "💾",
-   "Alibaba відкрила вихідний код ШІ-інструмента для рев'ю коду Open Code Review",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/alibaba/open-code-review",
-    "orig": "alibaba/open-code-review"
-   }
-  ],
-  [
-   1794643281.1088758,
-   5913,
-   "🎬",
-   "Тимчасова зупинка польотів FAA загрожує голлівудським подіям",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/faa-ground-stoppage-hollywood-weekend-events-impact-1237223500/",
-    "orig": "FAA Ground Stoppage Could Impact One Of Hollywood’s Busiest Weekends"
-   }
-  ],
-  [
-   1794643426.488553,
-   5914,
-   "💾",
-   "Plannotator: робочий простір для контролю та співпраці з ШІ-агентами",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/backnotprop/plannotator",
-    "orig": "backnotprop/plannotator"
-   }
-  ],
-  [
-   1794645076.406275,
-   5915,
-   "💾",
-   "Thunder: надшвидка персистентна база даних для ШІ-навантажень",
-   "Product Hunt",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.producthunt.com/products/thunder-3",
-    "orig": "Thunder"
-   }
-  ],
-  [
-   1794646968.042978,
-   5916,
-   "🤘",
-   "Memoriam випустили новий трек «At The Point Of No Return»",
-   "Distorted Sound",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://distortedsoundmag.com/memoriam-release-new-song-at-the-point-of-no-return/",
-    "orig": "Memoriam release new song ‘At The Point Of No Return’"
-   }
-  ],
-  [
-   1794646997.4716456,
-   5917,
-   "💾",
-   "Автори Uptime Kuma попереджають про фейковий сайт у Google",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/louislam/uptime-kuma",
-    "orig": "louislam/uptime-kuma"
-   }
-  ],
   [
    1794648773.5510561,
    5918,
@@ -8779,7 +8690,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Шостий розділ Deltarune структурно завершено, а розробка сьомого вже стартувала</b>\n\nТобі Фокс повідомив, що шостий розділ Deltarune майже готовий, а команда вже почала роботу над сьомим і готується до локалізації. Попри швидкий прогрес, повноцінне тестування ще попереду, а реліз доведеться зачекати.\n\n🔗 <a href=\"https://www.pcgamer.com/games/rpg/deltarune-chapter-6-is-structurally-complete-while-development-has-begun-on-chapter-7-according-to-toby-fox/\">PC Gamer</a> · #ігри #Deltarune",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/rpg/deltarune-chapter-6-is-structurally-complete-while-development-has-begun-on-chapter-7-according-to-toby-fox/",
     "orig": "Deltarune chapter 6 is 'structurally complete' while development has begun on chapter 7, according to Toby Fox"
@@ -8793,7 +8703,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>NVIDIA випустила GeForce Hotfix-драйвер версії 621.35 для усунення надмірного запису даних на SSD</b>\n\nNVIDIA випустила драйвер GeForce Hotfix версії 621.35, який має усунути проблему надмірного запису даних на SSD, зафіксовану в попередніх версіях графічних драйверів 621.14 і 621.24.\n\n🔗 <a href=\"https://mezha.ua/news/nvidia-vipustila-drayver-621-35-dlya-usunennya-problem-z-ssd-317451/\">Mezha</a> · #софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/nvidia-vipustila-drayver-621-35-dlya-usunennya-problem-z-ssd-317451/",
     "orig": "NVIDIA випустила GeForce Hotfix-драйвер версії 621.35 для усунення надмірного запису даних на SSD"
@@ -9629,6 +9538,34 @@
     "link": "https://www.ign.com/articles/piranha-plant-slippers-amazon-black-friday-deal-2026",
     "orig": "These Piranha Plant Slippers Double as Mario-themed Decor When You Put Them Away"
    }
+  ],
+  [
+   1795338185.8646746,
+   6653,
+   "🎮",
+   "Activision запатентувала ШІ, що навчить NPC копіювати манеру спілкування гравців",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Activision запатентувала ШІ, що навчить NPC копіювати манеру спілкування гравців</b>\n\nКомпанія Activision розробила систему, яка аналізує голосові реакції гравців у Discord або TeamSpeak під час ігрових подій. Ці дані використовуються для навчання нейромережі, щоб NPC могли відтворювати людські манери та насмішки. Система має фільтри для запобігання використанню образливих слів.\n\n🔗 <a href=\"https://insider-gaming.com/activision-ai-trash-talking-patent/\">Insider Gaming</a> · #ігри #Activision",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/activision-ai-trash-talking-patent/",
+    "orig": "Activision Patent Allows AI Enemies to Learn Trash Talking From Players"
+   }
+  ],
+  [
+   1795338504.2783792,
+   6654,
+   "🎮",
+   "Я ще ніколи не бачив таких часів у відеоіграх",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Я ще ніколи не бачив таких часів у відеоіграх</b>\n\nБуло важко не провести першу годину чи близько того в день виходу Grand Theft Auto 6 у стані, схожому на шок. Якщо говорити про редакційну роботу у сфері відеоігор — а, чесно кажучи, це не так вже й багато; приготуйтеся до надто улесливої аналогії — ефект був приблизно таким самим, як у Тома Хенкса, коли його герой Джон Г. Міллер вперше ступив на пляж Омаха.\n\n🔗 <a href=\"https://www.eurogamer.net/gta-6-video-games-biggest-moment\">Eurogamer</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/gta-6-video-games-biggest-moment",
+    "orig": "I've never known a moment like this in video games"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9684,7 +9621,8 @@
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
    1795255758.0189424,
-   1795277275.7718217
+   1795277275.7718217,
+   1795338504.278589
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1795188781.189875
@@ -9704,10 +9642,9 @@
    1795280653.6912632
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1795239290.1725826,
-   1795246402.32563,
    1795278700.67693,
-   1795280645.9511356
+   1795280645.9511356,
+   1795338185.8649108
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1795219398.0763006,
@@ -10012,7 +9949,6 @@
   "0d03bac0704cfb16": 1794812494.1080506,
   "0d0525775f70f58e": 1794862908.6792483,
   "0d35b86fb7bbdb7c": 1795212065.7898505,
-  "0d415288aaf69d6e": 1794126680.3484435,
   "0d926c0033bd0b3d": 1794715291.91409,
   "0da882e619a5f309": 1795010462.958915,
   "0db05686b8a5dc24": 1794778303.267593,
@@ -10116,6 +10052,7 @@
   "173509c6b3324842": 1794490477.181179,
   "1767875ea38120a7": 1795145931.5669088,
   "1784d759dd3f4ae5": 1794412878.7306378,
+  "17a7d8ef1dd786ba": 1795338066.3740447,
   "17bf9318e45dd8a8": 1794839485.2085533,
   "17c6e78082fda4a9": 1794682854.575637,
   "17f86f1e9e76a0bc": 1794417340.1571603,
@@ -10712,7 +10649,6 @@
   "5f9df56fed9a28e3": 1794598371.8116102,
   "5fa346d1bde734c4": 1794861223.1814535,
   "5fbc9fec83356e00": 1795195855.1176043,
-  "5ff87d2b1afb5020": 1794128496.4883294,
   "601561991121fbc1": 1794358895.9801354,
   "6079a1934c71ec12": 1794967642.9729302,
   "6091f8ccaa550031": 1795042884.9402401,
@@ -10877,6 +10813,7 @@
   "713e61f8f24f1ddb": 1794247258.386749,
   "713f6dbda6ec1870": 1794666656.604099,
   "7150eea99e4a5123": 1795121160.9480224,
+  "71cad9aae14c1682": 1795338504.2785425,
   "71e05f1bcda799a4": 1794790852.1093779,
   "71e1011ca0b2ecb9": 1794135725.0000248,
   "71e982c8c7447ef3": 1794240058.5109377,
@@ -11495,6 +11432,7 @@
   "bc3356ccbb0f312b": 1794214991.3628657,
   "bc6cd049e9a32803": 1794502963.9584627,
   "bc86d5ee71d92ab8": 1795336254.4206307,
+  "bcf878ba3e2ed755": 1795338185.8648632,
   "bd0886bfe5db68f9": 1794497454.0506542,
   "bd094462e92c17c9": 1794520852.2037077,
   "bd12796d271c4d1b": 1795087856.688431,
@@ -11897,7 +11835,6 @@
   "eb753eb5901ab2c2": 1794431111.1529963,
   "eb794a5547005fed": 1795327503.1055524,
   "eb85283cf01e7e50": 1794999653.1275568,
-  "eb8e266816bcb9cd": 1794128517.297944,
   "eb914ac5b3670695": 1795273254.563207,
   "eb9ed10f13c529dc": 1795234044.1678782,
   "ebdfce07d993cb55": 1795253456.1008854,
@@ -13294,7 +13231,7 @@
    "PC Gamer": 23,
    "Pitchfork": 2,
    "PlayUA": 3,
-   "Polygon": 66,
+   "Polygon": 67,
    "Product Hunt": 1,
    "Revolver": 1,
    "The Decoder": 2,
@@ -13311,7 +13248,7 @@
    "Deadline": 91,
    "Digital Foundry": 2,
    "Distorted Sound": 6,
-   "Eurogamer": 9,
+   "Eurogamer": 10,
    "GameSpot": 4,
    "GamesIndustry.biz": 12,
    "GitHub Trending": 29,
@@ -13319,7 +13256,7 @@
    "IGN": 9,
    "ITC.ua": 27,
    "IndieWire": 16,
-   "Insider Gaming": 15,
+   "Insider Gaming": 16,
    "Kerrang!": 4,
    "Lambgoat": 22,
    "Loudwire": 3,
@@ -13342,11 +13279,11 @@
    "Variety": 36
   },
   "translators": {
-   "DeepL": 71,
-   "gemini-flash-latest": 37,
+   "DeepL": 72,
+   "gemini-flash-latest": 38,
    "gemini-flash-lite-latest": 362,
    "gemma-4-26b-a4b-it": 54,
-   "gemma-4-31b-it": 65
+   "gemma-4-31b-it": 66
   },
   "week": "2026-W47"
  },
@@ -13996,6 +13933,31 @@
    "AAA",
    1793293536.3002434
   ],
+  "q:activision": [
+   0,
+   "",
+   1795338085.8770223
+  ],
+  "q:activision patent": [
+   0,
+   "",
+   1795338085.339606
+  ],
+  "q:activision patent allows": [
+   0,
+   "",
+   1795338084.851448
+  ],
+  "q:activision patent allows ai": [
+   0,
+   "",
+   1795338084.405722
+  ],
+  "q:activision patent allows ai enemies": [
+   0,
+   "",
+   1795338083.9160552
+  ],
   "q:after 4": [
    0,
    "",
@@ -14045,6 +14007,16 @@
    4665290,
    "Alien: Isolation 2",
    1793215933.545154
+  ],
+  "q:allows ai enemies to learn": [
+   0,
+   "",
+   1795338089.1235971
+  ],
+  "q:allows ai enemies to learn trash": [
+   0,
+   "",
+   1795338088.617883
   ],
   "q:alt video": [
    0,
@@ -16106,6 +16078,31 @@
    "P.I.",
    1792857743.151104
   ],
+  "q:patent": [
+   0,
+   "",
+   1795338088.1618147
+  ],
+  "q:patent allows": [
+   0,
+   "",
+   1795338087.696242
+  ],
+  "q:patent allows ai": [
+   0,
+   "",
+   1795338087.2388024
+  ],
+  "q:patent allows ai enemies": [
+   0,
+   "",
+   1795338086.772996
+  ],
+  "q:patent allows ai enemies to learn": [
+   0,
+   "",
+   1795338086.3309555
+  ],
   "q:path of exile 2": [
    2694490,
    "Path of Exile 2",
@@ -17150,22 +17147,6 @@
  },
  "titles": [
   [
-   1795163481.320612,
-   "Компанія Федорова співпрацюватиме з польською JRH ASI. Працюватимуть над ШІ, сенсорами та БПЛА"
-  ],
-  [
-   1795163851.8185842,
-   "firecrawl/firecrawl"
-  ],
-  [
-   1795165299.7996023,
-   "«Ми не вірили, що це справді відбувається». GSC про останні дні перед релізом S.T.A.L.K.E.R. 2"
-  ],
-  [
-   1795165321.8502274,
-   "nginx/nginx"
-  ],
-  [
    1795167148.9568815,
    "Takedown Festival announces first bands for 2027, with Nova Twins and unpeople headlining"
   ],
@@ -17840,25 +17821,17 @@
   [
    1795332802.8841016,
    "These Piranha Plant Slippers Double as Mario-themed Decor When You Put Them Away"
+  ],
+  [
+   1795338185.864865,
+   "Activision Patent Allows AI Enemies to Learn Trash Talking From Players"
+  ],
+  [
+   1795338504.2785454,
+   "I've never known a moment like this in video games"
   ]
  ],
  "titles_uk": [
-  [
-   1795163481.320613,
-   "Компанія Федорова співпрацюватиме з польською JRH ASI. Працюватимуть над ШІ, сенсорами та БПЛА"
-  ],
-  [
-   1795163851.8185854,
-   "firecrawl/firecrawl"
-  ],
-  [
-   1795165299.799603,
-   "«Ми не вірили, що це справді відбувається». GSC про останні дні перед релізом S.T.A.L.K.E.R. 2"
-  ],
-  [
-   1795165321.8502283,
-   "Огляд можливостей та архітектури вебсервера NGINX"
-  ],
   [
    1795167148.9568825,
    "Takedown Festival оголосив перших хедлайнерів на 2027 рік"
@@ -18534,6 +18507,14 @@
   [
    1795332802.8841026,
    "Капці Piranha Plant, що також слугують декором у стилі Mario"
+  ],
+  [
+   1795338185.864866,
+   "Activision запатентувала ШІ, що навчить NPC копіювати манеру спілкування гравців"
+  ],
+  [
+   1795338504.2785463,
+   "Я ще ніколи не бачив таких часів у відеоіграх"
   ]
  ],
  "ukrainian": {
@@ -19184,7 +19165,7 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1795316551.9093776,
+  "last_check": 1795338550.4637513,
   "with_uk": 95
  },
  "weekly_releases_week": "2026-W47",
@@ -20997,7 +20978,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795332812.8696249,
+  "last_check": 1795338512.5144188,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
