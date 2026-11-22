@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1795314684.1986604
+  }
+ },
  "daily_digest_date": "2026-11-21",
  "freebies": {
   "last_check": 1795309691.2954597,
@@ -31,11 +38,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-22 02:03 UTC",
+  "at": "2026-11-22 02:32 UTC",
   "gemini_error": "",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 1,
+   "gemini-flash-lite-latest": 1,
    "gemma-4-31b-it": 1
   },
   "used": [
@@ -43,32 +50,6 @@
   ]
  },
  "post_log": [
-  [
-   1794623482.2772765,
-   5891,
-   "🎮",
-   "Дати проведення Black Friday",
-   "SteamDB",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://bsky.app/profile/steamdb.info/post/3n27w4leb7s2c",
-    "orig": "Black Friday dates"
-   }
-  ],
-  [
-   1794623485.5715864,
-   5892,
-   "🤘",
-   "Майк Мьюїр анонсував реліз збірки Cyco Miko із участю зірок рок-сцени",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/11/13/news/mike-muirs-new-cyco-miko-release-my-personal-revolution-to-feature-limp-bizkit-primus-suicidal-tendencies-etc-members/",
-    "orig": "Mike Muir’s New Cyco Miko Release “My Personal Revolution” To Feature Limp Bizkit, Primus, Suicidal Tendencies, Etc. Members"
-   }
-  ],
   [
    1794625282.641162,
    5893,
@@ -8798,7 +8779,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>Як світовий режисер Андрій Звягінцев повертається до кіно з проєктом Minotaur</b>\n\nРежисер ледь не помер від COVID, але оговтався і зняв фільм &quot;Minotaur&quot; за кордоном\n\n🔗 <a href=\"https://www.indiewire.com/features/interviews/andrey-zvyagintsev-cannes-interview-minotaur-1235195741/\">IndieWire</a> · #кіно_і_серіали",
     "kind": "photo",
     "link": "https://www.indiewire.com/features/interviews/andrey-zvyagintsev-cannes-interview-minotaur-1235195741/",
     "orig": "How World-Class Filmmaker Andrey Zvyagintsev Came Back to Life for ‘Minotaur’"
@@ -8812,7 +8792,6 @@
    "Metal Injection",
    {
     "also": [],
-    "caption": "🤘 <b>Вілл Рамос із Lorna Shore поголив голову</b>\n\nПрощаємося з його чудовим рожевим волоссям\n\n🔗 <a href=\"https://metalinjection.net/news/lorna-shore-will-ramos-shaves-head\">Metal Injection</a> · #музика",
     "kind": "photo",
     "link": "https://metalinjection.net/news/lorna-shore-will-ramos-shaves-head",
     "orig": "Lorna Shore's Will Ramos Shaves His Head"
@@ -9648,6 +9627,34 @@
     "link": "https://www.polygon.com/dungeons-and-dragons-ravenloft-tv-show-netflix/",
     "orig": "New Dungeons & Dragons Live-Action Series Officially Replaces Netflix's Forgotten Realms"
    }
+  ],
+  [
+   1795314741.3107102,
+   6634,
+   "🎮",
+   "NIGHT EYE TV відроджує концепцію публічного телебачення через арт-ігри",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>NIGHT EYE TV відроджує концепцію публічного телебачення через арт-ігри</b>\n\nNIGHT EYE TV — це цифровий простір у вигляді телевізора, що збирає дивні та експериментальні арт-ігри. Наразі платформа працює як колекція кліпів із посиланнями на проєкти, але в майбутньому стане майданчиком для їх продажу. Для повноцінного запуску розробники створили кампанію на Indiegogo.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/public-access-television-is-born-anew-in-night-eye-tv-a-digital-goggle-box-filled-with-art-game-curios\">Rock Paper Shotgun</a> · #ігри #NightEyeTV",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/public-access-television-is-born-anew-in-night-eye-tv-a-digital-goggle-box-filled-with-art-game-curios",
+    "orig": "Public-access television is born anew in NIGHT EYE TV, a digital goggle box filled with art game curios"
+   }
+  ],
+  [
+   1795314745.6329026,
+   6635,
+   "🎬",
+   "Магершал Алі заявив, що дві премії Оскар нічого не гарантують у Голлівуді",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Магершал Алі заявив, що дві премії Оскар нічого не гарантують у Голлівуді</b>\n\nВолодар двох премій Оскар Магершал Алі розповів, що нагороди не гарантують ролей у кіно. За його словами, у переважній більшості проєктів просто немає персонажів для нього, тому актору доводиться чекати на підходящі сценарії нарівні з іншими.\n\n🔗 <a href=\"https://variety.com/2026/film/news/mahershala-ali-oscars-wins-hollywood-1236955111/\">Variety</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/news/mahershala-ali-oscars-wins-hollywood-1236955111/",
+    "orig": "Mahershala Ali Says It ‘Doesn’t Matter’ That He’s Won 2 Oscars Because ‘There Are Not Roles for Me’ in ‘the Vast Majority of Projects’: ‘You’re Like Everybody Else Waiting’"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9753,7 +9760,8 @@
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1795280692.5352473,
-   1795302267.1591291
+   1795302267.1591291,
+   1795314741.3109326
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1794925901.615652
@@ -9804,9 +9812,9 @@
    1795177878.0187626
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1795226555.9276197,
    1795232088.0748205,
-   1795309689.692332
+   1795309689.692332,
+   1795314745.6331167
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1795228645.1997085,
@@ -10384,7 +10392,6 @@
   "345ee7a0e9649060": 1794391349.2775056,
   "34764bf4202a6fe3": 1794506527.6776323,
   "3486bfd8f1dd3804": 1795227981.8186276,
-  "34c006b7b7ab2b0e": 1794105085.0356414,
   "34f514a4695542e5": 1794369689.3384242,
   "34fc7f9035834703": 1794598278.1298761,
   "351e500a178cbd45": 1794963668.215512,
@@ -10587,6 +10594,7 @@
   "4e285fad042ed34f": 1794609055.1572344,
   "4e2910dfe679ae25": 1794546093.7181077,
   "4f0cb75838c02b52": 1795075300.231998,
+  "4f51a5bc4f5a470f": 1795314690.4972925,
   "4f635fa3cac3a005": 1795010462.958915,
   "4f654dda4a75f767": 1794155451.4751787,
   "4f71825bb6cbd70c": 1795014110.2908468,
@@ -11080,7 +11088,6 @@
   "85e411e342226a52": 1794648773.5512936,
   "8637196cace7c1fa": 1795194075.9234347,
   "8641f798ec12191b": 1795215669.3813393,
-  "86727e9c9805d2e2": 1794105082.1815956,
   "869876234a931020": 1794958255.0754318,
   "869a19de6ce619a1": 1794202257.9998238,
   "87006c8374bde079": 1795152754.8605757,
@@ -11335,6 +11342,7 @@
   "a54a5de50b86e841": 1794759968.2490451,
   "a554bee44e8165cd": 1794358884.043912,
   "a568c0d7008bf2ed": 1794513766.4618802,
+  "a5c98ee5a2fa5bae": 1795314690.4971116,
   "a5da9f97d65375b5": 1795293059.0225935,
   "a5e6ed1f4ced8a2e": 1794306682.7784011,
   "a60c4d1cbce2c052": 1794524545.2054734,
@@ -11472,6 +11480,7 @@
   "b4f0682535ff363e": 1795219438.9716473,
   "b4f0f039e17803ca": 1795096853.5346801,
   "b52ce582eb2a9e9f": 1795213884.3436224,
+  "b53647f7980035f2": 1795314745.6330667,
   "b547abf34cacf5b9": 1794983478.4929273,
   "b54d065cbac029c7": 1794839482.7781298,
   "b557cf01bc22033d": 1795206572.6487815,
@@ -11575,6 +11584,7 @@
   "c20c76bac6df0a5c": 1794693790.4067116,
   "c250cec7e4c6a3e5": 1794697280.052423,
   "c2ad1c3dd73ceae6": 1795086081.8537004,
+  "c2e4064fa9638a42": 1795314741.3108847,
   "c2fb7b3ae09e148f": 1794630683.9920444,
   "c313e3ee418f0c52": 1794330482.6856482,
   "c316780a7dfb370c": 1794663071.9451056,
@@ -12543,7 +12553,7 @@
   ],
   "artists_checked": 1795309694.783757,
   "blocked_until": 1795307775.9023838,
-  "cursor": 78,
+  "cursor": 88,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13357,20 +13367,20 @@
    "Polygon": 31,
    "Product Hunt": 6,
    "Revolver": 3,
-   "Rock Paper Shotgun": 14,
+   "Rock Paper Shotgun": 15,
    "SteamDB": 1,
    "Stereogum": 6,
    "The Decoder": 20,
    "ThePRP": 12,
    "VGC": 9,
-   "Variety": 34
+   "Variety": 35
   },
   "translators": {
    "DeepL": 71,
    "gemini-flash-latest": 37,
-   "gemini-flash-lite-latest": 358,
+   "gemini-flash-lite-latest": 359,
    "gemma-4-26b-a4b-it": 53,
-   "gemma-4-31b-it": 51
+   "gemma-4-31b-it": 52
   },
   "week": "2026-W47"
  },
@@ -14985,6 +14995,11 @@
    "EXPLODES",
    1793280762.2264638
   ],
+  "q:eye tv": [
+   0,
+   "",
+   1795314692.1738138
+  ],
   "q:fable": [
    2769570,
    "Fable",
@@ -16009,6 +16024,16 @@
    524220,
    "NieR:Automata™",
    1793909103.268731
+  ],
+  "q:night eye": [
+   0,
+   "",
+   1795314691.6149437
+  ],
+  "q:night eye tv": [
+   0,
+   "",
+   1795314691.1112661
   ],
   "q:night in the woods": [
    481510,
@@ -17159,22 +17184,6 @@
  },
  "titles": [
   [
-   1795140442.097707,
-   "Jorrybell Agoto Dies: Filipiñana Breakout Actress Was 32"
-  ],
-  [
-   1795141499.5975032,
-   "Could a Jensen Huang-Style Scandal Happen at Apple?"
-  ],
-  [
-   1795141512.8015814,
-   "Tyra Banks Taps Andy Vallentine To Direct Sally Hansen Film"
-  ],
-  [
-   1795141929.7191455,
-   "Edward Burns Lines Up Awards Push For Black-And-White Indie Movie ‘Beneath The Blue Suburban Skies’ & Star Jennifer Ehle Seven Years After It Debuted At Toronto"
-  ],
-  [
    1795142004.7231216,
    "The City at the Center of AI"
   ],
@@ -17881,25 +17890,17 @@
   [
    1795313025.5290465,
    "New Dungeons & Dragons Live-Action Series Officially Replaces Netflix's Forgotten Realms"
+  ],
+  [
+   1795314741.3108864,
+   "Public-access television is born anew in NIGHT EYE TV, a digital goggle box filled with art game curios"
+  ],
+  [
+   1795314745.6330688,
+   "Mahershala Ali Says It ‘Doesn’t Matter’ That He’s Won 2 Oscars Because ‘There Are Not Roles for Me’ in ‘the Vast Majority of Projects’: ‘You’re Like Everybody Else Waiting’"
   ]
  ],
  "titles_uk": [
-  [
-   1795140442.0977082,
-   "Померла Джоррібелл Агото: зірці фільму «Філіпінана», яка прославилася завдяки цій ролі, було 32 роки"
-  ],
-  [
-   1795141499.5975037,
-   "Чи можливий в Apple скандал керівництва на кшталт ситуації з Nvidia"
-  ],
-  [
-   1795141512.8015826,
-   "Енді Валлентайн зніме фільм про засновницю бренду Sally Hansen"
-  ],
-  [
-   1795141929.7191465,
-   "Едвард Бернс випускає драму Beneath the Blue Suburban Skies через 7 років після прем'єри"
-  ],
   [
    1795142004.7231226,
    "Сан-Франциско став епіцентром сучасного ШІ-буму"
@@ -18607,6 +18608,14 @@
   [
    1795313025.5290473,
    "Netflix розробляє новий серіал Dungeons & Dragons за мотивами Ravenloft"
+  ],
+  [
+   1795314741.310887,
+   "NIGHT EYE TV відроджує концепцію публічного телебачення через арт-ігри"
+  ],
+  [
+   1795314745.6330695,
+   "Магершал Алі заявив, що дві премії Оскар нічого не гарантують у Голлівуді"
   ]
  ],
  "ukrainian": {
@@ -21070,7 +21079,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795311263.4254205,
+  "last_check": 1795314753.9006963,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
