@@ -31,30 +31,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-22 11:31 UTC",
-  "gemini_error": "",
+  "at": "2026-11-22 11:42 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794655885.1689682,
-   5927,
-   "🎮",
-   "Indiana Jones and the Great Circle мав розшук у стилі GTA",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/action/indiana-jones-and-the-great-circle-once-had-a-grand-theft-auto-inspired-wanted-system-because-machinegames-was-afraid-players-would-kill-all-the-nazis-with-just-guns/",
-    "orig": "Indiana Jones and the Great Circle once had a Grand Theft Auto inspired wanted system, because MachineGames was 'afraid' players would kill all the Nazis 'with just guns'"
-   }
-  ],
   [
    1794657687.3124342,
    5928,
@@ -8714,7 +8701,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/1940340/\">Darkest Dungeon 2</a> отримає DLC The Butcher&#x27;s Asylum із режимом гладіаторських боїв</b>\n🕹 <a href=\"https://store.steampowered.com/app/1940340/\">Darkest Dungeon® II</a> — 799,00₴\n\nRed Hook Studios анонсували DLC The Butcher&#x27;s Asylum для Darkest Dungeon 2, вихід якого заплановано на 2027 рік. Це окремий режим гладіаторської арени, зосереджений на боях та коротких забігах. У грі з&#x27;явиться новий персонаж The Ringmaster та механіка задоволення публіки для отримання бонусів.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/darkest-dungeon-2s-next-bit-of-dlc-is-a-short-run-combat-focused-gauntlet-where-you-must-do-everything-in-your-power-to-please-the-audience\">Rock Paper Shotgun</a> · #ігри #DarkestDungeon2",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/darkest-dungeon-2s-next-bit-of-dlc-is-a-short-run-combat-focused-gauntlet-where-you-must-do-everything-in-your-power-to-please-the-audience",
     "orig": "Darkest Dungeon 2's next bit of DLC is a short run, combat focused gauntlet where you must do everything in your power to please the audience"
@@ -9559,6 +9545,20 @@
     "link": "https://mezha.ua/news/backspin-predstaviv-brauzerniy-trenazher-dlya-navchannya-didzhejingu-317459/",
     "orig": "Backspin запустив безкоштовний браузерний курс для навчання діджеїнгу"
    }
+  ],
+  [
+   1795347758.9698982,
+   6664,
+   "🎮",
+   "Двочастинний військовий sci-fi триллер за Star Wars отримав один із найкращих сезонів у історії телебачення",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Двочастинний військовий sci-fi триллер за Star Wars отримав один із найкращих сезонів у історії телебачення</b>\n\nDisney потребувала перемоги для однієї франшизи, і Тоні Гілрой дав Star Wars саме це з першим сезоном Andor\n\n🔗 <a href=\"https://www.polygon.com/disney-sci-fi-thriller-star-wars-andor/\">Polygon</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/disney-sci-fi-thriller-star-wars-andor/",
+    "orig": "Star Wars’ 2-Part Sci-Fi War Thriller Has One of the Best Seasons in TV History"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9658,12 +9658,12 @@
    1795345447.8057234
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1795260692.8986967,
    1795269759.4348319,
    1795300292.78529,
    1795309655.996409,
    1795311180.7282739,
-   1795313025.5290878
+   1795313025.5290878,
+   1795347758.9701152
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1795280692.5352473,
@@ -10160,7 +10160,6 @@
   "250bd675c4fcfe04": 1794319299.683036,
   "25536a46fd2bb0b1": 1794690051.930596,
   "256005002a962116": 1794652401.9457853,
-  "25671638621372e7": 1794137514.4014792,
   "256a9746b134b753": 1794718877.0665543,
   "257eb239ed70d661": 1794974673.3641968,
   "25be104710a5787d": 1794227453.9175088,
@@ -10187,6 +10186,7 @@
   "27bad459cabfc7e3": 1795203090.0696986,
   "27d27115416af7e3": 1794304905.6557856,
   "27f0e778d03c3917": 1794877484.234948,
+  "27fd8f4356f487f2": 1795347758.9700642,
   "280d6bc491fdedc6": 1795014053.3303049,
   "280f0e01bc431aae": 1794852103.6623578,
   "28858ea44a0f27e1": 1794402056.59474,
@@ -11415,7 +11415,6 @@
   "b92249596faf3845": 1794537172.4872894,
   "b92a042427fad4b0": 1795098787.404411,
   "b93a96a7e7974928": 1794609055.1572344,
-  "b95f6aa29001e5a7": 1794137806.091882,
   "b96c67d6702fd704": 1794960076.0501857,
   "b96fe73f3d855560": 1795330926.298928,
   "b98b39ca4d62267d": 1794922256.1694205,
@@ -13274,7 +13273,7 @@
    "PC Gamer": 18,
    "Pitchfork": 4,
    "PlayUA": 10,
-   "Polygon": 31,
+   "Polygon": 32,
    "Product Hunt": 6,
    "Revolver": 3,
    "Rock Paper Shotgun": 15,
@@ -13288,7 +13287,7 @@
   "translators": {
    "DeepL": 74,
    "gemini-flash-latest": 39,
-   "gemini-flash-lite-latest": 363,
+   "gemini-flash-lite-latest": 365,
    "gemma-4-26b-a4b-it": 55,
    "gemma-4-31b-it": 68
   },
@@ -13759,6 +13758,21 @@
    0,
    "",
    1795280652.8154056
+  ],
+  "q:2 part sci fi war thriller": [
+   0,
+   "",
+   1795347502.0689626
+  ],
+  "q:2 part sci fi war thriller has": [
+   0,
+   "",
+   1795347501.5322716
+  ],
+  "q:2 part sci fi war thriller has one": [
+   0,
+   "",
+   1795347500.9690917
   ],
   "q:2000": [
    1642580,
@@ -16510,6 +16524,26 @@
    "",
    1795300277.3855278
   ],
+  "q:star wars' 2 part": [
+   0,
+   "",
+   1795347497.751301
+  ],
+  "q:star wars' 2 part sci fi": [
+   0,
+   "",
+   1795347497.220474
+  ],
+  "q:star wars' 2 part sci fi war": [
+   0,
+   "",
+   1795347496.663396
+  ],
+  "q:star wars' 2 part sci fi war thriller": [
+   0,
+   "",
+   1795347496.123015
+  ],
   "q:star wars' new": [
    0,
    "",
@@ -16940,6 +16974,31 @@
    "Warhammer Survivors",
    1793097199.6470678
   ],
+  "q:wars' 2 part": [
+   0,
+   "",
+   1795347500.4680212
+  ],
+  "q:wars' 2 part sci fi": [
+   0,
+   "",
+   1795347499.8853688
+  ],
+  "q:wars' 2 part sci fi war": [
+   0,
+   "",
+   1795347499.37822
+  ],
+  "q:wars' 2 part sci fi war thriller": [
+   0,
+   "",
+   1795347498.8698294
+  ],
+  "q:wars' 2 part sci fi war thriller has": [
+   0,
+   "",
+   1795347498.3343053
+  ],
   "q:wars' new": [
    0,
    "",
@@ -17153,14 +17212,6 @@
   ]
  },
  "titles": [
-  [
-   1795174346.0042865,
-   "Listen to Palaye Royale’s suave new song, Confidant"
-  ],
-  [
-   1795174475.343357,
-   "XiaoYouChR/Ghost-Downloader-3"
-  ],
   [
    1795175603.9044683,
    "‘The Big Boom!’: Doc About a Bulgarian Village With a Massive Weapons Factory ‘Anticipates the Future World We’ll Inhabit’"
@@ -17840,17 +17891,13 @@
   [
    1795347083.0248697,
    "Backspin запустив безкоштовний браузерний курс для навчання діджеїнгу"
+  ],
+  [
+   1795347758.9700658,
+   "Star Wars’ 2-Part Sci-Fi War Thriller Has One of the Best Seasons in TV History"
   ]
  ],
  "titles_uk": [
-  [
-   1795174346.0042875,
-   "Palaye Royale представили новий сингл Confidant"
-  ],
-  [
-   1795174475.3433585,
-   "XiaoYouChR/Ghost-Downloader-3"
-  ],
   [
    1795175603.904469,
    "Швейцарський режисер Габріель Тежедор зняв документальний фільм «The Big Boom!» про болгарське село з велетенським збройним заводом"
@@ -18530,6 +18577,10 @@
   [
    1795347083.0248702,
    "Backspin запустив безкоштовний браузерний курс для навчання діджеїнгу"
+  ],
+  [
+   1795347758.9700675,
+   "Двочастинний військовий sci-fi триллер за Star Wars отримав один із найкращих сезонів у історії телебачення"
   ]
  ],
  "ukrainian": {
@@ -20993,7 +21044,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795343886.8384216,
+  "last_check": 1795347768.0520577,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
