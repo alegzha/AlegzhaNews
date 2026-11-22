@@ -2,7 +2,7 @@
  "alerts": {},
  "daily_digest_date": "2026-11-21",
  "freebies": {
-  "last_check": 1795302269.4921408,
+  "last_check": 1795309691.2954597,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -31,61 +31,20 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-22 00:33 UTC",
-  "gemini_error": "",
+  "at": "2026-11-22 01:08 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 3
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-26b-a4b-it": 1
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794618173.1611998,
-   5882,
-   "🎮",
-   "Кримінальна драма від HBO має один із найкращих сезонів в історії телебачення",
-   "Polygon",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.polygon.com/the-wire-season-4-recommendation/",
-    "orig": "HBO’s 5-Part Crime Drama Has One of the Best Seasons in TV History"
-   }
-  ],
-  [
-   1794618176.4163144,
-   5883,
-   "🤘",
-   "Atlas випустили новий сингл Sex Magic Eclipse",
-   "Lambgoat",
-   {
-    "also": [
-     [
-      "ThePRP",
-      "https://www.theprp.com/2026/11/13/news/atlas-premiere-their-new-single-sex-magic-eclipse/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55894/atlas-premiere-music-video-for-new-single-sex-magic-eclipse/",
-    "orig": "Atlas premiere music video for new single \"Sex Magic Eclipse\""
-   }
-  ],
-  [
-   1794618180.2541952,
-   5884,
-   "🤘",
-   "Mauled випустили оновлену версію треку Dead Asleep та кліп",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55895/mauled-deliver-re-worked-version-of-dead-alseep-share-new-music-video/",
-    "orig": "Mauled deliver re-worked version of \"Dead Alseep\", share new music video"
-   }
-  ],
   [
    1794619753.424738,
    5885,
@@ -8802,7 +8761,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Певица Patty Smyth могла заменить David Lee Roth в Van Halen</b>\n\nЕксбасист Van Halen Майкл Ентоні підтвердив, що після відходу Девіда Лі Рота гурт розглядав Патті Сміт як нову вокалістку. Сама співачка раніше заявляла, що відмовилася через вагітність, небажання переїжджати до Каліфорнії та дикий спосіб життя музикантів.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/van-halen-david-lee-roth-replacement-patty-smyth\">Metal Hammer (Louder)</a> · #музика #VanHalen",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/van-halen-david-lee-roth-replacement-patty-smyth",
     "orig": "Ex-Van Halen bassist Michael Anthony reveals the female singer who was asked to replace David Lee Roth:"
@@ -8816,7 +8774,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Віктор Пенг назвав ШІ та квантові обчислення довгостроковими можливостями</b>\n\nCEO PsiQuantum і колишній президент Advanced Micro Devices Віктор Пенг заявив у ефірі Bloomberg The Close, що квантові обчислення та оптичне комутування можуть знизити витрати на обчислення.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-20/victor-peng-sees-ai-quantum-as-long-term-opportunities-video\">Bloomberg</a> · #ШІ #PsiQuantum",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-11-20/victor-peng-sees-ai-quantum-as-long-term-opportunities-video",
     "orig": "Victor Peng Sees AI, Quantum Computing as Long-Term Opportunities"
@@ -8830,7 +8787,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Angelus Apatrida представили кліп на пісню Burn It Down</b>\n🎧 Слухати: <a href=\"https://open.spotify.com/search/Angelus%20Apatrida%20Burn%20It%20Down\">Spotify</a> · <a href=\"https://music.youtube.com/search?q=Angelus%20Apatrida%20Burn%20It%20Down\">YouTube Music</a>\n\nAngelus Apatrida презентували музичне відео до пісні Burn It Down. Трек увійшов до нового EP гурту під назвою The Reckoning, що вже вийшов на Napalm Records.\n\n🔗 <a href=\"https://lambgoat.com/news/56012/angelus-apatrida-premiere-burn-it-down-music-video/\">Lambgoat</a> · #музика #AngelusApatrida",
     "kind": "photo",
     "link": "https://lambgoat.com/news/56012/angelus-apatrida-premiere-burn-it-down-music-video/",
     "orig": "Angelus Apatrida premiere “Burn It Down” music video"
@@ -9652,6 +9608,48 @@
     "link": "https://deadline.com/2026/11/john-carpenter-robert-rodriguez-running-helm-escape-new-york-1237231028/",
     "orig": "John Carpenter Reveals Robert Rodriguez In Running To Helm ‘Escape from New York’ Reimagining"
    }
+  ],
+  [
+   1795309620.2468395,
+   6625,
+   "🎬",
+   "Кіран Калкін вважає спіноф Succession жахливою ідеєю: «Чекаєте на ситком про кузена Greg?»",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Кіран Калкін вважає спіноф Succession жахливою ідеєю: «Чекаєте на ситком про кузена Greg?»</b>\n\nВибачте, шанувальники серіалу «Спадщина» — Кіран Калкін раз і назавжди виключає будь-яку можливість створення спін-офу. Актор, який зараз грає роль молодого Цезаря Фліккермана у фільмі «Голодні ігри: Світанок на Жнивах», у п’ятницю взяв участь у радіопрограмі «Heart Breakfast», щоб обговорити новий фільм, хоча ведучі Аманда Холден та Джеймі Тікстон…\n\n🔗 <a href=\"https://variety.com/2026/tv/news/kieran-culkin-succession-spinoff-terrible-idea-1236955146/\">Variety</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/tv/news/kieran-culkin-succession-spinoff-terrible-idea-1236955146/",
+    "orig": "Kieran Culkin Says a ‘Succession’ Spinoff ‘Would Be a Terrible Idea’: ‘What Are You Hoping For? “Cousin Greg: The Sitcom?”‘"
+   }
+  ],
+  [
+   1795309655.9961305,
+   6626,
+   "🎮",
+   "Підбірка JRPGs для тих, хто має обмежений вільний час",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Підбірка JRPGs для тих, хто має обмежений вільний час</b>\n\nПідбірка з восьми JRPGs адаптована для гравців із щільним графіком завдяки функціям збереження будь-де, прискорення боїв та вимкнення випадкових сутичок. Серед них виділяються Dragon Quest 11: Echoes of an Elusive Age та серія Final Fantasy Pixel Remaster, які дозволяють проходити масштабні історії короткими сесіями.\n\n🔗 <a href=\"https://www.polygon.com/jrpgs-real-life-schedules/\">Polygon</a> · #ігри #FinalFantasy #DragonQuest",
+    "kind": "photo",
+    "link": "https://www.polygon.com/jrpgs-real-life-schedules/",
+    "orig": "8 Must-Play JRPGs for People With Real-Life Schedules"
+   }
+  ],
+  [
+   1795309689.6920857,
+   6627,
+   "🎬",
+   "Jennifer Lopez натякнула на сиквел Monster-in-Law із Jane Fonda",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Jennifer Lopez натякнула на сиквел Monster-in-Law із Jane Fonda</b>\n\nДженніфер Лопес та Джейн Фонда можуть знятися у продовженні комедії Monster-in-Law. Про це співачка розповіла у шоу The Drew Barrymore Show, згадавши про позитивний досвід спільної роботи. Також Лопес анонсувала свій новий концертний фільм The JLo Show, що вийде на Paramount+.\n\n🔗 <a href=\"https://variety.com/2026/film/news/jennifer-lopez-jane-fonda-monster-in-law-follow-up-1236955143/\">Variety</a> · #кіно_і_серіали #MonsterInLaw",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/news/jennifer-lopez-jane-fonda-monster-in-law-follow-up-1236955143/",
+    "orig": "Jennifer Lopez Teases ‘Monster-in-Law’ Sequel With Jane Fonda: ‘We’re Talking About Maybe Doing Another One’"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9748,11 +9746,11 @@
    1795280649.7494235
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1795219438.9716916,
    1795224701.7799938,
    1795260692.8986967,
    1795269759.4348319,
-   1795300292.78529
+   1795300292.78529,
+   1795309655.996409
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1795280692.5352473,
@@ -9806,14 +9804,13 @@
    1795177878.0187626
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1795221303.1654642,
    1795226555.9276197,
-   1795232088.0748205
+   1795232088.0748205,
+   1795309689.692332
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
-   1795175603.9045115,
-   1795212247.0606441,
-   1795228645.1997085
+   1795228645.1997085,
+   1795309620.247094
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
    1795298736.2606103,
@@ -9916,7 +9913,6 @@
  },
  "seen": {
   "000aad49e3743a35": 1794907878.0427954,
-  "00164db7041842f0": 1794099685.654394,
   "002b0486b2419a9f": 1794439897.0970998,
   "0032a0e84465878b": 1794657687.3126094,
   "004b7a3f5aa03bff": 1794313874.3753316,
@@ -10362,6 +10358,7 @@
   "31dac1f628e9fddb": 1794798088.858999,
   "31f106af23f2570d": 1795026653.649315,
   "3207edff75fc85f5": 1794808983.9656775,
+  "3214fad63e957652": 1795309689.6922925,
   "32418cc562c404cd": 1794736879.429503,
   "3267aa4aa3a6f6aa": 1794367885.5482562,
   "3278da9f0f45dcdf": 1794688284.0626087,
@@ -10372,6 +10369,7 @@
   "33097b39e293d40b": 1794211286.8406339,
   "335086bf8f0c729f": 1794349854.945267,
   "335d04711017ab53": 1795217474.8411345,
+  "337b4563506211b0": 1795309620.2470508,
   "338b8e861a7e48c5": 1795147470.2166028,
   "33ad2ccf820a8d69": 1794612694.8043666,
   "33fbff79f18d684b": 1795280454.879558,
@@ -10903,7 +10901,6 @@
   "72586569a7e3b78e": 1795190538.9688873,
   "7265652a5266f6fb": 1794906178.1197684,
   "726b61922e287429": 1794520890.0403724,
-  "731362751099257f": 1794099679.2837117,
   "73242c26032fa66f": 1795091475.6584551,
   "733d840549e94357": 1794404095.2594936,
   "73b22c67f8a1872c": 1794313877.072446,
@@ -11030,7 +11027,6 @@
   "80bd3cba3e663ddd": 1795042982.6484375,
   "80bddf6e8ca661a1": 1794909660.6622963,
   "80d1635b58ad2566": 1795048281.485335,
-  "80dea0e246e0c9d2": 1794099675.8191545,
   "80f2245c44cef0be": 1794887915.5464478,
   "80f6804ec58cab81": 1794403883.9132445,
   "8101341e38585207": 1795228528.5650141,
@@ -11589,6 +11585,7 @@
   "c47364e48c3d3f2c": 1795023060.2160697,
   "c47923380ab49813": 1795219398.076259,
   "c47a29c5bd9d5d1b": 1795151069.276924,
+  "c484d3081e5ffe55": 1795309655.9963405,
   "c4acffc0e8f7ad34": 1795213947.0655618,
   "c4bd7bc5ecb1d7ca": 1794614665.1782117,
   "c4d82fe47ccf40ab": 1795260692.8986545,
@@ -12541,9 +12538,9 @@
    "6jdXkhI59ngreTw9GwoKNv",
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
-  "artists_checked": 1795221316.665932,
+  "artists_checked": 1795309694.783757,
   "blocked_until": 1795307775.9023838,
-  "cursor": 38,
+  "cursor": 48,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13354,7 +13351,7 @@
    "PC Gamer": 17,
    "Pitchfork": 4,
    "PlayUA": 7,
-   "Polygon": 28,
+   "Polygon": 29,
    "Product Hunt": 6,
    "Revolver": 3,
    "Rock Paper Shotgun": 14,
@@ -13363,13 +13360,13 @@
    "The Decoder": 20,
    "ThePRP": 12,
    "VGC": 9,
-   "Variety": 32
+   "Variety": 34
   },
   "translators": {
-   "DeepL": 70,
-   "gemini-flash-latest": 36,
-   "gemini-flash-lite-latest": 356,
-   "gemma-4-26b-a4b-it": 50,
+   "DeepL": 71,
+   "gemini-flash-latest": 37,
+   "gemini-flash-lite-latest": 357,
+   "gemma-4-26b-a4b-it": 51,
    "gemma-4-31b-it": 48
   },
   "week": "2026-W47"
@@ -13989,6 +13986,26 @@
    0,
    "",
    1795162058.6954012
+  ],
+  "q:8 must play": [
+   0,
+   "",
+   1795309624.314322
+  ],
+  "q:8 must play jrpgs": [
+   0,
+   "",
+   1795309623.7370665
+  ],
+  "q:8 must play jrpgs for people": [
+   0,
+   "",
+   1795309623.0617201
+  ],
+  "q:8 must play jrpgs for people with": [
+   0,
+   "",
+   1795309622.5572412
   ],
   "q:90": [
    3070650,
@@ -15515,6 +15532,21 @@
    "Journey",
    1793097216.1634731
   ],
+  "q:jrpgs for people with": [
+   0,
+   "",
+   1795309628.7192655
+  ],
+  "q:jrpgs for people with real life": [
+   0,
+   "",
+   1795309628.2140203
+  ],
+  "q:jrpgs for people with real life schedules": [
+   0,
+   "",
+   1795309627.686165
+  ],
   "q:june": [
    3645270,
    "June",
@@ -15794,6 +15826,31 @@
    0,
    "",
    1795212254.0684216
+  ],
+  "q:must play": [
+   0,
+   "",
+   1795309627.0873575
+  ],
+  "q:must play jrpgs": [
+   0,
+   "",
+   1795309626.4868245
+  ],
+  "q:must play jrpgs for people": [
+   0,
+   "",
+   1795309625.9896083
+  ],
+  "q:must play jrpgs for people with": [
+   0,
+   "",
+   1795309625.4572997
+  ],
+  "q:must play jrpgs for people with real life": [
+   0,
+   "",
+   1795309624.9282362
   ],
   "q:need to know": [
    490930,
@@ -16979,22 +17036,6 @@
  },
  "titles": [
   [
-   1795134919.481435,
-   "Black Bear Snaps Up Bill Hader’s MRC Horror Pic ‘They Know’ With Linda Cardellini"
-  ],
-  [
-   1795134923.0482898,
-   "Bill Hader’s Feature Directorial Debut ‘They Know’ Lands at Black Bear"
-  ],
-  [
-   1795136487.6678917,
-   "Carlos Santana adds North American dates to Planet of Free Will Global Tour"
-  ],
-  [
-   1795136498.1510508,
-   "Agriculture expand Spring 2027 European tour dates, Rhododendron to support"
-  ],
-  [
    1795138365.6231809,
    "Bentonville Film Festival Sets 2027 Dates, Variety’s Producers to Watch Returns for 3rd Year"
   ],
@@ -17689,25 +17730,21 @@
   [
    1795307621.279423,
    "John Carpenter Reveals Robert Rodriguez In Running To Helm ‘Escape from New York’ Reimagining"
+  ],
+  [
+   1795309620.2470522,
+   "Kieran Culkin Says a ‘Succession’ Spinoff ‘Would Be a Terrible Idea’: ‘What Are You Hoping For? “Cousin Greg: The Sitcom?”‘"
+  ],
+  [
+   1795309655.996342,
+   "8 Must-Play JRPGs for People With Real-Life Schedules"
+  ],
+  [
+   1795309689.6922934,
+   "Jennifer Lopez Teases ‘Monster-in-Law’ Sequel With Jane Fonda: ‘We’re Talking About Maybe Doing Another One’"
   ]
  ],
  "titles_uk": [
-  [
-   1795134919.4814355,
-   "Black Bear придбала горор They Know від Білла Хейдера з Ліндою Карделліні"
-  ],
-  [
-   1795134923.0482903,
-   "Билл Гейдер зніме психологічний горор They Know"
-  ],
-  [
-   1795136487.6678925,
-   "Carlos Santana оголосив північноамериканські концерти в межах світового туру"
-  ],
-  [
-   1795136498.1510513,
-   "Agriculture розширюють європейський тур на весну 2027 року, на підтримку виступить Rhododendron"
-  ],
   [
    1795138365.6231816,
    "Bentonville Film Festival оголосив дати проведення у 2027 році"
@@ -18403,6 +18440,18 @@
   [
    1795307621.2794237,
    "Роберт Родрігес може зняти ремейк Escape from New York"
+  ],
+  [
+   1795309620.2470531,
+   "Кіран Калкін вважає спіноф Succession жахливою ідеєю: «Чекаєте на ситком про кузена Greg?»"
+  ],
+  [
+   1795309655.9963424,
+   "Підбірка JRPGs для тих, хто має обмежений вільний час"
+  ],
+  [
+   1795309689.692294,
+   "Jennifer Lopez натякнула на сиквел Monster-in-Law із Jane Fonda"
   ]
  ],
  "ukrainian": {
