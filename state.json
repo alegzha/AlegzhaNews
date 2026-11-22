@@ -31,11 +31,10 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-22 07:02 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-22 07:33 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
    "gemma-4-31b-it": 1
   },
   "used": [
@@ -8767,7 +8766,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🤖 <b>250 000 сторінок: Claude «довів» гіпотезу Рімана, над якою билися 167 років</b>\n\nЗадача, яку математики не могли розв’язати 167 років і за яку обіцяють $1 млн, можливо, впала перед ШІ. Математик Anthropic Левент Альпоге заявив, що разом із Claude довів гіпотезу Рімана. Яку саме версію моделі він використовував, не уточнюється. Раніше Anthropic залучала до математичних відкриттів невипущені дослідницькі версії, у яких разом працюють десятки ШІ-агентів. Звичайним користувачам вони недоступні.\n\n🔗 <a href=\"https://itc.ua/ua/novini/claude-doviv-gipotezu-rimana-bylysya-167-rokiv/\">ITC.ua</a> · #ШІ",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/claude-doviv-gipotezu-rimana-bylysya-167-rokiv/",
     "orig": "250 000 сторінок: Claude «довів» гіпотезу Рімана, над якою билися 167 років"
@@ -8850,7 +8848,12 @@
    "Чоловік з мозковим імплантом Neuralink зіграв у GTA 6 лише за допомогою сили думки",
    "Mezha",
    {
-    "also": [],
+    "also": [
+     [
+      "PlayUA",
+      "https://playua.net/paralizovanyj-gejmer-zigrav-u-gta-6-za-dopomogoyu-mozkovogo-implanta-neuralink/"
+     ]
+    ],
     "caption": "🎮 <b>Чоловік з мозковим імплантом Neuralink зіграв у GTA 6 лише за допомогою сили думки</b>\n\nКомпанія Neuralink опублікувала в соцмережі X відео, на якому учасник випробувань проходить GTA 6 лише за допомогою мозкового імпланта. Замість традиційного контролера для керування грою застосовуються сигнали мозку, які зчитує імплант.\n\n🔗 <a href=\"https://mezha.ua/news/neuralink-pokazala-prohodzhennya-gta-6-za-dopomogoyu-mozkovogo-implanta-317453/\">Mezha</a> · #ігри",
     "kind": "photo",
     "link": "https://mezha.ua/news/neuralink-pokazala-prohodzhennya-gta-6-za-dopomogoyu-mozkovogo-implanta-317453/",
@@ -9612,6 +9615,20 @@
     "link": "https://blabbermouth.net/news/my-dying-brides-andrew-craighan-new-music-with-singer-mikko-kotamaki-sounds-promising",
     "orig": "MY DYING BRIDE's ANDREW CRAIGHAN: New Music With Singer MIKKO KOTAMÄKI Sounds 'Promising'"
    }
+  ],
+  [
+   1795332802.883921,
+   6652,
+   "🎮",
+   "Капці Piranha Plant, що також слугують декором у стилі Mario",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Капці <a href=\"https://store.steampowered.com/app/2182530/\">Piranha</a> Plant, що також слугують декором у стилі Mario</b>\n🕹 <a href=\"https://store.steampowered.com/app/2182530/\">Piranha</a> — безкоштовно\n\n🔗 <a href=\"https://www.ign.com/articles/piranha-plant-slippers-amazon-black-friday-deal-2026\">IGN</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/piranha-plant-slippers-amazon-black-friday-deal-2026",
+    "orig": "These Piranha Plant Slippers Double as Mario-themed Decor When You Put Them Away"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9680,7 +9697,8 @@
    1795177895.0436263
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1795307527.7208965
+   1795307527.7208965,
+   1795332802.884151
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1795280653.6912632
@@ -9937,7 +9955,6 @@
   "062ba47c62da9eee": 1794834194.274951,
   "062e8e1481971987": 1794965493.925166,
   "0671c06d7df1ebdc": 1794655885.169173,
-  "06721562b9041ba7": 1794123084.485029,
   "06764ddd4b90c3d7": 1794627081.7342012,
   "06948e2ed8c2a27f": 1795078854.576999,
   "06a3440977807218": 1794403852.8500218,
@@ -10175,7 +10192,6 @@
   "2046f5e50fafe44a": 1794996248.287837,
   "20636f59f0fef6d8": 1795055474.3026843,
   "207194a9d8ca693d": 1795158349.1241083,
-  "2121df6444c57ece": 1794123081.4127033,
   "21634434a9a2ef38": 1794765655.662173,
   "21cc50589efc95a4": 1795217454.61787,
   "21ea1ffdc25552cc": 1795091580.1649384,
@@ -11364,6 +11380,7 @@
   "ad528fda3d4a813b": 1794830453.3805504,
   "adaa3b59b7ba0601": 1794807087.558263,
   "adad4ea4f55d3dee": 1795014053.3303049,
+  "ade05c41d1e8af3a": 1795332802.8840997,
   "ae0b07e83910e6ba": 1794760193.6006799,
   "ae3e8dbf7e1428bf": 1794405652.9407847,
   "ae4646f6d8e728ae": 1794431113.3806431,
@@ -11897,6 +11914,7 @@
   "ecddc21aefcfd385": 1794639695.051407,
   "ed261b4603b27f96": 1794951081.4973056,
   "ed5862a19d990e3c": 1795242819.6479445,
+  "ed8a8c362fe8e779": 1795332805.7113004,
   "ed8c40980fb04204": 1794848606.1512814,
   "edc6311f911d3e34": 1795215686.9798887,
   "edc9a1577a280398": 1794250882.6056623,
@@ -13300,7 +13318,7 @@
    "GamesIndustry.biz": 12,
    "GitHub Trending": 29,
    "Hugging Face": 2,
-   "IGN": 8,
+   "IGN": 9,
    "ITC.ua": 27,
    "IndieWire": 16,
    "Insider Gaming": 15,
@@ -13330,7 +13348,7 @@
    "gemini-flash-latest": 37,
    "gemini-flash-lite-latest": 362,
    "gemma-4-26b-a4b-it": 54,
-   "gemma-4-31b-it": 64
+   "gemma-4-31b-it": 65
   },
   "week": "2026-W47"
  },
@@ -13924,6 +13942,11 @@
    0,
    "",
    1795239221.5806491
+  ],
+  "q:6 neuralink": [
+   0,
+   "",
+   1795332805.4000819
   ],
   "q:644 7m": [
    0,
@@ -15320,6 +15343,11 @@
    "",
    1795219396.6563559
   ],
+  "q:gta 6 neuralink": [
+   0,
+   "",
+   1795332804.886964
+  ],
   "q:h1": [
    0,
    "",
@@ -16120,6 +16148,36 @@
    "Pillars of Eternity II: Deadfire",
    1793881945.8049543
   ],
+  "q:piranha": [
+   2182530,
+   "Piranha",
+   1795332674.1649597
+  ],
+  "q:piranha plant": [
+   0,
+   "",
+   1795332673.575917
+  ],
+  "q:piranha plant slippers": [
+   0,
+   "",
+   1795332673.048297
+  ],
+  "q:piranha plant slippers double": [
+   0,
+   "",
+   1795332672.5546172
+  ],
+  "q:plant slippers": [
+   0,
+   "",
+   1795332675.1727426
+  ],
+  "q:plant slippers double": [
+   0,
+   "",
+   1795332674.6726816
+  ],
   "q:plex": [
    0,
    "",
@@ -16399,6 +16457,16 @@
    202170,
    "Sleeping Dogs",
    1793210605.2136602
+  ],
+  "q:slippers": [
+   0,
+   "",
+   1795332676.201926
+  ],
+  "q:slippers double": [
+   0,
+   "",
+   1795332675.6840305
   ],
   "q:slop": [
    4221670,
@@ -16684,6 +16752,26 @@
    0,
    "",
    1795231893.0495408
+  ],
+  "q:these piranha": [
+   0,
+   "",
+   1795332672.0542862
+  ],
+  "q:these piranha plant": [
+   0,
+   "",
+   1795332671.5314186
+  ],
+  "q:these piranha plant slippers": [
+   0,
+   "",
+   1795332671.036697
+  ],
+  "q:these piranha plant slippers double": [
+   0,
+   "",
+   1795332670.5377357
   ],
   "q:these pokemon": [
    0,
@@ -17068,14 +17156,6 @@
   ]
  },
  "titles": [
-  [
-   1795158293.7982786,
-   "Shadows Fall Added To 2027 ‘Milwaukee Metal Fest’ Lineup"
-  ],
-  [
-   1795158349.1241107,
-   "Season 2 Of Hugo Weaving Drama ‘The Airport Chaplain’ Coming Together As Producer Wooden Horse Expands With Hires & R.L. Stine TV Series"
-  ],
   [
    1795160042.8999882,
    "Nvidia Scandal Fallout Creates Opening for India’s AI Contenders"
@@ -17779,17 +17859,13 @@
   [
    1795330959.0186315,
    "MY DYING BRIDE's ANDREW CRAIGHAN: New Music With Singer MIKKO KOTAMÄKI Sounds 'Promising'"
+  ],
+  [
+   1795332802.8841016,
+   "These Piranha Plant Slippers Double as Mario-themed Decor When You Put Them Away"
   ]
  ],
  "titles_uk": [
-  [
-   1795158293.7982795,
-   "Shadows Fall доєдналися до лайнапу Milwaukee Metal Fest 2027"
-  ],
-  [
-   1795158349.1241114,
-   "The Airport Chaplain з Х'юго Вівінгом отримав другий сезон"
-  ],
   [
    1795160042.899989,
    "Скандал з Nvidia відкрив можливості для індійських конкурентів у сфері ШІ"
@@ -18493,6 +18569,10 @@
   [
    1795330959.0186322,
    "Гітарист MY DYING BRIDE оцінив нову музику з вокалістом SWALLOW THE SUN"
+  ],
+  [
+   1795332802.8841026,
+   "Капці Piranha Plant, що також слугують декором у стилі Mario"
   ]
  ],
  "ukrainian": {
@@ -20956,7 +21036,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795327511.548004,
+  "last_check": 1795332812.8696249,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
