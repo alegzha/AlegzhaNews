@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1795314684.1986604
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-21",
  "freebies": {
   "last_check": 1795309691.2954597,
@@ -38,11 +31,10 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-22 02:32 UTC",
+  "at": "2026-11-22 03:02 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
    "gemma-4-31b-it": 1
   },
   "used": [
@@ -50,32 +42,6 @@
   ]
  },
  "post_log": [
-  [
-   1794625282.641162,
-   5893,
-   "🤘",
-   "Читачі Loudwire обрали найкращі пісні Iron Maiden та Billy Idol для Rock Hall",
-   "Loudwire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://loudwire.com/loudwire-readers-iron-maiden-billy-idol-rock-hall-song/",
-    "orig": "Loudwire Readers Pick Iron Maiden + Billy Idol's Rock Hall Songs"
-   }
-  ],
-  [
-   1794625285.586659,
-   5894,
-   "🎬",
-   "Джеремі Лачам очолить розклад майбутніх проєктів DC Studios",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/dc-studios-movie-tv-list-jeremy-latcham-1237217689/",
-    "orig": "DC Studios To-Do List: Here’s What Incoming Boss Jeremy Latcham Will Sort Through From The Gunn-Safran Era"
-   }
-  ],
   [
    1794627078.9176579,
    5895,
@@ -8805,7 +8771,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>Grand Theft Auto 6 побила рекорди продажів за один день</b>\n🕹 <a href=\"https://store.steampowered.com/app/4478540/\">One Day</a> — 155,00₴\n\nGrand Theft Auto 6 стала найшвидшим розважальним продуктом в історії. За перший день гра принесла $3.79 мільярда доходу, а кількість проданих копій сягнула 32,5 мільйона. Take-Two Interactive зазначає, що ці показники вже перевищують початкові очікування ринку.\n\n🔗 <a href=\"https://insider-gaming.com/grand-theft-auto-6-breaks-sales-records-in-one-day/\">Insider Gaming</a> · #ігри #GTA6 #Rockstar",
     "kind": "photo",
     "link": "https://insider-gaming.com/grand-theft-auto-6-breaks-sales-records-in-one-day/",
     "orig": "Grand Theft Auto 6 Breaks Sales Records In One Day"
@@ -9655,6 +9620,20 @@
     "link": "https://variety.com/2026/film/news/mahershala-ali-oscars-wins-hollywood-1236955111/",
     "orig": "Mahershala Ali Says It ‘Doesn’t Matter’ That He’s Won 2 Oscars Because ‘There Are Not Roles for Me’ in ‘the Vast Majority of Projects’: ‘You’re Like Everybody Else Waiting’"
    }
+  ],
+  [
+   1795316486.4167182,
+   6636,
+   "🎮",
+   "Маколей Калкін може повернутися до ролі Кевіна у новому фільмі «Сам удома»",
+   "PlayUA",
+   {
+    "also": [],
+    "caption": "🎮 <b>Маколей Калкін може повернутися до ролі Кевіна у новому фільмі «Сам удома»</b>\n\nАмериканський актор Маколей Калкін може знову зіграти Кевіна Маккалістера у продовженні різдвяної комедії «Сам удома». Як повідомляє Puck із посиланням на джерела, над новим фільмом працюють Сет Роген та Еван Голдберг. Майбутня стрічка має розповісти про життя головного героя через багато років після подій оригінальних фільмів.\n\n🔗 <a href=\"https://playua.net/makolej-kalkin-mozhe-povernutysya-do-roli-kevina-u-novomu-filmi-sam-udoma/\">PlayUA</a> · #ігри",
+    "kind": "photo",
+    "link": "https://playua.net/makolej-kalkin-mozhe-povernutysya-do-roli-kevina-u-novomu-filmi-sam-udoma/",
+    "orig": "Маколей Калкін може повернутися до ролі Кевіна у новому фільмі «Сам удома»"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9748,7 +9727,8 @@
    1795305838.951321
   ],
   "games|PlayUA|https://playua.net/feed/": [
-   1795280649.7494235
+   1795280649.7494235,
+   1795316486.4169664
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
    1795260692.8986967,
@@ -10547,7 +10527,6 @@
   "48cfa8b738b7d95f": 1794884529.379504,
   "492580dd43b03d52": 1795134923.0482888,
   "497232c38067fa5d": 1795210255.0325866,
-  "49747e863e0a2992": 1794106852.4088318,
   "497798b1dab433b4": 1794625285.5868697,
   "49888aba79a3bf32": 1794871898.1832585,
   "49915d4c7cd2febf": 1794700889.0070953,
@@ -10565,6 +10544,7 @@
   "4ad73f2ac91b448c": 1794643281.1090765,
   "4adbd58c0a3f1c35": 1795138263.2164862,
   "4ae98c8fc59d539b": 1794760180.7986965,
+  "4afdce9bb8471c9c": 1795316541.2861469,
   "4b00c5974e83edbf": 1795111374.238351,
   "4b145d44df4b08b2": 1794486690.388952,
   "4b1c142ff6039d79": 1795228006.0215333,
@@ -11046,6 +11026,7 @@
   "817bfb4c1cd93d2e": 1794250886.4431863,
   "818ce15a49e53ad4": 1794177074.1994607,
   "81a176838c6102df": 1794486690.3895006,
+  "81a6ac125e17b667": 1795316486.416918,
   "81c49d8c5c07357c": 1795141424.134819,
   "81dd8fcf722b9eb8": 1794357093.8702137,
   "81def5cca7df6ff7": 1794423654.150766,
@@ -11385,7 +11366,6 @@
   "a998af886d9355e1": 1795044701.484141,
   "a99a938255b7b6a6": 1795012310.146826,
   "a9b1dfc34f9eb204": 1794733272.625569,
-  "a9bab6bfa0e12e41": 1794106882.3997464,
   "a9bca652f0af0729": 1795170930.420889,
   "a9c20c422fb3053a": 1794430880.6321664,
   "a9c72ffb5e58e570": 1794612697.7447355,
@@ -11413,7 +11393,6 @@
   "adaa3b59b7ba0601": 1794807087.558263,
   "adad4ea4f55d3dee": 1795014053.3303049,
   "ae0b07e83910e6ba": 1794760193.6006799,
-  "ae290aea174e536d": 1794106879.11826,
   "ae3e8dbf7e1428bf": 1794405652.9407847,
   "ae4646f6d8e728ae": 1794431113.3806431,
   "ae5b2ee6cc0d865e": 1794952978.5729148,
@@ -11820,7 +11799,6 @@
   "de0a8b9dfae92e82": 1794245577.051974,
   "de360b2f10f9e08c": 1795195937.4424798,
   "de50248ee731c2a4": 1795165321.8502262,
-  "de87ead1d615e446": 1794106852.4088318,
   "deb358d0f00bd4f7": 1795201370.9811132,
   "debb052e03097dcf": 1795185082.072191,
   "dec170f4b484dcb6": 1794511879.1530688,
@@ -11865,6 +11843,7 @@
   "e3837d3ac8c0018c": 1795302204.2415853,
   "e39d22c5238b8d6f": 1795221239.8890793,
   "e3c5bd16ade0144f": 1794452645.5356278,
+  "e3e89dc3ff69741b": 1795316459.0772352,
   "e41482f3fa5f94a7": 1795010568.6160293,
   "e4247bae4d117f12": 1795132975.08636,
   "e4417c4016aa9641": 1794661254.0536256,
@@ -12553,7 +12532,7 @@
   ],
   "artists_checked": 1795309694.783757,
   "blocked_until": 1795307775.9023838,
-  "cursor": 88,
+  "cursor": 98,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13328,7 +13307,7 @@
    "PC Gamer": 23,
    "Pitchfork": 2,
    "PlayUA": 3,
-   "Polygon": 63,
+   "Polygon": 64,
    "Product Hunt": 1,
    "Revolver": 1,
    "The Decoder": 2,
@@ -13363,7 +13342,7 @@
    "Neformat": 8,
    "PC Gamer": 17,
    "Pitchfork": 4,
-   "PlayUA": 7,
+   "PlayUA": 8,
    "Polygon": 31,
    "Product Hunt": 6,
    "Revolver": 3,
@@ -13380,7 +13359,7 @@
    "gemini-flash-latest": 37,
    "gemini-flash-lite-latest": 359,
    "gemma-4-26b-a4b-it": 53,
-   "gemma-4-31b-it": 52
+   "gemma-4-31b-it": 53
   },
   "week": "2026-W47"
  },
@@ -14049,6 +14028,21 @@
    0,
    "",
    1795278675.240074
+  ],
+  "q:ai based": [
+   0,
+   "",
+   1795316489.6561482
+  ],
+  "q:ai based r": [
+   0,
+   "",
+   1795316489.1428807
+  ],
+  "q:ai based r d": [
+   0,
+   "",
+   1795316488.5355608
   ],
   "q:ai driven": [
    0,
@@ -16305,6 +16299,11 @@
    "",
    1795145477.6961274
   ],
+  "q:r d": [
+   0,
+   "",
+   1795316490.200716
+  ],
   "q:reader edition": [
    0,
    "",
@@ -17184,14 +17183,6 @@
  },
  "titles": [
   [
-   1795142004.7231216,
-   "The City at the Center of AI"
-  ],
-  [
-   1795143736.9269145,
-   "‘Can’t Hardly Wait’ Stars Campaign For Sequel To 1998 Teen Movie: “Would Be So Fun”"
-  ],
-  [
    1795143815.2201366,
    "‘War’ Stars Sienna Miller and Dominic West Tussle Over Who Won the Divorce Drama: ‘Gwyneth Paltrow Ran So That the Rest of Us Could Walk’"
   ],
@@ -17898,17 +17889,13 @@
   [
    1795314745.6330688,
    "Mahershala Ali Says It ‘Doesn’t Matter’ That He’s Won 2 Oscars Because ‘There Are Not Roles for Me’ in ‘the Vast Majority of Projects’: ‘You’re Like Everybody Else Waiting’"
+  ],
+  [
+   1795316486.41692,
+   "Маколей Калкін може повернутися до ролі Кевіна у новому фільмі «Сам удома»"
   ]
  ],
  "titles_uk": [
-  [
-   1795142004.7231226,
-   "Сан-Франциско став епіцентром сучасного ШІ-буму"
-  ],
-  [
-   1795143736.9269156,
-   "Зірки Can’t Hardly Wait закликають Sony створити сиквел культового фільму 1998 року"
-  ],
   [
    1795143815.2201374,
    "Сієнна Міллер і Домінік Вест про фінал драми «War»"
@@ -18616,6 +18603,10 @@
   [
    1795314745.6330695,
    "Магершал Алі заявив, що дві премії Оскар нічого не гарантують у Голлівуді"
+  ],
+  [
+   1795316486.416921,
+   "Маколей Калкін може повернутися до ролі Кевіна у новому фільмі «Сам удома»"
   ]
  ],
  "ukrainian": {
@@ -19266,8 +19257,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1795293285.9455667,
-  "with_uk": 96
+  "last_check": 1795316551.9093776,
+  "with_uk": 95
  },
  "weekly_releases_week": "2026-W47",
  "wishlist": {
