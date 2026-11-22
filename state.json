@@ -31,14 +31,13 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-22 21:04 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-22 21:33 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemma-4-31b-it": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
@@ -8650,7 +8649,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Wizards of the Coast передасть авторам D&amp;D усі виплати за авторські права від ШІ</b>\n\nWizards of the Coast передасть авторам D&amp;D усі кошти, отримані від врегулювання спору з Anthropic щодо авторських прав на ШІ. Сума може сягати сотень тисяч доларів. Рішення стало результатом наполегливих обговорень, які ініціювали письменники, зокрема Р. А. Сальваторе.\n\n🔗 <a href=\"https://www.pcgamer.com/games/rpg/wizards-of-the-coast-to-pass-full-ai-copyright-payout-to-d-and-d-writers/\">PC Gamer</a> · #ігри #WizardsOfTheCoast #DungeonsAndDragons",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/rpg/wizards-of-the-coast-to-pass-full-ai-copyright-payout-to-d-and-d-writers/",
     "orig": "Wizards of the Coast to pass full AI copyright payout to D&D writers"
@@ -9500,6 +9498,20 @@
     "link": "https://the-decoder.com/ai-is-getting-better-faster-than-experts-can-reliably-test-whether-new-systems-are-safe-metr-warns/",
     "orig": "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns"
    }
+  ],
+  [
+   1795383217.9709227,
+   6684,
+   "🤖",
+   "Дослідники виявили, як дешеві провайдери ШІ крадуть ключі та стежать за користувачами",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Дослідники виявили, як дешеві провайдери ШІ крадуть ключі та стежать за користувачами</b>\n\nФахівці з Dragos надіслали два мільйони фейкових запитів, щоб знайти критичні вразливості в ланцюжку постачання ШІ. Результатом стали щонайменше три скомпрометовані компанії, сотні викрадених ключів AWS та реселлери, які просто читали запити користувачів. У відповідь OpenRouter видалив трьох провайдерів і 125 ендпоїнтів\n\n🔗 <a href=\"https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/\">The Decoder</a> · #ШІ",
+    "kind": "photo",
+    "link": "https://the-decoder.com/security-researchers-show-how-cheap-ai-inference-providers-steal-keys-and-snoop-on-users/",
+    "orig": "Security researchers show how cheap AI inference providers steal keys and snoop on users"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9532,7 +9544,8 @@
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1795365182.2472267,
    1795377033.5559437,
-   1795381475.8105159
+   1795381475.8105159,
+   1795383217.9711995
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1793370738.9416513
@@ -10582,6 +10595,7 @@
   "5ef35868df0d84d4": 1795217660.0590563,
   "5f247c8585c9f508": 1795350741.2597723,
   "5f26c041a43f668b": 1794234687.2555015,
+  "5f2890763739d2c5": 1795383086.810193,
   "5f4037c695c2f6ac": 1795277275.7717788,
   "5f521b871c88a910": 1795100487.7106519,
   "5f5ac26759d8219c": 1795170655.6016555,
@@ -10805,7 +10819,6 @@
   "771e3977fbe6ee33": 1794411054.0634255,
   "771ef06f5955f711": 1795057290.9654427,
   "77289a6efa1d517c": 1794558680.3096478,
-  "77289af06016ee25": 1794173452.809499,
   "7729eb8bf81c5b21": 1794511854.6925483,
   "7737098bcc05fdf5": 1795239290.172538,
   "778fc4eeae5f9c1e": 1794882683.1975877,
@@ -11207,6 +11220,7 @@
   "a5433ee88c25ff65": 1794682854.575637,
   "a54a5de50b86e841": 1794759968.2490451,
   "a554bee44e8165cd": 1794358884.043912,
+  "a55557fd26f94bcf": 1795383217.9711542,
   "a568c0d7008bf2ed": 1794513766.4618802,
   "a5c98ee5a2fa5bae": 1795314690.4971116,
   "a5da9f97d65375b5": 1795293059.0225935,
@@ -11348,6 +11362,7 @@
   "b53647f7980035f2": 1795314745.6330667,
   "b547abf34cacf5b9": 1794983478.4929273,
   "b54d065cbac029c7": 1794839482.7781298,
+  "b554d365367d6780": 1795383086.8103993,
   "b557cf01bc22033d": 1795206572.6487815,
   "b58555f0eedbea5b": 1795134763.1663706,
   "b5b0ef89bd92326a": 1795098686.462664,
@@ -11388,7 +11403,6 @@
   "bb00d3f892d33f01": 1794294078.3600943,
   "bb1e5f9b24d9d9ed": 1795010521.5464308,
   "bb33f9c0d34d4abb": 1794591222.274452,
-  "bb3beab749543672": 1794173485.4995587,
   "bb5c94023b11486c": 1794858091.4121206,
   "bb8ae8bd7120e242": 1794943890.3925378,
   "bbd87f9e04dde43e": 1794358892.4297469,
@@ -11527,6 +11541,7 @@
   "cb41bfa9f45cf983": 1795235481.3480043,
   "cb469965946b70e4": 1794331889.9996734,
   "cb8790c72382e7a1": 1795170655.6016555,
+  "cb9a99d0b2ee0745": 1795383067.368888,
   "cba46daeb73f22ff": 1794295689.1235507,
   "cbeaec58796a42da": 1794976411.5177078,
   "cc3a6a05ab33cd87": 1794918683.3675365,
@@ -11895,7 +11910,6 @@
   "f6e433df38054a4e": 1794754851.4331238,
   "f71b1eeb2c071adc": 1795073478.9226756,
   "f73295c867ad4ff6": 1794682854.575637,
-  "f754cabc2f8ef71d": 1794173482.8446748,
   "f7655bc54a460563": 1794423679.3426888,
   "f76daf8282b7d9a9": 1794414779.2226002,
   "f76f3e57aef103a8": 1795363435.5769925,
@@ -13183,7 +13197,7 @@
    "Халява": 2
   },
   "filtered": {
-   "/Film": 32,
+   "/Film": 33,
    "Blabbermouth": 1,
    "Bloomberg": 19,
    "Deadline": 11,
@@ -13245,7 +13259,7 @@
    "Rock Paper Shotgun": 15,
    "SteamDB": 1,
    "Stereogum": 6,
-   "The Decoder": 23,
+   "The Decoder": 24,
    "ThePRP": 12,
    "VGC": 9,
    "Variety": 37
@@ -13255,7 +13269,7 @@
    "gemini-flash-latest": 40,
    "gemini-flash-lite-latest": 372,
    "gemma-4-26b-a4b-it": 56,
-   "gemma-4-31b-it": 72
+   "gemma-4-31b-it": 73
   },
   "week": "2026-W47"
  },
@@ -14984,11 +14998,6 @@
    2440760,
    "GRAVHOUNDS",
    1793628238.5721622
-  ],
-  "q:gridiron": [
-   3878710,
-   "Gridiron Remastered",
-   1792789303.2274137
   ],
   "q:gta 10": [
    0,
@@ -17289,6 +17298,10 @@
   [
    1795381475.8104734,
    "AI is getting better faster than experts can reliably test whether new systems are safe, METR warns"
+  ],
+  [
+   1795383217.9711556,
+   "Security researchers show how cheap AI inference providers steal keys and snoop on users"
   ]
  ],
  "titles_uk": [
@@ -17899,6 +17912,10 @@
   [
    1795381475.8104742,
    "ШІ розвивається швидше, ніж експерти встигають перевіряти його безпеку, попереджають у METR"
+  ],
+  [
+   1795383217.9711566,
+   "Дослідники виявили, як дешеві провайдери ШІ крадуть ключі та стежать за користувачами"
   ]
  ],
  "ukrainian": {
@@ -18552,8 +18569,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1795361547.7442422,
-  "with_uk": 97
+  "last_check": 1795383237.0765436,
+  "with_uk": 96
  },
  "weekly_releases_week": "2026-W47",
  "wishlist": {
@@ -20365,7 +20382,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795379485.787944,
+  "last_check": 1795383227.0294206,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
