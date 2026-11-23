@@ -1,5 +1,48 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": {
+   "detail": "https://www.bloomberg.com/feeds/technology/news.rss → HTTPSConnectionPool(host='www.bloomberg.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Bloomberg» не працює",
+   "sent": 0,
+   "since": 1795471380.728049
+  },
+  "src:games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": {
+   "detail": "https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
+   "label": "Джерело «Bloomberg» не працює",
+   "sent": 0,
+   "since": 1795471271.713363
+  },
+  "src:games|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": {
+   "detail": "https://www.bloomberg.com/feeds/technology/news.rss → HTTPSConnectionPool(host='www.bloomberg.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Bloomberg» не працює",
+   "sent": 0,
+   "since": 1795471291.7345824
+  },
+  "src:movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": {
+   "detail": "https://www.bloomberg.com/feeds/industries/news.rss → HTTPSConnectionPool(host='www.bloomberg.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Bloomberg» не працює",
+   "sent": 0,
+   "since": 1795471337.5517383
+  },
+  "src:music|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": {
+   "detail": "https://www.bloomberg.com/feeds/industries/news.rss → HTTPSConnectionPool(host='www.bloomberg.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Bloomberg» не працює",
+   "sent": 0,
+   "since": 1795471316.253007
+  },
+  "src:software|Bloomberg|https://www.bloomberg.com/authors/AS7Hj1mBMGM/mark-gurman.rss": {
+   "detail": "https://www.bloomberg.com/authors/AS7Hj1mBMGM/mark-gurman.rss\nСтрічка порожня — можливо, сайт змінив адресу RSS або верстку.",
+   "label": "Джерело «Bloomberg» не працює",
+   "sent": 0,
+   "since": 1795471358.5323386
+  },
+  "src:software|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": {
+   "detail": "https://www.bloomberg.com/feeds/technology/news.rss → HTTPSConnectionPool(host='www.bloomberg.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Bloomberg» не працює",
+   "sent": 0,
+   "since": 1795471358.1861355
+  }
+ },
  "daily_digest_date": "2026-11-23",
  "freebies": {
   "last_check": 1795465956.5590353,
@@ -31,69 +74,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-23 20:32 UTC",
+  "at": "2026-11-23 22:04 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemma-4-26b-a4b-it": 1,
+   "gemma-4-31b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794776482.4281719,
-   6035,
-   "🤖",
-   "ШІ б'є по молодих спеціалістах у сфері софту та підтримки",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/australias-central-bank-finds-ai-hitting-young-workers-first-especially-in-software-and-customer-service/",
-    "orig": "Australia's central bank finds AI hitting young workers first, especially in software and customer service"
-   }
-  ],
-  [
-   1794778303.2674255,
-   6036,
-   "🤖",
-   "Meituan випустила ШІ-модель LongCat-2.5 на 1,6 трильйона параметрів без використання GPU від Nvidia",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/meituan-releases-a-1-6-trillion-parameter-agent-model-that-never-touched-an-nvidia-gpu/",
-    "orig": "Meituan releases a 1.6-trillion-parameter agent model that never touched an Nvidia GPU"
-   }
-  ],
-  [
-   1794780076.076228,
-   6037,
-   "🎬",
-   "Іман Веллані назвала найкращий комікс про X-Men",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2317207/ms-marvel-star-iman-vellani-perfect-x-men-story/",
-    "orig": "Ms. Marvel Star Iman Vellani Believes This Is The Perfect X-Men Story (And She's Right)"
-   }
-  ],
-  [
-   1794780079.9919734,
-   6038,
-   "🎮",
-   "Стало відомо, скільки триватиме сюжетна кампанія GTA 6 та скільки потрібно годин для отримання платинового трофея PS5",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/syuzhetna-kampaniya-gta-6-trivatime-priblizno-za-50-godin-317234/",
-    "orig": "Стало відомо, скільки триватиме сюжетна кампанія GTA 6 та скільки потрібно годин для отримання платинового трофея PS5"
-   }
-  ],
   [
    1794781971.0918298,
    6039,
@@ -8774,7 +8766,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Концерти A Painted Symphony за грою <a href=\"https://store.steampowered.com/app/1903340/\">Clair Obscur: Expedition 33</a> повертаються у 2027 році</b>\n🕹 <a href=\"https://store.steampowered.com/app/1903340/\">Clair Obscur: Expedition 33</a> — 1 477,00₴ (−21%)\n\nКонцертна серія A Painted Symphony за мотивами саундтреку Лорієна Тестарда до RPG Clair Obscur: Expedition 33 повертається у 2027 році. Світовий тур охопить Європу, Велику Британію та США, де виступи відбудуться вперше. Квитки надійдуть у продаж 15 вересня.\n\n🔗 <a href=\"https://www.polygon.com/clair-obscur-expedition-33-painted-symphony-2027-dates-locations/\">Polygon</a> · #ігри #Expedition33",
     "kind": "photo",
     "link": "https://www.polygon.com/clair-obscur-expedition-33-painted-symphony-2027-dates-locations/",
     "orig": "Clair Obscur: Expedition 33 ‘A Painted Symphony’ Officially Returns in 2027"
@@ -8788,7 +8779,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>У ING прогнозують стабільний попит на ШІ-чіпи в Азії</b>\n\nКерівник ING Удай Сарін вважає, що експортні обмеження США можуть створити невпевненість серед інвесторів, проте не спричинять різкого падіння попиту на ШІ-чіпи. Розбудова дата-центрів у Південно-Східній Азії триватиме, хоча темпи зростання можуть дещо сповільнитися.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-23/ing-s-sareen-asia-ai-chip-demand-unlikely-to-crash-video\">Bloomberg</a> · #ШІ #ING",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-11-23/ing-s-sareen-asia-ai-chip-demand-unlikely-to-crash-video",
     "orig": "ING's Sareen: Asia AI Chip Demand Unlikely to Crash"
@@ -8802,7 +8792,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Classic Rock назвав найкращі рок-треки тижня</b>\n\nСингл Take Me To The Water валлійців Cardinal Black переміг у щотижневому відборі від Classic Rock, обійшовши релізи ветеранів Clutch та Molly Hatchet. До списку свіжих треків також увійшли новинки від The Heat Inc., Stephen Wilson Jr, австралійських металістів і святкова версія пісні за участі гітариста Джона Норума.\n\n🔗 <a href=\"https://www.loudersound.com/music/tracks-singles/classic-rock-tracks-of-the-week-november-23-2027\">Metal Hammer (Louder)</a> · #музика #ClassicRock #CardinalBlack",
     "kind": "photo",
     "link": "https://www.loudersound.com/music/tracks-singles/classic-rock-tracks-of-the-week-november-23-2027",
     "orig": "Classic Rock Tracks Of The Week: November 23, 2027"
@@ -9619,6 +9608,48 @@
     "link": "https://mezha.ua/news/samsung-dozvolit-prihovuvati-vodyani-znaki-shi-na-zobrazhennyah-317503/",
     "orig": "Samsung може дозволити приховувати водяні знаки на фото, відредагованих за допомогою Galaxy AI"
    }
+  ],
+  [
+   1795471381.9445112,
+   6782,
+   "🎬",
+   "У фінальному трейлері \"Месники: Сходження доктора Дума\" супергерої стикаються з наслідками \"Завершення\"",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🎬 <b>У фінальному трейлері &quot;Месники: Сходження доктора Дума&quot; супергерої стикаються з наслідками &quot;Завершення&quot;</b>\n\nОстанній трейлер &quot;Месники: Сходження доктора Дума&quot; / Avengers: Doomsday вустами Роберта Дауні-молодшого натякає, що Месники зіткнуться з наслідками стрічки, у якій загинув попередній його персонаж. В кінотеатрах України з ними можна буде зіткнутися 17 грудня.\n\n🔗 <a href=\"https://mezha.ua/news/avengers-doomsday-final-trailer-317505/\">Mezha</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/avengers-doomsday-final-trailer-317505/",
+    "orig": "У фінальному трейлері \"Месники: Сходження доктора Дума\" супергерої стикаються з наслідками \"Завершення\""
+   }
+  ],
+  [
+   1795471431.7759023,
+   6783,
+   "🤘",
+   "Slayyyter та Charli XCX стануть останніми музичними гостями SNL у 2026 році",
+   "Stereogum",
+   {
+    "also": [],
+    "caption": "🤘 <b>Slayyyter та Charli XCX стануть останніми музичними гостями SNL у 2026 році</b>\n\nСтало відомо, хто виступить музичними гостями у фінальних випусках Saturday Night Live 2026 року. 12 грудня на сцені з&#x27;явиться Slayyyter разом із ведучим Робертом Де Ніро, а 19 грудня Charli XCX виступить у випуску з Тімоті Шаламе.\n\n🔗 <a href=\"https://stereogum.com/2520410/slayyyter-charli-xcx-added-as-final-snl-musical-guests-of-2026/news/\">Stereogum</a> · #музика #Slayyyter #CharliXCX",
+    "kind": "photo",
+    "link": "https://stereogum.com/2520410/slayyyter-charli-xcx-added-as-final-snl-musical-guests-of-2026/news/",
+    "orig": "Slayyyter, Charli XCX Added As Final SNL Musical Guests Of 2026"
+   }
+  ],
+  [
+   1795471479.1391747,
+   6784,
+   "🤘",
+   "Converge та Weedeater приєдналися до складу Desertfest London 2027",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Converge та Weedeater приєдналися до складу Desertfest London 2027</b>\n\nConverge стали останніми хедлайнерами фестивалю Desertfest London 2027, що відбудеться з 21 по 23 травня. Гурт повністю виконає свій четвертий студійний альбом Jane Doe. До списку учасників також додали Weedeater, Naxatras та низку інших артистів.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/23/news/converge-performing-jane-doe-weedeater-etc-added-to-2027-desertfest-london/\">ThePRP</a> · #музика #Converge #Desertfest",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/11/23/news/converge-performing-jane-doe-weedeater-etc-added-to-2027-desertfest-london/",
+    "orig": "Converge (Performing “Jane” Doe), Weedeater, Etc. Added To 2027 ‘Desertfest London’"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9768,7 +9799,8 @@
    1795396087.7082558
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
-   1795422681.5188174
+   1795422681.5188174,
+   1795471381.9447255
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
    1795398616.1863153,
@@ -9838,14 +9870,10 @@
    1795070079.4944077
   ],
   "music|Stereogum|https://www.stereogum.com/feed/": [
-   1795239214.0430505,
-   1795242819.6480136
+   1795471431.7761426
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1795158293.7983537,
-   1795162056.520939,
-   1795215739.3827758,
-   1795215770.510076
+   1795471479.1393914
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1795194075.9234834
@@ -9973,7 +10001,6 @@
   "09ca5f9f370d8b4c": 1795136487.66789,
   "09d54a239efc22b7": 1794902455.1209733,
   "0a0cabf1c8e8609f": 1794627078.9178329,
-  "0a24c7e254e6fef2": 1794261680.3718498,
   "0a2b8c2efc2728e5": 1794585687.2769177,
   "0a87c87c8a691f79": 1795431685.8027568,
   "0ac26792d1527127": 1795397593.1250198,
@@ -10468,6 +10495,7 @@
   "40279761d4213d95": 1794868444.818007,
   "40345959e8b7840e": 1795050069.409945,
   "404dff4b1ceac471": 1794731814.1593332,
+  "40741d174a973026": 1795471262.366884,
   "40c4cd20ddc07752": 1795447880.4919152,
   "40c76a0b65ce14d7": 1795361536.6191206,
   "41371a3772bd65c2": 1794886253.941115,
@@ -10626,6 +10654,7 @@
   "548f15aee8e3e112": 1795453329.5088906,
   "54be389e3be2abdb": 1794636081.410183,
   "54d9cbc77679af17": 1794340855.1154919,
+  "54e6c6ba75d1dfbb": 1795471381.9446864,
   "54fc74513568f025": 1795089708.537198,
   "551c62fbbae8b8e3": 1794272482.36282,
   "55304c918f40a77e": 1794493891.529127,
@@ -10717,7 +10746,6 @@
   "5f5ac26759d8219c": 1795170655.6016555,
   "5f7b62623b2b118a": 1794362590.4859781,
   "5f8099c7d290eccf": 1794504655.5700643,
-  "5f90ae3c6234985d": 1794260150.8285909,
   "5f987f0636c53831": 1794387783.944847,
   "5f9b38a8416afa45": 1794616312.000508,
   "5f9df56fed9a28e3": 1794598371.8116102,
@@ -10766,6 +10794,7 @@
   "6427b0f967c9e6a6": 1794920454.799004,
   "64325a7bb4bf94b2": 1794495681.3751266,
   "644ff25635dda6f2": 1794378722.8053174,
+  "6482ca1d89e0bb3e": 1795471431.7761016,
   "648ccc55f45aea20": 1795435304.6913989,
   "649cade6cf52b099": 1794391256.5139039,
   "64a0cf7f43056473": 1794929457.0480187,
@@ -10890,6 +10919,7 @@
   "70e2a19ecf7767a2": 1795203061.089686,
   "70ee71b0b7c3874e": 1794439890.6270096,
   "710bfbfd7df00486": 1795051877.248294,
+  "711529974353442d": 1795471479.1393435,
   "71162aad9bac6a88": 1795100487.7145374,
   "7119ca50a1cae8db": 1794990658.388594,
   "713f6dbda6ec1870": 1794666656.604099,
@@ -11013,7 +11043,6 @@
   "7eb47aed02f3cb74": 1795080652.932032,
   "7ec74f048fd88c8b": 1794682854.575637,
   "7ecf21b1d2ba264f": 1794326503.5964656,
-  "7ed5ec01955bde22": 1794261652.7951982,
   "7ee4411884c51582": 1794425482.4962661,
   "7ee76404390a1aa4": 1794956600.0850973,
   "7f0b1cbcf7a02639": 1795102261.0800154,
@@ -11154,7 +11183,6 @@
   "8ed944cc7fd52abd": 1795377033.5558977,
   "8ee92c9f72296efa": 1794339053.433796,
   "8f2e6702d71c6071": 1794724367.8769994,
-  "8f472a09e7303e6b": 1794261677.441168,
   "8f968cbd1040c37f": 1795359662.99869,
   "8f9fec8ef2615331": 1795302269.0693898,
   "8fae68dceab0c80e": 1794589274.5655618,
@@ -11385,7 +11413,6 @@
   "a8ad1e41ec25a4fc": 1794906175.1351109,
   "a8d39c6181656603": 1794958372.3117917,
   "a8efea0dacde155c": 1794385885.3052723,
-  "a8f47de703ee7c26": 1794261675.0510595,
   "a9279387ae705a48": 1795255749.951876,
   "a944b9f822a68e6c": 1795439203.5490227,
   "a95ee396270de058": 1795439291.689348,
@@ -11577,7 +11604,6 @@
   "bf55d92aebf43d96": 1794792688.2601962,
   "bf609b726082e477": 1794974665.2712822,
   "bfc14e550eb304db": 1795042855.9275043,
-  "bfca699caed01135": 1794261652.7951982,
   "bfd5a97932441e69": 1795275057.4489214,
   "c013548ae573e5a5": 1795246712.6543932,
   "c0176b29b71765d3": 1795262900.692457,
@@ -12004,6 +12030,7 @@
   "ef4107797b4a692f": 1795313025.529045,
   "ef4bda231530a02a": 1794987091.7832546,
   "ef4e8652efb8d259": 1794609084.4809654,
+  "ef603c5f1251802e": 1795471262.366884,
   "ef6bd76457a21945": 1794292278.404903,
   "efbb4db034f210e1": 1795026653.649315,
   "efeb582a960ece68": 1795113055.7763176,
@@ -12110,6 +12137,7 @@
   "fa3ae1d859f5de7b": 1794616302.86888,
   "fa3c5ee9e950cd98": 1795258856.5144587,
   "fa5492267cf340ea": 1794535009.7471654,
+  "fa5bbce4b7e4c99c": 1795471262.366884,
   "fa6863aa6826a1ba": 1795329101.771395,
   "fa97ebbb251e99f4": 1795465853.2477036,
   "fab3232779f9b940": 1795284056.7584941,
@@ -13364,11 +13392,12 @@
    "IndieWire": 2,
    "Insider Gaming": 16,
    "Loudwire": 1,
-   "PC Gamer": 3,
+   "Metal Hammer (Louder)": 1,
+   "PC Gamer": 4,
    "PlayUA": 1,
    "Polygon": 10,
    "Rock Paper Shotgun": 1,
-   "VGC": 9,
+   "VGC": 10,
    "Variety": 1
   },
   "sources": {
@@ -13386,14 +13415,16 @@
    "Insider Gaming": 4,
    "Lambgoat": 4,
    "Metal Hammer (Louder)": 5,
-   "Mezha": 10,
+   "Mezha": 11,
    "Neformat": 4,
    "PC Gamer": 2,
    "Pitchfork": 1,
    "PlayUA": 1,
    "Polygon": 5,
    "Rock Paper Shotgun": 3,
+   "Stereogum": 1,
    "The Decoder": 2,
+   "ThePRP": 1,
    "VGC": 3,
    "Variety": 5
   },
@@ -13401,8 +13432,8 @@
    "DeepL": 7,
    "gemini-flash-latest": 2,
    "gemini-flash-lite-latest": 23,
-   "gemma-4-26b-a4b-it": 22,
-   "gemma-4-31b-it": 26
+   "gemma-4-26b-a4b-it": 23,
+   "gemma-4-31b-it": 27
   },
   "week": "2026-W48"
  },
@@ -17411,6 +17442,18 @@
   [
    1795467677.6474702,
    "Samsung може дозволити приховувати водяні знаки на фото, відредагованих за допомогою Galaxy AI"
+  ],
+  [
+   1795471381.944688,
+   "У фінальному трейлері \"Месники: Сходження доктора Дума\" супергерої стикаються з наслідками \"Завершення\""
+  ],
+  [
+   1795471431.776104,
+   "Slayyyter, Charli XCX Added As Final SNL Musical Guests Of 2026"
+  ],
+  [
+   1795471479.1393454,
+   "Converge (Performing “Jane” Doe), Weedeater, Etc. Added To 2027 ‘Desertfest London’"
   ]
  ],
  "titles_uk": [
@@ -18085,6 +18128,18 @@
   [
    1795467677.6474712,
    "Samsung може дозволити приховувати водяні знаки на фото, відредагованих за допомогою Galaxy AI"
+  ],
+  [
+   1795471381.944689,
+   "У фінальному трейлері \"Месники: Сходження доктора Дума\" супергерої стикаються з наслідками \"Завершення\""
+  ],
+  [
+   1795471431.776105,
+   "Slayyyter та Charli XCX стануть останніми музичними гостями SNL у 2026 році"
+  ],
+  [
+   1795471479.1393461,
+   "Converge та Weedeater приєдналися до складу Desertfest London 2027"
   ]
  ],
  "ukrainian": {
