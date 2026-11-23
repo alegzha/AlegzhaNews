@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1795435278.8484774
-  },
-  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
-   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
-   "label": "Джерело «Revolver» не працює",
-   "sent": 0,
-   "since": 1795435277.9634027
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-22",
  "freebies": {
   "last_check": 1795435807.4227655,
@@ -44,15 +31,13 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-23 12:10 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemma-4-31b-it",
+  "at": "2026-11-23 12:31 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 1,
-   "gemma-4-31b-it": 2
+   "gemini-flash-lite-latest": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
@@ -8646,7 +8631,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Geezer Butler, Lzzy Hale та Nuno Bettencourt виконали Neon Knights гурту Black Sabbath</b>\n\nОфіційне відео з масштабного зіркового шоу Sound &amp; Vision Live\n\n🔗 <a href=\"https://www.loudersound.com/music/tracks-singles/sound-and-vision-live-neon-knights\">Metal Hammer (Louder)</a> · #музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/music/tracks-singles/sound-and-vision-live-neon-knights",
     "orig": "Watch Geezer Butler, Lzzy Hale, Nuno Bettencourt and more play Black Sabbath's Neon Knights"
@@ -8660,7 +8644,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Мюзикл Two Strangers (Carry A Cake Across New York) переходить на Off-Broadway</b>\n\nМюзикл Two Strangers (Carry A Cake Across New York), номінований на вісім премій Tony Awards, переїжджає з Broadway на майданчик New World Stages. Прем&#x27;єра Off-Broadway постановки запланована на 4 квітня 2027 року. Поточний акторський склад не братиме участі у новому показі, а новий склад ще не оголошено.\n\n🔗 <a href=\"https://deadline.com/2026/11/two-strangers-carry-a-cake-across-new-york-off-broadway-1237230995/\">Deadline</a> · #кіно_і_серіали #TwoStrangers",
     "kind": "text",
     "link": "https://deadline.com/2026/11/two-strangers-carry-a-cake-across-new-york-off-broadway-1237230995/",
     "orig": "Broadway’s ‘Two Strangers (Carry A Cake Across New York)’ Announces Off Broadway Move"
@@ -9496,6 +9479,34 @@
     "link": "https://insider-gaming.com/yandex-1win-gamerlegion-parivision-progress-at-blast-slam-ix/",
     "orig": "Yandex, 1win, GamerLegion & Parivision Progress at BLAST Slam IX"
    }
+  ],
+  [
+   1795437081.8748012,
+   6750,
+   "🎮",
+   "Повернення до витоків. Знову. Огляд гри World of Warcraft Forever",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🎮 <b>Повернення до витоків. Знову. Огляд гри World of Warcraft Forever</b>\n\nЗ Forever Blizzard зробила рівно те, що й обіцяла, – дала гравцям трохи осучаснений класичний World of Warcraft, у якому історія пішла іншим шляхом. Ні більше, ні менше. І це прекрасно\n\n🔗 <a href=\"https://mezha.ua/reviews/oglyad-gri-world-of-warcraft-forever-317484/\">Mezha</a> · #ігри",
+    "kind": "photo",
+    "link": "https://mezha.ua/reviews/oglyad-gri-world-of-warcraft-forever-317484/",
+    "orig": "Повернення до витоків. Знову. Огляд гри World of Warcraft Forever"
+   }
+  ],
+  [
+   1795437092.848156,
+   6751,
+   "🎮",
+   "Мережею поширили концептарти скасованого батл-роялю Project Tatanka за Halo",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Мережею поширили концептарти скасованого батл-роялю Project Tatanka за Halo</b>\n\nУ мережі з&#x27;явилися ранні концептарти скасованого режиму Project Tatanka для Halo Infinite, над якими працював художник Джейсон Лавуа. Понад 20 зображень демонструють біоми майбутнього батл-роялю: гірські системи, печери з машинами та покинуті будівлі.\n\n🔗 <a href=\"https://insider-gaming.com/halo-infinite-project-tatanka-concept-art/\">Insider Gaming</a> · #ігри #Halo #CertainAffinity",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/halo-infinite-project-tatanka-concept-art/",
+    "orig": "Concept Art From The Cancelled Halo Battle Royale Mode ‘Project Tatanka’ Surfaces Online"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9574,13 +9585,11 @@
    1795426300.3964942
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1795435798.1632166
+   1795435798.1632166,
+   1795437092.8484204
   ],
   "games|Mezha|https://mezha.ua/feed/": [
-   1795219398.0763006,
-   1795248084.634361,
-   1795264283.7526934,
-   1795277148.440283
+   1795437081.8750849
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1795350741.2598054,
@@ -10105,7 +10114,6 @@
   "256005002a962116": 1794652401.9457853,
   "256a9746b134b753": 1794718877.0665543,
   "257eb239ed70d661": 1794974673.3641968,
-  "25be104710a5787d": 1794227453.9175088,
   "25c7a48b42e38abf": 1795136483.5215816,
   "26088c4097d14d2b": 1794882692.550622,
   "2614f3f779352f91": 1794328279.5536714,
@@ -10956,6 +10964,7 @@
   "85918bf3877587ac": 1795126079.981354,
   "85931a406daa451e": 1794996185.3027115,
   "85e411e342226a52": 1794648773.5512936,
+  "861d5b4215f6f343": 1795437078.4428258,
   "8637196cace7c1fa": 1795194075.9234347,
   "8641f798ec12191b": 1795215669.3813393,
   "8652cd6a606a25e5": 1795372260.5712729,
@@ -11007,6 +11016,7 @@
   "8b93cfcbd366393c": 1794875490.1073031,
   "8bb9b1bbd3d2ad72": 1794478233.0950007,
   "8bcb4c9b6a2acf13": 1795217582.0033872,
+  "8bcc595abe240c3b": 1795437092.8483765,
   "8bcf2251ec335357": 1794990716.128772,
   "8bd933f459bcf3eb": 1794713481.876106,
   "8bf24a55f9bd1032": 1795082840.639321,
@@ -11178,6 +11188,7 @@
   "a00ed45380a2ff0d": 1794394889.8855524,
   "a017fdbe15ca0630": 1794438090.669651,
   "a0338a2d9b1c8c7a": 1794836085.5064359,
+  "a03ab03bdabe272c": 1795437054.9153414,
   "a065b275a135ef55": 1795401303.9272826,
   "a07c6234395751c7": 1794547873.2126691,
   "a0ae029a41a79db3": 1795275057.4489214,
@@ -11367,6 +11378,7 @@
   "b6fb2cda36068b57": 1794740455.9176288,
   "b7159fe7d5325bcf": 1794913434.905437,
   "b7560196b1d1c140": 1794771126.3487391,
+  "b760e74150a905e1": 1795437054.9153414,
   "b761befe780aeb95": 1794751279.1553652,
   "b7730c7fc9061948": 1795069878.1635556,
   "b79d99b85665c970": 1794324720.406491,
@@ -11462,6 +11474,7 @@
   "c250cec7e4c6a3e5": 1794697280.052423,
   "c2ad1c3dd73ceae6": 1795086081.8537004,
   "c2e4064fa9638a42": 1795314741.3108847,
+  "c2ea3714297d80d2": 1795437078.4428895,
   "c2fb7b3ae09e148f": 1794630683.9920444,
   "c313e3ee418f0c52": 1794330482.6856482,
   "c316780a7dfb370c": 1794663071.9451056,
@@ -11630,7 +11643,6 @@
   "d5c1fe12af72c606": 1795350656.068994,
   "d5c35cc6974f5a60": 1794373255.2240887,
   "d5d3bdcb322fcc1c": 1795321991.1757953,
-  "d5d46baa865ef6d1": 1794227485.9262125,
   "d5e0b1582d85851f": 1795300294.9117281,
   "d5e995443cc7f9ba": 1794729653.9018893,
   "d600af45b84b0c93": 1794409424.9673688,
@@ -11779,6 +11791,7 @@
   "e73a115e1e1afff3": 1795008699.1682863,
   "e75162f51dbd7873": 1794364279.3029287,
   "e751fd0f3b13fe95": 1794771113.625774,
+  "e75cdf0950c3ec4e": 1795437078.4422162,
   "e763621e99978078": 1795167148.9568794,
   "e77ce8d9e19fc38b": 1795145477.1128936,
   "e77f83ae1088eb81": 1794866636.2184536,
@@ -11863,6 +11876,7 @@
   "f0b306ec9354762c": 1794438097.6335125,
   "f0bce55563863bd3": 1794704489.7478058,
   "f1802df8f8de1a9b": 1795366860.0415857,
+  "f1863cbdda884dd4": 1795437081.875038,
   "f192026d7e44ab55": 1795185079.1601849,
   "f1933cc33df98207": 1795275080.272479,
   "f1cf369f95e58c88": 1795181454.9966192,
@@ -11966,6 +11980,7 @@
   "fb10ee13be5ad53d": 1795012267.0331166,
   "fb210422208acb2e": 1794497454.0506542,
   "fb3f68248836938d": 1795114863.5731728,
+  "fb85f46586edf216": 1795437054.9153414,
   "fbbd42e1c19e013e": 1795388453.5383751,
   "fbe00a5fcff437bd": 1794285094.25164,
   "fc10c21629cc6274": 1795008653.7476661,
@@ -12004,7 +12019,6 @@
   "ff6aff9a2dbccb08": 1794414781.274668,
   "ff8204ecee7bfea3": 1795365052.7700858,
   "ff9473a0f9509091": 1794693772.929385,
-  "ff9627da71a51e63": 1794227453.9175088,
   "ffb8f21dec9f45a0": 1795345256.5599492,
   "ffb95674798e00c4": 1794583853.089954,
   "fff13782dcc2aa25": 1795345279.07515
@@ -13203,11 +13217,12 @@
    "/Film": 1,
    "Bloomberg": 7,
    "Deadline": 1,
+   "IGN": 1,
    "Insider Gaming": 3,
-   "PC Gamer": 1,
+   "PC Gamer": 2,
    "PlayUA": 1,
    "Polygon": 4,
-   "VGC": 4
+   "VGC": 5
   },
   "sources": {
    "/Film": 3,
@@ -13218,10 +13233,10 @@
    "Eurogamer": 2,
    "ITC.ua": 6,
    "IndieWire": 1,
-   "Insider Gaming": 1,
+   "Insider Gaming": 2,
    "Lambgoat": 4,
    "Metal Hammer (Louder)": 5,
-   "Mezha": 4,
+   "Mezha": 5,
    "Neformat": 4,
    "PC Gamer": 2,
    "Pitchfork": 1,
@@ -13233,7 +13248,7 @@
   "translators": {
    "DeepL": 5,
    "gemini-flash-latest": 2,
-   "gemini-flash-lite-latest": 13,
+   "gemini-flash-lite-latest": 14,
    "gemma-4-26b-a4b-it": 18,
    "gemma-4-31b-it": 18
   },
@@ -13940,6 +13955,26 @@
    "",
    1795275082.620797
   ],
+  "q:art from": [
+   0,
+   "",
+   1795437087.9858513
+  ],
+  "q:art from the cancelled": [
+   0,
+   "",
+   1795437087.4678397
+  ],
+  "q:art from the cancelled halo": [
+   0,
+   "",
+   1795437086.958336
+  ],
+  "q:art from the cancelled halo battle": [
+   0,
+   "",
+   1795437086.4400752
+  ],
   "q:ascendance": [
    2275750,
    "Ascendance",
@@ -14259,6 +14294,26 @@
    0,
    "",
    1795356081.8865025
+  ],
+  "q:concept art": [
+   0,
+   "",
+   1795437085.9444268
+  ],
+  "q:concept art from": [
+   0,
+   "",
+   1795437085.4049776
+  ],
+  "q:concept art from the cancelled": [
+   0,
+   "",
+   1795437084.8943536
+  ],
+  "q:concept art from the cancelled halo": [
+   0,
+   "",
+   1795437084.3916566
   ],
   "q:counter strike": [
    10,
@@ -14724,6 +14779,21 @@
    5019410,
    "Friendslop",
    1793707292.0109887
+  ],
+  "q:from the cancelled halo": [
+   0,
+   "",
+   1795437089.4895175
+  ],
+  "q:from the cancelled halo battle": [
+   0,
+   "",
+   1795437088.99359
+  ],
+  "q:from the cancelled halo battle royale": [
+   0,
+   "",
+   1795437088.4884222
   ],
   "q:frostpunk 2": [
    1601580,
@@ -15690,6 +15760,11 @@
    "",
    1795435703.9267156
   ],
+  "q:project tatanka": [
+   0,
+   "",
+   1795437083.8879938
+  ],
   "q:project titan": [
    5075420,
    "Project TITAN",
@@ -16320,6 +16395,16 @@
    "VRChat",
    1793394133.1038349
   ],
+  "q:warcraft": [
+   0,
+   "",
+   1795437080.7323778
+  ],
+  "q:warcraft forever": [
+   0,
+   "",
+   1795437080.1802645
+  ],
   "q:wardogs": [
    1867240,
    "WARDOGS",
@@ -16470,6 +16555,16 @@
    "World of Tanks",
    1793005388.3132465
   ],
+  "q:world of warcraft": [
+   0,
+   "",
+   1795437079.583245
+  ],
+  "q:world of warcraft forever": [
+   0,
+   "",
+   1795437079.0833287
+  ],
   "q:wuthering waves": [
    3513350,
    "Wuthering Waves",
@@ -16498,6 +16593,7 @@
    "fsd",
    "meta",
    "nvidia",
+   "openai",
    "tesla",
    "world of warcraft",
    "world of warcraft forever",
@@ -16509,14 +16605,12 @@
    "вибір редакції",
    "військові технології",
    "гелікоптери",
-   "голодні ігри: світанок перед жнивами",
    "гур",
    "дрони",
    "зброя",
    "зсу",
    "каб",
    "катери",
-   "кіно",
    "морські дрони",
    "новини",
    "ноутбуки",
@@ -16533,18 +16627,6 @@
   ]
  },
  "titles": [
-  [
-   1795264283.752649,
-   "Не лише GTA. Топ 10 найуспішніших ігор усіх часів"
-  ],
-  [
-   1795264286.1575563,
-   "Китай планує посилити стандарти токенів ШІ в межах розвитку обчислювальних технологій"
-  ],
-  [
-   1795264288.1820986,
-   "250 000 сторінок: Claude «довів» гіпотезу Рімана, над якою билися 167 років"
-  ],
   [
    1795267934.9457123,
    "Deltarune chapter 6 is 'structurally complete' while development has begun on chapter 7, according to Toby Fox"
@@ -17160,21 +17242,17 @@
   [
    1795435798.1631742,
    "Yandex, 1win, GamerLegion & Parivision Progress at BLAST Slam IX"
+  ],
+  [
+   1795437081.8750393,
+   "Повернення до витоків. Знову. Огляд гри World of Warcraft Forever"
+  ],
+  [
+   1795437092.8483784,
+   "Concept Art From The Cancelled Halo Battle Royale Mode ‘Project Tatanka’ Surfaces Online"
   ]
  ],
  "titles_uk": [
-  [
-   1795264283.7526498,
-   "Не лише GTA. Топ 10 найуспішніших ігор усіх часів"
-  ],
-  [
-   1795264286.157557,
-   "Китай планує посилити стандарти токенів ШІ в межах розвитку обчислювальних технологій"
-  ],
-  [
-   1795264288.1820993,
-   "250 000 сторінок: Claude «довів» гіпотезу Рімана, над якою билися 167 років"
-  ],
   [
    1795267934.945713,
    "Шостий розділ Deltarune структурно завершено, а розробка сьомого вже стартувала"
@@ -17790,6 +17868,14 @@
   [
    1795435798.1631749,
    "Yandex, 1win, GamerLegion та Parivision вийшли в плей-оф BLAST Slam IX"
+  ],
+  [
+   1795437081.8750403,
+   "Повернення до витоків. Знову. Огляд гри World of Warcraft Forever"
+  ],
+  [
+   1795437092.848379,
+   "Мережею поширили концептарти скасованого батл-роялю Project Tatanka за Halo"
   ]
  ],
  "ukrainian": {
