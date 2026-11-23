@@ -1,8 +1,21 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795435278.8484774
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1795435277.9634027
+  }
+ },
  "daily_digest_date": "2026-11-22",
  "freebies": {
-  "last_check": 1795428531.1509376,
+  "last_check": 1795435807.4227655,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -31,75 +44,19 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-23 11:03 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-23 12:10 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
-   "gemma-4-31b-it": 1
+   "gemma-4-26b-a4b-it": 1,
+   "gemma-4-31b-it": 2
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794742362.4024076,
-   6011,
-   "💾",
-   "Perit Marketplace",
-   "Product Hunt",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.producthunt.com/products/perit-marketplace",
-    "orig": "Perit Marketplace"
-   }
-  ],
-  [
-   1794742509.8284426,
-   6012,
-   "🎬",
-   "HBO несподівано показала бенкет у Hogwarts в уривку серіалу Harry Potter",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/hbo-surprise-harry-potter-clip-hogwarts-banquet-1237224436/",
-    "orig": "HBO Releases Surprise ‘Harry Potter’ Clip Of Hogwarts Banquet"
-   }
-  ],
-  [
-   1794744158.304492,
-   6013,
-   "🎮",
-   "Coffee Stain викупила Chronicles: Medieval за $5,42 млн після банкрутства розробників",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/strategy/chronicles-medieval-developer-declared-bankruptcy-on-the-day-it-announced-it-was-in-trouble-but-development-will-continue-after-a-usd5-million-reprieve-from-coffee-stain/",
-    "orig": "Chronicles: Medieval developer declared bankruptcy on the day it announced it was in trouble, but development will continue after a $5 million reprieve from Coffee Stain"
-   }
-  ],
-  [
-   1794744161.8437114,
-   6014,
-   "🎮",
-   "Не дрова везеш! Огляд доповнення Euro Truck Simulator 2 - Coaches",
-   "Mezha",
-   {
-    "also": [
-     [
-      "SteamDB",
-      "https://bsky.app/profile/steamdb.info/post/3n2elenwv5f2c"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://mezha.ua/articles/oglyad-dopovnennya-euro-truck-simulator-2-coaches-317218/",
-    "orig": "Не дрова везеш! Огляд доповнення Euro Truck Simulator 2 - Coaches"
-   }
-  ],
   [
    1794749685.750858,
    6015,
@@ -8650,7 +8607,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Зірка Glee Кріс Колфер забув, наскільки важливим був Kurt Hummel через гомофобію на зйомках</b>\n\nАктор розповів про досвід гри улюбленого глядачами персонажа через місяць після того, як знову виступив на сцені разом із колегою по серіалу Дарреном Кріссом\n\n🔗 <a href=\"https://variety.com/2026/tv/news/glee-chris-colfer-kurt-homophobia-1236955465/\">Variety</a> · #кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/tv/news/glee-chris-colfer-kurt-homophobia-1236955465/",
     "orig": "‘Glee’ Star Chris Colfer Says He Forgot Kurt Hummel ‘Meant So Much to People’ Because of the ‘Homophobia and Hatred’ He Experienced on the Show"
@@ -8664,7 +8620,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Трамп запроваджує обмеження на постачання ШІ-чіпів до Китаю</b>\n\nНові правила Вашингтона створюють труднощі для багатомільярдного хмарного бізнесу, що забезпечує бум дата-центрів у Південно-Східній Азії. Обмеження на постачання ШІ-чіпів до Китаю запроваджено на тлі кризи з Nvidia, яка вже вплинула на цей регіон.\n\n🔗 <a href=\"https://www.bloomberg.com/news/features/2026-11-22/trump-s-ai-chip-crackdown-on-china-after-nvidia-crisis-squeezes-southeast-asia\">Bloomberg</a> · #ШІ #Nvidia",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/features/2026-11-22/trump-s-ai-chip-crackdown-on-china-after-nvidia-crisis-squeezes-southeast-asia",
     "orig": "Trump's AI Chip Crackdown on China After Nvidia Crisis Squeezes Southeast Asia"
@@ -8678,7 +8633,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Guilt Trip випустили студійну версію каверу на Davidian</b>\n🎧 Слухати: <a href=\"https://open.spotify.com/search/Guilt%20Trip%20Davidian%2C\">Spotify</a> · <a href=\"https://music.youtube.com/search?q=Guilt%20Trip%20Davidian%2C\">YouTube Music</a>\n\nGuilt Trip випустили студійну версію каверу на культову пісню Davidian гурту Machine Head. Реліз з&#x27;явився невдовзі після виходу редукса їхнього самоназваного треку з дебютного EP. Студійна версія вже доступна на всіх стрімінгових платформах.\n\n🔗 <a href=\"https://lambgoat.com/news/56014/guilt-trip-release-studio-version-of-davidian/\">Lambgoat</a> · #музика #GuiltTrip #MachineHead",
     "kind": "photo",
     "link": "https://lambgoat.com/news/56014/guilt-trip-release-studio-version-of-davidian/",
     "orig": "Guilt Trip release studio version of \"Davidian,\" originally by Machine Head"
@@ -9500,6 +9454,48 @@
     "link": "https://deadline.com/2026/11/ties-that-bind-busan-acfm-kofic-vipo-producer-program-1237231392/",
     "orig": "Ties That Bind Program Returns To Busan Through Partnerships With ACFM, KOFIC & Japan’s VIPO"
    }
+  ],
+  [
+   1795435628.1937394,
+   6747,
+   "🎬",
+   "Тайсон Ф'юрі розповів про діагноз «шизофренія» у документальному фільмі Netflix",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Тайсон Ф&#x27;юрі розповів про діагноз «шизофренія» у документальному фільмі Netflix</b>\n\nУ відвертому документальному фільмі Netflix про Тайсона Ф’юрі чемпіон з боксу розповість про те, що йому поставили діагноз «шизофренія». Ця відверта зізнання прозвучить у повнометражному документальному фільмі «Тайсон Ф’юрі», прем’єра якого відбудеться на стрімінговому сервісі 27 листопада. Колишній чемпіон світу у важкій вазі зазначає, що діагноз йому поставили незабаром після перемоги у титульному поєдинку проти Володимира Кличка у 2015 році.\n\n🔗 <a href=\"https://deadline.com/2026/11/tyson-fury-reveals-schizophrenia-diagnosis-netflix-doc-1237231479/\">Deadline</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/tyson-fury-reveals-schizophrenia-diagnosis-netflix-doc-1237231479/",
+    "orig": "Tyson Fury Reveals Schizophrenia Diagnosis In Netflix Doc"
+   }
+  ],
+  [
+   1795435696.0048032,
+   6748,
+   "🎬",
+   "«Податок на Netflix» може принести BBC до $2,1 млрд до 2032 року",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>«Податок на Netflix» може принести BBC до $2,1 млрд до 2032 року</b>\n\nЗапровадження «податку на Netflix» може принести BBC до $2,1 млрд до 2032 року. Нова модель передбачає обов&#x27;язкову сплату ліцензійного збору для глядачів стрімінгових сервісів, навіть якщо вони не дивляться BBC. У разі успішного впровадження річна вартість ліцензії може знизитися до £150.\n\n🔗 <a href=\"https://deadline.com/2026/11/bbc-licence-fee-netflix-tax-raise-extra-by-2032-1237231477/\">Deadline</a> · #кіно_і_серіали #BBC #Netflix",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/bbc-licence-fee-netflix-tax-raise-extra-by-2032-1237231477/",
+    "orig": "Controversial “Netflix Tax” Could Raise Extra $2.1B For BBC By 2032, Research Finds"
+   }
+  ],
+  [
+   1795435798.1630034,
+   6749,
+   "🎮",
+   "Yandex, 1win, GamerLegion та Parivision вийшли в плей-оф BLAST Slam IX",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Yandex, 1win, GamerLegion та Parivision вийшли в плей-оф BLAST Slam IX</b>\n\nЧотири команди вийшли в плей-оф турніру з Dota 2 BLAST Slam IX. Team Yandex та GamerLegion очолили свої групи, а Team Spirit, чемпіони The International 2026, неочікувано вилетіли зі змагань після поразок від Nemesis та Xtreme Gaming.\n\n🔗 <a href=\"https://insider-gaming.com/yandex-1win-gamerlegion-parivision-progress-at-blast-slam-ix/\">Insider Gaming</a> · #ігри #Dota2 #BlastSlam",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/yandex-1win-gamerlegion-parivision-progress-at-blast-slam-ix/",
+    "orig": "Yandex, 1win, GamerLegion & Parivision Progress at BLAST Slam IX"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9578,9 +9574,7 @@
    1795426300.3964942
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1795278700.67693,
-   1795280645.9511356,
-   1795338185.8649108
+   1795435798.1632166
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1795219398.0763006,
@@ -9630,7 +9624,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1795345444.8392696,
    1795386882.0349553,
    1795390671.791274,
    1795392172.0808706,
@@ -9642,7 +9635,9 @@
    1795417373.546753,
    1795421304.336377,
    1795428529.23223,
-   1795431811.7000375
+   1795431811.7000375,
+   1795435628.194017,
+   1795435696.0050542
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795422683.5492282
@@ -10011,16 +10006,19 @@
   "192a87db5e9ac2f4": 1794702681.101593,
   "195940eea151a772": 1794782154.5515115,
   "195dcb105c1a6946": 1794801662.3656418,
+  "1981f4faa0afd369": 1795435696.0050044,
   "19861773bb69a85f": 1795005114.1736202,
   "19a0a3221833cdf0": 1794497495.8385534,
   "19a766cff80206ff": 1794317498.314858,
   "19af98d7c7127689": 1794814464.6482637,
+  "19d84f6a7af8c00b": 1795435266.6043499,
   "19e563a267e1b55f": 1794659494.4706376,
   "1a856fd734078ba2": 1795208454.5689726,
   "1a97c665df3321b9": 1794864757.774673,
   "1a9ec56660c22238": 1794940252.7221177,
   "1aaa788ff2f34838": 1794583895.2487211,
   "1aaaa9400be155a3": 1795221054.2974577,
+  "1ab6be6a014616ab": 1795435266.6043499,
   "1ae469efeb482973": 1794684682.3707495,
   "1b0b723f4bcd1eb3": 1794322897.326436,
   "1b0e7a25a5a7fa27": 1794242064.892113,
@@ -10042,6 +10040,7 @@
   "1d5b91cceb66f5a0": 1794342653.1379323,
   "1d83d65aba62e1e5": 1794330058.4836624,
   "1db09a89319c31fc": 1795001479.5313246,
+  "1dbaf52a11e623bc": 1795435266.6043499,
   "1dbb493120133845": 1795007012.609831,
   "1dcba263afee938f": 1794393098.500801,
   "1dcc4e08fafb7cdf": 1794819674.710832,
@@ -10369,7 +10368,6 @@
   "42f5e9eaccf724aa": 1794229287.1545224,
   "432d8854ba9684e6": 1794254454.641067,
   "435e11c186621b3e": 1795026653.649315,
-  "43d48515eb9b726d": 1794222370.7217953,
   "43f41c8c48c6b3a1": 1794450686.830935,
   "44157888feac291b": 1795026653.649315,
   "441ac6a9e711b1e8": 1795086083.8416054,
@@ -10387,6 +10385,7 @@
   "458f87217ef01273": 1795026653.649315,
   "459866361dbd4e14": 1794448884.4600258,
   "459cf8b7d12fd46f": 1794313873.8865442,
+  "45aaa81975719700": 1795435628.193958,
   "45b453e349d12cc9": 1794916888.418342,
   "45c244b1c7ee5d94": 1795005060.1889544,
   "46072c6da80ccdb8": 1794754851.4331238,
@@ -10524,7 +10523,6 @@
   "56f34e40817100c2": 1794828856.2654586,
   "5712d3358e3cece4": 1794268886.779551,
   "5733c13986fc6048": 1794925855.8063161,
-  "57445073924f55eb": 1794223877.2082872,
   "57886324beb7c569": 1794682948.413298,
   "5799187db6f8ee55": 1794913254.9532003,
   "57aa5aba25bac502": 1795082475.237744,
@@ -10646,6 +10644,7 @@
   "6427b0f967c9e6a6": 1794920454.799004,
   "64325a7bb4bf94b2": 1794495681.3751266,
   "644ff25635dda6f2": 1794378722.8053174,
+  "648ccc55f45aea20": 1795435304.6913989,
   "648d80a971806a0e": 1794236575.692363,
   "649cade6cf52b099": 1794391256.5139039,
   "64a0cf7f43056473": 1794929457.0480187,
@@ -10692,7 +10691,6 @@
   "68ae780c7b749539": 1795091475.6596055,
   "68bd205cc8a1ea5c": 1795186853.8663404,
   "68c7910dbf502e8c": 1794747655.1469178,
-  "68d13fafc7c56e1c": 1794223852.0687604,
   "68d87e26d6d47ae1": 1795192397.43501,
   "68f3cf0a92827aee": 1794725136.8755693,
   "690405cdfdae1279": 1794695750.8160481,
@@ -10810,7 +10808,7 @@
   "7583bad40a001f67": 1794682854.575637,
   "75c04231ce231257": 1794929457.0480187,
   "75c08206d03db135": 1795246402.3255856,
-  "75fb33b042f05d77": 1794225770.9962435,
+  "762af648b467f24f": 1795435304.6927397,
   "76780cda49ed71f0": 1794967638.545148,
   "767c099fae08452a": 1794582059.4334304,
   "76bb8ee3cb627559": 1794355282.8404045,
@@ -10860,9 +10858,9 @@
   "7b2b6b63b1cfbc4b": 1794690162.9912977,
   "7b3b411dcee488aa": 1794717099.7117941,
   "7b718abc89b3d5db": 1794952969.8654578,
-  "7b866964c55ffa52": 1794222361.3424985,
   "7ba0c24cbcbdd68c": 1795302066.7902653,
   "7ba17441717386c1": 1794425453.5039613,
+  "7ba309e293e0dda9": 1795435304.6920815,
   "7bc0aa81e38591c4": 1794924126.2097738,
   "7bccc4b70a77783a": 1795129287.6917725,
   "7beb863753756d4a": 1794330083.204251,
@@ -10951,7 +10949,6 @@
   "8508608452b89271": 1794956575.5119343,
   "8526c6abe186a99e": 1794850307.4515576,
   "8537d0166b8b611b": 1795294960.6020648,
-  "8544a7a904166e19": 1794223852.0687604,
   "8546fc1e56df0355": 1795181454.9966192,
   "854d8ee1525d81cb": 1794599440.456944,
   "8559e9084395cce9": 1794538893.9047623,
@@ -10990,6 +10987,7 @@
   "89b1f5bfbda1a562": 1794648652.8129776,
   "89e558f7f64154ab": 1794666687.7072842,
   "89ee66d5ff5a2bba": 1794231087.9871051,
+  "8a1bb4ae4df18370": 1795435266.6043499,
   "8a250060886f85fc": 1795221210.14038,
   "8a28ef2f885eb01c": 1795264283.7526472,
   "8a3a3a3a8dcf3370": 1795368653.7654736,
@@ -11192,7 +11190,6 @@
   "a1a8ee03a448c1d9": 1794965497.0031004,
   "a1b0adc3257649ef": 1795068086.6434052,
   "a1cfd66d994f32be": 1795310876.3428912,
-  "a1e918d3c6e415b4": 1794223978.675429,
   "a20858528fd502b1": 1794951055.3267138,
   "a224a4c6e09436dd": 1794387657.251034,
   "a2270a61aebde8a0": 1795104441.209281,
@@ -11299,11 +11296,9 @@
   "ae4646f6d8e728ae": 1794431113.3806431,
   "ae5b2ee6cc0d865e": 1794952978.5729148,
   "ae89cb80d8abb581": 1794725127.997097,
-  "aea5e35fc67530fd": 1794224793.0624897,
   "aeafc345d60d0d0d": 1795215770.5100262,
   "aeb73e76581d7e63": 1794623453.1714458,
   "aebf7abef9bd0e93": 1794661279.245496,
-  "aec02feaba54a5a3": 1794224793.602941,
   "aec981f247366a4e": 1794493889.6516697,
   "aed1e271979af7a4": 1794434455.0331035,
   "af15445ab2e4c5e7": 1795096853.5346801,
@@ -11326,7 +11321,6 @@
   "b196e95258849c92": 1794772855.921209,
   "b19f27cefa4a2508": 1794279784.2837017,
   "b1adf23db471e238": 1795005105.6995087,
-  "b1cd52710041421c": 1794224076.959424,
   "b1e110be8a2b54e8": 1795087856.688431,
   "b2183a948b0068a2": 1794708113.8907459,
   "b22522d14a17f95f": 1794373334.770345,
@@ -11474,6 +11468,7 @@
   "c341dbe9803fed63": 1795129258.2337174,
   "c3a616b7e9552087": 1794513658.9207973,
   "c3a78c7b04077682": 1794371482.0513103,
+  "c41d3b58b8521d4e": 1795435266.6043499,
   "c426600b0b341419": 1795026653.649315,
   "c47364e48c3d3f2c": 1795023060.2160697,
   "c47923380ab49813": 1795219398.076259,
@@ -11936,7 +11931,6 @@
   "f7dfba137cf6e7fc": 1794387773.8866594,
   "f7ee7b91a95fc177": 1795278653.9636526,
   "f804720e6fdb4373": 1794607286.0108721,
-  "f83db0331ff8590e": 1794225780.2382436,
   "f857e39141f21e8a": 1794353473.935522,
   "f863c741bb7ae143": 1794369694.5400813,
   "f867e5218e752d33": 1795014053.3303049,
@@ -12000,6 +11994,7 @@
   "fe4746fdf378174f": 1795050186.806023,
   "fe517e5430fda057": 1795066254.271999,
   "fe65a80affa94623": 1794267173.5283654,
+  "fe6b51fbdb8b2963": 1795435798.1631722,
   "fe94b90ae0a1fb12": 1795068082.7999845,
   "fea246d2d95fea5a": 1795026653.649315,
   "fed9e511f06a80e0": 1794486800.0597844,
@@ -13206,9 +13201,10 @@
  "stats": {
   "filtered": {
    "/Film": 1,
-   "Bloomberg": 5,
+   "Bloomberg": 7,
    "Deadline": 1,
-   "Insider Gaming": 1,
+   "Insider Gaming": 3,
+   "PC Gamer": 1,
    "PlayUA": 1,
    "Polygon": 4,
    "VGC": 4
@@ -13218,10 +13214,11 @@
    "Blabbermouth": 1,
    "Bloomberg": 4,
    "DOU Gamedev": 1,
-   "Deadline": 12,
+   "Deadline": 14,
    "Eurogamer": 2,
    "ITC.ua": 6,
    "IndieWire": 1,
+   "Insider Gaming": 1,
    "Lambgoat": 4,
    "Metal Hammer (Louder)": 5,
    "Mezha": 4,
@@ -13234,11 +13231,11 @@
    "Variety": 5
   },
   "translators": {
-   "DeepL": 4,
+   "DeepL": 5,
    "gemini-flash-latest": 2,
    "gemini-flash-lite-latest": 13,
-   "gemma-4-26b-a4b-it": 17,
-   "gemma-4-31b-it": 16
+   "gemma-4-26b-a4b-it": 18,
+   "gemma-4-31b-it": 18
   },
   "week": "2026-W48"
  },
@@ -13638,6 +13635,11 @@
    "180°",
    1792953097.974842
   ],
+  "q:1win": [
+   0,
+   "",
+   1795435698.7130291
+  ],
   "q:2": [
    0,
    "",
@@ -13687,11 +13689,6 @@
    5206350,
    "高三最后300天",
    1793025344.181545
-  ],
-  "q:33": [
-   0,
-   "",
-   1795262480.3467917
   ],
   "q:38": [
    3061580,
@@ -14563,11 +14560,6 @@
    "Every Legend",
    1792920680.1672125
   ],
-  "q:expedition 33": [
-   0,
-   "",
-   1795262479.8074613
-  ],
   "q:explodes": [
    4615220,
    "EXPLODES",
@@ -14758,6 +14750,26 @@
    "GameMaker",
    1793039505.1588671
   ],
+  "q:gamerlegion": [
+   0,
+   "",
+   1795435700.8100476
+  ],
+  "q:gamerlegion parivision": [
+   0,
+   "",
+   1795435700.3048618
+  ],
+  "q:gamerlegion parivision progress": [
+   0,
+   "",
+   1795435699.7626507
+  ],
+  "q:gamerlegion parivision progress at blast": [
+   0,
+   "",
+   1795435699.2357538
+  ],
   "q:gang of dragon": [
    4146000,
    "GANG OF DRAGON",
@@ -14782,16 +14794,6 @@
    4251460,
    "Godzilla: Destroy All Monsters Melee Remastered",
    1793642516.1267724
-  ],
-  "q:goodbye 'rings": [
-   0,
-   "",
-   1795260682.926526
-  ],
-  "q:goodbye 'rings of power": [
-   0,
-   "",
-   1795260682.4100392
   ],
   "q:gothic 1 remake": [
    1297900,
@@ -15508,6 +15510,31 @@
    "",
    1795408278.685614
   ],
+  "q:parivision": [
+   0,
+   "",
+   1795435703.409762
+  ],
+  "q:parivision progress": [
+   0,
+   "",
+   1795435702.8962605
+  ],
+  "q:parivision progress at blast": [
+   0,
+   "",
+   1795435702.3834236
+  ],
+  "q:parivision progress at blast slam": [
+   0,
+   "",
+   1795435701.8585365
+  ],
+  "q:parivision progress at blast slam 9": [
+   0,
+   "",
+   1795435701.330226
+  ],
   "q:part 2": [
    0,
    "",
@@ -15653,35 +15680,15 @@
    "PRAGMATA",
    1793203330.6081498
   ],
-  "q:prime video": [
-   0,
-   "",
-   1795260685.5359793
-  ],
-  "q:prime video's legendary": [
-   0,
-   "",
-   1795260685.017962
-  ],
-  "q:prime video's legendary 48 episode": [
-   0,
-   "",
-   1795260684.5139024
-  ],
-  "q:prime video's legendary 48 episode fantasy": [
-   0,
-   "",
-   1795260684.0140028
-  ],
-  "q:prime video's legendary 48 episode fantasy series": [
-   0,
-   "",
-   1795260683.5121398
-  ],
   "q:prince of persia": [
    19980,
    "Prince of Persia®",
    1793451676.8490756
+  ],
+  "q:progress at blast slam 9": [
+   0,
+   "",
+   1795435703.9267156
   ],
   "q:project titan": [
    5075420,
@@ -15767,11 +15774,6 @@
    0,
    "",
    1795408283.9152305
-  ],
-  "q:rings of power": [
-   0,
-   "",
-   1795260681.8865242
   ],
   "q:rob run": [
    4262460,
@@ -16278,26 +16280,6 @@
    "Vampire Survivors",
    1795255752.0298913
   ],
-  "q:video's legendary 48 episode": [
-   0,
-   "",
-   1795260687.5964956
-  ],
-  "q:video's legendary 48 episode fantasy": [
-   0,
-   "",
-   1795260687.095722
-  ],
-  "q:video's legendary 48 episode fantasy series": [
-   0,
-   "",
-   1795260686.5932884
-  ],
-  "q:video's legendary 48 episode fantasy series is": [
-   0,
-   "",
-   1795260686.0627675
-  ],
   "q:vincent": [
    2949660,
    "Vincent",
@@ -16498,6 +16480,11 @@
    "WWE 2K26",
    1793198048.8500617
   ],
+  "q:yandex": [
+   0,
+   "",
+   1795435698.1757693
+  ],
   "q:zero parades": [
    2863680,
    "ZERO PARADES: Director's Cut",
@@ -16506,34 +16493,39 @@
  },
  "tag_hints": {
   "Mezha": [
-   "anthropic",
-   "brawl stars",
+   "apple",
    "fpv-дрони",
    "fsd",
    "meta",
-   "navi",
-   "obriy.ai",
+   "nvidia",
    "tesla",
+   "world of warcraft",
+   "world of warcraft forever",
    "авто",
+   "авіація",
    "безпілотники",
    "бпла",
+   "бізнес",
+   "вибір редакції",
    "військові технології",
    "гелікоптери",
    "голодні ігри: світанок перед жнивами",
    "гур",
    "дрони",
    "зброя",
+   "зсу",
+   "каб",
    "катери",
-   "корабель",
-   "кіберспорт",
    "кіно",
-   "математика",
    "морські дрони",
    "новини",
+   "ноутбуки",
    "оборонка",
+   "огляди",
    "перехоплювачі",
-   "сбу",
-   "статті",
+   "планшети",
+   "повітряні сили",
+   "смартфони",
    "технології",
    "ударні безпілотники",
    "штучний інтелект",
@@ -16541,26 +16533,6 @@
   ]
  },
  "titles": [
-  [
-   1795260086.5881557,
-   "Why Effie Trinket From The Hunger Games: Sunrise On The Reaping Looks So Familiar"
-  ],
-  [
-   1795260692.8986564,
-   "Goodbye 'Rings of Power,' Prime Video’s Legendary 48-Episode Fantasy Series Is Even Better"
-  ],
-  [
-   1795262542.9365857,
-   "Expedition 33 lead writer says Grand Theft Auto 6 layoff concerns show that 'people creating the value do not receive a proportionate amount of that value'"
-  ],
-  [
-   1795262898.8029468,
-   "Kate Middleton Documentary ‘Heal’ Set At BBC & NBC; Special About Princess’ Three Peaks Challenge & Cancer Journey Gets Release Date & Trailer"
-  ],
-  [
-   1795262900.6924589,
-   "Загальний дохід Lenovo у другому кварталі сягнув рекордних $30,2 млрд, а дохід від ШІ вперше перевищив $10 млрд"
-  ],
   [
    1795264283.752649,
    "Не лише GTA. Топ 10 найуспішніших ігор усіх часів"
@@ -17176,29 +17148,21 @@
   [
    1795431811.6999907,
    "Ties That Bind Program Returns To Busan Through Partnerships With ACFM, KOFIC & Japan’s VIPO"
+  ],
+  [
+   1795435628.1939602,
+   "Tyson Fury Reveals Schizophrenia Diagnosis In Netflix Doc"
+  ],
+  [
+   1795435696.0050063,
+   "Controversial “Netflix Tax” Could Raise Extra $2.1B For BBC By 2032, Research Finds"
+  ],
+  [
+   1795435798.1631742,
+   "Yandex, 1win, GamerLegion & Parivision Progress at BLAST Slam IX"
   ]
  ],
  "titles_uk": [
-  [
-   1795260086.588157,
-   "Ель Фаннінг зіграє молоду Effie Trinket у The Hunger Games: Sunrise on the Reaping"
-  ],
-  [
-   1795260692.8986568,
-   "Анімаційний серіал The Legend of Vox Machina на Prime Video"
-  ],
-  [
-   1795262542.9365869,
-   "Сценаристка Clair Obscur: Expedition 33 висловилася про загрозу звільнень у Rockstar"
-  ],
-  [
-   1795262898.8029475,
-   "Документальний фільм про Кейт Міддлтон «Heal» вийде на BBC та NBC; спеціальний випуск про виклик «Три вершини» принцеси та її боротьбу з раком отримав дату виходу та трейлер"
-  ],
-  [
-   1795262900.69246,
-   "Загальний дохід Lenovo у другому кварталі сягнув рекордних $30,2 млрд, а дохід від ШІ вперше перевищив $10 млрд"
-  ],
   [
    1795264283.7526498,
    "Не лише GTA. Топ 10 найуспішніших ігор усіх часів"
@@ -17814,6 +17778,18 @@
   [
    1795431811.6999915,
    "Програма Ties That Bind повертається до Пусана"
+  ],
+  [
+   1795435628.193962,
+   "Тайсон Ф'юрі розповів про діагноз «шизофренія» у документальному фільмі Netflix"
+  ],
+  [
+   1795435696.0050073,
+   "«Податок на Netflix» може принести BBC до $2,1 млрд до 2032 року"
+  ],
+  [
+   1795435798.1631749,
+   "Yandex, 1win, GamerLegion та Parivision вийшли в плей-оф BLAST Slam IX"
   ]
  ],
  "ukrainian": {
@@ -20280,7 +20256,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795429945.37826,
+  "last_check": 1795435807.384825,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
