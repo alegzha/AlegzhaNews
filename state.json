@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:ai|The Decoder|https://the-decoder.com/feed/": {
-   "detail": "https://the-decoder.com/feed/ → 500 Server Error: Internal Server Error for url: https://the-decoder.com/feed/",
-   "label": "Джерело «The Decoder» не працює",
-   "sent": 0,
-   "since": 1795428113.5534124
-  },
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1795428103.963398
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-22",
  "freebies": {
   "last_check": 1795428531.1509376,
@@ -44,45 +31,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-23 10:08 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-11-23 10:32 UTC",
+  "gemini_error": "",
   "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
    "gemma-4-31b-it": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794738676.6176918,
-   6007,
-   "🤖",
-   "Найкращий скарбник Кореї зізнався у використанні ШІ на іспиті",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-15/korea-s-top-scorer-in-tax-accountant-exam-admits-to-ai-cheating",
-    "orig": "Korea’s Top Scorer in Tax Accountant Exam Admits to AI Cheating"
-   }
-  ],
-  [
-   1794738692.2338405,
-   6008,
-   "💾",
-   "Airgorah — новий софт для аудит безпеки WiFi",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/martin-olivier/airgorah",
-    "orig": "martin-olivier/airgorah"
-   }
-  ],
   [
    1794740481.6385102,
    6009,
@@ -8664,7 +8623,6 @@
    "PlayUA",
    {
     "also": [],
-    "caption": "🎮 <b>Для Skyrim випустили мод із Гвинтом та понад 200 картами</b>\n\nМоддер під ніком STARX23 випустив Skygwent — модифікацію для The Elder Scrolls V: Skyrim, яка додає карткову гру Гвинт із The Witcher 3: Wild Hunt. Проєкт містить понад 200 тематичних карт, п’ять ігрових фракцій, 200 унікальних суперників та додаткові завдання. Модифікація вже доступна на платформі Nexus Mods.\n\n🔗 <a href=\"https://playua.net/dlya-skyrim-vypustyly-mod-iz-gvyntom-ta-ponad-200-kartamy/\">PlayUA</a> · #ігри",
     "kind": "photo",
     "link": "https://playua.net/dlya-skyrim-vypustyly-mod-iz-gvyntom-ta-ponad-200-kartamy/",
     "orig": "Для Skyrim випустили мод із Гвинтом та понад 200 картами"
@@ -8678,7 +8636,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Perplexity випускає новий Monitor API для постійного відстеження змін у вебі</b>\n\nPerplexity представила новий Monitor API, який за розкладом моніторить вебсторінки та пошукові запити, сповіщаючи додатки лише про важливі зміни. Сервіс фільтрує дублікати, оцінює релевантність за заданими критеріями та коштує $1 за 1000 успішних запусків.\n\n🔗 <a href=\"https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/\">The Decoder</a> · #ШІ #Perplexity",
     "kind": "photo",
     "link": "https://the-decoder.com/perplexitys-new-monitor-api-turns-web-search-from-a-one-off-query-into-a-nonstop-watchdog/",
     "orig": "Perplexity's new Monitor API turns web search from a one-off query into a nonstop watchdog"
@@ -9514,6 +9471,34 @@
     "link": "https://deadline.com/2026/11/outpost-vfx-andy-mcnamara-director-of-creative-innovation-1237231456/",
     "orig": "‘The Uprising’ VFX Company Outpost Hires Andy McNamara As Director of Creative Innovation"
    }
+  ],
+  [
+   1795429934.5212572,
+   6743,
+   "🎮",
+   "Рецензія на Queen's Domain: ретро-RPG у дусі King's Field та Dark Souls",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Рецензія на <a href=\"https://store.steampowered.com/app/1799840/\">Queen&#x27;s Domain</a>: ретро-RPG у дусі King&#x27;s Field та Dark Souls</b>\n🕹 <a href=\"https://store.steampowered.com/app/1799840/\">Queen&#x27;s Domain</a> — 470,00₴\n\nQueen&#x27;s Domain від Freshly Baked Games — це first-person action-RPG з ретро-естетикою та складним геймплеєм у стилі Soulslike. Гра натхненна King&#x27;s Field та Dark Souls, пропонує дослідження острова Neasied та відмовляється від сучасних зручностей на кшталт автоприцілювання чи кнопки перекату.\n\n🔗 <a href=\"https://www.eurogamer.net/queens-domain-review\">Eurogamer</a> · #ігри #QueensDomain",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/queens-domain-review",
+    "orig": "Queen's Domain review"
+   }
+  ],
+  [
+   1795429936.438835,
+   6744,
+   "💾",
+   "Безплатний дистрибутив Windows 11 AtlasOS отримав велике оновлення: що покращилось",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "💾 <b>Безплатний дистрибутив Windows 11 AtlasOS отримав велике оновлення: що покращилось</b>\n\nНові альтернативні Windows 11 ОС з’являються як гриби після дощу. Переважно це почалось після появи інструментів вайбкодингу. Майже через рік після релізу велике оновлення отримала модифікація Windows 11 AtlasOS.\n\n🔗 <a href=\"https://itc.ua/ua/novini/bezplatnyj-dystrybutyv-windows-11-atlasos-otrymav-velyke-onovlennya-shho-pokrashhylos/\">ITC.ua</a> · #софт",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/bezplatnyj-dystrybutyv-windows-11-atlasos-otrymav-velyke-onovlennya-shho-pokrashhylos/",
+    "orig": "Безплатний дистрибутив Windows 11 AtlasOS отримав велике оновлення: що покращилось"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9570,7 +9555,8 @@
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
    1795354506.257625,
-   1795426295.2331262
+   1795426295.2331262,
+   1795429934.5215414
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1795188781.189875
@@ -9773,7 +9759,8 @@
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1795352482.9736264,
    1795417375.7492702,
-   1795419076.997599
+   1795419076.997599,
+   1795429936.439112
   ],
   "software|Mezha|https://mezha.ua/feed/": [
    1795267937.4595513,
@@ -10474,7 +10461,6 @@
   "4f891d7f2fd0bd53": 1794263378.9488752,
   "4fcb70953ddfa569": 1794299503.9570954,
   "4fcc147fbb707c97": 1795215669.3813393,
-  "4fcc803bd5cd3b55": 1794220253.7824736,
   "4fe40607f2ed747e": 1794355381.770662,
   "4ff2500ae4ccf3a4": 1794423681.5965264,
   "50553c7ed298b632": 1794834056.1069303,
@@ -10524,6 +10510,7 @@
   "5536b9e33aa62b92": 1795089082.142321,
   "557e6772253231ba": 1795050183.399027,
   "55a7097586f4e45a": 1794497598.6367674,
+  "55ba40a660469cc4": 1795429855.1499202,
   "55c25e13c2d1b4c6": 1794353465.3584552,
   "55cad23c843395ab": 1794379783.9103365,
   "55f1a05e3c242a02": 1794306676.3979933,
@@ -11178,6 +11165,7 @@
   "9f53b38428119f41": 1795393941.9547427,
   "9f5683e3c2435c99": 1794601881.948526,
   "9f5fc6e5123bcf74": 1794771138.1197286,
+  "9f692b5e51b13008": 1795429936.4390645,
   "9f74f9b4a3619ddd": 1795041093.9003131,
   "9f753fb3fae6679e": 1794920493.724533,
   "9f7b023d8e900838": 1795269669.4867003,
@@ -11855,6 +11843,7 @@
   "edf8361276778f50": 1794911454.224739,
   "edfacd6a630da946": 1795140491.123892,
   "ee38bc3887a6ea58": 1794618173.1613715,
+  "ee52f8e13d601507": 1795429934.5214927,
   "ee5d138905ed731b": 1794482973.1377099,
   "ee8301f272047996": 1794317494.1838448,
   "eed71cdd1bdb7c5e": 1794405677.7830338,
@@ -13213,7 +13202,7 @@
  "stats": {
   "filtered": {
    "/Film": 1,
-   "Bloomberg": 3,
+   "Bloomberg": 4,
    "Deadline": 1,
    "PlayUA": 1,
    "Polygon": 4,
@@ -13225,8 +13214,8 @@
    "Bloomberg": 4,
    "DOU Gamedev": 1,
    "Deadline": 11,
-   "Eurogamer": 1,
-   "ITC.ua": 5,
+   "Eurogamer": 2,
+   "ITC.ua": 6,
    "IndieWire": 1,
    "Lambgoat": 4,
    "Metal Hammer (Louder)": 5,
@@ -13243,7 +13232,7 @@
    "gemini-flash-latest": 2,
    "gemini-flash-lite-latest": 12,
    "gemma-4-26b-a4b-it": 17,
-   "gemma-4-31b-it": 14
+   "gemma-4-31b-it": 15
   },
   "week": "2026-W48"
  },
@@ -13982,11 +13971,6 @@
    1597670,
    "Astralis",
    1793192563.4859629
-  ],
-  "q:auto 2": [
-   0,
-   "",
-   1795255753.6850457
   ],
   "q:auto battler rpg": [
    3264110,
@@ -14802,11 +14786,6 @@
    1297900,
    "Gothic 1 Remake",
    1793392402.701678
-  ],
-  "q:grand theft auto 2": [
-   0,
-   "",
-   1795255752.5456507
   ],
   "q:gravhounds": [
    2440760,
@@ -16143,11 +16122,6 @@
    "The Odyssey",
    1795179748.360304
   ],
-  "q:theft auto 2": [
-   0,
-   "",
-   1795255753.1270304
-  ],
   "q:these guys typically aren": [
    0,
    "",
@@ -16525,18 +16499,17 @@
    "brawl stars",
    "fpv-дрони",
    "fsd",
+   "meta",
    "navi",
    "obriy.ai",
    "tesla",
    "авто",
    "бпла",
-   "відеоігри",
    "гелікоптери",
    "голодні ігри: світанок перед жнивами",
    "гур",
    "дрони",
    "зброя",
-   "звільнення",
    "катери",
    "корабель",
    "кіберспорт",
@@ -16556,14 +16529,6 @@
   ]
  },
  "titles": [
-  [
-   1795255749.9518778,
-   "‘Al Hayba’ Star Taim Hasan To Play Syrian Whistleblower Farid Al-Madhhan In Neon-Backed ‘Caesar’ Biopic"
-  ],
-  [
-   1795255758.0189037,
-   "What if Vampire Survivors met Grand Theft Auto 2? Maniac is a brilliant mash-up that dares to ask that question"
-  ],
   [
    1795260086.5881557,
    "Why Effie Trinket From The Hunger Games: Sunrise On The Reaping Looks So Familiar"
@@ -17183,17 +17148,17 @@
   [
    1795428529.2321842,
    "‘The Uprising’ VFX Company Outpost Hires Andy McNamara As Director of Creative Innovation"
+  ],
+  [
+   1795429934.5214946,
+   "Queen's Domain review"
+  ],
+  [
+   1795429936.4390662,
+   "Безплатний дистрибутив Windows 11 AtlasOS отримав велике оновлення: що покращилось"
   ]
  ],
  "titles_uk": [
-  [
-   1795255749.9518785,
-   "Зірка серіалу «Аль-Хайба» Таїм Хасан зіграє роль сирійського викривача Фаріда Аль-Мадхана у біографічному фільмі «Цезар», знятому за підтримки компанії Neon"
-  ],
-  [
-   1795255758.0189047,
-   "Maniac поєднує виживання у стилі Vampire Survivors та хаос класичних GTA"
-  ],
   [
    1795260086.588157,
    "Ель Фаннінг зіграє молоду Effie Trinket у The Hunger Games: Sunrise on the Reaping"
@@ -17813,6 +17778,14 @@
   [
    1795428529.2321851,
    "VFX-студія Outpost, що працює над ‘The Uprising’, призначила Енді Макнамара директором із креативних інновацій"
+  ],
+  [
+   1795429934.5214956,
+   "Рецензія на Queen's Domain: ретро-RPG у дусі King's Field та Dark Souls"
+  ],
+  [
+   1795429936.439067,
+   "Безплатний дистрибутив Windows 11 AtlasOS отримав велике оновлення: що покращилось"
   ]
  ],
  "ukrainian": {
@@ -20279,7 +20252,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795426308.6183121,
+  "last_check": 1795429945.37826,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
