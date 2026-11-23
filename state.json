@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795415466.4841847
+  },
+  "src:music|Revolver|https://www.revolvermag.com/rss.xml": {
+   "detail": "https://www.revolvermag.com/rss.xml → 415 Client Error: Unsupported Media Type for url: https://www.revolvermag.com/feed",
+   "label": "Джерело «Revolver» не працює",
+   "sent": 0,
+   "since": 1795415465.7254565
+  }
+ },
  "daily_digest_date": "2026-11-22",
  "freebies": {
   "last_check": 1795412197.358478,
@@ -31,43 +44,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-23 06:01 UTC",
+  "at": "2026-11-23 06:32 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-26b-a4b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794722570.2574205,
-   5988,
-   "🤘",
-   "Як Філ Манзанера допоміг Девіду Ґілмару створити фінальний альбом Pink Floyd",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/bands-artists/phil-manzanera-davif-gilmour-pink-floyd",
-    "orig": "How Phil Manzanera reconnected with David Gilmour, leading to Pink Floyd’s final album"
-   }
-  ],
-  [
-   1794722573.6507342,
-   5989,
-   "🤘",
-   "Phil Collins емоційно відреагував на введення до Rock And Roll Hall Of Fame",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/bands-artists/phil-collins-rock-roll-hall-fame-induction-2026",
-    "orig": "“You haven't heard the last of me. I can promise you that”: Phil Collins gets emotional at Rock Hall induction"
-   }
-  ],
   [
    1794724367.8768053,
    5990,
@@ -8683,7 +8671,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Браян Кенстон співрозробив кримінальний серіал Sneaky Pete для Prime Video</b>\n\nБраян Кенстон разом із Девідом Шором створив пілот кримінального серіалу Sneaky Pete для Prime Video. Шоу розповідає про шахрая, який після виходу з в&#x27;язниці ховається від колишнього боса під виглядом свого колишнього камергера та прикидається його родичем.\n\n🔗 <a href=\"https://www.slashfilm.com/2301115/bryan-cranston-co-created-prime-video-best-crime-show-sneaky-pete/\">/Film</a> · #кіно_і_серіали #SneakyPete #PrimeVideo",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2301115/bryan-cranston-co-created-prime-video-best-crime-show-sneaky-pete/",
     "orig": "Bryan Cranston Co-Created One Of Prime Video's Best Crime Shows"
@@ -8697,7 +8684,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>Backspin запустив безкоштовний браузерний курс для навчання діджеїнгу</b>\n\nНовий сервіс для навчання діджеїв Backspin запустив безкоштовний курс для початківців, який дозволяє освоїти основи діджеїнгу прямо в браузері без купівлі обладнання чи встановлення спеціалізованих програм.\n\n🔗 <a href=\"https://mezha.ua/news/backspin-predstaviv-brauzerniy-trenazher-dlya-navchannya-didzhejingu-317459/\">Mezha</a> · #софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/backspin-predstaviv-brauzerniy-trenazher-dlya-navchannya-didzhejingu-317459/",
     "orig": "Backspin запустив безкоштовний браузерний курс для навчання діджеїнгу"
@@ -9538,6 +9524,34 @@
     "link": "https://www.slashfilm.com/2321679/the-twilight-zone-episode-sci-fi-version-agatha-christie-mystery/",
     "orig": "A Classic Twilight Zone Episode Is Like A Sci-Fi Version Of An Agatha Christie Mystery"
    }
+  ],
+  [
+   1795415541.1160405,
+   6726,
+   "💾",
+   "Новий хотфікс Nvidia не вирішив проблему з надмірним записом на SSD",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "💾 <b>Новий хотфікс Nvidia не вирішив проблему з надмірним записом на SSD</b>\n\nКористувачі Nvidia помітили, що драйвери постійно перезаписують лог-файли, створюючи навантаження на SSD до 30 ГБ на годину. Випущений хотфікс версії 621.35 не вирішив проблему: користувачі повідомляють, що надмірний запис продовжує відбуватися. Наразі найкращим рішенням залишається відкат до версії 621.01.\n\n🔗 <a href=\"https://www.pcgamer.com/hardware/graphics-cards/nvidia-released-a-hotfix-for-its-driver-hammering-your-ssd-but-it-doesnt-actually-work/\">PC Gamer</a> · #софт #Nvidia",
+    "kind": "photo",
+    "link": "https://www.pcgamer.com/hardware/graphics-cards/nvidia-released-a-hotfix-for-its-driver-hammering-your-ssd-but-it-doesnt-actually-work/",
+    "orig": "Nvidia released a hotfix for its driver hammering your SSD, but it doesn't actually work"
+   }
+  ],
+  [
+   1795415550.5627506,
+   6727,
+   "🎬",
+   "Трилер «White Blast» очолив бокс-офіс Південної Кореї",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Трилер «White Blast» очолив бокс-офіс Південної Кореї</b>\n\nПівденнокорейський містичний трилер «White Blast» дебютував на першому місці в бокс-офісі за вихідні 20–22 листопада, зібравши $2,3 мільйона та завершивши п&#x27;ятитижневе лідерство аніме «Chiikawa the Movie: The Secret of the Mermaid Island». Стрічка розповідає про станційного доглядача та його наступника, які опиняються заблокованими сніговою бурею на віддаленій станції та знаходять у тунелі труп.\n\n🔗 <a href=\"https://variety.com/2026/film/box-office/korea-box-office-mystery-thriller-white-blast-1236955658/\">Variety</a> · #кіно_і_серіали #WhiteBlast #Chiikawa",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/box-office/korea-box-office-mystery-thriller-white-blast-1236955658/",
+    "orig": "Korea Box Office: Mystery Thriller ‘White Blast’ Opens at No. 1, Ending Five-Week ‘Chiikawa’ Reign"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9626,10 +9640,10 @@
    1795277148.440283
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
-   1795320207.9290361,
    1795350741.2598054,
    1795356229.0879924,
-   1795393941.9547896
+   1795393941.9547896,
+   1795415541.1162648
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1795316486.4169664,
@@ -9694,9 +9708,9 @@
    1795177878.0187626
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1795327503.105598,
    1795398616.1863153,
-   1795404734.041239
+   1795404734.041239,
+   1795415550.562963
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1795309620.247094,
@@ -11021,7 +11035,6 @@
   "89b1f5bfbda1a562": 1794648652.8129776,
   "89e558f7f64154ab": 1794666687.7072842,
   "89ee66d5ff5a2bba": 1794231087.9871051,
-  "89f78b546cddd7cc": 1794205880.022242,
   "8a20c3fd0d9b14a2": 1794214856.4079065,
   "8a250060886f85fc": 1795221210.14038,
   "8a28ef2f885eb01c": 1795264283.7526472,
@@ -11231,7 +11244,6 @@
   "a2b120d65f0e323a": 1795094964.3119497,
   "a2d58b2918cbeec6": 1794207703.0176299,
   "a2dec32411360930": 1795094014.6517174,
-  "a32dd0353bd4cb08": 1794204176.4404714,
   "a36a26d296b8606a": 1794405831.1688273,
   "a39149cdea547c57": 1794873694.242586,
   "a3c167758fc64ca2": 1794324722.654746,
@@ -11400,7 +11412,6 @@
   "b58555f0eedbea5b": 1795134763.1663706,
   "b5b0ef89bd92326a": 1795098686.462664,
   "b6058558c0e5bec3": 1794542572.18445,
-  "b62df3d19da62723": 1794204179.8684347,
   "b66c49a7cc604b77": 1795363769.4396534,
   "b6b7f506e1f27186": 1794990686.0561583,
   "b6f410986be8de54": 1795262542.9365838,
@@ -11751,7 +11762,7 @@
   "df0cd7af985bb394": 1795005106.2549179,
   "df3c5797c30e338d": 1795100487.7132893,
   "df44208b3394f70d": 1795102332.2895555,
-  "df4e28563ece410a": 1794205882.9517407,
+  "df4ed901c3e15158": 1795415550.5629163,
   "df7555dec1988786": 1794985290.2638652,
   "dfa8b4ae3c654893": 1795105867.4596348,
   "dfedfa4966b60219": 1794819950.4708943,
@@ -11895,6 +11906,7 @@
   "efbb4db034f210e1": 1795026653.649315,
   "efeb582a960ece68": 1795113055.7763176,
   "effd0e0495ac7c18": 1795242825.9286497,
+  "f00c1d1409cb2f08": 1795415541.1162176,
   "f00d656bd36f6680": 1794929588.9475505,
   "f040eaa47a86b4d5": 1794564088.5961936,
   "f084ff27a39c7200": 1794740455.9176288,
@@ -13249,16 +13261,16 @@
    "Metal Hammer (Louder)": 5,
    "Mezha": 2,
    "Neformat": 4,
-   "PC Gamer": 1,
+   "PC Gamer": 2,
    "Pitchfork": 1,
    "Polygon": 4,
-   "Variety": 3
+   "Variety": 4
   },
   "translators": {
    "DeepL": 1,
    "gemini-flash-latest": 2,
-   "gemini-flash-lite-latest": 9,
-   "gemma-4-26b-a4b-it": 16,
+   "gemini-flash-lite-latest": 10,
+   "gemma-4-26b-a4b-it": 17,
    "gemma-4-31b-it": 12
   },
   "week": "2026-W48"
@@ -16511,14 +16523,6 @@
  },
  "titles": [
   [
-   1795240911.7938561,
-   "Wrestler Breaks Leg at Metalcore Band's 25th Anniversary Show"
-  ],
-  [
-   1795240915.2680316,
-   "‘Disclosure Day’ Did Its Biggest Stunts Practically, So the VFX Team Worked Hard to Look Invisible — Watch"
-  ],
-  [
    1795242819.6479464,
    "The Thrills Announce First Show In 19 Years"
   ],
@@ -17125,17 +17129,17 @@
   [
    1795413697.1616757,
    "A Classic Twilight Zone Episode Is Like A Sci-Fi Version Of An Agatha Christie Mystery"
+  ],
+  [
+   1795415541.116219,
+   "Nvidia released a hotfix for its driver hammering your SSD, but it doesn't actually work"
+  ],
+  [
+   1795415550.5629184,
+   "Korea Box Office: Mystery Thriller ‘White Blast’ Opens at No. 1, Ending Five-Week ‘Chiikawa’ Reign"
   ]
  ],
  "titles_uk": [
-  [
-   1795240911.793857,
-   "Реслер зламав ногу під час концерту It Dies Today у мошпі"
-  ],
-  [
-   1795240915.2680328,
-   "Спецефекти у фільмі ‘Disclosure Day’ Стівена Спілберга створювали так, щоб вони були непомітними"
-  ],
   [
    1795242819.647947,
    "The Thrills анонсували перший концерт за 19 років"
@@ -17743,6 +17747,14 @@
   [
    1795413697.1616766,
    "Епізод The Twilight Zone нагадує науково-фантастичний детектив у стилі Agatha Christie"
+  ],
+  [
+   1795415541.1162205,
+   "Новий хотфікс Nvidia не вирішив проблему з надмірним записом на SSD"
+  ],
+  [
+   1795415550.5629199,
+   "Трилер «White Blast» очолив бокс-офіс Південної Кореї"
   ]
  ],
  "ukrainian": {
