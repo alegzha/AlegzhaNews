@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1795397474.2667863
+  }
+ },
  "daily_digest_date": "2026-11-22",
  "freebies": {
   "last_check": 1795396224.4538627,
@@ -31,45 +38,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-23 01:10 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-23 01:33 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 1,
-   "gemma-4-26b-a4b-it": 2
+   "gemma-4-26b-a4b-it": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794706293.624035,
-   5970,
-   "🎮",
-   "10 найкращих кооперативних ігор для гравців із насиченим графіком",
-   "Polygon",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.polygon.com/co-op-games-real-life-schedules/",
-    "orig": "10 Must-Play Co-Op Games for People With Real-Life Schedules"
-   }
-  ],
-  [
-   1794706296.9388657,
-   5971,
-   "🤘",
-   "Murderdolls оголосили склад учасників для реюніон-шоу",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55901/murderdolls-officially-confirm-their-reunion-lineup/",
-    "orig": "Murderdolls officially confirm their reunion lineup"
-   }
-  ],
   [
    1794708110.0773416,
    5972,
@@ -8646,7 +8626,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Лука Гуаданьїно підтвердив скасування своєї адаптації American Psycho</b>\n\nРежисер Лука Гуаданьїно більше не працює над екранізацією роману American Psycho. Попри наявність сценарію від Скотта З. Бернса та переговори з Lionsgate, проєкт не відбудеться. Стрічка мала стати новою інтерпретацією історії, що відрізнялася б від фільму 2000 року.\n\n🔗 <a href=\"https://deadline.com/2026/11/luca-guadagnino-american-psycho-not-happening-1237231106/\">Deadline</a> · #кіно_і_серіали #AmericanPsycho",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/luca-guadagnino-american-psycho-not-happening-1237231106/",
     "orig": "‘American Psycho’ Gets Axed: Luca Guadagnino Confirms His Adaptation Is “Not Happening”"
@@ -8660,7 +8639,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Saturday Night Live бере перерву до 5 грудня</b>\n\n21 листопада нового випуску Saturday Night Live не буде через перерву на День подяки. Шоу повернеться в ефір 5 грудня, де вперше в ролі ведучої з&#x27;явиться Аманда Сейфрід.\n\n🔗 <a href=\"https://www.slashfilm.com/2320911/is-snl-new-tonight-november-21-2026-musical-guest-host-start-time/\">/Film</a> · #кіно_і_серіали #SaturdayNightLive",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2320911/is-snl-new-tonight-november-21-2026-musical-guest-host-start-time/",
     "orig": "Is SNL New Tonight? (November 21, 2026) Musical Guest, Host, Start Time"
@@ -9496,6 +9474,34 @@
     "link": "https://www.bloomberg.com/news/videos/2026-11-23/ai-investment-adding-to-inflation-jain-video",
     "orig": "AI Investment Adding to Inflation: Jain"
    }
+  ],
+  [
+   1795397480.6417358,
+   6705,
+   "🤖",
+   "Акції ринків, що розвиваються, втрачають прибуток через розпродажі у сфері ШІ",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Акції ринків, що розвиваються, втрачають прибуток через розпродажі у сфері ШІ</b>\n\nАкції ринків, що розвиваються, можуть повністю втратити здобутки цього року через побоювання щодо стійкості індустрії штучного інтелекту. Це спричиняє хвилю розпродажів на ринках від США до Азії.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-23/emerging-market-stocks-set-to-erase-2026-gains-on-ai-selloff\">Bloomberg</a> · #ШІ #AI",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-23/emerging-market-stocks-set-to-erase-2026-gains-on-ai-selloff",
+    "orig": "Emerging-Market Stocks Set to Erase 2026 Gains on AI Selloff"
+   }
+  ],
+  [
+   1795397593.124765,
+   6706,
+   "🤘",
+   "Шеріл Кроу розповіла про спадщину Доллі Партон",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Шеріл Кроу розповіла про спадщину Доллі Партон</b>\n\nШеріл Кроу поділилася думками про щирість та спадщину Доллі Партон. Співачка відзначила здатність артистки підтримувати людей і надихати оточуючих. Також згадується рішення перейменувати аеропорт у Нешвіллі на честь Доллі Партон.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/interviews/sheryl-crow-the-importance-of-being-more-like-dolly-parton\">Metal Hammer (Louder)</a> · #музика #SherylCrow #DollyParton",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/interviews/sheryl-crow-the-importance-of-being-more-like-dolly-parton",
+    "orig": "Sheryl Crow on the importance of being more like Dolly Parton"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9508,7 +9514,8 @@
    1795354457.7085814,
    1795361536.6191719,
    1795385098.7136915,
-   1795396215.5888758
+   1795396215.5888758,
+   1795397480.6420505
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1795094375.5065007,
@@ -9690,12 +9697,12 @@
    1795242825.9286923
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
-   1795310934.0836043,
    1795312933.2943914,
    1795325720.6763449,
    1795386833.176398,
    1795388792.0001261,
-   1795396210.2926452
+   1795396210.2926452,
+   1795397593.1250708
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1795244826.8845444
@@ -9799,7 +9806,6 @@
   "040c94c004adcc1d": 1794619762.9685986,
   "0431a3df410942d2": 1795149173.4702308,
   "0451b87a43858e55": 1794312109.8160925,
-  "04920b26f2a5ccac": 1794187892.2465663,
   "04a702a6bd870247": 1794922318.0981417,
   "04c121ae35afc0cd": 1794574970.897312,
   "04c6c51b286dc80e": 1795199460.213731,
@@ -9855,6 +9861,7 @@
   "0a0cabf1c8e8609f": 1794627078.9178329,
   "0a24c7e254e6fef2": 1794261680.3718498,
   "0a2b8c2efc2728e5": 1794585687.2769177,
+  "0ac26792d1527127": 1795397593.1250198,
   "0ac3b775b957bbcd": 1794303091.4954739,
   "0ae0949b8cd38010": 1795186954.2942495,
   "0b24b5df1f355728": 1794337281.9378862,
@@ -10716,7 +10723,6 @@
   "6ba2e766eedfc30a": 1794200479.2527332,
   "6ba3a23fa211ace0": 1794866643.4631548,
   "6bc3ad4c802166d0": 1794259854.418043,
-  "6bcc599b869e2f87": 1794187889.1669471,
   "6bd172f668062b9c": 1794526285.0047514,
   "6bdd8cfb21a40a7a": 1795150925.8389647,
   "6bfad1890bdcb42a": 1795266083.4140286,
@@ -11238,6 +11244,7 @@
   "a80d2f389ba891b8": 1794421925.4892602,
   "a81b68dd632bd1d3": 1795014053.3303049,
   "a84c0d05dfb3bc58": 1794312210.725882,
+  "a851fed29ab9e690": 1795397480.6419988,
   "a88bddb17214a029": 1794511876.8844562,
   "a8ad1e41ec25a4fc": 1794906175.1351109,
   "a8d39c6181656603": 1794958372.3117917,
@@ -12433,7 +12440,7 @@
   ],
   "artists_checked": 1795396227.7743018,
   "blocked_until": 1795396154.2332697,
-  "cursor": 148,
+  "cursor": 158,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13190,11 +13197,11 @@
   "sources": {
    "/Film": 1,
    "Blabbermouth": 1,
-   "Bloomberg": 2,
+   "Bloomberg": 3,
    "Deadline": 3,
    "IndieWire": 1,
    "Lambgoat": 1,
-   "Metal Hammer (Louder)": 3,
+   "Metal Hammer (Louder)": 4,
    "Mezha": 1,
    "Neformat": 4,
    "PC Gamer": 1,
@@ -13203,8 +13210,8 @@
   },
   "translators": {
    "DeepL": 1,
-   "gemini-flash-lite-latest": 2,
-   "gemma-4-26b-a4b-it": 10,
+   "gemini-flash-lite-latest": 3,
+   "gemma-4-26b-a4b-it": 11,
    "gemma-4-31b-it": 5
   },
   "week": "2026-W48"
@@ -14075,11 +14082,6 @@
    "Black Forest",
    1794438094.304574
   ],
-  "q:blockbuster": [
-   0,
-   "",
-   1795222897.8823984
-  ],
   "q:blood and ice": [
    455320,
    "Blood and Ice",
@@ -14319,21 +14321,6 @@
    1091500,
    "Cyberpunk 2077",
    1794825088.4918373
-  ],
-  "q:cybersecurity": [
-   0,
-   "",
-   1795222900.0654058
-  ],
-  "q:cybersecurity meets": [
-   0,
-   "",
-   1795222899.4965181
-  ],
-  "q:cybersecurity meets ai": [
-   0,
-   "",
-   1795222898.915499
   ],
   "q:d d": [
    0,
@@ -14780,11 +14767,6 @@
    "GameMaker",
    1793039505.1588671
   ],
-  "q:gaming blockbuster": [
-   0,
-   "",
-   1795222897.3556917
-  ],
   "q:gang of dragon": [
    4146000,
    "GANG OF DRAGON",
@@ -14899,11 +14881,6 @@
    983970,
    "Haven",
    1794385879.7040913
-  ],
-  "q:healthcare costs": [
-   0,
-   "",
-   1795222898.404241
   ],
   "q:hearing": [
    682730,
@@ -15174,11 +15151,6 @@
    0,
    "",
    1795350669.6535127
-  ],
-  "q:meets ai": [
-   0,
-   "",
-   1795222900.5913968
   ],
   "q:messiah": [
    577980,
@@ -15740,11 +15712,6 @@
    "Remembrance",
    1794655876.257533
   ],
-  "q:remove": [
-   2685360,
-   "Remove: 범죄는 흔적을 남긴다",
-   1792803803.3787062
-  ],
   "q:repentance": [
    0,
    "",
@@ -16020,11 +15987,6 @@
    "",
    1795350668.989784
   ],
-  "q:street week": [
-   0,
-   "",
-   1795222896.8494556
-  ],
   "q:structurally complete": [
    0,
    "",
@@ -16280,16 +16242,6 @@
    "VRChat",
    1793394133.1038349
   ],
-  "q:wall street": [
-   0,
-   "",
-   1795222896.214702
-  ],
-  "q:wall street week": [
-   0,
-   "",
-   1795222895.6705925
-  ],
   "q:wardogs": [
    1867240,
    "WARDOGS",
@@ -16509,14 +16461,6 @@
   ]
  },
  "titles": [
-  [
-   1795224701.779947,
-   "The Witcher 4 Gets Official Update on Physical Release"
-  ],
-  [
-   1795224729.270447,
-   "Black Veil Brides and Lilith Czar release acoustic version of “Cut”"
-  ],
   [
    1795226555.927572,
    "CMA Awards See a 55% Ratings Bump in Key Adult Demo With Taylor Swift’s Return to the Show"
@@ -17120,17 +17064,17 @@
   [
    1795396215.5888362,
    "AI Investment Adding to Inflation: Jain"
+  ],
+  [
+   1795397480.6420007,
+   "Emerging-Market Stocks Set to Erase 2026 Gains on AI Selloff"
+  ],
+  [
+   1795397593.125022,
+   "Sheryl Crow on the importance of being more like Dolly Parton"
   ]
  ],
  "titles_uk": [
-  [
-   1795224701.7799482,
-   "The Witcher 4 отримає фізичне видання, але диск під питанням"
-  ],
-  [
-   1795224729.270448,
-   "Black Veil Brides та Ліліт Цар випустили акустичну версію треку “Cut”"
-  ],
   [
    1795226555.9275732,
    "Повернення Тейлор Свіфт на CMA Awards підняло рейтинги шоу на 55%"
@@ -17734,6 +17678,14 @@
   [
    1795396215.5888367,
    "Інвестиції в ШІ сприяють інфляції, вважають у Westpac"
+  ],
+  [
+   1795397480.6420014,
+   "Акції ринків, що розвиваються, втрачають прибуток через розпродажі у сфері ШІ"
+  ],
+  [
+   1795397593.1250224,
+   "Шеріл Кроу розповіла про спадщину Доллі Партон"
   ]
  ],
  "ukrainian": {
