@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1795473081.5274208
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-23",
  "freebies": {
   "last_check": 1795473203.4558387,
@@ -38,123 +31,19 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-23 22:33 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemma-4-31b-it",
+  "at": "2026-11-23 23:07 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
    "gemma-4-26b-a4b-it": 1,
    "gemma-4-31b-it": 1
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794782154.5512922,
-   6040,
-   "🎬",
-   "Що автор Starship Troopers Роберт Гайнлайн насправді думав про свій досвід у Голлівуді",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2312539/what-sci-fi-author-robert-a-heinlein-thought-hollywood-experience/",
-    "orig": "How Starship Troopers Author Robert A. Heinlein Really Felt About His Hollywood Experiences"
-   }
-  ],
-  [
-   1794782159.1596572,
-   6041,
-   "🤘",
-   "Hellsinki Metal Festival оголосив перших учасників на 2027 рік",
-   "Distorted Sound",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://distortedsoundmag.com/hellsinki-metal-festival-announce-first-bands-for-2027/",
-    "orig": "Hellsinki Metal Festival announce first bands for 2027"
-   }
-  ],
-  [
-   1794783423.6776705,
-   6042,
-   "🎬",
-   "Олівія Кук припустила, що 8 сезон Slow Horses стане фінальним",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://deadline.com/2026/11/olivia-cooke-slow-horses-season-8-last-1237224533/",
-    "orig": "Olivia Cooke Says ‘Slow Horses’ Season 8 Could Be Its “Last,” But “Never Say Never”"
-   }
-  ],
-  [
-   1794783426.8459237,
-   6043,
-   "🎬",
-   "Біллі Еванс заперечив роман між Натаном Філдером та Елізабет Голмс",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/nathan-fielder-elizabeth-holmes-billy-evans-1236948256/",
-    "orig": "Nathan Fielder Wasn’t ‘Infatuated’ With Elizabeth Holmes While Filming ‘You Can See Everything,’ Says Billy Evans: ‘I Didn’t Get The Impression for One Minute That It Was Romantic’"
-   }
-  ],
-  [
-   1794783430.0811079,
-   6044,
-   "🤘",
-   "Queens Of The Stone Age випустили студійний виступ для World Cafe",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55905/queens-of-the-stone-age-share-in-studio-world-cafe-performance/",
-    "orig": "Queens Of The Stone Age share in-studio World Cafe performance"
-   }
-  ],
-  [
-   1794783714.5579407,
-   6045,
-   "🎬",
-   "Дакота Джонсон обирає між багатством і коханням у драмі Materialists",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2312166/colleen-hoover-verity-fans-watch-dakota-johnson-movie-materialists/",
-    "orig": "If You Liked Colleen Hoover's Verity, Watch Dakota Johnson's Acclaimed 2025 Movie Next"
-   }
-  ],
-  [
-   1794783719.9773366,
-   6046,
-   "🎬",
-   "Рассел Бренд отримав 10,5 року ув'язнення за зґвалтування та сексуальне насильство",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/russell-brand-rape-trial-sentencing-1236948233/",
-    "orig": "Russell Brand Compares Rape Trial Coverage to a ‘Football Match’ in Pre-Recorded Video as His Wife Says He’s ‘Okay’ and ‘Praying’ Post-Sentencing"
-   }
-  ],
-  [
-   1794783723.1162221,
-   6047,
-   "🎬",
-   "Фільм Club Kid відзначився найкращим обмеженим прокатом року",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/indie-film-box-office-club-kid-expands-paper-tiger-james-gray-1237224498/",
-    "orig": "‘Club Kid’ Rocks Limited Expansion As ‘Paper Tiger’ Scores James Gray’s Best Per-Screen Debut — Specialty Box Office"
-   }
-  ],
   [
    1794785569.257658,
    6048,
@@ -8796,7 +8685,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Ноа Шнапп показав фото з прослуховування на роль Геймітча в приквелі The Hunger Games</b>\n\nЗірка Stranger Things Ноа Шнапп поділився селфі у світлій перуці зі свого прослуховування на роль молодого Геймітча в новому фільмі The Hunger Games: Sunrise on the Reaping. Актор визнав, що творці зробили правильний вибір, затвердивши на цю роль Джозефа Заду.\n\n🔗 <a href=\"https://deadline.com/2026/11/noah-schnapp-sunrise-on-the-reaping-audition-haymitch-1237231225/\">Deadline</a> · #кіно_і_серіали #TheHungerGames #StrangerThings",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/noah-schnapp-sunrise-on-the-reaping-audition-haymitch-1237231225/",
     "orig": "Noah Schnapp Reveals Image From His ‘Sunrise on the Reaping’ Audition For Haymitch: “They Picked Right”"
@@ -8810,7 +8698,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Епізод The Twilight Zone нагадує науково-фантастичний детектив у стилі Agatha Christie</b>\n\n28-й епізод другого сезону The Twilight Zone під назвою «Will The Real Martian Please Stand Up?» порівнюють із творами Agatha Christie. У цій історії поліціянти намагаються знайти марсіанина, замаскованого під людину, серед пасажирів автобуса, які застрягли в придорожньому кафе через заметіль.\n\n🔗 <a href=\"https://www.slashfilm.com/2321679/the-twilight-zone-episode-sci-fi-version-agatha-christie-mystery/\">/Film</a> · #кіно_і_серіали #TheTwilightZone",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2321679/the-twilight-zone-episode-sci-fi-version-agatha-christie-mystery/",
     "orig": "A Classic Twilight Zone Episode Is Like A Sci-Fi Version Of An Agatha Christie Mystery"
@@ -8824,7 +8711,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "💾 <b>Новий хотфікс Nvidia не вирішив проблему з надмірним записом на SSD</b>\n\nКористувачі Nvidia помітили, що драйвери постійно перезаписують лог-файли, створюючи навантаження на SSD до 30 ГБ на годину. Випущений хотфікс версії 621.35 не вирішив проблему: користувачі повідомляють, що надмірний запис продовжує відбуватися. Наразі найкращим рішенням залишається відкат до версії 621.01.\n\n🔗 <a href=\"https://www.pcgamer.com/hardware/graphics-cards/nvidia-released-a-hotfix-for-its-driver-hammering-your-ssd-but-it-doesnt-actually-work/\">PC Gamer</a> · #софт #Nvidia",
     "kind": "photo",
     "link": "https://www.pcgamer.com/hardware/graphics-cards/nvidia-released-a-hotfix-for-its-driver-hammering-your-ssd-but-it-doesnt-actually-work/",
     "orig": "Nvidia released a hotfix for its driver hammering your SSD, but it doesn't actually work"
@@ -9641,6 +9527,48 @@
     "link": "https://lambgoat.com/news/56030/as-i-lay-dying-joined-on-stage-by-bleeding-throughs-brandan-schieppati-and-tommy-vext-in-hollywood/",
     "orig": "As I Lay Dying joined on stage by Bleeding Through's Brandan Schieppati and Tommy Vext in Hollywood"
    }
+  ],
+  [
+   1795474951.6257875,
+   6788,
+   "🤘",
+   "Limp Bizkit записали від 24 до 30 ідей для нових пісень",
+   "ThePRP",
+   {
+    "also": [],
+    "caption": "🤘 <b>Limp Bizkit записали від 24 до 30 ідей для нових пісень</b>\n\nБарабанщик Джон Отто повідомив, що Limp Bizkit за місяць роботи в студії Dark Horse записали від 24 до 30 ідей для нових треків. Музиканти працюють без тиску лейблів і дедлайнів, тому випустять матеріал лише тоді, коли він буде повністю готовий.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/23/news/limp-bizkit-currently-have-24-to-30-new-song-ideas-recorded/\">ThePRP</a> · #музика #LimpBizkit",
+    "kind": "photo",
+    "link": "https://www.theprp.com/2026/11/23/news/limp-bizkit-currently-have-24-to-30-new-song-ideas-recorded/",
+    "orig": "Limp Bizkit Currently Have 24 To 30 New Song Ideas Recorded"
+   }
+  ],
+  [
+   1795475254.9814205,
+   6789,
+   "🎮",
+   "Легендарний акторський склад Critical Role повертається зі зірковими гостями",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Легендарний акторський склад Critical Role повертається зі зірковими гостями</b>\n\nНезабаром відбудеться зустріч акторського складу серіалу «Critical Role»: Тревіс Віллінгем та Аабрія Ієнгар повернуться у 4-му сезоні.\n\n🔗 <a href=\"https://www.polygon.com/critical-role-aabria-iyengar-travis-willingham-returns-campaign-4/\">Polygon</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/critical-role-aabria-iyengar-travis-willingham-returns-campaign-4/",
+    "orig": "Legendary Critical Role Cast Members Officially Return With a Star-Studded New Guest Cast"
+   }
+  ],
+  [
+   1795475261.6378071,
+   6790,
+   "🤘",
+   "Pale Heaven видали новий сингл",
+   "Neformat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Pale Heaven видали новий сингл</b>\n\nНещодавно нойз-рок-колектив Pale Heaven оприлюднив композицію &quot;Whatever Happens&quot; на лейблі DYWLF?! Records. Ця пісня — їхня спроба вхопити дух панк-року. Новий трек артистів прокладає шлях до їхньог\n\n🔗 <a href=\"https://www.neformat.com.ua/news/28491-pale-heaven-vidali-noviy-singl.html\">Neformat</a> · #музика",
+    "kind": "photo",
+    "link": "https://www.neformat.com.ua/news/28491-pale-heaven-vidali-noviy-singl.html",
+    "orig": "Pale Heaven видали новий сингл"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9735,12 +9663,12 @@
    1795421307.0887651
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1795363435.5770404,
    1795392281.080945,
    1795401303.9273305,
    1795403139.135348,
    1795408345.8540938,
-   1795446274.177396
+   1795446274.177396,
+   1795475254.9816675
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1795440749.4020596,
@@ -9849,10 +9777,8 @@
    1793223099.157012
   ],
   "music|Neformat|https://www.neformat.com.ua/": [
-   1795386884.5165877,
-   1795388795.245358,
-   1795388797.4549594,
-   1795392283.7441685
+   1795392283.7441685,
+   1795475261.6380656
   ],
   "music|Pitchfork|https://pitchfork.com/feed/feed-news/rss": [
    1795412136.638777
@@ -9864,7 +9790,8 @@
    1795471431.7761426
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
-   1795471479.1393914
+   1795471479.1393914,
+   1795474951.6260428
   ],
   "software|AIN.ua|https://ain.ua/feed/": [
    1795194075.9234834
@@ -9999,7 +9926,6 @@
   "0ae0949b8cd38010": 1795186954.2942495,
   "0b24b5df1f355728": 1794337281.9378862,
   "0b532c252b638c25": 1794978086.8716898,
-  "0b9aae3be395fc50": 1794265282.2454684,
   "0ba91bff18478de2": 1794699261.5175328,
   "0bc1858408fdc657": 1794540952.2276444,
   "0bd2b80718e34b30": 1794889903.5498612,
@@ -10738,6 +10664,7 @@
   "5f987f0636c53831": 1794387783.944847,
   "5f9b38a8416afa45": 1794616312.000508,
   "5f9df56fed9a28e3": 1794598371.8116102,
+  "5f9ef9f8fb7c411e": 1795475261.638023,
   "5fa346d1bde734c4": 1794861223.1814535,
   "5fbc9fec83356e00": 1795195855.1176043,
   "5ff33f70fd03bee9": 1795408260.7997556,
@@ -10858,6 +10785,7 @@
   "6a660b35f9a6c210": 1794441681.0200262,
   "6a6723ccff5c8f3e": 1795094052.1268046,
   "6a86af37165ac791": 1794411074.2185235,
+  "6a8aa35af4922dc6": 1795475254.9816265,
   "6a9010b4428aa781": 1795431811.6999888,
   "6abd2f5eef76c8b8": 1794634255.263127,
   "6ad3b63ac5f73385": 1794580255.5600233,
@@ -11074,6 +11002,7 @@
   "83186b0550e5f2fc": 1794556877.7875981,
   "8320190e0fc01253": 1795428068.0022252,
   "8336713aa465608a": 1795176534.3024645,
+  "834427135267c4b2": 1795474951.6260014,
   "834fa9ad8d3bea42": 1794877544.3017933,
   "8369124588b6b50c": 1795143682.665886,
   "8369f85e0a3a8f75": 1794411076.0979633,
@@ -11568,7 +11497,6 @@
   "bd094462e92c17c9": 1794520852.2037077,
   "bd12796d271c4d1b": 1795087856.688431,
   "bd25599b8c5c1a62": 1795278653.9636526,
-  "bd28dc198e354d61": 1794265278.771504,
   "bd33d17f2ff5c865": 1794673881.9477994,
   "bd4bc2ce19de7d37": 1794969087.790321,
   "bd4fec8eba81c105": 1794880908.74793,
@@ -11624,6 +11552,7 @@
   "c313e3ee418f0c52": 1794330482.6856482,
   "c316780a7dfb370c": 1794663071.9451056,
   "c341dbe9803fed63": 1795129258.2337174,
+  "c386e7c8a2b8928a": 1795474854.7301457,
   "c3a616b7e9552087": 1794513658.9207973,
   "c3a78c7b04077682": 1794371482.0513103,
   "c41d3b58b8521d4e": 1795435266.6043499,
@@ -11805,6 +11734,7 @@
   "d6c79430dd9144bc": 1794610972.1879642,
   "d6dc4adfda7341d9": 1794292285.989086,
   "d6e8809ef645f2a6": 1794834056.1069303,
+  "d6f1683470e3bd65": 1795474878.698535,
   "d7130c18b2a5fd4f": 1795026653.649315,
   "d739b29f104302be": 1794893459.6418285,
   "d74e8a8e22fe3ac6": 1794418292.0812464,
@@ -12077,7 +12007,6 @@
   "f582bc2d8e107807": 1795284056.7584941,
   "f5973a9ac4e9ddd1": 1794488672.1793375,
   "f5a2411b10abf971": 1794418279.1078956,
-  "f5b1d67ac26794db": 1794265276.655111,
   "f5caf0248683b2eb": 1795321882.7461622,
   "f5eac5310adcd0c7": 1794832262.200173,
   "f5fd0b6ae5386051": 1794794842.0780804,
@@ -13383,7 +13312,7 @@
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 4,
    "PlayUA": 1,
-   "Polygon": 10,
+   "Polygon": 11,
    "Rock Paper Shotgun": 1,
    "VGC": 10,
    "Variety": 1
@@ -13404,24 +13333,24 @@
    "Lambgoat": 5,
    "Metal Hammer (Louder)": 5,
    "Mezha": 11,
-   "Neformat": 4,
+   "Neformat": 5,
    "PC Gamer": 2,
    "Pitchfork": 1,
    "PlayUA": 1,
-   "Polygon": 5,
+   "Polygon": 6,
    "Rock Paper Shotgun": 3,
    "Stereogum": 1,
    "The Decoder": 2,
-   "ThePRP": 1,
+   "ThePRP": 2,
    "VGC": 3,
    "Variety": 5
   },
   "translators": {
-   "DeepL": 7,
+   "DeepL": 8,
    "gemini-flash-latest": 2,
    "gemini-flash-lite-latest": 24,
-   "gemma-4-26b-a4b-it": 24,
-   "gemma-4-31b-it": 28
+   "gemma-4-26b-a4b-it": 25,
+   "gemma-4-31b-it": 29
   },
   "week": "2026-W48"
  },
@@ -14406,6 +14335,31 @@
    "Crimson Desert Enhanced",
    1793372551.031146
   ],
+  "q:critical role": [
+   0,
+   "",
+   1795474958.6150029
+  ],
+  "q:critical role cast": [
+   0,
+   "",
+   1795474958.1224034
+  ],
+  "q:critical role cast members": [
+   0,
+   "",
+   1795474957.5131116
+  ],
+  "q:critical role cast members officially": [
+   0,
+   "",
+   1795474957.029794
+  ],
+  "q:critical role cast members officially return": [
+   0,
+   "",
+   1795474956.4848208
+  ],
   "q:cronos lazarus": [
    4768180,
    "Cronos: Lazarus",
@@ -15135,6 +15089,31 @@
    0,
    "",
    1795426297.1716323
+  ],
+  "q:legendary critical": [
+   0,
+   "",
+   1795474955.919783
+  ],
+  "q:legendary critical role": [
+   0,
+   "",
+   1795474955.4380317
+  ],
+  "q:legendary critical role cast": [
+   0,
+   "",
+   1795474954.8348148
+  ],
+  "q:legendary critical role cast members": [
+   0,
+   "",
+   1795474954.2862165
+  ],
+  "q:legendary critical role cast members officially": [
+   0,
+   "",
+   1795474953.788498
   ],
   "q:lena": [
    3170980,
@@ -15915,6 +15894,16 @@
    1107940,
    "Rocket Boy",
    1795014100.4285238
+  ],
+  "q:role cast members officially return": [
+   0,
+   "",
+   1795474959.6374927
+  ],
+  "q:role cast members officially return with": [
+   0,
+   "",
+   1795474959.1521144
   ],
   "q:rust": [
    252490,
@@ -16700,14 +16689,6 @@
  },
  "titles": [
   [
-   1795302204.2415872,
-   "5 Actors Who Should Play M In Robert Pattinson's James Bond Movies"
-  ],
-  [
-   1795302267.159086,
-   "Alt Video is a digital, faux Blockbuster video store that you can fill with movies from your Letterboxd watchlist and Plex server"
-  ],
-  [
    1795303927.0777297,
    "JOHN DOLMAYAN Says 'Big Things Are Coming For SYSTEM OF A DOWN'"
   ],
@@ -17370,17 +17351,21 @@
   [
    1795473194.340922,
    "As I Lay Dying joined on stage by Bleeding Through's Brandan Schieppati and Tommy Vext in Hollywood"
+  ],
+  [
+   1795474951.6260033,
+   "Limp Bizkit Currently Have 24 To 30 New Song Ideas Recorded"
+  ],
+  [
+   1795475254.9816284,
+   "Legendary Critical Role Cast Members Officially Return With a Star-Studded New Guest Cast"
+  ],
+  [
+   1795475261.6380248,
+   "Pale Heaven видали новий сингл"
   ]
  ],
  "titles_uk": [
-  [
-   1795302204.2415879,
-   "5 акторів, які могли б зіграти M у фільмах про James Bond з Робертом Паттінсоном"
-  ],
-  [
-   1795302267.159087,
-   "Alt Video — симулятор відеопрокату з інтеграцією Letterboxd та Plex"
-  ],
   [
    1795303927.0777304,
    "Джон Долмаян розповів про майбутні стадіонні концерти SYSTEM OF A DOWN"
@@ -18044,6 +18029,18 @@
   [
    1795473194.340923,
    "As I Lay Dying виступили в Голлівуді разом із Бранданом Шіппаті та Томмі Вексом"
+  ],
+  [
+   1795474951.626004,
+   "Limp Bizkit записали від 24 до 30 ідей для нових пісень"
+  ],
+  [
+   1795475254.9816291,
+   "Легендарний акторський склад Critical Role повертається зі зірковими гостями"
+  ],
+  [
+   1795475261.6380255,
+   "Pale Heaven видали новий сингл"
   ]
  ],
  "ukrainian": {
