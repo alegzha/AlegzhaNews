@@ -31,30 +31,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-23 14:04 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemma-4-31b-it",
+  "at": "2026-11-23 15:05 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemma-4-31b-it": 2
+   "gemini-flash-lite-latest": 2,
+   "gemma-4-26b-a4b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794755066.3501,
-   6020,
-   "🤖",
-   "Інвестори у сфері ШІ готуються до обмежень на роботу дата-центрів",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/videos/2026-11-15/ai-investors-brace-for-data-center-restrictions-video",
-    "orig": "AI Investors Brace for Data Center Restrictions"
-   }
-  ],
   [
    1794756680.6634252,
    6021,
@@ -8709,7 +8697,6 @@
    "Neformat",
    {
     "also": [],
-    "caption": "🤘 <b>Azimut випустили анонсований альбом &quot;ZNAK&quot;</b>\n\nМинулої п&#x27;ятниці постметал-гурт Azimut видав LP &quot;ZNAK&quot; у цифровому й касетному форматах на лейблі Robustfellow. Музична робота на межі постметалу і сладжу береться осмислити буття через різні світогл\n\n🔗 <a href=\"https://www.neformat.com.ua/news/28422-azimut-vipustili-anonsovaniy-albom-znak.html\">Neformat</a> · #музика",
     "kind": "photo",
     "link": "https://www.neformat.com.ua/news/28422-azimut-vipustili-anonsovaniy-albom-znak.html",
     "orig": "Azimut випустили анонсований альбом \"ZNAK\""
@@ -8723,7 +8710,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>SNEG перевипустила три класичні стратегії на Steam та GOG</b>\n🕹 <a href=\"https://store.steampowered.com/app/4834780/\">Warlords IV: Heroes of Etheria</a> — 271,00₴ (−20%)\n\nSNEG перевипустила на Steam та GOG три класичні стратегії: Warlords 4: Heroes of Etheria, Soldiers at War та Theocracy. Ігри отримали підтримку сучасних систем Windows, хмарні збереження та досягнення. Warlords 4 підтримує роздільну здатність до 4K, а Theocracy використовує технологію FSR 1 для масштабування.\n\n🔗 <a href=\"https://www.pcgamer.com/games/strategy/sneg-has-re-released-three-more-venerable-pc-strategy-games-including-warlords-4-heroes-of-etheria/\">PC Gamer</a> · #ігри #Sneg #Warlords4",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/strategy/sneg-has-re-released-three-more-venerable-pc-strategy-games-including-warlords-4-heroes-of-etheria/",
     "orig": "SNEG has re-released three more venerable PC strategy games including Warlords 4: Heroes of Etheria"
@@ -9559,6 +9545,34 @@
     "link": "https://itc.ua/ua/novini/alternatyva-dlss-apex-anr-nezalezhni-testy/",
     "orig": "Альтернатива DLSS від Apex пройшла незалежні тести: більший FPS, але є нюанси"
    }
+  ],
+  [
+   1795446274.1771228,
+   6761,
+   "🎮",
+   "Найбільш суперечливий режисер Star Wars прокоментував своє можливе повернення",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Найбільш суперечливий режисер Star Wars прокоментував своє можливе повернення</b>\n\nРежисер Star Wars: The Last Jedi Раян Джонсон не проти повернутися до франшизи\n\n🔗 <a href=\"https://www.polygon.com/star-wars-director-rian-johnson-is-open-to-returning/\">Polygon</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/star-wars-director-rian-johnson-is-open-to-returning/",
+    "orig": "Star Wars’ Most Divisive Director Officially Addresses a Possible Return"
+   }
+  ],
+  [
+   1795446326.8999174,
+   6762,
+   "🎮",
+   "NAVI очолили рейтинг за виплатами ESL Annual Club Incentive",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>NAVI очолили рейтинг за виплатами ESL Annual Club Incentive</b>\n\nESL FACEIT Group розподілила $2 729 450 між кіберспортивними організаціями в межах програми Annual Club Incentive.\n\n🔗 <a href=\"https://insider-gaming.com/navi-top-esl-annual-club-incentive-earnings/\">Insider Gaming</a> · #ігри",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/navi-top-esl-annual-club-incentive-earnings/",
+    "orig": "NAVI Top ESL Annual Club Incentive Earnings: $2.7m Distributed in Total"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9634,7 +9648,8 @@
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
    1795435798.1632166,
    1795437092.8484204,
-   1795440735.784093
+   1795440735.784093,
+   1795446326.9001324
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1795437081.8750849
@@ -9652,12 +9667,12 @@
    1795421307.0887651
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1795347758.9701152,
    1795363435.5770404,
    1795392281.080945,
    1795401303.9273305,
    1795403139.135348,
-   1795408345.8540938
+   1795408345.8540938,
+   1795446274.177396
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1795440749.4020596
@@ -9889,7 +9904,6 @@
   "070d309edf47bb38": 1794268889.400284,
   "070da2ce4dc3e23c": 1794960086.3351355,
   "07419671e36b0ead": 1795181616.143092,
-  "074d1fa4d204af4f": 1794236573.3468974,
   "07d2726f6e23edf6": 1794832383.472545,
   "07d7120a28937cb9": 1795042890.8339348,
   "07eb24776200c433": 1794713476.5142853,
@@ -10276,6 +10290,7 @@
   "31f106af23f2570d": 1795026653.649315,
   "3207edff75fc85f5": 1794808983.9656775,
   "3214fad63e957652": 1795309689.6922925,
+  "32235f172d729791": 1795446085.3304698,
   "32418cc562c404cd": 1794736879.429503,
   "3267aa4aa3a6f6aa": 1794367885.5482562,
   "3278da9f0f45dcdf": 1794688284.0626087,
@@ -10314,6 +10329,7 @@
   "360516e1c23fff81": 1794780083.111482,
   "363121212f2f4d3b": 1794742509.8286552,
   "36425710d971e3e2": 1794846655.2895768,
+  "364bbf18f56a5319": 1795446085.3307185,
   "368e39a242bac607": 1795246283.4893634,
   "369113328c6996cc": 1795087856.688431,
   "36b1ddf679a70e80": 1795352462.940814,
@@ -10482,6 +10498,7 @@
   "4ae98c8fc59d539b": 1794760180.7986965,
   "4afdce9bb8471c9c": 1795316541.2861469,
   "4b00c5974e83edbf": 1795111374.238351,
+  "4b089d5d2423e746": 1795446056.8912985,
   "4b145d44df4b08b2": 1794486690.388952,
   "4b1c142ff6039d79": 1795228006.0215333,
   "4b611dc6e3497aa1": 1794652396.6112564,
@@ -10699,7 +10716,6 @@
   "64325a7bb4bf94b2": 1794495681.3751266,
   "644ff25635dda6f2": 1794378722.8053174,
   "648ccc55f45aea20": 1795435304.6913989,
-  "648d80a971806a0e": 1794236575.692363,
   "649cade6cf52b099": 1794391256.5139039,
   "64a0cf7f43056473": 1794929457.0480187,
   "64cca365b932e22c": 1795008699.1667783,
@@ -11341,6 +11357,7 @@
   "ab7aec6a631513ad": 1794922281.5700028,
   "ab8147a8889505e9": 1794414658.7033095,
   "abb0a1c37edeff0d": 1794724560.940137,
+  "abc2720388f3885f": 1795446274.17735,
   "abe1d8fc6e2cad9b": 1794970883.2996304,
   "ac2da02395ef4d7b": 1795412136.6387289,
   "ac4c9a772d4b5fa4": 1795413690.6290112,
@@ -11669,6 +11686,7 @@
   "d3362eeed0450381": 1795152758.4494374,
   "d3387d6acdd9d374": 1795008653.7476661,
   "d35e44ad077c965f": 1795395681.3624852,
+  "d37fa77188fe3ab5": 1795446326.900088,
   "d385ac680ca32d7f": 1794290489.7931287,
   "d393800a98520761": 1795083121.6604207,
   "d39f1081244a9510": 1794738692.2340581,
@@ -11817,7 +11835,6 @@
   "e457e0a4d0a25c96": 1794816654.5507064,
   "e48d6f07fd827d73": 1794585676.9122105,
   "e4b515a6bfb5c99d": 1794931288.4678357,
-  "e4b8ec6c3b375c04": 1794236457.3327184,
   "e4d16c1c883bd6b6": 1794612682.433116,
   "e4da97cc344964ea": 1795276859.0083566,
   "e4e87b942f9ee1ad": 1795421304.336332,
@@ -13276,7 +13293,7 @@
    "PC Gamer": 3,
    "PlayUA": 1,
    "Polygon": 4,
-   "VGC": 5
+   "VGC": 6
   },
   "sources": {
    "/Film": 3,
@@ -13289,7 +13306,7 @@
    "GamesIndustry.biz": 1,
    "ITC.ua": 7,
    "IndieWire": 1,
-   "Insider Gaming": 3,
+   "Insider Gaming": 4,
    "Lambgoat": 4,
    "Metal Hammer (Louder)": 5,
    "Mezha": 6,
@@ -13297,7 +13314,7 @@
    "PC Gamer": 2,
    "Pitchfork": 1,
    "PlayUA": 1,
-   "Polygon": 4,
+   "Polygon": 5,
    "Rock Paper Shotgun": 1,
    "VGC": 3,
    "Variety": 5
@@ -13305,8 +13322,8 @@
   "translators": {
    "DeepL": 5,
    "gemini-flash-latest": 2,
-   "gemini-flash-lite-latest": 15,
-   "gemma-4-26b-a4b-it": 20,
+   "gemini-flash-lite-latest": 17,
+   "gemma-4-26b-a4b-it": 21,
    "gemma-4-31b-it": 22
   },
   "week": "2026-W48"
@@ -14622,6 +14639,11 @@
    "",
    1795424499.1133447
   ],
+  "q:esl annual club incentive earnings": [
+   0,
+   "",
+   1795446281.845582
+  ],
   "q:euro truck simulator 2": [
    227300,
    "Euro Truck Simulator 2",
@@ -15347,6 +15369,21 @@
    "Moon Sweepers",
    1793019927.6206162
   ],
+  "q:most divisive director": [
+   0,
+   "",
+   1795446092.6150231
+  ],
+  "q:most divisive director officially": [
+   0,
+   "",
+   1795446092.0759046
+  ],
+  "q:most divisive director officially addresses": [
+   0,
+   "",
+   1795446091.396178
+  ],
   "q:mouse p i for hire": [
    2416450,
    "MOUSE: P.I. For Hire",
@@ -15406,6 +15443,36 @@
    0,
    "",
    1795339877.569253
+  ],
+  "q:navi": [
+   0,
+   "",
+   1795446278.6426148
+  ],
+  "q:navi top": [
+   0,
+   "",
+   1795446278.1508844
+  ],
+  "q:navi top esl": [
+   0,
+   "",
+   1795446277.6665273
+  ],
+  "q:navi top esl annual": [
+   0,
+   "",
+   1795446277.1803656
+  ],
+  "q:navi top esl annual club": [
+   0,
+   "",
+   1795446276.6877387
+  ],
+  "q:navi top esl annual club incentive": [
+   0,
+   "",
+   1795446276.15359
   ],
   "q:need to know": [
    490930,
@@ -15756,11 +15823,6 @@
    0,
    "",
    1795402880.3089423
-  ],
-  "q:paul": [
-   4346090,
-   "Paul",
-   1792852287.4923358
   ],
   "q:peanut": [
    1068490,
@@ -16202,6 +16264,26 @@
    "",
    1795347496.123015
   ],
+  "q:star wars' most": [
+   0,
+   "",
+   1795446087.5778844
+  ],
+  "q:star wars' most divisive": [
+   0,
+   "",
+   1795446087.0479007
+  ],
+  "q:star wars' most divisive director": [
+   0,
+   "",
+   1795446086.5639877
+  ],
+  "q:star wars' most divisive director officially": [
+   0,
+   "",
+   1795446085.9008203
+  ],
   "q:star wars' new": [
    0,
    "",
@@ -16381,6 +16463,31 @@
    3558670,
    "Tomb Raider: Legacy of Atlantis",
    1792947692.545781
+  ],
+  "q:top esl": [
+   0,
+   "",
+   1795446281.3556986
+  ],
+  "q:top esl annual": [
+   0,
+   "",
+   1795446280.8525777
+  ],
+  "q:top esl annual club": [
+   0,
+   "",
+   1795446280.3578024
+  ],
+  "q:top esl annual club incentive": [
+   0,
+   "",
+   1795446279.8611484
+  ],
+  "q:top esl annual club incentive earnings": [
+   0,
+   "",
+   1795446279.2829752
   ],
   "q:torch": [
    2098940,
@@ -16577,6 +16684,31 @@
    "",
    1795347498.3343053
   ],
+  "q:wars' most": [
+   0,
+   "",
+   1795446090.9163828
+  ],
+  "q:wars' most divisive": [
+   0,
+   "",
+   1795446090.2810352
+  ],
+  "q:wars' most divisive director": [
+   0,
+   "",
+   1795446089.773726
+  ],
+  "q:wars' most divisive director officially": [
+   0,
+   "",
+   1795446089.074737
+  ],
+  "q:wars' most divisive director officially addresses": [
+   0,
+   "",
+   1795446088.4396076
+  ],
   "q:wars' new": [
    0,
    "",
@@ -16695,7 +16827,6 @@
  },
  "tag_hints": {
   "Mezha": [
-   "apple",
    "discord",
    "helsing",
    "mesh-системи",
@@ -16715,13 +16846,10 @@
    "литва",
    "мінцифра",
    "новини",
-   "ноутбуки",
    "оборонка",
-   "планшети",
    "розвіддрон",
    "росія",
    "сили оборони",
-   "смартфони",
    "софт",
    "технології",
    "ударні безпілотники",
@@ -16731,7 +16859,8 @@
    "штучний інтелект",
    "японія",
    "європа",
-   "єс"
+   "єс",
+   "ігри"
   ]
  },
  "titles": [
@@ -17382,6 +17511,14 @@
   [
    1795444288.9766433,
    "Альтернатива DLSS від Apex пройшла незалежні тести: більший FPS, але є нюанси"
+  ],
+  [
+   1795446274.1773515,
+   "Star Wars’ Most Divisive Director Officially Addresses a Possible Return"
+  ],
+  [
+   1795446326.9000893,
+   "NAVI Top ESL Annual Club Incentive Earnings: $2.7m Distributed in Total"
   ]
  ],
  "titles_uk": [
@@ -18032,6 +18169,14 @@
   [
    1795444288.9766443,
    "Альтернатива DLSS від Apex пройшла незалежні тести: більший FPS, але є нюанси"
+  ],
+  [
+   1795446274.1773522,
+   "Найбільш суперечливий режисер Star Wars прокоментував своє можливе повернення"
+  ],
+  [
+   1795446326.9000905,
+   "NAVI очолили рейтинг за виплатами ESL Annual Club Incentive"
   ]
  ],
  "ukrainian": {
