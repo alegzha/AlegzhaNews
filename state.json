@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:software|AIN.ua|https://ain.ua/feed/": {
+   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out.",
+   "label": "Джерело «AIN.ua» не працює",
+   "sent": 0,
+   "since": 1795449708.1600811
+  }
+ },
  "daily_digest_date": "2026-11-22",
  "freebies": {
   "last_check": 1795444297.992101,
@@ -31,11 +38,12 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-23 15:32 UTC",
+  "at": "2026-11-23 16:04 UTC",
   "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-31b-it": 1
   },
   "used": [
    "Gemini"
@@ -8722,7 +8730,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Riley Pinkerton із Castle Rat розповіла про свої музичні вподобання</b>\n\nВокалістка Castle Rat Райлі Пінкертон розповіла про свої музичні вподобання та вплив культових гуртів на творчість. Вона згадала The Beatles, Black Sabbath та Джоні Мітчелл, а також поділилася історією своєї одержимості альбомом October Rust гурту Type O Negative.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/castle-rat-riley-pinkerton-music-that-changed-my-life\">Metal Hammer (Louder)</a> · #музика #CastleRat #TypeONegative",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/castle-rat-riley-pinkerton-music-that-changed-my-life",
     "orig": "How Type O Negative nearly drove Castle Rat’s Riley Pinkerton mad"
@@ -8736,7 +8743,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Інвестиції в ШІ сприяють інфляції, вважають у Westpac</b>\n\nЕкономістка Westpac Ілліана Джайн заявляє, що ФРС планує подальше підвищення ставок для стримування інфляції. На її думку, активні інвестиції в сектор ШІ свідчать про слабкість ширших інвестицій поза його межами.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-23/ai-investment-adding-to-inflation-jain-video\">Bloomberg</a> · #ШІ #AI",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/videos/2026-11-23/ai-investment-adding-to-inflation-jain-video",
     "orig": "AI Investment Adding to Inflation: Jain"
@@ -9572,6 +9578,34 @@
     "link": "https://www.gamesindustry.biz/plug-in-digital-acquires-news-tower-publisher-twin-sails-interactive-creating-new-publishing-group-to-compete-in-a-highly-competitive-market",
     "orig": "Plug in Digital acquires News Tower publisher Twin Sails Interactive, creating new publishing group to \"compete in a highly competitive market\""
    }
+  ],
+  [
+   1795449790.6701682,
+   6765,
+   "🎮",
+   "Rockstar North незабаром завершить голосування за створення профспілки",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>Rockstar North незабаром завершить голосування за створення профспілки</b>\n\nНайближчими днями у Rockstar North завершиться голосування щодо створення профспілки. Також обговорюють відсутність PC-версії Grand Theft Auto VI та підбивають підсумки року в RPS 100.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/this-week-in-pc-games-raise-a-psychedelic-baby-invent-terrible-new-religions-and-run-your-own-pc-hardware-business\">Rock Paper Shotgun</a> · #ігри #RockstarNorth #GTA6",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/this-week-in-pc-games-raise-a-psychedelic-baby-invent-terrible-new-religions-and-run-your-own-pc-hardware-business",
+    "orig": "This week in PC games: Raise a psychedelic baby, invent terrible new religions, and run your own PC hardware business"
+   }
+  ],
+  [
+   1795449854.8627868,
+   6766,
+   "🤖",
+   "Акції злетіли після повернення Jensen Huang на чолі Nvidia",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Акції злетіли після повернення Jensen Huang на чолі Nvidia</b>\n\nРізкий стрибок на ринку стався завдяки новій хвилі інвестицій в ШІ на тлі повернення Jensen Huang на посаду генерального директора Nvidia. Акції компанії зросли на 29%, що потягло за собою весь напівпровідниковий сектор до рекордного з квітня 2025 року зростання. Водночас S&amp;P 500 піднявся на 4%, а Nasdaq 100 зріс на 6%.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-23/stocks-soar-as-huang-s-nvidia-return-fuels-ai-bets-video\">Bloomberg</a> · #ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-23/stocks-soar-as-huang-s-nvidia-return-fuels-ai-bets-video",
+    "orig": "Stocks Soar as Huang’s Nvidia Return Fuels AI Bets"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9580,12 +9614,12 @@
    1795341795.5158873
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1795361536.6191719,
    1795385098.7136915,
    1795396215.5888758,
    1795397480.6420505,
    1795408443.1461227,
-   1795442690.607772
+   1795442690.607772,
+   1795449854.8630764
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1795438887.3734498
@@ -9676,7 +9710,8 @@
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1795440749.4020596,
-   1795447900.4924846
+   1795447900.4924846,
+   1795449790.670483
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1794925901.615652
@@ -9868,7 +9903,6 @@
   "0344918b75ad5ad5": 1794639707.4883106,
   "034d29d4019d944c": 1795174346.0042849,
   "0365c4da95c9807f": 1794474053.2484434,
-  "039f8078df627969": 1794240058.5109377,
   "03ee526d0ed8fdfa": 1794868348.3863418,
   "040bfd9a76098491": 1794841326.9254682,
   "040c94c004adcc1d": 1794619762.9685986,
@@ -9987,7 +10021,6 @@
   "109270637f0d1ea4": 1794488660.3232384,
   "10ac305df3233805": 1794727870.9768376,
   "10cb73893904f837": 1794568315.9646816,
-  "112dc0b1f6acfedc": 1794240058.5109377,
   "11304629b3b28943": 1794958375.376239,
   "115684b54442967b": 1795062692.6421797,
   "115c6aa663640fb2": 1795325643.694829,
@@ -10034,7 +10067,6 @@
   "14e4a5e0fe24f6bb": 1795348853.7357323,
   "14f321c495182c59": 1795167364.5536597,
   "152daa25e42033b6": 1795041101.017265,
-  "154aa465ecbcfd2c": 1794240058.5109377,
   "1555ed6bcb1233ac": 1794999745.7375064,
   "156a05f5148430a3": 1795190539.4530833,
   "15949ec6496d1bb4": 1795109457.1504688,
@@ -10173,6 +10205,7 @@
   "24d6d6b2cb651c91": 1794781854.546859,
   "24e30821eb6f08bc": 1794599463.414183,
   "250bd675c4fcfe04": 1794319299.683036,
+  "2552f82a0ea5739b": 1795449790.67042,
   "25536a46fd2bb0b1": 1794690051.930596,
   "256005002a962116": 1794652401.9457853,
   "256a9746b134b753": 1794718877.0665543,
@@ -10613,7 +10646,6 @@
   "590e298f3d1a3af4": 1795118455.5877645,
   "590ea7f90068a257": 1795293274.5484715,
   "591d82ee7e715012": 1795007003.31536,
-  "594a7880d7954e73": 1794240087.6773205,
   "594ea04fa2a1fdf5": 1794646968.0431976,
   "59b842e896ed4bb1": 1795087856.688431,
   "59ceae0ded9cfabf": 1795275057.4489214,
@@ -10806,7 +10838,6 @@
   "6bdd8cfb21a40a7a": 1795150925.8389647,
   "6bfad1890bdcb42a": 1795266083.4140286,
   "6c2a30bad5fd6157": 1794407565.0352788,
-  "6c3b70bf8c28f197": 1794240085.56365,
   "6c5d6002eb4157df": 1795094373.626306,
   "6c6a92ad5055faca": 1795365052.7700858,
   "6c7b301e5d5526b6": 1794713474.5924284,
@@ -10850,7 +10881,6 @@
   "7150eea99e4a5123": 1795121160.9480224,
   "71cad9aae14c1682": 1795338504.2785425,
   "71e05f1bcda799a4": 1794790852.1093779,
-  "71e982c8c7447ef3": 1794240058.5109377,
   "71fdec6a7f7b97a1": 1795408443.1460824,
   "7203879df98082f0": 1795298814.8709586,
   "723d1511bd3c62da": 1795041093.900804,
@@ -11092,7 +11122,6 @@
   "8bf24a55f9bd1032": 1795082840.639321,
   "8c1a3577a904f795": 1794250854.4925213,
   "8c37f44cebdbd06e": 1795311254.9923077,
-  "8cf4ddd7d3cd8e60": 1794238457.9315062,
   "8d0ab631b0d4c66f": 1794927690.37838,
   "8d173dd5584087f6": 1794655879.9927368,
   "8d505fa9b6a387f8": 1795089654.0120451,
@@ -11318,6 +11347,7 @@
   "a6ea30182c44cff7": 1795012310.1463664,
   "a70866f44525d9a7": 1794592884.4843674,
   "a710af24486efa10": 1795156298.9917552,
+  "a7259cb9f4e9dc47": 1795449655.175754,
   "a73f1e7f5fbfb526": 1794978059.335902,
   "a74d8ee76899df64": 1794807095.9587371,
   "a78f2e6e4266d866": 1795046478.6914155,
@@ -11618,7 +11648,6 @@
   "ca925f90135eae9c": 1795386884.5165458,
   "caa5a78f0c624001": 1794650473.5419436,
   "cac0acbce765ab76": 1794858079.9655144,
-  "cae126e48b25b690": 1794238460.6993666,
   "cae36b629c02a618": 1794825055.973085,
   "cb08cab5d7e0c702": 1795408345.8540425,
   "cb1a66f38cec8071": 1794364296.32627,
@@ -11765,6 +11794,7 @@
   "da376550bcf71c9d": 1795188662.6550176,
   "da488d2bf9306801": 1794384247.7978582,
   "da5dc4eb4fbc5c01": 1794326455.216971,
+  "da7e4e2063664e7f": 1795449854.863025,
   "da8f7d3d217def39": 1795422656.3810875,
   "dadb24a73a7a90e0": 1794765695.316193,
   "daea7cb5a6695bc8": 1794529869.2619073,
@@ -11828,6 +11858,7 @@
   "e27acfe916702ec8": 1795194054.9388816,
   "e28450a2909d63ed": 1795352482.973587,
   "e284f952f14757a2": 1794366148.4089472,
+  "e28cdbf8367fe00f": 1795449710.450662,
   "e2a260fb3e7aa381": 1795269759.4347854,
   "e2bed42139e803bb": 1795217454.61787,
   "e34389c32b33e596": 1794929483.5526125,
@@ -13298,6 +13329,7 @@
    "Deadline": 1,
    "IGN": 2,
    "Insider Gaming": 9,
+   "Loudwire": 1,
    "PC Gamer": 3,
    "PlayUA": 1,
    "Polygon": 5,
@@ -13306,7 +13338,7 @@
   "sources": {
    "/Film": 3,
    "Blabbermouth": 1,
-   "Bloomberg": 5,
+   "Bloomberg": 6,
    "DOU": 1,
    "DOU Gamedev": 1,
    "Deadline": 14,
@@ -13323,16 +13355,16 @@
    "Pitchfork": 1,
    "PlayUA": 1,
    "Polygon": 5,
-   "Rock Paper Shotgun": 2,
+   "Rock Paper Shotgun": 3,
    "VGC": 3,
    "Variety": 5
   },
   "translators": {
    "DeepL": 5,
    "gemini-flash-latest": 2,
-   "gemini-flash-lite-latest": 19,
+   "gemini-flash-lite-latest": 20,
    "gemma-4-26b-a4b-it": 21,
-   "gemma-4-31b-it": 22
+   "gemma-4-31b-it": 23
   },
   "week": "2026-W48"
  },
@@ -13366,11 +13398,6 @@
    "1304930",
    "The Outlast Trials",
    1793043084.478929
-  ],
-  "id:1313140": [
-   "1313140",
-   "Cult of the Lamb",
-   1792855907.4376466
   ],
   "id:1649950": [
    "1649950",
@@ -13552,11 +13579,6 @@
    "Resident Evil Requiem",
    1793043084.60938
   ],
-  "id:3812600": [
-   "3812600",
-   "ReStory: Chill Electronics Repairs",
-   1792855907.165185
-  ],
   "id:3883590": [
    "3883590",
    "HeroQuest: Digital Edition",
@@ -13666,11 +13688,6 @@
    "5249200",
    "Caves of Qud: Diaspora",
    1794981684.867033
-  ],
-  "id:5319690": [
-   "5319690",
-   "Wasteland Gunsmith Simulator Demo",
-   1792855906.858977
   ],
   "id:5335510": [
    "5335510",
@@ -14021,31 +14038,6 @@
    4386680,
    "Anywhere",
    1793280734.6665943
-  ],
-  "q:apex": [
-   0,
-   "",
-   1795275084.70347
-  ],
-  "q:apex neural": [
-   0,
-   "",
-   1795275084.2053509
-  ],
-  "q:apex neural rendering": [
-   0,
-   "",
-   1795275083.6433988
-  ],
-  "q:apex neural rendering can": [
-   0,
-   "",
-   1795275083.0850785
-  ],
-  "q:apex neural rendering can independent": [
-   0,
-   "",
-   1795275082.620797
   ],
   "q:art from": [
    0,
@@ -14711,21 +14703,6 @@
    2252680,
    "Farlands",
    1792958489.5209355
-  ],
-  "q:feature apex": [
-   0,
-   "",
-   1795275081.9320438
-  ],
-  "q:feature apex neural": [
-   0,
-   "",
-   1795275081.4018955
-  ],
-  "q:feature apex neural rendering": [
-   0,
-   "",
-   1795275080.7970898
   ],
   "q:feature this": [
    0,
@@ -15521,26 +15498,6 @@
    5049580,
    "Neosis Echoes",
    1793813563.3796542
-  ],
-  "q:neural rendering": [
-   0,
-   "",
-   1795275086.60699
-  ],
-  "q:neural rendering can": [
-   0,
-   "",
-   1795275086.1382222
-  ],
-  "q:neural rendering can independent": [
-   0,
-   "",
-   1795275085.6621583
-  ],
-  "q:neural rendering can independent devs": [
-   0,
-   "",
-   1795275085.1935
   ],
   "q:neuralink": [
    0,
@@ -16895,47 +16852,44 @@
  },
  "tag_hints": {
   "Mezha": [
-   "discord",
+   "grapheneos",
    "helsing",
-   "mesh-системи",
    "microsoft",
    "nvidia",
+   "rcs",
    "windows 7",
    "авто",
    "безпілотники",
    "бпла",
    "бізнес",
+   "військова техніка",
    "генштаб",
    "дрони",
    "дія",
    "електромобілі",
+   "застосунок",
    "зрк",
    "китай",
    "литва",
+   "месенджери",
    "мінцифра",
+   "наземні дрони",
    "новини",
+   "нрк",
    "оборонка",
+   "операційні системи",
    "перехоплювачі",
-   "розвіддрон",
-   "росія",
+   "робототехніка",
    "сили оборони",
    "софт",
    "ударні безпілотники",
    "україна",
-   "флеш",
-   "шпигунство",
    "штучний інтелект",
    "японія",
-   "європа",
-   "єс",
    "ігри"
   ]
  },
  "titles": [
-  [
-   1795275136.5634773,
-   "Feature: Apex Neural Rendering: Can Independent Devs Beat DLSS?"
-  ],
   [
    1795277144.8096786,
    "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop"
@@ -17595,13 +17549,17 @@
   [
    1795447915.5257723,
    "Plug in Digital acquires News Tower publisher Twin Sails Interactive, creating new publishing group to \"compete in a highly competitive market\""
+  ],
+  [
+   1795449790.6704218,
+   "This week in PC games: Raise a psychedelic baby, invent terrible new religions, and run your own PC hardware business"
+  ],
+  [
+   1795449854.863027,
+   "Stocks Soar as Huang’s Nvidia Return Fuels AI Bets"
   ]
  ],
  "titles_uk": [
-  [
-   1795275136.563478,
-   "Apex Compute випустила бета-версію нейронного рендерингу Apex Neural Rendering"
-  ],
   [
    1795277144.8096795,
    "Нова відкрита модель Inkling 2 Mini мислить циклами для вирішення завдань та працює на ноутбуці"
@@ -18261,6 +18219,14 @@
   [
    1795447915.5257728,
    "Plug In Digital купує видавця Twin Sails Interactive"
+  ],
+  [
+   1795449790.6704228,
+   "Rockstar North незабаром завершить голосування за створення профспілки"
+  ],
+  [
+   1795449854.8630288,
+   "Акції злетіли після повернення Jensen Huang на чолі Nvidia"
   ]
  ],
  "ukrainian": {
