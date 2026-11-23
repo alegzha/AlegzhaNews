@@ -2,7 +2,7 @@
  "alerts": {},
  "daily_digest_date": "2026-11-22",
  "freebies": {
-  "last_check": 1795404781.4638777,
+  "last_check": 1795412197.358478,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -31,11 +31,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-23 05:02 UTC",
-  "gemini_error": "",
+  "at": "2026-11-23 05:36 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
+   "gemma-4-26b-a4b-it": 2,
    "gemma-4-31b-it": 1
   },
   "used": [
@@ -43,32 +43,6 @@
   ]
  },
  "post_log": [
-  [
-   1794720679.803459,
-   5986,
-   "🎬",
-   "Джон Мулней провів сьомий випуск Saturday Night Live",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/snl-john-mulaney-roasts-rfk-jr-opening-monologue-1237224369/",
-    "orig": "‘SNL’: John Mulaney Roasts RFK Jr. In Opening Monologue, Makes Out With Jeremy Culhane"
-   }
-  ],
-  [
-   1794720683.1715717,
-   5987,
-   "🎬",
-   "Аманда Сейфрід уперше стане ведучою Saturday Night Live",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/amanda-seyfried-snl-host-debut-december-don-toliver-1236947942/",
-    "orig": "Amanda Seyfried to Make Her Debut as ‘Saturday Night Live’ Host"
-   }
-  ],
   [
    1794722570.2574205,
    5988,
@@ -8658,7 +8632,6 @@
    "Distorted Sound",
    {
     "also": [],
-    "caption": "🤘 <b>Firewind та Powerglove анонсували спільний тур Північною Америкою</b>\n\nFIREWIND та POWERGLOVE вирушають у спільний тур США. Грецькі павер-металісти та фаворити інструментального металу проведуть\n\n🔗 <a href=\"https://distortedsoundmag.com/firewind-and-powerglove-announce-co-headline-north-american-tour/\">Distorted Sound</a> · #музика",
     "kind": "photo",
     "link": "https://distortedsoundmag.com/firewind-and-powerglove-announce-co-headline-north-american-tour/",
     "orig": "Firewind and Powerglove announce co-headline North American tour"
@@ -8672,7 +8645,6 @@
    "Distorted Sound",
    {
     "also": [],
-    "caption": "🤘 <b>Дерік Уайблі оголосив про вихід свого першого сольного альбому «Sum 41: Diamonds Of The Night: Vol 1»</b>\n🎧 Слухати: <a href=\"https://open.spotify.com/search/Deryck%20Whibley%20Sum%2041%3A%20Diamonds%20Of%20The%20Night%3A%20Vol%201\">Spotify</a> · <a href=\"https://music.youtube.com/search?q=Deryck%20Whibley%20Sum%2041%3A%20Diamonds%20Of%20The%20Night%3A%20Vol%201\">YouTube Music</a>\n\nДЕРИК УАЙБЛІ оголосив про вихід свого дебютного сольного альбому! Фронтмен гурту SUM 41 оголосив про випуск свого першого в історії сольного альбому «Sum 41»:\n\n🔗 <a href=\"https://distortedsoundmag.com/deryck-whibley-announces-debut-solo-album-sum-41-diamonds-of-the-night-vol-1/\">Distorted Sound</a> · #музика",
     "kind": "photo",
     "link": "https://distortedsoundmag.com/deryck-whibley-announces-debut-solo-album-sum-41-diamonds-of-the-night-vol-1/",
     "orig": "Deryck Whibley announces debut solo album ‘Sum 41: Diamonds Of The Night: Vol 1’"
@@ -9513,6 +9485,34 @@
     "link": "https://lambgoat.com/news/56019/crystal-lake-announce-february-2027-japanese-shows/",
     "orig": "Crystal Lake announce February 2027 Japanese shows"
    }
+  ],
+  [
+   1795412136.6384964,
+   6722,
+   "🤘",
+   "Nirosta Steel представили альтернативні версії треків My Skyscraper",
+   "Pitchfork",
+   {
+    "also": [],
+    "caption": "🤘 <b>Nirosta Steel представили альтернативні версії треків My Skyscraper</b>\n\n“Grey Boy” та “Boss Trix” отримали версії “Boss Mix”\n\n🔗 <a href=\"https://pitchfork.com/story/nirosta-steel-shares-alternate-versions-of-my-skyscraper-tracks/\">Pitchfork</a> · #музика",
+    "kind": "photo",
+    "link": "https://pitchfork.com/story/nirosta-steel-shares-alternate-versions-of-my-skyscraper-tracks/",
+    "orig": "Nirosta Steel Shares Alternate Versions of My Skyscraper Tracks"
+   }
+  ],
+  [
+   1795412195.7698653,
+   6723,
+   "🎬",
+   "Дональд Трамп виступить на форумі національної оборони в бібліотеці Рейгана",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Дональд Трамп виступить на форумі національної оборони в бібліотеці Рейгана</b>\n\nДональд Трамп виголосить ключову промову на форумі національної оборони в бібліотеці Рональда Рейгана 4 грудня. Захід збере чиновників, бізнеслідерів та членів Конгресу для обговорення майбутнього військових США. Серед інших спікерів — Джеймі Даймон та Джон Редкліфф.\n\n🔗 <a href=\"https://deadline.com/2026/11/trump-l-a-reagan-library-speech-1237231401/\">Deadline</a> · #кіно_і_серіали",
+    "kind": "text",
+    "link": "https://deadline.com/2026/11/trump-l-a-reagan-library-speech-1237231401/",
+    "orig": "Trump Headed To L.A. For Reagan Library Speech"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9645,9 +9645,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1795320297.0768716,
-   1795321991.1758387,
-   1795325643.6948774,
    1795329101.771444,
    1795329147.8340385,
    1795330926.298976,
@@ -9657,7 +9654,8 @@
    1795392172.0808706,
    1795401093.743099,
    1795404779.8771253,
-   1795406507.2495375
+   1795406507.2495375,
+   1795412195.770188
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795087876.0739417
@@ -9733,7 +9731,7 @@
    1795392283.7441685
   ],
   "music|Pitchfork|https://pitchfork.com/feed/feed-news/rss": [
-   1795152758.4494793
+   1795412136.638777
   ],
   "music|Revolver|https://www.revolvermag.com/rss.xml": [
    1795070079.4944077
@@ -10089,6 +10087,7 @@
   "22816c518d305562": 1795267863.7397857,
   "2296fe9f1bf19e85": 1795003300.8773806,
   "22c0cfa89bfdb67b": 1794949478.0575066,
+  "22dc156cbb84f529": 1795412195.7701335,
   "22f515f288ce48ef": 1794650473.9104357,
   "231f5c47e1ea0a3a": 1795379477.9884183,
   "23469dfe27e6c5eb": 1794897085.7061157,
@@ -10294,7 +10293,6 @@
   "386561240bc43bd6": 1795368653.7654736,
   "387c2ca628aecf1e": 1795039256.6815968,
   "387ce3487493495b": 1795026653.649315,
-  "3894b974e2e932bb": 1794202308.1607726,
   "389b274465e4181b": 1794858079.9664185,
   "38a689033e13ca67": 1795284170.0762022,
   "38ad062e856f5967": 1795302267.1590843,
@@ -10969,7 +10967,6 @@
   "8641f798ec12191b": 1795215669.3813393,
   "8652cd6a606a25e5": 1795372260.5712729,
   "869876234a931020": 1794958255.0754318,
-  "869a19de6ce619a1": 1794202257.9998238,
   "87006c8374bde079": 1795152754.8605757,
   "87030049f7ce6f3f": 1795201253.256003,
   "872b211408774ad4": 1795294858.0238476,
@@ -11291,6 +11288,7 @@
   "ab8147a8889505e9": 1794414658.7033095,
   "abb0a1c37edeff0d": 1794724560.940137,
   "abe1d8fc6e2cad9b": 1794970883.2996304,
+  "ac2da02395ef4d7b": 1795412136.6387289,
   "ac69ed41281547d5": 1794808989.7637699,
   "ac7c280cb8b6019f": 1795069877.7112758,
   "ad528fda3d4a813b": 1794830453.3805504,
@@ -11324,7 +11322,6 @@
   "afebafccb65e39ee": 1794564055.7805443,
   "afff48cfbd5a0952": 1795127474.2218285,
   "b02a7dde28fd9a2c": 1794481254.5202796,
-  "b048cc831260425e": 1794202297.0677645,
   "b056e9a28adf5360": 1795032066.1770573,
   "b05a51106132a1fa": 1795352480.8464117,
   "b06a5a4736ee8ba8": 1795091577.2385314,
@@ -12458,7 +12455,7 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1795396227.7743018,
-  "blocked_until": 1795396154.2332697,
+  "blocked_until": 1795482687.618219,
   "cursor": 238,
   "digest_week": "2026-W47",
   "seen": {
@@ -13218,13 +13215,14 @@
    "/Film": 2,
    "Blabbermouth": 1,
    "Bloomberg": 4,
-   "Deadline": 6,
+   "Deadline": 7,
    "IndieWire": 1,
    "Lambgoat": 4,
    "Metal Hammer (Louder)": 5,
    "Mezha": 2,
    "Neformat": 4,
    "PC Gamer": 1,
+   "Pitchfork": 1,
    "Polygon": 4,
    "Variety": 3
   },
@@ -13232,8 +13230,8 @@
    "DeepL": 1,
    "gemini-flash-latest": 2,
    "gemini-flash-lite-latest": 7,
-   "gemma-4-26b-a4b-it": 14,
-   "gemma-4-31b-it": 11
+   "gemma-4-26b-a4b-it": 16,
+   "gemma-4-31b-it": 12
   },
   "week": "2026-W48"
  },
@@ -16540,18 +16538,6 @@
  },
  "titles": [
   [
-   1795237362.1854126,
-   "Angelus Apatrida premiere “Burn It Down” music video"
-  ],
-  [
-   1795239214.0430055,
-   "The 5 Best Songs Of The Week"
-  ],
-  [
-   1795239290.17254,
-   "Deltarune Chapter 6 Is Playable From Start to Finish"
-  ],
-  [
    1795240911.7938561,
    "Wrestler Breaks Leg at Metalcore Band's 25th Anniversary Show"
   ],
@@ -17150,21 +17136,17 @@
   [
    1795410147.0820153,
    "Crystal Lake announce February 2027 Japanese shows"
+  ],
+  [
+   1795412136.6387308,
+   "Nirosta Steel Shares Alternate Versions of My Skyscraper Tracks"
+  ],
+  [
+   1795412195.770136,
+   "Trump Headed To L.A. For Reagan Library Speech"
   ]
  ],
  "titles_uk": [
-  [
-   1795237362.1854134,
-   "Angelus Apatrida представили кліп на пісню Burn It Down"
-  ],
-  [
-   1795239214.0430067,
-   "5 найкращих пісень цього тижня"
-  ],
-  [
-   1795239290.172541,
-   "Deltarune Chapter 6 вже можна пройти від початку до кінця"
-  ],
   [
    1795240911.793857,
    "Реслер зламав ногу під час концерту It Dies Today у мошпі"
@@ -17764,6 +17746,14 @@
   [
    1795410147.0820162,
    "Crystal Lake анонсували концерти в Японії на лютий 2027 року"
+  ],
+  [
+   1795412136.6387317,
+   "Nirosta Steel представили альтернативні версії треків My Skyscraper"
+  ],
+  [
+   1795412195.7701373,
+   "Дональд Трамп виступить на форумі національної оборони в бібліотеці Рейгана"
   ]
  ],
  "ukrainian": {
