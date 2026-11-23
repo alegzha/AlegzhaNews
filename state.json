@@ -1,15 +1,8 @@
 {
- "alerts": {
-  "src:software|AIN.ua|https://ain.ua/feed/": {
-   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out.",
-   "label": "Джерело «AIN.ua» не працює",
-   "sent": 0,
-   "since": 1795449708.1600811
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-22",
  "freebies": {
-  "last_check": 1795444297.992101,
+  "last_check": 1795451497.9673157,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -50,45 +43,6 @@
   ]
  },
  "post_log": [
-  [
-   1794760180.7984927,
-   6023,
-   "🎮",
-   "Xbox святкує 25 років: спогади про всю неймовірну історію бренда",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/xbox-at-25-my-memories-from-across-xboxs-entire-and-quite-incredible-history",
-    "orig": "Xbox at 25: My Memories From Across Xbox’s Entire (and Quite Incredible) History"
-   }
-  ],
-  [
-   1794760184.2001336,
-   6024,
-   "🎮",
-   "Для Slay the Spire 2 випустили бета-тест нового персонажа та двох режимів",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/games/roguelike/slay-the-spire-2-has-a-new-character-in-testing-and-shes-really-quite-busted/",
-    "orig": "Slay the Spire 2 has a new character in testing, and she's really quite busted"
-   }
-  ],
-  [
-   1794760193.6005056,
-   6025,
-   "🎮",
-   "Анонсовано ремейк Super Meat Boy без участі Едмунда МакМіллена",
-   "Polygon",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.polygon.com/super-meat-boy-again-announcement/",
-    "orig": "Super Meat Boy Is Officially Getting Remade Without Edmund McMillen's Involvement"
-   }
-  ],
   [
    1794765683.2385871,
    6026,
@@ -8756,7 +8710,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Акції ринків, що розвиваються, втрачають прибуток через розпродажі у сфері ШІ</b>\n\nАкції ринків, що розвиваються, можуть повністю втратити здобутки цього року через побоювання щодо стійкості індустрії штучного інтелекту. Це спричиняє хвилю розпродажів на ринках від США до Азії.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-23/emerging-market-stocks-set-to-erase-2026-gains-on-ai-selloff\">Bloomberg</a> · #ШІ #AI",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-23/emerging-market-stocks-set-to-erase-2026-gains-on-ai-selloff",
     "orig": "Emerging-Market Stocks Set to Erase 2026 Gains on AI Selloff"
@@ -8770,7 +8723,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Шеріл Кроу розповіла про спадщину Доллі Партон</b>\n\nШеріл Кроу поділилася думками про щирість та спадщину Доллі Партон. Співачка відзначила здатність артистки підтримувати людей і надихати оточуючих. Також згадується рішення перейменувати аеропорт у Нешвіллі на честь Доллі Партон.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/interviews/sheryl-crow-the-importance-of-being-more-like-dolly-parton\">Metal Hammer (Louder)</a> · #музика #SherylCrow #DollyParton",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/interviews/sheryl-crow-the-importance-of-being-more-like-dolly-parton",
     "orig": "Sheryl Crow on the importance of being more like Dolly Parton"
@@ -9606,6 +9558,34 @@
     "link": "https://www.bloomberg.com/news/videos/2026-11-23/stocks-soar-as-huang-s-nvidia-return-fuels-ai-bets-video",
     "orig": "Stocks Soar as Huang’s Nvidia Return Fuels AI Bets"
    }
+  ],
+  [
+   1795451486.0648985,
+   6767,
+   "🤖",
+   "Німецькі військові вперше випробували дрони-камікадзе від Helsing і Stark на танках-мішенях у Литві",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🤖 <b>Німецькі військові вперше випробували дрони-камікадзе від Helsing і Stark на танках-мішенях у Литві</b>\n\nНімецька армія вперше випробувала дрони-камікадзе компаній Helsing і Stark на танках-мішенях у Литві. Також військові протестували систему ШІ Clarity для визначення цілей.\n\n🔗 <a href=\"https://oboronka.mezha.ua/droni-kamikadze-vid-helsing-i-stark-na-tankah-mishenyah-317488/\">Mezha</a> · #ШІ",
+    "kind": "photo",
+    "link": "https://oboronka.mezha.ua/droni-kamikadze-vid-helsing-i-stark-na-tankah-mishenyah-317488/",
+    "orig": "Німецькі військові вперше випробували дрони-камікадзе від Helsing і Stark на танках-мішенях у Литві"
+   }
+  ],
+  [
+   1795451488.626384,
+   6768,
+   "💾",
+   "Замість Google Messages: GrapheneOS створила застосунок для RCS-повідомлень із наскрізним шифруванням",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "💾 <b>Замість Google Messages: GrapheneOS створила застосунок для RCS-повідомлень із наскрізним шифруванням</b>\n\nКоманда орієнтованої на конфіденційність мобільної операційної системи GrapheneOS розробила експериментальний месенджер із підтримкою RCS – сучасного стандарту обміну повідомленнями, розробленого для поступової заміни SMS.\n\n🔗 <a href=\"https://mezha.ua/news/grapheneos-rcs-app-317489/\">Mezha</a> · #софт",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/grapheneos-rcs-app-317489/",
+    "orig": "Замість Google Messages: GrapheneOS створила застосунок для RCS-повідомлень із наскрізним шифруванням"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9634,10 +9614,10 @@
    1795264288.182137
   ],
   "ai|Mezha|https://mezha.ua/feed/": [
-   1795356231.0108917,
    1795393944.2895381,
    1795398618.576204,
-   1795419075.1228287
+   1795419075.1228287,
+   1795451486.0651023
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1795365182.2472267,
@@ -9866,7 +9846,8 @@
    1795444288.9766896
   ],
   "software|Mezha|https://mezha.ua/feed/": [
-   1795444286.8857412
+   1795444286.8857412,
+   1795451488.6265895
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1794990707.3620176,
@@ -9915,7 +9896,6 @@
   "04cd989d5875ca72": 1795024884.9419575,
   "04f7ab6902985e49": 1794412878.730195,
   "050ea7aed04e3489": 1795017653.3598104,
-  "0521b732b16c16eb": 1794241852.9158669,
   "0524f91cd2795cb8": 1795208454.5689726,
   "05414e171daf5c5a": 1794344481.8467357,
   "05633073ef61800f": 1794294082.9916484,
@@ -10225,7 +10205,6 @@
   "2705c88e0a367dd4": 1795008701.2971165,
   "2715629e7d4a057f": 1794544460.9972136,
   "2722e18aaa1f07f4": 1795075254.4414396,
-  "27440f1e34a8f8bf": 1794241852.9158669,
   "279d773f2dd2cfc0": 1795059079.8747375,
   "279e28d5a980b132": 1794484988.2377057,
   "27b1aa235e117cd8": 1795141877.79079,
@@ -10258,7 +10237,6 @@
   "29ae30ee721e8e28": 1794589276.7801428,
   "29b189b5e78c174c": 1794555074.999187,
   "2a202f7d4ea389d5": 1794576655.1775482,
-  "2a3930aaf407205c": 1794241852.9158669,
   "2a5abb1256d183b5": 1794816283.4074228,
   "2a5b94a5da077ffd": 1794976424.2125158,
   "2a60ff600a40d1b4": 1794895284.6402338,
@@ -10811,7 +10789,6 @@
   "695d164d4b3946c6": 1795098686.4602711,
   "696e797bbaf87c69": 1795179746.3112137,
   "6972dcc27e7f9599": 1795021302.889339,
-  "697a5163ec67ca2c": 1794241881.363532,
   "6982fd58f2795fac": 1794684678.5952117,
   "6983a6617b084577": 1795235553.775485,
   "698870d03787a1c7": 1794560451.8675945,
@@ -10830,6 +10807,7 @@
   "6ad3b63ac5f73385": 1794580255.5600233,
   "6b13b5939d2fdca9": 1795242678.5381863,
   "6b173b7065c2acd2": 1795303856.0284865,
+  "6b419b52338881d4": 1795451466.621939,
   "6b443038782082d8": 1795201509.537692,
   "6b55fa25bf5d35d1": 1794803489.1798482,
   "6ba3a23fa211ace0": 1794866643.4631548,
@@ -10958,6 +10936,7 @@
   "7a611172b2abc75e": 1794310275.0560873,
   "7a6902c111ef1864": 1795096939.375861,
   "7a6f712d91815c42": 1795141424.1342742,
+  "7ab054b4996babcd": 1795451466.621939,
   "7ac34781fce60a85": 1795141499.5975015,
   "7ad5254cb90b9927": 1794682854.575637,
   "7ae546f7a2857dba": 1795140442.0977042,
@@ -11213,7 +11192,6 @@
   "9955dd9251a1ad76": 1795086056.5025625,
   "995dd9ac908f0022": 1795298457.372487,
   "9974ef79a57fccc7": 1794456162.6430361,
-  "998ca5903d76ff06": 1794241852.9158669,
   "999268c316e2c4e1": 1794987096.939376,
   "999ee7e1f36a32ae": 1794756685.861182,
   "99cfa61fa9d22c29": 1795440735.784049,
@@ -11464,6 +11442,7 @@
   "b41e2782d523a29d": 1795163455.9823968,
   "b43e8021dc45f495": 1795219257.6871395,
   "b46dada6e9c8b558": 1794836079.153923,
+  "b4920be50bc57862": 1795451488.6265445,
   "b4bfed7cd71d0d12": 1795082475.2382138,
   "b4d3048e3ccb2909": 1795442458.4385712,
   "b4eb91bedcddabc7": 1794769254.1605299,
@@ -11634,6 +11613,7 @@
   "c7720b73ff3263e2": 1794796286.0083234,
   "c7c1eab184fa6539": 1795014053.3303049,
   "c7f2cd8ac9554821": 1794339074.573024,
+  "c8770835e43047be": 1795451466.621939,
   "c8b4b39dc9888e8c": 1795129393.4172053,
   "c8bd7bddfbeb9fb6": 1794652341.239789,
   "c913b4db39d47bb9": 1794915180.2278678,
@@ -11791,6 +11771,7 @@
   "d9f34219f11437e9": 1795003298.0041707,
   "d9feef0f6eee3372": 1794394892.642675,
   "da01396b0c48bf33": 1795248056.922208,
+  "da052ec0e930a1f9": 1795451486.0650585,
   "da376550bcf71c9d": 1795188662.6550176,
   "da488d2bf9306801": 1794384247.7978582,
   "da5dc4eb4fbc5c01": 1794326455.216971,
@@ -13327,13 +13308,13 @@
    "/Film": 3,
    "Bloomberg": 7,
    "Deadline": 1,
-   "IGN": 2,
-   "Insider Gaming": 9,
+   "IGN": 3,
+   "Insider Gaming": 10,
    "Loudwire": 1,
    "PC Gamer": 3,
    "PlayUA": 1,
    "Polygon": 5,
-   "VGC": 6
+   "VGC": 7
   },
   "sources": {
    "/Film": 3,
@@ -13349,7 +13330,7 @@
    "Insider Gaming": 4,
    "Lambgoat": 4,
    "Metal Hammer (Louder)": 5,
-   "Mezha": 6,
+   "Mezha": 8,
    "Neformat": 4,
    "PC Gamer": 2,
    "Pitchfork": 1,
@@ -13523,11 +13504,6 @@
    "3230960",
    "EXODUS",
    1794974480.1157053
-  ],
-  "id:3288210": [
-   "3288210",
-   "Super Meat Boy 3D",
-   1792857742.5655243
   ],
   "id:3339970": [
    "3339970",
@@ -13819,16 +13795,6 @@
    "Отделение 38",
    1793896540.059568
   ],
-  "q:4": [
-   0,
-   "",
-   1795278676.912183
-  ],
-  "q:4 years": [
-   0,
-   "",
-   1795278676.3123143
-  ],
   "q:45 episode": [
    0,
    "",
@@ -13963,16 +13929,6 @@
    0,
    "",
    1795338083.9160552
-  ],
-  "q:after 4": [
-   0,
-   "",
-   1795278675.7511714
-  ],
-  "q:after 4 years": [
-   0,
-   "",
-   1795278675.240074
   ],
   "q:ai based": [
    0,
@@ -14739,26 +14695,6 @@
    "Final Days",
    1793901783.8363655
   ],
-  "q:finally have": [
-   0,
-   "",
-   1795278681.1798344
-  ],
-  "q:finally have some": [
-   0,
-   "",
-   1795278680.6632943
-  ],
-  "q:finally have some updates": [
-   0,
-   "",
-   1795278680.1309125
-  ],
-  "q:finally have some updates on cygames'": [
-   0,
-   "",
-   1795278679.5615642
-  ],
   "q:forbidden zone": [
    2117450,
    "Forbidden zone",
@@ -15399,11 +15335,6 @@
    "",
    1795446091.396178
   ],
-  "q:mouse p i for hire": [
-   2416450,
-   "MOUSE: P.I. For Hire",
-   1792857743.758594
-  ],
   "q:mouthwashing": [
    2475490,
    "Mouthwashing",
@@ -15498,21 +15429,6 @@
    5049580,
    "Neosis Echoes",
    1793813563.3796542
-  ],
-  "q:neuralink": [
-   0,
-   "",
-   1795277148.0124178
-  ],
-  "q:neuralink gta": [
-   0,
-   "",
-   1795277147.4157634
-  ],
-  "q:neuralink gta 6": [
-   0,
-   "",
-   1795277146.9246738
   ],
   "q:new dawn": [
    1644970,
@@ -15698,11 +15614,6 @@
    1020090,
    "Overcome",
    1793327483.8994296
-  ],
-  "q:p i": [
-   3374280,
-   "P.I.",
-   1792857743.151104
   ],
   "q:painted symphony'": [
    0,
@@ -16754,26 +16665,6 @@
    "",
    1795300277.9501088
   ],
-  "q:we finally": [
-   0,
-   "",
-   1795278679.0600803
-  ],
-  "q:we finally have": [
-   0,
-   "",
-   1795278678.5366995
-  ],
-  "q:we finally have some": [
-   0,
-   "",
-   1795278678.03056
-  ],
-  "q:we finally have some updates": [
-   0,
-   "",
-   1795278677.5211215
-  ],
   "q:wick": [
    418300,
    "Wick",
@@ -16854,22 +16745,21 @@
   "Mezha": [
    "grapheneos",
    "helsing",
+   "kodak",
    "microsoft",
    "nvidia",
+   "osint",
    "rcs",
    "windows 7",
-   "авто",
    "безпілотники",
    "бпла",
    "бізнес",
    "військова техніка",
-   "генштаб",
+   "військові заводи",
    "дрони",
    "дія",
-   "електромобілі",
    "застосунок",
-   "зрк",
-   "китай",
+   "зброя",
    "литва",
    "месенджери",
    "мінцифра",
@@ -16880,28 +16770,17 @@
    "операційні системи",
    "перехоплювачі",
    "робототехніка",
-   "сили оборони",
+   "росія",
    "софт",
+   "технології",
+   "трекер",
    "ударні безпілотники",
    "україна",
    "штучний інтелект",
-   "японія",
    "ігри"
   ]
  },
  "titles": [
-  [
-   1795277144.8096786,
-   "New open model Inkling 2 Mini thinks in loops to solve problems with fewer words and still runs on a laptop"
-  ],
-  [
-   1795277148.4402406,
-   "Чоловік з мозковим імплантом Neuralink зіграв у GTA 6 лише за допомогою сили думки"
-  ],
-  [
-   1795277275.7717803,
-   "Phasmophobia's next update lets you ask ghosts to throw things and it's out next week"
-  ],
   [
    1795278700.6768878,
    "After 4 Years, We Finally Have Some Updates on Cygames’ Metal Max"
@@ -17557,21 +17436,17 @@
   [
    1795449854.863027,
    "Stocks Soar as Huang’s Nvidia Return Fuels AI Bets"
+  ],
+  [
+   1795451486.0650604,
+   "Німецькі військові вперше випробували дрони-камікадзе від Helsing і Stark на танках-мішенях у Литві"
+  ],
+  [
+   1795451488.6265461,
+   "Замість Google Messages: GrapheneOS створила застосунок для RCS-повідомлень із наскрізним шифруванням"
   ]
  ],
  "titles_uk": [
-  [
-   1795277144.8096795,
-   "Нова відкрита модель Inkling 2 Mini мислить циклами для вирішення завдань та працює на ноутбуці"
-  ],
-  [
-   1795277148.440241,
-   "Чоловік з мозковим імплантом Neuralink зіграв у GTA 6 лише за допомогою сили думки"
-  ],
-  [
-   1795277275.7717812,
-   "Phasmophobia отримає оновлення Resonance з новими командами для привидів та переходом на Unity 6"
-  ],
   [
    1795278700.6768885,
    "Cygames зареєструвала торговельну марку Metal Max"
@@ -18227,6 +18102,14 @@
   [
    1795449854.8630288,
    "Акції злетіли після повернення Jensen Huang на чолі Nvidia"
+  ],
+  [
+   1795451486.0650609,
+   "Німецькі військові вперше випробували дрони-камікадзе від Helsing і Stark на танках-мішенях у Литві"
+  ],
+  [
+   1795451488.6265469,
+   "Замість Google Messages: GrapheneOS створила застосунок для RCS-повідомлень із наскрізним шифруванням"
   ]
  ],
  "ukrainian": {
@@ -20694,7 +20577,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795447924.401978,
+  "last_check": 1795451497.442334,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
