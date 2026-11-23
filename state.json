@@ -1,8 +1,21 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:ai|The Decoder|https://the-decoder.com/feed/": {
+   "detail": "https://the-decoder.com/feed/ → 500 Server Error: Internal Server Error for url: https://the-decoder.com/feed/",
+   "label": "Джерело «The Decoder» не працює",
+   "sent": 0,
+   "since": 1795428113.5534124
+  },
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795428103.963398
+  }
+ },
  "daily_digest_date": "2026-11-22",
  "freebies": {
-  "last_check": 1795421316.8838024,
+  "last_check": 1795428531.1509376,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -31,69 +44,19 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-23 09:31 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-23 10:08 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-31b-it": 1
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794735166.9773545,
-   6003,
-   "🤘",
-   "Deftones вшанували Joy Division та New Order каверами на церемонії Rock & Roll Hall Of Fame",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/11/15/news/deftones-helped-induct-joy-division-new-order-into-the-rock-roll-hall-of-fame-with-covers-and-special-guests/",
-    "orig": "Deftones Helped Induct Joy Division & New Order Into The Rock & Roll Hall Of Fame With Covers And Special Guests"
-   }
-  ],
-  [
-   1794735531.8538642,
-   6004,
-   "💾",
-   "JuliusBrussee/caveman",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/JuliusBrussee/caveman",
-    "orig": "JuliusBrussee/caveman"
-   }
-  ],
-  [
-   1794736889.2866375,
-   6005,
-   "🤘",
-   "Dragged Under випустили новий трек Beautiful World",
-   "Distorted Sound",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://distortedsoundmag.com/dragged-under-release-new-song-beautiful-world/",
-    "orig": "Dragged Under release new song ‘Beautiful World’"
-   }
-  ],
-  [
-   1794736922.7313142,
-   6006,
-   "💾",
-   "Tencent заснувала нову студію LoopForge",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/Tencent/LoopForge",
-    "orig": "Tencent/LoopForge"
-   }
-  ],
   [
    1794738676.6176918,
    6007,
@@ -8675,7 +8638,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>ШІ-агенти для кодування провалюють реальну роботу в симуляції офісу</b>\n\nНове тестування помістило ШІ-агенти в умови реальної роботи розробника з колегами, тасками та неповними завданнями. Навіть найпродвинутіші моделі вирішують менш як одне з десяти завдань у хаосі щоденного воркфлоу.\n\n🔗 <a href=\"https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/\">The Decoder</a> · #ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/ai-coding-agents-ace-isolated-tests-but-complete-fewer-than-one-in-ten-tasks-in-a-simulated-workplace/",
     "orig": "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace"
@@ -8689,7 +8651,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>The Hunger Games: Sunrise on the Reaping дебютував із $120 мільйонами</b>\n\nThe Hunger Games: Sunrise on the Reaping зібрав $120 мільйонів у домашньому прокаті та $225 мільйонів по всьому світу. Це значний ріст порівняно з попереднім фільмом The Ballad of Songbirds &amp; Snakes. Успіх стрічки допомагає Lionsgate відновитися після низки касових провалів.\n\n🔗 <a href=\"https://www.indiewire.com/news/box-office/hunger-games-sunrise-on-the-reaping-revives-franchise-1235229881/\">IndieWire</a> · #кіно_і_серіали #HungerGames #Lionsgate",
     "kind": "photo",
     "link": "https://www.indiewire.com/news/box-office/hunger-games-sunrise-on-the-reaping-revives-franchise-1235229881/",
     "orig": "Box Office: ‘Hunger Games: Sunrise on the Reaping’ Debuts to Mighty $120 Million, Reviving Lionsgate’s Most Important Franchise"
@@ -9525,6 +9486,34 @@
     "link": "https://itc.ua/ua/novini/the-last-of-us-part-ii-otrymala-bezkoshtovnyj-multypleyer-na-pk/",
     "orig": "The Last of Us Part II отримала безкоштовний мультиплеєр на ПК"
    }
+  ],
+  [
+   1795428211.7930388,
+   6741,
+   "🎬",
+   "Дружина Russell Brand заявила, що більше не передаватиме його послання з в'язниці",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Дружина Russell Brand заявила, що більше не передаватиме його послання з в&#x27;язниці</b>\n\nLaura Brand пообіцяла суворо дотримуватися тюремних правил і припинити передачу будь-яких повідомлень від свого чоловіка-коміка\n\n🔗 <a href=\"https://variety.com/2026/digital/global/russell-brand-wife-prison-rules-1236955715/\">Variety</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/digital/global/russell-brand-wife-prison-rules-1236955715/",
+    "orig": "Russell Brand’s Wife Says She Will No Longer Pass on Prison Messages From Him ‘Now That I Understand the Parameters’"
+   }
+  ],
+  [
+   1795428529.2319975,
+   6742,
+   "🎬",
+   "VFX-студія Outpost, що працює над ‘The Uprising’, призначила Енді Макнамара директором із креативних інновацій",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>VFX-студія Outpost, що працює над ‘The Uprising’, призначила Енді Макнамара директором із креативних інновацій</b>\n\nЕКСКЛЮЗИВ: Компанія Outpost VFX («The Uprising») призначила Енді Макнамару на посаду директора з креативних інновацій. Макнамара перейшов до компанії з Cinesite, де очолював ініціативи з інновацій у сфері штучного інтелекту. До цього він працював директором з комп’ютерної графіки та інновацій у Publicis Production.\n\n🔗 <a href=\"https://deadline.com/2026/11/outpost-vfx-andy-mcnamara-director-of-creative-innovation-1237231456/\">Deadline</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/outpost-vfx-andy-mcnamara-director-of-creative-innovation-1237231456/",
+    "orig": "‘The Uprising’ VFX Company Outpost Hires Andy McNamara As Director of Creative Innovation"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9666,7 +9655,8 @@
    1795412195.770188,
    1795413692.9348395,
    1795417373.546753,
-   1795421304.336377
+   1795421304.336377,
+   1795428529.23223
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795422683.5492282
@@ -9685,9 +9675,8 @@
    1795415550.562963
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
-   1795309620.247094,
-   1795341793.5309024,
-   1795385051.1845593
+   1795385051.1845593,
+   1795428211.793298
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
    1795321882.7462256,
@@ -10297,7 +10286,6 @@
   "37a8709304e91818": 1795001460.8855703,
   "37ccbd8a97b28a34": 1795199460.213731,
   "37dc1299685130c1": 1795401093.7430434,
-  "3809cdc19b7d03a5": 1794218581.2804193,
   "381a523e6f789745": 1795165257.754759,
   "3842d8555ab65648": 1794969091.2424684,
   "3859791d3bf42656": 1794501093.1854599,
@@ -10586,7 +10574,6 @@
   "5b7bcc59db636b58": 1795134919.4814339,
   "5b97842de015809e": 1795039384.3064091,
   "5ba9b5832ada88ed": 1794682854.575637,
-  "5bb8b87955a257ca": 1794218683.4613059,
   "5c763a38c201ef2e": 1794283284.564199,
   "5c7af98210427b8c": 1794668451.1657076,
   "5c9ed0adbe744f64": 1795133038.9434793,
@@ -10956,6 +10943,7 @@
   "82b66046a6494248": 1794871890.616934,
   "82cd917056ad5a79": 1794609055.1572344,
   "83186b0550e5f2fc": 1794556877.7875981,
+  "8320190e0fc01253": 1795428068.0022252,
   "8336713aa465608a": 1795176534.3024645,
   "834fa9ad8d3bea42": 1794877544.3017933,
   "8369124588b6b50c": 1795143682.665886,
@@ -11177,6 +11165,7 @@
   "9dd88052038caeda": 1795015855.7187512,
   "9ddca75584c9d30b": 1795248084.6343286,
   "9de5fd64600dd768": 1795145477.112178,
+  "9dec76a1fcfa99e6": 1795428211.79325,
   "9e085a255c73df4d": 1794268881.4913025,
   "9e1a7d7c3e61dc71": 1794421855.4705105,
   "9e5fb1e477b95fb9": 1794920486.4120889,
@@ -11311,6 +11300,7 @@
   "adaa3b59b7ba0601": 1794807087.558263,
   "adad4ea4f55d3dee": 1795014053.3303049,
   "ade05c41d1e8af3a": 1795332802.8840997,
+  "adf232c5c577238f": 1795428529.2321818,
   "adf61b1b008063cd": 1795410102.1827037,
   "ae0b07e83910e6ba": 1794760193.6006799,
   "ae3e8dbf7e1428bf": 1794405652.9407847,
@@ -11575,7 +11565,6 @@
   "cd8d02a3b1a16eaf": 1794553280.0375872,
   "cdbb933a5771f5c7": 1795327352.1949816,
   "cdc610afb464be42": 1794434455.0331035,
-  "cdf604e928ac5675": 1794216794.563987,
   "ce0525d6b3684094": 1795249978.0018566,
   "ce08e26a35621285": 1794909706.0220678,
   "ce2602391dd325fd": 1794286881.4187279,
@@ -11690,6 +11679,7 @@
   "d8eb28f4182a6d02": 1795156258.7728462,
   "d942d6f02f28b831": 1794508289.1311436,
   "d96c3c5a836c792f": 1795141877.7904732,
+  "d96e61366cce59f5": 1795428068.0022252,
   "d9a650738e32ea43": 1794733368.4778433,
   "d9b73c97285547ab": 1795044685.7933068,
   "d9ded6b1769f49fa": 1795145843.3549428,
@@ -11742,7 +11732,6 @@
   "e012fe2effbf0ad6": 1795046491.8422067,
   "e0171016b64ad4fc": 1794412899.1679995,
   "e02468f18c872112": 1795222970.5537045,
-  "e06e9257163cac0d": 1794218452.690086,
   "e07123461fe01938": 1794736889.2868085,
   "e0d00c08b8c853e2": 1794555081.9932432,
   "e0ff9411e353d849": 1794466941.6055038,
@@ -13225,8 +13214,9 @@
   "filtered": {
    "/Film": 1,
    "Bloomberg": 3,
+   "Deadline": 1,
    "PlayUA": 1,
-   "Polygon": 3,
+   "Polygon": 4,
    "VGC": 4
   },
   "sources": {
@@ -13234,7 +13224,7 @@
    "Blabbermouth": 1,
    "Bloomberg": 4,
    "DOU Gamedev": 1,
-   "Deadline": 10,
+   "Deadline": 11,
    "Eurogamer": 1,
    "ITC.ua": 5,
    "IndieWire": 1,
@@ -13246,14 +13236,14 @@
    "Pitchfork": 1,
    "PlayUA": 1,
    "Polygon": 4,
-   "Variety": 4
+   "Variety": 5
   },
   "translators": {
-   "DeepL": 3,
+   "DeepL": 4,
    "gemini-flash-latest": 2,
-   "gemini-flash-lite-latest": 11,
+   "gemini-flash-lite-latest": 12,
    "gemma-4-26b-a4b-it": 17,
-   "gemma-4-31b-it": 13
+   "gemma-4-31b-it": 14
   },
   "week": "2026-W48"
  },
@@ -16533,20 +16523,21 @@
   "Mezha": [
    "anthropic",
    "brawl stars",
+   "fpv-дрони",
    "fsd",
-   "galaxy watch",
-   "instagram",
-   "meta",
    "navi",
    "obriy.ai",
-   "samsung",
    "tesla",
    "авто",
+   "бпла",
    "відеоігри",
    "гелікоптери",
    "голодні ігри: світанок перед жнивами",
+   "гур",
    "дрони",
+   "зброя",
    "звільнення",
+   "катери",
    "корабель",
    "кіберспорт",
    "кіно",
@@ -16557,23 +16548,14 @@
    "освіта",
    "південна корея",
    "сбу",
-   "смартгодинники",
-   "соціальні мережі",
    "статті",
    "технології",
+   "ударні безпілотники",
    "штучний інтелект",
    "ігри"
   ]
  },
  "titles": [
-  [
-   1795253856.8415217,
-   "How AI Is Reshaping China's Industrial Policy"
-  ],
-  [
-   1795255451.048969,
-   "Michael Jackson Biopic ‘Michael’ Skipping BAFTAs"
-  ],
   [
    1795255749.9518778,
    "‘Al Hayba’ Star Taim Hasan To Play Syrian Whistleblower Farid Al-Madhhan In Neon-Backed ‘Caesar’ Biopic"
@@ -17193,17 +17175,17 @@
   [
    1795426300.396446,
    "The Last of Us Part II отримала безкоштовний мультиплеєр на ПК"
+  ],
+  [
+   1795428211.7932518,
+   "Russell Brand’s Wife Says She Will No Longer Pass on Prison Messages From Him ‘Now That I Understand the Parameters’"
+  ],
+  [
+   1795428529.2321842,
+   "‘The Uprising’ VFX Company Outpost Hires Andy McNamara As Director of Creative Innovation"
   ]
  ],
  "titles_uk": [
-  [
-   1795253856.8415227,
-   "Як штучний інтелект змінює промислову політику Китаю"
-  ],
-  [
-   1795255451.0489695,
-   "Біопік Michael про Майкла Джексона пропустить BAFTAs"
-  ],
   [
    1795255749.9518785,
    "Зірка серіалу «Аль-Хайба» Таїм Хасан зіграє роль сирійського викривача Фаріда Аль-Мадхана у біографічному фільмі «Цезар», знятому за підтримки компанії Neon"
@@ -17823,6 +17805,14 @@
   [
    1795426300.396447,
    "The Last of Us Part II отримала безкоштовний мультиплеєр на ПК"
+  ],
+  [
+   1795428211.7932527,
+   "Дружина Russell Brand заявила, що більше не передаватиме його послання з в'язниці"
+  ],
+  [
+   1795428529.2321851,
+   "VFX-студія Outpost, що працює над ‘The Uprising’, призначила Енді Макнамара директором із креативних інновацій"
   ]
  ],
  "ukrainian": {
