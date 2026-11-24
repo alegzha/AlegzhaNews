@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795491098.1375885
+  }
+ },
  "daily_digest_date": "2026-11-23",
  "freebies": {
   "last_check": 1795487538.7815804,
@@ -31,44 +38,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-24 03:03 UTC",
+  "at": "2026-11-24 03:32 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 1,
-   "gemma-4-31b-it": 1
+   "gemma-4-26b-a4b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794799881.6194437,
-   6065,
-   "🤘",
-   "Papa Roach майже завершили роботу над дванадцятим альбомом",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/papa-roach-is-about-halfway-done-with-twelfth-studio-album-were-taking-our-time-with-this-one-says-jacoby-shaddix",
-    "orig": "PAPA ROACH Is 'About Halfway Done' With Twelfth Studio Album: 'We're Taking Our Time With This One', Says JACOBY SHADDIX"
-   }
-  ],
-  [
-   1794799884.5387425,
-   6066,
-   "🎬",
-   "Серіал Star Trek: Picard міг розповідати про Nyota Uhura",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2311362/star-trek-picard-pitch-original-series-uhura-nichelle-nichols/",
-    "orig": "Star Trek: Picard Started As A Pitch For An Underused Original Series Character"
-   }
-  ],
   [
    1794801684.239939,
    6067,
@@ -8749,7 +8730,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Тайсон Ф&#x27;юрі розповів про діагноз «шизофренія» у документальному фільмі Netflix</b>\n\nУ відвертому документальному фільмі Netflix про Тайсона Ф’юрі чемпіон з боксу розповість про те, що йому поставили діагноз «шизофренія». Ця відверта зізнання прозвучить у повнометражному документальному фільмі «Тайсон Ф’юрі», прем’єра якого відбудеться на стрімінговому сервісі 27 листопада. Колишній чемпіон світу у важкій вазі зазначає, що діагноз йому поставили незабаром після перемоги у титульному поєдинку проти Володимира Кличка у 2015 році.\n\n🔗 <a href=\"https://deadline.com/2026/11/tyson-fury-reveals-schizophrenia-diagnosis-netflix-doc-1237231479/\">Deadline</a> · #кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/tyson-fury-reveals-schizophrenia-diagnosis-netflix-doc-1237231479/",
     "orig": "Tyson Fury Reveals Schizophrenia Diagnosis In Netflix Doc"
@@ -8763,7 +8743,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>«Податок на Netflix» може принести BBC до $2,1 млрд до 2032 року</b>\n\nЗапровадження «податку на Netflix» може принести BBC до $2,1 млрд до 2032 року. Нова модель передбачає обов&#x27;язкову сплату ліцензійного збору для глядачів стрімінгових сервісів, навіть якщо вони не дивляться BBC. У разі успішного впровадження річна вартість ліцензії може знизитися до £150.\n\n🔗 <a href=\"https://deadline.com/2026/11/bbc-licence-fee-netflix-tax-raise-extra-by-2032-1237231477/\">Deadline</a> · #кіно_і_серіали #BBC #Netflix",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/bbc-licence-fee-netflix-tax-raise-extra-by-2032-1237231477/",
     "orig": "Controversial “Netflix Tax” Could Raise Extra $2.1B For BBC By 2032, Research Finds"
@@ -9594,6 +9573,34 @@
     "link": "https://deadline.com/2026/11/david-zaslav-skydance-merger-gerhard-zeiler-wbd-emmys-1237232182/",
     "orig": "David Zaslav Recalls “Awkward Moment” Before Skydance Merger Close, Hails Ex-WBD Global Chief Gerhard Zeiler For Keeping Staff “Motivated”"
    }
+  ],
+  [
+   1795491106.462629,
+   6810,
+   "🎬",
+   "Марго Роббі знялася у романтичній комедії About Time у рік свого прориву",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Марго Роббі знялася у романтичній комедії About Time у рік свого прориву</b>\n\nУ 2013 році Марго Роббі зіграла невелику, але важливу роль у романтичній комедії Річарда Кертіса About Time. Того ж року акторка здобула всесвітню популярність завдяки фільму The Wolf of Wall Street, де знялася разом із Леонардо Ді Капріо.\n\n🔗 <a href=\"https://www.slashfilm.com/2321945/margot-robbie-time-travel-movie-about-time/\">/Film</a> · #кіно_і_серіали #MargotRobbie #AboutTime",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2321945/margot-robbie-time-travel-movie-about-time/",
+    "orig": "Margot Robbie Appeared In A Time Travel Movie The Same Year As Her Big Break"
+   }
+  ],
+  [
+   1795491138.2731614,
+   6811,
+   "🤖",
+   "США внесли до чорного списку дочірню компанію Alibaba",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>США внесли до чорного списку дочірню компанію Alibaba</b>\n\nАдміністрація Трампа внесла до чорного списку сингапурську дочірню компанію Alibaba Group Holding Ltd. та структури, пов&#x27;язані з Megaspeed International. Ця фірма була центром скандалу, через який Дженсен Хуанг на короткий час ледь не втратив посаду CEO Nvidia Corp.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-24/us-blacklists-alibaba-owned-company-in-setback-to-ai-ambitions\">Bloomberg</a> · #ШІ #Alibaba #Nvidia",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-24/us-blacklists-alibaba-owned-company-in-setback-to-ai-ambitions",
+    "orig": "US Blacklists Alibaba-Owned Company in Setback to AI Ambitions"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9602,12 +9609,11 @@
    1795341795.5158873
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1795396215.5888758,
-   1795397480.6420505,
    1795408443.1461227,
    1795442690.607772,
    1795449854.8630764,
-   1795480342.8666642
+   1795480342.8666642,
+   1795491138.273421
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1795438887.3734498
@@ -9709,7 +9715,8 @@
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1795406503.2354457,
    1795413697.161721,
-   1795487520.5012088
+   1795487520.5012088,
+   1795491106.4628894
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792944099.3403795,
@@ -9878,6 +9885,7 @@
   "021c3528c6072e9a": 1795291257.7166088,
   "021ea2600fd140a7": 1795006853.2084172,
   "027978085d9b4855": 1795116654.1601062,
+  "02cb591307df8ca9": 1795491106.4628417,
   "02e82a0803728488": 1794951055.3267138,
   "02f9ebbdd55cb2f6": 1794812490.789183,
   "031f6e6bd6045eee": 1795300292.7852383,
@@ -9983,7 +9991,6 @@
   "0f0bf832e98a78d4": 1795305751.7076674,
   "0f2a63b7e2d97278": 1795006853.2084172,
   "0fb410c04713d96b": 1795149176.8727546,
-  "0fbb7fb25526cb1c": 1794281499.191693,
   "0fe3faebeaaa410f": 1794371492.9669104,
   "0ff24f09d1e42fea": 1795160042.8999865,
   "1004f5b1d037c0c2": 1794908254.4516182,
@@ -10126,6 +10133,7 @@
   "1e4de2bd0543e6cb": 1794848603.8456602,
   "1e5a4dc1a65f7fdc": 1794866640.181034,
   "1e65c85f2d27e844": 1795273254.563207,
+  "1e68a87e12bd310c": 1795491138.2733753,
   "1ead691778e66bd5": 1795046485.522547,
   "1efd62da292e708f": 1795347075.3534288,
   "1f13333715503e57": 1795105887.5865674,
@@ -11010,7 +11018,6 @@
   "81dd8fcf722b9eb8": 1794357093.8702137,
   "81def5cca7df6ff7": 1794423654.150766,
   "81f04d86ad7df520": 1794798094.9699845,
-  "81f33d0f3f662b41": 1794279817.6539667,
   "81f5d7491478f014": 1794598254.991745,
   "81fa9d8f96e0c5f4": 1795285856.5140746,
   "8230676e758c7160": 1794416454.8117797,
@@ -12577,7 +12584,7 @@
   ],
   "artists_checked": 1795484010.3004506,
   "blocked_until": 1795482687.618219,
-  "cursor": 278,
+  "cursor": 288,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13347,9 +13354,9 @@
    "Variety": 1
   },
   "sources": {
-   "/Film": 4,
+   "/Film": 5,
    "Blabbermouth": 3,
-   "Bloomberg": 10,
+   "Bloomberg": 11,
    "DOU": 1,
    "DOU Gamedev": 1,
    "Deadline": 19,
@@ -13378,8 +13385,8 @@
   "translators": {
    "DeepL": 8,
    "gemini-flash-latest": 5,
-   "gemini-flash-lite-latest": 30,
-   "gemma-4-26b-a4b-it": 28,
+   "gemini-flash-lite-latest": 31,
+   "gemma-4-26b-a4b-it": 29,
    "gemma-4-31b-it": 33
   },
   "week": "2026-W48"
@@ -13924,16 +13931,6 @@
    0,
    "",
    1795338083.9160552
-  ],
-  "q:ai based": [
-   0,
-   "",
-   1795316489.6561482
-  ],
-  "q:ai based r": [
-   0,
-   "",
-   1795316489.1428807
   ],
   "q:ai generated": [
    0,
@@ -15585,11 +15582,6 @@
    "Queen's Domain",
    1793885633.6638594
   ],
-  "q:r d": [
-   0,
-   "",
-   1795316490.200716
-  ],
   "q:r rated": [
    0,
    "",
@@ -17100,6 +17092,14 @@
   [
    1795489396.8073595,
    "David Zaslav Recalls “Awkward Moment” Before Skydance Merger Close, Hails Ex-WBD Global Chief Gerhard Zeiler For Keeping Staff “Motivated”"
+  ],
+  [
+   1795491106.4628444,
+   "Margot Robbie Appeared In A Time Travel Movie The Same Year As Her Big Break"
+  ],
+  [
+   1795491138.273378,
+   "US Blacklists Alibaba-Owned Company in Setback to AI Ambitions"
   ]
  ],
  "titles_uk": [
@@ -17770,6 +17770,14 @@
   [
    1795489396.8073606,
    "Девід Заслав пригадав «незручний момент» перед злиттям зі Skydance"
+  ],
+  [
+   1795491106.4628448,
+   "Марго Роббі знялася у романтичній комедії About Time у рік свого прориву"
+  ],
+  [
+   1795491138.2733786,
+   "США внесли до чорного списку дочірню компанію Alibaba"
   ]
  ],
  "ukrainian": {
@@ -18368,6 +18376,7 @@
    "552990": "i",
    "553850": "",
    "570": "i",
+   "570940": "",
    "578080": "i",
    "582010": "",
    "582160": "",
@@ -18429,8 +18438,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1795469499.783665,
-  "with_uk": 94
+  "last_check": 1795491157.1927612,
+  "with_uk": 95
  },
  "weekly_releases_week": "2026-W48",
  "wishlist": {
@@ -20242,7 +20251,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795487538.6034381,
+  "last_check": 1795491146.9570794,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
