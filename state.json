@@ -1,24 +1,5 @@
 {
- "alerts": {
-  "src:games|PC Gamer|https://www.pcgamer.com/rss/": {
-   "detail": "https://www.pcgamer.com/rss/ → 404 Client Error: Not Found for url: https://www.pcgamer.com/rss/",
-   "label": "Джерело «PC Gamer» не працює",
-   "sent": 0,
-   "since": 1795532457.4256833
-  },
-  "src:games|PlayUA|https://playua.net/feed/": {
-   "detail": "https://playua.net/feed/ → HTTPSConnectionPool(host='playua.net', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «PlayUA» не працює",
-   "sent": 0,
-   "since": 1795536091.5302052
-  },
-  "src:music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": {
-   "detail": "https://www.loudersound.com/feeds/all → 404 Client Error: Not Found for url: https://www.loudersound.com/feeds.xml",
-   "label": "Джерело «Metal Hammer (Louder)» не працює",
-   "sent": 0,
-   "since": 1795532472.6901782
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-23",
  "freebies": {
   "last_check": 1795534315.1329777,
@@ -50,7 +31,7 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-24 16:03 UTC",
+  "at": "2026-11-24 16:31 UTC",
   "gemini_error": "",
   "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
@@ -61,37 +42,6 @@
   ]
  },
  "post_log": [
-  [
-   1794846689.2411819,
-   6119,
-   "🤖",
-   "97 КБ та 40 рядків: Claude Fable 5.2 допоміг створити процедурно генерований підводний світ Abyssal Garden",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/claude-fable-5-2-generated-abyssal-garden-317263/",
-    "orig": "97 КБ та 40 рядків: Claude Fable 5.2 допоміг створити процедурно генерований підводний світ Abyssal Garden"
-   }
-  ],
-  [
-   1794846691.2533643,
-   6120,
-   "🤖",
-   "Google попереджає про близькі повністю автоматизовані хакерські атаки на базі ШІ",
-   "ITC.ua",
-   {
-    "also": [
-     [
-      "The Decoder",
-      "https://the-decoder.com/google-warns-that-fully-automated-cyberattacks-have-arrived-and-will-get-worse-fast/"
-     ]
-    ],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/google-poperedzhaye-pro-blyzki-povnistyu-avtomatyzovani-hakerski-ataky-na-bazi-shi/",
-    "orig": "Google попереджає про близькі повністю автоматизовані хакерські атаки на базі ШІ"
-   }
-  ],
   [
    1794848603.8454394,
    6121,
@@ -8754,7 +8704,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Бела Баджарія про життя після Netflix: «Я не з тих, хто просто повторює те саме»</b>\n\nБела Баджарія розповіла Deadline, що після звільнення з посади керівника контенту Netflix минулого місяця їй постійно дзвонять. «Я отримала багато підтримки», — зазначила вона в Нью-Йорку в понеділок перед отриманням нагороди Founders Award на International Emmys. Це її перші публічні коментарі після відходу з Netflix у жовтні.\n\n🔗 <a href=\"https://deadline.com/2026/11/netflix-bela-bajaria-emmys-streaming-executive-1237231936/\">Deadline</a> · #кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/netflix-bela-bajaria-emmys-streaming-executive-1237231936/",
     "orig": "Bela Bajaria Says Her Phone Has Been Ringing Since Netflix Exit, But “I’m Not Really A ‘Just Do The Exact Same Thing’ Kind Of Person”"
@@ -8768,7 +8717,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Дональд Трамп заявив, що особисто переконав раду директорів Nvidia повернути Jensen Huang</b>\n\nПрезидент США заявив, що сприяв поверненню Jensen Huang на посаду керівника Nvidia після втручання американського уряду. Акції компанії зросли на 31.48%, проте рішення викликало занепокоєння та заклик до розслідування з боку конгресменів через національну безпеку.\n\n🔗 <a href=\"https://www.pcgamer.com/software/ai/trump-claims-credit-for-jensen-huangs-return-to-nvidia-posts-meme-depicting-huang-holding-up-a-bra-victoriously/\">PC Gamer</a> · #ігри #Nvidia",
     "kind": "photo",
     "link": "https://www.pcgamer.com/software/ai/trump-claims-credit-for-jensen-huangs-return-to-nvidia-posts-meme-depicting-huang-holding-up-a-bra-victoriously/",
     "orig": "Trump claims credit for Jensen Huang's return to Nvidia, posts meme depicting Huang holding up a bra victoriously"
@@ -9635,6 +9583,34 @@
     "link": "https://www.bloomberg.com/news/videos/2026-11-24/why-ai-pilots-struggle-to-scale-video",
     "orig": "Why AI Pilots Struggle to Scale"
    }
+  ],
+  [
+   1795537907.6473331,
+   6862,
+   "🤖",
+   "Акції Anthropic впали нижче ціни IPO у $83",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Акції Anthropic впали нижче ціни IPO у $83</b>\n\nАкції Anthropic PBC впали на 6% нижче ціни свого IPO у $83. Це нівелювало прибутки інвесторів, які вклалися в рекордний дебют лабораторії штучного інтелекту минулого тижня.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-24/anthropic-shares-fall-below-ipo-price-of-83-video\">Bloomberg</a> · #ШІ #Anthropic",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-24/anthropic-shares-fall-below-ipo-price-of-83-video",
+    "orig": "Anthropic Shares Fall Below IPO Price of $83"
+   }
+  ],
+  [
+   1795537910.4879878,
+   6863,
+   "🤖",
+   "Фільм \"Нові злощасні пригоди Кліффа Бута\" сповнений артефактами ШІ – відгуки глядачів",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🤖 <b>Фільм &quot;Нові злощасні пригоди Кліффа Бута&quot; сповнений артефактами ШІ – відгуки глядачів</b>\n\nКритики схвалили “Нові злощасні пригоди Кліффа Бута” / The Further Mis-Adventures of Cliff Booth Девіда Фінчера, але глядачі роздивилися у стрічці кадри, згенеровані ШІ, з артефактами, які важко не помітити.\n\n🔗 <a href=\"https://mezha.ua/news/novi-zloshchasni-prigodi-kliffa-buta-spovneni-shi-317540/\">Mezha</a> · #ШІ",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/novi-zloshchasni-prigodi-kliffa-buta-spovneni-shi-317540/",
+    "orig": "Фільм \"Нові злощасні пригоди Кліффа Бута\" сповнений артефактами ШІ – відгуки глядачів"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9643,12 +9619,12 @@
    1795341795.5158873
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1795449854.8630764,
    1795480342.8666642,
    1795491138.273421,
    1795494773.6995766,
    1795498474.4579458,
-   1795536164.6999838
+   1795536164.6999838,
+   1795537907.647602
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1795438887.3734498,
@@ -9663,9 +9639,9 @@
    1795458678.3686833
   ],
   "ai|Mezha|https://mezha.ua/feed/": [
-   1795451486.0651023,
    1795528523.4597511,
-   1795532495.6790276
+   1795532495.6790276,
+   1795537910.4882536
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1795456972.3433175,
@@ -10232,7 +10208,6 @@
   "25b14416c37b918d": 1795440658.0846477,
   "25c7a48b42e38abf": 1795136483.5215816,
   "26088c4097d14d2b": 1794882692.550622,
-  "2614f3f779352f91": 1794328279.5536714,
   "26412ff4b89c1834": 1795267880.6231701,
   "269e88e8bf42cecb": 1795194077.8276596,
   "26bcadb7f4e8e281": 1794670326.7228556,
@@ -10295,7 +10270,6 @@
   "2c7b3111701b0646": 1795163851.8185823,
   "2ca413dd274a9f2b": 1794600080.697358,
   "2caa4ea0039a63d2": 1795071681.943975,
-  "2cb0fcc6ce2aa0ab": 1794328281.8888555,
   "2cc6a645712dcbdb": 1795234121.914571,
   "2cd0ba5fba2b9546": 1794398455.161323,
   "2ce977b41420a009": 1795111438.8284032,
@@ -10392,6 +10366,7 @@
   "36d718e12dc678ab": 1795044693.025382,
   "36dd3f1ea43bf6f4": 1794583888.3131878,
   "36f234b2c43689e3": 1794619880.2654126,
+  "36f32e7586d56e26": 1795537857.1621616,
   "36f613a875bba025": 1795486710.6602783,
   "371ff855707ac2b1": 1794780076.0764132,
   "373933b98e861ae1": 1795503820.319386,
@@ -10812,6 +10787,7 @@
   "66fd79c1e26ac1f2": 1795363253.945743,
   "670121a3b10e4495": 1795087876.073899,
   "67119f7300e9ed51": 1794402056.59474,
+  "6722511d274005a0": 1795537857.1621616,
   "673ce0be94a3d6dd": 1795162056.5208862,
   "675e502b35ccf007": 1795097020.5503254,
   "67786784b2e6fcac": 1795357880.9870324,
@@ -10859,6 +10835,7 @@
   "6a6723ccff5c8f3e": 1795094052.1268046,
   "6a86af37165ac791": 1794411074.2185235,
   "6a8aa35af4922dc6": 1795475254.9816265,
+  "6a8fed4eae4329ca": 1795537857.1621616,
   "6a9010b4428aa781": 1795431811.6999888,
   "6abd2f5eef76c8b8": 1794634255.263127,
   "6ad3b63ac5f73385": 1794580255.5600233,
@@ -11505,6 +11482,7 @@
   "b22522d14a17f95f": 1794373334.770345,
   "b24d247460104a0c": 1794868447.5765305,
   "b2781f35e5635fe0": 1794695766.841244,
+  "b2978e8d01be305d": 1795537910.488209,
   "b29c6b619b90c5e0": 1795100487.7136989,
   "b2a4ed0e83ef860f": 1795307527.7208495,
   "b2df06db8a663c87": 1795002863.2457044,
@@ -11711,6 +11689,7 @@
   "c8b4b39dc9888e8c": 1795129393.4172053,
   "c8bd7bddfbeb9fb6": 1794652341.239789,
   "c913b4db39d47bb9": 1794915180.2278678,
+  "c96c7cf4483bb5e9": 1795537907.6475527,
   "c9860e157915af78": 1794940252.7221177,
   "c9b095395b0d2df0": 1795277148.440239,
   "c9b8f8a2dd2a6317": 1795230109.4504037,
@@ -11949,6 +11928,7 @@
   "e3e89dc3ff69741b": 1795316459.0772352,
   "e41482f3fa5f94a7": 1795010568.6160293,
   "e4247bae4d117f12": 1795132975.08636,
+  "e42a075aa2e302e9": 1795537857.1621616,
   "e42ccd7bddd0491b": 1795478516.081035,
   "e4417c4016aa9641": 1794661254.0536256,
   "e457e0a4d0a25c96": 1794816654.5507064,
@@ -12052,6 +12032,7 @@
   "ee38bc3887a6ea58": 1794618173.1613715,
   "ee52f8e13d601507": 1795429934.5214927,
   "ee5d138905ed731b": 1794482973.1377099,
+  "eeb26789898c8643": 1795537857.1621616,
   "eed71cdd1bdb7c5e": 1794405677.7830338,
   "eedb82b12eac9d5c": 1794583853.089954,
   "eee425950e0e95bb": 1795289847.2269962,
@@ -13413,18 +13394,18 @@
    "Вішліст Steam": 1
   },
   "filtered": {
-   "/Film": 8,
-   "Bloomberg": 15,
-   "Deadline": 3,
+   "/Film": 9,
+   "Bloomberg": 16,
+   "Deadline": 4,
    "GameSpot": 2,
    "IGN": 6,
    "IndieWire": 2,
-   "Insider Gaming": 26,
+   "Insider Gaming": 27,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 4,
    "PlayUA": 1,
-   "Polygon": 13,
+   "Polygon": 14,
    "Rock Paper Shotgun": 2,
    "VGC": 16,
    "Variety": 3
@@ -13432,7 +13413,7 @@
   "sources": {
    "/Film": 8,
    "Blabbermouth": 3,
-   "Bloomberg": 14,
+   "Bloomberg": 15,
    "DOU": 2,
    "DOU Gamedev": 2,
    "Deadline": 25,
@@ -13445,7 +13426,7 @@
    "Lambgoat": 7,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 7,
-   "Mezha": 17,
+   "Mezha": 18,
    "Neformat": 8,
    "PC Gamer": 6,
    "Pitchfork": 1,
@@ -13464,7 +13445,7 @@
    "DeepL": 14,
    "gemini-flash-latest": 6,
    "gemini-flash-lite-latest": 46,
-   "gemma-4-26b-a4b-it": 42,
+   "gemma-4-26b-a4b-it": 43,
    "gemma-4-31b-it": 47
   },
   "week": "2026-W48"
@@ -16806,27 +16787,28 @@
    "anthropic",
    "claude",
    "gta 6",
-   "kongsberg",
-   "nothing",
+   "gta vi",
    "nvidia",
-   "openai",
    "rockstar",
    "rovertech",
    "tcl",
    "бізнес",
+   "відео",
    "військова техніка",
+   "гур",
    "дисплеї",
-   "дональд трамп",
+   "дрони",
    "кіберзлочини",
+   "кіно",
    "наземні дрони",
    "новини",
-   "норвегія",
    "ноутбуки",
    "нрк",
    "оборонка",
-   "ппо",
-   "ракети",
+   "одного разу в голлівуді",
+   "розвіддрон",
    "розмінування",
+   "сбу",
    "софт",
    "технології",
    "ударні безпілотники",
@@ -16835,14 +16817,6 @@
   ]
  },
  "titles": [
-  [
-   1795363435.5769947,
-   "All sprites in the Fortnite Chapter 7 mini season"
-  ],
-  [
-   1795363769.439655,
-   "Box Office: A24’s ‘You Can See Everything’ Crosses $100 Million Globally"
-  ],
   [
    1795365182.2471828,
    "AI coding agents ace isolated tests but complete fewer than one in ten tasks in a simulated workplace"
@@ -17562,17 +17536,17 @@
   [
    1795536164.6999395,
    "Why AI Pilots Struggle to Scale"
+  ],
+  [
+   1795537907.6475549,
+   "Anthropic Shares Fall Below IPO Price of $83"
+  ],
+  [
+   1795537910.488211,
+   "Фільм \"Нові злощасні пригоди Кліффа Бута\" сповнений артефактами ШІ – відгуки глядачів"
   ]
  ],
  "titles_uk": [
-  [
-   1795363435.5769956,
-   "Усі спрайти в мінісезоні Fortnite Chapter 7"
-  ],
-  [
-   1795363769.439656,
-   "‘You Can See Everything’ від A24 зібрав понад $100 мільйонів у світовому прокаті"
-  ],
   [
    1795365182.2471833,
    "ШІ-агенти для кодування провалюють реальну роботу в симуляції офісу"
@@ -18292,6 +18266,14 @@
   [
    1795536164.6999407,
    "Чому компаніям важко масштабувати ШІ-пілоти"
+  ],
+  [
+   1795537907.647556,
+   "Акції Anthropic впали нижче ціни IPO у $83"
+  ],
+  [
+   1795537910.4882116,
+   "Фільм \"Нові злощасні пригоди Кліффа Бута\" сповнений артефактами ШІ – відгуки глядачів"
   ]
  ],
  "ukrainian": {
