@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
-   "detail": "https://www.kerrang.com/feed.rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Kerrang!» не працює",
-   "sent": 0,
-   "since": 1795510871.801579
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-23",
  "freebies": {
   "last_check": 1795509363.079919,
@@ -38,57 +31,19 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-24 08:36 UTC",
+  "at": "2026-11-24 09:36 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-26b-a4b-it": 2
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794819950.4707286,
-   6090,
-   "💾",
-   "ggml-org/ggml",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/ggml-org/ggml",
-    "orig": "ggml-org/ggml"
-   }
-  ],
-  [
-   1794821481.6341152,
-   6091,
-   "🎮",
-   "EA найняла колишнього керівника Call of Duty на чолi всiх студiй Battlefield",
-   "Eurogamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.eurogamer.net/battlefield-call-of-duty-sam-cooper-byron-beede-live-service",
-    "orig": "EA hires another former Call of Duty boss to take the lead on all Battlefield Studios' projects"
-   }
-  ],
-  [
-   1794821600.8729618,
-   6092,
-   "💾",
-   "elementalsouls/Claude-BugHunter",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/elementalsouls/Claude-BugHunter",
-    "orig": "elementalsouls/Claude-BugHunter"
-   }
-  ],
   [
    1794823302.057792,
    6093,
@@ -8743,7 +8698,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🤖 <b>«Будь лаконічним» більше не треба: OpenAI переписала правила промптів для GPT-6.2</b>\n\nOpenAI опублікувала посібник для розробників про те, як писати промпти й переводити проєкти на нові моделі: флагманську GPT-6.2 Astra і дешевшу GPT-6.2 Sol.\n\n🔗 <a href=\"https://highload.tech/uk/bud-lakonichnym-bilshe-ne-treba-openai-perepysala-pravyla-promptiv-dlya-gpt-6-2/#new_tab\">ITC.ua</a> · #ШІ",
     "kind": "photo",
     "link": "https://highload.tech/uk/bud-lakonichnym-bilshe-ne-treba-openai-perepysala-pravyla-promptiv-dlya-gpt-6-2/#new_tab",
     "orig": "«Будь лаконічним» більше не треба: OpenAI переписала правила промптів для GPT-6.2"
@@ -8757,7 +8711,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>Застосунок &quot;Дія&quot; відкриють для іноземців: готують послуги англійською та цифрову картку резидента</b>\n\nМіністерство цифрової трансформації України планує відкрити доступ до застосунку &quot;Дія&quot; для іноземних громадян. Вони серед іншого зможуть оформити податковий номер онлайн або отримати цифрову картку резидента, а всі ключові послуги будуть перекладені англійською.\n\n🔗 <a href=\"https://mezha.ua/news/diia-to-open-up-to-foreigners-317494/\">Mezha</a> · #софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/diia-to-open-up-to-foreigners-317494/",
     "orig": "Застосунок \"Дія\" відкриють для іноземців: готують послуги англійською та цифрову картку резидента"
@@ -8771,7 +8724,6 @@
    "Hugging Face",
    {
     "also": [],
-    "caption": "🤖 <b>Представили RoboTrack для відстеження точок у робототехніці</b>\n\nРозробники представили бенчмарк і набір даних RoboTrack для покращення відстеження точок під час маніпуляцій роботів. Виявилося, що поточні трекери працюють на реальних відео гірше, ніж наявні бенчмарки, тому автори випустили нові моделі RoboTracker та RoboTracker-Warp.\n\n🔗 <a href=\"https://huggingface.co/blog/allenai/robotrack\">Hugging Face</a> · #ШІ #RoboTrack",
     "kind": "photo",
     "link": "https://huggingface.co/blog/allenai/robotrack",
     "orig": "RoboTrack: Point tracking for real-world robotic manipulation"
@@ -9593,6 +9545,48 @@
     "link": "https://gamedev.dou.ua/articles/senior-to-lead/",
     "orig": "Що Senior отримує й чим ризикує, коли стає лідом"
    }
+  ],
+  [
+   1795512888.6796458,
+   6833,
+   "🎬",
+   "Один із варіантів Doctor Doom у Marvel — нащадок жорстокого історичного лиходія",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Один із варіантів Doctor Doom у Marvel — нащадок жорстокого історичного лиходія</b>\n\nВ одній з версій всесвіту Marvel Доктор Дум носить ім&#x27;я Віктор Ван Дамм і пов&#x27;язаний з реальним історичним лиходієм\n\n🔗 <a href=\"https://www.slashfilm.com/2324512/marvel-doctor-doom-variant-descendant-dracula/\">/Film</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2324512/marvel-doctor-doom-variant-descendant-dracula/",
+    "orig": "One Variant Of Marvel's Doctor Doom Is A Descendant Of A Brutal Historical Villain"
+   }
+  ],
+  [
+   1795512915.3470063,
+   6834,
+   "💾",
+   "Agenda Hero презентувала Magic Labs",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>Agenda Hero презентувала Magic Labs</b>\n\nБудь-який розклад, будь-який макет і будь-який стиль.\n\n🔗 <a href=\"https://www.producthunt.com/products/agenda-hero-magic\">Product Hunt</a> · #софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/agenda-hero-magic",
+    "orig": "Agenda Hero Magic Labs"
+   }
+  ],
+  [
+   1795512956.6040678,
+   6835,
+   "🎬",
+   "Творці подкасту Fin Vs History пояснили, чому Spotify кращий за телебачення",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Творці подкасту Fin Vs History пояснили, чому Spotify кращий за телебачення</b>\n\nФін Тейлор та Гораціо Ґулд, автори сатиричного подкасту Fin Vs History, пояснили свій перехід від традиційного телебачення до цифрових платформ. Через цензуру та невідповідність стилю класичним шоу коміки обрали шлях самовипуску та розвиток відеоподкастів на Spotify.\n\n🔗 <a href=\"https://deadline.com/2026/11/fin-vs-history-podcast-interview-1237215502/\">Deadline</a> · #кіно_і_серіали #FinVsHistory #Spotify",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/fin-vs-history-podcast-interview-1237215502/",
+    "orig": "‘Fin Vs History’: Stars Of Video Podcast On The Wildly-Popular Satirical History Series, Animation Ambitions & Why Spotify Beats TV"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9709,14 +9703,14 @@
    1795487520.5012088,
    1795491106.4628894,
    1795498391.7008133,
-   1795500126.9731948
+   1795500126.9731948,
+   1795512888.6798608
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792944099.3403795,
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1795421304.336377,
    1795428529.23223,
    1795431811.7000375,
    1795435628.194017,
@@ -9730,7 +9724,8 @@
    1795494703.878561,
    1795500224.0453832,
    1795501922.831212,
-   1795505862.3645077
+   1795505862.3645077,
+   1795512956.6042845
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795422683.5492282
@@ -9850,7 +9845,8 @@
    1795467677.6475132
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
-   1795509348.350736
+   1795509348.350736,
+   1795512915.3472068
   ]
  },
  "seen": {
@@ -9941,7 +9937,6 @@
   "0a2b8c2efc2728e5": 1794585687.2769177,
   "0a87c87c8a691f79": 1795431685.8027568,
   "0ac26792d1527127": 1795397593.1250198,
-  "0ac3b775b957bbcd": 1794303091.4954739,
   "0ae0949b8cd38010": 1795186954.2942495,
   "0b24b5df1f355728": 1794337281.9378862,
   "0b532c252b638c25": 1794978086.8716898,
@@ -10006,7 +10001,6 @@
   "11b0d0ea895fab50": 1794963651.7044976,
   "11d30fef53882846": 1795244487.6158328,
   "11e70fdc63eb7126": 1795123855.034798,
-  "11eed905692148c5": 1794303052.7507446,
   "12070a887467a01f": 1795114863.5731728,
   "12216eaf6f39bf09": 1794339053.433796,
   "1230b6c1c57b4eed": 1794630680.5266824,
@@ -10157,6 +10151,7 @@
   "2296fe9f1bf19e85": 1795003300.8773806,
   "22c0cfa89bfdb67b": 1794949478.0575066,
   "22dc156cbb84f529": 1795412195.7701335,
+  "22dff3a4c5957ae6": 1795512683.1281984,
   "22f515f288ce48ef": 1794650473.9104357,
   "231f5c47e1ea0a3a": 1795379477.9884183,
   "23469dfe27e6c5eb": 1794897085.7061157,
@@ -10430,6 +10425,7 @@
   "40185ced1634ed99": 1794722573.6509268,
   "40279761d4213d95": 1794868444.818007,
   "40345959e8b7840e": 1795050069.409945,
+  "4036c2341b20c41b": 1795512956.6042411,
   "404dff4b1ceac471": 1794731814.1593332,
   "40741d174a973026": 1795471262.366884,
   "40c4cd20ddc07752": 1795447880.4919152,
@@ -10719,6 +10715,7 @@
   "62a7555008ce43d9": 1794742362.40263,
   "62b226ac36663dad": 1795084273.251863,
   "62c6ced8a6ea6559": 1794637883.8932354,
+  "62df59dc526339e9": 1795512683.1291454,
   "6321868b6dedc5b3": 1795201253.256003,
   "6329ff1d46822b8b": 1795456857.6403613,
   "6355832d83022f17": 1795266083.4137523,
@@ -11138,6 +11135,7 @@
   "905dc1cb601d6a2c": 1795152675.030105,
   "907a9d825289bcdf": 1795094153.9062579,
   "90912853abe33df8": 1794945653.1135497,
+  "90961486afa1fcb8": 1795512683.1290247,
   "90ae3a0eb04777be": 1794576685.7442052,
   "90ae966875c99f69": 1795278653.9636526,
   "90b9fbaf9f61fe6d": 1795061035.296347,
@@ -11208,7 +11206,6 @@
   "999ee7e1f36a32ae": 1794756685.861182,
   "99cfa61fa9d22c29": 1795440735.784049,
   "9a0fd65b06fef295": 1795113258.737289,
-  "9a22548e8b7ee10d": 1794303084.7110562,
   "9a39cdaae20f017a": 1794389489.2267208,
   "9a3e5055ac44b893": 1794430855.13756,
   "9a572ea83323a0d4": 1795354506.2575781,
@@ -11290,6 +11287,7 @@
   "a0f7493a53a0dca2": 1795177878.0187154,
   "a10d2d9903ab1186": 1794592858.1127434,
   "a13108295e78b1e7": 1795271475.0149632,
+  "a13a24ec47458cce": 1795512888.679812,
   "a18a82ee872a0c9e": 1795267937.4594777,
   "a1a8ee03a448c1d9": 1794965497.0031004,
   "a1b0adc3257649ef": 1795068086.6434052,
@@ -11342,6 +11340,7 @@
   "a6ea30182c44cff7": 1795012310.1463664,
   "a70866f44525d9a7": 1794592884.4843674,
   "a710af24486efa10": 1795156298.9917552,
+  "a7156f34f023f713": 1795512683.1280677,
   "a7259cb9f4e9dc47": 1795449655.175754,
   "a73f1e7f5fbfb526": 1794978059.335902,
   "a74d8ee76899df64": 1794807095.9587371,
@@ -11604,7 +11603,6 @@
   "c531b21100d43c68": 1795213865.641769,
   "c53680f3a01ff072": 1795444286.8856955,
   "c55a5ef2e7da29fd": 1795264286.1575544,
-  "c56a94d8d3eee212": 1794301294.5957663,
   "c578679540d44fe8": 1795275080.2742527,
   "c57dfd8e10aff19d": 1794652692.36168,
   "c58e0bde42908e08": 1794871895.0495503,
@@ -11727,6 +11725,7 @@
   "d3ca0f5d7f71a465": 1794695479.6390064,
   "d3f0b19763b0644e": 1794862903.1640396,
   "d4075ecb0cb06067": 1795059075.8121054,
+  "d40e706bf27bf8c9": 1795512915.3471665,
   "d4218061f7e0d044": 1795298736.260573,
   "d426d987bdc57691": 1794873679.9926894,
   "d430d5bc895beb6c": 1795403139.135301,
@@ -13349,12 +13348,12 @@
    "Variety": 1
   },
   "sources": {
-   "/Film": 7,
+   "/Film": 8,
    "Blabbermouth": 3,
    "Bloomberg": 13,
    "DOU": 2,
    "DOU Gamedev": 2,
-   "Deadline": 24,
+   "Deadline": 25,
    "Eurogamer": 2,
    "GamesIndustry.biz": 2,
    "Hugging Face": 1,
@@ -13370,7 +13369,7 @@
    "Pitchfork": 1,
    "PlayUA": 1,
    "Polygon": 7,
-   "Product Hunt": 1,
+   "Product Hunt": 2,
    "Rock Paper Shotgun": 3,
    "SteamDB": 1,
    "Stereogum": 1,
@@ -13381,9 +13380,9 @@
   },
   "translators": {
    "DeepL": 10,
-   "gemini-flash-latest": 5,
-   "gemini-flash-lite-latest": 42,
-   "gemma-4-26b-a4b-it": 32,
+   "gemini-flash-latest": 6,
+   "gemini-flash-lite-latest": 43,
+   "gemma-4-26b-a4b-it": 34,
    "gemma-4-31b-it": 36
   },
   "week": "2026-W48"
@@ -13923,16 +13922,6 @@
    4665290,
    "Alien: Isolation 2",
    1793215933.545154
-  ],
-  "q:allows ai enemies to learn": [
-   0,
-   "",
-   1795338089.1235971
-  ],
-  "q:allows ai enemies to learn trash": [
-   0,
-   "",
-   1795338088.617883
   ],
   "q:amazon's god": [
    0,
@@ -14533,11 +14522,6 @@
    2621690,
    "EVA",
    1793781215.7040942
-  ],
-  "q:every legend": [
-   4660010,
-   "Every Legend",
-   1792920680.1672125
   ],
   "q:explodes": [
    4615220,
@@ -15264,31 +15248,6 @@
    "Mouthwashing",
    1793363582.659193
   ],
-  "q:natus vincere": [
-   0,
-   "",
-   1795339879.684059
-  ],
-  "q:natus vincere brawl": [
-   0,
-   "",
-   1795339879.103471
-  ],
-  "q:natus vincere brawl stars": [
-   0,
-   "",
-   1795339878.578624
-  ],
-  "q:natus vincere brawl stars world": [
-   0,
-   "",
-   1795339878.091843
-  ],
-  "q:natus vincere brawl stars world finals": [
-   0,
-   "",
-   1795339877.569253
-  ],
   "q:navi": [
    0,
    "",
@@ -15493,31 +15452,6 @@
    0,
    "",
    1795426299.4166687
-  ],
-  "q:patent": [
-   0,
-   "",
-   1795338088.1618147
-  ],
-  "q:patent allows": [
-   0,
-   "",
-   1795338087.696242
-  ],
-  "q:patent allows ai": [
-   0,
-   "",
-   1795338087.2388024
-  ],
-  "q:patent allows ai enemies": [
-   0,
-   "",
-   1795338086.772996
-  ],
-  "q:patent allows ai enemies to learn": [
-   0,
-   "",
-   1795338086.3309555
   ],
   "q:path of exile 2": [
    2694490,
@@ -16254,31 +16188,6 @@
    "VINCERE",
    1795339882.8050396
   ],
-  "q:vincere brawl": [
-   0,
-   "",
-   1795339882.2040164
-  ],
-  "q:vincere brawl stars": [
-   0,
-   "",
-   1795339881.7262793
-  ],
-  "q:vincere brawl stars world": [
-   0,
-   "",
-   1795339881.2183316
-  ],
-  "q:vincere brawl stars world finals": [
-   0,
-   "",
-   1795339880.732674
-  ],
-  "q:vincere brawl stars world finals 2026": [
-   0,
-   "",
-   1795339880.2378166
-  ],
   "q:vrchat": [
    438100,
    "VRChat",
@@ -16462,58 +16371,39 @@
  },
  "tag_hints": {
   "Mezha": [
-   "grapheneos",
-   "grok",
-   "gta 6",
-   "kodak",
+   "apple tv",
+   "google",
+   "google translate",
+   "marvel",
+   "microsoft",
    "nvidia",
-   "one ui 9.5",
-   "osint",
-   "rcs",
-   "samsung",
-   "spacexai",
-   "taf industries",
-   "балістика",
+   "steam",
+   "ted lasso",
+   "windows 11",
    "безпілотники",
    "бпла",
    "бізнес",
-   "військова техніка",
-   "військові заводи",
-   "дональд трамп",
+   "дата-центри",
    "дрони",
-   "застосунок",
-   "зброя",
-   "канада",
-   "месенджери",
-   "наземні дрони",
+   "корабель",
+   "кіно",
+   "месники",
+   "месники: сходження доктора дума",
    "новини",
-   "нрк",
+   "німеччина",
    "оборонка",
    "операційні системи",
-   "ракети",
-   "робототехніка",
-   "росія",
+   "ппо",
+   "розвіддрон",
+   "серіали",
+   "сили оборони",
    "софт",
-   "технології",
-   "трекер",
-   "україна",
-   "штучний інтелект",
+   "тед лассо",
+   "туреччина",
    "ігри"
   ]
  },
  "titles": [
-  [
-   1795338185.864865,
-   "Activision Patent Allows AI Enemies to Learn Trash Talking From Players"
-  ],
-  [
-   1795338504.2785454,
-   "I've never known a moment like this in video games"
-  ],
-  [
-   1795339885.7154696,
-   "Natus Vincere стали чемпіонами Brawl Stars World Finals 2026 та заробили $450 000"
-  ],
   [
    1795341793.5308561,
    "SXSW Forges Partnership With Egypt’s UTH Festival Dedicated to Youth Culture"
@@ -17197,21 +17087,21 @@
   [
    1795510888.5961597,
    "Що Senior отримує й чим ризикує, коли стає лідом"
+  ],
+  [
+   1795512888.6798131,
+   "One Variant Of Marvel's Doctor Doom Is A Descendant Of A Brutal Historical Villain"
+  ],
+  [
+   1795512915.3471677,
+   "Agenda Hero Magic Labs"
+  ],
+  [
+   1795512956.6042428,
+   "‘Fin Vs History’: Stars Of Video Podcast On The Wildly-Popular Satirical History Series, Animation Ambitions & Why Spotify Beats TV"
   ]
  ],
  "titles_uk": [
-  [
-   1795338185.864866,
-   "Activision запатентувала ШІ, що навчить NPC копіювати манеру спілкування гравців"
-  ],
-  [
-   1795338504.2785463,
-   "Я ще ніколи не бачив таких часів у відеоіграх"
-  ],
-  [
-   1795339885.7154706,
-   "Natus Vincere стали чемпіонами Brawl Stars World Finals 2026 та заробили $450 000"
-  ],
   [
    1795341793.530858,
    "SXSW став партнером єгипетського фестивалю UTH"
@@ -17895,6 +17785,18 @@
   [
    1795510888.5961602,
    "Що Senior отримує й чим ризикує, коли стає лідом"
+  ],
+  [
+   1795512888.6798139,
+   "Один із варіантів Doctor Doom у Marvel — нащадок жорстокого історичного лиходія"
+  ],
+  [
+   1795512915.3471687,
+   "Agenda Hero презентувала Magic Labs"
+  ],
+  [
+   1795512956.6042438,
+   "Творці подкасту Fin Vs History пояснили, чому Spotify кращий за телебачення"
   ]
  ],
  "ukrainian": {
@@ -18260,6 +18162,7 @@
    "2996040": "",
    "3008130": "",
    "3010850": "",
+   "3017860": "",
    "301910": "",
    "3024130": "is",
    "3026450": "is",
@@ -18394,6 +18297,7 @@
    "405310": "",
    "4078430": "",
    "4080220": "",
+   "4084710": "",
    "4096780": "",
    "4096830": "",
    "409710": "",
@@ -18555,8 +18459,8 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1795491157.1927612,
-  "with_uk": 95
+  "last_check": 1795512975.8406043,
+  "with_uk": 93
  },
  "weekly_releases_week": "2026-W48",
  "wishlist": {
@@ -20375,7 +20279,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795509362.7919343,
+  "last_check": 1795512965.9603713,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
