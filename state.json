@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:software|Product Hunt|https://www.producthunt.com/feed": {
-   "detail": "https://www.producthunt.com/feed → HTTPSConnectionPool(host='www.producthunt.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «Product Hunt» не працює",
-   "sent": 0,
-   "since": 1795525298.9863756
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-23",
  "freebies": {
   "last_check": 1795525634.0154667,
@@ -38,14 +31,14 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-24 13:07 UTC",
+  "at": "2026-11-24 13:34 UTC",
   "gemini_error": "503: Gemini тимчасово недоступний",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 1
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-31b-it": 2
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
@@ -8743,7 +8736,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Легендарний акторський склад Critical Role повертається зі зірковими гостями</b>\n\nНезабаром відбудеться зустріч акторського складу серіалу «Critical Role»: Тревіс Віллінгем та Аабрія Ієнгар повернуться у 4-му сезоні.\n\n🔗 <a href=\"https://www.polygon.com/critical-role-aabria-iyengar-travis-willingham-returns-campaign-4/\">Polygon</a> · #ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/critical-role-aabria-iyengar-travis-willingham-returns-campaign-4/",
     "orig": "Legendary Critical Role Cast Members Officially Return With a Star-Studded New Guest Cast"
@@ -8757,7 +8749,6 @@
    "Neformat",
    {
     "also": [],
-    "caption": "🤘 <b>Pale Heaven видали новий сингл</b>\n\nНещодавно нойз-рок-колектив Pale Heaven оприлюднив композицію &quot;Whatever Happens&quot; на лейблі DYWLF?! Records. Ця пісня — їхня спроба вхопити дух панк-року. Новий трек артистів прокладає шлях до їхньог\n\n🔗 <a href=\"https://www.neformat.com.ua/news/28491-pale-heaven-vidali-noviy-singl.html\">Neformat</a> · #музика",
     "kind": "photo",
     "link": "https://www.neformat.com.ua/news/28491-pale-heaven-vidali-noviy-singl.html",
     "orig": "Pale Heaven видали новий сингл"
@@ -9424,7 +9415,12 @@
    "Найкращий запуск в історії розважальної індустрії: скільки вже заробила GTA 6",
    "ITC.ua",
    {
-    "also": [],
+    "also": [
+     [
+      "Insider Gaming",
+      "https://insider-gaming.com/gta-6-darts-bowling/"
+     ]
+    ],
     "caption": "🎮 <b>Найкращий запуск в історії розважальної індустрії: скільки вже заробила GTA 6</b>\n\nЗа перші чотири дні продажів, з 19 по 22 листопада, GTA 6 розійшлася тиражем близько 44,9 млн копій. Це число включає також передзамовлені копії гри. Таку оцінку оприлюднила аналітична компанія Alinea Analytics. У підрахунок увійшли лише копії, які дісталися покупцям, — нерозпроданих дисків у магазинах аналітики не враховували.\n\n🔗 <a href=\"https://itc.ua/ua/novini/gta-6-prodazhi-45-mln-kopij-za-pershyj-vikend/\">ITC.ua</a> · #ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/gta-6-prodazhi-45-mln-kopij-za-pershyj-vikend/",
@@ -9598,6 +9594,34 @@
     "link": "https://insider-gaming.com/senua-concept-art/",
     "orig": "Senua Concept Art Surfaces Online, Revealing Mission Levels & Starting Area"
    }
+  ],
+  [
+   1795527243.1791396,
+   6850,
+   "🎮",
+   "Пограли в найдикіший сет Magic: the Gathering: це був суцільний хаос",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Пограли в найдикіший сет Magic: the Gathering: це був суцільний хаос</b>\n\nДрафт Mystery Booster Commander Edition на MagicCon: Atlanta виявився ще хаотичнішим, ніж очікували\n\n🔗 <a href=\"https://www.polygon.com/mtg-mystery-booster-commander-edition-draft-review-experience/\">Polygon</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.polygon.com/mtg-mystery-booster-commander-edition-draft-review-experience/",
+    "orig": "We Played 'Magic: the Gathering’s Most Unhinged Set of All Time and It Was Pure Chaos"
+   }
+  ],
+  [
+   1795527251.0861788,
+   6851,
+   "🎮",
+   "Продюсер Dragon Age розповів про труднощі BioWare через тиск з боку EA",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>Продюсер Dragon Age розповів про труднощі BioWare через тиск з боку EA</b>\n\nЗа його словами, студії до постійно доводилося обирати «найменш жахливий із доступних варіантів», аби виконати фінансові плани\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/dragon-age-producer-says-bioware-struggled-under-ea-because-it-had-to-keep-choosing-the-least-terrible-of-the-options/\">VGC</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/dragon-age-producer-says-bioware-struggled-under-ea-because-it-had-to-keep-choosing-the-least-terrible-of-the-options/",
+    "orig": "Dragon Age producer says BioWare struggled under EA because it had to keep choosing ‘the least terrible of the options’"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9698,7 +9722,8 @@
    1795446274.177396,
    1795475254.9816675,
    1795496562.8989787,
-   1795518253.512058
+   1795518253.512058,
+   1795527243.1793878
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1795440749.4020596,
@@ -9709,10 +9734,9 @@
    1795501919.0043178
   ],
   "games|VGC|https://www.videogameschronicle.com/feed/": [
-   1795431749.1145236,
-   1795439342.7440236,
    1795442631.7391605,
-   1795514567.1514418
+   1795514567.1514418,
+   1795527251.086428
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1795487520.5012088,
@@ -10092,7 +10116,6 @@
   "1981f4faa0afd369": 1795435696.0050044,
   "19861773bb69a85f": 1795005114.1736202,
   "19a0a3221833cdf0": 1794497495.8385534,
-  "19a766cff80206ff": 1794317498.314858,
   "19af98d7c7127689": 1794814464.6482637,
   "19d84f6a7af8c00b": 1795435266.6043499,
   "19e563a267e1b55f": 1794659494.4706376,
@@ -10293,6 +10316,7 @@
   "301f468ee8b9ffa3": 1795275057.4489214,
   "304278cd392fc64a": 1794886276.8368862,
   "3069cdb6ed9f5e99": 1795084273.2507288,
+  "306b503c69748539": 1795527082.289943,
   "30879e84663167fd": 1794463281.617446,
   "30921ca62c5e5033": 1794931976.4585385,
   "30b0e3adfdaf7ab2": 1794452738.7577527,
@@ -11000,6 +11024,7 @@
   "7eb47aed02f3cb74": 1795080652.932032,
   "7ec74f048fd88c8b": 1794682854.575637,
   "7ecf21b1d2ba264f": 1794326503.5964656,
+  "7ed74e5752f81728": 1795527059.8735101,
   "7ee4411884c51582": 1794425482.4962661,
   "7ee76404390a1aa4": 1794956600.0850973,
   "7f0b1cbcf7a02639": 1795102261.0800154,
@@ -11278,6 +11303,7 @@
   "9de5fd64600dd768": 1795145477.112178,
   "9dec76a1fcfa99e6": 1795428211.79325,
   "9e1a7d7c3e61dc71": 1794421855.4705105,
+  "9e59a41981e0e8f1": 1795527243.1793513,
   "9e5fb1e477b95fb9": 1794920486.4120889,
   "9e7eacdbf71214d0": 1794427255.008425,
   "9e8afc5b12fe9b3b": 1795275080.273022,
@@ -11599,6 +11625,7 @@
   "c1470f580db41f85": 1794330058.4836624,
   "c15827a29ce22e76": 1795094153.9066393,
   "c15fc75af136a790": 1794938453.8847573,
+  "c1a0ee089b539d12": 1795527059.8735101,
   "c1db9b87adc608c9": 1794810780.0711603,
   "c1e292b21fe35ef1": 1795203088.0220785,
   "c20c76bac6df0a5c": 1794693790.4067116,
@@ -11728,6 +11755,7 @@
   "d175dd3083d65f17": 1794708110.0775664,
   "d1a89bee4c3dcfe9": 1794398697.6708577,
   "d1aa340a643527c9": 1794568367.1634204,
+  "d1bb027416e83527": 1795527251.08639,
   "d1bd74de1aa61c8b": 1795147332.8076549,
   "d1d5982577bef9c1": 1795240915.26803,
   "d1dba08093721437": 1794459674.8123393,
@@ -12001,7 +12029,6 @@
   "ee38bc3887a6ea58": 1794618173.1613715,
   "ee52f8e13d601507": 1795429934.5214927,
   "ee5d138905ed731b": 1794482973.1377099,
-  "ee8301f272047996": 1794317494.1838448,
   "eed71cdd1bdb7c5e": 1794405677.7830338,
   "eedb82b12eac9d5c": 1794583853.089954,
   "eee425950e0e95bb": 1795289847.2269962,
@@ -13360,9 +13387,10 @@
    "Вішліст Steam": 1
   },
   "filtered": {
-   "/Film": 6,
+   "/Film": 7,
    "Bloomberg": 14,
    "Deadline": 3,
+   "GameSpot": 1,
    "IGN": 6,
    "IndieWire": 2,
    "Insider Gaming": 20,
@@ -13396,22 +13424,22 @@
    "PC Gamer": 6,
    "Pitchfork": 1,
    "PlayUA": 1,
-   "Polygon": 8,
+   "Polygon": 9,
    "Product Hunt": 3,
    "Rock Paper Shotgun": 3,
    "SteamDB": 1,
    "Stereogum": 1,
    "The Decoder": 4,
    "ThePRP": 2,
-   "VGC": 4,
+   "VGC": 5,
    "Variety": 10
   },
   "translators": {
    "DeepL": 13,
    "gemini-flash-latest": 6,
-   "gemini-flash-lite-latest": 43,
+   "gemini-flash-lite-latest": 44,
    "gemma-4-26b-a4b-it": 40,
-   "gemma-4-31b-it": 42
+   "gemma-4-31b-it": 44
   },
   "week": "2026-W48"
  },
@@ -14111,6 +14139,11 @@
    "BioShock® 2",
    1792945886.1220896
   ],
+  "q:bioware": [
+   0,
+   "",
+   1795527246.269069
+  ],
   "q:black forest": [
    523070,
    "Black Forest",
@@ -14521,6 +14554,11 @@
    "Dota 2",
    1794810782.140999
   ],
+  "q:dragon age": [
+   0,
+   "",
+   1795527245.7668593
+  ],
   "q:dragon ball xenoverse 2": [
    454650,
    "DRAGON BALL XENOVERSE 2",
@@ -14780,6 +14818,21 @@
    4146000,
    "GANG OF DRAGON",
    1793613847.5146475
+  ],
+  "q:gathering's most unhinged": [
+   0,
+   "",
+   1795527088.6450694
+  ],
+  "q:gathering's most unhinged set": [
+   0,
+   "",
+   1795527088.1450865
+  ],
+  "q:gathering's most unhinged set of all": [
+   0,
+   "",
+   1795527087.6521583
   ],
   "q:glorious": [
    1678810,
@@ -15175,6 +15228,21 @@
    3437200,
    "LUNA",
    1793919699.612868
+  ],
+  "q:magic the gathering": [
+   0,
+   "",
+   1795527082.9024186
+  ],
+  "q:magic the gathering's most": [
+   0,
+   "",
+   1795527087.1538255
+  ],
+  "q:magic the gathering's most unhinged": [
+   0,
+   "",
+   1795527086.6574378
   ],
   "q:mama": [
    4227120,
@@ -15695,6 +15763,21 @@
    2182530,
    "Piranha",
    1795332674.1649597
+  ],
+  "q:played 'magic": [
+   0,
+   "",
+   1795527086.0559926
+  ],
+  "q:played 'magic the gathering": [
+   0,
+   "",
+   1795527085.4657652
+  ],
+  "q:played 'magic the gathering's most": [
+   0,
+   "",
+   1795527084.9677825
   ],
   "q:please give me my job back go usa": [
    0,
@@ -16281,6 +16364,11 @@
    "Ted",
    1793725352.648036
   ],
+  "q:the least terrible of the options": [
+   0,
+   "",
+   1795527245.23138
+  ],
   "q:the odyssey": [
    516560,
    "The Odyssey",
@@ -16556,6 +16644,21 @@
    "",
    1795514505.1391847
   ],
+  "q:we played": [
+   0,
+   "",
+   1795527084.4743633
+  ],
+  "q:we played 'magic": [
+   0,
+   "",
+   1795527083.9448931
+  ],
+  "q:we played 'magic the gathering": [
+   0,
+   "",
+   1795527083.427514
+  ],
   "q:wick": [
    418300,
    "Wick",
@@ -16643,24 +16746,21 @@
    "google",
    "google meet",
    "gta 6",
-   "hyundai kona",
    "ladybird",
    "lynx",
    "lynx kf41",
-   "mg zs",
+   "nvidia",
    "openai",
    "playstation",
-   "renault symbioz",
    "rheinmetall",
    "rockstar",
    "sony",
-   "toyota corolla cross",
-   "авто",
    "браузери",
    "бронювання",
+   "бізнес",
    "відеодзвінки",
    "війна",
-   "гід покупця",
+   "дональд трамп",
    "кабмін",
    "кібербезпека",
    "кіберзахист",
@@ -16675,7 +16775,6 @@
    "сили оборони",
    "софт",
    "спецпроєкти",
-   "статті",
    "україна",
    "штучний інтелект",
    "ігри"
@@ -17385,6 +17484,14 @@
   [
    1795525625.4394643,
    "Senua Concept Art Surfaces Online, Revealing Mission Levels & Starting Area"
+  ],
+  [
+   1795527243.179353,
+   "We Played 'Magic: the Gathering’s Most Unhinged Set of All Time and It Was Pure Chaos"
+  ],
+  [
+   1795527251.086392,
+   "Dragon Age producer says BioWare struggled under EA because it had to keep choosing ‘the least terrible of the options’"
   ]
  ],
  "titles_uk": [
@@ -18091,6 +18198,14 @@
   [
    1795525625.4394655,
    "Появилися концепт-арти для третьої частини Hellblade"
+  ],
+  [
+   1795527243.179354,
+   "Пограли в найдикіший сет Magic: the Gathering: це був суцільний хаос"
+  ],
+  [
+   1795527251.0863926,
+   "Продюсер Dragon Age розповів про труднощі BioWare через тиск з боку EA"
   ]
  ],
  "ukrainian": {
