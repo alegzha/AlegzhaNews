@@ -1,8 +1,15 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:software|Product Hunt|https://www.producthunt.com/feed": {
+   "detail": "https://www.producthunt.com/feed → HTTPSConnectionPool(host='www.producthunt.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Product Hunt» не працює",
+   "sent": 0,
+   "since": 1795525298.9863756
+  }
+ },
  "daily_digest_date": "2026-11-23",
  "freebies": {
-  "last_check": 1795518436.719474,
+  "last_check": 1795525634.0154667,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -31,43 +38,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-24 12:35 UTC",
+  "at": "2026-11-24 13:07 UTC",
   "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 2
+   "gemma-4-26b-a4b-it": 1
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794834186.5876892,
-   6105,
-   "🎮",
-   "Скільки грошей заробила GTA 6 на передзамовленнях",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/gta-6-pre-orders/",
-    "orig": "How Much Money Has GTA 6 Made in Pre-Orders?"
-   }
-  ],
-  [
-   1794834194.274722,
-   6106,
-   "🎮",
-   "Unity запускає грант у $50 000 для інді-розробників",
-   "GamesIndustry.biz",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.gamesindustry.biz/unity-launches-50000-grant-for-indie-developers-with-no-equity-or-repayment",
-    "orig": "Unity launches $50,000 grant for indie developers with no equity or repayment"
-   }
-  ],
   [
    1794836079.153645,
    6107,
@@ -8735,7 +8717,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>As I Lay Dying виступили в Голлівуді разом із Бранданом Шіппаті та Томмі Вексом</b>\n\nПід час концерту в клубі Whisky A Go Go до гурту As I Lay Dying приєдналися вокаліст Bleeding Through Брандан Шіппаті та Томмі Векс. Останній опитав фанатів щодо можливого спільного туру з With A Vengeance у 2027 році. Новий однойменний альбом As I Lay Dying вийде 5 лютого 2027 року.\n\n🔗 <a href=\"https://lambgoat.com/news/56030/as-i-lay-dying-joined-on-stage-by-bleeding-throughs-brandan-schieppati-and-tommy-vext-in-hollywood/\">Lambgoat</a> · #музика #AsILayDying",
     "kind": "photo",
     "link": "https://lambgoat.com/news/56030/as-i-lay-dying-joined-on-stage-by-bleeding-throughs-brandan-schieppati-and-tommy-vext-in-hollywood/",
     "orig": "As I Lay Dying joined on stage by Bleeding Through's Brandan Schieppati and Tommy Vext in Hollywood"
@@ -8749,7 +8730,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Limp Bizkit записали від 24 до 30 ідей для нових пісень</b>\n\nБарабанщик Джон Отто повідомив, що Limp Bizkit за місяць роботи в студії Dark Horse записали від 24 до 30 ідей для нових треків. Музиканти працюють без тиску лейблів і дедлайнів, тому випустять матеріал лише тоді, коли він буде повністю готовий.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/23/news/limp-bizkit-currently-have-24-to-30-new-song-ideas-recorded/\">ThePRP</a> · #музика #LimpBizkit",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/23/news/limp-bizkit-currently-have-24-to-30-new-song-ideas-recorded/",
     "orig": "Limp Bizkit Currently Have 24 To 30 New Song Ideas Recorded"
@@ -9590,6 +9570,34 @@
     "link": "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/",
     "orig": "German researchers call for computer science to reinvent itself as \"Computer and AI Science\""
    }
+  ],
+  [
+   1795525563.163836,
+   6848,
+   "🎮",
+   "Конференція Splitscreen Croatia пропонує безкоштовні туристичні пакети для розробників, які бажають презентувати видавцям та інвесторам свої ще невипущені ігри",
+   "GamesIndustry.biz",
+   {
+    "also": [],
+    "caption": "🎮 <b>Конференція Splitscreen Croatia пропонує безкоштовні туристичні пакети для розробників, які бажають презентувати видавцям та інвесторам свої ще невипущені ігри</b>\n\nSplitcreen Croatia — нова галузева конференція, покликана заповнити прогалину, що утворилася після закриття Reboot Develop, — розпочала прийом заявок на участь у програмі «Офіційний відбір», яка передбачає безкоштовну подорож, проживання та виставкову площу для розробників із ще невипущеними іграми.\n\n🔗 <a href=\"https://www.gamesindustry.biz/splitscreen-croatia-conference-offers-free-travel-packages-for-developers-looking-to-showcase-unreleased-games-to-publishers-and-investors\">GamesIndustry.biz</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.gamesindustry.biz/splitscreen-croatia-conference-offers-free-travel-packages-for-developers-looking-to-showcase-unreleased-games-to-publishers-and-investors",
+    "orig": "Splitscreen Croatia conference offers free travel packages for developers looking to showcase unreleased games to publishers and investors"
+   }
+  ],
+  [
+   1795525625.439248,
+   6849,
+   "🎮",
+   "Появилися концепт-арти для третьої частини Hellblade",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Появилися концепт-арти для третьої частини Hellblade</b>\n🕹 <a href=\"https://store.steampowered.com/app/3676410/\">Senua</a> — ще не вийшла\n\nХудожники Ninja Theory опублікували на ArtStation концепт-арти для майбутньої третьої частини серії Hellblade. Роботи демонструють локації, такі як Arrival Beach та Highland Ruins, а також описують ігрові місії та структуру світу. Це дозволяє краще уявити дизайн гри, статус якої наразі залишається невизначеним.\n\n🔗 <a href=\"https://insider-gaming.com/senua-concept-art/\">Insider Gaming</a> · #ігри #Hellblade #NinjaTheory",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/senua-concept-art/",
+    "orig": "Senua Concept Art Surfaces Online, Revealing Mission Levels & Starting Area"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9654,7 +9662,8 @@
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
    1795439291.6894014,
    1795447915.5258203,
-   1795518423.868672
+   1795518423.868672,
+   1795525563.1640615
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
    1795307527.7208965,
@@ -9664,10 +9673,9 @@
    1795514569.1766608
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1795435798.1632166,
-   1795437092.8484204,
    1795440735.784093,
-   1795446326.9001324
+   1795446326.9001324,
+   1795525625.4395084
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1795437081.8750849,
@@ -10403,6 +10411,7 @@
   "3c6d8a23568e1f90": 1795300262.5494199,
   "3c6de122cd5aaf44": 1794549691.605744,
   "3c81bd21a2a8bb66": 1795066295.3549402,
+  "3c9f8bb228a616ed": 1795525625.439463,
   "3ca8def2211c3892": 1795091455.8380237,
   "3ca9bd81350269b2": 1794818050.7579744,
   "3cdc1e9688609114": 1795260086.5881538,
@@ -11017,6 +11026,7 @@
   "818ce15a49e53ad4": 1795388795.2453125,
   "81a176838c6102df": 1794486690.3895006,
   "81a6ac125e17b667": 1795316486.416918,
+  "81c31db20896c476": 1795525302.446185,
   "81c49d8c5c07357c": 1795141424.134819,
   "81dd8fcf722b9eb8": 1794357093.8702137,
   "81def5cca7df6ff7": 1794423654.150766,
@@ -11074,6 +11084,7 @@
   "87c12a20ca080787": 1795082475.237263,
   "87d5cad99498095c": 1795188662.6550176,
   "87d6a1ac290f9881": 1794592885.050251,
+  "87dc78f71437aa18": 1795525302.4460568,
   "87ec9cc3019ad56a": 1795404673.578252,
   "87fe55541825dd45": 1794880915.0736182,
   "8817381862ce860d": 1795167057.8686705,
@@ -11220,6 +11231,7 @@
   "9a572ea83323a0d4": 1795354506.2575781,
   "9a945af4bff676bc": 1794349891.0385704,
   "9a9fdb36d4913a54": 1794877497.1928325,
+  "9aa1209dc6e5ebf1": 1795525257.4294307,
   "9abb1ec6528559f6": 1795462254.9235594,
   "9ad286843cd07d2d": 1794888089.2164843,
   "9ad41e055efeff08": 1794417337.7084458,
@@ -11341,6 +11353,7 @@
   "a66c87177152f36f": 1795021289.7614503,
   "a67bb8d2a6b42350": 1794654195.9605079,
   "a6870c43d087f98a": 1794848456.1917202,
+  "a699673b46b01ad5": 1795525257.4294307,
   "a6a3a1aadb8f31ae": 1795026653.649315,
   "a6ab513ca092dd1e": 1794335485.1881518,
   "a6ae7de35c2bc6c6": 1795050089.2241607,
@@ -11427,7 +11440,6 @@
   "af5700409a88993e": 1795098686.4612706,
   "af7f01de94ffa5ce": 1794596480.2130246,
   "af94feae22729c7a": 1794875511.543285,
-  "af9fccdcabcd2fce": 1794315858.8469326,
   "afba753eba8e2629": 1795041093.9012902,
   "afc46a1829bbc4ae": 1795514567.1513963,
   "afe3bb56ef906b85": 1795500224.045338,
@@ -11567,6 +11579,7 @@
   "bf428dc5419779c5": 1794450683.2133462,
   "bf55d92aebf43d96": 1794792688.2601962,
   "bf609b726082e477": 1794974665.2712822,
+  "bf6c2bad2630221d": 1795525563.1640136,
   "bfc14e550eb304db": 1795042855.9275043,
   "bfd5a97932441e69": 1795275057.4489214,
   "c013548ae573e5a5": 1795246712.6543932,
@@ -11727,6 +11740,7 @@
   "d2bf206038dc3bc0": 1794846655.2895768,
   "d2df987ce8fe2f61": 1795100487.7128925,
   "d325111f039821d9": 1794787350.4929416,
+  "d32f734a4c660d06": 1795525257.4294307,
   "d3314acbcaff8eae": 1794963651.1854727,
   "d3362eeed0450381": 1795152758.4494374,
   "d3387d6acdd9d374": 1795008653.7476661,
@@ -12081,7 +12095,6 @@
   "f8b39d3a8b3c0d3d": 1795289118.981305,
   "f8bf296d26f8e412": 1794482852.3299081,
   "f8cbfeed39802472": 1794436295.0952077,
-  "f902f9480aee3f1e": 1794315872.040283,
   "f90478126ac1ae9b": 1795361483.8894663,
   "f931cea5da372624": 1795174265.0760365,
   "f94a385647e28b84": 1794632478.5518868,
@@ -13347,19 +13360,19 @@
    "Вішліст Steam": 1
   },
   "filtered": {
-   "/Film": 5,
+   "/Film": 6,
    "Bloomberg": 14,
    "Deadline": 3,
    "IGN": 6,
    "IndieWire": 2,
-   "Insider Gaming": 19,
+   "Insider Gaming": 20,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 4,
    "PlayUA": 1,
    "Polygon": 13,
    "Rock Paper Shotgun": 2,
-   "VGC": 14,
+   "VGC": 15,
    "Variety": 1
   },
   "sources": {
@@ -13370,11 +13383,11 @@
    "DOU Gamedev": 2,
    "Deadline": 25,
    "Eurogamer": 4,
-   "GamesIndustry.biz": 3,
+   "GamesIndustry.biz": 4,
    "Hugging Face": 1,
    "ITC.ua": 11,
    "IndieWire": 3,
-   "Insider Gaming": 4,
+   "Insider Gaming": 5,
    "Lambgoat": 7,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 7,
@@ -13394,10 +13407,10 @@
    "Variety": 10
   },
   "translators": {
-   "DeepL": 11,
+   "DeepL": 13,
    "gemini-flash-latest": 6,
    "gemini-flash-lite-latest": 43,
-   "gemma-4-26b-a4b-it": 39,
+   "gemma-4-26b-a4b-it": 40,
    "gemma-4-31b-it": 42
   },
   "week": "2026-W48"
@@ -14003,6 +14016,16 @@
    "",
    1795437086.4400752
   ],
+  "q:art surfaces": [
+   0,
+   "",
+   1795525568.8866334
+  ],
+  "q:art surfaces online": [
+   0,
+   "",
+   1795525568.4171546
+  ],
   "q:ascendance": [
    2275750,
    "Ascendance",
@@ -14313,6 +14336,16 @@
    "",
    1795437084.3916566
   ],
+  "q:concept art surfaces": [
+   0,
+   "",
+   1795525567.9581892
+  ],
+  "q:concept art surfaces online": [
+   0,
+   "",
+   1795525567.4965744
+  ],
   "q:counter strike": [
    10,
    "Counter-Strike",
@@ -14362,6 +14395,11 @@
    0,
    "",
    1795474956.4848208
+  ],
+  "q:croatia": [
+   0,
+   "",
+   1795525303.554351
   ],
   "q:cronos lazarus": [
    4768180,
@@ -15793,6 +15831,11 @@
    "",
    1795408283.9152305
   ],
+  "q:revealing mission levels starting area": [
+   0,
+   "",
+   1795525570.282475
+  ],
   "q:rez": [
    0,
    "",
@@ -15918,6 +15961,31 @@
    "Selaco",
    1793553041.803855
   ],
+  "q:senua": [
+   3676410,
+   "Senua",
+   1795525567.0279038
+  ],
+  "q:senua concept": [
+   0,
+   "",
+   1795525566.5615556
+  ],
+  "q:senua concept art": [
+   0,
+   "",
+   1795525566.0894334
+  ],
+  "q:senua concept art surfaces": [
+   0,
+   "",
+   1795525565.6212661
+  ],
+  "q:senua concept art surfaces online": [
+   0,
+   "",
+   1795525565.12499
+  ],
   "q:shapik the moon quest": [
    1073810,
    "Shapik: The Moon Quest",
@@ -16007,6 +16075,11 @@
    239350,
    "Spelunky",
    1793039507.3305044
+  ],
+  "q:splitscreen croatia": [
+   0,
+   "",
+   1795525302.9726098
   ],
   "q:stain": [
    4255620,
@@ -16142,6 +16215,16 @@
    40800,
    "Super Meat Boy",
    1794760187.5127454
+  ],
+  "q:surfaces": [
+   0,
+   "",
+   1795525569.812073
+  ],
+  "q:surfaces online": [
+   0,
+   "",
+   1795525569.3435526
   ],
   "q:switch online": [
    0,
@@ -16562,22 +16645,22 @@
    "gta 6",
    "hyundai kona",
    "ladybird",
+   "lynx",
+   "lynx kf41",
    "mg zs",
-   "nvidia",
    "openai",
    "playstation",
    "renault symbioz",
+   "rheinmetall",
    "rockstar",
    "sony",
    "toyota corolla cross",
    "авто",
    "браузери",
    "бронювання",
-   "бізнес",
    "відеодзвінки",
    "війна",
    "гід покупця",
-   "дональд трамп",
    "кабмін",
    "кібербезпека",
    "кіберзахист",
@@ -16587,7 +16670,9 @@
    "оборонка",
    "оборонний завод",
    "опк",
+   "ппо",
    "робота",
+   "сили оборони",
    "софт",
    "спецпроєкти",
    "статті",
@@ -16597,14 +16682,6 @@
   ]
  },
  "titles": [
-  [
-   1795352480.8464139,
-   "Samsung планує додати аналог Dynamic Island у серію Galaxy S27"
-  ],
-  [
-   1795352482.9735885,
-   "GTA 6 на ПК: модери вже розробляють нативний порт й очікують на ключовий виконуваний файл"
-  ],
   [
    1795354457.7085419,
    "Governors Call for Federal AI Rules Without Sidelining States"
@@ -17300,17 +17377,17 @@
   [
    1795523729.922792,
    "German researchers call for computer science to reinvent itself as \"Computer and AI Science\""
+  ],
+  [
+   1795525563.1640155,
+   "Splitscreen Croatia conference offers free travel packages for developers looking to showcase unreleased games to publishers and investors"
+  ],
+  [
+   1795525625.4394643,
+   "Senua Concept Art Surfaces Online, Revealing Mission Levels & Starting Area"
   ]
  ],
  "titles_uk": [
-  [
-   1795352480.8464146,
-   "Samsung планує додати аналог Dynamic Island у серію Galaxy S27"
-  ],
-  [
-   1795352482.9735892,
-   "GTA 6 на ПК: модери вже розробляють нативний порт й очікують на ключовий виконуваний файл"
-  ],
   [
    1795354457.7085423,
    "Губернатори вимагають федеральних правил для ШІ без обмеження повноважень штатів"
@@ -18006,6 +18083,14 @@
   [
    1795523729.9227924,
    "Німецькі дослідники пропонують змінити назву Computer Science на «Computer and AI Science»"
+  ],
+  [
+   1795525563.1640165,
+   "Конференція Splitscreen Croatia пропонує безкоштовні туристичні пакети для розробників, які бажають презентувати видавцям та інвесторам свої ще невипущені ігри"
+  ],
+  [
+   1795525625.4394655,
+   "Появилися концепт-арти для третьої частини Hellblade"
   ]
  ],
  "ukrainian": {
@@ -20488,7 +20573,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795521924.7894213,
+  "last_check": 1795525633.5986128,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
