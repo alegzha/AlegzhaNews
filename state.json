@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1795478474.1910083
+  }
+ },
  "daily_digest_date": "2026-11-23",
  "freebies": {
   "last_check": 1795473203.4558387,
@@ -31,82 +38,19 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-23 23:32 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-latest",
+  "at": "2026-11-24 00:04 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-latest": 1
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-26b-a4b-it": 1,
+   "gemma-4-31b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794785569.257658,
-   6048,
-   "🤘",
-   "Ерік Сінгер з KISS розкритикував барабанщиків, які беруть гроші за поради",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/kisss-eric-singer-rips-drummers-who-charge-for-advice-and-information-thats-not-how-it-works",
-    "orig": "KISS's ERIC SINGER Rips Drummers Who Charge For Advice And Information: 'That's Not How It Works'"
-   }
-  ],
-  [
-   1794785574.1653082,
-   6049,
-   "🤘",
-   "Фібі Бріджерс виконала «Bobby» та «Still Standing» на Saturday Night Live",
-   "Pitchfork",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://pitchfork.com/story/watch-phoebe-bridgers-play-bobby-and-still-standing-on-saturday-night-live/",
-    "orig": "Watch Phoebe Bridgers Play “Bobby” and “Still Standing” on Saturday Night Live"
-   }
-  ],
-  [
-   1794785577.180798,
-   6050,
-   "🎬",
-   "Авторка The Good Daughter думає про продовження у форматі оповідання",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/the-good-daughter-author-thinking-about-sequel-1237224525/",
-    "orig": "‘The Good Daughter’ Author Is “Thinking About” Short Story Sequel"
-   }
-  ],
-  [
-   1794787350.4927285,
-   6051,
-   "🎮",
-   "Jason і Lucia в GTA 6 починатимуть як дрібні злочинці",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/gta-6s-jason-and-lucia-will-start-as-small-time-criminals-who-have-to-work-up-to-high-value-jobs",
-    "orig": "GTA 6's Jason and Lucia Will Start as Small-Time Criminals Who Have to Work Up to High-Value Jobs"
-   }
-  ],
-  [
-   1794787353.4838872,
-   6052,
-   "🎬",
-   "Стівен Кінг назвав улюблений фільм жахів від Альфреда Гічкока",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2311493/stephen-king-alfred-hitchcock-thriller-favorite-scary-movies-frenzy/",
-    "orig": "Stephen King Named This Alfred Hitchcock Thriller As One Of His Favorite Scary Movies"
-   }
-  ],
   [
    1794789168.9835362,
    6053,
@@ -8761,7 +8705,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🤖 <b>Спільноти Lean і Mathlib підтвердили доведення гіпотези Рімана за допомогою ШІ – однієї із семи задач тисячоліття</b>\n\nСпільноти Lean і Mathlib, які працюють над інструментами формальної перевірки математичних доказів, перевірили та підтвердили правильність доведення гіпотези Рімана, яке наприкінці минулого тижня представив математик Anthropic Левен Альпоге, скориставшись допомогою ШІ Claude.\n\n🔗 <a href=\"https://mezha.ua/news/claude-assisted-riemann-hypothesis-proof-verified-317469/\">Mezha</a> · #ШІ",
     "kind": "photo",
     "link": "https://mezha.ua/news/claude-assisted-riemann-hypothesis-proof-verified-317469/",
     "orig": "Спільноти Lean і Mathlib підтвердили доведення гіпотези Рімана за допомогою ШІ – однієї із семи задач тисячоліття"
@@ -8775,7 +8718,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "💾 <b>Не просто новий дистрибутив Linux: Impossible OS обіцяє повну сумісність з Windows 11</b>\n\nПівденноафриканський розробник Дерек Пейн власноруч створює операційну систему, яка отримала назву Impossible OS. Назва підкреслює прагнення розробника до того, що наразі вважається вкрай амбітним, повної сумісності як з Linux, так і з Windows 11.\n\n🔗 <a href=\"https://itc.ua/ua/novini/ne-prosto-novyj-dystrybutyv-linux-impossible-os-obitsyaye-povnu-sumisnist-z-windows-11/\">ITC.ua</a> · #софт",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/ne-prosto-novyj-dystrybutyv-linux-impossible-os-obitsyaye-povnu-sumisnist-z-windows-11/",
     "orig": "Не просто новий дистрибутив Linux: Impossible OS обіцяє повну сумісність з Windows 11"
@@ -8789,7 +8731,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Фільм «Ми народжуємося добрими» отримав нагороди за найкращий фільм та оригінальний сценарій на тайванській премії «Золотий кінь»</b>\n\nГонконгська драма «Ми народжені добрими», режисером і сценаристом якої є Єунг Леунг-чуен, 22 листопада здобула нагороди в номінаціях «Найкращий фільм» та «Найкращий оригінальний сценарій» на тайванській кінопремії «Золотий кінь». Фільм, прем’єра якого відбулася в секції «Discovery» на кінофестивалі в Торонто, розповідає про двох людей, які потрапили в неприємну ситуацію в ресторані, що переросла у серйозну суперечку.\n\n🔗 <a href=\"https://deadline.com/2026/11/golden-horse-awards-we-are-born-good-anson-kong-taiwan-1237231390/\">Deadline</a> · #кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/golden-horse-awards-we-are-born-good-anson-kong-taiwan-1237231390/",
     "orig": "‘We Are Born Good’ Wins Best Film & Original Screenplay At Taiwan’s Golden Horse Awards"
@@ -9606,6 +9547,48 @@
     "link": "https://www.neformat.com.ua/news/28449-kvitkovasobaka-vidali-singl.html",
     "orig": "KVITKOVASOBAKA видали сингл"
    }
+  ],
+  [
+   1795478481.2121532,
+   6794,
+   "🎬",
+   "Столітній парад Macy’s: гігантські Minions, K-pop зірки та Міккі Маус",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Столітній парад Macy’s: гігантські Minions, K-pop зірки та Міккі Маус</b>\n\nДо сотого параду Macy’s Thanksgiving Day лишилося два дні. Щороку тисячі людей виходять на вулиці Нью-Йорка, а мільйони дивляться шоу по телебаченню, щоб побачити культові повітряні кулі, платформи та виступи артистів.\n\n🔗 <a href=\"https://variety.com/2026/artisans/news/building-the-macys-thanksgiving-day-parade-100-anniversary-1236955925/\">Variety</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/artisans/news/building-the-macys-thanksgiving-day-parade-100-anniversary-1236955925/",
+    "orig": "Inside the Macy’s Thanksgiving Parade at 100: Massive Minions, K-Pop Stars and ‘Sorcerer’s Apprentice’ Mickey Mouse"
+   }
+  ],
+  [
+   1795478516.0808368,
+   6795,
+   "🤘",
+   "Вокаліст Drowning Pool Раян Маккомбс вдруге залишає гурт",
+   "Loudwire",
+   {
+    "also": [],
+    "caption": "🤘 <b>Вокаліст Drowning Pool Раян Маккомбс вдруге залишає гурт</b>\n\nРаян Маккомбс оголосив про свій вихід зі складу Drowning Pool. Музикант вирішив зосередитися на роботі зі своїм гуртом SOiL, готуючи нові релізи та турне на 2027 рік. Це вже другий раз, коли вокаліст залишає колектив.\n\n🔗 <a href=\"https://loudwire.com/drowning-pool-ryan-mccombs-leaves-band-second-time-statement/\">Loudwire</a> · #музика #DrowningPool #SOiL",
+    "kind": "photo",
+    "link": "https://loudwire.com/drowning-pool-ryan-mccombs-leaves-band-second-time-statement/",
+    "orig": "Drowning Pool's Ryan McCombs Leaves Band for Second Time"
+   }
+  ],
+  [
+   1795478667.6756272,
+   6796,
+   "🤘",
+   "Марк Нопфлер згадав про скромні початки Dire Straits та створення їхнього дебютного альбому",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Марк Нопфлер згадав про скромні початки Dire Straits та створення їхнього дебютного альбому</b>\n\nПопри мільйонні продажі платівок, Марк Нопфлер завжди прагнув лише одного — писати пісні та грати на гітарі\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/interviews/mark-knopfler-dire-straits-humble-origins-classic-debut\">Metal Hammer (Louder)</a> · #музика",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/interviews/mark-knopfler-dire-straits-humble-origins-classic-debut",
+    "orig": "Mark Knopfler looks back on Dire Straits' humble origins and the making of a classic debut"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9764,8 +9747,8 @@
    1795415550.562963
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
-   1795385051.1845593,
-   1795428211.793298
+   1795428211.793298,
+   1795478481.2124574
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
    1795321882.7462256,
@@ -9795,17 +9778,13 @@
    1795473194.340964
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
-   1795213943.3199003,
-   1795240911.7939036,
-   1795242825.9286923
+   1795478516.0810792
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
-   1795325720.6763449,
-   1795386833.176398,
-   1795388792.0001261,
    1795396210.2926452,
    1795397593.1250708,
-   1795410102.1827514
+   1795410102.1827514,
+   1795478667.6758776
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1795244826.8845444
@@ -9934,7 +9913,6 @@
   "06dc1664afbe3523": 1795098686.463174,
   "06f118c2e327aa5f": 1795177853.8441787,
   "06f47105f1256e15": 1794978094.8520443,
-  "070d309edf47bb38": 1794268889.400284,
   "070da2ce4dc3e23c": 1794960086.3351355,
   "07419671e36b0ead": 1795181616.143092,
   "07d2726f6e23edf6": 1794832383.472545,
@@ -10006,7 +9984,6 @@
   "0fbb7fb25526cb1c": 1794281499.191693,
   "0fe3faebeaaa410f": 1794371492.9669104,
   "0ff24f09d1e42fea": 1795160042.8999865,
-  "0ffc31cda43a6c46": 1794267164.5733147,
   "1004f5b1d037c0c2": 1794908254.4516182,
   "10074b4f3f21ecac": 1795190540.5025694,
   "10248613ea2f1c7d": 1795388792.0000792,
@@ -10625,7 +10602,6 @@
   "569a83400c460624": 1795003253.1151035,
   "56e816063ec93e36": 1794735166.9775567,
   "56f34e40817100c2": 1794828856.2654586,
-  "5712d3358e3cece4": 1794268886.779551,
   "5733c13986fc6048": 1794925855.8063161,
   "57886324beb7c569": 1794682948.413298,
   "5799187db6f8ee55": 1794913254.9532003,
@@ -10877,6 +10853,7 @@
   "70e2a19ecf7767a2": 1795203061.089686,
   "70ee71b0b7c3874e": 1794439890.6270096,
   "710bfbfd7df00486": 1795051877.248294,
+  "71109cc71f242a15": 1795478481.2123759,
   "711529974353442d": 1795471479.1393435,
   "71162aad9bac6a88": 1795100487.7145374,
   "7119ca50a1cae8db": 1794990658.388594,
@@ -11076,6 +11053,7 @@
   "87006c8374bde079": 1795152754.8605757,
   "87030049f7ce6f3f": 1795201253.256003,
   "872b211408774ad4": 1795294858.0238476,
+  "873b3e7a989db11e": 1795478478.5387247,
   "874ddd2827fff652": 1795181712.698616,
   "878dd522fb060868": 1795356231.010851,
   "878e9d7dd121471d": 1794619881.9929366,
@@ -11129,7 +11107,6 @@
   "8d505fa9b6a387f8": 1795089654.0120451,
   "8d99fb491011606c": 1795102261.0800154,
   "8dbaa27d684960be": 1794492161.157827,
-  "8dc4a6a9ec353083": 1794267175.2273066,
   "8dea90055a7ab594": 1795356056.5762572,
   "8e1fade4ce2efbb1": 1794846691.2536154,
   "8e503ca403fd11b0": 1795293218.0060165,
@@ -11271,7 +11248,6 @@
   "9ddca75584c9d30b": 1795248084.6343286,
   "9de5fd64600dd768": 1795145477.112178,
   "9dec76a1fcfa99e6": 1795428211.79325,
-  "9e085a255c73df4d": 1794268881.4913025,
   "9e1a7d7c3e61dc71": 1794421855.4705105,
   "9e5fb1e477b95fb9": 1794920486.4120889,
   "9e7eacdbf71214d0": 1794427255.008425,
@@ -11884,6 +11860,7 @@
   "e3e89dc3ff69741b": 1795316459.0772352,
   "e41482f3fa5f94a7": 1795010568.6160293,
   "e4247bae4d117f12": 1795132975.08636,
+  "e42ccd7bddd0491b": 1795478516.081035,
   "e4417c4016aa9641": 1794661254.0536256,
   "e457e0a4d0a25c96": 1794816654.5507064,
   "e48d6f07fd827d73": 1794585676.9122105,
@@ -11926,6 +11903,7 @@
   "e7b9b2a3f43edde0": 1795462276.9024045,
   "e7d5cdee4199eeb2": 1795075495.1578982,
   "e7dd22a700795b2a": 1795091455.8380237,
+  "e7f0035c54ccb231": 1795478667.6758318,
   "e80e7b7a1145a8f7": 1794850304.1275158,
   "e8101a8814d25c9d": 1795296653.5295594,
   "e85270af91805d21": 1795120257.8905454,
@@ -12082,7 +12060,6 @@
   "f8cbfeed39802472": 1794436295.0952077,
   "f902f9480aee3f1e": 1794315872.040283,
   "f90478126ac1ae9b": 1795361483.8894663,
-  "f92d5000800978f8": 1794268883.5499456,
   "f931cea5da372624": 1795174265.0760365,
   "f94a385647e28b84": 1794632478.5518868,
   "f95716030b903ef1": 1795242678.5389848,
@@ -12135,7 +12112,6 @@
   "fe425cb8489ba922": 1794497454.0506542,
   "fe4746fdf378174f": 1795050186.806023,
   "fe517e5430fda057": 1795066254.271999,
-  "fe65a80affa94623": 1794267173.5283654,
   "fe6b51fbdb8b2963": 1795435798.1631722,
   "fe94b90ae0a1fb12": 1795068082.7999845,
   "fea246d2d95fea5a": 1795026653.649315,
@@ -13374,7 +13350,8 @@
    "IndieWire": 2,
    "Insider Gaming": 4,
    "Lambgoat": 5,
-   "Metal Hammer (Louder)": 5,
+   "Loudwire": 1,
+   "Metal Hammer (Louder)": 6,
    "Mezha": 11,
    "Neformat": 7,
    "PC Gamer": 2,
@@ -13386,14 +13363,14 @@
    "The Decoder": 2,
    "ThePRP": 2,
    "VGC": 3,
-   "Variety": 5
+   "Variety": 6
   },
   "translators": {
    "DeepL": 8,
    "gemini-flash-latest": 3,
-   "gemini-flash-lite-latest": 24,
-   "gemma-4-26b-a4b-it": 25,
-   "gemma-4-31b-it": 29
+   "gemini-flash-lite-latest": 25,
+   "gemma-4-26b-a4b-it": 26,
+   "gemma-4-31b-it": 30
   },
   "week": "2026-W48"
  },
@@ -16717,26 +16694,6 @@
  },
  "titles": [
   [
-   1795303927.0777297,
-   "JOHN DOLMAYAN Says 'Big Things Are Coming For SYSTEM OF A DOWN'"
-  ],
-  [
-   1795303970.5790312,
-   "Mariska Hargitay Made Her Acting Debut In A Cult Favorite '80s Horror Movie"
-  ],
-  [
-   1795303972.8781662,
-   "VAMPIR презентували перший сингл"
-  ],
-  [
-   1795305751.707669,
-   "Chris Harrison’s ‘The Vow’ Star Apologizes For Grabbing Contestant’s Butt: “I Made A Mistake”"
-  ],
-  [
-   1795305838.951276,
-   "Wizards of the Coast to pass full AI copyright payout to D&D writers"
-  ],
-  [
    1795305928.6848674,
    "If There’s Generative AI in ‘The Mis-Adventures of Cliff Booth,’ It’s Not the First Time David Fincher’s Used It"
   ],
@@ -17403,29 +17360,21 @@
   [
    1795476710.5131254,
    "KVITKOVASOBAKA видали сингл"
+  ],
+  [
+   1795478481.212377,
+   "Inside the Macy’s Thanksgiving Parade at 100: Massive Minions, K-Pop Stars and ‘Sorcerer’s Apprentice’ Mickey Mouse"
+  ],
+  [
+   1795478516.0810366,
+   "Drowning Pool's Ryan McCombs Leaves Band for Second Time"
+  ],
+  [
+   1795478667.675833,
+   "Mark Knopfler looks back on Dire Straits' humble origins and the making of a classic debut"
   ]
  ],
  "titles_uk": [
-  [
-   1795303927.0777304,
-   "Джон Долмаян розповів про майбутні стадіонні концерти SYSTEM OF A DOWN"
-  ],
-  [
-   1795303970.5790322,
-   "Марішка Хагітай дебютувала в культовому горорі 80-х Ghoulies"
-  ],
-  [
-   1795303972.8781672,
-   "VAMPIR презентували перший сингл"
-  ],
-  [
-   1795305751.7076702,
-   "Зірка шоу The Vow Джейс Кейтс вибачився за непристойний жест"
-  ],
-  [
-   1795305838.9512773,
-   "Wizards of the Coast передасть авторам D&D усі виплати за авторські права від ШІ"
-  ],
   [
    1795305928.6848683,
    "Девід Фінчер знову застосував генеративний ШІ у новому фільмі"
@@ -18093,6 +18042,18 @@
   [
    1795476710.5131261,
    "KVITKOVASOBAKA видали сингл"
+  ],
+  [
+   1795478481.2123826,
+   "Столітній парад Macy’s: гігантські Minions, K-pop зірки та Міккі Маус"
+  ],
+  [
+   1795478516.0810373,
+   "Вокаліст Drowning Pool Раян Маккомбс вдруге залишає гурт"
+  ],
+  [
+   1795478667.675834,
+   "Марк Нопфлер згадав про скромні початки Dire Straits та створення їхнього дебютного альбому"
   ]
  ],
  "ukrainian": {
