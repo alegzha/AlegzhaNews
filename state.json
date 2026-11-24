@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:software|AIN.ua|https://ain.ua/feed/": {
-   "detail": "https://ain.ua/feed/ → 522 Server Error: <none> for url: https://ain.ua/feed/",
-   "label": "Джерело «AIN.ua» не працює",
-   "sent": 0,
-   "since": 1795514502.343539
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-23",
  "freebies": {
   "last_check": 1795509363.079919,
@@ -38,56 +31,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-24 10:02 UTC",
+  "at": "2026-11-24 10:33 UTC",
   "gemini_error": "",
   "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemma-4-31b-it": 1
+   "gemma-4-31b-it": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794823495.8277483,
-   6094,
-   "💾",
-   "NVIDIA випустила SkillEvaluator",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/NVIDIA/SkillEvaluator",
-    "orig": "NVIDIA/SkillEvaluator"
-   }
-  ],
-  [
-   1794825085.8857548,
-   6095,
-   "💾",
-   "Збій Microsoft 365: компанія пояснила, чому сервіси не працювали понад добу",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/microsoft-explains-outage-reasons-317247/",
-    "orig": "Збій Microsoft 365: компанія пояснила, чому сервіси не працювали понад добу"
-   }
-  ],
-  [
-   1794825090.6414256,
-   6096,
-   "🎮",
-   "Для мультиплеєрного мода Cyberpunk 2077 стартувала відкрита бета",
-   "Rock Paper Shotgun",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.rockpapershotgun.com/weve-finally-reached-this-milestone-cyberpunk-2077-multiplayer-mod-cybermp-kicks-off-open-beta-after-around-six-years-preparing-for-cybermayhem",
-    "orig": "\"We've finally reached this milestone\": Cyberpunk 2077 multiplayer mod CyberMP kicks off open beta after around six years preparing for cybermayhem"
-   }
-  ],
   [
    1794826975.8051069,
    6097,
@@ -8755,7 +8709,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🤖 <b>Головний науковець OpenAI запропонував обмежувати розвиток ШІ за допомогою метрики perplexity</b>\n\nГоловний науковець OpenAI Якуб Пахоцький запропонував запровадити спільні для індустрії обмеження розвитку штучного інтелекту на основі метрики perplexity. Ідею він виклав у блозі компанії, а CEO OpenAI Сем Альтман назвав цей допис «найважливішим, що OpenAI опублікувала за останній час».\n\n🔗 <a href=\"https://speka.ua/news/openai-pachocki-obmezhennya-rozvytku-shi-perplexity-98kdjk#new_tab\">ITC.ua</a> · #ШІ",
     "kind": "photo",
     "link": "https://speka.ua/news/openai-pachocki-obmezhennya-rozvytku-shi-perplexity-98kdjk#new_tab",
     "orig": "Головний науковець OpenAI запропонував обмежувати розвиток ШІ за допомогою метрики perplexity"
@@ -9585,7 +9538,12 @@
    "Wave Race: Blue Storm стала 12-ю грою GameCube у бібліотеці Switch Online",
    "VGC",
    {
-    "also": [],
+    "also": [
+     [
+      "IGN",
+      "https://www.ign.com/articles/nintendo-switch-online-just-got-a-long-awaited-update-alongside-another-gamecube-classic"
+     ]
+    ],
     "caption": "🎮 <b>Wave Race: Blue Storm стала 12-ю грою GameCube у бібліотеці Switch Online</b>\n\nNintendo додала Wave Race: Blue Storm до бібліотеки GameCube у підписці Nintendo Switch Online + Expansion Pass. Це третя частина серії та одна з ігор на запуску консолі 2001 року. Геймплей передбачає збирання турбо-прискорень за допомогою буїв.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/wave-race-blue-storm-is-the-12th-gamecube-game-to-be-added-to-switch-onlines-library/\">VGC</a> · #ігри #Nintendo #WaveRace",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/news/wave-race-blue-storm-is-the-12th-gamecube-game-to-be-added-to-switch-onlines-library/",
@@ -9604,6 +9562,20 @@
     "kind": "text",
     "link": "https://itc.ua/ua/novini/gta-6-prodazhi-45-mln-kopij-za-pershyj-vikend/",
     "orig": "Найкращий запуск в історії розважальної індустрії: скільки вже заробила GTA 6"
+   }
+  ],
+  [
+   1795516340.393613,
+   6838,
+   "💾",
+   "Hourly Journal — інструмент для щоденного обліку часу",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>Hourly Journal — інструмент для щоденного обліку часу</b>\n\nФіксуйте витрачений час, щоб краще розуміти, як минають ваші дні\n\n🔗 <a href=\"https://www.producthunt.com/products/hourly-journal\">Product Hunt</a> · #софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/hourly-journal",
+    "orig": "Hourly Journal"
    }
   ]
  ],
@@ -9864,7 +9836,8 @@
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1795509348.350736,
-   1795512915.3472068
+   1795512915.3472068,
+   1795516340.393915
   ]
  },
  "seen": {
@@ -10150,6 +10123,7 @@
   "2012e2bc9e7d7929": 1794524548.5083108,
   "20236d44aef35df3": 1794312055.4112585,
   "202d5a42a7dd3115": 1795015897.3482482,
+  "20410e163b51d68f": 1795516398.4009984,
   "2046f5e50fafe44a": 1794996248.287837,
   "20636f59f0fef6d8": 1795055474.3026843,
   "207194a9d8ca693d": 1795158349.1241083,
@@ -10613,7 +10587,6 @@
   "55ba40a660469cc4": 1795429855.1499202,
   "55c25e13c2d1b4c6": 1794353465.3584552,
   "55cad23c843395ab": 1794379783.9103365,
-  "55f1a05e3c242a02": 1794306676.3979933,
   "55fe7f213a059021": 1795341795.5158405,
   "5689f31b2cda7ca2": 1795023110.4423168,
   "569a83400c460624": 1795003253.1151035,
@@ -10626,7 +10599,6 @@
   "57c2ee4d257ece9c": 1794499253.4405737,
   "57fe05da63744a2f": 1795039256.6815968,
   "57fef3efdf595174": 1795385214.1838996,
-  "5826d233cb4408e3": 1794306681.8971698,
   "582af0723ae9b8ac": 1794783426.8461566,
   "585ac975b75ce028": 1795073474.7372088,
   "5872354484dec09d": 1795500082.9161215,
@@ -10858,6 +10830,7 @@
   "6ef5cc6bcb35c23b": 1795061027.7438369,
   "6ef69fa9ab8f5442": 1795012267.0331166,
   "6f178363e8577792": 1795005060.1889544,
+  "6f5a56c5eb3d50a8": 1795516340.3938658,
   "6f6ba225786f87fd": 1794393116.6743698,
   "6f6c81e4591e1edb": 1794925901.6156065,
   "6fa4a4e4dd853d59": 1794970885.2558308,
@@ -11048,6 +11021,7 @@
   "8369124588b6b50c": 1795143682.665886,
   "8369f85e0a3a8f75": 1794411076.0979633,
   "8374391cb396cdd8": 1795179654.744277,
+  "8388ee38815daaf4": 1795516283.404429,
   "83c18438031440f9": 1795077182.9679258,
   "83def6411e7ad1a3": 1794673879.3453333,
   "83f7d16126d0d484": 1794697284.9680347,
@@ -11342,7 +11316,6 @@
   "a568c0d7008bf2ed": 1794513766.4618802,
   "a5c98ee5a2fa5bae": 1795314690.4971116,
   "a5da9f97d65375b5": 1795293059.0225935,
-  "a5e6ed1f4ced8a2e": 1794306682.7784011,
   "a60c4d1cbce2c052": 1794524545.2054734,
   "a63a0bf7ba742fe5": 1795224701.7799451,
   "a63cf4553f266a18": 1794400283.729265,
@@ -11544,6 +11517,7 @@
   "bc6cd049e9a32803": 1794502963.9584627,
   "bc79935c59c62057": 1795453258.7776709,
   "bc86d5ee71d92ab8": 1795336254.4206307,
+  "bc8f5902521609f1": 1795516283.404258,
   "bcf878ba3e2ed755": 1795338185.8648632,
   "bd0886bfe5db68f9": 1794497454.0506542,
   "bd094462e92c17c9": 1794520852.2037077,
@@ -11759,6 +11733,7 @@
   "d513625d1d75104d": 1794576681.5238283,
   "d515f4d414c29dc3": 1794434493.5606954,
   "d565ed08c0e4ee98": 1795244748.7001777,
+  "d57343493e645f85": 1795516283.404083,
   "d57491b05c6fbe3b": 1794634296.9440062,
   "d5a243f0ceab02c5": 1794382279.7024496,
   "d5c1fe12af72c606": 1795350656.068994,
@@ -11927,6 +11902,7 @@
   "e7ae8631d452ed24": 1795266083.413159,
   "e7b18bd140016235": 1794785574.1654751,
   "e7b9b2a3f43edde0": 1795462276.9024045,
+  "e7c00d9add2a3bf4": 1795516257.382111,
   "e7d5cdee4199eeb2": 1795075495.1578982,
   "e7dd22a700795b2a": 1795091455.8380237,
   "e7f0035c54ccb231": 1795478667.6758318,
@@ -13355,7 +13331,7 @@
    "Deadline": 3,
    "IGN": 6,
    "IndieWire": 2,
-   "Insider Gaming": 17,
+   "Insider Gaming": 18,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 4,
@@ -13387,7 +13363,7 @@
    "Pitchfork": 1,
    "PlayUA": 1,
    "Polygon": 7,
-   "Product Hunt": 2,
+   "Product Hunt": 3,
    "Rock Paper Shotgun": 3,
    "SteamDB": 1,
    "Stereogum": 1,
@@ -13401,7 +13377,7 @@
    "gemini-flash-latest": 6,
    "gemini-flash-lite-latest": 43,
    "gemma-4-26b-a4b-it": 34,
-   "gemma-4-31b-it": 37
+   "gemma-4-31b-it": 39
   },
   "week": "2026-W48"
  },
@@ -14991,6 +14967,11 @@
    "Jurassic World Evolution 2",
    1793903615.2591991
   ],
+  "q:just got a long awaited update": [
+   0,
+   "",
+   1795516348.0490687
+  ],
   "q:k pop": [
    3073310,
    "K-Pop!",
@@ -15351,6 +15332,26 @@
    "Nightshade/百花百狼",
    1793025235.4720597
   ],
+  "q:nintendo switch": [
+   0,
+   "",
+   1795516343.9970803
+  ],
+  "q:nintendo switch online": [
+   0,
+   "",
+   1795516343.4969568
+  ],
+  "q:nintendo switch online just": [
+   0,
+   "",
+   1795516343.0111952
+  ],
+  "q:nintendo switch online just got": [
+   0,
+   "",
+   1795516342.512432
+  ],
   "q:nioh 3": [
    3681010,
    "Nioh 3",
@@ -15400,6 +15401,26 @@
    4478540,
    "One Day",
    1793097191.8062801
+  ],
+  "q:online just": [
+   0,
+   "",
+   1795516347.4699986
+  ],
+  "q:online just got": [
+   0,
+   "",
+   1795516346.9665942
+  ],
+  "q:online just got a long awaited": [
+   0,
+   "",
+   1795516346.4763107
+  ],
+  "q:online just got a long awaited update": [
+   0,
+   "",
+   1795516345.983619
   ],
   "q:orgs": [
    0,
@@ -16021,6 +16042,21 @@
    "",
    1795514510.4664552
   ],
+  "q:switch online just": [
+   0,
+   "",
+   1795516345.4931495
+  ],
+  "q:switch online just got": [
+   0,
+   "",
+   1795516344.9823236
+  ],
+  "q:switch online just got a long awaited": [
+   0,
+   "",
+   1795516344.493623
+  ],
   "q:sword of the sea": [
    2453160,
    "Sword of the Sea",
@@ -16437,15 +16473,22 @@
    "apple tv",
    "delta",
    "google",
+   "google meet",
    "google translate",
+   "hyundai kona",
+   "mg zs",
    "nvidia",
+   "renault symbioz",
    "steam",
    "ted lasso",
+   "toyota corolla cross",
+   "авто",
    "безпілотники",
    "бпла",
    "бізнес",
+   "відеодзвінки",
    "військові технології",
-   "дата-центри",
+   "гід покупця",
    "дональд трамп",
    "дрони",
    "корабель",
@@ -16459,24 +16502,13 @@
    "серіали",
    "сили оборони",
    "софт",
+   "статті",
    "тед лассо",
    "туреччина",
    "ігри"
   ]
  },
  "titles": [
-  [
-   1795341793.5308561,
-   "SXSW Forges Partnership With Egypt’s UTH Festival Dedicated to Youth Culture"
-  ],
-  [
-   1795341795.515843,
-   "Signal обмежить створення скриншотів на смартфонах, щоб захистити листування від ШІ"
-  ],
-  [
-   1795341888.5475616,
-   "Firewind and Powerglove announce co-headline North American tour"
-  ],
   [
    1795343877.838835,
    "Deryck Whibley announces debut solo album ‘Sum 41: Diamonds Of The Night: Vol 1’"
@@ -17168,21 +17200,13 @@
   [
    1795514569.17662,
    "Найкращий запуск в історії розважальної індустрії: скільки вже заробила GTA 6"
+  ],
+  [
+   1795516340.3938677,
+   "Hourly Journal"
   ]
  ],
  "titles_uk": [
-  [
-   1795341793.530858,
-   "SXSW став партнером єгипетського фестивалю UTH"
-  ],
-  [
-   1795341795.5158439,
-   "Signal обмежить створення скриншотів на смартфонах, щоб захистити листування від ШІ"
-  ],
-  [
-   1795341888.5475628,
-   "Firewind та Powerglove анонсували спільний тур Північною Америкою"
-  ],
   [
    1795343877.838836,
    "Дерік Уайблі оголосив про вихід свого першого сольного альбому «Sum 41: Diamonds Of The Night: Vol 1»"
@@ -17874,6 +17898,10 @@
   [
    1795514569.1766207,
    "Найкращий запуск в історії розважальної індустрії: скільки вже заробила GTA 6"
+  ],
+  [
+   1795516340.3938684,
+   "Hourly Journal — інструмент для щоденного обліку часу"
   ]
  ],
  "ukrainian": {
