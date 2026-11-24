@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:games|PC Gamer|https://www.pcgamer.com/rss/": {
+   "detail": "https://www.pcgamer.com/rss/ → 404 Client Error: Not Found for url: https://www.pcgamer.com/rss/",
+   "label": "Джерело «PC Gamer» не працює",
+   "sent": 0,
+   "since": 1795532457.4256833
+  },
+  "src:music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": {
+   "detail": "https://www.loudersound.com/feeds/all → 404 Client Error: Not Found for url: https://www.loudersound.com/feeds.xml",
+   "label": "Джерело «Metal Hammer (Louder)» не працює",
+   "sent": 0,
+   "since": 1795532472.6901782
+  }
+ },
  "daily_digest_date": "2026-11-23",
  "freebies": {
   "last_check": 1795525634.0154667,
@@ -31,45 +44,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-24 14:34 UTC",
+  "at": "2026-11-24 15:02 UTC",
   "gemini_error": "503: Gemini тимчасово недоступний",
-  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
-   "gemma-4-31b-it": 2
+   "gemma-4-31b-it": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794841324.461533,
-   6113,
-   "🎮",
-   "Xbox Game Pass поповниться новими іграми у листопаді",
-   "GameSpot",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.gamespot.com/articles/xbox-game-pass-gets-even-more-games-in-november/",
-    "orig": "Xbox Game Pass Gets Even More Games In November"
-   }
-  ],
-  [
-   1794841326.9253054,
-   6114,
-   "💾",
-   "Найбільший фанфікшн-архів інтернету відновив роботу після 17 днів простою через інцидент безпеки",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/ao3-returns-after-17-day-outage-317254/",
-    "orig": "Найбільший фанфікшн-архів інтернету відновив роботу після 17 днів простою через інцидент безпеки"
-   }
-  ],
   [
    1794843085.3205311,
    6115,
@@ -8737,7 +8722,6 @@
    "Loudwire",
    {
     "also": [],
-    "caption": "🤘 <b>Вокаліст Drowning Pool Раян Маккомбс вдруге залишає гурт</b>\n\nРаян Маккомбс оголосив про свій вихід зі складу Drowning Pool. Музикант вирішив зосередитися на роботі зі своїм гуртом SOiL, готуючи нові релізи та турне на 2027 рік. Це вже другий раз, коли вокаліст залишає колектив.\n\n🔗 <a href=\"https://loudwire.com/drowning-pool-ryan-mccombs-leaves-band-second-time-statement/\">Loudwire</a> · #музика #DrowningPool #SOiL",
     "kind": "photo",
     "link": "https://loudwire.com/drowning-pool-ryan-mccombs-leaves-band-second-time-statement/",
     "orig": "Drowning Pool's Ryan McCombs Leaves Band for Second Time"
@@ -8751,7 +8735,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Марк Нопфлер згадав про скромні початки Dire Straits та створення їхнього дебютного альбому</b>\n\nПопри мільйонні продажі платівок, Марк Нопфлер завжди прагнув лише одного — писати пісні та грати на гітарі\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/interviews/mark-knopfler-dire-straits-humble-origins-classic-debut\">Metal Hammer (Louder)</a> · #музика",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/interviews/mark-knopfler-dire-straits-humble-origins-classic-debut",
     "orig": "Mark Knopfler looks back on Dire Straits' humble origins and the making of a classic debut"
@@ -9342,6 +9325,10 @@
      [
       "Eurogamer",
       "https://www.eurogamer.net/grand-theft-auto-6-project-leonida-discord-github-vanish"
+     ],
+     [
+      "IGN",
+      "https://www.ign.com/articles/gta-6-teddy-bear-van-money-glitch"
      ]
     ],
     "caption": "🎮 <b>Найкращий запуск в історії розважальної індустрії: скільки вже заробила GTA 6</b>\n\nЗа перші чотири дні продажів, з 19 по 22 листопада, GTA 6 розійшлася тиражем близько 44,9 млн копій. Це число включає також передзамовлені копії гри. Таку оцінку оприлюднила аналітична компанія Alinea Analytics. У підрахунок увійшли лише копії, які дісталися покупцям, — нерозпроданих дисків у магазинах аналітики не враховували.\n\n🔗 <a href=\"https://itc.ua/ua/novini/gta-6-prodazhi-45-mln-kopij-za-pershyj-vikend/\">ITC.ua</a> · #ігри",
@@ -9601,6 +9588,34 @@
     "link": "https://bsky.app/profile/steamdb.info/post/3n32uahpkr22e",
     "orig": "#SteamTopSellers for week of 17 Nov — 24 November 2026 (No F2P): #1 - Steam Deck #2 - EA SPORTS FC™ 27 #3 - Call of Duty®: Modern Warfare®…"
    }
+  ],
+  [
+   1795532495.67878,
+   6856,
+   "🤖",
+   "ФБР знайшло сотні записів зустрічей OpenAI у колишнього інженера, якого підозрюють у шпигунстві",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🤖 <b>ФБР знайшло сотні записів зустрічей OpenAI у колишнього інженера, якого підозрюють у шпигунстві</b>\n\nФБР заявляє, що колишній співробітник OpenAI, якого підозрюють у шпигунстві на користь Саудівської Аравії, міг отримати доступ до комерційних таємниць компанії, зокрема документів про стратегічне партнерство.\n\n🔗 <a href=\"https://mezha.ua/news/openai-staff-captured-secret-documents-317528/\">Mezha</a> · #ШІ",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/openai-staff-captured-secret-documents-317528/",
+    "orig": "ФБР знайшло сотні записів зустрічей OpenAI у колишнього інженера, якого підозрюють у шпигунстві"
+   }
+  ],
+  [
+   1795532545.05012,
+   6857,
+   "🎮",
+   "«Справа була не в грі»: Джон Ромеро згадав, як Doom звинувачували в трагедії в Колумбайні",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>«Справа була не в грі»: Джон Ромеро згадав, як <a href=\"https://store.steampowered.com/app/379720/\">Doom</a> звинувачували в трагедії в Колумбайні</b>\n🕹 <a href=\"https://store.steampowered.com/app/379720/\">DOOM</a> — 124,00₴ (−80%)\n🕹 <a href=\"https://store.steampowered.com/app/4814480/\">Columbine</a> — 100,00₴\n\nСпівзасновник гри запевнив, що команда id Software була «адекватною», попри всі звинувачення в пресі\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/it-wasnt-the-game-it-was-something-else-john-romero-reflects-on-doom-being-blamed-for-the-columbine-massacre/\">VGC</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/it-wasnt-the-game-it-was-something-else-john-romero-reflects-on-doom-being-blamed-for-the-columbine-massacre/",
+    "orig": "‘It wasn’t the game, it was something else’: John Romero reflects on Doom being blamed for the Columbine Massacre"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9630,7 +9645,8 @@
   ],
   "ai|Mezha|https://mezha.ua/feed/": [
    1795451486.0651023,
-   1795528523.4597511
+   1795528523.4597511,
+   1795532495.6790276
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1795456972.3433175,
@@ -9713,9 +9729,9 @@
    1795530859.7196352
   ],
   "games|VGC|https://www.videogameschronicle.com/feed/": [
-   1795442631.7391605,
    1795514567.1514418,
-   1795527251.086428
+   1795527251.086428,
+   1795532545.0503607
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1795487520.5012088,
@@ -10105,7 +10121,6 @@
   "1aaaa9400be155a3": 1795221054.2974577,
   "1ab6be6a014616ab": 1795435266.6043499,
   "1ae469efeb482973": 1794684682.3707495,
-  "1b0b723f4bcd1eb3": 1794322897.326436,
   "1b21ef0bc62e7b2d": 1795080652.932032,
   "1b3625458ce7e792": 1795431685.8026528,
   "1b5f24084fc7c8e9": 1794682880.5039337,
@@ -10400,6 +10415,7 @@
   "3a828f83d3420d77": 1795005060.1889544,
   "3ad6dfcbbee37c67": 1794837716.6236005,
   "3ae61ef5615e6692": 1794717103.7216418,
+  "3b11bc09014e9035": 1795532457.367497,
   "3b125feb9667330c": 1794760184.2003238,
   "3b271e893923b536": 1794396679.4891856,
   "3b3e284ac877aa42": 1794560476.3685126,
@@ -10582,7 +10598,6 @@
   "52045c9d2c4af4d0": 1795501919.0042675,
   "52192fe8ebd905ec": 1794738676.6179154,
   "521d1ea360cc3de7": 1795426295.2330718,
-  "52a88df327e1f599": 1794322912.1605093,
   "52adf762d4075bfa": 1794818146.687389,
   "52bd07850cffa4e0": 1795033859.217856,
   "52f17e755ac0d4fc": 1794537169.1350489,
@@ -10726,7 +10741,6 @@
   "622c0c0d5dc8398d": 1794938453.8847573,
   "623547863e7d2a48": 1795237331.8454878,
   "623c0c8fb58c6af4": 1794945696.4206553,
-  "624a8efcb627a89a": 1794322888.132793,
   "624b7bda5081baab": 1794846655.2895768,
   "624c16a98abfb6b8": 1794759968.2490451,
   "62591ce8a9885719": 1795334486.301649,
@@ -10849,6 +10863,7 @@
   "6d934b84dca27339": 1794610969.0439706,
   "6d9766d36aa95310": 1794461483.076698,
   "6dbbef7fcf0697c1": 1795190538.9666822,
+  "6dde94dbf72a0b2f": 1795532495.6789804,
   "6df1c951d5f0d9f4": 1794898974.3085027,
   "6e2efce20f5c97f7": 1795114863.5731728,
   "6e4b99af19da77ca": 1794605453.407515,
@@ -11647,6 +11662,7 @@
   "c5b1e7a9ce76fb3b": 1794682854.575637,
   "c5bfd6e72283439e": 1794375098.0150483,
   "c5caadda8e830b38": 1794924115.2650104,
+  "c5dc19eb2ade20c8": 1795532493.3554366,
   "c62a3410efcd9681": 1794481453.1893055,
   "c6315c929a01423a": 1794340882.3778493,
   "c6352192e15b0cea": 1795104287.0355167,
@@ -11883,6 +11899,7 @@
   "e0d00c08b8c853e2": 1794555081.9932432,
   "e0ff9411e353d849": 1794466941.6055038,
   "e100efa2f2ede575": 1795042855.9275043,
+  "e10969bd392eeff7": 1795532494.8417895,
   "e1151e856867ad55": 1795190456.7331672,
   "e139384b2e043d17": 1795482149.6060832,
   "e145f331f21cea7b": 1795228077.574488,
@@ -11969,6 +11986,7 @@
   "e96521a20d580530": 1795403186.7103083,
   "e96f29b738a8fe95": 1795275136.563475,
   "e9c7b7798ee94ff3": 1795134676.9737735,
+  "e9cf515d6be53776": 1795532545.0503173,
   "e9ee834f07002a34": 1794526278.3937762,
   "ea020bd4c163cf88": 1795001473.0646799,
   "ea19693a12bb6c71": 1795486710.6602783,
@@ -11991,7 +12009,6 @@
   "eb914ac5b3670695": 1795273254.563207,
   "eb9ed10f13c529dc": 1795234044.1678782,
   "ebdfce07d993cb55": 1795253456.1008854,
-  "ebe09b08e592c2f6": 1794321299.1740322,
   "ec0a2a53e046448a": 1794776482.428397,
   "ec453d1217c21859": 1794650473.5415514,
   "ec54bb3011fe81bf": 1794877253.0913165,
@@ -12054,6 +12071,7 @@
   "f3c2d620e44aeae6": 1794342653.1379323,
   "f3e9a47b5c501fbf": 1795138283.4116333,
   "f3e9dad2a9a8949b": 1794540954.972512,
+  "f3f234db50c68e8f": 1795532493.356834,
   "f412993897ca0aa2": 1795325720.6762967,
   "f418ec61c1bec372": 1794616296.5765254,
   "f42e5c1700363830": 1794790852.1093779,
@@ -13387,7 +13405,7 @@
    "Polygon": 13,
    "Rock Paper Shotgun": 2,
    "VGC": 15,
-   "Variety": 1
+   "Variety": 2
   },
   "sources": {
    "/Film": 8,
@@ -13405,7 +13423,7 @@
    "Lambgoat": 7,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 7,
-   "Mezha": 15,
+   "Mezha": 16,
    "Neformat": 8,
    "PC Gamer": 6,
    "Pitchfork": 1,
@@ -13417,7 +13435,7 @@
    "Stereogum": 1,
    "The Decoder": 4,
    "ThePRP": 2,
-   "VGC": 5,
+   "VGC": 6,
    "Variety": 10
   },
   "translators": {
@@ -13425,7 +13443,7 @@
    "gemini-flash-latest": 6,
    "gemini-flash-lite-latest": 45,
    "gemma-4-26b-a4b-it": 41,
-   "gemma-4-31b-it": 46
+   "gemma-4-31b-it": 47
   },
   "week": "2026-W48"
  },
@@ -14360,6 +14378,16 @@
    "Clockwork Revolution",
    1794832288.2005928
   ],
+  "q:columbine": [
+   4814480,
+   "Columbine",
+   1795532499.9640963
+  ],
+  "q:columbine massacre": [
+   0,
+   "",
+   1795532499.3978164
+  ],
   "q:community market": [
    0,
    "",
@@ -14694,26 +14722,6 @@
    2252680,
    "Farlands",
    1792958489.5209355
-  ],
-  "q:feature this": [
-   0,
-   "",
-   1795359682.217264
-  ],
-  "q:feature this mod": [
-   0,
-   "",
-   1795359681.6507154
-  ],
-  "q:feature this mod adds": [
-   0,
-   "",
-   1795359681.1413064
-  ],
-  "q:feature this mod adds hardware": [
-   0,
-   "",
-   1795359680.5480049
   ],
   "q:february": [
    3529080,
@@ -15105,6 +15113,11 @@
    "",
    1795439293.7079055
   ],
+  "q:it wasn": [
+   0,
+   "",
+   1795532497.773109
+  ],
   "q:james cameron": [
    0,
    "",
@@ -15139,6 +15152,11 @@
    0,
    "",
    1795447883.0515494
+  ],
+  "q:john romero": [
+   0,
+   "",
+   1795532498.2887244
   ],
   "q:join": [
    4948290,
@@ -15325,6 +15343,11 @@
    "Mass Effect™ Legendary Edition",
    1793583090.1881073
   ],
+  "q:massacre": [
+   0,
+   "",
+   1795532500.505797
+  ],
   "q:massive entertainment": [
    0,
    "",
@@ -15389,21 +15412,6 @@
    2303000,
    "MOBILE SUIT GUNDAM BATTLE OPERATION 3",
    1793725363.7039416
-  ],
-  "q:mod adds hardware": [
-   0,
-   "",
-   1795359686.615971
-  ],
-  "q:mod adds hardware ray": [
-   0,
-   "",
-   1795359686.1231499
-  ],
-  "q:mod adds hardware ray tracing": [
-   0,
-   "",
-   1795359685.630968
   ],
   "q:monarchs at play": [
    4179890,
@@ -16015,6 +16023,11 @@
    "",
    1795474959.1521144
   ],
+  "q:romero": [
+   0,
+   "",
+   1795532498.8844
+  ],
   "q:rpg": [
    0,
    "",
@@ -16460,31 +16473,6 @@
    "",
    1795440738.7681882
   ],
-  "q:this mod": [
-   0,
-   "",
-   1795359685.1292558
-  ],
-  "q:this mod adds": [
-   0,
-   "",
-   1795359684.6351116
-  ],
-  "q:this mod adds hardware": [
-   0,
-   "",
-   1795359684.112404
-  ],
-  "q:this mod adds hardware ray": [
-   0,
-   "",
-   1795359683.3739984
-  ],
-  "q:this mod adds hardware ray tracing": [
-   0,
-   "",
-   1795359682.859928
-  ],
   "q:tomb raider": [
    203160,
    "Tomb Raider Game of the Year",
@@ -16810,27 +16798,31 @@
   "Mezha": [
    "anthropic",
    "cisco",
+   "gta 6",
    "kongsberg",
-   "ladybird",
    "lynx",
    "lynx kf41",
    "nothing",
    "nvidia",
    "openai",
    "rheinmetall",
-   "браузери",
+   "rockstar",
+   "rovertech",
+   "tcl",
    "бізнес",
-   "війна",
+   "дисплеї",
    "дональд трамп",
    "кібербезпека",
-   "кіберзахист",
-   "мінцифра",
+   "кіберзлочини",
+   "наземні дрони",
    "новини",
    "норвегія",
+   "ноутбуки",
+   "нрк",
    "оборонка",
    "ппо",
    "ракети",
-   "робота",
+   "розмінування",
    "сили оборони",
    "софт",
    "технології",
@@ -17551,6 +17543,14 @@
   [
    1795530859.7195947,
    "#SteamTopSellers for week of 17 Nov — 24 November 2026 (No F2P): #1 - Steam Deck #2 - EA SPORTS FC™ 27 #3 - Call of Duty®: Modern Warfare®…"
+  ],
+  [
+   1795532495.6789823,
+   "ФБР знайшло сотні записів зустрічей OpenAI у колишнього інженера, якого підозрюють у шпигунстві"
+  ],
+  [
+   1795532545.050319,
+   "‘It wasn’t the game, it was something else’: John Romero reflects on Doom being blamed for the Columbine Massacre"
   ]
  ],
  "titles_uk": [
@@ -18265,6 +18265,14 @@
   [
    1795530859.7195957,
    "Топ найпопулярніших товарів у Steam за 17–24 листопада 2026 року (без F2P): #1 — Steam Deck, #2 — EA SPORTS FC 27, #3 — Call of Duty®: Modern Warfare"
+  ],
+  [
+   1795532495.6789832,
+   "ФБР знайшло сотні записів зустрічей OpenAI у колишнього інженера, якого підозрюють у шпигунстві"
+  ],
+  [
+   1795532545.0503197,
+   "«Справа була не в грі»: Джон Ромеро згадав, як Doom звинувачували в трагедії в Колумбайні"
   ]
  ],
  "ukrainian": {
