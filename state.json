@@ -6,6 +6,12 @@
    "sent": 0,
    "since": 1795532457.4256833
   },
+  "src:games|PlayUA|https://playua.net/feed/": {
+   "detail": "https://playua.net/feed/ → HTTPSConnectionPool(host='playua.net', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «PlayUA» не працює",
+   "sent": 0,
+   "since": 1795536091.5302052
+  },
   "src:music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": {
    "detail": "https://www.loudersound.com/feeds/all → 404 Client Error: Not Found for url: https://www.loudersound.com/feeds.xml",
    "label": "Джерело «Metal Hammer (Louder)» не працює",
@@ -44,69 +50,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-24 15:31 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-24 16:03 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemma-4-26b-a4b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794843085.3205311,
-   6115,
-   "💾",
-   "«Податок на Google» приніс до держбюджету 17,5 млрд грн за перші 10 місяців 2026 року",
-   "DOU",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://dou.ua/lenta/news/google-tax-ukraine-2026/",
-    "orig": "«Податок на Google» приніс до держбюджету 17,5 млрд грн за перші 10 місяців 2026 року"
-   }
-  ],
-  [
-   1794843088.1209462,
-   6116,
-   "🎮",
-   "Власники Blade Runner ведуть переговори про нову AAA-гру за мотивами франшизи",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/blade-runner-aaa-game-317245/",
-    "orig": "Власники Blade Runner ведуть переговори про нову AAA-гру за мотивами франшизи"
-   }
-  ],
-  [
-   1794844878.6972473,
-   6117,
-   "🤖",
-   "Військовий ШІ, від якого відмовилася Швейцарія та з яким працює Україна: чому Європа шукає альтернативу Palantir (і чи зможе замінити)",
-   "AIN.ua",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://ain.ua/2026/11/16/viiskovii-si-vid-iakogo-vidmovilasia-sveicariia-i-z-iakim-praciuje-ukrayina-comu-jevropa-sukaje-alternativu-palantir-i-ci-zmoze-zaminiti/",
-    "orig": "Військовий ШІ, від якого відмовилася Швейцарія та з яким працює Україна: чому Європа шукає альтернативу Palantir (і чи зможе замінити)"
-   }
-  ],
-  [
-   1794844886.9724228,
-   6118,
-   "🤖",
-   "Новий випуск подкасту Odd Lots присвячений ШІ-гонці між США та Китаєм",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/videos/2026-11-16/odd-lots-the-trilemma-behind-us-china-ai-arms-race-video",
-    "orig": "Odd Lots: The “Trilemma” Behind the US-China AI Arms Race"
-   }
-  ],
   [
    1794846689.2411819,
    6119,
@@ -8761,7 +8715,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Бела Баджарія отримала Founders Award на International Emmy Awards</b>\n\nКолишня топменеджерка Netflix Бела Баджарія виступила на International Emmy Awards після свого звільнення минулого місяця. Вона подякувала за кар&#x27;єрний шлях, згадала розвиток локального контенту на стрімінгу та натякнула на початок нового етапу своєї кар&#x27;єри.\n\n🔗 <a href=\"https://variety.com/2026/tv/news/bela-bajaria-netflix-stay-tuned-international-emmy-awards-1236956315/\">Variety</a> · #кіно_і_серіали #Netflix",
     "kind": "text",
     "link": "https://variety.com/2026/tv/news/bela-bajaria-netflix-stay-tuned-international-emmy-awards-1236956315/",
     "orig": "Bela Bajaria Reflects on Her Netflix Experience and Says ‘Stay Tuned’ at International Emmy Awards"
@@ -8775,7 +8728,6 @@
    "Neformat",
    {
     "also": [],
-    "caption": "🤘 <b>OwlCraft повернувся з новим синглом</b>\n\nДнями блек-метал-проєкт OwlCraft оприлюднив першу композицію за два роки — &quot;anupadana&quot;. anupadana by OwlCraft Сольний проєкт, якому нещодавно виповнилося десять років, поповнився піснею, названою буд\n\n🔗 <a href=\"https://www.neformat.com.ua/news/28394-owlcraft-povernuvsya-z-novim-singlom.html\">Neformat</a> · #музика",
     "kind": "photo",
     "link": "https://www.neformat.com.ua/news/28394-owlcraft-povernuvsya-z-novim-singlom.html",
     "orig": "OwlCraft повернувся з новим синглом"
@@ -8789,7 +8741,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>Раян Маккомбс удруге покинув Drowning Pool, щоб зосередитися на SOiL</b>\n\nВокаліст Раян Маккомбс знову пішов із гурту Drowning Pool після трирічного періоду співпраці. Музикант вирішив повністю присвятити себе колективу SOiL, який нещодавно випустив сингл Enemy X і підписав контракт із Better Noise Music. У планах гурту — реліз нового альбому у 2027 році, а також масштабні тури й фестивалі.\n\n🔗 <a href=\"https://blabbermouth.net/news/singer-ryan-mccombs-exits-drowning-pool-once-again-plans-to-focus-on-soil\">Blabbermouth</a> · #музика #DrowningPool #Soil",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/singer-ryan-mccombs-exits-drowning-pool-once-again-plans-to-focus-on-soil",
     "orig": "Singer RYAN MCCOMBS Exits DROWNING POOL Once Again, Plans To Focus On SOIL"
@@ -9328,6 +9279,14 @@
      [
       "IGN",
       "https://www.ign.com/articles/gta-6-teddy-bear-van-money-glitch"
+     ],
+     [
+      "VGC",
+      "https://www.videogameschronicle.com/guide/can-you-buy-houses-in-gta-6-property-garages-and-safehouses-explained/"
+     ],
+     [
+      "GameSpot",
+      "https://www.gamespot.com/articles/thursday-night-football-had-lowest-viewership-all-season-on-gta-6-launch-day/"
      ]
     ],
     "caption": "🎮 <b>Найкращий запуск в історії розважальної індустрії: скільки вже заробила GTA 6</b>\n\nЗа перші чотири дні продажів, з 19 по 22 листопада, GTA 6 розійшлася тиражем близько 44,9 млн копій. Це число включає також передзамовлені копії гри. Таку оцінку оприлюднила аналітична компанія Alinea Analytics. У підрахунок увійшли лише копії, які дісталися покупцям, — нерозпроданих дисків у магазинах аналітики не враховували.\n\n🔗 <a href=\"https://itc.ua/ua/novini/gta-6-prodazhi-45-mln-kopij-za-pershyj-vikend/\">ITC.ua</a> · #ігри",
@@ -9634,6 +9593,48 @@
     "link": "https://itc.ua/ua/novini/onovlennya-windows11-kb5132057-nevstanovlyuyetsya/",
     "orig": "Навайбкодили: оновлення Windows 11 KB5132057 не встановлюється"
    }
+  ],
+  [
+   1795536110.6210518,
+   6859,
+   "💾",
+   "Anthropic навчила Claude самостійно схвалювати зміни в коді без участі людини",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "💾 <b>Anthropic навчила Claude самостійно схвалювати зміни в коді без участі людини</b>\n\nAnthropic запустила Claude Ship – набір агентів для роботи з pull request у GitHub. Він знаходить проблеми, виправляє код і може схвалювати рутинні зміни за політикою команди, але остаточне злиття залежить від налаштувань репозиторію.\n\n🔗 <a href=\"https://mezha.ua/news/anthropic-claude-ship-317529/\">Mezha</a> · #софт",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/anthropic-claude-ship-317529/",
+    "orig": "Anthropic навчила Claude самостійно схвалювати зміни в коді без участі людини"
+   }
+  ],
+  [
+   1795536113.9362903,
+   6860,
+   "🎮",
+   "Модери запустили злиту GTA 6 для Xbox на ПК, але є нюанс",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎮 <b>Модери запустили злиту GTA 6 для Xbox на ПК, але є нюанс</b>\n\nЕнтузіасти, які переносять на ПК злиту збірку GTA 6 для Xbox Series, вперше показали помітний прогрес: за їхніми даними, гра вже завантажується, відкриває меню й рендерить перші 3D-сцени. Водночас Leonida, один із головних проєктів портування, зник із GitHub і Discord. Користувачі пишуть, що закривають й інші спільноти, пов’язані з GTA 6.\n\n🔗 <a href=\"https://itc.ua/ua/novini/gta-6-na-pk-3d-rendering-rockstar-leonida-discord/\">ITC.ua</a> · #ігри",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/gta-6-na-pk-3d-rendering-rockstar-leonida-discord/",
+    "orig": "Модери запустили злиту GTA 6 для Xbox на ПК, але є нюанс"
+   }
+  ],
+  [
+   1795536164.6997738,
+   6861,
+   "🤖",
+   "Чому компаніям важко масштабувати ШІ-пілоти",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Чому компаніям важко масштабувати ШІ-пілоти</b>\n\nШІ переходить від пілотних проєктів до стадії виробництва, але компаніям усе ще потрібна сучасна інфраструктура та готові до змін команди. CEO Kyndryl Мартін Шрьотер обговорив питання масштабування ШІ, захисту суверенітету та управління ризиками при оновленні складних систем.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-24/why-ai-pilots-struggle-to-scale-video\">Bloomberg</a> · #ШІ #Kyndryl",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-24/why-ai-pilots-struggle-to-scale-video",
+    "orig": "Why AI Pilots Struggle to Scale"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9642,12 +9643,12 @@
    1795341795.5158873
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1795442690.607772,
    1795449854.8630764,
    1795480342.8666642,
    1795491138.273421,
    1795494773.6995766,
-   1795498474.4579458
+   1795498474.4579458,
+   1795536164.6999838
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1795438887.3734498,
@@ -9705,7 +9706,8 @@
    1795332802.884151
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
-   1795514569.1766608
+   1795514569.1766608,
+   1795536113.9364903
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
    1795440735.784093,
@@ -9888,10 +9890,10 @@
    1795534284.167662
   ],
   "software|Mezha|https://mezha.ua/feed/": [
-   1795444286.8857412,
    1795451488.6265895,
    1795455081.7831943,
-   1795467677.6475132
+   1795467677.6475132,
+   1795536110.6212814
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1795509348.350736,
@@ -9930,6 +9932,7 @@
   "034d29d4019d944c": 1795174346.0042849,
   "03587135ab53581c": 1795530656.5277925,
   "0365c4da95c9807f": 1794474053.2484434,
+  "03e2f6c846dfae62": 1795536070.620261,
   "03ee526d0ed8fdfa": 1794868348.3863418,
   "040bfd9a76098491": 1794841326.9254682,
   "040c94c004adcc1d": 1794619762.9685986,
@@ -10148,7 +10151,6 @@
   "1c7c3a948c7ce4b2": 1795131055.6482096,
   "1c7fb1154a9e9ebb": 1795185063.5654962,
   "1c8f472767ef8e44": 1794909753.6288118,
-  "1cc767f035cfcafd": 1794326506.0290408,
   "1cd8dfc764d0cbb9": 1795469482.2771633,
   "1cff9d4eaf4267f4": 1794954711.7221549,
   "1d125701eba6eb19": 1795138365.6231785,
@@ -10207,6 +10209,7 @@
   "2388ba7ca0953ad0": 1795359679.9833004,
   "23938f8b9b701327": 1795422683.5491767,
   "23ba00645e118534": 1795010512.3083937,
+  "23c3e40e4e5de3a4": 1795536164.699938,
   "23da551222d5fdb0": 1794711880.0208218,
   "23e197de8cc58353": 1795156299.3821158,
   "23e328a2c6f8544b": 1794702682.9902213,
@@ -10596,6 +10599,7 @@
   "4fcc147fbb707c97": 1795215669.3813393,
   "4fe40607f2ed747e": 1794355381.770662,
   "4ff2500ae4ccf3a4": 1794423681.5965264,
+  "5051def9dde83975": 1795536109.8182173,
   "50553c7ed298b632": 1794834056.1069303,
   "507f124765a8661b": 1794771054.9261434,
   "50830f5c4d4fe6ad": 1794483075.0825148,
@@ -10617,6 +10621,7 @@
   "52adf762d4075bfa": 1794818146.687389,
   "52bd07850cffa4e0": 1795033859.217856,
   "52f17e755ac0d4fc": 1794537169.1350489,
+  "530445c44caff7bb": 1795536110.6212318,
   "530a03380a212678": 1795002898.9042714,
   "532838f3e45b08f5": 1794920486.41103,
   "532d6470dc405788": 1795249872.3107543,
@@ -10780,6 +10785,7 @@
   "648ccc55f45aea20": 1795435304.6913989,
   "649cade6cf52b099": 1794391256.5139039,
   "64a0cf7f43056473": 1794929457.0480187,
+  "64bdd684cbf6e982": 1795536113.9364457,
   "64cca365b932e22c": 1795008699.1667783,
   "65062365c0bbe7d6": 1795267934.9457097,
   "6510ffc32c2cd6d1": 1794873687.3295093,
@@ -10899,7 +10905,6 @@
   "6fa4a4e4dd853d59": 1794970885.2558308,
   "6fff152cf8328746": 1794868254.5337205,
   "70248a09d92ab732": 1794661254.0536256,
-  "7087628ac29ac5a1": 1794326480.2330475,
   "70a06c420079a984": 1795465853.2477036,
   "70a5fa89da9df5c2": 1794432684.2376895,
   "70b291c249d92e59": 1795132854.102984,
@@ -10995,6 +11000,7 @@
   "7a6902c111ef1864": 1795096939.375861,
   "7a6f712d91815c42": 1795141424.1342742,
   "7ab054b4996babcd": 1795451466.621939,
+  "7ac04193668c81e1": 1795536070.620261,
   "7ac34781fce60a85": 1795141499.5975015,
   "7ad5254cb90b9927": 1794682854.575637,
   "7ae546f7a2857dba": 1795140442.0977042,
@@ -11035,7 +11041,6 @@
   "7e8cb50fb1252936": 1794654185.3008568,
   "7eb47aed02f3cb74": 1795080652.932032,
   "7ec74f048fd88c8b": 1794682854.575637,
-  "7ecf21b1d2ba264f": 1794326503.5964656,
   "7ed74e5752f81728": 1795527059.8735101,
   "7ee4411884c51582": 1794425482.4962661,
   "7ee76404390a1aa4": 1794956600.0850973,
@@ -11364,7 +11369,6 @@
   "a365c0d977eb3818": 1795505862.36446,
   "a36a26d296b8606a": 1794405831.1688273,
   "a39149cdea547c57": 1794873694.242586,
-  "a3c167758fc64ca2": 1794324722.654746,
   "a3c2f2868b560997": 1794765683.238813,
   "a3eb25072590a878": 1794621693.8390017,
   "a41fd22d8f6a2ac9": 1794411054.0634255,
@@ -11553,7 +11557,6 @@
   "b760e74150a905e1": 1795437054.9153414,
   "b761befe780aeb95": 1794751279.1553652,
   "b7730c7fc9061948": 1795069878.1635556,
-  "b79d99b85665c970": 1794324720.406491,
   "b7a6e8b9a3875109": 1795078888.843694,
   "b7d18751f398d6b4": 1795215687.50089,
   "b81a7e4ec3a1a423": 1794349893.5886278,
@@ -11612,6 +11615,7 @@
   "be6dcb8dbf1cc5c9": 1794551489.7444518,
   "be75b07fa4e25505": 1794333679.4848025,
   "bea2be3f2d42d96c": 1794441684.146538,
+  "bea4ea5dd7383d0f": 1795536109.2125697,
   "beeeb8b289e5e57b": 1795044680.7686934,
   "bef95b9b77ac43ae": 1795024853.7713437,
   "bf0516a92f6eea2b": 1794864690.9790192,
@@ -11675,7 +11679,6 @@
   "c59365fe3244fbbf": 1795421307.0887196,
   "c5a938a2f048c24c": 1795465853.2477036,
   "c5ac6246dc395274": 1795345279.07603,
-  "c5aeb2db23e044df": 1794326480.6572568,
   "c5b1e7a9ce76fb3b": 1794682854.575637,
   "c5bfd6e72283439e": 1794375098.0150483,
   "c5caadda8e830b38": 1794924115.2650104,
@@ -11864,9 +11867,9 @@
   "d9feef0f6eee3372": 1794394892.642675,
   "da01396b0c48bf33": 1795248056.922208,
   "da052ec0e930a1f9": 1795451486.0650585,
+  "da0efc774335db72": 1795536108.6116896,
   "da376550bcf71c9d": 1795188662.6550176,
   "da488d2bf9306801": 1794384247.7978582,
-  "da5dc4eb4fbc5c01": 1794326455.216971,
   "da7e4e2063664e7f": 1795449854.863025,
   "da8f7d3d217def39": 1795422656.3810875,
   "dadb24a73a7a90e0": 1794765695.316193,
@@ -11889,6 +11892,7 @@
   "dcd110402d201def": 1795440658.0846477,
   "dd389dd16d8ef8c4": 1794632451.7232893,
   "dd38e4db275d4a7d": 1794592858.1127434,
+  "dd8f1762c1ac21dc": 1795536070.620261,
   "dd97f68e98002cea": 1795447856.9534128,
   "ddb1804df7a89a1c": 1794357190.3579288,
   "ddb68bfe27a19d66": 1794529995.7732687,
@@ -13415,33 +13419,33 @@
    "GameSpot": 2,
    "IGN": 6,
    "IndieWire": 2,
-   "Insider Gaming": 25,
+   "Insider Gaming": 26,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 4,
    "PlayUA": 1,
    "Polygon": 13,
    "Rock Paper Shotgun": 2,
-   "VGC": 15,
-   "Variety": 2
+   "VGC": 16,
+   "Variety": 3
   },
   "sources": {
    "/Film": 8,
    "Blabbermouth": 3,
-   "Bloomberg": 13,
+   "Bloomberg": 14,
    "DOU": 2,
    "DOU Gamedev": 2,
    "Deadline": 25,
    "Eurogamer": 4,
    "GamesIndustry.biz": 4,
    "Hugging Face": 1,
-   "ITC.ua": 12,
+   "ITC.ua": 13,
    "IndieWire": 3,
    "Insider Gaming": 5,
    "Lambgoat": 7,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 7,
-   "Mezha": 16,
+   "Mezha": 17,
    "Neformat": 8,
    "PC Gamer": 6,
    "Pitchfork": 1,
@@ -13460,7 +13464,7 @@
    "DeepL": 14,
    "gemini-flash-latest": 6,
    "gemini-flash-lite-latest": 46,
-   "gemma-4-26b-a4b-it": 41,
+   "gemma-4-26b-a4b-it": 42,
    "gemma-4-31b-it": 47
   },
   "week": "2026-W48"
@@ -14011,6 +14015,11 @@
    "",
    1795518426.3982935
   ],
+  "q:6 xbox": [
+   0,
+   "",
+   1795536113.265325
+  ],
   "q:60": [
    0,
    "",
@@ -14350,11 +14359,6 @@
    2269460,
    "創業王 CEO",
    1794456080.6666977
-  ],
-  "q:chapter 7": [
-   0,
-   "",
-   1795363283.013664
   ],
   "q:christoph hartmann": [
    0,
@@ -14766,21 +14770,6 @@
    "",
    1795402883.7529485
   ],
-  "q:fortnite": [
-   0,
-   "",
-   1795363282.4109173
-  ],
-  "q:fortnite chapter": [
-   0,
-   "",
-   1795363281.7566571
-  ],
-  "q:fortnite chapter 7": [
-   0,
-   "",
-   1795363281.2129326
-  ],
   "q:forza motorsport": [
    2440510,
    "Forza Motorsport",
@@ -14960,6 +14949,11 @@
    0,
    "",
    1795518425.8838234
+  ],
+  "q:gta 6 xbox": [
+   0,
+   "",
+   1795536112.6864164
   ],
   "q:halloween night": [
    2658090,
@@ -15285,11 +15279,6 @@
    2264760,
    "Lifetime",
    1793107886.4472113
-  ],
-  "q:looking glass": [
-   1272530,
-   "Looking Glass",
-   1792942284.9998322
   ],
   "q:lords of the fallen 2": [
    4767480,
@@ -16815,14 +16804,12 @@
  "tag_hints": {
   "Mezha": [
    "anthropic",
+   "claude",
    "gta 6",
    "kongsberg",
-   "lynx",
-   "lynx kf41",
    "nothing",
    "nvidia",
    "openai",
-   "rheinmetall",
    "rockstar",
    "rovertech",
    "tcl",
@@ -16840,7 +16827,7 @@
    "ппо",
    "ракети",
    "розмінування",
-   "сили оборони",
+   "софт",
    "технології",
    "ударні безпілотники",
    "україна",
@@ -16848,10 +16835,6 @@
   ]
  },
  "titles": [
-  [
-   1795361536.6191227,
-   "How AI is Accelerating Cyberattacks"
-  ],
   [
    1795363435.5769947,
    "All sprites in the Fortnite Chapter 7 mini season"
@@ -17567,13 +17550,21 @@
   [
    1795534284.1676116,
    "Навайбкодили: оновлення Windows 11 KB5132057 не встановлюється"
+  ],
+  [
+   1795536110.6212335,
+   "Anthropic навчила Claude самостійно схвалювати зміни в коді без участі людини"
+  ],
+  [
+   1795536113.9364474,
+   "Модери запустили злиту GTA 6 для Xbox на ПК, але є нюанс"
+  ],
+  [
+   1795536164.6999395,
+   "Why AI Pilots Struggle to Scale"
   ]
  ],
  "titles_uk": [
-  [
-   1795361536.6191235,
-   "Штучний інтелект прискорює кібератаки та дає перевагу злочинцям"
-  ],
   [
    1795363435.5769956,
    "Усі спрайти в мінісезоні Fortnite Chapter 7"
@@ -18289,6 +18280,18 @@
   [
    1795534284.1676128,
    "Навайбкодили: оновлення Windows 11 KB5132057 не встановлюється"
+  ],
+  [
+   1795536110.6212344,
+   "Anthropic навчила Claude самостійно схвалювати зміни в коді без участі людини"
+  ],
+  [
+   1795536113.9364486,
+   "Модери запустили злиту GTA 6 для Xbox на ПК, але є нюанс"
+  ],
+  [
+   1795536164.6999407,
+   "Чому компаніям важко масштабувати ШІ-пілоти"
   ]
  ],
  "ukrainian": {
@@ -18580,6 +18583,7 @@
    "2531310": "",
    "2536520": "",
    "2537590": "",
+   "255710": "",
    "2569760": "",
    "2581410": "",
    "2584270": "is",
@@ -18701,6 +18705,7 @@
    "3322630": "",
    "33230": "",
    "3325350": "isa",
+   "335300": "",
    "3357650": "",
    "3370490": "",
    "3375780": "",
@@ -18838,6 +18843,7 @@
    "4618570": "",
    "463530": "is",
    "4656000": "is",
+   "4678800": "",
    "469820": "",
    "4715160": "is",
    "4732690": "",
@@ -18951,7 +18957,7 @@
    "989440": "",
    "990080": ""
   },
-  "last_check": 1795512975.8406043,
+  "last_check": 1795536183.699425,
   "with_uk": 93
  },
  "weekly_releases_week": "2026-W48",
@@ -20133,13 +20139,6 @@
     "price": "449,00₴",
     "release": 1754931634
    },
-   "3240220": {
-    "coming_soon": false,
-    "discount": 56,
-    "name": "Grand Theft Auto V Enhanced",
-    "price": "879,00₴",
-    "release": 1741091880
-   },
    "3241660": {
     "coming_soon": false,
     "discount": 0,
@@ -20771,7 +20770,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795530869.0438666,
+  "last_check": 1795536173.763727,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
