@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
+   "detail": "https://www.kerrang.com/feed.rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Kerrang!» не працює",
+   "sent": 0,
+   "since": 1795510871.801579
+  }
+ },
  "daily_digest_date": "2026-11-23",
  "freebies": {
   "last_check": 1795509363.079919,
@@ -43,19 +50,6 @@
   ]
  },
  "post_log": [
-  [
-   1794819674.7106445,
-   6089,
-   "🎮",
-   "Не влізла в Google Play, тож полетіла в Steam: як ми робили гру про Марс, яка лише тепер вийшла на Android",
-   "DOU Gamedev",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://gamedev.dou.ua/blogs/kosmoodiseya-on-android/",
-    "orig": "Не влізла в Google Play, тож полетіла в Steam: як ми робили гру про Марс, яка лише тепер вийшла на Android"
-   }
-  ],
   [
    1794819950.4707286,
    6090,
@@ -8736,7 +8730,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>США прагнуть стягнути понад 1 мільярд доларів у зв’язку з хакерською атакою на Binance</b>\n\nЗгідно з судовими документами, оприлюдненими в понеділок, США вимагають конфіскації криптовалюти на суму понад 1 мільярд доларів, яку викрали хакери, пов’язані з Північною Кореєю, у компанії Binance Holdings Ltd.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-23/us-seeks-to-recover-more-than-1-billion-from-binance-hack\">Bloomberg</a> · #софт",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-23/us-seeks-to-recover-more-than-1-billion-from-binance-hack",
     "orig": "US Seeks to Recover More Than $1 Billion From Binance Hack"
@@ -9533,7 +9526,12 @@
    "Apple TV продовжила серіал \"Тед Лассо\" / Ted Lasso на 5-й сезон",
    "Mezha",
    {
-    "also": [],
+    "also": [
+     [
+      "ITC.ua",
+      "https://itc.ua/ua/novini/ted-lasso-otrymav-5-sezon-shho-vidomo-pro-prodovzhennya/"
+     ]
+    ],
     "caption": "🎬 <b>Apple TV продовжила серіал &quot;Тед Лассо&quot; / Ted Lasso на 5-й сезон</b>\n\nСтримінгова платформа Apple TV замовила виробництво п&#x27;ятого сезону для спортивного комедійного серіалу &quot;Тед Лассо&quot; / Ted Lasso. Джейсон Судейкіс, як очікується, повернеться до головної ролі та продовжить роботу виконавчим продюсером.\n\n🔗 <a href=\"https://mezha.ua/news/ted-lasso-season-5-317511/\">Mezha</a> · #кіно_і_серіали",
     "kind": "photo",
     "link": "https://mezha.ua/news/ted-lasso-season-5-317511/",
@@ -9580,6 +9578,20 @@
     "kind": "photo",
     "link": "https://mezha.ua/news/steam-awards-nominations-317510/",
     "orig": "Valve відкрила номінації на Steam Awards 2026 – цього року оберуть і найкращу гру десятиліття"
+   }
+  ],
+  [
+   1795510888.5959373,
+   6832,
+   "🎮",
+   "Що Senior отримує й чим ризикує, коли стає лідом",
+   "DOU Gamedev",
+   {
+    "also": [],
+    "caption": "🎮 <b>Що Senior отримує й чим ризикує, коли стає лідом</b>\n\nНа одному з проєктів лід цілий рік майже не працював «руками» — час ішов на мітинги, чати й оцінку завдань. Ми поговорили з лід-художниками, артдиректорами та геймдизайнерами з Volmi, GSC, Ulysses Graphics, Room 8 Studio та Whimsy Games про те, чому вони погоджувалися на керівні посади, як після цього змінилася їхня робота й чому дехто повернувся до індивідуальної ролі.\n\n🔗 <a href=\"https://gamedev.dou.ua/articles/senior-to-lead/\">DOU Gamedev</a> · #ігри",
+    "kind": "photo",
+    "link": "https://gamedev.dou.ua/articles/senior-to-lead/",
+    "orig": "Що Senior отримує й чим ризикує, коли стає лідом"
    }
   ]
  ],
@@ -9628,7 +9640,8 @@
    1795231939.9447293
   ],
   "games|DOU Gamedev|https://gamedev.dou.ua/feed/": [
-   1795424505.9809418
+   1795424505.9809418,
+   1795510888.5962086
   ],
   "games|Digital Foundry|https://www.digitalfoundry.net/feed": [
    1795275136.5635202,
@@ -9875,6 +9888,7 @@
   "040bfd9a76098491": 1794841326.9254682,
   "040c94c004adcc1d": 1794619762.9685986,
   "0431a3df410942d2": 1795149173.4702308,
+  "044076a2abaa59c8": 1795510854.5541842,
   "0451b87a43858e55": 1794312109.8160925,
   "04623ce635725e68": 1795420853.9785311,
   "04a702a6bd870247": 1794922318.0981417,
@@ -10181,6 +10195,7 @@
   "26be0405094b47fb": 1795323740.4129944,
   "26d2320c8c034d0b": 1794825085.8859608,
   "26fea11672f4d329": 1794364288.802193,
+  "270089b6c4abd78f": 1795510886.620585,
   "2705c88e0a367dd4": 1795008701.2971165,
   "2715629e7d4a057f": 1794544460.9972136,
   "2722e18aaa1f07f4": 1795075254.4414396,
@@ -10959,6 +10974,7 @@
   "7d75fbf5660cfd4c": 1795113261.9904413,
   "7d8321c30b48b6e4": 1794569525.33716,
   "7d9153c0bf2c6f9a": 1795089086.610102,
+  "7d9fb16fe51dfeff": 1795510888.5961578,
   "7da1aa5af83fca9b": 1794961881.3375428,
   "7dccb487c29d857b": 1794711697.966141,
   "7dce10bc603fd485": 1795420874.9038956,
@@ -11990,7 +12006,6 @@
   "f2c73412f5f02c9b": 1795417373.5466897,
   "f2cfdedad1abd1d4": 1794629065.3563797,
   "f2d28a57cddc32ed": 1794762053.046261,
-  "f2eeb31ef09c1376": 1794301282.6935184,
   "f2f374731e3158ae": 1795396215.5888333,
   "f2fd3668622bccaf": 1794823302.0580728,
   "f3040aceb4d30279": 1794619753.424945,
@@ -13328,7 +13343,7 @@
    "Metal Hammer (Louder)": 1,
    "PC Gamer": 4,
    "PlayUA": 1,
-   "Polygon": 12,
+   "Polygon": 13,
    "Rock Paper Shotgun": 1,
    "VGC": 12,
    "Variety": 1
@@ -13338,7 +13353,7 @@
    "Blabbermouth": 3,
    "Bloomberg": 13,
    "DOU": 2,
-   "DOU Gamedev": 1,
+   "DOU Gamedev": 2,
    "Deadline": 24,
    "Eurogamer": 2,
    "GamesIndustry.biz": 2,
@@ -13888,31 +13903,6 @@
    3408350,
    "AAA",
    1793293536.3002434
-  ],
-  "q:activision": [
-   0,
-   "",
-   1795338085.8770223
-  ],
-  "q:activision patent": [
-   0,
-   "",
-   1795338085.339606
-  ],
-  "q:activision patent allows": [
-   0,
-   "",
-   1795338084.851448
-  ],
-  "q:activision patent allows ai": [
-   0,
-   "",
-   1795338084.405722
-  ],
-  "q:activision patent allows ai enemies": [
-   0,
-   "",
-   1795338083.9160552
   ],
   "q:ai generated": [
    0,
@@ -17203,6 +17193,10 @@
   [
    1795509354.2348213,
    "Valve відкрила номінації на Steam Awards 2026 – цього року оберуть і найкращу гру десятиліття"
+  ],
+  [
+   1795510888.5961597,
+   "Що Senior отримує й чим ризикує, коли стає лідом"
   ]
  ],
  "titles_uk": [
@@ -17897,6 +17891,10 @@
   [
    1795509354.234823,
    "Valve відкрила номінації на Steam Awards 2026 – цього року оберуть і найкращу гру десятиліття"
+  ],
+  [
+   1795510888.5961602,
+   "Що Senior отримує й чим ризикує, коли стає лідом"
   ]
  ],
  "ukrainian": {
