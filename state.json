@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795503695.2831316
+  }
+ },
  "daily_digest_date": "2026-11-23",
  "freebies": {
   "last_check": 1795501924.4385967,
@@ -31,83 +38,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-24 06:32 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-24 07:03 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
-   "gemma-4-26b-a4b-it": 1
+   "gemma-4-26b-a4b-it": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794810780.0709257,
-   6077,
-   "🎮",
-   "Нейрорендеринг може зробити Xbox Project Helix доступнішим",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/xbox-project-helix-neural-rendering/",
-    "orig": "Neural Rendering Could Help XBOX Project Helix’s Affordability"
-   }
-  ],
-  [
-   1794810782.9831188,
-   6078,
-   "🎮",
-   "У Dota 2 знайшли експлойт, який дозволяє переміщувати предмети суперників",
-   "PlayUA",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://playua.net/u-dota-2-znajshly-eksplojt-yakyj-dozvolyaye-peremishhuvaty-predmety-supernykiv/",
-    "orig": "У Dota 2 знайшли експлойт, який дозволяє переміщувати предмети суперників"
-   }
-  ],
-  [
-   1794811464.7662218,
-   6079,
-   "🎬",
-   "Серіал Slow Horses завершиться на восьмому сезоні",
-   "Variety",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://variety.com/2026/tv/news/slow-horses-end-season-8-olivia-cooke-1236948306/",
-    "orig": "‘Slow Horses’ Will End With Season 8, Says Olivia Cooke: ‘We’re All Melancholy… The Show’s Been a Shining Light’"
-   }
-  ],
-  [
-   1794812490.7889652,
-   6080,
-   "🎮",
-   "Project Helix розробляють як консоль, а не як ПК",
-   "Insider Gaming",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://insider-gaming.com/xbox-project-helix-console-first-not-pc/",
-    "orig": "Project Helix Is a Console First, Not a PC, XBOX Says"
-   }
-  ],
-  [
-   1794812494.1078475,
-   6081,
-   "🤘",
-   "Складна доля дебютного альбому Moby Grape",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/music/albums/moby-grape-moby-grape",
-    "orig": "\"The heavier it gets, the more you think someone else did this better.\" Five songwriters usher in confusion on debut Moby Grape album"
-   }
-  ],
   [
    1794814473.0151956,
    6082,
@@ -8775,7 +8716,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Найбільш суперечливий режисер Star Wars прокоментував своє можливе повернення</b>\n\nРежисер Star Wars: The Last Jedi Раян Джонсон не проти повернутися до франшизи\n\n🔗 <a href=\"https://www.polygon.com/star-wars-director-rian-johnson-is-open-to-returning/\">Polygon</a> · #ігри",
     "kind": "photo",
     "link": "https://www.polygon.com/star-wars-director-rian-johnson-is-open-to-returning/",
     "orig": "Star Wars’ Most Divisive Director Officially Addresses a Possible Return"
@@ -8789,7 +8729,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>NAVI очолили рейтинг за виплатами ESL Annual Club Incentive</b>\n\nESL FACEIT Group розподілила $2 729 450 між кіберспортивними організаціями в межах програми Annual Club Incentive.\n\n🔗 <a href=\"https://insider-gaming.com/navi-top-esl-annual-club-incentive-earnings/\">Insider Gaming</a> · #ігри",
     "kind": "photo",
     "link": "https://insider-gaming.com/navi-top-esl-annual-club-incentive-earnings/",
     "orig": "NAVI Top ESL Annual Club Incentive Earnings: $2.7m Distributed in Total"
@@ -9620,6 +9559,34 @@
     "link": "https://deadline.com/2026/11/antoine-fuqua-assault-denied-1237232104/",
     "orig": "“Not True”: Antoine Fuqua Alleged Gun Assault Of Bar Manager Over Daughter Rebuked By Reps"
    }
+  ],
+  [
+   1795503766.3525965,
+   6824,
+   "🎬",
+   "Трейлер Avengers: Doomsday викликав суперечки через похмуру атмосферу",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Трейлер Avengers: Doomsday викликав суперечки через похмуру атмосферу</b>\n\nЧи не бояться брати Руссо кольорів?\n\n🔗 <a href=\"https://www.indiewire.com/news/trailers/avengers-doomsday-trailer-internet-fan-controversy-1235230219/\">IndieWire</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/news/trailers/avengers-doomsday-trailer-internet-fan-controversy-1235230219/",
+    "orig": "Why Is the ‘Avengers: Doomsday’ Trailer So… Gloomy? Internet Erupts Over Latest Look at Marvel Movie"
+   }
+  ],
+  [
+   1795503820.3191671,
+   6825,
+   "🎬",
+   "Адам Драйвер зіграє лиходія Mister Sinister у перезапуску X-Men",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Адам Драйвер зіграє лиходія Mister Sinister у перезапуску X-Men</b>\n\nАдам Драйвер зіграє Dr. Nathaniel Essex (Mister Sinister) у перезапуску X-Men від режисера Джейка Шрайєра. Під час інтерв&#x27;ю Сету Майєрсу актор розповів про свою роль та дитячу прихильність до франшизи. Прем&#x27;єра фільму запланована на 5 травня 2028 року.\n\n🔗 <a href=\"https://variety.com/2026/film/news/adam-driver-x-men-mister-sinister-seth-meyers-marvel-1236956786/\">Variety</a> · #кіно_і_серіали #XMen #Marvel",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/news/adam-driver-x-men-mister-sinister-seth-meyers-marvel-1236956786/",
+    "orig": "Adam Driver Teases His ‘X-Men’ Villain Mister Sinister to Seth Meyers"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9760,17 +9727,17 @@
    1795422683.5492282
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
-   1795396087.7082558,
-   1795473129.039189
+   1795473129.039189,
+   1795503766.3528469
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1795422681.5188174,
    1795471381.9447255
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1795415550.562963,
    1795487529.6466992,
-   1795496496.991595
+   1795496496.991595,
+   1795503820.319433
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1795428211.793298,
@@ -9923,7 +9890,6 @@
   "050ea7aed04e3489": 1795017653.3598104,
   "0524f91cd2795cb8": 1795208454.5689726,
   "05414e171daf5c5a": 1794344481.8467357,
-  "05633073ef61800f": 1794294082.9916484,
   "05874b328888d37f": 1795087856.688431,
   "05971735f7581743": 1794522703.2743623,
   "05acc5df2ba56e7f": 1794612684.7517095,
@@ -10371,6 +10337,7 @@
   "36f234b2c43689e3": 1794619880.2654126,
   "36f613a875bba025": 1795486710.6602783,
   "371ff855707ac2b1": 1794780076.0764132,
+  "373933b98e861ae1": 1795503820.319386,
   "37425639260d47f1": 1795213865.641769,
   "3749461632f3a1b2": 1794889885.7630756,
   "37704206e3110eeb": 1795116654.1601062,
@@ -10539,6 +10506,7 @@
   "4c01755a9959923c": 1794439893.702898,
   "4c4a85f6ddb25cca": 1794578500.2054534,
   "4c4bb87fee3f49f0": 1794844878.6974676,
+  "4c4e87d63c3caf12": 1795503699.3066688,
   "4c6a78e9df138969": 1795024853.7713437,
   "4cb0ce66c92778cb": 1794634298.6207952,
   "4cc488b08684e710": 1795240911.793855,
@@ -11536,7 +11504,6 @@
   "ba917f886ce52e90": 1794920454.799004,
   "ba9a4d5bf1804b22": 1795465853.2477036,
   "baa0550b9814fd83": 1795084273.2512887,
-  "bb00d3f892d33f01": 1794294078.3600943,
   "bb1e5f9b24d9d9ed": 1795010521.5464308,
   "bb2d40ecb732e6bd": 1795431653.366561,
   "bb33f9c0d34d4abb": 1794591222.274452,
@@ -11788,6 +11755,7 @@
   "d6e8809ef645f2a6": 1794834056.1069303,
   "d6f1683470e3bd65": 1795474878.698535,
   "d7130c18b2a5fd4f": 1795026653.649315,
+  "d72f356c24e2cb06": 1795503657.393885,
   "d739b29f104302be": 1794893459.6418285,
   "d74e8a8e22fe3ac6": 1794418292.0812464,
   "d75b75b25fd589f5": 1795215835.577373,
@@ -12137,6 +12105,7 @@
   "fcc897e60db24b95": 1794972652.6501987,
   "fce68728c74d42dd": 1794580296.155251,
   "fd133704e3393003": 1795221303.1654193,
+  "fd5f7d1686569b39": 1795503766.352804,
   "fd6e0a24f045639d": 1794560515.4583867,
   "fd97a6d57c43f0ea": 1795172937.9451418,
   "fdb0e6e42b2cd303": 1794983498.2690272,
@@ -13358,7 +13327,7 @@
   },
   "filtered": {
    "/Film": 5,
-   "Bloomberg": 10,
+   "Bloomberg": 11,
    "Deadline": 3,
    "IGN": 6,
    "IndieWire": 2,
@@ -13383,7 +13352,7 @@
    "GamesIndustry.biz": 2,
    "Hugging Face": 1,
    "ITC.ua": 10,
-   "IndieWire": 2,
+   "IndieWire": 3,
    "Insider Gaming": 4,
    "Lambgoat": 7,
    "Loudwire": 1,
@@ -13400,13 +13369,13 @@
    "The Decoder": 2,
    "ThePRP": 2,
    "VGC": 3,
-   "Variety": 9
+   "Variety": 10
   },
   "translators": {
    "DeepL": 8,
    "gemini-flash-latest": 5,
    "gemini-flash-lite-latest": 39,
-   "gemma-4-26b-a4b-it": 30,
+   "gemma-4-26b-a4b-it": 32,
    "gemma-4-31b-it": 36
   },
   "week": "2026-W48"
@@ -15002,11 +14971,6 @@
    "Kingdom Come: Deliverance II",
    1793120757.744315
   ],
-  "q:kingdom hearts 4": [
-   3216600,
-   "KINGDOM HEARTS IV",
-   1792909890.8481803
-  ],
   "q:lake": [
    1118240,
    "Lake",
@@ -16536,18 +16500,6 @@
  },
  "titles": [
   [
-   1795329147.833993,
-   "Watermelon Expands Production Ambitions As It Seals Partnership With Qatar’s Film Committee"
-  ],
-  [
-   1795330926.29893,
-   "Broadway’s Cure For The Post-Holiday Blues? Stars, Stars & More Stars, Coming This Winter"
-  ],
-  [
-   1795330959.0186315,
-   "MY DYING BRIDE's ANDREW CRAIGHAN: New Music With Singer MIKKO KOTAMÄKI Sounds 'Promising'"
-  ],
-  [
    1795332802.8841016,
    "These Piranha Plant Slippers Double as Mario-themed Decor When You Put Them Away"
   ],
@@ -17210,21 +17162,17 @@
   [
    1795501922.8311644,
    "“Not True”: Antoine Fuqua Alleged Gun Assault Of Bar Manager Over Daughter Rebuked By Reps"
+  ],
+  [
+   1795503766.3528054,
+   "Why Is the ‘Avengers: Doomsday’ Trailer So… Gloomy? Internet Erupts Over Latest Look at Marvel Movie"
+  ],
+  [
+   1795503820.3193882,
+   "Adam Driver Teases His ‘X-Men’ Villain Mister Sinister to Seth Meyers"
   ]
  ],
  "titles_uk": [
-  [
-   1795329147.8339942,
-   "Watermelon Pictures співпрацюватиме з Катаром для створення масштабних кінопроєктів"
-  ],
-  [
-   1795330926.298931,
-   "Бродвей готує зірковий сезон на цю зиму та весну"
-  ],
-  [
-   1795330959.0186322,
-   "Гітарист MY DYING BRIDE оцінив нову музику з вокалістом SWALLOW THE SUN"
-  ],
   [
    1795332802.8841026,
    "Капці Piranha Plant, що також слугують декором у стилі Mario"
@@ -17888,6 +17836,14 @@
   [
    1795501922.831166,
    "Представники Антуана Фукуа заперечили звинувачення у збройному нападі"
+  ],
+  [
+   1795503766.352806,
+   "Трейлер Avengers: Doomsday викликав суперечки через похмуру атмосферу"
+  ],
+  [
+   1795503820.3193889,
+   "Адам Драйвер зіграє лиходія Mister Sinister у перезапуску X-Men"
   ]
  ],
  "ukrainian": {
@@ -20361,7 +20317,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795498483.30493,
+  "last_check": 1795503829.4220488,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
