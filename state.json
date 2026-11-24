@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:software|AIN.ua|https://ain.ua/feed/": {
+   "detail": "https://ain.ua/feed/ → 522 Server Error: <none> for url: https://ain.ua/feed/",
+   "label": "Джерело «AIN.ua» не працює",
+   "sent": 0,
+   "since": 1795514502.343539
+  }
+ },
  "daily_digest_date": "2026-11-23",
  "freebies": {
   "last_check": 1795509363.079919,
@@ -31,32 +38,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-24 09:36 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "at": "2026-11-24 10:02 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-latest": 1,
-   "gemini-flash-lite-latest": 1,
-   "gemma-4-26b-a4b-it": 2
+   "gemma-4-31b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794823302.057792,
-   6093,
-   "🎬",
-   "Режисер E. Niwas знімає містичну комедію Kurla Boyz",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/e-niwas-directing-kurla-boyz-abundantia-one-entertainment-1237224922/",
-    "orig": "E. Niwas Returns To Feature Directing With Supernatural Comedy-Adventure ‘Kurla Boyz’ From Abundantia Entertainment & One Entertainment Films"
-   }
-  ],
   [
    1794823495.8277483,
    6094,
@@ -8737,7 +8729,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🤖 <b>Домашній «суперкомп&#x27;ютер»: Windows 11 об&#x27;єднає ПК через USB4</b>\n\nОС Windows 11 навчиться з’єднувати кілька звичайних комп’ютерів кабелем USB4, щоб вони разом запускали ШІ-модель, яка не влазить у пам’ять жодного з них окремо. Функція називається RDMA over USB4. Microsoft уже запустила на трьох міні-ПК модель на 235 млрд параметрів, і для цього не знадобилися серверні мережеві карти.\n\n🔗 <a href=\"https://itc.ua/ua/novini/domashnij-superkompyuter-windows-11-pk-usb4/\">ITC.ua</a> · #ШІ",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/domashnij-superkompyuter-windows-11-pk-usb4/",
     "orig": "Домашній «суперкомп'ютер»: Windows 11 об'єднає ПК через USB4"
@@ -8751,7 +8742,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Китай побоюється, що ШІ допоможе США виявити та знищити його ядерні ракети</b>\n\nДослідники з Китаю вважають, що ШІ може скоротити час прийняття рішень США з 15–30 хвилин до 90 секунд, що загрожує стратегії стримування Пекіна. Водночас китайські інститути вивчають використання ШІ для захисту власних гіперзвукових ракет. Експерти застерігають, що помилки ШІ можуть призвести до небезпечних прорахунків.\n\n🔗 <a href=\"https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/\">The Decoder</a> · #ШІ #AI",
     "kind": "photo",
     "link": "https://the-decoder.com/chinese-military-fears-ai-could-let-the-us-find-and-destroy-its-nuclear-missiles/",
     "orig": "Chinese military fears AI could let the US find and destroy its nuclear missiles"
@@ -9587,6 +9577,34 @@
     "link": "https://deadline.com/2026/11/fin-vs-history-podcast-interview-1237215502/",
     "orig": "‘Fin Vs History’: Stars Of Video Podcast On The Wildly-Popular Satirical History Series, Animation Ambitions & Why Spotify Beats TV"
    }
+  ],
+  [
+   1795514567.1511896,
+   6836,
+   "🎮",
+   "Wave Race: Blue Storm стала 12-ю грою GameCube у бібліотеці Switch Online",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>Wave Race: Blue Storm стала 12-ю грою GameCube у бібліотеці Switch Online</b>\n\nNintendo додала Wave Race: Blue Storm до бібліотеки GameCube у підписці Nintendo Switch Online + Expansion Pass. Це третя частина серії та одна з ігор на запуску консолі 2001 року. Геймплей передбачає збирання турбо-прискорень за допомогою буїв.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/wave-race-blue-storm-is-the-12th-gamecube-game-to-be-added-to-switch-onlines-library/\">VGC</a> · #ігри #Nintendo #WaveRace",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/wave-race-blue-storm-is-the-12th-gamecube-game-to-be-added-to-switch-onlines-library/",
+    "orig": "Wave Race Blue Storm is the 12th GameCube game to be added to Switch Online’s library"
+   }
+  ],
+  [
+   1795514569.1764112,
+   6837,
+   "🎮",
+   "Найкращий запуск в історії розважальної індустрії: скільки вже заробила GTA 6",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎮 <b>Найкращий запуск в історії розважальної індустрії: скільки вже заробила GTA 6</b>\n\nЗа перші чотири дні продажів, з 19 по 22 листопада, GTA 6 розійшлася тиражем близько 44,9 млн копій. Це число включає також передзамовлені копії гри. Таку оцінку оприлюднила аналітична компанія Alinea Analytics. У підрахунок увійшли лише копії, які дісталися покупцям, — нерозпроданих дисків у магазинах аналітики не враховували.\n\n🔗 <a href=\"https://itc.ua/ua/novini/gta-6-prodazhi-45-mln-kopij-za-pershyj-vikend/\">ITC.ua</a> · #ігри",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/gta-6-prodazhi-45-mln-kopij-za-pershyj-vikend/",
+    "orig": "Найкращий запуск в історії розважальної індустрії: скільки вже заробила GTA 6"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9658,8 +9676,7 @@
    1795332802.884151
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
-   1795424497.1537044,
-   1795426300.3964942
+   1795514569.1766608
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
    1795435798.1632166,
@@ -9697,7 +9714,8 @@
   "games|VGC|https://www.videogameschronicle.com/feed/": [
    1795431749.1145236,
    1795439342.7440236,
-   1795442631.7391605
+   1795442631.7391605,
+   1795514567.1514418
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1795487520.5012088,
@@ -10200,7 +10218,6 @@
   "27b22805b56e061e": 1794828651.8879075,
   "27b30a1338e38084": 1794954684.957669,
   "27bad459cabfc7e3": 1795203090.0696986,
-  "27d27115416af7e3": 1794304905.6557856,
   "27f0e778d03c3917": 1794877484.234948,
   "27fccceff20bfb76": 1795381475.8104722,
   "27fd8f4356f487f2": 1795347758.9700642,
@@ -11222,6 +11239,7 @@
   "9b3a3db4c8120b88": 1795393881.5867524,
   "9b5dabb2f06c7ecc": 1795264288.1820974,
   "9b61d4289f6fb3ad": 1794949265.3352437,
+  "9b836c155ddd7fdb": 1795514569.1766186,
   "9b8956863556ed6c": 1794474085.2638512,
   "9b8c441c69663be7": 1794510055.210753,
   "9b9df8216280f5b5": 1795199592.675019,
@@ -11420,6 +11438,7 @@
   "af94feae22729c7a": 1794875511.543285,
   "af9fccdcabcd2fce": 1794315858.8469326,
   "afba753eba8e2629": 1795041093.9012902,
+  "afc46a1829bbc4ae": 1795514567.1513963,
   "afe3bb56ef906b85": 1795500224.045338,
   "afebafccb65e39ee": 1794564055.7805443,
   "afff48cfbd5a0952": 1795127474.2218285,
@@ -11887,7 +11906,6 @@
   "e5d33a93a3e70596": 1795195879.3550894,
   "e62c7e97a2ffc350": 1795094014.6517174,
   "e65d90fcf3c57700": 1794528076.3842776,
-  "e66c9b0be4a82b93": 1794304889.8565855,
   "e6826344353841f9": 1794564055.7805443,
   "e698730fe9f14d45": 1795399412.237475,
   "e6e518654b4c30ca": 1794490488.941453,
@@ -13357,7 +13375,7 @@
    "Eurogamer": 2,
    "GamesIndustry.biz": 2,
    "Hugging Face": 1,
-   "ITC.ua": 10,
+   "ITC.ua": 11,
    "IndieWire": 3,
    "Insider Gaming": 4,
    "Lambgoat": 7,
@@ -13375,7 +13393,7 @@
    "Stereogum": 1,
    "The Decoder": 2,
    "ThePRP": 2,
-   "VGC": 3,
+   "VGC": 4,
    "Variety": 10
   },
   "translators": {
@@ -13383,7 +13401,7 @@
    "gemini-flash-latest": 6,
    "gemini-flash-lite-latest": 43,
    "gemma-4-26b-a4b-it": 34,
-   "gemma-4-31b-it": 36
+   "gemma-4-31b-it": 37
   },
   "week": "2026-W48"
  },
@@ -13763,6 +13781,16 @@
    "",
    1795421306.4399354
   ],
+  "q:12th": [
+   0,
+   "",
+   1795514509.2895563
+  ],
+  "q:12th gamecube": [
+   0,
+   "",
+   1795514508.691885
+  ],
   "q:180": [
    4566690,
    "180°",
@@ -14073,6 +14101,11 @@
    "Blue Archive",
    1793048509.1920195
   ],
+  "q:blue storm": [
+   0,
+   "",
+   1795514508.1368766
+  ],
   "q:blueprints": [
    2144910,
    "Blueprints",
@@ -14107,11 +14140,6 @@
    1285190,
    "Borderlands 4",
    1793646105.721347
-  ],
-  "q:brawl stars world finals 2026 450": [
-   0,
-   "",
-   1795339883.3036292
   ],
   "q:buckshot roulette": [
    2835570,
@@ -14672,6 +14700,11 @@
    5061320,
    "Game World",
    1793099048.3412912
+  ],
+  "q:gamecube": [
+   0,
+   "",
+   1795514509.8458705
   ],
   "q:gamemaker": [
    1670460,
@@ -15603,6 +15636,16 @@
    "",
    1795392174.2279012
   ],
+  "q:race blue": [
+   0,
+   "",
+   1795514507.5701764
+  ],
+  "q:race blue storm": [
+   0,
+   "",
+   1795514507.0701556
+  ],
   "q:remembrance": [
    3434370,
    "Remembrance",
@@ -15973,6 +16016,11 @@
    "Super Meat Boy",
    1794760187.5127454
   ],
+  "q:switch online": [
+   0,
+   "",
+   1795514510.4664552
+  ],
   "q:sword of the sea": [
    2453160,
    "Sword of the Sea",
@@ -16293,6 +16341,21 @@
    "",
    1795446088.4396076
   ],
+  "q:wave race": [
+   0,
+   "",
+   1795514506.4609365
+  ],
+  "q:wave race blue": [
+   0,
+   "",
+   1795514505.7858584
+  ],
+  "q:wave race blue storm": [
+   0,
+   "",
+   1795514505.1391847
+  ],
   "q:wick": [
    418300,
    "Wick",
@@ -16372,27 +16435,25 @@
  "tag_hints": {
   "Mezha": [
    "apple tv",
+   "delta",
    "google",
    "google translate",
-   "marvel",
-   "microsoft",
    "nvidia",
    "steam",
    "ted lasso",
-   "windows 11",
    "безпілотники",
    "бпла",
    "бізнес",
+   "військові технології",
    "дата-центри",
+   "дональд трамп",
    "дрони",
    "корабель",
    "кіно",
-   "месники",
-   "месники: сходження доктора дума",
+   "міноборони",
    "новини",
    "німеччина",
    "оборонка",
-   "операційні системи",
    "ппо",
    "розвіддрон",
    "серіали",
@@ -17099,6 +17160,14 @@
   [
    1795512956.6042428,
    "‘Fin Vs History’: Stars Of Video Podcast On The Wildly-Popular Satirical History Series, Animation Ambitions & Why Spotify Beats TV"
+  ],
+  [
+   1795514567.1513977,
+   "Wave Race Blue Storm is the 12th GameCube game to be added to Switch Online’s library"
+  ],
+  [
+   1795514569.17662,
+   "Найкращий запуск в історії розважальної індустрії: скільки вже заробила GTA 6"
   ]
  ],
  "titles_uk": [
@@ -17797,6 +17866,14 @@
   [
    1795512956.6042438,
    "Творці подкасту Fin Vs History пояснили, чому Spotify кращий за телебачення"
+  ],
+  [
+   1795514567.1513984,
+   "Wave Race: Blue Storm стала 12-ю грою GameCube у бібліотеці Switch Online"
+  ],
+  [
+   1795514569.1766207,
+   "Найкращий запуск в історії розважальної індустрії: скільки вже заробила GTA 6"
   ]
  ],
  "ukrainian": {
