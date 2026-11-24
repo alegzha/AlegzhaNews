@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → HTTPSConnectionPool(host='www.neformat.com.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795498292.3107343
+  }
+ },
  "daily_digest_date": "2026-11-23",
  "freebies": {
   "last_check": 1795494783.150038,
@@ -31,8 +38,8 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-24 05:02 UTC",
-  "gemini_error": "",
+  "at": "2026-11-24 05:34 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 1,
@@ -43,45 +50,6 @@
   ]
  },
  "post_log": [
-  [
-   1794805382.9660583,
-   6072,
-   "🤘",
-   "Mike Portnoy дізнається, що його син не пам'ятає розриву з Dream Theater",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/bands-artists/son-i-straight-up-do-not-remember-dad-really-watch-mike-portnoy-discover-max-doesnt-recall-the-dream-theater-split-even-though-he-was-there-when-it-began",
-    "orig": "Watch Mike Portnoy discover son doesn’t recall Dream Theater split – though he was there when it began"
-   }
-  ],
-  [
-   1794807087.5580173,
-   6073,
-   "🤘",
-   "Slayer перервали концерт у Каліфорнії через пошкодження залу фанатами",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55902/slayer-stops-ca-show-so-tom-araya-could-tell-the-crowd-to-chill-out-the-crowd-responds-with-boos/",
-    "orig": "Slayer stops CA show so Tom Araya could tell the crowd to chill out, the crowd responds with boos"
-   }
-  ],
-  [
-   1794807095.9585142,
-   6074,
-   "🎬",
-   "Джон Олівер порівняв чиновника з адміністрації Трампа зі злочинцем із Batman",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/john-oliver-faa-ground-stop-sean-duffy-1237224846/",
-    "orig": "After FAA Ground Stop, John Oliver Compares Trump Cabinet Official To “A Batman Villain Trying To Hold Gotham Hostage”"
-   }
-  ],
   [
    1794808983.9654906,
    6075,
@@ -8762,7 +8730,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b>NetEase відкриває реєстрацію партнерів для <a href=\"https://store.steampowered.com/app/2767030/\">Marvel Rivals</a> Ignite 2027</b>\n🕹 <a href=\"https://store.steampowered.com/app/2767030/\">Marvel Rivals</a> — безкоштовно\n\nNetEase відкрила прийом заявок на участь у програмі Marvel Rivals Ignite 2027. 12 організацій отримають статус партнера, що надасть їм право на запрошення на івенти, косметичні предмети в грі та розподіл доходів. Заявки приймаються до 4 грудня, а результати оголосять у січні.\n\n🔗 <a href=\"https://insider-gaming.com/marvel-rivals-invites-orgs-to-apply-for-ignite-2027-partnership/\">Insider Gaming</a> · #ігри #MarvelRivals #NetEase",
     "kind": "photo",
     "link": "https://insider-gaming.com/marvel-rivals-invites-orgs-to-apply-for-ignite-2027-partnership/",
     "orig": "Marvel Rivals Invites Orgs to Apply for Ignite 2027 Partnership"
@@ -8776,7 +8743,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>У ремастері <a href=\"https://store.steampowered.com/app/239160/\">Thief</a> від Nightdive змінять один із найбільш дратівливих рівнів</b>\n🕹 <a href=\"https://store.steampowered.com/app/239160/\">Thief</a> — 55,00₴ (−85%)\n\nРозробники з Nightdive Studios планують зробити рівень Thieves Guild із гри Thief Gold менш дратівливим для гравців. Команда оновить оточення та підкаже правильний напрямок, щоб уникнути зайвих блукань однотипними кімнатами.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/nightdives-thief-remaster-will-make-the-most-infamous-thief-gold-level-a-little-less-maddening-by-just-kind-of-pointing-the-player-in-the-right-direction\">Rock Paper Shotgun</a> · #ігри #Thief",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/nightdives-thief-remaster-will-make-the-most-infamous-thief-gold-level-a-little-less-maddening-by-just-kind-of-pointing-the-player-in-the-right-direction",
     "orig": "Nightdive's Thief remaster will make the most \"infamous\" Thief Gold level a little less maddening, by \"just kind of pointing the player in the right direction\""
@@ -9607,6 +9573,34 @@
     "link": "https://www.polygon.com/aliens-leaving-netflix-december-2026/",
     "orig": "James Cameron’s Sci-Fi Sequel Masterpiece Is Officially Being Removed from Netflix"
    }
+  ],
+  [
+   1795498391.7005534,
+   6818,
+   "🎬",
+   "Зірка Star Trek Брент Спайнер озвучив героїчну версію культового лиходія з коміксів про Batman",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Зірка Star Trek Брент Спайнер озвучив героїчну версію культового лиходія з коміксів про Batman</b>\n\nБрент Спайнер, відомий за роллю андроїда Data в Star Trek: The Next Generation, свого часу подарував голос відомому ворогу Batman\n\n🔗 <a href=\"https://www.slashfilm.com/2319424/star-trek-brent-spiner-batman-villain-riddler-justice-league-action/\">/Film</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2319424/star-trek-brent-spiner-batman-villain-riddler-justice-league-action/",
+    "orig": "Star Trek's Brent Spiner Voiced A Heroic Version Of A Classic Batman Villain"
+   }
+  ],
+  [
+   1795498474.4577324,
+   6819,
+   "🤖",
+   "Професор Рагурам Раджан застерігає щодо окупності інвестицій у ШІ",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Професор Рагурам Раджан застерігає щодо окупності інвестицій у ШІ</b>\n\nПрофесор University of Chicago Booth School of Business Рагурам Раджан вважає, що масивні інвестиції в обчислювальні потужності можуть не принести достатнього прибутку. За його словами, слабкий попит може призвести до надлишку пропозиції та тиску на оцінку вартості всієї екосистеми ШІ.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-24/rajan-warns-ai-boom-faces-a-reckoning-on-returns-video\">Bloomberg</a> · #ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-24/rajan-warns-ai-boom-faces-a-reckoning-on-returns-video",
+    "orig": "Rajan Warns AI Boom Faces a Reckoning on Returns"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9615,12 +9609,12 @@
    1795341795.5158873
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1795408443.1461227,
    1795442690.607772,
    1795449854.8630764,
    1795480342.8666642,
    1795491138.273421,
-   1795494773.6995766
+   1795494773.6995766,
+   1795498474.4579458
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1795438887.3734498
@@ -9717,10 +9711,10 @@
    1795442631.7391605
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
-   1795406503.2354457,
    1795413697.161721,
    1795487520.5012088,
-   1795491106.4628894
+   1795491106.4628894,
+   1795498391.7008133
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792944099.3403795,
@@ -10687,6 +10681,7 @@
   "5f4037c695c2f6ac": 1795277275.7717788,
   "5f521b871c88a910": 1795100487.7106519,
   "5f5ac26759d8219c": 1795170655.6016555,
+  "5f6ddbe03969372d": 1795498391.7007651,
   "5f7b62623b2b118a": 1794362590.4859781,
   "5f8099c7d290eccf": 1794504655.5700643,
   "5f987f0636c53831": 1794387783.944847,
@@ -11889,7 +11884,6 @@
   "e531100642cc5280": 1794952981.0864894,
   "e5955e31117a0937": 1795473125.2395716,
   "e5a87980e985bf81": 1795339885.7154677,
-  "e5b3815c17e25256": 1794288693.509967,
   "e5bd9ced5c667db0": 1795266057.369592,
   "e5d33a93a3e70596": 1795195879.3550894,
   "e62c7e97a2ffc350": 1795094014.6517174,
@@ -11984,6 +11978,7 @@
   "eedb82b12eac9d5c": 1794583853.089954,
   "eee425950e0e95bb": 1795289847.2269962,
   "eee7e3081ec583c4": 1794697281.7608502,
+  "ef01af6bd1b6b54f": 1795498474.4579012,
   "ef4107797b4a692f": 1795313025.529045,
   "ef4bda231530a02a": 1794987091.7832546,
   "ef4e8652efb8d259": 1794609084.4809654,
@@ -12028,6 +12023,7 @@
   "f42e5c1700363830": 1794790852.1093779,
   "f42fecb423e98597": 1795219257.6871395,
   "f4367d78c1441625": 1795280645.9510932,
+  "f43882c12ed07f8b": 1795498296.4688804,
   "f467ce70a783c6c2": 1795320207.9289944,
   "f498299ceeebd7c8": 1794940252.7221177,
   "f4d0715bf8848d44": 1795212402.1109285,
@@ -12062,7 +12058,6 @@
   "f791d596ac0483f5": 1795086182.6948946,
   "f7ae7ba58e720f3c": 1794555052.3962243,
   "f7b75b2901deecc1": 1794290493.7624779,
-  "f7c24ffe7055f885": 1794288688.7639577,
   "f7cfdfd7bcc39abd": 1794641660.5050795,
   "f7dd0f3bacb35fde": 1794360706.8185656,
   "f7dfba137cf6e7fc": 1794387773.8866594,
@@ -12585,7 +12580,7 @@
   ],
   "artists_checked": 1795484010.3004506,
   "blocked_until": 1795482687.618219,
-  "cursor": 318,
+  "cursor": 328,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13355,9 +13350,9 @@
    "Variety": 1
   },
   "sources": {
-   "/Film": 5,
+   "/Film": 6,
    "Blabbermouth": 3,
-   "Bloomberg": 12,
+   "Bloomberg": 13,
    "DOU": 1,
    "DOU Gamedev": 1,
    "Deadline": 21,
@@ -13386,9 +13381,9 @@
   "translators": {
    "DeepL": 8,
    "gemini-flash-latest": 5,
-   "gemini-flash-lite-latest": 35,
+   "gemini-flash-lite-latest": 36,
    "gemma-4-26b-a4b-it": 29,
-   "gemma-4-31b-it": 35
+   "gemma-4-31b-it": 36
   },
   "week": "2026-W48"
  },
@@ -16467,14 +16462,6 @@
  },
  "titles": [
   [
-   1795323792.112482,
-   "Guy Pearce's Remake Of A '60s Sci-Fi Classic Deserved Better At The Box Office"
-  ],
-  [
-   1795325643.694831,
-   "‘Artificial’ Filmmaker Luca Guadagnino On Whether AI Is Humanity’s Doomsday & Sam Altman’s Arsenal – Crew Call Podcast"
-  ],
-  [
    1795325720.6762989,
    "The day Roger Daltrey threatened to throw Iron Maiden’s Nicko McBrain down a flight of stairs"
   ],
@@ -17141,17 +17128,17 @@
   [
    1795496562.898921,
    "James Cameron’s Sci-Fi Sequel Masterpiece Is Officially Being Removed from Netflix"
+  ],
+  [
+   1795498391.7007673,
+   "Star Trek's Brent Spiner Voiced A Heroic Version Of A Classic Batman Villain"
+  ],
+  [
+   1795498474.4579031,
+   "Rajan Warns AI Boom Faces a Reckoning on Returns"
   ]
  ],
  "titles_uk": [
-  [
-   1795323792.1124828,
-   "Ремейк The Time Machine з Гаєм Пірсом заслуживав кращих касових зборів"
-  ],
-  [
-   1795325643.6948318,
-   "Лука Гуаданьїно обговорив загрозу ШІ та Сема Альтмана в подкасті Crew Call"
-  ],
   [
    1795325720.6762998,
    "Роджер Далтрі погрожував скинути Нікко Макбрейна зі сходів"
@@ -17819,6 +17806,14 @@
   [
    1795496562.8989215,
    "Фільм Aliens Джеймса Кемерона покидає Netflix"
+  ],
+  [
+   1795498391.7007678,
+   "Зірка Star Trek Брент Спайнер озвучив героїчну версію культового лиходія з коміксів про Batman"
+  ],
+  [
+   1795498474.4579039,
+   "Професор Рагурам Раджан застерігає щодо окупності інвестицій у ШІ"
   ]
  ],
  "ukrainian": {
@@ -20292,7 +20287,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795494782.692872,
+  "last_check": 1795498483.30493,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
