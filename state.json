@@ -31,74 +31,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-24 21:22 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "at": "2026-11-24 22:06 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 1
+   "gemini-flash-latest": 1,
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794864757.774446,
-   6140,
-   "🤖",
-   "Alibaba анонсувала флагманську модель ШІ Qwen4-Max",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/alibabas-qwen4-max-takes-on-opus-5-5-gpt-6-and-kimi-k3-1-pro-at-much-lower-prices/",
-    "orig": "Alibaba's Qwen4-Max takes on Opus 5.5, GPT-6, and Kimi K3.1 Pro at much lower prices"
-   }
-  ],
-  [
-   1794866636.217834,
-   6141,
-   "🎬",
-   "Рецензія на фільм «Minotaur»: повернення Андрія Звягінцева у воєнній Росії",
-   "IndieWire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.indiewire.com/criticism/movies/minotaur-movie-review-andrey-zvyagintsev-1235194820/",
-    "orig": "‘Minotaur’ Review: Andrey Zvyagintsev’s Riveting Comeback Remakes Claude Chabrol and ‘Unfaithful’ for a Hopeless Wartime Russia"
-   }
-  ],
-  [
-   1794866640.1808064,
-   6142,
-   "🤘",
-   "AMIRA ELFEKY анонсувала північноамериканський тур",
-   "Revolver",
-   {
-    "also": [
-     [
-      "Metal Hammer (Louder)",
-      "https://www.loudersound.com/bands-artists/uriah-heep-anounce-2027-north-american-tour"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.revolvermag.com/events/amira-elfeky-announces-it-was-only-a-dream-north-american-headline-tour/",
-    "orig": "AMIRA ELFEKY announces “It Was Only a Dream” North American headline tour"
-   }
-  ],
-  [
-   1794866643.462933,
-   6143,
-   "🎬",
-   "Роберт Паттінсон отримав роль Джеймса Бонда у новому перезапуску",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/robert-pattinson-james-bond-reaction-baz-bamigboye-1237225666/",
-    "orig": "Robert Pattinson As James Bond? Baz Bamigboye Has Some Thoughts"
-   }
-  ],
   [
    1794868348.386106,
    6144,
@@ -8617,7 +8561,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Девід Заслав пригадав «незручний момент» перед злиттям зі Skydance</b>\n\nЕксглава Warner Bros. Discovery Девід Заслав розповів про складний період під час регуляторної перевірки злиття зі Skydance на $110 млрд. Тоді колишній міжнародний керівник WBD Гергард Цайлер відвідав усі глобальні офіси компанії, щоб підтримати працівників і зберегти мотивацію колективу.\n\n🔗 <a href=\"https://deadline.com/2026/11/david-zaslav-skydance-merger-gerhard-zeiler-wbd-emmys-1237232182/\">Deadline</a> · #кіно_і_серіали #WarnerBrosDiscovery #Skydance",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/david-zaslav-skydance-merger-gerhard-zeiler-wbd-emmys-1237232182/",
     "orig": "David Zaslav Recalls “Awkward Moment” Before Skydance Merger Close, Hails Ex-WBD Global Chief Gerhard Zeiler For Keeping Staff “Motivated”"
@@ -8631,7 +8574,6 @@
    "/Film",
    {
     "also": [],
-    "caption": "🎬 <b>Марго Роббі знялася у романтичній комедії About Time у рік свого прориву</b>\n\nУ 2013 році Марго Роббі зіграла невелику, але важливу роль у романтичній комедії Річарда Кертіса About Time. Того ж року акторка здобула всесвітню популярність завдяки фільму The Wolf of Wall Street, де знялася разом із Леонардо Ді Капріо.\n\n🔗 <a href=\"https://www.slashfilm.com/2321945/margot-robbie-time-travel-movie-about-time/\">/Film</a> · #кіно_і_серіали #MargotRobbie #AboutTime",
     "kind": "photo",
     "link": "https://www.slashfilm.com/2321945/margot-robbie-time-travel-movie-about-time/",
     "orig": "Margot Robbie Appeared In A Time Travel Movie The Same Year As Her Big Break"
@@ -8645,7 +8587,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>США внесли до чорного списку дочірню компанію Alibaba</b>\n\nАдміністрація Трампа внесла до чорного списку сингапурську дочірню компанію Alibaba Group Holding Ltd. та структури, пов&#x27;язані з Megaspeed International. Ця фірма була центром скандалу, через який Дженсен Хуанг на короткий час ледь не втратив посаду CEO Nvidia Corp.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-24/us-blacklists-alibaba-owned-company-in-setback-to-ai-ambitions\">Bloomberg</a> · #ШІ #Alibaba #Nvidia",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-24/us-blacklists-alibaba-owned-company-in-setback-to-ai-ambitions",
     "orig": "US Blacklists Alibaba-Owned Company in Setback to AI Ambitions"
@@ -9507,6 +9448,48 @@
     "link": "https://the-decoder.com/anthropic-tops-700-million-monthly-mcp-sdk-downloads-and-expands-the-protocol-for-more-autonomous-ai-agents/",
     "orig": "Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents"
    }
+  ],
+  [
+   1795557855.590576,
+   6872,
+   "🎬",
+   "Помер актор American Horror Story та мюзиклу Cats Стівен Гек",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Помер актор American Horror Story та мюзиклу Cats Стівен Гек</b>\n\nСтівен Гек, учасник оригінального бродвейського складу Cats, який також знімався в серіалах на кшталт American Horror Story, помер 19 листопада в Лос-Анджелесі. Причиною став «раптовий і неочікуваний серцевий напад», повідомила в соцмережах трупа Interact Theatre Company. Акторові було 68 років.\n\n🔗 <a href=\"https://variety.com/2026/film/people-news/steven-hack-dead-american-horror-story-cats-1236957417/\">Variety</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/people-news/steven-hack-dead-american-horror-story-cats-1236957417/",
+    "orig": "Steven Hack, ‘American Horror Story’ Actor and Original Cast Member of ‘Cats,’ Dies at 68"
+   }
+  ],
+  [
+   1795557948.9395635,
+   6873,
+   "🎬",
+   "Кінотеатри у 2026 році: що зміниться на великому екрані",
+   "IndieWire",
+   {
+    "also": [],
+    "caption": "🎬 <b>Кінотеатри у 2026 році: що зміниться на великому екрані</b>\n\nIndieWire поспілкувався з Кевіном Смітом та представниками мереж Alamo Drafthouse і Laemmle Theatres про плани на майбутнє та новий комплекс Cinerama Dome у Голлівуді\n\n🔗 <a href=\"https://www.indiewire.com/features/interviews/movie-theaters-2026-good-bad-changing-1235230816/\">IndieWire</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.indiewire.com/features/interviews/movie-theaters-2026-good-bad-changing-1235230816/",
+    "orig": "Movie Theaters in 2026: Filmmakers and Exhibitors on What’s Good, What’s Bad, and What’s Changing"
+   }
+  ],
+  [
+   1795557962.5179055,
+   6874,
+   "🤘",
+   "Beyond Creation анонсували північноамериканський тур на честь 15-річчя альбому The Aura",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Beyond Creation анонсували північноамериканський тур на честь 15-річчя альбому The Aura</b>\n\nГурт Beyond Creation вирушить у північноамериканський тур на підтримку 15-річчя свого дебютного альбому The Aura. Музиканти вперше виконають платівку повністю у США та Канаді, а також презентують новий сингл Reverence. Супроводжуватимуть їх колективи Decrepit Birth та Vulvodynia.\n\n🔗 <a href=\"https://lambgoat.com/news/56051/beyond-creation-announce-15th-anniversary-of-the-aura-north-american-tour/\">Lambgoat</a> · #музика #BeyondCreation",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/56051/beyond-creation-announce-15th-anniversary-of-the-aura-north-american-tour/",
+    "orig": "Beyond Creation announce 15th anniversary of 'The Aura' North American tour"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9660,7 +9643,8 @@
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
    1795473129.039189,
-   1795503766.3528469
+   1795503766.3528469,
+   1795557948.9398158
   ],
   "movies|Mezha|https://mezha.ua/feed/": [
    1795422681.5188174,
@@ -9673,9 +9657,9 @@
    1795503820.319433
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
-   1795428211.793298,
    1795478481.2124574,
-   1795480349.3670447
+   1795480349.3670447,
+   1795557855.5908115
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
    1795482102.003763,
@@ -9698,10 +9682,10 @@
    1795174346.004332
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1795410147.0820563,
    1795473194.340964,
    1795486806.3509898,
-   1795486810.4522183
+   1795486810.4522183,
+   1795557962.5181482
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1795478516.0810792
@@ -9886,6 +9870,7 @@
   "0db05686b8a5dc24": 1794778303.267593,
   "0db330cfc115cc99": 1795158293.7982764,
   "0dc3645a023bfc41": 1795350656.068994,
+  "0dfeb57bb031e65d": 1795557658.0006702,
   "0dfeec0e6409c875": 1795125763.7381372,
   "0e30b894b8aae235": 1794992854.263969,
   "0e3685516876c486": 1795422681.5187676,
@@ -9914,6 +9899,7 @@
   "10ac305df3233805": 1794727870.9768376,
   "10cb73893904f837": 1794568315.9646816,
   "10d10c6d739006c8": 1795541457.6312466,
+  "112ceb82b47bef2d": 1795557962.5181015,
   "11304629b3b28943": 1794958375.376239,
   "115684b54442967b": 1795062692.6421797,
   "115c6aa663640fb2": 1795325643.694829,
@@ -10208,6 +10194,7 @@
   "30b0e3adfdaf7ab2": 1794452738.7577527,
   "30c39f7c0037e24f": 1795078884.037032,
   "30c481d9d2140be9": 1795392283.744128,
+  "3106617a6fc02aa8": 1795557658.0006702,
   "3134a64754df1401": 1795183286.971858,
   "318eaeeb7f70c30e": 1795312882.9092321,
   "318fa324dcd14cc1": 1795005105.6988888,
@@ -10738,6 +10725,7 @@
   "6ad3b63ac5f73385": 1794580255.5600233,
   "6b13b5939d2fdca9": 1795242678.5381863,
   "6b173b7065c2acd2": 1795303856.0284865,
+  "6b3fc7c0e9717ec9": 1795557855.5907664,
   "6b419b52338881d4": 1795451466.621939,
   "6b443038782082d8": 1795201509.537692,
   "6b549b93791719aa": 1795519887.1194704,
@@ -11114,6 +11102,7 @@
   "94cc632905df6b01": 1794547876.3985503,
   "9511e14ce06d6109": 1795008653.7476661,
   "954a71c2af8cfa1c": 1794398455.161323,
+  "959a9725e0e673f1": 1795557658.0006702,
   "95c23a9afeb3554e": 1794472295.865643,
   "95dece6e693f25f3": 1795395681.3621402,
   "95e50df688033b27": 1795042855.9275043,
@@ -11241,6 +11230,7 @@
   "a2b120d65f0e323a": 1795094964.3119497,
   "a2dec32411360930": 1795094014.6517174,
   "a2ff68c2886ccca4": 1795467655.2872617,
+  "a34992ea8b7c1d12": 1795557658.0006702,
   "a365c0d977eb3818": 1795505862.36446,
   "a36a26d296b8606a": 1794405831.1688273,
   "a39149cdea547c57": 1794873694.242586,
@@ -11503,7 +11493,6 @@
   "c013548ae573e5a5": 1795246712.6543932,
   "c0176b29b71765d3": 1795262900.692457,
   "c03f7b16bb04bfe0": 1794934900.8836668,
-  "c05d22619cf92fb7": 1794348106.1791668,
   "c0795d054075efdf": 1794893609.9540985,
   "c08edfbb0325ff31": 1794852057.7928073,
   "c0b7ccc248148c3e": 1795094375.506453,
@@ -11593,6 +11582,7 @@
   "caa5a78f0c624001": 1794650473.5419436,
   "cab57cfa16593128": 1795539658.0331025,
   "cac0acbce765ab76": 1794858079.9655144,
+  "cac11850d73e9700": 1795557948.939768,
   "cae36b629c02a618": 1794825055.973085,
   "cb08cab5d7e0c702": 1795408345.8540425,
   "cb1a66f38cec8071": 1794364296.32627,
@@ -11625,7 +11615,6 @@
   "ce5984adc4e9c27e": 1794684685.5508559,
   "ce7df47f4e49a290": 1795055474.96252,
   "cea12eeb92c17f88": 1794591053.6005082,
-  "ceaf5fd4dacc056a": 1794348093.4650974,
   "ced815f20d655e65": 1795145477.1130702,
   "ceefaeb1763d1f00": 1795208454.5689726,
   "cef75ee809029881": 1795388453.5383751,
@@ -11838,6 +11827,7 @@
   "e50f71f83ebd200e": 1795298490.477409,
   "e516df992423df85": 1794753081.674545,
   "e531100642cc5280": 1794952981.0864894,
+  "e5595bab4a912d2b": 1795557658.0006702,
   "e5955e31117a0937": 1795473125.2395716,
   "e5a87980e985bf81": 1795339885.7154677,
   "e5bd9ced5c667db0": 1795266057.369592,
@@ -12038,7 +12028,6 @@
   "f9cd35fa9fdcba83": 1795113055.7763176,
   "fa25a414c5f6ac86": 1795523729.9227903,
   "fa2dc81a73c6c087": 1795120257.8905454,
-  "fa2ec973f9cfdb14": 1794348101.5814364,
   "fa32eb5da1587b98": 1795129352.0633268,
   "fa390c4776279a69": 1795424497.1536546,
   "fa3ae1d859f5de7b": 1794616302.86888,
@@ -13290,12 +13279,13 @@
  },
  "stats": {
   "extra": {
-   "Вішліст Steam": 2
+   "Вішліст Steam": 2,
+   "Українська локалізація": 1
   },
   "filtered": {
    "/Film": 10,
    "Bloomberg": 17,
-   "Deadline": 5,
+   "Deadline": 7,
    "GameSpot": 4,
    "IGN": 6,
    "IndieWire": 2,
@@ -13304,10 +13294,10 @@
    "Metal Hammer (Louder)": 2,
    "PC Gamer": 9,
    "PlayUA": 1,
-   "Polygon": 14,
+   "Polygon": 15,
    "Rock Paper Shotgun": 2,
    "VGC": 19,
-   "Variety": 6
+   "Variety": 8
   },
   "sources": {
    "/Film": 8,
@@ -13320,9 +13310,9 @@
    "GamesIndustry.biz": 4,
    "Hugging Face": 2,
    "ITC.ua": 14,
-   "IndieWire": 3,
+   "IndieWire": 4,
    "Insider Gaming": 5,
-   "Lambgoat": 7,
+   "Lambgoat": 8,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 7,
    "Mezha": 20,
@@ -13338,12 +13328,12 @@
    "The Decoder": 6,
    "ThePRP": 2,
    "VGC": 6,
-   "Variety": 10
+   "Variety": 11
   },
   "translators": {
    "DeepL": 14,
-   "gemini-flash-latest": 6,
-   "gemini-flash-lite-latest": 46,
+   "gemini-flash-latest": 7,
+   "gemini-flash-lite-latest": 48,
    "gemma-4-26b-a4b-it": 45,
    "gemma-4-31b-it": 49
   },
@@ -16668,18 +16658,6 @@
  "telegraph": [],
  "titles": [
   [
-   1795383217.9711556,
-   "Security researchers show how cheap AI inference providers steal keys and snoop on users"
-  ],
-  [
-   1795385051.1845148,
-   "‘Glee’ Star Chris Colfer Says He Forgot Kurt Hummel ‘Meant So Much to People’ Because of the ‘Homophobia and Hatred’ He Experienced on the Show"
-  ],
-  [
-   1795385098.7136474,
-   "Trump's AI Chip Crackdown on China After Nvidia Crisis Squeezes Southeast Asia"
-  ],
-  [
    1795385214.1839015,
    "Guilt Trip release studio version of \"Davidian,\" originally by Machine Head"
   ],
@@ -17398,21 +17376,21 @@
   [
    1795555359.8923,
    "Anthropic tops 700 million monthly MCP SDK downloads and expands the protocol for more autonomous AI agents"
+  ],
+  [
+   1795557855.5907683,
+   "Steven Hack, ‘American Horror Story’ Actor and Original Cast Member of ‘Cats,’ Dies at 68"
+  ],
+  [
+   1795557948.9397707,
+   "Movie Theaters in 2026: Filmmakers and Exhibitors on What’s Good, What’s Bad, and What’s Changing"
+  ],
+  [
+   1795557962.5181034,
+   "Beyond Creation announce 15th anniversary of 'The Aura' North American tour"
   ]
  ],
  "titles_uk": [
-  [
-   1795383217.9711566,
-   "Дослідники виявили, як дешеві провайдери ШІ крадуть ключі та стежать за користувачами"
-  ],
-  [
-   1795385051.1845155,
-   "Зірка Glee Кріс Колфер забув, наскільки важливим був Kurt Hummel через гомофобію на зйомках"
-  ],
-  [
-   1795385098.713648,
-   "Трамп запроваджує обмеження на постачання ШІ-чіпів до Китаю"
-  ],
   [
    1795385214.1839023,
    "Guilt Trip випустили студійну версію каверу на Davidian"
@@ -18132,6 +18110,18 @@
   [
    1795555359.8923006,
    "Anthropic розширює протокол MCP для створення автономніших ШІ-агентів"
+  ],
+  [
+   1795557855.590769,
+   "Помер актор American Horror Story та мюзиклу Cats Стівен Гек"
+  ],
+  [
+   1795557948.9397714,
+   "Кінотеатри у 2026 році: що зміниться на великому екрані"
+  ],
+  [
+   1795557962.518104,
+   "Beyond Creation анонсували північноамериканський тур на честь 15-річчя альбому The Aura"
   ]
  ],
  "ukrainian": {
@@ -18188,6 +18178,7 @@
    "1268750": "",
    "1272080": "",
    "1282730": "",
+   "1284210": "",
    "1285190": "",
    "1286220": "",
    "1286830": "",
@@ -18514,7 +18505,7 @@
    "3124540": "is",
    "3156770": "is",
    "3159330": "",
-   "3161310": "",
+   "3161310": "is",
    "3164330": "",
    "3164500": "",
    "3166960": "is",
@@ -18702,6 +18693,7 @@
    "49520": "",
    "4954910": "",
    "4968640": "",
+   "4990940": "",
    "499170": "",
    "5006530": "is",
    "501300": "",
@@ -18731,7 +18723,9 @@
    "5335510": "",
    "534380": "",
    "5378110": "is",
+   "5472080": "is",
    "552520": "",
+   "5527800": "is",
    "552990": "i",
    "553850": "",
    "570": "i",
@@ -18765,6 +18759,7 @@
    "763890": "",
    "773790": "i",
    "779290": "",
+   "784080": "",
    "784150": "is",
    "803330": "",
    "805550": "",
@@ -18795,10 +18790,11 @@
    "976730": "",
    "977810": "",
    "989440": "",
+   "9900": "",
    "990080": ""
   },
-  "last_check": 1795536183.699425,
-  "with_uk": 93
+  "last_check": 1795557985.0326335,
+  "with_uk": 96
  },
  "weekly_releases_week": "2026-W48",
  "wishlist": {
@@ -20610,7 +20606,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795554100.738045,
+  "last_check": 1795557971.9264994,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
