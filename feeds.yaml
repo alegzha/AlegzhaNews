@@ -275,6 +275,9 @@ filters:
     - '\b(on sale|sale price|price drop|lowest price|all-time low|save \$?\d+|\d+% off)\b'
     - '(чорн\w* п.ятниц|кіберпонеділ|промокод|розпродаж|знижк\w* до|вигідн\w* пропозиц)'
 
+  # Новини зі спойлерами: заголовок, текст і картинка ховаються під спойлер Telegram
+  spoiler_pattern: '\b(spoilers?|ending explained|finale (recap|explained|twist)|post-credits?|after-credits?|leaked (ending|plot|story)|plot leak|who dies|dies in|death of)\b|(спойлер|фінал\w* пояснен|сцен\w* після титрів)'
+
   # «Залізо» з ігрових сайтів (DDR6, відеокарти, процесори) — у рубрику софту
   hardware:
     to: software
@@ -348,6 +351,13 @@ favorites: []
 fetch_proxy: "https://alegzhanews.alegzha.workers.dev/feed"
 
 # Тихі години (за Києвом): пости публікуються, але без звуку
+# Лонгріди: для великих статей — повний переклад українською на telegra.ph
+# (у Telegram відкривається миттєво, як Instant View). Витрачає 1 запит Gemini на статтю.
+telegraph:
+  enabled: true
+  min_chars: 4000      # мінімальна довжина статті (символів англійською)
+  max_per_day: 6
+
 quiet_hours: [23, 8]
 
 # Ліміти, щоб канал не перетворився на смітник

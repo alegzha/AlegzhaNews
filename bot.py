@@ -251,9 +251,13 @@ def fetch_page(url):
 
 def article_text(url, limit=3000):
     """Основний текст статті: абзаци з <article>/<main>, без меню, підписів і реклами."""
+    return " ".join(article_paragraphs(url, limit))[:limit]
+
+
+def article_paragraphs(url, limit=3000):
     raw = fetch_page(url)
     if not raw:
-        return ""
+        return []
     soup = BeautifulSoup(raw, "html.parser")
     for tag in soup(["script", "style", "nav", "header", "footer", "aside", "figure", "form", "noscript"]):
         tag.decompose()
@@ -267,7 +271,22 @@ def article_text(url, limit=3000):
         total += len(t)
         if total >= limit:
             break
-    return " ".join(parts)[:limit]
+    return parts
+
+
+GENERIC_IMAGE_RE = re.compile(r"logo|default|placeholder|favicon|avatar|social[-_]?share|site[-_]?image", re.I)
+SMALL_IMAGE_RE = re.compile(r"[-_]\d{2,3}x\d{2,3}\.(jpe?g|png|webp)|[?&](w|width|resize)=\d{2,3}\b|/thumb|thumbnail", re.I)
+
+
+def best_image(entry, link, social=False):
+    """Велика картинка статті (og:image) краща за мініатюру з RSS; логотип сайту — ні."""
+    rss = image_from_entry(entry)
+    if social:
+        return rss or image_from_page(link)
+    page = image_from_page(link)
+    if page and not GENERIC_IMAGE_RE.search(page.rsplit("/", 1)[-1]):
+        return page
+    return rss or page
 
 
 def image_from_page(url):
@@ -467,6 +486,42 @@ GEMINI_REWRITE = GEMINI_PROMPT.split("Отримуєш JSON-масив")[0] + ""
 
 LAST_TAGS = []  # тематичні хештеги останнього переписаного поста
 
+GEMINI_LONGREAD = """Ти — редактор українського новинного Telegram-каналу. Отримуєш JSON-об'єкт: \
+title — заголовок статті, paragraphs — її абзаци англійською. Переклади статтю українською \
+повністю й природно, як для українського медіа: зберігай зміст і порядок абзаців, нічого не \
+вигадуй і не скорочуй, назви ігор, фільмів, серіалів, гуртів, альбомів і компаній лишай мовою \
+оригіналу. Пропусти абзаци-рекламу, заклики підписатися та підписи до фото.
+Відповідь — лише JSON-об'єкт {"paragraphs": ["…", "…"]}, без пояснень."""
+
+_telegraph_token = None
+
+
+def telegraph_page(title_uk, paragraphs, link, source, image):
+    """Сторінка telegra.ph з повним перекладом — у Telegram відкривається миттєво (Instant View)."""
+    global _telegraph_token
+    out = gemini_json(GEMINI_LONGREAD, {"title": title_uk, "paragraphs": paragraphs})
+    paras = [str(p).strip() for p in (out.get("paragraphs") if isinstance(out, dict) else None) or [] if str(p).strip()]
+    if len(paras) < 3 or re.search(r"Q\s*Q\s*\d+\s*Q\s*Q", " ".join(paras)):
+        raise RuntimeError("Gemini не переклав статтю повністю")
+    if not _telegraph_token:
+        r = HTTP.post("https://api.telegra.ph/createAccount", data={
+            "short_name": "AlegzhaNews", "author_name": "Алєгофренський Вісник"}, timeout=20)
+        _telegraph_token = r.json()["result"]["access_token"]
+    nodes = []
+    if image:
+        nodes.append({"tag": "img", "attrs": {"src": image}})
+    nodes += [{"tag": "p", "children": [p]} for p in paras]
+    nodes.append({"tag": "p", "children": [{"tag": "i", "children": ["Джерело: "]},
+                                           {"tag": "a", "attrs": {"href": link}, "children": [source]}]})
+    channel = f"https://t.me/{CHANNEL_USERNAME}" if CHANNEL_USERNAME else link
+    r = HTTP.post("https://api.telegra.ph/createPage", data={
+        "access_token": _telegraph_token, "title": title_uk[:256], "author_name": "Алєгофренський Вісник",
+        "author_url": channel, "content": json.dumps(nodes, ensure_ascii=False)}, timeout=30)
+    data = r.json()
+    if not data.get("ok"):
+        raise RuntimeError(f"Telegraph: {data.get('error')}")
+    return data["result"]["url"]
+
 
 def gemini_rewrite(title, text):
     """Заголовок і короткий переказ статті українською одним запитом."""
@@ -583,12 +638,16 @@ def _msg_id(data):
     return result.get("message_id")
 
 
-def publish(caption, image_url, link, chat_id=None):
+def publish(caption, image_url, link, chat_id=None, spoiler=False):
     """Публікує пост. Повертає message_id (або None у тестовому режимі)."""
     if DRY_RUN:
-        print("\n" + "=" * 60 + f"\n[IMG] {image_url}\n{caption}\n")
+        print("\n" + "=" * 60 + f"\n[IMG{' spoiler' if spoiler else ''}] {image_url}\n{caption}\n")
         return None
     common = {"chat_id": chat_id or CHANNEL_ID, "parse_mode": "HTML", "disable_notification": json.dumps(quiet_now())}
+    if spoiler and image_url:
+        common["has_spoiler"] = "true"  # картинка теж може виказати сюжет
+    if spoiler and not image_url:
+        link = ""  # без прев'ю посилання — воно показало б заголовок статті
     if image_url:
         try:
             return _msg_id(tg("sendPhoto", photo=image_url, caption=caption, **common))
@@ -969,6 +1028,8 @@ def merge_source(post, source, link):
     also = extra["also"] + [[source, link]]
     links = ", ".join(f'<a href="{html.escape(l, quote=True)}">{html.escape(s)}</a>' for s, l in also)
     caption = f"{extra['caption']}\n➕ Також пишуть: {links}"
+    if len(also) >= 2 and not caption.startswith("🔥"):
+        caption = "🔥 " + caption  # про це пишуть уже 3+ сайти
     if extra.get("kind") == "photo" and len(caption) > 1024:
         return False
     if DRY_RUN:
@@ -989,14 +1050,17 @@ def merge_source(post, source, link):
     return True
 
 
-def build_caption(cat, title_html, summary_uk, source, link, extra_lines=(), tags=()):
+def build_caption(cat, title_html, summary_uk, source, link, extra_lines=(), tags=(), spoiler=False):
     esc = html.escape
-    head = f"{cat['emoji']} <b>{title_html}</b>"
+    if spoiler:
+        head = f"{cat['emoji']} ⚠️ <b>Обережно, спойлери!</b>\n<tg-spoiler><b>{title_html}</b></tg-spoiler>"
+    else:
+        head = f"{cat['emoji']} <b>{title_html}</b>"
     if extra_lines:
         head += "\n" + "\n".join(extra_lines)
     parts = [head]
     if summary_uk:
-        parts.append(esc(summary_uk))
+        parts.append(f"<tg-spoiler>{esc(summary_uk)}</tg-spoiler>" if spoiler else esc(summary_uk))
     hashtags = " ".join([cat["hashtag"]] + [f"#{t}" for t in tags if f"#{t}".lower() != cat["hashtag"].lower()])
     parts.append(f'🔗 <a href="{esc(link, quote=True)}">{esc(source)}</a> · {hashtags}')
     caption = "\n\n".join(parts)
@@ -1004,8 +1068,26 @@ def build_caption(cat, title_html, summary_uk, source, link, extra_lines=(), tag
     # але для простоти рахуємо з розміткою — так гарантовано влізе)
     if len(caption) > 1024 and summary_uk:
         overflow = len(caption) - 1024 + 2
-        return build_caption(cat, title_html, summary_uk[:-overflow] + "…", source, link, extra_lines, tags)
+        return build_caption(cat, title_html, summary_uk[:-overflow] + "…", source, link, extra_lines, tags, spoiler)
     return caption
+
+
+def steam_rating(app_id):
+    """Частка позитивних відгуків у Steam (None, якщо відгуків замало)."""
+    try:
+        r = HTTP.get(f"https://store.steampowered.com/appreviews/{app_id}",
+                     params={"json": 1, "language": "all", "purchase_type": "all", "num_per_page": 0},
+                     timeout=15)
+        q = r.json().get("query_summary") or {}
+        total = int(q.get("total_reviews") or 0)
+        if total >= 50:
+            return round(100 * int(q.get("total_positive") or 0) / total)
+    except Exception as e:  # noqa: BLE001
+        log.info("Відгуки Steam недоступні: %s", e)
+    return None
+
+
+STEAM_IMAGE = {}  # app_id -> обкладинка, для новин без власної картинки
 
 
 def steam_price_lines(games, extra_games):
@@ -1030,6 +1112,8 @@ def steam_price_lines(games, extra_games):
     lines = []
     for app_id in ids[:3]:
         it = info.get(app_id) or {}
+        if it.get("image"):
+            STEAM_IMAGE.setdefault("first", it["image"])
         name = it.get("name") or names[app_id]
         link = f'<a href="{app_url(app_id)}">{esc(name)}</a>'
         if it.get("is_free"):
@@ -1042,8 +1126,35 @@ def steam_price_lines(games, extra_games):
                 price += f" (−{it['discount']}%)"
         else:
             price = ""
+        rating = None if it.get("coming_soon") else steam_rating(app_id)
+        if rating is not None:
+            price = (price + " · " if price else "") + f"👍 {rating}%"
         lines.append(f"🕹 {link}" + (f" — {price}" if price else ""))
     return lines
+
+
+YT_ID_RE = re.compile(r"(?:youtube(?:-nocookie)?\.com/(?:embed/|watch\?v=|shorts/|v/)|youtu\.be/)([A-Za-z0-9_-]{11})")
+TRAILER_RE = re.compile(r"\b(trailer|teaser|трейлер|тизер)", re.I)
+VIDEO_RE = re.compile(r"\b(music video|video|visualizer|clip|кліп|відео)\b", re.I)
+
+
+def video_line(title, entry, link, cat_id):
+    """▶️ посилання на трейлер чи кліп з YouTube, якщо стаття його вбудовує."""
+    is_trailer = bool(TRAILER_RE.search(title))
+    if not is_trailer and not VIDEO_RE.search(title):
+        return None
+    sources = [entry.get("summary", "")] + [c.get("value", "") for c in entry.get("content", []) or []]
+    raw = fetch_page(link)
+    if raw:
+        soup = BeautifulSoup(raw, "html.parser")
+        root = soup.find("article") or soup.find("main") or soup.body
+        sources.append(str(root) if root else "")
+    for chunk in sources:
+        m = YT_ID_RE.search(chunk or "")
+        if m:
+            label = "трейлер" if is_trailer else ("кліп" if cat_id == "music" else "відео")
+            return f'▶️ <a href="https://youtu.be/{m.group(1)}">Дивитися {label}</a>'
+    return None
 
 
 LISTEN_RE = re.compile(
@@ -1371,6 +1482,13 @@ def main():
     pub = {"ok": 0, "failed": 0, "error": ""}
 
     favorites = [str(x) for x in (config.get("favorites") or []) if str(x).strip()]
+    sp = (config.get("filters") or {}).get("spoiler_pattern")
+    spoiler_rx = re.compile(sp, re.I) if sp else None
+    tg_cfg = config.get("telegraph") or {}
+    state["telegraph"] = [t for t in state.get("telegraph", []) if time.time() - t < 86400]
+
+    def longreads_left():
+        return int(tg_cfg.get("max_per_day", 5)) - len(state["telegraph"])
     fav_rx = _kw_regex(favorites) if favorites else None
 
     def post(*args, **kwargs):
@@ -1509,19 +1627,38 @@ def main():
             state["seen"][c["key"]] = time.time()
             continue
 
-        image = image_from_entry(entry) or image_from_page(link)
+        image = best_image(entry, link, social=c.get("social"))
+        STEAM_IMAGE.clear()
         extra_lines = steam_price_lines(games, extra_games) if (games or extra_games) else []
+        if not image and STEAM_IMAGE.get("first"):
+            image = STEAM_IMAGE["first"]  # новина без фото — обкладинка гри зі Steam
+        vl = None if c.get("social") else video_line(c["title"], entry, link, c["cat_id"])
+        if vl:
+            extra_lines.append(vl)
         if c["cat_id"] == "music":
             ll = listen_line(c["title"])
             if ll:
                 extra_lines.append(ll)
+        # лонгрід — повний переклад на telegra.ph
+        if (tg_cfg.get("enabled") and summary_ready is not None and not already_uk
+                and "Gemini" not in _disabled and longreads_left() > 0):
+            paras = article_paragraphs(link, 15000)
+            if sum(len(p) for p in paras) >= int(tg_cfg.get("min_chars", 4000)):
+                try:
+                    page = telegraph_page(title_plain, paras, link, c["source"], image)
+                    extra_lines.append(f'📖 <a href="{html.escape(page, quote=True)}">Читати повністю українською</a>')
+                    state.setdefault("telegraph", []).append(time.time())
+                    log.info("📖 Лонгрід на Telegraph: %s", page)
+                except Exception as e:  # noqa: BLE001
+                    log.info("Лонгрід не вдався: %s", str(e)[:150])
+        spoiler = bool(spoiler_rx and spoiler_rx.search(c["title"]))
         tags = list(LAST_TAGS) if summary_ready is not None else []
-        caption = build_caption(c["cat"], title_html, summary_uk, c["source"], link, extra_lines, tags)
+        caption = build_caption(c["cat"], title_html, summary_uk, c["source"], link, extra_lines, tags, spoiler)
         favorite = fav_rx and (fav_rx.search(c["title"]) or fav_rx.search(title_plain))
         if favorite:
             caption = "⭐ " + caption
         try:
-            msg_id = post(caption, image, link)
+            msg_id = post(caption, image, link, spoiler=spoiler)
         except Exception as e:  # noqa: BLE001
             log.error("Не вдалося опублікувати «%s»: %s", c["title"], e)
             continue
