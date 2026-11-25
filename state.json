@@ -1,8 +1,33 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:ai|ITC.ua|https://itc.ua/ua/feed/": {
+   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ITC.ua» не працює",
+   "sent": 0,
+   "since": 1795613568.254441
+  },
+  "src:games|ITC.ua|https://itc.ua/ua/feed/": {
+   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ITC.ua» не працює",
+   "sent": 0,
+   "since": 1795613494.414156
+  },
+  "src:movies|ITC.ua|https://itc.ua/ua/feed/": {
+   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ITC.ua» не працює",
+   "sent": 0,
+   "since": 1795613521.5648222
+  },
+  "src:software|ITC.ua|https://itc.ua/ua/feed/": {
+   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ITC.ua» не працює",
+   "sent": 0,
+   "since": 1795613543.6646183
+  }
+ },
  "daily_digest_date": "2026-11-24",
  "freebies": {
-  "last_check": 1795606503.9950256,
+  "last_check": 1795613614.2009096,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -31,43 +56,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-25 13:02 UTC",
+  "at": "2026-11-25 13:33 UTC",
   "gemini_error": "",
-  "gemini_model": "gemma-4-31b-it",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemma-4-31b-it": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794922281.569786,
-   6210,
-   "💾",
-   "Meta запустила ще один окремий месенджер – цього разу для Instagram",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/meta-tests-instagram-messaging-app-317300/",
-    "orig": "Meta запустила ще один окремий месенджер – цього разу для Instagram"
-   }
-  ],
-  [
-   1794922318.0978746,
-   6211,
-   "🎮",
-   "Передзамовлення GTA 6 містять бонус у вигляді місяця підписки GTA Plus",
-   "Polygon",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.polygon.com/gta-6-preorder-bonuses-plus-release-perks-digital-ultimate-edition/",
-    "orig": "'GTA 6' Pre-orders Come With An Important Asterisk"
-   }
-  ],
   [
    1794924115.2647898,
    6212,
@@ -8630,7 +8629,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>As Cities Burn представили кліп на новий сингл us defines the means</b>\n▶️ <a href=\"https://youtu.be/X9Q13kBoZ6Q\">Дивитися кліп</a>\n🎧 Слухати: <a href=\"https://open.spotify.com/search/As%20Cities%20Burn%20us%20defines%20the%20mean\">Spotify</a> · <a href=\"https://music.youtube.com/search?q=As%20Cities%20Burn%20us%20defines%20the%20mean\">YouTube Music</a>\n\nПостхардкор-гурт As Cities Burn випустив кліп на трек us defines the means. Прем&#x27;єра відео відбулася 23 листопада, а режисером виступив Тревор Голлоуей.\n\n🔗 <a href=\"https://lambgoat.com/news/56050/as-cities-burn-premiere-music-video-for-new-single-us-defines-the-mean/\">Lambgoat</a> · #музика #AsCitiesBurn",
     "kind": "photo",
     "link": "https://lambgoat.com/news/56050/as-cities-burn-premiere-music-video-for-new-single-us-defines-the-mean/",
     "orig": "As Cities Burn premiere music video for new single \"us defines the mean\""
@@ -8644,7 +8642,6 @@
    "IndieWire",
    {
     "also": [],
-    "caption": "🎬 <b>Janus Films розповсюджуватиме всю фільмографію Фредеріка Вайзмена</b>\n\nJanus Films придбала права на розповсюдження в Північній Америці всіх 45 повнометражних фільмів Фредеріка Вайзмена. Реліз розпочнеться 1 січня 2027 року, а ранні стрічки вже відреставровані у 4K. Це перший випадок, коли роботи режисера ліцензує хтось, окрім Zipporah Films.\n\n🔗 <a href=\"https://www.indiewire.com/news/general-news/frederick-wiseman-complete-works-distributed-janus-films-1235230945/\">IndieWire</a> · #кіно_і_серіали #JanusFilms #FrederickWiseman",
     "kind": "photo",
     "link": "https://www.indiewire.com/news/general-news/frederick-wiseman-complete-works-distributed-janus-films-1235230945/",
     "orig": "Frederick Wiseman’s Complete Filmography to Be Distributed by Janus Films"
@@ -9490,6 +9487,34 @@
     "link": "https://itc.ua/ua/novini/stsenaryst-pershoyi-gta-lyusiya-gta-6-zhinky/",
     "orig": "«Жінок зображали погано»: сценарист першої GTA радий появі Лусії в GTA 6"
    }
+  ],
+  [
+   1795613581.4217753,
+   6943,
+   "🎮",
+   "Стала відома дата зняття ембарго на огляди Rayman Legends Retold",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Стала відома дата зняття ембарго на огляди <a href=\"https://store.steampowered.com/app/4084710/\">Rayman Legends Retold</a></b>\n🕹 <a href=\"https://store.steampowered.com/app/4084710/\">Rayman Legends Retold</a> — ще не вийшла\n🕹 <a href=\"https://store.steampowered.com/app/4760650/\">Embargo</a> — ще не вийшла\n\nКомпанія Ubisoft випустить ремейк платформера Rayman Legends Retold у 2026 році. Ембарго на публікацію оглядів гри спаде 2 грудня 2026 року о 3:00 за тихоокеанським часом.\n\n🔗 <a href=\"https://insider-gaming.com/rayman-legends-retold-review-embargo/\">Insider Gaming</a> · #ігри #Rayman #Ubisoft",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/rayman-legends-retold-review-embargo/",
+    "orig": "Rayman Legends Retold Review Embargo Date & Time Details"
+   }
+  ],
+  [
+   1795613605.9608767,
+   6944,
+   "🤖",
+   "ШІ-агенти керують частиною обчислень Deepmind для моделей Gemini",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>ШІ-агенти керують частиною обчислень Deepmind для моделей Gemini</b>\n\nGoogle Deepmind довірила ШІ-агентам самостійно проводити експерименти для наступних моделей Gemini. Як пояснив віцепрезидент з досліджень Корай Кавукчуоглу, компанія перейшла на єдиний алгоритм загального призначення замість окремих команд, проте повне рекурсивне самовдосконалення ще далеке.\n\n🔗 <a href=\"https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/\">The Decoder</a> · #ШІ #Gemini #DeepMind",
+    "kind": "photo",
+    "link": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+    "orig": "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9525,10 +9550,10 @@
    1795539683.9860375
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
-   1795523729.92283,
    1795545167.9941776,
    1795555359.8923485,
-   1795608099.5117345
+   1795608099.5117345,
+   1795613605.9610944
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1793370738.9416513
@@ -9566,8 +9591,8 @@
    1795611751.333858
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1795525625.4395084,
-   1795568557.5883355
+   1795568557.5883355,
+   1795613581.4219947
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1795437081.8750849,
@@ -9808,7 +9833,6 @@
   "0671c06d7df1ebdc": 1794655885.169173,
   "06764ddd4b90c3d7": 1794627081.7342012,
   "06948e2ed8c2a27f": 1795078854.576999,
-  "06a3440977807218": 1794403852.8500218,
   "06ab79560085083c": 1795327283.0516202,
   "06d398a66b12cd0f": 1795183335.5979233,
   "06dc1664afbe3523": 1795098686.463174,
@@ -10157,6 +10181,7 @@
   "2d99a0a1f86c29e4": 1795483901.7627103,
   "2d9a2b8d557e732f": 1795530751.7774193,
   "2d9fb94950497008": 1795051880.1134467,
+  "2dcaca1b02a4a8c1": 1795613605.961048,
   "2e31cab8089ade75": 1794972693.6913912,
   "2e4e59934d356947": 1795465853.2477036,
   "2e51c61bb6087ac9": 1795518056.532813,
@@ -10307,7 +10332,6 @@
   "3d7652611cf0dfe6": 1795271455.3684447,
   "3d7ad70eefac64c8": 1795596450.226575,
   "3dc7d1a113cc1734": 1794504655.5700643,
-  "3e57339765a5c089": 1794403992.1362224,
   "3e60ece0075a0626": 1795486810.4521737,
   "3e73f7351779bbff": 1795053694.9583557,
   "3ea7ab9e54c73d65": 1795341888.54756,
@@ -10703,6 +10727,7 @@
   "69c119b5bc0b854d": 1795473194.34092,
   "6a02e92b55e7abcc": 1794846689.2413993,
   "6a1f8d3924a976b0": 1794759968.2490451,
+  "6a354ace58ee5b3b": 1795613467.1891065,
   "6a36938791d14140": 1794736922.7315037,
   "6a3cda4759e8582f": 1795500082.9163702,
   "6a660b35f9a6c210": 1794441681.0200262,
@@ -10740,6 +10765,7 @@
   "6d7048e141da2b63": 1794870128.9395034,
   "6d934b84dca27339": 1794610969.0439706,
   "6d9766d36aa95310": 1794461483.076698,
+  "6db7d03254d4993d": 1795613581.4219456,
   "6dbbef7fcf0697c1": 1795190538.9666822,
   "6dde94dbf72a0b2f": 1795532495.6789804,
   "6df1c951d5f0d9f4": 1794898974.3085027,
@@ -10919,7 +10945,6 @@
   "80bddf6e8ca661a1": 1794909660.6622963,
   "80d1635b58ad2566": 1795048281.485335,
   "80f2245c44cef0be": 1794887915.5464478,
-  "80f6804ec58cab81": 1794403883.9132445,
   "8101341e38585207": 1795228528.5650141,
   "811010a56774957b": 1794414658.7033095,
   "817a5f35561ee1a6": 1795339853.7201128,
@@ -13295,7 +13320,7 @@
    "GameSpot": 4,
    "IGN": 6,
    "IndieWire": 2,
-   "Insider Gaming": 37,
+   "Insider Gaming": 38,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 3,
    "PC Gamer": 9,
@@ -13319,7 +13344,7 @@
    "Hugging Face": 3,
    "ITC.ua": 20,
    "IndieWire": 5,
-   "Insider Gaming": 6,
+   "Insider Gaming": 7,
    "Kerrang!": 1,
    "Lambgoat": 11,
    "Loudwire": 1,
@@ -13334,7 +13359,7 @@
    "Rock Paper Shotgun": 7,
    "SteamDB": 2,
    "Stereogum": 1,
-   "The Decoder": 7,
+   "The Decoder": 8,
    "ThePRP": 4,
    "VGC": 8,
    "Variety": 16
@@ -13342,7 +13367,7 @@
   "translators": {
    "DeepL": 18,
    "gemini-flash-latest": 7,
-   "gemini-flash-lite-latest": 65,
+   "gemini-flash-lite-latest": 67,
    "gemma-4-26b-a4b-it": 55,
    "gemma-4-31b-it": 78
   },
@@ -13794,11 +13819,6 @@
    "",
    1795530755.500559
   ],
-  "q:25": [
-   0,
-   "",
-   1795439294.7938066
-  ],
   "q:260": [
    0,
    "",
@@ -13873,11 +13893,6 @@
    3070650,
    "群島物語 - 實習鍊金術士的 90 天之旅",
    1793370764.3196456
-  ],
-  "q:a24": [
-   0,
-   "",
-   1795439245.0871835
   ],
   "q:aaa": [
    3408350,
@@ -14204,11 +14219,6 @@
    "",
    1795568495.8166316
   ],
-  "q:christoph hartmann": [
-   0,
-   "",
-   1795439242.4227018
-  ],
   "q:chronicles medieval": [
    2231020,
    "Chronicles: Medieval",
@@ -14534,6 +14544,26 @@
    "Elon",
    1793619178.3054326
   ],
+  "q:embargo": [
+   4760650,
+   "Embargo",
+   1795613575.2611945
+  ],
+  "q:embargo date": [
+   0,
+   "",
+   1795613574.7171023
+  ],
+  "q:embargo date time": [
+   0,
+   "",
+   1795613574.2359564
+  ],
+  "q:embargo date time details": [
+   0,
+   "",
+   1795613573.7570417
+  ],
   "q:engine 6": [
    0,
    "",
@@ -14779,11 +14809,6 @@
    "Halloween Night",
    1793291771.4803154
   ],
-  "q:hartmann": [
-   0,
-   "",
-   1795439243.0710046
-  ],
   "q:haven": [
    983970,
    "Haven",
@@ -14813,11 +14838,6 @@
    785890,
    "Hexologic",
    1793295448.4804857
-  ],
-  "q:holt": [
-   1675600,
-   "Holt",
-   1793021497.9084604
   ],
   "q:hooded horse": [
    0,
@@ -14879,26 +14899,6 @@
    "",
    1795447911.478132
   ],
-  "q:invites": [
-   0,
-   "",
-   1795440686.9321043
-  ],
-  "q:invites orgs": [
-   0,
-   "",
-   1795440686.390374
-  ],
-  "q:invites orgs to apply": [
-   0,
-   "",
-   1795440685.914548
-  ],
-  "q:invites orgs to apply for ignite": [
-   0,
-   "",
-   1795440685.4517288
-  ],
   "q:is officially": [
    0,
    "",
@@ -14918,11 +14918,6 @@
    2202510,
    "ISO",
    1793025234.961304
-  ],
-  "q:it was the coolest thing i": [
-   0,
-   "",
-   1795439293.7079055
   ],
   "q:it wasn": [
    0,
@@ -15134,21 +15129,6 @@
    "Marvel Rivals",
    1795440684.98752
   ],
-  "q:marvel rivals invites": [
-   0,
-   "",
-   1795440684.4977992
-  ],
-  "q:marvel rivals invites orgs": [
-   0,
-   "",
-   1795440684.031585
-  ],
-  "q:marvel rivals invites orgs to apply": [
-   0,
-   "",
-   1795440683.5177643
-  ],
   "q:mass effect legendary edition": [
    1328670,
    "Mass Effect™ Legendary Edition",
@@ -15158,11 +15138,6 @@
    0,
    "",
    1795532500.505797
-  ],
-  "q:massive entertainment": [
-   0,
-   "",
-   1795439244.5473588
   ],
   "q:messiah": [
    577980,
@@ -15233,11 +15208,6 @@
    2742830,
    "Monster Train 2",
    1793197995.3387616
-  ],
-  "q:moon sweepers": [
-   5335510,
-   "Moon Sweepers",
-   1793019927.6206162
   ],
   "q:more steam": [
    0,
@@ -15349,11 +15319,6 @@
    "Night in the Woods",
    1794749500.440462
   ],
-  "q:nightdive's thief": [
-   0,
-   "",
-   1795440737.7502012
-  ],
   "q:nightshade": [
    512180,
    "Nightshade/百花百狼",
@@ -15448,26 +15413,6 @@
    0,
    "",
    1795516345.983619
-  ],
-  "q:orgs": [
-   0,
-   "",
-   1795440688.8809273
-  ],
-  "q:orgs to apply": [
-   0,
-   "",
-   1795440688.4133015
-  ],
-  "q:orgs to apply for ignite": [
-   0,
-   "",
-   1795440687.8547244
-  ],
-  "q:orgs to apply for ignite 2027": [
-   0,
-   "",
-   1795440687.3917801
   ],
   "q:others": [
    3694710,
@@ -15669,6 +15614,26 @@
    "",
    1795514507.0701556
   ],
+  "q:rayman legends retold": [
+   4084710,
+   "Rayman Legends Retold",
+   1795613571.4574697
+  ],
+  "q:rayman legends retold review": [
+   0,
+   "",
+   1795613571.0007105
+  ],
+  "q:rayman legends retold review embargo": [
+   0,
+   "",
+   1795613570.541281
+  ],
+  "q:rayman legends retold review embargo date": [
+   0,
+   "",
+   1795613569.9417546
+  ],
   "q:read dead": [
    0,
    "",
@@ -15709,10 +15674,25 @@
    "",
    1795525570.282475
   ],
-  "q:rez": [
+  "q:review embargo": [
    0,
    "",
-   1795439294.2761872
+   1795613573.296377
+  ],
+  "q:review embargo date": [
+   0,
+   "",
+   1795613572.8205178
+  ],
+  "q:review embargo date time": [
+   0,
+   "",
+   1795613572.3661988
+  ],
+  "q:review embargo date time details": [
+   0,
+   "",
+   1795613571.9069781
   ],
   "q:ridley": [
    0,
@@ -16169,11 +16149,6 @@
    "",
    1795516344.493623
   ],
-  "q:sword of the sea": [
-   2453160,
-   "Sword of the Sea",
-   1793019970.7187355
-  ],
   "q:symphony": [
    0,
    "",
@@ -16218,11 +16193,6 @@
    239160,
    "Thief",
    1795440738.230893
-  ],
-  "q:thief gold": [
-   0,
-   "",
-   1795440738.7681882
   ],
   "q:tomb raider": [
    203160,
@@ -16283,16 +16253,6 @@
    390460,
    "Tyler",
    1793403098.8882158
-  ],
-  "q:ubisoft's massive": [
-   0,
-   "",
-   1795439244.0550494
-  ],
-  "q:ubisoft's massive entertainment": [
-   0,
-   "",
-   1795439243.5661361
   ],
   "q:undertale": [
    391540,
@@ -16527,24 +16487,25 @@
  },
  "tag_hints": {
   "Mezha": [
-   "anthropic",
    "avengers: doomsday",
-   "claude",
    "firefox",
    "himera",
    "huawei",
    "marvel",
+   "microsoft",
    "mozilla",
    "protector",
    "uklon",
    "авіація",
+   "бпла",
    "браузери",
    "бізнес",
+   "вибухові речовини",
+   "вибухівка",
    "винищувачі",
    "генштаб",
    "гур",
    "далекобійна зброя",
-   "експорт зброї",
    "зв'язок",
    "кіно",
    "літаки",
@@ -16553,19 +16514,16 @@
    "наземні дрони",
    "новини",
    "нрк",
-   "німеччина",
    "оборонка",
    "опк",
    "ппо",
    "рація",
-   "ринок озброєнь",
    "росія",
    "сили оборони",
    "софт",
    "технології",
    "україна",
    "українська бронетехніка",
-   "штучний інтелект",
    "інвестиції"
   ]
  },
@@ -16573,22 +16531,6 @@
   1795586502.2341087
  ],
  "titles": [
-  [
-   1795439291.6893504,
-   "Christoph Hartmann wants Ubisoft's Massive Entertainment to go beyond shooters and be the \"A24 of gaming\""
-  ],
-  [
-   1795439342.7439775,
-   "‘It was the coolest thing I’d ever seen’: The story of Rez, 25 years on"
-  ],
-  [
-   1795440735.784051,
-   "Marvel Rivals Invites Orgs to Apply for Ignite 2027 Partnership"
-  ],
-  [
-   1795440749.4020164,
-   "Nightdive's Thief remaster will make the most \"infamous\" Thief Gold level a little less maddening, by \"just kind of pointing the player in the right direction\""
-  ],
   [
    1795442631.7391176,
    "Resident Evil creator Shinji Mikami says he wishes AI would disappear entirely, but that he experiments with it as a tool"
@@ -17308,25 +17250,17 @@
   [
    1795611751.333818,
    "«Жінок зображали погано»: сценарист першої GTA радий появі Лусії в GTA 6"
+  ],
+  [
+   1795613581.4219472,
+   "Rayman Legends Retold Review Embargo Date & Time Details"
+  ],
+  [
+   1795613605.9610498,
+   "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant"
   ]
  ],
  "titles_uk": [
-  [
-   1795439291.6893513,
-   "Крістоф Хартманн хоче перетворити Massive Entertainment на «A24 від відеоігор»"
-  ],
-  [
-   1795439342.7439783,
-   "Історія Rez: як синестезія та техно перетворили шутер на мистецтво"
-  ],
-  [
-   1795440735.784052,
-   "NetEase відкриває реєстрацію партнерів для Marvel Rivals Ignite 2027"
-  ],
-  [
-   1795440749.4020178,
-   "У ремастері Thief від Nightdive змінять один із найбільш дратівливих рівнів"
-  ],
   [
    1795442631.739118,
    "Творець Resident Evil Шіндзі Мікамі хоче зникнення ШІ, але експериментує з ним як з інструментом"
@@ -18046,6 +17980,14 @@
   [
    1795611751.3338184,
    "«Жінок зображали погано»: сценарист першої GTA радий появі Лусії в GTA 6"
+  ],
+  [
+   1795613581.421948,
+   "Стала відома дата зняття ембарго на огляди Rayman Legends Retold"
+  ],
+  [
+   1795613605.9610505,
+   "ШІ-агенти керують частиною обчислень Deepmind для моделей Gemini"
   ]
  ],
  "ukrainian": {
@@ -20532,7 +20474,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795610023.8669982,
+  "last_check": 1795613614.1237345,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
