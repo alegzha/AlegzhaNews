@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|ThePRP|https://www.theprp.com/feed/": {
+   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ThePRP» не працює",
+   "sent": 0,
+   "since": 1795622497.262061
+  }
+ },
  "daily_digest_date": "2026-11-24",
  "freebies": {
   "last_check": 1795620740.7806683,
@@ -31,69 +38,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-25 15:32 UTC",
+  "at": "2026-11-25 16:04 UTC",
   "gemini_error": "",
-  "gemini_model": "gemma-4-31b-it",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemma-4-31b-it": 1
+   "gemma-4-26b-a4b-it": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794929582.806432,
-   6219,
-   "🤖",
-   "Мексика втрачає бум ШІ-датацентрів через енергетичну кризу",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/features/2026-11-17/mexico-is-missing-out-on-ai-data-center-boom-as-energy-crunch-bites",
-    "orig": "Mexico Is Missing Out on AI Data Center Boom as Energy Crunch Bites"
-   }
-  ],
-  [
-   1794929588.947317,
-   6220,
-   "💾",
-   "Глава Instagram назвав \"проблемною\" адаптацію застосунку для iPhone Duo",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/instagram-struggles-with-iphone-duo-317293/",
-    "orig": "Глава Instagram назвав \"проблемною\" адаптацію застосунку для iPhone Duo"
-   }
-  ],
-  [
-   1794931286.44356,
-   6221,
-   "🤖",
-   "Бульбашка штучного інтелекту лусне до 2028 року — колишній глава SEC Ґері Генслер",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://highload.tech/uk/bulbashka-shtuchnogo-intelektu-lusne-do-2028-roku-kolyshnij-glava-sec-geri-gensler/#new_tab",
-    "orig": "Бульбашка штучного інтелекту лусне до 2028 року — колишній глава SEC Ґері Генслер"
-   }
-  ],
-  [
-   1794931288.4676201,
-   6222,
-   "🤖",
-   "Google заявила про, ймовірно, першу повністю автоматизовану кібератаку з використанням ШІ",
-   "AIN.ua",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://ain.ua/2026/11/17/google-zaiavila-pro-imovirno-persu-povnistiu-avtomatizovanu-kiberataku-z-vikoristanniam-si/",
-    "orig": "Google заявила про, ймовірно, першу повністю автоматизовану кібератаку з використанням ШІ"
-   }
-  ],
   [
    1794931976.4583092,
    6223,
@@ -8638,7 +8593,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Netflix випустив документалку One Last Order про легендарну працівницю фастфуду</b>\n\nФільм розповідає про Сайгл Вільямс, яка 37 років працювала в Mac’s Drive Thru. У її останній робочий день власники закладу подарували їй весь виторг і чайові, що склали майже річну зарплату працівниці.\n\n🔗 <a href=\"https://variety.com/2026/tv/news/one-last-order-netflix-drive-thru-worker-sighle-williams-1236957515/\">Variety</a> · #кіно_і_серіали #Netflix #OneLastOrder",
     "kind": "photo",
     "link": "https://variety.com/2026/tv/news/one-last-order-netflix-drive-thru-worker-sighle-williams-1236957515/",
     "orig": "‘One Last Order’: Beloved Drive-Thru Worker Sighle Williams Says ‘I Miss the Community’ as Viral Netflix Doc Streams"
@@ -8652,7 +8606,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Фінальний трейлер Avengers: Doomsday зібрав 563 млн переглядів за добу</b>\n\nФінальний трейлер фільму Avengers: Doomsday від режисерів братів Руссо зібрав 563 мільйони переглядів за перші 24 години. Це новий рекорд для релізів Disney та другий результат за всю історію серед усіх кінотрейлерів.\n\n🔗 <a href=\"https://deadline.com/2026/11/avengers-doomsday-final-trailer-viewership-record-1237232943/\">Deadline</a> · #кіно_і_серіали #Marvel #Disney",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/avengers-doomsday-final-trailer-viewership-record-1237232943/",
     "orig": "‘Avengers: Doomsday’ Final Trailer Clocks 563M Views, Best Ever For Disney; 2nd Most Viewed Of All-Time"
@@ -9498,6 +9451,34 @@
     "link": "https://www.videogameschronicle.com/news/grammy-award-winning-band-removes-dozens-of-tracks-following-nintendo-copyright-issues/",
     "orig": "Grammy Award-winning band removes dozens of tracks following Nintendo copyright issues"
    }
+  ],
+  [
+   1795622555.68941,
+   6952,
+   "🎮",
+   "Ціни на ігрові консолі не впадуть найближчим часом через дефіцит пам'яті та ШІ",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Ціни на ігрові консолі не впадуть найближчим часом через дефіцит пам&#x27;яті та ШІ</b>\n\nЦіни на PlayStation 5 та Xbox Series X залишаються високими через дефіцит DRAM-пам&#x27;яті, яку масово використовують для дата-центрів ШІ. За прогнозами S&amp;P Global Market Intelligence, вартість виробництва знизиться не раніше 2028 року. Ситуацію можуть погіршити нові митні тарифи США на імпорт комплектуючих.\n\n🔗 <a href=\"https://www.polygon.com/ps5-xbox-switch-prices-game-consoles-trump-tariffs/\">Polygon</a> · #ігри #PlayStation #Xbox",
+    "kind": "photo",
+    "link": "https://www.polygon.com/ps5-xbox-switch-prices-game-consoles-trump-tariffs/",
+    "orig": "3 Reasons Why Console Prices Aren’t Going Down Anytime Soon"
+   }
+  ],
+  [
+   1795622673.252301,
+   6953,
+   "🎮",
+   "Playground Games поділилася деталями розробки перезапуску Fable",
+   "GamesIndustry.biz",
+   {
+    "also": [],
+    "caption": "🎮 <b>Playground Games поділилася деталями розробки перезапуску <a href=\"https://store.steampowered.com/app/2769570/\">Fable</a></b>\n🕹 <a href=\"https://store.steampowered.com/app/2769570/\">Fable</a> — ще не вийшла\n\nДата виходу нового Fable перенесена на 23 лютого 2027 року. Playground Games прагне поєднати класичний британський гумор із сучасними стандартами, зосередившись на сюжеті, бойовій системі та детальному світі Albion.\n\n🔗 <a href=\"https://www.gamesindustry.biz/youd-be-nuts-to-take-on-all-of-that-in-the-first-project-and-yet-here-we-are-how-playground-is-finally-making-good-on-an-all-new-fable\">GamesIndustry.biz</a> · #ігри #Fable #PlaygroundGames",
+    "kind": "photo",
+    "link": "https://www.gamesindustry.biz/youd-be-nuts-to-take-on-all-of-that-in-the-first-project-and-yet-here-we-are-how-playground-is-finally-making-good-on-an-all-new-fable",
+    "orig": "\"You'd be nuts to take on all of that in the first project, and yet here we are\" – How Playground is finally making good on an all-new Fable"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9561,7 +9542,8 @@
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
    1795611747.907958,
-   1795618956.1362503
+   1795618956.1362503,
+   1795622673.2525475
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
    1795307527.7208965,
@@ -9592,9 +9574,9 @@
    1795618885.3987482
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1795527243.1793878,
    1795597552.070924,
-   1795606495.3331504
+   1795606495.3331504,
+   1795622555.689697
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1795528559.0409124,
@@ -9803,7 +9785,6 @@
   "04c121ae35afc0cd": 1794574970.897312,
   "04c6c51b286dc80e": 1795199460.213731,
   "04cd989d5875ca72": 1795024884.9419575,
-  "04f7ab6902985e49": 1794412878.730195,
   "050ea7aed04e3489": 1795017653.3598104,
   "0524f91cd2795cb8": 1795208454.5689726,
   "05874b328888d37f": 1795087856.688431,
@@ -9968,7 +9949,6 @@
   "173509c6b3324842": 1794490477.181179,
   "175253d965719215": 1795582858.5659506,
   "1767875ea38120a7": 1795145931.5669088,
-  "1784d759dd3f4ae5": 1794412878.7306378,
   "17a7d8ef1dd786ba": 1795338066.3740447,
   "17bf9318e45dd8a8": 1794839485.2085533,
   "17c6e78082fda4a9": 1794682854.575637,
@@ -10083,6 +10063,7 @@
   "24437daf95252ce9": 1794740481.6387289,
   "247257c36ff4af29": 1795217669.0922933,
   "2497e1c3e10ce315": 1795134676.975582,
+  "24abf2d3032c32a6": 1795622673.2525027,
   "24d6d6b2cb651c91": 1794781854.546859,
   "24e30821eb6f08bc": 1794599463.414183,
   "24e7172905dd730e": 1795541488.2751114,
@@ -10844,7 +10825,6 @@
   "77f46c6157a6cf39": 1795024853.7713437,
   "77ffabd6320d198a": 1795604478.3365839,
   "781f1b50643d644d": 1795505548.0336213,
-  "782996bb33c06597": 1794412901.8522532,
   "7830b6e9366769b5": 1794755066.3503067,
   "78417c2a58f5cef0": 1795354267.0035863,
   "786b9ed727f62019": 1794972690.7789228,
@@ -10882,7 +10862,6 @@
   "7ba309e293e0dda9": 1795435304.6920815,
   "7bc0aa81e38591c4": 1794924126.2097738,
   "7bccc4b70a77783a": 1795129287.6917725,
-  "7bffe8ee5077df03": 1794412878.729675,
   "7c2c88da14b0a8d0": 1795528472.935036,
   "7c43e37433bec5b6": 1795375881.9384532,
   "7c67ea04992188fa": 1795214135.4330919,
@@ -11357,6 +11336,7 @@
   "aec981f247366a4e": 1794493889.6516697,
   "aed1e271979af7a4": 1794434455.0331035,
   "af15445ab2e4c5e7": 1795096853.5346801,
+  "af165ea4db17f5a5": 1795622460.307334,
   "af1f0559acb08c9e": 1795249872.3120923,
   "af2a18e81ffa043e": 1795390379.0757344,
   "af5700409a88993e": 1795098686.4612706,
@@ -11521,6 +11501,7 @@
   "c1db9b87adc608c9": 1794810780.0711603,
   "c1e292b21fe35ef1": 1795203088.0220785,
   "c20c76bac6df0a5c": 1794693790.4067116,
+  "c2114dee721fd51a": 1795622460.307334,
   "c250cec7e4c6a3e5": 1794697280.052423,
   "c2ad1c3dd73ceae6": 1795086081.8537004,
   "c2e4064fa9638a42": 1795314741.3108847,
@@ -11594,6 +11575,7 @@
   "ca5ce62ca9cfa9c1": 1794598278.7437491,
   "ca925f90135eae9c": 1795386884.5165458,
   "caa5a78f0c624001": 1794650473.5419436,
+  "caae4353b9f06065": 1795622555.6896458,
   "cab57cfa16593128": 1795539658.0331025,
   "cac0acbce765ab76": 1794858079.9655144,
   "cac11850d73e9700": 1795557948.939768,
@@ -11776,6 +11758,7 @@
   "dd18fa79f3def6bc": 1795577609.868643,
   "dd389dd16d8ef8c4": 1794632451.7232893,
   "dd38e4db275d4a7d": 1794592858.1127434,
+  "dd3fdf55ac11416d": 1795622460.307334,
   "dd8f1762c1ac21dc": 1795536070.620261,
   "dd97f68e98002cea": 1795447856.9534128,
   "ddb68bfe27a19d66": 1794529995.7732687,
@@ -11798,7 +11781,6 @@
   "dfedfa4966b60219": 1794819950.4708943,
   "dff5868d772e2c33": 1794659479.793679,
   "e012fe2effbf0ad6": 1795046491.8422067,
-  "e0171016b64ad4fc": 1794412899.1679995,
   "e02468f18c872112": 1795222970.5537045,
   "e07123461fe01938": 1794736889.2868085,
   "e0d00c08b8c853e2": 1794555081.9932432,
@@ -13311,15 +13293,15 @@
    "GameSpot": 5,
    "IGN": 7,
    "IndieWire": 2,
-   "Insider Gaming": 46,
+   "Insider Gaming": 47,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 3,
    "PC Gamer": 10,
    "PlayUA": 1,
-   "Polygon": 22,
+   "Polygon": 23,
    "Rock Paper Shotgun": 2,
    "VGC": 23,
-   "Variety": 9
+   "Variety": 10
   },
   "sources": {
    "/Film": 12,
@@ -13331,7 +13313,7 @@
    "Deadline": 38,
    "Decibel": 1,
    "Eurogamer": 6,
-   "GamesIndustry.biz": 6,
+   "GamesIndustry.biz": 7,
    "Hugging Face": 3,
    "ITC.ua": 21,
    "IndieWire": 5,
@@ -13345,7 +13327,7 @@
    "PC Gamer": 6,
    "Pitchfork": 2,
    "PlayUA": 4,
-   "Polygon": 11,
+   "Polygon": 12,
    "Product Hunt": 4,
    "Rock Paper Shotgun": 7,
    "SteamDB": 2,
@@ -13359,7 +13341,7 @@
    "DeepL": 20,
    "gemini-flash-latest": 7,
    "gemini-flash-lite-latest": 68,
-   "gemma-4-26b-a4b-it": 55,
+   "gemma-4-26b-a4b-it": 57,
    "gemma-4-31b-it": 81
   },
   "week": "2026-W48"
@@ -13850,6 +13832,36 @@
    "",
    1795521684.8264978
   ],
+  "q:3": [
+   0,
+   "",
+   1795622510.8542817
+  ],
+  "q:3 reasons": [
+   0,
+   "",
+   1795622510.3142297
+  ],
+  "q:3 reasons why": [
+   0,
+   "",
+   1795622509.715754
+  ],
+  "q:3 reasons why console": [
+   0,
+   "",
+   1795622509.201126
+  ],
+  "q:3 reasons why console prices": [
+   0,
+   "",
+   1795622508.6901548
+  ],
+  "q:3 reasons why console prices aren't": [
+   0,
+   "",
+   1795622508.171457
+  ],
   "q:320": [
    0,
    "",
@@ -14319,11 +14331,6 @@
    1677280,
    "Company of Heroes 3",
    1793207139.3398516
-  ],
-  "q:compete in a highly competitive market": [
-   0,
-   "",
-   1795447904.4227695
   ],
   "q:concept art surfaces": [
    0,
@@ -14925,10 +14932,10 @@
    "Hotline Miami",
    1793039506.7827897
   ],
-  "q:huang": [
+  "q:how playground": [
    0,
    "",
-   1795447886.0146787
+   1795622557.7120562
   ],
   "q:hull rupture": [
    4358660,
@@ -14980,11 +14987,6 @@
    "Input",
    1793491313.3795223
   ],
-  "q:interactive": [
-   0,
-   "",
-   1795447911.478132
-  ],
   "q:is officially": [
    0,
    "",
@@ -15029,11 +15031,6 @@
    0,
    "",
    1795496499.009616
-  ],
-  "q:jensen": [
-   0,
-   "",
-   1795447884.3156903
   ],
   "q:john romero": [
    0,
@@ -15530,10 +15527,10 @@
    "",
    1795527084.9677825
   ],
-  "q:plug in digital": [
+  "q:playground": [
    0,
    "",
-   1795447905.9052184
+   1795622558.2503755
   ],
   "q:poppy playtime": [
    1721470,
@@ -15664,6 +15661,31 @@
    0,
    "",
    1795521721.1861653
+  ],
+  "q:reasons why": [
+   0,
+   "",
+   1795622513.4362628
+  ],
+  "q:reasons why console": [
+   0,
+   "",
+   1795622512.9248786
+  ],
+  "q:reasons why console prices": [
+   0,
+   "",
+   1795622512.4053662
+  ],
+  "q:reasons why console prices aren't": [
+   0,
+   "",
+   1795622511.8854408
+  ],
+  "q:reasons why console prices aren't going": [
+   0,
+   "",
+   1795622511.372141
   ],
   "q:red dead redemption": [
    2668510,
@@ -15824,16 +15846,6 @@
    0,
    "",
    1795606438.035222
-  ],
-  "q:sails": [
-   0,
-   "",
-   1795447910.5013819
-  ],
-  "q:sails interactive": [
-   0,
-   "",
-   1795447908.9417343
   ],
   "q:sandfall": [
    1742230,
@@ -16225,16 +16237,6 @@
    "Touchdown",
    1793626281.855268
   ],
-  "q:twin sails": [
-   0,
-   "",
-   1795447907.9189415
-  ],
-  "q:twin sails interactive": [
-   0,
-   "",
-   1795447906.8219602
-  ],
   "q:tyler": [
    390460,
    "Tyler",
@@ -16344,6 +16346,11 @@
    0,
    "",
    1795527083.427514
+  ],
+  "q:why console prices aren't going down": [
+   0,
+   "",
+   1795622514.0315557
   ],
   "q:wick": [
    418300,
@@ -16459,7 +16466,8 @@
    "mesh-системи",
    "microsoft",
    "playstation",
-   "protector",
+   "rockstar",
+   "take-two",
    "the witcher 4",
    "wi-fi",
    "блоги",
@@ -16471,9 +16479,7 @@
    "китай",
    "консолі",
    "літаки",
-   "наземні дрони",
    "новини",
-   "нрк",
    "оборонка",
    "подкасти",
    "портативні консолі",
@@ -16483,7 +16489,6 @@
    "софт",
    "статті",
    "танки",
-   "українська бронетехніка",
    "штучний інтелект",
    "ігри"
   ]
@@ -16492,14 +16497,6 @@
   1795586502.2341087
  ],
  "titles": [
-  [
-   1795449790.6704218,
-   "This week in PC games: Raise a psychedelic baby, invent terrible new religions, and run your own PC hardware business"
-  ],
-  [
-   1795449854.863027,
-   "Stocks Soar as Huang’s Nvidia Return Fuels AI Bets"
-  ],
   [
    1795451486.0650604,
    "Німецькі військові вперше випробували дрони-камікадзе від Helsing і Stark на танках-мішенях у Литві"
@@ -17215,17 +17212,17 @@
   [
    1795620739.1839035,
    "Grammy Award-winning band removes dozens of tracks following Nintendo copyright issues"
+  ],
+  [
+   1795622555.6896477,
+   "3 Reasons Why Console Prices Aren’t Going Down Anytime Soon"
+  ],
+  [
+   1795622673.2525046,
+   "\"You'd be nuts to take on all of that in the first project, and yet here we are\" – How Playground is finally making good on an all-new Fable"
   ]
  ],
  "titles_uk": [
-  [
-   1795449790.6704228,
-   "Rockstar North незабаром завершить голосування за створення профспілки"
-  ],
-  [
-   1795449854.8630288,
-   "Акції злетіли після повернення Jensen Huang на чолі Nvidia"
-  ],
   [
    1795451486.0650609,
    "Німецькі військові вперше випробували дрони-камікадзе від Helsing і Stark на танках-мішенях у Литві"
@@ -17941,6 +17938,14 @@
   [
    1795620739.1839044,
    "8-Bit Big Band видалили десятки треків через проблеми з авторським правом Nintendo"
+  ],
+  [
+   1795622555.6896486,
+   "Ціни на ігрові консолі не впадуть найближчим часом через дефіцит пам'яті та ШІ"
+  ],
+  [
+   1795622673.2525055,
+   "Playground Games поділилася деталями розробки перезапуску Fable"
   ]
  ],
  "ukrainian": {
@@ -20427,7 +20432,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795618967.720208,
+  "last_check": 1795622682.21515,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
