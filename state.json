@@ -31,13 +31,14 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-25 12:01 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-25 12:33 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemma-4-31b-it": 1
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
@@ -8630,7 +8631,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>Хакери зламали систему CIA для доступу до несекретних даних</b>\n\nХакери зламали комп&#x27;ютерну систему CIA, яка містила несекретну інформацію. Про це повідомило джерело, обізнане з ситуацією.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-24/hackers-breach-cia-system-to-access-unclassified-information\">Bloomberg</a> · #софт #CIA",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-24/hackers-breach-cia-system-to-access-unclassified-information",
     "orig": "Hackers Breach CIA System to Access Unclassified Information"
@@ -8644,7 +8644,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>The New York Times заборонила фотографам використовувати нову версію Photoshop через ШІ</b>\n\nГазета The New York Times розіслала листа позаштатним фотографам із вимогою не оновлювати Adobe Photoshop до останньої версії. Причина – нові функції штучного інтелекту, які можуть непомітно для користувачів змінювати медіа і додавати до них відповідні метадані.\n\n🔗 <a href=\"https://mezha.ua/news/nyt-warns-against-photoshop-ai-317547/\">Mezha</a> · #софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/nyt-warns-against-photoshop-ai-317547/",
     "orig": "The New York Times заборонила фотографам використовувати нову версію Photoshop через ШІ"
@@ -9490,6 +9489,34 @@
     "link": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/",
     "orig": "PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values"
    }
+  ],
+  [
+   1795609880.27413,
+   6939,
+   "🤖",
+   "ШІ розв'язав задачу, над якою люди билися 47 років — двічі різними моделями",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🤖 <b>ШІ розв&#x27;язав задачу, над якою люди билися 47 років — двічі різними моделями</b>\n\nМатематики мали відкрите питання з 1979 року, пов’язане з фундаментальною проблемою швидкості множення матриць. За кілька днів дві ШІ-компанії незалежно одна від одної заявили, що розв’язали його. Anthropic та OpenAI опублікували доведення в задачі VP проти VNP. Окремо OpenAI заявила, що точно визначила, наскільки швидко в принципі можна перемножувати матриці.\n\n🔗 <a href=\"https://itc.ua/ua/novini/shi-za-kilka-dniv-prosunuv-zadachu-1979-roku/\">ITC.ua</a> · #ШІ",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/shi-za-kilka-dniv-prosunuv-zadachu-1979-roku/",
+    "orig": "ШІ розв'язав задачу, над якою люди билися 47 років — двічі різними моделями"
+   }
+  ],
+  [
+   1795610014.927681,
+   6940,
+   "🎮",
+   "Сервери шутера про динозаврів Exoprimal від Capcom закриють наступного року",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>Сервери шутера про динозаврів <a href=\"https://store.steampowered.com/app/1286320/\">Exoprimal</a> від Capcom закриють наступного року</b>\n🕹 <a href=\"https://store.steampowered.com/app/1286320/\">Exoprimal</a> — 1 800,00₴\n\nExoprimal — командний шутер від Capcom 2023 року, в якому бійці в екзоскелетах протистоять тиранозаврам, — став черговою грою, для якої було визначено термін припинення підтримки. Наприкінці вересня 2027 року припинять роботу її онлайн-сервіси, що унеможливить гру, а вже в березні гру планується вилучити з продажу.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/capcom-dinosaur-shooter-exoprimals-servers-will-go-extinct-next-year-as-shutdown-meteor-looms\">Rock Paper Shotgun</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/capcom-dinosaur-shooter-exoprimals-servers-will-go-extinct-next-year-as-shutdown-meteor-looms",
+    "orig": "Capcom dinosaur shooter Exoprimal's servers will go extinct next year, as shutdown meteor looms"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9515,7 +9542,8 @@
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
    1795541488.7726796,
    1795590097.5369325,
-   1795604478.33663
+   1795604478.33663,
+   1795609880.2743478
   ],
   "ai|Mezha|https://mezha.ua/feed/": [
    1795528523.4597511,
@@ -9593,7 +9621,8 @@
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1795528559.0409124,
    1795530751.7774622,
-   1795561557.4031613
+   1795561557.4031613,
+   1795610014.9279432
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1795501919.0043178,
@@ -10382,6 +10411,7 @@
   "488190ccdb717476": 1794594655.5581527,
   "48a84460fbb5da16": 1794526254.358723,
   "48cfa8b738b7d95f": 1794884529.379504,
+  "48e9f2543a55a3f4": 1795609864.8297842,
   "492580dd43b03d52": 1795134923.0482888,
   "497232c38067fa5d": 1795210255.0325866,
   "497798b1dab433b4": 1794625285.5868697,
@@ -10453,6 +10483,7 @@
   "4f7f70a6250406e8": 1795102384.325569,
   "4f891d7f2fd0bd53": 1795476710.513124,
   "4fcc147fbb707c97": 1795215669.3813393,
+  "4fcda807ed94c5b1": 1795609864.8297842,
   "4ff2500ae4ccf3a4": 1794423681.5965264,
   "5051def9dde83975": 1795536109.8182173,
   "50553c7ed298b632": 1794834056.1069303,
@@ -10487,7 +10518,6 @@
   "5414ecc9b939f980": 1794607474.0966804,
   "544396b7298dff1b": 1795282267.5256326,
   "544e922208991e97": 1794553378.8462498,
-  "54547bb66f092bf0": 1794400285.806103,
   "545e38a10926324b": 1794920510.3703232,
   "5470111df8825930": 1794961884.5306056,
   "54839cc7c333f5d0": 1795221054.2974577,
@@ -10810,6 +10840,7 @@
   "75c08206d03db135": 1795246402.3255856,
   "762a6f6642da3f46": 1795581428.7121198,
   "762af648b467f24f": 1795435304.6927397,
+  "76310de56c8ac62e": 1795609879.9105468,
   "76439351dd6b6958": 1795476705.7846272,
   "76483e7f408e18c8": 1795460456.8112307,
   "76780cda49ed71f0": 1794967638.545148,
@@ -11261,7 +11292,6 @@
   "a5da9f97d65375b5": 1795293059.0225935,
   "a60c4d1cbce2c052": 1794524545.2054734,
   "a63a0bf7ba742fe5": 1795224701.7799451,
-  "a63cf4553f266a18": 1794400283.729265,
   "a65090be49e4582b": 1794481449.6699495,
   "a66c87177152f36f": 1795021289.7614503,
   "a67bb8d2a6b42350": 1794654195.9605079,
@@ -11394,6 +11424,7 @@
   "b400aa22068cb5c7": 1794504655.5700643,
   "b418109caafc73a3": 1794444578.0039203,
   "b41e2782d523a29d": 1795163455.9823968,
+  "b43bd61a6e37587e": 1795610014.9278946,
   "b43e8021dc45f495": 1795219257.6871395,
   "b46dada6e9c8b558": 1794836079.153923,
   "b4920be50bc57862": 1795451488.6265445,
@@ -11602,6 +11633,7 @@
   "ccc544e4b8e1c700": 1795230551.7888367,
   "ccf05b59baa5bd37": 1795550460.3864164,
   "cd2a9e679a7417f2": 1795177877.3336859,
+  "cd540152fda17355": 1795609880.2743003,
   "cd5819428ecda86e": 1795001460.8855703,
   "cd8d02a3b1a16eaf": 1794553280.0375872,
   "cdbb933a5771f5c7": 1795327352.1949816,
@@ -11623,6 +11655,7 @@
   "cf11e0992e782c18": 1794668477.2772527,
   "cf4063d4e2f35a90": 1794891689.151488,
   "cf900dcfbf1c70ef": 1795010462.958915,
+  "cf924a67e7485ce3": 1795609864.8297842,
   "cfb0209a388095f1": 1794695676.518958,
   "cfb9041f9aa2aa36": 1794887933.7798338,
   "cff13b765f4b2dbd": 1794618176.416476,
@@ -11637,7 +11670,6 @@
   "d1628a0d3dd5b01e": 1795185063.5654962,
   "d16b61b3f9dbe5dc": 1794911484.7749104,
   "d175dd3083d65f17": 1794708110.0775664,
-  "d1a89bee4c3dcfe9": 1794398697.6708577,
   "d1aa340a643527c9": 1794568367.1634204,
   "d1bb027416e83527": 1795527251.08639,
   "d1bd74de1aa61c8b": 1795147332.8076549,
@@ -11712,6 +11744,7 @@
   "d7dacc95c7acdd1b": 1794699168.1069038,
   "d8233734f8b0ac11": 1795345447.8056793,
   "d8360780c2f45960": 1794886275.4924657,
+  "d8458b0b9ca068e1": 1795609864.8297842,
   "d8475d1986c263c3": 1795226592.8382695,
   "d85ff52f939a4c86": 1794436312.336284,
   "d8b4a4e2c9e27de9": 1795379454.6028855,
@@ -11868,7 +11901,6 @@
   "e8724f9e4de1c5e9": 1794411073.816912,
   "e8a793d46f685bd8": 1795509354.2348194,
   "e8a83a65ab647dcd": 1795438887.3733988,
-  "e8c4ec13f33be9f6": 1794398688.2692947,
   "e8d12699751208ed": 1795595930.5961425,
   "e8df055e7ed4d81b": 1795440749.402015,
   "e8e69ff51a6eaaed": 1794695763.8535097,
@@ -11883,7 +11915,6 @@
   "ea020bd4c163cf88": 1795001473.0646799,
   "ea19693a12bb6c71": 1795486710.6602783,
   "ea2065f78b532f39": 1794900685.0720696,
-  "ea2fe1af12c11121": 1794400295.8181024,
   "ea5b95538217c860": 1794898968.6130197,
   "ea841668e11ee265": 1795086081.8542414,
   "ea8cd49f1f085136": 1794792685.403489,
@@ -13287,9 +13318,10 @@
    "Українська локалізація": 2
   },
   "filtered": {
-   "/Film": 10,
-   "Bloomberg": 19,
+   "/Film": 11,
+   "Bloomberg": 20,
    "Deadline": 8,
+   "Eurogamer": 1,
    "GameSpot": 4,
    "IGN": 6,
    "IndieWire": 2,
@@ -13298,7 +13330,7 @@
    "Metal Hammer (Louder)": 2,
    "PC Gamer": 9,
    "PlayUA": 1,
-   "Polygon": 21,
+   "Polygon": 22,
    "Rock Paper Shotgun": 2,
    "VGC": 23,
    "Variety": 8
@@ -13315,7 +13347,7 @@
    "Eurogamer": 5,
    "GamesIndustry.biz": 4,
    "Hugging Face": 3,
-   "ITC.ua": 18,
+   "ITC.ua": 19,
    "IndieWire": 5,
    "Insider Gaming": 6,
    "Kerrang!": 1,
@@ -13329,7 +13361,7 @@
    "PlayUA": 3,
    "Polygon": 11,
    "Product Hunt": 4,
-   "Rock Paper Shotgun": 6,
+   "Rock Paper Shotgun": 7,
    "SteamDB": 2,
    "Stereogum": 1,
    "The Decoder": 7,
@@ -13338,11 +13370,11 @@
    "Variety": 16
   },
   "translators": {
-   "DeepL": 17,
+   "DeepL": 18,
    "gemini-flash-latest": 7,
    "gemini-flash-lite-latest": 65,
    "gemma-4-26b-a4b-it": 55,
-   "gemma-4-31b-it": 76
+   "gemma-4-31b-it": 77
   },
   "week": "2026-W48"
  },
@@ -13741,11 +13773,6 @@
    0,
    "",
    1795530754.3559735
-  ],
-  "q:1win": [
-   0,
-   "",
-   1795435698.7130291
   ],
   "q:2 320": [
    0,
@@ -14552,11 +14579,6 @@
    "Dwarf Fortress",
    1794672074.7887242
   ],
-  "q:ecstatica": [
-   4834840,
-   "Ecstatica",
-   1793016165.2220197
-  ],
   "q:elfie": [
    2955180,
    "Elfie",
@@ -14716,26 +14738,6 @@
    1670460,
    "GameMaker",
    1793039505.1588671
-  ],
-  "q:gamerlegion": [
-   0,
-   "",
-   1795435700.8100476
-  ],
-  "q:gamerlegion parivision": [
-   0,
-   "",
-   1795435700.3048618
-  ],
-  "q:gamerlegion parivision progress": [
-   0,
-   "",
-   1795435699.7626507
-  ],
-  "q:gamerlegion parivision progress at blast": [
-   0,
-   "",
-   1795435699.2357538
   ],
   "q:gang of dragon": [
    4146000,
@@ -15527,31 +15529,6 @@
    "Overcome",
    1793327483.8994296
   ],
-  "q:parivision": [
-   0,
-   "",
-   1795435703.409762
-  ],
-  "q:parivision progress": [
-   0,
-   "",
-   1795435702.8962605
-  ],
-  "q:parivision progress at blast": [
-   0,
-   "",
-   1795435702.3834236
-  ],
-  "q:parivision progress at blast slam": [
-   0,
-   "",
-   1795435701.8585365
-  ],
-  "q:parivision progress at blast slam 9": [
-   0,
-   "",
-   1795435701.330226
-  ],
   "q:path of exile 2": [
    2694490,
    "Path of Exile 2",
@@ -15656,11 +15633,6 @@
    19980,
    "Prince of Persia®",
    1793451676.8490756
-  ],
-  "q:progress at blast slam 9": [
-   0,
-   "",
-   1795435703.9267156
   ],
   "q:project tatanka": [
    0,
@@ -16572,16 +16544,6 @@
    "Workers & Resources: Soviet Republic",
    1793716440.2198927
   ],
-  "q:world of warcraft": [
-   0,
-   "",
-   1795437079.583245
-  ],
-  "q:world of warcraft forever": [
-   0,
-   "",
-   1795437079.0833287
-  ],
   "q:wuthering waves": [
    3513350,
    "Wuthering Waves",
@@ -16612,11 +16574,6 @@
    "",
    1795519887.6791472
   ],
-  "q:yandex": [
-   0,
-   "",
-   1795435698.1757693
-  ],
   "q:zero parades": [
    2863680,
    "ZERO PARADES: Director's Cut",
@@ -16626,13 +16583,14 @@
  "tag_hints": {
   "Mezha": [
    "anthropic",
+   "avengers: doomsday",
    "claude",
    "firefox",
    "himera",
+   "marvel",
    "motorola",
    "motorola signature",
    "mozilla",
-   "nvidia",
    "uklon",
    "авіація",
    "браузери",
@@ -16644,8 +16602,10 @@
    "експорт зброї",
    "зв'язок",
    "криптовалюти",
+   "кіно",
    "літаки",
    "маркетплейс",
+   "месники: сходження доктора дума",
    "новини",
    "німеччина",
    "оборонка",
@@ -16667,26 +16627,6 @@
   1795586502.2341087
  ],
  "titles": [
-  [
-   1795435628.1939602,
-   "Tyson Fury Reveals Schizophrenia Diagnosis In Netflix Doc"
-  ],
-  [
-   1795435696.0050063,
-   "Controversial “Netflix Tax” Could Raise Extra $2.1B For BBC By 2032, Research Finds"
-  ],
-  [
-   1795435798.1631742,
-   "Yandex, 1win, GamerLegion & Parivision Progress at BLAST Slam IX"
-  ],
-  [
-   1795437081.8750393,
-   "Повернення до витоків. Знову. Огляд гри World of Warcraft Forever"
-  ],
-  [
-   1795437092.8483784,
-   "Concept Art From The Cancelled Halo Battle Royale Mode ‘Project Tatanka’ Surfaces Online"
-  ],
   [
    1795438887.3734007,
    "COMFY хоче доручити ШІ 80% створення коду, тестів і документації. Шукає керівника відділу"
@@ -17410,29 +17350,17 @@
   [
    1795608099.5116863,
    "PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values"
+  ],
+  [
+   1795609880.274302,
+   "ШІ розв'язав задачу, над якою люди билися 47 років — двічі різними моделями"
+  ],
+  [
+   1795610014.927897,
+   "Capcom dinosaur shooter Exoprimal's servers will go extinct next year, as shutdown meteor looms"
   ]
  ],
  "titles_uk": [
-  [
-   1795435628.193962,
-   "Тайсон Ф'юрі розповів про діагноз «шизофренія» у документальному фільмі Netflix"
-  ],
-  [
-   1795435696.0050073,
-   "«Податок на Netflix» може принести BBC до $2,1 млрд до 2032 року"
-  ],
-  [
-   1795435798.1631749,
-   "Yandex, 1win, GamerLegion та Parivision вийшли в плей-оф BLAST Slam IX"
-  ],
-  [
-   1795437081.8750403,
-   "Повернення до витоків. Знову. Огляд гри World of Warcraft Forever"
-  ],
-  [
-   1795437092.848379,
-   "Мережею поширили концептарти скасованого батл-роялю Project Tatanka за Halo"
-  ],
   [
    1795438887.3734016,
    "COMFY хоче доручити ШІ 80% створення коду, тестів і документації. Шукає керівника відділу"
@@ -18156,6 +18084,14 @@
   [
    1795608099.5116873,
    "Startup PrismML styskyvaye movnu model Qwen do 5,9 GB"
+  ],
+  [
+   1795609880.2743027,
+   "ШІ розв'язав задачу, над якою люди билися 47 років — двічі різними моделями"
+  ],
+  [
+   1795610014.927898,
+   "Сервери шутера про динозаврів Exoprimal від Capcom закриють наступного року"
   ]
  ],
  "ukrainian": {
@@ -20642,7 +20578,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795606503.573494,
+  "last_check": 1795610023.8669982,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
