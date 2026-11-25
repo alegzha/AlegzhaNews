@@ -1,11 +1,5 @@
 {
  "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1795629693.8049114
-  },
   "src:music|ThePRP|https://www.theprp.com/feed/": {
    "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
    "label": "Джерело «ThePRP» не працює",
@@ -44,12 +38,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-25 17:33 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "at": "2026-11-25 18:31 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
-   "gemma-4-26b-a4b-it": 1
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
@@ -8688,7 +8681,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Indonesia-France Film Lab оголосив шість проєктів для кінолабораторії</b>\n\nШість індонезійських проєктів від дебютантів та режисерів другого кінопоказу відібрали для участі в Indonesia-France Film Lab X MTN Lab. Метою ініціативи є розвиток історій для майбутнього створення спільних франко-індонезійських фільмів.\n\n🔗 <a href=\"https://variety.com/2026/film/markets-festivals/indonesia-france-film-lab-projects-paris-forum-1236957588/\">Variety</a> · #кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/film/markets-festivals/indonesia-france-film-lab-projects-paris-forum-1236957588/",
     "orig": "Indonesia-France Film Lab Unveils Six Projects as Paris Readies First Southeast Asia Co-Production Forum (EXCLUSIVE)"
@@ -8702,7 +8694,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Рей Амі з KPop Demon Hunters вестиме шоу Who’s In The Band? на ABC</b>\n\nЕКСКЛЮЗИВ: ABC офіційно запросила Рей Амі стати ведучою свого нового музичного шоу. Співачка була співаючим голосом Zoey у хітовому анімаційному фільмі Netflix, зокрема виконала популярний сингл Golden\n\n🔗 <a href=\"https://deadline.com/2026/11/kpop-demon-hunters-rei-ami-host-abc-whos-in-the-band-1237232706/\">Deadline</a> · #кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/kpop-demon-hunters-rei-ami-host-abc-whos-in-the-band-1237232706/",
     "orig": "‘KPop Demon Hunters’ Rei Ami To Host ABC’s ‘Who’s In The Band?’"
@@ -8716,7 +8707,6 @@
    "Decibel",
    {
     "also": [],
-    "caption": "🤘 <b>Альбом Clearing the Path to Ascend гурту YOB став віхою у їхній творчості</b>\n\nВипущений у 2014 році альбом гурту YOB став кульмінацією їхньої творчості завдяки музичній глибині, оновленому вокалу Майка Шейдта та духовній тематиці. Птівірка треків поєднує важкі рифи зі світлими мотифами, пропонуючи слухачам унікальний духовний досвід.\n\n🔗 <a href=\"https://www.decibelmagazine.com/2026/11/24/yob-clearing-the-path-to-ascend/\">Decibel</a> · #музика #YOB",
     "kind": "photo",
     "link": "https://www.decibelmagazine.com/2026/11/24/yob-clearing-the-path-to-ascend/",
     "orig": "YOB – Clearing the Path to Ascend"
@@ -9543,11 +9533,54 @@
     "link": "https://itc.ua/ua/novini/metrolist-alternatyva-youtube-music-premium-windows-macos-linux-ios/",
     "orig": "Безплатна альтернатива YouTube Music Premium працює на Windows, macOS, Linux та iOS"
    }
+  ],
+  [
+   1795631496.7816541,
+   6961,
+   "💾",
+   "OpenEight",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>OpenEight</b>\n\nДетермінований шар керування для ШІ-агентів. Обговорення й посилання\n\n🔗 <a href=\"https://www.producthunt.com/products/openeight\">Product Hunt</a> · #софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/openeight",
+    "orig": "OpenEight"
+   }
+  ],
+  [
+   1795631499.0308378,
+   6962,
+   "🤖",
+   "DOD Solution інтегрує свою систему автономності AURA AI в канадський дрон Draganfly Flex FPV",
+   "AIN.ua",
+   {
+    "also": [],
+    "caption": "🤖 <b>DOD Solution інтегрує свою систему автономності AURA AI в канадський дрон Draganfly Flex FPV</b>\n\nНадалі AURA AI також встановлюватимуть на безпілотники, які вироблятимуть у межах співпраці TAF Industries і Draganfly.\n\n🔗 <a href=\"https://ain.ua/2026/11/24/dod-solution-integruje-svoiu-sistemu-avtonomnosti-aura-ai-v-kanadskii-dron-draganfly-flex-fpv/\">AIN.ua</a> · #ШІ",
+    "kind": "photo",
+    "link": "https://ain.ua/2026/11/24/dod-solution-integruje-svoiu-sistemu-avtonomnosti-aura-ai-v-kanadskii-dron-draganfly-flex-fpv/",
+    "orig": "DOD Solution інтегрує свою систему автономності AURA AI в канадський дрон Draganfly Flex FPV"
+   }
+  ],
+  [
+   1795631500.8889682,
+   6963,
+   "🤖",
+   "OpenAI запатентувала навушники, які розпізнають беззвучне мовлення",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🤖 <b>OpenAI запатентувала навушники, які розпізнають беззвучне мовлення</b>\n\nOpenAI подала патентну заявку на навушники, здатні розпізнавати слова, які людина формує губами, але не вимовляє вголос. Для цього пристрій відстежуватиме мікрорухи всередині слухового проходу, спричинені рухом щелепи та м’язів обличчя. Отримані сигнали система перетворюватиме на слова, текст або команди для ШІ-асистента.\n\n🔗 <a href=\"https://itc.ua/ua/novini/openai-zapatentuvala-navushnyky-yaki-rozpiznayut-bezzvuchne-movlennya/\">ITC.ua</a> · #ШІ",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/openai-zapatentuvala-navushnyky-yaki-rozpiznayut-bezzvuchne-movlennya/",
+    "orig": "OpenAI запатентувала навушники, які розпізнають беззвучне мовлення"
+   }
   ]
  ],
  "posted_by_source": {
   "ai|AIN.ua|https://ain.ua/feed/": [
-   1795604481.7184234
+   1795604481.7184234,
+   1795631499.031146
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
    1795579313.5808232,
@@ -9566,10 +9599,10 @@
    1795602779.6825244
   ],
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
-   1795541488.7726796,
    1795590097.5369325,
    1795604478.33663,
-   1795609880.2743478
+   1795609880.2743478,
+   1795631500.8892827
   ],
   "ai|Mezha|https://mezha.ua/feed/": [
    1795528523.4597511,
@@ -9800,9 +9833,8 @@
    1795595476.376265
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
-   1795512915.3472068,
-   1795516340.393915,
-   1795596448.408637
+   1795596448.408637,
+   1795631496.7819893
   ]
  },
  "seen": {
@@ -10081,7 +10113,6 @@
   "1efd62da292e708f": 1795347075.3534288,
   "1f13333715503e57": 1795105887.5865674,
   "1f465208c608aa7c": 1794717086.8106782,
-  "1f4eec63d5d1cd89": 1794421855.4705105,
   "1f971f2df2d21f56": 1794607254.7994547,
   "1fb256ce62b78d40": 1794994393.6393545,
   "1fb920e2264c6a5c": 1794974479.7680006,
@@ -10458,6 +10489,7 @@
   "4a0f36bcf84eee22": 1795348853.7357323,
   "4a13b9d757056338": 1795357857.9427907,
   "4a2208970147c5e0": 1795026653.649315,
+  "4a2e5acb7afe9b74": 1795631499.0310946,
   "4a31f61b02fc4280": 1794643258.248781,
   "4a3ad21c5d3efe23": 1794574877.1639743,
   "4a3e56c9c07ea590": 1795555359.8922977,
@@ -10519,6 +10551,7 @@
   "4fcc147fbb707c97": 1795215669.3813393,
   "4fcda807ed94c5b1": 1795609864.8297842,
   "4ff2500ae4ccf3a4": 1794423681.5965264,
+  "5016cd22062fa6b2": 1795631496.7819285,
   "5051def9dde83975": 1795536109.8182173,
   "50553c7ed298b632": 1794834056.1069303,
   "507f124765a8661b": 1794771054.9261434,
@@ -10812,6 +10845,7 @@
   "6dde94dbf72a0b2f": 1795532495.6789804,
   "6df1c951d5f0d9f4": 1794898974.3085027,
   "6e025d9a245c9733": 1795597552.0708802,
+  "6e2a0636509d9cc4": 1795631454.4234602,
   "6e2efce20f5c97f7": 1795114863.5731728,
   "6e4b99af19da77ca": 1794605453.407515,
   "6e593adc4da4e4f4": 1795582912.6816628,
@@ -11252,7 +11286,6 @@
   "9ddca75584c9d30b": 1795248084.6343286,
   "9de5fd64600dd768": 1795145477.112178,
   "9dec76a1fcfa99e6": 1795428211.79325,
-  "9e1a7d7c3e61dc71": 1794421855.4705105,
   "9e59a41981e0e8f1": 1795527243.1793513,
   "9e5fb1e477b95fb9": 1794920486.4120889,
   "9e7eacdbf71214d0": 1794427255.008425,
@@ -11399,6 +11432,7 @@
   "ac7c280cb8b6019f": 1795069877.7112758,
   "ad528fda3d4a813b": 1794830453.3805504,
   "ad5b0d6b684f397b": 1795359662.99869,
+  "ad86b40e86740426": 1795631500.8892293,
   "adaa3b59b7ba0601": 1794807087.558263,
   "adad4ea4f55d3dee": 1795014053.3303049,
   "ade05c41d1e8af3a": 1795332802.8840997,
@@ -11859,6 +11893,7 @@
   "dfa8b4ae3c654893": 1795105867.4596348,
   "dfedfa4966b60219": 1794819950.4708943,
   "dff5868d772e2c33": 1794659479.793679,
+  "e00b1e17ba5632cb": 1795631454.4234602,
   "e012fe2effbf0ad6": 1795046491.8422067,
   "e02468f18c872112": 1795222970.5537045,
   "e07123461fe01938": 1794736889.2868085,
@@ -13358,7 +13393,7 @@
  },
  "stats": {
   "extra": {
-   "Вішліст Steam": 2,
+   "Вішліст Steam": 3,
    "Українська локалізація": 2
   },
   "filtered": {
@@ -13367,7 +13402,8 @@
    "Deadline": 8,
    "Eurogamer": 1,
    "GameSpot": 5,
-   "IGN": 9,
+   "GamesIndustry.biz": 1,
+   "IGN": 10,
    "IndieWire": 2,
    "Insider Gaming": 54,
    "Loudwire": 1,
@@ -13381,7 +13417,7 @@
   },
   "sources": {
    "/Film": 12,
-   "AIN.ua": 1,
+   "AIN.ua": 2,
    "Blabbermouth": 3,
    "Bloomberg": 24,
    "DOU": 2,
@@ -13391,7 +13427,7 @@
    "Eurogamer": 6,
    "GamesIndustry.biz": 7,
    "Hugging Face": 3,
-   "ITC.ua": 22,
+   "ITC.ua": 23,
    "IndieWire": 5,
    "Insider Gaming": 8,
    "Kerrang!": 1,
@@ -13404,7 +13440,7 @@
    "Pitchfork": 2,
    "PlayUA": 4,
    "Polygon": 12,
-   "Product Hunt": 4,
+   "Product Hunt": 5,
    "Rock Paper Shotgun": 8,
    "SteamDB": 2,
    "Stereogum": 1,
@@ -13416,7 +13452,7 @@
   "translators": {
    "DeepL": 22,
    "gemini-flash-latest": 7,
-   "gemini-flash-lite-latest": 71,
+   "gemini-flash-lite-latest": 72,
    "gemma-4-26b-a4b-it": 58,
    "gemma-4-31b-it": 84
   },
@@ -16587,7 +16623,6 @@
  "tag_hints": {
   "Mezha": [
    "asus zenwifi bn12",
-   "call of duty",
    "cd projekt red",
    "cyberpunk 2",
    "cyberpunk 2077",
@@ -16598,15 +16633,17 @@
    "lenovo",
    "mavic",
    "mesh-системи",
-   "playstation",
+   "nvidia",
    "rockstar",
    "take-two",
-   "the witcher 4",
    "wi-fi",
+   "безпілотники",
    "бпла",
+   "відеокарти",
    "військова техніка",
    "дрони",
    "дім",
+   "залізо",
    "китай",
    "консолі",
    "лазерна зброя",
@@ -16630,14 +16667,6 @@
   1795586502.2341087
  ],
  "titles": [
-  [
-   1795456972.34329,
-   "Chinese military fears AI could let the US find and destroy its nuclear missiles"
-  ],
-  [
-   1795458678.3686416,
-   "Головний науковець OpenAI запропонував обмежувати розвиток ШІ за допомогою метрики perplexity"
-  ],
   [
    1795462323.2517333,
    "Microsoft, NSA y aerolíneas: qué causó las fallas tecnológicas en EE.UU."
@@ -17353,17 +17382,21 @@
   [
    1795629698.8524039,
    "Безплатна альтернатива YouTube Music Premium працює на Windows, macOS, Linux та iOS"
+  ],
+  [
+   1795631496.7819307,
+   "OpenEight"
+  ],
+  [
+   1795631499.0310972,
+   "DOD Solution інтегрує свою систему автономності AURA AI в канадський дрон Draganfly Flex FPV"
+  ],
+  [
+   1795631500.8892317,
+   "OpenAI запатентувала навушники, які розпізнають беззвучне мовлення"
   ]
  ],
  "titles_uk": [
-  [
-   1795456972.3432906,
-   "Китай побоюється, що ШІ допоможе США виявити та знищити його ядерні ракети"
-  ],
-  [
-   1795458678.3686423,
-   "Головний науковець OpenAI запропонував обмежувати розвиток ШІ за допомогою метрики perplexity"
-  ],
   [
    1795462323.2517345,
    "Збої в роботі Microsoft, NSA та авіаліній спричинили паніку в США"
@@ -18079,6 +18112,18 @@
   [
    1795629698.8524048,
    "Безплатна альтернатива YouTube Music Premium працює на Windows, macOS, Linux та iOS"
+  ],
+  [
+   1795631496.7819319,
+   "OpenEight"
+  ],
+  [
+   1795631499.0310984,
+   "DOD Solution інтегрує свою систему автономності AURA AI в канадський дрон Draganfly Flex FPV"
+  ],
+  [
+   1795631500.8892326,
+   "OpenAI запатентувала навушники, які розпізнають беззвучне мовлення"
   ]
  ],
  "ukrainian": {
@@ -18768,9 +18813,9 @@
    },
    "1018020": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 60,
     "name": "Contra Anniversary Collection",
-    "price": "279,00₴",
+    "price": "111,00₴",
     "release": 1560272460
    },
    "1030300": {
@@ -19020,9 +19065,9 @@
    },
    "1429850": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 45,
     "name": "Sumerian Six",
-    "price": "600,00₴",
+    "price": "593,00₴",
     "release": 1725292237
    },
    "1431300": {
@@ -19090,9 +19135,9 @@
    },
    "1556200": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 50,
     "name": "Predator: Hunting Grounds",
-    "price": "415,00₴",
+    "price": "207,00₴",
     "release": 1619704518
    },
    "1577250": {
@@ -19181,9 +19226,9 @@
    },
    "1659600": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 60,
     "name": "Teenage Mutant Ninja Turtles: The Cowabunga Collection",
-    "price": "479,00₴",
+    "price": "191,00₴",
     "release": 1661879160
    },
    "1672810": {
@@ -19328,9 +19373,9 @@
    },
    "1946700": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 29,
     "name": "Layers of Fear",
-    "price": "600,00₴",
+    "price": "439,00₴",
     "release": 1686846522
    },
    "1951230": {
@@ -19468,9 +19513,9 @@
    },
    "2235020": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 50,
     "name": "Contra: Operation Galuga",
-    "price": "740,00₴",
+    "price": "370,00₴",
     "release": 1710226860
    },
    "2269950": {
@@ -19531,9 +19576,9 @@
    },
    "2417610": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 40,
     "name": "METAL GEAR SOLID Δ: SNAKE EATER",
-    "price": "1 475,00₴",
+    "price": "885,00₴",
     "release": 1756386023
    },
    "2420110": {
@@ -19839,9 +19884,9 @@
    },
    "2947440": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 72,
     "name": "SILENT HILL f",
-    "price": "1 475,00₴",
+    "price": "413,00₴",
     "release": 1758772832
    },
    "295790": {
@@ -19930,9 +19975,9 @@
    },
    "3228590": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 50,
     "name": "Deadzone: Rogue",
-    "price": "449,00₴",
+    "price": "224,00₴",
     "release": 1754931634
    },
    "3241660": {
@@ -20532,9 +20577,9 @@
    },
    "964800": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 30,
     "name": "Prodeus",
-    "price": "459,00₴",
+    "price": "321,00₴",
     "release": 1663948691
    },
    "973760": {
@@ -20566,7 +20611,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795626253.545888,
+  "last_check": 1795631512.2408085,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
