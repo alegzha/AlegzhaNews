@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1795582881.4605644
+  }
+ },
  "daily_digest_date": "2026-11-24",
  "freebies": {
   "last_check": 1795577611.4630084,
@@ -31,9 +38,9 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-25 04:37 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-25 05:03 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 1,
    "gemma-4-31b-it": 1
@@ -43,32 +50,6 @@
   ]
  },
  "post_log": [
-  [
-   1794891685.4780333,
-   6176,
-   "🎮",
-   "NHS закликає геймерів берегти руки перед релізом GTA 6",
-   "IGN",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.ign.com/articles/uks-national-health-service-is-urging-gamers-to-protect-their-hands-ahead-of-gta-6-launch",
-    "orig": "UK’s National Health Service Is Urging Gamers to Protect Their Hands Ahead of GTA 6 Launch"
-   }
-  ],
-  [
-   1794891689.1513107,
-   6177,
-   "🤘",
-   "Dolly Parton: Her Life In 10 Songs",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/bands-artists/dolly-parton-her-life-in-10-songs",
-    "orig": "Dolly Parton: Her Life In 10 Songs"
-   }
-  ],
   [
    1794893609.9538312,
    6178,
@@ -8612,7 +8593,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Anthropic представила Claude Ship для автоматизації pull request</b>\n\nAnthropic запустила в беті Claude Ship — інструмент для автоматичного перегляду, виправлення та затвердження pull request. За допомогою агентів PR Steward та Claude Approvals система може самостійно вносити правки та об&#x27;єднувати код через GitHub. Функція доступна для тарифів Team та Enterprise.\n\n🔗 <a href=\"https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/\">The Decoder</a> · #ШІ #Anthropic",
     "kind": "photo",
     "link": "https://the-decoder.com/anthropics-claude-ship-lets-ai-agents-review-fix-and-approve-pull-requests-on-their-own/",
     "orig": "Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own"
@@ -8626,7 +8606,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Steam оновив торговий майданчик: персоналізація та спрощення продажу</b>\n\nValve оновила головну сторінку Steam Community Market, зробивши її швидшою та персоналізованою під ігри користувача. Тепер з&#x27;явився список трендових товарів, функція спостереження за предметами та можливість змінювати ціну на виставлені лоти без їх перевиставлення. Також спростили процес продажу через мобільний додаток.\n\n🔗 <a href=\"https://www.pcgamer.com/software/platforms/steam-revamps-its-marketplace-for-the-2nd-time-this-year/\">PC Gamer</a> · #ігри #Steam #Valve",
     "kind": "photo",
     "link": "https://www.pcgamer.com/software/platforms/steam-revamps-its-marketplace-for-the-2nd-time-this-year/",
     "orig": "Steam revamps its marketplace for the 2nd time this year"
@@ -9471,6 +9450,34 @@
     "link": "https://deadline.com/2026/11/the-remarried-empress-shin-mina-ju-jihoon-disney-hulu-1237232430/",
     "orig": "‘The Remarried Empress’ Star Shin Mina On Playing Royalty, Shooting In Europe & Why The Show Is Such A Huge Hit"
    }
+  ],
+  [
+   1795582912.6814709,
+   6907,
+   "🎬",
+   "Дженна Ашковіц назвала помилкою епізод-триб'ют Корі Монтейту в Glee",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Дженна Ашковіц назвала помилкою епізод-триб&#x27;ют Корі Монтейту в Glee</b>\n\nДжєнна Ашковіц заявила в подкасті We Need to Talk, що епізод серіалу Glee, присвячений пам&#x27;яті покійного Корі Монтейта, зняли занадто рано. За її словами, акторам було надзвичайно важко сумувати за другом і водночас грати цей біль на екрані.\n\n🔗 <a href=\"https://deadline.com/2026/11/jenna-ushkowitz-glee-cory-monteith-tribute-1237233122/\">Deadline</a> · #кіно_і_серіали #Glee",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/jenna-ushkowitz-glee-cory-monteith-tribute-1237233122/",
+    "orig": "Jenna Ushkowitz Says ‘Glee’s Cory Monteith Tribute “Wasn’t The Right Thing”: “It Was Too Soon For That”"
+   }
+  ],
+  [
+   1795582984.5276582,
+   6908,
+   "🤘",
+   "Браян Адамс випускає різдвяний альбом Great Big Holiday Jam (2026)",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Браян Адамс випускає різдвяний альбом Great Big Holiday Jam (2026)</b>\n\nБраян Адамс разом із канадськими музикантами, зокрема Sarah McLachlan та Blue Rodeo, випускає альбом Great Big Holiday Jam (2026). Першим синглом став кавер на пісню Slade Merry Xmas Everybody. Реліз відбудеться 7 грудня на стрімінгових сервісах одночасно з прем&#x27;єрою фільму про запис платівки на каналі CityTV.\n\n🔗 <a href=\"https://www.loudersound.com/music/albums/bryan-adams-launches-all-star-christmas-album-slade-merry-xmas-everybody\">Metal Hammer (Louder)</a> · #музика #BryanAdams",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/music/albums/bryan-adams-launches-all-star-christmas-album-slade-merry-xmas-everybody",
+    "orig": "Bryan Adams launches all-star Christmas album with cover of Slade's Merry Xmas Everybody"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9614,7 +9621,8 @@
    1795572233.211023,
    1795575880.6097753,
    1795577609.868691,
-   1795581428.712163
+   1795581428.712163,
+   1795582912.6817577
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795422683.5492282
@@ -9668,9 +9676,8 @@
    1795478516.0810792
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
-   1795478667.6758776,
-   1795492885.2580018,
-   1795561376.7247577
+   1795561376.7247577,
+   1795582984.5279279
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1795244826.8845444
@@ -9939,6 +9946,7 @@
   "16d36ea702da7e73": 1795521719.2124152,
   "1721d2c71b62b075": 1794479576.6015415,
   "173509c6b3324842": 1794490477.181179,
+  "175253d965719215": 1795582858.5659506,
   "1767875ea38120a7": 1795145931.5669088,
   "1784d759dd3f4ae5": 1794412878.7306378,
   "17a7d8ef1dd786ba": 1795338066.3740447,
@@ -10522,7 +10530,6 @@
   "5ad23f0e2e10f315": 1794562760.8284698,
   "5ad82123ba82344c": 1795105867.4596348,
   "5af096e49a694176": 1794855717.7101283,
-  "5b1e520a5dac7f11": 1794373316.0348516,
   "5b34940197a448d6": 1795010462.958915,
   "5b41d6aa843de6b5": 1795224729.2704449,
   "5b7aca1ec0d0b687": 1794432658.9342859,
@@ -10723,6 +10730,7 @@
   "6df1c951d5f0d9f4": 1794898974.3085027,
   "6e2efce20f5c97f7": 1795114863.5731728,
   "6e4b99af19da77ca": 1794605453.407515,
+  "6e593adc4da4e4f4": 1795582912.6816628,
   "6e8802f2a11e9527": 1795014098.1785989,
   "6e998c7ac3649e67": 1795453258.7776709,
   "6ea89312432564a4": 1794641656.7550395,
@@ -10967,6 +10975,7 @@
   "881debcf1a1d3952": 1794634255.263127,
   "884b01750c3f263b": 1794832381.563612,
   "885dfa36220b1c5d": 1794663052.3051553,
+  "887c6c6a85b653f6": 1795582858.5659506,
   "887f85b1a5ee8bf1": 1794519083.197897,
   "88d4fc07dd6e1af7": 1794461486.165351,
   "88d99d90ea2a2668": 1795019565.0479972,
@@ -11164,6 +11173,7 @@
   "9e7eacdbf71214d0": 1794427255.008425,
   "9e8afc5b12fe9b3b": 1795275080.273022,
   "9eb1f90b527a2351": 1795385098.7136455,
+  "9ed0e11ca3c2479d": 1795582984.527879,
   "9f3531ca32f906ef": 1794486802.0942328,
   "9f4debb14940fc3e": 1794457893.282934,
   "9f53b38428119f41": 1795393941.9547427,
@@ -11342,7 +11352,6 @@
   "b1adf23db471e238": 1795005105.6995087,
   "b1e110be8a2b54e8": 1795087856.688431,
   "b2183a948b0068a2": 1794708113.8907459,
-  "b22522d14a17f95f": 1794373334.770345,
   "b24d247460104a0c": 1794868447.5765305,
   "b2781f35e5635fe0": 1794695766.841244,
   "b2978e8d01be305d": 1795537910.488209,
@@ -11655,7 +11664,6 @@
   "d57491b05c6fbe3b": 1794634296.9440062,
   "d5a243f0ceab02c5": 1794382279.7024496,
   "d5c1fe12af72c606": 1795350656.068994,
-  "d5c35cc6974f5a60": 1794373255.2240887,
   "d5d3bdcb322fcc1c": 1795321991.1757953,
   "d5dd04c76a688ff3": 1795500082.9155853,
   "d5e0b1582d85851f": 1795300294.9117281,
@@ -12503,7 +12511,7 @@
   ],
   "artists_checked": 1795572245.7376583,
   "blocked_until": 1795570469.6561708,
-  "cursor": 28,
+  "cursor": 38,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13260,7 +13268,7 @@
   "filtered": {
    "/Film": 10,
    "Bloomberg": 17,
-   "Deadline": 7,
+   "Deadline": 8,
    "GameSpot": 4,
    "IGN": 6,
    "IndieWire": 2,
@@ -13269,7 +13277,7 @@
    "Metal Hammer (Louder)": 2,
    "PC Gamer": 9,
    "PlayUA": 1,
-   "Polygon": 18,
+   "Polygon": 19,
    "Rock Paper Shotgun": 2,
    "VGC": 20,
    "Variety": 8
@@ -13280,7 +13288,7 @@
    "Bloomberg": 17,
    "DOU": 2,
    "DOU Gamedev": 2,
-   "Deadline": 35,
+   "Deadline": 36,
    "Decibel": 1,
    "Eurogamer": 4,
    "GamesIndustry.biz": 4,
@@ -13290,7 +13298,7 @@
    "Insider Gaming": 6,
    "Lambgoat": 11,
    "Loudwire": 1,
-   "Metal Hammer (Louder)": 8,
+   "Metal Hammer (Louder)": 9,
    "Mezha": 21,
    "Neformat": 11,
    "PC Gamer": 6,
@@ -13309,9 +13317,9 @@
   "translators": {
    "DeepL": 15,
    "gemini-flash-latest": 7,
-   "gemini-flash-lite-latest": 58,
+   "gemini-flash-lite-latest": 59,
    "gemma-4-26b-a4b-it": 51,
-   "gemma-4-31b-it": 62
+   "gemma-4-31b-it": 63
   },
   "week": "2026-W48"
  },
@@ -15391,16 +15399,6 @@
    "OFF",
    1793142162.0413911
   ],
-  "q:officially returns": [
-   0,
-   "",
-   1795408283.426546
-  ],
-  "q:officially returns in 2027": [
-   0,
-   "",
-   1795408282.9132977
-  ],
   "q:one day": [
    4478540,
    "One Day",
@@ -15460,11 +15458,6 @@
    1020090,
    "Overcome",
    1793327483.8994296
-  ],
-  "q:painted symphony'": [
-   0,
-   "",
-   1795408280.212065
   ],
   "q:parivision": [
    0,
@@ -15690,11 +15683,6 @@
    3764200,
    "Resident Evil Requiem",
    1794614668.9253628
-  ],
-  "q:returns in 2027": [
-   0,
-   "",
-   1795408283.9152305
   ],
   "q:revealing mission levels starting area": [
    0,
@@ -16086,26 +16074,6 @@
    "",
    1795530681.1826866
   ],
-  "q:symphony'": [
-   0,
-   "",
-   1795408282.3073175
-  ],
-  "q:symphony' officially": [
-   0,
-   "",
-   1795408281.7982023
-  ],
-  "q:symphony' officially returns": [
-   0,
-   "",
-   1795408281.25378
-  ],
-  "q:symphony' officially returns in 2027": [
-   0,
-   "",
-   1795408280.7698064
-  ],
   "q:tanuki pon's summer": [
    3218570,
    "TANUKI: Pon's Summer",
@@ -16478,14 +16446,6 @@
  },
  "telegraph": [],
  "titles": [
-  [
-   1795410102.1827054,
-   "Classic Rock Tracks Of The Week: November 23, 2027"
-  ],
-  [
-   1795410147.0820153,
-   "Crystal Lake announce February 2027 Japanese shows"
-  ],
   [
    1795412136.6387308,
    "Nirosta Steel Shares Alternate Versions of My Skyscraper Tracks"
@@ -17201,17 +17161,17 @@
   [
    1795581428.712122,
    "‘The Remarried Empress’ Star Shin Mina On Playing Royalty, Shooting In Europe & Why The Show Is Such A Huge Hit"
+  ],
+  [
+   1795582912.681665,
+   "Jenna Ushkowitz Says ‘Glee’s Cory Monteith Tribute “Wasn’t The Right Thing”: “It Was Too Soon For That”"
+  ],
+  [
+   1795582984.527881,
+   "Bryan Adams launches all-star Christmas album with cover of Slade's Merry Xmas Everybody"
   ]
  ],
  "titles_uk": [
-  [
-   1795410102.1827066,
-   "Classic Rock назвав найкращі рок-треки тижня"
-  ],
-  [
-   1795410147.0820162,
-   "Crystal Lake анонсували концерти в Японії на лютий 2027 року"
-  ],
   [
    1795412136.6387317,
    "Nirosta Steel представили альтернативні версії треків My Skyscraper"
@@ -17927,6 +17887,14 @@
   [
    1795581428.712123,
    "Зірка The Remarried Empress Шін Міна — про роль імператриці та зйомки в Європі"
+  ],
+  [
+   1795582912.681666,
+   "Дженна Ашковіц назвала помилкою епізод-триб'ют Корі Монтейту в Glee"
+  ],
+  [
+   1795582984.5278816,
+   "Браян Адамс випускає різдвяний альбом Great Big Holiday Jam (2026)"
   ]
  ],
  "ukrainian": {
@@ -20412,7 +20380,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795579384.3154447,
+  "last_check": 1795582993.231967,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
