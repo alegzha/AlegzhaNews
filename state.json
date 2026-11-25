@@ -1,15 +1,8 @@
 {
- "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1795582881.4605644
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-24",
  "freebies": {
-  "last_check": 1795577611.4630084,
+  "last_check": 1795584819.1564963,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -38,31 +31,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-25 05:03 UTC",
+  "at": "2026-11-25 05:33 UTC",
   "gemini_error": "",
-  "gemini_model": "gemma-4-31b-it",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
-   "gemma-4-31b-it": 1
+   "gemma-4-26b-a4b-it": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794893609.9538312,
-   6178,
-   "🎮",
-   "Точний час виходу GTA 6 у вашому часовому поясі",
-   "Polygon",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.polygon.com/gta-6-grand-theft-auto-release-time-pdt-edt/",
-    "orig": "GTA 6 release time in your time zone"
-   }
-  ],
   [
    1794893617.8881855,
    6179,
@@ -8624,7 +8603,6 @@
       "https://www.videogameschronicle.com/news/rockstar-is-reportedly-interested-in-a-red-dead-redemption-film-or-tv-show/"
      ]
     ],
-    "caption": "🎮 <b>Rockstar активно пропонує права на екранізацію Red Dead Redemption, але не Grand Theft Auto</b>\n\nСхоже, компанія Rockstar Games зацікавлена в розширенні франшизи «Red Dead Redemption» за межі відеоігор, після того як Голлівуд роками намагався налагодити з нею співпрацю. Згідно з новою публікацією, компанія шукає партнера, який придбає права на екранізацію її серії вестернів з відкритим світом у кіно та на телебаченні.\n\n🔗 <a href=\"https://www.eurogamer.net/red-dead-redemption-movie-tv-rights-100-million-usd-no-gta\">Eurogamer</a> · #ігри",
     "kind": "photo",
     "link": "https://www.eurogamer.net/red-dead-redemption-movie-tv-rights-100-million-usd-no-gta",
     "orig": "Rockstar is actively shopping Read Dead Redemption movie and TV rights around, just don't expect the same for Grand Theft Auto"
@@ -8638,7 +8616,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>У World of Warcraft виявили експлойти з лутом та баг механіки <a href=\"https://store.steampowered.com/app/4702440/\">Sunder</a> Armor</b>\n🕹 <a href=\"https://store.steampowered.com/app/4702440/\">Sunder</a> — ще не вийшла\n\nBlizzard виправляє експлойти з маніпуляцією вмістом lockbox та швидким заробітком золота в Uldaman. Найбільшою проблемою став баг механіки Sunder Armor, через який ефект майже не знижує броню ворогів. Тестування показало, що він спрацьовує лише на 5% від заявленого.\n\n🔗 <a href=\"https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forevers-been-chasing-bugs-and-gold-exploits-over-the-weekend-and-now-it-turns-out-sunder-armor-might-just-not-be-working/\">PC Gamer</a> · #ігри #WorldOfWarcraft #Blizzard",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/world-of-warcraft/world-of-warcraft-forevers-been-chasing-bugs-and-gold-exploits-over-the-weekend-and-now-it-turns-out-sunder-armor-might-just-not-be-working/",
     "orig": "World of Warcraft: Forever's been chasing bugs and gold exploits over the weekend—and now it turns out Sunder Armor might just not be working"
@@ -9458,7 +9435,12 @@
    "Дженна Ашковіц назвала помилкою епізод-триб'ют Корі Монтейту в Glee",
    "Deadline",
    {
-    "also": [],
+    "also": [
+     [
+      "Variety",
+      "https://variety.com/2026/tv/news/glee-jenna-ushkowitz-cory-monteith-tribute-1236957675/"
+     ]
+    ],
     "caption": "🎬 <b>Дженна Ашковіц назвала помилкою епізод-триб&#x27;ют Корі Монтейту в Glee</b>\n\nДжєнна Ашковіц заявила в подкасті We Need to Talk, що епізод серіалу Glee, присвячений пам&#x27;яті покійного Корі Монтейта, зняли занадто рано. За її словами, акторам було надзвичайно важко сумувати за другом і водночас грати цей біль на екрані.\n\n🔗 <a href=\"https://deadline.com/2026/11/jenna-ushkowitz-glee-cory-monteith-tribute-1237233122/\">Deadline</a> · #кіно_і_серіали #Glee",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/jenna-ushkowitz-glee-cory-monteith-tribute-1237233122/",
@@ -9478,6 +9460,34 @@
     "link": "https://www.loudersound.com/music/albums/bryan-adams-launches-all-star-christmas-album-slade-merry-xmas-everybody",
     "orig": "Bryan Adams launches all-star Christmas album with cover of Slade's Merry Xmas Everybody"
    }
+  ],
+  [
+   1795584735.282365,
+   6909,
+   "🤖",
+   "Акції ШІ-компаній падають через переорієнтацію ринків",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Акції ШІ-компаній падають через переорієнтацію ринків</b>\n\nАкції компаній, пов&#x27;язаних із ШІ, демонструють зниження. Це стається через переорієнтацію ринків, коли інвестори виводять капітал із технологічного сектору.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-24/the-close-11-24-2026-video\">Bloomberg</a> · #ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-24/the-close-11-24-2026-video",
+    "orig": "AI Stocks Retreat as Markets Rotate Beyond Tech"
+   }
+  ],
+  [
+   1795584817.2836835,
+   6910,
+   "🤘",
+   "Річард Томпсон розповів про вплив The Who на Fairport Convention та дефіцит інструментів",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Річард Томпсон розповів про вплив The Who на Fairport Convention та дефіцит інструментів</b>\n\nРічард Томпсон пояснив, як The Who вплинули на Fairport Convention як у творчому, так і в технічному плані. Через звичку Піта Таунсенда ламати гітари в музичних магазинах Лондона виникав дефіцит запчастин, тому роудів різних гуртів доводилося ділити деталі між собою.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/richard-thompson-fairport-convenion-the-who\">Metal Hammer (Louder)</a> · #музика #FairportConvention #TheWho",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/richard-thompson-fairport-convenion-the-who",
+    "orig": "How Fairport Convention’s folk rock was influenced by The Who: “They were smashing instruments. The shops were running out”"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9486,11 +9496,11 @@
    1795341795.5158873
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1795494773.6995766,
    1795498474.4579458,
    1795536164.6999838,
    1795537907.647602,
-   1795579313.5808232
+   1795579313.5808232,
+   1795584735.282641
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1795438887.3734498,
@@ -9677,7 +9687,8 @@
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1795561376.7247577,
-   1795582984.5279279
+   1795582984.5279279,
+   1795584817.283926
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1795244826.8845444
@@ -9926,6 +9937,7 @@
   "14f321c495182c59": 1795167364.5536597,
   "152daa25e42033b6": 1795041101.017265,
   "1555ed6bcb1233ac": 1794999745.7375064,
+  "156122e505faa292": 1795584817.2838833,
   "156a05f5148430a3": 1795190539.4530833,
   "15949ec6496d1bb4": 1795109457.1504688,
   "15aa8dd812510738": 1795163481.3206105,
@@ -10240,7 +10252,6 @@
   "37704206e3110eeb": 1795116654.1601062,
   "377a2cbff027c518": 1795354267.0035863,
   "3781448153b0315f": 1794823495.8280075,
-  "3794e02805893732": 1794375094.2627156,
   "37a8709304e91818": 1795001460.8855703,
   "37ccbd8a97b28a34": 1795199460.213731,
   "37dc1299685130c1": 1795401093.7430434,
@@ -10402,6 +10413,7 @@
   "4b1c142ff6039d79": 1795228006.0215333,
   "4b611dc6e3497aa1": 1794652396.6112564,
   "4b64f60c5eefa606": 1794609309.8216448,
+  "4b79d9bf27e091c6": 1795584675.7447755,
   "4bc82ee1f750b2f5": 1795372273.2383964,
   "4bcf3744ba7bc130": 1795469457.0355752,
   "4c01755a9959923c": 1794439893.702898,
@@ -11174,6 +11186,7 @@
   "9e8afc5b12fe9b3b": 1795275080.273022,
   "9eb1f90b527a2351": 1795385098.7136455,
   "9ed0e11ca3c2479d": 1795582984.527879,
+  "9f25e17cc7ee4e38": 1795584735.2825756,
   "9f3531ca32f906ef": 1794486802.0942328,
   "9f4debb14940fc3e": 1794457893.282934,
   "9f53b38428119f41": 1795393941.9547427,
@@ -11524,7 +11537,6 @@
   "c5a938a2f048c24c": 1795465853.2477036,
   "c5ac6246dc395274": 1795345279.07603,
   "c5b1e7a9ce76fb3b": 1794682854.575637,
-  "c5bfd6e72283439e": 1794375098.0150483,
   "c5caadda8e830b38": 1794924115.2650104,
   "c5dc19eb2ade20c8": 1795532493.3554366,
   "c62a3410efcd9681": 1794481453.1893055,
@@ -11787,6 +11799,7 @@
   "e28ec65b2ffdf256": 1795534314.709962,
   "e2a260fb3e7aa381": 1795269759.4347854,
   "e2bed42139e803bb": 1795217454.61787,
+  "e327c91285a3b743": 1795584675.7441509,
   "e32d30d32883dedf": 1795541488.7726154,
   "e34389c32b33e596": 1794929483.5526125,
   "e35567941ebd5072": 1794888085.2273755,
@@ -12511,7 +12524,7 @@
   ],
   "artists_checked": 1795572245.7376583,
   "blocked_until": 1795570469.6561708,
-  "cursor": 38,
+  "cursor": 48,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13285,7 +13298,7 @@
   "sources": {
    "/Film": 11,
    "Blabbermouth": 3,
-   "Bloomberg": 17,
+   "Bloomberg": 18,
    "DOU": 2,
    "DOU Gamedev": 2,
    "Deadline": 36,
@@ -13298,7 +13311,7 @@
    "Insider Gaming": 6,
    "Lambgoat": 11,
    "Loudwire": 1,
-   "Metal Hammer (Louder)": 9,
+   "Metal Hammer (Louder)": 10,
    "Mezha": 21,
    "Neformat": 11,
    "PC Gamer": 6,
@@ -13318,7 +13331,7 @@
    "DeepL": 15,
    "gemini-flash-latest": 7,
    "gemini-flash-lite-latest": 59,
-   "gemma-4-26b-a4b-it": 51,
+   "gemma-4-26b-a4b-it": 53,
    "gemma-4-31b-it": 63
   },
   "week": "2026-W48"
@@ -17169,6 +17182,14 @@
   [
    1795582984.527881,
    "Bryan Adams launches all-star Christmas album with cover of Slade's Merry Xmas Everybody"
+  ],
+  [
+   1795584735.2825785,
+   "AI Stocks Retreat as Markets Rotate Beyond Tech"
+  ],
+  [
+   1795584817.2838855,
+   "How Fairport Convention’s folk rock was influenced by The Who: “They were smashing instruments. The shops were running out”"
   ]
  ],
  "titles_uk": [
@@ -17895,6 +17916,14 @@
   [
    1795582984.5278816,
    "Браян Адамс випускає різдвяний альбом Great Big Holiday Jam (2026)"
+  ],
+  [
+   1795584735.2825792,
+   "Акції ШІ-компаній падають через переорієнтацію ринків"
+  ],
+  [
+   1795584817.2838864,
+   "Річард Томпсон розповів про вплив The Who на Fairport Convention та дефіцит інструментів"
   ]
  ],
  "ukrainian": {
