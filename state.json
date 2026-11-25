@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|ThePRP|https://www.theprp.com/feed/": {
-   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ThePRP» не працює",
-   "sent": 0,
-   "since": 1795622497.262061
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-25",
  "freebies": {
   "last_check": 1795627986.4917934,
@@ -38,11 +31,10 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-25 19:02 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-25 19:25 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
    "gemma-4-26b-a4b-it": 1
   },
   "used": [
@@ -8734,7 +8726,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>Бім за чипами для ШІ підніме вон до найкращих показників за майже десятиліття</b>\n\nНадприбутки Південної Кореї від чипів для ШІ спричиняють хвилю валютних потоків, що може вивести вон на новий рівень зростання\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-25/ai-chip-boom-to-see-won-build-on-best-year-in-almost-a-decade\">Bloomberg</a> · #ШІ",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-25/ai-chip-boom-to-see-won-build-on-best-year-in-almost-a-decade",
     "orig": "AI Chip Boom to See Won Build on Best Year in Almost a Decade"
@@ -9589,6 +9580,20 @@
     "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
     "orig": "Where scientists draw the line on AI agents"
    }
+  ],
+  [
+   1795634709.3429353,
+   6967,
+   "🤖",
+   "Amazon та Meta обговорюють доступ ШІ-агента Muse до магазину Amazon",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Amazon та Meta обговорюють доступ ШІ-агента Muse до магазину Amazon</b>\n\nAmazon та Meta ведуть переговори про відновлення доступу ШІ-агента Muse до онлайн-магазину Amazon. Основною перешкодою є контроль над рекламними доходами та результатами пошуку. Muse вже має понад 10 мільйонів користувачів і забезпечує 51% усіх замовлень через ШІ-агентів.\n\n🔗 <a href=\"https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/\">The Decoder</a> · #ШІ #Amazon #Meta",
+    "kind": "photo",
+    "link": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
+    "orig": "Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store."
+   }
   ]
  ],
  "posted_by_source": {
@@ -9625,10 +9630,10 @@
    1795539683.9860375
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
-   1795545167.9941776,
    1795555359.8923485,
    1795608099.5117345,
-   1795613605.9610944
+   1795613605.9610944,
+   1795634709.3431487
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1793370738.9416513
@@ -11175,6 +11180,7 @@
   "8fc516c08a2a2984": 1794673854.7807264,
   "8fd07b14c788e875": 1795354267.0035863,
   "902275cd9697edca": 1795365075.237887,
+  "902ba8925574cd2f": 1795634649.746373,
   "902f7c19265441ea": 1795615427.6747346,
   "905dc1cb601d6a2c": 1795152675.030105,
   "907a9d825289bcdf": 1795094153.9062579,
@@ -11464,6 +11470,7 @@
   "aebf7abef9bd0e93": 1794661279.245496,
   "aec981f247366a4e": 1794493889.6516697,
   "aed1e271979af7a4": 1794434455.0331035,
+  "aedb4c15bd239f6d": 1795634649.746373,
   "af15445ab2e4c5e7": 1795096853.5346801,
   "af165ea4db17f5a5": 1795622460.307334,
   "af1f0559acb08c9e": 1795249872.3120923,
@@ -11824,6 +11831,7 @@
   "d69f0d39c638e4d5": 1795105867.4596348,
   "d6a60d5e8aab8264": 1795606285.7267156,
   "d6c79430dd9144bc": 1794610972.1879642,
+  "d6dc9003ffb0bf85": 1795634709.3431008,
   "d6e8809ef645f2a6": 1794834056.1069303,
   "d6f1683470e3bd65": 1795474878.698535,
   "d7130c18b2a5fd4f": 1795026653.649315,
@@ -13416,9 +13424,9 @@
    "Bloomberg": 23,
    "Deadline": 8,
    "Eurogamer": 1,
-   "GameSpot": 5,
+   "GameSpot": 6,
    "GamesIndustry.biz": 1,
-   "IGN": 10,
+   "IGN": 11,
    "IndieWire": 2,
    "Insider Gaming": 54,
    "Loudwire": 1,
@@ -13459,7 +13467,7 @@
    "Rock Paper Shotgun": 8,
    "SteamDB": 2,
    "Stereogum": 1,
-   "The Decoder": 8,
+   "The Decoder": 9,
    "ThePRP": 4,
    "VGC": 10,
    "Variety": 16
@@ -13468,7 +13476,7 @@
    "DeepL": 22,
    "gemini-flash-latest": 7,
    "gemini-flash-lite-latest": 73,
-   "gemma-4-26b-a4b-it": 59,
+   "gemma-4-26b-a4b-it": 60,
    "gemma-4-31b-it": 84
   },
   "week": "2026-W48"
@@ -17393,6 +17401,10 @@
   [
    1795633328.4335203,
    "Where scientists draw the line on AI agents"
+  ],
+  [
+   1795634709.343103,
+   "Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store."
   ]
  ],
  "titles_uk": [
@@ -18127,6 +18139,10 @@
   [
    1795633328.4335215,
    "Вчені визначають межі можливостей ШІ-агентів"
+  ],
+  [
+   1795634709.3431036,
+   "Amazon та Meta обговорюють доступ ШІ-агента Muse до магазину Amazon"
   ]
  ],
  "ukrainian": {
