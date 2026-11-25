@@ -31,14 +31,13 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-25 08:38 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-11-25 08:47 UTC",
+  "gemini_error": "",
   "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemma-4-31b-it": 2
+   "gemma-4-31b-it": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
@@ -8618,7 +8617,6 @@
       "https://the-decoder.com/anthropic-turns-claude-artifacts-into-standalone-desktop-apps-for-macos-and-windows/"
      ]
     ],
-    "caption": "💾 <b>Anthropic навчила Claude самостійно схвалювати зміни в коді без участі людини</b>\n\nAnthropic запустила Claude Ship – набір агентів для роботи з pull request у GitHub. Він знаходить проблеми, виправляє код і може схвалювати рутинні зміни за політикою команди, але остаточне злиття залежить від налаштувань репозиторію.\n\n🔗 <a href=\"https://mezha.ua/news/anthropic-claude-ship-317529/\">Mezha</a> · #софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/anthropic-claude-ship-317529/",
     "orig": "Anthropic навчила Claude самостійно схвалювати зміни в коді без участі людини"
@@ -9051,7 +9049,12 @@
    "The Body очолив щотижневий рейтинг Netflix",
    "Deadline",
    {
-    "also": [],
+    "also": [
+     [
+      "ITC.ua",
+      "https://itc.ua/ua/novini/serial-tilo-ocholyv-rejtyng-netflix-na-drugomu-tyzhni-9-5-mln-pereglyadiv/"
+     ]
+    ],
     "caption": "🎬 <b>The Body очолив щотижневий рейтинг Netflix</b>\n\nДрама The Body посіла перше місце в англомовному списку серіалів Netflix з 9,5 млн переглядів. Це на 86% більше, ніж у перші дні після прем&#x27;єри. Популярності проєкту сприяли суперечки навколо «антихристиянського» змісту серіалу.\n\n🔗 <a href=\"https://deadline.com/2026/11/the-body-netflix-viewership-season-1-premiere-1237232942/\">Deadline</a> · #кіно_і_серіали #Netflix #TheBody",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/the-body-netflix-viewership-season-1-premiere-1237232942/",
@@ -9473,6 +9476,20 @@
     "link": "https://deadline.com/2026/11/napa-valley-wine-region-feature-doc-docsville-pmg-slam-1237232680/",
     "orig": "Inside Story Of California’s Napa Valley Wine Region Explored In Feature Doc"
    }
+  ],
+  [
+   1795596448.408416,
+   6923,
+   "💾",
+   "Тест Homa IR",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>Тест Homa IR</b>\n\nОбговорення того, що здоров&#x27;я — це головне | Посилання\n\n🔗 <a href=\"https://www.producthunt.com/products/homa-ir-test\">Product Hunt</a> · #софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/homa-ir-test",
+    "orig": "Homa IR Test"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9727,9 +9744,9 @@
    1795595476.376265
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
-   1795509348.350736,
    1795512915.3472068,
-   1795516340.393915
+   1795516340.393915,
+   1795596448.408637
   ]
  },
  "seen": {
@@ -10289,6 +10306,7 @@
   "3d44dcacb6e9a819": 1795039284.2790308,
   "3d4e52568aedc8f0": 1795588367.9344149,
   "3d7652611cf0dfe6": 1795271455.3684447,
+  "3d7ad70eefac64c8": 1795596450.226575,
   "3dc7d1a113cc1734": 1794504655.5700643,
   "3e57339765a5c089": 1794403992.1362224,
   "3e60ece0075a0626": 1795486810.4521737,
@@ -11061,6 +11079,7 @@
   "935f7d0695998845": 1795482102.0037186,
   "939f5e3b8d34c12f": 1795581284.9216943,
   "93a3edeb4c4faf79": 1794614675.0055325,
+  "93af1d800788ff4f": 1795596448.4085894,
   "93bdcaf788304655": 1795359773.31552,
   "93d275bd2b7d4e46": 1795053725.0110817,
   "93f38d52fdfb8e12": 1794706296.939091,
@@ -11873,6 +11892,7 @@
   "eb85283cf01e7e50": 1794999653.1275568,
   "eb914ac5b3670695": 1795273254.563207,
   "eb9ed10f13c529dc": 1795234044.1678782,
+  "ebbeb11c79c47863": 1795596409.4693563,
   "ebdfce07d993cb55": 1795253456.1008854,
   "ec0a2a53e046448a": 1794776482.428397,
   "ec453d1217c21859": 1794650473.5415514,
@@ -13300,7 +13320,7 @@
    "Pitchfork": 2,
    "PlayUA": 3,
    "Polygon": 9,
-   "Product Hunt": 3,
+   "Product Hunt": 4,
    "Rock Paper Shotgun": 6,
    "SteamDB": 2,
    "Stereogum": 1,
@@ -13314,7 +13334,7 @@
    "gemini-flash-latest": 7,
    "gemini-flash-lite-latest": 64,
    "gemma-4-26b-a4b-it": 54,
-   "gemma-4-31b-it": 67
+   "gemma-4-31b-it": 68
   },
   "week": "2026-W48"
  },
@@ -17281,6 +17301,10 @@
   [
    1795595930.5961442,
    "Inside Story Of California’s Napa Valley Wine Region Explored In Feature Doc"
+  ],
+  [
+   1795596448.408592,
+   "Homa IR Test"
   ]
  ],
  "titles_uk": [
@@ -18007,6 +18031,10 @@
   [
    1795595930.596145,
    "Готують документальний фільм про винний регіон Napa Valley"
+  ],
+  [
+   1795596448.4085927,
+   "Тест Homa IR"
   ]
  ],
  "ukrainian": {
