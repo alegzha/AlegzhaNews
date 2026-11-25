@@ -1,30 +1,5 @@
 {
- "alerts": {
-  "src:ai|ITC.ua|https://itc.ua/ua/feed/": {
-   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ITC.ua» не працює",
-   "sent": 0,
-   "since": 1795613568.254441
-  },
-  "src:games|ITC.ua|https://itc.ua/ua/feed/": {
-   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ITC.ua» не працює",
-   "sent": 0,
-   "since": 1795613494.414156
-  },
-  "src:movies|ITC.ua|https://itc.ua/ua/feed/": {
-   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ITC.ua» не працює",
-   "sent": 0,
-   "since": 1795613521.5648222
-  },
-  "src:software|ITC.ua|https://itc.ua/ua/feed/": {
-   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ITC.ua» не працює",
-   "sent": 0,
-   "since": 1795613543.6646183
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-24",
  "freebies": {
   "last_check": 1795613614.2009096,
@@ -56,48 +31,19 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-25 13:33 UTC",
-  "gemini_error": "",
+  "at": "2026-11-25 14:05 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-31b-it": 1
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794924115.2647898,
-   6212,
-   "🎮",
-   "AMD додала Capacity Aware Scheduling до ядра Linux",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/hardware/processors/amd-introduces-capacity-aware-scheduling-to-the-linux-kernel-which-sure-is-the-thing-id-do-if-i-were-introducing-zen-6-lp-cores-next-year/",
-    "orig": "AMD introduces Capacity Aware Scheduling to the Linux kernel, which sure is the thing I'd do if I were introducing Zen 6 LP cores next year"
-   }
-  ],
-  [
-   1794924126.20956,
-   6213,
-   "🤘",
-   "Керрі Кінг анонсував новий сольний альбом та випустив сингл \"My War\"",
-   "Revolver",
-   {
-    "also": [
-     [
-      "Metal Hammer (Louder)",
-      "https://www.loudersound.com/bands-artists/kerry-king-album-2027"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://www.revolvermag.com/music/slayers-kerry-king-announces-new-solo-album-with-raging-song-my-war/",
-    "orig": "SLAYER’s KERRY KING announces new solo album with raging song “My War”"
-   }
-  ],
   [
    1794925879.540189,
    6215,
@@ -8655,7 +8601,6 @@
    "Neformat",
    {
     "also": [],
-    "caption": "🤘 <b>Гурт Corrupticide випустив дебютне демо</b>\n\nКиївський метал-гурт представив свій дебютний реліз — демо «WRECKFACE&#x27;26». Робота вийшла 17 жовтня на лейблі Deepswarming Bloodmagic. Робота над матеріалом розпочалася ще під час формування гурту в ч\n\n🔗 <a href=\"https://www.neformat.com.ua/news/28493-gurt-corrupticide-vipustiv-debyutne-demo.html\">Neformat</a> · #музика",
     "kind": "photo",
     "link": "https://www.neformat.com.ua/news/28493-gurt-corrupticide-vipustiv-debyutne-demo.html",
     "orig": "Гурт Corrupticide випустив дебютне демо"
@@ -8669,7 +8614,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Усе, що відомо про фільм Children of Blood and Bone</b>\n\nФільм Children of Blood and Bone за режисурою Джини Прінс-Байтвуд вийде в прокат 15 січня 2027 року. Сюжет за мотивами фентезі Томі Адеємі розповідає про Zelie, яка намагається повернути магію в Orïsha. У головних ролях знімаються Тусо Мбеду, Віола Девіс та Ідріс Ельба.\n\n🔗 <a href=\"https://deadline.com/feature/children-of-blood-and-bone-movie-news-updates-adaptation-1237012631/\">Deadline</a> · #кіно_і_серіали #ChildrenOfBloodAndBone",
     "kind": "photo",
     "link": "https://deadline.com/feature/children-of-blood-and-bone-movie-news-updates-adaptation-1237012631/",
     "orig": "Everything We Know About Gina Prince-Bythewood’s ‘Children Of Blood And Bone’ Movie So Far"
@@ -9515,6 +9459,34 @@
     "link": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
     "orig": "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant"
    }
+  ],
+  [
+   1795615427.6745408,
+   6945,
+   "🎮",
+   "Ветеран Call of Duty більше не рекомендує кар'єру в геймдеві",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>Ветеран <a href=\"https://store.steampowered.com/app/1938090/\">Call of Duty</a> більше не рекомендує кар&#x27;єру в геймдеві</b>\n🕹 <a href=\"https://store.steampowered.com/app/1938090/\">Call of Duty®</a>\n\nГавін Гослін, який понад 20 років працював у Treyarch над 13 частинами Call of Duty, застерігає молодь від розробки ігор через відсутність стабільності. Він наголошує, що навіть успішні фахівці ризикують раптовими звільненнями, і закликає компанії забезпечити реальний захист працівників.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/21-year-call-of-duty-veteran-says-he-can-no-longer-recommend-a-career-in-game-development/\">VGC</a> · #ігри #CallOfDuty #Treyarch",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/21-year-call-of-duty-veteran-says-he-can-no-longer-recommend-a-career-in-game-development/",
+    "orig": "21-year Call of Duty veteran says he ‘can no longer recommend a career in game development’"
+   }
+  ],
+  [
+   1795615515.6559167,
+   6946,
+   "🎮",
+   "Компанія Blizzard робить значну частину ювілейного контенту для «Diablo 2», пов’язаного з івентом Diablo 4, постійною, оскільки він дуже сподобався гравцям у 15-му сезоні",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Компанія Blizzard робить значну частину ювілейного контенту для «Diablo 2», пов’язаного з івентом <a href=\"https://store.steampowered.com/app/2344520/\">Diablo 4</a>, постійною, оскільки він дуже сподобався гравцям у 15-му сезоні</b>\n🕹 <a href=\"https://store.steampowered.com/app/2344520/\">Diablo® IV</a> — 1 696,00₴\n\nКомпанія Blizzard офіційно представила наступний сезон гри «Diablo 4» у форматі live-service: «Сезон гамбіту Тираеля». Це 16-й сезон цієї ARPG, який стає продовженням популярного та високо оціненого «Сезону спадщини пекла».\n\n🔗 <a href=\"https://www.eurogamer.net/diablo-4-season-16-keeping-season-15-diablo-2-anniversary\">Eurogamer</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/diablo-4-season-16-keeping-season-15-diablo-2-anniversary",
+    "orig": "Blizzard is making a lot of the Diablo 4's event-specific Diablo 2 anniversary content permanent because everyone loved it in Season 15"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9570,9 +9542,8 @@
    1795359773.3155637
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1795519966.7356567,
-   1795521915.3625243,
-   1795601002.5972958
+   1795601002.5972958,
+   1795615515.6561265
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1795188781.189875
@@ -9625,10 +9596,10 @@
    1795530859.7196352
   ],
   "games|VGC|https://www.videogameschronicle.com/feed/": [
-   1795527251.086428,
    1795532545.0503607,
    1795602851.323322,
-   1795606436.0267906
+   1795606436.0267906,
+   1795615427.674786
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1795512888.6798608,
@@ -10097,7 +10068,6 @@
   "24437daf95252ce9": 1794740481.6387289,
   "247257c36ff4af29": 1795217669.0922933,
   "2497e1c3e10ce315": 1795134676.975582,
-  "249d2e5ccb170fc4": 1794405782.1863456,
   "24d6d6b2cb651c91": 1794781854.546859,
   "24e30821eb6f08bc": 1794599463.414183,
   "24e7172905dd730e": 1795541488.2751114,
@@ -10110,6 +10080,7 @@
   "25b14416c37b918d": 1795440658.0846477,
   "25c7a48b42e38abf": 1795136483.5215816,
   "26088c4097d14d2b": 1794882692.550622,
+  "260c73494527473d": 1795615515.6560812,
   "26412ff4b89c1834": 1795267880.6231701,
   "269e88e8bf42cecb": 1795194077.8276596,
   "26bcadb7f4e8e281": 1794670326.7228556,
@@ -10161,6 +10132,7 @@
   "2b420be98801526a": 1795005105.700162,
   "2b4c443e34ab3041": 1795070072.035697,
   "2b50e1e804c98216": 1794693777.2004967,
+  "2b5d00895c13fa29": 1795615269.537142,
   "2b8c77bafd61b856": 1795131055.6482096,
   "2bba46206d0c85ec": 1794837697.1199596,
   "2be827d5d9298364": 1795379454.6028855,
@@ -10393,7 +10365,6 @@
   "4626a064892d7d4a": 1795509054.4727116,
   "46543acef25d9106": 1794546054.4432764,
   "469d93e7fd46199c": 1795275057.4489214,
-  "46d5650fd3ca7662": 1794405652.9407847,
   "46f62016667e521c": 1795595796.8069491,
   "47204eeb118c962c": 1794520852.2037077,
   "47297d5e5f2e28cb": 1794729676.9678183,
@@ -10624,6 +10595,7 @@
   "6096cc3a83ecce40": 1795077192.619326,
   "60bf22133061e795": 1795559454.9732094,
   "60c6d061b7d68686": 1795150879.178336,
+  "60d17730cbd8d5f2": 1795615269.537142,
   "60d2949018781a78": 1795447915.5257704,
   "60ecb23694b29629": 1795015906.3259583,
   "61012b1c3f82374d": 1794789168.9837084,
@@ -10810,7 +10782,6 @@
   "7265652a5266f6fb": 1794906178.1197684,
   "726b61922e287429": 1794520890.0403724,
   "73242c26032fa66f": 1795091475.6584551,
-  "733d840549e94357": 1794404095.2594936,
   "73635f50ed86ca0d": 1795519966.7356188,
   "73bf58ad2b27fa9e": 1794744076.590944,
   "73f7c83e86ab8527": 1795005060.1889544,
@@ -11084,6 +11055,7 @@
   "8fc516c08a2a2984": 1794673854.7807264,
   "8fd07b14c788e875": 1795354267.0035863,
   "902275cd9697edca": 1795365075.237887,
+  "902f7c19265441ea": 1795615427.6747346,
   "905dc1cb601d6a2c": 1795152675.030105,
   "907a9d825289bcdf": 1795094153.9062579,
   "90912853abe33df8": 1794945653.1135497,
@@ -11255,6 +11227,7 @@
   "a20858528fd502b1": 1794951055.3267138,
   "a2270a61aebde8a0": 1795104441.209281,
   "a23ebe05a653c09e": 1795048285.6464028,
+  "a28860a8cb4d0e26": 1795615269.537142,
   "a2949bc678c4c3b2": 1795564693.6406376,
   "a2b120d65f0e323a": 1795094964.3119497,
   "a2b548e1c3f139ff": 1795572087.113081,
@@ -11262,7 +11235,6 @@
   "a2ff68c2886ccca4": 1795467655.2872617,
   "a34992ea8b7c1d12": 1795557658.0006702,
   "a365c0d977eb3818": 1795505862.36446,
-  "a36a26d296b8606a": 1794405831.1688273,
   "a39149cdea547c57": 1794873694.242586,
   "a3c2f2868b560997": 1794765683.238813,
   "a3eb25072590a878": 1794621693.8390017,
@@ -11362,7 +11334,6 @@
   "adf61b1b008063cd": 1795410102.1827037,
   "ae0b07e83910e6ba": 1794760193.6006799,
   "ae1daf1efcd82e78": 1795458678.3686397,
-  "ae3e8dbf7e1428bf": 1794405652.9407847,
   "ae4646f6d8e728ae": 1794431113.3806431,
   "ae5b2ee6cc0d865e": 1794952978.5729148,
   "ae89cb80d8abb581": 1794725127.997097,
@@ -11952,7 +11923,6 @@
   "ee5d138905ed731b": 1794482973.1377099,
   "eeb26789898c8643": 1795537857.1621616,
   "eecdb436ae6e5c04": 1795573921.8886733,
-  "eed71cdd1bdb7c5e": 1794405677.7830338,
   "eedb82b12eac9d5c": 1794583853.089954,
   "eee425950e0e95bb": 1795289847.2269962,
   "eee7e3081ec583c4": 1794697281.7608502,
@@ -13320,7 +13290,7 @@
    "GameSpot": 4,
    "IGN": 6,
    "IndieWire": 2,
-   "Insider Gaming": 38,
+   "Insider Gaming": 40,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 3,
    "PC Gamer": 9,
@@ -13328,7 +13298,7 @@
    "Polygon": 22,
    "Rock Paper Shotgun": 2,
    "VGC": 23,
-   "Variety": 8
+   "Variety": 9
   },
   "sources": {
    "/Film": 12,
@@ -13339,7 +13309,7 @@
    "DOU Gamedev": 3,
    "Deadline": 38,
    "Decibel": 1,
-   "Eurogamer": 5,
+   "Eurogamer": 6,
    "GamesIndustry.biz": 5,
    "Hugging Face": 3,
    "ITC.ua": 20,
@@ -13361,15 +13331,15 @@
    "Stereogum": 1,
    "The Decoder": 8,
    "ThePRP": 4,
-   "VGC": 8,
+   "VGC": 9,
    "Variety": 16
   },
   "translators": {
-   "DeepL": 18,
+   "DeepL": 20,
    "gemini-flash-latest": 7,
-   "gemini-flash-lite-latest": 67,
+   "gemini-flash-lite-latest": 68,
    "gemma-4-26b-a4b-it": 55,
-   "gemma-4-31b-it": 78
+   "gemma-4-31b-it": 79
   },
   "week": "2026-W48"
  },
@@ -13759,6 +13729,11 @@
    "",
    1795514508.691885
   ],
+  "q:15": [
+   0,
+   "",
+   1795615431.7889144
+  ],
   "q:17": [
    0,
    "",
@@ -13768,6 +13743,11 @@
    0,
    "",
    1795530754.3559735
+  ],
+  "q:2": [
+   0,
+   "",
+   1795615430.7640376
   ],
   "q:2 320": [
    0,
@@ -13803,6 +13783,21 @@
    0,
    "",
    1795597293.460663
+  ],
+  "q:21 year": [
+   0,
+   "",
+   1795615290.911521
+  ],
+  "q:21 year call": [
+   0,
+   "",
+   1795615290.425555
+  ],
+  "q:21 year call of duty": [
+   0,
+   "",
+   1795615289.8731642
   ],
   "q:24": [
    0,
@@ -14164,6 +14159,11 @@
    "",
    1795496501.4973557
   ],
+  "q:can no longer recommend a career in game development": [
+   0,
+   "",
+   1795615289.3769128
+  ],
   "q:capacity": [
    3317350,
    "Capacity",
@@ -14473,6 +14473,16 @@
    1957220,
    "Departure.",
    1793187186.2449684
+  ],
+  "q:diablo": [
+   0,
+   "",
+   1795615430.2876034
+  ],
+  "q:diablo 2": [
+   0,
+   "",
+   1795615429.6662922
   ],
   "q:diablo 4": [
    2344520,
@@ -15158,11 +15168,6 @@
    2537590,
    "Microsoft Flight Simulator 2024",
    1793100706.5187423
-  ],
-  "q:mikami": [
-   0,
-   "",
-   1795442486.3755913
   ],
   "q:milki delivery": [
    4259360,
@@ -15854,6 +15859,11 @@
    "Sealbreakers",
    1793100695.6245604
   ],
+  "q:season 15": [
+   0,
+   "",
+   1795615431.2522855
+  ],
   "q:sega rally": [
    0,
    "",
@@ -15893,16 +15903,6 @@
    1073810,
    "Shapik: The Moon Quest",
    1794560475.4592075
-  ],
-  "q:shinji": [
-   0,
-   "",
-   1795442485.9138355
-  ],
-  "q:shinji mikami": [
-   0,
-   "",
-   1795442485.3699574
   ],
   "q:showmaker": [
    665920,
@@ -16531,14 +16531,6 @@
   1795586502.2341087
  ],
  "titles": [
-  [
-   1795442631.7391176,
-   "Resident Evil creator Shinji Mikami says he wishes AI would disappear entirely, but that he experiments with it as a tool"
-  ],
-  [
-   1795442690.6077302,
-   "Amazon Is Said to Pay $7.5 Billion for AI Startup Decart’s Tech"
-  ],
   [
    1795444286.8856971,
    "Ентузіасти навчили Windows 7 працювати з RTX 50, RX 9000, DirectX 12 і Vulkan 1.4"
@@ -17258,17 +17250,17 @@
   [
    1795613605.9610498,
    "AI agents now control part of Deepmind's compute for Gemini experiments, but recursive self-improvement remains distant"
+  ],
+  [
+   1795615427.674737,
+   "21-year Call of Duty veteran says he ‘can no longer recommend a career in game development’"
+  ],
+  [
+   1795615515.656083,
+   "Blizzard is making a lot of the Diablo 4's event-specific Diablo 2 anniversary content permanent because everyone loved it in Season 15"
   ]
  ],
  "titles_uk": [
-  [
-   1795442631.739118,
-   "Творець Resident Evil Шіндзі Мікамі хоче зникнення ШІ, але експериментує з ним як з інструментом"
-  ],
-  [
-   1795442690.6077309,
-   "Amazon купує технології ШІ-стартапу Decart за $7.5 млрд"
-  ],
   [
    1795444286.8856978,
    "Ентузіасти навчили Windows 7 працювати з RTX 50, RX 9000, DirectX 12 і Vulkan 1.4"
@@ -17988,6 +17980,14 @@
   [
    1795613605.9610505,
    "ШІ-агенти керують частиною обчислень Deepmind для моделей Gemini"
+  ],
+  [
+   1795615427.6747375,
+   "Ветеран Call of Duty більше не рекомендує кар'єру в геймдеві"
+  ],
+  [
+   1795615515.6560838,
+   "Компанія Blizzard робить значну частину ювілейного контенту для «Diablo 2», пов’язаного з івентом Diablo 4, постійною, оскільки він дуже сподобався гравцям у 15-му сезоні"
   ]
  ],
  "ukrainian": {
