@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795586486.1950855
+  }
+ },
  "daily_digest_date": "2026-11-24",
  "freebies": {
   "last_check": 1795584819.1564963,
@@ -31,43 +38,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-25 05:33 UTC",
+  "at": "2026-11-25 06:01 UTC",
   "gemini_error": "",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 2
+   "gemini-flash-lite-latest": 3
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794893617.8881855,
-   6179,
-   "🎬",
-   "Джон Стюарт розкритикував вибір Роберта Паттінсона на роль James Bond",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/jon-stewart-daily-show-robert-pattinson-james-bond-1236950007/",
-    "orig": "Jon Stewart Weighs In on Robert Pattinson’s James Bond Casting: ‘You Already Got Batman’"
-   }
-  ],
-  [
-   1794895284.640018,
-   6180,
-   "💾",
-   "Google додала до Gemini підтримку 66 регіональних діалектів",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/google-dodala-do-gemini-66-regionalnih-dialektiv-317275/",
-    "orig": "Google додала до Gemini підтримку 66 регіональних діалектів"
-   }
-  ],
   [
    1794897085.7058804,
    6181,
@@ -8629,7 +8610,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Німецькі дослідники пропонують змінити назву Computer Science на «Computer and AI Science»</b>\n\nУ своїй роботі дослідники з TU Darmstadt закликають переосмислити Computer Science як «Computer and AI Science». Головний аргумент — код, що генерується динамічно під час виконання, ставить під сумнів існуючі гарантії безпеки та коректності\n\n🔗 <a href=\"https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/\">The Decoder</a> · #ШІ",
     "kind": "photo",
     "link": "https://the-decoder.com/german-researchers-call-for-computer-science-to-reinvent-itself-as-computer-and-ai-science/",
     "orig": "German researchers call for computer science to reinvent itself as \"Computer and AI Science\""
@@ -8643,7 +8623,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b>Конференція Splitscreen Croatia пропонує безкоштовні туристичні пакети для розробників, які бажають презентувати видавцям та інвесторам свої ще невипущені ігри</b>\n\nSplitcreen Croatia — нова галузева конференція, покликана заповнити прогалину, що утворилася після закриття Reboot Develop, — розпочала прийом заявок на участь у програмі «Офіційний відбір», яка передбачає безкоштовну подорож, проживання та виставкову площу для розробників із ще невипущеними іграми.\n\n🔗 <a href=\"https://www.gamesindustry.biz/splitscreen-croatia-conference-offers-free-travel-packages-for-developers-looking-to-showcase-unreleased-games-to-publishers-and-investors\">GamesIndustry.biz</a> · #ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/splitscreen-croatia-conference-offers-free-travel-packages-for-developers-looking-to-showcase-unreleased-games-to-publishers-and-investors",
     "orig": "Splitscreen Croatia conference offers free travel packages for developers looking to showcase unreleased games to publishers and investors"
@@ -9488,6 +9467,34 @@
     "link": "https://www.loudersound.com/bands-artists/richard-thompson-fairport-convenion-the-who",
     "orig": "How Fairport Convention’s folk rock was influenced by The Who: “They were smashing instruments. The shops were running out”"
    }
+  ],
+  [
+   1795586493.3064065,
+   6911,
+   "🤖",
+   "Малайзія посилює контроль на тлі обмежень США на постачання ШІ-чипів",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Малайзія посилює контроль на тлі обмежень США на постачання ШІ-чипів</b>\n\nМалайзія посилює контроль та обговорює з Вашингтоном нові обмеження США щодо передових ШІ-чипів. Про це повідомив другий міністр фінансів країни Амір Гамзах Азізан.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-25/malaysia-tightens-controls-amid-us-ai-chip-curbs-video\">Bloomberg</a> · #ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-25/malaysia-tightens-controls-amid-us-ai-chip-curbs-video",
+    "orig": "Malaysia Tightens Controls Amid US AI Chip Curbs"
+   }
+  ],
+  [
+   1795586502.7211366,
+   6912,
+   "🎬",
+   "Вийшов біографічний фільм Hershey від Angel Studios з Фінном Віттроком",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Вийшов біографічний фільм Hershey від Angel Studios з Фінном Віттроком</b>\n📖 <a href=\"https://telegra.ph/Vijshov-bіografіchnij-fіlm-Hershey-vіd-Angel-Studios-z-Fіnnom-Vіttrokom-11-25\">Читати повністю українською</a>\n\nAngel Studios випустила біографічну стрічку Hershey про Мілтона Герші, який популяризував американський шоколад. Головну роль у простій та комфортній драмі виконав Фінн Віттрок.\n\n🔗 <a href=\"https://variety.com/2026/film/reviews/hershey-review-finn-wittrock-1236957567/\">Variety</a> · #кіно_і_серіали #Hershey",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/reviews/hershey-review-finn-wittrock-1236957567/",
+    "orig": "‘Hershey’ Review: In a Sugary Sweet Biopic, Finn Wittrock Plays the Candy Man Who Turned Chocolate Into an American Empire"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9496,11 +9503,11 @@
    1795341795.5158873
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1795498474.4579458,
    1795536164.6999838,
    1795537907.647602,
    1795579313.5808232,
-   1795584735.282641
+   1795584735.282641,
+   1795586493.3066695
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1795438887.3734498,
@@ -9648,9 +9655,9 @@
    1795507282.132235
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1795496496.991595,
    1795503820.319433,
-   1795575693.4459422
+   1795575693.4459422,
+   1795586502.7213776
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1795557855.5908115,
@@ -9783,6 +9790,7 @@
   "034d29d4019d944c": 1795174346.0042849,
   "03587135ab53581c": 1795530656.5277925,
   "0365c4da95c9807f": 1794474053.2484434,
+  "039a10598a4078b5": 1795586493.3066242,
   "03e2f6c846dfae62": 1795536070.620261,
   "03ee526d0ed8fdfa": 1794868348.3863418,
   "040bfd9a76098491": 1794841326.9254682,
@@ -9950,7 +9958,6 @@
   "161c6cff0baba272": 1794672120.9567468,
   "1635eda7c996f240": 1795199629.0622354,
   "1649e614cf2fe5dc": 1795177895.0435784,
-  "164e3a1e640329ec": 1794376883.9151897,
   "16565a3f5dc091b0": 1795539777.2088153,
   "167e46fd298bdafd": 1794983512.779265,
   "16870c21e1133f93": 1794902492.8208287,
@@ -11047,7 +11054,6 @@
   "8fae68dceab0c80e": 1794589274.5655618,
   "8fc516c08a2a2984": 1794673854.7807264,
   "8fd07b14c788e875": 1795354267.0035863,
-  "8fe9fee58ef5304e": 1794376880.7021303,
   "902275cd9697edca": 1795365075.237887,
   "905dc1cb601d6a2c": 1795152675.030105,
   "907a9d825289bcdf": 1795094153.9062579,
@@ -12041,6 +12047,7 @@
   "fb3f68248836938d": 1795114863.5731728,
   "fb85f46586edf216": 1795437054.9153414,
   "fbbd42e1c19e013e": 1795388453.5383751,
+  "fc04bbc2837c7d96": 1795586502.721334,
   "fc10c21629cc6274": 1795008653.7476661,
   "fc1d231f506810a3": 1794600173.2371047,
   "fc1f08036e4f049f": 1794522780.586601,
@@ -12524,7 +12531,7 @@
   ],
   "artists_checked": 1795572245.7376583,
   "blocked_until": 1795570469.6561708,
-  "cursor": 48,
+  "cursor": 58,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13298,7 +13305,7 @@
   "sources": {
    "/Film": 11,
    "Blabbermouth": 3,
-   "Bloomberg": 18,
+   "Bloomberg": 19,
    "DOU": 2,
    "DOU Gamedev": 2,
    "Deadline": 36,
@@ -13325,12 +13332,12 @@
    "The Decoder": 6,
    "ThePRP": 2,
    "VGC": 6,
-   "Variety": 14
+   "Variety": 15
   },
   "translators": {
    "DeepL": 15,
    "gemini-flash-latest": 7,
-   "gemini-flash-lite-latest": 59,
+   "gemini-flash-lite-latest": 62,
    "gemma-4-26b-a4b-it": 53,
    "gemma-4-31b-it": 63
   },
@@ -16457,24 +16464,10 @@
    "штучний інтелект"
   ]
  },
- "telegraph": [],
+ "telegraph": [
+  1795586502.2341087
+ ],
  "titles": [
-  [
-   1795412136.6387308,
-   "Nirosta Steel Shares Alternate Versions of My Skyscraper Tracks"
-  ],
-  [
-   1795412195.770136,
-   "Trump Headed To L.A. For Reagan Library Speech"
-  ],
-  [
-   1795413692.934796,
-   "Noah Schnapp Reveals Image From His ‘Sunrise on the Reaping’ Audition For Haymitch: “They Picked Right”"
-  ],
-  [
-   1795413697.1616757,
-   "A Classic Twilight Zone Episode Is Like A Sci-Fi Version Of An Agatha Christie Mystery"
-  ],
   [
    1795415541.116219,
    "Nvidia released a hotfix for its driver hammering your SSD, but it doesn't actually work"
@@ -17190,25 +17183,17 @@
   [
    1795584817.2838855,
    "How Fairport Convention’s folk rock was influenced by The Who: “They were smashing instruments. The shops were running out”"
+  ],
+  [
+   1795586493.3066268,
+   "Malaysia Tightens Controls Amid US AI Chip Curbs"
+  ],
+  [
+   1795586502.7213361,
+   "‘Hershey’ Review: In a Sugary Sweet Biopic, Finn Wittrock Plays the Candy Man Who Turned Chocolate Into an American Empire"
   ]
  ],
  "titles_uk": [
-  [
-   1795412136.6387317,
-   "Nirosta Steel представили альтернативні версії треків My Skyscraper"
-  ],
-  [
-   1795412195.7701373,
-   "Дональд Трамп виступить на форумі національної оборони в бібліотеці Рейгана"
-  ],
-  [
-   1795413692.934797,
-   "Ноа Шнапп показав фото з прослуховування на роль Геймітча в приквелі The Hunger Games"
-  ],
-  [
-   1795413697.1616766,
-   "Епізод The Twilight Zone нагадує науково-фантастичний детектив у стилі Agatha Christie"
-  ],
   [
    1795415541.1162205,
    "Новий хотфікс Nvidia не вирішив проблему з надмірним записом на SSD"
@@ -17924,6 +17909,14 @@
   [
    1795584817.2838864,
    "Річард Томпсон розповів про вплив The Who на Fairport Convention та дефіцит інструментів"
+  ],
+  [
+   1795586493.3066273,
+   "Малайзія посилює контроль на тлі обмежень США на постачання ШІ-чипів"
+  ],
+  [
+   1795586502.7213368,
+   "Вийшов біографічний фільм Hershey від Angel Studios з Фінном Віттроком"
   ]
  ],
  "ukrainian": {
@@ -20409,7 +20402,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795582993.231967,
+  "last_check": 1795586510.930673,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
