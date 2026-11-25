@@ -344,7 +344,29 @@ daily_digest:
   count: 7
 
 # Твої улюблені гурти, ігри, серіали тощо: новини про них позначаються ⭐ і дублюються тобі в особисті
-favorites: []
+# Назва, що буває звичайним словом, — з «only: music»: тоді ⭐ лише в музичній рубриці.
+favorites:
+  - Bring Me The Horizon
+  - BMTH
+  - Slipknot
+  - Bullet For My Valentine
+  - Norma Jean
+  - Enter Shikari
+  - Parkway Drive
+  - headcave
+  - Don Broco
+  - { name: Architects, only: music }
+  - Knocked Loose
+  - { name: Poppy, only: music }
+  - Spiritbox
+  - Alexisonfire
+  - Underoath
+  - Static Dress
+  - Kim Dracula
+  - My Ticket Home
+  - Motionless In White
+  - Dead Poet Society
+  - Northlane
 
 # Деякі сайти (напр. Mezha) не пускають сервери GitHub. Тоді бот читає їх
 # через твій воркер Cloudflare (сайти дозволено у змінній воркера PROXY_HOSTS).

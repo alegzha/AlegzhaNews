@@ -1481,7 +1481,14 @@ def main():
     alerts = Alerts(state, notify_admin if (ADMIN_ID or DRY_RUN) else None)
     pub = {"ok": 0, "failed": 0, "error": ""}
 
-    favorites = [str(x) for x in (config.get("favorites") or []) if str(x).strip()]
+    # улюблене: рядок (будь-яка рубрика) або {name: …, only: music} — лише в одній рубриці
+    favorites, fav_only = [], {}
+    for x in config.get("favorites") or []:
+        name = str(x.get("name", "") if isinstance(x, dict) else x).strip()
+        if name:
+            favorites.append(name)
+            if isinstance(x, dict) and x.get("only"):
+                fav_only[name.lower()] = str(x["only"])
     sp = (config.get("filters") or {}).get("spoiler_pattern")
     spoiler_rx = re.compile(sp, re.I) if sp else None
     tg_cfg = config.get("telegraph") or {}
@@ -1655,6 +1662,8 @@ def main():
         tags = list(LAST_TAGS) if summary_ready is not None else []
         caption = build_caption(c["cat"], title_html, summary_uk, c["source"], link, extra_lines, tags, spoiler)
         favorite = fav_rx and (fav_rx.search(c["title"]) or fav_rx.search(title_plain))
+        if favorite and fav_only.get(favorite.group(0).lower(), c["cat_id"]) != c["cat_id"]:
+            favorite = None
         if favorite:
             caption = "⭐ " + caption
         try:
