@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:ai|The Decoder|https://the-decoder.com/feed/": {
+   "detail": "https://the-decoder.com/feed/ → HTTPSConnectionPool(host='the-decoder.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutEr",
+   "label": "Джерело «The Decoder» не працює",
+   "sent": 0,
+   "since": 1795674702.4243643
+  },
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795674678.7567492
+  }
+ },
  "daily_digest_date": "2026-11-25",
  "freebies": {
   "last_check": 1795671330.9221473,
@@ -31,56 +44,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-26 06:02 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-26 06:33 UTC",
+  "gemini_error": "503: Gemini тимчасово недоступний",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemma-4-31b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794983487.6609573,
-   6273,
-   "🤘",
-   "Bloodstock Festival оголосив 17 нових гуртів на 2027 рік",
-   "Distorted Sound",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://distortedsoundmag.com/bloodstock-festival-announce-17-new-bands-for-2027/",
-    "orig": "Bloodstock Festival announce 17 new bands for 2027"
-   }
-  ],
-  [
-   1794983498.2687955,
-   6274,
-   "🤘",
-   "Necrot випустили кліп на трек Drill The Skull",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/11/17/news/necrot-release-drill-the-skull-music-video/",
-    "orig": "Necrot Release “Drill The Skull” Music Video"
-   }
-  ],
-  [
-   1794983512.779031,
-   6275,
-   "🎬",
-   "Зірка Dune: Prophecy Табу зіграє в рятувальній драмі Tunnel Men на Netflix",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/dune-prophecy-star-tabu-yrf-netflix-series-tunnel-men-1236950175/",
-    "orig": "‘Dune: Prophecy’ Star Tabu Joins YRF Entertainment’s Netflix Rescue Drama ‘Tunnel Men’ (EXCLUSIVE)"
-   }
-  ],
   [
    1794985290.2636588,
    6276,
@@ -8694,7 +8668,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b>Ігрова індустрія отримає понад £45 млн у межах плану розвитку креативних індустрій</b>\n\nВісім ігрових студій отримають частину від £45 млн державного фінансування. Це частина масштабних інвестицій UK Research and Innovation (UKRI) у розмірі £500 млн для підтримки креативних індустрій\n\n🔗 <a href=\"https://www.gamesindustry.biz/gaming-sector-to-benefit-from-funding-package-of-over-45m-as-part-of-creative-industries-sector-plan\">GamesIndustry.biz</a> · #ігри",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/gaming-sector-to-benefit-from-funding-package-of-over-45m-as-part-of-creative-industries-sector-plan",
     "orig": "Gaming sector to benefit from funding package of over £45m as part of Creative Industries Sector Plan"
@@ -8708,7 +8681,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎮 <b>Звільнили через ШІ — грай у відеоігри: що запропонував керівник Anthropic</b>\n\nГенеральний директор і співзасновник Anthropic Даріо Амодеї колись пропонував імерсивні відеоігри як спосіб пом’якшити політичну напругу, яку може спричинити безробіття через штучний інтелект. Про це пише The Wall Street Journal з посиланням на листування в Slack. Ідею він обговорював ще тоді, коли працював в OpenAI.\n\n🔗 <a href=\"https://itc.ua/ua/novini/amodei-videoigry-bezrobittya-shi-wsj/\">ITC.ua</a> · #ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/amodei-videoigry-bezrobittya-shi-wsj/",
     "orig": "Звільнили через ШІ — грай у відеоігри: що запропонував керівник Anthropic"
@@ -9539,6 +9511,34 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-26/apple-to-expand-india-retail-network-with-new-store-in-hyderabad",
     "orig": "Apple to Expand India Retail Network With New Store in Hyderabad"
    }
+  ],
+  [
+   1795674703.3109348,
+   7011,
+   "💾",
+   "WhatsApp додав відкладені повідомлення та готує стікери зі звуком",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "💾 <b>WhatsApp додав відкладені повідомлення та готує стікери зі звуком</b>\n\nWhatsApp нарешті отримав одну з найбільш очікуваних функцій — можливість надсилати повідомлення за розкладом. Користувачі зможуть заздалегідь підготувати текст, фото чи відео й обрати точний час доставки. Паралельно месенджер тестує ще одну новинку: стікери, які відтворюють звук після натискання.\n\n🔗 <a href=\"https://itc.ua/ua/novini/whatsapp-dodav-vidkladeni-povidomlennya-ta-gotuye-stikery-zi-zvukom/\">ITC.ua</a> · #софт",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/whatsapp-dodav-vidkladeni-povidomlennya-ta-gotuye-stikery-zi-zvukom/",
+    "orig": "WhatsApp додав відкладені повідомлення та готує стікери зі звуком"
+   }
+  ],
+  [
+   1795674811.2823248,
+   7012,
+   "🎬",
+   "JioStar додала Star Plus, Colors та ще п'ять індійських ТБ-каналів до Fubo у США",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>JioStar додала Star Plus, Colors та ще п&#x27;ять індійських ТБ-каналів до Fubo у США</b>\n\nСім індійських телеканалів від JioStar, зокрема популярні розважальні Star Plus та Colors, тепер доступні в США через сервіс прямих трансляцій Fubo. Окрім них, до списку увійшли Star Bharat, Colors Rishtey, Colors Cineplex, MTV India та англомовний новинний канал News18 English\n\n🔗 <a href=\"https://variety.com/2026/tv/news/jiostar-star-plus-colors-mtv-india-fubo-us-1236958804/\">Variety</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/tv/news/jiostar-star-plus-colors-mtv-india-fubo-us-1236958804/",
+    "orig": "JioStar Brings Star Plus, Colors and Five More Indian TV Channels to Fubo in the U.S."
+   }
   ]
  ],
  "posted_by_source": {
@@ -9692,9 +9692,9 @@
    1795507282.132235
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1795586502.7213776,
    1795595796.8069992,
-   1795664106.774948
+   1795664106.774948,
+   1795674811.2825713
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1795647786.1252177,
@@ -9784,7 +9784,8 @@
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1795608079.0403354,
-   1795629698.852436
+   1795629698.852436,
+   1795674703.311186
   ],
   "software|Mezha|https://mezha.ua/feed/": [
    1795559547.1555293,
@@ -10678,7 +10679,6 @@
   "614017e5a0641d55": 1795126083.9034739,
   "614556e16df9000c": 1795438959.3209436,
   "6163872241249980": 1794929457.0480187,
-  "61d25f5a19734684": 1794465075.329445,
   "61d78922f86886c2": 1794857505.816836,
   "61f78ec139b32ac6": 1794697294.4971993,
   "61f92e427f4e2b90": 1795563280.1808105,
@@ -11140,7 +11140,6 @@
   "90c523b9ea78f6c7": 1794805252.091764,
   "90ebb63299ec8ad0": 1795363253.945743,
   "90ebdca55f21f23b": 1795350667.914637,
-  "910b433e2e19ff81": 1794465189.7481787,
   "912e4d0980a802df": 1795539683.9859934,
   "9130ec7cd03a3f9d": 1794920486.4114764,
   "915a19290b19235d": 1794565873.5842419,
@@ -11496,6 +11495,7 @@
   "b761befe780aeb95": 1794751279.1553652,
   "b7730c7fc9061948": 1795069878.1635556,
   "b7a6e8b9a3875109": 1795078888.843694,
+  "b7c75d37cc0580f7": 1795674811.282528,
   "b7d18751f398d6b4": 1795215687.50089,
   "b8650c834c2620ae": 1795116654.1601062,
   "b89c0965e4487c18": 1794744161.843884,
@@ -12053,7 +12053,6 @@
   "f475cb34cd65d9f9": 1795564881.1212597,
   "f498299ceeebd7c8": 1794940252.7221177,
   "f4d0715bf8848d44": 1795212402.1109285,
-  "f4d80238f35a7481": 1794465186.4375157,
   "f4f435b8c5aa1288": 1795159859.629758,
   "f52ce957eaf0a478": 1795006853.2084172,
   "f53325a92664d362": 1794646997.4718451,
@@ -12130,6 +12129,7 @@
   "fc35742e83aa346d": 1794907889.419431,
   "fc435f16403d4630": 1795300262.5494199,
   "fc501ed49657fca1": 1795559454.9732094,
+  "fc75cdc54f380e95": 1795674703.3111424,
   "fc90c750e381c97b": 1795303972.8781645,
   "fc90c941bfca0cb5": 1794589273.877405,
   "fca3687717888842": 1794492144.8847032,
@@ -12605,8 +12605,8 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1795658712.7765958,
-  "blocked_until": 1795658705.0225725,
-  "cursor": 169,
+  "blocked_until": 1795745172.3733294,
+  "cursor": 171,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13394,7 +13394,7 @@
    "GameSpot": 1,
    "GamesIndustry.biz": 7,
    "Hugging Face": 4,
-   "ITC.ua": 23,
+   "ITC.ua": 24,
    "IndieWire": 7,
    "Insider Gaming": 9,
    "Kerrang!": 1,
@@ -13414,14 +13414,14 @@
    "The Decoder": 10,
    "ThePRP": 5,
    "VGC": 10,
-   "Variety": 20
+   "Variety": 21
   },
   "translators": {
    "DeepL": 24,
    "gemini-flash-latest": 7,
    "gemini-flash-lite-latest": 91,
    "gemma-4-26b-a4b-it": 70,
-   "gemma-4-31b-it": 99
+   "gemma-4-31b-it": 100
   },
   "week": "2026-W48"
  },
@@ -14321,16 +14321,6 @@
    "",
    1795568496.944874
   ],
-  "q:community market": [
-   0,
-   "",
-   1795501892.9356647
-  ],
-  "q:community market updates": [
-   0,
-   "",
-   1795501892.4752867
-  ],
   "q:company of heroes 3": [
    1677280,
    "Company of Heroes 3",
@@ -15181,11 +15171,6 @@
    "",
    1795602781.8071334
   ],
-  "q:market updates": [
-   0,
-   "",
-   1795501893.3959181
-  ],
   "q:marvel cosmic invasion": [
    2753970,
    "MARVEL Cosmic Invasion",
@@ -15270,26 +15255,6 @@
    2742830,
    "Monster Train 2",
    1793197995.3387616
-  ],
-  "q:more steam": [
-   0,
-   "",
-   1795501890.5280983
-  ],
-  "q:more steam community": [
-   0,
-   "",
-   1795501890.0528414
-  ],
-  "q:more steam community market": [
-   0,
-   "",
-   1795501889.560328
-  ],
-  "q:more steam community market updates": [
-   0,
-   "",
-   1795501889.0887938
   ],
   "q:mouthwashing": [
    2475490,
@@ -16226,21 +16191,6 @@
    "",
    1795509351.991546
   ],
-  "q:steam community": [
-   0,
-   "",
-   1795501891.9773107
-  ],
-  "q:steam community market": [
-   0,
-   "",
-   1795501891.512404
-  ],
-  "q:steam community market updates": [
-   0,
-   "",
-   1795501891.0502453
-  ],
   "q:steamtopsellers": [
    0,
    "",
@@ -16635,23 +16585,10 @@
   ]
  },
  "telegraph": [
-  1795586502.2341087,
   1795649496.9409528,
   1795654984.4259295
  ],
  "titles": [
-  [
-   1795500224.0453393,
-   "‘Caréme’ & ‘División Palermo’ Take Top Prizes At International Emmy Awards: Full Winners List"
-  ],
-  [
-   1795501919.0042696,
-   "More Steam Community Market Updates"
-  ],
-  [
-   1795501922.8311644,
-   "“Not True”: Antoine Fuqua Alleged Gun Assault Of Bar Manager Over Daughter Rebuked By Reps"
-  ],
   [
    1795503766.3528054,
    "Why Is the ‘Avengers: Doomsday’ Trailer So… Gloomy? Internet Erupts Over Latest Look at Marvel Movie"
@@ -17375,21 +17312,17 @@
   [
    1795672928.808785,
    "Apple to Expand India Retail Network With New Store in Hyderabad"
+  ],
+  [
+   1795674703.311144,
+   "WhatsApp додав відкладені повідомлення та готує стікери зі звуком"
+  ],
+  [
+   1795674811.28253,
+   "JioStar Brings Star Plus, Colors and Five More Indian TV Channels to Fubo in the U.S."
   ]
  ],
  "titles_uk": [
-  [
-   1795500224.0453403,
-   "Caréme та División Palermo тріумфують на International Emmy Awards"
-  ],
-  [
-   1795501919.0042713,
-   "Нові оновлення Steam Community Market"
-  ],
-  [
-   1795501922.831166,
-   "Представники Антуана Фукуа заперечили звинувачення у збройному нападі"
-  ],
   [
    1795503766.352806,
    "Трейлер Avengers: Doomsday викликав суперечки через похмуру атмосферу"
@@ -18113,6 +18046,14 @@
   [
    1795672928.8087857,
    "Apple відкриває новий фірмовий магазин в Індії"
+  ],
+  [
+   1795674703.3111446,
+   "WhatsApp додав відкладені повідомлення та готує стікери зі звуком"
+  ],
+  [
+   1795674811.2825308,
+   "JioStar додала Star Plus, Colors та ще п'ять індійських ТБ-каналів до Fubo у США"
   ]
  ],
  "ukrainian": {
@@ -20601,7 +20542,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795671330.8430529,
+  "last_check": 1795674819.9280765,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
