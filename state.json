@@ -2,7 +2,7 @@
  "alerts": {},
  "daily_digest_date": "2026-11-25",
  "freebies": {
-  "last_check": 1795707264.3689826,
+  "last_check": 1795714520.7610562,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -27,47 +27,24 @@
    "3847": 1793928749.0254633,
    "3850": 1794508289.6340432,
    "3852": 1794924134.463038,
-   "3853": 1795109716.948112
+   "3853": 1795109716.948112,
+   "3857": 1795714520.7610562
   }
  },
  "last_translation": {
-  "at": "2026-11-26 17:01 UTC",
-  "gemini_error": "",
+  "at": "2026-11-26 17:35 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-31b-it": 1
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795023102.8383346,
-   6319,
-   "💾",
-   "worldinmotion",
-   "Product Hunt",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.producthunt.com/products/worldinmotion",
-    "orig": "worldinmotion"
-   }
-  ],
-  [
-   1795023110.442067,
-   6320,
-   "💾",
-   "Windows 7 повертається: модери додали підтримку DirectX 12 та сучасних відеокарт",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/windows-7-povertayetsya-modery-dodaly-pidtrymku-directx-12-ta-suchasnyh-videokart/",
-    "orig": "Windows 7 повертається: модери додали підтримку DirectX 12 та сучасних відеокарт"
-   }
-  ],
   [
    1795028501.102362,
    6322,
@@ -8696,7 +8673,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Converge анонсували мінітур Японією на зиму 2027</b>\n\nHardcore-гурт Converge відвідає Японію в січні 2027 року з трьома концертами в Осаці, Нагої та Токіо. У березні колектив також проведе тур Австралією та Новою Зеландією, де в Мельбурні відбудеться спеціальний сет на 25-річчя альбому Jane Doe.\n\n🔗 <a href=\"https://lambgoat.com/news/56076/converge-announce-winter-2027-japan-mini-tour/\">Lambgoat</a> · #музика #Converge",
     "kind": "photo",
     "link": "https://lambgoat.com/news/56076/converge-announce-winter-2027-japan-mini-tour/",
     "orig": "Converge announce Winter 2027 Japan mini-tour"
@@ -8710,7 +8686,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "🤘 <b>Project 86 анонсували альбом Omni Pt III та роман на червень 2027 року</b>\n\nProject 86 анонсували альбом Omni Pt III та другу частину роману OMNI Trilogy, реліз яких заплановано на 1 червня 2027 року. Музика та книга мають бути сприйняті як єдиний досвід, де пісні й текст розповідають одну історію з різних точок зору. Гурт збирає $5,000 на виробництво книги через попередні замовлення.\n\n🔗 <a href=\"https://lambgoat.com/news/56075/project-86-announce-omni-pt-iii-album-and-novel-to-arrive-june-2027/\">Lambgoat</a> · #музика #Project86",
     "kind": "photo",
     "link": "https://lambgoat.com/news/56075/project-86-announce-omni-pt-iii-album-and-novel-to-arrive-june-2027/",
     "orig": "Project 86 announce 'Omni Pt III' album and novel to arrive June 2027"
@@ -9541,6 +9516,34 @@
     "link": "https://highload.tech/uk/platysh-tak-samo-a-otrymuyesh-menshe-chatgpt-zminyuye-limity-dlya-aktyvnyh/#new_tab",
     "orig": "Платиш так само, а отримуєш менше: ChatGPT змінює ліміти для активних"
    }
+  ],
+  [
+   1795714508.868677,
+   7057,
+   "💾",
+   "Claude-Mem отримав хмарну синхронізацію",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>Claude-Mem отримав хмарну синхронізацію</b>\n\nПеремикання пристроїв. Збереження пам’яті ваших ШІ-агентів. Обговорення | Посилання\n\n🔗 <a href=\"https://www.producthunt.com/products/claude-mem\">Product Hunt</a> · #софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/claude-mem",
+    "orig": "Claude-Mem Cloud Sync"
+   }
+  ],
+  [
+   1795714519.1562438,
+   7058,
+   "🤖",
+   "TrustedRouter допоможе компаніям зберегти конфіденційність при роботі з ШІ",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>TrustedRouter допоможе компаніям зберегти конфіденційність при роботі з ШІ</b>\n\nСтартап пропонує рішення, яке приховує використання штучного інтелекту співробітниками від розробників моделей\n\n🔗 <a href=\"https://www.bloomberg.com/news/newsletters/2026-11-26/trustedrouter-aims-to-give-companies-greater-privacy-with-ai\">Bloomberg</a> · #ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/newsletters/2026-11-26/trustedrouter-aims-to-give-companies-greater-privacy-with-ai",
+    "orig": "TrustedRouter Aims to Give Companies Greater Privacy With AI"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9549,12 +9552,12 @@
    1795631499.031146
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1795626244.9894452,
    1795667619.7963848,
    1795672921.8926306,
    1795678434.7685053,
    1795681956.8203354,
-   1795712480.7627933
+   1795712480.7627933,
+   1795714519.1565151
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1795681880.741332
@@ -9798,9 +9801,9 @@
    1795708946.1606395
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
-   1795596448.408637,
    1795631496.7819893,
-   1795680106.6832585
+   1795680106.6832585,
+   1795714508.8689668
   ]
  },
  "seen": {
@@ -9838,6 +9841,7 @@
   "034d29d4019d944c": 1795174346.0042849,
   "03587135ab53581c": 1795530656.5277925,
   "039a10598a4078b5": 1795586493.3066242,
+  "03c102afedba337e": 1795714508.8689134,
   "03e2f6c846dfae62": 1795536070.620261,
   "03ee526d0ed8fdfa": 1794868348.3863418,
   "040bfd9a76098491": 1794841326.9254682,
@@ -10375,7 +10379,6 @@
   "3d4e52568aedc8f0": 1795588367.9344149,
   "3d7652611cf0dfe6": 1795271455.3684447,
   "3d7ad70eefac64c8": 1795596450.226575,
-  "3dc7d1a113cc1734": 1794504655.5700643,
   "3e20b5904ac78731": 1795660335.474735,
   "3e60ece0075a0626": 1795486810.4521737,
   "3e73f7351779bbff": 1795053694.9583557,
@@ -10671,7 +10674,6 @@
   "5f521b871c88a910": 1795100487.7106519,
   "5f5ac26759d8219c": 1795170655.6016555,
   "5f6ddbe03969372d": 1795498391.7007651,
-  "5f8099c7d290eccf": 1794504655.5700643,
   "5f9b38a8416afa45": 1794616312.000508,
   "5f9bd94eef2a9fff": 1795660286.2529893,
   "5f9df56fed9a28e3": 1794598371.8116102,
@@ -10726,6 +10728,7 @@
   "64a0cf7f43056473": 1794929457.0480187,
   "64ae9c8d3089c5fe": 1795669253.3576543,
   "64bdd684cbf6e982": 1795536113.9364457,
+  "64c2ce54a91e644a": 1795714519.1564684,
   "64cca365b932e22c": 1795008699.1667783,
   "65062365c0bbe7d6": 1795267934.9457097,
   "6510ffc32c2cd6d1": 1794873687.3295093,
@@ -10882,6 +10885,7 @@
   "7460749f72a7b576": 1794931254.6249342,
   "748b6844c2215731": 1794992487.6648252,
   "74a336f847aa8827": 1795046483.6048703,
+  "74b945372c38f4db": 1795714275.1215158,
   "74bd61be787faae8": 1795486806.3509457,
   "74bd8ac67faf67b8": 1795190456.7331672,
   "74cba7f3f72cc622": 1794954714.2421255,
@@ -11091,7 +11095,6 @@
   "8964946c044f9fe4": 1795410147.0820134,
   "897a3c9064f9fedd": 1795604455.3233364,
   "899c02e66b256f9c": 1795608056.6101136,
-  "89a04f14fe7bcd31": 1794504679.8192382,
   "89a313b5b5220dfd": 1794814476.4494536,
   "89af4559da72d4cc": 1794772972.1714723,
   "89b1f5bfbda1a562": 1794648652.8129776,
@@ -11480,7 +11483,6 @@
   "b3ae0231c981982f": 1794844886.9726446,
   "b3daa2d6912f86dd": 1795064479.5724437,
   "b3f3580418e0f28f": 1795689058.2360141,
-  "b400aa22068cb5c7": 1794504655.5700643,
   "b41e2782d523a29d": 1795163455.9823968,
   "b43bd61a6e37587e": 1795610014.9278946,
   "b43e8021dc45f495": 1795219257.6871395,
@@ -13395,7 +13397,8 @@
  "stats": {
   "extra": {
    "Вішліст Steam": 3,
-   "Українська локалізація": 2
+   "Українська локалізація": 2,
+   "Халява": 1
   },
   "filtered": {
    "/Film": 17,
@@ -13421,7 +13424,7 @@
    "/Film": 14,
    "AIN.ua": 2,
    "Blabbermouth": 4,
-   "Bloomberg": 31,
+   "Bloomberg": 32,
    "DOU": 3,
    "DOU Gamedev": 3,
    "Deadline": 51,
@@ -13445,7 +13448,7 @@
    "Pitchfork": 3,
    "PlayUA": 4,
    "Polygon": 17,
-   "Product Hunt": 6,
+   "Product Hunt": 7,
    "Rock Paper Shotgun": 9,
    "SteamDB": 2,
    "Stereogum": 2,
@@ -13455,11 +13458,11 @@
    "Variety": 22
   },
   "translators": {
-   "DeepL": 25,
+   "DeepL": 26,
    "gemini-flash-latest": 7,
-   "gemini-flash-lite-latest": 106,
+   "gemini-flash-lite-latest": 107,
    "gemma-4-26b-a4b-it": 77,
-   "gemma-4-31b-it": 105
+   "gemma-4-31b-it": 106
   },
   "week": "2026-W48"
  },
@@ -15019,11 +15022,6 @@
    "",
    1795699884.048766
   ],
-  "q:kingdom come deliverance 2": [
-   1771300,
-   "Kingdom Come: Deliverance II",
-   1793120757.744315
-  ],
   "q:kutaragi": [
    0,
    "",
@@ -16453,7 +16451,6 @@
  "tag_hints": {
   "Mezha": [
    "character.ai",
-   "gta 6",
    "microsoft",
    "neuralink",
    "nvidia",
@@ -16467,7 +16464,6 @@
    "блоги",
    "бізнес",
    "графіка",
-   "моди",
    "мозковий імплантат",
    "новини",
    "оборонка",
@@ -16487,10 +16483,6 @@
   1795654984.4259295
  ],
  "titles": [
-  [
-   1795541488.7726166,
-   "Google хоче, щоб в кожного був власний телеканал з ШІ-генерацією та персоналізованою рекламою"
-  ],
   [
    1795545167.9941294,
    "Novartis CEO says AI will shave four years off drug development, not cure all disease"
@@ -17226,13 +17218,17 @@
   [
    1795712590.0863578,
    "Платиш так само, а отримуєш менше: ChatGPT змінює ліміти для активних"
+  ],
+  [
+   1795714508.8689165,
+   "Claude-Mem Cloud Sync"
+  ],
+  [
+   1795714519.1564708,
+   "TrustedRouter Aims to Give Companies Greater Privacy With AI"
   ]
  ],
  "titles_uk": [
-  [
-   1795541488.7726178,
-   "Google хоче, щоб в кожного був власний телеканал з ШІ-генерацією та персоналізованою рекламою"
-  ],
   [
    1795545167.9941301,
    "CEO Novartis вважає, що ШІ скоротить розробку ліків на 4 роки, а не вилікує всі хвороби"
@@ -17968,6 +17964,14 @@
   [
    1795712590.0863585,
    "Платиш так само, а отримуєш менше: ChatGPT змінює ліміти для активних"
+  ],
+  [
+   1795714508.8689175,
+   "Claude-Mem отримав хмарну синхронізацію"
+  ],
+  [
+   1795714519.1564715,
+   "TrustedRouter допоможе компаніям зберегти конфіденційність при роботі з ШІ"
   ]
  ],
  "ukrainian": {
