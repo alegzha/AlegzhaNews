@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:ai|The Decoder|https://the-decoder.com/feed/": {
-   "detail": "https://the-decoder.com/feed/ → HTTPSConnectionPool(host='the-decoder.com', port=443): Max retries exceeded with url: /feed/ (Caused by ConnectTimeoutEr",
-   "label": "Джерело «The Decoder» не працює",
-   "sent": 0,
-   "since": 1795674702.4243643
-  },
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1795674678.7567492
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-25",
  "freebies": {
   "last_check": 1795671330.9221473,
@@ -44,43 +31,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-26 06:33 UTC",
-  "gemini_error": "503: Gemini тимчасово недоступний",
+  "at": "2026-11-26 07:03 UTC",
+  "gemini_error": "",
   "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemma-4-31b-it": 1
+   "gemma-4-31b-it": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794985290.2636588,
-   6276,
-   "🎮",
-   "Fallout 3 та New Vegas об’єднали в одному VR-проєкті завдяки модифікації A Tale of Two Realities",
-   "PlayUA",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://playua.net/fallout-3-ta-new-vegas-obyednaly-v-odnomu-vr-proyekti-zavdyaky-modyfikacziyi-a-tale-of-two-realities/",
-    "orig": "Fallout 3 та New Vegas об’єднали в одному VR-проєкті завдяки модифікації A Tale of Two Realities"
-   }
-  ],
-  [
-   1794985293.4653885,
-   6277,
-   "🤘",
-   "Гурт Avatar анонсував сольні концерти у Північній Америці",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55946/avatar-add-headlining-dates-to-spring-north-american-tour/",
-    "orig": "Avatar add headlining dates to spring North American tour"
-   }
-  ],
   [
    1794987091.7830398,
    6278,
@@ -8694,7 +8655,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🎮 <b>EA поверне голос покійного коментатора Джона Мотсона у FC 27 за допомогою ШІ</b>\n\nЛегендарний коментатор Джон Мотсон повернеться у FC 27 завдяки ШІ – Electronic Arts отримала дозвіл його родини на використання голосу, проте не всі підтримують таке рішення.\n\n🔗 <a href=\"https://mezha.ua/news/fc-27-will-bring-dead-commentator-with-ai-317581/\">Mezha</a> · #ігри",
     "kind": "photo",
     "link": "https://mezha.ua/news/fc-27-will-bring-dead-commentator-with-ai-317581/",
     "orig": "EA поверне голос покійного коментатора Джона Мотсона у FC 27 за допомогою ШІ"
@@ -8708,7 +8668,6 @@
    "VGC",
    {
     "also": [],
-    "caption": "🎮 <b>8-Bit Big Band видалили десятки треків через проблеми з авторським правом Nintendo</b>\n\nГурт 8-Bit Big Band видалив 37 пісень із YouTube та стрімінгових сервісів через відсутність належних ліцензій від Nintendo. Серед видалених композицій — кавери на Mario, Animal Crossing та Zelda. Зокрема, зникли два треки, що здобули премію Grammy: &#x27;Meta Knight’s Revenge&#x27; та &#x27;Super Mario Praise Break&#x27;.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/grammy-award-winning-band-removes-dozens-of-tracks-following-nintendo-copyright-issues/\">VGC</a> · #ігри #Nintendo #8BitBigBand",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/news/grammy-award-winning-band-removes-dozens-of-tracks-following-nintendo-copyright-issues/",
     "orig": "Grammy Award-winning band removes dozens of tracks following Nintendo copyright issues"
@@ -9539,6 +9498,34 @@
     "link": "https://variety.com/2026/tv/news/jiostar-star-plus-colors-mtv-india-fubo-us-1236958804/",
     "orig": "JioStar Brings Star Plus, Colors and Five More Indian TV Channels to Fubo in the U.S."
    }
+  ],
+  [
+   1795676524.9486387,
+   7013,
+   "🎬",
+   "Disney розкрила список пісень для мультфільму Hexed",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Disney розкрила список пісень для мультфільму Hexed</b>\n\nАнімаційний фільм Hexed розповідає про сім&#x27;ю відьом. Саундтрек містить оригінальну музику Кріса Бауерса, а також треки Dua Lipa та Demi Lovato. Гайлі Стейнфелд, яка озвучила головну героїню, виконала кавер на пісню гурту The Cars.\n\n🔗 <a href=\"https://deadline.com/2026/11/hexed-soundtrack-songs-queen-dua-lipa-hailee-steinfeld-1237233514/\">Deadline</a> · #кіно_і_серіали #Disney #Hexed",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/hexed-soundtrack-songs-queen-dua-lipa-hailee-steinfeld-1237233514/",
+    "orig": "All The Songs In Disney’s ‘Hexed’: Queen, Dua Lipa & More"
+   }
+  ],
+  [
+   1795676583.541118,
+   7014,
+   "🎮",
+   "Delta Force та Metal Gear Solid Delta: Snake Eater запускають колаборацію",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/2507950/\">Delta Force</a> та Metal Gear Solid Delta: Snake Eater запускають колаборацію</b>\n🕹 <a href=\"https://store.steampowered.com/app/2507950/\">Delta Force</a> — безкоштовно\n\nСпільний івент розпочнеться 27 листопада і триватиме до кінця грудня 2026 року. Гравці зможуть отримати скін Naked Snake для Nox, тематичну гвинтівку SR-3M та картонну коробку. Нагороди доступні за вхід у гру, виживання в матчах та використання Delta Tickets.\n\n🔗 <a href=\"https://insider-gaming.com/delta-force-metal-gear-solid-event/\">Insider Gaming</a> · #ігри #DeltaForce #MetalGearSolid",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/delta-force-metal-gear-solid-event/",
+    "orig": "Delta Force x Metal Gear Solid Event Goes Live in Two Days"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9616,10 +9603,10 @@
    1795618958.7923093
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1795568557.5883355,
    1795613581.4219947,
    1795624430.5968168,
-   1795647734.3702335
+   1795647734.3702335,
+   1795676583.5413494
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1795620686.3503785
@@ -9677,7 +9664,8 @@
    1795664560.2934475,
    1795665828.7783973,
    1795667543.2810812,
-   1795671132.8848634
+   1795671132.8848634,
+   1795676524.9488606
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795422683.5492282
@@ -10487,6 +10475,7 @@
   "4cd881b2588872fc": 1794632474.2095976,
   "4ce91fd08641cb01": 1795636857.6494942,
   "4ceecf65844b900d": 1794879091.116545,
+  "4d13a487bc5df9a4": 1795676583.5412974,
   "4d3c850fb8e3704f": 1795577483.8299608,
   "4d41e70658ad4fda": 1795523467.6205294,
   "4d49a7c8d58176a1": 1795438886.0333269,
@@ -11252,6 +11241,7 @@
   "9dec76a1fcfa99e6": 1795428211.79325,
   "9e59a41981e0e8f1": 1795527243.1793513,
   "9e5fb1e477b95fb9": 1794920486.4120889,
+  "9e6a327297b64b9b": 1795676524.9488115,
   "9e8afc5b12fe9b3b": 1795275080.273022,
   "9eb1f90b527a2351": 1795385098.7136455,
   "9ed0e11ca3c2479d": 1795582984.527879,
@@ -11763,7 +11753,6 @@
   "d613b6858b10eb3a": 1794841324.4617226,
   "d61acba2e826afd4": 1794990707.3619707,
   "d61f53951b737b2e": 1794853852.7215874,
-  "d63adf0d2e971a9f": 1794466916.2196858,
   "d647a40b6d7eb279": 1795356229.0879512,
   "d664b5a459f3111e": 1795169023.4564095,
   "d69f0d39c638e4d5": 1795105867.4596348,
@@ -11861,7 +11850,6 @@
   "e02468f18c872112": 1795222970.5537045,
   "e07123461fe01938": 1794736889.2868085,
   "e0d00c08b8c853e2": 1794555081.9932432,
-  "e0ff9411e353d849": 1794466941.6055038,
   "e100efa2f2ede575": 1795042855.9275043,
   "e10969bd392eeff7": 1795532494.8417895,
   "e1151e856867ad55": 1795190456.7331672,
@@ -13387,7 +13375,7 @@
    "Bloomberg": 27,
    "DOU": 2,
    "DOU Gamedev": 3,
-   "Deadline": 48,
+   "Deadline": 49,
    "Decibel": 1,
    "Distorted Sound": 3,
    "Eurogamer": 6,
@@ -13396,7 +13384,7 @@
    "Hugging Face": 4,
    "ITC.ua": 24,
    "IndieWire": 7,
-   "Insider Gaming": 9,
+   "Insider Gaming": 10,
    "Kerrang!": 1,
    "Lambgoat": 15,
    "Loudwire": 1,
@@ -13421,7 +13409,7 @@
    "gemini-flash-latest": 7,
    "gemini-flash-lite-latest": 91,
    "gemma-4-26b-a4b-it": 70,
-   "gemma-4-31b-it": 100
+   "gemma-4-31b-it": 102
   },
   "week": "2026-W48"
  },
@@ -14516,6 +14504,11 @@
    "Delayed",
    1793415681.1304584
   ],
+  "q:delta force": [
+   2507950,
+   "Delta Force",
+   1795676526.9791408
+  ],
   "q:deltarune": [
    1671210,
    "DELTARUNE",
@@ -14845,6 +14838,26 @@
    0,
    "",
    1795527087.6521583
+  ],
+  "q:gear solid": [
+   0,
+   "",
+   1795676531.6026351
+  ],
+  "q:gear solid event": [
+   0,
+   "",
+   1795676531.0942073
+  ],
+  "q:gear solid event goes": [
+   0,
+   "",
+   1795676530.592375
+  ],
+  "q:gear solid event goes live": [
+   0,
+   "",
+   1795676530.099384
   ],
   "q:glorious": [
    1678810,
@@ -15195,6 +15208,31 @@
    577980,
    "Messiah",
    1793104420.767276
+  ],
+  "q:metal gear": [
+   0,
+   "",
+   1795676529.538003
+  ],
+  "q:metal gear solid": [
+   0,
+   "",
+   1795676529.0157447
+  ],
+  "q:metal gear solid event": [
+   0,
+   "",
+   1795676528.4927742
+  ],
+  "q:metal gear solid event goes": [
+   0,
+   "",
+   1795676527.9919455
+  ],
+  "q:metal gear solid event goes live": [
+   0,
+   "",
+   1795676527.4759989
   ],
   "q:metroidvania": [
    4986900,
@@ -16071,6 +16109,16 @@
    "SLOP",
    1793365294.3814354
   ],
+  "q:solid event goes live": [
+   0,
+   "",
+   1795676532.5929077
+  ],
+  "q:solid event goes live in two": [
+   0,
+   "",
+   1795676532.0989928
+  ],
   "q:songs of the past": [
    4825960,
    "Songs of the Past",
@@ -16589,10 +16637,6 @@
   1795654984.4259295
  ],
  "titles": [
-  [
-   1795503766.3528054,
-   "Why Is the ‘Avengers: Doomsday’ Trailer So… Gloomy? Internet Erupts Over Latest Look at Marvel Movie"
-  ],
   [
    1795503820.3193882,
    "Adam Driver Teases His ‘X-Men’ Villain Mister Sinister to Seth Meyers"
@@ -17320,13 +17364,17 @@
   [
    1795674811.28253,
    "JioStar Brings Star Plus, Colors and Five More Indian TV Channels to Fubo in the U.S."
+  ],
+  [
+   1795676524.948814,
+   "All The Songs In Disney’s ‘Hexed’: Queen, Dua Lipa & More"
+  ],
+  [
+   1795676583.5412998,
+   "Delta Force x Metal Gear Solid Event Goes Live in Two Days"
   ]
  ],
  "titles_uk": [
-  [
-   1795503766.352806,
-   "Трейлер Avengers: Doomsday викликав суперечки через похмуру атмосферу"
-  ],
   [
    1795503820.3193889,
    "Адам Драйвер зіграє лиходія Mister Sinister у перезапуску X-Men"
@@ -18054,6 +18102,14 @@
   [
    1795674811.2825308,
    "JioStar додала Star Plus, Colors та ще п'ять індійських ТБ-каналів до Fubo у США"
+  ],
+  [
+   1795676524.9488149,
+   "Disney розкрила список пісень для мультфільму Hexed"
+  ],
+  [
+   1795676583.5413008,
+   "Delta Force та Metal Gear Solid Delta: Snake Eater запускають колаборацію"
   ]
  ],
  "ukrainian": {
