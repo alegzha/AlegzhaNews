@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1795689078.6655848
+  }
+ },
  "daily_digest_date": "2026-11-25",
  "freebies": {
   "last_check": 1795685578.7114382,
@@ -31,30 +38,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-26 10:05 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-26 10:32 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemma-4-26b-a4b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794997922.7440646,
-   6290,
-   "🤖",
-   "Suno отримав функцію Visuals для створення відео під згенеровану музику",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/sunos-new-visuals-feature-pairs-ai-generated-music-with-ai-generated-video/",
-    "orig": "Suno's new Visuals feature pairs AI-generated music with AI-generated video"
-   }
-  ],
   [
    1794998198.14624,
    6291,
@@ -8676,7 +8670,6 @@
    "Hugging Face",
    {
     "also": [],
-    "caption": "🤖 <b>Вчені визначають межі можливостей ШІ-агентів</b>\n\n🔗 <a href=\"https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents\">Hugging Face</a> · #ШІ",
     "kind": "photo",
     "link": "https://huggingface.co/blog/allenai/where-scientists-draw-the-line-on-ai-agents",
     "orig": "Where scientists draw the line on AI agents"
@@ -8690,7 +8683,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Amazon та Meta обговорюють доступ ШІ-агента Muse до магазину Amazon</b>\n\nAmazon та Meta ведуть переговори про відновлення доступу ШІ-агента Muse до онлайн-магазину Amazon. Основною перешкодою є контроль над рекламними доходами та результатами пошуку. Muse вже має понад 10 мільйонів користувачів і забезпечує 51% усіх замовлень через ШІ-агентів.\n\n🔗 <a href=\"https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/\">The Decoder</a> · #ШІ #Amazon #Meta",
     "kind": "photo",
     "link": "https://the-decoder.com/amazon-and-meta-are-in-talks-to-end-the-block-on-metas-ai-shopping-agent-muse-in-amazons-online-store/",
     "orig": "Amazon and Meta are in talks to end the block on Meta's AI shopping agent Muse in Amazon's online store."
@@ -9521,6 +9513,34 @@
     "link": "https://www.polygon.com/outlander-2008-defense-turkey-day/",
     "orig": "'Alien' Meets 'Vikings' in a 2008 Sci-Fi Spin on Beowulf That Deserves Redemption"
    }
+  ],
+  [
+   1795689136.1745484,
+   7027,
+   "🎬",
+   "У новій біографії Боба Айгера згадують про його позашлюбний зв'язок із працівницею ABC",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>У новій біографії Боба Айгера згадують про його позашлюбний зв&#x27;язок із працівницею ABC</b>\n\nУ книзі Robbie Whelan «The House of Mouse» стверджується, що Боб Айгер мав позашлюбний зв&#x27;язок із працівницею ABC у 1990-х роках, який призвів до вагітності. Адвокати Боба Айгера вже надіслали видавцю юридичні претензії, називаючи інформацію у книзі неправдивою та такою, що порочить його репутацію.\n\n🔗 <a href=\"https://variety.com/2026/film/global/bob-iger-employee-pregnant-new-book-1236958840/\">Variety</a> · #кіно_і_серіали #Disney",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/global/bob-iger-employee-pregnant-new-book-1236958840/",
+    "orig": "Former Disney Boss Bob Iger ‘Got ABC Employee Pregnant’ During Affair, New Book Claims"
+   }
+  ],
+  [
+   1795689138.1095405,
+   7028,
+   "🎬",
+   "Понад 70 робіт і полотно з дому Сталлоне: арткнига до 50-річчя «Роккі»",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎬 <b>Понад 70 робіт і полотно з дому Сталлоне: арткнига до 50-річчя «Роккі»</b>\n\nДо 50-річчя «Роккі» художник Джон Ріволі випустив книгу The Fine Art of Rocky: An Artistic Tribute From Screen to Canvas. У ній зібрано понад 70 картин, постерів та інших робіт за мотивами франшизи, частину з яких публіка раніше не бачила. Про це повідомляє Variety.\n\n🔗 <a href=\"https://itc.ua/ua/novini/ponad-70-robit-i-polotno-z-domu-stallone-artknyga-do-50-richchya-rokki/\">ITC.ua</a> · #кіно_і_серіали",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/ponad-70-robit-i-polotno-z-domu-stallone-artknyga-do-50-richchya-rokki/",
+    "orig": "Понад 70 робіт і полотно з дому Сталлоне: арткнига до 50-річчя «Роккі»"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9663,7 +9683,8 @@
    1795687455.3926833
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
-   1795683674.016385
+   1795683674.016385,
+   1795689138.1097944
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
    1795651499.8481889,
@@ -9675,9 +9696,9 @@
    1795507282.132235
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1795595796.8069992,
    1795664106.774948,
-   1795674811.2825713
+   1795674811.2825713,
+   1795689136.1748013
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1795647786.1252177,
@@ -10149,7 +10170,6 @@
   "280f0e01bc431aae": 1794852103.6623578,
   "286a5bd36be958ab": 1795629654.2516186,
   "28919db56281af50": 1795181454.9966192,
-  "289c1a8a13823e95": 1794477956.9575336,
   "28a13e0627e48d0e": 1795024853.7713437,
   "28a7d9eb7887e21e": 1795235481.3496768,
   "28b14e9de5256bb3": 1794524493.4766808,
@@ -10940,6 +10960,7 @@
   "7d75fbf5660cfd4c": 1795113261.9904413,
   "7d8321c30b48b6e4": 1794569525.33716,
   "7d9153c0bf2c6f9a": 1795089086.610102,
+  "7d9b843b1c65e2ff": 1795689138.1097498,
   "7d9fb16fe51dfeff": 1795510888.5961578,
   "7da1aa5af83fca9b": 1794961881.3375428,
   "7dccb487c29d857b": 1794711697.966141,
@@ -11078,7 +11099,6 @@
   "8b648218609e950a": 1795559476.8575454,
   "8b6fd016fc9d653d": 1794619886.7911649,
   "8b93cfcbd366393c": 1794875490.1073031,
-  "8bb9b1bbd3d2ad72": 1794478233.0950007,
   "8bcb4c9b6a2acf13": 1795217582.0033872,
   "8bcc595abe240c3b": 1795437092.8483765,
   "8bcf2251ec335357": 1794990716.128772,
@@ -11445,6 +11465,7 @@
   "b3acefd75abeda30": 1795109457.1504688,
   "b3ae0231c981982f": 1794844886.9726446,
   "b3daa2d6912f86dd": 1795064479.5724437,
+  "b3f3580418e0f28f": 1795689058.2360141,
   "b400aa22068cb5c7": 1794504655.5700643,
   "b41e2782d523a29d": 1795163455.9823968,
   "b43bd61a6e37587e": 1795610014.9278946,
@@ -11724,6 +11745,7 @@
   "d3362eeed0450381": 1795152758.4494374,
   "d3387d6acdd9d374": 1795008653.7476661,
   "d35e44ad077c965f": 1795395681.3624852,
+  "d3601d3d1e7813a3": 1795689136.1747546,
   "d37fa77188fe3ab5": 1795446326.900088,
   "d393800a98520761": 1795083121.6604207,
   "d3955933d240d402": 1795626244.9893937,
@@ -13358,7 +13380,7 @@
    "Eurogamer": 1,
    "GameSpot": 6,
    "GamesIndustry.biz": 1,
-   "IGN": 12,
+   "IGN": 13,
    "IndieWire": 2,
    "Insider Gaming": 58,
    "Loudwire": 1,
@@ -13385,7 +13407,7 @@
    "GameSpot": 1,
    "GamesIndustry.biz": 7,
    "Hugging Face": 4,
-   "ITC.ua": 27,
+   "ITC.ua": 28,
    "IndieWire": 7,
    "Insider Gaming": 10,
    "Kerrang!": 1,
@@ -13405,13 +13427,13 @@
    "The Decoder": 10,
    "ThePRP": 5,
    "VGC": 10,
-   "Variety": 21
+   "Variety": 22
   },
   "translators": {
    "DeepL": 24,
    "gemini-flash-latest": 7,
    "gemini-flash-lite-latest": 96,
-   "gemma-4-26b-a4b-it": 71,
+   "gemma-4-26b-a4b-it": 72,
    "gemma-4-31b-it": 103
   },
   "week": "2026-W48"
@@ -13716,16 +13738,6 @@
    0,
    "",
    1795530758.7241852
-  ],
-  "q:12th": [
-   0,
-   "",
-   1795514509.2895563
-  ],
-  "q:12th gamecube": [
-   0,
-   "",
-   1795514508.691885
   ],
   "q:15": [
    0,
@@ -14126,11 +14138,6 @@
    455320,
    "Blood and Ice",
    1793541751.437324
-  ],
-  "q:blue storm": [
-   0,
-   "",
-   1795514508.1368766
   ],
   "q:blueprints": [
    2144910,
@@ -14761,11 +14768,6 @@
    5061320,
    "Game World",
    1793099048.3412912
-  ],
-  "q:gamecube": [
-   0,
-   "",
-   1795514509.8458705
   ],
   "q:gameplay": [
    0,
@@ -15702,16 +15704,6 @@
    "Queen's Domain",
    1793885633.6638594
   ],
-  "q:race blue": [
-   0,
-   "",
-   1795514507.5701764
-  ],
-  "q:race blue storm": [
-   0,
-   "",
-   1795514507.0701556
-  ],
   "q:rayman legends retold": [
    4084710,
    "Rayman Legends Retold",
@@ -16327,11 +16319,6 @@
    "",
    1795591903.4656522
   ],
-  "q:switch online": [
-   0,
-   "",
-   1795514510.4664552
-  ],
   "q:switch online just": [
    0,
    "",
@@ -16507,21 +16494,6 @@
    "Warlords IV: Heroes of Etheria",
    1795393882.5479772
   ],
-  "q:wave race": [
-   0,
-   "",
-   1795514506.4609365
-  ],
-  "q:wave race blue": [
-   0,
-   "",
-   1795514505.7858584
-  ],
-  "q:wave race blue storm": [
-   0,
-   "",
-   1795514505.1391847
-  ],
   "q:we played": [
    0,
    "",
@@ -16642,6 +16614,7 @@
   "Mezha": [
    "aeno",
    "aeno premium eco smart space heater",
+   "brave1",
    "nvidia",
    "spacex",
    "авто",
@@ -16650,34 +16623,34 @@
    "боєприпаси",
    "бпла",
    "бізнес",
-   "вибухові речовини",
    "військовослужбовці",
    "гібридні авто",
-   "дрони",
    "дім",
    "кабмін",
    "каміни",
    "китай",
    "київстар",
    "кндр",
-   "кодифікація",
-   "кіберзлочини",
    "мобільний зв'язок",
    "мобільні оператори",
    "міноборони",
    "новини",
+   "нью-йорк",
    "оборонка",
    "обігрівачі",
    "огляди",
+   "ппо",
    "ракети",
-   "реб",
    "росія",
    "сили оборони",
-   "софт",
    "технології",
    "україна",
+   "чатботи",
    "чипи",
+   "шахед",
+   "штучний інтелект",
    "європа",
+   "іграшки",
    "ілон маск",
    "інновації"
   ]
@@ -16687,10 +16660,6 @@
   1795654984.4259295
  ],
  "titles": [
-  [
-   1795516340.3938677,
-   "Hourly Journal"
-  ],
   [
    1795518253.512007,
    "Scott Pilgrim Is Officially Coming to Fortnite"
@@ -17418,13 +17387,17 @@
   [
    1795687502.1825302,
    "'Alien' Meets 'Vikings' in a 2008 Sci-Fi Spin on Beowulf That Deserves Redemption"
+  ],
+  [
+   1795689136.1747565,
+   "Former Disney Boss Bob Iger ‘Got ABC Employee Pregnant’ During Affair, New Book Claims"
+  ],
+  [
+   1795689138.1097517,
+   "Понад 70 робіт і полотно з дому Сталлоне: арткнига до 50-річчя «Роккі»"
   ]
  ],
  "titles_uk": [
-  [
-   1795516340.3938684,
-   "Hourly Journal — інструмент для щоденного обліку часу"
-  ],
   [
    1795518253.5120082,
    "Scott Pilgrim офіційно з'явиться у Fortnite"
@@ -18152,6 +18125,14 @@
   [
    1795687502.1825309,
    "Чому фантастичний бойовик Outlander 2008 року заслуговує на увагу"
+  ],
+  [
+   1795689136.174757,
+   "У новій біографії Боба Айгера згадують про його позашлюбний зв'язок із працівницею ABC"
+  ],
+  [
+   1795689138.1097527,
+   "Понад 70 робіт і полотно з дому Сталлоне: арткнига до 50-річчя «Роккі»"
   ]
  ],
  "ukrainian": {
@@ -20391,7 +20372,7 @@
     "coming_soon": false,
     "discount": 0,
     "name": "Dying Light 2 Stay Human: Reloaded Edition",
-    "price": "1 599,00₴",
+    "price": "429,00₴",
     "release": 1643932800
    },
    "553850": {
@@ -20640,7 +20621,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795685578.3230722,
+  "last_check": 1795689146.8625002,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
