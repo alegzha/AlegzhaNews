@@ -31,56 +31,19 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-26 11:31 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-26 12:06 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemma-4-26b-a4b-it": 1,
+   "gemma-4-31b-it": 1
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795002895.2057772,
-   6296,
-   "🎮",
-   "Скільки часу знадобиться на проходження Grand Theft Auto 6",
-   "VGC",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.videogameschronicle.com/guide/how-long-to-beat-grand-theft-auto-6/",
-    "orig": "How long to beat Grand Theft Auto 6"
-   }
-  ],
-  [
-   1795002898.9040487,
-   6297,
-   "🎬",
-   "Суд над актором Noel Clarke у справі про сексуальні злочини відбудеться у 2027 році",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/noel-clarke-sexual-offenses-trial-november-2027-1237227838/",
-    "orig": "Noel Clarke Sexual Offenses Trial Set For Next Year"
-   }
-  ],
-  [
-   1795003300.8771746,
-   6298,
-   "🤘",
-   "Bury Tomorrow випустили новий сингл Assimilate",
-   "Kerrang!",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.kerrang.com/hear-bury-tomorrow-get-existential-on-shapeshifting-new-single-assimilate",
-    "orig": "Hear Bury Tomorrow get existential on shapeshifting new single Assimilate"
-   }
-  ],
   [
    1795005106.254672,
    6299,
@@ -8676,7 +8639,6 @@
    "Neformat",
    {
     "also": [],
-    "caption": "🤘 <b>cybermykola презентує новий альбом окопного репу</b>\n\nДнями хіп-хоп виконавець оприлюднив уже третій у своїй дискографії повноформатний альбом — «ЦЕ АЛЬБОМ». Вже звично для виконавця, це вісім треків окопного репу, чорного гумору та іронії про війну й м\n\n🔗 <a href=\"https://www.neformat.com.ua/news/28496-cybermykola-prezentuie-noviy-albom.html\">Neformat</a> · #музика",
     "kind": "photo",
     "link": "https://www.neformat.com.ua/news/28496-cybermykola-prezentuie-noviy-albom.html",
     "orig": "cybermykola презентує новий альбом окопного репу"
@@ -8690,7 +8652,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Режисерка Twilight Катрин Гардвік прокоментувала роль Роберта Паттінсона у James Bond</b>\n\nРежисерка Twilight Катрин Гардвік зізналася, що була шокована затвердженням Роберта Паттінсона на роль James Bond. Вона не очікувала, що вибір впаде на такого відомого актора, який раніше зіграв у The Batman.\n\n🔗 <a href=\"https://deadline.com/2026/11/twilight-director-reaction-robert-pattinson-james-bond-1237233564/\">Deadline</a> · #кіно_і_серіали #Twilight #JamesBond",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/twilight-director-reaction-robert-pattinson-james-bond-1237233564/",
     "orig": "‘Twilight’ Director On Robert Pattinson Landing James Bond Role: “I Almost Fell Out Of My Bed”"
@@ -9521,6 +9482,34 @@
     "link": "https://itc.ua/ua/novini/playstation-plus-u-grudni-2026-tony-hawks-pro-skater-3-4-dragon-ball-xenoverse-2-amnesia-the-bunker/",
     "orig": "Скейтбординґ, аніме-файтинґ і горор у бункері: Sony назвала ігри PS Plus Essential на грудень"
    }
+  ],
+  [
+   1795694566.6564128,
+   7033,
+   "🤖",
+   "Запущено бенчмарк-панель llama.cpp для AMD Ryzen та Radeon",
+   "Hugging Face",
+   {
+    "also": [],
+    "caption": "🤖 <b>Запущено бенчмарк-панель llama.cpp для AMD Ryzen та Radeon</b>\n\nНа Hugging Face з&#x27;явився дашборд для тестування продуктивності llama.cpp на залізі AMD Ryzen та Radeon. Інструмент дозволяє відстежувати швидкість обробки запитів і генерації тексту для різних моделей, квантувань та збірок. Це допоможе розробникам порівнювати результати локального інференсу на конкретному обладнанні.\n\n🔗 <a href=\"https://huggingface.co/blog/ggml-org/llamacpp-amd-bench\">Hugging Face</a> · #ШІ #AMD #LlamaCpp",
+    "kind": "photo",
+    "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
+    "orig": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon"
+   }
+  ],
+  [
+   1795694810.1654248,
+   7034,
+   "🎮",
+   "«Батько» PlayStation Кен Кутарагі зізнався, що таємно хотів переконати Microsoft створити Xbox",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>«Батько» PlayStation Кен Кутарагі зізнався, що таємно хотів переконати Microsoft створити Xbox</b>\n\nКен Кутарагі стверджує, що частково саме завдяки йому компанія Microsoft прийняла рішення про випуск Xbox\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/playstation-father-ken-kutaragi-claims-he-secretly-intended-to-convince-microsoft-to-make-xbox/\">VGC</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/playstation-father-ken-kutaragi-claims-he-secretly-intended-to-convince-microsoft-to-make-xbox/",
+    "orig": "PlayStation father Ken Kutaragi claims he ‘secretly intended’ to convince Microsoft to make Xbox"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9540,8 +9529,8 @@
    1795681880.741332
   ],
   "ai|Hugging Face|https://huggingface.co/blog/feed.xml": [
-   1795602779.6825244,
-   1795633328.4335647
+   1795633328.4335647,
+   1795694566.656665
   ],
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
    1795590097.5369325,
@@ -9630,10 +9619,9 @@
    1795530859.7196352
   ],
   "games|VGC|https://www.videogameschronicle.com/feed/": [
-   1795602851.323322,
-   1795606436.0267906,
    1795615427.674786,
-   1795620739.1839507
+   1795620739.1839507,
+   1795694810.1656635
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1795579375.4110098,
@@ -9806,6 +9794,7 @@
   "021c3528c6072e9a": 1795291257.7166088,
   "021ea2600fd140a7": 1795006853.2084172,
   "027978085d9b4855": 1795116654.1601062,
+  "02a088434703556c": 1795694566.6566222,
   "02cb591307df8ca9": 1795491106.4628417,
   "02e82a0803728488": 1794951055.3267138,
   "02f9ebbdd55cb2f6": 1794812490.789183,
@@ -9944,7 +9933,6 @@
   "1230b6c1c57b4eed": 1794630680.5266824,
   "123d1a5209e8b22c": 1794801687.5797327,
   "12849386e563fa4a": 1794799884.538975,
-  "1292882f1373b059": 1794483134.7948608,
   "12962f54a33977b4": 1794520892.330049,
   "12a048d71bf45c8d": 1794961877.8475974,
   "12ed899f1e039ff5": 1795154502.068142,
@@ -10136,7 +10124,6 @@
   "2722e18aaa1f07f4": 1795075254.4414396,
   "2749d460911f018d": 1795655039.1444461,
   "279d773f2dd2cfc0": 1795059079.8747375,
-  "279e28d5a980b132": 1794484988.2377057,
   "27b1aa235e117cd8": 1795141877.79079,
   "27b22805b56e061e": 1794828651.8879075,
   "27b30a1338e38084": 1794954684.957669,
@@ -10402,6 +10389,7 @@
   "4510c3b74b945030": 1795552267.2988262,
   "4533d535f5d4c560": 1794571365.4564254,
   "4545c8505213212b": 1794934856.9933658,
+  "45713b1cdeba51dc": 1795694477.6463861,
   "458f87217ef01273": 1795026653.649315,
   "45aaa81975719700": 1795435628.193958,
   "45b453e349d12cc9": 1794916888.418342,
@@ -11856,6 +11844,7 @@
   "e0d00c08b8c853e2": 1794555081.9932432,
   "e100efa2f2ede575": 1795042855.9275043,
   "e10969bd392eeff7": 1795532494.8417895,
+  "e10a66064b2af3ce": 1795694810.1656227,
   "e1151e856867ad55": 1795190456.7331672,
   "e1282edbb8857ed0": 1795559547.1554837,
   "e139384b2e043d17": 1795482149.6060832,
@@ -11934,7 +11923,6 @@
   "e80e7b7a1145a8f7": 1794850304.1275158,
   "e8101a8814d25c9d": 1795296653.5295594,
   "e85270af91805d21": 1795120257.8905454,
-  "e8721423a9652ff8": 1794484882.68605,
   "e8a793d46f685bd8": 1795509354.2348194,
   "e8a83a65ab647dcd": 1795438887.3733988,
   "e8d12699751208ed": 1795595930.5961425,
@@ -12106,6 +12094,7 @@
   "faf21b410aec80ad": 1794782159.160077,
   "fb10ee13be5ad53d": 1795012267.0331166,
   "fb210422208acb2e": 1794497454.0506542,
+  "fb33a4c8381e2258": 1795694455.8543363,
   "fb3f68248836938d": 1795114863.5731728,
   "fb85f46586edf216": 1795437054.9153414,
   "fbbd42e1c19e013e": 1795388453.5383751,
@@ -13352,7 +13341,7 @@
   },
   "filtered": {
    "/Film": 14,
-   "Bloomberg": 25,
+   "Bloomberg": 26,
    "Deadline": 8,
    "Eurogamer": 1,
    "GameSpot": 6,
@@ -13383,7 +13372,7 @@
    "Eurogamer": 7,
    "GameSpot": 1,
    "GamesIndustry.biz": 7,
-   "Hugging Face": 4,
+   "Hugging Face": 5,
    "ITC.ua": 29,
    "IndieWire": 7,
    "Insider Gaming": 10,
@@ -13403,15 +13392,15 @@
    "Stereogum": 2,
    "The Decoder": 10,
    "ThePRP": 5,
-   "VGC": 10,
+   "VGC": 11,
    "Variety": 22
   },
   "translators": {
-   "DeepL": 24,
+   "DeepL": 25,
    "gemini-flash-latest": 7,
    "gemini-flash-lite-latest": 98,
-   "gemma-4-26b-a4b-it": 72,
-   "gemma-4-31b-it": 103
+   "gemma-4-26b-a4b-it": 73,
+   "gemma-4-31b-it": 104
   },
   "week": "2026-W48"
  },
@@ -15006,6 +14995,11 @@
    "",
    1795602782.777542
   ],
+  "q:ken kutaragi": [
+   0,
+   "",
+   1795694569.216852
+  ],
   "q:kingdom come": [
    4815610,
    "Kingdom Come",
@@ -15020,6 +15014,11 @@
    1771300,
    "Kingdom Come: Deliverance II",
    1793120757.744315
+  ],
+  "q:kutaragi": [
+   0,
+   "",
+   1795694569.8406641
   ],
   "q:lake": [
    1118240,
@@ -15175,11 +15174,6 @@
    290380,
    "Micron",
    1793909028.0203238
-  ],
-  "q:microsoft flight simulator 2024": [
-   2537590,
-   "Microsoft Flight Simulator 2024",
-   1793100706.5187423
   ],
   "q:milki delivery": [
    4259360,
@@ -15921,6 +15915,11 @@
    "",
    1795615431.2522855
   ],
+  "q:secretly intended": [
+   0,
+   "",
+   1795694568.7058089
+  ],
   "q:sector plan": [
    0,
    "",
@@ -16495,21 +16494,19 @@
    "brave1",
    "macbook air",
    "nvidia",
-   "spacex",
+   "xpeng",
    "аеродром",
-   "балістика",
    "бойовий модуль",
-   "боєприпаси",
    "бпла",
-   "бізнес",
+   "винищувачі",
    "дім",
    "зсу",
    "каміни",
    "київстар",
-   "кндр",
    "мобільний зв'язок",
    "мобільні оператори",
    "міноборони",
+   "нептун",
    "новини",
    "ноутбуки",
    "нью-йорк",
@@ -16519,16 +16516,17 @@
    "огляди",
    "повітряні сили",
    "ппо",
-   "ракети",
+   "роботи",
    "росія",
+   "сили оборони",
+   "су-34",
    "технології",
    "україна",
    "чатботи",
    "чипи",
    "шахед",
    "штучний інтелект",
-   "іграшки",
-   "ілон маск"
+   "іграшки"
   ]
  },
  "telegraph": [
@@ -16536,22 +16534,6 @@
   1795654984.4259295
  ],
  "titles": [
-  [
-   1795519966.7356205,
-   "Microsoft reportedly looked into killing paid multiplayer for next-gen Xbox Helix consoles"
-  ],
-  [
-   1795520040.1639159,
-   "Anthropic's Claude Ship lets AI agents review, fix, and approve pull requests on their own"
-  ],
-  [
-   1795521719.2124171,
-   "Steam revamps its marketplace for the 2nd time this year"
-  ],
-  [
-   1795521915.362485,
-   "Rockstar is actively shopping Read Dead Redemption movie and TV rights around, just don't expect the same for Grand Theft Auto"
-  ],
   [
    1795523668.3617475,
    "World of Warcraft: Forever's been chasing bugs and gold exploits over the weekend—and now it turns out Sunder Armor might just not be working"
@@ -17275,25 +17257,17 @@
   [
    1795692710.817999,
    "Скейтбординґ, аніме-файтинґ і горор у бункері: Sony назвала ігри PS Plus Essential на грудень"
+  ],
+  [
+   1795694566.6566234,
+   "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon"
+  ],
+  [
+   1795694810.1656246,
+   "PlayStation father Ken Kutaragi claims he ‘secretly intended’ to convince Microsoft to make Xbox"
   ]
  ],
  "titles_uk": [
-  [
-   1795519966.7356212,
-   "Microsoft планувала зробити мультиплеєр безкоштовним для Xbox Helix"
-  ],
-  [
-   1795520040.1639166,
-   "Anthropic представила Claude Ship для автоматизації pull request"
-  ],
-  [
-   1795521719.2124178,
-   "Steam оновив торговий майданчик: персоналізація та спрощення продажу"
-  ],
-  [
-   1795521915.3624856,
-   "Rockstar активно пропонує права на екранізацію Red Dead Redemption, але не Grand Theft Auto"
-  ],
   [
    1795523668.3617482,
    "У World of Warcraft виявили експлойти з лутом та баг механіки Sunder Armor"
@@ -18017,6 +17991,14 @@
   [
    1795692710.8179994,
    "Скейтбординґ, аніме-файтинґ і горор у бункері: Sony назвала ігри PS Plus Essential на грудень"
+  ],
+  [
+   1795694566.6566238,
+   "Запущено бенчмарк-панель llama.cpp для AMD Ryzen та Radeon"
+  ],
+  [
+   1795694810.1656253,
+   "«Батько» PlayStation Кен Кутарагі зізнався, що таємно хотів переконати Microsoft створити Xbox"
   ]
  ],
  "ukrainian": {
