@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795735876.1240487
+  }
+ },
  "daily_digest_date": "2026-11-26",
  "freebies": {
   "last_check": 1795730527.5525744,
@@ -32,70 +39,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-26 23:02 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-26 23:36 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
-   "gemma-4-31b-it": 1
+   "gemini-flash-lite-latest": 2,
+   "gemma-4-26b-a4b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795042982.6481807,
-   6331,
-   "🎬",
-   "Мішель Монаган та Джастін Теру зіграють у фільмі Sleepover від Blumhouse",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/michelle-monaghan-justin-theroux-sleepover-1237228526/",
-    "orig": "Michelle Monaghan & Justin Theroux Are Having A ‘Sleepover’ With Blumhouse Atomic & Universal"
-   }
-  ],
-  [
-   1795044685.7931073,
-   6332,
-   "🤘",
-   "Прогресив-рок дует Mythless анонсував дебютний альбом Hex",
-   "Stereogum",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://stereogum.com/2518625/mythless-announce-debut-album-hex-hear-brocken-spectre/music/",
-    "orig": "Mythless Announce Debut Album Hex: Hear “Brocken Spectre”"
-   }
-  ],
-  [
-   1795044693.0251772,
-   6333,
-   "🎬",
-   "Ілон Маск пошкодував про витрату мільйонів на кампанію MAGA",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://deadline.com/2026/11/elon-musk-midterms-regrets-1237228534/",
-    "orig": "Elon Musk Feels “Pretty Foolish” For Donating Mega-Bucks To Losing MAGA In Midterms"
-   }
-  ],
-  [
-   1795044701.4839485,
-   6334,
-   "🎬",
-   "Ілон Маск зізнався, що почувається по-дурному через витрачені на вибори $500 млн",
-   "Variety",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://variety.com/2026/digital/news/elon-musk-pretty-foolish-midterm-election-races-not-maga-1236952400/",
-    "orig": "Elon Musk Admits He Feels ‘Pretty Foolish’ Having Spent Nearly $500 Million on Midterm Election Races Won by Democrats, Claims He Is ‘Not MAGA’"
-   }
-  ],
   [
    1795046483.6046648,
    6335,
@@ -8789,7 +8744,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Disney розкрила список пісень для мультфільму Hexed</b>\n\nАнімаційний фільм Hexed розповідає про сім&#x27;ю відьом. Саундтрек містить оригінальну музику Кріса Бауерса, а також треки Dua Lipa та Demi Lovato. Гайлі Стейнфелд, яка озвучила головну героїню, виконала кавер на пісню гурту The Cars.\n\n🔗 <a href=\"https://deadline.com/2026/11/hexed-soundtrack-songs-queen-dua-lipa-hailee-steinfeld-1237233514/\">Deadline</a> · #кіно_і_серіали #Disney #Hexed",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/hexed-soundtrack-songs-queen-dua-lipa-hailee-steinfeld-1237233514/",
     "orig": "All The Songs In Disney’s ‘Hexed’: Queen, Dua Lipa & More"
@@ -8803,7 +8757,6 @@
    "Insider Gaming",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/2507950/\">Delta Force</a> та Metal Gear Solid Delta: Snake Eater запускають колаборацію</b>\n🕹 <a href=\"https://store.steampowered.com/app/2507950/\">Delta Force</a> — безкоштовно\n\nСпільний івент розпочнеться 27 листопада і триватиме до кінця грудня 2026 року. Гравці зможуть отримати скін Naked Snake для Nox, тематичну гвинтівку SR-3M та картонну коробку. Нагороди доступні за вхід у гру, виживання в матчах та використання Delta Tickets.\n\n🔗 <a href=\"https://insider-gaming.com/delta-force-metal-gear-solid-event/\">Insider Gaming</a> · #ігри #DeltaForce #MetalGearSolid",
     "kind": "photo",
     "link": "https://insider-gaming.com/delta-force-metal-gear-solid-event/",
     "orig": "Delta Force x Metal Gear Solid Event Goes Live in Two Days"
@@ -8817,7 +8770,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>Хакер викрав дані користувачів 1Password – компанія запевняє, що паролі не постраждали</b>\n\nХакер зламав GitHub-акаунт працівника 1Password, додав шкідливий код до серверних систем і викрав імена, електронні адреси та метадані частини користувачів. Сховища паролів і ключі шифрування не постраждали, однак компанія попереджає про можливі фішингові листи та запити на відновлення доступу.\n\n🔗 <a href=\"https://mezha.ua/news/1password-breach-317594/\">Mezha</a> · #софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/1password-breach-317594/",
     "orig": "Хакер викрав дані користувачів 1Password – компанія запевняє, що паролі не постраждали"
@@ -9644,6 +9596,48 @@
     "link": "https://lambgoat.com/news/56083/members-of-body-count-stone-sour-and-ex-lamb-of-god-from-new-project-insidias/",
     "orig": "Members of Body Count, Stone Sour and ex-Lamb Of God from new project, Insidias"
    }
+  ],
+  [
+   1795735975.978291,
+   7076,
+   "🎬",
+   "Тизер Avengers: Doomsday показав шрам на обличчі Доктора Дума у виконанні RDJ",
+   "/Film",
+   {
+    "also": [],
+    "caption": "🎬 <b>Тизер Avengers: Doomsday показав шрам на обличчі Доктора Дума у виконанні RDJ</b>\n\nУ новому ролику фільму Magneto намагається зняти маску з Doctor Doom, завдяки чому ми бачимо його поранене обличчя\n\n🔗 <a href=\"https://www.slashfilm.com/2329265/avengers-doomsday-tv-spot-rdj-doctor-doom-scarred-face/\">/Film</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://www.slashfilm.com/2329265/avengers-doomsday-tv-spot-rdj-doctor-doom-scarred-face/",
+    "orig": "Avengers: Doomsday TV Spot Confirms RDJ's Doctor Doom Has A Scarred Face"
+   }
+  ],
+  [
+   1795736156.050202,
+   7077,
+   "🎮",
+   "Оновлення V3.0 для Infinity Nikki додає нові міста та вбрання",
+   "IGN",
+   {
+    "also": [],
+    "caption": "🎮 <b>Оновлення V3.0 для <a href=\"https://store.steampowered.com/app/3164330/\">Infinity Nikki</a> додає нові міста та вбрання</b>\n🕹 <a href=\"https://store.steampowered.com/app/3164330/\">Infinity Nikki</a> — безкоштовно\n\nМасштабне оновлення V3.0 для Infinity Nikki під назвою Of Yesterday and Tomorrow додає два нові міста, зокрема художню столицю Cicia, близько дев&#x27;яти годин сюжетного контенту та нові вбрання з унікальними здібностями. Також гравці отримають до 160 безплатних круток і 19 нових комплектів одягу під час святкування дня народження героїні.\n\n🔗 <a href=\"https://www.ign.com/articles/after-playing-infinity-nikki-30-for-four-hours-its-new-cities-and-outfits-are-just-some-of-the-additions-worth-returning-for\">IGN</a> · #ігри #InfinityNikki",
+    "kind": "photo",
+    "link": "https://www.ign.com/articles/after-playing-infinity-nikki-30-for-four-hours-its-new-cities-and-outfits-are-just-some-of-the-additions-worth-returning-for",
+    "orig": "After Playing Infinity Nikki 3.0 for Four Hours, its New Cities and Outfits Are Just Some of the Additions Worth Returning For"
+   }
+  ],
+  [
+   1795736216.225662,
+   7078,
+   "🤘",
+   "Molly Hatchet випустили новий альбом Lost Horizon, записаний на Abbey Road",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Molly Hatchet випустили новий альбом Lost Horizon, записаний на Abbey Road</b>\n\nMolly Hatchet випустили свій чотирнадцятий студійний альбом Lost Horizon через 16 років після Justice. Запис проходив у лондонській студії Abbey Road, зокрема у Studio Two, де працювали The Beatles. Пластинка виконана у стилі southern rock і містить як нові треки, так і кавер на Helter Skelter.\n\n🔗 <a href=\"https://www.loudersound.com/music/albums/molly-hatchet-lost-horizon\">Metal Hammer (Louder)</a> · #музика #MollyHatchet",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/music/albums/molly-hatchet-lost-horizon",
+    "orig": "Molly Hatchet's Lost Horizons: Recorded at London's Abbey Road, but all-American to the core"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9711,8 +9705,7 @@
    1795705329.5482755
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
-   1795307527.7208965,
-   1795332802.884151
+   1795736156.0504553
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
    1795685569.5407915,
@@ -9762,11 +9755,8 @@
    1795732388.9681342
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
-   1795579375.4110098,
-   1795581284.9217384,
-   1795588372.718482,
-   1795649497.5579655,
-   1795658701.0639138
+   1795658701.0639138,
+   1795735975.97862
   ],
   "movies|Bloomberg|https://www.bloomberg.com/feeds/industries/news.rss": [
    1792944099.3403795,
@@ -9838,10 +9828,9 @@
    1795478516.0810792
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
-   1795582984.5279279,
-   1795584817.283926,
    1795655039.1444924,
-   1795660335.4747827
+   1795660335.4747827,
+   1795736216.2259176
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1795244826.8845444
@@ -10046,6 +10035,7 @@
   "0f10fb83d31acb41": 1795730514.0988455,
   "0f2a63b7e2d97278": 1795006853.2084172,
   "0f9918d164ebd2a2": 1795620660.2160394,
+  "0f9fd32071a342e2": 1795736216.2258751,
   "0fb410c04713d96b": 1795149176.8727546,
   "0ff24f09d1e42fea": 1795160042.8999865,
   "1004f5b1d037c0c2": 1794908254.4516182,
@@ -10084,7 +10074,6 @@
   "132e3956b61780c4": 1794893459.6418285,
   "133cdddc2fde138e": 1795237362.1854103,
   "133df0752acd0a06": 1795462323.2517316,
-  "13588c6d5470b5f4": 1794526288.7215617,
   "1384678544a8eeef": 1795219282.8535988,
   "138e316a30c220bf": 1795231890.2785,
   "13b8d5717d999f2b": 1795678279.5631053,
@@ -10514,7 +10503,6 @@
   "412f52aabd441c50": 1795665775.7838078,
   "41371a3772bd65c2": 1794886253.941115,
   "41a3b738105980c9": 1795203087.458505,
-  "41af9493af0cf53b": 1794526281.7948456,
   "41c9551765274204": 1795190539.9781833,
   "41db8d6b264a6329": 1794621696.949433,
   "422c435faeeda0e5": 1795444268.4054976,
@@ -10562,7 +10550,6 @@
   "484be33331d7f28d": 1795489396.8073578,
   "48748b8c64ba0f16": 1795050069.409945,
   "488190ccdb717476": 1794594655.5581527,
-  "48a84460fbb5da16": 1794526254.358723,
   "48cfa8b738b7d95f": 1794884529.379504,
   "48e9f2543a55a3f4": 1795609864.8297842,
   "492580dd43b03d52": 1795134923.0482888,
@@ -10916,7 +10903,6 @@
   "6b55fa25bf5d35d1": 1794803489.1798482,
   "6ba3a23fa211ace0": 1794866643.4631548,
   "6bba7e58d44edbb2": 1795541457.6312466,
-  "6bd172f668062b9c": 1794526285.0047514,
   "6bdd8cfb21a40a7a": 1795150925.8389647,
   "6bf13920d8399965": 1795685569.5407493,
   "6bfad1890bdcb42a": 1795266083.4140286,
@@ -11037,6 +11023,7 @@
   "789655e8ca912d99": 1794918915.4973063,
   "78bf4c326803ceaa": 1795098825.54422,
   "78bf8aef58a83f92": 1794852104.3454187,
+  "78ce70916882a055": 1795735975.9785287,
   "78f10ffc92d748a5": 1794927708.0906649,
   "78f597b729be2b25": 1795169002.4797568,
   "7929016311e7cb9b": 1795442690.6077282,
@@ -11092,6 +11079,7 @@
   "7dfbe2aec2a3842a": 1795698083.1127138,
   "7e0f3da0d2078416": 1795365182.2471817,
   "7e3760c446c8cb34": 1795683653.653951,
+  "7e3805c093434041": 1795736156.0504096,
   "7e3c0b6e167d5ecf": 1795419076.99755,
   "7e5179891b2a5c6a": 1794805382.9662855,
   "7e51a9c0ae735278": 1795237263.5151572,
@@ -11766,6 +11754,7 @@
   "c6c58a4336b80ac1": 1795523668.3617456,
   "c6c6bca55a426e5e": 1795530656.5277925,
   "c6f66c0f3804d817": 1795059075.8119717,
+  "c71b62238449c818": 1795735856.2251754,
   "c721d7cfb6967e78": 1794592887.906931,
   "c7368023d59a02b6": 1794623453.1714458,
   "c738682875364997": 1795192256.6890233,
@@ -12097,7 +12086,6 @@
   "e96f29b738a8fe95": 1795275136.563475,
   "e9c7b7798ee94ff3": 1795134676.9737735,
   "e9cf515d6be53776": 1795532545.0503173,
-  "e9ee834f07002a34": 1794526278.3937762,
   "ea020bd4c163cf88": 1795001473.0646799,
   "ea19693a12bb6c71": 1795486710.6602783,
   "ea2065f78b532f39": 1794900685.0720696,
@@ -13523,11 +13511,11 @@
    "Rock Paper Shotgun": 2,
    "SteamDB": 1,
    "ThePRP": 1,
-   "VGC": 33,
+   "VGC": 34,
    "Variety": 15
   },
   "sources": {
-   "/Film": 14,
+   "/Film": 15,
    "AIN.ua": 3,
    "Blabbermouth": 4,
    "Bloomberg": 32,
@@ -13541,13 +13529,14 @@
    "GameSpot": 1,
    "GamesIndustry.biz": 8,
    "Hugging Face": 5,
+   "IGN": 1,
    "ITC.ua": 37,
    "IndieWire": 7,
    "Insider Gaming": 11,
    "Kerrang!": 1,
    "Lambgoat": 16,
    "Loudwire": 1,
-   "Metal Hammer (Louder)": 12,
+   "Metal Hammer (Louder)": 13,
    "Mezha": 30,
    "Neformat": 16,
    "PC Gamer": 10,
@@ -13566,8 +13555,8 @@
   "translators": {
    "DeepL": 26,
    "gemini-flash-latest": 7,
-   "gemini-flash-lite-latest": 110,
-   "gemma-4-26b-a4b-it": 79,
+   "gemini-flash-lite-latest": 112,
+   "gemma-4-26b-a4b-it": 80,
    "gemma-4-31b-it": 109
   },
   "week": "2026-W48"
@@ -13898,6 +13887,11 @@
    "",
    1795622510.8542817
   ],
+  "q:3 0 for four hours": [
+   0,
+   "",
+   1795735983.958667
+  ],
   "q:3 reasons": [
    0,
    "",
@@ -13967,11 +13961,6 @@
    0,
    "",
    1795618887.5060308
-  ],
-  "q:47": [
-   4921720,
-   "47都道府県にプロ野球チームが存在する世界線で日本一の球団をめざそう！",
-   1793142159.9904087
   ],
   "q:500": [
    0,
@@ -14072,6 +14061,26 @@
    0,
    "",
    1795611679.023449
+  ],
+  "q:after playing": [
+   0,
+   "",
+   1795735979.7243507
+  ],
+  "q:after playing infinity": [
+   0,
+   "",
+   1795735979.1800845
+  ],
+  "q:after playing infinity nikki": [
+   0,
+   "",
+   1795735978.6675453
+  ],
+  "q:after playing infinity nikki 3 0": [
+   0,
+   "",
+   1795735978.1016333
   ],
   "q:airframe ultra": [
    2522120,
@@ -14743,11 +14752,6 @@
    "Fable",
    1793557982.2245255
   ],
-  "q:factorio esque": [
-   0,
-   "",
-   1795561378.8672507
-  ],
   "q:fallout 3": [
    22300,
    "Fallout 3",
@@ -15078,6 +15082,21 @@
    "Infinity Nikki",
    1794979894.094324
   ],
+  "q:infinity nikki 3 0": [
+   0,
+   "",
+   1795735983.4630888
+  ],
+  "q:infinity nikki 3 0 for four": [
+   0,
+   "",
+   1795735982.9331942
+  ],
+  "q:infinity nikki 3 0 for four hours": [
+   0,
+   "",
+   1795735982.4421093
+  ],
   "q:input": [
    4016010,
    "Input",
@@ -15303,11 +15322,6 @@
    "MOBILE SUIT GUNDAM BATTLE OPERATION 3",
    1793725363.7039416
   ],
-  "q:monarchs at play": [
-   4179890,
-   "Monarchs at Play",
-   1793142165.5811265
-  ],
   "q:monster hunter wilds": [
    2246340,
    "Monster Hunter Wilds",
@@ -15402,11 +15416,6 @@
    5385440,
    "Obsession",
    1793192522.4879262
-  ],
-  "q:off": [
-   3339880,
-   "OFF",
-   1793142162.0413911
   ],
   "q:officially confirms": [
    0,
@@ -15532,6 +15541,26 @@
    0,
    "",
    1795622558.2503755
+  ],
+  "q:playing infinity": [
+   0,
+   "",
+   1795735981.8244302
+  ],
+  "q:playing infinity nikki": [
+   0,
+   "",
+   1795735981.3151085
+  ],
+  "q:playing infinity nikki 3 0": [
+   0,
+   "",
+   1795735980.7420485
+  ],
+  "q:playing infinity nikki 3 0 for four": [
+   0,
+   "",
+   1795735980.2231052
   ],
   "q:playstation creator": [
    0,
@@ -16574,19 +16603,20 @@
    "android",
    "ford",
    "google",
+   "nvidia",
    "steam",
    "twitter",
    "ubisoft",
    "waymo",
    "x/twitter",
    "авто",
-   "авіабомби",
-   "авіація",
    "безпілотники",
    "блоги",
    "бпла",
+   "бізнес",
    "графіка",
    "гіперкари",
+   "дональд трамп",
    "дрони",
    "новини",
    "оборонка",
@@ -16607,26 +16637,6 @@
   1795732325.200122
  ],
  "titles": [
-  [
-   1795561376.724721,
-   "Pearl Jam issue statement condemning ICE arrests in Seattle"
-  ],
-  [
-   1795561557.4031215,
-   "I'm not smart enough for the blocky, Factorio-esque spaceship and -station building sim Astario, but now that it's out in early access maybe you could be"
-  ],
-  [
-   1795561593.4130282,
-   "As Cities Burn premiere music video for new single \"us defines the mean\""
-  ],
-  [
-   1795563251.3867378,
-   "Frederick Wiseman’s Complete Filmography to Be Distributed by Janus Films"
-  ],
-  [
-   1795563280.1808124,
-   "Гурт Corrupticide випустив дебютне демо"
-  ],
   [
    1795564693.64064,
    "Everything We Know About Gina Prince-Bythewood’s ‘Children Of Blood And Bone’ Movie So Far"
@@ -17374,29 +17384,21 @@
   [
    1795734155.7020524,
    "Members of Body Count, Stone Sour and ex-Lamb Of God from new project, Insidias"
+  ],
+  [
+   1795735975.9785314,
+   "Avengers: Doomsday TV Spot Confirms RDJ's Doctor Doom Has A Scarred Face"
+  ],
+  [
+   1795736156.0504117,
+   "After Playing Infinity Nikki 3.0 for Four Hours, its New Cities and Outfits Are Just Some of the Additions Worth Returning For"
+  ],
+  [
+   1795736216.2258768,
+   "Molly Hatchet's Lost Horizons: Recorded at London's Abbey Road, but all-American to the core"
   ]
  ],
  "titles_uk": [
-  [
-   1795561376.7247217,
-   "Pearl Jam засудили затримання ICE в Сіетлі"
-  ],
-  [
-   1795561557.4031222,
-   "Astario — симулятор будівництва космічних кораблів у стилі Factorio вийшов у ранній доступ"
-  ],
-  [
-   1795561593.413029,
-   "As Cities Burn представили кліп на новий сингл us defines the means"
-  ],
-  [
-   1795563251.3867388,
-   "Janus Films розповсюджуватиме всю фільмографію Фредеріка Вайзмена"
-  ],
-  [
-   1795563280.180813,
-   "Гурт Corrupticide випустив дебютне демо"
-  ],
   [
    1795564693.640641,
    "Усе, що відомо про фільм Children of Blood and Bone"
@@ -18144,6 +18146,18 @@
   [
    1795734155.7020528,
    "Учасники Lamb Of God і Stone Sour створили новий метал-проєкт Insidias"
+  ],
+  [
+   1795735975.9785323,
+   "Тизер Avengers: Doomsday показав шрам на обличчі Доктора Дума у виконанні RDJ"
+  ],
+  [
+   1795736156.050413,
+   "Оновлення V3.0 для Infinity Nikki додає нові міста та вбрання"
+  ],
+  [
+   1795736216.2258775,
+   "Molly Hatchet випустили новий альбом Lost Horizon, записаний на Abbey Road"
   ]
  ],
  "ukrainian": {
