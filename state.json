@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Distorted Sound|https://distortedsoundmag.com/feed/": {
+   "detail": "https://distortedsoundmag.com/feed/ → ('Connection aborted.', ConnectionResetError(104, 'Connection reset by peer'))",
+   "label": "Джерело «Distorted Sound» не працює",
+   "sent": 0,
+   "since": 1795660283.0101292
+  }
+ },
  "daily_digest_date": "2026-11-25",
  "freebies": {
   "last_check": 1795656741.9449573,
@@ -31,11 +38,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-26 02:05 UTC",
+  "at": "2026-11-26 02:33 UTC",
   "gemini_error": "",
   "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
+   "gemma-4-26b-a4b-it": 1,
    "gemma-4-31b-it": 1
   },
   "used": [
@@ -43,58 +50,6 @@
   ]
  },
  "post_log": [
-  [
-   1794967638.5449502,
-   6256,
-   "🎬",
-   "Номінації на премію IDA: фільм «Concrete Land» отримав 6 номінацій, а «To Hold A Mountain» — трохи менше; серед номінантів — документальний фільм про Елізабет Холмс",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/ida-documentary-awards-2026-nominations-1237227351/",
-    "orig": "IDA Awards Nominations: ‘Concrete Land’ Lands 6, With ‘To Hold A Mountain’ Close Behind; Elizabeth Holmes Doc In The Mix"
-   }
-  ],
-  [
-   1794967642.972736,
-   6257,
-   "🎬",
-   "Джим Бекус у культовому фільмі Disney 1977 року Pete's Dragon",
-   "/Film",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.slashfilm.com/2314915/jim-backus-gilligans-island-disney-petes-dragon/",
-    "orig": "After Gilligan's Island, Jim Backus Appeared In This 1977 Disney Cult Classic"
-   }
-  ],
-  [
-   1794969087.7901149,
-   6258,
-   "🤘",
-   "Julien Baker анонсувала альбом This World Or The Next",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/bands-artists/julien-baker-announces-this-world-or-the-next-their-first-new-album-in-six-years",
-    "orig": "Julien Baker announces This World Or The Next, their first new album in six years"
-   }
-  ],
-  [
-   1794969091.2422636,
-   6259,
-   "🎬",
-   "Анонсовано анімаційний неонуарний блокбастер Bombay Eternal",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/film/news/indian-mythology-mumbai-noir-animated-film-bombay-eternal-1236950223/",
-    "orig": "Indian Mythology Meets Mumbai Noir in Animated Feature ‘Bombay Eternal’ From ‘Rana Naidu’ Producer Locomotive Global, AI Outfit Studio Blo (EXCLUSIVE)"
-   }
-  ],
   [
    1794970885.2557063,
    6260,
@@ -8695,7 +8650,6 @@
    "Hugging Face",
    {
     "also": [],
-    "caption": "🤖 <b>IBM Research створила голосового агента CUGA для роботи з індійськими мовами</b>\n\nIBM Research розробила CUGA — open-source інструмент для створення голосових агентів. Він дозволяє користувачам, які розмовляють індійськими мовами, отримувати відповіді з англомовних документів за допомогою багатомовної embedding-моделі. Проєкт доступний на Hugging Face Spaces.\n\n🔗 <a href=\"https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga\">Hugging Face</a> · #ШІ #IBM #CUGA",
     "kind": "photo",
     "link": "https://huggingface.co/blog/ibm-research/an-indic-voice-agent-with-cuga",
     "orig": "An Indic Voice Agent with CUGA"
@@ -8709,7 +8663,6 @@
    "VGC",
    {
     "also": [],
-    "caption": "🎮 <b>Mario Kart World отримала безкоштовне оновлення з новими трасами та функціями</b>\n\nОновлення версії 1.9.0 додає вісім реміксів існуючих трас та два нові маршрути для режиму Knockout Tour — Feather Rally та Lucky Cat Rally. Також у головному меню з&#x27;явилася функція Replays, яка автоматично зберігає останні заїзди та битви гравців.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/mario-kart-world-gets-a-new-free-update-adding-eight-new-tracks-and-other-features/\">VGC</a> · #ігри #MarioKartWorld #Nintendo",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/news/mario-kart-world-gets-a-new-free-update-adding-eight-new-tracks-and-other-features/",
     "orig": "Mario Kart World gets a new free update adding eight new tracks and other features"
@@ -9545,6 +9498,34 @@
     "link": "https://www.slashfilm.com/2328910/cliff-booth-movie-once-upon-a-time-characters-margot-robbie-timothy-olyphant/",
     "orig": "The Cliff Booth Movie Brings Back Two Key Characters From Once Upon A Time In Hollywood"
    }
+  ],
+  [
+   1795660335.4745536,
+   6994,
+   "🤘",
+   "Тревіс Баркер представив Філа Коллінза в Rock and Roll Hall of Fame",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Тревіс Баркер представив Філа Коллінза в Rock and Roll Hall of Fame</b>\n\nБарабанщик Blink-182 Тревіс Баркер представив свого дитячого кумира Філа Коллінза в Rock and Roll Hall of Fame. Під час церемонії він виконав In The Air Tonight разом із Сінтією Ерівіо. Після виступу Коллінз надіслав Баркеру листа з пропозицією можливої спільної роботи.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/blink-182s-travis-barker-shares-his-delight-after-inducting-phil-collins-into-the-rock-and-roll-hall-of-fame\">Metal Hammer (Louder)</a> · #музика #PhilCollins #Blink182",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/blink-182s-travis-barker-shares-his-delight-after-inducting-phil-collins-into-the-rock-and-roll-hall-of-fame",
+    "orig": "Travis Barker shares his delight after inducting childhood hero Phil Collins into the RRHOF"
+   }
+  ],
+  [
+   1795660400.226783,
+   6995,
+   "🤘",
+   "Legss випустили новий сингл «Angels Hide (Their Faces)»",
+   "Stereogum",
+   {
+    "also": [],
+    "caption": "🤘 <b>Legss випустили новий сингл «Angels Hide (Their Faces)»</b>\n\nЛондонський артрок-квартет Legss представив сингл «Angels Hide (Their Faces)» у стилі slowcore. Музиканти самостійно записали трек у домашній студії, розташованій у занедбаному крипті. Це перша пісня, де головний вокал розділили Луїс Грейс та Нед Грін.\n\n🔗 <a href=\"https://stereogum.com/2521577/legss-angels-hide-their-faces/music/\">Stereogum</a> · #музика #Legss",
+    "kind": "photo",
+    "link": "https://stereogum.com/2521577/legss-angels-hide-their-faces/music/",
+    "orig": "Legss – “Angels Hide (Their Faces)”"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9739,7 +9720,8 @@
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1795582984.5279279,
    1795584817.283926,
-   1795655039.1444924
+   1795655039.1444924,
+   1795660335.4747827
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1795244826.8845444
@@ -9759,7 +9741,7 @@
    1795070079.4944077
   ],
   "music|Stereogum|https://www.stereogum.com/feed/": [
-   1795471431.7761426
+   1795660400.2269785
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
    1795590146.8206458,
@@ -10374,6 +10356,7 @@
   "3d7652611cf0dfe6": 1795271455.3684447,
   "3d7ad70eefac64c8": 1795596450.226575,
   "3dc7d1a113cc1734": 1794504655.5700643,
+  "3e20b5904ac78731": 1795660335.474735,
   "3e60ece0075a0626": 1795486810.4521737,
   "3e73f7351779bbff": 1795053694.9583557,
   "3ea7ab9e54c73d65": 1795341888.54756,
@@ -10408,7 +10391,6 @@
   "42786359f873995b": 1795232088.07478,
   "42a78ea0035323d9": 1795143815.220135,
   "435e11c186621b3e": 1795026653.649315,
-  "43f41c8c48c6b3a1": 1794450686.830935,
   "44157888feac291b": 1795026653.649315,
   "441ac6a9e711b1e8": 1795086083.8416054,
   "44327ea93aa083c2": 1794591053.6005082,
@@ -10662,6 +10644,7 @@
   "5f6ddbe03969372d": 1795498391.7007651,
   "5f8099c7d290eccf": 1794504655.5700643,
   "5f9b38a8416afa45": 1794616312.000508,
+  "5f9bd94eef2a9fff": 1795660286.2529893,
   "5f9df56fed9a28e3": 1794598371.8116102,
   "5f9ef9f8fb7c411e": 1795475261.638023,
   "5fa346d1bde734c4": 1794861223.1814535,
@@ -10698,6 +10681,7 @@
   "62b226ac36663dad": 1795084273.251863,
   "62c6ced8a6ea6559": 1794637883.8932354,
   "62df59dc526339e9": 1795512683.1291454,
+  "62e491574525e6c0": 1795660400.2269342,
   "6321868b6dedc5b3": 1795201253.256003,
   "6329ff1d46822b8b": 1795456857.6403613,
   "6355832d83022f17": 1795266083.4137523,
@@ -11559,7 +11543,6 @@
   "bef95b9b77ac43ae": 1795024853.7713437,
   "bf0516a92f6eea2b": 1794864690.9790192,
   "bf1424b145e4fc73": 1795014113.7924137,
-  "bf428dc5419779c5": 1794450683.2133462,
   "bf55d92aebf43d96": 1794792688.2601962,
   "bf609b726082e477": 1794974665.2712822,
   "bf6c2bad2630221d": 1795525563.1640136,
@@ -12608,7 +12591,7 @@
   ],
   "artists_checked": 1795658712.7765958,
   "blocked_until": 1795658705.0225725,
-  "cursor": 79,
+  "cursor": 89,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13402,7 +13385,7 @@
    "Kerrang!": 1,
    "Lambgoat": 13,
    "Loudwire": 1,
-   "Metal Hammer (Louder)": 11,
+   "Metal Hammer (Louder)": 12,
    "Mezha": 24,
    "Neformat": 13,
    "PC Gamer": 6,
@@ -13412,7 +13395,7 @@
    "Product Hunt": 5,
    "Rock Paper Shotgun": 8,
    "SteamDB": 2,
-   "Stereogum": 1,
+   "Stereogum": 2,
    "The Decoder": 10,
    "ThePRP": 5,
    "VGC": 10,
@@ -13422,8 +13405,8 @@
    "DeepL": 23,
    "gemini-flash-latest": 7,
    "gemini-flash-lite-latest": 84,
-   "gemma-4-26b-a4b-it": 67,
-   "gemma-4-31b-it": 91
+   "gemma-4-26b-a4b-it": 68,
+   "gemma-4-31b-it": 92
   },
   "week": "2026-W48"
  },
@@ -16633,22 +16616,6 @@
  ],
  "titles": [
   [
-   1795486806.3509476,
-   "Black Spikes premiere “MARA” music video"
-  ],
-  [
-   1795486810.4521766,
-   "Heaven Shall Burn and Caliban announce Metal To The Core European mini-tour"
-  ],
-  [
-   1795487520.5011773,
-   "The Naruto Movie Sounds Like It Could Be Better Than We Ever Imagined"
-  ],
-  [
-   1795487529.6466691,
-   "Interactive Films ‘The Run,’ ‘Kaiju Princess,’ ‘Back From the Other World’ Hit Taiwan Cinemas as Audiences Vote on Endings by Smartphone (EXCLUSIVE)"
-  ],
-  [
    1795489362.1304326,
    "PeelingFlesh"
   ],
@@ -17367,25 +17334,17 @@
   [
    1795658701.0638692,
    "The Cliff Booth Movie Brings Back Two Key Characters From Once Upon A Time In Hollywood"
+  ],
+  [
+   1795660335.4747372,
+   "Travis Barker shares his delight after inducting childhood hero Phil Collins into the RRHOF"
+  ],
+  [
+   1795660400.2269356,
+   "Legss – “Angels Hide (Their Faces)”"
   ]
  ],
  "titles_uk": [
-  [
-   1795486806.3509483,
-   "Black Spikes випустили кліп на пісню MARA"
-  ],
-  [
-   1795486810.4521775,
-   "Heaven Shall Burn та Caliban анонсували тур Metal To The Core"
-  ],
-  [
-   1795487520.5011778,
-   "Хіроюкі Санада веде переговори про роль Hiruzen Sarutobi у фільмі Naruto"
-  ],
-  [
-   1795487529.6466696,
-   "У кінотеатрах Тайваню покажуть інтерактивні фільми з голосуванням зі смартфона"
-  ],
   [
    1795489362.1304336,
    "PEELINGFLESH випустили другий однойменний альбом"
@@ -18105,6 +18064,14 @@
   [
    1795658701.06387,
    "The Further Mis-Adventures of Cliff Booth поверне персонажів Once Upon a Time in Hollywood"
+  ],
+  [
+   1795660335.474738,
+   "Тревіс Баркер представив Філа Коллінза в Rock and Roll Hall of Fame"
+  ],
+  [
+   1795660400.2269363,
+   "Legss випустили новий сингл «Angels Hide (Their Faces)»"
   ]
  ],
  "ukrainian": {
