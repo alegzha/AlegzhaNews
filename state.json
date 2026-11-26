@@ -1,8 +1,15 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1795678274.1166723
+  }
+ },
  "daily_digest_date": "2026-11-25",
  "freebies": {
-  "last_check": 1795671330.9221473,
+  "last_check": 1795678443.8958483,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -31,43 +38,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-26 07:03 UTC",
-  "gemini_error": "",
+  "at": "2026-11-26 07:34 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemma-4-31b-it": 2
+   "gemma-4-31b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1794987091.7830398,
-   6278,
-   "🎬",
-   "Дені Вільнев вважає Dune: Part Three кращою за перші дві частини",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/denis-villeneuve-dune-part-three-something-even-better-1237227247/",
-    "orig": "Denis Villeneuve Says ‘Dune: Part Three’ Is “Something Even Better” Than The First Two Films"
-   }
-  ],
-  [
-   1794987096.9391773,
-   6279,
-   "🎮",
-   "Valve показала зимову версію Cobblestone та натякнула на повернення карти в Counter-Strike 2",
-   "PlayUA",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://playua.net/valve-pokazala-zymovu-versiyu-cobblestone-ta-natyaknula-na-povernennya-karty-v-counter-strike-2/",
-    "orig": "Valve показала зимову версію Cobblestone та натякнула на повернення карти в Counter-Strike 2"
-   }
-  ],
   [
    1794988870.660834,
    6280,
@@ -8681,7 +8662,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Ціни на ігрові консолі не впадуть найближчим часом через дефіцит пам&#x27;яті та ШІ</b>\n\nЦіни на PlayStation 5 та Xbox Series X залишаються високими через дефіцит DRAM-пам&#x27;яті, яку масово використовують для дата-центрів ШІ. За прогнозами S&amp;P Global Market Intelligence, вартість виробництва знизиться не раніше 2028 року. Ситуацію можуть погіршити нові митні тарифи США на імпорт комплектуючих.\n\n🔗 <a href=\"https://www.polygon.com/ps5-xbox-switch-prices-game-consoles-trump-tariffs/\">Polygon</a> · #ігри #PlayStation #Xbox",
     "kind": "photo",
     "link": "https://www.polygon.com/ps5-xbox-switch-prices-game-consoles-trump-tariffs/",
     "orig": "3 Reasons Why Console Prices Aren’t Going Down Anytime Soon"
@@ -8695,7 +8675,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b>Playground Games поділилася деталями розробки перезапуску <a href=\"https://store.steampowered.com/app/2769570/\">Fable</a></b>\n🕹 <a href=\"https://store.steampowered.com/app/2769570/\">Fable</a> — ще не вийшла\n\nДата виходу нового Fable перенесена на 23 лютого 2027 року. Playground Games прагне поєднати класичний британський гумор із сучасними стандартами, зосередившись на сюжеті, бойовій системі та детальному світі Albion.\n\n🔗 <a href=\"https://www.gamesindustry.biz/youd-be-nuts-to-take-on-all-of-that-in-the-first-project-and-yet-here-we-are-how-playground-is-finally-making-good-on-an-all-new-fable\">GamesIndustry.biz</a> · #ігри #Fable #PlaygroundGames",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/youd-be-nuts-to-take-on-all-of-that-in-the-first-project-and-yet-here-we-are-how-playground-is-finally-making-good-on-an-all-new-fable",
     "orig": "\"You'd be nuts to take on all of that in the first project, and yet here we are\" – How Playground is finally making good on an all-new Fable"
@@ -9526,6 +9505,34 @@
     "link": "https://insider-gaming.com/delta-force-metal-gear-solid-event/",
     "orig": "Delta Force x Metal Gear Solid Event Goes Live in Two Days"
    }
+  ],
+  [
+   1795678280.2617428,
+   7015,
+   "💾",
+   "Хакер викрав дані користувачів 1Password – компанія запевняє, що паролі не постраждали",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "💾 <b>Хакер викрав дані користувачів 1Password – компанія запевняє, що паролі не постраждали</b>\n\nХакер зламав GitHub-акаунт працівника 1Password, додав шкідливий код до серверних систем і викрав імена, електронні адреси та метадані частини користувачів. Сховища паролів і ключі шифрування не постраждали, однак компанія попереджає про можливі фішингові листи та запити на відновлення доступу.\n\n🔗 <a href=\"https://mezha.ua/news/1password-breach-317594/\">Mezha</a> · #софт",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/1password-breach-317594/",
+    "orig": "Хакер викрав дані користувачів 1Password – компанія запевняє, що паролі не постраждали"
+   }
+  ],
+  [
+   1795678434.7682478,
+   7016,
+   "🤖",
+   "Банки ризикують отримати збої в роботі через загрози від ШІ",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Банки ризикують отримати збої в роботі через загрози від ШІ</b>\n\nРизик кібератак змушує банки стикатися з дедалі більшою кількістю технічних проблем, поки вони намагаються оновити застарілу інфраструктуру та знайти вразливості. ШІ розвивається настільки швидко, що IT-команди спочатку випускають патчі, а вже потім ставлять запитання, що може призвести до збоїв. CEO Citigroup Inc. Джейн Фрейзер у розмові з Bloomberg попередила про «цунамі» патчів. Повідомляє Белла Фарр.\n\n🔗 <a href=\"https://www.bloomberg.com/news/videos/2026-11-26/banks-risk-outages-as-they-contend-with-ai-threats-video\">Bloomberg</a> · #ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/videos/2026-11-26/banks-risk-outages-as-they-contend-with-ai-threats-video",
+    "orig": "Banks Risk Outages as They Contend With AI Threats"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9534,11 +9541,11 @@
    1795631499.031146
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1795588367.9344652,
    1795624356.731446,
    1795626244.9894452,
    1795667619.7963848,
-   1795672921.8926306
+   1795672921.8926306,
+   1795678434.7685053
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1795438887.3734498,
@@ -9776,9 +9783,9 @@
    1795674703.311186
   ],
   "software|Mezha|https://mezha.ua/feed/": [
-   1795559547.1555293,
    1795595476.376265,
-   1795636886.351631
+   1795636886.351631,
+   1795678280.2620308
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1795596448.408637,
@@ -9960,6 +9967,7 @@
   "13588c6d5470b5f4": 1794526288.7215617,
   "1384678544a8eeef": 1795219282.8535988,
   "138e316a30c220bf": 1795231890.2785,
+  "13b8d5717d999f2b": 1795678279.5631053,
   "13c6a0dadc2d5bac": 1795280649.749381,
   "13e1a65ff91b7ffc": 1794781971.0920577,
   "13ec261adc23009e": 1795181478.8354766,
@@ -10270,7 +10278,6 @@
   "35ab349aa9777645": 1795320137.6138074,
   "35b15e4570eca0e9": 1794546103.7938688,
   "35d837d7c52d0650": 1795142004.7231202,
-  "35ec820eff5461f0": 1794468723.2386136,
   "35ee207426a689f2": 1794549698.9706059,
   "360516e1c23fff81": 1794780083.111482,
   "363121212f2f4d3b": 1794742509.8286552,
@@ -10304,6 +10311,7 @@
   "385b4d2382269474": 1794493853.6947322,
   "385be78c7c4980ff": 1794925879.0101287,
   "386561240bc43bd6": 1795368653.7654736,
+  "386b6e80f824ec87": 1795678255.585426,
   "387c2ca628aecf1e": 1795039256.6815968,
   "387ce3487493495b": 1795026653.649315,
   "389b274465e4181b": 1794858079.9664185,
@@ -10438,7 +10446,6 @@
   "49c4141c8597c979": 1795129258.2337174,
   "49d48c710ecdd499": 1794596480.8390253,
   "49df04ef0fcca6ec": 1794531691.8776586,
-  "4a0f2863e5da5058": 1794468725.5863578,
   "4a0f36bcf84eee22": 1795348853.7357323,
   "4a13b9d757056338": 1795357857.9427907,
   "4a2208970147c5e0": 1795026653.649315,
@@ -11573,6 +11580,7 @@
   "c2e4064fa9638a42": 1795314741.3108847,
   "c2ea3714297d80d2": 1795437078.4428895,
   "c2fb7b3ae09e148f": 1794630683.9920444,
+  "c31014bf7018fa37": 1795678434.7684593,
   "c316780a7dfb370c": 1794663071.9451056,
   "c338051ec03391c1": 1795523467.6205294,
   "c341dbe9803fed63": 1795129258.2337174,
@@ -12128,6 +12136,7 @@
   "fd133704e3393003": 1795221303.1654193,
   "fd5f7d1686569b39": 1795503766.352804,
   "fd6e0a24f045639d": 1794560515.4583867,
+  "fd93b6eaa2afa7db": 1795678280.261984,
   "fd97a6d57c43f0ea": 1795172937.9451418,
   "fdb0e6e42b2cd303": 1794983498.2690272,
   "fdb1dcd5479f9de0": 1794510080.6115386,
@@ -13361,7 +13370,7 @@
    "Loudwire": 1,
    "Metal Hammer (Louder)": 3,
    "PC Gamer": 13,
-   "PlayUA": 1,
+   "PlayUA": 2,
    "Polygon": 28,
    "Rock Paper Shotgun": 2,
    "ThePRP": 1,
@@ -13372,7 +13381,7 @@
    "/Film": 14,
    "AIN.ua": 2,
    "Blabbermouth": 4,
-   "Bloomberg": 27,
+   "Bloomberg": 28,
    "DOU": 2,
    "DOU Gamedev": 3,
    "Deadline": 49,
@@ -13389,7 +13398,7 @@
    "Lambgoat": 15,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 12,
-   "Mezha": 24,
+   "Mezha": 25,
    "Neformat": 13,
    "PC Gamer": 7,
    "Pitchfork": 3,
@@ -13409,7 +13418,7 @@
    "gemini-flash-latest": 7,
    "gemini-flash-lite-latest": 91,
    "gemma-4-26b-a4b-it": 70,
-   "gemma-4-31b-it": 102
+   "gemma-4-31b-it": 103
   },
   "week": "2026-W48"
  },
@@ -16597,11 +16606,7 @@
  },
  "tag_hints": {
   "Mezha": [
-   "cd projekt red",
-   "cyberpunk 2",
-   "cyberpunk 2077",
    "intel",
-   "mavic",
    "microsoft",
    "nvidia",
    "spacex",
@@ -16611,25 +16616,25 @@
    "бпла",
    "бізнес",
    "відеокарти",
+   "гіперзвукова зброя",
    "дональд трамп",
    "дрони",
    "залізо",
+   "зброя",
    "космос",
    "кібербезпека",
    "кіберзлочини",
    "месенджери",
    "новини",
    "оборонка",
-   "оборонні закупівлі",
    "операційні системи",
+   "ракети",
    "росія",
    "софт",
    "супутники",
    "сша",
    "фбр",
-   "штрафи",
-   "штучний інтелект",
-   "ігри"
+   "штучний інтелект"
   ]
  },
  "telegraph": [
@@ -16637,14 +16642,6 @@
   1795654984.4259295
  ],
  "titles": [
-  [
-   1795503820.3193882,
-   "Adam Driver Teases His ‘X-Men’ Villain Mister Sinister to Seth Meyers"
-  ],
-  [
-   1795505548.033623,
-   "God of War: Laufey star Deborah Ann Woll will reprise the role in Amazon's God of War show"
-  ],
   [
    1795505862.364462,
    "Sky New Zealand Sets ‘I Will Find You: The Search For Alysha Hanin’ True Crime Series From Woodcut International & Our Story"
@@ -17372,17 +17369,17 @@
   [
    1795676583.5412998,
    "Delta Force x Metal Gear Solid Event Goes Live in Two Days"
+  ],
+  [
+   1795678280.2619853,
+   "Хакер викрав дані користувачів 1Password – компанія запевняє, що паролі не постраждали"
+  ],
+  [
+   1795678434.7684612,
+   "Banks Risk Outages as They Contend With AI Threats"
   ]
  ],
  "titles_uk": [
-  [
-   1795503820.3193889,
-   "Адам Драйвер зіграє лиходія Mister Sinister у перезапуску X-Men"
-  ],
-  [
-   1795505548.0336242,
-   "Дебора Енн Вол повернеться до ролі Laufey у серіалі God of War від Amazon"
-  ],
   [
    1795505862.3644626,
    "Sky New Zealand замовляє справжній кримінальний серіал «I Will Find You: The Search For Alysha Hanin» від Woodcut International та Our Story"
@@ -18110,6 +18107,14 @@
   [
    1795676583.5413008,
    "Delta Force та Metal Gear Solid Delta: Snake Eater запускають колаборацію"
+  ],
+  [
+   1795678280.2619863,
+   "Хакер викрав дані користувачів 1Password – компанія запевняє, що паролі не постраждали"
+  ],
+  [
+   1795678434.768463,
+   "Банки ризикують отримати збої в роботі через загрози від ШІ"
   ]
  ],
  "ukrainian": {
@@ -20598,7 +20603,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795674819.9280765,
+  "last_check": 1795678443.5922115,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
