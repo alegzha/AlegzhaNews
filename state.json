@@ -1,5 +1,18 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:ai|AIN.ua|https://ain.ua/feed/": {
+   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «AIN.ua» не працює",
+   "sent": 0,
+   "since": 1795708944.8022919
+  },
+  "src:software|AIN.ua|https://ain.ua/feed/": {
+   "detail": "https://ain.ua/feed/ → HTTPSConnectionPool(host='ain.ua', port=443): Read timed out.",
+   "label": "Джерело «AIN.ua» не працює",
+   "sent": 0,
+   "since": 1795708923.798563
+  }
+ },
  "daily_digest_date": "2026-11-25",
  "freebies": {
   "last_check": 1795707264.3689826,
@@ -42,32 +55,6 @@
   ]
  },
  "post_log": [
-  [
-   1795017715.7296033,
-   6312,
-   "🤖",
-   "Фінансовий контролер Нью-Йорка заявив про готовність пенсійних фондів боротися за безпеку ШІ",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-18/nyc-comptroller-says-pensions-are-ready-to-fight-for-ai-safety",
-    "orig": "NYC Comptroller Says Pensions Are Ready to Fight for AI Safety"
-   }
-  ],
-  [
-   1795017717.6109328,
-   6313,
-   "💾",
-   "MacPaw представила застосунок Moonlock для захисту iPhone від шахрайства",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/moonlock-for-iphone-317345/",
-    "orig": "MacPaw представила застосунок Moonlock для захисту iPhone від шахрайства"
-   }
-  ],
   [
    1795019563.0060542,
    6314,
@@ -8662,7 +8649,6 @@
    "Blabbermouth",
    {
     "also": [],
-    "caption": "🤘 <b>ENTOMBED виступлять на Sweden Rock Festival 2027</b>\n📖 <a href=\"https://telegra.ph/ENTOMBED-vistuplyat-na-Sweden-Rock-Festival-2027-11-26\">Читати повністю українською</a>\n\nПіонери шведського death metal ENTOMBED виступлять на Sweden Rock Festival у червні 2027 року. Склад гурту включатиме Алекса Хелліда, Уффе Седерлунда та Ніке Андерссона, які також працюють над першим спільним альбомом з 1997 року. Хто саме займе місце вокаліста, поки не оголошено.\n\n🔗 <a href=\"https://blabbermouth.net/news/legendary-swedish-death-metal-band-entombed-to-perform-at-2027-edition-of-sweden-rock-festival\">Blabbermouth</a> · #музика #Entombed",
     "kind": "photo",
     "link": "https://blabbermouth.net/news/legendary-swedish-death-metal-band-entombed-to-perform-at-2027-edition-of-sweden-rock-festival",
     "orig": "Legendary Swedish Death Metal Band ENTOMBED To Perform At 2027 Edition Of SWEDEN ROCK FESTIVAL"
@@ -8676,7 +8662,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Браян Мей вшанував пам&#x27;ять Фредді Мерк&#x27;юрі на 35-ту річницю його смерті</b>\n\nГітарист Queen Браян Мей опублікував у Instagram зворушливе присвячення Фредді Мерк&#x27;юрі на 35-ту річницю смерті вокаліста. Разом із барабанщиком Роджером Тейлором він поділився спогадами про те, що дух Мерк&#x27;юрі досі з ними. Також музиканти оновили звучання синглу Thank God It&#x27;s Christmas 1984 року.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/queen-brian-may-tribute-to-freddie-mercury-on-the-35th-anniversary-of-the-singers-death\">Metal Hammer (Louder)</a> · #музика #Queen",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/queen-brian-may-tribute-to-freddie-mercury-on-the-35th-anniversary-of-the-singers-death",
     "orig": "Queen's Brian May shared a touching tribute to Freddie Mercury on the 35th anniversary of his friend's death"
@@ -9507,6 +9492,34 @@
     "link": "https://itc.ua/ua/novini/gta-6-statystyka-prohodzhennya-40-gravtsiv-drugyj-rozdil/",
     "orig": "Скільки гравців уже пройшли GTA 6: статистика трофеїв здивувала"
    }
+  ],
+  [
+   1795708946.1604257,
+   7049,
+   "💾",
+   "Microsoft виправила порожнє вікно Office, яке блокувало Word, Excel та Outlook",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "💾 <b>Microsoft виправила порожнє вікно Office, яке блокувало Word, Excel та Outlook</b>\n\nMicrosoft виправила помилку Microsoft 365, через яку Word, Excel, Outlook та інші програми Office перекривало порожнє вікно без кнопок і тексту. Якщо через нього неможливо запустити застосунки та встановити оновлення звичайним способом, компанія пропонує примусово перейти на виправлену збірку через командний рядок.\n\n🔗 <a href=\"https://mezha.ua/news/microsoft-office-error-317615/\">Mezha</a> · #софт",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/microsoft-office-error-317615/",
+    "orig": "Microsoft виправила порожнє вікно Office, яке блокувало Word, Excel та Outlook"
+   }
+  ],
+  [
+   1795708948.1371632,
+   7050,
+   "💾",
+   "Вайбкодинг без коду: Claude створює застосунки для Windows та macOS з підказок звичайною мовою",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "💾 <b>Вайбкодинг без коду: Claude створює застосунки для Windows та macOS з підказок звичайною мовою</b>\n\nAnthropic презентувала нову функцію Claude, яка дозволяє створювати, встановлювати та спільно використовувати застосунки з допомогою підказок звичайною мовою.\n\n🔗 <a href=\"https://itc.ua/ua/novini/vajbkodyng-bez-kodu-claude-stvoryuye-zastosunky-dlya-windows-ta-macos-z-pidkazok-zvychajnoyu-movoyu/\">ITC.ua</a> · #софт",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/vajbkodyng-bez-kodu-claude-stvoryuye-zastosunky-dlya-windows-ta-macos-z-pidkazok-zvychajnoyu-movoyu/",
+    "orig": "Вайбкодинг без коду: Claude створює застосунки для Windows та macOS з підказок звичайною мовою"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9749,15 +9762,15 @@
    1795175649.8989897
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
-   1795608079.0403354,
    1795629698.852436,
    1795674703.311186,
-   1795680108.8181112
+   1795680108.8181112,
+   1795708948.1373615
   ],
   "software|Mezha|https://mezha.ua/feed/": [
-   1795595476.376265,
    1795636886.351631,
-   1795678280.2620308
+   1795678280.2620308,
+   1795708946.1606395
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1795596448.408637,
@@ -9775,7 +9788,6 @@
   "010343c7d92430c0": 1795669286.2717159,
   "011688b9e1d4dd5b": 1795125675.98536,
   "01198b636a46b409": 1795645884.2779233,
-  "012e35da599c0051": 1794499279.9660673,
   "0133f0fd14f007b2": 1795190541.0105524,
   "01535cdaae5f33ce": 1795277144.8096766,
   "0164845dc393f9d6": 1795253856.8415198,
@@ -10089,6 +10101,7 @@
   "2427bacb74a96b4b": 1794599661.468905,
   "243d19758b01e2dc": 1794866459.0638292,
   "24437daf95252ce9": 1794740481.6387289,
+  "245918f939edb5c4": 1795708855.5535414,
   "247257c36ff4af29": 1795217669.0922933,
   "2497e1c3e10ce315": 1795134676.975582,
   "24abf2d3032c32a6": 1795622673.2525027,
@@ -10556,7 +10569,6 @@
   "57886324beb7c569": 1794682948.413298,
   "5799187db6f8ee55": 1794913254.9532003,
   "57aa5aba25bac502": 1795082475.237744,
-  "57c2ee4d257ece9c": 1794499253.4405737,
   "57fe05da63744a2f": 1795039256.6815968,
   "57fef3efdf595174": 1795385214.1838996,
   "582af0723ae9b8ac": 1794783426.8461566,
@@ -11142,7 +11154,6 @@
   "93f38d52fdfb8e12": 1794706296.939091,
   "93f53cd69d28985d": 1794780079.9921434,
   "943092be93f90bc6": 1795473062.7844036,
-  "94687090526b1cb4": 1794499281.4675992,
   "94784eb390a51a31": 1795199485.7734878,
   "948d8d7ca14890cd": 1795183259.032751,
   "949badf102711944": 1794850251.632162,
@@ -11554,6 +11565,7 @@
   "c15827a29ce22e76": 1795094153.9066393,
   "c15fc75af136a790": 1794938453.8847573,
   "c1a0ee089b539d12": 1795527059.8735101,
+  "c1db77a3c2422352": 1795708945.1370962,
   "c1db9b87adc608c9": 1794810780.0711603,
   "c1e292b21fe35ef1": 1795203088.0220785,
   "c1ef1819cf1141ec": 1795707252.8165526,
@@ -11951,6 +11963,7 @@
   "eac8424382893df2": 1795386655.6618261,
   "eadbd6d91ead0af2": 1795312933.294345,
   "eae0eddf22201dc9": 1794981717.4583611,
+  "eb00c529bd3f736f": 1795708945.1372654,
   "eb2b9038a4a7bdd2": 1794637880.8277705,
   "eb35f1a36445ebec": 1794517281.0573595,
   "eb7188a71c381305": 1795100487.7141306,
@@ -12069,6 +12082,7 @@
   "f7ee7b91a95fc177": 1795278653.9636526,
   "f804720e6fdb4373": 1794607286.0108721,
   "f8191b8aa2022caf": 1795620660.2160394,
+  "f82c75583cf49639": 1795708946.1605914,
   "f842ca61b8188d7c": 1795703575.5822144,
   "f855c22c60cf70d4": 1795496496.9915507,
   "f867e5218e752d33": 1795014053.3303049,
@@ -12135,6 +12149,7 @@
   "fe4746fdf378174f": 1795050186.806023,
   "fe517e5430fda057": 1795066254.271999,
   "fe6b51fbdb8b2963": 1795435798.1631722,
+  "fe8cb8771434b011": 1795708948.137315,
   "fe94b90ae0a1fb12": 1795068082.7999845,
   "fea246d2d95fea5a": 1795026653.649315,
   "ff000347c3e77387": 1795456972.3432887,
@@ -13361,7 +13376,7 @@
    "Rock Paper Shotgun": 2,
    "ThePRP": 1,
    "VGC": 31,
-   "Variety": 12
+   "Variety": 13
   },
   "sources": {
    "/Film": 14,
@@ -13378,14 +13393,14 @@
    "GameSpot": 1,
    "GamesIndustry.biz": 8,
    "Hugging Face": 5,
-   "ITC.ua": 32,
+   "ITC.ua": 33,
    "IndieWire": 7,
    "Insider Gaming": 10,
    "Kerrang!": 1,
    "Lambgoat": 15,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 12,
-   "Mezha": 26,
+   "Mezha": 27,
    "Neformat": 13,
    "PC Gamer": 9,
    "Pitchfork": 3,
@@ -13824,11 +13839,6 @@
    0,
    "",
    1795669286.8461137
-  ],
-  "q:6 xbox": [
-   0,
-   "",
-   1795536113.265325
   ],
   "q:7 42a": [
    0,
@@ -14789,11 +14799,6 @@
    0,
    "",
    1795611750.944218
-  ],
-  "q:gta 6 xbox": [
-   0,
-   "",
-   1795536112.6864164
   ],
   "q:gta gta": [
    0,
@@ -16353,15 +16358,13 @@
  },
  "tag_hints": {
   "Mezha": [
-   "chatgpt",
-   "codex",
    "esa",
    "gta 6",
    "microsoft",
    "nasa",
+   "neuralink",
    "nvidia",
    "odd systems",
-   "openai",
    "uklon",
    "vyriy",
    "whatsapp",
@@ -16369,6 +16372,7 @@
    "космос",
    "месенджери",
    "моди",
+   "мозковий імплантат",
    "новини",
    "оборонка",
    "оборонні закупівлі",
@@ -16390,14 +16394,6 @@
   1795654984.4259295
  ],
  "titles": [
-  [
-   1795536110.6212335,
-   "Anthropic навчила Claude самостійно схвалювати зміни в коді без участі людини"
-  ],
-  [
-   1795536113.9364474,
-   "Модери запустили злиту GTA 6 для Xbox на ПК, але є нюанс"
-  ],
   [
    1795536164.6999395,
    "Why AI Pilots Struggle to Scale"
@@ -17125,17 +17121,17 @@
   [
    1795707254.949125,
    "Скільки гравців уже пройшли GTA 6: статистика трофеїв здивувала"
+  ],
+  [
+   1795708946.160593,
+   "Microsoft виправила порожнє вікно Office, яке блокувало Word, Excel та Outlook"
+  ],
+  [
+   1795708948.1373172,
+   "Вайбкодинг без коду: Claude створює застосунки для Windows та macOS з підказок звичайною мовою"
   ]
  ],
  "titles_uk": [
-  [
-   1795536110.6212344,
-   "Anthropic навчила Claude самостійно схвалювати зміни в коді без участі людини"
-  ],
-  [
-   1795536113.9364486,
-   "Модери запустили злиту GTA 6 для Xbox на ПК, але є нюанс"
-  ],
   [
    1795536164.6999407,
    "Чому компаніям важко масштабувати ШІ-пілоти"
@@ -17863,6 +17859,14 @@
   [
    1795707254.949126,
    "Скільки гравців уже пройшли GTA 6: статистика трофеїв здивувала"
+  ],
+  [
+   1795708946.1605942,
+   "Microsoft виправила порожнє вікно Office, яке блокувало Word, Excel та Outlook"
+  ],
+  [
+   1795708948.137318,
+   "Вайбкодинг без коду: Claude створює застосунки для Windows та macOS з підказок звичайною мовою"
   ]
  ],
  "ukrainian": {
