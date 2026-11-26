@@ -31,11 +31,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-26 03:35 UTC",
+  "at": "2026-11-26 03:42 UTC",
   "gemini_error": "",
-  "gemini_model": "gemma-4-31b-it",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemma-4-31b-it": 2
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
@@ -8673,7 +8673,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "💾 <b>З&#x27;їдає до 20 FPS: проблемний драйвер NVIDIA б&#x27;є по ігровій продуктивності</b>\n\nПомилка у драйвері NVIDIA, через яку він постійно переписує лог-файл на SSD, може впливати не лише на ресурс накопичувача, а й на продуктивність в іграх. У Call of Duty: Modern Warfare 4 різниця між старою і новою версіями драйвера становила майже 20 FPS.\n\n🔗 <a href=\"https://itc.ua/ua/novini/drajver-nvidia-znyzhuye-fps-u-modern-warfare-4/\">ITC.ua</a> · #софт",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/drajver-nvidia-znyzhuye-fps-u-modern-warfare-4/",
     "orig": "З'їдає до 20 FPS: проблемний драйвер NVIDIA б'є по ігровій продуктивності"
@@ -8687,7 +8686,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Startup PrismML styskyvaye movnu model Qwen do 5,9 GB</b>\n\nStartap PrismML випустив оновлену модель Ternary Bonsai 2.5 27B обсягом лише 5,9 GB замість 54 GB завдяки тернарній квантизації. Новинка краще справляється з агентичними завданнями, демонструє вищі результати у бенчмарках та працює на GPU, Mac і пристроях Apple.\n\n🔗 <a href=\"https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/\">The Decoder</a> · #ШІ #PrismML #AI",
     "kind": "photo",
     "link": "https://the-decoder.com/prismml-squeezes-an-agent-based-coding-model-with-27-billion-parameters-into-5-9-gb/",
     "orig": "PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values"
@@ -9518,6 +9516,34 @@
     "link": "https://variety.com/2026/music/news/u2-nfl-thanksgiving-eve-halftime-show-performance-1236958652/",
     "orig": "U2 Salutes Dolly Parton With Recreation of Their ‘Torn’ Duet in NFL Thanksgiving Eve Halftime Show"
    }
+  ],
+  [
+   1795664442.7652354,
+   7000,
+   "🎬",
+   "Доходи ринку мікродрам сягнуть $20 мільярдів у 2026 році",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Доходи ринку мікродрам сягнуть $20 мільярдів у 2026 році</b>\n\nЗгідно з дослідженням Media Partners Asia, глобальні доходи від мікродрам зростуть до $20 млрд у 2026 році та досягнуть $32 млрд до 2031-го. Китай домінує на ринку з 76% від загального обсягу, тоді як за межами країни бізнес поки що стикається з низькими прибутками.\n\n🔗 <a href=\"https://variety.com/2026/tv/news/microdrama-revenue-20-billion-2026-profits-thin-1236958647/\">Variety</a> · #кіно_і_серіали #ByteDance #Tencent",
+    "kind": "photo",
+    "link": "https://variety.com/2026/tv/news/microdrama-revenue-20-billion-2026-profits-thin-1236958647/",
+    "orig": "Microdrama Revenue to Hit $20 Billion in 2026, but Profits Outside China Remain Thin, Media Partners Asia Report Finds"
+   }
+  ],
+  [
+   1795664560.2932467,
+   7001,
+   "🎬",
+   "Світові доходи від мікросеріалів сягнуть $20 млрд, але прибутки поза Китаєм залишаються низькими",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Світові доходи від мікросеріалів сягнуть $20 млрд, але прибутки поза Китаєм залишаються низькими</b>\n\nЗгідно з галлу звіт MPA, глобальні доходи ринку мікросеріалів зростуть на 24% та досягнуть $20 млрд у 2026 році. Проте поза Китаєм прибутковість залишається мінімальною через величезні витрати на маркетинг і комісії платформ.\n\n🔗 <a href=\"https://deadline.com/2026/11/microdrama-revenues-boom-profits-outside-china-weak-report-1237233205/\">Deadline</a> · #кіно_і_серіали #ByteDance #TikTok",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/microdrama-revenues-boom-profits-outside-china-weak-report-1237233205/",
+    "orig": "Microdrama Revenues Hit $20B, But Profits Outside China Still Weak – MPA Report"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9657,7 +9683,8 @@
    1795653275.0318968,
    1795653332.1910422,
    1795656740.362398,
-   1795664050.4280865
+   1795664050.4280865,
+   1795664560.2934475
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795422683.5492282
@@ -9676,9 +9703,9 @@
    1795664106.774948
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
-   1795570462.1195586,
    1795647786.1252177,
-   1795656732.4233913
+   1795656732.4233913,
+   1795664442.7654476
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
    1795654985.0658445
@@ -11085,6 +11112,7 @@
   "8dea90055a7ab594": 1795356056.5762572,
   "8dec8b0004ca04ed": 1795601077.792611,
   "8e00c31561545e02": 1795642333.248093,
+  "8e0b80c397f60258": 1795664560.2934,
   "8e1fade4ce2efbb1": 1794846691.2536154,
   "8e27d77af163080a": 1795608056.6101136,
   "8e334a186250d7a9": 1795518427.9221284,
@@ -11970,6 +11998,7 @@
   "edc6311f911d3e34": 1795215686.9798887,
   "edf8361276778f50": 1794911454.224739,
   "edfacd6a630da946": 1795140491.123892,
+  "ee0f08279dc2e46a": 1795664442.7654011,
   "ee38bc3887a6ea58": 1794618173.1613715,
   "ee52f8e13d601507": 1795429934.5214927,
   "ee5d138905ed731b": 1794482973.1377099,
@@ -12579,7 +12608,7 @@
   ],
   "artists_checked": 1795658712.7765958,
   "blocked_until": 1795658705.0225725,
-  "cursor": 109,
+  "cursor": 119,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13360,7 +13389,7 @@
    "Bloomberg": 24,
    "DOU": 2,
    "DOU Gamedev": 3,
-   "Deadline": 44,
+   "Deadline": 45,
    "Decibel": 1,
    "Distorted Sound": 3,
    "Eurogamer": 6,
@@ -13387,12 +13416,12 @@
    "The Decoder": 10,
    "ThePRP": 5,
    "VGC": 10,
-   "Variety": 19
+   "Variety": 20
   },
   "translators": {
    "DeepL": 23,
    "gemini-flash-latest": 7,
-   "gemini-flash-lite-latest": 84,
+   "gemini-flash-lite-latest": 86,
    "gemma-4-26b-a4b-it": 69,
    "gemma-4-31b-it": 95
   },
@@ -17330,6 +17359,14 @@
   [
    1795664106.7749004,
    "U2 Salutes Dolly Parton With Recreation of Their ‘Torn’ Duet in NFL Thanksgiving Eve Halftime Show"
+  ],
+  [
+   1795664442.7654028,
+   "Microdrama Revenue to Hit $20 Billion in 2026, but Profits Outside China Remain Thin, Media Partners Asia Report Finds"
+  ],
+  [
+   1795664560.2934024,
+   "Microdrama Revenues Hit $20B, But Profits Outside China Still Weak – MPA Report"
   ]
  ],
  "titles_uk": [
@@ -18060,6 +18097,14 @@
   [
    1795664106.7749014,
    "U2 виконали дует із Dolly Parton на хавтайм-шоу NFL"
+  ],
+  [
+   1795664442.7654037,
+   "Доходи ринку мікродрам сягнуть $20 мільярдів у 2026 році"
+  ],
+  [
+   1795664560.2934031,
+   "Світові доходи від мікросеріалів сягнуть $20 млрд, але прибутки поза Китаєм залишаються низькими"
   ]
  ],
  "ukrainian": {
