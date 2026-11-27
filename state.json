@@ -1,5 +1,11 @@
 {
  "alerts": {
+  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
+   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Decibel» не працює",
+   "sent": 0,
+   "since": 1795768294.8226817
+  },
   "src:music|Neformat|https://www.neformat.com.ua/": {
    "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
    "label": "Джерело «Neformat» не працює",
@@ -39,69 +45,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-27 08:01 UTC",
+  "at": "2026-11-27 08:34 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-31b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795075493.063457,
-   6370,
-   "💾",
-   "Nuko",
-   "Product Hunt",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.producthunt.com/products/nuko",
-    "orig": "Nuko"
-   }
-  ],
-  [
-   1795075495.1576571,
-   6371,
-   "💾",
-   "Драйвер NVIDIA «з'їдає» до 15% ресурсу SSD на рік у простої: як перевірити ПК",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/drajver-nvidia-zyidaye-do-15-resursu-ssd-na-rik/",
-    "orig": "Драйвер NVIDIA «з'їдає» до 15% ресурсу SSD на рік у простої: як перевірити ПК"
-   }
-  ],
-  [
-   1795077182.9676042,
-   6372,
-   "🎬",
-   "Тімоті Шаламе висловився щодо можливого сиквелу фільму Call Me by Your Name",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/timothee-chalamet-possibility-call-me-by-your-name-sequel-1237228791/",
-    "orig": "Timothée Chalamet Addresses Possibility Of A ‘Call Me by Your Name’ Sequel: “Never Say Never”"
-   }
-  ],
-  [
-   1795077192.6191688,
-   6373,
-   "💾",
-   "CLI-Anything з'єднує ШІ-агентів із будь-яким софтом",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/HKUDS/CLI-Anything",
-    "orig": "HKUDS/CLI-Anything"
-   }
-  ],
   [
    1795078884.03681,
    6374,
@@ -8761,7 +8716,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>Microsoft виправила порожнє вікно Office, яке блокувало Word, Excel та Outlook</b>\n\nMicrosoft виправила помилку Microsoft 365, через яку Word, Excel, Outlook та інші програми Office перекривало порожнє вікно без кнопок і тексту. Якщо через нього неможливо запустити застосунки та встановити оновлення звичайним способом, компанія пропонує примусово перейти на виправлену збірку через командний рядок.\n\n🔗 <a href=\"https://mezha.ua/news/microsoft-office-error-317615/\">Mezha</a> · #софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/microsoft-office-error-317615/",
     "orig": "Microsoft виправила порожнє вікно Office, яке блокувало Word, Excel та Outlook"
@@ -8775,7 +8729,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "💾 <b>Вайбкодинг без коду: Claude створює застосунки для Windows та macOS з підказок звичайною мовою</b>\n\nAnthropic презентувала нову функцію Claude, яка дозволяє створювати, встановлювати та спільно використовувати застосунки з допомогою підказок звичайною мовою.\n\n🔗 <a href=\"https://itc.ua/ua/novini/vajbkodyng-bez-kodu-claude-stvoryuye-zastosunky-dlya-windows-ta-macos-z-pidkazok-zvychajnoyu-movoyu/\">ITC.ua</a> · #софт",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/vajbkodyng-bez-kodu-claude-stvoryuye-zastosunky-dlya-windows-ta-macos-z-pidkazok-zvychajnoyu-movoyu/",
     "orig": "Вайбкодинг без коду: Claude створює застосунки для Windows та macOS з підказок звичайною мовою"
@@ -8789,7 +8742,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🤖 <b>Коаліція із 42 генпрокурорів США намагається заблокувати продаж приватних чатів мільйонів користувачів Character.AI</b>\n\nГенеральні прокурори 42 штатів США намагаються заблокувати продаж приватних переписок користувачів Character.AI в межах процедури банкрутства. Вони побоюються, що новий власник отримає доступ до чутливих даних щонайменше 21 млн людей, включно із неповнолітніми, без достатніх гарантій захисту.\n\n🔗 <a href=\"https://mezha.ua/news/character-ai-sell-private-chat-317620/\">Mezha</a> · #ШІ",
     "kind": "photo",
     "link": "https://mezha.ua/news/character-ai-sell-private-chat-317620/",
     "orig": "Коаліція із 42 генпрокурорів США намагається заблокувати продаж приватних чатів мільйонів користувачів Character.AI"
@@ -9625,6 +9577,48 @@
     "link": "https://www.bloomberg.com/news/videos/2026-11-27/equities-extend-recovery-as-ai-trade-rebounds-video",
     "orig": "Equities Extend Recovery as AI Trade Rebounds"
    }
+  ],
+  [
+   1795768360.4735177,
+   7114,
+   "💾",
+   "Woomool",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>Woomool</b>\n\nШІ-полотно, де думки стають відчутними\n\n🔗 <a href=\"https://www.producthunt.com/products/woomool\">Product Hunt</a> · #софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/woomool",
+    "orig": "Woomool"
+   }
+  ],
+  [
+   1795768436.386883,
+   7115,
+   "🎮",
+   "Студія Radical Entertainment скасувала свій неанонсований проєкт",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Студія Radical Entertainment скасувала свій неанонсований проєкт</b>\n\nРозробник Darren Evenson повідомив про скасування неанонсованої гри у студії Radical Entertainment та своє звільнення. Раніше Matt Groening натякав на можливу розробку ремастера Simpsons Hit &amp; Run, проте офіційного підтвердження не було.\n\n🔗 <a href=\"https://insider-gaming.com/simpsons-hit-and-run-canceled/\">Insider Gaming</a> · #ігри #RadicalEntertainment #SimpsonsHitAndRun",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/simpsons-hit-and-run-canceled/",
+    "orig": "Simpsons Hit & Run and Prototype Studio Have Just Had Their Unannounced Game Canceled"
+   }
+  ],
+  [
+   1795768438.6534722,
+   7116,
+   "🤖",
+   "США ускладнили Китаю розробку ШІ: нові моделі Z.AI та Moonshot можуть затриматися до 2027 року",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🤖 <b>США ускладнили Китаю розробку ШІ: нові моделі Z.AI та Moonshot можуть затриматися до 2027 року</b>\n\nКитайські Z.AI та Moonshot AI зіткнулися із затримками нових моделей через захист OpenAI й Anthropic від дистиляції та обмежений доступ до чипів NVIDIA. GLM-5.5 може вийти не раніше першого кварталу 2027 року, а цикл розробки Kimi може збільшитися вдвічі.\n\n🔗 <a href=\"https://mezha.ua/news/chinese-llms-late-317640/\">Mezha</a> · #ШІ",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/chinese-llms-late-317640/",
+    "orig": "США ускладнили Китаю розробку ШІ: нові моделі Z.AI та Moonshot можуть затриматися до 2027 року"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9656,7 +9650,8 @@
   "ai|Mezha|https://mezha.ua/feed/": [
    1795690877.6728966,
    1795710683.4755597,
-   1795712587.793164
+   1795712587.793164,
+   1795768438.6536818
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1795634709.3431487,
@@ -9701,10 +9696,8 @@
    1795707254.949173
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1795624430.5968168,
-   1795647734.3702335,
-   1795676583.5413494,
-   1795710727.4164762
+   1795710727.4164762,
+   1795768436.3871317
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1795734076.968871
@@ -9881,9 +9874,9 @@
    1795743087.1298804
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
-   1795680106.6832585,
    1795714508.8689668,
-   1795719721.443523
+   1795719721.443523,
+   1795768360.4737234
   ]
  },
  "seen": {
@@ -10217,6 +10210,7 @@
   "243d19758b01e2dc": 1794866459.0638292,
   "24437daf95252ce9": 1794740481.6387289,
   "245918f939edb5c4": 1795708855.5535414,
+  "2466dd881ccc5710": 1795768436.387085,
   "247257c36ff4af29": 1795217669.0922933,
   "2497e1c3e10ce315": 1795134676.975582,
   "24abf2d3032c32a6": 1795622673.2525027,
@@ -10734,6 +10728,7 @@
   "5e2e444dc6477db8": 1795396210.292601,
   "5e497955a44ac49b": 1795320297.0768282,
   "5e5879f9c1663ef2": 1795154502.0679226,
+  "5e5ff05ab050f1e0": 1795768263.6200461,
   "5e7cec6d99dc7fde": 1794573175.1934233,
   "5ea5112be4e209ac": 1795044680.769061,
   "5ec50e342e51ead1": 1795658701.063867,
@@ -10771,6 +10766,7 @@
   "6130c5e6de9c7afd": 1795701754.1027172,
   "614017e5a0641d55": 1795126083.9034739,
   "614556e16df9000c": 1795438959.3209436,
+  "615b8868a17eb417": 1795768263.6200461,
   "6163872241249980": 1794929457.0480187,
   "61d78922f86886c2": 1794857505.816836,
   "61f78ec139b32ac6": 1794697294.4971993,
@@ -10991,7 +10987,6 @@
   "771d4dca08bcaad0": 1794661290.499371,
   "771ef06f5955f711": 1795057290.9654427,
   "772872eae734d66f": 1795426257.8103461,
-  "77289a6efa1d517c": 1794558680.3096478,
   "7736267186e65b9d": 1795501922.8311627,
   "7737098bcc05fdf5": 1795239290.172538,
   "778fc4eeae5f9c1e": 1794882683.1975877,
@@ -11677,6 +11672,7 @@
   "c03f7b16bb04bfe0": 1794934900.8836668,
   "c07228401b092aaf": 1795755686.2984421,
   "c0795d054075efdf": 1794893609.9540985,
+  "c084b2811e27fc4b": 1795768360.473679,
   "c08edfbb0325ff31": 1794852057.7928073,
   "c0b7ccc248148c3e": 1795094375.506453,
   "c0ce5fce1bfcc479": 1795302066.7902653,
@@ -11860,6 +11856,7 @@
   "d3a9a4ee5f343529": 1794992869.727929,
   "d3ca0f5d7f71a465": 1794695479.6390064,
   "d3f0b19763b0644e": 1794862903.1640396,
+  "d3f71e6613cf00a5": 1795768438.6536357,
   "d4075ecb0cb06067": 1795059075.8121054,
   "d40e706bf27bf8c9": 1795512915.3471665,
   "d4218061f7e0d044": 1795298736.260573,
@@ -12160,7 +12157,6 @@
   "f3040aceb4d30279": 1794619753.424945,
   "f31eeeaad90757f9": 1794725139.9957623,
   "f321a013f5b012ec": 1795303970.5790293,
-  "f386aaa207a548e4": 1794558686.766569,
   "f38c721f57747dc6": 1795737738.2512836,
   "f3c208ffa2a71075": 1795606436.0267487,
   "f3e9a47b5c501fbf": 1795138283.4116333,
@@ -13485,12 +13481,12 @@
   },
   "filtered": {
    "/Film": 19,
-   "Bloomberg": 29,
+   "Bloomberg": 30,
    "Deadline": 8,
    "Eurogamer": 1,
    "GameSpot": 6,
    "GamesIndustry.biz": 2,
-   "IGN": 14,
+   "IGN": 15,
    "IndieWire": 2,
    "Insider Gaming": 70,
    "Loudwire": 1,
@@ -13522,18 +13518,18 @@
    "IGN": 1,
    "ITC.ua": 37,
    "IndieWire": 7,
-   "Insider Gaming": 11,
+   "Insider Gaming": 12,
    "Kerrang!": 2,
    "Lambgoat": 19,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 15,
-   "Mezha": 31,
+   "Mezha": 32,
    "Neformat": 16,
    "PC Gamer": 11,
    "Pitchfork": 3,
    "PlayUA": 5,
    "Polygon": 20,
-   "Product Hunt": 8,
+   "Product Hunt": 9,
    "Rock Paper Shotgun": 11,
    "SteamDB": 2,
    "Stereogum": 2,
@@ -13545,9 +13541,9 @@
   "translators": {
    "DeepL": 28,
    "gemini-flash-latest": 9,
-   "gemini-flash-lite-latest": 130,
+   "gemini-flash-lite-latest": 131,
    "gemma-4-26b-a4b-it": 89,
-   "gemma-4-31b-it": 117
+   "gemma-4-31b-it": 118
   },
   "week": "2026-W48"
  },
@@ -14987,6 +14983,21 @@
    "Hexologic",
    1793295448.4804857
   ],
+  "q:hit run": [
+   0,
+   "",
+   1795768365.4739072
+  ],
+  "q:hit run and prototype": [
+   0,
+   "",
+   1795768364.9827762
+  ],
+  "q:hit run and prototype studio": [
+   0,
+   "",
+   1795768364.480591
+  ],
   "q:hollow knight silksong": [
    1030300,
    "Hollow Knight: Silksong",
@@ -15627,6 +15638,11 @@
    "",
    1795599086.0494363
   ],
+  "q:prototype studio have just had their": [
+   0,
+   "",
+   1795768367.8667078
+  ],
   "q:proximity": [
    5120160,
    "Proximity",
@@ -15902,6 +15918,26 @@
    "",
    1795698087.6228232
   ],
+  "q:run and prototype": [
+   0,
+   "",
+   1795768367.3888752
+  ],
+  "q:run and prototype studio": [
+   0,
+   "",
+   1795768366.9088385
+  ],
+  "q:run and prototype studio have": [
+   0,
+   "",
+   1795768366.4163964
+  ],
+  "q:run and prototype studio have just": [
+   0,
+   "",
+   1795768365.9348419
+  ],
   "q:rust": [
    252490,
    "Rust",
@@ -16071,6 +16107,26 @@
    2333000,
    "Silver Pines",
    1793440886.8226674
+  ],
+  "q:simpsons": [
+   0,
+   "",
+   1795768363.9410896
+  ],
+  "q:simpsons hit": [
+   0,
+   "",
+   1795768363.417238
+  ],
+  "q:simpsons hit run": [
+   0,
+   "",
+   1795768362.9459157
+  ],
+  "q:simpsons hit run and prototype": [
+   0,
+   "",
+   1795768362.4706001
   ],
   "q:sims": [
    0,
@@ -16707,33 +16763,33 @@
   "Mezha": [
    "android",
    "apple",
-   "ford",
+   "cv90",
    "google",
    "iphone",
    "nvidia",
    "steam",
-   "ubisoft",
    "waymo",
    "авто",
-   "безпілотники",
-   "бпла",
+   "бмп",
+   "бронетехніка",
    "бізнес",
    "військова техніка",
    "гур",
-   "гіперкари",
    "дональд трамп",
-   "дрони",
    "катери",
+   "китай",
    "новини",
+   "новини партнерів",
    "оборонка",
-   "перехоплювачі",
    "роботаксі",
    "сергій притула",
    "смартфони",
    "софт",
+   "технології",
    "україна",
+   "фінляндія",
+   "швеція",
    "штучний інтелект",
-   "японія",
    "ігри"
   ]
  },
@@ -16742,14 +16798,6 @@
   1795744144.232577
  ],
  "titles": [
-  [
-   1795593734.8375592,
-   "Three Days Grace Recently Pranked I Prevail Onstage With A Backdrop Of Lollipops, Rainbows & Flowers"
-  ],
-  [
-   1795595476.376217,
-   "У Google Maps з’явиться режим підвищеної видимості із новими кольорами карт"
-  ],
   [
    1795595796.8069508,
    "Noomi Rapace Launches Production Company Boom Films, Dedicated to Female-Driven Projects and Backed by Thomas Benski’s Lumina Media (EXCLUSIVE)"
@@ -17493,17 +17541,21 @@
   [
    1795766490.331984,
    "Equities Extend Recovery as AI Trade Rebounds"
+  ],
+  [
+   1795768360.473681,
+   "Woomool"
+  ],
+  [
+   1795768436.3870866,
+   "Simpsons Hit & Run and Prototype Studio Have Just Had Their Unannounced Game Canceled"
+  ],
+  [
+   1795768438.6536376,
+   "США ускладнили Китаю розробку ШІ: нові моделі Z.AI та Moonshot можуть затриматися до 2027 року"
   ]
  ],
  "titles_uk": [
-  [
-   1795593734.8375602,
-   "Three Days Grace розіграли I Prevail під час виступу"
-  ],
-  [
-   1795595476.3762174,
-   "У Google Maps з’явиться режим підвищеної видимості із новими кольорами карт"
-  ],
   [
    1795595796.806952,
    "Нумі Рапас заснувала продюсерську компанію Boom Films для жіночоцентричних проєктів за підтримки Lumina Media Томаса Бенскі"
@@ -18247,6 +18299,18 @@
   [
    1795766490.3319857,
    "Світові ринки відновлюються завдяки зростанню в секторі ШІ"
+  ],
+  [
+   1795768360.4736814,
+   "Woomool"
+  ],
+  [
+   1795768436.3870873,
+   "Студія Radical Entertainment скасувала свій неанонсований проєкт"
+  ],
+  [
+   1795768438.6536381,
+   "США ускладнили Китаю розробку ШІ: нові моделі Z.AI та Moonshot можуть затриматися до 2027 року"
   ]
  ],
  "ukrainian": {
@@ -20738,7 +20802,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795763177.7544968,
+  "last_check": 1795768446.8250966,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
