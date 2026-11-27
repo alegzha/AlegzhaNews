@@ -39,56 +39,19 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-27 06:32 UTC",
-  "gemini_error": "",
+  "at": "2026-11-27 07:06 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 3
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-26b-a4b-it": 1
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795070079.4941142,
-   6365,
-   "🤘",
-   "ANTHRAX показали новий кліп \"NYC 93\", знятий під час концерту в Saint Vitus",
-   "Revolver",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.revolvermag.com/premiere/see-anthrax-get-saint-vitus-crowd-thrashing-in-new-nyc-93-video/",
-    "orig": "See ANTHRAX get Saint Vitus crowd thrashing in new “NYC 93” video"
-   }
-  ],
-  [
-   1795071681.9437928,
-   6366,
-   "🎬",
-   "Девід Еллісон висловився про інвестиції Ілона Маска у Skydance та плани компанії",
-   "IndieWire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.indiewire.com/news/general-news/david-ellison-elon-musk-digger-dealbook-summit-1235229252/",
-    "orig": "David Ellison on Elon Musk’s Skydance Investment, Trump and ‘Rush Hour 4,’ and Whether He Would’ve Made ‘Digger’"
-   }
-  ],
-  [
-   1795071868.392972,
-   6367,
-   "🎬",
-   "Зірка «Baywatch» Еріка Еленіак заявила, що OnlyFans врятував її від виселення та фінансових проблем",
-   "Variety",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://variety.com/2026/tv/news/baywatch-erika-eleniak-onlyfans-eviction-1236952802/",
-    "orig": "‘Baywatch’ Star Erika Eleniak Says Joining OnlyFans Saved Her From ‘Financial Stress’ and Being Evicted: It ‘Feels Really Good to Be in Control’"
-   }
-  ],
   [
    1795073478.9224417,
    6368,
@@ -8787,7 +8750,6 @@
    "GamesIndustry.biz",
    {
     "also": [],
-    "caption": "🎮 <b>Програма Women in Games Ambassador Programme поповнилася майже 500 новими учасниками</b>\n\nЗа останній рік до програми Women in Games Ambassador Programme приєдналися 498 нових учасників із 71 країни. Загалом спільнота налічує понад 2700 осіб зі 100 країн світу. Звіт також підкреслює створення Women in Games Europe для підтримки фахівців у європейській ігровій екосистемі.\n\n🔗 <a href=\"https://www.gamesindustry.biz/nearly-500-new-members-joined-women-in-games-ambassador-programme-over-the-past-year\">GamesIndustry.biz</a> · #ігри #WomenInGames",
     "kind": "photo",
     "link": "https://www.gamesindustry.biz/nearly-500-new-members-joined-women-in-games-ambassador-programme-over-the-past-year",
     "orig": "Nearly 500 new members joined Women in Games Ambassador Programme over the past year"
@@ -9651,6 +9613,20 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-27/singapore-talking-to-us-to-keep-ai-chip-access-deputy-pm-says",
     "orig": "Singapore Talking to US to Keep AI Chip Access, Deputy PM Says"
    }
+  ],
+  [
+   1795763169.1754217,
+   7111,
+   "🎬",
+   "К. С. Чітра та Сухасіні Маніратнам віддали шану Аші Бхосле та С. Джанакі на Lata Mangeshkar Talk",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>К. С. Чітра та Сухасіні Маніратнам віддали шану Аші Бхосле та С. Джанакі на Lata Mangeshkar Talk</b>\n\nНа 57-му Міжнародному кінофестивалі в Індії (IFFI) у Гоа співачка К.С. Чітра та акторка й режисерка Сухасіні Маніратнам вшанували пам’ять Аші Бхосле та С. Джанакі — двох найвидатніших співачок-дублерок індійського кіно. Бхосле, двічі номінована на премію «Греммі», ім’я якої згадувалося у хіті гурту Cornershop 1997 року «Brimful of Asha», померла у квітні у віці 92 років.\n\n🔗 <a href=\"https://variety.com/2026/film/festivals/asha-bhosle-s-janaki-ks-chithra-suhasini-iffi-1236959192/\">Variety</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/festivals/asha-bhosle-s-janaki-ks-chithra-suhasini-iffi-1236959192/",
+    "orig": "Asha Bhosle and S. Janaki Remembered by Singer K.S. Chithra and Suhasini Maniratnam at IFFI’s Lata Mangeshkar Talk"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9804,9 +9780,9 @@
    1795507282.132235
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1795674811.2825713,
    1795689136.1748013,
-   1795753905.479403
+   1795753905.479403,
+   1795763169.1756601
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1795741638.505777,
@@ -9934,7 +9910,6 @@
   "01e478ba125afa0c": 1794911494.7006705,
   "01e511a2db798aba": 1794942061.2796698,
   "020e7ccb9f4d0be8": 1795154651.4965339,
-  "02185a83c836f7cd": 1794553375.1923747,
   "021c3528c6072e9a": 1795291257.7166088,
   "021ea2600fd140a7": 1795006853.2084172,
   "027978085d9b4855": 1795116654.1601062,
@@ -10673,7 +10648,6 @@
   "53f804c9fdfe5036": 1795187035.2631474,
   "5414ecc9b939f980": 1794607474.0966804,
   "544396b7298dff1b": 1795282267.5256326,
-  "544e922208991e97": 1794553378.8462498,
   "545e38a10926324b": 1794920510.3703232,
   "5470111df8825930": 1794961884.5306056,
   "54839cc7c333f5d0": 1795221054.2974577,
@@ -10958,6 +10932,7 @@
   "70062f5ad4718e29": 1795627854.4684675,
   "700e2bb142445657": 1795690853.9511383,
   "70248a09d92ab732": 1794661254.0536256,
+  "7045dc064f66441f": 1795763169.1756117,
   "707db29bd397cbd4": 1795712454.4846113,
   "70a06c420079a984": 1795465853.2477036,
   "70b291c249d92e59": 1795132854.102984,
@@ -11822,7 +11797,6 @@
   "cd2a9e679a7417f2": 1795177877.3336859,
   "cd540152fda17355": 1795609880.2743003,
   "cd5819428ecda86e": 1795001460.8855703,
-  "cd8d02a3b1a16eaf": 1794553280.0375872,
   "cdbb933a5771f5c7": 1795327352.1949816,
   "cde1f56dfdfa9321": 1795721475.7203763,
   "ce0525d6b3684094": 1795249978.0018566,
@@ -11868,7 +11842,6 @@
   "d1dc6f43e5e26e58": 1795255758.018902,
   "d21cae7613607bfd": 1795278700.6768863,
   "d23ce669a9437549": 1795132875.7118263,
-  "d24529fab54439e8": 1794551588.8985112,
   "d28a3c57c5bc7920": 1795406507.249495,
   "d28fe934a7d1272c": 1795601002.5972533,
   "d296c7abf457a6d2": 1795618885.3987021,
@@ -12759,7 +12732,7 @@
   ],
   "artists_checked": 1795746732.804688,
   "blocked_until": 1795745172.3733294,
-  "cursor": 261,
+  "cursor": 271,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13571,13 +13544,13 @@
    "The Decoder": 12,
    "ThePRP": 9,
    "VGC": 13,
-   "Variety": 25
+   "Variety": 26
   },
   "translators": {
-   "DeepL": 27,
+   "DeepL": 28,
    "gemini-flash-latest": 9,
-   "gemini-flash-lite-latest": 128,
-   "gemma-4-26b-a4b-it": 87,
+   "gemini-flash-lite-latest": 129,
+   "gemma-4-26b-a4b-it": 88,
    "gemma-4-31b-it": 117
   },
   "week": "2026-W48"
@@ -16888,22 +16861,6 @@
  ],
  "titles": [
   [
-   1795588367.9344163,
-   "J.P. Morgan Asset Mgmt’s Rosenbaum on 2027 AI Spend"
-  ],
-  [
-   1795588372.7184353,
-   "Why Joey From The Further Mis-Adventures Of Cliff Booth Looks So Familiar"
-  ],
-  [
-   1795590097.5368867,
-   "Claude пише, Claude перевіряє, Claude схвалює: Anthropic віддала агентам рев’ю коду"
-  ],
-  [
-   1795590146.8205993,
-   "Brandon Ellis Returns To The Black Dahlia Murder"
-  ],
-  [
    1795591906.6515133,
    "У Dota 2 вийшов патч 7.42a: Valve послабила Riki та Sven"
   ],
@@ -17650,25 +17607,13 @@
   [
    1795761132.076206,
    "Singapore Talking to US to Keep AI Chip Access, Deputy PM Says"
+  ],
+  [
+   1795763169.1756136,
+   "Asha Bhosle and S. Janaki Remembered by Singer K.S. Chithra and Suhasini Maniratnam at IFFI’s Lata Mangeshkar Talk"
   ]
  ],
  "titles_uk": [
-  [
-   1795588367.934417,
-   "У J.P. Morgan прогнозують пік витрат на ШІ у 2027 році"
-  ],
-  [
-   1795588372.718436,
-   "Хто зіграв Джої у фільмі The Further Mis-Adventures Of Cliff Booth"
-  ],
-  [
-   1795590097.5368876,
-   "Claude пише, Claude перевіряє, Claude схвалює: Anthropic віддала агентам рев’ю коду"
-  ],
-  [
-   1795590146.8206003,
-   "Брендон Елліс повернувся до The Black Dahlia Murder"
-  ],
   [
    1795591906.651514,
    "У Dota 2 вийшов патч 7.42a: Valve послабила Riki та Sven"
@@ -18416,6 +18361,10 @@
   [
    1795761132.0762067,
    "Сінгапур веде переговори зі США щодо збереження доступу до чіпів ШІ"
+  ],
+  [
+   1795763169.1756144,
+   "К. С. Чітра та Сухасіні Маніратнам віддали шану Аші Бхосле та С. Джанакі на Lata Mangeshkar Talk"
   ]
  ],
  "ukrainian": {
@@ -20907,7 +20856,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795757881.5950096,
+  "last_check": 1795763177.7544968,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
