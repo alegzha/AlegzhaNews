@@ -1,11 +1,5 @@
 {
  "alerts": {
-  "src:games|Polygon|https://www.polygon.com/feed/": {
-   "detail": "https://www.polygon.com/feed/ → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\nhttps://www.polygon.com/rss/index.xml → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
-   "label": "Джерело «Polygon» не працює",
-   "sent": 0,
-   "since": 1795789865.5984287
-  },
   "src:music|ThePRP|https://www.theprp.com/feed/": {
    "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
    "label": "Джерело «ThePRP» не працює",
@@ -47,56 +41,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-27 14:02 UTC",
+  "at": "2026-11-27 15:02 UTC",
   "gemini_error": "",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 1
+   "gemma-4-31b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795098787.4041963,
-   6402,
-   "🎮",
-   "Продажі консолей у США зросли у жовтні попри високі ціни",
-   "GameSpot",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.gamespot.com/articles/despite-the-pricing-hellscape-console-sales-grew-in-october/",
-    "orig": "Despite The Pricing Hellscape, Console Sales Grew In October"
-   }
-  ],
-  [
-   1795098825.5439844,
-   6403,
-   "💾",
-   "Суд у Британії став на бік Apple у суперечці з урядом щодо даних користувачів",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-19/uk-court-rules-for-apple-in-user-data-fight-with-government",
-    "orig": "UK Court Rules for Apple in User Data Fight with Government"
-   }
-  ],
-  [
-   1795100489.5183692,
-   6404,
-   "🎮",
-   "GTA 6 змушує грати з наслідками власних рішень: Rockstar прибрала звичну функцію",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/gta-6-zmushuye-graty-z-naslidkamy-vlasnyh-rishen-rockstar-prybrala-zvychnu-funktsiyu/",
-    "orig": "GTA 6 змушує грати з наслідками власних рішень: Rockstar прибрала звичну функцію"
-   }
-  ],
   [
    1795100607.3019505,
    6405,
@@ -8748,7 +8703,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Кортні Б. Ванс розповів про вшанування пам&#x27;яті покійного Ленса Реддіка в ролі Зевса</b>\n\nУ 3-му сезоні серіалу Percy Jackson and the Olympians боги та напівбоги повертаються на екрани, а Кортні Б. Ванс узяв на себе непросту задачу зіграти володаря Олімпу\n\n🔗 <a href=\"https://deadline.com/2026/11/percy-jackson-courtney-b-vance-doing-late-lance-reddick-1237234178/\">Deadline</a> · #кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/percy-jackson-courtney-b-vance-doing-late-lance-reddick-1237234178/",
     "orig": "‘Percy Jackson’s Courtney B. Vance On “Doing Right By” Late Lance Reddick After Taking Over Zeus Role"
@@ -9608,6 +9562,20 @@
     "link": "https://mezha.ua/news/samsung-private-cloud-for-ai-features-317651/",
     "orig": "Samsung розробляє захищену хмару для ШІ за аналогією з Apple"
    }
+  ],
+  [
+   1795791705.863843,
+   7145,
+   "🤖",
+   "ШІ Google перевантажив токсикологічні центри у Франції через хибні медичні поради",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🤖 <b>ШІ Google перевантажив токсикологічні центри у Франції через хибні медичні поради</b>\n\nПісля липневого запуску Google AI Overviews у Франції місцеві токсикологічні центри стикнулись зі значним зростанням кількості звернень: люди, довірившись відповідям ШІ, телефонували медикам через ситуації, які насправді не несли ризиків отруєння.\n\n🔗 <a href=\"https://mezha.ua/news/google-ai-floods-french-poison-centers-317657/\">Mezha</a> · #ШІ",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/google-ai-floods-french-poison-centers-317657/",
+    "orig": "ШІ Google перевантажив токсикологічні центри у Франції через хибні медичні поради"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9637,10 +9605,10 @@
    1795719723.4087262
   ],
   "ai|Mezha|https://mezha.ua/feed/": [
-   1795690877.6728966,
    1795710683.4755597,
    1795712587.793164,
-   1795768438.6536818
+   1795768438.6536818,
+   1795791705.8640916
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
    1795634709.3431487,
@@ -10387,6 +10355,7 @@
   "37704206e3110eeb": 1795116654.1601062,
   "377a2cbff027c518": 1795354267.0035863,
   "3781448153b0315f": 1794823495.8280075,
+  "3795745779329dde": 1795791705.8640451,
   "37a8709304e91818": 1795001460.8855703,
   "37b5c9ba93266751": 1795633328.4335182,
   "37bb853676390dd0": 1795788178.4441357,
@@ -10895,7 +10864,6 @@
   "6cfced7e0d387166": 1795194054.9388816,
   "6d087a8ca1e99291": 1795094263.3185225,
   "6d29073493f11420": 1794709881.1904464,
-  "6d4a6756011106fc": 1794582097.1731212,
   "6d5d814b11634b80": 1795541457.6312466,
   "6d7048e141da2b63": 1794870128.9395034,
   "6d934b84dca27339": 1794610969.0439706,
@@ -10983,7 +10951,6 @@
   "76439351dd6b6958": 1795476705.7846272,
   "76483e7f408e18c8": 1795460456.8112307,
   "76780cda49ed71f0": 1794967638.545148,
-  "767c099fae08452a": 1794582059.4334304,
   "768e5600b73c2008": 1795696290.5372956,
   "76c577d8e8080f24": 1795212247.0605948,
   "76e19d3b2aa2730b": 1794607254.7994547,
@@ -11215,7 +11182,6 @@
   "8e334a186250d7a9": 1795518427.9221284,
   "8e503ca403fd11b0": 1795293218.0060165,
   "8e67a241c0cf3b18": 1795465947.391177,
-  "8e79a4a0a086bb0a": 1794582095.1363876,
   "8e9c1618e600d0e3": 1795372260.5712729,
   "8ea17a39bd425244": 1795170655.6016555,
   "8eb1c812ba5c288c": 1794852103.13292,
@@ -11502,6 +11468,7 @@
   "ac2da02395ef4d7b": 1795412136.6387289,
   "ac4c9a772d4b5fa4": 1795413690.6290112,
   "ac69ed41281547d5": 1794808989.7637699,
+  "ac766d55611c9217": 1795791755.699774,
   "ac7c280cb8b6019f": 1795069877.7112758,
   "ace3eeb55347e289": 1795752077.64294,
   "acef0590d00add28": 1795712454.4846113,
@@ -11659,6 +11626,7 @@
   "bc8f5902521609f1": 1795516283.404258,
   "bca0a4df5cc8ebc2": 1795759396.7716584,
   "bcf878ba3e2ed755": 1795338185.8648632,
+  "bd0886bfe5db68f9": 1795791655.2151365,
   "bd12796d271c4d1b": 1795087856.688431,
   "bd25599b8c5c1a62": 1795278653.9636526,
   "bd28dc198e354d61": 1795476708.2504475,
@@ -11845,7 +11813,6 @@
   "d0a3a7f662b58965": 1795602779.6824787,
   "d0a6427a67e9ff35": 1795611655.103084,
   "d0b0910c2f17839b": 1794727878.8783674,
-  "d0b354c4558f3994": 1794582059.4334304,
   "d0c5027a89587edf": 1794585652.9085758,
   "d13ca0c7a908618a": 1795753887.128493,
   "d14505ec7550480e": 1795640457.7143178,
@@ -13525,7 +13492,7 @@
    "Mezha": 1,
    "PC Gamer": 22,
    "PlayUA": 2,
-   "Polygon": 43,
+   "Polygon": 44,
    "Rock Paper Shotgun": 2,
    "SteamDB": 1,
    "ThePRP": 1,
@@ -13555,7 +13522,7 @@
    "Lambgoat": 19,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 15,
-   "Mezha": 33,
+   "Mezha": 34,
    "Neformat": 16,
    "PC Gamer": 11,
    "Pitchfork": 3,
@@ -13575,7 +13542,7 @@
    "gemini-flash-latest": 9,
    "gemini-flash-lite-latest": 139,
    "gemma-4-26b-a4b-it": 95,
-   "gemma-4-31b-it": 121
+   "gemma-4-31b-it": 122
   },
   "week": "2026-W48"
  },
@@ -13749,11 +13716,6 @@
    "4557840",
    "Lots of Axos",
    1793642520.9182227
-  ],
-  "id:4739980": [
-   "4739980",
-   "Monster Train 2: The Punished",
-   1793197994.6960018
   ],
   "id:4789870": [
    "4789870",
@@ -13964,11 +13926,6 @@
    0,
    "",
    1795732274.2101488
-  ],
-  "q:45m": [
-   0,
-   "",
-   1795618887.5060308
   ],
   "q:500": [
    0,
@@ -14374,21 +14331,6 @@
    3204330,
    "County of Fortune",
    1794088874.6381137
-  ],
-  "q:creative industries": [
-   0,
-   "",
-   1795618889.477948
-  ],
-  "q:creative industries sector": [
-   0,
-   "",
-   1795618888.7230153
-  ],
-  "q:creative industries sector plan": [
-   0,
-   "",
-   1795618888.0793865
   ],
   "q:creator says": [
    0,
@@ -14945,16 +14887,6 @@
    "Indiana Jones and the Great Circle",
    1794655882.998761
   ],
-  "q:industries sector": [
-   0,
-   "",
-   1795618890.74961
-  ],
-  "q:industries sector plan": [
-   0,
-   "",
-   1795618890.2042973
-  ],
   "q:infinity nikki": [
    3164330,
    "Infinity Nikki",
@@ -15254,11 +15186,6 @@
    2246340,
    "Monster Hunter Wilds",
    1793203331.0712078
-  ],
-  "q:monster train 2": [
-   2742830,
-   "Monster Train 2",
-   1793197995.3387616
   ],
   "q:mouthwashing": [
    2475490,
@@ -15625,16 +15552,6 @@
    "Remembrance",
    1794655876.257533
   ],
-  "q:rendaros": [
-   0,
-   "",
-   1795618882.6237872
-  ],
-  "q:rendaros ua": [
-   0,
-   "",
-   1795618882.0201223
-  ],
   "q:resident evil": [
    304240,
    "Resident Evil",
@@ -15904,11 +15821,6 @@
    0,
    "",
    1795694568.7058089
-  ],
-  "q:sector plan": [
-   0,
-   "",
-   1795618891.3225405
   ],
   "q:selaco": [
    1592280,
@@ -16555,11 +16467,6 @@
    "Wuthering Waves",
    1794227491.543539
   ],
-  "q:wwe 2k26": [
-   3717070,
-   "WWE 2K26",
-   1793198048.8500617
-  ],
   "q:zero parades": [
    2863680,
    "ZERO PARADES: Director's Cut",
@@ -16568,38 +16475,39 @@
  },
  "tag_hints": {
   "Mezha": [
-   "apple",
    "binance",
+   "google",
    "gta 6",
-   "ipad",
-   "lynx kf41",
+   "mac hub",
    "one ui 9.5",
-   "rheinmetall",
    "samsung",
    "temu",
    "армія сша",
    "армія+",
-   "бронетехніка",
+   "бпла",
    "біткоїн",
    "військовослужбовці",
+   "кодифікація",
    "криптовалюти",
    "криптовалютна біржа",
    "кібербезпека",
    "маркетплейс",
+   "медицина",
    "міноборони",
    "новини",
    "новини партнерів",
    "нрк",
    "оборонка",
-   "оборонні закупівлі",
-   "планшети",
+   "перехоплювачі",
    "платформи",
+   "ппо",
+   "реактивні безпілотники",
    "сили оборони",
    "софт",
    "сша",
+   "франція",
    "хакери",
    "штучний інтелект",
-   "єс",
    "ігри"
   ]
  },
@@ -16610,18 +16518,6 @@
   1795786407.9704206
  ],
  "titles": [
-  [
-   1795618885.3987038,
-   "Найкраща гра для фанатів екшенів — Onimusha: Way of the Sword (Rendaros UA)"
-  ],
-  [
-   1795618956.136208,
-   "Gaming sector to benefit from funding package of over £45m as part of Creative Industries Sector Plan"
-  ],
-  [
-   1795618958.7922683,
-   "Звільнили через ШІ — грай у відеоігри: що запропонував керівник Anthropic"
-  ],
   [
    1795620686.3503299,
    "EA поверне голос покійного коментатора Джона Мотсона у FC 27 за допомогою ШІ"
@@ -17369,21 +17265,13 @@
   [
    1795789901.8645394,
    "Samsung розробляє захищену хмару для ШІ за аналогією з Apple"
+  ],
+  [
+   1795791705.8640466,
+   "ШІ Google перевантажив токсикологічні центри у Франції через хибні медичні поради"
   ]
  ],
  "titles_uk": [
-  [
-   1795618885.3987045,
-   "Найкраща гра для фанатів екшенів — Onimusha: Way of the Sword (Rendaros UA)"
-  ],
-  [
-   1795618956.136209,
-   "Ігрова індустрія отримає понад £45 млн у межах плану розвитку креативних індустрій"
-  ],
-  [
-   1795618958.7922688,
-   "Звільнили через ШІ — грай у відеоігри: що запропонував керівник Anthropic"
-  ],
   [
    1795620686.3503306,
    "EA поверне голос покійного коментатора Джона Мотсона у FC 27 за допомогою ШІ"
@@ -18131,6 +18019,10 @@
   [
    1795789901.8645399,
    "Samsung розробляє захищену хмару для ШІ за аналогією з Apple"
+  ],
+  [
+   1795791705.864047,
+   "ШІ Google перевантажив токсикологічні центри у Франції через хибні медичні поради"
   ]
  ],
  "ukrainian": {
@@ -19443,7 +19335,7 @@
     "coming_soon": false,
     "discount": 13,
     "name": "Cronos: The New Dawn",
-    "price": "1 463,00₴",
+    "price": "812,00₴",
     "release": 1757080603
    },
    "2118370": {
@@ -20623,7 +20515,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795786462.187913,
+  "last_check": 1795791763.471011,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
