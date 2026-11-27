@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795795275.7453005
+  }
+ },
  "daily_digest_date": "2026-11-26",
  "freebies": {
   "last_check": 1795789903.437827,
@@ -34,7 +41,7 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-27 15:31 UTC",
+  "at": "2026-11-27 16:01 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
@@ -45,32 +52,6 @@
   ]
  },
  "post_log": [
-  [
-   1795102332.2893207,
-   6406,
-   "🎮",
-   "Ubisoft звільняє 166 працівників у Монреалі та Квебеку",
-   "VGC",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.videogameschronicle.com/news/ubisoft-is-laying-off-166-staff-in-its-montreal-and-quebec-city-offices/",
-    "orig": "Ubisoft is laying off 166 staff in its Montréal and Québec City offices"
-   }
-  ],
-  [
-   1795102384.3253598,
-   6407,
-   "🎮",
-   "Гра без ШІ про рибу зі снайперкою стала найпопулярнішою на Epic AI MegaJam",
-   "Rock Paper Shotgun",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.rockpapershotgun.com/fish-with-a-sniper-rifle-takes-aim-at-tim-sweeneys-hopes-and-dreams-as-genai-free-meme-game-tops-epic-games-vibe-coding-megajam",
-    "orig": "Fish with a sniper rifle takes aim at Tim Sweeney's hopes and dreams, as genAI-free meme game tops Epic Games' vibe-coding megajam"
-   }
-  ],
   [
    1795104287.0353036,
    6408,
@@ -8740,7 +8721,6 @@
    "Variety",
    {
     "also": [],
-    "caption": "🎬 <b>Сілька Луїза розповіла про фінал Blade Runner 2099 та долю Cora й Olwen</b>\n\nОбережно, спойлери! У статті обговорено фінал Blade Runner 2099, що вже доступний на Prime Video. Майбутнє людства стає неочевидним після того, як з&#x27;ясовується, що викрадена пам&#x27;ять, яку шукали весь сезон, містить дані доктора...\n\n🔗 <a href=\"https://variety.com/2026/tv/news/blade-runner-2099-finale-cora-olwen-fates-1236958380/\">Variety</a> · #кіно_і_серіали",
     "kind": "photo",
     "link": "https://variety.com/2026/tv/news/blade-runner-2099-finale-cora-olwen-fates-1236958380/",
     "orig": "‘Blade Runner 2099’ Boss Silka Luisa on What the Finale Means for Replicants and the Fate of Cora and Olwen"
@@ -8754,7 +8734,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Star Trek: Voyager - Across the Unknown отримає DLC за мотивами Year of Hell</b>\n\nВидавництво Daedalic Entertainment анонсувало нове DLC Year of Hell для виживача Star Trek: Voyager - Across the Unknown. Доповнення вийде 9 грудня і запропонує гравцям мінікампанію, де можна як повторити сюжет культової арки серіалу, так і змінити історію, об&#x27;єднавшись із капітаном Annorax.\n\n🔗 <a href=\"https://www.polygon.com/star-trek-voyager-across-the-unknown-year-of-hell-dlc-announced/\">Polygon</a> · #ігри #StarTrek #DaedalicEntertainment",
     "kind": "photo",
     "link": "https://www.polygon.com/star-trek-voyager-across-the-unknown-year-of-hell-dlc-announced/",
     "orig": "Star Trek: Voyager Officially Revisits the Series' Best Two-Parter in a Brand-New Way"
@@ -9595,6 +9574,34 @@
     "link": "https://itc.ua/ua/novini/ubisoft-generatyvnyj-shi-pitchi-poyasnyuvaty-vidmovu/",
     "orig": "Ubisoft вимагає від розробників пояснювати, чому вони не використовують генеративний ШІ"
    }
+  ],
+  [
+   1795795292.0205107,
+   7149,
+   "🤖",
+   "Розробник дата-центрів для ШІ LIAN Group планує IPO у Лондоні на $500 млн",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Розробник дата-центрів для ШІ LIAN Group планує IPO у Лондоні на $500 млн</b>\n\nКомпанія LIAN Group обрала Лондон для проведення первинного публічного розміщення акцій наступного року. Очікується, що обсяг IPO складе $500 млн, що стане підтримкою для лондонського ринку нових лістингу.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-27/ai-data-center-developer-lian-picks-london-for-500-million-ipo\">Bloomberg</a> · #ШІ #LIANGroup",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/ai-data-center-developer-lian-picks-london-for-500-million-ipo",
+    "orig": "AI Data-Center Developer LIAN Picks London for $500 Million IPO"
+   }
+  ],
+  [
+   1795795295.1542656,
+   7150,
+   "💾",
+   "SAP зіштовхнулася з плинністю кадрів у топменеджменті",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "💾 <b>SAP зіштовхнулася з плинністю кадрів у топменеджменті</b>\n\nСофтверна компанія намагається закрити серйозні прогалини у керівному складі\n\n🔗 <a href=\"https://www.bloomberg.com/news/newsletters/2026-11-27/sap-struggles-with-turnover-in-the-executive-team\">Bloomberg</a> · #софт",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/newsletters/2026-11-27/sap-struggles-with-turnover-in-the-executive-team",
+    "orig": "SAP Struggles With Turnover in the Executive Team"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9602,12 +9609,12 @@
    1795721475.7204225
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1795681956.8203354,
    1795712480.7627933,
    1795714519.1565151,
    1795755686.2984881,
    1795761132.0762506,
-   1795766490.332039
+   1795766490.332039,
+   1795795292.0207593
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1795717876.4776678,
@@ -9822,8 +9829,8 @@
    1793547082.3914192
   ],
   "software|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1795701754.1027622,
-   1795779161.4493303
+   1795779161.4493303,
+   1795795295.15441
   ],
   "software|DOU|https://dou.ua/feed/": [
    1794843085.3208008
@@ -9947,7 +9954,6 @@
   "09ca5f9f370d8b4c": 1795136487.66789,
   "09d54a239efc22b7": 1794902455.1209733,
   "0a0cabf1c8e8609f": 1794627078.9178329,
-  "0a2b8c2efc2728e5": 1794585687.2769177,
   "0a87c87c8a691f79": 1795431685.8027568,
   "0ac26792d1527127": 1795397593.1250198,
   "0ae0949b8cd38010": 1795186954.2942495,
@@ -10692,6 +10698,7 @@
   "5be02a8d607595a9": 1795775477.0131304,
   "5c7af98210427b8c": 1794668451.1657076,
   "5c9ed0adbe744f64": 1795133038.9434793,
+  "5cb4fd3b1a152ec3": 1795795295.1543708,
   "5cb5e3224dc91ef4": 1795662175.7346742,
   "5ce05ddce2ac9c98": 1795237281.589098,
   "5d47fb15e68090bb": 1795262898.8029451,
@@ -11075,6 +11082,7 @@
   "80d1635b58ad2566": 1795048281.485335,
   "80f2245c44cef0be": 1794887915.5464478,
   "8101341e38585207": 1795228528.5650141,
+  "8127c456c7653a1c": 1795795260.3677266,
   "817a5f35561ee1a6": 1795339853.7201128,
   "818ce15a49e53ad4": 1795388795.2453125,
   "81a6ac125e17b667": 1795316486.416918,
@@ -11108,6 +11116,7 @@
   "84b129d286a6d2e7": 1795341679.2149568,
   "84b50641334733c1": 1794999653.1275568,
   "84c493ffab2a300d": 1794960096.0063965,
+  "84eb176b4b7f9546": 1795795277.8952215,
   "8504b4d40b8cc02c": 1795469457.0355752,
   "8508608452b89271": 1794956575.5119343,
   "8526c6abe186a99e": 1794850307.4515576,
@@ -11312,6 +11321,7 @@
   "9bfc3824e72b6d11": 1795424505.9808967,
   "9c0887d35882af41": 1795204965.5333297,
   "9c10a7f10b16d08d": 1794810782.9833372,
+  "9c19b1306b9e38a7": 1795795277.8956988,
   "9c3962452e0436ac": 1795419075.1227758,
   "9c5c9479bb85aa68": 1795683653.653951,
   "9c7207371e9172fd": 1795458656.4008207,
@@ -11367,6 +11377,7 @@
   "a0c07b20325751f7": 1794774828.309141,
   "a0e5cf1c4dee7673": 1794965486.335891,
   "a0f7493a53a0dca2": 1795177878.0187154,
+  "a0fac3f98a7596f9": 1795795292.0207126,
   "a10d2d9903ab1186": 1794592858.1127434,
   "a11c0933462e7915": 1795770076.107359,
   "a13108295e78b1e7": 1795271475.0149632,
@@ -11781,7 +11792,6 @@
   "cae36b629c02a618": 1794825055.973085,
   "cb03ec9b2d435a67": 1795664050.42801,
   "cb08cab5d7e0c702": 1795408345.8540425,
-  "cb1ad48859ea8c9c": 1794585652.9085758,
   "cb41bfa9f45cf983": 1795235481.3480043,
   "cb8790c72382e7a1": 1795170655.6016555,
   "cb9a99d0b2ee0745": 1795383067.368888,
@@ -11829,7 +11839,6 @@
   "d0a3a7f662b58965": 1795602779.6824787,
   "d0a6427a67e9ff35": 1795611655.103084,
   "d0b0910c2f17839b": 1794727878.8783674,
-  "d0c5027a89587edf": 1794585652.9085758,
   "d13ca0c7a908618a": 1795753887.128493,
   "d14505ec7550480e": 1795640457.7143178,
   "d146ff6cd3ab4eef": 1794717097.104979,
@@ -12023,7 +12032,6 @@
   "e42ccd7bddd0491b": 1795478516.081035,
   "e4417c4016aa9641": 1794661254.0536256,
   "e457e0a4d0a25c96": 1794816654.5507064,
-  "e48d6f07fd827d73": 1794585676.9122105,
   "e496da516d4cbb58": 1795775462.3648236,
   "e4b515a6bfb5c99d": 1794931288.4678357,
   "e4d16c1c883bd6b6": 1794612682.433116,
@@ -13502,7 +13510,7 @@
    "IGN": 16,
    "ITC.ua": 1,
    "IndieWire": 2,
-   "Insider Gaming": 78,
+   "Insider Gaming": 79,
    "Loudwire": 2,
    "Metal Hammer (Louder)": 5,
    "Mezha": 1,
@@ -13519,7 +13527,7 @@
    "/Film": 16,
    "AIN.ua": 3,
    "Blabbermouth": 4,
-   "Bloomberg": 36,
+   "Bloomberg": 38,
    "DOU": 5,
    "DOU Gamedev": 4,
    "Deadline": 65,
@@ -13556,18 +13564,13 @@
   "translators": {
    "DeepL": 32,
    "gemini-flash-latest": 9,
-   "gemini-flash-lite-latest": 141,
+   "gemini-flash-lite-latest": 143,
    "gemma-4-26b-a4b-it": 95,
    "gemma-4-31b-it": 122
   },
   "week": "2026-W48"
  },
  "steam": {
-  "id:1043850": [
-   "1043850",
-   "Project Warlock: Lost Chapters",
-   1793201547.7325087
-  ],
   "id:1142050": [
    "1142050",
    "Deadhaus Sonata",
@@ -13592,11 +13595,6 @@
    "1696770",
    "The Mermaid Mask",
    1793554297.1922877
-  ],
-  "id:1742440": [
-   "1742440",
-   "COP BASTARD",
-   1793201547.554905
   ],
   "id:1799840": [
    "1799840",
@@ -13832,11 +13830,6 @@
    0,
    "",
    1795703577.6287568
-  ],
-  "q:27": [
-   0,
-   "",
-   1795620685.3466716
   ],
   "q:3": [
    0,
@@ -14157,11 +14150,6 @@
    3264110,
    "AUTO_BATTLER_RPG",
    1794765690.0339878
-  ],
-  "q:award winning": [
-   0,
-   "",
-   1795620688.9308841
   ],
   "q:aware": [
    3249600,
@@ -14573,16 +14561,6 @@
    "Dwarf Fortress",
    1794672074.7887242
   ],
-  "q:ea fc": [
-   0,
-   "",
-   1795620684.340524
-  ],
-  "q:ea fc 27": [
-   0,
-   "",
-   1795620683.7301936
-  ],
   "q:elfie": [
    2955180,
    "Elfie",
@@ -14657,11 +14635,6 @@
    2831000,
    "Faraway",
    1793903642.2103114
-  ],
-  "q:fc 27": [
-   0,
-   "",
-   1795620684.8104932
   ],
   "q:february": [
    3529080,
@@ -14822,11 +14795,6 @@
    1297900,
    "Gothic 1 Remake",
    1793392402.701678
-  ],
-  "q:grammy award winning": [
-   0,
-   "",
-   1795620688.412825
   ],
   "q:gravhounds": [
    2440760,
@@ -16443,11 +16411,6 @@
    "Wishlist",
    1793797603.1037817
   ],
-  "q:witchbrook": [
-   1846700,
-   "Witchbrook",
-   1793201711.3159413
-  ],
   "q:witcher": [
    0,
    "",
@@ -16556,7 +16519,9 @@
  },
  "tag_hints": {
   "Mezha": [
+   "android",
    "binance",
+   "chatgpt",
    "google",
    "gta 6",
    "mac hub",
@@ -16577,7 +16542,6 @@
    "міноборони",
    "новини",
    "новини партнерів",
-   "нрк",
    "оборонка",
    "перехоплювачі",
    "платформи",
@@ -16588,6 +16552,7 @@
    "сша",
    "франція",
    "хакери",
+   "чатботи",
    "штучний інтелект",
    "ігри"
   ]
@@ -16599,10 +16564,6 @@
   1795786407.9704206
  ],
  "titles": [
-  [
-   1795620739.1839035,
-   "Grammy Award-winning band removes dozens of tracks following Nintendo copyright issues"
-  ],
   [
    1795622555.6896477,
    "3 Reasons Why Console Prices Aren’t Going Down Anytime Soon"
@@ -17358,13 +17319,17 @@
   [
    1795793513.1041946,
    "Ubisoft вимагає від розробників пояснювати, чому вони не використовують генеративний ШІ"
+  ],
+  [
+   1795795292.0207148,
+   "AI Data-Center Developer LIAN Picks London for $500 Million IPO"
+  ],
+  [
+   1795795295.1543727,
+   "SAP Struggles With Turnover in the Executive Team"
   ]
  ],
  "titles_uk": [
-  [
-   1795620739.1839044,
-   "8-Bit Big Band видалили десятки треків через проблеми з авторським правом Nintendo"
-  ],
   [
    1795622555.6896486,
    "Ціни на ігрові консолі не впадуть найближчим часом через дефіцит пам'яті та ШІ"
@@ -18120,6 +18085,14 @@
   [
    1795793513.104195,
    "Ubisoft вимагає від розробників пояснювати, чому вони не використовують генеративний ШІ"
+  ],
+  [
+   1795795292.0207157,
+   "Розробник дата-центрів для ШІ LIAN Group планує IPO у Лондоні на $500 млн"
+  ],
+  [
+   1795795295.1543732,
+   "SAP зіштовхнулася з плинністю кадрів у топменеджменті"
   ]
  ],
  "ukrainian": {
@@ -20612,7 +20585,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795791763.471011,
+  "last_check": 1795795303.9430602,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
