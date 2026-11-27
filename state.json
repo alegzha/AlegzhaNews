@@ -1,18 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1795782690.7439926
-  },
-  "src:music|ThePRP|https://www.theprp.com/feed/": {
-   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ThePRP» не працює",
-   "sent": 0,
-   "since": 1795777299.1351905
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-26",
  "freebies": {
   "last_check": 1795781630.2288687,
@@ -47,45 +34,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-27 12:13 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "at": "2026-11-27 12:45 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
-   "gemma-4-26b-a4b-it": 1
+   "gemma-4-31b-it": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795091577.2383099,
-   6390,
-   "🎮",
-   "У Fortnite з'явився новий спосіб отримати Pirate Shop Token",
-   "Polygon",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.polygon.com/fortnite-pirate-shop-access-token-respawn-rumble/",
-    "orig": "Fortnite Adds New Way to Get the Pirate Shop Token"
-   }
-  ],
-  [
-   1795091580.1647213,
-   6391,
-   "🎬",
-   "BeIN Media Group уклала нову угоду з NBCUniversal",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/bein-media-group-michael-hamnet-nbc-universal-1237228885/",
-    "orig": "BeIN Media Group To Bring ‘Michael’, ‘Hamnet’ & ‘Jurassic World Rebirth’ To MENA Audiences With Fresh NBC Universal Deal"
-   }
-  ],
   [
    1795094042.940208,
    6392,
@@ -8789,7 +8748,6 @@
    "VGC",
    {
     "also": [],
-    "caption": "🎮 <b>Співзасновник Rare показав кадри скасованої Conker 64</b>\n\nТім Стемпер опублікував відео з концепт-артами та білдом скасованої гри Conker 64 від 1998 року. Проєкт став попередником Conker’s Bad Fur Day, але не мав характерного для нього дорослого гумору. Матеріали були збережені на картриджі для Nintendo 64.\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/rare-co-founder-reveals-footage-of-cancelled-conker-64/\">VGC</a> · #ігри #Rare #Conker64",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/news/rare-co-founder-reveals-footage-of-cancelled-conker-64/",
     "orig": "Rare co-founder reveals footage of cancelled Conker 64"
@@ -8803,7 +8761,6 @@
    "Neformat",
    {
     "also": [],
-    "caption": "🤘 <b>Walst повертається до творчості з новим синглом</b>\n\nСольний слоукор-проєкт Walst днями презентував пісню &quot;Waiting for You&quot; на нішевому лейблі Sour Patch. Засновник проєкту Назар написав цю пісню на одному диханні, й саме вона вивела артиста із затяжн\n\n🔗 <a href=\"https://www.neformat.com.ua/news/28451-walst-povertaietsya-do-tvorchosti-z-novim-singlom.html\">Neformat</a> · #музика",
     "kind": "photo",
     "link": "https://www.neformat.com.ua/news/28451-walst-povertaietsya-do-tvorchosti-z-novim-singlom.html",
     "orig": "Walst повертається до творчості з новим синглом"
@@ -9644,6 +9601,34 @@
     "link": "https://itc.ua/ua/novini/windows-12-microsoft-davuluri-windows-11-shi/",
     "orig": "Windows 12 поки не буде: в Microsoft пояснили, чому"
    }
+  ],
+  [
+   1795783525.044558,
+   7136,
+   "🎮",
+   "Автор нарешті зіграв у Faraway, на яку чекав 16 років",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Автор нарешті зіграв у <a href=\"https://store.steampowered.com/app/2831000/\">Faraway</a>, на яку чекав <a href=\"https://store.steampowered.com/app/4655470/\">16</a> років</b>\n🕹 <a href=\"https://store.steampowered.com/app/2831000/\">Faraway</a> — 194,00₴\n🕹 <a href=\"https://store.steampowered.com/app/4655470/\">16叠谋杀之谜</a> — 52,00₴\n\nАвтор нарешті зіграв у Faraway — гру від Степа Тіріона, трейлер якої з&#x27;явився ще 16 років тому. У матеріалі згадується інший проєкт розробника, Eliss, та особливості ранньої епохи мобільних ігор.\n\n🔗 <a href=\"https://www.eurogamer.net/faraway-eliss-annapurna-interactive-16-years-finally-here\">Eurogamer</a> · #ігри #Faraway",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/faraway-eliss-annapurna-interactive-16-years-finally-here",
+    "orig": "At last, I've finally played Faraway, an enigma I've been waiting 16 years to see"
+   }
+  ],
+  [
+   1795783527.0604112,
+   7137,
+   "🎬",
+   "Серіал Netflix можна дивитися 40 320 способами: що за «Калейдоскоп»",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎬 <b>Серіал Netflix можна дивитися 40 320 способами: що за «Калейдоскоп»</b>\n\nМінісеріал Netflix «Калейдоскоп» (Kaleidoscope) можна подивитися 40 320 способами, і від обраного порядку серій залежить, як сприйматиметься вся історія. На цю особливість трилера про пограбування звернуло увагу видання ScreenRant.\n\n🔗 <a href=\"https://itc.ua/ua/novini/kalejdoskop-netflix-40320-sposobiv-pereglyadu/\">ITC.ua</a> · #кіно_і_серіали",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/kalejdoskop-netflix-40320-sposobiv-pereglyadu/",
+    "orig": "Серіал Netflix можна дивитися 40 320 способами: що за «Калейдоскоп»"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9698,10 +9683,8 @@
    1795700004.7806194
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1795690913.6110716,
-   1795696290.537343,
-   1795696423.7026503,
-   1795703575.5822632
+   1795703575.5822632,
+   1795783525.0448253
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1795658542.3181212
@@ -9783,8 +9766,8 @@
    1795781628.345832
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
-   1795689138.1097944,
-   1795775478.906556
+   1795775478.906556,
+   1795783527.0607145
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
    1795651499.8481889,
@@ -10395,6 +10378,7 @@
   "3486bfd8f1dd3804": 1795227981.8186276,
   "34fc7f9035834703": 1794598278.1298761,
   "351e500a178cbd45": 1794963668.215512,
+  "35284cd9e91b9afb": 1795783349.4949317,
   "3544a836063b2a5c": 1794718889.3772535,
   "35ab349aa9777645": 1795320137.6138074,
   "35d837d7c52d0650": 1795142004.7231202,
@@ -10760,7 +10744,6 @@
   "5e5879f9c1663ef2": 1795154502.0679226,
   "5e5ff05ab050f1e0": 1795768263.6200461,
   "5e6ae8f093eb6df5": 1795771855.9844167,
-  "5e7cec6d99dc7fde": 1794573175.1934233,
   "5ea5112be4e209ac": 1795044680.769061,
   "5ec50e342e51ead1": 1795658701.063867,
   "5ed07ad4c00112f9": 1794924098.452095,
@@ -11040,6 +11023,7 @@
   "78ce70916882a055": 1795735975.9785287,
   "78f10ffc92d748a5": 1794927708.0906649,
   "78f597b729be2b25": 1795169002.4797568,
+  "790e9d3eab70a00b": 1795783527.0606585,
   "7929016311e7cb9b": 1795442690.6077282,
   "79442b74ff837f03": 1794843088.1211493,
   "795ee1ac9ad510aa": 1795094034.5790455,
@@ -12118,6 +12102,7 @@
   "ea19693a12bb6c71": 1795486710.6602783,
   "ea2065f78b532f39": 1794900685.0720696,
   "ea5b95538217c860": 1794898968.6130197,
+  "ea5be13a4f8324a1": 1795783525.0447774,
   "ea841668e11ee265": 1795086081.8542414,
   "ea8cd49f1f085136": 1794792685.403489,
   "ea94a7943b469944": 1794841259.8494203,
@@ -13561,12 +13546,12 @@
    "Decibel": 1,
    "Digital Foundry": 1,
    "Distorted Sound": 3,
-   "Eurogamer": 10,
+   "Eurogamer": 11,
    "GameSpot": 1,
    "GamesIndustry.biz": 10,
    "Hugging Face": 5,
    "IGN": 1,
-   "ITC.ua": 41,
+   "ITC.ua": 42,
    "IndieWire": 7,
    "Insider Gaming": 12,
    "Kerrang!": 2,
@@ -13593,7 +13578,7 @@
    "gemini-flash-latest": 9,
    "gemini-flash-lite-latest": 136,
    "gemma-4-26b-a4b-it": 93,
-   "gemma-4-31b-it": 119
+   "gemma-4-31b-it": 120
   },
   "week": "2026-W48"
  },
@@ -13857,6 +13842,11 @@
    0,
    "",
    1795615431.7889144
+  ],
+  "q:16": [
+   4655470,
+   "16叠谋杀之谜",
+   1795783350.4280343
   ],
   "q:2": [
    0,
@@ -16263,16 +16253,6 @@
    "Stardew Valley",
    1794749497.770741
   ],
-  "q:state of decay": [
-   241540,
-   "State of Decay",
-   1793190869.212663
-  ],
-  "q:state of decay 3": [
-   1340720,
-   "State of Decay 3",
-   1793190869.8152926
-  ],
   "q:steel core": [
    4749570,
    "Steel Core",
@@ -16738,10 +16718,6 @@
   1795744144.232577
  ],
  "titles": [
-  [
-   1795610014.927897,
-   "Capcom dinosaur shooter Exoprimal's servers will go extinct next year, as shutdown meteor looms"
-  ],
   [
    1795611747.907918,
    "Unreal Engine 6 won't include Blueprints or Actor Gameplay Framework"
@@ -17489,13 +17465,17 @@
   [
    1795782694.5202785,
    "Windows 12 поки не буде: в Microsoft пояснили, чому"
+  ],
+  [
+   1795783525.044779,
+   "At last, I've finally played Faraway, an enigma I've been waiting 16 years to see"
+  ],
+  [
+   1795783527.0606604,
+   "Серіал Netflix можна дивитися 40 320 способами: що за «Калейдоскоп»"
   ]
  ],
  "titles_uk": [
-  [
-   1795610014.927898,
-   "Сервери шутера про динозаврів Exoprimal від Capcom закриють наступного року"
-  ],
   [
    1795611747.9079192,
    "Unreal Engine 6 не підтримуватиме Blueprints та Actor Gameplay Framework"
@@ -18243,6 +18223,14 @@
   [
    1795782694.5202794,
    "Windows 12 поки не буде: в Microsoft пояснили, чому"
+  ],
+  [
+   1795783525.04478,
+   "Автор нарешті зіграв у Faraway, на яку чекав 16 років"
+  ],
+  [
+   1795783527.0606613,
+   "Серіал Netflix можна дивитися 40 320 способами: що за «Калейдоскоп»"
   ]
  ],
  "ukrainian": {
