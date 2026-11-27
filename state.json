@@ -1,10 +1,22 @@
 {
  "alerts": {
+  "src:games|ITC.ua|https://itc.ua/ua/feed/": {
+   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ITC.ua» не працює",
+   "sent": 0,
+   "since": 1795802486.932076
+  },
   "src:music|Neformat|https://www.neformat.com.ua/": {
    "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
    "label": "Джерело «Neformat» не працює",
    "sent": 0,
    "since": 1795800680.9070961
+  },
+  "src:music|ThePRP|https://www.theprp.com/feed/": {
+   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ThePRP» не працює",
+   "sent": 0,
+   "since": 1795802508.7963648
   }
  },
  "daily_digest_date": "2026-11-26",
@@ -52,37 +64,6 @@
   ]
  },
  "post_log": [
-  [
-   1795109701.6308584,
-   6412,
-   "🤖",
-   "Китайські технологічні компанії зіткнулися з подвійним ударом через зупинення постачання чипів та обмеження хмарного доступу за кордоном",
-   "The Decoder",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://the-decoder.com/chinese-tech-firms-face-a-double-hit-as-chip-shipments-stop-and-overseas-cloud-access-disappears/",
-    "orig": "Chinese tech firms face a double hit as chip shipments stop and overseas cloud access disappears"
-   }
-  ],
-  [
-   1795109703.9105694,
-   6413,
-   "🤖",
-   "Перший ШІ-пристрій Nothing показали на живому фото",
-   "Mezha",
-   {
-    "also": [
-     [
-      "Deadline",
-      "https://deadline.com/2026/11/much-ado-about-nothing-broadway-review-tom-hiddleston-1237226924/"
-     ]
-    ],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/nothing-ai-device-picture-317385/",
-    "orig": "Перший ШІ-пристрій Nothing показали на живому фото"
-   }
-  ],
   [
    1795111374.238122,
    6417,
@@ -8760,7 +8741,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>Вийшла <a href=\"https://store.steampowered.com/app/3498700/\">Appulse</a> — шутер-рогалайт, де ваш корабель працює як куля в пінболі</b>\n🕹 <a href=\"https://store.steampowered.com/app/3498700/\">Appulse</a> — 228,00₴ (−20%)\n\nУ грі Appulse материнський корабель є гігантським автоматом для пінболу, а ваш корабель виконує роль кулі, що відбиває атаки роботів. Гравці використовують стрільбу для бою та керування рухом, а також відкривають перки на сповільнення часу чи посилення віддачі. Проєкт уже доступний у Steam.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/your-mothership-is-a-giant-pinball-machine-and-your-ball-is-its-defence-system-in-appulse-a-top-down-roguelite-shooter-thats-out-now\">Rock Paper Shotgun</a> · #ігри #Appulse",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/your-mothership-is-a-giant-pinball-machine-and-your-ball-is-its-defence-system-in-appulse-a-top-down-roguelite-shooter-thats-out-now",
     "orig": "Your mothership is a giant pinball machine and your ball is its defence system in Appulse, a top-down roguelite shooter that's out now"
@@ -9620,6 +9600,20 @@
     "link": "https://itc.ua/ua/novini/microsoft-vyznala-problemy-frejmvorku-windows-11/",
     "orig": "«Там багато багів»: Microsoft визнала проблеми фреймворку Windows 11"
    }
+  ],
+  [
+   1795802540.1285238,
+   7156,
+   "💾",
+   "OnePlus запровадить платні підписки на ШІ-функції у смартфонах",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "💾 <b>OnePlus запровадить платні підписки на ШІ-функції у смартфонах</b>\n\nOPPO, материнська компанія OnePlus, підтвердила, що запровадить обмеження на використання деяких ШІ-функцій у ColorOS 17: користувачі отримають певний безплатний ліміт, після вичерпання якого зможуть заплатити за додатковий пакет послуг.\n\n🔗 <a href=\"https://mezha.ua/news/oneplus-charges-for-ai-317666/\">Mezha</a> · #софт",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/oneplus-charges-for-ai-317666/",
+    "orig": "OnePlus запровадить платні підписки на ШІ-функції у смартфонах"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9868,7 +9862,8 @@
   "software|Mezha|https://mezha.ua/feed/": [
    1795743087.1298804,
    1795789901.8645804,
-   1795797083.2265956
+   1795797083.2265956,
+   1795802540.1287987
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1795714508.8689668,
@@ -10620,7 +10615,6 @@
   "510e09cfdc7de1d6": 1795753877.785539,
   "5135391d78ae053c": 1795050107.0669103,
   "515a5ecd0e586087": 1795008699.1679084,
-  "517850c6e01b4d65": 1794592885.8674386,
   "519a02112aa5ebab": 1795271455.3684447,
   "51a8f0d9fdf9afaf": 1795716207.1829097,
   "51c3a879e4d7edac": 1795003298.0033274,
@@ -11108,6 +11102,7 @@
   "80d1635b58ad2566": 1795048281.485335,
   "80f2245c44cef0be": 1794887915.5464478,
   "8101341e38585207": 1795228528.5650141,
+  "812726ed27526943": 1795802454.6343389,
   "8127c456c7653a1c": 1795795260.3677266,
   "817a5f35561ee1a6": 1795339853.7201128,
   "818ce15a49e53ad4": 1795388795.2453125,
@@ -11137,7 +11132,6 @@
   "83c18438031440f9": 1795077182.9679258,
   "83def6411e7ad1a3": 1794673879.3453333,
   "83f7d16126d0d484": 1794697284.9680347,
-  "8400bdfe1e2afd49": 1794591220.2610095,
   "84260ab465fa1f01": 1795627984.6863475,
   "84b00af36c22dd61": 1795186853.8663404,
   "84b129d286a6d2e7": 1795341679.2149568,
@@ -11175,7 +11169,6 @@
   "87c12a20ca080787": 1795082475.237263,
   "87d4ad0d7b0df620": 1795784859.6061444,
   "87d5cad99498095c": 1795188662.6550176,
-  "87d6a1ac290f9881": 1794592885.050251,
   "87dc78f71437aa18": 1795525302.4460568,
   "87e04fc02f810cab": 1795550460.3864164,
   "87ec9cc3019ad56a": 1795404673.578252,
@@ -11404,7 +11397,6 @@
   "a0e5cf1c4dee7673": 1794965486.335891,
   "a0f7493a53a0dca2": 1795177878.0187154,
   "a0fac3f98a7596f9": 1795795292.0207126,
-  "a10d2d9903ab1186": 1794592858.1127434,
   "a11c0933462e7915": 1795770076.107359,
   "a13108295e78b1e7": 1795271475.0149632,
   "a13a24ec47458cce": 1795512888.679812,
@@ -11461,7 +11453,6 @@
   "a6e99d9b5819b83b": 1794718886.145845,
   "a6ea30182c44cff7": 1795012310.1463664,
   "a6f02915503914ce": 1795566946.5903964,
-  "a70866f44525d9a7": 1794592884.4843674,
   "a710af24486efa10": 1795156298.9917552,
   "a7156f34f023f713": 1795512683.1280677,
   "a7259cb9f4e9dc47": 1795449655.175754,
@@ -11669,7 +11660,6 @@
   "bb1e5f9b24d9d9ed": 1795010521.5464308,
   "bb26969b77c29e97": 1795644566.0792549,
   "bb2d40ecb732e6bd": 1795431653.366561,
-  "bb33f9c0d34d4abb": 1794591222.274452,
   "bb4f50c5261b52d8": 1795494773.6995332,
   "bb5c94023b11486c": 1794858091.4121206,
   "bb68db07521b7237": 1795699878.4680235,
@@ -11790,7 +11780,6 @@
   "c6f66c0f3804d817": 1795059075.8119717,
   "c711ee86d8bd6a2d": 1795784496.5932171,
   "c71b62238449c818": 1795735856.2251754,
-  "c721d7cfb6967e78": 1794592887.906931,
   "c7368023d59a02b6": 1794623453.1714458,
   "c738682875364997": 1795192256.6890233,
   "c7720b73ff3263e2": 1794796286.0083234,
@@ -11993,7 +11982,6 @@
   "dcd110402d201def": 1795440658.0846477,
   "dd18fa79f3def6bc": 1795577609.868643,
   "dd389dd16d8ef8c4": 1794632451.7232893,
-  "dd38e4db275d4a7d": 1794592858.1127434,
   "dd3fdf55ac11416d": 1795622460.307334,
   "dd55fc59e200019b": 1795800658.316236,
   "dd8f1762c1ac21dc": 1795536070.620261,
@@ -12158,6 +12146,7 @@
   "ed8a8c362fe8e779": 1795332805.7113004,
   "ed8c40980fb04204": 1794848606.1512814,
   "ed956bffa4cbb697": 1795361467.109175,
+  "eda0e4b8a1538366": 1795802540.1287477,
   "eda72172c6fd46bb": 1795703475.8532982,
   "edc6311f911d3e34": 1795215686.9798887,
   "edf8361276778f50": 1794911454.224739,
@@ -13530,7 +13519,7 @@
  },
  "stats": {
   "extra": {
-   "Вішліст Steam": 6,
+   "Вішліст Steam": 9,
    "Українська локалізація": 2,
    "Халява": 3
   },
@@ -13545,7 +13534,7 @@
    "IGN": 19,
    "ITC.ua": 1,
    "IndieWire": 2,
-   "Insider Gaming": 82,
+   "Insider Gaming": 83,
    "Lambgoat": 1,
    "Loudwire": 2,
    "Metal Hammer (Louder)": 7,
@@ -13583,7 +13572,7 @@
    "Lambgoat": 19,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 15,
-   "Mezha": 35,
+   "Mezha": 36,
    "Neformat": 16,
    "PC Gamer": 11,
    "Pitchfork": 3,
@@ -13702,11 +13691,6 @@
    "2895500",
    "ANOTHEREAL",
    1793554297.109553
-  ],
-  "id:3097300": [
-   "3097300",
-   "Creature Kitchen",
-   1793208694.407922
   ],
   "id:3230960": [
    "3230960",
@@ -16400,9 +16384,9 @@
    "mozilla",
    "mozilla firefox",
    "one ui 9.5",
+   "oneplus",
    "rheinmetall",
    "samsung",
-   "temu",
    "ugreen",
    "артилерія",
    "аукціон",
@@ -16411,16 +16395,15 @@
    "браузери",
    "зарядні пристрої",
    "кодифікація",
-   "маркетплейс",
    "медицина",
    "новини",
    "оборонка",
    "оборонний завод",
    "павербанки",
    "перехоплювачі",
-   "платформи",
    "ппо",
    "реактивні безпілотники",
+   "смартфони",
    "снаряди",
    "софт",
    "технології",
@@ -16438,14 +16421,6 @@
   1795786407.9704206
  ],
  "titles": [
-  [
-   1795627984.6863499,
-   "Nvidia release new graphics card driver, hopefully finally fixing that SSD-hammering unnecessary write bug the previous hotfix couldn't seem to sort"
-  ],
-  [
-   1795629698.8524039,
-   "Безплатна альтернатива YouTube Music Premium працює на Windows, macOS, Linux та iOS"
-  ],
   [
    1795631496.7819307,
    "OpenEight"
@@ -17193,17 +17168,13 @@
   [
    1795800719.3191886,
    "«Там багато багів»: Microsoft визнала проблеми фреймворку Windows 11"
+  ],
+  [
+   1795802540.1287498,
+   "OnePlus запровадить платні підписки на ШІ-функції у смартфонах"
   ]
  ],
  "titles_uk": [
-  [
-   1795627984.6863506,
-   "Nvidia випустила драйвер 621.40 для виправлення помилки з надмірним записом на SSD"
-  ],
-  [
-   1795629698.8524048,
-   "Безплатна альтернатива YouTube Music Premium працює на Windows, macOS, Linux та iOS"
-  ],
   [
    1795631496.7819319,
    "OpenEight"
@@ -17951,6 +17922,10 @@
   [
    1795800719.3191893,
    "«Там багато багів»: Microsoft визнала проблеми фреймворку Windows 11"
+  ],
+  [
+   1795802540.1287506,
+   "OnePlus запровадить платні підписки на ШІ-функції у смартфонах"
   ]
  ],
  "ukrainian": {
@@ -18667,9 +18642,9 @@
    },
    "1040200": {
     "coming_soon": false,
-    "discount": 30,
+    "discount": 54,
     "name": "Crime Scene Cleaner",
-    "price": "419,00₴",
+    "price": "417,00₴",
     "release": 1723647079
    },
    "1054490": {
@@ -19633,9 +19608,9 @@
    },
    "2807150": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 50,
     "name": "Worshippers of Cthulhu",
-    "price": "515,00₴",
+    "price": "257,00₴",
     "release": 1747928406
    },
    "2814860": {
@@ -19696,9 +19671,9 @@
    },
    "2863680": {
     "coming_soon": false,
-    "discount": 0,
+    "discount": 20,
     "name": "ZERO PARADES: Director's Cut",
-    "price": "749,00₴",
+    "price": "599,00₴",
     "release": 1779354201
    },
    "287310": {
@@ -20444,7 +20419,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795798934.3369746,
+  "last_check": 1795802555.021092,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
