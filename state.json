@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795815070.0683005
+  }
+ },
  "daily_digest_date": "2026-11-27",
  "freebies": {
   "last_check": 1795811485.0120475,
@@ -10395,6 +10402,7 @@
   "3f692397b667834c": 1795320052.6450949,
   "3f99f45eabcbd392": 1795633258.3978205,
   "3fa1090af0f1f1a6": 1794735531.8540745,
+  "3fb2a65184671418": 1795815053.1218767,
   "3fd3d0c7750d8738": 1795123855.034798,
   "4004b0aa49fa9cdc": 1794711882.7637846,
   "4008484993ced6fa": 1795226488.9150054,
@@ -10846,7 +10854,6 @@
   "6e25ba69faa9b9cb": 1795717855.3622773,
   "6e2a0636509d9cc4": 1795631454.4234602,
   "6e2efce20f5c97f7": 1795114863.5731728,
-  "6e4b99af19da77ca": 1794605453.407515,
   "6e593adc4da4e4f4": 1795582912.6816628,
   "6e8802f2a11e9527": 1795014098.1785989,
   "6e998c7ac3649e67": 1795453258.7776709,
@@ -13460,7 +13467,7 @@
    "Eurogamer": 1,
    "GameSpot": 6,
    "GamesIndustry.biz": 2,
-   "IGN": 24,
+   "IGN": 25,
    "ITC.ua": 1,
    "IndieWire": 2,
    "Insider Gaming": 83,
