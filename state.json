@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795753873.031449
+  }
+ },
  "daily_digest_date": "2026-11-26",
  "freebies": {
   "last_check": 1795752217.9135458,
@@ -32,70 +39,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-27 04:03 UTC",
+  "at": "2026-11-27 04:31 UTC",
   "gemini_error": "",
-  "gemini_model": "gemma-4-31b-it",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 1,
-   "gemma-4-31b-it": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795061027.7436187,
-   6356,
-   "🎬",
-   "Ella Langley тріумфує на церемонії CMA Awards",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/cma-awards-winners-ella-langley-1237227915/",
-    "orig": "Ella Langley Leads The Pack Among Early CMA Award Winners"
-   }
-  ],
-  [
-   1795061035.2961385,
-   6357,
-   "🤘",
-   "Witch Club Satan анонсували європейський тур на 2027 рік",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55975/witch-club-satan-announce-headlining-european-tour-with-otayonii-and-ditte-kroyer/",
-    "orig": "Witch Club Satan announce headlining European tour with Otay:Onii and Ditte Krøyer"
-   }
-  ],
-  [
-   1795062692.6419332,
-   6358,
-   "🎮",
-   "Волтон Гоггінс не впевнений щодо четвертого сезону серіалу Fallout",
-   "PC Gamer",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.pcgamer.com/movies-tv/not-even-walton-goggins-knows-if-fallout-will-have-a-season-4-if-we-get-the-opportunity-to-come-back-for-season-four-that-would-continue-to-honor-how-sacred-this-is-to-people/",
-    "orig": "Not even Walton Goggins knows if Fallout will have a Season 4: 'if we get the opportunity to come back for season four, that would continue to honor how sacred this is to people'"
-   }
-  ],
-  [
-   1795062698.9612572,
-   6359,
-   "🤘",
-   "U2 поділилися спогадами про роботу з Dolly Parton над її фінальною піснею",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/bands-artists/u2-on-working-with-dolly-parton-on-torn-the-last-song-she-ever-recorded",
-    "orig": "U2 share memories of working with Dolly Parton on the last song she ever recorded"
-   }
-  ],
   [
    1795064479.5723038,
    6360,
@@ -8776,7 +8730,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🤖 <b>Чати 21 млн людей на аукціоні: Character.AI хоче продати приватні розмови з ШІ</b>\n\nЗбанкрутіла Character.AI готується продати з молотка історії листування з ШІ-чатботами понад 21 млн акаунтів, зокрема 2,1 млн дітей. Зупинити продаж намагається коаліція з 42 генпрокурорів штатів США.\n\n🔗 <a href=\"https://itc.ua/ua/novini/chaty-21-mln-lyudej-character-ai-hoche-prodaty/\">ITC.ua</a> · #ШІ",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/chaty-21-mln-lyudej-character-ai-hoche-prodaty/",
     "orig": "Чати 21 млн людей на аукціоні: Character.AI хоче продати приватні розмови з ШІ"
@@ -8790,7 +8743,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Critical Role більше не проводитиме весільних ваншотів</b>\n\nСпівзасновниця Critical Role Маріша Рей заявила, що команда не повертатиметься до формату весільних ваншотів. Попри популярність таких епізодів серед фанатів, вона прагне досліджувати нові сюжети та епохи світу Exandria. Раніше команда вже проводила масштабне весілля в Radio City Music Hall.\n\n🔗 <a href=\"https://www.polygon.com/critical-role-wedding-episode-will-not-return/\">Polygon</a> · #ігри #CriticalRole",
     "kind": "photo",
     "link": "https://www.polygon.com/critical-role-wedding-episode-will-not-return/",
     "orig": "Critical Role Officially Confirms a Fan-Favorite Episode Format Will Not Return"
@@ -9631,6 +9583,34 @@
     "link": "https://www.theprp.com/2026/11/26/news/gojiras-mario-duplantier-shares-his-new-drum-solo-in-limbo/",
     "orig": "Gojira’s Mario Duplantier Shares His New Drum Solo “In Limbo”"
    }
+  ],
+  [
+   1795753887.1282341,
+   7102,
+   "🎮",
+   "The Sims 4 робить 13 DLC безкоштовними на обмежений час",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>The Sims 4 робить 13 DLC безкоштовними на обмежений час</b>\n\nElectronic Arts роздасть гравцям 13 Maker Packs для The Sims 4 у межах новорічної події. Акція триватиме з 26 листопада до 14 січня, а першим подарунком став Rock &amp; Carry Maker Pack від автора Bostyny.\n\n🔗 <a href=\"https://www.polygon.com/the-sims-4-free-maker-pack-holiday-giveaway-2026/\">Polygon</a> · #ігри #TheSims4",
+    "kind": "photo",
+    "link": "https://www.polygon.com/the-sims-4-free-maker-pack-holiday-giveaway-2026/",
+    "orig": "The Sims 4 Officially Makes 13 DLCs Free for a Limited Time"
+   }
+  ],
+  [
+   1795753905.479151,
+   7103,
+   "🎬",
+   "Лакшман Утекар, Раджкумар Періасамі та Вішнувардхан знімуть нові фільми для T-Series",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Лакшман Утекар, Раджкумар Періасамі та Вішнувардхан знімуть нові фільми для T-Series</b>\n\nІндійські режисери Лакшман Утекар, Раджкумар Періасамі та Вішнувардхан готують три нові стрічки у співпраці зі студією T-Series. Назви, сюжети, акторський склад та деталі виробництва наразі не розголошуються.\n\n🔗 <a href=\"https://variety.com/2026/film/news/laxman-utekar-rajkumar-periasamy-vishnuvardhan-films-tseries-1236958689/\">Variety</a> · #кіно_і_серіали #TSeries",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/news/laxman-utekar-rajkumar-periasamy-vishnuvardhan-films-tseries-1236958689/",
+    "orig": "Laxman Utekar, Rajkumar Periasamy and Vishnuvardhan Set New Films With Bhushan Kumar’s T-Series (EXCLUSIVE)"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9731,7 +9711,8 @@
    1795685567.580511,
    1795687502.1825705,
    1795698125.7549126,
-   1795743085.2599058
+   1795743085.2599058,
+   1795753887.1285434
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1795705281.973116,
@@ -9784,9 +9765,9 @@
    1795507282.132235
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1795664106.774948,
    1795674811.2825713,
-   1795689136.1748013
+   1795689136.1748013,
+   1795753905.479403
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1795656732.4233913,
@@ -10507,6 +10488,7 @@
   "42d2a60bf4fd8aa4": 1795681956.8202906,
   "43495398a9236e70": 1795745028.6345856,
   "435e11c186621b3e": 1795026653.649315,
+  "4364b57c1f7f60c3": 1795753854.5243485,
   "44157888feac291b": 1795026653.649315,
   "441ac6a9e711b1e8": 1795086083.8416054,
   "441c299558e10fde": 1795707058.8773746,
@@ -10631,6 +10613,7 @@
   "508ca360badf49f3": 1795618855.8470001,
   "508eb283501ed7fb": 1795350656.068994,
   "50c30477dc48ecce": 1794650450.859043,
+  "510e09cfdc7de1d6": 1795753877.785539,
   "5135391d78ae053c": 1795050107.0669103,
   "515a5ecd0e586087": 1795008699.1679084,
   "517850c6e01b4d65": 1794592885.8674386,
@@ -10831,6 +10814,7 @@
   "65b850b71b4fefbf": 1795444288.9766412,
   "65d029312a902b39": 1795134676.9757698,
   "65d230b5cc2390db": 1794949482.6853518,
+  "65fff8e2221069a5": 1795753905.4793603,
   "6611befb7240bfc7": 1795005060.1889544,
   "666779e4f744bdb5": 1794565879.9856107,
   "669e1dc29a1d46b5": 1795165299.7996006,
@@ -11833,6 +11817,7 @@
   "d0b0910c2f17839b": 1794727878.8783674,
   "d0b354c4558f3994": 1794582059.4334304,
   "d0c5027a89587edf": 1794585652.9085758,
+  "d13ca0c7a908618a": 1795753887.128493,
   "d14505ec7550480e": 1795640457.7143178,
   "d146ff6cd3ab4eef": 1794717097.104979,
   "d1628a0d3dd5b01e": 1795185063.5654962,
@@ -12733,7 +12718,7 @@
   ],
   "artists_checked": 1795746732.804688,
   "blocked_until": 1795745172.3733294,
-  "cursor": 211,
+  "cursor": 221,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13489,7 +13474,7 @@
    "Халява": 1
   },
   "filtered": {
-   "/Film": 18,
+   "/Film": 19,
    "Bloomberg": 28,
    "Deadline": 8,
    "Eurogamer": 1,
@@ -13537,7 +13522,7 @@
    "PC Gamer": 10,
    "Pitchfork": 3,
    "PlayUA": 4,
-   "Polygon": 18,
+   "Polygon": 19,
    "Product Hunt": 8,
    "Rock Paper Shotgun": 11,
    "SteamDB": 2,
@@ -13545,12 +13530,12 @@
    "The Decoder": 12,
    "ThePRP": 9,
    "VGC": 13,
-   "Variety": 23
+   "Variety": 24
   },
   "translators": {
    "DeepL": 26,
    "gemini-flash-latest": 9,
-   "gemini-flash-lite-latest": 119,
+   "gemini-flash-lite-latest": 121,
    "gemma-4-26b-a4b-it": 85,
    "gemma-4-31b-it": 117
   },
@@ -13936,6 +13921,36 @@
    3061580,
    "Отделение 38",
    1793896540.059568
+  ],
+  "q:4": [
+   0,
+   "",
+   1795753884.7381823
+  ],
+  "q:4 officially": [
+   0,
+   "",
+   1795753884.2227013
+  ],
+  "q:4 officially makes": [
+   0,
+   "",
+   1795753883.7004738
+  ],
+  "q:4 officially makes 13": [
+   0,
+   "",
+   1795753883.1885085
+  ],
+  "q:4 officially makes 13 dlcs": [
+   0,
+   "",
+   1795753882.6431417
+  ],
+  "q:4 officially makes 13 dlcs free": [
+   0,
+   "",
+   1795753882.1118162
   ],
   "q:40 player": [
    0,
@@ -16062,6 +16077,36 @@
    "Silver Pines",
    1793440886.8226674
   ],
+  "q:sims": [
+   0,
+   "",
+   1795753881.5687766
+  ],
+  "q:sims 4": [
+   0,
+   "",
+   1795753880.9117372
+  ],
+  "q:sims 4 officially": [
+   0,
+   "",
+   1795753880.3224106
+  ],
+  "q:sims 4 officially makes": [
+   0,
+   "",
+   1795753879.612991
+  ],
+  "q:sims 4 officially makes 13": [
+   0,
+   "",
+   1795753879.0289264
+  ],
+  "q:sims 4 officially makes 13 dlcs": [
+   0,
+   "",
+   1795753878.4503813
+  ],
   "q:skate": [
    3354750,
    "skate.",
@@ -17420,6 +17465,14 @@
   [
    1795752216.2894547,
    "Gojira’s Mario Duplantier Shares His New Drum Solo “In Limbo”"
+  ],
+  [
+   1795753887.1284945,
+   "The Sims 4 Officially Makes 13 DLCs Free for a Limited Time"
+  ],
+  [
+   1795753905.479362,
+   "Laxman Utekar, Rajkumar Periasamy and Vishnuvardhan Set New Films With Bhushan Kumar’s T-Series (EXCLUSIVE)"
   ]
  ],
  "titles_uk": [
@@ -18182,6 +18235,14 @@
   [
    1795752216.2894557,
    "Барабанщик Gojira Маріо Дюплант'є представив нове соло «In Limbo»"
+  ],
+  [
+   1795753887.1284952,
+   "The Sims 4 робить 13 DLC безкоштовними на обмежений час"
+  ],
+  [
+   1795753905.479363,
+   "Лакшман Утекар, Раджкумар Періасамі та Вішнувардхан знімуть нові фільми для T-Series"
   ]
  ],
  "ukrainian": {
@@ -20672,7 +20733,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795750296.678492,
+  "last_check": 1795753914.5617785,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
