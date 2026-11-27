@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|ThePRP|https://www.theprp.com/feed/": {
-   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ThePRP» не працює",
-   "sent": 0,
-   "since": 1795784490.463787
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-26",
  "freebies": {
   "last_check": 1795789903.437827,
@@ -41,30 +34,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-27 15:02 UTC",
+  "at": "2026-11-27 15:31 UTC",
   "gemini_error": "",
-  "gemini_model": "gemma-4-31b-it",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemma-4-31b-it": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795100607.3019505,
-   6405,
-   "🎮",
-   "007 First Light стала грою року на TIGA Awards 2026, Dovetail Games отримала чотири нагороди",
-   "GamesIndustry.biz",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.gamesindustry.biz/007-first-light-wins-goty-at-2026-tiga-awards-dovetail-games-takes-home-four-accolades-including-best-publisher",
-    "orig": "007 First Light wins GOTY at 2026 TIGA Awards, Dovetail Games takes home four accolades including Best Publisher"
-   }
-  ],
   [
    1795102332.2893207,
    6406,
@@ -8716,7 +8696,6 @@
    "Lambgoat",
    {
     "also": [],
-    "caption": "⭐ 🤘 <b>Blink-182, Parkway Drive, Faith No More та Gojira виступлять на Hellfest 2027</b>\n\nОфіційно анонсовано Hellfest Open Air Festival 2027. Захід відбудеться у місті Кліссон, Франція, з 17 по 20 червня. До складу учасників увійшли Blink-182, Parkway Drive, Faith No More та Gojira.\n\n🔗 <a href=\"https://lambgoat.com/news/56081/blink-182-parkway-drive-faith-no-more-gojira-etc-set-for-2027-hellfest-open-air-festival/\">Lambgoat</a> · #музика #Hellfest",
     "kind": "photo",
     "link": "https://lambgoat.com/news/56081/blink-182-parkway-drive-faith-no-more-gojira-etc-set-for-2027-hellfest-open-air-festival/",
     "orig": "Blink-182, Parkway Drive, Faith No More, Gojira, etc. set for 2027 Hellfest Open Air Festival"
@@ -8735,7 +8714,6 @@
       "https://variety.com/2026/film/news/gerald-r-molen-dead-schindlers-list-producer-1236959200/"
      ]
     ],
-    "caption": "🎬 <b>Помер лауреат «Оскара» та продюсер Стівена Спілберга Джеральд Р. Молен</b>\n\nПомер 91-річний продюсер Amblin Entertainment Джеральд Р. Молен. Він отримав «Оскар» за фільм Schindler’s List та працював над стрічками Jurassic Park, Minority Report і Catch Me If You Can. Молен був багаторічним партнером Стівена Спілберга.\n\n🔗 <a href=\"https://deadline.com/2026/11/gerald-r-molen-dies-schindlers-list-producer-1237234182/\">Deadline</a> · #кіно_і_серіали #AmblinEntertainment",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/gerald-r-molen-dies-schindlers-list-producer-1237234182/",
     "orig": "Gerald R. Molen Dies: Oscar-Winning ‘Schindler’s List’ Producer Was 91"
@@ -8749,7 +8727,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Anthrax випускають новий альбом Cursum Perficio після десятирічної перерви</b>\n\nГітарист Скотт Іан розповів, як Даймбег Даррелл із Pantera вплинув на його спосіб життя у 90-х. Ці спогади лягли в основу треку NYC 93 із нового альбому Cursum Perficio, що виходить через 10 років після For All Kings. Попри труднощі з музичною індустрією, гурт продовжує працювати.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/anthrax-scott-ian-cursum-perficio-interview\">Metal Hammer (Louder)</a> · #музика #Anthrax #Pantera",
     "kind": "photo",
     "link": "https://www.loudersound.com/bands-artists/anthrax-scott-ian-cursum-perficio-interview",
     "orig": "Still spreading the disease: The chaotic story of Anthrax"
@@ -9576,6 +9553,48 @@
     "link": "https://mezha.ua/news/google-ai-floods-french-poison-centers-317657/",
     "orig": "ШІ Google перевантажив токсикологічні центри у Франції через хибні медичні поради"
    }
+  ],
+  [
+   1795793501.2999241,
+   7146,
+   "🎮",
+   "Анонсовано міський симулятор Glagstone у стилі Macintosh-ігор",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>Анонсовано міський симулятор <a href=\"https://store.steampowered.com/app/4198840/\">Glagstone</a> у стилі Macintosh-ігор</b>\n🕹 <a href=\"https://store.steampowered.com/app/4198840/\">GlagStone</a> — ще не вийшла\n\nРозробники Валерій Красносельський та Євген Кириченко анонсували сюжетний містобудівний симулятор Glagstone з 1-бітним візуалом у стилі 1980-х. Гравець стає губернатором віддаленого острова, де потрібно видобувати ресурси, керувати поселенням і розгадувати моторошні таємниці місцевих жителів. Реліз на ПК заплановано на наступний рік.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/keep-the-lighthouse-on-and-the-villagers-obedient-in-glagstone-an-eerie-island-city-builder-with-macintosh-style-graphics\">Rock Paper Shotgun</a> · #ігри #Glagstone",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/keep-the-lighthouse-on-and-the-villagers-obedient-in-glagstone-an-eerie-island-city-builder-with-macintosh-style-graphics",
+    "orig": "Keep the lighthouse on and the villagers obedient in Glagstone, an eerie island city-builder with Macintosh-style graphics"
+   }
+  ],
+  [
+   1795793511.0917811,
+   7147,
+   "🎮",
+   "The Witcher 3 отримав оновлення з десятками нових кросплатформних модів",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>The Witcher 3 отримав оновлення з десятками нових кросплатформних модів</b>\n\nCD Projekt Red випустила патч 5.02 для The Witcher 3: Wild Hunt Remastered, який додав понад 40 нових кросплатформних модів для всіх платформ. Серед новинок — квестове розширення «Tales of the Witcher: Cintra», нові зачіски, світіння очей Геральта та виправлення багів.\n\n🔗 <a href=\"https://www.polygon.com/witcher-3-remastered-cross-platform-mod-support/\">Polygon</a> · #ігри #TheWitcher3 #CDProjektRed",
+    "kind": "photo",
+    "link": "https://www.polygon.com/witcher-3-remastered-cross-platform-mod-support/",
+    "orig": "The Witcher 3 Remastered’s Mod Library Just Got a Massive Update"
+   }
+  ],
+  [
+   1795793513.103982,
+   7148,
+   "🎮",
+   "Ubisoft вимагає від розробників пояснювати, чому вони не використовують генеративний ШІ",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎮 <b>Ubisoft вимагає від розробників пояснювати, чому вони не використовують генеративний ШІ</b>\n\nUbisoft вимагає, щоб команди, які пропонують нові ігри, пояснювали, як генеративний ШІ допоможе в розробці. Ті, хто не хоче користуватися технологією, мають детально обґрунтувати керівництву свою відмову. Про це пише Vertical Slice з посиланням на кількох чинних співробітників компанії, які говорили анонімно, бо побоюються наслідків.\n\n🔗 <a href=\"https://itc.ua/ua/novini/ubisoft-generatyvnyj-shi-pitchi-poyasnyuvaty-vidmovu/\">ITC.ua</a> · #ігри",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/ubisoft-generatyvnyj-shi-pitchi-poyasnyuvaty-vidmovu/",
+    "orig": "Ubisoft вимагає від розробників пояснювати, чому вони не використовують генеративний ШІ"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9646,10 +9665,9 @@
    1795736156.0504553
   ],
   "games|ITC.ua|https://itc.ua/ua/feed/": [
-   1795692710.818035,
-   1795699880.054401,
    1795707254.949173,
-   1795773721.8896458
+   1795773721.8896458,
+   1795793513.1042407
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
    1795710727.4164762,
@@ -9669,18 +9687,16 @@
    1795775477.0131762
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1795685567.580511,
-   1795687502.1825705,
-   1795698125.7549126,
    1795743085.2599058,
    1795753887.1285434,
-   1795757873.3108852
+   1795757873.3108852,
+   1795793511.0920348
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
-   1795705281.973116,
    1795734147.5841238,
    1795745120.8958242,
-   1795781475.283624
+   1795781475.283624,
+   1795793501.3001902
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1795501919.0043178,
@@ -10084,7 +10100,6 @@
   "1a856fd734078ba2": 1795208454.5689726,
   "1a97c665df3321b9": 1794864757.774673,
   "1a9ec56660c22238": 1794940252.7221177,
-  "1aaa788ff2f34838": 1794583895.2487211,
   "1aaaa9400be155a3": 1795221054.2974577,
   "1ab6be6a014616ab": 1795435266.6043499,
   "1ae469efeb482973": 1794684682.3707495,
@@ -10343,7 +10358,6 @@
   "369113328c6996cc": 1795087856.688431,
   "36b1ddf679a70e80": 1795352462.940814,
   "36d718e12dc678ab": 1795044693.025382,
-  "36dd3f1ea43bf6f4": 1794583888.3131878,
   "36f234b2c43689e3": 1794619880.2654126,
   "36f32e7586d56e26": 1795537857.1621616,
   "36f613a875bba025": 1795486710.6602783,
@@ -10517,6 +10531,7 @@
   "4ad73f2ac91b448c": 1794643281.1090765,
   "4adbd58c0a3f1c35": 1795138263.2164862,
   "4ae98c8fc59d539b": 1794760180.7986965,
+  "4aeb3e776c096259": 1795793501.3001397,
   "4afdce9bb8471c9c": 1795316541.2861469,
   "4b00c5974e83edbf": 1795111374.238351,
   "4b089d5d2423e746": 1795446056.8912985,
@@ -11250,6 +11265,7 @@
   "9604b2c5ea31561e": 1795228645.1996634,
   "96166831a5ddf5c7": 1794600055.3928566,
   "964038f212491432": 1795501888.596877,
+  "964902c0c2e32dd4": 1795793513.104193,
   "965168843a251b0e": 1795786455.468534,
   "9657915d7271de49": 1795784457.0581658,
   "967705004d58e64c": 1794828859.1218388,
@@ -12057,6 +12073,7 @@
   "e8e69ff51a6eaaed": 1794695763.8535097,
   "e8f1d534bf4df31f": 1794999653.1275568,
   "e910724f800dc0c2": 1795467677.6474686,
+  "e925cca1858404ec": 1795793453.8001592,
   "e9266b4ae5601e98": 1795773721.8895974,
   "e96521a20d580530": 1795403186.7103083,
   "e96f29b738a8fe95": 1795275136.563475,
@@ -12110,7 +12127,6 @@
   "ee52f8e13d601507": 1795429934.5214927,
   "eeb26789898c8643": 1795537857.1621616,
   "eecdb436ae6e5c04": 1795573921.8886733,
-  "eedb82b12eac9d5c": 1794583853.089954,
   "eee425950e0e95bb": 1795289847.2269962,
   "eee7e3081ec583c4": 1794697281.7608502,
   "ef01af6bd1b6b54f": 1795498474.4579012,
@@ -12204,6 +12220,7 @@
   "f842ca61b8188d7c": 1795703575.5822144,
   "f84b3b311c539ff1": 1795782655.4015517,
   "f855c22c60cf70d4": 1795496496.9915507,
+  "f85fb62a9db586b4": 1795793511.0919902,
   "f867e5218e752d33": 1795014053.3303049,
   "f8ab187e534f9f9b": 1795417375.7492278,
   "f8b39d3a8b3c0d3d": 1795289118.981305,
@@ -12277,7 +12294,6 @@
   "ff8204ecee7bfea3": 1795365052.7700858,
   "ff9473a0f9509091": 1794693772.929385,
   "ffb8f21dec9f45a0": 1795345256.5599492,
-  "ffb95674798e00c4": 1794583853.089954,
   "fff13782dcc2aa25": 1795345279.07515
  },
  "source_urls": {
@@ -13478,7 +13494,7 @@
   },
   "filtered": {
    "/Film": 20,
-   "Bloomberg": 36,
+   "Bloomberg": 37,
    "Deadline": 8,
    "Eurogamer": 1,
    "GameSpot": 6,
@@ -13515,7 +13531,7 @@
    "GamesIndustry.biz": 10,
    "Hugging Face": 5,
    "IGN": 1,
-   "ITC.ua": 43,
+   "ITC.ua": 44,
    "IndieWire": 7,
    "Insider Gaming": 12,
    "Kerrang!": 2,
@@ -13527,9 +13543,9 @@
    "PC Gamer": 11,
    "Pitchfork": 3,
    "PlayUA": 6,
-   "Polygon": 20,
+   "Polygon": 21,
    "Product Hunt": 10,
-   "Rock Paper Shotgun": 12,
+   "Rock Paper Shotgun": 13,
    "SteamDB": 2,
    "Stereogum": 2,
    "The Decoder": 12,
@@ -13540,7 +13556,7 @@
   "translators": {
    "DeepL": 32,
    "gemini-flash-latest": 9,
-   "gemini-flash-lite-latest": 139,
+   "gemini-flash-lite-latest": 141,
    "gemma-4-26b-a4b-it": 95,
    "gemma-4-31b-it": 122
   },
@@ -13862,6 +13878,26 @@
    "",
    1795759384.3818066
   ],
+  "q:3 remastered's mod": [
+   0,
+   "",
+   1795793506.3494315
+  ],
+  "q:3 remastered's mod library": [
+   0,
+   "",
+   1795793505.8381925
+  ],
+  "q:3 remastered's mod library just": [
+   0,
+   "",
+   1795793505.3387544
+  ],
+  "q:3 remastered's mod library just got": [
+   0,
+   "",
+   1795793504.836153
+  ],
   "q:3 update": [
    0,
    "",
@@ -14076,11 +14112,6 @@
    1823380,
    "AMNESIA",
    1793293313.2259138
-  ],
-  "q:anthropic": [
-   0,
-   "",
-   1795618958.2076926
   ],
   "q:anywhere": [
    4386680,
@@ -14762,6 +14793,11 @@
    "",
    1795676530.099384
   ],
+  "q:glagstone": [
+   4198840,
+   "GlagStone",
+   1795793478.4018447
+  ],
   "q:glorious": [
    1678810,
    "Glorious",
@@ -15062,6 +15098,11 @@
    "LUNA",
    1793919699.612868
   ],
+  "q:macintosh style": [
+   0,
+   "",
+   1795793478.909118
+  ],
   "q:mama": [
    4227120,
    "Mama",
@@ -15171,6 +15212,11 @@
    2303000,
    "MOBILE SUIT GUNDAM BATTLE OPERATION 3",
    1793725363.7039416
+  ],
+  "q:mod library just got a massive": [
+   0,
+   "",
+   1795793508.8900123
   ],
   "q:modern warfare": [
    0,
@@ -15546,6 +15592,26 @@
    0,
    "",
    1795759385.163599
+  ],
+  "q:remastered's mod": [
+   0,
+   "",
+   1795793508.3842416
+  ],
+  "q:remastered's mod library": [
+   0,
+   "",
+   1795793507.8767967
+  ],
+  "q:remastered's mod library just": [
+   0,
+   "",
+   1795793507.3696427
+  ],
+  "q:remastered's mod library just got": [
+   0,
+   "",
+   1795793506.8519285
   ],
   "q:remembrance": [
    3434370,
@@ -16397,6 +16463,21 @@
    "",
    1795759383.7977364
   ],
+  "q:witcher 3 remastered's mod": [
+   0,
+   "",
+   1795793504.3216977
+  ],
+  "q:witcher 3 remastered's mod library": [
+   0,
+   "",
+   1795793503.8033555
+  ],
+  "q:witcher 3 remastered's mod library just": [
+   0,
+   "",
+   1795793503.299467
+  ],
   "q:witcher 3 update": [
    0,
    "",
@@ -16518,10 +16599,6 @@
   1795786407.9704206
  ],
  "titles": [
-  [
-   1795620686.3503299,
-   "EA поверне голос покійного коментатора Джона Мотсона у FC 27 за допомогою ШІ"
-  ],
   [
    1795620739.1839035,
    "Grammy Award-winning band removes dozens of tracks following Nintendo copyright issues"
@@ -17269,13 +17346,21 @@
   [
    1795791705.8640466,
    "ШІ Google перевантажив токсикологічні центри у Франції через хибні медичні поради"
+  ],
+  [
+   1795793501.300142,
+   "Keep the lighthouse on and the villagers obedient in Glagstone, an eerie island city-builder with Macintosh-style graphics"
+  ],
+  [
+   1795793511.0919921,
+   "The Witcher 3 Remastered’s Mod Library Just Got a Massive Update"
+  ],
+  [
+   1795793513.1041946,
+   "Ubisoft вимагає від розробників пояснювати, чому вони не використовують генеративний ШІ"
   ]
  ],
  "titles_uk": [
-  [
-   1795620686.3503306,
-   "EA поверне голос покійного коментатора Джона Мотсона у FC 27 за допомогою ШІ"
-  ],
   [
    1795620739.1839044,
    "8-Bit Big Band видалили десятки треків через проблеми з авторським правом Nintendo"
@@ -18023,6 +18108,18 @@
   [
    1795791705.864047,
    "ШІ Google перевантажив токсикологічні центри у Франції через хибні медичні поради"
+  ],
+  [
+   1795793501.3001425,
+   "Анонсовано міський симулятор Glagstone у стилі Macintosh-ігор"
+  ],
+  [
+   1795793511.0919929,
+   "The Witcher 3 отримав оновлення з десятками нових кросплатформних модів"
+  ],
+  [
+   1795793513.104195,
+   "Ubisoft вимагає від розробників пояснювати, чому вони не використовують генеративний ШІ"
   ]
  ],
  "ukrainian": {
