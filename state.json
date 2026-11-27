@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1795735876.1240487
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-26",
  "freebies": {
   "last_check": 1795737953.7125218,
@@ -39,43 +32,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-27 01:07 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "at": "2026-11-27 01:32 UTC",
+  "gemini_error": "",
   "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemma-4-31b-it": 3
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-31b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795051877.248061,
-   6344,
-   "🤘",
-   "Джон Макінрой зіграв із Джошем Гоммом і Чадом Смітом кавер на Девіда Бові",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/bands-artists/watch-john-mcenroe-join-queens-of-the-stone-age-frontman-josh-homme-cover-david-bowie",
-    "orig": "Watch tennis legend John McEnroe join Queens of the Stone Age frontman Josh Homme and Red Hot Chili Peppers drummer Chad Smith onstage in Los Angeles for a raucous cover of David Bowie's glam rock classic Suffragette City"
-   }
-  ],
-  [
-   1795051880.113216,
-   6345,
-   "🎬",
-   "Paramount+ замовляє драматичний серіал Clandestine з Бріт Марлінг і Тільдою Свінтон",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/clandestine-series-paramount-plus-brit-marling-tilda-swinton-1237227752/",
-    "orig": "Paramount+ Orders ‘Clandestine’ Drama Series Starring Brit Marling & Tilda Swinton From ‘The OA’ Creators"
-   }
-  ],
   [
    1795053694.9581358,
    6346,
@@ -8743,7 +8711,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Netflix скасував серіал Amsterdam Empire після першого сезону</b>\n\nNetflix вирішив не продовжувати нідерландський кримінальний серіал Amsterdam Empire з Фамке Янссен на другий сезон через проблеми з графіком. Шоу вийшло два роки тому і розповідало про магната кав&#x27;ярень та його дружину, колишню попзірку.\n\n🔗 <a href=\"https://deadline.com/2026/11/netflix-cancels-amsterdam-empire-famke-janssen-holland-1237233284/\">Deadline</a> · #кіно_і_серіали #AmsterdamEmpire",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/netflix-cancels-amsterdam-empire-famke-janssen-holland-1237233284/",
     "orig": "Netflix Cancels ‘Amsterdam Empire’ Starring Famke Janssen After One Season"
@@ -8757,7 +8724,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Завершилися зйомки нового фільму The Hunt for Gollum</b>\n\nWarner Bros. оголосила про завершення зйомок фільму The Hunt for Gollum, режисером якого став Енді Серкіс. Стрічка стане «інтерквелом» до трилогії Пітера Джексона і розповість про те, як Aragorn шукає Gollum. Реліз заплановано на 17 грудня 2027 року.\n\n🔗 <a href=\"https://www.polygon.com/the-lord-of-the-rings-hunt-for-gollum-production-end/\">Polygon</a> · #ігри #TheLordOfTheRings",
     "kind": "photo",
     "link": "https://www.polygon.com/the-lord-of-the-rings-hunt-for-gollum-production-end/",
     "orig": "The Lord of the Rings’ Next Movie Officially Wraps Production, but Now the Hard Part Begins"
@@ -8771,7 +8737,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎮 <b>Зіграти в GTA 6 безкоштовно тепер можна просто в браузері, але є нюанс</b>\n\nНезалежний сервіс PlayMyPS5 дає змогу безкоштовно зіграти в GTA 6 просто в браузері — без власної консолі, облікового запису PlayStation і копії гри. Але є обмеження: грати можна лише 5 хвилин, після чого гра переходить під контроль до наступного гравця в черзі.\n\n🔗 <a href=\"https://itc.ua/ua/novini/gta-6-bezkoshtovno-bez-ps5-playmyps5/\">ITC.ua</a> · #ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/gta-6-bezkoshtovno-bez-ps5-playmyps5/",
     "orig": "Зіграти в GTA 6 безкоштовно тепер можна просто в браузері, але є нюанс"
@@ -9598,6 +9563,48 @@
     "link": "https://variety.com/2026/tv/news/blade-runner-2099-finale-cora-olwen-fates-1236958380/",
     "orig": "‘Blade Runner 2099’ Boss Silka Luisa on What the Finale Means for Replicants and the Fate of Cora and Olwen"
    }
+  ],
+  [
+   1795743085.259627,
+   7087,
+   "🎮",
+   "Star Trek: Voyager - Across the Unknown отримає DLC за мотивами Year of Hell",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Star Trek: Voyager - Across the Unknown отримає DLC за мотивами Year of Hell</b>\n\nВидавництво Daedalic Entertainment анонсувало нове DLC Year of Hell для виживача Star Trek: Voyager - Across the Unknown. Доповнення вийде 9 грудня і запропонує гравцям мінікампанію, де можна як повторити сюжет культової арки серіалу, так і змінити історію, об&#x27;єднавшись із капітаном Annorax.\n\n🔗 <a href=\"https://www.polygon.com/star-trek-voyager-across-the-unknown-year-of-hell-dlc-announced/\">Polygon</a> · #ігри #StarTrek #DaedalicEntertainment",
+    "kind": "photo",
+    "link": "https://www.polygon.com/star-trek-voyager-across-the-unknown-year-of-hell-dlc-announced/",
+    "orig": "Star Trek: Voyager Officially Revisits the Series' Best Two-Parter in a Brand-New Way"
+   }
+  ],
+  [
+   1795743087.1296153,
+   7088,
+   "💾",
+   "Google зобов’яже сторонніх Android-розробників публічно вказувати свою адресу та телефон",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "💾 <b>Google зобов’яже сторонніх Android-розробників публічно вказувати свою адресу та телефон</b>\n\nGoogle з 2027 року змусить частину незалежних розробників Android-застосунків публічно розкривати номер телефону та адресу. Зміни запроваджуються для виконання вимог Закону ЄС про цифрові послуги, однак компанія планує відображати ці контактні дані для користувачів у всьому світі, а не лише в Європі.\n\n🔗 <a href=\"https://mezha.ua/news/android-rozrobnikiv-zobov-yazhut-publichno-vkazuvati-adresu-ta-telefon-317632/\">Mezha</a> · #софт",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/android-rozrobnikiv-zobov-yazhut-publichno-vkazuvati-adresu-ta-telefon-317632/",
+    "orig": "Google зобов’яже сторонніх Android-розробників публічно вказувати свою адресу та телефон"
+   }
+  ],
+  [
+   1795743163.2677784,
+   7089,
+   "🤘",
+   "Секрет успіху Jeff Wayne’s War Of The Worlds: «синтезатори звучать як машини з душею»",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Секрет успіху Jeff Wayne’s War Of The Worlds: «синтезатори звучать як машини з душею»</b>\n\nСаксофоніст Том Годжес розповів, чому подвійний альбом Jeff Wayne’s Musical Version Of War Of The Worlds 1978 року став культовим. Він відзначив поєднання живого оркестру з аналоговими синтезаторами та виразну декламацію Річарда Бертона.\n\n🔗 <a href=\"https://www.loudersound.com/music/albums/jeff-wayne-war-of-the-worlds-tom-hodges\">Metal Hammer (Louder)</a> · #музика #WarOfTheWorlds",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/music/albums/jeff-wayne-war-of-the-worlds-tom-hodges",
+    "orig": "Why Jeff Wayne’s War Of The Worlds has endured: “The synths sound like machines with soul”"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9694,12 +9701,11 @@
    1795618885.3987482
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1795622555.689697,
-   1795653195.591158,
    1795669406.7986567,
    1795685567.580511,
    1795687502.1825705,
-   1795698125.7549126
+   1795698125.7549126,
+   1795743085.2599058
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1795705281.973116,
@@ -9788,7 +9794,8 @@
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
    1795660335.4747827,
    1795736216.2259176,
-   1795741486.9971287
+   1795741486.9971287,
+   1795743163.268011
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1795244826.8845444
@@ -9847,9 +9854,9 @@
    1795717874.4880118
   ],
   "software|Mezha|https://mezha.ua/feed/": [
-   1795636886.351631,
    1795678280.2620308,
-   1795708946.1606395
+   1795708946.1606395,
+   1795743087.1298804
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1795680106.6832585,
@@ -10806,7 +10813,6 @@
   "68037ecde0c7b296": 1794783723.1164358,
   "6830423723d9c8d8": 1795330959.0186293,
   "68321c890662ccae": 1794985293.465611,
-  "6832b6cb9697ac09": 1794533481.1353736,
   "6832d00d5055987f": 1794630680.5273528,
   "68568fa319868a72": 1795226458.765301,
   "6868028639bb0d78": 1795201253.256003,
@@ -11905,7 +11911,6 @@
   "dbcde9a1167eaf23": 1795064492.7575371,
   "dbdb09d4930f61aa": 1795480349.3669956,
   "dbde67f6dbdd60da": 1795559544.9720116,
-  "dc1c6e040f933f0f": 1794533503.0712693,
   "dc24a4fc90b2bbcd": 1795381256.726381,
   "dc362d4860b5113d": 1795284056.7584941,
   "dc4913208d86bb83": 1795134676.973493,
@@ -11968,6 +11973,7 @@
   "e28ec65b2ffdf256": 1795534314.709962,
   "e2a260fb3e7aa381": 1795269759.4347854,
   "e2bed42139e803bb": 1795217454.61787,
+  "e3176ce6b29cd8c2": 1795743163.2679708,
   "e327c91285a3b743": 1795584675.7441509,
   "e32d30d32883dedf": 1795541488.7726154,
   "e34389c32b33e596": 1794929483.5526125,
@@ -12057,6 +12063,7 @@
   "eb9ed10f13c529dc": 1795234044.1678782,
   "ebbeb11c79c47863": 1795596409.4693563,
   "ebdfce07d993cb55": 1795253456.1008854,
+  "ebe66e19cb62cf64": 1795743085.2598617,
   "ec0a2a53e046448a": 1794776482.428397,
   "ec453d1217c21859": 1794650473.5415514,
   "ec54bb3011fe81bf": 1794877253.0913165,
@@ -12088,6 +12095,7 @@
   "eee7e3081ec583c4": 1794697281.7608502,
   "ef01af6bd1b6b54f": 1795498474.4579012,
   "ef2de6ff8a572c47": 1795705281.9730804,
+  "ef2f241158c96612": 1795743087.1298397,
   "ef4107797b4a692f": 1795313025.529045,
   "ef4bda231530a02a": 1794987091.7832546,
   "ef4e8652efb8d259": 1794609084.4809654,
@@ -13489,13 +13497,13 @@
    "Kerrang!": 1,
    "Lambgoat": 17,
    "Loudwire": 1,
-   "Metal Hammer (Louder)": 14,
-   "Mezha": 30,
+   "Metal Hammer (Louder)": 15,
+   "Mezha": 31,
    "Neformat": 16,
    "PC Gamer": 10,
    "Pitchfork": 3,
    "PlayUA": 4,
-   "Polygon": 17,
+   "Polygon": 18,
    "Product Hunt": 8,
    "Rock Paper Shotgun": 10,
    "SteamDB": 2,
@@ -13508,9 +13516,9 @@
   "translators": {
    "DeepL": 26,
    "gemini-flash-latest": 8,
-   "gemini-flash-lite-latest": 113,
+   "gemini-flash-lite-latest": 114,
    "gemma-4-26b-a4b-it": 80,
-   "gemma-4-31b-it": 113
+   "gemma-4-31b-it": 114
   },
   "week": "2026-W48"
  },
@@ -14305,16 +14313,6 @@
    "創業王 CEO",
    1794456080.6666977
   ],
-  "q:chat coming": [
-   0,
-   "",
-   1795568496.3253293
-  ],
-  "q:chat coming to skate": [
-   0,
-   "",
-   1795568495.8166316
-  ],
   "q:chronicles medieval": [
    2231020,
    "Chronicles: Medieval",
@@ -14364,11 +14362,6 @@
    0,
    "",
    1795624364.8421304
-  ],
-  "q:coming to skate": [
-   0,
-   "",
-   1795568496.944874
   ],
   "q:company of heroes 3": [
    1677280,
@@ -15605,21 +15598,6 @@
    "Proximity",
    1795568495.30679
   ],
-  "q:proximity chat": [
-   0,
-   "",
-   1795568494.684667
-  ],
-  "q:proximity chat coming": [
-   0,
-   "",
-   1795568494.120946
-  ],
-  "q:proximity chat coming to skate": [
-   0,
-   "",
-   1795568493.6197937
-  ],
   "q:ps plus": [
    0,
    "",
@@ -16170,10 +16148,30 @@
    "Standard Edition",
    1793797484.0764632
   ],
+  "q:star trek": [
+   0,
+   "",
+   1795743078.5528448
+  ],
   "q:star trek online": [
    9900,
    "Star Trek Online",
    1793361812.7367053
+  ],
+  "q:star trek voyager": [
+   0,
+   "",
+   1795743077.9823084
+  ],
+  "q:star trek voyager officially": [
+   0,
+   "",
+   1795743077.3530738
+  ],
+  "q:star trek voyager officially revisits": [
+   0,
+   "",
+   1795743076.799304
   ],
   "q:star wars galactic racer": [
    4078430,
@@ -16270,6 +16268,26 @@
    "Touchdown",
    1793626281.855268
   ],
+  "q:trek": [
+   0,
+   "",
+   1795743080.7268145
+  ],
+  "q:trek voyager": [
+   0,
+   "",
+   1795743080.2055469
+  ],
+  "q:trek voyager officially": [
+   0,
+   "",
+   1795743079.6438928
+  ],
+  "q:trek voyager officially revisits": [
+   0,
+   "",
+   1795743079.1338608
+  ],
   "q:tyler": [
    390460,
    "Tyler",
@@ -16349,6 +16367,26 @@
    3416040,
    "VINCERE",
    1795339882.8050396
+  ],
+  "q:voyager officially": [
+   0,
+   "",
+   1795743082.9780743
+  ],
+  "q:voyager officially revisits": [
+   0,
+   "",
+   1795743082.3056974
+  ],
+  "q:voyager officially revisits the series'": [
+   0,
+   "",
+   1795743081.7741187
+  ],
+  "q:voyager officially revisits the series' best": [
+   0,
+   "",
+   1795743081.22893
   ],
   "q:vrchat": [
    438100,
@@ -16585,7 +16623,6 @@
   ]
  },
  "telegraph": [
-  1795654984.4259295,
   1795732325.200122
  ],
  "titles": [
@@ -17336,6 +17373,18 @@
   [
    1795741638.5057342,
    "‘Blade Runner 2099’ Boss Silka Luisa on What the Finale Means for Replicants and the Fate of Cora and Olwen"
+  ],
+  [
+   1795743085.2598639,
+   "Star Trek: Voyager Officially Revisits the Series' Best Two-Parter in a Brand-New Way"
+  ],
+  [
+   1795743087.1298409,
+   "Google зобов’яже сторонніх Android-розробників публічно вказувати свою адресу та телефон"
+  ],
+  [
+   1795743163.2679725,
+   "Why Jeff Wayne’s War Of The Worlds has endured: “The synths sound like machines with soul”"
   ]
  ],
  "titles_uk": [
@@ -18086,6 +18135,18 @@
   [
    1795741638.505735,
    "Сілька Луїза розповіла про фінал Blade Runner 2099 та долю Cora й Olwen"
+  ],
+  [
+   1795743085.2598646,
+   "Star Trek: Voyager - Across the Unknown отримає DLC за мотивами Year of Hell"
+  ],
+  [
+   1795743087.1298418,
+   "Google зобов’яже сторонніх Android-розробників публічно вказувати свою адресу та телефон"
+  ],
+  [
+   1795743163.267973,
+   "Секрет успіху Jeff Wayne’s War Of The Worlds: «синтезатори звучать як машини з душею»"
   ]
  ],
  "ukrainian": {
