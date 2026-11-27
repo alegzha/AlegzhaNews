@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|ThePRP|https://www.theprp.com/feed/": {
+   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ThePRP» не працює",
+   "sent": 0,
+   "since": 1795784490.463787
+  }
+ },
  "daily_digest_date": "2026-11-26",
  "freebies": {
   "last_check": 1795781630.2288687,
@@ -34,13 +41,14 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-27 12:45 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemma-4-31b-it",
+  "at": "2026-11-27 13:07 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemma-4-31b-it": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
@@ -8774,7 +8782,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "🎮 <b>У Steam стартував новий фестиваль, який вимагає у розробників доказів відсутності ШІ у іграх</b>\n\nУ Steam розпочався фестиваль Games Without AI, присвячений незалежним іграм, створеним без використання генеративного штучного інтелекту. Захід стартував 25 листопада та триватиме до 6 грудня.\n\n🔗 <a href=\"https://mezha.ua/news/u-steam-startuvav-festival-games-without-ai-dlya-igor-bez-shi-317633/\">Mezha</a> · #ігри",
     "kind": "photo",
     "link": "https://mezha.ua/news/u-steam-startuvav-festival-games-without-ai-dlya-igor-bez-shi-317633/",
     "orig": "У Steam стартував новий фестиваль, який вимагає у розробників доказів відсутності ШІ у іграх"
@@ -8788,7 +8795,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b><a href=\"https://store.steampowered.com/app/5554930/\">Dungoku</a> поєднає механіки судоку та dungeon crawler у світі дарк-фентезі</b>\n🕹 <a href=\"https://store.steampowered.com/app/5554930/\">Dungoku</a> — ще не вийшла\n\nDungoku — це пазл у стилі ретро дарк-фентезі, де гравцям потрібно розставляти ворогів і скрині на сітці за певними правилами. Гра пропонує понад 100 створених вручну підземель, 20 видів монстрів та систему луту для покращення характеристик. Проєкт уже доступний для додавання в список бажаного у Steam.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/dark-fantasy-and-sudoku-fuse-together-in-unholy-matrimony-in-dungoku-a-dungeon-crawling-twist-on-the-classic-puzzle-game\">Rock Paper Shotgun</a> · #ігри #Dungoku",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/dark-fantasy-and-sudoku-fuse-together-in-unholy-matrimony-in-dungoku-a-dungeon-crawling-twist-on-the-classic-puzzle-game",
     "orig": "Dark fantasy and sudoku fuse together in unholy matrimony in Dungoku, a dungeon crawling twist on the classic puzzle game"
@@ -9629,6 +9635,34 @@
     "link": "https://itc.ua/ua/novini/kalejdoskop-netflix-40320-sposobiv-pereglyadu/",
     "orig": "Серіал Netflix можна дивитися 40 320 способами: що за «Калейдоскоп»"
    }
+  ],
+  [
+   1795784859.605943,
+   7138,
+   "🎮",
+   "Ти — чаклун, якому набридло, що тебе виганяють із супутників у грі «World of Warcraft: Forever»? Тепер є мод, який допоможе тобі дати відсіч",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Ти — чаклун, якому набридло, що тебе виганяють із супутників у грі «World of Warcraft: Forever»? Тепер є мод, який допоможе тобі дати відсіч</b>\n\nСитуація, коли вас беруть у групу в «World of Warcraft» як чаклуна, а потім одразу ж виганяють після того, як ви використовуєте свої сили, щоб магічним чином зібрати членів групи в одному місці, незабаром може стати минулим. І все це завдяки модифікації, створеній одним особливо роздратованим чаклуном.\n\n🔗 <a href=\"https://www.eurogamer.net/world-of-warcraft-forever-summon-kicking-warlock-addon\">Eurogamer</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/world-of-warcraft-forever-summon-kicking-warlock-addon",
+    "orig": "Are you a warlock tired of being summon-kicked in World of Warcraft: Forever? There's now a mod to fight back with"
+   }
+  ],
+  [
+   1795784869.3404016,
+   7139,
+   "🎬",
+   "BAFTA втрачає спонсора EE та стикається з бойкотом фільму про Майкла Джексона",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>BAFTA втрачає спонсора EE та стикається з бойкотом фільму про Майкла Джексона</b>\n📖 <a href=\"https://telegra.ph/BAFTA-vtrachaye-sponsora-EE-ta-stikayetsya-z-bojkotom-fіlmu-pro-Majkla-Dzheksona-11-27\">Читати повністю українською</a>\n\nКінопремія BAFTA зіткнулася з проблемою перед церемонією через відмову продюсерів біографічного фільму про Майкла Джексона подавати стрічку на розгляд. Ситуацію ускладнила втрата багаторічного головного спонсора EE через зміну бізнес-стратегії компанії.\n\n🔗 <a href=\"https://deadline.com/2026/11/international-insider-doha-film-festival-bafta-empress-1237233962/\">Deadline</a> · #кіно_і_серіали #BAFTA",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/international-insider-doha-film-festival-bafta-empress-1237233962/",
+    "orig": "International Insider: Doha Days; Tricky Week For BAFTA; ‘Remarried Empress’ Interview"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9684,7 +9718,8 @@
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
    1795703575.5822632,
-   1795783525.0448253
+   1795783525.0448253,
+   1795784859.6061876
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1795658542.3181212
@@ -9763,7 +9798,8 @@
    1795761101.0588112,
    1795771968.657681,
    1795773719.7535295,
-   1795781628.345832
+   1795781628.345832,
+   1795784869.3406534
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795775478.906556,
@@ -9935,7 +9971,6 @@
   "046000b4ffdc36e9": 1795611655.103084,
   "04623ce635725e68": 1795420853.9785311,
   "04a702a6bd870247": 1794922318.0981417,
-  "04c121ae35afc0cd": 1794574970.897312,
   "04c6c51b286dc80e": 1795199460.213731,
   "04cd989d5875ca72": 1795024884.9419575,
   "050ea7aed04e3489": 1795017653.3598104,
@@ -10553,7 +10588,6 @@
   "4a2208970147c5e0": 1795026653.649315,
   "4a2e5acb7afe9b74": 1795631499.0310946,
   "4a31f61b02fc4280": 1794643258.248781,
-  "4a3ad21c5d3efe23": 1794574877.1639743,
   "4a3e56c9c07ea590": 1795555359.8922977,
   "4a4907c11e83ea45": 1795565092.7028604,
   "4a57a9939186257a": 1795307571.9054255,
@@ -11167,6 +11201,7 @@
   "878dd522fb060868": 1795356231.010851,
   "878e9d7dd121471d": 1794619881.9929366,
   "87c12a20ca080787": 1795082475.237263,
+  "87d4ad0d7b0df620": 1795784859.6061444,
   "87d5cad99498095c": 1795188662.6550176,
   "87d6a1ac290f9881": 1794592885.050251,
   "87dc78f71437aa18": 1795525302.4460568,
@@ -11297,6 +11332,7 @@
   "9604b2c5ea31561e": 1795228645.1996634,
   "96166831a5ddf5c7": 1794600055.3928566,
   "964038f212491432": 1795501888.596877,
+  "9657915d7271de49": 1795784457.0581658,
   "967705004d58e64c": 1794828859.1218388,
   "96cea4b180aa7e23": 1794785569.2578328,
   "97156e3a65270f3a": 1795046452.2936778,
@@ -11489,6 +11525,7 @@
   "a9d2849b3f821471": 1795680108.818066,
   "a9d5ec2624ddf448": 1795172462.663653,
   "aa0d4b6e080f1b03": 1795069877.7111862,
+  "aa150f15302be789": 1795784457.0581658,
   "aa2ef2e62e846d1e": 1795647653.4532554,
   "aa2f0c411aa049ee": 1795222893.6279979,
   "aaa4566ea209bbef": 1795095036.2873633,
@@ -11517,6 +11554,7 @@
   "ad5b0d6b684f397b": 1795359662.99869,
   "ad75a7a5b7e22c6b": 1795750257.5821095,
   "ad86b40e86740426": 1795631500.8892293,
+  "ada0fdfe9ea96e48": 1795784869.340608,
   "adaa3b59b7ba0601": 1794807087.558263,
   "adad4ea4f55d3dee": 1795014053.3303049,
   "ade05c41d1e8af3a": 1795332802.8840997,
@@ -11768,6 +11806,7 @@
   "c6c58a4336b80ac1": 1795523668.3617456,
   "c6c6bca55a426e5e": 1795530656.5277925,
   "c6f66c0f3804d817": 1795059075.8119717,
+  "c711ee86d8bd6a2d": 1795784496.5932171,
   "c71b62238449c818": 1795735856.2251754,
   "c721d7cfb6967e78": 1794592887.906931,
   "c7368023d59a02b6": 1794623453.1714458,
@@ -12191,6 +12230,7 @@
   "f3c208ffa2a71075": 1795606436.0267487,
   "f3e9a47b5c501fbf": 1795138283.4116333,
   "f3f234db50c68e8f": 1795532493.356834,
+  "f3f7f1ac5c13ccff": 1795784457.0581658,
   "f412993897ca0aa2": 1795325720.6762967,
   "f418ec61c1bec372": 1794616296.5765254,
   "f42e5c1700363830": 1794790852.1093779,
@@ -13514,7 +13554,7 @@
   },
   "filtered": {
    "/Film": 19,
-   "Bloomberg": 34,
+   "Bloomberg": 35,
    "Deadline": 8,
    "Eurogamer": 1,
    "GameSpot": 6,
@@ -13526,13 +13566,13 @@
    "Loudwire": 1,
    "Metal Hammer (Louder)": 5,
    "Mezha": 1,
-   "PC Gamer": 20,
+   "PC Gamer": 21,
    "PlayUA": 2,
    "Polygon": 41,
    "Rock Paper Shotgun": 2,
    "SteamDB": 1,
    "ThePRP": 1,
-   "VGC": 34,
+   "VGC": 35,
    "Variety": 16
   },
   "sources": {
@@ -13542,11 +13582,11 @@
    "Bloomberg": 36,
    "DOU": 4,
    "DOU Gamedev": 4,
-   "Deadline": 63,
+   "Deadline": 64,
    "Decibel": 1,
    "Digital Foundry": 1,
    "Distorted Sound": 3,
-   "Eurogamer": 11,
+   "Eurogamer": 12,
    "GameSpot": 1,
    "GamesIndustry.biz": 10,
    "Hugging Face": 5,
@@ -13574,9 +13614,9 @@
    "Variety": 28
   },
   "translators": {
-   "DeepL": 30,
+   "DeepL": 32,
    "gemini-flash-latest": 9,
-   "gemini-flash-lite-latest": 136,
+   "gemini-flash-lite-latest": 138,
    "gemma-4-26b-a4b-it": 93,
    "gemma-4-31b-it": 120
   },
@@ -14008,11 +14048,6 @@
    "",
    1795705284.6687326
   ],
-  "q:6": [
-   0,
-   "",
-   1795611678.5164957
-  ],
   "q:6 75": [
    0,
    "",
@@ -14092,16 +14127,6 @@
    3408350,
    "AAA",
    1793293536.3002434
-  ],
-  "q:actor gameplay": [
-   0,
-   "",
-   1795611679.5334966
-  ],
-  "q:actor gameplay framework": [
-   0,
-   "",
-   1795611679.023449
   ],
   "q:after playing": [
    0,
@@ -14708,11 +14733,6 @@
    "",
    1795613573.7570417
   ],
-  "q:engine 6": [
-   0,
-   "",
-   1795611677.9239564
-  ],
   "q:euro truck simulator 2": [
    227300,
    "Euro Truck Simulator 2",
@@ -14832,16 +14852,6 @@
    1205680,
    "Game of the Year",
    1793442681.1337924
-  ],
-  "q:gameplay": [
-   0,
-   "",
-   1795611680.5801892
-  ],
-  "q:gameplay framework": [
-   0,
-   "",
-   1795611680.04393
   ],
   "q:games ambassador": [
    0,
@@ -16408,16 +16418,6 @@
    "",
    1795755676.4870408
   ],
-  "q:unreal engine": [
-   0,
-   "",
-   1795611677.386087
-  ],
-  "q:unreal engine 6": [
-   0,
-   "",
-   1795611676.8849058
-  ],
   "q:update 5 02 patch": [
    0,
    "",
@@ -16715,17 +16715,10 @@
  },
  "telegraph": [
   1795732325.200122,
-  1795744144.232577
+  1795744144.232577,
+  1795784868.9386485
  ],
  "titles": [
-  [
-   1795611747.907918,
-   "Unreal Engine 6 won't include Blueprints or Actor Gameplay Framework"
-  ],
-  [
-   1795611751.333818,
-   "«Жінок зображали погано»: сценарист першої GTA радий появі Лусії в GTA 6"
-  ],
   [
    1795613581.4219472,
    "Rayman Legends Retold Review Embargo Date & Time Details"
@@ -17473,17 +17466,17 @@
   [
    1795783527.0606604,
    "Серіал Netflix можна дивитися 40 320 способами: що за «Калейдоскоп»"
+  ],
+  [
+   1795784859.606146,
+   "Are you a warlock tired of being summon-kicked in World of Warcraft: Forever? There's now a mod to fight back with"
+  ],
+  [
+   1795784869.3406096,
+   "International Insider: Doha Days; Tricky Week For BAFTA; ‘Remarried Empress’ Interview"
   ]
  ],
  "titles_uk": [
-  [
-   1795611747.9079192,
-   "Unreal Engine 6 не підтримуватиме Blueprints та Actor Gameplay Framework"
-  ],
-  [
-   1795611751.3338184,
-   "«Жінок зображали погано»: сценарист першої GTA радий появі Лусії в GTA 6"
-  ],
   [
    1795613581.421948,
    "Стала відома дата зняття ембарго на огляди Rayman Legends Retold"
@@ -18231,6 +18224,14 @@
   [
    1795783527.0606613,
    "Серіал Netflix можна дивитися 40 320 способами: що за «Калейдоскоп»"
+  ],
+  [
+   1795784859.606147,
+   "Ти — чаклун, якому набридло, що тебе виганяють із супутників у грі «World of Warcraft: Forever»? Тепер є мод, який допоможе тобі дати відсіч"
+  ],
+  [
+   1795784869.3406103,
+   "BAFTA втрачає спонсора EE та стикається з бойкотом фільму про Майкла Джексона"
   ]
  ],
  "ukrainian": {
