@@ -1,10 +1,10 @@
 {
  "alerts": {
-  "src:games|Polygon|https://www.polygon.com/feed/": {
-   "detail": "https://www.polygon.com/feed/ → 502 Server Error: Bad Gateway for url: https://www.polygon.com/feed/\nhttps://www.polygon.com/rss/index.xml → 502 Server Error: Bad Gateway for url: https://www.polygon.com/rss/index.xml",
-   "label": "Джерело «Polygon» не працює",
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
    "sent": 0,
-   "since": 1795780869.058485
+   "since": 1795782690.7439926
   },
   "src:music|ThePRP|https://www.theprp.com/feed/": {
    "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
@@ -8776,7 +8776,6 @@
    "PC Gamer",
    {
     "also": [],
-    "caption": "🎮 <b>Blizzard змінила правила PvP-режиму Alterac Valley у WoW: Forever</b>\n📖 <a href=\"https://telegra.ph/Blizzard-zmіnila-pravila-PvP-rezhimu-Alterac-Valley-u-WoW-Forever-11-26\">Читати повністю українською</a>\n\nBlizzard змінила систему нагород у PvP-режимі Alterac Valley у WoW: Forever. Тепер гравці отримуватимуть більше репутації та честі за виконання цілей, а не лише за вбивство генералів ворога. Це зроблено, щоб уникнути простого фарму репутації, проте частина гравців незадоволена зниженням ефективності старих стратегій.\n\n🔗 <a href=\"https://www.pcgamer.com/games/world-of-warcraft/wow-forever-min-maxers-are-upset-that-its-40-player-pvp-mode-now-actually-requires-pvp-to-win/\">PC Gamer</a> · #ігри #WoWForever #Blizzard",
     "kind": "photo",
     "link": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-min-maxers-are-upset-that-its-40-player-pvp-mode-now-actually-requires-pvp-to-win/",
     "orig": "WoW: Forever min-maxers are upset that its 40-player PvP mode now actually requires PvP to win"
@@ -9396,7 +9395,12 @@
    "США ускладнили Китаю розробку ШІ: нові моделі Z.AI та Moonshot можуть затриматися до 2027 року",
    "Mezha",
    {
-    "also": [],
+    "also": [
+     [
+      "AIN.ua",
+      "https://ain.ua/2026/11/27/novi-obmezennia-ssa-mozut-vidklasti-vixid-si-modelei-zai-ta-moonshot-do-2027-roku/"
+     ]
+    ],
     "caption": "🤖 <b>США ускладнили Китаю розробку ШІ: нові моделі Z.AI та Moonshot можуть затриматися до 2027 року</b>\n\nКитайські Z.AI та Moonshot AI зіткнулися із затримками нових моделей через захист OpenAI й Anthropic від дистиляції та обмежений доступ до чипів NVIDIA. GLM-5.5 може вийти не раніше першого кварталу 2027 року, а цикл розробки Kimi може збільшитися вдвічі.\n\n🔗 <a href=\"https://mezha.ua/news/chinese-llms-late-317640/\">Mezha</a> · #ШІ",
     "kind": "photo",
     "link": "https://mezha.ua/news/chinese-llms-late-317640/",
@@ -9625,6 +9629,20 @@
     "kind": "photo",
     "link": "https://deadline.com/2026/11/netflix-buys-chinese-drama-the-melody-of-love-release-date-1237234243/",
     "orig": "Netflix Tunes Into Music-Driven Chinese Fantasy Series ‘The Melody Of Love’"
+   }
+  ],
+  [
+   1795782694.5200808,
+   7135,
+   "💾",
+   "Windows 12 поки не буде: в Microsoft пояснили, чому",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "💾 <b>Windows 12 поки не буде: в Microsoft пояснили, чому</b>\n\nMicrosoft поки уникає відповіді, що дати релізу Windows 12. Керівник відділу розробки ОС Паван Давулурі каже, що зараз пріоритет компанії — зробити Windows 11 швидшою та надійнішою, а також довести, що її ШІ-функції справді потрібні користувачам.\n\n🔗 <a href=\"https://itc.ua/ua/novini/windows-12-microsoft-davuluri-windows-11-shi/\">ITC.ua</a> · #софт",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/windows-12-microsoft-davuluri-windows-11-shi/",
+    "orig": "Windows 12 поки не буде: в Microsoft пояснили, чому"
    }
   ]
  ],
@@ -9873,7 +9891,8 @@
   "software|ITC.ua|https://itc.ua/ua/feed/": [
    1795708948.1373615,
    1795717874.4880118,
-   1795770102.1314054
+   1795770102.1314054,
+   1795782694.520322
   ],
   "software|Mezha|https://mezha.ua/feed/": [
    1795678280.2620308,
@@ -10277,7 +10296,7 @@
   "2951162c61279e04": 1795098686.4636607,
   "2965c27d14acb84b": 1794778261.7964659,
   "29970d94d1beaab2": 1795310934.0835595,
-  "2998b39e7aaee1c0": 1794573079.6083257,
+  "299ba0b0b12dcf61": 1795782655.4015517,
   "29ae30ee721e8e28": 1794589276.7801428,
   "2a202f7d4ea389d5": 1794576655.1775482,
   "2a2082a404a4036f": 1795579298.57564,
@@ -10607,6 +10626,7 @@
   "4f340a9131799a9d": 1795539658.0331025,
   "4f47c2183fec8c1c": 1795469457.0355752,
   "4f51a5bc4f5a470f": 1795314690.4972925,
+  "4f5b8a6f2505dc83": 1795782655.4015517,
   "4f635fa3cac3a005": 1795010462.958915,
   "4f71825bb6cbd70c": 1795014110.2908468,
   "4f7f70a6250406e8": 1795102384.325569,
@@ -10647,6 +10667,7 @@
   "5414ecc9b939f980": 1794607474.0966804,
   "544396b7298dff1b": 1795282267.5256326,
   "545e38a10926324b": 1794920510.3703232,
+  "5468bcce840467cc": 1795782696.401175,
   "5470111df8825930": 1794961884.5306056,
   "54839cc7c333f5d0": 1795221054.2974577,
   "548f15aee8e3e112": 1795453329.5088906,
@@ -10808,6 +10829,7 @@
   "648ccc55f45aea20": 1795435304.6913989,
   "64a0cf7f43056473": 1794929457.0480187,
   "64ae9c8d3089c5fe": 1795669253.3576543,
+  "64bafefeab6f3fda": 1795782655.4015517,
   "64bdd684cbf6e982": 1795536113.9364457,
   "64c2ce54a91e644a": 1795714519.1564684,
   "64cca365b932e22c": 1795008699.1667783,
@@ -11331,6 +11353,7 @@
   "9b61d4289f6fb3ad": 1794949265.3352437,
   "9b836c155ddd7fdb": 1795514569.1766186,
   "9b9df8216280f5b5": 1795199592.675019,
+  "9baaf034605cc86f": 1795782694.5202768,
   "9bfc3824e72b6d11": 1795424505.9808967,
   "9c0887d35882af41": 1795204965.5333297,
   "9c10a7f10b16d08d": 1794810782.9833372,
@@ -11635,6 +11658,7 @@
   "b98b39ca4d62267d": 1794922256.1694205,
   "b9aaff8d85e8862c": 1795777257.3700647,
   "b9b7183ab6de00ec": 1795390671.7912314,
+  "ba17fe03a32eafc8": 1795782655.4015517,
   "ba1a565b3acb1053": 1795231890.279287,
   "ba4aa020574142fa": 1795487476.1568887,
   "ba5f106f556a7ee8": 1794790879.6178286,
@@ -12228,6 +12252,7 @@
   "f8191b8aa2022caf": 1795620660.2160394,
   "f82c75583cf49639": 1795708946.1605914,
   "f842ca61b8188d7c": 1795703575.5822144,
+  "f84b3b311c539ff1": 1795782655.4015517,
   "f855c22c60cf70d4": 1795496496.9915507,
   "f867e5218e752d33": 1795014053.3303049,
   "f8ab187e534f9f9b": 1795417375.7492278,
@@ -13504,12 +13529,12 @@
   },
   "filtered": {
    "/Film": 19,
-   "Bloomberg": 31,
+   "Bloomberg": 34,
    "Deadline": 8,
    "Eurogamer": 1,
    "GameSpot": 6,
    "GamesIndustry.biz": 2,
-   "IGN": 15,
+   "IGN": 16,
    "ITC.ua": 1,
    "IndieWire": 2,
    "Insider Gaming": 75,
@@ -13518,7 +13543,7 @@
    "Mezha": 1,
    "PC Gamer": 20,
    "PlayUA": 2,
-   "Polygon": 40,
+   "Polygon": 41,
    "Rock Paper Shotgun": 2,
    "SteamDB": 1,
    "ThePRP": 1,
@@ -13541,7 +13566,7 @@
    "GamesIndustry.biz": 10,
    "Hugging Face": 5,
    "IGN": 1,
-   "ITC.ua": 40,
+   "ITC.ua": 41,
    "IndieWire": 7,
    "Insider Gaming": 12,
    "Kerrang!": 2,
@@ -14297,11 +14322,6 @@
    1285190,
    "Borderlands 4",
    1793646105.721347
-  ],
-  "q:buckshot roulette": [
-   2835570,
-   "Buckshot Roulette",
-   1793189006.0332808
   ],
   "q:buggy": [
    2289860,
@@ -15503,11 +15523,6 @@
    "Path of Exile 2",
    1794009694.6159854
   ],
-  "q:pathologic 3": [
-   3199650,
-   "Pathologic 3",
-   1793188994.2323596
-  ],
   "q:peanut": [
    1068490,
    "Peanut",
@@ -15617,11 +15632,6 @@
    19980,
    "Prince of Persia®",
    1793451676.8490756
-  ],
-  "q:project titan": [
-   5075420,
-   "Project TITAN",
-   1793189014.4927413
   ],
   "q:projekt": [
    0,
@@ -16688,39 +16698,38 @@
   "Mezha": [
    "apple",
    "csg",
-   "cv90",
    "gta 6",
    "ipad",
+   "lynx kf41",
    "mazda",
    "mazda cx-30",
+   "rheinmetall",
    "rockstar",
-   "steam",
-   "valve",
    "volkswagen",
    "volkswagen t-roc",
    "авто",
-   "бмп",
+   "армія сша",
    "бронетехніка",
    "бізнес",
-   "гур",
-   "китай",
+   "кібербезпека",
    "новини",
+   "новини партнерів",
+   "нрк",
    "оборонка",
    "оборонний завод",
+   "оборонні закупівлі",
    "паливо",
    "планшети",
-   "росія",
    "статті",
-   "супутники",
    "супутниковий зв'язок",
-   "супутниковий інтернет",
+   "сша",
    "тест-драйв",
    "технології",
-   "фінляндія",
+   "хакери",
    "чехія",
-   "швеція",
    "штучний інтелект",
    "європа",
+   "єс",
    "ігри"
   ]
  },
@@ -16729,10 +16738,6 @@
   1795744144.232577
  ],
  "titles": [
-  [
-   1795609880.274302,
-   "ШІ розв'язав задачу, над якою люди билися 47 років — двічі різними моделями"
-  ],
   [
    1795610014.927897,
    "Capcom dinosaur shooter Exoprimal's servers will go extinct next year, as shutdown meteor looms"
@@ -17480,13 +17485,13 @@
   [
    1795781628.3457847,
    "Netflix Tunes Into Music-Driven Chinese Fantasy Series ‘The Melody Of Love’"
+  ],
+  [
+   1795782694.5202785,
+   "Windows 12 поки не буде: в Microsoft пояснили, чому"
   ]
  ],
  "titles_uk": [
-  [
-   1795609880.2743027,
-   "ШІ розв'язав задачу, над якою люди билися 47 років — двічі різними моделями"
-  ],
   [
    1795610014.927898,
    "Сервери шутера про динозаврів Exoprimal від Capcom закриють наступного року"
@@ -18234,6 +18239,10 @@
   [
    1795781628.3457851,
    "Netflix покаже музичне китайське фентезі The Melody Of Love"
+  ],
+  [
+   1795782694.5202794,
+   "Windows 12 поки не буде: в Microsoft пояснили, чому"
   ]
  ],
  "ukrainian": {
@@ -20726,7 +20735,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795779170.2823317,
+  "last_check": 1795782704.165465,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
