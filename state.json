@@ -1,8 +1,15 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795759272.416381
+  }
+ },
  "daily_digest_date": "2026-11-26",
  "freebies": {
-  "last_check": 1795752217.9135458,
+  "last_check": 1795759397.0698242,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -32,44 +39,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-27 05:38 UTC",
+  "at": "2026-11-27 06:03 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 2
+   "gemini-flash-lite-latest": 2
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795068082.799775,
-   6363,
-   "🤘",
-   "Дворічний період гурту The 101'ers за участю Joe Strummer випустять на масштабному бокс-сеті",
-   "Metal Hammer (Louder)",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.loudersound.com/music/albums/joe-strummer-003-the-101ers-years-1974-1976",
-    "orig": "Joe Strummer's two-year rampage with The 101'ers documented on evocative box set"
-   }
-  ],
-  [
-   1795068086.6424372,
-   6364,
-   "🎬",
-   "Людвіг Йоранссон і Taylor Swift перемогли на Hollywood Music in Media Awards",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/hollywood-music-in-media-awards-2026-winners-list-1237227122/",
-    "orig": "Hollywood Music In Media Awards Winners Include Ludwig Göransson, ‘La Bola Negra,’ Taylor Swift, Diane Warren & Jaafar Jackson"
-   }
-  ],
   [
    1795070079.4941142,
    6365,
@@ -8750,7 +8730,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>FIFA стала жертвою кібератаки</b>\n\nФІФА стала ціллю кібератаки, внаслідок якої хакери отримали доступ до особистої та ділової інформації організації. У футбольному керівному органі підтвердили цей інцидент у спеціальній заяві.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-26/fifa-says-hackers-accessed-personal-data-in-cyberattack\">Bloomberg</a> · #софт #FIFA",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-26/fifa-says-hackers-accessed-personal-data-in-cyberattack",
     "orig": "FIFA Says Hackers Accessed Personal Data in Cyberattack"
@@ -8894,7 +8873,12 @@
    "The Witcher 3 Remastered отримала патч 5.02 із покращеннями фоторежиму та виправленнями помилок",
    "Insider Gaming",
    {
-    "also": [],
+    "also": [
+     [
+      "PC Gamer",
+      "https://www.pcgamer.com/games/the-witcher/witcher-3-remastered-patch-has-lighting-fixes-sign-nerfs-and-gets-rid-of-a-nasty-werewolf-bug/"
+     ]
+    ],
     "caption": "🎮 <b>The Witcher 3 Remastered отримала патч 5.02 із покращеннями фоторежиму та виправленнями помилок</b>\n\nДля The Witcher 3 Remastered вийшло оновлення 5.02, доступне на PlayStation 5, XBOX Series X/S, Switch 2 та PC. Патч фокусується на геймплеї, балансуванні, візуальних аспектах та покращенні фоторежиму. Також розробники оптимізували подорожі світом гри для плавнішого ігрового процесу.\n\n🔗 <a href=\"https://insider-gaming.com/the-witcher-3-update-5-02-patch-notes-photo-mode-improvements-bug-fixes-and-more/\">Insider Gaming</a> · #ігри #TheWitcher",
     "kind": "photo",
     "link": "https://insider-gaming.com/the-witcher-3-update-5-02-patch-notes-photo-mode-improvements-bug-fixes-and-more/",
@@ -9614,6 +9598,20 @@
     "link": "https://www.polygon.com/say-goodbye-to-stephen-kings-first-film-adaptation/",
     "orig": "Stephen King's Psychological Thriller Officially Says Goodbye to Streaming"
    }
+  ],
+  [
+   1795759381.68405,
+   7107,
+   "🎬",
+   "Нова книга звинувачує колишнього голову Disney Bob Iger у вагітності підлеглої",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Нова книга звинувачує колишнього голову Disney Bob Iger у вагітності підлеглої</b>\n\nСкандальна книга стверджує, що на початку 1990-х років колишній керівник Disney запліднив підлеглу співробітницю, що призвело до травматичної процедури переривання вагітності. Деталі з&#x27;явилися у сьогоднішній статті The New York Times.\n\n🔗 <a href=\"https://deadline.com/2026/11/bob-iger-house-of-mouse-book-robbie-whelan-1237234125/\">Deadline</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/bob-iger-house-of-mouse-book-robbie-whelan-1237234125/",
+    "orig": "New Book Alleges Former Disney Chief Bob Iger Impregnated Employee Leading To “Traumatic Termination Procedure”"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9740,9 +9738,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1795665828.7783973,
-   1795667543.2810812,
-   1795671132.8848634,
    1795676524.9488606,
    1795683733.2423108,
    1795687455.3926833,
@@ -9752,7 +9747,8 @@
    1795744181.8548613,
    1795745028.63463,
    1795748813.1591508,
-   1795752142.3136659
+   1795752142.3136659,
+   1795759381.6843503
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795683674.016385,
@@ -10369,7 +10365,6 @@
   "3544a836063b2a5c": 1794718889.3772535,
   "35ab349aa9777645": 1795320137.6138074,
   "35d837d7c52d0650": 1795142004.7231202,
-  "35ee207426a689f2": 1794549698.9706059,
   "360516e1c23fff81": 1794780083.111482,
   "363121212f2f4d3b": 1794742509.8286552,
   "36425710d971e3e2": 1794846655.2895768,
@@ -10438,7 +10433,6 @@
   "3c28d9c06d808769": 1794918911.241829,
   "3c5dc188800f7e4a": 1794587490.7629814,
   "3c6d8a23568e1f90": 1795300262.5494199,
-  "3c6de122cd5aaf44": 1794549691.605744,
   "3c81bd21a2a8bb66": 1795066295.3549402,
   "3c9f8bb228a616ed": 1795525625.439463,
   "3ca8def2211c3892": 1795091455.8380237,
@@ -11039,6 +11033,7 @@
   "7c43e37433bec5b6": 1795375881.9384532,
   "7c67ea04992188fa": 1795214135.4330919,
   "7ca078f07809228c": 1795087856.688431,
+  "7cc0aeac02d93d1d": 1795759275.838278,
   "7ceb67d30947352a": 1794790875.7513986,
   "7cfb4731798252b0": 1794787353.4840808,
   "7d0179b752cf73cb": 1795359679.9831817,
@@ -11522,6 +11517,7 @@
   "afebafccb65e39ee": 1794564055.7805443,
   "afff48cfbd5a0952": 1795127474.2218285,
   "b010edc1a52374b6": 1795541457.6312466,
+  "b0140d723ed4049a": 1795759275.8393552,
   "b056e9a28adf5360": 1795032066.1770573,
   "b05a51106132a1fa": 1795352480.8464117,
   "b06a5a4736ee8ba8": 1795091577.2385314,
@@ -11630,6 +11626,7 @@
   "bc79935c59c62057": 1795453258.7776709,
   "bc86d5ee71d92ab8": 1795336254.4206307,
   "bc8f5902521609f1": 1795516283.404258,
+  "bca0a4df5cc8ebc2": 1795759396.7716584,
   "bcf878ba3e2ed755": 1795338185.8648632,
   "bd12796d271c4d1b": 1795087856.688431,
   "bd25599b8c5c1a62": 1795278653.9636526,
@@ -11926,6 +11923,7 @@
   "dadb24a73a7a90e0": 1794765695.316193,
   "db37c6115a53a5ad": 1794979899.4425118,
   "db554fe2504000d1": 1795239214.0430043,
+  "db5dc362e86ccdcc": 1795759381.6843016,
   "dbbcb62320973b4b": 1795012310.1472316,
   "dbcca75c8f4259bb": 1794765679.7757595,
   "dbcde9a1167eaf23": 1795064492.7575371,
@@ -12126,6 +12124,7 @@
   "f00d656bd36f6680": 1794929588.9475505,
   "f040eaa47a86b4d5": 1794564088.5961936,
   "f084ff27a39c7200": 1794740455.9176288,
+  "f0a0e56810e6a255": 1795759275.8368833,
   "f0a1241cc631e1d4": 1795734155.7020512,
   "f0b3c7d674b7807f": 1795710657.9819598,
   "f0bce55563863bd3": 1794704489.7478058,
@@ -12718,7 +12717,7 @@
   ],
   "artists_checked": 1795746732.804688,
   "blocked_until": 1795745172.3733294,
-  "cursor": 241,
+  "cursor": 251,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13501,7 +13500,7 @@
    "Bloomberg": 33,
    "DOU": 4,
    "DOU Gamedev": 3,
-   "Deadline": 58,
+   "Deadline": 59,
    "Decibel": 1,
    "Digital Foundry": 1,
    "Distorted Sound": 3,
@@ -13535,7 +13534,7 @@
   "translators": {
    "DeepL": 27,
    "gemini-flash-latest": 9,
-   "gemini-flash-lite-latest": 123,
+   "gemini-flash-lite-latest": 125,
    "gemma-4-26b-a4b-it": 87,
    "gemma-4-31b-it": 117
   },
@@ -13891,6 +13890,11 @@
    0,
    "",
    1795622508.171457
+  ],
+  "q:3 remastered": [
+   0,
+   "",
+   1795759384.3818066
   ],
   "q:3 update": [
    0,
@@ -15797,6 +15801,11 @@
    "Red Dead Redemption",
    1795534286.3042424
   ],
+  "q:remastered": [
+   0,
+   "",
+   1795759385.163599
+  ],
   "q:remembrance": [
    3434370,
    "Remembrance",
@@ -16692,6 +16701,11 @@
    "",
    1795710687.6354532
   ],
+  "q:witcher 3 remastered": [
+   0,
+   "",
+   1795759383.7977364
+  ],
   "q:witcher 3 update": [
    0,
    "",
@@ -16826,14 +16840,6 @@
   1795744144.232577
  ],
  "titles": [
-  [
-   1795586493.3066268,
-   "Malaysia Tightens Controls Amid US AI Chip Curbs"
-  ],
-  [
-   1795586502.7213361,
-   "‘Hershey’ Review: In a Sugary Sweet Biopic, Finn Wittrock Plays the Candy Man Who Turned Chocolate Into an American Empire"
-  ],
   [
    1795588367.9344163,
    "J.P. Morgan Asset Mgmt’s Rosenbaum on 2027 AI Spend"
@@ -17581,17 +17587,13 @@
   [
    1795757873.3108413,
    "Stephen King's Psychological Thriller Officially Says Goodbye to Streaming"
+  ],
+  [
+   1795759381.6843035,
+   "New Book Alleges Former Disney Chief Bob Iger Impregnated Employee Leading To “Traumatic Termination Procedure”"
   ]
  ],
  "titles_uk": [
-  [
-   1795586493.3066273,
-   "Малайзія посилює контроль на тлі обмежень США на постачання ШІ-чипів"
-  ],
-  [
-   1795586502.7213368,
-   "Вийшов біографічний фільм Hershey від Angel Studios з Фінном Віттроком"
-  ],
   [
    1795588367.934417,
    "У J.P. Morgan прогнозують пік витрат на ШІ у 2027 році"
@@ -18339,6 +18341,10 @@
   [
    1795757873.3108423,
    "Культовий горор Carrie Браяна Де Пальми покине HBO Max"
+  ],
+  [
+   1795759381.6843047,
+   "Нова книга звинувачує колишнього голову Disney Bob Iger у вагітності підлеглої"
   ]
  ],
  "ukrainian": {
