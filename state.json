@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795822277.3231351
+  }
+ },
  "daily_digest_date": "2026-11-27",
  "freebies": {
   "last_check": 1795818998.9742796,
@@ -34,31 +41,19 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-27 23:04 UTC",
+  "at": "2026-11-27 23:35 UTC",
   "gemini_error": "",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
    "gemini-flash-lite-latest": 1,
-   "gemma-4-26b-a4b-it": 2
+   "gemma-4-26b-a4b-it": 1,
+   "gemma-4-31b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795129523.5828605,
-   6435,
-   "🎬",
-   "Чому якісна озвучка не має бути ізольованим процесом",
-   "IndieWire",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.indiewire.com/features/animation/voice-directing-wildwood-tangles-animation-1235229355/",
-    "orig": "Why Good Voice Acting Doesn’t Have to Happen in Isolation"
-   }
-  ],
   [
    1795131391.645848,
    6436,
@@ -8684,7 +8679,6 @@
    "Polygon",
    {
     "also": [],
-    "caption": "🎮 <b>Культовий горор Carrie Браяна Де Пальми покине HBO Max</b>\n\nКласичний горор Carrie 1976 року за романом Стівена Кінга покине стрімінговий сервіс HBO Max 30 листопада. Фільм Браяна Де Пальми з Сіссі Спейсек у головній ролі вважається однією з найвпливовіших екранізацій історії про дівчину з надприродними здібностями.\n\n🔗 <a href=\"https://www.polygon.com/say-goodbye-to-stephen-kings-first-film-adaptation/\">Polygon</a> · #ігри #Carrie #HBOMax",
     "kind": "photo",
     "link": "https://www.polygon.com/say-goodbye-to-stephen-kings-first-film-adaptation/",
     "orig": "Stephen King's Psychological Thriller Officially Says Goodbye to Streaming"
@@ -8698,7 +8692,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Нова книга звинувачує колишнього голову Disney Bob Iger у вагітності підлеглої</b>\n\nСкандальна книга стверджує, що на початку 1990-х років колишній керівник Disney запліднив підлеглу співробітницю, що призвело до травматичної процедури переривання вагітності. Деталі з&#x27;явилися у сьогоднішній статті The New York Times.\n\n🔗 <a href=\"https://deadline.com/2026/11/bob-iger-house-of-mouse-book-robbie-whelan-1237234125/\">Deadline</a> · #кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/bob-iger-house-of-mouse-book-robbie-whelan-1237234125/",
     "orig": "New Book Alleges Former Disney Chief Bob Iger Impregnated Employee Leading To “Traumatic Termination Procedure”"
@@ -8712,7 +8705,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Бродвейські шоу виступлять у суботу на параді Macy’s</b>\n\nЧерез негоду ювілейний парад Macy’s Thanksgiving Day перенесли на суботу через сильний вітер. Організатори підтвердили, що масштабний бродвейський поппурі за участю вистав Wicked, Aladdin, The Book of Mormon та інших відбудеться за планом.\n\n🔗 <a href=\"https://deadline.com/2026/11/macys-thanksgiving-parade-saturday-broadway-medley-1237234098/\">Deadline</a> · #кіно_і_серіали #Broadway #Macys",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/macys-thanksgiving-parade-saturday-broadway-medley-1237234098/",
     "orig": "The Show Must Go On: Broadway Will Perform Saturday In Macy’s Thanksgiving Parade"
@@ -9539,6 +9531,48 @@
     "link": "https://distortedsoundmag.com/introducing-the-salt-pale-collective/",
     "orig": "INTRODUCING: The Salt Pale Collective"
    }
+  ],
+  [
+   1795822338.3497195,
+   7172,
+   "🎮",
+   "Легендарний USB-мікрофон Blue Yeti отримав історично низьку ціну",
+   "PC Gamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Легендарний USB-мікрофон Blue Yeti отримав історично низьку ціну</b>\n\nКласичний USB-мікрофон Blue Yeti, який випускається з 2009 року, зараз продається за історично низьку ціну — $69.99. Пристрій має чотири режими захоплення звуку та апаратне керування підсиленням. Попри появу новіших моделей, він залишається одним із найкращих варіантів у бюджетному сегменті.\n\n🔗 <a href=\"https://www.pcgamer.com/hardware/the-canonical-usb-microphone-is-still-great-and-now-a-total-steal-for-usd70/\">PC Gamer</a> · #ігри #BlueYeti",
+    "kind": "text",
+    "link": "https://www.pcgamer.com/hardware/the-canonical-usb-microphone-is-still-great-and-now-a-total-steal-for-usd70/",
+    "orig": "The canonical USB microphone is still great, and now a total steal for $70"
+   }
+  ],
+  [
+   1795822433.255034,
+   7173,
+   "🎮",
+   "Керівник RGG Studio захистив незвичне керування в Stranger Than Heaven",
+   "Insider Gaming",
+   {
+    "also": [],
+    "caption": "🎮 <b>Керівник RGG Studio захистив незвичне керування в <a href=\"https://store.steampowered.com/app/4260840/\">Stranger Than Heaven</a></b>\n🕹 <a href=\"https://store.steampowered.com/app/4260840/\">STRANGER THAN HEAVEN</a> — ще не вийшла\n\nГлава RGG Studio Масайосі Йокояма назвав систему керування у Stranger Than Heaven інтуїтивною. У грі можна незалежно керувати обома сторонами тіла головного героя Макото, щоб блокувати атаки та контратакувати.\n\n🔗 <a href=\"https://insider-gaming.com/stranger-than-heaven-controls-common-sense/\">Insider Gaming</a> · #ігри #RGGStudio",
+    "kind": "photo",
+    "link": "https://insider-gaming.com/stranger-than-heaven-controls-common-sense/",
+    "orig": "Stranger Than Heaven Controls Are “Common Sense,” Dev Says"
+   }
+  ],
+  [
+   1795822501.5617087,
+   7174,
+   "🤘",
+   "96 Bitter Beings анонсували тур Великою Британією до 25-річчя Infiltrate•Destroy•Rebuild",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>96 Bitter Beings анонсували тур Великою Британією до 25-річчя Infiltrate•Destroy•Rebuild</b>\n🎧 Слухати: <a href=\"https://open.spotify.com/search/96%20Bitter%20Beings%20%28ex-CKY%29%20Infiltrate%E2%80%A2Destroy%E2%80%A2Rebuild\">Spotify</a> · <a href=\"https://music.youtube.com/search?q=96%20Bitter%20Beings%20%28ex-CKY%29%20Infiltrate%E2%80%A2Destroy%E2%80%A2Rebuild\">YouTube Music</a>\n\nДерон Міллер із проєктом 96 Bitter Beings проведе тур Великою Британією наступного літа. Події присвячені 25-річчю альбому Infiltrate•Destroy•Rebuild. Концерти відбудуться в липні та вересні у різних містах країни.\n\n🔗 <a href=\"https://lambgoat.com/news/56095/96-bitter-beings-ex-cky-announce-infiltratedestroyrebuild-25th-anniversary-uk-tour/\">Lambgoat</a> · #музика #96BitterBeings",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/56095/96-bitter-beings-ex-cky-announce-infiltratedestroyrebuild-25th-anniversary-uk-tour/",
+    "orig": "96 Bitter Beings (ex-CKY) announce “Infiltrate•Destroy•Rebuild” 25th anniversary UK tour"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9608,8 +9642,8 @@
    1795797085.2860625
   ],
   "games|Insider Gaming|https://insider-gaming.com/feed/": [
-   1795710727.4164762,
-   1795768436.3871317
+   1795768436.3871317,
+   1795822433.2552855
   ],
   "games|Mezha|https://mezha.ua/feed/": [
    1795734076.968871
@@ -9617,7 +9651,8 @@
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1795761128.3403738,
    1795818992.935044,
-   1795820477.131982
+   1795820477.131982,
+   1795822338.3499873
   ],
   "games|PlayUA|https://playua.net/feed/": [
    1795764683.4224455,
@@ -9713,10 +9748,10 @@
    1795746716.3130453
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1795734155.7020926,
    1795737944.7094746,
    1795750284.2083995,
-   1795750287.9909694
+   1795750287.9909694,
+   1795822501.5619726
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1795478516.0810792
@@ -9846,7 +9881,6 @@
   "050ea7aed04e3489": 1795017653.3598104,
   "0524f91cd2795cb8": 1795208454.5689726,
   "05874b328888d37f": 1795087856.688431,
-  "05acc5df2ba56e7f": 1794612684.7517095,
   "05ceb22b6f1d0639": 1794891685.4781559,
   "061012d64fe8b243": 1795707254.9491234,
   "06185f1101ff9fdd": 1795789857.112927,
@@ -10275,7 +10309,6 @@
   "335d04711017ab53": 1795217474.8411345,
   "337b4563506211b0": 1795309620.2470508,
   "338b8e861a7e48c5": 1795147470.2166028,
-  "33ad2ccf820a8d69": 1794612694.8043666,
   "33d0d01e04476543": 1795431653.366561,
   "33fb1011ed0c0742": 1795809656.078847,
   "33fbff79f18d684b": 1795280454.879558,
@@ -10371,6 +10404,7 @@
   "3d4e52568aedc8f0": 1795588367.9344149,
   "3d7652611cf0dfe6": 1795271455.3684447,
   "3d7ad70eefac64c8": 1795596450.226575,
+  "3dbc2c0ae3aa5437": 1795822433.2552419,
   "3e20b5904ac78731": 1795660335.474735,
   "3e60ece0075a0626": 1795486810.4521737,
   "3e6b3cdb43524867": 1795788096.926695,
@@ -10504,7 +10538,6 @@
   "4d7337ffb2249a2c": 1794902455.1209733,
   "4d7bf9d67afe14a0": 1795095015.9856734,
   "4d949e0f2262087e": 1794882689.8295574,
-  "4da78e4e0640e9bb": 1794612656.5591114,
   "4dab3e7a97ed0998": 1794783423.6779065,
   "4ddc14ffebb221b3": 1795748752.3505816,
   "4de63d19fd1d0027": 1795226488.9170496,
@@ -10557,6 +10590,7 @@
   "534b9dffec620175": 1795028455.8508024,
   "536acfb6c695239e": 1795690877.6728508,
   "5377ba4b908fb8f9": 1795788055.0449126,
+  "5389ae0f36ce18af": 1795822338.349943,
   "53958cf51f47108f": 1794648890.1376827,
   "53992085435d7819": 1795341793.5308545,
   "53f804c9fdfe5036": 1795187035.2631474,
@@ -11382,6 +11416,7 @@
   "a7b899ced9981df1": 1794636089.0109465,
   "a7beb5b39d7f916d": 1795343454.0014641,
   "a7f6043dfa95b600": 1795507282.1321864,
+  "a803873964aa4c50": 1795822501.5619314,
   "a81b68dd632bd1d3": 1795014053.3303049,
   "a8304d374ff49322": 1795624430.5967727,
   "a851fed29ab9e690": 1795397480.6419988,
@@ -11402,7 +11437,6 @@
   "a99a938255b7b6a6": 1795012310.146826,
   "a9b1dfc34f9eb204": 1794733272.625569,
   "a9bca652f0af0729": 1795170930.420889,
-  "a9c72ffb5e58e570": 1794612697.7447355,
   "a9d2849b3f821471": 1795680108.818066,
   "a9d5ec2624ddf448": 1795172462.663653,
   "aa0d4b6e080f1b03": 1795069877.7111862,
@@ -11922,6 +11956,7 @@
   "df7555dec1988786": 1794985290.2638652,
   "dfa8b4ae3c654893": 1795105867.4596348,
   "dfebdc22f289e93b": 1795649497.5579216,
+  "dfedf6bb8a1d55da": 1795822255.802037,
   "dfedfa4966b60219": 1794819950.4708943,
   "dff5868d772e2c33": 1794659479.793679,
   "e00b1e17ba5632cb": 1795631454.4234602,
@@ -11972,7 +12007,6 @@
   "e457e0a4d0a25c96": 1794816654.5507064,
   "e496da516d4cbb58": 1795775462.3648236,
   "e4b515a6bfb5c99d": 1794931288.4678357,
-  "e4d16c1c883bd6b6": 1794612682.433116,
   "e4da97cc344964ea": 1795276859.0083566,
   "e4e87b942f9ee1ad": 1795421304.336332,
   "e50f71f83ebd200e": 1795298490.477409,
@@ -13448,7 +13482,7 @@
    "Eurogamer": 1,
    "GameSpot": 6,
    "GamesIndustry.biz": 2,
-   "IGN": 25,
+   "IGN": 26,
    "ITC.ua": 1,
    "IndieWire": 2,
    "Insider Gaming": 84,
@@ -13485,14 +13519,14 @@
    "IGN": 1,
    "ITC.ua": 47,
    "IndieWire": 7,
-   "Insider Gaming": 12,
+   "Insider Gaming": 13,
    "Kerrang!": 2,
-   "Lambgoat": 19,
+   "Lambgoat": 20,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 15,
    "Mezha": 37,
    "Neformat": 17,
-   "PC Gamer": 13,
+   "PC Gamer": 14,
    "Pitchfork": 3,
    "PlayUA": 7,
    "Polygon": 23,
@@ -13508,9 +13542,9 @@
   "translators": {
    "DeepL": 32,
    "gemini-flash-latest": 9,
-   "gemini-flash-lite-latest": 147,
-   "gemma-4-26b-a4b-it": 102,
-   "gemma-4-31b-it": 123
+   "gemini-flash-lite-latest": 148,
+   "gemma-4-26b-a4b-it": 103,
+   "gemma-4-31b-it": 124
   },
   "week": "2026-W48"
  },
@@ -13930,6 +13964,11 @@
    "",
    1795780912.8988605
   ],
+  "q:70": [
+   0,
+   "",
+   1795822283.053143
+  ],
   "q:75": [
    0,
    "",
@@ -14255,6 +14294,11 @@
    "Columbine",
    1795532499.9640963
   ],
+  "q:common sense": [
+   0,
+   "",
+   1795822340.417541
+  ],
   "q:conker": [
    0,
    "",
@@ -14265,35 +14309,15 @@
    "",
    1795732327.590906
   ],
+  "q:controls are": [
+   0,
+   "",
+   1795822342.775168
+  ],
   "q:county of fortune": [
    3204330,
    "County of Fortune",
    1794088874.6381137
-  ],
-  "q:creator says": [
-   0,
-   "",
-   1795647685.280472
-  ],
-  "q:creator says ps1": [
-   0,
-   "",
-   1795647684.7613592
-  ],
-  "q:creator says ps1 wasn't": [
-   0,
-   "",
-   1795647684.1838334
-  ],
-  "q:creator says ps1 wasn't about": [
-   0,
-   "",
-   1795647683.6372502
-  ],
-  "q:creator says ps1 wasn't about revenge": [
-   0,
-   "",
-   1795647683.1234224
   ],
   "q:creed": [
    0,
@@ -14429,6 +14453,16 @@
    0,
    "",
    1795755678.6004953
+  ],
+  "q:dev": [
+   0,
+   "",
+   1795822343.9695716
+  ],
+  "q:dev says": [
+   0,
+   "",
+   1795822343.3702147
   ],
   "q:doom": [
    379720,
@@ -15405,31 +15439,6 @@
    "",
    1795735980.2231052
   ],
-  "q:playstation creator": [
-   0,
-   "",
-   1795647682.589941
-  ],
-  "q:playstation creator says": [
-   0,
-   "",
-   1795647682.082058
-  ],
-  "q:playstation creator says ps1": [
-   0,
-   "",
-   1795647681.5827625
-  ],
-  "q:playstation creator says ps1 wasn't": [
-   0,
-   "",
-   1795647681.0739365
-  ],
-  "q:playstation creator says ps1 wasn't about": [
-   0,
-   "",
-   1795647680.5643723
-  ],
   "q:plus essential": [
    0,
    "",
@@ -15724,16 +15733,6 @@
    526870,
    "Satisfactory",
    1795006904.4954493
-  ],
-  "q:says ps1 wasn't about": [
-   0,
-   "",
-   1795647686.409873
-  ],
-  "q:says ps1 wasn't about revenge": [
-   0,
-   "",
-   1795647685.867207
   ],
   "q:sci fi thriller masterpiece": [
    0,
@@ -16040,6 +16039,21 @@
    "",
    1795780908.9813452
   ],
+  "q:stranger than heaven": [
+   4260840,
+   "STRANGER THAN HEAVEN",
+   1795822342.216258
+  ],
+  "q:stranger than heaven controls": [
+   0,
+   "",
+   1795822341.6461241
+  ],
+  "q:stranger than heaven controls are": [
+   0,
+   "",
+   1795822341.0180519
+  ],
   "q:struggling": [
    1035560,
    "Struggling",
@@ -16144,6 +16158,11 @@
    0,
    "",
    1795710690.8288784
+  ],
+  "q:usb": [
+   0,
+   "",
+   1795822282.4480474
   ],
   "q:v6": [
    0,
@@ -16452,18 +16471,6 @@
   1795786407.9704206
  ],
  "titles": [
-  [
-   1795649497.5579236,
-   "Blade Runner 2099 Proves The Saga Does One Thing Better Than Any Other Sci-Fi Franchise"
-  ],
-  [
-   1795649534.137389,
-   "Chiodos release new music video for ‘A Particular Proclivity for Pain’"
-  ],
-  [
-   1795649582.5355663,
-   "August Burns Red share 'All I Want For Christmas Is You' snow globe ambience video"
-  ],
   [
    1795651336.2862651,
    "Trivax announce new album ‘Sol In Noctem’"
@@ -17187,21 +17194,21 @@
   [
    1795820665.2068532,
    "INTRODUCING: The Salt Pale Collective"
+  ],
+  [
+   1795822338.3499446,
+   "The canonical USB microphone is still great, and now a total steal for $70"
+  ],
+  [
+   1795822433.2552433,
+   "Stranger Than Heaven Controls Are “Common Sense,” Dev Says"
+  ],
+  [
+   1795822501.5619328,
+   "96 Bitter Beings (ex-CKY) announce “Infiltrate•Destroy•Rebuild” 25th anniversary UK tour"
   ]
  ],
  "titles_uk": [
-  [
-   1795649497.5579243,
-   "Серіал Blade Runner 2099 продовжує культову франшизу"
-  ],
-  [
-   1795649534.1373904,
-   "Chiodos випустили новий кліп на сингл A Particular Proclivity For Pain"
-  ],
-  [
-   1795649582.535567,
-   "August Burns Red випустили атмосферне відео до альбому All I Want For Christmas Is You"
-  ],
   [
    1795651336.2862659,
    "Trivax анонсували новий альбом Sol In Noctem"
@@ -17925,6 +17932,18 @@
   [
    1795820665.2068539,
    "Знайомство з The Salt Pale Collective: історія створення гурту"
+  ],
+  [
+   1795822338.3499458,
+   "Легендарний USB-мікрофон Blue Yeti отримав історично низьку ціну"
+  ],
+  [
+   1795822433.2552443,
+   "Керівник RGG Studio захистив незвичне керування в Stranger Than Heaven"
+  ],
+  [
+   1795822501.5619338,
+   "96 Bitter Beings анонсували тур Великою Британією до 25-річчя Infiltrate•Destroy•Rebuild"
   ]
  ],
  "ukrainian": {
