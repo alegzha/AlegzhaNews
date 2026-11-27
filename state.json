@@ -1,11 +1,5 @@
 {
  "alerts": {
-  "src:music|Decibel|https://www.decibelmagazine.com/feed/": {
-   "detail": "https://www.decibelmagazine.com/feed/ → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Decibel» не працює",
-   "sent": 0,
-   "since": 1795768294.8226817
-  },
   "src:music|Neformat|https://www.neformat.com.ua/": {
    "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
    "label": "Джерело «Neformat» не працює",
@@ -45,44 +39,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-27 08:34 UTC",
+  "at": "2026-11-27 09:01 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
-   "gemma-4-31b-it": 1
+   "gemma-4-26b-a4b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795078884.03681,
-   6374,
-   "🎮",
-   "38 копій GTA VI чи 193 доповнення до S.T.A.L.K.E.R. 2? Скільки ігор можна купити за ціну однієї зарядної станції",
-   "DOU Gamedev",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://gamedev.dou.ua/articles/gta-vi-and-other-games-prices/",
-    "orig": "38 копій GTA VI чи 193 доповнення до S.T.A.L.K.E.R. 2? Скільки ігор можна купити за ціну однієї зарядної станції"
-   }
-  ],
-  [
-   1795078888.8434668,
-   6375,
-   "💾",
-   "Розробники випустили надзвичайно швидкий менеджер пакетів uv",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/astral-sh/uv",
-    "orig": "astral-sh/uv"
-   }
-  ],
   [
    1795080773.3147714,
    6376,
@@ -8760,7 +8727,6 @@
       "https://www.pcgamer.com/games/the-witcher/witcher-3-remastered-patch-has-lighting-fixes-sign-nerfs-and-gets-rid-of-a-nasty-werewolf-bug/"
      ]
     ],
-    "caption": "🎮 <b>The Witcher 3 Remastered отримала патч 5.02 із покращеннями фоторежиму та виправленнями помилок</b>\n\nДля The Witcher 3 Remastered вийшло оновлення 5.02, доступне на PlayStation 5, XBOX Series X/S, Switch 2 та PC. Патч фокусується на геймплеї, балансуванні, візуальних аспектах та покращенні фоторежиму. Також розробники оптимізували подорожі світом гри для плавнішого ігрового процесу.\n\n🔗 <a href=\"https://insider-gaming.com/the-witcher-3-update-5-02-patch-notes-photo-mode-improvements-bug-fixes-and-more/\">Insider Gaming</a> · #ігри #TheWitcher",
     "kind": "photo",
     "link": "https://insider-gaming.com/the-witcher-3-update-5-02-patch-notes-photo-mode-improvements-bug-fixes-and-more/",
     "orig": "The Witcher 3 Update 5.02 Patch Notes—Photo Mode Improvements, Bug Fixes, and More"
@@ -8774,7 +8740,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "🤖 <b>SAP планує скоротити щонайменше 10 000 співробітників через перехід на ШІ</b>\n\nКомпанія SAP готує план скорочення щонайменше 10 000 посад. Реструктуризація спрямована на трансформацію програмного бізнесу в епоху штучного інтелекту.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring\">Bloomberg</a> · #ШІ #SAP #AI",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-26/sap-weighs-cutting-at-least-10-000-positions-in-ai-restructuring",
     "orig": "SAP Weighs Cutting at Least 10,000 Positions in AI Restructuring"
@@ -8809,6 +8774,10 @@
      [
       "Deadline",
       "https://deadline.com/2026/11/trumps-thanksgiving-new-york-times-attack-1237234141/"
+     ],
+     [
+      "Bloomberg",
+      "https://www.bloomberg.com/news/videos/2026-11-27/nvidia-ai-fears-jolt-markets-market-snapshot-video"
      ]
     ],
     "caption": "🤖 <b>NVIDIA обмежує постачання ШІ-чипів до чотирьох країн Азії через ризик їхнього потрапляння до Китаю</b>\n\nNVIDIA наказала виробникам серверів, що використовують її ШІ-чипи, зупинити постачання до Малайзії, Індонезії, Сінгапуру та Таїланду на фоні посилення експортних обмежень технологій до Китаю.\n\n🔗 <a href=\"https://mezha.ua/news/nvidia-halts-chip-shipments-to-south-east-asia-317613/\">Mezha</a> · #ШІ",
@@ -9619,6 +9588,34 @@
     "link": "https://mezha.ua/news/chinese-llms-late-317640/",
     "orig": "США ускладнили Китаю розробку ШІ: нові моделі Z.AI та Moonshot можуть затриматися до 2027 року"
    }
+  ],
+  [
+   1795770100.1878715,
+   7117,
+   "💾",
+   "Depost AI",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>Depost AI</b>\n\nШІ-агент для LinkedIn, який вивчає, що найкраще працює для вашого бренду\n\n🔗 <a href=\"https://www.producthunt.com/products/depost-ai\">Product Hunt</a> · #софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/depost-ai",
+    "orig": "Depost AI"
+   }
+  ],
+  [
+   1795770102.1312547,
+   7118,
+   "💾",
+   "AMD готує реліз відеокарт на RDNA 5: Linux отримує початкову підтримку драйверів",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "💾 <b>AMD готує реліз відеокарт на RDNA 5: Linux отримує початкову підтримку драйверів</b>\n\nLinux 7.5 отримав останні оновлення драйверів ядра AMD для відеокарт та обчислень, включно з підтримкою драйверів майбутніх відеокарт на RNDNA 5 та рушія DCN6.\n\n🔗 <a href=\"https://itc.ua/ua/novini/amd-gotuye-reliz-videokart-na-rdna-5-linux-otrymuye-pochatkovu-pidtrymku-drajveriv/\">ITC.ua</a> · #софт",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/amd-gotuye-reliz-videokart-na-rdna-5-linux-otrymuye-pochatkovu-pidtrymku-drajveriv/",
+    "orig": "AMD готує реліз відеокарт на RDNA 5: Linux отримує початкову підтримку драйверів"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9863,10 +9860,9 @@
    1795175649.8989897
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
-   1795674703.311186,
-   1795680108.8181112,
    1795708948.1373615,
-   1795717874.4880118
+   1795717874.4880118,
+   1795770102.1314054
   ],
   "software|Mezha|https://mezha.ua/feed/": [
    1795678280.2620308,
@@ -9876,7 +9872,8 @@
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1795714508.8689668,
    1795719721.443523,
-   1795768360.4737234
+   1795768360.4737234,
+   1795770100.1880996
   ]
  },
  "seen": {
@@ -10410,6 +10407,7 @@
   "38e9481c6bc9f103": 1794610966.8876233,
   "38eb9ea2c5da627f": 1794682938.242665,
   "390762a4c3fe7961": 1795339853.7201128,
+  "390f5b31e0e93e5a": 1795770102.1313818,
   "394c6d4160bd2dac": 1795114889.6052082,
   "395a0157127825f3": 1794625282.6414,
   "39dddfafa7ab01b4": 1794718893.7046595,
@@ -10427,7 +10425,6 @@
   "3b11bc09014e9035": 1795532457.367497,
   "3b125feb9667330c": 1794760184.2003238,
   "3b201679c54d75e8": 1795534284.16761,
-  "3b3e284ac877aa42": 1794560476.3685126,
   "3b540482af12224c": 1794981744.9886048,
   "3b60d83aa5c78632": 1795377657.419943,
   "3b7635f03124536c": 1795599087.6081152,
@@ -10853,7 +10850,6 @@
   "6972dcc27e7f9599": 1795021302.889339,
   "6982fd58f2795fac": 1794684678.5952117,
   "6983a6617b084577": 1795235553.775485,
-  "698870d03787a1c7": 1794560451.8675945,
   "69a7cfae1f4ee627": 1795376933.0604873,
   "69b165dda0ceb4b0": 1795010462.958915,
   "69c119b5bc0b854d": 1795473194.34092,
@@ -11199,6 +11195,7 @@
   "8d0ab631b0d4c66f": 1794927690.37838,
   "8d173dd5584087f6": 1794655879.9927368,
   "8d505fa9b6a387f8": 1795089654.0120451,
+  "8d8108772c83326b": 1795770100.1880677,
   "8d99fb491011606c": 1795102261.0800154,
   "8dea90055a7ab594": 1795356056.5762572,
   "8dec8b0004ca04ed": 1795601077.792611,
@@ -11377,6 +11374,7 @@
   "a0e5cf1c4dee7673": 1794965486.335891,
   "a0f7493a53a0dca2": 1795177878.0187154,
   "a10d2d9903ab1186": 1794592858.1127434,
+  "a11c0933462e7915": 1795770076.107359,
   "a13108295e78b1e7": 1795271475.0149632,
   "a13a24ec47458cce": 1795512888.679812,
   "a1520859534ab41d": 1795723256.2414763,
@@ -12215,6 +12213,7 @@
   "f931cea5da372624": 1795174265.0760365,
   "f94a385647e28b84": 1794632478.5518868,
   "f95716030b903ef1": 1795242678.5389848,
+  "f977367d56c2cab8": 1795770051.6618834,
   "f98d3257ddccee04": 1795253456.1008854,
   "f991dd82d59c081e": 1795175649.8989193,
   "f9a5ea2d1ba92182": 1795388797.4549172,
@@ -13493,7 +13492,7 @@
    "Metal Hammer (Louder)": 4,
    "PC Gamer": 20,
    "PlayUA": 2,
-   "Polygon": 38,
+   "Polygon": 39,
    "Rock Paper Shotgun": 2,
    "SteamDB": 1,
    "ThePRP": 1,
@@ -13516,7 +13515,7 @@
    "GamesIndustry.biz": 8,
    "Hugging Face": 5,
    "IGN": 1,
-   "ITC.ua": 37,
+   "ITC.ua": 38,
    "IndieWire": 7,
    "Insider Gaming": 12,
    "Kerrang!": 2,
@@ -13529,7 +13528,7 @@
    "Pitchfork": 3,
    "PlayUA": 5,
    "Polygon": 20,
-   "Product Hunt": 9,
+   "Product Hunt": 10,
    "Rock Paper Shotgun": 11,
    "SteamDB": 2,
    "Stereogum": 2,
@@ -13542,7 +13541,7 @@
    "DeepL": 28,
    "gemini-flash-latest": 9,
    "gemini-flash-lite-latest": 131,
-   "gemma-4-26b-a4b-it": 89,
+   "gemma-4-26b-a4b-it": 90,
    "gemma-4-31b-it": 118
   },
   "week": "2026-W48"
@@ -16799,22 +16798,6 @@
  ],
  "titles": [
   [
-   1795595796.8069508,
-   "Noomi Rapace Launches Production Company Boom Films, Dedicated to Female-Driven Projects and Backed by Thomas Benski’s Lumina Media (EXCLUSIVE)"
-  ],
-  [
-   1795595930.5961442,
-   "Inside Story Of California’s Napa Valley Wine Region Explored In Feature Doc"
-  ],
-  [
-   1795596448.408592,
-   "Homa IR Test"
-  ],
-  [
-   1795597289.074847,
-   "Як я створив браузерну гру, у якій донат на ЗСУ відкриває нового персонажа"
-  ],
-  [
    1795597552.0708823,
    "Forget 'Blade Runner 2099,' Ridley Scott's Sci-Fi Survival Masterpiece Is Already on Streaming"
   ],
@@ -17553,25 +17536,17 @@
   [
    1795768438.6536376,
    "США ускладнили Китаю розробку ШІ: нові моделі Z.AI та Moonshot можуть затриматися до 2027 року"
+  ],
+  [
+   1795770100.188069,
+   "Depost AI"
+  ],
+  [
+   1795770102.1313827,
+   "AMD готує реліз відеокарт на RDNA 5: Linux отримує початкову підтримку драйверів"
   ]
  ],
  "titles_uk": [
-  [
-   1795595796.806952,
-   "Нумі Рапас заснувала продюсерську компанію Boom Films для жіночоцентричних проєктів за підтримки Lumina Media Томаса Бенскі"
-  ],
-  [
-   1795595930.596145,
-   "Готують документальний фільм про винний регіон Napa Valley"
-  ],
-  [
-   1795596448.4085927,
-   "Тест Homa IR"
-  ],
-  [
-   1795597289.0748477,
-   "Як я створив браузерну гру, у якій донат на ЗСУ відкриває нового персонажа"
-  ],
   [
    1795597552.070883,
    "Забудьте про 'Blade Runner 2099' — науково-фантастичний шедевр про виживання від Рідлі Скотта вже на стрімінгах"
@@ -18311,6 +18286,14 @@
   [
    1795768438.6536381,
    "США ускладнили Китаю розробку ШІ: нові моделі Z.AI та Moonshot можуть затриматися до 2027 року"
+  ],
+  [
+   1795770100.1880696,
+   "Depost AI"
+  ],
+  [
+   1795770102.131383,
+   "AMD готує реліз відеокарт на RDNA 5: Linux отримує початкову підтримку драйверів"
   ]
  ],
  "ukrainian": {
