@@ -1,5 +1,11 @@
 {
  "alerts": {
+  "src:games|Polygon|https://www.polygon.com/feed/": {
+   "detail": "https://www.polygon.com/feed/ → 502 Server Error: Bad Gateway for url: https://www.polygon.com/feed/\nhttps://www.polygon.com/rss/index.xml → 502 Server Error: Bad Gateway for url: https://www.polygon.com/rss/index.xml",
+   "label": "Джерело «Polygon» не працює",
+   "sent": 0,
+   "since": 1795780869.058485
+  },
   "src:music|ThePRP|https://www.theprp.com/feed/": {
    "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
    "label": "Джерело «ThePRP» не працює",
@@ -9,7 +15,7 @@
  },
  "daily_digest_date": "2026-11-26",
  "freebies": {
-  "last_check": 1795773726.0472007,
+  "last_check": 1795781630.2288687,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -35,73 +41,25 @@
    "3850": 1794508289.6340432,
    "3852": 1794924134.463038,
    "3853": 1795109716.948112,
-   "3857": 1795714520.7610562
+   "3857": 1795714520.7610562,
+   "3859": 1795781630.2288687,
+   "3860": 1795781630.2288687
   }
  },
  "last_translation": {
-  "at": "2026-11-27 11:32 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "at": "2026-11-27 12:13 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-26b-a4b-it": 1
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795089082.1420884,
-   6386,
-   "🎮",
-   "DDR6 буде вчетверо швидшою за DDR5: JEDEC представила попередні характеристики нового стандарту пам’яті",
-   "PlayUA",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://playua.net/ddr6-bude-vchetvero-shvydshoyu-za-ddr5-jedec-predstavyla-poperedni-harakterystyky-novogo-standartu-pamyati/",
-    "orig": "DDR6 буде вчетверо швидшою за DDR5: JEDEC представила попередні характеристики нового стандарту пам’яті"
-   }
-  ],
-  [
-   1795089086.6099021,
-   6387,
-   "💾",
-   "Колекція корисних MCP-серверів на GitHub",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/punkpeye/awesome-mcp-servers",
-    "orig": "punkpeye/awesome-mcp-servers"
-   }
-  ],
-  [
-   1795089708.53699,
-   6388,
-   "🎮",
-   "LiberNovo знижує ціни на свої ергономічні крісла до 42% на Black Friday",
-   "Polygon",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.polygon.com/libernovo-black-friday-cyber-monday-sale-omni-maxis-chairs/",
-    "orig": "LiberNovo Is Cutting The Prices Of Its Best Chairs By Up To 42% For Black Friday And Cyber Monday"
-   }
-  ],
-  [
-   1795089808.0400834,
-   6389,
-   "🎮",
-   "RayNeo випустила AR-окуляри для Modern Warfare 4 із вбудованою Call of Duty",
-   "Polygon",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.polygon.com/rayneo-gt-max-call-of-duty-modern-warfare-4-limited-edition/",
-    "orig": "RayNeo Built Modern Warfare 4 Its Own AR Glasses - And Put Call Of Duty Inside The Lens"
-   }
-  ],
   [
    1795091577.2383099,
    6390,
@@ -8779,7 +8737,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Продюсерка The Hunger Games пошкодувала про поділ Mockingjay на дві частини</b>\n\nПродюсерка франшизи Ніна Джейкобсон визнала, що поділ Mockingjay на два фільми виглядав у очах глядачів цинічно. Хоча намір був щирим, фанати сприйняли це як спробу продати два фільми замість одного. Тепер команда намагається робити адаптації книг більш цілісними та динамічними.\n\n🔗 <a href=\"https://deadline.com/2026/11/hunger-games-producer-regrets-splitting-mockingjay-1237233567/\">Deadline</a> · #кіно_і_серіали #TheHungerGames",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/hunger-games-producer-regrets-splitting-mockingjay-1237233567/",
     "orig": "‘Hunger Games’ Producer Regrets Splitting ‘Mockingjay’ As Fans Felt It Was A “Play To Make Them See Two Films Instead Of One”"
@@ -8793,7 +8750,6 @@
    "Neformat",
    {
     "also": [],
-    "caption": "🤘 <b>Wiseword.Nidaros презентували першу вінілову платівку</b>\n\nМиколаївський даркфолк/неофолк проєкт Wiseword.Nidaros нещодавно презентував свою першу вінілову платівку. Це ексклюзивне видання минулорічного альбому &quot;Український Епос&quot;. &quot;Для тих слухачів, хто люб\n\n🔗 <a href=\"https://www.neformat.com.ua/news/28497-wisewordnidaros-prezentuvali-pershu-vinilovu-plativku.html\">Neformat</a> · #музика",
     "kind": "photo",
     "link": "https://www.neformat.com.ua/news/28497-wisewordnidaros-prezentuvali-pershu-vinilovu-plativku.html",
     "orig": "Wiseword.Nidaros презентували першу вінілову платівку"
@@ -8807,7 +8763,6 @@
    "Neformat",
    {
     "also": [],
-    "caption": "🤘 <b>патока випустили перший сингл</b>\n\nМідвест-емо-гурт патока випустив дебютний сингл &quot;падаю&quot; 20 листопада. У його основу лягли раннє демо гурту й романтичний досвід одного з учасників. патока · падаю Перша версія &quot;падаю&quot; без басової й\n\n🔗 <a href=\"https://www.neformat.com.ua/news/28498-patoka-vipustili-pershiy-singl.html\">Neformat</a> · #музика",
     "kind": "photo",
     "link": "https://www.neformat.com.ua/news/28498-patoka-vipustili-pershiy-singl.html",
     "orig": "патока випустили перший сингл"
@@ -9629,6 +9584,48 @@
     "link": "https://www.bloomberg.com/news/articles/2026-11-27/hackers-breached-us-air-force-s-cloud-platform",
     "orig": "Hackers Breached US Air Force’s Cloud Platform, Says Reuters"
    }
+  ],
+  [
+   1795781304.9074588,
+   7130,
+   "🎮",
+   "Компанія Marvelous, розробник ігор «Story of Seasons» та «Rune Factory», пропонує співробітникам достроковий вихід на пенсію в рамках заходів зі скорочення 65 робочих місць",
+   "VGC",
+   {
+    "also": [],
+    "caption": "🎮 <b>Компанія Marvelous, розробник ігор «Story of Seasons» та «Rune Factory», пропонує співробітникам достроковий вихід на пенсію в рамках заходів зі скорочення 65 робочих місць</b>\n\nКомпанія має намір передати більшу частину своїх робіт на аутсорсинг\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/story-of-seasons-and-rune-factory-developer-marvelous-is-offering-early-retirement-as-it-tries-to-cut-65-jobs/\">VGC</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.videogameschronicle.com/news/story-of-seasons-and-rune-factory-developer-marvelous-is-offering-early-retirement-as-it-tries-to-cut-65-jobs/",
+    "orig": "Story of Seasons and Rune Factory developer Marvelous is offering early retirement as it tries to cut 65 jobs"
+   }
+  ],
+  [
+   1795781475.2833564,
+   7131,
+   "🎮",
+   "У Cyber Knights: Flashpoint з'явився клас Drone Pilots та система тварин",
+   "Rock Paper Shotgun",
+   {
+    "also": [],
+    "caption": "🎮 <b>У <a href=\"https://store.steampowered.com/app/1021210/\">Cyber Knights: Flashpoint</a> з&#x27;явився клас Drone Pilots та система тварин</b>\n🕹 <a href=\"https://store.steampowered.com/app/1021210/\">Cyber Knights: Flashpoint</a> — 336,00₴ (−44%)\n\nЖиттєствердна колонка про віртуальних друзів із попкультури, які завжди прикриють спину\n\n🔗 <a href=\"https://www.rockpapershotgun.com/drone-pilots-have-come-to-cyber-knights-flashpoint-the-stealth-tactics-games-most-complex-class-yet-alongside-a-pet-system-and-the-promise-of-assassin-cats\">Rock Paper Shotgun</a> · #ігри",
+    "kind": "photo",
+    "link": "https://www.rockpapershotgun.com/drone-pilots-have-come-to-cyber-knights-flashpoint-the-stealth-tactics-games-most-complex-class-yet-alongside-a-pet-system-and-the-promise-of-assassin-cats",
+    "orig": "Drone Pilots have come to Cyber Knights: Flashpoint, the stealth tactics game's \"most complex\" class yet, alongside a pet system and the promise of \"assassin cats\""
+   }
+  ],
+  [
+   1795781628.3455565,
+   7132,
+   "🎬",
+   "Netflix покаже музичне китайське фентезі The Melody Of Love",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Netflix покаже музичне китайське фентезі The Melody Of Love</b>\n\nNetflix придбав The Melody Of Love і випустить музичну китайську фентезі-драму в США та світі 29 листопада\n\n🔗 <a href=\"https://deadline.com/2026/11/netflix-buys-chinese-drama-the-melody-of-love-release-date-1237234243/\">Deadline</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/netflix-buys-chinese-drama-the-melody-of-love-release-date-1237234243/",
+    "orig": "Netflix Tunes Into Music-Driven Chinese Fantasy Series ‘The Melody Of Love’"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9733,16 +9730,17 @@
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1795705281.973116,
    1795734147.5841238,
-   1795745120.8958242
+   1795745120.8958242,
+   1795781475.283624
   ],
   "games|SteamDB|https://bsky.app/profile/steamdb.info/rss": [
    1795501919.0043178,
    1795530859.7196352
   ],
   "games|VGC|https://www.videogameschronicle.com/feed/": [
-   1795694810.1656635,
    1795707252.816607,
-   1795732388.9681342
+   1795732388.9681342,
+   1795781304.907754
   ],
   "movies|/Film|https://www.slashfilm.com/feed/": [
    1795735975.97862,
@@ -9753,7 +9751,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1795687455.3926833,
    1795730514.0988898,
    1795737873.779062,
    1795741331.8486195,
@@ -9764,7 +9761,8 @@
    1795759381.6843503,
    1795761101.0588112,
    1795771968.657681,
-   1795773719.7535295
+   1795773719.7535295,
+   1795781628.345832
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795689138.1097944,
@@ -10139,12 +10137,14 @@
   "1ae469efeb482973": 1794684682.3707495,
   "1b21ef0bc62e7b2d": 1795080652.932032,
   "1b3625458ce7e792": 1795431685.8026528,
+  "1b4447010b6b8444": 1795780858.4662924,
   "1b5f24084fc7c8e9": 1794682880.5039337,
   "1b5f67b1ccd5395d": 1795041064.5826335,
   "1b78899bfafd4225": 1794796282.9013186,
   "1ba60539fbbef9c8": 1795539658.0331025,
   "1bb91ef6ce0f7547": 1794720679.803682,
   "1bd43c78cb5b86ab": 1795439203.5490227,
+  "1bd8c0aece1128ff": 1795780858.4662924,
   "1c128a7475e16ccb": 1794609307.0790644,
   "1c41d77c96fb0a32": 1795667619.7963402,
   "1c739680fbd8cdbf": 1795644053.8169515,
@@ -10511,7 +10511,6 @@
   "4507b638e3142316": 1795779095.5897133,
   "450c7144f8b8a072": 1794672110.7994473,
   "4510c3b74b945030": 1795552267.2988262,
-  "4533d535f5d4c560": 1794571365.4564254,
   "4545c8505213212b": 1794934856.9933658,
   "45713b1cdeba51dc": 1795694477.6463861,
   "458f87217ef01273": 1795026653.649315,
@@ -11434,6 +11433,7 @@
   "a5c98ee5a2fa5bae": 1795314690.4971116,
   "a5da9f97d65375b5": 1795293059.0225935,
   "a63a0bf7ba742fe5": 1795224701.7799451,
+  "a64d2cdc626bdb75": 1795781628.345783,
   "a66c87177152f36f": 1795021289.7614503,
   "a67bb8d2a6b42350": 1794654195.9605079,
   "a6870c43d087f98a": 1794848456.1917202,
@@ -11549,6 +11549,7 @@
   "b0838da76a6a729c": 1795444268.4054976,
   "b09e3cd5022c6444": 1795476656.8345494,
   "b0b9c615c1518dc8": 1795280692.535206,
+  "b13683e199e814bc": 1795781475.2835763,
   "b142d49319b80543": 1794988872.4974785,
   "b16b2af01c6e531e": 1795278653.9636526,
   "b196e95258849c92": 1794772855.921209,
@@ -11567,6 +11568,7 @@
   "b31333fc91eb1eaf": 1794682944.230792,
   "b31b7c1cc48f5bcf": 1795368653.7654736,
   "b31f1256cdf26ff0": 1795705329.5482368,
+  "b338100939ceb359": 1795781304.9077017,
   "b33c12245f4de0e8": 1795028455.8508024,
   "b3537b3c1fda8582": 1795372260.5712729,
   "b39d496f2c36c9df": 1795487520.5011756,
@@ -12063,7 +12065,6 @@
   "e77ce8d9e19fc38b": 1795145477.1128936,
   "e77f83ae1088eb81": 1794866636.2184536,
   "e7839b230028e612": 1795777257.3700647,
-  "e7844a2d07194cc8": 1794571372.1144512,
   "e7aac293a027027d": 1795226458.765301,
   "e7ae8631d452ed24": 1795266083.413159,
   "e7b18bd140016235": 1794785574.1654751,
@@ -13499,7 +13500,7 @@
   "extra": {
    "Вішліст Steam": 6,
    "Українська локалізація": 2,
-   "Халява": 1
+   "Халява": 3
   },
   "filtered": {
    "/Film": 19,
@@ -13511,7 +13512,7 @@
    "IGN": 15,
    "ITC.ua": 1,
    "IndieWire": 2,
-   "Insider Gaming": 73,
+   "Insider Gaming": 75,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 5,
    "Mezha": 1,
@@ -13531,7 +13532,7 @@
    "Bloomberg": 36,
    "DOU": 4,
    "DOU Gamedev": 4,
-   "Deadline": 62,
+   "Deadline": 63,
    "Decibel": 1,
    "Digital Foundry": 1,
    "Distorted Sound": 3,
@@ -13554,19 +13555,19 @@
    "PlayUA": 6,
    "Polygon": 20,
    "Product Hunt": 10,
-   "Rock Paper Shotgun": 11,
+   "Rock Paper Shotgun": 12,
    "SteamDB": 2,
    "Stereogum": 2,
    "The Decoder": 12,
    "ThePRP": 9,
-   "VGC": 13,
+   "VGC": 14,
    "Variety": 28
   },
   "translators": {
-   "DeepL": 28,
+   "DeepL": 30,
    "gemini-flash-latest": 9,
-   "gemini-flash-lite-latest": 135,
-   "gemma-4-26b-a4b-it": 92,
+   "gemini-flash-lite-latest": 136,
+   "gemma-4-26b-a4b-it": 93,
    "gemma-4-31b-it": 119
   },
   "week": "2026-W48"
@@ -14037,6 +14038,11 @@
    "",
    1795732328.6054635
   ],
+  "q:65": [
+   0,
+   "",
+   1795780912.8988605
+  ],
   "q:75": [
    0,
    "",
@@ -14502,6 +14508,11 @@
    "Crowned",
    1794704487.4594748
   ],
+  "q:cyber knights flashpoint": [
+   1021210,
+   "Cyber Knights: Flashpoint",
+   1795781307.7533092
+  ],
   "q:cyberpunk 2077": [
    1091500,
    "Cyberpunk 2077",
@@ -14597,11 +14608,6 @@
    "",
    1795755678.6004953
   ],
-  "q:departure": [
-   1957220,
-   "Departure.",
-   1793187186.2449684
-  ],
   "q:diablo": [
    0,
    "",
@@ -14636,6 +14642,11 @@
    4019220,
    "Dressmaker",
    1793887278.6014605
+  ],
+  "q:drone pilots": [
+   0,
+   "",
+   1795781306.8504713
   ],
   "q:dungoku": [
    5554930,
@@ -15087,11 +15098,6 @@
    "",
    1795755681.2056813
   ],
-  "q:join": [
-   4948290,
-   "JOIN",
-   1793187188.652792
-  ],
   "q:june": [
    3645270,
    "June",
@@ -15226,6 +15232,11 @@
    2767030,
    "Marvel Rivals",
    1795440684.98752
+  ],
+  "q:marvelous": [
+   0,
+   "",
+   1795780912.3527877
   ],
   "q:mass effect legendary edition": [
    1328670,
@@ -15442,16 +15453,6 @@
    "",
    1795698089.8362613
   ],
-  "q:officially introduce premium paid service": [
-   0,
-   "",
-   1795606443.3208535
-  ],
-  "q:officially introduce premium paid service with": [
-   0,
-   "",
-   1795606442.8399513
-  ],
   "q:onimusha way of the sword": [
    2638890,
    "Onimusha: Way of the Sword",
@@ -15536,6 +15537,11 @@
    560130,
    "Pillars of Eternity II: Deadfire",
    1793881945.8049543
+  ],
+  "q:pilots": [
+   0,
+   "",
+   1795781307.3070745
   ],
   "q:piranha": [
    2182530,
@@ -15897,35 +15903,20 @@
    "",
    1795768365.9348419
   ],
+  "q:rune": [
+   0,
+   "",
+   1795780911.9008296
+  ],
+  "q:rune factory": [
+   0,
+   "",
+   1795780911.43668
+  ],
   "q:rust": [
    252490,
    "Rust",
    1793909041.5876675
-  ],
-  "q:rust will": [
-   0,
-   "",
-   1795606439.9200385
-  ],
-  "q:rust will officially": [
-   0,
-   "",
-   1795606439.460859
-  ],
-  "q:rust will officially introduce": [
-   0,
-   "",
-   1795606438.9896111
-  ],
-  "q:rust will officially introduce premium": [
-   0,
-   "",
-   1795606438.5290403
-  ],
-  "q:rust will officially introduce premium paid": [
-   0,
-   "",
-   1795606438.035222
   ],
   "q:sandfall": [
    1742230,
@@ -16021,6 +16012,16 @@
    0,
    "",
    1795615431.2522855
+  ],
+  "q:seasons and rune": [
+   0,
+   "",
+   1795780910.8529584
+  ],
+  "q:seasons and rune factory": [
+   0,
+   "",
+   1795780910.3885994
   ],
   "q:secretly intended": [
    0,
@@ -16297,6 +16298,21 @@
    "",
    1795757810.112163
   ],
+  "q:story of seasons": [
+   0,
+   "",
+   1795780909.9238226
+  ],
+  "q:story of seasons and rune": [
+   0,
+   "",
+   1795780909.4340515
+  ],
+  "q:story of seasons and rune factory": [
+   0,
+   "",
+   1795780908.9813452
+  ],
   "q:struggling": [
    1035560,
    "Struggling",
@@ -16562,31 +16578,6 @@
    "Wildcat",
    1793365305.9304438
   ],
-  "q:will officially": [
-   0,
-   "",
-   1795606442.309912
-  ],
-  "q:will officially introduce": [
-   0,
-   "",
-   1795606441.8308892
-  ],
-  "q:will officially introduce premium": [
-   0,
-   "",
-   1795606441.3764253
-  ],
-  "q:will officially introduce premium paid": [
-   0,
-   "",
-   1795606440.8395383
-  ],
-  "q:will officially introduce premium paid service": [
-   0,
-   "",
-   1795606440.3795683
-  ],
   "q:wishlist": [
    2135800,
    "Wishlist",
@@ -16695,9 +16686,11 @@
  },
  "tag_hints": {
   "Mezha": [
+   "apple",
    "csg",
    "cv90",
    "gta 6",
+   "ipad",
    "mazda",
    "mazda cx-30",
    "rockstar",
@@ -16712,10 +16705,10 @@
    "гур",
    "китай",
    "новини",
-   "новини партнерів",
    "оборонка",
    "оборонний завод",
    "паливо",
+   "планшети",
    "росія",
    "статті",
    "супутники",
@@ -16736,22 +16729,6 @@
   1795744144.232577
  ],
  "titles": [
-  [
-   1795606436.0267503,
-   "Dirt Dash, Namco’s arcade rival to Sega Rally, is getting a home release for the first time ever"
-  ],
-  [
-   1795606495.3331056,
-   "Rust Will Officially Introduce Premium Paid Service With a Most-Requested Feature"
-  ],
-  [
-   1795608079.0402884,
-   "З'їдає до 20 FPS: проблемний драйвер NVIDIA б'є по ігровій продуктивності"
-  ],
-  [
-   1795608099.5116863,
-   "PrismML shrinks a 54 GB language model to 5.9 GB by reducing every weight to just three possible values"
-  ],
   [
    1795609880.274302,
    "ШІ розв'язав задачу, над якою люди билися 47 років — двічі різними моделями"
@@ -17491,25 +17468,21 @@
   [
    1795779161.4492843,
    "Hackers Breached US Air Force’s Cloud Platform, Says Reuters"
+  ],
+  [
+   1795781304.907704,
+   "Story of Seasons and Rune Factory developer Marvelous is offering early retirement as it tries to cut 65 jobs"
+  ],
+  [
+   1795781475.283578,
+   "Drone Pilots have come to Cyber Knights: Flashpoint, the stealth tactics game's \"most complex\" class yet, alongside a pet system and the promise of \"assassin cats\""
+  ],
+  [
+   1795781628.3457847,
+   "Netflix Tunes Into Music-Driven Chinese Fantasy Series ‘The Melody Of Love’"
   ]
  ],
  "titles_uk": [
-  [
-   1795606436.0267508,
-   "Dirt Dash, аркадний конкурент Sega Rally від Namco, вперше вийде на домашніх консолях"
-  ],
-  [
-   1795606495.3331063,
-   "Rust впроваджує платний сервіс Rust Premium із кастомізацією персонажів"
-  ],
-  [
-   1795608079.0402892,
-   "З'їдає до 20 FPS: проблемний драйвер NVIDIA б'є по ігровій продуктивності"
-  ],
-  [
-   1795608099.5116873,
-   "Startup PrismML styskyvaye movnu model Qwen do 5,9 GB"
-  ],
   [
    1795609880.2743027,
    "ШІ розв'язав задачу, над якою люди билися 47 років — двічі різними моделями"
@@ -18249,6 +18222,18 @@
   [
    1795779161.449285,
    "Гакери зламали хмарну платформу ВПС США"
+  ],
+  [
+   1795781304.9077053,
+   "Компанія Marvelous, розробник ігор «Story of Seasons» та «Rune Factory», пропонує співробітникам достроковий вихід на пенсію в рамках заходів зі скорочення 65 робочих місць"
+  ],
+  [
+   1795781475.2835786,
+   "У Cyber Knights: Flashpoint з'явився клас Drone Pilots та система тварин"
+  ],
+  [
+   1795781628.3457851,
+   "Netflix покаже музичне китайське фентезі The Melody Of Love"
   ]
  ],
  "ukrainian": {
