@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795800680.9070961
+  }
+ },
  "daily_digest_date": "2026-11-26",
  "freebies": {
   "last_check": 1795797087.1337802,
@@ -34,11 +41,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-27 17:02 UTC",
+  "at": "2026-11-27 17:32 UTC",
   "gemini_error": "",
-  "gemini_model": "gemma-4-31b-it",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemma-4-31b-it": 1
+   "gemini-flash-lite-latest": 1
   },
   "used": [
    "Gemini"
@@ -8727,7 +8734,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Мелісса Гілберт подякувала за підтримку після зняття звинувачень з її чоловіка Тімоті Бусфілда</b>\n\nАктриса Мелісса Гілберт подякувала всім, хто підтримав її чоловіка Тімоті Бусфілда. Раніше проти нього висували звинувачення у сексуальному контакті з неповнолітніми на знімальному майданчику серіалу The Cleaning Lady, проте суддя у штаті Нью-Мексико скасував ці звинувачення через порушення процедури прокурором.\n\n🔗 <a href=\"https://deadline.com/2026/11/melissa-gilbert-gives-thanks-husband-timothy-busfield-1237234187/\">Deadline</a> · #кіно_і_серіали #TheCleaningLady",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/melissa-gilbert-gives-thanks-husband-timothy-busfield-1237234187/",
     "orig": "Melissa Gilbert Gives Thanks To Those Who “Spoke Up, Testified” In Support Of Husband Timothy Busfield"
@@ -8741,7 +8747,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Еріка Хеммонд обіцяє драму на возз&#x27;єднанні 16 сезону The Real Housewives of New York City</b>\n\nЕріка Хеммонд затизерила возз&#x27;єднання 16 сезону The Real Housewives of New York City, пообіцявши глядачам «драму» та «розв&#x27;язання конфліктів». В інтерв&#x27;ю вона зазначила, що хоча деякі проблеми в групі будуть вирішені, вона не бачить сенсу в дружбі з новою учасницею Девін Сімон\n\n🔗 <a href=\"https://deadline.com/2026/11/erika-hammond-drama-rhony-season-16-reunion-devyn-simone-1237234147/\">Deadline</a> · #кіно_і_серіали",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/erika-hammond-drama-rhony-season-16-reunion-devyn-simone-1237234147/",
     "orig": "Erika Hammond Teases “Drama” & “Resolution” At ‘RHONY’ Season 16 Reunion, Says Devyn Simone Is “Not A Friend I Want”"
@@ -9587,6 +9592,34 @@
     "link": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
     "orig": "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models"
    }
+  ],
+  [
+   1795800685.7154076,
+   7154,
+   "🤖",
+   "Що не варто розповідати ChatGPT: 5 типів даних, про які експерти радять мовчати",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🤖 <b>Що не варто розповідати ChatGPT: 5 типів даних, про які експерти радять мовчати</b>\n\nChatGPT, Gemini, Copilot і Claude давно перестали бути екзотикою: ними користуються, щоб скласти листа, розібратися в діагнозі чи підготувати запитання до лікаря.\n\n🔗 <a href=\"https://highload.tech/uk/shho-ne-varto-rozpovidaty-chatgpt-5-typiv-danyh-pro-yaki-eksperty-radyat-movchaty/#new_tab\">ITC.ua</a> · #ШІ",
+    "kind": "photo",
+    "link": "https://highload.tech/uk/shho-ne-varto-rozpovidaty-chatgpt-5-typiv-danyh-pro-yaki-eksperty-radyat-movchaty/#new_tab",
+    "orig": "Що не варто розповідати ChatGPT: 5 типів даних, про які експерти радять мовчати"
+   }
+  ],
+  [
+   1795800719.31897,
+   7155,
+   "💾",
+   "«Там багато багів»: Microsoft визнала проблеми фреймворку Windows 11",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "💾 <b>«Там багато багів»: Microsoft визнала проблеми фреймворку Windows 11</b>\n\nMicrosoft не збирається відмовлятися від WinUI, на якому зроблено, зокрема, оновлене вікно «Виконати» у Windows 11. Проте на конференції Ignite 2026 інженери компанії несподівано чесно визнали, що фреймворк досі повний помилок. А одну з функцій розробники чекали аж чотири роки. Так Microsoft намагається повернути довіру тих, хто створює програми для Windows.\n\n🔗 <a href=\"https://itc.ua/ua/novini/microsoft-vyznala-problemy-frejmvorku-windows-11/\">ITC.ua</a> · #софт",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/microsoft-vyznala-problemy-frejmvorku-windows-11/",
+    "orig": "«Там багато багів»: Microsoft визнала проблеми фреймворку Windows 11"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9610,10 +9643,8 @@
    1795694566.656665
   ],
   "ai|ITC.ua|https://itc.ua/ua/feed/": [
-   1795698083.1127636,
-   1795712482.6820831,
-   1795712590.0864024,
-   1795719723.4087262
+   1795719723.4087262,
+   1795800685.7156637
   ],
   "ai|Mezha|https://mezha.ua/feed/": [
    1795710683.4755597,
@@ -9829,10 +9860,10 @@
    1795175649.8989897
   ],
   "software|ITC.ua|https://itc.ua/ua/feed/": [
-   1795708948.1373615,
    1795717874.4880118,
    1795770102.1314054,
-   1795782694.520322
+   1795782694.520322,
+   1795800719.3192296
   ],
   "software|Mezha|https://mezha.ua/feed/": [
    1795743087.1298804,
@@ -9932,6 +9963,7 @@
   "09515f56cf35ae42": 1795658542.318073,
   "0969fc9dcecfc46a": 1794821481.6343384,
   "099b928a7258f949": 1794978059.335902,
+  "099c50043741ce7b": 1795800658.316236,
   "099e18fabdf8ff2a": 1795170655.6016555,
   "09a3e479d01f6a19": 1794643426.4887376,
   "09ca5f9f370d8b4c": 1795136487.66789,
@@ -9989,6 +10021,7 @@
   "103bf22e98c61cba": 1794733252.5875175,
   "103fa1cfc0538de2": 1795728653.8512902,
   "1050842f43548228": 1795222953.556252,
+  "105b6899aeca24e1": 1795800658.316236,
   "105bebd4e28775d7": 1795683674.0163376,
   "107680502cf0baad": 1795113081.8806236,
   "10ac305df3233805": 1794727870.9768376,
@@ -10201,6 +10234,7 @@
   "26088c4097d14d2b": 1794882692.550622,
   "260c73494527473d": 1795615515.6560812,
   "26412ff4b89c1834": 1795267880.6231701,
+  "267feb801ef453eb": 1795800718.721784,
   "269e88e8bf42cecb": 1795194077.8276596,
   "26bcadb7f4e8e281": 1794670326.7228556,
   "26be0405094b47fb": 1795323740.4129944,
@@ -10264,6 +10298,7 @@
   "2ce977b41420a009": 1795111438.8284032,
   "2cec01c4d579a6a5": 1795521658.186975,
   "2cf06754e1565961": 1795116654.1601062,
+  "2d1b3420bf7c3bb5": 1795800658.316236,
   "2d1dbe58d50f5ded": 1794945653.1135497,
   "2d49a4926a22347c": 1795404652.9883535,
   "2d64215341b05c09": 1794870137.393412,
@@ -10271,6 +10306,7 @@
   "2d99a0a1f86c29e4": 1795483901.7627103,
   "2d9a2b8d557e732f": 1795530751.7774193,
   "2d9fb94950497008": 1795051880.1134467,
+  "2da209beaef70180": 1795800658.316236,
   "2dc2bc99609ba25d": 1795692710.8179963,
   "2dcaca1b02a4a8c1": 1795613605.961048,
   "2dff2585107938bd": 1795746678.0431478,
@@ -10462,7 +10498,6 @@
   "44157888feac291b": 1795026653.649315,
   "441ac6a9e711b1e8": 1795086083.8416054,
   "441c299558e10fde": 1795707058.8773746,
-  "44327ea93aa083c2": 1794591053.6005082,
   "4438ecc9fdb7800b": 1795685454.8587859,
   "44572969db61f752": 1795192445.4365437,
   "445a1fb77d1915c6": 1795204855.236534,
@@ -10538,6 +10573,7 @@
   "4cb0ce66c92778cb": 1794634298.6207952,
   "4cbe4687183ef452": 1795698055.8746934,
   "4cc488b08684e710": 1795240911.793855,
+  "4cc886911f1b9442": 1795800684.9607544,
   "4cd881b2588872fc": 1794632474.2095976,
   "4ce91fd08641cb01": 1795636857.6494942,
   "4ceecf65844b900d": 1794879091.116545,
@@ -10658,6 +10694,7 @@
   "591986f133c1bed0": 1795618855.8470001,
   "591d82ee7e715012": 1795007003.31536,
   "594ea04fa2a1fdf5": 1794646968.0431976,
+  "59a21098568062ce": 1795800719.3191867,
   "59b842e896ed4bb1": 1795087856.688431,
   "59ceae0ded9cfabf": 1795275057.4489214,
   "59db95497983ae04": 1795797055.9880111,
@@ -10834,6 +10871,7 @@
   "69a7cfae1f4ee627": 1795376933.0604873,
   "69b165dda0ceb4b0": 1795010462.958915,
   "69c119b5bc0b854d": 1795473194.34092,
+  "69c857d4ab08ee5b": 1795800685.7156196,
   "69e89611dacbbf33": 1795649480.2788963,
   "6a02e92b55e7abcc": 1794846689.2413993,
   "6a1f8d3924a976b0": 1794759968.2490451,
@@ -11813,7 +11851,6 @@
   "ce3dd1f10447d2ae": 1794956584.1721265,
   "ce5984adc4e9c27e": 1794684685.5508559,
   "ce7df47f4e49a290": 1795055474.96252,
-  "cea12eeb92c17f88": 1794591053.6005082,
   "ced815f20d655e65": 1795145477.1130702,
   "ceefaeb1763d1f00": 1795208454.5689726,
   "cef75ee809029881": 1795388453.5383751,
@@ -11958,6 +11995,7 @@
   "dd389dd16d8ef8c4": 1794632451.7232893,
   "dd38e4db275d4a7d": 1794592858.1127434,
   "dd3fdf55ac11416d": 1795622460.307334,
+  "dd55fc59e200019b": 1795800658.316236,
   "dd8f1762c1ac21dc": 1795536070.620261,
   "dd97f68e98002cea": 1795447856.9534128,
   "ddc2dcbf7618e53d": 1794830577.390291,
@@ -13498,15 +13536,17 @@
   },
   "filtered": {
    "/Film": 20,
+   "Blabbermouth": 1,
    "Bloomberg": 37,
    "Deadline": 8,
    "Eurogamer": 1,
    "GameSpot": 6,
    "GamesIndustry.biz": 2,
-   "IGN": 18,
+   "IGN": 19,
    "ITC.ua": 1,
    "IndieWire": 2,
    "Insider Gaming": 82,
+   "Lambgoat": 1,
    "Loudwire": 2,
    "Metal Hammer (Louder)": 7,
    "Metal Injection": 1,
@@ -13518,7 +13558,7 @@
    "SteamDB": 1,
    "ThePRP": 1,
    "VGC": 38,
-   "Variety": 16
+   "Variety": 18
   },
   "sources": {
    "/Film": 16,
@@ -13536,7 +13576,7 @@
    "GamesIndustry.biz": 10,
    "Hugging Face": 5,
    "IGN": 1,
-   "ITC.ua": 45,
+   "ITC.ua": 47,
    "IndieWire": 7,
    "Insider Gaming": 12,
    "Kerrang!": 2,
@@ -13561,7 +13601,7 @@
   "translators": {
    "DeepL": 32,
    "gemini-flash-latest": 9,
-   "gemini-flash-lite-latest": 143,
+   "gemini-flash-lite-latest": 144,
    "gemma-4-26b-a4b-it": 95,
    "gemma-4-31b-it": 123
   },
@@ -14282,11 +14322,6 @@
    4814480,
    "Columbine",
    1795532499.9640963
-  ],
-  "q:company of heroes 3": [
-   1677280,
-   "Company of Heroes 3",
-   1793207139.3398516
   ],
   "q:conker": [
    0,
@@ -16033,11 +16068,6 @@
    "Tomb Raider Game of the Year",
    1794727882.9234078
   ],
-  "q:torch": [
-   2098940,
-   "Torch",
-   1793207142.1898777
-  ],
   "q:touchdown": [
    4756470,
    "Touchdown",
@@ -16370,29 +16400,31 @@
    "mozilla",
    "mozilla firefox",
    "one ui 9.5",
+   "rheinmetall",
    "samsung",
    "temu",
    "ugreen",
-   "армія+",
+   "артилерія",
    "аукціон",
+   "боєприпаси",
    "бпла",
    "браузери",
-   "військовослужбовці",
    "зарядні пристрої",
    "кодифікація",
    "маркетплейс",
    "медицина",
-   "міноборони",
    "новини",
    "оборонка",
+   "оборонний завод",
    "павербанки",
    "перехоплювачі",
    "платформи",
    "ппо",
    "реактивні безпілотники",
-   "сили оборони",
+   "снаряди",
    "софт",
    "технології",
+   "україна",
    "франція",
    "чатботи",
    "штучний інтелект",
@@ -16406,18 +16438,6 @@
   1795786407.9704206
  ],
  "titles": [
-  [
-   1795626221.9033036,
-   "SAP Corporate Espionage Complaint Exposes Gaps in Disclosure"
-  ],
-  [
-   1795626244.9893959,
-   "Fed, AI Fears Rattle Markets"
-  ],
-  [
-   1795627906.69577,
-   "Apple Watch, Oura Ring, iPhone Duo: Best Tech Gifts for Holiday 2026"
-  ],
   [
    1795627984.6863499,
    "Nvidia release new graphics card driver, hopefully finally fixing that SSD-hammering unnecessary write bug the previous hotfix couldn't seem to sort"
@@ -17165,21 +17185,17 @@
   [
    1795798925.2542093,
    "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models"
+  ],
+  [
+   1795800685.7156212,
+   "Що не варто розповідати ChatGPT: 5 типів даних, про які експерти радять мовчати"
+  ],
+  [
+   1795800719.3191886,
+   "«Там багато багів»: Microsoft визнала проблеми фреймворку Windows 11"
   ]
  ],
  "titles_uk": [
-  [
-   1795626221.9033043,
-   "Позов про корпоративне шпигунство в SAP викрив прогалини в розкритті інформації"
-  ],
-  [
-   1795626244.9893966,
-   "ФРС та страхи перед ШІ сколихнули ринки"
-  ],
-  [
-   1795627906.6957712,
-   "Найкращі технологічні подарунки на свята у 2026 році"
-  ],
   [
    1795627984.6863506,
    "Nvidia випустила драйвер 621.40 для виправлення помилки з надмірним записом на SSD"
@@ -17927,6 +17943,14 @@
   [
    1795798925.2542098,
    "Дослідження Meta та AMI Labs підтверджують переваги архітектури JEPA над LLM"
+  ],
+  [
+   1795800685.7156222,
+   "Що не варто розповідати ChatGPT: 5 типів даних, про які експерти радять мовчати"
+  ],
+  [
+   1795800719.3191893,
+   "«Там багато багів»: Microsoft визнала проблеми фреймворку Windows 11"
   ]
  ],
  "ukrainian": {
