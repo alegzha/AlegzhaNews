@@ -1,27 +1,15 @@
 {
  "alerts": {
-  "src:games|ITC.ua|https://itc.ua/ua/feed/": {
-   "detail": "https://itc.ua/ua/feed/ → HTTPSConnectionPool(host='itc.ua', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ITC.ua» не працює",
-   "sent": 0,
-   "since": 1795802486.932076
-  },
   "src:music|Neformat|https://www.neformat.com.ua/": {
    "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
    "label": "Джерело «Neformat» не працює",
    "sent": 0,
    "since": 1795800680.9070961
-  },
-  "src:music|ThePRP|https://www.theprp.com/feed/": {
-   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
-   "label": "Джерело «ThePRP» не працює",
-   "sent": 0,
-   "since": 1795802508.7963648
   }
  },
  "daily_digest_date": "2026-11-26",
  "freebies": {
-  "last_check": 1795797087.1337802,
+  "last_check": 1795804274.6739662,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -10230,6 +10218,7 @@
   "260c73494527473d": 1795615515.6560812,
   "26412ff4b89c1834": 1795267880.6231701,
   "267feb801ef453eb": 1795800718.721784,
+  "2687c11eafa3bf2e": 1795804274.6088061,
   "269e88e8bf42cecb": 1795194077.8276596,
   "26bcadb7f4e8e281": 1794670326.7228556,
   "26be0405094b47fb": 1795323740.4129944,
@@ -10525,7 +10514,6 @@
   "480ee55127bcb11d": 1795690853.9511383,
   "484be33331d7f28d": 1795489396.8073578,
   "48748b8c64ba0f16": 1795050069.409945,
-  "488190ccdb717476": 1794594655.5581527,
   "48cfa8b738b7d95f": 1794884529.379504,
   "48e9f2543a55a3f4": 1795609864.8297842,
   "492580dd43b03d52": 1795134923.0482888,
@@ -10958,6 +10946,7 @@
   "7265652a5266f6fb": 1794906178.1197684,
   "73242c26032fa66f": 1795091475.6584551,
   "73635f50ed86ca0d": 1795519966.7356188,
+  "736a43a5dbf869ee": 1795804254.1806166,
   "737e975a397721a6": 1795798881.6577518,
   "7387e628eab736c6": 1795772040.2094126,
   "73bf58ad2b27fa9e": 1794744076.590944,
@@ -11901,6 +11890,7 @@
   "d46578824ac4420e": 1795042855.9275043,
   "d473cb58c4cce837": 1794722570.257613,
   "d484bc4cfa7b1042": 1795219282.851751,
+  "d496c7e92fb9ab65": 1795804254.1806166,
   "d4af44c10503c07f": 1794931286.4437768,
   "d4dbff03922e3af7": 1795002895.205991,
   "d4fd7cf429d890d8": 1794927698.1229002,
@@ -13526,7 +13516,7 @@
   "filtered": {
    "/Film": 20,
    "Blabbermouth": 1,
-   "Bloomberg": 37,
+   "Bloomberg": 38,
    "Deadline": 8,
    "Eurogamer": 1,
    "GameSpot": 6,
@@ -13540,7 +13530,7 @@
    "Metal Hammer (Louder)": 7,
    "Metal Injection": 1,
    "Mezha": 1,
-   "PC Gamer": 22,
+   "PC Gamer": 23,
    "PlayUA": 2,
    "Polygon": 47,
    "Rock Paper Shotgun": 2,
@@ -15846,11 +15836,6 @@
    2868840,
    "Slay the Spire 2",
    1794524495.6271117
-  ],
-  "q:sleeping dogs": [
-   202170,
-   "Sleeping Dogs",
-   1793210605.2136602
   ],
   "q:slop": [
    4221670,
