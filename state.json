@@ -1,10 +1,10 @@
 {
  "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
+  "src:music|ThePRP|https://www.theprp.com/feed/": {
+   "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
+   "label": "Джерело «ThePRP» не працює",
    "sent": 0,
-   "since": 1795759272.416381
+   "since": 1795777299.1351905
   }
  },
  "daily_digest_date": "2026-11-26",
@@ -39,56 +39,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-27 10:32 UTC",
+  "at": "2026-11-27 11:02 UTC",
   "gemini_error": "",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 1
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795084636.9411652,
-   6380,
-   "🎮",
-   "Члени профспілок «Rockstar» та «IWGB» виступили з заключними заявами після завершення розгляду справи в трудовому суді",
-   "GamesIndustry.biz",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.gamesindustry.biz/rockstar-and-iwgb-members-issue-closing-arguments-following-conclusion-of-employment-tribunal",
-    "orig": "Rockstar and IWGB members issue closing arguments following conclusion of employment tribunal"
-   }
-  ],
-  [
-   1795084733.9854712,
-   6381,
-   "💾",
-   "OpenVINO отримав чергове оновлення",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/openvinotoolkit/openvino",
-    "orig": "openvinotoolkit/openvino"
-   }
-  ],
-  [
-   1795086083.8413725,
-   6382,
-   "🎮",
-   "The Blood of Dawnwalker отримала велике оновлення: що додали?",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/the-blood-of-dawnwalker-otrymala-velyke-onovlennya-shho-dodaly/",
-    "orig": "The Blood of Dawnwalker отримала велике оновлення: що додали?"
-   }
-  ],
   [
    1795086182.694634,
    6383,
@@ -8818,7 +8779,6 @@
    "Product Hunt",
    {
     "also": [],
-    "caption": "💾 <b>Fairwind</b>\n\nТепер вчителі або тренери можуть підтверджувати ваш список активностей. Обговорення | Посилання\n\n🔗 <a href=\"https://www.producthunt.com/products/fairwind\">Product Hunt</a> · #софт",
     "kind": "text",
     "link": "https://www.producthunt.com/products/fairwind",
     "orig": "Fairwind"
@@ -8832,7 +8792,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🤖 <b>«Абсурд»: Амодеї заперечив, що Anthropic хоче віддати ШІ контроль над людьми</b>\n\nГенеральний директор Anthropic Даріо Амодеї відкинув закиди, що його компанія хоче, аби люди віддали контроль штучному інтелекту. У великому дописі в X у середу, 25 листопада, він назвав таке припущення абсурдним:\n\n🔗 <a href=\"https://itc.ua/ua/novini/amodei-absurd-kontrol-nad-shi/\">ITC.ua</a> · #ШІ",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/amodei-absurd-kontrol-nad-shi/",
     "orig": "«Абсурд»: Амодеї заперечив, що Anthropic хоче віддати ШІ контроль над людьми"
@@ -9668,6 +9627,34 @@
     "link": "https://variety.com/2026/music/news/justin-timberlake-reluctant-doc-big-revelations-1236959282/",
     "orig": "Justin Timberlake Was ‘Really Reluctant’ to Make Tell-All Documentary: ‘I’ve Gone Through a Lot in the Last Five Years’"
    }
+  ],
+  [
+   1795777328.5915363,
+   7127,
+   "🎬",
+   "Творець «Paatal Lok» Судіп Шарма знімає чорну комедію «Pushpak Vimaan» для Netflix",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Творець «Paatal Lok» Судіп Шарма знімає чорну комедію «Pushpak Vimaan» для Netflix</b>\n\nТворець кримінальних драм Судіп Шарма змінює жанр на чорну комедію та кримінальну авантюру у новому серіалі «Pushpak Vimaan» для Netflix, вихід якого запланований на початок 2027 року. Головні ролі у проєкті виконують Барун Собті, Абгішек Банерджі та Джайдіп Ахлават.\n\n🔗 <a href=\"https://variety.com/2026/tv/festivals/barun-sobti-abhishek-banerjee-netflix-comedy-pushpak-vimaan-1236959303/\">Variety</a> · #кіно_і_серіали #Netflix #PushpakVimaan",
+    "kind": "photo",
+    "link": "https://variety.com/2026/tv/festivals/barun-sobti-abhishek-banerjee-netflix-comedy-pushpak-vimaan-1236959303/",
+    "orig": "Barun Sobti, Abhishek Banerjee Star as ‘Paatal Lok’ Creator Sudip Sharma Swaps Violence for Black Comedy in Netflix’s IFFI Selection ‘Pushpak Vimaan’"
+   }
+  ],
+  [
+   1795777351.7162004,
+   7128,
+   "🎮",
+   "Mastered залучила фінансування для навчання ігрових студій у Великій Британії",
+   "GamesIndustry.biz",
+   {
+    "also": [],
+    "caption": "🎮 <b>Mastered залучила фінансування для навчання ігрових студій у Великій Британії</b>\n\nНавчальна компанія Mastered отримала контракт від WECA на фінансування 90% програм підвищення кваліфікації для ігрових студій регіону Вест-оф-Енгланд. Проєкт покриває щонайменше £25 000 і надає 60 місць для навчання за індивідуальними програмами з менторством.\n\n🔗 <a href=\"https://www.gamesindustry.biz/mastered-receives-funding-to-support-training-for-games-studios-in-west-of-england\">GamesIndustry.biz</a> · #ігри #UnrealEngine #Mastered",
+    "kind": "photo",
+    "link": "https://www.gamesindustry.biz/mastered-receives-funding-to-support-training-for-games-studios-in-west-of-england",
+    "orig": "Mastered receives funding to support training for games studios in West of England"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9732,7 +9719,8 @@
   ],
   "games|GamesIndustry.biz|https://www.gamesindustry.biz/feed": [
    1795705329.5482755,
-   1795772040.2094586
+   1795772040.2094586,
+   1795777351.7164168
   ],
   "games|IGN|https://www.ign.com/rss/articles/feed?tags=games": [
    1795736156.0504553
@@ -9818,9 +9806,9 @@
    1795507282.132235
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1795689136.1748013,
    1795753905.479403,
-   1795763169.1756601
+   1795763169.1756601,
+   1795777328.5918126
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1795741638.505777,
@@ -10008,7 +9996,6 @@
   "07edf45b889118e3": 1794699052.266333,
   "080813f6e6514518": 1794756680.6636622,
   "0814cb884dd14798": 1794740484.8247116,
-  "0876c9c2b39765c7": 1794567703.8834496,
   "0889ade6d9f63738": 1794875461.7247117,
   "08ab6f25aa1462ec": 1794875504.7401118,
   "08cd740c1304b694": 1795276859.0083566,
@@ -10027,6 +10014,7 @@
   "0ae0949b8cd38010": 1795186954.2942495,
   "0b532c252b638c25": 1794978086.8716898,
   "0ba91bff18478de2": 1794699261.5175328,
+  "0bceaf006cf20695": 1795777257.3700647,
   "0bd2b80718e34b30": 1794889903.5498612,
   "0bd4787cdb21f321": 1795199460.213731,
   "0be96b793e1c0ed6": 1795757808.0461628,
@@ -11416,7 +11404,6 @@
   "9f7b85cf88a87c90": 1794999653.1275568,
   "9f8e9e79145b2e07": 1795131549.4174578,
   "9f927f67986c8bd3": 1794916879.4564362,
-  "9fa14fa8fda01249": 1794567690.3824625,
   "a0338a2d9b1c8c7a": 1794836085.5064359,
   "a03ab03bdabe272c": 1795437054.9153414,
   "a0590384a9382ac6": 1795703454.2306209,
@@ -11569,6 +11556,7 @@
   "af49298cf98bb258": 1795775462.3648236,
   "af5700409a88993e": 1795098686.4612706,
   "af60c308cb8b1eae": 1795725054.3554904,
+  "af7b57f2c9f793e6": 1795777328.5917666,
   "af7f01de94ffa5ce": 1794596480.2130246,
   "af8e2fd4911ca960": 1795755675.8787036,
   "af94feae22729c7a": 1794875511.543285,
@@ -11598,6 +11586,7 @@
   "b29c6b619b90c5e0": 1795100487.7136989,
   "b2a4ed0e83ef860f": 1795307527.7208495,
   "b2df06db8a663c87": 1795002863.2457044,
+  "b2f5737097e82503": 1795777306.8244064,
   "b2fadd4cde6f71b4": 1794783430.0813437,
   "b30965c35706c201": 1795539658.0331025,
   "b31333fc91eb1eaf": 1794682944.230792,
@@ -11667,6 +11656,7 @@
   "b96c67d6702fd704": 1794960076.0501857,
   "b96fe73f3d855560": 1795330926.298928,
   "b98b39ca4d62267d": 1794922256.1694205,
+  "b9aaff8d85e8862c": 1795777257.3700647,
   "b9b7183ab6de00ec": 1795390671.7912314,
   "ba1a565b3acb1053": 1795231890.279287,
   "ba4aa020574142fa": 1795487476.1568887,
@@ -12098,6 +12088,7 @@
   "e763621e99978078": 1795167148.9568794,
   "e77ce8d9e19fc38b": 1795145477.1128936,
   "e77f83ae1088eb81": 1794866636.2184536,
+  "e7839b230028e612": 1795777257.3700647,
   "e7844a2d07194cc8": 1794571372.1144512,
   "e7aac293a027027d": 1795226458.765301,
   "e7ae8631d452ed24": 1795266083.413159,
@@ -12137,6 +12128,7 @@
   "eb00c529bd3f736f": 1795708945.1372654,
   "eb2b9038a4a7bdd2": 1794637880.8277705,
   "eb7188a71c381305": 1795100487.7141306,
+  "eb75c80d3f05bccf": 1795777351.7163723,
   "eb794a5547005fed": 1795327503.1055524,
   "eb85283cf01e7e50": 1794999653.1275568,
   "eb914ac5b3670695": 1795273254.563207,
@@ -13545,7 +13537,7 @@
    "IGN": 15,
    "ITC.ua": 1,
    "IndieWire": 2,
-   "Insider Gaming": 70,
+   "Insider Gaming": 72,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 5,
    "Mezha": 1,
@@ -13556,7 +13548,7 @@
    "SteamDB": 1,
    "ThePRP": 1,
    "VGC": 34,
-   "Variety": 15
+   "Variety": 16
   },
   "sources": {
    "/Film": 16,
@@ -13571,7 +13563,7 @@
    "Distorted Sound": 3,
    "Eurogamer": 10,
    "GameSpot": 1,
-   "GamesIndustry.biz": 9,
+   "GamesIndustry.biz": 10,
    "Hugging Face": 5,
    "IGN": 1,
    "ITC.ua": 40,
@@ -13594,12 +13586,12 @@
    "The Decoder": 12,
    "ThePRP": 9,
    "VGC": 13,
-   "Variety": 27
+   "Variety": 28
   },
   "translators": {
    "DeepL": 28,
    "gemini-flash-latest": 9,
-   "gemini-flash-lite-latest": 132,
+   "gemini-flash-lite-latest": 134,
    "gemma-4-26b-a4b-it": 92,
    "gemma-4-31b-it": 119
   },
@@ -14401,11 +14393,6 @@
    "CHRONO TRIGGER®",
    1794918685.5265646
   ],
-  "q:chucky": [
-   999250,
-   "Chucky",
-   1793183573.390061
-  ],
   "q:citizen sleeper": [
    1578650,
    "Citizen Sleeper",
@@ -15021,11 +15008,6 @@
    "Hearing",
    1794963662.3099103
   ],
-  "q:helen": [
-   2631350,
-   "Helen",
-   1793183585.619203
-  ],
   "q:hellscape": [
    3654020,
    "Hellscape",
@@ -15161,16 +15143,6 @@
    "K-Pop!",
    1793826091.0230763
   ],
-  "q:kart": [
-   0,
-   "",
-   1795602783.336414
-  ],
-  "q:kart world": [
-   0,
-   "",
-   1795602782.777542
-  ],
   "q:ken kutaragi": [
    0,
    "",
@@ -15280,16 +15252,6 @@
    1482380,
    "Maniac",
    1795255754.2123826
-  ],
-  "q:mario kart": [
-   0,
-   "",
-   1795602782.2678146
-  ],
-  "q:mario kart world": [
-   0,
-   "",
-   1795602781.8071334
   ],
   "q:marvel cosmic invasion": [
    2753970,
@@ -16616,6 +16578,11 @@
    "Warlords IV: Heroes of Etheria",
    1795393882.5479772
   ],
+  "q:west of england": [
+   0,
+   "",
+   1795777330.6794329
+  ],
   "q:why console prices aren't going down": [
    0,
    "",
@@ -16774,7 +16741,6 @@
  },
  "tag_hints": {
   "Mezha": [
-   "android",
    "apple",
    "csg",
    "cv90",
@@ -16807,6 +16773,7 @@
    "чехія",
    "швеція",
    "штучний інтелект",
+   "європа",
    "ігри"
   ]
  },
@@ -16815,22 +16782,6 @@
   1795744144.232577
  ],
  "titles": [
-  [
-   1795602779.68248,
-   "An Indic Voice Agent with CUGA"
-  ],
-  [
-   1795602851.3232765,
-   "Mario Kart World gets a new free update adding eight new tracks and other features"
-  ],
-  [
-   1795604478.3365867,
-   "Перший ШІ-серіал Lionsgate Play: індійський епос без меж виробництва"
-  ],
-  [
-   1795604481.7183821,
-   "Хакери зламали систему ЦРУ та інших розвідслужб США за допомогою ШІ"
-  ],
   [
    1795606436.0267503,
    "Dirt Dash, Namco’s arcade rival to Sega Rally, is getting a home release for the first time ever"
@@ -17574,25 +17525,17 @@
   [
    1795775532.1609871,
    "Justin Timberlake Was ‘Really Reluctant’ to Make Tell-All Documentary: ‘I’ve Gone Through a Lot in the Last Five Years’"
+  ],
+  [
+   1795777328.5917685,
+   "Barun Sobti, Abhishek Banerjee Star as ‘Paatal Lok’ Creator Sudip Sharma Swaps Violence for Black Comedy in Netflix’s IFFI Selection ‘Pushpak Vimaan’"
+  ],
+  [
+   1795777351.7163737,
+   "Mastered receives funding to support training for games studios in West of England"
   ]
  ],
  "titles_uk": [
-  [
-   1795602779.6824806,
-   "IBM Research створила голосового агента CUGA для роботи з індійськими мовами"
-  ],
-  [
-   1795602851.323277,
-   "Mario Kart World отримала безкоштовне оновлення з новими трасами та функціями"
-  ],
-  [
-   1795604478.3365881,
-   "Перший ШІ-серіал Lionsgate Play: індійський епос без меж виробництва"
-  ],
-  [
-   1795604481.7183828,
-   "Хакери зламали систему ЦРУ та інших розвідслужб США за допомогою ШІ"
-  ],
   [
    1795606436.0267508,
    "Dirt Dash, аркадний конкурент Sega Rally від Namco, вперше вийде на домашніх консолях"
@@ -18336,6 +18279,14 @@
   [
    1795775532.1609876,
    "Джастін Тімберлейк розповість про особисте у новому документальному проєкті"
+  ],
+  [
+   1795777328.5917697,
+   "Творець «Paatal Lok» Судіп Шарма знімає чорну комедію «Pushpak Vimaan» для Netflix"
+  ],
+  [
+   1795777351.7163749,
+   "Mastered залучила фінансування для навчання ігрових студій у Великій Британії"
   ]
  ],
  "ukrainian": {
@@ -18595,6 +18546,7 @@
    "238320": "",
    "238960": "",
    "239140": "",
+   "2399420": "",
    "2399830": "",
    "2406770": "",
    "2411200": "",
@@ -19014,8 +18966,8 @@
    "9900": "",
    "990080": ""
   },
-  "last_check": 1795755697.7873564,
-  "with_uk": 101
+  "last_check": 1795777362.9838812,
+  "with_uk": 99
  },
  "weekly_releases_week": "2026-W48",
  "wishlist": {
