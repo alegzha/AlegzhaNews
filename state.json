@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1795795275.7453005
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-26",
  "freebies": {
   "last_check": 1795797087.1337802,
@@ -41,43 +34,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-27 16:01 UTC",
+  "at": "2026-11-27 17:02 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2
+   "gemma-4-31b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795105887.586375,
-   6410,
-   "🤖",
-   "Canva дозволила вимикати функції генеративного ШІ",
-   "Mezha",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://mezha.ua/news/canva-adds-ai-controls-317389/",
-    "orig": "Canva дозволила вимикати функції генеративного ШІ"
-   }
-  ],
-  [
-   1795106159.1348956,
-   6411,
-   "🤖",
-   "Фінансовий директор Anthropic про «демократизацію доступу» до акцій компанії",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/videos/2026-11-19/anthropic-cfo-on-democratizing-access-to-company-stock-video",
-    "orig": "Anthropic CFO on 'Democratizing Access' to Company Stock"
-   }
-  ],
   [
    1795109701.6308584,
    6412,
@@ -8747,7 +8714,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Кріс Адлер та Джоні Чоу створили новий метал-гурт Insidias</b>\n📖 <a href=\"https://telegra.ph/Krіs-Adler-ta-Dzhonі-CHou-stvorili-novij-metal-gurt-Insidias-11-27\">Читати повністю українською</a>\n\nЕксбарабанщик Lamb Of God Кріс Адлер та басист Stone Sour Джоні Чоу об’єдналися у новий проєкт Insidias. До складу гурту також увійшли вокаліст Джон Ріу та гітарист Петер Шайтхауер. Музиканти вже записують дебютний альбом і готуються до свого першого живого виступу на фестивалі Hellfest у Франції.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/26/news/stone-sours-johny-chow-ex-lamb-of-god-etc-drummer-chris-adler-join-forces-in-insidias/\">ThePRP</a> · #музика #Insidias #LambOfGod",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/26/news/stone-sours-johny-chow-ex-lamb-of-god-etc-drummer-chris-adler-join-forces-in-insidias/",
     "orig": "Stone Sour’s Johny Chow & Ex-Lamb Of God, Etc. Drummer Chris Adler Join Forces In Insidias"
@@ -9302,7 +9268,12 @@
    "Гакери зламали хмарну платформу ВПС США",
    "Bloomberg",
    {
-    "also": [],
+    "also": [
+     [
+      "The Decoder",
+      "https://the-decoder.com/hackers-breached-the-us-air-forces-flagship-cloud-one-platform-report-says/"
+     ]
+    ],
     "caption": "💾 <b>Гакери зламали хмарну платформу ВПС США</b>\n\nГакери зламали флагманську хмарну інфраструктуру ВПС США під назвою Cloud One. Це могло поставити під загрозу військові додатки та чутливі персональні дані.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-27/hackers-breached-us-air-force-s-cloud-platform\">Bloomberg</a> · #софт",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/articles/2026-11-27/hackers-breached-us-air-force-s-cloud-platform",
@@ -9602,6 +9573,20 @@
     "link": "https://itc.ua/ua/novini/dlss-5-red-dead-redemption-2-minus-31-fps-4k/",
     "orig": "Red Dead Redemption 2 майже як фільм: DLSS 5 показали в дії на RTX 5080"
    }
+  ],
+  [
+   1795798925.2539637,
+   7153,
+   "🤖",
+   "Дослідження Meta та AMI Labs підтверджують переваги архітектури JEPA над LLM",
+   "The Decoder",
+   {
+    "also": [],
+    "caption": "🤖 <b>Дослідження Meta та AMI Labs підтверджують переваги архітектури JEPA над LLM</b>\n\nЯн Лекун вважає, що великі мовні моделі не забезпечать людський інтелект, тому розвиває архітектуру JEPA для моделювання причинно-наслідкових зв&#x27;язків. Три нові дослідження підтверджують ефективність цього підходу. Після виходу з Meta Лекун заснував AMI Labs, залучивши понад $1 млрд на розвиток ШІ для робототехніки та носимих пристроїв.\n\n🔗 <a href=\"https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/\">The Decoder</a> · #ШІ #Meta #AMILabs",
+    "kind": "photo",
+    "link": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
+    "orig": "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9637,10 +9622,8 @@
    1795791705.8640916
   ],
   "ai|The Decoder|https://the-decoder.com/feed/": [
-   1795634709.3431487,
-   1795642333.2481449,
-   1795701748.1332183,
-   1795716207.1829598
+   1795716207.1829598,
+   1795798925.2542524
   ],
   "games|Bloomberg|https://www.bloomberg.com/authors/AUvqMRVAZCw/jason-schreier.rss": [
    1793370738.9416513
@@ -10254,7 +10237,6 @@
   "2965c27d14acb84b": 1794778261.7964659,
   "29970d94d1beaab2": 1795310934.0835595,
   "299ba0b0b12dcf61": 1795782655.4015517,
-  "29ae30ee721e8e28": 1794589276.7801428,
   "2a2082a404a4036f": 1795579298.57564,
   "2a5abb1256d183b5": 1794816283.4074228,
   "2a5b94a5da077ffd": 1794976424.2125158,
@@ -10329,6 +10311,7 @@
   "323e3acbc8289e7e": 1795701748.133174,
   "32418cc562c404cd": 1794736879.429503,
   "3278da9f0f45dcdf": 1794688284.0626087,
+  "3282888d82b689a8": 1795798881.6596763,
   "3289cb68c1552da7": 1795404734.0411928,
   "328a1f0e8933a048": 1794861150.4702475,
   "32a1d8c5de00442d": 1795357880.986873,
@@ -10421,7 +10404,6 @@
   "3bc1f3b5b1abf64e": 1795365269.3428257,
   "3bcce6d74ca02dbd": 1795406479.0217135,
   "3c28d9c06d808769": 1794918911.241829,
-  "3c5dc188800f7e4a": 1794587490.7629814,
   "3c6d8a23568e1f90": 1795300262.5494199,
   "3c81bd21a2a8bb66": 1795066295.3549402,
   "3c9f8bb228a616ed": 1795525625.439463,
@@ -10885,6 +10867,7 @@
   "6c8858bedfd8c46b": 1794857514.3717523,
   "6c8f9e8d9bef2c10": 1795566994.7255425,
   "6cdd853641561ba5": 1795523467.6205294,
+  "6ce7be0116134dae": 1795798881.6570687,
   "6cfced7e0d387166": 1795194054.9388816,
   "6d087a8ca1e99291": 1795094263.3185225,
   "6d29073493f11420": 1794709881.1904464,
@@ -10943,6 +10926,7 @@
   "7265652a5266f6fb": 1794906178.1197684,
   "73242c26032fa66f": 1795091475.6584551,
   "73635f50ed86ca0d": 1795519966.7356188,
+  "737e975a397721a6": 1795798881.6577518,
   "7387e628eab736c6": 1795772040.2094126,
   "73bf58ad2b27fa9e": 1794744076.590944,
   "73f7c83e86ab8527": 1795005060.1889544,
@@ -11078,6 +11062,7 @@
   "8056ab7d216cb670": 1795183287.50716,
   "8096d0c63c292e0b": 1794634305.2953007,
   "80a3f4dc93b20059": 1795132915.5140429,
+  "80a488a04e08b3f3": 1795798925.2542071,
   "80ac518ffba9cd3f": 1795280454.879558,
   "80b878f8a0f2fa9c": 1794805286.365154,
   "80bd3cba3e663ddd": 1795042982.6484375,
@@ -11219,7 +11204,6 @@
   "8f2e6702d71c6071": 1794724367.8769994,
   "8f968cbd1040c37f": 1795359662.99869,
   "8f9fec8ef2615331": 1795302269.0693898,
-  "8fae68dceab0c80e": 1794589274.5655618,
   "8fc516c08a2a2984": 1794673854.7807264,
   "8fd07b14c788e875": 1795354267.0035863,
   "902275cd9697edca": 1795365075.237887,
@@ -11338,7 +11322,6 @@
   "9cfce9d4b64fd7f5": 1795303927.0777278,
   "9d14ac84c4dbb9c6": 1795788097.557806,
   "9d1c3a4d9c3fd21f": 1795402856.2112825,
-  "9d31be1a08a39d89": 1794587487.6467981,
   "9d3470d140efdaa2": 1795424467.6046019,
   "9d4c4835959d09a0": 1794992453.819771,
   "9d5f1e7a6ccec6ec": 1795131715.54033,
@@ -11709,6 +11692,7 @@
   "c15827a29ce22e76": 1795094153.9066393,
   "c15fc75af136a790": 1794938453.8847573,
   "c1a0ee089b539d12": 1795527059.8735101,
+  "c1c7d389e492b849": 1795798858.088159,
   "c1db77a3c2422352": 1795708945.1370962,
   "c1db9b87adc608c9": 1794810780.0711603,
   "c1e292b21fe35ef1": 1795203088.0220785,
@@ -11812,6 +11796,7 @@
   "cc7622dd3d953342": 1795267880.622071,
   "cc7e64cc060f1a5e": 1795773725.6428678,
   "ccc544e4b8e1c700": 1795230551.7888367,
+  "cce4d4409a14b5ac": 1795798858.088159,
   "ccf05b59baa5bd37": 1795550460.3864164,
   "cd2a9e679a7417f2": 1795177877.3336859,
   "cd540152fda17355": 1795609880.2743003,
@@ -12025,6 +12010,7 @@
   "e3176ce6b29cd8c2": 1795743163.2679708,
   "e327c91285a3b743": 1795584675.7441509,
   "e32d30d32883dedf": 1795541488.7726154,
+  "e332e6699d1eee8d": 1795798858.088159,
   "e33a1ccdb39f7d0a": 1795773719.7534761,
   "e34389c32b33e596": 1794929483.5526125,
   "e35567941ebd5072": 1794888085.2273755,
@@ -12284,7 +12270,6 @@
   "fc501ed49657fca1": 1795559454.9732094,
   "fc75cdc54f380e95": 1795674703.3111424,
   "fc90c750e381c97b": 1795303972.8781645,
-  "fc90c941bfca0cb5": 1794589273.877405,
   "fcc897e60db24b95": 1794972652.6501987,
   "fcda022cb96f7c95": 1795507284.0015376,
   "fcf93d5bc4e98eaa": 1795561593.4130266,
@@ -12757,7 +12742,7 @@
   "artists_checked": 1795746732.804688,
   "blocked_until": 1795833191.9257512,
   "cursor": 273,
-  "digest_week": "2026-W47",
+  "digest_week": "2026-W48",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
     "0CVnhwtOpdoIkOatkGcVwO",
@@ -13523,11 +13508,12 @@
    "IndieWire": 2,
    "Insider Gaming": 82,
    "Loudwire": 2,
-   "Metal Hammer (Louder)": 6,
+   "Metal Hammer (Louder)": 7,
+   "Metal Injection": 1,
    "Mezha": 1,
    "PC Gamer": 22,
    "PlayUA": 2,
-   "Polygon": 46,
+   "Polygon": 47,
    "Rock Paper Shotgun": 2,
    "SteamDB": 1,
    "ThePRP": 1,
@@ -13567,7 +13553,7 @@
    "Rock Paper Shotgun": 13,
    "SteamDB": 2,
    "Stereogum": 2,
-   "The Decoder": 12,
+   "The Decoder": 13,
    "ThePRP": 9,
    "VGC": 14,
    "Variety": 28
@@ -13577,7 +13563,7 @@
    "gemini-flash-latest": 9,
    "gemini-flash-lite-latest": 143,
    "gemma-4-26b-a4b-it": 95,
-   "gemma-4-31b-it": 122
+   "gemma-4-31b-it": 123
   },
   "week": "2026-W48"
  },
@@ -14296,11 +14282,6 @@
    4814480,
    "Columbine",
    1795532499.9640963
-  ],
-  "q:coming friday": [
-   0,
-   "",
-   1795624364.8421304
   ],
   "q:company of heroes 3": [
    1677280,
@@ -15742,26 +15723,6 @@
    "",
    1795653076.6932237
   ],
-  "q:sea of sorrow": [
-   0,
-   "",
-   1795624360.8287385
-  ],
-  "q:sea of sorrow update": [
-   0,
-   "",
-   1795624360.3248377
-  ],
-  "q:sea of sorrow update coming": [
-   0,
-   "",
-   1795624359.8107362
-  ],
-  "q:sea of sorrow update coming friday": [
-   0,
-   "",
-   1795624359.2884457
-  ],
   "q:seasons and rune": [
    0,
    "",
@@ -15906,26 +15867,6 @@
    0,
    "",
    1795692707.8897212
-  ],
-  "q:sorrow": [
-   0,
-   "",
-   1795624363.191475
-  ],
-  "q:sorrow update": [
-   0,
-   "",
-   1795624362.643424
-  ],
-  "q:sorrow update coming": [
-   0,
-   "",
-   1795624362.0207763
-  ],
-  "q:sorrow update coming friday": [
-   0,
-   "",
-   1795624361.4306297
   ],
   "q:soul eater": [
    2836250,
@@ -16156,16 +16097,6 @@
    0,
    "",
    1795710690.8288784
-  ],
-  "q:update coming": [
-   0,
-   "",
-   1795624364.300952
-  ],
-  "q:update coming friday": [
-   0,
-   "",
-   1795624363.7817261
   ],
   "q:v6": [
    0,
@@ -16431,7 +16362,6 @@
  "tag_hints": {
   "Mezha": [
    "android",
-   "binance",
    "chatgpt",
    "firefox",
    "google",
@@ -16444,14 +16374,12 @@
    "temu",
    "ugreen",
    "армія+",
+   "аукціон",
    "бпла",
    "браузери",
-   "біткоїн",
    "військовослужбовці",
    "зарядні пристрої",
    "кодифікація",
-   "криптовалюти",
-   "криптовалютна біржа",
    "маркетплейс",
    "медицина",
    "міноборони",
@@ -16478,14 +16406,6 @@
   1795786407.9704206
  ],
  "titles": [
-  [
-   1795624356.731401,
-   "Nasdaq 100 Enters Bear Market Territory as AI Angst Fuels Losses"
-  ],
-  [
-   1795624430.5967746,
-   "Hollow Knight: Silksong – Sea of Sorrow Update Coming Friday"
-  ],
   [
    1795626221.9033036,
    "SAP Corporate Espionage Complaint Exposes Gaps in Disclosure"
@@ -17241,17 +17161,13 @@
   [
    1795797085.2860212,
    "Red Dead Redemption 2 майже як фільм: DLSS 5 показали в дії на RTX 5080"
+  ],
+  [
+   1795798925.2542093,
+   "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models"
   ]
  ],
  "titles_uk": [
-  [
-   1795624356.7314017,
-   "Nasdaq 100 перейшов у «ведмежий» ринок через побоювання щодо ШІ"
-  ],
-  [
-   1795624430.5967755,
-   "Team Cherry розповість новини про Hollow Knight: Silksong – Sea of Sorrow у п'ятницю"
-  ],
   [
    1795626221.9033043,
    "Позов про корпоративне шпигунство в SAP викрив прогалини в розкритті інформації"
@@ -18007,6 +17923,10 @@
   [
    1795797085.2860217,
    "Red Dead Redemption 2 майже як фільм: DLSS 5 показали в дії на RTX 5080"
+  ],
+  [
+   1795798925.2542098,
+   "Дослідження Meta та AMI Labs підтверджують переваги архітектури JEPA над LLM"
   ]
  ],
  "ukrainian": {
@@ -18653,6 +18573,7 @@
    "779290": "",
    "784080": "",
    "784150": "is",
+   "801800": "",
    "803330": "",
    "805550": "",
    "809880": "",
@@ -18686,7 +18607,7 @@
    "9900": "",
    "990080": ""
   },
-  "last_check": 1795777362.9838812,
+  "last_check": 1795798944.301226,
   "with_uk": 99
  },
  "weekly_releases_week": "2026-W48",
@@ -20499,7 +20420,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795795303.9430602,
+  "last_check": 1795798934.3369746,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
