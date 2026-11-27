@@ -1,12 +1,5 @@
 {
- "alerts": {
-  "src:music|Neformat|https://www.neformat.com.ua/": {
-   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
-   "label": "Джерело «Neformat» не працює",
-   "sent": 0,
-   "since": 1795753873.031449
-  }
- },
+ "alerts": {},
  "daily_digest_date": "2026-11-26",
  "freebies": {
   "last_check": 1795752217.9135458,
@@ -39,7 +32,7 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-27 04:31 UTC",
+  "at": "2026-11-27 05:01 UTC",
   "gemini_error": "",
   "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
@@ -50,19 +43,6 @@
   ]
  },
  "post_log": [
-  [
-   1795064479.5723038,
-   6360,
-   "🤖",
-   "Продажі Lenovo перевищили очікування завдяки попиту на ШІ-обладнання",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-19/lenovo-sales-beat-estimate-due-to-solid-ai-hardware-demand",
-    "orig": "Lenovo Sales Beat Estimates Due to Solid AI Hardware Demand"
-   }
-  ],
   [
    1795064492.7573884,
    6361,
@@ -8756,7 +8736,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎮 <b>Гонки на Нюрбургринзі й ралі на мотоциклах: як Rockstar робила реалістичний транспорт у GTA 6</b>\n\nRockstar Games повністю переписала симуляцію всіх видів транспорту в GTA 6. Фізика авто в GTA 6 спирається на реальний гоночний досвід: після релізу GTA 5 частина команди почала модифікувати й ганяти справжні машини та зрештою виграла у своєму класі на 24-годинній гонці на Нюрбургринзі. Про це виданню TechRadar Gaming розповів технічний директор GTA 6 з фізики Бен Лайонс.\n\n🔗 <a href=\"https://itc.ua/ua/novini/fizyka-avto-gta-6-rockstar-nyurburgryng/\">ITC.ua</a> · #ігри",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/fizyka-avto-gta-6-rockstar-nyurburgryng/",
     "orig": "Гонки на Нюрбургринзі й ралі на мотоциклах: як Rockstar робила реалістичний транспорт у GTA 6"
@@ -8839,7 +8818,12 @@
    "Ubisoft заперечує вимогу обов'язково використовувати генеративний ШІ в іграх",
    "Rock Paper Shotgun",
    {
-    "also": [],
+    "also": [
+     [
+      "Insider Gaming",
+      "https://insider-gaming.com/ubisoft-generative-ai-denied/"
+     ]
+    ],
     "caption": "🎮 <b>Ubisoft заперечує вимогу обов&#x27;язково використовувати генеративний ШІ в іграх</b>\n\nЗ&#x27;явилася інформація, що розробники Ubisoft нібито мають детально пояснювати відмову від генеративного ШІ під час пітчингу нових ігор. У компанії спростували наявність такого жорсткого правила, наголосивши, що команди самі вирішують доцільність використання подібних технологій.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/ubisoft-now-require-their-devs-to-explain-why-they-arent-using-genai-in-game-pitches-claims-report-though-the-assassins-creed-publishers-deny-theyre-mandating-it\">Rock Paper Shotgun</a> · #ігри #Ubisoft",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/ubisoft-now-require-their-devs-to-explain-why-they-arent-using-genai-in-game-pitches-claims-report-though-the-assassins-creed-publishers-deny-theyre-mandating-it",
@@ -8983,6 +8967,10 @@
      [
       "The Decoder",
       "https://the-decoder.com/nvidia-halts-server-shipments-to-malaysia-singapore-thailand-and-indonesia-after-tighter-us-export-controls/"
+     ],
+     [
+      "Deadline",
+      "https://deadline.com/2026/11/trumps-thanksgiving-new-york-times-attack-1237234141/"
      ]
     ],
     "caption": "🤖 <b>NVIDIA обмежує постачання ШІ-чипів до чотирьох країн Азії через ризик їхнього потрапляння до Китаю</b>\n\nNVIDIA наказала виробникам серверів, що використовують її ШІ-чипи, зупинити постачання до Малайзії, Індонезії, Сінгапуру та Таїланду на фоні посилення експортних обмежень технологій до Китаю.\n\n🔗 <a href=\"https://mezha.ua/news/nvidia-halts-chip-shipments-to-south-east-asia-317613/\">Mezha</a> · #ШІ",
@@ -9611,6 +9599,20 @@
     "link": "https://variety.com/2026/film/news/laxman-utekar-rajkumar-periasamy-vishnuvardhan-films-tseries-1236958689/",
     "orig": "Laxman Utekar, Rajkumar Periasamy and Vishnuvardhan Set New Films With Bhushan Kumar’s T-Series (EXCLUSIVE)"
    }
+  ],
+  [
+   1795755686.2982464,
+   7104,
+   "🤖",
+   "Іноземні інвестори масово розпродають акції тайванських компаній через спад у технологічному секторі",
+   "Bloomberg",
+   {
+    "also": [],
+    "caption": "🤖 <b>Іноземні інвестори масово розпродають акції тайванських компаній через спад у технологічному секторі</b>\n\nУ листопаді іноземні інвестори скинули рекордний обсяг акцій на тайванському ринку. Це підкреслює масштаб падіння світового лідера у сфері ШІ на тлі загального відтоку капіталу з технологічних компаній.\n\n🔗 <a href=\"https://www.bloomberg.com/news/articles/2026-11-27/foreign-funds-on-pace-for-record-taiwan-stock-exodus-in-ai-rout\">Bloomberg</a> · #ШІ",
+    "kind": "text",
+    "link": "https://www.bloomberg.com/news/articles/2026-11-27/foreign-funds-on-pace-for-record-taiwan-stock-exodus-in-ai-rout",
+    "orig": "Foreign Funds on Pace for Record Taiwan Stock Exodus in AI Rout"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9618,12 +9620,12 @@
    1795721475.7204225
   ],
   "ai|Bloomberg|https://www.bloomberg.com/feeds/technology/news.rss": [
-   1795667619.7963848,
    1795672921.8926306,
    1795678434.7685053,
    1795681956.8203354,
    1795712480.7627933,
-   1795714519.1565151
+   1795714519.1565151,
+   1795755686.2984881
   ],
   "ai|DOU|https://dou.ua/feed/": [
    1795681880.741332,
@@ -10235,7 +10237,6 @@
   "26efec1fecae59a2": 1795554093.1638534,
   "270089b6c4abd78f": 1795510886.620585,
   "2705c88e0a367dd4": 1795008701.2971165,
-  "2715629e7d4a057f": 1794544460.9972136,
   "2722e18aaa1f07f4": 1795075254.4414396,
   "2740d77c8d35b53e": 1795737873.7790158,
   "2749d460911f018d": 1795655039.1444461,
@@ -10515,7 +10516,6 @@
   "461a9b3b39ce3952": 1795017717.6111512,
   "461ddb441b66c792": 1795285856.5140746,
   "4626a064892d7d4a": 1795509054.4727116,
-  "46543acef25d9106": 1794546054.4432764,
   "469d93e7fd46199c": 1795275057.4489214,
   "46f62016667e521c": 1795595796.8069491,
   "47297d5e5f2e28cb": 1794729676.9678183,
@@ -10593,7 +10593,6 @@
   "4dfeed0ddd6557a9": 1795199460.213731,
   "4e26a6d1af50c7ed": 1795662139.3334186,
   "4e285fad042ed34f": 1794609055.1572344,
-  "4e2910dfe679ae25": 1794546093.7181077,
   "4e62dacbd08721ad": 1795493058.9517937,
   "4ecb0627c5f34ba9": 1795483857.0796409,
   "4f0cb75838c02b52": 1795075300.231998,
@@ -11311,7 +11310,6 @@
   "9abb1ec6528559f6": 1795462254.9235594,
   "9ad286843cd07d2d": 1794888089.2164843,
   "9aefd02ab82f040a": 1794629074.8660176,
-  "9b07f215c2b4e375": 1794544464.6059783,
   "9b1db059eedb414a": 1795104054.405295,
   "9b2274adf1414ff7": 1795473129.039145,
   "9b3a3db4c8120b88": 1795393881.5867524,
@@ -11517,6 +11515,7 @@
   "af5700409a88993e": 1795098686.4612706,
   "af60c308cb8b1eae": 1795725054.3554904,
   "af7f01de94ffa5ce": 1794596480.2130246,
+  "af8e2fd4911ca960": 1795755675.8787036,
   "af94feae22729c7a": 1794875511.543285,
   "afba753eba8e2629": 1795041093.9012902,
   "afc46a1829bbc4ae": 1795514567.1513963,
@@ -11640,6 +11639,7 @@
   "bd33d17f2ff5c865": 1794673881.9477994,
   "bd4bc2ce19de7d37": 1794969087.790321,
   "bd4fec8eba81c105": 1794880908.74793,
+  "bd53f3324dc22d9c": 1795755653.1728623,
   "bd58b25f35d4416e": 1795003298.0038018,
   "bd5ebbfdeb53e082": 1795114863.5731728,
   "bda0dc108c4cd47c": 1794904275.4484015,
@@ -11667,6 +11667,7 @@
   "c0176b29b71765d3": 1795262900.692457,
   "c0259ae0847c711a": 1795712454.4846113,
   "c03f7b16bb04bfe0": 1794934900.8836668,
+  "c07228401b092aaf": 1795755686.2984421,
   "c0795d054075efdf": 1794893609.9540985,
   "c08edfbb0325ff31": 1794852057.7928073,
   "c0b7ccc248148c3e": 1795094375.506453,
@@ -12166,6 +12167,7 @@
   "f475b4898e9006a1": 1795752077.6437755,
   "f475cb34cd65d9f9": 1795564881.1212597,
   "f498299ceeebd7c8": 1794940252.7221177,
+  "f49956895e23f9b8": 1795755684.4013238,
   "f4af4ec4f0e5b0c3": 1795732325.6042566,
   "f4d0715bf8848d44": 1795212402.1109285,
   "f4f435b8c5aa1288": 1795159859.629758,
@@ -12718,7 +12720,7 @@
   ],
   "artists_checked": 1795746732.804688,
   "blocked_until": 1795745172.3733294,
-  "cursor": 221,
+  "cursor": 231,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13487,7 +13489,7 @@
    "Metal Hammer (Louder)": 4,
    "PC Gamer": 20,
    "PlayUA": 2,
-   "Polygon": 37,
+   "Polygon": 38,
    "Rock Paper Shotgun": 2,
    "SteamDB": 1,
    "ThePRP": 1,
@@ -13498,7 +13500,7 @@
    "/Film": 16,
    "AIN.ua": 3,
    "Blabbermouth": 4,
-   "Bloomberg": 32,
+   "Bloomberg": 33,
    "DOU": 4,
    "DOU Gamedev": 3,
    "Deadline": 58,
@@ -13535,7 +13537,7 @@
   "translators": {
    "DeepL": 26,
    "gemini-flash-latest": 9,
-   "gemini-flash-lite-latest": 121,
+   "gemini-flash-lite-latest": 123,
    "gemma-4-26b-a4b-it": 85,
    "gemma-4-31b-it": 117
   },
@@ -14607,6 +14609,31 @@
    "DELTARUNE",
    1795239218.6696758
   ],
+  "q:denies": [
+   0,
+   "",
+   1795755680.679589
+  ],
+  "q:denies it": [
+   0,
+   "",
+   1795755680.1205392
+  ],
+  "q:denies it requires": [
+   0,
+   "",
+   1795755679.6035697
+  ],
+  "q:denies it requires developers": [
+   0,
+   "",
+   1795755679.1024601
+  ],
+  "q:denies it requires developers to use": [
+   0,
+   "",
+   1795755678.6004953
+  ],
   "q:departure": [
    1957220,
    "Departure.",
@@ -15096,6 +15123,21 @@
    4016010,
    "Input",
    1793491313.3795223
+  ],
+  "q:it requires developers": [
+   0,
+   "",
+   1795755682.2362735
+  ],
+  "q:it requires developers to use": [
+   0,
+   "",
+   1795755681.7136686
+  ],
+  "q:it requires developers to use generative": [
+   0,
+   "",
+   1795755681.2056813
   ],
   "q:join": [
    4948290,
@@ -16372,6 +16414,26 @@
    "Tyler",
    1793403098.8882158
   ],
+  "q:ubisoft denies": [
+   0,
+   "",
+   1795755678.068812
+  ],
+  "q:ubisoft denies it": [
+   0,
+   "",
+   1795755677.542049
+  ],
+  "q:ubisoft denies it requires": [
+   0,
+   "",
+   1795755677.0270946
+  ],
+  "q:ubisoft denies it requires developers": [
+   0,
+   "",
+   1795755676.4870408
+  ],
   "q:unreal engine": [
    0,
    "",
@@ -16706,14 +16768,6 @@
   1795744144.232577
  ],
  "titles": [
-  [
-   1795581284.9216957,
-   "One Of Star Trek's Best Spock Episodes Is Hidden In The Series You Never Watched"
-  ],
-  [
-   1795581428.712122,
-   "‘The Remarried Empress’ Star Shin Mina On Playing Royalty, Shooting In Europe & Why The Show Is Such A Huge Hit"
-  ],
   [
    1795582912.681665,
    "Jenna Ushkowitz Says ‘Glee’s Cory Monteith Tribute “Wasn’t The Right Thing”: “It Was Too Soon For That”"
@@ -17473,17 +17527,13 @@
   [
    1795753905.479362,
    "Laxman Utekar, Rajkumar Periasamy and Vishnuvardhan Set New Films With Bhushan Kumar’s T-Series (EXCLUSIVE)"
+  ],
+  [
+   1795755686.2984445,
+   "Foreign Funds on Pace for Record Taiwan Stock Exodus in AI Rout"
   ]
  ],
  "titles_uk": [
-  [
-   1795581284.9216964,
-   "Епізод Yesteryear у Star Trek: The Animated Series розкриває минуле Spock"
-  ],
-  [
-   1795581428.712123,
-   "Зірка The Remarried Empress Шін Міна — про роль імператриці та зйомки в Європі"
-  ],
   [
    1795582912.681666,
    "Дженна Ашковіц назвала помилкою епізод-триб'ют Корі Монтейту в Glee"
@@ -18243,6 +18293,10 @@
   [
    1795753905.479363,
    "Лакшман Утекар, Раджкумар Періасамі та Вішнувардхан знімуть нові фільми для T-Series"
+  ],
+  [
+   1795755686.2984452,
+   "Іноземні інвестори масово розпродають акції тайванських компаній через спад у технологічному секторі"
   ]
  ],
  "ukrainian": {
@@ -18603,6 +18657,7 @@
    "2909400": "",
    "291550": "",
    "2920220": "",
+   "292030": "is",
    "2924520": "",
    "292730": "",
    "2929250": "i",
@@ -18920,8 +18975,8 @@
    "9900": "",
    "990080": ""
   },
-  "last_check": 1795734175.0300596,
-  "with_uk": 100
+  "last_check": 1795755697.7873564,
+  "with_uk": 101
  },
  "weekly_releases_week": "2026-W48",
  "wishlist": {
