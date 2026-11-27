@@ -1,5 +1,11 @@
 {
  "alerts": {
+  "src:games|Polygon|https://www.polygon.com/feed/": {
+   "detail": "https://www.polygon.com/feed/ → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))\nhttps://www.polygon.com/rss/index.xml → ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))",
+   "label": "Джерело «Polygon» не працює",
+   "sent": 0,
+   "since": 1795789865.5984287
+  },
   "src:music|ThePRP|https://www.theprp.com/feed/": {
    "detail": "https://www.theprp.com/feed/ → HTTPSConnectionPool(host='www.theprp.com', port=443): Read timed out. (read timeout=20)",
    "label": "Джерело «ThePRP» не працює",
@@ -9,7 +15,7 @@
  },
  "daily_digest_date": "2026-11-26",
  "freebies": {
-  "last_check": 1795781630.2288687,
+  "last_check": 1795789903.437827,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -52,19 +58,6 @@
   ]
  },
  "post_log": [
-  [
-   1795097020.5500975,
-   6401,
-   "🎮",
-   "Call of Duty: Modern Warfare 4 очолила список продажів у США за жовтень",
-   "GamesIndustry.biz",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-debuts-as-top-selling-game-in-us-for-october-2026",
-    "orig": "Call of Duty: Modern Warfare 4 debuts as top-selling game in US for October 2026"
-   }
-  ],
   [
    1795098787.4041963,
    6402,
@@ -8729,7 +8722,6 @@
    "Metal Hammer (Louder)",
    {
     "also": [],
-    "caption": "🤘 <b>Molly Hatchet випустили новий альбом Lost Horizon, записаний на Abbey Road</b>\n\nMolly Hatchet випустили свій чотирнадцятий студійний альбом Lost Horizon через 16 років після Justice. Запис проходив у лондонській студії Abbey Road, зокрема у Studio Two, де працювали The Beatles. Пластинка виконана у стилі southern rock і містить як нові треки, так і кавер на Helter Skelter.\n\n🔗 <a href=\"https://www.loudersound.com/music/albums/molly-hatchet-lost-horizon\">Metal Hammer (Louder)</a> · #музика #MollyHatchet",
     "kind": "photo",
     "link": "https://www.loudersound.com/music/albums/molly-hatchet-lost-horizon",
     "orig": "Molly Hatchet's Lost Horizons: Recorded at London's Abbey Road, but all-American to the core"
@@ -8743,7 +8735,6 @@
    "ThePRP",
    {
     "also": [],
-    "caption": "🤘 <b>Барабанщик Red Hot Chili Peppers Чед Сміт виступив разом із Wu-Tang Clan</b>\n\nБарабанщик Red Hot Chili Peppers Чед Сміт приєднався до Wu-Tang Clan під час виступу на матчі між Detroit Lions та Chicago Bears у Детройті. Музиканти зіграли попурі з головних хітів хіп-хоп гурту. Це не перша їхня спільна робота: у 2000 році Сміт брав участь у записі треку для реп-метал компіляції Loud Rocks.\n\n🔗 <a href=\"https://www.theprp.com/2026/11/26/news/red-hot-chili-peppers-chad-smith-sat-in-with-wu-tang-clan-at-the-detroit-lions-vs-chicago-bears-halftime-show/\">ThePRP</a> · #музика #RedHotChiliPeppers #WuTangClan",
     "kind": "photo",
     "link": "https://www.theprp.com/2026/11/26/news/red-hot-chili-peppers-chad-smith-sat-in-with-wu-tang-clan-at-the-detroit-lions-vs-chicago-bears-halftime-show/",
     "orig": "Red Hot Chili Peppers’ Chad Smith Sat In With Wu-Tang Clan At The Detroit Lions Vs. Chicago Bears Halftime Show"
@@ -9589,6 +9580,34 @@
     "link": "https://deadline.com/2026/11/wildling-pictures-buys-operation-sparrow-horror-queen-mab-1237234239/",
     "orig": "Wildling Pictures Acquires Screen Rights To WWII Spy Story ‘Operation Sparrow’ & Folk Horror Novel ‘Queen Mab’"
    }
+  ],
+  [
+   1795789899.3144088,
+   7143,
+   "🎬",
+   "«Голодні ігри» обійшли новинки Disney і Universal перед Днем подяки",
+   "ITC.ua",
+   {
+    "also": [],
+    "caption": "🎬 <b>«Голодні ігри» обійшли новинки Disney і Universal перед Днем подяки</b>\n\n«Голодні ігри: Світанок перед Жнивами» лідирують у прокаті Північної Америки напередодні Дня подяки. У середу, 25 листопада, приквел від Lionsgate зібрав $15 млн. Завдяки гарним відгукам глядачів за п’ятиденні святкові вихідні фільм може заробити ще $85 млн, і тоді його збори в США та Канаді сягнуть $233 млн.\n\n🔗 <a href=\"https://itc.ua/ua/novini/golodni-igry-den-podyaky-kasovi-zbory-hexed-focker-in-law/\">ITC.ua</a> · #кіно_і_серіали",
+    "kind": "text",
+    "link": "https://itc.ua/ua/novini/golodni-igry-den-podyaky-kasovi-zbory-hexed-focker-in-law/",
+    "orig": "«Голодні ігри» обійшли новинки Disney і Universal перед Днем подяки"
+   }
+  ],
+  [
+   1795789901.8643515,
+   7144,
+   "💾",
+   "Samsung розробляє захищену хмару для ШІ за аналогією з Apple",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "💾 <b>Samsung розробляє захищену хмару для ШІ за аналогією з Apple</b>\n\nSamsung тестує SPAC – систему захищеної хмарної обробки даних для Galaxy AI, схожу на Private Cloud Compute від Apple. Вона має допомогти виконувати ШІ-запити на серверах компанії, водночас краще захищаючи приватність користувачів.\n\n🔗 <a href=\"https://mezha.ua/news/samsung-private-cloud-for-ai-features-317651/\">Mezha</a> · #софт",
+    "kind": "photo",
+    "link": "https://mezha.ua/news/samsung-private-cloud-for-ai-features-317651/",
+    "orig": "Samsung розробляє захищену хмару для ШІ за аналогією з Apple"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9730,7 +9749,8 @@
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795775478.906556,
-   1795783527.0607145
+   1795783527.0607145,
+   1795789899.3146515
   ],
   "movies|IndieWire|https://www.indiewire.com/feed/": [
    1795651499.8481889,
@@ -9841,9 +9861,9 @@
    1795782694.520322
   ],
   "software|Mezha|https://mezha.ua/feed/": [
-   1795678280.2620308,
    1795708946.1606395,
-   1795743087.1298804
+   1795743087.1298804,
+   1795789901.8645804
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
    1795714508.8689668,
@@ -9906,6 +9926,7 @@
   "05acc5df2ba56e7f": 1794612684.7517095,
   "05ceb22b6f1d0639": 1794891685.4781559,
   "061012d64fe8b243": 1795707254.9491234,
+  "06185f1101ff9fdd": 1795789857.112927,
   "062ba47c62da9eee": 1794834194.274951,
   "062e8e1481971987": 1794965493.925166,
   "065450d7caf6811d": 1795624255.2613497,
@@ -10800,6 +10821,7 @@
   "669e1dc29a1d46b5": 1795165299.7996006,
   "669fdc3299d8ba15": 1795176450.0100064,
   "66df6c2ecaa2e6c7": 1795606495.3331037,
+  "66e6edd422b823af": 1795789857.112927,
   "66fd79c1e26ac1f2": 1795363253.945743,
   "670121a3b10e4495": 1795087876.073899,
   "6722511d274005a0": 1795537857.1621616,
@@ -10851,7 +10873,6 @@
   "6a9010b4428aa781": 1795431811.6999888,
   "6ab5dc6e0c2942f4": 1795690913.6110363,
   "6abd2f5eef76c8b8": 1794634255.263127,
-  "6ad3b63ac5f73385": 1794580255.5600233,
   "6b13b5939d2fdca9": 1795242678.5381863,
   "6b173b7065c2acd2": 1795303856.0284865,
   "6b3fc7c0e9717ec9": 1795557855.5907664,
@@ -11117,6 +11138,7 @@
   "85918bf3877587ac": 1795126079.981354,
   "85931a406daa451e": 1794996185.3027115,
   "85a232eb549a241a": 1795752216.289453,
+  "85a82101798e12cc": 1795789901.8645377,
   "85b992aee87858e9": 1795627854.4684675,
   "85e411e342226a52": 1794648773.5512936,
   "861d5b4215f6f343": 1795437078.4428258,
@@ -11532,7 +11554,9 @@
   "b16b2af01c6e531e": 1795278653.9636526,
   "b196e95258849c92": 1794772855.921209,
   "b1adf23db471e238": 1795005105.6995087,
+  "b1b5586582fcbf83": 1795789857.112927,
   "b1e110be8a2b54e8": 1795087856.688431,
+  "b1ef996b8a7549de": 1795789898.6811507,
   "b2183a948b0068a2": 1794708113.8907459,
   "b24d247460104a0c": 1794868447.5765305,
   "b2781f35e5635fe0": 1794695766.841244,
@@ -11829,6 +11853,7 @@
   "d1628a0d3dd5b01e": 1795185063.5654962,
   "d16b61b3f9dbe5dc": 1794911484.7749104,
   "d175dd3083d65f17": 1794708110.0775664,
+  "d1a56713a4fd89c6": 1795789899.3146126,
   "d1bb027416e83527": 1795527251.08639,
   "d1bd74de1aa61c8b": 1795147332.8076549,
   "d1d5982577bef9c1": 1795240915.26803,
@@ -11943,7 +11968,6 @@
   "dc4e3b35cf305df9": 1794690051.930596,
   "dc70919b0b7e9b49": 1795242678.538587,
   "dc8067b55e009d2c": 1795626221.9033012,
-  "dcbe7ba00871fa67": 1794580287.2614179,
   "dcd110402d201def": 1795440658.0846477,
   "dd18fa79f3def6bc": 1795577609.868643,
   "dd389dd16d8ef8c4": 1794632451.7232893,
@@ -12262,7 +12286,6 @@
   "fc90c941bfca0cb5": 1794589273.877405,
   "fcc897e60db24b95": 1794972652.6501987,
   "fcda022cb96f7c95": 1795507284.0015376,
-  "fce68728c74d42dd": 1794580296.155251,
   "fcf93d5bc4e98eaa": 1795561593.4130266,
   "fd133704e3393003": 1795221303.1654193,
   "fd5f7d1686569b39": 1795503766.352804,
@@ -13496,17 +13519,17 @@
    "IGN": 16,
    "ITC.ua": 1,
    "IndieWire": 2,
-   "Insider Gaming": 77,
+   "Insider Gaming": 78,
    "Loudwire": 2,
    "Metal Hammer (Louder)": 5,
    "Mezha": 1,
-   "PC Gamer": 21,
+   "PC Gamer": 22,
    "PlayUA": 2,
    "Polygon": 43,
    "Rock Paper Shotgun": 2,
    "SteamDB": 1,
    "ThePRP": 1,
-   "VGC": 36,
+   "VGC": 37,
    "Variety": 16
   },
   "sources": {
@@ -13525,14 +13548,14 @@
    "GamesIndustry.biz": 10,
    "Hugging Face": 5,
    "IGN": 1,
-   "ITC.ua": 42,
+   "ITC.ua": 43,
    "IndieWire": 7,
    "Insider Gaming": 12,
    "Kerrang!": 2,
    "Lambgoat": 19,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 15,
-   "Mezha": 32,
+   "Mezha": 33,
    "Neformat": 16,
    "PC Gamer": 11,
    "Pitchfork": 3,
@@ -13807,20 +13830,10 @@
    "007 First Light",
    1795100491.5252728
   ],
-  "q:15": [
-   0,
-   "",
-   1795615431.7889144
-  ],
   "q:16": [
    4655470,
    "16叠谋杀之谜",
    1795783350.4280343
-  ],
-  "q:2": [
-   0,
-   "",
-   1795615430.7640376
   ],
   "q:2000": [
    1642580,
@@ -14546,16 +14559,6 @@
    0,
    "",
    1795755678.6004953
-  ],
-  "q:diablo": [
-   0,
-   "",
-   1795615430.2876034
-  ],
-  "q:diablo 2": [
-   0,
-   "",
-   1795615429.6662922
   ],
   "q:doom": [
    379720,
@@ -15887,11 +15890,6 @@
    "",
    1795624359.2884457
   ],
-  "q:season 15": [
-   0,
-   "",
-   1795615431.2522855
-  ],
   "q:seasons and rune": [
    0,
    "",
@@ -16572,19 +16570,16 @@
   "Mezha": [
    "apple",
    "binance",
+   "gta 6",
    "ipad",
    "lynx kf41",
-   "mazda",
-   "mazda cx-30",
+   "one ui 9.5",
    "rheinmetall",
+   "samsung",
    "temu",
-   "volkswagen",
-   "volkswagen t-roc",
-   "авто",
    "армія сша",
    "армія+",
    "бронетехніка",
-   "бізнес",
    "біткоїн",
    "військовослужбовці",
    "криптовалюти",
@@ -16600,13 +16595,12 @@
    "планшети",
    "платформи",
    "сили оборони",
-   "статті",
+   "софт",
    "сша",
-   "тест-драйв",
-   "технології",
    "хакери",
    "штучний інтелект",
-   "єс"
+   "єс",
+   "ігри"
   ]
  },
  "telegraph": [
@@ -16616,14 +16610,6 @@
   1795786407.9704206
  ],
  "titles": [
-  [
-   1795615427.674737,
-   "21-year Call of Duty veteran says he ‘can no longer recommend a career in game development’"
-  ],
-  [
-   1795615515.656083,
-   "Blizzard is making a lot of the Diablo 4's event-specific Diablo 2 anniversary content permanent because everyone loved it in Season 15"
-  ],
   [
    1795618885.3987038,
    "Найкраща гра для фанатів екшенів — Onimusha: Way of the Sword (Rendaros UA)"
@@ -17375,17 +17361,17 @@
   [
    1795788178.4441378,
    "Wildling Pictures Acquires Screen Rights To WWII Spy Story ‘Operation Sparrow’ & Folk Horror Novel ‘Queen Mab’"
+  ],
+  [
+   1795789899.3146143,
+   "«Голодні ігри» обійшли новинки Disney і Universal перед Днем подяки"
+  ],
+  [
+   1795789901.8645394,
+   "Samsung розробляє захищену хмару для ШІ за аналогією з Apple"
   ]
  ],
  "titles_uk": [
-  [
-   1795615427.6747375,
-   "Ветеран Call of Duty більше не рекомендує кар'єру в геймдеві"
-  ],
-  [
-   1795615515.6560838,
-   "Компанія Blizzard робить значну частину ювілейного контенту для «Diablo 2», пов’язаного з івентом Diablo 4, постійною, оскільки він дуже сподобався гравцям у 15-му сезоні"
-  ],
   [
    1795618885.3987045,
    "Найкраща гра для фанатів екшенів — Onimusha: Way of the Sword (Rendaros UA)"
@@ -18137,6 +18123,14 @@
   [
    1795788178.4441385,
    "Wildling Pictures отримала права на екранізацію шпигунського трилера та фолк-хоррору"
+  ],
+  [
+   1795789899.314615,
+   "«Голодні ігри» обійшли новинки Disney і Universal перед Днем подяки"
+  ],
+  [
+   1795789901.8645399,
+   "Samsung розробляє захищену хмару для ШІ за аналогією з Apple"
   ]
  ],
  "ukrainian": {
