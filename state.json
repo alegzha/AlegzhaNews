@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795750276.558819
+  }
+ },
  "daily_digest_date": "2026-11-26",
  "freebies": {
   "last_check": 1795745122.7214725,
@@ -32,44 +39,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-27 03:06 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "at": "2026-11-27 03:31 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
-   "gemma-4-26b-a4b-it": 2
+   "gemini-flash-lite-latest": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795059077.2798998,
-   6354,
-   "🤘",
-   "Пети Сміт дійсно розтинали як вокалістку VAN HALEN у 1985 році",
-   "Blabbermouth",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://blabbermouth.net/news/michael-anthony-confirms-patty-smyth-was-once-considered-for-van-halen-singer-position",
-    "orig": "MICHAEL ANTHONY Confirms PATTY SMYTH Was Once 'Considered' For VAN HALEN Singer Position"
-   }
-  ],
-  [
-   1795059079.87457,
-   6355,
-   "🎬",
-   "Помер актор Ларрі Поїндекстер",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/larry-poindexter-dead-swat-jag-days-of-our-lives-actor-1237228697/",
-    "orig": "Larry Poindexter Dies: ‘S.W.A.T.’, ‘JAG’ & ‘Days Of Our Lives’ Actor Was 66"
-   }
-  ],
   [
    1795061027.7436187,
    6356,
@@ -8745,7 +8725,6 @@
    "Hugging Face",
    {
     "also": [],
-    "caption": "🤖 <b>Запущено бенчмарк-панель llama.cpp для AMD Ryzen та Radeon</b>\n\nНа Hugging Face з&#x27;явився дашборд для тестування продуктивності llama.cpp на залізі AMD Ryzen та Radeon. Інструмент дозволяє відстежувати швидкість обробки запитів і генерації тексту для різних моделей, квантувань та збірок. Це допоможе розробникам порівнювати результати локального інференсу на конкретному обладнанні.\n\n🔗 <a href=\"https://huggingface.co/blog/ggml-org/llamacpp-amd-bench\">Hugging Face</a> · #ШІ #AMD #LlamaCpp",
     "kind": "photo",
     "link": "https://huggingface.co/blog/ggml-org/llamacpp-amd-bench",
     "orig": "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon"
@@ -8759,7 +8738,6 @@
    "VGC",
    {
     "also": [],
-    "caption": "🎮 <b>«Батько» PlayStation Кен Кутарагі зізнався, що таємно хотів переконати Microsoft створити Xbox</b>\n\nКен Кутарагі стверджує, що частково саме завдяки йому компанія Microsoft прийняла рішення про випуск Xbox\n\n🔗 <a href=\"https://www.videogameschronicle.com/news/playstation-father-ken-kutaragi-claims-he-secretly-intended-to-convince-microsoft-to-make-xbox/\">VGC</a> · #ігри",
     "kind": "photo",
     "link": "https://www.videogameschronicle.com/news/playstation-father-ken-kutaragi-claims-he-secretly-intended-to-convince-microsoft-to-make-xbox/",
     "orig": "PlayStation father Ken Kutaragi claims he ‘secretly intended’ to convince Microsoft to make Xbox"
@@ -9600,6 +9578,34 @@
     "link": "https://deadline.com/2026/11/julianne-hough-stylist-fan-backlash-dwts-wardrobe-1237234193/",
     "orig": "Julianne Hough’s Stylist Addresses Fan Backlash To Her ‘Dancing With the Stars’ Wardrobe This Season"
    }
+  ],
+  [
+   1795750284.2081466,
+   7098,
+   "🤘",
+   "Knosis випустили новий сингл Gareki за участю Lil Lotus",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Knosis випустили новий сингл Gareki за участю Lil Lotus</b>\n🎧 Слухати: <a href=\"https://open.spotify.com/search/Knosis%20Gareki\">Spotify</a> · <a href=\"https://music.youtube.com/search?q=Knosis%20Gareki\">YouTube Music</a>\n\nГурт Knosis під керівництвом колишнього вокаліста Crystal Lake Ryo Kinoshita презентував новий сингл Gareki. Трек записано за участю вокаліста From First To Last Lil Lotus, а також доповнено офіційним кліпом від режисера Takasuke Kato.\n\n🔗 <a href=\"https://lambgoat.com/news/56080/knosis-debut-latest-single-gareki-featuring-from-first-to-lasts-lil-lotus/\">Lambgoat</a> · #музика #Knosis #FromFirstToLast",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/56080/knosis-debut-latest-single-gareki-featuring-from-first-to-lasts-lil-lotus/",
+    "orig": "Knosis debut latest single \"Gareki\" featuring From First To Last's Lil Lotus"
+   }
+  ],
+  [
+   1795750287.9907064,
+   7099,
+   "🤘",
+   "Ulver анонсували новий альбом Neverland II та випустили сингл Shadow Of '96",
+   "Lambgoat",
+   {
+    "also": [],
+    "caption": "🤘 <b>Ulver анонсували новий альбом Neverland II та випустили сингл Shadow Of &#x27;96</b>\n▶️ <a href=\"https://youtu.be/zhXbPt8lOSY\">Дивитися кліп</a>\n🎧 Слухати: <a href=\"https://open.spotify.com/search/Ulver%20Shadow%20Of%20%2796\">Spotify</a> · <a href=\"https://music.youtube.com/search?q=Ulver%20Shadow%20Of%20%2796\">YouTube Music</a>\n\nНорвезький гурт Ulver анонсував свій п&#x27;ятнадцятий студійний альбом Neverland II, який вийде 31 грудня. Це друга частина трилогії Neverland, що поєднує електронні та рокові елементи. Разом із анонсом колектив презентував перший сингл «Shadows Of &#x27;96».\n\n🔗 <a href=\"https://lambgoat.com/news/56082/ulver-announce-lp15-share-official-visualizer-for-lead-single-shadow-of-96/\">Lambgoat</a> · #музика #Ulver",
+    "kind": "photo",
+    "link": "https://lambgoat.com/news/56082/ulver-announce-lp15-share-official-visualizer-for-lead-single-shadow-of-96/",
+    "orig": "Ulver announce LP15, share official visualizer for lead single \"Shadow Of '96\""
+   }
   ]
  ],
  "posted_by_source": {
@@ -9781,10 +9787,10 @@
    1795746716.3130453
   ],
   "music|Lambgoat|https://feeds.feedburner.com/LambgoatcomNewsHeadlines": [
-   1795662139.3334653,
-   1795662175.7347193,
    1795734155.7020926,
-   1795737944.7094746
+   1795737944.7094746,
+   1795750284.2083995,
+   1795750287.9909694
   ],
   "music|Loudwire|https://loudwire.com/feed/": [
    1795478516.0810792
@@ -10307,7 +10313,6 @@
   "2f8e87a0c57291da": 1794963653.7262375,
   "2fa45663b0c3af9d": 1795599058.851747,
   "2fe28318cf9ef633": 1794688255.2504742,
-  "2fe760ec94934248": 1794540653.3231752,
   "301e9c99282ec04c": 1795080652.932032,
   "301f468ee8b9ffa3": 1795275057.4489214,
   "302e28319bc0ab8c": 1795626060.0451415,
@@ -10969,6 +10974,7 @@
   "768e5600b73c2008": 1795696290.5372956,
   "76c577d8e8080f24": 1795212247.0605948,
   "76e19d3b2aa2730b": 1794607254.7994547,
+  "77053450efcaea62": 1795750287.9909248,
   "771d4dca08bcaad0": 1794661290.499371,
   "771ef06f5955f711": 1795057290.9654427,
   "772872eae734d66f": 1795426257.8103461,
@@ -11478,6 +11484,7 @@
   "acef0590d00add28": 1795712454.4846113,
   "ad528fda3d4a813b": 1794830453.3805504,
   "ad5b0d6b684f397b": 1795359662.99869,
+  "ad75a7a5b7e22c6b": 1795750257.5821095,
   "ad86b40e86740426": 1795631500.8892293,
   "adaa3b59b7ba0601": 1794807087.558263,
   "adad4ea4f55d3dee": 1795014053.3303049,
@@ -11851,6 +11858,7 @@
   "d565ed08c0e4ee98": 1795244748.7001777,
   "d57343493e645f85": 1795516283.404083,
   "d57491b05c6fbe3b": 1794634296.9440062,
+  "d575e4521b6ba437": 1795750284.2083535,
   "d5c1fe12af72c606": 1795350656.068994,
   "d5d3bdcb322fcc1c": 1795321991.1757953,
   "d5dd04c76a688ff3": 1795500082.9155853,
@@ -12700,7 +12708,7 @@
   ],
   "artists_checked": 1795746732.804688,
   "blocked_until": 1795745172.3733294,
-  "cursor": 191,
+  "cursor": 201,
   "digest_week": "2026-W47",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13457,7 +13465,7 @@
   },
   "filtered": {
    "/Film": 18,
-   "Bloomberg": 27,
+   "Bloomberg": 28,
    "Deadline": 8,
    "Eurogamer": 1,
    "GameSpot": 6,
@@ -13496,7 +13504,7 @@
    "IndieWire": 7,
    "Insider Gaming": 11,
    "Kerrang!": 2,
-   "Lambgoat": 17,
+   "Lambgoat": 19,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 15,
    "Mezha": 31,
@@ -13517,7 +13525,7 @@
   "translators": {
    "DeepL": 26,
    "gemini-flash-latest": 9,
-   "gemini-flash-lite-latest": 117,
+   "gemini-flash-lite-latest": 119,
    "gemma-4-26b-a4b-it": 84,
    "gemma-4-31b-it": 116
   },
@@ -16629,10 +16637,6 @@
  ],
  "titles": [
   [
-   1795577483.829963,
-   "YOB – Clearing the Path to Ascend"
-  ],
-  [
    1795577609.8686442,
    "Philip Rosenberg Dies: Oscar-Winning Production Designer On ‘All That Jazz’ As Well As ‘Network’ & ‘Moonstruck’ Was 91"
   ],
@@ -17387,13 +17391,17 @@
   [
    1795748813.1591089,
    "Julianne Hough’s Stylist Addresses Fan Backlash To Her ‘Dancing With the Stars’ Wardrobe This Season"
+  ],
+  [
+   1795750284.2083554,
+   "Knosis debut latest single \"Gareki\" featuring From First To Last's Lil Lotus"
+  ],
+  [
+   1795750287.9909272,
+   "Ulver announce LP15, share official visualizer for lead single \"Shadow Of '96\""
   ]
  ],
  "titles_uk": [
-  [
-   1795577483.8299637,
-   "Альбом Clearing the Path to Ascend гурту YOB став віхою у їхній творчості"
-  ],
   [
    1795577609.8686452,
    "Помер оскароносний художник-постановник All That Jazz Філліп Розенберг"
@@ -18149,6 +18157,14 @@
   [
    1795748813.1591098,
    "Стиліст Джуліанн Хафф відреагував на критику її образів у Dancing With the Stars"
+  ],
+  [
+   1795750284.2083561,
+   "Knosis випустили новий сингл Gareki за участю Lil Lotus"
+  ],
+  [
+   1795750287.990928,
+   "Ulver анонсували новий альбом Neverland II та випустили сингл Shadow Of '96"
   ]
  ],
  "ukrainian": {
@@ -20639,7 +20655,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795746725.522823,
+  "last_check": 1795750296.678492,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
