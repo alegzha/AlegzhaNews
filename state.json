@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795831277.2889245
+  }
+ },
  "daily_digest_date": "2026-11-27",
  "freebies": {
   "last_check": 1795826130.3325965,
@@ -34,12 +41,12 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-28 01:34 UTC",
+  "at": "2026-11-28 02:05 UTC",
   "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
   "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2,
-   "gemma-4-26b-a4b-it": 2
+   "gemma-4-26b-a4b-it": 1,
+   "gemma-4-31b-it": 1
   },
   "used": [
    "Gemini"
@@ -8676,7 +8683,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>Майк Лі пояснив, чому не працює з голлівудськими зірками</b>\n\nМайк Лі віддає перевагу британським акторам замість голлівудських зірок через свій метод роботи, що потребує тривалої підготовки та глибокого занурення в роль. Його новий фільм Tender Loving Care може стати останнім режисерським проєктом через стан здоров&#x27;я.\n\n🔗 <a href=\"https://deadline.com/2026/11/mike-leigh-retirement-tender-loving-care-hollywood-1237234216/\">Deadline</a> · #кіно_і_серіали #TenderLovingCare",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/mike-leigh-retirement-tender-loving-care-hollywood-1237234216/",
     "orig": "Mike Leigh Reminds The World Why He Doesn’t Work With Hollywood Stars"
@@ -8690,7 +8696,6 @@
    "DOU Gamedev",
    {
     "also": [],
-    "caption": "🎮 <b>Як ми зробили перший український рестрім для стрімерів, який не дає ефіру обірватися без світла</b>\n\nПривіт! Я Олександр Самойленко, співзасновник Reon. Розповім, як наша команда трансляцій зробила для себе інструмент, який не дає ефіру обірватися, коли зникає світло чи інтернет, і на чому ми по дорозі спотикалися. Хто ми Ми команда OBLOGA Media Group. Починали з того, що створювали ігровий контент, а згодом стали командою, яка робить кіберспортивний контент. Спершу це був Rainbow Six Siege.\n\n🔗 <a href=\"https://gamedev.dou.ua/blogs/ukrainian-restream-for-power-outages/\">DOU Gamedev</a> · #ігри",
     "kind": "photo",
     "link": "https://gamedev.dou.ua/blogs/ukrainian-restream-for-power-outages/",
     "orig": "Як ми зробили перший український рестрім для стрімерів, який не дає ефіру обірватися без світла"
@@ -9531,6 +9536,34 @@
     "link": "https://deadline.com/2026/11/nbc-pulls-ad-israel-gaza-1237234472/",
     "orig": "NBC Pulls Ad That Criticizes U.S.’ Israel Policy & Aired During ‘SNL’ Thanksgiving Special"
    }
+  ],
+  [
+   1795831355.5667644,
+   7188,
+   "🎮",
+   "Iron Man від EA Motive можуть представити на The Game Awards",
+   "Eurogamer",
+   {
+    "also": [],
+    "caption": "🎮 <b>Iron Man від EA Motive можуть представити на The Game Awards</b>\n\nКористувачі Reddit помітили оновлення сайту EA Motive перед The Game Awards. Оскільки Disney обіцяє сюрпризи від своїх ігрових проєктів, а дата церемонії збігається з виходом фільму Avengers: Doomsday, можливий анонс Iron Man. Цього літа в мережі вже з&#x27;являвся витік незавершеного трейлера гри.\n\n🔗 <a href=\"https://www.eurogamer.net/iron-man-game-awards-ea-motive\">Eurogamer</a> · #ігри #IronMan #EAMotive",
+    "kind": "photo",
+    "link": "https://www.eurogamer.net/iron-man-game-awards-ea-motive",
+    "orig": "Marvel's Iron Man might be planning to rear its head at The Game Awards, if EA Motive's updated website is any indication"
+   }
+  ],
+  [
+   1795831547.5358994,
+   7189,
+   "🎬",
+   "Вільям Шатнер відповів на образи режисера Halloween Джона Карпентера",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>Вільям Шатнер відповів на образи режисера Halloween Джона Карпентера</b>\n\nВільям Шатнер прокоментував слова режисера Halloween Джона Карпентера, який назвав його «покидьком» за те, що той нібито проігнорував його при зустрічі. Карпентер стверджує, що легенда Star Trek просто сиділа в гримерці та гортала стрічку в телефоні під час заходу в Орландо.\n\n🔗 <a href=\"https://deadline.com/2026/11/william-shatner-responds-john-carpenter-snub-1237234380/\">Deadline</a> · #кіно_і_серіали",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/william-shatner-responds-john-carpenter-snub-1237234380/",
+    "orig": "William Shatner Responds After ‘Halloween’ Director John Carpenter Called Him “A Piece Of S***” For Snub"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9579,9 +9612,9 @@
    1795786408.51214
   ],
   "games|Eurogamer|https://www.eurogamer.net/feed": [
-   1795703575.5822632,
    1795783525.0448253,
-   1795784859.6061876
+   1795784859.6061876,
+   1795831355.5670161
   ],
   "games|GameSpot|https://www.gamespot.com/feeds/game-news": [
    1795658542.3181212
@@ -9650,8 +9683,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1795744181.8548613,
-   1795745028.63463,
    1795748813.1591508,
    1795752142.3136659,
    1795759381.6843503,
@@ -9664,7 +9695,8 @@
    1795824090.3888118,
    1795824128.9416013,
    1795826046.9224348,
-   1795829663.8244748
+   1795829663.8244748,
+   1795831547.536147
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795775478.906556,
@@ -9887,6 +9919,7 @@
   "0bceaf006cf20695": 1795777257.3700647,
   "0bd2b80718e34b30": 1794889903.5498612,
   "0bd4787cdb21f321": 1795199460.213731,
+  "0bdf8fadb6042e02": 1795831256.0434089,
   "0be96b793e1c0ed6": 1795757808.0461628,
   "0bf0b1b6e6acb828": 1795138416.4906218,
   "0c096291231fd66f": 1795059061.5460818,
@@ -10397,7 +10430,6 @@
   "41a3b738105980c9": 1795203087.458505,
   "41ae4ffe41a42663": 1795748453.2900858,
   "41c9551765274204": 1795190539.9781833,
-  "41db8d6b264a6329": 1794621696.949433,
   "422c435faeeda0e5": 1795444268.4054976,
   "4232bc46dc9ae10f": 1795593684.862893,
   "42786359f873995b": 1795232088.07478,
@@ -10508,6 +10540,7 @@
   "4e26a6d1af50c7ed": 1795662139.3334186,
   "4e62dacbd08721ad": 1795493058.9517937,
   "4ecb0627c5f34ba9": 1795483857.0796409,
+  "4efffa2eb80042ff": 1795831355.5669696,
   "4f0cb75838c02b52": 1795075300.231998,
   "4f340a9131799a9d": 1795539658.0331025,
   "4f47c2183fec8c1c": 1795469457.0355752,
@@ -11002,6 +11035,7 @@
   "7f2b4cd4364050ee": 1795044680.768859,
   "7f30eaa6e054cc89": 1795482064.989857,
   "7f6b285aacd8a7f8": 1795084636.9413862,
+  "7f6d0e0769788b54": 1795831547.5361028,
   "7fa3bc1a4ca31470": 1795579313.5807724,
   "8006cfce387357ff": 1794819660.751173,
   "8011ccba91951021": 1795091475.6579704,
@@ -11186,6 +11220,7 @@
   "93f38d52fdfb8e12": 1794706296.939091,
   "93f53cd69d28985d": 1794780079.9921434,
   "93f6cbd94320e02e": 1795764658.7401009,
+  "941ac5676a6d7393": 1795831281.900209,
   "943092be93f90bc6": 1795473062.7844036,
   "9454b2d189f23dfb": 1795829663.8244455,
   "945fc640bcb78b9e": 1795779161.4492826,
@@ -11331,7 +11366,6 @@
   "a376136cd195a6de": 1795786267.8966155,
   "a39149cdea547c57": 1794873694.242586,
   "a3c2f2868b560997": 1794765683.238813,
-  "a3eb25072590a878": 1794621693.8390017,
   "a43fd01e23c59d49": 1795365052.7700858,
   "a480148929e393c7": 1795354457.7085402,
   "a4b13d36a94e6d0b": 1794983451.0594394,
@@ -11555,6 +11589,7 @@
   "b96c67d6702fd704": 1794960076.0501857,
   "b96fe73f3d855560": 1795330926.298928,
   "b98b39ca4d62267d": 1794922256.1694205,
+  "b9a3917ee0adb923": 1795831256.0434089,
   "b9aaff8d85e8862c": 1795777257.3700647,
   "b9b7183ab6de00ec": 1795390671.7912314,
   "ba17fe03a32eafc8": 1795782655.4015517,
@@ -13449,13 +13484,13 @@
    "Mezha": 1,
    "PC Gamer": 25,
    "PlayUA": 2,
-   "Polygon": 49,
+   "Polygon": 50,
    "Revolver": 1,
    "Rock Paper Shotgun": 2,
    "SteamDB": 1,
    "ThePRP": 1,
    "VGC": 40,
-   "Variety": 18
+   "Variety": 19
   },
   "sources": {
    "/Film": 16,
@@ -13464,11 +13499,11 @@
    "Bloomberg": 39,
    "DOU": 5,
    "DOU Gamedev": 4,
-   "Deadline": 69,
+   "Deadline": 70,
    "Decibel": 1,
    "Digital Foundry": 2,
    "Distorted Sound": 6,
-   "Eurogamer": 12,
+   "Eurogamer": 13,
    "GameSpot": 1,
    "GamesIndustry.biz": 10,
    "Hugging Face": 5,
@@ -13499,8 +13534,8 @@
    "DeepL": 32,
    "gemini-flash-latest": 9,
    "gemini-flash-lite-latest": 153,
-   "gemma-4-26b-a4b-it": 107,
-   "gemma-4-31b-it": 127
+   "gemma-4-26b-a4b-it": 108,
+   "gemma-4-31b-it": 128
   },
   "week": "2026-W48"
  },
@@ -14480,6 +14515,11 @@
    "Dwarf Fortress",
    1794672074.7887242
   ],
+  "q:ea motive": [
+   0,
+   "",
+   1795831285.0644312
+  ],
   "q:elfie": [
    2955180,
    "Elfie",
@@ -14645,6 +14685,11 @@
    "Gag Order",
    1793574077.0104003
   ],
+  "q:game awards": [
+   0,
+   "",
+   1795831284.52424
+  ],
   "q:game of the year": [
    1205680,
    "Game of the Year",
@@ -14674,31 +14719,6 @@
    0,
    "",
    1795696293.2741954
-  ],
-  "q:gaming icon": [
-   0,
-   "",
-   1795658481.317802
-  ],
-  "q:gaming icon balloons": [
-   0,
-   "",
-   1795658480.7447567
-  ],
-  "q:gaming icon balloons won't": [
-   0,
-   "",
-   1795658480.1986535
-  ],
-  "q:gaming icon balloons won't be": [
-   0,
-   "",
-   1795658479.603445
-  ],
-  "q:gaming icon balloons won't be flying": [
-   0,
-   "",
-   1795658479.0767324
   ],
   "q:gang of dragon": [
    4146000,
@@ -14830,11 +14850,6 @@
    "Hull Rupture",
    1793628239.6618195
   ],
-  "q:icon balloons won't be flying this": [
-   0,
-   "",
-   1795658481.8667681
-  ],
   "q:iconic": [
    1133520,
    "ICONIC",
@@ -14879,6 +14894,11 @@
    4016010,
    "Input",
    1793491313.3795223
+  ],
+  "q:iron man": [
+   0,
+   "",
+   1795831283.89327
   ],
   "q:it requires developers": [
    0,
@@ -15070,6 +15090,16 @@
    "Marvel Rivals",
    1795440684.98752
   ],
+  "q:marvel's iron": [
+   0,
+   "",
+   1795831283.287793
+  ],
+  "q:marvel's iron man": [
+   0,
+   "",
+   1795831282.6980977
+  ],
   "q:marvelous": [
    0,
    "",
@@ -15174,6 +15204,11 @@
    0,
    "",
    1795771973.060199
+  ],
+  "q:motive": [
+   0,
+   "",
+   1795831285.6404696
   ],
   "q:mouthwashing": [
    2475490,
@@ -15335,31 +15370,6 @@
    "Onimusha: Way of the Sword",
    1795618881.482617
   ],
-  "q:other gaming": [
-   0,
-   "",
-   1795658478.5416427
-  ],
-  "q:other gaming icon": [
-   0,
-   "",
-   1795658477.7860208
-  ],
-  "q:other gaming icon balloons": [
-   0,
-   "",
-   1795658477.2271197
-  ],
-  "q:other gaming icon balloons won't": [
-   0,
-   "",
-   1795658476.7107985
-  ],
-  "q:other gaming icon balloons won't be": [
-   0,
-   "",
-   1795658476.1821666
-  ],
   "q:others": [
    3694710,
    "OTHERS",
@@ -15389,11 +15399,6 @@
    3179050,
    "Piece by Piece",
    1794405679.5423384
-  ],
-  "q:pikachu": [
-   0,
-   "",
-   1795658475.557198
   ],
   "q:pilgrim": [
    2965660,
@@ -16527,20 +16532,11 @@
   ]
  },
  "telegraph": [
-  1795744144.232577,
   1795784868.9386485,
   1795786407.9704206,
   1795829531.6724908
  ],
  "titles": [
-  [
-   1795658542.3180752,
-   "Mario, Pikachu, And Other Gaming Icon Balloons Won’t Be Flying This Thanksgiving"
-  ],
-  [
-   1795658701.0638692,
-   "The Cliff Booth Movie Brings Back Two Key Characters From Once Upon A Time In Hollywood"
-  ],
   [
    1795660335.4747372,
    "Travis Barker shares his delight after inducting childhood hero Phil Collins into the RRHOF"
@@ -17268,17 +17264,17 @@
   [
    1795829663.824447,
    "NBC Pulls Ad That Criticizes U.S.’ Israel Policy & Aired During ‘SNL’ Thanksgiving Special"
+  ],
+  [
+   1795831355.5669713,
+   "Marvel's Iron Man might be planning to rear its head at The Game Awards, if EA Motive's updated website is any indication"
+  ],
+  [
+   1795831547.5361052,
+   "William Shatner Responds After ‘Halloween’ Director John Carpenter Called Him “A Piece Of S***” For Snub"
   ]
  ],
  "titles_uk": [
-  [
-   1795658542.318076,
-   "Парад Macy's у Нью-Йорку вперше за 100 років затримали через негоду"
-  ],
-  [
-   1795658701.06387,
-   "The Further Mis-Adventures of Cliff Booth поверне персонажів Once Upon a Time in Hollywood"
-  ],
   [
    1795660335.474738,
    "Тревіс Баркер представив Філа Коллінза в Rock and Roll Hall of Fame"
@@ -18006,6 +18002,14 @@
   [
    1795829663.8244472,
    "NBC зняла з ефіру рекламу, що критикує політику США щодо Ізраїлю"
+  ],
+  [
+   1795831355.566972,
+   "Iron Man від EA Motive можуть представити на The Game Awards"
+  ],
+  [
+   1795831547.5361059,
+   "Вільям Шатнер відповів на образи режисера Halloween Джона Карпентера"
   ]
  ],
  "ukrainian": {
