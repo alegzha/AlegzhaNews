@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795865483.668898
+  }
+ },
  "daily_digest_date": "2026-11-27",
  "freebies": {
   "last_check": 1795864050.6777737,
@@ -34,41 +41,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-28 11:07 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": null,
-  "gemini_models_used": {},
+  "at": "2026-11-28 11:33 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_models_used": {
+   "gemini-flash-lite-latest": 1,
+   "gemma-4-26b-a4b-it": 1
+  },
   "used": [
-   "DeepL"
+   "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795172937.9449642,
-   6487,
-   "💾",
-   "toeverything/AFFiNE",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/toeverything/AFFiNE",
-    "orig": "toeverything/AFFiNE"
-   }
-  ],
-  [
-   1795174346.0041015,
-   6488,
-   "🤘",
-   "Palaye Royale представили новий сингл Confidant",
-   "Kerrang!",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.kerrang.com/listen-to-palaye-royales-suave-new-song-confidant",
-    "orig": "Listen to Palaye Royale’s suave new song, Confidant"
-   }
-  ],
   [
    1795174475.3431847,
    6489,
@@ -8575,7 +8559,6 @@
    "The Decoder",
    {
     "also": [],
-    "caption": "🤖 <b>Дослідження Meta та AMI Labs підтверджують переваги архітектури JEPA над LLM</b>\n\nЯн Лекун вважає, що великі мовні моделі не забезпечать людський інтелект, тому розвиває архітектуру JEPA для моделювання причинно-наслідкових зв&#x27;язків. Три нові дослідження підтверджують ефективність цього підходу. Після виходу з Meta Лекун заснував AMI Labs, залучивши понад $1 млрд на розвиток ШІ для робототехніки та носимих пристроїв.\n\n🔗 <a href=\"https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/\">The Decoder</a> · #ШІ #Meta #AMILabs",
     "kind": "photo",
     "link": "https://the-decoder.com/three-studies-from-meta-and-ami-labs-back-yann-lecuns-bet-on-jepa-world-models-over-large-language-models/",
     "orig": "Three studies from Meta and AMI Labs back Yann LeCun's bet on JEPA world models over large language models"
@@ -8589,7 +8572,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🤖 <b>Що не варто розповідати ChatGPT: 5 типів даних, про які експерти радять мовчати</b>\n\nChatGPT, Gemini, Copilot і Claude давно перестали бути екзотикою: ними користуються, щоб скласти листа, розібратися в діагнозі чи підготувати запитання до лікаря.\n\n🔗 <a href=\"https://highload.tech/uk/shho-ne-varto-rozpovidaty-chatgpt-5-typiv-danyh-pro-yaki-eksperty-radyat-movchaty/#new_tab\">ITC.ua</a> · #ШІ",
     "kind": "photo",
     "link": "https://highload.tech/uk/shho-ne-varto-rozpovidaty-chatgpt-5-typiv-danyh-pro-yaki-eksperty-radyat-movchaty/#new_tab",
     "orig": "Що не варто розповідати ChatGPT: 5 типів даних, про які експерти радять мовчати"
@@ -9430,6 +9412,34 @@
     "link": "https://the-decoder.com/robotics-startup-embo-raises-110-million-in-seed-funding-to-build-world-model-ai-for-robots/",
     "orig": "Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots"
    }
+  ],
+  [
+   1795865487.9769225,
+   7220,
+   "🎮",
+   "Від \"Щедрика\" до техно. Українська музика у відеоіграх",
+   "Mezha",
+   {
+    "also": [],
+    "caption": "🎮 <b>Від &quot;Щедрика&quot; до техно. Українська музика у відеоіграх</b>\n\nS.T.A.L.K.E.R. 2 став справжнім проривом української музики у відеоігри, але композиції з &quot;українським паспортом&quot; з&#x27;являлися в іграх і раніше, ще у 1990-2000 роках. Ми вирішили згадати деякі з цих випадків.\n\n🔗 <a href=\"https://mezha.ua/articles/ukrajinska-muzika-u-videoigrah-317646/\">Mezha</a> · #ігри",
+    "kind": "photo",
+    "link": "https://mezha.ua/articles/ukrajinska-muzika-u-videoigrah-317646/",
+    "orig": "Від \"Щедрика\" до техно. Українська музика у відеоіграх"
+   }
+  ],
+  [
+   1795865607.7828212,
+   7221,
+   "🎬",
+   "Ліванський трилер Furies став офіційною заявкою на «Оскар» 2027 року",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>Ліванський трилер Furies став офіційною заявкою на «Оскар» 2027 року</b>\n📖 <a href=\"https://telegra.ph/Lіvanskij-triler-Furies-stav-ofіcіjnoyu-zayavkoyu-na-Oskar-2027-roku-11-28\">Читати повністю українською</a>\n\nФільм Furies режисера Рамі Кодейха став офіційною заявкою Лібану на премію «Оскар» 2027 року. Це трилер про пограбування банку, сюжет якого натхненний реальним економічним колапсом у країні. Стрічка досліджує, як героїні намагаються повернути власні заощадження та виживати в умовах несправедливості.\n\n🔗 <a href=\"https://variety.com/2026/film/global/furies-rami-kodeih-nora-mariana-lebanon-doha-1236959954/\">Variety</a> · #кіно_і_серіали #Furies",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/global/furies-rami-kodeih-nora-mariana-lebanon-doha-1236959954/",
+    "orig": "Filmmakers Behind Lebanon’s Oscar Contender ‘Furies’ on Cinema as ‘an Act of Resilience and Catharsis’"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9507,7 +9517,7 @@
    1795842094.5620565
   ],
   "games|Mezha|https://mezha.ua/feed/": [
-   1795734076.968871
+   1795865487.9770834
   ],
   "games|PC Gamer|https://www.pcgamer.com/rss/": [
    1795818992.935044,
@@ -9579,9 +9589,9 @@
    1795852778.2697992
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1795777328.5918126,
    1795842334.952536,
-   1795851275.973497
+   1795851275.973497,
+   1795865607.7829807
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1795775532.1610303,
@@ -9730,6 +9740,7 @@
   "0454ffd1b2ccd1f4": 1795552267.2988262,
   "046000b4ffdc36e9": 1795611655.103084,
   "04623ce635725e68": 1795420853.9785311,
+  "049840941be75241": 1795865487.3490756,
   "04a3999e8b22eb98": 1795809656.078847,
   "04a702a6bd870247": 1794922318.0981417,
   "04c6c51b286dc80e": 1795199460.213731,
@@ -9743,7 +9754,6 @@
   "062ba47c62da9eee": 1794834194.274951,
   "062e8e1481971987": 1794965493.925166,
   "065450d7caf6811d": 1795624255.2613497,
-  "0671c06d7df1ebdc": 1794655885.169173,
   "06948e2ed8c2a27f": 1795078854.576999,
   "06ab79560085083c": 1795327283.0516202,
   "06d398a66b12cd0f": 1795183335.5979233,
@@ -9796,6 +9806,7 @@
   "0d0525775f70f58e": 1794862908.6792483,
   "0d326992d138e908": 1795618958.7922657,
   "0d35b86fb7bbdb7c": 1795212065.7898505,
+  "0d3b4e8fb91544a6": 1795865466.082557,
   "0d71725ec9ed69e1": 1795438867.2648482,
   "0d926c0033bd0b3d": 1794715291.91409,
   "0da882e619a5f309": 1795010462.958915,
@@ -9841,7 +9852,6 @@
   "115c6aa663640fb2": 1795325643.694829,
   "11659dba19087fda": 1794826975.8053226,
   "1169e3acab6ba6fd": 1795089654.0120451,
-  "116d6bd5830c9031": 1794655852.1792724,
   "116e8d1fda116d86": 1795163455.9823968,
   "1170adc197d29b61": 1794702686.0977051,
   "11b0d0ea895fab50": 1794963651.7044976,
@@ -10340,6 +10350,7 @@
   "47cf621edf3b3c3b": 1795233681.848361,
   "4802beafc6cf73e0": 1795604455.3233364,
   "480ee55127bcb11d": 1795690853.9511383,
+  "4832ebc3cee63870": 1795865487.97704,
   "484be33331d7f28d": 1795489396.8073578,
   "48748b8c64ba0f16": 1795050069.409945,
   "48c46f4790fcd497": 1795842334.95249,
@@ -10631,6 +10642,7 @@
   "65d230b5cc2390db": 1794949482.6853518,
   "65fff8e2221069a5": 1795753905.4793603,
   "6611befb7240bfc7": 1795005060.1889544,
+  "662f6f9115e1d615": 1795865487.3481932,
   "66521dc34c806114": 1795818992.935002,
   "669e1dc29a1d46b5": 1795165299.7996006,
   "669fdc3299d8ba15": 1795176450.0100064,
@@ -10851,6 +10863,7 @@
   "7b3b411dcee488aa": 1794717099.7117941,
   "7b718abc89b3d5db": 1794952969.8654578,
   "7b7a8c20844e4ebf": 1795847594.8711326,
+  "7b7aa39e6859a9f3": 1795865607.7829359,
   "7b97f7c0d01ac93a": 1795649582.5355642,
   "7ba0c24cbcbdd68c": 1795302066.7902653,
   "7ba309e293e0dda9": 1795435304.6920815,
@@ -11013,7 +11026,6 @@
   "8bf24a55f9bd1032": 1795082840.639321,
   "8c37f44cebdbd06e": 1795311254.9923077,
   "8d0ab631b0d4c66f": 1794927690.37838,
-  "8d173dd5584087f6": 1794655879.9927368,
   "8d505fa9b6a387f8": 1795089654.0120451,
   "8d8108772c83326b": 1795770100.1880677,
   "8d99fb491011606c": 1795102261.0800154,
@@ -11363,6 +11375,7 @@
   "b0b9c615c1518dc8": 1795280692.535206,
   "b13683e199e814bc": 1795781475.2835763,
   "b142d49319b80543": 1794988872.4974785,
+  "b15fdc366a3d96e6": 1795865466.082557,
   "b16b2af01c6e531e": 1795278653.9636526,
   "b196e95258849c92": 1794772855.921209,
   "b1adf23db471e238": 1795005105.6995087,
@@ -13328,7 +13341,7 @@
    "Eurogamer": 2,
    "GameSpot": 6,
    "GamesIndustry.biz": 2,
-   "IGN": 26,
+   "IGN": 28,
    "ITC.ua": 1,
    "IndieWire": 2,
    "Insider Gaming": 84,
@@ -13370,7 +13383,7 @@
    "Lambgoat": 23,
    "Loudwire": 1,
    "Metal Hammer (Louder)": 17,
-   "Mezha": 39,
+   "Mezha": 40,
    "Neformat": 17,
    "PC Gamer": 15,
    "Pitchfork": 3,
@@ -13383,13 +13396,13 @@
    "The Decoder": 15,
    "ThePRP": 9,
    "VGC": 14,
-   "Variety": 32
+   "Variety": 33
   },
   "translators": {
    "DeepL": 38,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 162,
-   "gemma-4-26b-a4b-it": 121,
+   "gemini-flash-lite-latest": 163,
+   "gemma-4-26b-a4b-it": 122,
    "gemma-4-31b-it": 131
   },
   "week": "2026-W48"
@@ -14584,11 +14597,6 @@
    2117450,
    "Forbidden zone",
    1793628276.6804101
-  ],
-  "q:forever battleground": [
-   0,
-   "",
-   1795690883.1879706
   ],
   "q:forza motorsport": [
    2440510,
@@ -16135,21 +16143,6 @@
    "VRChat",
    1793394133.1038349
   ],
-  "q:warcraft": [
-   0,
-   "",
-   1795690882.631352
-  ],
-  "q:warcraft forever": [
-   0,
-   "",
-   1795690881.9765937
-  ],
-  "q:warcraft forever battleground": [
-   0,
-   "",
-   1795690881.4253192
-  ],
   "q:wardogs": [
    1867240,
    "WARDOGS",
@@ -16305,21 +16298,6 @@
    "Workers & Resources: Soviet Republic",
    1793716440.2198927
   ],
-  "q:world of warcraft": [
-   0,
-   "",
-   1795690880.8229651
-  ],
-  "q:world of warcraft forever": [
-   0,
-   "",
-   1795690880.3288364
-  ],
-  "q:world of warcraft forever battleground": [
-   0,
-   "",
-   1795690879.7453744
-  ],
   "q:wow forever": [
    0,
    "",
@@ -16415,17 +16393,10 @@
   1795784868.9386485,
   1795786407.9704206,
   1795829531.6724908,
-  1795849349.5789344
+  1795849349.5789344,
+  1795865606.9534075
  ],
  "titles": [
-  [
-   1795692705.8462856,
-   "WoW: Forever fixes one of its most annoying endgame quests the literal day after I do it"
-  ],
-  [
-   1795692710.817999,
-   "Скейтбординґ, аніме-файтинґ і горор у бункері: Sony назвала ігри PS Plus Essential на грудень"
-  ],
   [
    1795694566.6566234,
    "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon"
@@ -17125,17 +17096,17 @@
   [
    1795864041.357399,
    "Robotics startup Embo raises $110 million in seed funding to build world-model AI for robots"
+  ],
+  [
+   1795865487.9770415,
+   "Від \"Щедрика\" до техно. Українська музика у відеоіграх"
+  ],
+  [
+   1795865607.7829373,
+   "Filmmakers Behind Lebanon’s Oscar Contender ‘Furies’ on Cinema as ‘an Act of Resilience and Catharsis’"
   ]
  ],
  "titles_uk": [
-  [
-   1795692705.8462863,
-   "У WoW: Forever спростили набридливий квест Scarlet Subterfuge"
-  ],
-  [
-   1795692710.8179994,
-   "Скейтбординґ, аніме-файтинґ і горор у бункері: Sony назвала ігри PS Plus Essential на грудень"
-  ],
   [
    1795694566.6566238,
    "Запущено бенчмарк-панель llama.cpp для AMD Ryzen та Radeon"
@@ -17835,6 +17806,14 @@
   [
    1795864041.3573997,
    "Стартап у сфері робототехніки Embo залучив 110 мільйонів доларів у рамках початкового фінансування для створення штучного інтелекту на основі «світової моделі» для роботів"
+  ],
+  [
+   1795865487.9770422,
+   "Від \"Щедрика\" до техно. Українська музика у відеоіграх"
+  ],
+  [
+   1795865607.7829385,
+   "Ліванський трилер Furies став офіційною заявкою на «Оскар» 2027 року"
   ]
  ],
  "ukrainian": {
