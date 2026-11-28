@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795843874.486866
+  }
+ },
  "daily_digest_date": "2026-11-27",
  "freebies": {
   "last_check": 1795840494.0182393,
@@ -34,44 +41,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-28 05:05 UTC",
+  "at": "2026-11-28 05:33 UTC",
   "gemini_error": "",
-  "gemini_model": "gemma-4-31b-it",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
-   "gemma-4-31b-it": 1
+   "gemma-4-26b-a4b-it": 2
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795152754.8603659,
-   6464,
-   "🤘",
-   "Bloom And Ruin анонсували альбом Two Liberations 2 і випустили трек",
-   "Stereogum",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://stereogum.com/2518759/bloom-and-ruin-efrim-manuel-menuck-tashi-dorji-announce-new-album-two-liberations-2/music/",
-    "orig": "Bloom And Ruin (Efrim Manuel Menuck & Tashi Dorji) Announce New Album Two Liberations 2"
-   }
-  ],
-  [
-   1795152758.4492357,
-   6465,
-   "🤘",
-   "Atlas Sound випустив перший за 15 років альбом Thanatos",
-   "Pitchfork",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://pitchfork.com/story/atlas-sound-surprise-releases-first-album-in-15-years/",
-    "orig": "Atlas Sound Surprise Releases First Album in 15 Years"
-   }
-  ],
   [
    1795154506.9421787,
    6466,
@@ -8668,7 +8648,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "💾 <b>Windows 12 поки не буде: в Microsoft пояснили, чому</b>\n\nMicrosoft поки уникає відповіді, що дати релізу Windows 12. Керівник відділу розробки ОС Паван Давулурі каже, що зараз пріоритет компанії — зробити Windows 11 швидшою та надійнішою, а також довести, що її ШІ-функції справді потрібні користувачам.\n\n🔗 <a href=\"https://itc.ua/ua/novini/windows-12-microsoft-davuluri-windows-11-shi/\">ITC.ua</a> · #софт",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/windows-12-microsoft-davuluri-windows-11-shi/",
     "orig": "Windows 12 поки не буде: в Microsoft пояснили, чому"
@@ -8682,7 +8661,6 @@
    "Eurogamer",
    {
     "also": [],
-    "caption": "🎮 <b>Автор нарешті зіграв у <a href=\"https://store.steampowered.com/app/2831000/\">Faraway</a>, на яку чекав <a href=\"https://store.steampowered.com/app/4655470/\">16</a> років</b>\n🕹 <a href=\"https://store.steampowered.com/app/2831000/\">Faraway</a> — 194,00₴\n🕹 <a href=\"https://store.steampowered.com/app/4655470/\">16叠谋杀之谜</a> — 52,00₴\n\nАвтор нарешті зіграв у Faraway — гру від Степа Тіріона, трейлер якої з&#x27;явився ще 16 років тому. У матеріалі згадується інший проєкт розробника, Eliss, та особливості ранньої епохи мобільних ігор.\n\n🔗 <a href=\"https://www.eurogamer.net/faraway-eliss-annapurna-interactive-16-years-finally-here\">Eurogamer</a> · #ігри #Faraway",
     "kind": "photo",
     "link": "https://www.eurogamer.net/faraway-eliss-annapurna-interactive-16-years-finally-here",
     "orig": "At last, I've finally played Faraway, an enigma I've been waiting 16 years to see"
@@ -9518,6 +9496,34 @@
     "link": "https://variety.com/2026/film/markets-festivals/southeast-asian-cinema-rise-long-term-backing-jaff-chief-1236959870/",
     "orig": "Southeast Asian Cinema’s Global Rise Needs Long-Term Backing to Last, Says JAFF Chief Ifa Isfansyah"
    }
+  ],
+  [
+   1795843949.127533,
+   7202,
+   "🎮",
+   "Деніс Вільньов розчарований конкуренцією з Avengers: Doomsday",
+   "Polygon",
+   {
+    "also": [],
+    "caption": "🎮 <b>Деніс Вільньов розчарований конкуренцією з Avengers: Doomsday</b>\n\nРежисер Деніс Вільньов розчарований тим, що Dune: Part Three вийде 18 грудня того ж дня, що й Avengers: Doomsday від Marvel. Він порівняв Marvel із «T. rex», а свою франшизу — із «сексуальною маленькою твариною». Обидва проєкти мають реліз у цей день, що може забезпечити один із найбільших вікендів у касових зборах.\n\n🔗 <a href=\"https://www.polygon.com/dune-3-avengers-doomsday-box-office-showdown-december-18/\">Polygon</a> · #ігри #Dune #Marvel",
+    "kind": "photo",
+    "link": "https://www.polygon.com/dune-3-avengers-doomsday-box-office-showdown-december-18/",
+    "orig": "Dune Director Admits He’s ‘Deeply Disappointed’ by Showdown With Avengers: Doomsday"
+   }
+  ],
+  [
+   1795843991.765035,
+   7203,
+   "🤘",
+   "Брюс Сорд із The Pineapple Thief розчулився під час читання власних текстів",
+   "Metal Hammer (Louder)",
+   {
+    "also": [],
+    "caption": "🤘 <b>Брюс Сорд із The Pineapple Thief розчулився під час читання власних текстів</b>\n\nБрюс Сорд із гурту The Pineapple Thief розчулився під час запису відео про створення альбому Far And Wide. Музикант пояснив, що тексти пісень, зокрема No Exceptions, натхненні складними життєвими моментами, зокрема хворобою батька. Попри важкі теми, альбом не є повністю похмурим чи безнадійним.\n\n🔗 <a href=\"https://www.loudersound.com/bands-artists/bruce-soord-pineapple-thief-emotional-lyrics\">Metal Hammer (Louder)</a> · #музика #ThePineappleThief",
+    "kind": "photo",
+    "link": "https://www.loudersound.com/bands-artists/bruce-soord-pineapple-thief-emotional-lyrics",
+    "orig": "Watch The Pineapple Thief’s Bruce Soord get emotional over his own lyrics"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9608,12 +9614,12 @@
    1795807880.3188531
   ],
   "games|Polygon|https://www.polygon.com/feed/": [
-   1795753887.1285434,
    1795757873.3108852,
    1795793511.0920348,
    1795817117.0092561,
    1795820514.6023567,
-   1795833205.0192642
+   1795833205.0192642,
+   1795843949.127782
   ],
   "games|Rock Paper Shotgun|https://www.rockpapershotgun.com/feed/news": [
    1795734147.5841238,
@@ -9704,7 +9710,8 @@
    1795478516.0810792
   ],
   "music|Metal Hammer (Louder)|https://www.loudersound.com/feeds/all": [
-   1795840484.9437141
+   1795840484.9437141,
+   1795843991.765317
   ],
   "music|Metal Injection|https://metalinjection.net/feed": [
    1795244826.8845444
@@ -10264,6 +10271,7 @@
   "345fd25367ec07c8": 1795386833.1763525,
   "3486bfd8f1dd3804": 1795227981.8186276,
   "34871fb69dc681dc": 1795809656.078847,
+  "348b7231caca9ba2": 1795843991.7652683,
   "351e500a178cbd45": 1794963668.215512,
   "35284cd9e91b9afb": 1795783349.4949317,
   "3544a836063b2a5c": 1794718889.3772535,
@@ -10465,7 +10473,6 @@
   "4c4bb87fee3f49f0": 1794844878.6974676,
   "4c4e87d63c3caf12": 1795503699.3066688,
   "4c6a78e9df138969": 1795024853.7713437,
-  "4cb0ce66c92778cb": 1794634298.6207952,
   "4cbe4687183ef452": 1795698055.8746934,
   "4cc488b08684e710": 1795240911.793855,
   "4cc886911f1b9442": 1795800684.9607544,
@@ -10697,7 +10704,6 @@
   "6390b50884d7428a": 1795150855.389229,
   "63c6eae86c1e97a9": 1795106159.1350882,
   "63fb1a3be3833345": 1795611751.333816,
-  "642009db7497a736": 1794634296.9431808,
   "6427b0f967c9e6a6": 1794920454.799004,
   "6482ca1d89e0bb3e": 1795471431.7761016,
   "648ccc55f45aea20": 1795435304.6913989,
@@ -10779,7 +10785,6 @@
   "6a8fed4eae4329ca": 1795537857.1621616,
   "6a9010b4428aa781": 1795431811.6999888,
   "6ab5dc6e0c2942f4": 1795690913.6110363,
-  "6abd2f5eef76c8b8": 1794634255.263127,
   "6b13b5939d2fdca9": 1795242678.5381863,
   "6b173b7065c2acd2": 1795303856.0284865,
   "6b3fc7c0e9717ec9": 1795557855.5907664,
@@ -10923,7 +10928,6 @@
   "795ee1ac9ad510aa": 1795094034.5790455,
   "7966cc479959a31e": 1795604455.3233364,
   "797720852a672e4a": 1795667479.7278543,
-  "799baede4d49ee43": 1794634255.263127,
   "79c9d1dfc4b40405": 1795192256.6890233,
   "79d8909366f2b3e6": 1795307621.279421,
   "79ea7102cbd4ce83": 1795494703.878512,
@@ -10994,7 +10998,6 @@
   "8011ccba91951021": 1795091475.6579704,
   "8020a0b3f62e6ca6": 1795100456.85752,
   "8056ab7d216cb670": 1795183287.50716,
-  "8096d0c63c292e0b": 1794634305.2953007,
   "80a3f4dc93b20059": 1795132915.5140429,
   "80a488a04e08b3f3": 1795798925.2542071,
   "80ac518ffba9cd3f": 1795280454.879558,
@@ -11073,7 +11076,6 @@
   "87fe55541825dd45": 1794880915.0736182,
   "8817381862ce860d": 1795167057.8686705,
   "881d3e7fb47f723c": 1795717876.4776251,
-  "881debcf1a1d3952": 1794634255.263127,
   "884b01750c3f263b": 1794832381.563612,
   "885dfa36220b1c5d": 1794663052.3051553,
   "887c6c6a85b653f6": 1795582858.5659506,
@@ -11317,6 +11319,7 @@
   "a376136cd195a6de": 1795786267.8966155,
   "a39149cdea547c57": 1794873694.242586,
   "a3c2f2868b560997": 1794765683.238813,
+  "a439838e8c932501": 1795843949.1277351,
   "a43fd01e23c59d49": 1795365052.7700858,
   "a480148929e393c7": 1795354457.7085402,
   "a4b13d36a94e6d0b": 1794983451.0594394,
@@ -11804,7 +11807,6 @@
   "d52e7337e312f9f5": 1795568491.603528,
   "d565ed08c0e4ee98": 1795244748.7001777,
   "d57343493e645f85": 1795516283.404083,
-  "d57491b05c6fbe3b": 1794634296.9440062,
   "d575e4521b6ba437": 1795750284.2083535,
   "d5c1fe12af72c606": 1795350656.068994,
   "d5d3bdcb322fcc1c": 1795321991.1757953,
@@ -12661,7 +12663,7 @@
   ],
   "artists_checked": 1795833303.507986,
   "blocked_until": 1795833191.9257512,
-  "cursor": 333,
+  "cursor": 343,
   "digest_week": "2026-W48",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13465,13 +13467,13 @@
    "Kerrang!": 2,
    "Lambgoat": 23,
    "Loudwire": 1,
-   "Metal Hammer (Louder)": 16,
+   "Metal Hammer (Louder)": 17,
    "Mezha": 38,
    "Neformat": 17,
    "PC Gamer": 14,
    "Pitchfork": 3,
    "PlayUA": 7,
-   "Polygon": 24,
+   "Polygon": 25,
    "Product Hunt": 10,
    "Rock Paper Shotgun": 13,
    "SteamDB": 2,
@@ -13485,7 +13487,7 @@
    "DeepL": 32,
    "gemini-flash-latest": 10,
    "gemini-flash-lite-latest": 157,
-   "gemma-4-26b-a4b-it": 113,
+   "gemma-4-26b-a4b-it": 115,
    "gemma-4-31b-it": 130
   },
   "week": "2026-W48"
@@ -13871,31 +13873,6 @@
    "",
    1795773724.7503967
   ],
-  "q:6 fantasy": [
-   0,
-   "",
-   1795669288.9368095
-  ],
-  "q:6 fantasy books": [
-   0,
-   "",
-   1795669288.4086523
-  ],
-  "q:6 fantasy books better": [
-   0,
-   "",
-   1795669287.873132
-  ],
-  "q:6 fantasy books better than": [
-   0,
-   "",
-   1795669287.366961
-  ],
-  "q:6 fantasy books better than harry": [
-   0,
-   "",
-   1795669286.8461137
-  ],
   "q:64": [
    0,
    "",
@@ -13945,6 +13922,16 @@
    3408350,
    "AAA",
    1793293536.3002434
+  ],
+  "q:admits": [
+   0,
+   "",
+   1795843884.6414382
+  ],
+  "q:admits he": [
+   0,
+   "",
+   1795843884.1536636
   ],
   "q:after playing": [
    0,
@@ -14130,16 +14117,6 @@
    3676250,
    "Boars in Rome",
    1794092481.101398
-  ],
-  "q:books better than harry": [
-   0,
-   "",
-   1795669292.645161
-  ],
-  "q:books better than harry potter": [
-   0,
-   "",
-   1795669292.144997
   ],
   "q:borderlands 4": [
    1285190,
@@ -14371,6 +14348,16 @@
    "Deathwish",
    1793646128.29043
   ],
+  "q:deeply disappointed": [
+   0,
+   "",
+   1795843880.51378
+  ],
+  "q:deeply disappointed'": [
+   0,
+   "",
+   1795843885.124038
+  ],
   "q:delayed": [
    2753190,
    "Delayed",
@@ -14466,6 +14453,16 @@
    "",
    1795836680.3877745
   ],
+  "q:director admits": [
+   0,
+   "",
+   1795843883.6753976
+  ],
+  "q:director admits he": [
+   0,
+   "",
+   1795843883.1994584
+  ],
   "q:director says": [
    0,
    "",
@@ -14515,6 +14512,26 @@
    0,
    "",
    1795781306.8504713
+  ],
+  "q:dune": [
+   0,
+   "",
+   1795843882.7238169
+  ],
+  "q:dune director": [
+   0,
+   "",
+   1795843882.1371164
+  ],
+  "q:dune director admits": [
+   0,
+   "",
+   1795843881.659238
+  ],
+  "q:dune director admits he": [
+   0,
+   "",
+   1795843881.1597118
   ],
   "q:dungoku": [
    5554930,
@@ -14620,31 +14637,6 @@
    22300,
    "Fallout 3",
    1794985283.1998851
-  ],
-  "q:fantasy books": [
-   0,
-   "",
-   1795669291.541761
-  ],
-  "q:fantasy books better": [
-   0,
-   "",
-   1795669291.0186157
-  ],
-  "q:fantasy books better than": [
-   0,
-   "",
-   1795669290.5160775
-  ],
-  "q:fantasy books better than harry": [
-   0,
-   "",
-   1795669290.0102212
-  ],
-  "q:fantasy books better than harry potter": [
-   0,
-   "",
-   1795669289.4539747
   ],
   "q:faraway": [
    2831000,
@@ -15851,6 +15843,16 @@
    "Shapik: The Moon Quest",
    1794560475.4592075
   ],
+  "q:showdown with avengers": [
+   0,
+   "",
+   1795843886.1039062
+  ],
+  "q:showdown with avengers doomsday": [
+   0,
+   "",
+   1795843885.6334896
+  ],
   "q:showmaker": [
    665920,
    "SHOWMAKER",
@@ -16624,10 +16626,6 @@
  ],
  "titles": [
   [
-   1795671132.8848193,
-   "Lauren Ash & Mae Martin Among Cast Of Shozer’s Adult Animation High-School Comedy ‘Dirts’"
-  ],
-  [
    1795671321.8342495,
    "The latest adult game in the Muv-Luv series has some woeful AI translation and players aren't happy about it"
   ],
@@ -17354,13 +17352,17 @@
   [
    1795842334.952492,
    "Southeast Asian Cinema’s Global Rise Needs Long-Term Backing to Last, Says JAFF Chief Ifa Isfansyah"
+  ],
+  [
+   1795843949.1277363,
+   "Dune Director Admits He’s ‘Deeply Disappointed’ by Showdown With Avengers: Doomsday"
+  ],
+  [
+   1795843991.7652721,
+   "Watch The Pineapple Thief’s Bruce Soord get emotional over his own lyrics"
   ]
  ],
  "titles_uk": [
-  [
-   1795671132.8848202,
-   "Лорен Еш та Мей Мартін отримали ролі в анімаційній комедії Dirts"
-  ],
   [
    1795671321.8342505,
    "Гравці незадоволені жахливим ШІ-перекладом у новій дорослій грі серії Muv-Luv"
@@ -18088,6 +18090,14 @@
   [
    1795842334.952493,
    "Директор JAFF Іфа Ісфанся закликає до системної підтримки кіно Південно-Східної Азії"
+  ],
+  [
+   1795843949.1277375,
+   "Деніс Вільньов розчарований конкуренцією з Avengers: Doomsday"
+  ],
+  [
+   1795843991.7652743,
+   "Брюс Сорд із The Pineapple Thief розчулився під час читання власних текстів"
   ]
  ],
  "ukrainian": {
@@ -20582,7 +20592,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795840493.9409356,
+  "last_check": 1795844001.827061,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
