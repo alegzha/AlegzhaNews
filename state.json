@@ -1,5 +1,11 @@
 {
  "alerts": {
+  "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
+   "detail": "https://www.kerrang.com/feed.rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
+   "label": "Джерело «Kerrang!» не працює",
+   "sent": 0,
+   "since": 1795867271.9124944
+  },
   "src:music|Neformat|https://www.neformat.com.ua/": {
    "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
    "label": "Джерело «Neformat» не працює",
@@ -11533,7 +11539,6 @@
   "c0ce5fce1bfcc479": 1795302066.7902653,
   "c0db42d2e78f8e84": 1795222874.600779,
   "c0df007d195ad6c4": 1795179884.2517922,
-  "c114542661967976": 1794657664.8976924,
   "c13777e20a219487": 1795398616.1862683,
   "c1449f04b58dcaca": 1794994256.738315,
   "c15827a29ce22e76": 1795094153.9066393,
@@ -15373,11 +15378,6 @@
    "",
    1795735980.2231052
   ],
-  "q:plus essential": [
-   0,
-   "",
-   1795692710.28754
-  ],
   "q:plushies": [
    0,
    "",
@@ -15422,16 +15422,6 @@
    5120160,
    "Proximity",
    1795568495.30679
-  ],
-  "q:ps plus": [
-   0,
-   "",
-   1795692709.8088634
-  ],
-  "q:ps plus essential": [
-   0,
-   "",
-   1795692709.331191
   ],
   "q:psychological thriller officially says": [
    0,
@@ -15797,21 +15787,6 @@
    4825960,
    "Songs of the Past",
    1794223983.8362014
-  ],
-  "q:sony ps": [
-   0,
-   "",
-   1795692708.840934
-  ],
-  "q:sony ps plus": [
-   0,
-   "",
-   1795692708.3654673
-  ],
-  "q:sony ps plus essential": [
-   0,
-   "",
-   1795692707.8897212
   ],
   "q:soul eater": [
    2836250,
@@ -16297,11 +16272,6 @@
    784150,
    "Workers & Resources: Soviet Republic",
    1793716440.2198927
-  ],
-  "q:wow forever": [
-   0,
-   "",
-   1795692696.7158735
   ],
   "q:wuthering waves": [
    3513350,
