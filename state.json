@@ -41,14 +41,14 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-28 07:34 UTC",
-  "gemini_error": "",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "at": "2026-11-28 08:04 UTC",
+  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
-   "gemma-4-26b-a4b-it": 1
+   "gemini-flash-lite-latest": 1
   },
   "used": [
+   "DeepL",
    "Gemini"
   ]
  },
@@ -8688,7 +8688,6 @@
    "Rock Paper Shotgun",
    {
     "also": [],
-    "caption": "🎮 <b>Анонсовано міський симулятор <a href=\"https://store.steampowered.com/app/4198840/\">Glagstone</a> у стилі Macintosh-ігор</b>\n🕹 <a href=\"https://store.steampowered.com/app/4198840/\">GlagStone</a> — ще не вийшла\n\nРозробники Валерій Красносельський та Євген Кириченко анонсували сюжетний містобудівний симулятор Glagstone з 1-бітним візуалом у стилі 1980-х. Гравець стає губернатором віддаленого острова, де потрібно видобувати ресурси, керувати поселенням і розгадувати моторошні таємниці місцевих жителів. Реліз на ПК заплановано на наступний рік.\n\n🔗 <a href=\"https://www.rockpapershotgun.com/keep-the-lighthouse-on-and-the-villagers-obedient-in-glagstone-an-eerie-island-city-builder-with-macintosh-style-graphics\">Rock Paper Shotgun</a> · #ігри #Glagstone",
     "kind": "photo",
     "link": "https://www.rockpapershotgun.com/keep-the-lighthouse-on-and-the-villagers-obedient-in-glagstone-an-eerie-island-city-builder-with-macintosh-style-graphics",
     "orig": "Keep the lighthouse on and the villagers obedient in Glagstone, an eerie island city-builder with Macintosh-style graphics"
@@ -9543,6 +9542,20 @@
     "link": "https://mezha.ua/reviews/oglyad-filmu-novi-zloshchasni-prigodi-kliffa-buta-the-further-mis-adventures-of-cliff-booth-317658/",
     "orig": "Стара школа проти нових технологій. Огляд фільму \"Нові злощасні пригоди Кліффа Бута\" / The Further Mis-Adventures of Cliff Booth"
    }
+  ],
+  [
+   1795853084.2929811,
+   7213,
+   "💾",
+   "OpenCrawl",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>OpenCrawl</b>\n\nБагатокористувацький режим для ваших агентів-програмістів: обговорення | Посилання\n\n🔗 <a href=\"https://www.producthunt.com/products/opencrawl\">Product Hunt</a> · #софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/opencrawl",
+    "orig": "OpenCrawl"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9793,10 +9806,9 @@
    1795802540.1287987
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
-   1795714508.8689668,
-   1795719721.443523,
    1795768360.4737234,
-   1795770100.1880996
+   1795770100.1880996,
+   1795853084.293225
   ]
  },
  "seen": {
@@ -9884,7 +9896,6 @@
   "099b928a7258f949": 1794978059.335902,
   "099c50043741ce7b": 1795800658.316236,
   "099e18fabdf8ff2a": 1795170655.6016555,
-  "09a3e479d01f6a19": 1794643426.4887376,
   "09ca5f9f370d8b4c": 1795136487.66789,
   "09d54a239efc22b7": 1794902455.1209733,
   "0a87c87c8a691f79": 1795431685.8027568,
@@ -10019,7 +10030,6 @@
   "17c7cc8e271b02a3": 1795559474.421251,
   "18083472cc55d13b": 1795710657.9819598,
   "18111343bdbdc862": 1794853852.7215874,
-  "1813149d3457eb59": 1794643258.248781,
   "181c7504d3700986": 1794900675.373803,
   "1838b8aabad57a85": 1795177877.3335977,
   "185b37f70b5fdc4b": 1795159859.629758,
@@ -10324,6 +10334,7 @@
   "37dc1299685130c1": 1795401093.7430434,
   "381a523e6f789745": 1795165257.754759,
   "3842d8555ab65648": 1794969091.2424684,
+  "38563fb6d4c98ff8": 1795853084.2931774,
   "385be78c7c4980ff": 1794925879.0101287,
   "386561240bc43bd6": 1795368653.7654736,
   "386b6e80f824ec87": 1795678255.585426,
@@ -10468,14 +10479,12 @@
   "4a13b9d757056338": 1795357857.9427907,
   "4a2208970147c5e0": 1795026653.649315,
   "4a2e5acb7afe9b74": 1795631499.0310946,
-  "4a31f61b02fc4280": 1794643258.248781,
   "4a3e56c9c07ea590": 1795555359.8922977,
   "4a4907c11e83ea45": 1795565092.7028604,
   "4a57a9939186257a": 1795307571.9054255,
   "4a83d98d19bf22e1": 1794749685.7510865,
   "4ab791bba401c79a": 1795248056.922208,
   "4ad53c8eb5f45934": 1794861053.5738606,
-  "4ad73f2ac91b448c": 1794643281.1090765,
   "4adbd58c0a3f1c35": 1795138263.2164862,
   "4ae98c8fc59d539b": 1794760180.7986965,
   "4aeb3e776c096259": 1795793501.3001397,
@@ -11406,6 +11415,7 @@
   "a9bca652f0af0729": 1795170930.420889,
   "a9d2849b3f821471": 1795680108.818066,
   "a9d5ec2624ddf448": 1795172462.663653,
+  "a9ef590bcd7df49b": 1795852854.335666,
   "aa0d4b6e080f1b03": 1795069877.7111862,
   "aa150f15302be789": 1795784457.0581658,
   "aa2ef2e62e846d1e": 1795647653.4532554,
@@ -13444,7 +13454,7 @@
    "Blabbermouth": 1,
    "Bloomberg": 38,
    "Deadline": 8,
-   "Eurogamer": 1,
+   "Eurogamer": 2,
    "GameSpot": 6,
    "GamesIndustry.biz": 2,
    "IGN": 26,
@@ -13495,7 +13505,7 @@
    "Pitchfork": 3,
    "PlayUA": 7,
    "Polygon": 26,
-   "Product Hunt": 10,
+   "Product Hunt": 11,
    "Rock Paper Shotgun": 13,
    "SteamDB": 2,
    "Stereogum": 3,
@@ -13505,9 +13515,9 @@
    "Variety": 32
   },
   "translators": {
-   "DeepL": 32,
+   "DeepL": 33,
    "gemini-flash-latest": 10,
-   "gemini-flash-lite-latest": 160,
+   "gemini-flash-lite-latest": 161,
    "gemma-4-26b-a4b-it": 120,
    "gemma-4-31b-it": 131
   },
@@ -16658,14 +16668,6 @@
  ],
  "titles": [
   [
-   1795680106.6832154,
-   "Superframes"
-  ],
-  [
-   1795680108.8180678,
-   "Хакери зламали 1Password і вкрали дані клієнтів: що робити користувачам"
-  ],
-  [
    1795681880.741288,
    "Як AI змінює IT-продажі: що тепер робить sales, а що — CRM?"
   ],
@@ -17392,17 +17394,13 @@
   [
    1795852778.2697525,
    "Стара школа проти нових технологій. Огляд фільму \"Нові злощасні пригоди Кліффа Бута\" / The Further Mis-Adventures of Cliff Booth"
+  ],
+  [
+   1795853084.29318,
+   "OpenCrawl"
   ]
  ],
  "titles_uk": [
-  [
-   1795680106.683216,
-   "Superframes"
-  ],
-  [
-   1795680108.8180685,
-   "Хакери зламали 1Password і вкрали дані клієнтів: що робити користувачам"
-  ],
   [
    1795681880.7412891,
    "Як AI змінює IT-продажі: що тепер робить sales, а що — CRM?"
@@ -18130,6 +18128,10 @@
   [
    1795852778.2697535,
    "Стара школа проти нових технологій. Огляд фільму \"Нові злощасні пригоди Кліффа Бута\" / The Further Mis-Adventures of Cliff Booth"
+  ],
+  [
+   1795853084.2931807,
+   "OpenCrawl"
   ]
  ],
  "ukrainian": {
