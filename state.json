@@ -34,45 +34,17 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-28 08:40 UTC",
-  "gemini_error": "HTTPSConnectionPool(host='generativelanguage.googleapis.com', port=443): Read timed out. (read timeout=90)",
-  "gemini_model": "gemini-flash-latest",
+  "at": "2026-11-28 09:31 UTC",
+  "gemini_error": "",
+  "gemini_model": "gemini-flash-lite-latest",
   "gemini_models_used": {
-   "gemini-flash-latest": 2,
-   "gemma-4-26b-a4b-it": 1
+   "gemini-flash-lite-latest": 1
   },
   "used": [
-   "DeepL",
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795165299.7993941,
-   6478,
-   "🎮",
-   "«Ми не вірили, що це справді відбувається». GSC про останні дні перед релізом S.T.A.L.K.E.R. 2",
-   "DOU Gamedev",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://gamedev.dou.ua/articles/stalker-2-two-years/",
-    "orig": "«Ми не вірили, що це справді відбувається». GSC про останні дні перед релізом S.T.A.L.K.E.R. 2"
-   }
-  ],
-  [
-   1795165321.8499832,
-   6479,
-   "💾",
-   "Огляд можливостей та архітектури вебсервера NGINX",
-   "GitHub Trending",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://github.com/nginx/nginx",
-    "orig": "nginx/nginx"
-   }
-  ],
   [
    1795167148.956675,
    6480,
@@ -8657,7 +8629,6 @@
    "Bloomberg",
    {
     "also": [],
-    "caption": "💾 <b>SAP зіштовхнулася з плинністю кадрів у топменеджменті</b>\n\nСофтверна компанія намагається закрити серйозні прогалини у керівному складі\n\n🔗 <a href=\"https://www.bloomberg.com/news/newsletters/2026-11-27/sap-struggles-with-turnover-in-the-executive-team\">Bloomberg</a> · #софт",
     "kind": "text",
     "link": "https://www.bloomberg.com/news/newsletters/2026-11-27/sap-struggles-with-turnover-in-the-executive-team",
     "orig": "SAP Struggles With Turnover in the Executive Team"
@@ -9512,6 +9483,20 @@
     "link": "https://itc.ua/ua/novini/vilnov-znyav-dyuna-3-zarady-odnogo-kadru-final/",
     "orig": "Трилогію «Дюна» Вільньов зняв заради одного кадру: яким буде фінал"
    }
+  ],
+  [
+   1795858289.4408507,
+   7217,
+   "💾",
+   "RankTheSearch",
+   "Product Hunt",
+   {
+    "also": [],
+    "caption": "💾 <b>RankTheSearch</b>\n\nСтворюйте TikTok-дописи, які ваші покупці вже шукають\n\n🔗 <a href=\"https://www.producthunt.com/products/rankthesearch\">Product Hunt</a> · #софт",
+    "kind": "text",
+    "link": "https://www.producthunt.com/products/rankthesearch",
+    "orig": "RankTheSearch"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9764,9 +9749,9 @@
    1795802540.1287987
   ],
   "software|Product Hunt|https://www.producthunt.com/feed": [
-   1795770100.1880996,
    1795853084.293225,
-   1795854865.7196496
+   1795854865.7196496,
+   1795858289.441116
   ]
  },
  "seen": {
@@ -10307,6 +10292,7 @@
   "390762a4c3fe7961": 1795339853.7201128,
   "390f5b31e0e93e5a": 1795770102.1313818,
   "394c6d4160bd2dac": 1795114889.6052082,
+  "3959fad3540b2a9b": 1795858289.4410713,
   "39dddfafa7ab01b4": 1794718893.7046595,
   "3a0106b8a6ccf9f8": 1795008715.524354,
   "3a02062d6fb9c8bf": 1794715283.2244556,
@@ -10583,7 +10569,6 @@
   "590ea7f90068a257": 1795293274.5484715,
   "591986f133c1bed0": 1795618855.8470001,
   "591d82ee7e715012": 1795007003.31536,
-  "594ea04fa2a1fdf5": 1794646968.0431976,
   "59a21098568062ce": 1795800719.3191867,
   "59b842e896ed4bb1": 1795087856.688431,
   "59ceae0ded9cfabf": 1795275057.4489214,
@@ -11076,7 +11061,6 @@
   "899c02e66b256f9c": 1795608056.6101136,
   "89a313b5b5220dfd": 1794814476.4494536,
   "89af4559da72d4cc": 1794772972.1714723,
-  "89b1f5bfbda1a562": 1794648652.8129776,
   "89e558f7f64154ab": 1794666687.7072842,
   "8a1bb4ae4df18370": 1795435266.6043499,
   "8a250060886f85fc": 1795221210.14038,
@@ -12103,7 +12087,6 @@
   "f4d0715bf8848d44": 1795212402.1109285,
   "f4f435b8c5aa1288": 1795159859.629758,
   "f52ce957eaf0a478": 1795006853.2084172,
-  "f53325a92664d362": 1794646997.4718451,
   "f54418d5d572ba39": 1795190538.9674985,
   "f565242956bed46e": 1795212399.4080358,
   "f567879d7fecd0c4": 1795280454.879558,
@@ -13466,7 +13449,7 @@
    "Pitchfork": 3,
    "PlayUA": 7,
    "Polygon": 26,
-   "Product Hunt": 12,
+   "Product Hunt": 13,
    "Rock Paper Shotgun": 13,
    "SteamDB": 2,
    "Stereogum": 3,
@@ -13478,7 +13461,7 @@
   "translators": {
    "DeepL": 34,
    "gemini-flash-latest": 12,
-   "gemini-flash-lite-latest": 161,
+   "gemini-flash-lite-latest": 162,
    "gemma-4-26b-a4b-it": 121,
    "gemma-4-31b-it": 131
   },
@@ -16629,10 +16612,6 @@
  ],
  "titles": [
   [
-   1795683733.2422655,
-   "Netflix Cancels ‘Amsterdam Empire’ Starring Famke Janssen After One Season"
-  ],
-  [
    1795685567.5804682,
    "The Lord of the Rings’ Next Movie Officially Wraps Production, but Now the Hard Part Begins"
   ],
@@ -17359,13 +17338,13 @@
   [
    1795856473.7835865,
    "Трилогію «Дюна» Вільньов зняв заради одного кадру: яким буде фінал"
+  ],
+  [
+   1795858289.4410737,
+   "RankTheSearch"
   ]
  ],
  "titles_uk": [
-  [
-   1795683733.2422664,
-   "Netflix скасував серіал Amsterdam Empire після першого сезону"
-  ],
   [
    1795685567.580469,
    "Завершилися зйомки нового фільму The Hunt for Gollum"
@@ -18093,6 +18072,10 @@
   [
    1795856473.7835877,
    "Трилогію «Дюна» Вільньов зняв заради одного кадру: яким буде фінал"
+  ],
+  [
+   1795858289.4410744,
+   "RankTheSearch"
   ]
  ],
  "ukrainian": {
