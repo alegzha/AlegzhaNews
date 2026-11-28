@@ -1,8 +1,15 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795847476.3768125
+  }
+ },
  "daily_digest_date": "2026-11-27",
  "freebies": {
-  "last_check": 1795840494.0182393,
+  "last_check": 1795847603.9426758,
   "seen": {
    "3426": 1793288201.2109208,
    "3716": 1792306888.9735367,
@@ -34,43 +41,18 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-28 06:05 UTC",
+  "at": "2026-11-28 06:33 UTC",
   "gemini_error": "",
-  "gemini_model": "gemma-4-26b-a4b-it",
+  "gemini_model": "gemma-4-31b-it",
   "gemini_models_used": {
-   "gemma-4-26b-a4b-it": 2
+   "gemma-4-26b-a4b-it": 1,
+   "gemma-4-31b-it": 1
   },
   "used": [
    "Gemini"
   ]
  },
  "post_log": [
-  [
-   1795156299.3818913,
-   6468,
-   "🤖",
-   "Ще одна Велика Британія в попиті на струм: що показує звіт МЕА про дата-центри для ШІ",
-   "ITC.ua",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://itc.ua/ua/novini/shhe-odna-velyka-brytaniya-v-popyti-na-strum-shho-pokazuye-zvit-mea-pro-data-tsentry-dlya-shi/",
-    "orig": "Ще одна Велика Британія в попиті на струм: що показує звіт МЕА про дата-центри для ШІ"
-   }
-  ],
-  [
-   1795156389.7650383,
-   6469,
-   "🤘",
-   "Rammstein поділилися концертним відео Du Hast із релізу Live in Mexico City",
-   "Lambgoat",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://lambgoat.com/news/55986/rammstein-premiere-du-hast-from-live-in-mexico-city-release/",
-    "orig": "Rammstein premiere \"Du Hast\" from 'Live in Mexico City' release"
-   }
-  ],
   [
    1795158293.798131,
    6470,
@@ -8667,7 +8649,6 @@
    "Deadline",
    {
     "also": [],
-    "caption": "🎬 <b>BAFTA втрачає спонсора EE та стикається з бойкотом фільму про Майкла Джексона</b>\n📖 <a href=\"https://telegra.ph/BAFTA-vtrachaye-sponsora-EE-ta-stikayetsya-z-bojkotom-fіlmu-pro-Majkla-Dzheksona-11-27\">Читати повністю українською</a>\n\nКінопремія BAFTA зіткнулася з проблемою перед церемонією через відмову продюсерів біографічного фільму про Майкла Джексона подавати стрічку на розгляд. Ситуацію ускладнила втрата багаторічного головного спонсора EE через зміну бізнес-стратегії компанії.\n\n🔗 <a href=\"https://deadline.com/2026/11/international-insider-doha-film-festival-bafta-empress-1237233962/\">Deadline</a> · #кіно_і_серіали #BAFTA",
     "kind": "photo",
     "link": "https://deadline.com/2026/11/international-insider-doha-film-festival-bafta-empress-1237233962/",
     "orig": "International Insider: Doha Days; Tricky Week For BAFTA; ‘Remarried Empress’ Interview"
@@ -8681,7 +8662,6 @@
    "Digital Foundry",
    {
     "also": [],
-    "caption": "🎮 <b>Keychron V6 Ultra HE 8K виявилася чудовим варіантом за $108</b>\n📖 <a href=\"https://telegra.ph/Keychron-V6-Ultra-HE-8K-viyavilasya-chudovim-varіantom-za-108-11-27\">Читати повністю українською</a>\n\nПовнорозмірна механічна клавіатура має перемикачі Hall Effect, підтримує дротове та бездротове підключення з частотою опитування до 8K. Модель оснащена PBT-кейкапами, RGB-підсвіткою та сумісна з macOS і Windows. Налаштування здійснюються через вебдодаток Keychron Launcher.\n\n🔗 <a href=\"https://www.digitalfoundry.net/reviews/keychron-v6-ultra-he-8k-usd110-for-a-huge-silent-mechanical-keyboard-is-excellent-value\">Digital Foundry</a> · #ігри #Keychron",
     "kind": "photo",
     "link": "https://www.digitalfoundry.net/reviews/keychron-v6-ultra-he-8k-usd110-for-a-huge-silent-mechanical-keyboard-is-excellent-value",
     "orig": "Review: Keychron V6 Ultra HE 8K: $110 for a Huge, Silent Mechanical Keyboard Is Excellent Value"
@@ -9522,6 +9502,34 @@
     "link": "https://www.polygon.com/dungeon-crawler-carl-new-comic-series-release-date-january-2027/",
     "orig": "New Dungeon Crawler Carl Release Officially Set for 2027"
    }
+  ],
+  [
+   1795847551.3587208,
+   7206,
+   "🎬",
+   "The Hunting Wives присвятили фінал сезону продюсерці Саллі Ньюман",
+   "Deadline",
+   {
+    "also": [],
+    "caption": "🎬 <b>The Hunting Wives присвятили фінал сезону продюсерці Саллі Ньюман</b>\n\nФінал другого сезону серіалу The Hunting Wives на Netflix присвятили продюсерці Саллі Ньюман. Вона померла від серцевого нападу у грудні 2025 року під час зйомок проєкту. Ньюман працювала у Lionsgate та була причетна до створення таких проєктів, як D2: The Mighty Ducks і Greenleaf.\n\n🔗 <a href=\"https://deadline.com/2026/11/salli-newman-hunting-wives-tribute-1237234359/\">Deadline</a> · #кіно_і_серіали #TheHuntingWives #Lionsgate",
+    "kind": "photo",
+    "link": "https://deadline.com/2026/11/salli-newman-hunting-wives-tribute-1237234359/",
+    "orig": "‘The Hunting Wives’ Pays Tribute To Lionsgate Exec Salli Newman"
+   }
+  ],
+  [
+   1795847594.8709667,
+   7207,
+   "🎬",
+   "NBC прибрала рекламу із закликом припинити військову допомогу Ізраїлю",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>NBC прибрала рекламу із закликом припинити військову допомогу Ізраїлю</b>\n\nТелеканал NBC видалив рекламний ролик, у якому закликали припинити військову допомогу США Ізраїлю. Після критики від Simon Wiesenthal Center мережа перегляне процедури затвердження реклами. Ролик порівнював побутові труднощі американської дитини з гуманітарною кризою в Газі.\n\n🔗 <a href=\"https://variety.com/2026/tv/news/nbc-israel-military-aid-spot-middle-east-girl-1236959795/\">Variety</a> · #кіно_і_серіали #NBC",
+    "kind": "photo",
+    "link": "https://variety.com/2026/tv/news/nbc-israel-military-aid-spot-middle-east-girl-1236959795/",
+    "orig": "NBC Pulls Spot Advocating for End of U.S. Military Aid to Israel, Will Review Approval Procedures After Outcry"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9643,8 +9651,6 @@
    1793025225.7726166
   ],
   "movies|Deadline|https://deadline.com/feed/": [
-   1795759381.6843503,
-   1795761101.0588112,
    1795771968.657681,
    1795773719.7535295,
    1795781628.345832,
@@ -9657,7 +9663,8 @@
    1795831547.536147,
    1795833291.62407,
    1795836804.6148856,
-   1795840275.0588975
+   1795840275.0588975,
+   1795847551.3589296
   ],
   "movies|ITC.ua|https://itc.ua/ua/feed/": [
    1795775478.906556,
@@ -9676,9 +9683,9 @@
    1795842334.952536
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
-   1795757808.0462098,
    1795775532.1610303,
-   1795829625.921068
+   1795829625.921068,
+   1795847594.8712175
   ],
   "music|Blabbermouth|https://blabbermouth.net/feed": [
    1795827855.73312,
@@ -10694,7 +10701,6 @@
   "62a7555008ce43d9": 1794742362.40263,
   "62b226ac36663dad": 1795084273.251863,
   "62c0a6c5dbe1126d": 1795699859.506409,
-  "62c6ced8a6ea6559": 1794637883.8932354,
   "62df59dc526339e9": 1795512683.1291454,
   "62e491574525e6c0": 1795660400.2269342,
   "6321868b6dedc5b3": 1795201253.256003,
@@ -10946,6 +10952,7 @@
   "7b2b6b63b1cfbc4b": 1794690162.9912977,
   "7b3b411dcee488aa": 1794717099.7117941,
   "7b718abc89b3d5db": 1794952969.8654578,
+  "7b7a8c20844e4ebf": 1795847594.8711326,
   "7b97f7c0d01ac93a": 1795649582.5355642,
   "7ba0c24cbcbdd68c": 1795302066.7902653,
   "7ba309e293e0dda9": 1795435304.6920815,
@@ -12018,7 +12025,6 @@
   "eadbd6d91ead0af2": 1795312933.294345,
   "eae0eddf22201dc9": 1794981717.4583611,
   "eb00c529bd3f736f": 1795708945.1372654,
-  "eb2b9038a4a7bdd2": 1794637880.8277705,
   "eb7188a71c381305": 1795100487.7141306,
   "eb75c80d3f05bccf": 1795777351.7163723,
   "eb794a5547005fed": 1795327503.1055524,
@@ -12130,6 +12136,7 @@
   "f69699f3d38fbc76": 1795834956.9098666,
   "f6afea080b7ad85a": 1795255451.0489664,
   "f6e433df38054a4e": 1794754851.4331238,
+  "f6ed669cfd72ad10": 1795847551.3588793,
   "f6febf164c742c4e": 1795600854.8525043,
   "f71b1eeb2c071adc": 1795073478.9226756,
   "f73295c867ad4ff6": 1794682854.575637,
@@ -12663,7 +12670,7 @@
   ],
   "artists_checked": 1795833303.507986,
   "blocked_until": 1795833191.9257512,
-  "cursor": 353,
+  "cursor": 363,
   "digest_week": "2026-W48",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13452,7 +13459,7 @@
    "Bloomberg": 39,
    "DOU": 5,
    "DOU Gamedev": 4,
-   "Deadline": 73,
+   "Deadline": 74,
    "Decibel": 1,
    "Digital Foundry": 2,
    "Distorted Sound": 7,
@@ -13481,14 +13488,14 @@
    "The Decoder": 14,
    "ThePRP": 9,
    "VGC": 14,
-   "Variety": 30
+   "Variety": 31
   },
   "translators": {
    "DeepL": 32,
    "gemini-flash-latest": 10,
    "gemini-flash-lite-latest": 157,
-   "gemma-4-26b-a4b-it": 117,
-   "gemma-4-31b-it": 130
+   "gemma-4-26b-a4b-it": 118,
+   "gemma-4-31b-it": 131
   },
   "week": "2026-W48"
  },
@@ -16686,10 +16693,6 @@
  ],
  "titles": [
   [
-   1795674703.311144,
-   "WhatsApp додав відкладені повідомлення та готує стікери зі звуком"
-  ],
-  [
    1795674811.28253,
    "JioStar Brings Star Plus, Colors and Five More Indian TV Channels to Fubo in the U.S."
   ],
@@ -17416,13 +17419,17 @@
   [
    1795845932.2402384,
    "New Dungeon Crawler Carl Release Officially Set for 2027"
+  ],
+  [
+   1795847551.3588812,
+   "‘The Hunting Wives’ Pays Tribute To Lionsgate Exec Salli Newman"
+  ],
+  [
+   1795847594.8711343,
+   "NBC Pulls Spot Advocating for End of U.S. Military Aid to Israel, Will Review Approval Procedures After Outcry"
   ]
  ],
  "titles_uk": [
-  [
-   1795674703.3111446,
-   "WhatsApp додав відкладені повідомлення та готує стікери зі звуком"
-  ],
   [
    1795674811.2825308,
    "JioStar додала Star Plus, Colors та ще п'ять індійських ТБ-каналів до Fubo у США"
@@ -18150,6 +18157,14 @@
   [
    1795845932.2402396,
    "Dungeon Crawler Carl отримає комікс-адаптацію у 2027 році"
+  ],
+  [
+   1795847551.3588817,
+   "The Hunting Wives присвятили фінал сезону продюсерці Саллі Ньюман"
+  ],
+  [
+   1795847594.8711348,
+   "NBC прибрала рекламу із закликом припинити військову допомогу Ізраїлю"
   ]
  ],
  "ukrainian": {
@@ -20644,7 +20659,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795844001.827061,
+  "last_check": 1795847603.8236685,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
