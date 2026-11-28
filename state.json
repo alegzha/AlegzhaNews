@@ -1,5 +1,12 @@
 {
- "alerts": {},
+ "alerts": {
+  "src:music|Neformat|https://www.neformat.com.ua/": {
+   "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
+   "label": "Джерело «Neformat» не працює",
+   "sent": 0,
+   "since": 1795851074.6049256
+  }
+ },
  "daily_digest_date": "2026-11-27",
  "freebies": {
   "last_check": 1795847603.9426758,
@@ -34,11 +41,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-28 07:02 UTC",
+  "at": "2026-11-28 07:34 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_model": "gemma-4-26b-a4b-it",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 2,
+   "gemini-flash-lite-latest": 1,
    "gemma-4-26b-a4b-it": 1
   },
   "used": [
@@ -46,45 +53,6 @@
   ]
  },
  "post_log": [
-  [
-   1795158293.798131,
-   6470,
-   "🤘",
-   "Shadows Fall доєдналися до лайнапу Milwaukee Metal Fest 2027",
-   "ThePRP",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://www.theprp.com/2026/11/19/news/shadows-fall-added-to-2027-milwaukee-metal-fest-lineup/",
-    "orig": "Shadows Fall Added To 2027 ‘Milwaukee Metal Fest’ Lineup"
-   }
-  ],
-  [
-   1795158349.1239436,
-   6471,
-   "🎬",
-   "The Airport Chaplain з Х'юго Вівінгом отримав другий сезон",
-   "Deadline",
-   {
-    "also": [],
-    "kind": "photo",
-    "link": "https://deadline.com/2026/11/airport-chaplain-season-2-wooden-horse-interview-1237215499/",
-    "orig": "Season 2 Of Hugo Weaving Drama ‘The Airport Chaplain’ Coming Together As Producer Wooden Horse Expands With Hires & R.L. Stine TV Series"
-   }
-  ],
-  [
-   1795160042.8998487,
-   6472,
-   "🤖",
-   "Скандал з Nvidia відкрив можливості для індійських конкурентів у сфері ШІ",
-   "Bloomberg",
-   {
-    "also": [],
-    "kind": "text",
-    "link": "https://www.bloomberg.com/news/articles/2026-11-20/nvidia-scandal-fallout-india-ai-yotta-ambani-adani-am-intelligence-e2e-networks",
-    "orig": "Nvidia Scandal Fallout Creates Opening for India’s AI Contenders"
-   }
-  ],
   [
    1795160100.2536058,
    6473,
@@ -8694,7 +8662,6 @@
    "ITC.ua",
    {
     "also": [],
-    "caption": "🎬 <b>«Голодні ігри» обійшли новинки Disney і Universal перед Днем подяки</b>\n\n«Голодні ігри: Світанок перед Жнивами» лідирують у прокаті Північної Америки напередодні Дня подяки. У середу, 25 листопада, приквел від Lionsgate зібрав $15 млн. Завдяки гарним відгукам глядачів за п’ятиденні святкові вихідні фільм може заробити ще $85 млн, і тоді його збори в США та Канаді сягнуть $233 млн.\n\n🔗 <a href=\"https://itc.ua/ua/novini/golodni-igry-den-podyaky-kasovi-zbory-hexed-focker-in-law/\">ITC.ua</a> · #кіно_і_серіали",
     "kind": "text",
     "link": "https://itc.ua/ua/novini/golodni-igry-den-podyaky-kasovi-zbory-hexed-focker-in-law/",
     "orig": "«Голодні ігри» обійшли новинки Disney і Universal перед Днем подяки"
@@ -8708,7 +8675,6 @@
    "Mezha",
    {
     "also": [],
-    "caption": "💾 <b>Samsung розробляє захищену хмару для ШІ за аналогією з Apple</b>\n\nSamsung тестує SPAC – систему захищеної хмарної обробки даних для Galaxy AI, схожу на Private Cloud Compute від Apple. Вона має допомогти виконувати ШІ-запити на серверах компанії, водночас краще захищаючи приватність користувачів.\n\n🔗 <a href=\"https://mezha.ua/news/samsung-private-cloud-for-ai-features-317651/\">Mezha</a> · #софт",
     "kind": "photo",
     "link": "https://mezha.ua/news/samsung-private-cloud-for-ai-features-317651/",
     "orig": "Samsung розробляє захищену хмару для ШІ за аналогією з Apple"
@@ -9549,6 +9515,34 @@
     "link": "https://www.pcgamer.com/hardware/the-better-version-of-the-wireless-headset-i-love-is-usd40-off-right-now/",
     "orig": "The better version of the wireless headset I love is $40 off right now"
    }
+  ],
+  [
+   1795851081.6891031,
+   7210,
+   "🤘",
+   "Torture Methods випустив новий альбом Dark Realities For The Quasi-Angelic",
+   "Stereogum",
+   {
+    "also": [],
+    "caption": "🤘 <b>Torture Methods випустив новий альбом Dark Realities For The Quasi-Angelic</b>\n\nМузикант Grant Chapman під псевдонімом Torture Methods випустив новий альбом Dark Realities For The Quasi-Angelic. Платівка повністю складається з семплів, записаних протягом двох місяців на основі праць Mark Fisher, документалок Adam Curtis, блек-металу, музики Burial та гри Baroque.\n\n🔗 <a href=\"https://stereogum.com/2522132/listen-to-torture-methods-bewitching-dark-realities-for-the-quasi-angelic/music/\">Stereogum</a> · #музика #TortureMethods",
+    "kind": "photo",
+    "link": "https://stereogum.com/2522132/listen-to-torture-methods-bewitching-dark-realities-for-the-quasi-angelic/music/",
+    "orig": "Listen To Torture Methods’ Bewitching Dark Realities For The Quasi-Angelic"
+   }
+  ],
+  [
+   1795851275.9732356,
+   7211,
+   "🎬",
+   "JAFF Market допомагатиме індонезійському кіно виходити на світові ринки",
+   "Variety",
+   {
+    "also": [],
+    "caption": "🎬 <b>JAFF Market допомагатиме індонезійському кіно виходити на світові ринки</b>\n\nДиректорка JAFF Market Лінда Гозалі прагне допомогти індонезійській кіноіндустрії вийти на міжнародний рівень, зберігаючи культурну ідентичність. Ринок зосереджений на пошуку партнерів та вирішенні проблем із дистрибуцією й інфраструктурою. Завдяки ініціативам JAFF уже отримали підтримку такі проєкти, як Pangku та My Mother.\n\n🔗 <a href=\"https://variety.com/2026/film/markets-festivals/indonesian-cinema-next-chapter-global-jaff-market-1236959893/\">Variety</a> · #кіно_і_серіали #JAFFMarket",
+    "kind": "photo",
+    "link": "https://variety.com/2026/film/markets-festivals/indonesian-cinema-next-chapter-global-jaff-market-1236959893/",
+    "orig": "Indonesian Cinema’s Next Chapter Is Reaching the World ‘Without Losing Our Cultural Identity,’ Says JAFF Market Director Linda Gozali"
+   }
   ]
  ],
  "posted_by_source": {
@@ -9696,9 +9690,9 @@
    1795834958.926603
   ],
   "movies|Variety|https://variety.com/v/film/feed/": [
-   1795763169.1756601,
    1795777328.5918126,
-   1795842334.952536
+   1795842334.952536,
+   1795851275.973497
   ],
   "movies|Variety|https://variety.com/v/tv/feed/": [
    1795775532.1610303,
@@ -9754,7 +9748,7 @@
    1795070079.4944077
   ],
   "music|Stereogum|https://www.stereogum.com/feed/": [
-   1795660400.2269785
+   1795851081.6893666
   ],
   "music|ThePRP|https://www.theprp.com/feed/": [
    1795737738.2513306,
@@ -10846,7 +10840,6 @@
   "6e593adc4da4e4f4": 1795582912.6816628,
   "6e8802f2a11e9527": 1795014098.1785989,
   "6e998c7ac3649e67": 1795453258.7776709,
-  "6ea89312432564a4": 1794641656.7550395,
   "6ee792a2affe5da4": 1795057287.898968,
   "6eef0929d7191992": 1794965489.1035419,
   "6ef5cc6bcb35c23b": 1795061027.7438369,
@@ -11245,6 +11238,7 @@
   "9a572ea83323a0d4": 1795354506.2575781,
   "9a64b97fa837903b": 1795563251.3867362,
   "9a6c41ca2647e6f6": 1795681880.7412865,
+  "9a85057877074ecf": 1795851275.9734542,
   "9a8aadcafa6f1358": 1795647678.5153317,
   "9a8d28de3ed44b71": 1795807880.3188071,
   "9a945af4bff676bc": 1795564695.9914355,
@@ -11404,6 +11398,7 @@
   "a95ee396270de058": 1795439291.689348,
   "a965b82787539b43": 1795266083.4118845,
   "a9802821376f6db1": 1794954705.104032,
+  "a9932fad7b79a45c": 1795851081.6893232,
   "a998af886d9355e1": 1795044701.484141,
   "a99a938255b7b6a6": 1795012310.146826,
   "a9b1dfc34f9eb204": 1794733272.625569,
@@ -12162,7 +12157,6 @@
   "f76f3e57aef103a8": 1795363435.5769925,
   "f791d596ac0483f5": 1795086182.6948946,
   "f7c23a7673884543": 1795651502.3877063,
-  "f7cfdfd7bcc39abd": 1794641660.5050795,
   "f7ee7b91a95fc177": 1795278653.9636526,
   "f804720e6fdb4373": 1795818997.4165862,
   "f8191b8aa2022caf": 1795620660.2160394,
@@ -12687,8 +12681,8 @@
    "0A7d0PJxaLO7CGI94ht6PX"
   ],
   "artists_checked": 1795833303.507986,
-  "blocked_until": 1795833191.9257512,
-  "cursor": 2,
+  "blocked_until": 1795919763.01953,
+  "cursor": 3,
   "digest_week": "2026-W48",
   "seen": {
    "00YTqRClk82aMchQQpYMd5": [
@@ -13502,17 +13496,17 @@
    "Product Hunt": 10,
    "Rock Paper Shotgun": 13,
    "SteamDB": 2,
-   "Stereogum": 2,
+   "Stereogum": 3,
    "The Decoder": 14,
    "ThePRP": 9,
    "VGC": 14,
-   "Variety": 31
+   "Variety": 32
   },
   "translators": {
    "DeepL": 32,
    "gemini-flash-latest": 10,
-   "gemini-flash-lite-latest": 159,
-   "gemma-4-26b-a4b-it": 119,
+   "gemini-flash-lite-latest": 160,
+   "gemma-4-26b-a4b-it": 120,
    "gemma-4-31b-it": 131
   },
   "week": "2026-W48"
@@ -14823,26 +14817,6 @@
    "",
    1795833076.8062701
   ],
-  "q:gear solid": [
-   0,
-   "",
-   1795676531.6026351
-  ],
-  "q:gear solid event": [
-   0,
-   "",
-   1795676531.0942073
-  ],
-  "q:gear solid event goes": [
-   0,
-   "",
-   1795676530.592375
-  ],
-  "q:gear solid event goes live": [
-   0,
-   "",
-   1795676530.099384
-  ],
   "q:glagstone": [
    4198840,
    "GlagStone",
@@ -15237,31 +15211,6 @@
    0,
    "",
    1795687460.1033418
-  ],
-  "q:metal gear": [
-   0,
-   "",
-   1795676529.538003
-  ],
-  "q:metal gear solid": [
-   0,
-   "",
-   1795676529.0157447
-  ],
-  "q:metal gear solid event": [
-   0,
-   "",
-   1795676528.4927742
-  ],
-  "q:metal gear solid event goes": [
-   0,
-   "",
-   1795676527.9919455
-  ],
-  "q:metal gear solid event goes live": [
-   0,
-   "",
-   1795676527.4759989
   ],
   "q:metroidvania": [
    4986900,
@@ -16048,16 +15997,6 @@
    "SLOP",
    1793365294.3814354
   ],
-  "q:solid event goes live": [
-   0,
-   "",
-   1795676532.5929077
-  ],
-  "q:solid event goes live in two": [
-   0,
-   "",
-   1795676532.0989928
-  ],
   "q:songs of the past": [
    4825960,
    "Songs of the Past",
@@ -16716,18 +16655,6 @@
   1795849349.5789344
  ],
  "titles": [
-  [
-   1795676583.5412998,
-   "Delta Force x Metal Gear Solid Event Goes Live in Two Days"
-  ],
-  [
-   1795678280.2619853,
-   "Хакер викрав дані користувачів 1Password – компанія запевняє, що паролі не постраждали"
-  ],
-  [
-   1795678434.7684612,
-   "Banks Risk Outages as They Contend With AI Threats"
-  ],
   [
    1795680106.6832154,
    "Superframes"
@@ -17451,21 +17378,17 @@
   [
    1795849354.366594,
    "The better version of the wireless headset I love is $40 off right now"
+  ],
+  [
+   1795851081.689325,
+   "Listen To Torture Methods’ Bewitching Dark Realities For The Quasi-Angelic"
+  ],
+  [
+   1795851275.9734564,
+   "Indonesian Cinema’s Next Chapter Is Reaching the World ‘Without Losing Our Cultural Identity,’ Says JAFF Market Director Linda Gozali"
   ]
  ],
  "titles_uk": [
-  [
-   1795676583.5413008,
-   "Delta Force та Metal Gear Solid Delta: Snake Eater запускають колаборацію"
-  ],
-  [
-   1795678280.2619863,
-   "Хакер викрав дані користувачів 1Password – компанія запевняє, що паролі не постраждали"
-  ],
-  [
-   1795678434.768463,
-   "Банки ризикують отримати збої в роботі через загрози від ШІ"
-  ],
   [
    1795680106.683216,
    "Superframes"
@@ -18189,6 +18112,14 @@
   [
    1795849354.3665948,
    "Бездротова гарнітура Sony Inzone H9 отримала знижку $40 на Black Friday"
+  ],
+  [
+   1795851081.6893258,
+   "Torture Methods випустив новий альбом Dark Realities For The Quasi-Angelic"
+  ],
+  [
+   1795851275.973457,
+   "JAFF Market допомагатиме індонезійському кіно виходити на світові ринки"
   ]
  ],
  "ukrainian": {
@@ -20683,7 +20614,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795847603.8236685,
+  "last_check": 1795851284.6108346,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
