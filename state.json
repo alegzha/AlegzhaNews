@@ -1,11 +1,5 @@
 {
  "alerts": {
-  "src:music|Kerrang!|https://www.kerrang.com/feed.rss": {
-   "detail": "https://www.kerrang.com/feed.rss → 403 напряму; через воркер: 403 Client Error: Forbidden for url: https://alegzhanews.alegzha.workers.dev/feed?url=https%3",
-   "label": "Джерело «Kerrang!» не працює",
-   "sent": 0,
-   "since": 1795867271.9124944
-  },
   "src:music|Neformat|https://www.neformat.com.ua/": {
    "detail": "https://www.neformat.com.ua/ → 415 Client Error: Unsupported Media Type for url: https://www.neformat.com.ua/",
    "label": "Джерело «Neformat» не працює",
@@ -47,12 +41,11 @@
   }
  },
  "last_translation": {
-  "at": "2026-11-28 11:33 UTC",
+  "at": "2026-11-28 12:32 UTC",
   "gemini_error": "",
-  "gemini_model": "gemini-flash-lite-latest",
+  "gemini_model": "gemini-flash-latest",
   "gemini_models_used": {
-   "gemini-flash-lite-latest": 1,
-   "gemma-4-26b-a4b-it": 1
+   "gemini-flash-latest": 1
   },
   "used": [
    "Gemini"
@@ -9705,7 +9698,6 @@
  },
  "seen": {
   "000aad49e3743a35": 1794907878.0427954,
-  "0032a0e84465878b": 1794657687.3126094,
   "00c06aae5a247a06": 1795710727.4164388,
   "00c8fb00a9fa68ff": 1795645889.279715,
   "00d55bdbf70bab25": 1795480289.5180795,
@@ -9943,7 +9935,6 @@
   "19af98d7c7127689": 1794814464.6482637,
   "19c5bf53abe48aee": 1795701658.5073392,
   "19d84f6a7af8c00b": 1795435266.6043499,
-  "19e563a267e1b55f": 1794659494.4706376,
   "1a3b47fa6c0e1137": 1795611655.103084,
   "1a856fd734078ba2": 1795208454.5689726,
   "1a97c665df3321b9": 1794864757.774673,
@@ -11786,6 +11777,7 @@
   "da7e4e2063664e7f": 1795449854.863025,
   "da8f7d3d217def39": 1795422656.3810875,
   "dadb24a73a7a90e0": 1794765695.316193,
+  "db29b4eadb1d44ac": 1795869053.2698836,
   "db37c6115a53a5ad": 1794979899.4425118,
   "db554fe2504000d1": 1795239214.0430043,
   "db5dc362e86ccdcc": 1795759381.6843016,
@@ -11827,7 +11819,7 @@
   "dfebdc22f289e93b": 1795649497.5579216,
   "dfedf6bb8a1d55da": 1795822255.802037,
   "dfedfa4966b60219": 1794819950.4708943,
-  "dff5868d772e2c33": 1794659479.793679,
+  "dff6930f4bb73b83": 1795869154.51322,
   "e00b1e17ba5632cb": 1795631454.4234602,
   "e00d2a4c18e89825": 1795707084.124332,
   "e012fe2effbf0ad6": 1795046491.8422067,
@@ -13346,7 +13338,7 @@
    "Eurogamer": 2,
    "GameSpot": 6,
    "GamesIndustry.biz": 2,
-   "IGN": 28,
+   "IGN": 29,
    "ITC.ua": 1,
    "IndieWire": 2,
    "Insider Gaming": 84,
@@ -13405,7 +13397,7 @@
   },
   "translators": {
    "DeepL": 38,
-   "gemini-flash-latest": 12,
+   "gemini-flash-latest": 13,
    "gemini-flash-lite-latest": 163,
    "gemma-4-26b-a4b-it": 122,
    "gemma-4-31b-it": 131
@@ -14148,6 +14140,16 @@
    "",
    1795822340.417541
   ],
+  "q:concern for rumored": [
+   0,
+   "",
+   1795869077.4754739
+  ],
+  "q:concern for rumored the simpsons": [
+   0,
+   "",
+   1795869076.8631163
+  ],
   "q:conker": [
    0,
    "",
@@ -14788,6 +14790,21 @@
    "",
    1795768364.480591
   ],
+  "q:hit run remake": [
+   0,
+   "",
+   1795869081.2206383
+  ],
+  "q:hit run remake amid": [
+   0,
+   "",
+   1795869080.7025073
+  ],
+  "q:hit run remake amid radical": [
+   0,
+   "",
+   1795869080.205809
+  ],
   "q:hollow knight silksong": [
    1030300,
    "Hollow Knight: Silksong",
@@ -14873,11 +14890,6 @@
    "",
    1795820479.1855354
   ],
-  "q:june": [
-   3645270,
-   "June",
-   1793275388.2682683
-  ],
   "q:jurassic world evolution 2": [
    1244460,
    "Jurassic World Evolution 2",
@@ -14887,11 +14899,6 @@
    3073310,
    "K-Pop!",
    1793826091.0230763
-  ],
-  "q:ken kutaragi": [
-   0,
-   "",
-   1795694569.216852
   ],
   "q:keychron": [
    0,
@@ -14967,11 +14974,6 @@
    0,
    "",
    1795757812.5137706
-  ],
-  "q:kutaragi": [
-   0,
-   "",
-   1795694569.8406641
   ],
   "q:lake": [
    1118240,
@@ -15583,6 +15585,21 @@
    "",
    1795698087.6228232
   ],
+  "q:rumored": [
+   0,
+   "",
+   1795869079.126672
+  ],
+  "q:rumored the simpsons": [
+   0,
+   "",
+   1795869078.592752
+  ],
+  "q:rumored the simpsons hit": [
+   0,
+   "",
+   1795869078.0502794
+  ],
   "q:run and prototype": [
    0,
    "",
@@ -15602,6 +15619,21 @@
    0,
    "",
    1795768365.9348419
+  ],
+  "q:run remake amid radical": [
+   0,
+   "",
+   1795869083.0960438
+  ],
+  "q:run remake amid radical game": [
+   0,
+   "",
+   1795869082.514007
+  ],
+  "q:run remake amid radical game cancelation": [
+   0,
+   "",
+   1795869081.7116642
   ],
   "q:rune": [
    0,
@@ -15647,11 +15679,6 @@
    0,
    "",
    1795780910.3885994
-  ],
-  "q:secretly intended": [
-   0,
-   "",
-   1795694568.7058089
   ],
   "q:selaco": [
    1592280,
@@ -15712,6 +15739,11 @@
    0,
    "",
    1795768362.4706001
+  ],
+  "q:simpsons hit run remake": [
+   0,
+   "",
+   1795869079.6448529
   ],
   "q:sims": [
    0,
@@ -16367,18 +16399,6 @@
   1795865606.9534075
  ],
  "titles": [
-  [
-   1795694566.6566234,
-   "Introducing the llama.cpp benchmark dashboard for AMD Ryzen and Radeon"
-  ],
-  [
-   1795694810.1656246,
-   "PlayStation father Ken Kutaragi claims he ‘secretly intended’ to convince Microsoft to make Xbox"
-  ],
-  [
-   1795696290.5372972,
-   "Ubisoft reportedly goes all in on company-wide generative-AI use, and if developers don't want to use it, they have to explain why in detail"
-  ],
   [
    1795696423.7026083,
    "Fed up of Steam's lack of action regarding AI slop? Maybe you should take a look at the 'Games Without AI' event, instead"
@@ -17077,18 +17097,6 @@
   ]
  ],
  "titles_uk": [
-  [
-   1795694566.6566238,
-   "Запущено бенчмарк-панель llama.cpp для AMD Ryzen та Radeon"
-  ],
-  [
-   1795694810.1656253,
-   "«Батько» PlayStation Кен Кутарагі зізнався, що таємно хотів переконати Microsoft створити Xbox"
-  ],
-  [
-   1795696290.5372982,
-   "Ubisoft змушує розробників виправдовуватися за відмову від генеративного ШІ"
-  ],
   [
    1795696423.702609,
    "На Steam стартував захід Games Without AI для підтримки ігор без використання ШІ"
@@ -20278,7 +20286,7 @@
     "release": 1706198311
    }
   },
-  "last_check": 1795864050.5731769,
+  "last_check": 1795869162.0057933,
   "profile": "https://steamcommunity.com/id/alegzha/",
   "steamid": "76561198074935882"
  }
